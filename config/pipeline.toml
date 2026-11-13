@@ -1,0 +1,43 @@
+# Pipeline configuration (design: docs/wikipedia-podcast-pipeline.md).
+# No secrets in this file. API keys come from environment variables / GitHub secrets.
+# Every value "PLACEHOLDER" is unknown and must be filled in before the step that needs it.
+
+[judge]
+t = 0.95                 # threshold, one value for all questions; recalibrated later
+# all p >= t: supported; any p <= 1 - t: not supported; otherwise LLM judge verdict
+
+[review]
+r_initial = 1.0          # sampling rate start (100 %)
+r_min = 0.01             # lower bound (1 %)
+r_factor_clean = "2/3"   # error-free reviewed episode: r * 2/3
+r_factor_error = 2       # error found: r * 2, at most 1.0
+
+[models]
+author = "claude-sonnet-5-5"        # extraction, ranking, dialog author (Claude Sonnet 5.5)
+llm_judge = "claude-sonnet-5-5"     # judge stage 2, same model as the author (design)
+jev = "jev-1.13"                    # TypeSafe, judge stage 1
+tts = "PLACEHOLDER"                 # ElevenLabs v4: API model ID unknown
+tts_voice_lena = "PLACEHOLDER"      # spike S4
+tts_voice_felix = "PLACEHOLDER"     # spike S4
+stt = "PLACEHOLDER"                 # Whisper model size, spike S5
+
+[quotas]
+main_facts = 20
+linked_intro_facts = 6
+min_used_facts = 10                 # D5
+min_fact_words = 8
+max_context_segments = 3
+turn_retries = 2
+conversation_retries = 2
+audio_section_retries = 2
+substitute_articles_max = 2         # phase 3
+repeat_gate_months = 6              # D4
+tts_section_max_chars = 10000
+target_loudness_lufs = -16          # proposal in the plan, not yet decided
+
+[prices]
+# Feed the per-episode cost log. Unit and currency to be fixed together with the values.
+claude_sonnet_input = "PLACEHOLDER"
+claude_sonnet_output = "PLACEHOLDER"
+jev = "PLACEHOLDER"
+elevenlabs = "PLACEHOLDER"
