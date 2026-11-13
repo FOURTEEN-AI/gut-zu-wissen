@@ -1,0 +1,19 @@
+Content from the German Wikipedia
+=================================
+
+Files in this directory contain text from the German Wikipedia
+(https://de.wikipedia.org). The text is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International licence (CC BY-SA 4.0),
+https://creativecommons.org/licenses/by-sa/4.0/deed.de
+
+Authors: the authors of the respective articles. The author list is available
+in the version history of each article on de.wikipedia.org. Every fixture file
+records the article title and revision ID (revid) it was taken from, so the
+revision permalink and its history can be found.
+
+Changes: fixtures may be shortened or reformatted for use in tests.
+
+The CC BY-SA 4.0 terms apply to these files and to adaptations of them.
+The full licence text is in ../../../archive/LICENSE.
+The licence of the rest of the repository (Apache 2.0) does not apply to the
+files in this directory.
