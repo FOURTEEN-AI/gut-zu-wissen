@@ -1,0 +1,32 @@
+name: Episode
+
+on:
+  workflow_dispatch:
+    inputs:
+      article:
+        description: "Title of the German Wikipedia article"
+        required: true
+        type: string
+
+# Runs never overlap: a second run waits instead of being cancelled.
+concurrency:
+  group: episode
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  episode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: System packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2 fonts-dejavu-core
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - run: uv sync --no-dev
+      # Pipeline steps follow in later plan steps.
