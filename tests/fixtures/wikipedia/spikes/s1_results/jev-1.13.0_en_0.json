@@ -1,0 +1,2670 @@
+[
+  {
+    "kind": "turn",
+    "id": "c01",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Am siebten Dezember 1887 wurde die erste Etage montiert. Und damit die Querbalken hielten, stand darunter ein Gerüst, das fünfundvierzig Meter hoch war."
+        },
+        "aussagen": [
+          {
+            "text": "Die erste Etage des Eiffelturms wurde am 7. Dezember 1887 montiert.",
+            "fakten": [
+              "271593273-0100"
+            ]
+          },
+          {
+            "text": "Ein 45 Meter hohes Gerüst stützte die Horizontalbalken der ersten Etage.",
+            "fakten": [
+              "271593273-0100"
+            ]
+          }
+        ],
+        "fakten": {
+          "271593273-0100": "Am 7. Dezember 1887 erfolgte die Montage der ersten Etage, auf deren Höhe ein 45 Meter hohes Gerüst zur Abstützung der Horizontalbalken diente."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Die erste Etage des Eiffelturms wurde am 7. Dezember 1887 montiert.“ follow from `fakten.271593273-0100`?",
+          "criteria": {
+            "true": "`fakten.271593273-0100` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271593273-0100` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "aussage_1": {
+          "type": "noul",
+          "instructions": "Does the statement „Ein 45 Meter hohes Gerüst stützte die Horizontalbalken der ersten Etage.“ follow from `fakten.271593273-0100`?",
+          "criteria": {
+            "true": "`fakten.271593273-0100` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271593273-0100` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.92
+        },
+        "aussage_1": {
+          "type": "noul",
+          "noul": 0.97
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.91
+        }
+      },
+      "usage": {
+        "input_tokens": 1018,
+        "output_tokens": 63
+      }
+    },
+    "seconds": 0.136
+  },
+  {
+    "kind": "turn",
+    "id": "c02",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Damit die Querbalken der ersten Etage hielten, stand darunter ein Gerüst, das fünfundsechzig Meter hoch war."
+        },
+        "aussagen": [
+          {
+            "text": "Ein 65 Meter hohes Gerüst stützte die Horizontalbalken der ersten Etage.",
+            "fakten": [
+              "271593273-0100"
+            ]
+          }
+        ],
+        "fakten": {
+          "271593273-0100": "Am 7. Dezember 1887 erfolgte die Montage der ersten Etage, auf deren Höhe ein 45 Meter hohes Gerüst zur Abstützung der Horizontalbalken diente."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Ein 65 Meter hohes Gerüst stützte die Horizontalbalken der ersten Etage.“ follow from `fakten.271593273-0100`?",
+          "criteria": {
+            "true": "`fakten.271593273-0100` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271593273-0100` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.02
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.61
+        }
+      },
+      "usage": {
+        "input_tokens": 776,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.167
+  },
+  {
+    "kind": "turn",
+    "id": "c03",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Im Dezember 1888 war es dann so weit: Die erste Etage wurde montiert."
+        },
+        "aussagen": [
+          {
+            "text": "Die erste Etage des Eiffelturms wurde im Dezember 1888 montiert.",
+            "fakten": [
+              "271593273-0100"
+            ]
+          }
+        ],
+        "fakten": {
+          "271593273-0100": "Am 7. Dezember 1887 erfolgte die Montage der ersten Etage, auf deren Höhe ein 45 Meter hohes Gerüst zur Abstützung der Horizontalbalken diente."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Die erste Etage des Eiffelturms wurde im Dezember 1888 montiert.“ follow from `fakten.271593273-0100`?",
+          "criteria": {
+            "true": "`fakten.271593273-0100` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271593273-0100` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.02
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.65
+        }
+      },
+      "usage": {
+        "input_tokens": 756,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.205
+  },
+  {
+    "kind": "turn",
+    "id": "c04",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "In den Zwanzigzehnerjahren hat sich die Besucherzahl bei ungefähr sechs Millionen pro Jahr eingependelt."
+        },
+        "aussagen": [
+          {
+            "text": "In den 2010er Jahren lag die jährliche Besucherzahl des Eiffelturms bei etwa sechs Millionen.",
+            "fakten": [
+              "271593273-0520"
+            ]
+          }
+        ],
+        "fakten": {
+          "271593273-0520": "In den 2010er Jahren pendelte sich die jährliche Besucherzahl bei etwa sechs Millionen ein."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „In den 2010er Jahren lag die jährliche Besucherzahl des Eiffelturms bei etwa sechs Millionen.“ follow from `fakten.271593273-0520`?",
+          "criteria": {
+            "true": "`fakten.271593273-0520` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271593273-0520` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.33
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.75
+        }
+      },
+      "usage": {
+        "input_tokens": 756,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.176
+  },
+  {
+    "kind": "turn",
+    "id": "c05",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Seit seiner Eröffnung besuchen den Eiffelturm jedes Jahr etwa sechs Millionen Menschen."
+        },
+        "aussagen": [
+          {
+            "text": "Seit der Eröffnung besuchen jährlich etwa sechs Millionen Menschen den Eiffelturm.",
+            "fakten": [
+              "271593273-0520"
+            ]
+          }
+        ],
+        "fakten": {
+          "271593273-0520": "In den 2010er Jahren pendelte sich die jährliche Besucherzahl bei etwa sechs Millionen ein."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Seit der Eröffnung besuchen jährlich etwa sechs Millionen Menschen den Eiffelturm.“ follow from `fakten.271593273-0520`?",
+          "criteria": {
+            "true": "`fakten.271593273-0520` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271593273-0520` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.08
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.88
+        }
+      },
+      "usage": {
+        "input_tokens": 730,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.177
+  },
+  {
+    "kind": "turn",
+    "id": "c06",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Am Anfang war der Turm venezianisch rot. Zur Eröffnung 1889 hat man dann auf Rotbraun umgestellt."
+        },
+        "aussagen": [
+          {
+            "text": "Zu Beginn der Errichtung war der Eiffelturm venezianisch rot.",
+            "fakten": [
+              "271593273-0448"
+            ]
+          },
+          {
+            "text": "Zur Eröffnung 1889 wurde die Farbe auf Rotbraun umgestellt.",
+            "fakten": [
+              "271593273-0448"
+            ]
+          }
+        ],
+        "fakten": {
+          "271593273-0448": "Während zu Beginn der Errichtung des Turms noch ein venezianisches Rot vorherrschte, schwenkte man zur Eröffnung 1889 auf Rotbraun um."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Zu Beginn der Errichtung war der Eiffelturm venezianisch rot.“ follow from `fakten.271593273-0448`?",
+          "criteria": {
+            "true": "`fakten.271593273-0448` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271593273-0448` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "aussage_1": {
+          "type": "noul",
+          "instructions": "Does the statement „Zur Eröffnung 1889 wurde die Farbe auf Rotbraun umgestellt.“ follow from `fakten.271593273-0448`?",
+          "criteria": {
+            "true": "`fakten.271593273-0448` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271593273-0448` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.93
+        },
+        "aussage_1": {
+          "type": "noul",
+          "noul": 0.98
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.95
+        }
+      },
+      "usage": {
+        "input_tokens": 981,
+        "output_tokens": 63
+      }
+    },
+    "seconds": 0.172
+  },
+  {
+    "kind": "turn",
+    "id": "c07",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Zur Eröffnung 1889 hat man den Turm dann ockergelb gestrichen."
+        },
+        "aussagen": [
+          {
+            "text": "Zur Eröffnung 1889 wurde der Eiffelturm ockergelb gestrichen.",
+            "fakten": [
+              "271593273-0448"
+            ]
+          }
+        ],
+        "fakten": {
+          "271593273-0448": "Während zu Beginn der Errichtung des Turms noch ein venezianisches Rot vorherrschte, schwenkte man zur Eröffnung 1889 auf Rotbraun um."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Zur Eröffnung 1889 wurde der Eiffelturm ockergelb gestrichen.“ follow from `fakten.271593273-0448`?",
+          "criteria": {
+            "true": "`fakten.271593273-0448` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271593273-0448` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.02
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.76
+        }
+      },
+      "usage": {
+        "input_tokens": 759,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.149
+  },
+  {
+    "kind": "turn",
+    "id": "c08",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Ein Anwohner hatte Angst, der Turm könnte auf sein Haus stürzen, und hat geklagt. Das Gericht ließ weiterbauen – aber nur, wenn Eiffel für mögliche Schäden haftet."
+        },
+        "aussagen": [
+          {
+            "text": "Ein Anwohner klagte aus Angst, der Eiffelturm könne einstürzen und sein Haus zerstören.",
+            "fakten": [
+              "271593273-0142"
+            ]
+          },
+          {
+            "text": "Das Gericht erlaubte den Weiterbau nur unter der Auflage, dass Gustave Eiffel für Schäden haftet.",
+            "fakten": [
+              "271593273-0142"
+            ]
+          }
+        ],
+        "fakten": {
+          "271593273-0142": "Das Gericht erlaubte den Weiterbau nur mit der Auflage, dass Gustave Eiffel bei etwaigen Schäden haften müsse."
+        },
+        "kontext": {
+          "271593273-0142": [
+            "Ein Anlieger am Champ de Mars strengte einen Prozess gegen den Staat und die Stadt an, aus Angst, der Eiffelturm könne einstürzen und sein Haus zerstören."
+          ]
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Ein Anwohner klagte aus Angst, der Eiffelturm könne einstürzen und sein Haus zerstören.“ follow from `fakten.271593273-0142`?",
+          "criteria": {
+            "true": "`fakten.271593273-0142` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271593273-0142` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "aussage_1": {
+          "type": "noul",
+          "instructions": "Does the statement „Das Gericht erlaubte den Weiterbau nur unter der Auflage, dass Gustave Eiffel für Schäden haftet.“ follow from `fakten.271593273-0142`?",
+          "criteria": {
+            "true": "`fakten.271593273-0142` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271593273-0142` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.2
+        },
+        "aussage_1": {
+          "type": "noul",
+          "noul": 0.96
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.86
+        }
+      },
+      "usage": {
+        "input_tokens": 1079,
+        "output_tokens": 63
+      }
+    },
+    "seconds": 0.14
+  },
+  {
+    "kind": "turn",
+    "id": "c09",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "In Bristol lebten vor einem Räudeausbruch zeitweise siebenunddreißig Füchse auf einem einzigen Quadratkilometer."
+        },
+        "aussagen": [
+          {
+            "text": "In Bristol lag die Siedlungsdichte vor einem Räudeausbruch bei bis zu 37 Füchsen je Quadratkilometer.",
+            "fakten": [
+              "271590031-0091"
+            ]
+          }
+        ],
+        "fakten": {
+          "271590031-0091": "In Bristol erreichte die Siedlungsdichte vor einem Räudeausbruch einen Spitzenwert von 37 Füchsen je Quadratkilometer."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „In Bristol lag die Siedlungsdichte vor einem Räudeausbruch bei bis zu 37 Füchsen je Quadratkilometer.“ follow from `fakten.271590031-0091`?",
+          "criteria": {
+            "true": "`fakten.271590031-0091` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271590031-0091` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.97
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.75
+        }
+      },
+      "usage": {
+        "input_tokens": 790,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.232
+  },
+  {
+    "kind": "turn",
+    "id": "c10",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "In Bristol lebten vor einem Räudeausbruch zeitweise dreiundsiebzig Füchse auf einem einzigen Quadratkilometer."
+        },
+        "aussagen": [
+          {
+            "text": "In Bristol lag die Siedlungsdichte vor einem Räudeausbruch bei bis zu 73 Füchsen je Quadratkilometer.",
+            "fakten": [
+              "271590031-0091"
+            ]
+          }
+        ],
+        "fakten": {
+          "271590031-0091": "In Bristol erreichte die Siedlungsdichte vor einem Räudeausbruch einen Spitzenwert von 37 Füchsen je Quadratkilometer."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „In Bristol lag die Siedlungsdichte vor einem Räudeausbruch bei bis zu 73 Füchsen je Quadratkilometer.“ follow from `fakten.271590031-0091`?",
+          "criteria": {
+            "true": "`fakten.271590031-0091` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271590031-0091` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.02
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.51
+        }
+      },
+      "usage": {
+        "input_tokens": 787,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.154
+  },
+  {
+    "kind": "turn",
+    "id": "c11",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "In London lebten vor einem Räudeausbruch zeitweise siebenunddreißig Füchse auf einem Quadratkilometer."
+        },
+        "aussagen": [
+          {
+            "text": "In London lag die Siedlungsdichte vor einem Räudeausbruch bei bis zu 37 Füchsen je Quadratkilometer.",
+            "fakten": [
+              "271590031-0091"
+            ]
+          }
+        ],
+        "fakten": {
+          "271590031-0091": "In Bristol erreichte die Siedlungsdichte vor einem Räudeausbruch einen Spitzenwert von 37 Füchsen je Quadratkilometer."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „In London lag die Siedlungsdichte vor einem Räudeausbruch bei bis zu 37 Füchsen je Quadratkilometer.“ follow from `fakten.271590031-0091`?",
+          "criteria": {
+            "true": "`fakten.271590031-0091` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271590031-0091` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.02
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.24
+        }
+      },
+      "usage": {
+        "input_tokens": 789,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.136
+  },
+  {
+    "kind": "turn",
+    "id": "c12",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Felix",
+          "text": "Moment, der Roman de Renard ist von 1175? Wer hat den denn geschrieben?"
+        },
+        "aussagen": [
+          {
+            "text": "Der Roman de Renard wurde 1175 geschrieben.",
+            "fakten": [
+              "271590031-0365"
+            ]
+          }
+        ],
+        "fakten": {
+          "271590031-0365": "Im Jahr 1175 schrieb Pierre de Saint Cloud den Roman de Renard."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Der Roman de Renard wurde 1175 geschrieben.“ follow from `fakten.271590031-0365`?",
+          "criteria": {
+            "true": "`fakten.271590031-0365` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271590031-0365` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.98
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.7
+        }
+      },
+      "usage": {
+        "input_tokens": 711,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.236
+  },
+  {
+    "kind": "turn",
+    "id": "c13",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Felix",
+          "text": "Und warum war der Roman de Renard im Mittelalter eigentlich so beliebt?"
+        },
+        "aussagen": [
+          {
+            "text": "Der Roman de Renard war im Mittelalter beliebt.",
+            "fakten": [
+              "271590031-0365"
+            ]
+          }
+        ],
+        "fakten": {
+          "271590031-0365": "Im Jahr 1175 schrieb Pierre de Saint Cloud den Roman de Renard."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Der Roman de Renard war im Mittelalter beliebt.“ follow from `fakten.271590031-0365`?",
+          "criteria": {
+            "true": "`fakten.271590031-0365` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271590031-0365` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.05
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.73
+        }
+      },
+      "usage": {
+        "input_tokens": 704,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.261
+  },
+  {
+    "kind": "turn",
+    "id": "c14",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Wölfe haben sogar Fuchsbaue vergrößert, um darin ihre eigenen Jungen aufzuziehen. Trotzdem warnen Füchse, wenn Wölfe in der Nähe von Bauen mit Welpen auftauchen."
+        },
+        "aussagen": [
+          {
+            "text": "Wölfe vergrößerten Fuchsbaue für die Aufzucht ihrer Jungen.",
+            "fakten": [
+              "271590031-0209"
+            ]
+          },
+          {
+            "text": "Füchse warnen, sobald sich Wölfe in der Nähe von Bauen mit Welpen zeigen.",
+            "fakten": [
+              "271590031-0209"
+            ]
+          }
+        ],
+        "fakten": {
+          "271590031-0209": "Allerdings warnen Füchse, sobald sich Wölfe in der Nähe von Bauen mit Welpen zeigen."
+        },
+        "kontext": {
+          "271590031-0209": [
+            "Die Füchse nutzten die von den Wölfen übriggelassenen Beutereste, während Wölfe Fuchsbaue für die Jungenaufzucht vergrößerten."
+          ]
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Wölfe vergrößerten Fuchsbaue für die Aufzucht ihrer Jungen.“ follow from `fakten.271590031-0209`?",
+          "criteria": {
+            "true": "`fakten.271590031-0209` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271590031-0209` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "aussage_1": {
+          "type": "noul",
+          "instructions": "Does the statement „Füchse warnen, sobald sich Wölfe in der Nähe von Bauen mit Welpen zeigen.“ follow from `fakten.271590031-0209`?",
+          "criteria": {
+            "true": "`fakten.271590031-0209` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271590031-0209` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.35
+        },
+        "aussage_1": {
+          "type": "noul",
+          "noul": 0.97
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.81
+        }
+      },
+      "usage": {
+        "input_tokens": 1065,
+        "output_tokens": 63
+      }
+    },
+    "seconds": 0.143
+  },
+  {
+    "kind": "turn",
+    "id": "c15",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Felix",
+          "text": "Wow, sie warnen also – und das, obwohl Füchse ja eigentlich Einzelgänger sind!"
+        },
+        "vorheriger_redebeitrag": "Füchse warnen, sobald sich Wölfe in der Nähe von Bauen mit Welpen zeigen.",
+        "aussagen": [],
+        "fakten": {}
+      },
+      "questions": {
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.16
+        }
+      },
+      "usage": {
+        "input_tokens": 508,
+        "output_tokens": 23
+      }
+    },
+    "seconds": 0.231
+  },
+  {
+    "kind": "turn",
+    "id": "c16",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Felix",
+          "text": "Okay, damit hätte ich jetzt wirklich nicht gerechnet. Erzähl mehr, das will ich genauer wissen!"
+        },
+        "vorheriger_redebeitrag": "Füchse warnen, sobald sich Wölfe in der Nähe von Bauen mit Welpen zeigen.",
+        "aussagen": [],
+        "fakten": {}
+      },
+      "questions": {
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.78
+        }
+      },
+      "usage": {
+        "input_tokens": 506,
+        "output_tokens": 23
+      }
+    },
+    "seconds": 0.147
+  },
+  {
+    "kind": "turn",
+    "id": "c17",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Felix",
+          "text": "Das kenne ich, bei uns im Garten war letzten Sommer auch ein Fuchs."
+        },
+        "vorheriger_redebeitrag": "In Bristol lag die Siedlungsdichte vor einem Räudeausbruch bei bis zu siebenunddreißig Füchsen je Quadratkilometer.",
+        "aussagen": [],
+        "fakten": {}
+      },
+      "questions": {
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.09
+        }
+      },
+      "usage": {
+        "input_tokens": 516,
+        "output_tokens": 23
+      }
+    },
+    "seconds": 0.148
+  },
+  {
+    "kind": "turn",
+    "id": "c18",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Am zehnten September achtzehnhundertdreiundvierzig stand der Schafhirte Peter Pfeifer auf dem Westgipfel – das war erst die dritte Besteigung."
+        },
+        "aussagen": [
+          {
+            "text": "Der Schafhirte Peter Pfeifer bestieg am 10. September 1843 den Westgipfel; es war die dritte Besteigung.",
+            "fakten": [
+              "271266791-0288"
+            ]
+          }
+        ],
+        "fakten": {
+          "271266791-0288": "Zum dritten Mal wurde der Westgipfel am 10. September 1843 durch den Schafhirten Peter Pfeifer bestiegen."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Der Schafhirte Peter Pfeifer bestieg am 10. September 1843 den Westgipfel; es war die dritte Besteigung.“ follow from `fakten.271266791-0288`?",
+          "criteria": {
+            "true": "`fakten.271266791-0288` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271266791-0288` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.94
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.92
+        }
+      },
+      "usage": {
+        "input_tokens": 793,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.154
+  },
+  {
+    "kind": "turn",
+    "id": "c19",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Am zehnten September 1843 stand der Schafhirte Peter Pfeifer auf dem Westgipfel – das war erst die zweite Besteigung."
+        },
+        "aussagen": [
+          {
+            "text": "Der Schafhirte Peter Pfeifer bestieg am 10. September 1843 den Westgipfel; es war die zweite Besteigung.",
+            "fakten": [
+              "271266791-0288"
+            ]
+          }
+        ],
+        "fakten": {
+          "271266791-0288": "Zum dritten Mal wurde der Westgipfel am 10. September 1843 durch den Schafhirten Peter Pfeifer bestiegen."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Der Schafhirte Peter Pfeifer bestieg am 10. September 1843 den Westgipfel; es war die zweite Besteigung.“ follow from `fakten.271266791-0288`?",
+          "criteria": {
+            "true": "`fakten.271266791-0288` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271266791-0288` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.03
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.81
+        }
+      },
+      "usage": {
+        "input_tokens": 788,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.16
+  },
+  {
+    "kind": "turn",
+    "id": "c20",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Föhn gibt es in der Region an rund sechzig Tagen im Jahr."
+        },
+        "aussagen": [
+          {
+            "text": "Die Föhn-Wetterlage tritt in der Region an etwa 60 Tagen pro Jahr auf.",
+            "fakten": [
+              "271266791-0090"
+            ]
+          }
+        ],
+        "fakten": {
+          "271266791-0090": "Dem Nordstau entgegengesetzt wirkt die Föhn-Wetterlage, die an 60 Tagen pro Jahr in der Region auftritt."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Die Föhn-Wetterlage tritt in der Region an etwa 60 Tagen pro Jahr auf.“ follow from `fakten.271266791-0090`?",
+          "criteria": {
+            "true": "`fakten.271266791-0090` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271266791-0090` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.98
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.9
+        }
+      },
+      "usage": {
+        "input_tokens": 735,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.136
+  },
+  {
+    "kind": "turn",
+    "id": "c21",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Föhn gibt es in der Region an rund sechzig Tagen im Jahr, vor allem im Herbst."
+        },
+        "aussagen": [
+          {
+            "text": "Die Föhn-Wetterlage tritt in der Region an etwa 60 Tagen pro Jahr auf.",
+            "fakten": [
+              "271266791-0090"
+            ]
+          },
+          {
+            "text": "Die Föhn-Wetterlage tritt in der Region vor allem im Herbst auf.",
+            "fakten": [
+              "271266791-0090"
+            ]
+          }
+        ],
+        "fakten": {
+          "271266791-0090": "Dem Nordstau entgegengesetzt wirkt die Föhn-Wetterlage, die an 60 Tagen pro Jahr in der Region auftritt."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Die Föhn-Wetterlage tritt in der Region an etwa 60 Tagen pro Jahr auf.“ follow from `fakten.271266791-0090`?",
+          "criteria": {
+            "true": "`fakten.271266791-0090` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271266791-0090` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "aussage_1": {
+          "type": "noul",
+          "instructions": "Does the statement „Die Föhn-Wetterlage tritt in der Region vor allem im Herbst auf.“ follow from `fakten.271266791-0090`?",
+          "criteria": {
+            "true": "`fakten.271266791-0090` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271266791-0090` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.97
+        },
+        "aussage_1": {
+          "type": "noul",
+          "noul": 0.07
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.81
+        }
+      },
+      "usage": {
+        "input_tokens": 955,
+        "output_tokens": 63
+      }
+    },
+    "seconds": 0.191
+  },
+  {
+    "kind": "turn",
+    "id": "c22",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Am Weihnachtstag 1066 ließ sich Wilhelm dann in Westminster Abbey zum König von England krönen."
+        },
+        "aussagen": [
+          {
+            "text": "Wilhelm ließ sich am Weihnachtstag 1066 in Westminster Abbey zum König von England krönen.",
+            "fakten": [
+              "269510698-0098"
+            ]
+          }
+        ],
+        "fakten": {
+          "269510698-0098": "Er ließ sich am Weihnachtstag 1066 in Westminster Abbey als Wilhelm I. zum König von England krönen und sicherte seine Herrschaft in der Folgezeit durch den Bau zahlreicher Zwingburgen."
+        },
+        "kontext": {
+          "269510698-0098": [
+            "Die Schlacht bei Hastings war der erste und wichtigste Erfolg Wilhelms bei seiner Eroberung von England, die er bis 1071 abschloss."
+          ]
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Wilhelm ließ sich am Weihnachtstag 1066 in Westminster Abbey zum König von England krönen.“ follow from `fakten.269510698-0098`?",
+          "criteria": {
+            "true": "`fakten.269510698-0098` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.269510698-0098` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.98
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.93
+        }
+      },
+      "usage": {
+        "input_tokens": 836,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.164
+  },
+  {
+    "kind": "turn",
+    "id": "c23",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "An Ostern 1066 ließ sich Wilhelm dann in Westminster Abbey zum König von England krönen."
+        },
+        "aussagen": [
+          {
+            "text": "Wilhelm ließ sich an Ostern 1066 in Westminster Abbey zum König von England krönen.",
+            "fakten": [
+              "269510698-0098"
+            ]
+          }
+        ],
+        "fakten": {
+          "269510698-0098": "Er ließ sich am Weihnachtstag 1066 in Westminster Abbey als Wilhelm I. zum König von England krönen und sicherte seine Herrschaft in der Folgezeit durch den Bau zahlreicher Zwingburgen."
+        },
+        "kontext": {
+          "269510698-0098": [
+            "Die Schlacht bei Hastings war der erste und wichtigste Erfolg Wilhelms bei seiner Eroberung von England, die er bis 1071 abschloss."
+          ]
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Wilhelm ließ sich an Ostern 1066 in Westminster Abbey zum König von England krönen.“ follow from `fakten.269510698-0098`?",
+          "criteria": {
+            "true": "`fakten.269510698-0098` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.269510698-0098` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.02
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.89
+        }
+      },
+      "usage": {
+        "input_tokens": 833,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.165
+  },
+  {
+    "kind": "turn",
+    "id": "c24",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Bei Stamford Bridge waren rund tausend Huscarle getötet oder verwundet worden. Harald blieben nur zweitausend – dazu kamen mehr als fünftausend Fyrd-Kämpfer."
+        },
+        "aussagen": [
+          {
+            "text": "In der Schlacht bei Stamford Bridge wurden etwa 1000 Huscarle getötet oder verwundet.",
+            "fakten": [
+              "269510698-0060"
+            ]
+          },
+          {
+            "text": "Harald II. konnte danach nur noch auf 2000 Huscarle zurückgreifen.",
+            "fakten": [
+              "269510698-0060"
+            ]
+          },
+          {
+            "text": "Über 5000 Fyrd-Kämpfer unterstützten die Huscarle.",
+            "fakten": [
+              "269510698-0060"
+            ]
+          }
+        ],
+        "fakten": {
+          "269510698-0060": "In der Schlacht bei Stamford Bridge waren etwa 1000 Huscarle getötet oder verwundet worden, so dass Harald II. nur auf 2000 von ihnen zurückgreifen konnte, die durch über 5000 Fyrd-Kämpfer unterstützt wurden."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „In der Schlacht bei Stamford Bridge wurden etwa 1000 Huscarle getötet oder verwundet.“ follow from `fakten.269510698-0060`?",
+          "criteria": {
+            "true": "`fakten.269510698-0060` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.269510698-0060` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "aussage_1": {
+          "type": "noul",
+          "instructions": "Does the statement „Harald II. konnte danach nur noch auf 2000 Huscarle zurückgreifen.“ follow from `fakten.269510698-0060`?",
+          "criteria": {
+            "true": "`fakten.269510698-0060` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.269510698-0060` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "aussage_2": {
+          "type": "noul",
+          "instructions": "Does the statement „Über 5000 Fyrd-Kämpfer unterstützten die Huscarle.“ follow from `fakten.269510698-0060`?",
+          "criteria": {
+            "true": "`fakten.269510698-0060` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.269510698-0060` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.99
+        },
+        "aussage_1": {
+          "type": "noul",
+          "noul": 0.98
+        },
+        "aussage_2": {
+          "type": "noul",
+          "noul": 0.98
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.92
+        }
+      },
+      "usage": {
+        "input_tokens": 1256,
+        "output_tokens": 83
+      }
+    },
+    "seconds": 0.197
+  },
+  {
+    "kind": "turn",
+    "id": "c25",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Huscarle und Fyrd zusammen – damit hatte Harald mehr als siebentausend Kämpfer."
+        },
+        "aussagen": [
+          {
+            "text": "Harald II. verfügte zusammen über mehr als 7000 Huscarle und Fyrd-Kämpfer.",
+            "fakten": [
+              "269510698-0060"
+            ]
+          }
+        ],
+        "fakten": {
+          "269510698-0060": "In der Schlacht bei Stamford Bridge waren etwa 1000 Huscarle getötet oder verwundet worden, so dass Harald II. nur auf 2000 von ihnen zurückgreifen konnte, die durch über 5000 Fyrd-Kämpfer unterstützt wurden."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Harald II. verfügte zusammen über mehr als 7000 Huscarle und Fyrd-Kämpfer.“ follow from `fakten.269510698-0060`?",
+          "criteria": {
+            "true": "`fakten.269510698-0060` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.269510698-0060` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.75
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.84
+        }
+      },
+      "usage": {
+        "input_tokens": 791,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.143
+  },
+  {
+    "kind": "turn",
+    "id": "c26",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Wer achtzig Jahre lang täglich zwei Liter trinkt, kommt auf über fünfundfünfzigtausend Liter."
+        },
+        "aussagen": [
+          {
+            "text": "Bei 2 Litern pro Tag werden in 80 Jahren über 55.000 Liter Wasser getrunken.",
+            "fakten": [
+              "269323716-0133"
+            ]
+          }
+        ],
+        "fakten": {
+          "269323716-0133": "Bei einem durchschnittlichen Tageskonsum von 2 Litern werden in 80 Jahren über 55.000 Liter Wasser getrunken."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Bei 2 Litern pro Tag werden in 80 Jahren über 55.000 Liter Wasser getrunken.“ follow from `fakten.269323716-0133`?",
+          "criteria": {
+            "true": "`fakten.269323716-0133` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.269323716-0133` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.98
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.9
+        }
+      },
+      "usage": {
+        "input_tokens": 762,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.14
+  },
+  {
+    "kind": "turn",
+    "id": "c27",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Wer achtzig Jahre lang täglich zwei Liter trinkt, kommt auf über hunderttausend Liter."
+        },
+        "aussagen": [
+          {
+            "text": "Bei 2 Litern pro Tag werden in 80 Jahren über 100.000 Liter Wasser getrunken.",
+            "fakten": [
+              "269323716-0133"
+            ]
+          }
+        ],
+        "fakten": {
+          "269323716-0133": "Bei einem durchschnittlichen Tageskonsum von 2 Litern werden in 80 Jahren über 55.000 Liter Wasser getrunken."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Bei 2 Litern pro Tag werden in 80 Jahren über 100.000 Liter Wasser getrunken.“ follow from `fakten.269323716-0133`?",
+          "criteria": {
+            "true": "`fakten.269323716-0133` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.269323716-0133` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.04
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.83
+        }
+      },
+      "usage": {
+        "input_tokens": 759,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.239
+  },
+  {
+    "kind": "turn",
+    "id": "c28",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Einundsiebzig Prozent der Erdoberfläche sind von Wasser bedeckt."
+        },
+        "aussagen": [
+          {
+            "text": "71 Prozent der Erdoberfläche sind von Wasser bedeckt.",
+            "fakten": [
+              "269323716-0247"
+            ]
+          }
+        ],
+        "fakten": {
+          "269323716-0247": "Der größte Teil der Erdoberfläche (71 %) ist von Wasser bedeckt, besonders die Südhalbkugel und als Extrem die Wasserhemisphäre."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „71 Prozent der Erdoberfläche sind von Wasser bedeckt.“ follow from `fakten.269323716-0247`?",
+          "criteria": {
+            "true": "`fakten.269323716-0247` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.269323716-0247` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.98
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.95
+        }
+      },
+      "usage": {
+        "input_tokens": 733,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.166
+  },
+  {
+    "kind": "turn",
+    "id": "c29",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Am achten Mai 1978 standen Reinhold Messner und Peter Habeler auf dem Gipfel – zum ersten Mal ohne zusätzlichen Sauerstoff."
+        },
+        "aussagen": [
+          {
+            "text": "Reinhold Messner und Peter Habeler bestiegen den Gipfel am 8. Mai 1978 erstmals ohne zusätzlichen Sauerstoff.",
+            "fakten": [
+              "271827693-0341"
+            ]
+          }
+        ],
+        "fakten": {
+          "271827693-0341": "Nur fünf Tage später, am 8. Mai 1978, bestiegen Reinhold Messner und Peter Habeler den Gipfel erstmals ohne zusätzlichen Sauerstoff."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Reinhold Messner und Peter Habeler bestiegen den Gipfel am 8. Mai 1978 erstmals ohne zusätzlichen Sauerstoff.“ follow from `fakten.271827693-0341`?",
+          "criteria": {
+            "true": "`fakten.271827693-0341` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271827693-0341` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.97
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.91
+        }
+      },
+      "usage": {
+        "input_tokens": 784,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.157
+  },
+  {
+    "kind": "turn",
+    "id": "c30",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Am achten Mai 1978 standen Reinhold Messner und Hans Kammerlander auf dem Gipfel – zum ersten Mal ohne zusätzlichen Sauerstoff."
+        },
+        "aussagen": [
+          {
+            "text": "Reinhold Messner und Hans Kammerlander bestiegen den Gipfel am 8. Mai 1978 erstmals ohne zusätzlichen Sauerstoff.",
+            "fakten": [
+              "271827693-0341"
+            ]
+          }
+        ],
+        "fakten": {
+          "271827693-0341": "Nur fünf Tage später, am 8. Mai 1978, bestiegen Reinhold Messner und Peter Habeler den Gipfel erstmals ohne zusätzlichen Sauerstoff."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Reinhold Messner und Hans Kammerlander bestiegen den Gipfel am 8. Mai 1978 erstmals ohne zusätzlichen Sauerstoff.“ follow from `fakten.271827693-0341`?",
+          "criteria": {
+            "true": "`fakten.271827693-0341` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271827693-0341` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.02
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.59
+        }
+      },
+      "usage": {
+        "input_tokens": 784,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.202
+  },
+  {
+    "kind": "turn",
+    "id": "c31",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Im Mai 2018 hat der neunundsechzigjährige Chinese Xia Boyu den Everest bezwungen – mit zwei Beinprothesen."
+        },
+        "aussagen": [
+          {
+            "text": "Im Mai 2018 bezwang der 69-jährige Chinese Xia Boyu mit zwei Beinprothesen den Mount Everest.",
+            "fakten": [
+              "271827693-0408"
+            ]
+          }
+        ],
+        "fakten": {
+          "271827693-0408": "Am 14. Mai 2018 bezwang der 69-jährige Chinese Xia Boyu mit zwei Beinprothesen den Mount Everest."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Im Mai 2018 bezwang der 69-jährige Chinese Xia Boyu mit zwei Beinprothesen den Mount Everest.“ follow from `fakten.271827693-0408`?",
+          "criteria": {
+            "true": "`fakten.271827693-0408` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271827693-0408` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.99
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.95
+        }
+      },
+      "usage": {
+        "input_tokens": 778,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.268
+  },
+  {
+    "kind": "turn",
+    "id": "c32",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Felix",
+          "text": "Neunundsechzig und mit Prothesen – das ist die mutigste Besteigung, die es je gab!"
+        },
+        "vorheriger_redebeitrag": "Im Mai 2018 hat der neunundsechzigjährige Chinese Xia Boyu den Everest bezwungen – mit zwei Beinprothesen.",
+        "aussagen": [],
+        "fakten": {}
+      },
+      "questions": {
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.26
+        }
+      },
+      "usage": {
+        "input_tokens": 522,
+        "output_tokens": 23
+      }
+    },
+    "seconds": 0.142
+  },
+  {
+    "kind": "turn",
+    "id": "c33",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Weit über dreißigtausend Menschen haben den Gipfel des Mount Everest schon erreicht."
+        },
+        "aussagen": [
+          {
+            "text": "Weit über 30.000 Menschen haben den Gipfel des Mount Everest erreicht.",
+            "fakten": [
+              "271827693-0501"
+            ]
+          }
+        ],
+        "fakten": {
+          "271827693-0501": "Wohl weit über 30.000 Menschen versuchten, auf den Gipfel des Mount Everest zu kommen."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Weit über 30.000 Menschen haben den Gipfel des Mount Everest erreicht.“ follow from `fakten.271827693-0501`?",
+          "criteria": {
+            "true": "`fakten.271827693-0501` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.271827693-0501` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.05
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.75
+        }
+      },
+      "usage": {
+        "input_tokens": 730,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.14
+  },
+  {
+    "kind": "turn",
+    "id": "c34",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Spätestens ab März 1703 war Bach als Lakai und Geiger in der Privatkapelle von Johann Ernst von Sachsen-Weimar angestellt."
+        },
+        "aussagen": [
+          {
+            "text": "Spätestens ab März 1703 war Bach als Lakai und Geiger in der Privatkapelle von Johann Ernst von Sachsen-Weimar angestellt.",
+            "fakten": [
+              "272173326-0102"
+            ]
+          }
+        ],
+        "fakten": {
+          "272173326-0102": "Spätestens ab März 1703 war Bach als Lakai und Violinist in der Privatkapelle des Mitregenten Johann Ernst von Sachsen-Weimar angestellt."
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Spätestens ab März 1703 war Bach als Lakai und Geiger in der Privatkapelle von Johann Ernst von Sachsen-Weimar angestellt.“ follow from `fakten.272173326-0102`?",
+          "criteria": {
+            "true": "`fakten.272173326-0102` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.272173326-0102` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.9
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.93
+        }
+      },
+      "usage": {
+        "input_tokens": 794,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.138
+  },
+  {
+    "kind": "turn",
+    "id": "c35",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Für seine Reise nach Lübeck bekam Bach vier Wochen Urlaub."
+        },
+        "aussagen": [
+          {
+            "text": "Bach bekam für eine Reise nach Lübeck vier Wochen Urlaub.",
+            "fakten": [
+              "272173326-0109"
+            ]
+          }
+        ],
+        "fakten": {
+          "272173326-0109": "Ihm war ein Urlaub von vier Wochen gewährt worden, damit er zur Weihnachtszeit wieder in Arnstadt zur Verfügung stehe."
+        },
+        "kontext": {
+          "272173326-0109": [
+            "Im November 1705 wanderte er zu Studienzwecken nach Lübeck, um, wie es im Nekrolog heißt, „den dasigen berühmten Organisten an der Marienkirche Diedrich Buxtehuden zu behorchen“, möglicherweise aber auch, um sich dort als Nachfolger des 70-jährigen Buxtehude zu bewerben."
+          ]
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Bach bekam für eine Reise nach Lübeck vier Wochen Urlaub.“ follow from `fakten.272173326-0109`?",
+          "criteria": {
+            "true": "`fakten.272173326-0109` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.272173326-0109` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.7
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.91
+        }
+      },
+      "usage": {
+        "input_tokens": 841,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.138
+  },
+  {
+    "kind": "turn",
+    "id": "c36",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "redebeitrag": {
+          "sprecher": "Lena",
+          "text": "Bach bekam vier Wochen Urlaub, damit er zu Weihnachten wieder in Arnstadt war. Zurück kam er allerdings erst Monate später."
+        },
+        "aussagen": [
+          {
+            "text": "Bach bekam vier Wochen Urlaub, damit er zur Weihnachtszeit wieder in Arnstadt zur Verfügung stand.",
+            "fakten": [
+              "272173326-0109"
+            ]
+          }
+        ],
+        "fakten": {
+          "272173326-0109": "Ihm war ein Urlaub von vier Wochen gewährt worden, damit er zur Weihnachtszeit wieder in Arnstadt zur Verfügung stehe."
+        },
+        "kontext": {
+          "272173326-0109": [
+            "Im November 1705 wanderte er zu Studienzwecken nach Lübeck, um, wie es im Nekrolog heißt, „den dasigen berühmten Organisten an der Marienkirche Diedrich Buxtehuden zu behorchen“, möglicherweise aber auch, um sich dort als Nachfolger des 70-jährigen Buxtehude zu bewerben."
+          ]
+        }
+      },
+      "questions": {
+        "aussage_0": {
+          "type": "noul",
+          "instructions": "Does the statement „Bach bekam vier Wochen Urlaub, damit er zur Weihnachtszeit wieder in Arnstadt zur Verfügung stand.“ follow from `fakten.272173326-0109`?",
+          "criteria": {
+            "true": "`fakten.272173326-0109` says this or it follows directly from it. Different wording and numbers written out as words do not change that.",
+            "false": "The statement contains something `fakten.272173326-0109` does not say, for example a different number, a different date, a different name or an additional detail. Anything found only in `kontext` counts as not supported."
+          }
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "instructions": "Is every factual claim and every premise of a question in `redebeitrag.text` listed under `aussagen`?",
+          "criteria": {
+            "true": "Everything in `redebeitrag.text` that is not listed under `aussagen` is a reaction: a feeling in the moment (amazement, curiosity, amusement), a follow-up question, a request for explanation, a transition, or picking up what was just said without new information.",
+            "false": "`redebeitrag.text` contains something missing from `aussagen`: new information, an evaluation with factual content, or a statement by the speaker about themselves, such as experiences, knowledge or preferences."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "aussage_0": {
+          "type": "noul",
+          "noul": 0.97
+        },
+        "vollstaendig": {
+          "type": "noul",
+          "noul": 0.07
+        }
+      },
+      "usage": {
+        "input_tokens": 875,
+        "output_tokens": 43
+      }
+    },
+    "seconds": 0.222
+  },
+  {
+    "kind": "d1",
+    "id": "d1",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "vorher": "Am siebten Dezember 1887 wurde die erste Etage montiert. Darunter stand ein Gerüst, das fünfundvierzig Meter hoch war.",
+        "nachher": "Die erste Etage kam am siebten Dezember 1887 an ihren Platz – gestützt von einem fünfundvierzig Meter hohen Gerüst."
+      },
+      "questions": {
+        "holistic": {
+          "type": "noul",
+          "instructions": "Does `nachher` convey the same factual statements as `vorher`?",
+          "criteria": {
+            "true": "Every factual statement from `vorher` is also in `nachher`, with the same numbers, dates and names, and `nachher` adds no factual statement. Wording, order and reactions do not matter.",
+            "false": "A factual statement from `vorher` is missing from `nachher` or changed, or `nachher` contains a factual statement that `vorher` does not."
+          }
+        },
+        "nothing_added": {
+          "type": "noul",
+          "instructions": "Is every factual statement in `nachher` also in `vorher`?",
+          "criteria": {
+            "true": "Everything factual in `nachher` appears in `vorher`; reactions and transitions do not count.",
+            "false": "`nachher` contains a factual statement that does not appear in `vorher`."
+          }
+        },
+        "conveys_0": {
+          "type": "noul",
+          "instructions": "Does `nachher` convey the statement „Die erste Etage des Eiffelturms wurde am 7. Dezember 1887 montiert.“?",
+          "criteria": {
+            "true": "`nachher` says this, with the same numbers, dates and names; the wording may differ.",
+            "false": "`nachher` does not say this, or says it with a different number, date or name."
+          }
+        },
+        "conveys_1": {
+          "type": "noul",
+          "instructions": "Does `nachher` convey the statement „Ein 45 Meter hohes Gerüst stützte die Horizontalbalken der ersten Etage.“?",
+          "criteria": {
+            "true": "`nachher` says this, with the same numbers, dates and names; the wording may differ.",
+            "false": "`nachher` does not say this, or says it with a different number, date or name."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "holistic": {
+          "type": "noul",
+          "noul": 0.71
+        },
+        "nothing_added": {
+          "type": "noul",
+          "noul": 0.78
+        },
+        "conveys_0": {
+          "type": "noul",
+          "noul": 0.85
+        },
+        "conveys_1": {
+          "type": "noul",
+          "noul": 0.67
+        }
+      },
+      "usage": {
+        "input_tokens": 741,
+        "output_tokens": 76
+      }
+    },
+    "seconds": 0.16
+  },
+  {
+    "kind": "d1",
+    "id": "d2",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "vorher": "In Bristol lebten vor einem Räudeausbruch zeitweise 37 Füchse auf einem Quadratkilometer.",
+        "nachher": "Vor einem Räudeausbruch kamen in Bristol bis zu siebenunddreißig Füchse auf einen Quadratkilometer."
+      },
+      "questions": {
+        "holistic": {
+          "type": "noul",
+          "instructions": "Does `nachher` convey the same factual statements as `vorher`?",
+          "criteria": {
+            "true": "Every factual statement from `vorher` is also in `nachher`, with the same numbers, dates and names, and `nachher` adds no factual statement. Wording, order and reactions do not matter.",
+            "false": "A factual statement from `vorher` is missing from `nachher` or changed, or `nachher` contains a factual statement that `vorher` does not."
+          }
+        },
+        "nothing_added": {
+          "type": "noul",
+          "instructions": "Is every factual statement in `nachher` also in `vorher`?",
+          "criteria": {
+            "true": "Everything factual in `nachher` appears in `vorher`; reactions and transitions do not count.",
+            "false": "`nachher` contains a factual statement that does not appear in `vorher`."
+          }
+        },
+        "conveys_0": {
+          "type": "noul",
+          "instructions": "Does `nachher` convey the statement „In Bristol lag die Siedlungsdichte vor einem Räudeausbruch bei bis zu 37 Füchsen je Quadratkilometer.“?",
+          "criteria": {
+            "true": "`nachher` says this, with the same numbers, dates and names; the wording may differ.",
+            "false": "`nachher` does not say this, or says it with a different number, date or name."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "holistic": {
+          "type": "noul",
+          "noul": 0.47
+        },
+        "nothing_added": {
+          "type": "noul",
+          "noul": 0.56
+        },
+        "conveys_0": {
+          "type": "noul",
+          "noul": 0.93
+        }
+      },
+      "usage": {
+        "input_tokens": 642,
+        "output_tokens": 57
+      }
+    },
+    "seconds": 0.166
+  },
+  {
+    "kind": "d1",
+    "id": "d3",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "vorher": "Am Anfang war der Turm venezianisch rot. Zur Eröffnung 1889 hat man dann auf Rotbraun umgestellt.",
+        "nachher": "Zur Eröffnung 1889 hat man den Turm rotbraun gestrichen."
+      },
+      "questions": {
+        "holistic": {
+          "type": "noul",
+          "instructions": "Does `nachher` convey the same factual statements as `vorher`?",
+          "criteria": {
+            "true": "Every factual statement from `vorher` is also in `nachher`, with the same numbers, dates and names, and `nachher` adds no factual statement. Wording, order and reactions do not matter.",
+            "false": "A factual statement from `vorher` is missing from `nachher` or changed, or `nachher` contains a factual statement that `vorher` does not."
+          }
+        },
+        "nothing_added": {
+          "type": "noul",
+          "instructions": "Is every factual statement in `nachher` also in `vorher`?",
+          "criteria": {
+            "true": "Everything factual in `nachher` appears in `vorher`; reactions and transitions do not count.",
+            "false": "`nachher` contains a factual statement that does not appear in `vorher`."
+          }
+        },
+        "conveys_0": {
+          "type": "noul",
+          "instructions": "Does `nachher` convey the statement „Zu Beginn der Errichtung war der Eiffelturm venezianisch rot.“?",
+          "criteria": {
+            "true": "`nachher` says this, with the same numbers, dates and names; the wording may differ.",
+            "false": "`nachher` does not say this, or says it with a different number, date or name."
+          }
+        },
+        "conveys_1": {
+          "type": "noul",
+          "instructions": "Does `nachher` convey the statement „Zur Eröffnung 1889 wurde die Farbe auf Rotbraun umgestellt.“?",
+          "criteria": {
+            "true": "`nachher` says this, with the same numbers, dates and names; the wording may differ.",
+            "false": "`nachher` does not say this, or says it with a different number, date or name."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "holistic": {
+          "type": "noul",
+          "noul": 0.05
+        },
+        "nothing_added": {
+          "type": "noul",
+          "noul": 0.7
+        },
+        "conveys_0": {
+          "type": "noul",
+          "noul": 0.03
+        },
+        "conveys_1": {
+          "type": "noul",
+          "noul": 0.91
+        }
+      },
+      "usage": {
+        "input_tokens": 714,
+        "output_tokens": 76
+      }
+    },
+    "seconds": 0.199
+  },
+  {
+    "kind": "d1",
+    "id": "d4",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "vorher": "Bei Stamford Bridge waren rund tausend Huscarle getötet oder verwundet worden. Harald blieben nur zweitausend.",
+        "nachher": "Bei Stamford Bridge hatte Harald rund tausend Huscarle verloren, ihm blieben nur noch dreitausend."
+      },
+      "questions": {
+        "holistic": {
+          "type": "noul",
+          "instructions": "Does `nachher` convey the same factual statements as `vorher`?",
+          "criteria": {
+            "true": "Every factual statement from `vorher` is also in `nachher`, with the same numbers, dates and names, and `nachher` adds no factual statement. Wording, order and reactions do not matter.",
+            "false": "A factual statement from `vorher` is missing from `nachher` or changed, or `nachher` contains a factual statement that `vorher` does not."
+          }
+        },
+        "nothing_added": {
+          "type": "noul",
+          "instructions": "Is every factual statement in `nachher` also in `vorher`?",
+          "criteria": {
+            "true": "Everything factual in `nachher` appears in `vorher`; reactions and transitions do not count.",
+            "false": "`nachher` contains a factual statement that does not appear in `vorher`."
+          }
+        },
+        "conveys_0": {
+          "type": "noul",
+          "instructions": "Does `nachher` convey the statement „In der Schlacht bei Stamford Bridge wurden etwa 1000 Huscarle getötet oder verwundet.“?",
+          "criteria": {
+            "true": "`nachher` says this, with the same numbers, dates and names; the wording may differ.",
+            "false": "`nachher` does not say this, or says it with a different number, date or name."
+          }
+        },
+        "conveys_1": {
+          "type": "noul",
+          "instructions": "Does `nachher` convey the statement „Harald II. konnte danach nur noch auf 2000 Huscarle zurückgreifen.“?",
+          "criteria": {
+            "true": "`nachher` says this, with the same numbers, dates and names; the wording may differ.",
+            "false": "`nachher` does not say this, or says it with a different number, date or name."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "holistic": {
+          "type": "noul",
+          "noul": 0.03
+        },
+        "nothing_added": {
+          "type": "noul",
+          "noul": 0.06
+        },
+        "conveys_0": {
+          "type": "noul",
+          "noul": 0.69
+        },
+        "conveys_1": {
+          "type": "noul",
+          "noul": 0.02
+        }
+      },
+      "usage": {
+        "input_tokens": 718,
+        "output_tokens": 76
+      }
+    },
+    "seconds": 0.138
+  },
+  {
+    "kind": "d1",
+    "id": "d5",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "vorher": "Föhn gibt es in der Region an rund sechzig Tagen im Jahr.",
+        "nachher": "Und jetzt halt dich fest: An rund sechzig Tagen im Jahr gibt es in der Region Föhn."
+      },
+      "questions": {
+        "holistic": {
+          "type": "noul",
+          "instructions": "Does `nachher` convey the same factual statements as `vorher`?",
+          "criteria": {
+            "true": "Every factual statement from `vorher` is also in `nachher`, with the same numbers, dates and names, and `nachher` adds no factual statement. Wording, order and reactions do not matter.",
+            "false": "A factual statement from `vorher` is missing from `nachher` or changed, or `nachher` contains a factual statement that `vorher` does not."
+          }
+        },
+        "nothing_added": {
+          "type": "noul",
+          "instructions": "Is every factual statement in `nachher` also in `vorher`?",
+          "criteria": {
+            "true": "Everything factual in `nachher` appears in `vorher`; reactions and transitions do not count.",
+            "false": "`nachher` contains a factual statement that does not appear in `vorher`."
+          }
+        },
+        "conveys_0": {
+          "type": "noul",
+          "instructions": "Does `nachher` convey the statement „Die Föhn-Wetterlage tritt in der Region an etwa 60 Tagen pro Jahr auf.“?",
+          "criteria": {
+            "true": "`nachher` says this, with the same numbers, dates and names; the wording may differ.",
+            "false": "`nachher` does not say this, or says it with a different number, date or name."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "holistic": {
+          "type": "noul",
+          "noul": 0.98
+        },
+        "nothing_added": {
+          "type": "noul",
+          "noul": 0.98
+        },
+        "conveys_0": {
+          "type": "noul",
+          "noul": 0.98
+        }
+      },
+      "usage": {
+        "input_tokens": 604,
+        "output_tokens": 57
+      }
+    },
+    "seconds": 0.147
+  },
+  {
+    "kind": "d1",
+    "id": "d6",
+    "request": {
+      "model": "jev-1.13.0",
+      "state": {
+        "vorher": "Am Weihnachtstag 1066 ließ sich Wilhelm in Westminster Abbey zum König von England krönen.",
+        "nachher": "Am Weihnachtstag 1066 ließ sich Wilhelm in Westminster Abbey zum König krönen und baute danach zahlreiche Zwingburgen."
+      },
+      "questions": {
+        "holistic": {
+          "type": "noul",
+          "instructions": "Does `nachher` convey the same factual statements as `vorher`?",
+          "criteria": {
+            "true": "Every factual statement from `vorher` is also in `nachher`, with the same numbers, dates and names, and `nachher` adds no factual statement. Wording, order and reactions do not matter.",
+            "false": "A factual statement from `vorher` is missing from `nachher` or changed, or `nachher` contains a factual statement that `vorher` does not."
+          }
+        },
+        "nothing_added": {
+          "type": "noul",
+          "instructions": "Is every factual statement in `nachher` also in `vorher`?",
+          "criteria": {
+            "true": "Everything factual in `nachher` appears in `vorher`; reactions and transitions do not count.",
+            "false": "`nachher` contains a factual statement that does not appear in `vorher`."
+          }
+        },
+        "conveys_0": {
+          "type": "noul",
+          "instructions": "Does `nachher` convey the statement „Wilhelm ließ sich am Weihnachtstag 1066 in Westminster Abbey zum König von England krönen.“?",
+          "criteria": {
+            "true": "`nachher` says this, with the same numbers, dates and names; the wording may differ.",
+            "false": "`nachher` does not say this, or says it with a different number, date or name."
+          }
+        }
+      }
+    },
+    "status": 200,
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "holistic": {
+          "type": "noul",
+          "noul": 0.05
+        },
+        "nothing_added": {
+          "type": "noul",
+          "noul": 0.02
+        },
+        "conveys_0": {
+          "type": "noul",
+          "noul": 0.61
+        }
+      },
+      "usage": {
+        "input_tokens": 622,
+        "output_tokens": 57
+      }
+    },
+    "seconds": 0.147
+  }
+]
