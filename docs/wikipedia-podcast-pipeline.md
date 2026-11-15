@@ -90,7 +90,7 @@ flowchart TD
 
 ## Judge
 
-- **Jev:** Entscheidungsmodell von TypeSafe (jev-1.13), Zugang direkt über TypeSafe; liefert pro Frage eine Wahrscheinlichkeit p, keinen Text. p ist laut Anbieter kalibriert, unabhängig nicht bestätigt; die Stichproben prüfen das. Limit: 64k Token gesamt, 32k für State plus längste Frage.
+- **Jev:** Entscheidungsmodell von TypeSafe (`jev-1.14.0`, Version fest angegeben, kein Alias; Auswahl siehe Spike S1), Zugang direkt über TypeSafe; liefert pro Frage eine Wahrscheinlichkeit p, keinen Text. p ist laut Anbieter kalibriert, unabhängig nicht bestätigt; die Stichproben prüfen das. Limit: 64k Token gesamt, 32k für State plus längste Frage.
 - **LLM-Judge:** Claude Sonnet 5.5 (dasselbe Modell wie der Dialogautor), ohne geteilten Kontext mit dem Dialogautor (Eingabe nur Redebeitrag, Fakt-Sätze, Kontext). Anbieter austauschbar halten.
 - **Eingabe (Jev-State):** Redebeitrag, Klartext der zitierten Fakt-Sätze, Klartext des Kontexts als getrenntes Feld.
 - **Rubrik:** jede Behauptung und Prämisse folgt aus Fakt-Sätzen. „Nur durch Kontext belegt“ gilt als nicht belegt. Redebeitrag ohne Fakt-IDs darf keine Behauptung enthalten. Reaktionen nach dem Reaktionskriterium im Persona-Dokument gelten als belegfrei.
@@ -104,10 +104,10 @@ flowchart TD
 
 | Fehlerart | Codes | Reaktion |
 |---|---|---|
-| Überlänge | per Test ermitteln | LLM-Judge |
+| Überlänge | 400 mit `error_type` `max_tokens_exceeded` | LLM-Judge |
 | Vorübergehend | 429, 500, 529, Timeout | Wiederholen mit Wartezeit, danach LLM-Judge |
-| Konfiguration | 401, 402, 403, 404 | Abbruch |
-| Ungültige Anfrage | 400, 422 (außer Überlänge) | Abbruch |
+| Konfiguration | 401, 402, 403, 404; 400 mit `error_type` `api_usage_error` (z. B. unbekanntes Modell) | Abbruch |
+| Ungültige Anfrage | 400 (außer Überlänge), 413, 415, 422 | Abbruch |
 
 ## Fehlerbehandlung
 
@@ -197,9 +197,7 @@ Fester Text außerhalb des Dialogautors und der Persona-Regeln; einmal synthetis
 
 - **Stimmen:** Auswahl aus der ElevenLabs Voice Library.
 - **Whisper:** Start mit großem Modell, Laufzeit im Runner messen; Modell im Actions-Cache.
-- **Jev:** Überlänge-Fehlercode testen; Verhalten auf Deutsch prüfen.
 - **Rechtstexte:** ⚠-Platzhalter in datenschutz.md klären, juristische Prüfung empfohlen (vor Ausbaustufe 2).
-- **Jev-Überlänge:** Fehlercode per Test mit übergroßem State ermitteln; bei 422 Trennung von ungültiger Anfrage über Fehlertext.
 
 ## Bekannte Risiken
 

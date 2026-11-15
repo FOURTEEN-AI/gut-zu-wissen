@@ -123,9 +123,9 @@ Delegated by the project owner.
 6. **Error table:** as above. 413/415 → abort.
 7. **Jev price:** `0.042` USD per million input tokens in the config.
 
-## Proposed changes to the design document
+## Changes to the design document
 
-[wikipedia-podcast-pipeline.md](../wikipedia-podcast-pipeline.md) was not edited, since it's a source-of-truth document. Proposed changes:
+Applied to [wikipedia-podcast-pipeline.md](../wikipedia-podcast-pipeline.md) with the project owner's approval:
 
 - **Judge:** Jev 1.13 → Jev 1.14 (`jev-1.14.0`).
 - **Error table:** overlength = `400` + `max_tokens_exceeded`; unknown model = `400 api_usage_error`; add `413`/`415` → abort.
