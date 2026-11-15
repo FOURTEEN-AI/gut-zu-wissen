@@ -25,6 +25,19 @@ wheels = [
 ]
 
 [[package]]
+name = "beautifulsoup4"
+version = "4.15.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "soupsieve" },
+    { name = "typing-extensions" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/43/65/318323f98dbee45d42dff61d8f047181bc6f2268a9068cfad035a46be5af/beautifulsoup4-4.15.0.tar.gz", hash = "sha256:288e3ca7d54b06f2ac191970bc275c1939cb46d450b255bf6718b04aa37ab4f7", size = 632571, upload-time = "2026-06-07T16:44:20.453Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/88/c6/92fcd42f1ba33e1184263f25bfabf3d27c383410470f169e4b8163bf9c17/beautifulsoup4-4.15.0-py3-none-any.whl", hash = "sha256:d6f88de62e1d4e38ecb1077eb9724cd0eff29d2a08ca16a401e9b9e93f117cf9", size = 109924, upload-time = "2026-06-07T16:44:21.566Z" },
+]
+
+[[package]]
 name = "cairocffi"
 version = "1.7.1"
 source = { registry = "https://pypi.org/simple" }
@@ -130,6 +143,7 @@ dev = [
     { name = "ruff" },
 ]
 spikes = [
+    { name = "beautifulsoup4" },
     { name = "httpx" },
     { name = "somajo" },
     { name = "typesafe-sdk" },
@@ -147,6 +161,7 @@ dev = [
     { name = "ruff" },
 ]
 spikes = [
+    { name = "beautifulsoup4", specifier = ">=4.15.0" },
     { name = "httpx", specifier = ">=0.28.1" },
     { name = "somajo", specifier = ">=2.5.0" },
     { name = "typesafe-sdk", specifier = ">=0.7.5" },
@@ -424,6 +439,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/eb/43/82da6c6a4c5abc389cac1d74b3f239880754ea1394911f29ed61ddd57526/somajo-2.5.0.tar.gz", hash = "sha256:baa6d8442e5e299ea3d81b8cdf6d3d14d86ff4aa3c89236a1c4b18692f31ff90", size = 152957, upload-time = "2026-08-07T09:23:41.211Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/c4/00/0c67480e9953c41c38a3bbca7b6c7dbbc4c15b521e8470a3188a20d3b68c/somajo-2.5.0-py3-none-any.whl", hash = "sha256:1a0ef97ace0f168478a6d8addb5e742376970ad10b4d0c14e360c54ac7ecde2e", size = 116681, upload-time = "2026-08-07T09:23:38.297Z" },
+]
+
+[[package]]
+name = "soupsieve"
+version = "4.1.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/1f/52/ee5646b65d98a252e807ccc37725363942372a4113072e0bce7ed22f8b84/soupsieve-4.1.1.tar.gz", hash = "sha256:b296bd2d2f65b1a78149f3d7bf6736a147d2c9e2dfbde0e4404639d748a02e03", size = 169784, upload-time = "2026-11-14T17:23:32.467Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/cd/65/7fae69a095696195334a934eab23aeb12e2715e6c3f08025d2f91942750e/soupsieve-4.1.1-py3-none-any.whl", hash = "sha256:8ff3422dab0b720fb667ee79864d80531a0e57994a13eb701697719ffcb751f6", size = 55089, upload-time = "2026-11-14T17:23:31.001Z" },
 ]
 
 [[package]]
