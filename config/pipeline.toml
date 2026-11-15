@@ -15,7 +15,7 @@ r_factor_error = 2       # error found: r * 2, at most 1.0
 [models]
 author = "claude-sonnet-5-5"        # extraction, ranking, dialog author (Claude Sonnet 5.5)
 llm_judge = "claude-sonnet-5-5"     # judge stage 2, same model as the author (design)
-jev = "jev-1.13"                    # TypeSafe, judge stage 1
+jev = "jev-1.14.0"                  # TypeSafe, judge stage 1; pinned version (spike S1)
 tts = "PLACEHOLDER"                 # ElevenLabs v4: API model ID unknown
 tts_voice_lena = "PLACEHOLDER"      # spike S4
 tts_voice_felix = "PLACEHOLDER"     # spike S4
@@ -39,5 +39,5 @@ target_loudness_lufs = -16          # proposal in the plan, not yet decided
 # Feed the per-episode cost log. Unit and currency to be fixed together with the values.
 claude_sonnet_input = "PLACEHOLDER"
 claude_sonnet_output = "PLACEHOLDER"
-jev = "PLACEHOLDER"
+jev = 0.042                         # USD per million input tokens; output tokens free (spike S1)
 elevenlabs = "PLACEHOLDER"
