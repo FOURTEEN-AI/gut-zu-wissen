@@ -9,3 +9,6 @@ dist/
 .env
 .env.*
 .DS_Store
+
+# Spike S3 render cache (re-fetchable from the Wikipedia API)
+tests/fixtures/wikipedia/spikes/s3_cache/
