@@ -2,7 +2,7 @@
 
 **Question (plan, Phase 0):** Is sentence segmentation of raw wikitext robust on diverse articles (nested templates, tables, lists)?
 **Output:** masking rules, segment ID scheme.
-**Result:** Go. The masking rules below give exact round trips and deterministic output on all 10 articles. Seven points need your decision (see the end).
+**Result:** Go. The masking rules below give exact round trips and deterministic output on all 10 articles. Decisions are recorded at the end.
 
 Code: [spikes/s2_segmentation.py](../../spikes/s2_segmentation.py). Corpus: 10 latest sighted revisions in [tests/fixtures/wikipedia/spikes/](../../tests/fixtures/wikipedia/spikes/), fetched with [spikes/fetch_articles.py](../../spikes/fetch_articles.py). The articles were chosen for structure: Taxobox, chemistry infobox, tables, `<math>`, `<syntaxhighlight>`, long lists, many refs.
 
@@ -18,9 +18,9 @@ Code: [spikes/s2_segmentation.py](../../spikes/s2_segmentation.py). Corpus: 10 l
 | Rotfuchs | 367 | 20 |
 | Satz des Pythagoras | 254 | 0 |
 | Schlacht bei Hastings | 104 | 17 |
-| Wasser | 346 | 25 |
+| Wasser | 345 | 25 |
 | Zugspitze | 459 | 21 |
-| **Total** | **4865** | **196** |
+| **Total** | **4864** | **196** |
 
 Invariants checked on every article:
 
@@ -36,7 +36,7 @@ Runtime: about 0.6 s per article.
 | Flag | Count | What it is |
 |---|---:|---|
 | no end punctuation | 267 | Mostly list items (filmographies, weblink lists, "named after" lists) and display-math lines. None is a sentence torn in two. |
-| lower-case start | 38 | List items continuing an intro ("Wasser hat" + "eine geringe Wärmeleitfähigkeit …") and text after display math ("wobei …", "gilt."). |
+| lower-case start | 37 | List items continuing an intro ("Wasser hat" + "eine geringe Wärmeleitfähigkeit …") and text after display math ("wobei …", "gilt."). |
 | < 4 words | 91 | List items, years in filmographies, intros like "Daraus folgt". |
 | > 60 words | 27 | Genuinely long sentences; checked by hand, no missed splits. |
 | unbalanced markup | 0 | |
@@ -71,6 +71,8 @@ Raw wikitext is scanned once. Each construct becomes a mask with a *surrogate*: 
 - Consecutive plain lines form one paragraph unit; a single newline is a soft break.
 - Lines starting with a space (preformatted text), `----` and `__MAGIC__` are skipped.
 
+**Hatnotes:** a line starting with one of the templates *Dieser Artikel, Hauptartikel, Siehe auch, Begriffsklärungshinweis, Weiterleitungshinweis, Andere Bedeutung, Unterscheide* is skipped as a whole. This includes text after the template on the same line, which renders as part of the note (Wasser: `{{Hauptartikel|…}} mit allen …`). The list is extended as cases are found.
+
 **Excluded sections:** level-2 sections *Literatur, Weblinks, Einzelnachweise, Anmerkungen, Siehe auch, Quellen, Belege, Fußnoten*, including their subsections.
 
 **False abbreviations.** SoMaJo's German abbreviation list matches case-insensitively and contains entries that are ordinary words in prose. It never ends a sentence after them. The corpus showed three: `Italien.`, `Japan.` and `mag.` (from "Mag." = Magister). After SoMaJo, a sentence is split after such a token when the next token is capitalised. This was found by checking which list entries occur in the corpus both with and without a full stop.
@@ -90,7 +92,6 @@ Raw wikitext is scanned once. Each construct becomes a mask with a *surrogate*: 
 - **List content.** List items are segmented but are rarely full sentences, so they fail the full-sentence gate. Facts that only exist in lists are lost.
 - **Sentences around display math.** A sentence with a formula on its own line ("…, dass die Gleichung / : <math>…</math> / gilt.") is split into fragments, which the gate drops.
 - **Non-content infobox rows.** Rows like `rightarm1 = FF0000` (shirt colours) or image file names are kept as segments. Extraction can ignore them; mapping parameters to rendered labels is S3.
-- **Hatnotes.** Hatnotes with following text on the same line (Wasser: `{{Hauptartikel|…}} mit allen …`) become ordinary sentence segments.
 
 ## Decisions
 
@@ -100,7 +101,7 @@ Raw wikitext is scanned once. Each construct becomes a mask with a *surrogate*: 
 | 2 | List content | Accepted: facts stated only in list items are lost. |
 | 3 | Segmenter version | `{revid}-{index}` as in the plan; no segmenter version in the archive for now. Added once there is a second segmenter version. |
 | 4 | False abbreviations | Fixed list (`Italien.`, `Japan.`, `mag.`), extended as cases are found. |
-| 5 | Hatnotes with trailing text | Open. Proposal: a line starting with a hatnote template (fixed list: Dieser Artikel, Hauptartikel, Siehe auch, Begriffsklärungshinweis, Weiterleitungshinweis, Andere Bedeutung, Unterscheide) is skipped as a whole. |
+| 5 | Hatnotes with trailing text | A line starting with a hatnote template (fixed list, see masking rules) is skipped as a whole; the list is extended as cases are found. |
 | 6 | Dependency freshness | No pin; resolved versions stay as they are. |
 
 The spike dependency group (SoMaJo, httpx) moves into the main dependencies in step 3.

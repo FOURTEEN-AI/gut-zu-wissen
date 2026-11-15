@@ -48,6 +48,17 @@ UNIT = re.compile(r"°[CF]\b")
 SCORE = re.compile(r"\d+:\d+(?!\d)")
 # Entries in SoMaJo's abbreviation list (matched case-insensitively) that are ordinary
 # words in article prose; SoMaJo never ends a sentence after them. Found in the spike corpus.
+# Hatnote templates: navigation, not content. A line starting with one is skipped as a whole,
+# including text after the template on the same line (S2 decision 5).
+HATNOTES = {
+    "dieser artikel",
+    "hauptartikel",
+    "siehe auch",
+    "begriffsklärungshinweis",
+    "weiterleitungshinweis",
+    "andere bedeutung",
+    "unterscheide",
+}
 FALSE_ABBREVIATIONS = {"italien.", "japan.", "mag."}
 SENTENCE_END = re.compile(r"[.!?:;…][\"'“”„‚‘’»«)\]]*$")
 
@@ -257,6 +268,10 @@ def _split_top(text: str) -> list[str]:
     return parts
 
 
+def _template_name(raw_template: str) -> str:
+    return " ".join(_split_top(raw_template[2:-2])[0].replace("_", " ").split())
+
+
 def infobox_rows(raw_template: str) -> tuple[str, list[str]]:
     parts = _split_top(raw_template[2:-2])
     name = parts[0].strip()
@@ -316,6 +331,14 @@ def segment(article: dict, tokenizer: SoMaJo) -> tuple[list[Segment], list[str]]
         block_only = rest.strip() == "" and any(
             m.kind not in ("link", "extlink", "entity", "unit", "score") for m in line_masks
         )
+        first = min(line_masks, key=lambda m: m.m_start) if line_masks else None
+        if (
+            first is not None
+            and first.kind == "template"
+            and line[: first.m_start - start].strip() == ""
+            and _template_name(text[first.raw_start : first.raw_end]).lower() in HATNOTES
+        ):
+            block_only = True
         heading = HEADING.match(line)
         if para and (not line.strip() or heading or block_only or LIST_MARKER.match(line)):
             units.append(("para", para[0], para[1]))
