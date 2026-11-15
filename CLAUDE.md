@@ -26,6 +26,7 @@ Current phase: see `docs/implementation-plan.md`. Work in plan order, one step p
 - **Licences.** Code: Apache 2.0 (`LICENSE`). Archive: CC BY-SA 4.0 (own licence file in the archive directory). Files containing Wikipedia text, including test fixtures, live in `tests/fixtures/wikipedia/` with a CC BY-SA notice.
 - **Pages site.** No cookies, no tracking, no external resources (including fonts). Audio player uses `preload="none"`. Impressum and Datenschutz linked on every page.
 - **Wikipedia API.** Descriptive User-Agent with contact address; respect rate limits.
+- **TypeSafe / Jev.** Use the `typesafe-ai` skill (plugin `typesafe@typesafe-ai`) for all work on Jev: client, state design, question wording, reading answers. Its live docs are the source of truth for the API.
 
 ## Cover
 
