@@ -15,7 +15,7 @@ These retire the open risks before the build starts.
 |---|---|---|
 | S1 Jev ✅ | German accuracy on ~30 hand-labelled turn/fact pairs; overlength error code; latency; reliability of the content-preservation question (see D1) | Go/no-go for Jev, error table complete |
 | S2 SoMaJo + masking ✅ | Robust on 10 diverse articles (nested templates, tables, lists)? | Masking rules, segment ID scheme |
-| S3 Rendering | Does `action=parse` per segment differ from in-article rendering? How do infobox parameters map to rendered row labels (see D3)? | Decision: per segment, or render once and map; label-mapping method |
+| S3 Rendering ✅ | Does `action=parse` per segment differ from in-article rendering? How do infobox parameters map to rendered row labels (see D3)? | Decision: per segment, or render once and map; label-mapping method |
 | S4 ElevenLabs v4 | Voice choice, 10k-char sections, audibility of seams | Two voice IDs, section strategy |
 | S5 Whisper | Runtime for 15 min of audio on an Actions CPU runner (large vs. faster-whisper int8) | Model size, cache setup |
 
