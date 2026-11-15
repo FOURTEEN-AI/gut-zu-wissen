@@ -17,6 +17,7 @@ dev = [
 spikes = [
     "httpx>=0.28.1",
     "somajo>=2.5.0",
+    "typesafe-sdk>=0.7.5",
 ]
 
 [build-system]
