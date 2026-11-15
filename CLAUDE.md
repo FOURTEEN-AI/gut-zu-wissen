@@ -43,5 +43,6 @@ Current phase: see `docs/implementation-plan.md`. Work in plan order, one step p
 ## Working style
 
 - Ask before deciding anything the documents leave open.
+- Commit on your own, in small logical steps (one concern per commit). No need to ask first; push only when asked.
 - Run tests and lint before every commit.
 - After completing a plan step, mark it in `docs/implementation-plan.md`.
