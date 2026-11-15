@@ -1,0 +1,1493 @@
+{
+  "Eiffelturm": [
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "no_label_single_cell",
+      "params": [
+        "OFZ_NAME"
+      ],
+      "text": "EiffelturmTour Eiffel"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "ORT"
+      ],
+      "label": "Ort:",
+      "value": "Champ de Mars im 7. Arrondissement"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "LAGEPUNKT (numeric)"
+      ],
+      "label": "Höhenlage:",
+      "value": "33 m"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "VERW"
+      ],
+      "label": "Verwendung:",
+      "value": "Fernmeldeturm, Rundfunksender, Restaurant, Aussichtsturm"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "ZUGANG"
+      ],
+      "label": "Zugänglichkeit:",
+      "value": "Sendeturm öffentlich zugänglich"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "BESITZER"
+      ],
+      "label": "Besitzer:",
+      "value": "Société d’exploitation de la tour Eiffel (SETE)"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "T_BAU_ZEIT"
+      ],
+      "label": "Bauzeit:",
+      "value": "1887–1889"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "T_BAU_KOST"
+      ],
+      "label": "Baukosten:",
+      "value": "7.739.401 Francs"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "T_BAU_HERR"
+      ],
+      "label": "Bauherr:",
+      "value": "Gustave Eiffel & Cie"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "T_BAU_ARCH"
+      ],
+      "label": "Architekt:",
+      "value": "Stephen Sauvestre"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "T_BAU_ST"
+      ],
+      "label": "Baustoff:",
+      "value": "Schmiedeeisen"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "T_BET_ZEIT"
+      ],
+      "label": "Betriebszeit:",
+      "value": "seit 1889"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "T_HOCH_GES"
+      ],
+      "label": "Gesamthöhe:",
+      "value": "330 m"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "T_HOCH_AUS"
+      ],
+      "label": "Aussichtsplattformen:",
+      "value": "57,6 m, 115,7 m, 276,1 m"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "T_HOCH_RES"
+      ],
+      "label": "Restaurant:",
+      "value": "115,7 m"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "T_HOCH_BET"
+      ],
+      "label": "Betriebsraum:",
+      "value": "295 m"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "T_GEW_GES"
+      ],
+      "label": "Gesamtmasse:",
+      "value": "10.100 t"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "S_ANT_BAU"
+      ],
+      "label": "Letzter Umbau (Antenne):",
+      "value": "03.2022"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "S_WELLE"
+      ],
+      "label": "Wellenbereich:",
+      "value": "UKW, DAB"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "S_RUNDFUNK"
+      ],
+      "label": "Rundfunk:",
+      "value": "UKW, DAB"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "mapped",
+      "params": [
+        "S_TYP"
+      ],
+      "label": "Sendetypen:",
+      "value": "DVB-T, Richtfunk, DAB-Radio"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "no_label_single_cell",
+      "params": [
+        "NAME"
+      ],
+      "text": "Eiffelturm"
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "layout_changes",
+      "params": [
+        "WEITERES"
+      ]
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "not_shown",
+      "params": [
+        "BILD"
+      ]
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "not_shown",
+      "params": [
+        "REGION-ISO"
+      ]
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "not_shown",
+      "params": [
+        "NS"
+      ]
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "not_shown",
+      "params": [
+        "EW"
+      ]
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "not_shown",
+      "params": [
+        "BAU_DEKADE"
+      ]
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "not_shown",
+      "params": [
+        "CAT_TYP"
+      ]
+    },
+    {
+      "template": "Infobox Sendeanlage",
+      "result": "not_shown",
+      "params": [
+        "CAT_STADT"
+      ]
+    }
+  ],
+  "FC Bayern München": [
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "no_label_single_cell",
+      "params": [
+        "kurzname"
+      ],
+      "text": "FC Bayern München"
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "no_label_single_cell",
+      "params": [
+        "image"
+      ],
+      "text": ""
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "mapped",
+      "params": [
+        "langname"
+      ],
+      "label": "Name",
+      "value": "Fußball‑Club Bayern München e. V."
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "mapped",
+      "params": [
+        "sitz_verein"
+      ],
+      "label": "Sitz",
+      "value": "München, Bayern"
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "mapped",
+      "params": [
+        "gründung_verein"
+      ],
+      "label": "Gründung",
+      "value": "27. Februar 1900"
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "mapped",
+      "params": [
+        "farben_verein"
+      ],
+      "label": "Farben",
+      "value": "Rot und Weiß"
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "mapped",
+      "params": [
+        "mitglieder"
+      ],
+      "label": "Mitglieder",
+      "value": "432.500 (Stand: 2. November 2025)"
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "mapped",
+      "params": [
+        "vorstand"
+      ],
+      "label": "Vorstand",
+      "value": "Herbert Hainer (Präsident) Dieter Mayer (1. Vizepräsident) Walter Mennekes (2. Vizepräsident)"
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "mapped",
+      "params": [
+        "vr-nr"
+      ],
+      "label": "VR-Nr.",
+      "value": "VR 2463 (AG München)"
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "mapped",
+      "params": [
+        "unternehmen"
+      ],
+      "label": "Name",
+      "value": "FC Bayern München AG"
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "mapped_param_label",
+      "params": [
+        "anteilseigner_bezeichnung",
+        "anteilseigner_name"
+      ],
+      "label": "Aktionäre",
+      "value": "70,00 %: FC Bayern München e. V. 07,77 %: Adidas AG 07,77 %: Allianz SE 07,77 %: Audi AG 06,7 %: Viessmann Generations Group"
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "mapped_param_label",
+      "params": [
+        "chefbezeichnung",
+        "chefname"
+      ],
+      "label": "Vorstand",
+      "value": "Jan-Christian Dreesen (Vorsitzender) Max Eberl (Sport) Rouven Kasper (Marketing und Vertrieb)"
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "mapped",
+      "params": [
+        "hr-nr"
+      ],
+      "label": "HR-Nr.",
+      "value": "HRB 140475 (AG München)"
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "mapped",
+      "params": [
+        "website_unternehmen"
+      ],
+      "label": "Website",
+      "value": "fcbayern.com"
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "mapped",
+      "params": [
+        "trainer"
+      ],
+      "label": "Cheftrainer",
+      "value": "Vincent Kompany"
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "mapped",
+      "params": [
+        "stadion"
+      ],
+      "label": "Spielstätte",
+      "value": "Allianz Arena"
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "mapped",
+      "params": [
+        "plätze"
+      ],
+      "label": "Plätze",
+      "value": "75.000"
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "mapped",
+      "params": [
+        "liga"
+      ],
+      "label": "Liga",
+      "value": "Bundesliga"
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "mapped_param_label",
+      "params": [
+        "saison",
+        "rang"
+      ],
+      "label": "2025/26",
+      "value": "1. Platz"
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "pattern_la1"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "pattern_b1"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "pattern_ra1"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "pattern_sh1"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "pattern_so1"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "leftarm1"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "body1"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "rightarm1"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "shorts1"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "socks1"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "pattern_la2"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "pattern_b2"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "pattern_ra2"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "pattern_sh2"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "pattern_so2"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "leftarm2"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "body2"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "rightarm2"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "shorts2"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "socks2"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "pattern_la3"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "pattern_b3"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "pattern_ra3"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "pattern_sh3"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "leftarm3"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "body3"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "rightarm3"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "shorts3"
+      ]
+    },
+    {
+      "template": "Infobox Fußballunternehmen",
+      "result": "not_shown",
+      "params": [
+        "socks3"
+      ]
+    },
+    {
+      "template": "Infobox Fußballteam",
+      "result": "mapped",
+      "params": [
+        "name"
+      ],
+      "label": "Name",
+      "value": "FC Bayern München II"
+    },
+    {
+      "template": "Infobox Fußballteam",
+      "result": "mapped",
+      "params": [
+        "stadion"
+      ],
+      "label": "Spielstätte",
+      "value": "Grünwalder Stadion"
+    },
+    {
+      "template": "Infobox Fußballteam",
+      "result": "mapped",
+      "params": [
+        "plätze"
+      ],
+      "label": "Plätze",
+      "value": "15.000"
+    },
+    {
+      "template": "Infobox Fußballteam",
+      "result": "mapped",
+      "params": [
+        "trainer"
+      ],
+      "label": "Cheftrainer",
+      "value": "Dante"
+    },
+    {
+      "template": "Infobox Fußballteam",
+      "result": "mapped",
+      "params": [
+        "liga"
+      ],
+      "label": "Liga",
+      "value": "Regionalliga Bayern"
+    },
+    {
+      "template": "Infobox Fußballteam",
+      "result": "mapped_param_label",
+      "params": [
+        "saison",
+        "rang"
+      ],
+      "label": "2025/26",
+      "value": "11. Platz"
+    }
+  ],
+  "Mount Everest": [
+    {
+      "template": "Infobox Berg",
+      "result": "no_label_single_cell",
+      "params": [
+        "BILDBESCHREIBUNG"
+      ],
+      "text": "Nordseite, vom Weg zum Basislager aus gesehen"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "mapped",
+      "params": [
+        "HÖHE-BEZUG",
+        "HÖHE (numeric)"
+      ],
+      "label": "Höhe",
+      "value": "8848 m"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "mapped",
+      "params": [
+        "LAGE"
+      ],
+      "label": "Lage",
+      "value": "Solukhumbu, Nepal, und Tibet, China"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "mapped",
+      "params": [
+        "GEBIRGE"
+      ],
+      "label": "Gebirge",
+      "value": "Mahalangur Himal (Himalaya)"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "no_label_single_cell",
+      "params": [
+        "POSKARTE"
+      ],
+      "text": "Mount Everest (Nepal)"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "mapped",
+      "params": [
+        "GESTEIN"
+      ],
+      "label": "Gestein",
+      "value": "Kristallingesteine, Kalkstein"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "mapped",
+      "params": [
+        "ALTER"
+      ],
+      "label": "Alter des Gesteins",
+      "value": "Neoproterozoikum–Ordovizium, Tertiär"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "mapped",
+      "params": [
+        "ERSTBESTEIGUNG"
+      ],
+      "label": "Erstbesteigung",
+      "value": "29. Mai 1953 durch Edmund Hillary und Tenzing Norgay"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "mapped",
+      "params": [
+        "NORMALWEG"
+      ],
+      "label": "Normalweg",
+      "value": "Südroute"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "no_label_single_cell",
+      "params": [
+        "BILD1-BESCHREIBUNG"
+      ],
+      "text": "Virtueller Flug um den Mount Everest"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "no_label_single_cell",
+      "params": [
+        "BILD2-BESCHREIBUNG"
+      ],
+      "text": "Panoramakarte des Mount Everest, Blickrichtung aus Westnordwesten"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "not_shown",
+      "params": [
+        "BILD"
+      ]
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "not_shown",
+      "params": [
+        "BREITENGRAD"
+      ]
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "not_shown",
+      "params": [
+        "LÄNGENGRAD"
+      ]
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "not_shown",
+      "params": [
+        "REGION-ISO"
+      ]
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "not_shown",
+      "params": [
+        "BILD1"
+      ]
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "not_shown",
+      "params": [
+        "BILD2"
+      ]
+    }
+  ],
+  "Python (Programmiersprache)": [
+    {
+      "template": "Infobox Programmiersprache",
+      "result": "no_label_single_cell",
+      "params": [
+        "Name"
+      ],
+      "text": "Python"
+    },
+    {
+      "template": "Infobox Programmiersprache",
+      "result": "no_label_single_cell",
+      "params": [
+        "Logo"
+      ],
+      "text": ""
+    },
+    {
+      "template": "Infobox Programmiersprache",
+      "result": "mapped",
+      "params": [
+        "Paradigma"
+      ],
+      "label": "Paradigmen:",
+      "value": "multiparadigmatisch: objektorientiert, prozedural (imperativ), funktional, strukturiert, reflektiert"
+    },
+    {
+      "template": "Infobox Programmiersprache",
+      "result": "mapped",
+      "params": [
+        "Typisierung"
+      ],
+      "label": "Typisierung:",
+      "value": "stark, dynamisch („Duck-Typing“)"
+    },
+    {
+      "template": "Infobox Programmiersprache",
+      "result": "mapped",
+      "params": [
+        "Implementierung"
+      ],
+      "label": "Wichtige Implementierungen:",
+      "value": "CPython, Jython, IronPython, PyPy"
+    },
+    {
+      "template": "Infobox Programmiersprache",
+      "result": "mapped",
+      "params": [
+        "Beeinflusste"
+      ],
+      "label": "Beeinflusste:",
+      "value": "Ruby, Cython"
+    },
+    {
+      "template": "Infobox Programmiersprache",
+      "result": "not_shown",
+      "params": [
+        "Beschreibung"
+      ]
+    }
+  ],
+  "Rotfuchs": [
+    {
+      "template": "Taxobox",
+      "result": "no_label_single_cell",
+      "params": [
+        "Bild",
+        "Bildbeschreibung"
+      ],
+      "text": "Rotfuchs (Vulpes vulpes) Bellender Fuchsⓘ"
+    },
+    {
+      "template": "Taxobox",
+      "result": "mapped",
+      "params": [
+        "Taxon6_Name",
+        "Taxon6_WissName"
+      ],
+      "label": "Ordnung:",
+      "value": "Raubtiere (Carnivora)"
+    },
+    {
+      "template": "Taxobox",
+      "result": "mapped",
+      "params": [
+        "Taxon5_Name",
+        "Taxon5_WissName"
+      ],
+      "label": "Unterordnung:",
+      "value": "Hundeartige (Caniformia)"
+    },
+    {
+      "template": "Taxobox",
+      "result": "mapped",
+      "params": [
+        "Taxon4_Name",
+        "Taxon4_WissName"
+      ],
+      "label": "Familie:",
+      "value": "Hunde (Canidae)"
+    },
+    {
+      "template": "Taxobox",
+      "result": "mapped",
+      "params": [
+        "Taxon3_Name",
+        "Taxon3_WissName"
+      ],
+      "label": "Tribus:",
+      "value": "Echte Füchse (Vulpini)"
+    },
+    {
+      "template": "Taxobox",
+      "result": "mapped",
+      "params": [
+        "Taxon2_WissName"
+      ],
+      "label": "Gattung:",
+      "value": "Vulpes"
+    },
+    {
+      "template": "Taxobox",
+      "result": "mapped",
+      "params": [
+        "Taxon_Name"
+      ],
+      "label": "Art:",
+      "value": "Rotfuchs"
+    },
+    {
+      "template": "Taxobox",
+      "result": "no_label_single_cell",
+      "params": [
+        "Taxon_WissName"
+      ],
+      "text": "Vulpes vulpes"
+    },
+    {
+      "template": "Taxobox",
+      "result": "no_label_single_cell",
+      "params": [
+        "Taxon_Autor"
+      ],
+      "text": "(Linnaeus, 1758)"
+    },
+    {
+      "template": "Taxobox",
+      "result": "not_shown",
+      "params": [
+        "Taxon_Rang"
+      ]
+    },
+    {
+      "template": "Taxobox",
+      "result": "not_shown",
+      "params": [
+        "Taxon2_Rang"
+      ]
+    },
+    {
+      "template": "Taxobox",
+      "result": "not_shown",
+      "params": [
+        "Taxon3_Rang"
+      ]
+    },
+    {
+      "template": "Taxobox",
+      "result": "not_shown",
+      "params": [
+        "Taxon4_Rang"
+      ]
+    },
+    {
+      "template": "Taxobox",
+      "result": "not_shown",
+      "params": [
+        "Taxon5_Rang"
+      ]
+    },
+    {
+      "template": "Taxobox",
+      "result": "not_shown",
+      "params": [
+        "Taxon6_Rang"
+      ]
+    }
+  ],
+  "Schlacht bei Hastings": [
+    {
+      "template": "Infobox Militärischer Konflikt",
+      "result": "no_label_single_cell",
+      "params": [
+        "KONFLIKT"
+      ],
+      "text": "Schlacht bei Hastings"
+    },
+    {
+      "template": "Infobox Militärischer Konflikt",
+      "result": "no_label_single_cell",
+      "params": [
+        "TEILVON"
+      ],
+      "text": "Teil von: Invasion Englands durch Normannen"
+    },
+    {
+      "template": "Infobox Militärischer Konflikt",
+      "result": "no_label_single_cell",
+      "params": [
+        "BILD",
+        "BESCHREIBUNG"
+      ],
+      "text": "Ausschnitt des Wandteppichs von Bayeux"
+    },
+    {
+      "template": "Infobox Militärischer Konflikt",
+      "result": "mapped",
+      "params": [
+        "DATUM"
+      ],
+      "label": "Datum",
+      "value": "14. Oktober 1066"
+    },
+    {
+      "template": "Infobox Militärischer Konflikt",
+      "result": "mapped",
+      "params": [
+        "ORT"
+      ],
+      "label": "Ort",
+      "value": "In der Nähe von Hastings, East Sussex, an der englischen Südküste"
+    },
+    {
+      "template": "Infobox Militärischer Konflikt",
+      "result": "mapped",
+      "params": [
+        "AUSGANG"
+      ],
+      "label": "Ausgang",
+      "value": "Sieg der Normannen"
+    },
+    {
+      "template": "Infobox Militärischer Konflikt",
+      "result": "mapped",
+      "params": [
+        "FOLGEN"
+      ],
+      "label": "Folgen",
+      "value": "Wilhelm eroberte England und wurde zum König gekrönt"
+    },
+    {
+      "template": "Infobox Militärischer Konflikt",
+      "result": "column_names",
+      "params": [
+        "KONTRAHENT1",
+        "KONTRAHENT2"
+      ],
+      "label": "Konfliktparteien",
+      "value": "Normannen / Angelsachsen"
+    },
+    {
+      "template": "Infobox Militärischer Konflikt",
+      "result": "mapped_comparison",
+      "params": [
+        "BEFEHLSHABER1",
+        "BEFEHLSHABER2"
+      ],
+      "label": "Befehlshaber",
+      "value": "Normannen: Wilhelm I.; Angelsachsen: Harald II. †"
+    },
+    {
+      "template": "Infobox Militärischer Konflikt",
+      "result": "mapped_comparison",
+      "params": [
+        "TRUPPENSTÄRKE1",
+        "TRUPPENSTÄRKE2"
+      ],
+      "label": "Truppenstärke",
+      "value": "Normannen: ca. 7000 Mann; Angelsachsen: ca. 7500 Mann"
+    },
+    {
+      "template": "Infobox Militärischer Konflikt",
+      "result": "mapped_comparison",
+      "params": [
+        "VERLUSTE1",
+        "VERLUSTE2"
+      ],
+      "label": "Verluste",
+      "value": "Normannen: ca. 2000 Mann; Angelsachsen: ca. 2000 Mann, darunter auch König Harald II."
+    },
+    {
+      "template": "Infobox Militärischer Konflikt",
+      "result": "no_label_single_cell",
+      "params": [
+        "NOTIZEN"
+      ],
+      "text": "Ziele: Wilhelm kämpft für seinen Anspruch auf die englische Krone"
+    }
+  ],
+  "Wasser": [
+    {
+      "template": "Infobox Chemikalie",
+      "result": "no_label_single_cell",
+      "params": [
+        "Strukturformel"
+      ],
+      "text": ""
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "Andere Namen"
+      ],
+      "label": "Andere Namen",
+      "value": "Oxidan (IUPAC) R718"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "Summenformel"
+      ],
+      "label": "Summenformel",
+      "value": "H2O"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "Beschreibung"
+      ],
+      "label": "Kurzbeschreibung",
+      "value": "klare, farb- und geruchlose Flüssigkeit"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "CAS"
+      ],
+      "label": "CAS-Nummer",
+      "value": "7732-18-5"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "EG-Nummer"
+      ],
+      "label": "EG-Nummer",
+      "value": "231-791-2"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "ECHA-ID"
+      ],
+      "label": "ECHA-InfoCard",
+      "value": "100.028.902"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "PubChem"
+      ],
+      "label": "PubChem",
+      "value": "962"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "DrugBank"
+      ],
+      "label": "DrugBank",
+      "value": "DB09145"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "Molare Masse"
+      ],
+      "label": "Molare Masse",
+      "value": "18,02 g·mol−1"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "Aggregat"
+      ],
+      "label": "Aggregatzustand",
+      "value": "flüssig"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "Dichte"
+      ],
+      "label": "Dichte",
+      "value": "0,998 g·cm−3 (20 °C)"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "Schmelzpunkt"
+      ],
+      "label": "Schmelzpunkt",
+      "value": "0 °C (101,3 kPa)"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "Siedepunkt"
+      ],
+      "label": "Siedepunkt",
+      "value": "100 °C (101,3 kPa)"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "Dampfdruck"
+      ],
+      "label": "Dampfdruck",
+      "value": "2,3388 kPa (20 °C)"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "Dipolmoment"
+      ],
+      "label": "Dipolmoment",
+      "value": "1,85 D (6,18·10−30 C·m)"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "Brechungsindex"
+      ],
+      "label": "Brechungsindex",
+      "value": "1,333"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "no_label_single_cell",
+      "params": [
+        "Quelle GHS-Kz"
+      ],
+      "text": "GHS-Gefahrstoffkennzeichnung keine GHS-Piktogramme"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "H"
+      ],
+      "label": "H- und P-Sätze",
+      "value": "H: keine H-Sätze"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "no_label_single_cell",
+      "params": [
+        "P",
+        "Quelle P"
+      ],
+      "text": "P: keine P-Sätze"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "ToxDaten"
+      ],
+      "label": "Toxikologische Daten",
+      "value": "90 000 mg·kg−1 (LD50, Ratte, oral)"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "mapped",
+      "params": [
+        "Standardbildungsenthalpie"
+      ],
+      "label": "ΔHf0",
+      "value": "−285,83 kJ·mol−1 (Flüssigkeit) −241,826 kJ·mol−1 (Gas)"
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "layout_changes",
+      "params": [
+        "GHS-Piktogramme"
+      ]
+    },
+    {
+      "template": "Infobox Chemikalie",
+      "result": "layout_changes",
+      "params": [
+        "EUH"
+      ]
+    }
+  ],
+  "Zugspitze": [
+    {
+      "template": "Infobox Berg",
+      "result": "no_label_single_cell",
+      "params": [
+        "BILDBESCHREIBUNG"
+      ],
+      "text": "Zugspitzmassiv von Westen (Zugspitzgipfel links)"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "mapped",
+      "params": [
+        "HÖHE-BEZUG",
+        "HÖHE (numeric)"
+      ],
+      "label": "Höhe",
+      "value": "2962,06 m ü. NHN"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "mapped",
+      "params": [
+        "LAGE"
+      ],
+      "label": "Lage",
+      "value": "Grenze Bayern, Deutschland / Tirol, Österreich"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "mapped",
+      "params": [
+        "GEBIRGE"
+      ],
+      "label": "Gebirge",
+      "value": "Wettersteingebirge, Ostalpen"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "mapped",
+      "params": [
+        "DOMINANZ-BEZUG",
+        "DOMINANZ (numeric)"
+      ],
+      "label": "Dominanz",
+      "value": "25,8 km → Zwölferkogel"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "mapped",
+      "params": [
+        "SCHARTE",
+        "SCHARTENHÖHE (numeric)"
+      ],
+      "label": "Schartenhöhe",
+      "value": "1746 m ↓ Fernpass"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "no_label_single_cell",
+      "params": [
+        "POSKARTE"
+      ],
+      "text": "Zugspitze (Wettersteingebirge und Mieminger Kette)"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "mapped",
+      "params": [
+        "GESTEIN"
+      ],
+      "label": "Gestein",
+      "value": "Wettersteinkalk"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "mapped",
+      "params": [
+        "ALTER"
+      ],
+      "label": "Alter des Gesteins",
+      "value": "Trias"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "mapped",
+      "params": [
+        "ERSTBESTEIGUNG"
+      ],
+      "label": "Erstbesteigung",
+      "value": "27. August 1820 durch Josef Naus, Johann Georg Tauschl, Messgehilfe Maier"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "mapped",
+      "params": [
+        "NORMALWEG"
+      ],
+      "label": "Normalweg",
+      "value": "Reintal-Route"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "mapped",
+      "params": [
+        "BESONDERHEITEN"
+      ],
+      "label": "Besonderheiten",
+      "value": "Höchster Berg der deutschen Alpen sowie Bayerns und Deutschlands, eigene PLZ: 82475 Schneefernerhaus"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "no_label_single_cell",
+      "params": [
+        "BILD1-BESCHREIBUNG"
+      ],
+      "text": "Umgebung der Zugspitze"
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "not_shown",
+      "params": [
+        "BILD"
+      ]
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "not_shown",
+      "params": [
+        "BREITENGRAD"
+      ]
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "not_shown",
+      "params": [
+        "LÄNGENGRAD"
+      ]
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "not_shown",
+      "params": [
+        "REGION-ISO"
+      ]
+    },
+    {
+      "template": "Infobox Berg",
+      "result": "not_shown",
+      "params": [
+        "BILD1"
+      ]
+    }
+  ]
+}

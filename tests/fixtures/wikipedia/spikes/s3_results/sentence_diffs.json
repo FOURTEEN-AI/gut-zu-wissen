@@ -1,0 +1,1673 @@
+{
+  "Eiffelturm": {
+    "diffs": [],
+    "infobox": [
+      {
+        "id": "271593273-0000",
+        "param": "NAME",
+        "value": "Eiffelturm",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271593273-0001",
+        "param": "OFZ_NAME",
+        "value": "Tour Eiffel",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271593273-0002",
+        "param": "BILD",
+        "value": "Tour Eiffel Wikimedia Commons.jpg",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271593273-0003",
+        "param": "ORT",
+        "value": "Champ de Mars im 7. Arrondissement",
+        "result": "exact",
+        "labels": [
+          "Ort:"
+        ]
+      },
+      {
+        "id": "271593273-0004",
+        "param": "REGION-ISO",
+        "value": "FR-75C",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271593273-0005",
+        "param": "NS",
+        "value": "48.858222",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271593273-0006",
+        "param": "EW",
+        "value": "2.2945",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271593273-0007",
+        "param": "LAGEPUNKT",
+        "value": "33",
+        "result": "ambiguous",
+        "labels": [
+          "Höhenlage:",
+          "Gesamthöhe:"
+        ]
+      },
+      {
+        "id": "271593273-0008",
+        "param": "VERW",
+        "value": "Fernmelde/Rundfunk/Restaurant/Aussichtsturm",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271593273-0009",
+        "param": "ZUGANG",
+        "value": "ja",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271593273-0010",
+        "param": "BESITZER",
+        "value": "Société d’exploitation de la tour Eiffel (SETE)",
+        "result": "exact",
+        "labels": [
+          "Besitzer:"
+        ]
+      },
+      {
+        "id": "271593273-0011",
+        "param": "BAU_DEKADE",
+        "value": "188",
+        "result": "ambiguous",
+        "labels": [
+          "Bauzeit:",
+          "Betriebszeit:",
+          "Eröffnung:"
+        ]
+      },
+      {
+        "id": "271593273-0012",
+        "param": "T_BAU_ZEIT",
+        "value": "1887–1889",
+        "result": "exact",
+        "labels": [
+          "Bauzeit:"
+        ]
+      },
+      {
+        "id": "271593273-0013",
+        "param": "T_BAU_KOST",
+        "value": "7.739.401 Francs",
+        "result": "exact",
+        "labels": [
+          "Baukosten:"
+        ]
+      },
+      {
+        "id": "271593273-0014",
+        "param": "T_BAU_HERR",
+        "value": "Gustave Eiffel & Cie",
+        "result": "exact",
+        "labels": [
+          "Bauherr:"
+        ]
+      },
+      {
+        "id": "271593273-0015",
+        "param": "T_BAU_ARCH",
+        "value": "Stephen Sauvestre",
+        "result": "exact",
+        "labels": [
+          "Architekt:"
+        ]
+      },
+      {
+        "id": "271593273-0016",
+        "param": "T_BAU_ST",
+        "value": "Eisen",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271593273-0017",
+        "param": "T_BET_ZEIT",
+        "value": "seit 1889",
+        "result": "exact",
+        "labels": [
+          "Betriebszeit:"
+        ]
+      },
+      {
+        "id": "271593273-0018",
+        "param": "T_HOCH_GES",
+        "value": "330",
+        "result": "contained",
+        "labels": [
+          "Gesamthöhe:"
+        ]
+      },
+      {
+        "id": "271593273-0019",
+        "param": "T_HOCH_AUS",
+        "value": "57,6/115,7/276,1",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271593273-0020",
+        "param": "T_HOCH_RES",
+        "value": "115,7",
+        "result": "ambiguous",
+        "labels": [
+          "Aussichtsplattformen:",
+          "Restaurant:"
+        ]
+      },
+      {
+        "id": "271593273-0021",
+        "param": "T_HOCH_BET",
+        "value": "295",
+        "result": "contained",
+        "labels": [
+          "Betriebsraum:"
+        ]
+      },
+      {
+        "id": "271593273-0022",
+        "param": "T_GEW_GES",
+        "value": "10.100",
+        "result": "contained",
+        "labels": [
+          "Gesamtmasse:"
+        ]
+      },
+      {
+        "id": "271593273-0023",
+        "param": "S_ANT_BAU",
+        "value": "03.2022",
+        "result": "exact",
+        "labels": [
+          "Letzter Umbau (Antenne):"
+        ]
+      },
+      {
+        "id": "271593273-0024",
+        "param": "S_WELLE",
+        "value": "UKW, DAB",
+        "result": "ambiguous",
+        "labels": [
+          "Wellenbereich:",
+          "Rundfunk:"
+        ]
+      },
+      {
+        "id": "271593273-0025",
+        "param": "S_RUNDFUNK",
+        "value": "UKW, DAB",
+        "result": "ambiguous",
+        "labels": [
+          "Wellenbereich:",
+          "Rundfunk:"
+        ]
+      },
+      {
+        "id": "271593273-0026",
+        "param": "S_TYP",
+        "value": "DVB-T/Richtfunk, DAB-Radio",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271593273-0027",
+        "param": "CAT_TYP",
+        "value": "Turm",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271593273-0028",
+        "param": "CAT_STADT",
+        "value": "im 7. Arrondissement (Paris)",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271593273-0029",
+        "param": "WEITERES",
+        "value": "benannt nach:/Gustave Eiffel/-/Eröffnung:/31. März 1889/-/colspan=\"2\" | Restaurant Zweite Etage:/-/Name:/Le Jules Verne/-/Plätze:/95 Sitzplätze/-/Grundfläche:/500 m²",
+        "result": "not_shown",
+        "labels": []
+      }
+    ]
+  },
+  "FC Bayern München": {
+    "diffs": [],
+    "infobox": [
+      {
+        "id": "272147962-0000",
+        "param": "kurzname",
+        "value": "FC Bayern München",
+        "result": "ambiguous",
+        "labels": [
+          "Name",
+          "Aktionäre",
+          "Name"
+        ]
+      },
+      {
+        "id": "272147962-0001",
+        "param": "image",
+        "value": "",
+        "result": "value_renders_empty",
+        "labels": []
+      },
+      {
+        "id": "272147962-0002",
+        "param": "langname",
+        "value": "Fußball‑Club Bayern München e. V.",
+        "result": "exact",
+        "labels": [
+          "Name"
+        ]
+      },
+      {
+        "id": "272147962-0003",
+        "param": "sitz_verein",
+        "value": "München, Bayern",
+        "result": "exact",
+        "labels": [
+          "Sitz"
+        ]
+      },
+      {
+        "id": "272147962-0004",
+        "param": "gründung_verein",
+        "value": "27. Februar 1900",
+        "result": "exact",
+        "labels": [
+          "Gründung"
+        ]
+      },
+      {
+        "id": "272147962-0005",
+        "param": "farben_verein",
+        "value": "Rot und Weiß",
+        "result": "exact",
+        "labels": [
+          "Farben"
+        ]
+      },
+      {
+        "id": "272147962-0006",
+        "param": "mitglieder",
+        "value": "432.500 (Stand: 2. November 2025)",
+        "result": "exact",
+        "labels": [
+          "Mitglieder"
+        ]
+      },
+      {
+        "id": "272147962-0007",
+        "param": "vorstand",
+        "value": "Herbert Hainer (Präsident) Dieter Mayer (1. Vizepräsident) Walter Mennekes (2. Vizepräsident)",
+        "result": "exact",
+        "labels": [
+          "Vorstand"
+        ]
+      },
+      {
+        "id": "272147962-0008",
+        "param": "vr-nr",
+        "value": "VR 2463 (AG München)",
+        "result": "exact",
+        "labels": [
+          "VR-Nr."
+        ]
+      },
+      {
+        "id": "272147962-0009",
+        "param": "unternehmen",
+        "value": "FC Bayern München AG",
+        "result": "exact",
+        "labels": [
+          "Name"
+        ]
+      },
+      {
+        "id": "272147962-0010",
+        "param": "anteilseigner_bezeichnung",
+        "value": "Aktionäre",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0011",
+        "param": "anteilseigner_name",
+        "value": "70,00 %: FC Bayern München e. V. 07,77 %: Adidas AG 07,77 %: Allianz SE 07,77 %: Audi AG 06,7 %: Viessmann Generations Group",
+        "result": "exact",
+        "labels": [
+          "Aktionäre"
+        ]
+      },
+      {
+        "id": "272147962-0012",
+        "param": "chefbezeichnung",
+        "value": "Vorstand",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0013",
+        "param": "chefname",
+        "value": "Jan-Christian Dreesen (Vorsitzender) Max Eberl (Sport) Rouven Kasper (Marketing und Vertrieb)",
+        "result": "exact",
+        "labels": [
+          "Vorstand"
+        ]
+      },
+      {
+        "id": "272147962-0014",
+        "param": "hr-nr",
+        "value": "HRB 140475 (AG München)",
+        "result": "exact",
+        "labels": [
+          "HR-Nr."
+        ]
+      },
+      {
+        "id": "272147962-0015",
+        "param": "website_unternehmen",
+        "value": "fcbayern.com",
+        "result": "exact",
+        "labels": [
+          "Website"
+        ]
+      },
+      {
+        "id": "272147962-0016",
+        "param": "trainer",
+        "value": "Vincent Kompany",
+        "result": "exact",
+        "labels": [
+          "Cheftrainer"
+        ]
+      },
+      {
+        "id": "272147962-0017",
+        "param": "stadion",
+        "value": "Allianz Arena",
+        "result": "exact",
+        "labels": [
+          "Spielstätte"
+        ]
+      },
+      {
+        "id": "272147962-0018",
+        "param": "plätze",
+        "value": "75.000",
+        "result": "exact",
+        "labels": [
+          "Plätze"
+        ]
+      },
+      {
+        "id": "272147962-0019",
+        "param": "liga",
+        "value": "Bundesliga",
+        "result": "exact",
+        "labels": [
+          "Liga"
+        ]
+      },
+      {
+        "id": "272147962-0020",
+        "param": "saison",
+        "value": "2025/26",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0021",
+        "param": "rang",
+        "value": "1. Platz",
+        "result": "exact",
+        "labels": [
+          "2025/26"
+        ]
+      },
+      {
+        "id": "272147962-0022",
+        "param": "pattern_la1",
+        "value": "_bayern2627h",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0023",
+        "param": "pattern_b1",
+        "value": "_bayern2627h",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0024",
+        "param": "pattern_ra1",
+        "value": "_bayern2627h",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0025",
+        "param": "pattern_sh1",
+        "value": "_bayern2627h",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0026",
+        "param": "pattern_so1",
+        "value": "_bayern2627hl",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0027",
+        "param": "leftarm1",
+        "value": "FF0000",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0028",
+        "param": "body1",
+        "value": "FF0000",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0029",
+        "param": "rightarm1",
+        "value": "FF0000",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0030",
+        "param": "shorts1",
+        "value": "FF0000",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0031",
+        "param": "socks1",
+        "value": "FFFFFF",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0032",
+        "param": "pattern_la2",
+        "value": "_bayern2627a",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0033",
+        "param": "pattern_b2",
+        "value": "_bayern2627a",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0034",
+        "param": "pattern_ra2",
+        "value": "_bayern2627a",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0035",
+        "param": "pattern_sh2",
+        "value": "_bayern2627a",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0036",
+        "param": "pattern_so2",
+        "value": "_bayern2627al",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0037",
+        "param": "leftarm2",
+        "value": "FFFFFF",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0038",
+        "param": "body2",
+        "value": "FFFFFF",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0039",
+        "param": "rightarm2",
+        "value": "FFFFFF",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0040",
+        "param": "shorts2",
+        "value": "000F5A",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0041",
+        "param": "socks2",
+        "value": "FFFFFF",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0042",
+        "param": "pattern_la3",
+        "value": "_bayern2627t",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0043",
+        "param": "pattern_b3",
+        "value": "_bayern2627t",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0044",
+        "param": "pattern_ra3",
+        "value": "_bayern2627t",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0045",
+        "param": "pattern_sh3",
+        "value": "_bayern2627t",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0046",
+        "param": "leftarm3",
+        "value": "00003A",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0047",
+        "param": "body3",
+        "value": "00003A",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0048",
+        "param": "rightarm3",
+        "value": "00003A",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0049",
+        "param": "shorts3",
+        "value": "00003A",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0050",
+        "param": "socks3",
+        "value": "00003A",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0883",
+        "param": "name",
+        "value": "FC Bayern München II",
+        "result": "exact",
+        "labels": [
+          "Name"
+        ]
+      },
+      {
+        "id": "272147962-0884",
+        "param": "stadion",
+        "value": "Grünwalder Stadion",
+        "result": "exact",
+        "labels": [
+          "Spielstätte"
+        ]
+      },
+      {
+        "id": "272147962-0885",
+        "param": "plätze",
+        "value": "15.000",
+        "result": "exact",
+        "labels": [
+          "Plätze"
+        ]
+      },
+      {
+        "id": "272147962-0886",
+        "param": "trainer",
+        "value": "Dante",
+        "result": "exact",
+        "labels": [
+          "Cheftrainer"
+        ]
+      },
+      {
+        "id": "272147962-0887",
+        "param": "liga",
+        "value": "Regionalliga Bayern",
+        "result": "exact",
+        "labels": [
+          "Liga"
+        ]
+      },
+      {
+        "id": "272147962-0888",
+        "param": "saison",
+        "value": "2025/26",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272147962-0889",
+        "param": "rang",
+        "value": "11. Platz",
+        "result": "exact",
+        "labels": [
+          "2025/26"
+        ]
+      }
+    ]
+  },
+  "Johann Sebastian Bach": {
+    "diffs": [],
+    "infobox": []
+  },
+  "Mount Everest": {
+    "diffs": [],
+    "infobox": [
+      {
+        "id": "271827693-0000",
+        "param": "BILD",
+        "value": "Everest North Face toward Base Camp Tibet Luca Galuzzi 2006.jpg",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271827693-0001",
+        "param": "BILDBESCHREIBUNG",
+        "value": "Nordseite, vom Weg zum Basislager aus gesehen",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271827693-0002",
+        "param": "HÖHE",
+        "value": "8848",
+        "result": "ambiguous",
+        "labels": [
+          "Höhe",
+          "Koordinaten"
+        ]
+      },
+      {
+        "id": "271827693-0003",
+        "param": "HÖHE-BEZUG",
+        "value": "CN",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271827693-0004",
+        "param": "LAGE",
+        "value": "Solukhumbu, Nepal, und Tibet, China",
+        "result": "exact",
+        "labels": [
+          "Lage"
+        ]
+      },
+      {
+        "id": "271827693-0005",
+        "param": "GEBIRGE",
+        "value": "Mahalangur Himal (Himalaya)",
+        "result": "exact",
+        "labels": [
+          "Gebirge"
+        ]
+      },
+      {
+        "id": "271827693-0006",
+        "param": "BREITENGRAD",
+        "value": "27.98823",
+        "result": "contained",
+        "labels": [
+          "Koordinaten"
+        ]
+      },
+      {
+        "id": "271827693-0007",
+        "param": "LÄNGENGRAD",
+        "value": "86.92501",
+        "result": "contained",
+        "labels": [
+          "Koordinaten"
+        ]
+      },
+      {
+        "id": "271827693-0008",
+        "param": "REGION-ISO",
+        "value": "CN-XZ/NP-P1",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271827693-0009",
+        "param": "POSKARTE",
+        "value": "Nepal",
+        "result": "contained",
+        "labels": [
+          "Lage"
+        ]
+      },
+      {
+        "id": "271827693-0010",
+        "param": "GESTEIN",
+        "value": "Kristallingesteine, Kalkstein",
+        "result": "exact",
+        "labels": [
+          "Gestein"
+        ]
+      },
+      {
+        "id": "271827693-0011",
+        "param": "ALTER",
+        "value": "Neoproterozoikum–Ordovizium, Tertiär",
+        "result": "exact",
+        "labels": [
+          "Alter des Gesteins"
+        ]
+      },
+      {
+        "id": "271827693-0012",
+        "param": "ERSTBESTEIGUNG",
+        "value": "29. Mai 1953 durch Edmund Hillary und Tenzing Norgay",
+        "result": "exact",
+        "labels": [
+          "Erstbesteigung"
+        ]
+      },
+      {
+        "id": "271827693-0013",
+        "param": "NORMALWEG",
+        "value": "Südroute",
+        "result": "exact",
+        "labels": [
+          "Normalweg"
+        ]
+      },
+      {
+        "id": "271827693-0014",
+        "param": "BILD1",
+        "value": "Animation of Mount Everest HD.ogv",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271827693-0015",
+        "param": "BILD1-BESCHREIBUNG",
+        "value": "Virtueller Flug um den Mount Everest",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271827693-0016",
+        "param": "BILD2",
+        "value": "Panoramakarte Mount Everest.jpg",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271827693-0017",
+        "param": "BILD2-BESCHREIBUNG",
+        "value": "Panoramakarte des Mount Everest, Blickrichtung aus Westnordwesten",
+        "result": "not_shown",
+        "labels": []
+      }
+    ]
+  },
+  "Python (Programmiersprache)": {
+    "diffs": [
+      {
+        "id": "272170144-0154",
+        "kind": "spacing_only",
+        "raw": "Interpreter:",
+        "plain": "Interpreter:"
+      },
+      {
+        "id": "272170144-0157",
+        "kind": "spacing_only",
+        "raw": "Compiler:",
+        "plain": "Compiler:"
+      }
+    ],
+    "infobox": [
+      {
+        "id": "272170144-0000",
+        "param": "Name",
+        "value": "Python",
+        "result": "ambiguous",
+        "labels": [
+          "Entwickler:",
+          "Wichtige Implementierungen:",
+          "Lizenz:"
+        ]
+      },
+      {
+        "id": "272170144-0001",
+        "param": "Logo",
+        "value": "",
+        "result": "value_renders_empty",
+        "labels": []
+      },
+      {
+        "id": "272170144-0002",
+        "param": "Beschreibung",
+        "value": "Logo der Programmiersprache Python",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "272170144-0003",
+        "param": "Paradigma",
+        "value": "multiparadigmatisch: objektorientiert, prozedural (imperativ), funktional, strukturiert, reflektiert",
+        "result": "exact",
+        "labels": [
+          "Paradigmen:"
+        ]
+      },
+      {
+        "id": "272170144-0004",
+        "param": "Typisierung",
+        "value": "stark, dynamisch („Duck-Typing“)",
+        "result": "exact",
+        "labels": [
+          "Typisierung:"
+        ]
+      },
+      {
+        "id": "272170144-0005",
+        "param": "Implementierung",
+        "value": "CPython, Jython, IronPython, PyPy",
+        "result": "exact",
+        "labels": [
+          "Wichtige Implementierungen:"
+        ]
+      },
+      {
+        "id": "272170144-0006",
+        "param": "Beeinflusste",
+        "value": "Ruby, Cython",
+        "result": "exact",
+        "labels": [
+          "Beeinflusste:"
+        ]
+      }
+    ]
+  },
+  "Rotfuchs": {
+    "diffs": [
+      {
+        "id": "271590031-0261",
+        "kind": "spacing_only",
+        "raw": "{{userboxbottom}}Die [[Erstbeschreibung|wissenschaftliche Erstbeschreibung]] des Rotfuchses stammt aus der zehnten Auflage der [[Systema Naturæ]] von [[Carl von Linné]] aus dem Jahr 1758.",
+        "plain": "|}Die wissenschaftliche Erstbeschreibung des Rotfuchses stammt aus der zehnten Auflage der Systema Naturæ von Carl von Linné aus dem Jahr 1758."
+      }
+    ],
+    "infobox": [
+      {
+        "id": "271590031-0000",
+        "param": "Taxon_Name",
+        "value": "Rotfuchs",
+        "result": "exact",
+        "labels": [
+          "Art:"
+        ]
+      },
+      {
+        "id": "271590031-0001",
+        "param": "Taxon_WissName",
+        "value": "Vulpes vulpes",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271590031-0002",
+        "param": "Taxon_Rang",
+        "value": "Art",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271590031-0003",
+        "param": "Taxon_Autor",
+        "value": "(Linnaeus, 1758)",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271590031-0004",
+        "param": "Taxon2_WissName",
+        "value": "Vulpes",
+        "result": "exact",
+        "labels": [
+          "Gattung:"
+        ]
+      },
+      {
+        "id": "271590031-0005",
+        "param": "Taxon2_Rang",
+        "value": "Gattung",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271590031-0006",
+        "param": "Taxon3_Name",
+        "value": "Echte Füchse",
+        "result": "contained",
+        "labels": [
+          "Tribus:"
+        ]
+      },
+      {
+        "id": "271590031-0007",
+        "param": "Taxon3_WissName",
+        "value": "Vulpini",
+        "result": "contained",
+        "labels": [
+          "Tribus:"
+        ]
+      },
+      {
+        "id": "271590031-0008",
+        "param": "Taxon3_Rang",
+        "value": "Tribus",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271590031-0009",
+        "param": "Taxon4_Name",
+        "value": "Hunde",
+        "result": "ambiguous",
+        "labels": [
+          "Unterordnung:",
+          "Familie:"
+        ]
+      },
+      {
+        "id": "271590031-0010",
+        "param": "Taxon4_WissName",
+        "value": "Canidae",
+        "result": "contained",
+        "labels": [
+          "Familie:"
+        ]
+      },
+      {
+        "id": "271590031-0011",
+        "param": "Taxon4_Rang",
+        "value": "Familie",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271590031-0012",
+        "param": "Taxon5_Name",
+        "value": "Hundeartige",
+        "result": "contained",
+        "labels": [
+          "Unterordnung:"
+        ]
+      },
+      {
+        "id": "271590031-0013",
+        "param": "Taxon5_WissName",
+        "value": "Caniformia",
+        "result": "contained",
+        "labels": [
+          "Unterordnung:"
+        ]
+      },
+      {
+        "id": "271590031-0014",
+        "param": "Taxon5_Rang",
+        "value": "Unterordnung",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271590031-0015",
+        "param": "Taxon6_Name",
+        "value": "Raubtiere",
+        "result": "contained",
+        "labels": [
+          "Ordnung:"
+        ]
+      },
+      {
+        "id": "271590031-0016",
+        "param": "Taxon6_WissName",
+        "value": "Carnivora",
+        "result": "contained",
+        "labels": [
+          "Ordnung:"
+        ]
+      },
+      {
+        "id": "271590031-0017",
+        "param": "Taxon6_Rang",
+        "value": "Ordnung",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271590031-0018",
+        "param": "Bild",
+        "value": "Vulpes vulpes 1 (Martin Mecnarowski).jpg",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271590031-0019",
+        "param": "Bildbeschreibung",
+        "value": "Rotfuchs (Vulpes vulpes) Bellender Fuchsⓘ",
+        "result": "not_shown",
+        "labels": []
+      }
+    ]
+  },
+  "Satz des Pythagoras": {
+    "diffs": [],
+    "infobox": []
+  },
+  "Schlacht bei Hastings": {
+    "diffs": [],
+    "infobox": [
+      {
+        "id": "269510698-0000",
+        "param": "KONFLIKT",
+        "value": "Schlacht bei Hastings",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "269510698-0001",
+        "param": "TEILVON",
+        "value": "Invasion Englands durch Normannen",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "269510698-0002",
+        "param": "BILD",
+        "value": "Bayeux Tapestry scene55 William Hastings battlefield.jpg",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "269510698-0003",
+        "param": "BESCHREIBUNG",
+        "value": "Ausschnitt des Wandteppichs von Bayeux",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "269510698-0004",
+        "param": "DATUM",
+        "value": "14. Oktober 1066",
+        "result": "exact",
+        "labels": [
+          "Datum"
+        ]
+      },
+      {
+        "id": "269510698-0005",
+        "param": "ORT",
+        "value": "In der Nähe von Hastings, East Sussex, an der englischen Südküste",
+        "result": "exact",
+        "labels": [
+          "Ort"
+        ]
+      },
+      {
+        "id": "269510698-0006",
+        "param": "AUSGANG",
+        "value": "Sieg der Normannen",
+        "result": "exact",
+        "labels": [
+          "Ausgang"
+        ]
+      },
+      {
+        "id": "269510698-0007",
+        "param": "FOLGEN",
+        "value": "Wilhelm eroberte England und wurde zum König gekrönt",
+        "result": "exact",
+        "labels": [
+          "Folgen"
+        ]
+      },
+      {
+        "id": "269510698-0008",
+        "param": "KONTRAHENT1",
+        "value": "Normannen",
+        "result": "contained",
+        "labels": [
+          "Ausgang"
+        ]
+      },
+      {
+        "id": "269510698-0009",
+        "param": "KONTRAHENT2",
+        "value": "Angelsachsen",
+        "result": "exact",
+        "labels": [
+          "Normannen"
+        ]
+      },
+      {
+        "id": "269510698-0010",
+        "param": "BEFEHLSHABER1",
+        "value": "Wilhelm I.",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "269510698-0011",
+        "param": "BEFEHLSHABER2",
+        "value": "Harald II. †",
+        "result": "exact",
+        "labels": [
+          "Wilhelm I."
+        ]
+      },
+      {
+        "id": "269510698-0012",
+        "param": "TRUPPENSTÄRKE1",
+        "value": "ca. 7000 Mann",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "269510698-0013",
+        "param": "TRUPPENSTÄRKE2",
+        "value": "ca. 7500 Mann",
+        "result": "exact",
+        "labels": [
+          "ca. 7000 Mann"
+        ]
+      },
+      {
+        "id": "269510698-0014",
+        "param": "VERLUSTE1",
+        "value": "ca. 2000 Mann",
+        "result": "contained",
+        "labels": [
+          "ca. 2000 Mann"
+        ]
+      },
+      {
+        "id": "269510698-0015",
+        "param": "VERLUSTE2",
+        "value": "ca. 2000 Mann, darunter auch König Harald II.",
+        "result": "exact",
+        "labels": [
+          "ca. 2000 Mann"
+        ]
+      },
+      {
+        "id": "269510698-0016",
+        "param": "NOTIZEN",
+        "value": "Ziele: Wilhelm kämpft für seinen Anspruch auf die englische Krone",
+        "result": "not_shown",
+        "labels": []
+      }
+    ]
+  },
+  "Wasser": {
+    "diffs": [],
+    "infobox": [
+      {
+        "id": "269323716-0000",
+        "param": "Strukturformel",
+        "value": "",
+        "result": "value_renders_empty",
+        "labels": []
+      },
+      {
+        "id": "269323716-0001",
+        "param": "Andere Namen",
+        "value": "Oxidan (IUPAC) R718",
+        "result": "exact",
+        "labels": [
+          "Andere Namen"
+        ]
+      },
+      {
+        "id": "269323716-0002",
+        "param": "Summenformel",
+        "value": "H2O",
+        "result": "exact",
+        "labels": [
+          "Summenformel"
+        ]
+      },
+      {
+        "id": "269323716-0003",
+        "param": "CAS",
+        "value": "7732-18-5",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "269323716-0004",
+        "param": "EG-Nummer",
+        "value": "231-791-2",
+        "result": "exact",
+        "labels": [
+          "EG-Nummer"
+        ]
+      },
+      {
+        "id": "269323716-0005",
+        "param": "ECHA-ID",
+        "value": "100.028.902",
+        "result": "exact",
+        "labels": [
+          "ECHA-InfoCard"
+        ]
+      },
+      {
+        "id": "269323716-0006",
+        "param": "PubChem",
+        "value": "962",
+        "result": "exact",
+        "labels": [
+          "PubChem"
+        ]
+      },
+      {
+        "id": "269323716-0007",
+        "param": "DrugBank",
+        "value": "DB09145",
+        "result": "exact",
+        "labels": [
+          "DrugBank"
+        ]
+      },
+      {
+        "id": "269323716-0008",
+        "param": "Beschreibung",
+        "value": "klare, farb- und geruchlose Flüssigkeit",
+        "result": "exact",
+        "labels": [
+          "Kurzbeschreibung"
+        ]
+      },
+      {
+        "id": "269323716-0009",
+        "param": "Molare Masse",
+        "value": "18,02 g·mol−1",
+        "result": "exact",
+        "labels": [
+          "Molare Masse"
+        ]
+      },
+      {
+        "id": "269323716-0010",
+        "param": "Aggregat",
+        "value": "flüssig",
+        "result": "exact",
+        "labels": [
+          "Aggregatzustand"
+        ]
+      },
+      {
+        "id": "269323716-0011",
+        "param": "Dichte",
+        "value": "0,998 g·cm−3 (20 °C)",
+        "result": "exact",
+        "labels": [
+          "Dichte"
+        ]
+      },
+      {
+        "id": "269323716-0012",
+        "param": "Schmelzpunkt",
+        "value": "0 °C (101,3 kPa)",
+        "result": "exact",
+        "labels": [
+          "Schmelzpunkt"
+        ]
+      },
+      {
+        "id": "269323716-0013",
+        "param": "Siedepunkt",
+        "value": "100 °C (101,3 kPa)",
+        "result": "exact",
+        "labels": [
+          "Siedepunkt"
+        ]
+      },
+      {
+        "id": "269323716-0014",
+        "param": "Dampfdruck",
+        "value": "2,3388 kPa (20 °C)",
+        "result": "exact",
+        "labels": [
+          "Dampfdruck"
+        ]
+      },
+      {
+        "id": "269323716-0015",
+        "param": "Dipolmoment",
+        "value": "1,85 D (6,18·10−30 C·m)",
+        "result": "exact",
+        "labels": [
+          "Dipolmoment"
+        ]
+      },
+      {
+        "id": "269323716-0016",
+        "param": "Brechungsindex",
+        "value": "1,333",
+        "result": "exact",
+        "labels": [
+          "Brechungsindex"
+        ]
+      },
+      {
+        "id": "269323716-0017",
+        "param": "Quelle GHS-Kz",
+        "value": "",
+        "result": "value_renders_empty",
+        "labels": []
+      },
+      {
+        "id": "269323716-0018",
+        "param": "GHS-Piktogramme",
+        "value": "keine GHS-Piktogramme",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "269323716-0019",
+        "param": "H",
+        "value": "keine H-Sätze",
+        "result": "contained",
+        "labels": [
+          "H- und P-Sätze"
+        ]
+      },
+      {
+        "id": "269323716-0020",
+        "param": "EUH",
+        "value": "keine EUH-Sätze",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "269323716-0021",
+        "param": "P",
+        "value": "keine P-Sätze",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "269323716-0022",
+        "param": "Quelle P",
+        "value": "",
+        "result": "value_renders_empty",
+        "labels": []
+      },
+      {
+        "id": "269323716-0023",
+        "param": "ToxDaten",
+        "value": "90 000 mg·kg−1 (LD50, Ratte, oral)",
+        "result": "exact",
+        "labels": [
+          "Toxikologische Daten"
+        ]
+      },
+      {
+        "id": "269323716-0024",
+        "param": "Standardbildungsenthalpie",
+        "value": "−285,83 kJ·mol−1 (Flüssigkeit) −241,826 kJ·mol−1 (Gas)",
+        "result": "exact",
+        "labels": [
+          "ΔHf0"
+        ]
+      }
+    ]
+  },
+  "Zugspitze": {
+    "diffs": [
+      {
+        "id": "271266791-0196",
+        "kind": "empty",
+        "raw": "{{GeoQuelle|DE|BFN-Karten}}",
+        "plain": ""
+      }
+    ],
+    "infobox": [
+      {
+        "id": "271266791-0000",
+        "param": "BILD",
+        "value": "Zugspitzmassiv-von-Almkopf-2024.jpg",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271266791-0001",
+        "param": "BILDBESCHREIBUNG",
+        "value": "Zugspitzmassiv von Westen (Zugspitzgipfel links)",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271266791-0002",
+        "param": "HÖHE",
+        "value": "2962.06",
+        "result": "contained",
+        "labels": [
+          "Koordinaten"
+        ]
+      },
+      {
+        "id": "271266791-0003",
+        "param": "HÖHE-BEZUG",
+        "value": "DE-NHN",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271266791-0004",
+        "param": "LAGE",
+        "value": "Grenze Bayern, Deutschland / Tirol, Österreich",
+        "result": "exact",
+        "labels": [
+          "Lage"
+        ]
+      },
+      {
+        "id": "271266791-0005",
+        "param": "GEBIRGE",
+        "value": "Wettersteingebirge, Ostalpen",
+        "result": "exact",
+        "labels": [
+          "Gebirge"
+        ]
+      },
+      {
+        "id": "271266791-0006",
+        "param": "DOMINANZ",
+        "value": "25.8",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271266791-0007",
+        "param": "DOMINANZ-BEZUG",
+        "value": "Zwölferkogel",
+        "result": "contained",
+        "labels": [
+          "Dominanz"
+        ]
+      },
+      {
+        "id": "271266791-0008",
+        "param": "SCHARTENHÖHE",
+        "value": "1746",
+        "result": "contained",
+        "labels": [
+          "Schartenhöhe"
+        ]
+      },
+      {
+        "id": "271266791-0009",
+        "param": "SCHARTE",
+        "value": "Fernpass",
+        "result": "contained",
+        "labels": [
+          "Schartenhöhe"
+        ]
+      },
+      {
+        "id": "271266791-0010",
+        "param": "BREITENGRAD",
+        "value": "47.42122",
+        "result": "contained",
+        "labels": [
+          "Koordinaten"
+        ]
+      },
+      {
+        "id": "271266791-0011",
+        "param": "LÄNGENGRAD",
+        "value": "10.9863",
+        "result": "contained",
+        "labels": [
+          "Koordinaten"
+        ]
+      },
+      {
+        "id": "271266791-0012",
+        "param": "REGION-ISO",
+        "value": "DE-BY/AT-7",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271266791-0013",
+        "param": "POSKARTE",
+        "value": "Wettersteingebirge und Mieminger Kette",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271266791-0014",
+        "param": "GESTEIN",
+        "value": "Wettersteinkalk",
+        "result": "exact",
+        "labels": [
+          "Gestein"
+        ]
+      },
+      {
+        "id": "271266791-0015",
+        "param": "ALTER",
+        "value": "Trias",
+        "result": "exact",
+        "labels": [
+          "Alter des Gesteins"
+        ]
+      },
+      {
+        "id": "271266791-0016",
+        "param": "ERSTBESTEIGUNG",
+        "value": "27. August 1820 durch Josef Naus, Johann Georg Tauschl, Messgehilfe Maier",
+        "result": "exact",
+        "labels": [
+          "Erstbesteigung"
+        ]
+      },
+      {
+        "id": "271266791-0017",
+        "param": "NORMALWEG",
+        "value": "Reintal-Route",
+        "result": "exact",
+        "labels": [
+          "Normalweg"
+        ]
+      },
+      {
+        "id": "271266791-0018",
+        "param": "BESONDERHEITEN",
+        "value": "Höchster Berg der deutschen Alpen sowie Bayerns und Deutschlands, eigene PLZ: 82475 Schneefernerhaus",
+        "result": "exact",
+        "labels": [
+          "Besonderheiten"
+        ]
+      },
+      {
+        "id": "271266791-0019",
+        "param": "BILD1",
+        "value": "Schema Umgebung Zugspitze.svg",
+        "result": "not_shown",
+        "labels": []
+      },
+      {
+        "id": "271266791-0020",
+        "param": "BILD1-BESCHREIBUNG",
+        "value": "Umgebung der Zugspitze",
+        "result": "not_shown",
+        "labels": []
+      }
+    ]
+  }
+}
