@@ -92,12 +92,15 @@ Raw wikitext is scanned once. Each construct becomes a mask with a *surrogate*: 
 - **Non-content infobox rows.** Rows like `rightarm1 = FF0000` (shirt colours) or image file names are kept as segments. Extraction can ignore them; mapping parameters to rendered labels is S3.
 - **Hatnotes.** Hatnotes with following text on the same line (Wasser: `{{Hauptartikel|…}} mit allen …`) become ordinary sentence segments.
 
-## Decisions needed
+## Decisions
 
-1. **Excluded sections:** is the list above right? Should sections like *Filmografie*, *Diskografie*, *Werke (Auswahl)* also be excluded? They produce many unpunctuated list items, but the gates already drop those.
-2. **List content:** accept that facts only stated in list items are lost? The alternative would join an intro line ("Nach Bach benannt sind:") with its list items into one segment. That breaks "one fact = one sentence segment".
-3. **Segment ID and segmenter version:** keep `{revid}-{index}` as in the plan, and record a segmenter version in the archive so old IDs can be traced?
-4. **False abbreviations:** use a fixed list (currently 3 entries) that grows as we find cases? The alternative is an automatic rule (an abbreviation counts as a word if the article also uses it without a full stop), which is less predictable.
-5. **Hatnote templates** (`Dieser Artikel`, `Hauptartikel`, `Siehe auch`, …): exclude them as blocks even when text follows on the same line?
-6. **Spike dependency group:** SoMaJo and httpx are in a `spikes` dependency group for now. Step 3 would move them into the main dependencies.
-7. **Freshness pin:** `uv add` resolved `regex==2026.11.9`, a SoMaJo dependency released this month. Pin an older version?
+| # | Topic | Decision |
+|---|---|---|
+| 1 | Excluded sections | The list above as it stands; *Filmografie*, *Diskografie*, *Werke* stay in (the gates drop their list items). |
+| 2 | List content | Accepted: facts stated only in list items are lost. |
+| 3 | Segmenter version | `{revid}-{index}` as in the plan; no segmenter version in the archive for now. Added once there is a second segmenter version. |
+| 4 | False abbreviations | Fixed list (`Italien.`, `Japan.`, `mag.`), extended as cases are found. |
+| 5 | Hatnotes with trailing text | Open. Proposal: a line starting with a hatnote template (fixed list: Dieser Artikel, Hauptartikel, Siehe auch, Begriffsklärungshinweis, Weiterleitungshinweis, Andere Bedeutung, Unterscheide) is skipped as a whole. |
+| 6 | Dependency freshness | No pin; resolved versions stay as they are. |
+
+The spike dependency group (SoMaJo, httpx) moves into the main dependencies in step 3.
