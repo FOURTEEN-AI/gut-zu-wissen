@@ -339,6 +339,12 @@ def cells(tr) -> list[str]:
     return [visible(c) for c in tr.find_all(["td", "th"], recursive=False)]
 
 
+def _template_name_of(raw: str) -> str:
+    from s2_segmentation import _template_name
+
+    return _template_name(raw)
+
+
 def _numeric_forms(marker: str) -> list[str]:
     n = int(marker)
     return [
@@ -356,6 +362,7 @@ def map_infobox(client: httpx.Client, title: str, raw: str, full_html: str) -> l
     (action=parse of the template text in the article's context); S3 shows this matches
     the in-article rendering for sentences. full_html is kept for comparison only.
     """
+    infobox_name = _template_name_of(raw)
     base_html = render_batched_html(client, title, [raw])[0]
     real = [cells(tr) for tr in table_rows(BeautifulSoup(base_html, "html.parser"))]
     hits: dict[int, list[tuple[str, int]]] = {}  # row index -> [(param, cell index)]
@@ -391,12 +398,27 @@ def map_infobox(client: httpx.Client, title: str, raw: str, full_html: str) -> l
         else:
             i, j = found[-1]
             hits.setdefault(i, []).append((param + " (numeric)", j))
+    base_rows = table_rows(BeautifulSoup(base_html, "html.parser"))
+    headers = header_rows(real, hits, base_rows)
     out = []
     for i, feeders in sorted(hits.items()):
         row = real[i]
         params = [p for p, _ in feeders]
         if len(row) == 1:
-            out.append({"result": "no_label_single_cell", "params": params, "text": row[0]})
+            label, sep, value = row[0].partition(":")
+            if sep and label.strip() and value.strip():
+                # Single-cell row with its own label: split at the first colon (D3 amendment).
+                out.append(
+                    {
+                        "result": "mapped_single_cell",
+                        "params": params,
+                        "label": label.strip(),
+                        "value": value.strip(),
+                        "header": nearest_header(real, headers, i),
+                    }
+                )
+            else:
+                out.append({"result": "no_label_single_cell", "params": params, "text": row[0]})
             continue
         label_from_param = any(j == 0 for _, j in feeders)
         under_header = i > 0 and len(real[i - 1]) == 1
@@ -408,6 +430,7 @@ def map_infobox(client: httpx.Client, title: str, raw: str, full_html: str) -> l
                     "params": params,
                     "label": row[0],
                     "value": " / ".join(c for c in row[1:] if c),
+                    "header": nearest_header(real, headers, i),
                 }
             )
             continue
@@ -449,10 +472,57 @@ def map_infobox(client: httpx.Client, title: str, raw: str, full_html: str) -> l
                 "params": params,
                 "label": row[0],
                 "value": " / ".join(c for c in row[1:] if c),
+                "header": nearest_header(real, headers, i),
             }
         )
     out += [{"result": r, "params": [p]} for p, r in unmapped]
+    for r in out:
+        if "value" in r:
+            r["plain"] = infobox_plain(infobox_name, r)
     return out
+
+
+CAPTION_PARAM = re.compile(r"bild|beschreibung|karte|logo|formel|image|caption", re.IGNORECASE)
+HEADER_MAX_WORDS = 8
+
+
+def header_rows(real: list[list[str]], hits: dict, rows: list) -> set[int]:
+    """Indices of section-header rows (D3 amendment).
+
+    A header is a single-cell row that is a <th>, or a <td colspan=2> (nested tables use
+    other spans), with non-empty text, no colon, at most HEADER_MAX_WORDS words. Not headers:
+    the title (first non-empty single-cell row), rows fed by a parameter whose name marks an
+    image, caption, map or logo, and the label row of a two-sided comparison (Truppenstärke).
+    """
+    title = next((k for k, r in enumerate(real) if len(r) == 1 and r[0]), -1)
+    comparison = {
+        i - 1
+        for i, feeders in hits.items()
+        if len(real[i]) > 1 and any(j == 0 for _, j in feeders) and i > 0 and len(real[i - 1]) == 1
+    }
+    found = set()
+    for k, tr in enumerate(rows):
+        cs = tr.find_all(["td", "th"], recursive=False)
+        r = real[k]
+        if len(cs) != 1 or not r[0] or k == title or k in comparison or ":" in r[0]:
+            continue
+        if not (cs[0].name == "th" or cs[0].get("colspan") == "2") or cs[0].find("table"):
+            continue
+        if any(CAPTION_PARAM.search(p) for p, _ in hits.get(k, [])):
+            continue
+        if len(r[0].split()) <= HEADER_MAX_WORDS:
+            found.add(k)
+    return found
+
+
+def nearest_header(real: list[list[str]], headers: set[int], i: int) -> str:
+    return next((real[k][0] for k in range(i - 1, -1, -1) if k in headers), "")
+
+
+def infobox_plain(name: str, row: dict) -> str:
+    """D3 plain text, with the section header when there is one."""
+    parts = [name] + ([row["header"]] if row.get("header") else [])
+    return f"{' – '.join(parts)} – {row['label'].rstrip(':')}: {row['value']}"
 
 
 def render_batched_html(client: httpx.Client, title: str, raws: list[str]) -> list[str]:
