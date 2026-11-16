@@ -16,7 +16,7 @@ These retire the open risks before the build starts.
 | S1 Jev ✅ | German accuracy on ~30 hand-labelled turn/fact pairs; overlength error code; latency; reliability of the content-preservation question (see D1) | Go/no-go for Jev, error table complete |
 | S2 SoMaJo + masking ✅ | Robust on 10 diverse articles (nested templates, tables, lists)? | Masking rules, segment ID scheme |
 | S3 Rendering ✅ | Does `action=parse` per segment differ from in-article rendering? How do infobox parameters map to rendered row labels (see D3)? | Decision: per segment, or render once and map; label-mapping method |
-| S4 Gemini TTS | Voice choice, section length under the output limit (16,384 tokens per call), audibility of seams | Two voice names, section strategy |
+| S4 Gemini TTS ✅ | Voice choice, section length under the output limit (16,384 tokens per call), audibility of seams | Two voice names, section strategy |
 | S5 Whisper | Runtime for 15 min of audio on an Actions CPU runner (large vs. faster-whisper int8) | Model size, cache setup |
 
 ## Phase 1: Manual run to audio (Ausbaustufe 1)
@@ -50,7 +50,7 @@ These retire the open risks before the build starts.
    - Gate failures: manual run → abort with notice.
    - Escalation: failing job plus job summary.
 9. **Markup gate**, then TTS:
-   - Sections at turn boundaries, each below the TTS output limit (16,384 tokens per call; length fixed by S4).
+   - Sections at turn boundaries, at most `tts_section_max_chars` (6,000, spike S4); a true-peak limiter is needed for the loudness target.
    - Intro and outro synthesized once and committed.
    - Concatenation and loudness normalization (proposal: −16 LUFS).
 10. **STT verification.** Normalization, diff per section, LLM decision on whether a deviation changes the statement, resynthesis of the affected section.
