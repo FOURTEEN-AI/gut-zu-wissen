@@ -35,7 +35,7 @@ The repository is public. Secrets exist only as GitHub secrets and are passed as
 |---|---|---|
 | `ANTHROPIC_API_KEY` | Claude Sonnet 5.5: extraction, ranking, dialog author, LLM judge, explicit check | Phase 1, step 4 |
 | `TYPESAFE_API_KEY` | Jev (TypeSafe) | Phase 1, step 7 |
-| `ELEVENLABS_API_KEY` | TTS | Phase 1, step 9 |
+| `GEMINI_API_KEY` | TTS (Gemini 3.8 Flash TTS) | Phase 1, step 9 |
 | `IA_S3_ACCESS_KEY`, `IA_S3_SECRET_KEY` | Internet Archive upload (S3 API) | Phase 2 |
 
 The built-in `GITHUB_TOKEN` covers commits to the archive and the review issues. The pipeline never accesses the feedback mailbox.

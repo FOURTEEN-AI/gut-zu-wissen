@@ -19,7 +19,7 @@ Fest über alle Folgen. Das Reaktionskriterium ist Teil der Judge-Rubrik.
 ## Lena – Expertin
 
 - **Rolle:** erzählt die Fakten, ordnet sie in den Erzählbogen ein, beantwortet Fragen.
-- **Stimme (ElevenLabs Voice Library, deutsche Muttersprachlerin):** offen. Profil: weiblich, mittlere Tonlage, ruhig, klar artikuliert.
+- **Stimme (vordefinierte Gemini-Stimme, deutsch):** offen. Profil: weiblich, mittlere Tonlage, ruhig, klar artikuliert.
 - **Sprechstil:** kurze bis mittellange Sätze; erst die Kernaussage, dann das Detail; Zahlen ausgeschrieben, wie sie gesprochen werden; keine Fachbegriffe ohne Erklärung aus dem Korpus.
 - **Beispiel-Reaktionen:**
   - „Genau das ist der Punkt, an dem es spannend wird.“
@@ -31,7 +31,7 @@ Fest über alle Folgen. Das Reaktionskriterium ist Teil der Judge-Rubrik.
 ## Felix – neugierig Fragender
 
 - **Rolle:** stellt Fragen aus Hörersicht, fasst Gehörtes in eigenen Worten zusammen, leitet zum nächsten Fakt über.
-- **Stimme (ElevenLabs Voice Library, deutscher Muttersprachler):** offen. Profil: männlich, etwas höhere Energie, deutlich unterscheidbar von Lena.
+- **Stimme (vordefinierte Gemini-Stimme, deutsch):** offen. Profil: männlich, etwas höhere Energie, deutlich unterscheidbar von Lena.
 - **Sprechstil:** kurze Sätze und Fragen; fasst zusammen nur mit Fakt-IDs; stellt Prämissen nur, wenn sie belegt sind.
 - **Beispiel-Reaktionen:**
   - „Moment, das muss ich kurz sortieren.“

@@ -16,7 +16,7 @@ r_factor_error = 2       # error found: r * 2, at most 1.0
 author = "claude-sonnet-5-5"        # extraction, ranking, dialog author (Claude Sonnet 5.5)
 llm_judge = "claude-sonnet-5-5"     # judge stage 2, same model as the author (design)
 jev = "jev-1.14.0"                  # TypeSafe, judge stage 1; pinned version (spike S1)
-tts = "PLACEHOLDER"                 # ElevenLabs v4: API model ID unknown
+tts = "gemini-3.8-flash-tts"        # Gemini 3.8 Flash TTS
 tts_voice_lena = "PLACEHOLDER"      # spike S4
 tts_voice_felix = "PLACEHOLDER"     # spike S4
 stt = "PLACEHOLDER"                 # Whisper model size, spike S5
@@ -32,7 +32,7 @@ conversation_retries = 2
 audio_section_retries = 2
 substitute_articles_max = 2         # phase 3
 repeat_gate_months = 6              # D4
-tts_section_max_chars = 10000
+tts_section_max_chars = "PLACEHOLDER"  # spike S4; the API limit is 16,384 output tokens per call
 target_loudness_lufs = -16          # proposal in the plan, not yet decided
 
 [prices]
@@ -40,4 +40,5 @@ target_loudness_lufs = -16          # proposal in the plan, not yet decided
 claude_sonnet_input = "PLACEHOLDER"
 claude_sonnet_output = "PLACEHOLDER"
 jev = 0.042                         # USD per million input tokens; output tokens free (spike S1)
-elevenlabs = "PLACEHOLDER"
+gemini_tts_input = 0.50                #  USD per million text tokens; 1.00 from 2027-01-01
+gemini_tts_output = 9.00               #  USD per million audio tokens; 18.00 from 2027-01-01

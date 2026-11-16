@@ -38,7 +38,7 @@ flowchart TD
     J -- Konfigurations- oder Anfragefehler --> AB[Abbruch, Eskalation an dich]
     J2 -- nicht belegt --> F
     J2 -- belegt --> M
-    M --> TTS[Dialog-TTS ElevenLabs v4, Abschnitte an Redebeitrag-Grenzen]
+    M --> TTS[Dialog-TTS Gemini 3.8 Flash TTS, Abschnitte an Redebeitrag-Grenzen]
     TTS --> STT[STT Whisper lokal, normalisierter Diff]
     STT --> Q{LLM: Aussage verändert?}
     Q -- ja --> F
@@ -127,7 +127,7 @@ Alle Textversionen werden archiviert (inkl. STT-Transkripte und Diff-Entscheidun
 ## Audio
 
 - **Vorbereitung:** Gate prüft, dass das Skript kein Wiki-Markup enthält; Fund → Fehler des Redebeitrags (Neugenerierung).
-- **Synthese:** ElevenLabs v4 (Multi-Speaker-Dialog, 10.000 Zeichen pro Aufruf). Skript (ca. 14.000–16.000 Zeichen) in Abschnitte an Redebeitrag-Grenzen geteilt, Audio zusammengefügt.
+- **Synthese:** Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`; Multi-Speaker-Dialog mit höchstens zwei Sprechern und vordefinierten Stimmen; Ausgabelimit 16.384 Token pro Aufruf, Eingabelimit 8.192 Token). Skript (ca. 14.000–16.000 Zeichen) in Abschnitte an Redebeitrag-Grenzen geteilt, deren Audio unter dem Ausgabelimit bleibt; Audio zusammengefügt. Abschnittslänge: Spike S4.
 - **Verifikation:** Whisper lokal im Actions-Runner (Modellgröße nach Messung), Diff gegen bereinigtes Skript; vorher normalisiert (Zahlwörter, Satzzeichen, Groß-/Kleinschreibung).
 - **Abweichung:** LLM entscheidet, ob sie die Aussage ändert; nur dann Neusynthese des betroffenen Abschnitts (siehe Fehlerbehandlung).
 
@@ -181,7 +181,7 @@ Fester Text außerhalb des Dialogautors und der Persona-Regeln; einmal synthetis
 | Extraktion, Ranking, Dialogautor | Claude Sonnet 5.5 |
 | Judge Stufe 1 | Jev, TypeSafe direkt |
 | Judge Stufe 2 (Urteil, Begründung) | Claude Sonnet 5.5 |
-| TTS | ElevenLabs v4, Stimmen aus der Voice Library (deutsche Muttersprachler) |
+| TTS | Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`), vordefinierte deutsche Stimmen |
 | STT | Whisper lokal |
 | Audio-Hosting | Internet Archive |
 | Feed, Shownotes | GitHub Pages aus dem Pipeline-Repo |
@@ -195,7 +195,7 @@ Fester Text außerhalb des Dialogautors und der Persona-Regeln; einmal synthetis
 
 ## Offene Punkte
 
-- **Stimmen:** Auswahl aus der ElevenLabs Voice Library.
+- **Stimmen:** Auswahl aus den vordefinierten Gemini-Stimmen (Spike S4).
 - **Whisper:** Start mit großem Modell, Laufzeit im Runner messen; Modell im Actions-Cache.
 - **Rechtstexte:** ⚠-Platzhalter in datenschutz.md klären, juristische Prüfung empfohlen (vor Ausbaustufe 2).
 
