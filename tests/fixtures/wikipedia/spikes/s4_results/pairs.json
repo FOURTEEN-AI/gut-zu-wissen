@@ -1,0 +1,109 @@
+{
+  "model": "gemini-3.8-flash-lite-tts",
+  "rows": [
+    {
+      "pair": "A_advisor3_tutor4",
+      "lena": "de-de-advisor-3",
+      "felix": "de-de-tutor-4",
+      "seconds_audio": 118.0,
+      "wer": 0.087,
+      "loudness_lufs": -20.3,
+      "f0_separation_semitones": 7.67,
+      "level_difference_db": 2.9,
+      "speakers": {
+        "felix": {
+          "f0_median_hz": 116.0,
+          "f0_spread_semitones": 3.5,
+          "level_db": -20.2,
+          "voiced_seconds": 18.8
+        },
+        "lena": {
+          "f0_median_hz": 180.7,
+          "f0_spread_semitones": 3.1,
+          "level_db": -17.3,
+          "voiced_seconds": 35.4
+        }
+      },
+      "chars_per_second": 17.3,
+      "usd": 0.018
+    },
+    {
+      "pair": "B_Sulafat_Puck",
+      "lena": "Sulafat",
+      "felix": "Puck",
+      "seconds_audio": 120.8,
+      "wer": 0.047,
+      "loudness_lufs": -18.5,
+      "f0_separation_semitones": 8.96,
+      "level_difference_db": 3.4,
+      "speakers": {
+        "felix": {
+          "f0_median_hz": 117.1,
+          "f0_spread_semitones": 3.73,
+          "level_db": -19.9,
+          "voiced_seconds": 16.9
+        },
+        "lena": {
+          "f0_median_hz": 196.5,
+          "f0_spread_semitones": 3.46,
+          "level_db": -16.5,
+          "voiced_seconds": 40.3
+        }
+      },
+      "chars_per_second": 16.9,
+      "usd": 0.0184
+    },
+    {
+      "pair": "C_tutor2_concierge9",
+      "lena": "de-de-tutor-2",
+      "felix": "de-de-concierge-9",
+      "seconds_audio": 118.6,
+      "wer": 0.062,
+      "loudness_lufs": -20.6,
+      "f0_separation_semitones": 7.97,
+      "level_difference_db": 3.5,
+      "speakers": {
+        "felix": {
+          "f0_median_hz": 115.1,
+          "f0_spread_semitones": 3.37,
+          "level_db": -21.1,
+          "voiced_seconds": 16.0
+        },
+        "lena": {
+          "f0_median_hz": 182.4,
+          "f0_spread_semitones": 3.57,
+          "level_db": -17.6,
+          "voiced_seconds": 37.6
+        }
+      },
+      "chars_per_second": 17.22,
+      "usd": 0.018
+    },
+    {
+      "pair": "D_Despina_assistant10",
+      "lena": "Despina",
+      "felix": "de-de-assistant-10",
+      "seconds_audio": 123.7,
+      "wer": 0.087,
+      "loudness_lufs": -18.4,
+      "f0_separation_semitones": 5.13,
+      "level_difference_db": 2.8,
+      "speakers": {
+        "felix": {
+          "f0_median_hz": 131.2,
+          "f0_spread_semitones": 2.7,
+          "level_db": -18.4,
+          "voiced_seconds": 23.5
+        },
+        "lena": {
+          "f0_median_hz": 176.5,
+          "f0_spread_semitones": 3.41,
+          "level_db": -15.6,
+          "voiced_seconds": 31.2
+        }
+      },
+      "chars_per_second": 16.51,
+      "usd": 0.0188
+    }
+  ]
+}
