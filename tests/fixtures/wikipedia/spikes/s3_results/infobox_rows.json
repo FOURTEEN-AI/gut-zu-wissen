@@ -15,7 +15,9 @@
         "ORT"
       ],
       "label": "Ort:",
-      "value": "Champ de Mars im 7. Arrondissement"
+      "value": "Champ de Mars im 7. Arrondissement",
+      "header": "Basisdaten",
+      "plain": "Infobox Sendeanlage – Basisdaten – Ort: Champ de Mars im 7. Arrondissement"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -24,7 +26,9 @@
         "LAGEPUNKT (numeric)"
       ],
       "label": "Höhenlage:",
-      "value": "33 m"
+      "value": "33 m",
+      "header": "Basisdaten",
+      "plain": "Infobox Sendeanlage – Basisdaten – Höhenlage: 33 m"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -33,7 +37,9 @@
         "VERW"
       ],
       "label": "Verwendung:",
-      "value": "Fernmeldeturm, Rundfunksender, Restaurant, Aussichtsturm"
+      "value": "Fernmeldeturm, Rundfunksender, Restaurant, Aussichtsturm",
+      "header": "Basisdaten",
+      "plain": "Infobox Sendeanlage – Basisdaten – Verwendung: Fernmeldeturm, Rundfunksender, Restaurant, Aussichtsturm"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -42,7 +48,9 @@
         "ZUGANG"
       ],
       "label": "Zugänglichkeit:",
-      "value": "Sendeturm öffentlich zugänglich"
+      "value": "Sendeturm öffentlich zugänglich",
+      "header": "Basisdaten",
+      "plain": "Infobox Sendeanlage – Basisdaten – Zugänglichkeit: Sendeturm öffentlich zugänglich"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -51,7 +59,9 @@
         "BESITZER"
       ],
       "label": "Besitzer:",
-      "value": "Société d’exploitation de la tour Eiffel (SETE)"
+      "value": "Société d’exploitation de la tour Eiffel (SETE)",
+      "header": "Basisdaten",
+      "plain": "Infobox Sendeanlage – Basisdaten – Besitzer: Société d’exploitation de la tour Eiffel (SETE)"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -60,7 +70,9 @@
         "T_BAU_ZEIT"
       ],
       "label": "Bauzeit:",
-      "value": "1887–1889"
+      "value": "1887–1889",
+      "header": "Turmdaten",
+      "plain": "Infobox Sendeanlage – Turmdaten – Bauzeit: 1887–1889"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -69,7 +81,9 @@
         "T_BAU_KOST"
       ],
       "label": "Baukosten:",
-      "value": "7.739.401 Francs"
+      "value": "7.739.401 Francs",
+      "header": "Turmdaten",
+      "plain": "Infobox Sendeanlage – Turmdaten – Baukosten: 7.739.401 Francs"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -78,7 +92,9 @@
         "T_BAU_HERR"
       ],
       "label": "Bauherr:",
-      "value": "Gustave Eiffel & Cie"
+      "value": "Gustave Eiffel & Cie",
+      "header": "Turmdaten",
+      "plain": "Infobox Sendeanlage – Turmdaten – Bauherr: Gustave Eiffel & Cie"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -87,7 +103,9 @@
         "T_BAU_ARCH"
       ],
       "label": "Architekt:",
-      "value": "Stephen Sauvestre"
+      "value": "Stephen Sauvestre",
+      "header": "Turmdaten",
+      "plain": "Infobox Sendeanlage – Turmdaten – Architekt: Stephen Sauvestre"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -96,7 +114,9 @@
         "T_BAU_ST"
       ],
       "label": "Baustoff:",
-      "value": "Schmiedeeisen"
+      "value": "Schmiedeeisen",
+      "header": "Turmdaten",
+      "plain": "Infobox Sendeanlage – Turmdaten – Baustoff: Schmiedeeisen"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -105,7 +125,9 @@
         "T_BET_ZEIT"
       ],
       "label": "Betriebszeit:",
-      "value": "seit 1889"
+      "value": "seit 1889",
+      "header": "Turmdaten",
+      "plain": "Infobox Sendeanlage – Turmdaten – Betriebszeit: seit 1889"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -114,7 +136,9 @@
         "T_HOCH_GES"
       ],
       "label": "Gesamthöhe:",
-      "value": "330 m"
+      "value": "330 m",
+      "header": "Turmdaten",
+      "plain": "Infobox Sendeanlage – Turmdaten – Gesamthöhe: 330 m"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -123,7 +147,9 @@
         "T_HOCH_AUS"
       ],
       "label": "Aussichtsplattformen:",
-      "value": "57,6 m, 115,7 m, 276,1 m"
+      "value": "57,6 m, 115,7 m, 276,1 m",
+      "header": "Turmdaten",
+      "plain": "Infobox Sendeanlage – Turmdaten – Aussichtsplattformen: 57,6 m, 115,7 m, 276,1 m"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -132,7 +158,9 @@
         "T_HOCH_RES"
       ],
       "label": "Restaurant:",
-      "value": "115,7 m"
+      "value": "115,7 m",
+      "header": "Turmdaten",
+      "plain": "Infobox Sendeanlage – Turmdaten – Restaurant: 115,7 m"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -141,7 +169,9 @@
         "T_HOCH_BET"
       ],
       "label": "Betriebsraum:",
-      "value": "295 m"
+      "value": "295 m",
+      "header": "Turmdaten",
+      "plain": "Infobox Sendeanlage – Turmdaten – Betriebsraum: 295 m"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -150,7 +180,9 @@
         "T_GEW_GES"
       ],
       "label": "Gesamtmasse:",
-      "value": "10.100 t"
+      "value": "10.100 t",
+      "header": "Turmdaten",
+      "plain": "Infobox Sendeanlage – Turmdaten – Gesamtmasse: 10.100 t"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -159,7 +191,9 @@
         "S_ANT_BAU"
       ],
       "label": "Letzter Umbau (Antenne):",
-      "value": "03.2022"
+      "value": "03.2022",
+      "header": "Daten zur Sendeanlage",
+      "plain": "Infobox Sendeanlage – Daten zur Sendeanlage – Letzter Umbau (Antenne): 03.2022"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -168,7 +202,9 @@
         "S_WELLE"
       ],
       "label": "Wellenbereich:",
-      "value": "UKW, DAB"
+      "value": "UKW, DAB",
+      "header": "Daten zur Sendeanlage",
+      "plain": "Infobox Sendeanlage – Daten zur Sendeanlage – Wellenbereich: UKW, DAB"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -177,7 +213,9 @@
         "S_RUNDFUNK"
       ],
       "label": "Rundfunk:",
-      "value": "UKW, DAB"
+      "value": "UKW, DAB",
+      "header": "Daten zur Sendeanlage",
+      "plain": "Infobox Sendeanlage – Daten zur Sendeanlage – Rundfunk: UKW, DAB"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -186,7 +224,9 @@
         "S_TYP"
       ],
       "label": "Sendetypen:",
-      "value": "DVB-T, Richtfunk, DAB-Radio"
+      "value": "DVB-T, Richtfunk, DAB-Radio",
+      "header": "Daten zur Sendeanlage",
+      "plain": "Infobox Sendeanlage – Daten zur Sendeanlage – Sendetypen: DVB-T, Richtfunk, DAB-Radio"
     },
     {
       "template": "Infobox Sendeanlage",
@@ -277,7 +317,9 @@
         "langname"
       ],
       "label": "Name",
-      "value": "Fußball‑Club Bayern München e. V."
+      "value": "Fußball‑Club Bayern München e. V.",
+      "header": "Verein",
+      "plain": "Infobox Fußballunternehmen – Verein – Name: Fußball‑Club Bayern München e. V."
     },
     {
       "template": "Infobox Fußballunternehmen",
@@ -286,7 +328,9 @@
         "sitz_verein"
       ],
       "label": "Sitz",
-      "value": "München, Bayern"
+      "value": "München, Bayern",
+      "header": "Verein",
+      "plain": "Infobox Fußballunternehmen – Verein – Sitz: München, Bayern"
     },
     {
       "template": "Infobox Fußballunternehmen",
@@ -295,7 +339,9 @@
         "gründung_verein"
       ],
       "label": "Gründung",
-      "value": "27. Februar 1900"
+      "value": "27. Februar 1900",
+      "header": "Verein",
+      "plain": "Infobox Fußballunternehmen – Verein – Gründung: 27. Februar 1900"
     },
     {
       "template": "Infobox Fußballunternehmen",
@@ -304,7 +350,9 @@
         "farben_verein"
       ],
       "label": "Farben",
-      "value": "Rot und Weiß"
+      "value": "Rot und Weiß",
+      "header": "Verein",
+      "plain": "Infobox Fußballunternehmen – Verein – Farben: Rot und Weiß"
     },
     {
       "template": "Infobox Fußballunternehmen",
@@ -313,7 +361,9 @@
         "mitglieder"
       ],
       "label": "Mitglieder",
-      "value": "432.500 (Stand: 2. November 2025)"
+      "value": "432.500 (Stand: 2. November 2025)",
+      "header": "Verein",
+      "plain": "Infobox Fußballunternehmen – Verein – Mitglieder: 432.500 (Stand: 2. November 2025)"
     },
     {
       "template": "Infobox Fußballunternehmen",
@@ -322,7 +372,9 @@
         "vorstand"
       ],
       "label": "Vorstand",
-      "value": "Herbert Hainer (Präsident) Dieter Mayer (1. Vizepräsident) Walter Mennekes (2. Vizepräsident)"
+      "value": "Herbert Hainer (Präsident) Dieter Mayer (1. Vizepräsident) Walter Mennekes (2. Vizepräsident)",
+      "header": "Verein",
+      "plain": "Infobox Fußballunternehmen – Verein – Vorstand: Herbert Hainer (Präsident) Dieter Mayer (1. Vizepräsident) Walter Mennekes (2. Vizepräsident)"
     },
     {
       "template": "Infobox Fußballunternehmen",
@@ -331,7 +383,9 @@
         "vr-nr"
       ],
       "label": "VR-Nr.",
-      "value": "VR 2463 (AG München)"
+      "value": "VR 2463 (AG München)",
+      "header": "Verein",
+      "plain": "Infobox Fußballunternehmen – Verein – VR-Nr.: VR 2463 (AG München)"
     },
     {
       "template": "Infobox Fußballunternehmen",
@@ -340,7 +394,9 @@
         "unternehmen"
       ],
       "label": "Name",
-      "value": "FC Bayern München AG"
+      "value": "FC Bayern München AG",
+      "header": "Fußballunternehmen",
+      "plain": "Infobox Fußballunternehmen – Fußballunternehmen – Name: FC Bayern München AG"
     },
     {
       "template": "Infobox Fußballunternehmen",
@@ -350,7 +406,9 @@
         "anteilseigner_name"
       ],
       "label": "Aktionäre",
-      "value": "70,00 %: FC Bayern München e. V. 07,77 %: Adidas AG 07,77 %: Allianz SE 07,77 %: Audi AG 06,7 %: Viessmann Generations Group"
+      "value": "70,00 %: FC Bayern München e. V. 07,77 %: Adidas AG 07,77 %: Allianz SE 07,77 %: Audi AG 06,7 %: Viessmann Generations Group",
+      "header": "Fußballunternehmen",
+      "plain": "Infobox Fußballunternehmen – Fußballunternehmen – Aktionäre: 70,00 %: FC Bayern München e. V. 07,77 %: Adidas AG 07,77 %: Allianz SE 07,77 %: Audi AG 06,7 %: Viessmann Generations Group"
     },
     {
       "template": "Infobox Fußballunternehmen",
@@ -360,7 +418,9 @@
         "chefname"
       ],
       "label": "Vorstand",
-      "value": "Jan-Christian Dreesen (Vorsitzender) Max Eberl (Sport) Rouven Kasper (Marketing und Vertrieb)"
+      "value": "Jan-Christian Dreesen (Vorsitzender) Max Eberl (Sport) Rouven Kasper (Marketing und Vertrieb)",
+      "header": "Fußballunternehmen",
+      "plain": "Infobox Fußballunternehmen – Fußballunternehmen – Vorstand: Jan-Christian Dreesen (Vorsitzender) Max Eberl (Sport) Rouven Kasper (Marketing und Vertrieb)"
     },
     {
       "template": "Infobox Fußballunternehmen",
@@ -369,7 +429,9 @@
         "hr-nr"
       ],
       "label": "HR-Nr.",
-      "value": "HRB 140475 (AG München)"
+      "value": "HRB 140475 (AG München)",
+      "header": "Fußballunternehmen",
+      "plain": "Infobox Fußballunternehmen – Fußballunternehmen – HR-Nr.: HRB 140475 (AG München)"
     },
     {
       "template": "Infobox Fußballunternehmen",
@@ -378,7 +440,9 @@
         "website_unternehmen"
       ],
       "label": "Website",
-      "value": "fcbayern.com"
+      "value": "fcbayern.com",
+      "header": "Fußballunternehmen",
+      "plain": "Infobox Fußballunternehmen – Fußballunternehmen – Website: fcbayern.com"
     },
     {
       "template": "Infobox Fußballunternehmen",
@@ -387,7 +451,9 @@
         "trainer"
       ],
       "label": "Cheftrainer",
-      "value": "Vincent Kompany"
+      "value": "Vincent Kompany",
+      "header": "Erste Mannschaft",
+      "plain": "Infobox Fußballunternehmen – Erste Mannschaft – Cheftrainer: Vincent Kompany"
     },
     {
       "template": "Infobox Fußballunternehmen",
@@ -396,7 +462,9 @@
         "stadion"
       ],
       "label": "Spielstätte",
-      "value": "Allianz Arena"
+      "value": "Allianz Arena",
+      "header": "Erste Mannschaft",
+      "plain": "Infobox Fußballunternehmen – Erste Mannschaft – Spielstätte: Allianz Arena"
     },
     {
       "template": "Infobox Fußballunternehmen",
@@ -405,7 +473,9 @@
         "plätze"
       ],
       "label": "Plätze",
-      "value": "75.000"
+      "value": "75.000",
+      "header": "Erste Mannschaft",
+      "plain": "Infobox Fußballunternehmen – Erste Mannschaft – Plätze: 75.000"
     },
     {
       "template": "Infobox Fußballunternehmen",
@@ -414,7 +484,9 @@
         "liga"
       ],
       "label": "Liga",
-      "value": "Bundesliga"
+      "value": "Bundesliga",
+      "header": "Erste Mannschaft",
+      "plain": "Infobox Fußballunternehmen – Erste Mannschaft – Liga: Bundesliga"
     },
     {
       "template": "Infobox Fußballunternehmen",
@@ -424,7 +496,9 @@
         "rang"
       ],
       "label": "2025/26",
-      "value": "1. Platz"
+      "value": "1. Platz",
+      "header": "Erste Mannschaft",
+      "plain": "Infobox Fußballunternehmen – Erste Mannschaft – 2025/26: 1. Platz"
     },
     {
       "template": "Infobox Fußballunternehmen",
@@ -636,7 +710,9 @@
         "name"
       ],
       "label": "Name",
-      "value": "FC Bayern München II"
+      "value": "FC Bayern München II",
+      "header": "",
+      "plain": "Infobox Fußballteam – Name: FC Bayern München II"
     },
     {
       "template": "Infobox Fußballteam",
@@ -645,7 +721,9 @@
         "stadion"
       ],
       "label": "Spielstätte",
-      "value": "Grünwalder Stadion"
+      "value": "Grünwalder Stadion",
+      "header": "",
+      "plain": "Infobox Fußballteam – Spielstätte: Grünwalder Stadion"
     },
     {
       "template": "Infobox Fußballteam",
@@ -654,7 +732,9 @@
         "plätze"
       ],
       "label": "Plätze",
-      "value": "15.000"
+      "value": "15.000",
+      "header": "",
+      "plain": "Infobox Fußballteam – Plätze: 15.000"
     },
     {
       "template": "Infobox Fußballteam",
@@ -663,7 +743,9 @@
         "trainer"
       ],
       "label": "Cheftrainer",
-      "value": "Dante"
+      "value": "Dante",
+      "header": "",
+      "plain": "Infobox Fußballteam – Cheftrainer: Dante"
     },
     {
       "template": "Infobox Fußballteam",
@@ -672,7 +754,9 @@
         "liga"
       ],
       "label": "Liga",
-      "value": "Regionalliga Bayern"
+      "value": "Regionalliga Bayern",
+      "header": "",
+      "plain": "Infobox Fußballteam – Liga: Regionalliga Bayern"
     },
     {
       "template": "Infobox Fußballteam",
@@ -682,7 +766,9 @@
         "rang"
       ],
       "label": "2025/26",
-      "value": "11. Platz"
+      "value": "11. Platz",
+      "header": "",
+      "plain": "Infobox Fußballteam – 2025/26: 11. Platz"
     }
   ],
   "Mount Everest": [
@@ -702,7 +788,9 @@
         "HÖHE (numeric)"
       ],
       "label": "Höhe",
-      "value": "8848 m"
+      "value": "8848 m",
+      "header": "",
+      "plain": "Infobox Berg – Höhe: 8848 m"
     },
     {
       "template": "Infobox Berg",
@@ -711,7 +799,9 @@
         "LAGE"
       ],
       "label": "Lage",
-      "value": "Solukhumbu, Nepal, und Tibet, China"
+      "value": "Solukhumbu, Nepal, und Tibet, China",
+      "header": "",
+      "plain": "Infobox Berg – Lage: Solukhumbu, Nepal, und Tibet, China"
     },
     {
       "template": "Infobox Berg",
@@ -720,7 +810,9 @@
         "GEBIRGE"
       ],
       "label": "Gebirge",
-      "value": "Mahalangur Himal (Himalaya)"
+      "value": "Mahalangur Himal (Himalaya)",
+      "header": "",
+      "plain": "Infobox Berg – Gebirge: Mahalangur Himal (Himalaya)"
     },
     {
       "template": "Infobox Berg",
@@ -737,7 +829,9 @@
         "GESTEIN"
       ],
       "label": "Gestein",
-      "value": "Kristallingesteine, Kalkstein"
+      "value": "Kristallingesteine, Kalkstein",
+      "header": "",
+      "plain": "Infobox Berg – Gestein: Kristallingesteine, Kalkstein"
     },
     {
       "template": "Infobox Berg",
@@ -746,7 +840,9 @@
         "ALTER"
       ],
       "label": "Alter des Gesteins",
-      "value": "Neoproterozoikum–Ordovizium, Tertiär"
+      "value": "Neoproterozoikum–Ordovizium, Tertiär",
+      "header": "",
+      "plain": "Infobox Berg – Alter des Gesteins: Neoproterozoikum–Ordovizium, Tertiär"
     },
     {
       "template": "Infobox Berg",
@@ -755,7 +851,9 @@
         "ERSTBESTEIGUNG"
       ],
       "label": "Erstbesteigung",
-      "value": "29. Mai 1953 durch Edmund Hillary und Tenzing Norgay"
+      "value": "29. Mai 1953 durch Edmund Hillary und Tenzing Norgay",
+      "header": "",
+      "plain": "Infobox Berg – Erstbesteigung: 29. Mai 1953 durch Edmund Hillary und Tenzing Norgay"
     },
     {
       "template": "Infobox Berg",
@@ -764,7 +862,9 @@
         "NORMALWEG"
       ],
       "label": "Normalweg",
-      "value": "Südroute"
+      "value": "Südroute",
+      "header": "",
+      "plain": "Infobox Berg – Normalweg: Südroute"
     },
     {
       "template": "Infobox Berg",
@@ -849,7 +949,9 @@
         "Paradigma"
       ],
       "label": "Paradigmen:",
-      "value": "multiparadigmatisch: objektorientiert, prozedural (imperativ), funktional, strukturiert, reflektiert"
+      "value": "multiparadigmatisch: objektorientiert, prozedural (imperativ), funktional, strukturiert, reflektiert",
+      "header": "Basisdaten",
+      "plain": "Infobox Programmiersprache – Basisdaten – Paradigmen: multiparadigmatisch: objektorientiert, prozedural (imperativ), funktional, strukturiert, reflektiert"
     },
     {
       "template": "Infobox Programmiersprache",
@@ -858,7 +960,9 @@
         "Typisierung"
       ],
       "label": "Typisierung:",
-      "value": "stark, dynamisch („Duck-Typing“)"
+      "value": "stark, dynamisch („Duck-Typing“)",
+      "header": "Basisdaten",
+      "plain": "Infobox Programmiersprache – Basisdaten – Typisierung: stark, dynamisch („Duck-Typing“)"
     },
     {
       "template": "Infobox Programmiersprache",
@@ -867,7 +971,9 @@
         "Implementierung"
       ],
       "label": "Wichtige Implementierungen:",
-      "value": "CPython, Jython, IronPython, PyPy"
+      "value": "CPython, Jython, IronPython, PyPy",
+      "header": "Basisdaten",
+      "plain": "Infobox Programmiersprache – Basisdaten – Wichtige Implementierungen: CPython, Jython, IronPython, PyPy"
     },
     {
       "template": "Infobox Programmiersprache",
@@ -876,7 +982,9 @@
         "Beeinflusste"
       ],
       "label": "Beeinflusste:",
-      "value": "Ruby, Cython"
+      "value": "Ruby, Cython",
+      "header": "Basisdaten",
+      "plain": "Infobox Programmiersprache – Basisdaten – Beeinflusste: Ruby, Cython"
     },
     {
       "template": "Infobox Programmiersprache",
@@ -904,7 +1012,9 @@
         "Taxon6_WissName"
       ],
       "label": "Ordnung:",
-      "value": "Raubtiere (Carnivora)"
+      "value": "Raubtiere (Carnivora)",
+      "header": "Systematik",
+      "plain": "Taxobox – Systematik – Ordnung: Raubtiere (Carnivora)"
     },
     {
       "template": "Taxobox",
@@ -914,7 +1024,9 @@
         "Taxon5_WissName"
       ],
       "label": "Unterordnung:",
-      "value": "Hundeartige (Caniformia)"
+      "value": "Hundeartige (Caniformia)",
+      "header": "Systematik",
+      "plain": "Taxobox – Systematik – Unterordnung: Hundeartige (Caniformia)"
     },
     {
       "template": "Taxobox",
@@ -924,7 +1036,9 @@
         "Taxon4_WissName"
       ],
       "label": "Familie:",
-      "value": "Hunde (Canidae)"
+      "value": "Hunde (Canidae)",
+      "header": "Systematik",
+      "plain": "Taxobox – Systematik – Familie: Hunde (Canidae)"
     },
     {
       "template": "Taxobox",
@@ -934,7 +1048,9 @@
         "Taxon3_WissName"
       ],
       "label": "Tribus:",
-      "value": "Echte Füchse (Vulpini)"
+      "value": "Echte Füchse (Vulpini)",
+      "header": "Systematik",
+      "plain": "Taxobox – Systematik – Tribus: Echte Füchse (Vulpini)"
     },
     {
       "template": "Taxobox",
@@ -943,7 +1059,9 @@
         "Taxon2_WissName"
       ],
       "label": "Gattung:",
-      "value": "Vulpes"
+      "value": "Vulpes",
+      "header": "Systematik",
+      "plain": "Taxobox – Systematik – Gattung: Vulpes"
     },
     {
       "template": "Taxobox",
@@ -952,7 +1070,9 @@
         "Taxon_Name"
       ],
       "label": "Art:",
-      "value": "Rotfuchs"
+      "value": "Rotfuchs",
+      "header": "Systematik",
+      "plain": "Taxobox – Systematik – Art: Rotfuchs"
     },
     {
       "template": "Taxobox",
@@ -1024,11 +1144,14 @@
     },
     {
       "template": "Infobox Militärischer Konflikt",
-      "result": "no_label_single_cell",
+      "result": "mapped_single_cell",
       "params": [
         "TEILVON"
       ],
-      "text": "Teil von: Invasion Englands durch Normannen"
+      "label": "Teil von",
+      "value": "Invasion Englands durch Normannen",
+      "header": "",
+      "plain": "Infobox Militärischer Konflikt – Teil von: Invasion Englands durch Normannen"
     },
     {
       "template": "Infobox Militärischer Konflikt",
@@ -1046,7 +1169,9 @@
         "DATUM"
       ],
       "label": "Datum",
-      "value": "14. Oktober 1066"
+      "value": "14. Oktober 1066",
+      "header": "",
+      "plain": "Infobox Militärischer Konflikt – Datum: 14. Oktober 1066"
     },
     {
       "template": "Infobox Militärischer Konflikt",
@@ -1055,7 +1180,9 @@
         "ORT"
       ],
       "label": "Ort",
-      "value": "In der Nähe von Hastings, East Sussex, an der englischen Südküste"
+      "value": "In der Nähe von Hastings, East Sussex, an der englischen Südküste",
+      "header": "",
+      "plain": "Infobox Militärischer Konflikt – Ort: In der Nähe von Hastings, East Sussex, an der englischen Südküste"
     },
     {
       "template": "Infobox Militärischer Konflikt",
@@ -1064,7 +1191,9 @@
         "AUSGANG"
       ],
       "label": "Ausgang",
-      "value": "Sieg der Normannen"
+      "value": "Sieg der Normannen",
+      "header": "",
+      "plain": "Infobox Militärischer Konflikt – Ausgang: Sieg der Normannen"
     },
     {
       "template": "Infobox Militärischer Konflikt",
@@ -1073,7 +1202,9 @@
         "FOLGEN"
       ],
       "label": "Folgen",
-      "value": "Wilhelm eroberte England und wurde zum König gekrönt"
+      "value": "Wilhelm eroberte England und wurde zum König gekrönt",
+      "header": "",
+      "plain": "Infobox Militärischer Konflikt – Folgen: Wilhelm eroberte England und wurde zum König gekrönt"
     },
     {
       "template": "Infobox Militärischer Konflikt",
@@ -1083,7 +1214,8 @@
         "KONTRAHENT2"
       ],
       "label": "Konfliktparteien",
-      "value": "Normannen / Angelsachsen"
+      "value": "Normannen / Angelsachsen",
+      "plain": "Infobox Militärischer Konflikt – Konfliktparteien: Normannen / Angelsachsen"
     },
     {
       "template": "Infobox Militärischer Konflikt",
@@ -1093,7 +1225,8 @@
         "BEFEHLSHABER2"
       ],
       "label": "Befehlshaber",
-      "value": "Normannen: Wilhelm I.; Angelsachsen: Harald II. †"
+      "value": "Normannen: Wilhelm I.; Angelsachsen: Harald II. †",
+      "plain": "Infobox Militärischer Konflikt – Befehlshaber: Normannen: Wilhelm I.; Angelsachsen: Harald II. †"
     },
     {
       "template": "Infobox Militärischer Konflikt",
@@ -1103,7 +1236,8 @@
         "TRUPPENSTÄRKE2"
       ],
       "label": "Truppenstärke",
-      "value": "Normannen: ca. 7000 Mann; Angelsachsen: ca. 7500 Mann"
+      "value": "Normannen: ca. 7000 Mann; Angelsachsen: ca. 7500 Mann",
+      "plain": "Infobox Militärischer Konflikt – Truppenstärke: Normannen: ca. 7000 Mann; Angelsachsen: ca. 7500 Mann"
     },
     {
       "template": "Infobox Militärischer Konflikt",
@@ -1113,15 +1247,19 @@
         "VERLUSTE2"
       ],
       "label": "Verluste",
-      "value": "Normannen: ca. 2000 Mann; Angelsachsen: ca. 2000 Mann, darunter auch König Harald II."
+      "value": "Normannen: ca. 2000 Mann; Angelsachsen: ca. 2000 Mann, darunter auch König Harald II.",
+      "plain": "Infobox Militärischer Konflikt – Verluste: Normannen: ca. 2000 Mann; Angelsachsen: ca. 2000 Mann, darunter auch König Harald II."
     },
     {
       "template": "Infobox Militärischer Konflikt",
-      "result": "no_label_single_cell",
+      "result": "mapped_single_cell",
       "params": [
         "NOTIZEN"
       ],
-      "text": "Ziele: Wilhelm kämpft für seinen Anspruch auf die englische Krone"
+      "label": "Ziele",
+      "value": "Wilhelm kämpft für seinen Anspruch auf die englische Krone",
+      "header": "",
+      "plain": "Infobox Militärischer Konflikt – Ziele: Wilhelm kämpft für seinen Anspruch auf die englische Krone"
     }
   ],
   "Wasser": [
@@ -1140,7 +1278,9 @@
         "Andere Namen"
       ],
       "label": "Andere Namen",
-      "value": "Oxidan (IUPAC) R718"
+      "value": "Oxidan (IUPAC) R718",
+      "header": "Allgemeines",
+      "plain": "Infobox Chemikalie – Allgemeines – Andere Namen: Oxidan (IUPAC) R718"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1149,7 +1289,9 @@
         "Summenformel"
       ],
       "label": "Summenformel",
-      "value": "H2O"
+      "value": "H2O",
+      "header": "Allgemeines",
+      "plain": "Infobox Chemikalie – Allgemeines – Summenformel: H2O"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1158,7 +1300,9 @@
         "Beschreibung"
       ],
       "label": "Kurzbeschreibung",
-      "value": "klare, farb- und geruchlose Flüssigkeit"
+      "value": "klare, farb- und geruchlose Flüssigkeit",
+      "header": "Allgemeines",
+      "plain": "Infobox Chemikalie – Allgemeines – Kurzbeschreibung: klare, farb- und geruchlose Flüssigkeit"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1167,7 +1311,9 @@
         "CAS"
       ],
       "label": "CAS-Nummer",
-      "value": "7732-18-5"
+      "value": "7732-18-5",
+      "header": "Externe Identifikatoren/Datenbanken",
+      "plain": "Infobox Chemikalie – Externe Identifikatoren/Datenbanken – CAS-Nummer: 7732-18-5"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1176,7 +1322,9 @@
         "EG-Nummer"
       ],
       "label": "EG-Nummer",
-      "value": "231-791-2"
+      "value": "231-791-2",
+      "header": "Externe Identifikatoren/Datenbanken",
+      "plain": "Infobox Chemikalie – Externe Identifikatoren/Datenbanken – EG-Nummer: 231-791-2"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1185,7 +1333,9 @@
         "ECHA-ID"
       ],
       "label": "ECHA-InfoCard",
-      "value": "100.028.902"
+      "value": "100.028.902",
+      "header": "Externe Identifikatoren/Datenbanken",
+      "plain": "Infobox Chemikalie – Externe Identifikatoren/Datenbanken – ECHA-InfoCard: 100.028.902"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1194,7 +1344,9 @@
         "PubChem"
       ],
       "label": "PubChem",
-      "value": "962"
+      "value": "962",
+      "header": "Externe Identifikatoren/Datenbanken",
+      "plain": "Infobox Chemikalie – Externe Identifikatoren/Datenbanken – PubChem: 962"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1203,7 +1355,9 @@
         "DrugBank"
       ],
       "label": "DrugBank",
-      "value": "DB09145"
+      "value": "DB09145",
+      "header": "Externe Identifikatoren/Datenbanken",
+      "plain": "Infobox Chemikalie – Externe Identifikatoren/Datenbanken – DrugBank: DB09145"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1212,7 +1366,9 @@
         "Molare Masse"
       ],
       "label": "Molare Masse",
-      "value": "18,02 g·mol−1"
+      "value": "18,02 g·mol−1",
+      "header": "Eigenschaften",
+      "plain": "Infobox Chemikalie – Eigenschaften – Molare Masse: 18,02 g·mol−1"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1221,7 +1377,9 @@
         "Aggregat"
       ],
       "label": "Aggregatzustand",
-      "value": "flüssig"
+      "value": "flüssig",
+      "header": "Eigenschaften",
+      "plain": "Infobox Chemikalie – Eigenschaften – Aggregatzustand: flüssig"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1230,7 +1388,9 @@
         "Dichte"
       ],
       "label": "Dichte",
-      "value": "0,998 g·cm−3 (20 °C)"
+      "value": "0,998 g·cm−3 (20 °C)",
+      "header": "Eigenschaften",
+      "plain": "Infobox Chemikalie – Eigenschaften – Dichte: 0,998 g·cm−3 (20 °C)"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1239,7 +1399,9 @@
         "Schmelzpunkt"
       ],
       "label": "Schmelzpunkt",
-      "value": "0 °C (101,3 kPa)"
+      "value": "0 °C (101,3 kPa)",
+      "header": "Eigenschaften",
+      "plain": "Infobox Chemikalie – Eigenschaften – Schmelzpunkt: 0 °C (101,3 kPa)"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1248,7 +1410,9 @@
         "Siedepunkt"
       ],
       "label": "Siedepunkt",
-      "value": "100 °C (101,3 kPa)"
+      "value": "100 °C (101,3 kPa)",
+      "header": "Eigenschaften",
+      "plain": "Infobox Chemikalie – Eigenschaften – Siedepunkt: 100 °C (101,3 kPa)"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1257,7 +1421,9 @@
         "Dampfdruck"
       ],
       "label": "Dampfdruck",
-      "value": "2,3388 kPa (20 °C)"
+      "value": "2,3388 kPa (20 °C)",
+      "header": "Eigenschaften",
+      "plain": "Infobox Chemikalie – Eigenschaften – Dampfdruck: 2,3388 kPa (20 °C)"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1266,7 +1432,9 @@
         "Dipolmoment"
       ],
       "label": "Dipolmoment",
-      "value": "1,85 D (6,18·10−30 C·m)"
+      "value": "1,85 D (6,18·10−30 C·m)",
+      "header": "Eigenschaften",
+      "plain": "Infobox Chemikalie – Eigenschaften – Dipolmoment: 1,85 D (6,18·10−30 C·m)"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1275,7 +1443,9 @@
         "Brechungsindex"
       ],
       "label": "Brechungsindex",
-      "value": "1,333"
+      "value": "1,333",
+      "header": "Eigenschaften",
+      "plain": "Infobox Chemikalie – Eigenschaften – Brechungsindex: 1,333"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1292,16 +1462,21 @@
         "H"
       ],
       "label": "H- und P-Sätze",
-      "value": "H: keine H-Sätze"
+      "value": "H: keine H-Sätze",
+      "header": "Sicherheitshinweise",
+      "plain": "Infobox Chemikalie – Sicherheitshinweise – H- und P-Sätze: H: keine H-Sätze"
     },
     {
       "template": "Infobox Chemikalie",
-      "result": "no_label_single_cell",
+      "result": "mapped_single_cell",
       "params": [
         "P",
         "Quelle P"
       ],
-      "text": "P: keine P-Sätze"
+      "label": "P",
+      "value": "keine P-Sätze",
+      "header": "Sicherheitshinweise",
+      "plain": "Infobox Chemikalie – Sicherheitshinweise – P: keine P-Sätze"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1310,7 +1485,9 @@
         "ToxDaten"
       ],
       "label": "Toxikologische Daten",
-      "value": "90 000 mg·kg−1 (LD50, Ratte, oral)"
+      "value": "90 000 mg·kg−1 (LD50, Ratte, oral)",
+      "header": "Sicherheitshinweise",
+      "plain": "Infobox Chemikalie – Sicherheitshinweise – Toxikologische Daten: 90 000 mg·kg−1 (LD50, Ratte, oral)"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1319,7 +1496,9 @@
         "Standardbildungsenthalpie"
       ],
       "label": "ΔHf0",
-      "value": "−285,83 kJ·mol−1 (Flüssigkeit) −241,826 kJ·mol−1 (Gas)"
+      "value": "−285,83 kJ·mol−1 (Flüssigkeit) −241,826 kJ·mol−1 (Gas)",
+      "header": "Thermodynamische Eigenschaften",
+      "plain": "Infobox Chemikalie – Thermodynamische Eigenschaften – ΔHf0: −285,83 kJ·mol−1 (Flüssigkeit) −241,826 kJ·mol−1 (Gas)"
     },
     {
       "template": "Infobox Chemikalie",
@@ -1353,7 +1532,9 @@
         "HÖHE (numeric)"
       ],
       "label": "Höhe",
-      "value": "2962,06 m ü. NHN"
+      "value": "2962,06 m ü. NHN",
+      "header": "",
+      "plain": "Infobox Berg – Höhe: 2962,06 m ü. NHN"
     },
     {
       "template": "Infobox Berg",
@@ -1362,7 +1543,9 @@
         "LAGE"
       ],
       "label": "Lage",
-      "value": "Grenze Bayern, Deutschland / Tirol, Österreich"
+      "value": "Grenze Bayern, Deutschland / Tirol, Österreich",
+      "header": "",
+      "plain": "Infobox Berg – Lage: Grenze Bayern, Deutschland / Tirol, Österreich"
     },
     {
       "template": "Infobox Berg",
@@ -1371,7 +1554,9 @@
         "GEBIRGE"
       ],
       "label": "Gebirge",
-      "value": "Wettersteingebirge, Ostalpen"
+      "value": "Wettersteingebirge, Ostalpen",
+      "header": "",
+      "plain": "Infobox Berg – Gebirge: Wettersteingebirge, Ostalpen"
     },
     {
       "template": "Infobox Berg",
@@ -1381,7 +1566,9 @@
         "DOMINANZ (numeric)"
       ],
       "label": "Dominanz",
-      "value": "25,8 km → Zwölferkogel"
+      "value": "25,8 km → Zwölferkogel",
+      "header": "",
+      "plain": "Infobox Berg – Dominanz: 25,8 km → Zwölferkogel"
     },
     {
       "template": "Infobox Berg",
@@ -1391,7 +1578,9 @@
         "SCHARTENHÖHE (numeric)"
       ],
       "label": "Schartenhöhe",
-      "value": "1746 m ↓ Fernpass"
+      "value": "1746 m ↓ Fernpass",
+      "header": "",
+      "plain": "Infobox Berg – Schartenhöhe: 1746 m ↓ Fernpass"
     },
     {
       "template": "Infobox Berg",
@@ -1408,7 +1597,9 @@
         "GESTEIN"
       ],
       "label": "Gestein",
-      "value": "Wettersteinkalk"
+      "value": "Wettersteinkalk",
+      "header": "",
+      "plain": "Infobox Berg – Gestein: Wettersteinkalk"
     },
     {
       "template": "Infobox Berg",
@@ -1417,7 +1608,9 @@
         "ALTER"
       ],
       "label": "Alter des Gesteins",
-      "value": "Trias"
+      "value": "Trias",
+      "header": "",
+      "plain": "Infobox Berg – Alter des Gesteins: Trias"
     },
     {
       "template": "Infobox Berg",
@@ -1426,7 +1619,9 @@
         "ERSTBESTEIGUNG"
       ],
       "label": "Erstbesteigung",
-      "value": "27. August 1820 durch Josef Naus, Johann Georg Tauschl, Messgehilfe Maier"
+      "value": "27. August 1820 durch Josef Naus, Johann Georg Tauschl, Messgehilfe Maier",
+      "header": "",
+      "plain": "Infobox Berg – Erstbesteigung: 27. August 1820 durch Josef Naus, Johann Georg Tauschl, Messgehilfe Maier"
     },
     {
       "template": "Infobox Berg",
@@ -1435,7 +1630,9 @@
         "NORMALWEG"
       ],
       "label": "Normalweg",
-      "value": "Reintal-Route"
+      "value": "Reintal-Route",
+      "header": "",
+      "plain": "Infobox Berg – Normalweg: Reintal-Route"
     },
     {
       "template": "Infobox Berg",
@@ -1444,7 +1641,9 @@
         "BESONDERHEITEN"
       ],
       "label": "Besonderheiten",
-      "value": "Höchster Berg der deutschen Alpen sowie Bayerns und Deutschlands, eigene PLZ: 82475 Schneefernerhaus"
+      "value": "Höchster Berg der deutschen Alpen sowie Bayerns und Deutschlands, eigene PLZ: 82475 Schneefernerhaus",
+      "header": "",
+      "plain": "Infobox Berg – Besonderheiten: Höchster Berg der deutschen Alpen sowie Bayerns und Deutschlands, eigene PLZ: 82475 Schneefernerhaus"
     },
     {
       "template": "Infobox Berg",
