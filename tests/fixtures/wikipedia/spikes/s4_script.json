@@ -1,0 +1,31 @@
+{
+  "_note": "Spike S4 test dialog. Facts from the Eiffelturm fixture (revid 271593273, CC BY-SA, see tests/fixtures/wikipedia/NOTICE). Dialog written for the spike; numbers spelled out as spoken. Intro and outro: fixed texts from docs/wikipedia-podcast-pipeline.md.",
+  "intro": [
+    ["Felix", "Hallo und willkommen bei „Gut zu wissen“!"],
+    ["Lena", "In jeder Folge nehmen wir uns einen Wikipedia-Artikel vor und präsentieren euch die interessantesten Fakten."]
+  ],
+  "turns": [
+    ["Lena", "Heute geht es um den Eiffelturm. Gebaut wurde er von achtzehnhundertsiebenundachtzig bis achtzehnhundertneunundachtzig, und er kostete siebenhundertneununddreißigtausend vierhundert Francs."],
+    ["Felix", "Moment, das muss ich kurz sortieren. Das sind zwei Jahre Bauzeit, richtig?"],
+    ["Lena", "Genau. Am siebten Dezember achtzehnhundertsiebenundachtzig wurde die erste Etage montiert. Damit die Querbalken hielten, stand darunter ein Gerüst, das fünfundvierzig Meter hoch war."],
+    ["Felix", "Ein Gerüst nur für die Balken der ersten Etage? Wie ging es dann weiter?"],
+    ["Lena", "Zunächst gab es Ärger. Ein Anlieger am Champ de Mars hatte Angst, der Turm könnte einstürzen und sein Haus zerstören, und strengte einen Prozess gegen den Staat und die Stadt an."],
+    ["Felix", "Echt? Und was hat das Gericht entschieden?"],
+    ["Lena", "Das Gericht erlaubte den Weiterbau nur mit einer Auflage: Gustave Eiffel musste bei möglichen Schäden haften."],
+    ["Felix", "Okay, damit hätte ich jetzt wirklich nicht gerechnet. Erzähl mehr, das will ich genauer wissen!"],
+    ["Lena", "Auch die Farbe wechselte. Zu Beginn der Errichtung herrschte ein venezianisches Rot vor. Zur Eröffnung achtzehnhundertneunundachtzig schwenkte man auf Rotbraun um."],
+    ["Felix", "Wie meinst du das, schwenkte man um? Wurde der ganze Turm neu gestrichen?"],
+    ["Lena", "Das sagt der Artikel nicht genau. Er sagt nur, dass man zur Eröffnung auf Rotbraun umschwenkte. Der Turm ist insgesamt dreihundertdreißig Meter hoch."],
+    ["Felix", "Halt, dreihundertdreißig Meter. Und kamen die Besucher in Scharen?"],
+    ["Lena", "Seit achtzehnhundertneunundachtzig gehörte der Eiffelturm fest zur Ausstellungsarchitektur, zog aber mit jedem Mal weniger Besucher an. In den Zweitausenderzehnerjahren pendelte sich die Besucherzahl bei etwa sechs Millionen im Jahr ein."],
+    ["Felix", "Ha, das muss ich mir merken. Sechs Millionen im Jahr!"],
+    ["Lena", "Und nach der Eröffnung am einunddreißigsten März achtzehnhundertneunundachtzig blieb der Turm bis heute stehen."],
+    ["Felix", "Gut zu wissen. Dann sind wir wohl durch für heute?"],
+    ["Lena", "Fast. Halt dich fest, jetzt kommt’s: Die Betriebszeit des Turms läuft seit achtzehnhundertneunundachtzig, und der Besitzer ist die Société d’exploitation de la tour Eiffel, kurz SETE."]
+  ],
+  "outro": [
+    ["Lena", "Das war „Gut zu wissen“. Alles, was wir erzählt haben, stammt aus der deutschsprachigen Wikipedia. Die Artikel und ihre Autorinnen und Autoren findet ihr in den Shownotes."],
+    ["Felix", "Ein wichtiger Hinweis: Diese Folge ist mit KI entstanden – von der Auswahl der Fakten über das Gespräch bis zu unseren Stimmen. KI kann Fehler machen. Und die Wikipedia-Inhalte selbst sind nicht unabhängig geprüft. Wenn ihr euch auf etwas verlassen wollt, prüft es bitte nach."],
+    ["Lena", "„Gut zu wissen“ steht unter der Lizenz CC BY-SA 4.0 und ist ein unabhängiges Projekt, nicht verbunden mit der Wikimedia Foundation. Bis zum nächsten Mal!"]
+  ]
+}
