@@ -685,12 +685,99 @@ def exp_pairs(out: Path | None) -> None:
     write_results("pairs.json", {"model": LITE, "rows": rows})
 
 
+def exp_drift(wav: Path, lena: str, felix: str, win: float = 60.0) -> None:
+    """Drift inside one long call: loudness and per-speaker pitch/level per minute."""
+    solo = {r["voice"]: r for r in json.loads((RESULTS / "voices.json").read_text())["rows"]}
+    split_hz = float(np.sqrt(solo[lena]["f0_median_hz"] * solo[felix]["f0_median_hz"]))
+    y = to_array(wav.read_bytes())
+    step = int(win * SR)
+    rows = []
+    for i in range(0, len(y) - step // 2, step):
+        w = y[i : i + step]
+        st = speaker_stats(w, split_hz)
+        rows.append(
+            {
+                "minute": round(i / SR / 60),
+                "lufs": round(loudness(w), 1),
+                "lena_f0": st["lena"]["f0_median_hz"],
+                "felix_f0": st["felix"]["f0_median_hz"],
+                "lena_spread": st["lena"]["f0_spread_semitones"],
+                "felix_spread": st["felix"]["f0_spread_semitones"],
+                "level_difference_db": round(st["lena"]["level_db"] - st["felix"]["level_db"], 1),
+            }
+        )
+    t = np.array([r["minute"] for r in rows], dtype=float)
+
+    def slope(key: str, semitone: bool = False) -> float:
+        v = np.array([r[key] for r in rows], dtype=float)
+        if semitone:
+            v = 12 * np.log2(v / v[0])
+        return round(float(np.polyfit(t, v, 1)[0] * 10), 2)  # change per 10 minutes
+
+    summary = {
+        "file": wav.name,
+        "minutes": len(rows),
+        "lufs_per_10min": slope("lufs"),
+        "lena_semitones_per_10min": slope("lena_f0", True),
+        "felix_semitones_per_10min": slope("felix_f0", True),
+        "level_difference_db_per_10min": slope("level_difference_db"),
+        "lufs_range": [min(r["lufs"] for r in rows), max(r["lufs"] for r in rows)],
+        "first_5_vs_last_5_lufs": round(
+            float(np.mean([r["lufs"] for r in rows[-5:]]) - np.mean([r["lufs"] for r in rows[:5]])),
+            1,
+        ),
+        "rows": rows,
+    }
+    write_results(f"drift_{wav.stem}.json", summary)
+    print(json.dumps({k: v for k, v in summary.items() if k != "rows"}, indent=1))
+
+
+def exp_fixed(out: Path | None, lena: str, felix: str, model: str) -> None:
+    """Fixed intro and outro, synthesised separately: do the voices match the episode?"""
+    script = load_script()
+    ep = json.loads((RESULTS / "episode_3sections.json").read_text())
+    solo = {r["voice"]: r for r in json.loads((RESULTS / "voices.json").read_text())["rows"]}
+    split_hz = float(np.sqrt(solo[lena]["f0_median_hz"] * solo[felix]["f0_median_hz"]))
+    ref_lena = float(np.mean([r["f0_lena_hz"] for r in ep["rows"]]))
+    ref_felix = float(np.mean([r["f0_felix_hz"] for r in ep["rows"]]))
+    rows = []
+    for name in ("intro", "outro"):
+        turns = [tuple(t) for t in script[name]]
+        text = " ".join(t for _, t in turns)
+        r = synth(model, [("Lena", lena), ("Felix", felix)], turns)
+        if r["status"] != 200 or "wav" not in r:
+            raise SystemExit(f"{name} failed: {r.get('error')}")
+        y = to_array(r["wav"])
+        st = speaker_stats(y, split_hz)
+        row = {
+            "part": name,
+            "seconds_audio": round(len(y) / SR, 1),
+            "lufs": round(loudness(y), 1),
+            "wer": round(wer(text, transcribe(y)), 3),
+            "lena_semitones_vs_episode": semitones(ref_lena, st["lena"]["f0_median_hz"]),
+            "felix_semitones_vs_episode": semitones(ref_felix, st["felix"]["f0_median_hz"]),
+            "level_difference_db": round(st["lena"]["level_db"] - st["felix"]["level_db"], 1),
+            "lead_trail_silence_s": [round(v, 2) for v in edges_silence(y)],
+            "usd": round(cost(model, r["usage"]), 4),
+        }
+        rows.append(row)
+        save(out, f"fixed_{name}.wav", y)
+        print(json.dumps(row), flush=True)
+    write_results(
+        "intro_outro.json",
+        {"model": model, "episode_lena_hz": ref_lena, "episode_felix_hz": ref_felix, "rows": rows},
+    )
+
+
 def main() -> None:
     p = argparse.ArgumentParser()
-    p.add_argument("experiment", choices=["voices", "pairs", "models", "limit", "episode"])
+    p.add_argument(
+        "experiment", choices=["voices", "pairs", "models", "limit", "episode", "drift", "fixed"]
+    )
     p.add_argument("--out", type=Path)
     p.add_argument("--lena", default="")
     p.add_argument("--felix", default="")
+    p.add_argument("--wav", type=Path)
     p.add_argument("--model", default=LITE)
     p.add_argument("--max-chars", type=int, default=8000)
     a = p.parse_args()
@@ -700,6 +787,10 @@ def main() -> None:
         exp_pairs(a.out)
     elif a.experiment == "models":
         exp_models(a.out, a.lena, a.felix)
+    elif a.experiment == "fixed":
+        exp_fixed(a.out, a.lena, a.felix, a.model)
+    elif a.experiment == "drift":
+        exp_drift(a.wav, a.lena, a.felix)
     elif a.experiment == "limit":
         exp_limit(a.out, a.lena, a.felix, a.model)
     else:
