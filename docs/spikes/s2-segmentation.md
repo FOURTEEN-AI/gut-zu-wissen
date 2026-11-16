@@ -77,7 +77,7 @@ Raw wikitext is scanned once. Each construct becomes a mask with a *surrogate*: 
 
 **False abbreviations.** SoMaJo's German abbreviation list matches case-insensitively and contains entries that are ordinary words in prose. It never ends a sentence after them. The corpus showed three: `Italien.`, `Japan.` and `mag.` (from "Mag." = Magister). After SoMaJo, a sentence is split after such a token when the next token is capitalised. This was found by checking which list entries occur in the corpus both with and without a full stop.
 
-**Infobox rows.** *Superseded by S3:* one segment per rendered labelled row, mapped with the marker render; see [s3-rendering.md](s3-rendering.md#change-to-s2-infobox-segments). Original S2 rule: a block template named `Infobox …` or `Taxobox` (D3) is split on top-level `|`. Each named parameter with a non-empty value (comments removed) becomes one `infobox_row` segment. The raw text is `<template name> | <param> = <value>`. Positional parameters are skipped. `Personendaten` is excluded because only `Infobox *` and `Taxobox` match.
+**Infobox rows.** *Superseded by S3:* one segment per rendered labelled row, with section header and colon-split single-cell rows, mapped with the marker render; see [s3-rendering.md](s3-rendering.md#change-to-s2-infobox-segments). Original S2 rule: a block template named `Infobox …` or `Taxobox` (D3) is split on top-level `|`. Each named parameter with a non-empty value (comments removed) becomes one `infobox_row` segment. The raw text is `<template name> | <param> = <value>`. Positional parameters are skipped. `Personendaten` is excluded because only `Infobox *` and `Taxobox` match.
 
 ## Segment ID scheme
 

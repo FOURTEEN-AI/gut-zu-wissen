@@ -30,7 +30,7 @@ These retire the open risks before the build starts.
 4. **Extraction per chunk.**
    - Structured output (JSON schema).
    - Gates for uniqueness, ≥ 8 words, full sentence, and context (contiguous, same chunk, ≤ 3 segments).
-   - Plaintext rendering of offered facts and their context. Infobox rows as „Infobox type – label: value“ (D3).
+   - Plaintext rendering of offered facts and their context. Infobox rows as „Infobox type – section header – label: value“, header omitted when there is none (D3).
 5. **Ranking.**
    - 20 main facts. Linked intros: fetch (same revision rule), gate, extract, rank for 6 more, each with its own revid for the shownotes.
    - Gate: fewer than 10 offered facts → gate failure before the dialog author (D5).
@@ -92,7 +92,7 @@ These retire the open risks before the build starts.
 |---|---|---|
 | D1 | Neighbour coherence | After a turn regeneration, the next turn is always regenerated. The cascade continues until Jev confirms (p ≥ t) that a regenerated turn conveys the same statements as before; uncertain counts as content lost. The whole cascade shares the triggering turn's 2× budget. |
 | D2 | Revision | Latest sighted revision; latest revision if none exists. Revision status recorded in the archive. |
-| D3 | Infobox rows | `Infobox *` and `Taxobox` only (`Personendaten` excluded). Plaintext: „Infobox type – label: value“. |
+| D3 | Infobox rows | `Infobox *` and `Taxobox` only (`Personendaten` excluded). Plaintext: „Infobox type – section header – label: value“ (header omitted when the row has none); a single-cell row with a colon is split at the first colon into label and value (spike S3). |
 | D4 | Repeats | New episode for an article allowed 6 months after the last episode's publication date; otherwise gate failure. |
 | D5 | Minimum content | 10 used facts. Offer < 10 → gate failure before the dialog author. After the author < 10 → conversation regeneration. After the judge < 10 → gate failure. |
 | D6 | Conversation regeneration | Rerun both rankings, excluding facts cited by rejected statements. |

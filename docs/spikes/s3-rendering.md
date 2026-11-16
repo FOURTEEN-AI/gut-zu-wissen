@@ -5,7 +5,7 @@
 **Result:**
 - **Render per segment.** 4,860 of 4,864 sentence segments give exactly the same plain text on their own as in the rendered article. The other 4 are layout artefacts.
 - **Infobox labels: marker render.** Each parameter's value is replaced by a marker, and the row that shows the marker gives the label. This mapped every content row of the 8 infoboxes correctly.
-- **Change to S2:** an infobox segment is a **rendered row**, not a parameter.
+- **Change to S2:** an infobox segment is a **rendered row**, not a parameter. Its plain text includes the section header, and single-cell rows are split at the first colon (project owner's decisions, below).
 
 Code: [spikes/s3_rendering.py](../../spikes/s3_rendering.py). Results: [tests/fixtures/wikipedia/spikes/s3_results/](../../tests/fixtures/wikipedia/spikes/s3_results/). Corpus: the 10 S2 revisions. The render cache (`s3_cache/`, 7.8 MB) is not committed; a run re-fetches it in about 1 minute.
 
@@ -54,9 +54,11 @@ Row types handled:
 | Row type | Example | Plain text |
 |---|---|---|
 | label cell + value cell | `HÖHE`, `HÖHE-BEZUG` → row "Höhe" | `Infobox Berg – Höhe: 2962,06 m ü. NHN` |
-| several parameters, one row | `Taxon3_Name`, `Taxon3_WissName` → "Tribus" | `Taxobox – Tribus: Echte Füchse (Vulpini)` |
-| label filled from a parameter | `anteilseigner_bezeichnung` + `anteilseigner_name` | `Infobox Fußballunternehmen – Aktionäre: 70,00 %: FC Bayern München e. V. …` |
-| comparison row under a header row (battle infobox) | `TRUPPENSTÄRKE1`, `TRUPPENSTÄRKE2` under "Truppenstärke" | `Infobox Militärischer Konflikt – Truppenstärke: Normannen: ca. 7000 Mann; Angelsachsen: ca. 7500 Mann` |
+| under a section header | row "Bauzeit" under "Turmdaten" | `Infobox Sendeanlage – Turmdaten – Bauzeit: 1887–1889` |
+| several parameters, one row | `Taxon3_Name`, `Taxon3_WissName` → "Tribus" | `Taxobox – Systematik – Tribus: Echte Füchse (Vulpini)` |
+| label filled from a parameter | `anteilseigner_bezeichnung` + `anteilseigner_name` | `Infobox Fußballunternehmen – Fußballunternehmen – Aktionäre: 70,00 %: FC Bayern München e. V. …` |
+| comparison row under a label row (battle infobox) | `TRUPPENSTÄRKE1`, `TRUPPENSTÄRKE2` under "Truppenstärke" | `Infobox Militärischer Konflikt – Truppenstärke: Normannen: ca. 7000 Mann; Angelsachsen: ca. 7500 Mann` |
+| single-cell row with its own label, split at the first colon | `TEILVON` | `Infobox Militärischer Konflikt – Teil von: Invasion Englands durch Normannen` |
 
 A comparison row is told apart from a row with a parameter label by structure: it sits directly below a single-cell header row. Its column names come from the first comparison row of the table (the parties row).
 
@@ -65,7 +67,8 @@ A comparison row is told apart from a row with a parameter label by structure: i
 | | Rows | Parameters |
 |---|---:|---:|
 | Labelled rows, mapped (all checked by hand, all correct) | 97 | 113 |
-| Single-cell rows: title, image caption, free notes | 23 | 26 |
+| Single-cell rows with a colon, split into label and value | 3 | 4 |
+| Single-cell rows without a colon: title, image caption, map caption | 20 | 22 |
 | Not shown as text: images, colours, kit patterns, ISO codes, coordinates as numbers, taxon ranks, category parameters | | 54 |
 | Marker changes the row structure (Eiffelturm `WEITERES`, Wasser `GHS-Piktogramme`, `EUH`) | | 3 |
 
@@ -86,7 +89,26 @@ New rule, closer to D3's wording ("Infobox rows"):
 
 This means infobox segmentation in step 3 needs the Wikipedia API (the marker render), not just the wikitext.
 
-## Decisions needed
+## Decisions (project owner)
 
-1. **Section headers in infobox plain text.** Some rows only make sense with their section header. FC Bayern has "Name" three times (Verein, Fußballunternehmen, FC Bayern München II) and "2025/26: 1. Platz" under "Erste Mannschaft". D3 fixes the format „Infobox type – label: value“. Should the section header go in front of the label when there is one: „Infobox Fußballunternehmen – Erste Mannschaft – 2025/26: 1. Platz“?
-2. **Single-cell rows with their own label** ("Teil von: Invasion Englands durch Normannen", "Ziele: Wilhelm kämpft für seinen Anspruch …", "P: keine P-Sätze"). Skip them like titles and captions (proposal), or split at the first colon into label and value?
+1. **Section header in the plain text.** When a row sits under a section header, the header goes between the template name and the label: `Infobox Fußballunternehmen – Erste Mannschaft – 2025/26: 1. Platz`. Rows without a header keep D3's format `Infobox type – label: value`. 67 of the 100 corpus segments have a header.
+2. **Single-cell rows with a colon** are split at the first colon into label and value (`Teil von: …`, `Ziele: …`, `P: keine P-Sätze`). Single-cell rows without a colon are not segments.
+
+### Header rule
+
+A section header is the nearest preceding row that is:
+- a single cell, as a `<th>`, or as a `<td colspan="2">` that does not wrap a nested table (Eiffelturm's headers are `td`; `th` alone is not enough);
+- non-empty, without a colon, at most 8 words.
+
+It is not:
+- the title (the first non-empty single-cell row);
+- a row fed by a parameter whose name contains `bild`, `beschreibung`, `karte`, `logo`, `formel`, `image` or `caption` (case-insensitive). This list is extended as cases are found, like the hatnote list in S2;
+- the label row of a two-sided comparison (`Truppenstärke`): such a row is the label of the following row, not a section.
+
+On the corpus, all 17 header/article combinations come out right (for example Eiffelturm: Basisdaten, Turmdaten, Daten zur Sendeanlage; Wasser: Allgemeines, Eigenschaften, Sicherheitshinweise).
+
+### Limits
+
+- A caption with a colon is split like any other single-cell row. None occurs in the corpus.
+- A header with a colon or more than 8 words is not recognised. Rows below it get the previous header.
+- Nested infoboxes (FC Bayern's second team) are separate templates; each uses its own template name, and its title row is not a header.
