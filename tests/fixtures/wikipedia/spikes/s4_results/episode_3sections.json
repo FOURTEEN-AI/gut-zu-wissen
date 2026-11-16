@@ -1,0 +1,295 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "sections": 3,
+  "max_chars": 8000,
+  "total_seconds": 965.6,
+  "total_usd": 0.2192,
+  "joined_lufs": -16.0,
+  "wer_joined": 0.082,
+  "inner_variation": {
+    "window_lufs_std": 0.6,
+    "window_lena_f0_std_semitones": 0.66,
+    "window_felix_f0_std_semitones": 1.18
+  },
+  "seams": [
+    {
+      "between": [
+        0,
+        1
+      ],
+      "lufs_step": 0.7,
+      "lena_semitones": -0.71,
+      "felix_semitones": 1.04,
+      "rate_change_percent": 0.1,
+      "lufs_step_edge_windows": 0.7
+    },
+    {
+      "between": [
+        1,
+        2
+      ],
+      "lufs_step": 0.0,
+      "lena_semitones": 0.43,
+      "felix_semitones": -0.13,
+      "rate_change_percent": -4.2,
+      "lufs_step_edge_windows": -0.2
+    }
+  ],
+  "rows": [
+    {
+      "section": 0,
+      "chars": 5422,
+      "seconds_audio": 315.5,
+      "output_tokens": 7888,
+      "request_seconds": 45.2,
+      "usd": 0.0717,
+      "lufs": -20.5,
+      "f0_lena_hz": 188.8,
+      "f0_felix_hz": 110.3,
+      "level_difference_db": 3.2,
+      "chars_per_second": 17.18,
+      "lead_trail_silence_s": [
+        0.23,
+        0.23
+      ],
+      "windows": [
+        {
+          "t": 0,
+          "lufs": -20.5,
+          "f0_low": 121.6,
+          "f0_high": 210.2
+        },
+        {
+          "t": 30,
+          "lufs": -20.2,
+          "f0_low": 114.6,
+          "f0_high": 186.1
+        },
+        {
+          "t": 60,
+          "lufs": -19.7,
+          "f0_low": 105.8,
+          "f0_high": 200.0
+        },
+        {
+          "t": 90,
+          "lufs": -20.4,
+          "f0_low": 111.1,
+          "f0_high": 178.7
+        },
+        {
+          "t": 120,
+          "lufs": -20.2,
+          "f0_low": 108.0,
+          "f0_high": 185.8
+        },
+        {
+          "t": 150,
+          "lufs": -20.1,
+          "f0_low": 113.7,
+          "f0_high": 184.3
+        },
+        {
+          "t": 180,
+          "lufs": -21.0,
+          "f0_low": 117.9,
+          "f0_high": 188.0
+        },
+        {
+          "t": 210,
+          "lufs": -21.2,
+          "f0_low": 119.1,
+          "f0_high": 197.0
+        },
+        {
+          "t": 240,
+          "lufs": -21.2,
+          "f0_low": 105.1,
+          "f0_high": 180.3
+        },
+        {
+          "t": 270,
+          "lufs": -20.3,
+          "f0_low": 107.1,
+          "f0_high": 187.4
+        },
+        {
+          "t": 300,
+          "lufs": -20.8,
+          "f0_low": 99.5,
+          "f0_high": 177.1
+        }
+      ]
+    },
+    {
+      "section": 1,
+      "chars": 5491,
+      "seconds_audio": 319.4,
+      "output_tokens": 7984,
+      "request_seconds": 36.6,
+      "usd": 0.0726,
+      "lufs": -19.8,
+      "f0_lena_hz": 181.2,
+      "f0_felix_hz": 117.1,
+      "level_difference_db": 3.6,
+      "chars_per_second": 17.19,
+      "lead_trail_silence_s": [
+        0.22,
+        0.78
+      ],
+      "windows": [
+        {
+          "t": 0,
+          "lufs": -19.7,
+          "f0_low": 118.3,
+          "f0_high": 186.9
+        },
+        {
+          "t": 30,
+          "lufs": -20.1,
+          "f0_low": 123.2,
+          "f0_high": 180.5
+        },
+        {
+          "t": 60,
+          "lufs": -19.8,
+          "f0_low": 114.6,
+          "f0_high": 182.9
+        },
+        {
+          "t": 90,
+          "lufs": -20.7,
+          "f0_low": 107.7,
+          "f0_high": 179.0
+        },
+        {
+          "t": 120,
+          "lufs": -19.9,
+          "f0_low": 114.4,
+          "f0_high": 182.7
+        },
+        {
+          "t": 150,
+          "lufs": -19.6,
+          "f0_low": 128.0,
+          "f0_high": 184.5
+        },
+        {
+          "t": 180,
+          "lufs": -19.8,
+          "f0_low": 120.0,
+          "f0_high": 176.0
+        },
+        {
+          "t": 210,
+          "lufs": -20.4,
+          "f0_low": 116.9,
+          "f0_high": 180.7
+        },
+        {
+          "t": 240,
+          "lufs": -19.2,
+          "f0_low": 123.6,
+          "f0_high": 172.7
+        },
+        {
+          "t": 270,
+          "lufs": -19.2,
+          "f0_low": 109.8,
+          "f0_high": 185.5
+        },
+        {
+          "t": 300,
+          "lufs": -19.3,
+          "f0_low": 119.1,
+          "f0_high": 181.7
+        }
+      ]
+    },
+    {
+      "section": 2,
+      "chars": 5428,
+      "seconds_audio": 329.8,
+      "output_tokens": 8244,
+      "request_seconds": 42.1,
+      "usd": 0.0749,
+      "lufs": -19.8,
+      "f0_lena_hz": 185.8,
+      "f0_felix_hz": 116.2,
+      "level_difference_db": 3.7,
+      "chars_per_second": 16.46,
+      "lead_trail_silence_s": [
+        0.2,
+        0.31
+      ],
+      "windows": [
+        {
+          "t": 0,
+          "lufs": -19.0,
+          "f0_low": 107.2,
+          "f0_high": 187.1
+        },
+        {
+          "t": 30,
+          "lufs": -19.9,
+          "f0_low": 129.5,
+          "f0_high": 187.2
+        },
+        {
+          "t": 60,
+          "lufs": -20.4,
+          "f0_low": 113.0,
+          "f0_high": 181.3
+        },
+        {
+          "t": 90,
+          "lufs": -20.1,
+          "f0_low": 120.2,
+          "f0_high": 185.4
+        },
+        {
+          "t": 120,
+          "lufs": -18.9,
+          "f0_low": 102.4,
+          "f0_high": 190.9
+        },
+        {
+          "t": 150,
+          "lufs": -20.1,
+          "f0_low": 121.2,
+          "f0_high": 187.1
+        },
+        {
+          "t": 180,
+          "lufs": -19.5,
+          "f0_low": 106.9,
+          "f0_high": 190.7
+        },
+        {
+          "t": 210,
+          "lufs": -20.3,
+          "f0_low": 123.9,
+          "f0_high": 179.9
+        },
+        {
+          "t": 240,
+          "lufs": -20.2,
+          "f0_low": 130.5,
+          "f0_high": 176.8
+        },
+        {
+          "t": 270,
+          "lufs": -20.9,
+          "f0_low": 106.6,
+          "f0_high": 190.7
+        },
+        {
+          "t": 300,
+          "lufs": -19.3,
+          "f0_low": 114.4,
+          "f0_high": 186.2
+        }
+      ]
+    }
+  ]
+}

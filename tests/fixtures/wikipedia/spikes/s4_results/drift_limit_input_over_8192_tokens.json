@@ -1,0 +1,339 @@
+{
+  "file": "limit_input_over_8192_tokens.wav",
+  "minutes": 36,
+  "lufs_per_10min": -0.01,
+  "lena_semitones_per_10min": -0.13,
+  "felix_semitones_per_10min": 0.02,
+  "level_difference_db_per_10min": -0.06,
+  "lufs_range": [
+    -21.3,
+    -18.9
+  ],
+  "first_5_vs_last_5_lufs": -0.1,
+  "rows": [
+    {
+      "minute": 0,
+      "lufs": -20.5,
+      "lena_f0": 191.0,
+      "felix_f0": 112.7,
+      "lena_spread": 3.24,
+      "felix_spread": 3.8,
+      "level_difference_db": 3.7
+    },
+    {
+      "minute": 1,
+      "lufs": -20.6,
+      "lena_f0": 190.2,
+      "felix_f0": 115.8,
+      "lena_spread": 3.52,
+      "felix_spread": 3.99,
+      "level_difference_db": 3.7
+    },
+    {
+      "minute": 2,
+      "lufs": -21.3,
+      "lena_f0": 184.6,
+      "felix_f0": 128.9,
+      "lena_spread": 3.26,
+      "felix_spread": 3.39,
+      "level_difference_db": 2.4
+    },
+    {
+      "minute": 3,
+      "lufs": -20.4,
+      "lena_f0": 193.7,
+      "felix_f0": 121.8,
+      "lena_spread": 3.63,
+      "felix_spread": 3.85,
+      "level_difference_db": 3.9
+    },
+    {
+      "minute": 4,
+      "lufs": -20.8,
+      "lena_f0": 188.8,
+      "felix_f0": 113.4,
+      "lena_spread": 3.59,
+      "felix_spread": 3.76,
+      "level_difference_db": 3.3
+    },
+    {
+      "minute": 5,
+      "lufs": -20.2,
+      "lena_f0": 198.2,
+      "felix_f0": 111.2,
+      "lena_spread": 3.33,
+      "felix_spread": 4.07,
+      "level_difference_db": 2.9
+    },
+    {
+      "minute": 6,
+      "lufs": -18.9,
+      "lena_f0": 191.3,
+      "felix_f0": 116.9,
+      "lena_spread": 3.11,
+      "felix_spread": 3.75,
+      "level_difference_db": 3.6
+    },
+    {
+      "minute": 7,
+      "lufs": -19.6,
+      "lena_f0": 195.2,
+      "felix_f0": 119.4,
+      "lena_spread": 3.2,
+      "felix_spread": 3.97,
+      "level_difference_db": 3.7
+    },
+    {
+      "minute": 8,
+      "lufs": -20.2,
+      "lena_f0": 188.1,
+      "felix_f0": 103.5,
+      "lena_spread": 3.46,
+      "felix_spread": 3.83,
+      "level_difference_db": 2.8
+    },
+    {
+      "minute": 9,
+      "lufs": -20.0,
+      "lena_f0": 198.9,
+      "felix_f0": 108.0,
+      "lena_spread": 3.26,
+      "felix_spread": 3.95,
+      "level_difference_db": 2.7
+    },
+    {
+      "minute": 10,
+      "lufs": -19.0,
+      "lena_f0": 191.5,
+      "felix_f0": 121.7,
+      "lena_spread": 3.13,
+      "felix_spread": 3.8,
+      "level_difference_db": 3.8
+    },
+    {
+      "minute": 11,
+      "lufs": -19.6,
+      "lena_f0": 194.8,
+      "felix_f0": 111.6,
+      "lena_spread": 3.22,
+      "felix_spread": 4.04,
+      "level_difference_db": 3.2
+    },
+    {
+      "minute": 12,
+      "lufs": -20.5,
+      "lena_f0": 189.9,
+      "felix_f0": 107.1,
+      "lena_spread": 3.39,
+      "felix_spread": 3.66,
+      "level_difference_db": 2.9
+    },
+    {
+      "minute": 13,
+      "lufs": -20.8,
+      "lena_f0": 184.4,
+      "felix_f0": 130.3,
+      "lena_spread": 3.35,
+      "felix_spread": 3.48,
+      "level_difference_db": 3.6
+    },
+    {
+      "minute": 14,
+      "lufs": -20.8,
+      "lena_f0": 188.7,
+      "felix_f0": 108.9,
+      "lena_spread": 3.46,
+      "felix_spread": 3.74,
+      "level_difference_db": 2.3
+    },
+    {
+      "minute": 15,
+      "lufs": -19.7,
+      "lena_f0": 197.4,
+      "felix_f0": 109.3,
+      "lena_spread": 3.28,
+      "felix_spread": 4.03,
+      "level_difference_db": 2.8
+    },
+    {
+      "minute": 16,
+      "lufs": -19.1,
+      "lena_f0": 192.9,
+      "felix_f0": 123.5,
+      "lena_spread": 3.18,
+      "felix_spread": 3.53,
+      "level_difference_db": 4.2
+    },
+    {
+      "minute": 17,
+      "lufs": -20.6,
+      "lena_f0": 179.9,
+      "felix_f0": 127.9,
+      "lena_spread": 3.2,
+      "felix_spread": 3.39,
+      "level_difference_db": 3.2
+    },
+    {
+      "minute": 18,
+      "lufs": -20.9,
+      "lena_f0": 193.3,
+      "felix_f0": 104.5,
+      "lena_spread": 3.57,
+      "felix_spread": 3.73,
+      "level_difference_db": 2.8
+    },
+    {
+      "minute": 19,
+      "lufs": -20.8,
+      "lena_f0": 180.5,
+      "felix_f0": 128.9,
+      "lena_spread": 3.19,
+      "felix_spread": 3.3,
+      "level_difference_db": 3.1
+    },
+    {
+      "minute": 20,
+      "lufs": -20.8,
+      "lena_f0": 193.3,
+      "felix_f0": 106.8,
+      "lena_spread": 3.46,
+      "felix_spread": 3.75,
+      "level_difference_db": 2.7
+    },
+    {
+      "minute": 21,
+      "lufs": -20.7,
+      "lena_f0": 180.5,
+      "felix_f0": 127.8,
+      "lena_spread": 3.38,
+      "felix_spread": 3.38,
+      "level_difference_db": 3.3
+    },
+    {
+      "minute": 22,
+      "lufs": -21.1,
+      "lena_f0": 191.3,
+      "felix_f0": 105.7,
+      "lena_spread": 3.49,
+      "felix_spread": 3.78,
+      "level_difference_db": 2.6
+    },
+    {
+      "minute": 23,
+      "lufs": -20.4,
+      "lena_f0": 180.7,
+      "felix_f0": 126.8,
+      "lena_spread": 3.16,
+      "felix_spread": 3.45,
+      "level_difference_db": 3.4
+    },
+    {
+      "minute": 24,
+      "lufs": -19.3,
+      "lena_f0": 191.5,
+      "felix_f0": 123.3,
+      "lena_spread": 3.15,
+      "felix_spread": 3.56,
+      "level_difference_db": 3.9
+    },
+    {
+      "minute": 25,
+      "lufs": -19.2,
+      "lena_f0": 193.1,
+      "felix_f0": 110.8,
+      "lena_spread": 3.12,
+      "felix_spread": 4.04,
+      "level_difference_db": 3.2
+    },
+    {
+      "minute": 26,
+      "lufs": -19.4,
+      "lena_f0": 194.3,
+      "felix_f0": 121.0,
+      "lena_spread": 3.21,
+      "felix_spread": 3.55,
+      "level_difference_db": 3.9
+    },
+    {
+      "minute": 27,
+      "lufs": -19.1,
+      "lena_f0": 194.0,
+      "felix_f0": 111.0,
+      "lena_spread": 3.11,
+      "felix_spread": 4.15,
+      "level_difference_db": 3.2
+    },
+    {
+      "minute": 28,
+      "lufs": -19.3,
+      "lena_f0": 193.7,
+      "felix_f0": 121.0,
+      "lena_spread": 3.12,
+      "felix_spread": 3.58,
+      "level_difference_db": 3.9
+    },
+    {
+      "minute": 29,
+      "lufs": -19.6,
+      "lena_f0": 192.8,
+      "felix_f0": 108.7,
+      "lena_spread": 3.36,
+      "felix_spread": 4.1,
+      "level_difference_db": 3.2
+    },
+    {
+      "minute": 30,
+      "lufs": -20.6,
+      "lena_f0": 190.0,
+      "felix_f0": 110.2,
+      "lena_spread": 3.33,
+      "felix_spread": 3.78,
+      "level_difference_db": 2.9
+    },
+    {
+      "minute": 31,
+      "lufs": -21.2,
+      "lena_f0": 180.5,
+      "felix_f0": 125.9,
+      "lena_spread": 3.46,
+      "felix_spread": 3.57,
+      "level_difference_db": 3.0
+    },
+    {
+      "minute": 32,
+      "lufs": -20.5,
+      "lena_f0": 190.1,
+      "felix_f0": 106.9,
+      "lena_spread": 3.34,
+      "felix_spread": 3.84,
+      "level_difference_db": 2.9
+    },
+    {
+      "minute": 33,
+      "lufs": -21.1,
+      "lena_f0": 182.8,
+      "felix_f0": 126.5,
+      "lena_spread": 3.48,
+      "felix_spread": 3.49,
+      "level_difference_db": 3.0
+    },
+    {
+      "minute": 34,
+      "lufs": -20.9,
+      "lena_f0": 190.5,
+      "felix_f0": 104.4,
+      "lena_spread": 3.47,
+      "felix_spread": 3.86,
+      "level_difference_db": 2.5
+    },
+    {
+      "minute": 35,
+      "lufs": -20.3,
+      "lena_f0": 178.7,
+      "felix_f0": 124.0,
+      "lena_spread": 3.78,
+      "felix_spread": 3.99,
+      "level_difference_db": 3.3
+    }
+  ]
+}

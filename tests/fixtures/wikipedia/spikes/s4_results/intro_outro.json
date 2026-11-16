@@ -1,0 +1,35 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "episode_lena_hz": 185.26666666666665,
+  "episode_felix_hz": 114.53333333333332,
+  "rows": [
+    {
+      "part": "intro",
+      "seconds_audio": 8.1,
+      "lufs": -19.4,
+      "wer": 0.364,
+      "lena_semitones_vs_episode": 0.67,
+      "felix_semitones_vs_episode": -2.38,
+      "level_difference_db": 1.4,
+      "lead_trail_silence_s": [
+        0.25,
+        0.15
+      ],
+      "usd": 0.0018
+    },
+    {
+      "part": "outro",
+      "seconds_audio": 33.7,
+      "lufs": -18.9,
+      "wer": 0.052,
+      "lena_semitones_vs_episode": 0.05,
+      "felix_semitones_vs_episode": 1.23,
+      "level_difference_db": 1.8,
+      "lead_trail_silence_s": [
+        0.2,
+        0.22
+      ],
+      "usd": 0.0077
+    }
+  ]
+}
