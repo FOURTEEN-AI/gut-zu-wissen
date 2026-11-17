@@ -217,20 +217,31 @@ def wer(ref: str, hyp: str) -> float:
 _whisper = None
 
 
-def transcribe(y: np.ndarray, size: str = "small") -> str:
+WHISPER_SR = 16_000
+
+
+def transcribe(
+    y: np.ndarray, size: str = "small", vad: bool = True, previous_text: bool = False
+) -> str:
+    """Transcribe 24 kHz audio. faster-whisper reads a raw array as 16 kHz, so resample first
+    (the first version of this spike skipped that and Whisper heard everything 1.5x too fast)."""
     global _whisper
     from faster_whisper import WhisperModel
+    from scipy.signal import resample_poly
+
+    y = resample_poly(y, WHISPER_SR // 1000, SR // 1000).astype(np.float32)
 
     if _whisper is None:
-        _whisper = WhisperModel(size, device="cpu", compute_type="int8")
+        threads = int(os.environ.get("S4_WHISPER_THREADS", "0"))  # 0 = all cores
+        _whisper = WhisperModel(size, device="cpu", compute_type="int8", cpu_threads=threads)
     # Plain defaults hallucinate repeated text after the speech ends (seen in this spike):
     # VAD and no conditioning on previous text avoid most of it.
     segs, _ = _whisper.transcribe(
-        y.astype(np.float32),
+        y,
         language="de",
         beam_size=5,
-        vad_filter=True,
-        condition_on_previous_text=False,
+        vad_filter=vad,
+        condition_on_previous_text=previous_text,
     )
     return " ".join(s.text.strip() for s in segs)
 
@@ -769,10 +780,82 @@ def exp_fixed(out: Path | None, lena: str, felix: str, model: str) -> None:
     )
 
 
+def exp_retranscribe(wavdir: Path) -> None:
+    """Re-measure every stored WER from the saved audio after the 16 kHz fix. No API calls."""
+    script = load_script()
+    dialog = " ".join(t for _, t in dialog_turns(script))
+
+    def wav_wer(name: str, ref: str) -> tuple[float, str]:
+        y = to_array((wavdir / name).read_bytes())
+        hyp = transcribe(y)
+        return round(wer(ref, hyp), 3), hyp
+
+    def update(file: str, fn) -> None:
+        path = RESULTS / file
+        data = json.loads(path.read_text())
+        fn(data)
+        data["wer_note"] = "re-measured after resampling to 16 kHz; old values in wer_24khz_bug"
+        path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
+        print("updated", file, flush=True)
+
+    def keep(row: dict, key: str = "wer") -> None:
+        row["wer_24khz_bug"] = row.get(key)
+
+    def voices(d: dict) -> None:
+        for r in d["rows"]:
+            if "error" in r:
+                continue
+            keep(r)
+            r["wer"], r["hyp"] = wav_wer(f"voice_{r['voice']}.wav", SAMPLE_TEXT)
+
+    def pairs(d: dict) -> None:
+        for r in d["rows"]:
+            if "error" not in r:
+                keep(r)
+                r["wer"], _ = wav_wer(f"pair_{r['pair']}.wav", dialog)
+
+    def models(d: dict) -> None:
+        for r in d["rows"]:
+            if "error" not in r:
+                keep(r)
+                r["wer"], _ = wav_wer(f"models_{r['variant']}_{r['rep']}.wav", dialog)
+
+    def limit(d: dict) -> None:
+        chars = {"about_11_min": 11_500, "about_14_min": 15_000, "input_over_8192_tokens": 36_000}
+        for r in d["rows"]:
+            if r.get("status") == 200:
+                keep(r)
+                text = " ".join(t for _, t in episode_turns(script, chars[r["case"]]))
+                r["wer"], hyp = wav_wer(f"limit_{r['case']}.wav", text)
+                r["last_words_hyp"] = " ".join(hyp.split()[-8:])
+
+    def episode(d: dict) -> None:
+        keep(d, "wer_joined")
+        text = " ".join(t for _, t in episode_turns(script, 15_000))
+        d["wer_joined"], _ = wav_wer("episode_3sec_joined.wav", text)
+
+    def fixed(d: dict) -> None:
+        for r in d["rows"]:
+            keep(r)
+            text = " ".join(t for _, t in script[r["part"]])
+            r["wer"], r["hyp"] = wav_wer(f"fixed_{r['part']}.wav", text)
+
+    for file, fn in (
+        ("voices.json", voices),
+        ("pairs.json", pairs),
+        ("models.json", models),
+        ("intro_outro.json", fixed),
+        ("episode_3sections.json", episode),
+        ("limit.json", limit),
+    ):
+        update(file, fn)
+
+
 def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument(
-        "experiment", choices=["voices", "pairs", "models", "limit", "episode", "drift", "fixed"]
+        "experiment",
+        choices=["voices", "pairs", "models", "limit", "episode", "drift", "fixed", "retranscribe"],
     )
     p.add_argument("--out", type=Path)
     p.add_argument("--lena", default="")
@@ -787,6 +870,8 @@ def main() -> None:
         exp_pairs(a.out)
     elif a.experiment == "models":
         exp_models(a.out, a.lena, a.felix)
+    elif a.experiment == "retranscribe":
+        exp_retranscribe(a.out)
     elif a.experiment == "fixed":
         exp_fixed(a.out, a.lena, a.felix, a.model)
     elif a.experiment == "drift":

@@ -9,6 +9,8 @@
 - **Seams:** the measured differences at a seam are within the normal variation inside a section.
 - **Limits:** the API's documented size limits are not enforced. A whole episode fits in one call, but I recommend keeping sections for cheap retries.
 
+**Correction (2026-11-17): all WER numbers in this report are wrong.** My transcription passed Gemini's 24 kHz audio to Whisper, which reads a raw array as 16 kHz, so Whisper heard everything 1.5× too fast. Example: the intro scored WER 0.364 and lost its first sentence; at the correct rate it scores 0.045 and is complete. The WER values below are being re-measured from the saved audio (`spikes/s4_gemini.py retranscribe`). **Not affected:** pitch, loudness, level gaps, token counts, durations, costs, and the limit, drift and seam results; none of them use Whisper. What the WER was used for (voice and model choice) rests mainly on pitch, profile and cost, and the WER differences were not significant; I will confirm after the re-measurement.
+
 **What I could not verify.** I can't listen. Everything below is a measurement: Whisper word error rate (intelligibility), Praat pitch, pyloudnorm loudness, token usage. Naturalness, pleasantness, German pronunciation of names and the audibility of a seam to a human ear are **not measured**. Three samples were sent with this report; please listen before treating the voice choice as final.
 
 Code: [spikes/s4_gemini.py](../../spikes/s4_gemini.py). Test dialog (Eiffelturm facts): [s4_script.json](../../tests/fixtures/wikipedia/spikes/s4_script.json). Results: [tests/fixtures/wikipedia/spikes/s4_results/](../../tests/fixtures/wikipedia/spikes/s4_results/). Audio is not committed (the archive holds audio only in the published form). Total cost of the spike: about $1.50 (the 35-minute probe alone was about $0.48).
@@ -30,7 +32,7 @@ Code: [spikes/s4_gemini.py](../../spikes/s4_gemini.py). Test dialog (Eiffelturm 
 29 candidates (14 for Lena, 15 for Felix), each synthesised on the same German text and measured ([voices.json](../../tests/fixtures/wikipedia/spikes/s4_results/voices.json)). Selection by the persona profile (Lena: female, medium pitch, calm, clear; Felix: male, more energy, clearly distinguishable).
 
 - **Intelligibility:** 28 of 29 voices have WER ≤ 0.06 on the sample. This does not separate the candidates.
-- **First attempt was misleading.** An earlier run gave WER up to 1.4 for some voices. That was Whisper hallucinating repeated text (see findings below), not the voices. The numbers above use VAD and no conditioning on previous text.
+- **WER up to 1.4 in the first run** (`tutor-4`) came from the sample-rate bug, not from the voice: at the correct rate `tutor-4` scores 0.02. See the correction above.
 
 Four pairs were then tested in the full dialog ([pairs.json](../../tests/fixtures/wikipedia/spikes/s4_results/pairs.json)):
 
@@ -94,12 +96,12 @@ Joined and loudness-normalised, the whole episode has WER 0.082, no worse than t
 
 ## Fixed intro and outro
 
-Synthesised once with the same voices ([intro_outro.json](../../tests/fixtures/wikipedia/spikes/s4_results/intro_outro.json)). Outro (34 s): Lena +0.05 and Felix +1.23 semitones against the episode, WER 0.052. The intro (8 s) has only about 3 s of Felix's voice, so its pitch figure (−2.4 semitones) is not reliable. The audio contains the greeting; Whisper dropped it (below). Intro and outro are not part of the STT loop in the design, so this has no consequence there.
+Synthesised once with the same voices ([intro_outro.json](../../tests/fixtures/wikipedia/spikes/s4_results/intro_outro.json)). Outro (34 s): Lena +0.05 and Felix +1.23 semitones against the episode, WER 0.052. The intro (8 s) has only about 3 s of Felix's voice, so its pitch figure (−2.4 semitones) is not reliable. The audio contains the greeting; the transcript made with the bug lacked it, and at the correct rate it is complete (WER 0.045). Intro and outro are not part of the STT loop in the design, so this has no consequence there.
 
 ## Findings for later steps
 
 - **Loudness (step 9):** the output is about −20 LUFS with peaks around −1 dBFS. Normalising to the proposed **−16 LUFS needs +4 dB, which pushes peaks to about +3 dBFS**. A plain gain change clipped 6,963 samples in the joined episode (0.03 %). Without a limiter the loudest possible level is about −20 LUFS. Step 9 needs a true-peak limiter (for example ffmpeg `loudnorm=I=-16:TP=-1.5`, preinstalled on GitHub runners, not in the dev container), or a lower target. The −16 LUFS value is still marked "proposal, not yet decided" in the config.
-- **Whisper (step 10 and S5):** with default settings Whisper small appended repeated or invented text after the speech ("Untertitel im Auftrag des ZDF", looping sentences), which inflated WER up to 1.4. `vad_filter=True` and `condition_on_previous_text=False` remove this. Remaining behaviour to plan for: foreign proper nouns are misheard ("Champ de Mars" as "Chendumas", SETE as "SETI"), numbers come back as digits while the script spells them, and the voice-activity filter dropped a short first sentence. The step 10 normalisation and LLM decision need to treat these as non-findings. Whisper speed was **not** measured properly here (the machine was busy with other work); S5 does that.
+- **Whisper (step 10 and S5):** retracted. I had reported that Whisper hallucinates repeated text after the speech, drops short first sentences and garbles foreign names, and recommended VAD settings. These observations came from the sample-rate bug. At the correct rate, default and VAD settings give identical results on the three voices I re-tested. Not yet re-checked: numbers (Whisper writes digits, the script spells them out) and foreign names such as SETE; step 10's normalisation has to handle both anyway. Whisper speed was **not** measured here; S5 does that.
 - **Rate limit:** the TTS client must read `Please retry in Ns` from a `429` and wait. TTS error handling is otherwise not covered by the design table; observed: `429 too_many_requests`; not observed: all other codes.
 
 ## Config changes (applied)
