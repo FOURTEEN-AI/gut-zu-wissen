@@ -7,7 +7,7 @@
       "part": "intro",
       "seconds_audio": 8.1,
       "lufs": -19.4,
-      "wer": 0.364,
+      "wer": 0.045,
       "lena_semitones_vs_episode": 0.67,
       "felix_semitones_vs_episode": -2.38,
       "level_difference_db": 1.4,
@@ -15,13 +15,15 @@
         0.25,
         0.15
       ],
-      "usd": 0.0018
+      "usd": 0.0018,
+      "wer_24khz_bug": 0.364,
+      "hyp": "Hallo und willkommen bei Gut zu Wissen. In jeder Folge nehmen wir uns ein Wikipedia-Artikel vor und präsentieren euch die interessantesten Fakten."
     },
     {
       "part": "outro",
       "seconds_audio": 33.7,
       "lufs": -18.9,
-      "wer": 0.052,
+      "wer": 0.031,
       "lena_semitones_vs_episode": 0.05,
       "felix_semitones_vs_episode": 1.23,
       "level_difference_db": 1.8,
@@ -29,7 +31,10 @@
         0.2,
         0.22
       ],
-      "usd": 0.0077
+      "usd": 0.0077,
+      "wer_24khz_bug": 0.052,
+      "hyp": "Das war Gut zu Wissen. Alles, was wir erzählt haben, stammt aus der deutschsprachigen Wikipedia. Die Artikel und ihrer Autorinnen und Autoren findet ihr in den Shownotes. Ein wichtiger Hinweis? Dingsefolge ist mit KI entstanden. Von der Auswahl der Fakten über das Gespräch bis zu unseren Stimmen. KI kann Fehler machen. Und die Wikipedia-Inhalte selbst sind nicht unabhängig geprüft. Wenn ihr euch auf etwas verlassen wollt, prüft es bitte nach. Gut zu wissen steht unter der Lizenz CC-BY-SA 4.0 und ist ein unabhängiges Projekt, nicht verbunden mit der Wikimedia Foundation. Bis zum nächsten Mal."
     }
-  ]
+  ],
+  "wer_note": "re-measured after resampling to 16 kHz; old values in wer_24khz_bug"
 }

@@ -14,13 +14,14 @@
       "output_tokens": 2847,
       "tokens_per_audio_second": 25.0,
       "usd": 0.02589,
-      "wer": 0.055,
+      "wer": 0.058,
       "loudness_lufs": -20.2,
       "chars_per_audio_second": 17.93,
       "level_difference_db": 3.7,
       "lena_spread": 3.31,
       "felix_spread": 4.22,
-      "f0_separation_semitones": 7.58
+      "f0_separation_semitones": 7.58,
+      "wer_24khz_bug": 0.055
     },
     {
       "variant": "gemini-3.8-flash-tts",
@@ -30,13 +31,14 @@
       "output_tokens": 3143,
       "tokens_per_audio_second": 25.0,
       "usd": 0.02855,
-      "wer": 0.091,
+      "wer": 0.076,
       "loudness_lufs": -21.1,
       "chars_per_audio_second": 16.24,
       "level_difference_db": 3.3,
       "lena_spread": 3.86,
       "felix_spread": 3.8,
-      "f0_separation_semitones": 8.52
+      "f0_separation_semitones": 8.52,
+      "wer_24khz_bug": 0.091
     },
     {
       "variant": "gemini-3.8-flash-lite-tts",
@@ -46,13 +48,14 @@
       "output_tokens": 2986,
       "tokens_per_audio_second": 25.0,
       "usd": 0.01818,
-      "wer": 0.102,
+      "wer": 0.065,
       "loudness_lufs": -20.1,
       "chars_per_audio_second": 17.1,
       "level_difference_db": 3.3,
       "lena_spread": 3.36,
       "felix_spread": 3.65,
-      "f0_separation_semitones": 8.6
+      "f0_separation_semitones": 8.6,
+      "wer_24khz_bug": 0.102
     },
     {
       "variant": "gemini-3.8-flash-lite-tts",
@@ -62,13 +65,14 @@
       "output_tokens": 2882,
       "tokens_per_audio_second": 25.0,
       "usd": 0.01756,
-      "wer": 0.062,
+      "wer": 0.051,
       "loudness_lufs": -20.1,
       "chars_per_audio_second": 17.71,
       "level_difference_db": 2.9,
       "lena_spread": 3.18,
       "felix_spread": 3.87,
-      "f0_separation_semitones": 8.13
+      "f0_separation_semitones": 8.13,
+      "wer_24khz_bug": 0.062
     },
     {
       "variant": "gemini-3.8-flash-lite-tts+style",
@@ -78,13 +82,14 @@
       "output_tokens": 3157,
       "tokens_per_audio_second": 25.0,
       "usd": 0.01921,
-      "wer": 0.065,
+      "wer": 0.062,
       "loudness_lufs": -19.7,
       "chars_per_audio_second": 16.17,
       "level_difference_db": 3.1,
       "lena_spread": 3.62,
       "felix_spread": 3.89,
-      "f0_separation_semitones": 8.04
+      "f0_separation_semitones": 8.04,
+      "wer_24khz_bug": 0.065
     },
     {
       "variant": "gemini-3.8-flash-lite-tts+style",
@@ -94,13 +99,15 @@
       "output_tokens": 3098,
       "tokens_per_audio_second": 25.0,
       "usd": 0.01885,
-      "wer": 0.08,
+      "wer": 0.091,
       "loudness_lufs": -19.6,
       "chars_per_audio_second": 16.48,
       "level_difference_db": 3.1,
       "lena_spread": 3.39,
       "felix_spread": 3.76,
-      "f0_separation_semitones": 8.54
+      "f0_separation_semitones": 8.54,
+      "wer_24khz_bug": 0.08
     }
-  ]
+  ],
+  "wer_note": "re-measured after resampling to 16 kHz; old values in wer_24khz_bug"
 }

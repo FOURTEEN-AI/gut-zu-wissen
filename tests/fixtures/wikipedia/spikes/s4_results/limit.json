@@ -30,9 +30,10 @@
       "finish": "completed",
       "seconds_audio": 721.4,
       "chars_per_audio_second": 16.99,
-      "wer": 0.084,
+      "wer": 0.06,
       "last_words_ref": "Société d’exploitation de la tour Eiffel, kurz SETE.",
-      "last_words_hyp": "Société d'exploitation de la Tour Eiffel, Kurz SETI."
+      "last_words_hyp": "Société d'Exploitation de la Tour Eiffel, kurz SETI.",
+      "wer_24khz_bug": 0.084
     },
     {
       "case": "about_14_min",
@@ -63,9 +64,10 @@
       "finish": "completed",
       "seconds_audio": 965.0,
       "chars_per_audio_second": 16.94,
-      "wer": 0.077,
+      "wer": 0.066,
       "last_words_ref": "Société d’exploitation de la tour Eiffel, kurz SETE.",
-      "last_words_hyp": "ist die Société d'Exploration Undelature Fell, kurz S-E-T-I."
+      "last_words_hyp": "die Société d'Exploitation de la Tourefel, kurz SETE.",
+      "wer_24khz_bug": 0.077
     },
     {
       "case": "input_over_8192_tokens",
@@ -96,9 +98,11 @@
       "finish": "completed",
       "seconds_audio": 2131.8,
       "chars_per_audio_second": 17.25,
-      "wer": 0.086,
+      "wer": 0.072,
       "last_words_ref": "Société d’exploitation de la tour Eiffel, kurz SETE.",
-      "last_words_hyp": "die Société d'Exploitation de la Tourefel, kurz SETE."
+      "last_words_hyp": "die Société d'Exploitation de la Tourefel, kurz SETE.",
+      "wer_24khz_bug": 0.086
     }
-  ]
+  ],
+  "wer_note": "re-measured after resampling to 16 kHz; old values in wer_24khz_bug"
 }

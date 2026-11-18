@@ -10,12 +10,13 @@
       "f0_median_hz": 180.8,
       "f0_spread_semitones": 4.62,
       "loudness_lufs": -18.5,
-      "wer": 0.02,
+      "wer": 0.0,
       "lead_trail_silence_s": [
         0.28,
         0.51
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbauen nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.02
     },
     {
       "role": "lena",
@@ -25,12 +26,13 @@
       "f0_median_hz": 175.7,
       "f0_spread_semitones": 3.62,
       "loudness_lufs": -19.1,
-      "wer": 0.02,
+      "wer": 0.0,
       "lead_trail_silence_s": [
         0.25,
         0.25
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt. Danke."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.02
     },
     {
       "role": "lena",
@@ -45,7 +47,8 @@
         0.24,
         0.28
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage, der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.0
     },
     {
       "role": "lena",
@@ -60,7 +63,8 @@
         0.26,
         0.38
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.0
     },
     {
       "role": "lena",
@@ -75,7 +79,8 @@
         0.25,
         0.32
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.0
     },
     {
       "role": "lena",
@@ -90,7 +95,8 @@
         0.29,
         0.33
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.0
     },
     {
       "role": "lena",
@@ -105,7 +111,8 @@
         0.29,
         0.25
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.0
     },
     {
       "role": "lena",
@@ -120,7 +127,8 @@
         0.08,
         0.29
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.0
     },
     {
       "role": "lena",
@@ -135,7 +143,8 @@
         0.2,
         0.32
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.0
     },
     {
       "role": "lena",
@@ -150,7 +159,8 @@
         0.25,
         0.3
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören, das Gericht erlaubte den Weiterbau nur mit einer Auflage, der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.0
     },
     {
       "role": "lena",
@@ -160,12 +170,13 @@
       "f0_median_hz": 165.1,
       "f0_spread_semitones": 4.39,
       "loudness_lufs": -20.7,
-      "wer": 0.137,
+      "wer": 0.0,
       "lead_trail_silence_s": [
         0.19,
         0.24
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt. Untertitel im Auftrag des ZDF für funk, 2017"
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.137
     },
     {
       "role": "lena",
@@ -175,12 +186,13 @@
       "f0_median_hz": 180.2,
       "f0_spread_semitones": 4.65,
       "loudness_lufs": -16.9,
-      "wer": 0.059,
+      "wer": 0.0,
       "lead_trail_silence_s": [
         0.14,
         0.27
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt. Das war's."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.059
     },
     {
       "role": "felix",
@@ -195,7 +207,8 @@
         0.29,
         0.36
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.0
     },
     {
       "role": "felix",
@@ -210,7 +223,8 @@
         0.23,
         0.28
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.0
     },
     {
       "role": "felix",
@@ -225,7 +239,8 @@
         0.22,
         0.32
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage, der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Auslugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugstil der ganzen Stadt.",
+      "wer_24khz_bug": 0.02
     },
     {
       "role": "felix",
@@ -240,7 +255,8 @@
         0.33,
         0.33
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.0
     },
     {
       "role": "felix",
@@ -255,7 +271,8 @@
         0.26,
         0.35
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.0
     },
     {
       "role": "felix",
@@ -270,7 +287,8 @@
         0.26,
         0.37
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste beim möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste beim möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.02
     },
     {
       "role": "felix",
@@ -285,7 +303,8 @@
         0.28,
         0.25
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.0
     },
     {
       "role": "felix",
@@ -300,7 +319,8 @@
         0.34,
         0.45
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.0
     },
     {
       "role": "felix",
@@ -315,7 +335,8 @@
         0.24,
         0.36
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.0
     },
     {
       "role": "felix",
@@ -325,12 +346,13 @@
       "f0_median_hz": 165.0,
       "f0_spread_semitones": 5.33,
       "loudness_lufs": -19.3,
-      "wer": 0.059,
+      "wer": 0.02,
       "lead_trail_silence_s": [
         0.34,
         0.26
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Tom könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage, der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kam? Zunächst gab es nur Ärger, aber dann wurde der Tom zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage, der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kam? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.059
     },
     {
       "role": "felix",
@@ -340,12 +362,13 @@
       "f0_median_hz": 150.0,
       "f0_spread_semitones": 5.08,
       "loudness_lufs": -17.8,
-      "wer": 0.02,
+      "wer": 0.0,
       "lead_trail_silence_s": [
         0.14,
         0.26
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt. SWR 2020"
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.02
     },
     {
       "role": "felix",
@@ -355,12 +378,13 @@
       "f0_median_hz": 117.8,
       "f0_spread_semitones": 4.12,
       "loudness_lufs": -18.1,
-      "wer": 0.02,
+      "wer": 0.0,
       "lead_trail_silence_s": [
         0.25,
         0.34
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab's nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.02
     },
     {
       "role": "lena",
@@ -375,7 +399,8 @@
         0.28,
         0.32
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.0
     },
     {
       "role": "lena",
@@ -390,7 +415,8 @@
         0.29,
         0.24
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.0
     },
     {
       "role": "felix",
@@ -400,12 +426,13 @@
       "f0_median_hz": 112.5,
       "f0_spread_semitones": 4.76,
       "loudness_lufs": -22.2,
-      "wer": 0.039,
+      "wer": 0.0,
       "lead_trail_silence_s": [
         0.01,
         0.4
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören, das Gericht erlaubte den Weiterbau nur mit einer Auflage, der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt. Auf Wiedersehen!"
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.039
     },
     {
       "role": "felix",
@@ -415,12 +442,13 @@
       "f0_median_hz": 116.9,
       "f0_spread_semitones": 4.87,
       "loudness_lufs": -19.5,
-      "wer": 0.02,
+      "wer": 0.0,
       "lead_trail_silence_s": [
         0.21,
         0.28
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste beim möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.02
     },
     {
       "role": "felix",
@@ -430,12 +458,14 @@
       "f0_median_hz": 119.5,
       "f0_spread_semitones": 5.39,
       "loudness_lufs": -20.6,
-      "wer": 0.039,
+      "wer": 0.0,
       "lead_trail_silence_s": [
         0.09,
         0.29
       ],
-      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstellen. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger, aber dann wurde der Turm zum beliebtesten Ausflugsziel in der ganzen Stadt."
+      "hyp": "Ein Anwohner hatte Angst, der Turm könnte einstürzen und sein Haus zerstören. Das Gericht erlaubte den Weiterbau nur mit einer Auflage. Der Ingenieur musste bei möglichen Schäden haften. Und was passierte, als die ersten Besucher kamen? Zunächst gab es nur Ärger. Aber dann wurde der Turm zum beliebtesten Ausflugsziel der ganzen Stadt.",
+      "wer_24khz_bug": 0.039
     }
-  ]
+  ],
+  "wer_note": "re-measured after resampling to 16 kHz; old values in wer_24khz_bug"
 }

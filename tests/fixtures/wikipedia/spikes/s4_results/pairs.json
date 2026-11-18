@@ -6,7 +6,7 @@
       "lena": "de-de-advisor-3",
       "felix": "de-de-tutor-4",
       "seconds_audio": 118.0,
-      "wer": 0.087,
+      "wer": 0.062,
       "loudness_lufs": -20.3,
       "f0_separation_semitones": 7.67,
       "level_difference_db": 2.9,
@@ -25,14 +25,15 @@
         }
       },
       "chars_per_second": 17.3,
-      "usd": 0.018
+      "usd": 0.018,
+      "wer_24khz_bug": 0.087
     },
     {
       "pair": "B_Sulafat_Puck",
       "lena": "Sulafat",
       "felix": "Puck",
       "seconds_audio": 120.8,
-      "wer": 0.047,
+      "wer": 0.051,
       "loudness_lufs": -18.5,
       "f0_separation_semitones": 8.96,
       "level_difference_db": 3.4,
@@ -51,14 +52,15 @@
         }
       },
       "chars_per_second": 16.9,
-      "usd": 0.0184
+      "usd": 0.0184,
+      "wer_24khz_bug": 0.047
     },
     {
       "pair": "C_tutor2_concierge9",
       "lena": "de-de-tutor-2",
       "felix": "de-de-concierge-9",
       "seconds_audio": 118.6,
-      "wer": 0.062,
+      "wer": 0.065,
       "loudness_lufs": -20.6,
       "f0_separation_semitones": 7.97,
       "level_difference_db": 3.5,
@@ -77,14 +79,15 @@
         }
       },
       "chars_per_second": 17.22,
-      "usd": 0.018
+      "usd": 0.018,
+      "wer_24khz_bug": 0.062
     },
     {
       "pair": "D_Despina_assistant10",
       "lena": "Despina",
       "felix": "de-de-assistant-10",
       "seconds_audio": 123.7,
-      "wer": 0.087,
+      "wer": 0.084,
       "loudness_lufs": -18.4,
       "f0_separation_semitones": 5.13,
       "level_difference_db": 2.8,
@@ -103,7 +106,9 @@
         }
       },
       "chars_per_second": 16.51,
-      "usd": 0.0188
+      "usd": 0.0188,
+      "wer_24khz_bug": 0.087
     }
-  ]
+  ],
+  "wer_note": "re-measured after resampling to 16 kHz; old values in wer_24khz_bug"
 }
