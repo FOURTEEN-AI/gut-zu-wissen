@@ -127,7 +127,9 @@ Alle Textversionen werden archiviert (inkl. STT-Transkripte und Diff-Entscheidun
 ## Audio
 
 - **Vorbereitung:** Gate prüft, dass das Skript kein Wiki-Markup enthält; Fund → Fehler des Redebeitrags (Neugenerierung).
-- **Synthese:** Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`; Multi-Speaker-Dialog mit höchstens zwei Sprechern und vordefinierten Stimmen; Ausgabelimit 16.384 Token pro Aufruf, Eingabelimit 8.192 Token). Skript (ca. 14.000–16.000 Zeichen) in Abschnitte an Redebeitrag-Grenzen geteilt, deren Audio unter dem Ausgabelimit bleibt; Audio zusammengefügt. Abschnittslänge: Spike S4.
+- **Synthese:** Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`; Multi-Speaker-Dialog mit höchstens zwei Sprechern und vordefinierten Stimmen). Skript (ca. 14.000–16.000 Zeichen) in Abschnitte an Redebeitrag-Grenzen geteilt, höchstens 6.000 Zeichen (rund sechs Minuten Audio); Audio zusammengefügt. Die dokumentierten Limits (8.192 Token Eingabe, 16.384 Token Ausgabe) werden eingehalten, die API setzt sie aber nicht durch; die Abschnitte dienen dazu, einzelne Teile günstig neu zu synthetisieren (Spike S4).
+- **Ratenlimit:** 10 Anfragen pro Minute (Tier 1). Bei `429` wartet der Client die in der Antwort genannte Zeit ab.
+- **Lautheit:** Normalisierung auf −16 LUFS mit True-Peak-Limiter (Decke −1,5 dBTP). Die Synthese liefert rund −20 LUFS; ohne Limiter würde die Verstärkung die Spitzen übersteuern.
 - **Verifikation:** Whisper lokal im Actions-Runner (Modellgröße nach Messung), Diff gegen bereinigtes Skript; vorher normalisiert (Zahlwörter, Satzzeichen, Groß-/Kleinschreibung).
 - **Abweichung:** LLM entscheidet, ob sie die Aussage ändert; nur dann Neusynthese des betroffenen Abschnitts (siehe Fehlerbehandlung).
 
@@ -195,7 +197,6 @@ Fester Text außerhalb des Dialogautors und der Persona-Regeln; einmal synthetis
 
 ## Offene Punkte
 
-- **Stimmen:** Auswahl aus den vordefinierten Gemini-Stimmen (Spike S4).
 - **Whisper:** Start mit großem Modell, Laufzeit im Runner messen; Modell im Actions-Cache.
 - **Rechtstexte:** ⚠-Platzhalter in datenschutz.md klären, juristische Prüfung empfohlen (vor Ausbaustufe 2).
 
