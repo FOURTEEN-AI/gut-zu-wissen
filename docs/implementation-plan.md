@@ -50,9 +50,9 @@ These retire the open risks before the build starts.
    - Gate failures: manual run → abort with notice.
    - Escalation: failing job plus job summary.
 9. **Markup gate**, then TTS:
-   - Sections at turn boundaries, at most `tts_section_max_chars` (6,000, spike S4); a true-peak limiter is needed for the loudness target.
+   - Sections at turn boundaries, at most `tts_section_max_chars` (6,000, spike S4).
    - Intro and outro synthesized once and committed.
-   - Concatenation and loudness normalization (proposal: −16 LUFS).
+   - Concatenation and loudness normalization to −16 LUFS (`target_loudness_lufs`) with a true-peak limiter (ceiling `true_peak_ceiling_dbtp`, −1.5 dBTP). A test checks loudness and peak ceiling of the output.
 10. **STT verification.** Normalization, diff per section, LLM decision on whether a deviation changes the statement, resynthesis of the affected section.
 11. **Explicit check (D7).** LLM judges the final script; any violence, sexuality, drugs or profanity → episode flagged explicit. Uncertain → explicit. Result stored in the archive.
 12. **Review loop.**

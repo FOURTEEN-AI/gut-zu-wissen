@@ -17,8 +17,8 @@ author = "claude-sonnet-5-5"        # extraction, ranking, dialog author (Claude
 llm_judge = "claude-sonnet-5-5"     # judge stage 2, same model as the author (design)
 jev = "jev-1.14.0"                  # TypeSafe, judge stage 1; pinned version (spike S1)
 tts = "gemini-3.8-flash-tts"        # Gemini 3.8 Flash TTS
-tts_voice_lena = "de-de-advisor-3"    # Gemini library voice, spike S4 (owner to confirm by ear)
-tts_voice_felix = "de-de-tutor-4"     # Gemini library voice, spike S4 (owner to confirm by ear)
+tts_voice_lena = "de-de-advisor-3"    # Gemini library voice, spike S4, confirmed by ear
+tts_voice_felix = "de-de-tutor-4"     # Gemini library voice, spike S4, confirmed by ear
 stt = "PLACEHOLDER"                 # Whisper model size, spike S5
 
 [quotas]
@@ -33,7 +33,8 @@ audio_section_retries = 2
 substitute_articles_max = 2         # phase 3
 repeat_gate_months = 6              # D4
 tts_section_max_chars = 6000        # spike S4: about 6 min of audio; documented cap is 16,384 output tokens
-target_loudness_lufs = -16          # proposal in the plan, not yet decided
+target_loudness_lufs = -16          # decided, with a true-peak limiter (spike S4)
+true_peak_ceiling_dbtp = -1.5       # limiter ceiling; raw TTS output is about -20 LUFS
 
 [prices]
 # Feed the per-episode cost log. Unit and currency to be fixed together with the values.
