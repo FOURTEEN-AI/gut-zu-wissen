@@ -1,0 +1,70 @@
+{
+  "title": "Megalobatrachonema",
+  "revid": 255512358,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-04-27T13:01:30Z",
+  "fetched_at": "2026-11-19T23:36:06Z",
+  "categories": [
+    "Kategorie:Ascaridina",
+    "Kategorie:Parasit bei Amphibien",
+    "Kategorie:Spulwürmer"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe bitte [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_WissName   = Megalobatrachonema\n| Taxon_Rang       = Gattung\n| Taxon_Autor      = [[Satyu Yamaguti|Yamaguti]], 1941\n| Taxon2_WissName  = Kathlaniinae\n| Taxon2_Rang      = Unterfamilie\n| Taxon3_WissName  = Kathlaniidae\n| Taxon3_Rang      = Familie\n| Taxon4_WissName  = Cosmocercoidea\n| Taxon4_Rang      = Überfamilie\n| Taxon5_Name      = Spulwürmer\n| Taxon5_WissName  = Ascaridina\n| Taxon5_Rang      = Unterordnung\n| Taxon6_Name      = Rollschwänze\n| Taxon6_WissName  = Spirurida\n| Taxon6_Rang      = Ordnung\n| Bild             = \n| Bildbeschreibung = \n}}\n'''''Megalobatrachonema''''' ist eine Gattung der [[Spulwürmer]] mit acht Arten.<ref>Mike Hodda: ''Phylum Nematoda: a classification, catalogue and index of valid genera, with a census of valid species.'' In: ''Zootaxa.'' 2022, Band 5114, Nummer 1, S.&nbsp;149. {{DOI|10.11646/zootaxa.5114.1.1}}.</ref> Sie sind [[Parasitismus|Parasiten]] bei [[Amphibien]].<ref name=\"Chabaud\">[[Alain Chabaud|Alain G. Chabaud]]: ''Keys to the genera of the superfamilies Cosmocercoidea, Seuratoidea, Heterakoidea and Subuluroidea.'' Nr. 6 von [[Roy C. Anderson]], Alain G. Chabaud, [[Sheila Willmott]] (Hrsg.): ''CIH keys to the nematode parasites of vertebrates''. CABI, 1978, S. 10.</ref>",
+  "segments": [
+    {
+      "id": "255512358-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon6_Name      = Rollschwänze | Taxon6_WissName  = Spirurida",
+      "plain": "Taxobox – Systematik – Ordnung: Rollschwänze (Spirurida)"
+    },
+    {
+      "id": "255512358-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_Name      = Spulwürmer | Taxon5_WissName  = Ascaridina",
+      "plain": "Taxobox – Systematik – Unterordnung: Spulwürmer (Ascaridina)"
+    },
+    {
+      "id": "255512358-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_WissName  = Cosmocercoidea",
+      "plain": "Taxobox – Systematik – Überfamilie: Cosmocercoidea"
+    },
+    {
+      "id": "255512358-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon3_WissName  = Kathlaniidae",
+      "plain": "Taxobox – Systematik – Familie: Kathlaniidae"
+    },
+    {
+      "id": "255512358-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_WissName  = Kathlaniinae",
+      "plain": "Taxobox – Systematik – Unterfamilie: Kathlaniinae"
+    },
+    {
+      "id": "255512358-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''''Megalobatrachonema''''' ist eine Gattung der [[Spulwürmer]] mit acht Arten.<ref>Mike Hodda: ''Phylum Nematoda: a classification, catalogue and index of valid genera, with a census of valid species.'' In: ''Zootaxa.'' 2022, Band 5114, Nummer 1, S.&nbsp;149. {{DOI|10.11646/zootaxa.5114.1.1}}.</ref>",
+      "plain": null
+    },
+    {
+      "id": "255512358-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie sind [[Parasitismus|Parasiten]] bei [[Amphibien]].<ref name=\"Chabaud\">[[Alain Chabaud|Alain G. Chabaud]]: ''Keys to the genera of the superfamilies Cosmocercoidea, Seuratoidea, Heterakoidea and Subuluroidea.'' Nr. 6 von [[Roy C. Anderson]], Alain G. Chabaud, [[Sheila Willmott]] (Hrsg.): ''CIH keys to the nematode parasites of vertebrates''. CABI, 1978, S. 10.</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 255512358,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": []
+  }
+}

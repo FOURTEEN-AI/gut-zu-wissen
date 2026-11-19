@@ -1,0 +1,77 @@
+{
+  "title": "Salamander (Schuhe)",
+  "revid": 272110219,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-12T20:33:55Z",
+  "fetched_at": "2026-11-19T23:36:06Z",
+  "categories": [
+    "Kategorie:Ehemalige Aktiengesellschaft in Deutschland",
+    "Kategorie:Ehemaliges Unternehmen (Offenbach am Main)",
+    "Kategorie:Ehemals börsennotiertes Unternehmen (Deutschland)",
+    "Kategorie:Einzelhandelsunternehmen (Deutschland)",
+    "Kategorie:EnBW Energie Baden-Württemberg",
+    "Kategorie:Handelsunternehmen (Wuppertal)",
+    "Kategorie:Produzierendes Unternehmen (Kreis Mettmann)",
+    "Kategorie:Produzierendes Unternehmen (Landkreis Ludwigsburg)",
+    "Kategorie:Produzierendes Unternehmen (Offenbach am Main)",
+    "Kategorie:Produzierendes Unternehmen (Wuppertal)",
+    "Kategorie:Schuhhandelsunternehmen",
+    "Kategorie:Schuhhersteller",
+    "Kategorie:Schuhmarke",
+    "Kategorie:Unternehmen (Kornwestheim)",
+    "Kategorie:Unternehmen (Langenfeld (Rheinland))",
+    "Kategorie:Unternehmensgründung 1905",
+    "Kategorie:Zwangsarbeit"
+  ],
+  "intro_wikitext": "{{Infobox Marke\n | Name             = Salamander\n | Logo             = [[Datei:Salamander (Schuhe) logo.svg|230px]]\n | Besitzer         = AstorMueller AG\n | Inhaber          =\n | Einfuehrungsjahr = 1905\n | Produkte         = Schuhe\n | Maerkte          = Deutschland\n | Website          = www.salamander.de\n}}\n'''Salamander''' ist eine deutsche Schuhmarke mit einer wechselvollen Geschichte seit 1899.",
+  "segments": [
+    {
+      "id": "272110219-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Marke | Besitzer         = AstorMueller AG",
+      "plain": "Infobox Marke – Besitzer/Verwender: AstorMueller AG"
+    },
+    {
+      "id": "272110219-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Marke | Einfuehrungsjahr = 1905",
+      "plain": "Infobox Marke – Einführungsjahr: 1905"
+    },
+    {
+      "id": "272110219-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Marke | Produkte         = Schuhe",
+      "plain": "Infobox Marke – Produkte: Schuhe"
+    },
+    {
+      "id": "272110219-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Marke | Maerkte          = Deutschland",
+      "plain": "Infobox Marke – Märkte: Deutschland"
+    },
+    {
+      "id": "272110219-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Marke | Website          = www.salamander.de",
+      "plain": "Infobox Marke – Website: www.salamander.de"
+    },
+    {
+      "id": "272110219-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Salamander''' ist eine deutsche Schuhmarke mit einer wechselvollen Geschichte seit 1899.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272110219,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": []
+  }
+}

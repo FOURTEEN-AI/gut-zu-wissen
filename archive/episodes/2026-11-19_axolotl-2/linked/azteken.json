@@ -1,0 +1,72 @@
+{
+  "title": "Azteken",
+  "revid": 271108844,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-06T21:04:32Z",
+  "fetched_at": "2026-11-19T23:36:06Z",
+  "categories": [
+    "Kategorie:Azteken",
+    "Kategorie:Ethnie in Mexiko",
+    "Kategorie:Historische amerikanische Ethnie",
+    "Kategorie:Hochkultur",
+    "Kategorie:Indigenes Volk in Mittelamerika",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2026-07"
+  ],
+  "intro_wikitext": "{{Weiterleitungshinweis|Azteke|Zur gleichnamigen Pferderasse siehe [[Azteke (Pferd)]].}}\n[[Datei:Codex Osuna Triple Alliance.JPG|mini|Die Symbole der drei Mitglieder des aztekischen Dreibundes: [[Texcoco]], [[Tenochtitlan]] und [[Tlacopán]] (von links) auf Seite 34 des Kodex Osuna]]\nDie '''Azteken''' (von [[Nahuatl]] ''aztecatl'', deutsch etwa „jemand, der aus [[Aztlán]] kommt“; Eigenbezeichnung: '''Mexica''') waren Angehörige einer [[Mesoamerika|mesoamerikanischen]] Zivilisation, die eine [[Aztekenreich|Hochkultur]] schuf, die zwischen dem 14. und dem frühen 16. Jahrhundert existierte. Seit dem 19. Jahrhundert ist die Bezeichnung „Azteken“ für die ethnisch heterogene, mehrheitlich Nahuatl sprechende Bevölkerung des [[Tal von Mexiko|Tals von Mexiko]] gebräuchlich; im engeren Sinne sind damit aber nur die Bewohner von [[Tenochtitlan]] und der beiden anderen Mitglieder des sogenannten „[[Aztekischer Dreibund|Aztekischen Dreibundes]]“, der Städte [[Texcoco]] und [[Tlacopán]], gemeint.\n\nAb dem späten 14. Jahrhundert weiteten die Azteken im Laufe der Jahre ihren politischen und militärischen Einfluss auf die umliegenden Städte und Völker aus, die nicht direkt dem Reich angegliedert, sondern zur Zahlung von [[Tribut]]en gezwungen wurden. Auf dem Höhepunkt ihrer Macht kontrollierten sie weite Teile [[Mexiko|Zentralmexikos]] mit dem [[Tal von Mexiko]] als Zentrum. Zwischen 1519 und 1521 wurden die Azteken schließlich von den Spaniern unter [[Hernán Cortés]] unterworfen.",
+  "segments": [
+    {
+      "id": "271108844-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Azteken''' (von [[Nahuatl]] ''aztecatl'', deutsch etwa „jemand, der aus [[Aztlán]] kommt“; Eigenbezeichnung: '''Mexica''') waren Angehörige einer [[Mesoamerika|mesoamerikanischen]] Zivilisation, die eine [[Aztekenreich|Hochkultur]] schuf, die zwischen dem 14. und dem frühen 16. Jahrhundert existierte.",
+      "plain": null
+    },
+    {
+      "id": "271108844-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Seit dem 19. Jahrhundert ist die Bezeichnung „Azteken“ für die ethnisch heterogene, mehrheitlich Nahuatl sprechende Bevölkerung des [[Tal von Mexiko|Tals von Mexiko]] gebräuchlich; im engeren Sinne sind damit aber nur die Bewohner von [[Tenochtitlan]] und der beiden anderen Mitglieder des sogenannten „[[Aztekischer Dreibund|Aztekischen Dreibundes]]“, der Städte [[Texcoco]] und [[Tlacopán]], gemeint.",
+      "plain": null
+    },
+    {
+      "id": "271108844-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ab dem späten 14. Jahrhundert weiteten die Azteken im Laufe der Jahre ihren politischen und militärischen Einfluss auf die umliegenden Städte und Völker aus, die nicht direkt dem Reich angegliedert, sondern zur Zahlung von [[Tribut]]en gezwungen wurden.",
+      "plain": null
+    },
+    {
+      "id": "271108844-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Auf dem Höhepunkt ihrer Macht kontrollierten sie weite Teile [[Mexiko|Zentralmexikos]] mit dem [[Tal von Mexiko]] als Zentrum.",
+      "plain": null
+    },
+    {
+      "id": "271108844-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Zwischen 1519 und 1521 wurden die Azteken schließlich von den Spaniern unter [[Hernán Cortés]] unterworfen.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271108844,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271108844-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271108844-0000"
+        ],
+        "plain": "Seit dem 19. Jahrhundert ist die Bezeichnung „Azteken“ für die ethnisch heterogene, mehrheitlich Nahuatl sprechende Bevölkerung des Tals von Mexiko gebräuchlich; im engeren Sinne sind damit aber nur die Bewohner von Tenochtitlan und der beiden anderen Mitglieder des sogenannten „Aztekischen Dreibundes“, der Städte Texcoco und Tlacopán, gemeint.",
+        "context_plain": [
+          "Die Azteken (von Nahuatl aztecatl, deutsch etwa „jemand, der aus Aztlán kommt“; Eigenbezeichnung: Mexica) waren Angehörige einer mesoamerikanischen Zivilisation, die eine Hochkultur schuf, die zwischen dem 14. und dem frühen 16. Jahrhundert existierte."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

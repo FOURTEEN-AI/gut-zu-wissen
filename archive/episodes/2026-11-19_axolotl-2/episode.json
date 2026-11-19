@@ -1,0 +1,45 @@
+{
+  "episode_id": "2026-11-19_axolotl-2",
+  "title": "Axolotl",
+  "status": "failed",
+  "started_at": "2026-11-19T23:36:06Z",
+  "finished_at": "2026-11-19T23:56:27Z",
+  "published_at": null,
+  "explicit": null,
+  "failure": "Conversation regeneration budget used up (2x): Turn regeneration budget used up (2x, cascade included).",
+  "usage": {
+    "author": {
+      "model": "claude-sonnet-5-5",
+      "calls": 61,
+      "input_tokens": 151321,
+      "output_tokens": 93590
+    },
+    "llm_judge": {
+      "model": "claude-sonnet-5-5",
+      "calls": 126,
+      "input_tokens": 146845,
+      "output_tokens": 35733
+    },
+    "jev": {
+      "model": "jev-1.14.0",
+      "calls": 133,
+      "input_tokens": 157857,
+      "output_tokens": 7181
+    }
+  },
+  "cost": {
+    "prices": {
+      "claude_sonnet_input": 2.0,
+      "claude_sonnet_output": 10.0,
+      "jev": 0.042,
+      "gemini_tts_input": 0.5,
+      "gemini_tts_output": 9.0
+    },
+    "usd": {
+      "author": 1.2385,
+      "llm_judge": 0.651,
+      "jev": 0.0066,
+      "tts": 0
+    }
+  }
+}

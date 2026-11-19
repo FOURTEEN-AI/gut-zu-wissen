@@ -1,0 +1,154 @@
+{
+  "title": "Amphibien",
+  "revid": 271549848,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-23T09:34:10Z",
+  "fetched_at": "2026-11-19T23:36:06Z",
+  "categories": [
+    "Kategorie:Amphibien"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name       = Amphibien\n| Taxon_WissName   = Lissamphibia\n| Taxon_Rang       = Klasse\n| Taxon_Autor      = [[Ernst Haeckel|Haeckel]], 1866\n| Taxon2_Name      = Landwirbeltiere\n| Taxon2_WissName  = Tetrapoda\n| Taxon2_Rang      = Reihe\n| Taxon3_Name      = Kiefermäuler\n| Taxon3_WissName  = Gnathostomata\n| Taxon3_Rang      = Überklasse\n| Taxon4_Name      = Wirbeltiere\n| Taxon4_WissName  = Vertebrata\n| Taxon4_Rang      = Unterstamm\n| Taxon5_Name      = Chordatiere\n| Taxon5_WissName  = Chordata\n| Taxon5_Rang      = Stamm\n| Taxon6_Name      = Neumünder\n| Taxon6_WissName  = Deuterostomia\n| Taxon6_Rang      = Überstamm\n| Bild             = Bufo periglenes1.jpg\n| Bildbeschreibung = [[Goldkröte]] (''Incilius periglenes'') †\n| Subtaxa_Rang     = Ordnung\n| Subtaxa          = * [[Schwanzlurche]] (Caudata)\n* [[Froschlurche]] (Anura)\n* [[Schleichenlurche]] (Gymnophiona)\n}}\n\nUnter den Bezeichnungen '''Amphibien''' (Amphibia) oder '''Lurche''' werden alle [[Landwirbeltiere]] zusammengefasst, die sich, im Gegensatz zu den [[Amnioten]] („Nabeltieren“), nur in Gewässern fortpflanzen können. In der [[Zoologie]] gelten diese Bezeichnungen in erster Linie für heute lebende ([[rezent]]e) Arten. Weil der Begriff „Amphibia“ in der Wirbeltier[[paläontologie]] weniger exklusiv ist und traditionell immer auch ausgestorbene, frühe Formen der Landwirbeltiere („Ur-Lurche“) mit einschließt, werden die drei rezenten Großgruppen der Lurche ([[Froschlurche]], [[Schwanzlurche]] und [[Schleichenlurche]]) zur besseren Unterscheidung mit dem Namen '''Lissamphibia''' belegt. Wenn im Folgenden von „Amphibien“ die Rede ist, bezieht sich das in der Regel auf die Lissamphibia. Anfang 2026 sind 9000 Amphibienarten bekannt.<ref>IUCN SSC Amphibian Specialist Group: [https://www.iucn-amphibians.org/meet-the-9000th-amphibian-a-milestone-and-urgent-conservation-call/ Meet the 9000th amphibian: a milestone and urgent conservation call]</ref>\n\nBei Amphibien verläuft die [[Individualentwicklung]] im Allgemeinen über ein im Wasser abgelegtes [[Ei]], aus dem eine im Wasser lebende ([[aquatil]]e), [[Kiemenatmung|kiemenatmende]] [[Larve]] schlüpft. Diese Larve durchläuft eine [[Metamorphose (Zoologie)|Metamorphose]], an deren Ende meist ein [[Lungenatmung|lungenatmendes]] erwachsenes Individuum steht, das zu einem Leben außerhalb von Gewässern befähigt ist. Der wissenschaftliche Name „Amphibia“ (vom [[Altgriechische Sprache|altgriechischen]] [[Adjektiv]] {{lang|grc|ἀμφίβιος|amphíbios|de=doppellebig}}; gebildet aus {{lang|grc|ἀμφί|amphí|de=auf beiden Seiten}} sowie {{lang|grc|βίος|bíos|de=Leben}}<ref>Wilhelm Gemoll: ''Griechisch-Deutsches Schul- und Handwörterbuch.'' München/Wien 1965.</ref>) bezieht sich auf die beiden Lebensphasen vor und nach Abschluss der Metamorphose. Aufgrund ihrer Physiologie sind alle Amphibienarten aber auch im Erwachsenenstadium zumindest an [[Habitat|Lebensräume]] mit hoher Luftfeuchtigkeit gebunden. Viele Lurche sind [[Temporale Spezialisten|nachtaktiv]], um sich vor Fressfeinden zu schützen und Wasserverluste über die Haut gering zu halten.",
+  "segments": [
+    {
+      "id": "271549848-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon6_Name      = Neumünder | Taxon6_WissName  = Deuterostomia",
+      "plain": "Taxobox – Systematik – Überstamm: Neumünder (Deuterostomia)"
+    },
+    {
+      "id": "271549848-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_Name      = Chordatiere | Taxon5_WissName  = Chordata",
+      "plain": "Taxobox – Systematik – Stamm: Chordatiere (Chordata)"
+    },
+    {
+      "id": "271549848-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_Name      = Wirbeltiere | Taxon4_WissName  = Vertebrata",
+      "plain": "Taxobox – Systematik – Unterstamm: Wirbeltiere (Vertebrata)"
+    },
+    {
+      "id": "271549848-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon3_Name      = Kiefermäuler | Taxon3_WissName  = Gnathostomata",
+      "plain": "Taxobox – Systematik – Überklasse: Kiefermäuler (Gnathostomata)"
+    },
+    {
+      "id": "271549848-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_Name      = Landwirbeltiere | Taxon2_WissName  = Tetrapoda",
+      "plain": "Taxobox – Systematik – Reihe: Landwirbeltiere (Tetrapoda)"
+    },
+    {
+      "id": "271549848-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name       = Amphibien",
+      "plain": "Taxobox – Systematik – Klasse: Amphibien"
+    },
+    {
+      "id": "271549848-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Unter den Bezeichnungen '''Amphibien''' (Amphibia) oder '''Lurche''' werden alle [[Landwirbeltiere]] zusammengefasst, die sich, im Gegensatz zu den [[Amnioten]] („Nabeltieren“), nur in Gewässern fortpflanzen können.",
+      "plain": null
+    },
+    {
+      "id": "271549848-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "In der [[Zoologie]] gelten diese Bezeichnungen in erster Linie für heute lebende ([[rezent]]e) Arten.",
+      "plain": null
+    },
+    {
+      "id": "271549848-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Weil der Begriff „Amphibia“ in der Wirbeltier[[paläontologie]] weniger exklusiv ist und traditionell immer auch ausgestorbene, frühe Formen der Landwirbeltiere („Ur-Lurche“) mit einschließt, werden die drei rezenten Großgruppen der Lurche ([[Froschlurche]], [[Schwanzlurche]] und [[Schleichenlurche]]) zur besseren Unterscheidung mit dem Namen '''Lissamphibia''' belegt.",
+      "plain": null
+    },
+    {
+      "id": "271549848-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "Wenn im Folgenden von „Amphibien“ die Rede ist, bezieht sich das in der Regel auf die Lissamphibia.",
+      "plain": null
+    },
+    {
+      "id": "271549848-0010",
+      "type": "sentence",
+      "section": "",
+      "raw": "Anfang 2026 sind 9000 Amphibienarten bekannt.<ref>IUCN SSC Amphibian Specialist Group: [https://www.iucn-amphibians.org/meet-the-9000th-amphibian-a-milestone-and-urgent-conservation-call/ Meet the 9000th amphibian: a milestone and urgent conservation call]</ref>",
+      "plain": null
+    },
+    {
+      "id": "271549848-0011",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bei Amphibien verläuft die [[Individualentwicklung]] im Allgemeinen über ein im Wasser abgelegtes [[Ei]], aus dem eine im Wasser lebende ([[aquatil]]e), [[Kiemenatmung|kiemenatmende]] [[Larve]] schlüpft.",
+      "plain": null
+    },
+    {
+      "id": "271549848-0012",
+      "type": "sentence",
+      "section": "",
+      "raw": "Diese Larve durchläuft eine [[Metamorphose (Zoologie)|Metamorphose]], an deren Ende meist ein [[Lungenatmung|lungenatmendes]] erwachsenes Individuum steht, das zu einem Leben außerhalb von Gewässern befähigt ist.",
+      "plain": null
+    },
+    {
+      "id": "271549848-0013",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der wissenschaftliche Name „Amphibia“ (vom [[Altgriechische Sprache|altgriechischen]] [[Adjektiv]] {{lang|grc|ἀμφίβιος|amphíbios|de=doppellebig}}; gebildet aus {{lang|grc|ἀμφί|amphí|de=auf beiden Seiten}} sowie {{lang|grc|βίος|bíos|de=Leben}}<ref>Wilhelm Gemoll: ''Griechisch-Deutsches Schul- und Handwörterbuch.'' München/Wien 1965.</ref>) bezieht sich auf die beiden Lebensphasen vor und nach Abschluss der Metamorphose.",
+      "plain": null
+    },
+    {
+      "id": "271549848-0014",
+      "type": "sentence",
+      "section": "",
+      "raw": "Aufgrund ihrer Physiologie sind alle Amphibienarten aber auch im Erwachsenenstadium zumindest an [[Habitat|Lebensräume]] mit hoher Luftfeuchtigkeit gebunden.",
+      "plain": null
+    },
+    {
+      "id": "271549848-0015",
+      "type": "sentence",
+      "section": "",
+      "raw": "Viele Lurche sind [[Temporale Spezialisten|nachtaktiv]], um sich vor Fressfeinden zu schützen und Wasserverluste über die Haut gering zu halten.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271549848,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271549848-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271549848-0006",
+          "271549848-0007"
+        ],
+        "plain": "Weil der Begriff „Amphibia“ in der Wirbeltierpaläontologie weniger exklusiv ist und traditionell immer auch ausgestorbene, frühe Formen der Landwirbeltiere („Ur-Lurche“) mit einschließt, werden die drei rezenten Großgruppen der Lurche (Froschlurche, Schwanzlurche und Schleichenlurche) zur besseren Unterscheidung mit dem Namen Lissamphibia belegt.",
+        "context_plain": [
+          "Unter den Bezeichnungen Amphibien (Amphibia) oder Lurche werden alle Landwirbeltiere zusammengefasst, die sich, im Gegensatz zu den Amnioten („Nabeltieren“), nur in Gewässern fortpflanzen können.",
+          "In der Zoologie gelten diese Bezeichnungen in erster Linie für heute lebende (rezente) Arten."
+        ]
+      },
+      {
+        "segment_id": "271549848-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Unter den Bezeichnungen Amphibien (Amphibia) oder Lurche werden alle Landwirbeltiere zusammengefasst, die sich, im Gegensatz zu den Amnioten („Nabeltieren“), nur in Gewässern fortpflanzen können.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

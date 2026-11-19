@@ -1,0 +1,133 @@
+{
+  "title": "Signal (Messenger)",
+  "revid": 272092851,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-12T08:32:21Z",
+  "fetched_at": "2026-11-19T23:36:06Z",
+  "categories": [
+    "Kategorie:Chat-Dienst",
+    "Kategorie:Freie Android-Software",
+    "Kategorie:Freie Instant-Messaging-Software",
+    "Kategorie:Freie Kryptosoftware",
+    "Kategorie:Freie Sicherheitssoftware",
+    "Kategorie:Freie Videokonferenz-Software",
+    "Kategorie:IOS-Software",
+    "Kategorie:Instant-Messaging-Protokoll",
+    "Kategorie:Instant Messenger",
+    "Kategorie:Mobile-Payment"
+  ],
+  "intro_wikitext": "{{Infobox Software\n|Logo                 = \n|Screenshot           = \n|Beschreibung         = Gemeinnütziger und freier Messenger\n|Maintainer           = \n|Hersteller           = Signal Foundation\n|Erscheinungsjahr     = 29. Juli 2014<ref>{{Internetquelle |url=https://signal.org/blog/signal/ |titel=Free, Worldwide, Encrypted Phone Calls for iPhone |abruf=2019-02-20 |sprache=en}}</ref>\n|AktuelleVersion      = <!-- Versionen bitte mit <br/> trennen -->\n8.34<!-- nur erste zwei Elemente (keine Minor Versions)! -->&nbsp;([[Android (Betriebssystem)|Android]])<ref>{{Internetquelle |url=https://github.com/signalapp/Signal-Android/releases |titel=Releases · signalapp/Signal-Android · GitHub |abruf=2026-11-12 |sprache=en}}</ref><br />\n8.33<!-- nur erste zwei Elemente (keine Minor Versions)! -->&nbsp;([[iOS (Betriebssystem)|iOS]])<ref>{{Internetquelle |url=https://github.com/signalapp/Signal-iOS/releases |titel=Releases · signalapp/Signal-iOS · GitHub |abruf=2026-10-21 |sprache=en}}</ref><br />\n8.35<!-- nur erste zwei Elemente (keine br />Minor Versions)! -->&nbsp;([[Desktop (grafische Benutzeroberfläche)|Desktop]])<ref>{{Internetquelle |url=https://github.com/signalapp/Signal-Desktop/releases |titel=Releases · signalapp/Signal-Desktop · GitHub |abruf=2026-11-12 |sprache=en}}</ref>\n|AktuelleVersionFreigabeDatum = \n|AktuelleVorabVersion = KEINE_ANGABE\n|AktuelleVorabVersionFreigabeDatum = \n|Betriebssystem       = [[Android (Betriebssystem)|Android]], [[iOS (Betriebssystem)|iOS]], [[Microsoft Windows|Windows]], [[macOS]], [[Linux]] (64-Bit)<ref>{{Internetquelle |url=https://signal.org/de/download/ |titel=Downloadseite von Signal |abruf=2023-05-10 |sprache=de}}</ref>\n|Programmiersprache   = [[Java (Programmiersprache)|Java]]<br />[[Kotlin (Programmiersprache)|Kotlin]]<br />(Android-Client&nbsp;und&nbsp;Server)<br />[[Swift (Programmiersprache)|Swift]]<br />[[Objective-C]]<br />(iOS-Client)<br />[[TypeScript]]<br />[[JavaScript]]<br />(Desktop-Client)<br />[[Rust (Programmiersprache)|Rust]]<br />(libsignal APIs)<ref>{{Internetquelle |url=https://github.com/signalapp |titel=Signal |werk=github.com |datum=2022-11-25 |sprache=en |abruf=2022-11-27}}</ref>\n|Kategorie            = [[Instant Messaging]]<br /> [[IP-Telefonie]]<br /> [[Bildtelefonie|Videotelefonie]]<br /> [[Mobile Payment]]\n|Lizenz               = [[GPLv3]] (Clients)<ref name=\"A-GH\">{{Internetquelle |url=https://github.com/signalapp/Signal-Android |titel=Signal-Android in GitHub |sprache=en |abruf=2020-11-11}}</ref><ref name=\"i-GH\">{{Internetquelle |url=https://github.com/signalapp/Signal-iOS |titel=Signal-iOS in GitHub |sprache=en |abruf=2020-11-11}}</ref><ref name=\"D-GH\">{{Internetquelle |url=https://github.com/signalapp/Signal-Desktop#license |titel=Signal-Desktop (License) in GitHub |sprache=en |abruf=2020-11-11}}</ref><br />[[GNU Affero General Public License|AGPLv3]]&nbsp;(Server)<ref name=\"S-GH\">{{Internetquelle |url=https://github.com/signalapp/Signal-Server |titel=Signal-Server in GitHub |sprache=en |abruf=2020-11-11}}</ref>\n|Deutsch              = ja\n|Website              = <!-- Von Wikidata -->\n|Dateien              = \n}}\n\n[[Datei:Signal-Logo-White on Ultramarine (2024).svg|mini|App-Symbol ''Signal'' seit 2024]]\n\n'''Signal''' ist ein fast<ref>{{Internetquelle |autor=Signal Foundation |url=https://github.com/signalapp/Signal-Server/blob/1e3b2c8ce82a823a62a5363831abfcb49904cd94/.gitmodules |titel=Signal Submodule Spamfilter Konfiguration |werk=Signal Server Quellcode |hrsg=Signal Foundation |datum=2023-01-31 |abruf=2026-04-30}}</ref> vollständig [[Open Source|quelloffener]] [[Instant Messaging|Instant-Messaging]]-[[Onlinedienst|Dienst]] für verschlüsselte [[Online-Kommunikation]] der US-amerikanischen [[Gemeinnützigkeit|gemeinnützigen]] Signal-[[Stiftung]]. Er ist vor allem für seine [[Datensparsamkeit]] und [[Ende-zu-Ende-Verschlüsselung]] bekannt und wurde mehrfach von Sicherheitsexperten und Datenschutzorganisationen empfohlen. Zur Umsetzung der Datensparsamkeit dient das „[[Zero-Knowledge-Beweis#„Zero Knowledge“ als Werbebegriff|Zero-Knowledge-Prinzip]]“, bei dem der Betreiber keinerlei Zugriff auf Nutzerdaten hat. Signal ist als [[Mobile App]] für [[Android (Betriebssystem)|Android]] und [[iOS (Betriebssystem)|iOS]] und als [[Desktop (grafische Benutzeroberfläche)|Desktop]]-Version für [[Microsoft Windows|Windows]], [[macOS]] und [[Linux]] verfügbar; eine [[World Wide Web|Web]]-Version existiert aus Sicherheitsgründen nicht. Für die Verschlüsselung von Nachrichten, Anrufen und Videotelefonie kommt das freie [[Signal-Protokoll]] zum Einsatz.",
+  "segments": [
+    {
+      "id": "272092851-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Software | Hersteller           = Signal Foundation",
+      "plain": "Infobox Software – Basisdaten – Entwickler: Signal Foundation"
+    },
+    {
+      "id": "272092851-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Software | Erscheinungsjahr     = 29. Juli 2014<ref>{{Internetquelle |url=https://signal.org/blog/signal/ |titel=Free, Worldwide, Encrypted Phone Calls for iPhone |abruf=2019-02-20 |sprache=en}}</ref>",
+      "plain": "Infobox Software – Basisdaten – Erscheinungsjahr: 29. Juli 2014"
+    },
+    {
+      "id": "272092851-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Software | AktuelleVersion      = <!-- Versionen bitte mit <br/> trennen -->\n8.34<!-- nur erste zwei Elemente (keine Minor Versions)! -->&nbsp;([[Android (Betriebssystem)|Android]])<ref>{{Internetquelle |url=https://github.com/signalapp/Signal-Android/releases |titel=Releases · signalapp/Signal-Android · GitHub |abruf=2026-11-12 |sprache=en}}</ref><br />\n8.33<!-- nur erste zwei Elemente (keine Minor Versions)! -->&nbsp;([[iOS (Betriebssystem)|iOS]])<ref>{{Internetquelle |url=https://github.com/signalapp/Signal-iOS/releases |titel=Releases · signalapp/Signal-iOS · GitHub |abruf=2026-10-21 |sprache=en}}</ref><br />\n8.35<!-- nur erste zwei Elemente (keine br />Minor Versions)! -->&nbsp;([[Desktop (grafische Benutzeroberfläche)|Desktop]])<ref>{{Internetquelle |url=https://github.com/signalapp/Signal-Desktop/releases |titel=Releases · signalapp/Signal-Desktop · GitHub |abruf=2026-11-12 |sprache=en}}</ref>",
+      "plain": "Infobox Software – Basisdaten – Aktuelle Version: 8.34 (Android) 8.33 (iOS) 8.35 (Desktop)"
+    },
+    {
+      "id": "272092851-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Software | Betriebssystem       = [[Android (Betriebssystem)|Android]], [[iOS (Betriebssystem)|iOS]], [[Microsoft Windows|Windows]], [[macOS]], [[Linux]] (64-Bit)<ref>{{Internetquelle |url=https://signal.org/de/download/ |titel=Downloadseite von Signal |abruf=2023-05-10 |sprache=de}}</ref>",
+      "plain": "Infobox Software – Basisdaten – Betriebssystem: Android, iOS, Windows, macOS, Linux (64-Bit)"
+    },
+    {
+      "id": "272092851-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Software | Programmiersprache   = [[Java (Programmiersprache)|Java]]<br />[[Kotlin (Programmiersprache)|Kotlin]]<br />(Android-Client&nbsp;und&nbsp;Server)<br />[[Swift (Programmiersprache)|Swift]]<br />[[Objective-C]]<br />(iOS-Client)<br />[[TypeScript]]<br />[[JavaScript]]<br />(Desktop-Client)<br />[[Rust (Programmiersprache)|Rust]]<br />(libsignal APIs)<ref>{{Internetquelle |url=https://github.com/signalapp |titel=Signal |werk=github.com |datum=2022-11-25 |sprache=en |abruf=2022-11-27}}</ref>",
+      "plain": "Infobox Software – Basisdaten – Programmiersprache: Java Kotlin (Android-Client und Server) Swift Objective-C (iOS-Client) TypeScript JavaScript (Desktop-Client) Rust (libsignal APIs)"
+    },
+    {
+      "id": "272092851-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Software | Kategorie            = [[Instant Messaging]]<br /> [[IP-Telefonie]]<br /> [[Bildtelefonie|Videotelefonie]]<br /> [[Mobile Payment]]",
+      "plain": "Infobox Software – Basisdaten – Kategorie: Instant Messaging IP-Telefonie Videotelefonie Mobile Payment"
+    },
+    {
+      "id": "272092851-0006",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Software | Lizenz               = [[GPLv3]] (Clients)<ref name=\"A-GH\">{{Internetquelle |url=https://github.com/signalapp/Signal-Android |titel=Signal-Android in GitHub |sprache=en |abruf=2020-11-11}}</ref><ref name=\"i-GH\">{{Internetquelle |url=https://github.com/signalapp/Signal-iOS |titel=Signal-iOS in GitHub |sprache=en |abruf=2020-11-11}}</ref><ref name=\"D-GH\">{{Internetquelle |url=https://github.com/signalapp/Signal-Desktop#license |titel=Signal-Desktop (License) in GitHub |sprache=en |abruf=2020-11-11}}</ref><br />[[GNU Affero General Public License|AGPLv3]]&nbsp;(Server)<ref name=\"S-GH\">{{Internetquelle |url=https://github.com/signalapp/Signal-Server |titel=Signal-Server in GitHub |sprache=en |abruf=2020-11-11}}</ref>",
+      "plain": "Infobox Software – Basisdaten – Lizenz: GPLv3 (Clients) AGPLv3 (Server)"
+    },
+    {
+      "id": "272092851-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Signal''' ist ein fast<ref>{{Internetquelle |autor=Signal Foundation |url=https://github.com/signalapp/Signal-Server/blob/1e3b2c8ce82a823a62a5363831abfcb49904cd94/.gitmodules |titel=Signal Submodule Spamfilter Konfiguration |werk=Signal Server Quellcode |hrsg=Signal Foundation |datum=2023-01-31 |abruf=2026-04-30}}</ref> vollständig [[Open Source|quelloffener]] [[Instant Messaging|Instant-Messaging]]-[[Onlinedienst|Dienst]] für verschlüsselte [[Online-Kommunikation]] der US-amerikanischen [[Gemeinnützigkeit|gemeinnützigen]] Signal-[[Stiftung]].",
+      "plain": null
+    },
+    {
+      "id": "272092851-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er ist vor allem für seine [[Datensparsamkeit]] und [[Ende-zu-Ende-Verschlüsselung]] bekannt und wurde mehrfach von Sicherheitsexperten und Datenschutzorganisationen empfohlen.",
+      "plain": null
+    },
+    {
+      "id": "272092851-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "Zur Umsetzung der Datensparsamkeit dient das „[[Zero-Knowledge-Beweis#„Zero Knowledge“ als Werbebegriff|Zero-Knowledge-Prinzip]]“, bei dem der Betreiber keinerlei Zugriff auf Nutzerdaten hat.",
+      "plain": null
+    },
+    {
+      "id": "272092851-0010",
+      "type": "sentence",
+      "section": "",
+      "raw": "Signal ist als [[Mobile App]] für [[Android (Betriebssystem)|Android]] und [[iOS (Betriebssystem)|iOS]] und als [[Desktop (grafische Benutzeroberfläche)|Desktop]]-Version für [[Microsoft Windows|Windows]], [[macOS]] und [[Linux]] verfügbar; eine [[World Wide Web|Web]]-Version existiert aus Sicherheitsgründen nicht.",
+      "plain": null
+    },
+    {
+      "id": "272092851-0011",
+      "type": "sentence",
+      "section": "",
+      "raw": "Für die Verschlüsselung von Nachrichten, Anrufen und Videotelefonie kommt das freie [[Signal-Protokoll]] zum Einsatz.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272092851,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272092851-0009",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272092851-0008"
+        ],
+        "plain": "Zur Umsetzung der Datensparsamkeit dient das „Zero-Knowledge-Prinzip“, bei dem der Betreiber keinerlei Zugriff auf Nutzerdaten hat.",
+        "context_plain": [
+          "Er ist vor allem für seine Datensparsamkeit und Ende-zu-Ende-Verschlüsselung bekannt und wurde mehrfach von Sicherheitsexperten und Datenschutzorganisationen empfohlen."
+        ]
+      },
+      {
+        "segment_id": "272092851-0010",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Signal ist als Mobile App für Android und iOS und als Desktop-Version für Windows, macOS und Linux verfügbar; eine Web-Version existiert aus Sicherheitsgründen nicht.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

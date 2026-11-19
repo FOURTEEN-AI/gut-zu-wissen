@@ -1,0 +1,40 @@
+{
+  "title": "Sturmgewehr",
+  "revid": 271501074,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-21T06:47:18Z",
+  "fetched_at": "2026-11-19T23:36:06Z",
+  "categories": [
+    "Kategorie:Sturmgewehr"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|beschreibt die Schusswaffengattung. Für den gleichnamigen Film siehe [[Sturmgewehr (Film)]].}}\n[[Datei:AK-47 type II noBG.png|mini|Das [[Kalaschnikow|AK-47]], das am weitesten verbreitete Sturmgewehr der Welt]]\nEin '''Sturmgewehr''' ('''StGw''') ist eine [[Automatische Schusswaffe|vollautomatische Schusswaffe]] mittleren Kalibers. Es handelt sich um relativ leichte und kompakte Mehrzweck-Militär[[gewehr]]e, die waffentechnisch als [[Maschinenkarabiner]] gelten. Diese Gewehrart ist bei den meisten Streitkräften als [[Ordonnanzwaffe|Standardbewaffnung]] der [[Infanterie]] verbreitet.",
+  "segments": [
+    {
+      "id": "271501074-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein '''Sturmgewehr''' ('''StGw''') ist eine [[Automatische Schusswaffe|vollautomatische Schusswaffe]] mittleren Kalibers.",
+      "plain": null
+    },
+    {
+      "id": "271501074-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es handelt sich um relativ leichte und kompakte Mehrzweck-Militär[[gewehr]]e, die waffentechnisch als [[Maschinenkarabiner]] gelten.",
+      "plain": null
+    },
+    {
+      "id": "271501074-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Diese Gewehrart ist bei den meisten Streitkräften als [[Ordonnanzwaffe|Standardbewaffnung]] der [[Infanterie]] verbreitet.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271501074,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": []
+  }
+}
