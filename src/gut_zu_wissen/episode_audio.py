@@ -12,7 +12,7 @@ Intro and outro are fixed audio and not verified (design: "nicht Teil des STT-Lo
 
 Audio files go to a work folder outside the archive (`build/audio/<episode>/`, not committed;
 design: audio only in the published form at the host); a resynthesis overwrites the section
-file. The archive gets `07_audio.json`: per section the turns, characters, duration of the
+file. The archive gets `08_audio.json`: per section the turns, characters, duration of the
 accepted audio, tokens and cost summed over all syntheses, and per synthesis attempt its
 transcript, deviations and decisions (design: transcripts and diff decisions of discarded
 syntheses are archived), plus the loudness report and the fingerprints of the intro and outro.
@@ -86,7 +86,7 @@ class SectionRecord:
 
 @dataclass
 class AudioRecord:
-    """Content of 07_audio.json; field order is the archive field order."""
+    """Content of 08_audio.json; field order is the archive field order."""
 
     model: str
     voices: dict[str, str]

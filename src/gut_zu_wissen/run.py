@@ -1,12 +1,12 @@
 """Run entry point: `python -m gut_zu_wissen.run "<article title>"`.
 
 Phase 1 steps 2 to 12: fetch the article, apply the gates, segment, extract facts, rank, add the
-linked intros, write the dialog, judge it, synthesise, verify with STT and normalise the audio,
-run the explicit check on the final script, draw the review sample, write the episode folder. The
-turn and conversation loops live in orchestrator.py (step 8), the audio step with its STT
-verification in episode_audio.py (steps 9 and 10), the explicit check in explicit.py (step 11),
-the review loop in review.py (step 12; the workflow opens the issue after the run); later steps
-are added here.
+linked intros, write the dialog, judge it, run the explicit check on the final script,
+synthesise, verify with STT and normalise the audio, draw the review sample, write the episode
+folder. The turn and conversation loops live in orchestrator.py (step 8), the audio step with its
+STT verification in episode_audio.py (steps 9 and 10), the explicit check in explicit.py (step
+11, run before the audio step so a failed check costs no TTS), the review loop in review.py (step
+12; the workflow opens the issue after the run); later steps are added here.
 """
 
 from __future__ import annotations
@@ -120,9 +120,10 @@ def run(
     """Run the steps implemented so far. Returns the episode ID; raises GateFailure.
 
     Intro and outro are checked first (`FixedAudioError`), before anything costs money. Audio
-    files go to `audio_root/<episode ID>/`. The STT deviations and the explicit check (D7, after
-    the audio step, on the script that was synthesised) are decided by `judge_llm`. The explicit
-    flag does not block the episode; a failed check call escalates. Last, the review sample is
+    files go to `audio_root/<episode ID>/`. The explicit check (D7, directly after the judge, on
+    the final script, before any TTS cost) and the STT deviations are decided by `judge_llm`. The
+    explicit flag does not block the episode; a failed check call escalates before the audio
+    step. Last, the review sample is
     drawn with the current rate r and written to `09_review.json` (step 12), and the status
     becomes `completed`.
 
@@ -131,7 +132,7 @@ def run(
     clients fill (step 13: runtime and cost). A crash (any exception other than `GateFailure`)
     is recorded as `failed` with `crash_reason` (type and message, `secrets` masked) and
     re-raised, so the job fails with the traceback. A crash in the audio step still writes
-    `07_audio.json`, so the syntheses paid for stay in the cost log.
+    `08_audio.json`, so the syntheses paid for stay in the cost log.
     """
     max_reason = config["run"]["failure_reason_max_chars"]
     fixed = load_fixed(fixed_dir, config["models"]["tts"], voices_of(config))
@@ -239,6 +240,20 @@ def run(
         write_json(folder / JUDGEMENT_FILE, state.judgement_dict())
 
         assert state.dialog is not None
+        # D7 on the final script, before the audio step: a failed check costs no TTS.
+        explicit = ExplicitCheck(config["models"]["llm_judge"])
+        try:
+            check_explicit(explicit, judge_llm, state.dialog.turns)
+        except LlmError as exc:
+            explicit.error = f"{type(exc).__name__}: {exc}"
+            write_json(folder / EXPLICIT_FILE, explicit.to_dict())
+            record.status, record.failure = "failed", f"Explicit check (D7): {exc}"
+            save_episode(archive_root, record)
+            raise GateFailure(record.failure) from exc
+        write_json(folder / EXPLICIT_FILE, explicit.to_dict())
+        record.explicit = explicit.explicit
+        save_episode(archive_root, record)
+
         audio_record = new_record(config)
         try:
             produce_audio(
@@ -260,19 +275,6 @@ def run(
             write_json(folder / AUDIO_FILE, audio_record.to_dict())
             raise
         write_json(folder / AUDIO_FILE, audio_record.to_dict())
-
-        explicit = ExplicitCheck(config["models"]["llm_judge"])
-        try:
-            check_explicit(explicit, judge_llm, state.dialog.turns)
-        except LlmError as exc:
-            explicit.error = f"{type(exc).__name__}: {exc}"
-            write_json(folder / EXPLICIT_FILE, explicit.to_dict())
-            record.status, record.failure = "failed", f"Explicit check (D7): {exc}"
-            save_episode(archive_root, record)
-            raise GateFailure(record.failure) from exc
-        write_json(folder / EXPLICIT_FILE, explicit.to_dict())
-        record.explicit = explicit.explicit
-        save_episode(archive_root, record)
 
         assert state.offer is not None
         rate = load_rate_state(archive_root, config["review"]).r

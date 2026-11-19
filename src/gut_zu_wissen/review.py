@@ -15,7 +15,7 @@ reviewer's comments in creation order (a later label for a turn wins), so edits,
 skipped runs are picked up. Comments by any other account are ignored and not recorded. A comment
 with an invalid review line is rejected as a whole. Turns without a label stay unknown.
 
-Explicit check (D7): the issue also shows the result of `08_explicit.json` (flag, verdict,
+Explicit check (D7): the issue also shows the result of `07_explicit.json` (flag, verdict,
 findings, reason). The reviewer confirms or corrects the flag with one line in the same format:
 `explicit: korrekt`, `explicit: sollte explicit sein` or `explicit: sollte nicht explicit sein`.
 The archive keeps the predicted flag and the reviewer's flag side by side; `explicit_accuracy`
@@ -143,7 +143,7 @@ class ReviewTurn:
 
 @dataclass
 class ExplicitReview:
-    """Result of the explicit check (08_explicit.json) and the reviewer's label for it."""
+    """Result of the explicit check (07_explicit.json) and the reviewer's label for it."""
 
     model: str
     predicted: bool | None

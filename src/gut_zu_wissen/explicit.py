@@ -8,7 +8,7 @@ of its answer: the episode is explicit unless the model says "clean" and reports
 explicit). Intro and outro are fixed text outside the script and not checked.
 
 The flag does not block the episode; it goes to `episode.json` (`explicit`) and, with the
-findings, to `08_explicit.json`, and becomes the per-episode `itunes:explicit` in phase 2. A
+findings, to `07_explicit.json`, and becomes the per-episode `itunes:explicit` in phase 2. A
 failed call (`LlmError`: refusal, cut-off or invalid answer) gives no judgement at all; the run
 escalates, as a failed LLM decision does in the STT verification.
 """
@@ -51,7 +51,7 @@ class Finding:
 
 @dataclass
 class ExplicitCheck:
-    """Content of 08_explicit.json; field order is the archive field order.
+    """Content of 07_explicit.json; field order is the archive field order.
 
     `verdict` is the model's answer as given; `explicit` is the flag derived from it.
     """

@@ -7,7 +7,7 @@ label (D7) is not required; the report counts how many qualifying episodes have 
 Measured over every run in the archive (one run = one episode folder):
 
 - facts used per minute (completed runs): used facts of the final script (`06_judgement.json`,
-  `used_fact_ids`) per minute of the episode audio (`07_audio.json`, intro and outro included);
+  `used_fact_ids`) per minute of the episode audio (`08_audio.json`, intro and outro included);
   also per minute of dialog audio (sum of the accepted section durations);
 - escalation rate: runs that failed (`status: failed`: gate failures, which abort a manual run
   with a failing job, and crashes, whose reason starts with "Crash:") or are incomplete (still
@@ -17,7 +17,7 @@ Measured over every run in the archive (one run = one episode folder):
 - cascade length: per triggering turn regeneration, the number of distinct neighbour turns the
   cascade regenerated (D1), from the regenerations in `05_dialog.json`;
 - runtime: `finished_at - started_at` of `episode.json`;
-- cost: TTS from `07_audio.json` (recorded per synthesis), Claude and Jev from the token counts
+- cost: TTS from `08_audio.json` (recorded per synthesis), Claude and Jev from the token counts
   in `episode.json` (`usage`) at the prices of the config; a missing count or a placeholder
   price leaves that part unknown and is named in the report;
 - error rate by revision status (D2): share of labelled turns labelled "nicht belegt", by the
@@ -65,7 +65,7 @@ PRICE_KEYS: dict[str, tuple[str, str | None]] = {
 }
 TOKENS_PER_PRICE_UNIT = 1_000_000  # prices are per million tokens
 SECONDS_PER_MINUTE = 60
-USD_DIGITS = 4  # as in 07_audio.json
+USD_DIGITS = 4  # as in 08_audio.json
 
 
 # ---------------------------------------------------------------- archive data
@@ -397,7 +397,7 @@ def token_cost(usage: Mapping, prices: Mapping, keys: tuple[str, str | None]) ->
 def tts_cost(run: RunData, outcome: Outcome) -> CostPart:
     if run.audio is None:
         if outcome == "incomplete":
-            return CostPart("tts", None, "no 07_audio.json (run still running or not recorded)")
+            return CostPart("tts", None, "no 08_audio.json (run still running or not recorded)")
         return CostPart("tts", 0.0, "no synthesis")
     costs = [s.get("usd") for s in run.audio.get("sections", [])]
     if any(c is None for c in costs):

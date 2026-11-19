@@ -3,7 +3,7 @@
 The Claude and Jev clients add the token counts of every successful response to a `Usage`
 counter; the run writes the counters to `episode.json` (`usage`), so the cost can be computed
 from the archive with the prices in the config. TTS usage and cost are already recorded per
-synthesis in `07_audio.json`. Whisper runs locally and costs nothing per call.
+synthesis in `08_audio.json`. Whisper runs locally and costs nothing per call.
 """
 
 from __future__ import annotations

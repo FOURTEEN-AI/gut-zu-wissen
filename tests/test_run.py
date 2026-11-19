@@ -442,7 +442,7 @@ def test_conversation_regeneration_succeeds_with_a_fresh_offer(tmp_path):
 def test_audio_is_synthesised_normalised_and_archived(tmp_path):
     tts = FakeTts()
     episode_id = run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, tts=tts)
-    record = json.loads((tmp_path / "episodes" / episode_id / "07_audio.json").read_text())
+    record = json.loads((tmp_path / "episodes" / episode_id / "08_audio.json").read_text())
     assert tts.calls == [[("Lena", "Text."), ("Felix", "Text.")]]  # one section
     assert [s["turn_indices"] for s in record["sections"]] == [[0, 1]]
     assert record["sections"][0]["usd"] == round((100 * 0.5 + 250 * 9.0) / 1e6, 4)
@@ -479,7 +479,7 @@ def test_tts_failure_fails_the_run_and_archives_the_sections(tmp_path):
         run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, tts=tts)
     folder = tmp_path / "episodes" / "2026-11-19_rotfuchs"
     assert load_episode(tmp_path, "2026-11-19_rotfuchs").status == "failed"
-    record = json.loads((folder / "07_audio.json").read_text())
+    record = json.loads((folder / "08_audio.json").read_text())
     assert record["sections"][0]["seconds"] is None and record["file"] is None
 
 
@@ -491,7 +491,7 @@ def test_audio_that_keeps_changing_the_statement_escalates(tmp_path):
     assert len(tts.calls) == 3  # first synthesis and two resyntheses
     episode = load_episode(tmp_path, "2026-11-19_rotfuchs")
     assert episode.status == "failed" and "STT verification" in episode.failure
-    record = json.loads((tmp_path / "episodes" / episode.episode_id / "07_audio.json").read_text())
+    record = json.loads((tmp_path / "episodes" / episode.episode_id / "08_audio.json").read_text())
     attempts = record["sections"][0]["attempts"]
     assert [a["action"] for a in attempts] == ["resynthesize", "resynthesize", "escalate"]
     assert all(a["transcript"] == "Kein Text." for a in attempts)
@@ -503,7 +503,7 @@ def test_clean_script_is_archived_and_not_explicit(tmp_path):
     episode_id = run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW,
                      judge=judge)  # fmt: skip
     assert judge.scripts == ["Skript:\n0. Lena: Text.\n1. Felix: Text."]
-    record = json.loads((tmp_path / "episodes" / episode_id / "08_explicit.json").read_text())
+    record = json.loads((tmp_path / "episodes" / episode_id / "07_explicit.json").read_text())
     assert record == {
         "model": "claude-sonnet-5-5",
         "explicit": False,
@@ -535,31 +535,37 @@ def test_uncertain_or_found_flags_the_episode_explicit_without_blocking_it(tmp_p
                      judge=judge)  # fmt: skip
     episode = load_episode(tmp_path, episode_id)
     assert episode.explicit is True and episode.status == "completed" and episode.failure is None
-    record = json.loads((tmp_path / "episodes" / episode_id / "08_explicit.json").read_text())
+    record = json.loads((tmp_path / "episodes" / episode_id / "07_explicit.json").read_text())
     assert record["explicit"] is True and record["verdict"] == answer["verdict"]
 
 
-def test_failed_explicit_check_fails_the_run(tmp_path):
+def test_failed_explicit_check_fails_the_run_before_any_tts_cost(tmp_path):
     judge = FakeJudgeLlm(error=LlmError("The model declined the request."))
+    tts = FakeTts()
     with pytest.raises(GateFailure, match="Explicit check"):
-        run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, judge=judge)
+        run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, judge=judge,
+            tts=tts)  # fmt: skip
+    assert tts.calls == []
     episode = load_episode(tmp_path, "2026-11-19_rotfuchs")
     assert episode.status == "failed" and episode.explicit is None
     assert "declined" in episode.failure
     folder = tmp_path / "episodes" / episode.episode_id
-    record = json.loads((folder / "08_explicit.json").read_text())
+    record = json.loads((folder / "07_explicit.json").read_text())
     assert record["explicit"] is None and record["error"].startswith("LlmError")
-    assert (folder / "07_audio.json").exists()
+    assert not (folder / "08_audio.json").exists()
 
 
-def test_explicit_check_is_not_run_when_the_audio_step_fails(tmp_path):
+def test_explicit_check_runs_before_the_audio_step(tmp_path):
     judge = FakeJudgeLlm()
     tts = FakeTts(error=TtsError("TTS answered 401: no key"))
     with pytest.raises(GateFailure, match="TTS section 0"):
         run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, tts=tts,
             judge=judge)  # fmt: skip
-    assert judge.scripts == []
-    assert not (tmp_path / "episodes" / "2026-11-19_rotfuchs" / "08_explicit.json").exists()
+    assert judge.scripts == ["Skript:\n0. Lena: Text.\n1. Felix: Text."]
+    folder = tmp_path / "episodes" / "2026-11-19_rotfuchs"
+    assert json.loads((folder / "07_explicit.json").read_text())["explicit"] is False
+    assert load_episode(tmp_path, "2026-11-19_rotfuchs").explicit is False
+    assert (folder / "08_audio.json").exists()
 
 
 def test_review_sample_is_drawn_with_the_rate_in_the_state_file(tmp_path):
@@ -658,7 +664,7 @@ def test_crash_in_the_audio_step_keeps_the_audio_record(tmp_path):
     assert load_episode(tmp_path, "2026-11-19_rotfuchs").failure == (
         "Crash: RuntimeError: socket closed"
     )
-    assert (folder / "07_audio.json").exists()
+    assert (folder / "08_audio.json").exists()
     assert not (folder / "09_review.json").exists()
 
 
