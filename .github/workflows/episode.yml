@@ -13,8 +13,10 @@ concurrency:
   group: episode
   cancel-in-progress: false
 
+# contents: the archive commit; issues: the review issue (phase 1 step 12).
 permissions:
   contents: write
+  issues: write
 
 jobs:
   episode:
@@ -43,6 +45,7 @@ jobs:
           path: ~/.cache/huggingface/hub
           key: whisper-${{ steps.stt.outputs.model }}
       - name: Run pipeline
+        id: run
         env:
           ARTICLE: ${{ inputs.article }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -58,7 +61,17 @@ jobs:
           name: audio-${{ github.run_id }}
           path: build/audio/
           if-no-files-found: ignore
+      # Review issue for the drawn turns (phase 1 step 12); records its number in 09_review.json.
+      # No drawn turn, no issue. A failure fails the job; the archive is committed anyway.
+      - name: Open review issue
+        if: steps.run.outputs.episode_id != ''
+        env:
+          EPISODE_ID: ${{ steps.run.outputs.episode_id }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: uv run python -m gut_zu_wissen.review open "$EPISODE_ID"
       # Further pipeline steps follow in later plan steps.
+      # The review workflow commits labels to the archive as well; it never touches this run's
+      # folder, so a rejected push is rebased and retried.
       - name: Commit archive
         if: always()
         run: |
@@ -67,4 +80,9 @@ jobs:
           git add archive
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Archive: episode run for ${GITHUB_RUN_ID}"
-          git push
+          for attempt in 1 2 3 4 5; do
+            if git push; then exit 0; fi
+            echo "Push rejected (attempt ${attempt}); rebasing on the remote branch."
+            git pull --rebase
+          done
+          exit 1

@@ -1,0 +1,71 @@
+name: Review
+
+# Phase 1 step 12: the reviewer's comments on a review issue become labels in the archive
+# (09_review.json of the episode; rate r in archive/state/review.json).
+#
+# Security: the job starts only for comments by the reviewer (config/pipeline.toml,
+# review.reviewer and review.reviewer_associations; a test keeps both in sync), and the Python
+# step checks every comment it reads again. Comment text never reaches a shell or an expression:
+# the step reads the comments from the API. The code is always the default branch's.
+#
+# Every run reads all comments of the issue again, so edits, deletions and runs that GitHub
+# cancelled while another one for the same issue was pending are picked up by the next run.
+
+on:
+  issue_comment:
+    types: [created, edited, deleted]
+  workflow_dispatch:
+    inputs:
+      issue:
+        description: "Number of the review issue to read again"
+        required: true
+        type: number
+
+# One run per issue at a time; runs for different issues may overlap and retry their push.
+concurrency:
+  group: review-${{ github.event.issue.number || inputs.issue }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  labels:
+    if: >-
+      (github.event_name == 'issue_comment'
+      && !github.event.issue.pull_request
+      && github.event.comment.user.login == 'ajFourteen'
+      && github.event.sender.login == 'ajFourteen'
+      && contains(fromJSON('["OWNER", "MEMBER", "COLLABORATOR"]'),
+      github.event.comment.author_association))
+      || (github.event_name == 'workflow_dispatch' && github.actor == 'ajFourteen')
+    runs-on: ubuntu-latest
+    env:
+      ISSUE: ${{ github.event.issue.number || inputs.issue }}
+      GITHUB_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - run: uv sync --no-dev
+      # A rejected push (an episode run or another review pushed first) starts over from the
+      # remote state, so the rate r is always computed on the latest state file.
+      - name: Write labels to the archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4 5; do
+            git fetch --quiet origin main
+            git reset --quiet --hard origin/main
+            uv run python -m gut_zu_wissen.review apply "$ISSUE" --reply-file build/review-reply.md
+            git add archive
+            if git diff --cached --quiet; then exit 0; fi
+            git commit --quiet -m "Archive: review labels from issue #${ISSUE}"
+            if git push --quiet origin HEAD:main; then exit 0; fi
+            echo "Push rejected (attempt ${attempt}); reading the archive again."
+          done
+          exit 1
+      - name: Reply on the issue
+        run: uv run python -m gut_zu_wissen.review reply "$ISSUE" build/review-reply.md
