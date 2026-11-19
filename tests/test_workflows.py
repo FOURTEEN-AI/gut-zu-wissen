@@ -46,3 +46,7 @@ def test_episode_archive_is_committed_on_failure_and_review_issue_only_on_succes
     assert "if: always()" in _step(EPISODE, "Commit archive")
     # the run step sets episode_id only after a successful run
     assert "if: steps.run.outputs.episode_id != ''" in _step(EPISODE, "Open review issue")
+
+
+def test_episode_job_has_a_timeout():
+    assert "  episode:\n    runs-on: ubuntu-latest\n    timeout-minutes: 90\n" in EPISODE
