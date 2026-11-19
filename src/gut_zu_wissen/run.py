@@ -2,7 +2,7 @@
 
 Phase 1 steps 2 to 7: fetch the article, apply the gates, segment, extract facts, rank, add the
 linked intros, write the dialog, judge it, write the episode folder.
-Later steps are added here and move into the orchestrator (step 8).
+The turn and conversation loops live in orchestrator.py (step 8); later steps are added here.
 """
 
 from __future__ import annotations
@@ -30,14 +30,13 @@ from gut_zu_wissen.archive import (
     slugify,
     write_json,
 )
-from gut_zu_wissen.dialog import used_facts_gate, write_dialog
 from gut_zu_wissen.extraction import extract_facts
 from gut_zu_wissen.fetch import ArticleNotFoundError, HttpWikipediaApi, WikipediaApi, fetch_article
 from gut_zu_wissen.gates import is_living_person, repeat_gate_allows
-from gut_zu_wissen.jev import HttpJev, Jev, JevAbortError
-from gut_zu_wissen.judge import judge_dialog, judged_facts_gate, used_in_accepted
-from gut_zu_wissen.linked import fetch_linked_intros
+from gut_zu_wissen.jev import HttpJev, Jev
+from gut_zu_wissen.linked import LinkedIntro, SkippedLink, fetch_linked_intros
 from gut_zu_wissen.llm import AnthropicLlm, StructuredLlm
+from gut_zu_wissen.orchestrator import GateFailure, Offer, Orchestration, orchestrate
 from gut_zu_wissen.ranking import RankedFact, link_targets, offer_gate, rank_facts, ranked, raw_of
 from gut_zu_wissen.render import ParseRenderer
 from gut_zu_wissen.segmentation import segment_article
@@ -45,10 +44,6 @@ from gut_zu_wissen.segmentation import segment_article
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CONFIG_PATH = REPO_ROOT / "config" / "pipeline.toml"
 ARCHIVE_ROOT = REPO_ROOT / "archive"
-
-
-class GateFailure(Exception):
-    """A gate stopped the run; the message is the notice for the owner."""
 
 
 def load_config(path: Path = CONFIG_PATH) -> dict:
@@ -100,79 +95,83 @@ def run(
     write_json(folder / FACTS_FILE, facts.to_dict())
 
     quotas = config["quotas"]
-    main = rank_facts(llm, facts.facts, quotas["main_facts"])
-    targets = link_targets(raw_of(main, segments), article.title)
-    intros, skipped = fetch_linked_intros(api, llm, renderer, targets, article.title, config, now)
-    for intro in intros:
-        write_json(folder / LINKED_DIR / f"{slugify(intro.title)}.json", intro.to_dict())
-    pool = [(f, i) for i in intros if i.extraction for f in i.extraction.facts]
-    chosen = rank_facts(llm, [f for f, _ in pool], quotas["linked_intro_facts"])
-    source = {f.segment_id: i for f, i in pool}
-    linked = [
-        RankedFact(n, source[f.segment_id].title, source[f.segment_id].revid, f)
-        for n, f in enumerate(chosen, start=1)
-    ]
-    write_json(
-        folder / RANKING_FILE,
-        {
-            "main_facts": [r.to_dict() for r in ranked(main, article.title, article.revid)],
-            "linked_facts": [r.to_dict() for r in linked],
-            "linked_articles": [
-                {
-                    "title": i.title,
-                    "revid": i.revid,
-                    "file": f"{LINKED_DIR}/{slugify(i.title)}.json",
-                }
-                for i in intros
-            ],
-            "skipped_links": [asdict(s) for s in skipped],
-        },
-    )
-    failure = offer_gate(len(main) + len(linked), quotas["min_used_facts"])
-    if failure:
-        record.status, record.failure = "failed", failure
-        save_episode(archive_root, record)
-        raise GateFailure(failure)
+    by_target: dict[str, LinkedIntro | None] = {}
+    skipped: list[SkippedLink] = []
+    written: set[str] = set()
 
-    main_ranked = ranked(main, article.title, article.revid)
-    dialog = write_dialog(llm, main_ranked, linked, quotas["min_used_facts"])
-    write_json(folder / DIALOG_FILE, dialog.to_dict())
-    # Turn and conversation regeneration (D1, D5, D6) come with the orchestrator (step 8).
-    if dialog.problems:
-        failure = (
-            f"Gate fact IDs: {len(dialog.problems)} problem(s) in the dialog, see {DIALOG_FILE}."
+    def make_offer(excluded: frozenset[str]) -> Offer:
+        """Both rankings without the excluded facts (D6); linked intros are fetched once."""
+        main = rank_facts(llm, facts.facts, quotas["main_facts"], excluded)
+        targets = link_targets(raw_of(main, segments), article.title)
+        for target in targets:
+            if target in by_target:
+                continue
+            found, not_used = fetch_linked_intros(
+                api, llm, renderer, [target], article.title, config, now
+            )
+            skipped.extend(not_used)
+            by_target[target] = found[0] if found else None
+            if found and found[0].title not in written:
+                written.add(found[0].title)
+                write_json(
+                    folder / LINKED_DIR / f"{slugify(found[0].title)}.json", found[0].to_dict()
+                )
+        current: list[LinkedIntro] = []
+        for target in targets:  # an article reached by two links counts once
+            intro = by_target[target]
+            if intro and intro.title not in {i.title for i in current}:
+                current.append(intro)
+        pool = [(f, i) for i in current if i.extraction for f in i.extraction.facts]
+        chosen = rank_facts(llm, [f for f, _ in pool], quotas["linked_intro_facts"], excluded)
+        source = {f.segment_id: i for f, i in pool}
+        linked = [
+            RankedFact(n, source[f.segment_id].title, source[f.segment_id].revid, f)
+            for n, f in enumerate(chosen, start=1)
+        ]
+        main_ranked = ranked(main, article.title, article.revid)
+        write_json(
+            folder / RANKING_FILE,
+            {
+                "main_facts": [r.to_dict() for r in main_ranked],
+                "linked_facts": [r.to_dict() for r in linked],
+                "linked_articles": [
+                    {
+                        "title": i.title,
+                        "revid": i.revid,
+                        "file": f"{LINKED_DIR}/{slugify(i.title)}.json",
+                    }
+                    for i in current
+                ],
+                "skipped_links": [asdict(s) for s in skipped],
+                "excluded_fact_ids": sorted(excluded),
+            },
         )
-    else:
-        failure = used_facts_gate(len(dialog.used_fact_ids), quotas["min_used_facts"])
-    if failure:
-        record.status, record.failure = "failed", failure
-        save_episode(archive_root, record)
-        raise GateFailure(failure)
+        failure = offer_gate(len(main_ranked) + len(linked), quotas["min_used_facts"])
+        if failure:
+            raise GateFailure(failure)
+        return Offer(main_ranked, linked)
 
-    facts_by_id = {r.fact.segment_id: r for r in [*main_ranked, *linked]}
+    state = Orchestration()
     try:
-        judgements = judge_dialog(jev, judge_llm, dialog.turns, facts_by_id, config["judge"]["t"])
-    except JevAbortError as exc:
-        failure = f"Jev aborted the run: {exc}"
-        record.status, record.failure = "failed", failure
+        orchestrate(state, make_offer, llm, judge_llm, jev, config)
+    except GateFailure as exc:
+        if state.dialog:
+            write_json(folder / DIALOG_FILE, state.dialog_dict())
+            write_json(folder / JUDGEMENT_FILE, state.judgement_dict())
+        record.status, record.failure = "failed", str(exc)
         save_episode(archive_root, record)
-        raise GateFailure(failure) from exc
-    used = used_in_accepted(dialog.turns, judgements, facts_by_id)
-    write_json(
-        folder / JUDGEMENT_FILE,
-        {"judgements": [j.to_dict() for j in judgements], "used_fact_ids": used},
-    )
-    # Turn regeneration and the neighbour cascade (D1) come with the orchestrator (step 8).
-    rejected = [j.turn_index for j in judgements if not j.accepted]
-    if rejected:
-        failure = f"Judge rejected turn(s) {rejected}, see {JUDGEMENT_FILE}."
-    else:
-        failure = judged_facts_gate(len(used), quotas["min_used_facts"])
-    if failure:
-        record.status, record.failure = "failed", failure
-        save_episode(archive_root, record)
-        raise GateFailure(failure)
+        raise
+    write_json(folder / DIALOG_FILE, state.dialog_dict())
+    write_json(folder / JUDGEMENT_FILE, state.judgement_dict())
     return record.episode_id
+
+
+def write_job_summary(text: str) -> None:
+    """Escalation: reason in the job summary of the workflow run (no-op outside Actions)."""
+    path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if path:
+        with open(path, "a", encoding="utf-8") as f:
+            f.write(text + "\n")
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -207,8 +206,10 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Article not found: {args[0]}", file=sys.stderr)
         return 1
     except GateFailure as exc:
-        print(f"Aborted: {exc}", file=sys.stderr)
+        print(f"::error::Aborted: {exc}", file=sys.stderr)
+        write_job_summary(f"## Episode aborted\n\n{exc}\n\nDetails in the archive folder.")
         return 1
+    write_job_summary(f"## Episode {episode_id}\n\nSteps up to the judge done.")
     print(f"Episode {episode_id}: steps up to judge done.")
     return 0
 

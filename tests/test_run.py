@@ -21,6 +21,8 @@ CONFIG = {
         "main_facts": 20,
         "linked_intro_facts": 6,
         "min_used_facts": 1,
+        "turn_retries": 2,
+        "conversation_retries": 2,
     },
 }
 
@@ -243,7 +245,8 @@ def test_dialog_is_archived_with_used_facts(tmp_path):
 
 def test_unknown_fact_id_in_dialog_fails_the_run(tmp_path):
     llm = FakeLlm(felix={"fact_ids": ["9-9999"]})
-    with pytest.raises(GateFailure, match="fact IDs"):
+    # The fake author cannot repair the turn, so every conversation fails the same way.
+    with pytest.raises(GateFailure, match="Conversation regeneration budget used up"):
         run(FakeApi("Rotfuchs", []), llm, tmp_path, CONFIG, "Rotfuchs", NOW)
     assert load_episode(tmp_path, "2026-11-19_rotfuchs").status == "failed"
 
@@ -266,17 +269,23 @@ def test_judgements_are_archived(tmp_path):
     assert data["used_fact_ids"] == ["5-0000"]
 
 
-def test_rejected_turn_fails_the_run_with_reason_archived(tmp_path):
-    with pytest.raises(GateFailure, match="rejected turn"):
+def test_rejected_turns_exclude_the_fact_and_the_empty_offer_fails_the_run(tmp_path):
+    # Jev rejects everything: the turn budget runs out, the only fact is excluded (D6) and the
+    # next offer is empty (D5).
+    with pytest.raises(GateFailure, match="D5"):
         run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, FakeJev(0.01))
     folder = tmp_path / "episodes" / "2026-11-19_rotfuchs"
-    reason = json.loads((folder / "06_judgement.json").read_text())["judgements"][0]["reason"]
-    assert reason == "Ablehnungsgrund."
+    judgement = json.loads((folder / "06_judgement.json").read_text())
+    assert judgement["judgements"][0]["accepted"] is False
+    ranking = json.loads((folder / "04_ranking.json").read_text())
+    assert ranking["excluded_fact_ids"] == ["5-0000"]
+    dialog = json.loads((folder / "05_dialog.json").read_text())
+    assert dialog["discarded_conversations"][0]["excluded_fact_ids"] == ["5-0000"]
     assert load_episode(tmp_path, "2026-11-19_rotfuchs").status == "failed"
 
 
 def test_uncertain_turn_is_decided_by_llm_judge(tmp_path):
-    with pytest.raises(GateFailure, match="rejected turn"):
+    with pytest.raises(GateFailure, match="D5"):
         run(
             FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW,
             FakeJev(0.5), FakeJudgeLlm(supported=False),
@@ -288,3 +297,15 @@ def test_jev_abort_fails_the_run(tmp_path):
     with pytest.raises(GateFailure, match="Jev aborted"):
         run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, jev)
     assert load_episode(tmp_path, "2026-11-19_rotfuchs").status == "failed"
+
+
+def test_job_summary_is_appended_when_running_in_actions(tmp_path, monkeypatch):
+    from gut_zu_wissen.run import write_job_summary
+
+    path = tmp_path / "summary.md"
+    monkeypatch.setenv("GITHUB_STEP_SUMMARY", str(path))
+    write_job_summary("## Episode aborted")
+    write_job_summary("Reason")
+    assert path.read_text() == "## Episode aborted\nReason\n"
+    monkeypatch.delenv("GITHUB_STEP_SUMMARY")
+    write_job_summary("ignored")  # outside Actions: no-op
