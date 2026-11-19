@@ -17,52 +17,37 @@ from gut_zu_wissen.ranking import RankedFact
 
 SPEAKERS = ("Lena", "Felix")
 
-DIALOG_SCHEMA = {
+TURN_SCHEMA = {
     "type": "object",
     "properties": {
-        "turns": {
+        "speaker": {"type": "string", "enum": list(SPEAKERS)},
+        "text": {"type": "string"},
+        "fact_ids": {"type": "array", "items": {"type": "string"}},
+        "statements": {
             "type": "array",
             "items": {
                 "type": "object",
                 "properties": {
-                    "speaker": {"type": "string", "enum": list(SPEAKERS)},
                     "text": {"type": "string"},
                     "fact_ids": {"type": "array", "items": {"type": "string"}},
-                    "statements": {
-                        "type": "array",
-                        "items": {
-                            "type": "object",
-                            "properties": {
-                                "text": {"type": "string"},
-                                "fact_ids": {"type": "array", "items": {"type": "string"}},
-                            },
-                            "required": ["text", "fact_ids"],
-                            "additionalProperties": False,
-                        },
-                    },
                 },
-                "required": ["speaker", "text", "fact_ids", "statements"],
+                "required": ["text", "fact_ids"],
                 "additionalProperties": False,
             },
-        }
+        },
     },
+    "required": ["speaker", "text", "fact_ids", "statements"],
+    "additionalProperties": False,
+}
+
+DIALOG_SCHEMA = {
+    "type": "object",
+    "properties": {"turns": {"type": "array", "items": TURN_SCHEMA}},
     "required": ["turns"],
     "additionalProperties": False,
 }
 
-SYSTEM_PROMPT = """\
-Du schreibst das Gespräch für einen deutschen Podcast namens „Gut zu wissen“. Zwei feste \
-Personen sprechen: Lena, die Expertin, und Felix, der neugierig Fragende. Sie duzen sich und \
-sprechen sich mit Vornamen an. Das Gespräch dauert etwa 15 Minuten, das sind 2.000 bis 2.300 \
-Wörter. Die Begrüßung und der Abspann sind fester Text außerhalb deines Auftrags: beginne direkt \
-beim Thema und schreibe keinen Abschied.
-
-Du bekommst Fakten aus Wikipedia, jeweils mit einer ID in eckigen Klammern und gegebenenfalls \
-einem Kontext. Der Kontext dient nur zum Verstehen (Pronomen, Ortsangaben), nie als Beleg. \
-Fakten mit dem Vermerk „(verlinkter Artikel: …)“ stammen aus der Einleitung eines verlinkten \
-Artikels. Du wählst aus dem Angebot, was du brauchst, und entwirfst einen Erzählbogen; du musst \
-nicht alle Fakten verwenden, aber mindestens {min_used}. Bevorzuge die überraschendsten.
-
+RULES = """\
 Regeln:
 - Lena weiß nur, was in den verwendeten Fakten steht. Kein Wissen von außerhalb.
 - Jede Behauptung, jede Meinung und jede Prämisse einer Frage braucht Fakt-IDs. Gib sie als \
@@ -85,9 +70,42 @@ schreibst du aus, wie sie gesprochen werden. Fachbegriffe nur mit Erklärung aus
 - Schreibe reinen Text zum Sprechen: kein Markup, keine Aufzählungszeichen, keine Klammern mit \
 Quellenangaben, keine Regieanweisungen.
 - Ein Redebeitrag reicht bis zum Sprecherwechsel. Die beiden sprechen abwechselnd, aber nicht \
-starr; kurze Reaktionen sind eigene Redebeiträge.
+starr; kurze Reaktionen sind eigene Redebeiträge."""
 
-Antworte mit JSON im vorgegebenen Schema."""
+SYSTEM_PROMPT = (
+    """\
+Du schreibst das Gespräch für einen deutschen Podcast namens „Gut zu wissen“. Zwei feste \
+Personen sprechen: Lena, die Expertin, und Felix, der neugierig Fragende. Sie duzen sich und \
+sprechen sich mit Vornamen an. Das Gespräch dauert etwa 15 Minuten, das sind 2.000 bis 2.300 \
+Wörter. Die Begrüßung und der Abspann sind fester Text außerhalb deines Auftrags: beginne direkt \
+beim Thema und schreibe keinen Abschied.
+
+Du bekommst Fakten aus Wikipedia, jeweils mit einer ID in eckigen Klammern und gegebenenfalls \
+einem Kontext. Der Kontext dient nur zum Verstehen (Pronomen, Ortsangaben), nie als Beleg. \
+Fakten mit dem Vermerk „(verlinkter Artikel: …)“ stammen aus der Einleitung eines verlinkten \
+Artikels. Du wählst aus dem Angebot, was du brauchst, und entwirfst einen Erzählbogen; du musst \
+nicht alle Fakten verwenden, aber mindestens {min_used}. Bevorzuge die überraschendsten.
+
+"""
+    + RULES
+    + "\n\nAntworte mit JSON im vorgegebenen Schema."
+)
+
+TURN_PROMPT = (
+    """\
+Du schreibst einen einzelnen Redebeitrag eines deutschen Podcast-Gesprächs neu. Es sprechen \
+zwei feste Personen: Lena, die Expertin, und Felix, der neugierig Fragende. Sie duzen sich.
+
+Du bekommst alle angebotenen Fakten mit ID in eckigen Klammern (der Kontext dient nur zum \
+Verstehen, nie als Beleg), dazu den vorherigen und den nächsten Redebeitrag, den zu ersetzenden \
+Redebeitrag und gegebenenfalls den Grund, warum er ersetzt wird. Schreibe nur den neuen \
+Redebeitrag derselben Person. Er muss zum vorherigen und zum nächsten Redebeitrag passen. \
+Verwende Fakten aus dem Angebot; behebe den genannten Grund.
+
+"""
+    + RULES
+    + "\n\nAntworte mit JSON im vorgegebenen Schema: ein Redebeitrag."
+)
 
 
 @dataclass
@@ -223,3 +241,47 @@ def write_dialog(
     offered = {r.fact.segment_id for r in [*main, *linked]}
     turns = parse_dialog(answer)
     return Dialog(turns, check_turns(turns, offered), used_fact_ids(turns, offered))
+
+
+def format_turn_context(turns: Sequence[Turn], index: int, reason: str | None) -> str:
+    """The neighbours, the turn to replace and the reason, as plain text for the author."""
+    lines: list[str] = []
+    if index > 0:
+        lines += [
+            f"Vorheriger Redebeitrag ({turns[index - 1].speaker}):",
+            turns[index - 1].text,
+            "",
+        ]
+    old = turns[index]
+    lines += [f"Zu ersetzender Redebeitrag ({old.speaker}):", old.text, ""]
+    lines += [
+        "Grund für den Ersatz:",
+        reason
+        or "Der vorherige Redebeitrag wurde neu geschrieben; das Gespräch muss wieder "
+        "stimmig sein. Behalte die Sachaussagen des alten Redebeitrags bei, soweit die Fakten "
+        "sie tragen.",
+        "",
+    ]
+    if index + 1 < len(turns):
+        lines += [f"Nächster Redebeitrag ({turns[index + 1].speaker}):", turns[index + 1].text]
+    return "\n".join(lines).strip()
+
+
+def regenerate_turn(
+    llm: StructuredLlm,
+    offer: str,
+    turns: Sequence[Turn],
+    index: int,
+    reason: str | None,
+) -> Turn:
+    """A new version of turn `index` with its neighbours as context (design: Fehlerbehandlung).
+
+    The speaker stays the one of the replaced turn. `offer` is the text of `format_offer`.
+    """
+    user = f"Angebot:\n{offer}\n\n{format_turn_context(turns, index, reason)}"
+    answer = llm.complete_json(TURN_PROMPT, user, TURN_SCHEMA)
+    (new,) = parse_dialog({"turns": [answer]}) or [Turn(index, "", "", [])]
+    new.index = index
+    if turns[index].speaker in SPEAKERS:
+        new.speaker = turns[index].speaker
+    return new

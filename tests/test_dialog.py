@@ -1,10 +1,13 @@
 from gut_zu_wissen.dialog import (
     DIALOG_SCHEMA,
+    TURN_SCHEMA,
     Statement,
     Turn,
     check_turns,
     format_offer,
+    format_turn_context,
     parse_dialog,
+    regenerate_turn,
     used_fact_ids,
     used_facts_gate,
     write_dialog,
@@ -109,3 +112,23 @@ def test_write_dialog_sends_offer_and_records_problems_and_use():
     assert "mindestens 10" in system and "[2-0000]" in user and schema is DIALOG_SCHEMA
     assert dialog.used_fact_ids == ["1-0000"]
     assert [p.turn_index for p in dialog.problems] == [1]
+
+
+def test_turn_context_has_neighbours_old_turn_and_reason():
+    turns = [turn(0, text="Eins."), turn(1, "Felix", "Zwei."), turn(2, text="Drei.")]
+    out = format_turn_context(turns, 1, "Zahl falsch.")
+    assert out.index("Eins.") < out.index("Zwei.") < out.index("Zahl falsch.") < out.index("Drei.")
+    assert "(Felix)" in out
+    assert "Vorheriger" not in format_turn_context(turns, 0, None)
+    assert "Nächster" not in format_turn_context(turns, 2, None)
+    assert "neu geschrieben" in format_turn_context(turns, 2, None)
+
+
+def test_regenerate_turn_keeps_index_and_speaker_and_uses_turn_schema():
+    answer = {"speaker": "Lena", "text": "Neu.", "fact_ids": ["1-0000"], "statements": []}
+    llm = FakeLlm(answer)
+    turns = [turn(0), turn(1, "Felix", "Alt.")]
+    new = regenerate_turn(llm, "[1-0000] Fakt.", turns, 1, "Grund.")
+    assert (new.index, new.speaker, new.text, new.fact_ids) == (1, "Felix", "Neu.", ["1-0000"])
+    _, user, schema = llm.calls[0]
+    assert schema is TURN_SCHEMA and "[1-0000] Fakt." in user and "Grund." in user
