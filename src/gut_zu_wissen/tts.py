@@ -105,6 +105,12 @@ def _balanced_cuts(prefix: Sequence[int], count: int) -> list[int]:
     return cuts[::-1]
 
 
+def voices_of(config: Mapping) -> dict[str, str]:
+    """Speaker name to voice, from the `[models]` table (persona document, spike S4)."""
+    models = config["models"]
+    return {"Lena": models["tts_voice_lena"], "Felix": models["tts_voice_felix"]}
+
+
 def build_request(model: str, voices: Mapping[str, str], turns: Sequence[tuple[str, str]]) -> dict:
     """Two-speaker interaction (spike S4): one text item per turn, annotated with its speaker."""
     return {

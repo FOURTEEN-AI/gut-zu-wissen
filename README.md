@@ -16,7 +16,7 @@ The podcast itself is published under CC BY-SA 4.0. Wikipedia content is from th
 
 ## Development
 
-Requires Python 3.12, [uv](https://docs.astral.sh/uv/), and the system packages `libcairo2` and `fonts-dejavu-core` (cover rendering).
+Requires Python 3.12, [uv](https://docs.astral.sh/uv/), and the system packages `libcairo2` and `fonts-dejavu-core` (cover rendering). `ffmpeg` is optional locally: the audio test uses it as an independent loudness meter when it is installed (CI installs it).
 
 ```sh
 uv sync                      # install dependencies incl. dev group
@@ -26,6 +26,12 @@ uv run ruff format --check . # format check (drop --check to format)
 ```
 
 Archive layout: `archive/episodes/<date>_<slug>/episode.json` plus one JSON file per pipeline step (`01_article.json`, `02_segments.json`, `03_facts.json`, …); see [design](docs/wikipedia-podcast-pipeline.md).
+
+Intro and outro audio (`assets/audio/`) is synthesised once with the episode voices and committed; the pipeline refuses to run when it is missing or no longer matches the text, model or voices:
+
+```sh
+uv run python -m gut_zu_wissen.intro_outro   # needs GEMINI_API_KEY; --force to redo
+```
 
 Configuration (threshold t, sampling rate r, model IDs, quotas, prices): [config/pipeline.toml](config/pipeline.toml). Values marked `PLACEHOLDER` are not decided yet.
 
