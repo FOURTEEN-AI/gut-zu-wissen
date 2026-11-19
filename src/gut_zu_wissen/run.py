@@ -116,6 +116,7 @@ def run(
     clock: Callable[[], datetime] | None = None,
     usage: Mapping[str, Usage] | None = None,
     secrets: Collection[str] = (),
+    dialog_llm: StructuredLlm | None = None,
 ) -> str:
     """Run the steps implemented so far. Returns the episode ID; raises GateFailure.
 
@@ -230,7 +231,9 @@ def run(
 
         state = Orchestration()
         try:
-            orchestrate(state, make_offer, llm, judge_llm, jev, config)
+            # The dialog author (dialog and turn regenerations) may use its own client with a
+            # larger output ceiling; extraction and ranking keep `llm`.
+            orchestrate(state, make_offer, dialog_llm or llm, judge_llm, jev, config)
         except GateFailure as exc:
             if state.dialog:
                 write_json(folder / DIALOG_FILE, state.dialog_dict())
@@ -331,6 +334,10 @@ def main(argv: list[str] | None = None) -> int:
     models = config["models"]
     usage = {role: Usage(models[role]) for role in ("author", "llm_judge", "jev")}
     llm = AnthropicLlm(models["author"], max_tokens, usage=usage["author"])
+    # The dialog author writes the whole dialog in one answer: its own, larger output ceiling.
+    dialog_llm = AnthropicLlm(
+        models["author"], config["quotas"]["llm_max_tokens_dialog"], usage=usage["author"]
+    )
     judge_llm = AnthropicLlm(models["llm_judge"], max_tokens, usage=usage["llm_judge"])
     jev_config = config["jev"]
     jev = HttpJev(
@@ -372,6 +379,7 @@ def main(argv: list[str] | None = None) -> int:
             audio_root=AUDIO_ROOT,
             usage=usage,
             secrets=secrets,
+            dialog_llm=dialog_llm,
         )
     except ArticleNotFoundError:
         print(f"Article not found: {args[0]}", file=sys.stderr)

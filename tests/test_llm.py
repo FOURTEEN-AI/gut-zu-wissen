@@ -1,3 +1,4 @@
+from contextlib import contextmanager
 from types import SimpleNamespace
 
 import pytest
@@ -14,7 +15,13 @@ class FakeClient:
             stop_details=None,
             content=[SimpleNamespace(type="text", text=text)],
         )
-        self.messages = SimpleNamespace(create=lambda **kw: (self.calls.append(kw), response)[1])
+        self.response = response
+        self.messages = SimpleNamespace(stream=self._stream)
+
+    @contextmanager
+    def _stream(self, **kw):
+        self.calls.append(kw)
+        yield SimpleNamespace(get_final_message=lambda: self.response)
 
 
 def test_request_uses_structured_output_without_forced_tool_or_sampling():
@@ -38,9 +45,7 @@ def test_failures_raise_llm_error(text, stop):
 
 
 def with_usage(client: FakeClient, input_tokens: int, output_tokens: int) -> FakeClient:
-    response = client.messages.create()
-    client.calls.clear()
-    response.usage = SimpleNamespace(input_tokens=input_tokens, output_tokens=output_tokens)
+    client.response.usage = SimpleNamespace(input_tokens=input_tokens, output_tokens=output_tokens)
     return client
 
 

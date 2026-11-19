@@ -142,7 +142,7 @@ class FakeStt:
 
 def run(
     api, llm, root, config, title, now, jev=None, judge=None, tts=None, fixed=True, stt=None,
-    clock=None, usage=None,
+    clock=None, usage=None, dialog_llm=None,
 ):  # fmt: skip
     fixed_dir = root / "fixed"
     tts = tts or FakeTts()
@@ -151,8 +151,24 @@ def run(
     return run_pipeline(
         api, llm, judge or FakeJudgeLlm(), jev or FakeJev(), root, config, title, now,
         tts=tts, stt=stt or FakeStt(tts=tts), fixed_dir=fixed_dir, audio_root=root / "build",
-        clock=clock, usage=usage,
+        clock=clock, usage=usage, dialog_llm=dialog_llm,
     )  # fmt: skip
+
+
+def test_dialog_author_uses_its_own_llm_when_given(tmp_path):
+    # Extraction and ranking keep `llm`; the dialog goes to `dialog_llm` (larger output ceiling).
+    llm, dialog_llm = FakeLlm(), FakeLlm()
+    run(
+        FakeApi("Rotfuchs", ["Kategorie:Hunde"]), llm, tmp_path, CONFIG, "Rotfuchs", NOW,
+        dialog_llm=dialog_llm,
+    )  # fmt: skip
+    assert len(dialog_llm.calls) == 1 and llm.calls  # one dialog; extraction/ranking elsewhere
+    assert dialog_llm.calls[0] not in llm.calls
+
+
+def test_dialog_ceiling_is_its_own_config_value():
+    quotas = REAL["quotas"]
+    assert quotas["llm_max_tokens_dialog"] > quotas["llm_max_tokens"]
 
 
 class FakeApi:

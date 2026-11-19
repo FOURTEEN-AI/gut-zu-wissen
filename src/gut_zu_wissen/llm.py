@@ -45,13 +45,16 @@ class AnthropicLlm:
         self._usage = usage
 
     def complete_json(self, system: str, user: str, schema: dict) -> dict:
-        response = self._client.messages.create(
+        # Streamed, so that large output ceilings (dialog author) stay under the SDK's HTTP
+        # timeout; the final message carries the same fields as a non-streamed response.
+        with self._client.messages.stream(
             model=self._model,
             max_tokens=self._max_tokens,
             system=system,
             messages=[{"role": "user", "content": user}],
             output_config={"format": {"type": "json_schema", "schema": schema}},
-        )
+        ) as stream:
+            response = stream.get_final_message()
         counts = getattr(response, "usage", None)
         if self._usage is not None and counts is not None:
             self._usage.add(counts.input_tokens, counts.output_tokens)
