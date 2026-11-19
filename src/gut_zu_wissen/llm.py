@@ -1,7 +1,7 @@
 """LLM access behind an interface (CLAUDE.md: LLM and API calls behind interfaces).
 
 `StructuredLlm` returns a JSON object that follows a JSON schema. Tests use fakes; CI never
-calls the live API. The API key comes from `CLAUDE_API_KEY`; the entry point passes it in.
+calls the live API. The API key comes from the environment (`ANTHROPIC_API_KEY`).
 """
 
 from __future__ import annotations
@@ -29,15 +29,11 @@ class AnthropicLlm:
     """
 
     def __init__(
-        self,
-        model: str,
-        max_tokens: int,
-        client: anthropic.Anthropic | None = None,
-        api_key: str | None = None,
+        self, model: str, max_tokens: int, client: anthropic.Anthropic | None = None
     ) -> None:
         self._model = model
         self._max_tokens = max_tokens
-        self._client = client or anthropic.Anthropic(api_key=api_key)
+        self._client = client or anthropic.Anthropic()
 
     def complete_json(self, system: str, user: str, schema: dict) -> dict:
         response = self._client.messages.create(
