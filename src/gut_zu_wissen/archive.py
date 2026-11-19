@@ -21,6 +21,7 @@ SEGMENTS_FILE = "02_segments.json"
 FACTS_FILE = "03_facts.json"
 RANKING_FILE = "04_ranking.json"
 DIALOG_FILE = "05_dialog.json"
+JUDGEMENT_FILE = "06_judgement.json"
 LINKED_DIR = "linked"
 
 EpisodeStatus = Literal["running", "published", "failed"]

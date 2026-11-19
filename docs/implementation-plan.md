@@ -37,7 +37,7 @@ These retire the open risks before the build starts.
 6. **Dialog author.** ✅ Done.
    - Output schema per turn (text, fact IDs, explicit statements with fact IDs). Gate: fact IDs exist.
    - Gate: fewer than 10 used facts → conversation regeneration (D5).
-7. **Judge.**
+7. **Judge.** ✅ Done.
    - Question builder: one question per statement plus the completeness question.
    - Jev client implementing the error table.
    - Threshold decision as a pure function, with tests at t, 1−t and between.

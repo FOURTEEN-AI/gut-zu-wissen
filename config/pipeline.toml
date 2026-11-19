@@ -6,6 +6,11 @@
 t = 0.95                 # threshold, one value for all questions; recalibrated later
 # all p >= t: supported; any p <= 1 - t: not supported; otherwise LLM judge verdict
 
+[jev]
+max_retries = 3          # transient errors (429, 5xx, timeout), then the LLM judge decides
+backoff_seconds = 2.0    # doubled per attempt
+timeout_seconds = 120
+
 [review]
 r_initial = 1.0          # sampling rate start (100 %)
 r_min = 0.01             # lower bound (1 %)

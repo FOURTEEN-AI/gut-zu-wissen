@@ -6,10 +6,13 @@ import pytest
 
 from gut_zu_wissen.archive import create_episode, load_episode, save_episode
 from gut_zu_wissen.fetch import ArticleNotFoundError
-from gut_zu_wissen.run import GateFailure, load_config, run
+from gut_zu_wissen.jev import JevAbortError
+from gut_zu_wissen.run import GateFailure, load_config
+from gut_zu_wissen.run import run as run_pipeline
 
 NOW = datetime(2026, 11, 19, 10, 30, tzinfo=UTC)
 CONFIG = {
+    "judge": {"t": 0.95},
     "quotas": {
         "repeat_gate_months": 6,
         "max_context_segments": 3,
@@ -18,7 +21,7 @@ CONFIG = {
         "main_facts": 20,
         "linked_intro_facts": 6,
         "min_used_facts": 1,
-    }
+    },
 }
 
 
@@ -42,6 +45,34 @@ class FakeLlm:
         if "ranked_ids" in schema["properties"]:
             return {"ranked_ids": ids[::-1]}
         return {"candidates": [{"segment_id": i, "context_ids": []} for i in ids]}
+
+
+class FakeJev:
+    """Answers every question with `p`, or raises `error`."""
+
+    def __init__(self, p: float = 0.99, error: Exception | None = None) -> None:
+        self.p, self.error = p, error
+
+    def ask(self, state: dict, questions: dict) -> dict:
+        if self.error:
+            raise self.error
+        return {key: self.p for key in questions}
+
+
+class FakeJudgeLlm:
+    def __init__(self, supported: bool = True) -> None:
+        self.supported = supported
+
+    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+        if "supported" in schema["properties"]:
+            return {"supported": self.supported, "reason": "Begründung."}
+        return {"reason": "Ablehnungsgrund."}
+
+
+def run(api, llm, root, config, title, now, jev=None, judge=None):
+    return run_pipeline(
+        api, llm, judge or FakeJudgeLlm(), jev or FakeJev(), root, config, title, now
+    )
 
 
 class FakeApi:
@@ -155,7 +186,7 @@ def test_ranking_adds_linked_intros_with_own_revid(tmp_path):
 
 
 def test_too_few_offered_facts_fail_the_run(tmp_path):
-    config = {"quotas": {**CONFIG["quotas"], "min_used_facts": 10}}
+    config = {**CONFIG, "quotas": {**CONFIG["quotas"], "min_used_facts": 10}}
     with pytest.raises(GateFailure, match="D5"):
         run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, config, "Rotfuchs", NOW)
     record = load_episode(tmp_path, "2026-11-19_rotfuchs")
@@ -218,7 +249,42 @@ def test_unknown_fact_id_in_dialog_fails_the_run(tmp_path):
 
 
 def test_too_few_used_facts_in_dialog_fail_the_run(tmp_path):
-    config = {"quotas": {**CONFIG["quotas"], "min_used_facts": 2}}
+    config = {**CONFIG, "quotas": {**CONFIG["quotas"], "min_used_facts": 2}}
     api = FakeApi("Rotfuchs", [], text="Ein Satz im Artikel.\n\nNoch ein Satz im Artikel.")
     with pytest.raises(GateFailure, match="used by the author"):
         run(api, FakeLlm(cite=1), tmp_path, config, "Rotfuchs", NOW)
+
+
+def test_judgements_are_archived(tmp_path):
+    episode_id = run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW)
+    path = tmp_path / "episodes" / episode_id / "06_judgement.json"
+    data = json.loads(path.read_text())
+    assert [(j["turn_index"], j["accepted"], j["decided_by"]) for j in data["judgements"]] == [
+        (0, True, "jev"),
+        (1, True, "jev"),
+    ]
+    assert data["used_fact_ids"] == ["5-0000"]
+
+
+def test_rejected_turn_fails_the_run_with_reason_archived(tmp_path):
+    with pytest.raises(GateFailure, match="rejected turn"):
+        run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, FakeJev(0.01))
+    folder = tmp_path / "episodes" / "2026-11-19_rotfuchs"
+    reason = json.loads((folder / "06_judgement.json").read_text())["judgements"][0]["reason"]
+    assert reason == "Ablehnungsgrund."
+    assert load_episode(tmp_path, "2026-11-19_rotfuchs").status == "failed"
+
+
+def test_uncertain_turn_is_decided_by_llm_judge(tmp_path):
+    with pytest.raises(GateFailure, match="rejected turn"):
+        run(
+            FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW,
+            FakeJev(0.5), FakeJudgeLlm(supported=False),
+        )  # fmt: skip
+
+
+def test_jev_abort_fails_the_run(tmp_path):
+    jev = FakeJev(error=JevAbortError("401"))
+    with pytest.raises(GateFailure, match="Jev aborted"):
+        run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, jev)
+    assert load_episode(tmp_path, "2026-11-19_rotfuchs").status == "failed"

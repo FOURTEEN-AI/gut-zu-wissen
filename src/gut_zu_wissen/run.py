@@ -1,12 +1,13 @@
 """Run entry point: `python -m gut_zu_wissen.run "<article title>"`.
 
-Phase 1 steps 2 to 6: fetch the article, apply the gates, segment, extract facts, rank, add the
-linked intros, write the dialog, write the episode folder.
+Phase 1 steps 2 to 7: fetch the article, apply the gates, segment, extract facts, rank, add the
+linked intros, write the dialog, judge it, write the episode folder.
 Later steps are added here and move into the orchestrator (step 8).
 """
 
 from __future__ import annotations
 
+import os
 import sys
 import tomllib
 from dataclasses import asdict
@@ -17,6 +18,7 @@ from gut_zu_wissen.archive import (
     ARTICLE_FILE,
     DIALOG_FILE,
     FACTS_FILE,
+    JUDGEMENT_FILE,
     LINKED_DIR,
     RANKING_FILE,
     SEGMENTS_FILE,
@@ -32,6 +34,8 @@ from gut_zu_wissen.dialog import used_facts_gate, write_dialog
 from gut_zu_wissen.extraction import extract_facts
 from gut_zu_wissen.fetch import ArticleNotFoundError, HttpWikipediaApi, WikipediaApi, fetch_article
 from gut_zu_wissen.gates import is_living_person, repeat_gate_allows
+from gut_zu_wissen.jev import HttpJev, Jev, JevAbortError
+from gut_zu_wissen.judge import judge_dialog, judged_facts_gate, used_in_accepted
 from gut_zu_wissen.linked import fetch_linked_intros
 from gut_zu_wissen.llm import AnthropicLlm, StructuredLlm
 from gut_zu_wissen.ranking import RankedFact, link_targets, offer_gate, rank_facts, ranked, raw_of
@@ -55,6 +59,8 @@ def load_config(path: Path = CONFIG_PATH) -> dict:
 def run(
     api: WikipediaApi,
     llm: StructuredLlm,
+    judge_llm: StructuredLlm,
+    jev: Jev,
     archive_root: Path,
     config: dict,
     title: str,
@@ -142,6 +148,30 @@ def run(
         record.status, record.failure = "failed", failure
         save_episode(archive_root, record)
         raise GateFailure(failure)
+
+    facts_by_id = {r.fact.segment_id: r for r in [*main_ranked, *linked]}
+    try:
+        judgements = judge_dialog(jev, judge_llm, dialog.turns, facts_by_id, config["judge"]["t"])
+    except JevAbortError as exc:
+        failure = f"Jev aborted the run: {exc}"
+        record.status, record.failure = "failed", failure
+        save_episode(archive_root, record)
+        raise GateFailure(failure) from exc
+    used = used_in_accepted(dialog.turns, judgements, facts_by_id)
+    write_json(
+        folder / JUDGEMENT_FILE,
+        {"judgements": [j.to_dict() for j in judgements], "used_fact_ids": used},
+    )
+    # Turn regeneration and the neighbour cascade (D1) come with the orchestrator (step 8).
+    rejected = [j.turn_index for j in judgements if not j.accepted]
+    if rejected:
+        failure = f"Judge rejected turn(s) {rejected}, see {JUDGEMENT_FILE}."
+    else:
+        failure = judged_facts_gate(len(used), quotas["min_used_facts"])
+    if failure:
+        record.status, record.failure = "failed", failure
+        save_episode(archive_root, record)
+        raise GateFailure(failure)
     return record.episode_id
 
 
@@ -151,10 +181,27 @@ def main(argv: list[str] | None = None) -> int:
         print('Usage: python -m gut_zu_wissen.run "<article title>"', file=sys.stderr)
         return 2
     config = load_config()
-    llm = AnthropicLlm(config["models"]["author"], config["quotas"]["llm_max_tokens"])
+    max_tokens = config["quotas"]["llm_max_tokens"]
+    llm = AnthropicLlm(config["models"]["author"], max_tokens)
+    judge_llm = AnthropicLlm(config["models"]["llm_judge"], max_tokens)
+    jev_config = config["jev"]
+    jev = HttpJev(
+        config["models"]["jev"],
+        jev_config["max_retries"],
+        jev_config["backoff_seconds"],
+        jev_config["timeout_seconds"],
+        os.environ["TYPESAFE_API_KEY"],
+    )
     try:
         episode_id = run(
-            HttpWikipediaApi(), llm, ARCHIVE_ROOT, config, args[0].strip(), datetime.now(UTC)
+            HttpWikipediaApi(),
+            llm,
+            judge_llm,
+            jev,
+            ARCHIVE_ROOT,
+            config,
+            args[0].strip(),
+            datetime.now(UTC),
         )
     except ArticleNotFoundError:
         print(f"Article not found: {args[0]}", file=sys.stderr)
@@ -162,7 +209,7 @@ def main(argv: list[str] | None = None) -> int:
     except GateFailure as exc:
         print(f"Aborted: {exc}", file=sys.stderr)
         return 1
-    print(f"Episode {episode_id}: steps up to dialog done.")
+    print(f"Episode {episode_id}: steps up to judge done.")
     return 0
 
 
