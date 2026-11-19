@@ -26,7 +26,7 @@ These retire the open risks before the build starts.
    - Latest sighted revision; fallback to latest revision if none exists (D2).
    - Wikitext, revid, revision status (sighted or latest), UTC timestamp, categories.
    - Gates as pure functions: living person; episode for this article published less than 6 months ago (D4).
-3. **Segmentation.** Masking, then SoMaJo, then unmasking. Infobox rows from `Infobox *` and `Taxobox` only, as their own segment type (D3). Stable segment IDs (revid + index).
+3. **Segmentation.** ✅ Done. Masking, then SoMaJo, then unmasking. Infobox rows from `Infobox *` and `Taxobox` only, as their own segment type (D3). Stable segment IDs (revid + index).
 4. **Extraction per chunk.**
    - Structured output (JSON schema).
    - Gates for uniqueness, ≥ 8 words, full sentence, and context (contiguous, same chunk, ≤ 3 segments).

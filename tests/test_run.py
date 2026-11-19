@@ -15,6 +15,9 @@ class FakeApi:
     def __init__(self, title: str, categories: list[str], missing: bool = False) -> None:
         self.title, self.categories, self.missing = title, categories, missing
 
+    def post(self, **params: str) -> dict:
+        return {"parse": {"text": "<p>SEGMENTGRENZE00000</p><p>x</p>"}}
+
     def query(self, **params: str) -> dict:
         if params["prop"] == "info|flagged":
             page = {"title": self.title, "lastrevid": 5}
@@ -31,7 +34,7 @@ class FakeApi:
                             {
                                 "revid": 5,
                                 "timestamp": "2026-10-24T13:21:55Z",
-                                "slots": {"main": {"content": "Text"}},
+                                "slots": {"main": {"content": "Ein kurzer Satz im Artikel."}},
                             }
                         ],
                     }
@@ -47,6 +50,17 @@ def test_successful_run_archives_article(tmp_path):
     article = json.loads((folder / "01_article.json").read_text())
     assert article["revid"] == 5
     assert article["revision_status"] == "latest"
+    segments = json.loads((folder / "02_segments.json").read_text())
+    assert segments["revid"] == 5
+    assert segments["segments"] == [
+        {
+            "id": "5-0000",
+            "type": "sentence",
+            "section": "",
+            "raw": "Ein kurzer Satz im Artikel.",
+            "plain": None,
+        }
+    ]
     assert load_episode(tmp_path, episode_id).status == "running"
 
 
@@ -58,6 +72,7 @@ def test_living_person_aborts_and_records_failure(tmp_path):
     assert record.status == "failed"
     assert "living person" in record.failure
     assert (tmp_path / "episodes" / record.episode_id / "01_article.json").exists()
+    assert not (tmp_path / "episodes" / record.episode_id / "02_segments.json").exists()
 
 
 def test_repeat_gate_aborts(tmp_path):

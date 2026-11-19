@@ -25,7 +25,7 @@ uv run ruff check .          # lint
 uv run ruff format --check . # format check (drop --check to format)
 ```
 
-Archive layout: `archive/episodes/<date>_<slug>/episode.json` plus one JSON file per pipeline step; see [design](docs/wikipedia-podcast-pipeline.md).
+Archive layout: `archive/episodes/<date>_<slug>/episode.json` plus one JSON file per pipeline step (`01_article.json`, `02_segments.json`, …); see [design](docs/wikipedia-podcast-pipeline.md).
 
 Configuration (threshold t, sampling rate r, model IDs, quotas, prices): [config/pipeline.toml](config/pipeline.toml). Values marked `PLACEHOLDER` are not decided yet.
 
