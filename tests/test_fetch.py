@@ -118,3 +118,17 @@ def test_http_client_raises_on_api_error():
     )
     with pytest.raises(RuntimeError):
         HttpWikipediaApi(client, sleep=lambda s: None).query(action="query")
+
+
+def test_http_post_sends_form_data_with_rate_limit_params():
+    seen = {}
+
+    def handler(request: httpx.Request) -> httpx.Response:
+        seen["method"], seen["body"] = request.method, request.content.decode()
+        return httpx.Response(200, json={"parse": {"text": "<p>x</p>"}})
+
+    client = httpx.Client(transport=httpx.MockTransport(handler))
+    HttpWikipediaApi(client, sleep=lambda s: None).post(action="parse", text="a b")
+    assert seen["method"] == "POST"
+    assert "action=parse" in seen["body"] and "maxlag=5" in seen["body"]
+    assert "text=a+b" in seen["body"]
