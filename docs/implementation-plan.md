@@ -49,7 +49,7 @@ These retire the open risks before the build starts.
    - Conversation regeneration (D6): rerun both rankings, excluding every fact cited by a rejected statement; then a fresh dialog.
    - Gate failures: manual run → abort with notice.
    - Escalation: failing job plus job summary.
-9. **Markup gate**, then TTS:
+9. **Markup gate**, then TTS: ✅ Done.
    - Sections at turn boundaries, at most `tts_section_max_chars` (6,000, spike S4).
    - Intro and outro synthesized once and committed.
    - Concatenation and loudness normalization to −16 LUFS (`target_loudness_lufs`) with a true-peak limiter (ceiling `true_peak_ceiling_dbtp`, −1.5 dBTP). A test checks loudness and peak ceiling of the output.
