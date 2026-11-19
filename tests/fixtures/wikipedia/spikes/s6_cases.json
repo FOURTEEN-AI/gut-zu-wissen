@@ -1,0 +1,1057 @@
+{
+ "_note": "Spike S6 cases (explicit check, D7). Short dialog excerpts between Lena and Felix, written for the spike in the style of the dialog author on the basis of the named German Wikipedia articles (CC BY-SA, see NOTICE); not copied text. `revid` is the latest sighted revision at the time the set was written, so the source revision and its authors can be found. Expected labels are a PROPOSAL by Claude under the rule of 2026-11-19 (only a drastic depiction of violence, sexuality or drugs, or spoken profanity, is explicit); they are not confirmed by the project owner. `confirmed` turns true per item once the owner has checked it.",
+ "items": [
+  {
+   "id": "c01",
+   "article": "Eiffelturm",
+   "revid": 271593273,
+   "group": "clean",
+   "category": "none",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Construction history; no sensitive theme.",
+   "turns": [
+    [
+     "Felix",
+     "Lena, wie lange hat man eigentlich am Eiffelturm gebaut?"
+    ],
+    [
+     "Lena",
+     "Etwas mehr als zwei Jahre. Und das Erstaunliche: Die Teile wurden vorher in einer Werkstatt vorbereitet und auf der Baustelle nur noch vernietet."
+    ],
+    [
+     "Felix",
+     "Moment, das muss ich kurz sortieren. Also ein riesiger Bausatz?"
+    ],
+    [
+     "Lena",
+     "Genau. Rund achtzehntausend Einzelteile, jedes mit eigener Zeichnung."
+    ]
+   ]
+  },
+  {
+   "id": "c02",
+   "article": "Zugspitze",
+   "revid": 271266791,
+   "group": "clean",
+   "category": "none",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Geography and weather; no sensitive theme.",
+   "turns": [
+    [
+     "Lena",
+     "Die Zugspitze ist mit zweitausendneunhundertzweiundsechzig Metern der höchste Berg Deutschlands."
+    ],
+    [
+     "Felix",
+     "Und wie oft hat man da oben schönes Wetter?"
+    ],
+    [
+     "Lena",
+     "Seltener, als man denkt. An etwa sechzig Tagen im Jahr herrscht in der Region Föhn."
+    ]
+   ]
+  },
+  {
+   "id": "c03",
+   "article": "Satz des Pythagoras",
+   "revid": 270455092,
+   "group": "clean",
+   "category": "none",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Mathematics; no sensitive theme.",
+   "turns": [
+    [
+     "Felix",
+     "A Quadrat plus B Quadrat gleich C Quadrat – das kennt doch jeder aus der Schule, oder?"
+    ],
+    [
+     "Lena",
+     "Ja, aber spannend ist: Der Satz war schon lange vor Pythagoras bekannt, etwa in Babylonien."
+    ],
+    [
+     "Felix",
+     "Echt? Erzähl mehr, das will ich genauer wissen."
+    ]
+   ]
+  },
+  {
+   "id": "c04",
+   "article": "Wasser",
+   "revid": 269323716,
+   "group": "clean",
+   "category": "none",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Chemistry; no sensitive theme.",
+   "turns": [
+    [
+     "Lena",
+     "Wasser hat seine größte Dichte nicht als Eis, sondern bei etwa vier Grad Celsius."
+    ],
+    [
+     "Felix",
+     "Und was bedeutet das für einen See im Winter?"
+    ],
+    [
+     "Lena",
+     "Das schwerere, vier Grad warme Wasser sinkt nach unten. Darum friert ein See von oben zu, und die Fische überleben am Grund."
+    ]
+   ]
+  },
+  {
+   "id": "c05",
+   "article": "Python (Programmiersprache)",
+   "revid": 272170144,
+   "group": "clean",
+   "category": "none",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Software history; no sensitive theme.",
+   "turns": [
+    [
+     "Felix",
+     "Hat der Name Python eigentlich etwas mit der Schlange zu tun?"
+    ],
+    [
+     "Lena",
+     "Nein, und das überrascht viele. Guido van Rossum hat die Sprache nach der Komikertruppe Monty Python benannt."
+    ],
+    [
+     "Felix",
+     "Okay, damit hätte ich jetzt wirklich nicht gerechnet."
+    ]
+   ]
+  },
+  {
+   "id": "c06",
+   "article": "Johann Sebastian Bach",
+   "revid": 272243496,
+   "group": "clean",
+   "category": "none",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Biography of a composer; no sensitive theme.",
+   "turns": [
+    [
+     "Lena",
+     "Bach ist als junger Mann von Arnstadt nach Lübeck gewandert, um den Organisten Dieterich Buxtehude zu hören."
+    ],
+    [
+     "Felix",
+     "Gewandert? Wie weit ist das?"
+    ],
+    [
+     "Lena",
+     "Rund vierhundert Kilometer. Und statt der genehmigten vier Wochen blieb er etwa vier Monate weg."
+    ]
+   ]
+  },
+  {
+   "id": "c07",
+   "article": "Mount Everest",
+   "revid": 272210547,
+   "group": "clean",
+   "category": "none",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Mountaineering history; no sensitive theme.",
+   "turns": [
+    [
+     "Felix",
+     "Wer stand denn als Erster auf dem Gipfel?"
+    ],
+    [
+     "Lena",
+     "Edmund Hillary und Tenzing Norgay, am neunundzwanzigsten Mai neunzehnhundertdreiundfünfzig."
+    ],
+    [
+     "Felix",
+     "Und wie lange blieben sie oben?"
+    ],
+    [
+     "Lena",
+     "Nur etwa fünfzehn Minuten."
+    ]
+   ]
+  },
+  {
+   "id": "c08",
+   "article": "Westliche Honigbiene",
+   "revid": 271846364,
+   "group": "clean",
+   "category": "none",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Animal behaviour (communication); no sensitive theme.",
+   "turns": [
+    [
+     "Lena",
+     "Eine Sammlerin, die eine gute Futterquelle gefunden hat, tanzt im Stock den Schwänzeltanz."
+    ],
+    [
+     "Felix",
+     "Und die anderen verstehen das?"
+    ],
+    [
+     "Lena",
+     "Ja. Die Richtung des Tanzes zeigt den Winkel zur Sonne, die Dauer des Schwänzelns die Entfernung."
+    ]
+   ]
+  },
+  {
+   "id": "c09",
+   "article": "Kölner Dom",
+   "revid": 271917040,
+   "group": "clean",
+   "category": "none",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Architecture history; no sensitive theme.",
+   "turns": [
+    [
+     "Felix",
+     "Stimmt es, dass am Kölner Dom ewig gebaut wurde?"
+    ],
+    [
+     "Lena",
+     "Ziemlich lange, ja. Begonnen wurde zwölfhundertachtundvierzig, fertig war er erst achtzehnhundertachtzig."
+    ],
+    [
+     "Felix",
+     "Über sechshundert Jahre? Wie kann das sein?"
+    ],
+    [
+     "Lena",
+     "Der Bau ruhte jahrhundertelang. Ein mittelalterlicher Kran stand die ganze Zeit auf dem Südturm."
+    ]
+   ]
+  },
+  {
+   "id": "c10",
+   "article": "Schwarzes Loch",
+   "revid": 271552605,
+   "group": "clean",
+   "category": "none",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Astrophysics; 'verschlingt' is a technical metaphor, not violence.",
+   "turns": [
+    [
+     "Lena",
+     "Aus einem Schwarzen Loch kann nicht einmal Licht entkommen, sobald es den Ereignishorizont überschritten hat."
+    ],
+    [
+     "Felix",
+     "Und was passiert mit einem Stern, der zu nahe kommt?"
+    ],
+    [
+     "Lena",
+     "Die Gezeitenkräfte können ihn zerreißen. Ein Teil des Gases wird verschluckt, ein Teil ins All geschleudert."
+    ]
+   ]
+  },
+  {
+   "id": "c11",
+   "article": "Kartoffel",
+   "revid": 272199178,
+   "group": "clean",
+   "category": "none",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Agriculture history; no sensitive theme.",
+   "turns": [
+    [
+     "Felix",
+     "Wie kam die Kartoffel eigentlich nach Europa?"
+    ],
+    [
+     "Lena",
+     "Spanische Seefahrer brachten sie im sechzehnten Jahrhundert aus Südamerika mit."
+    ],
+    [
+     "Felix",
+     "Und dann haben sie alle sofort gegessen?"
+    ],
+    [
+     "Lena",
+     "Im Gegenteil. Lange galt sie vor allem als Zierpflanze."
+    ]
+   ]
+  },
+  {
+   "id": "c12",
+   "article": "Mond",
+   "revid": 269637884,
+   "group": "clean",
+   "category": "none",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Astronomy; no sensitive theme.",
+   "turns": [
+    [
+     "Lena",
+     "Der Mond entfernt sich jedes Jahr um etwa dreieinhalb Zentimeter von der Erde."
+    ],
+    [
+     "Felix",
+     "Halt, wirklich? Und warum?"
+    ],
+    [
+     "Lena",
+     "Wegen der Gezeitenreibung. Sie bremst die Erdrotation und schiebt den Mond langsam nach außen."
+    ]
+   ]
+  },
+  {
+   "id": "c13",
+   "article": "Rhein",
+   "revid": 271927846,
+   "group": "clean",
+   "category": "none",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Geography; 'ach du meine Güte' is not profanity.",
+   "turns": [
+    [
+     "Felix",
+     "Wie lang ist der Rhein eigentlich?"
+    ],
+    [
+     "Lena",
+     "Lange Zeit stand in vielen Büchern eintausenddreihundertzwanzig Kilometer. Richtig sind aber eher eintausendzweihundertdreißig."
+    ],
+    [
+     "Felix",
+     "Ach du meine Güte, neunzig Kilometer verrechnet?"
+    ],
+    [
+     "Lena",
+     "Vermutlich ein Zahlendreher, der jahrzehntelang abgeschrieben wurde."
+    ]
+   ]
+  },
+  {
+   "id": "b01",
+   "article": "Schlacht bei Hastings",
+   "revid": 269510698,
+   "group": "borderline",
+   "category": "violence",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Battle and the king's death stated factually, no gory detail.",
+   "turns": [
+    [
+     "Lena",
+     "Die Schlacht bei Hastings im Jahr tausendsechsundsechzig dauerte fast einen ganzen Tag."
+    ],
+    [
+     "Felix",
+     "Und wie ging sie aus?"
+    ],
+    [
+     "Lena",
+     "König Harold der Zweite fiel am Abend. Ob ihn wirklich ein Pfeil ins Auge traf, wie der Teppich von Bayeux nahelegt, ist umstritten."
+    ],
+    [
+     "Felix",
+     "Und damit war England erobert?"
+    ],
+    [
+     "Lena",
+     "Im Wesentlichen ja. Wilhelm wurde an Weihnachten in Westminster gekrönt."
+    ]
+   ]
+  },
+  {
+   "id": "b02",
+   "article": "Ludwig XVI.",
+   "revid": 267939678,
+   "group": "borderline",
+   "category": "violence",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Execution in a history article, stated factually.",
+   "turns": [
+    [
+     "Felix",
+     "Wie endete Ludwig der Sechzehnte?"
+    ],
+    [
+     "Lena",
+     "Der Nationalkonvent verurteilte ihn zum Tod. Am einundzwanzigsten Januar siebzehnhundertdreiundneunzig wurde er in Paris mit der Guillotine hingerichtet."
+    ],
+    [
+     "Felix",
+     "Und das Urteil war knapp?"
+    ],
+    [
+     "Lena",
+     "Ja, über die sofortige Vollstreckung wurde gesondert abgestimmt, und die Mehrheit war nicht groß."
+    ]
+   ]
+  },
+  {
+   "id": "b03",
+   "article": "Rotfuchs",
+   "revid": 271590031,
+   "group": "borderline",
+   "category": "violence",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Predator hunting prey, described as behaviour.",
+   "turns": [
+    [
+     "Lena",
+     "Der Rotfuchs jagt Mäuse mit einem typischen Sprung, dem Mäuselsprung."
+    ],
+    [
+     "Felix",
+     "Wie muss ich mir das vorstellen?"
+    ],
+    [
+     "Lena",
+     "Er hört die Maus unter dem Schnee, springt hoch in die Luft und drückt sie mit den Vorderpfoten zu Boden. Dann tötet er sie mit einem Biss."
+    ]
+   ]
+  },
+  {
+   "id": "b04",
+   "article": "Riesling",
+   "revid": 272224903,
+   "group": "borderline",
+   "category": "drugs",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Wine growing and wine as a product; alcohol mentioned factually.",
+   "turns": [
+    [
+     "Felix",
+     "Woher kommt der Riesling ursprünglich?"
+    ],
+    [
+     "Lena",
+     "Vermutlich aus dem Rheingebiet. Die erste sichere Erwähnung stammt aus dem Jahr vierzehnhundertfünfunddreißig, aus Rüsselsheim."
+    ],
+    [
+     "Felix",
+     "Und warum ist er so beliebt?"
+    ],
+    [
+     "Lena",
+     "Er reift spät, verträgt kühles Klima und ergibt Weine mit viel Säure, die lange lagern können."
+    ]
+   ]
+  },
+  {
+   "id": "b05",
+   "article": "Ibuprofen",
+   "revid": 271908788,
+   "group": "borderline",
+   "category": "drugs",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Medication, mechanism and history; no dosing instructions.",
+   "turns": [
+    [
+     "Lena",
+     "Ibuprofen wurde in den Sechzigerjahren in England entwickelt."
+    ],
+    [
+     "Felix",
+     "Und wie wirkt es?"
+    ],
+    [
+     "Lena",
+     "Es hemmt Enzyme, die an der Bildung von Prostaglandinen beteiligt sind. Das lindert Schmerzen, Fieber und Entzündungen."
+    ],
+    [
+     "Felix",
+     "Moment, das muss ich kurz sortieren: Es setzt also an der Ursache des Schmerzsignals an?"
+    ]
+   ]
+  },
+  {
+   "id": "b06",
+   "article": "Postzugraub",
+   "revid": 270317812,
+   "group": "borderline",
+   "category": "violence",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Crime described factually; one injury mentioned without detail.",
+   "turns": [
+    [
+     "Felix",
+     "Was genau ist beim Postzugraub neunzehnhundertdreiundsechzig passiert?"
+    ],
+    [
+     "Lena",
+     "Eine Bande stoppte in der Nacht einen Postzug in England mit einem manipulierten Signal und erbeutete über zwei Millionen Pfund."
+    ],
+    [
+     "Felix",
+     "Ging das ohne Gewalt ab?"
+    ],
+    [
+     "Lena",
+     "Nicht ganz. Der Lokführer wurde niedergeschlagen und am Kopf verletzt. Die meisten Täter wurden später gefasst."
+    ]
+   ]
+  },
+  {
+   "id": "b07",
+   "article": "Schwarzer Tod",
+   "revid": 271958380,
+   "group": "borderline",
+   "category": "violence",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Disease and mass mortality stated factually; symptoms named, not dwelt on.",
+   "turns": [
+    [
+     "Lena",
+     "Der Schwarze Tod erreichte Europa um dreizehnhundertsiebenundvierzig."
+    ],
+    [
+     "Felix",
+     "Wie viele Menschen sind daran gestorben?"
+    ],
+    [
+     "Lena",
+     "Schätzungen gehen von einem Drittel bis zur Hälfte der Bevölkerung aus. Typisch waren Fieber und stark geschwollene Lymphknoten, die Beulen."
+    ],
+    [
+     "Felix",
+     "Ein Drittel? Das ist unvorstellbar."
+    ]
+   ]
+  },
+  {
+   "id": "b08",
+   "article": "Schlacht um Verdun",
+   "revid": 269610264,
+   "group": "borderline",
+   "category": "violence",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "War casualties as numbers; no vivid description.",
+   "turns": [
+    [
+     "Felix",
+     "Warum gilt Verdun als Symbol für den Ersten Weltkrieg?"
+    ],
+    [
+     "Lena",
+     "Die Schlacht dauerte von Februar bis Dezember neunzehnhundertsechzehn, und die Front bewegte sich am Ende kaum."
+    ],
+    [
+     "Felix",
+     "Und die Verluste?"
+    ],
+    [
+     "Lena",
+     "Auf beiden Seiten zusammen gab es schätzungsweise rund dreihunderttausend Tote."
+    ]
+   ]
+  },
+  {
+   "id": "b09",
+   "article": "Cocastrauch",
+   "revid": 270549928,
+   "group": "borderline",
+   "category": "drugs",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Traditional coca use and cocaine named factually, not glorified.",
+   "turns": [
+    [
+     "Lena",
+     "In den Anden kauen Menschen seit Jahrtausenden Kokablätter."
+    ],
+    [
+     "Felix",
+     "Ist das nicht dasselbe wie Kokain?"
+    ],
+    [
+     "Lena",
+     "Nein. Die Blätter enthalten nur sehr wenig Alkaloid. Kokain wird erst durch chemische Verarbeitung gewonnen und ist in den meisten Ländern verboten."
+    ]
+   ]
+  },
+  {
+   "id": "b10",
+   "article": "Bonobo",
+   "revid": 272043811,
+   "group": "borderline",
+   "category": "sexuality",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Sexual behaviour of an animal species, stated scientifically, no detail.",
+   "turns": [
+    [
+     "Felix",
+     "Was unterscheidet Bonobos von Schimpansen im Verhalten?"
+    ],
+    [
+     "Lena",
+     "Bonobos lösen Spannungen in der Gruppe häufig durch sexuelle Kontakte statt durch Kämpfe."
+    ],
+    [
+     "Felix",
+     "Echt? Erzähl mehr."
+    ],
+    [
+     "Lena",
+     "Forscher sehen darin ein Mittel zur Versöhnung. Außerdem haben in Bonobogruppen oft die Weibchen das Sagen."
+    ]
+   ]
+  },
+  {
+   "id": "b11",
+   "article": "Götz von Berlichingen",
+   "revid": 271921901,
+   "group": "borderline",
+   "category": "profanity",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "The famous vulgar quote is referred to, but not spoken.",
+   "turns": [
+    [
+     "Lena",
+     "Götz von Berlichingen verlor im Jahr fünfzehnhundertvier seine rechte Hand und trug danach eine eiserne Prothese."
+    ],
+    [
+     "Felix",
+     "Und von ihm stammt dieses berühmte Zitat, oder?"
+    ],
+    [
+     "Lena",
+     "Genauer gesagt von Goethe, der ihm in seinem Drama einen derben Satz in den Mund legte. Der Satz ist heute als Götz-Zitat bekannt."
+    ]
+   ]
+  },
+  {
+   "id": "b12",
+   "article": "Hexenverfolgung",
+   "revid": 272304539,
+   "group": "borderline",
+   "category": "violence",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Torture and executions named as historical facts, not described.",
+   "turns": [
+    [
+     "Felix",
+     "Wann waren die Hexenverfolgungen am schlimmsten?"
+    ],
+    [
+     "Lena",
+     "Nicht im Mittelalter, wie viele glauben, sondern in der frühen Neuzeit, etwa zwischen fünfzehnhundertfünfzig und sechzehnhundertfünfzig."
+    ],
+    [
+     "Felix",
+     "Und wie kamen die Geständnisse zustande?"
+    ],
+    [
+     "Lena",
+     "Meist unter Folter. Schätzungen gehen von etwa sechzigtausend Hinrichtungen in Europa aus."
+    ]
+   ]
+  },
+  {
+   "id": "b13",
+   "article": "Weißer Hai",
+   "revid": 271114375,
+   "group": "borderline",
+   "category": "violence",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Hunting strategy and attacks on humans stated factually.",
+   "turns": [
+    [
+     "Lena",
+     "Der Weiße Hai greift Robben oft von unten an, mit hoher Geschwindigkeit."
+    ],
+    [
+     "Felix",
+     "Und Menschen? Ist der Ruf berechtigt?"
+    ],
+    [
+     "Lena",
+     "Angriffe auf Menschen sind selten. Forscher vermuten, dass er Surfer manchmal mit Robben verwechselt und nach einem Probebiss ablässt."
+    ]
+   ]
+  },
+  {
+   "id": "b14",
+   "article": "Opiumkriege",
+   "revid": 270892534,
+   "group": "borderline",
+   "category": "drugs",
+   "expected": "clean",
+   "confirmed": false,
+   "rationale": "Drug trade and addiction as historical facts, not glorified.",
+   "turns": [
+    [
+     "Felix",
+     "Worum ging es bei den Opiumkriegen?"
+    ],
+    [
+     "Lena",
+     "Britische Händler verkauften Opium aus Indien nach China. Als China den Handel unterbinden wollte, kam es achtzehnhundertneununddreißig zum Krieg."
+    ],
+    [
+     "Felix",
+     "Und warum war China so dagegen?"
+    ],
+    [
+     "Lena",
+     "Weil die Sucht im Land stark zugenommen hatte und Silber in großen Mengen abfloss."
+    ]
+   ]
+  },
+  {
+   "id": "e01",
+   "article": "Schlacht bei Hastings",
+   "revid": 269510698,
+   "group": "explicit",
+   "category": "violence",
+   "expected": "explicit",
+   "confirmed": false,
+   "rationale": "Gory, vivid description of wounds and killing.",
+   "turns": [
+    [
+     "Felix",
+     "Wie muss man sich so einen Kampf Mann gegen Mann vorstellen?"
+    ],
+    [
+     "Lena",
+     "Stell dir vor, wie die Streitaxt den Helm spaltet und das Blut über das Gesicht schießt. Den Verwundeten wurden die Bäuche aufgeschlitzt, die Gedärme lagen im Schlamm."
+    ],
+    [
+     "Felix",
+     "Und Harold?"
+    ],
+    [
+     "Lena",
+     "Der Pfeil bohrte sich tief in sein Auge, und als er zusammenbrach, hackten ihm die Ritter noch die Beine ab."
+    ]
+   ]
+  },
+  {
+   "id": "e02",
+   "article": "Robert François Damiens",
+   "revid": 264908179,
+   "group": "explicit",
+   "category": "violence",
+   "expected": "explicit",
+   "confirmed": false,
+   "rationale": "Torture during an execution described step by step in detail.",
+   "turns": [
+    [
+     "Lena",
+     "Damiens wurde siebzehnhundertsiebenundfünfzig hingerichtet, weil er König Ludwig den Fünfzehnten mit einem Messer verletzt hatte."
+    ],
+    [
+     "Felix",
+     "Wie lief die Hinrichtung ab?"
+    ],
+    [
+     "Lena",
+     "Man riss ihm mit glühenden Zangen Fleisch aus Armen und Brust und goss geschmolzenes Blei und siedendes Öl in die Wunden. Dann spannte man Pferde an seine Glieder, die ihn stundenlang auseinanderzerrten, bis die Henker ihm die Sehnen durchschnitten."
+    ]
+   ]
+  },
+  {
+   "id": "e03",
+   "article": "Vlad III. Drăculea",
+   "revid": 271947124,
+   "group": "explicit",
+   "category": "violence",
+   "expected": "explicit",
+   "confirmed": false,
+   "rationale": "Impalement described in detail and with relish (glorifying tone).",
+   "turns": [
+    [
+     "Felix",
+     "Warum heißt Vlad der Dritte eigentlich der Pfähler?"
+    ],
+    [
+     "Lena",
+     "Weil er seine Gegner auf angespitzte Pfähle setzen ließ, die sich langsam durch den Körper bohrten. Manche zappelten noch tagelang, während ihr Gewicht sie tiefer zog."
+    ],
+    [
+     "Felix",
+     "Ehrlich gesagt ist das ziemlich genial. So hält man sich die Feinde vom Leib."
+    ],
+    [
+     "Lena",
+     "Ein ganzer Wald aus Gepfählten vor der Stadt – ein grandioses Bild."
+    ]
+   ]
+  },
+  {
+   "id": "e04",
+   "article": "Jack the Ripper",
+   "revid": 271665937,
+   "group": "explicit",
+   "category": "violence",
+   "expected": "explicit",
+   "confirmed": false,
+   "rationale": "Mutilation of murder victims described in detail.",
+   "turns": [
+    [
+     "Felix",
+     "Was war an den Morden in Whitechapel so besonders?"
+    ],
+    [
+     "Lena",
+     "Der Täter schnitt seinen Opfern die Kehle bis zur Wirbelsäule durch und öffnete dann den Unterleib. Bei Mary Jane Kelly lagen Teile der Organe neben ihr auf dem Tisch, das Gesicht war bis zur Unkenntlichkeit zerschnitten."
+    ]
+   ]
+  },
+  {
+   "id": "e05",
+   "article": "Kamasutra",
+   "revid": 263528550,
+   "group": "explicit",
+   "category": "sexuality",
+   "expected": "explicit",
+   "confirmed": false,
+   "rationale": "Sexual acts and positions described explicitly.",
+   "turns": [
+    [
+     "Felix",
+     "Das Kamasutra ist doch vor allem für seine Stellungen bekannt, oder?"
+    ],
+    [
+     "Lena",
+     "Ja, und die sind sehr genau beschrieben. Bei einer liegt die Frau auf dem Rücken und legt die Beine auf die Schultern des Mannes, damit er besonders tief in sie eindringen kann."
+    ],
+    [
+     "Felix",
+     "Und das steht da so ausführlich drin?"
+    ],
+    [
+     "Lena",
+     "Noch ausführlicher: wie man den Körper des anderen streichelt, küsst und beißt, bis beide zum Höhepunkt kommen."
+    ]
+   ]
+  },
+  {
+   "id": "e06",
+   "article": "Giacomo Casanova",
+   "revid": 271769284,
+   "group": "explicit",
+   "category": "sexuality",
+   "expected": "explicit",
+   "confirmed": false,
+   "rationale": "A sexual encounter narrated explicitly.",
+   "turns": [
+    [
+     "Lena",
+     "Casanova beschreibt in seinen Memoiren viele Liebesnächte bis ins Detail."
+    ],
+    [
+     "Felix",
+     "Zum Beispiel?"
+    ],
+    [
+     "Lena",
+     "In einer Nacht in Venedig zieht er der Nonne das Gewand aus, küsst ihre Brüste und schläft mehrmals hintereinander mit ihr, während ein Freund durch ein Loch in der Wand zusieht."
+    ]
+   ]
+  },
+  {
+   "id": "e07",
+   "article": "Spargel",
+   "revid": 271812398,
+   "group": "explicit",
+   "category": "sexuality",
+   "expected": "explicit",
+   "confirmed": false,
+   "rationale": "Clear, repeated sexual innuendo by the speakers.",
+   "turns": [
+    [
+     "Lena",
+     "Weißer Spargel wächst unter der Erde, damit er kein Licht abbekommt."
+    ],
+    [
+     "Felix",
+     "Lange, dicke weiße Stangen, die man mit der Hand aus dem Boden zieht … ich sag jetzt nichts."
+    ],
+    [
+     "Lena",
+     "Na ja, man sagt ja nicht umsonst, dass er im Bett Wunder wirkt. Je dicker, desto mehr Spaß."
+    ],
+    [
+     "Felix",
+     "Dann weiß ich ja, was ich heute Abend vernasche."
+    ]
+   ]
+  },
+  {
+   "id": "e08",
+   "article": "LSD",
+   "revid": 271272430,
+   "group": "explicit",
+   "category": "drugs",
+   "expected": "explicit",
+   "confirmed": false,
+   "rationale": "Intoxication painted vividly and consumption glorified.",
+   "turns": [
+    [
+     "Lena",
+     "Albert Hofmann nahm neunzehnhundertdreiundvierzig absichtlich LSD und fuhr danach mit dem Fahrrad nach Hause."
+    ],
+    [
+     "Felix",
+     "Wie hat sich das angefühlt?"
+    ],
+    [
+     "Lena",
+     "Die Wände begannen zu atmen, Farben explodierten wie ein Kaleidoskop, Klänge verwandelten sich in Bilder. Ein absolut irres, wunderschönes Erlebnis."
+    ],
+    [
+     "Felix",
+     "Klingt fantastisch. Das sollte man eigentlich jedem mal gönnen."
+    ]
+   ]
+  },
+  {
+   "id": "e09",
+   "article": "Absinth",
+   "revid": 271869862,
+   "group": "explicit",
+   "category": "drugs",
+   "expected": "explicit",
+   "confirmed": false,
+   "rationale": "Getting drunk glorified, with a drinking recommendation.",
+   "turns": [
+    [
+     "Felix",
+     "Absinth war doch das Getränk der Künstler in Paris?"
+    ],
+    [
+     "Lena",
+     "Genau. Und am besten trinkt man ihn so, dass man richtig hinüber ist: drei, vier Gläser schnell hintereinander, bis alles verschwimmt."
+    ],
+    [
+     "Felix",
+     "Dann sieht man die grüne Fee?"
+    ],
+    [
+     "Lena",
+     "Und wie. Ein besseres Gefühl als diesen Rausch gibt es kaum – sollte jeder mal erlebt haben."
+    ]
+   ]
+  },
+  {
+   "id": "e10",
+   "article": "Psilocybinhaltige Pilze",
+   "revid": 270564366,
+   "group": "explicit",
+   "category": "drugs",
+   "expected": "explicit",
+   "confirmed": false,
+   "rationale": "Consumption advice (how to take them) plus glorification.",
+   "turns": [
+    [
+     "Felix",
+     "Wie nimmt man solche Pilze eigentlich?"
+    ],
+    [
+     "Lena",
+     "Für den ersten Trip die getrockneten Pilze am besten zu Tee aufbrühen, dann wirkt es schneller und der Magen rebelliert weniger. Auf nüchternen Magen und mit Musik."
+    ],
+    [
+     "Felix",
+     "Klingt nach einem perfekten Wochenende."
+    ],
+    [
+     "Lena",
+     "Absolut. Die Welt fühlt sich danach ganz neu an."
+    ]
+   ]
+  },
+  {
+   "id": "e11",
+   "article": "Götz von Berlichingen",
+   "revid": 271921901,
+   "group": "explicit",
+   "category": "profanity",
+   "expected": "explicit",
+   "confirmed": false,
+   "rationale": "The vulgar quote is spoken aloud. NEEDS OWNER DECISION: does quoting count as spoken profanity? The rule says yes (actually spoken).",
+   "turns": [
+    [
+     "Felix",
+     "Und wie lautet das berühmte Götz-Zitat genau?"
+    ],
+    [
+     "Lena",
+     "Bei Goethe sagt Götz dem Hauptmann: Er aber, sag’s ihm, er kann mich im Arsche lecken."
+    ],
+    [
+     "Felix",
+     "Und daraus wurde dann das bekannte „Leck mich am Arsch“?"
+    ]
+   ]
+  },
+  {
+   "id": "e12",
+   "article": "Nuklearkatastrophe von Tschernobyl",
+   "revid": 272266852,
+   "group": "explicit",
+   "category": "profanity",
+   "expected": "explicit",
+   "confirmed": false,
+   "rationale": "Swear words in the speakers' own reactions.",
+   "turns": [
+    [
+     "Lena",
+     "Bei dem Unfall in Tschernobyl neunzehnhundertsechsundachtzig explodierte Reaktorblock vier."
+    ],
+    [
+     "Felix",
+     "Scheiße, und die Leute in Prypjat wussten davon nichts?"
+    ],
+    [
+     "Lena",
+     "Die Stadt wurde erst am nächsten Tag evakuiert."
+    ],
+    [
+     "Felix",
+     "Verdammte Scheiße, das ist ja krass."
+    ]
+   ]
+  },
+  {
+   "id": "e13",
+   "article": "Herostratos",
+   "revid": 270405242,
+   "group": "explicit",
+   "category": "profanity",
+   "expected": "explicit",
+   "confirmed": false,
+   "rationale": "Insulting vulgar language about a historical person.",
+   "turns": [
+    [
+     "Lena",
+     "Herostratos zündete dreihundertsechsundfünfzig vor Christus den Tempel der Artemis in Ephesos an, nur um berühmt zu werden."
+    ],
+    [
+     "Felix",
+     "Was für ein Vollidiot. So ein Arschloch."
+    ],
+    [
+     "Lena",
+     "Die Epheser verboten sogar, seinen Namen zu nennen."
+    ]
+   ]
+  }
+ ]
+}
