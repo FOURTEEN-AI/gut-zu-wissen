@@ -4,6 +4,7 @@ from datetime import UTC, datetime
 import pytest
 
 from gut_zu_wissen.dialog import Statement, Turn
+from gut_zu_wissen.explicit import ExplicitCheck, Finding
 from gut_zu_wissen.extraction import Fact
 from gut_zu_wissen.github import Comment
 from gut_zu_wissen.judge import TurnJudgement
@@ -17,6 +18,9 @@ from gut_zu_wissen.review import (
     build_review,
     draw_values,
     escape,
+    explicit_accuracy,
+    explicit_confusion,
+    explicit_pairs,
     find_review,
     is_authorized,
     load_rate_state,
@@ -30,6 +34,7 @@ from gut_zu_wissen.review import (
     render_reply,
     review_population,
     review_status,
+    reviewer_flag,
     sample,
     save_review,
     update_rate,
@@ -42,7 +47,7 @@ REVIEW_CONFIG = {
     "adjust_rate": True,
 }
 REVIEWER = "ajFourteen"
-SMALL_ISSUES = {**REVIEW_CONFIG, "issue_max_chars": 1800}  # forces follow-up comments
+SMALL_ISSUES = {**REVIEW_CONFIG, "issue_max_chars": 2500}  # forces follow-up comments
 
 TURNS = [
     Turn(0, "Lena", "Der Rotfuchs jagt vor allem Mäuse.", ["5-0000"],
@@ -75,8 +80,18 @@ def comment(cid: int, body: str, login: str = REVIEWER, at: str = "2026-11-19T11
     return Comment(cid, login, "MEMBER", body, at, at, f"https://x/issues/7#issuecomment-{cid}")
 
 
-def review(rate: float = 1.0) -> Review:
-    return build_review("2026-11-19_rotfuchs", "Rotfuchs", TURNS, JUDGEMENTS, FACTS, rate)
+CLEAN = ExplicitCheck("claude-sonnet-5-5", False, "clean", [], "Nichts Drastisches.")
+FLAGGED = ExplicitCheck(
+    "claude-sonnet-5-5",
+    True,
+    "explicit",
+    [Finding(2, "violence", "reißt <die> Beute", "Blutig geschildert.")],
+    "Drastische Jagdszene.",
+)
+
+
+def review(rate: float = 1.0, explicit: ExplicitCheck = CLEAN) -> Review:
+    return build_review("2026-11-19_rotfuchs", "Rotfuchs", TURNS, JUDGEMENTS, FACTS, rate, explicit)
 
 
 # ---------------------------------------------------------------- sampling
@@ -123,7 +138,7 @@ def test_build_review_records_draws_and_everything_the_reviewer_needs():
 
 
 def test_build_review_without_draws_is_not_sampled():
-    r = build_review("e", "T", TURNS, JUDGEMENTS, FACTS, 0.0)
+    r = build_review("e", "T", TURNS, JUDGEMENTS, FACTS, 0.0, CLEAN)
     assert r.status == "not_sampled" and r.turns == [] and len(r.draws) == 2
 
 
@@ -134,7 +149,11 @@ def test_review_round_trips_through_json_with_stable_field_order():
     assert Review.from_dict(data) == r
     assert list(data) == [
         "episode_id", "title", "rate", "seed", "population", "draws", "status", "outcome",
-        "rate_applied", "issue", "issue_url", "turns", "comments",
+        "rate_applied", "issue", "issue_url", "explicit", "turns", "comments",
+    ]  # fmt: skip
+    assert list(data["explicit"]) == [
+        "model", "predicted", "verdict", "findings", "reason", "label", "reviewer_flag", "note",
+        "comment_id",
     ]  # fmt: skip
     assert list(data["turns"][0]) == [
         "turn_index", "speaker", "text", "previous_text", "fact_ids", "statements", "facts",
@@ -297,8 +316,9 @@ def test_issue_shows_each_drawn_turn_and_a_template():
     assert json.loads(marker[len("<!-- gut-zu-wissen-review ") : -4]) == {
         "episode_id": "2026-11-19_rotfuchs",
         "turns": [0, 2],
+        "explicit": False,
     }
-    assert "```\n0: \n2: \n```" in body
+    assert "```\n0: \n2: \nexplicit: \n```" in body
     assert "[Archiv](https://x/archive)" in body
     assert "### Redebeitrag 0 – Lena" in body and "### Redebeitrag 2 – Lena" in body
     assert "Redebeitrag 1 " not in body and "Redebeitrag 3 " not in body
@@ -325,8 +345,8 @@ def test_pack_splits_at_turn_boundaries_and_cuts_oversized_turns():
 
 
 def test_long_issue_continues_in_comments():
-    _, messages = render_issue(review(), REVIEWER, {}, 1800)
-    assert len(messages) > 1 and all(len(m) <= 1800 for m in messages)
+    _, messages = render_issue(review(), REVIEWER, {}, 2500)
+    assert len(messages) > 1 and all(len(m) <= 2500 for m in messages)
     assert messages[1].startswith("## Redebeiträge (Fortsetzung")
 
 
@@ -488,3 +508,167 @@ def test_command_line_rejects_a_malformed_episode_id(monkeypatch):
     from gut_zu_wissen import review as module
 
     assert module.main(["open", "../../etc"]) == 2
+
+
+# ---------------------------------------------------------------- explicit check (D7)
+
+
+def test_build_review_keeps_the_explicit_result():
+    e = review(explicit=FLAGGED).explicit
+    assert (e.model, e.predicted, e.verdict, e.reason) == (
+        "claude-sonnet-5-5",
+        True,
+        "explicit",
+        "Drastische Jagdszene.",
+    )
+    assert e.findings == [
+        {"turn_index": 2, "category": "violence", "quote": "reißt <die> Beute",
+         "reason": "Blutig geschildert."}
+    ]  # fmt: skip
+    assert e.label is None and e.reviewer_flag is None
+
+
+def test_issue_shows_the_explicit_result():
+    _, (body,) = render_issue(review(explicit=FLAGGED), REVIEWER, {}, 60000)
+    assert "## Explicit-Prüfung (D7)" in body
+    assert "- **Flag:** explicit" in body
+    assert "- **Urteil des Modells:** `explicit`" in body
+    assert "- **Begründung:** Drastische Jagdszene." in body
+    assert "  - Redebeitrag 2, Gewalt: „reißt &lt;die&gt; Beute“ – Blutig geschildert." in body
+    _, (clean,) = render_issue(review(), REVIEWER, {}, 60000)
+    assert "- **Flag:** nicht explicit" in clean and "- **Fundstellen:** keine" in clean
+
+
+@pytest.mark.parametrize(
+    ("value", "predicted", "label"),
+    [
+        ("korrekt", True, "correct"),
+        ("Korrekt", False, "correct"),
+        ("sollte explicit sein", False, "should_be_explicit"),
+        ("sollte  nicht explicit sein", True, "should_not_be_explicit"),
+    ],
+)
+def test_parse_explicit_label(value, predicted, label):
+    parsed = parse_comment(f"0: belegt\nExplicit: {value} – Notiz", [0], predicted)
+    assert parsed.errors == [] and parsed.explicit.label == label
+    assert parsed.explicit.note == "Notiz" and len(parsed.lines) == 1
+
+
+@pytest.mark.parametrize(
+    ("body", "predicted", "error"),
+    [
+        ("explicit: ja", True, "unbekanntes Label"),
+        ("explicit: sollte explicit sein", True, "korrekt"),
+        ("explicit: sollte nicht explicit sein", False, "korrekt"),
+        ("explicit: korrekt", None, "kein Ergebnis"),
+        ("explicit: korrekt\nexplicit: korrekt", True, "mehrfach"),
+    ],
+)
+def test_parse_explicit_errors(body, predicted, error):
+    assert error in parse_comment(body, [0], predicted).errors[0]
+
+
+def test_empty_explicit_template_line_is_skipped():
+    parsed = parse_comment("explicit: \n0:", [0], True)
+    assert parsed.explicit is None and parsed.errors == [] and parsed.count() == 0
+
+
+@pytest.mark.parametrize(
+    ("predicted", "label", "expected"),
+    [
+        (True, "correct", True),
+        (False, "correct", False),
+        (False, "should_be_explicit", True),
+        (True, "should_not_be_explicit", False),
+        (True, None, None),
+    ],
+)
+def test_reviewer_flag(predicted, label, expected):
+    assert reviewer_flag(predicted, label) is expected
+
+
+def test_explicit_label_is_folded_like_turn_labels():
+    r = review(explicit=FLAGGED)
+    apply_labels(
+        r,
+        [
+            comment(1, "explicit: korrekt", at="2026-11-19T11:00:00Z"),
+            comment(
+                2, "explicit: sollte nicht explicit sein – nur Jagd", at="2026-11-19T12:00:00Z"
+            ),
+            comment(3, "explicit: sollte explicit sein", at="2026-11-19T13:00:00Z"),  # error
+        ],
+    )
+    e = r.explicit
+    assert (e.label, e.reviewer_flag, e.note, e.comment_id) == (
+        "should_not_be_explicit",
+        False,
+        "nur Jagd",
+        2,
+    )
+    assert [(c.comment_id, c.applied) for c in r.comments] == [(1, True), (2, True), (3, False)]
+    # The explicit label does not make the review answered; only turn labels do.
+    assert r.status == "pending" and r.outcome is None
+    apply_labels(r, [])
+    assert r.explicit.label is None and r.explicit.reviewer_flag is None
+
+
+def test_reply_reports_the_explicit_label():
+    r = review(explicit=FLAGGED)
+    apply_labels(r, [comment(1, "explicit: sollte nicht explicit sein")])
+    assert "Explicit: Prüfung explicit, Review nicht explicit." in render_reply(r, None)
+    apply_labels(r, [])
+    assert "Explicit: noch ohne Label (Prüfung: explicit)." in render_reply(r, None)
+
+
+def test_explicit_confusion_counts_and_rates():
+    pairs = [(True, True), (True, False), (False, False), (False, False), (False, True)]
+    a = explicit_confusion(pairs)
+    assert (a.episodes, a.true_positive, a.false_positive, a.false_negative, a.true_negative) == (
+        5, 1, 1, 1, 2,
+    )  # fmt: skip
+    assert a.false_positive_rate == pytest.approx(1 / 3)
+    assert a.false_negative_rate == pytest.approx(1 / 2)
+
+
+def test_explicit_confusion_without_data_has_no_rates():
+    a = explicit_confusion([])
+    assert a.episodes == 0 and a.false_positive_rate is None and a.false_negative_rate is None
+    only_clean = explicit_confusion([(False, False)])
+    assert only_clean.false_positive_rate == 0.0 and only_clean.false_negative_rate is None
+
+
+def test_explicit_pairs_skip_unlabelled_episodes():
+    labelled = review(explicit=FLAGGED)
+    apply_labels(labelled, [comment(1, "explicit: korrekt")])
+    assert explicit_pairs([labelled, review()]) == [(True, True)]
+
+
+def test_explicit_accuracy_over_the_archive(tmp_path):
+    a = review(explicit=FLAGGED)
+    apply_labels(a, [comment(1, "explicit: sollte nicht explicit sein")])
+    save_review(tmp_path, a)
+    b = build_review("2026-11-20_wolf", "Wolf", TURNS, JUDGEMENTS, FACTS, 1.0, CLEAN)
+    apply_labels(b, [comment(2, "explicit: korrekt")])
+    save_review(tmp_path, b)
+    save_review(
+        tmp_path, build_review("2026-11-21_luchs", "Luchs", TURNS, JUDGEMENTS, FACTS, 1.0, CLEAN)
+    )
+    accuracy = explicit_accuracy(tmp_path)
+    assert accuracy.episodes == 2 and accuracy.false_positive == 1 and accuracy.true_negative == 1
+    assert accuracy.false_positive_rate == 0.5 and accuracy.false_negative_rate is None
+
+
+def test_apply_writes_the_explicit_label_from_the_reviewer_only(tmp_path):
+    r = review(explicit=FLAGGED)
+    r.issue = 7
+    save_review(tmp_path, r)
+    issues = FakeIssues(
+        [
+            comment(1, "explicit: sollte nicht explicit sein", login="someone"),
+            comment(2, "explicit: korrekt"),
+        ]
+    )
+    apply_issue(tmp_path, 7, issues, REVIEW_CONFIG, NOW)
+    e = load_review(tmp_path, "2026-11-19_rotfuchs").explicit
+    assert (e.label, e.reviewer_flag, e.comment_id) == ("correct", True, 2)

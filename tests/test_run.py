@@ -564,6 +564,8 @@ def test_review_sample_is_drawn_with_the_rate_in_the_state_file(tmp_path):
     assert [t["turn_index"] for t in review["turns"]] == [0, 1]
     assert review["turns"][0]["facts"][0]["id"] == "5-0000"
     assert review["issue"] is None
+    assert review["explicit"]["predicted"] is False and review["explicit"]["verdict"] == "clean"
+    assert review["explicit"]["label"] is None
 
 
 def test_review_sample_uses_r_from_the_state_file(tmp_path):

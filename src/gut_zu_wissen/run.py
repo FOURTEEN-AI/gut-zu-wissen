@@ -239,6 +239,7 @@ def run(
         state.judgements,
         state.offer.by_id(),
         rate,
+        explicit,
     )
     write_json(folder / REVIEW_FILE, review.to_dict())
     return record.episode_id

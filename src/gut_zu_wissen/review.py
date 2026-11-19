@@ -15,6 +15,13 @@ reviewer's comments in creation order (a later label for a turn wins), so edits,
 skipped runs are picked up. Comments by any other account are ignored and not recorded. A comment
 with an invalid review line is rejected as a whole. Turns without a label stay unknown.
 
+Explicit check (D7): the issue also shows the result of `08_explicit.json` (flag, verdict,
+findings, reason). The reviewer confirms or corrects the flag with one line in the same format:
+`explicit: korrekt`, `explicit: sollte explicit sein` or `explicit: sollte nicht explicit sein`.
+The archive keeps the predicted flag and the reviewer's flag side by side; `explicit_accuracy`
+computes false-positive and false-negative rates over the archive (step 13). The explicit label
+does not affect the rate r and does not decide whether the issue counts as answered.
+
 Rate: an issue counts once every drawn turn has a label. Error-free: r * 2/3 (at least r_min);
 a turn labelled "nicht belegt": r * 2 (at most r_max). Each answered episode changes r once; a
 later correction that turns an error-free review into one with an error doubles r once more; a
@@ -50,11 +57,13 @@ from gut_zu_wissen.archive import (
     write_json,
 )
 from gut_zu_wissen.dialog import Turn
+from gut_zu_wissen.explicit import ExplicitCheck
 from gut_zu_wissen.github import Comment, Issues
 from gut_zu_wissen.judge import TurnJudgement, cited_ids
 from gut_zu_wissen.ranking import RankedFact
 
 Label = Literal["supported", "not_supported"]
+ExplicitLabel = Literal["correct", "should_be_explicit", "should_not_be_explicit"]
 Outcome = Literal["clean", "error"]
 ReviewStatus = Literal["not_sampled", "pending", "answered"]
 
@@ -66,6 +75,19 @@ MARKER = "gut-zu-wissen-review"
 # `<Nummer>: <Label>`, the label optionally followed by a dash and a note.
 REVIEW_LINE = re.compile(r"^\s*(\d+)\s*:(.*)$")
 LABEL_VALUE = re.compile(r"^(nicht\s+belegt|belegt)(?:\s*[-–—]\s*(.*))?$", re.IGNORECASE)
+# `explicit: <Label>` for the explicit check (D7), same note syntax.
+EXPLICIT_KEY = "explicit"
+EXPLICIT_LINE = re.compile(r"^\s*explicit\s*:(.*)$", re.IGNORECASE)
+EXPLICIT_VALUE = re.compile(
+    r"^(korrekt|sollte\s+nicht\s+explicit\s+sein|sollte\s+explicit\s+sein)"
+    r"(?:\s*[-–—]\s*(.*))?$",
+    re.IGNORECASE,
+)
+EXPLICIT_WORDS: dict[str, ExplicitLabel] = {
+    "korrekt": "correct",
+    "sollte explicit sein": "should_be_explicit",
+    "sollte nicht explicit sein": "should_not_be_explicit",
+}
 
 
 # ---------------------------------------------------------------- records
@@ -115,6 +137,21 @@ class ReviewTurn:
 
 
 @dataclass
+class ExplicitReview:
+    """Result of the explicit check (08_explicit.json) and the reviewer's label for it."""
+
+    model: str
+    predicted: bool | None
+    verdict: str | None
+    findings: list[dict]
+    reason: str | None
+    label: ExplicitLabel | None = None
+    reviewer_flag: bool | None = None
+    note: str | None = None
+    comment_id: int | None = None
+
+
+@dataclass
 class CommentRecord:
     """A reviewer comment as processed; the body itself stays on GitHub."""
 
@@ -142,6 +179,7 @@ class Review:
     rate_applied: list[Outcome] = field(default_factory=list)
     issue: int | None = None
     issue_url: str | None = None
+    explicit: ExplicitReview | None = None
     turns: list[ReviewTurn] = field(default_factory=list)
     comments: list[CommentRecord] = field(default_factory=list)
 
@@ -164,6 +202,7 @@ class Review:
             **{
                 **data,
                 "draws": [Draw(**d) for d in data["draws"]],
+                "explicit": ExplicitReview(**data["explicit"]) if data.get("explicit") else None,
                 "turns": turns,
                 "comments": [CommentRecord(**c) for c in data["comments"]],
             }
@@ -206,9 +245,37 @@ class ParsedLine:
 
 
 @dataclass
+class ParsedExplicit:
+    label: ExplicitLabel
+    note: str | None
+
+
+@dataclass
 class ParsedComment:
     lines: list[ParsedLine]
     errors: list[str]
+    explicit: ParsedExplicit | None = None
+
+    def count(self) -> int:
+        return len(self.lines) + len(self.errors) + (self.explicit is not None)
+
+
+@dataclass
+class ExplicitAccuracy:
+    """Explicit check against the reviewer's flag over reviewed episodes (step 13).
+
+    Positive = explicit. False-positive rate: share of episodes the reviewer calls not explicit
+    that the check flagged; false-negative rate: share of explicit episodes the check missed.
+    A rate without a single episode in its denominator is None.
+    """
+
+    episodes: int
+    true_positive: int
+    false_positive: int
+    false_negative: int
+    true_negative: int
+    false_positive_rate: float | None
+    false_negative_rate: float | None
 
 
 # ---------------------------------------------------------------- sampling (pure)
@@ -238,8 +305,10 @@ def build_review(
     judgements: Sequence[TurnJudgement],
     facts: Mapping[str, RankedFact],
     rate: float,
+    explicit: ExplicitCheck,
 ) -> Review:
-    """The review record of a finished run: population, recorded draws, drawn turns."""
+    """The review record of a finished run: population, recorded draws, drawn turns, and the
+    result of the explicit check."""
     population = review_population(turns, judgements)
     draws = sample(population, draw_values(episode_id, len(population)), rate)
     drawn = {d.turn_index for d in draws if d.sampled}
@@ -285,6 +354,13 @@ def build_review(
         population=population,
         draws=draws,
         status="pending" if review_turns else "not_sampled",
+        explicit=ExplicitReview(
+            explicit.model,
+            explicit.explicit,
+            explicit.verdict,
+            [f.to_dict() for f in explicit.findings],
+            explicit.reason,
+        ),
         turns=review_turns,
     )
 
@@ -297,16 +373,50 @@ def is_authorized(comment: Comment, reviewer: str, associations: Collection[str]
     return comment.login == reviewer and comment.association in associations
 
 
-def parse_comment(body: str, sampled: Collection[int]) -> ParsedComment:
+def parse_explicit(value: str, predicted: bool | None) -> tuple[ParsedExplicit | None, str | None]:
+    """The value of an `explicit:` line; a correction that names the predicted flag is an
+    error (use „korrekt“), as is „korrekt“ when the check gave no flag."""
+    match = EXPLICIT_VALUE.match(value)
+    if not match:
+        return None, f"Explicit: unbekanntes Label „{value}“."
+    label = EXPLICIT_WORDS[" ".join(match.group(1).lower().split())]
+    if label == "correct" and predicted is None:
+        return None, "Explicit: die Prüfung hat kein Ergebnis, „korrekt“ geht nicht."
+    if (label == "should_be_explicit" and predicted is True) or (
+        label == "should_not_be_explicit" and predicted is False
+    ):
+        return None, "Explicit: das sagt die Prüfung schon; dann „korrekt“."
+    return ParsedExplicit(label, (match.group(2) or "").strip() or None), None
+
+
+def parse_comment(
+    body: str, sampled: Collection[int], predicted: bool | None = None
+) -> ParsedComment:
     """Review lines of one comment. Other lines (prose, code fences, quotes) are ignored.
 
-    `<n>:` with nothing after it is skipped (template line not filled in). An unknown label, a
-    turn that was not drawn or a turn named twice is an error.
+    `<n>:` or `explicit:` with nothing after it is skipped (template line not filled in). An
+    unknown label, a turn that was not drawn or a turn or the explicit line named twice is an
+    error. `predicted` is the flag of the explicit check.
     """
     lines: list[ParsedLine] = []
     errors: list[str] = []
     seen: set[int] = set()
+    explicit: ParsedExplicit | None = None
+    explicit_seen = False
     for raw in body.splitlines():
+        explicit_match = EXPLICIT_LINE.match(raw)
+        if explicit_match:
+            value = " ".join(explicit_match.group(1).split())
+            if not value:
+                continue
+            if explicit_seen:
+                errors.append("Explicit steht mehrfach im Kommentar.")
+                continue
+            explicit_seen = True
+            explicit, error = parse_explicit(value, predicted)
+            if error:
+                errors.append(error)
+            continue
         match = REVIEW_LINE.match(raw)
         if not match:
             continue
@@ -327,39 +437,50 @@ def parse_comment(body: str, sampled: Collection[int]) -> ParsedComment:
         word = " ".join(label_match.group(1).lower().split())
         note = (label_match.group(2) or "").strip() or None
         lines.append(ParsedLine(index, LABEL_WORDS[word], note))
-    return ParsedComment(lines, errors)
+    return ParsedComment(lines, errors, explicit)
+
+
+@dataclass
+class Folded:
+    labels: dict[int, tuple[ParsedLine, int]]
+    explicit: tuple[ParsedExplicit, int] | None
+    records: list[CommentRecord]
 
 
 def fold_labels(
-    comments: Sequence[Comment], sampled: Collection[int]
-) -> tuple[dict[int, tuple[ParsedLine, int]], list[CommentRecord]]:
-    """Labels from the reviewer's comments in creation order; a later label for a turn wins.
+    comments: Sequence[Comment], sampled: Collection[int], predicted: bool | None = None
+) -> Folded:
+    """Labels from the reviewer's comments in creation order; a later label for a turn (or for
+    the explicit check) wins.
 
-    Returns label and comment ID per turn, and one record per comment with review lines or
-    errors. A comment with an error is not applied at all.
+    Returns label and comment ID per turn and for the explicit check, and one record per comment
+    with review lines or errors. A comment with an error is not applied at all.
     """
     labels: dict[int, tuple[ParsedLine, int]] = {}
+    explicit: tuple[ParsedExplicit, int] | None = None
     records: list[CommentRecord] = []
     for comment in sorted(comments, key=lambda c: (c.created_at, c.id)):
-        parsed = parse_comment(comment.body, sampled)
-        if not parsed.lines and not parsed.errors:
+        parsed = parse_comment(comment.body, sampled, predicted)
+        if not parsed.count():
             continue
         applied = not parsed.errors
         if applied:
             for line in parsed.lines:
                 labels[line.turn_index] = (line, comment.id)
+            if parsed.explicit:
+                explicit = (parsed.explicit, comment.id)
         records.append(
             CommentRecord(
                 comment.id,
                 comment.url,
                 comment.created_at,
                 comment.updated_at,
-                len(parsed.lines) + len(parsed.errors),
+                parsed.count(),
                 applied,
                 parsed.errors,
             )
         )
-    return labels, records
+    return Folded(labels, explicit, records)
 
 
 def review_status(sampled: Collection[int], labelled: Collection[int]) -> ReviewStatus:
@@ -375,7 +496,15 @@ def review_outcome(turns: Sequence[ReviewTurn]) -> Outcome:
 def apply_labels(review: Review, comments: Sequence[Comment]) -> None:
     """Write labels, comment records, status and outcome into `review` (authorized comments
     only; the caller filters)."""
-    labels, records = fold_labels(comments, review.sampled())
+    predicted = review.explicit.predicted if review.explicit else None
+    folded = fold_labels(comments, review.sampled(), predicted)
+    labels, records = folded.labels, folded.records
+    if review.explicit:
+        parsed, comment_id = folded.explicit or (None, None)
+        review.explicit.label = parsed.label if parsed else None
+        review.explicit.note = parsed.note if parsed else None
+        review.explicit.comment_id = comment_id
+        review.explicit.reviewer_flag = reviewer_flag(predicted, review.explicit.label)
     for turn in review.turns:
         line, comment_id = labels.get(turn.turn_index, (None, None))
         turn.label = line.label if line else None
@@ -384,6 +513,45 @@ def apply_labels(review: Review, comments: Sequence[Comment]) -> None:
     review.comments = records
     review.status = review_status(review.sampled(), labels)
     review.outcome = review_outcome(review.turns) if review.status == "answered" else None
+
+
+# ---------------------------------------------------------------- explicit check (pure)
+
+
+def reviewer_flag(predicted: bool | None, label: ExplicitLabel | None) -> bool | None:
+    """The flag the reviewer gives the episode: the predicted one if confirmed, else the
+    corrected one; None without a label."""
+    if label == "correct":
+        return predicted
+    if label == "should_be_explicit":
+        return True
+    if label == "should_not_be_explicit":
+        return False
+    return None
+
+
+def explicit_pairs(reviews: Iterable[Review]) -> list[tuple[bool, bool]]:
+    """(predicted, reviewer) flags of every episode whose explicit result has a label."""
+    pairs = []
+    for review in reviews:
+        e = review.explicit
+        if e is not None and e.predicted is not None and e.reviewer_flag is not None:
+            pairs.append((e.predicted, e.reviewer_flag))
+    return pairs
+
+
+def _share(part: int, whole: int) -> float | None:
+    return part / whole if whole else None
+
+
+def explicit_confusion(pairs: Iterable[tuple[bool, bool]]) -> ExplicitAccuracy:
+    """Confusion counts and rates of the explicit check, positive = explicit."""
+    pairs = list(pairs)
+    tp = sum(1 for p, r in pairs if p and r)
+    fp = sum(1 for p, r in pairs if p and not r)
+    fn = sum(1 for p, r in pairs if not p and r)
+    tn = sum(1 for p, r in pairs if not p and not r)
+    return ExplicitAccuracy(len(pairs), tp, fp, fn, tn, _share(fp, fp + tn), _share(fn, fn + tp))
 
 
 # ---------------------------------------------------------------- rate (pure)
@@ -474,9 +642,60 @@ def render_turn(turn: ReviewTurn) -> str:
     return "\n".join(parts)
 
 
+CATEGORY_TEXT = {
+    "violence": "Gewalt",
+    "sexuality": "Sexualität",
+    "drugs": "Drogen",
+    "profanity": "Schimpfwörter",
+}
+
+
+def flag_text(flag: bool | None) -> str:
+    if flag is None:
+        return "kein Ergebnis"
+    return "explicit" if flag else "nicht explicit"
+
+
+def render_explicit(e: ExplicitReview) -> str:
+    """The result of the explicit check (D7) as the reviewer sees it."""
+    parts = [
+        "## Explicit-Prüfung (D7)",
+        "",
+        f"- **Flag:** {flag_text(e.predicted)}",
+        f"- **Urteil des Modells:** `{escape(e.verdict or '–')}`",
+        f"- **Begründung:** {escape(e.reason or '–')}",
+        "- **Fundstellen:**" + ("" if e.findings else " keine"),
+    ]
+    for f in e.findings:
+        index = f.get("turn_index")
+        where = f"Redebeitrag {index}" if index is not None else "ohne Redebeitrag"
+        category = CATEGORY_TEXT.get(str(f.get("category")), escape(str(f.get("category", ""))))
+        parts.append(
+            f"  - {where}, {category}: „{escape(str(f.get('quote', '')))}“ – "
+            f"{escape(str(f.get('reason', '')))}"
+        )
+    parts += [
+        "",
+        "Antwort: `explicit: korrekt`, `explicit: sollte explicit sein` oder "
+        "`explicit: sollte nicht explicit sein`, optional mit Notiz nach einem Gedankenstrich. "
+        "Explicit ist eine Folge mit drastischer Darstellung von Gewalt, Sexualität oder Drogen "
+        "oder mit gesprochenen Schimpfwörtern; sachliche oder beiläufige Erwähnungen zählen "
+        "nicht. Ein unsicheres Urteil des Modells gilt als explicit (D7); du beurteilst, ob die "
+        "Folge tatsächlich explicit ist. Geprüft wird das ganze Skript (`05_dialog.json`), nicht "
+        "nur die gezogenen Redebeiträge.",
+    ]
+    return "\n".join(parts)
+
+
 def render_header(review: Review, reviewer: str, links: Mapping[str, str]) -> str:
-    marker = json.dumps({"episode_id": review.episode_id, "turns": review.sampled()})
-    template = "\n".join(f"{i}: " for i in review.sampled())
+    data: dict = {"episode_id": review.episode_id, "turns": review.sampled()}
+    if review.explicit:
+        data["explicit"] = review.explicit.predicted
+    marker = json.dumps(data)
+    lines = [f"{i}: " for i in review.sampled()]
+    if review.explicit:
+        lines.append(f"{EXPLICIT_KEY}: ")
+    template = "\n".join(lines)
     link_parts = [f"[{name}]({url})" for name, url in links.items()]
     return "\n".join(
         [
@@ -504,6 +723,7 @@ def render_header(review: Review, reviewer: str, links: Mapping[str, str]) -> st
             "Ein Kommentar mit einer ungültigen Zeile wird ganz verworfen. Labels und Notizen "
             "stehen öffentlich im Archiv. Das Review zählt, sobald jeder gezogene Redebeitrag "
             "ein Label hat.",
+            *(["", render_explicit(review.explicit)] if review.explicit else []),
             "",
             "Vorlage zum Kopieren:",
             "",
@@ -562,6 +782,14 @@ def render_reply(review: Review, rate_update: RateUpdate | None) -> str:
             lines.append("")
             lines.append(f"Kommentar {c.url} verworfen:")
             lines += [f"- {e}" for e in c.errors]
+    if review.explicit:
+        e = review.explicit
+        if e.label is None:
+            lines.append(f"Explicit: noch ohne Label (Prüfung: {flag_text(e.predicted)}).")
+        else:
+            lines.append(
+                f"Explicit: Prüfung {flag_text(e.predicted)}, Review {flag_text(e.reviewer_flag)}."
+            )
     if review.status == "answered":
         result = "fehlerfrei" if review.outcome == "clean" else "Fehler gefunden"
         lines += ["", f"Review vollständig: {result}."]
@@ -608,6 +836,16 @@ def find_review(archive_root: Path, issue: int) -> Review | None:
         if data.get("issue") == issue:
             return Review.from_dict(data)
     return None
+
+
+def explicit_accuracy(archive_root: Path) -> ExplicitAccuracy:
+    """False-positive and false-negative rates of the explicit check over every reviewed
+    episode in the archive (step 13)."""
+    reviews = [
+        Review.from_dict(read_json(path))
+        for path in sorted((archive_root / EPISODES_DIR).glob(f"*/{REVIEW_FILE}"))
+    ]
+    return explicit_confusion(explicit_pairs(reviews))
 
 
 def open_issue(
