@@ -1,11 +1,12 @@
 """Run entry point: `python -m gut_zu_wissen.run "<article title>"`.
 
-Phase 1 steps 2 to 11: fetch the article, apply the gates, segment, extract facts, rank, add the
+Phase 1 steps 2 to 12: fetch the article, apply the gates, segment, extract facts, rank, add the
 linked intros, write the dialog, judge it, synthesise, verify with STT and normalise the audio,
-run the explicit check on the final script, write the episode folder. The turn and conversation
-loops live in orchestrator.py (step 8), the audio step with its STT verification in
-episode_audio.py (steps 9 and 10), the explicit check in explicit.py (step 11); later steps are
-added here.
+run the explicit check on the final script, draw the review sample, write the episode folder. The
+turn and conversation loops live in orchestrator.py (step 8), the audio step with its STT
+verification in episode_audio.py (steps 9 and 10), the explicit check in explicit.py (step 11),
+the review loop in review.py (step 12; the workflow opens the issue after the run); later steps
+are added here.
 """
 
 from __future__ import annotations
@@ -26,6 +27,7 @@ from gut_zu_wissen.archive import (
     JUDGEMENT_FILE,
     LINKED_DIR,
     RANKING_FILE,
+    REVIEW_FILE,
     SEGMENTS_FILE,
     create_episode,
     episode_dir,
@@ -53,6 +55,7 @@ from gut_zu_wissen.llm import AnthropicLlm, LlmError, StructuredLlm
 from gut_zu_wissen.orchestrator import GateFailure, Offer, Orchestration, orchestrate
 from gut_zu_wissen.ranking import RankedFact, link_targets, offer_gate, rank_facts, ranked, raw_of
 from gut_zu_wissen.render import ParseRenderer
+from gut_zu_wissen.review import build_review, load_rate_state, load_review
 from gut_zu_wissen.segmentation import segment_article
 from gut_zu_wissen.stt import Stt, WhisperStt
 from gut_zu_wissen.tts import GeminiTts, Tts, voices_of
@@ -88,7 +91,8 @@ def run(
     Intro and outro are checked first (`FixedAudioError`), before anything costs money. Audio
     files go to `audio_root/<episode ID>/`. The STT deviations and the explicit check (D7, after
     the audio step, on the script that was synthesised) are decided by `judge_llm`. The explicit
-    flag does not block the episode; a failed check call escalates.
+    flag does not block the episode; a failed check call escalates. Last, the review sample is
+    drawn with the current rate r and written to `09_review.json` (step 12).
     """
     fixed = load_fixed(fixed_dir, config["models"]["tts"], voices_of(config))
     article = fetch_article(api, title, now)
@@ -225,6 +229,18 @@ def run(
     write_json(folder / EXPLICIT_FILE, explicit.to_dict())
     record.explicit = explicit.explicit
     save_episode(archive_root, record)
+
+    assert state.offer is not None
+    rate = load_rate_state(archive_root, config["review"]).r
+    review = build_review(
+        record.episode_id,
+        record.title,
+        state.dialog.turns,
+        state.judgements,
+        state.offer.by_id(),
+        rate,
+    )
+    write_json(folder / REVIEW_FILE, review.to_dict())
     return record.episode_id
 
 
@@ -234,6 +250,14 @@ def write_job_summary(text: str) -> None:
     if path:
         with open(path, "a", encoding="utf-8") as f:
             f.write(text + "\n")
+
+
+def write_step_output(name: str, value: str) -> None:
+    """Output of the workflow step, for the steps after it (no-op outside Actions)."""
+    path = os.environ.get("GITHUB_OUTPUT")
+    if path:
+        with open(path, "a", encoding="utf-8") as f:
+            f.write(f"{name}={value}\n")
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -293,16 +317,19 @@ def main(argv: list[str] | None = None) -> int:
         print(f"::error::Aborted: {exc}", file=sys.stderr)
         write_job_summary(f"## Episode aborted\n\n{exc}\n\nDetails in the archive folder.")
         return 1
+    write_step_output("episode_id", episode_id)
     audio_file = AUDIO_ROOT / episode_id / EPISODE_AUDIO
     explicit = "yes" if load_episode(ARCHIVE_ROOT, episode_id).explicit else "no"
+    review = load_review(ARCHIVE_ROOT, episode_id)
+    drawn = f"{len(review.turns)} of {len(review.population)} turns drawn at r = {review.rate}"
     write_job_summary(
-        f"## Episode {episode_id}\n\nSteps up to the STT-verified audio and the explicit check "
-        f"done. Explicit: {explicit}. "
+        f"## Episode {episode_id}\n\nSteps up to the STT-verified audio, the explicit check and "
+        f"the review sample done. Explicit: {explicit}. Review: {drawn}. "
         f"Audio: `{audio_file.relative_to(REPO_ROOT)}` (workflow artifact, not committed)."
     )
     print(
-        f"Episode {episode_id}: steps up to the explicit check done, explicit: {explicit} "
-        f"({audio_file})."
+        f"Episode {episode_id}: steps up to the review sample done, explicit: {explicit}, "
+        f"review: {drawn} ({audio_file})."
     )
     return 0
 

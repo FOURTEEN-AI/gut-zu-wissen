@@ -41,6 +41,7 @@ CONFIG = {
     "stt": REAL["stt"],
     "audio": REAL["audio"],
     "prices": REAL["prices"],
+    "review": REAL["review"],
 }
 
 
@@ -553,3 +554,38 @@ def test_explicit_check_is_not_run_when_the_audio_step_fails(tmp_path):
             judge=judge)  # fmt: skip
     assert judge.scripts == []
     assert not (tmp_path / "episodes" / "2026-11-19_rotfuchs" / "08_explicit.json").exists()
+
+
+def test_review_sample_is_drawn_with_the_rate_in_the_state_file(tmp_path):
+    episode_id = run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW)
+    review = json.loads((tmp_path / "episodes" / episode_id / "09_review.json").read_text())
+    assert review["rate"] == 1.0 and review["seed"] == episode_id
+    assert review["population"] == [0, 1] and review["status"] == "pending"
+    assert [t["turn_index"] for t in review["turns"]] == [0, 1]
+    assert review["turns"][0]["facts"][0]["id"] == "5-0000"
+    assert review["issue"] is None
+
+
+def test_review_sample_uses_r_from_the_state_file(tmp_path):
+    state = tmp_path / "state" / "review.json"
+    state.parent.mkdir(parents=True)
+    state.write_text(json.dumps({"r": 0.0, "updates": []}))
+    episode_id = run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW)
+    review = json.loads((tmp_path / "episodes" / episode_id / "09_review.json").read_text())
+    assert review["rate"] == 0.0 and review["status"] == "not_sampled" and review["turns"] == []
+
+
+def test_failed_run_draws_no_review_sample(tmp_path):
+    judge = FakeJudgeLlm(error=LlmError("The model declined the request."))
+    with pytest.raises(GateFailure):
+        run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, judge=judge)
+    assert not (tmp_path / "episodes" / "2026-11-19_rotfuchs" / "09_review.json").exists()
+
+
+def test_step_output_is_appended_when_running_in_actions(tmp_path, monkeypatch):
+    from gut_zu_wissen.run import write_step_output
+
+    path = tmp_path / "output"
+    monkeypatch.setenv("GITHUB_OUTPUT", str(path))
+    write_step_output("episode_id", "2026-11-19_rotfuchs")
+    assert path.read_text() == "episode_id=2026-11-19_rotfuchs\n"
