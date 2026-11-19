@@ -1,7 +1,7 @@
 """Run entry point: `python -m gut_zu_wissen.run "<article title>"`.
 
-Phase 1 steps 2 to 5: fetch the article, apply the gates, segment, extract facts, rank, add the
-linked intros, write the episode folder.
+Phase 1 steps 2 to 6: fetch the article, apply the gates, segment, extract facts, rank, add the
+linked intros, write the dialog, write the episode folder.
 Later steps are added here and move into the orchestrator (step 8).
 """
 
@@ -15,6 +15,7 @@ from pathlib import Path
 
 from gut_zu_wissen.archive import (
     ARTICLE_FILE,
+    DIALOG_FILE,
     FACTS_FILE,
     LINKED_DIR,
     RANKING_FILE,
@@ -27,6 +28,7 @@ from gut_zu_wissen.archive import (
     slugify,
     write_json,
 )
+from gut_zu_wissen.dialog import used_facts_gate, write_dialog
 from gut_zu_wissen.extraction import extract_facts
 from gut_zu_wissen.fetch import ArticleNotFoundError, HttpWikipediaApi, WikipediaApi, fetch_article
 from gut_zu_wissen.gates import is_living_person, repeat_gate_allows
@@ -125,6 +127,21 @@ def run(
         record.status, record.failure = "failed", failure
         save_episode(archive_root, record)
         raise GateFailure(failure)
+
+    main_ranked = ranked(main, article.title, article.revid)
+    dialog = write_dialog(llm, main_ranked, linked, quotas["min_used_facts"])
+    write_json(folder / DIALOG_FILE, dialog.to_dict())
+    # Turn and conversation regeneration (D1, D5, D6) come with the orchestrator (step 8).
+    if dialog.problems:
+        failure = (
+            f"Gate fact IDs: {len(dialog.problems)} problem(s) in the dialog, see {DIALOG_FILE}."
+        )
+    else:
+        failure = used_facts_gate(len(dialog.used_fact_ids), quotas["min_used_facts"])
+    if failure:
+        record.status, record.failure = "failed", failure
+        save_episode(archive_root, record)
+        raise GateFailure(failure)
     return record.episode_id
 
 
@@ -145,7 +162,7 @@ def main(argv: list[str] | None = None) -> int:
     except GateFailure as exc:
         print(f"Aborted: {exc}", file=sys.stderr)
         return 1
-    print(f"Episode {episode_id}: steps up to ranking done.")
+    print(f"Episode {episode_id}: steps up to dialog done.")
     return 0
 
 

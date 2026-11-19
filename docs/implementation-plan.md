@@ -34,7 +34,7 @@ These retire the open risks before the build starts.
 5. **Ranking.** ✅ Done.
    - 20 main facts. Linked intros: fetch (same revision rule), gate, extract, rank for 6 more, each with its own revid for the shownotes.
    - Gate: fewer than 10 offered facts → gate failure before the dialog author (D5).
-6. **Dialog author.**
+6. **Dialog author.** ✅ Done.
    - Output schema per turn (text, fact IDs, explicit statements with fact IDs). Gate: fact IDs exist.
    - Gate: fewer than 10 used facts → conversation regeneration (D5).
 7. **Judge.**

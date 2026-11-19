@@ -24,14 +24,21 @@ CONFIG = {
 
 class FakeLlm:
     """Extraction: offers every segment of the chunk as a fact without context.
-    Ranking: returns the offered IDs in reverse order."""
+    Ranking: returns the offered IDs in reverse order.
+    Dialog: two turns citing every offered ID; `felix` overrides fields of the second turn."""
 
-    def __init__(self) -> None:
+    def __init__(self, felix: dict | None = None, cite: int | None = None) -> None:
         self.calls: list[str] = []
+        self.felix, self.cite = felix or {}, cite
 
     def complete_json(self, system: str, user: str, schema: dict) -> dict:
         self.calls.append(user)
         ids = re.findall(r"^\[([^\]]+)\]", user, re.MULTILINE)
+        if "turns" in schema["properties"]:
+            ids = ids[: self.cite]
+            statements = [{"text": "Aussage.", "fact_ids": ids}]
+            turn = {"speaker": "Lena", "text": "Text.", "fact_ids": ids, "statements": statements}
+            return {"turns": [turn, {**turn, "speaker": "Felix", **self.felix}]}
         if "ranked_ids" in schema["properties"]:
             return {"ranked_ids": ids[::-1]}
         return {"candidates": [{"segment_id": i, "context_ids": []} for i in ids]}
@@ -191,3 +198,27 @@ def test_missing_article_creates_no_episode(tmp_path):
 
 def test_real_config_has_repeat_gate_months():
     assert load_config()["quotas"]["repeat_gate_months"] == 6
+
+
+def test_dialog_is_archived_with_used_facts(tmp_path):
+    episode_id = run(
+        FakeApi("Rotfuchs", ["Kategorie:Hunde"]), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW
+    )
+    dialog = json.loads((tmp_path / "episodes" / episode_id / "05_dialog.json").read_text())
+    assert [t["speaker"] for t in dialog["turns"]] == ["Lena", "Felix"]
+    assert dialog["problems"] == []
+    assert dialog["used_fact_ids"] == ["5-0000"]
+
+
+def test_unknown_fact_id_in_dialog_fails_the_run(tmp_path):
+    llm = FakeLlm(felix={"fact_ids": ["9-9999"]})
+    with pytest.raises(GateFailure, match="fact IDs"):
+        run(FakeApi("Rotfuchs", []), llm, tmp_path, CONFIG, "Rotfuchs", NOW)
+    assert load_episode(tmp_path, "2026-11-19_rotfuchs").status == "failed"
+
+
+def test_too_few_used_facts_in_dialog_fail_the_run(tmp_path):
+    config = {"quotas": {**CONFIG["quotas"], "min_used_facts": 2}}
+    api = FakeApi("Rotfuchs", [], text="Ein Satz im Artikel.\n\nNoch ein Satz im Artikel.")
+    with pytest.raises(GateFailure, match="used by the author"):
+        run(api, FakeLlm(cite=1), tmp_path, config, "Rotfuchs", NOW)
