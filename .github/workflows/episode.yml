@@ -29,6 +29,19 @@ jobs:
         with:
           python-version: "3.12"
       - run: uv sync --no-dev
+      # Whisper model for the STT verification (spike S5): faster-whisper downloads it from
+      # Hugging Face on first use; the cache saves the download (about 22 s per run).
+      - name: Whisper model name
+        id: stt
+        run: >
+          uv run python -c 'import tomllib;
+          print("model=" + tomllib.load(open("config/pipeline.toml", "rb"))["models"]["stt"])'
+          >> "$GITHUB_OUTPUT"
+      - name: Restore Whisper model cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface/hub
+          key: whisper-${{ steps.stt.outputs.model }}
       - name: Run pipeline
         env:
           ARTICLE: ${{ inputs.article }}
