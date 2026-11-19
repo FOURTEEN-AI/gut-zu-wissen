@@ -1,0 +1,21 @@
+name: Metrics
+
+# Phase 1 step 13: exit criteria and measurements over the archive, printed to the log and the
+# job summary. Reads the archive only.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - run: uv sync --no-dev
+      - run: uv run python -m gut_zu_wissen.metrics
