@@ -230,14 +230,16 @@ def test_dialog_minutes_unknown_when_a_section_has_no_duration(tmp_path):
 def test_escalation_rate_counts_failed_and_incomplete_runs(tmp_path):
     write_run(tmp_path, "a", review_data=review("a", []))
     write_run(tmp_path, "b", status="failed", failure="Gate living person: …")
-    write_run(tmp_path, "c")  # crashed: no review sample, still "running"
-    write_run(tmp_path, "d", review_data=review("d", []))
+    write_run(tmp_path, "c", status="failed", failure="Crash: RuntimeError: connection reset")
+    write_run(tmp_path, "d", finished_at=None)  # still running: no end, no review sample
+    write_run(tmp_path, "e", review_data=review("e", []))
     e = escalation(load_runs(tmp_path))
-    assert (e.runs, e.completed, e.failed, e.incomplete) == (4, 2, 1, 1)
-    assert e.rate == 0.5
+    assert (e.runs, e.completed, e.failed, e.incomplete) == (5, 2, 2, 1)
+    assert e.rate == 0.6
     assert [(x.episode_id, x.outcome, x.reason) for x in e.escalated] == [
         ("b", "failed", "Gate living person: …"),
-        ("c", "incomplete", None),
+        ("c", "failed", "Crash: RuntimeError: connection reset"),
+        ("d", "incomplete", None),
     ]
 
 
@@ -355,8 +357,8 @@ def test_runs_without_recorded_usage_or_tts_cost_are_flagged(tmp_path):
 
 
 def test_failed_run_before_the_audio_step_has_no_tts_cost(tmp_path):
-    write_run(tmp_path, "a", status="failed", audio=False)
-    write_run(tmp_path, "b", audio=False)  # crashed: TTS cost unknown
+    write_run(tmp_path, "a", status="failed", audio=False)  # gate failure or crash before TTS
+    write_run(tmp_path, "b", audio=False, finished_at=None)  # still running: TTS cost unknown
     runs = load_runs(tmp_path)
     assert run_cost(runs[0], PRICES).parts[0].usd == 0.0
     assert run_cost(runs[1], PRICES).parts[0].usd is None

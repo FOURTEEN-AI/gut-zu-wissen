@@ -43,6 +43,7 @@ CONFIG = {
     "audio": REAL["audio"],
     "prices": REAL["prices"],
     "review": REAL["review"],
+    "run": REAL["run"],
 }
 
 
@@ -638,11 +639,62 @@ class CrashingLlm(FakeLlm):
         raise RuntimeError("connection reset")
 
 
-def test_crashed_run_records_end_time_and_keeps_its_status(tmp_path):
-    with pytest.raises(RuntimeError):
+def test_crashed_run_is_recorded_as_failed_and_re_raised(tmp_path):
+    with pytest.raises(RuntimeError, match="connection reset"):
         run(
             FakeApi("Rotfuchs", []), CrashingLlm(), tmp_path, CONFIG, "Rotfuchs", NOW,
             clock=lambda: LATER,
         )  # fmt: skip
     record = load_episode(tmp_path, "2026-11-19_rotfuchs")
-    assert record.status == "running" and record.finished_at == "2026-11-19T10:47:12Z"
+    assert record.status == "failed" and record.finished_at == "2026-11-19T10:47:12Z"
+    assert record.failure == "Crash: RuntimeError: connection reset"
+
+
+def test_crash_in_the_audio_step_keeps_the_audio_record(tmp_path):
+    tts = FakeTts(error=RuntimeError("socket closed"))
+    with pytest.raises(RuntimeError):
+        run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, tts=tts)
+    folder = tmp_path / "episodes" / "2026-11-19_rotfuchs"
+    assert load_episode(tmp_path, "2026-11-19_rotfuchs").failure == (
+        "Crash: RuntimeError: socket closed"
+    )
+    assert (folder / "07_audio.json").exists()
+    assert not (folder / "09_review.json").exists()
+
+
+def test_crash_reason_masks_secrets_and_is_cut():
+    from gut_zu_wissen.run import crash_reason
+
+    exc = ValueError("bad key sk-123\n in   header")
+    assert crash_reason(exc, 300, ["sk-123", ""]) == "Crash: ValueError: bad key *** in header"
+    assert crash_reason(KeyError(), 300) == "Crash: KeyError"
+    cut = crash_reason(RuntimeError("x" * 50), 20)
+    assert len(cut) == 20 and cut == "Crash: RuntimeError…"
+
+
+def test_secret_values_come_from_the_named_variables_only():
+    from gut_zu_wissen.run import secret_values
+
+    env = {"ANTHROPIC_API_KEY": "a", "GEMINI_API_KEY": "", "HOME": "/root"}
+    assert secret_values(env) == ["a"]
+
+
+def test_main_escalates_a_crash_in_the_job_summary_and_re_raises(tmp_path, monkeypatch):
+    import gut_zu_wissen.run as run_module
+
+    def crash(*args, **kwargs):
+        raise RuntimeError("upstream said: key sk-live-1 rejected")
+
+    for name, value in [
+        ("ANTHROPIC_API_KEY", "sk-live-1"),
+        ("TYPESAFE_API_KEY", "ts-1"),
+        ("GEMINI_API_KEY", "gm-1"),
+        ("GITHUB_STEP_SUMMARY", str(tmp_path / "summary.md")),
+    ]:
+        monkeypatch.setenv(name, value)
+    monkeypatch.setattr(run_module, "run", crash)
+    with pytest.raises(RuntimeError):
+        run_module.main(["Rotfuchs"])
+    summary = (tmp_path / "summary.md").read_text()
+    assert summary.startswith("## Episode crashed\n\nCrash: RuntimeError: upstream said: key ***")
+    assert "sk-live-1" not in summary

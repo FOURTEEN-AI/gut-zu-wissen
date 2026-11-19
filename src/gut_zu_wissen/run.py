@@ -14,7 +14,7 @@ from __future__ import annotations
 import os
 import sys
 import tomllib
-from collections.abc import Callable, Mapping
+from collections.abc import Callable, Collection, Mapping
 from dataclasses import asdict
 from datetime import UTC, datetime
 from pathlib import Path
@@ -66,10 +66,32 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 CONFIG_PATH = REPO_ROOT / "config" / "pipeline.toml"
 ARCHIVE_ROOT = REPO_ROOT / "archive"
 AUDIO_ROOT = REPO_ROOT / "build" / "audio"  # not committed (.gitignore: build/)
+# Their values are masked in a crash reason, which goes to the public archive and job summary.
+SECRET_ENV_VARS = ("ANTHROPIC_API_KEY", "TYPESAFE_API_KEY", "GEMINI_API_KEY")
+CRASH_PREFIX = "Crash: "
+SECRET_MASK = "***"
+ELLIPSIS = "…"
 
 
 def _utc_now() -> datetime:
     return datetime.now(UTC)
+
+
+def crash_reason(exc: BaseException, max_chars: int, secrets: Collection[str] = ()) -> str:
+    """Failure reason of a crash: exception type and message on one line, secret values masked,
+    cut to `max_chars`."""
+    message = " ".join(str(exc).split())
+    for secret in secrets:
+        if secret:
+            message = message.replace(secret, SECRET_MASK)
+    reason = f"{CRASH_PREFIX}{type(exc).__name__}" + (f": {message}" if message else "")
+    if len(reason) > max_chars:
+        reason = reason[: max_chars - len(ELLIPSIS)] + ELLIPSIS
+    return reason
+
+
+def secret_values(env: Mapping[str, str]) -> list[str]:
+    return [env[name] for name in SECRET_ENV_VARS if env.get(name)]
 
 
 def load_config(path: Path = CONFIG_PATH) -> dict:
@@ -93,6 +115,7 @@ def run(
     audio_root: Path,
     clock: Callable[[], datetime] | None = None,
     usage: Mapping[str, Usage] | None = None,
+    secrets: Collection[str] = (),
 ) -> str:
     """Run the steps implemented so far. Returns the episode ID; raises GateFailure.
 
@@ -104,8 +127,12 @@ def run(
 
     However the run ends after the episode folder exists, `episode.json` gets `finished_at` (from
     `clock`, default the system clock) and the token counts of `usage`, the counters the API
-    clients fill (step 13: runtime and cost). A crash leaves the status as it is.
+    clients fill (step 13: runtime and cost). A crash (any exception other than `GateFailure`)
+    is recorded as `failed` with `crash_reason` (type and message, `secrets` masked) and
+    re-raised, so the job fails with the traceback. A crash in the audio step still writes
+    `07_audio.json`, so the syntheses paid for stay in the cost log.
     """
+    max_reason = config["run"]["failure_reason_max_chars"]
     fixed = load_fixed(fixed_dir, config["models"]["tts"], voices_of(config))
     article = fetch_article(api, title, now)
     record = create_episode(archive_root, article.title, now)
@@ -228,6 +255,9 @@ def run(
             record.status, record.failure = "failed", str(exc)
             save_episode(archive_root, record)
             raise GateFailure(str(exc)) from exc
+        except Exception:  # crash: keep the record of the syntheses so far
+            write_json(folder / AUDIO_FILE, audio_record.to_dict())
+            raise
         write_json(folder / AUDIO_FILE, audio_record.to_dict())
 
         explicit = ExplicitCheck(config["models"]["llm_judge"])
@@ -256,6 +286,11 @@ def run(
         )
         write_json(folder / REVIEW_FILE, review.to_dict())
         return record.episode_id
+    except GateFailure:
+        raise
+    except Exception as exc:  # crash: recorded as failed, then the job fails with the traceback
+        record.status, record.failure = "failed", crash_reason(exc, max_reason, secrets)
+        raise
     finally:  # every exit, a crash included, records the end and the token counts
         record.finished_at = format_timestamp((clock or _utc_now)())
         record.usage = usage_dict(usage)
@@ -312,6 +347,7 @@ def main(argv: list[str] | None = None) -> int:
         gemini_key,
     )
     stt = WhisperStt(config["models"]["stt"], config["stt"])
+    secrets = secret_values(os.environ)
     try:
         episode_id = run(
             HttpWikipediaApi(),
@@ -327,6 +363,7 @@ def main(argv: list[str] | None = None) -> int:
             fixed_dir=ASSETS_DIR,
             audio_root=AUDIO_ROOT,
             usage=usage,
+            secrets=secrets,
         )
     except ArticleNotFoundError:
         print(f"Article not found: {args[0]}", file=sys.stderr)
@@ -339,6 +376,14 @@ def main(argv: list[str] | None = None) -> int:
         print(f"::error::Aborted: {exc}", file=sys.stderr)
         write_job_summary(f"## Episode aborted\n\n{exc}\n\nDetails in the archive folder.")
         return 1
+    except Exception as exc:  # crash: escalate, then fail the job with the traceback
+        reason = crash_reason(exc, config["run"]["failure_reason_max_chars"], secrets)
+        print(f"::error::Aborted: {reason}", file=sys.stderr)
+        write_job_summary(
+            f"## Episode crashed\n\n{reason}\n\nRecorded as `failed` in the archive folder if "
+            "the run got that far; traceback in the job log."
+        )
+        raise
     write_step_output("episode_id", episode_id)
     audio_file = AUDIO_ROOT / episode_id / EPISODE_AUDIO
     explicit = "yes" if load_episode(ARCHIVE_ROOT, episode_id).explicit else "no"

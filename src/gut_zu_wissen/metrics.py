@@ -9,9 +9,11 @@ Measured over every run in the archive (one run = one episode folder):
 - facts used per minute (completed runs): used facts of the final script (`06_judgement.json`,
   `used_fact_ids`) per minute of the episode audio (`07_audio.json`, intro and outro included);
   also per minute of dialog audio (sum of the accepted section durations);
-- escalation rate: runs that failed (`status: failed`, gate failures included: a manual run
-  aborts with a failing job) or ended without a review sample (crash) over all runs; plus the
-  share of archived judgements the LLM judge decided (design risk "Eskalationsrate");
+- escalation rate: runs that failed (`status: failed`: gate failures, which abort a manual run
+  with a failing job, and crashes, whose reason starts with "Crash:") or are incomplete (still
+  `running` without a review sample: the run has not ended, or it crashed before crashes were
+  recorded as failed) over all runs; plus the share of archived judgements the LLM judge decided
+  (design risk "Eskalationsrate");
 - cascade length: per triggering turn regeneration, the number of distinct neighbour turns the
   cascade regenerated (D1), from the regenerations in `05_dialog.json`;
 - runtime: `finished_at - started_at` of `episode.json`;
@@ -141,8 +143,9 @@ def is_price(value: object) -> bool:
 
 
 def run_outcome(run: RunData) -> Outcome:
-    """failed: recorded as failed. completed: the review sample was drawn (last step of a run).
-    incomplete: neither, i.e. the run crashed or is still running."""
+    """failed: recorded as failed (gate failure or crash). completed: the review sample was drawn
+    (last step of a run). incomplete: neither, i.e. the run is still running or has no record of
+    its end (a crash archived before crashes were recorded as failed)."""
     if run.episode.get("status") == "failed":
         return "failed"
     return "completed" if run.review is not None else "incomplete"
@@ -157,7 +160,8 @@ class RunEscalation:
 
 @dataclass
 class Escalation:
-    """Escalation to the owner: every run that did not complete (design: failing job)."""
+    """Escalation to the owner: every run that did not complete (design: failing job). Crashes
+    count as failed."""
 
     runs: int
     completed: int
@@ -386,7 +390,7 @@ def token_cost(usage: Mapping, prices: Mapping, keys: tuple[str, str | None]) ->
 def tts_cost(run: RunData, outcome: Outcome) -> CostPart:
     if run.audio is None:
         if outcome == "incomplete":
-            return CostPart("tts", None, "no 07_audio.json (run did not finish)")
+            return CostPart("tts", None, "no 07_audio.json (run still running or not recorded)")
         return CostPart("tts", 0.0, "no synthesis")
     costs = [s.get("usd") for s in run.audio.get("sections", [])]
     if any(c is None for c in costs):

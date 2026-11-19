@@ -70,6 +70,8 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: uv run python -m gut_zu_wissen.review open "$EPISODE_ID"
       # Further pipeline steps follow in later plan steps.
+      # Runs on every outcome: a gate failure or a crash is recorded as `status: failed` in
+      # episode.json and committed like a successful run (design: "Archiv").
       # The review workflow commits labels to the archive as well; it never touches this run's
       # folder, so a rejected push is rebased and retried.
       - name: Commit archive

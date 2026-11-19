@@ -34,3 +34,15 @@ def test_no_comment_or_issue_text_in_expressions():
 def test_review_workflow_permissions_are_minimal():
     assert "permissions:\n  contents: write\n  issues: write\n\n" in REVIEW
     assert "issues: write" in EPISODE
+
+
+def _step(text: str, name: str) -> str:
+    start = text.index(f"- name: {name}\n")
+    end = text.find("\n      - ", start + 1)
+    return text[start : end if end != -1 else len(text)]
+
+
+def test_episode_archive_is_committed_on_failure_and_review_issue_only_on_success():
+    assert "if: always()" in _step(EPISODE, "Commit archive")
+    # the run step sets episode_id only after a successful run
+    assert "if: steps.run.outputs.episode_id != ''" in _step(EPISODE, "Open review issue")
