@@ -93,9 +93,9 @@ loudness_tolerance_lu = 0.1             # accepted deviation of the output from 
 loudness_max_iterations = 8             # gain/ceiling corrections before the run fails
 
 [prices]
-# Feed the per-episode cost log. Unit and currency to be fixed together with the values.
-claude_sonnet_input = "PLACEHOLDER"
-claude_sonnet_output = "PLACEHOLDER"
+# Feed the per-episode cost log. USD per million tokens unless stated otherwise.
+claude_sonnet_input = 2.00          # Claude Sonnet 5.5, Anthropic list price (as of 2026-11)
+claude_sonnet_output = 10.00        # Claude Sonnet 5.5, Anthropic list price (as of 2026-11)
 jev = 0.042                         # USD per million input tokens; output tokens free (spike S1)
 gemini_tts_input = 0.50                #  USD per million text tokens; 1.00 from 2027-01-01
 gemini_tts_output = 9.00               #  USD per million audio tokens; 18.00 from 2027-01-01
