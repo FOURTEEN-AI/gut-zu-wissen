@@ -182,8 +182,9 @@ def main(argv: list[str] | None = None) -> int:
         return 2
     config = load_config()
     max_tokens = config["quotas"]["llm_max_tokens"]
-    llm = AnthropicLlm(config["models"]["author"], max_tokens)
-    judge_llm = AnthropicLlm(config["models"]["llm_judge"], max_tokens)
+    claude_key = os.environ["CLAUDE_API_KEY"]
+    llm = AnthropicLlm(config["models"]["author"], max_tokens, api_key=claude_key)
+    judge_llm = AnthropicLlm(config["models"]["llm_judge"], max_tokens, api_key=claude_key)
     jev_config = config["jev"]
     jev = HttpJev(
         config["models"]["jev"],
