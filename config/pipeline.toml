@@ -25,6 +25,7 @@ language = "de"
 beam_size = 5
 vad_filter = true
 condition_on_previous_text = false
+context_words = 6                   # script words before and after a deviation, shown to the LLM
 
 [review]
 r_initial = 1.0          # sampling rate start (100 %)

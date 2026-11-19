@@ -11,9 +11,10 @@ sides are normalised first, so that differences in writing alone do not count:
 - numerals: thousands separators ("10.000", "10 000"), decimal point or comma;
 - a few symbols Whisper writes for spoken words (%, ‰, °, €, $, &).
 
-The normalisation, the word diff and the retry decision are pure functions. Every remaining
-deviation goes to an LLM that decides whether it changes the statement; only then is the
-section resynthesised (`retry_action`).
+The normalisation, the word diff and the retry decision are pure functions. All remaining
+deviations of a section go to the LLM judge model in one call; it decides per deviation whether
+the audio changes the statement ("im Zweifel verändert"). A deviation it leaves undecided counts
+as a change. Only a change leads to resynthesis of the section (`retry_action`).
 """
 
 from __future__ import annotations
@@ -24,6 +25,8 @@ import unicodedata
 from collections.abc import Sequence
 from dataclasses import asdict, dataclass
 from enum import StrEnum
+
+from gut_zu_wissen.llm import StructuredLlm
 
 SYMBOLS = {
     "%": " Prozent ",
@@ -271,6 +274,101 @@ def diff(script: str, transcript: str, context_words: int) -> list[Deviation]:
 
 def _raw(tokens: Sequence[Token]) -> str:
     return " ".join(t.raw for t in tokens)
+
+
+# ---------------------------------------------------------------- LLM decision
+
+DECISION_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "decisions": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "index": {"type": "integer"},
+                    "changes_statement": {"type": "boolean"},
+                    "reason": {"type": "string"},
+                },
+                "required": ["index", "changes_statement", "reason"],
+                "additionalProperties": False,
+            },
+        }
+    },
+    "required": ["decisions"],
+    "additionalProperties": False,
+}
+DECISION_PROMPT = (
+    "Du prüfst, ob eine Sprachsynthese einen Abschnitt eines Podcast-Gesprächs richtig "
+    "wiedergibt. Eine automatische Spracherkennung hat das Audio transkribiert, ein Wortvergleich "
+    "mit dem Skript hat Abweichungen gefunden. Zahlwörter und Ziffern, Groß- und Kleinschreibung "
+    "und Satzzeichen sind vor dem Vergleich schon angeglichen. Entscheide für jede Abweichung, ob "
+    "das Audio damit eine andere Aussage macht als das Skript.\n\n"
+    "Die Aussage ist verändert, wenn jemand beim Zuhören etwas anderes verstehen würde als im "
+    "Skript steht: eine andere Zahl, ein anderes Datum, ein anderer Name, ein Wort mit anderer "
+    "Bedeutung, eine fehlende oder zusätzliche Verneinung, fehlende oder zusätzliche Wörter mit "
+    "Inhalt, eine Frage, die zur Feststellung wird, oder umgekehrt.\n"
+    "Die Aussage ist nicht verändert bei anderen Schreibweisen derselben gesprochenen Wörter "
+    "(Getrennt- oder Zusammenschreibung, Abkürzungen, gleich klingende Schreibweisen von Namen "
+    "und Fremdwörtern), bei fehlenden oder zusätzlichen Füllwörtern ohne Inhalt und bei "
+    "Abweichungen in der Grammatik, die den Sinn nicht ändern.\n"
+    "Im Zweifel gilt die Aussage als verändert.\n\n"
+    "Antworte mit JSON im vorgegebenen Schema: für jede Abweichung ihre Nummer, "
+    "„changes_statement“ und eine kurze Begründung auf Deutsch."
+)
+NO_ANSWER = "Keine Entscheidung zu dieser Abweichung; gilt als verändert."
+_NOTHING = "(nichts)"
+
+
+def format_decision_input(
+    turns: Sequence[tuple[str, str]], transcript: str, deviations: Sequence[Deviation]
+) -> str:
+    """Input of the LLM: the section's script per turn, the transcript, the numbered deviations."""
+    lines = ["Skript des Abschnitts:", *(f"{speaker}: {text}" for speaker, text in turns)]
+    lines += ["", "Transkript der Spracherkennung:", transcript or _NOTHING, "", "Abweichungen:"]
+    for d in deviations:
+        around = " ".join(
+            part
+            for part in (d.context_before, f"[{d.expected or _NOTHING}]", d.context_after)
+            if part
+        )
+        lines.append(f"{d.index}. Skript: „{around}“ – gehört: „{d.heard or _NOTHING}“")
+    return "\n".join(lines)
+
+
+def apply_decisions(deviations: Sequence[Deviation], answer: dict) -> None:
+    """Write the LLM's decision into each deviation. A deviation without a decision counts as
+    changing the statement; unknown indices and repeated decisions (after the first) are ignored."""
+    by_index: dict[int, dict] = {}
+    for item in answer.get("decisions", []) or []:
+        if isinstance(item, dict) and isinstance(item.get("index"), int):
+            by_index.setdefault(item["index"], item)
+    for d in deviations:
+        item = by_index.get(d.index)
+        if item is None or not isinstance(item.get("changes_statement"), bool):
+            d.changes_statement, d.reason = True, NO_ANSWER
+        else:
+            d.changes_statement, d.reason = item["changes_statement"], str(item.get("reason", ""))
+
+
+def changes_statement(deviations: Sequence[Deviation]) -> bool:
+    """The section's audio changes the statement if any decided deviation does (or is undecided)."""
+    return any(d.changes_statement is not False for d in deviations)
+
+
+def decide_deviations(
+    llm: StructuredLlm,
+    turns: Sequence[tuple[str, str]],
+    transcript: str,
+    deviations: Sequence[Deviation],
+) -> None:
+    """One LLM call for all deviations of a section; none, no call."""
+    if not deviations:
+        return
+    answer = llm.complete_json(
+        DECISION_PROMPT, format_decision_input(turns, transcript, deviations), DECISION_SCHEMA
+    )
+    apply_decisions(deviations, answer)
 
 
 # ---------------------------------------------------------------- retry budget
