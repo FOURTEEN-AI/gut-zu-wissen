@@ -1,7 +1,8 @@
 """Explicit check (phase 1, step 11; decision D7).
 
 The LLM judge model reads the final script, i.e. the dialog turns accepted by the judge, and
-reports every passage with violence, sexuality, drugs or profanity. The flag is a pure function
+reports drastic depictions of violence, sexuality or drugs, and spoken profanity; a factual
+or passing mention does not count (user decision 2026-11-19). The flag is a pure function
 of its answer: the episode is explicit unless the model says "clean" and reports no finding;
 "uncertain", a finding, or an answer outside the schema all count as explicit (D7: uncertain ->
 explicit). Intro and outro are fixed text outside the script and not checked.
@@ -93,15 +94,20 @@ EXPLICIT_PROMPT = (
     "Du prüfst das Skript einer Podcast-Folge darauf, ob sie als „explicit“ gekennzeichnet "
     "werden muss. Das Skript ist ein Gespräch zwischen Lena und Felix über einen Artikel der "
     "deutschsprachigen Wikipedia; jeder Redebeitrag hat eine Nummer.\n\n"
-    "Die Folge ist explicit, sobald irgendein Redebeitrag eines der folgenden Themen enthält, "
-    "auch wenn es sachlich, historisch, wissenschaftlich oder nur beiläufig erwähnt wird:\n"
-    "- „violence“: Gewalt, etwa Krieg, Kämpfe, Mord, Tötung, Hinrichtung, Folter, Verletzungen, "
-    "Misshandlung, Terror, Verbrechen mit Gewalt, Selbstverletzung oder Suizid.\n"
-    "- „sexuality“: Sexualität, etwa sexuelle Handlungen, sexuelle Gewalt, Prostitution, "
-    "Pornografie oder sexuelle Anspielungen.\n"
-    "- „drugs“: Drogen und Rauschmittel, etwa illegale Drogen, Missbrauch von Medikamenten, "
-    "Alkohol oder Tabak.\n"
-    "- „profanity“: Schimpfwörter, Flüche, vulgäre oder beleidigende Ausdrücke.\n\n"
+    "Die Folge ist explicit, sobald irgendein Redebeitrag eines der folgenden Themen drastisch "
+    "darstellt. Drastisch heißt: anschaulich, detailliert oder reißerisch geschildert, "
+    "verherrlicht oder als Anleitung. Eine sachliche, historische, wissenschaftliche oder "
+    "beiläufige Erwähnung ohne solche Schilderung zählt nicht; eine Schlacht, ein Raubtier, "
+    "das Beute jagt, oder der Weinbau sind für sich allein nicht explicit.\n"
+    "- „violence“: drastische Gewalt, etwa ausgemalte Verletzungen, Folter oder Tötungen im "
+    "Detail, blutige Einzelheiten, verherrlichte Gewalt, Anleitung zu Selbstverletzung oder "
+    "Suizid.\n"
+    "- „sexuality“: drastische Sexualität, etwa ausdrücklich geschilderte sexuelle Handlungen, "
+    "detailliert geschilderte sexuelle Gewalt oder deutliche sexuelle Anspielungen.\n"
+    "- „drugs“: drastische Darstellung von Drogen und Rauschmitteln, etwa verherrlichter "
+    "Konsum, ausgemalte Rauschzustände oder Anleitung zu Herstellung oder Konsum.\n"
+    "- „profanity“: Schimpfwörter, Flüche, vulgäre oder beleidigende Ausdrücke, die im "
+    "Gespräch tatsächlich ausgesprochen werden.\n\n"
     "Nenne unter „findings“ für jede Kategorie, die vorkommt, die erste Fundstelle: Nummer des "
     "Redebeitrags, Kategorie, die Stelle wörtlich und eine kurze Begründung auf Deutsch. "
     "Ergebnis unter „verdict“: „explicit“, wenn es mindestens eine Fundstelle gibt; „clean“ nur, "

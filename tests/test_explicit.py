@@ -113,3 +113,8 @@ def test_schema_offers_the_four_d7_categories_and_three_verdicts():
     assert {c.value for c in Category} == {"violence", "sexuality", "drugs", "profanity"}
     assert EXPLICIT_SCHEMA["properties"]["verdict"]["enum"] == ["explicit", "clean", "uncertain"]
     assert "Im Zweifel" in EXPLICIT_PROMPT
+
+
+def test_prompt_counts_only_drastic_depictions():
+    assert "drastisch" in EXPLICIT_PROMPT
+    assert "beiläufige Erwähnung ohne solche Schilderung zählt nicht" in EXPLICIT_PROMPT

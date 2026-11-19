@@ -54,7 +54,7 @@ These retire the open risks before the build starts.
    - Intro and outro synthesized once and committed.
    - Concatenation and loudness normalization to −16 LUFS (`target_loudness_lufs`) with a true-peak limiter (ceiling `true_peak_ceiling_dbtp`, −1.5 dBTP). A test checks loudness and peak ceiling of the output.
 10. **STT verification.** ✅ Done. Normalization, diff per section, LLM decision on whether a deviation changes the statement, resynthesis of the affected section.
-11. **Explicit check (D7).** ✅ Done. LLM judges the final script; any violence, sexuality, drugs or profanity → episode flagged explicit. Uncertain → explicit. Result stored in the archive.
+11. **Explicit check (D7).** ✅ Done. LLM judges the final script; drastic depiction of violence, sexuality or drugs, or spoken profanity → episode flagged explicit (a factual or passing mention does not count). Uncertain → explicit. Result stored in the archive.
 12. **Review loop.**
     - Sampling with rate r; r state in the repo.
     - Review issue in machine-readable format.
@@ -96,4 +96,4 @@ These retire the open risks before the build starts.
 | D4 | Repeats | New episode for an article allowed 6 months after the last episode's publication date; otherwise gate failure. |
 | D5 | Minimum content | 10 used facts. Offer < 10 → gate failure before the dialog author. After the author < 10 → conversation regeneration. After the judge < 10 → gate failure. |
 | D6 | Conversation regeneration | Rerun both rankings, excluding facts cited by rejected statements. |
-| D7 | Feed metadata | Static SVG cover template with per-episode title (wrap, no line limit, shrink to fit). Category Education. Owner email gut-zu-wissen@fourteen-it.de. Explicit: feed `false`, per episode by LLM check of the final script (violence, sexuality, drugs, profanity); uncertain → explicit. |
+| D7 | Feed metadata | Static SVG cover template with per-episode title (wrap, no line limit, shrink to fit). Category Education. Owner email gut-zu-wissen@fourteen-it.de. Explicit: feed `false`, per episode by LLM check of the final script (drastic depiction of violence, sexuality or drugs, or spoken profanity; a factual or passing mention does not count); uncertain → explicit. |
