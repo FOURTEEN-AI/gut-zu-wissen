@@ -23,6 +23,7 @@ RANKING_FILE = "04_ranking.json"
 DIALOG_FILE = "05_dialog.json"
 JUDGEMENT_FILE = "06_judgement.json"
 AUDIO_FILE = "07_audio.json"
+EXPLICIT_FILE = "08_explicit.json"
 LINKED_DIR = "linked"
 
 EpisodeStatus = Literal["running", "published", "failed"]

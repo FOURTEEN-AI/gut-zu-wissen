@@ -11,6 +11,7 @@ from gut_zu_wissen.archive import create_episode, load_episode, save_episode
 from gut_zu_wissen.fetch import ArticleNotFoundError
 from gut_zu_wissen.intro_outro import FixedAudioError, synthesize_fixed
 from gut_zu_wissen.jev import JevAbortError
+from gut_zu_wissen.llm import LlmError
 from gut_zu_wissen.run import GateFailure, load_config
 from gut_zu_wissen.run import run as run_pipeline
 from gut_zu_wissen.tts import Synthesis, TtsError, voices_of
@@ -78,10 +79,24 @@ class FakeJev:
 
 
 class FakeJudgeLlm:
-    def __init__(self, supported: bool = True) -> None:
-        self.supported = supported
+    """Judge verdicts and reasons; the explicit check answers `explicit` or raises `error`."""
+
+    def __init__(
+        self,
+        supported: bool = True,
+        explicit: dict | None = None,
+        error: Exception | None = None,
+    ) -> None:
+        self.supported, self.error = supported, error
+        self.explicit = explicit or {"findings": [], "verdict": "clean", "reason": "Nichts."}
+        self.scripts: list[str] = []
 
     def complete_json(self, system: str, user: str, schema: dict) -> dict:
+        if "verdict" in schema["properties"]:
+            self.scripts.append(user)
+            if self.error:
+                raise self.error
+            return self.explicit
         if "supported" in schema["properties"]:
             return {"supported": self.supported, "reason": "Begründung."}
         return {"reason": "Ablehnungsgrund."}
@@ -474,3 +489,67 @@ def test_audio_that_keeps_changing_the_statement_escalates(tmp_path):
     assert [a["action"] for a in attempts] == ["resynthesize", "resynthesize", "escalate"]
     assert all(a["transcript"] == "Kein Text." for a in attempts)
     assert attempts[0]["deviations"][0]["reason"] == NO_ANSWER
+
+
+def test_clean_script_is_archived_and_not_explicit(tmp_path):
+    judge = FakeJudgeLlm()
+    episode_id = run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW,
+                     judge=judge)  # fmt: skip
+    assert judge.scripts == ["Skript:\n0. Lena: Text.\n1. Felix: Text."]
+    record = json.loads((tmp_path / "episodes" / episode_id / "08_explicit.json").read_text())
+    assert record == {
+        "model": "claude-sonnet-5-5",
+        "explicit": False,
+        "verdict": "clean",
+        "findings": [],
+        "reason": "Nichts.",
+        "error": None,
+    }
+    episode = load_episode(tmp_path, episode_id)
+    assert episode.explicit is False and episode.status == "running"
+
+
+@pytest.mark.parametrize(
+    "answer",
+    [
+        {"findings": [], "verdict": "uncertain", "reason": "Unklar."},
+        {
+            "findings": [
+                {"turn_index": 0, "category": "drugs", "quote": "Text.", "reason": "Wein."}
+            ],
+            "verdict": "explicit",
+            "reason": "Alkohol.",
+        },
+    ],
+)
+def test_uncertain_or_found_flags_the_episode_explicit_without_blocking_it(tmp_path, answer):
+    judge = FakeJudgeLlm(explicit=answer)
+    episode_id = run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW,
+                     judge=judge)  # fmt: skip
+    episode = load_episode(tmp_path, episode_id)
+    assert episode.explicit is True and episode.status == "running" and episode.failure is None
+    record = json.loads((tmp_path / "episodes" / episode_id / "08_explicit.json").read_text())
+    assert record["explicit"] is True and record["verdict"] == answer["verdict"]
+
+
+def test_failed_explicit_check_fails_the_run(tmp_path):
+    judge = FakeJudgeLlm(error=LlmError("The model declined the request."))
+    with pytest.raises(GateFailure, match="Explicit check"):
+        run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, judge=judge)
+    episode = load_episode(tmp_path, "2026-11-19_rotfuchs")
+    assert episode.status == "failed" and episode.explicit is None
+    assert "declined" in episode.failure
+    folder = tmp_path / "episodes" / episode.episode_id
+    record = json.loads((folder / "08_explicit.json").read_text())
+    assert record["explicit"] is None and record["error"].startswith("LlmError")
+    assert (folder / "07_audio.json").exists()
+
+
+def test_explicit_check_is_not_run_when_the_audio_step_fails(tmp_path):
+    judge = FakeJudgeLlm()
+    tts = FakeTts(error=TtsError("TTS answered 401: no key"))
+    with pytest.raises(GateFailure, match="TTS section 0"):
+        run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, tts=tts,
+            judge=judge)  # fmt: skip
+    assert judge.scripts == []
+    assert not (tmp_path / "episodes" / "2026-11-19_rotfuchs" / "08_explicit.json").exists()

@@ -1,10 +1,11 @@
 """Run entry point: `python -m gut_zu_wissen.run "<article title>"`.
 
-Phase 1 steps 2 to 10: fetch the article, apply the gates, segment, extract facts, rank, add the
+Phase 1 steps 2 to 11: fetch the article, apply the gates, segment, extract facts, rank, add the
 linked intros, write the dialog, judge it, synthesise, verify with STT and normalise the audio,
-write the episode folder. The turn and conversation loops live in orchestrator.py (step 8), the
-audio step with its STT verification in episode_audio.py (steps 9 and 10); later steps are added
-here.
+run the explicit check on the final script, write the episode folder. The turn and conversation
+loops live in orchestrator.py (step 8), the audio step with its STT verification in
+episode_audio.py (steps 9 and 10), the explicit check in explicit.py (step 11); later steps are
+added here.
 """
 
 from __future__ import annotations
@@ -20,6 +21,7 @@ from gut_zu_wissen.archive import (
     ARTICLE_FILE,
     AUDIO_FILE,
     DIALOG_FILE,
+    EXPLICIT_FILE,
     FACTS_FILE,
     JUDGEMENT_FILE,
     LINKED_DIR,
@@ -29,6 +31,7 @@ from gut_zu_wissen.archive import (
     episode_dir,
     format_timestamp,
     last_published,
+    load_episode,
     save_episode,
     slugify,
     write_json,
@@ -39,13 +42,14 @@ from gut_zu_wissen.episode_audio import (
     new_record,
     produce_audio,
 )
+from gut_zu_wissen.explicit import ExplicitCheck, check_explicit
 from gut_zu_wissen.extraction import extract_facts
 from gut_zu_wissen.fetch import ArticleNotFoundError, HttpWikipediaApi, WikipediaApi, fetch_article
 from gut_zu_wissen.gates import is_living_person, repeat_gate_allows
 from gut_zu_wissen.intro_outro import ASSETS_DIR, FixedAudioError, load_fixed
 from gut_zu_wissen.jev import HttpJev, Jev
 from gut_zu_wissen.linked import LinkedIntro, SkippedLink, fetch_linked_intros
-from gut_zu_wissen.llm import AnthropicLlm, StructuredLlm
+from gut_zu_wissen.llm import AnthropicLlm, LlmError, StructuredLlm
 from gut_zu_wissen.orchestrator import GateFailure, Offer, Orchestration, orchestrate
 from gut_zu_wissen.ranking import RankedFact, link_targets, offer_gate, rank_facts, ranked, raw_of
 from gut_zu_wissen.render import ParseRenderer
@@ -82,7 +86,9 @@ def run(
     """Run the steps implemented so far. Returns the episode ID; raises GateFailure.
 
     Intro and outro are checked first (`FixedAudioError`), before anything costs money. Audio
-    files go to `audio_root/<episode ID>/`. The STT deviations are decided by `judge_llm`.
+    files go to `audio_root/<episode ID>/`. The STT deviations and the explicit check (D7, after
+    the audio step, on the script that was synthesised) are decided by `judge_llm`. The explicit
+    flag does not block the episode; a failed check call escalates.
     """
     fixed = load_fixed(fixed_dir, config["models"]["tts"], voices_of(config))
     article = fetch_article(api, title, now)
@@ -206,6 +212,19 @@ def run(
         save_episode(archive_root, record)
         raise GateFailure(str(exc)) from exc
     write_json(folder / AUDIO_FILE, audio_record.to_dict())
+
+    explicit = ExplicitCheck(config["models"]["llm_judge"])
+    try:
+        check_explicit(explicit, judge_llm, state.dialog.turns)
+    except LlmError as exc:
+        explicit.error = f"{type(exc).__name__}: {exc}"
+        write_json(folder / EXPLICIT_FILE, explicit.to_dict())
+        record.status, record.failure = "failed", f"Explicit check (D7): {exc}"
+        save_episode(archive_root, record)
+        raise GateFailure(record.failure) from exc
+    write_json(folder / EXPLICIT_FILE, explicit.to_dict())
+    record.explicit = explicit.explicit
+    save_episode(archive_root, record)
     return record.episode_id
 
 
@@ -275,11 +294,16 @@ def main(argv: list[str] | None = None) -> int:
         write_job_summary(f"## Episode aborted\n\n{exc}\n\nDetails in the archive folder.")
         return 1
     audio_file = AUDIO_ROOT / episode_id / EPISODE_AUDIO
+    explicit = "yes" if load_episode(ARCHIVE_ROOT, episode_id).explicit else "no"
     write_job_summary(
-        f"## Episode {episode_id}\n\nSteps up to the STT-verified audio done. "
+        f"## Episode {episode_id}\n\nSteps up to the STT-verified audio and the explicit check "
+        f"done. Explicit: {explicit}. "
         f"Audio: `{audio_file.relative_to(REPO_ROOT)}` (workflow artifact, not committed)."
     )
-    print(f"Episode {episode_id}: steps up to the verified audio done ({audio_file}).")
+    print(
+        f"Episode {episode_id}: steps up to the explicit check done, explicit: {explicit} "
+        f"({audio_file})."
+    )
     return 0
 
 
