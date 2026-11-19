@@ -43,7 +43,7 @@ These retire the open risks before the build starts.
    - Threshold decision as a pure function, with tests at t, 1−t and between.
    - LLM judge in two modes: justify a rejection, or give a full verdict.
    - Gate after judging: fewer than 10 used facts in accepted turns → gate failure (D5).
-8. **Orchestrator.**
+8. **Orchestrator.** ✅ Done.
    - Turn regeneration with neighbours as context.
    - Neighbour cascade (D1): after a turn regeneration, the next turn is always regenerated. Jev checks whether the regenerated turn conveys the same statements as before. p ≥ t → cascade stops; otherwise (including uncertain) → cascade continues. The whole cascade shares the triggering turn's 2× budget.
    - Conversation regeneration (D6): rerun both rankings, excluding every fact cited by a rejected statement; then a fresh dialog.
