@@ -31,7 +31,7 @@ These retire the open risks before the build starts.
    - Structured output (JSON schema).
    - Gates for uniqueness, ≥ 8 words, full sentence, and context (contiguous, same chunk, ≤ 3 segments).
    - Plaintext rendering of offered facts and their context. Infobox rows as „Infobox type – section header – label: value“, header omitted when there is none (D3).
-5. **Ranking.**
+5. **Ranking.** ✅ Done.
    - 20 main facts. Linked intros: fetch (same revision rule), gate, extract, rank for 6 more, each with its own revid for the shownotes.
    - Gate: fewer than 10 offered facts → gate failure before the dialog author (D5).
 6. **Dialog author.**

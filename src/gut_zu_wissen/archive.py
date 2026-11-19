@@ -19,6 +19,8 @@ EPISODE_FILE = "episode.json"
 ARTICLE_FILE = "01_article.json"
 SEGMENTS_FILE = "02_segments.json"
 FACTS_FILE = "03_facts.json"
+RANKING_FILE = "04_ranking.json"
+LINKED_DIR = "linked"
 
 EpisodeStatus = Literal["running", "published", "failed"]
 
