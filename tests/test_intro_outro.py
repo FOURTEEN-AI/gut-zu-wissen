@@ -41,7 +41,7 @@ class FakeTts:
 def test_text_is_the_design_text():
     assert INTRO[0] == ("Felix", "Hallo und willkommen bei „Gut zu wissen“!")
     assert [s for s, _ in OUTRO] == ["Lena", "Felix", "Lena"]
-    licence = "Creative Commons Namensnennung – Weitergabe unter gleichen Bedingungen 4.0"
+    licence = "C C B Y S A 4.0"
     assert licence in OUTRO[2][1] and "Wikimedia Foundation" in OUTRO[2][1]
     assert "deutschsprachigen Wikipedia" in OUTRO[0][1]
     assert all(not find_markup(text) for _, text in INTRO + OUTRO)
