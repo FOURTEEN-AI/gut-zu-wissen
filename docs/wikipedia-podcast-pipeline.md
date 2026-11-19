@@ -174,6 +174,7 @@ Fester Text außerhalb des Dialogautors und der Persona-Regeln; einmal synthetis
 - **Sprache:** Python.
 - **Orchestrierung:** GitHub Actions in einem öffentlichen Repo (unbegrenzte Minuten). API-Keys als Secrets. Workflow-Logs, Prompts und Archiv sind öffentlich.
 - **Archiv:** Text als JSON im Repo (eingerückt, stabile Feldreihenfolge). Audio nur beim Hoster.
+- **Archivlayout:** `archive/episodes/<Datum des Laufs>_<Slug>/` pro Lauf (Slug: Kleinbuchstaben, Umlaute transliteriert, sonst `-`; am selben Tag Suffix `-2`, `-3`). Darin `episode.json` (Gesamtstatus `running`/`published`/`failed`, Titel, Zeitstempel, `published_at`, `explicit`, Fehlergrund) und eine Datei pro Pipeline-Schritt (`01_article.json` bis `05_audio.json`, `linked/<slug>.json` für verlinkte Einleitungen). Fehlgeschlagene Läufe werden mit `status: failed` committet. Das Wiederholungs-Gate liest `published_at` der veröffentlichten Folgen mit gleichem kanonischem Titel. Stichprobenrate r: `archive/state/review.json`.
 - **Kosten:** kein Limit, Protokoll pro Folge.
 
 ## Anbieter
