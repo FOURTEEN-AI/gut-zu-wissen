@@ -1,15 +1,30 @@
 """Token usage per API client, for the per-episode cost log (design: "Kosten"; step 13).
 
 The Claude and Jev clients add the token counts of every successful response to a `Usage`
-counter; the run writes the counters to `episode.json` (`usage`), so the cost can be computed
-from the archive with the prices in the config. TTS usage and cost are already recorded per
-synthesis in `08_audio.json`. Whisper runs locally and costs nothing per call.
+counter; the run writes the counters to `episode.json` (`usage`). TTS usage and cost are recorded
+per synthesis in `08_audio.json`. At the end of the run `episode.json` also gets `cost`: the USD
+per client role and for TTS, computed with the config prices in force at run time, and those
+prices (user decision 2026-11-19). A price that is not a number (`PLACEHOLDER`) or a synthesis
+without a cost gives `None` for that part; nothing is estimated. Whisper runs locally and costs
+nothing per call.
 """
 
 from __future__ import annotations
 
-from collections.abc import Mapping
+from collections.abc import Mapping, Sequence
 from dataclasses import asdict, dataclass
+
+# Price keys in `[prices]` per client role in `episode.json` `usage` (input, output). None: the
+# provider does not charge for these tokens (Jev output tokens, spike S1).
+PRICE_KEYS: dict[str, tuple[str, str | None]] = {
+    "author": ("claude_sonnet_input", "claude_sonnet_output"),
+    "llm_judge": ("claude_sonnet_input", "claude_sonnet_output"),
+    "jev": ("jev", None),
+}
+TTS_PART = "tts"
+TTS_PRICE_KEYS = ("gemini_tts_input", "gemini_tts_output")
+TOKENS_PER_PRICE_UNIT = 1_000_000  # prices are per million tokens
+USD_DIGITS = 4  # as in 08_audio.json
 
 
 @dataclass
@@ -30,3 +45,44 @@ class Usage:
 def usage_dict(usage: Mapping[str, Usage] | None) -> dict[str, dict]:
     """The counters as archive data, keyed by client role."""
     return {role: asdict(u) for role, u in (usage or {}).items()}
+
+
+# ---------------------------------------------------------------- cost (pure)
+
+
+def is_price(value: object) -> bool:
+    return isinstance(value, int | float) and not isinstance(value, bool)
+
+
+def token_cost(usage: Mapping, prices: Mapping, keys: tuple[str, str | None]) -> float | None:
+    """USD for the token counts of one role; None when a price is not a number."""
+    price_in = prices.get(keys[0])
+    price_out = prices.get(keys[1]) if keys[1] else 0
+    if not is_price(price_in) or not is_price(price_out):
+        return None
+    usd = (usage["input_tokens"] * price_in + usage["output_tokens"] * price_out) / (
+        TOKENS_PER_PRICE_UNIT
+    )
+    return round(usd, USD_DIGITS)
+
+
+def tts_cost_usd(sections: Sequence[Mapping]) -> float | None:
+    """TTS cost from the sections of `08_audio.json`; None when a section has no cost. No
+    section (no synthesis): 0."""
+    costs = [s.get("usd") for s in sections]
+    if any(c is None for c in costs):
+        return None
+    return round(sum(costs), USD_DIGITS)
+
+
+def episode_cost(usage: Mapping[str, Mapping], tts_usd: float | None, prices: Mapping) -> dict:
+    """`cost` of `episode.json`: the prices used (as in the config at run time, also when not a
+    number) and the USD per client role and for TTS. A role without a price key gets None."""
+    keys = [k for role in usage for k in PRICE_KEYS.get(role, ()) if k] + list(TTS_PRICE_KEYS)
+    used = {k: prices.get(k) for k in dict.fromkeys(keys)}
+    usd: dict[str, float | None] = {}
+    for role, counts in usage.items():
+        role_keys = PRICE_KEYS.get(role)
+        usd[role] = token_cost(counts, prices, role_keys) if role_keys else None
+    usd[TTS_PART] = tts_usd
+    return {"prices": used, "usd": usd}

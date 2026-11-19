@@ -33,6 +33,7 @@ from gut_zu_wissen.llm import LlmError, StructuredLlm
 from gut_zu_wissen.markup import markup_problems
 from gut_zu_wissen.stt import Stt, SttError
 from gut_zu_wissen.tts import SectionError, Tts, TtsError, split_sections, voices_of
+from gut_zu_wissen.usage import TTS_PRICE_KEYS
 from gut_zu_wissen.verification import (
     Deviation,
     RetryAction,
@@ -108,7 +109,7 @@ class AudioRecord:
 
 def cost_usd(input_tokens: int | None, output_tokens: int | None, prices: Mapping) -> float | None:
     """USD for one request (prices per million tokens); `None` if anything is unknown."""
-    price_in, price_out = prices.get("gemini_tts_input"), prices.get("gemini_tts_output")
+    price_in, price_out = (prices.get(k) for k in TTS_PRICE_KEYS)
     numbers = (input_tokens, output_tokens, price_in, price_out)
     if not all(isinstance(v, int | float) and not isinstance(v, bool) for v in numbers):
         return None

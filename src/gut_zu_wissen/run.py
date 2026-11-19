@@ -60,7 +60,7 @@ from gut_zu_wissen.review import build_review, load_rate_state, load_review
 from gut_zu_wissen.segmentation import segment_article
 from gut_zu_wissen.stt import Stt, WhisperStt
 from gut_zu_wissen.tts import GeminiTts, Tts, voices_of
-from gut_zu_wissen.usage import Usage, usage_dict
+from gut_zu_wissen.usage import Usage, episode_cost, tts_cost_usd, usage_dict
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CONFIG_PATH = REPO_ROOT / "config" / "pipeline.toml"
@@ -129,7 +129,8 @@ def run(
 
     However the run ends after the episode folder exists, `episode.json` gets `finished_at` (from
     `clock`, default the system clock) and the token counts of `usage`, the counters the API
-    clients fill (step 13: runtime and cost). A crash (any exception other than `GateFailure`)
+    clients fill, and `cost`, the USD per role and for TTS at the config prices in force now,
+    with those prices (step 13: runtime and cost). A crash (any exception other than `GateFailure`)
     is recorded as `failed` with `crash_reason` (type and message, `secrets` masked) and
     re-raised, so the job fails with the traceback. A crash in the audio step still writes
     `08_audio.json`, so the syntheses paid for stay in the cost log.
@@ -138,6 +139,7 @@ def run(
     fixed = load_fixed(fixed_dir, config["models"]["tts"], voices_of(config))
     article = fetch_article(api, title, now)
     record = create_episode(archive_root, article.title, now)
+    audio_record = None  # TTS cost of the run, once the audio step started
     try:
         write_json(episode_dir(archive_root, record.episode_id) / ARTICLE_FILE, article.to_dict())
 
@@ -298,6 +300,8 @@ def run(
     finally:  # every exit, a crash included, records the end and the token counts
         record.finished_at = format_timestamp((clock or _utc_now)())
         record.usage = usage_dict(usage)
+        sections = audio_record.to_dict()["sections"] if audio_record is not None else []
+        record.cost = episode_cost(record.usage, tts_cost_usd(sections), config["prices"])
         save_episode(archive_root, record)
 
 

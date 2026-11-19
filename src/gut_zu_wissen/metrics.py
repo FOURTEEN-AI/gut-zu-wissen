@@ -18,9 +18,10 @@ Measured over every run in the archive (one run = one episode folder):
 - cascade length: per triggering turn regeneration, the number of distinct neighbour turns the
   cascade regenerated (D1), from the regenerations in `05_dialog.json`;
 - runtime: `finished_at - started_at` of `episode.json`;
-- cost: TTS from `08_audio.json` (recorded per synthesis), Claude and Jev from the token counts
-  in `episode.json` (`usage`) at the prices of the config; a missing count or a placeholder
-  price leaves that part unknown and is named in the report;
+- cost: as stored in `episode.json` (`cost`) at run time, with the prices then in force; older
+  folders without it fall back to TTS from `08_audio.json` and the token counts (`usage`) at
+  today's config prices, and the report names them; a missing count or a placeholder price
+  leaves that part unknown and is named in the report;
 - error rate by revision status (D2): share of labelled turns labelled "nicht belegt", by the
   revision status of the articles the turn cites, and share of answered reviews with an error,
   by the main article's revision status;
@@ -53,20 +54,19 @@ from gut_zu_wissen.archive import (
     read_json,
 )
 from gut_zu_wissen.review import ExplicitAccuracy, Review, explicit_confusion, explicit_pairs
+from gut_zu_wissen.usage import (
+    PRICE_KEYS,
+    TTS_PART,
+    USD_DIGITS,
+    is_price,
+    token_cost,
+    tts_cost_usd,
+)
 
 Outcome = Literal["completed", "failed", "incomplete"]
 COMPLETED_STATUSES = ("completed", "published")  # episode.json status of a run that finished
 
-# Price keys in `[prices]` per client role in `episode.json` `usage` (input, output). None: the
-# provider does not charge for these tokens (Jev output tokens, spike S1).
-PRICE_KEYS: dict[str, tuple[str, str | None]] = {
-    "author": ("claude_sonnet_input", "claude_sonnet_output"),
-    "llm_judge": ("claude_sonnet_input", "claude_sonnet_output"),
-    "jev": ("jev", None),
-}
-TOKENS_PER_PRICE_UNIT = 1_000_000  # prices are per million tokens
 SECONDS_PER_MINUTE = 60
-USD_DIGITS = 4  # as in 08_audio.json
 
 
 # ---------------------------------------------------------------- archive data
@@ -135,10 +135,6 @@ def summarize(values: Iterable[float]) -> Summary:
 
 def share(part: int, whole: int) -> float | None:
     return part / whole if whole else None
-
-
-def is_price(value: object) -> bool:
-    return isinstance(value, int | float) and not isinstance(value, bool)
 
 
 # ---------------------------------------------------------------- outcome and escalation
@@ -381,51 +377,78 @@ class RunCost:
     parts: list[CostPart]
     known_usd: float
     complete: bool
+    todays_prices: bool = False  # no cost stored at run time: computed with today's prices
 
 
-def token_cost(usage: Mapping, prices: Mapping, keys: tuple[str, str | None]) -> float | None:
-    """USD for the token counts of one role; None when a price is not a number."""
-    price_in = prices.get(keys[0])
-    price_out = prices.get(keys[1]) if keys[1] else 0
-    if not is_price(price_in) or not is_price(price_out):
-        return None
-    usd = (usage["input_tokens"] * price_in + usage["output_tokens"] * price_out) / (
-        TOKENS_PER_PRICE_UNIT
-    )
-    return round(usd, USD_DIGITS)
+NO_TTS_COST = "a synthesis without token count or price"
+NO_USAGE = CostPart("claude, jev", None, "token counts not recorded")
 
 
 def tts_cost(run: RunData, outcome: Outcome) -> CostPart:
     if run.audio is None:
         if outcome == "incomplete":
-            return CostPart("tts", None, "no 08_audio.json (run still running or not recorded)")
-        return CostPart("tts", 0.0, "no synthesis")
-    costs = [s.get("usd") for s in run.audio.get("sections", [])]
-    if any(c is None for c in costs):
-        return CostPart("tts", None, "a synthesis without token count or price")
-    return CostPart("tts", round(sum(costs), USD_DIGITS))
+            return CostPart(TTS_PART, None, "no 08_audio.json (run still running or not recorded)")
+        return CostPart(TTS_PART, 0.0, "no synthesis")
+    usd = tts_cost_usd(run.audio.get("sections", []))
+    return CostPart(TTS_PART, usd, NO_TTS_COST if usd is None else None)
 
 
-def run_cost(run: RunData, prices: Mapping) -> RunCost:
-    """Recorded cost of one run. Whisper runs locally and costs nothing per call."""
-    outcome = run_outcome(run)
+def _missing_prices(role: str, prices: Mapping, when: str) -> str:
+    keys = PRICE_KEYS.get(role)
+    if keys is None:
+        return "no price key for this role"
+    names = ", ".join(k for k in keys if k and not is_price(prices.get(k)))
+    return f"price not set{when}: {names}"
+
+
+def stored_cost(stored: Mapping) -> list[CostPart]:
+    """The parts of `cost` in episode.json, at the prices in force at run time."""
+    prices = stored.get("prices", {})
+    usd = stored.get("usd", {})
+    parts = [
+        CostPart(TTS_PART, usd.get(TTS_PART), None if is_price(usd.get(TTS_PART)) else NO_TTS_COST)
+    ]
+    roles = [role for role in usd if role != TTS_PART]
+    if not roles:
+        parts.append(NO_USAGE)
+    for role in roles:
+        value = usd[role]
+        note = None if value is not None else _missing_prices(role, prices, " at run time")
+        parts.append(CostPart(role, value, note))
+    return parts
+
+
+def todays_cost(run: RunData, outcome: Outcome, prices: Mapping) -> list[CostPart]:
+    """Folders without a stored cost: the token counts at today's config prices."""
     parts = [tts_cost(run, outcome)]
     usage = run.episode.get("usage") or {}
     if not usage:
-        parts.append(CostPart("claude, jev", None, "token counts not recorded"))
+        parts.append(NO_USAGE)
     for role, counts in usage.items():
         keys = PRICE_KEYS.get(role)
-        if keys is None:
-            parts.append(CostPart(role, None, "no price key for this role"))
-            continue
-        usd = token_cost(counts, prices, keys)
-        if usd is None:
-            names = ", ".join(k for k in keys if k and not is_price(prices.get(k)))
-            parts.append(CostPart(role, None, f"price not set: {names}"))
-        else:
-            parts.append(CostPart(role, usd))
+        usd = token_cost(counts, prices, keys) if keys else None
+        parts.append(
+            CostPart(role, usd, None if usd is not None else _missing_prices(role, prices, ""))
+        )
+    return parts
+
+
+def run_cost(run: RunData, prices: Mapping) -> RunCost:
+    """Cost of one run: the values stored at run time in `episode.json` (`cost`); for older
+    folders without them, computed with today's `prices`. Whisper runs locally and costs nothing
+    per call."""
+    outcome = run_outcome(run)
+    stored = run.episode.get("cost")
+    parts = stored_cost(stored) if stored else todays_cost(run, outcome, prices)
     known = round(sum(p.usd for p in parts if p.usd is not None), USD_DIGITS)
-    return RunCost(run.episode_id, outcome, parts, known, all(p.usd is not None for p in parts))
+    return RunCost(
+        run.episode_id,
+        outcome,
+        parts,
+        known,
+        all(p.usd is not None for p in parts),
+        todays_prices=not stored,
+    )
 
 
 @dataclass
@@ -435,6 +458,7 @@ class Cost:
     completed_mean_usd: float | None  # only when every completed run's cost is complete
     missing: list[str]  # distinct notes of unknown parts
     runs: list[RunCost]
+    todays_prices: list[str] = field(default_factory=list)  # runs without a stored cost
 
 
 def cost(runs: Sequence[RunData], prices: Mapping) -> Cost:
@@ -452,6 +476,7 @@ def cost(runs: Sequence[RunData], prices: Mapping) -> Cost:
         mean,
         missing,
         per_run,
+        [c.episode_id for c in per_run if c.todays_prices],
     )
 
 
@@ -709,6 +734,11 @@ def render_markdown(report: Report) -> str:
     ]
     if k.missing:
         lines += ["- Unknown parts:", *(f"  - {m}" for m in k.missing)]
+    if k.todays_prices:
+        lines.append(
+            "- Computed with today's prices (folders from before costs were stored at run "
+            f"time): {', '.join(f'`{i}`' for i in k.todays_prices)}"
+        )
     b = report.errors_by_revision
     lines += [
         "",

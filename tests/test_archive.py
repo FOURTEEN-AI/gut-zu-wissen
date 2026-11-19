@@ -47,6 +47,7 @@ def test_create_episode_writes_stable_indented_json(tmp_path):
         "explicit",
         "failure",
         "usage",
+        "cost",
     ]
     assert text.splitlines()[1].startswith('  "episode_id"')
     assert data["status"] == "running"

@@ -627,6 +627,25 @@ def test_successful_run_records_end_time_and_token_counts(tmp_path):
         },
         "jev": {"model": "jev-1.14.0", "calls": 0, "input_tokens": 0, "output_tokens": 0},
     }
+    prices = REAL["prices"]
+    assert record.cost["prices"] == {
+        k: prices[k]
+        for k in (
+            "claude_sonnet_input",
+            "claude_sonnet_output",
+            "jev",
+            "gemini_tts_input",
+            "gemini_tts_output",
+        )
+    }
+    audio = json.loads((tmp_path / "episodes" / episode_id / "08_audio.json").read_text())
+    assert record.cost["usd"] == {
+        "author": round(
+            (1000 * prices["claude_sonnet_input"] + 200 * prices["claude_sonnet_output"]) / 1e6, 4
+        ),
+        "jev": 0.0,
+        "tts": round(sum(s["usd"] for s in audio["sections"]), 4),
+    }
     assert record.status == "completed" and record.failure is None
 
 
@@ -711,3 +730,25 @@ def test_completed_run_does_not_count_as_published_for_the_repeat_gate(tmp_path)
     assert load_episode(tmp_path, first).status == "completed"
     second = run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW)
     assert second == "2026-11-19_rotfuchs-2"
+
+
+def test_failed_run_records_the_cost_so_far(tmp_path):
+    with pytest.raises(GateFailure):
+        run(FakeApi("Rotfuchs", ["Kategorie:Mann"]), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW)
+    record = load_episode(tmp_path, "2026-11-19_rotfuchs")
+    assert record.cost["usd"] == {"tts": 0}  # no client usage passed, no synthesis
+
+
+def test_crash_in_the_audio_step_records_the_tts_cost(tmp_path):
+    with pytest.raises(RuntimeError):
+        run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW,
+            stt=CrashingStt())  # fmt: skip
+    record = load_episode(tmp_path, "2026-11-19_rotfuchs")
+    audio = json.loads((tmp_path / "episodes" / record.episode_id / "08_audio.json").read_text())
+    (section,) = audio["sections"]
+    assert section["usd"] is not None and record.cost["usd"]["tts"] == section["usd"]
+
+
+class CrashingStt:
+    def transcribe(self, y, sr):
+        raise RuntimeError("whisper died")

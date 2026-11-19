@@ -110,6 +110,7 @@ def write_run(
     failure: str | None = None,
     finished_at: str | None = "2026-11-19T10:45:30Z",
     usage: dict | None = None,
+    cost: dict | None = None,
     revision_status: str = "sighted",
     used: int = 12,
     seconds: float = 900.0,
@@ -134,6 +135,7 @@ def write_run(
             "explicit": False,
             "failure": failure,
             "usage": USAGE if usage is None else usage,
+            **({"cost": cost} if cost is not None else {}),
         },
     )
     write_json(
@@ -370,6 +372,54 @@ def test_failed_run_before_the_audio_step_has_no_tts_cost(tmp_path):
     runs = load_runs(tmp_path)
     assert run_cost(runs[0], PRICES).parts[0].usd == 0.0
     assert run_cost(runs[1], PRICES).parts[0].usd is None
+
+
+STORED = {
+    "prices": {
+        "claude_sonnet_input": 2.0,
+        "claude_sonnet_output": 10.0,
+        "jev": 0.042,
+        "gemini_tts_input": 0.5,
+        "gemini_tts_output": 9.0,
+    },
+    "usd": {"author": 3.0, "llm_judge": 0.4, "jev": 0.021, "tts": 0.07},
+}
+
+
+def test_stored_cost_is_used_with_the_prices_of_its_run(tmp_path):
+    write_run(tmp_path, "a", cost=STORED, review_data=review("a", []), section_usd=(0.05, 0.04))
+    c = run_cost(load_runs(tmp_path)[0], PRICES)  # today's prices differ: not used
+    assert {p.part: p.usd for p in c.parts} == {
+        "tts": 0.07,
+        "author": 3.0,
+        "llm_judge": 0.4,
+        "jev": 0.021,
+    }
+    assert c.complete and not c.todays_prices and c.known_usd == pytest.approx(3.491)
+
+
+def test_stored_placeholder_price_stays_unknown(tmp_path):
+    prices = {**STORED["prices"], "claude_sonnet_output": "PLACEHOLDER"}
+    stored = {"prices": prices, "usd": {**STORED["usd"], "author": None, "tts": None}}
+    write_run(tmp_path, "a", cost=stored)
+    c = run_cost(load_runs(tmp_path)[0], PRICES)
+    assert [(p.part, p.usd, p.note) for p in c.parts if p.usd is None] == [
+        ("tts", None, "a synthesis without token count or price"),
+        ("author", None, "price not set at run time: claude_sonnet_output"),
+    ]
+    assert not c.complete
+
+
+def test_report_names_folders_costed_at_todays_prices(tmp_path):
+    write_run(tmp_path, "a", cost=STORED, review_data=review("a", []))
+    write_run(tmp_path, "b", review_data=review("b", []))  # older folder: no stored cost
+    total = cost(load_runs(tmp_path), PRICES)
+    assert total.todays_prices == ["b"]
+    report = build_report(load_runs(tmp_path), {"exit_criteria": CRITERIA, "prices": PRICES})
+    assert (
+        "- Computed with today's prices (folders from before costs were stored at run time): `b`"
+        in render_markdown(report)
+    )
 
 
 def test_no_mean_cost_while_a_completed_run_is_partial(tmp_path):

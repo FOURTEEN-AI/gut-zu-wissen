@@ -57,8 +57,9 @@ class EpisodeRecord:
     """Content of episode.json; field order is the file's field order.
 
     `finished_at` is when the run ended, successfully or not (runtime, step 13); `usage` holds the
-    token counts per API client role (`usage.Usage`, cost log). Both are missing in files written
-    before they were recorded.
+    token counts per API client role (`usage.Usage`, cost log); `cost` the USD per role and for
+    TTS with the prices in force at run time (`usage.episode_cost`). All three are missing in
+    files written before they were recorded.
     """
 
     episode_id: str
@@ -70,6 +71,7 @@ class EpisodeRecord:
     explicit: bool | None = None
     failure: str | None = None
     usage: dict[str, dict] = field(default_factory=dict)
+    cost: dict = field(default_factory=dict)
 
 
 def write_json(path: Path, data: object) -> None:
