@@ -447,3 +447,44 @@ def test_find_review_by_issue_number(tmp_path):
 
 def test_rate_state_starts_at_r_initial(tmp_path):
     assert load_rate_state(tmp_path, REVIEW_CONFIG).r == REVIEW_CONFIG["r_initial"]
+
+
+# ---------------------------------------------------------------- command line
+
+
+def test_command_line_open_apply_reply(tmp_path, monkeypatch):
+    import gut_zu_wissen.run
+    from gut_zu_wissen import review as module
+
+    archived(tmp_path)
+    issues = FakeIssues([comment(3, "0: belegt\n2: nicht belegt – falsches Jahr")])
+    monkeypatch.setattr(gut_zu_wissen.run, "ARCHIVE_ROOT", tmp_path)
+    monkeypatch.setattr(module, "_issues_from_env", lambda: issues)
+    monkeypatch.delenv("GITHUB_STEP_SUMMARY", raising=False)
+    monkeypatch.setenv("GITHUB_REPOSITORY", "o/r")
+    monkeypatch.setenv("GITHUB_RUN_ID", "42")
+
+    assert module.main(["open", "2026-11-19_rotfuchs"]) == 0
+    ((_, body),) = issues.created
+    assert "[Archiv](https://github.com/o/r/tree/main/archive/episodes/2026-11-19_rotfuchs)" in body
+    assert "(https://github.com/o/r/actions/runs/42)" in body
+
+    reply = tmp_path / "build" / "reply.md"
+    assert module.main(["apply", "7", "--reply-file", str(reply)]) == 0
+    stored = load_review(tmp_path, "2026-11-19_rotfuchs")
+    assert stored.outcome == "error" and stored.turns[1].note == "falsches Jahr"
+    assert load_rate_state(tmp_path, REVIEW_CONFIG).r == 1.0  # phase 1: fixed
+    assert module.main(["reply", "7", str(reply)]) == 0
+    ((number, text),) = issues.posted
+    assert number == 7 and "Review vollständig: Fehler gefunden." in text
+
+    assert module.main(["apply", "8", "--reply-file", str(reply)]) == 0
+    assert not reply.exists()
+    assert module.main(["reply", "8", str(reply)]) == 0
+    assert len(issues.posted) == 1
+
+
+def test_command_line_rejects_a_malformed_episode_id(monkeypatch):
+    from gut_zu_wissen import review as module
+
+    assert module.main(["open", "../../etc"]) == 2
