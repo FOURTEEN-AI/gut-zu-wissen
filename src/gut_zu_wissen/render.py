@@ -7,13 +7,23 @@ The API sits behind the `HtmlRenderer` interface; tests use fakes.
 from __future__ import annotations
 
 import re
+import unicodedata
 from typing import Protocol
+
+from bs4 import BeautifulSoup
+from bs4.element import Tag
 
 from gut_zu_wissen.fetch import WikipediaApi
 
 BOUNDARY = "SEGMENTGRENZE{:05d}"
 BOUNDARY_PARAGRAPH = re.compile(r"<p>\s*SEGMENTGRENZE(\d{5})\s*</p>")
 BATCH_CHARS = 60_000
+# Rendered elements that are not reading text.
+DROP = (
+    "sup.reference, .mw-editsection, style, script, .mw-ref, .reference, "
+    ".noprint, .metadata, .error, .mw-empty-elt"
+)
+INVISIBLE_CHARS = "\u00ad\u200b\u200e"  # soft hyphen, zero-width space, left-to-right mark
 
 
 class HtmlRenderer(Protocol):
@@ -66,3 +76,23 @@ class ParseRenderer:
             by_index = {int(parts[k]): parts[k + 1] for k in range(1, len(parts) - 1, 2)}
             results += [by_index.get(i, "") for i in range(len(batch))]
         return results
+
+
+def normalize_text(text: str) -> str:
+    text = unicodedata.normalize("NFC", text)
+    for ch in INVISIBLE_CHARS:
+        text = text.replace(ch, "")
+    return re.sub(r"\s+", " ", text.replace("\xa0", " ")).strip()
+
+
+def plain_text(soup: BeautifulSoup | Tag) -> str:
+    """Reading text of rendered HTML: no references, edit links, styles; `<br>` is a space."""
+    for el in soup.select(DROP):
+        el.decompose()
+    for br in soup.select("br"):
+        br.replace_with(" ")
+    return normalize_text(soup.get_text(""))
+
+
+def html_to_plain(html: str) -> str:
+    return plain_text(BeautifulSoup(html, "html.parser"))

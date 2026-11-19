@@ -9,23 +9,17 @@ Plain text: „Infobox type – section header – label: value“, header omitt
 from __future__ import annotations
 
 import re
-import unicodedata
 from dataclasses import dataclass
 
 from bs4 import BeautifulSoup
 from bs4.element import Tag
 
-from gut_zu_wissen.render import HtmlRenderer
+from gut_zu_wissen.render import HtmlRenderer, plain_text
 
 INFOBOX = re.compile(r"^\s*(Infobox[ _].*|Taxobox)\s*$", re.IGNORECASE)
 MARKER = "Qzmarkerq{}"
 NUMERIC_MARKER_BASE = 7_000_000
 NUMERIC_MARKER_STEP = 7919
-# Rendered elements that are not reading text.
-DROP = (
-    "sup.reference, .mw-editsection, style, script, .mw-ref, .reference, "
-    ".noprint, .metadata, .error, .mw-empty-elt"
-)
 # Present in the HTML but not visible: the geo microformat and hidden spans.
 HIDDEN = (
     ".geo, .geo-nondefault, .geo-multi-punct, [style*='display:none'], [style*='display: none']"
@@ -118,27 +112,12 @@ def _numeric_forms(marker: str) -> list[str]:
 # ---------------------------------------------------------------- rendered HTML
 
 
-def _norm(text: str) -> str:
-    text = unicodedata.normalize("NFC", text)
-    for ch in INVISIBLE_CHARS:
-        text = text.replace(ch, "")
-    return re.sub(r"\s+", " ", text.replace("\xa0", " ")).strip()
-
-
-def _plain(soup: BeautifulSoup | Tag) -> str:
-    for el in soup.select(DROP):
-        el.decompose()
-    for br in soup.select("br"):
-        br.replace_with(" ")
-    return _norm(soup.get_text(""))
-
-
 def _visible(el: Tag) -> str:
     """Visible plain text of an element, without mutating it."""
     soup = BeautifulSoup(str(el), "html.parser")
     for hidden in soup.select(HIDDEN):
         hidden.decompose()
-    return _plain(soup)
+    return plain_text(soup)
 
 
 def _table_rows(html: str) -> list[Tag]:

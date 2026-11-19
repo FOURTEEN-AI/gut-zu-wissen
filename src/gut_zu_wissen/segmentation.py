@@ -233,6 +233,17 @@ def scan(text: str) -> list[Mask]:
     return masks
 
 
+def strip_refs(raw: str) -> str:
+    """Raw text without `<ref>` tags and comments: the text that is rendered to plain text."""
+    out, pos = [], 0
+    for m in scan(raw):
+        if m.kind in ("ref", "comment"):
+            out.append(raw[pos : m.raw_start])
+            pos = m.raw_end
+    out.append(raw[pos:])
+    return "".join(out).strip()
+
+
 def build_masked(text: str, masks: list[Mask]) -> str:
     """Replace every mask by its surrogate and record the masked offsets on the masks."""
     out, pos, m_pos = [], 0, 0
