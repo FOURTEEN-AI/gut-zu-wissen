@@ -1,0 +1,20 @@
+{
+  "env": {
+    "platform": "Linux-7.0.0-1020-azure-x86_64-with-glibc2.43",
+    "cpus": 4,
+    "machine": "x86_64"
+  },
+  "rows": [
+    {
+      "model": "large-v3",
+      "compute_type": "int8",
+      "cpu_threads": 4,
+      "audio_seconds": 978.6,
+      "load_seconds": 5.4,
+      "transcribe_seconds": 666.4,
+      "rtf": 0.681,
+      "peak_rss_mb": 3236,
+      "wer": 0.038
+    }
+  ]
+}

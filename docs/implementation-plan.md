@@ -17,7 +17,7 @@ These retire the open risks before the build starts.
 | S2 SoMaJo + masking ✅ | Robust on 10 diverse articles (nested templates, tables, lists)? | Masking rules, segment ID scheme |
 | S3 Rendering ✅ | Does `action=parse` per segment differ from in-article rendering? How do infobox parameters map to rendered row labels (see D3)? | Decision: per segment, or render once and map; label-mapping method |
 | S4 Gemini TTS ✅ | Voice choice, section length under the output limit (16,384 tokens per call), audibility of seams | Two voice names, section strategy |
-| S5 Whisper | Runtime for 15 min of audio on an Actions CPU runner (large vs. faster-whisper int8) | Model size, cache setup |
+| S5 Whisper ✅ | Runtime for 15 min of audio on an Actions CPU runner (large vs. faster-whisper int8) | Model size, cache setup |
 
 ## Phase 1: Manual run to audio (Ausbaustufe 1)
 
