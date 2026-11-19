@@ -27,7 +27,7 @@ These retire the open risks before the build starts.
    - Wikitext, revid, revision status (sighted or latest), UTC timestamp, categories.
    - Gates as pure functions: living person; episode for this article published less than 6 months ago (D4).
 3. **Segmentation.** ✅ Done. Masking, then SoMaJo, then unmasking. Infobox rows from `Infobox *` and `Taxobox` only, as their own segment type (D3). Stable segment IDs (revid + index).
-4. **Extraction per chunk.**
+4. **Extraction per chunk.** ✅ Done.
    - Structured output (JSON schema).
    - Gates for uniqueness, ≥ 8 words, full sentence, and context (contiguous, same chunk, ≤ 3 segments).
    - Plaintext rendering of offered facts and their context. Infobox rows as „Infobox type – section header – label: value“, header omitted when there is none (D3).
