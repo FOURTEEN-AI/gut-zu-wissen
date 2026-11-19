@@ -1,0 +1,82 @@
+{
+  "title": "Körperwelten",
+  "revid": 271524433,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-22T10:50:27Z",
+  "fetched_at": "2026-11-19T23:20:55Z",
+  "categories": [
+    "Kategorie:Anatomie",
+    "Kategorie:Anatomisches Präparat",
+    "Kategorie:Erstveranstaltung 1995",
+    "Kategorie:Veranstaltung (Medizin)",
+    "Kategorie:Wanderausstellung",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2026-02",
+    "Kategorie:Wikipedia:Weblink offline"
+  ],
+  "intro_wikitext": "[[Datei:Plastinated elephant.jpg|mini|[[Gunther von Hagens]] mit plastiniertem Elefanten, 2010 auf einer Pressekonferenz]]\n'''Körperwelten''' sind seit 1995 bestehende [[Wanderausstellung]]en [[Plastination|plastinierter]], überwiegend menschlicher Körper. Initiator der Ausstellungen ist der [[Anatomie|Anatom]] [[Gunther von Hagens]]. Die Ausstellungen sind aufgrund der Exponate umstritten. Dennoch sind sie ein großer Erfolg und werden unter dem Namen ''Body Worlds'' auch international gezeigt. Nach von Hagens Angaben sahen 50&nbsp;Millionen Besucher die Ausstellungen bis zum November 2019.<ref>[https://koerperwelten.de/wp-content/uploads/2019/11/191113_Koerperwelten_50Mio-Besucher1.pdf ''Rekord-Meilenstein: Körperwelten feiert den 50 Millionsten Besucher!''] In: ''koerperwelten.de'', November 2019.</ref>\n\nDurch die öffentliche Zurschaustellung der menschlichen Präparate möchte von Hagens [[Anatomie]] sichtbar machen, indem er auch Nichtmedizinern den Blick ins Innere des Körpers ermöglicht.<ref>[https://www.aerztezeitung.de/Panorama/Ein-Leben-fuer-die-Plastination-405521.html ''Gunther von Hagens. Ein Leben für die Plastination.''] [[Ärzte Zeitung]], aufgerufen am 14. Oktober 2021.</ref>",
+  "segments": [
+    {
+      "id": "271524433-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Körperwelten''' sind seit 1995 bestehende [[Wanderausstellung]]en [[Plastination|plastinierter]], überwiegend menschlicher Körper.",
+      "plain": null
+    },
+    {
+      "id": "271524433-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Initiator der Ausstellungen ist der [[Anatomie|Anatom]] [[Gunther von Hagens]].",
+      "plain": null
+    },
+    {
+      "id": "271524433-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Ausstellungen sind aufgrund der Exponate umstritten.",
+      "plain": null
+    },
+    {
+      "id": "271524433-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dennoch sind sie ein großer Erfolg und werden unter dem Namen ''Body Worlds'' auch international gezeigt.",
+      "plain": null
+    },
+    {
+      "id": "271524433-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Nach von Hagens Angaben sahen 50&nbsp;Millionen Besucher die Ausstellungen bis zum November 2019.<ref>[https://koerperwelten.de/wp-content/uploads/2019/11/191113_Koerperwelten_50Mio-Besucher1.pdf ''Rekord-Meilenstein: Körperwelten feiert den 50 Millionsten Besucher!''] In: ''koerperwelten.de'', November 2019.</ref>",
+      "plain": null
+    },
+    {
+      "id": "271524433-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Durch die öffentliche Zurschaustellung der menschlichen Präparate möchte von Hagens [[Anatomie]] sichtbar machen, indem er auch Nichtmedizinern den Blick ins Innere des Körpers ermöglicht.<ref>[https://www.aerztezeitung.de/Panorama/Ein-Leben-fuer-die-Plastination-405521.html ''Gunther von Hagens. Ein Leben für die Plastination.''] [[Ärzte Zeitung]], aufgerufen am 14. Oktober 2021.</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271524433,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271524433-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271524433-0002",
+          "271524433-0003"
+        ],
+        "plain": "Nach von Hagens Angaben sahen 50 Millionen Besucher die Ausstellungen bis zum November 2019.",
+        "context_plain": [
+          "Die Ausstellungen sind aufgrund der Exponate umstritten.",
+          "Dennoch sind sie ein großer Erfolg und werden unter dem Namen Body Worlds auch international gezeigt."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

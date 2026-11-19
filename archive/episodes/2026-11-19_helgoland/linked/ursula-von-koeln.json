@@ -1,0 +1,118 @@
+{
+  "title": "Ursula von Köln",
+  "revid": 271660087,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-27T02:33:57Z",
+  "fetched_at": "2026-11-19T23:20:55Z",
+  "categories": [
+    "Kategorie:Bretonen",
+    "Kategorie:Deutsche Sagengestalt",
+    "Kategorie:Frau",
+    "Kategorie:Geboren im 4. Jahrhundert",
+    "Kategorie:Gestorben im 4. Jahrhundert",
+    "Kategorie:Heiliger (4. Jahrhundert)",
+    "Kategorie:Jungfrau",
+    "Kategorie:Legende",
+    "Kategorie:Märtyrer",
+    "Kategorie:Person (Köln)",
+    "Kategorie:Ursula von Köln",
+    "Kategorie:Weibliche Sagengestalt"
+  ],
+  "intro_wikitext": "[[Datei:Wappen Koeln.svg|mini|hochkant|Elf Flammen als Symbol für die ''Heilige Ursula und die 11.000 Jungfrauen'' im [[Kölner Wappen]]]]\n'''Ursula von Köln''', besser bekannt als die ''Heilige Ursula'', steht im Mittelpunkt der christlichen [[Legende]] der [[11.000 Jungfrauen]]. Dem auf das 4.&nbsp;Jahrhundert n. Chr. datierten [[Mythos]] nach fiel die tiefgläubige Ursula samt der sie begleitenden elftausend Jungfrauen während einer [[Wallfahrt]] einem prophezeiten [[Martyrium]] vor den Toren [[Köln]]s zum Opfer.\n\nDie der Legende nach zum Todeszeitpunkt achtjährige Märtyrerin Ursula entstammte einem [[Romano-Briten|romanisch-britischen]] Adelsgeschlecht. Sie wird in der [[römisch-katholisch]]en Kirche, in der [[orthodox]]en Kirche und in der [[anglikanisch]]en Gemeinschaft als [[Heilig]]e verehrt. Ihr Gedenktag wurde auf den 21. Oktober festgelegt. \n\nAls erste Erwähnung der ''Heiligen Ursula'' gilt eine [[Inschrift]] aus dem 5.&nbsp;Jahrhundert, die in der Kirche [[St. Ursula (Köln)|St.&nbsp;Ursula zu Köln]] aufbewahrt wird. Das Leben der ''Heiligen Ursula'' ist hingegen in zeitgenössischen Quellen unbezeugt. Daher gilt sie heute allgemein als reine Legendenfigur ohne historische Existenz. Gleichwohl ist die rein fiktive Ursula-Legende untrennbar mit der [[Geschichte der Stadt Köln]] verbunden und entsprechend im [[Kölner Wappen]] verewigt.",
+  "segments": [
+    {
+      "id": "271660087-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Ursula von Köln''', besser bekannt als die ''Heilige Ursula'', steht im Mittelpunkt der christlichen [[Legende]] der [[11.000 Jungfrauen]].",
+      "plain": null
+    },
+    {
+      "id": "271660087-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dem auf das 4.&nbsp;Jahrhundert n. Chr. datierten [[Mythos]] nach fiel die tiefgläubige Ursula samt der sie begleitenden elftausend Jungfrauen während einer [[Wallfahrt]] einem prophezeiten [[Martyrium]] vor den Toren [[Köln]]s zum Opfer.",
+      "plain": null
+    },
+    {
+      "id": "271660087-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die der Legende nach zum Todeszeitpunkt achtjährige Märtyrerin Ursula entstammte einem [[Romano-Briten|romanisch-britischen]] Adelsgeschlecht.",
+      "plain": null
+    },
+    {
+      "id": "271660087-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie wird in der [[römisch-katholisch]]en Kirche, in der [[orthodox]]en Kirche und in der [[anglikanisch]]en Gemeinschaft als [[Heilig]]e verehrt.",
+      "plain": null
+    },
+    {
+      "id": "271660087-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ihr Gedenktag wurde auf den 21. Oktober festgelegt.",
+      "plain": null
+    },
+    {
+      "id": "271660087-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als erste Erwähnung der ''Heiligen Ursula'' gilt eine [[Inschrift]] aus dem 5.&nbsp;Jahrhundert, die in der Kirche [[St. Ursula (Köln)|St.&nbsp;Ursula zu Köln]] aufbewahrt wird.",
+      "plain": null
+    },
+    {
+      "id": "271660087-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Leben der ''Heiligen Ursula'' ist hingegen in zeitgenössischen Quellen unbezeugt.",
+      "plain": null
+    },
+    {
+      "id": "271660087-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Daher gilt sie heute allgemein als reine Legendenfigur ohne historische Existenz.",
+      "plain": null
+    },
+    {
+      "id": "271660087-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Gleichwohl ist die rein fiktive Ursula-Legende untrennbar mit der [[Geschichte der Stadt Köln]] verbunden und entsprechend im [[Kölner Wappen]] verewigt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271660087,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271660087-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271660087-0001"
+        ],
+        "plain": "Die der Legende nach zum Todeszeitpunkt achtjährige Märtyrerin Ursula entstammte einem romanisch-britischen Adelsgeschlecht.",
+        "context_plain": [
+          "Dem auf das 4. Jahrhundert n. Chr. datierten Mythos nach fiel die tiefgläubige Ursula samt der sie begleitenden elftausend Jungfrauen während einer Wallfahrt einem prophezeiten Martyrium vor den Toren Kölns zum Opfer."
+        ]
+      },
+      {
+        "segment_id": "271660087-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271660087-0007"
+        ],
+        "plain": "Gleichwohl ist die rein fiktive Ursula-Legende untrennbar mit der Geschichte der Stadt Köln verbunden und entsprechend im Kölner Wappen verewigt.",
+        "context_plain": [
+          "Daher gilt sie heute allgemein als reine Legendenfigur ohne historische Existenz."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

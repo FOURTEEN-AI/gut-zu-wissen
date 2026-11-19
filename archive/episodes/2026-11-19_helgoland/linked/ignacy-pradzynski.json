@@ -1,0 +1,57 @@
+{
+  "title": "Ignacy Prądzyński",
+  "revid": 220026690,
+  "revision_status": "sighted",
+  "revision_timestamp": "2022-02-09T10:39:19Z",
+  "fetched_at": "2026-11-19T23:20:55Z",
+  "categories": [
+    "Kategorie:Geboren 1792",
+    "Kategorie:Gestorben 1850",
+    "Kategorie:Mann",
+    "Kategorie:Militärperson (Polen)",
+    "Kategorie:Militärtheoretiker",
+    "Kategorie:Mitglied der Ehrenlegion",
+    "Kategorie:Person im Novemberaufstand (Polen)",
+    "Kategorie:Person in den Koalitionskriegen (Polen)",
+    "Kategorie:Pole",
+    "Kategorie:Träger des Ordens Virtuti Militari",
+    "Kategorie:Träger des Ordens der Heiligen Anna",
+    "Kategorie:Wikipedia:Mitglied der Ehrenlegion (Ausprägung ungeklärt)"
+  ],
+  "intro_wikitext": "[[Datei:Ignacy Prądzyński 1.PNG|miniatur|Ignacy Prądzyński]]\n[[Datei:Schleswig-Holstein, Kreis Pinneberg, Helgoland im Juli 2019 NIK 7823.jpg|mini|Gedenkplatte auf Helgoland]]\n'''Ignacy Prądzyński''' (* [[20. Juli]] [[1792]] in [[Sanniki]]; † [[4. August]] [[1850]] auf [[Helgoland]]) war ein polnischer [[Ingenieur]], Militärtheoretiker und Offizier. Während des [[Novemberaufstand]]es von 1830/31 war er zeitweise Generalstabschef und de facto Oberbefehlshaber der polnischen Streitkräfte.",
+  "segments": [
+    {
+      "id": "220026690-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Ignacy Prądzyński''' (* [[20. Juli]] [[1792]] in [[Sanniki]]; † [[4. August]] [[1850]] auf [[Helgoland]]) war ein polnischer [[Ingenieur]], Militärtheoretiker und Offizier.",
+      "plain": null
+    },
+    {
+      "id": "220026690-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Während des [[Novemberaufstand]]es von 1830/31 war er zeitweise Generalstabschef und de facto Oberbefehlshaber der polnischen Streitkräfte.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 220026690,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "220026690-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "220026690-0000"
+        ],
+        "plain": "Während des Novemberaufstandes von 1830/31 war er zeitweise Generalstabschef und de facto Oberbefehlshaber der polnischen Streitkräfte.",
+        "context_plain": [
+          "Ignacy Prądzyński (* 20. Juli 1792 in Sanniki; † 4. August 1850 auf Helgoland) war ein polnischer Ingenieur, Militärtheoretiker und Offizier."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

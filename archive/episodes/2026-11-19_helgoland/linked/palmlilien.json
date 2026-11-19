@@ -1,0 +1,82 @@
+{
+  "title": "Palmlilien",
+  "revid": 272158728,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-14T16:06:23Z",
+  "fetched_at": "2026-11-19T23:20:55Z",
+  "categories": [
+    "Kategorie:Palmlilien"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe bitte [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name       = Palmlilien\n| Taxon_WissName   = Yucca\n| Taxon_Rang       = Gattung\n| Taxon_Autor      = [[Carl von Linné|L.]]\n| Taxon2_Name      = Agavengewächse\n| Taxon2_WissName  = Agavoideae\n| Taxon2_Rang      = Unterfamilie\n| Taxon3_Name      = Spargelgewächse\n| Taxon3_WissName  = Asparagaceae\n| Taxon3_Rang      = Familie\n| Taxon4_Name      = Spargelartige\n| Taxon4_WissName  = Asparagales\n| Taxon4_Rang      = Ordnung\n| Taxon5_Name      = Monokotyledonen\n| Taxon5_Rang      = ohne\n| Taxon6_Name      = Bedecktsamer\n| Taxon6_WissName  = Magnoliopsida\n| Taxon6_Rang      = Klasse\n| Bild             = Yucca queretaroensis fh 0360 MEX B.jpg\n| Bildbeschreibung = ''Yucca'' Sektion ''Chaenocarpa'' Serie ''Rupicolae'': ''[[Yucca queretaroensis]]'' in Mexiko\n}}\n\nDie '''Palmlilien''' oder '''Yuccas''' (''Yucca'') sind eine [[Gattung (Biologie)|Pflanzengattung]] aus der Familie der [[Spargelgewächse]] (Asparagaceae). Es ist eine rein [[neotropis]]che Gattung mit Verbreitungsschwerpunkt in [[Mittelamerika]].",
+  "segments": [
+    {
+      "id": "272158728-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Bild             = Yucca queretaroensis fh 0360 MEX B.jpg | Bildbeschreibung = ''Yucca'' Sektion ''Chaenocarpa'' Serie ''Rupicolae'': ''[[Yucca queretaroensis]]'' in Mexiko",
+      "plain": "Taxobox – Yucca Sektion Chaenocarpa Serie Rupicolae: Yucca queretaroensis in Mexiko"
+    },
+    {
+      "id": "272158728-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon6_Name      = Bedecktsamer | Taxon6_WissName  = Magnoliopsida",
+      "plain": "Taxobox – Systematik – Klasse: Bedecktsamer (Magnoliopsida)"
+    },
+    {
+      "id": "272158728-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_Name      = Monokotyledonen",
+      "plain": "Taxobox – Systematik – : Monokotyledonen"
+    },
+    {
+      "id": "272158728-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_Name      = Spargelartige | Taxon4_WissName  = Asparagales",
+      "plain": "Taxobox – Systematik – Ordnung: Spargelartige (Asparagales)"
+    },
+    {
+      "id": "272158728-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon3_Name      = Spargelgewächse | Taxon3_WissName  = Asparagaceae",
+      "plain": "Taxobox – Systematik – Familie: Spargelgewächse (Asparagaceae)"
+    },
+    {
+      "id": "272158728-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_Name      = Agavengewächse | Taxon2_WissName  = Agavoideae",
+      "plain": "Taxobox – Systematik – Unterfamilie: Agavengewächse (Agavoideae)"
+    },
+    {
+      "id": "272158728-0006",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name       = Palmlilien",
+      "plain": "Taxobox – Systematik – Gattung: Palmlilien"
+    },
+    {
+      "id": "272158728-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Palmlilien''' oder '''Yuccas''' (''Yucca'') sind eine [[Gattung (Biologie)|Pflanzengattung]] aus der Familie der [[Spargelgewächse]] (Asparagaceae).",
+      "plain": null
+    },
+    {
+      "id": "272158728-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es ist eine rein [[neotropis]]che Gattung mit Verbreitungsschwerpunkt in [[Mittelamerika]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272158728,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": []
+  }
+}

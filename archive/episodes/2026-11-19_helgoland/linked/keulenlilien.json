@@ -1,0 +1,96 @@
+{
+  "title": "Keulenlilien",
+  "revid": 272174428,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-15T07:31:35Z",
+  "fetched_at": "2026-11-19T23:20:55Z",
+  "categories": [
+    "Kategorie:Spargelgewächse"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe bitte [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name       = Keulenlilien\n| Taxon_WissName   = Cordyline\n| Taxon_Rang       = Gattung\n| Taxon_Autor      = [[Philibert Commerson|Comm.]] ex [[Robert Brown (Botaniker, 1773)|R.Br.]]\n| Taxon2_WissName  = Lomandroideae\n| Taxon2_Rang      = Unterfamilie\n| Taxon3_Name      = Spargelgewächse\n| Taxon3_WissName  = Asparagaceae\n| Taxon3_Rang      = Familie\n| Taxon4_Name      = Spargelartige\n| Taxon4_WissName  = Asparagales\n| Taxon4_Rang      = Ordnung\n| Taxon5_Name      = Monokotyledonen\n| Taxon5_WissName  = \n| Taxon5_Rang      = ohne \n| Taxon6_Name      = Bedecktsamer\n| Taxon6_WissName  = Magnoliopsida\n| Taxon6_Rang      = Klasse\n| Bild             = Cordyline terminalis dsc03651.jpg\n| Bildbeschreibung = ''Cordyline fruticosa''-Kulturform, eine der vielen Sorten, die sich auch als [[Zimmerpflanze]] eignen\n}}\n\n'''Keulenlilien''' (''Cordyline'') sind eine [[Gattung (Biologie)|Pflanzengattung]] aus [[Familie (Biologie)|Unterfamilie]] der [[Lomandroideae]] in der [[Familie (Biologie)|Familie]] der [[Spargelgewächse]] (Asparagaceae) innerhalb der [[Ordnung (Biologie)|Ordnung]] der [[Spargelartige]]n (Asparagales). Viele Arten, die früher in dieser Gattung waren, wurden in die Gattung ''[[Dracaena]]'' gestellt. ''Cordyline'' bilden keulenförmige Speicherknollen an den Wurzeln (deutscher Name!). Einige Arten und Sorten sind [[Zierpflanze]]n. Manche Arten und besonders ihre Sorten besitzen bunte Blätter, oft rot, deshalb verwendet man sie als Zierpflanzen in frostfreien Gebieten in Parks und Gärten, aber auch als [[Zimmerpflanze]]n.",
+  "segments": [
+    {
+      "id": "272174428-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon6_Name      = Bedecktsamer | Taxon6_WissName  = Magnoliopsida",
+      "plain": "Taxobox – Systematik – Klasse: Bedecktsamer (Magnoliopsida)"
+    },
+    {
+      "id": "272174428-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_Name      = Monokotyledonen",
+      "plain": "Taxobox – Systematik – : Monokotyledonen"
+    },
+    {
+      "id": "272174428-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_Name      = Spargelartige | Taxon4_WissName  = Asparagales",
+      "plain": "Taxobox – Systematik – Ordnung: Spargelartige (Asparagales)"
+    },
+    {
+      "id": "272174428-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon3_Name      = Spargelgewächse | Taxon3_WissName  = Asparagaceae",
+      "plain": "Taxobox – Systematik – Familie: Spargelgewächse (Asparagaceae)"
+    },
+    {
+      "id": "272174428-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_WissName  = Lomandroideae",
+      "plain": "Taxobox – Systematik – Unterfamilie: Lomandroideae"
+    },
+    {
+      "id": "272174428-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name       = Keulenlilien",
+      "plain": "Taxobox – Systematik – Gattung: Keulenlilien"
+    },
+    {
+      "id": "272174428-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Keulenlilien''' (''Cordyline'') sind eine [[Gattung (Biologie)|Pflanzengattung]] aus [[Familie (Biologie)|Unterfamilie]] der [[Lomandroideae]] in der [[Familie (Biologie)|Familie]] der [[Spargelgewächse]] (Asparagaceae) innerhalb der [[Ordnung (Biologie)|Ordnung]] der [[Spargelartige]]n (Asparagales).",
+      "plain": null
+    },
+    {
+      "id": "272174428-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Viele Arten, die früher in dieser Gattung waren, wurden in die Gattung ''[[Dracaena]]'' gestellt.",
+      "plain": null
+    },
+    {
+      "id": "272174428-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "''Cordyline'' bilden keulenförmige Speicherknollen an den Wurzeln (deutscher Name!).",
+      "plain": null
+    },
+    {
+      "id": "272174428-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "Einige Arten und Sorten sind [[Zierpflanze]]n.",
+      "plain": null
+    },
+    {
+      "id": "272174428-0010",
+      "type": "sentence",
+      "section": "",
+      "raw": "Manche Arten und besonders ihre Sorten besitzen bunte Blätter, oft rot, deshalb verwendet man sie als Zierpflanzen in frostfreien Gebieten in Parks und Gärten, aber auch als [[Zimmerpflanze]]n.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272174428,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": []
+  }
+}

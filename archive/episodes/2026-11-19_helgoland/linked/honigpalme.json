@@ -1,0 +1,80 @@
+{
+  "title": "Honigpalme",
+  "revid": 261754211,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-11-22T05:53:52Z",
+  "fetched_at": "2026-11-19T23:20:55Z",
+  "categories": [
+    "Kategorie:Palmengewächse",
+    "Kategorie:Schalenobst",
+    "Kategorie:Wikipedia:Belege fehlen",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2023-05",
+    "Kategorie:Wikipedia:Lückenhaft",
+    "Kategorie:Zuckerpflanze"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe bitte [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name       = Honigpalme\n| Taxon_WissName   = Jubaea chilensis\n| Taxon_Rang       = Art\n| Taxon_Autor      = ([[Juan Ignacio Molina|Molina]]) [[Henri Ernest Baillon|Baill.]]\n| Taxon2_Name      = Honigpalmen\n| Taxon2_WissName  = Jubaea\n| Taxon2_Autor     = [[Karl Sigismund Kunth|Kunth]]\n| Taxon2_Rang      = Gattung\n| Taxon3_WissName  = Butiinae\n| Taxon3_Rang      = Untertribus\n| Taxon4_WissName  = Cocoseae\n| Taxon4_Rang      = Tribus\n| Taxon5_WissName  = Arecoideae\n| Taxon5_Rang      = Unterfamilie\n| Taxon6_Name      = Palmengewächse\n| Taxon6_WissName  = Arecaceae\n| Taxon6_Rang      = Familie\n| Bild             = Jubaea chilensis Hyères gross.jpg\n| Bildbeschreibung = Honigpalme (''Jubaea chilensis'')\n}}\n\nDie '''Honigpalme''' (''Jubaea chilensis'' {{Person|(Molina) Baill.}}, [[Synonym (Taxonomie)|Syn.]]: ''Jubaea spectabilis'' {{Person|[[Karl Sigismund Kunth|Kunth]]}}) ist die einzige [[Art (Biologie)|Art]] der [[Gattung (Biologie)|Pflanzengattung]] '''''Jubaea''''' innerhalb der Familie der [[Palmengewächse]] (Arecaceae). Sie wächst in mediterran-ähnlichem Klima in [[Chile]].",
+  "segments": [
+    {
+      "id": "261754211-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon6_Name      = Palmengewächse | Taxon6_WissName  = Arecaceae",
+      "plain": "Taxobox – Systematik – Familie: Palmengewächse (Arecaceae)"
+    },
+    {
+      "id": "261754211-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_WissName  = Arecoideae",
+      "plain": "Taxobox – Systematik – Unterfamilie: Arecoideae"
+    },
+    {
+      "id": "261754211-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_WissName  = Cocoseae",
+      "plain": "Taxobox – Systematik – Tribus: Cocoseae"
+    },
+    {
+      "id": "261754211-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon3_WissName  = Butiinae",
+      "plain": "Taxobox – Systematik – Untertribus: Butiinae"
+    },
+    {
+      "id": "261754211-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_Name      = Honigpalmen",
+      "plain": "Taxobox – Systematik – Gattung: Honigpalmen"
+    },
+    {
+      "id": "261754211-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name       = Honigpalme",
+      "plain": "Taxobox – Systematik – Art: Honigpalme"
+    },
+    {
+      "id": "261754211-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Honigpalme''' (''Jubaea chilensis'' {{Person|(Molina) Baill.}}, [[Synonym (Taxonomie)|Syn.]]: ''Jubaea spectabilis'' {{Person|[[Karl Sigismund Kunth|Kunth]]}}) ist die einzige [[Art (Biologie)|Art]] der [[Gattung (Biologie)|Pflanzengattung]] '''''Jubaea''''' innerhalb der Familie der [[Palmengewächse]] (Arecaceae).",
+      "plain": null
+    },
+    {
+      "id": "261754211-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie wächst in mediterran-ähnlichem Klima in [[Chile]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 261754211,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": []
+  }
+}

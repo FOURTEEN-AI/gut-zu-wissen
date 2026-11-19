@@ -1,0 +1,118 @@
+{
+  "title": "Seemeile",
+  "revid": 269862188,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-08-21T15:11:56Z",
+  "fetched_at": "2026-11-19T23:20:55Z",
+  "categories": [
+    "Kategorie:Maßeinheit (Schifffahrt)",
+    "Kategorie:Meile (Einheit)"
+  ],
+  "intro_wikitext": "{{Infobox Physikalische Einheit\n| Name = Seemeile, nautische Meile\n| Einheitenzeichen = <math>\\mathrm{M,sm,NM,nmi}</math>\n| PhysGröße = [[Länge (Physik)|Länge]]\n| SI = <math>\\mathrm{1 \\, sm = 1\\,852 \\; m}</math>\n| BenanntNach = {{laS|mille}} (tausend)\n| AbgeleitetVon = [[Winkelminute]]\n| SieheAuch = [[Knoten (Einheit)|Knoten]], [[Kabellänge]]\n}}\n\nDie '''Seemeile''' oder '''[[Nautik|nautische]] Meile''' ('''M''', Deutsch: '''sm''', Englisch: '''NM''', USA: nmi) ist eine in der [[Schifffahrt|Schiff-]] und [[Luftfahrt]] gebräuchliche [[Maßeinheit]] der [[Länge (Physik)|Länge]]. Sie soll {{Bruch|60}} [[Geographische Länge|Längengrad]] am [[Äquator]] entsprechen bzw. {{Bruch|60}} [[Geographische Breite|Breitengrad]], also einer [[Winkelminute]]. Heute ist sie als [[Messunsicherheit#Exakte Werte|exakt]] 1852&nbsp;m definiert. Die davon abgeleitete [[Geschwindigkeit]]seinheit ''Seemeilen pro Stunde'' wird [[Knoten (Einheit)|Knoten]] genannt.",
+  "segments": [
+    {
+      "id": "269862188-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Physikalische Einheit | Name = Seemeile, nautische Meile",
+      "plain": "Infobox Physikalische Einheit – Einheitenname: Seemeile, nautische Meile"
+    },
+    {
+      "id": "269862188-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Physikalische Einheit | Einheitenzeichen = <math>\\mathrm{M,sm,NM,nmi}</math>",
+      "plain": "Infobox Physikalische Einheit – Einheitenzeichen: M,sm,NM,nmi"
+    },
+    {
+      "id": "269862188-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Physikalische Einheit | PhysGröße = [[Länge (Physik)|Länge]]",
+      "plain": "Infobox Physikalische Einheit – Physikalische Größe: Länge"
+    },
+    {
+      "id": "269862188-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Physikalische Einheit | SI = <math>\\mathrm{1 \\, sm = 1\\,852 \\; m}</math>",
+      "plain": "Infobox Physikalische Einheit – In SI-Einheiten: 1sm=1852m"
+    },
+    {
+      "id": "269862188-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Physikalische Einheit | BenanntNach = {{laS|mille}} (tausend)",
+      "plain": "Infobox Physikalische Einheit – Benannt nach: lateinisch mille (tausend)"
+    },
+    {
+      "id": "269862188-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Physikalische Einheit | AbgeleitetVon = [[Winkelminute]]",
+      "plain": "Infobox Physikalische Einheit – Abgeleitet von: Winkelminute"
+    },
+    {
+      "id": "269862188-0006",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Physikalische Einheit | SieheAuch = [[Knoten (Einheit)|Knoten]], [[Kabellänge]]",
+      "plain": "Infobox Physikalische Einheit – Siehe auch: Knoten, Kabellänge"
+    },
+    {
+      "id": "269862188-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Seemeile''' oder '''[[Nautik|nautische]] Meile''' ('''M''', Deutsch: '''sm''', Englisch: '''NM''', USA: nmi) ist eine in der [[Schifffahrt|Schiff-]] und [[Luftfahrt]] gebräuchliche [[Maßeinheit]] der [[Länge (Physik)|Länge]].",
+      "plain": null
+    },
+    {
+      "id": "269862188-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie soll {{Bruch|60}} [[Geographische Länge|Längengrad]] am [[Äquator]] entsprechen bzw. {{Bruch|60}} [[Geographische Breite|Breitengrad]], also einer [[Winkelminute]].",
+      "plain": null
+    },
+    {
+      "id": "269862188-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "Heute ist sie als [[Messunsicherheit#Exakte Werte|exakt]] 1852&nbsp;m definiert.",
+      "plain": null
+    },
+    {
+      "id": "269862188-0010",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die davon abgeleitete [[Geschwindigkeit]]seinheit ''Seemeilen pro Stunde'' wird [[Knoten (Einheit)|Knoten]] genannt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269862188,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269862188-0009",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269862188-0008"
+        ],
+        "plain": "Heute ist sie als exakt 1852 m definiert.",
+        "context_plain": [
+          "Sie soll 1⁄60 Längengrad am Äquator entsprechen bzw. 1⁄60 Breitengrad, also einer Winkelminute."
+        ]
+      },
+      {
+        "segment_id": "269862188-0010",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die davon abgeleitete Geschwindigkeitseinheit Seemeilen pro Stunde wird Knoten genannt.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

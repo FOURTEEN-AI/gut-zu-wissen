@@ -1,0 +1,99 @@
+{
+  "title": "Steineiche",
+  "revid": 265665541,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-03-28T12:54:20Z",
+  "fetched_at": "2026-11-19T23:20:55Z",
+  "categories": [
+    "Kategorie:Baum",
+    "Kategorie:Eichen",
+    "Kategorie:Holzart"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe bitte [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name      = Steineiche\n| Taxon_WissName  = Quercus ilex\n| Taxon_Rang      = Art\n| Taxon_Autor     = [[Carl von Linné|L.]]\n| Taxon2_Name     = Eichen\n| Taxon2_WissName = Quercus\n| Taxon2_Rang     = Gattung\n| Taxon3_Name     = Buchengewächse\n| Taxon3_WissName = Fagaceae\n| Taxon3_Rang     = Familie\n| Taxon4_Name     = Buchenartige\n| Taxon4_WissName = Fagales\n| Taxon4_Rang     = Ordnung\n| Taxon5_Name     = Eurosiden I\n| Taxon5_WissName = \n| Taxon5_Rang     = ohne\n| Taxon6_Name     = Rosiden\n| Taxon6_WissName = \n| Taxon6_Rang     = ohne\n| Bild = Montes de Vitoria - Quercus ilex 01.jpg\n| Bildbeschreibung = Steineiche (''Quercus ilex'') in Spanien\n}}\n\nDie '''Steineiche''' (''Quercus ilex'') ist eine [[Art (Biologie)|Pflanzenart]] aus der [[Familie (Biologie)|Familie]] der [[Buchengewächse]] (Fagaceae). Die [[Schreibweise deutscher Pflanzennamen|botanische Schreibweise]] '''Stein-Eiche''' betont die Zugehörigkeit zur [[Gattung (Biologie)|Gattung]] der [[Eichen]] (''Quercus''). Innerhalb der Gattung gehört die Art der Sektion der Zerreichen (''Cerris'') an, zu der neben der namengebenden [[Zerreiche]] auch die [[Korkeiche]] gehört.",
+  "segments": [
+    {
+      "id": "265665541-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon6_Name     = Rosiden",
+      "plain": "Taxobox – Systematik – : Rosiden"
+    },
+    {
+      "id": "265665541-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_Name     = Eurosiden I",
+      "plain": "Taxobox – Systematik – : Eurosiden I"
+    },
+    {
+      "id": "265665541-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_Name     = Buchenartige | Taxon4_WissName = Fagales",
+      "plain": "Taxobox – Systematik – Ordnung: Buchenartige (Fagales)"
+    },
+    {
+      "id": "265665541-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon3_Name     = Buchengewächse | Taxon3_WissName = Fagaceae",
+      "plain": "Taxobox – Systematik – Familie: Buchengewächse (Fagaceae)"
+    },
+    {
+      "id": "265665541-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_Name     = Eichen | Taxon2_WissName = Quercus",
+      "plain": "Taxobox – Systematik – Gattung: Eichen (Quercus)"
+    },
+    {
+      "id": "265665541-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name      = Steineiche",
+      "plain": "Taxobox – Systematik – Art: Steineiche"
+    },
+    {
+      "id": "265665541-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Steineiche''' (''Quercus ilex'') ist eine [[Art (Biologie)|Pflanzenart]] aus der [[Familie (Biologie)|Familie]] der [[Buchengewächse]] (Fagaceae).",
+      "plain": null
+    },
+    {
+      "id": "265665541-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die [[Schreibweise deutscher Pflanzennamen|botanische Schreibweise]] '''Stein-Eiche''' betont die Zugehörigkeit zur [[Gattung (Biologie)|Gattung]] der [[Eichen]] (''Quercus'').",
+      "plain": null
+    },
+    {
+      "id": "265665541-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Innerhalb der Gattung gehört die Art der Sektion der Zerreichen (''Cerris'') an, zu der neben der namengebenden [[Zerreiche]] auch die [[Korkeiche]] gehört.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 265665541,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "265665541-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "265665541-0006",
+          "265665541-0007"
+        ],
+        "plain": "Innerhalb der Gattung gehört die Art der Sektion der Zerreichen (Cerris) an, zu der neben der namengebenden Zerreiche auch die Korkeiche gehört.",
+        "context_plain": [
+          "Die Steineiche (Quercus ilex) ist eine Pflanzenart aus der Familie der Buchengewächse (Fagaceae).",
+          "Die botanische Schreibweise Stein-Eiche betont die Zugehörigkeit zur Gattung der Eichen (Quercus)."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}
