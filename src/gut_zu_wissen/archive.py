@@ -29,7 +29,9 @@ LINKED_DIR = "linked"
 STATE_DIR = "state"
 REVIEW_STATE_FILE = "review.json"  # sampling rate r (design: archive/state/review.json)
 
-EpisodeStatus = Literal["running", "published", "failed"]
+# running: the run has not ended; completed: every pipeline step done (phase 2 moves it on to
+# published); failed: gate failure or crash.
+EpisodeStatus = Literal["running", "completed", "published", "failed"]
 
 _TRANSLITERATION = str.maketrans({"ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss"})
 TIMESTAMP_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
@@ -108,7 +110,8 @@ def load_episode(root: Path, episode_id: str) -> EpisodeRecord:
 def last_published(root: Path, title: str) -> datetime | None:
     """Publication date of the latest published episode for this article (input to the D4 gate).
 
-    Failed and running episodes do not count. `title` is the canonical article title.
+    Only published episodes count; running, completed and failed ones do not. `title` is the
+    canonical article title.
     """
     dates = []
     for path in (root / EPISODES_DIR).glob(f"*/{EPISODE_FILE}"):

@@ -228,7 +228,7 @@ def test_successful_run_archives_article(tmp_path):
     assert [f["segment_id"] for f in facts["facts"]] == ["5-0000"]
     assert facts["facts"][0]["plain"] == "Ein kurzer Satz im Artikel."
     assert facts["facts"][0]["context_plain"] == []
-    assert load_episode(tmp_path, episode_id).status == "running"
+    assert load_episode(tmp_path, episode_id).status == "completed"
 
 
 def test_ranking_adds_linked_intros_with_own_revid(tmp_path):
@@ -513,7 +513,7 @@ def test_clean_script_is_archived_and_not_explicit(tmp_path):
         "error": None,
     }
     episode = load_episode(tmp_path, episode_id)
-    assert episode.explicit is False and episode.status == "running"
+    assert episode.explicit is False and episode.status == "completed"
 
 
 @pytest.mark.parametrize(
@@ -534,7 +534,7 @@ def test_uncertain_or_found_flags_the_episode_explicit_without_blocking_it(tmp_p
     episode_id = run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW,
                      judge=judge)  # fmt: skip
     episode = load_episode(tmp_path, episode_id)
-    assert episode.explicit is True and episode.status == "running" and episode.failure is None
+    assert episode.explicit is True and episode.status == "completed" and episode.failure is None
     record = json.loads((tmp_path / "episodes" / episode_id / "08_explicit.json").read_text())
     assert record["explicit"] is True and record["verdict"] == answer["verdict"]
 
@@ -621,7 +621,7 @@ def test_successful_run_records_end_time_and_token_counts(tmp_path):
         },
         "jev": {"model": "jev-1.14.0", "calls": 0, "input_tokens": 0, "output_tokens": 0},
     }
-    assert record.status == "running"
+    assert record.status == "completed" and record.failure is None
 
 
 def test_failed_run_records_end_time(tmp_path):
@@ -698,3 +698,10 @@ def test_main_escalates_a_crash_in_the_job_summary_and_re_raises(tmp_path, monke
     summary = (tmp_path / "summary.md").read_text()
     assert summary.startswith("## Episode crashed\n\nCrash: RuntimeError: upstream said: key ***")
     assert "sk-live-1" not in summary
+
+
+def test_completed_run_does_not_count_as_published_for_the_repeat_gate(tmp_path):
+    first = run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW)
+    assert load_episode(tmp_path, first).status == "completed"
+    second = run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW)
+    assert second == "2026-11-19_rotfuchs-2"

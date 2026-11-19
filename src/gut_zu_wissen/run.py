@@ -123,7 +123,8 @@ def run(
     files go to `audio_root/<episode ID>/`. The STT deviations and the explicit check (D7, after
     the audio step, on the script that was synthesised) are decided by `judge_llm`. The explicit
     flag does not block the episode; a failed check call escalates. Last, the review sample is
-    drawn with the current rate r and written to `09_review.json` (step 12).
+    drawn with the current rate r and written to `09_review.json` (step 12), and the status
+    becomes `completed`.
 
     However the run ends after the episode folder exists, `episode.json` gets `finished_at` (from
     `clock`, default the system clock) and the token counts of `usage`, the counters the API
@@ -285,6 +286,7 @@ def run(
             explicit,
         )
         write_json(folder / REVIEW_FILE, review.to_dict())
+        record.status = "completed"  # saved in `finally`; phase 2 moves it on to published
         return record.episode_id
     except GateFailure:
         raise

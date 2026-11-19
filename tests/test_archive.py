@@ -81,9 +81,11 @@ def test_last_published_without_archive(tmp_path):
     assert last_published(tmp_path, "Rotfuchs") is None
 
 
-def test_last_published_ignores_failed_running_and_other_titles(tmp_path):
+def test_last_published_ignores_failed_running_completed_and_other_titles(tmp_path):
     _episode(tmp_path, "Rotfuchs", 1, "failed", None)
     _episode(tmp_path, "Rotfuchs", 2, "running", None)
+    _episode(tmp_path, "Rotfuchs", 4, "completed", None)
+    _episode(tmp_path, "Rotfuchs", 5, "completed", "2026-01-05T12:00:00Z")  # not published
     _episode(tmp_path, "Wasser", 3, "published", "2026-01-03T12:00:00Z")
     assert last_published(tmp_path, "Rotfuchs") is None
 

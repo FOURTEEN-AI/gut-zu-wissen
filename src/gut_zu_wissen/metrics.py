@@ -11,9 +11,9 @@ Measured over every run in the archive (one run = one episode folder):
   also per minute of dialog audio (sum of the accepted section durations);
 - escalation rate: runs that failed (`status: failed`: gate failures, which abort a manual run
   with a failing job, and crashes, whose reason starts with "Crash:") or are incomplete (still
-  `running` without a review sample: the run has not ended, or it crashed before crashes were
-  recorded as failed) over all runs; plus the share of archived judgements the LLM judge decided
-  (design risk "Eskalationsrate");
+  `running`: the run has not ended; in folders from before the `completed` status, `running`
+  without a review sample) over all runs; plus the share of archived judgements the LLM judge
+  decided (design risk "Eskalationsrate");
 - cascade length: per triggering turn regeneration, the number of distinct neighbour turns the
   cascade regenerated (D1), from the regenerations in `05_dialog.json`;
 - runtime: `finished_at - started_at` of `episode.json`;
@@ -54,6 +54,7 @@ from gut_zu_wissen.archive import (
 from gut_zu_wissen.review import ExplicitAccuracy, Review, explicit_confusion, explicit_pairs
 
 Outcome = Literal["completed", "failed", "incomplete"]
+COMPLETED_STATUSES = ("completed", "published")  # episode.json status of a run that finished
 
 # Price keys in `[prices]` per client role in `episode.json` `usage` (input, output). None: the
 # provider does not charge for these tokens (Jev output tokens, spike S1).
@@ -143,11 +144,17 @@ def is_price(value: object) -> bool:
 
 
 def run_outcome(run: RunData) -> Outcome:
-    """failed: recorded as failed (gate failure or crash). completed: the review sample was drawn
-    (last step of a run). incomplete: neither, i.e. the run is still running or has no record of
-    its end (a crash archived before crashes were recorded as failed)."""
-    if run.episode.get("status") == "failed":
+    """failed: recorded as failed (gate failure or crash). completed: status `completed` or
+    `published`. incomplete: still `running`, i.e. the run has not ended.
+
+    Folders written before runs were marked completed (and crashes failed) stay `running` after
+    the run; there a drawn review sample (last step of a run) means completed, and without one
+    the run counts as incomplete."""
+    status = run.episode.get("status")
+    if status == "failed":
         return "failed"
+    if status in COMPLETED_STATUSES:
+        return "completed"
     return "completed" if run.review is not None else "incomplete"
 
 

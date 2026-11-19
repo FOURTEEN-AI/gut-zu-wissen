@@ -196,8 +196,15 @@ def test_load_runs_reads_every_episode_folder(tmp_path):
 def test_run_outcome():
     assert run_outcome(RunData("a", {"status": "failed"})) == "failed"
     assert run_outcome(RunData("a", {"status": "running"})) == "incomplete"
+    assert run_outcome(RunData("a", {"status": "completed"})) == "completed"
+    assert run_outcome(RunData("a", {"status": "published"})) == "completed"
+    failed = RunData("a", {"status": "failed"}, review=object())  # type: ignore[arg-type]
+    assert run_outcome(failed) == "failed"
+
+
+def test_run_outcome_of_folders_from_before_the_completed_status():
     done = RunData("a", {"status": "running"}, review=object())  # type: ignore[arg-type]
-    assert run_outcome(done) == "completed"
+    assert run_outcome(done) == "completed"  # review sample drawn: the run finished
 
 
 # ---------------------------------------------------------------- facts per minute
@@ -232,10 +239,11 @@ def test_escalation_rate_counts_failed_and_incomplete_runs(tmp_path):
     write_run(tmp_path, "b", status="failed", failure="Gate living person: …")
     write_run(tmp_path, "c", status="failed", failure="Crash: RuntimeError: connection reset")
     write_run(tmp_path, "d", finished_at=None)  # still running: no end, no review sample
-    write_run(tmp_path, "e", review_data=review("e", []))
+    write_run(tmp_path, "e", status="completed", review_data=review("e", []))
+    write_run(tmp_path, "f", status="completed")  # completed without a drawn sample file
     e = escalation(load_runs(tmp_path))
-    assert (e.runs, e.completed, e.failed, e.incomplete) == (5, 2, 2, 1)
-    assert e.rate == 0.6
+    assert (e.runs, e.completed, e.failed, e.incomplete) == (6, 3, 2, 1)
+    assert e.rate == 0.5
     assert [(x.episode_id, x.outcome, x.reason) for x in e.escalated] == [
         ("b", "failed", "Gate living person: …"),
         ("c", "failed", "Crash: RuntimeError: connection reset"),
