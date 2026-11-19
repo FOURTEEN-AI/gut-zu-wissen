@@ -10,6 +10,10 @@ name: Review
 #
 # Every run reads all comments of the issue again, so edits, deletions and runs that GitHub
 # cancelled while another one for the same issue was pending are picked up by the next run.
+#
+# When the review becomes answered (every drawn turn labelled), the reply step closes the issue
+# as completed. Comments on a closed issue still start this workflow and are applied; the issue
+# is never reopened.
 
 on:
   issue_comment:
@@ -59,7 +63,8 @@ jobs:
           for attempt in 1 2 3 4 5; do
             git fetch --quiet origin main
             git reset --quiet --hard origin/main
-            uv run python -m gut_zu_wissen.review apply "$ISSUE" --reply-file build/review-reply.md
+            uv run python -m gut_zu_wissen.review apply "$ISSUE" --reply-file build/review-reply.md \
+              --close-file build/review-close
             git add archive
             if git diff --cached --quiet; then exit 0; fi
             git commit --quiet -m "Archive: review labels from issue #${ISSUE}"
@@ -68,4 +73,6 @@ jobs:
           done
           exit 1
       - name: Reply on the issue
-        run: uv run python -m gut_zu_wissen.review reply "$ISSUE" build/review-reply.md
+        run: >
+          uv run python -m gut_zu_wissen.review reply "$ISSUE" build/review-reply.md
+          --close-file build/review-close

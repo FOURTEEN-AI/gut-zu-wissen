@@ -2,7 +2,7 @@
 
 `HttpIssues` talks to the REST API with the workflow's `GITHUB_TOKEN`; tests use fakes and
 `httpx.MockTransport`, CI never calls the live API. Only what the review loop needs: open an
-issue, comment on it, list its comments.
+issue, comment on it, list its comments, close it once its review is answered.
 """
 
 from __future__ import annotations
@@ -16,6 +16,7 @@ API_VERSION = "2022-11-28"
 USER_AGENT = "GutZuWissen/0.1 (https://github.com/FOURTEEN-AI/gut-zu-wissen)"
 PAGE_SIZE = 100  # GitHub's maximum per page
 TIMEOUT_SECONDS = 30
+CLOSED_STATE_REASON = "completed"  # GitHub's reason for an issue closed as done
 
 
 class GitHubError(Exception):
@@ -44,6 +45,10 @@ class Issues(Protocol):
 
     def list_comments(self, number: int) -> list[Comment]:
         """Every comment of an issue, oldest first."""
+        ...
+
+    def close_issue(self, number: int) -> None:
+        """Close an issue as completed; comments on it stay possible."""
         ...
 
 
@@ -93,6 +98,10 @@ class HttpIssues:
             comments += [parse_comment(item) for item in response.json()]
             url = response.links.get("next", {}).get("url")
         return comments
+
+    def close_issue(self, number: int) -> None:
+        body = {"state": "closed", "state_reason": CLOSED_STATE_REASON}
+        self._send("PATCH", f"{self._base}/{number}", json=body)
 
     def _send(self, method: str, url: str, json: dict | None = None) -> httpx.Response:
         response = self._client.request(method, url, json=json, headers=self._headers)

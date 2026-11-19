@@ -45,6 +45,14 @@ def test_create_comment():
     assert json.loads(sent[0].content) == {"body": "Hallo"}
 
 
+def test_close_issue_as_completed():
+    api, sent = issues(lambda r: httpx.Response(200, json={"number": 7, "state": "closed"}))
+    api.close_issue(7)
+    assert sent[0].method == "PATCH"
+    assert str(sent[0].url) == "https://api.example/repos/o/r/issues/7"
+    assert json.loads(sent[0].content) == {"state": "closed", "state_reason": "completed"}
+
+
 def test_list_comments_follows_pagination():
     second = "https://api.example/repos/o/r/issues/7/comments?per_page=100&page=2"
 

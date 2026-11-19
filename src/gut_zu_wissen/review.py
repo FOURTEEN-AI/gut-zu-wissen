@@ -22,6 +22,11 @@ The archive keeps the predicted flag and the reviewer's flag side by side; `expl
 computes false-positive and false-negative rates over the archive (step 13). The explicit label
 does not affect the rate r and does not decide whether the issue counts as answered.
 
+Closing: when the review becomes answered (every drawn turn labelled), the bot posts its status
+reply and closes the issue as completed, also when the explicit label is still missing (the reply
+says it can still be added). Comments on the closed issue are still read as corrections; the bot
+never reopens an issue and closes it only on the change to answered.
+
 Rate: an issue counts once every drawn turn has a label. Error-free: r * 2/3 (at least r_min);
 a turn labelled "nicht belegt": r * 2 (at most r_max). Each answered episode changes r once; a
 later correction that turns an error-free review into one with an error doubles r once more; a
@@ -489,6 +494,11 @@ def review_status(sampled: Collection[int], labelled: Collection[int]) -> Review
     return "answered" if set(sampled) <= set(labelled) else "pending"
 
 
+def closes_issue(before: ReviewStatus, after: ReviewStatus) -> bool:
+    """The issue is closed when its review becomes answered, not on later corrections."""
+    return after == "answered" and before != "answered"
+
+
 def review_outcome(turns: Sequence[ReviewTurn]) -> Outcome:
     return "error" if any(t.label == "not_supported" for t in turns) else "clean"
 
@@ -722,7 +732,8 @@ def render_header(review: Review, reviewer: str, links: Mapping[str, str]) -> st
             "Redebeitrag ersetzt das frühere; leere Zeilen `<Nummer>:` werden übersprungen. "
             "Ein Kommentar mit einer ungültigen Zeile wird ganz verworfen. Labels und Notizen "
             "stehen öffentlich im Archiv. Das Review zählt, sobald jeder gezogene Redebeitrag "
-            "ein Label hat.",
+            "ein Label hat; dann wird das Issue geschlossen. Korrekturen und das Explicit-Label "
+            "gehen auch danach noch, als Kommentar im geschlossenen Issue.",
             *(["", render_explicit(review.explicit)] if review.explicit else []),
             "",
             "Vorlage zum Kopieren:",
@@ -764,8 +775,9 @@ def render_issue(
     return title, pack(header, sections, max_chars, continuation)
 
 
-def render_reply(review: Review, rate_update: RateUpdate | None) -> str:
-    """Status comment after processing the reviewer's comments."""
+def render_reply(review: Review, rate_update: RateUpdate | None, closing: bool = False) -> str:
+    """Status comment after processing the reviewer's comments; `closing`: the issue is closed
+    after this reply."""
     labelled = [t for t in review.turns if t.label]
     lines = [
         f"Labels übernommen: {len(labelled)} von {len(review.turns)} Redebeiträgen "
@@ -804,6 +816,17 @@ def render_reply(review: Review, rate_update: RateUpdate | None) -> str:
                 f"Stichprobenrate: {percent(rate_update.r_before)} → "
                 f"{percent(rate_update.r_after)}."
             )
+    if closing:
+        lines += ["", "Das Issue wird geschlossen."]
+        if review.explicit and review.explicit.label is None:
+            lines.append(
+                "Das Explicit-Label fehlt noch; es kann weiterhin als Kommentar nachgetragen "
+                "werden."
+            )
+        lines.append(
+            "Spätere Kommentare werden weiter übernommen (Korrekturen); das Issue bleibt "
+            "geschlossen."
+        )
     return "\n".join(lines)
 
 
@@ -876,6 +899,7 @@ class ApplyResult:
     review: Review | None
     rate_update: RateUpdate | None
     reply: str | None
+    close: bool = False  # close the issue after posting the reply
 
 
 def apply_issue(
@@ -885,7 +909,8 @@ def apply_issue(
     review_config: Mapping,
     now: datetime,
 ) -> ApplyResult:
-    """Read every comment of `issue`, keep the reviewer's, write labels and the rate state."""
+    """Read every comment of `issue`, keep the reviewer's, write labels and the rate state.
+    `close` is set when the review became answered with these comments."""
     review = find_review(archive_root, issue)
     if review is None:
         return ApplyResult(None, None, None)
@@ -894,14 +919,16 @@ def apply_issue(
         for c in issues.list_comments(issue)
         if is_authorized(c, review_config["reviewer"], review_config["reviewer_associations"])
     ]
+    before = review.status
     apply_labels(review, comments)
+    close = closes_issue(before, review.status)
     state = load_rate_state(archive_root, review_config)
     rate_update = None
     if update_rate(state, review, review_config, now):
         rate_update = state.updates[-1]
         write_json(state_path(archive_root), state.to_dict())
     save_review(archive_root, review)
-    return ApplyResult(review, rate_update, render_reply(review, rate_update))
+    return ApplyResult(review, rate_update, render_reply(review, rate_update, close), close)
 
 
 # ---------------------------------------------------------------- command line
@@ -944,9 +971,13 @@ def main(argv: Iterable[str] | None = None) -> int:
     p_apply = sub.add_parser("apply", help="write the reviewer's labels of an issue")
     p_apply.add_argument("issue", type=int)
     p_apply.add_argument("--reply-file", type=Path, required=True)
+    p_apply.add_argument(
+        "--close-file", type=Path, required=True, help="written when the issue is to be closed"
+    )
     p_reply = sub.add_parser("reply", help="post the status comment written by apply")
     p_reply.add_argument("issue", type=int)
     p_reply.add_argument("reply_file", type=Path)
+    p_reply.add_argument("--close-file", type=Path, help="close the issue when this file exists")
     args = parser.parse_args(sys.argv[1:] if argv is None else list(argv))
     review_config = load_config()["review"]
 
@@ -968,12 +999,16 @@ def main(argv: Iterable[str] | None = None) -> int:
         now = datetime.now(UTC)
         result = apply_issue(ARCHIVE_ROOT, args.issue, _issues_from_env(), review_config, now)
         args.reply_file.parent.mkdir(parents=True, exist_ok=True)
+        args.close_file.parent.mkdir(parents=True, exist_ok=True)
+        args.close_file.unlink(missing_ok=True)  # a rejected push reruns apply
         if result.review is None or result.reply is None:
             args.reply_file.unlink(missing_ok=True)
             print(f"Issue #{args.issue} is not a review issue in the archive; nothing to do.")
             _summary(f"Issue #{args.issue} is not a review issue in the archive; nothing done.")
             return 0
         args.reply_file.write_text(result.reply + "\n", encoding="utf-8")
+        if result.close:
+            args.close_file.write_text(f"{args.issue}\n", encoding="utf-8")
         review = result.review
         labelled = sum(1 for t in review.turns if t.label)
         print(
@@ -983,13 +1018,16 @@ def main(argv: Iterable[str] | None = None) -> int:
         _summary(
             f"## Review {review.episode_id}\n\nIssue #{args.issue}: {labelled} of "
             f"{len(review.turns)} turns labelled, status `{review.status}`, "
-            f"outcome `{review.outcome}`."
+            f"outcome `{review.outcome}`." + (" The issue is closed." if result.close else "")
         )
         return 0
 
     if not args.reply_file.exists():
         return 0
-    _issues_from_env().create_comment(args.issue, args.reply_file.read_text(encoding="utf-8"))
+    issues = _issues_from_env()
+    issues.create_comment(args.issue, args.reply_file.read_text(encoding="utf-8"))
+    if args.close_file is not None and args.close_file.exists():
+        issues.close_issue(args.issue)
     return 0
 
 

@@ -16,6 +16,7 @@ from gut_zu_wissen.review import (
     apply_issue,
     apply_labels,
     build_review,
+    closes_issue,
     draw_values,
     escape,
     explicit_accuracy,
@@ -366,6 +367,7 @@ class FakeIssues:
         self.comments = comments or []
         self.created: list[tuple[str, str]] = []
         self.posted: list[tuple[int, str]] = []
+        self.closed: list[int] = []
         self.fail_comment = fail_comment
 
     def create_issue(self, title: str, body: str) -> tuple[int, str]:
@@ -381,6 +383,9 @@ class FakeIssues:
     def list_comments(self, number: int) -> list[Comment]:
         assert number == 7
         return self.comments
+
+    def close_issue(self, number: int) -> None:
+        self.closed.append(number)
 
 
 def archived(tmp_path, rate: float = 1.0) -> Review:
@@ -451,6 +456,39 @@ def test_apply_writes_labels_and_rate_from_the_reviewer_only(tmp_path):
     assert path.read_text() == before
 
 
+def test_closes_issue_only_on_the_change_to_answered():
+    assert closes_issue("pending", "answered")
+    assert not closes_issue("answered", "answered")  # later correction
+    assert not closes_issue("pending", "pending")
+    assert not closes_issue("not_sampled", "not_sampled")
+
+
+def test_apply_closes_the_issue_once_when_every_turn_is_labelled(tmp_path):
+    r = archived(tmp_path)
+    r.issue = 7
+    save_review(tmp_path, r)
+    issues = FakeIssues([comment(1, "0: belegt")])
+    first = apply_issue(tmp_path, 7, issues, REVIEW_CONFIG, NOW)
+    assert first.review.status == "pending" and not first.close
+    assert "geschlossen" not in first.reply
+    issues.comments.append(comment(2, "2: belegt", at="2026-11-19T11:30:00Z"))
+    second = apply_issue(tmp_path, 7, issues, REVIEW_CONFIG, NOW)
+    assert second.review.status == "answered" and second.close
+    assert "Das Issue wird geschlossen." in second.reply
+    assert "Das Explicit-Label fehlt noch" in second.reply  # closed anyway
+    issues.comments.append(comment(3, "2: nicht belegt", at="2026-11-19T12:00:00Z"))
+    third = apply_issue(tmp_path, 7, issues, REVIEW_CONFIG, NOW)
+    assert third.review.outcome == "error" and not third.close
+    assert issues.closed == []  # apply only decides; the reply command closes
+
+
+def test_closing_reply_with_explicit_label_does_not_ask_for_it():
+    r = review()
+    apply_labels(r, [comment(1, "0: belegt\n2: belegt\nexplicit: korrekt")])
+    text = render_reply(r, None, closing=True)
+    assert "Das Issue wird geschlossen." in text and "Explicit-Label fehlt" not in text
+
+
 def test_apply_ignores_issues_that_are_not_in_the_archive(tmp_path):
     archived(tmp_path)
     result = apply_issue(tmp_path, 7, FakeIssues(), REVIEW_CONFIG, NOW)
@@ -490,18 +528,30 @@ def test_command_line_open_apply_reply(tmp_path, monkeypatch):
     assert "(https://github.com/o/r/actions/runs/42)" in body
 
     reply = tmp_path / "build" / "reply.md"
-    assert module.main(["apply", "7", "--reply-file", str(reply)]) == 0
+    close = tmp_path / "build" / "close"
+    files = ["--reply-file", str(reply), "--close-file", str(close)]
+    assert module.main(["apply", "7", *files]) == 0
     stored = load_review(tmp_path, "2026-11-19_rotfuchs")
     assert stored.outcome == "error" and stored.turns[1].note == "falsches Jahr"
     assert load_rate_state(tmp_path, REVIEW_CONFIG).r == 1.0  # phase 1: fixed
-    assert module.main(["reply", "7", str(reply)]) == 0
+    assert close.exists()
+    assert module.main(["reply", "7", str(reply), "--close-file", str(close)]) == 0
     ((number, text),) = issues.posted
     assert number == 7 and "Review vollständig: Fehler gefunden." in text
+    assert issues.closed == [7]  # after the reply
 
-    assert module.main(["apply", "8", "--reply-file", str(reply)]) == 0
-    assert not reply.exists()
-    assert module.main(["reply", "8", str(reply)]) == 0
-    assert len(issues.posted) == 1
+    # A correction on the closed issue is applied; the issue is not closed (or reopened) again.
+    issues.comments.append(comment(4, "2: belegt", at="2026-11-19T12:00:00Z"))
+    assert module.main(["apply", "7", *files]) == 0
+    assert load_review(tmp_path, "2026-11-19_rotfuchs").turns[1].label == "supported"
+    assert not close.exists()
+    assert module.main(["reply", "7", str(reply), "--close-file", str(close)]) == 0
+    assert len(issues.posted) == 2 and issues.closed == [7]
+
+    assert module.main(["apply", "8", *files]) == 0
+    assert not reply.exists() and not close.exists()
+    assert module.main(["reply", "8", str(reply), "--close-file", str(close)]) == 0
+    assert len(issues.posted) == 2
 
 
 def test_command_line_rejects_a_malformed_episode_id(monkeypatch):
