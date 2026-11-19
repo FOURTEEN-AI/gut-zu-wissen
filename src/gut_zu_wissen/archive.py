@@ -1,7 +1,7 @@
 """Archive layout: JSON files as pipeline state (design: "Archiv").
 
-archive/episodes/<YYYY-MM-DD>_<slug>/episode.json plus one file per pipeline step.
-All files are indented with stable field order.
+archive/episodes/<YYYY-MM-DD>_<slug>/episode.json plus one file per pipeline step, and
+archive/state/review.json for the sampling rate r. All files are indented with stable field order.
 """
 
 from __future__ import annotations
@@ -24,7 +24,10 @@ DIALOG_FILE = "05_dialog.json"
 JUDGEMENT_FILE = "06_judgement.json"
 AUDIO_FILE = "07_audio.json"
 EXPLICIT_FILE = "08_explicit.json"
+REVIEW_FILE = "09_review.json"
 LINKED_DIR = "linked"
+STATE_DIR = "state"
+REVIEW_STATE_FILE = "review.json"  # sampling rate r (design: archive/state/review.json)
 
 EpisodeStatus = Literal["running", "published", "failed"]
 
