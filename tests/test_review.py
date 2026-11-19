@@ -304,8 +304,8 @@ def test_issue_shows_each_drawn_turn_and_a_template():
     assert "Redebeitrag 1 " not in body and "Redebeitrag 3 " not in body
     assert "- `5-0001` (Rotfuchs, Revision 5): Er lebt in Europa." in body
     assert "  - Kontext: Der Fuchs." in body
-    assert "**Konfidenz (Jev p):** aussage_0 = 0.600" in body
-    assert "**Begründung:** Folgt aus 5-0001." in body
+    assert "- **Konfidenz (Jev p):** aussage_0 = 0.600" in body
+    assert "- **Begründung:** Folgt aus 5-0001." in body
     assert "@someone" not in body and "<b>" not in body
     assert "r = 100 %" in body and "`ajFourteen`" in body and "@ajFourteen" not in body
 

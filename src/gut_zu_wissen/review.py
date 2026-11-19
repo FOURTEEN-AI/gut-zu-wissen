@@ -464,13 +464,13 @@ def render_turn(turn: ReviewTurn) -> str:
         for c in f.context:
             parts.append(f"  - Kontext: {escape(c.replace(chr(10), ' '))}")
     j = turn.judgement
-    parts += ["", f"**Judge:** angenommen von {JUDGE_TEXT.get(j.decided_by, j.decided_by)}"]
+    parts += ["", f"- **Judge:** angenommen von {JUDGE_TEXT.get(j.decided_by, j.decided_by)}"]
     if j.jev_p:
-        parts.append(f"**Konfidenz (Jev p):** {format_p(j.jev_p)}")
+        parts.append(f"- **Konfidenz (Jev p):** {format_p(j.jev_p)}")
     if j.jev_error:
-        parts.append(f"**Jev-Fehler:** {escape(j.jev_error)}")
+        parts.append(f"- **Jev-Fehler:** {escape(j.jev_error)}")
     if j.reason:
-        parts.append(f"**Begründung:** {escape(j.reason)}")
+        parts.append(f"- **Begründung:** {escape(j.reason)}")
     return "\n".join(parts)
 
 
