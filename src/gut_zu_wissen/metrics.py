@@ -1,8 +1,8 @@
 """Exit criteria and measurements of phase 1 (step 13): `python -m gut_zu_wissen.metrics`.
 
 Exit criterion: `exit_criteria.episodes` episodes fully reviewed (review status `answered`: every
-drawn turn has a label) whose sample was drawn at `exit_criteria.rate` (100 %). The explicit
-label (D7) is not required; the report counts how many qualifying episodes have one.
+drawn turn and the explicit check (D7) have a label) whose sample was drawn at
+`exit_criteria.rate` (100 %).
 
 Measured over every run in the archive (one run = one episode folder):
 
@@ -522,24 +522,27 @@ class ExitCheck:
     required_episodes: int
     required_rate: float
     qualifying: list[str]
-    with_explicit_label: int
     met: bool
 
 
 def fully_reviewed(review: Review, rate: float) -> bool:
-    """Every drawn turn labelled, sample drawn at `rate` or higher (r = 1: every turn drawn)."""
-    return review.status == "answered" and review.rate >= rate
+    """Every drawn turn and the explicit check labelled, sample drawn at `rate` or higher (r = 1:
+    every turn drawn). A review without an explicit result does not qualify."""
+    return (
+        review.status == "answered"
+        and review.explicit is not None
+        and review.explicit.label is not None
+        and review.rate >= rate
+    )
 
 
 def exit_check(runs: Sequence[RunData], criteria: Mapping) -> ExitCheck:
     rate = float(criteria["rate"])
     qualifying = [r for r in runs if r.review is not None and fully_reviewed(r.review, rate)]
-    labelled = sum(1 for r in qualifying if r.review.explicit and r.review.explicit.label)
     return ExitCheck(
         criteria["episodes"],
         rate,
         [r.episode_id for r in qualifying],
-        labelled,
         len(qualifying) >= criteria["episodes"],
     )
 
@@ -624,12 +627,12 @@ def render_markdown(report: Report) -> str:
         "## Phase 1 exit criteria (step 13)",
         "",
         f"**{'Met' if e.met else 'Not met'}:** {len(e.qualifying)} of {e.required_episodes} "
-        f"episodes fully reviewed at r ≥ {e.required_rate:.0%}.",
+        f"episodes fully reviewed (every drawn turn and the explicit check labelled) at "
+        f"r ≥ {e.required_rate:.0%}.",
     ]
     if e.qualifying:
         lines.append(f"Qualifying: {', '.join(f'`{i}`' for i in e.qualifying)}.")
     lines += [
-        f"Explicit label given in {e.with_explicit_label} of them (not required).",
         "",
         "### Facts used per minute",
         "",

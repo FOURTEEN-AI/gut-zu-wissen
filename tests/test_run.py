@@ -586,7 +586,7 @@ def test_review_sample_uses_r_from_the_state_file(tmp_path):
     state.write_text(json.dumps({"r": 0.0, "updates": []}))
     episode_id = run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW)
     review = json.loads((tmp_path / "episodes" / episode_id / "09_review.json").read_text())
-    assert review["rate"] == 0.0 and review["status"] == "not_sampled" and review["turns"] == []
+    assert review["rate"] == 0.0 and review["status"] == "pending" and review["turns"] == []
 
 
 def test_failed_run_draws_no_review_sample(tmp_path):

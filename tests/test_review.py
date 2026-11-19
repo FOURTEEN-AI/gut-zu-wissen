@@ -138,9 +138,17 @@ def test_build_review_records_draws_and_everything_the_reviewer_needs():
     assert r.turns[0].previous_text is None
 
 
-def test_build_review_without_draws_is_not_sampled():
+def test_build_review_without_draws_still_waits_for_the_explicit_label():
     r = build_review("e", "T", TURNS, JUDGEMENTS, FACTS, 0.0, CLEAN)
-    assert r.status == "not_sampled" and r.turns == [] and len(r.draws) == 2
+    assert r.status == "pending" and r.turns == [] and len(r.draws) == 2
+
+
+def test_review_without_draws_is_answered_by_the_explicit_label_and_clean():
+    r = build_review("e", "T", TURNS, JUDGEMENTS, FACTS, 0.0, CLEAN)
+    apply_labels(r, [comment(1, "explicit: korrekt")])
+    assert r.status == "answered" and r.outcome == "clean"
+    state = RateState(1.0)
+    assert update_rate(state, r, REVIEW_CONFIG, NOW) and r.rate_applied == ["clean"]
 
 
 def test_review_round_trips_through_json_with_stable_field_order():
@@ -219,7 +227,7 @@ def test_later_comment_wins_and_a_comment_with_an_error_is_dropped_whole():
     r = review()
     comments = [
         comment(3, "0: nicht belegt", at="2026-11-19T12:00:00Z"),
-        comment(1, "0: belegt\n2: belegt", at="2026-11-19T11:00:00Z"),
+        comment(1, "0: belegt\n2: belegt\nexplicit: korrekt", at="2026-11-19T11:00:00Z"),
         comment(4, "2: nicht belegt\n9: belegt", at="2026-11-19T13:00:00Z"),
         comment(5, "Nur ein Gedanke.", at="2026-11-19T14:00:00Z"),
     ]
@@ -235,16 +243,31 @@ def test_later_comment_wins_and_a_comment_with_an_error_is_dropped_whole():
 
 def test_deleted_comment_takes_its_labels_with_it():
     r = review()
-    apply_labels(r, [comment(1, "0: belegt\n2: belegt")])
+    apply_labels(r, [comment(1, "0: belegt\n2: belegt\nexplicit: korrekt")])
     assert r.status == "answered" and r.outcome == "clean"
     apply_labels(r, [])
     assert r.status == "pending" and r.outcome is None and r.turns[0].label is None
 
 
-def test_status():
-    assert review_status([], []) == "not_sampled"
-    assert review_status([0, 2], [0]) == "pending"
-    assert review_status([0, 2], [2, 0]) == "answered"
+def test_status_needs_every_turn_and_the_explicit_label():
+    assert review_status([0, 2], [0], True, True) == "pending"
+    assert review_status([0, 2], [2, 0], True, False) == "pending"  # explicit label missing
+    assert review_status([0, 2], [2, 0], True, True) == "answered"
+    assert review_status([], [], True, False) == "pending"  # only the explicit label to give
+    assert review_status([], [], True, True) == "answered"
+
+
+def test_status_of_reviews_from_before_the_explicit_check():
+    assert review_status([], [], False, False) == "not_sampled"
+    assert review_status([0, 2], [2, 0], False, False) == "answered"
+
+
+def test_turn_labels_alone_do_not_answer_the_review():
+    r = review()
+    apply_labels(r, [comment(1, "0: belegt\n2: belegt")])
+    assert r.status == "pending" and r.outcome is None
+    assert update_rate(RateState(1.0), r, REVIEW_CONFIG, NOW) is False
+    assert "Bitte noch das Explicit-Label ergänzen" in render_reply(r, None)
 
 
 # ---------------------------------------------------------------- rate
@@ -270,7 +293,7 @@ def test_rate_due_once_per_outcome_and_never_back_down():
 def test_update_rate_records_the_step():
     r = review()
     r.issue = 7
-    apply_labels(r, [comment(1, "0: belegt\n2: belegt")])
+    apply_labels(r, [comment(1, "0: belegt\n2: belegt\nexplicit: korrekt")])
     state = RateState(1.0)
     assert update_rate(state, r, REVIEW_CONFIG, NOW) is True
     assert state.r == pytest.approx(2 / 3) and r.rate_applied == ["clean"]
@@ -282,14 +305,16 @@ def test_update_rate_records_the_step():
         "2026-11-20T08:00:00Z",
     )
     assert update_rate(state, r, REVIEW_CONFIG, NOW) is False
-    apply_labels(r, [comment(1, "0: belegt\n2: belegt"), comment(2, "2: nicht belegt")])
+    apply_labels(
+        r, [comment(1, "0: belegt\n2: belegt\nexplicit: korrekt"), comment(2, "2: nicht belegt")]
+    )
     assert update_rate(state, r, REVIEW_CONFIG, NOW) is True
     assert state.r == 1.0 and r.rate_applied == ["clean", "error"]
 
 
 def test_fixed_rate_records_without_changing_r():
     r = review()
-    apply_labels(r, [comment(1, "0: belegt\n2: belegt")])
+    apply_labels(r, [comment(1, "0: belegt\n2: belegt\nexplicit: korrekt")])
     state = RateState(1.0)
     assert update_rate(state, r, {**REVIEW_CONFIG, "adjust_rate": False}, NOW) is True
     assert state.r == 1.0 and state.updates[0].r_after == 1.0
@@ -419,8 +444,19 @@ def test_issue_number_is_kept_when_a_follow_up_comment_fails(tmp_path):
     assert load_review(tmp_path, "2026-11-19_rotfuchs").issue == 7
 
 
-def test_no_issue_without_drawn_turns(tmp_path):
+def test_issue_without_drawn_turns_is_for_the_explicit_label_only(tmp_path):
     archived(tmp_path, rate=0.0)
+    issues = FakeIssues()
+    assert open_issue(tmp_path, "2026-11-19_rotfuchs", issues, REVIEW_CONFIG, {}).issue == 7
+    ((_, body),) = issues.created
+    assert "dient nur dem Explicit-Label" in body and "## Explicit-Prüfung (D7)" in body
+    assert "### Redebeitrag" not in body and "```\nexplicit: \n```" in body
+
+
+def test_no_issue_for_a_review_from_before_the_explicit_check(tmp_path):
+    r = review(rate=0.0)
+    r.explicit, r.status = None, "not_sampled"
+    save_review(tmp_path, r)
     issues = FakeIssues()
     assert open_issue(tmp_path, "2026-11-19_rotfuchs", issues, REVIEW_CONFIG, {}).issue is None
     assert issues.created == []
@@ -434,7 +470,7 @@ def test_apply_writes_labels_and_rate_from_the_reviewer_only(tmp_path):
         [
             comment(1, "0: nicht belegt\n2: nicht belegt", login="someone"),
             Comment(2, REVIEWER, "NONE", "0: nicht belegt", "2026-11-19T10:00:00Z", "", ""),
-            comment(3, "0: belegt\n2: belegt – passt"),
+            comment(3, "0: belegt\n2: belegt – passt\nexplicit: korrekt"),
         ]
     )
     result = apply_issue(tmp_path, 7, issues, REVIEW_CONFIG, NOW)
@@ -463,7 +499,7 @@ def test_closes_issue_only_on_the_change_to_answered():
     assert not closes_issue("not_sampled", "not_sampled")
 
 
-def test_apply_closes_the_issue_once_when_every_turn_is_labelled(tmp_path):
+def test_apply_closes_the_issue_once_when_turns_and_explicit_are_labelled(tmp_path):
     r = archived(tmp_path)
     r.issue = 7
     save_review(tmp_path, r)
@@ -473,12 +509,17 @@ def test_apply_closes_the_issue_once_when_every_turn_is_labelled(tmp_path):
     assert "geschlossen" not in first.reply
     issues.comments.append(comment(2, "2: belegt", at="2026-11-19T11:30:00Z"))
     second = apply_issue(tmp_path, 7, issues, REVIEW_CONFIG, NOW)
-    assert second.review.status == "answered" and second.close
-    assert "Das Issue wird geschlossen." in second.reply
-    assert "Das Explicit-Label fehlt noch" in second.reply  # closed anyway
-    issues.comments.append(comment(3, "2: nicht belegt", at="2026-11-19T12:00:00Z"))
+    assert second.review.status == "pending" and not second.close  # explicit label missing
+    assert "Bitte noch das Explicit-Label ergänzen" in second.reply
+    assert second.rate_update is None
+    issues.comments.append(comment(3, "explicit: korrekt", at="2026-11-19T11:45:00Z"))
     third = apply_issue(tmp_path, 7, issues, REVIEW_CONFIG, NOW)
-    assert third.review.outcome == "error" and not third.close
+    assert third.review.status == "answered" and third.close
+    assert "Das Issue wird geschlossen." in third.reply
+    assert "Bitte noch das Explicit-Label" not in third.reply
+    issues.comments.append(comment(4, "2: nicht belegt", at="2026-11-19T12:00:00Z"))
+    fourth = apply_issue(tmp_path, 7, issues, REVIEW_CONFIG, NOW)
+    assert fourth.review.outcome == "error" and not fourth.close
     assert issues.closed == []  # apply only decides; the reply command closes
 
 
@@ -486,7 +527,7 @@ def test_closing_reply_with_explicit_label_does_not_ask_for_it():
     r = review()
     apply_labels(r, [comment(1, "0: belegt\n2: belegt\nexplicit: korrekt")])
     text = render_reply(r, None, closing=True)
-    assert "Das Issue wird geschlossen." in text and "Explicit-Label fehlt" not in text
+    assert "Das Issue wird geschlossen." in text and "Bitte noch das Explicit-Label" not in text
 
 
 def test_apply_ignores_issues_that_are_not_in_the_archive(tmp_path):
@@ -515,7 +556,9 @@ def test_command_line_open_apply_reply(tmp_path, monkeypatch):
     from gut_zu_wissen import review as module
 
     archived(tmp_path)
-    issues = FakeIssues([comment(3, "0: belegt\n2: nicht belegt – falsches Jahr")])
+    issues = FakeIssues(
+        [comment(3, "0: belegt\n2: nicht belegt – falsches Jahr\nexplicit: korrekt")]
+    )
     monkeypatch.setattr(gut_zu_wissen.run, "ARCHIVE_ROOT", tmp_path)
     monkeypatch.setattr(module, "_issues_from_env", lambda: issues)
     monkeypatch.delenv("GITHUB_STEP_SUMMARY", raising=False)
@@ -657,7 +700,7 @@ def test_explicit_label_is_folded_like_turn_labels():
         2,
     )
     assert [(c.comment_id, c.applied) for c in r.comments] == [(1, True), (2, True), (3, False)]
-    # The explicit label does not make the review answered; only turn labels do.
+    # The explicit label alone does not answer the review; the drawn turns need labels too.
     assert r.status == "pending" and r.outcome is None
     apply_labels(r, [])
     assert r.explicit.label is None and r.explicit.reviewer_flag is None

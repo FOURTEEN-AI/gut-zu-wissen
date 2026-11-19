@@ -5,10 +5,11 @@ r. The draws come from a random generator seeded with the episode ID and are rec
 `09_review.json`, so the sample is reproducible from the archive. r is read from
 `archive/state/review.json`.
 
-Review issue: the pipeline opens one issue per episode with a drawn turn. It shows per turn the
-text, fact IDs, fact sentences, context, judge verdict, confidence and reason, and an answer
-template. The reviewer answers in comments, one line per turn: `<Nummer>: belegt` or
-`<Nummer>: nicht belegt`, optionally followed by a dash and a note.
+Review issue: the pipeline opens one issue per episode, also when no turn was drawn (r < 100 %);
+then the issue is only for the explicit label. It shows per drawn turn the text, fact IDs, fact
+sentences, context, judge verdict, confidence and reason, and an answer template. The reviewer
+answers in comments, one line per turn: `<Nummer>: belegt` or `<Nummer>: nicht belegt`,
+optionally followed by a dash and a note.
 
 Labels: the review workflow reads every comment of the issue again on each run and folds the
 reviewer's comments in creation order (a later label for a turn wins), so edits, deletions and
@@ -20,14 +21,16 @@ findings, reason). The reviewer confirms or corrects the flag with one line in t
 `explicit: korrekt`, `explicit: sollte explicit sein` or `explicit: sollte nicht explicit sein`.
 The archive keeps the predicted flag and the reviewer's flag side by side; `explicit_accuracy`
 computes false-positive and false-negative rates over the archive (step 13). The explicit label
-does not affect the rate r and does not decide whether the issue counts as answered.
+is required (user decision 2026-11-19): a review is answered only when every drawn turn and the
+explicit check have a label. With the turns labelled and the explicit label missing, the reply
+asks for it and the issue stays open. Whether a review is clean or has an error follows the turn
+labels only; a review without drawn turns is clean.
 
-Closing: when the review becomes answered (every drawn turn labelled), the bot posts its status
-reply and closes the issue as completed, also when the explicit label is still missing (the reply
-says it can still be added). Comments on the closed issue are still read as corrections; the bot
-never reopens an issue and closes it only on the change to answered.
+Closing: when the review becomes answered, the bot posts its status reply and closes the issue as
+completed. Comments on the closed issue are still read as corrections; the bot never reopens an
+issue and closes it only on the change to answered.
 
-Rate: an issue counts once every drawn turn has a label. Error-free: r * 2/3 (at least r_min);
+Rate: an issue counts once it is answered. Error-free: r * 2/3 (at least r_min);
 a turn labelled "nicht belegt": r * 2 (at most r_max). Each answered episode changes r once; a
 later correction that turns an error-free review into one with an error doubles r once more; a
 correction the other way does not lower it again. With `adjust_rate = false` (phase 1) r stays
@@ -358,7 +361,7 @@ def build_review(
         seed=episode_id,
         population=population,
         draws=draws,
-        status="pending" if review_turns else "not_sampled",
+        status=review_status([t.turn_index for t in review_turns], [], True, False),
         explicit=ExplicitReview(
             explicit.model,
             explicit.explicit,
@@ -488,10 +491,19 @@ def fold_labels(
     return Folded(labels, explicit, records)
 
 
-def review_status(sampled: Collection[int], labelled: Collection[int]) -> ReviewStatus:
-    if not sampled:
+def review_status(
+    sampled: Collection[int],
+    labelled: Collection[int],
+    explicit_required: bool,
+    explicit_labelled: bool,
+) -> ReviewStatus:
+    """answered: every drawn turn labelled and, when the review has an explicit result, the
+    explicit label given. not_sampled: nothing to review (no drawn turn, no explicit result; only
+    reviews from before the explicit check)."""
+    if not sampled and not explicit_required:
         return "not_sampled"
-    return "answered" if set(sampled) <= set(labelled) else "pending"
+    turns_done = set(sampled) <= set(labelled)
+    return "answered" if turns_done and (explicit_labelled or not explicit_required) else "pending"
 
 
 def closes_issue(before: ReviewStatus, after: ReviewStatus) -> bool:
@@ -521,7 +533,12 @@ def apply_labels(review: Review, comments: Sequence[Comment]) -> None:
         turn.note = line.note if line else None
         turn.comment_id = comment_id
     review.comments = records
-    review.status = review_status(review.sampled(), labels)
+    review.status = review_status(
+        review.sampled(),
+        labels,
+        review.explicit is not None,
+        review.explicit is not None and review.explicit.label is not None,
+    )
     review.outcome = review_outcome(review.turns) if review.status == "answered" else None
 
 
@@ -621,6 +638,7 @@ def format_p(jev_p: Mapping[str, float]) -> str:
     return ", ".join(f"{key} = {p:.3f}" for key, p in jev_p.items())
 
 
+NO_TURN_NOTE = " Kein Redebeitrag gezogen: dieses Issue dient nur dem Explicit-Label."
 JUDGE_TEXT = {"jev": "Jev", "llm_judge": "LLM-Judge"}
 
 
@@ -712,7 +730,8 @@ def render_header(review: Review, reviewer: str, links: Mapping[str, str]) -> st
             f"<!-- {MARKER} {marker} -->",
             f"Folge `{review.episode_id}` zum Artikel „{escape(review.title)}“. "
             f"Stichprobenrate r = {percent(review.rate)}; gezogen: {len(review.turns)} von "
-            f"{len(review.population)} angenommenen Redebeiträgen mit Fakt-IDs.",
+            f"{len(review.population)} angenommenen Redebeiträgen mit Fakt-IDs."
+            + (NO_TURN_NOTE if not review.turns else ""),
             *(["", " · ".join(link_parts)] if link_parts else []),
             "",
             "## So antwortest du",
@@ -732,8 +751,8 @@ def render_header(review: Review, reviewer: str, links: Mapping[str, str]) -> st
             "Redebeitrag ersetzt das frühere; leere Zeilen `<Nummer>:` werden übersprungen. "
             "Ein Kommentar mit einer ungültigen Zeile wird ganz verworfen. Labels und Notizen "
             "stehen öffentlich im Archiv. Das Review zählt, sobald jeder gezogene Redebeitrag "
-            "ein Label hat; dann wird das Issue geschlossen. Korrekturen und das Explicit-Label "
-            "gehen auch danach noch, als Kommentar im geschlossenen Issue.",
+            "und die Explicit-Prüfung ein Label haben; dann wird das Issue geschlossen. "
+            "Korrekturen gehen auch danach noch, als Kommentar im geschlossenen Issue.",
             *(["", render_explicit(review.explicit)] if review.explicit else []),
             "",
             "Vorlage zum Kopieren:",
@@ -770,7 +789,7 @@ def render_issue(
     """Title and messages (body first, then follow-up comments) of the review issue."""
     title = f"{ISSUE_TITLE_PREFIX}{review.title} ({review.episode_id})"
     header = render_header(review, reviewer, links)
-    sections = ["## Redebeiträge", *(render_turn(t) for t in review.turns)]
+    sections = ["## Redebeiträge", *(render_turn(t) for t in review.turns)] if review.turns else []
     continuation = f"## Redebeiträge (Fortsetzung, Folge `{review.episode_id}`)"
     return title, pack(header, sections, max_chars, continuation)
 
@@ -816,13 +835,16 @@ def render_reply(review: Review, rate_update: RateUpdate | None, closing: bool =
                 f"Stichprobenrate: {percent(rate_update.r_before)} → "
                 f"{percent(rate_update.r_after)}."
             )
+    explicit_missing = review.explicit is not None and review.explicit.label is None
+    if review.status == "pending" and not missing and explicit_missing:
+        lines += [
+            "",
+            "Bitte noch das Explicit-Label ergänzen: `explicit: korrekt`, `explicit: sollte "
+            "explicit sein` oder `explicit: sollte nicht explicit sein`. Erst dann ist das "
+            "Review vollständig und das Issue wird geschlossen.",
+        ]
     if closing:
         lines += ["", "Das Issue wird geschlossen."]
-        if review.explicit and review.explicit.label is None:
-            lines.append(
-                "Das Explicit-Label fehlt noch; es kann weiterhin als Kommentar nachgetragen "
-                "werden."
-            )
         lines.append(
             "Spätere Kommentare werden weiter übernommen (Korrekturen); das Issue bleibt "
             "geschlossen."
@@ -878,8 +900,9 @@ def open_issue(
     review_config: Mapping,
     links: Mapping[str, str],
 ) -> Review:
-    """Open the review issue of an episode and record its number. No drawn turn: no issue.
-    An issue that is already recorded is not opened again."""
+    """Open the review issue of an episode and record its number; without a drawn turn the issue
+    is only for the explicit label. Nothing to review (`not_sampled`, only reviews from before
+    the explicit check): no issue. An issue that is already recorded is not opened again."""
     review = load_review(archive_root, episode_id)
     if review.status == "not_sampled" or review.issue is not None:
         return review
@@ -988,8 +1011,8 @@ def main(argv: Iterable[str] | None = None) -> int:
         links = run_links(os.environ, args.episode_id)
         review = open_issue(ARCHIVE_ROOT, args.episode_id, _issues_from_env(), review_config, links)
         if review.issue is None:
-            print(f"Episode {args.episode_id}: no turn drawn, no review issue.")
-            _summary("No turn drawn for the review; no review issue.")
+            print(f"Episode {args.episode_id}: nothing to review, no review issue.")
+            _summary("Nothing to review (no drawn turn, no explicit result); no review issue.")
         else:
             print(f"Episode {args.episode_id}: review issue #{review.issue} ({review.issue_url}).")
             _summary(f"Review issue: {review.issue_url} ({len(review.turns)} turns drawn).")

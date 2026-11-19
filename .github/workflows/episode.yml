@@ -63,7 +63,8 @@ jobs:
           path: build/audio/
           if-no-files-found: ignore
       # Review issue for the drawn turns (phase 1 step 12); records its number in 09_review.json.
-      # No drawn turn, no issue. A failure fails the job; the archive is committed anyway.
+      # Without a drawn turn the issue is only for the explicit label. A failure fails the job;
+      # the archive is committed anyway.
       - name: Open review issue
         if: steps.run.outputs.episode_id != ''
         env:

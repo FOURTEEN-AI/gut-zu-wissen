@@ -50,8 +50,8 @@ issue_max_chars = 60000  # per issue body or comment; GitHub's limit is 65,536 c
 failure_reason_max_chars = 300
 
 [exit_criteria]
-# Phase 1 step 13: this many episodes fully reviewed (every drawn turn labelled) whose sample was
-# drawn at this rate (100 %). The explicit label is reported but not required.
+# Phase 1 step 13: this many episodes fully reviewed (every drawn turn and the explicit check
+# labelled) whose sample was drawn at this rate (100 %).
 episodes = 5
 rate = 1.0
 

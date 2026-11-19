@@ -429,14 +429,17 @@ def test_errors_by_revision_status_for_turns_and_episodes(tmp_path):
 def test_exit_check_needs_answered_reviews_at_full_rate(tmp_path):
     answered = [review_turn(0, "supported", ["Rotfuchs"])]
     write_run(tmp_path, "a", review_data=review("a", answered, explicit_label="correct"))
-    write_run(tmp_path, "b", review_data=review("b", answered, rate=2 / 3))
+    write_run(
+        tmp_path, "b", review_data=review("b", answered, rate=2 / 3, explicit_label="correct")
+    )
     write_run(tmp_path, "c", review_data=review("c", [review_turn(0, None, [])], "pending"))
     write_run(tmp_path, "d", review_data=review("d", [], status="not_sampled"))
+    write_run(tmp_path, "e", review_data=review("e", answered))  # no explicit label
     check = exit_check(load_runs(tmp_path), CRITERIA)
-    assert check.qualifying == ["a"] and not check.met and check.with_explicit_label == 1
-    write_run(tmp_path, "e", review_data=review("e", answered))  # no explicit label: counts
+    assert check.qualifying == ["a"] and not check.met
+    write_run(tmp_path, "f", review_data=review("f", answered, explicit_label="correct"))
     check = exit_check(load_runs(tmp_path), CRITERIA)
-    assert check.qualifying == ["a", "e"] and check.met and check.with_explicit_label == 1
+    assert check.qualifying == ["a", "f"] and check.met
 
 
 def test_real_config_has_the_exit_criteria_of_the_plan():
