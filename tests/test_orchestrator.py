@@ -233,6 +233,55 @@ def test_regenerated_turn_rejected_again_is_retried_within_the_budget():
         (1, "cascade"),
     ]
     assert [t.text for t in state.dialog.turns] == ["Gut.", "Passt."]
+    # Every judgement of a replaced turn version is kept, with conversation and version.
+    assert [(s.conversation, s.turn_index, s.version, s.replaced_by) for s in state.superseded] == [
+        (1, 0, 0, 0),
+        (1, 0, 1, 1),
+        (1, 1, 0, 2),
+    ]
+    assert [s.judgement.accepted for s in state.superseded] == [False, False, True]
+    assert state.regenerations[1].previous.text == "Falsch."  # version 1, replaced by #1
+    data = state.judgement_dict()
+    assert list(data) == [
+        "judgements",
+        "used_fact_ids",
+        "cascade_checks",
+        "conversation",
+        "superseded_judgements",
+    ]
+    assert data["superseded_judgements"][0] == {
+        "conversation": 1,
+        "turn_index": 0,
+        "version": 0,
+        "replaced_by": 0,
+        "judgement": state.superseded[0].judgement.to_dict(),
+    }
+
+
+def test_turn_version_counts_regenerations_of_that_turn_in_that_conversation():
+    from gut_zu_wissen.orchestrator import Regeneration, turn_version
+
+    turn = Turn(0, "Lena", "T.", [], [])
+    regs = [Regeneration(1, 0, "retry", None, turn), Regeneration(2, 0, "retry", None, turn)]
+    regs.append(Regeneration(1, 1, "cascade", None, turn))
+    assert turn_version(regs, 1, 0) == 1 and turn_version(regs, 2, 0) == 1
+    assert turn_version(regs, 1, 2) == 0
+
+
+def test_superseded_judgements_of_a_discarded_conversation_keep_its_number():
+    author = FakeAuthor(
+        [
+            dialog_json("Eins.", "Falsch.", "Drei.", "Vier."),
+            dialog_json("Neu eins.", "Neu zwei.", fact="1-0001"),
+        ],
+        [turn_json("Felix", "B.", "1-0000"), turn_json("Lena", "C.", "1-0000")],
+    )
+    state = run(author, FakeJev(bad={"Falsch."}, cascade=[0.5]))
+    assert state.conversation == 2
+    assert [(s.conversation, s.turn_index, s.version) for s in state.superseded] == [
+        (1, 1, 0),
+        (1, 2, 0),
+    ]
 
 
 def test_turn_with_unknown_fact_id_is_regenerated_without_a_judge_call():

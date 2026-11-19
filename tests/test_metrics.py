@@ -266,6 +266,19 @@ def test_judge_escalation_share_leaves_out_gate_decisions(tmp_path):
     assert (j.judgements, j.by_jev, j.by_llm_judge, j.rate) == (4, 2, 2, 0.5)
 
 
+def test_judge_escalation_counts_judgements_of_replaced_turn_versions(tmp_path):
+    write_run(tmp_path, "a", judgements=[{"decided_by": "jev"}])
+    run = load_runs(tmp_path)[0]
+    run.judgement["superseded_judgements"] = [
+        {"conversation": 1, "turn_index": 0, "version": 0, "replaced_by": 0,
+         "judgement": {"decided_by": "llm_judge"}},
+        {"conversation": 1, "turn_index": 1, "version": 0, "replaced_by": 1,
+         "judgement": {"decided_by": "gate"}},
+    ]  # fmt: skip
+    j = judge_escalation([run])
+    assert (j.judgements, j.by_jev, j.by_llm_judge, j.rate) == (2, 1, 1, 0.5)
+
+
 # ---------------------------------------------------------------- cascades
 
 

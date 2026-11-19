@@ -13,8 +13,8 @@ Measured over every run in the archive (one run = one episode folder):
 - escalation rate: runs that failed (`status: failed`: gate failures, which abort a manual run
   with a failing job, and crashes, whose reason starts with "Crash:") or are incomplete (still
   `running`: the run has not ended; in folders from before the `completed` status, `running`
-  without a review sample) over all runs; plus the share of archived judgements the LLM judge
-  decided (design risk "Eskalationsrate");
+  without a review sample) over all runs; plus the share of all judge calls the LLM judge
+  decided, those of replaced turn versions included (design risk "Eskalationsrate");
 - cascade length: per triggering turn regeneration, the number of distinct neighbour turns the
   cascade regenerated (D1), from the regenerations in `05_dialog.json`;
 - runtime: `finished_at - started_at` of `episode.json`;
@@ -195,8 +195,8 @@ def escalation(runs: Sequence[RunData]) -> Escalation:
 
 @dataclass
 class JudgeEscalation:
-    """Share of the archived judge decisions that went to the LLM judge (uncertain p, overlength
-    or transient Jev error). Gate rejections are not judge decisions and are left out."""
+    """Share of all judge calls that went to the LLM judge (uncertain p, overlength or transient
+    Jev error). Gate rejections are not judge decisions and are left out."""
 
     judgements: int
     by_jev: int
@@ -205,11 +205,14 @@ class JudgeEscalation:
 
 
 def archived_judgements(run: RunData) -> list[dict]:
-    """The final judgements and those of discarded conversations. Judgements of turn versions
-    that a regeneration replaced within a conversation are not archived."""
-    found = list((run.judgement or {}).get("judgements", []))
+    """Every judgement of the run: the final ones, those of discarded conversations and those of
+    turn versions a regeneration replaced (`superseded_judgements`; missing in folders from
+    before they were archived)."""
+    judgement = run.judgement or {}
+    found = list(judgement.get("judgements", []))
     for discarded in (run.dialog or {}).get("discarded_conversations", []):
         found += discarded.get("judgements", [])
+    found += [s["judgement"] for s in judgement.get("superseded_judgements", [])]
     return found
 
 
@@ -690,8 +693,7 @@ def render_markdown(report: Report) -> str:
     lines += [f"  - `{x.episode_id}` ({x.outcome}): {x.reason or '–'}" for x in s.escalated]
     j = report.judge_escalation
     lines += [
-        f"- Judge decisions by the LLM judge: {j.by_llm_judge} of {j.judgements} "
-        f"({_pct(j.rate)}; archived judgements only)",
+        f"- Judge decisions by the LLM judge: {j.by_llm_judge} of {j.judgements} ({_pct(j.rate)})",
         "",
         "### Cascade length (D1)",
         "",

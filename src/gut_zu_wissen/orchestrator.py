@@ -12,6 +12,12 @@ author (D5), discards the dialog and writes a new one from a fresh offer (D6: bo
 facts cited by rejected statements excluded, cumulatively), at most `conversation_retries` times.
 Everything else ends in `GateFailure`, the escalation to the owner.
 
+Every judgement is archived (user decision 2026-11-19): the final ones in `judgements`, those of
+discarded conversations with them, and those of turn versions a regeneration replaced in
+`superseded_judgements`, each with its conversation, turn index, turn version (0: as the author
+wrote it, n: after the n-th regeneration of that turn in that conversation) and the index of the
+regeneration in `05_dialog.json` that replaced it.
+
 Deterministic parts are pure functions; the LLM and Jev calls sit behind their interfaces.
 """
 
@@ -82,6 +88,18 @@ class CascadeCheck:
 
 
 @dataclass
+class SupersededJudgement:
+    """The judgement of a turn version that a regeneration replaced; field order is the archive
+    field order."""
+
+    conversation: int
+    turn_index: int
+    version: int  # 0: as written by the author; n: after the n-th regeneration of this turn
+    replaced_by: int  # index of the replacing regeneration in `regenerations` (05_dialog.json)
+    judgement: TurnJudgement
+
+
+@dataclass
 class DiscardedConversation:
     conversation: int
     reason: str
@@ -103,6 +121,7 @@ class Orchestration:
     regenerations: list[Regeneration] = field(default_factory=list)
     cascade_checks: list[CascadeCheck] = field(default_factory=list)
     discarded: list[DiscardedConversation] = field(default_factory=list)
+    superseded: list[SupersededJudgement] = field(default_factory=list)
 
     def dialog_dict(self) -> dict:
         assert self.dialog is not None
@@ -118,6 +137,10 @@ class Orchestration:
             "judgements": [j.to_dict() for j in self.judgements],
             "used_fact_ids": self.used_fact_ids,
             "cascade_checks": [asdict(c) for c in self.cascade_checks],
+            "conversation": self.conversation,
+            "superseded_judgements": [
+                {**asdict(s), "judgement": s.judgement.to_dict()} for s in self.superseded
+            ],
         }
 
 
@@ -160,6 +183,11 @@ def cascade_request(before: Turn, after: Turn) -> tuple[dict, dict[str, dict]]:
         },
     }
     return state, {CASCADE_KEY: question}
+
+
+def turn_version(regenerations: Sequence[Regeneration], conversation: int, index: int) -> int:
+    """Version of the current turn at `index`: how often it was regenerated in `conversation`."""
+    return sum(1 for r in regenerations if r.conversation == conversation and r.turn_index == index)
 
 
 def cascade_confirmed(p: float, t: float) -> bool:
@@ -249,6 +277,12 @@ def repair_turns(
             budget -= 1
             old = turns[pos]
             new = regenerate_turn(author, offer_text, turns, pos, reason)
+            version = turn_version(state.regenerations, state.conversation, pos)
+            state.superseded.append(
+                SupersededJudgement(
+                    state.conversation, pos, version, len(state.regenerations), judgements[pos]
+                )
+            )
             state.regenerations.append(Regeneration(state.conversation, pos, kind, reason, old))
             turns[pos] = new
             judgement = evaluate(new, turns[pos - 1] if pos else None, offer, jev, judge_llm, t)
