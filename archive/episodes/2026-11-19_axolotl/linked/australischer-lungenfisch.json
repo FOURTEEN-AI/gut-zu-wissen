@@ -1,0 +1,97 @@
+{
+  "title": "Australischer Lungenfisch",
+  "revid": 265528419,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-03-23T07:59:24Z",
+  "fetched_at": "2026-11-19T22:53:41Z",
+  "categories": [
+    "Kategorie:Endemisches Tier Australiens",
+    "Kategorie:Fleischflosser",
+    "Kategorie:Lebendes Fossil"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe bitte [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name       = Australischer Lungenfisch\n| Taxon_WissName   = Neoceratodus forsteri\n| Taxon_Rang       = Art\n| Taxon_Autor      = ([[Gerard Krefft|Krefft]], 1870)\n| Taxon2_WissName  = Neoceratodus\n| Taxon2_Rang      = Gattung\n| Taxon2_Autor     = [[François Louis Nompar de Caumont de La Force|Castelnau]], 1876\n| Taxon3_WissName  = Neoceratodontidae\n| Taxon3_Rang      = Familie\n| Taxon3_Autor     = [[Roger S. Miles|Miles]], 1977\n| Taxon4_WissName  = Ceratodontoidei\n| Taxon4_Rang      = Unterordnung\n| Taxon4_LinkName  = nein\n| Taxon5_Name      = Lungenfische\n| Taxon5_WissName  = Ceratodontiformes\n| Taxon5_Rang      = Ordnung\n| Taxon6_Name      = Lungenfische\n| Taxon6_WissName  = Dipneusti\n| Taxon6_Rang      = Klasse\n| Bild             = Australian-Lungfish.jpg\n| Bildbeschreibung = Australischer Lungenfisch (''Neoceratodus forsteri'')\n}}\n\n[[Datei:Neoceratodus forsteri, 2014-09-19.JPG|mini|Australischer Lungenfisch im National Zoo & Aquarium in Canberra]]\nDer '''Australische Lungenfisch''' (''Neoceratodus forsteri''), auch '''Djelleh''', '''Barramunda''', '''Burnett Salmon''' oder '''Queensland-Lungenfisch''' genannt, ist der einzige [[Australien|australische]] Vertreter der nur sechs rezente [[Art (Biologie)|Arten]] umfassenden [[Klasse (Biologie)|Klasse]] der [[Lungenfische]]. Er gilt als ursprünglichste Art aller heute vorkommenden Lungenfische. Die Lungenfische sind in der [[Fossil]]geschichte aus der Zeit von vor 400 bis rund 230 Millionen Jahren mit einem großen Artenreichtum gut bekannt. Daher werden die Arten der drei [[rezent]]en [[Gattung (Biologie)|Gattungen]] auch als ''[[Lebendes Fossil|lebende Fossilien]]'' bezeichnet. Der australische Lungenfisch wurde erst im Jahre 1870 entdeckt.",
+  "segments": [
+    {
+      "id": "265528419-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon6_Name      = Lungenfische | Taxon6_WissName  = Dipneusti",
+      "plain": "Taxobox – Systematik – Klasse: Lungenfische (Dipneusti)"
+    },
+    {
+      "id": "265528419-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_Name      = Lungenfische | Taxon5_WissName  = Ceratodontiformes",
+      "plain": "Taxobox – Systematik – Ordnung: Lungenfische (Ceratodontiformes)"
+    },
+    {
+      "id": "265528419-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_WissName  = Ceratodontoidei",
+      "plain": "Taxobox – Systematik – Unterordnung: Ceratodontoidei"
+    },
+    {
+      "id": "265528419-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name       = Australischer Lungenfisch",
+      "plain": "Taxobox – Systematik – Art: Australischer Lungenfisch"
+    },
+    {
+      "id": "265528419-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der '''Australische Lungenfisch''' (''Neoceratodus forsteri''), auch '''Djelleh''', '''Barramunda''', '''Burnett Salmon''' oder '''Queensland-Lungenfisch''' genannt, ist der einzige [[Australien|australische]] Vertreter der nur sechs rezente [[Art (Biologie)|Arten]] umfassenden [[Klasse (Biologie)|Klasse]] der [[Lungenfische]].",
+      "plain": null
+    },
+    {
+      "id": "265528419-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er gilt als ursprünglichste Art aller heute vorkommenden Lungenfische.",
+      "plain": null
+    },
+    {
+      "id": "265528419-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Lungenfische sind in der [[Fossil]]geschichte aus der Zeit von vor 400 bis rund 230 Millionen Jahren mit einem großen Artenreichtum gut bekannt.",
+      "plain": null
+    },
+    {
+      "id": "265528419-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Daher werden die Arten der drei [[rezent]]en [[Gattung (Biologie)|Gattungen]] auch als ''[[Lebendes Fossil|lebende Fossilien]]'' bezeichnet.",
+      "plain": null
+    },
+    {
+      "id": "265528419-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der australische Lungenfisch wurde erst im Jahre 1870 entdeckt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 265528419,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "265528419-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "265528419-0007"
+        ],
+        "plain": "Der australische Lungenfisch wurde erst im Jahre 1870 entdeckt.",
+        "context_plain": [
+          "Daher werden die Arten der drei rezenten Gattungen auch als lebende Fossilien bezeichnet."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

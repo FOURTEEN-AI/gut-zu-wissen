@@ -1,0 +1,86 @@
+{
+  "title": "Regeneration (Physiologie)",
+  "revid": 266803140,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-05-05T07:04:17Z",
+  "fetched_at": "2026-11-19T22:53:41Z",
+  "categories": [
+    "Kategorie:Biologischer Prozess",
+    "Kategorie:Entwicklungsbiologie",
+    "Kategorie:Zellbiologie",
+    "Kategorie:Zoologie"
+  ],
+  "intro_wikitext": "[[Datei:Phobaeticus serratipes Regeneration.jpg|mini|Regeneration des rechten Hinterbeins bei einer L 2 Larve der [[Riesenstabschrecke]] ''[[Phobaeticus serratipes]]'']]\n{{Infobox GO-Terminus\n| Typ = P\n| GO = 0031099\n| Eltern = [[Morphogenese]]\n| Kinder = Regeneration von Organen<br />Gewebe<br />Zellfortsätzen\n}}\n\nUnter '''Regeneration''' versteht man die Fähigkeit eines [[Organismus]], verloren gegangene Teile zu ersetzen. Pflanzen sind dazu in der Lage, aber auch sehr viele wirbellose Tiere wie verschiedene [[Nesseltiere]], [[Ascidien]], [[Plattwürmer]] u.&nbsp;Ä. Das Gros der Wirbeltiere hat die Fähigkeit verloren, Organe und Gewebe zu regenerieren. [[Amphibien]] und [[Fische]], wie z.&nbsp;B. die [[Molch (Biologie)|Molche]], [[Axolotl]] und [[Zebrafisch]]e, sind zum Teil in der Lage, verlorene Gliedmaßen, Augen und auch Teile von inneren Organen zu regenerieren. Auch die Fähigkeit mancher [[Reptilien]] wie den [[Eidechsen]], ihren Schwanz an einer Sollbruchstelle durch Muskelkontraktion abzuwerfen und anschließend (in reduzierter Form) wieder nachwachsen zu lassen, ist unter den Wirbeltieren eher selten.\n\nBei den [[Gliederfüßer]]n ist die Fähigkeit, verloren gegangene Körperteile bei der nächsten [[Häutung]] teilweise zu ersetzen, weit verbreitet. Dabei wird je Häutung jeweils ein Stück mehr ersetzt als bei der vorangegangenen Häutung, so dass bei einer genügend großen Anzahl von Häutungen Körperteile auch vollständig ersetzt werden können. Die Anzahl der Häutungen ist aber in einigen Gruppen der Gliederfüßer begrenzt (z.&nbsp;B. bei den [[Insekten]]), so dass in diesen Fällen nach der letzten, häufig der Imaginalhäutung, keine weitere Regeneration mehr möglich ist.",
+  "segments": [
+    {
+      "id": "266803140-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Unter '''Regeneration''' versteht man die Fähigkeit eines [[Organismus]], verloren gegangene Teile zu ersetzen.",
+      "plain": null
+    },
+    {
+      "id": "266803140-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Pflanzen sind dazu in der Lage, aber auch sehr viele wirbellose Tiere wie verschiedene [[Nesseltiere]], [[Ascidien]], [[Plattwürmer]] u.&nbsp;Ä. Das Gros der Wirbeltiere hat die Fähigkeit verloren, Organe und Gewebe zu regenerieren.",
+      "plain": null
+    },
+    {
+      "id": "266803140-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "[[Amphibien]] und [[Fische]], wie z.&nbsp;B. die [[Molch (Biologie)|Molche]], [[Axolotl]] und [[Zebrafisch]]e, sind zum Teil in der Lage, verlorene Gliedmaßen, Augen und auch Teile von inneren Organen zu regenerieren.",
+      "plain": null
+    },
+    {
+      "id": "266803140-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Auch die Fähigkeit mancher [[Reptilien]] wie den [[Eidechsen]], ihren Schwanz an einer Sollbruchstelle durch Muskelkontraktion abzuwerfen und anschließend (in reduzierter Form) wieder nachwachsen zu lassen, ist unter den Wirbeltieren eher selten.",
+      "plain": null
+    },
+    {
+      "id": "266803140-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bei den [[Gliederfüßer]]n ist die Fähigkeit, verloren gegangene Körperteile bei der nächsten [[Häutung]] teilweise zu ersetzen, weit verbreitet.",
+      "plain": null
+    },
+    {
+      "id": "266803140-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dabei wird je Häutung jeweils ein Stück mehr ersetzt als bei der vorangegangenen Häutung, so dass bei einer genügend großen Anzahl von Häutungen Körperteile auch vollständig ersetzt werden können.",
+      "plain": null
+    },
+    {
+      "id": "266803140-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Anzahl der Häutungen ist aber in einigen Gruppen der Gliederfüßer begrenzt (z.&nbsp;B. bei den [[Insekten]]), so dass in diesen Fällen nach der letzten, häufig der Imaginalhäutung, keine weitere Regeneration mehr möglich ist.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 266803140,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "266803140-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "266803140-0003",
+          "266803140-0004"
+        ],
+        "plain": "Dabei wird je Häutung jeweils ein Stück mehr ersetzt als bei der vorangegangenen Häutung, so dass bei einer genügend großen Anzahl von Häutungen Körperteile auch vollständig ersetzt werden können.",
+        "context_plain": [
+          "Auch die Fähigkeit mancher Reptilien wie den Eidechsen, ihren Schwanz an einer Sollbruchstelle durch Muskelkontraktion abzuwerfen und anschließend (in reduzierter Form) wieder nachwachsen zu lassen, ist unter den Wirbeltieren eher selten.",
+          "Bei den Gliederfüßern ist die Fähigkeit, verloren gegangene Körperteile bei der nächsten Häutung teilweise zu ersetzen, weit verbreitet."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}
