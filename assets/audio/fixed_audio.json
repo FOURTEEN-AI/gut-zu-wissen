@@ -1,0 +1,27 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Lena": "de-de-advisor-3",
+    "Felix": "de-de-tutor-4"
+  },
+  "parts": [
+    {
+      "name": "intro",
+      "file": "intro.flac",
+      "fingerprint": "aa19a3a5ad6b9be14c64f543f8cba8d4e9c06111f095fef839a86fadc97312cf",
+      "sample_rate": 24000,
+      "seconds": 8.36,
+      "input_tokens": 32,
+      "output_tokens": 209
+    },
+    {
+      "name": "outro",
+      "file": "outro.flac",
+      "fingerprint": "8148b2f7fc5c30ac196db70b532934ab34843be8576abe4b042e8bfb272f4c77",
+      "sample_rate": 24000,
+      "seconds": 37.44,
+      "input_tokens": 142,
+      "output_tokens": 936
+    }
+  ]
+}
