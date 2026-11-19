@@ -3,6 +3,7 @@ from types import SimpleNamespace
 import pytest
 
 from gut_zu_wissen.llm import AnthropicLlm, LlmError
+from gut_zu_wissen.usage import Usage
 
 
 class FakeClient:
@@ -34,3 +35,23 @@ def test_request_uses_structured_output_without_forced_tool_or_sampling():
 def test_failures_raise_llm_error(text, stop):
     with pytest.raises(LlmError):
         AnthropicLlm("m", 10, FakeClient(text, stop)).complete_json("s", "u", {})
+
+
+def with_usage(client: FakeClient, input_tokens: int, output_tokens: int) -> FakeClient:
+    response = client.messages.create()
+    client.calls.clear()
+    response.usage = SimpleNamespace(input_tokens=input_tokens, output_tokens=output_tokens)
+    return client
+
+
+def test_token_counts_are_added_to_the_usage_counter_also_for_a_refusal():
+    usage = Usage("claude-sonnet-5-5")
+    AnthropicLlm("m", 10, with_usage(FakeClient("{}"), 120, 30), usage).complete_json("s", "u", {})
+    refusal = with_usage(FakeClient("{}", "refusal"), 80, 5)
+    with pytest.raises(LlmError):
+        AnthropicLlm("m", 10, refusal, usage).complete_json("s", "u", {})
+    assert (usage.calls, usage.input_tokens, usage.output_tokens) == (2, 200, 35)
+
+
+def test_without_usage_counter_a_response_without_usage_is_fine():
+    assert AnthropicLlm("m", 10, FakeClient("{}")).complete_json("s", "u", {}) == {}

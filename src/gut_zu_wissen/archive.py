@@ -9,7 +9,7 @@ from __future__ import annotations
 import json
 import re
 import unicodedata
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, field
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Literal
@@ -52,15 +52,22 @@ def parse_timestamp(value: str) -> datetime:
 
 @dataclass
 class EpisodeRecord:
-    """Content of episode.json; field order is the file's field order."""
+    """Content of episode.json; field order is the file's field order.
+
+    `finished_at` is when the run ended, successfully or not (runtime, step 13); `usage` holds the
+    token counts per API client role (`usage.Usage`, cost log). Both are missing in files written
+    before they were recorded.
+    """
 
     episode_id: str
     title: str
     status: EpisodeStatus
     started_at: str
+    finished_at: str | None = None
     published_at: str | None = None
     explicit: bool | None = None
     failure: str | None = None
+    usage: dict[str, dict] = field(default_factory=dict)
 
 
 def write_json(path: Path, data: object) -> None:

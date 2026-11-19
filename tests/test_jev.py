@@ -8,12 +8,15 @@ from gut_zu_wissen.jev import (
     JevTransientError,
     classify,
 )
+from gut_zu_wissen.usage import Usage
 
 Q = {"a": {"type": "noul"}, "b": {"type": "noul"}}
 OK = {"answers": {"a": {"type": "noul", "noul": 0.97}, "b": {"type": "noul", "noul": 0.2}}}
 
 
-def jev(responses: list, sleeps: list | None = None, retries: int = 2) -> tuple[HttpJev, list]:
+def jev(
+    responses: list, sleeps: list | None = None, retries: int = 2, usage: Usage | None = None
+) -> tuple[HttpJev, list]:
     sent: list = []
 
     def handler(request: httpx.Request) -> httpx.Response:
@@ -25,7 +28,7 @@ def jev(responses: list, sleeps: list | None = None, retries: int = 2) -> tuple[
 
     client = httpx.Client(transport=httpx.MockTransport(handler))
     sleep = sleeps.append if sleeps is not None else (lambda s: None)
-    return HttpJev("jev-1.14.0", retries, 2.0, 10, "key", client, sleep), sent
+    return HttpJev("jev-1.14.0", retries, 2.0, 10, "key", client, sleep, usage), sent
 
 
 def test_success_returns_p_per_question_and_sends_pinned_model():
@@ -105,3 +108,18 @@ def test_retry_after_header_overrides_backoff():
     client, _ = jev([(429, {}, {"retry-after": "7"}), (200, OK)], sleeps)
     client.ask({}, Q)
     assert sleeps == [7.0]
+
+
+def test_successful_answers_add_their_token_counts_to_the_usage_counter():
+    usage = Usage("jev-1.14.0")
+    client, _ = jev(
+        [
+            (500, {}),
+            (200, {**OK, "usage": {"input_tokens": 120, "output_tokens": 12}}),
+            (200, OK),  # no usage object: the call counts, the tokens are 0
+        ],
+        usage=usage,
+    )
+    client.ask({"x": 1}, Q)
+    client.ask({"x": 1}, Q)
+    assert (usage.calls, usage.input_tokens, usage.output_tokens) == (2, 120, 12)

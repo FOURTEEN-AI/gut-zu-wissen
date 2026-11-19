@@ -11,6 +11,8 @@ from typing import Protocol
 
 import anthropic
 
+from gut_zu_wissen.usage import Usage
+
 
 class LlmError(Exception):
     """The model call failed in a way a retry of the same request will not fix."""
@@ -26,14 +28,21 @@ class AnthropicLlm:
     """`StructuredLlm` on the Claude Messages API with structured output.
 
     No forced `tool_choice` and no sampling parameters: Claude Sonnet 5.5 rejects both.
+    The token counts of every response, a refused or cut-off one included (both are billed), are
+    added to `usage` when given (cost log).
     """
 
     def __init__(
-        self, model: str, max_tokens: int, client: anthropic.Anthropic | None = None
+        self,
+        model: str,
+        max_tokens: int,
+        client: anthropic.Anthropic | None = None,
+        usage: Usage | None = None,
     ) -> None:
         self._model = model
         self._max_tokens = max_tokens
         self._client = client or anthropic.Anthropic()
+        self._usage = usage
 
     def complete_json(self, system: str, user: str, schema: dict) -> dict:
         response = self._client.messages.create(
@@ -43,6 +52,9 @@ class AnthropicLlm:
             messages=[{"role": "user", "content": user}],
             output_config={"format": {"type": "json_schema", "schema": schema}},
         )
+        counts = getattr(response, "usage", None)
+        if self._usage is not None and counts is not None:
+            self._usage.add(counts.input_tokens, counts.output_tokens)
         if response.stop_reason == "refusal":
             raise LlmError(f"The model declined the request: {response.stop_details}")
         if response.stop_reason == "max_tokens":

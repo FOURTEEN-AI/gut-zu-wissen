@@ -14,6 +14,7 @@ from __future__ import annotations
 import os
 import sys
 import tomllib
+from collections.abc import Callable, Mapping
 from dataclasses import asdict
 from datetime import UTC, datetime
 from pathlib import Path
@@ -59,11 +60,16 @@ from gut_zu_wissen.review import build_review, load_rate_state, load_review
 from gut_zu_wissen.segmentation import segment_article
 from gut_zu_wissen.stt import Stt, WhisperStt
 from gut_zu_wissen.tts import GeminiTts, Tts, voices_of
+from gut_zu_wissen.usage import Usage, usage_dict
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CONFIG_PATH = REPO_ROOT / "config" / "pipeline.toml"
 ARCHIVE_ROOT = REPO_ROOT / "archive"
 AUDIO_ROOT = REPO_ROOT / "build" / "audio"  # not committed (.gitignore: build/)
+
+
+def _utc_now() -> datetime:
+    return datetime.now(UTC)
 
 
 def load_config(path: Path = CONFIG_PATH) -> dict:
@@ -85,6 +91,8 @@ def run(
     stt: Stt,
     fixed_dir: Path,
     audio_root: Path,
+    clock: Callable[[], datetime] | None = None,
+    usage: Mapping[str, Usage] | None = None,
 ) -> str:
     """Run the steps implemented so far. Returns the episode ID; raises GateFailure.
 
@@ -93,156 +101,165 @@ def run(
     the audio step, on the script that was synthesised) are decided by `judge_llm`. The explicit
     flag does not block the episode; a failed check call escalates. Last, the review sample is
     drawn with the current rate r and written to `09_review.json` (step 12).
+
+    However the run ends after the episode folder exists, `episode.json` gets `finished_at` (from
+    `clock`, default the system clock) and the token counts of `usage`, the counters the API
+    clients fill (step 13: runtime and cost). A crash leaves the status as it is.
     """
     fixed = load_fixed(fixed_dir, config["models"]["tts"], voices_of(config))
     article = fetch_article(api, title, now)
     record = create_episode(archive_root, article.title, now)
-    write_json(episode_dir(archive_root, record.episode_id) / ARTICLE_FILE, article.to_dict())
+    try:
+        write_json(episode_dir(archive_root, record.episode_id) / ARTICLE_FILE, article.to_dict())
 
-    failure: str | None = None
-    if is_living_person(article.categories):
-        failure = (
-            f"Gate living person: '{article.title}' is a person article without death category."
-        )
-    else:
-        months = config["quotas"]["repeat_gate_months"]
-        last = last_published(archive_root, article.title)
-        if not repeat_gate_allows(last, now, months):
-            assert last is not None
+        failure: str | None = None
+        if is_living_person(article.categories):
             failure = (
-                f"Gate repeat (D4): '{article.title}' was published on "
-                f"{format_timestamp(last)}, less than {months} months ago."
+                f"Gate living person: '{article.title}' is a person article without death category."
             )
-    if failure:
-        record.status, record.failure = "failed", failure
-        save_episode(archive_root, record)
-        raise GateFailure(failure)
-    folder = episode_dir(archive_root, record.episode_id)
-    renderer = ParseRenderer(api)
-    segments = segment_article(article.wikitext, article.title, article.revid, renderer)
-    write_json(
-        folder / SEGMENTS_FILE,
-        {"revid": article.revid, "segments": [s.to_dict() for s in segments]},
-    )
-    facts = extract_facts(llm, renderer, article.title, article.revid, segments, config)
-    write_json(folder / FACTS_FILE, facts.to_dict())
-
-    quotas = config["quotas"]
-    by_target: dict[str, LinkedIntro | None] = {}
-    skipped: list[SkippedLink] = []
-    written: set[str] = set()
-
-    def make_offer(excluded: frozenset[str]) -> Offer:
-        """Both rankings without the excluded facts (D6); linked intros are fetched once."""
-        main = rank_facts(llm, facts.facts, quotas["main_facts"], excluded)
-        targets = link_targets(raw_of(main, segments), article.title)
-        for target in targets:
-            if target in by_target:
-                continue
-            found, not_used = fetch_linked_intros(
-                api, llm, renderer, [target], article.title, config, now
-            )
-            skipped.extend(not_used)
-            by_target[target] = found[0] if found else None
-            if found and found[0].title not in written:
-                written.add(found[0].title)
-                write_json(
-                    folder / LINKED_DIR / f"{slugify(found[0].title)}.json", found[0].to_dict()
+        else:
+            months = config["quotas"]["repeat_gate_months"]
+            last = last_published(archive_root, article.title)
+            if not repeat_gate_allows(last, now, months):
+                assert last is not None
+                failure = (
+                    f"Gate repeat (D4): '{article.title}' was published on "
+                    f"{format_timestamp(last)}, less than {months} months ago."
                 )
-        current: list[LinkedIntro] = []
-        for target in targets:  # an article reached by two links counts once
-            intro = by_target[target]
-            if intro and intro.title not in {i.title for i in current}:
-                current.append(intro)
-        pool = [(f, i) for i in current if i.extraction for f in i.extraction.facts]
-        chosen = rank_facts(llm, [f for f, _ in pool], quotas["linked_intro_facts"], excluded)
-        source = {f.segment_id: i for f, i in pool}
-        linked = [
-            RankedFact(n, source[f.segment_id].title, source[f.segment_id].revid, f)
-            for n, f in enumerate(chosen, start=1)
-        ]
-        main_ranked = ranked(main, article.title, article.revid)
-        write_json(
-            folder / RANKING_FILE,
-            {
-                "main_facts": [r.to_dict() for r in main_ranked],
-                "linked_facts": [r.to_dict() for r in linked],
-                "linked_articles": [
-                    {
-                        "title": i.title,
-                        "revid": i.revid,
-                        "file": f"{LINKED_DIR}/{slugify(i.title)}.json",
-                    }
-                    for i in current
-                ],
-                "skipped_links": [asdict(s) for s in skipped],
-                "excluded_fact_ids": sorted(excluded),
-            },
-        )
-        failure = offer_gate(len(main_ranked) + len(linked), quotas["min_used_facts"])
         if failure:
+            record.status, record.failure = "failed", failure
+            save_episode(archive_root, record)
             raise GateFailure(failure)
-        return Offer(main_ranked, linked)
-
-    state = Orchestration()
-    try:
-        orchestrate(state, make_offer, llm, judge_llm, jev, config)
-    except GateFailure as exc:
-        if state.dialog:
-            write_json(folder / DIALOG_FILE, state.dialog_dict())
-            write_json(folder / JUDGEMENT_FILE, state.judgement_dict())
-        record.status, record.failure = "failed", str(exc)
-        save_episode(archive_root, record)
-        raise
-    write_json(folder / DIALOG_FILE, state.dialog_dict())
-    write_json(folder / JUDGEMENT_FILE, state.judgement_dict())
-
-    assert state.dialog is not None
-    audio_record = new_record(config)
-    try:
-        produce_audio(
-            audio_record,
-            state.dialog.turns,
-            tts,
-            stt,
-            judge_llm,
-            fixed,
-            audio_root / record.episode_id,
-            config,
+        folder = episode_dir(archive_root, record.episode_id)
+        renderer = ParseRenderer(api)
+        segments = segment_article(article.wikitext, article.title, article.revid, renderer)
+        write_json(
+            folder / SEGMENTS_FILE,
+            {"revid": article.revid, "segments": [s.to_dict() for s in segments]},
         )
-    except AudioStepError as exc:
+        facts = extract_facts(llm, renderer, article.title, article.revid, segments, config)
+        write_json(folder / FACTS_FILE, facts.to_dict())
+
+        quotas = config["quotas"]
+        by_target: dict[str, LinkedIntro | None] = {}
+        skipped: list[SkippedLink] = []
+        written: set[str] = set()
+
+        def make_offer(excluded: frozenset[str]) -> Offer:
+            """Both rankings without the excluded facts (D6); linked intros are fetched once."""
+            main = rank_facts(llm, facts.facts, quotas["main_facts"], excluded)
+            targets = link_targets(raw_of(main, segments), article.title)
+            for target in targets:
+                if target in by_target:
+                    continue
+                found, not_used = fetch_linked_intros(
+                    api, llm, renderer, [target], article.title, config, now
+                )
+                skipped.extend(not_used)
+                by_target[target] = found[0] if found else None
+                if found and found[0].title not in written:
+                    written.add(found[0].title)
+                    write_json(
+                        folder / LINKED_DIR / f"{slugify(found[0].title)}.json", found[0].to_dict()
+                    )
+            current: list[LinkedIntro] = []
+            for target in targets:  # an article reached by two links counts once
+                intro = by_target[target]
+                if intro and intro.title not in {i.title for i in current}:
+                    current.append(intro)
+            pool = [(f, i) for i in current if i.extraction for f in i.extraction.facts]
+            chosen = rank_facts(llm, [f for f, _ in pool], quotas["linked_intro_facts"], excluded)
+            source = {f.segment_id: i for f, i in pool}
+            linked = [
+                RankedFact(n, source[f.segment_id].title, source[f.segment_id].revid, f)
+                for n, f in enumerate(chosen, start=1)
+            ]
+            main_ranked = ranked(main, article.title, article.revid)
+            write_json(
+                folder / RANKING_FILE,
+                {
+                    "main_facts": [r.to_dict() for r in main_ranked],
+                    "linked_facts": [r.to_dict() for r in linked],
+                    "linked_articles": [
+                        {
+                            "title": i.title,
+                            "revid": i.revid,
+                            "file": f"{LINKED_DIR}/{slugify(i.title)}.json",
+                        }
+                        for i in current
+                    ],
+                    "skipped_links": [asdict(s) for s in skipped],
+                    "excluded_fact_ids": sorted(excluded),
+                },
+            )
+            failure = offer_gate(len(main_ranked) + len(linked), quotas["min_used_facts"])
+            if failure:
+                raise GateFailure(failure)
+            return Offer(main_ranked, linked)
+
+        state = Orchestration()
+        try:
+            orchestrate(state, make_offer, llm, judge_llm, jev, config)
+        except GateFailure as exc:
+            if state.dialog:
+                write_json(folder / DIALOG_FILE, state.dialog_dict())
+                write_json(folder / JUDGEMENT_FILE, state.judgement_dict())
+            record.status, record.failure = "failed", str(exc)
+            save_episode(archive_root, record)
+            raise
+        write_json(folder / DIALOG_FILE, state.dialog_dict())
+        write_json(folder / JUDGEMENT_FILE, state.judgement_dict())
+
+        assert state.dialog is not None
+        audio_record = new_record(config)
+        try:
+            produce_audio(
+                audio_record,
+                state.dialog.turns,
+                tts,
+                stt,
+                judge_llm,
+                fixed,
+                audio_root / record.episode_id,
+                config,
+            )
+        except AudioStepError as exc:
+            write_json(folder / AUDIO_FILE, audio_record.to_dict())
+            record.status, record.failure = "failed", str(exc)
+            save_episode(archive_root, record)
+            raise GateFailure(str(exc)) from exc
         write_json(folder / AUDIO_FILE, audio_record.to_dict())
-        record.status, record.failure = "failed", str(exc)
-        save_episode(archive_root, record)
-        raise GateFailure(str(exc)) from exc
-    write_json(folder / AUDIO_FILE, audio_record.to_dict())
 
-    explicit = ExplicitCheck(config["models"]["llm_judge"])
-    try:
-        check_explicit(explicit, judge_llm, state.dialog.turns)
-    except LlmError as exc:
-        explicit.error = f"{type(exc).__name__}: {exc}"
+        explicit = ExplicitCheck(config["models"]["llm_judge"])
+        try:
+            check_explicit(explicit, judge_llm, state.dialog.turns)
+        except LlmError as exc:
+            explicit.error = f"{type(exc).__name__}: {exc}"
+            write_json(folder / EXPLICIT_FILE, explicit.to_dict())
+            record.status, record.failure = "failed", f"Explicit check (D7): {exc}"
+            save_episode(archive_root, record)
+            raise GateFailure(record.failure) from exc
         write_json(folder / EXPLICIT_FILE, explicit.to_dict())
-        record.status, record.failure = "failed", f"Explicit check (D7): {exc}"
+        record.explicit = explicit.explicit
         save_episode(archive_root, record)
-        raise GateFailure(record.failure) from exc
-    write_json(folder / EXPLICIT_FILE, explicit.to_dict())
-    record.explicit = explicit.explicit
-    save_episode(archive_root, record)
 
-    assert state.offer is not None
-    rate = load_rate_state(archive_root, config["review"]).r
-    review = build_review(
-        record.episode_id,
-        record.title,
-        state.dialog.turns,
-        state.judgements,
-        state.offer.by_id(),
-        rate,
-        explicit,
-    )
-    write_json(folder / REVIEW_FILE, review.to_dict())
-    return record.episode_id
+        assert state.offer is not None
+        rate = load_rate_state(archive_root, config["review"]).r
+        review = build_review(
+            record.episode_id,
+            record.title,
+            state.dialog.turns,
+            state.judgements,
+            state.offer.by_id(),
+            rate,
+            explicit,
+        )
+        write_json(folder / REVIEW_FILE, review.to_dict())
+        return record.episode_id
+    finally:  # every exit, a crash included, records the end and the token counts
+        record.finished_at = format_timestamp((clock or _utc_now)())
+        record.usage = usage_dict(usage)
+        save_episode(archive_root, record)
 
 
 def write_job_summary(text: str) -> None:
@@ -268,8 +285,10 @@ def main(argv: list[str] | None = None) -> int:
         return 2
     config = load_config()
     max_tokens = config["quotas"]["llm_max_tokens"]
-    llm = AnthropicLlm(config["models"]["author"], max_tokens)
-    judge_llm = AnthropicLlm(config["models"]["llm_judge"], max_tokens)
+    models = config["models"]
+    usage = {role: Usage(models[role]) for role in ("author", "llm_judge", "jev")}
+    llm = AnthropicLlm(models["author"], max_tokens, usage=usage["author"])
+    judge_llm = AnthropicLlm(models["llm_judge"], max_tokens, usage=usage["llm_judge"])
     jev_config = config["jev"]
     jev = HttpJev(
         config["models"]["jev"],
@@ -277,6 +296,7 @@ def main(argv: list[str] | None = None) -> int:
         jev_config["backoff_seconds"],
         jev_config["timeout_seconds"],
         os.environ["TYPESAFE_API_KEY"],
+        usage=usage["jev"],
     )
     gemini_key = os.environ.get("GEMINI_API_KEY", "")
     if not gemini_key:  # fail before the run spends anything; TTS comes last
@@ -306,6 +326,7 @@ def main(argv: list[str] | None = None) -> int:
             stt=stt,
             fixed_dir=ASSETS_DIR,
             audio_root=AUDIO_ROOT,
+            usage=usage,
         )
     except ArticleNotFoundError:
         print(f"Article not found: {args[0]}", file=sys.stderr)

@@ -15,6 +15,7 @@ from gut_zu_wissen.llm import LlmError
 from gut_zu_wissen.run import GateFailure, load_config
 from gut_zu_wissen.run import run as run_pipeline
 from gut_zu_wissen.tts import Synthesis, TtsError, voices_of
+from gut_zu_wissen.usage import Usage
 from gut_zu_wissen.verification import NO_ANSWER
 
 NOW = datetime(2026, 11, 19, 10, 30, tzinfo=UTC)
@@ -138,7 +139,10 @@ class FakeStt:
         return " ".join(text for _, text in self.tts.calls[-1])
 
 
-def run(api, llm, root, config, title, now, jev=None, judge=None, tts=None, fixed=True, stt=None):
+def run(
+    api, llm, root, config, title, now, jev=None, judge=None, tts=None, fixed=True, stt=None,
+    clock=None, usage=None,
+):  # fmt: skip
     fixed_dir = root / "fixed"
     tts = tts or FakeTts()
     if fixed and not fixed_dir.exists():
@@ -146,6 +150,7 @@ def run(api, llm, root, config, title, now, jev=None, judge=None, tts=None, fixe
     return run_pipeline(
         api, llm, judge or FakeJudgeLlm(), jev or FakeJev(), root, config, title, now,
         tts=tts, stt=stt or FakeStt(tts=tts), fixed_dir=fixed_dir, audio_root=root / "build",
+        clock=clock, usage=usage,
     )  # fmt: skip
 
 
@@ -591,3 +596,53 @@ def test_step_output_is_appended_when_running_in_actions(tmp_path, monkeypatch):
     monkeypatch.setenv("GITHUB_OUTPUT", str(path))
     write_step_output("episode_id", "2026-11-19_rotfuchs")
     assert path.read_text() == "episode_id=2026-11-19_rotfuchs\n"
+
+
+LATER = datetime(2026, 11, 19, 10, 47, 12, tzinfo=UTC)
+
+
+def test_successful_run_records_end_time_and_token_counts(tmp_path):
+    usage = {"author": Usage("claude-sonnet-5-5"), "jev": Usage("jev-1.14.0")}
+    usage["author"].add(1000, 200)
+    episode_id = run(
+        FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW,
+        clock=lambda: LATER, usage=usage,
+    )  # fmt: skip
+    record = load_episode(tmp_path, episode_id)
+    assert record.started_at == "2026-11-19T10:30:00Z"
+    assert record.finished_at == "2026-11-19T10:47:12Z"
+    assert record.usage == {
+        "author": {
+            "model": "claude-sonnet-5-5",
+            "calls": 1,
+            "input_tokens": 1000,
+            "output_tokens": 200,
+        },
+        "jev": {"model": "jev-1.14.0", "calls": 0, "input_tokens": 0, "output_tokens": 0},
+    }
+    assert record.status == "running"
+
+
+def test_failed_run_records_end_time(tmp_path):
+    with pytest.raises(GateFailure):
+        run(
+            FakeApi("Rotfuchs", ["Kategorie:Mann"]), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW,
+            clock=lambda: LATER,
+        )  # fmt: skip
+    record = load_episode(tmp_path, "2026-11-19_rotfuchs")
+    assert record.status == "failed" and record.finished_at == "2026-11-19T10:47:12Z"
+
+
+class CrashingLlm(FakeLlm):
+    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+        raise RuntimeError("connection reset")
+
+
+def test_crashed_run_records_end_time_and_keeps_its_status(tmp_path):
+    with pytest.raises(RuntimeError):
+        run(
+            FakeApi("Rotfuchs", []), CrashingLlm(), tmp_path, CONFIG, "Rotfuchs", NOW,
+            clock=lambda: LATER,
+        )  # fmt: skip
+    record = load_episode(tmp_path, "2026-11-19_rotfuchs")
+    assert record.status == "running" and record.finished_at == "2026-11-19T10:47:12Z"

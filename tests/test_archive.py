@@ -42,9 +42,11 @@ def test_create_episode_writes_stable_indented_json(tmp_path):
         "title",
         "status",
         "started_at",
+        "finished_at",
         "published_at",
         "explicit",
         "failure",
+        "usage",
     ]
     assert text.splitlines()[1].startswith('  "episode_id"')
     assert data["status"] == "running"
@@ -95,3 +97,13 @@ def test_last_published_takes_latest(tmp_path):
 
 def test_record_type_matches_fields():
     assert EpisodeRecord("a", "b", "running", "c").published_at is None
+
+
+def test_episode_file_without_finished_at_and_usage_still_loads(tmp_path):
+    record = create_episode(tmp_path, "Rotfuchs", NOW)
+    path = episode_dir(tmp_path, record.episode_id) / "episode.json"
+    data = json.loads(path.read_text())
+    del data["finished_at"], data["usage"]
+    path.write_text(json.dumps(data))
+    loaded = load_episode(tmp_path, record.episode_id)
+    assert loaded.finished_at is None and loaded.usage == {}

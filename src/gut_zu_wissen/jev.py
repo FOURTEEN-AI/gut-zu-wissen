@@ -8,7 +8,9 @@ errors (design: "API-Fehler"):
 - configuration and invalid request (401, 402, 403, 404, other 400, 413, 415, 422)
   -> `JevAbortError`: abort and escalate.
 
-The API key comes from the environment (`TYPESAFE_API_KEY`).
+The API key comes from the environment (`TYPESAFE_API_KEY`). The token counts of every successful
+answer (`usage` in the response) are added to a `Usage` counter when given (cost log); error
+answers are not counted.
 """
 
 from __future__ import annotations
@@ -18,6 +20,8 @@ from collections.abc import Callable
 from typing import Protocol
 
 import httpx
+
+from gut_zu_wissen.usage import Usage
 
 API_URL = "https://api.typesafe.ai/v1/systemone"
 TRANSIENT_STATUS = {429, 500, 502, 503, 504, 529}
@@ -73,8 +77,10 @@ class HttpJev:
         api_key: str,
         client: httpx.Client | None = None,
         sleep: Callable[[float], None] = time.sleep,
+        usage: Usage | None = None,
     ) -> None:
         self._model = model
+        self._usage = usage
         self._max_retries = max_retries
         self._backoff = backoff_seconds
         self._sleep = sleep
@@ -94,6 +100,8 @@ class HttpJev:
                 status, body = 599, None
             error = classify(status, body) if status != 599 else JevTransientError
             if error is None:
+                if self._usage is not None:
+                    self._usage.add(*_tokens(body))
                 return _probabilities(body, questions)
             if error is JevTransientError and attempt < self._max_retries:
                 # The `retry-after` header, when present, is the server's own wish.
@@ -116,6 +124,19 @@ def _json(response: httpx.Response) -> object:
         return response.json()
     except ValueError:
         return None
+
+
+def _tokens(body: object) -> tuple[int, int]:
+    """`usage.input_tokens` and `usage.output_tokens` of a 200 answer (OpenAPI: both required);
+    a missing count is 0, so a malformed answer still counts as a call."""
+    usage = body.get("usage") if isinstance(body, dict) else None
+    usage = usage if isinstance(usage, dict) else {}
+
+    def count(key: str) -> int:
+        value = usage.get(key)
+        return value if isinstance(value, int) and not isinstance(value, bool) else 0
+
+    return count("input_tokens"), count("output_tokens")
 
 
 def _probabilities(body: object, questions: dict[str, dict]) -> dict[str, float]:
