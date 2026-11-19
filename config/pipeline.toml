@@ -16,6 +16,16 @@ max_retries = 3          # transient errors (429, 5xx, timeout); a 429 waits the
 backoff_seconds = 2.0    # doubled per attempt, when no wait time is named
 timeout_seconds = 300    # spike S4: about 30 s per 6-minute section, 173 s for 35 minutes
 
+[stt]
+# Whisper locally with faster-whisper (spike S5: large-v3 int8 takes about 11 min per 16 min of
+# audio on a 4-CPU Actions runner). Decoding settings as measured in S5.
+compute_type = "int8"
+cpu_threads = 4                     # ubuntu-latest runners for public repos have 4 vCPUs
+language = "de"
+beam_size = 5
+vad_filter = true
+condition_on_previous_text = false
+
 [review]
 r_initial = 1.0          # sampling rate start (100 %)
 r_min = 0.01             # lower bound (1 %)
@@ -29,7 +39,7 @@ jev = "jev-1.14.0"                  # TypeSafe, judge stage 1; pinned version (s
 tts = "gemini-3.8-flash-tts"        # Gemini 3.8 Flash TTS
 tts_voice_lena = "de-de-advisor-3"    # Gemini library voice, spike S4, confirmed by ear
 tts_voice_felix = "de-de-tutor-4"     # Gemini library voice, spike S4, confirmed by ear
-stt = "PLACEHOLDER"                 # Whisper model size, spike S5
+stt = "large-v3"                    # Whisper model (faster-whisper), spike S5
 
 [quotas]
 main_facts = 20

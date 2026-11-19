@@ -1,0 +1,89 @@
+"""Speech-to-text behind an interface (phase 1, step 10; design: "Verifikation"; spike S5).
+
+`Stt.transcribe` turns one synthesised section (mono samples and their rate) into text. The
+implementation is Whisper run locally with faster-whisper: model `large-v3`, `int8`, 4 CPU threads,
+German, beam size 5, VAD filter on, no conditioning on previous text (the settings measured in
+spike S5; all from the config). The model is loaded on the first call and kept for the run; it is
+downloaded from Hugging Face into `~/.cache/huggingface/hub`, which the episode workflow caches.
+
+Whisper reads arrays as 16 kHz mono, so the samples are resampled first (pure function). Any
+failure to load the model or to transcribe raises `SttError`: the run fails and escalates. Tests
+use fakes; nothing here downloads a model unless `transcribe` is called on a real `WhisperStt`.
+"""
+
+from __future__ import annotations
+
+from collections.abc import Callable, Mapping
+from typing import Any, Protocol
+
+import numpy as np
+from scipy.signal import resample_poly
+
+# Whisper's input format: a property of the model, not a setting.
+WHISPER_RATE_HZ = 16_000
+
+
+class SttError(Exception):
+    """The model could not be loaded or the audio could not be transcribed."""
+
+
+class Stt(Protocol):
+    def transcribe(self, y: np.ndarray, sr: int) -> str:
+        """Text spoken in the mono samples `y` at `sr` Hz."""
+        ...
+
+
+def to_whisper_rate(y: np.ndarray, sr: int) -> np.ndarray:
+    """Mono float32 samples at 16 kHz (polyphase resampling, exact rational ratio)."""
+    if sr <= 0:
+        raise SttError(f"Invalid sample rate {sr}.")
+    if sr != WHISPER_RATE_HZ:
+        g = np.gcd(sr, WHISPER_RATE_HZ)
+        y = resample_poly(y, WHISPER_RATE_HZ // g, sr // g)
+    return np.asarray(y, dtype=np.float32)
+
+
+def join_segments(texts: list[str]) -> str:
+    """Whisper segments to one text: each segment stripped, joined by single spaces."""
+    return " ".join(t.strip() for t in texts if t.strip())
+
+
+def _faster_whisper_model(name: str, compute_type: str, cpu_threads: int) -> Any:
+    from faster_whisper import WhisperModel  # heavy import, only when a real model is needed
+
+    return WhisperModel(name, device="cpu", compute_type=compute_type, cpu_threads=cpu_threads)
+
+
+class WhisperStt:
+    """`Stt` with faster-whisper on the CPU (spike S5)."""
+
+    def __init__(
+        self,
+        model: str,
+        settings: Mapping,
+        load: Callable[[str, str, int], Any] = _faster_whisper_model,
+    ) -> None:
+        self._name = model
+        self._settings = dict(settings)
+        self._load = load
+        self._model: Any = None
+
+    def transcribe(self, y: np.ndarray, sr: int) -> str:
+        s = self._settings
+        if self._model is None:
+            try:
+                self._model = self._load(self._name, s["compute_type"], s["cpu_threads"])
+            except Exception as exc:  # download, disk, unknown model name
+                raise SttError(f"Whisper model '{self._name}' could not be loaded: {exc}") from exc
+        samples = to_whisper_rate(y, sr)
+        try:
+            segments, _ = self._model.transcribe(
+                samples,
+                language=s["language"],
+                beam_size=s["beam_size"],
+                vad_filter=s["vad_filter"],
+                condition_on_previous_text=s["condition_on_previous_text"],
+            )
+            return join_segments([seg.text for seg in segments])  # the generator does the work
+        except Exception as exc:
+            raise SttError(f"Whisper transcription failed: {exc}") from exc
