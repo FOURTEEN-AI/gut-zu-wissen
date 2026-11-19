@@ -1,8 +1,9 @@
 """Run entry point: `python -m gut_zu_wissen.run "<article title>"`.
 
-Phase 1 steps 2 to 7: fetch the article, apply the gates, segment, extract facts, rank, add the
-linked intros, write the dialog, judge it, write the episode folder.
-The turn and conversation loops live in orchestrator.py (step 8); later steps are added here.
+Phase 1 steps 2 to 9: fetch the article, apply the gates, segment, extract facts, rank, add the
+linked intros, write the dialog, judge it, synthesise and normalise the audio, write the episode
+folder. The turn and conversation loops live in orchestrator.py (step 8), the audio step in
+episode_audio.py (step 9); later steps are added here.
 """
 
 from __future__ import annotations
@@ -16,6 +17,7 @@ from pathlib import Path
 
 from gut_zu_wissen.archive import (
     ARTICLE_FILE,
+    AUDIO_FILE,
     DIALOG_FILE,
     FACTS_FILE,
     JUDGEMENT_FILE,
@@ -30,9 +32,16 @@ from gut_zu_wissen.archive import (
     slugify,
     write_json,
 )
+from gut_zu_wissen.episode_audio import (
+    EPISODE_AUDIO,
+    AudioStepError,
+    new_record,
+    produce_audio,
+)
 from gut_zu_wissen.extraction import extract_facts
 from gut_zu_wissen.fetch import ArticleNotFoundError, HttpWikipediaApi, WikipediaApi, fetch_article
 from gut_zu_wissen.gates import is_living_person, repeat_gate_allows
+from gut_zu_wissen.intro_outro import ASSETS_DIR, FixedAudioError, load_fixed
 from gut_zu_wissen.jev import HttpJev, Jev
 from gut_zu_wissen.linked import LinkedIntro, SkippedLink, fetch_linked_intros
 from gut_zu_wissen.llm import AnthropicLlm, StructuredLlm
@@ -40,10 +49,12 @@ from gut_zu_wissen.orchestrator import GateFailure, Offer, Orchestration, orches
 from gut_zu_wissen.ranking import RankedFact, link_targets, offer_gate, rank_facts, ranked, raw_of
 from gut_zu_wissen.render import ParseRenderer
 from gut_zu_wissen.segmentation import segment_article
+from gut_zu_wissen.tts import GeminiTts, Tts, voices_of
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CONFIG_PATH = REPO_ROOT / "config" / "pipeline.toml"
 ARCHIVE_ROOT = REPO_ROOT / "archive"
+AUDIO_ROOT = REPO_ROOT / "build" / "audio"  # not committed (.gitignore: build/)
 
 
 def load_config(path: Path = CONFIG_PATH) -> dict:
@@ -60,8 +71,17 @@ def run(
     config: dict,
     title: str,
     now: datetime,
+    *,
+    tts: Tts,
+    fixed_dir: Path,
+    audio_root: Path,
 ) -> str:
-    """Run the steps implemented so far. Returns the episode ID; raises GateFailure."""
+    """Run the steps implemented so far. Returns the episode ID; raises GateFailure.
+
+    Intro and outro are checked first (`FixedAudioError`), before anything costs money. Audio
+    files go to `audio_root/<episode ID>/`.
+    """
+    fixed = load_fixed(fixed_dir, config["models"]["tts"], voices_of(config))
     article = fetch_article(api, title, now)
     record = create_episode(archive_root, article.title, now)
     write_json(episode_dir(archive_root, record.episode_id) / ARTICLE_FILE, article.to_dict())
@@ -163,6 +183,24 @@ def run(
         raise
     write_json(folder / DIALOG_FILE, state.dialog_dict())
     write_json(folder / JUDGEMENT_FILE, state.judgement_dict())
+
+    assert state.dialog is not None
+    audio_record = new_record(config)
+    try:
+        produce_audio(
+            audio_record,
+            state.dialog.turns,
+            tts,
+            fixed,
+            audio_root / record.episode_id,
+            config,
+        )
+    except AudioStepError as exc:
+        write_json(folder / AUDIO_FILE, audio_record.to_dict())
+        record.status, record.failure = "failed", str(exc)
+        save_episode(archive_root, record)
+        raise GateFailure(str(exc)) from exc
+    write_json(folder / AUDIO_FILE, audio_record.to_dict())
     return record.episode_id
 
 
@@ -191,6 +229,19 @@ def main(argv: list[str] | None = None) -> int:
         jev_config["timeout_seconds"],
         os.environ["TYPESAFE_API_KEY"],
     )
+    gemini_key = os.environ.get("GEMINI_API_KEY", "")
+    if not gemini_key:  # fail before the run spends anything; TTS comes last
+        print("::error::GEMINI_API_KEY is not set.", file=sys.stderr)
+        return 2
+    tts_config = config["tts"]
+    tts = GeminiTts(
+        config["models"]["tts"],
+        voices_of(config),
+        tts_config["max_retries"],
+        tts_config["backoff_seconds"],
+        tts_config["timeout_seconds"],
+        gemini_key,
+    )
     try:
         episode_id = run(
             HttpWikipediaApi(),
@@ -201,16 +252,27 @@ def main(argv: list[str] | None = None) -> int:
             config,
             args[0].strip(),
             datetime.now(UTC),
+            tts=tts,
+            fixed_dir=ASSETS_DIR,
+            audio_root=AUDIO_ROOT,
         )
     except ArticleNotFoundError:
         print(f"Article not found: {args[0]}", file=sys.stderr)
+        return 1
+    except FixedAudioError as exc:
+        print(f"::error::Aborted: {exc}", file=sys.stderr)
+        write_job_summary(f"## Episode aborted\n\n{exc}")
         return 1
     except GateFailure as exc:
         print(f"::error::Aborted: {exc}", file=sys.stderr)
         write_job_summary(f"## Episode aborted\n\n{exc}\n\nDetails in the archive folder.")
         return 1
-    write_job_summary(f"## Episode {episode_id}\n\nSteps up to the judge done.")
-    print(f"Episode {episode_id}: steps up to judge done.")
+    audio_file = AUDIO_ROOT / episode_id / EPISODE_AUDIO
+    write_job_summary(
+        f"## Episode {episode_id}\n\nSteps up to the audio done. "
+        f"Audio: `{audio_file.relative_to(REPO_ROOT)}` (workflow artifact, not committed)."
+    )
+    print(f"Episode {episode_id}: steps up to audio done ({audio_file}).")
     return 0
 
 

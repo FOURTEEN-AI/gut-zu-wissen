@@ -1,16 +1,22 @@
+import io
 import json
 import re
 from datetime import UTC, datetime
 
+import numpy as np
 import pytest
+import soundfile as sf
 
 from gut_zu_wissen.archive import create_episode, load_episode, save_episode
 from gut_zu_wissen.fetch import ArticleNotFoundError
+from gut_zu_wissen.intro_outro import FixedAudioError, synthesize_fixed
 from gut_zu_wissen.jev import JevAbortError
 from gut_zu_wissen.run import GateFailure, load_config
 from gut_zu_wissen.run import run as run_pipeline
+from gut_zu_wissen.tts import Synthesis, TtsError, voices_of
 
 NOW = datetime(2026, 11, 19, 10, 30, tzinfo=UTC)
+REAL = load_config()
 CONFIG = {
     "judge": {"t": 0.95},
     "quotas": {
@@ -23,7 +29,14 @@ CONFIG = {
         "min_used_facts": 1,
         "turn_retries": 2,
         "conversation_retries": 2,
+        "tts_section_max_chars": 6000,
+        "target_loudness_lufs": -16,
+        "true_peak_ceiling_dbtp": -1.5,
     },
+    "models": REAL["models"],
+    "tts": REAL["tts"],
+    "audio": REAL["audio"],
+    "prices": REAL["prices"],
 }
 
 
@@ -71,10 +84,36 @@ class FakeJudgeLlm:
         return {"reason": "Ablehnungsgrund."}
 
 
-def run(api, llm, root, config, title, now, jev=None, judge=None):
+def tone_wav(seconds: float) -> bytes:
+    """A quiet tone with edge silence, standing in for speech (24 kHz, 16 bit)."""
+    sr = 24_000
+    y = 0.05 * np.sin(2 * np.pi * 220 * np.arange(round(seconds * sr)) / sr)
+    y = np.concatenate([np.zeros(sr // 4), y, np.zeros(sr // 2)])
+    buffer = io.BytesIO()
+    sf.write(buffer, y, sr, format="WAV", subtype="PCM_16")
+    return buffer.getvalue()
+
+
+class FakeTts:
+    def __init__(self, error: Exception | None = None) -> None:
+        self.calls: list[list] = []
+        self.error = error
+
+    def synthesize(self, turns):
+        self.calls.append(list(turns))
+        if self.error:
+            raise self.error
+        return Synthesis(tone_wav(1.0), 100, 250)
+
+
+def run(api, llm, root, config, title, now, jev=None, judge=None, tts=None, fixed=True):
+    fixed_dir = root / "fixed"
+    if fixed and not fixed_dir.exists():
+        synthesize_fixed(FakeTts(), fixed_dir, config["models"]["tts"], voices_of(config))
     return run_pipeline(
-        api, llm, judge or FakeJudgeLlm(), jev or FakeJev(), root, config, title, now
-    )
+        api, llm, judge or FakeJudgeLlm(), jev or FakeJev(), root, config, title, now,
+        tts=tts or FakeTts(), fixed_dir=fixed_dir, audio_root=root / "build",
+    )  # fmt: skip
 
 
 class FakeApi:
@@ -359,3 +398,39 @@ def test_conversation_regeneration_succeeds_with_a_fresh_offer(tmp_path):
     judgement = json.loads((folder / "06_judgement.json").read_text())
     assert all(j["accepted"] for j in judgement["judgements"])
     assert judgement["used_fact_ids"] == ["5-0000"]
+
+
+def test_audio_is_synthesised_normalised_and_archived(tmp_path):
+    tts = FakeTts()
+    episode_id = run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, tts=tts)
+    record = json.loads((tmp_path / "episodes" / episode_id / "07_audio.json").read_text())
+    assert tts.calls == [[("Lena", "Text."), ("Felix", "Text.")]]  # one section
+    assert [s["turn_indices"] for s in record["sections"]] == [[0, 1]]
+    assert record["sections"][0]["usd"] == round((100 * 0.5 + 250 * 9.0) / 1e6, 4)
+    assert record["loudness"]["output_lufs"] == pytest.approx(-16, abs=0.1)
+    assert record["loudness"]["output_true_peak_dbtp"] <= -1.5
+    assert set(record["fixed_parts"]) == {"intro", "outro"}
+    folder = tmp_path / "build" / episode_id
+    assert (folder / "episode.flac").exists() and (folder / "sections" / "00.flac").exists()
+    assert record["file"] == "episode.flac"
+    assert list(record) == [
+        "model", "voices", "section_max_chars", "sections", "fixed_parts", "joins",
+        "loudness", "file", "sample_rate", "seconds", "usd",
+    ]  # fmt: skip
+
+
+def test_missing_intro_and_outro_abort_before_any_api_call(tmp_path):
+    llm = FakeLlm()
+    with pytest.raises(FixedAudioError):
+        run(FakeApi("Rotfuchs", []), llm, tmp_path, CONFIG, "Rotfuchs", NOW, fixed=False)
+    assert llm.calls == [] and not (tmp_path / "episodes").exists()
+
+
+def test_tts_failure_fails_the_run_and_archives_the_sections(tmp_path):
+    tts = FakeTts(error=TtsError("TTS answered 401: no key"))
+    with pytest.raises(GateFailure, match="TTS section 0"):
+        run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, tts=tts)
+    folder = tmp_path / "episodes" / "2026-11-19_rotfuchs"
+    assert load_episode(tmp_path, "2026-11-19_rotfuchs").status == "failed"
+    record = json.loads((folder / "07_audio.json").read_text())
+    assert record["sections"][0]["seconds"] is None and record["file"] is None
