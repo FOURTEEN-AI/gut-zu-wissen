@@ -1,0 +1,107 @@
+{
+  "title": "Cyborg",
+  "revid": 272192362,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-15T18:06:44Z",
+  "fetched_at": "2026-11-19T23:07:16Z",
+  "categories": [
+    "Kategorie:Abkürzung",
+    "Kategorie:Bionik",
+    "Kategorie:Englische Phrase",
+    "Kategorie:Philosophische Anthropologie",
+    "Kategorie:Science-Fiction-Konzept",
+    "Kategorie:Wikipedia:Artikel mit Video"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|behandelt das Mischwesen aus lebendigem Organismus und Maschine. Zu weiteren Bedeutungen siehe [[Cyborg (Begriffsklärung)]].}}\n\nDer Begriff '''Cyborg''' bezeichnet ein [[Mischwesen]] aus biologischem [[Organismus]] und [[Maschine]]. Zumeist werden damit Menschen beschrieben, deren Körperteile dauerhaft durch maschinelle Bauteile ergänzt werden. Der Name ist ein [[Akronym]], abgeleitet vom englischen '''''cyb'''ernetic '''org'''anism'' („[[Kybernetik|kybernetischer]] Organismus“). Im Gegensatz zu [[Roboter]]n und [[Androide]]n bezieht sich der Begriff Cyborg auf einen lebenden Organismus, dessen Funktionen wiederhergestellt oder Fähigkeiten verbessert wurden, indem künstliche Komponenten oder Technologien integriert wurden, die auf [[Rückkopplung]] beruhen.<ref>{{Literatur |Autor=Joseph Carvalko |Titel=The techno-human shell: a jump in the evolutionary gap |Auflage=1. Sunbury Press |Verlag=Sunbury Press |Ort=Mechanicsburg, PA |Datum=2012 |Sprache=en |ISBN=978-1-62006-165-7}}</ref>\n\nDie theoretische Diskussion des Cyborgs ist eng mit dem [[Transhumanismus]] verbunden. Futuristen wie [[Ray Kurzweil]] prognostizieren ein baldiges, irreversibles Verschwimmen der Grenzen zwischen Mensch und Maschine. Dies unterstreicht die Dringlichkeit ethischer und gesellschaftlicher Debatten über Enhancement (Erweiterung). Die Überlegungen zur Cyborg-Technologie erstrecken sich tatsächlich auf die Bio- und Medizintechnik sowie auf die Regulierung ethischer Fragen. Die Cyborgisierung ist ein aktueller Trend, der von verschiedenen Akteuren vorangetrieben wird. Ein Beispiel ist [[Neil Harbisson]], der sich selbst als erster staatlich anerkannter Cyborg bezeichnet.",
+  "segments": [
+    {
+      "id": "272192362-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Begriff '''Cyborg''' bezeichnet ein [[Mischwesen]] aus biologischem [[Organismus]] und [[Maschine]].",
+      "plain": null
+    },
+    {
+      "id": "272192362-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Zumeist werden damit Menschen beschrieben, deren Körperteile dauerhaft durch maschinelle Bauteile ergänzt werden.",
+      "plain": null
+    },
+    {
+      "id": "272192362-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Name ist ein [[Akronym]], abgeleitet vom englischen '''''cyb'''ernetic '''org'''anism'' („[[Kybernetik|kybernetischer]] Organismus“).",
+      "plain": null
+    },
+    {
+      "id": "272192362-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Gegensatz zu [[Roboter]]n und [[Androide]]n bezieht sich der Begriff Cyborg auf einen lebenden Organismus, dessen Funktionen wiederhergestellt oder Fähigkeiten verbessert wurden, indem künstliche Komponenten oder Technologien integriert wurden, die auf [[Rückkopplung]] beruhen.<ref>{{Literatur |Autor=Joseph Carvalko |Titel=The techno-human shell: a jump in the evolutionary gap |Auflage=1. Sunbury Press |Verlag=Sunbury Press |Ort=Mechanicsburg, PA |Datum=2012 |Sprache=en |ISBN=978-1-62006-165-7}}</ref>",
+      "plain": null
+    },
+    {
+      "id": "272192362-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die theoretische Diskussion des Cyborgs ist eng mit dem [[Transhumanismus]] verbunden.",
+      "plain": null
+    },
+    {
+      "id": "272192362-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Futuristen wie [[Ray Kurzweil]] prognostizieren ein baldiges, irreversibles Verschwimmen der Grenzen zwischen Mensch und Maschine.",
+      "plain": null
+    },
+    {
+      "id": "272192362-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dies unterstreicht die Dringlichkeit ethischer und gesellschaftlicher Debatten über Enhancement (Erweiterung).",
+      "plain": null
+    },
+    {
+      "id": "272192362-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Überlegungen zur Cyborg-Technologie erstrecken sich tatsächlich auf die Bio- und Medizintechnik sowie auf die Regulierung ethischer Fragen.",
+      "plain": null
+    },
+    {
+      "id": "272192362-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Cyborgisierung ist ein aktueller Trend, der von verschiedenen Akteuren vorangetrieben wird.",
+      "plain": null
+    },
+    {
+      "id": "272192362-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein Beispiel ist [[Neil Harbisson]], der sich selbst als erster staatlich anerkannter Cyborg bezeichnet.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272192362,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272192362-0009",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272192362-0008"
+        ],
+        "plain": "Ein Beispiel ist Neil Harbisson, der sich selbst als erster staatlich anerkannter Cyborg bezeichnet.",
+        "context_plain": [
+          "Die Cyborgisierung ist ein aktueller Trend, der von verschiedenen Akteuren vorangetrieben wird."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "title": "Balneologie",
+  "revid": 267474981,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-05-29T10:36:58Z",
+  "fetched_at": "2026-11-19T23:07:16Z",
+  "categories": [
+    "Kategorie:Balneologie",
+    "Kategorie:Medizinisches Fachgebiet"
+  ],
+  "intro_wikitext": "Die '''Balneologie''' (über lateinisch ''balneum'', „Bad“, von [[Altgriechisch|griechisch]] ''βαλανεῖον (balaneion)'' „Bad, Badeanstalt“,<ref>[[Wilhelm Gemoll|GEMOLL]]: Griechisch-deutsches Schul- und Handwörterbuch.</ref> und [[-logie]]) oder '''Bäderheilkunde''' ist die Lehre von der therapeutischen Anwendung natürlicher [[Heilwasser|Heilquellen]], Heilgase und [[Peloide]] in Form von Bädern, Trinkkuren und Inhalationen. Zur Balneologie gehören die '''Balneotherapie''' ('''Bädertherapie''', '''Badekuren'''), die '''Balneotechnik''', die '''Balneochemie''' ([[Hydrochemie]]) und die '''Balneophysik'''.<ref name=\"IBMK\" /> Die Lehre von den Heilquellen wurde '''Pegologie'''<ref>Bernhard Maximilian Lersch: ''Geschichte der Balneologie, Hydroposie und Pegologie, oder Der Gebrauch des Wassers zu religiösen, diätetischen und medicinischen Zwecken. Ein Beitrag zur Geschichte des Cultus und der Medicin.'' Würzburg 1863.</ref> genannt.",
+  "segments": [
+    {
+      "id": "267474981-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Balneologie''' (über lateinisch ''balneum'', „Bad“, von [[Altgriechisch|griechisch]] ''βαλανεῖον (balaneion)'' „Bad, Badeanstalt“,<ref>[[Wilhelm Gemoll|GEMOLL]]: Griechisch-deutsches Schul- und Handwörterbuch.</ref> und [[-logie]]) oder '''Bäderheilkunde''' ist die Lehre von der therapeutischen Anwendung natürlicher [[Heilwasser|Heilquellen]], Heilgase und [[Peloide]] in Form von Bädern, Trinkkuren und Inhalationen.",
+      "plain": null
+    },
+    {
+      "id": "267474981-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Zur Balneologie gehören die '''Balneotherapie''' ('''Bädertherapie''', '''Badekuren'''), die '''Balneotechnik''', die '''Balneochemie''' ([[Hydrochemie]]) und die '''Balneophysik'''.<ref name=\"IBMK\" />",
+      "plain": null
+    },
+    {
+      "id": "267474981-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Lehre von den Heilquellen wurde '''Pegologie'''<ref>Bernhard Maximilian Lersch: ''Geschichte der Balneologie, Hydroposie und Pegologie, oder Der Gebrauch des Wassers zu religiösen, diätetischen und medicinischen Zwecken. Ein Beitrag zur Geschichte des Cultus und der Medicin.'' Würzburg 1863.</ref> genannt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 267474981,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "267474981-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "267474981-0001"
+        ],
+        "plain": "Die Lehre von den Heilquellen wurde Pegologie genannt.",
+        "context_plain": [
+          "Zur Balneologie gehören die Balneotherapie (Bädertherapie, Badekuren), die Balneotechnik, die Balneochemie (Hydrochemie) und die Balneophysik."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}
