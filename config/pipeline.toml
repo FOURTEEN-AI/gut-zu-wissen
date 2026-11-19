@@ -44,6 +44,12 @@ reviewer = "ajFourteen"
 reviewer_associations = ["OWNER", "MEMBER", "COLLABORATOR"]
 issue_max_chars = 60000  # per issue body or comment; GitHub's limit is 65,536 characters
 
+[exit_criteria]
+# Phase 1 step 13: this many episodes fully reviewed (every drawn turn labelled) whose sample was
+# drawn at this rate (100 %). The explicit label is reported but not required.
+episodes = 5
+rate = 1.0
+
 [models]
 author = "claude-sonnet-5-5"        # extraction, ranking, dialog author (Claude Sonnet 5.5)
 llm_judge = "claude-sonnet-5-5"     # judge stage 2, same model as the author (design)
