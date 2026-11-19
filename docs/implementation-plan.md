@@ -18,7 +18,7 @@ These retire the open risks before the build starts.
 | S3 Rendering ✅ | Does `action=parse` per segment differ from in-article rendering? How do infobox parameters map to rendered row labels (see D3)? | Decision: per segment, or render once and map; label-mapping method |
 | S4 Gemini TTS ✅ | Voice choice, section length under the output limit (16,384 tokens per call), audibility of seams | Two voice names, section strategy |
 | S5 Whisper ✅ | Runtime for 15 min of audio on an Actions CPU runner (large vs. faster-whisper int8) | Model size, cache setup |
-| S6 Explicit | Accuracy of the explicit check (D7, step 11) on ~40 hand-labelled excerpts: false positives on factual mentions, false negatives on drastic depictions, share of `uncertain`, run-to-run stability | Error rates against owner-confirmed labels, prompt-change suggestions |
+| S6 Explicit ✅ | Accuracy of the explicit check (D7, step 11) on ~40 hand-labelled excerpts: false positives on factual mentions, false negatives on drastic depictions, share of `uncertain`, run-to-run stability | Error rates against owner-confirmed labels, prompt-change suggestions |
 
 ## Phase 1: Manual run to audio (Ausbaustufe 1)
 

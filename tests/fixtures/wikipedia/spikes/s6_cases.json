@@ -1,5 +1,5 @@
 {
- "_note": "Spike S6 cases (explicit check, D7). Short dialog excerpts between Lena and Felix, written for the spike in the style of the dialog author on the basis of the named German Wikipedia articles (CC BY-SA, see NOTICE); not copied text. `revid` is the latest sighted revision at the time the set was written, so the source revision and its authors can be found. Expected labels are a PROPOSAL by Claude under the rule of 2026-11-19 (only a drastic depiction of violence, sexuality or drugs, or spoken profanity, is explicit); they are not confirmed by the project owner. `confirmed` turns true per item once the owner has checked it.",
+ "_note": "Spike S6 cases (explicit check, D7). Short dialog excerpts between Lena and Felix, written for the spike in the style of the dialog author on the basis of the named German Wikipedia articles (CC BY-SA, see NOTICE); not copied text. `revid` is the latest sighted revision at the time the set was written, so the source revision and its authors can be found. Expected labels are a PROPOSAL by Claude under the rule of 2026-11-19 (only a drastic depiction of violence, sexuality or drugs, or spoken profanity, is explicit); the project owner confirmed all of them unchanged on 2026-11-19 (`confirmed: true`).",
  "items": [
   {
    "id": "c01",
@@ -8,7 +8,7 @@
    "group": "clean",
    "category": "none",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Construction history; no sensitive theme.",
    "turns": [
     [
@@ -36,7 +36,7 @@
    "group": "clean",
    "category": "none",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Geography and weather; no sensitive theme.",
    "turns": [
     [
@@ -60,7 +60,7 @@
    "group": "clean",
    "category": "none",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Mathematics; no sensitive theme.",
    "turns": [
     [
@@ -84,7 +84,7 @@
    "group": "clean",
    "category": "none",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Chemistry; no sensitive theme.",
    "turns": [
     [
@@ -108,7 +108,7 @@
    "group": "clean",
    "category": "none",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Software history; no sensitive theme.",
    "turns": [
     [
@@ -132,7 +132,7 @@
    "group": "clean",
    "category": "none",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Biography of a composer; no sensitive theme.",
    "turns": [
     [
@@ -156,7 +156,7 @@
    "group": "clean",
    "category": "none",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Mountaineering history; no sensitive theme.",
    "turns": [
     [
@@ -184,7 +184,7 @@
    "group": "clean",
    "category": "none",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Animal behaviour (communication); no sensitive theme.",
    "turns": [
     [
@@ -208,7 +208,7 @@
    "group": "clean",
    "category": "none",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Architecture history; no sensitive theme.",
    "turns": [
     [
@@ -236,7 +236,7 @@
    "group": "clean",
    "category": "none",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Astrophysics; 'verschlingt' is a technical metaphor, not violence.",
    "turns": [
     [
@@ -260,7 +260,7 @@
    "group": "clean",
    "category": "none",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Agriculture history; no sensitive theme.",
    "turns": [
     [
@@ -288,7 +288,7 @@
    "group": "clean",
    "category": "none",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Astronomy; no sensitive theme.",
    "turns": [
     [
@@ -312,7 +312,7 @@
    "group": "clean",
    "category": "none",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Geography; 'ach du meine Güte' is not profanity.",
    "turns": [
     [
@@ -340,7 +340,7 @@
    "group": "borderline",
    "category": "violence",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Battle and the king's death stated factually, no gory detail.",
    "turns": [
     [
@@ -372,7 +372,7 @@
    "group": "borderline",
    "category": "violence",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Execution in a history article, stated factually.",
    "turns": [
     [
@@ -400,7 +400,7 @@
    "group": "borderline",
    "category": "violence",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Predator hunting prey, described as behaviour.",
    "turns": [
     [
@@ -424,7 +424,7 @@
    "group": "borderline",
    "category": "drugs",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Wine growing and wine as a product; alcohol mentioned factually.",
    "turns": [
     [
@@ -452,7 +452,7 @@
    "group": "borderline",
    "category": "drugs",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Medication, mechanism and history; no dosing instructions.",
    "turns": [
     [
@@ -480,7 +480,7 @@
    "group": "borderline",
    "category": "violence",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Crime described factually; one injury mentioned without detail.",
    "turns": [
     [
@@ -508,7 +508,7 @@
    "group": "borderline",
    "category": "violence",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Disease and mass mortality stated factually; symptoms named, not dwelt on.",
    "turns": [
     [
@@ -536,7 +536,7 @@
    "group": "borderline",
    "category": "violence",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "War casualties as numbers; no vivid description.",
    "turns": [
     [
@@ -564,7 +564,7 @@
    "group": "borderline",
    "category": "drugs",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Traditional coca use and cocaine named factually, not glorified.",
    "turns": [
     [
@@ -588,7 +588,7 @@
    "group": "borderline",
    "category": "sexuality",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Sexual behaviour of an animal species, stated scientifically, no detail.",
    "turns": [
     [
@@ -616,7 +616,7 @@
    "group": "borderline",
    "category": "profanity",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "The famous vulgar quote is referred to, but not spoken.",
    "turns": [
     [
@@ -640,7 +640,7 @@
    "group": "borderline",
    "category": "violence",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Torture and executions named as historical facts, not described.",
    "turns": [
     [
@@ -668,7 +668,7 @@
    "group": "borderline",
    "category": "violence",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Hunting strategy and attacks on humans stated factually.",
    "turns": [
     [
@@ -692,7 +692,7 @@
    "group": "borderline",
    "category": "drugs",
    "expected": "clean",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Drug trade and addiction as historical facts, not glorified.",
    "turns": [
     [
@@ -720,7 +720,7 @@
    "group": "explicit",
    "category": "violence",
    "expected": "explicit",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Gory, vivid description of wounds and killing.",
    "turns": [
     [
@@ -748,7 +748,7 @@
    "group": "explicit",
    "category": "violence",
    "expected": "explicit",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Torture during an execution described step by step in detail.",
    "turns": [
     [
@@ -772,7 +772,7 @@
    "group": "explicit",
    "category": "violence",
    "expected": "explicit",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Impalement described in detail and with relish (glorifying tone).",
    "turns": [
     [
@@ -800,7 +800,7 @@
    "group": "explicit",
    "category": "violence",
    "expected": "explicit",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Mutilation of murder victims described in detail.",
    "turns": [
     [
@@ -820,7 +820,7 @@
    "group": "explicit",
    "category": "sexuality",
    "expected": "explicit",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Sexual acts and positions described explicitly.",
    "turns": [
     [
@@ -848,7 +848,7 @@
    "group": "explicit",
    "category": "sexuality",
    "expected": "explicit",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "A sexual encounter narrated explicitly.",
    "turns": [
     [
@@ -872,7 +872,7 @@
    "group": "explicit",
    "category": "sexuality",
    "expected": "explicit",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Clear, repeated sexual innuendo by the speakers.",
    "turns": [
     [
@@ -900,7 +900,7 @@
    "group": "explicit",
    "category": "drugs",
    "expected": "explicit",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Intoxication painted vividly and consumption glorified.",
    "turns": [
     [
@@ -928,7 +928,7 @@
    "group": "explicit",
    "category": "drugs",
    "expected": "explicit",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Getting drunk glorified, with a drinking recommendation.",
    "turns": [
     [
@@ -956,7 +956,7 @@
    "group": "explicit",
    "category": "drugs",
    "expected": "explicit",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Consumption advice (how to take them) plus glorification.",
    "turns": [
     [
@@ -984,7 +984,7 @@
    "group": "explicit",
    "category": "profanity",
    "expected": "explicit",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "The vulgar quote is spoken aloud. NEEDS OWNER DECISION: does quoting count as spoken profanity? The rule says yes (actually spoken).",
    "turns": [
     [
@@ -1008,7 +1008,7 @@
    "group": "explicit",
    "category": "profanity",
    "expected": "explicit",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Swear words in the speakers' own reactions.",
    "turns": [
     [
@@ -1036,7 +1036,7 @@
    "group": "explicit",
    "category": "profanity",
    "expected": "explicit",
-   "confirmed": false,
+   "confirmed": true,
    "rationale": "Insulting vulgar language about a historical person.",
    "turns": [
     [

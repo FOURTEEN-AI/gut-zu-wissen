@@ -6,7 +6,7 @@
 
 Code: [spikes/s6_explicit.py](../../spikes/s6_explicit.py). Cases: [tests/fixtures/wikipedia/spikes/s6_cases.json](../../tests/fixtures/wikipedia/spikes/s6_cases.json). Labelling sheet: [spikes/s6_labels.md](../../spikes/s6_labels.md). Every answer: [tests/fixtures/wikipedia/spikes/s6_results/](../../tests/fixtures/wikipedia/spikes/s6_results/). Run with `claude-sonnet-5-5` (`models.llm_judge`) on 2026-11-19. Total cost: 177k input and 22k output tokens, about **$0.58**.
 
-> **Labels are a proposal.** Claude wrote all excerpts and labels. The project owner has not confirmed them yet, so every number here is measured against proposed labels. The spike is done only after the owner confirms the labels (`confirmed: true` per item). See [Rerun](#rerun).
+> **Labels confirmed.** Claude wrote all excerpts and proposed the labels; the project owner confirmed all 40 unchanged on 2026-11-19. The set is easy (every excerpt is clearly on one side of the rule), so the 0 % rates are an upper bound on quality, not a measurement of real scripts. Better data comes from the explicit labels in the review loop (step 12). Open: whether a spoken vulgar quote (e11) and mild words such as „verdammt“ count as profanity. See [Rerun](#rerun).
 
 ## Cases
 

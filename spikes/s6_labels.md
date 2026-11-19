@@ -13,50 +13,50 @@ calls needed). Or just reply with the IDs to flip.
 
 | ID | Article | Intent | Proposed | Why | Your label |
 |---|---|---|---|---|---|
-| c01 | Eiffelturm | clean/none | clean | Construction history; no sensitive theme. |  |
-| c02 | Zugspitze | clean/none | clean | Geography and weather; no sensitive theme. |  |
-| c03 | Satz des Pythagoras | clean/none | clean | Mathematics; no sensitive theme. |  |
-| c04 | Wasser | clean/none | clean | Chemistry; no sensitive theme. |  |
-| c05 | Python (Programmiersprache) | clean/none | clean | Software history; no sensitive theme. |  |
-| c06 | Johann Sebastian Bach | clean/none | clean | Biography of a composer; no sensitive theme. |  |
-| c07 | Mount Everest | clean/none | clean | Mountaineering history; no sensitive theme. |  |
-| c08 | Westliche Honigbiene | clean/none | clean | Animal behaviour (communication); no sensitive theme. |  |
-| c09 | Kölner Dom | clean/none | clean | Architecture history; no sensitive theme. |  |
-| c10 | Schwarzes Loch | clean/none | clean | Astrophysics; 'verschlingt' is a technical metaphor, not violence. |  |
-| c11 | Kartoffel | clean/none | clean | Agriculture history; no sensitive theme. |  |
-| c12 | Mond | clean/none | clean | Astronomy; no sensitive theme. |  |
-| c13 | Rhein | clean/none | clean | Geography; 'ach du meine Güte' is not profanity. |  |
-| b01 | Schlacht bei Hastings | borderline/violence | clean | Battle and the king's death stated factually, no gory detail. |  |
-| b02 | Ludwig XVI. | borderline/violence | clean | Execution in a history article, stated factually. |  |
-| b03 | Rotfuchs | borderline/violence | clean | Predator hunting prey, described as behaviour. |  |
-| b04 | Riesling | borderline/drugs | clean | Wine growing and wine as a product; alcohol mentioned factually. |  |
-| b05 | Ibuprofen | borderline/drugs | clean | Medication, mechanism and history; no dosing instructions. |  |
-| b06 | Postzugraub | borderline/violence | clean | Crime described factually; one injury mentioned without detail. |  |
-| b07 | Schwarzer Tod | borderline/violence | clean | Disease and mass mortality stated factually; symptoms named, not dwelt on. |  |
-| b08 | Schlacht um Verdun | borderline/violence | clean | War casualties as numbers; no vivid description. |  |
-| b09 | Cocastrauch | borderline/drugs | clean | Traditional coca use and cocaine named factually, not glorified. |  |
-| b10 | Bonobo | borderline/sexuality | clean | Sexual behaviour of an animal species, stated scientifically, no detail. |  |
-| b11 | Götz von Berlichingen | borderline/profanity | clean | The famous vulgar quote is referred to, but not spoken. |  |
-| b12 | Hexenverfolgung | borderline/violence | clean | Torture and executions named as historical facts, not described. |  |
-| b13 | Weißer Hai | borderline/violence | clean | Hunting strategy and attacks on humans stated factually. |  |
-| b14 | Opiumkriege | borderline/drugs | clean | Drug trade and addiction as historical facts, not glorified. |  |
-| e01 | Schlacht bei Hastings | explicit/violence | explicit | Gory, vivid description of wounds and killing. |  |
-| e02 | Robert François Damiens | explicit/violence | explicit | Torture during an execution described step by step in detail. |  |
-| e03 | Vlad III. Drăculea | explicit/violence | explicit | Impalement described in detail and with relish (glorifying tone). |  |
-| e04 | Jack the Ripper | explicit/violence | explicit | Mutilation of murder victims described in detail. |  |
-| e05 | Kamasutra | explicit/sexuality | explicit | Sexual acts and positions described explicitly. |  |
-| e06 | Giacomo Casanova | explicit/sexuality | explicit | A sexual encounter narrated explicitly. |  |
-| e07 | Spargel | explicit/sexuality | explicit | Clear, repeated sexual innuendo by the speakers. |  |
-| e08 | LSD | explicit/drugs | explicit | Intoxication painted vividly and consumption glorified. |  |
-| e09 | Absinth | explicit/drugs | explicit | Getting drunk glorified, with a drinking recommendation. |  |
-| e10 | Psilocybinhaltige Pilze | explicit/drugs | explicit | Consumption advice (how to take them) plus glorification. |  |
-| e11 | Götz von Berlichingen | explicit/profanity | explicit | The vulgar quote is spoken aloud. NEEDS OWNER DECISION: does quoting count as spoken profanity? The rule says yes (actually spoken). |  |
-| e12 | Nuklearkatastrophe von Tschernobyl | explicit/profanity | explicit | Swear words in the speakers' own reactions. |  |
-| e13 | Herostratos | explicit/profanity | explicit | Insulting vulgar language about a historical person. |  |
+| c01 | Eiffelturm | clean/none | clean | Construction history; no sensitive theme. | clean |
+| c02 | Zugspitze | clean/none | clean | Geography and weather; no sensitive theme. | clean |
+| c03 | Satz des Pythagoras | clean/none | clean | Mathematics; no sensitive theme. | clean |
+| c04 | Wasser | clean/none | clean | Chemistry; no sensitive theme. | clean |
+| c05 | Python (Programmiersprache) | clean/none | clean | Software history; no sensitive theme. | clean |
+| c06 | Johann Sebastian Bach | clean/none | clean | Biography of a composer; no sensitive theme. | clean |
+| c07 | Mount Everest | clean/none | clean | Mountaineering history; no sensitive theme. | clean |
+| c08 | Westliche Honigbiene | clean/none | clean | Animal behaviour (communication); no sensitive theme. | clean |
+| c09 | Kölner Dom | clean/none | clean | Architecture history; no sensitive theme. | clean |
+| c10 | Schwarzes Loch | clean/none | clean | Astrophysics; 'verschlingt' is a technical metaphor, not violence. | clean |
+| c11 | Kartoffel | clean/none | clean | Agriculture history; no sensitive theme. | clean |
+| c12 | Mond | clean/none | clean | Astronomy; no sensitive theme. | clean |
+| c13 | Rhein | clean/none | clean | Geography; 'ach du meine Güte' is not profanity. | clean |
+| b01 | Schlacht bei Hastings | borderline/violence | clean | Battle and the king's death stated factually, no gory detail. | clean |
+| b02 | Ludwig XVI. | borderline/violence | clean | Execution in a history article, stated factually. | clean |
+| b03 | Rotfuchs | borderline/violence | clean | Predator hunting prey, described as behaviour. | clean |
+| b04 | Riesling | borderline/drugs | clean | Wine growing and wine as a product; alcohol mentioned factually. | clean |
+| b05 | Ibuprofen | borderline/drugs | clean | Medication, mechanism and history; no dosing instructions. | clean |
+| b06 | Postzugraub | borderline/violence | clean | Crime described factually; one injury mentioned without detail. | clean |
+| b07 | Schwarzer Tod | borderline/violence | clean | Disease and mass mortality stated factually; symptoms named, not dwelt on. | clean |
+| b08 | Schlacht um Verdun | borderline/violence | clean | War casualties as numbers; no vivid description. | clean |
+| b09 | Cocastrauch | borderline/drugs | clean | Traditional coca use and cocaine named factually, not glorified. | clean |
+| b10 | Bonobo | borderline/sexuality | clean | Sexual behaviour of an animal species, stated scientifically, no detail. | clean |
+| b11 | Götz von Berlichingen | borderline/profanity | clean | The famous vulgar quote is referred to, but not spoken. | clean |
+| b12 | Hexenverfolgung | borderline/violence | clean | Torture and executions named as historical facts, not described. | clean |
+| b13 | Weißer Hai | borderline/violence | clean | Hunting strategy and attacks on humans stated factually. | clean |
+| b14 | Opiumkriege | borderline/drugs | clean | Drug trade and addiction as historical facts, not glorified. | clean |
+| e01 | Schlacht bei Hastings | explicit/violence | explicit | Gory, vivid description of wounds and killing. | explicit |
+| e02 | Robert François Damiens | explicit/violence | explicit | Torture during an execution described step by step in detail. | explicit |
+| e03 | Vlad III. Drăculea | explicit/violence | explicit | Impalement described in detail and with relish (glorifying tone). | explicit |
+| e04 | Jack the Ripper | explicit/violence | explicit | Mutilation of murder victims described in detail. | explicit |
+| e05 | Kamasutra | explicit/sexuality | explicit | Sexual acts and positions described explicitly. | explicit |
+| e06 | Giacomo Casanova | explicit/sexuality | explicit | A sexual encounter narrated explicitly. | explicit |
+| e07 | Spargel | explicit/sexuality | explicit | Clear, repeated sexual innuendo by the speakers. | explicit |
+| e08 | LSD | explicit/drugs | explicit | Intoxication painted vividly and consumption glorified. | explicit |
+| e09 | Absinth | explicit/drugs | explicit | Getting drunk glorified, with a drinking recommendation. | explicit |
+| e10 | Psilocybinhaltige Pilze | explicit/drugs | explicit | Consumption advice (how to take them) plus glorification. | explicit |
+| e11 | Götz von Berlichingen | explicit/profanity | explicit | The vulgar quote is spoken aloud. NEEDS OWNER DECISION: does quoting count as spoken profanity? The rule says yes (actually spoken). | explicit |
+| e12 | Nuklearkatastrophe von Tschernobyl | explicit/profanity | explicit | Swear words in the speakers' own reactions. | explicit |
+| e13 | Herostratos | explicit/profanity | explicit | Insulting vulgar language about a historical person. | explicit |
 
 ## clean
 
-### c01 · Eiffelturm · none → **clean** (proposed)
+### c01 · Eiffelturm · none → **clean** (confirmed)
 
 *Construction history; no sensitive theme.*
 
@@ -65,7 +65,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Moment, das muss ich kurz sortieren. Also ein riesiger Bausatz?  
 > **Lena:** Genau. Rund achtzehntausend Einzelteile, jedes mit eigener Zeichnung.  
 
-### c02 · Zugspitze · none → **clean** (proposed)
+### c02 · Zugspitze · none → **clean** (confirmed)
 
 *Geography and weather; no sensitive theme.*
 
@@ -73,7 +73,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Und wie oft hat man da oben schönes Wetter?  
 > **Lena:** Seltener, als man denkt. An etwa sechzig Tagen im Jahr herrscht in der Region Föhn.  
 
-### c03 · Satz des Pythagoras · none → **clean** (proposed)
+### c03 · Satz des Pythagoras · none → **clean** (confirmed)
 
 *Mathematics; no sensitive theme.*
 
@@ -81,7 +81,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Lena:** Ja, aber spannend ist: Der Satz war schon lange vor Pythagoras bekannt, etwa in Babylonien.  
 > **Felix:** Echt? Erzähl mehr, das will ich genauer wissen.  
 
-### c04 · Wasser · none → **clean** (proposed)
+### c04 · Wasser · none → **clean** (confirmed)
 
 *Chemistry; no sensitive theme.*
 
@@ -89,7 +89,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Und was bedeutet das für einen See im Winter?  
 > **Lena:** Das schwerere, vier Grad warme Wasser sinkt nach unten. Darum friert ein See von oben zu, und die Fische überleben am Grund.  
 
-### c05 · Python (Programmiersprache) · none → **clean** (proposed)
+### c05 · Python (Programmiersprache) · none → **clean** (confirmed)
 
 *Software history; no sensitive theme.*
 
@@ -97,7 +97,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Lena:** Nein, und das überrascht viele. Guido van Rossum hat die Sprache nach der Komikertruppe Monty Python benannt.  
 > **Felix:** Okay, damit hätte ich jetzt wirklich nicht gerechnet.  
 
-### c06 · Johann Sebastian Bach · none → **clean** (proposed)
+### c06 · Johann Sebastian Bach · none → **clean** (confirmed)
 
 *Biography of a composer; no sensitive theme.*
 
@@ -105,7 +105,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Gewandert? Wie weit ist das?  
 > **Lena:** Rund vierhundert Kilometer. Und statt der genehmigten vier Wochen blieb er etwa vier Monate weg.  
 
-### c07 · Mount Everest · none → **clean** (proposed)
+### c07 · Mount Everest · none → **clean** (confirmed)
 
 *Mountaineering history; no sensitive theme.*
 
@@ -114,7 +114,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Und wie lange blieben sie oben?  
 > **Lena:** Nur etwa fünfzehn Minuten.  
 
-### c08 · Westliche Honigbiene · none → **clean** (proposed)
+### c08 · Westliche Honigbiene · none → **clean** (confirmed)
 
 *Animal behaviour (communication); no sensitive theme.*
 
@@ -122,7 +122,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Und die anderen verstehen das?  
 > **Lena:** Ja. Die Richtung des Tanzes zeigt den Winkel zur Sonne, die Dauer des Schwänzelns die Entfernung.  
 
-### c09 · Kölner Dom · none → **clean** (proposed)
+### c09 · Kölner Dom · none → **clean** (confirmed)
 
 *Architecture history; no sensitive theme.*
 
@@ -131,7 +131,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Über sechshundert Jahre? Wie kann das sein?  
 > **Lena:** Der Bau ruhte jahrhundertelang. Ein mittelalterlicher Kran stand die ganze Zeit auf dem Südturm.  
 
-### c10 · Schwarzes Loch · none → **clean** (proposed)
+### c10 · Schwarzes Loch · none → **clean** (confirmed)
 
 *Astrophysics; 'verschlingt' is a technical metaphor, not violence.*
 
@@ -139,7 +139,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Und was passiert mit einem Stern, der zu nahe kommt?  
 > **Lena:** Die Gezeitenkräfte können ihn zerreißen. Ein Teil des Gases wird verschluckt, ein Teil ins All geschleudert.  
 
-### c11 · Kartoffel · none → **clean** (proposed)
+### c11 · Kartoffel · none → **clean** (confirmed)
 
 *Agriculture history; no sensitive theme.*
 
@@ -148,7 +148,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Und dann haben sie alle sofort gegessen?  
 > **Lena:** Im Gegenteil. Lange galt sie vor allem als Zierpflanze.  
 
-### c12 · Mond · none → **clean** (proposed)
+### c12 · Mond · none → **clean** (confirmed)
 
 *Astronomy; no sensitive theme.*
 
@@ -156,7 +156,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Halt, wirklich? Und warum?  
 > **Lena:** Wegen der Gezeitenreibung. Sie bremst die Erdrotation und schiebt den Mond langsam nach außen.  
 
-### c13 · Rhein · none → **clean** (proposed)
+### c13 · Rhein · none → **clean** (confirmed)
 
 *Geography; 'ach du meine Güte' is not profanity.*
 
@@ -167,7 +167,7 @@ calls needed). Or just reply with the IDs to flip.
 
 ## borderline
 
-### b01 · Schlacht bei Hastings · violence → **clean** (proposed)
+### b01 · Schlacht bei Hastings · violence → **clean** (confirmed)
 
 *Battle and the king's death stated factually, no gory detail.*
 
@@ -177,7 +177,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Und damit war England erobert?  
 > **Lena:** Im Wesentlichen ja. Wilhelm wurde an Weihnachten in Westminster gekrönt.  
 
-### b02 · Ludwig XVI. · violence → **clean** (proposed)
+### b02 · Ludwig XVI. · violence → **clean** (confirmed)
 
 *Execution in a history article, stated factually.*
 
@@ -186,7 +186,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Und das Urteil war knapp?  
 > **Lena:** Ja, über die sofortige Vollstreckung wurde gesondert abgestimmt, und die Mehrheit war nicht groß.  
 
-### b03 · Rotfuchs · violence → **clean** (proposed)
+### b03 · Rotfuchs · violence → **clean** (confirmed)
 
 *Predator hunting prey, described as behaviour.*
 
@@ -194,7 +194,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Wie muss ich mir das vorstellen?  
 > **Lena:** Er hört die Maus unter dem Schnee, springt hoch in die Luft und drückt sie mit den Vorderpfoten zu Boden. Dann tötet er sie mit einem Biss.  
 
-### b04 · Riesling · drugs → **clean** (proposed)
+### b04 · Riesling · drugs → **clean** (confirmed)
 
 *Wine growing and wine as a product; alcohol mentioned factually.*
 
@@ -203,7 +203,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Und warum ist er so beliebt?  
 > **Lena:** Er reift spät, verträgt kühles Klima und ergibt Weine mit viel Säure, die lange lagern können.  
 
-### b05 · Ibuprofen · drugs → **clean** (proposed)
+### b05 · Ibuprofen · drugs → **clean** (confirmed)
 
 *Medication, mechanism and history; no dosing instructions.*
 
@@ -212,7 +212,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Lena:** Es hemmt Enzyme, die an der Bildung von Prostaglandinen beteiligt sind. Das lindert Schmerzen, Fieber und Entzündungen.  
 > **Felix:** Moment, das muss ich kurz sortieren: Es setzt also an der Ursache des Schmerzsignals an?  
 
-### b06 · Postzugraub · violence → **clean** (proposed)
+### b06 · Postzugraub · violence → **clean** (confirmed)
 
 *Crime described factually; one injury mentioned without detail.*
 
@@ -221,7 +221,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Ging das ohne Gewalt ab?  
 > **Lena:** Nicht ganz. Der Lokführer wurde niedergeschlagen und am Kopf verletzt. Die meisten Täter wurden später gefasst.  
 
-### b07 · Schwarzer Tod · violence → **clean** (proposed)
+### b07 · Schwarzer Tod · violence → **clean** (confirmed)
 
 *Disease and mass mortality stated factually; symptoms named, not dwelt on.*
 
@@ -230,7 +230,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Lena:** Schätzungen gehen von einem Drittel bis zur Hälfte der Bevölkerung aus. Typisch waren Fieber und stark geschwollene Lymphknoten, die Beulen.  
 > **Felix:** Ein Drittel? Das ist unvorstellbar.  
 
-### b08 · Schlacht um Verdun · violence → **clean** (proposed)
+### b08 · Schlacht um Verdun · violence → **clean** (confirmed)
 
 *War casualties as numbers; no vivid description.*
 
@@ -239,7 +239,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Und die Verluste?  
 > **Lena:** Auf beiden Seiten zusammen gab es schätzungsweise rund dreihunderttausend Tote.  
 
-### b09 · Cocastrauch · drugs → **clean** (proposed)
+### b09 · Cocastrauch · drugs → **clean** (confirmed)
 
 *Traditional coca use and cocaine named factually, not glorified.*
 
@@ -247,7 +247,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Ist das nicht dasselbe wie Kokain?  
 > **Lena:** Nein. Die Blätter enthalten nur sehr wenig Alkaloid. Kokain wird erst durch chemische Verarbeitung gewonnen und ist in den meisten Ländern verboten.  
 
-### b10 · Bonobo · sexuality → **clean** (proposed)
+### b10 · Bonobo · sexuality → **clean** (confirmed)
 
 *Sexual behaviour of an animal species, stated scientifically, no detail.*
 
@@ -256,7 +256,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Echt? Erzähl mehr.  
 > **Lena:** Forscher sehen darin ein Mittel zur Versöhnung. Außerdem haben in Bonobogruppen oft die Weibchen das Sagen.  
 
-### b11 · Götz von Berlichingen · profanity → **clean** (proposed)
+### b11 · Götz von Berlichingen · profanity → **clean** (confirmed)
 
 *The famous vulgar quote is referred to, but not spoken.*
 
@@ -264,7 +264,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Und von ihm stammt dieses berühmte Zitat, oder?  
 > **Lena:** Genauer gesagt von Goethe, der ihm in seinem Drama einen derben Satz in den Mund legte. Der Satz ist heute als Götz-Zitat bekannt.  
 
-### b12 · Hexenverfolgung · violence → **clean** (proposed)
+### b12 · Hexenverfolgung · violence → **clean** (confirmed)
 
 *Torture and executions named as historical facts, not described.*
 
@@ -273,7 +273,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Und wie kamen die Geständnisse zustande?  
 > **Lena:** Meist unter Folter. Schätzungen gehen von etwa sechzigtausend Hinrichtungen in Europa aus.  
 
-### b13 · Weißer Hai · violence → **clean** (proposed)
+### b13 · Weißer Hai · violence → **clean** (confirmed)
 
 *Hunting strategy and attacks on humans stated factually.*
 
@@ -281,7 +281,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Und Menschen? Ist der Ruf berechtigt?  
 > **Lena:** Angriffe auf Menschen sind selten. Forscher vermuten, dass er Surfer manchmal mit Robben verwechselt und nach einem Probebiss ablässt.  
 
-### b14 · Opiumkriege · drugs → **clean** (proposed)
+### b14 · Opiumkriege · drugs → **clean** (confirmed)
 
 *Drug trade and addiction as historical facts, not glorified.*
 
@@ -292,7 +292,7 @@ calls needed). Or just reply with the IDs to flip.
 
 ## explicit
 
-### e01 · Schlacht bei Hastings · violence → **explicit** (proposed)
+### e01 · Schlacht bei Hastings · violence → **explicit** (confirmed)
 
 *Gory, vivid description of wounds and killing.*
 
@@ -301,7 +301,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Und Harold?  
 > **Lena:** Der Pfeil bohrte sich tief in sein Auge, und als er zusammenbrach, hackten ihm die Ritter noch die Beine ab.  
 
-### e02 · Robert François Damiens · violence → **explicit** (proposed)
+### e02 · Robert François Damiens · violence → **explicit** (confirmed)
 
 *Torture during an execution described step by step in detail.*
 
@@ -309,7 +309,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Wie lief die Hinrichtung ab?  
 > **Lena:** Man riss ihm mit glühenden Zangen Fleisch aus Armen und Brust und goss geschmolzenes Blei und siedendes Öl in die Wunden. Dann spannte man Pferde an seine Glieder, die ihn stundenlang auseinanderzerrten, bis die Henker ihm die Sehnen durchschnitten.  
 
-### e03 · Vlad III. Drăculea · violence → **explicit** (proposed)
+### e03 · Vlad III. Drăculea · violence → **explicit** (confirmed)
 
 *Impalement described in detail and with relish (glorifying tone).*
 
@@ -318,14 +318,14 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Ehrlich gesagt ist das ziemlich genial. So hält man sich die Feinde vom Leib.  
 > **Lena:** Ein ganzer Wald aus Gepfählten vor der Stadt – ein grandioses Bild.  
 
-### e04 · Jack the Ripper · violence → **explicit** (proposed)
+### e04 · Jack the Ripper · violence → **explicit** (confirmed)
 
 *Mutilation of murder victims described in detail.*
 
 > **Felix:** Was war an den Morden in Whitechapel so besonders?  
 > **Lena:** Der Täter schnitt seinen Opfern die Kehle bis zur Wirbelsäule durch und öffnete dann den Unterleib. Bei Mary Jane Kelly lagen Teile der Organe neben ihr auf dem Tisch, das Gesicht war bis zur Unkenntlichkeit zerschnitten.  
 
-### e05 · Kamasutra · sexuality → **explicit** (proposed)
+### e05 · Kamasutra · sexuality → **explicit** (confirmed)
 
 *Sexual acts and positions described explicitly.*
 
@@ -334,7 +334,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Und das steht da so ausführlich drin?  
 > **Lena:** Noch ausführlicher: wie man den Körper des anderen streichelt, küsst und beißt, bis beide zum Höhepunkt kommen.  
 
-### e06 · Giacomo Casanova · sexuality → **explicit** (proposed)
+### e06 · Giacomo Casanova · sexuality → **explicit** (confirmed)
 
 *A sexual encounter narrated explicitly.*
 
@@ -342,7 +342,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Zum Beispiel?  
 > **Lena:** In einer Nacht in Venedig zieht er der Nonne das Gewand aus, küsst ihre Brüste und schläft mehrmals hintereinander mit ihr, während ein Freund durch ein Loch in der Wand zusieht.  
 
-### e07 · Spargel · sexuality → **explicit** (proposed)
+### e07 · Spargel · sexuality → **explicit** (confirmed)
 
 *Clear, repeated sexual innuendo by the speakers.*
 
@@ -351,7 +351,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Lena:** Na ja, man sagt ja nicht umsonst, dass er im Bett Wunder wirkt. Je dicker, desto mehr Spaß.  
 > **Felix:** Dann weiß ich ja, was ich heute Abend vernasche.  
 
-### e08 · LSD · drugs → **explicit** (proposed)
+### e08 · LSD · drugs → **explicit** (confirmed)
 
 *Intoxication painted vividly and consumption glorified.*
 
@@ -360,7 +360,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Lena:** Die Wände begannen zu atmen, Farben explodierten wie ein Kaleidoskop, Klänge verwandelten sich in Bilder. Ein absolut irres, wunderschönes Erlebnis.  
 > **Felix:** Klingt fantastisch. Das sollte man eigentlich jedem mal gönnen.  
 
-### e09 · Absinth · drugs → **explicit** (proposed)
+### e09 · Absinth · drugs → **explicit** (confirmed)
 
 *Getting drunk glorified, with a drinking recommendation.*
 
@@ -369,7 +369,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Dann sieht man die grüne Fee?  
 > **Lena:** Und wie. Ein besseres Gefühl als diesen Rausch gibt es kaum – sollte jeder mal erlebt haben.  
 
-### e10 · Psilocybinhaltige Pilze · drugs → **explicit** (proposed)
+### e10 · Psilocybinhaltige Pilze · drugs → **explicit** (confirmed)
 
 *Consumption advice (how to take them) plus glorification.*
 
@@ -378,7 +378,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Felix:** Klingt nach einem perfekten Wochenende.  
 > **Lena:** Absolut. Die Welt fühlt sich danach ganz neu an.  
 
-### e11 · Götz von Berlichingen · profanity → **explicit** (proposed)
+### e11 · Götz von Berlichingen · profanity → **explicit** (confirmed)
 
 *The vulgar quote is spoken aloud. NEEDS OWNER DECISION: does quoting count as spoken profanity? The rule says yes (actually spoken).*
 
@@ -386,7 +386,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Lena:** Bei Goethe sagt Götz dem Hauptmann: Er aber, sag’s ihm, er kann mich im Arsche lecken.  
 > **Felix:** Und daraus wurde dann das bekannte „Leck mich am Arsch“?  
 
-### e12 · Nuklearkatastrophe von Tschernobyl · profanity → **explicit** (proposed)
+### e12 · Nuklearkatastrophe von Tschernobyl · profanity → **explicit** (confirmed)
 
 *Swear words in the speakers' own reactions.*
 
@@ -395,7 +395,7 @@ calls needed). Or just reply with the IDs to flip.
 > **Lena:** Die Stadt wurde erst am nächsten Tag evakuiert.  
 > **Felix:** Verdammte Scheiße, das ist ja krass.  
 
-### e13 · Herostratos · profanity → **explicit** (proposed)
+### e13 · Herostratos · profanity → **explicit** (confirmed)
 
 *Insulting vulgar language about a historical person.*
 
