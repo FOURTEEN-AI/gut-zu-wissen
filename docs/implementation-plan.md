@@ -54,7 +54,7 @@ These retire the open risks before the build starts.
    - Intro and outro synthesized once and committed.
    - Concatenation and loudness normalization to −16 LUFS (`target_loudness_lufs`) with a true-peak limiter (ceiling `true_peak_ceiling_dbtp`, −1.5 dBTP). A test checks loudness and peak ceiling of the output.
 10. **STT verification.** ✅ Done. Normalization, diff per section, LLM decision on whether a deviation changes the statement, resynthesis of the affected section.
-11. **Explicit check (D7).** LLM judges the final script; any violence, sexuality, drugs or profanity → episode flagged explicit. Uncertain → explicit. Result stored in the archive.
+11. **Explicit check (D7).** ✅ Done. LLM judges the final script; any violence, sexuality, drugs or profanity → episode flagged explicit. Uncertain → explicit. Result stored in the archive.
 12. **Review loop.**
     - Sampling with rate r; r state in the repo.
     - Review issue in machine-readable format.
