@@ -14,7 +14,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   episode:
@@ -29,4 +29,17 @@ jobs:
         with:
           python-version: "3.12"
       - run: uv sync --no-dev
-      # Pipeline steps follow in later plan steps.
+      - name: Run pipeline
+        env:
+          ARTICLE: ${{ inputs.article }}
+        run: uv run python -m gut_zu_wissen.run "$ARTICLE"
+      # Further pipeline steps follow in later plan steps.
+      - name: Commit archive
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archive
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Archive: episode run for ${GITHUB_RUN_ID}"
+          git push
