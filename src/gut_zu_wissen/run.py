@@ -1,9 +1,10 @@
 """Run entry point: `python -m gut_zu_wissen.run "<article title>"`.
 
-Phase 1 steps 2 to 9: fetch the article, apply the gates, segment, extract facts, rank, add the
-linked intros, write the dialog, judge it, synthesise and normalise the audio, write the episode
-folder. The turn and conversation loops live in orchestrator.py (step 8), the audio step in
-episode_audio.py (step 9); later steps are added here.
+Phase 1 steps 2 to 10: fetch the article, apply the gates, segment, extract facts, rank, add the
+linked intros, write the dialog, judge it, synthesise, verify with STT and normalise the audio,
+write the episode folder. The turn and conversation loops live in orchestrator.py (step 8), the
+audio step with its STT verification in episode_audio.py (steps 9 and 10); later steps are added
+here.
 """
 
 from __future__ import annotations
@@ -49,6 +50,7 @@ from gut_zu_wissen.orchestrator import GateFailure, Offer, Orchestration, orches
 from gut_zu_wissen.ranking import RankedFact, link_targets, offer_gate, rank_facts, ranked, raw_of
 from gut_zu_wissen.render import ParseRenderer
 from gut_zu_wissen.segmentation import segment_article
+from gut_zu_wissen.stt import Stt, WhisperStt
 from gut_zu_wissen.tts import GeminiTts, Tts, voices_of
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -73,13 +75,14 @@ def run(
     now: datetime,
     *,
     tts: Tts,
+    stt: Stt,
     fixed_dir: Path,
     audio_root: Path,
 ) -> str:
     """Run the steps implemented so far. Returns the episode ID; raises GateFailure.
 
     Intro and outro are checked first (`FixedAudioError`), before anything costs money. Audio
-    files go to `audio_root/<episode ID>/`.
+    files go to `audio_root/<episode ID>/`. The STT deviations are decided by `judge_llm`.
     """
     fixed = load_fixed(fixed_dir, config["models"]["tts"], voices_of(config))
     article = fetch_article(api, title, now)
@@ -191,6 +194,8 @@ def run(
             audio_record,
             state.dialog.turns,
             tts,
+            stt,
+            judge_llm,
             fixed,
             audio_root / record.episode_id,
             config,
@@ -242,6 +247,7 @@ def main(argv: list[str] | None = None) -> int:
         tts_config["timeout_seconds"],
         gemini_key,
     )
+    stt = WhisperStt(config["models"]["stt"], config["stt"])
     try:
         episode_id = run(
             HttpWikipediaApi(),
@@ -253,6 +259,7 @@ def main(argv: list[str] | None = None) -> int:
             args[0].strip(),
             datetime.now(UTC),
             tts=tts,
+            stt=stt,
             fixed_dir=ASSETS_DIR,
             audio_root=AUDIO_ROOT,
         )
@@ -269,10 +276,10 @@ def main(argv: list[str] | None = None) -> int:
         return 1
     audio_file = AUDIO_ROOT / episode_id / EPISODE_AUDIO
     write_job_summary(
-        f"## Episode {episode_id}\n\nSteps up to the audio done. "
+        f"## Episode {episode_id}\n\nSteps up to the STT-verified audio done. "
         f"Audio: `{audio_file.relative_to(REPO_ROOT)}` (workflow artifact, not committed)."
     )
-    print(f"Episode {episode_id}: steps up to audio done ({audio_file}).")
+    print(f"Episode {episode_id}: steps up to the verified audio done ({audio_file}).")
     return 0
 
 

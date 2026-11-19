@@ -14,6 +14,7 @@ from gut_zu_wissen.jev import JevAbortError
 from gut_zu_wissen.run import GateFailure, load_config
 from gut_zu_wissen.run import run as run_pipeline
 from gut_zu_wissen.tts import Synthesis, TtsError, voices_of
+from gut_zu_wissen.verification import NO_ANSWER
 
 NOW = datetime(2026, 11, 19, 10, 30, tzinfo=UTC)
 REAL = load_config()
@@ -30,11 +31,13 @@ CONFIG = {
         "turn_retries": 2,
         "conversation_retries": 2,
         "tts_section_max_chars": 6000,
+        "audio_section_retries": 2,
         "target_loudness_lufs": -16,
         "true_peak_ceiling_dbtp": -1.5,
     },
     "models": REAL["models"],
     "tts": REAL["tts"],
+    "stt": REAL["stt"],
     "audio": REAL["audio"],
     "prices": REAL["prices"],
 }
@@ -106,13 +109,27 @@ class FakeTts:
         return Synthesis(tone_wav(1.0), 100, 250)
 
 
-def run(api, llm, root, config, title, now, jev=None, judge=None, tts=None, fixed=True):
+class FakeStt:
+    """Hears `text`; without it, exactly what the TTS was last asked to say."""
+
+    def __init__(self, text: str | None = None, tts: FakeTts | None = None) -> None:
+        self.text, self.tts = text, tts
+
+    def transcribe(self, y, sr):
+        if self.text is not None:
+            return self.text
+        assert self.tts is not None
+        return " ".join(text for _, text in self.tts.calls[-1])
+
+
+def run(api, llm, root, config, title, now, jev=None, judge=None, tts=None, fixed=True, stt=None):
     fixed_dir = root / "fixed"
+    tts = tts or FakeTts()
     if fixed and not fixed_dir.exists():
         synthesize_fixed(FakeTts(), fixed_dir, config["models"]["tts"], voices_of(config))
     return run_pipeline(
         api, llm, judge or FakeJudgeLlm(), jev or FakeJev(), root, config, title, now,
-        tts=tts or FakeTts(), fixed_dir=fixed_dir, audio_root=root / "build",
+        tts=tts, stt=stt or FakeStt(tts=tts), fixed_dir=fixed_dir, audio_root=root / "build",
     )  # fmt: skip
 
 
@@ -414,9 +431,17 @@ def test_audio_is_synthesised_normalised_and_archived(tmp_path):
     assert (folder / "episode.flac").exists() and (folder / "sections" / "00.flac").exists()
     assert record["file"] == "episode.flac"
     assert list(record) == [
-        "model", "voices", "section_max_chars", "sections", "fixed_parts", "joins",
-        "loudness", "file", "sample_rate", "seconds", "usd",
+        "model", "voices", "section_max_chars", "stt_model", "section_retries", "sections",
+        "fixed_parts", "joins", "loudness", "file", "sample_rate", "seconds", "usd",
     ]  # fmt: skip
+    assert record["stt_model"] == "large-v3" and record["section_retries"] == 2
+    section = record["sections"][0]
+    assert section["verified"] is True
+    assert list(section["attempts"][0]) == [
+        "attempt", "seconds", "input_tokens", "output_tokens", "usd", "transcript",
+        "deviations", "changes_statement", "action",
+    ]  # fmt: skip
+    assert section["attempts"][0]["transcript"] == "Text. Text."
 
 
 def test_missing_intro_and_outro_abort_before_any_api_call(tmp_path):
@@ -434,3 +459,18 @@ def test_tts_failure_fails_the_run_and_archives_the_sections(tmp_path):
     assert load_episode(tmp_path, "2026-11-19_rotfuchs").status == "failed"
     record = json.loads((folder / "07_audio.json").read_text())
     assert record["sections"][0]["seconds"] is None and record["file"] is None
+
+
+def test_audio_that_keeps_changing_the_statement_escalates(tmp_path):
+    tts = FakeTts()
+    with pytest.raises(GateFailure, match="STT verification: section 0 still changes"):
+        run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, tts=tts,
+            judge=FakeJudgeLlm(), stt=FakeStt("Kein Text."))  # fmt: skip
+    assert len(tts.calls) == 3  # first synthesis and two resyntheses
+    episode = load_episode(tmp_path, "2026-11-19_rotfuchs")
+    assert episode.status == "failed" and "STT verification" in episode.failure
+    record = json.loads((tmp_path / "episodes" / episode.episode_id / "07_audio.json").read_text())
+    attempts = record["sections"][0]["attempts"]
+    assert [a["action"] for a in attempts] == ["resynthesize", "resynthesize", "escalate"]
+    assert all(a["transcript"] == "Kein Text." for a in attempts)
+    assert attempts[0]["deviations"][0]["reason"] == NO_ANSWER
