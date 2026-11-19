@@ -249,8 +249,12 @@ dependencies = [
     { name = "beautifulsoup4" },
     { name = "cairosvg" },
     { name = "httpx" },
+    { name = "numpy" },
     { name = "pillow" },
+    { name = "pyloudnorm" },
+    { name = "scipy" },
     { name = "somajo" },
+    { name = "soundfile" },
 ]
 
 [package.dev-dependencies]
@@ -273,8 +277,12 @@ requires-dist = [
     { name = "beautifulsoup4", specifier = ">=4.15.0" },
     { name = "cairosvg" },
     { name = "httpx", specifier = ">=0.28.1" },
+    { name = "numpy", specifier = ">=2.5.5" },
     { name = "pillow" },
+    { name = "pyloudnorm", specifier = ">=0.2.0" },
+    { name = "scipy", specifier = ">=1.18.1" },
     { name = "somajo", specifier = ">=2.5.0" },
+    { name = "soundfile", specifier = ">=0.14.0" },
 ]
 
 [package.metadata.requires-dev]

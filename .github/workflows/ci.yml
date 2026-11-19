@@ -12,10 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # ffmpeg: independent loudness and true-peak meter for the audio test.
       - name: System packages
         run: |
           sudo apt-get update
-          sudo apt-get install -y libcairo2 fonts-dejavu-core
+          sudo apt-get install -y libcairo2 fonts-dejavu-core ffmpeg
       - name: Check DejaVu Sans
         run: fc-list | grep "DejaVu Sans"
       - uses: astral-sh/setup-uv@v5

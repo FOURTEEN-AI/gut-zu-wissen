@@ -43,6 +43,22 @@ tts_section_max_chars = 6000        # spike S4: about 6 min of audio; documented
 target_loudness_lufs = -16          # decided, with a true-peak limiter (spike S4)
 true_peak_ceiling_dbtp = -1.5       # limiter ceiling; raw TTS output is about -20 LUFS
 
+[audio]
+# Joins (spike S4 proposal for step 9, not tested by ear): silence at the edges of every part
+# (intro, sections, outro) is shortened to edge_silence_keep_seconds, then join_pause_seconds of
+# silence goes between the parts. Raw sections have 0.2-0.8 s of edge silence.
+edge_silence_floor_db = -45.0       # a 10 ms frame below this RMS level (dBFS) counts as silence
+edge_silence_frame_seconds = 0.01
+edge_silence_keep_seconds = 0.15
+join_pause_seconds = 0.4
+# Loudness normalisation to quotas.target_loudness_lufs with a true-peak limiter at
+# quotas.true_peak_ceiling_dbtp. The limiter lowers the gain towards a peak at the attack rate
+# (look-ahead) and recovers after it at the release rate.
+limiter_attack_db_per_second = 1200.0   # 6 dB in 5 ms
+limiter_release_db_per_second = 60.0    # 6 dB in 100 ms
+loudness_tolerance_lu = 0.1             # accepted deviation of the output from the target
+loudness_max_iterations = 8             # gain/ceiling corrections before the run fails
+
 [prices]
 # Feed the per-episode cost log. Unit and currency to be fixed together with the values.
 claude_sonnet_input = "PLACEHOLDER"
