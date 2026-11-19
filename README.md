@@ -11,6 +11,8 @@ Design and plan: [docs/](docs/).
 | Code (everything not listed below) | Apache 2.0, [LICENSE](LICENSE) |
 | Archive (`archive/`) | CC BY-SA 4.0, [archive/LICENSE](archive/LICENSE) |
 | Wikipedia fixtures (`tests/fixtures/wikipedia/`) | CC BY-SA 4.0, [NOTICE](tests/fixtures/wikipedia/NOTICE) |
+| Intro and outro audio (`assets/audio/`) | CC BY-SA 4.0, [assets/audio/LICENSE](assets/audio/LICENSE) |
+| Show art and cover template (`assets/cover/`) | CC BY-SA 4.0, [assets/cover/LICENSE](assets/cover/LICENSE) |
 
 The podcast itself is published under CC BY-SA 4.0. Wikipedia content is from the German Wikipedia (CC BY-SA 4.0). This is an independent project, not affiliated with the Wikimedia Foundation.
 
