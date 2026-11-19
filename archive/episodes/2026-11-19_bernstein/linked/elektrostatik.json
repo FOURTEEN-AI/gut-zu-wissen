@@ -1,0 +1,88 @@
+{
+  "title": "Elektrostatik",
+  "revid": 265990984,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-04-08T11:08:33Z",
+  "fetched_at": "2026-11-19T23:13:21Z",
+  "categories": [
+    "Kategorie:Elektrostatik"
+  ],
+  "intro_wikitext": "[[Datei:Cat demonstrating static cling with styrofoam peanuts.jpg|mini|[[Styropor]]-Polstermaterial wird vom Fell einer Katze elektrostatisch angezogen]]\n[[Datei:Lightning over Oradea Romania 3.jpg|mini|[[Blitz]]e als Folge von elektrostatischer Aufladung]]\n\nDie '''Elektrostatik''' ist das Teilgebiet der [[Physik]], das sich mit ''ruhenden'' [[Elektrische Ladung|elektrischen Ladungen]], [[Ladungsverteilung]]en und den [[Elektrisches Feld|elektrischen Feldern]] geladener Körper befasst.\n\nDie Phänomene der Elektrostatik rühren von den [[Kraft|Kräften]] her, die elektrische Ladungen aufeinander ausüben. Diese Kräfte werden vom [[Coulombsches Gesetz|coulombschen Gesetz]] beschrieben. Ein klassisches Beispiel ist, dass geriebener [[Bernstein]] Teilchen anzieht (siehe [[#Geschichte|Geschichte]]). Auch wenn die Kräfte klein erscheinen, ist die elektrische Kraft z.&nbsp;B. im Vergleich zur [[Gravitation]] außerordentlich stark. So ist die elektrische Kraft zwischen einem [[Elektron]] und einem [[Proton]] (beide bilden zusammen ein [[Wasserstoffatom]]) um ungefähr 39 [[Größenordnung#Dezimale Größenordnung|Größenordnungen]] größer als ihre gegenseitige [[Gravitation|Massenanziehung]].\n\nDie Elektrostatik ist Teilgebiet der klassischen [[Elektrodynamik]] und behandelt den Spezialfall von unbewegten elektrischen Ladungen und stationären, d.&nbsp;h. zeitlich gleichbleibenden elektrischen Feldern. Die Elektrostatik findet ihr [[Analogie (Philosophie)|Analogon]] in der [[Magnetostatik]], die sich mit stationären [[Magnetismus|Magnetfeldern]] befasst, wie sie beispielsweise von zeitlich gleichbleibenden [[Elektrischer Strom|elektrischen Strömen]] erzeugt werden.",
+  "segments": [
+    {
+      "id": "265990984-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Elektrostatik''' ist das Teilgebiet der [[Physik]], das sich mit ''ruhenden'' [[Elektrische Ladung|elektrischen Ladungen]], [[Ladungsverteilung]]en und den [[Elektrisches Feld|elektrischen Feldern]] geladener Körper befasst.",
+      "plain": null
+    },
+    {
+      "id": "265990984-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Phänomene der Elektrostatik rühren von den [[Kraft|Kräften]] her, die elektrische Ladungen aufeinander ausüben.",
+      "plain": null
+    },
+    {
+      "id": "265990984-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Diese Kräfte werden vom [[Coulombsches Gesetz|coulombschen Gesetz]] beschrieben.",
+      "plain": null
+    },
+    {
+      "id": "265990984-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein klassisches Beispiel ist, dass geriebener [[Bernstein]] Teilchen anzieht (siehe [[#Geschichte|Geschichte]]).",
+      "plain": null
+    },
+    {
+      "id": "265990984-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Auch wenn die Kräfte klein erscheinen, ist die elektrische Kraft z.&nbsp;B. im Vergleich zur [[Gravitation]] außerordentlich stark.",
+      "plain": null
+    },
+    {
+      "id": "265990984-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "So ist die elektrische Kraft zwischen einem [[Elektron]] und einem [[Proton]] (beide bilden zusammen ein [[Wasserstoffatom]]) um ungefähr 39 [[Größenordnung#Dezimale Größenordnung|Größenordnungen]] größer als ihre gegenseitige [[Gravitation|Massenanziehung]].",
+      "plain": null
+    },
+    {
+      "id": "265990984-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Elektrostatik ist Teilgebiet der klassischen [[Elektrodynamik]] und behandelt den Spezialfall von unbewegten elektrischen Ladungen und stationären, d.&nbsp;h. zeitlich gleichbleibenden elektrischen Feldern.",
+      "plain": null
+    },
+    {
+      "id": "265990984-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Elektrostatik findet ihr [[Analogie (Philosophie)|Analogon]] in der [[Magnetostatik]], die sich mit stationären [[Magnetismus|Magnetfeldern]] befasst, wie sie beispielsweise von zeitlich gleichbleibenden [[Elektrischer Strom|elektrischen Strömen]] erzeugt werden.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 265990984,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "265990984-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "265990984-0004"
+        ],
+        "plain": "So ist die elektrische Kraft zwischen einem Elektron und einem Proton (beide bilden zusammen ein Wasserstoffatom) um ungefähr 39 Größenordnungen größer als ihre gegenseitige Massenanziehung.",
+        "context_plain": [
+          "Auch wenn die Kräfte klein erscheinen, ist die elektrische Kraft z. B. im Vergleich zur Gravitation außerordentlich stark."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

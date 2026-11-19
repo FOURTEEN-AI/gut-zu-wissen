@@ -1,0 +1,58 @@
+{
+  "title": "Negergeld",
+  "revid": 269957254,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-08-25T05:13:23Z",
+  "fetched_at": "2026-11-19T23:13:21Z",
+  "categories": [
+    "Kategorie:Historische Währungseinheit (Afrika)",
+    "Kategorie:Historische Währungseinheit (Asien)",
+    "Kategorie:Kolonialgeschichte Afrikas",
+    "Kategorie:Rassismus",
+    "Kategorie:Schmuck",
+    "Kategorie:Wikipedia:Lesenswert",
+    "Kategorie:Zuckerware"
+  ],
+  "intro_wikitext": "[[Datei:KauriBrehms.png|miniatur|Kaurischnecken, im Deutschland der Kolonialzeit „Negergeld“ genannt. Zeichnung von 1893]]\n\n'''Negergeld''' ist eine nicht mehr gebräuchliche deutsche Sammelbezeichnung für [[Kaurigeld]] und andere Zahlungsmittel im [[afrika]]nischen, zum Teil auch [[Asien|asiatischen]] Handelsverkehr. Auch Schmuck, der aus dem deutschen Sprachraum nach Afrika exportiert wurde, trug diesen Namen. Im 20.&nbsp;Jahrhundert war ''Negergeld'' zudem eine Bezeichnung für wertloses Klein- und [[Schwarzgeld]] sowie für [[Lakritze #Verwendung als Genussmittel|Lakritztaler]]. Der Begriff gilt seit dem späten 20. Jahrhundert als [[Rassismus|rassistisch]] konnotiert.",
+  "segments": [
+    {
+      "id": "269957254-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Negergeld''' ist eine nicht mehr gebräuchliche deutsche Sammelbezeichnung für [[Kaurigeld]] und andere Zahlungsmittel im [[afrika]]nischen, zum Teil auch [[Asien|asiatischen]] Handelsverkehr.",
+      "plain": null
+    },
+    {
+      "id": "269957254-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Auch Schmuck, der aus dem deutschen Sprachraum nach Afrika exportiert wurde, trug diesen Namen.",
+      "plain": null
+    },
+    {
+      "id": "269957254-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im 20.&nbsp;Jahrhundert war ''Negergeld'' zudem eine Bezeichnung für wertloses Klein- und [[Schwarzgeld]] sowie für [[Lakritze #Verwendung als Genussmittel|Lakritztaler]].",
+      "plain": null
+    },
+    {
+      "id": "269957254-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Begriff gilt seit dem späten 20. Jahrhundert als [[Rassismus|rassistisch]] konnotiert.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269957254,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": [
+      {
+        "segment_id": "269957254-0002",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}
