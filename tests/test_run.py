@@ -309,3 +309,53 @@ def test_job_summary_is_appended_when_running_in_actions(tmp_path, monkeypatch):
     assert path.read_text() == "## Episode aborted\nReason\n"
     monkeypatch.delenv("GITHUB_STEP_SUMMARY")
     write_job_summary("ignored")  # outside Actions: no-op
+
+
+class RetryLlm(FakeLlm):
+    """The first dialog is bad in turn 0; every regenerated turn is bad again; a second
+    conversation from a fresh offer is good."""
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.dialogs = 0
+
+    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+        if "turns" in schema["properties"]:
+            self.dialogs += 1
+            text = "Falsch." if self.dialogs == 1 else "Gut."
+            ids = re.findall(r"^\[([^\]]+)\]", user, re.MULTILINE)[:1]
+            statements = [{"text": text, "fact_ids": ids}]
+            turn = {"speaker": "Lena", "text": text, "fact_ids": ids, "statements": statements}
+            return {"turns": [turn, {**turn, "speaker": "Felix"}]}
+        if "speaker" in schema["properties"]:
+            ids = re.findall(r"^\[([^\]]+)\]", user, re.MULTILINE)[:1]
+            statements = [{"text": "Falsch.", "fact_ids": ids}]
+            return {"speaker": "Lena", "text": "Falsch.", "fact_ids": ids, "statements": statements}
+        return super().complete_json(system, user, schema)
+
+
+class WrongTextJev(FakeJev):
+    def ask(self, state: dict, questions: dict) -> dict:
+        p = 0.01 if "Falsch." in state["redebeitrag"]["text"] else 0.99
+        return {key: p for key in questions}
+
+
+def test_conversation_regeneration_succeeds_with_a_fresh_offer(tmp_path):
+    api = FakeApi("Rotfuchs", [], text="Erster Satz im Artikel.\n\nZweiter Satz im Artikel.")
+    llm = RetryLlm()
+    episode_id = run(api, llm, tmp_path, CONFIG, "Rotfuchs", NOW, WrongTextJev())
+    folder = tmp_path / "episodes" / episode_id
+    dialog = json.loads((folder / "05_dialog.json").read_text())
+    assert llm.dialogs == 2 and dialog["conversation"] == 2
+    assert [t["text"] for t in dialog["turns"]] == ["Gut.", "Gut."]
+    (discarded,) = dialog["discarded_conversations"]
+    assert discarded["conversation"] == 1
+    assert discarded["excluded_fact_ids"] == ["5-0001"]  # ranked first, so the one that was cited
+    assert "budget" in discarded["reason"]
+    assert [r["kind"] for r in dialog["regenerations"]] == ["retry", "retry"]
+    ranking = json.loads((folder / "04_ranking.json").read_text())
+    assert [r["fact"]["segment_id"] for r in ranking["main_facts"]] == ["5-0000"]
+    assert ranking["excluded_fact_ids"] == ["5-0001"]
+    judgement = json.loads((folder / "06_judgement.json").read_text())
+    assert all(j["accepted"] for j in judgement["judgements"])
+    assert judgement["used_fact_ids"] == ["5-0000"]

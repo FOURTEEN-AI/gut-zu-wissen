@@ -288,18 +288,30 @@ def test_too_few_used_facts_after_author_triggers_conversation_regeneration():
     assert run.offers == [frozenset(), frozenset()]  # nothing was rejected, nothing excluded
 
 
-def test_too_few_used_facts_after_judging_is_a_gate_failure():
+def two_fact_turns(first: str) -> dict:
+    """Turn 0 cites both facts, turn 1 is a reaction without facts."""
+    both = ["1-0000", "1-0001"]
+    turn0 = {
+        "speaker": "Lena",
+        "text": first,
+        "fact_ids": both,
+        "statements": [{"text": "S", "fact_ids": both}],
+    }
+    return {"turns": [turn0, turn_json("Felix", "Echt?", None)]}
+
+
+def test_enough_used_facts_after_judging_pass_the_final_gate():
     config = {**CONFIG, "quotas": {**CONFIG["quotas"], "min_used_facts": 2}}
-    dialog = dialog_json("Eins.", "Zwei.")
-    dialog["turns"][1]["fact_ids"] = []
-    dialog["turns"][1]["statements"] = []
-    dialog["turns"][0]["fact_ids"] = ["1-0000", "1-0001"]
-    dialog["turns"][0]["statements"] = [{"text": "S", "fact_ids": ["1-0000", "1-0001"]}]
-    state = run(FakeAuthor([dialog]), FakeJev(), config=config)
+    state = run(FakeAuthor([two_fact_turns("Eins.")]), FakeJev(), config=config)
     assert state.used_fact_ids == ["1-0000", "1-0001"]
-    # The same dialog fails the gate when the first turn is the only one with facts and is rejected.
-    dialog2 = {"turns": [dict(dialog["turns"][0]), dict(dialog["turns"][1])]}
-    dialog2["turns"][0]["text"] = "Falsch."
-    author = FakeAuthor([dialog2] * 3, [turn_json("Lena", "Falsch.", "1-0000")] * 6)
-    with pytest.raises(GateFailure):
-        run(author, FakeJev(bad={"Falsch."}), config=config)
+
+
+def test_too_few_used_facts_after_judging_is_a_gate_failure():
+    # The repaired turn is a reaction without facts, so the accepted turns use none (D5).
+    config = {**CONFIG, "quotas": {**CONFIG["quotas"], "min_used_facts": 2}}
+    author = FakeAuthor(
+        [two_fact_turns("Falsch.")],
+        [turn_json("Lena", "Okay.", None), turn_json("Felix", "Echt?", None)],
+    )
+    with pytest.raises(GateFailure, match="used in accepted turns"):
+        run(author, FakeJev(bad={"Falsch."}, cascade=[0.99]), config=config)
