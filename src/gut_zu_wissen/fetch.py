@@ -31,6 +31,10 @@ class ArticleNotFoundError(Exception):
 class WikipediaApi(Protocol):
     def query(self, **params: str) -> dict: ...
 
+    def post(self, **params: str) -> dict:
+        """Same as `query`, but as POST: for requests with long text (`action=parse`)."""
+        ...
+
 
 class HttpWikipediaApi:
     """MediaWiki API client: descriptive User-Agent, maxlag, one request per interval."""
@@ -50,12 +54,21 @@ class HttpWikipediaApi:
         self._last_request: float | None = None
 
     def query(self, **params: str) -> dict:
+        return self._request("GET", params)
+
+    def post(self, **params: str) -> dict:
+        return self._request("POST", params)
+
+    def _request(self, method: str, params: dict[str, str]) -> dict:
         if self._last_request is not None:
             wait = self._min_interval - (self._monotonic() - self._last_request)
             if wait > 0:
                 self._sleep(wait)
         full = {"format": "json", "formatversion": "2", "maxlag": MAX_LAG_SECONDS, **params}
-        response = self._client.get(API_URL, params=full)
+        if method == "POST":
+            response = self._client.post(API_URL, data=full)
+        else:
+            response = self._client.get(API_URL, params=full)
         self._last_request = self._monotonic()
         response.raise_for_status()
         data = response.json()

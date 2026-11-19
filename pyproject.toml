@@ -8,6 +8,8 @@ dependencies = [
     "cairosvg",
     "Pillow",
     "httpx>=0.28.1",
+    "somajo>=2.5.0",
+    "beautifulsoup4>=4.15.0",
 ]
 
 [dependency-groups]
@@ -16,12 +18,10 @@ dev = [
     "ruff",
 ]
 spikes = [
-    "beautifulsoup4>=4.15.0",
     "faster-whisper>=1.2.1",
     "numpy>=2.5.5",
     "praat-parselmouth>=0.4.7",
     "pyloudnorm>=0.2.0",
-    "somajo>=2.5.0",
     "soundfile>=0.14.0",
     "typesafe-sdk>=0.7.5",
 ]
