@@ -8,6 +8,7 @@ build/
 dist/
 .env
 .env.*
+!.env.example
 .DS_Store
 
 # Spike S3 render cache (re-fetchable from the Wikipedia API)
