@@ -166,7 +166,7 @@ Fester Text außerhalb des Dialogautors und der Persona-Regeln; einmal synthetis
 **Abspann:**
 - Lena: „Das war ‚Gut zu wissen‘. Alles, was wir erzählt haben, stammt aus der deutschsprachigen Wikipedia. Die Artikel und ihre Autorinnen und Autoren findet ihr in den Shownotes.“
 - Felix: „Ein wichtiger Hinweis: Diese Folge ist mit KI entstanden – von der Auswahl der Fakten über das Gespräch bis zu unseren Stimmen. KI kann Fehler machen. Und die Wikipedia-Inhalte selbst sind nicht unabhängig geprüft. Wenn ihr euch auf etwas verlassen wollt, prüft es bitte nach.“
-- Lena: „‚Gut zu wissen‘ steht unter der Lizenz CC BY-SA 4.0 und ist ein unabhängiges Projekt, nicht verbunden mit der Wikimedia Foundation. Bis zum nächsten Mal!“
+- Lena: „‚Gut zu wissen‘ steht unter der Lizenz Creative Commons Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 und ist ein unabhängiges Projekt, nicht verbunden mit der Wikimedia Foundation. Bis zum nächsten Mal!“
 
 ## Betrieb
 

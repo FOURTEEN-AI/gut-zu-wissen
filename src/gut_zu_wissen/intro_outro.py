@@ -56,8 +56,9 @@ OUTRO: tuple[tuple[str, str], ...] = (
     ),
     (
         "Lena",
-        "„Gut zu wissen“ steht unter der Lizenz CC BY-SA 4.0 und ist ein unabhängiges Projekt, "
-        "nicht verbunden mit der Wikimedia Foundation. Bis zum nächsten Mal!",
+        "„Gut zu wissen“ steht unter der Lizenz Creative Commons Namensnennung – Weitergabe "
+        "unter gleichen Bedingungen 4.0 und ist ein unabhängiges Projekt, nicht verbunden mit "
+        "der Wikimedia Foundation. Bis zum nächsten Mal!",
     ),
 )
 PARTS: dict[str, tuple[tuple[str, str], ...]] = {"intro": INTRO, "outro": OUTRO}
