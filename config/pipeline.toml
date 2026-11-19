@@ -11,6 +11,11 @@ max_retries = 3          # transient errors (429, 5xx, timeout), then the LLM ju
 backoff_seconds = 2.0    # doubled per attempt
 timeout_seconds = 120
 
+[tts]
+max_retries = 3          # transient errors (429, 5xx, timeout); a 429 waits the time it names
+backoff_seconds = 2.0    # doubled per attempt, when no wait time is named
+timeout_seconds = 300    # spike S4: about 30 s per 6-minute section, 173 s for 35 minutes
+
 [review]
 r_initial = 1.0          # sampling rate start (100 %)
 r_min = 0.01             # lower bound (1 %)
