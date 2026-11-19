@@ -56,7 +56,7 @@ After a successful run the episode workflow draws each accepted turn with fact I
 
 ## Metrics
 
-Exit criteria of phase 1 (step 13) and the measurements over the archive: facts used per minute, escalation rate, cascade length, runtime, cost, error rate by revision status and the explicit check's false-positive and false-negative rates.
+Exit criteria of phase 1 (step 13) and the measurements over the archive: facts used per minute (primary: dialog audio only; secondary: the whole episode audio with intro and outro), escalation rate, cascade length, runtime, cost, error rate by revision status and the explicit check's false-positive and false-negative rates.
 
 ```sh
 uv run python -m gut_zu_wissen.metrics              # Markdown report

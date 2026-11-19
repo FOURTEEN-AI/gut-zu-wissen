@@ -480,6 +480,9 @@ def test_report_and_markdown(tmp_path):
     assert "| sighted | 3 | 0 | 0.0 % |" in text
     assert "| Revision status | Answered reviews | With error | Error rate |" in text
     assert report.facts_per_minute.count == 3  # the failed run is left out
+    primary = text.index("- Primary, dialog audio only: mean 0.92")
+    assert primary < text.index("- Secondary, whole episode audio (intro and outro included): ")
+    assert "| Per dialog minute (primary) |" in text
 
 
 def test_markdown_on_an_empty_archive():

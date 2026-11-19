@@ -7,8 +7,9 @@ drawn turn and the explicit check (D7) have a label) whose sample was drawn at
 Measured over every run in the archive (one run = one episode folder):
 
 - facts used per minute (completed runs): used facts of the final script (`06_judgement.json`,
-  `used_fact_ids`) per minute of the episode audio (`08_audio.json`, intro and outro included);
-  also per minute of dialog audio (sum of the accepted section durations);
+  `used_fact_ids`) per minute of dialog audio (sum of the accepted section durations in
+  `08_audio.json`), the primary value (user decision 2026-11-19); secondary, per minute of the
+  whole episode audio, intro and outro included;
 - escalation rate: runs that failed (`status: failed`: gate failures, which abort a manual run
   with a failing job, and crashes, whose reason starts with "Crash:") or are incomplete (still
   `running`: the run has not ended; in folders from before the `completed` status, `running`
@@ -636,18 +637,21 @@ def render_markdown(report: Report) -> str:
         "",
         "### Facts used per minute",
         "",
-        f"- Episode audio (intro and outro included): {_summary(report.facts_per_minute)}",
-        f"- Dialog audio only: {_summary(report.facts_per_dialog_minute)}",
+        f"- Primary, dialog audio only: {_summary(report.facts_per_dialog_minute)}",
+        "- Secondary, whole episode audio (intro and outro included): "
+        f"{_summary(report.facts_per_minute)}",
     ]
     if report.facts_per_episode:
         lines += [
             "",
-            "| Episode | Used facts | Episode audio | Per minute | Per dialog minute |",
-            "|---|---|---|---|---|",
+            "| Episode | Used facts | Dialog audio | Per dialog minute (primary) | "
+            "Episode audio | Per episode minute (secondary) |",
+            "|---|---|---|---|---|---|",
         ]
         lines += [
-            f"| `{f.episode_id}` | {f.used_facts} | {_duration(f.episode_seconds)} | "
-            f"{_num(f.per_minute)} | {_num(f.per_dialog_minute)} |"
+            f"| `{f.episode_id}` | {f.used_facts} | {_duration(f.dialog_seconds)} | "
+            f"{_num(f.per_dialog_minute)} | {_duration(f.episode_seconds)} | "
+            f"{_num(f.per_minute)} |"
             for f in report.facts_per_episode
         ]
     s = report.escalation
