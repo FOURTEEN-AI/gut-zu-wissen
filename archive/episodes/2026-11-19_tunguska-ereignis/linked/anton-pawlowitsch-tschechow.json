@@ -1,0 +1,85 @@
+{
+  "title": "Anton Pawlowitsch Tschechow",
+  "revid": 271551572,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-23T10:52:33Z",
+  "fetched_at": "2026-11-19T23:00:42Z",
+  "categories": [
+    "Kategorie:Anton Pawlowitsch Tschechow",
+    "Kategorie:Autor",
+    "Kategorie:Dichterarzt",
+    "Kategorie:Drama",
+    "Kategorie:Ehrenmitglied der Russischen Akademie der Wissenschaften",
+    "Kategorie:Erzählung",
+    "Kategorie:Geboren 1860",
+    "Kategorie:Gestorben 1904",
+    "Kategorie:Literatur (19. Jahrhundert)",
+    "Kategorie:Literatur (20. Jahrhundert)",
+    "Kategorie:Literatur (Russisch)",
+    "Kategorie:Mann",
+    "Kategorie:Mediziner (19. Jahrhundert)",
+    "Kategorie:Person als Namensgeber für einen Asteroiden",
+    "Kategorie:Person als Namensgeber für einen Merkurkrater",
+    "Kategorie:Russe",
+    "Kategorie:Wikipedia:Exzellent",
+    "Kategorie:Wikipedia:Seite mit Audioeinbettung",
+    "Kategorie:Wikipedia:Vorlagenfehler/Vorlage:PGDW"
+  ],
+  "intro_wikitext": "[[Datei:Chekhov 1903 ArM.jpg|mini|Anton Tschechow (um 1903) [[Datei:Anton Chekhov signature.svg|rahmenlos|zentriert|170px|klasse=skin-invert-image notpageimage]]]]\n'''Anton Pawlowitsch Tschechow''' [{{IPA|ˈtʃʲɛxəf}}] ({{ruS|Антон Павлович Чехов}} ({{Audio|Ru-Anton Pavlovich Chekhov.ogg|Aussprache}}), wissenschaftliche [[Transliteration]] ''{{lang|ru-Latn|Anton Pavlovič Čechov}}''; in englischen Texten auch ''Chekhov''; * {{JULGREGDATUM|29|1|1860|FormatJUL=j.|Link=1}} in [[Taganrog]], [[Russisches Kaiserreich|Russland]]; † {{JULGREGDATUM|15|7|1904|FormatJUL=j.|Link=1}} in [[Badenweiler]], [[Deutsches Kaiserreich|Deutsches Reich]]) war ein [[Liste russischsprachiger Schriftsteller|russischer Schriftsteller]], [[Novelle|Novellist]] und [[Dramatiker]]. Er entstammte einer kleinbürgerlichen [[Russen|südrussischen]] Familie und war ab 1884 [[Arzt]] von Beruf, betrieb [[Medizin]] jedoch fast ausschließlich ehrenamtlich. Gleichzeitig schrieb und publizierte er zwischen 1880 und 1903 insgesamt über 600 literarische Werke. International ist Tschechow vor allem als Dramatiker durch seine Theaterstücke wie ''[[Drei Schwestern (Drama)|Drei Schwestern]]'', ''[[Die Möwe]]'' oder ''[[Der Kirschgarten]]'' bekannt. Mit der für ihn typischen, wertneutralen und zurückhaltenden Art, Aspekte aus dem Leben und der Denkweise der Menschen in der russischen Provinz darzustellen, gilt Tschechow als einer der bedeutendsten Autoren der [[Russische Literatur|russischen Literatur]].",
+  "segments": [
+    {
+      "id": "271551572-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Anton Pawlowitsch Tschechow''' [{{IPA|ˈtʃʲɛxəf}}] ({{ruS|Антон Павлович Чехов}} ({{Audio|Ru-Anton Pavlovich Chekhov.ogg|Aussprache}}), wissenschaftliche [[Transliteration]] ''{{lang|ru-Latn|Anton Pavlovič Čechov}}''; in englischen Texten auch ''Chekhov''; * {{JULGREGDATUM|29|1|1860|FormatJUL=j.|Link=1}} in [[Taganrog]], [[Russisches Kaiserreich|Russland]]; † {{JULGREGDATUM|15|7|1904|FormatJUL=j.|Link=1}} in [[Badenweiler]], [[Deutsches Kaiserreich|Deutsches Reich]]) war ein [[Liste russischsprachiger Schriftsteller|russischer Schriftsteller]], [[Novelle|Novellist]] und [[Dramatiker]].",
+      "plain": null
+    },
+    {
+      "id": "271551572-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er entstammte einer kleinbürgerlichen [[Russen|südrussischen]] Familie und war ab 1884 [[Arzt]] von Beruf, betrieb [[Medizin]] jedoch fast ausschließlich ehrenamtlich.",
+      "plain": null
+    },
+    {
+      "id": "271551572-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Gleichzeitig schrieb und publizierte er zwischen 1880 und 1903 insgesamt über 600 literarische Werke.",
+      "plain": null
+    },
+    {
+      "id": "271551572-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "International ist Tschechow vor allem als Dramatiker durch seine Theaterstücke wie ''[[Drei Schwestern (Drama)|Drei Schwestern]]'', ''[[Die Möwe]]'' oder ''[[Der Kirschgarten]]'' bekannt.",
+      "plain": null
+    },
+    {
+      "id": "271551572-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Mit der für ihn typischen, wertneutralen und zurückhaltenden Art, Aspekte aus dem Leben und der Denkweise der Menschen in der russischen Provinz darzustellen, gilt Tschechow als einer der bedeutendsten Autoren der [[Russische Literatur|russischen Literatur]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271551572,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271551572-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271551572-0001"
+        ],
+        "plain": "Gleichzeitig schrieb und publizierte er zwischen 1880 und 1903 insgesamt über 600 literarische Werke.",
+        "context_plain": [
+          "Er entstammte einer kleinbürgerlichen südrussischen Familie und war ab 1884 Arzt von Beruf, betrieb Medizin jedoch fast ausschließlich ehrenamtlich."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Verneshot",
+  "revid": 226821054,
+  "revision_status": "sighted",
+  "revision_timestamp": "2022-10-06T19:04:49Z",
+  "fetched_at": "2026-11-19T23:00:42Z",
+  "categories": [
+    "Kategorie:Geophysik",
+    "Kategorie:Jules Verne",
+    "Kategorie:Vulkanismus"
+  ],
+  "intro_wikitext": "Ein '''Verneshot''' (dt. etwa ''Verne-Ausstoß'', ''Verne-Schuss'' oder ''Verne-Eruption'', benannt nach dem [[Frankreich|französischen]] [[Autor]] [[Jules Verne]]) ist nach der [[Hypothese]] einer Arbeitsgruppe um den amerikanischen [[Geologe]]n [[Jason Phipps Morgan]] (damals am [[GEOMAR]] in [[Kiel]], heute an der [[Cornell University]] in [[Ithaca (New York)|Ithaca, NY]]<ref>{{Internetquelle |url=http://www.eas.cornell.edu/people/profile.cfm?netid=jp369 |titel=Profile - Earth and Atmospheric Sciences - Cornell Engineering |abruf=2018-02-11 |sprache=en}}</ref>) eine [[Vulkanausbruch|vulkanische Eruption]], die durch massiven Druckaufbau von [[Gas]] unterhalb der [[Erdkruste]] eines [[Kraton]]s entsteht. Ein solches Ereignis könnte der Theorie zufolge genügend [[Energie]] freisetzen, um große Mengen von Material aus der Erdkruste und dem [[Erdmantel]] in eine [[Suborbitaler Flug|suborbitale]] [[Trajektorie (Physik)|Flugbahn]] zu befördern.",
+  "segments": [
+    {
+      "id": "226821054-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein '''Verneshot''' (dt. etwa ''Verne-Ausstoß'', ''Verne-Schuss'' oder ''Verne-Eruption'', benannt nach dem [[Frankreich|französischen]] [[Autor]] [[Jules Verne]]) ist nach der [[Hypothese]] einer Arbeitsgruppe um den amerikanischen [[Geologe]]n [[Jason Phipps Morgan]] (damals am [[GEOMAR]] in [[Kiel]], heute an der [[Cornell University]] in [[Ithaca (New York)|Ithaca, NY]]<ref>{{Internetquelle |url=http://www.eas.cornell.edu/people/profile.cfm?netid=jp369 |titel=Profile - Earth and Atmospheric Sciences - Cornell Engineering |abruf=2018-02-11 |sprache=en}}</ref>) eine [[Vulkanausbruch|vulkanische Eruption]], die durch massiven Druckaufbau von [[Gas]] unterhalb der [[Erdkruste]] eines [[Kraton]]s entsteht.",
+      "plain": null
+    },
+    {
+      "id": "226821054-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein solches Ereignis könnte der Theorie zufolge genügend [[Energie]] freisetzen, um große Mengen von Material aus der Erdkruste und dem [[Erdmantel]] in eine [[Suborbitaler Flug|suborbitale]] [[Trajektorie (Physik)|Flugbahn]] zu befördern.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 226821054,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "226821054-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "226821054-0000"
+        ],
+        "plain": "Ein solches Ereignis könnte der Theorie zufolge genügend Energie freisetzen, um große Mengen von Material aus der Erdkruste und dem Erdmantel in eine suborbitale Flugbahn zu befördern.",
+        "context_plain": [
+          "Ein Verneshot (dt. etwa Verne-Ausstoß, Verne-Schuss oder Verne-Eruption, benannt nach dem französischen Autor Jules Verne) ist nach der Hypothese einer Arbeitsgruppe um den amerikanischen Geologen Jason Phipps Morgan (damals am GEOMAR in Kiel, heute an der Cornell University in Ithaca, NY) eine vulkanische Eruption, die durch massiven Druckaufbau von Gas unterhalb der Erdkruste eines Kratons entsteht."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

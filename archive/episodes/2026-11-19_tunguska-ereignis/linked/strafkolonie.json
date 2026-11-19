@@ -1,0 +1,41 @@
+{
+  "title": "Strafkolonie",
+  "revid": 272163045,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-14T19:08:11Z",
+  "fetched_at": "2026-11-19T23:00:42Z",
+  "categories": [
+    "Kategorie:Arbeitslager",
+    "Kategorie:Strafrechtsgeschichte"
+  ],
+  "intro_wikitext": "'''Strafkolonien''' – auch '''Sträflings- und Verbrecherkolonien''' genannt – sind [[Arbeitslager]] in entlegenen Gebieten, in denen [[Strafgefangene|Häftlinge]] ihre Strafe abbüßen. Im 18. und 19. Jahrhundert gründete man viele Strafkolonien fernab vom jeweiligen Mutterland, wie z.&nbsp;B. in [[Sibirien]], [[Französisch-Guayana]] und speziell auf kleinen Inseln, um die Flucht von Gefangenen zu erschweren oder unattraktiv zu machen. Die Häftlinge wurden in Gefangenentransporten (auf Englisch: penal transportation) zu ihrem Zielort gebracht.",
+  "segments": [
+    {
+      "id": "272163045-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Strafkolonien''' – auch '''Sträflings- und Verbrecherkolonien''' genannt – sind [[Arbeitslager]] in entlegenen Gebieten, in denen [[Strafgefangene|Häftlinge]] ihre Strafe abbüßen.",
+      "plain": null
+    },
+    {
+      "id": "272163045-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im 18. und 19. Jahrhundert gründete man viele Strafkolonien fernab vom jeweiligen Mutterland, wie z.&nbsp;B. in [[Sibirien]], [[Französisch-Guayana]] und speziell auf kleinen Inseln, um die Flucht von Gefangenen zu erschweren oder unattraktiv zu machen.",
+      "plain": null
+    },
+    {
+      "id": "272163045-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Häftlinge wurden in Gefangenentransporten (auf Englisch: penal transportation) zu ihrem Zielort gebracht.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272163045,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": []
+  }
+}

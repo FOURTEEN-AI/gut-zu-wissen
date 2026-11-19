@@ -1,0 +1,45 @@
+{
+  "episode_id": "2026-11-19_tunguska-ereignis",
+  "title": "Tunguska-Ereignis",
+  "status": "failed",
+  "started_at": "2026-11-19T23:00:42Z",
+  "finished_at": "2026-11-19T23:05:28Z",
+  "published_at": null,
+  "explicit": null,
+  "failure": "Crash: LlmError: The answer was cut off at max_tokens.",
+  "usage": {
+    "author": {
+      "model": "claude-sonnet-5-5",
+      "calls": 46,
+      "input_tokens": 83974,
+      "output_tokens": 18378
+    },
+    "llm_judge": {
+      "model": "claude-sonnet-5-5",
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    },
+    "jev": {
+      "model": "jev-1.14.0",
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0
+    }
+  },
+  "cost": {
+    "prices": {
+      "claude_sonnet_input": 2.0,
+      "claude_sonnet_output": 10.0,
+      "jev": 0.042,
+      "gemini_tts_input": 0.5,
+      "gemini_tts_output": 9.0
+    },
+    "usd": {
+      "author": 0.3517,
+      "llm_judge": 0.0,
+      "jev": 0.0,
+      "tts": 0
+    }
+  }
+}
