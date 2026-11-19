@@ -16,7 +16,22 @@ Runner: `ubuntu-latest`, 4 CPUs, 15 GB RAM. Test audio: the S4 Eiffelturm dialog
 | Cold (no cache) | 27.8 s | 649.7 s | 0.664 | 4,333 MB | 0.038 | ~12 min |
 | Warm (cache restored) | 5.4 s | 666.4 s | 0.681 | 3,236 MB | 0.038 | ~12 min |
 
-The 17 s difference in transcription time between the two runs is runner noise (the two jobs ran on different runner images, kernel 7.0.0-1019 and -1020). Both runs gave the same WER. Whether the peak RSS differs by 1.1 GB because of the cold download or for another reason I did not investigate.
+The 17 s difference in transcription time between the two runs is runner noise (the two jobs ran on different runner images, kernel 7.0.0-1019 and -1020). Both runs gave the same WER. The peak RSS differs by 1.1 GB; see the next section.
+
+## Why the cold run peaks higher (investigated afterwards)
+
+`peak_rss_mb` is `ru_maxrss` of the whole process, and in the cold run the model download and the model load happen in the same process. I reproduced the difference locally with the `small` model (cold vs. warm cache, one process per measurement, memory read per phase). The numbers are for `small`, not `large-v3`; I did not repeat this on the runner.
+
+| Variant (`small`) | After download | After load | Peak |
+|---|---|---|---|
+| Warm cache, new process | n/a | 359 MB | 626 MB |
+| Cold, download and load in one process | 126 MB (peak 583 MB during download) | 576 MB | 802 MB |
+| Cold, `HF_HUB_DISABLE_XET=1` | 93 MB (peak 123 MB) | 544 MB | 769 MB |
+| Cold, `HF_HUB_DISABLE_XET=1`, `MALLOC_ARENA_MAX=1` | 75 MB (peak 125 MB) | 526 MB | 752 MB |
+
+- **Explained:** the Xet downloader (`hf_xet` 1.8.0 with `huggingface_hub` 2.4.0) buffers about the size of the model file in memory while downloading. With Xet switched off, the download peak is 123 MB instead of 583 MB.
+- **Not explained:** after the model is loaded, a process that downloaded it is still about 170–220 MB above a process that found the model in the cache, with or without Xet. The malloc-arena hypothesis (`MALLOC_ARENA_MAX=1`) did not change that. I did not find the cause.
+- **Consequence:** the memory gap is a property of downloading and loading in one process, not of the model or the audio. For `large-v3` it was 1.1 GB. With 3–4.3 GB of 15 GB it does not matter for the pipeline; plan with the cold figure (about 4.5 GB). If a cold peak ever matters, download the model in its own step before transcription.
 
 ## What follows for the pipeline
 
