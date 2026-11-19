@@ -85,19 +85,30 @@ class HttpJev:
     def ask(self, state: dict, questions: dict[str, dict]) -> dict[str, float]:
         payload = {"model": self._model, "state": state, "questions": questions}
         for attempt in range(self._max_retries + 1):
+            retry_after: float | None = None
             try:
                 response = self._client.post(API_URL, json=payload)
                 status, body = response.status_code, _json(response)
+                retry_after = _retry_after(response)
             except httpx.TransportError:  # timeout, connection reset
                 status, body = 599, None
             error = classify(status, body) if status != 599 else JevTransientError
             if error is None:
                 return _probabilities(body, questions)
             if error is JevTransientError and attempt < self._max_retries:
-                self._sleep(self._backoff * 2**attempt)
+                # The `retry-after` header, when present, is the server's own wish.
+                self._sleep(retry_after if retry_after is not None else self._backoff * 2**attempt)
                 continue
             raise error(f"Jev answered {status}: {body}")
         raise AssertionError("unreachable")
+
+
+def _retry_after(response: httpx.Response) -> float | None:
+    try:
+        value = float(response.headers.get("retry-after", ""))
+    except ValueError:
+        return None
+    return value if value >= 0 else None
 
 
 def _json(response: httpx.Response) -> object:

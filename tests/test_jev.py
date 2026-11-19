@@ -21,7 +21,7 @@ def jev(responses: list, sleeps: list | None = None, retries: int = 2) -> tuple[
         item = responses.pop(0)
         if isinstance(item, Exception):
             raise item
-        return httpx.Response(item[0], json=item[1])
+        return httpx.Response(item[0], json=item[1], headers=item[2] if len(item) > 2 else None)
 
     client = httpx.Client(transport=httpx.MockTransport(handler))
     sleep = sleeps.append if sleeps is not None else (lambda s: None)
@@ -98,3 +98,10 @@ def test_missing_probability_aborts():
     client, _ = jev([(200, {"answers": {"a": {"type": "noul", "noul": 0.9}}})])
     with pytest.raises(JevAbortError):
         client.ask({}, Q)
+
+
+def test_retry_after_header_overrides_backoff():
+    sleeps: list = []
+    client, _ = jev([(429, {}, {"retry-after": "7"}), (200, OK)], sleeps)
+    client.ask({}, Q)
+    assert sleeps == [7.0]
