@@ -49,3 +49,7 @@ The repository is public. Secrets exist only as GitHub secrets and are passed as
 | `IA_S3_ACCESS_KEY`, `IA_S3_SECRET_KEY` | Internet Archive upload (S3 API) | Phase 2 |
 
 The built-in `GITHUB_TOKEN` covers commits to the archive and the review issues. The pipeline never accesses the feedback mailbox.
+
+## Review
+
+After a successful run the episode workflow draws each accepted turn with fact IDs with the sampling rate r (`archive/state/review.json`; phase 1 keeps r at 100 %) and opens a review issue for the drawn turns (`09_review.json` in the episode folder). Answer with comments, one line per turn: `<number>: belegt` or `<number>: nicht belegt`, optionally followed by a dash and a note. The review workflow (`.github/workflows/review.yml`) writes the labels to `09_review.json`; once every drawn turn has a label, the review counts and is recorded in the state file, which updates r when `adjust_rate` is on (off in phase 1). Only comments by the reviewer configured in `config/pipeline.toml` count. To read an issue again (for example after a skipped run), start the review workflow manually with the issue number.
