@@ -90,6 +90,11 @@ EXPLICIT_SCHEMA = {
     "required": ["findings", "verdict", "reason"],
     "additionalProperties": False,
 }
+# User decision 2026-11-19: mild words are not profanity.
+PROFANITY_RULE = (
+    "Milde Ausdrücke wie „verdammt“ oder „Mist“ zählen nicht als „profanity“; es zählen nur "
+    "derbe oder vulgäre Ausdrücke, die tatsächlich ausgesprochen werden, auch in einem Zitat."
+)
 EXPLICIT_PROMPT = (
     "Du prüfst das Skript einer Podcast-Folge darauf, ob sie als „explicit“ gekennzeichnet "
     "werden muss. Das Skript ist ein Gespräch zwischen Lena und Felix über einen Artikel der "
@@ -107,7 +112,8 @@ EXPLICIT_PROMPT = (
     "- „drugs“: drastische Darstellung von Drogen und Rauschmitteln, etwa verherrlichter "
     "Konsum, ausgemalte Rauschzustände oder Anleitung zu Herstellung oder Konsum.\n"
     "- „profanity“: Schimpfwörter, Flüche, vulgäre oder beleidigende Ausdrücke, die im "
-    "Gespräch tatsächlich ausgesprochen werden.\n\n"
+    "Gespräch tatsächlich ausgesprochen werden. "
+    f"{PROFANITY_RULE}\n\n"
     "Nenne unter „findings“ für jede Kategorie, die vorkommt, die erste Fundstelle: Nummer des "
     "Redebeitrags, Kategorie, die Stelle wörtlich und eine kurze Begründung auf Deutsch. "
     "Ergebnis unter „verdict“: „explicit“, wenn es mindestens eine Fundstelle gibt; „clean“ nur, "

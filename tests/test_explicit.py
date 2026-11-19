@@ -118,3 +118,12 @@ def test_schema_offers_the_four_d7_categories_and_three_verdicts():
 def test_prompt_counts_only_drastic_depictions():
     assert "drastisch" in EXPLICIT_PROMPT
     assert "beiläufige Erwähnung ohne solche Schilderung zählt nicht" in EXPLICIT_PROMPT
+
+
+def test_prompt_says_mild_words_are_not_profanity():
+    from gut_zu_wissen.explicit import EXPLICIT_PROMPT
+
+    assert (
+        "Milde Ausdrücke wie „verdammt“ oder „Mist“ zählen nicht als „profanity“; es zählen nur "
+        "derbe oder vulgäre Ausdrücke, die tatsächlich ausgesprochen werden, auch in einem Zitat."
+    ) in EXPLICIT_PROMPT
