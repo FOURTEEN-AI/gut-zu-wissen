@@ -22,7 +22,7 @@ These retire the open risks before the build starts.
 ## Phase 1: Manual run to audio (Ausbaustufe 1)
 
 1. **Repo skeleton.** ✅ Done. Python package, Apache 2.0 for code, CC BY-SA for the archive directory, README mapping, CI (lint, tests), secrets, `workflow_dispatch` with a `concurrency` group.
-2. **Fetch.**
+2. **Fetch.** ✅ Done.
    - Latest sighted revision; fallback to latest revision if none exists (D2).
    - Wikitext, revid, revision status (sighted or latest), UTC timestamp, categories.
    - Gates as pure functions: living person; episode for this article published less than 6 months ago (D4).

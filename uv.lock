@@ -218,6 +218,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "cairosvg" },
+    { name = "httpx" },
     { name = "pillow" },
 ]
 
@@ -229,7 +230,6 @@ dev = [
 spikes = [
     { name = "beautifulsoup4" },
     { name = "faster-whisper" },
-    { name = "httpx" },
     { name = "numpy" },
     { name = "praat-parselmouth" },
     { name = "pyloudnorm" },
@@ -241,6 +241,7 @@ spikes = [
 [package.metadata]
 requires-dist = [
     { name = "cairosvg" },
+    { name = "httpx", specifier = ">=0.28.1" },
     { name = "pillow" },
 ]
 
@@ -252,7 +253,6 @@ dev = [
 spikes = [
     { name = "beautifulsoup4", specifier = ">=4.15.0" },
     { name = "faster-whisper", specifier = ">=1.2.1" },
-    { name = "httpx", specifier = ">=0.28.1" },
     { name = "numpy", specifier = ">=2.5.5" },
     { name = "praat-parselmouth", specifier = ">=0.4.7" },
     { name = "pyloudnorm", specifier = ">=0.2.0" },
