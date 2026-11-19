@@ -53,3 +53,15 @@ The built-in `GITHUB_TOKEN` covers commits to the archive and the review issues.
 ## Review
 
 After a successful run the episode workflow draws each accepted turn with fact IDs with the sampling rate r (`archive/state/review.json`; phase 1 keeps r at 100 %) and opens a review issue for the drawn turns (`09_review.json` in the episode folder). Answer with comments, one line per turn: `<number>: belegt` or `<number>: nicht belegt`, optionally followed by a dash and a note. The issue also shows the explicit check (`08_explicit.json`); confirm or correct its flag with `explicit: korrekt`, `explicit: sollte explicit sein` or `explicit: sollte nicht explicit sein`. `review.explicit_accuracy` computes the false-positive and false-negative rates of the explicit check over the archive. The review workflow (`.github/workflows/review.yml`) writes the labels to `09_review.json`; once every drawn turn has a label, the review counts and is recorded in the state file, which updates r when `adjust_rate` is on (off in phase 1). Only comments by the reviewer configured in `config/pipeline.toml` count. To read an issue again (for example after a skipped run), start the review workflow manually with the issue number.
+
+## Metrics
+
+Exit criteria of phase 1 (step 13) and the measurements over the archive: facts used per minute, escalation rate, cascade length, runtime, cost, error rate by revision status and the explicit check's false-positive and false-negative rates.
+
+```sh
+uv run python -m gut_zu_wissen.metrics              # Markdown report
+uv run python -m gut_zu_wissen.metrics --json       # the same as JSON
+uv run python -m gut_zu_wissen.metrics --archive DIR
+```
+
+The exit criteria are met once `[exit_criteria]` in `config/pipeline.toml` holds: 5 episodes whose review is answered (every drawn turn labelled) with the sample drawn at r = 100 %; the explicit label is counted but not required. Cost parts without a recorded token count or with a `PLACEHOLDER` price are listed as unknown. The Metrics workflow (`.github/workflows/metrics.yml`, manual start) prints the report to the job summary.
