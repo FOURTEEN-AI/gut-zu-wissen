@@ -40,6 +40,7 @@ from gut_zu_wissen.judge import (
     used_in_accepted,
 )
 from gut_zu_wissen.llm import StructuredLlm
+from gut_zu_wissen.markup import markup_problems
 from gut_zu_wissen.ranking import RankedFact
 
 CASCADE_KEY = "gleiche_aussagen"
@@ -183,12 +184,27 @@ def evaluate(
     judge_llm: StructuredLlm,
     t: float,
 ) -> TurnJudgement:
-    """Gate problems reject a turn without a judge call; otherwise the judge decides."""
+    """Gate problems reject a turn without a judge call; otherwise the judge decides.
+
+    A turn the judge accepts then passes the markup gate (design flowchart: judge, then "kein
+    Markup im Skript"); markup rejects it as a gate problem, so no fact counts as rejected (D6).
+    """
     facts = offer.by_id()
     problems = check_turns([turn], facts.keys())
     if problems:
         return TurnJudgement(turn.index, False, "gate", reason=" ".join(p.reason for p in problems))
-    return judge_turn(jev, judge_llm, turn, previous, facts, t)
+    judgement = judge_turn(jev, judge_llm, turn, previous, facts, t)
+    markup = markup_problems([turn])
+    if judgement.accepted and markup:
+        return TurnJudgement(
+            turn.index,
+            False,
+            "gate",
+            judgement.jev_p,
+            judgement.jev_error,
+            " ".join(p.reason for p in markup),
+        )
+    return judgement
 
 
 def check_cascade(jev: Jev, before: Turn, after: Turn, t: float, conversation: int) -> CascadeCheck:

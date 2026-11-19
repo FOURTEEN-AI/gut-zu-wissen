@@ -246,6 +246,28 @@ def test_turn_with_unknown_fact_id_is_regenerated_without_a_judge_call():
     assert state.judgements[1].decided_by == "jev"
 
 
+def test_accepted_turn_with_markup_is_regenerated_as_a_gate_problem():
+    author = FakeAuthor(
+        [dialog_json("Eins.", "In [[Paris]].", "Drei.")],
+        [turn_json("Felix", "In Paris.", "1-0000"), turn_json("Lena", "Drei neu.", "1-0000")],
+    )
+    state = run(author, FakeJev(cascade=[0.99]))
+    first = state.regenerations[0]
+    assert (first.turn_index, first.kind) == (1, "retry")
+    assert first.reason.startswith("Markup in text: wiki link")
+    assert state.dialog.turns[1].text == "In Paris."
+    assert all(j.accepted for j in state.judgements)
+
+
+def test_markup_rejection_excludes_no_facts():
+    # Markup is no fact problem: the fresh offer after a used-up budget excludes nothing (D6).
+    markup = turn_json("Lena", "In [[Paris]].", "1-0000")
+    author = FakeAuthor([dialog_json("In [[Paris]]."), dialog_json("Sauber.")], [markup, markup])
+    state = run(author, FakeJev())
+    assert state.discarded[0].excluded_fact_ids == []
+    assert run.offers == [frozenset(), frozenset()]
+
+
 def test_jev_abort_is_a_gate_failure():
     jev = FakeJev()
     jev.error = JevAbortError("401")
