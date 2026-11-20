@@ -697,7 +697,8 @@ def test_audio_is_synthesised_normalised_and_archived(tmp_path):
     assert (folder / "episode.flac").exists() and (folder / "sections" / "00.flac").exists()
     assert record["file"] == "episode.flac"
     assert list(record) == [
-        "model", "voices", "section_max_chars", "stt_model", "section_retries", "sections",
+        "model", "voices", "section_max_chars", "stt_model", "section_retries", "pronunciation",
+            "sections",
         "fixed_parts", "joins", "loudness", "file", "sample_rate", "seconds", "usd",
         "previous_attempts",
     ]  # fmt: skip

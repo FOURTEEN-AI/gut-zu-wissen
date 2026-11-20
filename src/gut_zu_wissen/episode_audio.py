@@ -95,6 +95,7 @@ class AudioRecord:
     section_max_chars: int
     stt_model: str
     section_retries: int
+    pronunciation: list[dict] = field(default_factory=list)  # lexicon in force (config + episode)
     sections: list[SectionRecord] = field(default_factory=list)
     fixed_parts: dict[str, str] = field(default_factory=dict)  # part -> fingerprint
     joins: dict[str, float] = field(default_factory=dict)

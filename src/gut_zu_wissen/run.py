@@ -73,6 +73,11 @@ from gut_zu_wissen.judge import TurnJudgement
 from gut_zu_wissen.linked import LinkedIntro, SkippedLink, fetch_linked_intros
 from gut_zu_wissen.llm import AnthropicLlm, LlmError, StructuredLlm
 from gut_zu_wissen.orchestrator import GateFailure, Offer, Orchestration, orchestrate
+from gut_zu_wissen.pronunciation import (
+    PronunciationError,
+    load_episode_entries,
+    merge,
+)
 from gut_zu_wissen.ranking import (
     RankedFact,
     bound_targets,
@@ -148,6 +153,14 @@ def audio_step(
     Shared by `run` and the audio resume (`resume.py`).
     """
     folder = episode_dir(archive_root, record.episode_id)
+    try:
+        lexicon = merge(config.get("pronunciation", []), load_episode_entries(folder))
+    except PronunciationError as exc:
+        record.status, record.failure = "failed", str(exc)
+        save_episode(archive_root, record)
+        raise GateFailure(str(exc)) from exc
+    audio_record.pronunciation = lexicon
+    config = {**config, "pronunciation": lexicon}
     try:
         produce_audio(
             audio_record,
