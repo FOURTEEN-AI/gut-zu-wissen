@@ -33,6 +33,24 @@ REVIEW_STATE_FILE = "review.json"  # sampling rate r (design: archive/state/revi
 # published); failed: gate failure or crash.
 EpisodeStatus = Literal["running", "completed", "published", "failed"]
 
+# Pipeline steps as recorded in `failed_step`, in run order.
+STEP_GATES = "gates"
+STEP_SEGMENTATION = "segmentation"
+STEP_EXTRACTION = "extraction"
+STEP_DIALOG = "dialog"  # ranking, dialog author, judge and orchestrator
+STEP_EXPLICIT = "explicit"
+STEP_AUDIO = "audio"  # sections, TTS, STT verification, normalisation
+STEP_REVIEW = "review"
+STEPS = (
+    STEP_GATES,
+    STEP_SEGMENTATION,
+    STEP_EXTRACTION,
+    STEP_DIALOG,
+    STEP_EXPLICIT,
+    STEP_AUDIO,
+    STEP_REVIEW,
+)
+
 _TRANSLITERATION = str.maketrans({"ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss"})
 TIMESTAMP_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
 
@@ -60,6 +78,11 @@ class EpisodeRecord:
     token counts per API client role (`usage.Usage`, cost log); `cost` the USD per role and for
     TTS with the prices in force at run time (`usage.episode_cost`). All three are missing in
     files written before they were recorded.
+
+    `failed_step` names the pipeline step a failed run stopped in (`STEPS`; None while the run
+    has not failed, and in files written before it was recorded). `resumed` lists every resume
+    of the audio step (`resume.py`, user decision 2026-11-20): when it started, the workflow run,
+    when the attempt before it ended and why it failed.
     """
 
     episode_id: str
@@ -72,6 +95,8 @@ class EpisodeRecord:
     failure: str | None = None
     usage: dict[str, dict] = field(default_factory=dict)
     cost: dict = field(default_factory=dict)
+    failed_step: str | None = None
+    resumed: list[dict] = field(default_factory=list)
 
 
 def write_json(path: Path, data: object) -> None:

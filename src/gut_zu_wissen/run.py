@@ -30,6 +30,14 @@ from gut_zu_wissen.archive import (
     RANKING_FILE,
     REVIEW_FILE,
     SEGMENTS_FILE,
+    STEP_AUDIO,
+    STEP_DIALOG,
+    STEP_EXPLICIT,
+    STEP_EXTRACTION,
+    STEP_GATES,
+    STEP_REVIEW,
+    STEP_SEGMENTATION,
+    EpisodeRecord,
     create_episode,
     episode_dir,
     format_timestamp,
@@ -40,8 +48,10 @@ from gut_zu_wissen.archive import (
     slugify,
     write_json,
 )
+from gut_zu_wissen.dialog import Turn
 from gut_zu_wissen.episode_audio import (
     EPISODE_AUDIO,
+    AudioRecord,
     AudioStepError,
     new_record,
     produce_audio,
@@ -52,6 +62,7 @@ from gut_zu_wissen.fetch import ArticleNotFoundError, HttpWikipediaApi, Wikipedi
 from gut_zu_wissen.gates import is_living_person, repeat_gate_allows
 from gut_zu_wissen.intro_outro import ASSETS_DIR, FixedAudioError, load_fixed
 from gut_zu_wissen.jev import HttpJev, Jev
+from gut_zu_wissen.judge import TurnJudgement
 from gut_zu_wissen.linked import LinkedIntro, SkippedLink, fetch_linked_intros
 from gut_zu_wissen.llm import AnthropicLlm, LlmError, StructuredLlm
 from gut_zu_wissen.orchestrator import GateFailure, Offer, Orchestration, orchestrate
@@ -111,6 +122,64 @@ def load_config(path: Path = CONFIG_PATH) -> dict:
         return tomllib.load(f)
 
 
+def audio_step(
+    archive_root: Path,
+    record: EpisodeRecord,
+    audio_record: AudioRecord,
+    turns: list[Turn],
+    tts: Tts,
+    stt: Stt,
+    decision_llm: StructuredLlm,
+    fixed: Mapping,
+    audio_root: Path,
+    config: dict,
+) -> None:
+    """Steps 9 and 10 on the final script, writing `08_audio.json` on every exit.
+
+    An `AudioStepError` (TTS or STT error, STT budget used up) records the episode as failed and
+    becomes `GateFailure`; a crash keeps the record of the syntheses so far and propagates.
+    Shared by `run` and the audio resume (`resume.py`).
+    """
+    folder = episode_dir(archive_root, record.episode_id)
+    try:
+        produce_audio(
+            audio_record,
+            turns,
+            tts,
+            stt,
+            decision_llm,
+            fixed,
+            audio_root / record.episode_id,
+            config,
+        )
+    except AudioStepError as exc:
+        write_json(folder / AUDIO_FILE, audio_record.to_dict())
+        record.status, record.failure = "failed", str(exc)
+        save_episode(archive_root, record)
+        raise GateFailure(str(exc)) from exc
+    except Exception:  # crash: keep the record of the syntheses so far
+        write_json(folder / AUDIO_FILE, audio_record.to_dict())
+        raise
+    write_json(folder / AUDIO_FILE, audio_record.to_dict())
+
+
+def review_step(
+    archive_root: Path,
+    record: EpisodeRecord,
+    turns: list[Turn],
+    judgements: list[TurnJudgement],
+    facts: Mapping[str, RankedFact],
+    explicit: ExplicitCheck,
+    config: dict,
+) -> None:
+    """Step 12: draw the review sample with the current r, write `09_review.json`; the episode is
+    `completed` (saved by the caller). Shared by `run` and the audio resume."""
+    rate = load_rate_state(archive_root, config["review"]).r
+    review = build_review(record.episode_id, record.title, turns, judgements, facts, rate, explicit)
+    write_json(episode_dir(archive_root, record.episode_id) / REVIEW_FILE, review.to_dict())
+    record.status = "completed"  # phase 2 moves it on to published
+
+
 def run(
     api: WikipediaApi,
     llm: StructuredLlm,
@@ -146,13 +215,15 @@ def run(
     with those prices (step 13: runtime and cost). A crash (any exception other than `GateFailure`)
     is recorded as `failed` with `crash_reason` (type and message, `secrets` masked) and
     re-raised, so the job fails with the traceback. A crash in the audio step still writes
-    `08_audio.json`, so the syntheses paid for stay in the cost log.
+    `08_audio.json`, so the syntheses paid for stay in the cost log. A failed run records the
+    step it stopped in (`failed_step`); a failure in the audio step can be resumed (`resume.py`).
     """
     max_reason = config["run"]["failure_reason_max_chars"]
     fixed = load_fixed(fixed_dir, config["models"]["tts"], voices_of(config))
     article = fetch_article(api, title, now)
     record = create_episode(archive_root, article.title, now)
     audio_record = None  # TTS cost of the run, once the audio step started
+    step = STEP_GATES
     try:
         write_json(episode_dir(archive_root, record.episode_id) / ARTICLE_FILE, article.to_dict())
 
@@ -175,12 +246,14 @@ def run(
             save_episode(archive_root, record)
             raise GateFailure(failure)
         folder = episode_dir(archive_root, record.episode_id)
+        step = STEP_SEGMENTATION
         renderer = ParseRenderer(api)
         segments = segment_article(article.wikitext, article.title, article.revid, renderer)
         write_json(
             folder / SEGMENTS_FILE,
             {"revid": article.revid, "segments": [s.to_dict() for s in segments]},
         )
+        step = STEP_EXTRACTION
         facts = extract_facts(llm, renderer, article.title, article.revid, segments, config)
         write_json(folder / FACTS_FILE, facts.to_dict())
 
@@ -264,6 +337,7 @@ def run(
                 raise GateFailure(failure)
             return Offer(main_ranked, linked)
 
+        step = STEP_DIALOG
         state = Orchestration()
         try:
             # The dialog author (dialog and turn regenerations) may use its own client with a
@@ -281,6 +355,7 @@ def run(
 
         assert state.dialog is not None
         # D7 on the final script, before the audio step: a failed check costs no TTS.
+        step = STEP_EXPLICIT
         explicit = ExplicitCheck(config["models"]["llm_judge"])
         try:
             check_explicit(explicit, judge_llm, state.dialog.turns)
@@ -294,46 +369,39 @@ def run(
         record.explicit = explicit.explicit
         save_episode(archive_root, record)
 
+        step = STEP_AUDIO
         audio_record = new_record(config)
-        try:
-            produce_audio(
-                audio_record,
-                state.dialog.turns,
-                tts,
-                stt,
-                judge_llm,
-                fixed,
-                audio_root / record.episode_id,
-                config,
-            )
-        except AudioStepError as exc:
-            write_json(folder / AUDIO_FILE, audio_record.to_dict())
-            record.status, record.failure = "failed", str(exc)
-            save_episode(archive_root, record)
-            raise GateFailure(str(exc)) from exc
-        except Exception:  # crash: keep the record of the syntheses so far
-            write_json(folder / AUDIO_FILE, audio_record.to_dict())
-            raise
-        write_json(folder / AUDIO_FILE, audio_record.to_dict())
+        audio_step(
+            archive_root,
+            record,
+            audio_record,
+            state.dialog.turns,
+            tts,
+            stt,
+            judge_llm,
+            fixed,
+            audio_root,
+            config,
+        )
 
+        step = STEP_REVIEW
         assert state.offer is not None
-        rate = load_rate_state(archive_root, config["review"]).r
-        review = build_review(
-            record.episode_id,
-            record.title,
+        review_step(
+            archive_root,
+            record,
             state.dialog.turns,
             state.judgements,
             state.offer.by_id(),
-            rate,
             explicit,
-        )
-        write_json(folder / REVIEW_FILE, review.to_dict())
-        record.status = "completed"  # saved in `finally`; phase 2 moves it on to published
+            config,
+        )  # `completed` is saved in `finally`
         return record.episode_id
     except GateFailure:
+        record.failed_step = step
         raise
     except Exception as exc:  # crash: recorded as failed, then the job fails with the traceback
         record.status, record.failure = "failed", crash_reason(exc, max_reason, secrets)
+        record.failed_step = step
         raise
     finally:  # every exit, a crash included, records the end and the token counts
         record.finished_at = format_timestamp((clock or _utc_now)())
@@ -435,6 +503,13 @@ def main(argv: list[str] | None = None) -> int:
             "the run got that far; traceback in the job log."
         )
         raise
+    report_success(episode_id)
+    return 0
+
+
+def report_success(episode_id: str, note: str = "") -> None:
+    """Step output for the workflow's review-issue step, job summary and log line of a run (or
+    an audio resume, `note`) that ended `completed`."""
     write_step_output("episode_id", episode_id)
     audio_file = AUDIO_ROOT / episode_id / EPISODE_AUDIO
     explicit = "yes" if load_episode(ARCHIVE_ROOT, episode_id).explicit else "no"
@@ -443,15 +518,14 @@ def main(argv: list[str] | None = None) -> int:
     ranking = read_json(episode_dir(ARCHIVE_ROOT, episode_id) / RANKING_FILE)
     offer = offer_summary(ranking["offer_counts"])
     write_job_summary(
-        f"## Episode {episode_id}\n\nSteps up to the STT-verified audio, the explicit check and "
-        f"the review sample done. {offer}. Explicit: {explicit}. Review: {drawn}. "
+        f"## Episode {episode_id}\n\n{note}Steps up to the STT-verified audio, the explicit check "
+        f"and the review sample done. {offer}. Explicit: {explicit}. Review: {drawn}. "
         f"Audio: `{audio_file.relative_to(REPO_ROOT)}` (workflow artifact, not committed)."
     )
     print(
-        f"Episode {episode_id}: steps up to the review sample done, explicit: {explicit}, "
+        f"Episode {episode_id}: {note}steps up to the review sample done, explicit: {explicit}, "
         f"review: {drawn} ({audio_file})."
     )
-    return 0
 
 
 if __name__ == "__main__":

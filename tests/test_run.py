@@ -343,6 +343,7 @@ def test_too_few_offered_facts_fail_the_run(tmp_path):
         run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, config, "Rotfuchs", NOW)
     record = load_episode(tmp_path, "2026-11-19_rotfuchs")
     assert record.status == "failed" and "D5" in record.failure
+    assert record.failed_step == "dialog"
     assert (tmp_path / "episodes" / record.episode_id / "04_ranking.json").exists()
 
 
@@ -352,7 +353,7 @@ def test_living_person_aborts_and_records_failure(tmp_path):
         run(api, FakeLlm(), tmp_path, CONFIG, "Max Muster", NOW)
     record = load_episode(tmp_path, "2026-11-19_max-muster")
     assert record.status == "failed"
-    assert "living person" in record.failure
+    assert "living person" in record.failure and record.failed_step == "gates"
     assert (tmp_path / "episodes" / record.episode_id / "01_article.json").exists()
     assert not (tmp_path / "episodes" / record.episode_id / "02_segments.json").exists()
 
@@ -550,7 +551,8 @@ def test_tts_failure_fails_the_run_and_archives_the_sections(tmp_path):
     with pytest.raises(GateFailure, match="TTS section 0"):
         run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, tts=tts)
     folder = tmp_path / "episodes" / "2026-11-19_rotfuchs"
-    assert load_episode(tmp_path, "2026-11-19_rotfuchs").status == "failed"
+    episode = load_episode(tmp_path, "2026-11-19_rotfuchs")
+    assert episode.status == "failed" and episode.failed_step == "audio"
     record = json.loads((folder / "08_audio.json").read_text())
     assert record["sections"][0]["seconds"] is None and record["file"] is None
 
@@ -563,6 +565,7 @@ def test_audio_that_keeps_changing_the_statement_escalates(tmp_path):
     assert len(tts.calls) == 3  # first synthesis and two resyntheses
     episode = load_episode(tmp_path, "2026-11-19_rotfuchs")
     assert episode.status == "failed" and "STT verification" in episode.failure
+    assert episode.failed_step == "audio"
     record = json.loads((tmp_path / "episodes" / episode.episode_id / "08_audio.json").read_text())
     attempts = record["sections"][0]["attempts"]
     assert [a["action"] for a in attempts] == ["resynthesize", "resynthesize", "escalate"]
@@ -586,6 +589,7 @@ def test_clean_script_is_archived_and_not_explicit(tmp_path):
     }
     episode = load_episode(tmp_path, episode_id)
     assert episode.explicit is False and episode.status == "completed"
+    assert episode.failed_step is None and episode.resumed == []
 
 
 @pytest.mark.parametrize(
@@ -620,7 +624,7 @@ def test_failed_explicit_check_fails_the_run_before_any_tts_cost(tmp_path):
     assert tts.calls == []
     episode = load_episode(tmp_path, "2026-11-19_rotfuchs")
     assert episode.status == "failed" and episode.explicit is None
-    assert "declined" in episode.failure
+    assert "declined" in episode.failure and episode.failed_step == "explicit"
     folder = tmp_path / "episodes" / episode.episode_id
     record = json.loads((folder / "07_explicit.json").read_text())
     assert record["explicit"] is None and record["error"].startswith("LlmError")
@@ -745,6 +749,7 @@ def test_crashed_run_is_recorded_as_failed_and_re_raised(tmp_path):
     record = load_episode(tmp_path, "2026-11-19_rotfuchs")
     assert record.status == "failed" and record.finished_at == "2026-11-19T10:47:12Z"
     assert record.failure == "Crash: RuntimeError: connection reset"
+    assert record.failed_step == "extraction"
 
 
 def test_crash_in_the_audio_step_keeps_the_audio_record(tmp_path):
@@ -752,9 +757,9 @@ def test_crash_in_the_audio_step_keeps_the_audio_record(tmp_path):
     with pytest.raises(RuntimeError):
         run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, tts=tts)
     folder = tmp_path / "episodes" / "2026-11-19_rotfuchs"
-    assert load_episode(tmp_path, "2026-11-19_rotfuchs").failure == (
-        "Crash: RuntimeError: socket closed"
-    )
+    episode = load_episode(tmp_path, "2026-11-19_rotfuchs")
+    assert episode.failure == "Crash: RuntimeError: socket closed"
+    assert episode.failed_step == "audio"
     assert (folder / "08_audio.json").exists()
     assert not (folder / "09_review.json").exists()
 
