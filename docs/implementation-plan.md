@@ -71,7 +71,10 @@ These retire the open risks before the build starts.
   - SVG template with a title box: drafted by Claude, finalized by Andreas.
   - Pipeline renders the article title per episode: wrap at word boundaries, no line limit, then shrink the font until the block fits; no ellipsis.
   - SVG → PNG (1400–3000 px, square), bundled font, no external resources.
-- Internet Archive upload via the S3 API (audio and episode cover).
+- Internet Archive upload via the S3 API (audio and episode cover). ✅ Done in code (2026-11-20; not yet run against the live service, first upload at go-live).
+  - Decided 2026-11-20: MP3 encoded by the pipeline from the FLAC master (128 kbit/s, `[hosting]` in the config); publishing is a manual workflow (`publish.yml`, input: episode ID and the producing run's ID) after the review, not part of the run.
+  - One item per episode, `gut-zu-wissen_<episode id>`; result in `10_publication.json`; the episode becomes `published` only once the item lists both files.
+  - Needs the GitHub secrets `IA_ACCESS_KEY` and `IA_SECRET_KEY`.
 - Static Pages site: no external resources, `preload="none"`, legal pages linked on every page.
   - Publish the plain-language explainer `site/so-funktionierts.html` (draft exists, phase 1). Before publishing:
     - check the Impressum/Datenschutz link targets against how the site is actually served;
