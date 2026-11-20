@@ -19,3 +19,10 @@ Stand: 2026-11-20. Gebaut nach deiner Vorgabe „Baue Phase 3; Veröffentlichung
 - **Kosten:** Etwa 1,5 bis 2,5 USD je Folge, also grob 45 bis 75 USD im Monat vor Fehlversuchen. Ein Ersatzartikel verdoppelt den Tag.
 - **Erster Live-Lauf:** Der Tageslauf wurde nur mit Fakes getestet (`tests/test_daily.py`) und die Wikipedia-Abfragen einmal live gelesen. Der erste echte Lauf (Cron 03:17 UTC oder `workflow_dispatch`) ist der Test. Beachte: Er veröffentlicht nach 6 Stunden von allein.
 - **Nicht getestet:** `auto-publish.yml` (Workflow-Syntax, Artifact-Download über Läufe hinweg, Dispatch der Pages-Workflow).
+
+## Später ergänzt (autonome Arbeit, 2026-11-20)
+
+9. **Cron bleibt an.** Auf deine Anweisung „arbeite eigenständig weiter" habe ich den Tageslauf nicht deaktiviert. Der erste Lauf kommt um 03:17 UTC (4:17 Uhr deutscher Zeit am 21.11.) und wird gegen Mittag von allein veröffentlicht, wenn niemand `hold` setzt.
+10. **Label `hold` ist angelegt** (rot, mit Beschreibung), damit du es am Issue nur noch auswählen musst.
+11. **Pages in zwei Jobs getrennt** (Build, Deploy). Der gemeinsame Job scheiterte in drei von vier Läufen mit „No artifacts named github-pages". Der Testlauf nach der Änderung war grün; ob das Problem damit endgültig weg ist, zeigen die nächsten Läufe.
+12. **README:** Secret-Namen korrigiert (`ARCHIVE_S3_*`, vorher fälschlich `IA_S3_*`), Abschnitt zu Veröffentlichung und Tageslauf ergänzt.

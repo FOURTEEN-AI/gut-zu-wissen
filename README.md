@@ -47,16 +47,21 @@ uv run python -m gut_zu_wissen.resume 2026-11-20_tunguska-ereignis   # needs ANT
 
 It reruns sections, TTS, STT verification and normalisation on the archived final script, then draws the review sample; the workflow opens the review issue as after a normal run. Any other episode is refused with a reason and the archive stays unchanged: running, completed or published episodes, gate failures before the audio step, a failed explicit check. `08_audio.json` keeps the earlier attempts under `previous_attempts`; `episode.json` lists the resume under `resumed`. The metrics count the episode as one run with its final status, marked as resumed; runtime and cost include every attempt.
 
+## Publishing and the daily run
+
+- **By hand:** the Publish workflow (`publish.yml`) takes an episode ID and the ID of the run that produced the audio and publishes the episode to the Internet Archive; the Pages workflow then rebuilds the site and the RSS feed.
+- **Daily (phase 3):** the Daily workflow (`daily.yml`, cron `17 3 * * *` UTC) runs the German Wikipedia's article of the day (`python -m gut_zu_wissen.daily`; substitutes from the featured and recommended articles after a failure, at most two). The Auto-publish workflow (`auto-publish.yml`, hourly) publishes the episode 6 hours after its run (`[publishing]` in the config). To stop it, put the label `hold` on the episode's review issue; remove the label to release it. An episode whose review found an error is never published automatically. A dropped episode or a crash fails the workflow run, and GitHub sends the usual mail about it.
+
 ## GitHub secrets
 
-The repository is public. Secrets exist only as GitHub secrets and are passed as environment variables. The names are proposals.
+The repository is public. Secrets exist only as GitHub secrets and are passed as environment variables. 
 
 | Secret | Used for | Needed from |
 |---|---|---|
 | `ANTHROPIC_API_KEY` | Claude Sonnet 5.5: extraction, ranking, dialog author, LLM judge, explicit check | Phase 1, step 4 |
 | `TYPESAFE_API_KEY` | Jev (TypeSafe) | Phase 1, step 7 |
 | `GEMINI_API_KEY` | TTS (Gemini 3.8 Flash TTS) | Phase 1, step 9 |
-| `IA_S3_ACCESS_KEY`, `IA_S3_SECRET_KEY` | Internet Archive upload (S3 API) | Phase 2 |
+| `ARCHIVE_S3_ACCESS_KEY`, `ARCHIVE_S3_SECRET_KEY` | Internet Archive upload (S3 API) | Phase 2 |
 
 The built-in `GITHUB_TOKEN` covers commits to the archive and the review issues. The pipeline never accesses the feedback mailbox.
 
