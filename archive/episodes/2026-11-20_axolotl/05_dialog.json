@@ -1,0 +1,2277 @@
+{
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "Felix",
+      "text": "Lena, gibt es wirklich ein Verschlüsselungsprotokoll, das nach dem Axolotl benannt ist? Das klingt für mich zunächst nach einem Scherz.",
+      "fact_ids": [
+        "267769938-0132"
+      ],
+      "statements": [
+        {
+          "text": "Es gibt ein Axolotl-Protokoll, das bei der Ende-zu-Ende-Verschlüsselung von Nachrichten eingesetzt wird.",
+          "fact_ids": [
+            "267769938-0132"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "speaker": "Lena",
+      "text": "Ja, das gibt es. Das freie Axolotl-Protokoll kommt bei der Ende-zu-Ende-Verschlüsselung von Nachrichten zum Einsatz. Ein Beispiel dafür ist der Instant Messenger Signal. Der ehemalige Name des Protokolls spielte auf den Schwanzlurch Axolotl an. Dieser Lurch lebt im Wasser und ist vom Aussterben bedroht. Außerdem besitzt er außergewöhnliche Selbstheilungsfähigkeiten.",
+      "fact_ids": [
+        "267769938-0132",
+        "265804978-0008"
+      ],
+      "statements": [
+        {
+          "text": "Das freie Axolotl-Protokoll kommt bei der Ende-zu-Ende-Verschlüsselung von Nachrichten zum Einsatz, zum Beispiel beim Instant Messenger Signal.",
+          "fact_ids": [
+            "267769938-0132"
+          ]
+        },
+        {
+          "text": "Der ehemalige Name spielte auf den Schwanzlurch Axolotl an, der im Wasser lebt und vom Aussterben bedroht ist.",
+          "fact_ids": [
+            "265804978-0008"
+          ]
+        },
+        {
+          "text": "Der Axolotl besitzt außergewöhnliche Selbstheilungsfähigkeiten.",
+          "fact_ids": [
+            "265804978-0008"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "Felix",
+      "text": "Selbstheilungsfähigkeiten, das klingt fast nach einem Superhelden. Was kann so ein Axolotl denn konkret heilen?",
+      "fact_ids": [
+        "265804978-0008"
+      ],
+      "statements": [
+        {
+          "text": "Der Axolotl besitzt außergewöhnliche Selbstheilungsfähigkeiten.",
+          "fact_ids": [
+            "265804978-0008"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "Lena",
+      "text": "Erstaunlich viel. Axolotl verfügen über die Fähigkeit, Gliedmaßen wiederherzustellen. Das gilt auch für Organe. Und sogar Teile des Gehirns und des Herzens können sie wiederherstellen.",
+      "fact_ids": [
+        "267769938-0033"
+      ],
+      "statements": [
+        {
+          "text": "Axolotl können Gliedmaßen, Organe und sogar Teile des Gehirns und Herzens wiederherstellen.",
+          "fact_ids": [
+            "267769938-0033"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "Felix",
+      "text": "Wahnsinn, das klingt fast unwirklich. Hat man eigentlich schon im Erbgut nachgeschaut, was dahintersteckt?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 5,
+      "speaker": "Lena",
+      "text": "Das Genom des Axolotl wurde entschlüsselt. Es hat zweiunddreißig Milliarden Basenpaare. Damit ist es zehnmal so groß wie das menschliche Genom. Dabei wurde noch etwas festgestellt: Dem Axolotl fehlt im Gegensatz zu anderen Salamandern das Gen Pax3.",
+      "fact_ids": [
+        "267769938-0047",
+        "267769938-0045"
+      ],
+      "statements": [
+        {
+          "text": "Das Genom des Axolotl hat zweiunddreißig Milliarden Basenpaare und ist zehnmal so groß wie das menschliche Genom.",
+          "fact_ids": [
+            "267769938-0047"
+          ]
+        },
+        {
+          "text": "Bei der Entschlüsselung wurde festgestellt, dass dem Axolotl im Gegensatz zu anderen Salamandern das Gen Pax3 fehlt.",
+          "fact_ids": [
+            "267769938-0045",
+            "267769938-0047"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "speaker": "Felix",
+      "text": "Moment, das müssen wir kurz sortieren. Das Erbgut ist zehnmal so groß wie unseres, und trotzdem fehlt ihm ein Gen, das bei anderen Salamandern vorkommt? Das finde ich ziemlich verblüffend.",
+      "fact_ids": [
+        "267769938-0047",
+        "267769938-0045"
+      ],
+      "statements": [
+        {
+          "text": "Das Axolotl-Genom ist zehnmal so groß wie das menschliche Genom.",
+          "fact_ids": [
+            "267769938-0047"
+          ]
+        },
+        {
+          "text": "Dem Axolotl fehlt im Gegensatz zu anderen Salamandern das Gen Pax3.",
+          "fact_ids": [
+            "267769938-0045"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "speaker": "Lena",
+      "text": "Ja, beides steht so fest. Das Genom ist riesig. Nur das Genom des Australischen Lungenfischs ist unter den bisher entschlüsselten noch größer. Und gleichzeitig fehlt dem Axolotl das Gen Pax3, anders als anderen Salamandern.",
+      "fact_ids": [
+        "267769938-0047",
+        "267769938-0045"
+      ],
+      "statements": [
+        {
+          "text": "Nach dem Genom des Australischen Lungenfischs ist das Axolotl-Genom das größte, das jemals entschlüsselt wurde.",
+          "fact_ids": [
+            "267769938-0047"
+          ]
+        },
+        {
+          "text": "Dem Axolotl fehlt im Gegensatz zu anderen Salamandern das Gen Pax3.",
+          "fact_ids": [
+            "267769938-0045"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "speaker": "Felix",
+      "text": "Spannend. Dann wechseln wir mal zum Äußeren: Bleibt ein Axolotl sein Leben lang so, wie man ihn kennt, oder kann er sich auch verwandeln?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 9,
+      "speaker": "Lena",
+      "text": "Er kann sich verwandeln, zumindest im Experiment. Durch künstliche Gabe des Schilddrüsenhormons Thyroxin lässt sich die Metamorphose herbeiführen. Dabei entsteht ein Querzahnmolch. Der lebt an Land und atmet mit Lungen.",
+      "fact_ids": [
+        "267769938-0030"
+      ],
+      "statements": [
+        {
+          "text": "Durch künstliche Gabe des Schilddrüsenhormons Thyroxin lässt sich die Metamorphose zu einem Querzahnmolch experimentell herbeiführen.",
+          "fact_ids": [
+            "267769938-0030"
+          ]
+        },
+        {
+          "text": "Der Querzahnmolch lebt an Land und atmet mit Lungen.",
+          "fact_ids": [
+            "267769938-0030"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "speaker": "Felix",
+      "text": "Ein Axolotl, der an Land geht und mit Lungen atmet, das ist ein ganz anderes Tier. Braucht es dafür zwingend dieses Hormon, oder geht es auch anders?",
+      "fact_ids": [
+        "267769938-0030"
+      ],
+      "statements": [
+        {
+          "text": "Durch Thyroxin lässt sich die Metamorphose zu einem landlebenden, lungenatmenden Querzahnmolch herbeiführen.",
+          "fact_ids": [
+            "267769938-0030"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "speaker": "Lena",
+      "text": "Es geht auch anders. Marie von Chauvin konnte ab achtzehnhundertvierundsiebzig nachweisen, dass die Metamorphose auch ohne Thyroxin ausgelöst werden kann. Dafür genügt eine Änderung der Umweltbedingungen. Schon achtzehnhundertsiebenundsechzig hatte Auguste Duméril im Jardin des Plantes in Paris vereinzelte Tiere beobachtet, bei denen sich die Kiemen zurückgebildet hatten.",
+      "fact_ids": [
+        "267769938-0031"
+      ],
+      "statements": [
+        {
+          "text": "Marie von Chauvin konnte ab 1874 nachweisen, dass die Metamorphose auch ohne Gabe von Thyroxin durch Änderung der Umweltbedingungen ausgelöst werden kann.",
+          "fact_ids": [
+            "267769938-0031"
+          ]
+        },
+        {
+          "text": "Auguste Duméril beobachtete 1867 im Jardin des Plantes in Paris vereinzelte Tiere, bei denen sich die Kiemen zurückgebildet hatten.",
+          "fact_ids": [
+            "267769938-0031"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "speaker": "Felix",
+      "text": "Schon im Jahr achtzehnhundertsiebenundsechzig gab es also Axolotl in Paris. Wie sind die Tiere eigentlich nach Europa gekommen?",
+      "fact_ids": [
+        "267769938-0031"
+      ],
+      "statements": [
+        {
+          "text": "Auguste Duméril beobachtete 1867 im Jardin des Plantes in Paris vereinzelte Axolotl.",
+          "fact_ids": [
+            "267769938-0031"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "speaker": "Lena",
+      "text": "Alexander von Humboldt brachte sie mit. Im August des Jahres achtzehnhundertvier brachte er als Erster Axolotl nach Europa. Die Tiere waren in Alkohol eingelegt. Im Pariser Naturkundemuseum dienten sie als exotische Kuriosität.",
+      "fact_ids": [
+        "267769938-0009"
+      ],
+      "statements": [
+        {
+          "text": "Alexander von Humboldt brachte im August 1804 als Erster Axolotl nach Europa.",
+          "fact_ids": [
+            "267769938-0009"
+          ]
+        },
+        {
+          "text": "Die Axolotl waren in Alkohol eingelegt und dienten im Pariser Naturkundemuseum als exotische Kuriosität.",
+          "fact_ids": [
+            "267769938-0009"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "speaker": "Felix",
+      "text": "Eingelegt in Alkohol, als Kuriosität im Museum. So hat die Geschichte des Axolotl in Europa also begonnen. Und wer war dieser Humboldt eigentlich?",
+      "fact_ids": [
+        "267769938-0009"
+      ],
+      "statements": [
+        {
+          "text": "Humboldt brachte als Erster Axolotl nach Europa, in Alkohol eingelegt, als exotische Kuriosität für das Pariser Naturkundemuseum.",
+          "fact_ids": [
+            "267769938-0009"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "speaker": "Lena",
+      "text": "Ein Mann von enormem Ansehen. Die Preußische Akademie der Wissenschaften würdigte ihn als die erste wissenschaftliche Größe seines Zeitalters. Sein Weltruhm überrage sogar den von Gottfried Wilhelm Leibniz.",
+      "fact_ids": [
+        "271991545-0009"
+      ],
+      "statements": [
+        {
+          "text": "Die Preußische Akademie der Wissenschaften würdigte Humboldt als die erste wissenschaftliche Größe seines Zeitalters.",
+          "fact_ids": [
+            "271991545-0009"
+          ]
+        },
+        {
+          "text": "Humboldts Weltruhm überrage sogar den von Gottfried Wilhelm Leibniz.",
+          "fact_ids": [
+            "271991545-0009"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "speaker": "Felix",
+      "text": "Beeindruckend. Und wie sind die Menschen in der Heimat des Axolotl mit ihm umgegangen?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 17,
+      "speaker": "Lena",
+      "text": "Die mesoamerikanischen Ureinwohner fischten Axolotl. Bei Festessen waren sie häufig ein Leckerbissen. Das ist bemerkenswert, denn die Azteken sahen in ihm ein heiliges Tier.",
+      "fact_ids": [
+        "267769938-0120"
+      ],
+      "statements": [
+        {
+          "text": "Die mesoamerikanischen Ureinwohner fischten Axolotl, und bei Festessen waren sie häufig ein Leckerbissen.",
+          "fact_ids": [
+            "267769938-0120"
+          ]
+        },
+        {
+          "text": "Die Azteken sahen im Axolotl ein heiliges Tier.",
+          "fact_ids": [
+            "267769938-0120"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "speaker": "Felix",
+      "text": "Heilig und trotzdem auf dem Teller, das ist ein ziemlicher Widerspruch. Wird er heute noch gegessen?",
+      "fact_ids": [
+        "267769938-0120"
+      ],
+      "statements": [
+        {
+          "text": "Die Azteken sahen im Axolotl ein heiliges Tier, aber er war bei Festessen häufig ein Leckerbissen.",
+          "fact_ids": [
+            "267769938-0120"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "speaker": "Lena",
+      "text": "Es gibt ihn als Spezialität. Unter der Bezeichnung Wooper Looper werden Zuchtexemplare inzwischen auch frittiert zum Verzehr angeboten. Es sind also Tiere aus Zucht, die als kulinarische Spezialität auf dem Teller landen.",
+      "fact_ids": [
+        "267769938-0123"
+      ],
+      "statements": [
+        {
+          "text": "Unter der Bezeichnung Wooper Looper werden Zuchtexemplare inzwischen auch frittiert als kulinarische Spezialität zum Verzehr angeboten.",
+          "fact_ids": [
+            "267769938-0123"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "speaker": "Felix",
+      "text": "Frittiert, du liebe Zeit. Und in der Natur, wie sieht es da aus?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 21,
+      "speaker": "Lena",
+      "text": "Düster. Der Axolotl ist vom Aussterben bedroht. Laut einem Pressebericht vom Januar zweitausendvierzehn konnten trotz einer viermonatigen Suche keine frei lebenden Axolotl mehr gefunden werden.",
+      "fact_ids": [
+        "267769938-0116",
+        "265804978-0008"
+      ],
+      "statements": [
+        {
+          "text": "Der Axolotl ist vom Aussterben bedroht.",
+          "fact_ids": [
+            "265804978-0008"
+          ]
+        },
+        {
+          "text": "Laut Pressebericht vom Januar 2014 konnten trotz einer viermonatigen Suche keine frei lebenden Axolotl mehr gefunden werden.",
+          "fact_ids": [
+            "267769938-0116"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "speaker": "Felix",
+      "text": "Vier Monate Suche und kein einziger frei lebender Axolotl. Gibt es ihn dann praktisch nur noch bei den Menschen?",
+      "fact_ids": [
+        "267769938-0116"
+      ],
+      "statements": [
+        {
+          "text": "Bei einer viermonatigen Suche, über die im Januar 2014 berichtet wurde, wurden keine frei lebenden Axolotl mehr gefunden.",
+          "fact_ids": [
+            "267769938-0116"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "speaker": "Lena",
+      "text": "In diese Richtung geht es. Axolotl sind heute in Menschenobhut sehr viel häufiger als in ihrem ursprünglichen Lebensraum anzutreffen. Die Tiere in Obhut sind also deutlich in der Überzahl.",
+      "fact_ids": [
+        "267769938-0110"
+      ],
+      "statements": [
+        {
+          "text": "Axolotl sind heute in Menschenobhut sehr viel häufiger als in ihrem ursprünglichen Lebensraum anzutreffen.",
+          "fact_ids": [
+            "267769938-0110"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "speaker": "Felix",
+      "text": "Im Heimtierhandel gibt es sie ja. Sind das dann noch die ursprünglichen Axolotl?",
+      "fact_ids": [
+        "267769938-0085"
+      ],
+      "statements": [
+        {
+          "text": "Es gibt Axolotl im Heimtierhandel.",
+          "fact_ids": [
+            "267769938-0085"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "speaker": "Lena",
+      "text": "Eher nicht. Hybride haben sich ausgebreitet, weil sie attraktivere Farbgebungen haben. Deshalb existieren inzwischen vermutlich kaum noch Axolotl im Heimtierhandel, die dem ursprünglichen Axolotl genetisch entsprechen.",
+      "fact_ids": [
+        "267769938-0085"
+      ],
+      "statements": [
+        {
+          "text": "Die Ausbreitung der Hybride durch die attraktiveren Farbgebungen führte dazu, dass inzwischen vermutlich kaum noch Axolotl im Heimtierhandel existieren, die dem ursprünglichen Axolotl genetisch entsprechen.",
+          "fact_ids": [
+            "267769938-0085"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "speaker": "Felix",
+      "text": "Die hübschere Farbe hat also gewonnen, und das Original ist im Handel kaum noch zu finden. Wie alt wird so ein Tier eigentlich?",
+      "fact_ids": [
+        "267769938-0085"
+      ],
+      "statements": [
+        {
+          "text": "Wegen der attraktiveren Farbgebungen der Hybride gibt es im Heimtierhandel vermutlich kaum noch genetisch ursprüngliche Axolotl.",
+          "fact_ids": [
+            "267769938-0085"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "speaker": "Lena",
+      "text": "In Gefangenschaft erreicht die Art ein Alter von etwa zwölf bis zwanzig Jahren. Auch Einzelfälle höheren Alters sind bekannt, bis hin zu achtundzwanzig Jahren.",
+      "fact_ids": [
+        "267769938-0081"
+      ],
+      "statements": [
+        {
+          "text": "In Gefangenschaft erreicht der Axolotl ein Alter von etwa zwölf bis zwanzig Jahren.",
+          "fact_ids": [
+            "267769938-0081"
+          ]
+        },
+        {
+          "text": "Einzelfälle höheren Alters bis zu achtundzwanzig Jahren sind bekannt.",
+          "fact_ids": [
+            "267769938-0081"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "speaker": "Felix",
+      "text": "Das ist eine ordentliche Spanne. Und wenn so ein Tier krank wird, was hilft dann?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 29,
+      "speaker": "Lena",
+      "text": "Kälte kann helfen. Erkrankte Axolotl genesen schneller, wenn das Wasser für einige Zeit auf sechs bis acht Grad Celsius abgekühlt wird. Das entspricht ungefähr der Wintertemperatur ihrer Heimatseen.",
+      "fact_ids": [
+        "267769938-0071"
+      ],
+      "statements": [
+        {
+          "text": "Erkrankte Axolotl genesen schneller, wenn das Wasser für einige Zeit auf sechs bis acht Grad Celsius abgekühlt wird.",
+          "fact_ids": [
+            "267769938-0071"
+          ]
+        },
+        {
+          "text": "Sechs bis acht Grad Celsius entsprechen ungefähr der Wintertemperatur der Heimatseen der Axolotl.",
+          "fact_ids": [
+            "267769938-0071"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "speaker": "Felix",
+      "text": "Kälte als Medizin, ungefähr so wie der Winter in den Heimatseen. Das hat etwas. Was steht denn auf dem Speiseplan eines Axolotl?",
+      "fact_ids": [
+        "267769938-0071"
+      ],
+      "statements": [
+        {
+          "text": "Kühles Wasser mit sechs bis acht Grad Celsius entspricht ungefähr der Wintertemperatur der Heimatseen und hilft erkrankten Axolotl.",
+          "fact_ids": [
+            "267769938-0071"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "speaker": "Lena",
+      "text": "Auch der Nachwuchs der eigenen Art gehört zu ihrem Nahrungsspektrum. Der relativ umfangreiche Laich eines Weibchens wird außerdem meist von Artgenossen verzehrt.",
+      "fact_ids": [
+        "267769938-0060",
+        "267769938-0078"
+      ],
+      "statements": [
+        {
+          "text": "Auch der Nachwuchs der eigenen Art gehört zum Nahrungsspektrum des Axolotl.",
+          "fact_ids": [
+            "267769938-0060"
+          ]
+        },
+        {
+          "text": "Der relativ umfangreiche Laich eines Weibchens wird meist von Artgenossen verzehrt.",
+          "fact_ids": [
+            "267769938-0078"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "speaker": "Felix",
+      "text": "Sie fressen also den eigenen Nachwuchs, und der Laich landet meist bei den Artgenossen im Magen. Das ist hart. Wechseln wir die Bühne: Taucht der Axolotl eigentlich auch in der Kultur auf?",
+      "fact_ids": [
+        "267769938-0060",
+        "267769938-0078"
+      ],
+      "statements": [
+        {
+          "text": "Der Nachwuchs der eigenen Art gehört zum Nahrungsspektrum der Axolotl.",
+          "fact_ids": [
+            "267769938-0060"
+          ]
+        },
+        {
+          "text": "Der Laich eines Weibchens wird meist von Artgenossen verzehrt.",
+          "fact_ids": [
+            "267769938-0078"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "speaker": "Lena",
+      "text": "Ja, schon im Jahr neunzehnhunderteinunddreißig. Der Name taucht in Carl Zuckmayers Schauspiel Der Hauptmann von Köpenick auf. Dort heißt eine Schuhfabrik Axolotl. Bei ihr sucht der Schuster und spätere Hauptmann Voigt vergeblich um Arbeit nach. Der Name ist eine Anspielung auf die bekannte Schuhfirma Salamander. Auch die ist nach einem Schwanzlurch benannt.",
+      "fact_ids": [
+        "267769938-0124"
+      ],
+      "statements": [
+        {
+          "text": "Der Name Axolotl taucht 1931 in Carl Zuckmayers Schauspiel Der Hauptmann von Köpenick auf.",
+          "fact_ids": [
+            "267769938-0124"
+          ]
+        },
+        {
+          "text": "Die Schuhfabrik, bei der der Schuster und spätere Hauptmann Voigt vergeblich um Arbeit nachsucht, heißt Axolotl.",
+          "fact_ids": [
+            "267769938-0124"
+          ]
+        },
+        {
+          "text": "Der Name ist eine Anspielung auf die bekannte Schuhfirma Salamander, die ebenfalls nach einem Schwanzlurch benannt ist.",
+          "fact_ids": [
+            "267769938-0124"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "speaker": "Felix",
+      "text": "Ein Schuster, der später Hauptmann wird. Was hat der denn angestellt?",
+      "fact_ids": [
+        "267769938-0124"
+      ],
+      "statements": [
+        {
+          "text": "Der Schuster Voigt wird in dem Schauspiel später ein Hauptmann.",
+          "fact_ids": [
+            "267769938-0124"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "speaker": "Lena",
+      "text": "Der Hauptmann von Köpenick wurde als Hochstapler bekannt. Am sechzehnten Oktober neunzehnhundertsechs drang er als Hauptmann verkleidet mit einem Trupp gutgläubiger Soldaten in das Rathaus der Stadt Cöpenick bei Berlin ein. Er verhaftete den Bürgermeister und raubte die Stadtkasse.",
+      "fact_ids": [
+        "272191328-0001"
+      ],
+      "statements": [
+        {
+          "text": "Der Hauptmann von Köpenick wurde als Hochstapler durch die Besetzung des Rathauses der Stadt Cöpenick bei Berlin bekannt.",
+          "fact_ids": [
+            "272191328-0001"
+          ]
+        },
+        {
+          "text": "Er drang am 16. Oktober 1906 als Hauptmann verkleidet mit einem Trupp gutgläubiger Soldaten in das Rathaus ein, verhaftete den Bürgermeister und raubte die Stadtkasse.",
+          "fact_ids": [
+            "272191328-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "speaker": "Felix",
+      "text": "Das ist ja fast ein Krimi. Und was weißt du über den Autor des Stücks, über Carl Zuckmayer?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 37,
+      "speaker": "Lena",
+      "text": "Carl Zuckmayer kehrte neunzehnhundertsechsundvierzig wieder nach Europa zurück. Er war nunmehr amerikanischer Staatsbürger.",
+      "fact_ids": [
+        "270707452-0004"
+      ],
+      "statements": [
+        {
+          "text": "Carl Zuckmayer kehrte 1946, nunmehr als amerikanischer Staatsbürger, wieder nach Europa zurück.",
+          "fact_ids": [
+            "270707452-0004"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "speaker": "Felix",
+      "text": "Gut. Und heute? Hat der Axolotl auch die Popkultur erreicht?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 39,
+      "speaker": "Lena",
+      "text": "Ja. Im September zweitausenddreiundzwanzig erschien der Roguelike-Shooter AK-xolotl. In diesem Spiel spielt man einen Axolotl. Er ist unter anderem mit einem Sturmgewehr bewaffnet.",
+      "fact_ids": [
+        "267769938-0137"
+      ],
+      "statements": [
+        {
+          "text": "Im September 2023 erschien der Roguelike-Shooter AK-xolotl.",
+          "fact_ids": [
+            "267769938-0137"
+          ]
+        },
+        {
+          "text": "In dem Spiel spielt man einen Axolotl, der unter anderem mit einem Sturmgewehr bewaffnet ist.",
+          "fact_ids": [
+            "267769938-0137"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "speaker": "Felix",
+      "text": "Dann halten wir fest: Ein Verschlüsselungsprotokoll hieß einmal nach dem Axolotl, Humboldt brachte die Tiere als Kuriosität nach Europa, in der Natur sind sie vom Aussterben bedroht, in Menschenobhut aber sehr viel häufiger. Und in einem Computerspiel trägt er ein Sturmgewehr.",
+      "fact_ids": [
+        "267769938-0132",
+        "265804978-0008",
+        "267769938-0009",
+        "267769938-0110",
+        "267769938-0137"
+      ],
+      "statements": [
+        {
+          "text": "Das Axolotl-Protokoll wird bei der Ende-zu-Ende-Verschlüsselung eingesetzt, und sein ehemaliger Name spielte auf den Axolotl an.",
+          "fact_ids": [
+            "267769938-0132",
+            "265804978-0008"
+          ]
+        },
+        {
+          "text": "Humboldt brachte als Erster Axolotl nach Europa, wo sie als exotische Kuriosität dienten.",
+          "fact_ids": [
+            "267769938-0009"
+          ]
+        },
+        {
+          "text": "Der Axolotl ist vom Aussterben bedroht und in Menschenobhut sehr viel häufiger als im ursprünglichen Lebensraum.",
+          "fact_ids": [
+            "265804978-0008",
+            "267769938-0110"
+          ]
+        },
+        {
+          "text": "In AK-xolotl spielt man einen Axolotl, der unter anderem mit einem Sturmgewehr bewaffnet ist.",
+          "fact_ids": [
+            "267769938-0137"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "speaker": "Lena",
+      "text": "So ist es. Der ehemalige Name des Protokolls spielte auf einen Schwanzlurch an, der außergewöhnliche Selbstheilungsfähigkeiten besitzt. Dieser Schwanzlurch ist heute vom Aussterben bedroht, und in Menschenobhut ist er sehr viel häufiger anzutreffen als in seinem ursprünglichen Lebensraum.",
+      "fact_ids": [
+        "265804978-0008",
+        "267769938-0110"
+      ],
+      "statements": [
+        {
+          "text": "Der ehemalige Name spielte auf den Schwanzlurch Axolotl an, der außergewöhnliche Selbstheilungsfähigkeiten besitzt und vom Aussterben bedroht ist.",
+          "fact_ids": [
+            "265804978-0008"
+          ]
+        },
+        {
+          "text": "Axolotl sind in Menschenobhut sehr viel häufiger als in ihrem ursprünglichen Lebensraum anzutreffen.",
+          "fact_ids": [
+            "267769938-0110"
+          ]
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "used_fact_ids": [
+    "267769938-0132",
+    "265804978-0008",
+    "267769938-0033",
+    "267769938-0047",
+    "267769938-0045",
+    "267769938-0030",
+    "267769938-0031",
+    "267769938-0009",
+    "271991545-0009",
+    "267769938-0120",
+    "267769938-0123",
+    "267769938-0116",
+    "267769938-0110",
+    "267769938-0085",
+    "267769938-0081",
+    "267769938-0071",
+    "267769938-0060",
+    "267769938-0078",
+    "267769938-0124",
+    "272191328-0001",
+    "270707452-0004",
+    "267769938-0137"
+  ],
+  "conversation": 2,
+  "regenerations": [
+    {
+      "conversation": 1,
+      "turn_index": 5,
+      "kind": "retry",
+      "reason": "Der Satz „Metamorphose heißt: die Verwandlung vom Jungtier zum erwachsenen Tier“ ist eine Definition, die in keinem der Fakt-Sätze steht, und gilt deshalb als nicht belegt. Die übrigen Aussagen (Geschlechtsreife ohne Änderung der Larvengestalt, keine bei Amphibien übliche Metamorphose, zeitlebens Larvengestalt, Begriff Neotenie) folgen aus den Fakten 267769938-0007 und 238004702-0001.",
+      "previous": {
+        "index": 5,
+        "speaker": "Lena",
+        "text": "Im Wesentlichen ja. Axolotl erreichen ihre Geschlechtsreife, ohne ihre äußere Larvengestalt zu verändern. Sie durchlaufen also nicht die Metamorphose, die bei Amphibien sonst üblich ist. Metamorphose heißt: die Verwandlung vom Jungtier zum erwachsenen Tier. Üblicherweise behalten Axolotl zeitlebens ihre Larvengestalt. Dafür gibt es den Fachbegriff Neotenie.",
+        "fact_ids": [
+          "267769938-0007",
+          "238004702-0001"
+        ],
+        "statements": [
+          {
+            "text": "Axolotl erreichen die Geschlechtsreife, ohne ihre äußere Larvengestalt zu verändern und ohne die bei Amphibien sonst übliche Metamorphose zu durchlaufen.",
+            "fact_ids": [
+              "267769938-0007"
+            ]
+          },
+          {
+            "text": "Axolotl behalten üblicherweise zeitlebens ihre Larvengestalt; das nennt man Neotenie.",
+            "fact_ids": [
+              "238004702-0001"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 6,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 6,
+        "speaker": "Felix",
+        "text": "Also geschlechtsreif und trotzdem äußerlich eine Larve. Bleibt das wirklich für alle Zeiten so, oder kann man da nachhelfen?",
+        "fact_ids": [
+          "267769938-0007",
+          "238004702-0001"
+        ],
+        "statements": [
+          {
+            "text": "Axolotl werden geschlechtsreif, ohne ihre Larvengestalt zu verändern, und behalten sie üblicherweise zeitlebens.",
+            "fact_ids": [
+              "267769938-0007",
+              "238004702-0001"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 18,
+      "kind": "retry",
+      "reason": "Die Frage setzt voraus, dass es Menschen gab, die den Axolotl „schon viel länger kannten“. Das ist eine sachliche Prämisse, und es sind keine Fakt-IDs zitiert, die sie stützen. „Das ist ein stolzer Beiname“ wäre für sich genommen eine Reaktion, aber die Prämisse der Frage macht den Beitrag insgesamt unbelegt.",
+      "previous": {
+        "index": 18,
+        "speaker": "Felix",
+        "text": "Das ist ein stolzer Beiname. Aber gehen wir zurück zu den Menschen, die den Axolotl schon viel länger kannten. Wie sind die mit ihm umgegangen?",
+        "fact_ids": [],
+        "statements": []
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 19,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 19,
+        "speaker": "Lena",
+        "text": "Die mesoamerikanischen Ureinwohner haben Axolotl gefischt. Bei Festessen waren sie häufig ein Leckerbissen. Und das, obwohl die Azteken in ihm ein heiliges Tier sahen.",
+        "fact_ids": [
+          "267769938-0120"
+        ],
+        "statements": [
+          {
+            "text": "Mesoamerikanische Ureinwohner fischten Axolotl, die bei Festessen häufig ein Leckerbissen waren, obwohl die Azteken in ihm ein heiliges Tier sahen.",
+            "fact_ids": [
+              "267769938-0120"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "discarded_conversations": [
+    {
+      "conversation": 1,
+      "reason": "Turn regeneration budget used up (2x, cascade included).",
+      "excluded_fact_ids": [
+        "238004702-0001",
+        "267769938-0007",
+        "267769938-0128"
+      ],
+      "dialog": {
+        "turns": [
+          {
+            "index": 0,
+            "speaker": "Felix",
+            "text": "Lena, heute geht es um den Axolotl. Offenbar gibt es ein Verschlüsselungsprotokoll, das nach diesem Wassertier benannt ist. Wie kommt denn ein Tier in die Welt der Datensicherheit?",
+            "fact_ids": [
+              "267769938-0132",
+              "265804978-0008"
+            ],
+            "statements": [
+              {
+                "text": "Es gibt ein Axolotl-Protokoll, das bei der Verschlüsselung von Nachrichten eingesetzt wird.",
+                "fact_ids": [
+                  "267769938-0132"
+                ]
+              },
+              {
+                "text": "Der Name des Protokolls spielte auf den im Wasser lebenden Schwanzlurch Axolotl an.",
+                "fact_ids": [
+                  "265804978-0008"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "speaker": "Lena",
+            "text": "Zuerst die Technik. Das freie Axolotl-Protokoll kommt bei der Ende-zu-Ende-Verschlüsselung von Nachrichten zum Einsatz. Ein Beispiel dafür ist der Instant Messenger Signal. Der ehemalige Name des Protokolls spielte auf den Schwanzlurch Axolotl an. Das ist ein Tier, das im Wasser lebt und vom Aussterben bedroht ist. Außerdem besitzt es außergewöhnliche Selbstheilungsfähigkeiten.",
+            "fact_ids": [
+              "267769938-0132",
+              "265804978-0008"
+            ],
+            "statements": [
+              {
+                "text": "Das freie Axolotl-Protokoll wird bei der Ende-zu-Ende-Verschlüsselung von Nachrichten eingesetzt, zum Beispiel bei Signal.",
+                "fact_ids": [
+                  "267769938-0132"
+                ]
+              },
+              {
+                "text": "Der ehemalige Name spielte auf den Axolotl an, einen im Wasser lebenden, vom Aussterben bedrohten Schwanzlurch mit außergewöhnlichen Selbstheilungsfähigkeiten.",
+                "fact_ids": [
+                  "265804978-0008"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "speaker": "Felix",
+            "text": "Selbstheilungsfähigkeiten, das klingt nach einem Comic-Helden. Was kann der Axolotl denn ganz konkret?",
+            "fact_ids": [
+              "265804978-0008"
+            ],
+            "statements": [
+              {
+                "text": "Der Axolotl besitzt außergewöhnliche Selbstheilungsfähigkeiten.",
+                "fact_ids": [
+                  "265804978-0008"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 3,
+            "speaker": "Lena",
+            "text": "Er kann Gliedmaßen wiederherstellen. Das gilt auch für Organe. Und sogar bei Teilen des Gehirns und des Herzens gelingt ihm das.",
+            "fact_ids": [
+              "267769938-0033"
+            ],
+            "statements": [
+              {
+                "text": "Axolotl können Gliedmaßen, Organe und sogar Teile des Gehirns und Herzens wiederherstellen.",
+                "fact_ids": [
+                  "267769938-0033"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 4,
+            "speaker": "Felix",
+            "text": "Teile des Gehirns, das muss man sich erst einmal vorstellen! Aber es gibt noch etwas Besonderes an ihm: Er soll äußerlich nie richtig erwachsen werden. Stimmt das?",
+            "fact_ids": [
+              "267769938-0033",
+              "267769938-0007"
+            ],
+            "statements": [
+              {
+                "text": "Axolotl können Teile des Gehirns wiederherstellen.",
+                "fact_ids": [
+                  "267769938-0033"
+                ]
+              },
+              {
+                "text": "Axolotl werden geschlechtsreif, ohne ihre äußere Larvengestalt zu verändern.",
+                "fact_ids": [
+                  "267769938-0007"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 5,
+            "speaker": "Lena",
+            "text": "Im Wesentlichen ja. Axolotl erreichen ihre Geschlechtsreife, ohne ihre äußere Larvengestalt zu verändern. Die Metamorphose, die bei Amphibien sonst üblich ist, durchlaufen sie dabei nicht. Üblicherweise behalten sie zeitlebens ihre Larvengestalt. Dafür gibt es den Fachbegriff Neotenie.",
+            "fact_ids": [
+              "267769938-0007",
+              "238004702-0001"
+            ],
+            "statements": [
+              {
+                "text": "Axolotl erreichen ihre Geschlechtsreife, ohne ihre äußere Larvengestalt zu verändern.",
+                "fact_ids": [
+                  "267769938-0007"
+                ]
+              },
+              {
+                "text": "Sie durchlaufen dabei nicht die bei Amphibien sonst übliche Metamorphose.",
+                "fact_ids": [
+                  "267769938-0007"
+                ]
+              },
+              {
+                "text": "Üblicherweise behalten Axolotl zeitlebens ihre Larvengestalt, was als Neotenie bezeichnet wird.",
+                "fact_ids": [
+                  "238004702-0001"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 6,
+            "speaker": "Felix",
+            "text": "Also geschlechtsreif und äußerlich trotzdem eine Larve, und das ist ihr üblicher Zustand. Heißt das, dass es für immer so bleiben muss, oder kann man da nachhelfen?",
+            "fact_ids": [
+              "267769938-0007",
+              "238004702-0001"
+            ],
+            "statements": [
+              {
+                "text": "Axolotl erreichen die Geschlechtsreife, ohne ihre äußere Larvengestalt zu verändern und ohne die sonst bei Amphibien übliche Metamorphose zu durchlaufen.",
+                "fact_ids": [
+                  "267769938-0007"
+                ]
+              },
+              {
+                "text": "Axolotl behalten üblicherweise zeitlebens ihre Larvengestalt, was Neotenie genannt wird.",
+                "fact_ids": [
+                  "238004702-0001"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 7,
+            "speaker": "Lena",
+            "text": "Man kann nachhelfen. Durch die künstliche Gabe des Schilddrüsenhormons Thyroxin lässt sich die Metamorphose herbeiführen. Aus dem Tier wird dann ein an Land lebender, lungenatmender Querzahnmolch. Das gelingt allerdings nur experimentell, also im Versuch.",
+            "fact_ids": [
+              "267769938-0030"
+            ],
+            "statements": [
+              {
+                "text": "Durch künstliche Gabe des Schilddrüsenhormons Thyroxin lässt sich die Metamorphose zu einem terrestrischen, lungenatmenden Querzahnmolch experimentell herbeiführen.",
+                "fact_ids": [
+                  "267769938-0030"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 8,
+            "speaker": "Felix",
+            "text": "Ein Hormon, und aus dem reinen Wassertier wird ein Lungenatmer an Land. Wer hat eigentlich gezeigt, dass das überhaupt geht?",
+            "fact_ids": [
+              "267769938-0030",
+              "265804978-0008"
+            ],
+            "statements": [
+              {
+                "text": "Mit dem Hormon Thyroxin lässt sich die Metamorphose zu einem lungenatmenden Landtier herbeiführen.",
+                "fact_ids": [
+                  "267769938-0030"
+                ]
+              },
+              {
+                "text": "Der Axolotl lebt im Wasser.",
+                "fact_ids": [
+                  "265804978-0008"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 9,
+            "speaker": "Lena",
+            "text": "Da ist vor allem Marie von Chauvin zu nennen. Ihr gelang es, Axolotl experimentell zur Metamorphose zu bringen. Ab achtzehnhundertvierundsiebzig konnte sie sogar nachweisen, dass das auch ohne Thyroxin geht, nämlich durch eine Änderung der Umweltbedingungen. Schon achtzehnhundertsiebenundsechzig hatte Auguste Duméril im Jardin des Plantes in Paris vereinzelte Tiere beobachtet, bei denen sich die Kiemen zurückgebildet hatten.",
+            "fact_ids": [
+              "238004702-0001",
+              "267769938-0031"
+            ],
+            "statements": [
+              {
+                "text": "Marie von Chauvin gelang es, Axolotl experimentell zur Metamorphose zu bringen.",
+                "fact_ids": [
+                  "238004702-0001"
+                ]
+              },
+              {
+                "text": "Marie von Chauvin konnte ab 1874 nachweisen, dass die Metamorphose auch ohne Thyroxin durch Änderung der Umweltbedingungen ausgelöst werden kann.",
+                "fact_ids": [
+                  "267769938-0031"
+                ]
+              },
+              {
+                "text": "Auguste Duméril beobachtete 1867 im Jardin des Plantes in Paris vereinzelte Tiere, bei denen sich die Kiemen zurückgebildet hatten.",
+                "fact_ids": [
+                  "267769938-0031"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 10,
+            "speaker": "Felix",
+            "text": "Das ist erstaunlich. Also reichte später schon eine Veränderung der Umwelt, ohne Hormon. Wenn ein Tier so viel kann: Hat man sich eigentlich auch sein Erbgut genauer angeschaut?",
+            "fact_ids": [
+              "267769938-0031",
+              "267769938-0047"
+            ],
+            "statements": [
+              {
+                "text": "Die Metamorphose kann auch ohne Thyroxin durch geänderte Umweltbedingungen ausgelöst werden.",
+                "fact_ids": [
+                  "267769938-0031"
+                ]
+              },
+              {
+                "text": "Das Genom des Axolotl wurde entschlüsselt.",
+                "fact_ids": [
+                  "267769938-0047"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 11,
+            "speaker": "Lena",
+            "text": "Ja, und das Ergebnis ist gewaltig. Das Genom des Axolotl hat zweiunddreißig Milliarden Basenpaare. Damit ist es zehnmal so groß wie das menschliche Genom.",
+            "fact_ids": [
+              "267769938-0047"
+            ],
+            "statements": [
+              {
+                "text": "Das Genom des Axolotl hat 32 Milliarden Basenpaare und ist zehnmal so groß wie das menschliche Genom.",
+                "fact_ids": [
+                  "267769938-0047"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 12,
+            "speaker": "Felix",
+            "text": "Zehnmal so groß wie unseres! Ist das denn das größte Genom, das man kennt?",
+            "fact_ids": [
+              "267769938-0047"
+            ],
+            "statements": [
+              {
+                "text": "Das Axolotl-Genom ist zehnmal so groß wie das menschliche.",
+                "fact_ids": [
+                  "267769938-0047"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 13,
+            "speaker": "Lena",
+            "text": "Fast. Nach dem Genom des Australischen Lungenfischs ist es das größte, das jemals entschlüsselt wurde. Dabei wurde noch etwas festgestellt: Dem Axolotl fehlt im Gegensatz zu anderen Salamandern das Gen Pax3.",
+            "fact_ids": [
+              "267769938-0047",
+              "267769938-0045"
+            ],
+            "statements": [
+              {
+                "text": "Nach dem Genom des Australischen Lungenfischs ist das Axolotl-Genom das größte, das jemals entschlüsselt wurde.",
+                "fact_ids": [
+                  "267769938-0047"
+                ]
+              },
+              {
+                "text": "Dem Axolotl fehlt im Gegensatz zu anderen Salamandern das Gen Pax3.",
+                "fact_ids": [
+                  "267769938-0045"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 14,
+            "speaker": "Felix",
+            "text": "Ihm fehlt also ein Gen, das andere Salamander haben. Spannend. Dann reisen wir mal nach Europa: Wann ist der erste Axolotl dort angekommen?",
+            "fact_ids": [
+              "267769938-0045"
+            ],
+            "statements": [
+              {
+                "text": "Anderen Salamandern fehlt das Gen Pax3 nicht, dem Axolotl schon.",
+                "fact_ids": [
+                  "267769938-0045"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 15,
+            "speaker": "Lena",
+            "text": "Alexander von Humboldt brachte im August des Jahres achtzehnhundertvier als Erster Axolotl nach Europa. Die Tiere waren in Alkohol eingelegt. Im Pariser Naturkundemuseum dienten sie als exotische Kuriosität.",
+            "fact_ids": [
+              "267769938-0009"
+            ],
+            "statements": [
+              {
+                "text": "Alexander von Humboldt brachte im August 1804 als Erster Axolotl nach Europa, in Alkohol eingelegt, wo sie im Pariser Naturkundemuseum als exotische Kuriosität dienten.",
+                "fact_ids": [
+                  "267769938-0009"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 16,
+            "speaker": "Felix",
+            "text": "Humboldt als Überbringer des ersten Axolotls nach Europa, das ist eine schöne Wendung. Was weißt du noch über ihn?",
+            "fact_ids": [
+              "267769938-0009"
+            ],
+            "statements": [
+              {
+                "text": "Alexander von Humboldt brachte als Erster Axolotl nach Europa.",
+                "fact_ids": [
+                  "267769938-0009"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 17,
+            "speaker": "Lena",
+            "text": "Die Pariser Akademie der Wissenschaften verlieh ihm den Beinamen „Der neue Aristoteles“.",
+            "fact_ids": [
+              "271991545-0010"
+            ],
+            "statements": [
+              {
+                "text": "Die Pariser Akademie der Wissenschaften verlieh Humboldt den Beinamen „Der neue Aristoteles“.",
+                "fact_ids": [
+                  "271991545-0010"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 18,
+            "speaker": "Felix",
+            "text": "Beeindruckend! Humboldt hat ja als Erster Axolotl nach Europa gebracht, im Jahr achtzehnhundertvier. Aber wie sind eigentlich die Ureinwohner Mesoamerikas mit dem Tier umgegangen?",
+            "fact_ids": [
+              "267769938-0009",
+              "267769938-0120"
+            ],
+            "statements": [
+              {
+                "text": "Alexander von Humboldt brachte im Jahr 1804 als Erster Axolotl nach Europa.",
+                "fact_ids": [
+                  "267769938-0009"
+                ]
+              },
+              {
+                "text": "Die mesoamerikanischen Ureinwohner hatten mit dem Axolotl zu tun und gingen auf eine bestimmte Weise mit ihm um.",
+                "fact_ids": [
+                  "267769938-0120"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 19,
+            "speaker": "Lena",
+            "text": "Sie haben Axolotl gefischt. Bei Festessen waren die Tiere häufig ein Leckerbissen. Und das, obwohl die Azteken in ihm ein heiliges Tier sahen.",
+            "fact_ids": [
+              "267769938-0120"
+            ],
+            "statements": [
+              {
+                "text": "Die mesoamerikanischen Ureinwohner haben Axolotl gefischt.",
+                "fact_ids": [
+                  "267769938-0120"
+                ]
+              },
+              {
+                "text": "Bei Festessen waren Axolotl häufig ein Leckerbissen.",
+                "fact_ids": [
+                  "267769938-0120"
+                ]
+              },
+              {
+                "text": "Die Azteken sahen im Axolotl ein heiliges Tier.",
+                "fact_ids": [
+                  "267769938-0120"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 20,
+            "speaker": "Felix",
+            "text": "Heilig und trotzdem auf dem Teller, das passt kaum zusammen. Wird der Axolotl heute noch gegessen?",
+            "fact_ids": [
+              "267769938-0120"
+            ],
+            "statements": [
+              {
+                "text": "Azteken sahen im Axolotl ein heiliges Tier, er war aber bei Festessen häufig ein Leckerbissen.",
+                "fact_ids": [
+                  "267769938-0120"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 21,
+            "speaker": "Lena",
+            "text": "Zumindest gibt es ihn als Spezialität. Unter der Bezeichnung Wooper Looper werden Zuchtexemplare inzwischen auch frittiert zum Verzehr angeboten.",
+            "fact_ids": [
+              "267769938-0123"
+            ],
+            "statements": [
+              {
+                "text": "Unter der Bezeichnung Wooper Looper werden Zuchtexemplare inzwischen auch frittiert als kulinarische Spezialität angeboten.",
+                "fact_ids": [
+                  "267769938-0123"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 22,
+            "speaker": "Felix",
+            "text": "Frittierte Zuchttiere, interessant. Und wie sieht es mit den Axolotl in freier Natur aus?",
+            "fact_ids": [
+              "267769938-0123"
+            ],
+            "statements": [
+              {
+                "text": "Es gibt Zuchtexemplare des Axolotl, die frittiert angeboten werden.",
+                "fact_ids": [
+                  "267769938-0123"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 23,
+            "speaker": "Lena",
+            "text": "Da sieht es düster aus. Axolotl sind heute in Menschenobhut sehr viel häufiger als in ihrem ursprünglichen Lebensraum anzutreffen. Laut einem Pressebericht vom Januar zweitausendvierzehn konnten trotz einer viermonatigen Suche keine frei lebenden Axolotl mehr gefunden werden.",
+            "fact_ids": [
+              "267769938-0110",
+              "267769938-0116"
+            ],
+            "statements": [
+              {
+                "text": "Axolotl sind in Menschenobhut sehr viel häufiger als in ihrem ursprünglichen Lebensraum.",
+                "fact_ids": [
+                  "267769938-0110"
+                ]
+              },
+              {
+                "text": "Laut Pressebericht vom Januar 2014 wurden trotz viermonatiger Suche keine frei lebenden Axolotl mehr gefunden.",
+                "fact_ids": [
+                  "267769938-0116"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 24,
+            "speaker": "Felix",
+            "text": "Das ist bedrückend. Dann leben die meisten Axolotl also in Menschenobhut. Sind das denn überhaupt noch die ursprünglichen Tiere?",
+            "fact_ids": [
+              "267769938-0110"
+            ],
+            "statements": [
+              {
+                "text": "Axolotl sind in Menschenobhut häufiger als im ursprünglichen Lebensraum.",
+                "fact_ids": [
+                  "267769938-0110"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 25,
+            "speaker": "Lena",
+            "text": "Eher nicht. Hybride haben sich wegen ihrer attraktiveren Farbgebungen ausgebreitet. Deshalb gibt es im Heimtierhandel inzwischen vermutlich kaum noch Axolotl, die dem ursprünglichen Axolotl genetisch entsprechen.",
+            "fact_ids": [
+              "267769938-0085"
+            ],
+            "statements": [
+              {
+                "text": "Die Ausbreitung der Hybride durch attraktivere Farbgebungen führte dazu, dass im Heimtierhandel vermutlich kaum noch genetisch ursprüngliche Axolotl existieren.",
+                "fact_ids": [
+                  "267769938-0085"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 26,
+            "speaker": "Felix",
+            "text": "Also hat die Farbe gewonnen und die Ursprünglichkeit verloren. Und wie gehen diese Tiere eigentlich miteinander um?",
+            "fact_ids": [
+              "267769938-0085"
+            ],
+            "statements": [
+              {
+                "text": "Hybride mit attraktiveren Farben haben sich im Heimtierhandel ausgebreitet.",
+                "fact_ids": [
+                  "267769938-0085"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 27,
+            "speaker": "Lena",
+            "text": "Nicht gerade zimperlich. Auch der Nachwuchs der eigenen Art gehört zu ihrem Nahrungsspektrum. Der relativ umfangreiche Laich eines Weibchens wird meist von Artgenossen verzehrt.",
+            "fact_ids": [
+              "267769938-0060",
+              "267769938-0078"
+            ],
+            "statements": [
+              {
+                "text": "Zum Nahrungsspektrum der Axolotl gehört auch der Nachwuchs der eigenen Art.",
+                "fact_ids": [
+                  "267769938-0060"
+                ]
+              },
+              {
+                "text": "Der relativ umfangreiche Laich eines Weibchens wird meist von Artgenossen verzehrt.",
+                "fact_ids": [
+                  "267769938-0078"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 28,
+            "speaker": "Felix",
+            "text": "Das klingt rau. Wie bleibt so ein Axolotl in Menschenobhut denn gesund, wenn er krank wird?",
+            "fact_ids": [
+              "267769938-0110"
+            ],
+            "statements": [
+              {
+                "text": "Axolotl leben in Menschenobhut.",
+                "fact_ids": [
+                  "267769938-0110"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 29,
+            "speaker": "Lena",
+            "text": "Da hilft ein Stück Winter. Erkrankte Axolotl genesen schneller, wenn das Wasser für einige Zeit auf sechs bis acht Grad Celsius abgekühlt wird. Das entspricht ungefähr der Wintertemperatur ihrer Heimatseen.",
+            "fact_ids": [
+              "267769938-0071"
+            ],
+            "statements": [
+              {
+                "text": "Erkrankte Axolotl genesen schneller, wenn das Wasser für einige Zeit auf 6 bis 8 °C abgekühlt wird, was ungefähr der Wintertemperatur ihrer Heimatseen entspricht.",
+                "fact_ids": [
+                  "267769938-0071"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 30,
+            "speaker": "Felix",
+            "text": "Dem Tier hilft also ein Stück Heimat. Der Axolotl ist ja auch kulturell unterwegs. Taucht sein Name nicht sogar in einem Schauspiel auf?",
+            "fact_ids": [
+              "267769938-0071",
+              "267769938-0124"
+            ],
+            "statements": [
+              {
+                "text": "Erkrankte Axolotl genesen schneller bei einer Wassertemperatur, die der Wintertemperatur ihrer Heimatseen entspricht.",
+                "fact_ids": [
+                  "267769938-0071"
+                ]
+              },
+              {
+                "text": "Der Name Axolotl taucht in einem Schauspiel auf.",
+                "fact_ids": [
+                  "267769938-0124"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 31,
+            "speaker": "Lena",
+            "text": "Ja, im Jahr neunzehnhunderteinunddreißig in Carl Zuckmayers Schauspiel Der Hauptmann von Köpenick. Dort heißt eine Schuhfabrik Axolotl. Bei ihr sucht der Schuster und spätere „Hauptmann“ Voigt vergeblich um Arbeit nach. Der Name spielt auf die bekannte Schuhfirma Salamander an. Auch die ist nach einem Schwanzlurch benannt.",
+            "fact_ids": [
+              "267769938-0124"
+            ],
+            "statements": [
+              {
+                "text": "Der Name Axolotl taucht 1931 in Zuckmayers Schauspiel Der Hauptmann von Köpenick als Name einer Schuhfabrik auf, bei der der Schuster und spätere „Hauptmann“ Voigt vergeblich um Arbeit nachsucht.",
+                "fact_ids": [
+                  "267769938-0124"
+                ]
+              },
+              {
+                "text": "Der Name der Schuhfabrik spielt auf die bekannte Schuhfirma Salamander an, die ebenfalls nach einem Schwanzlurch benannt ist.",
+                "fact_ids": [
+                  "267769938-0124"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 32,
+            "speaker": "Felix",
+            "text": "Zwei Schuhfirmen, beide nach Schwanzlurchen benannt, das ist witzig. Und dieser Hauptmann, der eigentlich Schuster war: Was hat es mit ihm auf sich?",
+            "fact_ids": [
+              "267769938-0124",
+              "272191328-0001"
+            ],
+            "statements": [
+              {
+                "text": "Zwei Schuhfirmen sind nach Schwanzlurchen benannt: Salamander und die Fabrik namens Axolotl im Stück.",
+                "fact_ids": [
+                  "267769938-0124"
+                ]
+              },
+              {
+                "text": "Der „Hauptmann“ Voigt war Schuster.",
+                "fact_ids": [
+                  "267769938-0124"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 33,
+            "speaker": "Lena",
+            "text": "Der Hauptmann von Köpenick wurde durch die spektakuläre Besetzung des Rathauses der Stadt Cöpenick bei Berlin bekannt. Am sechzehnten Oktober neunzehnhundertsechs drang er als Hauptmann verkleidet mit einem Trupp gutgläubiger Soldaten dort ein. Er verhaftete den Bürgermeister und raubte die Stadtkasse.",
+            "fact_ids": [
+              "272191328-0001"
+            ],
+            "statements": [
+              {
+                "text": "Der Hauptmann von Köpenick wurde durch die Besetzung des Rathauses der Stadt Cöpenick bei Berlin bekannt.",
+                "fact_ids": [
+                  "272191328-0001"
+                ]
+              },
+              {
+                "text": "Er drang am 16. Oktober 1906 als Hauptmann verkleidet mit einem Trupp gutgläubiger Soldaten ins Rathaus ein, verhaftete den Bürgermeister und raubte die Stadtkasse.",
+                "fact_ids": [
+                  "272191328-0001"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 34,
+            "speaker": "Felix",
+            "text": "Eine kühne Geschichte! Kommen wir in die Gegenwart: Im Jahr zweitausendzehn gab es einen Roman und einen Film mit Axolotl im Titel. Worum ging es da?",
+            "fact_ids": [
+              "267769938-0128"
+            ],
+            "statements": [
+              {
+                "text": "2010 erschien der Debütroman Axolotl Roadkill; dazu gibt es den Film Axolotl Overkill.",
+                "fact_ids": [
+                  "267769938-0128"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 35,
+            "speaker": "Lena",
+            "text": "Der Debütroman Axolotl Roadkill von Helene Hegemann erschien im Jahr zweitausendzehn. Dazu kommt der Film Axolotl Overkill. In dem Film stand das Tier für eine Unfähigkeit zum Erwachsenwerden. Dadurch erlangte die Art zusätzliche Bekanntheit im deutschsprachigen Raum. Zunächst wurde der Film hochgelobt. Dann war er starken Plagiatsvorwürfen ausgesetzt. Deshalb stand der Axolotl in den Medien eine Weile für Plagiieren.",
+            "fact_ids": [
+              "267769938-0128"
+            ],
+            "statements": [
+              {
+                "text": "Zusätzliche Bekanntheit im deutschsprachigen Raum erlangte die Art durch den 2010 erschienenen Debütroman Axolotl Roadkill und den Film Axolotl Overkill von Helene Hegemann.",
+                "fact_ids": [
+                  "267769938-0128"
+                ]
+              },
+              {
+                "text": "Im Film stand der Axolotl für eine Unfähigkeit zum Erwachsenwerden.",
+                "fact_ids": [
+                  "267769938-0128"
+                ]
+              },
+              {
+                "text": "Der zunächst hochgelobte Film war starken Plagiatsvorwürfen ausgesetzt, sodass der Axolotl in den Medien eine Weile für Plagiieren stand.",
+                "fact_ids": [
+                  "267769938-0128"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 36,
+            "speaker": "Felix",
+            "text": "Erst Symbol für die Unfähigkeit zum Erwachsenwerden, dann Symbol fürs Plagiieren. Was ist ein Plagiat eigentlich genau?",
+            "fact_ids": [
+              "267769938-0128"
+            ],
+            "statements": [
+              {
+                "text": "Der Axolotl stand im Film für die Unfähigkeit zum Erwachsenwerden und in den Medien später eine Weile für Plagiieren.",
+                "fact_ids": [
+                  "267769938-0128"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 37,
+            "speaker": "Lena",
+            "text": "Ein Plagiat ist die Anmaßung fremder geistiger Leistungen. Das Wort kommt aus dem Französischen. Dort bedeutet plagiaire Nachahmer, der sich eines Plagiats schuldig macht, oder Dieb geistigen Eigentums. Es geht zurück auf das lateinische plagiarius. Das heißt Menschendieb oder Seelenverkäufer.",
+            "fact_ids": [
+              "272059040-0000"
+            ],
+            "statements": [
+              {
+                "text": "Ein Plagiat ist die Anmaßung fremder geistiger Leistungen.",
+                "fact_ids": [
+                  "272059040-0000"
+                ]
+              },
+              {
+                "text": "Das Wort stammt vom französischen plagiaire, das Nachahmer oder Dieb geistigen Eigentums bedeutet, und geht auf das lateinische plagiarius zurück, was Menschendieb oder Seelenverkäufer bedeutet.",
+                "fact_ids": [
+                  "272059040-0000"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 38,
+            "speaker": "Felix",
+            "text": "Menschendieb für einen Text-Dieb, das ist ein hartes Wort. Und wie ging es mit dem Roman danach weiter?",
+            "fact_ids": [
+              "272059040-0000",
+              "267769938-0128"
+            ],
+            "statements": [
+              {
+                "text": "Das lateinische plagiarius bedeutet Menschendieb.",
+                "fact_ids": [
+                  "272059040-0000"
+                ]
+              },
+              {
+                "text": "Axolotl Roadkill ist ein Roman.",
+                "fact_ids": [
+                  "267769938-0128"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 39,
+            "speaker": "Lena",
+            "text": "In der vierten Auflage des Romans wurde ein Quellenverzeichnis beigefügt. Es führt die Zitate aus Texten von Airen, Kathy Acker, David Foster Wallace, Rainald Goetz, Valérie Valère und anderen detailliert auf.",
+            "fact_ids": [
+              "267051500-0005"
+            ],
+            "statements": [
+              {
+                "text": "In der vierten Auflage von Axolotl Roadkill wurde ein Quellenverzeichnis beigefügt, das Zitate aus Texten von Airen, Kathy Acker, David Foster Wallace, Rainald Goetz, Valérie Valère und anderen detailliert aufführt.",
+                "fact_ids": [
+                  "267051500-0005"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 40,
+            "speaker": "Felix",
+            "text": "Eine lange Namensliste. Zum Schluss noch etwas ganz anderes: Gibt es den Axolotl auch in der Spielewelt?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 41,
+            "speaker": "Lena",
+            "text": "Ja. Im September zweitausenddreiundzwanzig erschien das Spiel AK-xolotl. Man spielt darin einen Axolotl, der unter anderem mit einem Sturmgewehr bewaffnet ist.",
+            "fact_ids": [
+              "267769938-0137"
+            ],
+            "statements": [
+              {
+                "text": "Im September 2023 erschien der Roguelike-Shooter AK-xolotl, in dem man einen Axolotl spielt, der unter anderem mit einem Sturmgewehr bewaffnet ist.",
+                "fact_ids": [
+                  "267769938-0137"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 42,
+            "speaker": "Felix",
+            "text": "Von der Verschlüsselung über eine Schuhfabrik im Theaterstück bis zum Computerspiel, der Axolotl taucht an erstaunlich vielen Stellen auf.",
+            "fact_ids": [
+              "267769938-0132",
+              "267769938-0124",
+              "267769938-0137"
+            ],
+            "statements": [
+              {
+                "text": "Ein Verschlüsselungsprotokoll trägt oder trug den Namen Axolotl.",
+                "fact_ids": [
+                  "267769938-0132"
+                ]
+              },
+              {
+                "text": "In einem Schauspiel heißt eine Schuhfabrik Axolotl.",
+                "fact_ids": [
+                  "267769938-0124"
+                ]
+              },
+              {
+                "text": "In einem Spiel von 2023 spielt man einen Axolotl.",
+                "fact_ids": [
+                  "267769938-0137"
+                ]
+              }
+            ]
+          }
+        ],
+        "problems": [],
+        "used_fact_ids": [
+          "267769938-0132",
+          "265804978-0008",
+          "267769938-0033",
+          "267769938-0007",
+          "238004702-0001",
+          "267769938-0030",
+          "267769938-0031",
+          "267769938-0047",
+          "267769938-0045",
+          "267769938-0009",
+          "271991545-0010",
+          "267769938-0120",
+          "267769938-0123",
+          "267769938-0110",
+          "267769938-0116",
+          "267769938-0085",
+          "267769938-0060",
+          "267769938-0078",
+          "267769938-0071",
+          "267769938-0124",
+          "272191328-0001",
+          "267769938-0128",
+          "272059040-0000",
+          "267051500-0005",
+          "267769938-0137"
+        ]
+      },
+      "judgements": [
+        {
+          "turn_index": 0,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "aussage_1": 0.97,
+            "vollstaendig": 0.84
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, es gebe ein nach dem Axolotl benanntes Verschlüsselungsprotokoll, folgt aus den Fakten: Das Axolotl-Protokoll dient der Ende-zu-Ende-Verschlüsselung, und sein ehemaliger Name spielte auf den aquatisch lebenden Schwanzlurch an. Die Eröffnung und die Frage sind Überleitung und Nachfrage ohne weitere Behauptung."
+        },
+        {
+          "turn_index": 1,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.92
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen folgen aus den Fakt-Sätzen. Fakt 1 belegt den Einsatz des Axolotl-Protokolls bei der Ende-zu-Ende-Verschlüsselung und das Beispiel Signal. Fakt 2 belegt die Anspielung des früheren Namens auf den Schwanzlurch, sein Leben im Wasser, die Bedrohung durch Aussterben und die außergewöhnlichen Selbstheilungsfähigkeiten. Dass sich der frühere Name auf das Protokoll bezieht, ergibt sich aus Fakt 1. „Zuerst die Technik“ ist nur eine Überleitung."
+        },
+        {
+          "turn_index": 2,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.7
+          },
+          "jev_error": null,
+          "reason": "Felix greift die im Fakt genannten „außergewöhnlichen Selbstheilungsfähigkeiten“ des Axolotl auf und vergleicht sie mit einem Comic-Helden. Das ist eine Reaktion und eine Wertung ohne Faktengehalt. Die anschließende Frage „Was kann der Axolotl denn ganz konkret?“ ist eine Nachfrage. Die Prämisse, dass der Axolotl Selbstheilungsfähigkeiten hat, folgt aus dem Fakt. Es gibt keine zusätzlichen unbelegten Angaben."
+        },
+        {
+          "turn_index": 3,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.91
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag gibt den Fakt-Satz sinngemäß wieder: Gliedmaßen, Organe und sogar Teile des Gehirns und Herzens können wiederhergestellt werden. Es kommt keine zusätzliche Angabe hinzu. Das Pronomen \"Er\" bezieht sich auf den Axolotl und ist unproblematisch."
+        },
+        {
+          "turn_index": 4,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.86
+          },
+          "jev_error": null,
+          "reason": "Der Beitrag enthält nur Reaktionen und Belegbares. „Teile des Gehirns“ greift Fakt 0033 auf (Axolotl können Teile des Gehirns wiederherstellen), ohne Neues hinzuzufügen. „Er soll äußerlich nie richtig erwachsen werden“ folgt aus Fakt 0007: Axolotl erreichen die Geschlechtsreife, ohne die äußere Larvengestalt zu verändern. „Stimmt das?“ ist eine Nachfrage und braucht keinen Beleg."
+        },
+        {
+          "turn_index": 5,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 1.0,
+            "aussage_1": 0.98,
+            "aussage_2": 0.97,
+            "vollstaendig": 0.75
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Geschlechtsreife ohne Veränderung der äußeren Larvengestalt und keine bei Amphibien übliche Metamorphose (267769938-0007), zeitlebens beibehaltene Larvengestalt und der Begriff Neotenie (238004702-0001). Das einleitende \"Im Wesentlichen ja\" ist eine belegfreie Reaktion."
+        },
+        {
+          "turn_index": 6,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.54,
+            "aussage_1": 0.94,
+            "vollstaendig": 0.85
+          },
+          "jev_error": null,
+          "reason": "Die Aussage \"geschlechtsreif und äußerlich trotzdem eine Larve\" folgt aus 267769938-0007. Dass dies ihr üblicher Zustand ist, folgt aus 238004702-0001 (\"üblicherweise zeitlebens ihre Larvengestalt\") und aus dem Kontext zu 267769938-0007 (\"natürlicherweise nur als Dauerlarve\"). Die Frage, ob man nachhelfen kann, ist eine Nachfrage ohne neue Behauptung; die Prämisse, dass es ein Zustand ist, der sich ändern ließe, wird nur erfragt."
+        },
+        {
+          "turn_index": 7,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.86
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Die Metamorphose lässt sich durch künstliche Gabe von Thyroxin herbeiführen, das Ergebnis ist ein terrestrischer, lungenatmender Querzahnmolch, und das gelingt nur experimentell. „Man kann nachhelfen“ ist eine Umformulierung dieser Aussage. Es kommt keine zusätzliche Angabe hinzu."
+        },
+        {
+          "turn_index": 8,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "aussage_1": 0.95,
+            "vollstaendig": 0.87
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, dass ein Hormon (Thyroxin) aus dem aquatisch lebenden Axolotl einen landlebenden Lungenatmer macht, folgt aus [267769938-0030] und [265804978-0008]. Die Frage, wer das gezeigt hat, ist eine Nachfrage. Ihre Prämisse, dass die Metamorphose experimentell gelungen ist, steht ebenfalls in [267769938-0030]. Zusätzliche Angaben macht der Beitrag nicht."
+        },
+        {
+          "turn_index": 9,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.98,
+            "aussage_2": 0.99,
+            "vollstaendig": 0.94
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Chauvin brachte Axolotl experimentell zur Metamorphose (0001), sie wies ab 1874 nach, dass das auch ohne Thyroxin durch geänderte Umweltbedingungen geht, und Duméril beobachtete 1867 im Jardin des Plantes in Paris Tiere mit zurückgebildeten Kiemen (0031). Der Einleitungssatz ist eine Überleitung ohne neue Information."
+        },
+        {
+          "turn_index": 10,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.79
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, dass später eine Veränderung der Umwelt ohne Hormon genügte, deckt sich mit [267769938-0031]: Marie von Chauvin wies ab 1874, also nach Dumérils Beobachtung von 1867, nach, dass die Metamorphose ohne Thyroxin durch geänderte Umweltbedingungen ausgelöst werden kann. Das Staunen und die Frage nach dem Erbgut sind belegfreie Reaktionen und enthalten keine unbelegte Behauptung."
+        },
+        {
+          "turn_index": 11,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.73
+          },
+          "jev_error": null,
+          "reason": "Die Aussagen, dass das Axolotl-Genom 32 Milliarden Basenpaare hat und damit zehnmal so groß ist wie das menschliche Genom, stehen so in [267769938-0047]. „Ja, und das Ergebnis ist gewaltig“ ist eine belegfreie Reaktion bzw. Überleitung und enthält keine zusätzliche Faktenbehauptung."
+        },
+        {
+          "turn_index": 12,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.65
+          },
+          "jev_error": null,
+          "reason": "„Zehnmal so groß wie unseres“ gibt die Aussage aus [267769938-0047] wieder, dass das Axolotl-Genom zehnmal so groß ist wie das menschliche. Die Frage, ob es das größte bekannte Genom ist, ist eine belegfreie Nachfrage und behauptet nichts Unbelegtes."
+        },
+        {
+          "turn_index": 13,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.92
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, das Axolotl-Genom sei nach dem des Australischen Lungenfischs das größte je entschlüsselte, steht in 267769938-0047. Dass dem Axolotl im Gegensatz zu anderen Salamandern das Gen Pax3 fehlt, steht in 267769938-0045. Das einleitende „Fast.“ ist eine Reaktion ohne Belegbedarf. Es kommt keine zusätzliche Angabe hinzu."
+        },
+        {
+          "turn_index": 14,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.97,
+            "vollstaendig": 0.75
+          },
+          "jev_error": null,
+          "reason": "Die Aussage \"Ihm fehlt also ein Gen, das andere Salamander haben\" folgt aus dem Fakt-Satz (dem Axolotl fehlt im Gegensatz zu anderen Salamandern das Gen Pax3). \"Spannend\" ist eine belegfreie Reaktion, und die Überleitung nach Europa samt Frage nach der Ankunft des ersten Axolotls ist eine Nachfrage ohne zusätzliche Behauptung."
+        },
+        {
+          "turn_index": 15,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.98
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 16,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.78
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, Humboldt habe als Erster Axolotl nach Europa gebracht, folgt aus dem Fakt-Satz. „Schöne Wendung“ ist eine Wertung ohne eigenen Faktengehalt. Die Frage „Was weißt du noch über ihn?“ ist eine belegfreie Nachfrage."
+        },
+        {
+          "turn_index": 17,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.97,
+            "vollstaendig": 0.76
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag gibt den Fakt-Satz 271991545-0010 inhaltlich unverändert wieder: Die Pariser Akademie der Wissenschaften verlieh ihm den Beinamen „Der neue Aristoteles“. Es kommt keine zusätzliche Angabe hinzu."
+        },
+        {
+          "turn_index": 18,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.97,
+            "vollstaendig": 0.89
+          },
+          "jev_error": null,
+          "reason": "Die Behauptung, Humboldt habe 1804 als Erster Axolotl nach Europa gebracht, deckt sich mit Fakt 0009 (Jahr 1804, 'als Erster'). „Beeindruckend!“ ist eine Reaktion ohne Belegpflicht. Die Frage nach dem Umgang der Ureinwohner Mesoamerikas mit dem Tier ist eine Nachfrage, und ihre Prämisse, dass es Ureinwohner Mesoamerikas gab, die mit dem Axolotl umgingen, folgt aus Fakt 0120. Es kommt keine unbelegte Angabe hinzu."
+        },
+        {
+          "turn_index": 19,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "aussage_2": 0.99,
+            "vollstaendig": 0.97
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 20,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.93
+          },
+          "jev_error": null,
+          "reason": "Die Prämisse, dass der Axolotl als heiliges Tier der Azteken trotzdem gegessen wurde, folgt aus [267769938-0120] („obwohl die Azteken in ihm ein heiliges Tier sahen“, „Leckerbissen“). Das „passt kaum zusammen“ ist eine Reaktion im Moment. Die Frage „heute noch gegessen?“ ist eine Nachfrage ohne neue Behauptung."
+        },
+        {
+          "turn_index": 21,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.8
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag gibt den Fakt-Satz sinngemäß wieder: Unter der Bezeichnung Wooper Looper werden Zuchtexemplare inzwischen auch frittiert zum Verzehr angeboten. „Als Spezialität“ entspricht „als kulinarische Spezialität“. Zusätzliche Angaben gibt es nicht."
+        },
+        {
+          "turn_index": 22,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.82
+          },
+          "jev_error": null,
+          "reason": "Felix greift mit \"Frittierte Zuchttiere, interessant\" nur das Fakt-Statement [267769938-0123] auf (Zuchtexemplare werden frittiert angeboten) und äußert Interesse, ohne neue Information hinzuzufügen. Die Frage nach den Axolotl in freier Natur ist eine Nachfrage ohne Faktenbehauptung oder Prämisse, die über die Fakten hinausgeht."
+        },
+        {
+          "turn_index": 23,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.8
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag besteht aus der Wertung „Da sieht es düster aus“ und zwei Behauptungen, die beide in den Fakt-Sätzen stehen. Die Häufigkeit in Menschenobhut entspricht 0110 und der Pressebericht vom Januar 2014 mit der viermonatigen Suche entspricht 0116. Zahlen, Daten und Aussagen stimmen überein, und es kommen keine zusätzlichen Angaben hinzu."
+        },
+        {
+          "turn_index": 24,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.74
+          },
+          "jev_error": null,
+          "reason": "„Das ist bedrückend“ ist eine Gefühlsreaktion. „Die meisten Axolotl leben in Menschenobhut“ folgt aus dem Fakt, dass Axolotl in Menschenobhut sehr viel häufiger sind als im ursprünglichen Lebensraum. Die letzte Frage ist eine Nachfrage ohne zusätzliche Tatsachenbehauptung."
+        },
+        {
+          "turn_index": 25,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.76
+          },
+          "jev_error": null,
+          "reason": "Der Fakt-Satz belegt, dass sich Hybride durch attraktivere Farbgebungen ausgebreitet haben und deshalb im Heimtierhandel vermutlich kaum noch genetisch ursprüngliche Axolotl existieren. Das entspricht den Aussagen im Redebeitrag, und die Unsicherheit („vermutlich“) bleibt erhalten. „Eher nicht.“ ist eine belegfreie Reaktion bzw. Antwort ohne zusätzliche Behauptung."
+        },
+        {
+          "turn_index": 26,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.96,
+            "vollstaendig": 0.53
+          },
+          "jev_error": null,
+          "reason": "„Also hat die Farbe gewonnen und die Ursprünglichkeit verloren“ fasst den Fakt zusammen: Hybride mit attraktiveren Farben haben sich ausgebreitet, sodass kaum noch genetisch ursprüngliche Axolotl im Heimtierhandel existieren. Die Frage nach dem Umgang der Tiere miteinander ist eine Überleitung ohne Behauptung und braucht keinen Beleg."
+        },
+        {
+          "turn_index": 27,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.95,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.72
+          },
+          "jev_error": null,
+          "reason": "Die zweite und dritte Aussage folgen wörtlich aus den Fakt-Sätzen 0060 und 0078. Der Einstieg „Nicht gerade zimperlich“ ist eine bloße Wertung als Reaktion auf das Gesagte und enthält keine zusätzliche Tatsachenbehauptung."
+        },
+        {
+          "turn_index": 28,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.89,
+            "vollstaendig": 0.66
+          },
+          "jev_error": null,
+          "reason": "„Das klingt rau“ ist eine Reaktion ohne Belegbedarf. Die Frage setzt nur voraus, dass Axolotl in Menschenobhut leben, und das deckt der Fakt 267769938-0110 ab. „Wenn er krank wird“ steht nur als Bedingung in der Frage und ist keine Tatsachenbehauptung. Neue unbelegte Angaben enthält der Beitrag nicht."
+        },
+        {
+          "turn_index": 29,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.84
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen (schnellere Genesung erkrankter Axolotl bei zeitweiser Abkühlung auf 6 bis 8 °C, ungefähr Wintertemperatur der Heimatseen) stehen im Fakt-Satz 267769938-0071. Der Einstieg „Da hilft ein Stück Winter“ ist eine Überleitung bzw. bildhafte Zusammenfassung ohne zusätzliche Information."
+        },
+        {
+          "turn_index": 30,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.62
+          },
+          "jev_error": null,
+          "reason": "Die Überleitung „Dem Tier hilft also ein Stück Heimat“ gibt sinngemäß wieder, dass erkrankte Axolotl schneller genesen, wenn das Wasser der Wintertemperatur ihrer Heimatseen entspricht (0071). „Kulturell unterwegs“ ist nur eine Überleitung. Die Prämisse der Frage, dass der Name in einem Schauspiel auftaucht, wird von 0124 gedeckt (Zuckmayers „Der Hauptmann von Köpenick“). Neue unbelegte Angaben gibt es nicht."
+        },
+        {
+          "turn_index": 31,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.75
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen des Redebeitrags (Jahr 1931, Zuckmayers Schauspiel, Schuhfabrik Axolotl, Schuster und spätere „Hauptmann“ Voigt sucht vergeblich Arbeit, Anspielung auf Salamander, ebenfalls nach einem Schwanzlurch benannt) stehen im zitierten Fakt-Satz. Es kommt keine zusätzliche Angabe hinzu."
+        },
+        {
+          "turn_index": 32,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "aussage_1": 0.98,
+            "vollstaendig": 0.78
+          },
+          "jev_error": null,
+          "reason": "Die Prämissen stehen in den Fakten: Axolotl und Salamander sind beide nach Schwanzlurchen benannte Schuhfirmen (0124), und Voigt, der „Hauptmann“, war Schuster (0124). Das „witzig“ ist eine Reaktion, die Frage zu dem Hauptmann eine Nachfrage. Es wird keine zusätzliche Angabe behauptet."
+        },
+        {
+          "turn_index": 33,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.74
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen folgen direkt aus dem Fakt-Satz [272191328-0001]: Bekanntheit durch die Besetzung des Rathauses von Cöpenick bei Berlin, Datum 16. Oktober 1906, Verkleidung als Hauptmann mit einem Trupp gutgläubiger Soldaten, Verhaftung des Bürgermeisters und Raub der Stadtkasse. Es kommen keine zusätzlichen Angaben hinzu."
+        },
+        {
+          "turn_index": 34,
+          "accepted": false,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.8
+          },
+          "jev_error": null,
+          "reason": "Der Satz „Im Jahr zweitausendzehn gab es einen Roman und einen Film mit Axolotl im Titel“ ordnet auch den Film dem Jahr 2010 zu. Der Fakt-Satz nennt 2010 nur für den Debütroman „Axolotl Roadkill“. Zum Erscheinungsjahr des Films „Axolotl Overkill“ sagt er nichts. Die Jahresangabe für den Film ist also nicht belegt. „Eine kühne Geschichte!“ und die Frage nach dem Inhalt wären als Reaktion bzw. Nachfrage in Ordnung."
+        },
+        {
+          "turn_index": 35,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "aussage_2": 0.99,
+            "vollstaendig": 0.67
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen decken sich mit dem zitierten Fakt-Satz: Erscheinungsjahr 2010 des Debütromans von Helene Hegemann, der Film Axolotl Overkill, das Tier als Symbol für die Unfähigkeit zum Erwachsenwerden, die zusätzliche Bekanntheit im deutschsprachigen Raum, anfängliches Lob, starke Plagiatsvorwürfe und das zeitweilige Stehen des Axolotls für Plagiieren in den Medien. Es kommen keine zusätzlichen Angaben hinzu. Der Bezug von „er“ auf den Film ist die naheliegende Lesart des Fakt-Satzes."
+        },
+        {
+          "turn_index": 36,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.92
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, der Axolotl habe erst für die Unfähigkeit zum Erwachsenwerden und dann in den Medien für Plagiieren gestanden, folgt direkt aus dem Fakt-Satz. Die Schlussfrage 'Was ist ein Plagiat eigentlich genau?' ist eine Nachfrage bzw. Bitte um Erklärung und braucht keinen Beleg."
+        },
+        {
+          "turn_index": 37,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.97,
+            "vollstaendig": 0.9
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Definition als Anmaßung fremder geistiger Leistungen, französisch plagiaire mit der genannten Bedeutung (Nachahmer, Dieb geistigen Eigentums) und lateinisch plagiarius mit der Bedeutung Menschendieb/Seelenverkäufer. Dass das Wort aus dem Französischen kommt und auf das Lateinische zurückgeht, ergibt sich aus der Herkunftsangabe. Es wird nichts Zusätzliches behauptet."
+        },
+        {
+          "turn_index": 38,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.66
+          },
+          "jev_error": null,
+          "reason": "Die Aussage \"Menschendieb für einen Text-Dieb\" gibt die Etymologie aus dem ersten Fakt wieder (lateinisch plagiarius 'Menschendieb', Plagiat als Dieb geistigen Eigentums). Die Wertung \"ein hartes Wort\" ist eine Meinungsäußerung ohne zusätzliche Faktenangabe. Die Frage nach dem Fortgang des Romans ist eine Nachfrage und belegfrei; ihre Prämisse (es gibt einen Roman) wird durch den zweiten Fakt gedeckt."
+        },
+        {
+          "turn_index": 39,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.93
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag gibt den Fakt-Satz [267051500-0005] inhaltlich vollständig wieder: das Quellenverzeichnis der vierten Auflage und die genannten Autoren (Airen, Kathy Acker, David Foster Wallace, Rainald Goetz, Valérie Valère und andere). Es kommen keine zusätzlichen Angaben hinzu."
+        },
+        {
+          "turn_index": 40,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.64
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine belegpflichtige Behauptung. „Eine lange Namensliste.“ greift nur das eben Gesagte wieder auf, ohne neue Information. „Gibt es den Axolotl auch in der Spielewelt?“ ist eine Überleitung und Nachfrage, deren Prämisse keine Tatsache behauptet. Ohne Fakt-IDs ist das zulässig."
+        },
+        {
+          "turn_index": 41,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.95
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 42,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "aussage_2": 0.99,
+            "vollstaendig": 0.77
+          },
+          "jev_error": null,
+          "reason": "Alle drei Stationen stehen in den Fakt-Sätzen: das Axolotl-Protokoll bei der Ende-zu-Ende-Verschlüsselung (0132), die Schuhfabrik namens Axolotl in Zuckmayers Schauspiel (0124) und das Computerspiel AK-xolotl, in dem man einen Axolotl spielt (0137). „Erstaunlich vielen“ ist nur eine Reaktion des Staunens, keine zusätzliche Tatsachenbehauptung."
+        }
+      ]
+    }
+  ]
+}

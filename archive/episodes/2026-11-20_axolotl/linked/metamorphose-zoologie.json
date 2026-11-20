@@ -1,0 +1,68 @@
+{
+  "title": "Metamorphose (Zoologie)",
+  "revid": 268869215,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-16T20:21:59Z",
+  "fetched_at": "2026-11-20T06:11:03Z",
+  "categories": [
+    "Kategorie:Biologischer Prozess",
+    "Kategorie:Entwicklungsbiologie"
+  ],
+  "intro_wikitext": "Die '''Metamorphose''' (griech. μεταμόρφωσις metamórphōsis „Umgestaltung, Verwandlung“), auch '''Metabolie''' ({{lang|grc|μεταβολή|metabolḗ}} „Veränderung“), ist in der [[Zoologie]] die Umwandlung der [[Larve]]nform(en) zum [[Adult]]stadium, dem geschlechtsreifen, erwachsenen Tier. Der Begriff bezieht sich auf Tiere, deren Jugendstadien in Gestalt und Lebensweise vom Adultzustand abweichen. Bei der Metamorphose werden die larvalen Organe [[Resorption|resorbiert]] oder abgestoßen und die vorhandenen Anlagen der Adultorgane zur Funktionsfähigkeit entwickelt.\n\nEin zeitlich abfolgendes genetisches Programm steuert die vielfältigen Vorgänge. [[Hormon]]e spielen dabei eine vermittelnde Rolle; in [[Wirbeltier]]en erzeugt sie die [[Schilddrüse]].\n<!--Abb. ist seitenverkehrt [[Datei:Metamorphosis of a Butterfly Merrian 1705.jpg|miniatur|hochkant=1.2|Eier-, Raupen-, Puppen- (=&nbsp;Metamorphose im eigentlichen Sinn) und Adultstadium beim Schmetterling.<br />Kolorierter Kupferstich von [[Maria Sibylla Merian]] aus ''[[Metamorphosis insectorum Surinamensium]]'', Bildtafel XX, 1705.]]-->\n[[Datei:Metamorphosis frog Meyers.png|miniatur|hochkant=1.2|Bei den älteren Larven (Kaulquappen) der Froschlurche wird der Beginn der Metamorphose zuerst mit dem Erscheinen des hinteren Beinpaares (b) äußerlich sichtbar. Anschließend folgen u.&nbsp;a. das vordere Beinpaar, die Umformung des Maules und der Augen, die allmähliche Resorption des Schwanzes sowie die Umstellung auf Lungenatmung.]]\n{{Infobox GO-Terminus\n| Typ = P\n| GO = 0007552\n| Eltern = [[Morphogenese]]\n}}",
+  "segments": [
+    {
+      "id": "268869215-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Metamorphose''' (griech. μεταμόρφωσις metamórphōsis „Umgestaltung, Verwandlung“), auch '''Metabolie''' ({{lang|grc|μεταβολή|metabolḗ}} „Veränderung“), ist in der [[Zoologie]] die Umwandlung der [[Larve]]nform(en) zum [[Adult]]stadium, dem geschlechtsreifen, erwachsenen Tier.",
+      "plain": null
+    },
+    {
+      "id": "268869215-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Begriff bezieht sich auf Tiere, deren Jugendstadien in Gestalt und Lebensweise vom Adultzustand abweichen.",
+      "plain": null
+    },
+    {
+      "id": "268869215-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bei der Metamorphose werden die larvalen Organe [[Resorption|resorbiert]] oder abgestoßen und die vorhandenen Anlagen der Adultorgane zur Funktionsfähigkeit entwickelt.",
+      "plain": null
+    },
+    {
+      "id": "268869215-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein zeitlich abfolgendes genetisches Programm steuert die vielfältigen Vorgänge.",
+      "plain": null
+    },
+    {
+      "id": "268869215-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "[[Hormon]]e spielen dabei eine vermittelnde Rolle; in [[Wirbeltier]]en erzeugt sie die [[Schilddrüse]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268869215,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268869215-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "268869215-0003"
+        ],
+        "plain": "Hormone spielen dabei eine vermittelnde Rolle; in Wirbeltieren erzeugt sie die Schilddrüse.",
+        "context_plain": [
+          "Ein zeitlich abfolgendes genetisches Programm steuert die vielfältigen Vorgänge."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

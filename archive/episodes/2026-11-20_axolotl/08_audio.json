@@ -1,0 +1,569 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Lena": "de-de-advisor-3",
+    "Felix": "de-de-tutor-4"
+  },
+  "section_max_chars": 6000,
+  "stt_model": "large-v3",
+  "section_retries": 2,
+  "sections": [
+    {
+      "index": 0,
+      "turn_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "chars": 3728,
+      "file": "sections/00.flac",
+      "seconds": 220.96,
+      "input_tokens": 2760,
+      "output_tokens": 16560,
+      "usd": 0.1505,
+      "verified": true,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seconds": 223.68,
+          "input_tokens": 920,
+          "output_tokens": 5592,
+          "usd": 0.0508,
+          "transcript": "Lena, gibt es wirklich ein Verschlüsselungsprotokoll, das nach dem Axolotl benannt ist? Das klingt für mich zunächst nach einem Scherz. Ja, das gibt es. Das freie Axolotl-Protokoll kommt bei der Ende-zu-Ende-Verschlüsselung von Nachrichten zum Einsatz. Ein Beispiel dafür ist der Instant Messenger Signal. Der ehemalige Name des Protokolls spielte auf den Schwanzlorch Axolotl an. Dieser Lorch lebt im Wasser und ist vom Aussterben bedroht. Außerdem besitzt er außergewöhnliche Selbstheilungsfähigkeiten. Selbstheilungsfähigkeiten? Das klingt fast nach einem Superhelden. Was kann so ein Axolotl denn konkret heilen? Erstaunlich viel. Axolotl verfügen über die Fähigkeit, Gliedmaßen wiederherzustellen. Das gilt auch für Organe. Und sogar Teile des Gehirns und des Herzens können sie wiederherstellen. Wahnsinn, das klingt fast unwirklich. Hat man eigentlich schon im Erbgut nachgeschaut, was dahinter steckt? Das Genom des Axolotl wurde entschlüsselt. Es hat 32 Milliarden Basenpaare. Damit ist es zehnmal so groß wie das menschliche Genom. Dabei wurde noch etwas festgestellt. Dem Axolotl fehlt im Gegensatz zu anderen Salamandern das Gen PAX3. Moment, das müssen wir kurz sortieren. Das Erbgut ist zehnmal so groß wie unseres. Und trotzdem fehlt ihm ein Gen, das bei anderen Salamandern vorkommt? Das finde ich ziemlich verblüffend. Ja, beides steht so fest. Das Genom ist riesig. Nur das Genom des australischen Lungenfischs ist unter den bisher entschlüsselten noch größer. Und gleichzeitig fehlt dem Axolotl das Gen Pax 3. Anders als anderen Salamandern. Spannend. Dann wechseln wir mal zum Äußeren. Bleibt ein Axolotl sein Leben lang so, wie man ihn kennt, oder kann er sich auch verwandeln? Er kann sich verwandeln. Zumindest im Experiment. Durch künstliche Gabe des Schilddrüsenhormons Tyroxin lässt sich die Metamorphose herbeiführen. Dabei entsteht ein Querzahnmolch. Der lebt an Land und atmet mit Lungen. Ein Axolotl, der an Land geht und mit Lungen atmet. Das ist ja ein ganz anderes Tier. Braucht es dafür zwingend dieses Hormon oder geht es auch anders? Es geht auch anders. Marie von Chauvin konnte ab 1874 nachweisen, dass die Metamorphose auch ohne Tyroxin ausgelöst werden kann. Dafür genügt eine Änderung der Umweltbedingungen. Schon 1867 hatte Auguste du Merin im Jardin des Plantes in Paris vereinzelte Tiere beobachtet, bei denen sich die Kiemen zurückgebildet hatten. Schon im Jahr 1867 gab es also Axolotl in Paris. Wie sind die Tiere eigentlich nach Europa gekommen? Alexander von Humboldt brachte sie mit. Im August des Jahres 1804 brachte er als erster Axolotl nach Europa. Die Tiere waren in Alkohol eingelegt. Im Pariser Naturkundemuseum dienten sie als exotische Kuriosität. Eingelegt in Alkohol als Kuriosität im Museum. So hat die Geschichte des Axolotl in Europa also begonnen. Und wer war dieser Humboldt eigentlich? Ein Mann von enormem Ansehen. Die Preußische Akademie der Wissenschaften würdigte ihn als die erste wissenschaftliche Größe seines Zeitalters. Sein Weltruhm überrage sogar den von Gottfried Wilhelm Leibniz. Beeindruckend. Und wie sind die Menschen in der Heimat des Axolotl mit ihm umgegangen? Die mesoamerikanischen Ureinwohner fischten Axolotl. Bei Festessen waren sie häufig ein Leckerbissen. Das ist bemerkenswert, denn die Azteken sahen in ihm ein heiliges Tier. Heilig und trotzdem auf dem Teller. Das ist ein ziemlicher Widerspruch. Wird er heute noch gegessen? Es gibt ihn als Spezialität. Unter der Bezeichnung Wooper Looper werden Zuchtexemplare inzwischen auch frittiert zum Verzehr angeboten. Es sind also Tiere aus Zucht, die als kulinarische Spezialität auf dem Teller landen.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "Schwanzlurch",
+              "heard": "Schwanzlorch",
+              "context_before": "Name des Protokolls spielte auf den",
+              "context_after": "Axolotl an Dieser Lurch lebt im",
+              "changes_statement": false,
+              "reason": "„Schwanzlorch“ ist eine Fehlschreibung der Spracherkennung für „Schwanzlurch“; gemeint ist dasselbe Wort, nur leicht anders transkribiert."
+            },
+            {
+              "index": 1,
+              "expected": "Lurch",
+              "heard": "Lorch",
+              "context_before": "auf den Schwanzlurch Axolotl an Dieser",
+              "context_after": "lebt im Wasser und ist vom",
+              "changes_statement": false,
+              "reason": "„Lorch“ statt „Lurch“ ist dieselbe Fehlhörung der Erkennung wie zuvor; gesprochen ist das gleiche Tierwort."
+            },
+            {
+              "index": 2,
+              "expected": "dahintersteckt",
+              "heard": "dahinter steckt",
+              "context_before": "eigentlich schon im Erbgut nachgeschaut was",
+              "context_after": "Das Genom des Axolotl wurde entschlüsselt",
+              "changes_statement": false,
+              "reason": "„dahinter steckt“ ist nur eine andere Schreibweise (getrennt) von „dahintersteckt“."
+            },
+            {
+              "index": 3,
+              "expected": "Thyroxin",
+              "heard": "Tyroxin",
+              "context_before": "Experiment Durch künstliche Gabe des Schilddrüsenhormons",
+              "context_after": "lässt sich die Metamorphose herbeiführen Dabei",
+              "changes_statement": false,
+              "reason": "„Tyroxin“ ist eine Schreibvariante von „Thyroxin“, gleich ausgesprochen, derselbe Hormonname."
+            },
+            {
+              "index": 4,
+              "expected": "",
+              "heard": "ja",
+              "context_before": "und mit Lungen atmet das ist",
+              "context_after": "ein ganz anderes Tier Braucht es",
+              "changes_statement": false,
+              "reason": "Das zusätzliche „ja“ ist ein Füllwort ohne eigenen Inhalt und ändert die Aussage nicht."
+            },
+            {
+              "index": 5,
+              "expected": "Thyroxin",
+              "heard": "Tyroxin",
+              "context_before": "nachweisen dass die Metamorphose auch ohne",
+              "context_after": "ausgelöst werden kann Dafür genügt eine",
+              "changes_statement": false,
+              "reason": "„Tyroxin“ ist wieder nur eine Schreibvariante von „Thyroxin“ mit gleicher Aussprache."
+            },
+            {
+              "index": 6,
+              "expected": "Duméril",
+              "heard": "du Merin",
+              "context_before": "der Umweltbedingungen Schon achtzehnhundertsiebenundsechzig hatte Auguste",
+              "context_after": "im Jardin des Plantes in Paris",
+              "changes_statement": true,
+              "reason": "„du Merin“ klingt anders als „Duméril“ und ist ein abweichender Personenname; ein Hörer würde einen anderen Namen verstehen."
+            }
+          ],
+          "changes_statement": true,
+          "action": "resynthesize"
+        },
+        {
+          "attempt": 1,
+          "seconds": 217.76,
+          "input_tokens": 920,
+          "output_tokens": 5444,
+          "usd": 0.0495,
+          "transcript": "Lina, gibt es wirklich ein Verschlüsselungsprotokoll, das nach dem Axolotl benannt ist? Das klingt für mich zunächst nach einem Scherz. Ja, das gibt es. Das freie Axolotl-Protokoll kommt bei der Ende-zu-Ende-Verschlüsselung von Nachrichten zum Einsatz. Ein Beispiel dafür ist der Instant Messenger Signal. Der ehemalige Name des Protokolls spielte auf den Schwanzluich Axolotl an. Dieser Luich lebt im Wasser und ist vom Aussterben bedroht. Außerdem besitzt er außergewöhnliche Selbstheilungsfähigkeiten. Selbstheilungsfähigkeiten. Das klingt fast nach einem Superhelden. Was kann so ein Axolotl denn konkret heilen? Erstaunlich viel. Axolotl verfügen über die Fähigkeit, Gliedmaßen wiederherzustellen. Das gilt auch für Organe. Und sogar Teile des Gehirns und des Herzens können sie wiederherstellen. Wahnsinn. Das klingt fast unwirklich. Hat man eigentlich schon im Erbgut nachgeschaut, was dahinter steckt? Das Genom des Axolotl wurde entschlüsselt. Es hat 32 Milliarden Basenpaare. Damit ist es zehnmal so groß wie das menschliche Genom. Dabei wurde noch etwas festgestellt. Dem Axolotl fehlt, im Gegensatz zu anderen Salamandern, das Gen PAX3. Moment, das müssen wir kurz sortieren. Das Erbgut ist zehnmal so groß wie unseres und trotzdem fehlt ihm ein Gen, das bei anderen Salamandern vorkommt? Das finde ich ziemlich verblüffend. Ja, beides steht so fest. Das Genom ist riesig. Nur das Genom des australischen Lungenfisch ist unter den bisher Entschlüsselten noch größer. Und gleichzeitig fehlt dem Axolotl das Gen PAX3. Anders als anderen Salamandern. Spannend. Dann wechseln wir mal zum Äußeren. Bleibt ein Axolotl sein Leben lang so, wie man ihn kennt oder kann er sich auch verwandeln? Er kann sich verwandeln, zumindest im Experiment. Durch künstliche Gabe des Schilddrüsenhormons Tyroxin lässt sich die Metamorphose herbeiführen. Dabei entsteht ein Querzahnmolch. Der lebt an Land und atmet mit Lungen. Ein Axolotl, der an Land geht und mit Lungen atmet, das ist ja ein ganz anderes Tier. Braucht das dafür zwingend dieses Hormon oder geht es auch anders? Es geht auch anders. Marie von Chauvin konnte ab 1874 nachweisen, dass die Metamorphose auch ohne Tyroxin ausgelöst werden kann. Dafür genügt eine Änderung der Umweltbedingungen. Schon 1867 hatte Auguste du Méril im Jardin des Plantes in Paris vereinzelte Tiere beobachtet, bei denen sich die Kiemen zurückgebildet hatten. Schon im Jahr 1867 gab es also Axolotl in Paris. Wie sind die Tiere eigentlich nach Europa gekommen? Alexander von Humboldt brachte sie mit. Im August des Jahres 1804 brachte er als erster Axolotl nach Europa. Die Tiere waren in Alkohol eingelegt. Im Pariser Naturkundemuseum dienten sie als exotische Kuriosität. Eingelegt in Alkohol, als Kuriosität im Museum. So hat die Geschichte des Axolotl in Europa also begonnen. Und wer war dieser Humboldt eigentlich? Ein Mann von enormem Ansehen. Die Preußische Akademie der Wissenschaften würdigte ihn als die erste wissenschaftliche Größe seines Zeitalters. Sein Weltruhm überrage sogar den von Gottfried Wilhelm Leibniz. Beeindruckend. Und wie sind die Menschen in der Heimat des Axolotl mit ihm umgegangen? Die misoamerikanischen Ureinwohner fischten Axolotl. Bei Festessen waren sie häufig ein Leckerbissen. Das ist bemerkenswert, denn die Azteken sahen in ihm ein heiliges Tier. Heilig und trotzdem auf dem Teller? Das ist ein ziemlicher Widerspruch. Wird er heute noch gegessen? Es gibt ihn als Spezialität. Unter der Bezeichnung Wooperlooper werden Zuchtexemplare inzwischen auch frittiert zum Verzehr angeboten. Es sind also Tiere aus Zucht, die als kulinarische Spezialität auf dem Teller landen.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "Lena",
+              "heard": "Lina",
+              "context_before": "",
+              "context_after": "gibt es wirklich ein Verschlüsselungsprotokoll das",
+              "changes_statement": true,
+              "reason": "Der Name Lena wird als Lina gesprochen; das ist ein anderer Name, im Zweifel verändert."
+            },
+            {
+              "index": 1,
+              "expected": "Schwanzlurch",
+              "heard": "Schwanzluich",
+              "context_before": "Name des Protokolls spielte auf den",
+              "context_after": "Axolotl an Dieser Lurch lebt im",
+              "changes_statement": false,
+              "reason": "Schwanzluich ist nur eine Fehlschreibung von Schwanzlurch durch die Spracherkennung; dasselbe Wort."
+            },
+            {
+              "index": 2,
+              "expected": "Lurch",
+              "heard": "Luich",
+              "context_before": "auf den Schwanzlurch Axolotl an Dieser",
+              "context_after": "lebt im Wasser und ist vom",
+              "changes_statement": false,
+              "reason": "Luich ist nur eine Fehlschreibung von Lurch; gleiche Bedeutung."
+            },
+            {
+              "index": 3,
+              "expected": "dahintersteckt",
+              "heard": "dahinter steckt",
+              "context_before": "eigentlich schon im Erbgut nachgeschaut was",
+              "context_after": "Das Genom des Axolotl wurde entschlüsselt",
+              "changes_statement": false,
+              "reason": "Getrennt- oder Zusammenschreibung desselben Wortes."
+            },
+            {
+              "index": 4,
+              "expected": "Lungenfischs",
+              "heard": "Lungenfisch",
+              "context_before": "riesig Nur das Genom des Australischen",
+              "context_after": "ist unter den bisher entschlüsselten noch",
+              "changes_statement": false,
+              "reason": "Fehlendes Genitiv-s; grammatische Abweichung ohne Sinnänderung."
+            },
+            {
+              "index": 5,
+              "expected": "Thyroxin",
+              "heard": "Tyroxin",
+              "context_before": "Experiment Durch künstliche Gabe des Schilddrüsenhormons",
+              "context_after": "lässt sich die Metamorphose herbeiführen Dabei",
+              "changes_statement": false,
+              "reason": "Tyroxin ist eine Schreibvariante von Thyroxin, gleich gesprochen."
+            },
+            {
+              "index": 6,
+              "expected": "",
+              "heard": "ja",
+              "context_before": "und mit Lungen atmet das ist",
+              "context_after": "ein ganz anderes Tier Braucht es",
+              "changes_statement": false,
+              "reason": "Das Wort ja ist ein Füllwort ohne Inhalt."
+            },
+            {
+              "index": 7,
+              "expected": "es",
+              "heard": "das",
+              "context_before": "ist ein ganz anderes Tier Braucht",
+              "context_after": "dafür zwingend dieses Hormon oder geht",
+              "changes_statement": false,
+              "reason": "Das statt es bezieht sich weiterhin auf den Axolotl bzw. das Tier; der Sinn bleibt gleich."
+            },
+            {
+              "index": 8,
+              "expected": "Thyroxin",
+              "heard": "Tyroxin",
+              "context_before": "nachweisen dass die Metamorphose auch ohne",
+              "context_after": "ausgelöst werden kann Dafür genügt eine",
+              "changes_statement": false,
+              "reason": "Tyroxin ist eine Schreibvariante von Thyroxin."
+            },
+            {
+              "index": 9,
+              "expected": "Duméril",
+              "heard": "du Méril",
+              "context_before": "der Umweltbedingungen Schon achtzehnhundertsiebenundsechzig hatte Auguste",
+              "context_after": "im Jardin des Plantes in Paris",
+              "changes_statement": false,
+              "reason": "Du Méril ist eine gleich klingende Schreibweise des Namens Duméril."
+            },
+            {
+              "index": 10,
+              "expected": "mesoamerikanischen",
+              "heard": "misoamerikanischen",
+              "context_before": "des Axolotl mit ihm umgegangen Die",
+              "context_after": "Ureinwohner fischten Axolotl Bei Festessen waren",
+              "changes_statement": false,
+              "reason": "Misoamerikanischen ist eine gleich klingende Fehlschreibung von mesoamerikanischen."
+            },
+            {
+              "index": 11,
+              "expected": "Wooper Looper",
+              "heard": "Wooperlooper",
+              "context_before": "ihn als Spezialität Unter der Bezeichnung",
+              "context_after": "werden Zuchtexemplare inzwischen auch frittiert zum",
+              "changes_statement": false,
+              "reason": "Getrennt- oder Zusammenschreibung desselben Namens."
+            }
+          ],
+          "changes_statement": true,
+          "action": "resynthesize"
+        },
+        {
+          "attempt": 2,
+          "seconds": 220.96,
+          "input_tokens": 920,
+          "output_tokens": 5524,
+          "usd": 0.0502,
+          "transcript": "Lena, gibt es wirklich ein Verschlüsselungsprotokoll, das nach dem Axolotl benannt ist? Das klingt für mich zunächst nach einem Scherz. Ja, das gibt es. Das freie Axolotl-Protokoll kommt bei der Ende-zu-Ende-Verschlüsselung von Nachrichten zum Einsatz. Ein Beispiel dafür ist der Instant Messenger Signal. Der ehemalige Name des Protokolls spielte auf den Schwanzloich Axolotl an. Dieser Loich lebt im Wasser und ist vom Aussterben bedroht. Außerdem besitzt er außergewöhnliche Selbstheilungsfähigkeiten. Selbstheilungsfähigkeiten. Das klingt fast nach einem Superhelden. Was kann so ein Axolotl denn konkret heilen? Erstaunlich viel. Axolotl verfügen über die Fähigkeit, Gliedmaßen wiederherzustellen. Das gilt auch für Organe. Und sogar Teile des Gehirns und des Herzens können sie wiederherstellen. Wahnsinn. Das klingt fast unwirklich. Hat man eigentlich schon im Erbgut nachgeschaut, was dahinter steckt? Das Genom des Axolotl wurde entschlüsselt. Es hat 32 Milliarden Basenpaare. Damit ist es zehnmal so groß wie das menschliche Genom. Dabei wurde noch etwas festgestellt. Dem Axolotl fehlt, im Gegensatz zu anderen Salamandern, das Gen PAX3. Moment, das müssen wir kurz sortieren. Das Erbgut ist zehnmal so groß wie unseres. Und trotzdem fehlt ihm ein Gen, das bei anderen Salamandern vorkommt. Das finde ich ziemlich verblüffend. Ja, beides steht so fest. Das Genom ist riesig. Nur das Genom des australischen Lungenfischs ist unter den bisher Entschlüsselten noch größer. Und gleichzeitig fehlt dem Axolotl das Gen PAX3, anders als anderen Salamandern. Spannend. Dann wechseln wir mal zum Äußeren. Bleibt ein Axolotl sein Leben lang so, wie man ihn kennt, oder kann er sich auch verwandeln? Er kann sich verwandeln, zumindest im Experiment. Durch künstliche Gabe des Schilddrüsenhormons Tyroxin lässt sich die Metamorphose herbeiführen. Dabei entsteht ein Querzahnmolch. Der lebt an Land und atmet mit Lungen. Ein Axolotl, der an Land geht und mit Lungen atmet. Das ist ja ein ganz anderes Tier. Braucht es dafür zwingend dieses Hormon oder geht es auch anders? Es geht auch anders. Marie von Chauvin konnte ab 1874 nachweisen, dass die Metamorphose auch ohne Tyroxin ausgelöst werden kann. Dafür genügt eine Änderung der Umweltbedingungen. Schon 1867 hatte Auguste du Meril im Jardin des Plantes in Paris vereinzelte Tiere beobachtet, bei denen sich die Kiemen zurückgebildet hatten. Schon im Jahr 1867 gab es also Axolotl in Paris. Wie sind die Tiere eigentlich nach Europa gekommen? Alexander von Humboldt brachte sie mit. Im August des Jahres 1804 brachte er als erster Axolotl nach Europa. Die Tiere waren in Alkohol eingelegt. Im Pariser Naturkundemuseum dienten sie als exotische Kuriosität. Eingelegt in Alkohol, als Kuriosität im Museum. So hat die Geschichte des Axolotl in Europa also begonnen. Und wer war dieser Humboldt eigentlich? Ein Mann von enormem Ansehen. Die Preußische Akademie der Wissenschaften würdigte ihn als die erste wissenschaftliche Größe seines Zeitalters. Zeitalters. Sein Weltruhm überrage sogar den von Gottfried Wilhelm Leibniz. Beeindruckend. Und wie sind die Menschen in der Heimat des Axolotl mit ihm umgegangen? Die mesoamerikanischen Ureinwohner fischten Axolotl. Bei Festessen waren sie häufig ein Leckerbissen. Das ist bemerkenswert, denn die Azteken sahen in ihm ein heiliges Tier. Heilig und trotzdem auf dem Teller. Das ist ein ziemlicher Widerspruch. Wird er heute noch gegessen? Es gibt ihn als Spezialität. Unter der Bezeichnung Wooperlooper werden Zuchtexemplare inzwischen auch frittiert zum Verzehr angeboten. Es sind also Tiere aus Zucht, die als kulinarische Spezialität auf dem Teller landen.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "Schwanzlurch",
+              "heard": "Schwanzloich",
+              "context_before": "Name des Protokolls spielte auf den",
+              "context_after": "Axolotl an Dieser Lurch lebt im",
+              "changes_statement": false,
+              "reason": "Schwanzloich ist nur eine abweichende Schreibung/Transkription von Schwanzlurch; gesprochen ist dasselbe Wort gemeint, die Aussage bleibt gleich."
+            },
+            {
+              "index": 1,
+              "expected": "Lurch",
+              "heard": "Loich",
+              "context_before": "auf den Schwanzlurch Axolotl an Dieser",
+              "context_after": "lebt im Wasser und ist vom",
+              "changes_statement": false,
+              "reason": "Loich ist eine Erkennungsvariante von Lurch, dasselbe Wort, keine inhaltliche Änderung."
+            },
+            {
+              "index": 2,
+              "expected": "dahintersteckt",
+              "heard": "dahinter steckt",
+              "context_before": "eigentlich schon im Erbgut nachgeschaut was",
+              "context_after": "Das Genom des Axolotl wurde entschlüsselt",
+              "changes_statement": false,
+              "reason": "Getrennt- statt Zusammenschreibung von dahintersteckt, gleich gesprochen."
+            },
+            {
+              "index": 3,
+              "expected": "Thyroxin",
+              "heard": "Tyroxin",
+              "context_before": "Experiment Durch künstliche Gabe des Schilddrüsenhormons",
+              "context_after": "lässt sich die Metamorphose herbeiführen Dabei",
+              "changes_statement": false,
+              "reason": "Tyroxin ist eine Schreibvariante von Thyroxin, gleich klingend, derselbe Begriff."
+            },
+            {
+              "index": 4,
+              "expected": "",
+              "heard": "ja",
+              "context_before": "und mit Lungen atmet das ist",
+              "context_after": "ein ganz anderes Tier Braucht es",
+              "changes_statement": false,
+              "reason": "Das zusätzliche „ja“ ist ein Füllwort ohne Inhalt und ändert die Aussage nicht."
+            },
+            {
+              "index": 5,
+              "expected": "Thyroxin",
+              "heard": "Tyroxin",
+              "context_before": "nachweisen dass die Metamorphose auch ohne",
+              "context_after": "ausgelöst werden kann Dafür genügt eine",
+              "changes_statement": false,
+              "reason": "Tyroxin ist nur eine Schreibvariante von Thyroxin, gleicher Begriff."
+            },
+            {
+              "index": 6,
+              "expected": "Duméril",
+              "heard": "du Meril",
+              "context_before": "der Umweltbedingungen Schon achtzehnhundertsiebenundsechzig hatte Auguste",
+              "context_after": "im Jardin des Plantes in Paris",
+              "changes_statement": false,
+              "reason": "„du Meril“ ist eine gleich klingende Schreibweise des Namens Duméril."
+            },
+            {
+              "index": 7,
+              "expected": "",
+              "heard": "Zeitalters",
+              "context_before": "die erste wissenschaftliche Größe seines Zeitalters",
+              "context_after": "Sein Weltruhm überrage sogar den von",
+              "changes_statement": false,
+              "reason": "Wiederholtes „Zeitalters“ ist eine Wortwiederholung ohne neuen Inhalt; die Aussage bleibt gleich."
+            },
+            {
+              "index": 8,
+              "expected": "Wooper Looper",
+              "heard": "Wooperlooper",
+              "context_before": "ihn als Spezialität Unter der Bezeichnung",
+              "context_after": "werden Zuchtexemplare inzwischen auch frittiert zum",
+              "changes_statement": false,
+              "reason": "Wooperlooper statt Wooper Looper ist nur Zusammenschreibung, gleich gesprochen."
+            }
+          ],
+          "changes_statement": false,
+          "action": "accept"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "turn_indices": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "chars": 3627,
+      "file": "sections/01.flac",
+      "seconds": 213.56,
+      "input_tokens": 1776,
+      "output_tokens": 10709,
+      "usd": 0.0973,
+      "verified": true,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seconds": 214.8,
+          "input_tokens": 888,
+          "output_tokens": 5370,
+          "usd": 0.0488,
+          "transcript": "Frittiert, du Liebezeit. Und in der Natur, wie sieht's da aus? Düster. Der Axolotl ist vom Aussterben bedroht. Laut einem Pressebericht vom Januar 2014 konnten trotz einer viermonatigen Suche keine freilebenden Axolotl mehr gefunden werden. Vier Monate Suche und kein einziger freilebender Axolotl. Gibt es ihn dann praktisch nur noch bei den Menschen? In diese Richtung geht es. Axolotl sind heute in Menschenobhut sehr viel häufiger als in ihrem ursprünglichen Lebensraum anzutreffen. Die Tiere in Obhut sind also deutlich in der Überzahl. Im Heimtierhandel gibt es sie ja. Sind das dann noch die ursprünglichen Axolotl? Eher nicht. Hybride haben sich ausgebreitet, weil sie attraktivere Farbgebungen haben. Deshalb existieren inzwischen vermutlich kaum noch Axolotl im Heimtierhandel, die dem ursprünglichen Axolotl genetisch entsprechen. Die hübschere Farbe hat also gewonnen. Und das Original ist im Handel kaum noch zu finden. Wie alt wird so ein Tier eigentlich? In Gefangenschaft erreicht die Art ein Alter von etwa 12 bis 20 Jahren. Auch Einzelfälle höheren Alters sind bekannt. Bis hin zu 28 Jahren. Das ist eine ordentliche Spanne. Und wenn so ein Tier krank wird, was hilft dann? Kälte kann helfen. Erkrankte Axolotl genesen schneller, wenn das Wasser für einige Zeit auf 6 bis 8 Grad Celsius abgekühlt wird. Das entspricht ungefähr der Wintertemperatur ihrer Heimatseen. Kälte als Medizin. Ungefähr so wie der Winter in den Heimatseen. Das hat etwas. Was steht denn auf dem Speiseplan eines Axolotl? Auch der Nachwuchs der eigenen Art gehört zu ihrem Nahrungsspektrum. Der relativ umfangreiche Laich eines Weibchens wird außerdem meist von Artgenossen verzehrt. Sie fressen also den eigenen Nachwuchs. Und der Laich landet meist bei den Artgenossen im Magen. Das ist hart. Wechseln wir die Bühne. Taucht der Axolotl eigentlich auch in der Kultur auf? Ja, schon im Jahr 1931. Der Name taucht in Karl Zuckmeiers Schauspiel Der Hauptmann von Köpenick auf. Dort heißt eine Schuhfabrik Axolotl. Bei ihr sucht der Schuster und spätere Hauptmann Vogt vergeblich um Arbeit nach. Der Name ist eine Anspielung auf die bekannte Schuhfirma Salamander. Auch die ist nach einem Schwanzlurch benannt. Ein Schuster, der später Hauptmann wird. Was hat der denn angestellt? Der Hauptmann von Köpenick wurde als Hochstapler bekannt. Am 16. Oktober 1906 drang er als Hauptmann verkleidet mit einem Trupp gutgläubiger Soldaten in das Rathaus der Stadt Köpenick bei Berlin ein. Er verhaftete den Bürgermeister und raubte die Stadtkasse. Das ist ja fast ein Krimi. Und was weißt du über den Autor des Stücks, über Karl Zugmeier? Karl Zugmeier kehrte 1946 wieder nach Europa zurück. Er war nunmehr amerikanischer Staatsbürger. Gut, und heute? Hat der Axolotl auch die Popkultur erreicht? Ja. Im September 2023 erschien der Roguelike-Shooter Akas Holotte. In diesem Spiel spielt man einen Axolotl. Er ist unter anderem mit einem Sturmgewehr bewaffnet. Dann halten wir fest. Ein Verschlüsselungsprotokoll hieß einmal nach dem Axolotl. Humboldt brachte die Tiere als Kuriosität nach Europa. In der Natur sind sie vom Aussterben bedroht, in Menschenobhut aber sehr viel häufiger. Und in einem Computerspiel trägt er ein Sturmgewehr. So ist es. Der ehemalige Name des Protokolls spielte auf einen Schwanzlurch an, der außergewöhnliche Selbstheilungsfähigkeiten besitzt. Dieser Schwanzlurch ist heute vom Aussterben bedroht und in Menschenobhut ist er sehr viel häufiger anzutreffen als in seinem ursprünglichen Lebensraum.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "liebe Zeit",
+              "heard": "Liebezeit",
+              "context_before": "Frittiert du",
+              "context_after": "Und in der Natur wie sieht",
+              "changes_statement": false,
+              "reason": "Getrennt- bzw. Zusammenschreibung derselben gesprochenen Wörter, gleiche Aussage."
+            },
+            {
+              "index": 1,
+              "expected": "sieht es",
+              "heard": "siehts",
+              "context_before": "Zeit Und in der Natur wie",
+              "context_after": "da aus Düster Der Axolotl ist",
+              "changes_statement": false,
+              "reason": "„siehts“ ist nur die verkürzte Sprechform von „sieht es“, Bedeutung gleich."
+            },
+            {
+              "index": 2,
+              "expected": "frei lebenden",
+              "heard": "freilebenden",
+              "context_before": "konnten trotz einer viermonatigen Suche keine",
+              "context_after": "Axolotl mehr gefunden werden Vier Monate",
+              "changes_statement": false,
+              "reason": "„frei lebenden“ und „freilebenden“ sind nur unterschiedliche Schreibweisen desselben Wortes."
+            },
+            {
+              "index": 3,
+              "expected": "frei lebender",
+              "heard": "freilebender",
+              "context_before": "Vier Monate Suche und kein einziger",
+              "context_after": "Axolotl Gibt es ihn dann praktisch",
+              "changes_statement": false,
+              "reason": "„frei lebender“ und „freilebender“ unterscheiden sich nur in der Schreibweise."
+            },
+            {
+              "index": 4,
+              "expected": "Carl Zuckmayers",
+              "heard": "Karl Zuckmeiers",
+              "context_before": "Jahr neunzehnhunderteinunddreißig Der Name taucht in",
+              "context_after": "Schauspiel Der Hauptmann von Köpenick auf",
+              "changes_statement": false,
+              "reason": "„Karl Zuckmeier“ ist eine gleich klingende Schreibweise des Namens Carl Zuckmayer."
+            },
+            {
+              "index": 5,
+              "expected": "Voigt",
+              "heard": "Vogt",
+              "context_before": "sucht der Schuster und spätere Hauptmann",
+              "context_after": "vergeblich um Arbeit nach Der Name",
+              "changes_statement": false,
+              "reason": "„Vogt“ und „Voigt“ werden gleich ausgesprochen, nur andere Schreibweise des Namens."
+            },
+            {
+              "index": 6,
+              "expected": "Cöpenick",
+              "heard": "Köpenick",
+              "context_before": "Soldaten in das Rathaus der Stadt",
+              "context_after": "bei Berlin ein Er verhaftete den",
+              "changes_statement": false,
+              "reason": "„Köpenick“ und „Cöpenick“ klingen gleich, nur historische Schreibvariante."
+            },
+            {
+              "index": 7,
+              "expected": "Carl Zuckmayer Carl Zuckmayer",
+              "heard": "Karl Zugmeier Karl Zugmeier",
+              "context_before": "über den Autor des Stücks über",
+              "context_after": "kehrte neunzehnhundertsechsundvierzig wieder nach Europa zurück",
+              "changes_statement": false,
+              "reason": "Karl Zugmeier klingt wie Carl Zuckmayer, gleich klingende Namensschreibung, dieselbe Person gemeint."
+            },
+            {
+              "index": 8,
+              "expected": "AK xolotl",
+              "heard": "Akas Holotte",
+              "context_before": "September zweitausenddreiundzwanzig erschien der Roguelike Shooter",
+              "context_after": "In diesem Spiel spielt man einen",
+              "changes_statement": true,
+              "reason": "Der Spielname „AK-xolotl“ wird als „Akas Holotte“ wiedergegeben, das ist ein anderer Name und nicht nur eine andere Schreibweise."
+            }
+          ],
+          "changes_statement": true,
+          "action": "resynthesize"
+        },
+        {
+          "attempt": 1,
+          "seconds": 213.56,
+          "input_tokens": 888,
+          "output_tokens": 5339,
+          "usd": 0.0485,
+          "transcript": "Frittiert. Du liebe Zeit. Und in der Natur, wie sieht's da aus? Düster. Der Axolotl ist vom Aussterben bedroht. Laut einem Pressebericht vom Januar 2014 konnten trotz einer viermonatigen Suche keine freilebenden Axolotl mehr gefunden werden. Vier Monate Suche und kein einziger freilebender Axolotl. Gibt es ihn dann praktisch nur noch bei den Menschen? In diese Richtung geht es. Axolotl sind heute in Menschenobhut sehr viel häufiger, als in ihrem ursprünglichen Lebensraum anzutreffen. Die Tiere in Obhut sind also deutlich in der Überzahl. Im Heimtierhandel gibt es sie ja. Sind das dann noch die ursprünglichen Axolotl? Eher nicht. Hybride haben sich ausgebreitet, weil sie attraktivere Farbgebungen haben. Deshalb existieren inzwischen vermutlich kaum noch Axolotl im Heimtierhandel, die dem ursprünglichen Axolotl genetisch entsprechen. Die hübschere Farbe hat also gewonnen. Und das Original ist im Handel kaum noch zu finden. Wie alt wird so ein Tier eigentlich? In Gefangenschaft erreicht die Art ein Alter von etwa 12 bis 20 Jahren. Auch Einzelfälle höheren Alters sind bekannt, bis hin zu 28 Jahren. Das ist eine ordentliche Spanne. Und wenn so ein Tier krank wird, was hilft dann? Kälte kann helfen. Erkrankte Axolotl genesen schneller, wenn das Wasser für einige Zeit auf 6 bis 8 Grad Celsius abgekühlt wird. Das entspricht ungefähr der Wintertemperatur ihrer Heimatseen. Kälte als Medizin, ungefähr so wie der Winter in den Heimatseen. Das hat etwas. Was steht denn auf dem Speiseplan eines Axolotl? Auch der Nachwuchs der eigenen Art gehört zu ihrem Nahrungsspektrum. Der relativ umfangreiche Laich eines Weibchens wird außerdem meist von Artgenossen verzehrt. Sie fressen also den eigenen Nachwuchs. Und der Laich landet meist bei den Artgenossen im Magen. Das ist hart. Wechseln wir die Bühne. Taucht der Axolotl eigentlich auch in der Kultur auf? Ja, schon im Jahr 1931. Der Name taucht in Karl Zuckmeiers Schauspiel Der Hauptmann von Köpenick auf. Dort heißt eine Schuhfabrik Axolotl. Bei ihr sucht der Schuster und späterer Hauptmann Vogt vergeblich um Arbeit nach. Der Name ist eine Anspielung auf die bekannte Schuhfirma Salamander. Auch die ist nach einem Schwanzlurch benannt. Ein Schuster, der später Hauptmann wird? Was hat der denn angestellt? Der Hauptmann von Köpenick wurde als Hochstapler bekannt. Am 16. Oktober 1906 drang er als Hauptmann verkleidet mit einem Trupp gutgläubiger Soldaten in das Rathaus der Stadt Köpenick bei Berlin ein. Er verhaftete den Bürgermeister und raubte die Stadtkasse. Das ist ja fast ein Krimi. Und was weißt du über den Autor des Stücks, über Karl Zuckmeier? Karl Zuckmeier kehrte 1946 wieder nach Europa zurück. Er war nunmehr amerikanischer Staatsbürger. Gut, und heute? Hat der Axolotl auch die Popkultur erreicht? Ja, im September 2023 erschien der Roguelike-Shooter AK-Xolotl. In diesem Spiel spielt man einen Axolotl. Er ist unter anderem mit einem Sturmgewehr bewaffnet. Dann halten wir fest, ein Verschlüsselungsprotokoll hieß einmal nach dem Axolotl. Humboldt brachte die Tiere als Kuriosität nach Europa. In der Natur sind sie vom Aussterben bedroht, in Menschenobhut aber sehr viel häufiger. Und in einem Computerspiel trägt er ein Sturmgewehr. So ist es. Der ehemalige Name des Protokolls spielte auf einen Schwanzlurch an, der außergewöhnliche Selbstheilungsfähigkeiten besitzt. Dieser Schwanzlurch ist heute vom Aussterben bedroht. Und in Menschenobhut ist er sehr viel häufiger anzutreffen als in seinem ursprünglichen Lebensraum.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "sieht es",
+              "heard": "siehts",
+              "context_before": "Zeit Und in der Natur wie",
+              "context_after": "da aus Düster Der Axolotl ist",
+              "changes_statement": false,
+              "reason": "„siehts“ ist nur die zusammengezogene Sprechform von „sieht es“; die Aussage bleibt gleich."
+            },
+            {
+              "index": 1,
+              "expected": "frei lebenden",
+              "heard": "freilebenden",
+              "context_before": "konnten trotz einer viermonatigen Suche keine",
+              "context_after": "Axolotl mehr gefunden werden Vier Monate",
+              "changes_statement": false,
+              "reason": "„freilebenden“ und „frei lebenden“ sind nur unterschiedliche Schreibweisen desselben gesprochenen Wortes."
+            },
+            {
+              "index": 2,
+              "expected": "frei lebender",
+              "heard": "freilebender",
+              "context_before": "Vier Monate Suche und kein einziger",
+              "context_after": "Axolotl Gibt es ihn dann praktisch",
+              "changes_statement": false,
+              "reason": "„freilebender“ und „frei lebender“ unterscheiden sich nur in der Getrennt- oder Zusammenschreibung."
+            },
+            {
+              "index": 3,
+              "expected": "Carl Zuckmayers",
+              "heard": "Karl Zuckmeiers",
+              "context_before": "Jahr neunzehnhunderteinunddreißig Der Name taucht in",
+              "context_after": "Schauspiel Der Hauptmann von Köpenick auf",
+              "changes_statement": false,
+              "reason": "„Karl Zuckmeier“ klingt wie „Carl Zuckmayer“; es ist nur eine andere Schreibweise desselben Namens."
+            },
+            {
+              "index": 4,
+              "expected": "spätere",
+              "heard": "späterer",
+              "context_before": "Bei ihr sucht der Schuster und",
+              "context_after": "Hauptmann Voigt vergeblich um Arbeit nach",
+              "changes_statement": false,
+              "reason": "„späterer“ statt „spätere“ ist ein grammatischer Unterschied, der den Sinn nicht ändert."
+            },
+            {
+              "index": 5,
+              "expected": "Voigt",
+              "heard": "Vogt",
+              "context_before": "sucht der Schuster und spätere Hauptmann",
+              "context_after": "vergeblich um Arbeit nach Der Name",
+              "changes_statement": false,
+              "reason": "„Vogt“ und „Voigt“ werden gleich ausgesprochen; es ist nur eine andere Schreibweise desselben Namens."
+            },
+            {
+              "index": 6,
+              "expected": "Cöpenick",
+              "heard": "Köpenick",
+              "context_before": "Soldaten in das Rathaus der Stadt",
+              "context_after": "bei Berlin ein Er verhaftete den",
+              "changes_statement": false,
+              "reason": "„Köpenick“ und „Cöpenick“ klingen gleich; es ist nur eine ältere oder andere Schreibweise desselben Ortsnamens."
+            },
+            {
+              "index": 7,
+              "expected": "Carl Zuckmayer Carl Zuckmayer",
+              "heard": "Karl Zuckmeier Karl Zuckmeier",
+              "context_before": "über den Autor des Stücks über",
+              "context_after": "kehrte neunzehnhundertsechsundvierzig wieder nach Europa zurück",
+              "changes_statement": false,
+              "reason": "Auch hier ist „Karl Zuckmeier“ nur eine gleich klingende Schreibweise von „Carl Zuckmayer“."
+            }
+          ],
+          "changes_statement": false,
+          "action": "accept"
+        }
+      ]
+    }
+  ],
+  "fixed_parts": {
+    "intro": "aa19a3a5ad6b9be14c64f543f8cba8d4e9c06111f095fef839a86fadc97312cf",
+    "outro": "7b776b07c88661c0847e61dbdf7817e1df2faae0ccc343ee30a7fa067263939e"
+  },
+  "joins": {
+    "edge_silence_floor_db": -45.0,
+    "edge_silence_keep_seconds": 0.15,
+    "join_pause_seconds": 0.4
+  },
+  "loudness": {
+    "input_lufs": -20.51,
+    "input_true_peak_dbtp": -0.79,
+    "gain_db": 4.78,
+    "output_lufs": -16.06,
+    "output_true_peak_dbtp": -1.5,
+    "limited_seconds": 24.94,
+    "iterations": 3
+  },
+  "file": "episode.flac",
+  "sample_rate": 24000,
+  "seconds": 477.84,
+  "usd": 0.2478
+}

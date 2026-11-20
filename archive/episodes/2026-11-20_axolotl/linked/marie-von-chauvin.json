@@ -1,0 +1,51 @@
+{
+  "title": "Marie von Chauvin",
+  "revid": 238004702,
+  "revision_status": "sighted",
+  "revision_timestamp": "2023-10-09T09:30:54Z",
+  "fetched_at": "2026-11-20T06:11:03Z",
+  "categories": [
+    "Kategorie:Deutscher",
+    "Kategorie:Frau",
+    "Kategorie:Geboren 1848",
+    "Kategorie:Gestorben 1921",
+    "Kategorie:Naturforscher",
+    "Kategorie:Nobilitierter (Preußen)"
+  ],
+  "intro_wikitext": "'''Marie von Chauvin''' (* [[21. Dezember]] [[1848]] in [[Berlin]]; † [[21. Juli]] [[1921]] in [[Littenweiler]]) war eine [[Deutschland|deutsche]] [[Naturgeschichte|Naturforscherin]]. Ihr gelang es, [[Axolotl]] (''Ambystoma mexicanum''), welche üblicherweise zeitlebens ihre [[Schwanzlurche#Fortpflanzung und Individualentwicklung|Larvengestalt]] beibehalten ([[Neotenie]]), experimentell zur [[Metamorphose (Zoologie)|Metamorphose]] zu bringen.",
+  "segments": [
+    {
+      "id": "238004702-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Marie von Chauvin''' (* [[21. Dezember]] [[1848]] in [[Berlin]]; † [[21. Juli]] [[1921]] in [[Littenweiler]]) war eine [[Deutschland|deutsche]] [[Naturgeschichte|Naturforscherin]].",
+      "plain": null
+    },
+    {
+      "id": "238004702-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ihr gelang es, [[Axolotl]] (''Ambystoma mexicanum''), welche üblicherweise zeitlebens ihre [[Schwanzlurche#Fortpflanzung und Individualentwicklung|Larvengestalt]] beibehalten ([[Neotenie]]), experimentell zur [[Metamorphose (Zoologie)|Metamorphose]] zu bringen.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 238004702,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "238004702-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "238004702-0000"
+        ],
+        "plain": "Ihr gelang es, Axolotl (Ambystoma mexicanum), welche üblicherweise zeitlebens ihre Larvengestalt beibehalten (Neotenie), experimentell zur Metamorphose zu bringen.",
+        "context_plain": [
+          "Marie von Chauvin (* 21. Dezember 1848 in Berlin; † 21. Juli 1921 in Littenweiler) war eine deutsche Naturforscherin."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

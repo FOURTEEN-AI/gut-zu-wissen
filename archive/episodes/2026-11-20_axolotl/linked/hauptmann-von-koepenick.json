@@ -1,0 +1,78 @@
+{
+  "title": "Hauptmann von Köpenick",
+  "revid": 272191328,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-15T17:26:21Z",
+  "fetched_at": "2026-11-20T06:11:03Z",
+  "categories": [
+    "Kategorie:Betrüger",
+    "Kategorie:Deutscher",
+    "Kategorie:Deutscher Emigrant in Luxemburg",
+    "Kategorie:Geboren 1849",
+    "Kategorie:Gestorben 1922",
+    "Kategorie:Hauptmann von Köpenick",
+    "Kategorie:Hochstapler",
+    "Kategorie:Kriminalfall 1906",
+    "Kategorie:Kriminalfall in Deutschland",
+    "Kategorie:Literarisches Werk",
+    "Kategorie:Luxemburger",
+    "Kategorie:Mann",
+    "Kategorie:Person (Berlin)",
+    "Kategorie:Preuße",
+    "Kategorie:Pseudonym",
+    "Kategorie:Schuhmacher",
+    "Kategorie:Stadtoriginal (Deutschland)",
+    "Kategorie:Theaterfigur",
+    "Kategorie:Verurteilte Person"
+  ],
+  "intro_wikitext": "{{Begriffsklärungshinweis|Für weitere Bedeutungen siehe [[Der Hauptmann von Köpenick]]}}\n[[Datei:Friedrich Wilhelm Voight.jpg|mini|Wilhelm Voigt, 1910]]\n\n'''Friedrich Wilhelm Voigt''' (* [[13. Februar]] [[1849]] in [[Sowetsk (Kaliningrad)|Tilsit]]; † [[3. Januar]] [[1922]] in [[Luxemburg (Stadt)|Luxemburg]]) war ein aus [[Ostpreußen]] stammender [[Schuhmacher]]. Er wurde als [[Hochstapler]] unter dem Namen '''Hauptmann von Köpenick''' bekannt durch seine spektakuläre [[Besetzung (Aktion)|Besetzung]] des [[Rathaus Köpenick|Rathauses]] der Stadt [[Berlin-Köpenick|Cöpenick]]<ref>Der Name der Stadt lautete zum damaligen Zeitpunkt in amtlicher Schreibweise ''Cöpenick''. Offiziell wurde diese Schreibweise erst zum 1. Januar 1931 in ''Köpenick'' geändert. In zeitgenössischen Dokumenten (auch amtlichen Urkunden wie beispielsweise dem Urteil des Landgerichts Berlin zur Tat Wilhelm Voigts), Büchern und Presseberichten herrschte seit Beginn des 20.&nbsp;Jahrhunderts allerdings bereits die Schreibung mit anlautendem ''K'' vor. Im vorliegenden Artikel wird der Name im Folgenden einheitlich als ''Köpenick'' wiedergegeben (außer in Zitaten aus Quellen, die die Schreibweise ''Cöpenick'' verwenden).</ref> bei [[Berlin]], in das er am 16. Oktober 1906 als [[Hauptmann (Offizier)|Hauptmann]] verkleidet mit einem Trupp gutgläubiger [[Soldat]]en eindrang, den [[Bürgermeister]] verhaftete und die [[Stadtkasse]] raubte.\n\nDieses Ereignis, das auf großes öffentliches Interesse stieß und als die ''[[Köpenickiade]]'' in die deutsche Sprache einging, wurde häufig künstlerisch verarbeitet. Besonders bekannt ist [[Carl Zuckmayer]]s Theaterstück ''[[Der Hauptmann von Köpenick (Zuckmayer)|Der Hauptmann von Köpenick]]''.",
+  "segments": [
+    {
+      "id": "272191328-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Friedrich Wilhelm Voigt''' (* [[13. Februar]] [[1849]] in [[Sowetsk (Kaliningrad)|Tilsit]]; † [[3. Januar]] [[1922]] in [[Luxemburg (Stadt)|Luxemburg]]) war ein aus [[Ostpreußen]] stammender [[Schuhmacher]].",
+      "plain": null
+    },
+    {
+      "id": "272191328-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er wurde als [[Hochstapler]] unter dem Namen '''Hauptmann von Köpenick''' bekannt durch seine spektakuläre [[Besetzung (Aktion)|Besetzung]] des [[Rathaus Köpenick|Rathauses]] der Stadt [[Berlin-Köpenick|Cöpenick]]<ref>Der Name der Stadt lautete zum damaligen Zeitpunkt in amtlicher Schreibweise ''Cöpenick''. Offiziell wurde diese Schreibweise erst zum 1. Januar 1931 in ''Köpenick'' geändert. In zeitgenössischen Dokumenten (auch amtlichen Urkunden wie beispielsweise dem Urteil des Landgerichts Berlin zur Tat Wilhelm Voigts), Büchern und Presseberichten herrschte seit Beginn des 20.&nbsp;Jahrhunderts allerdings bereits die Schreibung mit anlautendem ''K'' vor. Im vorliegenden Artikel wird der Name im Folgenden einheitlich als ''Köpenick'' wiedergegeben (außer in Zitaten aus Quellen, die die Schreibweise ''Cöpenick'' verwenden).</ref> bei [[Berlin]], in das er am 16. Oktober 1906 als [[Hauptmann (Offizier)|Hauptmann]] verkleidet mit einem Trupp gutgläubiger [[Soldat]]en eindrang, den [[Bürgermeister]] verhaftete und die [[Stadtkasse]] raubte.",
+      "plain": null
+    },
+    {
+      "id": "272191328-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dieses Ereignis, das auf großes öffentliches Interesse stieß und als die ''[[Köpenickiade]]'' in die deutsche Sprache einging, wurde häufig künstlerisch verarbeitet.",
+      "plain": null
+    },
+    {
+      "id": "272191328-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Besonders bekannt ist [[Carl Zuckmayer]]s Theaterstück ''[[Der Hauptmann von Köpenick (Zuckmayer)|Der Hauptmann von Köpenick]]''.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272191328,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272191328-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272191328-0000"
+        ],
+        "plain": "Er wurde als Hochstapler unter dem Namen Hauptmann von Köpenick bekannt durch seine spektakuläre Besetzung des Rathauses der Stadt Cöpenick bei Berlin, in das er am 16. Oktober 1906 als Hauptmann verkleidet mit einem Trupp gutgläubiger Soldaten eindrang, den Bürgermeister verhaftete und die Stadtkasse raubte.",
+        "context_plain": [
+          "Friedrich Wilhelm Voigt (* 13. Februar 1849 in Tilsit; † 3. Januar 1922 in Luxemburg) war ein aus Ostpreußen stammender Schuhmacher."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

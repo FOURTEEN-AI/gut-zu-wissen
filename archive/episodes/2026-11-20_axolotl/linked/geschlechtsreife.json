@@ -1,0 +1,72 @@
+{
+  "title": "Geschlechtsreife",
+  "revid": 264808871,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-02-28T08:42:32Z",
+  "fetched_at": "2026-11-20T06:11:03Z",
+  "categories": [
+    "Kategorie:Andrologie",
+    "Kategorie:Entwicklungsbiologie",
+    "Kategorie:Entwicklungspsychologie",
+    "Kategorie:Gynäkologische Endokrinologie",
+    "Kategorie:Lebensstadium",
+    "Kategorie:Sexualität des Menschen"
+  ],
+  "intro_wikitext": "Die '''Geschlechtsreife''' wird als der Teil der [[Ontogenese]] eines Einzelwesens angesehen, wenn seine [[Gonade|Geschlechtsdrüsen]] die ersten befruchtungsfähigen [[Gamet|Keimzellen]] produzieren, so dass das Tier bzw. der Mensch Nachkommen zeugen kann. Einige Säugetierarten, insbesondere Menschen werden schon geschlechtsreif lange bevor sie [[adult|erwachsen]] sind. Für jedes [[Vielzellige Tiere|vielzellige Tier]] (Metazoon) dauern die Entwicklungsphasen unterschiedlich lange an. Auch beim Menschen ist Geschlechtsreife die Bezeichnung für das Ziel der „Geschlechtsreifung“ (auch: ''Pubeszenz''), die während der [[Pubertät]] erreicht wird. Die Entwicklung der [[Geschlechtsorgan]]e als Funktionsträger der [[Fortpflanzung]] ist bei Eintritt der Geschlechtsreife weitgehend abgeschlossen.",
+  "segments": [
+    {
+      "id": "264808871-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Geschlechtsreife''' wird als der Teil der [[Ontogenese]] eines Einzelwesens angesehen, wenn seine [[Gonade|Geschlechtsdrüsen]] die ersten befruchtungsfähigen [[Gamet|Keimzellen]] produzieren, so dass das Tier bzw. der Mensch Nachkommen zeugen kann.",
+      "plain": null
+    },
+    {
+      "id": "264808871-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Einige Säugetierarten, insbesondere Menschen werden schon geschlechtsreif lange bevor sie [[adult|erwachsen]] sind.",
+      "plain": null
+    },
+    {
+      "id": "264808871-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Für jedes [[Vielzellige Tiere|vielzellige Tier]] (Metazoon) dauern die Entwicklungsphasen unterschiedlich lange an.",
+      "plain": null
+    },
+    {
+      "id": "264808871-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Auch beim Menschen ist Geschlechtsreife die Bezeichnung für das Ziel der „Geschlechtsreifung“ (auch: ''Pubeszenz''), die während der [[Pubertät]] erreicht wird.",
+      "plain": null
+    },
+    {
+      "id": "264808871-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Entwicklung der [[Geschlechtsorgan]]e als Funktionsträger der [[Fortpflanzung]] ist bei Eintritt der Geschlechtsreife weitgehend abgeschlossen.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 264808871,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "264808871-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "264808871-0000"
+        ],
+        "plain": "Einige Säugetierarten, insbesondere Menschen werden schon geschlechtsreif lange bevor sie erwachsen sind.",
+        "context_plain": [
+          "Die Geschlechtsreife wird als der Teil der Ontogenese eines Einzelwesens angesehen, wenn seine Geschlechtsdrüsen die ersten befruchtungsfähigen Keimzellen produzieren, so dass das Tier bzw. der Mensch Nachkommen zeugen kann."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

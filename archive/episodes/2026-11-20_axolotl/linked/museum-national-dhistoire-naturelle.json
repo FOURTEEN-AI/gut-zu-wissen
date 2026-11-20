@@ -1,0 +1,96 @@
+{
+  "title": "Muséum national d’histoire naturelle",
+  "revid": 269069006,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-24T19:14:23Z",
+  "fetched_at": "2026-11-20T06:11:03Z",
+  "categories": [
+    "Kategorie:Bauwerk in Paris",
+    "Kategorie:Grand établissement",
+    "Kategorie:Hochschule in Paris",
+    "Kategorie:Monument historique (Bildungseinrichtung)",
+    "Kategorie:Monument historique (Museum)",
+    "Kategorie:Monument historique (Museumsbau)",
+    "Kategorie:Monument historique im 5. Arrondissement (Paris)",
+    "Kategorie:Monument historique seit 1993",
+    "Kategorie:Museum in Paris",
+    "Kategorie:Museumsgründung 1793",
+    "Kategorie:Naturkundemuseum in Frankreich"
+  ],
+  "intro_wikitext": "[[Datei:Jardin des plantes de Paris - OpenStreetMap 2020.svg|mini|[[Plan (Darstellung)|Übersichtsplan]] des Muséum national d’histoire naturelle]]\n[[Datei:France location map-MNHN.jpg|mini|Andere Standorte in [[Frankreich]].]]\n[[Datei:Grande Galerie de l'evolution.jpg|mini|[[Georges-Louis Leclerc de Buffon|Buffon]]-Denkmal vor der ''Grande galerie de l’Evolution'']]\n[[Datei:Galerie de paléontologie et d'anatomie comparée -431.jpg|mini|[[Galerie de Paléontologie et d’Anatomie Comparée]]<br /> <small>(Galerie der [[Paläontologie]] und der [[Vergleichende Anatomie|Vergleichenden Anatomie]])</small>]]\n[[Datei:MNHN Galerie de l evolution 2014 salle.jpg|mini|Grande galerie de l’évolution]]\n[[Datei:Crocodylus niloticus MNHN.jpg|mini|Nilkrokodil in der Ménagerie du Jardin des Plantes]]\n\nDas '''Muséum national d’histoire naturelle''' ([[Sigel]]: MNHN; {{deS|Nationales Naturkundemuseum}}) ist ein staatliches französisches [[Naturkundemuseum]], an das eine Forschungs- und Bildungseinrichtung für [[Biologie|Bio-]] und [[Geowissenschaften]] angeschlossen ist. Das Naturkundemuseum wurde am 10. Juni 1793 gegründet und hat den Status eines [[grand établissement]]. Es untersteht sowohl dem  Forschungs- als auch dem [[Umweltministerium (Frankreich)|Umweltministerium]]. Der Hauptsitz befindet sich in [[Paris]]. Im Laufe der Geschichte kamen weitere [[Niederlassung (Wirtschaft)|Dependancen]] in Paris und in ganz Frankreich hinzu.\n\nSeine wissenschaftlichen Sammlungen umfassen mehr als 55 Millionen Exponate, das MNHN hat damit die drittgrößte Sammlung der Welt. Am Hauptstandort in Paris befindet sich auch ein dem Museum angeschlossener [[Zoo]], die [[Ménagerie du Jardin des Plantes]].",
+  "segments": [
+    {
+      "id": "269069006-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das '''Muséum national d’histoire naturelle''' ([[Sigel]]: MNHN; {{deS|Nationales Naturkundemuseum}}) ist ein staatliches französisches [[Naturkundemuseum]], an das eine Forschungs- und Bildungseinrichtung für [[Biologie|Bio-]] und [[Geowissenschaften]] angeschlossen ist.",
+      "plain": null
+    },
+    {
+      "id": "269069006-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Naturkundemuseum wurde am 10. Juni 1793 gegründet und hat den Status eines [[grand établissement]].",
+      "plain": null
+    },
+    {
+      "id": "269069006-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es untersteht sowohl dem  Forschungs- als auch dem [[Umweltministerium (Frankreich)|Umweltministerium]].",
+      "plain": null
+    },
+    {
+      "id": "269069006-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Hauptsitz befindet sich in [[Paris]].",
+      "plain": null
+    },
+    {
+      "id": "269069006-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Laufe der Geschichte kamen weitere [[Niederlassung (Wirtschaft)|Dependancen]] in Paris und in ganz Frankreich hinzu.",
+      "plain": null
+    },
+    {
+      "id": "269069006-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Seine wissenschaftlichen Sammlungen umfassen mehr als 55 Millionen Exponate, das MNHN hat damit die drittgrößte Sammlung der Welt.",
+      "plain": null
+    },
+    {
+      "id": "269069006-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Am Hauptstandort in Paris befindet sich auch ein dem Museum angeschlossener [[Zoo]], die [[Ménagerie du Jardin des Plantes]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269069006,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269069006-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269069006-0004"
+        ],
+        "plain": "Seine wissenschaftlichen Sammlungen umfassen mehr als 55 Millionen Exponate, das MNHN hat damit die drittgrößte Sammlung der Welt.",
+        "context_plain": [
+          "Im Laufe der Geschichte kamen weitere Dependancen in Paris und in ganz Frankreich hinzu."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "269069006-0006",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

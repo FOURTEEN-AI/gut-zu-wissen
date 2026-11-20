@@ -1,0 +1,49 @@
+{
+  "title": "Terrestrisch",
+  "revid": 252089540,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-01-09T17:59:56Z",
+  "fetched_at": "2026-11-20T06:11:03Z",
+  "categories": [
+    "Kategorie:Erde (Planet)",
+    "Kategorie:Geowissenschaft",
+    "Kategorie:Ökologische Eigenschaft"
+  ],
+  "intro_wikitext": "{{SEITENTITEL:terrestrisch}}\nDas Eigenschaftswort '''terrestrisch''' beschreibt jene [[Methodik|Methoden]], Vorgänge, [[Daten]], Systeme, [[Werkzeug|Instrument]]e, [[Organismen]], [[Ablagerungsmilieu|Ablagerungen]] oder [[Gegenstand|Objekt]]e, die '''irdisch''', erdgebunden oder landgestützt sind:\n* irdisch – sich auf den Planeten [[Erde]] ({{laS|terra}}) beziehend (Gegensatz: [[extraterrestrisch]])\n* erdgebunden – sich auf der Erde befindend bzw. dort stattfindend\n* landgestützt – zur [[Landfläche]] der Erde bzw. zu Anwendungen oder Prozessen gehörend, die sich auf dem Land (und nicht in der Luft oder auf oder im Wasser) abspielen",
+  "segments": [
+    {
+      "id": "252089540-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Eigenschaftswort '''terrestrisch''' beschreibt jene [[Methodik|Methoden]], Vorgänge, [[Daten]], Systeme, [[Werkzeug|Instrument]]e, [[Organismen]], [[Ablagerungsmilieu|Ablagerungen]] oder [[Gegenstand|Objekt]]e, die '''irdisch''', erdgebunden oder landgestützt sind:",
+      "plain": null
+    },
+    {
+      "id": "252089540-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "irdisch – sich auf den Planeten [[Erde]] ({{laS|terra}}) beziehend (Gegensatz: [[extraterrestrisch]])",
+      "plain": null
+    },
+    {
+      "id": "252089540-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "erdgebunden – sich auf der Erde befindend bzw. dort stattfindend",
+      "plain": null
+    },
+    {
+      "id": "252089540-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "landgestützt – zur [[Landfläche]] der Erde bzw. zu Anwendungen oder Prozessen gehörend, die sich auf dem Land (und nicht in der Luft oder auf oder im Wasser) abspielen",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 252089540,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": []
+  }
+}

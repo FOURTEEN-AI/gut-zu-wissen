@@ -1,0 +1,597 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.27
+      },
+      "jev_error": null,
+      "reason": "Die Prämisse der Frage, dass es ein Verschlüsselungsprotokoll namens Axolotl gibt, folgt aus dem Fakt-Satz über das Axolotl-Protokoll bei der Ende-zu-Ende-Verschlüsselung. Die Bemerkung, es klinge nach einem Scherz, ist ein persönliches Empfinden und braucht keinen Beleg."
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.98,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Das Axolotl-Protokoll wird bei der Ende-zu-Ende-Verschlüsselung eingesetzt, z. B. bei Signal; der frühere Name spielte auf den Schwanzlurch Axolotl an, der im Wasser lebt, vom Aussterben bedroht ist und außergewöhnliche Selbstheilungsfähigkeiten besitzt. Das einleitende „Ja, das gibt es“ ist eine belegfreie Reaktion. Zusätzliche Angaben gibt es nicht."
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Felix' Aussage, Selbstheilungsfähigkeiten klängen fast nach einem Superhelden, ist eine Reaktion (Staunen, Wertung ohne Faktengehalt). Die Prämisse, dass der Axolotl Selbstheilungsfähigkeiten hat, folgt aus dem Fakt-Satz. Die Frage danach, was er konkret heilen kann, ist eine Nachfrage. Es kommt keine unbelegte Angabe hinzu."
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.76
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen (Gliedmaßen, Organe, Teile des Gehirns und des Herzens wiederherstellen) stehen im Fakt-Satz 267769938-0033. „Erstaunlich viel“ ist eine Reaktion ohne Belegpflicht und fügt keine neue Information hinzu."
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.78
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur eine Reaktion (Staunen: \"Wahnsinn, das klingt fast unwirklich\") und eine Nachfrage (\"Hat man eigentlich schon im Erbgut nachgeschaut...?\"). Beides gilt als belegfrei, und es werden keine Behauptungen oder faktischen Prämissen aufgestellt, die Fakt-Sätze benötigen."
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.95,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Das Genom wurde entschlüsselt, hat 32 Milliarden Basenpaare und ist zehnmal so groß wie das menschliche Genom (0047). Dem Axolotl fehlt im Gegensatz zu anderen Salamandern das Gen Pax3 (0045). Es wird nichts Zusätzliches behauptet."
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Die Prämissen der Frage sind durch die Fakten gedeckt: Das Genom ist laut [267769938-0047] zehnmal so groß wie das menschliche, und laut [267769938-0045] fehlt dem Axolotl im Gegensatz zu anderen Salamandern das Gen Pax3. \"Erbgut\" und \"Genom\" sind hier austauschbar, \"unseres\" meint das menschliche Genom. Die Einleitung \"Moment, das müssen wir kurz sortieren\" und die Äußerung \"Das finde ich ziemlich verblüffend\" sind belegfreie Reaktionen bzw. ein Gefühl im Moment."
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.8
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Das Axolotl-Genom ist nach dem des Australischen Lungenfischs das größte bisher entschlüsselte (0047), und dem Axolotl fehlt im Gegensatz zu anderen Salamandern das Gen Pax3 (0045). „Das Genom ist riesig“ ist durch 32 Milliarden Basenpaare, zehnmal so groß wie das menschliche, gedeckt. „Ja, beides steht so fest“ ist eine Bestätigung ohne neue Information."
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.76
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Spannend\" ist eine Reaktion, \"Dann wechseln wir mal zum Äußeren\" eine Überleitung, und die Frage zur Verwandlung des Axolotls ist eine Nachfrage ohne faktische Prämisse. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.91,
+        "vollstaendig": 0.74
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Die Metamorphose lässt sich experimentell durch künstliche Gabe von Thyroxin herbeiführen, und es entsteht ein terrestrischer, lungenatmender Querzahnmolch. „Lebt an Land und atmet mit Lungen“ ist eine zulässige Umformulierung von „terrestrisch, lungenatmend“. „Er kann sich verwandeln, zumindest im Experiment“ fasst den Satz korrekt zusammen. Es gibt keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.61
+      },
+      "jev_error": null,
+      "reason": "Die Prämisse, dass ein Axolotl an Land gehen und mit Lungen atmen kann, folgt aus dem Fakt: Mit Thyroxin lässt sich die Metamorphose zu einem terrestrischen, lungenatmenden Querzahnmolch herbeiführen. \"Ein ganz anderes Tier\" ist eine staunende Wertung ohne eigene Zusatzangabe. Die Frage, ob das Hormon zwingend nötig ist, ist eine Nachfrage und braucht keinen Beleg."
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus dem Fakt-Satz 267769938-0031: Marie von Chauvin wies ab 1874 nach, dass die Metamorphose ohne Thyroxin durch geänderte Umweltbedingungen ausgelöst werden kann. Auguste Duméril beobachtete 1867 im Jardin des Plantes in Paris vereinzelte Tiere mit zurückgebildeten Kiemen. Der Einstieg \"Es geht auch anders\" ist eine Überleitung, und \"Dafür genügt eine Änderung der Umweltbedingungen\" paraphrasiert den Fakt."
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.47,
+        "vollstaendig": 0.75
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, dass 1867 Axolotl in Paris waren, folgt aus dem Fakt: Duméril beobachtete 1867 im Jardin des Plantes in Paris Tiere, deren Kiemen sich zurückgebildet hatten. Dass es sich um Axolotl handelt, ergibt sich aus dem Thema des Fakts. Die Frage nach dem Weg der Tiere nach Europa ist eine Nachfrage und braucht keinen Beleg. Zusätzliche Zahlen oder Namen kommen nicht vor."
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, dass Axolotl in Alkohol eingelegt als Kuriosität im Museum dienten, steht im Fakt-Satz (Pariser Naturkundemuseum, in Alkohol eingelegt, exotische Kuriosität). Dass damit die Geschichte des Axolotl in Europa begann, folgt daraus, weil Humboldt als Erster Axolotl nach Europa brachte. Die Frage nach Humboldt ist eine belegfreie Nachfrage."
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.36
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus dem Fakt-Satz 271991545-0009: Die Akademie würdigte ihn als „die erste wissenschaftliche Größe seines Zeitalters“, und sein Weltruhm überrage den von Leibniz. „Ein Mann von enormem Ansehen“ ist eine zusammenfassende Wertung, die dazu passt, und keine zusätzliche Angabe."
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.66
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Beeindruckend.“ ist eine Reaktion (Staunen) und die Frage nach dem Umgang der Menschen mit dem Axolotl in seiner Heimat ist eine Nachfrage. Die Frage setzt nur voraus, dass der Axolotl eine Heimat hat und dort Menschen leben. Das ist keine Behauptung, die einen Beleg bräuchte. Ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.78
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: Die mesoamerikanischen Ureinwohner fischten Axolotl, bei Festessen waren sie häufig ein Leckerbissen, und die Azteken sahen in ihm ein heiliges Tier. Die Wertung „bemerkenswert“ drückt nur den im Fakt-Satz enthaltenen Gegensatz („obwohl“) aus und fügt keine neue Angabe hinzu."
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Die Aussage über den Widerspruch zwischen heilig und Leckerbissen bei Festessen folgt direkt aus dem Fakt-Satz (Azteken sahen ihn als heiliges Tier, wurde dennoch gefischt und gegessen). Die Frage, ob er heute noch gegessen wird, ist eine Nachfrage und damit belegfrei."
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.75
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen decken sich mit dem Fakt-Satz: Zuchtexemplare werden unter der Bezeichnung Wooper Looper inzwischen auch frittiert als kulinarische Spezialität zum Verzehr angeboten. Der letzte Satz fasst das nur zusammen und fügt nichts Neues hinzu. Auch \"Es gibt ihn als Spezialität\" geht nicht über den Fakt hinaus."
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Frittiert, du liebe Zeit.“ ist eine Reaktion (Staunen), und „Und in der Natur, wie sieht es da aus?“ ist eine Nachfrage ohne neue Information oder Prämisse. Belege sind daher nicht nötig."
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.88,
+        "aussage_1": 0.97,
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "„Der Axolotl ist vom Aussterben bedroht“ folgt aus [265804978-0008] („vom Aussterben bedrohten … Schwanzlurch Axolotl“). Die Angabe zum Pressebericht vom Januar 2014 und zur viermonatigen Suche ohne frei lebende Axolotl entspricht [267769938-0116]. „Düster“ ist eine bloße Reaktion. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.56
+      },
+      "jev_error": null,
+      "reason": "Die Aussage \"Vier Monate Suche und kein einziger frei lebender Axolotl\" entspricht dem Fakt [267769938-0116] (viermonatige Suche, keine frei lebenden Axolotl gefunden). Die Frage, ob es ihn praktisch nur noch bei den Menschen gibt, ist eine Nachfrage, die keine zusätzliche Tatsachenbehauptung aufstellt, sondern die Aussage wieder aufgreift und weiterführt."
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 1.0,
+        "vollstaendig": 0.74
+      },
+      "jev_error": null,
+      "reason": "„In diese Richtung geht es.“ ist eine Überleitung und braucht keinen Beleg. Der zweite Satz gibt den Fakt-Satz fast wörtlich wieder. Der dritte Satz, die Tiere in Obhut seien „deutlich in der Überzahl“, ist nur eine Umformulierung von „sehr viel häufiger“ und fügt nichts Neues hinzu."
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.86,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, dass es sie im Heimtierhandel gibt, ist mit dem Fakt vereinbar. Er setzt Axolotl und Hybride im Heimtierhandel voraus und sagt nur, dass kaum noch genetisch ursprüngliche darunter sind. Die Frage, ob das noch die ursprünglichen Axolotl sind, ist eine Nachfrage ohne zusätzliche Behauptung."
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.77
+      },
+      "jev_error": null,
+      "reason": "Die Aussagen über die Ausbreitung der Hybride wegen attraktiverer Farbgebungen und darüber, dass vermutlich kaum noch genetisch ursprüngliche Axolotl im Heimtierhandel existieren, stehen so in Fakt 267769938-0085. Das einleitende „Eher nicht.“ ist eine belegfreie Reaktion bzw. Antwort ohne neue Tatsachenbehauptung."
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.73
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, dass die hübschere Farbe gewonnen hat und das Original im Handel kaum noch zu finden ist, folgt aus dem Fakt-Satz: Hybride mit attraktiveren Farbgebungen haben sich ausgebreitet, sodass vermutlich kaum noch genetisch ursprüngliche Axolotl im Heimtierhandel existieren. Die Formulierung \"hübschere Farbe\" gibt \"attraktivere Farbgebungen\" sinngemäß wieder. Die Frage nach der Lebensdauer ist eine belegfreie Nachfrage und enthält keine unbelegte Prämisse."
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.64
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag enthält keine Behauptung mit Faktengehalt. „Das ist eine ordentliche Spanne“ ist eine Reaktion, die das eben Gesagte aufgreift, ohne neue Information. „Wenn so ein Tier krank wird, was hilft dann?“ ist eine Nachfrage mit hypothetischer Prämisse, die keine belegbare Angabe macht."
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen direkt aus Fakt 267769938-0071: Erkrankte Axolotl genesen schneller bei auf 6 bis 8 °C abgekühltem Wasser, was ungefähr der Wintertemperatur ihrer Heimatseen entspricht. Der einleitende Satz \"Kälte kann helfen\" fasst das nur zusammen. Es kommen keine zusätzlichen Angaben hinzu."
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Die Aussage \"Kälte als Medizin, ungefähr so wie der Winter in den Heimatseen\" folgt aus dem Fakt: Erkrankte Axolotl genesen schneller bei auf 6 bis 8 °C abgekühltem Wasser, was etwa der Wintertemperatur ihrer Heimatseen entspricht. \"Das hat etwas\" ist eine subjektive Reaktion, und die Frage nach dem Speiseplan ist eine Nachfrage/Überleitung ohne Faktenbehauptung."
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.94,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen stehen fast wörtlich in den Fakt-Sätzen: Der Nachwuchs der eigenen Art gehört zum Nahrungsspektrum (0060), und der relativ umfangreiche Laich eines Weibchens wird meist von Artgenossen verzehrt (0078). Das zusätzliche Wort „außerdem“ ist nur eine Überleitung und fügt keine neue Angabe hinzu."
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "aussage_1": 0.9,
+        "vollstaendig": 0.74
+      },
+      "jev_error": null,
+      "reason": "„Sie fressen also den eigenen Nachwuchs“ folgt aus 0060 (Nachwuchs der eigenen Art gehört zum Nahrungsspektrum). „Der Laich landet meist bei den Artgenossen im Magen“ folgt aus 0078. „Das ist hart.“ ist ein Gefühl im Moment, und die Frage zur Kultur ist eine Überleitung ohne Faktenbehauptung."
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.77
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen des Redebeitrags stehen im Fakt-Satz: das Jahr 1931, Zuckmayers Schauspiel Der Hauptmann von Köpenick, die Schuhfabrik Axolotl, der Schuster und spätere Hauptmann Voigt, der vergeblich um Arbeit nachsucht, sowie die Anspielung auf Salamander, die ebenfalls nach einem Schwanzlurch benannt ist. Es kommen keine zusätzlichen Angaben hinzu."
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.93,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Die Aussage \"Ein Schuster, der später Hauptmann wird\" folgt aus dem Fakt-Satz, der Voigt als \"Schuster und spätere 'Hauptmann'\" bezeichnet. Die anschließende Frage \"Was hat der denn angestellt?\" ist eine Nachfrage und damit belegfrei. Es wird keine zusätzliche Angabe gemacht."
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.68
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen (Hochstapler Hauptmann von Köpenick, 16. Oktober 1906, als Hauptmann verkleidet mit einem Trupp gutgläubiger Soldaten ins Rathaus von Cöpenick bei Berlin eingedrungen, Bürgermeister verhaftet, Stadtkasse geraubt) stehen so in Fakt 272191328-0001; es kommt nichts Zusätzliches hinzu."
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.49
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Tatsachenbehauptung. „Das ist ja fast ein Krimi“ ist eine Reaktion im Moment (Staunen/Wertung ohne Faktengehalt), und die Frage nach Carl Zuckmayer ist eine Nachfrage. Sie setzt nur voraus, dass Zuckmayer der Autor des Stücks ist, was aber als Bezug auf das bereits Gesagte zählt und keine neue Information liefert. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.72
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Überleitung („Gut. Und heute?“) und einer Nachfrage zur Popkultur. Er enthält keine neue Behauptung und keine Prämisse mit Faktengehalt, deshalb sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.86,
+        "aussage_1": 0.97,
+        "aussage_2": 0.96,
+        "aussage_3": 1.0,
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Der frühere Protokollname spielte auf den Axolotl an (0008, 0132), Humboldt brachte Axolotl als exotische Kuriosität nach Europa (0009), der Axolotl ist vom Aussterben bedroht (0008), in Menschenobhut ist er sehr viel häufiger als im ursprünglichen Lebensraum (0110), und im Spiel AK-xolotl ist ein Axolotl mit einem Sturmgewehr bewaffnet (0137). Die Einleitung „Dann halten wir fest“ ist eine belegfreie Überleitung."
+    },
+    {
+      "turn_index": 41,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    }
+  ],
+  "used_fact_ids": [
+    "267769938-0132",
+    "265804978-0008",
+    "267769938-0033",
+    "267769938-0047",
+    "267769938-0045",
+    "267769938-0030",
+    "267769938-0031",
+    "267769938-0009",
+    "271991545-0009",
+    "267769938-0120",
+    "267769938-0123",
+    "267769938-0116",
+    "267769938-0110",
+    "267769938-0085",
+    "267769938-0081",
+    "267769938-0071",
+    "267769938-0060",
+    "267769938-0078",
+    "267769938-0124",
+    "272191328-0001",
+    "270707452-0004",
+    "267769938-0137"
+  ],
+  "cascade_checks": [
+    {
+      "conversation": 1,
+      "turn_index": 6,
+      "p": 0.64,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung behält die Aussage bei: Axolotl sind geschlechtsreif und äußerlich weiterhin Larven, und das ist der übliche Zustand. „Zeitlebens“ steckt in der Frage, ob es „für immer so bleiben muss“. Die Nachhelf-Frage bleibt ebenfalls erhalten. Sachlich gibt es keinen Unterschied."
+    },
+    {
+      "conversation": 1,
+      "turn_index": 19,
+      "p": 0.61,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung nennt nicht mehr, wer die Axolotl gefischt hat. Statt „Die mesoamerikanischen Ureinwohner“ steht nur „Sie“, ohne Bezugswort. Die Aussage, dass mesoamerikanische Ureinwohner Axolotl fischten, ist damit nicht mehr enthalten."
+    }
+  ],
+  "conversation": 2,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 5,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 5,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.78,
+          "aussage_1": 0.93,
+          "vollstaendig": 0.51
+        },
+        "jev_error": null,
+        "reason": "Der Satz „Metamorphose heißt: die Verwandlung vom Jungtier zum erwachsenen Tier“ ist eine Definition, die in keinem der Fakt-Sätze steht, und gilt deshalb als nicht belegt. Die übrigen Aussagen (Geschlechtsreife ohne Änderung der Larvengestalt, keine bei Amphibien übliche Metamorphose, zeitlebens Larvengestalt, Begriff Neotenie) folgen aus den Fakten 267769938-0007 und 238004702-0001."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 6,
+      "version": 0,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 6,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.71
+        },
+        "jev_error": null,
+        "reason": "Die Aussage \"geschlechtsreif und trotzdem äußerlich eine Larve\" folgt aus [267769938-0007]. Die Frage, ob das für alle Zeiten so bleibt oder ob man nachhelfen kann, ist eine Nachfrage. Ihre Prämisse, dass Axolotl ihre Larvengestalt üblicherweise behalten, stützt [238004702-0001]. Dass man sie experimentell zur Metamorphose bringen kann, behauptet Felix nicht, er fragt nur danach. Es gibt keine unbelegte zusätzliche Angabe."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 18,
+      "version": 0,
+      "replaced_by": 2,
+      "judgement": {
+        "turn_index": 18,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.54
+        },
+        "jev_error": null,
+        "reason": "Die Frage setzt voraus, dass es Menschen gab, die den Axolotl „schon viel länger kannten“. Das ist eine sachliche Prämisse, und es sind keine Fakt-IDs zitiert, die sie stützen. „Das ist ein stolzer Beiname“ wäre für sich genommen eine Reaktion, aber die Prämisse der Frage macht den Beitrag insgesamt unbelegt."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 19,
+      "version": 0,
+      "replaced_by": 3,
+      "judgement": {
+        "turn_index": 19,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    }
+  ]
+}
