@@ -1,6 +1,7 @@
 """Delayed automatic publication (phase 3, user decision 2026-11-20).
 
-A completed episode waits `hold_hours` after the end of its run so the owner can intervene; then it
+A completed episode is published at a fixed time of the day (the schedule of `auto-publish.yml`,
+10:00 UTC) if its run ended at least `min_age_hours` before; the owner can intervene until then. It
 is published without further action, unless something stops it:
 
 - the review issue carries the label `hold_label` (the owner's brake; remove the label to release),
@@ -9,7 +10,8 @@ is published without further action, unless something stops it:
 
 `python -m gut_zu_wissen.autopublish` prints the verdict per completed episode and writes the first
 due one (oldest first) as the step outputs `episode_id` and `run_id` for the workflow, which then
-runs the same steps as `publish.yml`. One episode per run; the hourly schedule takes the next one.
+runs the same steps as `publish.yml`. One episode per run; with a backlog the next one follows on
+the next day (or by a manual run).
 """
 
 from __future__ import annotations
@@ -50,7 +52,7 @@ def verdict(
     review: Mapping | None,
     labels: list[str],
     now: datetime,
-    hold_hours: float,
+    min_age_hours: float,
     hold_label: str,
 ) -> Verdict:
     """Whether the episode is due for automatic publication, and why (not) (pure)."""
@@ -65,16 +67,16 @@ def verdict(
         return Verdict(eid, False, f"held (label '{hold_label}' on the review issue)")
     if review and review.get("outcome") == "error":
         return Verdict(eid, False, "the review found an error; publish by hand")
-    ready = parse_timestamp(record.finished_at) + timedelta(hours=hold_hours)
+    ready = parse_timestamp(record.finished_at) + timedelta(hours=min_age_hours)
     if now < ready:
-        return Verdict(eid, False, f"waiting until {ready.isoformat()}")
+        return Verdict(eid, False, f"too recent: ready from {ready.isoformat()}")
     return Verdict(eid, True, "due", record.audio_run_id)
 
 
 def find_due(
     archive_root: Path,
     now: datetime,
-    hold_hours: float,
+    min_age_hours: float,
     hold_label: str,
     issues: LabelReader | None,
     log: Callable[[str], None] = print,
@@ -90,7 +92,7 @@ def find_due(
         review = read_json(folder / REVIEW_FILE) if (folder / REVIEW_FILE).exists() else None
         number = review.get("issue") if review else None
         labels = issues.labels(number) if issues and isinstance(number, int) else []
-        result = verdict(record, review, labels, now, hold_hours, hold_label)
+        result = verdict(record, review, labels, now, min_age_hours, hold_label)
         log(f"{result.episode_id}: {'DUE' if result.due else 'not due'} ({result.reason})")
         if result.due:
             return result
@@ -105,7 +107,7 @@ def main() -> int:
     repository, token = os.environ.get("GITHUB_REPOSITORY"), os.environ.get("GITHUB_TOKEN")
     issues = HttpIssues(repository, token) if repository and token else None
     due = find_due(
-        ARCHIVE_ROOT, datetime.now(UTC), config["hold_hours"], config["hold_label"], issues
+        ARCHIVE_ROOT, datetime.now(UTC), config["min_age_hours"], config["hold_label"], issues
     )
     if due:
         write_step_output("episode_id", due.episode_id)

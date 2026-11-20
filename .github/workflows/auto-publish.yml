@@ -1,14 +1,15 @@
 name: Auto-publish
 
-# Phase 3 (user decision 2026-11-20): the daily episode is published automatically after a hold
-# time, so the owner can intervene first (`[publishing]` in the config). Hourly, this finds the
-# oldest completed episode that is due (`gut_zu_wissen.autopublish`: hold time over, no `hold`
+# Phase 3 (user decision 2026-11-20): the daily episode is published automatically at a fixed time
+# of the day, so the owner can intervene first (`[publishing]` in the config). Once a day at 10:00
+# UTC this finds the oldest completed episode that is due (`gut_zu_wissen.autopublish`: ended at
+# least `min_age_hours` ago, no `hold`
 # label on its review issue, no error in the review) and publishes it with the same steps as
 # `publish.yml`. Nothing due: the run ends after the first step. Hold an episode by putting the
 # label `hold` on its review issue; remove the label to release it.
 on:
   schedule:
-    - cron: "7 * * * *"
+    - cron: "0 10 * * *"
   workflow_dispatch:
 
 # Same group as the episode workflow: archive commits never overlap.

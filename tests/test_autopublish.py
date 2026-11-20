@@ -25,14 +25,14 @@ def check(rec=None, review=None, labels=(), now=NOW, hours=6.0):
     return verdict(rec or record(), review, list(labels), now, hours, "hold")
 
 
-def test_episode_is_due_after_the_hold_time():
+def test_episode_is_due_when_old_enough():
     result = check()
     assert result.due and result.run_id == "123"
 
 
-def test_episode_waits_during_the_hold_time():
+def test_episode_that_ended_too_recently_waits():
     result = check(now=datetime(2026, 11, 21, 11, 29, tzinfo=UTC))
-    assert not result.due and "waiting until 2026-11-21T11:30:00" in result.reason
+    assert not result.due and "too recent: ready from 2026-11-21T11:30:00" in result.reason
 
 
 def test_hold_label_stops_the_publication_and_removing_it_releases():

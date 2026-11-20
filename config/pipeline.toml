@@ -142,13 +142,14 @@ gemini_tts_input = 0.50                #  USD per million text tokens; 1.00 from
 gemini_tts_output = 9.00               #  USD per million audio tokens; 18.00 from 2027-01-01
 
 [publishing]
-# Automatic publication of the daily episode (phase 3, user decision 2026-11-20): the episode
-# waits `hold_hours` after the end of its run, so the owner can intervene; then the hourly
-# `Auto-publish` workflow publishes it. The owner holds an episode by putting the label
+# Automatic publication of the daily episode (phase 3, user decision 2026-11-20): the
+# `Auto-publish` workflow runs once a day at a fixed time (10:00 UTC, 11:00 German winter time) and
+# publishes the episode if its run ended at least `min_age_hours` before; so the owner can
+# intervene until then. An episode that ends later waits for the next day. The owner holds an episode by putting the label
 # `hold_label` on its review issue (remove it to release). An episode whose review found an error
-# is never published automatically. ASSUMPTION: 6 hours (ready around 6 o'clock German time,
-# published around noon); see docs/phase3-assumptions.md.
-hold_hours = 6
+# is never published automatically. ASSUMPTION: 2 hours (the daily run ends around 5 to 6 o'clock
+# German time); see docs/phase3-assumptions.md.
+min_age_hours = 2
 hold_label = "hold"
 
 [hosting]

@@ -98,7 +98,7 @@ All items ✅ done in code (2026-11-20; `gut_zu_wissen.daily`, `gut_zu_wissen.au
 - Gate failures (living person, recent episode, too few facts) and used-up budgets → substitute article. ✅
 - Substitute article: random from Exzellent/Lesenswert (`Kategorie:Wikipedia:Exzellent`, `Kategorie:Wikipedia:Lesenswert`), seeded with the date, living-person and recent-episode gates checked before selection, max 2 (`substitute_articles_max`), otherwise the episode is dropped. ✅
 - Jev abort: escalation and the episode is dropped, no substitute. ✅ A dropped episode or a crash fails the workflow run; GitHub mails the owner.
-- Delayed automatic publication (decided 2026-11-20): the episode waits `hold_hours` (config `[publishing]`, 6) after its run, then `auto-publish.yml` (hourly) publishes it. The owner holds it with the label `hold` on the review issue; an episode whose review found an error is never published automatically. ✅
+- Delayed automatic publication (decided 2026-11-20): `auto-publish.yml` publishes the episode once a day at a fixed time (10:00 UTC) if its run ended at least `min_age_hours` (config `[publishing]`, 2) before. The owner holds it with the label `hold` on the review issue; an episode whose review found an error is never published automatically. ✅
 
 ## Decisions
 

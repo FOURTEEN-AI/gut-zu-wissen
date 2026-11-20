@@ -50,7 +50,7 @@ It reruns sections, TTS, STT verification and normalisation on the archived fina
 ## Publishing and the daily run
 
 - **By hand:** the Publish workflow (`publish.yml`) takes an episode ID and the ID of the run that produced the audio and publishes the episode to the Internet Archive; the Pages workflow then rebuilds the site and the RSS feed.
-- **Daily (phase 3):** the Daily workflow (`daily.yml`, cron `17 3 * * *` UTC) runs the German Wikipedia's article of the day (`python -m gut_zu_wissen.daily`; substitutes from the featured and recommended articles after a failure, at most two). The Auto-publish workflow (`auto-publish.yml`, hourly) publishes the episode 6 hours after its run (`[publishing]` in the config). To stop it, put the label `hold` on the episode's review issue; remove the label to release it. An episode whose review found an error is never published automatically. A dropped episode or a crash fails the workflow run, and GitHub sends the usual mail about it.
+- **Daily (phase 3):** the Daily workflow (`daily.yml`, cron `17 3 * * *` UTC) runs the German Wikipedia's article of the day (`python -m gut_zu_wissen.daily`; substitutes from the featured and recommended articles after a failure, at most two). The Auto-publish workflow (`auto-publish.yml`, once a day at 10:00 UTC) publishes the episode if its run ended at least 2 hours before (`[publishing]` in the config); a later one waits for the next day. To stop it, put the label `hold` on the episode's review issue; remove the label to release it. An episode whose review found an error is never published automatically. A dropped episode or a crash fails the workflow run, and GitHub sends the usual mail about it.
 
 ## GitHub secrets
 
