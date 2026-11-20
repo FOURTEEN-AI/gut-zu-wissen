@@ -1,5 +1,9 @@
+import pytest
+
 from gut_zu_wissen.dialog import (
     DIALOG_SCHEMA,
+    SYSTEM_PROMPT,
+    TURN_PROMPT,
     TURN_SCHEMA,
     Statement,
     Turn,
@@ -132,3 +136,26 @@ def test_regenerate_turn_keeps_index_and_speaker_and_uses_turn_schema():
     assert (new.index, new.speaker, new.text, new.fact_ids) == (1, "Felix", "Neu.", ["1-0000"])
     _, user, schema = llm.calls[0]
     assert schema is TURN_SCHEMA and "[1-0000] Fakt." in user and "Grund." in user
+
+
+@pytest.mark.parametrize("prompt", [SYSTEM_PROMPT, TURN_PROMPT])
+@pytest.mark.parametrize(
+    "rule",
+    [
+        # (a) only the cited fact sentence, never the context
+        "Sage nur, was der zitierte Fakt-Satz selbst sagt.",
+        "was nur im Kontext steht, sprichst du nie aus",
+        # (b) question premises referring back carry fact IDs
+        "Jede Frage, deren Prämisse sich auf zuvor Gesagtes bezieht",
+        "„Wofür stand der Axolotl in diesem Film?“",
+        # (c) reactions without fact IDs repeat no numbers, names or facts
+        "Eine Reaktion ohne Fakt-IDs wiederholt keine Zahlen, Namen oder Fakten",
+        "„Vier Monate Suche und kein einziger Fund.“ ohne Fakt-IDs",
+        # (d) no generalisations beyond the fact sentence
+        "Lena verallgemeinert nicht über den Fakt-Satz hinaus.",
+        "„Es gibt keine Zellen, die einfach alles werden“",
+        "„Auf diese Eigenschaft wurde mit dem Namen angespielt“",
+    ],
+)
+def test_author_prompts_contain_the_fidelity_rules(prompt, rule):
+    assert rule in prompt

@@ -53,6 +53,8 @@ Regeln:
 - Jede Behauptung, jede Meinung und jede Prämisse einer Frage braucht Fakt-IDs. Gib sie als \
 eigene Einträge in „statements“ an, jeweils mit dem Satz in eigenen Worten und den IDs der \
 Fakten, die ihn tragen. Eine Aussage, die nur im Kontext steht, ist nicht belegt.
+- Sage nur, was der zitierte Fakt-Satz selbst sagt. Kontextsätze dienen nur dem Verständnis; \
+was nur im Kontext steht, sprichst du nie aus.
 - „fact_ids“ eines Redebeitrags enthält alle Fakt-IDs, die in ihm vorkommen.
 - Erfinde keine IDs. Verwende nur IDs aus der Liste.
 - Beide Personen machen keine Aussagen über sich selbst: keine Erlebnisse, keine Biografie, \
@@ -62,11 +64,18 @@ kein Beruf, kein Wohnort, keine Vorlieben, kein „Das kenne ich“.
 eben Gesagten ohne neue Information. Nicht erlaubt sind: neue Information, Wertungen mit \
 Faktengehalt („das größte …“), Ankündigungen mit Inhalt, Aussagen über sich selbst über den \
 Moment hinaus. Variiere die Reaktionen.
+- Eine Reaktion ohne Fakt-IDs wiederholt keine Zahlen, Namen oder Fakten; wer das tut, fasst \
+zusammen und braucht Fakt-IDs. Abgelehnt wird etwa Felix: „Vier Monate Suche und kein einziger \
+Fund.“ ohne Fakt-IDs.
 - Felix stellt Fragen aus Hörersicht, fasst Gehörtes in eigenen Worten zusammen (dann mit \
 Statements und Fakt-IDs) und leitet zum nächsten Fakt über. Prämissen in seinen Fragen müssen \
 belegt sein.
+- Jede Frage, deren Prämisse sich auf zuvor Gesagtes bezieht, etwa „Wofür stand der Axolotl in \
+diesem Film?“, trägt die Fakt-IDs der Fakten hinter dieser Prämisse.
 - Lena erzählt kurze bis mittellange Sätze, erst die Kernaussage, dann das Detail. Zahlen \
 schreibst du aus, wie sie gesprochen werden. Fachbegriffe nur mit Erklärung aus den Fakten.
+- Lena verallgemeinert nicht über den Fakt-Satz hinaus. Abgelehnt werden etwa „Es gibt keine \
+Zellen, die einfach alles werden“ und „Auf diese Eigenschaft wurde mit dem Namen angespielt“.
 - Schreibe reinen Text zum Sprechen: kein Markup, keine Aufzählungszeichen, keine Klammern mit \
 Quellenangaben, keine Regieanweisungen.
 - Ein Redebeitrag reicht bis zum Sprecherwechsel. Die beiden sprechen abwechselnd, aber nicht \
