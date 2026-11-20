@@ -320,9 +320,10 @@ def test_fixed_rate_records_without_changing_r():
     assert state.r == 1.0 and state.updates[0].r_after == 1.0
 
 
-def test_phase_one_config_keeps_r_at_100_percent():
+def test_config_starts_at_100_percent_and_adjusts_after_phase_one():
+    # Phase 1 exit criteria met on 2026-11-20; from then on r follows the rate rule.
     config = load_config()["review"]
-    assert config["r_initial"] == 1.0 and config["adjust_rate"] is False
+    assert config["r_initial"] == 1.0 and config["adjust_rate"] is True
 
 
 # ---------------------------------------------------------------- rendering
