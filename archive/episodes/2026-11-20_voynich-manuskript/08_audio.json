@@ -1,0 +1,371 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Lena": "de-de-advisor-3",
+    "Felix": "de-de-tutor-4"
+  },
+  "section_max_chars": 6000,
+  "stt_model": "large-v3",
+  "section_retries": 2,
+  "sections": [
+    {
+      "index": 0,
+      "turn_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "chars": 5493,
+      "file": "sections/00.flac",
+      "seconds": 319.52,
+      "input_tokens": 1301,
+      "output_tokens": 7988,
+      "usd": 0.0725,
+      "verified": true,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seconds": 319.52,
+          "input_tokens": 1301,
+          "output_tokens": 7988,
+          "usd": 0.0725,
+          "transcript": "Lena, heute sprechen wir über das Voynich-Manuskript. Starten wir mit einer ganz einfachen Frage. Wie alt ist dieses Manuskript eigentlich? Dazu gibt es eine Radiocarbon-Analyse. Sie konnte das Alter des verwendeten Pergaments mit großer Wahrscheinlichkeit auf den Zeitraum zwischen 1404 und 1438 bestimmen. Zur Klarstellung, Pergamentpapier ist Papier aus Zellstoff. Es darf nicht mit Pergament aus Tierhäuten verwechselt werden. Radiocarbon-Analyse klingt nach einem Labor voller Geräte. Wie funktioniert das Prinzip dahinter? Es geht um den normalen Anteil an C14. Dieser Anteil ist trotz des ständigen Zerfalls nahezu konstant. Der Grund? C14 wird in der oberen Atmosphäre ständig neu gebildet. Verstanden. Der normale Anteil bleibt nahezu konstant, weil oben in der Atmosphäre ständig Nachschub entsteht. Das reicht für den technischen Teil. Jetzt aber zum Inhalt. Was ist auf den Seiten eigentlich abgebildet? Beginnen wir mit einem Abschnitt, der als der sowohl rätselhafteste als auch faszinierendste des Manuskripts beschrieben wird. Auf fast jeder Seite zeigt er Gruppen nackter Frauen mit gewölbten Bäuchen. Die Frauen sitzen in Becken oder Wannen. Diese sind durch Leitungen oder Röhren miteinander verbunden. Nackte Frauen in Wannen? Verbunden durch Röhren? Was für ein Bild! Gibt es auch Seiten mit Motiven, die man leichter einordnen kann? Ja, es gibt Sternzeichen. Direkt bei den Sternzeichenfiguren stehen romanische Monatsnamen in lateinischen Buchstaben. Bei den Fischen steht zum Beispiel Mars, beim Weder Abril. Die Darstellungen von Wassermann und Steinbock fehlen. Sie befanden sich vermutlich auf dem fehlenden Blatt 74. Ein fehlendes Blatt? Ist das Manuskript also gar nicht vollständig? Nein, es fehlt etwas. Zum heutigen Zeitpunkt besteht das Manuskript nicht mehr aus 116, sondern nur noch aus 102 Blättern. Es sind also Blätter verschwunden, die einmal dazugehörten. Weiß man denn, wem das Manuskript früher gehörte? Dazu gibt es eine Beobachtung von Gusi. Nach ihm war ein bestimmter Verkauf die einzige Transaktion dieser Größenordnung in der gesamten Regierungszeit von Rudolf II. Die Summe entspricht außerdem der Ankaufssumme, die im Brief von Marci genannt wird. Deshalb dürfte das Voynich-Manuskript mit diesem Verkauf gemeint gewesen sein. Also gab es unter Rudolf II. nur diesen einen Verkauf in dieser Größe. Und die Summe passt zum Brief von Marzi. Und wie ging es mit dem Manuskript weiter? Hier gibt es eine große Lücke. Was in den über 200 Jahren zwischen 1666 und 1870 mit dem Manuskript geschah, ist bislang unbekannt. Über 200 Jahre, über die man nichts weiß. Das ist eine ganze Menge Zeit. Wie kam das Manuskript dann bis zur Yale-Universität? Dazu gibt es konkrete Angaben. 1961 wurde das Manuskript für 25.000 US-Dollar an den Buchhändler Hans-Peter Kraus verkauft. Kraus wollte es gewinnbringend weiterverkaufen, fand jedoch keinen Käufer. Schließlich stiftete er das Manuskript 1969 der Yale-Universität. Dort gehört es heute zum Bestand der Beinecke Rare Book and Manuscript Library. Ein Buchhändler findet keinen Käufer und am Ende steht eine Schenkung an Yale. Nun zur großen Frage. Wie hat man versucht, den Text zu entziffern? Da geht es um die Mikroschrift bei Newboat. Der eigentliche Inhalt des Manuskripts sollte in mikroskopisch kleinen Unregelmäßigkeiten der Voynich-Zeichen versteckt sein. Der Text soll also in winzigen Unregelmäßigkeiten der Zeichen stecken. Und was kam bei dieser Lesung heraus? Das Resultat bestätigte ihm die Urheberschaft Bacons. Darüber hinaus verriet es angeblich auch, dass Bacon nicht nur über ein Mikroskop verfügt habe. Ihm sei außerdem schon die Spiralstruktur des Andromedanebels bekannt gewesen. Wow, ein Mikroskop und der Andromedanebel. Hat jemand dieses Ergebnis überprüft? Ja, ein Kritiker. Er zeigte, dass die Mikroschrift nur in der Fantasie Newballs vorhanden war. Bei den vermeintlichen Kürzeln handelte es sich vielmehr um Unregelmäßigkeiten. Sie entstanden beim Auftrag und beim Abblättern der Tinte auf dem rauen Schreibmaterial. Abgeblätterte Tinte statt Geheimerschrift. Und das Verfahren, das Newbold benutzt hat, war das wenigstens sauber? Der Kritiker wies darauf hin, dass Newbolds Verfahren eine sichere Wiederherstellung eines Originaltextes gar nicht zuließ. Der Dechiffrierer musste den Inhalt schon kennen. Bei Newbold war das der Fall. Er fand genau das, was er zu finden hoffte. Er hat also im Grunde seine eigene Erwartung gelesen. Gab es noch andere Übersetzungsversuche? Ja, einen von Hannig. Einer seiner ersten Übersetzungsversuche liefert eine Krankengeschichte. Ein Bauer bekam nach dem Verzehr einer Suppe Verdauungsprobleme. Seine Umgebung wehklagt und er sucht einen Arzt auf. Der kann ihm aber auch nicht helfen. Bei Newbold ging es um Bacon und den Andromedanebel, bei Hannig um einen Bauern und eine Suppe. Gibt es Verfahren, mit denen man Verschlüsselungen systematisch knacken kann? Bei einer einfachen Verschlüsselung gibt es eines. Sie könnte bei der vorhandenen Textmenge aufgrund von Häufigkeitsanalysen auch ohne Computer dechiffriert werden. Edgar Allan Poe führt das in seiner Erzählung Der Goldkäfer vor. Häufigkeitsanalysen reichen also. Auch ohne Computer. Und Poe zeigt es in Der Goldkäfer. Aber was, wenn der Text gar keine Botschaft enthält?",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "Radiokarbonanalyse",
+              "heard": "Radiocarbon Analyse",
+              "context_before": "Manuskript eigentlich Dazu gibt es eine",
+              "context_after": "Sie konnte das Alter des verwendeten",
+              "changes_statement": false,
+              "reason": "Nur andere Schreibweise von Radiokarbonanalyse; gleiche Bedeutung."
+            },
+            {
+              "index": 1,
+              "expected": "Radiokarbonanalyse",
+              "heard": "Radiocarbon Analyse",
+              "context_before": "mit Pergament aus Tierhäuten verwechselt werden",
+              "context_after": "klingt nach einem Labor voller Geräte",
+              "changes_statement": false,
+              "reason": "Nur andere Schreibweise von Radiokarbonanalyse; gleiche Bedeutung."
+            },
+            {
+              "index": 2,
+              "expected": "",
+              "heard": "aber",
+              "context_before": "reicht für den technischen Teil Jetzt",
+              "context_after": "zum Inhalt Was ist auf den",
+              "changes_statement": false,
+              "reason": "Das Wort „aber“ ist ein inhaltsleeres Füllwort und ändert die Aussage nicht."
+            },
+            {
+              "index": 3,
+              "expected": "Widder",
+              "heard": "Weder",
+              "context_before": "Fischen steht zum Beispiel mars beim",
+              "context_after": "abril Die Darstellungen von Wassermann und",
+              "changes_statement": false,
+              "reason": "„Weder“ klingt fast gleich wie „Widder“; Hörfehler der Spracherkennung, kein Fehler der Synthese."
+            },
+            {
+              "index": 4,
+              "expected": "Guzy",
+              "heard": "Gusi",
+              "context_before": "Dazu gibt es eine Beobachtung von",
+              "context_after": "Nach ihm war ein bestimmter Verkauf",
+              "changes_statement": false,
+              "reason": "„Gusi“ klingt deutsch fast gleich wie „Guzy“ (z wird als ts, y als i gesprochen); Hörfehler bei einem Namen."
+            },
+            {
+              "index": 5,
+              "expected": "dem Zweiten",
+              "heard": "II",
+              "context_before": "in der gesamten Regierungszeit von Rudolf",
+              "context_after": "Die Summe entspricht außerdem der Ankaufssumme",
+              "changes_statement": false,
+              "reason": "„Rudolf II.“ ist die Schreibweise von „Rudolf der Zweite“; gleiche Aussprache und Bedeutung."
+            },
+            {
+              "index": 6,
+              "expected": "dem Zweiten",
+              "heard": "II",
+              "context_before": "sein Also gab es unter Rudolf",
+              "context_after": "nur diesen einen Verkauf in dieser",
+              "changes_statement": false,
+              "reason": "„Rudolf II.“ ist die Schreibweise von „Rudolf der Zweite“; gleiche Aussprache und Bedeutung."
+            },
+            {
+              "index": 7,
+              "expected": "Marci",
+              "heard": "Marzi",
+              "context_before": "die Summe passt zum Brief von",
+              "context_after": "Und wie ging es mit dem",
+              "changes_statement": false,
+              "reason": "„Marzi“ klingt fast gleich wie „Marci“ (c wird als z gesprochen); gleich klingende Schreibweise des Namens."
+            },
+            {
+              "index": 8,
+              "expected": "Newbold",
+              "heard": "Newboat",
+              "context_before": "geht es um die Mikroschrift bei",
+              "context_after": "Der eigentliche Inhalt des Manuskripts sollte",
+              "changes_statement": false,
+              "reason": "„Newboat“ klingt fast gleich wie „Newbold“; Hörfehler bei einem Namen."
+            },
+            {
+              "index": 9,
+              "expected": "Phantasie Newbolds",
+              "heard": "Fantasie Newballs",
+              "context_before": "dass die Mikroschrift nur in der",
+              "context_after": "vorhanden war Bei den vermeintlichen Kürzeln",
+              "changes_statement": false,
+              "reason": "„Fantasie“ ist nur eine andere Schreibweise von „Phantasie“; „Newballs“ klingt fast gleich wie „Newbolds“, Hörfehler beim Namen."
+            },
+            {
+              "index": 10,
+              "expected": "geheimer Schrift",
+              "heard": "Geheimerschrift",
+              "context_before": "dem rauen Schreibmaterial Abgeblätterte Tinte statt",
+              "context_after": "Und das Verfahren das Newbold benutzt",
+              "changes_statement": false,
+              "reason": "Nur Zusammenschreibung von „geheimer Schrift“; gleiche Aussprache."
+            },
+            {
+              "index": 11,
+              "expected": "Ha",
+              "heard": "",
+              "context_before": "kann ihm aber auch nicht helfen",
+              "context_after": "Bei Newbold ging es um Bacon",
+              "changes_statement": false,
+              "reason": "„Ha“ ist eine inhaltsleere Interjektion; ihr Fehlen ändert die Aussage nicht."
+            }
+          ],
+          "changes_statement": false,
+          "action": "accept"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "turn_indices": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "chars": 5608,
+      "file": "sections/01.flac",
+      "seconds": 334.08,
+      "input_tokens": 1356,
+      "output_tokens": 8352,
+      "usd": 0.0758,
+      "verified": true,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seconds": 334.08,
+          "input_tokens": 1356,
+          "output_tokens": 8352,
+          "usd": 0.0758,
+          "transcript": "Dafür gibt es die Schabernack-Hypothese. Sie wird auch durch eine Textanalyse des österreichischen Wissenschaftlers Andreas Schinner gestützt. Er entdeckte unnatürliche Regelmäßigkeiten in der Wortfolge des Manuskripts. Solche Regelmäßigkeiten kommen in Texten, die in natürlichen Sprachen verfasst sind, nicht vor. Unnatürliche Regelmäßigkeiten, die in natürlichen Sprachen nicht vorkommen. Gibt es weitere Auffälligkeiten im Text? Ja. Unmittelbare Wiederholungen des gleichen Wortes oder kleinere Varianten erscheinen mit ungewöhnlicher Häufigkeit. Die unnatürlichen Regelmäßigkeiten stützen also die Schabernack-Hypothese. Gibt es auch Hinweise in die andere Richtung? Es gibt einen. Das Fehlen von Korrekturen ist ein Indiz dafür, dass eine Vorlage des Textes existierte, von der abgeschrieben wurde. Keine Korrekturen, also vermutlich abgeschrieben. Kommen wir noch einmal zur Datierung zurück. Gibt es außer dem Pergament weitere Anhaltspunkte, wann das Manuskript entstanden ist? Ja, bei den Pflanzen. Bei zwei Identifizierungen war bemerkenswert, dass beide Gewächse in der alten Welt vor Kolumbus nicht heimisch waren. Das Manuskript könnte demnach erst nach 1493 entstanden sein. Moment, das Pergament stammt aus der Zeit zwischen 1404 und 1438. Und die Pflanzen deuten auf eine Entstehung erst nach 1493. Wie passt das zusammen? Dazu gibt es noch einen weiteren Anhaltspunkt. Auf einer Abbildung ist offenbar ein Vulkanausbruch auf einer Insel zu sehen. Der einzige Vulkanausbruch in Europa bzw. im Mittelmeerraum, der in etwa in die Entstehungszeit des Manuskripts fällt, fand 1444 auf der Insel Vulcanello statt. Die liegt nördlich von Sizilien. Sizilien stand damals unter aragonesischer Herrschaft. Ein Vulkan auf einer Insel nördlich von Sizilien. Und die Pflanzen, die in der alten Welt vor Kolumbus nicht heimisch waren. Gibt es eine Idee, wo das Manuskript entstanden sein könnte? Eine Überlegung lautet, dass das Manuskript in Mittelamerika gezeichnet und in einer mittelamerikanischen Sprache geschrieben wurde. Möglicherweise wäre das eine Sprache, die heute nicht mehr gesprochen wird. Mittelamerika. Und eine Sprache, die vielleicht niemand mehr spricht. Und die Bilder? Hat jemand versucht, aus ihnen etwas herauszulesen? Ja, zwei Kunsthistoriker. Zur Textentzifferung können sie nichts beitragen. Sie erkennen aber in der Abfolge der Bilder ein klares Anliegen. Es sei ein Plädoyer für die Sprösslinge des Adels, die mit Frauen aus dem Volk gezeugt wurden. Die sogenannten Bastarde. Ein Plädoyer für die Sprösslinge des Adels, gezeugt mit Frauen aus dem Volk. Was für eine Deutung. Taucht das Manuskript eigentlich auch in der Literatur auf? Ja. In einer Erzählung von Wilson entpuppt sich das Voynich-Manuskript als unvollständige Kopie des Necronomikons. Das Necronomikon erscheint in den Erzählungen von H.P. Lovecraft erstmals 1922 in der Erzählung The Hound. Das war zwei Jahre, nachdem Voynich Kopien an interessierte Forscher versandt hatte. Und es war ein Jahr, nachdem die ersten Ergebnisse von Voynich und Newbold durch Vorträge in Philadelphia publik gemacht worden waren. Das Necronomicon taucht also erstmals ein Jahr nach den Vorträgen in Philadelphia auf. Gibt es weitere Spuren des Manuskripts in der Kultur? Ja, zwei. Bei Dan Simmons gibt es die Romane Ilium von 2004 und Olympos von 2006. Der Name der Voynix leitet sich vom Voynich-Manuskript her. Das sind vom islamischen Kalifat aus der Zukunft gesandte Cyborg-Killer. Und der Schweizer Komponist Hans-Peter Kübutz schrieb ein Stück, das auf dem Voynich-Text basiert. Es heißt The Voynich Cipher Manuscript und ist für 24 Singstimmen und Ensemble geschrieben. Dabei interpretierte er die Voynich-Zeichen als Noten. Cyborg-Killer und Singstimmen, beides aus einem Manuskript. Wow! Kann man das Manuskript eigentlich nachgebildet bekommen? Es gab ein Vorhaben. Der auf alte Schriften spezialisierte Silouet-Verlag aus Burgos in Spanien wollte bis Herbst 2017 898 originalgetreue Nachbildungen produzieren. Das sollte in einem aufwendigen Verfahren geschehen. Verkauft werden sollten sie zum Stückpreis von 7.000 bis 8.000 Euro. Allgemein bieten Faximile die Möglichkeit, Handschriften, die später zerteilt wurden und heute auf verschiedene Standorte verteilt sind, wie etwa das Lorcher Evangeliar, zumindest in der Nachbildung originalgetreu wieder zusammenzufügen. Das war eine Menge Stoff. Magst du das Wichtigste noch einmal zusammenfassen? Gern. Das Pergament wurde mit großer Wahrscheinlichkeit auf die Zeit zwischen 1404 und 1438 datiert. Dagegen stehen zwei Pflanzen, die in der alten Welt vor Kolumbus nicht heimisch waren. Danach könnte das Manuskript erst nach 1493 entstanden sein. Heute besteht es nur noch aus 102 statt 116 Blättern. Nach Guzzi dürfte ein Verkauf unter Rudolf II. gemeint sein. Was zwischen 1666 und 1870 geschah, ist unbekannt. Krauss stiftete das Manuskript 1969 der Jell-Universität. Newbolds Mikroschrift war nur in seiner Fantasie vorhanden. Sein Verfahren ließ keine sichere Wiederherstellung zu. Schinners Regelmäßigkeiten stützen die Schabernack-Hypothese, während fehlende Korrekturen auf eine Vorlage hindeuten. Und das Manuskript hat Autoren wie Simmons und den Komponisten Küburz beschäftigt.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "beziehungsweise",
+              "heard": "bzw",
+              "context_before": "sehen Der einzige Vulkanausbruch in Europa",
+              "context_after": "im Mittelmeerraum der in etwa in",
+              "changes_statement": false,
+              "reason": "„bzw.“ ist nur die Abkürzung für „beziehungsweise“, gleiche Aussage."
+            },
+            {
+              "index": 1,
+              "expected": "Necronomicons",
+              "heard": "Necronomikons",
+              "context_before": "Voynich Manuskript als unvollständige Kopie des",
+              "context_after": "Das Necronomicon erscheint in den Erzählungen",
+              "changes_statement": false,
+              "reason": "„Necronomikons“ ist eine andere Schreibweise desselben gesprochenen Wortes."
+            },
+            {
+              "index": 2,
+              "expected": "Necronomicon",
+              "heard": "Necronomikon",
+              "context_before": "als unvollständige Kopie des Necronomicons Das",
+              "context_after": "erscheint in den Erzählungen von H",
+              "changes_statement": false,
+              "reason": "„Necronomikon“ ist eine andere Schreibweise desselben gesprochenen Wortes."
+            },
+            {
+              "index": 3,
+              "expected": "Hanspeter Kyburz",
+              "heard": "Hans Peter Kübutz",
+              "context_before": "Cyborg Killer Und der Schweizer Komponist",
+              "context_after": "schrieb ein Stück das auf dem",
+              "changes_statement": false,
+              "reason": "„Hans Peter“ ist nur Getrenntschreibung, „Kübutz“ klingt fast wie „Kyburz“ – Hörfehler der Spracherkennung."
+            },
+            {
+              "index": 4,
+              "expected": "Siloé",
+              "heard": "Silouet",
+              "context_before": "Vorhaben Der auf alte Schriften spezialisierte",
+              "context_after": "Verlag aus Burgos in Spanien wollte",
+              "changes_statement": false,
+              "reason": "„Silouet“ klingt fast wie „Siloé“, also ein Hörfehler der Spracherkennung bei einem Namen."
+            },
+            {
+              "index": 5,
+              "expected": "aufwändigen",
+              "heard": "aufwendigen",
+              "context_before": "Nachbildungen produzieren Das sollte in einem",
+              "context_after": "Verfahren geschehen Verkauft werden sollten sie",
+              "changes_statement": false,
+              "reason": "„aufwendigen“ und „aufwändigen“ sind gleichbedeutende Schreibvarianten."
+            },
+            {
+              "index": 6,
+              "expected": "Faksimiles",
+              "heard": "Faximile",
+              "context_before": "siebentausend bis achttausend Euro Allgemein bieten",
+              "context_after": "die Möglichkeit Handschriften die später zerteilt",
+              "changes_statement": false,
+              "reason": "„Faximile“ ist eine Schreibvariante von „Faksimile“; Singular/Plural ändert den Sinn nicht."
+            },
+            {
+              "index": 7,
+              "expected": "Lorscher",
+              "heard": "Lorcher",
+              "context_before": "Standorte verteilt sind wie etwa das",
+              "context_after": "Evangeliar zumindest in der Nachbildung originalgetreu",
+              "changes_statement": false,
+              "reason": "„Lorcher“ klingt fast wie „Lorscher“, Hörfehler bei einem Namen."
+            },
+            {
+              "index": 8,
+              "expected": "Guzy",
+              "heard": "Guzzi",
+              "context_before": "aus hundertzwei statt hundertsechzehn Blättern Nach",
+              "context_after": "dürfte ein Verkauf unter Rudolf dem",
+              "changes_statement": false,
+              "reason": "„Guzzi“ klingt gleich wie „Guzy“, nur andere Schreibweise des Namens."
+            },
+            {
+              "index": 9,
+              "expected": "dem Zweiten",
+              "heard": "II",
+              "context_before": "Guzy dürfte ein Verkauf unter Rudolf",
+              "context_after": "gemeint sein Was zwischen sechzehnhundertsechsundsechzig und",
+              "changes_statement": false,
+              "reason": "„Rudolf II.“ wird „Rudolf der Zweite“ gesprochen, nur Schreibweise."
+            },
+            {
+              "index": 10,
+              "expected": "Kraus",
+              "heard": "Krauss",
+              "context_before": "sechzehnhundertsechsundsechzig und achtzehnhundertsiebzig geschah ist unbekannt",
+              "context_after": "stiftete das Manuskript neunzehnhundertneunundsechzig der Yale",
+              "changes_statement": false,
+              "reason": "„Krauss“ und „Kraus“ klingen gleich, nur Schreibweise."
+            },
+            {
+              "index": 11,
+              "expected": "Yale",
+              "heard": "Jell",
+              "context_before": "Kraus stiftete das Manuskript neunzehnhundertneunundsechzig der",
+              "context_after": "Universität Newbolds Mikroschrift war nur in",
+              "changes_statement": false,
+              "reason": "„Jell“ klingt fast wie „Yale“ (englisch /jeɪl/), Hörfehler der Spracherkennung."
+            },
+            {
+              "index": 12,
+              "expected": "Phantasie",
+              "heard": "Fantasie",
+              "context_before": "Newbolds Mikroschrift war nur in seiner",
+              "context_after": "vorhanden Sein Verfahren ließ keine sichere",
+              "changes_statement": false,
+              "reason": "„Fantasie“ und „Phantasie“ sind gleich gesprochene Schreibvarianten."
+            },
+            {
+              "index": 13,
+              "expected": "Kyburz",
+              "heard": "Küburz",
+              "context_before": "Autoren wie Simmons und den Komponisten",
+              "context_after": "beschäftigt",
+              "changes_statement": false,
+              "reason": "„Küburz“ klingt fast wie „Kyburz“, Hörfehler bei einem Namen."
+            }
+          ],
+          "changes_statement": false,
+          "action": "accept"
+        }
+      ]
+    }
+  ],
+  "fixed_parts": {
+    "intro": "aa19a3a5ad6b9be14c64f543f8cba8d4e9c06111f095fef839a86fadc97312cf",
+    "outro": "7b776b07c88661c0847e61dbdf7817e1df2faae0ccc343ee30a7fa067263939e"
+  },
+  "joins": {
+    "edge_silence_floor_db": -45.0,
+    "edge_silence_keep_seconds": 0.15,
+    "join_pause_seconds": 0.4
+  },
+  "loudness": {
+    "input_lufs": -20.34,
+    "input_true_peak_dbtp": -0.85,
+    "gain_db": 4.59,
+    "output_lufs": -16.05,
+    "output_true_peak_dbtp": -1.5,
+    "limited_seconds": 34.74,
+    "iterations": 3
+  },
+  "file": "episode.flac",
+  "sample_rate": 24000,
+  "seconds": 697.14,
+  "usd": 0.1483,
+  "previous_attempts": []
+}

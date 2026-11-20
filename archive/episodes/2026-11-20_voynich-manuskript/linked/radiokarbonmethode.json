@@ -1,0 +1,94 @@
+{
+  "title": "Radiokarbonmethode",
+  "revid": 272069091,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-11T10:44:33Z",
+  "fetched_at": "2026-11-20T10:23:14Z",
+  "categories": [
+    "Kategorie:Isotopenuntersuchung",
+    "Kategorie:Paläoanthropologie",
+    "Kategorie:Physikalisches Analyseverfahren",
+    "Kategorie:Radiometrische Datierung",
+    "Kategorie:Wikipedia:Lesenswert"
+  ],
+  "intro_wikitext": "Die '''Radiokarbonmethode''', auch '''Radiokohlenstoffdatierung''', '''<sup>14</sup>C''', '''C14-Datierung''' oder '''Radiokarbondatierung''' bzw. '''Radiocarbondatierung''', ist ein Verfahren zur [[Radiometrische Datierung|radiometrischen Datierung]] [[kohlenstoff]]haltiger, insbesondere [[Organische Chemie|organischer]] Materialien. Der zeitliche Anwendungsbereich liegt etwa zwischen vor 300 und etwa 60.000 Jahren.\n\nDas Verfahren beruht darauf, dass in abgestorbenen Organismen der Anteil an gebundenen [[Radioaktivität|radioaktiven]] <sup>14</sup>C-Atomen gemäß dem [[Zerfallsgesetz]] abnimmt. Lebende Organismen sind von diesem Effekt nicht betroffen, da sie ständig neuen Kohlenstoff aus der Umwelt aufnehmen, der wieder den normalen Anteil an <sup>14</sup>C-Atomen einbringt. Dieser „normale Anteil“ ist trotz des ständigen Zerfalls nahezu konstant, da <sup>14</sup>C ständig in der oberen Atmosphäre neu gebildet wird.\n\nEntwickelt wurde die Radiokarbondatierung 1946 von [[Willard Libby]],<ref>Willard F. Libby: ''Radiocarbon Dating.'' University of Chicago Press, Chicago 1952, ISBN 978-0-226-47980-4.</ref> der für diese Leistung 1960 mit dem [[Nobelpreis für Chemie]] ausgezeichnet wurde. Die Radiokarbondatierung wird in der [[Altersbestimmung (Archäologie)|archäologischen Altersbestimmung]], [[Archäobotanik]] und [[Quartärforschung]] angewandt. Die Beschränkung der Obergrenze im zeitlichen Anwendungsbereich folgt aus Messungenauigkeiten ab der zehnfachen Halbwertszeit und äußeren Faktoren, die auf das zu untersuchende Material Einfluss genommen haben.",
+  "segments": [
+    {
+      "id": "272069091-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Radiokarbonmethode''', auch '''Radiokohlenstoffdatierung''', '''<sup>14</sup>C''', '''C14-Datierung''' oder '''Radiokarbondatierung''' bzw. '''Radiocarbondatierung''', ist ein Verfahren zur [[Radiometrische Datierung|radiometrischen Datierung]] [[kohlenstoff]]haltiger, insbesondere [[Organische Chemie|organischer]] Materialien.",
+      "plain": null
+    },
+    {
+      "id": "272069091-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der zeitliche Anwendungsbereich liegt etwa zwischen vor 300 und etwa 60.000 Jahren.",
+      "plain": null
+    },
+    {
+      "id": "272069091-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Verfahren beruht darauf, dass in abgestorbenen Organismen der Anteil an gebundenen [[Radioaktivität|radioaktiven]] <sup>14</sup>C-Atomen gemäß dem [[Zerfallsgesetz]] abnimmt.",
+      "plain": null
+    },
+    {
+      "id": "272069091-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Lebende Organismen sind von diesem Effekt nicht betroffen, da sie ständig neuen Kohlenstoff aus der Umwelt aufnehmen, der wieder den normalen Anteil an <sup>14</sup>C-Atomen einbringt.",
+      "plain": null
+    },
+    {
+      "id": "272069091-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dieser „normale Anteil“ ist trotz des ständigen Zerfalls nahezu konstant, da <sup>14</sup>C ständig in der oberen Atmosphäre neu gebildet wird.",
+      "plain": null
+    },
+    {
+      "id": "272069091-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Entwickelt wurde die Radiokarbondatierung 1946 von [[Willard Libby]],<ref>Willard F. Libby: ''Radiocarbon Dating.'' University of Chicago Press, Chicago 1952, ISBN 978-0-226-47980-4.</ref> der für diese Leistung 1960 mit dem [[Nobelpreis für Chemie]] ausgezeichnet wurde.",
+      "plain": null
+    },
+    {
+      "id": "272069091-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Radiokarbondatierung wird in der [[Altersbestimmung (Archäologie)|archäologischen Altersbestimmung]], [[Archäobotanik]] und [[Quartärforschung]] angewandt.",
+      "plain": null
+    },
+    {
+      "id": "272069091-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Beschränkung der Obergrenze im zeitlichen Anwendungsbereich folgt aus Messungenauigkeiten ab der zehnfachen Halbwertszeit und äußeren Faktoren, die auf das zu untersuchende Material Einfluss genommen haben.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272069091,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272069091-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272069091-0002",
+          "272069091-0003"
+        ],
+        "plain": "Dieser „normale Anteil“ ist trotz des ständigen Zerfalls nahezu konstant, da 14C ständig in der oberen Atmosphäre neu gebildet wird.",
+        "context_plain": [
+          "Das Verfahren beruht darauf, dass in abgestorbenen Organismen der Anteil an gebundenen radioaktiven 14C-Atomen gemäß dem Zerfallsgesetz abnimmt.",
+          "Lebende Organismen sind von diesem Effekt nicht betroffen, da sie ständig neuen Kohlenstoff aus der Umwelt aufnehmen, der wieder den normalen Anteil an 14C-Atomen einbringt."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

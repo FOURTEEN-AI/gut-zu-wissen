@@ -1,0 +1,1215 @@
+{
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "Felix",
+      "text": "Lena, heute sprechen wir über das Voynich-Manuskript. Starten wir mit einer ganz einfachen Frage: Wie alt ist dieses Manuskript eigentlich?",
+      "fact_ids": [
+        "271345560-0278"
+      ],
+      "statements": [
+        {
+          "text": "Es gibt ein Manuskript, das Voynich-Manuskript heißt.",
+          "fact_ids": [
+            "271345560-0278"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "speaker": "Lena",
+      "text": "Dazu gibt es eine Radiokarbonanalyse. Sie konnte das Alter des verwendeten Pergaments mit großer Wahrscheinlichkeit auf den Zeitraum zwischen vierzehnhundertvier und vierzehnhundertachtunddreißig bestimmen. Zur Klarstellung: Pergamentpapier ist Papier aus Zellstoff. Es darf nicht mit Pergament aus Tierhäuten verwechselt werden.",
+      "fact_ids": [
+        "271345560-0012",
+        "268826227-0004"
+      ],
+      "statements": [
+        {
+          "text": "Eine Radiokarbonanalyse bestimmte das Alter des verwendeten Pergaments mit großer Wahrscheinlichkeit auf den Zeitraum zwischen 1404 und 1438.",
+          "fact_ids": [
+            "271345560-0012"
+          ]
+        },
+        {
+          "text": "Pergamentpapier ist Papier aus Zellstoff und nicht mit Pergament aus Tierhäuten zu verwechseln.",
+          "fact_ids": [
+            "268826227-0004"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "Felix",
+      "text": "Radiokarbonanalyse klingt nach einem Labor voller Geräte. Wie funktioniert das Prinzip dahinter?",
+      "fact_ids": [
+        "271345560-0012"
+      ],
+      "statements": [
+        {
+          "text": "Das Alter des Pergaments wurde mit einer Radiokarbonanalyse bestimmt.",
+          "fact_ids": [
+            "271345560-0012"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "Lena",
+      "text": "Es geht um den normalen Anteil an C vierzehn. Dieser Anteil ist trotz des ständigen Zerfalls nahezu konstant. Der Grund: C vierzehn wird in der oberen Atmosphäre ständig neu gebildet.",
+      "fact_ids": [
+        "272069091-0004"
+      ],
+      "statements": [
+        {
+          "text": "Der normale Anteil an 14C ist trotz des ständigen Zerfalls nahezu konstant, weil 14C in der oberen Atmosphäre ständig neu gebildet wird.",
+          "fact_ids": [
+            "272069091-0004"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "Felix",
+      "text": "Verstanden: Der normale Anteil bleibt nahezu konstant, weil oben in der Atmosphäre ständig Nachschub entsteht. Das reicht für den technischen Teil. Jetzt zum Inhalt: Was ist auf den Seiten eigentlich abgebildet?",
+      "fact_ids": [
+        "272069091-0004"
+      ],
+      "statements": [
+        {
+          "text": "Der normale Anteil an 14C bleibt nahezu konstant, weil 14C in der oberen Atmosphäre ständig neu gebildet wird.",
+          "fact_ids": [
+            "272069091-0004"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "speaker": "Lena",
+      "text": "Beginnen wir mit einem Abschnitt, der als der sowohl rätselhafteste als auch faszinierendste des Manuskripts beschrieben wird. Auf fast jeder Seite zeigt er Gruppen nackter Frauen mit gewölbten Bäuchen. Die Frauen sitzen in Becken oder Wannen. Diese sind durch Leitungen oder Röhren miteinander verbunden.",
+      "fact_ids": [
+        "271345560-0084"
+      ],
+      "statements": [
+        {
+          "text": "Ein Abschnitt des Manuskripts gilt als sowohl der rätselhafteste als auch der faszinierendste.",
+          "fact_ids": [
+            "271345560-0084"
+          ]
+        },
+        {
+          "text": "Dieser Abschnitt zeigt auf fast jeder Seite Gruppen nackter Frauen mit gewölbten Bäuchen, die in Becken oder Wannen sitzen, die durch Leitungen oder Röhren verbunden sind.",
+          "fact_ids": [
+            "271345560-0084"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "speaker": "Felix",
+      "text": "Nackte Frauen in Wannen, verbunden durch Röhren. Was für ein Bild! Gibt es auch Seiten mit Motiven, die man leichter einordnen kann?",
+      "fact_ids": [
+        "271345560-0084"
+      ],
+      "statements": [
+        {
+          "text": "Im Manuskript sitzen nackte Frauen in Wannen oder Becken, die durch Röhren oder Leitungen verbunden sind.",
+          "fact_ids": [
+            "271345560-0084"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "speaker": "Lena",
+      "text": "Ja, es gibt Sternzeichen. Direkt bei den Sternzeichenfiguren stehen romanische Monatsnamen in lateinischen Buchstaben. Bei den Fischen steht zum Beispiel „mars“, beim Widder „abril“. Die Darstellungen von Wassermann und Steinbock fehlen. Sie befanden sich vermutlich auf dem fehlenden Blatt vierundsiebzig.",
+      "fact_ids": [
+        "271345560-0083"
+      ],
+      "statements": [
+        {
+          "text": "Bei den Sternzeichenfiguren stehen romanische Monatsnamen in lateinischen Buchstaben, zum Beispiel „mars“ bei den Fischen und „abril“ beim Widder.",
+          "fact_ids": [
+            "271345560-0083"
+          ]
+        },
+        {
+          "text": "Die Darstellungen von Wassermann und Steinbock fehlen und befanden sich vermutlich auf dem fehlenden Blatt 74.",
+          "fact_ids": [
+            "271345560-0083"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "speaker": "Felix",
+      "text": "Ein fehlendes Blatt! Ist das Manuskript also gar nicht vollständig?",
+      "fact_ids": [
+        "271345560-0083"
+      ],
+      "statements": [
+        {
+          "text": "Blatt 74 fehlt, auf dem vermutlich Wassermann und Steinbock dargestellt waren.",
+          "fact_ids": [
+            "271345560-0083"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "speaker": "Lena",
+      "text": "Nein, es fehlt etwas. Zum heutigen Zeitpunkt besteht das Manuskript nicht mehr aus hundertsechzehn, sondern nur noch aus hundertzwei Blättern.",
+      "fact_ids": [
+        "271345560-0054"
+      ],
+      "statements": [
+        {
+          "text": "Der Kodex besteht heute nicht mehr aus 116, sondern nur noch aus 102 Blättern.",
+          "fact_ids": [
+            "271345560-0054"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "speaker": "Felix",
+      "text": "Es sind also Blätter verschwunden, die einmal dazugehörten. Weiß man denn, wem das Manuskript früher gehörte?",
+      "fact_ids": [
+        "271345560-0054"
+      ],
+      "statements": [
+        {
+          "text": "Der Kodex besteht aus weniger Blättern als früher.",
+          "fact_ids": [
+            "271345560-0054"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "speaker": "Lena",
+      "text": "Dazu gibt es eine Beobachtung von Guzy. Nach ihm war ein bestimmter Verkauf die einzige Transaktion dieser Größenordnung in der gesamten Regierungszeit von Rudolf dem Zweiten. Die Summe entspricht außerdem der Ankaufssumme, die im Brief von Marci genannt wird. Deshalb dürfte das Voynich-Manuskript mit diesem Verkauf gemeint gewesen sein.",
+      "fact_ids": [
+        "271345560-0278"
+      ],
+      "statements": [
+        {
+          "text": "Nach Guzy war ein Verkauf die einzige Transaktion in dieser Größenordnung in der gesamten Regierungszeit von Rudolf II.",
+          "fact_ids": [
+            "271345560-0278"
+          ]
+        },
+        {
+          "text": "Dieser Verkauf entspricht der im Brief von Marci genannten Ankaufssumme.",
+          "fact_ids": [
+            "271345560-0278"
+          ]
+        },
+        {
+          "text": "Das Voynich-Manuskript dürfte mit diesem Verkauf gemeint gewesen sein.",
+          "fact_ids": [
+            "271345560-0278"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "speaker": "Felix",
+      "text": "Also gab es unter Rudolf dem Zweiten nur diesen einen Verkauf in dieser Größe, und die Summe passt zum Brief von Marci. Und wie ging es mit dem Manuskript weiter?",
+      "fact_ids": [
+        "271345560-0278"
+      ],
+      "statements": [
+        {
+          "text": "Unter Rudolf II. gab es nach Guzy nur diesen einen Verkauf in dieser Größenordnung, und seine Summe entspricht der im Brief von Marci genannten.",
+          "fact_ids": [
+            "271345560-0278"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "speaker": "Lena",
+      "text": "Hier gibt es eine große Lücke. Was in den über zweihundert Jahren zwischen sechzehnhundertsechsundsechzig und achtzehnhundertsiebzig mit dem Manuskript geschah, ist bislang unbekannt.",
+      "fact_ids": [
+        "271345560-0033"
+      ],
+      "statements": [
+        {
+          "text": "Was in den über 200 Jahren zwischen 1666 und 1870 mit dem Manuskript geschah, ist bislang unbekannt.",
+          "fact_ids": [
+            "271345560-0033"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "speaker": "Felix",
+      "text": "Über zweihundert Jahre, über die man nichts weiß. Das ist eine ganze Menge Zeit. Wie kam das Manuskript dann bis zur Yale-Universität?",
+      "fact_ids": [
+        "271345560-0033",
+        "271345560-0045"
+      ],
+      "statements": [
+        {
+          "text": "Über die über 200 Jahre zwischen 1666 und 1870 ist nichts bekannt.",
+          "fact_ids": [
+            "271345560-0033"
+          ]
+        },
+        {
+          "text": "Das Manuskript gehört heute zur Yale-Universität.",
+          "fact_ids": [
+            "271345560-0045"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "speaker": "Lena",
+      "text": "Dazu gibt es konkrete Angaben. Neunzehnhunderteinundsechzig wurde das Manuskript für fünfundzwanzigtausend US-Dollar an den Buchhändler Hans Peter Kraus verkauft. Kraus wollte es gewinnbringend weiterverkaufen, fand jedoch keinen Käufer. Schließlich stiftete er das Manuskript neunzehnhundertneunundsechzig der Yale-Universität. Dort gehört es heute zum Bestand der Beinecke Rare Book and Manuscript Library.",
+      "fact_ids": [
+        "271345560-0044",
+        "271345560-0045"
+      ],
+      "statements": [
+        {
+          "text": "1961 wurde das Manuskript für 25.000 US-Dollar an den Buchhändler Hans Peter Kraus verkauft.",
+          "fact_ids": [
+            "271345560-0044"
+          ]
+        },
+        {
+          "text": "Kraus wollte das Manuskript gewinnbringend weiterverkaufen, fand aber keinen Käufer.",
+          "fact_ids": [
+            "271345560-0045",
+            "271345560-0044"
+          ]
+        },
+        {
+          "text": "Schließlich stiftete er es 1969 der Yale-Universität, wo es heute zum Bestand der Beinecke Rare Book and Manuscript Library gehört.",
+          "fact_ids": [
+            "271345560-0045"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "speaker": "Felix",
+      "text": "Ein Buchhändler findet keinen Käufer, und am Ende steht eine Schenkung an Yale. Nun zur großen Frage: Wie hat man versucht, den Text zu entziffern?",
+      "fact_ids": [
+        "271345560-0044",
+        "271345560-0045",
+        "271345560-0272"
+      ],
+      "statements": [
+        {
+          "text": "Der Buchhändler Kraus fand keinen Käufer und stiftete das Manuskript schließlich der Yale-Universität.",
+          "fact_ids": [
+            "271345560-0044",
+            "271345560-0045"
+          ]
+        },
+        {
+          "text": "Es gab Übersetzungsversuche des Manuskripts.",
+          "fact_ids": [
+            "271345560-0272"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "speaker": "Lena",
+      "text": "Da geht es um die Mikroschrift bei Newbold. Der eigentliche Inhalt des Manuskripts sollte in mikroskopisch kleinen Unregelmäßigkeiten der Voynich-Zeichen versteckt sein.",
+      "fact_ids": [
+        "271345560-0157",
+        "271345560-0143"
+      ],
+      "statements": [
+        {
+          "text": "Bei Newbold spielt eine Mikroschrift eine Rolle.",
+          "fact_ids": [
+            "271345560-0157"
+          ]
+        },
+        {
+          "text": "Der eigentliche Inhalt des Manuskripts sollte in mikroskopisch kleinen Unregelmäßigkeiten der Voynich-Zeichen versteckt sein.",
+          "fact_ids": [
+            "271345560-0143"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "speaker": "Felix",
+      "text": "Der Text soll also in winzigen Unregelmäßigkeiten der Zeichen stecken. Und was kam bei dieser Lesung heraus?",
+      "fact_ids": [
+        "271345560-0143"
+      ],
+      "statements": [
+        {
+          "text": "Der eigentliche Inhalt des Manuskripts sollte demnach in mikroskopisch kleinen Unregelmäßigkeiten der Voynich-Zeichen versteckt sein.",
+          "fact_ids": [
+            "271345560-0143"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "speaker": "Lena",
+      "text": "Das Resultat bestätigte ihm die Urheberschaft Bacons. Darüber hinaus verriet es angeblich auch, dass Bacon nicht nur über ein Mikroskop verfügt habe. Ihm sei außerdem schon die Spiralstruktur des Andromedanebels bekannt gewesen.",
+      "fact_ids": [
+        "271345560-0146"
+      ],
+      "statements": [
+        {
+          "text": "Das Resultat bestätigte dem Entzifferer die Urheberschaft Bacons.",
+          "fact_ids": [
+            "271345560-0146"
+          ]
+        },
+        {
+          "text": "Angeblich verriet es auch, dass Bacon ein Mikroskop besaß und ihm schon die Spiralstruktur des Andromedanebels bekannt war.",
+          "fact_ids": [
+            "271345560-0146"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "speaker": "Felix",
+      "text": "Wow! Ein Mikroskop und der Andromedanebel. Hat jemand dieses Ergebnis überprüft?",
+      "fact_ids": [
+        "271345560-0146"
+      ],
+      "statements": [
+        {
+          "text": "Angeblich verriet das Resultat, dass Bacon ein Mikroskop besaß und die Spiralstruktur des Andromedanebels kannte.",
+          "fact_ids": [
+            "271345560-0146"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "speaker": "Lena",
+      "text": "Ja, ein Kritiker. Er zeigte, dass die Mikroschrift nur in der Phantasie Newbolds vorhanden war. Bei den vermeintlichen Kürzeln handelte es sich vielmehr um Unregelmäßigkeiten. Sie entstanden beim Auftrag und beim Abblättern der Tinte auf dem rauen Schreibmaterial.",
+      "fact_ids": [
+        "271345560-0157"
+      ],
+      "statements": [
+        {
+          "text": "Ein Kritiker zeigte, dass die Mikroschrift nur in der Phantasie Newbolds vorhanden war.",
+          "fact_ids": [
+            "271345560-0157"
+          ]
+        },
+        {
+          "text": "Die vermeintlichen Kürzel waren Unregelmäßigkeiten bei Auftrag und Abblättern der Tinte auf dem rauen Schreibmaterial.",
+          "fact_ids": [
+            "271345560-0157"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "speaker": "Felix",
+      "text": "Abgeblätterte Tinte statt geheimer Schrift. Und das Verfahren, das Newbold benutzt hat: War das wenigstens sauber?",
+      "fact_ids": [
+        "271345560-0157"
+      ],
+      "statements": [
+        {
+          "text": "Die vermeintlichen Kürzel waren Unregelmäßigkeiten beim Abblättern der Tinte und kein geheimer Text.",
+          "fact_ids": [
+            "271345560-0157"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "speaker": "Lena",
+      "text": "Der Kritiker wies darauf hin, dass Newbolds Verfahren eine sichere Wiederherstellung eines Originaltextes gar nicht zuließ. Der Dechiffrierer musste den Inhalt schon kennen. Bei Newbold war das der Fall. Er fand genau das, was er zu finden hoffte.",
+      "fact_ids": [
+        "271345560-0158"
+      ],
+      "statements": [
+        {
+          "text": "Newbolds Verfahren der Dechiffrierung ließ eine sichere Wiederherstellung eines Originaltextes gar nicht zu.",
+          "fact_ids": [
+            "271345560-0158"
+          ]
+        },
+        {
+          "text": "Der Dechiffrierer musste den Inhalt schon kennen, was bei Newbold der Fall war.",
+          "fact_ids": [
+            "271345560-0158"
+          ]
+        },
+        {
+          "text": "Newbold fand genau das, was er zu finden hoffte.",
+          "fact_ids": [
+            "271345560-0158"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "speaker": "Felix",
+      "text": "Er hat also im Grunde seine eigene Erwartung gelesen. Gab es noch andere Übersetzungsversuche?",
+      "fact_ids": [
+        "271345560-0158",
+        "271345560-0272"
+      ],
+      "statements": [
+        {
+          "text": "Newbold fand genau das, was er zu finden hoffte.",
+          "fact_ids": [
+            "271345560-0158"
+          ]
+        },
+        {
+          "text": "Es gab weitere Übersetzungsversuche.",
+          "fact_ids": [
+            "271345560-0272"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "speaker": "Lena",
+      "text": "Ja, einen von Hannig. Einer seiner ersten Übersetzungsversuche liefert eine Krankengeschichte. Ein Bauer bekam nach dem Verzehr einer Suppe Verdauungsprobleme. Seine Umgebung wehklagt, und er sucht einen Arzt auf. Der kann ihm aber auch nicht helfen.",
+      "fact_ids": [
+        "271345560-0272"
+      ],
+      "statements": [
+        {
+          "text": "Einer der ersten Übersetzungsversuche von Hannig liefert eine Krankengeschichte.",
+          "fact_ids": [
+            "271345560-0272"
+          ]
+        },
+        {
+          "text": "Ein Bauer bekam nach dem Verzehr einer Suppe Verdauungsprobleme, seine Umgebung wehklagt, und er sucht einen Arzt auf, der ihm auch nicht helfen kann.",
+          "fact_ids": [
+            "271345560-0272"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "speaker": "Felix",
+      "text": "Ha! Bei Newbold ging es um Bacon und den Andromedanebel, bei Hannig um einen Bauern und eine Suppe. Gibt es Verfahren, mit denen man Verschlüsselungen systematisch knacken kann?",
+      "fact_ids": [
+        "271345560-0146",
+        "271345560-0272"
+      ],
+      "statements": [
+        {
+          "text": "Newbolds Lesung handelte von Bacon, einem Mikroskop und dem Andromedanebel.",
+          "fact_ids": [
+            "271345560-0146"
+          ]
+        },
+        {
+          "text": "Hannigs Übersetzung handelt von einem Bauern, der nach einer Suppe Verdauungsprobleme bekam.",
+          "fact_ids": [
+            "271345560-0272"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "speaker": "Lena",
+      "text": "Bei einer einfachen Verschlüsselung gibt es eines. Sie könnte bei der vorhandenen Textmenge aufgrund von Häufigkeitsanalysen auch ohne Computer dechiffriert werden. Edgar Allan Poe führt das in seiner Erzählung Der Goldkäfer vor.",
+      "fact_ids": [
+        "271345560-0162"
+      ],
+      "statements": [
+        {
+          "text": "Eine einfache Verschlüsselung könnte bei der vorhandenen Textmenge aufgrund von Häufigkeitsanalysen auch ohne Computer dechiffriert werden.",
+          "fact_ids": [
+            "271345560-0162"
+          ]
+        },
+        {
+          "text": "Edgar Allan Poe führt das in seiner Erzählung Der Goldkäfer vor.",
+          "fact_ids": [
+            "271345560-0162"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "speaker": "Felix",
+      "text": "Häufigkeitsanalysen reichen also, auch ohne Computer, und Poe zeigt es in Der Goldkäfer. Aber was, wenn der Text gar keine Botschaft enthält?",
+      "fact_ids": [
+        "271345560-0162"
+      ],
+      "statements": [
+        {
+          "text": "Eine einfache Verschlüsselung kann aufgrund von Häufigkeitsanalysen auch ohne Computer dechiffriert werden, wie Poe in Der Goldkäfer vorführt.",
+          "fact_ids": [
+            "271345560-0162"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "speaker": "Lena",
+      "text": "Dafür gibt es die Schabernack-Hypothese. Sie wird auch durch eine Textanalyse des österreichischen Wissenschaftlers Andreas Schinner gestützt. Er entdeckte unnatürliche Regelmäßigkeiten in der Wortfolge des Manuskripts. Solche Regelmäßigkeiten kommen in Texten, die in natürlichen Sprachen verfasst sind, nicht vor.",
+      "fact_ids": [
+        "271345560-0219"
+      ],
+      "statements": [
+        {
+          "text": "Die Schabernack-Hypothese wird durch eine Textanalyse des österreichischen Wissenschaftlers Andreas Schinner gestützt.",
+          "fact_ids": [
+            "271345560-0219"
+          ]
+        },
+        {
+          "text": "Schinner entdeckte unnatürliche Regelmäßigkeiten in der Wortfolge des Manuskripts, die in Texten in natürlichen Sprachen nicht vorkommen.",
+          "fact_ids": [
+            "271345560-0219"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "speaker": "Felix",
+      "text": "Unnatürliche Regelmäßigkeiten, die in natürlichen Sprachen nicht vorkommen. Gibt es weitere Auffälligkeiten im Text?",
+      "fact_ids": [
+        "271345560-0219"
+      ],
+      "statements": [
+        {
+          "text": "Schinner entdeckte Regelmäßigkeiten in der Wortfolge, die in natürlichen Sprachen nicht vorkommen.",
+          "fact_ids": [
+            "271345560-0219"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "speaker": "Lena",
+      "text": "Ja. Unmittelbare Wiederholungen des gleichen Wortes oder kleinere Varianten erscheinen mit ungewöhnlicher Häufigkeit.",
+      "fact_ids": [
+        "271345560-0130"
+      ],
+      "statements": [
+        {
+          "text": "Unmittelbare Wiederholungen des gleichen Wortes oder kleinere Varianten erscheinen mit ungewöhnlicher Häufigkeit.",
+          "fact_ids": [
+            "271345560-0130"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "speaker": "Felix",
+      "text": "Die unnatürlichen Regelmäßigkeiten stützen also die Schabernack-Hypothese. Gibt es auch Hinweise in die andere Richtung?",
+      "fact_ids": [
+        "271345560-0219"
+      ],
+      "statements": [
+        {
+          "text": "Die von Schinner entdeckten Regelmäßigkeiten stützen die Schabernack-Hypothese.",
+          "fact_ids": [
+            "271345560-0219"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "speaker": "Lena",
+      "text": "Es gibt einen. Das Fehlen von Korrekturen ist ein Indiz dafür, dass eine Vorlage des Textes existierte, von der abgeschrieben wurde.",
+      "fact_ids": [
+        "271345560-0100"
+      ],
+      "statements": [
+        {
+          "text": "Das Fehlen von Korrekturen ist ein Indiz dafür, dass eine Vorlage des Textes existierte, von der abgeschrieben wurde.",
+          "fact_ids": [
+            "271345560-0100"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "speaker": "Felix",
+      "text": "Keine Korrekturen, also vermutlich abgeschrieben. Kommen wir noch einmal zur Datierung zurück: Gibt es außer dem Pergament weitere Anhaltspunkte, wann das Manuskript entstanden ist?",
+      "fact_ids": [
+        "271345560-0100",
+        "271345560-0012"
+      ],
+      "statements": [
+        {
+          "text": "Das Fehlen von Korrekturen deutet darauf hin, dass von einer Vorlage abgeschrieben wurde.",
+          "fact_ids": [
+            "271345560-0100"
+          ]
+        },
+        {
+          "text": "Das Alter des Pergaments wurde bestimmt.",
+          "fact_ids": [
+            "271345560-0012"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "speaker": "Lena",
+      "text": "Ja, bei den Pflanzen. Bei zwei Identifizierungen war bemerkenswert, dass beide Gewächse in der Alten Welt vor Kolumbus nicht heimisch waren. Das Manuskript könnte demnach erst nach vierzehnhundertdreiundneunzig entstanden sein.",
+      "fact_ids": [
+        "271345560-0170"
+      ],
+      "statements": [
+        {
+          "text": "Bei zwei Pflanzen-Identifizierungen war bemerkenswert, dass beide Gewächse in der Alten Welt vor Kolumbus nicht heimisch waren.",
+          "fact_ids": [
+            "271345560-0170"
+          ]
+        },
+        {
+          "text": "Das Manuskript könnte demnach erst nach 1493 entstanden sein.",
+          "fact_ids": [
+            "271345560-0170"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "speaker": "Felix",
+      "text": "Moment. Das Pergament stammt aus der Zeit zwischen vierzehnhundertvier und vierzehnhundertachtunddreißig, und die Pflanzen deuten auf eine Entstehung erst nach vierzehnhundertdreiundneunzig. Wie passt das zusammen?",
+      "fact_ids": [
+        "271345560-0012",
+        "271345560-0170"
+      ],
+      "statements": [
+        {
+          "text": "Das Pergament wurde mit großer Wahrscheinlichkeit auf den Zeitraum zwischen 1404 und 1438 datiert.",
+          "fact_ids": [
+            "271345560-0012"
+          ]
+        },
+        {
+          "text": "Die Pflanzen-Identifizierungen deuten darauf hin, dass das Manuskript erst nach 1493 entstanden sein könnte.",
+          "fact_ids": [
+            "271345560-0170"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "speaker": "Lena",
+      "text": "Dazu gibt es noch einen weiteren Anhaltspunkt. Auf einer Abbildung ist offenbar ein Vulkanausbruch auf einer Insel zu sehen. Der einzige Vulkanausbruch in Europa beziehungsweise im Mittelmeerraum, der in etwa in die Entstehungszeit des Manuskripts fällt, fand vierzehnhundertvierundvierzig auf der Insel Vulcanello statt. Die liegt nördlich von Sizilien. Sizilien stand damals unter aragonesischer Herrschaft.",
+      "fact_ids": [
+        "271345560-0256"
+      ],
+      "statements": [
+        {
+          "text": "Eine Abbildung zeigt offenbar einen Vulkanausbruch auf einer Insel.",
+          "fact_ids": [
+            "271345560-0256"
+          ]
+        },
+        {
+          "text": "Der einzige Vulkanausbruch in Europa bzw. im Mittelmeerraum, der in etwa in die Entstehungszeit des Manuskripts fällt, fand 1444 auf der Insel Vulcanello nördlich von Sizilien statt.",
+          "fact_ids": [
+            "271345560-0256"
+          ]
+        },
+        {
+          "text": "Sizilien stand damals unter aragonesischer Herrschaft.",
+          "fact_ids": [
+            "271345560-0256"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "speaker": "Felix",
+      "text": "Ein Vulkan auf einer Insel nördlich von Sizilien! Und die Pflanzen, die in der Alten Welt vor Kolumbus nicht heimisch waren: Gibt es eine Idee, wo das Manuskript entstanden sein könnte?",
+      "fact_ids": [
+        "271345560-0256",
+        "271345560-0170"
+      ],
+      "statements": [
+        {
+          "text": "Eine Abbildung zeigt offenbar einen Vulkanausbruch, der zu dem auf der Insel Vulcanello nördlich von Sizilien passt.",
+          "fact_ids": [
+            "271345560-0256"
+          ]
+        },
+        {
+          "text": "Zwei identifizierte Gewächse waren in der Alten Welt vor Kolumbus nicht heimisch.",
+          "fact_ids": [
+            "271345560-0170"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "speaker": "Lena",
+      "text": "Eine Überlegung lautet, dass das Manuskript in Mittelamerika gezeichnet und in einer mittelamerikanischen Sprache geschrieben wurde. Möglicherweise wäre das eine Sprache, die heute nicht mehr gesprochen wird.",
+      "fact_ids": [
+        "271345560-0228"
+      ],
+      "statements": [
+        {
+          "text": "Es wird erwogen, dass das Manuskript in Mittelamerika gezeichnet und in einer mittelamerikanischen Sprache geschrieben wurde.",
+          "fact_ids": [
+            "271345560-0228"
+          ]
+        },
+        {
+          "text": "Das wäre möglicherweise eine Sprache, die heute nicht mehr gesprochen wird.",
+          "fact_ids": [
+            "271345560-0228"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "speaker": "Felix",
+      "text": "Mittelamerika, und eine Sprache, die vielleicht niemand mehr spricht. Und die Bilder? Hat jemand versucht, aus ihnen etwas herauszulesen?",
+      "fact_ids": [
+        "271345560-0228"
+      ],
+      "statements": [
+        {
+          "text": "Das Manuskript wurde möglicherweise in Mittelamerika gezeichnet und in einer Sprache geschrieben, die heute nicht mehr gesprochen wird.",
+          "fact_ids": [
+            "271345560-0228"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "speaker": "Lena",
+      "text": "Ja, zwei Kunsthistoriker. Zur Textentzifferung können sie nichts beitragen. Sie erkennen aber in der Abfolge der Bilder ein klares Anliegen. Es sei ein Plädoyer für die Sprösslinge des Adels, die mit Frauen aus dem Volk gezeugt wurden, die sogenannten Bastarde.",
+      "fact_ids": [
+        "271345560-0273"
+      ],
+      "statements": [
+        {
+          "text": "Zwei Kunsthistoriker können zur Textentzifferung nichts beitragen.",
+          "fact_ids": [
+            "271345560-0273"
+          ]
+        },
+        {
+          "text": "Sie erkennen in der Abfolge der Bilder ein klares Anliegen: ein Plädoyer für die Sprösslinge des Adels, die mit Frauen aus dem Volk gezeugt wurden, die sogenannten Bastarde.",
+          "fact_ids": [
+            "271345560-0273"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "speaker": "Felix",
+      "text": "Ein Plädoyer für die Sprösslinge des Adels, gezeugt mit Frauen aus dem Volk. Was für eine Deutung! Taucht das Manuskript eigentlich auch in der Literatur auf?",
+      "fact_ids": [
+        "271345560-0273"
+      ],
+      "statements": [
+        {
+          "text": "Zwei Kunsthistoriker sehen in den Bildern ein Plädoyer für die Sprösslinge des Adels, die mit Frauen aus dem Volk gezeugt wurden.",
+          "fact_ids": [
+            "271345560-0273"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "speaker": "Lena",
+      "text": "Ja. In einer Erzählung von Wilson entpuppt sich das Voynich-Manuskript als unvollständige Kopie des Necronomicons. Das Necronomicon erscheint in den Erzählungen von H. P. Lovecraft erstmals neunzehnhundertzweiundzwanzig in der Erzählung The Hound. Das war zwei Jahre, nachdem Voynich Kopien an interessierte Forscher versandt hatte. Und es war ein Jahr, nachdem die ersten Ergebnisse von Voynich und Newbold durch Vorträge in Philadelphia publik gemacht worden waren.",
+      "fact_ids": [
+        "271345560-0315",
+        "271345560-0317"
+      ],
+      "statements": [
+        {
+          "text": "In einer Erzählung von Wilson entpuppt sich das Voynich-Manuskript als unvollständige Kopie des Necronomicons.",
+          "fact_ids": [
+            "271345560-0315"
+          ]
+        },
+        {
+          "text": "Das Necronomicon erscheint in Lovecrafts Erzählungen erstmals 1922 in The Hound.",
+          "fact_ids": [
+            "271345560-0317"
+          ]
+        },
+        {
+          "text": "Das war zwei Jahre, nachdem Voynich Kopien an interessierte Forscher versandt hatte, und ein Jahr nach den Vorträgen in Philadelphia, durch die die ersten Ergebnisse von Voynich und Newbold publik wurden.",
+          "fact_ids": [
+            "271345560-0317"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "speaker": "Felix",
+      "text": "Das Necronomicon taucht also erstmals ein Jahr nach den Vorträgen in Philadelphia auf. Gibt es weitere Spuren des Manuskripts in der Kultur?",
+      "fact_ids": [
+        "271345560-0317"
+      ],
+      "statements": [
+        {
+          "text": "Das Necronomicon erscheint bei Lovecraft erstmals 1922, ein Jahr nach den Vorträgen in Philadelphia.",
+          "fact_ids": [
+            "271345560-0317"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "speaker": "Lena",
+      "text": "Ja, zwei. Bei Dan Simmons gibt es die Romane Ilium von zweitausendvier und Olympos von zweitausendsechs. Der Name der Voynix leitet sich vom Voynich-Manuskript her. Das sind vom islamischen Kalifat aus der Zukunft gesandte Cyborg-Killer. Und der Schweizer Komponist Hanspeter Kyburz schrieb ein Stück, das auf dem Voynich-Text basiert. Es heißt The Voynich Cipher Manuscript und ist für vierundzwanzig Singstimmen und Ensemble geschrieben. Dabei interpretierte er die Voynich-Zeichen als Noten.",
+      "fact_ids": [
+        "271345560-0292",
+        "271345560-0285"
+      ],
+      "statements": [
+        {
+          "text": "In Dan Simmons’ Ilium (2004) und Olympos (2006) leitet sich der Name der Voynix, vom islamischen Kalifat aus der Zukunft gesandter Cyborg-Killer, vom Voynich-Manuskript her.",
+          "fact_ids": [
+            "271345560-0292"
+          ]
+        },
+        {
+          "text": "Der Schweizer Komponist Hanspeter Kyburz schrieb auf Basis des Voynich-Textes das Stück The Voynich Cipher Manuscript für 24 Singstimmen und Ensemble.",
+          "fact_ids": [
+            "271345560-0285"
+          ]
+        },
+        {
+          "text": "Kyburz interpretierte die Voynich-Zeichen als Noten.",
+          "fact_ids": [
+            "271345560-0285"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "speaker": "Felix",
+      "text": "Cyborg-Killer und Singstimmen, beides aus einem Manuskript. Wow! Kann man das Manuskript eigentlich nachgebildet bekommen?",
+      "fact_ids": [
+        "271345560-0292",
+        "271345560-0285"
+      ],
+      "statements": [
+        {
+          "text": "Der Name der Voynix in Simmons’ Romanen leitet sich vom Voynich-Manuskript her.",
+          "fact_ids": [
+            "271345560-0292"
+          ]
+        },
+        {
+          "text": "Kyburz schrieb ein Stück für Singstimmen und Ensemble auf Basis des Voynich-Textes.",
+          "fact_ids": [
+            "271345560-0285"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "speaker": "Lena",
+      "text": "Es gab ein Vorhaben. Der auf alte Schriften spezialisierte Siloé-Verlag aus Burgos in Spanien wollte bis Herbst zweitausendsiebzehn achthundertachtundneunzig originalgetreue Nachbildungen produzieren. Das sollte in einem aufwändigen Verfahren geschehen. Verkauft werden sollten sie zum Stückpreis von siebentausend bis achttausend Euro. Allgemein bieten Faksimiles die Möglichkeit, Handschriften, die später zerteilt wurden und heute auf verschiedene Standorte verteilt sind, wie etwa das Lorscher Evangeliar, zumindest in der Nachbildung originalgetreu wieder zusammenzufügen.",
+      "fact_ids": [
+        "271345560-0335",
+        "260419933-0011"
+      ],
+      "statements": [
+        {
+          "text": "Der auf alte Schriften spezialisierte Siloé-Verlag aus Burgos in Spanien wollte bis Herbst 2017 898 originalgetreue Nachbildungen in einem aufwändigen Verfahren produzieren.",
+          "fact_ids": [
+            "271345560-0335"
+          ]
+        },
+        {
+          "text": "Der Verlag wollte sie zum Stückpreis von 7000 bis 8000 Euro verkaufen.",
+          "fact_ids": [
+            "271345560-0335"
+          ]
+        },
+        {
+          "text": "Faksimiles bieten die Möglichkeit, Handschriften, die später zerteilt wurden und heute auf verschiedene Standorte verteilt sind, wie das Lorscher Evangeliar, in der Nachbildung originalgetreu wieder zusammenzufügen.",
+          "fact_ids": [
+            "260419933-0011"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "speaker": "Felix",
+      "text": "Das war eine Menge Stoff. Magst du das Wichtigste noch einmal zusammenfassen?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 49,
+      "speaker": "Lena",
+      "text": "Gern. Das Pergament wurde mit großer Wahrscheinlichkeit auf die Zeit zwischen vierzehnhundertvier und vierzehnhundertachtunddreißig datiert. Dagegen stehen zwei Pflanzen, die in der Alten Welt vor Kolumbus nicht heimisch waren. Danach könnte das Manuskript erst nach vierzehnhundertdreiundneunzig entstanden sein. Heute besteht es nur noch aus hundertzwei statt hundertsechzehn Blättern. Nach Guzy dürfte ein Verkauf unter Rudolf dem Zweiten gemeint sein. Was zwischen sechzehnhundertsechsundsechzig und achtzehnhundertsiebzig geschah, ist unbekannt. Kraus stiftete das Manuskript neunzehnhundertneunundsechzig der Yale-Universität. Newbolds Mikroschrift war nur in seiner Phantasie vorhanden. Sein Verfahren ließ keine sichere Wiederherstellung zu. Schinners Regelmäßigkeiten stützen die Schabernack-Hypothese, während fehlende Korrekturen auf eine Vorlage hindeuten. Und das Manuskript hat Autoren wie Simmons und den Komponisten Kyburz beschäftigt.",
+      "fact_ids": [
+        "271345560-0012",
+        "271345560-0170",
+        "271345560-0054",
+        "271345560-0278",
+        "271345560-0033",
+        "271345560-0045",
+        "271345560-0157",
+        "271345560-0158",
+        "271345560-0219",
+        "271345560-0100",
+        "271345560-0292",
+        "271345560-0285"
+      ],
+      "statements": [
+        {
+          "text": "Das Pergament wurde mit großer Wahrscheinlichkeit auf den Zeitraum zwischen 1404 und 1438 datiert.",
+          "fact_ids": [
+            "271345560-0012"
+          ]
+        },
+        {
+          "text": "Zwei identifizierte Pflanzen waren vor Kolumbus in der Alten Welt nicht heimisch, das Manuskript könnte demnach erst nach 1493 entstanden sein.",
+          "fact_ids": [
+            "271345560-0170"
+          ]
+        },
+        {
+          "text": "Das Manuskript besteht heute nur noch aus 102 statt 116 Blättern.",
+          "fact_ids": [
+            "271345560-0054"
+          ]
+        },
+        {
+          "text": "Nach Guzy dürfte ein bestimmter Verkauf unter Rudolf II. mit dem Voynich-Manuskript gemeint gewesen sein.",
+          "fact_ids": [
+            "271345560-0278"
+          ]
+        },
+        {
+          "text": "Was zwischen 1666 und 1870 geschah, ist bislang unbekannt.",
+          "fact_ids": [
+            "271345560-0033"
+          ]
+        },
+        {
+          "text": "Kraus stiftete das Manuskript 1969 der Yale-Universität.",
+          "fact_ids": [
+            "271345560-0045"
+          ]
+        },
+        {
+          "text": "Die Mikroschrift war nur in der Phantasie Newbolds vorhanden.",
+          "fact_ids": [
+            "271345560-0157"
+          ]
+        },
+        {
+          "text": "Newbolds Verfahren ließ eine sichere Wiederherstellung eines Originaltextes nicht zu.",
+          "fact_ids": [
+            "271345560-0158"
+          ]
+        },
+        {
+          "text": "Schinners entdeckte Regelmäßigkeiten stützen die Schabernack-Hypothese.",
+          "fact_ids": [
+            "271345560-0219"
+          ]
+        },
+        {
+          "text": "Fehlende Korrekturen sind ein Indiz für eine Vorlage, von der abgeschrieben wurde.",
+          "fact_ids": [
+            "271345560-0100"
+          ]
+        },
+        {
+          "text": "Der Name der Voynix bei Dan Simmons leitet sich vom Voynich-Manuskript her.",
+          "fact_ids": [
+            "271345560-0292"
+          ]
+        },
+        {
+          "text": "Der Komponist Hanspeter Kyburz schrieb auf Basis des Voynich-Textes ein Stück und interpretierte die Zeichen als Noten.",
+          "fact_ids": [
+            "271345560-0285"
+          ]
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "used_fact_ids": [
+    "271345560-0278",
+    "271345560-0012",
+    "268826227-0004",
+    "272069091-0004",
+    "271345560-0084",
+    "271345560-0083",
+    "271345560-0054",
+    "271345560-0033",
+    "271345560-0045",
+    "271345560-0044",
+    "271345560-0272",
+    "271345560-0157",
+    "271345560-0143",
+    "271345560-0146",
+    "271345560-0158",
+    "271345560-0162",
+    "271345560-0219",
+    "271345560-0130",
+    "271345560-0100",
+    "271345560-0170",
+    "271345560-0256",
+    "271345560-0228",
+    "271345560-0273",
+    "271345560-0315",
+    "271345560-0317",
+    "271345560-0292",
+    "271345560-0285",
+    "271345560-0335",
+    "260419933-0011"
+  ],
+  "conversation": 1,
+  "regenerations": [
+    {
+      "conversation": 1,
+      "turn_index": 17,
+      "kind": "retry",
+      "reason": "Der dritte Satz („Demnach sollte der eigentliche Inhalt … versteckt sein“) steht wörtlich in Fakt 0143. Dass die Mikroschrift Newbolds Idee war, folgt aus Fakt 0157 („nur in der Phantasie Newbolds“). Der erste Satz „Ein bekannter Versuch stammt von Newbold“ geht aber über die Fakten hinaus. Dass der Versuch „bekannt“ ist, steht in keinem Fakt-Satz. Auch dass es sich um einen Entschlüsselungs- oder Deutungsversuch handelte, wird dort nicht gesagt. Die Aussage ist daher nicht vollständig belegt.",
+      "previous": {
+        "index": 17,
+        "speaker": "Lena",
+        "text": "Ein bekannter Versuch stammt von Newbold. Seine Idee war eine Mikroschrift. Demnach sollte der eigentliche Inhalt des Manuskripts in mikroskopisch kleinen Unregelmäßigkeiten der Voynich-Zeichen versteckt sein.",
+        "fact_ids": [
+          "271345560-0143",
+          "271345560-0157"
+        ],
+        "statements": [
+          {
+            "text": "Newbold hatte die Vorstellung einer Mikroschrift.",
+            "fact_ids": [
+              "271345560-0157"
+            ]
+          },
+          {
+            "text": "Demnach sollte der eigentliche Inhalt des Manuskripts in mikroskopisch kleinen Unregelmäßigkeiten der Voynich-Zeichen versteckt sein.",
+            "fact_ids": [
+              "271345560-0143"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 18,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 18,
+        "speaker": "Felix",
+        "text": "Der Text soll also in winzigen Unregelmäßigkeiten der Zeichen stecken. Und was kam bei dieser Lesung heraus?",
+        "fact_ids": [
+          "271345560-0143"
+        ],
+        "statements": [
+          {
+            "text": "Der eigentliche Inhalt sollte in mikroskopisch kleinen Unregelmäßigkeiten der Voynich-Zeichen versteckt sein.",
+            "fact_ids": [
+              "271345560-0143"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "discarded_conversations": [],
+  "aliases": {
+    "F1": "271345560-0146",
+    "F2": "271345560-0317",
+    "F3": "271345560-0045",
+    "F4": "271345560-0190",
+    "F5": "271345560-0025",
+    "F6": "271345560-0157",
+    "F7": "271345560-0278",
+    "F8": "271345560-0272",
+    "F9": "271345560-0315",
+    "F10": "271345560-0170",
+    "F11": "271345560-0219",
+    "F12": "271345560-0143",
+    "F13": "271345560-0033",
+    "F14": "271345560-0084",
+    "F15": "271345560-0083",
+    "F16": "271345560-0054",
+    "F17": "271345560-0036",
+    "F18": "271345560-0044",
+    "F19": "271345560-0335",
+    "F20": "271345560-0256",
+    "F21": "271345560-0162",
+    "F22": "271345560-0292",
+    "F23": "271345560-0285",
+    "F24": "271345560-0273",
+    "F25": "271345560-0228",
+    "F26": "271345560-0158",
+    "F27": "271345560-0265",
+    "F28": "271345560-0100",
+    "F29": "271345560-0130",
+    "F30": "271345560-0012",
+    "F31": "272069091-0004",
+    "F32": "260419933-0011",
+    "F33": "268826227-0004"
+  }
+}

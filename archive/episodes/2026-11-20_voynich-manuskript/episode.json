@@ -1,0 +1,47 @@
+{
+  "episode_id": "2026-11-20_voynich-manuskript",
+  "title": "Voynich-Manuskript",
+  "status": "completed",
+  "started_at": "2026-11-20T10:23:14Z",
+  "finished_at": "2026-11-20T10:48:14Z",
+  "published_at": null,
+  "explicit": false,
+  "failure": null,
+  "usage": {
+    "author": {
+      "model": "claude-sonnet-5-5",
+      "calls": 66,
+      "input_tokens": 134053,
+      "output_tokens": 50856
+    },
+    "llm_judge": {
+      "model": "claude-sonnet-5-5",
+      "calls": 53,
+      "input_tokens": 83088,
+      "output_tokens": 13045
+    },
+    "jev": {
+      "model": "jev-1.14.0",
+      "calls": 53,
+      "input_tokens": 68848,
+      "output_tokens": 3162
+    }
+  },
+  "cost": {
+    "prices": {
+      "claude_sonnet_input": 2.0,
+      "claude_sonnet_output": 10.0,
+      "jev": 0.042,
+      "gemini_tts_input": 0.5,
+      "gemini_tts_output": 9.0
+    },
+    "usd": {
+      "author": 0.7767,
+      "llm_judge": 0.2966,
+      "jev": 0.0029,
+      "tts": 0.1483
+    }
+  },
+  "failed_step": null,
+  "resumed": []
+}

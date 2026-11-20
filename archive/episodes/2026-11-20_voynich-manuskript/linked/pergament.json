@@ -1,0 +1,81 @@
+{
+  "title": "Pergament",
+  "revid": 268826227,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-16T13:12:17Z",
+  "fetched_at": "2026-11-20T10:23:14Z",
+  "categories": [
+    "Kategorie:Beschreibstoff",
+    "Kategorie:Buchgeschichte (Antike)",
+    "Kategorie:Geschichte der Schrift",
+    "Kategorie:Kodikologie",
+    "Kategorie:Lederart",
+    "Kategorie:Papyrologie",
+    "Kategorie:Technik (Antike)",
+    "Kategorie:Ware aus tierischen Produkten"
+  ],
+  "intro_wikitext": "[[Datei:Parchment from goatskin.jpg|mini|Auf einen Holzrahmen gespanntes Pergament aus Ziegenhaut]]\n\n'''Pergament''' ist eine nicht [[Gerbung|gegerbte]], nur leicht bearbeitete [[Tierhaut]], die seit dem Altertum unter anderem als [[Beschreibstoff]] verwendet wird. Pergament ist damit ein Vorläufer des [[Papier]]s und wird meist aus Häuten von [[Hausrind|Kälbern]], [[Hausziege|Ziegen]] oder [[Schafe]]n hergestellt. Hierbei erfahren die geweichten und enthaarten Tierhäute (auch als „Blöße“ bezeichnet) aufgespannt eine Lufttrocknung. Hierin unterscheidet sich diese Form der Behandlung der Tierhaut vom [[Gerben]].<ref>Turmunkh Togmid: ''Über die Wirkung und das Wesen der Schwefelgerbung von Hautkollagen.'' Dissertationsschrift Technische Universität Dresden, Dresden 2005 ([https://tud.qucosa.de/api/qucosa%3A23567/attachment/ATT-0/] auf tud.qucosa.de) hier S.&nbsp;13.</ref>\n\n[[Pergament#Pergamentpapier|Pergamentpapier]] ist Papier aus [[Zellstoff]] und daher nicht mit Pergament aus Tierhäuten zu verwechseln. Es wird aber oft fälschlich als ''Pergament'' bezeichnet.",
+  "segments": [
+    {
+      "id": "268826227-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Pergament''' ist eine nicht [[Gerbung|gegerbte]], nur leicht bearbeitete [[Tierhaut]], die seit dem Altertum unter anderem als [[Beschreibstoff]] verwendet wird.",
+      "plain": null
+    },
+    {
+      "id": "268826227-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Pergament ist damit ein Vorläufer des [[Papier]]s und wird meist aus Häuten von [[Hausrind|Kälbern]], [[Hausziege|Ziegen]] oder [[Schafe]]n hergestellt.",
+      "plain": null
+    },
+    {
+      "id": "268826227-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Hierbei erfahren die geweichten und enthaarten Tierhäute (auch als „Blöße“ bezeichnet) aufgespannt eine Lufttrocknung.",
+      "plain": null
+    },
+    {
+      "id": "268826227-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Hierin unterscheidet sich diese Form der Behandlung der Tierhaut vom [[Gerben]].<ref>Turmunkh Togmid: ''Über die Wirkung und das Wesen der Schwefelgerbung von Hautkollagen.'' Dissertationsschrift Technische Universität Dresden, Dresden 2005 ([https://tud.qucosa.de/api/qucosa%3A23567/attachment/ATT-0/] auf tud.qucosa.de) hier S.&nbsp;13.</ref>",
+      "plain": null
+    },
+    {
+      "id": "268826227-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "[[Pergament#Pergamentpapier|Pergamentpapier]] ist Papier aus [[Zellstoff]] und daher nicht mit Pergament aus Tierhäuten zu verwechseln.",
+      "plain": null
+    },
+    {
+      "id": "268826227-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es wird aber oft fälschlich als ''Pergament'' bezeichnet.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268826227,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268826227-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "268826227-0003"
+        ],
+        "plain": "Pergamentpapier ist Papier aus Zellstoff und daher nicht mit Pergament aus Tierhäuten zu verwechseln.",
+        "context_plain": [
+          "Hierin unterscheidet sich diese Form der Behandlung der Tierhaut vom Gerben."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

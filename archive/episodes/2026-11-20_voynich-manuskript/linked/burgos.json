@@ -1,0 +1,86 @@
+{
+  "title": "Burgos",
+  "revid": 272014504,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-09T12:59:32Z",
+  "fetched_at": "2026-11-20T10:23:14Z",
+  "categories": [
+    "Kategorie:Burgos",
+    "Kategorie:Conjunto histórico-artístico",
+    "Kategorie:Ehemalige Hauptstadt (Spanien)",
+    "Kategorie:Ehemaliger Welterbekandidat in Europa",
+    "Kategorie:Ehemaliger Welterbekandidat in Spanien",
+    "Kategorie:Gegründet im 9. Jahrhundert",
+    "Kategorie:Hochschul- oder Universitätsstadt in Spanien",
+    "Kategorie:Municipio in Kastilien und León",
+    "Kategorie:Ort am Jakobsweg (Camino Francés)",
+    "Kategorie:Ort in Kastilien und León",
+    "Kategorie:Provinzhauptstadt in Spanien",
+    "Kategorie:Wikipedia:Seite verwendet P1082"
+  ],
+  "intro_wikitext": "{{Dieser Artikel| behandelt die spanische Stadt Burgos. Für weitere Bedeutungen siehe [[Burgos (Begriffsklärung)]].}}\n{{Infobox Gemeinde in Spanien\n |Bild               = Burgos city view facing south east.jpg\n |Bildbeschreibung   = Burgos – Stadtansicht\n |nombre             = \n |Stadt              = \n |escudo             = Coat of Arms of Burgos.svg\n |latitude           = 42/20/32/N\n |longitude          = 3/41/56/W\n |ccaa               = {{ES-CL}}\n |provincia          = Burgos\n |comarca            = Alfoz de Burgos\n |fundación          = 884\n |altitud            = 865\n |cp                 = 09001 – 09007\n |cod_ine            = 09059\n |alcalde            = Daniel de la Rosa Villahoz\n |web                = https://www.aytoburgos.es/\n |mapa               = Karte Gemeinde Burgos 2022.png\n}}\n\n'''Burgos''' ([[Spanische Sprache|spanisch]] [{{IPA|ˈbuɾɣos}}]) hat {{Einwohnerzahl Wikidata}} Einwohner (Stand: {{Einwohnerzahl-Stand Wikidata|Q9580}}) zählende [[Hauptstadt]] der [[Provinz Burgos|gleichnamigen Provinz]] in der [[Autonome Gemeinschaften Spaniens|Autonomen Gemeinschaft]] [[Kastilien und León|Kastilien-León]] ''(Castilla y León)'' in [[Spanien]]. Die Großstadt liegt am [[Jakobsweg]] ''([[Camino Francés]])'' und am ''[[Camino del Cid]]''.",
+  "segments": [
+    {
+      "id": "272014504-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Spanien | ccaa               = {{ES-CL}}",
+      "plain": "Infobox Gemeinde in Spanien – Basisdaten – Autonome Gemeinschaft: Kastilien und León"
+    },
+    {
+      "id": "272014504-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Spanien | provincia          = Burgos",
+      "plain": "Infobox Gemeinde in Spanien – Basisdaten – Provinz: Burgos"
+    },
+    {
+      "id": "272014504-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Spanien | fundación          = 884",
+      "plain": "Infobox Gemeinde in Spanien – Basisdaten – Gründung: 884"
+    },
+    {
+      "id": "272014504-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Spanien | cp                 = 09001 – 09007",
+      "plain": "Infobox Gemeinde in Spanien – Basisdaten – Postleitzahl(en): 09001 – 09007"
+    },
+    {
+      "id": "272014504-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Spanien | alcalde            = Daniel de la Rosa Villahoz",
+      "plain": "Infobox Gemeinde in Spanien – Verwaltung – Bürgermeister: Daniel de la Rosa Villahoz"
+    },
+    {
+      "id": "272014504-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Spanien | web                = https://www.aytoburgos.es/",
+      "plain": "Infobox Gemeinde in Spanien – Verwaltung – Website: www.aytoburgos.es"
+    },
+    {
+      "id": "272014504-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Burgos''' ([[Spanische Sprache|spanisch]] [{{IPA|ˈbuɾɣos}}]) hat {{Einwohnerzahl Wikidata}} Einwohner (Stand: {{Einwohnerzahl-Stand Wikidata|Q9580}}) zählende [[Hauptstadt]] der [[Provinz Burgos|gleichnamigen Provinz]] in der [[Autonome Gemeinschaften Spaniens|Autonomen Gemeinschaft]] [[Kastilien und León|Kastilien-León]] ''(Castilla y León)'' in [[Spanien]].",
+      "plain": null
+    },
+    {
+      "id": "272014504-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Großstadt liegt am [[Jakobsweg]] ''([[Camino Francés]])'' und am ''[[Camino del Cid]]''.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272014504,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": []
+  }
+}

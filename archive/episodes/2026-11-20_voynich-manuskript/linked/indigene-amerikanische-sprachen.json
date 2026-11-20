@@ -1,0 +1,68 @@
+{
+  "title": "Indigene amerikanische Sprachen",
+  "revid": 266633979,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-05-01T00:19:53Z",
+  "fetched_at": "2026-11-20T10:23:14Z",
+  "categories": [
+    "Kategorie:Indigene Sprachen Amerikas",
+    "Kategorie:Wikipedia:Überarbeiten"
+  ],
+  "intro_wikitext": "[[Datei:Langs N.Amer Deutsch.png|mini|350px|Verbreitungsgebiete der indigenen Sprachen Nordamerikas vor der Kolonialisierung]]\n[[Datei:Map-Most Widely Spoken Native Languages in Latin America.png|mini|350px|Meistgesprochene indigene amerikanische Sprachen:{{Farblegende|#c00|[[Nahuatl]] (1,7&nbsp;Mio.)}}\n{{Farblegende|#060|[[Maya-Sprachen]] (6,5&nbsp;Mio.)}}\n{{Farblegende|#39f|[[Quechua]] (7,8&nbsp;Mio.)}} \n{{Farblegende|#f93|[[Aymara (Sprache)|Aymara]] (2,2&nbsp;Mio.)}}\n{{Farblegende|#ff3|[[Guaraní (Sprache)|Guaraní]] (4–5&nbsp;Mio.)}}\n{{Farblegende|#001|[[Mapudungun]] (0,3&nbsp;Mio.)}} Hinzu kommt das [[Wayuunaiki]] (0,4&nbsp;Mio.) auf der [[Guajira-Halbinsel]] (Kolumbien/Venezuela)]]\n\nDie '''indigenen amerikanischen Sprachen''' sind die [[Sprache]]n der [[Ureinwohner Amerikas]] von den heutigen Staaten bzw. Gebieten [[Kanada]], [[Vereinigte Staaten|USA]] und [[Grönland]] über [[Mexiko]] und [[Zentralamerika]], die [[Karibik]] bis hin zur südlichen Spitze von [[Südamerika]]. Sie bestehen aus Dutzenden von eindeutigen [[Sprachfamilie]]n sowie vielen [[Isolierte Sprachen|isolierten Sprachen]]. Vorschläge, diese in übergeordnete Familien zu gruppieren, wurden von einigen [[Linguistik|Linguisten]] unterbreitet, sind aber nicht allgemein anerkannt worden. Als letzte Darstellung der sprachlichen [[Genetische Verwandtschaft (Linguistik)|Verwandtschaften]] auf dem amerikanischen Kontinent, die allgemeine Zustimmung gefunden hat, gilt die Klassifikation von Voegelin & Voegelin (1965). Seither haben sich die Meinungsunterschiede von denjenigen, die von wenigen Großfamilien ausgehen („[[Lumper und Splitter|lumpers]]“) und denjenigen, welche viele verschiedene Sprachfamilien annehmen („splitters“) in der Fachwelt eher verschärft, als dass sie kleiner geworden wären.",
+  "segments": [
+    {
+      "id": "266633979-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''indigenen amerikanischen Sprachen''' sind die [[Sprache]]n der [[Ureinwohner Amerikas]] von den heutigen Staaten bzw. Gebieten [[Kanada]], [[Vereinigte Staaten|USA]] und [[Grönland]] über [[Mexiko]] und [[Zentralamerika]], die [[Karibik]] bis hin zur südlichen Spitze von [[Südamerika]].",
+      "plain": null
+    },
+    {
+      "id": "266633979-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie bestehen aus Dutzenden von eindeutigen [[Sprachfamilie]]n sowie vielen [[Isolierte Sprachen|isolierten Sprachen]].",
+      "plain": null
+    },
+    {
+      "id": "266633979-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Vorschläge, diese in übergeordnete Familien zu gruppieren, wurden von einigen [[Linguistik|Linguisten]] unterbreitet, sind aber nicht allgemein anerkannt worden.",
+      "plain": null
+    },
+    {
+      "id": "266633979-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als letzte Darstellung der sprachlichen [[Genetische Verwandtschaft (Linguistik)|Verwandtschaften]] auf dem amerikanischen Kontinent, die allgemeine Zustimmung gefunden hat, gilt die Klassifikation von Voegelin & Voegelin (1965).",
+      "plain": null
+    },
+    {
+      "id": "266633979-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Seither haben sich die Meinungsunterschiede von denjenigen, die von wenigen Großfamilien ausgehen („[[Lumper und Splitter|lumpers]]“) und denjenigen, welche viele verschiedene Sprachfamilien annehmen („splitters“) in der Fachwelt eher verschärft, als dass sie kleiner geworden wären.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 266633979,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "266633979-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "266633979-0002"
+        ],
+        "plain": "Als letzte Darstellung der sprachlichen Verwandtschaften auf dem amerikanischen Kontinent, die allgemeine Zustimmung gefunden hat, gilt die Klassifikation von Voegelin & Voegelin (1965).",
+        "context_plain": [
+          "Vorschläge, diese in übergeordnete Familien zu gruppieren, wurden von einigen Linguisten unterbreitet, sind aber nicht allgemein anerkannt worden."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}
