@@ -1,0 +1,64 @@
+{
+  "title": "Staatliches Museum für Naturkunde Stuttgart",
+  "revid": 259185148,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-08-25T20:23:43Z",
+  "fetched_at": "2026-11-20T11:12:29Z",
+  "categories": [
+    "Kategorie:Geologisches Museum",
+    "Kategorie:Museum in Stuttgart",
+    "Kategorie:Museumsgründung 1950",
+    "Kategorie:Paläontologisches Museum in Deutschland",
+    "Kategorie:Staatliches Museum für Naturkunde Stuttgart"
+  ],
+  "intro_wikitext": "[[Datei:MuseumLöwentor-pjt2.jpg|mini|450px|Museum am Löwentor (2018)]]\n[[Datei:Schloss Rosenstein, 031.jpg|alternativtext=Vorderansicht des Schlosses Rosenstein mit Nymphengruppe|mini|322x322px|Schloss Rosenstein]]\nDas '''Staatliche Museum für Naturkunde Stuttgart''' (SMNS) besteht aus zwei im Stuttgarter [[Rosensteinpark]] gelegenen Museen, die Ausstellungs- und Forschungstätigkeiten vereinigen. Während sich das [[Museum Schloss Rosenstein]] der [[Biologie]] widmet, liegt beim [[Museum am Löwentor]] der Fokus auf der [[Paläontologie]] und [[Geologie]]. Das Museumsgebäude wurde vom deutschen Architekten und Ingenieur [[Curt Siegel (Architekt)|Curt Siegel]] geplant.\n\nDas Museum ist dem [[Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg]] unterstellt.",
+  "segments": [
+    {
+      "id": "259185148-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das '''Staatliche Museum für Naturkunde Stuttgart''' (SMNS) besteht aus zwei im Stuttgarter [[Rosensteinpark]] gelegenen Museen, die Ausstellungs- und Forschungstätigkeiten vereinigen.",
+      "plain": null
+    },
+    {
+      "id": "259185148-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Während sich das [[Museum Schloss Rosenstein]] der [[Biologie]] widmet, liegt beim [[Museum am Löwentor]] der Fokus auf der [[Paläontologie]] und [[Geologie]].",
+      "plain": null
+    },
+    {
+      "id": "259185148-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Museumsgebäude wurde vom deutschen Architekten und Ingenieur [[Curt Siegel (Architekt)|Curt Siegel]] geplant.",
+      "plain": null
+    },
+    {
+      "id": "259185148-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Museum ist dem [[Ministerium für Wissenschaft, Forschung und Kunst Baden-Württemberg]] unterstellt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 259185148,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "259185148-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "259185148-0000"
+        ],
+        "plain": "Während sich das Museum Schloss Rosenstein der Biologie widmet, liegt beim Museum am Löwentor der Fokus auf der Paläontologie und Geologie.",
+        "context_plain": [
+          "Das Staatliche Museum für Naturkunde Stuttgart (SMNS) besteht aus zwei im Stuttgarter Rosensteinpark gelegenen Museen, die Ausstellungs- und Forschungstätigkeiten vereinigen."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

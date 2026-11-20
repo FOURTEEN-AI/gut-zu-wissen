@@ -1,0 +1,72 @@
+{
+  "title": "Sigismund III. Wasa",
+  "revid": 267998259,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-06-17T06:53:59Z",
+  "fetched_at": "2026-11-20T11:12:29Z",
+  "categories": [
+    "Kategorie:Familienmitglied des Hauses Wasa",
+    "Kategorie:Geboren 1566",
+    "Kategorie:Gestorben 1632",
+    "Kategorie:Herrscher (16. Jahrhundert)",
+    "Kategorie:Herrscher (17. Jahrhundert)",
+    "Kategorie:König (Polen)",
+    "Kategorie:König (Schweden)",
+    "Kategorie:Mann",
+    "Kategorie:Ritter des Ordens vom Goldenen Vlies (16. Jahrhundert)",
+    "Kategorie:Schwedische Geschichte (16. Jahrhundert)",
+    "Kategorie:Sigismund III. Wasa",
+    "Kategorie:Titularkönig (Schweden)"
+  ],
+  "intro_wikitext": "[[Datei:Soutman Sigismund III Vasa in coronation robes.jpg|mini|König Sigismund auf einem Gemälde von [[Pieter Soutman]], 17.&nbsp;Jahrhundert]]\n[[Datei:Sigismundus III Rex - signature.png|mini|class=notpageimage skin-invert-image|Unterschrift von Sigismund III. Wasa]]\n\n'''Sigismund III. Wasa''' ({{plS|Zygmunt III Waza}}, {{ltS|Zigmantas Vaza}}, {{svS|Sigismund Vasa}}; * [[20. Juni]] [[1566]] auf [[Schloss Gripsholm]], [[Mariefred]], [[Schwedisches Reich]]; † [[30. April]] [[1632]] in [[Warschau]], [[Polen]]) war ab 1587 als König von [[Königreich Polen|Polen]] und Großfürst von [[Großfürstentum Litauen|Litauen]], [[Freie Wahl (Polen)|gewähltes]] Staatsoberhaupt von [[Polen-Litauen]], ab 1592 bis zu seiner Absetzung durch den [[Schwedischer Ständereichstag|schwedischen Ständereichstag]] 1599 Erbkönig von Schweden und ab 1599 bis zu seinem Tode 1632 [[Titularkönig]] von Schweden.\n\nSigismund III. wurde als Sohn von König [[Johann III. (Schweden)|Johann III.]] von Schweden und [[Katharina Jagiellonka]], der Schwester des polnischen Königs [[Sigismund II. August]], geboren. Damit gehörte er sowohl zu den [[Adel|Geschlechtern]] der [[Haus Wasa|Wasa]] als auch der [[Jagiellonen]].",
+  "segments": [
+    {
+      "id": "267998259-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Sigismund III. Wasa''' ({{plS|Zygmunt III Waza}}, {{ltS|Zigmantas Vaza}}, {{svS|Sigismund Vasa}}; * [[20. Juni]] [[1566]] auf [[Schloss Gripsholm]], [[Mariefred]], [[Schwedisches Reich]]; † [[30. April]] [[1632]] in [[Warschau]], [[Polen]]) war ab 1587 als König von [[Königreich Polen|Polen]] und Großfürst von [[Großfürstentum Litauen|Litauen]], [[Freie Wahl (Polen)|gewähltes]] Staatsoberhaupt von [[Polen-Litauen]], ab 1592 bis zu seiner Absetzung durch den [[Schwedischer Ständereichstag|schwedischen Ständereichstag]] 1599 Erbkönig von Schweden und ab 1599 bis zu seinem Tode 1632 [[Titularkönig]] von Schweden.",
+      "plain": null
+    },
+    {
+      "id": "267998259-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sigismund III. wurde als Sohn von König [[Johann III. (Schweden)|Johann III.]] von Schweden und [[Katharina Jagiellonka]], der Schwester des polnischen Königs [[Sigismund II. August]], geboren.",
+      "plain": null
+    },
+    {
+      "id": "267998259-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Damit gehörte er sowohl zu den [[Adel|Geschlechtern]] der [[Haus Wasa|Wasa]] als auch der [[Jagiellonen]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 267998259,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "267998259-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Sigismund III. Wasa (polnisch Zygmunt III Waza, litauisch Zigmantas Vaza, schwedisch Sigismund Vasa; * 20. Juni 1566 auf Schloss Gripsholm, Mariefred, Schwedisches Reich; † 30. April 1632 in Warschau, Polen) war ab 1587 als König von Polen und Großfürst von Litauen, gewähltes Staatsoberhaupt von Polen-Litauen, ab 1592 bis zu seiner Absetzung durch den schwedischen Ständereichstag 1599 Erbkönig von Schweden und ab 1599 bis zu seinem Tode 1632 Titularkönig von Schweden.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "267998259-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "267998259-0000"
+        ],
+        "plain": "Sigismund III. wurde als Sohn von König Johann III. von Schweden und Katharina Jagiellonka, der Schwester des polnischen Königs Sigismund II. August, geboren.",
+        "context_plain": [
+          "Sigismund III. Wasa (polnisch Zygmunt III Waza, litauisch Zigmantas Vaza, schwedisch Sigismund Vasa; * 20. Juni 1566 auf Schloss Gripsholm, Mariefred, Schwedisches Reich; † 30. April 1632 in Warschau, Polen) war ab 1587 als König von Polen und Großfürst von Litauen, gewähltes Staatsoberhaupt von Polen-Litauen, ab 1592 bis zu seiner Absetzung durch den schwedischen Ständereichstag 1599 Erbkönig von Schweden und ab 1599 bis zu seinem Tode 1632 Titularkönig von Schweden."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

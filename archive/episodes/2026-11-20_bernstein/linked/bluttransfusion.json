@@ -1,0 +1,88 @@
+{
+  "title": "Bluttransfusion",
+  "revid": 271310629,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-13T17:28:38Z",
+  "fetched_at": "2026-11-20T11:12:29Z",
+  "categories": [
+    "Kategorie:Injektion und Infusion",
+    "Kategorie:Transfusionsmedizin",
+    "Kategorie:Wikipedia:Deutschlandlastig"
+  ],
+  "intro_wikitext": "{{Weiterleitungshinweis|Transfusion|Zu weiteren Bedeutungen siehe [[Transfusion (Begriffsklärung)]].}}\n[[Datei:Blood donation - photo of arm.jpg|mini|Blutentnahme aus einer [[Unterarm#Venen|Armvene]]]]\n\n'''Bluttransfusion''' bezeichnet die [[intravenös]]e Gabe (Übertragung bzw. [[Infusion]]) von [[Erythrozytenkonzentrat]]en (Erythrozyten = rote Blutzellen) oder (heute sehr selten) von (Voll-)[[Blut]]. Stammen das Blut bzw. die Blutbestandteile von einem fremden [[Blutspender]], handelt es sich um '''Fremdblut''' und eine '''Fremdblutspende''' (''Allotransfusion''). Sind Blutspender und [[Blutempfänger]] dieselbe Person, spricht man von einer '''[[Eigenblutspende]]''' (''Autotransfusion''). Sie ist eine Anwendung von zellulären Blutprodukten, ähnlich der Gabe von Thrombozyten- und Granulozytenkonzentraten.\n\nVoraussetzung für eine erfolgreiche Transfusion ist, dass das verabreichte Blut bzw. die Blutbestandteile [[Blutgruppe]]n-kompatibel sind. Jede Bluttransfusion erfordert die Einwilligung des [[Patient]]en nach entsprechender Aufklärung<ref>Frank Wahner: [http://www.transfusionspraxis.de/files/Wahner-DGTI-180907.pdf ''Die Aufklärung des Patienten - aus juristischer Sicht (mit Beispielen).''] (PDF; 241&nbsp;kB) 40. Jahreskongress der DGTI – 18. September 2007.</ref> durch einen Arzt, wovon nur in begründeten Notsituationen abgewichen werden kann.\n\nDie erste Bluttransfusion von Tier zu Tier gelang 1666, die erste von Tier zu Mensch 1667; die erste Transfusion von Mensch zu Mensch erfolgte 1824 in [[London]].",
+  "segments": [
+    {
+      "id": "271310629-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Bluttransfusion''' bezeichnet die [[intravenös]]e Gabe (Übertragung bzw. [[Infusion]]) von [[Erythrozytenkonzentrat]]en (Erythrozyten = rote Blutzellen) oder (heute sehr selten) von (Voll-)[[Blut]].",
+      "plain": null
+    },
+    {
+      "id": "271310629-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Stammen das Blut bzw. die Blutbestandteile von einem fremden [[Blutspender]], handelt es sich um '''Fremdblut''' und eine '''Fremdblutspende''' (''Allotransfusion'').",
+      "plain": null
+    },
+    {
+      "id": "271310629-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sind Blutspender und [[Blutempfänger]] dieselbe Person, spricht man von einer '''[[Eigenblutspende]]''' (''Autotransfusion'').",
+      "plain": null
+    },
+    {
+      "id": "271310629-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie ist eine Anwendung von zellulären Blutprodukten, ähnlich der Gabe von Thrombozyten- und Granulozytenkonzentraten.",
+      "plain": null
+    },
+    {
+      "id": "271310629-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Voraussetzung für eine erfolgreiche Transfusion ist, dass das verabreichte Blut bzw. die Blutbestandteile [[Blutgruppe]]n-kompatibel sind.",
+      "plain": null
+    },
+    {
+      "id": "271310629-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Jede Bluttransfusion erfordert die Einwilligung des [[Patient]]en nach entsprechender Aufklärung<ref>Frank Wahner: [http://www.transfusionspraxis.de/files/Wahner-DGTI-180907.pdf ''Die Aufklärung des Patienten - aus juristischer Sicht (mit Beispielen).''] (PDF; 241&nbsp;kB) 40. Jahreskongress der DGTI – 18. September 2007.</ref> durch einen Arzt, wovon nur in begründeten Notsituationen abgewichen werden kann.",
+      "plain": null
+    },
+    {
+      "id": "271310629-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die erste Bluttransfusion von Tier zu Tier gelang 1666, die erste von Tier zu Mensch 1667; die erste Transfusion von Mensch zu Mensch erfolgte 1824 in [[London]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271310629,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271310629-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Bluttransfusion bezeichnet die intravenöse Gabe (Übertragung bzw. Infusion) von Erythrozytenkonzentraten (Erythrozyten = rote Blutzellen) oder (heute sehr selten) von (Voll-)Blut.",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "271310629-0006",
+        "reason": "context_invalid"
+      },
+      {
+        "segment_id": "271310629-0005",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

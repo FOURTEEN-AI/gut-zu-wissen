@@ -1,0 +1,106 @@
+{
+  "title": "Magie",
+  "revid": 272151115,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-14T09:57:51Z",
+  "fetched_at": "2026-11-20T11:12:29Z",
+  "categories": [
+    "Kategorie:Esoterik",
+    "Kategorie:Magie",
+    "Kategorie:Okkultismus",
+    "Kategorie:Parapsychologie",
+    "Kategorie:Wikipedia:Belege fehlen",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2026-05"
+  ],
+  "intro_wikitext": "{{Begriffsklärungshinweis|Weitere Bedeutungen sind unter [[Magie (Begriffsklärung)]] aufgeführt, zum Lied siehe [[Magisch (Lied)]].}}\n[[Datei:B270 Rembrandt.jpg|mini|Magische Beschwörung ([[Radierung]] von [[Rembrandt van Rijn|Rembrandt]], ca. 1652)]]\n'''Magie''' ({{laS|magia}}) oder '''Zauberei''' bzw. '''Zauber''', früher auch '''Zauberkunst''', nimmt für sich in Anspruch, durch mehr oder minder [[ritual]]isierte Handlungen ([[Ritualmagie]]) übernatürliche Wirkungen erzielen zu können. Im Gegensatz zu [[Religion|religiösen]] Handlungen, die Ähnliches für sich beanspruchen (zum Beispiel Heilungswunder oder die [[Transsubstantiation]] in der christlichen Messe), gründet sich der Anspruch auf den Besitz eines besonderen, nicht allgemein zugänglichen (also [[Esoterik|esoterischem]] oder [[Okkultismus|okkultem]]) Wissens beziehungsweise auf die besondere Befähigung oder Begabung der ausübenden Person, die als ''Magier'' oder ''[[Zauberer]]'' bezeichnet wird. Eine klare Unterscheidbarkeit von Magie und Religion wurde in der Wissenschaft vor allem des 19. Jahrhunderts noch behauptet, heute dagegen sieht man fließende Übergänge.\n\nDas magische Wissen wird überliefert in Form der [[Magische Literatur|magischen Literatur]], deren Zeugnisse bis ins Altertum zurückreichen. Neben der schriftlichen Überlieferung spielt auch die mündliche Überlieferung in manchen magischen Traditionen eine wichtige Rolle.\n\nDas Wort ''Magie'' ist altpersischer Herkunft und bezeichnete ursprünglich die Tätigkeit eines persischen Priesters und [[Traumdeutung|Traumdeuters]] (vgl. [[Magier (Religion)|Mager]]).\n\nAuch die Tricks des [[Zauberkünstler]]s, der sein Publikum durch Täuschungen verblüfft und unterhält, werden im Sprachgebrauch als „Magie“ bezeichnet.<ref>[https://www.duden.de/rechtschreibung/Magie Duden].</ref>",
+  "segments": [
+    {
+      "id": "272151115-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Magie''' ({{laS|magia}}) oder '''Zauberei''' bzw. '''Zauber''', früher auch '''Zauberkunst''', nimmt für sich in Anspruch, durch mehr oder minder [[ritual]]isierte Handlungen ([[Ritualmagie]]) übernatürliche Wirkungen erzielen zu können.",
+      "plain": null
+    },
+    {
+      "id": "272151115-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Gegensatz zu [[Religion|religiösen]] Handlungen, die Ähnliches für sich beanspruchen (zum Beispiel Heilungswunder oder die [[Transsubstantiation]] in der christlichen Messe), gründet sich der Anspruch auf den Besitz eines besonderen, nicht allgemein zugänglichen (also [[Esoterik|esoterischem]] oder [[Okkultismus|okkultem]]) Wissens beziehungsweise auf die besondere Befähigung oder Begabung der ausübenden Person, die als ''Magier'' oder ''[[Zauberer]]'' bezeichnet wird.",
+      "plain": null
+    },
+    {
+      "id": "272151115-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Eine klare Unterscheidbarkeit von Magie und Religion wurde in der Wissenschaft vor allem des 19. Jahrhunderts noch behauptet, heute dagegen sieht man fließende Übergänge.",
+      "plain": null
+    },
+    {
+      "id": "272151115-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das magische Wissen wird überliefert in Form der [[Magische Literatur|magischen Literatur]], deren Zeugnisse bis ins Altertum zurückreichen.",
+      "plain": null
+    },
+    {
+      "id": "272151115-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Neben der schriftlichen Überlieferung spielt auch die mündliche Überlieferung in manchen magischen Traditionen eine wichtige Rolle.",
+      "plain": null
+    },
+    {
+      "id": "272151115-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Wort ''Magie'' ist altpersischer Herkunft und bezeichnete ursprünglich die Tätigkeit eines persischen Priesters und [[Traumdeutung|Traumdeuters]] (vgl. [[Magier (Religion)|Mager]]).",
+      "plain": null
+    },
+    {
+      "id": "272151115-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Auch die Tricks des [[Zauberkünstler]]s, der sein Publikum durch Täuschungen verblüfft und unterhält, werden im Sprachgebrauch als „Magie“ bezeichnet.<ref>[https://www.duden.de/rechtschreibung/Magie Duden].</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272151115,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272151115-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Wort Magie ist altpersischer Herkunft und bezeichnete ursprünglich die Tätigkeit eines persischen Priesters und Traumdeuters (vgl. Mager).",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272151115-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272151115-0001"
+        ],
+        "plain": "Eine klare Unterscheidbarkeit von Magie und Religion wurde in der Wissenschaft vor allem des 19. Jahrhunderts noch behauptet, heute dagegen sieht man fließende Übergänge.",
+        "context_plain": [
+          "Im Gegensatz zu religiösen Handlungen, die Ähnliches für sich beanspruchen (zum Beispiel Heilungswunder oder die Transsubstantiation in der christlichen Messe), gründet sich der Anspruch auf den Besitz eines besonderen, nicht allgemein zugänglichen (also esoterischem oder okkultem) Wissens beziehungsweise auf die besondere Befähigung oder Begabung der ausübenden Person, die als Magier oder Zauberer bezeichnet wird."
+        ]
+      },
+      {
+        "segment_id": "272151115-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272151115-0000"
+        ],
+        "plain": "Im Gegensatz zu religiösen Handlungen, die Ähnliches für sich beanspruchen (zum Beispiel Heilungswunder oder die Transsubstantiation in der christlichen Messe), gründet sich der Anspruch auf den Besitz eines besonderen, nicht allgemein zugänglichen (also esoterischem oder okkultem) Wissens beziehungsweise auf die besondere Befähigung oder Begabung der ausübenden Person, die als Magier oder Zauberer bezeichnet wird.",
+        "context_plain": [
+          "Magie (lateinisch magia) oder Zauberei bzw. Zauber, früher auch Zauberkunst, nimmt für sich in Anspruch, durch mehr oder minder ritualisierte Handlungen (Ritualmagie) übernatürliche Wirkungen erzielen zu können."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

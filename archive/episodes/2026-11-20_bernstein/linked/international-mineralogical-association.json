@@ -1,0 +1,51 @@
+{
+  "title": "International Mineralogical Association",
+  "revid": 261811252,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-11-23T22:47:19Z",
+  "fetched_at": "2026-11-20T11:12:29Z",
+  "categories": [
+    "Kategorie:Geowissenschaftliche Organisation",
+    "Kategorie:Internationale Wissenschaftliche Organisation",
+    "Kategorie:Mineralogie",
+    "Kategorie:Vandœuvre-lès-Nancy",
+    "Kategorie:Verbandsgründung 1958",
+    "Kategorie:Verein (Frankreich)"
+  ],
+  "intro_wikitext": "Die '''International Mineralogical Association''' ({{deS|'''Internationale Mineralogische Vereinigung'''}}, Abkürzung '''IMA''') ist eine [[Non-Profit-Organisation|gemeinnützige]] wissenschaftliche Vereinigung mit dem Ziel, die Wissenschaft der [[Mineralogie]] zu unterstützen und zu fördern.<ref name=\"MA\" /> Gegründet wurde die IMA 1958 und besteht zurzeit aus 38 Mitgliedern, nationalen mineralogischen Gesellschaften und Gruppen.",
+  "segments": [
+    {
+      "id": "261811252-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''International Mineralogical Association''' ({{deS|'''Internationale Mineralogische Vereinigung'''}}, Abkürzung '''IMA''') ist eine [[Non-Profit-Organisation|gemeinnützige]] wissenschaftliche Vereinigung mit dem Ziel, die Wissenschaft der [[Mineralogie]] zu unterstützen und zu fördern.<ref name=\"MA\" />",
+      "plain": null
+    },
+    {
+      "id": "261811252-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Gegründet wurde die IMA 1958 und besteht zurzeit aus 38 Mitgliedern, nationalen mineralogischen Gesellschaften und Gruppen.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 261811252,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "261811252-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "261811252-0000"
+        ],
+        "plain": "Gegründet wurde die IMA 1958 und besteht zurzeit aus 38 Mitgliedern, nationalen mineralogischen Gesellschaften und Gruppen.",
+        "context_plain": [
+          "Die International Mineralogical Association (deutsch Internationale Mineralogische Vereinigung, Abkürzung IMA) ist eine gemeinnützige wissenschaftliche Vereinigung mit dem Ziel, die Wissenschaft der Mineralogie zu unterstützen und zu fördern."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

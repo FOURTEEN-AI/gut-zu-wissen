@@ -1,0 +1,46 @@
+{
+  "title": "Chloroplast",
+  "revid": 271841933,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-02T20:08:35Z",
+  "fetched_at": "2026-11-20T11:12:29Z",
+  "categories": [
+    "Kategorie:Zellbestandteil"
+  ],
+  "intro_wikitext": "[[Datei:Plagiomnium affine laminazellen.jpeg|mini|Chloroplasten in der [[Blattspreite]] des [[Laubmoos]]es ''[[Plagiomnium affine]]'']]\n\n{{Infobox GO-Terminus\n| Typ = C\n| GO = 0009507\n| Eltern = [[Organell]]<br />[[Plastid]]\n| Kinder = [[Membran (Trennschicht)|Membran]]<br />Intermembranraum<br />\n[[Thylakoid]]<br />Granum<br />Stroma<br />\nPlastoglobulus<br />[[Nukleoid]]<br />Proteinkomplexe<br />\n[[Ribosom|Plastoribosom]]<br />[[Genom|Plastom]]<br />[[cpDNA]] (ctDNA)<br />\n[[Nucleomorph]]\n}}\n\nDie '''Chloroplasten''' (von {{grcS|χλωρός}} ''chlōrós'' „grün“ und {{lang|grc|πλαστός}} ''plastós'' „geformt“) sind [[Organell]]e der [[Zelle (Biologie)|Zellen]] von [[Grünalge]]n und [[Landpflanzen]], die [[Photosynthese]] betreiben. Bei höheren [[Pflanze]]n können aus den photosynthetisch aktiven Chloroplasten durch Differenzierung [[Chromoplast]]en, [[Leukoplasten]] ([[Amyloplast]]en, [[Elaioplast]]en), [[Etioplast]]en und [[Gerontoplast]]en entstehen (zusammengefasst als [[Plastid]]en).",
+  "segments": [
+    {
+      "id": "271841933-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Chloroplasten''' (von {{grcS|χλωρός}} ''chlōrós'' „grün“ und {{lang|grc|πλαστός}} ''plastós'' „geformt“) sind [[Organell]]e der [[Zelle (Biologie)|Zellen]] von [[Grünalge]]n und [[Landpflanzen]], die [[Photosynthese]] betreiben.",
+      "plain": null
+    },
+    {
+      "id": "271841933-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bei höheren [[Pflanze]]n können aus den photosynthetisch aktiven Chloroplasten durch Differenzierung [[Chromoplast]]en, [[Leukoplasten]] ([[Amyloplast]]en, [[Elaioplast]]en), [[Etioplast]]en und [[Gerontoplast]]en entstehen (zusammengefasst als [[Plastid]]en).",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271841933,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271841933-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271841933-0000"
+        ],
+        "plain": "Bei höheren Pflanzen können aus den photosynthetisch aktiven Chloroplasten durch Differenzierung Chromoplasten, Leukoplasten (Amyloplasten, Elaioplasten), Etioplasten und Gerontoplasten entstehen (zusammengefasst als Plastiden).",
+        "context_plain": [
+          "Die Chloroplasten (von altgriechisch χλωρός chlōrós „grün“ und πλαστός plastós „geformt“) sind Organelle der Zellen von Grünalgen und Landpflanzen, die Photosynthese betreiben."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

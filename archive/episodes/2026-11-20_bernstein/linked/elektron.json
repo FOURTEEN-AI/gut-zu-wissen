@@ -1,0 +1,263 @@
+{
+  "title": "Elektron",
+  "revid": 269227813,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-30T20:54:53Z",
+  "fetched_at": "2026-11-20T11:12:29Z",
+  "categories": [
+    "Kategorie:Elektronenstrahltechnologie",
+    "Kategorie:Lepton",
+    "Kategorie:Wikipedia:Seite mit Audioeinbettung"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|befasst sich mit dem Elementarteilchen. Weitere Bedeutungen unter [[Elektron (Begriffsklärung)]].}}\n\n{{Infobox Teilchen\n|name = Elektron (e<sup>−</sup>)\n|hauptquelle = <ref name=\"CODATA\" />\n|klassifikation = [[Elementarteilchen]]<br />[[Fermion]]<br />[[Lepton]]\n|ladung_e = -1\n|ladung_c = {{ZahlExp|-1,602176634|-19}}<ref name=\"C-def\" />\n|masse_u = {{ZahlExp|5,485799090 441|-4|suffix=(97)}}\n|masse_kg = {{ZahlExp|9,1093837139|-31|suffix=(28)}}\n|ruheenergie_mev = {{ZahlExp|0,51099895069||suffix=(16)}}\n|compton_wellenlaenge_m = {{ZahlExp|2,42631023538|-12|suffix=(76)}}\n|magnetisches_moment_jt = {{ZahlExp|-9,2847646917|-24|suffix=(29)}}\n|magnetisches_moment_mub = {{ZahlExp|-1,00115965218046||suffix=(18)}}\n|g_faktor = {{ZahlExp|-2,00231930436092||suffix=(18)}}\n|gyromagnetisches_verhaeltnis_st = {{ZahlExp|1,76085962784|11|suffix=(55)}}\n|spinzahl = 1/2\n|isospinzahl = \n|isospin_z = \n|lebensdauer_s = \n|lebensdauer = stabil\n|wechselwirkung = [[Schwache Wechselwirkung|schwach]]<br />[[Elektromagnetische Wechselwirkung|elektromagnetisch]]<br />[[Gravitation]]\n}}\n\nDas '''Elektron''' (''[[Internationales Phonetisches Alphabet|IPA]]:'' [{{IPA|ˈeːlɛktrɔn}}]<ref name=\"Kleiner-et-al\" />, {{Audio|De-Elektron.ogg| }}; von {{grcS|ἤλεκτρον|élektron}} „[[Bernstein]]“) ist ein [[Elektrische Ladung|negativ geladenes]] stabiles [[Elementarteilchen]]. Sein Symbol ist e<sup>−</sup>.\n\nElektronen sind Bestandteile von [[Atom]]en und damit von jeder Art gewöhnlicher Materie. Sie sind an den [[Atomkern]] gebunden und bilden die [[Elektronenhülle]] des Atoms. Die gesamte [[Chemie]] beruht im Wesentlichen auf den Eigenschaften und Wechselwirkungen dieser gebundenen Elektronen.\n\nIn [[Metalle]]n ist ein Teil der Elektronen nahezu frei beweglich und bewirkt die hohe [[elektrische Leitfähigkeit]] metallischer [[Leiter (Physik)|Leiter]]. Dies ist die Grundlage der [[Elektrotechnik]] und der [[Elektronik]]. In [[Halbleiter]]n ist die Zahl der beweglichen Elektronen und damit die elektrische Leitfähigkeit leicht zu beeinflussen, sowohl durch die Herstellung des Materials als auch später durch äußere Einflüsse wie Temperatur, [[elektrische Spannung]], Lichteinfall etc. Dies ist die Grundlage der [[Halbleiterelektronik]].\n\nAus jedem Material können bei starker Erhitzung oder durch Anlegen eines starken elektrischen Feldes Elektronen austreten ([[Glühemission]], [[Feldemission]]). Als ''freie Elektronen'' können sie dann im [[Vakuum]] durch weitere Beschleunigung und Fokussierung zu einem [[Elektronenstrahl]] geformt werden. Dies hat die Entwicklung der [[Kathodenstrahlröhre|Bildröhre]] (CRT) für [[Oszilloskop]]e, [[Fernseher]] und [[Computermonitor]]e ermöglicht. Weitere Anwendungen freier Elektronen sind z.&nbsp;B. die [[Röntgenröhre]], das [[Elektronenmikroskop]], das [[Schweißen#Elektronenstrahlschweißen|Elektronenstrahlschweißen]], physikalische Grundlagenforschung mittels [[Teilchenbeschleuniger]]n und die Erzeugung von [[Synchrotronstrahlung]] für Forschung und Technik.\n\nIn der β<sup>−</sup>-[[Radioaktivität]] wird beim [[Beta-Minus-Zerfall]] eines [[Atomkern]]s ein Elektron neu erzeugt und ausgesandt.\n\nDer experimentelle Nachweis des Elektrons gelang erstmals [[Emil Wiechert]]<ref>{{Literatur |Autor=H. Rechenberg |Titel=The electron in physics – selection from a chronology of the last 100 years |Sammelwerk=European Journal of Physics |Band=18.3 |Datum=1997 |Seiten=145}}</ref> im Jahre 1897 und wenig später [[Joseph John Thomson]].<ref name=\"thomson\">{{Literatur |Autor=J.J. Thomson |Titel=Cathode Rays |Sammelwerk=Philosophical Magazine |Band=44 |Datum=1897 |Seiten=293 |Kommentar=J. J. Thomson (1856–1940): Cathode Rays |Online=[https://web.lemoyne.edu/~GIUNTA/thomson1897.html Online]}}</ref>",
+  "segments": [
+    {
+      "id": "269227813-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Teilchen | ladung_e = -1 | ladung_c = {{ZahlExp|-1,602176634|-19}}<ref name=\"C-def\" />",
+      "plain": "Infobox Teilchen – Eigenschaften – elektrische Ladung: −1 e -1.602176634e-19 C"
+    },
+    {
+      "id": "269227813-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Teilchen | masse_u = {{ZahlExp|5,485799090 441|-4|suffix=(97)}} | masse_kg = {{ZahlExp|9,1093837139|-31|suffix=(28)}}",
+      "plain": "Infobox Teilchen – Eigenschaften – Masse: 5.485799090441(97)e-4 u 9.1093837139(28)e-31 kg"
+    },
+    {
+      "id": "269227813-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Teilchen | ruheenergie_mev = {{ZahlExp|0,51099895069||suffix=(16)}}",
+      "plain": "Infobox Teilchen – Eigenschaften – Ruheenergie: 0.51099895069(16) MeV"
+    },
+    {
+      "id": "269227813-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Teilchen | compton_wellenlaenge_m = {{ZahlExp|2,42631023538|-12|suffix=(76)}}",
+      "plain": "Infobox Teilchen – Eigenschaften – Compton-Wellenlänge: 2.42631023538(76)e-12 m"
+    },
+    {
+      "id": "269227813-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Teilchen | magnetisches_moment_jt = {{ZahlExp|-9,2847646917|-24|suffix=(29)}} | magnetisches_moment_mub = {{ZahlExp|-1,00115965218046||suffix=(18)}}",
+      "plain": "Infobox Teilchen – Eigenschaften – magnetisches Moment: -9.2847646917(29)e-24 J/T -1.00115965218046(18) μB"
+    },
+    {
+      "id": "269227813-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Teilchen | g_faktor = {{ZahlExp|-2,00231930436092||suffix=(18)}}",
+      "plain": "Infobox Teilchen – Eigenschaften – g-Faktor: -2.00231930436092(18)"
+    },
+    {
+      "id": "269227813-0006",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Teilchen | gyromagnetisches_verhaeltnis_st = {{ZahlExp|1,76085962784|11|suffix=(55)}}",
+      "plain": "Infobox Teilchen – Eigenschaften – gyromagnetisches Verhältnis: 1.76085962784(55)e11 (rad/s)/T"
+    },
+    {
+      "id": "269227813-0007",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Teilchen | spinzahl = 1/2",
+      "plain": "Infobox Teilchen – Eigenschaften – Spin: ½"
+    },
+    {
+      "id": "269227813-0008",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Teilchen | lebensdauer = stabil",
+      "plain": "Infobox Teilchen – Eigenschaften – mittlere Lebensdauer: stabil"
+    },
+    {
+      "id": "269227813-0009",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Teilchen | wechselwirkung = [[Schwache Wechselwirkung|schwach]]<br />[[Elektromagnetische Wechselwirkung|elektromagnetisch]]<br />[[Gravitation]]",
+      "plain": "Infobox Teilchen – Eigenschaften – Wechselwirkungen: schwach elektromagnetisch Gravitation"
+    },
+    {
+      "id": "269227813-0010",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das '''Elektron''' (''[[Internationales Phonetisches Alphabet|IPA]]:'' [{{IPA|ˈeːlɛktrɔn}}]<ref name=\"Kleiner-et-al\" />, {{Audio|De-Elektron.ogg| }}; von {{grcS|ἤλεκτρον|élektron}} „[[Bernstein]]“) ist ein [[Elektrische Ladung|negativ geladenes]] stabiles [[Elementarteilchen]].",
+      "plain": null
+    },
+    {
+      "id": "269227813-0011",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sein Symbol ist e<sup>−</sup>.",
+      "plain": null
+    },
+    {
+      "id": "269227813-0012",
+      "type": "sentence",
+      "section": "",
+      "raw": "Elektronen sind Bestandteile von [[Atom]]en und damit von jeder Art gewöhnlicher Materie.",
+      "plain": null
+    },
+    {
+      "id": "269227813-0013",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie sind an den [[Atomkern]] gebunden und bilden die [[Elektronenhülle]] des Atoms.",
+      "plain": null
+    },
+    {
+      "id": "269227813-0014",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die gesamte [[Chemie]] beruht im Wesentlichen auf den Eigenschaften und Wechselwirkungen dieser gebundenen Elektronen.",
+      "plain": null
+    },
+    {
+      "id": "269227813-0015",
+      "type": "sentence",
+      "section": "",
+      "raw": "In [[Metalle]]n ist ein Teil der Elektronen nahezu frei beweglich und bewirkt die hohe [[elektrische Leitfähigkeit]] metallischer [[Leiter (Physik)|Leiter]].",
+      "plain": null
+    },
+    {
+      "id": "269227813-0016",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dies ist die Grundlage der [[Elektrotechnik]] und der [[Elektronik]].",
+      "plain": null
+    },
+    {
+      "id": "269227813-0017",
+      "type": "sentence",
+      "section": "",
+      "raw": "In [[Halbleiter]]n ist die Zahl der beweglichen Elektronen und damit die elektrische Leitfähigkeit leicht zu beeinflussen, sowohl durch die Herstellung des Materials als auch später durch äußere Einflüsse wie Temperatur, [[elektrische Spannung]], Lichteinfall etc.",
+      "plain": null
+    },
+    {
+      "id": "269227813-0018",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dies ist die Grundlage der [[Halbleiterelektronik]].",
+      "plain": null
+    },
+    {
+      "id": "269227813-0019",
+      "type": "sentence",
+      "section": "",
+      "raw": "Aus jedem Material können bei starker Erhitzung oder durch Anlegen eines starken elektrischen Feldes Elektronen austreten ([[Glühemission]], [[Feldemission]]).",
+      "plain": null
+    },
+    {
+      "id": "269227813-0020",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als ''freie Elektronen'' können sie dann im [[Vakuum]] durch weitere Beschleunigung und Fokussierung zu einem [[Elektronenstrahl]] geformt werden.",
+      "plain": null
+    },
+    {
+      "id": "269227813-0021",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dies hat die Entwicklung der [[Kathodenstrahlröhre|Bildröhre]] (CRT) für [[Oszilloskop]]e, [[Fernseher]] und [[Computermonitor]]e ermöglicht.",
+      "plain": null
+    },
+    {
+      "id": "269227813-0022",
+      "type": "sentence",
+      "section": "",
+      "raw": "Weitere Anwendungen freier Elektronen sind z.&nbsp;B. die [[Röntgenröhre]], das [[Elektronenmikroskop]], das [[Schweißen#Elektronenstrahlschweißen|Elektronenstrahlschweißen]], physikalische Grundlagenforschung mittels [[Teilchenbeschleuniger]]n und die Erzeugung von [[Synchrotronstrahlung]] für Forschung und Technik.",
+      "plain": null
+    },
+    {
+      "id": "269227813-0023",
+      "type": "sentence",
+      "section": "",
+      "raw": "In der β<sup>−</sup>-[[Radioaktivität]] wird beim [[Beta-Minus-Zerfall]] eines [[Atomkern]]s ein Elektron neu erzeugt und ausgesandt.",
+      "plain": null
+    },
+    {
+      "id": "269227813-0024",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der experimentelle Nachweis des Elektrons gelang erstmals [[Emil Wiechert]]<ref>{{Literatur |Autor=H. Rechenberg |Titel=The electron in physics – selection from a chronology of the last 100 years |Sammelwerk=European Journal of Physics |Band=18.3 |Datum=1997 |Seiten=145}}</ref> im Jahre 1897 und wenig später [[Joseph John Thomson]].<ref name=\"thomson\">{{Literatur |Autor=J.J. Thomson |Titel=Cathode Rays |Sammelwerk=Philosophical Magazine |Band=44 |Datum=1897 |Seiten=293 |Kommentar=J. J. Thomson (1856–1940): Cathode Rays |Online=[https://web.lemoyne.edu/~GIUNTA/thomson1897.html Online]}}</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269227813,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269227813-0010",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Elektron (IPA: [ˈeːlɛktrɔn], ⓘ; von altgriechisch ἤλεκτρον élektron „Bernstein“) ist ein negativ geladenes stabiles Elementarteilchen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269227813-0014",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269227813-0013"
+        ],
+        "plain": "Die gesamte Chemie beruht im Wesentlichen auf den Eigenschaften und Wechselwirkungen dieser gebundenen Elektronen.",
+        "context_plain": [
+          "Sie sind an den Atomkern gebunden und bilden die Elektronenhülle des Atoms."
+        ]
+      },
+      {
+        "segment_id": "269227813-0015",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "In Metallen ist ein Teil der Elektronen nahezu frei beweglich und bewirkt die hohe elektrische Leitfähigkeit metallischer Leiter.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269227813-0019",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Aus jedem Material können bei starker Erhitzung oder durch Anlegen eines starken elektrischen Feldes Elektronen austreten (Glühemission, Feldemission).",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269227813-0021",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269227813-0019",
+          "269227813-0020"
+        ],
+        "plain": "Dies hat die Entwicklung der Bildröhre (CRT) für Oszilloskope, Fernseher und Computermonitore ermöglicht.",
+        "context_plain": [
+          "Aus jedem Material können bei starker Erhitzung oder durch Anlegen eines starken elektrischen Feldes Elektronen austreten (Glühemission, Feldemission).",
+          "Als freie Elektronen können sie dann im Vakuum durch weitere Beschleunigung und Fokussierung zu einem Elektronenstrahl geformt werden."
+        ]
+      },
+      {
+        "segment_id": "269227813-0023",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "In der β−-Radioaktivität wird beim Beta-Minus-Zerfall eines Atomkerns ein Elektron neu erzeugt und ausgesandt.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269227813-0024",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der experimentelle Nachweis des Elektrons gelang erstmals Emil Wiechert im Jahre 1897 und wenig später Joseph John Thomson.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

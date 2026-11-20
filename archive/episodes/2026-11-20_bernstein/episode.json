@@ -1,0 +1,47 @@
+{
+  "episode_id": "2026-11-20_bernstein",
+  "title": "Bernstein",
+  "status": "failed",
+  "started_at": "2026-11-20T11:12:29Z",
+  "finished_at": "2026-11-20T11:39:29Z",
+  "published_at": null,
+  "explicit": null,
+  "failure": "Conversation regeneration budget used up (2x): Turn regeneration budget used up (2x, cascade included).",
+  "usage": {
+    "author": {
+      "model": "claude-sonnet-5-5",
+      "calls": 115,
+      "input_tokens": 515729,
+      "output_tokens": 118653
+    },
+    "llm_judge": {
+      "model": "claude-sonnet-5-5",
+      "calls": 160,
+      "input_tokens": 168762,
+      "output_tokens": 37962
+    },
+    "jev": {
+      "model": "jev-1.14.0",
+      "calls": 191,
+      "input_tokens": 189914,
+      "output_tokens": 8815
+    }
+  },
+  "cost": {
+    "prices": {
+      "claude_sonnet_input": 2.0,
+      "claude_sonnet_output": 10.0,
+      "jev": 0.042,
+      "gemini_tts_input": 0.5,
+      "gemini_tts_output": 9.0
+    },
+    "usd": {
+      "author": 2.218,
+      "llm_judge": 0.7171,
+      "jev": 0.008,
+      "tts": 0
+    }
+  },
+  "failed_step": "dialog",
+  "resumed": []
+}

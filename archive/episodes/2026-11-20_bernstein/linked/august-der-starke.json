@@ -1,0 +1,82 @@
+{
+  "title": "August der Starke",
+  "revid": 271822959,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-02T06:21:34Z",
+  "fetched_at": "2026-11-20T11:12:29Z",
+  "categories": [
+    "Kategorie:August der Starke",
+    "Kategorie:Constantia von Cosel",
+    "Kategorie:Erzmarschall",
+    "Kategorie:Geboren 1670",
+    "Kategorie:Gestorben 1733",
+    "Kategorie:Herrscher (17. Jahrhundert)",
+    "Kategorie:Herrscher (18. Jahrhundert)",
+    "Kategorie:Kunstsammler",
+    "Kategorie:Kurfürst (Sachsen)",
+    "Kategorie:König (Polen)",
+    "Kategorie:Mann",
+    "Kategorie:Markgraf (Meißen)",
+    "Kategorie:Person (Dresden)",
+    "Kategorie:Person (Jagd)",
+    "Kategorie:Person (Porzellanmanufaktur Meißen)",
+    "Kategorie:Person im Großen Nordischen Krieg (Sachsen-Polen)",
+    "Kategorie:Person in den Türkenkriegen",
+    "Kategorie:Ritter des Ordens vom Goldenen Vlies (17. Jahrhundert)",
+    "Kategorie:Ritter des Schwarzen Adlerordens",
+    "Kategorie:Träger des Elefanten-Ordens",
+    "Kategorie:Träger des Weißen Adlerordens",
+    "Kategorie:Wettiner (Albertinische Linie)",
+    "Kategorie:Wikipedia:Seite mit ref-Parameter details"
+  ],
+  "intro_wikitext": "{{Begriffsklärungshinweis}}\n[[Datei:Louis de Silvestre-August II.jpg|mini|August der Starke, Gemälde von [[Louis de Silvestre]], um 1720 [[Datei:Augustus II signature.svg|rahmenlos|klasse=skin-invert-image]]]]\n\n'''August der Starke''' (* [[12. Mai]] [[1670]] in [[Dresden]]; † [[1. Februar]] [[1733]] in [[Warschau]]) aus der [[Albertiner|albertinischen Linie]] des [[Haus Wettin|Hauses Wettin]] war von 1694 bis 1733 als '''Friedrich August&nbsp;I.''' [[Kurfürst]] von [[Kurfürstentum Sachsen|Sachsen]] sowie von 1697 bis 1706 und erneut von 1709 bis 1733 als '''August&nbsp;II.''' in [[Personalunion]] [[Liste der polnischen Herrscher|König von Polen]] und [[Liste der Herrscher Litauens|Großfürst von Litauen]]. Er gilt als eine der schillerndsten Figuren höfischer Prachtentfaltung des späten 17. und frühen 18. Jahrhunderts und begründete als Prototyp [[Absolutismus|absolutistischer]] Selbstdarstellung durch seine ausgeprägte Kunst- und Bauleidenschaft den Ruf Dresdens als prunkvolle [[Dresdner Barock|barocke Metropole]], der bis heute nachwirkt. Unter ihm erlebte der Kurstaat eine enorme wirtschaftliche, infrastrukturelle und kulturelle Blüte. Gleichzeitig verwickelte er seine Länder in den [[Großer Nordischer Krieg|Dritten Nordischen Krieg von 1700 bis 1721]], in dessen Verlauf er, nachdem er vom protestantischen zum römisch-katholischen Glauben konvertiert war, die [[Polen-Litauen|polnische Krone]] wieder für sich gewinnen konnte, was aber bald darauf zu weiteren Kriegen und zur Stärkung des [[Geschichte Russlands#Russland als neue Nordische Großmacht|russischen]] Einflusses in Polen führte.",
+  "segments": [
+    {
+      "id": "271822959-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''August der Starke''' (* [[12. Mai]] [[1670]] in [[Dresden]]; † [[1. Februar]] [[1733]] in [[Warschau]]) aus der [[Albertiner|albertinischen Linie]] des [[Haus Wettin|Hauses Wettin]] war von 1694 bis 1733 als '''Friedrich August&nbsp;I.''' [[Kurfürst]] von [[Kurfürstentum Sachsen|Sachsen]] sowie von 1697 bis 1706 und erneut von 1709 bis 1733 als '''August&nbsp;II.''' in [[Personalunion]] [[Liste der polnischen Herrscher|König von Polen]] und [[Liste der Herrscher Litauens|Großfürst von Litauen]].",
+      "plain": null
+    },
+    {
+      "id": "271822959-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er gilt als eine der schillerndsten Figuren höfischer Prachtentfaltung des späten 17. und frühen 18. Jahrhunderts und begründete als Prototyp [[Absolutismus|absolutistischer]] Selbstdarstellung durch seine ausgeprägte Kunst- und Bauleidenschaft den Ruf Dresdens als prunkvolle [[Dresdner Barock|barocke Metropole]], der bis heute nachwirkt.",
+      "plain": null
+    },
+    {
+      "id": "271822959-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Unter ihm erlebte der Kurstaat eine enorme wirtschaftliche, infrastrukturelle und kulturelle Blüte.",
+      "plain": null
+    },
+    {
+      "id": "271822959-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Gleichzeitig verwickelte er seine Länder in den [[Großer Nordischer Krieg|Dritten Nordischen Krieg von 1700 bis 1721]], in dessen Verlauf er, nachdem er vom protestantischen zum römisch-katholischen Glauben konvertiert war, die [[Polen-Litauen|polnische Krone]] wieder für sich gewinnen konnte, was aber bald darauf zu weiteren Kriegen und zur Stärkung des [[Geschichte Russlands#Russland als neue Nordische Großmacht|russischen]] Einflusses in Polen führte.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271822959,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271822959-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271822959-0002"
+        ],
+        "plain": "Gleichzeitig verwickelte er seine Länder in den Dritten Nordischen Krieg von 1700 bis 1721, in dessen Verlauf er, nachdem er vom protestantischen zum römisch-katholischen Glauben konvertiert war, die polnische Krone wieder für sich gewinnen konnte, was aber bald darauf zu weiteren Kriegen und zur Stärkung des russischen Einflusses in Polen führte.",
+        "context_plain": [
+          "Unter ihm erlebte der Kurstaat eine enorme wirtschaftliche, infrastrukturelle und kulturelle Blüte."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

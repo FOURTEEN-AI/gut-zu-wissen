@@ -1,0 +1,46 @@
+{
+  "title": "Retinit",
+  "revid": 253224495,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-02-11T14:10:40Z",
+  "fetched_at": "2026-11-20T11:12:29Z",
+  "categories": [
+    "Kategorie:Bernsteinart"
+  ],
+  "intro_wikitext": "[[Datei:Retinite.jpg|mini|rechts|Retinit]]\nAls '''Retinit''' (vom griechischen ''retine'' „Harz“) werden sehr verschiedenartige (fossile) [[Harz (Material)|Harze]] bezeichnet, die keine oder wenig [[Bernsteinsäure]] enthalten. Retinit ist, anders als die Endung „…it“ im Namen vermuten lässt kein (anerkanntes) [[Mineral]] oder [[Gestein]].",
+  "segments": [
+    {
+      "id": "253224495-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als '''Retinit''' (vom griechischen ''retine'' „Harz“) werden sehr verschiedenartige (fossile) [[Harz (Material)|Harze]] bezeichnet, die keine oder wenig [[Bernsteinsäure]] enthalten.",
+      "plain": null
+    },
+    {
+      "id": "253224495-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Retinit ist, anders als die Endung „…it“ im Namen vermuten lässt kein (anerkanntes) [[Mineral]] oder [[Gestein]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 253224495,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "253224495-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "253224495-0000"
+        ],
+        "plain": "Retinit ist, anders als die Endung „…it“ im Namen vermuten lässt kein (anerkanntes) Mineral oder Gestein.",
+        "context_plain": [
+          "Als Retinit (vom griechischen retine „Harz“) werden sehr verschiedenartige (fossile) Harze bezeichnet, die keine oder wenig Bernsteinsäure enthalten."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "title": "Schliere",
+  "revid": 232011864,
+  "revision_status": "sighted",
+  "revision_timestamp": "2023-03-20T19:48:01Z",
+  "fetched_at": "2026-11-20T11:12:29Z",
+  "categories": [
+    "Kategorie:Glasfehler",
+    "Kategorie:Strömungsmechanik"
+  ],
+  "intro_wikitext": "{{Begriffsklärungshinweis}}\nEine '''Schliere''' ist eine [[amorph]]e optisch erkennbare Schmierform.\n\nVereinzelt wird '''Schliere''' auch als [[Synonym]] für „schleimige Masse“ verwendet (eigentlich [[Schmierstoff|Schmiere]]).<ref name=\"Dud\"/>",
+  "segments": [
+    {
+      "id": "232011864-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Eine '''Schliere''' ist eine [[amorph]]e optisch erkennbare Schmierform.",
+      "plain": null
+    },
+    {
+      "id": "232011864-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Vereinzelt wird '''Schliere''' auch als [[Synonym]] für „schleimige Masse“ verwendet (eigentlich [[Schmierstoff|Schmiere]]).<ref name=\"Dud\"/>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 232011864,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "232011864-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "232011864-0000"
+        ],
+        "plain": "Vereinzelt wird Schliere auch als Synonym für „schleimige Masse“ verwendet (eigentlich Schmiere).",
+        "context_plain": [
+          "Eine Schliere ist eine amorphe optisch erkennbare Schmierform."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,927 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Fakt 0018 belegt, dass mit Bernstein überwiegend ein bestimmtes fossiles Harz gemeint ist, nämlich Succinit. Fakt 0019 belegt, dass Succinit und Baltischer Bernstein oft synonym verwendet werden, weil Succinit den weitaus überwiegenden Teil des Baltischen Bernsteins ausmacht. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.74,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag ist eine Nachfrage. Seine Prämisse, dass im Baltischen Bernstein mehr steckt als nur Succinit, folgt aus dem Fakt: Succinit macht den weitaus überwiegenden Teil des Baltischen Bernsteins aus, also nicht den ganzen. Er fügt keine unbelegte Angabe hinzu."
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: andere fossile Harze von unterschiedlichen Pflanzenarten und die Bezeichnung „Bernstein im weiteren Sinne“ aus 0020, das gemeinsame Vorkommen mit Succinit und die Beispiele Gedanit, Glessit, Beckerit und Stantienit aus den baltischen Vorkommen aus 0021. „Ja.“ ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag enthält nur Reaktionen: Staunen über die vielen Namen und eine Nachfrage. Das Sammeln am Ostseestrand ist als Bedingung formuliert und behauptet nichts Neues. Es wird keine Tatsache aufgestellt, die einen Beleg bräuchte."
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.78
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen 0765 und 0767: Anspülung weißen Phosphors auf Usedom und in einigen weiteren Ostseegegenden in seltenen Fällen, Herkunft aus alten Brandbomben des Zweiten Weltkriegs, Selbstentzündung bei Körpertemperatur nach dem Trocknen der feuchten Oberfläche, schwere Verbrennungen bei Sammlern. Die Einleitung \"Ja, und zwar auf etwas Gefährliches\" ist eine Überleitung ohne neue Information."
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.8
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Tatsachenbehauptung. „Puh, da will man nichts anfassen!“ ist eine Reaktion (Gefühl im Moment), und die Frage nach Spuren des Bernsteins in der Sprache ist eine Nachfrage mit Themenwechsel. Ihre Prämisse, dass es solche Spuren geben könnte, wird nicht als Tatsache behauptet. Fakt-IDs sind nicht nötig."
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Das griechische Wort für Bernstein als Namensgeber von Elektron und Elektrizität steht in 271638927-0043. Dass zur Elektrizität Phänomene wie Blitze und die Kraftwirkung des Magnetismus gehören, steht in 269413862-0001 (\"Dies umfasst...\" bezieht sich im Kontext auf die Elektrizität). \"Und wie.\" ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.95,
+        "vollstaendig": 0.65
+      },
+      "jev_error": null,
+      "reason": "Felix verbindet Bernstein und Blitz, was sich aus den Fakten ergibt: Das griechische Wort für Bernstein gab der Elektrizität den Namen, und Blitze zählen zu den Phänomenen der Elektrizität. Der Rest ist eine Nachfrage, also belegfrei. Er stellt keine zusätzliche Behauptung auf."
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Nach Tacitus hieß der Bernstein germanisch glesum, woraus das Wort Glas stammt (0050); Glas geht auf germanisch glasa „das Glänzende, Schimmernde“ zurück, das auch für Bernstein stand (0000). Es wird nichts Zusätzliches behauptet. Die Einleitung „Ja, zum Beispiel“ ist eine belegfreie Überleitung."
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Die Prämisse der Frage, dass das Wort Glas sprachlich vom Bernstein stammt, folgt aus dem Fakt: Die germanische Bezeichnung des Bernsteins war nach Tacitus glesum, worin Glas seinen Ursprung hat. Die eigentliche Frage nach weiteren Gemeinsamkeiten ist eine Nachfrage ohne neue Behauptung und braucht daher keinen Beleg."
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.97,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "„Tatsächlich.“ ist eine belegfreie Reaktion. Die Aussage zu Bernstein und Acrylglas als organischen Gläsern folgt aus [272209778-0005]. Die Definition von Glas als Sammelbegriff für Feststoffe, die beim Abkühlen aus einer Schmelze fest werden, ohne zu kristallisieren, folgt aus [272209778-0000]. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion (\"Interessant.\") und einer offenen Nachfrage nach weiteren antiken Namen für Bernstein. Die Frage enthält keine eigene Behauptung und keine faktische Prämisse, die belegt werden müsste, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Lenas Aussagen folgen dem Fakt-Satz: Lyncirium als griechisch-antiker Name für Bernstein, Bedeutung „Luchsstein“, möglicherweise die Annahme der Entstehung aus Luchsurin, der bei starker Sonneneinstrahlung hart wurde. Die Einleitung „Ja, da gab es einen weiteren Namen“ ist eine Überleitung ohne neue Behauptung. Es kommen keine zusätzlichen Angaben hinzu, und die Unsicherheit („möglicherweise“, „sei“) bleibt erhalten."
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.78
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Das ist ja eine skurrile Vorstellung!“ ist eine Reaktion (Staunen), und „Was war so ein Stein damals eigentlich wert?“ ist eine Nachfrage. Die Frage setzt keine nicht belegte Tatsache voraus, die über das Gesagte hinausgeht. Damit ist keine Fakt-ID nötig."
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.62
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Plinius' Tadel zum Bernstein-Figürchen und dem Sklaven (0367) sowie Bernsteingefäße, Bernstein als Zierde von allem Wertvollen und bernsteinfarbene Haare wohlhabender Frauen (0366). Es wird nichts Zusätzliches behauptet. Der Einstieg „Sehr viel.“ ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag besteht aus einer Reaktion (\"Wow!\", Staunen) und einer Nachfrage, ob man mit Bernstein bezahlen konnte. Er stellt keine Behauptung auf und enthält keine neue Information. Die Frage setzt auch nichts Prüfbares voraus. Ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Halsketten aus dem 5. und 6. Jahrhundert, ausgestellt im Bernsteinmuseum von Klaipėda, in der Region des heutigen Baltikums als gesetzliches Zahlungsmittel gültig. Es kommen keine zusätzlichen Angaben hinzu; das einleitende „Ja“ ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.71
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag ist eine Nachfrage. Die Prämisse, dass Bernstein kostbar war, folgt aus dem Fakt, denn Bernsteinketten galten im 5. und 6. Jahrhundert im Baltikum als gesetzliches Zahlungsmittel. Das „noch ältere“ greift nur das bisherige Gespräch auf und nennt keine neuen Zahlen, Daten oder Namen."
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Fund bei Ingolstadt, mehr als 3000 Jahre alt, Collier als Halskette aus etwa 3000 Bernsteinperlen, von unschätzbarem Wert. Das einleitende „Ja“ ist eine belegfreie Reaktion. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.63
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag ist eine Nachfrage. Sie greift mit \"Wenn Bernstein so kostbar war\" das bereits Gesagte bedingt wieder auf und bringt keine neue Information ein. Dass jemand Regeln aufgestellt hat, wird nicht behauptet, sondern als Vermutung erfragt. Damit gilt der Beitrag als belegfrei."
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.77
+      },
+      "jev_error": null,
+      "reason": "Beide inhaltlichen Aussagen stehen so in [271638927-0380]: Sammeln und Verkauf von Bernstein auf eigene Rechnung wurde geahndet, zeitweilig gab es in besonders schweren Fällen die Todesstrafe. Das einleitende \"Ja, und zwar harte\" ist eine Antwortpartikel mit einer Wertung, die durch die Todesstrafe gedeckt ist. Es kommen keine zusätzlichen Angaben hinzu."
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.57
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine neue Tatsachenbehauptung. \"Das ist heftig\" ist eine Reaktion (Staunen). Die Frage \"wird doch bestimmt auch getrickst, oder?\" ist eine Nachfrage und Vermutung, die keine Information als Prämisse einführt, die belegt werden müsste. Dass viel Geld im Spiel ist, greift nur das eben Gesagte wieder auf. Ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.76
+      },
+      "jev_error": null,
+      "reason": "Die Aussagen zu Göbel, dem Jahr 1558, den Nachbildungen (Frosch und Eidechse), dem Danziger Händler und dem italienischen Adeligen aus Mantua stehen so im Fakt-Satz. „Schon früh“ ist nur eine einordnende Überleitung ohne neue Information. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.71
+      },
+      "jev_error": null,
+      "reason": "Der erste Satz greift das Gesagte auf: Frosch und Eidechse wurden 1558 von einem Danziger Händler verkauft, also \"im Geschäft\", was durch den Fakt gedeckt ist. Der zweite Satz ist eine Nachfrage ohne neue Behauptung. Die Formulierung \"Stücke\" ist eine Umschreibung der Nachbildungen. Es werden keine zusätzlichen Angaben gemacht."
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle Angaben im Redebeitrag stimmen mit dem Fakt-Satz überein: das Jahr 1623, König Sigismund III. Wasa, der in Bernstein eingeschlossene Frosch, seine Rolle als Kunstsammler und Kunstmäzen, die Danziger Bürger als Schenkende und der Besuch als Anlass des Gastgeschenks. Es kommt nichts Zusätzliches hinzu."
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine Nachfrage mit einer Reaktion des Staunens („Spannend!“). Er enthält keine Behauptung und keine Prämisse, die einen Beleg bräuchte. Die Frage, ob sich ein verdächtiges Stück später als echt herausstellen kann, ist offen formuliert und setzt keine Tatsache voraus. Fehlende Fakt-IDs sind deshalb unproblematisch."
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich wieder: Das Stück tauchte Ende der 1990er Jahre im Geologisch-Paläontologischen Institut der Georg-August-Universität Göttingen wieder auf, wurde erneut gründlich untersucht, und seine Echtheit ist bestätigt. Es kommen keine zusätzlichen Angaben hinzu. Das einleitende „Ja“ ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage bzw. Bitte um Erklärung ('Was steckt in echtem Bernstein eigentlich so alles drin?') und enthält keine Behauptung oder Prämisse, die einen Beleg bräuchte. 'Schön.' ist eine Reaktion. Fehlende Fakt-IDs sind daher unproblematisch."
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen (sehr gut erhaltene Federn in kanadischem Bernstein, mögliche Herkunft von Dinosauriern aufgrund struktureller Merkmale) stehen im Fakt-Satz. Die Einleitung \"Zum Beispiel Federn\" ist eine Überleitung ohne neue Information. Die Angabe \"oberkreidezeitlich\" wurde weggelassen, was zulässig ist."
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung, sondern nur eine Reaktion des Staunens („Wahnsinn!“) und eine Nachfrage. Die Frage setzt keine Prämisse voraus, die einen Beleg bräuchte, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.22,
+        "aussage_2": 0.98,
+        "vollstaendig": 0.64
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Die Behauptung über Meereslebewesen im Bernstein ist falsch (0575). Die Ausnahmen – Ligia-Asseln in der Spritzwasserzone mariner Felsstrände sowie die marine Mikrofauna (u. a. Kieselalgen, Foraminiferen) in einem kleinen kreidezeitlichen Bernsteinstück aus Südwestfrankreich – stehen in 0577. „Nur wenige Ausnahmen\" entspricht „die einzigen Ausnahmen\" (zwei Fälle). Es wird keine zusätzliche Angabe gemacht."
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.63,
+        "vollstaendig": 0.8
+      },
+      "jev_error": null,
+      "reason": "„Fast keine Meerestiere also“ fasst die zitierten Fakten zusammen: Einschlüsse von Meereslebewesen sind bis auf wenige Ausnahmen (Asseln der Gattung Ligia, marine Mikroorganismen aus Südwestfrankreich) nicht belegt. Die Frage nach der Größe von Bernsteinstücken ist eine Nachfrage ohne Tatsachenbehauptung und braucht keinen Beleg."
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.81,
+        "vollstaendig": 0.76
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus Nachfragen. Er greift „im Ursprungszustand“ aus dem Fakt-Satz wieder auf und fragt, ob davon heute noch alles da ist. Die Frage enthält keine neue Behauptung, nur eine leichte Andeutung, dass sich der Zustand verändert haben könnte. Das ist eine belegfreie Reaktion und widerspricht dem Fakt-Satz nicht."
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen stimmen mit dem Fakt-Satz überein: Es konnten nur mehrere Teilstücke geborgen werden, die beiden größten wiegen zusammen etwa 23 kg und befinden sich im Staatlichen Museum für Naturkunde in Stuttgart, das auch eine Guinnessbuch-Urkunde (1995) für den größten Bernsteinfund besitzt. Es gibt keine zusätzlichen Angaben. Das einleitende „Genau.“ ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.5
+      },
+      "jev_error": null,
+      "reason": "„Ein Weltrekord im Museum“ fasst den Fakt zusammen: Das Museum in Stuttgart besitzt eine Guinnessbuch-Urkunde (1995) für den größten Bernsteinfund. Das ist ein Wiederaufgreifen des Gesagten, hier kein neuer Inhalt. „Wofür hat man Bernstein früher noch genutzt?“ ist eine Nachfrage und bringt keine Behauptung mit sich. Die Prämisse „früher genutzt“ ist in der Frage nur angedeutet und steht nicht als eigene Faktenbehauptung da."
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz 271638927-0678: Hasse als Königsberger Konsistorialrat, seine frühe, nicht unbestrittene Ansicht zur pflanzlichen Herkunft des Bernsteins, sein Interesse an Mumifizierungsmethoden und seine durch Einschlüsse gewonnene Ansicht zur Rolle des Bernsteins als Konservierungsmittel in der Antike. Der einleitende Satz „Man kam sogar auf Konservierung“ ist eine Überleitung ohne neue Information."
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.59
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag enthält nur einen subjektiven Eindruck (\"klingt nach Medizin\") und eine Nachfrage zur Arzneiverwendung von Bernstein. Das ist eine belegfreie Reaktion bzw. Überleitung. Die Anknüpfung an Mumifizierung und Bernstein als Konservierungsmittel deckt sich mit dem Fakt-Satz zu Hasse. Neue Tatsachen behauptet Felix nicht."
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.74
+      },
+      "jev_error": null,
+      "reason": "Alle Angaben stimmen mit dem Fakt-Satz überein: Culpeper (1654) mit ca. 0,7 g Bernstein bei erschwertem Urinieren, Salmon (1696) mit 2,3 g Bernsteinpulver und 0,14 l Weißwein gegen Epilepsie. Der Einleitungssatz über genaue Rezepturen einiger Autoren ist ebenfalls belegt. Es wird nichts Zusätzliches behauptet."
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion (\"Das klingt abenteuerlich!\", ein Gefühl im Moment) und einer Nachfrage (\"Gab es auch spätere Rezepte?\"). Beides ist belegfrei und enthält keine Behauptung, die durch die Fakt-Sätze gestützt werden müsste. Die Frage setzt nur voraus, dass es frühere Rezepte gab, und das passt zum zitierten Fakt."
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 41,
+      "accepted": false,
+      "decided_by": "gate",
+      "jev_p": {},
+      "jev_error": null,
+      "reason": "Der Fakt 271638927-0662 wurde schon in Redebeitrag 38, 39 und 40 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+    },
+    {
+      "turn_index": 42,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen decken sich mit dem Fakt-Satz: Der Glaube an die Kraft des Steins in magischen Vorstellungen der Neuzeit, die Empfehlung, Ehefrauen nachts Bernstein auf die Brust zu legen, und der Zweck, sie zum Gestehen schlechter Taten zu bringen. „Das kann man so sagen.“ ist eine belegfreie Reaktion. Es gibt keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 43,
+      "accepted": false,
+      "decided_by": "gate",
+      "jev_p": {},
+      "jev_error": null,
+      "reason": "Der Fakt 271638927-0043 wurde schon in Redebeitrag 6, 7 und 11 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+    },
+    {
+      "turn_index": 44,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: Einsatz als elektrischer Isolator, sehr seltenes Einsatzgebiet, spezifischer Widerstand von ungefähr 10^14 bis 10^18 Ω·m (im Fakt als \"1014 bis 1018\" geschrieben, offensichtlich Potenzschreibweise) und größer als bei Porzellan. Es werden keine zusätzlichen Angaben gemacht."
+    },
+    {
+      "turn_index": 45,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.87,
+        "vollstaendig": 0.78
+      },
+      "jev_error": null,
+      "reason": "Die Prämisse „Bernstein ist ein fossiles Harz“ folgt aus dem Fakt-Satz, der Bernstein überwiegend als bestimmtes fossiles Harz (Succinit) beschreibt. Die Frage, ob er als Mineral zählt, ist eine Nachfrage ohne Behauptung und damit belegfrei."
+    },
+    {
+      "turn_index": 46,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Die Aussagen, dass die IMA Bernstein nicht als eigenständige Mineralart anerkennt und dass der Grund die nicht eindeutig definierbare Zusammensetzung ist, folgen direkt aus dem zitierten Fakt-Satz. Das einleitende „Nein“ ist eine Antwortreaktion ohne zusätzliche Behauptung."
+    },
+    {
+      "turn_index": 47,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.76
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage zum eben Gesagten (Bitte um Klärung) und enthält keine eigene Behauptung. Die Frage setzt keine neue Information voraus, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 48,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.79
+      },
+      "jev_error": null,
+      "reason": "Die Aussagen zu Mellit, Evenkit, Whewellit und Weddellit als anerkannte Minerale und der Grund (Beteiligung geologischer Prozesse) stehen im Fakt-Satz. „Doch, in manchen Fällen schon“ ist eine belegfreie Reaktion bzw. Überleitung und deckt sich mit „einige organische Substanzen“. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 49,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.71
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag besteht aus einer Überleitung („Verstehe. Zurück zum Boden“) und einer offenen Nachfrage. Die Frage setzt keine belegpflichtige Tatsache voraus und enthält keine neue Information. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 50,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Alle Angaben (Jahr 1955, Tagebau Goitzsche östlich von Bitterfeld, kurzzeitiges Anschneiden der Bernstein führenden Schichten, zum Teil große Brocken, nicht als Bernstein erkannt, als Retinit bezeichnet) stehen im zitierten Fakt-Satz. Das einleitende \"Ja\" ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 51,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.74
+      },
+      "jev_error": null,
+      "reason": "Felix äußert nur einen Eindruck (\"klingt nach einem Mineral\") und stellt eine Nachfrage (\"Ist das eines?\"). Das ist eine Reaktion ohne Faktenbehauptung. Der Eindruck ist eine persönliche Wahrnehmung, und die Frage setzt nur voraus, dass es etwas namens Retinit gibt, was der Fakt-Satz bestätigt. Eine zusätzliche Angabe enthält der Beitrag nicht."
+    },
+    {
+      "turn_index": 52,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 53,
+      "accepted": false,
+      "decided_by": "gate",
+      "jev_p": {},
+      "jev_error": null,
+      "reason": "Der Fakt 271638927-0506 wurde schon in Redebeitrag 50 und 51 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+    },
+    {
+      "turn_index": 54,
+      "accepted": false,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Der Name „Tagebau Goitzsche“ steht in keinem der Fakt-Sätze. Der Infobox-Satz nennt nur „Braunkohle/Bernstein/Mooreiche“ ohne Ortsbezug, und der zweite Satz spricht allgemein von der „so schnell aufgenommenen Förderung“. Die Zuordnung beider Aussagen zur Goitzsche ist daher nicht belegt. Die Angaben zum Rückgang der Bernsteinlieferungen von zehn Tonnen auf eine in den 1970er-Jahren und zum VEB Ostseeschmuck stimmen dagegen mit dem Fakt überein."
+    },
+    {
+      "turn_index": 55,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Felix stellt nur eine Nachfrage (Bitte um Erklärung, was der VEB Ostseeschmuck war). Das ist eine Reaktion ohne eigene Behauptung. Die Prämisse, dass es einen VEB Ostseeschmuck gab, folgt aus dem Fakt-Satz."
+    },
+    {
+      "turn_index": 56,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz 271308653-0006: Das Unternehmen entstand aus dem VEB Ostseeschmuck, der in der DDR der bedeutendste Produzent und Exporteur von mit Bernstein verziertem Silberschmuck war. Es wird keine zusätzliche Angabe gemacht; der Ort Ribnitz-Damgarten wird nicht erwähnt."
+    },
+    {
+      "turn_index": 57,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.75
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Er enthält keine Behauptung und keine faktische Prämisse, die belegt werden müsste, und gilt daher als belegfreie Reaktion."
+    },
+    {
+      "turn_index": 58,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen (Bernstein wird seit den letzten Jahren oft durch den Kolumbianischen Ambar ersetzt; es ist ein Kopal, nur an die 200 Jahre alt; künstliche Alterung durch verschiedene Verarbeitungsstufen) stehen im zitierten Fakt-Satz. Das einleitende „Ja“ ist eine Reaktion ohne Belegpflicht."
+    },
+    {
+      "turn_index": 59,
+      "accepted": false,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.94,
+        "vollstaendig": 0.57
+      },
+      "jev_error": null,
+      "reason": "Felix sagt „Kopal ist also vergleichsweise jung“ und verallgemeinert damit. Der Fakt nennt nur für den „Kolumbianischen Ambar“, einen bestimmten Kopal, ein Alter von etwa 200 Jahren. Dass Kopal allgemein jung ist, folgt daraus nicht. Auch der Vergleich mit Bernstein steht nicht in den Fakt-Sätzen. Die Prämisse der Frage ist damit nicht belegt."
+    },
+    {
+      "turn_index": 60,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen stammen aus den zitierten Fakt-Sätzen. Die Kopal-Aussage mit dem Madagaskar-Kopal als Beispiel und dem geologisch jungen Alter folgt aus 0024. Die Altersangabe von etwa hundert Jahren bis einer Million Jahren für den Madagaskar-Bernstein folgt aus 0250. Das einleitende „Nicht immer“ ist eine Überleitung ohne eigene Behauptung."
+    },
+    {
+      "turn_index": 61,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Sie enthält keine Behauptung und keine faktische Prämisse, sondern bittet nur um Erklärung, und gilt daher als belegfrei."
+    },
+    {
+      "turn_index": 62,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Das Ritzen mit einer Kupfermünze (0143), die geringe Dichte um 1,07 g/cm³ und das Schwimmen in gesättigten Salzlösungen (0147). Dass es um Bernstein geht, ergibt sich aus dem Kontext und dem Bezug der Sätze. „Ein paar“ ist eine belegfreie Überleitung. Es gibt keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 63,
+      "accepted": false,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.62
+      },
+      "jev_error": null,
+      "reason": "Die Frage enthält die Prämisse, dass an der Ostsee immer wieder Bernstein gefunden wird („warum immer wieder Bernstein an der Ostsee zu finden ist“). Das ist eine Sachbehauptung. Es sind keine Fakt-IDs zitiert, die sie belegen, und ohne Fakt-IDs darf der Beitrag keine Behauptung enthalten."
+    },
+    {
+      "turn_index": 64,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.78
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Die Legende von Jūratė und Kastytis stammt aus dem Gebiet des heutigen Litauen, an ihrem Ende steht die Zerstörung eines Bernsteinschlosses auf dem Meeresgrund, und damit sind die sich erneuernden Strandfunde an der Ostsee dichterisch erklärt. Das einleitende „Ja, eine litauische Legende“ ist eine Wiederaufnahme ohne neue Information und deckt sich mit der Herkunftsangabe."
+    },
+    {
+      "turn_index": 65,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung, Meinung mit Faktengehalt oder Prämisse. „Eine schöne Geschichte“ ist eine Reaktion im Moment, und die Bitte um eine Zusammenfassung ist eine Bitte bzw. Überleitung. Beides ist belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 66,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "aussage_2": 0.99,
+        "aussage_3": 0.99,
+        "aussage_4": 0.98,
+        "aussage_5": 0.99,
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Jede Aussage folgt aus den Fakt-Sätzen: Succinit (0018), der griechische Name in Elektrizität (0043), glesum und Glas (0050), das Figürchen teurer als ein Sklave (0367), die Todesstrafe beim Handel auf eigene Rechnung (0380), die Nachbildungen 1558 (0720) und die fehlende IMA-Anerkennung (0028). Kleine Verkürzungen wie „bedroht“ statt „verhängt“ und „bis heute“ bei der IMA-Aussage fügen keine neue Information hinzu."
+    }
+  ],
+  "used_fact_ids": [],
+  "cascade_checks": [
+    {
+      "conversation": 3,
+      "turn_index": 12,
+      "p": 0.92,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung enthält beide Aussagen unverändert: Der Name Lyncirium („Luchsstein“) in der griechischen Antike und die mögliche Annahme, Bernstein sei aus Luchsurin entstanden, der bei starker Sonneneinstrahlung hart wurde. Der Einleitungssatz „Ja, da gab es einen weiteren Namen“ fügt keine inhaltlich abweichende Aussage hinzu."
+    },
+    {
+      "conversation": 3,
+      "turn_index": 31,
+      "p": 0.3,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung ist wortgleich mit der vorherigen. Die Aussage, dass Bernstein nur in wenigen Ausnahmen Einschlüsse von Meereslebewesen enthält (\"Fast keine Meerestiere also\"), bleibt unverändert erhalten, ebenso die anschließende Frage nach der Größe."
+    }
+  ],
+  "conversation": 3,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 7,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 7,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271638927-0017 wurde schon in Redebeitrag 0 und 1 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 8,
+      "version": 0,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 8,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.85
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Die Frage enthält keine Behauptung. Dass es beim Sammeln an der Ostsee Gefahren geben könnte, ist als offene Frage formuliert und keine Prämisse, die belegt werden müsste. Damit gilt er als belegfreie Reaktion und erfüllt die Rubrik."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 55,
+      "version": 0,
+      "replaced_by": 2,
+      "judgement": {
+        "turn_index": 55,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271638927-0019 wurde schon in Redebeitrag 0 und 1 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 55,
+      "version": 1,
+      "replaced_by": 3,
+      "judgement": {
+        "turn_index": 55,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271638927-0019 wurde schon in Redebeitrag 0 und 1 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 11,
+      "version": 0,
+      "replaced_by": 4,
+      "judgement": {
+        "turn_index": 11,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271638927-0043 wurde schon in Redebeitrag 6 und 7 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 12,
+      "version": 0,
+      "replaced_by": 5,
+      "judgement": {
+        "turn_index": 12,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 30,
+      "version": 0,
+      "replaced_by": 6,
+      "judgement": {
+        "turn_index": 30,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.27,
+          "aussage_2": 0.98,
+          "vollstaendig": 0.77
+        },
+        "jev_error": null,
+        "reason": "Fast alles folgt aus den Fakt-Sätzen: die falsche Behauptung (0575) sowie die beiden Ausnahmen, Ligia-Asseln und die Mikrofauna aus Südwestfrankreich mit Kieselalgen und Foraminiferen (0577). Nicht belegt ist aber der Einstieg „Praktisch nicht.“. Das ist eine Antwort auf eine Frage nach Meereslebewesen im Bernstein, mit der Einschränkung „praktisch“. Die Fakten sagen, die Behauptung sei falsch und es gebe nur Ausnahmen, aber nicht ausdrücklich, dass es „praktisch“ keine solchen Einschlüsse gibt. Außerdem ist „Es gibt nur zwei Ausnahmen“ eine Zählung, die der Satz mit „die einzigen Ausnahmen“ zwar stützt, aber „praktisch nicht“ geht darüber hinaus."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 31,
+      "version": 0,
+      "replaced_by": 7,
+      "judgement": {
+        "turn_index": 31,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.69,
+          "vollstaendig": 0.72
+        },
+        "jev_error": null,
+        "reason": "„Fast keine Meerestiere also“ greift die zitierten Fakten ohne neue Information auf: Einschlüsse von Meereslebewesen gibt es bis auf wenige Ausnahmen (Ligia-Asseln, marine Mikroorganismen) nicht. Die Frage nach der Größe von Bernsteinstücken ist eine Nachfrage ohne Behauptung oder Prämisse, die belegt werden müsste."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 40,
+      "version": 0,
+      "replaced_by": 8,
+      "judgement": {
+        "turn_index": 40,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271638927-0662 wurde schon in Redebeitrag 38 und 39 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 40,
+      "version": 1,
+      "replaced_by": 9,
+      "judgement": {
+        "turn_index": 40,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271638927-0662 wurde schon in Redebeitrag 38 und 39 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    }
+  ]
+}
