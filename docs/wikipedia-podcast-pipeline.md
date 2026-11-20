@@ -90,7 +90,7 @@ flowchart TD
 - **Einheit:** Redebeitrag (bis Sprecherwechsel).
 - **Ausgabe pro Redebeitrag:** Text, Fakt-IDs, jede Behauptung und jede Prämisse einer Frage als explizite Aussage mit Fakt-IDs. Reaktionen ohne Fakt-IDs zulässig.
 - **Markup:** Dialogautor sieht nur Klartext von Fakten und Kontext und schreibt Klartext.
-- **Gate Wiederholung:** ein Fakt steht in den Aussagen von höchstens `max_turns_per_fact` (2) Redebeiträgen (Erzählung plus eine Nachfrage); der letzte Redebeitrag (Zusammenfassung) zählt nicht. Jeder weitere Redebeitrag ist ein Gate-Problem und wird ohne Judge neu generiert; geprüft im ganzen aktuellen Dialog, auch nach jeder Neugenerierung, so trifft es immer den späteren Redebeitrag.
+- **Gate Wiederholung:** ein Fakt steht in den Aussagen von höchstens `max_turns_per_fact` (2) Redebeiträgen (Erzählung plus eine Nachfrage); der letzte Redebeitrag (Zusammenfassung) zählt nicht. Jeder weitere Redebeitrag ist ein Gate-Problem und wird ohne Judge neu generiert; geprüft im ganzen aktuellen Dialog, auch nach jeder Neugenerierung, so trifft es immer den späteren Redebeitrag. Ausnahme (Entscheidung 2026-11-20): Felix' Redebeiträge, die die feste Einordnung Nr. 1 (den ersten Prosasatz der Einleitung) zitieren, meist als Prämisse einer Frage, zählen für diesen Fakt nicht und werden nicht geprüft; Lenas Redebeiträge zählen wie bei jedem Fakt (einmal erzählt, dazu die Zusammenfassung). In der Liste der schon erzählten Fakten für den Dialogautor steht der Satz mit dem Vermerk, dass Felix ihn erneut als Prämisse verwenden darf.
 
 ## Judge
 

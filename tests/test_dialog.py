@@ -392,6 +392,9 @@ def test_write_dialog_records_repetition_problems_in_turn_order():
         "Jeder Fakt ist ein neuer Schritt in der Geschichte",
         "Ein späterer Redebeitrag, der einen schon erzählten Fakt noch einmal erzählt oder "
         "zusammenfasst, ist nicht erlaubt.",
+        # (h) Felix may use the definition sentence as a premise more often (user, 2026-11-20)
+        "Den ersten Einordnungssatz darf Felix öfter als Prämisse einer Frage verwenden; erzählt "
+        "wird er nur einmal.",
     ],
 )
 def test_author_prompts_contain_the_fidelity_rules(prompt, rule):
@@ -503,3 +506,79 @@ def test_continue_dialog_gives_the_author_the_rejection_reason_after_the_prefix(
     )
     continue_dialog(llm, "[F1] Fakt.", ALIASES, PREFIX, 10)
     assert "verworfen" not in llm.calls[1][1]
+
+
+# ---------------------------------------------------------------- premise exemption
+
+PINNED = frozenset({"1-0000"})
+
+
+def test_felix_citing_the_pinned_fact_in_many_turns_is_no_repetition():
+    turns = [
+        told(0, "1-0000"),
+        *(told(i, "1-0000", speaker="Felix") for i in range(1, 6)),
+        told(6, "1-0001"),
+    ]
+    assert repetition_problems(turns, OFFER, 2, PINNED) == []
+    assert len(repetition_problems(turns, OFFER, 2)) == 4  # without the exemption
+
+
+def test_lena_retelling_the_pinned_fact_a_third_time_is_still_a_repetition():
+    turns = [
+        told(0, "1-0000"),
+        told(1, "1-0000", speaker="Felix"),
+        told(2, "1-0000"),
+        told(3, "1-0000", speaker="Felix"),
+        told(4, "1-0000"),
+        told(5, "1-0001"),
+    ]
+    (problem,) = repetition_problems(turns, OFFER, 2, PINNED)
+    assert problem.turn_index == 4
+    assert problem.reason == repetition_reason("1-0000", [0, 2])
+
+
+def test_non_pinned_fact_cited_by_felix_counts_as_before():
+    turns = [told(0, "1-0001"), *(told(i, "1-0001", speaker="Felix") for i in (1, 2)), told(3)]
+    (problem,) = repetition_problems(turns, OFFER, 2, PINNED)
+    assert problem.turn_index == 2
+
+
+def test_write_dialog_exempts_felix_premises_on_the_pinned_fact():
+    def t(speaker: str, fid: str) -> dict:
+        return {
+            "speaker": speaker,
+            "text": "A",
+            "fact_ids": [fid],
+            "statements": [{"text": "S", "fact_ids": [fid]}],
+        }
+
+    answer = {"turns": [t("Lena", "F1"), t("Felix", "F1"), t("Felix", "F1"), t("Lena", "F2")]}
+    main, linked = [rf("1-0000")], [rf("2-0000", "N")]
+    assert write_dialog(FakeLlm(answer), main, linked, 1, 2, (), PINNED).problems == []
+    assert [p.turn_index for p in write_dialog(FakeLlm(answer), main, linked, 1, 2).problems] == [2]
+
+
+def test_told_listing_marks_the_pinned_fact_and_leaves_out_felix_premises():
+    turns = [
+        told(0, "1-0000"),
+        told(1, "1-0000", speaker="Felix"),
+        told(2, "1-0001", speaker="Felix"),
+        turn(3, "Felix", "Neu."),
+        told(4, "1-0000"),
+    ]
+    assert told_elsewhere(turns, 3, PINNED) == {"1-0000": [0], "1-0001": [2]}
+    assert told_in(turns, premise_exempt_ids=PINNED) == {"1-0000": [0, 4], "1-0001": [2]}
+    out = format_turn_context(turns, 3, "Grund.", ALIASES, PINNED)
+    assert (
+        "- F1: Redebeitrag 0 (Felix darf ihn erneut als Prämisse einer Frage verwenden)\n"
+        "- F2: Redebeitrag 2"
+    ) in out
+    assert "Prämisse" not in format_turn_context(turns, 3, "Grund.", ALIASES)
+
+
+def test_continuation_prefix_marks_the_pinned_fact():
+    text = format_prefix(PREFIX, ALIASES, ALIASES.values(), PINNED)
+    assert "- F1: Redebeitrag 1 (Felix darf ihn erneut als Prämisse einer Frage verwenden)" in text
+    llm = FakeLlm({"turns": []})
+    continue_dialog(llm, "[F1] Fakt.", ALIASES, PREFIX, 10, (), PINNED)
+    assert "(Felix darf ihn erneut als Prämisse" in llm.calls[0][1]

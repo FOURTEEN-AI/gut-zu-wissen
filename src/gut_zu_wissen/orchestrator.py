@@ -17,7 +17,9 @@ regeneration records the budget it charged.
 
 The repetition gate looks at the whole current dialog: a fact cited by too many turns rejects the
 later turns, never the first narration, so a regenerated turn that creates a repetition with a
-later turn rejects that later turn.
+later turn rejects that later turn. Felix's turns citing a pinned fact (`Offer.pinned`, the
+definition sentence) are exempt, typically as a question premise; Lena's count as for every
+fact (user decision 2026-11-20).
 
 Conversation level (D6, changed 2026-11-20), at most `conversation_retries` times: facts cited by
 rejected statements are excluded, cumulatively (pinned facts, the first prose sentence of the
@@ -120,7 +122,8 @@ class Offer:
     linked: list[RankedFact]
     einordnung: list[RankedFact] = field(default_factory=list)
     # never excluded by a conversation regeneration (D6): the first prose sentence of the intro
-    # as Einordnung #1 (user decision 2026-11-20)
+    # as Einordnung #1 (user decision 2026-11-20); Felix may cite it as a premise again without
+    # the repetition gate counting it (`repetition_problems`, 2026-11-20)
     pinned: frozenset[str] = frozenset()
 
     def by_id(self) -> dict[str, RankedFact]:
@@ -427,11 +430,16 @@ def continuation_rejections(
 
 
 def turn_gate_problems(
-    turns: Sequence[Turn], index: int, offered_ids: Collection[str], max_turns_per_fact: int
+    turns: Sequence[Turn],
+    index: int,
+    offered_ids: Collection[str],
+    max_turns_per_fact: int,
+    premise_exempt_ids: Collection[str] = (),
 ) -> list[TurnProblem]:
     """Gate problems of turn `index` before the judge: the fact-ID gate on the turn alone, the
-    repetition gate in the context of the whole current dialog."""
-    repeated = repetition_problems(turns, offered_ids, max_turns_per_fact)
+    repetition gate in the context of the whole current dialog (Felix's premises on the pinned
+    facts exempt, `repetition_problems`)."""
+    repeated = repetition_problems(turns, offered_ids, max_turns_per_fact, premise_exempt_ids)
     return [
         *check_turns([turns[index]], offered_ids),
         *(p for p in repeated if p.turn_index == index),
@@ -444,11 +452,12 @@ def later_repetitions(
     pos: int,
     offered_ids: Collection[str],
     max_turns_per_fact: int,
+    premise_exempt_ids: Collection[str] = (),
 ) -> list[TurnJudgement]:
     """After turn `pos` changed: accepted later turns that now repeat a fact, rejected as a gate
     problem (Jev values kept, as for the markup gate). Turns before `pos` cannot be affected."""
     reasons: dict[int, list[str]] = {}
-    for p in repetition_problems(turns, offered_ids, max_turns_per_fact):
+    for p in repetition_problems(turns, offered_ids, max_turns_per_fact, premise_exempt_ids):
         if p.turn_index > pos and judgements[p.turn_index].accepted:
             reasons.setdefault(p.turn_index, []).append(p.reason)
     return [
@@ -481,7 +490,7 @@ def evaluate(
     turn = turns[index]
     previous = turns[index - 1] if index else None
     facts = offer.by_id()
-    problems = turn_gate_problems(turns, index, facts.keys(), max_turns_per_fact)
+    problems = turn_gate_problems(turns, index, facts.keys(), max_turns_per_fact, offer.pinned)
     if problems:
         return TurnJudgement(turn.index, False, "gate", reason=" ".join(p.reason for p in problems))
     judgement = judge_turn(jev, judge_llm, turn, previous, facts, t)
@@ -580,7 +589,7 @@ def repair_turns(
                 return RepairResult(True, rejected, start, charged, chain)
             budget = remaining
             old = turns[pos]
-            new = regenerate_turn(author, offer_text, aliases, turns, pos, reason)
+            new = regenerate_turn(author, offer_text, aliases, turns, pos, reason, offer.pinned)
             version = turn_version(state.regenerations, state.conversation, pos)
             state.superseded.append(
                 SupersededJudgement(
@@ -593,7 +602,9 @@ def repair_turns(
             turns[pos] = new
             judgement = evaluate(turns, pos, offer, jev, judge_llm, t, max_turns_per_fact)
             judgements[pos] = judgement
-            for later in later_repetitions(turns, judgements, pos, offered, max_turns_per_fact):
+            for later in later_repetitions(
+                turns, judgements, pos, offered, max_turns_per_fact, offer.pinned
+            ):
                 judgements[later.turn_index] = later
             if not judgement.accepted:
                 note(new, judgement)
@@ -648,19 +659,25 @@ def orchestrate(
                 offer = state.offer
                 assert offer is not None
                 new = continue_dialog(
-                    author, offer.text(), offer.aliases(), prefix, minimum, reasons
+                    author, offer.text(), offer.aliases(), prefix, minimum, reasons, offer.pinned
                 )
                 turns = [*prefix, *new]
                 offered = offer.by_id().keys()
                 dialog = Dialog(
                     turns,
-                    dialog_problems(turns, offered, max_turns_per_fact),
+                    dialog_problems(turns, offered, max_turns_per_fact, offer.pinned),
                     used_fact_ids(turns, offered),
                 )
             else:
                 offer = state.offer = make_offer(frozenset(excluded))
                 dialog = write_dialog(
-                    author, offer.main, offer.linked, minimum, max_turns_per_fact, offer.einordnung
+                    author,
+                    offer.main,
+                    offer.linked,
+                    minimum,
+                    max_turns_per_fact,
+                    offer.einordnung,
+                    offer.pinned,
                 )
             kept = len(prefix)
             state.dialog, state.judgements, state.used_fact_ids = dialog, [], []

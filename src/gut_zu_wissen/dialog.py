@@ -26,6 +26,7 @@ from gut_zu_wissen.llm import StructuredLlm
 from gut_zu_wissen.ranking import RankedFact
 
 SPEAKERS = ("Lena", "Felix")
+QUESTIONER = "Felix"  # may use premise-exempt facts as question premises again
 
 TURN_SCHEMA = {
     "type": "object",
@@ -92,6 +93,8 @@ eine solche Nachfrage trägt wie jede Prämisse seine Kennungen. Erst in der Zus
 letzten Redebeitrag, darf er wiederkommen. Jeder Fakt ist ein neuer Schritt in der Geschichte: \
 Ein späterer Redebeitrag, der einen schon erzählten Fakt noch einmal erzählt oder zusammenfasst, \
 ist nicht erlaubt. Beantwortet Lena eine Nachfrage, tut sie es mit einem neuen Fakt.
+- Den ersten Einordnungssatz darf Felix öfter als Prämisse einer Frage verwenden; erzählt wird er \
+nur einmal.
 - Lena erzählt kurze bis mittellange Sätze, erst die Kernaussage, dann das Detail. Zahlen \
 schreibst du aus, wie sie gesprochen werden. Fachbegriffe nur mit Erklärung aus den Fakten.
 - Lena verallgemeinert nicht über den Fakt-Satz hinaus. Abgelehnt werden etwa „Es gibt keine \
@@ -366,19 +369,29 @@ def repetition_reason(fact_id: str, earlier: Sequence[int]) -> str:
     )
 
 
+def premise_exempt(turn: Turn, fact_id: str, premise_exempt_ids: Collection[str]) -> bool:
+    """Felix citing a premise-exempt fact (the pinned Einordnung #1, the first prose sentence of
+    the intro; user decision 2026-11-20): typically a question premise, not counted as telling."""
+    return turn.speaker == QUESTIONER and fact_id in premise_exempt_ids
+
+
 def repetition_problems(
-    turns: Sequence[Turn], offered_ids: Collection[str], max_turns: int
+    turns: Sequence[Turn],
+    offered_ids: Collection[str],
+    max_turns: int,
+    premise_exempt_ids: Collection[str] = (),
 ) -> list[TurnProblem]:
     """Repetition gate (user decision 2026-11-20): an offered fact may be cited by the statements
     of at most `max_turns` turns (the first narration plus one follow-up). Every further turn
     citing it gets a problem, so a repetition always points at the later turn. The last turn is
     the closing summary and is neither counted nor checked. Unknown IDs are the fact-ID gate's
-    concern and are ignored here."""
+    concern and are ignored here. Felix's turns citing a fact in `premise_exempt_ids` are neither
+    counted nor checked for it (`premise_exempt`); Lena's are, as for every fact."""
     earlier: dict[str, list[int]] = {}
     problems: list[TurnProblem] = []
     for turn in turns[:-1]:
         for fid in statement_fact_ids(turn):
-            if fid not in offered_ids:
+            if fid not in offered_ids or premise_exempt(turn, fid, premise_exempt_ids):
                 continue
             seen = earlier.setdefault(fid, [])
             if len(seen) >= max_turns:
@@ -388,12 +401,15 @@ def repetition_problems(
 
 
 def dialog_problems(
-    turns: Sequence[Turn], offered_ids: Collection[str], max_turns_per_fact: int
+    turns: Sequence[Turn],
+    offered_ids: Collection[str],
+    max_turns_per_fact: int,
+    premise_exempt_ids: Collection[str] = (),
 ) -> list[TurnProblem]:
     """All gate problems of a whole dialog, in turn order: fact-ID gate, then repetition gate."""
     problems = [
         *check_turns(turns, offered_ids),
-        *repetition_problems(turns, offered_ids, max_turns_per_fact),
+        *repetition_problems(turns, offered_ids, max_turns_per_fact, premise_exempt_ids),
     ]
     return sorted(problems, key=lambda p: p.turn_index)
 
@@ -458,9 +474,10 @@ def write_dialog(
     min_used_facts: int,
     max_turns_per_fact: int,
     einordnung: Sequence[RankedFact] = (),
+    premise_exempt_ids: Collection[str] = (),
 ) -> Dialog:
     """One dialog from the offer, checked by the fact-ID and repetition gates. Problems are
-    recorded, not raised."""
+    recorded, not raised. `premise_exempt_ids`: see `repetition_problems`."""
     answer = llm.complete_json(
         SYSTEM_PROMPT.format(min_used=min_used_facts),
         format_offer(main, linked, einordnung),
@@ -471,7 +488,7 @@ def write_dialog(
     turns = resolve_turns(parse_dialog(answer), aliases)
     return Dialog(
         turns,
-        dialog_problems(turns, offered, max_turns_per_fact),
+        dialog_problems(turns, offered, max_turns_per_fact, premise_exempt_ids),
         used_fact_ids(turns, offered),
     )
 
@@ -485,7 +502,11 @@ def _turn_lines(label: str, turn: Turn, aliases: Mapping[str, str]) -> list[str]
 
 
 def format_turn_context(
-    turns: Sequence[Turn], index: int, reason: str | None, aliases: Mapping[str, str]
+    turns: Sequence[Turn],
+    index: int,
+    reason: str | None,
+    aliases: Mapping[str, str],
+    premise_exempt_ids: Collection[str] = (),
 ) -> str:
     """The neighbours, the turn to replace and the reason, as plain text for the author. Fact IDs
     appear as aliases; `reason` is already in the author's form (`author_reason`)."""
@@ -504,47 +525,65 @@ def format_turn_context(
     ]
     if index + 1 < len(turns):
         lines += [*_turn_lines("Nächster Redebeitrag", turns[index + 1], aliases), ""]
-    told = told_elsewhere(turns, index)
+    told = told_elsewhere(turns, index, premise_exempt_ids)
     if told:
         lines += [
             "Schon in anderen Redebeiträgen erzählt (nicht noch einmal erzählen; nur eine kurze "
             "Nachfrage direkt nach der Erzählung darf sich darauf beziehen):",
-            *_told_lines(told, aliases),
+            *_told_lines(told, aliases, premise_exempt_ids),
         ]
     return "\n".join(lines).strip()
 
 
-def _told_lines(told: Mapping[str, Sequence[int]], aliases: Mapping[str, str]) -> list[str]:
+PREMISE_EXEMPT_NOTE = " (Felix darf ihn erneut als Prämisse einer Frage verwenden)"
+
+
+def _told_lines(
+    told: Mapping[str, Sequence[int]],
+    aliases: Mapping[str, str],
+    premise_exempt_ids: Collection[str] = (),
+) -> list[str]:
     return [
         f"- {shown[0]}: Redebeitrag {', '.join(map(str, where))}"
+        + (PREMISE_EXEMPT_NOTE if fid in premise_exempt_ids else "")
         for fid, where in told.items()
         if (shown := to_aliases([fid], aliases))
     ]
 
 
-def told_in(turns: Sequence[Turn], skip: Collection[int] = ()) -> dict[str, list[int]]:
+def told_in(
+    turns: Sequence[Turn], skip: Collection[int] = (), premise_exempt_ids: Collection[str] = ()
+) -> dict[str, list[int]]:
     """Facts cited by the statements of `turns` (positions in `skip` left out), with the turns
-    (archive indices) that cite them, in dialog order."""
+    (archive indices) that cite them, in dialog order. Felix's citations of premise-exempt facts
+    do not count as telling, as in the repetition gate."""
     told: dict[str, list[int]] = {}
     for pos, turn in enumerate(turns):
         if pos in skip:
             continue
         for fid in dict.fromkeys(f for s in turn.statements for f in s.fact_ids):
-            told.setdefault(fid, []).append(turn.index)
+            if not premise_exempt(turn, fid, premise_exempt_ids):
+                told.setdefault(fid, []).append(turn.index)
     return told
 
 
-def told_elsewhere(turns: Sequence[Turn], index: int) -> dict[str, list[int]]:
+def told_elsewhere(
+    turns: Sequence[Turn], index: int, premise_exempt_ids: Collection[str] = ()
+) -> dict[str, list[int]]:
     """Facts cited by statements of other turns, with those turns, in dialog order.
 
-    The turn to replace and the closing summary (the last turn) are left out, as in the
-    repetition gate. Used to tell the author which facts are already told.
+    The turn to replace and the closing summary (the last turn) are left out, as are Felix's
+    citations of premise-exempt facts, as in the repetition gate. Used to tell the author which
+    facts are already told.
     """
-    return told_in(turns, (index, len(turns) - 1))
+    return told_in(turns, (index, len(turns) - 1), premise_exempt_ids)
 
 
 def format_prefix(
-    prefix: Sequence[Turn], aliases: Mapping[str, str], offered_ids: Collection[str]
+    prefix: Sequence[Turn],
+    aliases: Mapping[str, str],
+    offered_ids: Collection[str],
+    premise_exempt_ids: Collection[str] = (),
 ) -> str:
     """The kept turns of a continuation as plain text for the author: every turn with its
     speaker and identifiers (aliases), the facts already told, the word and used-fact counts so
@@ -553,12 +592,12 @@ def format_prefix(
     lines = [f"Bisheriges Gespräch (Redebeitrag 0 bis {start - 1}, bleibt unverändert):", ""]
     for turn in prefix:
         lines += [*_turn_lines(f"Redebeitrag {turn.index}", turn, aliases), ""]
-    told = told_in(prefix)
+    told = told_in(prefix, premise_exempt_ids=premise_exempt_ids)
     if told:
         lines += [
             "Im bisherigen Gespräch schon erzählt (nicht noch einmal erzählen; nur eine kurze "
             "Nachfrage direkt nach der Erzählung darf sich darauf beziehen):",
-            *_told_lines(told, aliases),
+            *_told_lines(told, aliases, premise_exempt_ids),
             "",
         ]
     words = sum(len(t.text.split()) for t in prefix)
@@ -576,8 +615,8 @@ def format_rejections(rejections: Sequence[tuple[int, str]]) -> str:
     """Why the failed chain was discarded, for the author of the continuation (user decision
     2026-11-20): the last rejection (the one that used up the budget) with its turn, the earlier
     rejections of the chain briefly below it (repeats left out), and the instruction to avoid
-    them. Each entry is
-    (turn index, reason in the author's form, `author_reason`); empty without rejections."""
+    them. Each entry is (turn index, reason in the author's form, `author_reason`); empty without
+    rejections."""
     if not rejections:
         return ""
     index, reason = rejections[-1]
@@ -600,15 +639,18 @@ def continue_dialog(
     prefix: Sequence[Turn],
     min_used_facts: int,
     rejections: Sequence[tuple[int, str]] = (),
+    premise_exempt_ids: Collection[str] = (),
 ) -> list[Turn]:
     """The continuation of a dialog after its kept `prefix` (turns 0..k-1, user decision
     2026-11-20): the author writes the turns from k to the end, the closing summary included,
     seeing the prefix, the facts already told and why the failed chain was discarded
     (`rejections`, see `format_rejections`). Same schema as the whole dialog; the returned
     turns are re-indexed from k and hold segment IDs. `offer` is the text of `format_offer`,
-    `aliases` the offer's aliases. Gates are the orchestrator's concern."""
+    `aliases` the offer's aliases, `premise_exempt_ids` as in `repetition_problems`. Gates are the
+    orchestrator's concern."""
     assert prefix, "a continuation needs at least one kept turn"
-    user = f"Angebot:\n{offer}\n\n{format_prefix(prefix, aliases, aliases.values())}"
+    kept = format_prefix(prefix, aliases, aliases.values(), premise_exempt_ids)
+    user = f"Angebot:\n{offer}\n\n{kept}"
     if rejections:
         user += f"\n\n{format_rejections(rejections)}"
     answer = llm.complete_json(CONTINUE_PROMPT.format(min_used=min_used_facts), user, DIALOG_SCHEMA)
@@ -625,14 +667,16 @@ def regenerate_turn(
     turns: Sequence[Turn],
     index: int,
     reason: str | None,
+    premise_exempt_ids: Collection[str] = (),
 ) -> Turn:
     """A new version of turn `index` with its neighbours as context (design: Fehlerbehandlung).
 
     The speaker stays the one of the replaced turn. `offer` is the text of `format_offer`,
-    `aliases` the offer's aliases (`offer_aliases`); `reason` is the archived one.
+    `aliases` the offer's aliases (`offer_aliases`); `reason` is the archived one;
+    `premise_exempt_ids` as in `repetition_problems`.
     """
     context = format_turn_context(
-        turns, index, author_reason(turns[index], reason, aliases), aliases
+        turns, index, author_reason(turns[index], reason, aliases), aliases, premise_exempt_ids
     )
     user = f"Angebot:\n{offer}\n\n{context}"
     answer = llm.complete_json(TURN_PROMPT, user, TURN_SCHEMA)

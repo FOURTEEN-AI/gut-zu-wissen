@@ -1116,3 +1116,33 @@ def test_continuation_rejections_are_in_the_author_form_for_the_new_offer():
     assert first == (2, repetition_reason("F1", [0, 1]))
     assert second[0] == 3
     assert second[1].startswith("Die Kennung 9-9999 gibt es im Angebot nicht.")
+
+
+def test_felix_premises_on_the_pinned_fact_pass_the_gate_in_the_orchestrator():
+    # all turns cite the pinned Einordnung fact 1-0000; Felix's turns 1 and 3 are exempt, Lena's
+    # 0 and 2 are two turns: no repetition, no regeneration
+    def make(excluded: frozenset[str]) -> Offer:
+        return Offer([rf(1)], [], [rf(0)], frozenset({"1-0000"}))
+
+    author = FakeAuthor([dialog_json("Eins.", "Zwei.", "Drei.", "Vier.", "Fünf.", fact="F1")])
+    state = Orchestration()
+    orchestrate(state, make, author, FakeJudgeLlm(), FakeJev(), CONFIG)
+    assert state.regenerations == [] and state.discarded == []
+    assert all(j.accepted for j in state.judgements)
+
+
+def test_lena_retelling_the_pinned_fact_is_still_rejected_in_the_orchestrator():
+    def make(excluded: frozenset[str]) -> Offer:
+        return Offer([rf(1)], [], [rf(0)], frozenset({"1-0000"}))
+
+    author = FakeAuthor(
+        [dialog_json("Eins.", "Zwei.", "Drei.", "Vier.", "Fünf.", "Sechs.", fact="F1")],
+        [turn_json("Lena", "Fünf neu.", "1-0001"), turn_json("Felix", "Sechs neu.", "1-0000")],
+    )
+    state = Orchestration()
+    orchestrate(state, make, author, FakeJudgeLlm(), FakeJev(cascade=[0.99]), CONFIG)
+    (first, _) = state.regenerations
+    assert (first.turn_index, first.kind, first.budget) == (4, "retry", "gate")
+    assert first.reason == repetition_reason("1-0000", [0, 2])
+    # the regenerating author saw the told listing with the mark
+    assert "(Felix darf ihn erneut als Prämisse einer Frage verwenden)" in author.calls[1]
