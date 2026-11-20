@@ -217,9 +217,11 @@
       "sampled": true
     }
   ],
-  "status": "pending",
-  "outcome": null,
-  "rate_applied": [],
+  "status": "answered",
+  "outcome": "clean",
+  "rate_applied": [
+    "clean"
+  ],
   "issue": 1,
   "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/1",
   "explicit": {
@@ -228,10 +230,10 @@
     "verdict": "clean",
     "findings": [],
     "reason": "Das Gespräch behandelt sachlich den Axolotl, das Verschlüsselungsprotokoll, Genom, Geschichte und Kultur. Erwähnungen wie das Fressen des Laichs, der Überfall des Hauptmanns von Köpenick oder das Sturmgewehr im Spiel sind knapp und nicht drastisch geschildert. Es kommen keine Schimpfwörter, Drogen oder sexuellen Inhalte vor.",
-    "label": null,
-    "reviewer_flag": null,
+    "label": "correct",
+    "reviewer_flag": false,
     "note": null,
-    "comment_id": null
+    "comment_id": 7041344060
   },
   "turns": [
     {
@@ -268,9 +270,9 @@
         "jev_error": null,
         "reason": "Die Prämisse der Frage, dass es ein Verschlüsselungsprotokoll namens Axolotl gibt, folgt aus dem Fakt-Satz über das Axolotl-Protokoll bei der Ende-zu-Ende-Verschlüsselung. Die Bemerkung, es klinge nach einem Scherz, ist ein persönliches Empfinden und braucht keinen Beleg."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 1,
@@ -332,9 +334,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Das Axolotl-Protokoll wird bei der Ende-zu-Ende-Verschlüsselung eingesetzt, z. B. bei Signal; der frühere Name spielte auf den Schwanzlurch Axolotl an, der im Wasser lebt, vom Aussterben bedroht ist und außergewöhnliche Selbstheilungsfähigkeiten besitzt. Das einleitende „Ja, das gibt es“ ist eine belegfreie Reaktion. Zusätzliche Angaben gibt es nicht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 2,
@@ -374,9 +376,9 @@
         "jev_error": null,
         "reason": "Felix' Aussage, Selbstheilungsfähigkeiten klängen fast nach einem Superhelden, ist eine Reaktion (Staunen, Wertung ohne Faktengehalt). Die Prämisse, dass der Axolotl Selbstheilungsfähigkeiten hat, folgt aus dem Fakt-Satz. Die Frage danach, was er konkret heilen kann, ist eine Nachfrage. Es kommt keine unbelegte Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 3,
@@ -412,9 +414,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen (Gliedmaßen, Organe, Teile des Gehirns und des Herzens wiederherstellen) stehen im Fakt-Satz 267769938-0033. „Erstaunlich viel“ ist eine Reaktion ohne Belegpflicht und fügt keine neue Information hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 5,
@@ -468,9 +470,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Das Genom wurde entschlüsselt, hat 32 Milliarden Basenpaare und ist zehnmal so groß wie das menschliche Genom (0047). Dem Axolotl fehlt im Gegensatz zu anderen Salamandern das Gen Pax3 (0045). Es wird nichts Zusätzliches behauptet."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 6,
@@ -523,9 +525,9 @@
         "jev_error": null,
         "reason": "Die Prämissen der Frage sind durch die Fakten gedeckt: Das Genom ist laut [267769938-0047] zehnmal so groß wie das menschliche, und laut [267769938-0045] fehlt dem Axolotl im Gegensatz zu anderen Salamandern das Gen Pax3. \"Erbgut\" und \"Genom\" sind hier austauschbar, \"unseres\" meint das menschliche Genom. Die Einleitung \"Moment, das müssen wir kurz sortieren\" und die Äußerung \"Das finde ich ziemlich verblüffend\" sind belegfreie Reaktionen bzw. ein Gefühl im Moment."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 7,
@@ -578,9 +580,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Das Axolotl-Genom ist nach dem des Australischen Lungenfischs das größte bisher entschlüsselte (0047), und dem Axolotl fehlt im Gegensatz zu anderen Salamandern das Gen Pax3 (0045). „Das Genom ist riesig“ ist durch 32 Milliarden Basenpaare, zehnmal so groß wie das menschliche, gedeckt. „Ja, beides steht so fest“ ist eine Bestätigung ohne neue Information."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 9,
@@ -626,9 +628,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Die Metamorphose lässt sich experimentell durch künstliche Gabe von Thyroxin herbeiführen, und es entsteht ein terrestrischer, lungenatmender Querzahnmolch. „Lebt an Land und atmet mit Lungen“ ist eine zulässige Umformulierung von „terrestrisch, lungenatmend“. „Er kann sich verwandeln, zumindest im Experiment“ fasst den Satz korrekt zusammen. Es gibt keine zusätzlichen Angaben."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 10,
@@ -667,9 +669,9 @@
         "jev_error": null,
         "reason": "Die Prämisse, dass ein Axolotl an Land gehen und mit Lungen atmen kann, folgt aus dem Fakt: Mit Thyroxin lässt sich die Metamorphose zu einem terrestrischen, lungenatmenden Querzahnmolch herbeiführen. \"Ein ganz anderes Tier\" ist eine staunende Wertung ohne eigene Zusatzangabe. Die Frage, ob das Hormon zwingend nötig ist, ist eine Nachfrage und braucht keinen Beleg."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 11,
@@ -715,9 +717,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus dem Fakt-Satz 267769938-0031: Marie von Chauvin wies ab 1874 nach, dass die Metamorphose ohne Thyroxin durch geänderte Umweltbedingungen ausgelöst werden kann. Auguste Duméril beobachtete 1867 im Jardin des Plantes in Paris vereinzelte Tiere mit zurückgebildeten Kiemen. Der Einstieg \"Es geht auch anders\" ist eine Überleitung, und \"Dafür genügt eine Änderung der Umweltbedingungen\" paraphrasiert den Fakt."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 12,
@@ -756,9 +758,9 @@
         "jev_error": null,
         "reason": "Die Aussage, dass 1867 Axolotl in Paris waren, folgt aus dem Fakt: Duméril beobachtete 1867 im Jardin des Plantes in Paris Tiere, deren Kiemen sich zurückgebildet hatten. Dass es sich um Axolotl handelt, ergibt sich aus dem Thema des Fakts. Die Frage nach dem Weg der Tiere nach Europa ist eine Nachfrage und braucht keinen Beleg. Zusätzliche Zahlen oder Namen kommen nicht vor."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 13,
@@ -803,9 +805,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 14,
@@ -843,9 +845,9 @@
         "jev_error": null,
         "reason": "Die Aussage, dass Axolotl in Alkohol eingelegt als Kuriosität im Museum dienten, steht im Fakt-Satz (Pariser Naturkundemuseum, in Alkohol eingelegt, exotische Kuriosität). Dass damit die Geschichte des Axolotl in Europa begann, folgt daraus, weil Humboldt als Erster Axolotl nach Europa brachte. Die Frage nach Humboldt ist eine belegfreie Nachfrage."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 15,
@@ -890,9 +892,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus dem Fakt-Satz 271991545-0009: Die Akademie würdigte ihn als „die erste wissenschaftliche Größe seines Zeitalters“, und sein Weltruhm überrage den von Leibniz. „Ein Mann von enormem Ansehen“ ist eine zusammenfassende Wertung, die dazu passt, und keine zusätzliche Angabe."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 17,
@@ -935,9 +937,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: Die mesoamerikanischen Ureinwohner fischten Axolotl, bei Festessen waren sie häufig ein Leckerbissen, und die Azteken sahen in ihm ein heiliges Tier. Die Wertung „bemerkenswert“ drückt nur den im Fakt-Satz enthaltenen Gegensatz („obwohl“) aus und fügt keine neue Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 18,
@@ -973,9 +975,9 @@
         "jev_error": null,
         "reason": "Die Aussage über den Widerspruch zwischen heilig und Leckerbissen bei Festessen folgt direkt aus dem Fakt-Satz (Azteken sahen ihn als heiliges Tier, wurde dennoch gefischt und gegessen). Die Frage, ob er heute noch gegessen wird, ist eine Nachfrage und damit belegfrei."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 19,
@@ -1013,9 +1015,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen decken sich mit dem Fakt-Satz: Zuchtexemplare werden unter der Bezeichnung Wooper Looper inzwischen auch frittiert als kulinarische Spezialität zum Verzehr angeboten. Der letzte Satz fasst das nur zusammen und fügt nichts Neues hinzu. Auch \"Es gibt ihn als Spezialität\" geht nicht über den Fakt hinaus."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 21,
@@ -1073,9 +1075,9 @@
         "jev_error": null,
         "reason": "„Der Axolotl ist vom Aussterben bedroht“ folgt aus [265804978-0008] („vom Aussterben bedrohten … Schwanzlurch Axolotl“). Die Angabe zum Pressebericht vom Januar 2014 und zur viermonatigen Suche ohne frei lebende Axolotl entspricht [267769938-0116]. „Düster“ ist eine bloße Reaktion. Es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 22,
@@ -1114,9 +1116,9 @@
         "jev_error": null,
         "reason": "Die Aussage \"Vier Monate Suche und kein einziger frei lebender Axolotl\" entspricht dem Fakt [267769938-0116] (viermonatige Suche, keine frei lebenden Axolotl gefunden). Die Frage, ob es ihn praktisch nur noch bei den Menschen gibt, ist eine Nachfrage, die keine zusätzliche Tatsachenbehauptung aufstellt, sondern die Aussage wieder aufgreift und weiterführt."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 23,
@@ -1152,9 +1154,9 @@
         "jev_error": null,
         "reason": "„In diese Richtung geht es.“ ist eine Überleitung und braucht keinen Beleg. Der zweite Satz gibt den Fakt-Satz fast wörtlich wieder. Der dritte Satz, die Tiere in Obhut seien „deutlich in der Überzahl“, ist nur eine Umformulierung von „sehr viel häufiger“ und fügt nichts Neues hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 24,
@@ -1192,9 +1194,9 @@
         "jev_error": null,
         "reason": "Die Aussage, dass es sie im Heimtierhandel gibt, ist mit dem Fakt vereinbar. Er setzt Axolotl und Hybride im Heimtierhandel voraus und sagt nur, dass kaum noch genetisch ursprüngliche darunter sind. Die Frage, ob das noch die ursprünglichen Axolotl sind, ist eine Nachfrage ohne zusätzliche Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 25,
@@ -1232,9 +1234,9 @@
         "jev_error": null,
         "reason": "Die Aussagen über die Ausbreitung der Hybride wegen attraktiverer Farbgebungen und darüber, dass vermutlich kaum noch genetisch ursprüngliche Axolotl im Heimtierhandel existieren, stehen so in Fakt 267769938-0085. Das einleitende „Eher nicht.“ ist eine belegfreie Reaktion bzw. Antwort ohne neue Tatsachenbehauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 26,
@@ -1272,9 +1274,9 @@
         "jev_error": null,
         "reason": "Die Aussage, dass die hübschere Farbe gewonnen hat und das Original im Handel kaum noch zu finden ist, folgt aus dem Fakt-Satz: Hybride mit attraktiveren Farbgebungen haben sich ausgebreitet, sodass vermutlich kaum noch genetisch ursprüngliche Axolotl im Heimtierhandel existieren. Die Formulierung \"hübschere Farbe\" gibt \"attraktivere Farbgebungen\" sinngemäß wieder. Die Frage nach der Lebensdauer ist eine belegfreie Nachfrage und enthält keine unbelegte Prämisse."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 27,
@@ -1317,9 +1319,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 29,
@@ -1365,9 +1367,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen direkt aus Fakt 267769938-0071: Erkrankte Axolotl genesen schneller bei auf 6 bis 8 °C abgekühltem Wasser, was ungefähr der Wintertemperatur ihrer Heimatseen entspricht. Der einleitende Satz \"Kälte kann helfen\" fasst das nur zusammen. Es kommen keine zusätzlichen Angaben hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 30,
@@ -1406,9 +1408,9 @@
         "jev_error": null,
         "reason": "Die Aussage \"Kälte als Medizin, ungefähr so wie der Winter in den Heimatseen\" folgt aus dem Fakt: Erkrankte Axolotl genesen schneller bei auf 6 bis 8 °C abgekühltem Wasser, was etwa der Wintertemperatur ihrer Heimatseen entspricht. \"Das hat etwas\" ist eine subjektive Reaktion, und die Frage nach dem Speiseplan ist eine Nachfrage/Überleitung ohne Faktenbehauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 31,
@@ -1461,9 +1463,9 @@
         "jev_error": null,
         "reason": "Beide Aussagen stehen fast wörtlich in den Fakt-Sätzen: Der Nachwuchs der eigenen Art gehört zum Nahrungsspektrum (0060), und der relativ umfangreiche Laich eines Weibchens wird meist von Artgenossen verzehrt (0078). Das zusätzliche Wort „außerdem“ ist nur eine Überleitung und fügt keine neue Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 32,
@@ -1516,9 +1518,9 @@
         "jev_error": null,
         "reason": "„Sie fressen also den eigenen Nachwuchs“ folgt aus 0060 (Nachwuchs der eigenen Art gehört zum Nahrungsspektrum). „Der Laich landet meist bei den Artgenossen im Magen“ folgt aus 0078. „Das ist hart.“ ist ein Gefühl im Moment, und die Frage zur Kultur ist eine Überleitung ohne Faktenbehauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 33,
@@ -1568,9 +1570,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen des Redebeitrags stehen im Fakt-Satz: das Jahr 1931, Zuckmayers Schauspiel Der Hauptmann von Köpenick, die Schuhfabrik Axolotl, der Schuster und spätere Hauptmann Voigt, der vergeblich um Arbeit nachsucht, sowie die Anspielung auf Salamander, die ebenfalls nach einem Schwanzlurch benannt ist. Es kommen keine zusätzlichen Angaben hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 34,
@@ -1606,9 +1608,9 @@
         "jev_error": null,
         "reason": "Die Aussage \"Ein Schuster, der später Hauptmann wird\" folgt aus dem Fakt-Satz, der Voigt als \"Schuster und spätere 'Hauptmann'\" bezeichnet. Die anschließende Frage \"Was hat der denn angestellt?\" ist eine Nachfrage und damit belegfrei. Es wird keine zusätzliche Angabe gemacht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 35,
@@ -1653,9 +1655,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen (Hochstapler Hauptmann von Köpenick, 16. Oktober 1906, als Hauptmann verkleidet mit einem Trupp gutgläubiger Soldaten ins Rathaus von Cöpenick bei Berlin eingedrungen, Bürgermeister verhaftet, Stadtkasse geraubt) stehen so in Fakt 272191328-0001; es kommt nichts Zusätzliches hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 37,
@@ -1694,9 +1696,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 39,
@@ -1739,9 +1741,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 40,
@@ -1838,9 +1840,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Der frühere Protokollname spielte auf den Axolotl an (0008, 0132), Humboldt brachte Axolotl als exotische Kuriosität nach Europa (0009), der Axolotl ist vom Aussterben bedroht (0008), in Menschenobhut ist er sehr viel häufiger als im ursprünglichen Lebensraum (0110), und im Spiel AK-xolotl ist ein Axolotl mit einem Sturmgewehr bewaffnet (0137). Die Einleitung „Dann halten wir fest“ ist eine belegfreie Überleitung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     },
     {
       "turn_index": 41,
@@ -1895,10 +1897,20 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041344060
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "comment_id": 7041344060,
+      "url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/1#issuecomment-7041344060",
+      "created_at": "2026-11-20T13:56:33Z",
+      "updated_at": "2026-11-20T13:56:33Z",
+      "review_lines": 36,
+      "applied": true,
+      "errors": []
+    }
+  ]
 }
