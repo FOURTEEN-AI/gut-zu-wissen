@@ -86,7 +86,8 @@ These retire the open risks before the build starts.
   - Explicit: `false` at feed level; per episode from the explicit check.
   - Episode image: rendered cover.
 - Shownotes: revision permalinks, history links, mailto link with episode title and ID. ✅ Done in code (2026-11-20; episode pages of the site).
-- Spotify submission (manual, once; verification mail goes to the owner email).
+- Spotify submission (manual, once; verification mail goes to the owner email). Submitted 2026-11-20 with the github.io feed URL; Spotify's review takes up to 24 hours.
+- Custom domain `gut-zu-wissen.fourteen-it.de` for the Pages site (later, after Spotify has approved the feed): DNS CNAME to `fourteen-ai.github.io`, set the custom domain in the Pages settings, change `base_url` in `[site]`, announce the move in the old feed with `itunes:new-feed-url` (GitHub redirects the old address). Check Impressum and Datenschutz for addresses. A plain HTTP redirect is not an option; apps and Spotify do not follow it reliably.
 
 ## Phase 3: Article of the day (Ausbaustufe 3)
 

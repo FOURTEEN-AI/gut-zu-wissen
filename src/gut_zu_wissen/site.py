@@ -212,6 +212,7 @@ def feed_episodes(episodes: list[PublishedEpisode], config: dict) -> list[FeedEp
                 description=config["episode_description"].format(
                     title=html.escape(e.record.title),
                     page_url=page_url,
+                    howto_url=f"{base}/so-funktionierts.html",
                     feedback_url=feedback_mailto(
                         config["feedback_address"], e.record.title, e.record.episode_id
                     ),
