@@ -50,6 +50,7 @@ def test_create_episode_writes_stable_indented_json(tmp_path):
         "cost",
         "failed_step",
         "resumed",
+        "audio_run_id",
     ]
     assert text.splitlines()[1].startswith('  "episode_id"')
     assert data["status"] == "running"
@@ -109,6 +110,7 @@ def test_episode_file_without_finished_at_and_usage_still_loads(tmp_path):
     path = episode_dir(tmp_path, record.episode_id) / "episode.json"
     data = json.loads(path.read_text())
     del data["finished_at"], data["usage"], data["failed_step"], data["resumed"]
+    del data["audio_run_id"]
     path.write_text(json.dumps(data))
     loaded = load_episode(tmp_path, record.episode_id)
     assert loaded.finished_at is None and loaded.usage == {}

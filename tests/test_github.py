@@ -81,3 +81,11 @@ def test_error_status_raises_without_the_token():
     with pytest.raises(GitHubError, match="403") as info:
         api.create_issue("T", "B")
     assert "secret-token" not in str(info.value)
+
+
+def test_labels_are_the_names_of_the_issue_labels():
+    api, sent = issues(
+        lambda request: httpx.Response(200, json={"labels": [{"name": "hold"}, {"name": "x"}]})
+    )
+    assert api.labels(7) == ["hold", "x"]
+    assert sent[0].method == "GET" and str(sent[0].url) == "https://api.example/repos/o/r/issues/7"

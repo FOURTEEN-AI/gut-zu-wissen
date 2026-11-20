@@ -152,6 +152,16 @@ jev = 0.042                         # USD per million input tokens; output token
 gemini_tts_input = 0.50                #  USD per million text tokens; 1.00 from 2027-01-01
 gemini_tts_output = 9.00               #  USD per million audio tokens; 18.00 from 2027-01-01
 
+[publishing]
+# Automatic publication of the daily episode (phase 3, user decision 2026-11-20): the episode
+# waits `hold_hours` after the end of its run, so the owner can intervene; then the hourly
+# `Auto-publish` workflow publishes it. The owner holds an episode by putting the label
+# `hold_label` on its review issue (remove it to release). An episode whose review found an error
+# is never published automatically. ASSUMPTION: 6 hours (ready around 6 o'clock German time,
+# published around noon); see docs/phase3-assumptions.md.
+hold_hours = 6
+hold_label = "hold"
+
 [hosting]
 # Internet Archive, S3-like API (phase 2). Keys come from the environment (GitHub secrets
 # ARCHIVE_S3_ACCESS_KEY and ARCHIVE_S3_SECRET_KEY), never from this file.

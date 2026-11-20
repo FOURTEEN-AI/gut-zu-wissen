@@ -83,7 +83,9 @@ class EpisodeRecord:
     `failed_step` names the pipeline step a failed run stopped in (`STEPS`; None while the run
     has not failed, and in files written before it was recorded). `resumed` lists every resume
     of the audio step (`resume.py`, user decision 2026-11-20): when it started, the workflow run,
-    when the attempt before it ended and why it failed.
+    when the attempt before it ended and why it failed. `audio_run_id` is the workflow run whose
+    artifact (`audio-<id>`) holds the audio master, set by the run or the resume that produced it;
+    the automatic publication (`autopublish.py`) needs it.
     """
 
     episode_id: str
@@ -98,6 +100,7 @@ class EpisodeRecord:
     cost: dict = field(default_factory=dict)
     failed_step: str | None = None
     resumed: list[dict] = field(default_factory=list)
+    audio_run_id: str | None = None
 
 
 def write_json(path: Path, data: object) -> None:

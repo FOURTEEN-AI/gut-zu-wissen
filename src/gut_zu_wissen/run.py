@@ -181,6 +181,7 @@ def audio_step(
         write_json(folder / AUDIO_FILE, audio_record.to_dict())
         raise
     write_json(folder / AUDIO_FILE, audio_record.to_dict())
+    record.audio_run_id = os.environ.get("GITHUB_RUN_ID") or None
 
 
 def review_step(

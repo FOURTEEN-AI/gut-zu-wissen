@@ -99,6 +99,11 @@ class HttpIssues:
             url = response.links.get("next", {}).get("url")
         return comments
 
+    def labels(self, number: int) -> list[str]:
+        """Names of the labels on the issue."""
+        data = self._send("GET", f"{self._base}/{number}").json()
+        return [str(label["name"]) for label in data.get("labels", []) if "name" in label]
+
     def close_issue(self, number: int) -> None:
         body = {"state": "closed", "state_reason": CLOSED_STATE_REASON}
         self._send("PATCH", f"{self._base}/{number}", json=body)
