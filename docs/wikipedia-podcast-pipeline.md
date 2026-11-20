@@ -181,6 +181,8 @@ Fester Text außerhalb des Dialogautors und der Persona-Regeln; einmal synthetis
 ## Betrieb
 
 - **Auslöser:** manuell auf Abruf (`workflow_dispatch` mit Artikel als Eingabe); automatisch täglich mit Artikel des Tages (`schedule`, `17 3 * * *` UTC; Ziel: Folge bis ca. 6 Uhr deutscher Zeit; Start nach dem Wechsel des Artikels des Tages, unabhängig davon, ob er nach UTC oder deutscher Zeit wechselt).
+- **Automatische Veröffentlichung (Entscheidung 2026-11-20):** Die Tagesfolge wird nach einer Wartezeit (`hold_hours`, Start 6 Stunden nach Ende des Laufs) vom Workflow `auto-publish.yml` (stündlich) veröffentlicht, damit du eingreifen kannst. Bremse: Label `hold` am Review-Issue (Label entfernen gibt frei). Nie automatisch: Folgen, deren Review einen Fehler fand, und Folgen ohne `audio_run_id`; sie veröffentlichst du von Hand (`publish.yml`). Ein verworfener Tageslauf oder ein Absturz lässt den Workflow-Lauf scheitern; GitHub schickt dir dazu eine Mail.
+- **Artikel des Tages (Spike S8):** Chronologie-Seite `Wikipedia:Hauptseite/Artikel des Tages/Chronologie <Jahr>` (Bot, 23:00 UTC für den Folgetag), Wochentagsseite als Rückfall. Ersatzartikel aus `Kategorie:Wikipedia:Exzellent` und `Kategorie:Wikipedia:Lesenswert`, zufällig mit dem Datum als Seed.
 - **Sprache:** Python.
 - **Orchestrierung:** GitHub Actions in einem öffentlichen Repo (unbegrenzte Minuten). API-Keys als Secrets. Workflow-Logs, Prompts und Archiv sind öffentlich.
 - **Archiv:** Text als JSON im Repo (eingerückt, stabile Feldreihenfolge). Audio nur beim Hoster.

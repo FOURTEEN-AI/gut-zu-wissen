@@ -1,0 +1,94 @@
+name: Daily
+
+# Phase 3: the episode of the day. The article of the day (substitutes after a failed run, at most
+# `substitute_articles_max`) is run like a manual episode; the episode is published later by the
+# `Auto-publish` workflow, unless the owner holds it. The German Wikipedia changes its article of
+# the day at midnight German time (a bot writes it at 23:00 UTC); 03:17 UTC leaves margin and the
+# run takes 30 to 60 minutes, so the episode is ready around 5 to 6 o'clock German time.
+# A dropped episode or a crash fails the run, and GitHub mails the owner about failed runs.
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+# Runs never overlap: a second run waits instead of being cancelled.
+concurrency:
+  group: episode
+  cancel-in-progress: false
+
+# contents: the archive commit; issues: the review issue (phase 1 step 12).
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  episode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - name: System packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - run: uv sync --no-dev
+      # Whisper model for the STT verification (spike S5): faster-whisper downloads it from
+      # Hugging Face on first use; the cache saves the download (about 22 s per run).
+      - name: Whisper model name
+        id: stt
+        run: >
+          uv run python -c 'import tomllib;
+          print("model=" + tomllib.load(open("config/pipeline.toml", "rb"))["models"]["stt"])'
+          >> "$GITHUB_OUTPUT"
+      - name: Restore Whisper model cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface/hub
+          key: whisper-${{ steps.stt.outputs.model }}
+      - name: Run pipeline
+        id: run
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: uv run python -m gut_zu_wissen.daily
+      # Audio is not committed (design: audio only in the published form at the host);
+      # in phase 1 it is a workflow artifact for listening and for the review.
+      - name: Upload audio
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audio-${{ github.run_id }}
+          path: build/audio/
+          if-no-files-found: ignore
+      # Review issue for the drawn turns (phase 1 step 12); records its number in 09_review.json.
+      # Without a drawn turn the issue is only for the explicit label. A failure fails the job;
+      # the archive is committed anyway.
+      - name: Open review issue
+        if: steps.run.outputs.episode_id != ''
+        env:
+          EPISODE_ID: ${{ steps.run.outputs.episode_id }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: uv run python -m gut_zu_wissen.review open "$EPISODE_ID"
+      # Further pipeline steps follow in later plan steps.
+      # Runs on every outcome: a gate failure or a crash is recorded as `status: failed` in
+      # episode.json and committed like a successful run (design: "Archiv").
+      # The review workflow commits labels to the archive as well; it never touches this run's
+      # folder, so a rejected push is rebased and retried.
+      - name: Commit archive
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archive
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Archive: episode run for ${GITHUB_RUN_ID}"
+          for attempt in 1 2 3 4 5; do
+            if git push; then exit 0; fi
+            echo "Push rejected (attempt ${attempt}); rebasing on the remote branch."
+            git pull --rebase
+          done
+          exit 1

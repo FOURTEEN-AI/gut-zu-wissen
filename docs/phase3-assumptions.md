@@ -1,0 +1,21 @@
+# Phase 3: Annahmen und offene Punkte
+
+Stand: 2026-11-20. Gebaut nach deiner Vorgabe „Baue Phase 3; Veröffentlichung verzögern, damit ich eingreifen kann, sonst automatisch veröffentlichen". Alles hier ist eine Annahme, die du ändern kannst.
+
+## Annahmen
+
+1. **Wartezeit 6 Stunden** (`[publishing] hold_hours`). Folge ist gegen 5 bis 6 Uhr deutscher Zeit fertig, Veröffentlichung gegen Mittag. Länger oder kürzer: ein Wert in der Config.
+2. **Bremse = Label `hold` am Review-Issue.** Ohne Label läuft die Veröffentlichung. Mit Label wartet die Folge, bis du es entfernst (oder von Hand veröffentlichst). Das Label muss im Repo einmal angelegt werden; GitHub legt es beim ersten Setzen an.
+3. **Review-Fehler bremsen automatisch.** Ein Review mit `outcome: error` verhindert die automatische Veröffentlichung. Ist nach der Wartezeit noch kein Review da (Stichprobe nicht beantwortet), wird trotzdem veröffentlicht, wie bei der Antikythera-Folge.
+4. **Veröffentlichung auch bei `explicit: true`.** Das Feed-Flag wird gesetzt, so wie es D7 vorsieht.
+5. **Benachrichtigung = fehlgeschlagener Workflow-Lauf.** Ein verworfener Tageslauf (Ersatzartikel erschöpft, Jev-Abbruch) oder ein Absturz beendet den Lauf mit Fehler; GitHub schickt die Standard-Mail. Es gibt keine eigene Benachrichtigung.
+6. **Ohne Artikel des Tages (Chronologie und Wochentagsseite ohne Eintrag)** nimmt der Lauf den ersten erlaubten Ersatzartikel statt abzubrechen.
+7. **Stundenlauf.** `auto-publish.yml` läuft stündlich (`7 * * * *`), ohne fällige Folge endet er nach dem ersten Schritt. Pro Lauf höchstens eine Folge.
+8. **Ein Absturz** (nicht `GateFailure`) im Tageslauf sucht keinen Ersatzartikel, sondern eskaliert mit Traceback, so wie im manuellen Lauf.
+
+## Offen für dich
+
+- **Erklärseite (`site/so-funktionierts.html`):** Sie sagt, dass Andreas die Beiträge am Ende liest. Mit der automatischen Veröffentlichung kann eine Folge vor dem Review erscheinen. Ich habe den Text nicht geändert, das entscheidest du.
+- **Kosten:** Etwa 1,5 bis 2,5 USD je Folge, also grob 45 bis 75 USD im Monat vor Fehlversuchen. Ein Ersatzartikel verdoppelt den Tag.
+- **Erster Live-Lauf:** Der Tageslauf wurde nur mit Fakes getestet (`tests/test_daily.py`) und die Wikipedia-Abfragen einmal live gelesen. Der erste echte Lauf (Cron 03:17 UTC oder `workflow_dispatch`) ist der Test. Beachte: Er veröffentlicht nach 6 Stunden von allein.
+- **Nicht getestet:** `auto-publish.yml` (Workflow-Syntax, Artifact-Download über Läufe hinweg, Dispatch der Pages-Workflow).

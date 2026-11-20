@@ -91,11 +91,14 @@ These retire the open risks before the build starts.
 
 ## Phase 3: Article of the day (Ausbaustufe 3)
 
-- Resolve the article of the day (spike: dewiki has no reliable `featured` feed, so likely `Wikipedia:Hauptseite/Artikel des Tages/…`).
-- Cron `17 3 * * *`.
-- Gate failures (living person, recent episode, too few facts) → substitute article.
-- Substitute article: random from Exzellent/Lesenswert, living-person and recent-episode gates checked before selection, max 2, otherwise the episode is skipped.
-- Jev abort: escalation and the episode is skipped.
+All items ✅ done in code (2026-11-20; `gut_zu_wissen.daily`, `gut_zu_wissen.autopublish`, workflows `daily.yml` and `auto-publish.yml`). The first live runs are still to be watched (see `docs/phase3-assumptions.md`).
+
+- Resolve the article of the day. ✅ Spike S8 (`docs/spikes/s8-artikel-des-tages.md`): chronology page `Wikipedia:Hauptseite/Artikel des Tages/Chronologie <year>` (written by a bot at 23:00 UTC), the weekday page as fallback.
+- Cron `17 3 * * *` (`daily.yml`). ✅
+- Gate failures (living person, recent episode, too few facts) and used-up budgets → substitute article. ✅
+- Substitute article: random from Exzellent/Lesenswert (`Kategorie:Wikipedia:Exzellent`, `Kategorie:Wikipedia:Lesenswert`), seeded with the date, living-person and recent-episode gates checked before selection, max 2 (`substitute_articles_max`), otherwise the episode is dropped. ✅
+- Jev abort: escalation and the episode is dropped, no substitute. ✅ A dropped episode or a crash fails the workflow run; GitHub mails the owner.
+- Delayed automatic publication (decided 2026-11-20): the episode waits `hold_hours` (config `[publishing]`, 6) after its run, then `auto-publish.yml` (hourly) publishes it. The owner holds it with the label `hold` on the review issue; an episode whose review found an error is never published automatically. ✅
 
 ## Decisions
 
