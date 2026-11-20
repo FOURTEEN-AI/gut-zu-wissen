@@ -1,12 +1,12 @@
 {
   "episode_id": "2026-11-20_mechanismus-von-antikythera",
   "title": "Mechanismus von Antikythera",
-  "status": "failed",
+  "status": "completed",
   "started_at": "2026-11-20T17:09:43Z",
-  "finished_at": "2026-11-20T20:46:08Z",
+  "finished_at": "2026-11-20T21:20:40Z",
   "published_at": null,
   "explicit": false,
-  "failure": "STT verification: section 0 still changes the statement after 2 resyntheses: 'Zeigte' heard as 'Zeigt dir' („Zeigt dir das Gerät“ statt „Zeigte das Gerät“: Das zusätzliche „dir“ ist ein inhaltliches Wort und ändert die Frage (Tempus und Adressat).)",
+  "failure": null,
   "usage": {
     "author": {
       "model": "claude-sonnet-5-5",
@@ -18,9 +18,9 @@
     },
     "llm_judge": {
       "model": "claude-sonnet-5-5",
-      "calls": 68,
-      "input_tokens": 106900,
-      "output_tokens": 21009,
+      "calls": 70,
+      "input_tokens": 119733,
+      "output_tokens": 22061,
       "cache_creation_input_tokens": 797,
       "cache_read_input_tokens": 41444
     },
@@ -57,13 +57,13 @@
     },
     "usd": {
       "author": 0.8632,
-      "llm_judge": 0.43,
+      "llm_judge": 0.4662,
       "jev": 0.0042,
       "extraction": 0.0254,
       "tts": null
     }
   },
-  "failed_step": "audio",
+  "failed_step": null,
   "resumed": [
     {
       "started_at": "2026-11-20T18:47:24Z",
@@ -82,6 +82,12 @@
       "workflow_run": "44809737981",
       "previous_finished_at": "2026-11-20T20:13:59Z",
       "previous_failure": "STT verification: section 1 still changes the statement after 2 resyntheses: 'Griechisch' heard as 'Grieche' („Grieche“ statt „Griechisch“ ist ein anderes Wort mit anderer Bedeutung (Person statt Sprache); der Satz sagt etwas anderes.)"
+    },
+    {
+      "started_at": "2026-11-20T21:09:00Z",
+      "workflow_run": "44817615079",
+      "previous_finished_at": "2026-11-20T20:46:08Z",
+      "previous_failure": "STT verification: section 0 still changes the statement after 2 resyntheses: 'Zeigte' heard as 'Zeigt dir' („Zeigt dir das Gerät“ statt „Zeigte das Gerät“: Das zusätzliche „dir“ ist ein inhaltliches Wort und ändert die Frage (Tempus und Adressat).)"
     }
   ]
 }
