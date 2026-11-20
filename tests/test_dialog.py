@@ -17,6 +17,7 @@ from gut_zu_wissen.dialog import (
     repetition_problems,
     repetition_reason,
     resolve_turns,
+    told_elsewhere,
     used_fact_ids,
     used_facts_gate,
     write_dialog,
@@ -239,8 +240,25 @@ def test_turn_context_renders_neighbours_and_old_turn_with_aliases():
         "Nächster Redebeitrag (Lena):",
         "Drei.",
         "Kennungen: F2",
+        "",
+        "Schon in anderen Redebeiträgen erzählt (nicht noch einmal erzählen; nur eine kurze "
+        "Nachfrage direkt nach der Erzählung darf sich darauf beziehen):",
+        "- F2: Redebeitrag 0",
     ]
     assert not any(sid in out for sid in ALIASES.values())
+
+
+def test_told_elsewhere_skips_the_replaced_turn_and_the_closing_summary():
+    # User decision 2026-11-20: the author sees which facts are already told when rewriting.
+    turns = [
+        turn(0, statements=[("A", ["1-0000"])]),
+        turn(1, statements=[("B", ["1-0000", "1-0001"])]),
+        turn(2, statements=[("C", ["1-0001"]), ("C2", ["1-0001"])]),
+        turn(3, statements=[("Summary", ["1-0000", "2-0000"])]),
+    ]
+    assert told_elsewhere(turns, 1) == {"1-0000": [0], "1-0001": [2]}
+    assert told_elsewhere(turns, 0) == {"1-0000": [1], "1-0001": [1, 2]}
+    assert "Schon in anderen" not in format_turn_context(turns[:1], 0, None, ALIASES)
 
 
 def test_regenerate_turn_keeps_index_and_speaker_and_uses_turn_schema():

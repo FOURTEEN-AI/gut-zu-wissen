@@ -456,8 +456,35 @@ def format_turn_context(
         "",
     ]
     if index + 1 < len(turns):
-        lines += _turn_lines("Nächster Redebeitrag", turns[index + 1], aliases)
+        lines += [*_turn_lines("Nächster Redebeitrag", turns[index + 1], aliases), ""]
+    told = told_elsewhere(turns, index)
+    if told:
+        lines += [
+            "Schon in anderen Redebeiträgen erzählt (nicht noch einmal erzählen; nur eine kurze "
+            "Nachfrage direkt nach der Erzählung darf sich darauf beziehen):",
+            *(
+                f"- {shown[0]}: Redebeitrag {', '.join(map(str, where))}"
+                for fid, where in told.items()
+                if (shown := to_aliases([fid], aliases))
+            ),
+        ]
     return "\n".join(lines).strip()
+
+
+def told_elsewhere(turns: Sequence[Turn], index: int) -> dict[str, list[int]]:
+    """Facts cited by statements of other turns, with those turns, in dialog order.
+
+    The turn to replace and the closing summary (the last turn) are left out, as in the
+    repetition gate. Used to tell the author which facts are already told.
+    """
+    last = len(turns) - 1
+    told: dict[str, list[int]] = {}
+    for pos, turn in enumerate(turns):
+        if pos in (index, last):
+            continue
+        for fid in dict.fromkeys(f for s in turn.statements for f in s.fact_ids):
+            told.setdefault(fid, []).append(turn.index)
+    return told
 
 
 def regenerate_turn(
