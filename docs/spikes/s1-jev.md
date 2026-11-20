@@ -137,3 +137,27 @@ Applied to [wikipedia-podcast-pipeline.md](../wikipedia-podcast-pipeline.md) wit
 - **Pure reactions always escalate.** Felix's reactions are frequent in a dialog, so many LLM-judge calls will be for turns with no facts at all.
 - **D1 cascades** will often run longer than needed, because Jev rarely confirms paraphrases with certainty.
 - **Small n, Claude's labels:** no false accept in 208 turn decisions is encouraging, but it says little about the real false-accept rate. The review samples (r = 100 % at first) remain the check.
+
+## Follow-up 2026-11-20: completeness question on real turns
+
+**Question (user decision 2026-11-20):** can a reworded completeness question stop sending almost every real turn to the LLM judge, while keeping reactions allowed and never accepting a rejected turn?
+**Result:** **no switch.** No variant clearly reduces the uncertain share without risk; the production question stays as it is.
+
+Code: [spikes/s1_completeness.py](../../spikes/s1_completeness.py), wording in [spikes/s1_completeness_questions.py](../../spikes/s1_completeness_questions.py). Cases: [s1_completeness_cases.json](../../tests/fixtures/wikipedia/spikes/s1_completeness_cases.json) (131 turns of the Axolotl run `2026-11-19_axolotl-2`: three conversations plus six superseded turn versions; state built by `build_request`). Payloads and responses: [s1_completeness_results/](../../tests/fixtures/wikipedia/spikes/s1_completeness_results/). `jev-1.14.0`, two repeats per round, t = 0.95, about 1.5 M input tokens ($0.06).
+
+Labels: the run's final verdict per turn (121 accepted, 10 rejected); for the rejected turns also a completeness label by Claude. The 52 S1 turns ran again with their round-2 state.
+
+| Variant | Axolotl ≥ t | ≤ 1−t | uncertain | mean p | Axolotl turns to judge | S1 turns to judge | rejected turn ≥ t |
+|---|---:|---:|---:|---:|---:|---:|---|
+| `old` (production) | 5 % | 0 % | 95 % | 0.729 | 95–96 % | 38 % | none (max 0.91) |
+| `content`: "Steht alles, was … an Inhalt mitteilt, auch unter `aussagen`?" | 5 % | 0 % | 95 % | 0.700 | 95 % | 38 % | none |
+| `structured`: same, lists of what counts as content | 15 % | 0 % | 85 % | 0.762 | 85–88 % | 40–42 % | none (max 0.94) |
+| `adds`: reversed polarity | 0 % | 0 % | 100 % | 0.491 | 99–100 % | 54–56 % | none |
+| `old`, state without `fakten`/`kontext` | 3 % | 0 % | 97 % | 0.712 | 97–98 % | 42 % | none |
+| `content`, same reduced state | 3 % | 0 % | 97 % | 0.682 | 98 % | 40–44 % | none |
+| `facts`: text against `fakten` instead of `aussagen` | 5 % | 0 % | 95 % | 0.734 | 95 % | 33–38 % | none |
+| `facts_structured` | 11 % | 0 % | 89 % | 0.788 | 89 % | 37–38 % | **1** (c2-t14-v0, 0.95) |
+
+- **Little signal on real turns.** On the Axolotl turns, completeness p barely separates accepted from rejected turns (AUC 0.58 for `old`, at most 0.70 for any variant). Rejected turns reach p = 0.91–0.95, so lowering t for this question would not help either.
+- **Why:** the Felix turns are full of short evaluations ("Das ist ein richtiger Coup", "Das ist doch ein Widerspruch!", "Das habe ich mir gemerkt") that sit on the line between "Gefühl im Moment" and "Wertung mit Faktengehalt" or a self-statement. The LLM judge let them through; Jev stays uncertain. Lena's turns often say more than their statement list.
+- **`structured`** is the best variant, but the gain is small (5 % → 15 % at ≥ t on Axolotl, slightly worse on S1), and a rejected turn reaches 0.94. Run-to-run noise is about 0.03 on average and up to 0.14, so a false acceptance is within reach.
