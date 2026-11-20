@@ -193,9 +193,11 @@
       "sampled": true
     }
   ],
-  "status": "pending",
-  "outcome": null,
-  "rate_applied": [],
+  "status": "answered",
+  "outcome": "clean",
+  "rate_applied": [
+    "clean"
+  ],
   "issue": 5,
   "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/5",
   "explicit": {
@@ -204,10 +206,10 @@
     "verdict": "clean",
     "findings": [],
     "reason": "Das Gespräch behandelt Helgoland sachlich und historisch. Die Sprengung der Bunker und die versenkten Giftgasgranaten werden nüchtern erwähnt, ohne anschauliche Gewaltschilderung. Alkohol (\"Fuselfelsen\") und früheres Nacktbaden kommen nur beiläufig vor. Derbe Ausdrücke gibt es nicht.",
-    "label": null,
-    "reviewer_flag": null,
+    "label": "correct",
+    "reviewer_flag": false,
     "note": null,
-    "comment_id": null
+    "comment_id": 7042086446
   },
   "turns": [
     {
@@ -275,9 +277,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 3,
@@ -330,9 +332,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen stimmen mit den Fakt-Sätzen überein: Juni 1925, Werner Heisenberg, Helgoland, Abschluss der grundlegenden Arbeiten an der mathematischen Beschreibung der Quantenmechanik (0478) sowie der Rückzug auf die Insel wegen Heuschnupfens (0479). Die einleitende Wendung \"Zum Beispiel Physik\" ist eine Überleitung ohne eigene Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 4,
@@ -368,9 +370,9 @@
         "jev_error": null,
         "reason": "Die Aussage, Heisenberg habe seine Arbeiten auf der Insel abgeschlossen, folgt aus dem Fakt-Satz (Juni 1925, Helgoland, grundlegende Arbeiten zur Quantenmechanik). „Das ist ja kurios!“ ist eine Reaktion (Staunen). Die Frage nach anderen bekannten Gästen ist eine Nachfrage ohne neue Behauptung; ihre Prämisse (Heisenberg war ein bekannter Gast, der Spuren hinterließ) ist durch den Fakt gedeckt."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 5,
@@ -423,9 +425,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Reise Hoffmanns auf die Insel (Helgoland), damals britische Kronkolonie [270086679-0006]; Ferienaufenthalt, Dichtung des Lieds der Deutschen am 26. August 1841, auf die 1797 von Haydn für den römisch-deutschen Kaiser komponierte Hymne [272085229-0350]. Die ausgeschriebenen Zahlen stimmen mit den Daten überein, und es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 6,
@@ -461,9 +463,9 @@
         "jev_error": null,
         "reason": "Die Behauptung, das Lied sei auf Helgoland entstanden, das damals britisch war, folgt aus [270086679-0006]. Die Frage, ob dort viel los war, ist eine Nachfrage ohne neue Information und gilt als belegfrei."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 7,
@@ -543,9 +545,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Schmuggelplatz seit Anfang 1808 und Hamburgs Überseehafen-Funktion (0286), bis zu 400 Schiffe täglich (0288), Verzehnfachung der Wohnhauspreise zwischen 1807 und 1810 (0301). Das einleitende „Und wie.“ ist eine Reaktion ohne Faktenbehauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 9,
@@ -591,9 +593,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag gibt den Fakt-Satz fast wörtlich wieder: Aus Protokollgründen betrat Wilhelm II. die Insel erst am 10. August, weil ihm ein britisches Staatsoberhaupt als Gegenüber fehlte. Die Einordnung als „schöne Geschichte aus der Diplomatie“ ist eine Wertung ohne zusätzlichen Faktengehalt. Es kommen keine weiteren Angaben hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 11,
@@ -658,9 +660,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Der Befehl vom 1. August, die Insel binnen zwölf Stunden zu verlassen, steht in 0453. Die allgemeine Annahme, der Krieg dauere nur wenige Wochen, und die Rückkehr erst 1918 stehen in 0455. Der Einstieg „Sehr ernst.“ ist eine belegfreie Reaktion."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 13,
@@ -720,9 +722,9 @@
         "jev_error": null,
         "reason": "Datum (18. April 1947), Zerstörung der militärischen Bunkeranlagen der Insel, größte nichtnukleare Sprengung bis 1985, die Bezeichnung Operation Big Bang oder British Bang, 6700 Tonnen Sprengstoff und circa 3,2 Kilotonnen TNT-Äquivalent stehen alle in den zitierten Fakten. Das einleitende „Ja, einen gewaltigen“ ist eine Antwort, die durch die Größe der Sprengung gedeckt ist. Es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 14,
@@ -760,9 +762,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag besteht aus einer Reaktion (Staunen über das Ausmaß der Sprengung) und einer Nachfrage, ob die Insel die Sprengung überstehen konnte. Beides ist belegfrei. \"Dieses Ausmaß\" nimmt nur das Gesagte auf, die Prämisse der größten nicht-atomaren Explosion wird durch den zitierten Fakt gedeckt. Die Frage fügt keine neue Behauptung hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 15,
@@ -826,9 +828,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 16,
@@ -867,9 +869,9 @@
         "jev_error": null,
         "reason": "Die Aussage, der poröse Sandstein habe die Insel vor dem Schlimmsten bewahrt, ist eine zulässige Zusammenfassung des Fakts: Er ließ die Druckwelle entweichen, sodass nur die Südspitze zerstört wurde. Die anschließende Frage ist eine Nachfrage ohne neue Tatsachenbehauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 17,
@@ -919,9 +921,9 @@
         "jev_error": null,
         "reason": "Alle Angaben stimmen mit dem Fakt-Satz überein: 1949, Helgoländer Loch, etwa 2,5 Seemeilen (ca. 4,6 km) südlich von Helgoland, bis zu zehn Tonnen Tabun, rund 90 Tonnen Giftgasgranaten, ca. 6000 Granaten. Die ausgeschriebenen Zahlen und die Umformulierung sind zulässig. Das einleitende „Ja“ ist eine belegfreie Reaktion. Es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 19,
@@ -964,9 +966,9 @@
         "jev_error": null,
         "reason": "Alle Angaben im Redebeitrag (Datum 20. Dezember 1950, die beiden Heidelberger Studenten René Leudesdorff und Georg von Hatzfeld, zwei Nächte und ein Tag, die drei Flaggen für die Presse in unterschiedlichen Variationen) stimmen mit dem Fakt-Satz überein. Das einleitende \"Allerdings.\" ist eine belegfreie Reaktion."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 21,
@@ -1028,9 +1030,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen. Sprengung der Bunkeranlagen, Gleichsetzung der Insel mit Atlantis in den 1950er Jahren, Spanuths Aufnahme völkischer Ideen sowie seine Bekanntheit durch kontroverse Thesen, die die Fachwelt als wissenschaftlich nicht haltbar einstufte, stehen in den Fakten. Dass die Insel Helgoland ist, wird nicht behauptet. Der Einstieg „Eine ganz besondere“ ist eine belegfreie Reaktion."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 22,
@@ -1083,9 +1085,9 @@
         "jev_error": null,
         "reason": "Die Aussage, die Fachwelt halte Spanuths Atlantis-These nicht für haltbar, folgt aus [266510031-0001]. Die Prämisse der Frage, dass die Bunkeranlagen der Insel gesprengt wurden, folgt aus [272085229-0558]. Der Rest ist eine Nachfrage ohne Belegpflicht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 23,
@@ -1128,9 +1130,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 25,
@@ -1177,9 +1179,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen stehen im Fakt-Satz: Atombunker in den unteren zwei Stockwerken des Leuchtturms zur Zeit des Kalten Krieges, Scheinfenster nur aus ästhetischen Gründen. \"Ja, im Leuchtturm\" ist eine Antwort, die sich auf den Fakt stützt, und fügt nichts Neues hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 27,
@@ -1241,9 +1243,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen. Der „Fuselfelsen“-Satz entspricht Fakt 0746; „damals“ fehlt im Redebeitrag, das ist unproblematisch. „Für Helgoland und die Düne“ gibt „für beide Inseln“ aus Fakt 0013 wieder, die Aussagen zu Wirtschaftsgebiet, Zollgebiet und Verbrauchsteuern stimmen damit überein. „Auch rechtlich ist die Insel besonders“ ist eine Überleitung, die sich auf die Sonderregelungen stützt. Es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 29,
@@ -1294,9 +1296,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Verbot von Kraftfahrzeugverkehr und Radfahren seit 1971 nach § 50 StVO (0826) sowie zwei Fußgängerampeln auf der Düne, die vor landenden Flugzeugen warnen (0842). \"Trotzdem\" ist nur eine Überleitung und fügt keine neue Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 31,
@@ -1356,9 +1358,9 @@
         "jev_error": null,
         "reason": "Alle drei Aussagen folgen aus den Fakt-Sätzen: Der erste Satz entspricht 0021 (weder geografisch noch rechtlich Hohe See). Der zweite entspricht 0023 (seit 1995 überschneidet sich die 12-Meilen-Zone vor dem Festland oder den vorgelagerten Inseln mit der um Helgoland). Der dritte ist die Folgerung aus 0023 (kein internationales Gewässer trennt die Insel vom Festland). Es wird keine zusätzliche Angabe gemacht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 32,
@@ -1394,9 +1396,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag besteht aus einer Reaktion (Staunen: „Das überrascht mich!“) und einer Nachfrage, ob die Strecke zum Festland schon einmal ohne Boot bewältigt wurde. Beides ist belegfrei, und die Frage setzt nur voraus, dass es eine Strecke zwischen Insel und Festland gibt. Das ist mit dem Fakt-Satz vereinbar, der Helgoland und das Festland erwähnt. Es wird keine unbelegte Behauptung aufgestellt."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 33,
@@ -1432,9 +1434,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Datum (21. August 2021), Person (André Wiersig), erster Mensch, Start St. Peter-Ording, Ziel Helgoland. Es gibt keine zusätzlichen Angaben; das einleitende „Ja“ ist eine belegfreie Reaktion."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 35,
@@ -1479,9 +1481,9 @@
         "jev_error": null,
         "reason": "Die Aussage zu den nach oben zeigenden Schichten an der Westseite und den nach unten zeigenden Schichten an der Ostseite Helgolands steht wortgleich im Fakt-Satz 272085229-0099. „Interessant ist die Ordnung im Gestein“ ist eine Wertung ohne eigenen Faktengehalt, und es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 37,
@@ -1524,9 +1526,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 39,
@@ -1572,9 +1574,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: erfolgreiche Auspflanzversuche seit den 1980er Jahren mit Hanfpalmen, Honigpalmen und anderen Palmen sowie Lorbeer, Yucca, Cordyline und Steineiche, die auf dem deutschen Festland nicht oder nur bedingt winterhart sind. Der Eröffnungssatz \"Die Natur bietet Überraschungen\" ist eine belegfreie Reaktion bzw. Überleitung, und es wird keine zusätzliche Angabe gemacht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 41,
@@ -1636,9 +1638,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 43,
@@ -1674,9 +1676,9 @@
         "jev_error": null,
         "reason": "Datum (23. Februar 1967), Orkaneinsatz, Seenotrettungskreuzer Adolph Bermpohl, Verlust der gesamten Besatzung und drei gerettete Schiffbrüchige entsprechen dem Fakt-Satz; das einleitende „Ja“ ist eine Reaktion ohne Belegpflicht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 45,
@@ -1719,9 +1721,9 @@
         "jev_error": null,
         "reason": "Die Aussagen stimmen mit dem Fakt-Satz überein: Ein Aufenthalt Störtebekers auf der Insel ist nicht nachweisbar, und er soll 1401 bei Helgoland gefangen worden sein. Die ausgeschriebene Jahreszahl ist zulässig. Der Einleitungssatz \"Eine, bei der es Zweifel gibt\" ist eine Überleitung ohne neue Information."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 47,
@@ -1777,9 +1779,9 @@
         "jev_error": null,
         "reason": "Beide Behauptungen stimmen mit den zitierten Fakt-Sätzen überein: Die Kirchengemeinde gehört zum Kirchenkreis Dithmarschen, die Kommunalgemeinde zum Kreis Pinneberg. Der Anschluss am 30. November 2009 als letzte deutsche Gemeinde ans europäische Verbundnetz ist ebenfalls belegt. „Gleich zwei“ ist eine belegfreie Überleitung, es kommen keine zusätzlichen Angaben hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     },
     {
       "turn_index": 48,
@@ -1975,10 +1977,20 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus den zitierten Fakten: Lage in der Deutschen Bucht, Zerbrechen in der Neujahrsflut 1721, Heisenbergs Abschluss seiner Quantenmechanik, Hoffmanns Lied der Deutschen, Schmuggelplatz, Sprengung der Bunker 1947 durch die Briten, der poröse Sandstein, der die Druckwelle entweichen ließ, das Verbot von Kraftfahrzeugen und Radfahren, die steuer- und zollrechtlichen Sonderregelungen, Robben am Dünenstrand und erfolgreich ausgepflanzte Palmen. Die Formulierung 'bewahrte vor dem Schlimmsten' ist eine zulässige Zusammenfassung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042086446
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "comment_id": 7042086446,
+      "url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/5#issuecomment-7042086446",
+      "created_at": "2026-11-20T14:29:42Z",
+      "updated_at": "2026-11-20T14:29:42Z",
+      "review_lines": 32,
+      "applied": true,
+      "errors": []
+    }
+  ]
 }
