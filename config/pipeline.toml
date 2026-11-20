@@ -132,3 +132,30 @@ claude_haiku_cache_read = 0.01      # Claude Haiku 5.5 (0.1 x input)
 jev = 0.042                         # USD per million input tokens; output tokens free (spike S1)
 gemini_tts_input = 0.50                #  USD per million text tokens; 1.00 from 2027-01-01
 gemini_tts_output = 9.00               #  USD per million audio tokens; 18.00 from 2027-01-01
+
+[hosting]
+# Internet Archive, S3-like API (phase 2). Keys come from the environment (GitHub secrets
+# IA_ACCESS_KEY and IA_SECRET_KEY), never from this file.
+s3_endpoint = "https://s3.us.archive.org"
+metadata_endpoint = "https://archive.org/metadata"
+download_base = "https://archive.org/download"
+details_base = "https://archive.org/details"
+# One item per episode: "<prefix>_<episode id>", cut to the identifier limit with a hash suffix.
+identifier_prefix = "gut-zu-wissen"
+identifier_max_chars = 100
+collection = "opensource_audio"
+mediatype = "audio"
+language = "ger"
+creator = "Gut zu wissen"
+licence_url = "https://creativecommons.org/licenses/by-sa/4.0/"
+subjects = ["Podcast", "Wikipedia", "Wissen"]
+description = "Folge von „Gut zu wissen“ über den Wikipedia-Artikel „{title}“. Alle Inhalte stammen aus der deutschsprachigen Wikipedia (CC BY-SA 4.0). Die Folge ist mit KI entstanden: Auswahl der Fakten, Gespräch und Stimmen. KI kann Fehler machen."
+audio_file = "episode.mp3"
+cover_file = "cover.png"
+cover_size_px = 3000                # D7: 1400-3000 px, square
+mp3_bitrate_kbps = 128
+max_retries = 3                     # 429, 5xx, timeout
+backoff_seconds = 2.0               # doubled per attempt
+timeout_seconds = 600               # one upload request (about 15 MB of audio)
+ready_timeout_seconds = 900         # the files must show up in the item's file list
+ready_poll_seconds = 15
