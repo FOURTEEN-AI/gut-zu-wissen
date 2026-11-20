@@ -1,16 +1,23 @@
 """Orchestrator (phase 1, step 8; design: "Fehlerbehandlung", decisions D1, D5, D6).
 
-Turn level: a rejected turn (gate problem or judge) is regenerated with its neighbours as context,
-at most `turn_retries` times. After every regeneration the next turn is regenerated as well
-(neighbour cascade, D1); a two-stage check decides whether the regenerated turn still conveys
-the statements of the version before (user decision 2026-11-20). Jev asks first: p >= t stops the
-cascade, p <= 1 - t continues it. Uncertain p, or an overlength or transient Jev error, goes to
-the LLM judge, which sees only the earlier text and statements and the new text; anything but a
-clear "same statements" counts as content lost and continues the cascade. Jev abort errors and
-failed LLM calls (`LlmError`) propagate. All regenerations of a cascade, retries after a rejection
-included, share the budget of the turn that triggered it. The repetition gate looks at the whole
-current dialog: a fact cited by too many turns rejects the later turns, never the first narration,
-so a regenerated turn that creates a repetition with a later turn rejects that later turn.
+Turn level: a rejected turn (gate problem or judge) is regenerated with its neighbours as context.
+After every regeneration the next turn is regenerated as well (neighbour cascade, D1); a
+two-stage check decides whether the regenerated turn still conveys the statements of the version
+before (user decision 2026-11-20). Jev asks first: p >= t stops the cascade, p <= 1 - t continues
+it. Uncertain p, or an overlength or transient Jev error, goes to the LLM judge, which sees only
+the earlier text and statements and the new text; anything but a clear "same statements" counts
+as content lost and continues the cascade. Jev abort errors and failed LLM calls (`LlmError`)
+propagate.
+
+Budgets (D1, changed 2026-11-20): a chain (the rejected turn, its retries and its cascade) has a
+judge budget of `turn_retries` and a separate gate budget of `gate_retries`. A retry charges the
+type of the rejection it fixes (decided by "gate": gate budget; by Jev or the LLM judge: judge
+budget); a cascade step charges the type of the rejection that started the chain. Each
+regeneration records the budget it charged.
+
+The repetition gate looks at the whole current dialog: a fact cited by too many turns rejects the
+later turns, never the first narration, so a regenerated turn that creates a repetition with a
+later turn rejects that later turn.
 
 Conversation level: an exhausted turn budget, or fewer than `min_used_facts` used facts after the
 author (D5), discards the dialog and writes a new one from a fresh offer (D6: both rankings rerun,
@@ -29,7 +36,7 @@ Deterministic parts are pure functions; the LLM and Jev calls sit behind their i
 from __future__ import annotations
 
 from collections.abc import Callable, Collection, Mapping, Sequence
-from dataclasses import asdict, dataclass, field
+from dataclasses import asdict, dataclass, field, replace
 
 from gut_zu_wissen.dialog import (
     Dialog,
@@ -58,6 +65,9 @@ from gut_zu_wissen.markup import markup_problems
 from gut_zu_wissen.ranking import RankedFact
 
 CASCADE_KEY = "gleiche_aussagen"
+
+JUDGE_BUDGET = "judge"  # D1: judge rejections, `turn_retries`
+GATE_BUDGET = "gate"  # D1 (2026-11-20): gate rejections, `gate_retries`
 
 CASCADE_VERDICT_SCHEMA = {
     "type": "object",
@@ -102,13 +112,15 @@ class Offer:
 
 @dataclass
 class Regeneration:
-    """One regenerated turn; `previous` is the version that was replaced."""
+    """One regenerated turn; `previous` is the version that was replaced. Field order is the
+    archive field order (new fields appended)."""
 
     conversation: int
     turn_index: int
     kind: str  # "retry" after a rejection, "cascade" for a neighbour
     reason: str | None
     previous: Turn
+    budget: str = JUDGE_BUDGET  # the budget this regeneration charged: "judge" or "gate"
 
 
 @dataclass
@@ -250,6 +262,60 @@ def format_cascade_input(before: Turn, after: Turn) -> str:
     return "\n".join(lines)
 
 
+# ---------------------------------------------------------------- retry budgets (D1)
+
+
+def budget_type(judgement: TurnJudgement) -> str:
+    """The budget a regeneration after this rejection charges: gate problems (decided without a
+    judge call) the gate budget, judge rejections the judge budget."""
+    return GATE_BUDGET if judgement.decided_by == "gate" else JUDGE_BUDGET
+
+
+@dataclass(frozen=True)
+class ChainBudget:
+    """Retry budgets of one chain: a rejected turn, its retries and its neighbour cascade (D1).
+
+    `trigger` is the budget type of the rejection that started the chain; cascade steps charge
+    it. `charge` is the budget type the next regeneration charges.
+    """
+
+    judge: int
+    gate: int
+    trigger: str
+    charge: str
+
+
+def chain_start(rejection: str, turn_retries: int, gate_retries: int) -> ChainBudget:
+    """A new chain after the rejection of type `rejection`: both budgets full, the first
+    regeneration (the retry) charges that rejection's type."""
+    return ChainBudget(turn_retries, gate_retries, rejection, rejection)
+
+
+def after_rejection(budget: ChainBudget, rejection: str) -> ChainBudget:
+    """The regenerated turn was rejected again: its retry charges this rejection's type."""
+    return ChainBudget(budget.judge, budget.gate, budget.trigger, rejection)
+
+
+def cascade_step(budget: ChainBudget) -> ChainBudget:
+    """The next regeneration is a cascade step: it charges the type of the triggering
+    rejection."""
+    return ChainBudget(budget.judge, budget.gate, budget.trigger, budget.trigger)
+
+
+def spend(budget: ChainBudget) -> ChainBudget | None:
+    """One regeneration charged to `budget.charge`; None when that budget is used up."""
+    if budget.charge == GATE_BUDGET:
+        return None if budget.gate == 0 else replace(budget, gate=budget.gate - 1)
+    return None if budget.judge == 0 else replace(budget, judge=budget.judge - 1)
+
+
+def exhausted_reason(charge: str, turn_retries: int, gate_retries: int) -> str:
+    """Archived reason of a used-up turn budget."""
+    if charge == GATE_BUDGET:
+        return f"Turn regeneration budget used up (gate problems, {gate_retries}x)."
+    return f"Turn regeneration budget used up (judge, {turn_retries}x)."
+
+
 # ---------------------------------------------------------------- turn level
 
 
@@ -257,6 +323,8 @@ def format_cascade_input(before: Turn, after: Turn) -> str:
 class RepairResult:
     exhausted: bool
     rejected_fact_ids: list[str]
+    start: int | None = None  # exhausted: the turn that started the failing chain (k)
+    budget: str | None = None  # exhausted: the budget type that was used up
 
 
 def turn_gate_problems(
@@ -375,9 +443,15 @@ def repair_turns(
     jev: Jev,
     t: float,
     turn_retries: int,
+    gate_retries: int,
     max_turns_per_fact: int,
 ) -> RepairResult:
     """Regenerate rejected turns in place, with the cascade of D1. Stops when a budget is empty.
+
+    Every chain (a rejected turn, its retries and its cascade) has a judge budget
+    (`turn_retries`) and a gate budget (`gate_retries`, user decision 2026-11-20): a retry
+    charges the type of the rejection it fixes, a cascade step the type of the rejection that
+    started the chain (`ChainBudget`).
 
     A regenerated turn can make a later, accepted turn repeat a fact; that turn is rejected as a
     gate problem right away and repaired with its own budget when the loop reaches it.
@@ -396,13 +470,15 @@ def repair_turns(
         if judgements[start].accepted:  # also true when an earlier cascade fixed it
             continue
         note(turns[start], judgements[start])
-        budget = turn_retries
+        budget = chain_start(budget_type(judgements[start]), turn_retries, gate_retries)
         pos, kind, reason = start, "retry", judgements[start].reason
         baseline = turns[start]
         while True:
-            if budget == 0:
-                return RepairResult(True, rejected)
-            budget -= 1
+            charged = budget.charge
+            remaining = spend(budget)
+            if remaining is None:
+                return RepairResult(True, rejected, start, charged)
+            budget = remaining
             old = turns[pos]
             new = regenerate_turn(author, offer_text, aliases, turns, pos, reason)
             version = turn_version(state.regenerations, state.conversation, pos)
@@ -411,7 +487,9 @@ def repair_turns(
                     state.conversation, pos, version, len(state.regenerations), judgements[pos]
                 )
             )
-            state.regenerations.append(Regeneration(state.conversation, pos, kind, reason, old))
+            state.regenerations.append(
+                Regeneration(state.conversation, pos, kind, reason, old, charged)
+            )
             turns[pos] = new
             judgement = evaluate(turns, pos, offer, jev, judge_llm, t, max_turns_per_fact)
             judgements[pos] = judgement
@@ -420,6 +498,7 @@ def repair_turns(
             if not judgement.accepted:
                 note(new, judgement)
                 reason = judgement.reason
+                budget = after_rejection(budget, budget_type(judgement))
                 continue
             if kind == "cascade":
                 check = check_cascade(jev, judge_llm, baseline, new, t, state.conversation)
@@ -429,6 +508,7 @@ def repair_turns(
             if pos + 1 >= len(turns):
                 break
             pos, kind, reason = pos + 1, "cascade", None
+            budget = cascade_step(budget)
             baseline = turns[pos]
     return RepairResult(False, rejected)
 
@@ -486,13 +566,14 @@ def orchestrate(
                     jev,
                     t,
                     quotas["turn_retries"],
+                    quotas["gate_retries"],
                     max_turns_per_fact,
                 )
                 rejected += [i for i in result.rejected_fact_ids if i not in rejected]
                 if result.exhausted:
-                    failure = (
-                        "Turn regeneration budget used up "
-                        f"({quotas['turn_retries']}x, cascade included)."
+                    assert result.budget is not None
+                    failure = exhausted_reason(
+                        result.budget, quotas["turn_retries"], quotas["gate_retries"]
                     )
             if failure:
                 excluded.update(rejected)

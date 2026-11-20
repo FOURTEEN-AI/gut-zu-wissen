@@ -11,17 +11,25 @@ from gut_zu_wissen.orchestrator import (
     CASCADE_KEY,
     CASCADE_PROMPT,
     CASCADE_VERDICT_SCHEMA,
+    GATE_BUDGET,
+    JUDGE_BUDGET,
     CascadeCheck,
+    ChainBudget,
     GateFailure,
     Offer,
     Orchestration,
+    after_rejection,
+    budget_type,
     cascade_decision,
     cascade_request,
+    cascade_step,
     cascade_verdict_confirmed,
+    chain_start,
     check_cascade,
     format_cascade_input,
     orchestrate,
     rejected_fact_ids,
+    spend,
 )
 from gut_zu_wissen.ranking import RankedFact
 
@@ -32,6 +40,7 @@ CONFIG = {
         "min_used_facts": 1,
         "max_turns_per_fact": 2,
         "turn_retries": 2,
+        "gate_retries": 3,
         "conversation_retries": 2,
     },
 }
@@ -300,6 +309,64 @@ def test_cascade_request_names_old_statements_and_new_text():
     assert list(questions) == [CASCADE_KEY]
 
 
+# ---------------------------------------------------------------- retry budgets (D1)
+
+
+def test_budget_type_is_gate_only_for_gate_rejections():
+    assert budget_type(judgement(by="gate")) == GATE_BUDGET
+    assert budget_type(judgement(by="jev")) == JUDGE_BUDGET
+    assert budget_type(judgement(by="llm_judge")) == JUDGE_BUDGET
+
+
+def spend_all(budget: ChainBudget) -> int:
+    """How many regenerations the current charge type still allows."""
+    n = 0
+    while (after := spend(budget)) is not None:
+        budget, n = after, n + 1
+    return n
+
+
+def test_chain_starts_full_and_its_retry_charges_the_rejection_type():
+    for rejection in (GATE_BUDGET, JUDGE_BUDGET):
+        budget = chain_start(rejection, 2, 3)
+        assert budget == ChainBudget(2, 3, rejection, rejection)
+    assert spend_all(chain_start(GATE_BUDGET, 2, 3)) == 3  # gate budget exhausted after 3
+    assert spend_all(chain_start(JUDGE_BUDGET, 2, 3)) == 2  # judge budget exhausted after 2
+
+
+def test_gate_then_judge_rejection_charges_each_its_own_budget():
+    budget = spend(chain_start(GATE_BUDGET, 2, 3))
+    assert (budget.judge, budget.gate) == (2, 2)
+    budget = spend(after_rejection(budget, JUDGE_BUDGET))
+    assert (budget.judge, budget.gate, budget.trigger) == (1, 2, GATE_BUDGET)
+
+
+def test_judge_then_gate_rejection_charges_each_its_own_budget():
+    budget = spend(chain_start(JUDGE_BUDGET, 2, 3))
+    budget = spend(after_rejection(budget, GATE_BUDGET))
+    assert (budget.judge, budget.gate, budget.trigger) == (1, 2, JUDGE_BUDGET)
+
+
+def test_cascade_steps_charge_the_triggering_rejection_type():
+    # after a gate retry the cascade runs on the gate budget, even with no judge budget at all
+    budget = spend(chain_start(GATE_BUDGET, 0, 3))
+    budget = cascade_step(budget)
+    assert budget.charge == GATE_BUDGET
+    budget = spend(budget)
+    assert (budget.judge, budget.gate) == (0, 1)
+    # a cascade step rejected by the judge: its retry charges the judge budget, the next cascade
+    # step the trigger again
+    budget = after_rejection(budget, JUDGE_BUDGET)
+    assert budget.charge == JUDGE_BUDGET and spend(budget) is None
+    assert cascade_step(budget).charge == GATE_BUDGET
+
+
+def test_used_up_budget_of_one_type_leaves_the_other():
+    budget = ChainBudget(0, 1, JUDGE_BUDGET, JUDGE_BUDGET)
+    assert spend(budget) is None  # judge budget exhausted
+    assert spend(after_rejection(budget, GATE_BUDGET)) == ChainBudget(0, 0, JUDGE_BUDGET, "gate")
+
+
 # ---------------------------------------------------------------- turn level
 
 
@@ -327,16 +394,20 @@ def test_rejected_turn_is_regenerated_and_cascade_stops_when_confirmed():
 def test_cascade_continues_while_not_confirmed_and_shares_the_budget():
     author = FakeAuthor(
         [
-            dialog_json("Eins.", "Falsch.", "Drei.", "Vier."),
-            dialog_json("Neu eins.", "Neu zwei.", fact="1-0001"),
+            dialog_json("Eins.", "Falsch.", "Drei.", "Vier.", facts=DISTINCT),
+            dialog_json("Neu eins.", "Neu zwei.", fact="1-0000"),
         ],
-        [turn_json("Felix", "B.", "1-0000"), turn_json("Lena", "C.", "1-0000")],
+        [turn_json("Felix", "B.", "1-0001"), turn_json("Lena", "C.", "1-0002")],
     )
     jev = FakeJev(bad={"Falsch."}, cascade=[0.01])  # content lost: cascade goes on, budget out
     state = run(author, jev)
-    assert state.discarded[0].reason.startswith("Turn regeneration budget")
+    assert state.discarded[0].reason == "Turn regeneration budget used up (judge, 2x)."
     assert [t.text for t in state.dialog.turns] == ["Neu eins.", "Neu zwei."]
-    assert len(state.regenerations) == 2  # trigger plus one cascade turn: the 2x budget
+    # trigger plus one cascade turn: the 2x judge budget of the judge rejection
+    assert [(r.kind, r.budget) for r in state.regenerations] == [
+        ("retry", "judge"),
+        ("cascade", "judge"),
+    ]
 
 
 def test_uncertain_cascade_check_confirmed_by_llm_judge_stops_the_cascade():
@@ -469,10 +540,10 @@ def test_turn_version_counts_regenerations_of_that_turn_in_that_conversation():
 def test_superseded_judgements_of_a_discarded_conversation_keep_its_number():
     author = FakeAuthor(
         [
-            dialog_json("Eins.", "Falsch.", "Drei.", "Vier."),
-            dialog_json("Neu eins.", "Neu zwei.", fact="1-0001"),
+            dialog_json("Eins.", "Falsch.", "Drei.", "Vier.", facts=DISTINCT),
+            dialog_json("Neu eins.", "Neu zwei.", fact="1-0000"),
         ],
-        [turn_json("Felix", "B.", "1-0000"), turn_json("Lena", "C.", "1-0000")],
+        [turn_json("Felix", "B.", "1-0001"), turn_json("Lena", "C.", "1-0002")],
     )
     state = run(author, FakeJev(bad={"Falsch."}, cascade=[0.01]))
     assert state.conversation == 2
@@ -575,7 +646,7 @@ def test_accepted_turn_with_markup_is_regenerated_as_a_gate_problem():
 def test_markup_rejection_excludes_no_facts():
     # Markup is no fact problem: the fresh offer after a used-up budget excludes nothing (D6).
     markup = turn_json("Lena", "In [[Paris]].", "1-0000")
-    author = FakeAuthor([dialog_json("In [[Paris]]."), dialog_json("Sauber.")], [markup, markup])
+    author = FakeAuthor([dialog_json("In [[Paris]]."), dialog_json("Sauber.")], [markup] * 3)
     state = run(author, FakeJev())
     assert state.discarded[0].excluded_fact_ids == []
     assert run.offers == [frozenset(), frozenset()]
@@ -607,7 +678,7 @@ def test_conversation_regeneration_excludes_rejected_facts_cumulatively():
 
 def test_conversation_regeneration_budget_ends_in_gate_failure():
     dialogs = [dialog_json("Falsch.", fact=f"1-000{i}") for i in range(3)]
-    turns = [turn_json("Lena", "Falsch.", "1-0000")] * 6
+    turns = [turn_json("Lena", "Falsch.", f"1-000{i}") for i in range(3) for _ in range(2)]
     with pytest.raises(GateFailure, match="Conversation regeneration budget used up"):
         run(FakeAuthor(dialogs, turns), FakeJev(bad={"Falsch."}), n_facts=5)
     assert len(run.offers) == 3  # first run plus two regenerations
@@ -690,3 +761,109 @@ def test_discarded_conversation_keeps_the_aliases_of_its_own_offer():
     assert list(asdict(discarded))[-1] == "aliases"
     assert state.dialog_dict()["aliases"] == {"F1": "1-0001"}
     assert state.dialog.turns[0].fact_ids == ["1-0001"]  # F1 of the new offer
+
+
+def unknown_id_turn(speaker: str, text: str) -> dict:
+    return turn_json(speaker, text, "9-9999")
+
+
+def test_gate_then_judge_rejection_in_one_chain():
+    # turn 1: unknown ID (gate) -> retry rejected by Jev (judge) -> retry accepted -> cascade
+    author = FakeAuthor(
+        [dialog_json("Eins.", "Zwei.", "Drei.", "Vier.", facts=DISTINCT)],
+        [
+            turn_json("Felix", "Falsch.", "1-0001"),
+            turn_json("Felix", "Gut.", "1-0001"),
+            turn_json("Lena", "Drei neu.", "1-0002"),
+        ],
+    )
+    author.dialogs[0]["turns"][1]["fact_ids"] = ["9-9999"]
+    state = run(author, FakeJev(bad={"Falsch."}, cascade=[0.99]))
+    assert [(r.turn_index, r.kind, r.budget) for r in state.regenerations] == [
+        (1, "retry", "gate"),
+        (1, "retry", "judge"),
+        (2, "cascade", "gate"),  # the chain was triggered by a gate problem
+    ]
+    assert state.discarded == [] and all(j.accepted for j in state.judgements)
+
+
+def test_judge_then_gate_rejection_in_one_chain():
+    author = FakeAuthor(
+        [dialog_json("Eins.", "Falsch.", "Drei.", "Vier.", facts=DISTINCT)],
+        [
+            unknown_id_turn("Felix", "Zwei."),
+            turn_json("Felix", "Gut.", "1-0001"),
+            turn_json("Lena", "Drei neu.", "1-0002"),
+        ],
+    )
+    state = run(author, FakeJev(bad={"Falsch."}, cascade=[0.99]))
+    assert [(r.turn_index, r.kind, r.budget) for r in state.regenerations] == [
+        (1, "retry", "judge"),
+        (1, "retry", "gate"),
+        (2, "cascade", "judge"),
+    ]
+    assert state.discarded == []
+
+
+def test_cascade_after_a_gate_retry_does_not_touch_the_judge_budget():
+    config = {**CONFIG, "quotas": {**CONFIG["quotas"], "turn_retries": 0}}
+    author = FakeAuthor(
+        [dialog_json("Eins.", "Zwei.", "Drei.", "Vier.", facts=DISTINCT)],
+        [
+            turn_json("Felix", "Zwei neu.", "1-0001"),
+            turn_json("Lena", "Drei neu.", "1-0002"),
+            turn_json("Felix", "Vier neu.", "1-0000"),
+        ],
+    )
+    author.dialogs[0]["turns"][1]["fact_ids"] = ["9-9999"]
+    state = run(author, FakeJev(cascade=[0.01, 0.99]), config=config)  # content lost: goes on
+    assert [(r.turn_index, r.kind, r.budget) for r in state.regenerations] == [
+        (1, "retry", "gate"),
+        (2, "cascade", "gate"),
+        (3, "cascade", "gate"),
+    ]
+    assert state.discarded == [] and all(j.accepted for j in state.judgements)
+
+
+def test_gate_budget_exhausted_after_gate_retries():
+    author = FakeAuthor(
+        [dialog_json("Eins.", "Zwei.", facts=["1-0000", "1-0001"])],
+        [unknown_id_turn("Felix", f"Neu {n}.") for n in range(3)],
+    )
+    author.dialogs[0]["turns"][1]["fact_ids"] = ["9-9999"]
+    with pytest.raises(GateFailure, match=r"gate problems, 3x"):
+        run(
+            author,
+            FakeJev(),
+            config={**CONFIG, "quotas": {**CONFIG["quotas"], "conversation_retries": 0}},
+        )
+    assert [r.budget for r in run.state.regenerations] == ["gate"] * 3
+
+
+def test_judge_budget_exhausted_after_turn_retries():
+    author = FakeAuthor(
+        [dialog_json("Eins.", "Falsch.", facts=["1-0000", "1-0001"])],
+        [turn_json("Felix", "Falsch.", "1-0001")] * 2,
+    )
+    with pytest.raises(GateFailure, match=r"judge, 2x"):
+        run(
+            author,
+            FakeJev(bad={"Falsch."}),
+            config={**CONFIG, "quotas": {**CONFIG["quotas"], "conversation_retries": 0}},
+        )
+    assert [r.budget for r in run.state.regenerations] == ["judge"] * 2
+
+
+def test_regeneration_records_its_budget_as_the_last_field():
+    author = FakeAuthor([dialog_json("Eins.", "Falsch.")], [turn_json("Felix", "Gut.", "1-0000")])
+    state = run(author, FakeJev(bad={"Falsch."}))
+    (regeneration,) = state.dialog_dict()["regenerations"]
+    assert list(regeneration) == [
+        "conversation",
+        "turn_index",
+        "kind",
+        "reason",
+        "previous",
+        "budget",
+    ]
+    assert regeneration["budget"] == "judge"

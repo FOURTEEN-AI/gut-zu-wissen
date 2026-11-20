@@ -36,6 +36,7 @@ CONFIG = {
         "min_used_facts": 1,
         "max_turns_per_fact": REAL["quotas"]["max_turns_per_fact"],
         "turn_retries": 2,
+        "gate_retries": 3,
         "conversation_retries": 2,
         "tts_section_max_chars": 6000,
         "audio_section_retries": 2,
