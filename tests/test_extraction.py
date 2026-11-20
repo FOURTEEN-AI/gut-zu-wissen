@@ -210,3 +210,12 @@ def test_prompt_and_schema_are_passed():
 def test_result_dict_field_order():
     result = extract_facts(FakeLlm([{"candidates": []}]), EchoRenderer(), "T", 7, [], CONFIG)
     assert list(result.to_dict()) == ["revid", "chunk_count", "facts", "rejected"]
+
+
+def test_extraction_prompt_offers_candidates_and_leaves_surprise_to_ranking():
+    # User decision 2026-11-20: short articles gave only 25-30 candidates; the ranking selects.
+    from gut_zu_wissen.extraction import SYSTEM_PROMPT
+
+    assert "konkrete, interessante Aussage" in SYSTEM_PROMPT
+    assert "sortiere hier also nicht streng aus" in SYSTEM_PROMPT
+    assert "lieber wenige gute" not in SYSTEM_PROMPT

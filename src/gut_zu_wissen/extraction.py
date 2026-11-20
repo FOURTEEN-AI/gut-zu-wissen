@@ -44,14 +44,15 @@ EXTRACTION_SCHEMA = {
 }
 
 SYSTEM_PROMPT = """\
-Du wählst aus einem Abschnitt eines Wikipedia-Artikels die überraschendsten Fakten für einen \
-Podcast aus. Du bekommst den Abschnitt als Liste von Segmenten, jedes mit einer ID in eckigen \
+Du wählst aus einem Abschnitt eines Wikipedia-Artikels die Kandidaten für Fakten eines \
+Podcasts aus. Du bekommst den Abschnitt als Liste von Segmenten, jedes mit einer ID in eckigen \
 Klammern. Ein Fakt ist genau ein Segment.
 
-Wähle nur Segmente, die für sich genommen eine überraschende, konkrete Aussage enthalten: \
-etwas, das ein Laie nicht erwartet. Wähle nichts Triviales und keine reinen Aufzählungen. \
-Wähle lieber wenige gute als viele mittelmäßige Segmente; wenn nichts überrascht, gib eine \
-leere Liste zurück.
+Wähle jedes Segment, das für sich genommen eine konkrete, interessante Aussage enthält, die man \
+einem Laien erzählen kann. Welche davon am überraschendsten sind, entscheidet ein späterer \
+Schritt; sortiere hier also nicht streng aus. Wähle nichts Triviales, keine reinen \
+Aufzählungen, keine bloßen Verweise und keine Sätze, die nur Bekanntes oder Allgemeines \
+wiederholen. Wenn der Abschnitt nichts davon enthält, gib eine leere Liste zurück.
 
 Zu jedem gewählten Segment nennst du den Kontext, den man braucht, um es zu verstehen \
 (zum Beispiel, worauf sich ein Pronomen oder eine Ortsangabe bezieht). Der Kontext besteht aus \
