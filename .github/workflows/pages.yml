@@ -1,0 +1,53 @@
+name: Pages
+
+# Builds the static site (`gut_zu_wissen.site`) and deploys it to GitHub Pages. Needs the
+# repository setting Pages > Source: "GitHub Actions". A push made with the workflow token does
+# not start other workflows, so the publish workflow's archive commit is picked up through
+# `workflow_run`; manual changes to the site or its config start it through `push`.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - "assets/cover/show-art.png"
+      - "config/pipeline.toml"
+      - "src/gut_zu_wissen/site.py"
+      - "src/gut_zu_wissen/feed.py"
+      - "src/gut_zu_wissen/shownotes.py"
+  workflow_run:
+    workflows: ["Publish"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    # After a publish run only when it succeeded.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - run: uv sync --no-dev
+      - run: uv run python -m gut_zu_wissen.site build/site
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/site
+      - id: deployment
+        uses: actions/deploy-pages@v4

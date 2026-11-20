@@ -66,8 +66,8 @@ These retire the open risks before the build starts.
 
 ## Phase 2: Publication (Ausbaustufe 2)
 
-- **Blocker:** resolve the ⚠ placeholders in datenschutz.md.
-- **Cover (D7).**
+- **Blocker:** resolve the ⚠ placeholders in datenschutz.md. ✅ Done (2026-11-20; Stand 22 November 2026).
+- **Cover (D7).** ✅ Done (2026-11-20; template approved by Andreas, font bundled in `assets/cover/fonts/`).
   - SVG template with a title box: drafted by Claude, finalized by Andreas.
   - Pipeline renders the article title per episode: wrap at word boundaries, no line limit, then shrink the font until the block fits; no ellipsis.
   - SVG → PNG (1400–3000 px, square), bundled font, no external resources.
@@ -75,17 +75,17 @@ These retire the open risks before the build starts.
   - Decided 2026-11-20: MP3 encoded by the pipeline from the FLAC master (128 kbit/s, `[hosting]` in the config); publishing is a manual workflow (`publish.yml`, input: episode ID and the producing run's ID) after the review, not part of the run.
   - One item per episode, `gut-zu-wissen_<episode id>`; result in `10_publication.json`; the episode becomes `published` only once the item lists both files.
   - Needs the GitHub secrets `IA_ACCESS_KEY` and `IA_SECRET_KEY`.
-- Static Pages site: no external resources, `preload="none"`, legal pages linked on every page.
+- Static Pages site: no external resources, `preload="none"`, legal pages linked on every page. ✅ Done in code (2026-11-20; generator `gut_zu_wissen.site`, workflow `pages.yml`; the repository's Pages source must be set to "GitHub Actions").
   - Publish the plain-language explainer `site/so-funktionierts.html` (draft exists, phase 1). Before publishing:
-    - check the Impressum/Datenschutz link targets against how the site is actually served;
-    - replace the "trial phase, not yet published" wording;
+    - check the Impressum/Datenschutz link targets against how the site is actually served: ✅ done (generated as `impressum.html`, `datenschutz.html`);
+    - replace the "trial phase, not yet published" wording: ✅ done;
     - update the steps if the pipeline has changed since.
-- **RSS** with iTunes tags and stable GUIDs:
+- **RSS** with iTunes tags and stable GUIDs: ✅ Done in code (2026-11-20; `gut_zu_wissen.feed`, built with the site).
   - Category: Education.
   - Owner email: gut-zu-wissen@fourteen-it.de.
   - Explicit: `false` at feed level; per episode from the explicit check.
   - Episode image: rendered cover.
-- Shownotes: revision permalinks, history links, mailto link with episode title and ID.
+- Shownotes: revision permalinks, history links, mailto link with episode title and ID. ✅ Done in code (2026-11-20; episode pages of the site).
 - Spotify submission (manual, once; verification mail goes to the owner email).
 
 ## Phase 3: Article of the day (Ausbaustufe 3)
