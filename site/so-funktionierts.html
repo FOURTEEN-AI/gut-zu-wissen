@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>So entsteht eine Folge – Gut zu wissen</title>
+<meta name="description" content="In Ruhe erklärt: Wie aus einem Wikipedia-Artikel eine Folge des Podcasts „Gut zu wissen“ wird und wie jede Aussage geprüft wird.">
+<style>
+:root {
+  --bg: #fffdf8;
+  --text: #1b1b1b;
+  --muted: #464646;
+  --line: #c9c2b4;
+  --card: #f4efe4;
+  --accent: #1d4f7a;
+  --accent-soft: #e3edf6;
+  --ok: #24632a;
+  --ok-soft: #e2f0e2;
+  --warn: #7a4f00;
+  --warn-soft: #fbefd6;
+  --no: #9b2222;
+  --no-soft: #f8e1df;
+  --lena: #6b2f6b;
+  --felix: #1d4f7a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17181a;
+    --text: #f0ede6;
+    --muted: #cfcac0;
+    --line: #55524c;
+    --card: #23252a;
+    --accent: #9cc6ec;
+    --accent-soft: #1f3346;
+    --ok: #9fd9a3;
+    --ok-soft: #1f3522;
+    --warn: #f0c870;
+    --warn-soft: #3d3118;
+    --no: #f2a39b;
+    --no-soft: #422221;
+    --lena: #e0a8e0;
+    --felix: #9cc6ec;
+  }
+}
+* { box-sizing: border-box; }
+html { font-size: 125%; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.65;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+main, header.site, footer.site { max-width: 42rem; margin: 0 auto; padding: 0 1rem; }
+header.site { padding-top: 1.5rem; }
+header.site p { margin: 0; font-weight: 700; color: var(--accent); }
+h1 { font-size: 2rem; line-height: 1.2; margin: 0.5rem 0 1rem; }
+h2 { font-size: 1.5rem; line-height: 1.25; margin: 3rem 0 1rem; padding-top: 1rem; border-top: 2px solid var(--line); }
+h3 { font-size: 1.2rem; line-height: 1.3; margin: 2rem 0 0.5rem; }
+p, ul, ol { margin: 0 0 1rem; }
+li { margin-bottom: 0.4rem; }
+a { color: var(--accent); text-decoration-thickness: 0.1em; text-underline-offset: 0.15em; }
+a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+strong { font-weight: 700; }
+.lead { font-size: 1.15rem; }
+.box {
+  background: var(--card);
+  border-left: 6px solid var(--accent);
+  padding: 1rem 1.1rem;
+  margin: 1.5rem 0;
+  border-radius: 0.3rem;
+}
+.box > :last-child { margin-bottom: 0; }
+.box.ok { border-left-color: var(--ok); }
+.box.warn { border-left-color: var(--warn); }
+.box.no { border-left-color: var(--no); }
+.box h3 { margin-top: 0; }
+.toc ol { padding-left: 1.4rem; }
+
+/* Die Reise: Stationen als nummerierte Liste mit Verbindungslinie */
+ol.journey { list-style: none; padding: 0; margin: 1.5rem 0; counter-reset: station; }
+ol.journey > li {
+  position: relative;
+  counter-increment: station;
+  padding: 0 0 1.5rem 3.6rem;
+  margin: 0;
+}
+ol.journey > li::before {
+  content: counter(station);
+  position: absolute; left: 0; top: 0;
+  width: 2.5rem; height: 2.5rem;
+  border-radius: 50%;
+  background: var(--accent); color: var(--bg);
+  font-weight: 700; text-align: center; line-height: 2.5rem;
+}
+ol.journey > li::after {
+  content: "";
+  position: absolute; left: 1.2rem; top: 2.7rem; bottom: 0.2rem;
+  border-left: 3px dotted var(--line);
+}
+ol.journey > li:last-child::after { display: none; }
+ol.journey h3 { margin: 0.3rem 0 0.4rem; }
+.who { display: inline-block; font-size: 0.8rem; font-weight: 700; padding: 0.05rem 0.5rem; border-radius: 1rem; margin-left: 0.3rem; vertical-align: 0.15em; }
+.who.rule { background: var(--ok-soft); color: var(--ok); }
+.who.llm { background: var(--warn-soft); color: var(--warn); }
+.who.human { background: var(--accent-soft); color: var(--accent); }
+
+/* Gegenüberstellung */
+.compare { display: grid; grid-template-columns: 1fr; gap: 1rem; margin: 1.5rem 0; }
+@media (min-width: 46rem) { .compare { grid-template-columns: 1fr 1fr; } }
+.compare section { background: var(--card); padding: 1rem 1.1rem; border-radius: 0.3rem; border-top: 6px solid var(--ok); }
+.compare section.llm { border-top-color: var(--warn); }
+.compare h3 { margin-top: 0; }
+.compare ul { padding-left: 1.2rem; }
+
+/* Gesprächsbeispiele */
+blockquote { margin: 1rem 0; padding: 0.8rem 1rem; background: var(--card); border-radius: 0.3rem; }
+blockquote p { margin: 0 0 0.5rem; }
+blockquote p:last-child { margin: 0; }
+.speaker { font-weight: 700; }
+.speaker.lena { color: var(--lena); }
+.speaker.felix { color: var(--felix); }
+.quote-label { font-size: 0.85rem; font-weight: 700; color: var(--muted); text-transform: none; margin: 1.2rem 0 0.2rem; }
+.source { font-size: 0.85rem; color: var(--muted); }
+.verdict { border-left: 6px solid var(--no); background: var(--no-soft); }
+.verdict.yes { border-left-color: var(--ok); background: var(--ok-soft); }
+
+figure { margin: 1.5rem 0; }
+figure svg { display: block; width: 100%; height: auto; max-width: 34rem; margin: 0 auto; }
+figcaption { font-size: 0.9rem; color: var(--muted); margin-top: 0.5rem; text-align: center; }
+svg text { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; fill: var(--text); }
+svg .t-small { font-size: 13px; }
+svg .t-norm { font-size: 15px; }
+svg .t-bold { font-weight: 700; }
+svg .stroke { stroke: var(--text); fill: none; stroke-width: 2; }
+svg .card { fill: var(--card); stroke: var(--line); stroke-width: 2; }
+svg .f-ok { fill: var(--ok-soft); stroke: var(--ok); stroke-width: 2; }
+svg .f-warn { fill: var(--warn-soft); stroke: var(--warn); stroke-width: 2; }
+svg .f-no { fill: var(--no-soft); stroke: var(--no); stroke-width: 2; }
+svg .f-accent { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 2; }
+svg .arrow { stroke: var(--muted); stroke-width: 2.5; fill: none; }
+svg .arrowhead { fill: var(--muted); }
+
+table { border-collapse: collapse; width: 100%; margin: 1rem 0 1.5rem; font-size: 0.95rem; }
+th, td { text-align: left; vertical-align: top; padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--line); }
+th { background: var(--card); }
+td.num { white-space: nowrap; font-variant-numeric: tabular-nums; }
+
+footer.site { margin-top: 3rem; padding-top: 1rem; padding-bottom: 2rem; border-top: 2px solid var(--line); font-size: 0.95rem; }
+footer.site nav ul { list-style: none; padding: 0; margin: 0 0 0.8rem; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+.skip { position: absolute; left: -999px; }
+.skip:focus { left: 1rem; top: 0.5rem; background: var(--bg); padding: 0.3rem 0.6rem; }
+
+@media print {
+  :root {
+    --bg: #fff; --text: #000; --muted: #333; --line: #999; --card: #f2f2f2;
+    --accent: #000; --accent-soft: #eee; --ok: #000; --ok-soft: #eee;
+    --warn: #000; --warn-soft: #f6f6f6; --no: #000; --no-soft: #eee; --lena: #000; --felix: #000;
+  }
+  html { font-size: 12.5pt; }
+  body { line-height: 1.5; }
+  main, header.site, footer.site { max-width: none; padding: 0; }
+  .skip, .toc { display: none; }
+  h2 { break-before: auto; break-after: avoid; margin-top: 1.6rem; }
+  h3 { break-after: avoid; }
+  .box, blockquote, figure, table, .compare section, ol.journey > li { break-inside: avoid; }
+  ol.journey > li::before { border: 2px solid #000; background: #fff; color: #000; }
+  a { color: #000; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; word-break: break-all; }
+  .compare { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+<header class="site">
+  <p>Gut zu wissen</p>
+</header>
+
+<main id="inhalt">
+<h1>So entsteht eine Folge</h1>
+
+<p class="lead">„Gut zu wissen“ ist ein Podcast. Ein Podcast ist eine Sendung zum Anhören im Internet, ähnlich wie eine Radiosendung. Man kann sie aber hören, wann man möchte.</p>
+
+<p>In jeder Folge geht es um einen Artikel aus der deutschen Wikipedia. Die Wikipedia ist ein großes Lexikon im Internet, das viele Freiwillige gemeinsam schreiben. Zwei Stimmen unterhalten sich etwa 8 bis 15 Minuten lang über die erstaunlichsten Dinge aus dem Artikel:</p>
+
+<ul>
+  <li><strong>Lena</strong> kennt sich aus. Sie erzählt.</li>
+  <li><strong>Felix</strong> ist neugierig. Er fragt nach, staunt und fasst zusammen.</li>
+</ul>
+
+<p>Lena und Felix sind keine echten Menschen. Ihre Worte und ihre Stimmen macht ein Computer, mithilfe von künstlicher Intelligenz, kurz KI. Diese Seite erklärt in Ruhe, wie das geht. Und vor allem: wie wir dafür sorgen, dass im Gespräch nur steht, was auch wirklich im Artikel steht.</p>
+
+<nav class="toc box" aria-label="Inhalt dieser Seite">
+  <p><strong>Auf dieser Seite</strong></p>
+  <ol>
+    <li><a href="#reise">Die Reise eines Artikels bis zur fertigen Folge</a></li>
+    <li><a href="#kern">Das Herzstück: feste Regeln und kluge Leser</a></li>
+    <li><a href="#fehler">Wenn etwas nicht stimmt</a></li>
+    <li><a href="#hoeren">Die Hörprobe: „Indiana“ oder „Indianer“?</a></li>
+    <li><a href="#mensch">Zum Schluss schaut ein Mensch drauf</a></li>
+    <li><a href="#grenzen">Was die Maschine nicht kann</a></li>
+  </ol>
+</nav>
+
+<!-- ============================================================ -->
+<h2 id="reise">1. Die Reise eines Artikels</h2>
+
+<p>Man kann sich das wie ein Fließband in einer Werkstatt vorstellen. Ein Artikel kommt vorne hinein. Er wandert von Station zu Station. Hinten kommt eine fertige Folge heraus. An jeder Station passiert eine Sache, und das Ergebnis wird aufgeschrieben, damit man später alles nachlesen kann.</p>
+
+<p>Bei jeder Station steht, wer die Arbeit macht:
+  <span class="who rule">feste Regel</span>
+  <span class="who llm">Sprachmodell</span>
+  <span class="who human">Mensch</span>.
+  Was das bedeutet, erklärt der <a href="#kern">nächste Abschnitt</a>.</p>
+
+<ol class="journey">
+  <li>
+    <h3>Den Artikel holen <span class="who rule">feste Regel</span></h3>
+    <p>Das Programm holt den Artikel aus der Wikipedia. Und zwar die <strong>gesichtete Fassung</strong>: Das ist eine Fassung, die erfahrene Wikipedia-Helfer schon einmal durchgesehen haben. Gibt es keine, nimmt es die neueste.</p>
+    <p>Schon hier gibt es zwei feste Regeln. Ist der Artikel über einen <strong>lebenden Menschen</strong>, hört das Programm sofort auf. Über Lebende soll keine Maschine aus Versehen etwas Falsches erzählen. Und gab es zu dem Artikel in den letzten sechs Monaten schon eine Folge, gibt es keine neue.</p>
+  </li>
+  <li>
+    <h3>In Sätze schneiden <span class="who rule">feste Regel</span></h3>
+    <p>Der Artikel wird in einzelne Sätze zerlegt, so wie man ein Brot in Scheiben schneidet. Jeder Satz bekommt eine feste Nummer. So weiß man später bei jeder Aussage genau, aus welchem Satz sie stammt.</p>
+  </li>
+  <li>
+    <h3>Fakten aussuchen <span class="who llm">Sprachmodell</span> <span class="who rule">feste Regel</span></h3>
+    <p>Ein Sprachmodell liest den Artikel Abschnitt für Abschnitt und schlägt Sätze vor, die einen interessanten Fakt enthalten. Danach prüfen feste Regeln jeden Vorschlag: Ist es ein vollständiger Satz? Hat er mindestens 8 Wörter? Kommt er im Artikel nur einmal vor? Fällt ein Satz durch, wird er nicht verwendet.</p>
+  </li>
+  <li>
+    <h3>Nach Überraschung ordnen <span class="who llm">Sprachmodell</span></h3>
+    <p>Das Sprachmodell sortiert die Fakten danach, wie überraschend sie sind. Die besten 20 bis 40 kommen in die engere Wahl. Dazu kommen einige Fakten aus verwandten Artikeln, auf die der Artikel verweist, aber nur, wenn sie direkt mit dem Thema zu tun haben.</p>
+    <p>Ganz vorne stehen immer die ersten ein oder zwei Sätze des Artikels. Wir nennen sie die <strong>Einordnung</strong>. Meist sagen sie, was etwas ist, wann und wo. Mit ihnen beginnt jedes Gespräch, damit man weiß, worum es geht.</p>
+    <p>Sind am Ende weniger als 10 Fakten übrig, hört das Programm auf. Für eine gute Folge reicht das nicht.</p>
+  </li>
+  <li>
+    <h3>Das Gespräch schreiben <span class="who llm">Sprachmodell</span></h3>
+    <p>Jetzt schreibt das Sprachmodell das Gespräch zwischen Lena und Felix. Es darf nur die ausgewählten Fakten verwenden. Hinter jede Aussage schreibt es, aus welchem Fakt sie stammt, wie eine Quellenangabe. Dafür bekommt es kurze Kennzeichen wie F1, F2, F3, ähnlich wie Garderobenmarken. Die langen Satznummern hatte es früher manchmal falsch abgeschrieben.</p>
+    <p>Lena und Felix erzählen nichts über sich selbst. Kein „Als ich mal an der Ostsee war …“. So etwas wäre ausgedacht.</p>
+  </li>
+  <li>
+    <h3>Jede Aussage prüfen <span class="who rule">feste Regel</span> <span class="who llm">Sprachmodell</span></h3>
+    <p>Bevor irgendetwas gesprochen wird, wird jeder einzelne Redebeitrag geprüft: erst mit festen Regeln, dann von einem unabhängigen Prüfer, der den Sinn beurteilt. Das ist das Herzstück und wird <a href="#kern">weiter unten</a> genau erklärt.</p>
+  </li>
+  <li>
+    <h3>Sprechen lassen <span class="who llm">Sprachmodell</span></h3>
+    <p>Ein Sprachprogramm liest das geprüfte Gespräch mit zwei festen Stimmen vor, einer für Lena und einer für Felix. Es arbeitet in Stücken von etwa sechs Minuten. So muss bei einem Fehler nur ein Stück neu gesprochen werden, nicht die ganze Folge.</p>
+  </li>
+  <li>
+    <h3>Nachhören und vergleichen <span class="who rule">feste Regel</span> <span class="who llm">Sprachmodell</span></h3>
+    <p>Ein zweites Programm hört sich die fertige Aufnahme an und schreibt mit, was es hört. Das Mitgeschriebene wird Wort für Wort mit dem Text verglichen. Mehr dazu bei der <a href="#hoeren">Hörprobe</a>.</p>
+    <p>Danach wird die Lautstärke angeglichen, wie wenn man beim Radio alle Lieder gleich laut einstellt. Eine Bremse sorgt dafür, dass laute Stellen nicht scheppern.</p>
+  </li>
+  <li>
+    <h3>Ein Mensch schaut drauf <span class="who human">Mensch</span></h3>
+    <p>Am Ende liest Andreas, der das Projekt betreibt, die geprüften Redebeiträge und vergleicht sie mit den Sätzen aus dem Artikel. Mehr dazu <a href="#mensch">unten</a>.</p>
+  </li>
+</ol>
+
+<h3>Ein echtes Beispiel: der Luchsstein</h3>
+
+<p>So sieht das bei der Folge über <strong>Bernstein</strong> aus. Im Artikel steht dieser Satz:</p>
+
+<p class="quote-label">Satz aus dem Wikipedia-Artikel</p>
+<blockquote>
+  <p>„In der griechischen Antike wurde Bernstein auch als Lyncirium („Luchsstein“) bezeichnet, möglicherweise weil man annahm, er sei aus dem Urin des Luchses entstanden, der bei starker Sonneneinstrahlung hart geworden sei.“</p>
+</blockquote>
+
+<p class="quote-label">Daraus wurde im Gespräch</p>
+<blockquote>
+  <p><span class="speaker lena">Lena:</span> In der griechischen Antike wurde Bernstein auch Lyncirium genannt, das bedeutet Luchsstein. Möglicherweise, weil man annahm, er sei aus dem Urin des Luchses entstanden. Dieser Urin sollte bei starker Sonneneinstrahlung hart geworden sein.</p>
+  <p><span class="speaker felix">Felix:</span> Aus Luchsurin, das ist wirklich skurril! Warum heißt der Luchs eigentlich Luchs?</p>
+</blockquote>
+
+<p>Lena sagt nur, was im Satz steht, mit anderen Worten. Felix staunt („das ist wirklich skurril!“) und fragt nach. Staunen und Nachfragen sind erlaubt, auch ohne Quelle. Neue Behauptungen sind es nicht.</p>
+
+<p class="source">Quelle des Satzes: Wikipedia-Artikel <a href="https://de.wikipedia.org/w/index.php?title=Bernstein&amp;oldid=271638927">„Bernstein“ (Fassung vom 26. Oktober 2026)</a> und seine <a href="https://de.wikipedia.org/w/index.php?title=Bernstein&amp;action=history">Autorinnen und Autoren</a>, Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a>.</p>
+
+<!-- ============================================================ -->
+<h2 id="kern">2. Das Herzstück: feste Regeln und kluge Leser</h2>
+
+<p>Bei „Gut zu wissen“ arbeiten zwei sehr verschiedene Helfer zusammen. Wer sie auseinanderhalten kann, versteht das ganze Projekt.</p>
+
+<div class="compare">
+  <section aria-labelledby="h-gate">
+    <h3 id="h-gate">Die feste Regel</h3>
+    <p>Im Projekt heißt sie „Gate“, das ist englisch und bedeutet Tor oder Schranke.</p>
+    <p>Eine feste Regel ist wie ein <strong>Sieb</strong>, ein <strong>Schaffner</strong> oder eine <strong>Checkliste</strong>. Ein einfaches Programm prüft sie. Es prüft jedes Mal genau gleich. Es wird nie müde und lässt sich nicht überreden. Aber es versteht nicht, was ein Satz bedeutet.</p>
+    <p>Beispiele:</p>
+    <ul>
+      <li>Hat der Satz mindestens 8 Wörter?</li>
+      <li>Gibt es den genannten Fakt überhaupt, etwa „F12“?</li>
+      <li>Wurde dieser Fakt schon zweimal erzählt?</li>
+      <li>Stehen im Text noch Formatierungszeichen aus der Wikipedia, zum Beispiel eckige Klammern?</li>
+      <li>Sind es mindestens 10 Fakten?</li>
+    </ul>
+  </section>
+  <section class="llm" aria-labelledby="h-llm">
+    <h3 id="h-llm">Das Sprachmodell</h3>
+    <p>Auf Englisch heißt es „Large Language Model“, kurz LLM, auf Deutsch: großes Sprachmodell.</p>
+    <p>Ein Sprachmodell ist ein Programm, das Sprache lesen und schreiben kann. Es ist wie ein <strong>sehr belesener Mensch, der manchmal zu selbstsicher ist</strong>. Es versteht, was ein Satz bedeutet. Aber es kann sich irren und klingt dabei trotzdem überzeugt. Darum verlassen wir uns nie allein darauf.</p>
+    <p>Beispiele:</p>
+    <ul>
+      <li>Welche Sätze sind interessant?</li>
+      <li>Was ist am überraschendsten?</li>
+      <li>Das Gespräch schreiben.</li>
+      <li>Folgt diese Aussage wirklich aus dem Satz im Artikel?</li>
+    </ul>
+  </section>
+</div>
+
+<p>Kurz gesagt: <strong>Die Regel ist zuverlässig, aber dumm. Das Sprachmodell ist klug, aber nicht immer zuverlässig.</strong> Deshalb macht jeder, was er am besten kann.</p>
+
+<h3>Wie sie zusammenarbeiten</h3>
+
+<p>Stellen Sie sich eine Zeitungsredaktion vor. Eine Autorin schreibt einen Text. Ein Korrektor prüft mit einer Liste, ob alles Formale stimmt. Dann liest eine zweite Person, die den Text nicht geschrieben hat, und prüft, ob jede Aussage durch die Quelle gedeckt ist. Genau so läuft es hier, für jeden einzelnen Redebeitrag.</p>
+
+<figure>
+<svg viewBox="0 0 360 560" role="img" aria-labelledby="flow-title flow-desc">
+  <title id="flow-title">Ablauf der Prüfung eines Redebeitrags</title>
+  <desc id="flow-desc">Das Sprachmodell schreibt einen Redebeitrag. Zuerst prüfen feste Regeln. Fällt er durch, wird er neu geschrieben. Besteht er, stellt Jev Ja-Nein-Fragen. Ist Jev sehr sicher, dass alles stimmt, wird der Beitrag angenommen. Ist Jev sehr sicher, dass etwas nicht stimmt, wird er abgelehnt und neu geschrieben. Ist Jev unsicher, entscheidet ein zweites Sprachmodell als Richter.</desc>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" class="arrowhead"/>
+    </marker>
+  </defs>
+  <!-- Schreiber -->
+  <rect x="70" y="10" width="220" height="56" rx="10" class="f-warn"/>
+  <text x="180" y="34" text-anchor="middle" class="t-norm t-bold">Sprachmodell schreibt</text>
+  <text x="180" y="54" text-anchor="middle" class="t-small">einen Redebeitrag</text>
+  <path d="M180,66 V98" class="arrow" marker-end="url(#ah)"/>
+  <!-- Regeln -->
+  <rect x="70" y="102" width="220" height="56" rx="10" class="f-ok"/>
+  <text x="180" y="126" text-anchor="middle" class="t-norm t-bold">Feste Regeln</text>
+  <text x="180" y="146" text-anchor="middle" class="t-small">Kennzeichen da? Nicht zu oft?</text>
+  <path d="M180,158 V190" class="arrow" marker-end="url(#ah)"/>
+  <text x="188" y="180" class="t-small">bestanden</text>
+  <!-- Jev -->
+  <rect x="70" y="194" width="220" height="56" rx="10" class="f-accent"/>
+  <text x="180" y="218" text-anchor="middle" class="t-norm t-bold">Jev fragt: Stimmt das?</text>
+  <text x="180" y="238" text-anchor="middle" class="t-small">Antwort: wie sicher?</text>
+  <!-- drei Wege -->
+  <path d="M110,250 L60,300" class="arrow" marker-end="url(#ah)"/>
+  <path d="M180,250 V300" class="arrow" marker-end="url(#ah)"/>
+  <path d="M250,250 L286,300" class="arrow" marker-end="url(#ah)"/>
+  <rect x="10" y="304" width="100" height="62" rx="10" class="f-ok"/>
+  <text x="60" y="328" text-anchor="middle" class="t-small t-bold">sicher: ja</text>
+  <text x="60" y="348" text-anchor="middle" class="t-small">ab 95 %</text>
+  <rect x="130" y="304" width="100" height="62" rx="10" class="f-warn"/>
+  <text x="180" y="328" text-anchor="middle" class="t-small t-bold">unsicher</text>
+  <text x="180" y="348" text-anchor="middle" class="t-small">dazwischen</text>
+  <rect x="236" y="304" width="100" height="62" rx="10" class="f-no"/>
+  <text x="286" y="328" text-anchor="middle" class="t-small t-bold">sicher: nein</text>
+  <text x="286" y="348" text-anchor="middle" class="t-small">bis 5 %</text>
+  <!-- Richter -->
+  <path d="M180,366 V398" class="arrow" marker-end="url(#ah)"/>
+  <rect x="95" y="402" width="170" height="62" rx="10" class="f-warn"/>
+  <text x="180" y="426" text-anchor="middle" class="t-small t-bold">Zweites Sprachmodell</text>
+  <text x="180" y="446" text-anchor="middle" class="t-small">urteilt als Richter</text>
+  <!-- Ergebnisse -->
+  <path d="M60,366 V490" class="arrow" marker-end="url(#ah)"/>
+  <path d="M140,464 L100,492" class="arrow" marker-end="url(#ah)"/>
+  <path d="M220,464 L260,492" class="arrow" marker-end="url(#ah)"/>
+  <path d="M286,366 V490" class="arrow" marker-end="url(#ah)"/>
+  <rect x="4" y="494" width="146" height="56" rx="10" class="f-ok"/>
+  <text x="77" y="518" text-anchor="middle" class="t-norm t-bold">angenommen</text>
+  <text x="77" y="538" text-anchor="middle" class="t-small">wird verwendet</text>
+  <rect x="210" y="494" width="146" height="56" rx="10" class="f-no"/>
+  <text x="283" y="518" text-anchor="middle" class="t-norm t-bold">abgelehnt</text>
+  <text x="283" y="538" text-anchor="middle" class="t-small">neu schreiben</text>
+  <!-- Regel durchgefallen -->
+  <path d="M290,130 H348 V490" class="arrow" marker-end="url(#ah)"/>
+  <text x="298" y="122" class="t-small">nein</text>
+</svg>
+<figcaption>Der Weg eines einzelnen Redebeitrags durch die Prüfung.</figcaption>
+</figure>
+
+<h3>Jev: ein Prüfer, der „wie sicher“ sagt</h3>
+
+<p>Der erste Prüfer für den Sinn heißt <strong>Jev</strong>. Jev ist ein Programm der Firma TypeSafe. Es schreibt keine Texte. Es beantwortet nur Ja-Nein-Fragen, zum Beispiel: „Folgt diese Aussage aus diesem Satz?“ Für jede Aussage im Redebeitrag stellen wir eine Frage. Dazu kommt immer eine Schlussfrage: „Steht im Beitrag sonst nichts Behauptetes mehr?“</p>
+
+<p>Jev antwortet nicht einfach mit Ja oder Nein, sondern mit einer <strong>Wahrscheinlichkeit</strong>. Das kennen Sie vom Wetterbericht: „Morgen regnet es mit 95 Prozent Wahrscheinlichkeit.“ Dann nimmt man den Schirm mit. Bei 50 Prozent weiß man es eben nicht so genau.</p>
+
+<figure>
+<svg viewBox="0 0 360 150" role="img" aria-labelledby="scale-title scale-desc">
+  <title id="scale-title">Die Skala von Jev</title>
+  <desc id="scale-desc">Eine Skala von 0 bis 100 Prozent. Von 0 bis 5 Prozent: sicher nein, abgelehnt. Von 5 bis 95 Prozent: unsicher, der Richter entscheidet. Von 95 bis 100 Prozent: sicher ja, angenommen. Die Ränder sind zur besseren Lesbarkeit breiter gezeichnet.</desc>
+  <rect x="10" y="40" width="90" height="40" class="f-no"/>
+  <rect x="100" y="40" width="160" height="40" class="f-warn"/>
+  <rect x="260" y="40" width="90" height="40" class="f-ok"/>
+  <text x="55" y="30" text-anchor="middle" class="t-small t-bold">sicher nein</text>
+  <text x="180" y="30" text-anchor="middle" class="t-small t-bold">unsicher</text>
+  <text x="305" y="30" text-anchor="middle" class="t-small t-bold">sicher ja</text>
+  <text x="55" y="65" text-anchor="middle" class="t-small">abgelehnt</text>
+  <text x="180" y="65" text-anchor="middle" class="t-small">Richter entscheidet</text>
+  <text x="305" y="65" text-anchor="middle" class="t-small">angenommen</text>
+  <text x="10" y="102" text-anchor="start" class="t-small">0 %</text>
+  <text x="100" y="102" text-anchor="middle" class="t-small">5 %</text>
+  <text x="260" y="102" text-anchor="middle" class="t-small">95 %</text>
+  <text x="350" y="102" text-anchor="end" class="t-small">100 %</text>
+  <text x="180" y="135" text-anchor="middle" class="t-small">(Ränder breiter gezeichnet, damit man sie lesen kann)</text>
+</svg>
+<figcaption>Erst ab 95 Prozent gilt ein Ja als sicher, erst unter 5 Prozent ein Nein.</figcaption>
+</figure>
+
+<ul>
+  <li><strong>Alle Antworten 95 Prozent oder mehr:</strong> Der Beitrag ist angenommen.</li>
+  <li><strong>Eine Antwort 5 Prozent oder weniger:</strong> Der Beitrag ist abgelehnt. Ein Sprachmodell schreibt dann nur noch auf, <em>warum</em>, damit der Schreiber weiß, was er besser machen muss.</li>
+  <li><strong>Alles dazwischen:</strong> Jev ist unsicher. Dann liest ein zweites Sprachmodell den ganzen Beitrag und entscheidet als Richter. Es hat das Gespräch nicht geschrieben und kennt nur den Beitrag und die Sätze aus dem Artikel.</li>
+</ul>
+
+<div class="box">
+  <h3>Zwei echte Fälle aus der Bernstein-Folge</h3>
+  <p>Lena erklärt, was Bernstein ist. Jev ist sich bei allen drei Fragen sicher: 99, 98 und 96 Prozent. Der Beitrag ist <strong>angenommen</strong>, ganz ohne Richter.</p>
+  <p>Felix fragt: „Succinit, das klingt nach Labor. Ist das dasselbe wie der Baltische Bernstein?“ Bei den Aussagen ist Jev sicher (99 Prozent). Bei der Schlussfrage, ob sonst nichts behauptet wird, nur 62 Prozent. Also <strong>entscheidet der Richter</strong>: „das klingt nach Labor“ ist nur ein Eindruck im Moment, keine Behauptung. Angenommen.</p>
+</div>
+
+<h3>Ein Beitrag, der durchgefallen ist</h3>
+
+<p>In einem ersten Entwurf der Bernstein-Folge wollte Felix so überleiten:</p>
+
+<blockquote>
+  <p><span class="speaker felix">Felix:</span> Autsch! Wechseln wir zu etwas Harmloserem. Wofür hat man Bernstein früher im Haushalt benutzt?</p>
+</blockquote>
+
+<p>Klingt harmlos. Aber die Frage setzt etwas voraus: dass man Bernstein früher im Haushalt benutzt hat. Felix hat dafür keinen Fakt angegeben. Die Begründung der Ablehnung:</p>
+
+<blockquote class="verdict">
+  <p>„Die Frage ‚Wofür hat man Bernstein früher im Haushalt benutzt?‘ setzt aber voraus, dass Bernstein früher im Haushalt verwendet wurde. Diese Prämisse ist eine neue Sachinformation und durch keinen Fakt-Satz belegt.“</p>
+</blockquote>
+
+<p>Auch in Fragen darf also nichts versteckt sein, was nicht belegt ist. Der Beitrag wurde neu geschrieben.</p>
+
+<p class="source">Beide Beispiele nach dem Wikipedia-Artikel <a href="https://de.wikipedia.org/w/index.php?title=Bernstein&amp;oldid=271638927">„Bernstein“</a>, Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a>.</p>
+
+<h3>Warum „im Zweifel streng“?</h3>
+
+<p>Überall, wo eine Entscheidung unklar ist, entscheidet das Programm zur sicheren Seite hin:</p>
+
+<ul>
+  <li>Ist unklar, ob ein Mensch noch lebt, gilt er als lebend. Dann gibt es keine Folge.</li>
+  <li>Steht etwas nur im Satz davor, aber nicht im zitierten Satz selbst, gilt es als nicht belegt.</li>
+  <li>Gibt der Richter kein klares Ja, gilt der Beitrag als abgelehnt.</li>
+  <li>Ist bei der Hörprobe unklar, ob ein Wort etwas verändert, gilt es als verändert.</li>
+</ul>
+
+<p>Der Grund ist einfach. Ist das Programm zu streng, fällt manchmal ein richtiger Satz weg. Dann ist die Folge etwas kürzer, aber nichts Falsches ist passiert. Ist es zu großzügig, hören Sie vielleicht etwas Falsches. Das erste ist uns viel lieber.</p>
+
+<!-- ============================================================ -->
+<h2 id="fehler">3. Wenn etwas nicht stimmt</h2>
+
+<p>Stellen Sie sich eine Lektorin in einem Verlag vor. Sie gibt einen Absatz mit einer Randnotiz zurück: „Das steht so nicht in der Quelle.“ Der Autor schreibt den Absatz neu. Den Rest des Buches muss er dafür nicht neu schreiben.</p>
+
+<p>Genau so geht das Programm vor, in Stufen:</p>
+
+<table>
+  <caption class="source" style="caption-side: bottom; text-align: left; padding-top: 0.4rem;">Wie oft etwas wiederholt werden darf, bevor das Programm aufgibt.</caption>
+  <thead>
+    <tr><th scope="col">Was schiefgeht</th><th scope="col">Was passiert</th><th scope="col">Wie oft höchstens</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ein Redebeitrag fällt beim Prüfer durch</td><td>Nur dieser Beitrag wird neu geschrieben. Die Begründung bekommt der Schreiber mit.</td><td class="num">2-mal</td></tr>
+    <tr><td>Ein Redebeitrag verletzt eine feste Regel</td><td>Nur dieser Beitrag wird neu geschrieben, mit dem Hinweis, welche Regel verletzt wurde.</td><td class="num">3-mal</td></tr>
+    <tr><td>Ein Beitrag klappt auch dann nicht</td><td>Alles bis zur Fehlerstelle bleibt stehen. Ab dort wird das Gespräch weitergeschrieben, ohne den Fakt, der Ärger gemacht hat.</td><td class="num">2-mal</td></tr>
+    <tr><td>Ein Stück der Aufnahme klingt falsch</td><td>Nur dieses Stück wird neu gesprochen.</td><td class="num">2-mal</td></tr>
+    <tr><td>Es klappt immer noch nicht</td><td>Das Programm hört auf und meldet sich bei Andreas. Es gibt keine Folge.</td><td class="num">–</td></tr>
+  </tbody>
+</table>
+
+<p>Eine Kleinigkeit noch: Wird ein Beitrag neu geschrieben, passt vielleicht die Antwort danach nicht mehr dazu. Darum wird auch der nächste Beitrag neu geschrieben, und das Programm prüft, ob er noch dasselbe sagt wie vorher. Erst dann geht es weiter.</p>
+
+<p>Die festen Höchstzahlen sind wie ein Taschengeld: Wenn es aufgebraucht ist, ist Schluss. So kann das Programm nicht endlos herumprobieren.</p>
+
+<div class="box no">
+  <p><strong>Lieber keine Folge als eine falsche.</strong> Wenn das Programm aufgibt, wird nichts veröffentlicht. Alles, was bis dahin passiert ist, wird trotzdem aufgeschrieben. So kann man später nachsehen, was schiefging, und das Programm verbessern.</p>
+</div>
+
+<!-- ============================================================ -->
+<h2 id="hoeren">4. Die Hörprobe: „Indiana“ oder „Indianer“?</h2>
+
+<p>Auch ein Text, der stimmt, kann falsch vorgelesen werden. Die Sprachausgabe könnte ein Wort verschlucken, eine Zahl verdrehen oder ein „nicht“ weglassen. Darum hört ein zweites Programm, eine <strong>Spracherkennung</strong>, die fertige Aufnahme ab und schreibt mit. Das ist wie jemand, der im Nebenzimmer mitstenografiert.</p>
+
+<p>Das Mitgeschriebene wird mit dem Text verglichen. Fast immer gibt es kleine Unterschiede, etwa „80er Jahre“ statt „Achtzigerjahre“. Bei jedem Unterschied entscheidet ein Sprachmodell: Würde ein Zuhörer dadurch etwas anderes verstehen? Nur dann wird das Stück neu gesprochen.</p>
+
+<h3>Die Geschichte von Indiana Goof</h3>
+
+<p>In der Folge über das <strong>Tunguska-Ereignis</strong>, eine riesige Explosion über Sibirien im Jahr 1908, erzählt Lena von einem Comic: 1998 ging im Lustigen Taschenbuch Nummer 247 <strong>Indiana Goof</strong> zusammen mit Micky Maus auf Expedition, um den Ursprung der Explosion zu suchen.</p>
+
+<p>Die Spracherkennung hörte aber jedes Mal: <strong>„Indianer Goof“</strong>.</p>
+
+<p>Das Programm war streng. Ein anderer Name, also vielleicht eine andere Aussage. Es ließ das Stück neu sprechen. Wieder „Indianer“. Noch einmal. Wieder „Indianer“. Nach zwei Versuchen war das Taschengeld aufgebraucht, und das Programm hörte auf. Es gab keine Folge.</p>
+
+<p>Andreas hat sich den Fall angesehen. Die Erklärung lag nahe: Nicht die Stimme hatte sich versprochen, sondern der Mitschreiber im Nebenzimmer hatte sich verhört. „Indiana“ klingt auf Deutsch gesprochen fast wie „Indianer“. Darum bekam das Programm eine neue Regel dazu: Klingt ein gehörtes Wort fast genauso wie ein Name im Text, etwa „Indianer“ und „Indiana“, ist das ein Hörfehler der Spracherkennung und kein Fehler der Stimme. Klingt es dagegen deutlich anders, wird weiter neu gesprochen.</p>
+
+<p>Danach wurde die Folge fortgesetzt, und zwar erst ab der Hörprobe. Das Gespräch war ja schon geprüft und musste nicht noch einmal geschrieben werden. Im neuen Durchgang stand dann zum Beispiel:</p>
+
+<blockquote class="verdict yes">
+  <p>„‚Indianer‘ statt ‚Indiana‘ ist ein fast gleich klingender Hörfehler der Spracherkennung.“</p>
+</blockquote>
+
+<p>Und die Strenge blieb: Einmal hörte die Spracherkennung den Namen eines Sees, „Tscheko“, als „Chico“. Das klingt deutlich anders. Also wurde dieses Stück neu gesprochen, und beim zweiten Mal passte es.</p>
+
+<p class="source">Inhalt nach dem Wikipedia-Artikel <a href="https://de.wikipedia.org/w/index.php?title=Tunguska-Ereignis&amp;oldid=270155664">„Tunguska-Ereignis“</a> und seinen <a href="https://de.wikipedia.org/w/index.php?title=Tunguska-Ereignis&amp;action=history">Autorinnen und Autoren</a>, Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a>.</p>
+
+<!-- ============================================================ -->
+<h2 id="mensch">5. Zum Schluss schaut ein Mensch drauf</h2>
+
+<p>Nach allen Prüfungen bekommt Andreas eine Liste. Darin steht jeder Redebeitrag, der Fakten verwendet, und daneben die Sätze aus dem Artikel, auf die er sich stützt. Andreas liest jeden Beitrag und schreibt dazu „belegt“ oder „nicht belegt“. Außerdem prüft er eine Einschätzung des Programms: ob die Folge Inhalte enthält, vor denen man Hörer warnen sollte, etwa drastische Schilderungen von Gewalt.</p>
+
+<p>Im Moment liest er <strong>jeden</strong> dieser Beiträge. Später, wenn sich das Programm lange bewährt hat, soll er nur noch eine Auswahl lesen, wie eine Stichprobe bei einer Qualitätskontrolle. Findet er einen Fehler, liest er wieder mehr.</p>
+
+<p>Gerade ist „Gut zu wissen“ noch in der Probezeit. Die Folgen werden erst einmal geprüft und noch nicht öffentlich ausgestrahlt.</p>
+
+<!-- ============================================================ -->
+<h2 id="grenzen">6. Was die Maschine nicht kann</h2>
+
+<p>Ganz ehrlich:</p>
+
+<ul>
+  <li><strong>Die Maschine kann Fehler machen.</strong> Auch der Prüfer kann sich irren und einen falschen Satz durchlassen. Darum gibt es so viele Prüfungen hintereinander, und darum liest am Ende ein Mensch.</li>
+  <li><strong>Sie weiß nur, was im Artikel steht.</strong> Wenn in der Wikipedia etwas Falsches steht, erzählt auch die Folge etwas Falsches. Die Wikipedia wird von Freiwilligen geschrieben und nicht von uns überprüft.</li>
+  <li><strong>Sie versteht nicht wirklich.</strong> Ein Sprachmodell kann sehr überzeugend klingen, auch wenn es danebenliegt. Deshalb vertrauen wir ihm nie allein.</li>
+  <li><strong>Strenge kostet manchmal etwas.</strong> Ab und zu fällt ein richtiger, schöner Fakt weg, weil ein Prüfer zu vorsichtig war.</li>
+</ul>
+
+<p>Darum sagt jede Folge am Ende selbst, wie sie entstanden ist. Felix sagt im Abspann:</p>
+
+<blockquote>
+  <p><span class="speaker felix">Felix:</span> „Ein wichtiger Hinweis: Diese Folge ist mit KI entstanden – von der Auswahl der Fakten über das Gespräch bis zu unseren Stimmen. KI kann Fehler machen. Und die Wikipedia-Inhalte selbst sind nicht unabhängig geprüft. Wenn ihr euch auf etwas verlassen wollt, prüft es bitte nach.“</p>
+</blockquote>
+
+<p>Wer einen Fehler findet oder einfach etwas sagen möchte, kann eine E-Mail schreiben an <a href="mailto:gut-zu-wissen@fourteen-it.de">gut-zu-wissen@fourteen-it.de</a>. Die Nachrichten liest Andreas persönlich, kein Programm.</p>
+
+<div class="box">
+  <h3>Für Neugierige: die Helfer mit Namen</h3>
+  <ul>
+    <li><strong>Claude Sonnet 5.5</strong> von der Firma Anthropic: das Sprachmodell, das Fakten aussucht, ordnet, das Gespräch schreibt und als Richter urteilt.</li>
+    <li><strong>Jev</strong> von der Firma TypeSafe: der Prüfer, der mit Wahrscheinlichkeiten antwortet.</li>
+    <li><strong>Gemini</strong> von der Firma Google: die Stimmen von Lena und Felix.</li>
+    <li><strong>Whisper</strong>: die Spracherkennung für die Hörprobe. Sie läuft direkt auf dem Rechner, der die Folge baut.</li>
+    <li>Das alles läuft automatisch auf Rechnern des Dienstes GitHub. Dort liegen auch alle Zwischenergebnisse, für jeden lesbar.</li>
+  </ul>
+</div>
+
+<p>Die Inhalte von „Gut zu wissen“ beruhen auf Artikeln der deutschsprachigen Wikipedia. Der Podcast steht unter der Lizenz <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a>. Er ist ein unabhängiges Projekt und nicht mit der Wikimedia Foundation verbunden.</p>
+</main>
+
+<footer class="site">
+  <nav aria-label="Rechtliches">
+    <ul>
+      <li><a href="impressum.html">Impressum</a></li>
+      <li><a href="datenschutz.html">Datenschutzerklärung</a></li>
+    </ul>
+  </nav>
+  <p>Ein Projekt der FOURTEEN IT UG (haftungsbeschränkt).</p>
+</footer>
+</body>
+</html>
