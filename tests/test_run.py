@@ -33,6 +33,7 @@ CONFIG = {
         "linked_intro_facts_max": 12,
         "linked_targets_max": 30,
         "min_used_facts": 1,
+        "max_turns_per_fact": REAL["quotas"]["max_turns_per_fact"],
         "turn_retries": 2,
         "conversation_retries": 2,
         "tts_section_max_chars": 6000,

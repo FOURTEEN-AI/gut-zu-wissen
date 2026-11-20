@@ -75,6 +75,7 @@ linked_intro_facts_max = 12
 # 04_ranking.json. Assumption (2026-11-20): about today's load, Axolotl had 27 for 20 facts.
 linked_targets_max = 30
 min_used_facts = 10                 # D5
+max_turns_per_fact = 2              # repetition gate (2026-11-20): first narration + one follow-up; the last turn (summary) is not counted
 min_fact_words = 8
 max_context_segments = 3
 max_chunk_segments = 40             # extraction: sections above this are split into equal parts

@@ -14,6 +14,8 @@ from gut_zu_wissen.dialog import (
     offer_aliases,
     parse_dialog,
     regenerate_turn,
+    repetition_problems,
+    repetition_reason,
     resolve_turns,
     used_fact_ids,
     used_facts_gate,
@@ -120,7 +122,7 @@ def test_write_dialog_sends_offer_and_records_problems_and_use():
         ]
     }
     llm = FakeLlm(answer)
-    dialog = write_dialog(llm, [rf("1-0000")], [rf("2-0000", "N")], 10)
+    dialog = write_dialog(llm, [rf("1-0000")], [rf("2-0000", "N")], 10, 2)
     system, user, schema = llm.calls[0]
     assert "mindestens 10" in system and "[F2]" in user and schema is DIALOG_SCHEMA
     assert "[1-0000]" not in user and "[2-0000]" not in user
@@ -142,7 +144,7 @@ def test_write_dialog_maps_aliases_back_to_segment_ids():
             },
         ]
     }
-    dialog = write_dialog(FakeLlm(answer), [rf("1-0000")], [rf("2-0000", "N")], 1)
+    dialog = write_dialog(FakeLlm(answer), [rf("1-0000")], [rf("2-0000", "N")], 1, 2)
     (t,) = dialog.turns
     assert t.fact_ids == ["1-0000", "2-0000"]
     assert [s.fact_ids for s in t.statements] == [["1-0000"], ["2-0000"]]
@@ -233,6 +235,79 @@ def test_regenerate_turn_shows_the_author_the_german_unknown_id_problem():
     _, user, _ = llm.calls[0]
     assert "Die Kennung F53 gibt es im Angebot nicht." in user and "(F1–F3)" in user
     assert "Unknown fact IDs" not in user
+
+
+def told(i: int, *ids: str, speaker: str = "Lena") -> Turn:
+    """A turn whose one statement cites `ids`."""
+    return turn(i, speaker, f"Text {i}.", ids, [(f"S{i}", ids)])
+
+
+def test_repetition_gate_rejects_the_third_turn_citing_a_fact_with_the_real_id():
+    turns = [told(0, "1-0000"), told(1, "1-0000"), told(2, "1-0000"), told(3, "1-0001")]
+    (problem,) = repetition_problems(turns, OFFER, 2)
+    assert problem.turn_index == 2
+    assert problem.reason == (
+        "Der Fakt 1-0000 wurde schon in Redebeitrag 0 und 1 erzählt. Erzähle ihn nicht noch "
+        "einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+    )
+
+
+def test_repetition_gate_rejects_every_further_turn_and_names_all_earlier_ones():
+    turns = [told(i, "1-0000") for i in range(5)] + [told(5, "1-0001")]
+    problems = repetition_problems(turns, OFFER, 2)
+    assert [p.turn_index for p in problems] == [2, 3, 4]
+    assert "in Redebeitrag 0, 1, 2 und 3 erzählt" in problems[-1].reason
+
+
+def test_repetition_gate_does_not_count_or_check_the_last_turn():
+    turns = [told(0, "1-0000"), told(1, "1-0000"), told(2, "1-0000")]
+    assert repetition_problems(turns, OFFER, 2) == []
+    turns = [told(0, "1-0000"), told(1, "1-0000"), told(2, "1-0001"), told(3, "1-0000")]
+    assert repetition_problems(turns, OFFER, 2) == []
+
+
+def test_repetition_gate_counts_turns_not_statements_and_only_statement_ids():
+    twice = turn(1, ids=["1-0000"], statements=[("A", ["1-0000"]), ("B", ["1-0000", "1-0001"])])
+    turn_ids_only = turn(2, ids=["1-0000"])  # reaction with turn-level IDs but no statement
+    turns = [told(0, "1-0000"), twice, turn_ids_only, told(3, "1-0001"), told(4, "2-0000")]
+    assert repetition_problems(turns, OFFER, 2) == []
+
+
+def test_repetition_gate_ignores_unknown_ids_and_follows_the_limit():
+    turns = [told(0, "9-9"), told(1, "9-9"), told(2, "9-9"), told(3, "1-0000")]
+    assert repetition_problems(turns, OFFER, 2) == []
+    turns = [told(0, "1-0000", "1-0001"), told(1, "1-0001"), told(2, "2-0000")]
+    (problem,) = repetition_problems(turns, OFFER, 1)
+    assert (problem.turn_index, "1-0001" in problem.reason) == (1, True)
+
+
+def test_repetition_reason_lists_one_earlier_turn():
+    assert repetition_reason("1-0000", [3]).startswith(
+        "Der Fakt 1-0000 wurde schon in Redebeitrag 3 erzählt."
+    )
+
+
+def test_author_sees_the_repetition_problem_with_the_alias():
+    reason = repetition_reason("1-0001", [3, 4])
+    assert author_reason(told(5, "1-0001"), reason, ALIASES).startswith(
+        "Der Fakt F2 wurde schon in Redebeitrag 3 und 4 erzählt."
+    )
+
+
+def test_write_dialog_records_repetition_problems_in_turn_order():
+    def t(fid: str) -> dict:
+        return {
+            "speaker": "Lena",
+            "text": "A",
+            "fact_ids": [fid],
+            "statements": [{"text": "S", "fact_ids": [fid]}],
+        }
+
+    answer = {"turns": [t("F1"), t("F1"), t("F1"), t("F9"), t("F2")]}
+    dialog = write_dialog(FakeLlm(answer), [rf("1-0000")], [rf("2-0000", "N")], 1, 2)
+    assert [p.turn_index for p in dialog.problems] == [2, 3]
+    assert "Der Fakt 1-0000" in dialog.problems[0].reason
+    assert dialog.problems[1].reason.startswith("Unknown fact IDs")
 
 
 @pytest.mark.parametrize("prompt", [SYSTEM_PROMPT, TURN_PROMPT])

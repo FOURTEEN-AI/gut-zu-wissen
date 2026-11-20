@@ -2,7 +2,7 @@ from dataclasses import asdict
 
 import pytest
 
-from gut_zu_wissen.dialog import Statement, Turn
+from gut_zu_wissen.dialog import Statement, Turn, repetition_reason
 from gut_zu_wissen.extraction import Fact
 from gut_zu_wissen.jev import JevAbortError, JevOverlengthError, JevTransientError
 from gut_zu_wissen.judge import Decision, TurnJudgement
@@ -28,7 +28,12 @@ from gut_zu_wissen.ranking import RankedFact
 T = 0.95
 CONFIG = {
     "judge": {"t": T},
-    "quotas": {"min_used_facts": 1, "turn_retries": 2, "conversation_retries": 2},
+    "quotas": {
+        "min_used_facts": 1,
+        "max_turns_per_fact": 2,
+        "turn_retries": 2,
+        "conversation_retries": 2,
+    },
 }
 
 
@@ -47,12 +52,19 @@ def turn_json(speaker: str, text: str, fact: str | None) -> dict:
     }
 
 
-def dialog_json(*texts: str, fact: str = "1-0000") -> dict:
+def dialog_json(*texts: str, fact: str = "1-0000", facts: list[str] | None = None) -> dict:
+    """Every turn cites `fact`, or turn n cites `facts[n]`."""
+    cites = facts or [fact] * len(texts)
     return {
         "turns": [
-            turn_json("Lena" if n % 2 == 0 else "Felix", text, fact) for n, text in enumerate(texts)
+            turn_json("Lena" if n % 2 == 0 else "Felix", text, cites[n])
+            for n, text in enumerate(texts)
         ]
     }
+
+
+# one fact per turn, so the repetition gate stays out of the way (the last turn is not counted)
+DISTINCT = ["1-0000", "1-0001", "1-0002", "1-0000"]
 
 
 class FakeAuthor:
@@ -299,8 +311,8 @@ def test_accepted_dialog_needs_no_regeneration():
 
 def test_rejected_turn_is_regenerated_and_cascade_stops_when_confirmed():
     author = FakeAuthor(
-        [dialog_json("Eins.", "Falsch.", "Drei.", "Vier.")],
-        [turn_json("Lena", "Besser.", "1-0000"), turn_json("Felix", "Dazu passend.", "1-0000")],
+        [dialog_json("Eins.", "Falsch.", "Drei.", "Vier.", facts=DISTINCT)],
+        [turn_json("Lena", "Besser.", "1-0001"), turn_json("Felix", "Dazu passend.", "1-0002")],
     )
     jev = FakeJev(bad={"Falsch."}, cascade=[0.99])
     state = run(author, jev)
@@ -329,8 +341,8 @@ def test_cascade_continues_while_not_confirmed_and_shares_the_budget():
 
 def test_uncertain_cascade_check_confirmed_by_llm_judge_stops_the_cascade():
     author = FakeAuthor(
-        [dialog_json("Eins.", "Falsch.", "Drei.", "Vier.")],
-        [turn_json("Lena", "Besser.", "1-0000"), turn_json("Felix", "Dazu passend.", "1-0000")],
+        [dialog_json("Eins.", "Falsch.", "Drei.", "Vier.", facts=DISTINCT)],
+        [turn_json("Lena", "Besser.", "1-0001"), turn_json("Felix", "Dazu passend.", "1-0002")],
     )
     llm = FakeJudgeLlm([{"same": True, "reason": "Gleiche Aussage."}])
     state = run(author, FakeJev(bad={"Falsch."}, cascade=[0.74]), judge_llm=llm)
@@ -353,10 +365,10 @@ def test_uncertain_cascade_check_confirmed_by_llm_judge_stops_the_cascade():
 def test_uncertain_cascade_check_rejected_by_llm_judge_continues_the_cascade():
     author = FakeAuthor(
         [
-            dialog_json("Eins.", "Falsch.", "Drei.", "Vier."),
-            dialog_json("Neu eins.", "Neu zwei.", fact="1-0001"),
+            dialog_json("Eins.", "Falsch.", "Drei.", "Vier.", facts=DISTINCT),
+            dialog_json("Neu eins.", "Neu zwei.", fact="1-0002"),
         ],
-        [turn_json("Felix", "B.", "1-0000"), turn_json("Lena", "C.", "1-0000")],
+        [turn_json("Felix", "B.", "1-0001"), turn_json("Lena", "C.", "1-0002")],
     )
     llm = FakeJudgeLlm([{"same": False, "reason": "Aussage fehlt."}])
     state = run(author, FakeJev(bad={"Falsch."}, cascade=[0.38]), judge_llm=llm)
@@ -479,6 +491,72 @@ def test_turn_with_unknown_fact_id_is_regenerated_without_a_judge_call():
     state = run(author, FakeJev(cascade=[0.99]))
     assert state.regenerations[0].reason.startswith("Unknown fact IDs")
     assert state.judgements[1].decided_by == "jev"
+
+
+def test_repeated_fact_is_regenerated_as_a_gate_problem_without_a_judge_call():
+    author = FakeAuthor(
+        [dialog_json("Eins.", "Zwei.", "Drei.", "Vier.")],  # all cite 1-0000
+        [turn_json("Lena", "Drei neu.", "1-0001"), turn_json("Felix", "Vier neu.", "1-0002")],
+    )
+    state = run(author, FakeJev(cascade=[0.99]))
+    first = state.regenerations[0]
+    assert (first.turn_index, first.kind) == (2, "retry")
+    assert first.reason == repetition_reason("1-0000", [0, 1])
+    assert "Der Fakt F1 wurde schon in Redebeitrag 0 und 1 erzählt." in author.calls[1]
+    assert "1-0000" not in author.calls[1]
+    old = state.superseded[0]
+    assert (old.turn_index, old.judgement.decided_by, old.judgement.jev_p) == (2, "gate", {})
+    assert list(state.judgement_dict()["superseded_judgements"][0]["judgement"]) == [
+        "turn_index",
+        "accepted",
+        "decided_by",
+        "jev_p",
+        "jev_error",
+        "reason",
+    ]
+    assert all(j.accepted for j in state.judgements)
+
+
+def test_regenerated_turn_that_creates_a_repetition_rejects_the_later_turn():
+    # 1-0000 is cited in turns 0 and 3. Regenerated turn 1 cites it too, so turn 3 (the later
+    # one) repeats it, not turn 1; turn 3 is repaired with its own budget.
+    author = FakeAuthor(
+        [
+            dialog_json(
+                "Eins.",
+                "Falsch.",
+                "Drei.",
+                "Vier.",
+                "Fünf.",
+                "Sechs.",
+                facts=["1-0000", "1-0001", "1-0002", "1-0000", "1-0003", "1-0000"],
+            )
+        ],
+        [
+            turn_json("Felix", "Besser.", "1-0000"),
+            turn_json("Lena", "Drei neu.", "1-0002"),
+            turn_json("Felix", "Vier neu.", "1-0003"),
+            turn_json("Lena", "Fünf neu.", "1-0003"),
+        ],
+    )
+    state = run(author, FakeJev(bad={"Falsch."}, cascade=[0.99, 0.99]), n_facts=4)
+    assert [(r.turn_index, r.kind) for r in state.regenerations] == [
+        (1, "retry"),
+        (2, "cascade"),
+        (3, "retry"),
+        (4, "cascade"),
+    ]
+    assert state.regenerations[2].reason == repetition_reason("1-0000", [0, 1])
+    later = state.superseded[2].judgement
+    assert (later.turn_index, later.accepted, later.decided_by) == (3, False, "gate")
+    assert later.jev_p  # the earlier judge values are kept
+    assert [t.text for t in state.dialog.turns][1:5] == [
+        "Besser.",
+        "Drei neu.",
+        "Vier neu.",
+        "Fünf neu.",
+    ]
+    assert all(j.accepted for j in state.judgements)
 
 
 def test_accepted_turn_with_markup_is_regenerated_as_a_gate_problem():

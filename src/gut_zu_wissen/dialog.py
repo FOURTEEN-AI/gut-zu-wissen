@@ -3,7 +3,8 @@
 One model call writes the whole dialog between Lena and Felix from the offered facts (plain text
 and context only). Every turn carries its fact IDs and lists each claim and each question premise
 as an explicit statement with fact IDs; reactions have none (docs/persona.md). The deterministic
-parts are pure functions: parsing the answer, the fact-ID gate and the minimum-content gate (D5).
+parts are pure functions: parsing the answer, the fact-ID gate, the repetition gate and the
+minimum-content gate (D5).
 The author sees short aliases instead of segment IDs (`aliases`); its answer is mapped back right
 after parsing, so turns, gates and the archive only hold segment IDs.
 Turn and conversation regeneration belong to the orchestrator (step 8).
@@ -289,6 +290,62 @@ def check_turns(turns: Sequence[Turn], offered_ids: Collection[str]) -> list[Tur
     return problems
 
 
+def statement_fact_ids(turn: Turn) -> list[str]:
+    """Fact IDs cited by the turn's statements, first-use order."""
+    ids: list[str] = []
+    for fid in (i for s in turn.statements for i in s.fact_ids):
+        if fid not in ids:
+            ids.append(fid)
+    return ids
+
+
+def _german_list(numbers: Sequence[int]) -> str:
+    words = [str(n) for n in numbers]
+    return words[0] if len(words) == 1 else f"{', '.join(words[:-1])} und {words[-1]}"
+
+
+def repetition_reason(fact_id: str, earlier: Sequence[int]) -> str:
+    """Archived repetition problem: the segment ID and the earlier turns (archive indices) that
+    cite the fact. The author sees the alias (`author_reason`)."""
+    return (
+        f"Der Fakt {fact_id} wurde schon in Redebeitrag {_german_list(earlier)} erzählt. "
+        "Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne "
+        "seine Details."
+    )
+
+
+def repetition_problems(
+    turns: Sequence[Turn], offered_ids: Collection[str], max_turns: int
+) -> list[TurnProblem]:
+    """Repetition gate (user decision 2026-11-20): an offered fact may be cited by the statements
+    of at most `max_turns` turns (the first narration plus one follow-up). Every further turn
+    citing it gets a problem, so a repetition always points at the later turn. The last turn is
+    the closing summary and is neither counted nor checked. Unknown IDs are the fact-ID gate's
+    concern and are ignored here."""
+    earlier: dict[str, list[int]] = {}
+    problems: list[TurnProblem] = []
+    for turn in turns[:-1]:
+        for fid in statement_fact_ids(turn):
+            if fid not in offered_ids:
+                continue
+            seen = earlier.setdefault(fid, [])
+            if len(seen) >= max_turns:
+                problems.append(TurnProblem(turn.index, repetition_reason(fid, seen)))
+            seen.append(turn.index)
+    return problems
+
+
+def dialog_problems(
+    turns: Sequence[Turn], offered_ids: Collection[str], max_turns_per_fact: int
+) -> list[TurnProblem]:
+    """All gate problems of a whole dialog, in turn order: fact-ID gate, then repetition gate."""
+    problems = [
+        *check_turns(turns, offered_ids),
+        *repetition_problems(turns, offered_ids, max_turns_per_fact),
+    ]
+    return sorted(problems, key=lambda p: p.turn_index)
+
+
 def used_fact_ids(turns: Sequence[Turn], offered_ids: Collection[str]) -> list[str]:
     """Offered facts cited by at least one turn or statement, first-use order."""
     used: list[str] = []
@@ -330,15 +387,21 @@ def write_dialog(
     main: Sequence[RankedFact],
     linked: Sequence[RankedFact],
     min_used_facts: int,
+    max_turns_per_fact: int,
 ) -> Dialog:
-    """One dialog from the offer, checked by the fact-ID gate. Problems are recorded, not raised."""
+    """One dialog from the offer, checked by the fact-ID and repetition gates. Problems are
+    recorded, not raised."""
     answer = llm.complete_json(
         SYSTEM_PROMPT.format(min_used=min_used_facts), format_offer(main, linked), DIALOG_SCHEMA
     )
     aliases = offer_aliases(main, linked)
     offered = set(aliases.values())
     turns = resolve_turns(parse_dialog(answer), aliases)
-    return Dialog(turns, check_turns(turns, offered), used_fact_ids(turns, offered))
+    return Dialog(
+        turns,
+        dialog_problems(turns, offered, max_turns_per_fact),
+        used_fact_ids(turns, offered),
+    )
 
 
 def _turn_lines(label: str, turn: Turn, aliases: Mapping[str, str]) -> list[str]:
