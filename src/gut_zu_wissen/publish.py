@@ -167,9 +167,14 @@ def main(argv: list[str] | None = None) -> int:
     if len(args) != 1 or not args[0].strip():
         print("Usage: python -m gut_zu_wissen.publish <episode_id>", file=sys.stderr)
         return 2
-    access, secret = os.environ.get("IA_ACCESS_KEY", ""), os.environ.get("IA_SECRET_KEY", "")
+    access, secret = (
+        os.environ.get("ARCHIVE_S3_ACCESS_KEY", ""),
+        os.environ.get("ARCHIVE_S3_SECRET_KEY", ""),
+    )
     if not (access and secret):
-        print("::error::IA_ACCESS_KEY and IA_SECRET_KEY must be set.", file=sys.stderr)
+        print(
+            "::error::ARCHIVE_S3_ACCESS_KEY and ARCHIVE_S3_SECRET_KEY must be set.", file=sys.stderr
+        )
         return 2
     config = load_config()["hosting"]
     host = HttpArchiveHost(access, secret, config)

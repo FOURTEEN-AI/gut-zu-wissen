@@ -4,7 +4,7 @@ Stand: 2026-11-20. Entstanden, während Andreas abwesend war. Die Quelldokumente
 
 ## Vor dem Go-live zu tun (nur Andreas)
 
-1. ~~GitHub-Secrets~~ erledigt: `ARCHIVE_S3_ACCESS_KEY` und `ARCHIVE_S3_SECRET_KEY` existieren; `publish.yml` reicht sie als `IA_ACCESS_KEY` und `IA_SECRET_KEY` an die Pipeline.
+1. ~~GitHub-Secrets~~ erledigt: `ARCHIVE_S3_ACCESS_KEY` und `ARCHIVE_S3_SECRET_KEY` existieren, dieselben Namen wie in `.env`.
 2. ~~Pages aktivieren~~ erledigt (2026-11-20, per API): Quelle „GitHub Actions“, Adresse `https://fourteen-ai.github.io/gut-zu-wissen/` (bestätigt die Annahme zur Adresse).
 3. **Erster Upload mit einer Testfolge**, bevor die echte Folge live geht. Der Upload ist nur gegen Fakes getestet (siehe unten).
 4. **Spotify-Einreichung** (manuell, einmalig) mit der Feed-URL; die Bestätigungsmail geht an gut-zu-wissen@fourteen-it.de.
