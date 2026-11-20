@@ -1,0 +1,782 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "aussage_3": 0.98,
+        "aussage_4": 0.98,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "aussage_2": 0.97,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Die Prämissen der Fragen stimmen mit den Fakten überein: Ein antikes, mit Zahnrädern arbeitendes, uhrähnliches Gerät (0000) wurde von Schwammtauchern in einem Schiffswrack entdeckt (0001). Das \"Staunen\" und die Frage nach dem Aussehen sind belegfreie Reaktionen. Es werden keine zusätzlichen Angaben gemacht."
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Lenas Aussage, der Mechanismus sei als Klumpen aus zusammenkorrodierten Metallteilen geborgen worden, entspricht dem Fakt-Satz 271920980-0021 fast wörtlich. Sie fügt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Die einzige Behauptung, der Mechanismus sei als Klumpen aus zusammenkorrodierten Metallteilen geborgen worden, folgt direkt aus [271920980-0021]. Der Rest ist eine Nachfrage mit Bitte um Erklärung und eine Überleitung, also belegfrei und ohne zusätzliche Behauptung."
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Verstanden.\" ist eine Reaktion, und die Frage nach dem, was das Gerät über die Technik seiner Zeit aussagt, ist eine Nachfrage bzw. Überleitung ohne neue Information. Ihre Prämisse, dass es ein Gerät gibt, wird nur aufgegriffen und nicht neu behauptet. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen. Dass man das Gerät für die Antike nicht für möglich hielt, steht in 0005. Dass aus dieser Zeit keine komplexe Zahnrad-Apparatur bekannt war und man lange annahm, sie liege vor dem Beginn der technischen Entwicklung, steht in 0054. Die Formulierung „galt als unwahrscheinlich dafür“ ist eine zulässige Umformulierung dieser Annahme. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.41
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion (\"Wow\", Neugier) und einer Nachfrage zur Gestaltung der Zahnräder. Die Prämisse, dass der Mechanismus Zahnräder hatte, folgt aus dem Fakt-Satz 271920980-0000. Weitere Behauptungen gibt es nicht."
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "aussage_3": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, dass jedes Zahnrad in jedes andere eingreifen konnte, steht direkt in [271920980-0232]. Der Satz beginnt mit \"also\" und greift das eben Gesagte auf. Die anschließende Frage, woher man beim Zusammenbau wusste, welches Teil wohin gehört, ist eine Nachfrage und braucht keinen Beleg. Ihre Prämisse (es gab einen Zusammenbau mit verschiedenen Teilen) fügt keine nicht belegte Information hinzu."
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.7
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, dass jedes Teil und jedes Loch einen Buchstaben hatte, folgt direkt aus dem Fakt-Satz. Die Wertung „das ist gründlich“ ist eine Meinung ohne zusätzlichen Faktengehalt. Die Frage nach einer Reparatur ist eine Nachfrage und setzt keine unbelegte Prämisse voraus."
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz [271920980-0236] inhaltlich korrekt wieder: mindestens eine Reparatur, bei der eine der vier Speichen am Hauptantriebsrad ausgetauscht wurde. Es kommen keine zusätzlichen Angaben hinzu."
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung, sondern nur eine Überleitung (\"Gut. Dann zu der Frage...\") und eine Nachfrage, ob Astronomen mit dem Gerät gearbeitet haben. Die Frage setzt keine belegpflichtige Tatsache voraus und gilt daher als belegfrei."
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Die Aussage \"Luxusobjekt für einen reichen Kunden, vielleicht sogar mehrfach gebaut\" folgt aus [0184] (Luxusobjekt für reichen Kunden, möglicherweise kein Einzelstück). Die Frage \"Was zeigte so ein Stück denn an?\" ist eine Nachfrage, und der Verweis auf Kalender, die Felix als Gesprächsbezug aufgreift, passt zu [0000] (astronomisch-kalendarische Zusammenhänge) und fügt keine neue Behauptung hinzu."
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.95,
+        "aussage_2": 0.99,
+        "aussage_3": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.63,
+        "vollstaendig": 0.79
+      },
+      "jev_error": null,
+      "reason": "Die Angabe von zwölf Monaten zu je dreißig Tagen plus fünf Zusatztagen steht im Fakt-Satz, und die Summe von 365 ist eine einfache Rechnung, die der Satz selbst ebenfalls nennt. Die Frage, ob der Ring genauso viele Abschnitte hatte, ist eine Nachfrage. Ihre Prämisse, dass die Ringskala in Abschnitte unterteilt ist, wird vom Fakt gestützt. Es kommt keine unbelegte Zusatzangabe hinzu."
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.88,
+        "vollstaendig": 0.79
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, dass eine Lunation knapp dreißig Tage dauert, folgt aus dem Fakt (im Mittel etwa 29,53 Tage). Die anschließende Frage, ob das Gerät die Mondphasen gezeigt hat, ist eine Nachfrage ohne Tatsachenbehauptung und braucht keinen Beleg."
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: neu entdecktes vorstehendes Zahnrad und halbkugelförmiger Hohlraum, Schluss auf eine zweifarbige kleine Kugel auf dem vorderen Mondzeiger zur Anzeige der Mondphasen. Es kommen keine zusätzlichen Angaben hinzu. Der Einstieg \"Dafür gibt es einen Hinweis\" ist eine Überleitung."
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.66
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag enthält nur Reaktionen: ein Wiederaufgreifen des eben Beschriebenen (Kugel), eine Wertung als Gefühl (\"schönes Bild\") und eine Nachfrage. Die Prämisse der Frage, dass das Gerät etwas vom Himmel zeigte, folgt aus dem Fakt, denn der Mechanismus zeigte astronomisch-kalendarische Zusammenhänge."
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz 271920980-0374: Es gab eine Zusatzanzeige, sie hatte drei Saros-Perioden pro Umdrehung und diente der Angabe, ob die Tageszeit der Hauptskala galt oder ob 1/3 bzw. 2/3 Tage zu addieren waren. „Ja, es gab eine Zusatzanzeige“ ist durch die Existenz der Anzeige im Fakt gedeckt. Es kommen keine zusätzlichen Angaben hinzu."
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Felix' Aussage, die Anzeige habe angegeben, ob zur Tageszeit auf der Hauptskala ein Drittel oder zwei Drittel Tage zu addieren waren, folgt aus [271920980-0374]. Das \"Verblüffend!\" ist eine belegfreie Reaktion, und die Frage nach etwas ohne Himmelsbezug ist eine Nachfrage ohne Behauptung."
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Alle drei Aussagen stützen sich auf den Fakt-Satz: der geviertelte Kreis, die darauf vermerkten Panhellenischen Wettkampfspiele und die sechs Wettkampfstätten. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.49
+      },
+      "jev_error": null,
+      "reason": "Felix' Aussage „Sportwettkämpfe auf einem Zifferblatt, das überrascht mich“ ist ein Gefühl des Staunens im Moment und braucht keinen Beleg. Die Frage nach einem besonderen Titel für die Sieger ist eine Nachfrage. Ihre einzige Prämisse, dass auf dem Zifferblatt Wettkampfspiele vermerkt waren, folgt aus Fakt 271920980-0301 (Panhellenische Wettkampfspiele auf dem geviertelten Kreis). Es kommt keine unbelegte Behauptung hinzu."
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Beide Behauptungen folgen direkt aus dem Fakt-Satz 269291814-0008: Wer während einer Olympiade in einer Sportart in allen vier Hauptkampfstätten siegte, erhielt den Titel Periodonike, und die Olympiade ist dort als Vierjahreszyklus angegeben. Das einleitende „Ja“ ist eine belegfreie Reaktion. Es kommt keine zusätzliche Angabe vor."
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: korinthisches Griechisch des Konstrukteurs, Herkunft aus Korinth oder einer Kolonie wie Syrakus, mögliche Identität mit Archimedes (287 bis 212 v. Chr.) oder einem seiner Schüler. Es wird keine zusätzliche Angabe gemacht."
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Felix' Aussage „Archimedes oder einer seiner Schüler“ greift die Fakt-Aussage auf, der Konstrukteur könne Archimedes oder ein Schüler von ihm gewesen sein. Das „wow!“ ist eine Reaktion im Moment. Die Frage nach dem damaligen Wissen über die Bahnen der Himmelskörper ist eine Nachfrage und enthält keine unbelegte Prämisse."
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, dass der Äquant im Gerät (Mechanismus von Antikythera) steckt, obwohl er bisher Ptolemäus zugeschrieben wurde, folgt direkt aus dem Fakt-Satz [271920980-0079]. Die Frage nach dem Alter des Instruments ist eine Nachfrage ohne zusätzliche Behauptung oder Prämisse und damit belegfrei."
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.95,
+        "vollstaendig": 0.79
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, dass eine Tradition lange vor dem Gerät bestand, folgt aus dem Fakt: Das Instrument war rund 150 Jahre älter als der Mechanismus von Antikythera und weist auf eine Tradition von mehr als einem Jahrhundert hin. „Schon lange“ ist eine zulässige Umformulierung. Die Frage nach einer Theorie zur Bewegung der Himmelskörper ist eine Nachfrage ohne zusätzliche Behauptung."
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.8
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag enthält keine neue Sachbehauptung. „Fast zweitausend Jahre, das ist eine Ewigkeit!“ greift das eben Gesagte auf und drückt Staunen aus. „Kommen wir zur Schrift“ ist eine Überleitung. Die Frage nach Text auf dem Gerät und seinem Erhaltungszustand ist eine Nachfrage, die nichts Bestimmtes behauptet. Alles ist belegfreie Reaktion, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.79
+      },
+      "jev_error": null,
+      "reason": "Die Fakt-Sätze nennen rund 3.000 erhaltene von etwa 15.000 vermuteten Buchstaben, also ein Fünftel. Sie sagen auch, dass Zahlen mit griechischen Buchstaben in der griechischen Zahlschrift geschrieben wurden, also in den Buchstaben stecken. Die Schlussfrage zum Aussehen des Textes ist eine Nachfrage ohne neue Behauptung."
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 1.0,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Verstehe.\" ist eine Reaktion, \"Zum Schluss noch zur Gegenwart\" eine Überleitung und die Frage eine Nachfrage ohne faktische Prämisse. Das ist belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 41,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Felix stellt eine Nachfrage, also eine Bitte um Erklärung. Die einzige Prämisse, dass Hublot eine Variante vorgestellt hat, deckt der zitierte Fakt ab (Hublot stellte im Oktober 2011 eine Variante mit modernem Design vor). Er fügt keine weiteren Angaben hinzu."
+    },
+    {
+      "turn_index": 42,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 43,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.72
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Ein Bullauge also.\" greift das eben Gesagte ohne neue Information wieder auf, und die Frage nach Menschen, die sich an den Mechanismus wagen, ist eine Nachfrage ohne faktische Prämisse. Beides gilt als belegfreie Reaktion, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 44,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 45,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung, sondern nur eine Reaktion des Staunens („Wahnsinn.“) und eine Nachfrage („Hat der Mechanismus dort eine Rolle gespielt?“). Beides gilt als belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 46,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Die Aussage stimmt mit dem Fakt-Satz überein: Film (Indiana Jones und das Rad des Schicksals), Jahr 2023 (ausgeschrieben als zweitausenddreiundzwanzig) und die tragende Rolle einer fiktiven Version des Mechanismus. Es kommt keine zusätzliche Angabe hinzu, das einleitende „Ja“ ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 47,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Felix stellt nur eine Nachfrage (wer bei dem Film Regie geführt hat). Das ist eine Reaktion ohne Behauptung und ohne neue Information, daher braucht sie keinen Beleg. Die Frage setzt nur voraus, dass es um einen Film geht, und das deckt der zitierte Fakt ab."
+    },
+    {
+      "turn_index": 48,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen (Regie James Mangold, Abenteuerfilm, Jahr 2023, fünfter Teil der Indiana-Jones-Filmreihe, Originaltitel Indiana Jones and the Dial of Destiny) stehen im zitierten Fakt-Satz; es gibt keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 49,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "aussage_3": 0.99,
+        "aussage_4": 0.99,
+        "aussage_5": 0.99,
+        "aussage_6": 0.95,
+        "aussage_7": 0.99,
+        "aussage_8": 0.99,
+        "aussage_9": 0.99,
+        "aussage_10": 1.0,
+        "aussage_11": 1.0,
+        "vollstaendig": 0.39
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den zitierten Fakt-Sätzen: Fund 1900 durch Schwammtaucher im Schiffswrack, Klumpen aus zusammenkorrodierten Metallteilen, bisher für unmöglich gehaltene Machbarkeit, Luxusobjekt-These der Gruppe, zweifarbige Mondphasenkugel, Wettkampfspiele, Saros-Zusatzanzeige mit Drittel- und Zweidrittel-Tagen, Archimedes oder ein Schüler als möglicher Konstrukteur, Äquant, Hublot-Variante, Youtuber-Nachbau und Filmauftritt. Es kommen keine zusätzlichen Angaben hinzu."
+    }
+  ],
+  "used_fact_ids": [
+    "271920980-0000",
+    "271920980-0001",
+    "271920980-0021",
+    "259618881-0008",
+    "271920980-0005",
+    "271920980-0054",
+    "271920980-0232",
+    "271920980-0350",
+    "271920980-0236",
+    "271920980-0184",
+    "271920980-0257",
+    "262830498-0001",
+    "271941466-0003",
+    "271920980-0150",
+    "271920980-0374",
+    "271920980-0301",
+    "269291814-0008",
+    "271920980-0344",
+    "271920980-0079",
+    "271920980-0089",
+    "268996118-0002",
+    "271920980-0334",
+    "271920980-0337",
+    "270472542-0000",
+    "271920980-0396",
+    "271740181-0008",
+    "271920980-0397",
+    "271920980-0400",
+    "272229103-0015"
+  ],
+  "cascade_checks": [
+    {
+      "conversation": 1,
+      "turn_index": 6,
+      "p": 0.9,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Alle drei Aussagen stehen auch in der neuen Fassung: Ein solches Gerät galt für die Antike als unmöglich, die komplexe Zahnrad-Apparatur aus der Entstehungszeit war bisher unbekannt, und man nahm lange an, diese Zeit liege vor dem Beginn der technischen Entwicklung. Der zusätzliche Satz, die Zeit habe als unwahrscheinlich dafür gegolten, entspricht dem „Das gilt auch für die Zeit“ der alten Fassung."
+    }
+  ],
+  "conversation": 2,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 5,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 5,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271920980-0021 wurde schon in Redebeitrag 2 und 3 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 6,
+      "version": 0,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 6,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 18,
+      "version": 0,
+      "replaced_by": 2,
+      "judgement": {
+        "turn_index": 18,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271920980-0257 wurde schon in Redebeitrag 16 und 17 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 18,
+      "version": 1,
+      "replaced_by": 3,
+      "judgement": {
+        "turn_index": 18,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271920980-0257 wurde schon in Redebeitrag 16 und 17 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 18,
+      "version": 2,
+      "replaced_by": 4,
+      "judgement": {
+        "turn_index": 18,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.13
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag nennt keine Fakt-IDs. \"Die Einteilung des Rings hat es in sich\" und \"da wartet tatsächlich eine Überraschung auf dich\" sind Wertungen mit Faktengehalt über die Einteilung des Rings. Das ist mehr als eine bloße Überleitung oder Reaktion, und ohne Fakt-Sätze ist es nicht belegt."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 18,
+      "version": 3,
+      "replaced_by": 5,
+      "judgement": {
+        "turn_index": 18,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271920980-0257 wurde schon in Redebeitrag 16 und 17 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 49,
+      "version": 0,
+      "replaced_by": 6,
+      "judgement": {
+        "turn_index": 49,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 1.0,
+          "aussage_2": 0.99,
+          "aussage_3": 0.99,
+          "aussage_4": 0.99,
+          "aussage_5": 0.98,
+          "aussage_6": 0.91,
+          "aussage_7": 0.99,
+          "aussage_8": 0.99,
+          "aussage_9": 0.99,
+          "aussage_10": 0.99,
+          "aussage_11": 0.99,
+          "vollstaendig": 0.46
+        },
+        "jev_error": null,
+        "reason": "Der letzte Satz „bis heute gibt es Nachbauten“ ist nicht belegt. Fakt 0397 sagt nur, dass der Youtuber Clickspring seit Anfang 2017 an einem Nachbau arbeitet. Das ist ein einzelnes Projekt im Bau, es belegt weder mehrere vorhandene Nachbauten noch ein „bis heute“. Die übrigen Aussagen (Fund 1900, Klumpen, Luxusobjekt, Mondphasenkugel, Wettkampfspiele, Zusatzanzeige, Archimedes-Schüler, Äquant, Hublot, Film) stützen sich auf die Fakt-Sätze."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 49,
+      "version": 1,
+      "replaced_by": 7,
+      "judgement": {
+        "turn_index": 49,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "aussage_3": 0.99,
+          "aussage_4": 0.99,
+          "aussage_5": 0.99,
+          "aussage_6": 0.96,
+          "aussage_7": 0.99,
+          "aussage_8": 0.99,
+          "aussage_9": 0.99,
+          "aussage_10": 1.0,
+          "aussage_11": 0.99,
+          "vollstaendig": 0.44
+        },
+        "jev_error": null,
+        "reason": "Fast alles deckt sich mit den Fakt-Sätzen. Nur bei der Zusatzanzeige „für die Tageszeit bei Finsternissen“ nicht: Der zitierte Satz 0374 nennt nur drei Saros-Perioden pro Umdrehung und die Tageszeit auf der Hauptskala. Die Finsternisse stehen allein im Kontext, der nicht als Beleg gilt. Der Bezug zu Finsternissen ist daher nicht belegt."
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "title": "Archimedes",
+  "revid": 271562303,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-23T19:00:40Z",
+  "fetched_at": "2026-11-20T17:09:43Z",
+  "categories": [
+    "Kategorie:Archimedes",
+    "Kategorie:Erfinder",
+    "Kategorie:Geboren im 3. Jahrhundert v. Chr.",
+    "Kategorie:Gestorben 212 v. Chr.",
+    "Kategorie:Grieche (Antike)",
+    "Kategorie:Mann",
+    "Kategorie:Mathematiker der Antike",
+    "Kategorie:Person (Syrakus)",
+    "Kategorie:Person als Namensgeber für einen Asteroiden",
+    "Kategorie:Person als Namensgeber für einen Mondkrater",
+    "Kategorie:Person im Zweiten Punischen Krieg",
+    "Kategorie:Physiker (vor dem 15. Jahrhundert)",
+    "Kategorie:Strömungsmechaniker"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|beschreibt den antiken Mathematiker&nbsp;– zu anderen Bedeutungen siehe [[Archimedes (Begriffsklärung)]].}}\n[[Datei:Retrato de un erudito (¿Arquímedes?), por Domenico Fetti.jpg|mini|250px|Archimedes, [[Domenico Fetti]], 1620, [[Gemäldegalerie Alte Meister]], [[Dresden]]]]\n\n'''Archimedes von Syrakus''' ({{grcS|Ἀρχιμήδης ὁ Συρακούσιος|Archimḗdēs ho Syrakoúsios}}; * um [[280er v. Chr.|287 v. Chr.]] vermutlich in [[Syrakus]]; † [[212 v. Chr.]] ebenda) war ein griechischer [[Geschichte der Mathematik#Mathematik in Griechenland|Mathematiker]], [[Physiker]] und [[Ingenieur]]. Er gilt als einer der bedeutendsten Mathematiker der [[Antike]]. Seine Werke waren auch noch im 16. und 17. Jahrhundert bei der Entwicklung der höheren [[Analysis]] von Bedeutung.",
+  "segments": [
+    {
+      "id": "271562303-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Archimedes von Syrakus''' ({{grcS|Ἀρχιμήδης ὁ Συρακούσιος|Archimḗdēs ho Syrakoúsios}}; * um [[280er v. Chr.|287 v. Chr.]] vermutlich in [[Syrakus]]; † [[212 v. Chr.]] ebenda) war ein griechischer [[Geschichte der Mathematik#Mathematik in Griechenland|Mathematiker]], [[Physiker]] und [[Ingenieur]].",
+      "plain": null
+    },
+    {
+      "id": "271562303-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er gilt als einer der bedeutendsten Mathematiker der [[Antike]].",
+      "plain": null
+    },
+    {
+      "id": "271562303-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Seine Werke waren auch noch im 16. und 17. Jahrhundert bei der Entwicklung der höheren [[Analysis]] von Bedeutung.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271562303,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271562303-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Archimedes von Syrakus (altgriechisch Ἀρχιμήδης ὁ Συρακούσιος Archimḗdēs ho Syrakoúsios; * um 287 v. Chr. vermutlich in Syrakus; † 212 v. Chr. ebenda) war ein griechischer Mathematiker, Physiker und Ingenieur.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271562303-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271562303-0000",
+          "271562303-0001"
+        ],
+        "plain": "Seine Werke waren auch noch im 16. und 17. Jahrhundert bei der Entwicklung der höheren Analysis von Bedeutung.",
+        "context_plain": [
+          "Archimedes von Syrakus (altgriechisch Ἀρχιμήδης ὁ Συρακούσιος Archimḗdēs ho Syrakoúsios; * um 287 v. Chr. vermutlich in Syrakus; † 212 v. Chr. ebenda) war ein griechischer Mathematiker, Physiker und Ingenieur.",
+          "Er gilt als einer der bedeutendsten Mathematiker der Antike."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

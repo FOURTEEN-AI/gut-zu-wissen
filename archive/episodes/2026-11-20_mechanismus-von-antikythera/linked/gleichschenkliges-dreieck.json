@@ -1,0 +1,139 @@
+{
+  "title": "Gleichschenkliges Dreieck",
+  "revid": 270837949,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-28T00:11:25Z",
+  "fetched_at": "2026-11-20T17:09:43Z",
+  "categories": [
+    "Kategorie:Dreieck",
+    "Kategorie:Dreiecksgeometrie"
+  ],
+  "intro_wikitext": "[[Datei:01 Dreieck gleichschenklig, Einleitungsbild.svg|300px|rechts]]\nEin '''gleichschenkliges Dreieck''' ist ein [[Dreieck]] mit ''mindestens'' zwei gleich langen Seiten (z.&nbsp;B. <math> a = b </math>). Folglich sind auch die beiden [[Winkel]] (rot) gleich groß, die den gleich langen Seiten gegenüberliegen. Zur vollständigen Bestimmung werden zwei Bestimmungsstücke benötigt, davon zumindest eine Seite.\n\nDie beiden gleich langen Seiten heißen ''Schenkel'', die dritte Seite c heißt ''Basis''. Der der Basis gegenüberliegende [[Eckpunkt]] heißt ''Spitze''. Die an der Basis anliegenden Winkel heißen ''Basiswinkel''.\n\nJedes gleichschenklige Dreieck ist [[Symmetrie (Geometrie)|achsensymmetrisch]]. Es kann [[Spitzwinkliges Dreieck|spitzwinklig]], [[Rechtwinkliges Dreieck|rechtwinklig]] oder [[Stumpfwinkliges Dreieck|stumpfwinklig]] sein.<ref name=\"Köller\" />\n\nSchließen die beiden Schenkel, die sich an der Spitze das Dreiecks  schneiden, den Winkel <math>\\gamma = 36^{\\circ} </math> oder den Winkel <math>\\gamma = 108^{\\circ} </math> ein, so handelt es sich um ''[[Goldenes Dreieck (Geometrie)|Goldenes Dreieck]]''. Im ersten Fall ist es ein ''Goldenes Dreieck erster Art'' und im zweiten Fall um ein ''Goldenes Dreieck zweiter Art''.\n\nStimmen sogar die Längen der Basis und der beiden Schenkel überein, so liegt ein [[gleichseitiges Dreieck]] vor.",
+  "segments": [
+    {
+      "id": "270837949-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein '''gleichschenkliges Dreieck''' ist ein [[Dreieck]] mit ''mindestens'' zwei gleich langen Seiten (z.&nbsp;B. <math> a = b </math>).",
+      "plain": null
+    },
+    {
+      "id": "270837949-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Folglich sind auch die beiden [[Winkel]] (rot) gleich groß, die den gleich langen Seiten gegenüberliegen.",
+      "plain": null
+    },
+    {
+      "id": "270837949-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Zur vollständigen Bestimmung werden zwei Bestimmungsstücke benötigt, davon zumindest eine Seite.",
+      "plain": null
+    },
+    {
+      "id": "270837949-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die beiden gleich langen Seiten heißen ''Schenkel'', die dritte Seite c heißt ''Basis''.",
+      "plain": null
+    },
+    {
+      "id": "270837949-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der der Basis gegenüberliegende [[Eckpunkt]] heißt ''Spitze''.",
+      "plain": null
+    },
+    {
+      "id": "270837949-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die an der Basis anliegenden Winkel heißen ''Basiswinkel''.",
+      "plain": null
+    },
+    {
+      "id": "270837949-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Jedes gleichschenklige Dreieck ist [[Symmetrie (Geometrie)|achsensymmetrisch]].",
+      "plain": null
+    },
+    {
+      "id": "270837949-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es kann [[Spitzwinkliges Dreieck|spitzwinklig]], [[Rechtwinkliges Dreieck|rechtwinklig]] oder [[Stumpfwinkliges Dreieck|stumpfwinklig]] sein.<ref name=\"Köller\" />",
+      "plain": null
+    },
+    {
+      "id": "270837949-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Schließen die beiden Schenkel, die sich an der Spitze das Dreiecks  schneiden, den Winkel <math>\\gamma = 36^{\\circ} </math> oder den Winkel <math>\\gamma = 108^{\\circ} </math> ein, so handelt es sich um ''[[Goldenes Dreieck (Geometrie)|Goldenes Dreieck]]''.",
+      "plain": null
+    },
+    {
+      "id": "270837949-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im ersten Fall ist es ein ''Goldenes Dreieck erster Art'' und im zweiten Fall um ein ''Goldenes Dreieck zweiter Art''.",
+      "plain": null
+    },
+    {
+      "id": "270837949-0010",
+      "type": "sentence",
+      "section": "",
+      "raw": "Stimmen sogar die Längen der Basis und der beiden Schenkel überein, so liegt ein [[gleichseitiges Dreieck]] vor.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270837949,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270837949-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270837949-0000"
+        ],
+        "plain": "Folglich sind auch die beiden Winkel (rot) gleich groß, die den gleich langen Seiten gegenüberliegen.",
+        "context_plain": [
+          "Ein gleichschenkliges Dreieck ist ein Dreieck mit mindestens zwei gleich langen Seiten (z. B. a=b)."
+        ]
+      },
+      {
+        "segment_id": "270837949-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Schließen die beiden Schenkel, die sich an der Spitze das Dreiecks schneiden, den Winkel γ=36∘ oder den Winkel γ=108∘ ein, so handelt es sich um Goldenes Dreieck.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270837949-0009",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270837949-0008"
+        ],
+        "plain": "Im ersten Fall ist es ein Goldenes Dreieck erster Art und im zweiten Fall um ein Goldenes Dreieck zweiter Art.",
+        "context_plain": [
+          "Schließen die beiden Schenkel, die sich an der Spitze das Dreiecks schneiden, den Winkel γ=36∘ oder den Winkel γ=108∘ ein, so handelt es sich um Goldenes Dreieck."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "270837949-0006",
+        "reason": "too_short"
+      },
+      {
+        "segment_id": "270837949-0007",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

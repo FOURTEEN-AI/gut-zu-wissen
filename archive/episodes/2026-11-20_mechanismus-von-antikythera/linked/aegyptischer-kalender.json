@@ -1,0 +1,53 @@
+{
+  "title": "Ägyptischer Kalender",
+  "revid": 262830498,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-12-29T12:12:59Z",
+  "fetched_at": "2026-11-20T17:09:43Z",
+  "categories": [
+    "Kategorie:Astronomie im Alten Ägypten",
+    "Kategorie:Chronologie des Alten Ägypten",
+    "Kategorie:Wikipedia:Seite mit Hieroglyphen-Element",
+    "Kategorie:Wikipedia:Überarbeiten",
+    "Kategorie:Ägyptischer Kalender (Altertum)"
+  ],
+  "intro_wikitext": "<templatestyles src=\"Vorlage:Ägyptologie/styles.css\" />\n[[Datei:Senenmut-Grab.JPG|mini|300px|Kalender des Senenmut<ref>Kalendereinteilung im astronomischen Deckenbild im Grab des [[Senenmut]] († um 1460 v. Chr.), [[Theben (Ägypten)|Theben]], [[TT353|Grab 353]]. Eine hochaufgelöste Erfassung steht [https://images.metmuseum.org/CRDImages/eg/original/48.105.52_EGDP012289.jpg beim Metropolitan Museum of Art] in New York online zur Verfügung. (Abgerufen am 3. November 2021)</ref>]]<div class=\"Box\" style=\"clear:right;\">\n{| style=\"width:310px;\"\n| class=\"hiero\" |<hiero>V28-N5-V28</hiero>\n|„Neheh“ – Zyklische Zeit, Oberbegriff für<br />Zeiteinheiten der Kalendarischen Zeit<ref Name=\"Mabe2004\">{{Literatur |Titel=Das Afrika-Lexikon |Hrsg=Jakob E. Mabe |Verlag=P. Hammer / Metzler |Ort=Stuttgart |Datum=2004 |DNB=971708088}}</ref>\n|}\n</div>\n'''Ägyptische Kalender''' waren solche, die sich hauptsächlich an dem Naturereignis der [[Nilschwemme]] orientierten und mit Beobachtungen der [[Astronomie]] verknüpften. Im Laufe der Zeit entstanden unterschiedliche Kalenderformate, die teilweise parallel Verwendung fanden.<ref Name=\"Mabe2004\" />",
+  "segments": [
+    {
+      "id": "262830498-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "<div class=\"Box\" style=\"clear:right;\">",
+      "plain": null
+    },
+    {
+      "id": "262830498-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "</div>\n'''Ägyptische Kalender''' waren solche, die sich hauptsächlich an dem Naturereignis der [[Nilschwemme]] orientierten und mit Beobachtungen der [[Astronomie]] verknüpften.",
+      "plain": null
+    },
+    {
+      "id": "262830498-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Laufe der Zeit entstanden unterschiedliche Kalenderformate, die teilweise parallel Verwendung fanden.<ref Name=\"Mabe2004\" />",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 262830498,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "262830498-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Ägyptische Kalender waren solche, die sich hauptsächlich an dem Naturereignis der Nilschwemme orientierten und mit Beobachtungen der Astronomie verknüpften.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

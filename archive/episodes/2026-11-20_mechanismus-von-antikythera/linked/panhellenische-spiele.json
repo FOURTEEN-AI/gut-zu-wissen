@@ -1,0 +1,159 @@
+{
+  "title": "Panhellenische Spiele",
+  "revid": 269291814,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-08-01T18:24:02Z",
+  "fetched_at": "2026-11-20T17:09:43Z",
+  "categories": [
+    "Kategorie:Agon",
+    "Kategorie:Feste und Brauchtum (antikes Griechenland)",
+    "Kategorie:Kult des Zeus",
+    "Kategorie:Olympische Spiele der Antike"
+  ],
+  "intro_wikitext": "Die '''Panhellenischen Spiele''' ({{grcS|πανελλήνιοι ἀγῶνες}} ''maskulin Plural'') waren gesamtgriechische Wettkämpfe zu Ehren der [[Griechische Mythologie|griechischen Götter]], die an religiösen Kultstätten abgehalten wurden. Ursprünglich handelte es sich um Wettkämpfe unter Kriegern in voller Kriegsmontur. Später wurde mit Ausnahme des Waffenlaufs die Rüstung abgelegt und die Kämpfer traten nackt an. Im Rahmen der religiös-sportlichen Veranstaltung wurden auch kulturelle Wettkämpfe im Dichten und Musizieren ausgetragen.\n\nZu den panhellenischen Spielen werden die überregionalen Wettkämpfe an vier Kultstätten gezählt: [[Olympia (Griechenland)|Olympia]], [[Delphi]], [[Korinth (antike Stadt)|Korinth]] und [[Nemea (Heiligtum)|Nemea]]. Die Sieger aus diesen Wettkämpfen erhielten jeweils ortsspezifische Kränze, Zweige oder Stängel. Der Austragungsmodus dieser Spiele fand meist im Vierjahres-, auch im Zweijahresrhythmus statt. Dieser Rhythmus wurde ''Periodos'' (Umlauf, Wiederkehr) genannt. Ein Wettkämpfer, der während einer [[Olympiade]] (Vierjahreszyklus) in einer Sportart in allen vier Hauptkampfstätten siegte, erhielt den Titel ''[[Periodonike]]''.",
+  "segments": [
+    {
+      "id": "269291814-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Panhellenischen Spiele''' ({{grcS|πανελλήνιοι ἀγῶνες}} ''maskulin Plural'') waren gesamtgriechische Wettkämpfe zu Ehren der [[Griechische Mythologie|griechischen Götter]], die an religiösen Kultstätten abgehalten wurden.",
+      "plain": null
+    },
+    {
+      "id": "269291814-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ursprünglich handelte es sich um Wettkämpfe unter Kriegern in voller Kriegsmontur.",
+      "plain": null
+    },
+    {
+      "id": "269291814-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Später wurde mit Ausnahme des Waffenlaufs die Rüstung abgelegt und die Kämpfer traten nackt an.",
+      "plain": null
+    },
+    {
+      "id": "269291814-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Rahmen der religiös-sportlichen Veranstaltung wurden auch kulturelle Wettkämpfe im Dichten und Musizieren ausgetragen.",
+      "plain": null
+    },
+    {
+      "id": "269291814-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Zu den panhellenischen Spielen werden die überregionalen Wettkämpfe an vier Kultstätten gezählt: [[Olympia (Griechenland)|Olympia]], [[Delphi]], [[Korinth (antike Stadt)|Korinth]] und [[Nemea (Heiligtum)|Nemea]].",
+      "plain": null
+    },
+    {
+      "id": "269291814-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Sieger aus diesen Wettkämpfen erhielten jeweils ortsspezifische Kränze, Zweige oder Stängel.",
+      "plain": null
+    },
+    {
+      "id": "269291814-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Austragungsmodus dieser Spiele fand meist im Vierjahres-, auch im Zweijahresrhythmus statt.",
+      "plain": null
+    },
+    {
+      "id": "269291814-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dieser Rhythmus wurde ''Periodos'' (Umlauf, Wiederkehr) genannt.",
+      "plain": null
+    },
+    {
+      "id": "269291814-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein Wettkämpfer, der während einer [[Olympiade]] (Vierjahreszyklus) in einer Sportart in allen vier Hauptkampfstätten siegte, erhielt den Titel ''[[Periodonike]]''.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269291814,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269291814-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Panhellenischen Spiele (altgriechisch πανελλήνιοι ἀγῶνες maskulin Plural) waren gesamtgriechische Wettkämpfe zu Ehren der griechischen Götter, die an religiösen Kultstätten abgehalten wurden.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269291814-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269291814-0000"
+        ],
+        "plain": "Ursprünglich handelte es sich um Wettkämpfe unter Kriegern in voller Kriegsmontur.",
+        "context_plain": [
+          "Die Panhellenischen Spiele (altgriechisch πανελλήνιοι ἀγῶνες maskulin Plural) waren gesamtgriechische Wettkämpfe zu Ehren der griechischen Götter, die an religiösen Kultstätten abgehalten wurden."
+        ]
+      },
+      {
+        "segment_id": "269291814-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269291814-0001"
+        ],
+        "plain": "Später wurde mit Ausnahme des Waffenlaufs die Rüstung abgelegt und die Kämpfer traten nackt an.",
+        "context_plain": [
+          "Ursprünglich handelte es sich um Wettkämpfe unter Kriegern in voller Kriegsmontur."
+        ]
+      },
+      {
+        "segment_id": "269291814-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Im Rahmen der religiös-sportlichen Veranstaltung wurden auch kulturelle Wettkämpfe im Dichten und Musizieren ausgetragen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269291814-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269291814-0004"
+        ],
+        "plain": "Die Sieger aus diesen Wettkämpfen erhielten jeweils ortsspezifische Kränze, Zweige oder Stängel.",
+        "context_plain": [
+          "Zu den panhellenischen Spielen werden die überregionalen Wettkämpfe an vier Kultstätten gezählt: Olympia, Delphi, Korinth und Nemea."
+        ]
+      },
+      {
+        "segment_id": "269291814-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269291814-0007"
+        ],
+        "plain": "Ein Wettkämpfer, der während einer Olympiade (Vierjahreszyklus) in einer Sportart in allen vier Hauptkampfstätten siegte, erhielt den Titel Periodonike.",
+        "context_plain": [
+          "Dieser Rhythmus wurde Periodos (Umlauf, Wiederkehr) genannt."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "269291814-0004",
+        "reason": "context_invalid"
+      },
+      {
+        "segment_id": "269291814-0006",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "title": "Heriu-renpet",
+  "revid": 255282742,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-04-19T12:48:58Z",
+  "fetched_at": "2026-11-20T17:09:43Z",
+  "categories": [
+    "Kategorie:Monat des altägyptischen Kalenders",
+    "Kategorie:Wikipedia:Seite mit Hieroglyphen-Element"
+  ],
+  "intro_wikitext": "{{Infobox Hieroglyphen Zweispaltig\n|NAME = <hiero>D2:D21-G43 M4:X1</hiero><br/>Heriu-renpet <br/> ''Ḥrjw-rnp.t'' <br/> ''Zwischen den Jahren'' /<br/>''(Tage), welche über dem Jahr sind''\n|NAME-ERWEITERT = [[Altes Reich (Ägypten)|Altes Reich]]\n}}\n\n'''Heriu-renpet''' bezeichnete im [[Ägyptischer Kalender|ägyptischen Kalender]] bestimmte Zusatztage, die [[Epagomene]]n. In den Anfängen des [[Altes Reich (Ägypten)|Alten Reiches]] ist für die fünf Epagomenen noch keine Zuordnung zu bestimmten [[Liste ägyptischer Götter|ägyptischen Gottheiten]] zu erkennen, da die [[Altes Ägypten|Ägypter]] annahmen, dass die fünf Übergangstage von den [[Chatiu-Dämonen]] beherrscht werden.\n\n[[Plutarch]] (Is. et Os. 12) erklärt, [[Thot]] ([[Hermes]]) habe diese fünf Tage beim Spiel gegen [[Chons]] ([[Selene]]) gewonnen, um sie [[Nut (ägyptische Mythologie)|Nut]] ([[Rhea (Mythologie)|Rhea]]) zur Verfügung stellen zu können. Diese habe sie gebraucht, um ihre zum Teil im Ehebruch gezeugten Kinder gebären zu können, da ein Fluch ihres Gatten [[Geb (ägyptische Mythologie)|Geb]] ([[Kronos]]) auf ihr gelastet habe.",
+  "segments": [
+    {
+      "id": "255282742-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Hieroglyphen Zweispaltig | NAME-ERWEITERT = [[Altes Reich (Ägypten)|Altes Reich]]",
+      "plain": "Infobox Hieroglyphen Zweispaltig – Heriu-renpet in Hieroglyphen: Altes Reich / Heriu-renpet Ḥrjw-rnp.t Zwischen den Jahren / (Tage), welche über dem Jahr sind"
+    },
+    {
+      "id": "255282742-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Heriu-renpet''' bezeichnete im [[Ägyptischer Kalender|ägyptischen Kalender]] bestimmte Zusatztage, die [[Epagomene]]n.",
+      "plain": null
+    },
+    {
+      "id": "255282742-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "In den Anfängen des [[Altes Reich (Ägypten)|Alten Reiches]] ist für die fünf Epagomenen noch keine Zuordnung zu bestimmten [[Liste ägyptischer Götter|ägyptischen Gottheiten]] zu erkennen, da die [[Altes Ägypten|Ägypter]] annahmen, dass die fünf Übergangstage von den [[Chatiu-Dämonen]] beherrscht werden.",
+      "plain": null
+    },
+    {
+      "id": "255282742-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "[[Plutarch]] (Is. et Os.",
+      "plain": null
+    },
+    {
+      "id": "255282742-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "12) erklärt, [[Thot]] ([[Hermes]]) habe diese fünf Tage beim Spiel gegen [[Chons]] ([[Selene]]) gewonnen, um sie [[Nut (ägyptische Mythologie)|Nut]] ([[Rhea (Mythologie)|Rhea]]) zur Verfügung stellen zu können.",
+      "plain": null
+    },
+    {
+      "id": "255282742-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Diese habe sie gebraucht, um ihre zum Teil im Ehebruch gezeugten Kinder gebären zu können, da ein Fluch ihres Gatten [[Geb (ägyptische Mythologie)|Geb]] ([[Kronos]]) auf ihr gelastet habe.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 255282742,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "255282742-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Heriu-renpet bezeichnete im ägyptischen Kalender bestimmte Zusatztage, die Epagomenen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "255282742-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "In den Anfängen des Alten Reiches ist für die fünf Epagomenen noch keine Zuordnung zu bestimmten ägyptischen Gottheiten zu erkennen, da die Ägypter annahmen, dass die fünf Übergangstage von den Chatiu-Dämonen beherrscht werden.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "255282742-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "255282742-0003"
+        ],
+        "plain": "12) erklärt, Thot (Hermes) habe diese fünf Tage beim Spiel gegen Chons (Selene) gewonnen, um sie Nut (Rhea) zur Verfügung stellen zu können.",
+        "context_plain": [
+          "Plutarch (Is. et Os."
+        ]
+      },
+      {
+        "segment_id": "255282742-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "255282742-0003",
+          "255282742-0004"
+        ],
+        "plain": "Diese habe sie gebraucht, um ihre zum Teil im Ehebruch gezeugten Kinder gebären zu können, da ein Fluch ihres Gatten Geb (Kronos) auf ihr gelastet habe.",
+        "context_plain": [
+          "Plutarch (Is. et Os.",
+          "12) erklärt, Thot (Hermes) habe diese fünf Tage beim Spiel gegen Chons (Selene) gewonnen, um sie Nut (Rhea) zur Verfügung stellen zu können."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

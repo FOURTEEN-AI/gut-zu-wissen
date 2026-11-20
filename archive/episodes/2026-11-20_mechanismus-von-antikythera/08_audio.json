@@ -1,0 +1,352 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Lena": "de-de-advisor-3",
+    "Felix": "de-de-tutor-4"
+  },
+  "section_max_chars": 6000,
+  "stt_model": "large-v3",
+  "section_retries": 2,
+  "sections": [
+    {
+      "index": 0,
+      "turn_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "chars": 4466,
+      "file": "sections/00.flac",
+      "seconds": null,
+      "input_tokens": 3267,
+      "output_tokens": 20602,
+      "usd": 0.187,
+      "verified": false,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seconds": 273.32,
+          "input_tokens": 1089,
+          "output_tokens": 6833,
+          "usd": 0.062,
+          "transcript": "Heute geht es um den Mechanismus von Antikythera. Das ist ein antikes Gerät, das sich mit einer astronomischen Uhr vergleichen lässt. Mithilfe von Zahnrädern und Zifferblättern zeigte es astronomisch-kalendarische Zusammenhänge. Entdeckt wurde es im Jahr 1900, und zwar von Schwammtauchern. Sie fanden es in einem Schiffswrack vor der griechischen Insel Antikythera, die auch Antikythera genannt wird. Zusammen mit dem Gerät entdeckten sie andere Funde, darunter Bronzestatuen und Münzen. Moment, eine Uhr aus der Antike, die mit Zahnrädern arbeitet? Und gefunden haben sie ausgerechnet Schwammtaucher? Das klingt fast unglaublich. Wie sah das Ding denn aus, als es aus dem Frack kam? Als Klumpen. Genauer gesagt, der Mechanismus wurde als Klumpen aus zusammenkorrodierten Metallteilen geborgen. Ein Klumpen aus zusammenkorrodierten Metallteilen. Okay, bevor wir zum Gerät selbst kommen, was ist Korrosion eigentlich und was braucht es dafür? Korrosion läuft nur in Gegenwart von Feuchtigkeit und Sauerstoff ab. Gefördert wird sie durch die Anwesenheit von Salzen. Diese Salze wirken dabei als Ladungsträger. Verstanden. Und was sagt uns das Gerät eigentlich über die Technik seiner Zeit? Man hatte so ein Gerät für die Antike nicht für möglich gehalten. Auch die Zeit, aus der der Mechanismus stammt, galt als unwahrscheinlich dafür. Eine komplexe Zahnradapparatur aus dieser Zeit war bisher nicht bekannt. Mehr noch, man nahm lange an, diese Zeit habe noch vor dem Beginn der technischen Entwicklung gelegen. Wow, dann bin ich neugierig auf die Technik. Wie waren diese Zahnräder denn gestaltet? Die Zähne aller Stirnräder haben die Form eines gleichschenkligen Dreiecks. Der Winkel an der Spitze und am Zahnfuß beträgt 60 Grad. Außerdem sind alle Zähne gleich hoch, nämlich etwa eineinhalb Millimeter. Dadurch konnte jedes Zahnrad in jedes andere Zahnrad eingreifen. Jedes Zahnrad konnte also in jedes andere eingreifen. Aber woher wusste man beim Zusammenbau, welches Teil wohin gehört? Jedes Teil und jedes Loch wies einen Identifikationsbuchstaben auf. Dieser Buchstabe diente als Hilfe bei der Montage. Ein Buchstabe an jedem Teil und an jedem Loch, das ist gründlich. Und wenn mal etwas kaputt ging, wurde das Gerät auch repariert? Ja, mindestens einmal. Eine der vier Speichen am Hauptantriebsrad wurde dabei ausgetauscht. Gut. Dann zu der Frage, für wen so ein Gerät eigentlich gebaut wurde. Waren es Astronomen, die damit gearbeitet haben? Eine Gruppe nimmt an, dass der Mechanismus kein Instrument für Astronomen war. Sie hält ihn für ein Luxusobjekt für einen reichen Kunden, der nicht auf Astronomie spezialisiert war. Und möglicherweise war er kein Einzelstück. Ein Luxusobjekt für einen reichen Kunden, vielleicht sogar mehrfach gebaut. Und was zeigte so ein Stück denn an? Du hast anfangs von Kalendern gesprochen. Die äußere Ringskala benutzt die Monatsnamen des ägyptischen Kalenders. Dieser bildet das Jahr in zwölf Monaten zu je 30 Tagen und fünf Zusatztagen ab. Ägyptische Kalender orientierten sich hauptsächlich an der Nilschwemme. Sie waren außerdem mit Beobachtungen der Astronomie verknüpft. Zwölf Monate zu 30 Tagen plus fünf Zusatztage, das sind 365 Tage. Hattet der Ring dann auch genauso viele Abschnitte? Schauen wir auf den Mond. Ein gesamter Mondphasenzyklus von einem Neumond zum folgenden Neumond wird auch Lunation genannt. Er dauert im Mittel etwa 29,53 Tage. Eine Lunation dauert also knapp 30 Tage. Hat das Gerät die Mondphasen denn auch gezeigt? Dafür gibt es einen Hinweis. Ein neu entdecktes, vorne vorstehendes kleines Zahnrad und ein halbkugelförmiger Hohlraum führten zu einem Schluss. Auf dem vorderen Mondzeiger hatte sich demnach eine zweifarbige kleine Kugel gedreht. Sie diente zur Anzeige der Mondphasen. Eine kleine zweifarbige Kugel, die sich dreht. Das ist ein schönes Bild. Zeigte das Gerät noch mehr vom Himmel? Ja, es gab eine Zusatzanzeige. Sie hatte drei Saros-Perioden pro Umdrehung. Sie diente zur Angabe, ob die auf der Hauptskala angegebene Tageszeit galt. Oder es waren ein Drittel- oder zwei Drittel-Tage zu addieren. Die Anzeige sagte also, ob man zur Tageszeit auf der Hauptskala noch ein Drittel oder zwei Drittel Tage dazurechnen musste. Verblüffend. Gab es auch etwas, das nichts mit dem Himmel zu tun hatte? Es gab einen geviertelten Kreis. Auf ihm waren panhellenische Wettkampfspiele vermerkt. Das waren Spiele an sechs Wettkampfstätten.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "Mit Hilfe",
+              "heard": "Mithilfe",
+              "context_before": "mit einer astronomischen Uhr vergleichen lässt",
+              "context_after": "von Zahnrädern und Zifferblättern zeigte es",
+              "changes_statement": false,
+              "reason": "„Mit Hilfe“ und „Mithilfe“ sind nur unterschiedliche Schreibweisen desselben gesprochenen Wortes."
+            },
+            {
+              "index": 1,
+              "expected": "Andikythira",
+              "heard": "Antikythera",
+              "context_before": "der griechischen Insel Antikythera die auch",
+              "context_after": "genannt wird Zusammen mit dem Gerät",
+              "changes_statement": true,
+              "reason": "Das Skript nennt als zweiten Namen „Andikythira“, das Transkript wiederholt „Antikythera“. „Andikythira“ klingt deutlich anders, daher entfällt der alternative Name und die Aussage ändert sich."
+            },
+            {
+              "index": 2,
+              "expected": "Wrack",
+              "heard": "Frack",
+              "context_before": "denn aus als es aus dem",
+              "context_after": "kam Als Klumpen genauer gesagt Der",
+              "changes_statement": false,
+              "reason": "„Frack“ statt „Wrack“ klingt fast gleich und ist ein Hörfehler der Spracherkennung, kein Fehler der Sprachsynthese."
+            },
+            {
+              "index": 3,
+              "expected": "Zahnrad Apparatur",
+              "heard": "Zahnradapparatur",
+              "context_before": "galt als unwahrscheinlich dafür Eine komplexe",
+              "context_after": "aus dieser Zeit war bisher nicht",
+              "changes_statement": false,
+              "reason": "Getrennt- oder Zusammenschreibung desselben gesprochenen Wortes, ohne Bedeutungsunterschied."
+            },
+            {
+              "index": 4,
+              "expected": "kaputtging",
+              "heard": "kaputt ging",
+              "context_before": "ist gründlich Und wenn mal etwas",
+              "context_after": "Wurde das Gerät auch repariert Ja",
+              "changes_statement": false,
+              "reason": "„kaputtging“ und „kaputt ging“ unterscheiden sich nur in der Schreibweise."
+            },
+            {
+              "index": 5,
+              "expected": "Hatte",
+              "heard": "Hattet",
+              "context_before": "fünf Zusatztage das sind dreihundertfünfundsechzig Tage",
+              "context_after": "der Ring dann auch genau so",
+              "changes_statement": false,
+              "reason": "„Hattet“ statt „Hatte“ ist ein Grammatikfehler der Erkennung, der Sinn der Frage bleibt gleich."
+            },
+            {
+              "index": 6,
+              "expected": "genau so",
+              "heard": "genauso",
+              "context_before": "Tage Hatte der Ring dann auch",
+              "context_after": "viele Abschnitte Schauen wir auf den",
+              "changes_statement": false,
+              "reason": "„genau so“ und „genauso“ sind dasselbe gesprochene Wort, nur anders geschrieben."
+            },
+            {
+              "index": 7,
+              "expected": "neunundzwanzig Komma fünf drei",
+              "heard": "29,53",
+              "context_before": "genannt Er dauert im Mittel etwa",
+              "context_after": "Tage Eine Lunation dauert also knapp",
+              "changes_statement": false,
+              "reason": "Zahl in Ziffern statt Zahlwörtern, derselbe Wert 29,53."
+            }
+          ],
+          "changes_statement": true,
+          "action": "resynthesize"
+        },
+        {
+          "attempt": 1,
+          "seconds": 272.2,
+          "input_tokens": 1089,
+          "output_tokens": 6805,
+          "usd": 0.0618,
+          "transcript": "Heute geht es um den Mechanismus von Antikythera. Das ist ein antikes Gerät, das sich mit einer astronomischen Uhr vergleichen lässt. Mithilfe von Zahnrädern und Zifferblättern zeigte es astronomisch-kalendarische Zusammenhänge. Entdeckt wurde es im Jahr 1900, und zwar von Schwammtauchern. Sie fanden es in einem Schiffswrack vor der griechischen Insel Antikythera, die auch Antikythera genannt wird. Zusammen mit dem Gerät entdeckten sie andere Funde, darunter Bronzestatuen und Münzen. Moment, eine Uhr aus der Antike, die mit Zahnrädern arbeitet? Und gefunden haben sie ausgerechnet Schwammtaucher? Das klingt fast unglaublich. Wie sah das Ding denn aus, als es aus dem Wrack kam? Als Klumpen. Genauer gesagt, der Mechanismus wurde als Klumpen aus zusammenkorrodierten Metallteilen geborgen. Ein Klumpen aus zusammenkorrodierten Metallteilen. Okay, bevor wir zum Gerät selbst kommen, was ist Korrosion eigentlich und was braucht es dafür? Korrosion läuft nur in Gegenwart von Feuchtigkeit und Sauerstoff ab. Gefördert wird sie durch die Anwesenheit von Salzen. Diese Salze wirken dabei als Ladungsträger. Verstanden. Und was sagt uns das Gerät eigentlich über die Technik seiner Zeit? Man hatte so ein Gerät für die Antike nicht für möglich gehalten. Auch die Zeit, aus der der Mechanismus stammt, galt als unwahrscheinlich dafür. Eine komplexe Zahnradapparatur aus dieser Zeit war bisher nicht bekannt. Mehr noch, man nahm lange an, diese Zeit habe noch vor dem Beginn der technischen Entwicklung gelegen. Wow, dann bin ich neugierig auf die Technik. Wie waren diese Zahnräder denn gestaltet? Die Zähne aller Stirnräder haben die Form eines gleichschenkligen Dreiecks. Der Winkel an der Spitze und am Zahnfuß beträgt 60 Grad. Außerdem sind alle Zähne gleich hoch, nämlich etwa eineinhalb Millimeter. Dadurch konnte jedes Zahnrad in jedes andere Zahnrad eingreifen. Jedes Zahnrad konnte also in jedes andere eingreifen. Aber woher wusste man beim Zusammenbau, welches Teil wohin gehört? Jedes Teil und jedes Loch wies einen Identifikationsbuchstaben auf. Dieser Buchstabe diente als Hilfe bei der Montage. Ein Buchstabe an jedem Teil und an jedem Loch. Das ist gründlich. Und wenn mal etwas kaputt ging, wurde das Gerät auch repariert? Ja, mindestens einmal. Eine der vier Speichen am Hauptantriebsrad wurde dabei ausgetauscht. Gut, dann zu der Frage, für wen so ein Gerät eigentlich gebaut wurde. Waren es Astronomen, die damit gearbeitet haben? Eine Gruppe nimmt an, dass der Mechanismus kein Instrument für Astronomen war. Sie hält ihn für ein Luxusobjekt für einen reichen Kunden, der nicht auf Astronomie spezialisiert war. Und möglicherweise war er kein Einzelstück. Ein Luxusobjekt für einen reichen Kunden, vielleicht sogar mehrfach gebaut. Und was zeigte so ein Stück denn an? Du hast anfangs von Kalendern gesprochen. Die äußere Ringskala benutzt die Monatsnamen des ägyptischen Kalenders. Dieser bildet das Jahr in zwölf Monaten zu je 30 Tagen und fünf Zusatztagen ab. Ägyptische Kalender orientierten sich hauptsächlich an der Nilschwemme. Sie waren außerdem mit Beobachtungen der Astronomie verknüpft. Zwölf Monate zu 30 Tagen plus fünf Zusatztage, das sind 365 Tage. Hatte der Ring dann auch genau so viele Abschnitte? Schauen wir auf den Mond. Ein gesamter Mondphasenzyklus von einem Neumond zum folgenden Neumond wird auch Lunation genannt. Er dauert im Mittel etwa 29,53 Tage. Eine Lunation dauert also knapp 30 Tage. Hat das Gerät die Mondphasen denn auch gezeigt? Dafür gibt es einen Hinweis. Ein neu entdecktes, vorne vorstehendes kleines Zahnrad und ein halbkugelförmiger Hohlraum führten zu einem Schluss. Auf dem vorderen Mondzeiger hatte sich demnach eine zweifarbige kleine Kugel gedreht. Sie diente zur Anzeige der Mondphasen. Eine kleine zweifarbige Kugel, die sich dreht. Das ist ein schönes Bild. Zeigt dir das Gerät noch mehr vom Himmel? Ja, es gab eine Zusatzanzeige. Sie hatte drei Saros-Perioden pro Umdrehung. Sie diente zur Angabe, ob die auf der Hauptskala angegebene Tageszeit galt. oder es waren ein Drittel- oder Zweidritteltage zu addieren. Die Anzeige sagte also, ob man zur Tageszeit auf der Hauptskala noch ein Drittel- oder Zweidritteltage dazurechnen musste. Verblüffend. Gab es auch etwas, das nichts mit dem Himmel zu tun hatte? Es gab einen geviertelten Kreis. Auf ihm waren panhellenische Wettkampfspiele vermerkt. Das waren Spiele an sechs Wettkampfstätten.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "Mit Hilfe",
+              "heard": "Mithilfe",
+              "context_before": "mit einer astronomischen Uhr vergleichen lässt",
+              "context_after": "von Zahnrädern und Zifferblättern zeigte es",
+              "changes_statement": false,
+              "reason": "„Mit Hilfe“ und „Mithilfe“ sind nur unterschiedliche Schreibweisen desselben gesprochenen Wortes."
+            },
+            {
+              "index": 1,
+              "expected": "Andikythira",
+              "heard": "Antikythera",
+              "context_before": "der griechischen Insel Antikythera die auch",
+              "context_after": "genannt wird Zusammen mit dem Gerät",
+              "changes_statement": false,
+              "reason": "Die Spracherkennung hat den Zweitnamen nur als „Antikythera“ geschrieben. Das klingt fast gleich wie „Andikythira“, also ein Hörfehler und kein Fehler der Sprachsynthese."
+            },
+            {
+              "index": 2,
+              "expected": "Zahnrad Apparatur",
+              "heard": "Zahnradapparatur",
+              "context_before": "galt als unwahrscheinlich dafür Eine komplexe",
+              "context_after": "aus dieser Zeit war bisher nicht",
+              "changes_statement": false,
+              "reason": "Getrennt- oder Zusammenschreibung desselben Wortes, gesprochen identisch."
+            },
+            {
+              "index": 3,
+              "expected": "kaputtging",
+              "heard": "kaputt ging",
+              "context_before": "ist gründlich Und wenn mal etwas",
+              "context_after": "Wurde das Gerät auch repariert Ja",
+              "changes_statement": false,
+              "reason": "„kaputtging“ und „kaputt ging“ sind nur unterschiedliche Schreibweisen mit gleicher Aussprache und Bedeutung."
+            },
+            {
+              "index": 4,
+              "expected": "neunundzwanzig Komma fünf drei",
+              "heard": "29,53",
+              "context_before": "genannt Er dauert im Mittel etwa",
+              "context_after": "Tage Eine Lunation dauert also knapp",
+              "changes_statement": false,
+              "reason": "Ziffernschreibweise derselben gesprochenen Zahl 29,53, gleiche Aussage."
+            },
+            {
+              "index": 5,
+              "expected": "Zeigte",
+              "heard": "Zeigt dir",
+              "context_before": "dreht Das ist ein schönes Bild",
+              "context_after": "das Gerät noch mehr vom Himmel",
+              "changes_statement": true,
+              "reason": "„Zeigte“ wurde zu „Zeigt dir“. Das ist ein zusätzliches Wort mit Inhalt („dir“) und ändert die Zeitform, also die Aussage."
+            },
+            {
+              "index": 6,
+              "expected": "zwei Drittel Tage",
+              "heard": "Zweidritteltage",
+              "context_before": "Oder es waren ein Drittel oder",
+              "context_after": "zu addieren Die Anzeige sagte also",
+              "changes_statement": false,
+              "reason": "„zwei Drittel Tage“ und „Zweidritteltage“ sind nur andere Schreibweisen derselben gesprochenen Wörter."
+            },
+            {
+              "index": 7,
+              "expected": "zwei Drittel Tage",
+              "heard": "Zweidritteltage",
+              "context_before": "der Hauptskala noch ein Drittel oder",
+              "context_after": "dazurechnen musste Verblüffend Gab es auch",
+              "changes_statement": false,
+              "reason": "„zwei Drittel Tage“ und „Zweidritteltage“ sind nur andere Schreibweisen derselben gesprochenen Wörter."
+            }
+          ],
+          "changes_statement": true,
+          "action": "resynthesize"
+        },
+        {
+          "attempt": 2,
+          "seconds": 278.56,
+          "input_tokens": 1089,
+          "output_tokens": 6964,
+          "usd": 0.0632,
+          "transcript": "Heute geht es um den Mechanismus von Antikythera. Das ist ein antikes Gerät, das sich mit einer astronomischen Uhr vergleichen lässt. Mithilfe von Zahnrädern und Zifferblättern zeigte es astronomisch-kalendarische Zusammenhänge. Entdeckt wurde es im Jahr 1900, und zwar von Schwammtauchern. Sie fanden es in einem Schiffswrack vor der griechischen Insel Antikythera, die auch Antikythera genannt wird. Zusammen mit dem Gerät entdeckten sie andere Funde, darunter Bronzestatuen und Münzen. Moment, eine Uhr aus der Antike, die mit Zahnrädern arbeitet? Und gefunden haben sie ausgerechnet Schwammtaucher? Das klingt fast unglaublich. Wie sah das dem denn aus, als es aus dem Wrack kam? Als Klumpen. Genauer gesagt, der Mechanismus wurde als Klumpen aus zusammenkorrodierten Metallteilen geborgen. Ein Klumpen aus zusammenkorrodierten Metallteilen, okay. Bevor wir zum Gerät selbst kommen, was ist Korrosion eigentlich und was braucht es dafür? Korrosion läuft nur in Gegenwart von Feuchtigkeit und Sauerstoff ab. Gefördert wird sie durch die Anwesenheit von Salzen. Diese Salze wirken dabei als Ladungsträger. Verstanden. Und was sagt uns das Gerät eigentlich über die Technik seiner Zeit? Man hatte so ein Gerät für die Antike nicht für möglich gehalten. Auch die Zeit, aus der der Mechanismus stammt, galt als unwahrscheinlich dafür. Eine komplexe Zahnradapparatur aus dieser Zeit war bisher nicht bekannt. Mehr noch, man nahm lange an, diese Zeit habe noch vor dem Beginn der technischen Entwicklung gelegen. Wow, dann bin ich neugierig auf die Technik. Wie waren diese Zahnräder denn gestaltet? Die Zähne aller Stirnräder haben die Form eines gleichschenkligen Dreiecks. Der Winkel an der Spitze und am Zahnfuß beträgt 60 Grad. Außerdem sind alle Zähne gleich hoch, nämlich etwa eineinhalb Millimeter. Dadurch konnte jedes Zahnrad in jedes andere Zahnrad eingreifen. Jedes Zahnrad konnte also in jedes andere eingreifen. Aber woher wusste man beim Zusammenbau, welches Teil wohin gehört? Jedes Teil und jedes Loch wies einen Identifikationsbuchstaben auf. Dieser Buchstabe diente als Hilfe bei der Montage. Ein Buchstabe an jedem Teil und an jedem Loch. Das ist gründlich. Und wenn mal etwas kaputt ging, wurde das Gerät auch repariert? Ja, mindestens einmal. Eine der vier Speichen am Hauptantriebsrad wurde dabei ausgetauscht. Gut, dann zu der Frage, für wen so ein Gerät eigentlich gebaut wurde. Waren es Astronomen, die damit gearbeitet haben? Eine Gruppe nimmt an, dass der Mechanismus kein Instrument für Astronomen war. Sie hält ihn für ein Luxusobjekt, für einen reichen Kunden, der nicht auf Astronomie spezialisiert war. Und möglicherweise war er kein Einzelstück. Ein Luxusobjekt für einen reichen Kunden. Vielleicht sogar mehrfach gebaut. Und was zeigte so ein Stück denn an? Du hast anfangs von Kalendern gesprochen. Die äußere Ringskala benutzt die Monatsnamen des ägyptischen Kalenders. Dieser bildet das Jahr in zwölf Monaten zu je 30 Tagen und fünf Zusatztagen ab. Ägyptische Kalender orientierten sich hauptsächlich an der Nilschwemme. Sie waren außerdem mit Beobachtungen der Astronomie verknüpft. 12 Monate zu 30 Tagen plus 5 Zusatztage, das sind 365 Tage. Hatte der Ring dann auch genau so viele Abschnitte? Schauen wir auf den Mond. Ein gesamter Mondphasenzyklus von einem Neumond zum folgenden Neumond wird auch Lunation genannt. Er dauert im Mittel etwa 29,53 Tage. Eine Lunation dauert also knapp 30 Tage. Hat das Gerät die Mondphasen dann auch gezeigt? Dafür gibt es einen Hinweis. Ein neu entdecktes, vorne vorstehendes kleines Zahnrad und ein halbkugelförmiger Hohlraum führten zu einem Schluss. Auf dem vorderen Mondzeiger hatte sich demnach eine zweifarbige kleine Kugel gedreht. Sie diente zur Anzeige der Mondphasen. Eine kleine zweifarbige Kugel, die sich dreht. Das ist ein schönes Bild. Zeigte das Gerät noch mehr vom Himmel? Ja, es gab eine Zusatzanzeige. Sie hatte drei Saros-Perioden pro Umdrehung. Sie diente zur Angabe, ob die auf der Hauptskala angegebene Tageszeit galt. Oder es waren ein Drittel- oder zwei Drittel-Tage zu addieren. Die Anzeige sagte also, ob man zur Tageszeit auf der Hauptskala noch ein Drittel- oder zwei Drittel-Tage dazirechnen musste. Verblüffend. Gab es auch etwas, das nichts mit dem Himmel zu tun hatte? Es gab einen geviertelten Kreis. Auf ihm waren panhellenische Wettkampfspiele vermerkt. Das waren Spiele an sechs Wettkampfstätten.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "Mit Hilfe",
+              "heard": "Mithilfe",
+              "context_before": "mit einer astronomischen Uhr vergleichen lässt",
+              "context_after": "von Zahnrädern und Zifferblättern zeigte es",
+              "changes_statement": false,
+              "reason": "Nur Schreibvariante: „Mit Hilfe“ und „Mithilfe“ werden gleich gesprochen."
+            },
+            {
+              "index": 1,
+              "expected": "Andikythira",
+              "heard": "Antikythera",
+              "context_before": "der griechischen Insel Antikythera die auch",
+              "context_after": "genannt wird Zusammen mit dem Gerät",
+              "changes_statement": false,
+              "reason": "„Andikythira“ wurde als „Antikythera“ erkannt. Das klingt fast gleich, also ist es ein Hörfehler der Spracherkennung und kein Fehler der Synthese."
+            },
+            {
+              "index": 2,
+              "expected": "Ding",
+              "heard": "dem",
+              "context_before": "klingt fast unglaublich Wie sah das",
+              "context_after": "denn aus als es aus dem",
+              "changes_statement": true,
+              "reason": "Das Wort „Ding“ fehlt, stattdessen steht „dem“. Das Bezugswort der Frage geht verloren, der Inhalt ändert sich."
+            },
+            {
+              "index": 3,
+              "expected": "Zahnrad Apparatur",
+              "heard": "Zahnradapparatur",
+              "context_before": "galt als unwahrscheinlich dafür Eine komplexe",
+              "context_after": "aus dieser Zeit war bisher nicht",
+              "changes_statement": false,
+              "reason": "Getrennt- oder Zusammenschreibung desselben Wortes, gesprochen gleich."
+            },
+            {
+              "index": 4,
+              "expected": "kaputtging",
+              "heard": "kaputt ging",
+              "context_before": "ist gründlich Und wenn mal etwas",
+              "context_after": "Wurde das Gerät auch repariert Ja",
+              "changes_statement": false,
+              "reason": "„kaputtging“ und „kaputt ging“ sind nur unterschiedlich geschrieben, gesprochen gleich."
+            },
+            {
+              "index": 5,
+              "expected": "neunundzwanzig Komma fünf drei",
+              "heard": "29,53",
+              "context_before": "genannt Er dauert im Mittel etwa",
+              "context_after": "Tage Eine Lunation dauert also knapp",
+              "changes_statement": false,
+              "reason": "„29,53“ ist dieselbe Zahl wie „neunundzwanzig Komma fünf drei“, nur anders geschrieben."
+            },
+            {
+              "index": 6,
+              "expected": "denn",
+              "heard": "dann",
+              "context_before": "Tage Hat das Gerät die Mondphasen",
+              "context_after": "auch gezeigt Dafür gibt es einen",
+              "changes_statement": false,
+              "reason": "„denn“ und „dann“ sind Füllwörter bzw. Partikeln ohne eigenen Inhalt. Der Sinn der Frage bleibt eine Frage nach den Mondphasen."
+            },
+            {
+              "index": 7,
+              "expected": "dazurechnen",
+              "heard": "dazirechnen",
+              "context_before": "ein Drittel oder zwei Drittel Tage",
+              "context_after": "musste Verblüffend Gab es auch etwas",
+              "changes_statement": false,
+              "reason": "„dazirechnen“ ist ein Tippfehler der Spracherkennung für „dazurechnen“, klingt fast gleich und ändert die Aussage nicht."
+            }
+          ],
+          "changes_statement": true,
+          "action": "escalate"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "turn_indices": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "chars": 4506,
+      "file": "sections/01.flac",
+      "seconds": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "usd": null,
+      "verified": false,
+      "attempts": []
+    }
+  ],
+  "fixed_parts": {
+    "intro": "aa19a3a5ad6b9be14c64f543f8cba8d4e9c06111f095fef839a86fadc97312cf",
+    "outro": "7b776b07c88661c0847e61dbdf7817e1df2faae0ccc343ee30a7fa067263939e"
+  },
+  "joins": {},
+  "loudness": null,
+  "file": null,
+  "sample_rate": null,
+  "seconds": null,
+  "usd": null,
+  "previous_attempts": []
+}

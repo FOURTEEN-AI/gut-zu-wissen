@@ -1,0 +1,2589 @@
+{
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "Lena",
+      "text": "Heute geht es um den Mechanismus von Antikythera. Das ist ein antikes Gerät, das sich mit einer astronomischen Uhr vergleichen lässt. Mit Hilfe von Zahnrädern und Zifferblättern zeigte es astronomisch-kalendarische Zusammenhänge. Entdeckt wurde es im Jahr neunzehnhundert, und zwar von Schwammtauchern. Sie fanden es in einem Schiffswrack vor der griechischen Insel Antikythera, die auch Andikythira genannt wird. Zusammen mit dem Gerät entdeckten sie andere Funde, darunter Bronzestatuen und Münzen.",
+      "fact_ids": [
+        "271920980-0000",
+        "271920980-0001"
+      ],
+      "statements": [
+        {
+          "text": "Der Mechanismus von Antikythera ist ein antikes Gerät, das sich mit einer astronomischen Uhr vergleichen lässt.",
+          "fact_ids": [
+            "271920980-0000"
+          ]
+        },
+        {
+          "text": "Mit Hilfe von Zahnrädern und Zifferblättern zeigte es astronomisch-kalendarische Zusammenhänge.",
+          "fact_ids": [
+            "271920980-0000"
+          ]
+        },
+        {
+          "text": "Entdeckt wurde es im Jahr neunzehnhundert, und zwar von Schwammtauchern.",
+          "fact_ids": [
+            "271920980-0001"
+          ]
+        },
+        {
+          "text": "Sie fanden es in einem Schiffswrack vor der griechischen Insel Antikythera, die auch Andikythira genannt wird.",
+          "fact_ids": [
+            "271920980-0001"
+          ]
+        },
+        {
+          "text": "Zusammen mit dem Gerät entdeckten sie andere Funde, darunter Bronzestatuen und Münzen.",
+          "fact_ids": [
+            "271920980-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "speaker": "Felix",
+      "text": "Moment, eine Uhr aus der Antike, die mit Zahnrädern arbeitet? Und gefunden haben sie ausgerechnet Schwammtaucher? Das klingt fast unglaublich. Wie sah das Ding denn aus, als es aus dem Wrack kam?",
+      "fact_ids": [
+        "271920980-0000",
+        "271920980-0001"
+      ],
+      "statements": [
+        {
+          "text": "Der Mechanismus ist ein antikes Gerät, das mit Zahnrädern arbeitet.",
+          "fact_ids": [
+            "271920980-0000"
+          ]
+        },
+        {
+          "text": "Schwammtaucher haben den Mechanismus gefunden.",
+          "fact_ids": [
+            "271920980-0001"
+          ]
+        },
+        {
+          "text": "Der Mechanismus lag in einem Schiffswrack.",
+          "fact_ids": [
+            "271920980-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "Lena",
+      "text": "Als Klumpen, genauer gesagt: Der Mechanismus wurde als Klumpen aus zusammenkorrodierten Metallteilen geborgen.",
+      "fact_ids": [
+        "271920980-0021"
+      ],
+      "statements": [
+        {
+          "text": "Der Mechanismus wurde als Klumpen aus zusammenkorrodierten Metallteilen geborgen.",
+          "fact_ids": [
+            "271920980-0021"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "Felix",
+      "text": "Ein Klumpen aus zusammenkorrodierten Metallteilen, okay. Bevor wir zum Gerät selbst kommen: Was ist Korrosion eigentlich, und was braucht es dafür?",
+      "fact_ids": [
+        "271920980-0021"
+      ],
+      "statements": [
+        {
+          "text": "Der Mechanismus wurde als Klumpen aus zusammenkorrodierten Metallteilen geborgen.",
+          "fact_ids": [
+            "271920980-0021"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "Lena",
+      "text": "Korrosion läuft nur in Gegenwart von Feuchtigkeit und Sauerstoff ab. Gefördert wird sie durch die Anwesenheit von Salzen. Diese Salze wirken dabei als Ladungsträger.",
+      "fact_ids": [
+        "259618881-0008"
+      ],
+      "statements": [
+        {
+          "text": "Korrosion läuft nur in Gegenwart von Feuchtigkeit und Sauerstoff ab.",
+          "fact_ids": [
+            "259618881-0008"
+          ]
+        },
+        {
+          "text": "Gefördert wird sie durch die Anwesenheit von Salzen als Ladungsträgern.",
+          "fact_ids": [
+            "259618881-0008"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "speaker": "Felix",
+      "text": "Verstanden. Und was sagt uns das Gerät eigentlich über die Technik seiner Zeit?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 6,
+      "speaker": "Lena",
+      "text": "Man hatte so ein Gerät für die Antike nicht für möglich gehalten. Auch die Zeit, aus der der Mechanismus stammt, galt als unwahrscheinlich dafür. Eine komplexe Zahnrad-Apparatur aus dieser Zeit war bisher nicht bekannt. Mehr noch: Man nahm lange an, diese Zeit habe noch vor dem Beginn der technischen Entwicklung gelegen.",
+      "fact_ids": [
+        "271920980-0005",
+        "271920980-0054"
+      ],
+      "statements": [
+        {
+          "text": "Die Herstellung eines technisch so anspruchsvollen Geräts in der Antike war bis dahin nicht für möglich gehalten worden.",
+          "fact_ids": [
+            "271920980-0005"
+          ]
+        },
+        {
+          "text": "Aus der Zeit, aus der der Mechanismus stammt, war die Existenz einer komplexen Zahnrad-Apparatur bisher nicht bekannt.",
+          "fact_ids": [
+            "271920980-0054"
+          ]
+        },
+        {
+          "text": "Man nahm lange an, diese Zeit habe vor dem Beginn der technischen Entwicklung gelegen.",
+          "fact_ids": [
+            "271920980-0054"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "speaker": "Felix",
+      "text": "Wow. Dann bin ich neugierig auf die Technik: Wie waren diese Zahnräder denn gestaltet?",
+      "fact_ids": [
+        "271920980-0000"
+      ],
+      "statements": [
+        {
+          "text": "Der Mechanismus arbeitet mit Zahnrädern.",
+          "fact_ids": [
+            "271920980-0000"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "speaker": "Lena",
+      "text": "Die Zähne aller Stirnräder haben die Form eines gleichschenkligen Dreiecks. Der Winkel an der Spitze und am Zahnfuß beträgt sechzig Grad. Außerdem sind alle Zähne gleich hoch, nämlich etwa eineinhalb Millimeter. Dadurch konnte jedes Zahnrad in jedes andere Zahnrad eingreifen.",
+      "fact_ids": [
+        "271920980-0232"
+      ],
+      "statements": [
+        {
+          "text": "Die Zähne aller Stirnräder haben die Form eines gleichschenkligen Dreiecks.",
+          "fact_ids": [
+            "271920980-0232"
+          ]
+        },
+        {
+          "text": "Der Winkel an der Spitze und am Zahnfuß beträgt sechzig Grad.",
+          "fact_ids": [
+            "271920980-0232"
+          ]
+        },
+        {
+          "text": "Alle Zähne sind gleich hoch, nämlich etwa eineinhalb Millimeter.",
+          "fact_ids": [
+            "271920980-0232"
+          ]
+        },
+        {
+          "text": "Dadurch konnte jedes Zahnrad in jedes andere Zahnrad eingreifen.",
+          "fact_ids": [
+            "271920980-0232"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "speaker": "Felix",
+      "text": "Jedes Zahnrad konnte also in jedes andere eingreifen. Aber woher wusste man beim Zusammenbau, welches Teil wohin gehört?",
+      "fact_ids": [
+        "271920980-0232"
+      ],
+      "statements": [
+        {
+          "text": "Jedes Zahnrad konnte in jedes andere eingreifen.",
+          "fact_ids": [
+            "271920980-0232"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "speaker": "Lena",
+      "text": "Jedes Teil und jedes Loch wies einen Identifikationsbuchstaben auf. Dieser Buchstabe diente als Hilfe bei der Montage.",
+      "fact_ids": [
+        "271920980-0350"
+      ],
+      "statements": [
+        {
+          "text": "Jedes Teil und jedes Loch wies einen Identifikationsbuchstaben auf.",
+          "fact_ids": [
+            "271920980-0350"
+          ]
+        },
+        {
+          "text": "Dieser Buchstabe diente als Hilfe bei der Montage.",
+          "fact_ids": [
+            "271920980-0350"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "speaker": "Felix",
+      "text": "Ein Buchstabe an jedem Teil und an jedem Loch, das ist gründlich. Und wenn mal etwas kaputtging? Wurde das Gerät auch repariert?",
+      "fact_ids": [
+        "271920980-0350"
+      ],
+      "statements": [
+        {
+          "text": "Jedes Teil und jedes Loch hatte einen Identifikationsbuchstaben.",
+          "fact_ids": [
+            "271920980-0350"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "speaker": "Lena",
+      "text": "Ja, mindestens einmal. Eine der vier Speichen am Hauptantriebsrad wurde dabei ausgetauscht.",
+      "fact_ids": [
+        "271920980-0236"
+      ],
+      "statements": [
+        {
+          "text": "Der Mechanismus wurde mindestens einmal repariert.",
+          "fact_ids": [
+            "271920980-0236"
+          ]
+        },
+        {
+          "text": "Dabei wurde eine der vier Speichen am Hauptantriebsrad ausgetauscht.",
+          "fact_ids": [
+            "271920980-0236"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "speaker": "Felix",
+      "text": "Gut. Dann zu der Frage, für wen so ein Gerät eigentlich gebaut wurde. Waren es Astronomen, die damit gearbeitet haben?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 14,
+      "speaker": "Lena",
+      "text": "Eine Gruppe nimmt an, dass der Mechanismus kein Instrument für Astronomen war. Sie hält ihn für ein Luxusobjekt für einen reichen Kunden, der nicht auf Astronomie spezialisiert war. Und möglicherweise war er kein Einzelstück.",
+      "fact_ids": [
+        "271920980-0184"
+      ],
+      "statements": [
+        {
+          "text": "Eine Gruppe nimmt an, dass der Mechanismus kein Instrument für Astronomen war.",
+          "fact_ids": [
+            "271920980-0184"
+          ]
+        },
+        {
+          "text": "Sie hält ihn für ein Luxusobjekt für einen reichen Kunden, der nicht auf Astronomie spezialisiert war.",
+          "fact_ids": [
+            "271920980-0184"
+          ]
+        },
+        {
+          "text": "Möglicherweise war der Mechanismus kein Einzelstück.",
+          "fact_ids": [
+            "271920980-0184"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "speaker": "Felix",
+      "text": "Ein Luxusobjekt für einen reichen Kunden, vielleicht sogar mehrfach gebaut. Und was zeigte so ein Stück denn an? Du hast anfangs von Kalendern gesprochen.",
+      "fact_ids": [
+        "271920980-0184",
+        "271920980-0000"
+      ],
+      "statements": [
+        {
+          "text": "Nach der Annahme einer Gruppe war der Mechanismus ein Luxusobjekt für einen reichen Kunden und möglicherweise kein Einzelstück.",
+          "fact_ids": [
+            "271920980-0184"
+          ]
+        },
+        {
+          "text": "Der Mechanismus zeigte astronomisch-kalendarische Zusammenhänge.",
+          "fact_ids": [
+            "271920980-0000"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "speaker": "Lena",
+      "text": "Die äußere Ringskala benutzt die Monatsnamen des ägyptischen Kalenders. Dieser bildet das Jahr in zwölf Monaten zu je dreißig Tagen und fünf Zusatztagen ab. Ägyptische Kalender orientierten sich hauptsächlich an der Nilschwemme. Sie waren außerdem mit Beobachtungen der Astronomie verknüpft.",
+      "fact_ids": [
+        "271920980-0257",
+        "262830498-0001"
+      ],
+      "statements": [
+        {
+          "text": "Die äußere Ringskala benutzt die Monatsnamen des ägyptischen Kalenders.",
+          "fact_ids": [
+            "271920980-0257"
+          ]
+        },
+        {
+          "text": "Der ägyptische Kalender bildet das Jahr in zwölf Monaten zu je dreißig Tagen und fünf Zusatztagen ab.",
+          "fact_ids": [
+            "271920980-0257"
+          ]
+        },
+        {
+          "text": "Ägyptische Kalender orientierten sich hauptsächlich an der Nilschwemme.",
+          "fact_ids": [
+            "262830498-0001"
+          ]
+        },
+        {
+          "text": "Ägyptische Kalender waren mit Beobachtungen der Astronomie verknüpft.",
+          "fact_ids": [
+            "262830498-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "speaker": "Felix",
+      "text": "Zwölf Monate zu dreißig Tagen plus fünf Zusatztage, das sind dreihundertfünfundsechzig Tage. Hatte der Ring dann auch genau so viele Abschnitte?",
+      "fact_ids": [
+        "271920980-0257"
+      ],
+      "statements": [
+        {
+          "text": "Der ägyptische Kalender bildet das Jahr in zwölf Monaten zu je dreißig Tagen und fünf Zusatztagen ab.",
+          "fact_ids": [
+            "271920980-0257"
+          ]
+        },
+        {
+          "text": "Das sind dreihundertfünfundsechzig Tage.",
+          "fact_ids": [
+            "271920980-0257"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "speaker": "Lena",
+      "text": "Schauen wir auf den Mond. Ein gesamter Mondphasenzyklus von einem Neumond zum folgenden Neumond wird auch Lunation genannt. Er dauert im Mittel etwa neunundzwanzig Komma fünf drei Tage.",
+      "fact_ids": [
+        "271941466-0003"
+      ],
+      "statements": [
+        {
+          "text": "Ein gesamter Mondphasenzyklus von einem Neumond zum folgenden Neumond heißt auch Lunation.",
+          "fact_ids": [
+            "271941466-0003"
+          ]
+        },
+        {
+          "text": "Eine Lunation dauert im Mittel etwa 29,53 Tage.",
+          "fact_ids": [
+            "271941466-0003"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "speaker": "Felix",
+      "text": "Eine Lunation dauert also knapp dreißig Tage. Hat das Gerät die Mondphasen denn auch gezeigt?",
+      "fact_ids": [
+        "271941466-0003"
+      ],
+      "statements": [
+        {
+          "text": "Eine Lunation dauert im Mittel etwa 29,53 Tage, also knapp dreißig Tage.",
+          "fact_ids": [
+            "271941466-0003"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "speaker": "Lena",
+      "text": "Dafür gibt es einen Hinweis. Ein neu entdecktes, vorne vorstehendes kleines Zahnrad und ein halbkugelförmiger Hohlraum führten zu einem Schluss. Auf dem vorderen Mondzeiger hatte sich demnach eine zweifarbige kleine Kugel gedreht. Sie diente zur Anzeige der Mondphasen.",
+      "fact_ids": [
+        "271920980-0150"
+      ],
+      "statements": [
+        {
+          "text": "Ein neu entdecktes, vorne vorstehendes kleines Zahnrad und ein halbkugelförmiger Hohlraum führten zu dem Schluss, dass sich auf dem vorderen Mondzeiger eine zweifarbige kleine Kugel gedreht hatte.",
+          "fact_ids": [
+            "271920980-0150"
+          ]
+        },
+        {
+          "text": "Die kleine Kugel diente zur Anzeige der Mondphasen.",
+          "fact_ids": [
+            "271920980-0150"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "speaker": "Felix",
+      "text": "Eine kleine zweifarbige Kugel, die sich dreht. Das ist ein schönes Bild! Zeigte das Gerät noch mehr vom Himmel?",
+      "fact_ids": [
+        "271920980-0000"
+      ],
+      "statements": [
+        {
+          "text": "Das Gerät zeigte astronomisch-kalendarische Zusammenhänge.",
+          "fact_ids": [
+            "271920980-0000"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "speaker": "Lena",
+      "text": "Ja, es gab eine Zusatzanzeige. Sie hatte drei Saros-Perioden pro Umdrehung. Sie diente zur Angabe, ob die auf der Hauptskala angegebene Tageszeit galt. Oder es waren ein Drittel oder zwei Drittel Tage zu addieren.",
+      "fact_ids": [
+        "271920980-0374"
+      ],
+      "statements": [
+        {
+          "text": "Eine Zusatzanzeige mit drei Saros-Perioden pro Umdrehung diente zur Angabe, ob die auf der Hauptskala angegebene Tageszeit galt oder ob ein Drittel oder zwei Drittel Tage zu addieren waren.",
+          "fact_ids": [
+            "271920980-0374"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "speaker": "Felix",
+      "text": "Die Anzeige sagte also, ob man zur Tageszeit auf der Hauptskala noch ein Drittel oder zwei Drittel Tage dazurechnen musste. Verblüffend! Gab es auch etwas, das nichts mit dem Himmel zu tun hatte?",
+      "fact_ids": [
+        "271920980-0374"
+      ],
+      "statements": [
+        {
+          "text": "Die Zusatzanzeige zeigte, ob zur Tageszeit auf der Hauptskala ein Drittel oder zwei Drittel Tage zu addieren waren.",
+          "fact_ids": [
+            "271920980-0374"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "speaker": "Lena",
+      "text": "Es gab einen geviertelten Kreis. Auf ihm waren Panhellenische Wettkampfspiele vermerkt. Das waren Spiele an sechs Wettkampfstätten.",
+      "fact_ids": [
+        "271920980-0301"
+      ],
+      "statements": [
+        {
+          "text": "Auf einem geviertelten Kreis waren Panhellenische Wettkampfspiele an sechs Wettkampfstätten vermerkt.",
+          "fact_ids": [
+            "271920980-0301"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "speaker": "Felix",
+      "text": "Sportwettkämpfe auf einem Zifferblatt, das überrascht mich. Gab es für die Sieger bei diesen Spielen eigentlich einen besonderen Titel?",
+      "fact_ids": [
+        "271920980-0301"
+      ],
+      "statements": [
+        {
+          "text": "Auf dem Gerät waren Panhellenische Wettkampfspiele vermerkt.",
+          "fact_ids": [
+            "271920980-0301"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "speaker": "Lena",
+      "text": "Ja. Ein Wettkämpfer, der während einer Olympiade in einer Sportart in allen vier Hauptkampfstätten siegte, erhielt den Titel Periodonike. Eine Olympiade ist dabei ein Vierjahreszyklus.",
+      "fact_ids": [
+        "269291814-0008"
+      ],
+      "statements": [
+        {
+          "text": "Ein Wettkämpfer, der während einer Olympiade, einem Vierjahreszyklus, in einer Sportart in allen vier Hauptkampfstätten siegte, erhielt den Titel Periodonike.",
+          "fact_ids": [
+            "269291814-0008"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "speaker": "Felix",
+      "text": "Spannend. Dann wieder zurück zum Gerät selbst: Wer hat es eigentlich gebaut? Gibt es dazu Hinweise?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 28,
+      "speaker": "Lena",
+      "text": "Man geht davon aus, dass der Konstrukteur korinthisches Griechisch sprach. Er war also in Korinth oder in einer korinthischen Kolonie wie Syrakus zu Hause. Damit kann er zum Beispiel Archimedes gewesen sein. Der lebte von zweihundertsiebenundachtzig bis zweihundertzwölf vor Christus. Oder es war ein Schüler von ihm.",
+      "fact_ids": [
+        "271920980-0344"
+      ],
+      "statements": [
+        {
+          "text": "Man geht davon aus, dass der Konstrukteur korinthisches Griechisch sprach und in Korinth oder in einer korinthischen Kolonie wie Syrakus zu Hause war.",
+          "fact_ids": [
+            "271920980-0344"
+          ]
+        },
+        {
+          "text": "Der Konstrukteur kann zum Beispiel Archimedes (287 bis 212 v. Chr.) oder ein Schüler von ihm gewesen sein.",
+          "fact_ids": [
+            "271920980-0344"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "speaker": "Felix",
+      "text": "Archimedes oder einer seiner Schüler, wow! Was wusste man damals eigentlich über die Bahnen der Himmelskörper?",
+      "fact_ids": [
+        "271920980-0344"
+      ],
+      "statements": [
+        {
+          "text": "Der Konstrukteur kann Archimedes oder ein Schüler von ihm gewesen sein.",
+          "fact_ids": [
+            "271920980-0344"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "speaker": "Lena",
+      "text": "Im Gerät steckt ein Kurbelschleifen-Getriebe. Es verwirklicht den Äquanten. Das ist ein Hilfsmittel zur Konstruktion von Bahnen der Himmelskörper. Man hatte es bisher dem später lebenden Ptolemäus zugeschrieben.",
+      "fact_ids": [
+        "271920980-0079"
+      ],
+      "statements": [
+        {
+          "text": "Das im Mechanismus gefundene Kurbelschleifen-Getriebe verwirklicht den Äquanten, ein Hilfsmittel zur Konstruktion von Bahnen der Himmelskörper.",
+          "fact_ids": [
+            "271920980-0079"
+          ]
+        },
+        {
+          "text": "Der Äquant wurde bisher dem später lebenden Ptolemäus zugeschrieben.",
+          "fact_ids": [
+            "271920980-0079"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "speaker": "Felix",
+      "text": "Der Äquant steckt also schon in diesem Gerät, obwohl man ihn bisher Ptolemäus zugeschrieben hat. Und wie alt ist dieses Instrument dann?",
+      "fact_ids": [
+        "271920980-0079"
+      ],
+      "statements": [
+        {
+          "text": "Das Kurbelschleifen-Getriebe im Mechanismus verwirklicht den Äquanten, den man bisher Ptolemäus zuschrieb.",
+          "fact_ids": [
+            "271920980-0079"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "speaker": "Lena",
+      "text": "Es war rund hundertfünfzig Jahre älter als der Mechanismus von Antikythera. Damit würde es auf eine Tradition hinweisen. Diese hatte seit mehr als einem Jahrhundert bestanden.",
+      "fact_ids": [
+        "271920980-0089"
+      ],
+      "statements": [
+        {
+          "text": "Dieses Instrument war rund 150 Jahre älter als der Mechanismus von Antikythera.",
+          "fact_ids": [
+            "271920980-0089"
+          ]
+        },
+        {
+          "text": "Es würde auf eine Tradition hinweisen, die seit mehr als einem Jahrhundert bestanden hatte.",
+          "fact_ids": [
+            "271920980-0089"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "speaker": "Felix",
+      "text": "Eine Tradition, die schon lange vor dem Gerät bestand. Gab es für die Bewegung der Himmelskörper auch eine Theorie?",
+      "fact_ids": [
+        "271920980-0089"
+      ],
+      "statements": [
+        {
+          "text": "Das Instrument würde auf eine Tradition hinweisen, die schon lange vor dem Mechanismus bestanden hatte.",
+          "fact_ids": [
+            "271920980-0089"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "speaker": "Lena",
+      "text": "Ja, die Epizykeltheorie. Sie wurde vermutlich von Apollonios von Perge gegen Ende des dritten Jahrhunderts vor Christus aufgestellt. In der Astronomie war sie fast zweitausend Jahre lang vorherrschend. Das reichte bis ins siebzehnte Jahrhundert.",
+      "fact_ids": [
+        "268996118-0002"
+      ],
+      "statements": [
+        {
+          "text": "Die Epizykeltheorie wurde vermutlich von Apollonios von Perge gegen Ende des 3. Jahrhunderts v. Chr. aufgestellt.",
+          "fact_ids": [
+            "268996118-0002"
+          ]
+        },
+        {
+          "text": "Die Epizykeltheorie war in der Astronomie fast 2000 Jahre lang bis ins 17. Jahrhundert vorherrschend.",
+          "fact_ids": [
+            "268996118-0002"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "speaker": "Felix",
+      "text": "Fast zweitausend Jahre, das ist eine Ewigkeit! Kommen wir zur Schrift. Steht auf dem Gerät eigentlich Text, und wie viel davon ist erhalten?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 36,
+      "speaker": "Lena",
+      "text": "Man vermutet etwa fünfzehntausend Buchstaben. Davon haben sich rund dreitausend erhalten. Dabei ist zu berücksichtigen, dass für Zahlen die griechischen Buchstaben in der griechischen Zahlschrift benutzt wurden.",
+      "fact_ids": [
+        "271920980-0334"
+      ],
+      "statements": [
+        {
+          "text": "Von vermuteten etwa 15.000 Buchstaben haben sich rund 3.000 erhalten.",
+          "fact_ids": [
+            "271920980-0334"
+          ]
+        },
+        {
+          "text": "Für Zahlen wurden die griechischen Buchstaben in der griechischen Zahlschrift benutzt.",
+          "fact_ids": [
+            "271920980-0334"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "speaker": "Felix",
+      "text": "Nur ein Fünftel ist erhalten, und Zahlen stecken auch noch in den Buchstaben. Wie sieht der Text denn aus, wenn Wörter und Zahlen gemischt sind?",
+      "fact_ids": [
+        "271920980-0334"
+      ],
+      "statements": [
+        {
+          "text": "Von etwa 15.000 vermuteten Buchstaben haben sich rund 3.000 erhalten, und für Zahlen wurden Buchstaben benutzt.",
+          "fact_ids": [
+            "271920980-0334"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "speaker": "Lena",
+      "text": "Zwischen den einzelnen Worten gibt es keine Lücken. Aber vor und hinter denjenigen Buchstaben, die als Ziffern dienten, gibt es Lücken. Griechische Zahlen werden ja durch Buchstaben als Ziffern dargestellt.",
+      "fact_ids": [
+        "271920980-0337",
+        "270472542-0000"
+      ],
+      "statements": [
+        {
+          "text": "Es gibt keine Lücken zwischen den einzelnen Worten, aber Lücken vor und hinter denjenigen Buchstaben, die als Ziffern dienten.",
+          "fact_ids": [
+            "271920980-0337"
+          ]
+        },
+        {
+          "text": "Die griechischen Zahlen werden durch Buchstaben als Ziffern dargestellt.",
+          "fact_ids": [
+            "270472542-0000"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "speaker": "Felix",
+      "text": "Verstehe. Zum Schluss noch zur Gegenwart: Wird das Gerät heute noch aufgegriffen?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 40,
+      "speaker": "Lena",
+      "text": "Der Genfer Uhrenhersteller Hublot hat im Oktober zweitausendelf auf der Messe Belles Montres in Shanghai eine Variante mit modernem Design vorgestellt. Sie war eine Hommage an den Mechanismus von Antikythera. Sie diente aber auch Werbezwecken.",
+      "fact_ids": [
+        "271920980-0396"
+      ],
+      "statements": [
+        {
+          "text": "Der Genfer Uhrenhersteller Hublot hat im Oktober 2011 auf der Messe Belles Montres in Shanghai eine Variante mit modernem Design vorgestellt.",
+          "fact_ids": [
+            "271920980-0396"
+          ]
+        },
+        {
+          "text": "Die Variante war eine Hommage an den Mechanismus von Antikythera und diente Werbezwecken.",
+          "fact_ids": [
+            "271920980-0396"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "speaker": "Felix",
+      "text": "Hublot, was ist das eigentlich für eine Firma, die so eine Variante vorstellt?",
+      "fact_ids": [
+        "271920980-0396"
+      ],
+      "statements": [
+        {
+          "text": "Hublot hat eine Variante des Mechanismus vorgestellt.",
+          "fact_ids": [
+            "271920980-0396"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "speaker": "Lena",
+      "text": "Hublot ist eine Schweizer Uhrenmanufaktur im Luxussegment. Der Hauptsitz ist in Nyon. Das Wort Hublot bedeutet auf Französisch Bullauge.",
+      "fact_ids": [
+        "271740181-0008"
+      ],
+      "statements": [
+        {
+          "text": "Hublot ist eine Schweizer Uhrenmanufaktur im Luxussegment mit Hauptsitz in Nyon.",
+          "fact_ids": [
+            "271740181-0008"
+          ]
+        },
+        {
+          "text": "Hublot bedeutet auf Französisch Bullauge.",
+          "fact_ids": [
+            "271740181-0008"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "speaker": "Felix",
+      "text": "Ein Bullauge also. Und gibt es auch Menschen, die sich selbst an den Mechanismus wagen?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 44,
+      "speaker": "Lena",
+      "text": "Der Youtuber Clickspring arbeitet seit Anfang zweitausendsiebzehn an einem Nachbau des Mechanismus.",
+      "fact_ids": [
+        "271920980-0397"
+      ],
+      "statements": [
+        {
+          "text": "Der Youtuber Clickspring arbeitet seit Anfang 2017 an einem Nachbau des Mechanismus.",
+          "fact_ids": [
+            "271920980-0397"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "speaker": "Felix",
+      "text": "Wahnsinn. Und im Kino? Hat der Mechanismus dort eine Rolle gespielt?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 46,
+      "speaker": "Lena",
+      "text": "Ja. Im Film Indiana Jones und das Rad des Schicksals aus dem Jahr zweitausenddreiundzwanzig spielt eine fiktive Version des Mechanismus eine tragende Rolle.",
+      "fact_ids": [
+        "271920980-0400"
+      ],
+      "statements": [
+        {
+          "text": "Im Film Indiana Jones und das Rad des Schicksals (2023) spielt eine fiktive Version des Mechanismus eine tragende Rolle.",
+          "fact_ids": [
+            "271920980-0400"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "speaker": "Felix",
+      "text": "Wer hat bei diesem Film eigentlich Regie geführt?",
+      "fact_ids": [
+        "271920980-0400"
+      ],
+      "statements": [
+        {
+          "text": "Im Film Indiana Jones und das Rad des Schicksals spielt eine fiktive Version des Mechanismus eine tragende Rolle.",
+          "fact_ids": [
+            "271920980-0400"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "speaker": "Lena",
+      "text": "Der Film stammt von James Mangold. Es ist ein Abenteuerfilm aus dem Jahr zweitausenddreiundzwanzig. Er ist der fünfte Teil der Indiana-Jones-Filmreihe. Der Originaltitel lautet Indiana Jones and the Dial of Destiny.",
+      "fact_ids": [
+        "272229103-0015"
+      ],
+      "statements": [
+        {
+          "text": "Indiana Jones und das Rad des Schicksals ist ein Abenteuerfilm von James Mangold aus dem Jahr 2023 und der fünfte Teil der Indiana-Jones-Filmreihe.",
+          "fact_ids": [
+            "272229103-0015"
+          ]
+        },
+        {
+          "text": "Der Originaltitel lautet Indiana Jones and the Dial of Destiny.",
+          "fact_ids": [
+            "272229103-0015"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "speaker": "Felix",
+      "text": "Dann fasse ich zusammen, was ich mitnehme. Schwammtaucher fanden den Mechanismus von Antikythera im Jahr neunzehnhundert in einem Schiffswrack, als Klumpen aus zusammenkorrodierten Metallteilen. Man hatte so ein technisch anspruchsvolles Gerät für die Antike nie für möglich gehalten. Eine Gruppe hält es für ein Luxusobjekt für einen reichen Kunden. Es zeigte Mondphasen mit einer zweifarbigen Kugel, dazu Wettkampfspiele und eine Zusatzanzeige mit drei Saros-Perioden pro Umdrehung, die angab, ob die Tageszeit der Hauptskala galt oder ob ein Drittel oder zwei Drittel Tage zu addieren waren. Als Konstrukteur kommt ein Archimedes-Schüler infrage. Das Getriebe verwirklicht den Äquanten, den man bisher Ptolemäus zuschrieb. Und heute gibt es eine Hublot-Variante, ein Youtuber arbeitet an einem Nachbau, und im Kino spielt eine fiktive Version eine tragende Rolle.",
+      "fact_ids": [
+        "271920980-0001",
+        "271920980-0021",
+        "271920980-0005",
+        "271920980-0184",
+        "271920980-0150",
+        "271920980-0301",
+        "271920980-0374",
+        "271920980-0344",
+        "271920980-0079",
+        "271920980-0396",
+        "271920980-0397",
+        "271920980-0400"
+      ],
+      "statements": [
+        {
+          "text": "Schwammtaucher entdeckten den Mechanismus von Antikythera im Jahr neunzehnhundert in einem Schiffswrack.",
+          "fact_ids": [
+            "271920980-0001"
+          ]
+        },
+        {
+          "text": "Der Mechanismus wurde als Klumpen aus zusammenkorrodierten Metallteilen geborgen.",
+          "fact_ids": [
+            "271920980-0021"
+          ]
+        },
+        {
+          "text": "Die Herstellung eines technisch so anspruchsvollen Geräts in der Antike hatte man bis dahin nicht für möglich gehalten.",
+          "fact_ids": [
+            "271920980-0005"
+          ]
+        },
+        {
+          "text": "Eine Gruppe nimmt an, dass der Mechanismus ein Luxusobjekt für einen reichen, nicht auf Astronomie spezialisierten Kunden war.",
+          "fact_ids": [
+            "271920980-0184"
+          ]
+        },
+        {
+          "text": "Auf dem vorderen Mondzeiger drehte sich vermutlich eine zweifarbige kleine Kugel zur Anzeige der Mondphasen.",
+          "fact_ids": [
+            "271920980-0150"
+          ]
+        },
+        {
+          "text": "Auf dem geviertelten Kreis waren Panhellenische Wettkampfspiele an sechs Wettkampfstätten vermerkt.",
+          "fact_ids": [
+            "271920980-0301"
+          ]
+        },
+        {
+          "text": "Eine Zusatzanzeige mit drei Saros-Perioden pro Umdrehung gab an, ob die auf der Hauptskala angegebene Tageszeit galt oder ob ein Drittel oder zwei Drittel Tage zu addieren waren.",
+          "fact_ids": [
+            "271920980-0374"
+          ]
+        },
+        {
+          "text": "Der Konstrukteur kann Archimedes oder ein Schüler von ihm gewesen sein.",
+          "fact_ids": [
+            "271920980-0344"
+          ]
+        },
+        {
+          "text": "Das Kurbelschleifen-Getriebe verwirklicht den Äquanten, den man bisher dem später lebenden Ptolemäus zuschrieb.",
+          "fact_ids": [
+            "271920980-0079"
+          ]
+        },
+        {
+          "text": "Hublot stellte im Oktober 2011 als Hommage an den Mechanismus eine Variante mit modernem Design vor.",
+          "fact_ids": [
+            "271920980-0396"
+          ]
+        },
+        {
+          "text": "Der Youtuber Clickspring arbeitet seit Anfang 2017 an einem Nachbau des Mechanismus.",
+          "fact_ids": [
+            "271920980-0397"
+          ]
+        },
+        {
+          "text": "Im Film Indiana Jones und das Rad des Schicksals spielt eine fiktive Version des Mechanismus eine tragende Rolle.",
+          "fact_ids": [
+            "271920980-0400"
+          ]
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "used_fact_ids": [
+    "271920980-0000",
+    "271920980-0001",
+    "271920980-0021",
+    "259618881-0008",
+    "271920980-0005",
+    "271920980-0054",
+    "271920980-0232",
+    "271920980-0350",
+    "271920980-0236",
+    "271920980-0184",
+    "271920980-0257",
+    "262830498-0001",
+    "271941466-0003",
+    "271920980-0150",
+    "271920980-0374",
+    "271920980-0301",
+    "269291814-0008",
+    "271920980-0344",
+    "271920980-0079",
+    "271920980-0089",
+    "268996118-0002",
+    "271920980-0334",
+    "271920980-0337",
+    "270472542-0000",
+    "271920980-0396",
+    "271740181-0008",
+    "271920980-0397",
+    "271920980-0400",
+    "272229103-0015"
+  ],
+  "conversation": 2,
+  "regenerations": [
+    {
+      "conversation": 1,
+      "turn_index": 5,
+      "kind": "retry",
+      "reason": "Der Fakt 271920980-0021 wurde schon in Redebeitrag 2 und 3 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 5,
+        "speaker": "Felix",
+        "text": "Verstanden. Jetzt aber zurück zu dem Gerät, das als Klumpen geborgen wurde. Was war daran denn so besonders?",
+        "fact_ids": [
+          "271920980-0021"
+        ],
+        "statements": [
+          {
+            "text": "Der Mechanismus wurde als Klumpen geborgen.",
+            "fact_ids": [
+              "271920980-0021"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 6,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 6,
+        "speaker": "Lena",
+        "text": "Die Herstellung eines technisch so anspruchsvollen Geräts in der Antike war bis dahin nicht für möglich gehalten worden. Das gilt auch für die Zeit, aus der der Mechanismus stammt. Aus dieser Zeit war die Existenz einer komplexen Zahnrad-Apparatur bisher nicht bekannt. Mehr noch: Man nahm lange an, diese Zeit habe vor dem Beginn der technischen Entwicklung gelegen.",
+        "fact_ids": [
+          "271920980-0005",
+          "271920980-0054"
+        ],
+        "statements": [
+          {
+            "text": "Die Herstellung eines technisch so anspruchsvollen Geräts in der Antike war bis dahin nicht für möglich gehalten worden.",
+            "fact_ids": [
+              "271920980-0005"
+            ]
+          },
+          {
+            "text": "Aus der Zeit des Mechanismus war die Existenz einer komplexen Zahnrad-Apparatur bisher nicht bekannt.",
+            "fact_ids": [
+              "271920980-0054"
+            ]
+          },
+          {
+            "text": "Man nahm lange an, diese Zeit habe vor dem Beginn der technischen Entwicklung gelegen.",
+            "fact_ids": [
+              "271920980-0054"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 18,
+      "kind": "retry",
+      "reason": "Der Fakt 271920980-0257 wurde schon in Redebeitrag 16 und 17 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 18,
+        "speaker": "Lena",
+        "text": "Nein, das nahm man früher an. Neuere Forschungen haben aber ergeben, dass die Skala nicht in dreihundertfünfundsechzig, sondern nur in dreihundertvierundfünfzig Abschnitte unterteilt wurde. Das entspricht zwölf synodischen Monaten mit jeweils neunundzwanzigeinhalb Tagen.",
+        "fact_ids": [
+          "271920980-0257"
+        ],
+        "statements": [
+          {
+            "text": "Früher nahm man an, die Skala sei in dreihundertfünfundsechzig Abschnitte unterteilt.",
+            "fact_ids": [
+              "271920980-0257"
+            ]
+          },
+          {
+            "text": "Neuere Forschungen haben ergeben, dass sie nur in dreihundertvierundfünfzig Abschnitte unterteilt wurde.",
+            "fact_ids": [
+              "271920980-0257"
+            ]
+          },
+          {
+            "text": "Das entspricht zwölf synodischen Monaten mit jeweils neunundzwanzigeinhalb Tagen.",
+            "fact_ids": [
+              "271920980-0257"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 18,
+      "kind": "retry",
+      "reason": "Der Fakt 271920980-0257 wurde schon in Redebeitrag 16 und 17 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 18,
+        "speaker": "Lena",
+        "text": "Nein, genau das war eben nicht so. Die Skala war anders unterteilt, als man früher gedacht hat.",
+        "fact_ids": [
+          "271920980-0257"
+        ],
+        "statements": [
+          {
+            "text": "Die äußere Ringskala war nicht so unterteilt, wie man es früher annahm, nämlich nicht in so viele Abschnitte wie der ägyptische Kalender Tage hat.",
+            "fact_ids": [
+              "271920980-0257"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 18,
+      "kind": "retry",
+      "reason": "Der Redebeitrag nennt keine Fakt-IDs. \"Die Einteilung des Rings hat es in sich\" und \"da wartet tatsächlich eine Überraschung auf dich\" sind Wertungen mit Faktengehalt über die Einteilung des Rings. Das ist mehr als eine bloße Überleitung oder Reaktion, und ohne Fakt-Sätze ist es nicht belegt.",
+      "previous": {
+        "index": 18,
+        "speaker": "Lena",
+        "text": "Nein, da wartet tatsächlich eine Überraschung auf dich. Die Einteilung des Rings hat es in sich.",
+        "fact_ids": [],
+        "statements": []
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 18,
+      "kind": "retry",
+      "reason": "Der Fakt 271920980-0257 wurde schon in Redebeitrag 16 und 17 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 18,
+        "speaker": "Lena",
+        "text": "Nein. Neuere Forschungen haben ergeben, dass der Ring entgegen früherer Annahmen nicht in dreihundertfünfundsechzig Abschnitte unterteilt wurde, sondern nur in dreihundertvierundfünfzig. Das entspricht zwölf synodischen Monaten mit jeweils neunundzwanzigeinhalb Tagen.",
+        "fact_ids": [
+          "271920980-0257"
+        ],
+        "statements": [
+          {
+            "text": "Neuere Forschungen haben ergeben, dass die äußere Ringskala entgegen früherer Annahmen nicht in 365, sondern nur in 354 Abschnitte unterteilt wurde.",
+            "fact_ids": [
+              "271920980-0257"
+            ]
+          },
+          {
+            "text": "Die 354 Abschnitte entsprechen zwölf synodischen Monaten mit jeweils neunundzwanzigeinhalb Tagen.",
+            "fact_ids": [
+              "271920980-0257"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 49,
+      "kind": "retry",
+      "reason": "Der letzte Satz „bis heute gibt es Nachbauten“ ist nicht belegt. Fakt 0397 sagt nur, dass der Youtuber Clickspring seit Anfang 2017 an einem Nachbau arbeitet. Das ist ein einzelnes Projekt im Bau, es belegt weder mehrere vorhandene Nachbauten noch ein „bis heute“. Die übrigen Aussagen (Fund 1900, Klumpen, Luxusobjekt, Mondphasenkugel, Wettkampfspiele, Zusatzanzeige, Archimedes-Schüler, Äquant, Hublot, Film) stützen sich auf die Fakt-Sätze.",
+      "previous": {
+        "index": 49,
+        "speaker": "Felix",
+        "text": "Dann fasse ich zusammen, was ich mitnehme. Schwammtaucher fanden den Mechanismus von Antikythera im Jahr neunzehnhundert in einem Schiffswrack, als Klumpen aus zusammenkorrodierten Metallteilen. Man hatte so ein technisch anspruchsvolles Gerät für die Antike nie für möglich gehalten. Eine Gruppe hält es für ein Luxusobjekt für einen reichen Kunden. Es zeigte Mondphasen mit einer zweifarbigen Kugel, dazu Wettkampfspiele und eine Zusatzanzeige für die Tageszeit bei Finsternissen. Als Konstrukteur kommt ein Archimedes-Schüler infrage. Das Getriebe verwirklicht den Äquanten, den man bisher Ptolemäus zuschrieb. Und bis heute gibt es Nachbauten, eine Hublot-Variante und einen Auftritt im Kino.",
+        "fact_ids": [
+          "271920980-0001",
+          "271920980-0021",
+          "271920980-0005",
+          "271920980-0184",
+          "271920980-0150",
+          "271920980-0301",
+          "271920980-0374",
+          "271920980-0344",
+          "271920980-0079",
+          "271920980-0396",
+          "271920980-0397",
+          "271920980-0400"
+        ],
+        "statements": [
+          {
+            "text": "Schwammtaucher entdeckten den Mechanismus im Jahr 1900 in einem Schiffswrack vor der Insel Antikythera.",
+            "fact_ids": [
+              "271920980-0001"
+            ]
+          },
+          {
+            "text": "Der Mechanismus wurde als Klumpen aus zusammenkorrodierten Metallteilen geborgen.",
+            "fact_ids": [
+              "271920980-0021"
+            ]
+          },
+          {
+            "text": "Die Herstellung eines so anspruchsvollen Geräts in der Antike war bis dahin nicht für möglich gehalten worden.",
+            "fact_ids": [
+              "271920980-0005"
+            ]
+          },
+          {
+            "text": "Eine Gruppe nimmt an, dass der Mechanismus ein Luxusobjekt für einen reichen, nicht auf Astronomie spezialisierten Kunden war.",
+            "fact_ids": [
+              "271920980-0184"
+            ]
+          },
+          {
+            "text": "Auf dem vorderen Mondzeiger drehte sich vermutlich eine zweifarbige kleine Kugel zur Anzeige der Mondphasen.",
+            "fact_ids": [
+              "271920980-0150"
+            ]
+          },
+          {
+            "text": "Auf einem geviertelten Kreis waren Panhellenische Wettkampfspiele vermerkt.",
+            "fact_ids": [
+              "271920980-0301"
+            ]
+          },
+          {
+            "text": "Eine Zusatzanzeige mit drei Saros-Perioden pro Umdrehung zeigte, ob zur Tageszeit auf der Hauptskala ein Drittel oder zwei Drittel Tage zu addieren waren.",
+            "fact_ids": [
+              "271920980-0374"
+            ]
+          },
+          {
+            "text": "Der Konstrukteur kann Archimedes oder ein Schüler von ihm gewesen sein.",
+            "fact_ids": [
+              "271920980-0344"
+            ]
+          },
+          {
+            "text": "Das Kurbelschleifen-Getriebe verwirklicht den Äquanten, den man bisher Ptolemäus zuschrieb.",
+            "fact_ids": [
+              "271920980-0079"
+            ]
+          },
+          {
+            "text": "Hublot hat im Oktober 2011 eine Variante mit modernem Design vorgestellt.",
+            "fact_ids": [
+              "271920980-0396"
+            ]
+          },
+          {
+            "text": "Der Youtuber Clickspring arbeitet seit Anfang 2017 an einem Nachbau.",
+            "fact_ids": [
+              "271920980-0397"
+            ]
+          },
+          {
+            "text": "Im Film Indiana Jones und das Rad des Schicksals spielt eine fiktive Version des Mechanismus eine tragende Rolle.",
+            "fact_ids": [
+              "271920980-0400"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 49,
+      "kind": "retry",
+      "reason": "Fast alles deckt sich mit den Fakt-Sätzen. Nur bei der Zusatzanzeige „für die Tageszeit bei Finsternissen“ nicht: Der zitierte Satz 0374 nennt nur drei Saros-Perioden pro Umdrehung und die Tageszeit auf der Hauptskala. Die Finsternisse stehen allein im Kontext, der nicht als Beleg gilt. Der Bezug zu Finsternissen ist daher nicht belegt.",
+      "previous": {
+        "index": 49,
+        "speaker": "Felix",
+        "text": "Dann fasse ich zusammen, was ich mitnehme. Schwammtaucher fanden den Mechanismus von Antikythera im Jahr neunzehnhundert in einem Schiffswrack, als Klumpen aus zusammenkorrodierten Metallteilen. Man hatte so ein technisch anspruchsvolles Gerät für die Antike nie für möglich gehalten. Eine Gruppe hält es für ein Luxusobjekt für einen reichen Kunden. Es zeigte Mondphasen mit einer zweifarbigen Kugel, dazu Wettkampfspiele und eine Zusatzanzeige für die Tageszeit bei Finsternissen. Als Konstrukteur kommt ein Archimedes-Schüler infrage. Das Getriebe verwirklicht den Äquanten, den man bisher Ptolemäus zuschrieb. Und heute gibt es eine Hublot-Variante, ein Youtuber arbeitet an einem Nachbau, und im Kino spielt eine fiktive Version eine tragende Rolle.",
+        "fact_ids": [
+          "271920980-0001",
+          "271920980-0021",
+          "271920980-0005",
+          "271920980-0184",
+          "271920980-0150",
+          "271920980-0301",
+          "271920980-0374",
+          "271920980-0344",
+          "271920980-0079",
+          "271920980-0396",
+          "271920980-0397",
+          "271920980-0400"
+        ],
+        "statements": [
+          {
+            "text": "Schwammtaucher entdeckten den Mechanismus von Antikythera im Jahr 1900 in einem Schiffswrack vor der griechischen Insel Antikythera.",
+            "fact_ids": [
+              "271920980-0001"
+            ]
+          },
+          {
+            "text": "Der Mechanismus wurde als Klumpen aus zusammenkorrodierten Metallteilen geborgen.",
+            "fact_ids": [
+              "271920980-0021"
+            ]
+          },
+          {
+            "text": "Die Herstellung eines technisch so anspruchsvollen Geräts in der Antike war bis dahin nicht für möglich gehalten worden.",
+            "fact_ids": [
+              "271920980-0005"
+            ]
+          },
+          {
+            "text": "Eine Gruppe nimmt an, der Mechanismus sei ein Luxusobjekt für einen reichen, nicht auf Astronomie spezialisierten Kunden gewesen.",
+            "fact_ids": [
+              "271920980-0184"
+            ]
+          },
+          {
+            "text": "Auf dem vorderen Mondzeiger drehte sich vermutlich eine zweifarbige kleine Kugel zur Anzeige der Mondphasen.",
+            "fact_ids": [
+              "271920980-0150"
+            ]
+          },
+          {
+            "text": "Auf einem geviertelten Kreis waren Panhellenische Wettkampfspiele an sechs Wettkampfstätten vermerkt.",
+            "fact_ids": [
+              "271920980-0301"
+            ]
+          },
+          {
+            "text": "Eine Zusatzanzeige mit drei Saros-Perioden pro Umdrehung gab an, ob die Tageszeit der Hauptskala galt oder ein Drittel oder zwei Drittel Tage zu addieren waren.",
+            "fact_ids": [
+              "271920980-0374"
+            ]
+          },
+          {
+            "text": "Der Konstrukteur sprach korinthisches Griechisch und kann zum Beispiel Archimedes oder ein Schüler von ihm gewesen sein.",
+            "fact_ids": [
+              "271920980-0344"
+            ]
+          },
+          {
+            "text": "Das Kurbelschleifen-Getriebe im Mechanismus verwirklicht den Äquanten, den man bisher dem später lebenden Ptolemäus zuschrieb.",
+            "fact_ids": [
+              "271920980-0079"
+            ]
+          },
+          {
+            "text": "Der Genfer Uhrenhersteller Hublot stellte im Oktober 2011 als Hommage an den Mechanismus eine Variante mit modernem Design vor.",
+            "fact_ids": [
+              "271920980-0396"
+            ]
+          },
+          {
+            "text": "Der Youtuber Clickspring arbeitet seit Anfang 2017 an einem Nachbau des Mechanismus.",
+            "fact_ids": [
+              "271920980-0397"
+            ]
+          },
+          {
+            "text": "Im Film Indiana Jones und das Rad des Schicksals spielt eine fiktive Version des Mechanismus eine tragende Rolle.",
+            "fact_ids": [
+              "271920980-0400"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    }
+  ],
+  "discarded_conversations": [
+    {
+      "conversation": 1,
+      "reason": "Turn regeneration budget used up (gate problems, 3x).",
+      "excluded_fact_ids": [],
+      "dialog": {
+        "turns": [
+          {
+            "index": 18,
+            "speaker": "Lena",
+            "text": "Nein, die Einteilung war eine andere, als man früher angenommen hat. Sie entspricht nämlich synodischen Monaten.",
+            "fact_ids": [
+              "271920980-0257"
+            ],
+            "statements": [
+              {
+                "text": "Die Ringskala war entgegen früheren Annahmen nicht in so viele Abschnitte unterteilt wie das ägyptische Jahr Tage hat.",
+                "fact_ids": [
+                  "271920980-0257"
+                ]
+              },
+              {
+                "text": "Die Einteilung der Ringskala entspricht synodischen Monaten.",
+                "fact_ids": [
+                  "271920980-0257"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 19,
+            "speaker": "Felix",
+            "text": "Synodische Monate? Was ist damit gemeint? Hat das mit dem Mond zu tun?",
+            "fact_ids": [
+              "271920980-0257"
+            ],
+            "statements": [
+              {
+                "text": "Die Skala entspricht zwölf synodischen Monaten.",
+                "fact_ids": [
+                  "271920980-0257"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 20,
+            "speaker": "Lena",
+            "text": "Ein gesamter Mondphasenzyklus von einem Neumond zum folgenden Neumond wird auch Lunation genannt. Im Mittel dauert er etwa neunundzwanzig Komma fünf drei Tage.",
+            "fact_ids": [
+              "271941466-0003"
+            ],
+            "statements": [
+              {
+                "text": "Ein gesamter Mondphasenzyklus von einem Neumond zum folgenden Neumond wird auch Lunation genannt.",
+                "fact_ids": [
+                  "271941466-0003"
+                ]
+              },
+              {
+                "text": "Er dauert im Mittel etwa neunundzwanzig Komma fünf drei Tage.",
+                "fact_ids": [
+                  "271941466-0003"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 21,
+            "speaker": "Felix",
+            "text": "Gut. Dann zu dem Menschen hinter dem Gerät: Weiß man etwas über den Konstrukteur?",
+            "fact_ids": [
+              "271920980-0344"
+            ],
+            "statements": [
+              {
+                "text": "Der Mechanismus hatte einen Konstrukteur.",
+                "fact_ids": [
+                  "271920980-0344"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 22,
+            "speaker": "Lena",
+            "text": "Man geht davon aus, dass der Konstrukteur korinthisches Griechisch sprach. Er war also in Korinth oder in einer korinthischen Kolonie wie Syrakus zu Hause.",
+            "fact_ids": [
+              "271920980-0344"
+            ],
+            "statements": [
+              {
+                "text": "Man geht davon aus, dass der Konstrukteur korinthisches Griechisch sprach.",
+                "fact_ids": [
+                  "271920980-0344"
+                ]
+              },
+              {
+                "text": "Er war in Korinth oder in einer korinthischen Kolonie wie Syrakus zu Hause.",
+                "fact_ids": [
+                  "271920980-0344"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 23,
+            "speaker": "Felix",
+            "text": "Aus Korinth oder einer seiner Kolonien also. Kommt für den Konstrukteur damit jemand Bestimmtes infrage?",
+            "fact_ids": [
+              "271920980-0344"
+            ],
+            "statements": [
+              {
+                "text": "Der Konstrukteur war in Korinth oder in einer korinthischen Kolonie zu Hause.",
+                "fact_ids": [
+                  "271920980-0344"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 24,
+            "speaker": "Lena",
+            "text": "Ja, zum Beispiel Archimedes. Er lebte von zweihundertsiebenundachtzig bis zweihundertzwölf vor Christus. Der Konstrukteur kann aber auch ein Schüler von ihm gewesen sein.",
+            "fact_ids": [
+              "271920980-0344"
+            ],
+            "statements": [
+              {
+                "text": "Der Konstrukteur kann zum Beispiel Archimedes gewesen sein.",
+                "fact_ids": [
+                  "271920980-0344"
+                ]
+              },
+              {
+                "text": "Archimedes lebte von zweihundertsiebenundachtzig bis zweihundertzwölf vor Christus.",
+                "fact_ids": [
+                  "271920980-0344"
+                ]
+              },
+              {
+                "text": "Der Konstrukteur kann auch ein Schüler von Archimedes gewesen sein.",
+                "fact_ids": [
+                  "271920980-0344"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 25,
+            "speaker": "Felix",
+            "text": "Archimedes oder ein Schüler von ihm, spannend. Womit hat man in dieser Zeit eigentlich die Bahnen der Himmelskörper konstruiert?",
+            "fact_ids": [
+              "271920980-0344",
+              "271920980-0079"
+            ],
+            "statements": [
+              {
+                "text": "Der Konstrukteur kann Archimedes oder ein Schüler von ihm gewesen sein.",
+                "fact_ids": [
+                  "271920980-0344"
+                ]
+              },
+              {
+                "text": "Es gab Hilfsmittel zur Konstruktion von Bahnen der Himmelskörper.",
+                "fact_ids": [
+                  "271920980-0079"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 26,
+            "speaker": "Lena",
+            "text": "Da gab es die Epizykeltheorie. Sie wurde vermutlich von Apollonios von Perge gegen Ende des dritten Jahrhunderts vor Christus aufgestellt. In der Astronomie war sie fast zweitausend Jahre lang vorherrschend, bis ins siebzehnte Jahrhundert.",
+            "fact_ids": [
+              "268996118-0002"
+            ],
+            "statements": [
+              {
+                "text": "Die Epizykeltheorie wurde vermutlich von Apollonios von Perge gegen Ende des dritten Jahrhunderts vor Christus aufgestellt.",
+                "fact_ids": [
+                  "268996118-0002"
+                ]
+              },
+              {
+                "text": "In der Astronomie war sie fast zweitausend Jahre lang bis ins siebzehnte Jahrhundert vorherrschend.",
+                "fact_ids": [
+                  "268996118-0002"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 27,
+            "speaker": "Felix",
+            "text": "Und der Mechanismus? Steckt in ihm auch so ein Hilfsmittel?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 28,
+            "speaker": "Lena",
+            "text": "Im Mechanismus wurde ein Kurbelschleifen-Getriebe gefunden. Es verwirklicht den Äquanten. Das ist ein weiteres Hilfsmittel zur Konstruktion von Bahnen der Himmelskörper. Bisher wurde es dem später lebenden Ptolemäus zugeschrieben.",
+            "fact_ids": [
+              "271920980-0079"
+            ],
+            "statements": [
+              {
+                "text": "Im Mechanismus von Antikythera wurde ein Kurbelschleifen-Getriebe gefunden.",
+                "fact_ids": [
+                  "271920980-0079"
+                ]
+              },
+              {
+                "text": "Es verwirklicht den Äquanten, ein weiteres Hilfsmittel zur Konstruktion von Bahnen der Himmelskörper.",
+                "fact_ids": [
+                  "271920980-0079"
+                ]
+              },
+              {
+                "text": "Der Äquant wurde bisher dem später lebenden Ptolemäus zugeschrieben.",
+                "fact_ids": [
+                  "271920980-0079"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 29,
+            "speaker": "Felix",
+            "text": "Da steckt ja einiges drin. Stand auf dem Gerät eigentlich auch Text?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 30,
+            "speaker": "Lena",
+            "text": "Ja, aber nur zum Teil erhalten. Von vermuteten etwa fünfzehntausend Buchstaben haben sich rund dreitausend erhalten. Gemeint ist dabei eine Relation zwischen der Fläche des erhaltenen Texts und der mutmaßlichen Fläche des ursprünglich vorhandenen Texts. Zu berücksichtigen ist außerdem: Die griechischen Zahlen werden durch Buchstaben als Ziffern dargestellt.",
+            "fact_ids": [
+              "271920980-0334",
+              "270472542-0000"
+            ],
+            "statements": [
+              {
+                "text": "Von vermuteten etwa fünfzehntausend Buchstaben haben sich rund dreitausend erhalten.",
+                "fact_ids": [
+                  "271920980-0334"
+                ]
+              },
+              {
+                "text": "Das ist eine Relation zwischen der Fläche des erhaltenen Texts und der mutmaßlichen Fläche des ursprünglich vorhandenen Texts.",
+                "fact_ids": [
+                  "271920980-0334"
+                ]
+              },
+              {
+                "text": "Für Zahlen wurden die griechischen Buchstaben der griechischen Zahlschrift benutzt.",
+                "fact_ids": [
+                  "271920980-0334"
+                ]
+              },
+              {
+                "text": "Die griechischen Zahlen werden durch Buchstaben als Ziffern dargestellt.",
+                "fact_ids": [
+                  "270472542-0000"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 31,
+            "speaker": "Felix",
+            "text": "Wenn Zahlen aus Buchstaben bestehen: Wie erkennt man dann beim Lesen, was ein Wort und was eine Zahl ist?",
+            "fact_ids": [
+              "270472542-0000"
+            ],
+            "statements": [
+              {
+                "text": "Die griechischen Zahlen werden durch Buchstaben als Ziffern dargestellt.",
+                "fact_ids": [
+                  "270472542-0000"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 32,
+            "speaker": "Lena",
+            "text": "Es gibt keine Lücken zwischen den einzelnen Worten. Aber es gibt Lücken vor und hinter denjenigen Buchstaben, die als Ziffern dienten.",
+            "fact_ids": [
+              "271920980-0337"
+            ],
+            "statements": [
+              {
+                "text": "Es gibt keine Lücken zwischen den einzelnen Worten.",
+                "fact_ids": [
+                  "271920980-0337"
+                ]
+              },
+              {
+                "text": "Es gibt Lücken vor und hinter denjenigen Buchstaben, die als Ziffern dienten.",
+                "fact_ids": [
+                  "271920980-0337"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 33,
+            "speaker": "Felix",
+            "text": "Aha, die Lücken markieren also die Zahlen. Zurück zu den Anzeigen: Gab es auch etwas für den Mond?",
+            "fact_ids": [
+              "271920980-0337"
+            ],
+            "statements": [
+              {
+                "text": "Lücken vor und hinter Buchstaben kennzeichnen Ziffern.",
+                "fact_ids": [
+                  "271920980-0337"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 34,
+            "speaker": "Lena",
+            "text": "Ein neu entdecktes, vorne vorstehendes kleines Zahnrad und ein halbkugelförmiger Hohlraum führten zu einem Schluss. Auf dem vorderen Mondzeiger hatte sich demnach eine zweifarbige kleine Kugel gedreht. Sie diente zur Anzeige der Mondphasen.",
+            "fact_ids": [
+              "271920980-0150"
+            ],
+            "statements": [
+              {
+                "text": "Ein neu entdecktes, vorne vorstehendes kleines Zahnrad und ein halbkugelförmiger Hohlraum führten zu einem Schluss.",
+                "fact_ids": [
+                  "271920980-0150"
+                ]
+              },
+              {
+                "text": "Auf dem vorderen Mondzeiger hatte sich demnach eine zweifarbige kleine Kugel gedreht.",
+                "fact_ids": [
+                  "271920980-0150"
+                ]
+              },
+              {
+                "text": "Die Kugel diente zur Anzeige der Mondphasen.",
+                "fact_ids": [
+                  "271920980-0150"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 35,
+            "speaker": "Felix",
+            "text": "Eine zweifarbige Kugel am Mondzeiger, wie schön. Gab es noch weitere Zusatzanzeigen?",
+            "fact_ids": [
+              "271920980-0150"
+            ],
+            "statements": [
+              {
+                "text": "Auf dem vorderen Mondzeiger drehte sich eine zweifarbige kleine Kugel.",
+                "fact_ids": [
+                  "271920980-0150"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 36,
+            "speaker": "Lena",
+            "text": "Ja. Es gab eine Zusatzanzeige, die angab, ob die auf der Hauptskala angegebene Tageszeit galt. Oder ob ein Drittel oder zwei Drittel Tage zu addieren waren.",
+            "fact_ids": [
+              "271920980-0374"
+            ],
+            "statements": [
+              {
+                "text": "Es gab eine Zusatzanzeige, die angab, ob die auf der Hauptskala angegebene Tageszeit galt.",
+                "fact_ids": [
+                  "271920980-0374"
+                ]
+              },
+              {
+                "text": "Sie zeigte auch an, ob ein Drittel oder zwei Drittel Tage zu addieren waren.",
+                "fact_ids": [
+                  "271920980-0374"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 37,
+            "speaker": "Felix",
+            "text": "Gab es noch etwas Überraschendes auf den Anzeigen?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 38,
+            "speaker": "Lena",
+            "text": "Überraschend ist auch das: Auf einem geviertelten Kreis waren Panhellenische Wettkampfspiele an sechs Wettkampfstätten vermerkt.",
+            "fact_ids": [
+              "271920980-0301"
+            ],
+            "statements": [
+              {
+                "text": "Auf einem geviertelten Kreis waren Panhellenische Wettkampfspiele an sechs Wettkampfstätten vermerkt.",
+                "fact_ids": [
+                  "271920980-0301"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 39,
+            "speaker": "Felix",
+            "text": "Wettkampfspiele, vermerkt auf einem geviertelten Kreis? Was konnte man bei solchen Spielen eigentlich gewinnen?",
+            "fact_ids": [
+              "271920980-0301"
+            ],
+            "statements": [
+              {
+                "text": "Auf einem geviertelten Kreis waren Panhellenische Wettkampfspiele vermerkt.",
+                "fact_ids": [
+                  "271920980-0301"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 40,
+            "speaker": "Lena",
+            "text": "Ein Wettkämpfer, der während einer Olympiade in einer Sportart an allen vier Hauptkampfstätten siegte, erhielt den Titel Periodonike. Eine Olympiade ist dabei ein Vierjahreszyklus.",
+            "fact_ids": [
+              "269291814-0008"
+            ],
+            "statements": [
+              {
+                "text": "Ein Wettkämpfer, der während einer Olympiade in einer Sportart an allen vier Hauptkampfstätten siegte, erhielt den Titel Periodonike.",
+                "fact_ids": [
+                  "269291814-0008"
+                ]
+              },
+              {
+                "text": "Eine Olympiade ist ein Vierjahreszyklus.",
+                "fact_ids": [
+                  "269291814-0008"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 41,
+            "speaker": "Felix",
+            "text": "Periodonike, noch ein neues Wort. Hat eigentlich schon mal jemand versucht, das Gerät nachzubauen?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 42,
+            "speaker": "Lena",
+            "text": "Ja. Der Youtuber Clickspring arbeitet seit Anfang zweitausendsiebzehn an einem Nachbau des Mechanismus.",
+            "fact_ids": [
+              "271920980-0397"
+            ],
+            "statements": [
+              {
+                "text": "Der Youtuber Clickspring arbeitet seit Anfang zweitausendsiebzehn an einem Nachbau des Mechanismus.",
+                "fact_ids": [
+                  "271920980-0397"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 43,
+            "speaker": "Felix",
+            "text": "Ein Youtuber also. Und die Wirtschaft? Nach der Annahme der Gruppe war der Mechanismus ja ein Luxusobjekt. Hat sich eine Firma davon inspirieren lassen?",
+            "fact_ids": [
+              "271920980-0184"
+            ],
+            "statements": [
+              {
+                "text": "Nach der Annahme einer Gruppe war der Mechanismus ein Luxusobjekt.",
+                "fact_ids": [
+                  "271920980-0184"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 44,
+            "speaker": "Lena",
+            "text": "Ja, die Firma Hublot. Sie ist eine Schweizer Uhrenmanufaktur im Luxussegment mit Hauptsitz in Nyon. Der Name bedeutet auf Französisch Bullauge. Im Oktober zweitausendelf stellte Hublot auf der Messe Belles Montres in Shanghai eine Variante mit modernem Design vor. Sie war eine Hommage an den Mechanismus und diente Werbezwecken.",
+            "fact_ids": [
+              "271920980-0396",
+              "271740181-0008"
+            ],
+            "statements": [
+              {
+                "text": "Hublot ist eine Schweizer Uhrenmanufaktur im Luxussegment mit Hauptsitz in Nyon.",
+                "fact_ids": [
+                  "271740181-0008"
+                ]
+              },
+              {
+                "text": "Der Name Hublot bedeutet auf Französisch Bullauge.",
+                "fact_ids": [
+                  "271740181-0008"
+                ]
+              },
+              {
+                "text": "Hublot stellte im Oktober zweitausendelf auf der Messe Belles Montres in Shanghai eine Variante des Mechanismus mit modernem Design vor.",
+                "fact_ids": [
+                  "271920980-0396"
+                ]
+              },
+              {
+                "text": "Die Variante war eine Hommage an den Mechanismus und diente Werbezwecken.",
+                "fact_ids": [
+                  "271920980-0396"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 45,
+            "speaker": "Felix",
+            "text": "Eine Uhrenmanufaktur als Hommage. Und im Kino? Taucht der Mechanismus dort auch auf?",
+            "fact_ids": [
+              "271920980-0396"
+            ],
+            "statements": [
+              {
+                "text": "Hublot stellte als Hommage an den Mechanismus eine Variante vor.",
+                "fact_ids": [
+                  "271920980-0396"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 46,
+            "speaker": "Lena",
+            "text": "Ja, im Film Indiana Jones und das Rad des Schicksals aus dem Jahr zweitausenddreiundzwanzig. Darin spielt eine fiktive Version des Mechanismus eine tragende Rolle. Der Film ist ein Abenteuerfilm von James Mangold. Er ist der fünfte Teil der Indiana-Jones-Filmreihe.",
+            "fact_ids": [
+              "271920980-0400",
+              "272229103-0015"
+            ],
+            "statements": [
+              {
+                "text": "Im Film Indiana Jones und das Rad des Schicksals aus dem Jahr zweitausenddreiundzwanzig spielt eine fiktive Version des Mechanismus eine tragende Rolle.",
+                "fact_ids": [
+                  "271920980-0400"
+                ]
+              },
+              {
+                "text": "Der Film ist ein Abenteuerfilm von James Mangold.",
+                "fact_ids": [
+                  "272229103-0015"
+                ]
+              },
+              {
+                "text": "Er ist der fünfte Teil der Indiana-Jones-Filmreihe.",
+                "fact_ids": [
+                  "272229103-0015"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 47,
+            "speaker": "Felix",
+            "text": "Vom Klumpen im Wrack bis in den Kinofilm, das ist ein weiter Weg. Fasst du uns das zum Schluss noch einmal kurz zusammen?",
+            "fact_ids": [
+              "271920980-0021",
+              "271920980-0001",
+              "271920980-0400"
+            ],
+            "statements": [
+              {
+                "text": "Der Mechanismus wurde als Klumpen aus Metallteilen geborgen.",
+                "fact_ids": [
+                  "271920980-0021"
+                ]
+              },
+              {
+                "text": "Der Mechanismus lag in einem Schiffswrack.",
+                "fact_ids": [
+                  "271920980-0001"
+                ]
+              },
+              {
+                "text": "In einem Film spielt eine fiktive Version des Mechanismus eine tragende Rolle.",
+                "fact_ids": [
+                  "271920980-0400"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 48,
+            "speaker": "Lena",
+            "text": "Gern. Der Mechanismus von Antikythera ist ein antikes Gerät, das mit Zahnrädern und Zifferblättern astronomisch-kalendarische Zusammenhänge zeigte. Schwammtaucher entdeckten ihn im Jahr neunzehnhundert in einem Schiffswrack. Geborgen wurde er als Klumpen aus zusammenkorrodierten Metallteilen. Dass man in der Antike ein so anspruchsvolles Gerät herstellen konnte, hatte man bis dahin nicht für möglich gehalten. Alle Zähne der Stirnräder sind gleich geformt, sodass jedes Zahnrad in jedes andere eingreifen konnte. Eine Gruppe nimmt an, dass es ein Luxusobjekt für einen reichen Kunden und möglicherweise kein Einzelstück war. Die äußere Ringskala benutzt ägyptische Monatsnamen, ist aber nur in dreihundertvierundfünfzig Abschnitte unterteilt. Man geht davon aus, dass der Konstrukteur korinthisches Griechisch sprach und zum Beispiel Archimedes oder ein Schüler von ihm gewesen sein kann. Im Getriebe steckt der Äquant, der bisher Ptolemäus zugeschrieben wurde. Und der Mechanismus taucht auch heute auf: Clickspring arbeitet an einem Nachbau, Hublot hat eine Hommage vorgestellt, und im Film spielt eine fiktive Version eine tragende Rolle.",
+            "fact_ids": [
+              "271920980-0000",
+              "271920980-0001",
+              "271920980-0021",
+              "271920980-0005",
+              "271920980-0232",
+              "271920980-0184",
+              "271920980-0257",
+              "271920980-0344",
+              "271920980-0079",
+              "271920980-0397",
+              "271920980-0396",
+              "271920980-0400"
+            ],
+            "statements": [
+              {
+                "text": "Der Mechanismus von Antikythera ist ein antikes Gerät, das mit Zahnrädern und Zifferblättern astronomisch-kalendarische Zusammenhänge zeigte.",
+                "fact_ids": [
+                  "271920980-0000"
+                ]
+              },
+              {
+                "text": "Schwammtaucher entdeckten ihn im Jahr neunzehnhundert in einem Schiffswrack.",
+                "fact_ids": [
+                  "271920980-0001"
+                ]
+              },
+              {
+                "text": "Geborgen wurde er als Klumpen aus zusammenkorrodierten Metallteilen.",
+                "fact_ids": [
+                  "271920980-0021"
+                ]
+              },
+              {
+                "text": "Die Herstellung eines so anspruchsvollen Geräts in der Antike war bis dahin nicht für möglich gehalten worden.",
+                "fact_ids": [
+                  "271920980-0005"
+                ]
+              },
+              {
+                "text": "Alle Zähne der Stirnräder sind gleich geformt und gleich hoch, sodass jedes Zahnrad in jedes andere eingreifen konnte.",
+                "fact_ids": [
+                  "271920980-0232"
+                ]
+              },
+              {
+                "text": "Eine Gruppe nimmt an, dass der Mechanismus ein Luxusobjekt für einen reichen Kunden und möglicherweise kein Einzelstück war.",
+                "fact_ids": [
+                  "271920980-0184"
+                ]
+              },
+              {
+                "text": "Die äußere Ringskala benutzt ägyptische Monatsnamen, ist aber nur in dreihundertvierundfünfzig Abschnitte unterteilt.",
+                "fact_ids": [
+                  "271920980-0257"
+                ]
+              },
+              {
+                "text": "Man geht davon aus, dass der Konstrukteur korinthisches Griechisch sprach und zum Beispiel Archimedes oder ein Schüler von ihm gewesen sein kann.",
+                "fact_ids": [
+                  "271920980-0344"
+                ]
+              },
+              {
+                "text": "Im Getriebe steckt der Äquant, der bisher Ptolemäus zugeschrieben wurde.",
+                "fact_ids": [
+                  "271920980-0079"
+                ]
+              },
+              {
+                "text": "Clickspring arbeitet an einem Nachbau des Mechanismus.",
+                "fact_ids": [
+                  "271920980-0397"
+                ]
+              },
+              {
+                "text": "Hublot hat eine Hommage an den Mechanismus vorgestellt.",
+                "fact_ids": [
+                  "271920980-0396"
+                ]
+              },
+              {
+                "text": "Im Film spielt eine fiktive Version des Mechanismus eine tragende Rolle.",
+                "fact_ids": [
+                  "271920980-0400"
+                ]
+              }
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "turn_index": 18,
+            "reason": "Der Fakt 271920980-0257 wurde schon in Redebeitrag 16 und 17 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+          },
+          {
+            "turn_index": 19,
+            "reason": "Der Fakt 271920980-0257 wurde schon in Redebeitrag 16, 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+          },
+          {
+            "turn_index": 23,
+            "reason": "Der Fakt 271920980-0344 wurde schon in Redebeitrag 21 und 22 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+          },
+          {
+            "turn_index": 24,
+            "reason": "Der Fakt 271920980-0344 wurde schon in Redebeitrag 21, 22 und 23 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+          },
+          {
+            "turn_index": 25,
+            "reason": "Der Fakt 271920980-0344 wurde schon in Redebeitrag 21, 22, 23 und 24 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+          },
+          {
+            "turn_index": 43,
+            "reason": "Der Fakt 271920980-0184 wurde schon in Redebeitrag 14 und 15 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+          },
+          {
+            "turn_index": 47,
+            "reason": "Der Fakt 271920980-0021 wurde schon in Redebeitrag 2, 3 und 5 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+          },
+          {
+            "turn_index": 47,
+            "reason": "Der Fakt 271920980-0001 wurde schon in Redebeitrag 0 und 1 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+          }
+        ],
+        "used_fact_ids": [
+          "271920980-0257",
+          "271941466-0003",
+          "271920980-0344",
+          "271920980-0079",
+          "268996118-0002",
+          "271920980-0334",
+          "270472542-0000",
+          "271920980-0337",
+          "271920980-0150",
+          "271920980-0374",
+          "271920980-0301",
+          "269291814-0008",
+          "271920980-0397",
+          "271920980-0184",
+          "271920980-0396",
+          "271740181-0008",
+          "271920980-0400",
+          "272229103-0015",
+          "271920980-0021",
+          "271920980-0001",
+          "271920980-0000",
+          "271920980-0005",
+          "271920980-0232"
+        ]
+      },
+      "judgements": [
+        {
+          "turn_index": 18,
+          "accepted": false,
+          "decided_by": "gate",
+          "jev_p": {},
+          "jev_error": null,
+          "reason": "Der Fakt 271920980-0257 wurde schon in Redebeitrag 16 und 17 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+        },
+        {
+          "turn_index": 19,
+          "accepted": false,
+          "decided_by": "gate",
+          "jev_p": {},
+          "jev_error": null,
+          "reason": "Der Fakt 271920980-0257 wurde schon in Redebeitrag 16, 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+        },
+        {
+          "turn_index": 20,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.98
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 21,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.85
+          },
+          "jev_error": null,
+          "reason": "Felix' Beitrag ist eine Überleitung mit Nachfrage (\"Weiß man etwas über den Konstrukteur?\"). Er enthält keine Behauptung und keine Prämisse, die über das Gesagte hinausgeht; dass es einen Konstrukteur des Geräts gibt, folgt aus dem zitierten Fakt. Damit gilt er als belegfreie Reaktion und ist nicht zu beanstanden."
+        },
+        {
+          "turn_index": 22,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.98
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 23,
+          "accepted": false,
+          "decided_by": "gate",
+          "jev_p": {},
+          "jev_error": null,
+          "reason": "Der Fakt 271920980-0344 wurde schon in Redebeitrag 21 und 22 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+        },
+        {
+          "turn_index": 24,
+          "accepted": false,
+          "decided_by": "gate",
+          "jev_p": {},
+          "jev_error": null,
+          "reason": "Der Fakt 271920980-0344 wurde schon in Redebeitrag 21, 22 und 23 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+        },
+        {
+          "turn_index": 25,
+          "accepted": false,
+          "decided_by": "gate",
+          "jev_p": {},
+          "jev_error": null,
+          "reason": "Der Fakt 271920980-0344 wurde schon in Redebeitrag 21, 22, 23 und 24 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+        },
+        {
+          "turn_index": 26,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.96
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 27,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.9
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag besteht nur aus Nachfragen (\"Und der Mechanismus?\", \"Steckt in ihm auch so ein Hilfsmittel?\"). Das sind belegfreie Reaktionen, und es gibt keine neue Behauptung. Die Prämisse \"auch so ein Hilfsmittel\" greift nur das zuvor Gesagte auf, ohne neue Information zu liefern. Fakt-IDs sind daher nicht nötig."
+        },
+        {
+          "turn_index": 28,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.97,
+            "aussage_2": 0.98,
+            "vollstaendig": 0.95
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 29,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.85
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Behauptung. \"Da steckt ja einiges drin\" ist eine Reaktion bzw. ein Wiederaufgreifen ohne neue Information, und \"Stand auf dem Gerät eigentlich auch Text?\" ist eine Nachfrage, deren Prämisse (es gibt ein Gerät) aus dem Gespräch stammt, aber keine neue Tatsachenbehauptung einführt. Ohne Fakt-IDs ist das zulässig."
+        },
+        {
+          "turn_index": 30,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "aussage_2": 0.98,
+            "aussage_3": 0.99,
+            "vollstaendig": 0.82
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: die rund 3.000 erhaltenen von vermuteten etwa 15.000 Buchstaben und die Erklärung, dass es sich um eine Relation der Flächen handelt (0334), sowie die Darstellung griechischer Zahlen durch Buchstaben als Ziffern (0000). Das einleitende „Ja, aber nur zum Teil erhalten“ ist eine Zusammenfassung dieser Angaben ohne neue Information."
+        },
+        {
+          "turn_index": 31,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.75
+          },
+          "jev_error": null,
+          "reason": "Felix stellt eine Nachfrage. Ihre Prämisse, dass Zahlen aus Buchstaben bestehen, steht als Bedingung („Wenn“) da und deckt sich mit dem Fakt, dass griechische Zahlen durch Buchstaben als Ziffern dargestellt werden. Es kommt keine zusätzliche Behauptung hinzu."
+        },
+        {
+          "turn_index": 32,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "aussage_1": 0.98,
+            "vollstaendig": 0.99
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 33,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.91,
+            "vollstaendig": 0.79
+          },
+          "jev_error": null,
+          "reason": "Felix' Aussage \"die Lücken markieren also die Zahlen\" greift Fakt 0337 ohne neue Information wieder auf: Lücken stehen vor und hinter den Buchstaben, die als Ziffern dienten. Der Rest ist eine Überleitung und eine Nachfrage (\"Gab es auch etwas für den Mond?\"), also belegfrei. Es kommt keine unbelegte Behauptung vor."
+        },
+        {
+          "turn_index": 34,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "aussage_1": 0.98,
+            "aussage_2": 0.99,
+            "vollstaendig": 0.98
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 35,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.88
+          },
+          "jev_error": null,
+          "reason": "Die Aussage über die zweifarbige Kugel am Mondzeiger folgt aus dem Fakt-Satz, der eine zweifarbige kleine Kugel auf dem vorderen Mondzeiger nennt. „Wie schön“ ist eine Reaktion im Moment, und die Frage nach weiteren Zusatzanzeigen ist eine Nachfrage ohne neue Behauptung."
+        },
+        {
+          "turn_index": 36,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.92
+          },
+          "jev_error": null,
+          "reason": "Lenas Aussage über die Zusatzanzeige, die angab, ob die Tageszeit der Hauptskala galt oder ob ein Drittel oder zwei Drittel Tage zu addieren waren, entspricht inhaltlich dem Fakt-Satz 0374. Das einleitende „Ja“ ist eine belegfreie Reaktion, und es kommt keine zusätzliche Angabe hinzu."
+        },
+        {
+          "turn_index": 37,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.89
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Behauptung. Die Frage setzt keine Tatsache voraus, die belegt werden müsste: „etwas Überraschendes auf den Anzeigen“ ist offen formuliert. Als belegfreie Reaktion braucht er keine Fakt-IDs."
+        },
+        {
+          "turn_index": 38,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.77
+          },
+          "jev_error": null,
+          "reason": "Die Behauptung über die sechs Wettkampfstätten auf dem geviertelten Kreis stimmt mit Fakt [271920980-0301] überein. „Überraschend ist auch das“ ist eine Reaktion ohne Faktengehalt und braucht keinen Beleg."
+        },
+        {
+          "turn_index": 39,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.88
+          },
+          "jev_error": null,
+          "reason": "Die Prämisse der Frage (Wettkampfspiele, vermerkt auf einem geviertelten Kreis) folgt aus dem Fakt-Satz 271920980-0301. Der zweite Teil ist eine Nachfrage ohne Behauptung und damit belegfrei."
+        },
+        {
+          "turn_index": 40,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.99
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 41,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.63
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Behauptung. \"Periodonike, noch ein neues Wort\" ist eine Reaktion (Staunen über ein neues Wort, Wiederaufgreifen des Gesagten). \"Hat eigentlich schon mal jemand versucht, das Gerät nachzubauen?\" ist eine Nachfrage. Die Frage setzt nur voraus, dass es ein Gerät gibt, das sich nachbauen ließe, und das hat im Gespräch offenbar schon die Gegenseite genannt. Neue Fakten werden nicht eingeführt, daher sind keine Fakt-IDs nötig."
+        },
+        {
+          "turn_index": 42,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.97
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 43,
+          "accepted": false,
+          "decided_by": "gate",
+          "jev_p": {},
+          "jev_error": null,
+          "reason": "Der Fakt 271920980-0184 wurde schon in Redebeitrag 14 und 15 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+        },
+        {
+          "turn_index": 44,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "aussage_2": 0.99,
+            "aussage_3": 0.99,
+            "vollstaendig": 0.91
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Schweizer Uhrenmanufaktur im Luxussegment mit Hauptsitz in Nyon und die Bedeutung „Bullauge“ (0008) sowie die Vorstellung im Oktober 2011 auf der Messe Belles Montres in Shanghai, die Variante mit modernem Design, die Hommage an den Mechanismus und der Werbezweck (0396). Es wird keine zusätzliche Angabe gemacht. „Ja“ ist eine belegfreie Reaktion."
+        },
+        {
+          "turn_index": 45,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.84
+          },
+          "jev_error": null,
+          "reason": "„Eine Uhrenmanufaktur als Hommage“ greift Hublots Hommage-Variante aus dem Fakt-Satz auf, ohne neue Angaben. „Und im Kino? Taucht der Mechanismus dort auch auf?“ ist eine Nachfrage und eine Überleitung, also belegfrei. Die Frage setzt keine unbelegte Prämisse voraus."
+        },
+        {
+          "turn_index": 46,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.96,
+            "aussage_1": 0.99,
+            "aussage_2": 0.99,
+            "vollstaendig": 0.81
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen folgen aus den zitierten Fakten: Titel und Jahr 2023 sowie die tragende Rolle einer fiktiven Version des Mechanismus stehen in 271920980-0400; Abenteuerfilm, Regisseur James Mangold und fünfter Teil der Reihe stehen in 272229103-0015. Es kommt keine zusätzliche Angabe hinzu."
+        },
+        {
+          "turn_index": 47,
+          "accepted": false,
+          "decided_by": "gate",
+          "jev_p": {},
+          "jev_error": null,
+          "reason": "Der Fakt 271920980-0021 wurde schon in Redebeitrag 2, 3 und 5 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details. Der Fakt 271920980-0001 wurde schon in Redebeitrag 0 und 1 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+        },
+        {
+          "turn_index": 48,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.98,
+            "aussage_2": 0.99,
+            "aussage_3": 0.99,
+            "aussage_4": 0.98,
+            "aussage_5": 0.99,
+            "aussage_6": 0.99,
+            "aussage_7": 0.99,
+            "aussage_8": 0.98,
+            "aussage_9": 0.97,
+            "aussage_10": 0.99,
+            "aussage_11": 0.99,
+            "vollstaendig": 0.73
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen folgen aus den zitierten Fakt-Sätzen: Definition, Entdeckung 1900 durch Schwammtaucher im Wrack, Bergung als korrodierter Klumpen, bisherige Unmöglichkeitsannahme, gleiche Zahnform der Stirnräder, Luxusobjekt-These der Gruppe, 354 statt 365 Abschnitte mit ägyptischen Monatsnamen, korinthisches Griechisch und Archimedes oder Schüler, Äquant und Ptolemäus sowie Clickspring, Hublot und der Film. Es kommt keine zusätzliche Angabe hinzu."
+        }
+      ],
+      "aliases": {
+        "F1": "271920980-0000",
+        "F2": "271920980-0001",
+        "F3": "271920980-0079",
+        "F4": "271920980-0089",
+        "F5": "271920980-0054",
+        "F6": "271920980-0184",
+        "F7": "271920980-0257",
+        "F8": "271920980-0344",
+        "F9": "271920980-0232",
+        "F10": "271920980-0005",
+        "F11": "271920980-0021",
+        "F12": "271920980-0236",
+        "F13": "271920980-0139",
+        "F14": "271920980-0142",
+        "F15": "271920980-0126",
+        "F16": "271920980-0396",
+        "F17": "271920980-0397",
+        "F18": "271920980-0400",
+        "F19": "271920980-0334",
+        "F20": "271920980-0337",
+        "F21": "271920980-0350",
+        "F22": "271920980-0301",
+        "F23": "271920980-0123",
+        "F24": "271920980-0150",
+        "F25": "271920980-0374",
+        "F26": "272229103-0015",
+        "F27": "271740181-0008",
+        "F28": "268996118-0002",
+        "F29": "269291814-0008",
+        "F30": "262830498-0001",
+        "F31": "271941466-0003",
+        "F32": "259618881-0008",
+        "F33": "270472542-0000"
+      },
+      "regeneration": "continuation",
+      "continued_from": 18,
+      "fresh_reason": null,
+      "continuation_reason": "Der Fakt 271920980-0257 wurde schon in Redebeitrag 16 und 17 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+    }
+  ],
+  "aliases": {
+    "F1": "271920980-0000",
+    "F2": "271920980-0001",
+    "F3": "271920980-0079",
+    "F4": "271920980-0089",
+    "F5": "271920980-0054",
+    "F6": "271920980-0184",
+    "F7": "271920980-0257",
+    "F8": "271920980-0344",
+    "F9": "271920980-0232",
+    "F10": "271920980-0005",
+    "F11": "271920980-0021",
+    "F12": "271920980-0236",
+    "F13": "271920980-0139",
+    "F14": "271920980-0142",
+    "F15": "271920980-0126",
+    "F16": "271920980-0396",
+    "F17": "271920980-0397",
+    "F18": "271920980-0400",
+    "F19": "271920980-0334",
+    "F20": "271920980-0337",
+    "F21": "271920980-0350",
+    "F22": "271920980-0301",
+    "F23": "271920980-0123",
+    "F24": "271920980-0150",
+    "F25": "271920980-0374",
+    "F26": "272229103-0015",
+    "F27": "271740181-0008",
+    "F28": "268996118-0002",
+    "F29": "269291814-0008",
+    "F30": "262830498-0001",
+    "F31": "271941466-0003",
+    "F32": "259618881-0008",
+    "F33": "270472542-0000"
+  }
+}
