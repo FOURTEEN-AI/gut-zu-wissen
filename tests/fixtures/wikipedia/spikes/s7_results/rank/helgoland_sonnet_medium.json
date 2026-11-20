@@ -1,0 +1,96 @@
+{
+ "name": "helgoland_sonnet_medium",
+ "article": "helgoland",
+ "model": "claude-sonnet-5-5",
+ "effort": "medium",
+ "summary": {
+  "calls": 2,
+  "errors": 0,
+  "input_tokens": 63436,
+  "output_tokens": 322,
+  "thinking_tokens": 0,
+  "usd_paid": 0.065,
+  "usd_list": 0.1301
+ },
+ "ranked": {
+  "main": [
+   "272085229-0479",
+   "272085229-0146",
+   "272085229-0558",
+   "272085229-0561",
+   "272085229-0413",
+   "272085229-0409",
+   "272085229-0350",
+   "272085229-0455",
+   "272085229-0453",
+   "272085229-0288",
+   "272085229-0292",
+   "272085229-0567",
+   "272085229-0021",
+   "272085229-0023",
+   "272085229-0842",
+   "272085229-0826",
+   "272085229-0254",
+   "272085229-0447",
+   "272085229-0385",
+   "272085229-0730",
+   "272085229-0507",
+   "272085229-0695",
+   "272085229-0696",
+   "272085229-0713",
+   "272085229-0277",
+   "272085229-0194",
+   "272085229-0042",
+   "272085229-0058",
+   "272085229-0785",
+   "272085229-0933",
+   "272085229-0942",
+   "272085229-0926",
+   "272085229-0335",
+   "272085229-0422",
+   "272085229-0844"
+  ],
+  "linked": [
+   "272091002-0001",
+   "272091002-0003",
+   "272091002-0004",
+   "270393785-0001",
+   "270086679-0006",
+   "266510031-0001"
+  ]
+ },
+ "usage": {
+  "main": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 49965,
+   "output_tokens": 266,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "service_tier": "batch",
+   "speed": "standard"
+  },
+  "linked": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 13471,
+   "output_tokens": 56,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "service_tier": "batch",
+   "speed": "standard"
+  }
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "name": "voynich_haiku_low",
+ "article": "voynich",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "summary": {
+  "calls": 2,
+  "errors": 0,
+  "input_tokens": 17028,
+  "output_tokens": 1080,
+  "thinking_tokens": 849,
+  "usd_paid": 0.0011,
+  "usd_list": 0.0022
+ },
+ "ranked": {
+  "main": [
+   "271345560-0054",
+   "271345560-0159",
+   "271345560-0136",
+   "271345560-0223",
+   "271345560-0017",
+   "271345560-0256",
+   "271345560-0100",
+   "271345560-0262",
+   "271345560-0227",
+   "271345560-0170",
+   "271345560-0271",
+   "271345560-0279",
+   "271345560-0281",
+   "271345560-0317",
+   "271345560-0315",
+   "271345560-0278",
+   "271345560-0143",
+   "271345560-0083",
+   "271345560-0025",
+   "271345560-0033",
+   "271345560-0045",
+   "271345560-0152",
+   "271345560-0248",
+   "271345560-0335",
+   "271345560-0337",
+   "271345560-0292"
+  ],
+  "linked": [
+   "272069091-0004",
+   "260419933-0011",
+   "268826227-0004"
+  ]
+ },
+ "usage": {
+  "main": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 14042,
+   "output_tokens": 196,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "service_tier": "batch",
+   "speed": "standard"
+  },
+  "linked": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2986,
+   "output_tokens": 884,
+   "output_tokens_details": {
+    "thinking_tokens": 849
+   },
+   "service_tier": "batch",
+   "speed": "standard"
+  }
+ }
+}

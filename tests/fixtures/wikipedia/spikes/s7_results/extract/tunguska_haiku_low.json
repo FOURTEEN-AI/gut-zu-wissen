@@ -1,0 +1,3800 @@
+{
+ "name": "tunguska_haiku_low",
+ "article": "tunguska",
+ "model": "claude-haiku-5-5",
+ "effort": "low",
+ "summary": {
+  "calls": 43,
+  "errors": 0,
+  "input_tokens": 72673,
+  "output_tokens": 16116,
+  "thinking_tokens": 9854,
+  "usd_paid": 0.0077,
+  "usd_list": 0.0153
+ },
+ "sources": [
+  {
+   "source": "main",
+   "calls": 14,
+   "errors": 0,
+   "proposed": [
+    "270155664-0000",
+    "270155664-0002",
+    "270155664-0003",
+    "270155664-0004",
+    "270155664-0005",
+    "270155664-0006",
+    "270155664-0007",
+    "270155664-0008",
+    "270155664-0009",
+    "270155664-0011",
+    "270155664-0012",
+    "270155664-0013",
+    "270155664-0014",
+    "270155664-0015",
+    "270155664-0017",
+    "270155664-0018",
+    "270155664-0019",
+    "270155664-0020",
+    "270155664-0021",
+    "270155664-0022",
+    "270155664-0024",
+    "270155664-0029",
+    "270155664-0032",
+    "270155664-0033",
+    "270155664-0034",
+    "270155664-0036",
+    "270155664-0037",
+    "270155664-0038",
+    "270155664-0039",
+    "270155664-0040",
+    "270155664-0041",
+    "270155664-0044",
+    "270155664-0045",
+    "270155664-0047",
+    "270155664-0048",
+    "270155664-0049",
+    "270155664-0050",
+    "270155664-0052",
+    "270155664-0053",
+    "270155664-0056",
+    "270155664-0057",
+    "270155664-0058",
+    "270155664-0059",
+    "270155664-0061",
+    "270155664-0062",
+    "270155664-0063",
+    "270155664-0064",
+    "270155664-0065",
+    "270155664-0066",
+    "270155664-0067",
+    "270155664-0068",
+    "270155664-0071",
+    "270155664-0072",
+    "270155664-0073",
+    "270155664-0074",
+    "270155664-0075",
+    "270155664-0077",
+    "270155664-0079",
+    "270155664-0080",
+    "270155664-0081",
+    "270155664-0082",
+    "270155664-0083",
+    "270155664-0084",
+    "270155664-0085",
+    "270155664-0086",
+    "270155664-0087",
+    "270155664-0088",
+    "270155664-0089",
+    "270155664-0090",
+    "270155664-0091",
+    "270155664-0092",
+    "270155664-0094",
+    "270155664-0095",
+    "270155664-0096",
+    "270155664-0097",
+    "270155664-0098",
+    "270155664-0099",
+    "270155664-0100",
+    "270155664-0101",
+    "270155664-0102",
+    "270155664-0103",
+    "270155664-0104",
+    "270155664-0105",
+    "270155664-0060"
+   ],
+   "facts": [
+    "270155664-0000",
+    "270155664-0002",
+    "270155664-0003",
+    "270155664-0004",
+    "270155664-0005",
+    "270155664-0006",
+    "270155664-0007",
+    "270155664-0008",
+    "270155664-0009",
+    "270155664-0011",
+    "270155664-0012",
+    "270155664-0013",
+    "270155664-0014",
+    "270155664-0015",
+    "270155664-0017",
+    "270155664-0018",
+    "270155664-0019",
+    "270155664-0020",
+    "270155664-0021",
+    "270155664-0022",
+    "270155664-0024",
+    "270155664-0029",
+    "270155664-0032",
+    "270155664-0033",
+    "270155664-0034",
+    "270155664-0036",
+    "270155664-0037",
+    "270155664-0038",
+    "270155664-0039",
+    "270155664-0040",
+    "270155664-0041",
+    "270155664-0044",
+    "270155664-0045",
+    "270155664-0047",
+    "270155664-0048",
+    "270155664-0049",
+    "270155664-0050",
+    "270155664-0052",
+    "270155664-0053",
+    "270155664-0056",
+    "270155664-0057",
+    "270155664-0058",
+    "270155664-0059",
+    "270155664-0061",
+    "270155664-0062",
+    "270155664-0063",
+    "270155664-0064",
+    "270155664-0065",
+    "270155664-0066",
+    "270155664-0067",
+    "270155664-0068",
+    "270155664-0071",
+    "270155664-0072",
+    "270155664-0073",
+    "270155664-0074",
+    "270155664-0075",
+    "270155664-0077",
+    "270155664-0079",
+    "270155664-0080",
+    "270155664-0081",
+    "270155664-0082",
+    "270155664-0083",
+    "270155664-0084",
+    "270155664-0085",
+    "270155664-0086",
+    "270155664-0087",
+    "270155664-0088",
+    "270155664-0089",
+    "270155664-0090",
+    "270155664-0091",
+    "270155664-0092",
+    "270155664-0094",
+    "270155664-0095",
+    "270155664-0096",
+    "270155664-0097",
+    "270155664-0098",
+    "270155664-0099",
+    "270155664-0100",
+    "270155664-0101",
+    "270155664-0102",
+    "270155664-0103",
+    "270155664-0104",
+    "270155664-0105"
+   ],
+   "extraction": {
+    "revid": 270155664,
+    "chunk_count": 14,
+    "facts": [
+     {
+      "segment_id": "270155664-0000",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Das Tunguska-Ereignis bestand aus einer oder mehreren sehr großen Explosionen (daher auch Tunguska-Explosion) am 30. Juni 1908 im sibirischen Gouvernement Jenisseisk, der heutigen Region Krasnojarsk, deren Ursache sich bisher nicht zweifelsfrei klären ließ.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "270155664-0001"
+      ],
+      "plain": "Als wahrscheinlichste Ursache gilt der Eintritt eines Asteroiden, des nach der Region benannten Tunguska-Asteroiden, oder eines kleinen Kometen in die Erdatmosphäre, wo er in einigen Kilometern Höhe explodierte.",
+      "context_plain": [
+       "Das Ereignis fand in der Nähe des Flusses Steinige Tunguska (Podkamennaja Tunguska) im Siedlungsgebiet der Ewenken statt."
+      ]
+     },
+     {
+      "segment_id": "270155664-0003",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "270155664-0002"
+      ],
+      "plain": "Nach neueren Erkenntnissen ist auch eine vulkanische Eruption nicht auszuschließen.",
+      "context_plain": [
+       "Als wahrscheinlichste Ursache gilt der Eintritt eines Asteroiden, des nach der Region benannten Tunguska-Asteroiden, oder eines kleinen Kometen in die Erdatmosphäre, wo er in einigen Kilometern Höhe explodierte."
+      ]
+     },
+     {
+      "segment_id": "270155664-0004",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [],
+      "plain": "Die meisten Augenzeugen berichten von einer Explosion am 17. Junijul. / 30. Juni 1908greg. gegen 7:15 Uhr, einige jedoch auch von mehreren bis hin zu vierzehn Explosionen.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0005",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [
+       "270155664-0004"
+      ],
+      "plain": "Es wird dazu berichtet, dass das Phänomen eine Zeit lang andauerte, sodass auch der Eindruck einer Flugbahn eines hellen Körpers entstand.",
+      "context_plain": [
+       "Die meisten Augenzeugen berichten von einer Explosion am 17. Junijul. / 30. Juni 1908greg. gegen 7:15 Uhr, einige jedoch auch von mehreren bis hin zu vierzehn Explosionen."
+      ]
+     },
+     {
+      "segment_id": "270155664-0006",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [],
+      "plain": "Bei dem Ereignis wurden Bäume bis in etwa 30 Kilometer Entfernung entwurzelt und Fenster und Türen in der 65 Kilometer entfernten Handelssiedlung Wanawara eingedrückt.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0007",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [],
+      "plain": "Experten schätzen, dass auf einem Gebiet von über 2000 km² rund 60 Millionen Bäume umgeknickt wurden.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0008",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [],
+      "plain": "Noch in über 500 Kilometern Entfernung wurden ein heller Feuerschein, eine starke Erschütterung, eine Druckwelle und ein Donnergeräusch wahrgenommen, unter anderem von Reisenden der Transsibirischen Eisenbahn.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0009",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [],
+      "plain": "Die Einwohner des Ortes Kirensk, 450 km vom Ereignisort entfernt, sahen eine Fontäne aufsteigen, wobei die Höhe der Fontäne auf mindestens 20 km geschätzt wird.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0011",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [],
+      "plain": "Je nach Quelle werden getötete Rentiere und keine oder bis zu zwei menschliche Opfer genannt.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0012",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [],
+      "plain": "In allen meteorologischen Stationen Europas und Nordamerikas registrierten die Seismographen die Erschütterung der Erdrinde.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0013",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [],
+      "plain": "Die sich mit Schallgeschwindigkeit ausbreitende Druckwelle erreichte das 970 km entfernte Irkutsk in einer Stunde, das 5000 Kilometer entfernte Potsdam nach 4 Stunden, 42 Minuten und Washington, D.C. nach 8 Stunden.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0014",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [
+       "270155664-0013"
+      ],
+      "plain": "Die Messgeräte in Potsdam empfingen die Signale nach 30 Stunden und 29 Minuten ein zweites Mal, nachdem sie die Erde einmal umrundet hatten.",
+      "context_plain": [
+       "Die sich mit Schallgeschwindigkeit ausbreitende Druckwelle erreichte das 970 km entfernte Irkutsk in einer Stunde, das 5000 Kilometer entfernte Potsdam nach 4 Stunden, 42 Minuten und Washington, D.C. nach 8 Stunden."
+      ]
+     },
+     {
+      "segment_id": "270155664-0015",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [],
+      "plain": "Während der folgenden Nächte zeigten sich über den mittleren Breiten Europas silbern leuchtende Wolken von außergewöhnlichem Glanz.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0017",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [],
+      "plain": "Trotz dieser vielfältigen Auswirkungen fand das Ereignis unter Wissenschaftlern wenig Beachtung, was wohl auch den noch in den Anfängen befindlichen Kommunikationsmöglichkeiten des frühen 20. Jahrhunderts geschuldet ist.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0018",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [],
+      "plain": "Der russische Mineraloge Leonid Kulik sammelte auf einer Expedition 1921/1922 erste Informationen, gelangte aber nur bis Kansk in 600 Kilometern Entfernung vom Explosionsort.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0019",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [
+       "270155664-0018"
+      ],
+      "plain": "Erst 1927 konnte eine größere Expedition der Sowjetischen Akademie der Wissenschaften unter Leitung von Kulik bis zum verwüsteten Gebiet vordringen.",
+      "context_plain": [
+       "Der russische Mineraloge Leonid Kulik sammelte auf einer Expedition 1921/1922 erste Informationen, gelangte aber nur bis Kansk in 600 Kilometern Entfernung vom Explosionsort."
+      ]
+     },
+     {
+      "segment_id": "270155664-0020",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [
+       "270155664-0019"
+      ],
+      "plain": "Sie fanden ein etwa 25 km im Durchmesser messendes Gebiet mit großen Verwüstungen.",
+      "context_plain": [
+       "Erst 1927 konnte eine größere Expedition der Sowjetischen Akademie der Wissenschaften unter Leitung von Kulik bis zum verwüsteten Gebiet vordringen."
+      ]
+     },
+     {
+      "segment_id": "270155664-0021",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [
+       "270155664-0020"
+      ],
+      "plain": "Große, starke, meist hundertjährige Bäume waren entwurzelt worden, ihre Baumkronen zeigten vom Einschlagsort weg.",
+      "context_plain": [
+       "Sie fanden ein etwa 25 km im Durchmesser messendes Gebiet mit großen Verwüstungen."
+      ]
+     },
+     {
+      "segment_id": "270155664-0022",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [],
+      "plain": "Die Besatzung des Luftschiffes Graf Zeppelin suchte bei dessen Erdumrundung im August 1929 vergeblich nach einem Krater.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0024",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [
+       "270155664-0023"
+      ],
+      "plain": "Die aus einem Flugzeug aufgenommenen Fotos zeigten zwei Einschlagsorte im zerstörten Wald und bestätigten die Fallrichtung der Bäume.",
+      "context_plain": [
+       "In den Jahren 1937/1938 veranlasste Kulik Luftbildaufnahmen der Region."
+      ]
+     },
+     {
+      "segment_id": "270155664-0029",
+      "type": "sentence",
+      "section": "Ablauf",
+      "context_ids": [
+       "270155664-0028"
+      ],
+      "plain": "Auch geschmolzene Quarzstücke wurden dem Boden entnommen, in denen Nickel-Eisen-Verbindungen nachgewiesen wurden.",
+      "context_plain": [
+       "Kulik fand in Torfschichten, die den Sumpf bedeckten, feinste Gesteinstrümmer, deren Alter oder Herkunft aber nicht genauer bestimmt werden konnten."
+      ]
+     },
+     {
+      "segment_id": "270155664-0032",
+      "type": "sentence",
+      "section": "Stärke",
+      "context_ids": [
+       "270155664-0031"
+      ],
+      "plain": "Sie gingen noch in den 1980er Jahren von bis zu 50 Megatonnen TNT aus.",
+      "context_plain": [
+       "Die Schätzungen über die Sprengkraft variieren stark."
+      ]
+     },
+     {
+      "segment_id": "270155664-0033",
+      "type": "sentence",
+      "section": "Stärke",
+      "context_ids": [
+       "270155664-0032"
+      ],
+      "plain": "Jüngere Berechnungen gehen von einer mit 2 bis 4, maximal 5 Megatonnen TNT vergleichbaren Sprengwirkung aus.",
+      "context_plain": [
+       "Sie gingen noch in den 1980er Jahren von bis zu 50 Megatonnen TNT aus."
+      ]
+     },
+     {
+      "segment_id": "270155664-0034",
+      "type": "sentence",
+      "section": "Stärke",
+      "context_ids": [
+       "270155664-0033"
+      ],
+      "plain": "Grund dafür könnte ein mächtiger heißer Luftstrahl gewesen sein, der nach der Explosion eines Kometen in der Höhe dessen Weg zum Boden fortsetzt und dort eine stärkere Druckwelle und höhere Temperaturen hervorrufen würde.",
+      "context_plain": [
+       "Jüngere Berechnungen gehen von einer mit 2 bis 4, maximal 5 Megatonnen TNT vergleichbaren Sprengwirkung aus."
+      ]
+     },
+     {
+      "segment_id": "270155664-0036",
+      "type": "sentence",
+      "section": "Einschlaghypothesen",
+      "context_ids": [
+       "270155664-0035"
+      ],
+      "plain": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen von geringer Dichte und einem Durchmesser von 30 bis 80 Metern, der etwa 5 bis 14 Kilometer über dem Boden explodierte und daher keinen Krater verursachte.",
+      "context_plain": [
+       "Die Ursache des Ereignisses ist bis heute ungeklärt."
+      ]
+     },
+     {
+      "segment_id": "270155664-0037",
+      "type": "sentence",
+      "section": "Einschlaghypothesen",
+      "context_ids": [],
+      "plain": "1978 stellte der slowakische Astronom Ľubor Kresák die These auf, dass das Tunguska-Ereignis durch ein Fragment des periodischen Kometen Encke ausgelöst worden sein könnte.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0038",
+      "type": "sentence",
+      "section": "Einschlaghypothesen",
+      "context_ids": [
+       "270155664-0037"
+      ],
+      "plain": "Modellrechnungen ergaben jedoch, dass Kometen bereits weiter oben in der Atmosphäre verpuffen.",
+      "context_plain": [
+       "1978 stellte der slowakische Astronom Ľubor Kresák die These auf, dass das Tunguska-Ereignis durch ein Fragment des periodischen Kometen Encke ausgelöst worden sein könnte."
+      ]
+     },
+     {
+      "segment_id": "270155664-0039",
+      "type": "sentence",
+      "section": "Einschlaghypothesen",
+      "context_ids": [],
+      "plain": "Eisenmeteoroide gelangen im Gegensatz zu Steinmeteoroiden beim Durchfliegen der Erdatmosphäre unversehrter und häufiger bis zur Erdoberfläche.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0040",
+      "type": "sentence",
+      "section": "Einschlaghypothesen",
+      "context_ids": [
+       "270155664-0039"
+      ],
+      "plain": "Sie können zwar zerfallen, rufen jedoch keine derart explosionsartige Erscheinung hervor.",
+      "context_plain": [
+       "Eisenmeteoroide gelangen im Gegensatz zu Steinmeteoroiden beim Durchfliegen der Erdatmosphäre unversehrter und häufiger bis zur Erdoberfläche."
+      ]
+     },
+     {
+      "segment_id": "270155664-0041",
+      "type": "sentence",
+      "section": "Einschlaghypothesen",
+      "context_ids": [],
+      "plain": "Bis heute wurden keine mit bloßem Auge sichtbaren Bruchstücke eines eingeschlagenen Himmelskörpers (Impaktors) gefunden.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0044",
+      "type": "sentence",
+      "section": "Einschlaghypothesen",
+      "context_ids": [
+       "270155664-0043"
+      ],
+      "plain": "Gefunden wurden winzige Partikel, Diamantstaub, Graphitsplitter und geschmolzene Eisen- und Nickelkörnchen.",
+      "context_plain": [
+       "Die Suche nach mikroskopisch kleinen staubförmigen Überbleibseln des Impaktors oder chemischen und isotopischen Anomalien, wie sie bei Eintritt außerirdischen Materials zu erwarten wären, erbrachte bisher nur geringe Erfolge."
+      ]
+     },
+     {
+      "segment_id": "270155664-0045",
+      "type": "sentence",
+      "section": "Einschlaghypothesen",
+      "context_ids": [],
+      "plain": "Nach theoretischen Abschätzungen der möglichen Bahnen des Tunguska-Boliden ist ein Steinasteroid am wahrscheinlichsten, obwohl auch hier ein Komet nicht vollständig ausgeschlossen wird.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0047",
+      "type": "sentence",
+      "section": "Einschlaghypothesen",
+      "context_ids": [],
+      "plain": "Im Juni 2007 veröffentlichte eine italienische Forschergruppe nach einer Expedition unter Leitung des Meeresgeologen Luca Gasperini in der Online-Zeitschrift Terra Nova ihre Vermutung, dass es sich beim Tscheko-See um den Krater eines Impaktors handle.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0048",
+      "type": "sentence",
+      "section": "Einschlaghypothesen",
+      "context_ids": [
+       "270155664-0047"
+      ],
+      "plain": "Der See liegt ca. 8 Kilometer nördlich des Epizentrums und könnte von einem Bruchstück des ursprünglichen Boliden herrühren.",
+      "context_plain": [
+       "Im Juni 2007 veröffentlichte eine italienische Forschergruppe nach einer Expedition unter Leitung des Meeresgeologen Luca Gasperini in der Online-Zeitschrift Terra Nova ihre Vermutung, dass es sich beim Tscheko-See um den Krater eines Impaktors handle."
+      ]
+     },
+     {
+      "segment_id": "270155664-0049",
+      "type": "sentence",
+      "section": "Einschlaghypothesen",
+      "context_ids": [
+       "270155664-0048"
+      ],
+      "plain": "Russische Wissenschaftler haben im Januar 2017 die Theorie, dass der Tscheko-See der Krater des Tunguska-Ereignisses ist, vielleicht widerlegt, da er ihren Untersuchungen zufolge bereits vor über 280 Jahren entstanden sein dürfte.",
+      "context_plain": [
+       "Der See liegt ca. 8 Kilometer nördlich des Epizentrums und könnte von einem Bruchstück des ursprünglichen Boliden herrühren."
+      ]
+     },
+     {
+      "segment_id": "270155664-0050",
+      "type": "sentence",
+      "section": "Einschlaghypothesen",
+      "context_ids": [],
+      "plain": "Nur wenige Stunden nach dem Tunguska-Ereignis wurde in einem ukrainischen Dorf in der Umgebung von Kiew ein Meteoritenfall beobachtet.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0052",
+      "type": "sentence",
+      "section": "Einschlaghypothesen",
+      "context_ids": [
+       "270155664-0051"
+      ],
+      "plain": "Messungen des Bestrahlungsalters von Kagarlyk ergaben jedoch einen für L6-Chondrite sehr typischen Wert von 16,2 Millionen Jahren.",
+      "context_plain": [
+       "Zwischen dem aufgefundenen Meteoriten (L6-Chondrit von 1,9 kg, nach seinem Fundort Kagarlyk benannt) und dem Tunguska-Ereignis wurde wegen des ansonsten unwahrscheinlichen zeitlichen Aufeinandertreffens ein Zusammenhang vorgeschlagen."
+      ]
+     },
+     {
+      "segment_id": "270155664-0053",
+      "type": "sentence",
+      "section": "Einschlaghypothesen",
+      "context_ids": [
+       "270155664-0052"
+      ],
+      "plain": "Demnach ist es unwahrscheinlich, dass Kagarlyk sich erst kurz vor der Explosion vom Tunguska-Objekt abgespalten hat, wie Steel angenommen hatte; Kagarlyk scheint eher die gleiche Herkunft zu haben wie die anderen L6-Chondrite.",
+      "context_plain": [
+       "Messungen des Bestrahlungsalters von Kagarlyk ergaben jedoch einen für L6-Chondrite sehr typischen Wert von 16,2 Millionen Jahren."
+      ]
+     },
+     {
+      "segment_id": "270155664-0056",
+      "type": "sentence",
+      "section": "Geophysikalische Hypothesen",
+      "context_ids": [],
+      "plain": "Der sowjetische Wissenschaftler Andrei Olchowatow favorisierte Ende der 1980er Jahre eine rein geophysikalische Deutung des Tunguska-Ereignisses.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0057",
+      "type": "sentence",
+      "section": "Geophysikalische Hypothesen",
+      "context_ids": [
+       "270155664-0056"
+      ],
+      "plain": "Ihm folgte der deutsche Astrophysiker Wolfgang Kundt, der die These vertrat, dass es sich um einen vulkanähnlichen Ausbruch gehandelt habe.",
+      "context_plain": [
+       "Der sowjetische Wissenschaftler Andrei Olchowatow favorisierte Ende der 1980er Jahre eine rein geophysikalische Deutung des Tunguska-Ereignisses."
+      ]
+     },
+     {
+      "segment_id": "270155664-0058",
+      "type": "sentence",
+      "section": "Geophysikalische Hypothesen",
+      "context_ids": [
+       "270155664-0057"
+      ],
+      "plain": "Demnach wäre das Ereignis als Explosion von 10 Millionen Tonnen Erdgas zu erklären, das über Risse aus einem unterirdischen natürlichen Erdgaslager unter hohem Druck entwich, bis in hohe Atmosphärenschichten mit hoher Geschwindigkeit aufstieg, sich durch Reibungselektrizität entzündete und in einer Flammenfront bis hinunter zur Austrittsstelle abbrannte.",
+      "context_plain": [
+       "Ihm folgte der deutsche Astrophysiker Wolfgang Kundt, der die These vertrat, dass es sich um einen vulkanähnlichen Ausbruch gehandelt habe."
+      ]
+     },
+     {
+      "segment_id": "270155664-0059",
+      "type": "sentence",
+      "section": "Geophysikalische Hypothesen",
+      "context_ids": [
+       "270155664-0058"
+      ],
+      "plain": "Dies würde die von Zeugen berichteten verschiedenen Bewegungsrichtungen der hellen Leuchterscheinung erklären.",
+      "context_plain": [
+       "Demnach wäre das Ereignis als Explosion von 10 Millionen Tonnen Erdgas zu erklären, das über Risse aus einem unterirdischen natürlichen Erdgaslager unter hohem Druck entwich, bis in hohe Atmosphärenschichten mit hoher Geschwindigkeit aufstieg, sich durch Reibungselektrizität entzündete und in einer Flammenfront bis hinunter zur Austrittsstelle abbrannte."
+      ]
+     },
+     {
+      "segment_id": "270155664-0061",
+      "type": "sentence",
+      "section": "Geophysikalische Hypothesen",
+      "context_ids": [],
+      "plain": "Es wird ebenfalls berichtet, dass es in den Tagen nach dem Ereignis in Europa und Asien ungewöhnlich helle Nachthimmel gab.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0062",
+      "type": "sentence",
+      "section": "Geophysikalische Hypothesen",
+      "context_ids": [
+       "270155664-0061"
+      ],
+      "plain": "So war es in London zum Beispiel möglich, eine Zeitung in diesem Licht zu lesen.",
+      "context_plain": [
+       "Es wird ebenfalls berichtet, dass es in den Tagen nach dem Ereignis in Europa und Asien ungewöhnlich helle Nachthimmel gab."
+      ]
+     },
+     {
+      "segment_id": "270155664-0063",
+      "type": "sentence",
+      "section": "Geophysikalische Hypothesen",
+      "context_ids": [
+       "270155664-0060",
+       "270155664-0061",
+       "270155664-0062"
+      ],
+      "plain": "Allerdings kann diese Theorie nicht so leicht die Helligkeit der Explosion erklären, da die Leuchtdichte eines in Luftsauerstoff brennenden Gases kaum größer als die einer Kerzenflamme ist und es keine derart intensive Wärmestrahlung aussendet, wie sie tatsächlich von vielen Menschen wahrgenommen wurde.",
+      "context_plain": [
+       "Auch ein leichtes Erdbeben und merkwürdige atmosphärische Leuchterscheinungen, die in den Tagen vor der Explosion beobachtet wurden, könnten damit in Zusammenhang stehen.",
+       "Es wird ebenfalls berichtet, dass es in den Tagen nach dem Ereignis in Europa und Asien ungewöhnlich helle Nachthimmel gab.",
+       "So war es in London zum Beispiel möglich, eine Zeitung in diesem Licht zu lesen."
+      ]
+     },
+     {
+      "segment_id": "270155664-0064",
+      "type": "sentence",
+      "section": "Geophysikalische Hypothesen",
+      "context_ids": [
+       "270155664-0063"
+      ],
+      "plain": "Daher erfordert eine Gasverbrennung ein sehr großes Flammenvolumen, um die im 65 Kilometer entfernten Wanawara beobachtete Licht- und Wärmestrahlung zu erklären.",
+      "context_plain": [
+       "Allerdings kann diese Theorie nicht so leicht die Helligkeit der Explosion erklären, da die Leuchtdichte eines in Luftsauerstoff brennenden Gases kaum größer als die einer Kerzenflamme ist und es keine derart intensive Wärmestrahlung aussendet, wie sie tatsächlich von vielen Menschen wahrgenommen wurde."
+      ]
+     },
+     {
+      "segment_id": "270155664-0065",
+      "type": "sentence",
+      "section": "Geophysikalische Hypothesen",
+      "context_ids": [],
+      "plain": "Eine weitere Hypothese ist, dass es sich beim Tunguska-Ereignis um ein jüngeres Verneshot-Ereignis (eine vulkanische Eruption, die durch massiven Druckaufbau von Gas unterhalb der Erdkruste eines Kratons entsteht) handelte.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0066",
+      "type": "sentence",
+      "section": "Geophysikalische Hypothesen",
+      "context_ids": [
+       "270155664-0065"
+      ],
+      "plain": "Der Ort, an dem das Ereignis stattfand, befindet sich inmitten des Sibirischen Trapps, eines großen Gebietes magmatischen Gesteins, das sich um die Wende vom Perm zur Trias gebildet hat (zu diesem Zeitpunkt vor rund 252 Millionen Jahren fand das größte bekannte Massenaussterben der Erdgeschichte statt, bei dem 75 % der an Land lebenden und 95 % der marinen Wirbellosen ausstarben, siehe Perm-Trias-Grenze).",
+      "context_plain": [
+       "Eine weitere Hypothese ist, dass es sich beim Tunguska-Ereignis um ein jüngeres Verneshot-Ereignis (eine vulkanische Eruption, die durch massiven Druckaufbau von Gas unterhalb der Erdkruste eines Kratons entsteht) handelte."
+      ]
+     },
+     {
+      "segment_id": "270155664-0067",
+      "type": "sentence",
+      "section": "Geophysikalische Hypothesen",
+      "context_ids": [
+       "270155664-0066"
+      ],
+      "plain": "Jüngere Arbeiten vermuten eine zirkuläre Senke unterhalb des Trapps, was gemäß der Hypothese eine Voraussetzung für die Entstehung eines Verneshots wäre.",
+      "context_plain": [
+       "Der Ort, an dem das Ereignis stattfand, befindet sich inmitten des Sibirischen Trapps, eines großen Gebietes magmatischen Gesteins, das sich um die Wende vom Perm zur Trias gebildet hat (zu diesem Zeitpunkt vor rund 252 Millionen Jahren fand das größte bekannte Massenaussterben der Erdgeschichte statt, bei dem 75 % der an Land lebenden und 95 % der marinen Wirbellosen ausstarben, siehe Perm-Trias-Grenze)."
+      ]
+     },
+     {
+      "segment_id": "270155664-0068",
+      "type": "sentence",
+      "section": "Geophysikalische Hypothesen",
+      "context_ids": [
+       "270155664-0067"
+      ],
+      "plain": "Gemäß dem Verneshot-Modell würde die kratonische Erdkruste unterhalb dieser Region einen Schwachpunkt bilden, der die Entstehung einer Kimberlitröhre – die auch tatsächlich an anderen Orten Mittelsibiriens gefunden wurden – oder aber eines Mikro-Verneshots ermöglichen, also eines Ausbruchs vulkanischen Gases, das sich anschließend in der Atmosphäre entzündete.",
+      "context_plain": [
+       "Jüngere Arbeiten vermuten eine zirkuläre Senke unterhalb des Trapps, was gemäß der Hypothese eine Voraussetzung für die Entstehung eines Verneshots wäre."
+      ]
+     },
+     {
+      "segment_id": "270155664-0071",
+      "type": "sentence",
+      "section": "Außenseiterhypothesen",
+      "context_ids": [
+       "270155664-0070"
+      ],
+      "plain": "So wurden unter anderem der Einschlag eines kleinen Schwarzen Loches, der Absturz eines extraterrestrischen Raumschiffs oder eine Explosion der dort zahlreich vorkommenden Mücken, vergleichbar einer Staubexplosion, die „Mückenexplosion“, für das Ereignis verantwortlich gemacht.",
+      "context_plain": [
+       "Da nach über einhundert Jahren keine gesicherte Erklärung zur Ursache existiert, halten sich auch etliche exotische Hypothesen, die keine wissenschaftliche Anerkennung gefunden haben."
+      ]
+     },
+     {
+      "segment_id": "270155664-0072",
+      "type": "sentence",
+      "section": "Außenseiterhypothesen",
+      "context_ids": [
+       "270155664-0071"
+      ],
+      "plain": "Eine andere Theorie bringt das Tunguska-Ereignis mit den Experimenten zur Hochfrequenz-Energieübertragung von Nikola Tesla in Verbindung.",
+      "context_plain": [
+       "So wurden unter anderem der Einschlag eines kleinen Schwarzen Loches, der Absturz eines extraterrestrischen Raumschiffs oder eine Explosion der dort zahlreich vorkommenden Mücken, vergleichbar einer Staubexplosion, die „Mückenexplosion“, für das Ereignis verantwortlich gemacht."
+      ]
+     },
+     {
+      "segment_id": "270155664-0073",
+      "type": "sentence",
+      "section": "Außenseiterhypothesen",
+      "context_ids": [
+       "270155664-0072"
+      ],
+      "plain": "Dieser experimentierte seit 1898 an einem Verfahren zur drahtlosen Energieübertragung durch die Ionosphäre.",
+      "context_plain": [
+       "Eine andere Theorie bringt das Tunguska-Ereignis mit den Experimenten zur Hochfrequenz-Energieübertragung von Nikola Tesla in Verbindung."
+      ]
+     },
+     {
+      "segment_id": "270155664-0074",
+      "type": "sentence",
+      "section": "Außenseiterhypothesen",
+      "context_ids": [
+       "270155664-0073"
+      ],
+      "plain": "Hierfür verwendete er zur Zeit des Ereignisses im Jahr 1908 die dafür 1901 eigens errichtete Experimentalanlage des Wardenclyffe Tower auf Long Island, USA.",
+      "context_plain": [
+       "Dieser experimentierte seit 1898 an einem Verfahren zur drahtlosen Energieübertragung durch die Ionosphäre."
+      ]
+     },
+     {
+      "segment_id": "270155664-0075",
+      "type": "sentence",
+      "section": "Außenseiterhypothesen",
+      "context_ids": [],
+      "plain": "Nach einer anderen Theorie des Teilchenphysikers Robert Foot von der Universität Melbourne könnte es sich auch um eine Kollision der Erde mit einem Weltraumkörper aus Spiegelmaterie (mirror matter; eine hypothetische Materieform, aus der z. B. die Dunkle Materie bestehen könnte) gehandelt haben.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0077",
+      "type": "sentence",
+      "section": "Romane und Erzählungen",
+      "context_ids": [],
+      "plain": "1908: Georg Heym bezog sich auf das Tunguska-Ereignis als Apokalypse in seinem Tagebuch und dem Gedicht Den Wolken I.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0079",
+      "type": "sentence",
+      "section": "Romane und Erzählungen",
+      "context_ids": [],
+      "plain": "1951: Stanisław Lem verarbeitete das Tunguska-Ereignis in seinem Roman Die Astronauten.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0080",
+      "type": "sentence",
+      "section": "Romane und Erzählungen",
+      "context_ids": [
+       "270155664-0079"
+      ],
+      "plain": "Er schildert die Explosion eines Raumschiffs, das von einer auf der Venus beheimateten Zivilisation stammt.",
+      "context_plain": [
+       "1951: Stanisław Lem verarbeitete das Tunguska-Ereignis in seinem Roman Die Astronauten."
+      ]
+     },
+     {
+      "segment_id": "270155664-0081",
+      "type": "sentence",
+      "section": "Romane und Erzählungen",
+      "context_ids": [
+       "270155664-0079",
+       "270155664-0080"
+      ],
+      "plain": "In der Verfilmung des Romans Der schweigende Stern wird die Explosion als Absturz eines Raumschiffs der Venus-Bewohner interpretiert.",
+      "context_plain": [
+       "1951: Stanisław Lem verarbeitete das Tunguska-Ereignis in seinem Roman Die Astronauten.",
+       "Er schildert die Explosion eines Raumschiffs, das von einer auf der Venus beheimateten Zivilisation stammt."
+      ]
+     },
+     {
+      "segment_id": "270155664-0082",
+      "type": "sentence",
+      "section": "Romane und Erzählungen",
+      "context_ids": [],
+      "plain": "1965: Die Brüder Strugazki stellten im Buch Der Montag fängt am Samstag an eine humorvolle phantastische These auf, dass das Tunguska-Ereignis von einem „kontramoten“ Raumschiff verursacht wurde, das auf der Zeitachse rückwärts reist: Es landete auf der Erde, entzündete beim Landen die Taiga und wanderte dann weiter durch die Zeit zurück, so dass keine Spuren an der Brandstelle zurückblieben.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0083",
+      "type": "sentence",
+      "section": "Romane und Erzählungen",
+      "context_ids": [],
+      "plain": "1983: Ian Watson lässt im Science-Fiction-Roman Chekhov’s Journey (dt. Tschechows Reise) ein havariertes, in der Zeit zurückstürzendes russisches „flux ship“ aus der Zukunft das Ereignis von 1908 verursachen, alternativweltlich verschränkt mit der durch Sibirien führenden Reise zur Strafkolonie auf Sachalin, die Anton Tschechow im Jahr 1890 unternahm.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0084",
+      "type": "sentence",
+      "section": "Romane und Erzählungen",
+      "context_ids": [],
+      "plain": "1996: Wolfgang Hohlbein verknüpft das reale Ereignis von 1908 über dem Gebiet des Flusses Steinige Tunguska in seinem Fantasyroman Die Rückkehr der Zauberer mit einer fiktiven Handlung, in der 80 Jahre später ein junger Journalist auf die Geschichte stößt und erfährt, dass durch die Explosion das Tor zu einer anderen Dimension aufgestoßen wurde.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0085",
+      "type": "sentence",
+      "section": "Romane und Erzählungen",
+      "context_ids": [],
+      "plain": "2004: Im Roman Bro von Vladimir Sorokin verbindet die Hauptfigur – sie wird genau zu dem Zeitpunkt geboren und ist später Teilnehmer der zweiten Kulik-Expedition – eine besondere Beziehung mit dem Tunguska-Ereignis.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0086",
+      "type": "sentence",
+      "section": "Romane und Erzählungen",
+      "context_ids": [
+       "270155664-0085"
+      ],
+      "plain": "Eine dabei auf die Erde gelangte außerirdische Eismasse (Ljod – Лёд) spielt eine zentrale Rolle in der im Stil eines mystischen Realismus gehaltenen Handlung.",
+      "context_plain": [
+       "2004: Im Roman Bro von Vladimir Sorokin verbindet die Hauptfigur – sie wird genau zu dem Zeitpunkt geboren und ist später Teilnehmer der zweiten Kulik-Expedition – eine besondere Beziehung mit dem Tunguska-Ereignis."
+      ]
+     },
+     {
+      "segment_id": "270155664-0087",
+      "type": "sentence",
+      "section": "Romane und Erzählungen",
+      "context_ids": [],
+      "plain": "2005: In Peter Schwindts Roman Das Portal aus der Reihe Justin Time wird das Ereignis durch den Absturz eines mit Antimaterie betriebenen Satelliten verursacht, der Teil eines Zeitportals war, mit dem eine wahnsinnige Wissenschaftlerin die Weltherrschaft erringen wollte.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0088",
+      "type": "sentence",
+      "section": "Romane und Erzählungen",
+      "context_ids": [],
+      "plain": "2006: In Thomas Pynchons Roman Gegen den Tag werden mehrere Erklärungen für das Tunguska-Ereignis angeführt, darunter ein Meteoriteneinschlag, der Besuch von Außerirdischen und ein fehlgeleiteter Energiestrahl aus den Experimenten von Nikola Tesla zur drahtlosen Energieübertragung.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0089",
+      "type": "sentence",
+      "section": "Romane und Erzählungen",
+      "context_ids": [
+       "270155664-0088"
+      ],
+      "plain": "Es wird nicht erwähnt, ob eine davon als „korrekte“ Erklärung zu betrachten sei.",
+      "context_plain": [
+       "2006: In Thomas Pynchons Roman Gegen den Tag werden mehrere Erklärungen für das Tunguska-Ereignis angeführt, darunter ein Meteoriteneinschlag, der Besuch von Außerirdischen und ein fehlgeleiteter Energiestrahl aus den Experimenten von Nikola Tesla zur drahtlosen Energieübertragung."
+      ]
+     },
+     {
+      "segment_id": "270155664-0090",
+      "type": "sentence",
+      "section": "Romane und Erzählungen",
+      "context_ids": [],
+      "plain": "2008: In Christian Krachts alternativ-weltgeschichtlichem Roman Ich werde hier sein im Sonnenschein und im Schatten ist das Tunguska-Ereignis Auslöser für den Wendepunkt der Handlung, da Lenin nicht aus der Schweiz in das durch das Ereignis verstrahlte Russland zurückkehrt, um die Russische Revolution herbeizuführen, sondern stattdessen die Schweiz zu einer sozialistischen Räterepublik umfunktioniert.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0091",
+      "type": "sentence",
+      "section": "Romane und Erzählungen",
+      "context_ids": [],
+      "plain": "2020/2021: In seiner vierteiligen Romanreihe Der Meteor verwendet der Autor Joshua Tree das Tunguska-Ereignis als ein zentrales Element seiner fiktiven Handlung.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0092",
+      "type": "sentence",
+      "section": "Musik",
+      "context_ids": [],
+      "plain": "Der japanische Musiker und Komponist elektronischer Musik Isao Tomita (1932–2016) thematisierte das Tunguska-Ereignis auf dem 1978 veröffentlichten Album The Bermuda Triangle mit dem Titel The Dazzling Bright Cylindrical Object Which Had Crashed Into Tunguska, Siberia.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0094",
+      "type": "sentence",
+      "section": "Theater",
+      "context_ids": [
+       "270155664-0093"
+      ],
+      "plain": "In der wortlosen Inszenierung (Regie: Zeha Schröder) dient das Tunguska-Ereignis als Chiffre für das Unaussprechliche schlechthin – für alles, was zwischen Menschen unerklärt bleibt und zu Missverständnis und Entfremdung führt.",
+      "context_plain": [
+       "Im Herbst 2009 brachte das Theater Freuynde + Gaesdte das Stück Tunguska Molchanje zur Uraufführung."
+      ]
+     },
+     {
+      "segment_id": "270155664-0095",
+      "type": "sentence",
+      "section": "Theater",
+      "context_ids": [],
+      "plain": "Im Vorfeld der Probenarbeit hat das vierköpfige Ensemble eine aufwendige Recherchereise nach Wanawara und von dort aus zu Fuß bis ins Epizentrum des Ereignisses unternommen.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0096",
+      "type": "sentence",
+      "section": "Theater",
+      "context_ids": [
+       "270155664-0095"
+      ],
+      "plain": "Gemeinsam mit vier sibirischen Trappern sind die Theaterleute bis zur verlassenen Blockhütte L. Kuliks vorgedrungen.",
+      "context_plain": [
+       "Im Vorfeld der Probenarbeit hat das vierköpfige Ensemble eine aufwendige Recherchereise nach Wanawara und von dort aus zu Fuß bis ins Epizentrum des Ereignisses unternommen."
+      ]
+     },
+     {
+      "segment_id": "270155664-0097",
+      "type": "sentence",
+      "section": "Theater",
+      "context_ids": [
+       "270155664-0096"
+      ],
+      "plain": "Ihre Erlebnisse sowie Videoaufzeichnungen der Expedition wurden in die Inszenierung integriert, die im Folgejahr zum Festival theaterszene europa eingeladen wurde.",
+      "context_plain": [
+       "Gemeinsam mit vier sibirischen Trappern sind die Theaterleute bis zur verlassenen Blockhütte L. Kuliks vorgedrungen."
+      ]
+     },
+     {
+      "segment_id": "270155664-0098",
+      "type": "sentence",
+      "section": "Philosophie",
+      "context_ids": [],
+      "plain": "2011: Michael Hampe verwendet in Tunguska oder das Ende der Natur das Tunguska-Ereignis als Aufhänger für komplexe naturphilosophische Betrachtungen, die teils in einer Wiederaufnahme der traditionellen philosophisch-literarischen Form des Totengesprächs präsentiert werden.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0099",
+      "type": "sentence",
+      "section": "Spiele",
+      "context_ids": [],
+      "plain": "2006: Geheimakte Tunguska ist der Titel eines Computerspiels.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0100",
+      "type": "sentence",
+      "section": "Spiele",
+      "context_ids": [],
+      "plain": "2023: Das Brettspiel Expeditions handelt davon, dass „ein massiver Meteorit in der Nähe des Tunguska-Flusses eingeschlagen“ ist.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0101",
+      "type": "sentence",
+      "section": "Comics",
+      "context_ids": [],
+      "plain": "1998: Im Lustigen Taschenbuch Nr. 247 geht Indiana Goof zusammen mit Micky Maus in der Geschichte Der große Knall auf Expedition nach dem Ursprung des Tunguska-Ereignisses, wobei sie herausfinden, dass es eine ungewollte Nuklearexplosion war.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0102",
+      "type": "sentence",
+      "section": "Comics",
+      "context_ids": [],
+      "plain": "2008: In Achim Stößers Cartoonreihe Pater Anselms Weltraummission gerät das Raumschiff in einen Zeitstrudel, worauf der Antiatom-Meiler abgeworfen werden muss, weil eine Kernschmelze droht, und so das Tunguska-Ereignis auslöst.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0103",
+      "type": "sentence",
+      "section": "TV-Serien",
+      "context_ids": [],
+      "plain": "1996: In Akte X – Die unheimlichen Fälle des FBI reist in den Folgen Tunguska 1 und 2 (Staffel 4) Agent Fox Mulder zur Tunguska und erwähnt das Tunguska-Ereignis als einen potenziellen Absturz eines UFOs.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270155664-0104",
+      "type": "sentence",
+      "section": "TV-Serien",
+      "context_ids": [
+       "270155664-0103"
+      ],
+      "plain": "2016: In der Pilotfolge der Serie The Tick wird das Ereignis mit der Ankunft eines Superhelden auf der Erde mittels eines robusten Raumschiffs erklärt.",
+      "context_plain": [
+       "1996: In Akte X – Die unheimlichen Fälle des FBI reist in den Folgen Tunguska 1 und 2 (Staffel 4) Agent Fox Mulder zur Tunguska und erwähnt das Tunguska-Ereignis als einen potenziellen Absturz eines UFOs."
+      ]
+     },
+     {
+      "segment_id": "270155664-0105",
+      "type": "sentence",
+      "section": "TV-Serien",
+      "context_ids": [
+       "270155664-0103",
+       "270155664-0104"
+      ],
+      "plain": "2021: In den sechs letzten Folgen (7–12) der zweiten Staffel von UFOs wird das Ereignis gedeutet als ein winziges schwarzes Loch, das sibirische Ureinwohner durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie verursacht haben sollen.",
+      "context_plain": [
+       "1996: In Akte X – Die unheimlichen Fälle des FBI reist in den Folgen Tunguska 1 und 2 (Staffel 4) Agent Fox Mulder zur Tunguska und erwähnt das Tunguska-Ereignis als einen potenziellen Absturz eines UFOs.",
+       "2016: In der Pilotfolge der Serie The Tick wird das Ereignis mit der Ankunft eines Superhelden auf der Erde mittels eines robusten Raumschiffs erklärt."
+      ]
+     }
+    ],
+    "rejected": [
+     {
+      "segment_id": "270155664-0060",
+      "reason": "context_invalid"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1331,
+     "output_tokens": 94,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 3365,
+     "output_tokens": 1170,
+     "output_tokens_details": {
+      "thinking_tokens": 673
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1181,
+     "output_tokens": 354,
+     "output_tokens_details": {
+      "thinking_tokens": 253
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 2766,
+     "output_tokens": 389,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 2538,
+     "output_tokens": 1348,
+     "output_tokens_details": {
+      "thinking_tokens": 954
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1543,
+     "output_tokens": 555,
+     "output_tokens_details": {
+      "thinking_tokens": 401
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 981,
+     "output_tokens": 11,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 2837,
+     "output_tokens": 1183,
+     "output_tokens_details": {
+      "thinking_tokens": 815
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1033,
+     "output_tokens": 34,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1345,
+     "output_tokens": 124,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1054,
+     "output_tokens": 34,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1014,
+     "output_tokens": 57,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1217,
+     "output_tokens": 256,
+     "output_tokens_details": {
+      "thinking_tokens": 199
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1289,
+     "output_tokens": 654,
+     "output_tokens_details": {
+      "thinking_tokens": 553
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Arkadi und Boris Strugazki",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "266211032-0000",
+    "266211032-0002"
+   ],
+   "facts": [
+    "266211032-0000",
+    "266211032-0002"
+   ],
+   "extraction": {
+    "revid": 266211032,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "266211032-0000",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Arkadi Natanowitsch Strugazki (auch Arkadij Strugatzki; russisch Аркадий Натанович Стругацкий, wiss. Transliteration Arkadij Natanovič Strugackij; * 28. August 1925 in Batumi, Adscharische Autonome Sozialistische Sowjetrepublik; † 12. Oktober 1991 in Leningrad) und Boris Natanowitsch Strugazki (auch Boris Strugatzki; russisch Борис Натанович Стругацкий, wiss. Transliteration Boris Natanovič Strugackij; * 15. April 1933 in Leningrad; † 19. November 2012 in Sankt Petersburg) waren zwei sowjetische Schriftsteller.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "266211032-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "266211032-0001"
+      ],
+      "plain": "Ihre seit 1959 auch das Genre Science-Fiction umfassenden Bücher sind in einer Gesamtauflage von mehr als 50 Millionen Exemplaren erschienen und in mehr als 30 Sprachen übersetzt worden.",
+      "context_plain": [
+       "Die Brüder schrieben gemeinsam eine Vielzahl von Romanen und gelten als die bedeutendsten Autoren der sowjetischen Phantastik."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1448,
+     "output_tokens": 64,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Asteroid",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "271523804-0001",
+    "271523804-0002",
+    "271523804-0007"
+   ],
+   "facts": [
+    "271523804-0001",
+    "271523804-0002",
+    "271523804-0007"
+   ],
+   "extraction": {
+    "revid": 271523804,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "271523804-0001",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271523804-0000"
+      ],
+      "plain": "Asteroiden haben im Gegensatz zu den Zwergplaneten definitionsgemäß eine zu geringe Masse, um in ein hydrostatisches Gleichgewicht zu kommen und eine annähernd runde Form anzunehmen, und sind daher generell unregelmäßig geformte Körper.",
+      "context_plain": [
+       "Als Asteroiden (von altgriechisch ἀστεροειδής asteroeidḗs, deutsch ‚sternähnlich‘), Kleinplaneten oder Planetoiden werden astronomische Kleinkörper bezeichnet, die sich auf keplerschen Umlaufbahnen um die Sonne bewegen und größer als Meteoroiden (Millimeter bis Meter), aber kleiner als Zwergplaneten (ca. 500–3000 Kilometer) sind."
+      ]
+     },
+     {
+      "segment_id": "271523804-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271523804-0001"
+      ],
+      "plain": "Nur die wenigsten haben mehr als einige hundert Kilometer Durchmesser.",
+      "context_plain": [
+       "Asteroiden haben im Gegensatz zu den Zwergplaneten definitionsgemäß eine zu geringe Masse, um in ein hydrostatisches Gleichgewicht zu kommen und eine annähernd runde Form anzunehmen, und sind daher generell unregelmäßig geformte Körper."
+      ]
+     },
+     {
+      "segment_id": "271523804-0007",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Bislang sind über 1,5 Millionen Asteroiden im Sonnensystem bekannt (Stand: 6. Mai 2026), wobei jeden Monat mehrere Tausend neue Entdeckungen hinzukommen und die tatsächliche Anzahl wohl mehrere Millionen betragen dürfte.",
+      "context_plain": []
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1868,
+     "output_tokens": 94,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Der Montag fängt am Samstag an",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "271724558-0000",
+    "271724558-0002",
+    "271724558-0003",
+    "271724558-0004",
+    "271724558-0005",
+    "271724558-0006",
+    "271724558-0007",
+    "271724558-0008"
+   ],
+   "facts": [
+    "271724558-0000",
+    "271724558-0002",
+    "271724558-0003",
+    "271724558-0004",
+    "271724558-0005",
+    "271724558-0006",
+    "271724558-0007",
+    "271724558-0008"
+   ],
+   "extraction": {
+    "revid": 271724558,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "271724558-0000",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Der Montag fängt am Samstag an (russisch Понедельник начинается в субботу Ponedelnik natschinajetsja w subbotu) ist ein 1965 veröffentlichter Science-Fiction-Roman von Arkadi und Boris Strugazki.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271724558-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Der Roman spielt in einer fiktiven Stadt in Nord-Russland, wo streng geheime Forschungen in Magie stattfinden.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271724558-0003",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Der Roman ist eine Satire auf sowjetische wissenschaftliche Institutionen: Es werden die ungebildete Verwaltung, ein publicitysüchtiger Professor und nicht funktionierende Forschungsgeräte thematisiert.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271724558-0004",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Im Roman gibt es eine idealistische Sicht auf die Arbeitsethik, die durch den Titel reflektiert wird: Bei wahren Wissenschaftlern gibt es keine Wochenenden.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271724558-0005",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Das „Naturwissenschaftliche Forschungsinstitut für Magie und Zauberei“ (NIITschaWo, ähnelt stark dem russ. Wort \"nitschewo\" = \"nichts\") befindet sich in einer fiktiven russischen Stadt Solowetz im Norden Russlands.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271724558-0006",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Das Institut ist ein Ort, an dem alle hart und willig arbeiten müssen, denn der Verlust der Ehrlichkeit wird durch Haarwachstum an den Ohren bestraft.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271724558-0007",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271724558-0006"
+      ],
+      "plain": "Die haarohrigen Menschen werden zwar verachtet, doch in einer typisch sowjetischen Verhaltensweise bleiben viele von ihnen trotzdem im Institut – denn dort lässt es sich trotz allem gut leben.",
+      "context_plain": [
+       "Das Institut ist ein Ort, an dem alle hart und willig arbeiten müssen, denn der Verlust der Ehrlichkeit wird durch Haarwachstum an den Ohren bestraft."
+      ]
+     },
+     {
+      "segment_id": "271724558-0008",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Das Märchen von der Troika, der die schlimmsten Eigenschaften der sowjetischen Bürokratie beschreibt, ist ein Nachfolgeroman, in dem viele Figuren wiederkehren.",
+      "context_plain": []
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1703,
+     "output_tokens": 584,
+     "output_tokens_details": {
+      "thinking_tokens": 382
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Dichte",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "262562901-0009",
+    "262562901-0010"
+   ],
+   "facts": [
+    "262562901-0009",
+    "262562901-0010"
+   ],
+   "extraction": {
+    "revid": 262562901,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "262562901-0009",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "262562901-0008"
+      ],
+      "plain": "Im Allgemeinen dehnen sich Stoffe mit steigender Temperatur aus, wodurch ihre Dichte sinkt.",
+      "context_plain": [
+       "Die Dichte ist durch das Material des Körpers bestimmt und als intensive Größe unabhängig von seiner Form und Größe."
+      ]
+     },
+     {
+      "segment_id": "262562901-0010",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "262562901-0009"
+      ],
+      "plain": "Eine Ausnahme bilden Stoffe mit einer Dichteanomalie wie z. B. Wasser.",
+      "context_plain": [
+       "Im Allgemeinen dehnen sich Stoffe mit steigender Temperatur aus, wodurch ihre Dichte sinkt."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1557,
+     "output_tokens": 71,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Dunkle Materie",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "272256525-0000",
+    "272256525-0001",
+    "272256525-0002",
+    "272256525-0003",
+    "272256525-0004"
+   ],
+   "facts": [
+    "272256525-0000",
+    "272256525-0001",
+    "272256525-0002",
+    "272256525-0003",
+    "272256525-0004"
+   ],
+   "extraction": {
+    "revid": 272256525,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "272256525-0000",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Dunkle Materie ist eine postulierte Form von Materie, die nicht direkt sichtbar ist, aber über die Gravitation wechselwirkt.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "272256525-0001",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272256525-0000"
+      ],
+      "plain": "Ihre Existenz wird im Standardmodell der Kosmologie, dem Lambda-CDM-Modell, postuliert, um innerhalb dieses Modells die Bewegung der sichtbaren Materie zu erklären, insbesondere die Geschwindigkeit, mit der sichtbare Sterne das Zentrum ihrer Galaxie umkreisen.",
+      "context_plain": [
+       "Dunkle Materie ist eine postulierte Form von Materie, die nicht direkt sichtbar ist, aber über die Gravitation wechselwirkt."
+      ]
+     },
+     {
+      "segment_id": "272256525-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272256525-0001"
+      ],
+      "plain": "In den Außenbereichen ist diese Geschwindigkeit deutlich höher, als man es allein aufgrund der Gravitation der Sterne, Gas- und Staubwolken erwarten würde.",
+      "context_plain": [
+       "Ihre Existenz wird im Standardmodell der Kosmologie, dem Lambda-CDM-Modell, postuliert, um innerhalb dieses Modells die Bewegung der sichtbaren Materie zu erklären, insbesondere die Geschwindigkeit, mit der sichtbare Sterne das Zentrum ihrer Galaxie umkreisen."
+      ]
+     },
+     {
+      "segment_id": "272256525-0003",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272256525-0002"
+      ],
+      "plain": "Auch für die beobachtete Stärke des Gravitationslinseneffekts wird Dunkle Materie postuliert.",
+      "context_plain": [
+       "In den Außenbereichen ist diese Geschwindigkeit deutlich höher, als man es allein aufgrund der Gravitation der Sterne, Gas- und Staubwolken erwarten würde."
+      ]
+     },
+     {
+      "segment_id": "272256525-0004",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Nach dem Lambda-CDM-Modell werden viele beobachtete Effekte zu nur etwa einem Sechstel von sichtbarer Materie verursacht, die im Standardmodell der Elementarteilchenphysik erfasst wird.",
+      "context_plain": []
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1530,
+     "output_tokens": 678,
+     "output_tokens_details": {
+      "thinking_tokens": 531
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Einschlagkrater",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [],
+   "facts": [],
+   "extraction": {
+    "revid": 266996089,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1191,
+     "output_tokens": 11,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Erdgas",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "272152302-0001",
+    "272152302-0002",
+    "272152302-0003",
+    "272152302-0006",
+    "272152302-0007",
+    "272152302-0008"
+   ],
+   "facts": [
+    "272152302-0001",
+    "272152302-0002",
+    "272152302-0003",
+    "272152302-0006",
+    "272152302-0007",
+    "272152302-0008"
+   ],
+   "extraction": {
+    "revid": 272152302,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "272152302-0001",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272152302-0000"
+      ],
+      "plain": "Es tritt häufig zusammen mit Erdöl auf, da es auf ähnliche Weise entsteht.",
+      "context_plain": [
+       "Erdgas ist ein brennbares, natürlich entstandenes Gasgemisch, das in unterirdischen Lagerstätten vorkommt."
+      ]
+     },
+     {
+      "segment_id": "272152302-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Erdgas besteht meist überwiegend aus dem energiereichen Methan (CH4), die genaue Zusammensetzung ist aber von der Lagerstätte abhängig.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "272152302-0003",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Mitunter ist eine Aufbereitung des Rohgases nötig, um giftige, korrosive, chemisch inerte oder nicht brennbare Bestandteile abzusondern bzw. um Methan anzureichern.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "272152302-0006",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272152302-0005"
+      ],
+      "plain": "Es dient hauptsächlich der Gebäudeheizung, als Wärmelieferant für thermische Prozesse in Gewerbe und Industrie (z. B. in Großbäckereien, Glaswerken, Ziegeleien, Zementwerken und in der Montan- und Schwerindustrie), zur Stromerzeugung und als Treibstoff für Schiffe und Kraftfahrzeuge.",
+      "context_plain": [
+       "Erdgas ist ein fossiler Energieträger."
+      ]
+     },
+     {
+      "segment_id": "272152302-0007",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272152302-0006"
+      ],
+      "plain": "Hinzu treten mengenmäßig bedeutsame Anwendungen als Reaktionspartner in chemischen Prozessen, wo ebenfalls sein Energiegehalt genutzt wird.",
+      "context_plain": [
+       "Es dient hauptsächlich der Gebäudeheizung, als Wärmelieferant für thermische Prozesse in Gewerbe und Industrie (z. B. in Großbäckereien, Glaswerken, Ziegeleien, Zementwerken und in der Montan- und Schwerindustrie), zur Stromerzeugung und als Treibstoff für Schiffe und Kraftfahrzeuge."
+      ]
+     },
+     {
+      "segment_id": "272152302-0008",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272152302-0007"
+      ],
+      "plain": "Diese sind beispielsweise die Ammoniaksynthese im Haber-Bosch-Verfahren (Stickstoffdüngemittel), die Erzreduktion oder die Herstellung von Wasserstoff.",
+      "context_plain": [
+       "Hinzu treten mengenmäßig bedeutsame Anwendungen als Reaktionspartner in chemischen Prozessen, wo ebenfalls sein Energiegehalt genutzt wird."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1712,
+     "output_tokens": 648,
+     "output_tokens_details": {
+      "thinking_tokens": 471
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Extraterrestrisch",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [],
+   "facts": [],
+   "extraction": {
+    "revid": 265166174,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1077,
+     "output_tokens": 11,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Ich werde hier sein im Sonnenschein und im Schatten",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "267626744-0000"
+   ],
+   "facts": [
+    "267626744-0000"
+   ],
+   "extraction": {
+    "revid": 267626744,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "267626744-0000",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Ich werde hier sein im Sonnenschein und im Schatten ist der im September 2008 erschienene dritte Roman von Christian Kracht.",
+      "context_plain": []
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1024,
+     "output_tokens": 34,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Kernwaffenexplosion",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "271574089-0002",
+    "271574089-0003",
+    "271574089-0004",
+    "271574089-0005",
+    "271574089-0006",
+    "271574089-0007",
+    "271574089-0009"
+   ],
+   "facts": [
+    "271574089-0002",
+    "271574089-0003",
+    "271574089-0004",
+    "271574089-0005",
+    "271574089-0006",
+    "271574089-0007",
+    "271574089-0009"
+   ],
+   "extraction": {
+    "revid": 271574089,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "271574089-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Im einfachsten Fall einer Kernspaltungsbombe setzt unmittelbar nach Überschreiten der kritischen Masse eine nukleare Kettenreaktion ein.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271574089-0003",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Bei einer Luftexplosion entstehen neben der typischen Explosionswolke Feuerball, Druckwelle und radioaktive Rückstände in der Atmosphäre.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271574089-0004",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die erste von Menschen herbeigeführte Atomexplosion fand am 16. Juli 1945 auf einem als „White Sands Missile Range“ benannten Gelände in der Wüste von New Mexico statt.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271574089-0005",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die durch Kernwaffenexplosionen bei Kernwaffentests verursachte Zunahme der Radioaktivität in der Erdatmosphäre führte 1963 zum Vertrag über das Verbot von Kernwaffenversuchen in der Atmosphäre, im Weltraum und unter Wasser.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271574089-0006",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271574089-0005"
+      ],
+      "plain": "Seitdem finden Testexplosionen der Vertragsparteien immer unterirdisch statt.",
+      "context_plain": [
+       "Die durch Kernwaffenexplosionen bei Kernwaffentests verursachte Zunahme der Radioaktivität in der Erdatmosphäre führte 1963 zum Vertrag über das Verbot von Kernwaffenversuchen in der Atmosphäre, im Weltraum und unter Wasser."
+      ]
+     },
+     {
+      "segment_id": "271574089-0007",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die Atombombenabwürfe auf Hiroshima und Nagasaki am 6. und 9. August 1945 durch die USA im Krieg gegen Japan am Ende des Zweiten Weltkrieges waren die ersten und bisher einzigen Kernwaffeneinsätze.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271574089-0009",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271574089-0008"
+      ],
+      "plain": "Sie entwickelte sich im Wettrüsten zwischen den Supermächten USA und Sowjetunion und den übrigen Atommächten zu einer den Fortbestand der Menschheit gefährdenden Bedrohung.",
+      "context_plain": [
+       "Seit der Anfangszeit des Kalten Krieges steht die Möglichkeit eines Atomkrieges im Raum."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1833,
+     "output_tokens": 633,
+     "output_tokens_details": {
+      "thinking_tokens": 447
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Kiew",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "272257849-0012",
+    "272257849-0013",
+    "272257849-0010"
+   ],
+   "facts": [
+    "272257849-0012",
+    "272257849-0013",
+    "272257849-0010"
+   ],
+   "extraction": {
+    "revid": 272257849,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "272257849-0012",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272257849-0011"
+      ],
+      "plain": "Wegen der vielen Kirchen und Klöster und seiner Bedeutung für die orthodoxe Christenheit wird Kiew seit dem Mittelalter außerdem als Jerusalem des Ostens bezeichnet.",
+      "context_plain": [
+       "Kiew gilt als wichtiger Bildungs- und Industriestandort und bildet darüber hinaus den wichtigsten Verkehrsknotenpunkt des Landes."
+      ]
+     },
+     {
+      "segment_id": "272257849-0013",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die im 11. Jahrhundert begonnene Sophienkathedrale und das Kiewer Höhlenkloster, eines der ältesten orthodoxen Klöster der Kiewer Rus, stehen seit 1990 auf der UNESCO-Liste des Weltkulturerbes.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "272257849-0010",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272257849-0009"
+      ],
+      "plain": "Die Agglomeration umfasst mehr als vier Millionen Einwohner.",
+      "context_plain": [
+       "Sie liegt am bis hierhin für kleinere Seeschiffe befahrbaren Dnipro und hat auf einer Fläche von 847,66 km² nahezu 3 Millionen Einwohner."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 2301,
+     "output_tokens": 94,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Komet",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "271523896-0002",
+    "271523896-0003",
+    "271523896-0005",
+    "271523896-0008",
+    "271523896-0012"
+   ],
+   "facts": [
+    "271523896-0002",
+    "271523896-0003",
+    "271523896-0005",
+    "271523896-0008",
+    "271523896-0012"
+   ],
+   "extraction": {
+    "revid": 271523896,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "271523896-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271523896-0001"
+      ],
+      "plain": "Sie bildeten sich in den äußeren, kalten Bereichen des Sonnensystems (überwiegend jenseits der Neptunbahn), wo die reichlichen Wasserstoff- und Kohlenstoff-Verbindungen zu Eis resublimierten.",
+      "context_plain": [
+       "Die meisten Kometen sind, wie die meisten Asteroiden, Überreste der Entstehung des Sonnensystems."
+      ]
+     },
+     {
+      "segment_id": "271523896-0003",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Einige entstanden aber auch in anderen Sternsystemen und wurden vom Sonnensystem gravitativ eingefangen.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271523896-0005",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "In Sonnennähe ist der meist nur wenige Kilometer große Kometenkern von einer diffusen, nebeligen Hülle umgeben, die Koma genannt wird, und eine Ausdehnung von 2 bis 3 Millionen Kilometern erreichen kann.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271523896-0008",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271523896-0007"
+      ],
+      "plain": "Er bildet sich erst ab einer Sonnenentfernung unter 2 AE, kann aber bei großen und sonnennahen Objekten eine Länge von mehreren 100 Millionen Kilometern erreichen.",
+      "context_plain": [
+       "Das auffälligste Kennzeichen der von der Erde aus sichtbaren Kometen ist jedoch der Schweif."
+      ]
+     },
+     {
+      "segment_id": "271523896-0012",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271523896-0011"
+      ],
+      "plain": "Wirklich eindrucksvolle Erscheinungen gibt es nur etwa zehn pro Jahrhundert.",
+      "context_plain": [
+       "Mit Annäherung an die Sonne beginnen sie stärker zu leuchten, doch lässt sich die Entwicklung von Helligkeit und Schweif nicht genau voraussagen."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 2071,
+     "output_tokens": 147,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Liste der Bewohner Entenhausens",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "272039912-0003",
+    "272039912-0004",
+    "272039912-0006"
+   ],
+   "facts": [
+    "272039912-0003",
+    "272039912-0004",
+    "272039912-0006"
+   ],
+   "extraction": {
+    "revid": 272039912,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "272039912-0003",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272039912-0002"
+      ],
+      "plain": "Dass diese gemeinsam in Entenhausen leben, ist nur in deutschsprachigen, niederländischen, skandinavischen und brasilianischen Comics der Fall – ursprünglich leben die Ducks in den amerikanischen Comics in Duckburg, während Micky Maus und seine engen Freunde und Verwandten in Mouseton leben.",
+      "context_plain": [
+       "Vorherrschend sind zwei Gruppen, einerseits der ducksche Clan um Donald Duck, genannt Duck-Kosmos, andererseits der Clan um Micky Maus, genannt Maus-Kosmos."
+      ]
+     },
+     {
+      "segment_id": "272039912-0004",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272039912-0003"
+      ],
+      "plain": "In Deutschland wurden diese beiden Städte sozusagen zusammengelegt.",
+      "context_plain": [
+       "Dass diese gemeinsam in Entenhausen leben, ist nur in deutschsprachigen, niederländischen, skandinavischen und brasilianischen Comics der Fall – ursprünglich leben die Ducks in den amerikanischen Comics in Duckburg, während Micky Maus und seine engen Freunde und Verwandten in Mouseton leben."
+      ]
+     },
+     {
+      "segment_id": "272039912-0006",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Auch unter den Tieren wird wiederum zwischen menschlichen und tierischen Wesen unterschieden; das heißt, es gibt weiterhin auch sich nicht wie Menschen verhaltende Tiere in Entenhausen – ein Beispiel ist Pluto, der sich im Gegensatz zu den anderen Figuren wie ein ganz „normaler“ Hund verhält.",
+      "context_plain": []
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1912,
+     "output_tokens": 94,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Lustiges Taschenbuch",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "269711761-0003",
+    "269711761-0005",
+    "269711761-0011",
+    "269711761-0012",
+    "269711761-0014",
+    "269711761-0015",
+    "269711761-0016"
+   ],
+   "facts": [
+    "269711761-0003",
+    "269711761-0005",
+    "269711761-0011",
+    "269711761-0012",
+    "269711761-0014",
+    "269711761-0015",
+    "269711761-0016"
+   ],
+   "extraction": {
+    "revid": 269711761,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "269711761-0003",
+      "type": "infobox_row",
+      "section": "",
+      "context_ids": [],
+      "plain": "Infobox Publikation – Erstausgabe: 9. Oktober 1967",
+      "context_plain": []
+     },
+     {
+      "segment_id": "269711761-0005",
+      "type": "infobox_row",
+      "section": "",
+      "context_ids": [],
+      "plain": "Infobox Publikation – Verkaufte Auflage: 100.878 Exemplare",
+      "context_plain": []
+     },
+     {
+      "segment_id": "269711761-0011",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Lustiges Taschenbuch (bis 1987 Walt Disneys Lustige Taschenbücher), kurz LTB, ist eine deutschsprachige Comic-Publikation, die seit 1967 im Verlag Egmont Ehapa Media erscheint.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "269711761-0012",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Der Umfang der Taschenbücher beträgt in der Regel 256 Seiten (250 Seiten Comics).",
+      "context_plain": []
+     },
+     {
+      "segment_id": "269711761-0014",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Im Lustigen Taschenbuch erscheinen Comics aus dem Universum um Donald Duck und Micky Maus.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "269711761-0015",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die weitaus meisten Comics stammen aus Italien, auch Comics aus Skandinavien sind in nennenswerter Anzahl vertreten.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "269711761-0016",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "269711761-0015"
+      ],
+      "plain": "Comics aus anderen Ländern gibt es nur selten, so z. B. in Band Nr. 53, der mehrere US-amerikanische Geschichten von Carl Barks beinhaltet.",
+      "context_plain": [
+       "Die weitaus meisten Comics stammen aus Italien, auch Comics aus Skandinavien sind in nennenswerter Anzahl vertreten."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1748,
+     "output_tokens": 594,
+     "output_tokens_details": {
+      "thinking_tokens": 415
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "LZ 127",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "270450093-0000",
+    "270450093-0001",
+    "270450093-0002",
+    "270450093-0003"
+   ],
+   "facts": [
+    "270450093-0000",
+    "270450093-0001",
+    "270450093-0002",
+    "270450093-0003"
+   ],
+   "extraction": {
+    "revid": 270450093,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "270450093-0000",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "LZ 127 „Graf Zeppelin“ (Kennzeichen D-LZ127) war ein Starrluftschiff aus der Reihe der Zeppeline und gilt als das erfolgreichste Verkehrsluftschiff seiner Zeit.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270450093-0001",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "270450093-0000"
+      ],
+      "plain": "Es wurde am 18. September 1928 nach 21-monatiger Bauzeit in Dienst gestellt.",
+      "context_plain": [
+       "LZ 127 „Graf Zeppelin“ (Kennzeichen D-LZ127) war ein Starrluftschiff aus der Reihe der Zeppeline und gilt als das erfolgreichste Verkehrsluftschiff seiner Zeit."
+      ]
+     },
+     {
+      "segment_id": "270450093-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "270450093-0000",
+       "270450093-0001"
+      ],
+      "plain": "Ursprünglich als Versuchsschiff gebaut, erwies sich LZ 127 als so zuverlässig, dass es bald durch zahlreiche spektakuläre Fahrten, wie die 20-tägige „Weltfahrt“ und die „Polarfahrt“, berühmt wurde und über mehrere Jahre einen regelmäßigen Transatlantikverkehr aufrechterhielt.",
+      "context_plain": [
+       "LZ 127 „Graf Zeppelin“ (Kennzeichen D-LZ127) war ein Starrluftschiff aus der Reihe der Zeppeline und gilt als das erfolgreichste Verkehrsluftschiff seiner Zeit.",
+       "Es wurde am 18. September 1928 nach 21-monatiger Bauzeit in Dienst gestellt."
+      ]
+     },
+     {
+      "segment_id": "270450093-0003",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "270450093-0002"
+      ],
+      "plain": "Unmittelbar nach der Hindenburg-Katastrophe wurde der Zeppelin im Mai 1937 außer Dienst gestellt und 1940 verschrottet.",
+      "context_plain": [
+       "Ursprünglich als Versuchsschiff gebaut, erwies sich LZ 127 als so zuverlässig, dass es bald durch zahlreiche spektakuläre Fahrten, wie die 20-tägige „Weltfahrt“ und die „Polarfahrt“, berühmt wurde und über mehrere Jahre einen regelmäßigen Transatlantikverkehr aufrechterhielt."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1303,
+     "output_tokens": 131,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Micky Maus",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "269905704-0000",
+    "269905704-0001",
+    "269905704-0002"
+   ],
+   "facts": [
+    "269905704-0000",
+    "269905704-0001"
+   ],
+   "extraction": {
+    "revid": 269905704,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "269905704-0000",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Micky Maus (englisch Mickey Mouse) ist eine von Walt Disney und Ub Iwerks erschaffene Zeichentrickfigur in Form einer anthropomorphen Maus.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "269905704-0001",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "269905704-0000"
+      ],
+      "plain": "Sie gehört zu den berühmtesten Kunstfiguren weltweit und ist die bekannteste Figur aus der Disneywelt.",
+      "context_plain": [
+       "Micky Maus (englisch Mickey Mouse) ist eine von Walt Disney und Ub Iwerks erschaffene Zeichentrickfigur in Form einer anthropomorphen Maus."
+      ]
+     }
+    ],
+    "rejected": [
+     {
+      "segment_id": "269905704-0002",
+      "reason": "context_invalid"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1179,
+     "output_tokens": 94,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Mücken",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "270191398-0006",
+    "270191398-0009",
+    "270191398-0010",
+    "270191398-0011",
+    "270191398-0012",
+    "270191398-0014",
+    "270191398-0015",
+    "270191398-0013",
+    "270191398-0008"
+   ],
+   "facts": [
+    "270191398-0006",
+    "270191398-0009",
+    "270191398-0010",
+    "270191398-0011",
+    "270191398-0012",
+    "270191398-0014",
+    "270191398-0015"
+   ],
+   "extraction": {
+    "revid": 270191398,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "270191398-0006",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die Mücken (Nematocera) sind neben den Fliegen (Brachycera) eine von zwei Unterordnungen der Zweiflügler (Diptera).",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270191398-0009",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Einige Mückentaxa vor allem der Infraordnung Culicomorpha besitzen stechende Mundwerkzeuge und sind als blutsaugende Krankheitsüberträger bedeutsam (Stechmücken, Gnitzen, Kriebelmücken und Sandmücken).",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270191398-0010",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die Mücken sind seit etwa 50 Jahren in der modernen, auf der Methode der phylogenetischen Systematik aufbauenden Taxonomie als paraphyletisches Taxon erkannt worden.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270191398-0011",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "270191398-0010"
+      ],
+      "plain": "Dies bedeutet, die zweite traditionelle Unterordnung der Zweiflügler, die Fliegen (Brachycera), bilden nicht die Schwestergruppe der Mücken, sondern nur von einem Teil von diesen.",
+      "context_plain": [
+       "Die Mücken sind seit etwa 50 Jahren in der modernen, auf der Methode der phylogenetischen Systematik aufbauenden Taxonomie als paraphyletisches Taxon erkannt worden."
+      ]
+     },
+     {
+      "segment_id": "270191398-0012",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Über die tatsächliche Schwestergruppe der Fliegen gibt es noch keine Einigkeit.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270191398-0014",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "270191398-0013"
+      ],
+      "plain": "Einige Forscher sprechen nun, in gleicher Bedeutung, von den „niederen“ Zweiflüglern.",
+      "context_plain": [
+       "Konsequenterweise wird seit längerer Zeit vorgeschlagen, die Unterordnung der Mücken als Taxon aufzugeben."
+      ]
+     },
+     {
+      "segment_id": "270191398-0015",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Obwohl über die Tatsache der fehlenden Monophylie fachlich völliger Konsens besteht, verwenden bisher viele Wissenschaftler die Gruppe Mücken oder Nematocera aus pragmatischen Gründen weiter.",
+      "context_plain": []
+     }
+    ],
+    "rejected": [
+     {
+      "segment_id": "270191398-0013",
+      "reason": "context_invalid"
+     },
+     {
+      "segment_id": "270191398-0008",
+      "reason": "too_short"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1945,
+     "output_tokens": 926,
+     "output_tokens_details": {
+      "thinking_tokens": 680
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Russische Revolution",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "271103363-0000",
+    "271103363-0001"
+   ],
+   "facts": [
+    "271103363-0000",
+    "271103363-0001"
+   ],
+   "extraction": {
+    "revid": 271103363,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "271103363-0000",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Als Russische Revolution (russisch Русская революция/ Transkription Russkaja rewoljuzija) bezeichnet man mehrere revolutionäre Umwälzungen in der russischen Geschichte des frühen 20. Jahrhunderts, im engeren Sinn die Februarrevolution 1917, welche das Ende der zaristischen Autokratie zur Folge hatte, und die Oktoberrevolution, die Machtergreifung der Bolschewiki, im selben Jahr.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271103363-0001",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271103363-0000"
+      ],
+      "plain": "Sie resultierte aus verschiedenen Erosionsprozessen in der russischen Politik und Gesellschaft, darunter den militärischen Misserfolgen im Russisch-Japanischen und im Ersten Weltkrieg, Defiziten bei der Integration neuer gesellschaftlicher Gruppen und Modernisierungsdefiziten des Russischen Kaiserreichs.",
+      "context_plain": [
+       "Als Russische Revolution (russisch Русская революция/ Transkription Russkaja rewoljuzija) bezeichnet man mehrere revolutionäre Umwälzungen in der russischen Geschichte des frühen 20. Jahrhunderts, im engeren Sinn die Februarrevolution 1917, welche das Ende der zaristischen Autokratie zur Folge hatte, und die Oktoberrevolution, die Machtergreifung der Bolschewiki, im selben Jahr."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1357,
+     "output_tokens": 64,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Schwarzes Loch",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "271552605-0000",
+    "271552605-0002",
+    "271552605-0003",
+    "271552605-0004",
+    "271552605-0005",
+    "271552605-0006",
+    "271552605-0007",
+    "271552605-0008",
+    "271552605-0010",
+    "271552605-0012",
+    "271552605-0013",
+    "271552605-0014",
+    "271552605-0016"
+   ],
+   "facts": [
+    "271552605-0000",
+    "271552605-0002",
+    "271552605-0003",
+    "271552605-0004",
+    "271552605-0005",
+    "271552605-0006",
+    "271552605-0007",
+    "271552605-0008",
+    "271552605-0010",
+    "271552605-0012",
+    "271552605-0013",
+    "271552605-0014",
+    "271552605-0016"
+   ],
+   "extraction": {
+    "revid": 271552605,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "271552605-0000",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Ein Schwarzes Loch ist ein Objekt, dessen Masse die Raumzeit so stark krümmt, dass Materie, Licht und damit auch jegliche Information auf einen bestimmten Bereich der Raumzeit beschränkt bleibt und diesen nicht mehr unmittelbar verlassen kann.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271552605-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die Bezeichnung Schwarzes Loch wurde im Jahr 1967 durch John Archibald Wheeler etabliert.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271552605-0003",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271552605-0002"
+      ],
+      "plain": "Zu jener Zeit galt die Existenz der erst theoretisch beschriebenen Schwarzen Löcher zwar als sehr wahrscheinlich, war aber noch nicht durch Beobachtungen bestätigt.",
+      "context_plain": [
+       "Die Bezeichnung Schwarzes Loch wurde im Jahr 1967 durch John Archibald Wheeler etabliert."
+      ]
+     },
+     {
+      "segment_id": "271552605-0004",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Später wurden zahlreiche Beispiele für Auswirkungen Schwarzer Löcher beobachtet, z. B. ab 1992 die Untersuchungen des supermassereichen Schwarzen Lochs Sagittarius A* im Zentrum der Milchstraße im Infrarotbereich.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271552605-0005",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "2016 wurde die Fusion zweier Schwarzer Löcher über die dabei erzeugten Gravitationswellen durch LIGO beobachtet und 2019 gelang eine radioteleskopische Aufnahme eines Bildes des supermassereichen Schwarzen Lochs M87* im Zentrum der Galaxie M87 mit dem Event Horizon Telescope.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271552605-0006",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "2022 gelang die Abbildung des Schwarzen Lochs Sagittarius A* im Zentrum der Milchstraße ebenfalls mit dem Event Horizon Telescope.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271552605-0007",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "In der Ansicht eines Schwarzen Lochs kann also von einem weit entfernten Beobachter im Zentrum ein dunkler bis schwarzer Bereich nachgewiesen werden.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271552605-0008",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271552605-0007"
+      ],
+      "plain": "Dieser Bereich wird Schatten des Schwarzen Lochs genannt und sollte nicht mit der mathematischen Fläche des Ereignishorizontes verwechselt werden.",
+      "context_plain": [
+       "In der Ansicht eines Schwarzen Lochs kann also von einem weit entfernten Beobachter im Zentrum ein dunkler bis schwarzer Bereich nachgewiesen werden."
+      ]
+     },
+     {
+      "segment_id": "271552605-0010",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271552605-0009"
+      ],
+      "plain": "Die gekrümmte Raumzeit um den Ereignishorizont wirkt also als Gravitationslinse.",
+      "context_plain": [
+       "Die genaue Form des Schattens hängt aufgrund der Verzerrung der Lichtstrahlen im Bereich außerhalb des Ereignishorizontes auch leicht vom Ort des entfernten Beobachters ab."
+      ]
+     },
+     {
+      "segment_id": "271552605-0012",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Stellare Schwarze Löcher entstehen, wenn in einem gealterten massereichen Stern der Strahlungsdruck von innen dem Gasdruck der äußeren Schichten nicht mehr standhalten kann und der Stern kollabiert.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271552605-0013",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Supermassereiche Schwarze Löcher von millionen- bis milliardenfacher Sonnenmasse dagegen stehen im Zentrum von Galaxien und spielen eine wichtige Rolle in deren Entwicklung.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271552605-0014",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die Anzahl stellarer Schwarzer Löcher im beobachtbaren Universum wird auf 40 Trillionen geschätzt, wobei sie rund ein Prozent der gewöhnlichen Materie umfassen.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271552605-0016",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Außerhalb des Ereignishorizonts kann sich ein inaktives Schwarzes Loch wie ein normaler Massekörper verhalten und von anderen Himmelskörpern auf stabilen Bahnen umrundet werden.",
+      "context_plain": []
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 2643,
+     "output_tokens": 331,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Staubexplosion",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "268019557-0002"
+   ],
+   "facts": [
+    "268019557-0002"
+   ],
+   "extraction": {
+    "revid": 268019557,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "268019557-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "268019557-0000",
+       "268019557-0001"
+      ],
+      "plain": "Pyrotechniker verwenden kontrollierte Staubexplosionen von Bärlappsporen, um auf Bühnen Feuereffekte und Verpuffungen zu erzeugen.",
+      "context_plain": [
+       "Eine Staubexplosion ist die Variante einer Explosion, bei der in der Luft feinverteilte feste Stoffpartikel gezündet werden.",
+       "Die Folge ist eine plötzlich verlaufende Kraftentfaltung, die auf dem Ausdehnungsbestreben von plötzlich erhitzten Gasen und Dämpfen beruht."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1163,
+     "output_tokens": 48,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Teilchenphysik",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [],
+   "facts": [],
+   "extraction": {
+    "revid": 271785061,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1027,
+     "output_tokens": 11,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "TNT-Äquivalent",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "269011690-0000",
+    "269011690-0001",
+    "269011690-0002"
+   ],
+   "facts": [
+    "269011690-0000",
+    "269011690-0001",
+    "269011690-0002"
+   ],
+   "extraction": {
+    "revid": 269011690,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "269011690-0000",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Physikalische Einheit Einheitenname TNT-Äquivalent Physikalische Größen Energie, innere Energie, chemische Energie Formelzeichen W;E Dimension 𝖬𝖫𝟤𝖳−𝟤 In SI-Einheiten 1 kgTNT = 4,184 MJ 1 kT = 4,184 TJ Abgeleitet von Energiefreisetzung eines Kilogramms TNT TNT-Äquivalent ist eine nicht SI-konforme, aber weiterhin gebräuchliche Maßeinheit für die bei einer Explosion freiwerdende Energie.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "269011690-0001",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "269011690-0000"
+      ],
+      "plain": "Die Angabe bezieht sich auf die gesamte freiwerdende Energie, nicht nur auf die kinetische Energie, die zum Beispiel bei Kernwaffen deutlich geringer als die Gesamtenergie sein kann.",
+      "context_plain": [
+       "Physikalische Einheit Einheitenname TNT-Äquivalent Physikalische Größen Energie, innere Energie, chemische Energie Formelzeichen W;E Dimension 𝖬𝖫𝟤𝖳−𝟤 In SI-Einheiten 1 kgTNT = 4,184 MJ 1 kT = 4,184 TJ Abgeleitet von Energiefreisetzung eines Kilogramms TNT TNT-Äquivalent ist eine nicht SI-konforme, aber weiterhin gebräuchliche Maßeinheit für die bei einer Explosion freiwerdende Energie."
+      ]
+     },
+     {
+      "segment_id": "269011690-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "269011690-0001"
+      ],
+      "plain": "Deswegen ist die Sprengkraft nur bedingt mit der einer entsprechenden Menge des Sprengstoffs TNT vergleichbar.",
+      "context_plain": [
+       "Die Angabe bezieht sich auf die gesamte freiwerdende Energie, nicht nur auf die kinetische Energie, die zum Beispiel bei Kernwaffen deutlich geringer als die Gesamtenergie sein kann."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1441,
+     "output_tokens": 487,
+     "output_tokens_details": {
+      "thinking_tokens": 393
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Trapper",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "266850403-0000",
+    "266850403-0001",
+    "266850403-0002"
+   ],
+   "facts": [
+    "266850403-0000",
+    "266850403-0001",
+    "266850403-0002"
+   ],
+   "extraction": {
+    "revid": 266850403,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "266850403-0000",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Ein Trapper (von englisch trap ‚Falle‘) ist ein nordamerikanischer Fallensteller und Pelztier-Jäger.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "266850403-0001",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "266850403-0000"
+      ],
+      "plain": "Der Begriff wird hauptsächlich für Männer verwendet, die während der ersten Hälfte des 19. Jahrhunderts während der letzten Hochphase des Pelzhandels in Nordamerika aktiv waren.",
+      "context_plain": [
+       "Ein Trapper (von englisch trap ‚Falle‘) ist ein nordamerikanischer Fallensteller und Pelztier-Jäger."
+      ]
+     },
+     {
+      "segment_id": "266850403-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die Trapper der Rocky Mountains werden als Mountain Men bezeichnet.",
+      "context_plain": []
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1164,
+     "output_tokens": 409,
+     "output_tokens_details": {
+      "thinking_tokens": 322
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "UFO",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "270575891-0000",
+    "270575891-0003",
+    "270575891-0004",
+    "270575891-0005",
+    "270575891-0006",
+    "270575891-0007",
+    "270575891-0008"
+   ],
+   "facts": [
+    "270575891-0000",
+    "270575891-0003",
+    "270575891-0004",
+    "270575891-0005",
+    "270575891-0006",
+    "270575891-0007",
+    "270575891-0008"
+   ],
+   "extraction": {
+    "revid": 270575891,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "270575891-0000",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "UFO, auch Ufo, ist ursprünglich eine Abkürzung für unidentifiziertes Flugobjekt (englisch unidentified flying object).",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270575891-0003",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "270575891-0002"
+      ],
+      "plain": "Ursprünglich bürgerte sich der Begriff „Fliegende Untertasse“ aufgrund erster Zeitungsberichte über UFOs ein.",
+      "context_plain": [
+       "Als Begriff der Umgangssprache bezeichnet „Ufo“ Raumfahrzeuge hypothetischer außerirdischer Lebewesen."
+      ]
+     },
+     {
+      "segment_id": "270575891-0004",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "270575891-0003"
+      ],
+      "plain": "Bis heute prägt das Bild der Fliegenden Untertasse menschliche Vorstellungen davon, wie Raumfahrzeuge hypothetischer außerirdischer Lebewesen typischerweise aussehen könnten.",
+      "context_plain": [
+       "Ursprünglich bürgerte sich der Begriff „Fliegende Untertasse“ aufgrund erster Zeitungsberichte über UFOs ein."
+      ]
+     },
+     {
+      "segment_id": "270575891-0005",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Um den umgangssprachlich missverständlichen Begriff UFO zu vermeiden, wird von einigen Untersuchern für die mit der ursprünglichen Abkürzung bezeichneten Phänomene der Begriff „UAP“ für Unidentified Aerial Phenomena aber mittlerweile vor allem Unidentified Anomalous Phenomena benutzt, zu deutsch Unidentifizierte Anomale Phänomene.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270575891-0006",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "In der sogenannten Ufologie wird zwischen Beobachtungen von „UFOs im weiteren Sinne“, die nach genauerer Überprüfung als bekannte Objekte oder Phänomene identifiziert werden können, und Beobachtungen von „UFOs im engeren Sinne“, die auch nach genauerer Überprüfung nicht identifiziert werden können, unterschieden.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270575891-0007",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "270575891-0006"
+      ],
+      "plain": "„UFOs im weiteren Sinne“ machen den größten Teil der UFO-Sichtungen aus.",
+      "context_plain": [
+       "In der sogenannten Ufologie wird zwischen Beobachtungen von „UFOs im weiteren Sinne“, die nach genauerer Überprüfung als bekannte Objekte oder Phänomene identifiziert werden können, und Beobachtungen von „UFOs im engeren Sinne“, die auch nach genauerer Überprüfung nicht identifiziert werden können, unterschieden."
+      ]
+     },
+     {
+      "segment_id": "270575891-0008",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "270575891-0007"
+      ],
+      "plain": "Ein wissenschaftlicher Nachweis dafür, dass solche „UFO-Beobachtungen“ auf die Existenz außerirdischer Besucher der Erde zurückzuführen wären, existiert nicht.",
+      "context_plain": [
+       "„UFOs im weiteren Sinne“ machen den größten Teil der UFO-Sichtungen aus."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1891,
+     "output_tokens": 676,
+     "output_tokens_details": {
+      "thinking_tokens": 476
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "UFOs",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [],
+   "facts": [],
+   "extraction": {
+    "revid": 272196674,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1589,
+     "output_tokens": 246,
+     "output_tokens_details": {
+      "thinking_tokens": 235
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Universität Melbourne",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "268598114-0000",
+    "268598114-0005",
+    "268598114-0009",
+    "268598114-0012",
+    "268598114-0013",
+    "268598114-0014",
+    "268598114-0015",
+    "268598114-0016",
+    "268598114-0017",
+    "268598114-0018"
+   ],
+   "facts": [
+    "268598114-0000",
+    "268598114-0005",
+    "268598114-0009",
+    "268598114-0012",
+    "268598114-0013",
+    "268598114-0014",
+    "268598114-0015",
+    "268598114-0016",
+    "268598114-0017",
+    "268598114-0018"
+   ],
+   "extraction": {
+    "revid": 268598114,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "268598114-0000",
+      "type": "infobox_row",
+      "section": "",
+      "context_ids": [],
+      "plain": "Infobox Hochschule – Motto: Postera crescam laude „May I grow / I will grow in the esteem of future generations“",
+      "context_plain": []
+     },
+     {
+      "segment_id": "268598114-0005",
+      "type": "infobox_row",
+      "section": "",
+      "context_ids": [],
+      "plain": "Infobox Hochschule – Studierende: 69.908 (2020)",
+      "context_plain": []
+     },
+     {
+      "segment_id": "268598114-0009",
+      "type": "infobox_row",
+      "section": "",
+      "context_ids": [],
+      "plain": "Infobox Hochschule – Stiftungsvermögen: 1,73 Mrd. AU$",
+      "context_plain": []
+     },
+     {
+      "segment_id": "268598114-0012",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die Universität Melbourne (englisch University of Melbourne) ist eine staatliche Universität in der australischen Stadt Melbourne und nach der Monash University und der RMIT University die drittgrößte Universität des australischen Bundesstaates Victoria.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "268598114-0013",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "268598114-0012"
+      ],
+      "plain": "Sie wurde 1853 gegründet und ist damit die älteste Universität im Bundesstaat Victoria und die zweitälteste Universität Australiens.",
+      "context_plain": [
+       "Die Universität Melbourne (englisch University of Melbourne) ist eine staatliche Universität in der australischen Stadt Melbourne und nach der Monash University und der RMIT University die drittgrößte Universität des australischen Bundesstaates Victoria."
+      ]
+     },
+     {
+      "segment_id": "268598114-0014",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die Universität ist Mitglied der Group of Eight, einem australischen Hochschulverband, dem die acht führenden Universitäten des Landes angehören.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "268598114-0015",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "268598114-0012",
+       "268598114-0013",
+       "268598114-0014"
+      ],
+      "plain": "Laut den World University Rankings 2015/2016 der Times Higher Education ist sie mit Platz 33 der Weltrangliste die beste Universität Ozeaniens.",
+      "context_plain": [
+       "Die Universität Melbourne (englisch University of Melbourne) ist eine staatliche Universität in der australischen Stadt Melbourne und nach der Monash University und der RMIT University die drittgrößte Universität des australischen Bundesstaates Victoria.",
+       "Sie wurde 1853 gegründet und ist damit die älteste Universität im Bundesstaat Victoria und die zweitälteste Universität Australiens.",
+       "Die Universität ist Mitglied der Group of Eight, einem australischen Hochschulverband, dem die acht führenden Universitäten des Landes angehören."
+      ]
+     },
+     {
+      "segment_id": "268598114-0016",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "In einigen Fachbereichen zählt die Universität zu den weltweit führenden Institutionen.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "268598114-0017",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Im QS World University Ranking belegt die Universität 2014 im Fachbereich Pädagogik weltweit den 2. Platz, in Accounting & Finance den 8. Platz, in Rechtswissenschaften ebenfalls den 8. Platz sowie in Psychologie den 10. Platz.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "268598114-0018",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "268598114-0016",
+       "268598114-0017"
+      ],
+      "plain": "Im Fachbereich Medizin belegt sie den 12. Platz und in Informatik & Wirtschaftsinformatik aktuell den 15. Platz.",
+      "context_plain": [
+       "In einigen Fachbereichen zählt die Universität zu den weltweit führenden Institutionen.",
+       "Im QS World University Ranking belegt die Universität 2014 im Fachbereich Pädagogik weltweit den 2. Platz, in Accounting & Finance den 8. Platz, in Rechtswissenschaften ebenfalls den 8. Platz sowie in Psychologie den 10. Platz."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 2043,
+     "output_tokens": 1006,
+     "output_tokens_details": {
+      "thinking_tokens": 723
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Venus (Planet)",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "271186006-0020",
+    "271186006-0022",
+    "271186006-0023",
+    "271186006-0024",
+    "271186006-0025",
+    "271186006-0026",
+    "271186006-0027",
+    "271186006-0028",
+    "271186006-0030",
+    "271186006-0012",
+    "271186006-0013",
+    "271186006-0017",
+    "271186006-0029"
+   ],
+   "facts": [
+    "271186006-0020",
+    "271186006-0022",
+    "271186006-0023",
+    "271186006-0024",
+    "271186006-0025",
+    "271186006-0026",
+    "271186006-0027",
+    "271186006-0028",
+    "271186006-0030",
+    "271186006-0012",
+    "271186006-0013",
+    "271186006-0017"
+   ],
+   "extraction": {
+    "revid": 271186006,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "271186006-0020",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die Venus (IPA: [ˈveːnʊs] anhörenⓘ) ist mit einer durchschnittlichen Sonnenentfernung von 108 Millionen Kilometern der zweitinnerste und mit einem Durchmesser von ca. 12.100 Kilometern der drittkleinste Planet des Sonnensystems.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271186006-0022",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die Venus ist der Planet, der auf seiner Umlaufbahn der Erdbahn mit einem minimalen Abstand von 38 Millionen Kilometern am nächsten kommt.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271186006-0023",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271186006-0022"
+      ],
+      "plain": "Sie hat eine ähnliche Größe wie die Erde, unterscheidet sich aber in Bezug auf die Geologie und vor allem hinsichtlich ihrer Atmosphäre.",
+      "context_plain": [
+       "Die Venus ist der Planet, der auf seiner Umlaufbahn der Erdbahn mit einem minimalen Abstand von 38 Millionen Kilometern am nächsten kommt."
+      ]
+     },
+     {
+      "segment_id": "271186006-0024",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271186006-0023"
+      ],
+      "plain": "Diese besteht zu 96 % aus Kohlenstoffdioxid und ihr Oberflächendruck ist 90-mal höher als auf der Erde.",
+      "context_plain": [
+       "Sie hat eine ähnliche Größe wie die Erde, unterscheidet sich aber in Bezug auf die Geologie und vor allem hinsichtlich ihrer Atmosphäre."
+      ]
+     },
+     {
+      "segment_id": "271186006-0025",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Nach Sonne und Mond ist die Venus das hellste astronomische Objekt am nächtlichen Himmel.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271186006-0026",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271186006-0025"
+      ],
+      "plain": "Weil sie als einer der unteren Planeten nur am Morgen- oder Abendhimmel sichtbar ist und nie gegen Mitternacht, wird sie auch Morgenstern und Abendstern genannt.",
+      "context_plain": [
+       "Nach Sonne und Mond ist die Venus das hellste astronomische Objekt am nächtlichen Himmel."
+      ]
+     },
+     {
+      "segment_id": "271186006-0027",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271186006-0026"
+      ],
+      "plain": "Schon mit einem kleinen Fernrohr ist sie auch am Taghimmel beobachtbar, manchmal sogar freiäugig.",
+      "context_plain": [
+       "Weil sie als einer der unteren Planeten nur am Morgen- oder Abendhimmel sichtbar ist und nie gegen Mitternacht, wird sie auch Morgenstern und Abendstern genannt."
+      ]
+     },
+     {
+      "segment_id": "271186006-0028",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271186006-0027"
+      ],
+      "plain": "Doch auch bei Erdnähe (ca. alle eineinhalb Jahre) lassen sich nur die Wolkenstreifen der äußerst dichten Atmosphäre erkennen.",
+      "context_plain": [
+       "Schon mit einem kleinen Fernrohr ist sie auch am Taghimmel beobachtbar, manchmal sogar freiäugig."
+      ]
+     },
+     {
+      "segment_id": "271186006-0030",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Das astronomische Symbol des Planeten Venus, das Venussymbol ♀, gilt als stilisierte Repräsentation des Handspiegels der namensgebenden römischen Liebesgöttin Venus.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271186006-0012",
+      "type": "infobox_row",
+      "section": "",
+      "context_ids": [],
+      "plain": "Infobox Planet – Hauptbestandteile (Stoffanteil der oberen Schichten) {{{Hauptbestandteile}}} – Rotationsperiode: 243,025 Tage",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271186006-0013",
+      "type": "infobox_row",
+      "section": "",
+      "context_ids": [],
+      "plain": "Infobox Planet – Hauptbestandteile (Stoffanteil der oberen Schichten) {{{Hauptbestandteile}}} – Neigung der Rotationsachse: 177,36°",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271186006-0017",
+      "type": "infobox_row",
+      "section": "",
+      "context_ids": [],
+      "plain": "Infobox Planet – Atmosphäre – Temperatur∗ Min. – Mittel – Max.: 737 K (464 °C)",
+      "context_plain": []
+     }
+    ],
+    "rejected": [
+     {
+      "segment_id": "271186006-0029",
+      "reason": "too_short"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 3073,
+     "output_tokens": 1283,
+     "output_tokens_details": {
+      "thinking_tokens": 931
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Verneshot",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "226821054-0000",
+    "226821054-0001"
+   ],
+   "facts": [
+    "226821054-0000",
+    "226821054-0001"
+   ],
+   "extraction": {
+    "revid": 226821054,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "226821054-0000",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Ein Verneshot (dt. etwa Verne-Ausstoß, Verne-Schuss oder Verne-Eruption, benannt nach dem französischen Autor Jules Verne) ist nach der Hypothese einer Arbeitsgruppe um den amerikanischen Geologen Jason Phipps Morgan (damals am GEOMAR in Kiel, heute an der Cornell University in Ithaca, NY) eine vulkanische Eruption, die durch massiven Druckaufbau von Gas unterhalb der Erdkruste eines Kratons entsteht.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "226821054-0001",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "226821054-0000"
+      ],
+      "plain": "Ein solches Ereignis könnte der Theorie zufolge genügend Energie freisetzen, um große Mengen von Material aus der Erdkruste und dem Erdmantel in eine suborbitale Flugbahn zu befördern.",
+      "context_plain": [
+       "Ein Verneshot (dt. etwa Verne-Ausstoß, Verne-Schuss oder Verne-Eruption, benannt nach dem französischen Autor Jules Verne) ist nach der Hypothese einer Arbeitsgruppe um den amerikanischen Geologen Jason Phipps Morgan (damals am GEOMAR in Kiel, heute an der Cornell University in Ithaca, NY) eine vulkanische Eruption, die durch massiven Druckaufbau von Gas unterhalb der Erdkruste eines Kratons entsteht."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1323,
+     "output_tokens": 64,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Wladimir Iljitsch Lenin",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "271814085-0001",
+    "271814085-0002",
+    "271814085-0003",
+    "271814085-0004",
+    "271814085-0005",
+    "271814085-0006",
+    "271814085-0007",
+    "271814085-0008",
+    "271814085-0009",
+    "271814085-0013",
+    "271814085-0014"
+   ],
+   "facts": [
+    "271814085-0001",
+    "271814085-0002",
+    "271814085-0003",
+    "271814085-0004",
+    "271814085-0005",
+    "271814085-0006",
+    "271814085-0007",
+    "271814085-0008",
+    "271814085-0009",
+    "271814085-0013",
+    "271814085-0014"
+   ],
+   "extraction": {
+    "revid": 271814085,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "271814085-0001",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271814085-0000"
+      ],
+      "plain": "Nachdem sein Bruder Alexander Uljanow 1887 wegen eines geplanten Attentats auf den russischen Kaiser Alexander III. hingerichtet worden war, schloss sich Lenin (so sein Kampfname) den marxistischen Sozialdemokraten an und widmete sich der Untergrundarbeit für eine kommunistische Revolution in Russland.",
+      "context_plain": [
+       "Wladimir Iljitsch Lenin (russisch Влади́мир Ильи́ч Ле́нин, wissenschaftliche Transliteration Vladimir Il’ič Lenin, eigentlich Wladimir Iljitsch Uljanow russisch Влади́мир Ильи́ч Улья́нов, wissenschaftliche Transliteration Ul’janov, anhörenⓘ; geboren am 10.jul. / 22. April 1870greg. in Simbirsk, Russisches Kaiserreich; gestorben am 21. Januar 1924 in Wyschnije Gorki, Russische SFSR, Sowjetunion) war ein russischer Politiker und kommunistischer Revolutionär sowie marxistischer Theoretiker, Vorsitzender der Bolschewiki (1903–1924), Regierungschef der Russischen SFSR (1917–1924) und der Sowjetunion (1922–1924), als deren Begründer er gilt."
+      ]
+     },
+     {
+      "segment_id": "271814085-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271814085-0001"
+      ],
+      "plain": "Mehrmals musste er ins Exil emigrieren, die meiste Zeit in die Schweiz.",
+      "context_plain": [
+       "Nachdem sein Bruder Alexander Uljanow 1887 wegen eines geplanten Attentats auf den russischen Kaiser Alexander III. hingerichtet worden war, schloss sich Lenin (so sein Kampfname) den marxistischen Sozialdemokraten an und widmete sich der Untergrundarbeit für eine kommunistische Revolution in Russland."
+      ]
+     },
+     {
+      "segment_id": "271814085-0003",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Er gründete 1903 eine eigene Fraktion in der Sozialdemokratischen Arbeiterpartei Russlands, die Bolschewiki, die spätere Kommunistische Partei Russlands.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271814085-0004",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Nachdem im Ersten Weltkrieg die Februarrevolution 1917 das Kaisertum in Russland gestürzt und die neue Regierung den Krieg fortgesetzt hatte, eroberten die Bolschewiki unter Lenins Führung in der Oktoberrevolution die Macht.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271814085-0005",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271814085-0004"
+      ],
+      "plain": "Sie lösten die verfassungsgebende Versammlung gewaltsam auf, schränkten die Meinungsfreiheit teilweise ein und beendeten mit dem Friedensvertrag von Brest-Litowsk die Kriegsteilnahme Russlands.",
+      "context_plain": [
+       "Nachdem im Ersten Weltkrieg die Februarrevolution 1917 das Kaisertum in Russland gestürzt und die neue Regierung den Krieg fortgesetzt hatte, eroberten die Bolschewiki unter Lenins Führung in der Oktoberrevolution die Macht."
+      ]
+     },
+     {
+      "segment_id": "271814085-0006",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271814085-0005"
+      ],
+      "plain": "Es gelang den Bolschewiken im zugleich beginnenden Bürgerkrieg, den Großteil der Gebiete des ehemaligen Russischen Reiches unter ihre Kontrolle zu bringen und den Widerstand der Weißen Armeen und auch anderer gegnerischer Bürgerkriegsparteien militärisch und durch Einsatz des roten Terrors zu brechen, trotz der materiellen Unterstützung der Weißen Armee durch zahlreiche ausländische Mächte und der zeitweiligen Besetzung russischer Gebiete durch andere Staaten.",
+      "context_plain": [
+       "Sie lösten die verfassungsgebende Versammlung gewaltsam auf, schränkten die Meinungsfreiheit teilweise ein und beendeten mit dem Friedensvertrag von Brest-Litowsk die Kriegsteilnahme Russlands."
+      ]
+     },
+     {
+      "segment_id": "271814085-0007",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Gegen Ende des Krieges, 1922, gründeten die Bolschewiki die Union der Sozialistischen Sowjetrepubliken.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271814085-0008",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271814085-0007"
+      ],
+      "plain": "Zu dieser Zeit war Lenin bereits schwer krank.",
+      "context_plain": [
+       "Gegen Ende des Krieges, 1922, gründeten die Bolschewiki die Union der Sozialistischen Sowjetrepubliken."
+      ]
+     },
+     {
+      "segment_id": "271814085-0009",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271814085-0008"
+      ],
+      "plain": "Nach seinem Tod 1924 wurde sein Leichnam einbalsamiert und in einem Mausoleum an der Mauer des Kremls aufgebahrt.",
+      "context_plain": [
+       "Zu dieser Zeit war Lenin bereits schwer krank."
+      ]
+     },
+     {
+      "segment_id": "271814085-0013",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271814085-0012"
+      ],
+      "plain": "Nach Lenins Tod, seit der Zeit des Stalinismus, wurde daraus die Ideologie des Marxismus-Leninismus konstruiert.",
+      "context_plain": [
+       "Anschauungen, die in den Schriften Karl Marx’ ein geschlossenes Ideologiegebilde erkennen, betrachten Lenin als herausragenden Theoretiker, der dem Marxismus mit dem Leninismus eine maßgebliche Weiterentwicklung gab."
+      ]
+     },
+     {
+      "segment_id": "271814085-0014",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271814085-0013"
+      ],
+      "plain": "Auf der anderen Seite stehen Verweise auf die schweren Menschenrechtsverletzungen, seinen Dogmatismus und antidemokratische Tendenzen, die mit modernen Sozialismuskonzepten nicht vereinbar seien.",
+      "context_plain": [
+       "Nach Lenins Tod, seit der Zeit des Stalinismus, wurde daraus die Ideologie des Marxismus-Leninismus konstruiert."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 3063,
+     "output_tokens": 320,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  }
+ ]
+}

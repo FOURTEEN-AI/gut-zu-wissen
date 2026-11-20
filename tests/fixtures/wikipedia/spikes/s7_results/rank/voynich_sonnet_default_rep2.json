@@ -1,0 +1,84 @@
+{
+ "name": "voynich_sonnet_default_rep2",
+ "article": "voynich",
+ "model": "claude-sonnet-5-5",
+ "effort": null,
+ "summary": {
+  "calls": 2,
+  "errors": 0,
+  "input_tokens": 17028,
+  "output_tokens": 711,
+  "thinking_tokens": 473,
+  "usd_paid": 0.0206,
+  "usd_list": 0.0412
+ },
+ "ranked": {
+  "main": [
+   "271345560-0146",
+   "271345560-0317",
+   "271345560-0158",
+   "271345560-0025",
+   "271345560-0228",
+   "271345560-0170",
+   "271345560-0190",
+   "271345560-0045",
+   "271345560-0044",
+   "271345560-0033",
+   "271345560-0036",
+   "271345560-0054",
+   "271345560-0083",
+   "271345560-0272",
+   "271345560-0273",
+   "271345560-0285",
+   "271345560-0292",
+   "271345560-0315",
+   "271345560-0256",
+   "271345560-0278",
+   "271345560-0162",
+   "271345560-0143",
+   "271345560-0261",
+   "271345560-0335",
+   "271345560-0084",
+   "271345560-0179",
+   "271345560-0231",
+   "271345560-0248",
+   "271345560-0204",
+   "271345560-0012"
+  ],
+  "linked": []
+ },
+ "usage": {
+  "main": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 14042,
+   "output_tokens": 224,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "service_tier": "batch",
+   "speed": "standard"
+  },
+  "linked": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 2986,
+   "output_tokens": 487,
+   "output_tokens_details": {
+    "thinking_tokens": 473
+   },
+   "service_tier": "batch",
+   "speed": "standard"
+  }
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "name": "chain_helgoland_haiku_default_by_sonnet",
+ "article": "helgoland",
+ "model": "claude-sonnet-5-5",
+ "effort": null,
+ "summary": {
+  "calls": 2,
+  "errors": 0,
+  "input_tokens": 82817,
+  "output_tokens": 357,
+  "thinking_tokens": 0,
+  "usd_paid": 0.0846,
+  "usd_list": 0.1692
+ },
+ "ranked": {
+  "main": [
+   "272085229-0558",
+   "272085229-0478",
+   "272085229-0942",
+   "272085229-0194",
+   "272085229-0507",
+   "272085229-0453",
+   "272085229-0422",
+   "272085229-0561",
+   "272085229-0842",
+   "272085229-0826",
+   "272085229-0286",
+   "272085229-0298",
+   "272085229-0350",
+   "272085229-0406",
+   "272085229-0730",
+   "272085229-0447",
+   "272085229-0021",
+   "272085229-0015",
+   "272085229-0245",
+   "272085229-0252",
+   "272085229-0896",
+   "272085229-0058",
+   "272085229-0165",
+   "272085229-0385",
+   "272085229-0785",
+   "272085229-0844",
+   "272085229-0886",
+   "272085229-0538",
+   "272085229-0465",
+   "272085229-0630",
+   "272085229-0146",
+   "272085229-0462",
+   "272085229-0444",
+   "272085229-0491",
+   "272085229-0292",
+   "272085229-0333",
+   "272085229-0746",
+   "272085229-0669",
+   "272085229-0301"
+  ],
+  "linked": [
+   "272091002-0001",
+   "270086679-0000",
+   "270393785-0001",
+   "272091002-0004",
+   "270086679-0006",
+   "266510031-0001",
+   "272091002-0000"
+  ]
+ },
+ "usage": {
+  "main": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 64831,
+   "output_tokens": 294,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "service_tier": "batch",
+   "speed": "standard"
+  },
+  "linked": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 17986,
+   "output_tokens": 63,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "service_tier": "batch",
+   "speed": "standard"
+  }
+ }
+}

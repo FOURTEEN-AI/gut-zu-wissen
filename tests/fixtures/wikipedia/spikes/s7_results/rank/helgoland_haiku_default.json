@@ -1,0 +1,100 @@
+{
+ "name": "helgoland_haiku_default",
+ "article": "helgoland",
+ "model": "claude-haiku-5-5",
+ "effort": null,
+ "summary": {
+  "calls": 2,
+  "errors": 0,
+  "input_tokens": 63436,
+  "output_tokens": 1136,
+  "thinking_tokens": 765,
+  "usd_paid": 0.0035,
+  "usd_list": 0.0069
+ },
+ "ranked": {
+  "main": [
+   "272085229-0420",
+   "272085229-0042",
+   "272085229-0044",
+   "272085229-0055",
+   "272085229-0165",
+   "272085229-0054",
+   "272085229-0018",
+   "272085229-0037",
+   "272085229-0060",
+   "272085229-0109",
+   "272085229-0255",
+   "272085229-0358",
+   "272085229-0194",
+   "272085229-0558",
+   "272085229-0453",
+   "272085229-0454",
+   "272085229-0455",
+   "272085229-0499",
+   "272085229-0364",
+   "272085229-0439",
+   "272085229-0286",
+   "272085229-0288",
+   "272085229-0292",
+   "272085229-0299",
+   "272085229-0746",
+   "272085229-0822",
+   "272085229-0826",
+   "272085229-0744",
+   "272085229-0800",
+   "272085229-0811",
+   "272085229-0561",
+   "272085229-0478",
+   "272085229-0721",
+   "272085229-0730",
+   "272085229-0269",
+   "272085229-0056",
+   "272085229-0058",
+   "272085229-0023",
+   "272085229-0021",
+   "272085229-0185"
+  ],
+  "linked": [
+   "270086679-0006",
+   "272091002-0001",
+   "272091002-0004",
+   "270393785-0001",
+   "272091002-0003"
+  ]
+ },
+ "usage": {
+  "main": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 49965,
+   "output_tokens": 322,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "service_tier": "batch",
+   "speed": "standard"
+  },
+  "linked": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 13471,
+   "output_tokens": 814,
+   "output_tokens_details": {
+    "thinking_tokens": 765
+   },
+   "service_tier": "batch",
+   "speed": "standard"
+  }
+ }
+}

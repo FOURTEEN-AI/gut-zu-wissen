@@ -1,0 +1,3721 @@
+{
+ "name": "voynich_sonnet_low",
+ "article": "voynich",
+ "model": "claude-sonnet-5-5",
+ "effort": "low",
+ "summary": {
+  "calls": 61,
+  "errors": 0,
+  "input_tokens": 93830,
+  "output_tokens": 6443,
+  "thinking_tokens": 0,
+  "usd_paid": 0.126,
+  "usd_list": 0.2521
+ },
+ "sources": [
+  {
+   "source": "main",
+   "calls": 45,
+   "errors": 0,
+   "proposed": [
+    "271345560-0000",
+    "271345560-0002",
+    "271345560-0003",
+    "271345560-0005",
+    "271345560-0012",
+    "271345560-0011",
+    "271345560-0009",
+    "271345560-0017",
+    "271345560-0019",
+    "271345560-0021",
+    "271345560-0025",
+    "271345560-0027",
+    "271345560-0015",
+    "271345560-0028",
+    "271345560-0032",
+    "271345560-0033",
+    "271345560-0035",
+    "271345560-0038",
+    "271345560-0040",
+    "271345560-0044",
+    "271345560-0045",
+    "271345560-0048",
+    "271345560-0050",
+    "271345560-0054",
+    "271345560-0056",
+    "271345560-0057",
+    "271345560-0063",
+    "271345560-0066",
+    "271345560-0062",
+    "271345560-0074",
+    "271345560-0075",
+    "271345560-0080",
+    "271345560-0081",
+    "271345560-0083",
+    "271345560-0084",
+    "271345560-0085",
+    "271345560-0090",
+    "271345560-0092",
+    "271345560-0097",
+    "271345560-0094",
+    "271345560-0100",
+    "271345560-0101",
+    "271345560-0099",
+    "271345560-0104",
+    "271345560-0106",
+    "271345560-0111",
+    "271345560-0113",
+    "271345560-0114",
+    "271345560-0116",
+    "271345560-0128",
+    "271345560-0134",
+    "271345560-0135",
+    "271345560-0137",
+    "271345560-0143",
+    "271345560-0146",
+    "271345560-0141",
+    "271345560-0149",
+    "271345560-0152",
+    "271345560-0157",
+    "271345560-0154",
+    "271345560-0159",
+    "271345560-0162",
+    "271345560-0163",
+    "271345560-0166",
+    "271345560-0169",
+    "271345560-0170",
+    "271345560-0171",
+    "271345560-0174",
+    "271345560-0176",
+    "271345560-0179",
+    "271345560-0184",
+    "271345560-0188",
+    "271345560-0190",
+    "271345560-0195",
+    "271345560-0192",
+    "271345560-0200",
+    "271345560-0204",
+    "271345560-0205",
+    "271345560-0202",
+    "271345560-0210",
+    "271345560-0212",
+    "271345560-0208",
+    "271345560-0214",
+    "271345560-0215",
+    "271345560-0216",
+    "271345560-0218",
+    "271345560-0219",
+    "271345560-0221",
+    "271345560-0223",
+    "271345560-0225",
+    "271345560-0226",
+    "271345560-0227",
+    "271345560-0228",
+    "271345560-0230",
+    "271345560-0231",
+    "271345560-0233",
+    "271345560-0234",
+    "271345560-0238",
+    "271345560-0240",
+    "271345560-0245",
+    "271345560-0236",
+    "271345560-0248",
+    "271345560-0247",
+    "271345560-0249",
+    "271345560-0251",
+    "271345560-0253",
+    "271345560-0254",
+    "271345560-0256",
+    "271345560-0258",
+    "271345560-0260",
+    "271345560-0261",
+    "271345560-0262",
+    "271345560-0265",
+    "271345560-0267",
+    "271345560-0268",
+    "271345560-0271",
+    "271345560-0273",
+    "271345560-0274",
+    "271345560-0275",
+    "271345560-0277",
+    "271345560-0278",
+    "271345560-0279",
+    "271345560-0282",
+    "271345560-0285",
+    "271345560-0287",
+    "271345560-0286",
+    "271345560-0292",
+    "271345560-0319",
+    "271345560-0322",
+    "271345560-0324",
+    "271345560-0330",
+    "271345560-0333",
+    "271345560-0334",
+    "271345560-0335",
+    "271345560-0337",
+    "271345560-0340",
+    "271345560-0336",
+    "271345560-0082",
+    "271345560-0095",
+    "271345560-0122",
+    "271345560-0129",
+    "271345560-0130",
+    "271345560-0158",
+    "271345560-0263",
+    "271345560-0270",
+    "271345560-0272",
+    "271345560-0281",
+    "271345560-0315",
+    "271345560-0317",
+    "271345560-0060",
+    "271345560-0126",
+    "271345560-0121",
+    "271345560-0180"
+   ],
+   "facts": [
+    "271345560-0000",
+    "271345560-0002",
+    "271345560-0003",
+    "271345560-0005",
+    "271345560-0012",
+    "271345560-0011",
+    "271345560-0009",
+    "271345560-0017",
+    "271345560-0019",
+    "271345560-0021",
+    "271345560-0025",
+    "271345560-0027",
+    "271345560-0015",
+    "271345560-0028",
+    "271345560-0032",
+    "271345560-0033",
+    "271345560-0035",
+    "271345560-0038",
+    "271345560-0040",
+    "271345560-0044",
+    "271345560-0045",
+    "271345560-0048",
+    "271345560-0050",
+    "271345560-0054",
+    "271345560-0056",
+    "271345560-0057",
+    "271345560-0063",
+    "271345560-0066",
+    "271345560-0062",
+    "271345560-0074",
+    "271345560-0075",
+    "271345560-0080",
+    "271345560-0081",
+    "271345560-0083",
+    "271345560-0084",
+    "271345560-0085",
+    "271345560-0090",
+    "271345560-0092",
+    "271345560-0097",
+    "271345560-0094",
+    "271345560-0100",
+    "271345560-0101",
+    "271345560-0099",
+    "271345560-0104",
+    "271345560-0106",
+    "271345560-0111",
+    "271345560-0113",
+    "271345560-0114",
+    "271345560-0116",
+    "271345560-0128",
+    "271345560-0134",
+    "271345560-0135",
+    "271345560-0137",
+    "271345560-0143",
+    "271345560-0146",
+    "271345560-0141",
+    "271345560-0149",
+    "271345560-0152",
+    "271345560-0157",
+    "271345560-0154",
+    "271345560-0159",
+    "271345560-0162",
+    "271345560-0163",
+    "271345560-0166",
+    "271345560-0169",
+    "271345560-0170",
+    "271345560-0171",
+    "271345560-0174",
+    "271345560-0176",
+    "271345560-0179",
+    "271345560-0184",
+    "271345560-0188",
+    "271345560-0190",
+    "271345560-0195",
+    "271345560-0192",
+    "271345560-0200",
+    "271345560-0204",
+    "271345560-0205",
+    "271345560-0202",
+    "271345560-0210",
+    "271345560-0212",
+    "271345560-0208",
+    "271345560-0214",
+    "271345560-0215",
+    "271345560-0216",
+    "271345560-0218",
+    "271345560-0219",
+    "271345560-0221",
+    "271345560-0223",
+    "271345560-0225",
+    "271345560-0226",
+    "271345560-0227",
+    "271345560-0228",
+    "271345560-0230",
+    "271345560-0231",
+    "271345560-0233",
+    "271345560-0234",
+    "271345560-0238",
+    "271345560-0240",
+    "271345560-0245",
+    "271345560-0236",
+    "271345560-0248",
+    "271345560-0247",
+    "271345560-0249",
+    "271345560-0251",
+    "271345560-0253",
+    "271345560-0254",
+    "271345560-0256",
+    "271345560-0258",
+    "271345560-0260",
+    "271345560-0261",
+    "271345560-0262",
+    "271345560-0265",
+    "271345560-0267",
+    "271345560-0268",
+    "271345560-0271",
+    "271345560-0273",
+    "271345560-0274",
+    "271345560-0275",
+    "271345560-0277",
+    "271345560-0278",
+    "271345560-0279",
+    "271345560-0282",
+    "271345560-0285",
+    "271345560-0287",
+    "271345560-0286",
+    "271345560-0292",
+    "271345560-0319",
+    "271345560-0322",
+    "271345560-0324",
+    "271345560-0330",
+    "271345560-0333",
+    "271345560-0334",
+    "271345560-0335",
+    "271345560-0337",
+    "271345560-0340",
+    "271345560-0336"
+   ],
+   "extraction": {
+    "revid": 271345560,
+    "chunk_count": 45,
+    "facts": [
+     {
+      "segment_id": "271345560-0000",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Das Voynich-Manuskript (benannt nach Wilfrid Michael Voynich, der das Manuskript 1912 erwarb) ist ein handschriftliches mittelalterliches Schriftstück, das u. a. im Besitz Rudolfs II. war.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271345560-0001"
+      ],
+      "plain": "Das Manuskript ist in einer unbekannten Schrift verfasst.",
+      "context_plain": [
+       "Es ist seit 1969 mit der Signatur MS 408 im Bestand der Beinecke Rare Book and Manuscript Library der Yale University in New Haven (Connecticut), Vereinigte Staaten."
+      ]
+     },
+     {
+      "segment_id": "271345560-0003",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271345560-0002"
+      ],
+      "plain": "Es wurden im Lauf der Zeit vielfach Ansätze zu einer Entschlüsselung des Manuskripts vorgelegt, bislang konnte jedoch keiner davon einer fachlichen Untersuchung standhalten.",
+      "context_plain": [
+       "Das Manuskript ist in einer unbekannten Schrift verfasst."
+      ]
+     },
+     {
+      "segment_id": "271345560-0005",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271345560-0004"
+      ],
+      "plain": "Im Manuskript vorhandene Abbildungen erinnern an botanische, anatomische und astronomische Zusammenhänge und wurden mit Sorgfalt gezeichnet, aufgrund des fehlenden Kontextes ist jedoch auch der Inhalt der Illustrationen Gegenstand von Spekulation.",
+      "context_plain": [
+       "Es ist unklar, ob der Text einen sinnvollen Inhalt transportiert."
+      ]
+     },
+     {
+      "segment_id": "271345560-0012",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [
+       "271345560-0011"
+      ],
+      "plain": "In einer Radiokarbonanalyse konnte das Alter des verwendeten Pergaments mit großer Wahrscheinlichkeit auf den Zeitraum zwischen 1404 und 1438 bestimmt werden.",
+      "context_plain": [
+       "Erst 2009 wurden an Instituten in Chicago und Arizona kleinste Proben von vier verschiedenen Seiten untersucht."
+      ]
+     },
+     {
+      "segment_id": "271345560-0011",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [],
+      "plain": "Erst 2009 wurden an Instituten in Chicago und Arizona kleinste Proben von vier verschiedenen Seiten untersucht.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0009",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [],
+      "plain": "Details in den Illustrationen, insbesondere die Schwalbenschwanzzinnen, ließen die Redakteure einer ORF-Sendung eine Entstehung der Handschrift in Oberitalien vermuten, da diese Zinnenform in der fraglichen Zeit nur dort belegt sei.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0017",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [
+       "271345560-0015",
+       "271345560-0016"
+      ],
+      "plain": "In einem mit dem Manuskript gefundenen Brief schreibt dessen vermeintlicher Verfasser, der spätere Besitzer Johannes Marcus Marci, um jenen Zeitpunkt sei Rudolf II., Kaiser des Heiligen Römischen Reiches, Gerüchten zufolge Besitzer des Manuskriptes gewesen, nachdem er es für die damals hohe Summe von 600 Dukaten einem unbekannten Händler abgekauft habe.",
+      "context_plain": [
+       "Aus dem kaum leserlichen und wohl nicht eigenhändigen Namenseintrag Jacobj ’a Tepenece auf der ersten Seite des Manuskripts lässt sich – falls sie echt ist – schließen, dass der böhmische Hofpharmazeut Jakub Horčický z Tepence das Exemplar zur Lektüre in Händen hatte oder sogar sein Eigentümer war.",
+       "Da schon sein Adelstitel verwendet wird, müsste dieser Eintrag nach 1608 entstanden sein."
+      ]
+     },
+     {
+      "segment_id": "271345560-0019",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [],
+      "plain": "Eine in den Akten der kaiserlichen Hofkammer vermerkte Buchtransaktion in Höhe von 600 Gulden durch den Augsburger Arzt und Handschriftenhändler Carl Widemann könnte nach einer neueren Studie die Voynich-Handschrift meinen und damit einen weiteren Vorbesitzer identifizieren.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0021",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [
+       "271345560-0020"
+      ],
+      "plain": "Marci berichtete auch, Kaiser Rudolf habe geglaubt, der Autor des Manuskripts sei der franziskanische Universalgelehrte des 13. Jahrhunderts Roger Bacon gewesen.",
+      "context_plain": [
+       "Marci berief sich bei dieser Geschichte auf seinen Freund Rafael Mišovský, einen Rechtsanwalt und Dichter, der unter Rudolf II. an den Prager Hof gekommen war, wo er den späteren Kaiser Ferdinand II. unterrichtete."
+      ]
+     },
+     {
+      "segment_id": "271345560-0025",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [
+       "271345560-0024"
+      ],
+      "plain": "Dass die kirchersche Lesung völlig irrig war, stellte sich erst nach der erfolgreichen Entschlüsselung der Hieroglyphen durch Champollion heraus.",
+      "context_plain": [
+       "Er wandte sich daher an Athanasius Kircher, einen jesuitischen Universalgelehrten und seinerzeit eine Berühmtheit, dem es angeblich gelungen war, die Hieroglyphenschrift der alten Ägypter zu lesen."
+      ]
+     },
+     {
+      "segment_id": "271345560-0027",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [
+       "271345560-0025",
+       "271345560-0026"
+      ],
+      "plain": "Kircher scheint darauf jedoch nie reagiert zu haben.",
+      "context_plain": [
+       "Dass die kirchersche Lesung völlig irrig war, stellte sich erst nach der erfolgreichen Entschlüsselung der Hieroglyphen durch Champollion heraus.",
+       "Zu seiner Zeit galt Kircher jedoch als Kapazität im Dechiffrieren rätselhafter Texte, weshalb Baresch ihm eine Kopie der Manuskripttexte zusammen mit der Bitte um eine Expertise zusandte."
+      ]
+     },
+     {
+      "segment_id": "271345560-0015",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [],
+      "plain": "Aus dem kaum leserlichen und wohl nicht eigenhändigen Namenseintrag Jacobj ’a Tepenece auf der ersten Seite des Manuskripts lässt sich – falls sie echt ist – schließen, dass der böhmische Hofpharmazeut Jakub Horčický z Tepence das Exemplar zur Lektüre in Händen hatte oder sogar sein Eigentümer war.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0028",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [],
+      "plain": "Der erste Brief Bareschs scheint verloren, ein weiterer Brief Bareschs an Kircher vom 27. April 1639 konnte jedoch von René Zandbergen im Archiv der Korrespondenz Kirchers gefunden werden.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0032",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [
+       "271345560-0030",
+       "271345560-0031"
+      ],
+      "plain": "Es ist jedoch nicht belegt, dass das Manuskript je in Kirchers Hände gelangte, denn in keinem der nach Kirchers Tod angefertigten Kataloge über seinen wissenschaftlichen Nachlass wird etwas von jenem Manuskript erwähnt.",
+      "context_plain": [
+       "Marci war der Autor des dem Manuskript beigelegten Briefes an Kircher, in dem er Kircher erneut um Hilfe bei der Entschlüsselung der Geheimschrift bat.",
+       "Zu diesem Zweck wollte er diesmal keine Kopie senden, sondern das Manuskript selbst."
+      ]
+     },
+     {
+      "segment_id": "271345560-0033",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [],
+      "plain": "Was in den über 200 Jahren zwischen 1666 und 1870 mit dem Manuskript geschah, ist bislang unbekannt.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0035",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [
+       "271345560-0034"
+      ],
+      "plain": "Dort blieb es vermutlich, bis der Kirchenstaat im Zuge des Risorgimento von den Truppen Viktor Emanuels II. 1870 annektiert wurde und kirchliches Eigentum von Konfiskation bedroht war.",
+      "context_plain": [
+       "Doch da es (nach Aussage Voynichs) Teil einer Bibliothek des Jesuitenordens war, kann vermutet werden, dass das Manuskript sich zusammen mit dem Nachlass Kirchers im Besitz des Jesuitenordens befand, also zunächst der Bibliothek des Collegium Romanum (heute die Päpstliche Universität Gregoriana) gehörte."
+      ]
+     },
+     {
+      "segment_id": "271345560-0038",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [
+       "271345560-0036",
+       "271345560-0037"
+      ],
+      "plain": "Das Voynich-Manuskript gehörte ausweislich eines Exlibris von Beckx zu diesem Bestand.",
+      "context_plain": [
+       "Die Bestände der päpstlichen Universitätsbibliothek wurden eilig den Mitgliedern der Fakultät übertragen, da privater Besitz nicht vom Zugriff des italienischen Staates bedroht war.",
+       "Darunter befand sich auch der Nachlass Kirchers, der dem damaligen Ordensgeneral Pierre Jean Beckx übergeben wurde."
+      ]
+     },
+     {
+      "segment_id": "271345560-0040",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [
+       "271345560-0039"
+      ],
+      "plain": "Dort wurde es vermutlich 1912 von Wilfrid Michael Voynich entdeckt, der es zusammen mit etwa 30 anderen wertvollen Manuskripten den Jesuiten abgekauft haben will.",
+      "context_plain": [
+       "Beckx’ „Privatbibliothek“ ging schließlich in die Bücherbestände des 1865 gegründeten Jesuitenkollegs Nobile Collegio Mondragone in der Villa Mondragone bei Frascati ein."
+      ]
+     },
+     {
+      "segment_id": "271345560-0044",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [
+       "271345560-0043"
+      ],
+      "plain": "1961 verkaufte sie es für 25.000 US-$ an den Buchhändler Hans Peter Kraus.",
+      "context_plain": [
+       "Nach dem Tod von Voynichs Witwe Ethel Lilian Voynich 1960 war Anne Nill seine alleinige Besitzerin."
+      ]
+     },
+     {
+      "segment_id": "271345560-0045",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [
+       "271345560-0044"
+      ],
+      "plain": "Dieser wollte es gewinnbringend weiterverkaufen, fand jedoch keinen Käufer und stiftete das Manuskript schließlich 1969 der Yale-Universität, wo es heute zum Bestand der Beinecke Rare Book & Manuscript Library gehört.",
+      "context_plain": [
+       "1961 verkaufte sie es für 25.000 US-$ an den Buchhändler Hans Peter Kraus."
+      ]
+     },
+     {
+      "segment_id": "271345560-0048",
+      "type": "sentence",
+      "section": "Geschichte",
+      "context_ids": [
+       "271345560-0046",
+       "271345560-0047"
+      ],
+      "plain": "Erst durch einen nach ihrem Tode zu öffnenden Brief Ethels an ihre Erbin und Lebensgefährtin Anne Nill wurde die Herkunft des Manuskripts aus dem Mondragone-Kolleg bekannt.",
+      "context_plain": [
+       "Es ist umstritten, auf welche Weise das Manuskript in Voynichs Besitz überging.",
+       "Voynich selbst schwieg sich zeitlebens über die genaue Herkunft des Manuskripts aus."
+      ]
+     },
+     {
+      "segment_id": "271345560-0050",
+      "type": "sentence",
+      "section": "Umfang und Foliierung",
+      "context_ids": [
+       "271345560-0049"
+      ],
+      "plain": "Das Manuskript bestand ursprünglich aus (mindestens) 20 Lagen, von denen zwei (16 und 18) heute verloren sind.",
+      "context_plain": [
+       "Das Voynich-Manuskript hat die Form eines Kodex, also eines Buches, das aus mehreren Lagen von Pergament-Blättern auf drei Bünde aus Pergamentstreifen gebunden ist."
+      ]
+     },
+     {
+      "segment_id": "271345560-0054",
+      "type": "sentence",
+      "section": "Umfang und Foliierung",
+      "context_ids": [
+       "271345560-0052",
+       "271345560-0053"
+      ],
+      "plain": "Zum heutigen Zeitpunkt besteht der Kodex nicht mehr aus 116, sondern nur noch aus 102 Blättern.",
+      "context_plain": [
+       "Die Blätter wurden (vermutlich später) mit einer handschriftlichen Zählung (Foliierung) versehen, die von 1 bis 116 läuft.",
+       "Ausgehend von dieser Foliierung kann ein seither eingetretener Verlust von Lagen und Blättern (nicht alle Lagen sind vollständig) festgestellt werden."
+      ]
+     },
+     {
+      "segment_id": "271345560-0056",
+      "type": "sentence",
+      "section": "Umfang und Foliierung",
+      "context_ids": [],
+      "plain": "Einzelne Blätter wurden wegen ihrer Größe mehrfach gefaltet, wodurch sich Unterseiten ergeben (zum Beispiel ist „f. 67r2“ die zweite Unterseite auf der Vorderseite (recto) von Blatt 67).",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0057",
+      "type": "sentence",
+      "section": "Umfang und Foliierung",
+      "context_ids": [],
+      "plain": "Das Manuskript umfasst gegenwärtig 102 Blätter, darunter fünf Doppel-, drei Dreifach-, ein Vierfach- und ein Sechsfach-Blatt.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0063",
+      "type": "sentence",
+      "section": "Gliederung",
+      "context_ids": [
+       "271345560-0062"
+      ],
+      "plain": "Die Abbildungen entstanden offenbar vor der Niederschrift des Textes, der sich der Form der Abbildungen anpasst und sie umfließt.",
+      "context_plain": [
+       "Das Manuskript enthält eine große Zahl von Abbildungen, die in Tinte ausgeführt und nachträglich koloriert wurden."
+      ]
+     },
+     {
+      "segment_id": "271345560-0066",
+      "type": "sentence",
+      "section": "Gliederung",
+      "context_ids": [],
+      "plain": "Der sogenannte „balneologische“ Abschnitt etwa enthält zahlreiche Abbildungen nackter Frauen in Wannen (oder vielleicht auch Teichen), die durch komplexe Röhrensysteme miteinander verbunden sind.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0062",
+      "type": "sentence",
+      "section": "Gliederung",
+      "context_ids": [],
+      "plain": "Das Manuskript enthält eine große Zahl von Abbildungen, die in Tinte ausgeführt und nachträglich koloriert wurden.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0074",
+      "type": "sentence",
+      "section": "„Kräuterkundliche“ Sektion (f. 1r–66v)",
+      "context_ids": [],
+      "plain": "Der Abschnitt enthält vorwiegend ganzseitige Abbildungen einzelner Pflanzen, die zwar uns bekannten Pflanzen ähneln, sich jedoch häufig durch entscheidende Details von diesen unterscheiden.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0075",
+      "type": "sentence",
+      "section": "„Kräuterkundliche“ Sektion (f. 1r–66v)",
+      "context_ids": [
+       "271345560-0074"
+      ],
+      "plain": "Einige Abbildungen erscheinen als größere und genauere Versionen von Abbildungen aus dem Abschnitt „Pharmazie“.",
+      "context_plain": [
+       "Der Abschnitt enthält vorwiegend ganzseitige Abbildungen einzelner Pflanzen, die zwar uns bekannten Pflanzen ähneln, sich jedoch häufig durch entscheidende Details von diesen unterscheiden."
+      ]
+     },
+     {
+      "segment_id": "271345560-0080",
+      "type": "sentence",
+      "section": "„Astronomische“ Sektion (f. 67r–73v)",
+      "context_ids": [
+       "271345560-0079"
+      ],
+      "plain": "Im Zentrum befindet sich eine das jeweilige Tierkreiszeichen darstellende Abbildung, die von konzentrischen Ringen umgeben ist, auf denen sich je einen Stern haltende Frauen im Uhrzeigersinn bewegen.",
+      "context_plain": [
+       "Eine Folge von zwölf Seiten (f. 70v2–73v) stellt offenbar Tierkreiszeichen dar."
+      ]
+     },
+     {
+      "segment_id": "271345560-0081",
+      "type": "sentence",
+      "section": "„Astronomische“ Sektion (f. 67r–73v)",
+      "context_ids": [
+       "271345560-0080"
+      ],
+      "plain": "Teilweise sitzen die Frauen in Zubern oder Fässern, teilweise sind sie nackt.",
+      "context_plain": [
+       "Im Zentrum befindet sich eine das jeweilige Tierkreiszeichen darstellende Abbildung, die von konzentrischen Ringen umgeben ist, auf denen sich je einen Stern haltende Frauen im Uhrzeigersinn bewegen."
+      ]
+     },
+     {
+      "segment_id": "271345560-0083",
+      "type": "sentence",
+      "section": "„Astronomische“ Sektion (f. 67r–73v)",
+      "context_ids": [
+       "271345560-0082"
+      ],
+      "plain": "Die Darstellungen der Sternzeichen „Wassermann“ und „Steinbock“ fehlen und befanden sich vermutlich auf dem fehlenden Blatt 74. Direkt bei den Sternzeichenfiguren stehen romanische Monatsnamen in lateinischen Buchstaben, zum Beispiel „mars“ bei den Fischen und „abril“ beim Widder.",
+      "context_plain": [
+       "Die Folge der Sternzeichen beginnt mit „Fische“ (statt wie üblich mit „Widder“), darüber hinaus sind die Zeichen „Widder“ und „Stier“ zweimal repräsentiert."
+      ]
+     },
+     {
+      "segment_id": "271345560-0084",
+      "type": "sentence",
+      "section": "„Anatomisch-balneologische“ Sektion (f. 75r–84v)",
+      "context_ids": [],
+      "plain": "Der sowohl rätselhafteste als auch faszinierendste Abschnitt des Manuskripts stellt auf fast jeder Seite Gruppen nackter Frauen mit gewölbten Bäuchen dar, die in Becken oder Wannen sitzen, die durch Leitungen oder Röhren verbunden sind.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0085",
+      "type": "sentence",
+      "section": "„Anatomisch-balneologische“ Sektion (f. 75r–84v)",
+      "context_ids": [
+       "271345560-0084"
+      ],
+      "plain": "Die Leitungen münden häufig in teils organisch, teils mechanisch wirkende End- und Verbindungsstücke.",
+      "context_plain": [
+       "Der sowohl rätselhafteste als auch faszinierendste Abschnitt des Manuskripts stellt auf fast jeder Seite Gruppen nackter Frauen mit gewölbten Bäuchen dar, die in Becken oder Wannen sitzen, die durch Leitungen oder Röhren verbunden sind."
+      ]
+     },
+     {
+      "segment_id": "271345560-0090",
+      "type": "sentence",
+      "section": "„Kosmologische“ Sektion (f. 85r–86v)",
+      "context_ids": [
+       "271345560-0089"
+      ],
+      "plain": "Besonders bekannt ist die sogenannte „Rosettenseite“ (f. 85v–86r), die auseinandergefaltet eine quadratische Anordnung von neun miteinander verbundenen „Rosetten“ zeigt.",
+      "context_plain": [
+       "Es handelt sich um kreisförmige, rosettenähnliche Darstellungen, die von teils umfangreichem Textmaterial begleitet sind."
+      ]
+     },
+     {
+      "segment_id": "271345560-0092",
+      "type": "sentence",
+      "section": "„Pharmazeutische“ Sektion (f. 87r–102v)",
+      "context_ids": [
+       "271345560-0091"
+      ],
+      "plain": "Vor allem wegen der bunten Gefäße wurden in diesem Abschnitt pharmakologische Inhalte vermutet.",
+      "context_plain": [
+       "Zu sehen sind Abbildungen von Pflanzen und Pflanzenteilen mit Beschriftungen sowie von Gefäßen, die an von Apothekern verwendete Behältnisse erinnern, versehen mit einigen kurzen Texten."
+      ]
+     },
+     {
+      "segment_id": "271345560-0097",
+      "type": "sentence",
+      "section": "„Rezepte“ und „Schlüssel“ (f. 103r–116v)",
+      "context_ids": [
+       "271345560-0095",
+       "271345560-0096"
+      ],
+      "plain": "Er enthält auch angeblich den Namen Roger Bacons in Form eines Anagramms.",
+      "context_plain": [
+       "Auf der letzten Seite (f. 116v) findet sich der sogenannte „Schlüssel“: ein dreizeiliger Text, bestehend aus Zeichen, die einem im 15. Jahrhundert in Deutschland verwendeten Schrifttyp ähneln.",
+       "Dieser kurze Text diente Newbold (siehe unten) als Einstieg für seinen Entschlüsselungsversuch."
+      ]
+     },
+     {
+      "segment_id": "271345560-0094",
+      "type": "sentence",
+      "section": "„Rezepte“ und „Schlüssel“ (f. 103r–116v)",
+      "context_ids": [
+       "271345560-0093"
+      ],
+      "plain": "Man hat vermutet (insbesondere, da diese Sektion auf die „pharmakologischen“ Seiten folgt), dass es sich um Rezepte für Medikamente oder sonstige kurzgefasste Vorgehensanweisungen handelt.",
+      "context_plain": [
+       "Hier sind kurze Textabschnitte ohne Illustrationen zu finden, die jeweils mit einem Stern-Symbol eingeleitet werden."
+      ]
+     },
+     {
+      "segment_id": "271345560-0100",
+      "type": "sentence",
+      "section": "Text und Alphabet",
+      "context_ids": [
+       "271345560-0099"
+      ],
+      "plain": "Das Fehlen von Korrekturen ist ein Indiz dafür, dass eine Vorlage des Textes existierte, von der abgeschrieben wurde.",
+      "context_plain": [
+       "Der Schriftduktus erscheint flüssig, als wäre der Schreiber in Sprache und Schrift des Manuskriptes geübt gewesen, im Gegensatz zu den beim „Abmalen“ der Zeichen einer unbekannten Schrift üblichen Unsicherheiten."
+      ]
+     },
+     {
+      "segment_id": "271345560-0101",
+      "type": "sentence",
+      "section": "Text und Alphabet",
+      "context_ids": [],
+      "plain": "Nach den Untersuchungen von Prescott Currier in den 1970er Jahren lassen sich zwei oder mehrere Schreiber und Schriftstile unterscheiden.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0099",
+      "type": "sentence",
+      "section": "Text und Alphabet",
+      "context_ids": [],
+      "plain": "Der Schriftduktus erscheint flüssig, als wäre der Schreiber in Sprache und Schrift des Manuskriptes geübt gewesen, im Gegensatz zu den beim „Abmalen“ der Zeichen einer unbekannten Schrift üblichen Unsicherheiten.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0104",
+      "type": "sentence",
+      "section": "Voynich-Alphabet",
+      "context_ids": [],
+      "plain": "Der Text insgesamt umfasst etwa 170.000 einzelne Glyphen.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0106",
+      "type": "sentence",
+      "section": "Voynich-Alphabet",
+      "context_ids": [],
+      "plain": "Insgesamt scheint der Text mit einem Alphabet von 20 bis 30 Zeichen weitestgehend dargestellt werden zu können.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0111",
+      "type": "sentence",
+      "section": "Voynich-Alphabet",
+      "context_ids": [],
+      "plain": "Auf dem Voynich-Symposium von 1976 wurde von Mary D’Imperio eine Vereinheitlichung der Transkription vorgeschlagen, woraufhin man sich auf das von Currier entwickelte Schema einigte.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0113",
+      "type": "sentence",
+      "section": "Voynich-Alphabet",
+      "context_ids": [
+       "271345560-0112"
+      ],
+      "plain": "Dementsprechend wurden neue Alphabete entwickelt, als erstes das von Jacques Guy vorgeschlagene Frogguy-Alphabet.",
+      "context_plain": [
+       "Es zeigte sich aber, dass dieses Alphabet bei der Darstellung seltener Zeichen und von Ligaturen noch zu wünschen übrig ließ."
+      ]
+     },
+     {
+      "segment_id": "271345560-0114",
+      "type": "sentence",
+      "section": "Voynich-Alphabet",
+      "context_ids": [],
+      "plain": "Mittlerweile hat sich aufgrund eines breiten Konsenses das sogenannte EVA (European Voynich Alphabet) etabliert.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0116",
+      "type": "sentence",
+      "section": "„Wörter“",
+      "context_ids": [],
+      "plain": "Der Text des Manuskripts enthält ca. 35.000 „Wörter“.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0128",
+      "type": "sentence",
+      "section": "„Wörter“",
+      "context_ids": [
+       "271345560-0127"
+      ],
+      "plain": "Zum Beispiel gibt es kaum Wörter mit mehr als zehn, aber auch kaum welche mit weniger als drei Zeichen.",
+      "context_plain": [
+       "Andere Eigentümlichkeiten des Voynich-Texts finden sich jedoch in europäischen Sprachen nirgends."
+      ]
+     },
+     {
+      "segment_id": "271345560-0134",
+      "type": "sentence",
+      "section": "Wilfrid Voynich",
+      "context_ids": [
+       "271345560-0132",
+       "271345560-0133"
+      ],
+      "plain": "Von der Annahme, Bacon sei der Autor, gelangte er zu der Hypothese, der englische Mathematiker und Mystiker John Dee sei in den Besitz der Handschrift gelangt – und jener Unbekannte, der das Manuskript später an Rudolf II. verkaufte.",
+      "context_plain": [
+       "Voynich war angesichts des Marci-Briefes schnell zu der Überzeugung gelangt, Roger Bacon (gest. 1292/94) sei der Autor des Manuskripts.",
+       "In den folgenden Jahren bemühte er sich, die Provenienz des Manuskripts zu klären."
+      ]
+     },
+     {
+      "segment_id": "271345560-0135",
+      "type": "sentence",
+      "section": "Wilfrid Voynich",
+      "context_ids": [
+       "271345560-0133",
+       "271345560-0134"
+      ],
+      "plain": "Diese Annahme beruhte auf der Kenntnis, dass Dee eine Sammlung von Schriften Bacons besaß und sich zusammen mit dem Spiritisten Edward Kelley in den 1580er Jahren am Hof Rudolfs II. aufhielt.",
+      "context_plain": [
+       "In den folgenden Jahren bemühte er sich, die Provenienz des Manuskripts zu klären.",
+       "Von der Annahme, Bacon sei der Autor, gelangte er zu der Hypothese, der englische Mathematiker und Mystiker John Dee sei in den Besitz der Handschrift gelangt – und jener Unbekannte, der das Manuskript später an Rudolf II. verkaufte."
+      ]
+     },
+     {
+      "segment_id": "271345560-0137",
+      "type": "sentence",
+      "section": "Wilfrid Voynich",
+      "context_ids": [
+       "271345560-0136"
+      ],
+      "plain": "Er verschickte vielmehr ab 1919 Kopien des Manuskripts an verschiedene Fachleute.",
+      "context_plain": [
+       "Eine Entschlüsselung des Textes hatte Voynich nicht versucht."
+      ]
+     },
+     {
+      "segment_id": "271345560-0143",
+      "type": "sentence",
+      "section": "William Romaine Newbold",
+      "context_ids": [
+       "271345560-0142"
+      ],
+      "plain": "Demnach sollte der eigentliche Inhalt des Manuskripts in mikroskopisch kleinen Unregelmäßigkeiten der Voynich-Zeichen versteckt sein.",
+      "context_plain": [
+       "In der Folge entwickelte er die Theorie einer Mikroschrift."
+      ]
+     },
+     {
+      "segment_id": "271345560-0146",
+      "type": "sentence",
+      "section": "William Romaine Newbold",
+      "context_ids": [
+       "271345560-0144",
+       "271345560-0145"
+      ],
+      "plain": "Das Resultat bestätigte ihm nicht nur die Urheberschaft Bacons, darüber hinaus verriet es angeblich auch, dass Bacon nicht nur über ein Mikroskop verfügt habe, sondern dass ihm schon die Spiralstruktur des Andromedanebels bekannt gewesen sei.",
+      "context_plain": [
+       "Bei genauer Betrachtung würden darin altgriechische Kurzschriftzeichen erkennbar.",
+       "Der so gelesene Text wurde von Newbold einem weiteren Dechiffrierungsschritt unterzogen."
+      ]
+     },
+     {
+      "segment_id": "271345560-0141",
+      "type": "sentence",
+      "section": "William Romaine Newbold",
+      "context_ids": [
+       "271345560-0140"
+      ],
+      "plain": "Schon nach wenigen Stunden meinte er, einen Schlüssel gefunden zu haben.",
+      "context_plain": [
+       "Er hörte schon 1915 von dem Manuskript, beschäftigte sich damit aber erst nach 1919, nachdem er von Voynich drei Seiten in Photokopie erhalten hatte."
+      ]
+     },
+     {
+      "segment_id": "271345560-0149",
+      "type": "sentence",
+      "section": "William Romaine Newbold",
+      "context_ids": [],
+      "plain": "Bevor Newbold eine vollständige Decodierung an Voynich liefern konnte, starb er überraschend im September 1926.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0152",
+      "type": "sentence",
+      "section": "Roland Grubb Kent",
+      "context_ids": [
+       "271345560-0151"
+      ],
+      "plain": "1928 erschien der von ihm herausgegebene Band The Cipher of Roger Bacon, der dem wissenschaftlichen Ruf seines Freundes erheblich schaden, der Voynich-Forschung jedoch sehr nützen sollte, da der Band erstmals Reproduktionen des Manuskriptes im Druck verfügbar machte.",
+      "context_plain": [
+       "Vielmehr unterzog er sich der Aufgabe, den Nachlass seines früh verstorbenen Freundes Newbold zu ordnen und zu editieren."
+      ]
+     },
+     {
+      "segment_id": "271345560-0157",
+      "type": "sentence",
+      "section": "John Matthew Manly",
+      "context_ids": [
+       "271345560-0156"
+      ],
+      "plain": "Er zeigte darin, dass die Mikroschrift nur in der Phantasie Newbolds vorhanden war, dass es sich vielmehr bei den vermeintlichen Kürzeln um Unregelmäßigkeiten bei Auftrag und Abblättern der Tinte auf dem rauen Schreibmaterial handelte.",
+      "context_plain": [
+       "1931 veröffentlichte er daher eine vernichtende Kritik an Newbolds Methoden und Ergebnissen."
+      ]
+     },
+     {
+      "segment_id": "271345560-0154",
+      "type": "sentence",
+      "section": "John Matthew Manly",
+      "context_ids": [],
+      "plain": "Manly, Professor für englische Sprache an der University of Chicago und während des Ersten Weltkrieges Kryptoanalytiker im militärischen Nachrichtendienst der USA, hatte die Forschungen Newbolds schon einige Zeit mit Interesse, aber auch mit Skepsis verfolgt, was aus einem 1921 veröffentlichten Artikel Das geheimnisvollste Manuskript der Welt in der US-Zeitschrift Harpers ersichtlich wird.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0159",
+      "type": "sentence",
+      "section": "Joseph Martin Feely",
+      "context_ids": [],
+      "plain": "Feely, ein Anwalt aus Rochester in Maine, stützte seinen Entschlüsselungsversuch lediglich auf eine Abbildung der Manuskriptseite 78r in Newbolds Buch.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0162",
+      "type": "sentence",
+      "section": "Joseph Martin Feely",
+      "context_ids": [
+       "271345560-0160",
+       "271345560-0161"
+      ],
+      "plain": "Eine solch einfache Verschlüsselung könnte bei der vorhandenen Textmenge aufgrund von Häufigkeitsanalysen auch ohne Computer dechiffriert werden, wie Edgar Allan Poe in seiner Erzählung Der Goldkäfer vorführt.",
+      "context_plain": [
+       "Er kam zu dem Ergebnis, es handele sich um eine Chiffrierung durch Alphabetsubstitution (d. h., jedes Zeichen des Alphabets wird regelhaft durch ein bestimmtes anderes Zeichen ersetzt, in diesem Fall durch ein Voynich-Zeichen).",
+       "Als Klartextsprache nahm er Latein an."
+      ]
+     },
+     {
+      "segment_id": "271345560-0163",
+      "type": "sentence",
+      "section": "Joseph Martin Feely",
+      "context_ids": [
+       "271345560-0161",
+       "271345560-0162"
+      ],
+      "plain": "Feely nahm daher weiter an, zuvor seien die lateinischen Wörter durch willkürliches Weglassen von Buchstaben abgekürzt worden.",
+      "context_plain": [
+       "Als Klartextsprache nahm er Latein an.",
+       "Eine solch einfache Verschlüsselung könnte bei der vorhandenen Textmenge aufgrund von Häufigkeitsanalysen auch ohne Computer dechiffriert werden, wie Edgar Allan Poe in seiner Erzählung Der Goldkäfer vorführt."
+      ]
+     },
+     {
+      "segment_id": "271345560-0166",
+      "type": "sentence",
+      "section": "Joseph Martin Feely",
+      "context_ids": [
+       "271345560-0164",
+       "271345560-0165"
+      ],
+      "plain": "Hätte Feelys Entschlüsselung jedoch zugetroffen, hätte sie auf den von ihm nicht analysierten Seiten ebenfalls zu akzeptablen Lesungen führen müssen.",
+      "context_plain": [
+       "Das angenommene Element der Willkür in der Verschlüsselung hat zur Folge, dass die Entschlüsselung auf einem gehörigen Maß an Subjektivität beruht und damit Irrtümer ermöglicht.",
+       "Dass der von Feely entschlüsselte Text keinen Sinn ergab, wäre angesichts der üblichen Hermetik frühneuzeitlicher alchemistischer Texte zu tolerieren gewesen."
+      ]
+     },
+     {
+      "segment_id": "271345560-0169",
+      "type": "sentence",
+      "section": "Hugh O’Neill",
+      "context_ids": [
+       "271345560-0168"
+      ],
+      "plain": "Dennoch meinte O’Neill zwei Pflanzen eindeutig bestimmen zu können, nämlich auf Blatt 93r eine Sonnenblume und auf Blatt 101v eine Art des Spanischen Pfeffers.",
+      "context_plain": [
+       "Er versuchte, die in den botanischen Abschnitten abgebildeten Pflanzen zu identifizieren, was bei mittelalterlichen Manuskripten häufig schwierig, im Fall des Voynich-Manuskripts nahezu unmöglich ist."
+      ]
+     },
+     {
+      "segment_id": "271345560-0170",
+      "type": "sentence",
+      "section": "Hugh O’Neill",
+      "context_ids": [
+       "271345560-0168",
+       "271345560-0169"
+      ],
+      "plain": "Das Bemerkenswerte bei diesen Identifizierungen war, dass beide Gewächse in der Alten Welt vor Kolumbus nicht heimisch waren, das Manuskript demnach erst nach 1493 entstanden sein könnte.",
+      "context_plain": [
+       "Er versuchte, die in den botanischen Abschnitten abgebildeten Pflanzen zu identifizieren, was bei mittelalterlichen Manuskripten häufig schwierig, im Fall des Voynich-Manuskripts nahezu unmöglich ist.",
+       "Dennoch meinte O’Neill zwei Pflanzen eindeutig bestimmen zu können, nämlich auf Blatt 93r eine Sonnenblume und auf Blatt 101v eine Art des Spanischen Pfeffers."
+      ]
+     },
+     {
+      "segment_id": "271345560-0171",
+      "type": "sentence",
+      "section": "Hugh O’Neill",
+      "context_ids": [
+       "271345560-0169",
+       "271345560-0170"
+      ],
+      "plain": "Das wiederum hieße, dass Roger Bacon nicht der Autor sein kann.",
+      "context_plain": [
+       "Dennoch meinte O’Neill zwei Pflanzen eindeutig bestimmen zu können, nämlich auf Blatt 93r eine Sonnenblume und auf Blatt 101v eine Art des Spanischen Pfeffers.",
+       "Das Bemerkenswerte bei diesen Identifizierungen war, dass beide Gewächse in der Alten Welt vor Kolumbus nicht heimisch waren, das Manuskript demnach erst nach 1493 entstanden sein könnte."
+      ]
+     },
+     {
+      "segment_id": "271345560-0174",
+      "type": "sentence",
+      "section": "William Friedman",
+      "context_ids": [
+       "271345560-0172",
+       "271345560-0173"
+      ],
+      "plain": "Unter seiner Leitung wurde während des Zweiten Weltkriegs der japanische PURPLE-Code entschlüsselt.",
+      "context_plain": [
+       "William Friedman war wohl der erste ausgewiesene Experte für Kryptologie, der sich mit dem Voynich-Manuskript befasste.",
+       "Er war Gründer des Signals Intelligence Service der US-Armee (einer der Vorläuferorganisationen der heutigen NSA)."
+      ]
+     },
+     {
+      "segment_id": "271345560-0176",
+      "type": "sentence",
+      "section": "William Friedman",
+      "context_ids": [
+       "271345560-0175"
+      ],
+      "plain": "Im Mai 1944 gründeten die beiden eine Arbeitsgruppe, deren Aufgabe die maschinenlesbare Transkription des Voynich-„Textes“ mittels Lochkarten sein sollte.",
+      "context_plain": [
+       "Friedman hatte in den Kriegsjahren einen Vortrag Newbolds gehört und später mit Manly an der Widerlegung der Theorien Newbolds gearbeitet."
+      ]
+     },
+     {
+      "segment_id": "271345560-0179",
+      "type": "sentence",
+      "section": "William Friedman",
+      "context_ids": [],
+      "plain": "Das Voynich-Manuskript scheint Friedman und seine Ehefrau Elizebeth weiter beschäftigt zu haben, da er Ende der 1950er Jahre in der Fußnote eines Aufsatzes eine als Anagramm verschlüsselte Hypothese zum Voynich-Code publizierte.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0184",
+      "type": "sentence",
+      "section": "William Friedman",
+      "context_ids": [
+       "271345560-0183"
+      ],
+      "plain": "Die Hypothese würde das Vorhandensein sonst nur bei natürlichen Sprachen zu findender statistischer Eigenschaften im Voynich-Text erklären.",
+      "context_plain": [
+       "Konsequenzen dieser Hypothese für den Voynich-Text wären:"
+      ]
+     },
+     {
+      "segment_id": "271345560-0188",
+      "type": "sentence",
+      "section": "William Friedman",
+      "context_ids": [
+       "271345560-0187"
+      ],
+      "plain": "Dieses Mal sollte ein RCA-301-Computer eingesetzt werden, zu dem die Gruppe außerhalb der normalen Betriebszeiten Zugang hatte.",
+      "context_plain": [
+       "Im September 1962 initiierten die Friedmans eine weitere Arbeitsgruppe (SSG, Second Study Group) mit dem Ziel, automatische Datenverarbeitung zur Entschlüsselung des Voynich-Codes einzusetzen."
+      ]
+     },
+     {
+      "segment_id": "271345560-0190",
+      "type": "sentence",
+      "section": "William Friedman",
+      "context_ids": [
+       "271345560-0188",
+       "271345560-0189"
+      ],
+      "plain": "Es kam jedoch nicht dazu, da die Radio Corporation of America (RCA) die Nebennutzung für diesen Zweck untersagte.",
+      "context_plain": [
+       "Dieses Mal sollte ein RCA-301-Computer eingesetzt werden, zu dem die Gruppe außerhalb der normalen Betriebszeiten Zugang hatte.",
+       "Sie wären damit die ersten Voynich-Forscher gewesen, die einen Computer zur Entschlüsselung verwendeten."
+      ]
+     },
+     {
+      "segment_id": "271345560-0195",
+      "type": "sentence",
+      "section": "Robert S. Brumbaugh",
+      "context_ids": [
+       "271345560-0194"
+      ],
+      "plain": "Brumbaugh selbst entwickelte aufgrund der Ähnlichkeit einiger Voynich-Zeichen mit altertümlichen Ziffernformen die Theorie, dass die Voynich-Zeichen (dezimale) Ziffern seien, wobei jeder Ziffer mehrere Buchstaben des lateinischen Alphabets zugeordnet seien.",
+      "context_plain": [
+       "Er veröffentlichte in den 1970er Jahren eine Reihe von Artikeln zum Thema und fasste in der 1978 erschienenen Monographie The Most Mysterious Manuscript den damaligen Stand der Forschung zusammen."
+      ]
+     },
+     {
+      "segment_id": "271345560-0192",
+      "type": "sentence",
+      "section": "Robert S. Brumbaugh",
+      "context_ids": [],
+      "plain": "Robert Brumbaugh war Professor für Philosophie des Mittelalters an der Yale University, hatte also im Gegensatz zu anderen Voynich-Forschern die Möglichkeit, das Dokument im Original in Augenschein zu nehmen – zu einer Zeit, in der nur wenige Seiten als (schwarz-weißes) Faksimile publiziert oder als Photokopie in Umlauf waren, ein unschätzbarer Vorteil.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0200",
+      "type": "sentence",
+      "section": "Prescott Currier",
+      "context_ids": [
+       "271345560-0199"
+      ],
+      "plain": "1940 in der US-Marine dienstverpflichtet, arbeitete er 1941 als amerikanischer Liaison-Officer in Bletchley Park in England, um die kryptoanalytischen Bemühungen der amerikanischen und englischen Dienste zu koordinieren.",
+      "context_plain": [
+       "Ab 1935 begann er sich mit Kryptologie zu beschäftigen."
+      ]
+     },
+     {
+      "segment_id": "271345560-0204",
+      "type": "sentence",
+      "section": "Prescott Currier",
+      "context_ids": [
+       "271345560-0203"
+      ],
+      "plain": "Wichtigstes Resultat seiner Untersuchungen war, dass – anders, als bis dahin stets angenommen – das Manuskript mehr als einen Schreiber hat.",
+      "context_plain": [
+       "Auch Currier sollte sich über viele Jahre mit dem Rätsel des Manuskripts beschäftigen."
+      ]
+     },
+     {
+      "segment_id": "271345560-0205",
+      "type": "sentence",
+      "section": "Prescott Currier",
+      "context_ids": [
+       "271345560-0204"
+      ],
+      "plain": "Currier stellte fest, dass zwei Schreibstile – und mehr noch: zwei „Sprach“stile – deutlich unterscheidbar sind.",
+      "context_plain": [
+       "Wichtigstes Resultat seiner Untersuchungen war, dass – anders, als bis dahin stets angenommen – das Manuskript mehr als einen Schreiber hat."
+      ]
+     },
+     {
+      "segment_id": "271345560-0202",
+      "type": "sentence",
+      "section": "Prescott Currier",
+      "context_ids": [
+       "271345560-0201"
+      ],
+      "plain": "Currier hatte in England die Bekanntschaft von John Tiltman gemacht, der wiederum von Friedman zur Beschäftigung mit dem Voynich-Manuskript angeregt worden war.",
+      "context_plain": [
+       "Von 1948 bis 1950 war er Direktor der Naval Security Group."
+      ]
+     },
+     {
+      "segment_id": "271345560-0210",
+      "type": "sentence",
+      "section": "Mary D’Imperio",
+      "context_ids": [
+       "271345560-0209"
+      ],
+      "plain": "Sie organisierte das erste wissenschaftliche Symposium zum Thema Voynich-Manuskript, das im Jahr 1976 stattfand, und veröffentlichte die Resultate in einem Tagungsband sowie in dem heute noch als beste Überblicksarbeit geschätzten Band The Voynich Manuscript: An Elegant Enigma.",
+      "context_plain": [
+       "Persönlich bekannt mit John Tiltman (der zusammen mit Friedman die These aufgestellt hatte, dass dem Voynich-Manuskript eine künstliche Sprache zugrunde liege) und Prescott Currier, begann sie Ende der 1970er, sich intensiv mit dem Voynich-Manuskript zu beschäftigen."
+      ]
+     },
+     {
+      "segment_id": "271345560-0212",
+      "type": "sentence",
+      "section": "Mary D’Imperio",
+      "context_ids": [
+       "271345560-0211"
+      ],
+      "plain": "Sie wies unter anderem auf die Ähnlichkeiten zwischen den Voynich-Zeichen und einigen in Mittelalter und Renaissance gebräuchlichen lateinischen Kürzeln hin.",
+      "context_plain": [
+       "In ihren Arbeiten zum Voynich-Manuskript befasste sie sich mit Fragen der Transkription und des Zeichenvorrates."
+      ]
+     },
+     {
+      "segment_id": "271345560-0208",
+      "type": "sentence",
+      "section": "Mary D’Imperio",
+      "context_ids": [],
+      "plain": "Die Mathematikerin Mary D’Imperio war wie Friedman Kryptoanalytikerin (zeitweise Beraterin der NSA).",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0214",
+      "type": "sentence",
+      "section": "Gordon Rugg und Andreas Schinner",
+      "context_ids": [
+       "271345560-0213"
+      ],
+      "plain": "Dazu erstellte Rugg eine Tabelle mit zufälligen Zeichenkombinationen, die dann als Vor-, Mittel- oder Nachsilben neuer „Wörter“ dienten.",
+      "context_plain": [
+       "Gordon Rugg von der britischen Keele-Universität beschäftigte sich etwa ab 1997 mit der Frage, wie der Text des Voynich-Manuskripts entstanden sein könnte."
+      ]
+     },
+     {
+      "segment_id": "271345560-0215",
+      "type": "sentence",
+      "section": "Gordon Rugg und Andreas Schinner",
+      "context_ids": [
+       "271345560-0213",
+       "271345560-0214"
+      ],
+      "plain": "Über diese Tabelle schob er ein sogenanntes Cardan-Gitter, eine Schablone mit drei Fenstern, wie sie im 16. Jahrhundert zur Verschlüsselung von Texten verwendet wurde.",
+      "context_plain": [
+       "Gordon Rugg von der britischen Keele-Universität beschäftigte sich etwa ab 1997 mit der Frage, wie der Text des Voynich-Manuskripts entstanden sein könnte.",
+       "Dazu erstellte Rugg eine Tabelle mit zufälligen Zeichenkombinationen, die dann als Vor-, Mittel- oder Nachsilben neuer „Wörter“ dienten."
+      ]
+     },
+     {
+      "segment_id": "271345560-0216",
+      "type": "sentence",
+      "section": "Gordon Rugg und Andreas Schinner",
+      "context_ids": [
+       "271345560-0214",
+       "271345560-0215"
+      ],
+      "plain": "Die Zeichenfolgen, die jeweils in den drei Fenstern erschienen, wurden transkribiert, und eine dreisilbige unverständliche „Sprache“ entstand, die große Ähnlichkeit mit dem Text des Voynich-Manuskriptes aufwies.",
+      "context_plain": [
+       "Dazu erstellte Rugg eine Tabelle mit zufälligen Zeichenkombinationen, die dann als Vor-, Mittel- oder Nachsilben neuer „Wörter“ dienten.",
+       "Über diese Tabelle schob er ein sogenanntes Cardan-Gitter, eine Schablone mit drei Fenstern, wie sie im 16. Jahrhundert zur Verschlüsselung von Texten verwendet wurde."
+      ]
+     },
+     {
+      "segment_id": "271345560-0218",
+      "type": "sentence",
+      "section": "Gordon Rugg und Andreas Schinner",
+      "context_ids": [
+       "271345560-0216",
+       "271345560-0217"
+      ],
+      "plain": "Seiner Ansicht nach handelt es sich bei dem Voynich-Manuskript um einen mittelalterlichen Schabernack, um wirres Geschwafel ohne Sinn und Gehalt.",
+      "context_plain": [
+       "Die Zeichenfolgen, die jeweils in den drei Fenstern erschienen, wurden transkribiert, und eine dreisilbige unverständliche „Sprache“ entstand, die große Ähnlichkeit mit dem Text des Voynich-Manuskriptes aufwies.",
+       "Im Dezember 2003 gab Rugg seine Forschungsergebnisse bekannt."
+      ]
+     },
+     {
+      "segment_id": "271345560-0219",
+      "type": "sentence",
+      "section": "Gordon Rugg und Andreas Schinner",
+      "context_ids": [
+       "271345560-0218"
+      ],
+      "plain": "Die Schabernack-Hypothese wird auch durch eine Textanalyse des österreichischen Wissenschaftlers Andreas Schinner gestützt: Er entdeckte unnatürliche Regelmäßigkeiten in der Wortfolge des Manuskripts, die in Texten, die in natürlichen Sprachen verfasst sind, nicht vorkommen.",
+      "context_plain": [
+       "Seiner Ansicht nach handelt es sich bei dem Voynich-Manuskript um einen mittelalterlichen Schabernack, um wirres Geschwafel ohne Sinn und Gehalt."
+      ]
+     },
+     {
+      "segment_id": "271345560-0221",
+      "type": "sentence",
+      "section": "Gordon Rugg und Andreas Schinner",
+      "context_ids": [],
+      "plain": "Im Jahr 2009 konnte mittels einer Radiokarbonanalyse die Entstehung des Pergamentbandes mit höchster Wahrscheinlichkeit auf zwischen 1404 und 1438 bestimmt werden.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0223",
+      "type": "sentence",
+      "section": "Gordon Rugg und Andreas Schinner",
+      "context_ids": [
+       "271345560-0221",
+       "271345560-0222"
+      ],
+      "plain": "Außerdem erscheint die Schabernack-Hypothese auch insofern als äußerst unwahrscheinlich, als die Anfertigung dieses Manuskriptes nicht nur ein extrem kostspieliges Unterfangen war (damals sehr teures Pergament, sehr teure, hochwertige Tintenfarben), sondern auch viele Jahre in Anspruch genommen haben muss.",
+      "context_plain": [
+       "Im Jahr 2009 konnte mittels einer Radiokarbonanalyse die Entstehung des Pergamentbandes mit höchster Wahrscheinlichkeit auf zwischen 1404 und 1438 bestimmt werden.",
+       "Die Verschlüsselungstechnik mit dem Cardan-Gitter müsste also auf einem schon damals älteren Pergament angewandt worden sein."
+      ]
+     },
+     {
+      "segment_id": "271345560-0225",
+      "type": "sentence",
+      "section": "Marcelo Montemurro und Damián Zanette",
+      "context_ids": [
+       "271345560-0224"
+      ],
+      "plain": "In dem Artikel geben sie an, semantische Muster im Voynich-Manuskript identifiziert zu haben.",
+      "context_plain": [
+       "Marcelo Montemurro von der University of Manchester und Damián Zanette vom Centro Atómico Bariloche e Instituto Balseiro veröffentlichten 2013 eine Arbeit mit dem Titel Keywords and Co-Occurrence Patterns in the Voynich Manuscript: An Information-Theoretic Analysis bei PLOS ONE."
+      ]
+     },
+     {
+      "segment_id": "271345560-0226",
+      "type": "sentence",
+      "section": "Marcelo Montemurro und Damián Zanette",
+      "context_ids": [
+       "271345560-0224",
+       "271345560-0225"
+      ],
+      "plain": "Demnach könnte das Manuskript einen Geheimtext mit einer „authentischen Botschaft“ darstellen.",
+      "context_plain": [
+       "Marcelo Montemurro von der University of Manchester und Damián Zanette vom Centro Atómico Bariloche e Instituto Balseiro veröffentlichten 2013 eine Arbeit mit dem Titel Keywords and Co-Occurrence Patterns in the Voynich Manuscript: An Information-Theoretic Analysis bei PLOS ONE.",
+       "In dem Artikel geben sie an, semantische Muster im Voynich-Manuskript identifiziert zu haben."
+      ]
+     },
+     {
+      "segment_id": "271345560-0227",
+      "type": "sentence",
+      "section": "Arthur Tucker und Rexford Talbert",
+      "context_ids": [],
+      "plain": "Nach Ansicht zweier amerikanischer Botaniker, Arthur O. Tucker und Rexford H. Talbert, zeigt das Voynich-Manuskript Pflanzen mittelamerikanischer Herkunft.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0228",
+      "type": "sentence",
+      "section": "Arthur Tucker und Rexford Talbert",
+      "context_ids": [
+       "271345560-0227"
+      ],
+      "plain": "Dies könne darauf hindeuten, dass das Voynich-Manuskript in Mittelamerika gezeichnet und in einer mittelamerikanischen Sprache geschrieben wurde, also möglicherweise in einer Sprache, die heute nicht mehr gesprochen wird.",
+      "context_plain": [
+       "Nach Ansicht zweier amerikanischer Botaniker, Arthur O. Tucker und Rexford H. Talbert, zeigt das Voynich-Manuskript Pflanzen mittelamerikanischer Herkunft."
+      ]
+     },
+     {
+      "segment_id": "271345560-0230",
+      "type": "sentence",
+      "section": "Nick Pelling",
+      "context_ids": [
+       "271345560-0229"
+      ],
+      "plain": "Aufgrund der Illustrationen im Voynich-Manuskript – speziell jene auf den ausklappbaren Rosetten-Folios – vermutet Pelling, dass das Manuskript aus der Gegend von Mailand stammt und um die Mitte des 15. Jahrhunderts oder etwas später datiert.",
+      "context_plain": [
+       "Nick Pelling stellt seine Theorie zur Autorenschaft des Voynich-Manuskript in seinem Buch The Curse of the Voynich vor."
+      ]
+     },
+     {
+      "segment_id": "271345560-0231",
+      "type": "sentence",
+      "section": "Nick Pelling",
+      "context_ids": [
+       "271345560-0229",
+       "271345560-0230"
+      ],
+      "plain": "Aufgrund biographischer Hinweise vermutet er als möglichen Autor den Architekten Antonio Averlino, auch Filarete genannt.",
+      "context_plain": [
+       "Nick Pelling stellt seine Theorie zur Autorenschaft des Voynich-Manuskript in seinem Buch The Curse of the Voynich vor.",
+       "Aufgrund der Illustrationen im Voynich-Manuskript – speziell jene auf den ausklappbaren Rosetten-Folios – vermutet Pelling, dass das Manuskript aus der Gegend von Mailand stammt und um die Mitte des 15. Jahrhunderts oder etwas später datiert."
+      ]
+     },
+     {
+      "segment_id": "271345560-0233",
+      "type": "sentence",
+      "section": "Stephen Bax",
+      "context_ids": [],
+      "plain": "Stephen Bax, ein Professor für Angewandte Linguistik, gibt an, er habe in dem Text insgesamt 10 Wörter, nämlich verschiedene Pflanzennamen sowie die Namen von Sternbildern, entziffert.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0234",
+      "type": "sentence",
+      "section": "Stephen Bax",
+      "context_ids": [
+       "271345560-0233"
+      ],
+      "plain": "Seiner Meinung nach ist der Text in einer semitischen Sprache verfasst, und die Entdeckung dieser Namen könnte ähnlich wie bei den ägyptischen Hieroglyphen den Durchbruch zur Entschlüsselung des Textes darstellen.",
+      "context_plain": [
+       "Stephen Bax, ein Professor für Angewandte Linguistik, gibt an, er habe in dem Text insgesamt 10 Wörter, nämlich verschiedene Pflanzennamen sowie die Namen von Sternbildern, entziffert."
+      ]
+     },
+     {
+      "segment_id": "271345560-0238",
+      "type": "sentence",
+      "section": "Jürgen Hermes",
+      "context_ids": [
+       "271345560-0236",
+       "271345560-0237"
+      ],
+      "plain": "In diesen Listen steht ein Phantasiewort bestehend aus Wortstamm + Endung für je einen Buchstaben im Klartext.",
+      "context_plain": [
+       "Seine Verschlüsselungstheorie geht davon aus, dass das Voynich-Manuskript mit einer Methode chiffriert wurde, die der Trithematischen Polygraphia (PIII-Methode) ähnelt.",
+       "Bei dieser Verschlüsselungsart wird ein Codebuch erstellt, welches aus Listen besteht."
+      ]
+     },
+     {
+      "segment_id": "271345560-0240",
+      "type": "sentence",
+      "section": "Jürgen Hermes",
+      "context_ids": [
+       "271345560-0237",
+       "271345560-0238",
+       "271345560-0239"
+      ],
+      "plain": "Eine Textentschlüsselung dieser Chiffrierungsart ist allerdings ohne das dazugehörige Codebuch kaum möglich.",
+      "context_plain": [
+       "Bei dieser Verschlüsselungsart wird ein Codebuch erstellt, welches aus Listen besteht.",
+       "In diesen Listen steht ein Phantasiewort bestehend aus Wortstamm + Endung für je einen Buchstaben im Klartext.",
+       "Ändert sich das Suffix, handelt es sich um einen anderen Buchstaben."
+      ]
+     },
+     {
+      "segment_id": "271345560-0245",
+      "type": "sentence",
+      "section": "Jürgen Hermes",
+      "context_ids": [
+       "271345560-0242",
+       "271345560-0243",
+       "271345560-0244"
+      ],
+      "plain": "Bei beiden Verfahren wies der Text des Voynich-Manuskripts mehr Ähnlichkeiten mit dem PIII-generierten Text auf als mit dem natürlich-sprachlichen Text.",
+      "context_plain": [
+       "Zur Ermittlung der Endungen im Text wurde eine graphemische Methode angewandt (Minimalpaarfindung + Clusterverfahren (K-Means++)).",
+       "Die morphemische Analyse sollte mögliche Stämme identifizieren (Keyword-Trees, Zerlegungsvariationssuche, Häufigkeitsanalyse).",
+       "Aus seiner Analyse schloss Hermes, dass das Voynich-Manuskript durch eine PIII-ähnliche Methode verschlüsselt worden sein könnte."
+      ]
+     },
+     {
+      "segment_id": "271345560-0236",
+      "type": "sentence",
+      "section": "Jürgen Hermes",
+      "context_ids": [
+       "271345560-0235"
+      ],
+      "plain": "Seine Verschlüsselungstheorie geht davon aus, dass das Voynich-Manuskript mit einer Methode chiffriert wurde, die der Trithematischen Polygraphia (PIII-Methode) ähnelt.",
+      "context_plain": [
+       "Jürgen Hermes stellte 2012 in seiner Dissertation Textprozessierung – Design und Applikation eine Theorie zur Entschlüsselung des Voynich-Manuskripts vor."
+      ]
+     },
+     {
+      "segment_id": "271345560-0248",
+      "type": "sentence",
+      "section": "Artjunow et al.",
+      "context_ids": [
+       "271345560-0246",
+       "271345560-0247"
+      ],
+      "plain": "30 % des Textes seien in Dänisch oder Deutsch, der Rest in einer romanischen Sprache (Latein oder Spanisch) verfasst.",
+      "context_plain": [
+       "2016 veröffentlichte eine Gruppe um Andronik Aramowitsch Artjunow vom Keldysch-Institut der Russischen Akademie der Wissenschaften eine neue Lösung.",
+       "Nach ihnen seien Vokale und Leerzeichen entfernt worden."
+      ]
+     },
+     {
+      "segment_id": "271345560-0247",
+      "type": "sentence",
+      "section": "Artjunow et al.",
+      "context_ids": [
+       "271345560-0246"
+      ],
+      "plain": "Nach ihnen seien Vokale und Leerzeichen entfernt worden.",
+      "context_plain": [
+       "2016 veröffentlichte eine Gruppe um Andronik Aramowitsch Artjunow vom Keldysch-Institut der Russischen Akademie der Wissenschaften eine neue Lösung."
+      ]
+     },
+     {
+      "segment_id": "271345560-0249",
+      "type": "sentence",
+      "section": "Greg Kondrak",
+      "context_ids": [],
+      "plain": "Greg Kondrak, ein Professor für Computerlinguistik an der Universität von Alberta, nutzte Verfahren aus dem Bereich der künstlichen Intelligenz, um verschlüsselte Texte zu analysieren, und wandte sie auch auf das Voynich-Manuskript an.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0251",
+      "type": "sentence",
+      "section": "Greg Kondrak",
+      "context_ids": [
+       "271345560-0249",
+       "271345560-0250"
+      ],
+      "plain": "Dem zufolge sei die Sprache des Manuskripts mit einer gewissen Wahrscheinlichkeit Hebräisch, wobei die einzelnen Wörter Anagramme mit fehlenden Vokalen seien.",
+      "context_plain": [
+       "Greg Kondrak, ein Professor für Computerlinguistik an der Universität von Alberta, nutzte Verfahren aus dem Bereich der künstlichen Intelligenz, um verschlüsselte Texte zu analysieren, und wandte sie auch auf das Voynich-Manuskript an.",
+       "Die Ergebnisse wurden 2016 in Form eines Artikels präsentiert, der von Kondrak und einem seiner Studenten verfasst wurde."
+      ]
+     },
+     {
+      "segment_id": "271345560-0253",
+      "type": "sentence",
+      "section": "Greg Kondrak",
+      "context_ids": [
+       "271345560-0251",
+       "271345560-0252"
+      ],
+      "plain": "Erst nach einigen manuellen Korrekturen konnte ein einzelner Satz ermittelt werden, der halbwegs Sinn ergab.",
+      "context_plain": [
+       "Dem zufolge sei die Sprache des Manuskripts mit einer gewissen Wahrscheinlichkeit Hebräisch, wobei die einzelnen Wörter Anagramme mit fehlenden Vokalen seien.",
+       "Allerdings konnten auf diese Weise nur kleine Fragmente entschlüsselt und übersetzt werden."
+      ]
+     },
+     {
+      "segment_id": "271345560-0254",
+      "type": "sentence",
+      "section": "Greg Kondrak",
+      "context_ids": [
+       "271345560-0252",
+       "271345560-0253"
+      ],
+      "plain": "Die beiden räumten außerdem ein, dass Experten für mittelalterliche Manuskripte nicht von den Ergebnissen überzeugt waren.",
+      "context_plain": [
+       "Allerdings konnten auf diese Weise nur kleine Fragmente entschlüsselt und übersetzt werden.",
+       "Erst nach einigen manuellen Korrekturen konnte ein einzelner Satz ermittelt werden, der halbwegs Sinn ergab."
+      ]
+     },
+     {
+      "segment_id": "271345560-0256",
+      "type": "sentence",
+      "section": "Gerard Cheshire",
+      "context_ids": [
+       "271345560-0255"
+      ],
+      "plain": "Eine davon zeigt offenbar einen Vulkanausbruch auf einer Insel; der einzige Vulkanausbruch in Europa bzw. dem Mittelmeerraum, der in etwa in die Entstehungszeit des Manuskripts fällt, fand 1444 auf der Insel Vulcanello nördlich von Sizilien statt, das damals unter aragonesischer Herrschaft stand.",
+      "context_plain": [
+       "Gerard Cheshire, seinerzeit Forschungsassistent im Fach Biologie an der Universität Bristol, studierte eine detaillierte Abbildung des Manuskripts genauer, in der vier Landkarten enthalten sind."
+      ]
+     },
+     {
+      "segment_id": "271345560-0258",
+      "type": "sentence",
+      "section": "Gerard Cheshire",
+      "context_ids": [
+       "271345560-0257"
+      ],
+      "plain": "Zur Zeit des Vulkanausbruchs bewohnte die weibliche Entourage (siehe Lucrezia d’Alagno) von Alfons V. (Aragón), einem Förderer von Kunst und Wissenschaft, das Castello Aragonese.",
+      "context_plain": [
+       "Die weiteren Karten stellen nach Cheshires Ansicht die Inseln Lipari (nahe Vulcanello) und Ischia sowie die über eine Brücke damit verbundene Felseninsel des Castello Aragonese im Golf von Neapel dar."
+      ]
+     },
+     {
+      "segment_id": "271345560-0260",
+      "type": "sentence",
+      "section": "Gerard Cheshire",
+      "context_ids": [],
+      "plain": "Des Weiteren behauptete Cheshire 2019, dass das Voynich-Manuskript in proto-romanischer Sprache geschrieben worden sei, einer linguistisch konstruierten Zwischenstufe zwischen Vulgärlatein und den Vorläufern der heutigen romanischen Sprachen.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0261",
+      "type": "sentence",
+      "section": "Torsten Timm",
+      "context_ids": [],
+      "plain": "Aufgrund der Korrelation von Worthäufigkeit, Wortähnlichkeit und Wortposition geht Timm davon aus, dass der Text des Voynich-Manuskripts während des Schreibens aus sich selbst erzeugt wurde und folglich bedeutungslos sei.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0262",
+      "type": "sentence",
+      "section": "Torsten Timm",
+      "context_ids": [
+       "271345560-0261"
+      ],
+      "plain": "Auch dass es kaum Korrekturen gibt und der Text immer fast perfekt in den Platz am Zeilenende passt, würde dadurch erklärt.",
+      "context_plain": [
+       "Aufgrund der Korrelation von Worthäufigkeit, Wortähnlichkeit und Wortposition geht Timm davon aus, dass der Text des Voynich-Manuskripts während des Schreibens aus sich selbst erzeugt wurde und folglich bedeutungslos sei."
+      ]
+     },
+     {
+      "segment_id": "271345560-0265",
+      "type": "sentence",
+      "section": "Torsten Timm",
+      "context_ids": [
+       "271345560-0264"
+      ],
+      "plain": "Zusammen mit Andreas Schinner präsentierte Timm einen Algorithmus, der Texte mit diesem Vorgehen erzeugen kann.",
+      "context_plain": [
+       "Möglich sei es zum Beispiel gewesen, einen oder mehrere Glyphen durch graphemisch ähnliche zu ersetzen, ein Präfix anzufügen oder zu entfernen oder zwei Quellwörter zu konkatenieren."
+      ]
+     },
+     {
+      "segment_id": "271345560-0267",
+      "type": "sentence",
+      "section": "Torsten Timm",
+      "context_ids": [],
+      "plain": "Mit dem von Timm erstellten VoynichTextGenerator wird das beschriebene Verfahren in einer App implementiert, indem auf Grundlage einer ausgewählten Zeile des Voynich-Manuskripts ein längerer Text generiert werden kann.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0268",
+      "type": "sentence",
+      "section": "Rainer Hannig",
+      "context_ids": [],
+      "plain": "Im Juni 2020 publizierte Rainer Hannig, deutscher Philologe und Ägyptologe, eine Interpretation, wonach es sich bei der zugrundeliegenden Sprache im Voynich-Manuskript um spätmittelalterliches Hebräisch handelt.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0271",
+      "type": "sentence",
+      "section": "Rainer Hannig",
+      "context_ids": [
+       "271345560-0270"
+      ],
+      "plain": "Sechs „Galgenzeichen“ der Schrift identifizierte er mit den hebräischen Begadkefat-Lauten (b, g, d, k, p, t).",
+      "context_plain": [
+       "Nach Hannig weisen die Wörter des Manuskripts oft drei Konsonanten mit folgendem Vokal auf, was auf eine semitische Schrift deutet."
+      ]
+     },
+     {
+      "segment_id": "271345560-0273",
+      "type": "sentence",
+      "section": "Lea Carl-Krüsi und Christoph Eggenberger",
+      "context_ids": [],
+      "plain": "Die beiden Kunsthistoriker können zur Textentzifferung nichts beitragen, erkennen aber in der Abfolge der Bilder ein klares Anliegen: «Es ist ein Plädoyer für die Sprösslinge des Adels, die mit Frauen aus dem Volk gezeugt wurden, die sogenannten Bastarde».",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0274",
+      "type": "sentence",
+      "section": "Lea Carl-Krüsi und Christoph Eggenberger",
+      "context_ids": [
+       "271345560-0273"
+      ],
+      "plain": "Unter dem Deckmantel von pflanzlichen Symbolen wird der missliche Status der Rechtlosen und Enterbten zwischen Adel und Volk dargestellt.",
+      "context_plain": [
+       "Die beiden Kunsthistoriker können zur Textentzifferung nichts beitragen, erkennen aber in der Abfolge der Bilder ein klares Anliegen: «Es ist ein Plädoyer für die Sprösslinge des Adels, die mit Frauen aus dem Volk gezeugt wurden, die sogenannten Bastarde»."
+      ]
+     },
+     {
+      "segment_id": "271345560-0275",
+      "type": "sentence",
+      "section": "Lea Carl-Krüsi und Christoph Eggenberger",
+      "context_ids": [
+       "271345560-0273",
+       "271345560-0274"
+      ],
+      "plain": "«In der Botanik sind die prächtigsten Pflanzen – der Phantasie entsprungene Gebilde – das Resultat von Kreuzungen.",
+      "context_plain": [
+       "Die beiden Kunsthistoriker können zur Textentzifferung nichts beitragen, erkennen aber in der Abfolge der Bilder ein klares Anliegen: «Es ist ein Plädoyer für die Sprösslinge des Adels, die mit Frauen aus dem Volk gezeugt wurden, die sogenannten Bastarde».",
+       "Unter dem Deckmantel von pflanzlichen Symbolen wird der missliche Status der Rechtlosen und Enterbten zwischen Adel und Volk dargestellt."
+      ]
+     },
+     {
+      "segment_id": "271345560-0277",
+      "type": "sentence",
+      "section": "Stefan Guzy",
+      "context_ids": [],
+      "plain": "Dem Berliner Typografen und Manuskriptforscher Stefan Guzy gelang 2023 nach einer intensiven Auswertung aller Buchtransaktionen der kaiserlichen Hofkammer der Nachweis, dass der Augsburger Arzt und Handschriftenhändler Carl Widemann 1599 dem Kaiser ein Konvolut Handschriften für 600 Gulden verkauft hatte.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0278",
+      "type": "sentence",
+      "section": "Stefan Guzy",
+      "context_ids": [
+       "271345560-0277"
+      ],
+      "plain": "Da dies nach Guzy die einzige Transaktion in der Größenordnung in der gesamten Regierungszeit von Rudolf II. gewesen ist und der im Brief von Marci genannten Ankaufssumme entspricht, dürfte das Voynich-Manuskript mit diesem Verkauf gemeint gewesen sein.",
+      "context_plain": [
+       "Dem Berliner Typografen und Manuskriptforscher Stefan Guzy gelang 2023 nach einer intensiven Auswertung aller Buchtransaktionen der kaiserlichen Hofkammer der Nachweis, dass der Augsburger Arzt und Handschriftenhändler Carl Widemann 1599 dem Kaiser ein Konvolut Handschriften für 600 Gulden verkauft hatte."
+      ]
+     },
+     {
+      "segment_id": "271345560-0279",
+      "type": "sentence",
+      "section": "Michael A. Greshko",
+      "context_ids": [],
+      "plain": "2025 veröffentlichte der US-amerikanische Wissenschaftsjournalist Michael A. Greshko in der Fachzeitschrift Cryptologia eine Untersuchung, in welcher er ein Verfahren beschreibt, durch das mit den im Mittelalter verfügbaren Mitteln sich aus einem lateinischen oder italienischen Text ein Kryptogramm erzeugen ließe, das die verschiedenen ungewöhnlichen statistischen Merkmale des Voynich-Manuskripts weitgehend reproduziert.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0282",
+      "type": "sentence",
+      "section": "Michael A. Greshko",
+      "context_ids": [
+       "271345560-0281"
+      ],
+      "plain": "Anschließend wird mit einer gezogenen Spielkarte eine von sechs verschiedenen Verschlüsselungstabellen mit dem Voynich-Zeichensatz entsprechenden Zeichen gewählt.",
+      "context_plain": [
+       "Bei dem von Greshko in Anlehnung an die altitalienischen Naibi-Spielkarten Naibbe genannte Verfahren wird ein Würfel verwendet und auf Grundlage der erwürfelten Augenzahl der zu verschlüsselnde Text in eine Folge von Einzel- und Doppelbuchstaben zerlegt."
+      ]
+     },
+     {
+      "segment_id": "271345560-0285",
+      "type": "sentence",
+      "section": "Musik",
+      "context_ids": [],
+      "plain": "Der zeitgenössische Schweizer Komponist Hanspeter Kyburz schrieb ein auf dem Voynich-Text basierendes Stück The Voynich Cipher Manuscript (24 Singstimmen und Ensemble), wobei er die Voynich-Zeichen als Noten interpretierte.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0287",
+      "type": "sentence",
+      "section": "Musik",
+      "context_ids": [],
+      "plain": "Der zeitgenössische argentinische Komponist Juan María Solare schrieb 2010 das Stück The Voynich Manuscript (Blockflöte bzw. Klarinette, Violine und Cello), wobei er mit Markow-Ketten arbeitete.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0286",
+      "type": "sentence",
+      "section": "Musik",
+      "context_ids": [],
+      "plain": "Eines der Alben des japanischen Speedcore-Künstlers m1dy trägt den Titel Voynich Tracks.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0292",
+      "type": "sentence",
+      "section": "Belletristik und Fantasy",
+      "context_ids": [],
+      "plain": "Dan Simmons: Ilium (2004) und Olympos (2006) – Der Name der Voynix, vom islamischen Kalifat aus der Zukunft gesandter Cyborg-Killer, leitet sich vom Voynich MS her.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0319",
+      "type": "sentence",
+      "section": "Belletristik und Fantasy",
+      "context_ids": [
+       "271345560-0317",
+       "271345560-0318"
+      ],
+      "plain": "Immerhin erscheint John Dee in der fiktiven Publikationsgeschichte des Necronomicons als Übersetzer, was allerdings wenig besagt, da Dee unabhängig vom Voynich-Manuskript in esoterischen Kreisen – ähnlich darin Bacon – eine prominente Figur ist.",
+      "context_plain": [
+       "Das Necronomicon erscheint in den Erzählungen von H. P. Lovecraft erstmals 1922 in der Erzählung The Hound, zwei Jahre, nachdem Voynich Kopien an interessierte Forscher versandt hatte, und ein Jahr nachdem die ersten Ergebnisse von Voynich und Newbold durch die Vorträge in Philadelphia publik gemacht worden waren.",
+       "Die zeitliche Nähe regt zwar zu Spekulationen an, jedoch ist eine Erwähnung des Voynich-Manuskripts in der sehr umfangreichen Korrespondenz Lovecrafts nicht belegt."
+      ]
+     },
+     {
+      "segment_id": "271345560-0322",
+      "type": "sentence",
+      "section": "Belletristik und Fantasy",
+      "context_ids": [
+       "271345560-0321"
+      ],
+      "plain": "Es soll hier den Weg zu dem Grab des Hermes weisen, wo sich der Stein des Weisen befinden soll.",
+      "context_plain": [
+       "Das Voynich-Manuskript ist ein wesentlicher Bestandteil des Romans Indiana Jones und der Stein der Weisen."
+      ]
+     },
+     {
+      "segment_id": "271345560-0324",
+      "type": "sentence",
+      "section": "Belletristik und Fantasy",
+      "context_ids": [
+       "271345560-0323"
+      ],
+      "plain": "Eine florentinische Patriziertochter „malt“ erzählend Bilder, die sie einem Kopisten im Jahr 1442 berichtet.",
+      "context_plain": [
+       "Im Jahr 2015 veröffentlichte das Autorenpaar Achim Engstler und Astrid Dehe den Roman Unter Schwalbenzinnen, in dem sie die Geschichte des Entstehens des Manuskripts erzählen."
+      ]
+     },
+     {
+      "segment_id": "271345560-0330",
+      "type": "sentence",
+      "section": "Belletristik und Fantasy",
+      "context_ids": [
+       "271345560-0329"
+      ],
+      "plain": "In dem als Mystery-Thriller deklarierten Roman entdeckt ein Wissenschaftler im Paris des ausklingenden 21. Jahrhunderts alte Drucklettern mit Glyphen des Voynich-Alphabets und Pergamente, die älter sind als das Manuskript, aber dieselben Zeichen enthalten.",
+      "context_plain": [
+       "Im Jahr 2017 erschien Das verdammte Manuskript des österreichischen Autors Harald A. Jahn im Wiener Verlag PROverbis."
+      ]
+     },
+     {
+      "segment_id": "271345560-0333",
+      "type": "sentence",
+      "section": "Kunst",
+      "context_ids": [
+       "271345560-0332"
+      ],
+      "plain": "Dieses Lexikon einer imaginären Welt ist in einer eigens hierfür erdachten, unentschlüsselbaren Schrift abgefasst und mit zahlreichen, teils grotesken Abbildungen reich illustriert.",
+      "context_plain": [
+       "Luigi Serafini: Der von dem italienischen Künstler geschaffene Codex Seraphinianus ist ein Werk im Stil des Voynich-Manuskripts."
+      ]
+     },
+     {
+      "segment_id": "271345560-0334",
+      "type": "sentence",
+      "section": "Kunst",
+      "context_ids": [],
+      "plain": "Randall Munroe: In einer Ausgabe seines Webcomics xkcd wird das Voynich-Manuskript als Quellenbuch für ein Pen-&-Paper-Rollenspiel dargestellt.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0335",
+      "type": "sentence",
+      "section": "Kunst",
+      "context_ids": [],
+      "plain": "Der auf alte Schriften spezialisierte Siloé-Verlag aus Burgos in Spanien wollte bis Herbst 2017 898 originalgetreue Nachbildungen in einem aufwändigen Verfahren produzieren und zum Stückpreis von 7000 bis 8000 Euro verkaufen.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0337",
+      "type": "sentence",
+      "section": "Computerspiele",
+      "context_ids": [
+       "271345560-0336"
+      ],
+      "plain": "Sein Text enthält Prophezeiungen von Naturkatastrophen in der nahen Zukunft.",
+      "context_plain": [
+       "Baphomets Fluch: Der schlafende Drache (englischer Titel: Broken Sword: The Sleeping Dragon; 2003, PC, 3D-Adventure) – das Manuskript ist Teil des Spielplots."
+      ]
+     },
+     {
+      "segment_id": "271345560-0340",
+      "type": "sentence",
+      "section": "Computerspiele",
+      "context_ids": [],
+      "plain": "Assassin’s Creed Rogue – das Voynich-Manuskript ist ein wichtiger Bestandteil des Plots.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271345560-0336",
+      "type": "sentence",
+      "section": "Computerspiele",
+      "context_ids": [],
+      "plain": "Baphomets Fluch: Der schlafende Drache (englischer Titel: Broken Sword: The Sleeping Dragon; 2003, PC, 3D-Adventure) – das Manuskript ist Teil des Spielplots.",
+      "context_plain": []
+     }
+    ],
+    "rejected": [
+     {
+      "segment_id": "271345560-0082",
+      "reason": "context_invalid"
+     },
+     {
+      "segment_id": "271345560-0095",
+      "reason": "context_invalid"
+     },
+     {
+      "segment_id": "271345560-0122",
+      "reason": "context_invalid"
+     },
+     {
+      "segment_id": "271345560-0129",
+      "reason": "context_invalid"
+     },
+     {
+      "segment_id": "271345560-0130",
+      "reason": "context_invalid"
+     },
+     {
+      "segment_id": "271345560-0158",
+      "reason": "context_invalid"
+     },
+     {
+      "segment_id": "271345560-0263",
+      "reason": "context_invalid"
+     },
+     {
+      "segment_id": "271345560-0270",
+      "reason": "context_invalid"
+     },
+     {
+      "segment_id": "271345560-0272",
+      "reason": "context_invalid"
+     },
+     {
+      "segment_id": "271345560-0281",
+      "reason": "context_invalid"
+     },
+     {
+      "segment_id": "271345560-0315",
+      "reason": "context_invalid"
+     },
+     {
+      "segment_id": "271345560-0317",
+      "reason": "context_invalid"
+     },
+     {
+      "segment_id": "271345560-0060",
+      "reason": "too_short"
+     },
+     {
+      "segment_id": "271345560-0126",
+      "reason": "not_a_sentence"
+     },
+     {
+      "segment_id": "271345560-0121",
+      "reason": "too_short"
+     },
+     {
+      "segment_id": "271345560-0180",
+      "reason": "not_a_sentence"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1408,
+     "output_tokens": 124,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 3125,
+     "output_tokens": 267,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 2620,
+     "output_tokens": 288,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1719,
+     "output_tokens": 147,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1570,
+     "output_tokens": 87,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1150,
+     "output_tokens": 64,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1452,
+     "output_tokens": 131,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1241,
+     "output_tokens": 64,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1188,
+     "output_tokens": 41,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1075,
+     "output_tokens": 41,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1287,
+     "output_tokens": 108,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1465,
+     "output_tokens": 87,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1949,
+     "output_tokens": 133,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1819,
+     "output_tokens": 221,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1379,
+     "output_tokens": 115,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1624,
+     "output_tokens": 131,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1207,
+     "output_tokens": 41,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1526,
+     "output_tokens": 94,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1608,
+     "output_tokens": 145,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1319,
+     "output_tokens": 115,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 2488,
+     "output_tokens": 228,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1513,
+     "output_tokens": 64,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1542,
+     "output_tokens": 131,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1383,
+     "output_tokens": 94,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1942,
+     "output_tokens": 242,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1167,
+     "output_tokens": 78,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1135,
+     "output_tokens": 64,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1288,
+     "output_tokens": 78,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1101,
+     "output_tokens": 64,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1671,
+     "output_tokens": 166,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1096,
+     "output_tokens": 78,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1368,
+     "output_tokens": 145,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1596,
+     "output_tokens": 94,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1591,
+     "output_tokens": 147,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1341,
+     "output_tokens": 124,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1222,
+     "output_tokens": 101,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1203,
+     "output_tokens": 64,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1461,
+     "output_tokens": 94,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1061,
+     "output_tokens": 11,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1289,
+     "output_tokens": 80,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1848,
+     "output_tokens": 34,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 2621,
+     "output_tokens": 198,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1309,
+     "output_tokens": 87,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1218,
+     "output_tokens": 87,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    },
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1069,
+     "output_tokens": 11,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Andromedagalaxie",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "272099762-0015",
+    "272099762-0023",
+    "272099762-0028",
+    "272099762-0030",
+    "272099762-0031",
+    "272099762-0020",
+    "272099762-0027",
+    "272099762-0022"
+   ],
+   "facts": [
+    "272099762-0015",
+    "272099762-0023",
+    "272099762-0028",
+    "272099762-0030",
+    "272099762-0031",
+    "272099762-0020",
+    "272099762-0027"
+   ],
+   "extraction": {
+    "revid": 272099762,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "272099762-0015",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272099762-0014"
+      ],
+      "plain": "Sie ist zugleich das entfernteste Objekt, das unter guten Bedingungen ohne technische Hilfsmittel mit bloßem Auge beobachtet werden kann.",
+      "context_plain": [
+       "Die Andromedagalaxie, auch (veraltet) Andromedanebel oder Großer Andromedanebel genannt, ist mit rund 2,5 Millionen Lichtjahren Entfernung die am nächsten zur Milchstraße gelegene Spiralgalaxie."
+      ]
+     },
+     {
+      "segment_id": "272099762-0023",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272099762-0022"
+      ],
+      "plain": "Hinsichtlich des Halos ist die Andromedagalaxie das größte Mitglied der Lokalen Gruppe, einer Ansammlung gravitativ gebundener Galaxien.",
+      "context_plain": [
+       "Die Galaxie weist im Zentrum ein massereiches Schwarzes Loch von etwa 100 Millionen Sonnenmassen auf, Spiralarme erstrecken sich davon bis zu einer Distanz von rund 80.000 Lichtjahren aus, ihr Halo durchmisst über eine Million Lichtjahre."
+      ]
+     },
+     {
+      "segment_id": "272099762-0028",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272099762-0027"
+      ],
+      "plain": "Anhand der Andromedagalaxie wurde dann in den 1920er Jahren festgestellt, dass Spiralnebel eigenständige, außerhalb der Milchstraße gelegene Sternsysteme sind.",
+      "context_plain": [
+       "Es gelang allerdings erst Ende des 19. Jahrhunderts, dieses zuvor auch in Teleskopen nur als Nebelfleck erscheinende Objekt als Spiralnebel, gebildet aus Sternen, näher zu bestimmen."
+      ]
+     },
+     {
+      "segment_id": "272099762-0030",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Abweichungen zwischen berechneter und beobachteter Rotation in der Andromedagalaxie deuteten seit etwa 1940 auf Dunkle Materie oder eine Abweichung zur Newtonschen Dynamik hin.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "272099762-0031",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272099762-0030"
+      ],
+      "plain": "Seit der Jahrtausendwende findet man vermehrt Spuren einer zurückliegenden Kollision mit einer anderen Galaxie.",
+      "context_plain": [
+       "Abweichungen zwischen berechneter und beobachteter Rotation in der Andromedagalaxie deuteten seit etwa 1940 auf Dunkle Materie oder eine Abweichung zur Newtonschen Dynamik hin."
+      ]
+     },
+     {
+      "segment_id": "272099762-0020",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272099762-0019"
+      ],
+      "plain": "Es sind dunkle Staubbänder, Sternentstehungsgebiete und im Außenbereich über 200, möglicherweise 500 Kugelsternhaufen auszumachen.",
+      "context_plain": [
+       "Beide Galaxien beherbergen die gleichen Arten von astronomischen Objekten, aus der „äußeren“ Perspektive auf die Andromedagalaxie besteht jedoch eine bessere Sicht auf die Struktur."
+      ]
+     },
+     {
+      "segment_id": "272099762-0027",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272099762-0026"
+      ],
+      "plain": "Es gelang allerdings erst Ende des 19. Jahrhunderts, dieses zuvor auch in Teleskopen nur als Nebelfleck erscheinende Objekt als Spiralnebel, gebildet aus Sternen, näher zu bestimmen.",
+      "context_plain": [
+       "Die Andromedagalaxie wird seit langem wissenschaftlich untersucht."
+      ]
+     }
+    ],
+    "rejected": [
+     {
+      "segment_id": "272099762-0022",
+      "reason": "context_invalid"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 3092,
+     "output_tokens": 244,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Burgos",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "272014504-0002",
+    "272014504-0007"
+   ],
+   "facts": [
+    "272014504-0002",
+    "272014504-0007"
+   ],
+   "extraction": {
+    "revid": 272014504,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "272014504-0002",
+      "type": "infobox_row",
+      "section": "",
+      "context_ids": [
+       "272014504-0001"
+      ],
+      "plain": "Infobox Gemeinde in Spanien – Basisdaten – Gründung: 884",
+      "context_plain": [
+       "Infobox Gemeinde in Spanien – Basisdaten – Provinz: Burgos"
+      ]
+     },
+     {
+      "segment_id": "272014504-0007",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272014504-0006"
+      ],
+      "plain": "Die Großstadt liegt am Jakobsweg (Camino Francés) und am Camino del Cid.",
+      "context_plain": [
+       "Burgos (spanisch [ˈbuɾɣos]) hat 177.402 Einwohner (Stand: 2025) zählende Hauptstadt der gleichnamigen Provinz in der Autonomen Gemeinschaft Kastilien-León (Castilla y León) in Spanien."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1466,
+     "output_tokens": 71,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Cyborg",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "272192362-0002",
+    "272192362-0003",
+    "272192362-0009"
+   ],
+   "facts": [
+    "272192362-0002",
+    "272192362-0003",
+    "272192362-0009"
+   ],
+   "extraction": {
+    "revid": 272192362,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "272192362-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272192362-0001"
+      ],
+      "plain": "Der Name ist ein Akronym, abgeleitet vom englischen cybernetic organism („kybernetischer Organismus“).",
+      "context_plain": [
+       "Zumeist werden damit Menschen beschrieben, deren Körperteile dauerhaft durch maschinelle Bauteile ergänzt werden."
+      ]
+     },
+     {
+      "segment_id": "272192362-0003",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272192362-0002"
+      ],
+      "plain": "Im Gegensatz zu Robotern und Androiden bezieht sich der Begriff Cyborg auf einen lebenden Organismus, dessen Funktionen wiederhergestellt oder Fähigkeiten verbessert wurden, indem künstliche Komponenten oder Technologien integriert wurden, die auf Rückkopplung beruhen.",
+      "context_plain": [
+       "Der Name ist ein Akronym, abgeleitet vom englischen cybernetic organism („kybernetischer Organismus“)."
+      ]
+     },
+     {
+      "segment_id": "272192362-0009",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272192362-0008"
+      ],
+      "plain": "Ein Beispiel ist Neil Harbisson, der sich selbst als erster staatlich anerkannter Cyborg bezeichnet.",
+      "context_plain": [
+       "Die Cyborgisierung ist ein aktueller Trend, der von verschiedenen Akteuren vorangetrieben wird."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1618,
+     "output_tokens": 101,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Dan Simmons",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [],
+   "facts": [],
+   "extraction": {
+    "revid": 264826398,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1027,
+     "output_tokens": 11,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Der Goldkäfer",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "270831594-0000",
+    "270831594-0001"
+   ],
+   "facts": [
+    "270831594-0000",
+    "270831594-0001"
+   ],
+   "extraction": {
+    "revid": 270831594,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "270831594-0000",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Der Goldkäfer (Originaltitel The Gold-Bug) ist eine Kurzgeschichte von Edgar Allan Poe, in der im Rahmen einer Schatzsuche ausführlich die Dechiffrierung einer Geheimschrift anhand von Häufigkeitszahlen der einzelnen Buchstaben in englischen Texten erläutert wird.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "270831594-0001",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "270831594-0000"
+      ],
+      "plain": "Die Kurzgeschichte wurde am 21. und 28. Juni 1843 erstmals im Dollar Newspaper veröffentlicht.",
+      "context_plain": [
+       "Der Goldkäfer (Originaltitel The Gold-Bug) ist eine Kurzgeschichte von Edgar Allan Poe, in der im Rahmen einer Schatzsuche ausführlich die Dechiffrierung einer Geheimschrift anhand von Häufigkeitszahlen der einzelnen Buchstaben in englischen Texten erläutert wird."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1227,
+     "output_tokens": 64,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Edgar Allan Poe",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "271552617-0001",
+    "271552617-0002",
+    "271552617-0003"
+   ],
+   "facts": [
+    "271552617-0001"
+   ],
+   "extraction": {
+    "revid": 271552617,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "271552617-0001",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271552617-0000"
+      ],
+      "plain": "Er prägte entscheidend die Gattung der Kurzgeschichte sowie die Genres der Kriminal-, Horror- und Schauerliteratur.",
+      "context_plain": [
+       "Edgar Allan Poe (* 19. Januar 1809 in Boston, Massachusetts; † 7. Oktober 1849 in Baltimore, Maryland) war ein US-amerikanischer Schriftsteller."
+      ]
+     }
+    ],
+    "rejected": [
+     {
+      "segment_id": "271552617-0002",
+      "reason": "context_invalid"
+     },
+     {
+      "segment_id": "271552617-0003",
+      "reason": "context_invalid"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1288,
+     "output_tokens": 101,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Faksimile",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "260419933-0000",
+    "260419933-0004",
+    "260419933-0009",
+    "260419933-0011",
+    "260419933-0013",
+    "260419933-0005"
+   ],
+   "facts": [
+    "260419933-0000",
+    "260419933-0004",
+    "260419933-0009",
+    "260419933-0011",
+    "260419933-0013",
+    "260419933-0005"
+   ],
+   "extraction": {
+    "revid": 260419933,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "260419933-0000",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Das Faksimile (lat. fac simile „mache es ähnlich“; Plural: Faksimiles oder Facsimilia) ist eine originalgetreue Nachbildung oder Reproduktion einer Vorlage, häufig im Falle historisch wertvoller gedruckter oder handschriftlich erstellter Dokumente.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "260419933-0004",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Der technisch aufwendige rasterlose Lichtdruck ergab früher die besten Ergebnisse, wird jedoch heute kaum mehr angewendet, nachdem sich digitale Reproduktionstechniken durchgesetzt haben.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "260419933-0009",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Gedruckte Faksimiles waren in früherer Zeit die einzige Möglichkeit, kostbare Handschriften originalgetreu der Forschung zugänglich zu machen, so dass sie von Bibliotheken und Forschungsinstituten erworben wurden.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "260419933-0011",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Allerdings bieten Faksimiles die Möglichkeit, Handschriften, die in späterer Zeit zerteilt wurden und heute auf verschiedene Standorte verteilt sind (wie etwa das Lorscher Evangeliar), zumindest in der Nachbildung originalgetreu wieder zusammenzufügen.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "260419933-0013",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Der Begriff Fax für eine Fax-Übermittlung leitet sich ebenfalls von Faksimile ab.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "260419933-0005",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Aufgrund des hohen Aufwandes bei der Herstellung (die häufig auch eine Nachbildung des originalen Einbandes umfasst) sind Faksimiles verhältnismäßig teuer.",
+      "context_plain": []
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 2311,
+     "output_tokens": 149,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Hans Peter Kraus",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [],
+   "facts": [],
+   "extraction": {
+    "revid": 269834758,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1091,
+     "output_tokens": 11,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Indigene amerikanische Sprachen",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "266633979-0003",
+    "266633979-0001"
+   ],
+   "facts": [
+    "266633979-0003",
+    "266633979-0001"
+   ],
+   "extraction": {
+    "revid": 266633979,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "266633979-0003",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "266633979-0002"
+      ],
+      "plain": "Als letzte Darstellung der sprachlichen Verwandtschaften auf dem amerikanischen Kontinent, die allgemeine Zustimmung gefunden hat, gilt die Klassifikation von Voegelin & Voegelin (1965).",
+      "context_plain": [
+       "Vorschläge, diese in übergeordnete Familien zu gruppieren, wurden von einigen Linguisten unterbreitet, sind aber nicht allgemein anerkannt worden."
+      ]
+     },
+     {
+      "segment_id": "266633979-0001",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "266633979-0000"
+      ],
+      "plain": "Sie bestehen aus Dutzenden von eindeutigen Sprachfamilien sowie vielen isolierten Sprachen.",
+      "context_plain": [
+       "Die indigenen amerikanischen Sprachen sind die Sprachen der Ureinwohner Amerikas von den heutigen Staaten bzw. Gebieten Kanada, USA und Grönland über Mexiko und Zentralamerika, die Karibik bis hin zur südlichen Spitze von Südamerika."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1472,
+     "output_tokens": 71,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Jean-François Champollion",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "271524419-0001"
+   ],
+   "facts": [
+    "271524419-0001"
+   ],
+   "extraction": {
+    "revid": 271524419,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "271524419-0001",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271524419-0000"
+      ],
+      "plain": "Mit dem Entziffern der Hieroglypheninschrift auf dem Stein von Rosette (genannt auch „Rosetta-Stein“) und deren Erläuterung 1824 legte er den Grundstein für die wissenschaftliche Erforschung des dynastischen Ägyptens.",
+      "context_plain": [
+       "Jean-François Champollion ([ʃɑ̃pɔljɔ̃]; * 23. Dezember 1790 in Figeac im Département Lot; † 4. März 1832 in Paris) war ein französischer Sprachwissenschaftler."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1172,
+     "output_tokens": 41,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Mikroskop",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "271298098-0000",
+    "271298098-0001"
+   ],
+   "facts": [
+    "271298098-0000",
+    "271298098-0001"
+   ],
+   "extraction": {
+    "revid": 271298098,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "271298098-0000",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Ein Mikroskop (von griechisch μικρός mikrós „klein“; σκοπεῖν skopeín „betrachten“) ist ein Gerät, das es erlaubt, Objekte stark vergrößert anzusehen oder bildlich darzustellen.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271298098-0001",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271298098-0000"
+      ],
+      "plain": "Dabei handelt es sich meist um Objekte bzw. die Struktur von Objekten, deren Größe unterhalb des Auflösungsvermögens des menschlichen Auges liegt.",
+      "context_plain": [
+       "Ein Mikroskop (von griechisch μικρός mikrós „klein“; σκοπεῖν skopeín „betrachten“) ist ein Gerät, das es erlaubt, Objekte stark vergrößert anzusehen oder bildlich darzustellen."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1436,
+     "output_tokens": 64,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Mittelamerika",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "270750858-0002"
+   ],
+   "facts": [
+    "270750858-0002"
+   ],
+   "extraction": {
+    "revid": 270750858,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "270750858-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "270750858-0001"
+      ],
+      "plain": "Mexiko und Mittelamerika gemeinsam haben eine Landfläche von 2.714.000 km² mit ca. 230 Mio. Einwohnern.",
+      "context_plain": [
+       "Zu Mittelamerika gehören die Staaten Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica, Panama und Belize (Zentralamerika) sowie die Länder der nordöstlich vorgelagerten karibischen Inselflur (Westindische Inseln)."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1218,
+     "output_tokens": 41,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Pergament",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "268826227-0002",
+    "268826227-0004"
+   ],
+   "facts": [
+    "268826227-0002",
+    "268826227-0004"
+   ],
+   "extraction": {
+    "revid": 268826227,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "268826227-0002",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "268826227-0001"
+      ],
+      "plain": "Hierbei erfahren die geweichten und enthaarten Tierhäute (auch als „Blöße“ bezeichnet) aufgespannt eine Lufttrocknung.",
+      "context_plain": [
+       "Pergament ist damit ein Vorläufer des Papiers und wird meist aus Häuten von Kälbern, Ziegen oder Schafen hergestellt."
+      ]
+     },
+     {
+      "segment_id": "268826227-0004",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Pergamentpapier ist Papier aus Zellstoff und daher nicht mit Pergament aus Tierhäuten zu verwechseln.",
+      "context_plain": []
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1316,
+     "output_tokens": 64,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Radio Corporation of America",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "266623759-0009",
+    "266623759-0013",
+    "266623759-0010"
+   ],
+   "facts": [
+    "266623759-0009",
+    "266623759-0013"
+   ],
+   "extraction": {
+    "revid": 266623759,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "266623759-0009",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "266623759-0008"
+      ],
+      "plain": "Zur RCA gehörten unter anderem die Autovermietung The Hertz Corporation, das Finanzinstitut CIT Group, der Buchverlag Random House, mit RCA Records mehrere Plattenlabel, der Fernsehsender NBC, der Tiefkühllebensmittelhersteller Banquet Foods, der Teppichhersteller Coronet und der Geschenk- und Grußkartenhersteller Gibson.",
+      "context_plain": [
+       "Das Unternehmen hatte seinen Sitz im Rockefeller Center in New York und war an der New York Stock Exchange gelistet."
+      ]
+     },
+     {
+      "segment_id": "266623759-0013",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "266623759-0011",
+       "266623759-0012"
+      ],
+      "plain": "So wird RCA von VOXX International, Talisman Brands, d/b/a Established und Sony Music Entertainment (durch den Kauf von BMG) für einen Teil ihrer Produkte genutzt.",
+      "context_plain": [
+       "Heute fungiert RCA als Handelsmarke für verschiedene Unternehmen.",
+       "Das RCA Trademark Management verwaltet die Marken."
+      ]
+     }
+    ],
+    "rejected": [
+     {
+      "segment_id": "266623759-0010",
+      "reason": "context_invalid"
+     }
+    ]
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1851,
+     "output_tokens": 108,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Radiokarbonmethode",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "272069091-0004",
+    "272069091-0005",
+    "272069091-0001",
+    "272069091-0003"
+   ],
+   "facts": [
+    "272069091-0004",
+    "272069091-0005",
+    "272069091-0001",
+    "272069091-0003"
+   ],
+   "extraction": {
+    "revid": 272069091,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "272069091-0004",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272069091-0002",
+       "272069091-0003"
+      ],
+      "plain": "Dieser „normale Anteil“ ist trotz des ständigen Zerfalls nahezu konstant, da 14C ständig in der oberen Atmosphäre neu gebildet wird.",
+      "context_plain": [
+       "Das Verfahren beruht darauf, dass in abgestorbenen Organismen der Anteil an gebundenen radioaktiven 14C-Atomen gemäß dem Zerfallsgesetz abnimmt.",
+       "Lebende Organismen sind von diesem Effekt nicht betroffen, da sie ständig neuen Kohlenstoff aus der Umwelt aufnehmen, der wieder den normalen Anteil an 14C-Atomen einbringt."
+      ]
+     },
+     {
+      "segment_id": "272069091-0005",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272069091-0004"
+      ],
+      "plain": "Entwickelt wurde die Radiokarbondatierung 1946 von Willard Libby, der für diese Leistung 1960 mit dem Nobelpreis für Chemie ausgezeichnet wurde.",
+      "context_plain": [
+       "Dieser „normale Anteil“ ist trotz des ständigen Zerfalls nahezu konstant, da 14C ständig in der oberen Atmosphäre neu gebildet wird."
+      ]
+     },
+     {
+      "segment_id": "272069091-0001",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272069091-0000"
+      ],
+      "plain": "Der zeitliche Anwendungsbereich liegt etwa zwischen vor 300 und etwa 60.000 Jahren.",
+      "context_plain": [
+       "Die Radiokarbonmethode, auch Radiokohlenstoffdatierung, 14C, C14-Datierung oder Radiokarbondatierung bzw. Radiocarbondatierung, ist ein Verfahren zur radiometrischen Datierung kohlenstoffhaltiger, insbesondere organischer Materialien."
+      ]
+     },
+     {
+      "segment_id": "272069091-0003",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "272069091-0002"
+      ],
+      "plain": "Lebende Organismen sind von diesem Effekt nicht betroffen, da sie ständig neuen Kohlenstoff aus der Umwelt aufnehmen, der wieder den normalen Anteil an 14C-Atomen einbringt.",
+      "context_plain": [
+       "Das Verfahren beruht darauf, dass in abgestorbenen Organismen der Anteil an gebundenen radioaktiven 14C-Atomen gemäß dem Zerfallsgesetz abnimmt."
+      ]
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 1696,
+     "output_tokens": 138,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  },
+  {
+   "source": "Yale University",
+   "calls": 1,
+   "errors": 0,
+   "proposed": [
+    "271780579-0014",
+    "271780579-0015",
+    "271780579-0019",
+    "271780579-0020",
+    "271780579-0021",
+    "271780579-0022"
+   ],
+   "facts": [
+    "271780579-0014",
+    "271780579-0015",
+    "271780579-0019",
+    "271780579-0020",
+    "271780579-0021",
+    "271780579-0022"
+   ],
+   "extraction": {
+    "revid": 271780579,
+    "chunk_count": 1,
+    "facts": [
+     {
+      "segment_id": "271780579-0014",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+       "271780579-0013"
+      ],
+      "plain": "Sie wurde nach einem ihrer ersten Förderer, dem Kaufmann Elihu Yale, benannt.",
+      "context_plain": [
+       "Die Yale University in New Haven, Connecticut ist eine der renommiertesten Universitäten der Welt und die drittälteste Hochschule der Vereinigten Staaten."
+      ]
+     },
+     {
+      "segment_id": "271780579-0015",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die Universität verfügte 2021 mit 42,28 Milliarden US-Dollar (2020: 31,20 Mrd. $) nach der Harvard University und dem Verbund University of Texas System über das drittgrößte Stiftungskapital einer Bildungseinrichtung weltweit.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271780579-0019",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die Yale University verfügt über ein Bibliothekssystem, das an mehreren Standorten 2009 über 12,5 Millionen Bücher umfasste.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271780579-0020",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Insgesamt 65 Nobelpreisträger haben an der Yale University studiert, gelehrt oder gearbeitet.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271780579-0021",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Zu den Absolventen der Universität zählen fünf spätere US-Präsidenten, 19 Richter des Obersten Gerichtshofs der Vereinigten Staaten und diverse ausländische Staatsoberhäupter.",
+      "context_plain": []
+     },
+     {
+      "segment_id": "271780579-0022",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die Yale Law School ist die selektivste Law School der Vereinigten Staaten.",
+      "context_plain": []
+     }
+    ],
+    "rejected": []
+   },
+   "usage": [
+    {
+     "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+     },
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0,
+     "inference_geo": "global",
+     "input_tokens": 2295,
+     "output_tokens": 156,
+     "output_tokens_details": {
+      "thinking_tokens": 0
+     },
+     "service_tier": "batch",
+     "speed": "standard"
+    }
+   ]
+  }
+ ]
+}

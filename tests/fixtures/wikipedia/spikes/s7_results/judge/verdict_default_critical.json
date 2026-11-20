@@ -1,0 +1,2369 @@
+{
+ "name": "verdict_default_critical",
+ "variant": "verdict",
+ "effort": null,
+ "system": "Du prüfst einen Redebeitrag aus einem Podcast-Gespräch auf Faktentreue. Du bekommst den Redebeitrag, die Fakt-Sätze, auf die er sich beruft, und deren Kontext.\n\nRubrik: Jede Behauptung, jede Meinung und jede Prämisse einer Frage im Redebeitrag muss aus den Fakt-Sätzen folgen: gleiche Zahlen, Daten und Namen, keine zusätzliche Angabe; andere Formulierungen und ausgeschriebene Zahlen sind in Ordnung, einfache Rechnungen aus den Fakt-Sätzen auch. Was nur im Kontext steht, gilt als nicht belegt. Ein Redebeitrag ohne Fakt-IDs darf keine Behauptung enthalten. Reaktionen gelten als belegfrei: eine Reaktion: ein Gefühl im Moment (Staunen, Neugier, Belustigung), eine Nachfrage, eine Bitte um Erklärung, eine Überleitung oder ein Wiederaufgreifen des eben Gesagten ohne neue Information. Nicht belegfrei sind neue Informationen, Wertungen mit Faktengehalt und Aussagen der sprechenden Person über sich selbst (Erlebnisse, Wissen, Vorlieben).\n\nUrteile über den ganzen Redebeitrag: „supported“ ist nur wahr, wenn er die Rubrik vollständig erfüllt. Begründe kurz auf Deutsch; nenne bei Ablehnung die betroffene Stelle. Antworte mit JSON im vorgegebenen Schema.",
+ "summary": {
+  "calls": 98,
+  "errors": 0,
+  "input_tokens": 99769,
+  "output_tokens": 29830,
+  "thinking_tokens": 12083,
+  "usd_paid": 0.2489,
+  "usd_list": 0.4978
+ },
+ "cases": [
+  {
+   "id": "2026-11-19_axolotl-2/c3-t3",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Der Fakt-Satz belegt Geschlechtsreife ohne Veränderung der Larvengestalt und das Ausbleiben der bei Amphibien sonst üblichen Metamorphose. Der Satz „Der Axolotl bleibt sein Leben lang eine Art Larve“ geht darüber hinaus: „sein Leben lang“ steht nicht im Fakt-Satz. Auch „Natürlicherweise tritt er nur als Dauerlarve auf“ steht nur im Kontext und gilt deshalb als nicht belegt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1141,
+    "output_tokens": 207,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-19_axolotl-2/c3-t14",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Der erste Satz („Gliedmaßen oder Organe wachsen aus Zellen nach, die jeweils nur bestimmte Gewebetypen bilden können“) folgt aus dem Fakt-Satz. Der zweite Satz „Es gibt keine Zellen, die einfach alles werden“ geht darüber hinaus. Der Fakt-Satz sagt nur, dass sich die Regeneration aus Zellen mit eingeschränktem Entwicklungspotenzial speist. Er sagt nicht, dass es im Körper generell keine Zellen gibt, die alles werden können, etwa pluripotente Stammzellen. Diese Verallgemeinerung ist nicht belegt und keine bloße Reaktion.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1100,
+    "output_tokens": 268,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-19_axolotl-2/c3-t34",
+   "group": "rejected",
+   "label": false,
+   "supported": true,
+   "reason": "Der Beitrag besteht aus einer wertenden Reaktion („Das ist ja eine Geschichte für sich“) und einer Nachfrage nach der Bedeutung des Axolotls. Der bestimmte Artikel zeigt, dass Axolotl und Film schon im Gespräch vorkamen, sodass die Frage nur Bekanntes aufgreift und keine neue Information liefert. Das gilt als belegfreie Reaktion, daher sind keine Fakt-IDs nötig.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 870,
+    "output_tokens": 778,
+    "output_tokens_details": {
+     "thinking_tokens": 590
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-19_axolotl-2/c1-t16",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Aussagen zum zehnfachen Genom des Axolotl und zum fehlenden Gen Pax3 sind durch die Fakten gedeckt. \"Spannender Kontrast\" ist eine Reaktion. Unbelegt ist \"der alte Name des Protokolls\": Der Fakt [265804978-0008] spricht nur von \"dem ehemaligen Namen\" und nennt kein Protokoll. Dass es um den früheren Namen eines Protokolls geht, steht nur im Kontext, und der gilt nicht als Beleg.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1460,
+    "output_tokens": 965,
+    "output_tokens_details": {
+     "thinking_tokens": 756
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-19_axolotl-2/c1-t34",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Fakt-Sätze belegen nur, dass lateinisch „plagiarius“ „Menschendieb, Seelenverkäufer“ bedeutet und Plagiat die Anmaßung fremder geistiger Leistungen ist. Die Wertung „ein starkes Wort für abgeschriebene Sätze“ ist teilweise gedeckt. Die Nachfrage nach weiteren Auftritten des Axolotl ist eine Reaktion und braucht keinen Beleg. Die Prämisse, dass „abgeschriebene Sätze“ vorliegen und dass der Axolotl bereits aufgetreten ist, steht aber nicht in den Fakt-Sätzen. Der Axolotl wird dort gar nicht erwähnt, und das Abschreiben von Sätzen ist nur im Kontext, nicht im Fakt belegt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1015,
+    "output_tokens": 314,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-19_axolotl-2/c2-t26",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Der Name im Stück Der Hauptmann von Köpenick (Zuckmayer, 1931) ist belegt, ebenso \"Theaterstück\" als Umschreibung für Schauspiel. Die Stelle \"in einem berühmten Theaterstück\" ist aber nicht belegt: Der Fakt-Satz nennt das Stück nirgends berühmt, sondern nur die Schuhfirma Salamander als bekannt. Das ist eine zusätzliche wertende Angabe. \"Wooper Looper, was für ein Name!\" ist dagegen eine belegfreie Reaktion.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1100,
+    "output_tokens": 686,
+    "output_tokens_details": {
+     "thinking_tokens": 460
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-19_axolotl-2/c2-t34",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Zusammenfassung „Erst gefeiert, dann beschuldigt, dann trotzdem nominiert“ stützt sich teils nur auf den Kontext: Das anfängliche Feiern als Sensation und die ersten Plagiatsvorwürfe stehen dort, nicht im Fakt-Satz 267051500-0003. Der Fakt-Satz belegt nur die Nominierung für den Preis der Leipziger Buchmesse trotz weiterer Plagiatsvorwürfe. Das Gefeiert-Werden ist damit nicht belegt. Der Krimi-Vergleich und die Frage nach politischer Literatur sind dagegen belegfreie Reaktionen und unproblematisch.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1118,
+    "output_tokens": 265,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-19_axolotl-2/c1-t1-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": true,
+   "reason": "Alle Aussagen folgen aus den beiden Fakt-Sätzen: der Einsatz des Axolotl-Protokolls bei der Ende-zu-Ende-Verschlüsselung, Signal als Beispiel, der ehemalige Name mit Anspielung auf den Axolotl, der Schwanzlurch, aquatisch lebend, vom Aussterben bedroht und mit außergewöhnlichen Selbstheilungsfähigkeiten. Der letzte Satz, die Anspielung beziehe sich auf diese Eigenschaft, geht nur geringfügig über die Fakten hinaus. Er ist eine vertretbare Paraphrase des Relativsatzes und enthält keine zusätzliche Angabe. Das einleitende „Ja, das gibt es“ ist eine belegfreie Antwortreaktion.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1421,
+    "output_tokens": 959,
+    "output_tokens_details": {
+     "thinking_tokens": 652
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-19_axolotl-2/c2-t14-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Der zweite und dritte Satz („Je Häutung wird jeweils ein Stück mehr ersetzt…“, „Körperteile auch vollständig ersetzt werden“) folgen aus dem Fakt-Satz. Der erste Satz „Ja, es gibt Tiere, bei denen das schrittweise geschieht“ ist aber nicht belegt. Der Fakt-Satz nennt keine Tiere. Dass es sich um Gliederfüßer handelt, steht nur im Kontext, und der gilt als nicht belegt. Außerdem ist der Bezug „Ja … bei denen das“ keine bloße Reaktion, sondern behauptet, dass es solche Tiere gibt. Zudem sagt der Fakt-Satz „können“ statt einer allgemeinen Aussage, was Lena mit „können“ am Ende zwar übernimmt. Die Behauptung zur Existenz solcher Tiere geht jedoch über den Fakt-Satz hinaus.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1106,
+    "output_tokens": 358,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-19_axolotl-2/c3-t2-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Der Redebeitrag nennt keine Fakt-IDs, enthält aber eine konkrete Tatsachenbehauptung: „Vier Monate Suche und kein einziger Fund.“ Dauer und Ergebnis der Suche sind durch keinen Fakt-Satz belegt. Als Wiederaufgreifen des eben Gesagten lässt sich der Satz nicht werten, weil dafür kein Beleg vorliegt. Das Betroffenheitsgefühl, die Überleitung und die Nachfrage wären dagegen belegfrei zulässig.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 919,
+    "output_tokens": 475,
+    "output_tokens_details": {
+     "thinking_tokens": 261
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_axolotl/c1-t34",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Felix sagt, im Jahr 2010 habe es einen Roman und einen Film mit Axolotl im Titel gegeben. Der Fakt nennt 2010 nur für den Debütroman Axolotl Roadkill. Wann der Film Axolotl Overkill erschien, steht dort nicht. Die Jahresangabe für den Film ist damit nicht belegt. „Eine kühne Geschichte!“ und „Worum ging es da?“ sind dagegen belegfreie Reaktionen.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1089,
+    "output_tokens": 550,
+    "output_tokens_details": {
+     "thinking_tokens": 361
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_axolotl/c1-t5-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Definition „Metamorphose heißt: die Verwandlung vom Jungtier zum erwachsenen Tier“ steht in keinem der Fakt-Sätze und ist damit nicht belegt. Die übrigen Aussagen (Geschlechtsreife ohne Änderung der Larvengestalt, keine übliche Metamorphose, zeitlebens Larvengestalt, Neotenie) folgen aus den Fakten.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1356,
+    "output_tokens": 360,
+    "output_tokens_details": {
+     "thinking_tokens": 194
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_axolotl/c1-t18-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Der Redebeitrag nennt keine Fakt-IDs, enthält aber Behauptungen. Die Frage setzt voraus, dass es Menschen gab, die den Axolotl „schon viel länger kannten“. Das ist eine inhaltliche Prämisse ohne Beleg. Auch „Das ist ein stolzer Beiname“ setzt einen Beiname voraus, der nur aus dem Kontext stammt und nicht belegt ist.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 900,
+    "output_tokens": 414,
+    "output_tokens_details": {
+     "thinking_tokens": 241
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein/c3-t54",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Der Redebeitrag nennt den Tagebau Goitzsche, aber kein zitierter Fakt-Satz enthält diesen Namen. Die Infobox (0005) nennt nur „Abbau von: Braunkohle/Bernstein/Mooreiche“. Der Satz 0511 spricht nur von „der so schnell aufgenommenen Förderung“ und nennt keinen Ort. Dass die Förderung wegen des Importrückgangs beim Tagebau Goitzsche aufgenommen wurde, geht allenfalls aus dem Kontext hervor („Der Abbau begann bereits 1975“) und gilt damit als nicht belegt. Die übrigen Angaben (zehn Tonnen auf eine, VEB Ostseeschmuck, Ribnitz-Damgarten) stehen im Fakt-Satz.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1243,
+    "output_tokens": 1339,
+    "output_tokens_details": {
+     "thinking_tokens": 1031
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein/c3-t59",
+   "group": "rejected",
+   "label": false,
+   "supported": true,
+   "reason": "Felix greift das eben Gesagte auf: Der Kolumbianische Ambar ist ein Kopal, der nur etwa 200 Jahre alt ist, also vergleichsweise jung. Das deckt der Fakt-Satz ab. Die Frage, ob Kopal nie zum Bernstein zählt, ist eine Nachfrage und enthält keine neue unbelegte Behauptung.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 976,
+    "output_tokens": 700,
+    "output_tokens_details": {
+     "thinking_tokens": 547
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein/c3-t63",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Frage setzt voraus, dass an der Ostsee immer wieder Bernstein gefunden wird. Das ist eine Tatsachenbehauptung als Prämisse. Es sind keine Fakt-Sätze zitiert, die sie belegen, und ohne Fakt-IDs darf der Beitrag keine Behauptung enthalten.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 876,
+    "output_tokens": 412,
+    "output_tokens_details": {
+     "thinking_tokens": 276
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein/c1-t11",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Aussagen zur Herkunft von „Elektrizität“ und „Elektron“ aus altgriechisch élektron (Bernstein) und zum negativ geladenen, stabilen Elementarteilchen sind belegt. Im letzten Satz heißt es aber, geriebener Bernstein, der Teilchen anzieht, sei ein klassisches Beispiel „der Elektrostatik“. Der zitierte Fakt nennt nur „ein klassisches Beispiel“ und erwähnt die Elektrostatik nicht. Diese Zuordnung ist eine zusätzliche, nicht belegte Angabe.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1219,
+    "output_tokens": 446,
+    "output_tokens_details": {
+     "thinking_tokens": 214
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein/c1-t22",
+   "group": "rejected",
+   "label": false,
+   "supported": true,
+   "reason": "Der Redebeitrag enthält keine Behauptung: \"Meine Güte, was für eine Vorstellung!\" ist eine Reaktion (Staunen), und die Frage nach dem strengen Umgang mit Bernstein ist eine Nachfrage. Die Frage setzt keine überprüfbare Tatsache voraus, die belegt sein müsste. Fakt-IDs sind daher nicht erforderlich.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 872,
+    "output_tokens": 162,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein/c1-t30",
+   "group": "rejected",
+   "label": false,
+   "supported": true,
+   "reason": "Der Beitrag enthält nur eine Reaktion („Beeindruckend.“) und eine Nachfrage zur Haltbarkeit von Bernstein im Boden. Er stellt keine Behauptung auf und bringt keine neue Information ein, daher braucht er keine Fakt-IDs.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 869,
+    "output_tokens": 311,
+    "output_tokens_details": {
+     "thinking_tokens": 192
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein/c1-t45",
+   "group": "rejected",
+   "label": false,
+   "supported": true,
+   "reason": "Alle Aussagen folgen aus dem zitierten Fakt-Satz: Vorkommen an der Oberfläche in sandigen Schichten, sehr leicht zu fördern, daher beträchtliche nicht-staatliche und damit illegale Förderung, etwa 90 % der ukrainischen Produktion, Schmuggel zur Weiterverarbeitung nach Polen und Russland. Es kommen keine zusätzlichen Angaben hinzu.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1231,
+    "output_tokens": 369,
+    "output_tokens_details": {
+     "thinking_tokens": 193
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein/c1-t51",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Der Satz \"Künstlich geklärte Bernsteine sind keine Seltenheit\" steht nur im Kontext, nicht im zitierten Fakt-Satz, und gilt damit als nicht belegt. Er ist keine Reaktion, sondern eine Behauptung. Der Rest stimmt mit dem Fakt überein: trübe Naturbernsteine, 95 %, mehrere Tage, langsam in Raps- oder Leinöl erwärmt, um sie zu klären.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1045,
+    "output_tokens": 187,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein/c1-t56",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Nicht belegt ist die Aussage „Bernstein ist ein Schmuckstein aus fossilem Harz, besonders im Ostseeraum verbreitet“. Keiner der zitierten Fakten nennt Schmuckstein, fossiles Harz oder den Ostseeraum. Die übrigen Aussagen decken die Fakten ab: der griechische Name in der Elektrizität, die Kleiderbürste, die Gefäße für Bluttransfusionen, mindestens 75 % aus dem Samland, etwa 90 % illegale Förderung in der Ukraine, die unbekannte Erzeugerpflanze und die isolierte alte DNA. Dass die Behauptung zur Herkunft unbelegt ist, genügt für die Ablehnung. Außerdem erwähnt der Beitrag nicht, dass das Samland-Zitat sich auf den regulären Bergbau bezieht, und „Bernstein ist ein Schmuckstein“ ist ebenfalls nicht gedeckt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 2020,
+    "output_tokens": 367,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein/c3-t30-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Der Einstieg \"Praktisch nicht.\" ist keine bloße Reaktion, sondern eine Antwort mit Faktengehalt. Die Fakt-Sätze sagen nicht, dass es praktisch keine solchen Einschlüsse gibt, sondern nur, dass die Behauptung falsch ist und es einzig zwei Ausnahmen gibt. Die übrigen Aussagen (Falschheit der Behauptung, Asseln der Gattung Ligia in der Spritzwasserzone mariner Felsstrände, Mikrofauna mit Kieselalgen und Foraminiferen in einem kleinen kreidezeitlichen Bernsteinstück aus Südwestfrankreich) sind durch 0575 und 0577 belegt. Wegen der zusätzlichen, nicht belegten Formulierung \"Praktisch nicht\" ist der Redebeitrag nicht vollständig gedeckt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1395,
+    "output_tokens": 340,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein-2/c1-t50",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Frage setzt voraus, dass es einen Glauben an den Stein gibt und dass man ihm Kräfte zuschreibt. Das ist eine Prämisse, die aus keinem Fakt-Satz folgt, denn es sind keine Fakt-IDs zitiert. Der Ausruf „Das ist ja kaum zu fassen!“ und die Überleitung „Zum Schluss noch ein Blick“ wären als belegfreie Reaktionen in Ordnung, die Prämisse der Frage aber nicht.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 893,
+    "output_tokens": 199,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein-2/c2-t19",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Prämisse \"Wenn Bernstein Geld war\" folgt aus dem Fakt (Halsketten als gesetzliches Zahlungsmittel im Baltikum). Die Frage unterstellt aber zusätzlich, dass man genau darauf geachtet habe, wer den Bernstein sammelt und verkauft. Dazu steht im Fakt-Satz nichts. Das ist eine unbelegte Behauptung und keine bloße Nachfrage oder Überleitung.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 981,
+    "output_tokens": 186,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein-2/c2-t49",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Frage setzt voraus, dass es bei diesen Preisen \"bestimmt auch illegale Förderung\" gibt. Davon steht in dem Fakt-Satz nichts. Er nennt nur Preise, geringere Fördermengen, Exportrestriktionen und die Nachfrage aus China. Die Prämenisse zur illegalen Förderung ist daher nicht belegt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1131,
+    "output_tokens": 395,
+    "output_tokens_details": {
+     "thinking_tokens": 243
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein-2/c1-t6-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Frage \"Wofür hat man Bernstein früher im Haushalt benutzt?\" setzt voraus, dass Bernstein früher im Haushalt verwendet wurde. Diese Prämisse ist nicht belegt, weil keine Fakten zitiert sind. \"Autsch!\" und die Überleitung sind belegfreie Reaktionen und unproblematisch.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 881,
+    "output_tokens": 376,
+    "output_tokens_details": {
+     "thinking_tokens": 228
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein-2/c1-t35-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Behauptung \"Sehr oft.\" steht nur im Kontext (\"Künstlich geklärte Bernsteine sind keine Seltenheit\"), nicht im Fakt-Satz, und gilt daher als nicht belegt. Die Zahl (95 %), die Erwärmung über mehrere Tage in Raps- oder Leinöl und der Zweck der Klärung folgen dagegen aus dem Fakt-Satz. Weil \"Sehr oft\" eine inhaltliche Aussage ist und keine bloße Reaktion, erfüllt der Redebeitrag die Rubrik nicht vollständig.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1024,
+    "output_tokens": 235,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein-2/c2-t5-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Frage setzt voraus, dass Menschen in der Antike Bernstein benutzt haben. Das steht in keinem der Fakt-Sätze. Außerdem sprechen die Fakten von einer unbekannten „Erzeugerpflanze“, nicht von einem „Baum“. Nur die Aussage, Bernstein sei kein anerkanntes Mineral, ist durch [271638927-0028] gedeckt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1018,
+    "output_tokens": 521,
+    "output_tokens_details": {
+     "thinking_tokens": 358
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein-2/c2-t9-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": true,
+   "reason": "Die Aussage \"Ein Schmuckstein als Namenspate für Strom und Elektronen\" folgt aus dem Fakt: Das griechische Wort für Bernstein wurde zum Namensgeber von Elektron und Elektrizität. \"Schmuckstein\" für Bernstein ist eine Umschreibung, die im Wesentlichen keine neue Sachbehauptung enthält. \"Das ist stark\" ist eine Reaktion, die Frage nach den Germanen eine belegfreie Nachfrage ohne zusätzliche Prämisse.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1093,
+    "output_tokens": 213,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein-2/c3-t21-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": true,
+   "reason": "Die drei Behauptungen (Trinken aus Bernsteingefäßen, Bernstein als Zierde alles Wertvollen, bernsteinfarben gefärbtes Haar wohlhabender Frauen) stehen fast wörtlich im Fakt-Satz. Das einleitende \"Viel.\" ist eine belegfreie Überleitung und fügt keine neue Information hinzu.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1033,
+    "output_tokens": 153,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein-2/c3-t30-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Frage \"Wird so etwas heute noch als Ersatz für Bernstein benutzt?\" setzt voraus, dass Kopal als Ersatz für Bernstein verwendet wurde. Der Fakt sagt nur, die Eidechse sei vermutlich von Menschenhand in Kopal eingebettet worden und das Stück sei am Ende des Zweiten Weltkrieges verschollen. Von einer Verwendung als Bernsteinersatz steht dort nichts. \"Verschollen, schade\" und \"Du hast eben Kopal erwähnt\" sind dagegen unproblematisch.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1057,
+    "output_tokens": 601,
+    "output_tokens_details": {
+     "thinking_tokens": 371
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_bernstein-2/c3-t34-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Der Satz „Bernstein war ja nicht nur Schmuck“ behauptet, dass Bernstein auch anders genutzt wurde. Das ist eine Prämisse der anschließenden Frage. Es sind aber keine Fakt-IDs angegeben, die sie belegen. „Verstanden“ und die Frage selbst wären belegfrei, die Prämisse aber nicht.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 876,
+    "output_tokens": 468,
+    "output_tokens_details": {
+     "thinking_tokens": 318
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_helgoland/c1-t22-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Frage \"Wie ging es nach der Sprengung mit dem Aufbau der Insel weiter?\" setzt voraus, dass die Insel nach der Sprengung aufgebaut wurde. Das steht in keinem der Fakt-Sätze. Der zweite Fakt nennt nur die Sprengung am 18. April 1947. Auch \"Atlantis hat sich also nicht bestätigt\" geht über den ersten Fakt hinaus, der nur besagt, dass Spanuths Thesen zur Atlantis-Legende als wissenschaftlich nicht haltbar gelten.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1129,
+    "output_tokens": 744,
+    "output_tokens_details": {
+     "thinking_tokens": 520
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_helgoland/c1-t24-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": true,
+   "reason": "Der Redebeitrag ist eine neugierige Nachfrage mit einer Reaktion (\"Spannend!\"). Er enthält keine neue Information. Die Frage setzt nur voraus, dass es eine Insel gibt, über die gesprochen wird. Das ist keine zu belegende Behauptung, daher sind keine Fakt-IDs nötig.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 865,
+    "output_tokens": 141,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_tunguska-ereignis/c1-t6-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Der erste Satz gibt den Fakt (Graf Zeppelin sucht bei der Erdumrundung nach einem Krater) nur sinngemäß wieder und ist in Ordnung. Die Frage „Hat man später wenigstens Reste von dem Körper gefunden?“ setzt aber voraus, dass es einen Körper gab, der einen Krater verursacht hat. Das steht nicht in dem zitierten Fakt, der nur besagt, dass die Besatzung vergeblich nach einem Krater suchte. Diese Prämisse ist nicht belegt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 953,
+    "output_tokens": 436,
+    "output_tokens_details": {
+     "thinking_tokens": 222
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_tunguska-ereignis/c1-t21-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Fakt-Sätze nennen weder \"Kometen\" noch \"Asteroiden\". Fakt 0003 sagt nur \"Einige entstanden aber auch in anderen Sternsystemen\", und Fakt 0002 nur \"Nur die wenigsten haben mehr als einige hundert Kilometer Durchmesser\". Dass es um Kometen bzw. Asteroiden geht, steht nur im Kontext und gilt daher als nicht belegt. Betroffen sind \"Einige Kometen entstanden in anderen Sternsystemen\" und \"bei Asteroiden … Nur die wenigsten haben mehr als einige hundert Kilometer Durchmesser\".",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1247,
+    "output_tokens": 686,
+    "output_tokens_details": {
+     "thinking_tokens": 426
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_tunguska-ereignis/c1-t38-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Rückbezug-Aussage über den misslungenen Umgang mit zurückgelassener außerirdischer Technik ist durch den Fakt gedeckt. Die Frage „Wie sehen die Raumschiffe der Außerirdischen eigentlich typischerweise aus?“ setzt aber voraus, dass Außerirdische Raumschiffe haben, die typisch aussehen. Das steht nicht in den Fakt-Sätzen, die nur von zurückgelassener Technologie in einer Serie sprechen.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1017,
+    "output_tokens": 596,
+    "output_tokens_details": {
+     "thinking_tokens": 399
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_tunguska-ereignis-2/c3-t29",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Der Fakt-Satz sagt nur, dass es nach Foots Theorie eine Kollision mit einem Spiegelmaterie-Körper \"gehandelt haben könnte\" (rückblickend, ein vergangenes Ereignis). Lena formuliert, Foot halte eine Kollision \"für möglich\", was zeitlich und inhaltlich unbestimmt ist und die Vergangenheitsbezug weglässt. Dieser Unterschied ist klein, aber die Aussage \"hält ... für möglich\" ist eine Meinungszuschreibung, die der Satz nicht ausdrücklich belegt. Die übrigen Angaben (Universität Melbourne, Spiegelmaterie als hypothetische Materieform, Dunkle Materie als Beispiel) stimmen mit dem Fakt überein.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1091,
+    "output_tokens": 303,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_tunguska-ereignis-2/c2-t26",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Aussage, Lenin baue in der Schweiz eine Räterepublik, folgt aus Fakt 0090 (Lenin funktioniert die Schweiz zur sozialistischen Räterepublik um). Der Teil über den Comic ist dagegen nicht gedeckt: Fakt 0102 nennt eine Cartoonreihe (Pater Anselms Weltraummission), nicht einen Comic. Der Meiler wird dort abgeworfen, weil eine Kernschmelze droht, und löst so das Tunguska-Ereignis aus, was grob passt. Der Redebeitrag stellt aber Lenin und den Meiler-Comic als zusammengehörige Handlung dar (\"im Comic\"), obwohl es zwei verschiedene Werke sind. Die Nachfrage am Ende ist belegfrei. Die Verbindung \"im Comic\" mit Gattungsbezeichnung Comic statt Cartoonreihe ist eine abweichende Angabe.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1217,
+    "output_tokens": 360,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_tunguska-ereignis-2/c2-t30",
+   "group": "rejected",
+   "label": false,
+   "supported": true,
+   "reason": "Die Behauptung, dass es in der Serie um außerirdische Technologie geht, folgt aus dem Fakt-Satz: In den Folgen 7–12 der zweiten Staffel von UFOs wird ein Ereignis mit zurückgelassener außerirdischer Technologie gedeutet. Die anschließende Frage nach der Vorstellung von Raumfahrzeugen Außerirdischer ist eine Nachfrage ohne neue Behauptung und gilt als belegfrei.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1004,
+    "output_tokens": 186,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_tunguska-ereignis-2/c1-t9-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": true,
+   "reason": "Die Aussage, dass bis heute keine mit bloßem Auge sichtbaren Bruchstücke eines eingeschlagenen Himmelskörpers gefunden wurden, steht wörtlich im Fakt-Satz. Die Bezeichnung Impaktor ergibt sich aus der Klammer im selben Satz. „Auch da sieht es leer aus“ ist nur eine Überleitung ohne neue Information.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 986,
+    "output_tokens": 453,
+    "output_tokens_details": {
+     "thinking_tokens": 290
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_tunguska-ereignis-2/c1-t18-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Rechnung 1978 bis 2013 (mehrere Jahrzehnte) und die Neugier auf den Meteoritenfall sind durch die Fakten gedeckt. Die Frage \"Gibt es Forscher, die trotz allem einen Krater ausgemacht haben wollen?\" setzt aber voraus, dass es beim Tunguska-Ereignis Zweifel an einem Krater gibt oder keiner gefunden wurde. Ein Krater kommt in den zitierten Fakten nicht vor, die Prämisse ist also nicht belegt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1050,
+    "output_tokens": 651,
+    "output_tokens_details": {
+     "thinking_tokens": 438
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_tunguska-ereignis-2/c3-t10-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": false,
+   "reason": "Die Aussage zur Koma („Millionen Kilometer“) und zum Kern („wenige Kilometer“) folgt aus [271523896-0005]. Die Behauptung „Manche Kometen kommen sogar aus fremden Sternsystemen“ ist aber nicht ganz gedeckt: [271523896-0003] sagt nur, dass einige in anderen Sternsystemen entstanden und vom Sonnensystem gravitativ eingefangen wurden. Das impliziert nicht, dass sie „aus fremden Sternsystemen kommen“ im Sinne einer aktuellen Herkunft. Außerdem fehlt in den Fakten jeder Bezug zu Tunguska. Die Frage nach der Sprengkraft setzt Tunguska und die Explosion als Prämisse voraus, die durch keinen zitierten Fakt belegt ist.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1206,
+    "output_tokens": 316,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_tunguska-ereignis-2/c3-t20-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": true,
+   "reason": "Felix stellt nur eine Nachfrage zur Bestätigung und greift das eben Gesagte auf. Die Prämisse, dass der See als gesuchter Krater gilt, deckt sich mit der Vermutung in [262125942-0007], dass der See ein Einschlagkrater des Tunguska-Ereignisses ist. Er stellt es als Frage dar, nicht als Tatsache, und fügt keine unbelegte Angabe hinzu.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 986,
+    "output_tokens": 173,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "2026-11-20_voynich-manuskript/c1-t17-v0",
+   "group": "rejected",
+   "label": false,
+   "supported": true,
+   "reason": "Die Zuschreibung an Newbold folgt aus [271345560-0157], wo die Mikroschrift als Newbolds Idee erscheint. Der letzte Satz ist wörtlich aus [271345560-0143] belegt. Die Wendung „bekannter Versuch“ ist nur eine schwache Rahmung und fügt keine neue Tatsachenbehauptung hinzu.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1216,
+    "output_tokens": 768,
+    "output_tokens_details": {
+     "thinking_tokens": 618
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c01",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Beide Behauptungen folgen aus dem Fakt-Satz: Die Montage der ersten Etage am 7. Dezember 1887 und das 45 Meter hohe Gerüst, das die Horizontalbalken (Querbalken) abstützte. Datum und Zahl stimmen überein, und es kommt keine zusätzliche Angabe hinzu.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 979,
+    "output_tokens": 140,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c02",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Der Redebeitrag nennt ein Gerüst von „fünfundsechzig Meter“ Höhe, der Fakt-Satz [271593273-0100] spricht dagegen von einem 45 Meter hohen Gerüst. Die Zahl weicht ab und ist nicht belegt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 959,
+    "output_tokens": 117,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c03",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Der Redebeitrag nennt Dezember 1888 als Zeitpunkt der Montage der ersten Etage. Der Fakt-Satz [271593273-0100] nennt den 7. Dezember 1887. Das Jahr stimmt nicht überein, die Behauptung folgt also nicht aus dem Fakt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 941,
+    "output_tokens": 127,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c04",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Der Redebeitrag gibt Fakt 271593273-0520 sinngemäß wieder: In den 2010er Jahren (Zwanzigzehnerjahre) pendelte sich die jährliche Besucherzahl bei etwa sechs Millionen ein. Zahlen und Zeitraum stimmen überein, zusätzliche Angaben gibt es nicht.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 932,
+    "output_tokens": 144,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c05",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Lena behauptet, seit der Eröffnung kämen jedes Jahr etwa sechs Millionen Besucher. Der Fakt-Satz belegt das nur für die 2010er Jahre, in denen sich die jährliche Besucherzahl bei etwa sechs Millionen einpendelte. Die Ausweitung auf den gesamten Zeitraum seit der Eröffnung ist eine zusätzliche Angabe und folgt nicht aus dem Fakt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 925,
+    "output_tokens": 179,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c06",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Der Redebeitrag gibt den Fakt-Satz sinngemäß wieder: venezianisches Rot zu Beginn, Umstellung auf Rotbraun zur Eröffnung 1889. Zahlen und Farben stimmen überein, es kommt keine zusätzliche Angabe hinzu. Die Formulierung „Am Anfang“ steht für „zu Beginn der Errichtung“ und ist eine zulässige Umformulierung.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 952,
+    "output_tokens": 173,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c07",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Lena behauptet, der Turm sei zur Eröffnung 1889 ockergelb gestrichen worden. Der Fakt-Satz sagt dagegen, man sei zur Eröffnung 1889 auf Rotbraun umgeschwenkt. Die Farbangabe \"ockergelb\" widerspricht dem Fakt und ist nicht belegt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 934,
+    "output_tokens": 142,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c08",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Die Aussage \"Ein Anwohner hatte Angst, der Turm könnte auf sein Haus stürzen, und hat geklagt\" steht nur im Kontext, nicht im Fakt-Satz 271593273-0142, und gilt damit als nicht belegt. Der Fakt-Satz belegt nur, dass das Gericht den Weiterbau mit der Auflage erlaubte, dass Eiffel bei etwaigen Schäden haftet. Dieser zweite Satz ist gedeckt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1055,
+    "output_tokens": 193,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c09",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Der Redebeitrag gibt den Fakt [271590031-0091] korrekt wieder: In Bristol lag der Spitzenwert vor dem Räudeausbruch bei 37 Füchsen je Quadratkilometer. „Zeitweise“ entspricht dem Spitzenwert, und es kommt keine zusätzliche Angabe hinzu.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 949,
+    "output_tokens": 243,
+    "output_tokens_details": {
+     "thinking_tokens": 103
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c10",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Der Redebeitrag nennt dreiundsiebzig Füchse je Quadratkilometer, der Fakt-Satz [271590031-0091] nennt dagegen 37 (Spitzenwert). Die Zahl ist vertauscht und damit nicht belegt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 950,
+    "output_tokens": 109,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c11",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Der Fakt-Satz nennt Bristol, Lena sagt London. Die Zahl 37 Füchse je Quadratkilometer und der Räudeausbruch stimmen, aber die Stadt ist falsch. Außerdem wird aus dem Spitzenwert \"zeitweise\" eine Aussage, die nur so ungefähr passt. Die Ortsangabe \"In London\" ist durch den Fakt nicht belegt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 942,
+    "output_tokens": 168,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c12",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Die Prämisse der Frage (Roman de Renard von 1175) folgt direkt aus dem Fakt-Satz 271590031-0365. Die Frage nach dem Autor ist eine belegfreie Nachfrage, und das einleitende \"Moment\" drückt Staunen aus. Es werden keine zusätzlichen Angaben gemacht.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 904,
+    "output_tokens": 138,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c13",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Die Frage setzt voraus, dass der Roman de Renard im Mittelalter „so beliebt“ war. Der zitierte Fakt nennt nur, dass Pierre de Saint Cloud ihn 1175 schrieb, und sagt nichts über seine Beliebtheit. Diese Prämisse ist nicht belegt, und die Frage ist keine reine Reaktion ohne Faktengehalt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 902,
+    "output_tokens": 337,
+    "output_tokens_details": {
+     "thinking_tokens": 179
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c14",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Die erste Behauptung, Wölfe hätten Fuchsbaue vergrößert, um ihre Jungen aufzuziehen, steht nur im Kontext, nicht im zitierten Fakt-Satz [271590031-0209], und gilt daher als nicht belegt. Die zweite Aussage, Füchse warnen, wenn Wölfe in der Nähe von Bauen mit Welpen auftauchen, wird durch den Fakt-Satz gedeckt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1042,
+    "output_tokens": 179,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c15",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Der Redebeitrag nennt keine Fakt-IDs, enthält aber eine Behauptung: „Füchse ja eigentlich Einzelgänger sind“. Das ist eine neue Information und keine bloße Reaktion. Sie ist durch keinen Fakt-Satz belegt. Nur „Wow, sie warnen also“ wäre als Reaktion belegfrei.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 871,
+    "output_tokens": 277,
+    "output_tokens_details": {
+     "thinking_tokens": 128
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c16",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Der Redebeitrag enthält keine Behauptung, sondern nur Reaktionen: Überraschung im Moment (\"damit hätte ich nicht gerechnet\") und eine Bitte um mehr Information (\"Erzähl mehr\"). Beides ist belegfrei, daher sind keine Fakt-IDs nötig.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 880,
+    "output_tokens": 132,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c17",
+   "group": "s1",
+   "label": false,
+   "supported": true,
+   "reason": "Der Redebeitrag enthält keine Fakt-IDs, aber auch keine belegpflichtige Behauptung. Felix spricht über ein eigenes Erlebnis (ein Fuchs im Garten letzten Sommer). Das ist eine Aussage der sprechenden Person über sich selbst und braucht keinen Beleg.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 866,
+    "output_tokens": 132,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c18",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Die Aussage stimmt mit dem Fakt-Satz überein: Datum (10. September 1843), Person (Schafhirte Peter Pfeifer), Ort (Westgipfel) und die Zählung als dritte Besteigung. Es kommt keine zusätzliche Angabe hinzu; \"stand auf dem Westgipfel\" ist eine zulässige Umformulierung von \"bestiegen\".",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 954,
+    "output_tokens": 160,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c19",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Datum, Name und Beruf stimmen mit dem Fakt-Satz überein. Die Behauptung \"das war erst die zweite Besteigung\" widerspricht aber dem Fakt, denn dort heißt es, der Westgipfel wurde am 10. September 1843 \"zum dritten Mal\" bestiegen.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 942,
+    "output_tokens": 129,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c20",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Die Aussage, Föhn trete in der Region an rund sechzig Tagen im Jahr auf, entspricht dem Fakt-Satz 271266791-0090 (60 Tage pro Jahr in der Region). „Rund“ ist eine zulässige andere Formulierung, und es wird keine zusätzliche Angabe gemacht.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 922,
+    "output_tokens": 133,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c21",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Die Angabe \"rund sechzig Tage im Jahr\" folgt aus dem Fakt (60 Tage pro Jahr). Die Aussage \"vor allem im Herbst\" steht aber nicht im Fakt-Satz und ist eine zusätzliche, nicht belegte Angabe.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 932,
+    "output_tokens": 121,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c22",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Der Redebeitrag sagt, Wilhelm habe sich am Weihnachtstag 1066 in Westminster Abbey zum König von England krönen lassen. Das entspricht dem Fakt-Satz [269510698-0098] in Datum, Ort und Ereignis. Der Redebeitrag enthält keine zusätzlichen Angaben.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1035,
+    "output_tokens": 137,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c23",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Der Redebeitrag nennt Ostern 1066 als Krönungszeitpunkt, der Fakt-Satz [269510698-0098] nennt dagegen den Weihnachtstag 1066. Das Datum widerspricht dem Beleg, daher ist die Behauptung nicht gestützt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1030,
+    "output_tokens": 120,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c24",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich korrekt wieder: rund 1000 getötete oder verwundete Huscarle bei Stamford Bridge, 2000 verbliebene für Harald II., dazu über 5000 Fyrd-Kämpfer. Es gibt keine zusätzlichen Angaben, und die Zahlen stimmen überein.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1017,
+    "output_tokens": 150,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c25",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Laut dem Fakt-Satz konnte Harald II. auf 2000 Huscarle und über 5000 Fyrd-Kämpfer zurückgreifen. Zusammen sind das über 7000, also mehr als siebentausend Kämpfer. Die Aussage folgt per einfacher Addition aus dem Fakt-Satz und enthält keine zusätzliche Angabe.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 980,
+    "output_tokens": 149,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c26",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Der Redebeitrag gibt den Fakt-Satz sinngemäß wieder: 2 Liter täglich über 80 Jahre ergeben über 55.000 Liter. Zahlen stimmen überein, es wird keine zusätzliche Angabe gemacht.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 940,
+    "output_tokens": 109,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c27",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Lena behauptet, wer 80 Jahre lang täglich zwei Liter trinkt, komme auf über hunderttausend Liter. Der Fakt [269323716-0133] nennt für denselben Fall nur über 55.000 Liter. Die Zahl \"über hunderttausend\" folgt daraus nicht, denn 55.000 ist nicht dasselbe wie über 100.000. Sie widerspricht der belegten Angabe sogar. (Eine einfache Rechnung ergäbe etwa 58.400 Liter, also ebenfalls unter hunderttausend.)",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 934,
+    "output_tokens": 218,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c28",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Die Aussage, dass 71 Prozent der Erdoberfläche von Wasser bedeckt sind, entspricht dem Fakt-Satz 269323716-0247. Die ausgeschriebene Zahl ist inhaltlich identisch mit \"71 %\", und es wird keine zusätzliche Angabe gemacht.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 934,
+    "output_tokens": 130,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c29",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich korrekt wieder: Datum 8. Mai 1978, Reinhold Messner und Peter Habeler, Gipfel erstmals ohne zusätzlichen Sauerstoff. Es kommt keine zusätzliche Angabe hinzu.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 972,
+    "output_tokens": 129,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c30",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Der Redebeitrag nennt Hans Kammerlander als Begleiter von Reinhold Messner. Laut dem Fakt-Satz war es Peter Habeler. Datum (8. Mai 1978) und die Erstbesteigung ohne zusätzlichen Sauerstoff stimmen, der Name ist aber falsch.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 974,
+    "output_tokens": 131,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c31",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Der Redebeitrag stimmt mit dem Fakt-Satz überein: Mai 2018 (14. Mai 2018), 69-jähriger Chinese Xia Boyu, zwei Beinprothesen, Everest bezwungen. Es gibt keine zusätzlichen Angaben.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 946,
+    "output_tokens": 118,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c32",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Der Redebeitrag enthält keine Fakt-IDs, behauptet aber Neues: das Alter von neunundsechzig, die Prothesen und die Wertung als „mutigste Besteigung, die es je gab“. Das ist keine belegfreie Reaktion, sondern eine Wertung mit Faktengehalt, und sie ist durch keine Fakt-Sätze gedeckt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 869,
+    "output_tokens": 152,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c33",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Der Redebeitrag behauptet, weit über dreißigtausend Menschen hätten den Gipfel erreicht. Der Fakt-Satz sagt nur, dass wohl weit über 30.000 Menschen versucht haben, auf den Gipfel zu kommen. Versuch und Erfolg sind verschieden, und viele Versuche scheitern. Das Erreichen des Gipfels folgt daher nicht aus dem Fakt. Außerdem fehlt die Einschränkung „wohl“.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 915,
+    "output_tokens": 191,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c34",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: gleiche Zeitangabe (spätestens ab März 1703), gleiche Stellung (Lakai), gleiche Kapelle und Person (Johann Ernst von Sachsen-Weimar). „Geiger“ ist ein Synonym für „Violinist“. Die im Fakt genannte Bezeichnung „Mitregent“ wird weggelassen, was keine zusätzliche Angabe ist. Es gibt keine unbelegte Behauptung.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 960,
+    "output_tokens": 208,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c35",
+   "group": "s1",
+   "label": false,
+   "supported": true,
+   "reason": "Der Fakt-Satz belegt, dass Bach ein Urlaub von vier Wochen gewährt wurde. Dass es um die Reise nach Lübeck ging, steht im Kontext (November 1705, Studienreise nach Lübeck), und der Fakt-Satz bezieht sich darauf. Der Redebeitrag fügt keine Angabe hinzu, die über die Fakten hinausgeht.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1067,
+    "output_tokens": 158,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-c36",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Der erste Satz ist durch den Fakt gedeckt (vier Wochen Urlaub, damit er zur Weihnachtszeit wieder in Arnstadt zur Verfügung stehe). Der zweite Satz „Zurück kam er allerdings erst Monate später“ steht nicht in den Fakt-Sätzen; der Kontext nennt nur die Reise im November 1705 nach Lübeck, aber nichts über den Zeitpunkt der Rückkehr. Diese Behauptung ist nicht belegt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1094,
+    "output_tokens": 198,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-h01",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Der Redebeitrag gibt den Fakt-Satz [271593273-0243] inhaltlich korrekt wieder: Der Eiffelturm war seit 1889 fester Bestandteil der Ausstellungsarchitektur, und mit jeder Ausstellung kamen weniger Besucher. Es kommen keine zusätzlichen Angaben hinzu.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 955,
+    "output_tokens": 142,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-h02",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Der Redebeitrag behauptet, der Eiffelturm habe \"mit jedem Mal mehr Besucher\" angezogen. Der Fakt-Satz [271593273-0243] sagt das Gegenteil: \"mit jedem Mal weniger Besucher\". Die Aussage zu 1889 und zur festen Ausstellungsarchitektur stimmt, die Besucherentwicklung aber nicht.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 950,
+    "output_tokens": 161,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-h03",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Die Aussage gibt den Fakt-Satz [271590031-0076] sinngemäß wieder: Stadtfüchse wurden in vielen nordenglischen Städten bis in die 1980er Jahre nicht beobachtet. „Achtzigerjahre“ entspricht „1980er Jahre“, und es kommt keine zusätzliche Angabe hinzu.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 929,
+    "output_tokens": 144,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-h04",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Die Zahlen sind vertauscht: Laut Fakt lag das Durchschnittsalter in Bristol bei 18 Monaten und in London bei 14 Monaten, Lena nennt Bristol 14 und London 18. Zudem fehlen die Bedingungen (vor einem Räude-Ausbruch bzw. während starker Bejagung).",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 947,
+    "output_tokens": 138,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-h05",
+   "group": "s1",
+   "label": true,
+   "supported": false,
+   "reason": "Die Zahl 199 mm und der April stimmen mit dem Fakt überein. Der Redebeitrag lässt aber die Einschränkung auf die Normalperiode 1961 bis 1990 weg und sagt „war der April“ allgemein, als gälte das generell. Das folgt so nicht aus dem Fakt, der Aussage fehlt der Zeitbezug.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 982,
+    "output_tokens": 145,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-h06",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Lena nennt über 2300 mm Jahresniederschlag im Schnitt. Laut Fakt [271266791-0095] waren es 2003,1 mm im Durchschnitt der Normalperiode 1961–1990. Der genannte Wert ist also falsch, denn 2003,1 mm liegt unter 2300 mm.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 993,
+    "output_tokens": 129,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-h07",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Der Teil „Weil Blitze das Kreuz beschädigt hatten“ steht nur im Kontext, nicht im zitierten Fakt-Satz. Dieser sagt nur „daher“, ohne die Ursache zu nennen. Dass es im Winter 1881/1882 erstmals ins Tal gebracht und renoviert wurde, ist belegt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1003,
+    "output_tokens": 387,
+    "output_tokens_details": {
+     "thinking_tokens": 245
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-h08",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Die Prämisse der Frage (Sieg bei Gate Fulford am 20. September) folgt direkt aus dem Fakt-Satz 269510698-0044. Der Rest ist eine Nachfrage ohne neue Behauptung, also belegfrei.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 955,
+    "output_tokens": 105,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-h09",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Die Frage setzt voraus, dass Tostig gegen seinen eigenen Bruder gekämpft hat. Der zitierte Fakt nennt nur den gemeinsamen Feldzug von Tostig und Harald Hardråde und den Sieg über eine lokale Miliz bei Gate Fulford. Dass Tostig einen Bruder hatte und gegen ihn kämpfte, steht darin nicht. Diese Prämisse ist also nicht belegt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 949,
+    "output_tokens": 311,
+    "output_tokens_details": {
+     "thinking_tokens": 133
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-h10",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Beide Aussagen stehen im Fakt-Satz: etwa 40 Meter Kletterhöhe und die letzten fünf Meter fast senkrecht. \"Etwa vierzig Meter hoch\" ist eine zulässige Umformulierung von \"Kletterhöhe von etwa 40 Metern\". Es kommt keine zusätzliche Angabe hinzu.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 935,
+    "output_tokens": 264,
+    "output_tokens_details": {
+     "thinking_tokens": 115
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-h11",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Der Teil „Auf siebentausendsechshundert Metern errichteten sie ein kleines Lager“ deckt sich mit dem Fakt-Satz. Die Zusatzbehauptung „das höchste, das es bis dahin gab“ steht aber nicht in den Fakt-Sätzen. Dort wird nur das Lager auf 7600 m genannt, ohne Vergleich mit früheren Lagern. Sie ist daher nicht belegt.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 930,
+    "output_tokens": 264,
+    "output_tokens_details": {
+     "thinking_tokens": 90
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-h12",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Der Beitrag enthält keine konkrete Sachaussage. \"Gute Frage\" ist eine Reaktion, und der Satz über die überraschende Antwort ist eine Überleitung bzw. ein Teaser ohne neue Information oder überprüfbare Fakten. Fakt-Belege sind deshalb nicht nötig.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 858,
+    "output_tokens": 569,
+    "output_tokens_details": {
+     "thinking_tokens": 436
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-h13",
+   "group": "s1",
+   "label": false,
+   "supported": true,
+   "reason": "Der Redebeitrag enthält keine Sachbehauptung. \"Davon habe ich schon mal gehört\" ist eine Aussage über das eigene Wissen, \"erzähl ruhig weiter\" ist eine Bitte zum Weitererzählen. Beides ist belegfrei zulässig, auch ohne Fakt-IDs.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 861,
+    "output_tokens": 136,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-h14",
+   "group": "s1",
+   "label": true,
+   "supported": true,
+   "reason": "Der Redebeitrag gibt den Fakt-Satz sinngemäß wieder: Bach reiste zwischen 1724 und 1728 mehrmals nach Köthen und führte dem Fürsten Musik auf. \"Vorspielen\" ist eine zulässige andere Formulierung von \"aufführen\". Das Zusammentreffen mit dem Fürsten wird nicht eigens genannt, ist aber im Vorspielen enthalten. Es kommt keine zusätzliche Angabe hinzu.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 948,
+    "output_tokens": 195,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-h15",
+   "group": "s1",
+   "label": true,
+   "supported": false,
+   "reason": "Der Fakt-Satz nennt 1,84 Debye in der Gasphase, aber nicht, um welches Molekül es geht. Die Zuordnung zum Wassermolekül in „hat das Wassermolekül ein Dipolmoment“ folgt daher nicht aus dem zitierten Satz und ist eine zusätzliche, nicht belegte Angabe.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 919,
+    "output_tokens": 398,
+    "output_tokens_details": {
+     "thinking_tokens": 255
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  },
+  {
+   "id": "s1-h16",
+   "group": "s1",
+   "label": false,
+   "supported": false,
+   "reason": "Der Redebeitrag nennt Leipzig als Ort der Marktkirche. Der Fakt-Satz [272173326-0165] sagt jedoch, dass die Organistenstelle an der Marktkirche St. Marien und Liebfrauen in Halle angeboten wurde. Die Ortsangabe „Leipzig“ widerspricht dem Fakt. Die übrigen Angaben (Ende 1713, Probekantate, Organistenstelle) stimmen.",
+   "error": null,
+   "usage": {
+    "cache_creation": {
+     "ephemeral_1h_input_tokens": 0,
+     "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 960,
+    "output_tokens": 179,
+    "output_tokens_details": {
+     "thinking_tokens": 0
+    },
+    "service_tier": "batch",
+    "speed": "standard"
+   }
+  }
+ ]
+}

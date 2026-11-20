@@ -1,0 +1,93 @@
+{
+ "name": "chain_voynich_haiku_default",
+ "article": "voynich",
+ "model": "claude-haiku-5-5",
+ "effort": null,
+ "summary": {
+  "calls": 2,
+  "errors": 0,
+  "input_tokens": 44039,
+  "output_tokens": 3048,
+  "thinking_tokens": 2754,
+  "usd_paid": 0.003,
+  "usd_list": 0.0059
+ },
+ "ranked": {
+  "main": [
+   "271345560-0272",
+   "271345560-0273",
+   "271345560-0317",
+   "271345560-0292",
+   "271345560-0248",
+   "271345560-0066",
+   "271345560-0082",
+   "271345560-0021",
+   "271345560-0024",
+   "271345560-0097",
+   "271345560-0095",
+   "271345560-0012",
+   "271345560-0045",
+   "271345560-0044",
+   "271345560-0143",
+   "271345560-0146",
+   "271345560-0157",
+   "271345560-0170",
+   "271345560-0218",
+   "271345560-0261",
+   "271345560-0256",
+   "271345560-0260",
+   "271345560-0233",
+   "271345560-0231",
+   "271345560-0228",
+   "271345560-0277",
+   "271345560-0279",
+   "271345560-0335",
+   "271345560-0339",
+   "271345560-0332",
+   "271345560-0128",
+   "271345560-0285"
+  ],
+  "linked": [
+   "271524419-0001",
+   "270831594-0000",
+   "272069091-0005",
+   "268826227-0001",
+   "260419933-0009",
+   "266633979-0000"
+  ]
+ },
+ "usage": {
+  "main": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 33112,
+   "output_tokens": 1832,
+   "output_tokens_details": {
+    "thinking_tokens": 1594
+   },
+   "service_tier": "batch",
+   "speed": "standard"
+  },
+  "linked": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 10927,
+   "output_tokens": 1216,
+   "output_tokens_details": {
+    "thinking_tokens": 1160
+   },
+   "service_tier": "batch",
+   "speed": "standard"
+  }
+ }
+}

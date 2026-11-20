@@ -1,0 +1,90 @@
+{
+ "name": "chain_tunguska_haiku_default",
+ "article": "tunguska",
+ "model": "claude-haiku-5-5",
+ "effort": null,
+ "summary": {
+  "calls": 2,
+  "errors": 0,
+  "input_tokens": 36664,
+  "output_tokens": 2404,
+  "thinking_tokens": 2131,
+  "usd_paid": 0.0024,
+  "usd_list": 0.0049
+ },
+ "ranked": {
+  "main": [
+   "270155664-0014",
+   "270155664-0033",
+   "270155664-0071",
+   "270155664-0101",
+   "270155664-0062",
+   "270155664-0040",
+   "270155664-0022",
+   "270155664-0041",
+   "270155664-0042",
+   "270155664-0052",
+   "270155664-0050",
+   "270155664-0082",
+   "270155664-0049",
+   "270155664-0007",
+   "270155664-0006",
+   "270155664-0013",
+   "270155664-0058",
+   "270155664-0075",
+   "270155664-0105",
+   "270155664-0102",
+   "270155664-0037",
+   "270155664-0036",
+   "270155664-0009",
+   "270155664-0012",
+   "270155664-0015",
+   "270155664-0066",
+   "270155664-0044",
+   "270155664-0092",
+   "270155664-0090"
+  ],
+  "linked": [
+   "271552605-0000",
+   "270575891-0008",
+   "269011690-0002",
+   "271523896-0000",
+   "271523804-0000",
+   "269011690-0001"
+  ]
+ },
+ "usage": {
+  "main": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 12652,
+   "output_tokens": 1316,
+   "output_tokens_details": {
+    "thinking_tokens": 1099
+   },
+   "service_tier": "batch",
+   "speed": "standard"
+  },
+  "linked": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 24012,
+   "output_tokens": 1088,
+   "output_tokens_details": {
+    "thinking_tokens": 1032
+   },
+   "service_tier": "batch",
+   "speed": "standard"
+  }
+ }
+}

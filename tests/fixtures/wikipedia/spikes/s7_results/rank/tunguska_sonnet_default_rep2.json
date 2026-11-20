@@ -1,0 +1,84 @@
+{
+ "name": "tunguska_sonnet_default_rep2",
+ "article": "tunguska",
+ "model": "claude-sonnet-5-5",
+ "effort": null,
+ "summary": {
+  "calls": 2,
+  "errors": 0,
+  "input_tokens": 11274,
+  "output_tokens": 1061,
+  "thinking_tokens": 830,
+  "usd_paid": 0.0166,
+  "usd_list": 0.0332
+ },
+ "ranked": {
+  "main": [
+   "270155664-0071",
+   "270155664-0082",
+   "270155664-0058",
+   "270155664-0007",
+   "270155664-0062",
+   "270155664-0014",
+   "270155664-0050",
+   "270155664-0075",
+   "270155664-0090",
+   "270155664-0101",
+   "270155664-0105",
+   "270155664-0022",
+   "270155664-0041",
+   "270155664-0003",
+   "270155664-0015",
+   "270155664-0034",
+   "270155664-0049",
+   "270155664-0054",
+   "270155664-0080",
+   "270155664-0096",
+   "270155664-0032",
+   "270155664-0087"
+  ],
+  "linked": [
+   "271552605-0003",
+   "226821054-0001",
+   "271523896-0003",
+   "269011690-0001",
+   "270575891-0004",
+   "271523896-0005",
+   "271523804-0007"
+  ]
+ },
+ "usage": {
+  "main": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 4735,
+   "output_tokens": 168,
+   "output_tokens_details": {
+    "thinking_tokens": 0
+   },
+   "service_tier": "batch",
+   "speed": "standard"
+  },
+  "linked": {
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 0,
+   "inference_geo": "global",
+   "input_tokens": 6539,
+   "output_tokens": 893,
+   "output_tokens_details": {
+    "thinking_tokens": 830
+   },
+   "service_tier": "batch",
+   "speed": "standard"
+  }
+ }
+}

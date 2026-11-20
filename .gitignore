@@ -13,3 +13,6 @@ dist/
 
 # Spike S3 render cache (re-fetchable from the Wikipedia API)
 tests/fixtures/wikipedia/spikes/s3_cache/
+
+# Spike S7 render cache (re-fetchable from the Wikipedia API)
+tests/fixtures/wikipedia/spikes/s7_cache/
