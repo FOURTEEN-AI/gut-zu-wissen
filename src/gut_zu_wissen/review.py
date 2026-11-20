@@ -937,11 +937,15 @@ def apply_issue(
     review = find_review(archive_root, issue)
     if review is None:
         return ApplyResult(None, None, None)
-    comments = [
-        c
-        for c in issues.list_comments(issue)
-        if is_authorized(c, review_config["reviewer"], review_config["reviewer_associations"])
-    ]
+    reviewer, associations = review_config["reviewer"], review_config["reviewer_associations"]
+    listed = issues.list_comments(issue)
+    for c in listed:  # login and association are public; the log shows why a comment is skipped
+        ok = is_authorized(c, reviewer, associations)
+        print(
+            f"Comment {c.id}: login={c.login} association={c.association} authorized={ok}",
+            file=sys.stderr,
+        )
+    comments = [c for c in listed if is_authorized(c, reviewer, associations)]
     before = review.status
     apply_labels(review, comments)
     close = closes_issue(before, review.status)
