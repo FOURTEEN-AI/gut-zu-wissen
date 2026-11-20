@@ -19,6 +19,7 @@ These retire the open risks before the build starts.
 | S4 Gemini TTS ✅ | Voice choice, section length under the output limit (16,384 tokens per call), audibility of seams | Two voice names, section strategy |
 | S5 Whisper ✅ | Runtime for 15 min of audio on an Actions CPU runner (large vs. faster-whisper int8) | Model size, cache setup |
 | S6 Explicit ✅ | Accuracy of the explicit check (D7, step 11) on ~40 hand-labelled excerpts: false positives on factual mentions, false negatives on drastic depictions, share of `uncertain`, run-to-run stability | Error rates against owner-confirmed labels, prompt-change suggestions |
+| S7 Kosten | Five cost levers per episode, measured without production changes: lower effort, prompt caching, Claude Haiku 5.5 for extraction and ranking, short reasons on acceptance, higher Jev share with a safety net | Saving per lever in $ and %, effect on fact fidelity, recommendation; decisions left to the owner |
 
 ## Phase 1: Manual run to audio (Ausbaustufe 1)
 
