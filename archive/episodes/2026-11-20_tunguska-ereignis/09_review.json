@@ -1,0 +1,2010 @@
+{
+  "episode_id": "2026-11-20_tunguska-ereignis",
+  "title": "Tunguska-Ereignis",
+  "rate": 1.0,
+  "seed": "2026-11-20_tunguska-ereignis",
+  "population": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    37,
+    38,
+    39,
+    41
+  ],
+  "draws": [
+    {
+      "turn_index": 1,
+      "u": 0.36115633447786455,
+      "sampled": true
+    },
+    {
+      "turn_index": 3,
+      "u": 0.7578925066065725,
+      "sampled": true
+    },
+    {
+      "turn_index": 4,
+      "u": 0.7033061919966026,
+      "sampled": true
+    },
+    {
+      "turn_index": 5,
+      "u": 0.06226122223326247,
+      "sampled": true
+    },
+    {
+      "turn_index": 6,
+      "u": 0.7997604283234161,
+      "sampled": true
+    },
+    {
+      "turn_index": 7,
+      "u": 0.8555618693348719,
+      "sampled": true
+    },
+    {
+      "turn_index": 8,
+      "u": 0.03917407899282899,
+      "sampled": true
+    },
+    {
+      "turn_index": 9,
+      "u": 0.28092474595952766,
+      "sampled": true
+    },
+    {
+      "turn_index": 10,
+      "u": 0.8472327432602441,
+      "sampled": true
+    },
+    {
+      "turn_index": 11,
+      "u": 0.45419721337233254,
+      "sampled": true
+    },
+    {
+      "turn_index": 12,
+      "u": 0.45505519342430034,
+      "sampled": true
+    },
+    {
+      "turn_index": 13,
+      "u": 0.3423681665698872,
+      "sampled": true
+    },
+    {
+      "turn_index": 15,
+      "u": 0.010033748932287256,
+      "sampled": true
+    },
+    {
+      "turn_index": 16,
+      "u": 0.3253976010488273,
+      "sampled": true
+    },
+    {
+      "turn_index": 17,
+      "u": 0.7361164680354544,
+      "sampled": true
+    },
+    {
+      "turn_index": 18,
+      "u": 0.7419368297000293,
+      "sampled": true
+    },
+    {
+      "turn_index": 19,
+      "u": 0.9605116782251896,
+      "sampled": true
+    },
+    {
+      "turn_index": 20,
+      "u": 0.3266174710570193,
+      "sampled": true
+    },
+    {
+      "turn_index": 21,
+      "u": 0.6305510582875287,
+      "sampled": true
+    },
+    {
+      "turn_index": 22,
+      "u": 0.2511172457848434,
+      "sampled": true
+    },
+    {
+      "turn_index": 23,
+      "u": 0.40101969360796696,
+      "sampled": true
+    },
+    {
+      "turn_index": 24,
+      "u": 0.836005291528756,
+      "sampled": true
+    },
+    {
+      "turn_index": 25,
+      "u": 0.13493389168580727,
+      "sampled": true
+    },
+    {
+      "turn_index": 27,
+      "u": 0.7796827393418521,
+      "sampled": true
+    },
+    {
+      "turn_index": 28,
+      "u": 0.6839927646344403,
+      "sampled": true
+    },
+    {
+      "turn_index": 29,
+      "u": 0.2676364499177665,
+      "sampled": true
+    },
+    {
+      "turn_index": 30,
+      "u": 0.753914241469352,
+      "sampled": true
+    },
+    {
+      "turn_index": 31,
+      "u": 0.03825369670868861,
+      "sampled": true
+    },
+    {
+      "turn_index": 32,
+      "u": 0.17767042923749454,
+      "sampled": true
+    },
+    {
+      "turn_index": 33,
+      "u": 0.7383114269919965,
+      "sampled": true
+    },
+    {
+      "turn_index": 34,
+      "u": 0.45148391473150495,
+      "sampled": true
+    },
+    {
+      "turn_index": 35,
+      "u": 0.34023696094520617,
+      "sampled": true
+    },
+    {
+      "turn_index": 37,
+      "u": 0.8384045925661079,
+      "sampled": true
+    },
+    {
+      "turn_index": 38,
+      "u": 0.2641340916995154,
+      "sampled": true
+    },
+    {
+      "turn_index": 39,
+      "u": 0.7391461209113588,
+      "sampled": true
+    },
+    {
+      "turn_index": 41,
+      "u": 0.24841922638243785,
+      "sampled": true
+    }
+  ],
+  "status": "pending",
+  "outcome": null,
+  "rate_applied": [],
+  "issue": 2,
+  "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/2",
+  "explicit": {
+    "model": "claude-sonnet-5-5",
+    "predicted": false,
+    "verdict": "clean",
+    "findings": [],
+    "reason": "Das Gespräch behandelt sachlich das Tunguska-Ereignis, seine Erklärungsversuche und die Darstellung in Literatur und Popkultur. Explosionen, Zerstörung und Kernwaffentests werden nur nüchtern erwähnt, ohne drastische Schilderung. Sexualität, Drogen und derbe Schimpfwörter kommen nicht vor.",
+    "label": null,
+    "reviewer_flag": null,
+    "note": null,
+    "comment_id": null
+  },
+  "turns": [
+    {
+      "turn_index": 1,
+      "speaker": "Lena",
+      "text": "Mit den Folgen für die Natur. Experten schätzen, dass auf einem Gebiet von über zweitausend Quadratkilometern rund sechzig Millionen Bäume umgeknickt wurden.",
+      "previous_text": "Lena, heute geht es um das Tunguska-Ereignis. Womit steigen wir ein?",
+      "fact_ids": [
+        "270155664-0007"
+      ],
+      "statements": [
+        {
+          "text": "Nach Schätzungen von Experten wurden auf mehr als zweitausend Quadratkilometern etwa sechzig Millionen Bäume umgeknickt.",
+          "fact_ids": [
+            "270155664-0007"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0007",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Experten schätzen, dass auf einem Gebiet von über 2000 km² rund 60 Millionen Bäume umgeknickt wurden.",
+          "context": [
+            "Bei dem Ereignis wurden Bäume bis in etwa 30 Kilometer Entfernung entwurzelt und Fenster und Türen in der 65 Kilometer entfernten Handelssiedlung Wanawara eingedrückt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.63
+        },
+        "jev_error": null,
+        "reason": "Die Behauptung (Experten schätzen, über 2000 km² und rund 60 Millionen umgeknickte Bäume) stimmt mit Fakt 270155664-0007 überein. Der einleitende Satzteil \"Mit den Folgen für die Natur\" ist eine Überleitung ohne eigene Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Lena",
+      "text": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder eines Kometen von geringer Dichte. Der Körper hatte einen Durchmesser von dreißig bis achtzig Metern. Er explodierte etwa fünf bis vierzehn Kilometer über dem Boden. Deshalb hat er keinen Krater verursacht.",
+      "previous_text": "Das ist ja unfassbar! Weiß man denn, was das verursacht hat?",
+      "fact_ids": [
+        "270155664-0036"
+      ],
+      "statements": [
+        {
+          "text": "Am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder eines Kometen geringer Dichte.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        },
+        {
+          "text": "Der Körper hatte einen Durchmesser von dreißig bis achtzig Metern.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        },
+        {
+          "text": "Er explodierte etwa fünf bis vierzehn Kilometer über dem Boden und verursachte deshalb keinen Krater.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0036",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen von geringer Dichte und einem Durchmesser von 30 bis 80 Metern, der etwa 5 bis 14 Kilometer über dem Boden explodierte und daher keinen Krater verursachte.",
+          "context": [
+            "Die Ursache des Ereignisses ist bis heute ungeklärt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Felix",
+      "text": "Moment. Er ist also in der Luft explodiert und gar nicht auf dem Boden aufgeschlagen? Und gerade deshalb gibt es keinen Krater?",
+      "previous_text": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder eines Kometen von geringer Dichte. Der Körper hatte einen Durchmesser von dreißig bis achtzig Metern. Er explodierte etwa fünf bis vierzehn Kilometer über dem Boden. Deshalb hat er keinen Krater verursacht.",
+      "fact_ids": [
+        "270155664-0036"
+      ],
+      "statements": [
+        {
+          "text": "Der Körper explodierte hoch über dem Boden, und deshalb entstand kein Krater.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0036",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen von geringer Dichte und einem Durchmesser von 30 bis 80 Metern, der etwa 5 bis 14 Kilometer über dem Boden explodierte und daher keinen Krater verursachte.",
+          "context": [
+            "Die Ursache des Ereignisses ist bis heute ungeklärt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.86
+        },
+        "jev_error": null,
+        "reason": "Felix fragt nach und greift das Gesagte wieder auf. Die Prämissen (Explosion in der Luft, kein Aufschlag am Boden, deshalb kein Krater) folgen aus dem Fakt-Satz, nach dem das Objekt 5 bis 14 Kilometer über dem Boden explodierte und daher keinen Krater verursachte. Es kommt keine zusätzliche Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Lena",
+      "text": "So wird es erklärt. Die Explosion fand in fünf bis vierzehn Kilometern Höhe statt. Gesucht wurde trotzdem nach einem Krater. Die Besatzung des Luftschiffes Graf Zeppelin suchte bei dessen Erdumrundung im August neunzehnhundertneunundzwanzig vergeblich danach.",
+      "previous_text": "Moment. Er ist also in der Luft explodiert und gar nicht auf dem Boden aufgeschlagen? Und gerade deshalb gibt es keinen Krater?",
+      "fact_ids": [
+        "270155664-0036",
+        "270155664-0022"
+      ],
+      "statements": [
+        {
+          "text": "Die Explosion fand etwa fünf bis vierzehn Kilometer über dem Boden statt.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        },
+        {
+          "text": "Die Besatzung des Luftschiffes Graf Zeppelin suchte bei der Erdumrundung im August neunzehnhundertneunundzwanzig vergeblich nach einem Krater.",
+          "fact_ids": [
+            "270155664-0022"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0036",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen von geringer Dichte und einem Durchmesser von 30 bis 80 Metern, der etwa 5 bis 14 Kilometer über dem Boden explodierte und daher keinen Krater verursachte.",
+          "context": [
+            "Die Ursache des Ereignisses ist bis heute ungeklärt."
+          ]
+        },
+        {
+          "id": "270155664-0022",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Die Besatzung des Luftschiffes Graf Zeppelin suchte bei dessen Erdumrundung im August 1929 vergeblich nach einem Krater.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.66
+        },
+        "jev_error": null,
+        "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Die Explosion in 5 bis 14 km Höhe und das Ausbleiben eines Kraters stehen in 0036, die vergebliche Suche der Besatzung der Graf Zeppelin bei der Erdumrundung im August 1929 steht in 0022. „So wird es erklärt“ ist eine Überleitung, und „trotzdem gesucht“ ergibt sich als sinnvolle Verbindung der beiden Fakten ohne zusätzliche Angabe."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Felix",
+      "text": "Ein Luftschiff, das bei seiner Erdumrundung nach einem Krater sucht! Hat man später wenigstens Reste von dem Körper gefunden, der da in der Luft explodiert sein soll?",
+      "previous_text": "So wird es erklärt. Die Explosion fand in fünf bis vierzehn Kilometern Höhe statt. Gesucht wurde trotzdem nach einem Krater. Die Besatzung des Luftschiffes Graf Zeppelin suchte bei dessen Erdumrundung im August neunzehnhundertneunundzwanzig vergeblich danach.",
+      "fact_ids": [
+        "270155664-0022",
+        "270155664-0036"
+      ],
+      "statements": [
+        {
+          "text": "Die Besatzung des Luftschiffes Graf Zeppelin suchte bei dessen Erdumrundung im August 1929 vergeblich nach einem Krater.",
+          "fact_ids": [
+            "270155664-0022"
+          ]
+        },
+        {
+          "text": "Als am wahrscheinlichsten gilt, dass ein Steinasteroid oder Komet in der Höhe über dem Boden explodierte, weshalb es keinen Krater gab.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0022",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Die Besatzung des Luftschiffes Graf Zeppelin suchte bei dessen Erdumrundung im August 1929 vergeblich nach einem Krater.",
+          "context": []
+        },
+        {
+          "id": "270155664-0036",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen von geringer Dichte und einem Durchmesser von 30 bis 80 Metern, der etwa 5 bis 14 Kilometer über dem Boden explodierte und daher keinen Krater verursachte.",
+          "context": [
+            "Die Ursache des Ereignisses ist bis heute ungeklärt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 1.0,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.63
+        },
+        "jev_error": null,
+        "reason": "Die Aussage zum Luftschiff, das bei seiner Erdumrundung nach einem Krater sucht, deckt Fakt 0022 ab. Die Prämisse der Frage, dass ein Körper in der Luft explodiert sein soll, folgt aus Fakt 0036 und ist durch das \"soll\" vorsichtig formuliert. Die Frage nach gefundenen Resten ist eine Nachfrage ohne neue Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 7,
+      "speaker": "Lena",
+      "text": "Mit bloßem Auge sichtbare Bruchstücke eines eingeschlagenen Himmelskörpers wurden bis heute nicht gefunden. Einen solchen Himmelskörper nennt man Impaktor. Allerdings wurden im Jahr zweitausenddreizehn extraterrestrische Fragmente analysiert, die schon im Jahr neunzehnhundertachtundsiebzig in dem Gebiet gefunden worden waren.",
+      "previous_text": "Ein Luftschiff, das bei seiner Erdumrundung nach einem Krater sucht! Hat man später wenigstens Reste von dem Körper gefunden, der da in der Luft explodiert sein soll?",
+      "fact_ids": [
+        "270155664-0041",
+        "270155664-0054"
+      ],
+      "statements": [
+        {
+          "text": "Bis heute wurden keine mit bloßem Auge sichtbaren Bruchstücke eines eingeschlagenen Himmelskörpers, eines Impaktors, gefunden.",
+          "fact_ids": [
+            "270155664-0041"
+          ]
+        },
+        {
+          "text": "Im Jahr 2013 wurden extraterrestrische Fragmente analysiert, die bereits 1978 in dem Gebiet gefunden worden waren.",
+          "fact_ids": [
+            "270155664-0054"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0041",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Bis heute wurden keine mit bloßem Auge sichtbaren Bruchstücke eines eingeschlagenen Himmelskörpers (Impaktors) gefunden.",
+          "context": []
+        },
+        {
+          "id": "270155664-0054",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "2013 wurden extraterrestrische Fragmente analysiert, die bereits 1978 in dem Gebiet gefunden worden waren.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.87
+        },
+        "jev_error": null,
+        "reason": "Alle drei Aussagen folgen aus den zitierten Fakt-Sätzen. Dass bis heute keine mit bloßem Auge sichtbaren Bruchstücke gefunden wurden, steht in 0041. Die Bezeichnung „Impaktor“ für einen eingeschlagenen Himmelskörper ergibt sich aus der Klammer in 0041. Die Analyse extraterrestrischer Fragmente im Jahr 2013, die schon 1978 im Gebiet gefunden worden waren, steht in 0054. Es wird keine zusätzliche Angabe gemacht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Felix",
+      "text": "Dann gibt es noch den Tscheko-See. Der galt doch zeitweise als der gesuchte Krater, oder?",
+      "previous_text": "Mit bloßem Auge sichtbare Bruchstücke eines eingeschlagenen Himmelskörpers wurden bis heute nicht gefunden. Einen solchen Himmelskörper nennt man Impaktor. Allerdings wurden im Jahr zweitausenddreizehn extraterrestrische Fragmente analysiert, die schon im Jahr neunzehnhundertachtundsiebzig in dem Gebiet gefunden worden waren.",
+      "fact_ids": [
+        "270155664-0049"
+      ],
+      "statements": [
+        {
+          "text": "Es gab die Theorie, dass der Tscheko-See der Krater des Tunguska-Ereignisses ist.",
+          "fact_ids": [
+            "270155664-0049"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0049",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Russische Wissenschaftler haben im Januar 2017 die Theorie, dass der Tscheko-See der Krater des Tunguska-Ereignisses ist, vielleicht widerlegt, da er ihren Untersuchungen zufolge bereits vor über 280 Jahren entstanden sein dürfte.",
+          "context": [
+            "Im Juni 2007 veröffentlichte eine italienische Forschergruppe nach einer Expedition unter Leitung des Meeresgeologen Luca Gasperini in der Online-Zeitschrift Terra Nova ihre Vermutung, dass es sich beim Tscheko-See um den Krater eines Impaktors handle.",
+            "Der See liegt ca. 8 Kilometer nördlich des Epizentrums und könnte von einem Bruchstück des ursprünglichen Boliden herrühren."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.84
+        },
+        "jev_error": null,
+        "reason": "Der Fakt-Satz belegt, dass es die Theorie gab, der Tscheko-See sei der Krater des Tunguska-Ereignisses, und dass russische Wissenschaftler sie 2017 vielleicht widerlegt haben. Die Prämisse der Frage, der See sei zeitweise als gesuchter Krater betrachtet worden, folgt daraus. Der Rest ist eine Nachfrage."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 9,
+      "speaker": "Lena",
+      "text": "Diese Theorie gab es, ja. Russische Wissenschaftler haben sie im Januar zweitausendsiebzehn vielleicht widerlegt. Nach ihren Untersuchungen dürfte der See nämlich schon vor über zweihundertachtzig Jahren entstanden sein.",
+      "previous_text": "Dann gibt es noch den Tscheko-See. Der galt doch zeitweise als der gesuchte Krater, oder?",
+      "fact_ids": [
+        "270155664-0049"
+      ],
+      "statements": [
+        {
+          "text": "Russische Wissenschaftler haben die Krater-Theorie zum Tscheko-See im Januar zweitausendsiebzehn vielleicht widerlegt.",
+          "fact_ids": [
+            "270155664-0049"
+          ]
+        },
+        {
+          "text": "Nach ihren Untersuchungen dürfte der See schon vor über zweihundertachtzig Jahren entstanden sein.",
+          "fact_ids": [
+            "270155664-0049"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0049",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Russische Wissenschaftler haben im Januar 2017 die Theorie, dass der Tscheko-See der Krater des Tunguska-Ereignisses ist, vielleicht widerlegt, da er ihren Untersuchungen zufolge bereits vor über 280 Jahren entstanden sein dürfte.",
+          "context": [
+            "Im Juni 2007 veröffentlichte eine italienische Forschergruppe nach einer Expedition unter Leitung des Meeresgeologen Luca Gasperini in der Online-Zeitschrift Terra Nova ihre Vermutung, dass es sich beim Tscheko-See um den Krater eines Impaktors handle.",
+            "Der See liegt ca. 8 Kilometer nördlich des Epizentrums und könnte von einem Bruchstück des ursprünglichen Boliden herrühren."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.83
+        },
+        "jev_error": null,
+        "reason": "Alle Behauptungen stehen im Fakt-Satz: russische Wissenschaftler, Januar 2017, Theorie vielleicht widerlegt, See nach Untersuchungen vermutlich vor über 280 Jahren entstanden. \"Diese Theorie gab es, ja\" ist eine bestätigende Reaktion und wird durch den Fakt-Satz ebenfalls gedeckt. Es kommen keine zusätzlichen Angaben hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "Felix",
+      "text": "Der See ist als Krater also womöglich aus dem Rennen. Hat man das Ereignis denn auch weit weg gemessen?",
+      "previous_text": "Diese Theorie gab es, ja. Russische Wissenschaftler haben sie im Januar zweitausendsiebzehn vielleicht widerlegt. Nach ihren Untersuchungen dürfte der See nämlich schon vor über zweihundertachtzig Jahren entstanden sein.",
+      "fact_ids": [
+        "270155664-0049"
+      ],
+      "statements": [
+        {
+          "text": "Der Tscheko-See ist als Krater womöglich ausgeschieden, weil er älter sein dürfte.",
+          "fact_ids": [
+            "270155664-0049"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0049",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Russische Wissenschaftler haben im Januar 2017 die Theorie, dass der Tscheko-See der Krater des Tunguska-Ereignisses ist, vielleicht widerlegt, da er ihren Untersuchungen zufolge bereits vor über 280 Jahren entstanden sein dürfte.",
+          "context": [
+            "Im Juni 2007 veröffentlichte eine italienische Forschergruppe nach einer Expedition unter Leitung des Meeresgeologen Luca Gasperini in der Online-Zeitschrift Terra Nova ihre Vermutung, dass es sich beim Tscheko-See um den Krater eines Impaktors handle.",
+            "Der See liegt ca. 8 Kilometer nördlich des Epizentrums und könnte von einem Bruchstück des ursprünglichen Boliden herrühren."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.96,
+          "vollstaendig": 0.78
+        },
+        "jev_error": null,
+        "reason": "Die Aussage, der See sei als Krater womöglich aus dem Rennen, folgt aus dem Fakt: Die Theorie wurde im Januar 2017 „vielleicht widerlegt“. Die vorsichtige Formulierung „womöglich“ entspricht dem „vielleicht“. Der zweite Satz ist eine Nachfrage und damit belegfrei, er enthält keine eigene Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 11,
+      "speaker": "Lena",
+      "text": "Ja. Die Messgeräte in Potsdam empfingen die Signale nach dreißig Stunden und neunundzwanzig Minuten ein zweites Mal. Da hatten die Signale die Erde einmal umrundet.",
+      "previous_text": "Der See ist als Krater also womöglich aus dem Rennen. Hat man das Ereignis denn auch weit weg gemessen?",
+      "fact_ids": [
+        "270155664-0014"
+      ],
+      "statements": [
+        {
+          "text": "Die Messgeräte in Potsdam empfingen die Signale nach dreißig Stunden und neunundzwanzig Minuten ein zweites Mal, nachdem sie die Erde einmal umrundet hatten.",
+          "fact_ids": [
+            "270155664-0014"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0014",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Die Messgeräte in Potsdam empfingen die Signale nach 30 Stunden und 29 Minuten ein zweites Mal, nachdem sie die Erde einmal umrundet hatten.",
+          "context": [
+            "Die sich mit Schallgeschwindigkeit ausbreitende Druckwelle erreichte das 970 km entfernte Irkutsk in einer Stunde, das 5000 Kilometer entfernte Potsdam nach 4 Stunden, 42 Minuten und Washington, D.C. nach 8 Stunden."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.64,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": "Lenas Aussage gibt den Fakt-Satz inhaltlich korrekt wieder: Messgeräte in Potsdam, zweiter Empfang nach 30 Stunden und 29 Minuten, Signale hatten die Erde einmal umrundet. Es kommen keine zusätzlichen Angaben hinzu. Das einleitende „Ja“ ist eine belegfreie Reaktion."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "Felix",
+      "text": "Die Signale sind also einmal um die ganze Erde gelaufen und dann noch einmal in Potsdam angekommen. Und am Himmel? Gab es dort etwas zu sehen?",
+      "previous_text": "Ja. Die Messgeräte in Potsdam empfingen die Signale nach dreißig Stunden und neunundzwanzig Minuten ein zweites Mal. Da hatten die Signale die Erde einmal umrundet.",
+      "fact_ids": [
+        "270155664-0014"
+      ],
+      "statements": [
+        {
+          "text": "Die Signale umrundeten die Erde einmal und erreichten Potsdam ein zweites Mal.",
+          "fact_ids": [
+            "270155664-0014"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0014",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Die Messgeräte in Potsdam empfingen die Signale nach 30 Stunden und 29 Minuten ein zweites Mal, nachdem sie die Erde einmal umrundet hatten.",
+          "context": [
+            "Die sich mit Schallgeschwindigkeit ausbreitende Druckwelle erreichte das 970 km entfernte Irkutsk in einer Stunde, das 5000 Kilometer entfernte Potsdam nach 4 Stunden, 42 Minuten und Washington, D.C. nach 8 Stunden."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.68
+        },
+        "jev_error": null,
+        "reason": "Felix' Aussage, die Signale seien einmal um die Erde gelaufen und danach ein zweites Mal in Potsdam angekommen, folgt aus dem Fakt-Satz 270155664-0014 (Potsdam empfing die Signale nach 30 Stunden und 29 Minuten ein zweites Mal, nach einer Erdumrundung). Die Frage zum Himmel ist eine Nachfrage ohne eigene Behauptung und braucht keinen Beleg."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 13,
+      "speaker": "Lena",
+      "text": "Ja. Während der folgenden Nächte zeigten sich über den mittleren Breiten Europas silbern leuchtende Wolken von außergewöhnlichem Glanz. In London war es zum Beispiel möglich, eine Zeitung in diesem Licht zu lesen.",
+      "previous_text": "Die Signale sind also einmal um die ganze Erde gelaufen und dann noch einmal in Potsdam angekommen. Und am Himmel? Gab es dort etwas zu sehen?",
+      "fact_ids": [
+        "270155664-0015",
+        "270155664-0062"
+      ],
+      "statements": [
+        {
+          "text": "In den folgenden Nächten zeigten sich über den mittleren Breiten Europas silbern leuchtende Wolken von außergewöhnlichem Glanz.",
+          "fact_ids": [
+            "270155664-0015"
+          ]
+        },
+        {
+          "text": "In London war es zum Beispiel möglich, in diesem Licht eine Zeitung zu lesen.",
+          "fact_ids": [
+            "270155664-0062"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0015",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Während der folgenden Nächte zeigten sich über den mittleren Breiten Europas silbern leuchtende Wolken von außergewöhnlichem Glanz.",
+          "context": []
+        },
+        {
+          "id": "270155664-0062",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "So war es in London zum Beispiel möglich, eine Zeitung in diesem Licht zu lesen.",
+          "context": [
+            "Es wird ebenfalls berichtet, dass es in den Tagen nach dem Ereignis in Europa und Asien ungewöhnlich helle Nachthimmel gab."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.87
+        },
+        "jev_error": null,
+        "reason": "Beide Aussagen stehen fast wörtlich in den zitierten Fakt-Sätzen: die silbern leuchtenden Wolken von außergewöhnlichem Glanz über den mittleren Breiten Europas in den folgenden Nächten (0015) und die Möglichkeit, in London eine Zeitung in diesem Licht zu lesen (0062). Das einleitende „Ja“ ist eine belegfreie Reaktion. Es kommt keine zusätzliche Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 15,
+      "speaker": "Lena",
+      "text": "Manche gingen noch in den Achtzigerjahren von bis zu fünfzig Megatonnen TNT aus.",
+      "previous_text": "Wahnsinn! Zurück zur Explosion selbst: Wie stark war sie denn?",
+      "fact_ids": [
+        "270155664-0032"
+      ],
+      "statements": [
+        {
+          "text": "Noch in den Achtzigerjahren gingen manche von bis zu fünfzig Megatonnen TNT aus.",
+          "fact_ids": [
+            "270155664-0032"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0032",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Sie gingen noch in den 1980er Jahren von bis zu 50 Megatonnen TNT aus.",
+          "context": [
+            "Die Schätzungen über die Sprengkraft variieren stark."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 16,
+      "speaker": "Felix",
+      "text": "Fünfzig Megatonnen TNT. Was sagt so eine Angabe eigentlich aus?",
+      "previous_text": "Manche gingen noch in den Achtzigerjahren von bis zu fünfzig Megatonnen TNT aus.",
+      "fact_ids": [
+        "270155664-0032"
+      ],
+      "statements": [
+        {
+          "text": "Die Sprengkraft wurde in Megatonnen TNT angegeben, bis zu fünfzig in den Achtzigerjahren.",
+          "fact_ids": [
+            "270155664-0032"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0032",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Sie gingen noch in den 1980er Jahren von bis zu 50 Megatonnen TNT aus.",
+          "context": [
+            "Die Schätzungen über die Sprengkraft variieren stark."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.86,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Felix greift nur die Zahl \"Fünfzig Megatonnen TNT\" aus dem zitierten Fakt auf und bittet dann um Erklärung. Das ist ein Wiederaufgreifen ohne neue Information plus eine Nachfrage, also belegfrei. Die Zahl stimmt mit dem Fakt überein, es kommt keine zusätzliche Behauptung hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 17,
+      "speaker": "Lena",
+      "text": "Die Angabe bezieht sich auf die gesamte freiwerdende Energie. Sie meint nicht nur einen Teil davon, nämlich die kinetische Energie. Bei Kernwaffen zum Beispiel kann dieser Teil deutlich geringer sein als die Gesamtenergie.",
+      "previous_text": "Fünfzig Megatonnen TNT. Was sagt so eine Angabe eigentlich aus?",
+      "fact_ids": [
+        "269011690-0001"
+      ],
+      "statements": [
+        {
+          "text": "Das TNT-Äquivalent bezieht sich auf die gesamte freiwerdende Energie, nicht nur auf die kinetische Energie.",
+          "fact_ids": [
+            "269011690-0001"
+          ]
+        },
+        {
+          "text": "Bei Kernwaffen kann die kinetische Energie deutlich geringer als die Gesamtenergie sein.",
+          "fact_ids": [
+            "269011690-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "269011690-0001",
+          "article": "TNT-Äquivalent",
+          "revid": 269011690,
+          "sentence": "Die Angabe bezieht sich auf die gesamte freiwerdende Energie, nicht nur auf die kinetische Energie, die zum Beispiel bei Kernwaffen deutlich geringer als die Gesamtenergie sein kann.",
+          "context": [
+            "Physikalische Einheit Einheitenname TNT-Äquivalent Physikalische Größen Energie, innere Energie, chemische Energie Formelzeichen W;E Dimension 𝖬𝖫𝟤𝖳−𝟤 In SI-Einheiten 1 kgTNT = 4,184 MJ 1 kT = 4,184 TJ Abgeleitet von Energiefreisetzung eines Kilogramms TNT TNT-Äquivalent ist eine nicht SI-konforme, aber weiterhin gebräuchliche Maßeinheit für die bei einer Explosion freiwerdende Energie."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 18,
+      "speaker": "Felix",
+      "text": "Es zählt also die ganze Energie. Aber wenn der Körper hoch oben explodiert ist, wie kam dann so viel Zerstörung unten am Boden zustande?",
+      "previous_text": "Die Angabe bezieht sich auf die gesamte freiwerdende Energie. Sie meint nicht nur einen Teil davon, nämlich die kinetische Energie. Bei Kernwaffen zum Beispiel kann dieser Teil deutlich geringer sein als die Gesamtenergie.",
+      "fact_ids": [
+        "269011690-0001",
+        "270155664-0036",
+        "270155664-0007"
+      ],
+      "statements": [
+        {
+          "text": "Die Angabe in TNT zählt die gesamte freiwerdende Energie.",
+          "fact_ids": [
+            "269011690-0001"
+          ]
+        },
+        {
+          "text": "Der Körper explodierte hoch über dem Boden.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        },
+        {
+          "text": "Am Boden wurden trotzdem Millionen Bäume umgeknickt.",
+          "fact_ids": [
+            "270155664-0007"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "269011690-0001",
+          "article": "TNT-Äquivalent",
+          "revid": 269011690,
+          "sentence": "Die Angabe bezieht sich auf die gesamte freiwerdende Energie, nicht nur auf die kinetische Energie, die zum Beispiel bei Kernwaffen deutlich geringer als die Gesamtenergie sein kann.",
+          "context": [
+            "Physikalische Einheit Einheitenname TNT-Äquivalent Physikalische Größen Energie, innere Energie, chemische Energie Formelzeichen W;E Dimension 𝖬𝖫𝟤𝖳−𝟤 In SI-Einheiten 1 kgTNT = 4,184 MJ 1 kT = 4,184 TJ Abgeleitet von Energiefreisetzung eines Kilogramms TNT TNT-Äquivalent ist eine nicht SI-konforme, aber weiterhin gebräuchliche Maßeinheit für die bei einer Explosion freiwerdende Energie."
+          ]
+        },
+        {
+          "id": "270155664-0036",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen von geringer Dichte und einem Durchmesser von 30 bis 80 Metern, der etwa 5 bis 14 Kilometer über dem Boden explodierte und daher keinen Krater verursachte.",
+          "context": [
+            "Die Ursache des Ereignisses ist bis heute ungeklärt."
+          ]
+        },
+        {
+          "id": "270155664-0007",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Experten schätzen, dass auf einem Gebiet von über 2000 km² rund 60 Millionen Bäume umgeknickt wurden.",
+          "context": [
+            "Bei dem Ereignis wurden Bäume bis in etwa 30 Kilometer Entfernung entwurzelt und Fenster und Türen in der 65 Kilometer entfernten Handelssiedlung Wanawara eingedrückt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.98,
+          "aussage_2": 0.97,
+          "vollstaendig": 0.85
+        },
+        "jev_error": null,
+        "reason": "Der erste Satz greift die Aussage aus 0001 auf, dass die gesamte freiwerdende Energie gemeint ist. In der Frage ist die Explosion in großer Höhe als Bedingung mit „wenn“ formuliert und deckt sich mit 0036 (5 bis 14 km über dem Boden). Die große Zerstörung am Boden ist durch 0007 belegt (rund 60 Millionen umgeknickte Bäume auf über 2000 km²). Es kommen keine zusätzlichen Angaben hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 19,
+      "speaker": "Lena",
+      "text": "Dafür gibt es eine Überlegung. Ein mächtiger heißer Luftstrahl könnte nach der Explosion eines Kometen in der Höhe dessen Weg zum Boden fortsetzen. Er würde dort eine stärkere Druckwelle und höhere Temperaturen hervorrufen.",
+      "previous_text": "Es zählt also die ganze Energie. Aber wenn der Körper hoch oben explodiert ist, wie kam dann so viel Zerstörung unten am Boden zustande?",
+      "fact_ids": [
+        "270155664-0034"
+      ],
+      "statements": [
+        {
+          "text": "Ein mächtiger heißer Luftstrahl könnte nach der Explosion eines Kometen in der Höhe dessen Weg zum Boden fortsetzen.",
+          "fact_ids": [
+            "270155664-0034"
+          ]
+        },
+        {
+          "text": "Am Boden würde er eine stärkere Druckwelle und höhere Temperaturen hervorrufen.",
+          "fact_ids": [
+            "270155664-0034"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0034",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Grund dafür könnte ein mächtiger heißer Luftstrahl gewesen sein, der nach der Explosion eines Kometen in der Höhe dessen Weg zum Boden fortsetzt und dort eine stärkere Druckwelle und höhere Temperaturen hervorrufen würde.",
+          "context": [
+            "Sie gingen noch in den 1980er Jahren von bis zu 50 Megatonnen TNT aus.",
+            "Jüngere Berechnungen gehen von einer mit 2 bis 4, maximal 5 Megatonnen TNT vergleichbaren Sprengwirkung aus."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.77
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz 270155664-0034 sinngemäß wieder: ein mächtiger heißer Luftstrahl nach der Explosion eines Kometen in der Höhe, der dessen Weg zum Boden fortsetzt und dort eine stärkere Druckwelle und höhere Temperaturen hervorruft. Die Formulierung \"Dafür gibt es eine Überlegung\" entspricht dem \"könnte\" im Fakt. Zusätzliche Angaben kommen nicht vor."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 20,
+      "speaker": "Felix",
+      "text": "Ein Komet war ja eine der Möglichkeiten. Woher kommen Kometen eigentlich?",
+      "previous_text": "Dafür gibt es eine Überlegung. Ein mächtiger heißer Luftstrahl könnte nach der Explosion eines Kometen in der Höhe dessen Weg zum Boden fortsetzen. Er würde dort eine stärkere Druckwelle und höhere Temperaturen hervorrufen.",
+      "fact_ids": [
+        "270155664-0036"
+      ],
+      "statements": [
+        {
+          "text": "Ein Komet gilt neben einem Steinasteroiden als wahrscheinlichste Ursache.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0036",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen von geringer Dichte und einem Durchmesser von 30 bis 80 Metern, der etwa 5 bis 14 Kilometer über dem Boden explodierte und daher keinen Krater verursachte.",
+          "context": [
+            "Die Ursache des Ereignisses ist bis heute ungeklärt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.8
+        },
+        "jev_error": null,
+        "reason": "Die Aussage, ein Komet sei eine der Möglichkeiten gewesen, folgt aus dem Fakt-Satz: Dort gilt der Eintritt eines Steinasteroiden oder Kometen als am wahrscheinlichsten. Die Frage nach der Herkunft von Kometen ist eine Nachfrage ohne Behauptung und braucht keinen Beleg."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 21,
+      "speaker": "Lena",
+      "text": "Für das Tunguska-Ereignis gilt: Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder eines Kometen von geringer Dichte. Der Körper hatte einen Durchmesser von dreißig bis achtzig Metern. Er explodierte etwa fünf bis vierzehn Kilometer über dem Boden und verursachte deshalb keinen Krater.",
+      "previous_text": "Ein Komet war ja eine der Möglichkeiten. Woher kommen Kometen eigentlich?",
+      "fact_ids": [
+        "270155664-0036"
+      ],
+      "statements": [
+        {
+          "text": "Als am wahrscheinlichsten Ursache gilt der Eintritt eines Steinasteroiden oder eines Kometen von geringer Dichte.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        },
+        {
+          "text": "Der Körper hatte einen Durchmesser von dreißig bis achtzig Metern.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        },
+        {
+          "text": "Er explodierte etwa fünf bis vierzehn Kilometer über dem Boden und verursachte daher keinen Krater.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0036",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen von geringer Dichte und einem Durchmesser von 30 bis 80 Metern, der etwa 5 bis 14 Kilometer über dem Boden explodierte und daher keinen Krater verursachte.",
+          "context": [
+            "Die Ursache des Ereignisses ist bis heute ungeklärt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Felix",
+      "text": "Das ist spannend. Als wahrscheinlichste Erklärung gilt also ein Asteroid oder Komet, der hoch über dem Boden explodierte und deshalb keinen Krater hinterließ. Gibt es auch Erklärungen ganz ohne so einen Körper aus dem All?",
+      "previous_text": "Für das Tunguska-Ereignis gilt: Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder eines Kometen von geringer Dichte. Der Körper hatte einen Durchmesser von dreißig bis achtzig Metern. Er explodierte etwa fünf bis vierzehn Kilometer über dem Boden und verursachte deshalb keinen Krater.",
+      "fact_ids": [
+        "270155664-0036"
+      ],
+      "statements": [
+        {
+          "text": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen, der etwa fünf bis vierzehn Kilometer über dem Boden explodierte und daher keinen Krater verursachte.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0036",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen von geringer Dichte und einem Durchmesser von 30 bis 80 Metern, der etwa 5 bis 14 Kilometer über dem Boden explodierte und daher keinen Krater verursachte.",
+          "context": [
+            "Die Ursache des Ereignisses ist bis heute ungeklärt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.94,
+          "vollstaendig": 0.76
+        },
+        "jev_error": null,
+        "reason": "Die Aussage, ein Asteroid oder Komet gelte als wahrscheinlichste Erklärung, der hoch über dem Boden explodierte und deshalb keinen Krater hinterließ, folgt direkt aus dem Fakt-Satz. Die Details (Größe, Höhe) werden nicht genannt, also nichts hinzugefügt. \"Das ist spannend\" ist eine Reaktion, und die abschließende Frage nach Erklärungen ohne Körper aus dem All ist eine belegfreie Nachfrage."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 23,
+      "speaker": "Lena",
+      "text": "Ja. Nach neueren Erkenntnissen ist auch eine vulkanische Eruption nicht auszuschließen. Eine andere These erklärt das Ereignis als Explosion von zehn Millionen Tonnen Erdgas. Das Gas sei über Risse aus einem unterirdischen natürlichen Erdgaslager unter hohem Druck entwichen. Es sei mit hoher Geschwindigkeit bis in hohe Atmosphärenschichten aufgestiegen und habe sich durch Reibungselektrizität entzündet. Dann sei es in einer Flammenfront bis hinunter zur Austrittsstelle abgebrannt.",
+      "previous_text": "Das ist spannend. Als wahrscheinlichste Erklärung gilt also ein Asteroid oder Komet, der hoch über dem Boden explodierte und deshalb keinen Krater hinterließ. Gibt es auch Erklärungen ganz ohne so einen Körper aus dem All?",
+      "fact_ids": [
+        "270155664-0003",
+        "270155664-0058"
+      ],
+      "statements": [
+        {
+          "text": "Nach neueren Erkenntnissen ist auch eine vulkanische Eruption nicht auszuschließen.",
+          "fact_ids": [
+            "270155664-0003"
+          ]
+        },
+        {
+          "text": "Eine These erklärt das Ereignis als Explosion von zehn Millionen Tonnen Erdgas aus einem unterirdischen natürlichen Erdgaslager.",
+          "fact_ids": [
+            "270155664-0058"
+          ]
+        },
+        {
+          "text": "Das Gas sei über Risse unter hohem Druck entwichen, bis in hohe Atmosphärenschichten aufgestiegen, habe sich durch Reibungselektrizität entzündet und sei in einer Flammenfront bis zur Austrittsstelle abgebrannt.",
+          "fact_ids": [
+            "270155664-0058"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0003",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Nach neueren Erkenntnissen ist auch eine vulkanische Eruption nicht auszuschließen.",
+          "context": [
+            "Das Tunguska-Ereignis bestand aus einer oder mehreren sehr großen Explosionen (daher auch Tunguska-Explosion) am 30. Juni 1908 im sibirischen Gouvernement Jenisseisk, der heutigen Region Krasnojarsk, deren Ursache sich bisher nicht zweifelsfrei klären ließ.",
+            "Das Ereignis fand in der Nähe des Flusses Steinige Tunguska (Podkamennaja Tunguska) im Siedlungsgebiet der Ewenken statt.",
+            "Als wahrscheinlichste Ursache gilt der Eintritt eines Asteroiden, des nach der Region benannten Tunguska-Asteroiden, oder eines kleinen Kometen in die Erdatmosphäre, wo er in einigen Kilometern Höhe explodierte."
+          ]
+        },
+        {
+          "id": "270155664-0058",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Demnach wäre das Ereignis als Explosion von 10 Millionen Tonnen Erdgas zu erklären, das über Risse aus einem unterirdischen natürlichen Erdgaslager unter hohem Druck entwich, bis in hohe Atmosphärenschichten mit hoher Geschwindigkeit aufstieg, sich durch Reibungselektrizität entzündete und in einer Flammenfront bis hinunter zur Austrittsstelle abbrannte.",
+          "context": [
+            "Ihm folgte der deutsche Astrophysiker Wolfgang Kundt, der die These vertrat, dass es sich um einen vulkanähnlichen Ausbruch gehandelt habe."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "aussage_2": 0.98,
+          "vollstaendig": 0.81
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Die vulkanische Eruption stammt aus [270155664-0003]. Die Erdgas-Explosion mit zehn Millionen Tonnen, der Austritt über Risse aus dem Erdgaslager unter hohem Druck, der Aufstieg in hohe Atmosphärenschichten, die Entzündung durch Reibungselektrizität und das Abbrennen in einer Flammenfront bis zur Austrittsstelle stammen aus [270155664-0058]. Die Formulierung als „andere These“ und der Konjunktiv fügen keine unbelegte Information hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Felix",
+      "text": "Das Gas steigt also nach oben, entzündet sich und brennt dann entlang der Flammenfront wieder bis nach unten zurück. Gibt es noch ungewöhnlichere Ideen?",
+      "previous_text": "Ja. Nach neueren Erkenntnissen ist auch eine vulkanische Eruption nicht auszuschließen. Eine andere These erklärt das Ereignis als Explosion von zehn Millionen Tonnen Erdgas. Das Gas sei über Risse aus einem unterirdischen natürlichen Erdgaslager unter hohem Druck entwichen. Es sei mit hoher Geschwindigkeit bis in hohe Atmosphärenschichten aufgestiegen und habe sich durch Reibungselektrizität entzündet. Dann sei es in einer Flammenfront bis hinunter zur Austrittsstelle abgebrannt.",
+      "fact_ids": [
+        "270155664-0058"
+      ],
+      "statements": [
+        {
+          "text": "Nach der Gas-These entzündet sich das aufgestiegene Gas und brennt in einer Flammenfront bis zur Austrittsstelle zurück.",
+          "fact_ids": [
+            "270155664-0058"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0058",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Demnach wäre das Ereignis als Explosion von 10 Millionen Tonnen Erdgas zu erklären, das über Risse aus einem unterirdischen natürlichen Erdgaslager unter hohem Druck entwich, bis in hohe Atmosphärenschichten mit hoher Geschwindigkeit aufstieg, sich durch Reibungselektrizität entzündete und in einer Flammenfront bis hinunter zur Austrittsstelle abbrannte.",
+          "context": [
+            "Ihm folgte der deutsche Astrophysiker Wolfgang Kundt, der die These vertrat, dass es sich um einen vulkanähnlichen Ausbruch gehandelt habe."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.87
+        },
+        "jev_error": null,
+        "reason": "Felix fasst den Ablauf aus dem Fakt-Satz zusammen: Gas steigt auf, entzündet sich und brennt in einer Flammenfront bis zur Austrittsstelle (unten) zurück. Das folgt aus [270155664-0058]. Die Frage nach noch ungewöhnlicheren Ideen ist eine belegfreie Nachfrage. Zwar impliziert „noch ungewöhnlichere“ eine Wertung, sie ist aber eine Reaktion im Moment und keine Tatsachenbehauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 25,
+      "speaker": "Lena",
+      "text": "Der Teilchenphysiker Robert Foot von der Universität Melbourne hat eine solche Theorie. Danach könnte es sich um eine Kollision der Erde mit einem Weltraumkörper aus Spiegelmaterie gehandelt haben. Spiegelmaterie ist eine hypothetische Materieform. Aus ihr könnte zum Beispiel die Dunkle Materie bestehen.",
+      "previous_text": "Das Gas steigt also nach oben, entzündet sich und brennt dann entlang der Flammenfront wieder bis nach unten zurück. Gibt es noch ungewöhnlichere Ideen?",
+      "fact_ids": [
+        "270155664-0075"
+      ],
+      "statements": [
+        {
+          "text": "Nach einer Theorie des Teilchenphysikers Robert Foot von der Universität Melbourne könnte es eine Kollision der Erde mit einem Weltraumkörper aus Spiegelmaterie gewesen sein.",
+          "fact_ids": [
+            "270155664-0075"
+          ]
+        },
+        {
+          "text": "Spiegelmaterie ist eine hypothetische Materieform, aus der zum Beispiel die Dunkle Materie bestehen könnte.",
+          "fact_ids": [
+            "270155664-0075"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0075",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Nach einer anderen Theorie des Teilchenphysikers Robert Foot von der Universität Melbourne könnte es sich auch um eine Kollision der Erde mit einem Weltraumkörper aus Spiegelmaterie (mirror matter; eine hypothetische Materieform, aus der z. B. die Dunkle Materie bestehen könnte) gehandelt haben.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 27,
+      "speaker": "Lena",
+      "text": "Ja, einige. Verantwortlich gemacht wurden unter anderem der Einschlag eines kleinen Schwarzen Loches und der Absturz eines extraterrestrischen Raumschiffs. Auch eine Explosion der dort zahlreich vorkommenden Mücken wurde genannt. Sie wäre vergleichbar mit einer Staubexplosion gewesen. Man nennt sie die Mückenexplosion.",
+      "previous_text": "Spiegelmaterie, da muss man erst einmal nachdenken. Gibt es noch mehr davon?",
+      "fact_ids": [
+        "270155664-0071"
+      ],
+      "statements": [
+        {
+          "text": "Für das Ereignis wurden unter anderem der Einschlag eines kleinen Schwarzen Loches und der Absturz eines extraterrestrischen Raumschiffs verantwortlich gemacht.",
+          "fact_ids": [
+            "270155664-0071"
+          ]
+        },
+        {
+          "text": "Auch eine Explosion der dort zahlreich vorkommenden Mücken, vergleichbar einer Staubexplosion, die sogenannte Mückenexplosion, wurde genannt.",
+          "fact_ids": [
+            "270155664-0071"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0071",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "So wurden unter anderem der Einschlag eines kleinen Schwarzen Loches, der Absturz eines extraterrestrischen Raumschiffs oder eine Explosion der dort zahlreich vorkommenden Mücken, vergleichbar einer Staubexplosion, die „Mückenexplosion“, für das Ereignis verantwortlich gemacht.",
+          "context": [
+            "Da nach über einhundert Jahren keine gesicherte Erklärung zur Ursache existiert, halten sich auch etliche exotische Hypothesen, die keine wissenschaftliche Anerkennung gefunden haben."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.74
+        },
+        "jev_error": null,
+        "reason": "Alle Angaben stehen im Fakt-Satz: der Einschlag eines kleinen Schwarzen Loches, der Absturz eines extraterrestrischen Raumschiffs und die Explosion der zahlreich vorkommenden Mücken, vergleichbar mit einer Staubexplosion und „Mückenexplosion“ genannt. „Ja, einige“ ist eine Antwortreaktion, und die Aufzählung deckt sie. Es kommt keine zusätzliche Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 28,
+      "speaker": "Felix",
+      "text": "Moment, Mücken? Eine Explosion wie bei Staub? Hat das Ereignis eigentlich auch Autoren inspiriert?",
+      "previous_text": "Ja, einige. Verantwortlich gemacht wurden unter anderem der Einschlag eines kleinen Schwarzen Loches und der Absturz eines extraterrestrischen Raumschiffs. Auch eine Explosion der dort zahlreich vorkommenden Mücken wurde genannt. Sie wäre vergleichbar mit einer Staubexplosion gewesen. Man nennt sie die Mückenexplosion.",
+      "fact_ids": [
+        "270155664-0071"
+      ],
+      "statements": [
+        {
+          "text": "Eine Mückenexplosion, vergleichbar einer Staubexplosion, wurde als Ursache genannt.",
+          "fact_ids": [
+            "270155664-0071"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0071",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "So wurden unter anderem der Einschlag eines kleinen Schwarzen Loches, der Absturz eines extraterrestrischen Raumschiffs oder eine Explosion der dort zahlreich vorkommenden Mücken, vergleichbar einer Staubexplosion, die „Mückenexplosion“, für das Ereignis verantwortlich gemacht.",
+          "context": [
+            "Da nach über einhundert Jahren keine gesicherte Erklärung zur Ursache existiert, halten sich auch etliche exotische Hypothesen, die keine wissenschaftliche Anerkennung gefunden haben."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.68
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag enthält nur Reaktionen: das erstaunte Wiederaufgreifen von „Mücken“ und der „Explosion wie bei Staub“, was durch den Fakt-Satz gedeckt ist, sowie eine Nachfrage, ob das Ereignis Autoren inspiriert hat. Die Frage setzt keine zusätzliche Behauptung voraus und enthält keine neue Information."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 29,
+      "speaker": "Lena",
+      "text": "Ja. Neunzehnhundertfünfundsechzig stellten die Brüder Strugazki im Buch „Der Montag fängt am Samstag an“ eine humorvolle phantastische These auf. Danach wurde das Ereignis von einem kontramoten Raumschiff verursacht, das auf der Zeitachse rückwärts reist. Es landete auf der Erde und entzündete beim Landen die Taiga. Dann wanderte es weiter durch die Zeit zurück. So blieben keine Spuren an der Brandstelle zurück.",
+      "previous_text": "Moment, Mücken? Eine Explosion wie bei Staub? Hat das Ereignis eigentlich auch Autoren inspiriert?",
+      "fact_ids": [
+        "270155664-0082"
+      ],
+      "statements": [
+        {
+          "text": "Die Brüder Strugazki stellten neunzehnhundertfünfundsechzig im Buch „Der Montag fängt am Samstag an“ die humorvolle These auf, ein kontramotes Raumschiff, das auf der Zeitachse rückwärts reist, habe das Ereignis verursacht.",
+          "fact_ids": [
+            "270155664-0082"
+          ]
+        },
+        {
+          "text": "Es landete, entzündete beim Landen die Taiga und reiste dann weiter durch die Zeit zurück, sodass keine Spuren an der Brandstelle blieben.",
+          "fact_ids": [
+            "270155664-0082"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0082",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "1965: Die Brüder Strugazki stellten im Buch Der Montag fängt am Samstag an eine humorvolle phantastische These auf, dass das Tunguska-Ereignis von einem „kontramoten“ Raumschiff verursacht wurde, das auf der Zeitachse rückwärts reist: Es landete auf der Erde, entzündete beim Landen die Taiga und wanderte dann weiter durch die Zeit zurück, so dass keine Spuren an der Brandstelle zurückblieben.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.85
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen (1965, Brüder Strugazki, „Der Montag fängt am Samstag an“, humorvolle phantastische These, kontramotes Raumschiff auf der Zeitachse rückwärts, Landung, Entzünden der Taiga, Weiterreise zurück in der Zeit, keine Spuren) stehen im Fakt-Satz. „Das Ereignis“ meint das dort genannte Tunguska-Ereignis. Die einleitende „Ja.“ ist eine belegfreie Reaktion."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Felix",
+      "text": "Das Raumschiff reist also rückwärts durch die Zeit und hinterlässt deshalb keine Spuren. Gab es noch andere Werke?",
+      "previous_text": "Ja. Neunzehnhundertfünfundsechzig stellten die Brüder Strugazki im Buch „Der Montag fängt am Samstag an“ eine humorvolle phantastische These auf. Danach wurde das Ereignis von einem kontramoten Raumschiff verursacht, das auf der Zeitachse rückwärts reist. Es landete auf der Erde und entzündete beim Landen die Taiga. Dann wanderte es weiter durch die Zeit zurück. So blieben keine Spuren an der Brandstelle zurück.",
+      "fact_ids": [
+        "270155664-0082"
+      ],
+      "statements": [
+        {
+          "text": "Das Raumschiff in der Geschichte reist rückwärts durch die Zeit, deshalb bleiben keine Spuren.",
+          "fact_ids": [
+            "270155664-0082"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0082",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "1965: Die Brüder Strugazki stellten im Buch Der Montag fängt am Samstag an eine humorvolle phantastische These auf, dass das Tunguska-Ereignis von einem „kontramoten“ Raumschiff verursacht wurde, das auf der Zeitachse rückwärts reist: Es landete auf der Erde, entzündete beim Landen die Taiga und wanderte dann weiter durch die Zeit zurück, so dass keine Spuren an der Brandstelle zurückblieben.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.91
+        },
+        "jev_error": null,
+        "reason": "Die Aussage, das Raumschiff reise rückwärts durch die Zeit und hinterlasse deshalb keine Spuren, folgt direkt aus dem Fakt-Satz (Rückwärtsreise auf der Zeitachse, keine Spuren an der Brandstelle). Die Frage nach weiteren Werken ist eine belegfreie Nachfrage und enthält keine zusätzliche Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 31,
+      "speaker": "Lena",
+      "text": "Ja. Im Roman „Ich werde hier sein im Sonnenschein und im Schatten“ von Christian Kracht aus dem Jahr zweitausendacht ist das Tunguska-Ereignis der Auslöser für den Wendepunkt der Handlung. Lenin kehrt nicht aus der Schweiz in das verstrahlte Russland zurück, um die Russische Revolution herbeizuführen. Stattdessen macht er die Schweiz zu einer sozialistischen Räterepublik.",
+      "previous_text": "Das Raumschiff reist also rückwärts durch die Zeit und hinterlässt deshalb keine Spuren. Gab es noch andere Werke?",
+      "fact_ids": [
+        "270155664-0090"
+      ],
+      "statements": [
+        {
+          "text": "In Christian Krachts alternativ-weltgeschichtlichem Roman von zweitausendacht ist das Tunguska-Ereignis der Auslöser für den Wendepunkt der Handlung.",
+          "fact_ids": [
+            "270155664-0090"
+          ]
+        },
+        {
+          "text": "Lenin kehrt wegen des Ereignisses nicht ins verstrahlte Russland zurück, sondern macht die Schweiz zu einer sozialistischen Räterepublik.",
+          "fact_ids": [
+            "270155664-0090"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0090",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "2008: In Christian Krachts alternativ-weltgeschichtlichem Roman Ich werde hier sein im Sonnenschein und im Schatten ist das Tunguska-Ereignis Auslöser für den Wendepunkt der Handlung, da Lenin nicht aus der Schweiz in das durch das Ereignis verstrahlte Russland zurückkehrt, um die Russische Revolution herbeizuführen, sondern stattdessen die Schweiz zu einer sozialistischen Räterepublik umfunktioniert.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.64
+        },
+        "jev_error": null,
+        "reason": "Alle Behauptungen folgen aus dem Fakt-Satz 270155664-0090: Roman von Christian Kracht, 2008, Tunguska-Ereignis als Auslöser des Wendepunkts, Lenin kehrt nicht aus der Schweiz ins verstrahlte Russland zurück, sondern macht die Schweiz zu einer sozialistischen Räterepublik. Das einleitende „Ja“ ist eine belegfreie Reaktion. Es gibt keine zusätzlichen Angaben."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 32,
+      "speaker": "Felix",
+      "text": "Die Revolution findet also nicht statt, weil Lenin in der Schweiz bleibt. Wie sieht es in der Popkultur aus?",
+      "previous_text": "Ja. Im Roman „Ich werde hier sein im Sonnenschein und im Schatten“ von Christian Kracht aus dem Jahr zweitausendacht ist das Tunguska-Ereignis der Auslöser für den Wendepunkt der Handlung. Lenin kehrt nicht aus der Schweiz in das verstrahlte Russland zurück, um die Russische Revolution herbeizuführen. Stattdessen macht er die Schweiz zu einer sozialistischen Räterepublik.",
+      "fact_ids": [
+        "270155664-0090"
+      ],
+      "statements": [
+        {
+          "text": "In Krachts Roman bleibt Lenin in der Schweiz und führt die Russische Revolution nicht herbei.",
+          "fact_ids": [
+            "270155664-0090"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0090",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "2008: In Christian Krachts alternativ-weltgeschichtlichem Roman Ich werde hier sein im Sonnenschein und im Schatten ist das Tunguska-Ereignis Auslöser für den Wendepunkt der Handlung, da Lenin nicht aus der Schweiz in das durch das Ereignis verstrahlte Russland zurückkehrt, um die Russische Revolution herbeizuführen, sondern stattdessen die Schweiz zu einer sozialistischen Räterepublik umfunktioniert.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.81
+        },
+        "jev_error": null,
+        "reason": "Felix fasst den Fakt zusammen: Lenin kehrt nicht nach Russland zurück, um die Russische Revolution herbeizuführen, sondern bleibt in der Schweiz. Dass die Revolution deshalb ausbleibt, ist eine knappe, naheliegende Wiedergabe des Romanplots. Die Frage zur Popkultur ist eine belegfreie Überleitung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 33,
+      "speaker": "Lena",
+      "text": "Neunzehnhundertachtundneunzig ging im Lustigen Taschenbuch Nummer zweihundertsiebenundvierzig Indiana Goof zusammen mit Micky Maus auf Expedition. In der Geschichte „Der große Knall“ suchen sie nach dem Ursprung des Tunguska-Ereignisses. Dabei finden sie heraus, dass es eine ungewollte Nuklearexplosion war.",
+      "previous_text": "Die Revolution findet also nicht statt, weil Lenin in der Schweiz bleibt. Wie sieht es in der Popkultur aus?",
+      "fact_ids": [
+        "270155664-0101"
+      ],
+      "statements": [
+        {
+          "text": "Im Lustigen Taschenbuch Nummer zweihundertsiebenundvierzig von neunzehnhundertachtundneunzig geht Indiana Goof mit Micky Maus in der Geschichte „Der große Knall“ auf Expedition zum Ursprung des Tunguska-Ereignisses.",
+          "fact_ids": [
+            "270155664-0101"
+          ]
+        },
+        {
+          "text": "Sie finden heraus, dass es eine ungewollte Nuklearexplosion war.",
+          "fact_ids": [
+            "270155664-0101"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0101",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "1998: Im Lustigen Taschenbuch Nr. 247 geht Indiana Goof zusammen mit Micky Maus in der Geschichte Der große Knall auf Expedition nach dem Ursprung des Tunguska-Ereignisses, wobei sie herausfinden, dass es eine ungewollte Nuklearexplosion war.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 34,
+      "speaker": "Felix",
+      "text": "Micky Maus und Indiana Goof, das ist herrlich! Eine Nuklearexplosion also. Hatten solche Explosionen in der Wirklichkeit eigentlich Folgen?",
+      "previous_text": "Neunzehnhundertachtundneunzig ging im Lustigen Taschenbuch Nummer zweihundertsiebenundvierzig Indiana Goof zusammen mit Micky Maus auf Expedition. In der Geschichte „Der große Knall“ suchen sie nach dem Ursprung des Tunguska-Ereignisses. Dabei finden sie heraus, dass es eine ungewollte Nuklearexplosion war.",
+      "fact_ids": [
+        "270155664-0101"
+      ],
+      "statements": [
+        {
+          "text": "In der Comicgeschichte war das Ereignis eine ungewollte Nuklearexplosion.",
+          "fact_ids": [
+            "270155664-0101"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0101",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "1998: Im Lustigen Taschenbuch Nr. 247 geht Indiana Goof zusammen mit Micky Maus in der Geschichte Der große Knall auf Expedition nach dem Ursprung des Tunguska-Ereignisses, wobei sie herausfinden, dass es eine ungewollte Nuklearexplosion war.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.82
+        },
+        "jev_error": null,
+        "reason": "Der Beitrag enthält nur eine Reaktion (\"das ist herrlich!\"), ein Wiederaufgreifen der Fakt-Aussage (Nuklearexplosion in der Geschichte, durch [270155664-0101] gedeckt) und eine Nachfrage zu realen Folgen. Die Nachfrage bringt keine neue Behauptung. Die Nennung von Micky Maus und Indiana Goof stimmt mit dem Fakt überein."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 35,
+      "speaker": "Lena",
+      "text": "Ja. Kernwaffenexplosionen bei Kernwaffentests führten zu einer Zunahme der Radioaktivität in der Erdatmosphäre. Das führte neunzehnhundertdreiundsechzig zum Vertrag über das Verbot von Kernwaffenversuchen in der Atmosphäre, im Weltraum und unter Wasser.",
+      "previous_text": "Micky Maus und Indiana Goof, das ist herrlich! Eine Nuklearexplosion also. Hatten solche Explosionen in der Wirklichkeit eigentlich Folgen?",
+      "fact_ids": [
+        "271574089-0005"
+      ],
+      "statements": [
+        {
+          "text": "Die Zunahme der Radioaktivität in der Erdatmosphäre durch Kernwaffentests führte neunzehnhundertdreiundsechzig zum Vertrag über das Verbot von Kernwaffenversuchen in der Atmosphäre, im Weltraum und unter Wasser.",
+          "fact_ids": [
+            "271574089-0005"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271574089-0005",
+          "article": "Kernwaffenexplosion",
+          "revid": 271574089,
+          "sentence": "Die durch Kernwaffenexplosionen bei Kernwaffentests verursachte Zunahme der Radioaktivität in der Erdatmosphäre führte 1963 zum Vertrag über das Verbot von Kernwaffenversuchen in der Atmosphäre, im Weltraum und unter Wasser.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.89
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich korrekt wieder: Die Zunahme der Radioaktivität in der Erdatmosphäre durch Kernwaffentests führte 1963 zum Vertrag über das Verbot von Kernwaffenversuchen in der Atmosphäre, im Weltraum und unter Wasser. Das einleitende „Ja“ ist eine belegfreie Reaktion; es kommen keine zusätzlichen Angaben hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 37,
+      "speaker": "Lena",
+      "text": "Ja. Im Jahr zweitausendeinundzwanzig wird das Ereignis in den letzten sechs Folgen der zweiten Staffel von „UFOs“ gedeutet. Es soll ein winziges schwarzes Loch gewesen sein. Sibirische Ureinwohner sollen es durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie verursacht haben.",
+      "previous_text": "Und außerirdische Technik? Taucht die auch im Fernsehen auf?",
+      "fact_ids": [
+        "270155664-0105"
+      ],
+      "statements": [
+        {
+          "text": "Zweitausendeinundzwanzig wird das Ereignis in den Folgen sieben bis zwölf der zweiten Staffel von „UFOs“ als winziges schwarzes Loch gedeutet.",
+          "fact_ids": [
+            "270155664-0105"
+          ]
+        },
+        {
+          "text": "Sibirische Ureinwohner sollen es durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie verursacht haben.",
+          "fact_ids": [
+            "270155664-0105"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0105",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "2021: In den sechs letzten Folgen (7–12) der zweiten Staffel von UFOs wird das Ereignis gedeutet als ein winziges schwarzes Loch, das sibirische Ureinwohner durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie verursacht haben sollen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.31,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.6
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen stimmen mit dem Fakt-Satz überein: Jahr 2021, die letzten sechs Folgen der zweiten Staffel von UFOs, Deutung als winziges schwarzes Loch, verursacht durch sibirische Ureinwohner bei misslungener Verwendung zurückgelassener außerirdischer Technologie. Die Formulierung „soll“ bewahrt den Konjunktiv des Fakts. Es kommt keine zusätzliche Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 38,
+      "speaker": "Felix",
+      "text": "In der Serie soll also zurückgelassene außerirdische Technologie im Spiel gewesen sein. Welche Vorstellungen haben Menschen eigentlich davon, wie Raumfahrzeuge hypothetischer außerirdischer Lebewesen aussehen könnten?",
+      "previous_text": "Ja. Im Jahr zweitausendeinundzwanzig wird das Ereignis in den letzten sechs Folgen der zweiten Staffel von „UFOs“ gedeutet. Es soll ein winziges schwarzes Loch gewesen sein. Sibirische Ureinwohner sollen es durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie verursacht haben.",
+      "fact_ids": [
+        "270155664-0105",
+        "270575891-0004"
+      ],
+      "statements": [
+        {
+          "text": "Laut der Deutung in der zweiten Staffel von UFOs sollen sibirische Ureinwohner durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie ein winziges schwarzes Loch verursacht haben.",
+          "fact_ids": [
+            "270155664-0105"
+          ]
+        },
+        {
+          "text": "Menschen haben Vorstellungen davon, wie Raumfahrzeuge hypothetischer außerirdischer Lebewesen typischerweise aussehen könnten.",
+          "fact_ids": [
+            "270575891-0004"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0105",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "2021: In den sechs letzten Folgen (7–12) der zweiten Staffel von UFOs wird das Ereignis gedeutet als ein winziges schwarzes Loch, das sibirische Ureinwohner durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie verursacht haben sollen.",
+          "context": []
+        },
+        {
+          "id": "270575891-0004",
+          "article": "UFO",
+          "revid": 270575891,
+          "sentence": "Bis heute prägt das Bild der Fliegenden Untertasse menschliche Vorstellungen davon, wie Raumfahrzeuge hypothetischer außerirdischer Lebewesen typischerweise aussehen könnten.",
+          "context": [
+            "Als Begriff der Umgangssprache bezeichnet „Ufo“ Raumfahrzeuge hypothetischer außerirdischer Lebewesen.",
+            "Ursprünglich bürgerte sich der Begriff „Fliegende Untertasse“ aufgrund erster Zeitungsberichte über UFOs ein."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.83
+        },
+        "jev_error": null,
+        "reason": "Die Aussage zur Serie (zurückgelassene außerirdische Technologie, die im Spiel gewesen sein soll) folgt aus Fakt 0105, die Prämisse der Frage zu Vorstellungen von Raumfahrzeugen hypothetischer Außerirdischer aus Fakt 0004. Die Frage selbst ist eine belegfreie Nachfrage, es kommt keine unbelegte Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 39,
+      "speaker": "Lena",
+      "text": "Das Bild der Fliegenden Untertasse prägt diese Vorstellungen bis heute. Sie bestimmt, wie wir uns Raumfahrzeuge hypothetischer außerirdischer Lebewesen typischerweise vorstellen.",
+      "previous_text": "In der Serie soll also zurückgelassene außerirdische Technologie im Spiel gewesen sein. Welche Vorstellungen haben Menschen eigentlich davon, wie Raumfahrzeuge hypothetischer außerirdischer Lebewesen aussehen könnten?",
+      "fact_ids": [
+        "270575891-0004"
+      ],
+      "statements": [
+        {
+          "text": "Das Bild der Fliegenden Untertasse prägt bis heute die menschlichen Vorstellungen davon, wie Raumfahrzeuge hypothetischer außerirdischer Lebewesen typischerweise aussehen könnten.",
+          "fact_ids": [
+            "270575891-0004"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270575891-0004",
+          "article": "UFO",
+          "revid": 270575891,
+          "sentence": "Bis heute prägt das Bild der Fliegenden Untertasse menschliche Vorstellungen davon, wie Raumfahrzeuge hypothetischer außerirdischer Lebewesen typischerweise aussehen könnten.",
+          "context": [
+            "Als Begriff der Umgangssprache bezeichnet „Ufo“ Raumfahrzeuge hypothetischer außerirdischer Lebewesen.",
+            "Ursprünglich bürgerte sich der Begriff „Fliegende Untertasse“ aufgrund erster Zeitungsberichte über UFOs ein."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.9
+        },
+        "jev_error": null,
+        "reason": "Lenas Aussage gibt den Fakt-Satz 270575891-0004 sinngemäß wieder: Das Bild der Fliegenden Untertasse prägt bis heute die Vorstellung vom typischen Aussehen der Raumfahrzeuge hypothetischer Außerirdischer. „Sie bestimmt, wie wir uns ... vorstellen“ ist eine zulässige Umformulierung, es kommt keine zusätzliche Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 41,
+      "speaker": "Lena",
+      "text": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen, der in der Höhe explodierte und deshalb keinen Krater hinterließ. Bis heute wurden keine mit bloßem Auge sichtbaren Bruchstücke gefunden. Auch der Tscheko-See wurde als Krater vielleicht widerlegt. Daneben ist nach neueren Erkenntnissen eine vulkanische Eruption nicht auszuschließen. Eine andere These spricht von einer Erdgasexplosion. Dazu kamen Ideen von einem Schwarzen Loch, einem Raumschiff und sogar von explodierenden Mücken. Und in Büchern, Comics und Serien wurde das Ereignis immer wieder neu erzählt.",
+      "previous_text": "Verstehe. Dann bitte zum Schluss noch einmal kurz das Wichtigste.",
+      "fact_ids": [
+        "270155664-0036",
+        "270155664-0041",
+        "270155664-0049",
+        "270155664-0003",
+        "270155664-0058",
+        "270155664-0071",
+        "270155664-0082",
+        "270155664-0101",
+        "270155664-0105"
+      ],
+      "statements": [
+        {
+          "text": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen, der in der Höhe explodierte und deshalb keinen Krater verursachte.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        },
+        {
+          "text": "Bis heute wurden keine mit bloßem Auge sichtbaren Bruchstücke eines eingeschlagenen Himmelskörpers gefunden.",
+          "fact_ids": [
+            "270155664-0041"
+          ]
+        },
+        {
+          "text": "Die Theorie, der Tscheko-See sei der Krater, wurde vielleicht widerlegt.",
+          "fact_ids": [
+            "270155664-0049"
+          ]
+        },
+        {
+          "text": "Nach neueren Erkenntnissen ist auch eine vulkanische Eruption nicht auszuschließen, und eine andere These erklärt das Ereignis als Erdgasexplosion.",
+          "fact_ids": [
+            "270155664-0003",
+            "270155664-0058"
+          ]
+        },
+        {
+          "text": "Für das Ereignis wurden auch ein Schwarzes Loch, ein Raumschiff und eine Mückenexplosion verantwortlich gemacht.",
+          "fact_ids": [
+            "270155664-0071"
+          ]
+        },
+        {
+          "text": "Das Ereignis taucht in einem Buch, einem Comic und einer Serie auf.",
+          "fact_ids": [
+            "270155664-0082",
+            "270155664-0101",
+            "270155664-0105"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270155664-0036",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen von geringer Dichte und einem Durchmesser von 30 bis 80 Metern, der etwa 5 bis 14 Kilometer über dem Boden explodierte und daher keinen Krater verursachte.",
+          "context": [
+            "Die Ursache des Ereignisses ist bis heute ungeklärt."
+          ]
+        },
+        {
+          "id": "270155664-0041",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Bis heute wurden keine mit bloßem Auge sichtbaren Bruchstücke eines eingeschlagenen Himmelskörpers (Impaktors) gefunden.",
+          "context": []
+        },
+        {
+          "id": "270155664-0049",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Russische Wissenschaftler haben im Januar 2017 die Theorie, dass der Tscheko-See der Krater des Tunguska-Ereignisses ist, vielleicht widerlegt, da er ihren Untersuchungen zufolge bereits vor über 280 Jahren entstanden sein dürfte.",
+          "context": [
+            "Im Juni 2007 veröffentlichte eine italienische Forschergruppe nach einer Expedition unter Leitung des Meeresgeologen Luca Gasperini in der Online-Zeitschrift Terra Nova ihre Vermutung, dass es sich beim Tscheko-See um den Krater eines Impaktors handle.",
+            "Der See liegt ca. 8 Kilometer nördlich des Epizentrums und könnte von einem Bruchstück des ursprünglichen Boliden herrühren."
+          ]
+        },
+        {
+          "id": "270155664-0003",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Nach neueren Erkenntnissen ist auch eine vulkanische Eruption nicht auszuschließen.",
+          "context": [
+            "Das Tunguska-Ereignis bestand aus einer oder mehreren sehr großen Explosionen (daher auch Tunguska-Explosion) am 30. Juni 1908 im sibirischen Gouvernement Jenisseisk, der heutigen Region Krasnojarsk, deren Ursache sich bisher nicht zweifelsfrei klären ließ.",
+            "Das Ereignis fand in der Nähe des Flusses Steinige Tunguska (Podkamennaja Tunguska) im Siedlungsgebiet der Ewenken statt.",
+            "Als wahrscheinlichste Ursache gilt der Eintritt eines Asteroiden, des nach der Region benannten Tunguska-Asteroiden, oder eines kleinen Kometen in die Erdatmosphäre, wo er in einigen Kilometern Höhe explodierte."
+          ]
+        },
+        {
+          "id": "270155664-0058",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "Demnach wäre das Ereignis als Explosion von 10 Millionen Tonnen Erdgas zu erklären, das über Risse aus einem unterirdischen natürlichen Erdgaslager unter hohem Druck entwich, bis in hohe Atmosphärenschichten mit hoher Geschwindigkeit aufstieg, sich durch Reibungselektrizität entzündete und in einer Flammenfront bis hinunter zur Austrittsstelle abbrannte.",
+          "context": [
+            "Ihm folgte der deutsche Astrophysiker Wolfgang Kundt, der die These vertrat, dass es sich um einen vulkanähnlichen Ausbruch gehandelt habe."
+          ]
+        },
+        {
+          "id": "270155664-0071",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "So wurden unter anderem der Einschlag eines kleinen Schwarzen Loches, der Absturz eines extraterrestrischen Raumschiffs oder eine Explosion der dort zahlreich vorkommenden Mücken, vergleichbar einer Staubexplosion, die „Mückenexplosion“, für das Ereignis verantwortlich gemacht.",
+          "context": [
+            "Da nach über einhundert Jahren keine gesicherte Erklärung zur Ursache existiert, halten sich auch etliche exotische Hypothesen, die keine wissenschaftliche Anerkennung gefunden haben."
+          ]
+        },
+        {
+          "id": "270155664-0082",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "1965: Die Brüder Strugazki stellten im Buch Der Montag fängt am Samstag an eine humorvolle phantastische These auf, dass das Tunguska-Ereignis von einem „kontramoten“ Raumschiff verursacht wurde, das auf der Zeitachse rückwärts reist: Es landete auf der Erde, entzündete beim Landen die Taiga und wanderte dann weiter durch die Zeit zurück, so dass keine Spuren an der Brandstelle zurückblieben.",
+          "context": []
+        },
+        {
+          "id": "270155664-0101",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "1998: Im Lustigen Taschenbuch Nr. 247 geht Indiana Goof zusammen mit Micky Maus in der Geschichte Der große Knall auf Expedition nach dem Ursprung des Tunguska-Ereignisses, wobei sie herausfinden, dass es eine ungewollte Nuklearexplosion war.",
+          "context": []
+        },
+        {
+          "id": "270155664-0105",
+          "article": "Tunguska-Ereignis",
+          "revid": 270155664,
+          "sentence": "2021: In den sechs letzten Folgen (7–12) der zweiten Staffel von UFOs wird das Ereignis gedeutet als ein winziges schwarzes Loch, das sibirische Ureinwohner durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie verursacht haben sollen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "aussage_3": 0.94,
+          "aussage_4": 0.99,
+          "aussage_5": 0.97,
+          "vollstaendig": 0.72
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Steinasteroid/Komet ohne Krater (0036), keine sichtbaren Bruchstücke (0041), Tscheko-See vielleicht widerlegt (0049), Vulkaneruption nicht auszuschließen (0003), Erdgasexplosion (0058), Schwarzes Loch, Raumschiff und Mückenexplosion (0071). Dass das Ereignis in Büchern, Comics und Serien neu erzählt wurde, belegen 0082 (Buch), 0101 (Comic) und 0105 (Serie)."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    }
+  ],
+  "comments": []
+}

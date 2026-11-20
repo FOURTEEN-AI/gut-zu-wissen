@@ -1,12 +1,12 @@
 {
   "episode_id": "2026-11-20_tunguska-ereignis",
   "title": "Tunguska-Ereignis",
-  "status": "failed",
+  "status": "completed",
   "started_at": "2026-11-20T07:40:51Z",
-  "finished_at": "2026-11-20T08:13:19Z",
+  "finished_at": "2026-11-20T10:21:45Z",
   "published_at": null,
   "explicit": false,
-  "failure": "STT verification: section 1 still changes the statement after 2 resyntheses: 'Indiana' heard as 'Indianer' (Aus dem Namen Indiana wird das Wort Indianer, das ist ein anderer Name bzw. ein anderes Wort mit anderer Bedeutung.)",
+  "failure": null,
   "usage": {
     "author": {
       "model": "claude-sonnet-5-5",
@@ -16,9 +16,9 @@
     },
     "llm_judge": {
       "model": "claude-sonnet-5-5",
-      "calls": 49,
-      "input_tokens": 81238,
-      "output_tokens": 14380
+      "calls": 52,
+      "input_tokens": 98222,
+      "output_tokens": 16045
     },
     "jev": {
       "model": "jev-1.14.0",
@@ -37,9 +37,18 @@
     },
     "usd": {
       "author": 0.6289,
-      "llm_judge": 0.3063,
+      "llm_judge": 0.3569,
       "jev": 0.0024,
-      "tts": 0.2784
+      "tts": 0.4466
     }
-  }
+  },
+  "failed_step": null,
+  "resumed": [
+    {
+      "started_at": "2026-11-20T10:08:20Z",
+      "workflow_run": "44716536914",
+      "previous_finished_at": "2026-11-20T08:13:19Z",
+      "previous_failure": "STT verification: section 1 still changes the statement after 2 resyntheses: 'Indiana' heard as 'Indianer' (Aus dem Namen Indiana wird das Wort Indianer, das ist ein anderer Name bzw. ein anderes Wort mit anderer Bedeutung.)"
+    }
+  ]
 }
