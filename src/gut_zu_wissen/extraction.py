@@ -200,7 +200,7 @@ def extract_facts(
             else:
                 accepted.append((by_id[fid], ctx))
 
-    plain = _render_plain(renderer, title, accepted, by_id)
+    plain = render_plain(renderer, title, accepted, by_id)
     for seg, ctx in accepted:
         reason = plain_rejection(seg, plain[seg.id], quotas["min_fact_words"])
         if reason:
@@ -212,7 +212,7 @@ def extract_facts(
     return result
 
 
-def _render_plain(
+def render_plain(
     renderer: HtmlRenderer,
     title: str,
     accepted: Sequence[tuple[Segment, list[str]]],
