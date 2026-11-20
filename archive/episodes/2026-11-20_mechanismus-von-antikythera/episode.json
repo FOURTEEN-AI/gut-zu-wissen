@@ -3,10 +3,10 @@
   "title": "Mechanismus von Antikythera",
   "status": "failed",
   "started_at": "2026-11-20T17:09:43Z",
-  "finished_at": "2026-11-20T18:56:40Z",
+  "finished_at": "2026-11-20T20:13:59Z",
   "published_at": null,
   "explicit": false,
-  "failure": "STT verification: section 0 still changes the statement after 2 resyntheses: 'Andikythira' heard as 'Antikytheros' („Andikythira“ wurde als „Antikytheros“ wiedergegeben. Der alternative Inselname klingt deutlich anders, besonders die Endung, also ein anderer Name.)",
+  "failure": "STT verification: section 1 still changes the statement after 2 resyntheses: 'Griechisch' heard as 'Grieche' („Grieche“ statt „Griechisch“ ist ein anderes Wort mit anderer Bedeutung (Person statt Sprache); der Satz sagt etwas anderes.)",
   "usage": {
     "author": {
       "model": "claude-sonnet-5-5",
@@ -18,9 +18,9 @@
     },
     "llm_judge": {
       "model": "claude-sonnet-5-5",
-      "calls": 61,
-      "input_tokens": 63675,
-      "output_tokens": 17390,
+      "calls": 65,
+      "input_tokens": 88100,
+      "output_tokens": 19289,
       "cache_creation_input_tokens": 797,
       "cache_read_input_tokens": 41444
     },
@@ -57,7 +57,7 @@
     },
     "usd": {
       "author": 0.8632,
-      "llm_judge": 0.3074,
+      "llm_judge": 0.3752,
       "jev": 0.0042,
       "extraction": 0.0254,
       "tts": null
@@ -70,6 +70,12 @@
       "workflow_run": "44795940162",
       "previous_finished_at": "2026-11-20T17:36:15Z",
       "previous_failure": "STT verification: section 0 still changes the statement after 2 resyntheses: 'Ding' heard as 'dem' (Das Wort „Ding“ fehlt, stattdessen steht „dem“. Das Bezugswort der Frage geht verloren, der Inhalt ändert sich.)"
+    },
+    {
+      "started_at": "2026-11-20T19:53:18Z",
+      "workflow_run": "44806198193",
+      "previous_finished_at": "2026-11-20T18:56:40Z",
+      "previous_failure": "STT verification: section 0 still changes the statement after 2 resyntheses: 'Andikythira' heard as 'Antikytheros' („Andikythira“ wurde als „Antikytheros“ wiedergegeben. Der alternative Inselname klingt deutlich anders, besonders die Endung, also ein anderer Name.)"
     }
   ]
 }
