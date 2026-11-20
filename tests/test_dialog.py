@@ -3,6 +3,7 @@ import pytest
 from gut_zu_wissen.dialog import (
     CONTINUE_PROMPT,
     DIALOG_SCHEMA,
+    EXCLUDED_FACT,
     SYSTEM_PROMPT,
     TURN_PROMPT,
     TURN_SCHEMA,
@@ -13,6 +14,7 @@ from gut_zu_wissen.dialog import (
     continue_dialog,
     format_offer,
     format_prefix,
+    format_rejections,
     format_turn_context,
     offer_aliases,
     parse_dialog,
@@ -450,3 +452,54 @@ def test_continue_prompt_is_german_and_asks_for_a_seamless_continuation():
         "endet mit der einen Zusammenfassung",
     ):
         assert phrase in CONTINUE_PROMPT.format(min_used=10)
+
+
+def test_author_reason_against_an_earlier_offer_marks_excluded_facts():
+    # the continuation's offer lacks 1-0001 (excluded by D6), its aliases are rebuilt
+    aliases = {"F1": "1-0000", "F2": "2-0000"}
+    old = turn(0, ids=["1-0001"])
+    reason = "Fakt 1-0001 trägt das nicht, 1-0000 schon."
+    assert author_reason(old, reason, aliases, OFFER) == (
+        f"Fakt {EXCLUDED_FACT} trägt das nicht, F1 schon."
+    )
+
+
+def test_author_reason_against_an_earlier_offer_keeps_the_unknown_id_problem_german():
+    aliases = {"F1": "1-0000", "F2": "2-0000"}
+    old = turn(0, ids=["1-0001", "9-9999"])
+    archived = " ".join(p.reason for p in check_turns([old], OFFER))
+    out = author_reason(old, archived, aliases, OFFER)
+    assert out.startswith("Die Kennung 9-9999 gibt es im Angebot nicht.")
+    assert "(F1–F2)" in out and "Unknown" not in out
+
+
+def test_rejections_name_the_last_turn_list_earlier_ones_and_ask_to_avoid_them():
+    assert format_rejections([]) == ""
+    assert format_rejections([(2, "Zahl falsch.")]).split("\n") == [
+        "Grund, warum der bisherige Redebeitrag 2 verworfen wurde:",
+        "Zahl falsch.",
+        "",
+        "Vermeide diesen Fehler in der Fortsetzung.",
+    ]
+    out = format_rejections([(2, "Erst."), (2, "Erst."), (3, "Dann."), (3, "Dann.")])
+    assert out.split("\n") == [
+        "Grund, warum der bisherige Redebeitrag 3 verworfen wurde:",
+        "Dann.",
+        "",
+        "Davor in derselben Kette verworfen:",
+        "- Redebeitrag 2: Erst.",
+        "",
+        "Vermeide diese Fehler in der Fortsetzung.",
+    ]
+
+
+def test_continue_dialog_gives_the_author_the_rejection_reason_after_the_prefix():
+    llm = FakeLlm({"turns": []})
+    continue_dialog(llm, "[F1] Fakt.", ALIASES, PREFIX, 10, [(3, "Der Fakt F2 fehlt.")])
+    _, user, _ = llm.calls[0]
+    assert user.endswith(
+        "Grund, warum der bisherige Redebeitrag 3 verworfen wurde:\nDer Fakt F2 fehlt.\n\n"
+        "Vermeide diesen Fehler in der Fortsetzung."
+    )
+    continue_dialog(llm, "[F1] Fakt.", ALIASES, PREFIX, 10)
+    assert "verworfen" not in llm.calls[1][1]

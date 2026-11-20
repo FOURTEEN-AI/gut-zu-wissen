@@ -408,17 +408,34 @@ def used_fact_ids(turns: Sequence[Turn], offered_ids: Collection[str]) -> list[s
     return used
 
 
-def author_reason(turn: Turn, reason: str | None, aliases: Mapping[str, str]) -> str | None:
+EXCLUDED_FACT = "[nicht mehr im Angebot]"
+
+
+def author_reason(
+    turn: Turn,
+    reason: str | None,
+    aliases: Mapping[str, str],
+    offered_ids: Collection[str] | None = None,
+) -> str | None:
     """The reason for a regeneration as the author sees it: the unknown-ID problem in German and
-    actionable, offered segment IDs as aliases. `reason` is the archived one."""
+    actionable, offered segment IDs as aliases. `reason` is the archived one.
+
+    `offered_ids` is the offer the rejected turn was judged against when it differs from the one
+    of `aliases` (a continuation, D6): the unknown-ID problem is matched against it, and its
+    segment IDs without an alias (excluded since) become `EXCLUDED_FACT`."""
     if reason is None:
         return None
-    unknown = unknown_fact_ids(turn, aliases.values())
+    offered = aliases.values() if offered_ids is None else offered_ids
+    unknown = unknown_fact_ids(turn, offered)
     if unknown:
         reason = reason.replace(
             unknown_ids_reason(unknown), unknown_alias_problem(unknown, aliases)
         )
-    return replace_segment_ids(reason, aliases)
+    reason = replace_segment_ids(reason, aliases)
+    gone = set(offered) - set(aliases.values())
+    for sid in sorted(gone, key=lambda s: (-len(s), s)):
+        reason = reason.replace(sid, EXCLUDED_FACT)
+    return reason
 
 
 def used_facts_gate(used: int, minimum: int) -> str | None:
@@ -555,20 +572,45 @@ def format_prefix(
     return "\n".join(lines)
 
 
+def format_rejections(rejections: Sequence[tuple[int, str]]) -> str:
+    """Why the failed chain was discarded, for the author of the continuation (user decision
+    2026-11-20): the last rejection (the one that used up the budget) with its turn, the earlier
+    rejections of the chain briefly below it (repeats left out), and the instruction to avoid
+    them. Each entry is
+    (turn index, reason in the author's form, `author_reason`); empty without rejections."""
+    if not rejections:
+        return ""
+    index, reason = rejections[-1]
+    lines = [f"Grund, warum der bisherige Redebeitrag {index} verworfen wurde:", reason]
+    earlier = [r for r in dict.fromkeys(rejections[:-1]) if r != rejections[-1]]
+    if earlier:
+        lines += [
+            "",
+            "Davor in derselben Kette verworfen:",
+            *(f"- Redebeitrag {i}: {r}" for i, r in earlier),
+        ]
+    lines += ["", f"Vermeide {'diese Fehler' if earlier else 'diesen Fehler'} in der Fortsetzung."]
+    return "\n".join(lines)
+
+
 def continue_dialog(
     llm: StructuredLlm,
     offer: str,
     aliases: Mapping[str, str],
     prefix: Sequence[Turn],
     min_used_facts: int,
+    rejections: Sequence[tuple[int, str]] = (),
 ) -> list[Turn]:
     """The continuation of a dialog after its kept `prefix` (turns 0..k-1, user decision
     2026-11-20): the author writes the turns from k to the end, the closing summary included,
-    seeing the prefix and the facts already told. Same schema as the whole dialog; the returned
+    seeing the prefix, the facts already told and why the failed chain was discarded
+    (`rejections`, see `format_rejections`). Same schema as the whole dialog; the returned
     turns are re-indexed from k and hold segment IDs. `offer` is the text of `format_offer`,
     `aliases` the offer's aliases. Gates are the orchestrator's concern."""
     assert prefix, "a continuation needs at least one kept turn"
     user = f"Angebot:\n{offer}\n\n{format_prefix(prefix, aliases, aliases.values())}"
+    if rejections:
+        user += f"\n\n{format_rejections(rejections)}"
     answer = llm.complete_json(CONTINUE_PROMPT.format(min_used=min_used_facts), user, DIALOG_SCHEMA)
     turns = resolve_turns(parse_dialog(answer), aliases)
     for n, turn in enumerate(turns):

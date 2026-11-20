@@ -24,11 +24,14 @@ rejected statements are excluded, cumulatively (pinned facts, the first prose se
 intro as Einordnung #1, never). An exhausted turn budget keeps turns 0..k-1 with their judgements,
 k being the turn that started the failing chain, and the author continues the dialog from turn k
 to the end on the same offer without the excluded facts (no re-ranking; facts cited by the kept
-turns stay). Only the new turns are judged; the repetition gate and the D5 gates look at the
+turns stay). The author receives the reason of the chain's last rejection (the one that used up
+the budget) and, briefly, the earlier ones, in its own form (aliases, German gate texts). Only
+the new turns are judged; the repetition gate and the D5 gates look at the
 whole dialog. A fresh conversation (both rankings rerun, a new dialog) is written instead when
 k is 0, when the remaining offer cannot reach `min_used_facts`, or after fewer than
 `min_used_facts` used facts after the author (D5). The discarded part (the tail k..end, or the
-whole dialog) is archived with the path taken. Everything else ends in `GateFailure`, the
+whole dialog) is archived with the path taken and, for a continuation, the archived reason it
+was given. Everything else ends in `GateFailure`, the
 escalation to the owner.
 
 Every judgement is archived (user decision 2026-11-19): the final ones in `judgements`, those of
@@ -49,6 +52,7 @@ from gut_zu_wissen.dialog import (
     Dialog,
     Turn,
     TurnProblem,
+    author_reason,
     check_turns,
     cited,
     continue_dialog,
@@ -182,6 +186,9 @@ class DiscardedConversation:
     regeneration: str = FRESH
     continued_from: int | None = None
     fresh_reason: str | None = None
+    # continuation: the archived reason of the last rejection of the failed chain (the one that
+    # used up the budget), given to the author in its form (user decision 2026-11-20)
+    continuation_reason: str | None = None
 
 
 @dataclass
@@ -390,11 +397,33 @@ def discarded_tail(dialog: Dialog, start: int, offered_ids: Collection[str]) -> 
 
 
 @dataclass
+class Rejection:
+    """A rejection inside a chain: the rejected turn version and its archived reason."""
+
+    turn: Turn
+    reason: str
+
+
+@dataclass
 class RepairResult:
     exhausted: bool
     rejected_fact_ids: list[str]
     start: int | None = None  # exhausted: the turn that started the failing chain (k)
     budget: str | None = None  # exhausted: the budget type that was used up
+    # exhausted: the rejections of the failing chain in order; the last one used up the budget
+    rejections: list[Rejection] = field(default_factory=list)
+
+
+def continuation_rejections(
+    rejections: Sequence[Rejection], offered_ids: Collection[str], aliases: Mapping[str, str]
+) -> list[tuple[int, str]]:
+    """The rejections of the failed chain as the author of the continuation sees them (user
+    decision 2026-11-20): turn index and reason in the author's form for the continuation's
+    offer (`aliases`); `offered_ids` is the offer the turns were judged against."""
+    return [
+        (r.turn.index, author_reason(r.turn, r.reason, aliases, offered_ids) or "")
+        for r in rejections
+    ]
 
 
 def turn_gate_problems(
@@ -540,6 +569,7 @@ def repair_turns(
         if judgements[start].accepted:  # also true when an earlier cascade fixed it
             continue
         note(turns[start], judgements[start])
+        chain = [Rejection(turns[start], judgements[start].reason or "")]
         budget = chain_start(budget_type(judgements[start]), turn_retries, gate_retries)
         pos, kind, reason = start, "retry", judgements[start].reason
         baseline = turns[start]
@@ -547,7 +577,7 @@ def repair_turns(
             charged = budget.charge
             remaining = spend(budget)
             if remaining is None:
-                return RepairResult(True, rejected, start, charged)
+                return RepairResult(True, rejected, start, charged, chain)
             budget = remaining
             old = turns[pos]
             new = regenerate_turn(author, offer_text, aliases, turns, pos, reason)
@@ -567,6 +597,7 @@ def repair_turns(
                 judgements[later.turn_index] = later
             if not judgement.accepted:
                 note(new, judgement)
+                chain.append(Rejection(new, judgement.reason or ""))
                 reason = judgement.reason
                 budget = after_rejection(budget, budget_type(judgement))
                 continue
@@ -609,13 +640,16 @@ def orchestrate(
     last_reason = ""
     prefix: list[Turn] = []  # kept turns of a continuation, with their judgements
     prefix_judgements: list[TurnJudgement] = []
+    reasons: list[tuple[int, str]] = []  # the failed chain, for the continuation's author
     try:
         for conversation in range(1, quotas["conversation_retries"] + 2):
             state.conversation = conversation
             if prefix:
                 offer = state.offer
                 assert offer is not None
-                new = continue_dialog(author, offer.text(), offer.aliases(), prefix, minimum)
+                new = continue_dialog(
+                    author, offer.text(), offer.aliases(), prefix, minimum, reasons
+                )
                 turns = [*prefix, *new]
                 offered = offer.by_id().keys()
                 dialog = Dialog(
@@ -634,6 +668,7 @@ def orchestrate(
             failed_chain: int | None = None
             judgements: list[TurnJudgement] = []
             rejected: list[str] = []
+            chain: list[Rejection] = []
             if not failure:
                 judgements = [
                     *prefix_judgements,
@@ -666,6 +701,7 @@ def orchestrate(
                         result.budget, quotas["turn_retries"], quotas["gate_retries"]
                     )
                     failed_chain = result.start
+                    chain = result.rejections
             if failure:
                 excluded.update(i for i in rejected if i not in offer.pinned)
                 last_reason = failure
@@ -676,6 +712,7 @@ def orchestrate(
                         failed_chain, len(next_offer.by_id()), minimum
                     )
                     cut = k if path == CONTINUATION else 0
+                    last = chain[-1].reason if path == CONTINUATION and chain else None
                     state.discarded.append(
                         DiscardedConversation(
                             conversation,
@@ -687,13 +724,17 @@ def orchestrate(
                             path,
                             cut if path == CONTINUATION else None,
                             fresh_reason,
+                            last,
                         )
                     )
                     if path == CONTINUATION:
                         state.offer = next_offer
                         prefix, prefix_judgements = dialog.turns[:k], judgements[:k]
+                        reasons = continuation_rejections(
+                            chain, offer.by_id().keys(), next_offer.aliases()
+                        )
                     else:
-                        prefix, prefix_judgements = [], []
+                        prefix, prefix_judgements, reasons = [], [], []
                     continue
                 break
             dialog.problems = []

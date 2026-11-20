@@ -18,6 +18,7 @@ from gut_zu_wissen.orchestrator import (
     GateFailure,
     Offer,
     Orchestration,
+    Rejection,
     after_rejection,
     budget_type,
     cascade_decision,
@@ -27,6 +28,7 @@ from gut_zu_wissen.orchestrator import (
     chain_start,
     check_cascade,
     continuation_offer,
+    continuation_rejections,
     conversation_path,
     discarded_tail,
     format_cascade_input,
@@ -766,12 +768,14 @@ def test_discarded_conversation_keeps_the_aliases_of_its_own_offer():
     (discarded,) = state.discarded
     assert discarded.excluded_fact_ids == ["1-0000"]
     assert asdict(discarded)["aliases"] == {"F1": "1-0000", "F2": "1-0001"}
-    assert list(asdict(discarded))[-4:] == [
+    assert list(asdict(discarded))[-5:] == [
         "aliases",
         "regeneration",
         "continued_from",
         "fresh_reason",
+        "continuation_reason",
     ]
+    assert discarded.continuation_reason is None
     assert (discarded.regeneration, discarded.continued_from) == ("fresh", None)
     assert discarded.fresh_reason == "The failing turn chain started at turn 0."
     assert state.dialog_dict()["aliases"] == {"F1": "1-0001"}
@@ -1069,3 +1073,46 @@ def test_pinned_einordnung_fact_is_never_excluded():
     orchestrate(state, make, author, FakeJudgeLlm(), FakeJev(bad={"Falsch."}), CONFIG)
     assert offers == [frozenset(), frozenset()]
     assert state.discarded[0].excluded_fact_ids == []
+
+
+class ReasonJudgeLlm(FakeJudgeLlm):
+    """Rejects with a reason that names segment IDs, as a judge's reason can."""
+
+    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+        answer = super().complete_json(system, user, schema)
+        if schema is not CASCADE_VERDICT_SCHEMA:
+            answer["reason"] = "1-0002 sagt das nicht; 1-0001 schon."
+        return answer
+
+
+def test_continuation_author_gets_the_rejection_reason_with_aliases():
+    author = failing_at_two()
+    state = run(author, CountingJev(bad={"Falsch."}), n_facts=5, judge_llm=ReasonJudgeLlm())
+    user = author.calls[-1]
+    assert (
+        "Grund, warum der bisherige Redebeitrag 2 verworfen wurde:\n"
+        "[nicht mehr im Angebot] sagt das nicht; F2 schon." in user
+    )
+    # the same reason three times: shown once
+    assert "Davor" not in user and "Vermeide diesen Fehler in der Fortsetzung." in user
+    assert "1-000" not in user
+    (discarded,) = state.discarded
+    assert discarded.continuation_reason == "1-0002 sagt das nicht; 1-0001 schon."
+    assert list(asdict(discarded))[-1] == "continuation_reason"
+
+
+def test_continuation_rejections_are_in_the_author_form_for_the_new_offer():
+    offered = {"1-0000", "1-0001", "1-0002"}
+    aliases = {"F1": "1-0000", "F2": "1-0001"}  # 1-0002 excluded
+    unknown = Turn(3, "Lena", "T", ["9-9999"])
+    chain = [
+        Rejection(Turn(2, "Lena", "T", ["1-0000"]), repetition_reason("1-0000", [0, 1])),
+        Rejection(
+            unknown,
+            "Unknown fact IDs: 9-9999 (cited by the author; no offered fact has this identifier).",
+        ),
+    ]
+    (first, second) = continuation_rejections(chain, offered, aliases)
+    assert first == (2, repetition_reason("F1", [0, 1]))
+    assert second[0] == 3
+    assert second[1].startswith("Die Kennung 9-9999 gibt es im Angebot nicht.")

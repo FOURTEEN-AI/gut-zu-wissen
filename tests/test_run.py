@@ -632,7 +632,13 @@ def test_exhausted_turn_budget_continues_the_dialog_and_resume_loads_it(tmp_path
         (2, "Gut."),
     ]
     (discarded,) = dialog["discarded_conversations"]
-    assert list(discarded)[-3:] == ["regeneration", "continued_from", "fresh_reason"]
+    assert list(discarded)[-4:] == [
+        "regeneration",
+        "continued_from",
+        "fresh_reason",
+        "continuation_reason",
+    ]
+    assert discarded["continuation_reason"] == discarded["judgements"][0]["reason"]
     assert (discarded["regeneration"], discarded["continued_from"]) == ("continuation", 1)
     assert [t["index"] for t in discarded["dialog"]["turns"]] == [1]
     assert [j["turn_index"] for j in discarded["judgements"]] == [1]
