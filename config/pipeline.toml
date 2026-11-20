@@ -159,3 +159,21 @@ backoff_seconds = 2.0               # doubled per attempt
 timeout_seconds = 600               # one upload request (about 15 MB of audio)
 ready_timeout_seconds = 900         # the files must show up in the item's file list
 ready_poll_seconds = 15
+
+[site]
+# Static GitHub Pages site and RSS feed (phase 2). ASSUMPTION (docs/phase2-assumptions.md): the
+# site lives at the repository's default Pages address; change base_url when a custom domain is set.
+base_url = "https://fourteen-ai.github.io/gut-zu-wissen"
+title = "Gut zu wissen"
+description = "In jeder Folge nehmen sich Lena und Felix, zwei KI-Stimmen, einen Artikel der deutschsprachigen Wikipedia vor und erzählen die überraschendsten Fakten daraus. Jede Aussage wird gegen den Artikel geprüft."
+language = "de"
+author = "FOURTEEN IT UG (haftungsbeschränkt)"
+owner_email = "gut-zu-wissen@fourteen-it.de"   # D7; Spotify's verification mail goes here
+category = "Education"                          # D7
+feed_explicit = false                           # D7: per episode from the explicit check
+copyright = "CC BY-SA 4.0"
+feedback_address = "gut-zu-wissen@fourteen-it.de"
+show_art_source = "assets/cover/show-art.png"
+show_art_file = "show-art.png"
+wikipedia_index = "https://de.wikipedia.org/w/index.php"
+episode_description = "Eine Folge über den Wikipedia-Artikel „{title}“. Mit KI erstellt, KI kann Fehler machen. Quellen, Versionen und Autorinnen und Autoren: {page_url} (Lizenz CC BY-SA 4.0)."
