@@ -175,5 +175,6 @@ copyright = "CC BY-SA 4.0"
 feedback_address = "gut-zu-wissen@fourteen-it.de"
 show_art_source = "assets/cover/show-art.png"
 show_art_file = "show-art.png"
+cover_size_px = 3000                            # episode covers on the site (D7: 1400-3000 px)
 wikipedia_index = "https://de.wikipedia.org/w/index.php"
 episode_description = "Eine Folge über den Wikipedia-Artikel „{title}“. Mit KI erstellt, KI kann Fehler machen. Quellen, Versionen und Autorinnen und Autoren: {page_url} (Lizenz CC BY-SA 4.0)."

@@ -102,9 +102,9 @@ def test_every_page_links_impressum_and_datenschutz(built):
 def test_pages_load_nothing_from_elsewhere(built):
     for page in built.rglob("*.html"):
         for tag, attrs in tags_of(page):
-            assert tag not in ("script", "iframe", "img", "video", "source", "embed", "object"), (
-                page
-            )
+            assert tag not in ("script", "iframe", "video", "source", "embed", "object"), page
+            if tag == "img":  # only the site's own files
+                assert not attrs["src"].startswith(("http:", "https:", "//")), page
             if tag == "link":
                 assert attrs.get("rel") == "alternate", page  # no stylesheet, font or preload
             if tag == "audio":
@@ -149,6 +149,19 @@ def test_feed_is_part_of_the_site_and_points_at_the_hosted_audio(built):
     assert channel.find("item/guid").text == "2026-11-20_helgoland"
     assert channel.find("item/link").text.endswith("/episodes/2026-11-20_helgoland.html")
     assert (built / "show-art.png").read_bytes()[:4] == b"\x89PNG"
+    image = channel.find("item/{http://www.itunes.com/dtds/podcast-1.0.dtd}image").get("href")
+    assert image.startswith(CONFIG["base_url"]) and image.endswith(
+        "/covers/2026-11-20_helgoland.png"
+    )
+
+
+def test_cover_is_rendered_into_the_site_at_the_configured_size(built):
+    from PIL import Image
+
+    cover = built / "covers" / "2026-11-20_helgoland.png"
+    assert Image.open(cover).size == (CONFIG["cover_size_px"],) * 2
+    page = (built / "episodes" / "2026-11-20_helgoland.html").read_text("utf-8")
+    assert 'src="../covers/2026-11-20_helgoland.png"' in page
 
 
 def test_explainer_no_longer_says_episodes_are_unpublished():

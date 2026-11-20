@@ -3,7 +3,7 @@
 Built from the archive (published episodes), `site/*.md` (legal pages) and
 `site/so-funktionierts.html` (copied as is). Requirements from the data protection statement:
 no cookies, no tracking, no external resources (no scripts, fonts, images or stylesheets from
-elsewhere; the cover is not shown on the pages, it would load from the Internet Archive), the
+elsewhere; the cover is rendered from the title at build time and served from the site), the
 audio player loads only on play (`preload="none"`), Impressum and Datenschutz linked on every
 page. Everything is a pure function of the archive and the config, except `build_site`, which
 writes the files.
@@ -28,6 +28,7 @@ from gut_zu_wissen.archive import (
     parse_timestamp,
     read_json,
 )
+from gut_zu_wissen.cover import render_png
 from gut_zu_wissen.feed import FeedEpisode, build_feed
 from gut_zu_wissen.shownotes import (
     Source,
@@ -61,6 +62,7 @@ li { margin-bottom: 0.4rem; }
 a { color: var(--accent); text-underline-offset: 0.15em; }
 a:focus-visible, audio:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
 audio { width: 100%; margin: 0.5rem 0 1rem; }
+img { max-width: 100%; height: auto; border-radius: 0.3rem; }
 .meta { color: var(--muted); }
 .box { background: var(--card); border-left: 6px solid var(--accent); padding: 1rem 1.1rem;
   margin: 1.5rem 0; border-radius: 0.3rem; }
@@ -140,6 +142,12 @@ def episode_page_name(episode: PublishedEpisode) -> str:
     return f"episodes/{episode.record.episode_id}.html"
 
 
+def cover_name(episode: PublishedEpisode) -> str:
+    """The cover is rendered at build time and served from the site itself (not from the
+    Internet Archive): no external resource on the page, and a direct, stable feed image URL."""
+    return f"covers/{episode.record.episode_id}.png"
+
+
 def render_episode(episode: PublishedEpisode, config: dict) -> str:
     record, audio = episode.record, episode.publication["audio"]
     index = config["wikipedia_index"]
@@ -156,6 +164,7 @@ def render_episode(episode: PublishedEpisode, config: dict) -> str:
     mailto = feedback_mailto(config["feedback_address"], record.title, record.episode_id)
     body = f"""<h1>{html.escape(record.title)}</h1>
 <p class="meta">Folge vom {german_date(episode.published_at)}</p>
+<img src="../{cover_name(episode)}" alt="Cover der Folge „{html.escape(record.title)}“" width="400" height="400">
 <audio controls preload="none" src="{html.escape(audio["url"])}">Ihr Browser kann die Audiodatei nicht abspielen. <a href="{html.escape(audio["url"])}">Folge herunterladen</a>.</audio>
 {explicit}<p>Diese Folge ist mit KI entstanden, von der Auswahl der Fakten über das Gespräch bis zu den Stimmen. KI kann Fehler machen, und die Wikipedia-Inhalte selbst sind nicht unabhängig geprüft. <a href="../so-funktionierts.html">So entsteht eine Folge.</a></p>
 <h2>Quellen</h2>
@@ -208,7 +217,7 @@ def feed_episodes(episodes: list[PublishedEpisode], config: dict) -> list[FeedEp
                 audio_bytes=publication["audio"]["bytes"],
                 audio_mime=publication["audio"]["mime"],
                 seconds=publication["seconds"],
-                cover_url=publication["cover"]["url"],
+                cover_url=f"{base}/{cover_name(e)}",
                 published_at=e.published_at,
                 explicit=bool(e.record.explicit),
             )
@@ -246,6 +255,7 @@ def build_site(archive_root: Path, repo_root: Path, out_dir: Path, config: dict)
     }
     for e in episodes:
         files[episode_page_name(e)] = render_episode(e, config)
+        files[cover_name(e)] = render_png(e.record.title, config["cover_size_px"])
     written = []
     for name, content in files.items():
         path = out_dir / name

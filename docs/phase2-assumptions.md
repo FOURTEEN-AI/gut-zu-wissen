@@ -29,7 +29,7 @@ Mit einer 3-Sekunden-Testdatei, Item `gut-zu-wissen-test_2026-11-20_helgoland` i
 
 - **Adresse:** `https://fourteen-ai.github.io/gut-zu-wissen` (aus der User-Agent-Zeichenkette in `github.py` abgeleitet). Bei eigener Domain `[site] base_url` in der Config ändern; die Feed-URL ändert sich dann, und Spotify müsste neu eingereicht werden.
 - **Folgentitel im Feed und auf der Seite:** der Artikeltitel (kein „Gut zu wissen:“-Präfix). Im MP3 und im Archive-Item steht dagegen „Gut zu wissen: <Titel>“.
-- **Cover wird auf den Seiten nicht angezeigt**, weil es sonst vom Internet Archive geladen würde (Datenschutz: keine externen Ressourcen). Es steht nur im Feed (`itunes:image` pro Folge). Das Show-Art liegt lokal auf der Site, wird aber noch auf keiner Seite angezeigt.
+- **Cover:** Der Site-Build rendert es pro Folge aus Titel, Template und gebündelter Schrift (`covers/<Folgen-ID>.png`, 3000 px) und liefert es von Pages selbst aus. Es steht auf der Folgenseite und ist die `itunes:image` der Folge (direkte, stabile URL statt der weiterleitenden Archive-URL). Das Archive-Item bekommt es zusätzlich. Folge: Ändert sich das Template, ändern sich auch die alten Cover.
 - **Feed-Beschreibung:** Klartext mit Link auf die Folgenseite, dort Quellen, Revisions-Permalinks und Versionsgeschichte. Die Quellen stehen nicht im Feed selbst.
 - **Quellen der Folge:** Hauptartikel plus jeder verlinkte Artikel, aus dem mindestens ein verwendeter Fakt stammt (Revisions-ID im Fakt-ID-Präfix). Ein unbekannter Revisions-ID ist ein Fehler, keine stille Auslassung.
 - **Keine Folgen- oder Staffelnummern** im Feed (`itunes:episodeType` = full).
