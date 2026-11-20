@@ -34,6 +34,7 @@ from gut_zu_wissen.dialog import (
     Turn,
     check_turns,
     format_offer,
+    offer_aliases,
     regenerate_turn,
     used_facts_gate,
     write_dialog,
@@ -321,6 +322,7 @@ def repair_turns(
     offer = state.offer
     assert offer is not None
     offer_text = format_offer(offer.main, offer.linked)
+    aliases = offer_aliases(offer.main, offer.linked)  # rebuilt for every offer
     rejected: list[str] = []
 
     def note(turn: Turn, judgement: TurnJudgement) -> None:
@@ -338,7 +340,7 @@ def repair_turns(
                 return RepairResult(True, rejected)
             budget -= 1
             old = turns[pos]
-            new = regenerate_turn(author, offer_text, turns, pos, reason)
+            new = regenerate_turn(author, offer_text, aliases, turns, pos, reason)
             version = turn_version(state.regenerations, state.conversation, pos)
             state.superseded.append(
                 SupersededJudgement(

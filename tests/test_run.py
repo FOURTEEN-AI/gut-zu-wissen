@@ -394,6 +394,22 @@ def test_dialog_is_archived_with_used_facts(tmp_path):
     assert dialog["used_fact_ids"] == ["5-0000"]
 
 
+def test_author_answers_with_aliases_and_the_archive_holds_only_segment_ids(tmp_path):
+    api = FakeApi("Rotfuchs", [], text="Erster Satz im Artikel.\n\nZweiter Satz im Artikel.")
+    llm = FakeLlm()
+    episode_id = run(api, llm, tmp_path, CONFIG, "Rotfuchs", NOW)
+    (author_input,) = [c for c in llm.calls if c.startswith("[F1]")]
+    assert "[F2]" in author_input and "5-000" not in author_input
+    folder = tmp_path / "episodes" / episode_id
+    dialog = json.loads((folder / "05_dialog.json").read_text())
+    assert [t["fact_ids"] for t in dialog["turns"]] == [["5-0001", "5-0000"]] * 2
+    assert dialog["used_fact_ids"] == ["5-0001", "5-0000"]
+    judgement = json.loads((folder / "06_judgement.json").read_text())
+    assert judgement["used_fact_ids"] == ["5-0001", "5-0000"]
+    for name in ("05_dialog.json", "06_judgement.json"):
+        assert not re.search(r'"F\d+"', (folder / name).read_text())
+
+
 def test_unknown_fact_id_in_dialog_fails_the_run(tmp_path):
     llm = FakeLlm(felix={"fact_ids": ["9-9999"]})
     # The fake author cannot repair the turn, so every conversation fails the same way.

@@ -4,14 +4,23 @@ One model call writes the whole dialog between Lena and Felix from the offered f
 and context only). Every turn carries its fact IDs and lists each claim and each question premise
 as an explicit statement with fact IDs; reactions have none (docs/persona.md). The deterministic
 parts are pure functions: parsing the answer, the fact-ID gate and the minimum-content gate (D5).
+The author sees short aliases instead of segment IDs (`aliases`); its answer is mapped back right
+after parsing, so turns, gates and the archive only hold segment IDs.
 Turn and conversation regeneration belong to the orchestrator (step 8).
 """
 
 from __future__ import annotations
 
-from collections.abc import Collection, Sequence
+from collections.abc import Collection, Mapping, Sequence
 from dataclasses import asdict, dataclass, field
 
+from gut_zu_wissen.aliases import (
+    build_aliases,
+    replace_segment_ids,
+    resolve,
+    to_aliases,
+    unknown_alias_problem,
+)
 from gut_zu_wissen.llm import StructuredLlm
 from gut_zu_wissen.ranking import RankedFact
 
@@ -50,32 +59,32 @@ DIALOG_SCHEMA = {
 RULES = """\
 Regeln:
 - Lena weiß nur, was in den verwendeten Fakten steht. Kein Wissen von außerhalb.
-- Jede Behauptung, jede Meinung und jede Prämisse einer Frage braucht Fakt-IDs. Gib sie als \
-eigene Einträge in „statements“ an, jeweils mit dem Satz in eigenen Worten und den IDs der \
+- Jede Behauptung, jede Meinung und jede Prämisse einer Frage braucht Kennungen. Gib sie als \
+eigene Einträge in „statements“ an, jeweils mit dem Satz in eigenen Worten und den Kennungen der \
 Fakten, die ihn tragen. Eine Aussage, die nur im Kontext steht, ist nicht belegt.
 - Sage nur, was der zitierte Fakt-Satz selbst sagt. Kontextsätze dienen nur dem Verständnis; \
 was nur im Kontext steht, sprichst du nie aus.
-- „fact_ids“ eines Redebeitrags enthält alle Fakt-IDs, die in ihm vorkommen.
-- Erfinde keine IDs. Verwende nur IDs aus der Liste.
+- „fact_ids“ eines Redebeitrags enthält alle Kennungen, die in ihm vorkommen.
+- Erfinde keine Kennungen. Verwende nur Kennungen aus der Liste, ohne Klammern, etwa „F7“.
 - Beide Personen machen keine Aussagen über sich selbst: keine Erlebnisse, keine Biografie, \
 kein Beruf, kein Wohnort, keine Vorlieben, kein „Das kenne ich“.
-- Reaktionen brauchen keine Fakt-IDs und keine Statements. Erlaubt sind: Gefühl im Moment \
+- Reaktionen brauchen keine Kennungen und keine Statements. Erlaubt sind: Gefühl im Moment \
 (Staunen, Neugier, Belustigung), Nachfrage, Bitte um Erklärung, Überleitung, Wiederaufgreifen des \
 eben Gesagten ohne neue Information. Nicht erlaubt sind: neue Information, Wertungen mit \
 Faktengehalt („das größte …“), Ankündigungen mit Inhalt, Aussagen über sich selbst über den \
 Moment hinaus. Variiere die Reaktionen.
-- Eine Reaktion ohne Fakt-IDs wiederholt keine Zahlen, Namen oder Fakten; wer das tut, fasst \
-zusammen und braucht Fakt-IDs. Abgelehnt wird etwa Felix: „Vier Monate Suche und kein einziger \
-Fund.“ ohne Fakt-IDs.
+- Eine Reaktion ohne Kennungen wiederholt keine Zahlen, Namen oder Fakten; wer das tut, fasst \
+zusammen und braucht Kennungen. Abgelehnt wird etwa Felix: „Vier Monate Suche und kein einziger \
+Fund.“ ohne Kennungen.
 - Kurze Wertungen, die etwas über die Sache behaupten, etwa „Das ist ein richtiger Coup“ oder \
-„Das ist doch ein Widerspruch!“, sind keine Reaktion: Sie stehen nur mit Statement und Fakt-IDs, \
+„Das ist doch ein Widerspruch!“, sind keine Reaktion: Sie stehen nur mit Statement und Kennungen, \
 die sie tragen, sonst lässt du sie weg. Frei bleiben reine Gefühlsausrufe wie „Wow!“ oder „Das \
 überrascht mich“. Auch „Das habe ich mir gemerkt“ entfällt (Aussage über sich selbst).
 - Felix stellt Fragen aus Hörersicht, fasst Gehörtes in eigenen Worten zusammen (dann mit \
-Statements und Fakt-IDs) und leitet zum nächsten Fakt über. Prämissen in seinen Fragen müssen \
+Statements und Kennungen) und leitet zum nächsten Fakt über. Prämissen in seinen Fragen müssen \
 belegt sein.
 - Jede Frage, deren Prämisse sich auf zuvor Gesagtes bezieht, etwa „Wofür stand der Axolotl in \
-diesem Film?“, trägt die Fakt-IDs der Fakten hinter dieser Prämisse.
+diesem Film?“, trägt die Kennungen der Fakten hinter dieser Prämisse.
 - Lena erzählt kurze bis mittellange Sätze, erst die Kernaussage, dann das Detail. Zahlen \
 schreibst du aus, wie sie gesprochen werden. Fachbegriffe nur mit Erklärung aus den Fakten.
 - Lena verallgemeinert nicht über den Fakt-Satz hinaus. Abgelehnt werden etwa „Es gibt keine \
@@ -84,7 +93,7 @@ Zellen, die einfach alles werden“ und „Auf diese Eigenschaft wurde mit dem N
 Quellenangaben, keine Regieanweisungen.
 - Am Ende fasst genau eine der beiden Personen das Gespräch einmal kurz zusammen. Keine zweite \
 Zusammenfassung, kein abwechselndes Zusammenfassen. Auch die Zusammenfassung braucht Statements \
-und Fakt-IDs.
+und Kennungen.
 - Ein Redebeitrag reicht bis zum Sprecherwechsel. Die beiden sprechen abwechselnd, aber nicht \
 starr; kurze Reaktionen sind eigene Redebeiträge."""
 
@@ -96,11 +105,12 @@ sprechen sich mit Vornamen an. Das Gespräch dauert etwa 15 Minuten, das sind 2.
 Wörter. Die Begrüßung und der Abspann sind fester Text außerhalb deines Auftrags: beginne direkt \
 beim Thema und schreibe keinen Abschied.
 
-Du bekommst Fakten aus Wikipedia, jeweils mit einer ID in eckigen Klammern und gegebenenfalls \
-einem Kontext. Der Kontext dient nur zum Verstehen (Pronomen, Ortsangaben), nie als Beleg. \
-Fakten mit dem Vermerk „(verlinkter Artikel: …)“ stammen aus der Einleitung eines verlinkten \
-Artikels. Du wählst aus dem Angebot, was du brauchst, und entwirfst einen Erzählbogen; du musst \
-nicht alle Fakten verwenden, aber mindestens {min_used}. Bevorzuge die überraschendsten.
+Du bekommst Fakten aus Wikipedia, jeweils mit einer Kennung in eckigen Klammern, etwa [F7], \
+und gegebenenfalls einem Kontext. Der Kontext dient nur zum Verstehen (Pronomen, Ortsangaben), \
+nie als Beleg. Fakten mit dem Vermerk „(verlinkter Artikel: …)“ stammen aus der Einleitung \
+eines verlinkten Artikels. Du wählst aus dem Angebot, was du brauchst, und entwirfst einen \
+Erzählbogen; du musst nicht alle Fakten verwenden, aber mindestens {min_used}. Bevorzuge die \
+überraschendsten.
 
 """
     + RULES
@@ -112,11 +122,11 @@ TURN_PROMPT = (
 Du schreibst einen einzelnen Redebeitrag eines deutschen Podcast-Gesprächs neu. Es sprechen \
 zwei feste Personen: Lena, die Expertin, und Felix, der neugierig Fragende. Sie duzen sich.
 
-Du bekommst alle angebotenen Fakten mit ID in eckigen Klammern (der Kontext dient nur zum \
+Du bekommst alle angebotenen Fakten mit Kennung in eckigen Klammern (der Kontext dient nur zum \
 Verstehen, nie als Beleg), dazu den vorherigen und den nächsten Redebeitrag, den zu ersetzenden \
-Redebeitrag und gegebenenfalls den Grund, warum er ersetzt wird. Schreibe nur den neuen \
-Redebeitrag derselben Person. Er muss zum vorherigen und zum nächsten Redebeitrag passen. \
-Verwende Fakten aus dem Angebot; behebe den genannten Grund.
+Redebeitrag, jeweils mit ihren Kennungen, und gegebenenfalls den Grund, warum er ersetzt wird. \
+Schreibe nur den neuen Redebeitrag derselben Person. Er muss zum vorherigen und zum nächsten \
+Redebeitrag passen. Verwende Fakten aus dem Angebot; behebe den genannten Grund.
 
 """
     + RULES
@@ -160,12 +170,19 @@ class Dialog:
 # ---------------------------------------------------------------- pure functions
 
 
+def offer_aliases(main: Sequence[RankedFact], linked: Sequence[RankedFact]) -> dict[str, str]:
+    """Alias to segment ID for an offer, main article first, then linked."""
+    return build_aliases(r.fact.segment_id for r in [*main, *linked])
+
+
 def format_offer(main: Sequence[RankedFact], linked: Sequence[RankedFact]) -> str:
-    """Plain text of the offered facts and their context, main article first."""
+    """Plain text of the offered facts and their context, main article first, each fact under its
+    alias."""
+    alias_of = {sid: alias for alias, sid in offer_aliases(main, linked).items()}
     lines: list[str] = []
     for r in [*main, *linked]:
         note = "" if r in main else f" (verlinkter Artikel: {r.article})"
-        lines.append(f"[{r.fact.segment_id}]{note} {r.fact.plain.replace(chr(10), ' ')}")
+        lines.append(f"[{alias_of[r.fact.segment_id]}]{note} {r.fact.plain.replace(chr(10), ' ')}")
         if r.fact.context_plain:
             context = " ".join(c.replace(chr(10), " ") for c in r.fact.context_plain)
             lines.append(f"  Kontext: {context}")
@@ -201,6 +218,43 @@ def parse_dialog(answer: dict) -> list[Turn]:
     return turns
 
 
+def resolve_turns(turns: Sequence[Turn], aliases: Mapping[str, str]) -> list[Turn]:
+    """The author's aliases in fact IDs and statements mapped back to segment IDs (pure)."""
+    return [
+        Turn(
+            t.index,
+            t.speaker,
+            t.text,
+            [resolve(i, aliases) for i in t.fact_ids],
+            [Statement(s.text, [resolve(i, aliases) for i in s.fact_ids]) for s in t.statements],
+        )
+        for t in turns
+    ]
+
+
+def cited(turn: Turn) -> list[str]:
+    """Fact IDs of the turn and its statements, first-use order."""
+    ids: list[str] = []
+    for fid in [*turn.fact_ids, *(i for s in turn.statements for i in s.fact_ids)]:
+        if fid not in ids:
+            ids.append(fid)
+    return ids
+
+
+def unknown_fact_ids(turn: Turn, offered_ids: Collection[str]) -> list[str]:
+    """Cited IDs that no offered fact has, sorted."""
+    return sorted({i for i in cited(turn) if i not in offered_ids})
+
+
+def unknown_ids_reason(unknown: Sequence[str]) -> str:
+    """Archived gate problem: the identifiers as the author wrote them, never a guessed segment
+    ID."""
+    return (
+        f"Unknown fact IDs: {', '.join(unknown)} (cited by the author; no offered fact has "
+        "this identifier)."
+    )
+
+
 def check_turns(turns: Sequence[Turn], offered_ids: Collection[str]) -> list[TurnProblem]:
     """Gate: speaker and text are valid, every statement has fact IDs, all IDs exist."""
     problems: list[TurnProblem] = []
@@ -214,10 +268,9 @@ def check_turns(turns: Sequence[Turn], offered_ids: Collection[str]) -> list[Tur
                 problems.append(
                     TurnProblem(turn.index, f"Statement without fact IDs: {statement.text}")
                 )
-        ids = [*turn.fact_ids, *(i for s in turn.statements for i in s.fact_ids)]
-        unknown = sorted({i for i in ids if i not in offered_ids})
+        unknown = unknown_fact_ids(turn, offered_ids)
         if unknown:
-            problems.append(TurnProblem(turn.index, f"Unknown fact IDs: {', '.join(unknown)}"))
+            problems.append(TurnProblem(turn.index, unknown_ids_reason(unknown)))
     return problems
 
 
@@ -225,10 +278,23 @@ def used_fact_ids(turns: Sequence[Turn], offered_ids: Collection[str]) -> list[s
     """Offered facts cited by at least one turn or statement, first-use order."""
     used: list[str] = []
     for turn in turns:
-        for fid in [*turn.fact_ids, *(i for s in turn.statements for i in s.fact_ids)]:
+        for fid in cited(turn):
             if fid in offered_ids and fid not in used:
                 used.append(fid)
     return used
+
+
+def author_reason(turn: Turn, reason: str | None, aliases: Mapping[str, str]) -> str | None:
+    """The reason for a regeneration as the author sees it: the unknown-ID problem in German and
+    actionable, offered segment IDs as aliases. `reason` is the archived one."""
+    if reason is None:
+        return None
+    unknown = unknown_fact_ids(turn, aliases.values())
+    if unknown:
+        reason = reason.replace(
+            unknown_ids_reason(unknown), unknown_alias_problem(unknown, aliases)
+        )
+    return replace_segment_ids(reason, aliases)
 
 
 def used_facts_gate(used: int, minimum: int) -> str | None:
@@ -254,22 +320,30 @@ def write_dialog(
     answer = llm.complete_json(
         SYSTEM_PROMPT.format(min_used=min_used_facts), format_offer(main, linked), DIALOG_SCHEMA
     )
-    offered = {r.fact.segment_id for r in [*main, *linked]}
-    turns = parse_dialog(answer)
+    aliases = offer_aliases(main, linked)
+    offered = set(aliases.values())
+    turns = resolve_turns(parse_dialog(answer), aliases)
     return Dialog(turns, check_turns(turns, offered), used_fact_ids(turns, offered))
 
 
-def format_turn_context(turns: Sequence[Turn], index: int, reason: str | None) -> str:
-    """The neighbours, the turn to replace and the reason, as plain text for the author."""
+def _turn_lines(label: str, turn: Turn, aliases: Mapping[str, str]) -> list[str]:
+    lines = [f"{label} ({turn.speaker}):", turn.text]
+    shown = to_aliases(cited(turn), aliases)
+    if shown:
+        lines.append(f"Kennungen: {', '.join(shown)}")
+    return lines
+
+
+def format_turn_context(
+    turns: Sequence[Turn], index: int, reason: str | None, aliases: Mapping[str, str]
+) -> str:
+    """The neighbours, the turn to replace and the reason, as plain text for the author. Fact IDs
+    appear as aliases; `reason` is already in the author's form (`author_reason`)."""
     lines: list[str] = []
     if index > 0:
-        lines += [
-            f"Vorheriger Redebeitrag ({turns[index - 1].speaker}):",
-            turns[index - 1].text,
-            "",
-        ]
+        lines += [*_turn_lines("Vorheriger Redebeitrag", turns[index - 1], aliases), ""]
     old = turns[index]
-    lines += [f"Zu ersetzender Redebeitrag ({old.speaker}):", old.text, ""]
+    lines += [*_turn_lines("Zu ersetzender Redebeitrag", old, aliases), ""]
     lines += [
         "Grund für den Ersatz:",
         reason
@@ -279,24 +353,29 @@ def format_turn_context(turns: Sequence[Turn], index: int, reason: str | None) -
         "",
     ]
     if index + 1 < len(turns):
-        lines += [f"Nächster Redebeitrag ({turns[index + 1].speaker}):", turns[index + 1].text]
+        lines += _turn_lines("Nächster Redebeitrag", turns[index + 1], aliases)
     return "\n".join(lines).strip()
 
 
 def regenerate_turn(
     llm: StructuredLlm,
     offer: str,
+    aliases: Mapping[str, str],
     turns: Sequence[Turn],
     index: int,
     reason: str | None,
 ) -> Turn:
     """A new version of turn `index` with its neighbours as context (design: Fehlerbehandlung).
 
-    The speaker stays the one of the replaced turn. `offer` is the text of `format_offer`.
+    The speaker stays the one of the replaced turn. `offer` is the text of `format_offer`,
+    `aliases` the offer's aliases (`offer_aliases`); `reason` is the archived one.
     """
-    user = f"Angebot:\n{offer}\n\n{format_turn_context(turns, index, reason)}"
+    context = format_turn_context(
+        turns, index, author_reason(turns[index], reason, aliases), aliases
+    )
+    user = f"Angebot:\n{offer}\n\n{context}"
     answer = llm.complete_json(TURN_PROMPT, user, TURN_SCHEMA)
-    (new,) = parse_dialog({"turns": [answer]}) or [Turn(index, "", "", [])]
+    (new,) = resolve_turns(parse_dialog({"turns": [answer]}), aliases) or [Turn(index, "", "", [])]
     new.index = index
     if turns[index].speaker in SPEAKERS:
         new.speaker = turns[index].speaker

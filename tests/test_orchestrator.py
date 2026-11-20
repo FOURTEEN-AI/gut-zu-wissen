@@ -561,3 +561,28 @@ def test_too_few_used_facts_after_judging_is_a_gate_failure():
     )
     with pytest.raises(GateFailure, match="used in accepted turns"):
         run(author, FakeJev(bad={"Falsch."}, cascade=[0.99]), config=config)
+
+
+def test_tunguska_like_wrong_id_is_rejected_and_a_corrected_regeneration_accepted():
+    # The author cites an alias outside the offer and a real-looking segment ID that was never
+    # offered (archive 2026-11-20_tunguska-ereignis-2); the regeneration uses a valid alias.
+    author = FakeAuthor(
+        [dialog_json("Eins.", "Zwei.", "Drei.", fact="F1")],
+        [turn_json("Felix", "Zwei neu.", "f2"), turn_json("Lena", "Drei neu.", "[F1]")],
+    )
+    author.dialogs[0]["turns"][1]["fact_ids"] = ["F53"]
+    author.dialogs[0]["turns"][1]["statements"][0]["fact_ids"] = ["1-0099"]
+    state = run(author, FakeJev(cascade=[0.99]))
+    first = state.regenerations[0]
+    assert (first.turn_index, first.kind) == (1, "retry")
+    assert first.reason == (
+        "Unknown fact IDs: 1-0099, F53 (cited by the author; no offered fact has this identifier)."
+    )
+    retry_prompt, cascade_prompt = author.calls[1], author.calls[2]
+    assert "Die Kennungen 1-0099, F53 gibt es im Angebot nicht." in retry_prompt
+    assert "(F1–F3)" in retry_prompt and "Unknown fact IDs" not in retry_prompt
+    assert "Zwei neu.\nKennungen: F2" in cascade_prompt  # the corrected neighbour, as aliases
+    assert not any("1-000" in call for call in author.calls)  # the author never sees segment IDs
+    assert [t.fact_ids for t in state.dialog.turns] == [["1-0000"], ["1-0001"], ["1-0000"]]
+    assert all(j.accepted for j in state.judgements)
+    assert state.used_fact_ids == ["1-0000", "1-0001"]

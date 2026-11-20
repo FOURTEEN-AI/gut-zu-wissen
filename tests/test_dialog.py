@@ -7,11 +7,14 @@ from gut_zu_wissen.dialog import (
     TURN_SCHEMA,
     Statement,
     Turn,
+    author_reason,
     check_turns,
     format_offer,
     format_turn_context,
+    offer_aliases,
     parse_dialog,
     regenerate_turn,
+    resolve_turns,
     used_fact_ids,
     used_facts_gate,
     write_dialog,
@@ -35,8 +38,7 @@ def turn(i: int, speaker="Lena", text="Hallo.", ids=(), statements=()) -> Turn:
 def test_format_offer_marks_linked_facts_and_context():
     out = format_offer([rf("1-0000", context=["Davor."])], [rf("2-0000", "Nebenartikel")])
     assert out == (
-        "[1-0000] Fakt 1-0000.\n  Kontext: Davor.\n"
-        "[2-0000] (verlinkter Artikel: Nebenartikel) Fakt 2-0000."
+        "[F1] Fakt 1-0000.\n  Kontext: Davor.\n[F2] (verlinkter Artikel: Nebenartikel) Fakt 2-0000."
     )
 
 
@@ -68,6 +70,13 @@ def test_gate_reports_unknown_ids_in_turn_and_statement():
     turns = [turn(0, ids=["9-9"], statements=[("S", ["8-8"])])]
     (problem,) = check_turns(turns, OFFER)
     assert problem.turn_index == 0 and "8-8" in problem.reason and "9-9" in problem.reason
+
+
+def test_archived_unknown_id_problem_names_the_token_as_written():
+    (problem,) = check_turns([turn(0, ids=["F53"])], OFFER)
+    assert problem.reason == (
+        "Unknown fact IDs: F53 (cited by the author; no offered fact has this identifier)."
+    )
 
 
 def test_gate_reports_statement_without_ids_unknown_speaker_and_empty_text():
@@ -107,35 +116,123 @@ def test_write_dialog_sends_offer_and_records_problems_and_use():
                 "fact_ids": ["1-0000"],
                 "statements": [{"text": "S", "fact_ids": ["1-0000"]}],
             },
-            {"speaker": "Felix", "text": "B", "fact_ids": ["7-7"], "statements": []},
+            {"speaker": "Felix", "text": "B", "fact_ids": ["F7"], "statements": []},
         ]
     }
     llm = FakeLlm(answer)
     dialog = write_dialog(llm, [rf("1-0000")], [rf("2-0000", "N")], 10)
     system, user, schema = llm.calls[0]
-    assert "mindestens 10" in system and "[2-0000]" in user and schema is DIALOG_SCHEMA
+    assert "mindestens 10" in system and "[F2]" in user and schema is DIALOG_SCHEMA
+    assert "[1-0000]" not in user and "[2-0000]" not in user
     assert dialog.used_fact_ids == ["1-0000"]
     assert [p.turn_index for p in dialog.problems] == [1]
 
 
+def test_write_dialog_maps_aliases_back_to_segment_ids():
+    answer = {
+        "turns": [
+            {
+                "speaker": "Lena",
+                "text": "A",
+                "fact_ids": ["F1", " [f2] "],
+                "statements": [
+                    {"text": "S", "fact_ids": ["f1"]},
+                    {"text": "T", "fact_ids": ["F2"]},
+                ],
+            },
+        ]
+    }
+    dialog = write_dialog(FakeLlm(answer), [rf("1-0000")], [rf("2-0000", "N")], 1)
+    (t,) = dialog.turns
+    assert t.fact_ids == ["1-0000", "2-0000"]
+    assert [s.fact_ids for s in t.statements] == [["1-0000"], ["2-0000"]]
+    assert dialog.problems == [] and dialog.used_fact_ids == ["1-0000", "2-0000"]
+
+
+ALIASES = offer_aliases([rf("1-0000"), rf("1-0001")], [rf("2-0000", "N")])
+
+
+def test_offer_aliases_main_first_then_linked():
+    assert ALIASES == {"F1": "1-0000", "F2": "1-0001", "F3": "2-0000"}
+
+
+def test_resolve_turns_maps_turn_and_statement_ids_and_keeps_unknown_tokens():
+    (t,) = resolve_turns([turn(0, ids=["F3", "1-0001", "F9"], statements=[("S", ["f1"])])], ALIASES)
+    assert t.fact_ids == ["2-0000", "1-0001", "F9"]
+    assert t.statements == [Statement("S", ["1-0000"])]
+    (problem,) = check_turns([t], OFFER)
+    assert "F9" in problem.reason
+
+
+def test_author_reason_for_unknown_ids_is_german_and_names_the_offer_range():
+    old = turn(0, ids=["F53", "1-0000"])
+    archived = " ".join(p.reason for p in check_turns([old], ALIASES.values()))
+    assert author_reason(old, archived, ALIASES) == (
+        "Die Kennung F53 gibt es im Angebot nicht. Verwende nur Kennungen aus dem Angebot "
+        "(F1–F3); was du mit keiner angebotenen Kennung belegen kannst, lässt du weg."
+    )
+
+
+def test_author_reason_shows_offered_ids_as_aliases_and_keeps_other_reasons():
+    old = turn(0, ids=["1-0001"])
+    assert author_reason(old, "Fakt 1-0001 trägt das nicht.", ALIASES) == "Fakt F2 trägt das nicht."
+    assert author_reason(old, None, ALIASES) is None
+
+
 def test_turn_context_has_neighbours_old_turn_and_reason():
     turns = [turn(0, text="Eins."), turn(1, "Felix", "Zwei."), turn(2, text="Drei.")]
-    out = format_turn_context(turns, 1, "Zahl falsch.")
+    out = format_turn_context(turns, 1, "Zahl falsch.", ALIASES)
     assert out.index("Eins.") < out.index("Zwei.") < out.index("Zahl falsch.") < out.index("Drei.")
-    assert "(Felix)" in out
-    assert "Vorheriger" not in format_turn_context(turns, 0, None)
-    assert "Nächster" not in format_turn_context(turns, 2, None)
-    assert "neu geschrieben" in format_turn_context(turns, 2, None)
+    assert "(Felix)" in out and "Kennungen" not in out  # no cited facts, no line
+    assert "Vorheriger" not in format_turn_context(turns, 0, None, ALIASES)
+    assert "Nächster" not in format_turn_context(turns, 2, None, ALIASES)
+    assert "neu geschrieben" in format_turn_context(turns, 2, None, ALIASES)
+
+
+def test_turn_context_renders_neighbours_and_old_turn_with_aliases():
+    turns = [
+        turn(0, text="Eins.", ids=["1-0000"], statements=[("S", ["1-0001"])]),
+        turn(1, "Felix", "Zwei.", ids=["2-0000", "F53"]),
+        turn(2, text="Drei.", ids=["1-0001"]),
+    ]
+    out = format_turn_context(turns, 1, "Grund.", ALIASES)
+    assert out.split("\n") == [
+        "Vorheriger Redebeitrag (Lena):",
+        "Eins.",
+        "Kennungen: F1, F2",
+        "",
+        "Zu ersetzender Redebeitrag (Felix):",
+        "Zwei.",
+        "Kennungen: F3",  # the unknown token is named in the reason, not repeated here
+        "",
+        "Grund für den Ersatz:",
+        "Grund.",
+        "",
+        "Nächster Redebeitrag (Lena):",
+        "Drei.",
+        "Kennungen: F2",
+    ]
+    assert not any(sid in out for sid in ALIASES.values())
 
 
 def test_regenerate_turn_keeps_index_and_speaker_and_uses_turn_schema():
-    answer = {"speaker": "Lena", "text": "Neu.", "fact_ids": ["1-0000"], "statements": []}
+    answer = {"speaker": "Lena", "text": "Neu.", "fact_ids": ["[F1]"], "statements": []}
     llm = FakeLlm(answer)
     turns = [turn(0), turn(1, "Felix", "Alt.")]
-    new = regenerate_turn(llm, "[1-0000] Fakt.", turns, 1, "Grund.")
+    new = regenerate_turn(llm, "[F1] Fakt.", ALIASES, turns, 1, "Grund.")
     assert (new.index, new.speaker, new.text, new.fact_ids) == (1, "Felix", "Neu.", ["1-0000"])
     _, user, schema = llm.calls[0]
-    assert schema is TURN_SCHEMA and "[1-0000] Fakt." in user and "Grund." in user
+    assert schema is TURN_SCHEMA and "[F1] Fakt." in user and "Grund." in user
+
+
+def test_regenerate_turn_shows_the_author_the_german_unknown_id_problem():
+    turns = [turn(0, ids=["F53"])]
+    archived = " ".join(p.reason for p in check_turns(turns, ALIASES.values()))
+    llm = FakeLlm({"speaker": "Lena", "text": "Neu.", "fact_ids": [], "statements": []})
+    regenerate_turn(llm, "[F1] Fakt.", ALIASES, turns, 0, archived)
+    _, user, _ = llm.calls[0]
+    assert "Die Kennung F53 gibt es im Angebot nicht." in user and "(F1–F3)" in user
+    assert "Unknown fact IDs" not in user
 
 
 @pytest.mark.parametrize("prompt", [SYSTEM_PROMPT, TURN_PROMPT])
@@ -149,8 +246,8 @@ def test_regenerate_turn_keeps_index_and_speaker_and_uses_turn_schema():
         "Jede Frage, deren Prämisse sich auf zuvor Gesagtes bezieht",
         "„Wofür stand der Axolotl in diesem Film?“",
         # (c) reactions without fact IDs repeat no numbers, names or facts
-        "Eine Reaktion ohne Fakt-IDs wiederholt keine Zahlen, Namen oder Fakten",
-        "„Vier Monate Suche und kein einziger Fund.“ ohne Fakt-IDs",
+        "Eine Reaktion ohne Kennungen wiederholt keine Zahlen, Namen oder Fakten",
+        "„Vier Monate Suche und kein einziger Fund.“ ohne Kennungen",
         # (d) no generalisations beyond the fact sentence
         "Lena verallgemeinert nicht über den Fakt-Satz hinaus.",
         "„Es gibt keine Zellen, die einfach alles werden“",
@@ -161,7 +258,7 @@ def test_regenerate_turn_keeps_index_and_speaker_and_uses_turn_schema():
         # (f) only one closing summary (user, 2026-11-20)
         "Am Ende fasst genau eine der beiden Personen das Gespräch einmal kurz zusammen.",
         "Keine zweite Zusammenfassung, kein abwechselndes Zusammenfassen.",
-        "Auch die Zusammenfassung braucht Statements und Fakt-IDs.",
+        "Auch die Zusammenfassung braucht Statements und Kennungen.",
     ],
 )
 def test_author_prompts_contain_the_fidelity_rules(prompt, rule):
