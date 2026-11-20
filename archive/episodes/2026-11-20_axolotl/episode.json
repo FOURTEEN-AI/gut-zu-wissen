@@ -1,10 +1,10 @@
 {
   "episode_id": "2026-11-20_axolotl",
   "title": "Axolotl",
-  "status": "completed",
+  "status": "published",
   "started_at": "2026-11-20T06:11:03Z",
   "finished_at": "2026-11-20T06:48:38Z",
-  "published_at": null,
+  "published_at": "2026-11-20T21:30:58Z",
   "explicit": false,
   "failure": null,
   "usage": {
@@ -41,5 +41,7 @@
       "jev": 0.0043,
       "tts": 0.2478
     }
-  }
+  },
+  "failed_step": null,
+  "resumed": []
 }
