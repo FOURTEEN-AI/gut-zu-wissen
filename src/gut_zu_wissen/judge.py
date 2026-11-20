@@ -6,6 +6,8 @@ all p >= t -> supported; any p <= 1 - t -> not supported (the LLM judge only giv
 otherwise the LLM judge decides with the full rubric. Overlength and transient Jev errors also go
 to the LLM judge; abort errors propagate. The LLM judge sees only the turn, the cited fact
 sentences and their context, never the author's statements or chain of thought.
+Both LLM-judge prompts are fixed system prompts and are cached (spike S7); the turn and its facts
+vary per call and follow them.
 """
 
 from __future__ import annotations
@@ -243,7 +245,9 @@ def judge_turn(
     try:
         probabilities = jev.ask(state, questions)
     except (JevOverlengthError, JevTransientError) as exc:
-        verdict = llm.complete_json(VERDICT_PROMPT, format_judge_input(turn, facts), VERDICT_SCHEMA)
+        verdict = llm.complete_json(
+            VERDICT_PROMPT, format_judge_input(turn, facts), VERDICT_SCHEMA, cache_system=True
+        )
         return TurnJudgement(
             turn.index,
             verdict.get("supported") is True,
@@ -257,12 +261,14 @@ def judge_turn(
     if decision is Decision.REJECTED:
         spots = flagged_spots(turn, probabilities, t)
         answer = llm.complete_json(
-            REASON_PROMPT, format_judge_input(turn, facts, spots), REASON_SCHEMA
+            REASON_PROMPT, format_judge_input(turn, facts, spots), REASON_SCHEMA, cache_system=True
         )
         return TurnJudgement(
             turn.index, False, "jev", probabilities, reason=str(answer.get("reason", ""))
         )
-    verdict = llm.complete_json(VERDICT_PROMPT, format_judge_input(turn, facts), VERDICT_SCHEMA)
+    verdict = llm.complete_json(
+        VERDICT_PROMPT, format_judge_input(turn, facts), VERDICT_SCHEMA, cache_system=True
+    )
     return TurnJudgement(
         turn.index,
         verdict.get("supported") is True,

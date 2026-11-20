@@ -37,6 +37,9 @@ RESUME_END = datetime(2026, 11, 20, 9, 12, 30, tzinfo=UTC)
 MODEL = "claude-sonnet-5-5"
 
 
+NO_CACHE = {"cache_creation_input_tokens": 0, "cache_read_input_tokens": 0}
+
+
 def folder(root):
     return root / "episodes" / EPISODE
 
@@ -92,8 +95,10 @@ def test_resume_completes_the_episode_and_keeps_the_previous_attempt(tmp_path):
         }
     ]
     assert record.usage == {
-        "author": {"model": MODEL, "calls": 1, "input_tokens": 1000, "output_tokens": 200},
-        "llm_judge": {"model": MODEL, "calls": 2, "input_tokens": 350, "output_tokens": 50},
+        "author": {"model": MODEL, "calls": 1, "input_tokens": 1000, "output_tokens": 200}
+        | NO_CACHE,
+        "llm_judge": {"model": MODEL, "calls": 2, "input_tokens": 350, "output_tokens": 50}
+        | NO_CACHE,
     }
     audio = read(tmp_path, "08_audio.json")
     assert audio["file"] == "episode.flac" and audio["sections"][0]["verified"] is True
@@ -175,7 +180,7 @@ def test_stt_decision_error_fails_the_resume(tmp_path):
     failed_in_audio(tmp_path)
 
     class Failing(FakeJudgeLlm):
-        def complete_json(self, system, user, schema):
+        def complete_json(self, system, user, schema, **cache):
             raise LlmError("overloaded")
 
     with pytest.raises(GateFailure, match="STT verification, section 0"):

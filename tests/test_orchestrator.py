@@ -89,7 +89,7 @@ class FakeAuthor:
         self.dialogs, self.turns, self.calls = list(dialogs), list(turns or []), []
         self.systems: list[str] = []
 
-    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+    def complete_json(self, system: str, user: str, schema: dict, **cache) -> dict:
         self.calls.append(user)
         self.systems.append(system)
         return self.dialogs.pop(0) if "turns" in schema["properties"] else self.turns.pop(0)
@@ -120,7 +120,7 @@ class FakeJudgeLlm:
     def __init__(self, cascade: list[dict] | None = None) -> None:
         self.cascade, self.cascade_calls = list(cascade or []), []
 
-    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+    def complete_json(self, system: str, user: str, schema: dict, **cache) -> dict:
         if schema is CASCADE_VERDICT_SCHEMA:
             self.cascade_calls.append((system, user))
             return self.cascade.pop(0)
@@ -286,7 +286,7 @@ def test_cascade_check_jev_abort_and_llm_error_propagate():
         check_cascade(CascadeJev(error=JevAbortError("401")), FakeJudgeLlm(), BEFORE, AFTER, T, 1)
 
     class Failing:
-        def complete_json(self, system, user, schema):
+        def complete_json(self, system, user, schema, **cache):
             raise LlmError("refused")
 
     with pytest.raises(LlmError):
@@ -1078,7 +1078,7 @@ def test_pinned_einordnung_fact_is_never_excluded():
 class ReasonJudgeLlm(FakeJudgeLlm):
     """Rejects with a reason that names segment IDs, as a judge's reason can."""
 
-    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+    def complete_json(self, system: str, user: str, schema: dict, **cache) -> dict:
         answer = super().complete_json(system, user, schema)
         if schema is not CASCADE_VERDICT_SCHEMA:
             answer["reason"] = "1-0002 sagt das nicht; 1-0001 schon."

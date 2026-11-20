@@ -8,6 +8,8 @@ from gut_zu_wissen.extraction import Fact
 from gut_zu_wissen.jev import JevAbortError, JevOverlengthError, JevTransientError
 from gut_zu_wissen.judge import (
     COMPLETENESS_KEY,
+    REASON_PROMPT,
+    VERDICT_PROMPT,
     Decision,
     TurnJudgement,
     build_request,
@@ -50,9 +52,11 @@ class FakeJev:
 class FakeLlm:
     def __init__(self, supported=True) -> None:
         self.supported, self.calls = supported, []
+        self.caches: list[dict] = []
 
-    def complete_json(self, system, user, schema):
+    def complete_json(self, system, user, schema, **cache):
         self.calls.append((system, user, schema))
+        self.caches.append(cache)
         if "supported" in schema["properties"]:
             return {"supported": self.supported, "reason": "Begründung."}
         return {"reason": "Ablehnungsgrund."}
@@ -123,6 +127,14 @@ def test_uncertain_goes_to_llm_verdict(supported):
     j = judge_turn(jev, llm, turn(), None, FACTS, T)
     assert (j.accepted, j.decided_by) == (supported, "llm_judge")
     assert j.jev_p[COMPLETENESS_KEY] == 0.6
+
+
+@pytest.mark.parametrize("ps", [{"aussage_0": 0.03}, {"aussage_0": 0.6}])
+def test_both_llm_judge_modes_cache_their_system_prompt(ps):
+    llm = FakeLlm()
+    judge_turn(FakeJev({**ps, COMPLETENESS_KEY: 0.99}), llm, turn(), None, FACTS, T)
+    assert llm.caches == [{"cache_system": True}]
+    assert llm.calls[0][0] in (VERDICT_PROMPT, REASON_PROMPT)  # fixed, nothing interpolated
 
 
 @pytest.mark.parametrize("error", [JevOverlengthError("x"), JevTransientError("y")])

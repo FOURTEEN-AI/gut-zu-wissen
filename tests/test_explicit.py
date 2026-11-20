@@ -27,7 +27,7 @@ class FakeLlm:
         self.answer, self.error = answer, error
         self.calls: list[tuple[str, str, dict]] = []
 
-    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+    def complete_json(self, system: str, user: str, schema: dict, **cache) -> dict:
         self.calls.append((system, user, schema))
         if self.error:
             raise self.error

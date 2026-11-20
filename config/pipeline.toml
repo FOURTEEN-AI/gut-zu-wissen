@@ -116,6 +116,10 @@ loudness_max_iterations = 8             # gain/ceiling corrections before the ru
 # Feed the per-episode cost log. USD per million tokens unless stated otherwise.
 claude_sonnet_input = 2.00          # Claude Sonnet 5.5, Anthropic list price (as of 2026-11)
 claude_sonnet_output = 10.00        # Claude Sonnet 5.5, Anthropic list price (as of 2026-11)
+# Prompt caching (spike S7): 5-minute cache writes cost 1.25 x input, cache reads are priced per
+# model. Anthropic list prices as of 2026-11 (claude-api skill).
+claude_sonnet_cache_write = 2.50    # Claude Sonnet 5.5, 5-minute TTL (1.25 x 2.00)
+claude_sonnet_cache_read = 0.10     # Claude Sonnet 5.5
 jev = 0.042                         # USD per million input tokens; output tokens free (spike S1)
 gemini_tts_input = 0.50                #  USD per million text tokens; 1.00 from 2027-01-01
 gemini_tts_output = 9.00               #  USD per million audio tokens; 18.00 from 2027-01-01

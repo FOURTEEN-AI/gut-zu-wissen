@@ -182,7 +182,10 @@ def extract_facts(
 
     accepted: list[tuple[Segment, list[str]]] = []
     for chunk in chunks:
-        answer = llm.complete_json(system, format_chunk(chunk), EXTRACTION_SCHEMA)
+        # One system prompt for every chunk and every linked intro: cached (spike S7).
+        answer = llm.complete_json(
+            system, format_chunk(chunk), EXTRACTION_SCHEMA, cache_system=True
+        )
         in_chunk = {s.id for s in chunk.segments}
         seen: set[str] = set()
         for cand in answer.get("candidates", []):

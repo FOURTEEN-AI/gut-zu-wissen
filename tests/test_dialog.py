@@ -136,9 +136,11 @@ def test_used_facts_gate_at_the_boundary():
 class FakeLlm:
     def __init__(self, answer: dict) -> None:
         self.answer, self.calls = answer, []
+        self.caches: list[dict] = []
 
-    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+    def complete_json(self, system: str, user: str, schema: dict, **cache) -> dict:
         self.calls.append((system, user, schema))
+        self.caches.append(cache)
         return self.answer
 
 
@@ -275,6 +277,28 @@ def test_regenerate_turn_keeps_index_and_speaker_and_uses_turn_schema():
     assert (new.index, new.speaker, new.text, new.fact_ids) == (1, "Felix", "Neu.", ["1-0000"])
     _, user, schema = llm.calls[0]
     assert schema is TURN_SCHEMA and "[F1] Fakt." in user and "Grund." in user
+
+
+def test_regenerate_turn_caches_the_offer_at_the_start_of_the_user_message():
+    answer = {"speaker": "Lena", "text": "Neu.", "fact_ids": [], "statements": []}
+    llm = FakeLlm(answer)
+    turns = [turn(0), turn(1, "Felix", "Alt.")]
+    regenerate_turn(llm, "[F1] Fakt.", ALIASES, turns, 1, "Grund.")
+    regenerate_turn(llm, "[F1] Fakt.", ALIASES, turns, 0, None)  # a cascade step: same prefix
+    prefix = "Angebot:\n[F1] Fakt.\n\n"
+    assert llm.caches == [{"cache_user_prefix": prefix}] * 2
+    assert all(user.startswith(prefix) for _, user, _ in llm.calls)
+    assert llm.calls[0][1] != llm.calls[1][1]  # only the part after the offer varies
+
+
+def test_write_and_continuation_mark_no_cache_prefix():
+    # Neither prefix is sent again (own schema and system prompt; a continuation's offer has
+    # new exclusions), so a breakpoint would only pay the write price.
+    llm = FakeLlm({"turns": []})
+    write_dialog(llm, [], [], 10, 2)
+    continue_dialog(llm, "[F1] Fakt.", ALIASES, PREFIX, 10)
+    assert llm.caches == [{}, {}]
+    assert llm.calls[1][1].startswith("Angebot:\n[F1] Fakt.\n\n")  # offer still first
 
 
 def test_regenerate_turn_shows_the_author_the_german_unknown_id_problem():

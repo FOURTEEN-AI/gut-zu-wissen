@@ -84,7 +84,7 @@ class FakeLlm:
         self.changes, self.error = changes, error
         self.calls: list[str] = []
 
-    def complete_json(self, system, user, schema):
+    def complete_json(self, system, user, schema, **cache):
         self.calls.append(user)
         if self.error:
             raise self.error

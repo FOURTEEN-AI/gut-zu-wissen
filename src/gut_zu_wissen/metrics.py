@@ -32,6 +32,10 @@ status counts, and the report marks it as resumed;
   today's config prices, and the report names them; a missing count or a placeholder price
   leaves that part unknown and is named in the report; for a resumed run every attempt is
   included (token counts summed, TTS of the earlier audio attempts in `previous_attempts`);
+  per client role over all runs, the token counts (uncached input, cache writes, cache reads,
+  output), the cost and what the prompt cache saved (spike S7), from the stored `usage` at the
+  stored prices (today's prices for folders without a stored cost; folders from before caching
+  have no cache tokens);
 - error rate by revision status (D2): share of labelled turns labelled "nicht belegt", by the
   revision status of the articles the turn cites, and share of answered reviews with an error,
   by the main article's revision status;
@@ -66,11 +70,15 @@ from gut_zu_wissen.archive import (
 from gut_zu_wissen.review import ExplicitAccuracy, Review, explicit_confusion, explicit_pairs
 from gut_zu_wissen.usage import (
     PRICE_KEYS,
+    TOKEN_FIELDS,
     TTS_PART,
     USD_DIGITS,
     audio_tts_cost_usd,
+    cache_saving,
     is_price,
+    missing_prices,
     token_cost,
+    token_counts,
 )
 
 Outcome = Literal["completed", "failed", "incomplete"]
@@ -494,18 +502,19 @@ def tts_cost(run: RunData, outcome: Outcome) -> CostPart:
     return CostPart(TTS_PART, usd, NO_TTS_COST if usd is None else None)
 
 
-def _missing_prices(role: str, prices: Mapping, when: str) -> str:
+def _missing_prices(role: str, counts: Mapping, prices: Mapping, when: str) -> str:
     keys = PRICE_KEYS.get(role)
     if keys is None:
         return "no price key for this role"
-    names = ", ".join(k for k in keys if k and not is_price(prices.get(k)))
+    names = ", ".join(missing_prices(counts, prices, keys))
     return f"price not set{when}: {names}"
 
 
-def stored_cost(stored: Mapping) -> list[CostPart]:
+def stored_cost(stored: Mapping, usage: Mapping[str, Mapping] | None = None) -> list[CostPart]:
     """The parts of `cost` in episode.json, at the prices in force at run time."""
     prices = stored.get("prices", {})
     usd = stored.get("usd", {})
+    usage = usage or {}
     parts = [
         CostPart(TTS_PART, usd.get(TTS_PART), None if is_price(usd.get(TTS_PART)) else NO_TTS_COST)
     ]
@@ -514,7 +523,8 @@ def stored_cost(stored: Mapping) -> list[CostPart]:
         parts.append(NO_USAGE)
     for role in roles:
         value = usd[role]
-        note = None if value is not None else _missing_prices(role, prices, " at run time")
+        counts = usage.get(role, {})
+        note = None if value is not None else _missing_prices(role, counts, prices, " at run time")
         parts.append(CostPart(role, value, note))
     return parts
 
@@ -529,7 +539,9 @@ def todays_cost(run: RunData, outcome: Outcome, prices: Mapping) -> list[CostPar
         keys = PRICE_KEYS.get(role)
         usd = token_cost(counts, prices, keys) if keys else None
         parts.append(
-            CostPart(role, usd, None if usd is not None else _missing_prices(role, prices, ""))
+            CostPart(
+                role, usd, None if usd is not None else _missing_prices(role, counts, prices, "")
+            )
         )
     return parts
 
@@ -540,7 +552,8 @@ def run_cost(run: RunData, prices: Mapping) -> RunCost:
     per call."""
     outcome = run_outcome(run)
     stored = run.episode.get("cost")
-    parts = stored_cost(stored) if stored else todays_cost(run, outcome, prices)
+    usage = run.episode.get("usage") or {}
+    parts = stored_cost(stored, usage) if stored else todays_cost(run, outcome, prices)
     known = round(sum(p.usd for p in parts if p.usd is not None), USD_DIGITS)
     return RunCost(
         run.episode_id,
@@ -554,6 +567,52 @@ def run_cost(run: RunData, prices: Mapping) -> RunCost:
 
 
 @dataclass
+class RoleCost:
+    """One client role over all runs: token counts, cost and the prompt-cache saving. `usd` and
+    `cache_saving_usd` are None when a run's value is unknown (placeholder price)."""
+
+    role: str
+    models: list[str]
+    calls: int = 0
+    input_tokens: int = 0  # uncached
+    output_tokens: int = 0
+    cache_creation_input_tokens: int = 0
+    cache_read_input_tokens: int = 0
+    usd: float | None = 0.0
+    cache_saving_usd: float | None = 0.0
+
+
+def _add_usd(total: float | None, value: float | None) -> float | None:
+    return None if total is None or value is None else round(total + value, USD_DIGITS)
+
+
+def role_costs(runs: Sequence[RunData], prices: Mapping) -> list[RoleCost]:
+    """Per client role, in first-seen order: the stored token counts of every run, priced with
+    the prices stored at run time (today's `prices` for folders without a stored cost)."""
+    roles: dict[str, RoleCost] = {}
+    for run in runs:
+        stored = run.episode.get("cost")
+        run_prices = stored.get("prices", {}) if stored else prices
+        for role, counts in (run.episode.get("usage") or {}).items():
+            entry = roles.setdefault(role, RoleCost(role, []))
+            for model in str(counts.get("model", "")).split(", "):
+                if model and model not in entry.models:
+                    entry.models.append(model)
+            entry.calls += int(counts.get("calls") or 0)
+            for name, value in zip(TOKEN_FIELDS, token_counts(counts), strict=True):
+                setattr(entry, name, getattr(entry, name) + value)
+            keys = PRICE_KEYS.get(role)
+            if stored:
+                usd = stored.get("usd", {}).get(role)
+            else:
+                usd = token_cost(counts, run_prices, keys) if keys else None
+            entry.usd = _add_usd(entry.usd, usd)
+            saving = cache_saving(counts, run_prices, keys) if keys else None
+            entry.cache_saving_usd = _add_usd(entry.cache_saving_usd, saving)
+    return list(roles.values())
+
+
+@dataclass
 class Cost:
     total_known_usd: float
     complete: bool
@@ -561,6 +620,7 @@ class Cost:
     missing: list[str]  # distinct notes of unknown parts
     runs: list[RunCost]
     todays_prices: list[str] = field(default_factory=list)  # runs without a stored cost
+    roles: list[RoleCost] = field(default_factory=list)
 
 
 def cost(runs: Sequence[RunData], prices: Mapping) -> Cost:
@@ -579,6 +639,7 @@ def cost(runs: Sequence[RunData], prices: Mapping) -> Cost:
         missing,
         per_run,
         [c.episode_id for c in per_run if c.todays_prices],
+        role_costs(runs, prices),
     )
 
 
@@ -721,6 +782,20 @@ def _num(value: float | None, digits: int = 2) -> str:
 
 def _pct(value: float | None) -> str:
     return "–" if value is None else f"{value * 100:.1f} %"
+
+
+def _tokens(value: int) -> str:
+    return f"{value:,}"
+
+
+def _role_line(x: RoleCost) -> str:
+    models = f" ({', '.join(x.models)})" if x.models else ""
+    return (
+        f"  - {x.role}{models}: {x.calls} calls, input {_tokens(x.input_tokens)}, cache "
+        f"{_tokens(x.cache_creation_input_tokens)} / {_tokens(x.cache_read_input_tokens)}, "
+        f"output {_tokens(x.output_tokens)}; {_usd(x.usd)}, saved by the cache "
+        f"{_usd(x.cache_saving_usd)}"
+    )
 
 
 def _usd(value: float | None) -> str:
@@ -867,6 +942,9 @@ def render_markdown(report: Report) -> str:
             "- Resumed runs: every attempt included (token counts summed, TTS of the earlier "
             "audio attempts), at the prices in force at the last attempt."
         )
+    if k.roles:
+        lines.append("- By client role, all runs (input uncached; cache: written / read):")
+        lines += [_role_line(x) for x in k.roles]
     if k.missing:
         lines += ["- Unknown parts:", *(f"  - {m}" for m in k.missing)]
     if k.todays_prices:

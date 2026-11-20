@@ -124,9 +124,11 @@ def test_format_chunk_shows_ids_without_refs_and_infobox_plain():
 class FakeLlm:
     def __init__(self, answers: list[dict]) -> None:
         self.answers, self.calls = list(answers), []
+        self.caches: list[dict] = []
 
-    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+    def complete_json(self, system: str, user: str, schema: dict, **cache) -> dict:
         self.calls.append((system, user, schema))
+        self.caches.append(cache)
         return self.answers.pop(0)
 
 
@@ -205,6 +207,15 @@ def test_prompt_and_schema_are_passed():
     assert "höchstens 3 Segmente" in system
     assert "[1-0000] Ein Satz." in user
     assert schema["required"] == ["candidates"]
+
+
+def test_every_chunk_caches_the_one_system_prompt():
+    segs = [seg(i, f"Satz Nummer {i} mit genug Wörtern für das Gate hier.") for i in range(4)]
+    llm = FakeLlm([{"candidates": []}, {"candidates": []}])
+    config = {"quotas": {**CONFIG["quotas"], "max_chunk_segments": 2}}
+    extract_facts(llm, EchoRenderer(), "T", 1, segs, config)
+    assert len(llm.calls) == 2 and llm.calls[0][0] == llm.calls[1][0]  # identical prefix
+    assert llm.caches == [{"cache_system": True}] * 2
 
 
 def test_result_dict_field_order():

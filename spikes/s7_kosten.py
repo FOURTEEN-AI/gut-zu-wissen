@@ -255,7 +255,7 @@ class Collect:
         self.placeholder = placeholder
         self.requests: list[tuple[str, str, dict]] = []
 
-    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+    def complete_json(self, system: str, user: str, schema: dict, **cache) -> dict:
         self.requests.append((system, user, schema))
         return json.loads(json.dumps(self.placeholder))
 
@@ -268,7 +268,7 @@ class Replay:
         self._answers = list(answers)
         self._n = 0
 
-    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+    def complete_json(self, system: str, user: str, schema: dict, **cache) -> dict:
         digest, answer = self._answers[self._n]
         assert digest == request_digest(system, user), f"request {self._n} differs"
         self._n += 1

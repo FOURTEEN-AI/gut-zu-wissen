@@ -24,7 +24,7 @@ class FakeLlm:
         self.answer = answer
         self.calls: list[tuple[str, str, dict]] = []
 
-    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+    def complete_json(self, system: str, user: str, schema: dict, **cache) -> dict:
         self.calls.append((system, user, schema))
         return self.answer
 

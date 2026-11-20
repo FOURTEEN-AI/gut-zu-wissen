@@ -251,6 +251,11 @@ def format_offer(
     return "\n".join(lines)
 
 
+def offer_prefix(offer: str) -> str:
+    """The start of the user message of a turn regeneration and a continuation: the offer."""
+    return f"Angebot:\n{offer}\n\n"
+
+
 def _strings(value: object) -> list[str]:
     return [v for v in value if isinstance(v, str)] if isinstance(value, list) else []
 
@@ -650,7 +655,7 @@ def continue_dialog(
     orchestrator's concern."""
     assert prefix, "a continuation needs at least one kept turn"
     kept = format_prefix(prefix, aliases, aliases.values(), premise_exempt_ids)
-    user = f"Angebot:\n{offer}\n\n{kept}"
+    user = offer_prefix(offer) + kept
     if rejections:
         user += f"\n\n{format_rejections(rejections)}"
     answer = llm.complete_json(CONTINUE_PROMPT.format(min_used=min_used_facts), user, DIALOG_SCHEMA)
@@ -678,8 +683,10 @@ def regenerate_turn(
     context = format_turn_context(
         turns, index, author_reason(turns[index], reason, aliases), aliases, premise_exempt_ids
     )
-    user = f"Angebot:\n{offer}\n\n{context}"
-    answer = llm.complete_json(TURN_PROMPT, user, TURN_SCHEMA)
+    prefix = offer_prefix(offer)
+    # The offer is the same for every regeneration and cascade step of a conversation and comes
+    # first: cached up to its end (spike S7); the neighbours and the reason follow.
+    answer = llm.complete_json(TURN_PROMPT, prefix + context, TURN_SCHEMA, cache_user_prefix=prefix)
     (new,) = resolve_turns(parse_dialog({"turns": [answer]}), aliases) or [Turn(index, "", "", [])]
     new.index = index
     if turns[index].speaker in SPEAKERS:

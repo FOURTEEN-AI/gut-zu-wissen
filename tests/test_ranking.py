@@ -26,7 +26,7 @@ class FakeLlm:
     def __init__(self, ids: list) -> None:
         self.ids, self.calls = ids, []
 
-    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+    def complete_json(self, system: str, user: str, schema: dict, **cache) -> dict:
         self.calls.append((system, user))
         return {"ranked_ids": self.ids}
 

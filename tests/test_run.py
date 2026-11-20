@@ -62,7 +62,7 @@ class FakeLlm:
         self.calls: list[str] = []
         self.felix, self.cite = felix or {}, cite
 
-    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+    def complete_json(self, system: str, user: str, schema: dict, **cache) -> dict:
         self.calls.append(user)
         ids = re.findall(r"^\[([^\]]+)\]", user, re.MULTILINE)
         if "turns" in schema["properties"]:
@@ -100,7 +100,7 @@ class FakeJudgeLlm:
         self.explicit = explicit or {"findings": [], "verdict": "clean", "reason": "Nichts."}
         self.scripts: list[str] = []
 
-    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+    def complete_json(self, system: str, user: str, schema: dict, **cache) -> dict:
         if "verdict" in schema["properties"]:
             self.scripts.append(user)
             if self.error:
@@ -299,7 +299,7 @@ class SystemRecordingLlm(FakeLlm):
         super().__init__()
         self.ranking_calls: list[tuple[str, str]] = []
 
-    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+    def complete_json(self, system: str, user: str, schema: dict, **cache) -> dict:
         if "ranked_ids" in schema["properties"]:
             self.ranking_calls.append((system, user))
         return super().complete_json(system, user, schema)
@@ -551,7 +551,7 @@ class RetryLlm(FakeLlm):
         super().__init__()
         self.dialogs = 0
 
-    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+    def complete_json(self, system: str, user: str, schema: dict, **cache) -> dict:
         if "turns" in schema["properties"]:
             self.dialogs += 1
             text = "Falsch." if self.dialogs == 1 else "Gut."
@@ -597,7 +597,7 @@ class ContinuationLlm(RetryLlm):
     """The first dialog is bad in turn 1 only; every regenerated turn is bad again; the
     continuation (second dialog call) is good."""
 
-    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+    def complete_json(self, system: str, user: str, schema: dict, **cache) -> dict:
         answer = super().complete_json(system, user, schema)
         if "turns" in schema["properties"] and self.dialogs == 1:
             good = {**answer["turns"][0], "text": "Gut.", "statements": [
@@ -616,9 +616,9 @@ def test_exhausted_turn_budget_continues_the_dialog_and_resume_loads_it(tmp_path
     systems: list[str] = []
     inner = llm.complete_json
 
-    def recording(system: str, user: str, schema: dict) -> dict:
+    def recording(system: str, user: str, schema: dict, **cache) -> dict:
         systems.append(system)
-        return inner(system, user, schema)
+        return inner(system, user, schema, **cache)
 
     llm.complete_json = recording
     episode_id = run(api, llm, tmp_path, CONFIG, "Rotfuchs", NOW, WrongTextJev())
@@ -848,8 +848,17 @@ def test_successful_run_records_end_time_and_token_counts(tmp_path):
             "calls": 1,
             "input_tokens": 1000,
             "output_tokens": 200,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
         },
-        "jev": {"model": "jev-1.14.0", "calls": 0, "input_tokens": 0, "output_tokens": 0},
+        "jev": {
+            "model": "jev-1.14.0",
+            "calls": 0,
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "cache_creation_input_tokens": 0,
+            "cache_read_input_tokens": 0,
+        },
     }
     prices = REAL["prices"]
     assert record.cost["prices"] == {
@@ -860,6 +869,8 @@ def test_successful_run_records_end_time_and_token_counts(tmp_path):
             "jev",
             "gemini_tts_input",
             "gemini_tts_output",
+            "claude_sonnet_cache_write",
+            "claude_sonnet_cache_read",
         )
     }
     audio = json.loads((tmp_path / "episodes" / episode_id / "08_audio.json").read_text())
@@ -884,7 +895,7 @@ def test_failed_run_records_end_time(tmp_path):
 
 
 class CrashingLlm(FakeLlm):
-    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+    def complete_json(self, system: str, user: str, schema: dict, **cache) -> dict:
         raise RuntimeError("connection reset")
 
 

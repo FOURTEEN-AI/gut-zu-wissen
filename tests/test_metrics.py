@@ -552,6 +552,60 @@ def test_mean_cost_when_everything_is_known(tmp_path):
     assert total.total_known_usd == pytest.approx(0.726)
 
 
+CACHED_USAGE = {
+    "author": {
+        "model": "claude-sonnet-5-5",
+        "calls": 4,
+        "input_tokens": 100_000,
+        "output_tokens": 10_000,
+        "cache_creation_input_tokens": 200_000,
+        "cache_read_input_tokens": 1_000_000,
+    },
+    "jev": {**USAGE["jev"], "cache_creation_input_tokens": 0, "cache_read_input_tokens": 0},
+}
+CACHED_STORED = {
+    "prices": {
+        **STORED["prices"],
+        "claude_sonnet_cache_write": 2.5,
+        "claude_sonnet_cache_read": 0.1,
+    },
+    "usd": {"author": 0.9, "jev": 0.021, "tts": 0.09},
+}
+
+
+def test_role_costs_show_cache_tokens_and_the_saving_at_the_stored_prices(tmp_path):
+    write_run(tmp_path, "a", usage=CACHED_USAGE, cost=CACHED_STORED, review_data=review("a", []))
+    write_run(tmp_path, "b", usage=CACHED_USAGE, cost=CACHED_STORED, review_data=review("b", []))
+    total = cost(load_runs(tmp_path), PRICES)  # today's prices differ: the stored ones count
+    author, jev = total.roles
+    assert (author.role, author.models, author.calls) == ("author", ["claude-sonnet-5-5"], 8)
+    assert (author.cache_creation_input_tokens, author.cache_read_input_tokens) == (
+        400_000,
+        2_000_000,
+    )
+    # per run: writes 0.2M * (2 - 2.5) = -0.1, reads 1M * (2 - 0.1) = 1.9
+    assert author.usd == 1.8 and author.cache_saving_usd == 3.6
+    assert (jev.usd, jev.cache_saving_usd) == (0.042, 0.0)
+    text = render_markdown(
+        build_report(load_runs(tmp_path), {"exit_criteria": CRITERIA, "prices": PRICES})
+    )
+    assert (
+        "  - author (claude-sonnet-5-5): 8 calls, input 200,000, cache 400,000 / 2,000,000, "
+        "output 20,000; 1.8000 USD, saved by the cache 3.6000 USD"
+    ) in text
+
+
+def test_older_folders_without_cache_fields_still_load_and_save_nothing(tmp_path):
+    write_run(tmp_path, "a", cost=STORED, review_data=review("a", []))  # usage without cache
+    write_run(tmp_path, "b", review_data=review("b", []))  # no stored cost either
+    total = cost(load_runs(tmp_path), PRICES)
+    author = total.roles[0]
+    assert (author.cache_creation_input_tokens, author.cache_read_input_tokens) == (0, 0)
+    assert author.cache_saving_usd == 0.0
+    assert author.usd == pytest.approx(3.0 + 4.5)  # stored, plus today's prices for "b"
+    assert total.complete
+
+
 # ---------------------------------------------------------------- error rate by revision status
 
 
