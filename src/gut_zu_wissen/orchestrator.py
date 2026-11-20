@@ -113,6 +113,11 @@ class GateFailure(Exception):
     """A gate or the retry budgets stopped the run; the message is the notice for the owner."""
 
 
+class JevAbortFailure(GateFailure):
+    """Jev aborted the run (design: error table). The daily run does not look for a substitute
+    article then: it escalates and the episode is dropped."""
+
+
 @dataclass
 class Offer:
     """The facts offered to the dialog author; `einordnung` are the orientation facts, offered
@@ -764,7 +769,7 @@ def orchestrate(
                 raise GateFailure(final)
             return state
     except JevAbortError as exc:
-        raise GateFailure(f"Jev aborted the run: {exc}") from exc
+        raise JevAbortFailure(f"Jev aborted the run: {exc}") from exc
     raise GateFailure(
         f"Conversation regeneration budget used up ({quotas['conversation_retries']}x): "
         f"{last_reason}"
