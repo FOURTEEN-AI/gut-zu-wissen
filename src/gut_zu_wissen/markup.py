@@ -17,18 +17,18 @@ from collections.abc import Sequence
 from gut_zu_wissen.dialog import Turn, TurnProblem
 
 MARKUP_RULES: tuple[tuple[str, re.Pattern[str]], ...] = (
-    ("wiki link", re.compile(r"\[\[|\]\]")),
-    ("external link", re.compile(r"\[(?:https?:)?//")),
-    ("template or table", re.compile(r"\{\{|\}\}|\{\|")),
-    ("pipe", re.compile(r"\|")),
-    ("bold or italic quotes", re.compile(r"''")),
-    ("heading", re.compile(r"==")),
-    ("HTML tag or comment", re.compile(r"</?[A-Za-z!][^>]*>")),
-    ("HTML entity", re.compile(r"&(?:[A-Za-z]+|#\d+|#x[0-9A-Fa-f]+);")),
-    ("magic word", re.compile(r"__[A-Z]+__")),
-    ("signature", re.compile(r"~~~")),
-    ("line-start marker", re.compile(r"^[ \t]*(?:[*#:;]|-{4})", re.MULTILINE)),
-    ("footnote marker", re.compile(r"\[\d+\]")),
+    ("Wiki-Link", re.compile(r"\[\[|\]\]")),
+    ("externer Link", re.compile(r"\[(?:https?:)?//")),
+    ("Vorlage oder Tabelle", re.compile(r"\{\{|\}\}|\{\|")),
+    ("senkrechter Strich", re.compile(r"\|")),
+    ("Fett- oder Kursiv-Apostrophe", re.compile(r"''")),
+    ("Überschrift", re.compile(r"==")),
+    ("HTML-Tag oder -Kommentar", re.compile(r"</?[A-Za-z!][^>]*>")),
+    ("HTML-Entität", re.compile(r"&(?:[A-Za-z]+|#\d+|#x[0-9A-Fa-f]+);")),
+    ("Magic Word", re.compile(r"__[A-Z]+__")),
+    ("Signatur", re.compile(r"~~~")),
+    ("Zeichen am Zeilenanfang", re.compile(r"^[ \t]*(?:[*#:;]|-{4})", re.MULTILINE)),
+    ("Fußnotenmarker", re.compile(r"\[\d+\]")),
 )
 
 
@@ -48,5 +48,10 @@ def markup_problems(turns: Sequence[Turn]) -> list[TurnProblem]:
     for turn in turns:
         found = find_markup(turn.text)
         if found:
-            problems.append(TurnProblem(turn.index, f"Markup in text: {', '.join(found)}."))
+            problems.append(
+                TurnProblem(
+                    turn.index,
+                    f"Markup im Text: {', '.join(found)}. Schreibe reinen Sprechtext ohne Markup.",
+                )
+            )
     return problems

@@ -260,13 +260,22 @@ def check_turns(turns: Sequence[Turn], offered_ids: Collection[str]) -> list[Tur
     problems: list[TurnProblem] = []
     for turn in turns:
         if turn.speaker not in SPEAKERS:
-            problems.append(TurnProblem(turn.index, f"Unknown speaker '{turn.speaker}'."))
+            problems.append(
+                TurnProblem(
+                    turn.index,
+                    f"Unbekannte Person „{turn.speaker}“. Es sprechen nur Lena und Felix.",
+                )
+            )
         if not turn.text.strip():
-            problems.append(TurnProblem(turn.index, "Empty text."))
+            problems.append(TurnProblem(turn.index, "Der Redebeitrag ist leer."))
         for statement in turn.statements:
             if not statement.fact_ids:
                 problems.append(
-                    TurnProblem(turn.index, f"Statement without fact IDs: {statement.text}")
+                    TurnProblem(
+                        turn.index,
+                        f"Aussage ohne Kennungen: {statement.text} Jede Aussage braucht die "
+                        "Kennungen der Fakten, die sie tragen; sonst lässt du sie weg.",
+                    )
                 )
         unknown = unknown_fact_ids(turn, offered_ids)
         if unknown:

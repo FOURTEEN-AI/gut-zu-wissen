@@ -51,11 +51,11 @@ def test_plain_spoken_text_passes(text):
 
 
 def test_finding_names_rule_and_match():
-    assert find_markup("In [[Paris]].") == ["wiki link '[['"]
+    assert find_markup("In [[Paris]].") == ["Wiki-Link '[['"]
 
 
 def test_markup_problems_name_the_turn():
     turns = [Turn(0, "Lena", "Sauber.", []), Turn(1, "Felix", "Mit [[Link]].", [])]
     problems = markup_problems(turns)
     assert [p.turn_index for p in problems] == [1]
-    assert problems[0].reason.startswith("Markup in text: wiki link")
+    assert problems[0].reason.startswith("Markup im Text: Wiki-Link")

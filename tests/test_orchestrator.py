@@ -489,7 +489,7 @@ def test_accepted_turn_with_markup_is_regenerated_as_a_gate_problem():
     state = run(author, FakeJev(cascade=[0.99]))
     first = state.regenerations[0]
     assert (first.turn_index, first.kind) == (1, "retry")
-    assert first.reason.startswith("Markup in text: wiki link")
+    assert first.reason.startswith("Markup im Text: Wiki-Link")
     assert state.dialog.turns[1].text == "In Paris."
     assert all(j.accepted for j in state.judgements)
 
