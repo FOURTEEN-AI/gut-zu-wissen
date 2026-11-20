@@ -121,6 +121,17 @@ written = "Andikythira"
 spoken = "Andikütira"
 heard = ["Antikythera", "Antikytheros", "Antikythira", "Andikythera"]
 
+# "Griechisch sprach": the voice swallows the "sch" before "sprach", Whisper writes "Grieche".
+[[pronunciation]]
+written = "Griechisch"
+spoken = "Griechisch"
+heard = ["Grieche"]
+
+[[pronunciation]]
+written = "Belles Montres"
+spoken = "Belles Montres"
+heard = ["Bellemont", "Belle Monte", "Belle Montre", "Bel Montre"]
+
 [prices]
 # Feed the per-episode cost log. USD per million tokens unless stated otherwise.
 claude_sonnet_input = 2.00          # Claude Sonnet 5.5, Anthropic list price (as of 2026-11)
