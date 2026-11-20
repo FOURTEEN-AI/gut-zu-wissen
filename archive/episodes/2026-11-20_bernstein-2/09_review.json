@@ -265,9 +265,11 @@
       "sampled": true
     }
   ],
-  "status": "pending",
-  "outcome": null,
-  "rate_applied": [],
+  "status": "answered",
+  "outcome": "clean",
+  "rate_applied": [
+    "clean"
+  ],
   "issue": 4,
   "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/4",
   "explicit": {
@@ -276,10 +278,10 @@
     "verdict": "clean",
     "findings": [],
     "reason": "Die Folge behandelt sachlich Bernstein: Herkunft, Wortgeschichte, Handel, Fälschungen und Nutzung. Die Todesstrafe (25), die Brandbomben mit Phosphor (39) und der Ausdruck „Rausch“ (22, bildlich gemeint) werden nur beiläufig erwähnt, nicht drastisch geschildert. Schimpfwörter, Sexualität oder Drogen kommen nicht vor.",
-    "label": null,
-    "reviewer_flag": null,
+    "label": "correct",
+    "reviewer_flag": false,
     "note": null,
-    "comment_id": null
+    "comment_id": 7042009221
   },
   "turns": [
     {
@@ -316,9 +318,9 @@
         "jev_error": null,
         "reason": "Felix' Aussage, Bernstein sei ein gelblicher Stein aus dem Ostseeraum, folgt aus dem Fakt-Satz: Dort heißt es, er sei ein im Ostseeraum verbreiteter gelber oder gelbbrauner Schmuckstein. Die Frage \"Was ist das eigentlich genau?\" ist eine Nachfrage bzw. Bitte um Erklärung und braucht keinen Beleg. Die Themenankündigung ist eine Überleitung. Es gibt keine zusätzlichen Angaben."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 1,
@@ -371,9 +373,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 2,
@@ -429,9 +431,9 @@
         "jev_error": null,
         "reason": "Der Beitrag ist eine Nachfrage. Die Bemerkung „das klingt nach Labor“ ist ein persönlicher Eindruck des Sprechers und kein Faktenanspruch. Die Frage, ob Succinit dasselbe ist wie Baltischer Bernstein, setzt nur voraus, dass beide Bezeichnungen existieren. Das stützt Fakt 271638927-0019, der sagt, dass beide Namen oft synonym verwendet werden. Es kommt keine unbelegte Behauptung vor."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 3,
@@ -489,9 +491,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Die synonyme Verwendung von Succinit und Baltischem Bernstein wegen des weitaus überwiegenden Succinit-Anteils steht in 0019. Dass die anderen fossilen Harze von unterschiedlichen Pflanzenarten stammen und auch „Bernstein im weiteren Sinne“ heißen, steht in 0020. Das einleitende „Fast.“ ist eine belegfreie Reaktion."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 5,
@@ -534,9 +536,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 6,
@@ -572,9 +574,9 @@
         "jev_error": null,
         "reason": "Felix' Aussage „Aus Luchsurin“ greift die zitierte Annahme zur Entstehung des Bernsteins aus dem Urin des Luchses auf, und die Wertung „skurril“ ist ein Gefühl im Moment. Die Frage, warum der Luchs Luchs heißt, ist eine Nachfrage ohne Tatsachenbehauptung. Es kommt keine unbelegte Angabe hinzu."
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "supported",
+      "note": "Abschweifung zur Namensherkunft des Luchses",
+      "comment_id": 7042009221
     },
     {
       "turn_index": 7,
@@ -617,9 +619,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "supported",
+      "note": "Luchs-Etymologie hat keinen Bezug zum Bernstein",
+      "comment_id": 7042009221
     },
     {
       "turn_index": 9,
@@ -670,9 +672,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 10,
@@ -717,9 +719,9 @@
         "jev_error": null,
         "reason": "Die Aussage, dass das Wort Glas vom Bernstein abstammt, folgt aus [271638927-0050] (glesum als Ursprung von Glas) und [272209778-0000] (germanisch glasa, auch für Bernstein). Die Frage, ob Bernstein eine Art Glas sei, ist eine Nachfrage ohne neue Behauptung; ihre Prämisse ist durch die Fakten gedeckt."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 11,
@@ -755,9 +757,9 @@
         "jev_error": null,
         "reason": "Die Aussage, dass natürlicher Bernstein sowie transparente Kunststoffe wie Acrylglas organische Gläser sind, steht wörtlich in Fakt 272209778-0005. Die einleitende Wendung „Tatsächlich, in einem bestimmten Sinn“ ist eine Reaktion ohne neue Information."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 12,
@@ -804,9 +806,9 @@
         "jev_error": null,
         "reason": "Felix' Beitrag ist eine Reaktion mit Nachfrage: „Spannend“ ist ein Gefühl im Moment. Die Prämisse, Bernstein habe etwas mit Elektrizität zu tun, folgt aus den Fakten: Gilbert leitete „Elektrizität“ vom griechischen Wort für Bernstein ab, und geriebener Bernstein zieht Teilchen an. Er fügt keine unbelegte Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 13,
@@ -859,9 +861,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Geriebener Bernstein zieht Teilchen an (als klassisches Beispiel, 0003), und der Begriff Elektrizität stammt von Gilbert, abgeleitet vom griechischen ēlektron für Bernstein (0161). \"Ja, sogar gleich doppelt\" ist eine belegfreie Reaktion bzw. Überleitung. Der Bezug auf Elektrostatik in der ersten Aussage stammt zwar nicht ausdrücklich aus dem Satz, ist aber keine wesentliche zusätzliche Angabe."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 15,
@@ -904,9 +906,9 @@
         "jev_error": null,
         "reason": "Die Aussagen zu vornehmen antiken Haushalten, dem größeren Bernstein als Kleiderbürste, der elektrostatischen Aufladung durch Gleiten am Stoff und dem Anziehen der Staubteilchen stehen so im Fakt-Satz. Der Einstieg „Ja, im Alltag ließ sie sich nutzen“ ist eine Überleitung ohne neue Information."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 17,
@@ -942,9 +944,9 @@
         "jev_error": null,
         "reason": "Die Behauptung, Bernstein sei schon in der Bronzezeit auf einer sogenannten Bernsteinstraße von der Ostsee in den Mittelmeerraum transportiert worden, steht so im Fakt-Satz 271638927-0345. Das einleitende „Sehr weit“ ist eine belegfreie Reaktion bzw. Überleitung und enthält keine zusätzliche Information."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 18,
@@ -980,9 +982,9 @@
         "jev_error": null,
         "reason": "Felix' Redebeitrag ist eine reine Nachfrage (\"Gibt es dafür auch einen handfesten Fund?\") ohne eigene Behauptung. Er enthält keine neue Information und keine Prämisse, die über die zitierte Aussage zur Bernsteinstraße hinausgeht; als Reaktion braucht er keinen Beleg."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 19,
@@ -1025,9 +1027,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen (Schiffswrack von Uluburun, Untergang im späten 14. Jahrhundert v. Chr. vor der kleinasiatischen Südwestküste, Bernsteinperlen aus dem Ostseeraum an Bord) folgen direkt aus dem zitierten Fakt-Satz; das einleitende „Ja, ein Schiffswrack“ ist eine belegfreie Reaktion bzw. ein Wiederaufgreifen und gedeckt."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 20,
@@ -1063,9 +1065,9 @@
         "jev_error": null,
         "reason": "Die Aussage über Ostsee-Perlen auf einem Schiff vor der heutigen Türkei folgt aus dem Fakt: Bernsteinperlen aus dem Ostseeraum auf dem Schiff von Uluburun vor der kleinasiatischen Südwestküste. Die Frage nach dem Wert ist eine belegfreie Nachfrage und führt keine neue Behauptung ein."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 21,
@@ -1117,9 +1119,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 23,
@@ -1158,9 +1160,9 @@
         "jev_error": null,
         "reason": "Die Aussage über Plinius den Älteren, der tadelt, dass ein kleines Figürchen aus Bernstein teurer sei als ein Sklave, entspricht dem Fakt-Satz 271638927-0367. Das einleitende „Ja“ ist eine belegfreie Reaktion, und es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 24,
@@ -1199,9 +1201,9 @@
         "jev_error": null,
         "reason": "Der erste Satz greift den Fakt (Plinius tadelt, dass ein kleines Bernsteinfigürchen teurer als ein Sklave sei) auf und kommentiert ihn mit einer Wertung (\"harter Tobak\"), ohne neue Angaben. Die Frage nach einer späteren Regelung ist eine offene Nachfrage. Ihre Prämisse, dass mit Bernstein gehandelt wurde, ergibt sich aus dem genannten Preis."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 25,
@@ -1246,9 +1248,9 @@
         "jev_error": null,
         "reason": "Lenas Aussagen zu Sammeln und Verkauf von Bernstein auf eigene Rechnung, zur Ahndung und zur zeitweiligen Todesstrafe in besonders schweren Fällen stimmen mit dem Fakt-Satz überein. „Und wie.“ ist eine belegfreie Reaktion, und es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 27,
@@ -1293,9 +1295,9 @@
         "jev_error": null,
         "reason": "Alle Angaben stehen im Fakt-Satz: Göbel, 1558, Nachbildungen (Frosch und Eidechse), Danziger Händler, italienischer Adeliger aus Mantua. Das einleitende „Ja, und zwar schon früh“ ist eine belegfreie Überleitung bzw. Reaktion. Es kommt keine zusätzliche Behauptung hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 29,
@@ -1347,9 +1349,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus dem Fakt-Satz: spätere wiederholte Zweifel an der Echtheit, die Vermutung der Einbettung der Eidechse in Kopal von Menschenhand und das Verschollensein am Ende des Zweiten Weltkrieges. Das einleitende „Ja“ ist eine Reaktion. Der Bezug auf „ein Stück mit einer Eidechse“ ist durch den Fakt-Satz gedeckt, ohne zusätzliche Angaben aus dem Kontext (Königsberg, 1889)."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 30,
@@ -1387,9 +1389,9 @@
         "jev_error": null,
         "reason": "„Verschollen, schade.“ greift das im Fakt Gesagte (verschollen am Ende des Zweiten Weltkrieges) nur wieder auf und fügt eine Gefühlsreaktion hinzu. „Du hast eben Kopal erwähnt“ bezieht sich auf das Gespräch, und der Fakt nennt Kopal tatsächlich. Die Frage nach Kopal heute im Zusammenhang mit Bernstein ist eine Nachfrage ohne neue Behauptung. Der Redebeitrag erfüllt die Rubrik."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 31,
@@ -1439,9 +1441,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen von Lena (Ersatz von Bernstein durch den Kolumbianischen Ambar in den letzten Jahren, Kopal nur an die 200 Jahre alt, künstliche Alterung durch verschiedene Verarbeitungsstufen) stehen im zitierten Fakt-Satz. Das einleitende „Ja, durchaus“ ist eine belegfreie Reaktion."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 32,
@@ -1477,9 +1479,9 @@
         "jev_error": null,
         "reason": "Die Aussage, dass ein Stein künstlich älter gemacht wird, entspricht der künstlichen Alterung des Kopals (Kolumbianischer Ambar) im Fakt-Satz. Die Bewertung „verrückt“ ist eine Reaktion des Staunens im Moment. Die Frage, ob auch echter Bernstein behandelt wird, ist eine Nachfrage ohne neue Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 33,
@@ -1532,9 +1534,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen (höherer Siedepunkt von Öl als Wasser, dadurch Temperaturen, bei denen das fossile Harz weich und durchlässiger wird, und Ausfüllen der winzigen Luftbläschen mit Öl) stehen im Fakt-Satz. Der einleitende Satz „Dabei spielt Öl eine Rolle“ ist eine Überleitung ohne neue Information."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 35,
@@ -1584,9 +1586,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: Bernsteingefäße bei Bluttransfusionen bis zum Zweiten Weltkrieg, zum Teil (etwa in Hamburg) bis 1950, und der Zweck, der Blutgerinnung entgegenzuwirken. Es gibt keine zusätzlichen Angaben. „Sogar in der Medizin“ ist eine Überleitung ohne neue Information."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 37,
@@ -1629,9 +1631,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 39,
@@ -1674,9 +1676,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen (seltene Fälle, Usedom und weitere Gegenden der Ostsee, Klumpen weißen Phosphors, Herkunft aus alten Brandbomben aus dem Zweiten Weltkrieg) stehen so im zitierten Fakt-Satz; es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 41,
@@ -1721,9 +1723,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich korrekt wieder: wiederholt publiziert, sequenzierbare alte DNA aus Bernstein, auch Chloroplasten-DNA, außerdem Proteine und lebensfähige Organismen. Es kommen keine zusätzlichen Angaben hinzu. Der Einstieg \"Mehr, als man denkt\" ist eine belegfreie Reaktion. Die Formulierung \"genannt\" statt \"isoliert\" ist eine leichte Abweichung, ändert aber den Sinn nicht wesentlich."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 42,
@@ -1761,9 +1763,9 @@
         "jev_error": null,
         "reason": "Felix sagt, er müsse \"lebensfähige Organismen\" erst sacken lassen – eine Reaktion bzw. ein Gefühl im Moment, die vom Fakt-Satz ohnehin gedeckt wäre. Die Frage nach dem Alter des ältesten Bernsteins Europas ist eine Nachfrage ohne Prämisse mit Behauptungscharakter. Es gibt keine unbelegte Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 43,
@@ -1806,9 +1808,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Es handelt sich um den Middletonit, etwa 310 Millionen Jahre alt (ausgeschrieben als dreihundertzehn Millionen), aus Steinkohlengruben von Middleton bei Leeds. Es wird keine zusätzliche Angabe gemacht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 45,
@@ -1851,9 +1853,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 46,
@@ -1889,9 +1891,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag enthält nur Reaktionen: Das Staunen über „Viertausendfünfhundert pro Tonne“ greift die Zahl aus [271638927-0559] (4500 Inklusen pro Tonne Bitterfelder Succinit) ohne neue Information wieder auf. „Bitterfeld ist ein gutes Stichwort“ ist eine Überleitung, und die Frage nach Überraschungen ist eine Nachfrage ohne zusätzliche Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 47,
@@ -1934,9 +1936,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen (Jahr 1955, Tagebau Goitzsche östlich von Bitterfeld, kurzzeitiges Anschneiden der Bernstein führenden Schichten, zum Teil große Brocken nicht als Bernstein erkannt, Bezeichnung als Retinit) stehen im zitierten Fakt-Satz. Das einleitende „Ja“ ist eine belegfreie Reaktion. Es kommen keine zusätzlichen Angaben hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 48,
@@ -1972,9 +1974,9 @@
         "jev_error": null,
         "reason": "„Sie haben den Bernstein also übersehen“ greift den Fakt auf: 1955 wurden die Brocken im Tagebau Goitzsche nicht als Bernstein erkannt, sondern als Retinit bezeichnet. „Was ist Retinit eigentlich?“ ist eine belegfreie Nachfrage. Es kommt keine zusätzliche Behauptung hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 49,
@@ -2012,9 +2014,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 50,
@@ -2052,9 +2054,9 @@
         "jev_error": null,
         "reason": "Der erste Satz („Die Endung führt also in die Irre“) greift Fakt 253224495-0001 auf: Die Endung „…it“ lässt ein Mineral vermuten, Retinit ist aber keines. Der zweite Satz ist eine Nachfrage zu Bernstein in der DDR und damit belegfrei. Es kommt keine unbelegte Behauptung vor."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 51,
@@ -2106,9 +2108,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen von Lena stehen im Fakt-Satz [271638927-0511]: der starke Rückgang der Bernsteinimporte als Grund für die schnell aufgenommene Förderung, die Senkung der jährlichen Lieferungen der Sowjetunion in den 1970er-Jahren von zehn Tonnen auf eine und die Gefährdung der Schmuckproduktion im VEB Ostseeschmuck in Ribnitz-Damgarten. Es kommt keine zusätzliche Angabe hinzu. Das einleitende „Ja“ ist eine belegfreie Reaktion."
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "supported",
+      "note": "„so schnell aufgenommene Förderung“ ist im Gespräch nicht eingeführt",
+      "comment_id": 7042009221
     },
     {
       "turn_index": 52,
@@ -2146,9 +2148,9 @@
         "jev_error": null,
         "reason": "Felix' Beitrag ist eine Nachfrage, die um Erklärung zum VEB Ostseeschmuck bittet. Sie enthält keine eigene Behauptung, und der Name des Betriebs steht im zitierten Fakt. Der Beitrag ist daher belegfrei und erfüllt die Rubrik."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 53,
@@ -2193,9 +2195,9 @@
         "jev_error": null,
         "reason": "Beide Aussagen folgen aus dem Fakt-Satz: Der VEB Ostseeschmuck war in der DDR der bedeutendste Produzent und Exporteur von mit Bernstein verziertem Silberschmuck, und aus ihm ist das Unternehmen (Ostsee-Schmuck GmbH) entstanden. Es wird keine zusätzliche Angabe gemacht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     },
     {
       "turn_index": 55,
@@ -2341,10 +2343,20 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus den zitierten Fakt-Sätzen: Schmuckstein aus fossilem Harz (0017), Glas aus glesum (0050), Elektrizität aus ēlektron (0161), Kleiderbürste (0041), Figürchen teurer als ein Sklave (0367), Bernsteinstraße in der Bronzezeit (0345), Middletonit mit etwa 310 Millionen Jahren (0248) und künstlich gealterter Ersatz (0762). Es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7042009221
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "comment_id": 7042009221,
+      "url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/4#issuecomment-7042009221",
+      "created_at": "2026-11-20T14:26:19Z",
+      "updated_at": "2026-11-20T14:26:19Z",
+      "review_lines": 44,
+      "applied": true,
+      "errors": []
+    }
+  ]
 }
