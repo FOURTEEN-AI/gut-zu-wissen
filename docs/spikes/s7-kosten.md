@@ -255,6 +255,28 @@ The recommended set is **prompt caching only**:
 5. **Not in scope, but the biggest remaining output item:** the dialog author (write and regenerations, about 26 % of Helgoland). Measuring effort there needs a quality check of whole dialogs (judge pass rate, review), not only token counts.
 6. **Message Batches for extraction (an observation, outside the five levers):** extraction calls are independent of each other. As a batch they would cost half (Helgoland −$0.26 without caching). The batches in this spike took about 2–10 minutes each.
 
+## Nachtrag: Extraktion als Batch
+
+**Question (user decision 2026-11-20, measure only):** is the Message Batches API worth it for extraction after the switch to Claude Haiku 5.5, given the run time and the 90-minute GitHub Actions timeout?
+
+**Method.** The main-article extraction of Helgoland (65 chunks) and Voynich (45 chunks) from `02_segments.json`, with the production setting: `claude-haiku-5-5`, the production request builder (`request_params`, system prompt with a `cache_control` breakpoint), no effort (Haiku default `medium`). One synchronous run per article as the pipeline makes it (streamed `AnthropicLlm`, one call after the other), then three batch repeats; in each repeat the two articles were submitted at the same time. Wall time = submit until polling (every 10 s) sees the batch ended; the API's own `created_at` → `ended_at` is given in brackets. Overlap = Jaccard of the facts that pass all gates (`extract_facts` with the production renderer). Run on 2026-11-20, `batch_extract` in [spikes/s7_kosten.py](../../spikes/s7_kosten.py), results in `s7_results/batch_extract/haiku_production.json`. Spend $0.15.
+
+| Article | Run | Calls | Wall s | Cache read tok | List $ | Paid $ | Facts | J facts vs sync |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| Helgoland | sync | 65 | 342 | 55,808 | 0.041 | 0.041 | 615 | 1.00 |
+| Helgoland | batch 1 / 2 / 3 | 65 | 342 / 376 / 386 (API 335 / 374 / 383) | 56,680 | 0.039–0.040 | 0.020 | 589 / 581 / 584 | 0.78 / 0.80 / 0.80 |
+| Voynich | sync | 45 | 192 | 39,240 | 0.019 | 0.019 | 229 | 1.00 |
+| Voynich | batch 1 / 2 / 3 | 45 | 342 / 376 / 386 (API 335 / 371 / 376) | 38,368–39,240 | 0.019–0.020 | 0.010 | 236 / 241 / 237 | 0.80 / 0.81 / 0.83 |
+
+- **Cost:** a batch halves the price, as documented: $0.020 instead of $0.041 for Helgoland, $0.010 instead of $0.019 for Voynich. Prompt caching also hit inside the batches (the same read counts as the synchronous run). On Haiku the whole main extraction costs only 2–4 cents, so the saving is **$0.01–0.02 per article**; with the linked intros (30 more calls on Helgoland) about **$0.03 per episode, 2–3 %** of the roughly $1.0 Helgoland would cost with Haiku extraction and caching.
+- **Latency:** every batch took 5.6–6.4 minutes, independent of size. Synchronously, Helgoland took 5.7 minutes, Voynich 3.2. A batch is never faster here, and slower for small articles. The skill names "most batches within 1 hour, at most 24 hours"; S7 saw 2–10 minutes.
+- **Results:** batch and synchronous runs differ as much as two batches differ from each other (J 0.78–0.83 against 0.80–0.85). There is no sign of a systematic difference; the batch is the same model behaviour.
+- **Caching across articles:** the synchronous Voynich run read its system prompt from the cache the Helgoland run had written minutes before (0 writes). The extraction prompt does not depend on the article.
+
+**Pipeline structure.** Extraction is not one batch per run: the linked intros can only be extracted after the main ranking has chosen the link targets, and a fresh conversation (D6) fetches new targets again. A batched run therefore waits for at least two batches one after the other, about 12 minutes or more, where today the synchronous calls take about as long or less. Completed runs take 22–46 minutes today (metrics); a batch that takes an hour, which the API allows, would push a run past the 90-minute timeout.
+
+**Recommendation: do not batch the extraction.** It saves about 3 cents (2–3 %) per episode, makes no run faster, and adds a waiting time without a firm upper bound against a 90-minute timeout, plus the code for submitting, polling, resuming and cancelling batches. Batching would only pay off for a workload that is not on the run's critical path (for example a backfill of many articles), or if extraction ever moves back to a more expensive model.
+
 ## Rerun
 
 Re-evaluate the saved results without API calls:
@@ -275,6 +297,8 @@ uv run --group spikes python spikes/s7_kosten.py judge short_default            
 uv run --group spikes python spikes/s7_kosten.py cache                           # caching replay
 uv run --group spikes python spikes/s7_kosten.py offers                          # offer prefix tokens (free)
 uv run --group spikes python spikes/s7_kosten.py jev                             # lever 5, 2 repeats
+uv run --group spikes python spikes/s7_kosten.py judge title_default             # follow-up: judge with article titles
+uv run --group spikes python spikes/s7_kosten.py batch_extract                   # follow-up: extraction as a batch
 ```
 
 A run overwrites its result file. An unfinished batch resumes from `s7_results/batches/<name>.pending.json`. The render cache for extraction (`tests/fixtures/wikipedia/spikes/s7_cache/`) is not committed and is rebuilt from the Wikipedia API.
