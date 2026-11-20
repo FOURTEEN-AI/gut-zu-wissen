@@ -57,7 +57,7 @@ def build_feed(
     node = _add(root, "channel")
     _add(node, "title", channel["title"])
     _add(node, "link", channel["base_url"])
-    _add(node, "description", channel["description"])
+    _add(node, "description", channel.get("description_html", channel["description"]))
     _add(node, "language", channel["language"])
     _add(node, "copyright", channel["copyright"])
     _add(node, f"{{{ATOM}}}link", href=feed_url, rel="self", type="application/rss+xml")

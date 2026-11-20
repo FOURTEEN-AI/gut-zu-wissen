@@ -210,7 +210,11 @@ def feed_episodes(episodes: list[PublishedEpisode], config: dict) -> list[FeedEp
                 episode_id=e.record.episode_id,
                 title=e.record.title,
                 description=config["episode_description"].format(
-                    title=e.record.title, page_url=page_url
+                    title=html.escape(e.record.title),
+                    page_url=page_url,
+                    feedback_url=feedback_mailto(
+                        config["feedback_address"], e.record.title, e.record.episode_id
+                    ),
                 ),
                 page_url=page_url,
                 audio_url=publication["audio"]["url"],
@@ -237,7 +241,14 @@ def build_site(archive_root: Path, repo_root: Path, out_dir: Path, config: dict)
     files: dict[str, str | bytes] = {
         "index.html": render_index(episodes, config),
         "feed.xml": build_feed(
-            config,
+            {
+                **config,
+                "description_html": config["description_html"].format(
+                    description=html.escape(config["description"]),
+                    base_url=base,
+                    feedback_address=config["feedback_address"],
+                ),
+            },
             feed_episodes(episodes, config),
             f"{base}/feed.xml",
             f"{base}/{config['show_art_file']}",
