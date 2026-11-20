@@ -25,6 +25,7 @@ JUDGEMENT_FILE = "06_judgement.json"
 EXPLICIT_FILE = "07_explicit.json"
 AUDIO_FILE = "08_audio.json"
 REVIEW_FILE = "09_review.json"
+PUBLICATION_FILE = "10_publication.json"
 LINKED_DIR = "linked"
 STATE_DIR = "state"
 REVIEW_STATE_FILE = "review.json"  # sampling rate r (design: archive/state/review.json)
