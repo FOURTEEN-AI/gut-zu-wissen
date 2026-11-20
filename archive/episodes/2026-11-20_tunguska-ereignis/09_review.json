@@ -223,9 +223,11 @@
       "sampled": true
     }
   ],
-  "status": "pending",
-  "outcome": null,
-  "rate_applied": [],
+  "status": "answered",
+  "outcome": "clean",
+  "rate_applied": [
+    "clean"
+  ],
   "issue": 2,
   "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/2",
   "explicit": {
@@ -234,10 +236,10 @@
     "verdict": "clean",
     "findings": [],
     "reason": "Das Gespräch behandelt sachlich das Tunguska-Ereignis, seine Erklärungsversuche und die Darstellung in Literatur und Popkultur. Explosionen, Zerstörung und Kernwaffentests werden nur nüchtern erwähnt, ohne drastische Schilderung. Sexualität, Drogen und derbe Schimpfwörter kommen nicht vor.",
-    "label": null,
-    "reviewer_flag": null,
+    "label": "correct",
+    "reviewer_flag": false,
     "note": null,
-    "comment_id": null
+    "comment_id": 7041783270
   },
   "turns": [
     {
@@ -276,9 +278,9 @@
         "jev_error": null,
         "reason": "Die Behauptung (Experten schätzen, über 2000 km² und rund 60 Millionen umgeknickte Bäume) stimmt mit Fakt 270155664-0007 überein. Der einleitende Satzteil \"Mit den Folgen für die Natur\" ist eine Überleitung ohne eigene Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 3,
@@ -330,9 +332,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 4,
@@ -370,9 +372,9 @@
         "jev_error": null,
         "reason": "Felix fragt nach und greift das Gesagte wieder auf. Die Prämissen (Explosion in der Luft, kein Aufschlag am Boden, deshalb kein Krater) folgen aus dem Fakt-Satz, nach dem das Objekt 5 bis 14 Kilometer über dem Boden explodierte und daher keinen Krater verursachte. Es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 5,
@@ -425,9 +427,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Die Explosion in 5 bis 14 km Höhe und das Ausbleiben eines Kraters stehen in 0036, die vergebliche Suche der Besatzung der Graf Zeppelin bei der Erdumrundung im August 1929 steht in 0022. „So wird es erklärt“ ist eine Überleitung, und „trotzdem gesucht“ ergibt sich als sinnvolle Verbindung der beiden Fakten ohne zusätzliche Angabe."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 6,
@@ -480,9 +482,9 @@
         "jev_error": null,
         "reason": "Die Aussage zum Luftschiff, das bei seiner Erdumrundung nach einem Krater sucht, deckt Fakt 0022 ab. Die Prämisse der Frage, dass ein Körper in der Luft explodiert sein soll, folgt aus Fakt 0036 und ist durch das \"soll\" vorsichtig formuliert. Die Frage nach gefundenen Resten ist eine Nachfrage ohne neue Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 7,
@@ -533,9 +535,9 @@
         "jev_error": null,
         "reason": "Alle drei Aussagen folgen aus den zitierten Fakt-Sätzen. Dass bis heute keine mit bloßem Auge sichtbaren Bruchstücke gefunden wurden, steht in 0041. Die Bezeichnung „Impaktor“ für einen eingeschlagenen Himmelskörper ergibt sich aus der Klammer in 0041. Die Analyse extraterrestrischer Fragmente im Jahr 2013, die schon 1978 im Gebiet gefunden worden waren, steht in 0054. Es wird keine zusätzliche Angabe gemacht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 8,
@@ -574,9 +576,9 @@
         "jev_error": null,
         "reason": "Der Fakt-Satz belegt, dass es die Theorie gab, der Tscheko-See sei der Krater des Tunguska-Ereignisses, und dass russische Wissenschaftler sie 2017 vielleicht widerlegt haben. Die Prämisse der Frage, der See sei zeitweise als gesuchter Krater betrachtet worden, folgt daraus. Der Rest ist eine Nachfrage."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 9,
@@ -622,9 +624,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen stehen im Fakt-Satz: russische Wissenschaftler, Januar 2017, Theorie vielleicht widerlegt, See nach Untersuchungen vermutlich vor über 280 Jahren entstanden. \"Diese Theorie gab es, ja\" ist eine bestätigende Reaktion und wird durch den Fakt-Satz ebenfalls gedeckt. Es kommen keine zusätzlichen Angaben hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 10,
@@ -663,9 +665,9 @@
         "jev_error": null,
         "reason": "Die Aussage, der See sei als Krater womöglich aus dem Rennen, folgt aus dem Fakt: Die Theorie wurde im Januar 2017 „vielleicht widerlegt“. Die vorsichtige Formulierung „womöglich“ entspricht dem „vielleicht“. Der zweite Satz ist eine Nachfrage und damit belegfrei, er enthält keine eigene Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 11,
@@ -703,9 +705,9 @@
         "jev_error": null,
         "reason": "Lenas Aussage gibt den Fakt-Satz inhaltlich korrekt wieder: Messgeräte in Potsdam, zweiter Empfang nach 30 Stunden und 29 Minuten, Signale hatten die Erde einmal umrundet. Es kommen keine zusätzlichen Angaben hinzu. Das einleitende „Ja“ ist eine belegfreie Reaktion."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 12,
@@ -743,9 +745,9 @@
         "jev_error": null,
         "reason": "Felix' Aussage, die Signale seien einmal um die Erde gelaufen und danach ein zweites Mal in Potsdam angekommen, folgt aus dem Fakt-Satz 270155664-0014 (Potsdam empfing die Signale nach 30 Stunden und 29 Minuten ein zweites Mal, nach einer Erdumrundung). Die Frage zum Himmel ist eine Nachfrage ohne eigene Behauptung und braucht keinen Beleg."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 13,
@@ -798,9 +800,9 @@
         "jev_error": null,
         "reason": "Beide Aussagen stehen fast wörtlich in den zitierten Fakt-Sätzen: die silbern leuchtenden Wolken von außergewöhnlichem Glanz über den mittleren Breiten Europas in den folgenden Nächten (0015) und die Möglichkeit, in London eine Zeitung in diesem Licht zu lesen (0062). Das einleitende „Ja“ ist eine belegfreie Reaktion. Es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 15,
@@ -838,9 +840,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 16,
@@ -878,9 +880,9 @@
         "jev_error": null,
         "reason": "Felix greift nur die Zahl \"Fünfzig Megatonnen TNT\" aus dem zitierten Fakt auf und bittet dann um Erklärung. Das ist ein Wiederaufgreifen ohne neue Information plus eine Nachfrage, also belegfrei. Die Zahl stimmt mit dem Fakt überein, es kommt keine zusätzliche Behauptung hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 17,
@@ -925,9 +927,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 18,
@@ -999,9 +1001,9 @@
         "jev_error": null,
         "reason": "Der erste Satz greift die Aussage aus 0001 auf, dass die gesamte freiwerdende Energie gemeint ist. In der Frage ist die Explosion in großer Höhe als Bedingung mit „wenn“ formuliert und deckt sich mit 0036 (5 bis 14 km über dem Boden). Die große Zerstörung am Boden ist durch 0007 belegt (rund 60 Millionen umgeknickte Bäume auf über 2000 km²). Es kommen keine zusätzlichen Angaben hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 19,
@@ -1047,9 +1049,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag gibt den Fakt-Satz 270155664-0034 sinngemäß wieder: ein mächtiger heißer Luftstrahl nach der Explosion eines Kometen in der Höhe, der dessen Weg zum Boden fortsetzt und dort eine stärkere Druckwelle und höhere Temperaturen hervorruft. Die Formulierung \"Dafür gibt es eine Überlegung\" entspricht dem \"könnte\" im Fakt. Zusätzliche Angaben kommen nicht vor."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 20,
@@ -1087,9 +1089,9 @@
         "jev_error": null,
         "reason": "Die Aussage, ein Komet sei eine der Möglichkeiten gewesen, folgt aus dem Fakt-Satz: Dort gilt der Eintritt eines Steinasteroiden oder Kometen als am wahrscheinlichsten. Die Frage nach der Herkunft von Kometen ist eine Nachfrage ohne Behauptung und braucht keinen Beleg."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 21,
@@ -1141,9 +1143,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "supported",
+      "note": "beantwortet die Frage nach der Herkunft von Kometen nicht, wiederholt nur die Tunguska-Erklärung",
+      "comment_id": 7041783270
     },
     {
       "turn_index": 22,
@@ -1181,9 +1183,9 @@
         "jev_error": null,
         "reason": "Die Aussage, ein Asteroid oder Komet gelte als wahrscheinlichste Erklärung, der hoch über dem Boden explodierte und deshalb keinen Krater hinterließ, folgt direkt aus dem Fakt-Satz. Die Details (Größe, Höhe) werden nicht genannt, also nichts hinzugefügt. \"Das ist spannend\" ist eine Reaktion, und die abschließende Frage nach Erklärungen ohne Körper aus dem All ist eine belegfreie Nachfrage."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 23,
@@ -1247,9 +1249,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Die vulkanische Eruption stammt aus [270155664-0003]. Die Erdgas-Explosion mit zehn Millionen Tonnen, der Austritt über Risse aus dem Erdgaslager unter hohem Druck, der Aufstieg in hohe Atmosphärenschichten, die Entzündung durch Reibungselektrizität und das Abbrennen in einer Flammenfront bis zur Austrittsstelle stammen aus [270155664-0058]. Die Formulierung als „andere These“ und der Konjunktiv fügen keine unbelegte Information hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 24,
@@ -1287,9 +1289,9 @@
         "jev_error": null,
         "reason": "Felix fasst den Ablauf aus dem Fakt-Satz zusammen: Gas steigt auf, entzündet sich und brennt in einer Flammenfront bis zur Austrittsstelle (unten) zurück. Das folgt aus [270155664-0058]. Die Frage nach noch ungewöhnlicheren Ideen ist eine belegfreie Nachfrage. Zwar impliziert „noch ungewöhnlichere“ eine Wertung, sie ist aber eine Reaktion im Moment und keine Tatsachenbehauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 25,
@@ -1332,9 +1334,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 27,
@@ -1379,9 +1381,9 @@
         "jev_error": null,
         "reason": "Alle Angaben stehen im Fakt-Satz: der Einschlag eines kleinen Schwarzen Loches, der Absturz eines extraterrestrischen Raumschiffs und die Explosion der zahlreich vorkommenden Mücken, vergleichbar mit einer Staubexplosion und „Mückenexplosion“ genannt. „Ja, einige“ ist eine Antwortreaktion, und die Aufzählung deckt sie. Es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 28,
@@ -1419,9 +1421,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag enthält nur Reaktionen: das erstaunte Wiederaufgreifen von „Mücken“ und der „Explosion wie bei Staub“, was durch den Fakt-Satz gedeckt ist, sowie eine Nachfrage, ob das Ereignis Autoren inspiriert hat. Die Frage setzt keine zusätzliche Behauptung voraus und enthält keine neue Information."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 29,
@@ -1464,9 +1466,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen (1965, Brüder Strugazki, „Der Montag fängt am Samstag an“, humorvolle phantastische These, kontramotes Raumschiff auf der Zeitachse rückwärts, Landung, Entzünden der Taiga, Weiterreise zurück in der Zeit, keine Spuren) stehen im Fakt-Satz. „Das Ereignis“ meint das dort genannte Tunguska-Ereignis. Die einleitende „Ja.“ ist eine belegfreie Reaktion."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 30,
@@ -1502,9 +1504,9 @@
         "jev_error": null,
         "reason": "Die Aussage, das Raumschiff reise rückwärts durch die Zeit und hinterlasse deshalb keine Spuren, folgt direkt aus dem Fakt-Satz (Rückwärtsreise auf der Zeitachse, keine Spuren an der Brandstelle). Die Frage nach weiteren Werken ist eine belegfreie Nachfrage und enthält keine zusätzliche Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 31,
@@ -1547,9 +1549,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus dem Fakt-Satz 270155664-0090: Roman von Christian Kracht, 2008, Tunguska-Ereignis als Auslöser des Wendepunkts, Lenin kehrt nicht aus der Schweiz ins verstrahlte Russland zurück, sondern macht die Schweiz zu einer sozialistischen Räterepublik. Das einleitende „Ja“ ist eine belegfreie Reaktion. Es gibt keine zusätzlichen Angaben."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 32,
@@ -1585,9 +1587,9 @@
         "jev_error": null,
         "reason": "Felix fasst den Fakt zusammen: Lenin kehrt nicht nach Russland zurück, um die Russische Revolution herbeizuführen, sondern bleibt in der Schweiz. Dass die Revolution deshalb ausbleibt, ist eine knappe, naheliegende Wiedergabe des Romanplots. Die Frage zur Popkultur ist eine belegfreie Überleitung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 33,
@@ -1630,9 +1632,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 34,
@@ -1668,9 +1670,9 @@
         "jev_error": null,
         "reason": "Der Beitrag enthält nur eine Reaktion (\"das ist herrlich!\"), ein Wiederaufgreifen der Fakt-Aussage (Nuklearexplosion in der Geschichte, durch [270155664-0101] gedeckt) und eine Nachfrage zu realen Folgen. Die Nachfrage bringt keine neue Behauptung. Die Nennung von Micky Maus und Indiana Goof stimmt mit dem Fakt überein."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 35,
@@ -1706,9 +1708,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich korrekt wieder: Die Zunahme der Radioaktivität in der Erdatmosphäre durch Kernwaffentests führte 1963 zum Vertrag über das Verbot von Kernwaffenversuchen in der Atmosphäre, im Weltraum und unter Wasser. Das einleitende „Ja“ ist eine belegfreie Reaktion; es kommen keine zusätzlichen Angaben hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 37,
@@ -1751,9 +1753,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen stimmen mit dem Fakt-Satz überein: Jahr 2021, die letzten sechs Folgen der zweiten Staffel von UFOs, Deutung als winziges schwarzes Loch, verursacht durch sibirische Ureinwohner bei misslungener Verwendung zurückgelassener außerirdischer Technologie. Die Formulierung „soll“ bewahrt den Konjunktiv des Fakts. Es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     },
     {
       "turn_index": 38,
@@ -1807,9 +1809,9 @@
         "jev_error": null,
         "reason": "Die Aussage zur Serie (zurückgelassene außerirdische Technologie, die im Spiel gewesen sein soll) folgt aus Fakt 0105, die Prämisse der Frage zu Vorstellungen von Raumfahrzeugen hypothetischer Außerirdischer aus Fakt 0004. Die Frage selbst ist eine belegfreie Nachfrage, es kommt keine unbelegte Angabe hinzu."
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "supported",
+      "note": "Themensprung von der UFO-Serie zur Fliegenden Untertasse",
+      "comment_id": 7041783270
     },
     {
       "turn_index": 39,
@@ -1848,9 +1850,9 @@
         "jev_error": null,
         "reason": "Lenas Aussage gibt den Fakt-Satz 270575891-0004 sinngemäß wieder: Das Bild der Fliegenden Untertasse prägt bis heute die Vorstellung vom typischen Aussehen der Raumfahrzeuge hypothetischer Außerirdischer. „Sie bestimmt, wie wir uns ... vorstellen“ ist eine zulässige Umformulierung, es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "supported",
+      "note": "Themensprung, passt nicht zum Tunguska-Ereignis",
+      "comment_id": 7041783270
     },
     {
       "turn_index": 41,
@@ -2001,10 +2003,20 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Steinasteroid/Komet ohne Krater (0036), keine sichtbaren Bruchstücke (0041), Tscheko-See vielleicht widerlegt (0049), Vulkaneruption nicht auszuschließen (0003), Erdgasexplosion (0058), Schwarzes Loch, Raumschiff und Mückenexplosion (0071). Dass das Ereignis in Büchern, Comics und Serien neu erzählt wurde, belegen 0082 (Buch), 0101 (Comic) und 0105 (Serie)."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041783270
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "comment_id": 7041783270,
+      "url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/2#issuecomment-7041783270",
+      "created_at": "2026-11-20T14:16:05Z",
+      "updated_at": "2026-11-20T14:16:05Z",
+      "review_lines": 37,
+      "applied": true,
+      "errors": []
+    }
+  ]
 }
