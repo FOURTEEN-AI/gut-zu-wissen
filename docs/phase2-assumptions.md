@@ -8,7 +8,7 @@ Stand: 2026-11-20. Entstanden, während Andreas abwesend war. Die Quelldokumente
 2. ~~Pages aktivieren~~ erledigt (2026-11-20, per API): Quelle „GitHub Actions“, Adresse `https://fourteen-ai.github.io/gut-zu-wissen/` (bestätigt die Annahme zur Adresse).
 3. **Erster Upload mit einer Testfolge**, bevor die echte Folge live geht. Der Upload ist nur gegen Fakes getestet (siehe unten).
 4. **Spotify-Einreichung** (manuell, einmalig) mit der Feed-URL; die Bestätigungsmail geht an gut-zu-wissen@fourteen-it.de.
-5. Die **Datenschutz-Aussagen** zu IONOS-Auftragsverarbeitungsvertrag und DPF-Zertifizierung von GitHub bestätigen.
+5. ~~Datenschutz-Aussagen zu IONOS-Auftragsverarbeitungsvertrag und DPF-Zertifizierung von GitHub bestätigen~~ erledigt (bestätigt von Andreas, 2026-11-20).
 
 ## Internet Archive: Testupload vom 2026-11-20 (live)
 
