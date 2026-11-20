@@ -10,13 +10,19 @@ Stand: 2026-11-20. Entstanden, während Andreas abwesend war. Die Quelldokumente
 4. **Spotify-Einreichung** (manuell, einmalig) mit der Feed-URL; die Bestätigungsmail geht an gut-zu-wissen@fourteen-it.de.
 5. Die **Datenschutz-Aussagen** zu IONOS-Auftragsverarbeitungsvertrag und DPF-Zertifizierung von GitHub bestätigen.
 
-## Annahmen zum Internet Archive (ungeprüft gegen den Live-Dienst)
+## Internet Archive: Testupload vom 2026-11-20 (live)
 
-- Die `x-archive-meta*`-Header gelten nur beim Anlegen eines Items; deshalb sendet `publish` sie nur, wenn `item_exists` falsch liefert.
-- Der Metadaten-Endpunkt (`archive.org/metadata/<id>`) antwortet für ein nicht vorhandenes Item mit `{}` und Status 200.
-- Die Dateiliste eines neuen Items zeigt die Dateien nach höchstens 15 Minuten (`ready_timeout_seconds`). Bis dahin gilt die Folge nicht als veröffentlicht.
-- Sammlung `opensource_audio`, Medientyp `audio`, Derivate aus (`x-archive-queue-derive: 0`). Folge: Das Item hat keine automatische Vorschaugrafik und keine Streaming-Derivate.
-- Die Download-URL `archive.org/download/<id>/<datei>` leitet auf einen Storage-Server weiter. Spotify und Apple folgen Weiterleitungen in der Regel. Falls eine Plattform den Feed ablehnt, wäre das die erste Stelle zum Suchen.
+Mit einer 3-Sekunden-Testdatei, Item `gut-zu-wissen-test_2026-11-20_helgoland` in `test_collection` (Archive-Konto aus `.env`; echtes Archiv und Folgen-Archiv unberührt, Pipeline lief über eine temporäre Archivkopie).
+
+- **Bestätigt:** Die Metadaten-Header beim ersten PUT werden übernommen (Titel, Sprache `ger`, Lizenz CC BY-SA 4.0, Datum, Schlagwörter, Medientyp `audio`). Ein neues Item meldet `item_exists` = falsch. Beide Dateien erscheinen in der Dateiliste (`episode.mp3` 49298 Bytes, `cover.png` 107831 Bytes), danach setzt `publish` die Folge auf `published`.
+- **Download-URL:** `archive.org/download/<id>/episode.mp3` antwortet mit 302 und dann 200, `audio/mpeg` mit richtiger Länge; für das Cover `image/png`. Die Weiterleitung bleibt eine Stelle zum Suchen, falls Spotify oder Apple den Feed ablehnen.
+- **Dauer bis zur Listung:** einige Minuten (Limit 15 Minuten in der Config; nicht ausgereizt).
+- **Abweichung:** Das Archive legt trotz abgeschalteter Derivate eine Vorschaugrafik (`__ia_thumb.jpg`) und eine Torrent-Datei an. Unkritisch.
+- **Sammlung:** Zum Testeintrag in `test_collection` hat das Archive automatisch `community` ergänzt, das Item ist öffentlich sichtbar. Das Testitem kann nur über das Archive-Konto gelöscht werden (archive.org, Item verwalten). Ob echte Folgen in `opensource_audio` ohne Prüfung angenommen werden, ist damit **nicht** getestet. Ein Konto ohne Sonderrechte darf nach meiner Kenntnis dort hochladen; bestätigt der erste echte Upload.
+
+## Annahmen zum Internet Archive (weiterhin offen)
+
+- Die Dateiliste eines neuen Items zeigt die Dateien nach höchstens 15 Minuten.
 - Item-Kennung: `gut-zu-wissen_<Folgen-ID>`. Bei mehr als 100 Zeichen wird gekürzt und ein Hash angehängt.
 
 ## Annahmen zur Site und zum Feed
