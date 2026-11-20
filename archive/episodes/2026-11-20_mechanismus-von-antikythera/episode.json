@@ -3,10 +3,10 @@
   "title": "Mechanismus von Antikythera",
   "status": "failed",
   "started_at": "2026-11-20T17:09:43Z",
-  "finished_at": "2026-11-20T17:36:15Z",
+  "finished_at": "2026-11-20T18:56:40Z",
   "published_at": null,
   "explicit": false,
-  "failure": "STT verification: section 0 still changes the statement after 2 resyntheses: 'Ding' heard as 'dem' (Das Wort „Ding“ fehlt, stattdessen steht „dem“. Das Bezugswort der Frage geht verloren, der Inhalt ändert sich.)",
+  "failure": "STT verification: section 0 still changes the statement after 2 resyntheses: 'Andikythira' heard as 'Antikytheros' („Andikythira“ wurde als „Antikytheros“ wiedergegeben. Der alternative Inselname klingt deutlich anders, besonders die Endung, also ein anderer Name.)",
   "usage": {
     "author": {
       "model": "claude-sonnet-5-5",
@@ -18,9 +18,9 @@
     },
     "llm_judge": {
       "model": "claude-sonnet-5-5",
-      "calls": 58,
-      "input_tokens": 45257,
-      "output_tokens": 15914,
+      "calls": 61,
+      "input_tokens": 63675,
+      "output_tokens": 17390,
       "cache_creation_input_tokens": 797,
       "cache_read_input_tokens": 41444
     },
@@ -57,12 +57,19 @@
     },
     "usd": {
       "author": 0.8632,
-      "llm_judge": 0.2558,
+      "llm_judge": 0.3074,
       "jev": 0.0042,
       "extraction": 0.0254,
       "tts": null
     }
   },
   "failed_step": "audio",
-  "resumed": []
+  "resumed": [
+    {
+      "started_at": "2026-11-20T18:47:24Z",
+      "workflow_run": "44795940162",
+      "previous_finished_at": "2026-11-20T17:36:15Z",
+      "previous_failure": "STT verification: section 0 still changes the statement after 2 resyntheses: 'Ding' heard as 'dem' (Das Wort „Ding“ fehlt, stattdessen steht „dem“. Das Bezugswort der Frage geht verloren, der Inhalt ändert sich.)"
+    }
+  ]
 }
