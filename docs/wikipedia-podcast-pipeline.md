@@ -140,6 +140,8 @@ Alle Textversionen werden archiviert (inkl. STT-Transkripte und Diff-Entscheidun
 - **Lautheit:** Normalisierung auf −16 LUFS mit True-Peak-Limiter (Decke −1,5 dBTP). Die Synthese liefert rund −20 LUFS; ohne Limiter würde die Verstärkung die Spitzen übersteuern.
 - **Verifikation:** Whisper lokal im Actions-Runner (Modellgröße nach Messung), Diff gegen bereinigtes Skript; vorher normalisiert (Zahlwörter, Satzzeichen, Groß-/Kleinschreibung).
 - **Abweichung:** LLM entscheidet, ob sie die Aussage ändert; nur dann Neusynthese des betroffenen Abschnitts (siehe Fehlerbehandlung).
+- **Verschluckte Kleinstwörter (Entscheidung 2026-11-20):** Hört Whisper ein kleines Wort oder eine Endung nur verschluckt oder zusätzlich („Zeigt dir“ statt „Zeigte“, „Grieche“ statt „Griechisch“) und behält der Satz seinen Sinn, ändert das die Aussage nicht. Zahlen, Daten, Namen, Verneinungen und Wörter mit anderer Bedeutung bleiben streng; im Zweifel gilt die Aussage als verändert.
+- **Aussprache-Lexikon (Entscheidung 2026-11-20):** Für Namen, die die Stimme falsch spricht oder die Whisper in üblicher Schreibung statt wie gesprochen schreibt. Einträge `written`, `spoken`, `heard`: `spoken` geht statt `written` nur an die TTS, `heard`-Varianten zählen im Transkript als `written` (außer sie stehen selbst im Skript). Skript und Archiv behalten die Originalschreibung. Das Lexikon steht in der Config (`[[pronunciation]]`, gilt für alle Folgen); eine Folge kann es mit `pronunciation.json` im Folgenordner ergänzen (von Hand gepflegt, Folgeneinträge haben Vorrang). Das gültige Lexikon steht in `08_audio.json`.
 
 ## Feedback und Kalibrierung
 
