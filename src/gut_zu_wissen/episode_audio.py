@@ -31,6 +31,7 @@ from gut_zu_wissen import audio
 from gut_zu_wissen.dialog import Turn
 from gut_zu_wissen.llm import LlmError, StructuredLlm
 from gut_zu_wissen.markup import markup_problems
+from gut_zu_wissen.pronunciation import canonicalize, respell
 from gut_zu_wissen.stt import Stt, SttError
 from gut_zu_wissen.tts import SectionError, Tts, TtsError, split_sections, voices_of
 from gut_zu_wissen.usage import TTS_PRICE_KEYS
@@ -230,11 +231,13 @@ def _verified_section(
     """Synthesise and verify one section, resynthesising within the budget; the accepted audio."""
     budget = config["quotas"]["audio_section_retries"]
     script = " ".join(text for _, text in section_turns)
+    lexicon = config.get("pronunciation", [])
+    spoken_turns = [(speaker, respell(text, lexicon)) for speaker, text in section_turns]
     while True:
         attempt = AttemptRecord(len(section.attempts))
         section.attempts.append(attempt)
         try:
-            result = tts.synthesize(section_turns)
+            result = tts.synthesize(spoken_turns)
             y, sr = audio.decode(result.audio)
         except (TtsError, audio.AudioError) as exc:
             raise AudioStepError(f"TTS section {section.index}: {exc}") from exc
@@ -251,7 +254,11 @@ def _verified_section(
         audio.write(work_dir / section.file, y, sr)
         try:
             attempt.transcript = stt.transcribe(y, sr)
-            attempt.deviations = diff(script, attempt.transcript, config["stt"]["context_words"])
+            attempt.deviations = diff(
+                script,
+                canonicalize(attempt.transcript, script, lexicon),
+                config["stt"]["context_words"],
+            )
             decide_deviations(decision_llm, section_turns, attempt.transcript, attempt.deviations)
         except (SttError, LlmError) as exc:
             raise AudioStepError(f"STT verification, section {section.index}: {exc}") from exc
