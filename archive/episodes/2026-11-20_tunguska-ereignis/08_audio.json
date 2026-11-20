@@ -1,0 +1,503 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Lena": "de-de-advisor-3",
+    "Felix": "de-de-tutor-4"
+  },
+  "section_max_chars": 6000,
+  "stt_model": "large-v3",
+  "section_retries": 2,
+  "sections": [
+    {
+      "index": 0,
+      "turn_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "chars": 4244,
+      "file": "sections/00.flac",
+      "seconds": 246.04,
+      "input_tokens": 1988,
+      "output_tokens": 12430,
+      "usd": 0.1129,
+      "verified": true,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seconds": 251.16,
+          "input_tokens": 994,
+          "output_tokens": 6279,
+          "usd": 0.057,
+          "transcript": "Lena, heute geht es um das Tunguska-Ereignis. Womit steigen wir ein? Mit den Folgen für die Natur. Experten schätzen, dass auf einem Gebiet von über 2000 Quadratkilometern rund 60 Millionen Bäume umgeknickt wurden. Das ist ja unfassbar. Weiß man denn, was das verursacht hat? Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder eines Kometen von geringer Dichte. Der Körper hatte einen Durchmesser von 30 bis 80 Metern. Er explodierte etwa 5 bis 14 Kilometer über dem Boden. Deshalb hat er keinen Krater verursacht. Moment, er ist also in der Luft explodiert und gar nicht auf dem Boden aufgeschlagen. Und gerade deshalb gibt es keinen Krater? So wird es erklärt. Die Explosion fand in 5 bis 14 Kilometern Höhe statt. Gesucht wurde trotzdem nach einem Krater. Die Besatzung des Luftschiffes Graf Zeppelin suchte bei dessen Erdumrundung im August 1929 vergeblich danach. Ein Luftschiff, das bei seiner Erdumrundung nach einem Krater sucht? Hat man später wenigstens Reste von dem Körper gefunden, der da in der Luft explodiert sein soll? Mit bloßem Auge sichtbare Bruchstücke eines eingeschlagenen Himmelskörpers wurden bis heute nicht gefunden. Einen solchen Himmelskörper nennt man Impaktor. Allerdings wurden im Jahr 2013 extraterrestrische Fragmente analysiert, die schon im Jahr 1978 in dem Gebiet gefunden worden waren. Dann gibt es noch den Tschechosee. Der galt auch zeitweise als der gesuchte Krater, oder? Diese Theorie gab es, ja. Russische Wissenschaftler haben sie im Januar 2017 vielleicht widerlegt. Nach ihren Untersuchungen dürfte der See nämlich schon vor über 280 Jahren entstanden sein. Der See ist als Krater also womöglich aus dem Rennen. Hat man das Ereignis denn auch weit weg gemessen? Ja, die Messgeräte in Potsdam empfingen die Signale nach 30 Stunden und 29 Minuten ein zweites Mal. Da hatten die Signale die Erde einmal umrundet. Die Signale sind also einmal um die ganze Erde gelaufen und dann noch einmal in Potsdam angekommen. Und am Himmel? Gab es dort etwas zu sehen? Ja, während der folgenden Nächte zeigten sich über den mittleren Breiten Europas silbernleuchtende Wolken von außergewöhnlichem Glanz. In London war es zum Beispiel möglich, eine Zeitung in diesem Licht zu lesen. Wahnsinn. Zurück zur Explosion selbst. Wie stark war sie denn? Manche gingen noch in den 80er Jahren von bis zu 50 Megatonnen TNT aus. 50 Megatonnen TNT. Was sagt so eine Angabe eigentlich aus? Die Angabe bezieht sich auf die gesamte frei werdende Energie. Sie meint nicht nur einen Teil davon, nämlich die kinetische Energie. Bei Kernwaffen zum Beispiel kann dieser Teil deutlich geringer sein als die Gesamtenergie. Es zählt also die ganze Energie. Aber wenn der Körper hoch oben explodiert ist, wie kam dann so viel Zerstörung unten am Boden zustande? Dafür gibt es eine Überlegung. Ein mächtiger heißer Luftstrahl könnte nach der Explosion eines Kometen in der Höhe dessen Weg zum Boden fortsetzen. Er würde dort eine stärkere Druckwelle und höhere Temperaturen hervorrufen. Ein Komet war ja eine der Möglichkeiten. Woher kommen Kometen eigentlich? Für das Tunguska-Ereignis gilt, als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder eines Kometen von geringer Dichte. Der Körper hatte einen Durchmesser von 30 bis 80 Metern. Er explodierte etwa 5 bis 14 Kilometer über dem Boden und verursachte deshalb keinen Krater. Das ist spannend. Als wahrscheinlichste Erklärung gilt also ein Asteroid oder Komet, der hoch über dem Boden explodierte und deshalb keinen Krater hinterließ. Gibt es auch Erklärungen ganz ohne so einen Körper aus dem All? Ja, nach neueren Erkenntnissen ist auch eine vulkanische Eruption nicht auszuschließen. Eine andere These erklärt das Ereignis als Explosion von 10 Millionen Tonnen Erdgas. Das Gas sei über Risse aus einem unterirdischen natürlichen Erdgaslager unter hohem Druck entwichen. Es sei mit hoher Geschwindigkeit bis in hohe Atmosphärenschichten aufgestiegen und habe sich durch Reibungselektrizität entzündet. Dann sei es in einer Flammenfront bis hinunter zur Austrittsstelle abgebrannt.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "Tscheko See",
+              "heard": "Tschechosee",
+              "context_before": "waren Dann gibt es noch den",
+              "context_after": "Der galt doch zeitweise als der",
+              "changes_statement": false,
+              "reason": "Nur eine andere Schreibweise desselben gesprochenen Namens (Tscheko-See / Tschechosee); der gemeinte See bleibt derselbe."
+            },
+            {
+              "index": 1,
+              "expected": "doch",
+              "heard": "auch",
+              "context_before": "noch den Tscheko See Der galt",
+              "context_after": "zeitweise als der gesuchte Krater oder",
+              "changes_statement": true,
+              "reason": "„doch“ ist eine Abtönungspartikel, „auch“ dagegen bedeutet zusätzlich und ändert den Sinn: Der See galt „auch“ als Krater, statt wie bekannt zeitweise als Krater zu gelten."
+            },
+            {
+              "index": 2,
+              "expected": "silbern leuchtende",
+              "heard": "silbernleuchtende",
+              "context_before": "sich über den mittleren Breiten Europas",
+              "context_after": "Wolken von außergewöhnlichem Glanz In London",
+              "changes_statement": false,
+              "reason": "Nur Getrennt- bzw. Zusammenschreibung von „silbern leuchtende“; gleiche Bedeutung."
+            },
+            {
+              "index": 3,
+              "expected": "Achtzigerjahren",
+              "heard": "80er Jahren",
+              "context_before": "denn Manche gingen noch in den",
+              "context_after": "von bis zu fünfzig Megatonnen TNT",
+              "changes_statement": false,
+              "reason": "„Achtzigerjahre“ und „80er Jahren“ sind dieselben gesprochenen Wörter in anderer Schreibweise."
+            },
+            {
+              "index": 4,
+              "expected": "freiwerdende",
+              "heard": "frei werdende",
+              "context_before": "Angabe bezieht sich auf die gesamte",
+              "context_after": "Energie Sie meint nicht nur einen",
+              "changes_statement": false,
+              "reason": "Getrennt- oder Zusammenschreibung von „freiwerdende“; Bedeutung unverändert."
+            }
+          ],
+          "changes_statement": true,
+          "action": "resynthesize"
+        },
+        {
+          "attempt": 1,
+          "seconds": 246.04,
+          "input_tokens": 994,
+          "output_tokens": 6151,
+          "usd": 0.0559,
+          "transcript": "Lena, heute geht es um das Tunguska-Ereignis. Womit steigen wir ein? Mit den Folgen für die Natur. Experten schätzen, dass auf einem Gebiet von über 2000 Quadratkilometern rund 60 Millionen Bäume umgeknickt wurden. Das ist ja unfassbar. Weiß man denn, was das verursacht hat? Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder eines Kometen von geringer Dichte. Der Körper hatte einen Durchmesser von 30 bis 80 Metern. Er explodierte etwa 5 bis 14 Kilometer über dem Boden. Deshalb hat er keinen Krater verursacht. Moment, er ist also in der Luft explodiert und gar nicht auf dem Boden aufgeschlagen. Und gerade deshalb gibt es keinen Krater? So wird es erklärt. Die Explosion fand in 5 bis 14 Kilometern Höhe statt. Gesucht wurde trotzdem nach einem Krater. Die Besatzung des Luftschiffes Graf Zeppelin suchte bei dessen Erdumrundung im August 1929 vergeblich danach. Ein Luftschiff, das bei seiner Erdumrundung nach einem Krater sucht. Hat man später wenigstens Reste von dem Körper gefunden, der da in der Luft explodiert sein soll? Mit bloßem Auge sichtbare Bruchstücke eines eingeschlagenen Himmelskörpers wurden bis heute nicht gefunden. Einen solchen Himmelskörper nennt man Impaktor. Allerdings wurden im Jahr 2013 extraterrestrische Fragmente analysiert, die schon im Jahr 1978 in dem Gebiet gefunden worden waren. Dann gibt es noch den Tschechosee. Der galt doch zeitweise als der gesuchte Krater, oder? Diese Theorie gab es, ja. Russische Wissenschaftler haben sie im Januar 2017 vielleicht widerlegt. Nach ihren Untersuchungen dürfte der See nämlich schon vor über 280 Jahren entstanden sein. Der See ist als Krater also womöglich aus dem Rennen. Hat man das Ereignis denn auch weit weg gemessen? Ja. Die Messgeräte in Potsdam empfingen die Signale nach 30 Stunden und 29 Minuten ein zweites Mal. Da hatten die Signale die Erde einmal umrundet. Die Signale sind also einmal um die ganze Erde gelaufen und dann noch einmal in Potsdam angekommen. Und am Himmel? Gab es dort etwas zu sehen? Ja. Während der folgenden Nächte zeigten sich über den mittleren Breiten Europas silbern leuchtende Wolken von außergewöhnlichem Glanz. In London war es zum Beispiel möglich, eine Zeitung in diesem Licht zu lesen. Wahnsinn. Zurück zur Explosion selbst. Wie stark war sie denn? Manche gingen noch in den 80er Jahren von bis zu 50 Megatonnen TNT aus. 50 Megatonnen TNT. Was sagt so eine Angabe eigentlich aus? Die Angabe bezieht sich auf die gesamte frei werdende Energie. Sie meint nicht nur einen Teil davon, nämlich die kinetische Energie. Bei Kernwaffen zum Beispiel kann dieser Teil deutlich geringer sein als die Gesamtenergie. Es zählt also die ganze Energie. Aber wenn der Körper hoch oben explodiert ist, wie kam dann so viel Zerstörung unten am Boden zustande? Dafür gibt es eine Überlegung. Ein mächtiger heißer Luftstrahl könnte nach der Explosion eines Kometen in der Höhe, dessen Weg zum Boden fortsetzen. Er würde dort eine stärkere Druckwelle und höhere Temperaturen hervorrufen. Ein Komet war ja eine der Möglichkeiten. Woher kommen Kometen eigentlich? Für das Tunguska-Ereignis gilt, als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder eines Kometen von geringer Dichte. Der Körper hatte einen Durchmesser von 30 bis 80 Metern. Er explodierte etwa 5 bis 14 Kilometer über dem Boden und verursachte deshalb keinen Krater. Das ist spannend. Als wahrscheinlichste Erklärung gilt also ein Asteroid oder Komet, der hoch über dem Boden explodierte und deshalb keinen Krater hinterließ. Gibt es auch Erklärungen ganz ohne so einen Körper aus dem All? Ja. Nach neueren Erkenntnissen ist auch eine vulkanische Eruption nicht auszuschließen. Eine andere These erklärt das Ereignis als Explosion von 10 Millionen Tonnen Erdgas. Das Gas sei über Risse aus einem unterirdischen natürlichen Erdgaslager unter hohem Druck entwichen. Es sei mit hoher Geschwindigkeit bis in hohe Atmosphärenschichten aufgestiegen und habe sich durch Reibungselektrizität entzündet. Dann sei es in einer Flammenfront bis hinunter zur Austrittsstelle abgebrannt.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "Tscheko See",
+              "heard": "Tschechosee",
+              "context_before": "waren Dann gibt es noch den",
+              "context_after": "Der galt doch zeitweise als der",
+              "changes_statement": false,
+              "reason": "„Tschechosee“ ist nur eine andere Schreibweise bzw. Aussprache von „Tscheko-See“; derselbe See ist gemeint, die Aussage bleibt gleich."
+            },
+            {
+              "index": 1,
+              "expected": "Achtzigerjahren",
+              "heard": "80er Jahren",
+              "context_before": "denn Manche gingen noch in den",
+              "context_after": "von bis zu fünfzig Megatonnen TNT",
+              "changes_statement": false,
+              "reason": "„80er Jahren“ ist nur die Ziffernschreibweise von „Achtzigerjahren“; gleiche gesprochene Bedeutung."
+            },
+            {
+              "index": 2,
+              "expected": "freiwerdende",
+              "heard": "frei werdende",
+              "context_before": "Angabe bezieht sich auf die gesamte",
+              "context_after": "Energie Sie meint nicht nur einen",
+              "changes_statement": false,
+              "reason": "„frei werdende“ und „freiwerdende“ unterscheiden sich nur in der Getrennt- bzw. Zusammenschreibung; der Sinn ist gleich."
+            }
+          ],
+          "changes_statement": false,
+          "action": "accept"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "turn_indices": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "chars": 4077,
+      "file": "sections/01.flac",
+      "seconds": null,
+      "input_tokens": 2865,
+      "output_tokens": 18239,
+      "usd": 0.1655,
+      "verified": false,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seconds": 241.84,
+          "input_tokens": 955,
+          "output_tokens": 6046,
+          "usd": 0.0549,
+          "transcript": "Das Gas steigt also nach oben, entzündet sich und brennt dann entlang der Flammenfront wieder bis nach unten zurück. Gibt es noch ungewöhnlichere Ideen? Der Teilchenphysiker Robert Foote von der Universität Melbourne hat eine solche Theorie. Danach könnte es sich um eine Kollision der Erde mit einem Weltraumkörper aus Spiegelmaterie gehandelt haben. Spiegelmaterie ist eine hypothetische Materieform. Aus ihr könnte zum Beispiel die dunkle Materie bestehen. Spiegelmaterie. Da muss man erst einmal nachdenken. Gibt es noch mehr davon? Ja, einige. Verantwortlich gemacht wurden unter anderem der Einschlag eines kleinen schwarzen Loches und der Absturz eines extraterrestrischen Raumschiffs. Auch eine Explosion der dort zahlreich vorkommenden Mücken wurde genannt. Sie wäre vergleichbar mit einer Staub-Explosion gewesen. Man nennt sie die Mücken-Explosion. Moment, Mücken? Eine Explosion wie bei Staub? Hat das Ereignis eigentlich auch Autoren inspiriert? Ja. 1965 stellten die Brüder Strugatzki im Buch »Der Montag fängt am Samstag an« eine humorvolle, fantastische These auf. Danach wurde das Ereignis von einem Kontramoten-Raumschiff verursacht, das auf der Zeitachse rückwärts reist. Es landete auf der Erde und entzündete beim Landen die Taiga. Dann wanderte es weiter durch die Zeit zurück. So blieben keine Spuren an der Brandstelle zurück. Das Raumschiff reist also rückwärts durch die Zeit und hinterlässt deshalb keine Spuren. Gab es noch andere Werke? Ja. Im Roman »Ich werde hier sein« im Sonnenschein und im Schatten von Christian Kracht aus dem Jahr 2008 ist das Tunguska-Ereignis der Auslöser für den Wendepunkt der Handlung. Lenin kehrt nicht aus der Schweiz in das verstrahlte Russland zurück, um die russische Revolution herbeizuführen. Stattdessen macht er die Schweiz zu einer sozialistischen Räterepublik. Die Revolution findet also nicht statt, weil Lenin in der Schweiz bleibt. Wie sieht's in der Popkultur aus? 1998 ging im lustigen Taschenbuch Nummer 247 Indianer Goof zusammen mit Mickey Mouse auf Expedition. In der Geschichte Der große Knall suchen sie nach dem Ursprung des Tunguska-Ereignisses. Dabei finden sie heraus, dass es eine ungewollte Nuklearexplosion war. Mickey Maus und Indiana Goof, das ist ja herrlich. Eine Nuklearexplosion also. Hatten solche Explosionen in der Wirklichkeit eigentlich Folgen? Ja, Kernwaffenexplosionen bei Kernwaffentests führten zu einer Zunahme der Radioaktivität in der Erdatmosphäre. Das führte 1963 zum Vertrag über das Verbot von Kernwaffenversuchen in der Atmosphäre, im Weltraum und unter Wasser. Und außerirdische Technik, taucht die auch im Fernsehen auf? Ja. Im Jahr 2021 wird das Ereignis in den letzten sechs Folgen der zweiten Staffel von UFOs gedeutet. Es soll ein winziges schwarzes Loch gewesen sein. Sibirische Ureinwohner sollen es durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie verursacht haben. In der Serie soll also zurückgelassene außerirdische Technologie im Spiel gewesen sein. Welche Vorstellungen haben Menschen eigentlich davon, wie Raumfahrzeuge hypothetischer außerirdischer Lebewesen aussehen könnten? Das Bild der fliegenden Untertasse prägt diese Vorstellungen bis heute. Sie bestimmt, wie wir uns Raumfahrzeuge hypothetischer außerirdischer Lebewesen typischerweise vorstellen. Verstehe. Dann bitte zum Schluss noch einmal kurz das Wichtigste. Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen, der in der Höhe explodierte und deshalb keinen Krater hinterließ. Bis heute wurden keine mit bloßem Auge sichtbaren Bruchstücke gefunden. Auch der Tschechosee wurde als Krater vielleicht widerlegt. Daneben ist nach neueren Erkenntnissen eine vulkanische Eruption nicht auszuschließen. Eine andere These spricht von einer Erdgasexplosion. Dazu kamen Ideen von einem schwarzen Loch, einem Raumschiff und sogar von explodierenden Mücken. Und in Büchern, Comics und Serien wurde das Ereignis immer wieder neu erzählt.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "Foot",
+              "heard": "Foote",
+              "context_before": "noch ungewöhnlichere Ideen Der Teilchenphysiker Robert",
+              "context_after": "von der Universität Melbourne hat eine",
+              "changes_statement": false,
+              "reason": "Foote und Foot sind gleich klingende Schreibweisen desselben Namens."
+            },
+            {
+              "index": 1,
+              "expected": "Staubexplosion",
+              "heard": "Staub Explosion",
+              "context_before": "genannt Sie wäre vergleichbar mit einer",
+              "context_after": "gewesen Man nennt sie die Mückenexplosion",
+              "changes_statement": false,
+              "reason": "Getrennt- oder Zusammenschreibung desselben Wortes, keine inhaltliche Änderung."
+            },
+            {
+              "index": 2,
+              "expected": "Mückenexplosion",
+              "heard": "Mücken Explosion",
+              "context_before": "Staubexplosion gewesen Man nennt sie die",
+              "context_after": "Moment Mücken Eine Explosion wie bei",
+              "changes_statement": false,
+              "reason": "Nur Getrennt- oder Zusammenschreibung von Mückenexplosion."
+            },
+            {
+              "index": 3,
+              "expected": "Strugazki",
+              "heard": "Strugatzki",
+              "context_before": "inspiriert Ja Neunzehnhundertfünfundsechzig stellten die Brüder",
+              "context_after": "im Buch Der Montag fängt am",
+              "changes_statement": false,
+              "reason": "Strugazki und Strugatzki sind Schreibvarianten desselben Namens mit gleicher Aussprache."
+            },
+            {
+              "index": 4,
+              "expected": "phantastische",
+              "heard": "fantastische",
+              "context_before": "fängt am Samstag an eine humorvolle",
+              "context_after": "These auf Danach wurde das Ereignis",
+              "changes_statement": false,
+              "reason": "Phantastisch und fantastisch sind gleich gesprochene Schreibvarianten."
+            },
+            {
+              "index": 5,
+              "expected": "sieht es",
+              "heard": "siehts",
+              "context_before": "Lenin in der Schweiz bleibt Wie",
+              "context_after": "in der Popkultur aus Neunzehnhundertachtundneunzig ging",
+              "changes_statement": false,
+              "reason": "Sieht es und siehts sind dieselben gesprochenen Wörter in Kurzform."
+            },
+            {
+              "index": 6,
+              "expected": "Indiana",
+              "heard": "Indianer",
+              "context_before": "ging im Lustigen Taschenbuch Nummer zweihundertsiebenundvierzig",
+              "context_after": "Goof zusammen mit Micky Maus auf",
+              "changes_statement": true,
+              "reason": "Indianer statt Indiana ändert den Namen der Figur (Indiana Goof) und damit die Aussage."
+            },
+            {
+              "index": 7,
+              "expected": "Micky Maus",
+              "heard": "Mickey Mouse",
+              "context_before": "Nummer zweihundertsiebenundvierzig Indiana Goof zusammen mit",
+              "context_after": "auf Expedition In der Geschichte Der",
+              "changes_statement": false,
+              "reason": "Mickey Mouse ist die englische Schreibweise/Aussprache derselben Figur wie Micky Maus."
+            },
+            {
+              "index": 8,
+              "expected": "Micky",
+              "heard": "Mickey",
+              "context_before": "dass es eine ungewollte Nuklearexplosion war",
+              "context_after": "Maus und Indiana Goof das ist",
+              "changes_statement": false,
+              "reason": "Micky und Mickey sind gleich klingende Schreibweisen desselben Namens."
+            },
+            {
+              "index": 9,
+              "expected": "",
+              "heard": "ja",
+              "context_before": "Maus und Indiana Goof das ist",
+              "context_after": "herrlich Eine Nuklearexplosion also Hatten solche",
+              "changes_statement": false,
+              "reason": "Das zusätzliche „ja“ ist ein Füllwort/Betonung ohne inhaltliche Änderung."
+            },
+            {
+              "index": 10,
+              "expected": "Tscheko See",
+              "heard": "Tschechosee",
+              "context_before": "Auge sichtbaren Bruchstücke gefunden Auch der",
+              "context_after": "wurde als Krater vielleicht widerlegt Daneben",
+              "changes_statement": false,
+              "reason": "Tscheko See und Tschechosee bezeichnen denselben See, nur andere Schreibung."
+            }
+          ],
+          "changes_statement": true,
+          "action": "resynthesize"
+        },
+        {
+          "attempt": 1,
+          "seconds": 242.96,
+          "input_tokens": 955,
+          "output_tokens": 6074,
+          "usd": 0.0551,
+          "transcript": "Das Gas steigt also nach oben, entzündet sich und brennt dann entlang der Flammenfront wieder bis nach unten zurück. Gibt es noch unwöhnlichere Ideen? Der Teilchenphysiker Robert Foote von der Universität Melbourne hat eine solche Theorie. Danach könnte es sich um eine Kollision der Erde mit einem Weltraumkörper aus Spiegelmaterie gehandelt haben. Spiegelmaterie ist eine hypothetische Materieform. Aus ihr könnte zum Beispiel die dunkle Materie bestehen. Spiegelmaterie? Da muss man erst einmal nachdenken. Gibt es noch mehr davon? Ja, einige. Verantwortlich gemacht wurden unter anderem der Einschlag eines kleinen schwarzen Loches und der Absturz eines extraterrestrischen Raumschiffs. Auch eine Explosion der dort zahlreich vorkommenden Mücken wurde genannt. Sie wäre vergleichbar mit einer Staub-Explosion gewesen. Man nennt sie die Mücken-Explosion. Moment, Mücken? Eine Explosion wie bei Staub? Hat das Ereignis eigentlich auch Autoren inspiriert? Ja, 1965 stellten die Brüder Strugatzki im Buch Der Montag fängt am Samstag an eine humorvolle, fantastische These auf. Danach wurde das Ereignis von einem Kontramoten-Raumschiff verursacht, das auf der Zeitachse rückwärts reist. Es landete auf der Erde und entzündete beim Landen die Taiga. Dann wanderte es weiter durch die Zeit zurück. So blieben keine Spuren an der Brandstelle zurück. Das Raumschiff reist also rückwärts durch die Zeit und hinterlässt deshalb keine Spuren. Gab es noch andere Werke? Ja. Im Roman »Ich werde hier sein« im Sonnenschein und im Schatten von Christian Kracht aus dem Jahr 2008 ist das Tunguska-Ereignis der Auslöser für den Wendepunkt der Handlung. Lenin kehrt nicht aus der Schweiz in das verstrahlte Russland zurück, um die russische Revolution herbeizuführen. Stattdessen macht er die Schweiz zu einer sozialistischen Räterepublik. Die Revolution findet also nicht statt, weil Lenin in der Schweiz bleibt. Wie sieht es in der Popkultur aus? 1998 ging im lustigen Taschenbuch Nummer 247 Indianer Goof zusammen mit Mickey Maus auf Expedition. In der Geschichte Der große Knall suchen sie nach dem Ursprung des Tunguska-Ereignisses. Dabei finden sie heraus, dass es eine ungewollte Nuklearexplosion war. Mickey Maus und Indiana Goof, das ist herrlich. Eine Nuklearexplosion also. Hatten solche Explosionen in der Wirklichkeit eigentlich Folgen? Ja. Kernwaffenexplosionen bei Kernwaffentests führten zu einer Zunahme der Radioaktivität in der Erdatmosphäre. Das führte 1963 zum Vertrag über das Verbot von Kernwaffenversuchen in der Atmosphäre, im Weltraum und unter Wasser. Und außerirdische Technik, taucht die auch im Fernsehen auf? Ja, im Jahr 2021 wird das Ereignis in den letzten sechs Folgen der zweiten Staffel von UFOs gedeutet. Es soll ein winziges, schwarzes Loch gewesen sein. Sibirische Ureinwohner sollen es durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie verursacht haben. In der Serie soll also zurückgelassene außerirdische Technologie im Spiel gewesen sein. Welche Vorstellungen haben Menschen eigentlich davon, wie Raumfahrzeuge hypothetischer außerirdischer Lebewesen aussehen könnten? Das Bild der fliegenden Untertasse prägt diese Vorstellungen bis heute. Sie bestimmt, wie wir uns Raumfahrzeuge hypothetischer außerirdischer Lebewesen typischerweise vorstellen. Verstehe. Dann bitte zum Schluss noch einmal kurz das Wichtigste. Als am wahrscheinlichsten gilt der Eintritt eines Steinasteoriden oder Kometen, der in der Höhe explodierte und deshalb keinen Krater hinterließ. Bis heute wurden keine mit bloßem Auge sichtbaren Bruchstücke gefunden. Auch der Tschechosee wurde als Krater vielleicht widerlegt. Daneben ist nach neueren Erkenntnissen eine vulkanische Eruption nicht auszuschließen. Eine andere These spricht von einer Erdgasexplosion. Dazu kamen Ideen von einem schwarzen Loch, einem Raumschiff und sogar von explodierenden Mücken. Und in Büchern, Comics und Serien wurde das Ereignis immer wieder neu erzählt.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "ungewöhnlichere",
+              "heard": "unwöhnlichere",
+              "context_before": "nach unten zurück Gibt es noch",
+              "context_after": "Ideen Der Teilchenphysiker Robert Foot von",
+              "changes_statement": false,
+              "reason": "„unwöhnlichere“ ist eine Aussprache- bzw. Erkennungsvariante von „ungewöhnlichere“; gemeint ist dasselbe Wort, die Aussage bleibt gleich."
+            },
+            {
+              "index": 1,
+              "expected": "Foot",
+              "heard": "Foote",
+              "context_before": "noch ungewöhnlichere Ideen Der Teilchenphysiker Robert",
+              "context_after": "von der Universität Melbourne hat eine",
+              "changes_statement": false,
+              "reason": "„Foote“ ist eine gleich klingende Schreibweise des Namens Foot."
+            },
+            {
+              "index": 2,
+              "expected": "Staubexplosion",
+              "heard": "Staub Explosion",
+              "context_before": "genannt Sie wäre vergleichbar mit einer",
+              "context_after": "gewesen Man nennt sie die Mückenexplosion",
+              "changes_statement": false,
+              "reason": "„Staub Explosion“ ist nur Getrenntschreibung von „Staubexplosion“."
+            },
+            {
+              "index": 3,
+              "expected": "Mückenexplosion",
+              "heard": "Mücken Explosion",
+              "context_before": "Staubexplosion gewesen Man nennt sie die",
+              "context_after": "Moment Mücken Eine Explosion wie bei",
+              "changes_statement": false,
+              "reason": "„Mücken Explosion“ ist nur Getrenntschreibung von „Mückenexplosion“."
+            },
+            {
+              "index": 4,
+              "expected": "Strugazki",
+              "heard": "Strugatzki",
+              "context_before": "inspiriert Ja Neunzehnhundertfünfundsechzig stellten die Brüder",
+              "context_after": "im Buch Der Montag fängt am",
+              "changes_statement": false,
+              "reason": "„Strugatzki“ und „Strugazki“ sind gleich klingende Schreibweisen desselben Namens."
+            },
+            {
+              "index": 5,
+              "expected": "phantastische",
+              "heard": "fantastische",
+              "context_before": "fängt am Samstag an eine humorvolle",
+              "context_after": "These auf Danach wurde das Ereignis",
+              "changes_statement": false,
+              "reason": "„fantastische“ und „phantastische“ sind gleich gesprochene Schreibvarianten."
+            },
+            {
+              "index": 6,
+              "expected": "Indiana",
+              "heard": "Indianer",
+              "context_before": "ging im Lustigen Taschenbuch Nummer zweihundertsiebenundvierzig",
+              "context_after": "Goof zusammen mit Micky Maus auf",
+              "changes_statement": true,
+              "reason": "„Indianer Goof“ statt „Indiana Goof“ ist ein anderes Wort und verändert den Namen der Figur, auch wenn es im Audio ähnlich klingen kann; im Zweifel verändert."
+            },
+            {
+              "index": 7,
+              "expected": "Micky",
+              "heard": "Mickey",
+              "context_before": "Nummer zweihundertsiebenundvierzig Indiana Goof zusammen mit",
+              "context_after": "Maus auf Expedition In der Geschichte",
+              "changes_statement": false,
+              "reason": "„Mickey“ ist nur eine andere Schreibweise von „Micky“, gleich gesprochen."
+            },
+            {
+              "index": 8,
+              "expected": "Micky",
+              "heard": "Mickey",
+              "context_before": "dass es eine ungewollte Nuklearexplosion war",
+              "context_after": "Maus und Indiana Goof das ist",
+              "changes_statement": false,
+              "reason": "„Mickey“ ist nur eine andere Schreibweise von „Micky“, gleich gesprochen."
+            },
+            {
+              "index": 9,
+              "expected": "Steinasteroiden",
+              "heard": "Steinasteoriden",
+              "context_before": "am wahrscheinlichsten gilt der Eintritt eines",
+              "context_after": "oder Kometen der in der Höhe",
+              "changes_statement": false,
+              "reason": "„Steinasteoriden“ ist ein Erkennungsfehler bzw. eine Variante von „Steinasteroiden“; gemeint ist dasselbe Wort."
+            },
+            {
+              "index": 10,
+              "expected": "Tscheko See",
+              "heard": "Tschechosee",
+              "context_before": "Auge sichtbaren Bruchstücke gefunden Auch der",
+              "context_after": "wurde als Krater vielleicht widerlegt Daneben",
+              "changes_statement": false,
+              "reason": "„Tschechosee“ ist eine andere Schreibweise desselben Namens wie „Tscheko-See“, ähnlich ausgesprochen, gleicher See."
+            }
+          ],
+          "changes_statement": true,
+          "action": "resynthesize"
+        },
+        {
+          "attempt": 2,
+          "seconds": 244.76,
+          "input_tokens": 955,
+          "output_tokens": 6119,
+          "usd": 0.0555,
+          "transcript": "Das Gas steigt also nach oben, entzündet sich und brennt dann entlang der Flammenfront wieder bis nach unten zurück. Gibt es noch ungewöhnlichere Ideen? Der Teilchenphysiker Robert Foote von der Universität Melbourne hat eine solche Theorie. Danach könnte es sich um eine Kollision der Erde mit einem Weltraumkörper aus Spiegelmaterie gehandelt haben. Spiegelmaterie ist eine hypothetische Materieform. Aus ihr könnte zum Beispiel die dunkle Materie bestehen. Spiegelmaterie, da muss man erst einmal nachdenken. Gibt es noch mehr davon? Ja, einige. Verantwortlich gemacht wurden unter anderem der Einschlag eines kleinen schwarzen Loches und der Absturz eines extraterrestrischen Raumschiffs. Auch eine Explosion der dort zahlreich vorkommenden Mücken wurde genannt. Sie wäre vergleichbar mit einer Staub-Explosion gewesen. Man nennt sie die Mücken-Explosion. Moment, Mücken? Eine Explosion wie bei Staub? Hat das Ereignis eigentlich auch Autoren inspiriert? Ja. 1965 stellten die Brüder Strugatzki im Buch »Der Montag fängt am Samstag an« eine humorvolle, fantastische These auf. Danach wurde das Ereignis von einem Kontramoten-Raumschiff verursacht, das auf der Zeitachse rückwärts reist. Es landete auf der Erde und entzündete beim Landen die Taiga. Dann wanderte es weiter durch die Zeit zurück. So blieben keine Spuren an der Brandstelle zurück. Das Raumschiff reist also rückwärts durch die Zeit und hinterlässt deshalb keine Spuren. Gab es noch andere Werke? Ja. Im Roman »Ich werde hier sein im Sonnenschein und im Schatten« von Christian Kracht aus dem Jahr 2008 ist das Tunguska-Ereignis der Auslöser für den Wendepunkt der Handlung. Lenin kehrt nicht aus der Schweiz in das verstrahlte Russland zurück, um die russische Revolution herbeizuführen. Stattdessen macht er die Schweiz zu einer sozialistischen Räterepublik. Die Revolution findet also nicht statt, weil Lenin in der Schweiz bleibt. Wie sieht es in der Popkultur aus? 1998 ging im lustigen Taschenbuch Nummer 247 Indiana Goof zusammen mit Mickey Maus auf Expedition. In der Geschichte Der große Knall suchen sie nach dem Ursprung des Tunguska-Ereignisses. Dabei finden sie heraus, dass es eine ungewollte Nuklearexplosion war. Mickey Maus und Indianer-Goof, das ist herrlich. Eine Nuklearexplosion also. Hatten solche Explosionen in der Wirklichkeit eigentlich Folgen? Ja. Kernwaffenexplosionen bei Kernwaffentests führten zu einer Zunahme der Radioaktivität in der Erdatmosphäre. Das führte 1963 zum Vertrag über das Verbot von Kernwaffenversuchen in der Atmosphäre, im Weltraum und unter Wasser. Und außerirdische Technik, taucht die auch im Fernsehen auf? Ja. Im Jahr 2021 wird das Ereignis in den letzten sechs Folgen der zweiten Staffel von UFOs gedeutet. Es soll ein winziges schwarzes Loch gewesen sein. Sibirische Ureinwohner sollen es durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie verursacht haben. In der Serie soll also zurückgelassene außerirdische Technologie im Spiel gewesen sein. Welche Vorstellungen haben Menschen eigentlich davon, wie Raumfahrzeuge hypothetischer außerirdischer Lebewesen aussehen könnten? Das Bild der fliegenden Untertasse prägt diese Vorstellungen bis heute. Sie bestimmt, wie wir uns Raumfahrzeuge hypothetischer außerirdischer Lebewesen typischerweise vorstellen. Verstehe. Dann bitte zum Schluss noch einmal kurz das Wichtigste. Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen, der in der Höhe explodierte und deshalb keinen Krater hinterließ. Bis heute wurden keine mit bloßem Auge sichtbaren Bruchstücke gefunden. Auch der Tschechosee wurde als Krater vielleicht widerlegt. Daneben ist nach neueren Erkenntnissen eine vulkanische Eruption nicht auszuschließen. Eine andere These spricht von einer Erdgasexplosion. Dazu kamen Ideen von einem schwarzen Loch, einem Raumschiff und sogar von explodierenden Mücken. Und in Büchern, Comics und Serien wurde das Ereignis immer wieder neu erzählt.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "Foot",
+              "heard": "Foote",
+              "context_before": "noch ungewöhnlichere Ideen Der Teilchenphysiker Robert",
+              "context_after": "von der Universität Melbourne hat eine",
+              "changes_statement": false,
+              "reason": "Foot/Foote ist nur eine andere Schreibweise desselben Namens, gesprochen identisch."
+            },
+            {
+              "index": 1,
+              "expected": "Staubexplosion",
+              "heard": "Staub Explosion",
+              "context_before": "genannt Sie wäre vergleichbar mit einer",
+              "context_after": "gewesen Man nennt sie die Mückenexplosion",
+              "changes_statement": false,
+              "reason": "Getrennt- oder Zusammenschreibung desselben Wortes, gleiche Bedeutung."
+            },
+            {
+              "index": 2,
+              "expected": "Mückenexplosion",
+              "heard": "Mücken Explosion",
+              "context_before": "Staubexplosion gewesen Man nennt sie die",
+              "context_after": "Moment Mücken Eine Explosion wie bei",
+              "changes_statement": false,
+              "reason": "Getrennt- oder Zusammenschreibung desselben Wortes, gleiche Bedeutung."
+            },
+            {
+              "index": 3,
+              "expected": "Strugazki",
+              "heard": "Strugatzki",
+              "context_before": "inspiriert Ja Neunzehnhundertfünfundsechzig stellten die Brüder",
+              "context_after": "im Buch Der Montag fängt am",
+              "changes_statement": false,
+              "reason": "Strugazki/Strugatzki sind unterschiedliche Transliterationen desselben Namens, gleich klingend."
+            },
+            {
+              "index": 4,
+              "expected": "phantastische",
+              "heard": "fantastische",
+              "context_before": "fängt am Samstag an eine humorvolle",
+              "context_after": "These auf Danach wurde das Ereignis",
+              "changes_statement": false,
+              "reason": "phantastisch/fantastisch sind gleich gesprochene Schreibvarianten desselben Wortes."
+            },
+            {
+              "index": 5,
+              "expected": "Micky",
+              "heard": "Mickey",
+              "context_before": "Nummer zweihundertsiebenundvierzig Indiana Goof zusammen mit",
+              "context_after": "Maus auf Expedition In der Geschichte",
+              "changes_statement": false,
+              "reason": "Micky/Mickey sind gleich klingende Schreibweisen desselben Namens."
+            },
+            {
+              "index": 6,
+              "expected": "Micky",
+              "heard": "Mickey",
+              "context_before": "dass es eine ungewollte Nuklearexplosion war",
+              "context_after": "Maus und Indiana Goof das ist",
+              "changes_statement": false,
+              "reason": "Micky/Mickey sind gleich klingende Schreibweisen desselben Namens."
+            },
+            {
+              "index": 7,
+              "expected": "Indiana",
+              "heard": "Indianer",
+              "context_before": "ungewollte Nuklearexplosion war Micky Maus und",
+              "context_after": "Goof das ist herrlich Eine Nuklearexplosion",
+              "changes_statement": true,
+              "reason": "Aus dem Namen Indiana wird das Wort Indianer, das ist ein anderer Name bzw. ein anderes Wort mit anderer Bedeutung."
+            },
+            {
+              "index": 8,
+              "expected": "Tscheko See",
+              "heard": "Tschechosee",
+              "context_before": "Auge sichtbaren Bruchstücke gefunden Auch der",
+              "context_after": "wurde als Krater vielleicht widerlegt Daneben",
+              "changes_statement": false,
+              "reason": "Tscheko-See vs. Tschechosee sind Schreibvarianten desselben See-Namens, gleich gesprochen."
+            }
+          ],
+          "changes_statement": true,
+          "action": "escalate"
+        }
+      ]
+    }
+  ],
+  "fixed_parts": {
+    "intro": "aa19a3a5ad6b9be14c64f543f8cba8d4e9c06111f095fef839a86fadc97312cf",
+    "outro": "7b776b07c88661c0847e61dbdf7817e1df2faae0ccc343ee30a7fa067263939e"
+  },
+  "joins": {},
+  "loudness": null,
+  "file": null,
+  "sample_rate": null,
+  "seconds": null,
+  "usd": null
+}

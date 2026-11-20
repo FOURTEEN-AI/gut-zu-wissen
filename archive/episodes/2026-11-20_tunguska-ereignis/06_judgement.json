@@ -1,0 +1,646 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.52
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung, sondern nur eine Anrede, die Nennung des Themas als Gesprächsgegenstand und eine Nachfrage bzw. Überleitung (\"Womit steigen wir ein?\"). Das gilt als belegfreie Reaktion, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.63
+      },
+      "jev_error": null,
+      "reason": "Die Behauptung (Experten schätzen, über 2000 km² und rund 60 Millionen umgeknickte Bäume) stimmt mit Fakt 270155664-0007 überein. Der einleitende Satzteil \"Mit den Folgen für die Natur\" ist eine Überleitung ohne eigene Behauptung."
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung, sondern nur eine Reaktion des Staunens („Das ist ja unfassbar!“) und eine Nachfrage nach der Ursache. Die Frage setzt keine zusätzliche Tatsache voraus, die belegt werden müsste. Reaktionen und Nachfragen gelten als belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Felix fragt nach und greift das Gesagte wieder auf. Die Prämissen (Explosion in der Luft, kein Aufschlag am Boden, deshalb kein Krater) folgen aus dem Fakt-Satz, nach dem das Objekt 5 bis 14 Kilometer über dem Boden explodierte und daher keinen Krater verursachte. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.66
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Die Explosion in 5 bis 14 km Höhe und das Ausbleiben eines Kraters stehen in 0036, die vergebliche Suche der Besatzung der Graf Zeppelin bei der Erdumrundung im August 1929 steht in 0022. „So wird es erklärt“ ist eine Überleitung, und „trotzdem gesucht“ ergibt sich als sinnvolle Verbindung der beiden Fakten ohne zusätzliche Angabe."
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 1.0,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.63
+      },
+      "jev_error": null,
+      "reason": "Die Aussage zum Luftschiff, das bei seiner Erdumrundung nach einem Krater sucht, deckt Fakt 0022 ab. Die Prämisse der Frage, dass ein Körper in der Luft explodiert sein soll, folgt aus Fakt 0036 und ist durch das \"soll\" vorsichtig formuliert. Die Frage nach gefundenen Resten ist eine Nachfrage ohne neue Behauptung."
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Alle drei Aussagen folgen aus den zitierten Fakt-Sätzen. Dass bis heute keine mit bloßem Auge sichtbaren Bruchstücke gefunden wurden, steht in 0041. Die Bezeichnung „Impaktor“ für einen eingeschlagenen Himmelskörper ergibt sich aus der Klammer in 0041. Die Analyse extraterrestrischer Fragmente im Jahr 2013, die schon 1978 im Gebiet gefunden worden waren, steht in 0054. Es wird keine zusätzliche Angabe gemacht."
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Der Fakt-Satz belegt, dass es die Theorie gab, der Tscheko-See sei der Krater des Tunguska-Ereignisses, und dass russische Wissenschaftler sie 2017 vielleicht widerlegt haben. Die Prämisse der Frage, der See sei zeitweise als gesuchter Krater betrachtet worden, folgt daraus. Der Rest ist eine Nachfrage."
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen stehen im Fakt-Satz: russische Wissenschaftler, Januar 2017, Theorie vielleicht widerlegt, See nach Untersuchungen vermutlich vor über 280 Jahren entstanden. \"Diese Theorie gab es, ja\" ist eine bestätigende Reaktion und wird durch den Fakt-Satz ebenfalls gedeckt. Es kommen keine zusätzlichen Angaben hinzu."
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "vollstaendig": 0.78
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, der See sei als Krater womöglich aus dem Rennen, folgt aus dem Fakt: Die Theorie wurde im Januar 2017 „vielleicht widerlegt“. Die vorsichtige Formulierung „womöglich“ entspricht dem „vielleicht“. Der zweite Satz ist eine Nachfrage und damit belegfrei, er enthält keine eigene Behauptung."
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.64,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": "Lenas Aussage gibt den Fakt-Satz inhaltlich korrekt wieder: Messgeräte in Potsdam, zweiter Empfang nach 30 Stunden und 29 Minuten, Signale hatten die Erde einmal umrundet. Es kommen keine zusätzlichen Angaben hinzu. Das einleitende „Ja“ ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.68
+      },
+      "jev_error": null,
+      "reason": "Felix' Aussage, die Signale seien einmal um die Erde gelaufen und danach ein zweites Mal in Potsdam angekommen, folgt aus dem Fakt-Satz 270155664-0014 (Potsdam empfing die Signale nach 30 Stunden und 29 Minuten ein zweites Mal, nach einer Erdumrundung). Die Frage zum Himmel ist eine Nachfrage ohne eigene Behauptung und braucht keinen Beleg."
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen stehen fast wörtlich in den zitierten Fakt-Sätzen: die silbern leuchtenden Wolken von außergewöhnlichem Glanz über den mittleren Breiten Europas in den folgenden Nächten (0015) und die Möglichkeit, in London eine Zeitung in diesem Licht zu lesen (0062). Das einleitende „Ja“ ist eine belegfreie Reaktion. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Wahnsinn!\" ist eine Gefühlsreaktion (Staunen), \"Zurück zur Explosion selbst\" ist eine Überleitung und \"Wie stark war sie denn?\" ist eine Nachfrage. Die Frage setzt nur voraus, dass es eine Explosion gab, die zuvor im Gespräch war und keine neue Information darstellt. Belegfreie Reaktionen brauchen keine Fakt-IDs."
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.86,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Felix greift nur die Zahl \"Fünfzig Megatonnen TNT\" aus dem zitierten Fakt auf und bittet dann um Erklärung. Das ist ein Wiederaufgreifen ohne neue Information plus eine Nachfrage, also belegfrei. Die Zahl stimmt mit dem Fakt überein, es kommt keine zusätzliche Behauptung hinzu."
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.98,
+        "aussage_2": 0.97,
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Der erste Satz greift die Aussage aus 0001 auf, dass die gesamte freiwerdende Energie gemeint ist. In der Frage ist die Explosion in großer Höhe als Bedingung mit „wenn“ formuliert und deckt sich mit 0036 (5 bis 14 km über dem Boden). Die große Zerstörung am Boden ist durch 0007 belegt (rund 60 Millionen umgeknickte Bäume auf über 2000 km²). Es kommen keine zusätzlichen Angaben hinzu."
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.77
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz 270155664-0034 sinngemäß wieder: ein mächtiger heißer Luftstrahl nach der Explosion eines Kometen in der Höhe, der dessen Weg zum Boden fortsetzt und dort eine stärkere Druckwelle und höhere Temperaturen hervorruft. Die Formulierung \"Dafür gibt es eine Überlegung\" entspricht dem \"könnte\" im Fakt. Zusätzliche Angaben kommen nicht vor."
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.8
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, ein Komet sei eine der Möglichkeiten gewesen, folgt aus dem Fakt-Satz: Dort gilt der Eintritt eines Steinasteroiden oder Kometen als am wahrscheinlichsten. Die Frage nach der Herkunft von Kometen ist eine Nachfrage ohne Behauptung und braucht keinen Beleg."
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.94,
+        "vollstaendig": 0.76
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, ein Asteroid oder Komet gelte als wahrscheinlichste Erklärung, der hoch über dem Boden explodierte und deshalb keinen Krater hinterließ, folgt direkt aus dem Fakt-Satz. Die Details (Größe, Höhe) werden nicht genannt, also nichts hinzugefügt. \"Das ist spannend\" ist eine Reaktion, und die abschließende Frage nach Erklärungen ohne Körper aus dem All ist eine belegfreie Nachfrage."
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "aussage_2": 0.98,
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Die vulkanische Eruption stammt aus [270155664-0003]. Die Erdgas-Explosion mit zehn Millionen Tonnen, der Austritt über Risse aus dem Erdgaslager unter hohem Druck, der Aufstieg in hohe Atmosphärenschichten, die Entzündung durch Reibungselektrizität und das Abbrennen in einer Flammenfront bis zur Austrittsstelle stammen aus [270155664-0058]. Die Formulierung als „andere These“ und der Konjunktiv fügen keine unbelegte Information hinzu."
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Felix fasst den Ablauf aus dem Fakt-Satz zusammen: Gas steigt auf, entzündet sich und brennt in einer Flammenfront bis zur Austrittsstelle (unten) zurück. Das folgt aus [270155664-0058]. Die Frage nach noch ungewöhnlicheren Ideen ist eine belegfreie Nachfrage. Zwar impliziert „noch ungewöhnlichere“ eine Wertung, sie ist aber eine Reaktion im Moment und keine Tatsachenbehauptung."
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.76
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Spiegelmaterie, da muss man erst einmal nachdenken“ ist eine Reaktion im Moment, und „Gibt es noch mehr davon?“ ist eine Nachfrage. Beides braucht keine Fakt-IDs."
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.74
+      },
+      "jev_error": null,
+      "reason": "Alle Angaben stehen im Fakt-Satz: der Einschlag eines kleinen Schwarzen Loches, der Absturz eines extraterrestrischen Raumschiffs und die Explosion der zahlreich vorkommenden Mücken, vergleichbar mit einer Staubexplosion und „Mückenexplosion“ genannt. „Ja, einige“ ist eine Antwortreaktion, und die Aufzählung deckt sie. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.68
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur Reaktionen: das erstaunte Wiederaufgreifen von „Mücken“ und der „Explosion wie bei Staub“, was durch den Fakt-Satz gedeckt ist, sowie eine Nachfrage, ob das Ereignis Autoren inspiriert hat. Die Frage setzt keine zusätzliche Behauptung voraus und enthält keine neue Information."
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen (1965, Brüder Strugazki, „Der Montag fängt am Samstag an“, humorvolle phantastische These, kontramotes Raumschiff auf der Zeitachse rückwärts, Landung, Entzünden der Taiga, Weiterreise zurück in der Zeit, keine Spuren) stehen im Fakt-Satz. „Das Ereignis“ meint das dort genannte Tunguska-Ereignis. Die einleitende „Ja.“ ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, das Raumschiff reise rückwärts durch die Zeit und hinterlasse deshalb keine Spuren, folgt direkt aus dem Fakt-Satz (Rückwärtsreise auf der Zeitachse, keine Spuren an der Brandstelle). Die Frage nach weiteren Werken ist eine belegfreie Nachfrage und enthält keine zusätzliche Behauptung."
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.64
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus dem Fakt-Satz 270155664-0090: Roman von Christian Kracht, 2008, Tunguska-Ereignis als Auslöser des Wendepunkts, Lenin kehrt nicht aus der Schweiz ins verstrahlte Russland zurück, sondern macht die Schweiz zu einer sozialistischen Räterepublik. Das einleitende „Ja“ ist eine belegfreie Reaktion. Es gibt keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Felix fasst den Fakt zusammen: Lenin kehrt nicht nach Russland zurück, um die Russische Revolution herbeizuführen, sondern bleibt in der Schweiz. Dass die Revolution deshalb ausbleibt, ist eine knappe, naheliegende Wiedergabe des Romanplots. Die Frage zur Popkultur ist eine belegfreie Überleitung."
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag enthält nur eine Reaktion (\"das ist herrlich!\"), ein Wiederaufgreifen der Fakt-Aussage (Nuklearexplosion in der Geschichte, durch [270155664-0101] gedeckt) und eine Nachfrage zu realen Folgen. Die Nachfrage bringt keine neue Behauptung. Die Nennung von Micky Maus und Indiana Goof stimmt mit dem Fakt überein."
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich korrekt wieder: Die Zunahme der Radioaktivität in der Erdatmosphäre durch Kernwaffentests führte 1963 zum Vertrag über das Verbot von Kernwaffenversuchen in der Atmosphäre, im Weltraum und unter Wasser. Das einleitende „Ja“ ist eine belegfreie Reaktion; es kommen keine zusätzlichen Angaben hinzu."
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Er enthält keine Behauptung und keine Meinung. Die Frage setzt auch keine Prämisse voraus, die belegt werden müsste, daher ist er als belegfreie Reaktion zulässig."
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.31,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.6
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen stimmen mit dem Fakt-Satz überein: Jahr 2021, die letzten sechs Folgen der zweiten Staffel von UFOs, Deutung als winziges schwarzes Loch, verursacht durch sibirische Ureinwohner bei misslungener Verwendung zurückgelassener außerirdischer Technologie. Die Formulierung „soll“ bewahrt den Konjunktiv des Fakts. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Die Aussage zur Serie (zurückgelassene außerirdische Technologie, die im Spiel gewesen sein soll) folgt aus Fakt 0105, die Prämisse der Frage zu Vorstellungen von Raumfahrzeugen hypothetischer Außerirdischer aus Fakt 0004. Die Frage selbst ist eine belegfreie Nachfrage, es kommt keine unbelegte Angabe hinzu."
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Lenas Aussage gibt den Fakt-Satz 270575891-0004 sinngemäß wieder: Das Bild der Fliegenden Untertasse prägt bis heute die Vorstellung vom typischen Aussehen der Raumfahrzeuge hypothetischer Außerirdischer. „Sie bestimmt, wie wir uns ... vorstellen“ ist eine zulässige Umformulierung, es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung, Meinung oder Prämisse. „Verstehe“ ist eine Reaktion auf das eben Gesagte, und die Bitte um eine kurze Zusammenfassung ist eine Bitte bzw. Überleitung. Beides ist belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 41,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "aussage_3": 0.94,
+        "aussage_4": 0.99,
+        "aussage_5": 0.97,
+        "vollstaendig": 0.72
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Steinasteroid/Komet ohne Krater (0036), keine sichtbaren Bruchstücke (0041), Tscheko-See vielleicht widerlegt (0049), Vulkaneruption nicht auszuschließen (0003), Erdgasexplosion (0058), Schwarzes Loch, Raumschiff und Mückenexplosion (0071). Dass das Ereignis in Büchern, Comics und Serien neu erzählt wurde, belegen 0082 (Buch), 0101 (Comic) und 0105 (Serie)."
+    }
+  ],
+  "used_fact_ids": [
+    "270155664-0007",
+    "270155664-0036",
+    "270155664-0022",
+    "270155664-0041",
+    "270155664-0054",
+    "270155664-0049",
+    "270155664-0014",
+    "270155664-0015",
+    "270155664-0062",
+    "270155664-0032",
+    "269011690-0001",
+    "270155664-0034",
+    "270155664-0003",
+    "270155664-0058",
+    "270155664-0075",
+    "270155664-0071",
+    "270155664-0082",
+    "270155664-0090",
+    "270155664-0101",
+    "271574089-0005",
+    "270155664-0105",
+    "270575891-0004"
+  ],
+  "cascade_checks": [
+    {
+      "conversation": 1,
+      "turn_index": 7,
+      "p": 0.79,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung enthält beide Aussagen vollständig: Es wurden bis heute keine mit bloßem Auge sichtbaren Bruchstücke gefunden, der Himmelskörper heißt Impaktor, und 2013 wurden Fragmente analysiert, die schon 1978 in dem Gebiet gefunden worden waren. Jahreszahlen und Inhalt stimmen überein, nur die Formulierung ist anders. Das fehlende „auch“ bei „nennt man Impaktor“ ändert die Aussage nicht."
+    },
+    {
+      "conversation": 1,
+      "turn_index": 22,
+      "p": 0.98,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 1,
+      "turn_index": 39,
+      "p": 0.88,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung enthält dieselbe Aussage: Das Bild der Fliegenden Untertasse prägt bis heute die menschlichen Vorstellungen vom typischen Aussehen der Raumfahrzeuge hypothetischer Außerirdischer. „Wir“ steht für „menschlich“, und es fehlt nichts und kommt nichts Wesentliches hinzu."
+    }
+  ],
+  "conversation": 1,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 6,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 6,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.65
+        },
+        "jev_error": null,
+        "reason": "Die Frage \"Hat man später wenigstens Reste von dem Körper gefunden?\" setzt voraus, dass es einen Körper (etwa einen Einschlagskörper) gab, der den gesuchten Krater verursacht hat. Der Fakt-Satz nennt nur, dass die Besatzung der Graf Zeppelin im August 1929 vergeblich nach einem Krater suchte. Von einem Körper steht dort nichts. Der erste Satz gibt den Fakt dagegen korrekt als Staunen wieder."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 7,
+      "version": 0,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 7,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Die erste aus 0041, die Gleichsetzung von Himmelskörper und Impaktor aus der Klammer in 0041, die Analyse im Jahr 2013 und der Fund 1978 im Gebiet aus 0054. Es gibt keine zusätzlichen Angaben."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 21,
+      "version": 0,
+      "replaced_by": 2,
+      "judgement": {
+        "turn_index": 21,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.91
+        },
+        "jev_error": null,
+        "reason": "Der Satz „Einige Kometen entstanden in anderen Sternsystemen“ ist durch [271523896-0003] nicht gedeckt. Der Fakt sagt nur „Einige entstanden aber auch in anderen Sternsystemen“, ohne das Subjekt zu nennen, und auch der Kontext spricht nur von „Sie“, nicht von Kometen. Dass es um Kometen geht, steht also nirgends in den Belegen. Die Aussage zu Asteroiden mit höchstens einigen hundert Kilometern Durchmesser stimmt dagegen mit [271523804-0002] überein, deren Kontext Asteroiden nennt."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 22,
+      "version": 0,
+      "replaced_by": 3,
+      "judgement": {
+        "turn_index": 22,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.9
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag enthält keine Behauptung. \"Das ist spannend\" ist ein Gefühl im Moment, und die Frage nach Erklärungen ohne Einschlag ist eine Nachfrage. Beides gilt als belegfrei, daher sind keine Fakt-IDs nötig."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 38,
+      "version": 0,
+      "replaced_by": 4,
+      "judgement": {
+        "turn_index": 38,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.81
+        },
+        "jev_error": null,
+        "reason": "Die Frage \"Wie sehen die Raumschiffe der Außerirdischen eigentlich typischerweise aus?\" setzt voraus, dass Außerirdische Raumschiffe haben und diese typisch aussehen. Der Fakt-Satz nennt nur zurückgelassene außerirdische Technologie in einer Serie, keine Raumschiffe. Die Prämisse ist also nicht belegt. Außerdem gibt die Zusammenfassung \"misslungener Umgang mit zurückgelassener außerirdischer Technik\" die Deutung der Serie (\"sollen\") als Tatsache wieder."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 39,
+      "version": 0,
+      "replaced_by": 5,
+      "judgement": {
+        "turn_index": 39,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    }
+  ]
+}

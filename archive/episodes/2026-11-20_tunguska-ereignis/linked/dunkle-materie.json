@@ -1,0 +1,90 @@
+{
+  "title": "Dunkle Materie",
+  "revid": 272256525,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-18T03:03:12Z",
+  "fetched_at": "2026-11-20T07:40:51Z",
+  "categories": [
+    "Kategorie:Kosmologie (Physik)",
+    "Kategorie:Wikipedia:Artikel mit Video"
+  ],
+  "intro_wikitext": "[[Datei:Dark matter diagram.svg|mini|hochkant=2|Die beobachtete Umlaufgeschwindigkeit von [[Stern]]en ist in den Außenbereichen von Galaxien höher als auf Basis der sichtbaren Materie zu erwarten ist]]\n'''Dunkle Materie''' ist eine [[Postulat|postulierte]] Form von [[Materie (Physik)|Materie]], die nicht direkt sichtbar ist, aber über die [[Gravitation]] [[Fundamentale Wechselwirkung|wechselwirkt]]. Ihre Existenz wird im Standardmodell der Kosmologie, dem [[Lambda-CDM-Modell]], postuliert, um innerhalb dieses Modells die Bewegung der sichtbaren Materie zu erklären, insbesondere die Geschwindigkeit, mit der sichtbare Sterne das Zentrum ihrer [[Galaxie]] umkreisen. In den Außenbereichen ist diese Geschwindigkeit deutlich höher, als man es allein aufgrund der Gravitation der Sterne, [[Gaswolke|Gas-]] und Staubwolken erwarten würde.\n\nAuch für die beobachtete Stärke des [[Gravitationslinseneffekt]]s wird Dunkle Materie postuliert. Nach dem Lambda-CDM-Modell werden viele beobachtete Effekte zu nur etwa einem Sechstel von sichtbarer Materie verursacht, die im [[Standardmodell|Standardmodell der Elementarteilchenphysik]] erfasst wird. Die Existenz der Dunklen Materie ist eine wichtige offene Frage der [[Kosmologie]].\n\nZu alternativen Erklärungsmodellen für die Beobachtungen siehe den Abschnitt [[#Alternativen zu Dunkler Materie|Alternativen zu Dunkler Materie]] unten.",
+  "segments": [
+    {
+      "id": "272256525-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Dunkle Materie''' ist eine [[Postulat|postulierte]] Form von [[Materie (Physik)|Materie]], die nicht direkt sichtbar ist, aber über die [[Gravitation]] [[Fundamentale Wechselwirkung|wechselwirkt]].",
+      "plain": null
+    },
+    {
+      "id": "272256525-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ihre Existenz wird im Standardmodell der Kosmologie, dem [[Lambda-CDM-Modell]], postuliert, um innerhalb dieses Modells die Bewegung der sichtbaren Materie zu erklären, insbesondere die Geschwindigkeit, mit der sichtbare Sterne das Zentrum ihrer [[Galaxie]] umkreisen.",
+      "plain": null
+    },
+    {
+      "id": "272256525-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "In den Außenbereichen ist diese Geschwindigkeit deutlich höher, als man es allein aufgrund der Gravitation der Sterne, [[Gaswolke|Gas-]] und Staubwolken erwarten würde.",
+      "plain": null
+    },
+    {
+      "id": "272256525-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Auch für die beobachtete Stärke des [[Gravitationslinseneffekt]]s wird Dunkle Materie postuliert.",
+      "plain": null
+    },
+    {
+      "id": "272256525-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Nach dem Lambda-CDM-Modell werden viele beobachtete Effekte zu nur etwa einem Sechstel von sichtbarer Materie verursacht, die im [[Standardmodell|Standardmodell der Elementarteilchenphysik]] erfasst wird.",
+      "plain": null
+    },
+    {
+      "id": "272256525-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Existenz der Dunklen Materie ist eine wichtige offene Frage der [[Kosmologie]].",
+      "plain": null
+    },
+    {
+      "id": "272256525-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Zu alternativen Erklärungsmodellen für die Beobachtungen siehe den Abschnitt [[#Alternativen zu Dunkler Materie|Alternativen zu Dunkler Materie]] unten.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272256525,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272256525-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272256525-0001"
+        ],
+        "plain": "In den Außenbereichen ist diese Geschwindigkeit deutlich höher, als man es allein aufgrund der Gravitation der Sterne, Gas- und Staubwolken erwarten würde.",
+        "context_plain": [
+          "Ihre Existenz wird im Standardmodell der Kosmologie, dem Lambda-CDM-Modell, postuliert, um innerhalb dieses Modells die Bewegung der sichtbaren Materie zu erklären, insbesondere die Geschwindigkeit, mit der sichtbare Sterne das Zentrum ihrer Galaxie umkreisen."
+        ]
+      },
+      {
+        "segment_id": "272256525-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Nach dem Lambda-CDM-Modell werden viele beobachtete Effekte zu nur etwa einem Sechstel von sichtbarer Materie verursacht, die im Standardmodell der Elementarteilchenphysik erfasst wird.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

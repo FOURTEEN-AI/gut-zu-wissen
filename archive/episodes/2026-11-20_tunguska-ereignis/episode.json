@@ -1,0 +1,45 @@
+{
+  "episode_id": "2026-11-20_tunguska-ereignis",
+  "title": "Tunguska-Ereignis",
+  "status": "failed",
+  "started_at": "2026-11-20T07:40:51Z",
+  "finished_at": "2026-11-20T08:13:19Z",
+  "published_at": null,
+  "explicit": false,
+  "failure": "STT verification: section 1 still changes the statement after 2 resyntheses: 'Indiana' heard as 'Indianer' (Aus dem Namen Indiana wird das Wort Indianer, das ist ein anderer Name bzw. ein anderes Wort mit anderer Bedeutung.)",
+  "usage": {
+    "author": {
+      "model": "claude-sonnet-5-5",
+      "calls": 52,
+      "input_tokens": 135969,
+      "output_tokens": 35693
+    },
+    "llm_judge": {
+      "model": "claude-sonnet-5-5",
+      "calls": 49,
+      "input_tokens": 81238,
+      "output_tokens": 14380
+    },
+    "jev": {
+      "model": "jev-1.14.0",
+      "calls": 51,
+      "input_tokens": 56607,
+      "output_tokens": 2576
+    }
+  },
+  "cost": {
+    "prices": {
+      "claude_sonnet_input": 2.0,
+      "claude_sonnet_output": 10.0,
+      "jev": 0.042,
+      "gemini_tts_input": 0.5,
+      "gemini_tts_output": 9.0
+    },
+    "usd": {
+      "author": 0.6289,
+      "llm_judge": 0.3063,
+      "jev": 0.0024,
+      "tts": 0.2784
+    }
+  }
+}
