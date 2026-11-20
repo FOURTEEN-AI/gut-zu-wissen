@@ -49,6 +49,7 @@ from gut_zu_wissen.archive import (
     write_json,
 )
 from gut_zu_wissen.dialog import Turn
+from gut_zu_wissen.einordnung import intro_candidates, render_candidates, select_einordnung
 from gut_zu_wissen.episode_audio import (
     EPISODE_AUDIO,
     AudioRecord,
@@ -258,14 +259,28 @@ def run(
         write_json(folder / FACTS_FILE, facts.to_dict())
 
         quotas = config["quotas"]
+        opening = intro_candidates(segments, quotas["max_context_segments"])
+        opening_plain = render_candidates(renderer, article.title, segments, opening)
         by_target: dict[str, LinkedIntro | None] = {}
         skipped: list[SkippedLink] = []
         written: set[str] = set()
 
         def make_offer(excluded: frozenset[str]) -> Offer:
-            """Both rankings without the excluded facts (D6); linked intros are fetched once."""
+            """Einordnung and both rankings without the excluded facts (D6); linked intros are
+            fetched once. Einordnung facts leave the main ranking, so its quota takes the next."""
+            einordnung = select_einordnung(
+                opening,
+                opening_plain,
+                quotas["min_fact_words"],
+                quotas["einordnung_facts_max"],
+                excluded,
+            )
             main = rank_facts(
-                llm, facts.facts, quotas["main_facts_min"], quotas["main_facts_max"], excluded
+                llm,
+                facts.facts,
+                quotas["main_facts_min"],
+                quotas["main_facts_max"],
+                excluded | {f.segment_id for f in einordnung},
             )
             targets, over_limit = bound_targets(
                 link_targets(raw_of(main, segments), article.title), quotas["linked_targets_max"]
@@ -304,6 +319,7 @@ def run(
                 for n, f in enumerate(chosen, start=1)
             ]
             main_ranked = ranked(main, article.title, article.revid)
+            einordnung_ranked = ranked(einordnung, article.title, article.revid)
             write_json(
                 folder / RANKING_FILE,
                 {
@@ -329,13 +345,18 @@ def run(
                             quotas["linked_intro_facts_min"],
                             quotas["linked_intro_facts_max"],
                         ),
+                        "einordnung": offer_count(
+                            len(einordnung_ranked), 0, quotas["einordnung_facts_max"]
+                        ),
                     },
+                    "einordnung_facts": [r.to_dict() for r in einordnung_ranked],
                 },
             )
-            failure = offer_gate(len(main_ranked) + len(linked), quotas["min_used_facts"])
+            offered = len(einordnung_ranked) + len(main_ranked) + len(linked)
+            failure = offer_gate(offered, quotas["min_used_facts"])
             if failure:
                 raise GateFailure(failure)
-            return Offer(main_ranked, linked)
+            return Offer(main_ranked, linked, einordnung_ranked)
 
         step = STEP_DIALOG
         state = Orchestration()

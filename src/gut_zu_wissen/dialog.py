@@ -119,6 +119,13 @@ eines verlinkten Artikels. Du wählst aus dem Angebot, was du brauchst, und entw
 Erzählbogen; du musst nicht alle Fakten verwenden, aber mindestens {min_used}. Bevorzuge die \
 überraschendsten.
 
+Fakten mit dem Vermerk „(Einordnung)“ stehen am Anfang des Angebots; es sind die ersten Sätze \
+des Artikels. Das Gespräch beginnt mit einer kurzen Einordnung aus diesen Fakten, bevor die erste \
+Überraschung kommt: was das Thema ist und, wenn die Fakten es sagen, wann und wo. Lena erzählt \
+sie; Felix darf mit einer Einstiegsfrage beginnen. Halte die Einordnung kurz: ein oder zwei \
+Redebeiträge. Für Einordnungsfakten gelten dieselben Regeln wie für alle Fakten; sie zählen als \
+verwendete Fakten und dürfen in der Zusammenfassung wiederkommen.
+
 """
     + RULES
     + "\n\nAntworte mit JSON im vorgegebenen Schema."
@@ -177,18 +184,33 @@ class Dialog:
 # ---------------------------------------------------------------- pure functions
 
 
-def offer_aliases(main: Sequence[RankedFact], linked: Sequence[RankedFact]) -> dict[str, str]:
-    """Alias to segment ID for an offer, main article first, then linked."""
-    return build_aliases(r.fact.segment_id for r in [*main, *linked])
+EINORDNUNG_NOTE = " (Einordnung)"
 
 
-def format_offer(main: Sequence[RankedFact], linked: Sequence[RankedFact]) -> str:
-    """Plain text of the offered facts and their context, main article first, each fact under its
-    alias."""
-    alias_of = {sid: alias for alias, sid in offer_aliases(main, linked).items()}
+def offer_aliases(
+    main: Sequence[RankedFact],
+    linked: Sequence[RankedFact],
+    einordnung: Sequence[RankedFact] = (),
+) -> dict[str, str]:
+    """Alias to segment ID for an offer: Einordnung first, then main article, then linked."""
+    return build_aliases(r.fact.segment_id for r in [*einordnung, *main, *linked])
+
+
+def format_offer(
+    main: Sequence[RankedFact],
+    linked: Sequence[RankedFact],
+    einordnung: Sequence[RankedFact] = (),
+) -> str:
+    """Plain text of the offered facts and their context, in alias order (Einordnung marked,
+    then main article, then linked with their article), each fact under its alias."""
+    alias_of = {sid: alias for alias, sid in offer_aliases(main, linked, einordnung).items()}
+    tagged = [
+        *((r, EINORDNUNG_NOTE) for r in einordnung),
+        *((r, "") for r in main),
+        *((r, f" (verlinkter Artikel: {r.article})") for r in linked),
+    ]
     lines: list[str] = []
-    for r in [*main, *linked]:
-        note = "" if r in main else f" (verlinkter Artikel: {r.article})"
+    for r, note in tagged:
         lines.append(f"[{alias_of[r.fact.segment_id]}]{note} {r.fact.plain.replace(chr(10), ' ')}")
         if r.fact.context_plain:
             context = " ".join(c.replace(chr(10), " ") for c in r.fact.context_plain)
@@ -388,13 +410,16 @@ def write_dialog(
     linked: Sequence[RankedFact],
     min_used_facts: int,
     max_turns_per_fact: int,
+    einordnung: Sequence[RankedFact] = (),
 ) -> Dialog:
     """One dialog from the offer, checked by the fact-ID and repetition gates. Problems are
     recorded, not raised."""
     answer = llm.complete_json(
-        SYSTEM_PROMPT.format(min_used=min_used_facts), format_offer(main, linked), DIALOG_SCHEMA
+        SYSTEM_PROMPT.format(min_used=min_used_facts),
+        format_offer(main, linked, einordnung),
+        DIALOG_SCHEMA,
     )
-    aliases = offer_aliases(main, linked)
+    aliases = offer_aliases(main, linked, einordnung)
     offered = set(aliases.values())
     turns = resolve_turns(parse_dialog(answer), aliases)
     return Dialog(

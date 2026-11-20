@@ -187,7 +187,11 @@ def judgements_from(judgement: Mapping) -> list[TurnJudgement]:
 def offer_from(ranking: Mapping) -> dict[str, RankedFact]:
     """The offer of the final conversation by fact ID (`04_ranking.json` is rewritten for every
     offer, so it holds the last one)."""
-    offered = [*ranking["main_facts"], *ranking["linked_facts"]]
+    offered = [
+        *ranking.get("einordnung_facts", []),  # absent in archives before 2026-11-20
+        *ranking["main_facts"],
+        *ranking["linked_facts"],
+    ]
     facts = [RankedFact(r["rank"], r["article"], r["revid"], Fact(**r["fact"])) for r in offered]
     return {r.fact.segment_id: r for r in facts}
 

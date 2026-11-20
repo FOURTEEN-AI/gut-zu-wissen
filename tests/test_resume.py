@@ -332,3 +332,19 @@ def test_metrics_count_a_resumed_episode_as_one_run(tmp_path):
     assert {p.part: p.usd for p in c.parts}["tts"] == audio_tts_cost_usd(
         read(tmp_path, "08_audio.json")
     )
+
+
+def test_offer_from_includes_einordnung_and_reads_older_archives():
+    from gut_zu_wissen.resume import offer_from
+
+    def entry(sid: str) -> dict:
+        fact = {
+            "segment_id": sid, "type": "sentence", "section": "", "context_ids": [],
+            "plain": "Satz.", "context_plain": [],
+        }  # fmt: skip
+        return {"rank": 1, "article": "Rotfuchs", "revid": 5, "fact": fact}
+
+    old = {"main_facts": [entry("5-0001")], "linked_facts": []}
+    assert list(offer_from(old)) == ["5-0001"]
+    new = {**old, "einordnung_facts": [entry("5-0000")]}
+    assert list(offer_from(new)) == ["5-0000", "5-0001"]

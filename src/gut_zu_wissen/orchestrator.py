@@ -83,13 +83,21 @@ class GateFailure(Exception):
 
 @dataclass
 class Offer:
-    """The facts offered to the dialog author."""
+    """The facts offered to the dialog author; `einordnung` are the orientation facts, offered
+    first and outside the ranking."""
 
     main: list[RankedFact]
     linked: list[RankedFact]
+    einordnung: list[RankedFact] = field(default_factory=list)
 
     def by_id(self) -> dict[str, RankedFact]:
-        return {r.fact.segment_id: r for r in [*self.main, *self.linked]}
+        return {r.fact.segment_id: r for r in [*self.einordnung, *self.main, *self.linked]}
+
+    def aliases(self) -> dict[str, str]:
+        return offer_aliases(self.main, self.linked, self.einordnung)
+
+    def text(self) -> str:
+        return format_offer(self.main, self.linked, self.einordnung)
 
 
 @dataclass
@@ -163,7 +171,7 @@ class Orchestration:
             "conversation": self.conversation,
             "regenerations": [asdict(r) for r in self.regenerations],
             "discarded_conversations": [asdict(d) for d in self.discarded],
-            "aliases": offer_aliases(offer.main, offer.linked) if offer else {},
+            "aliases": offer.aliases() if offer else {},
         }
 
     def judgement_dict(self) -> dict:
@@ -377,8 +385,8 @@ def repair_turns(
     offer = state.offer
     assert offer is not None
     offered = offer.by_id().keys()
-    offer_text = format_offer(offer.main, offer.linked)
-    aliases = offer_aliases(offer.main, offer.linked)  # rebuilt for every offer
+    offer_text = offer.text()
+    aliases = offer.aliases()  # rebuilt for every offer
     rejected: list[str] = []
 
     def note(turn: Turn, judgement: TurnJudgement) -> None:
@@ -451,8 +459,9 @@ def orchestrate(
         for conversation in range(1, quotas["conversation_retries"] + 2):
             state.conversation = conversation
             state.offer = make_offer(frozenset(excluded))
+            offer = state.offer
             dialog = write_dialog(
-                author, state.offer.main, state.offer.linked, minimum, max_turns_per_fact
+                author, offer.main, offer.linked, minimum, max_turns_per_fact, offer.einordnung
             )
             state.dialog, state.judgements, state.used_fact_ids = dialog, [], []
             failure = used_facts_gate(len(dialog.used_fact_ids), minimum)
@@ -496,7 +505,7 @@ def orchestrate(
                             sorted(excluded),
                             dialog,
                             list(judgements),
-                            offer_aliases(state.offer.main, state.offer.linked),
+                            state.offer.aliases(),
                         )
                     )
                     continue

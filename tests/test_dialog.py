@@ -44,6 +44,32 @@ def test_format_offer_marks_linked_facts_and_context():
     )
 
 
+def test_format_offer_lists_einordnung_first_with_the_first_aliases():
+    einordnung = [rf("1-0003"), rf("1-0004")]
+    out = format_offer([rf("1-0000")], [rf("2-0000", "N")], einordnung)
+    assert out.split("\n") == [
+        "[F1] (Einordnung) Fakt 1-0003.",
+        "[F2] (Einordnung) Fakt 1-0004.",
+        "[F3] Fakt 1-0000.",
+        "[F4] (verlinkter Artikel: N) Fakt 2-0000.",
+    ]
+    aliases = offer_aliases([rf("1-0000")], [rf("2-0000", "N")], einordnung)
+    assert list(aliases.values()) == ["1-0003", "1-0004", "1-0000", "2-0000"]
+
+
+def test_dialog_prompt_opens_with_a_short_einordnung():
+    prompt = " ".join(SYSTEM_PROMPT.split())
+    for rule in [
+        "Fakten mit dem Vermerk „(Einordnung)“ stehen am Anfang des Angebots",
+        "Das Gespräch beginnt mit einer kurzen Einordnung aus diesen Fakten, bevor die erste "
+        "Überraschung kommt: was das Thema ist und, wenn die Fakten es sagen, wann und wo.",
+        "Lena erzählt sie; Felix darf mit einer Einstiegsfrage beginnen.",
+        "Halte die Einordnung kurz: ein oder zwei Redebeiträge.",
+        "sie zählen als verwendete Fakten und dürfen in der Zusammenfassung wiederkommen.",
+    ]:
+        assert rule in prompt
+
+
 def test_parse_keeps_order_and_tolerates_malformed_entries():
     answer = {
         "turns": [

@@ -71,6 +71,9 @@ main_facts_min = 20
 main_facts_max = 40
 linked_intro_facts_min = 6
 linked_intro_facts_max = 12
+# Einordnung (decided 2026-11-20): the first intro sentences of the main article that pass the
+# fact gates, always offered first, outside the ranking and the main quota.
+einordnung_facts_max = 4
 # Link targets fetched per offer, taken from the most surprising facts on; the rest is listed in
 # 04_ranking.json. Assumption (2026-11-20): about today's load, Axolotl had 27 for 20 facts.
 linked_targets_max = 30

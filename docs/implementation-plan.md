@@ -35,6 +35,7 @@ These retire the open risks before the build starts.
 5. **Ranking.** ✅ Done.
    - 20–40 main facts. Linked intros: fetch (same revision rule), gate, extract, rank for 6–12 more, each with its own revid for the shownotes. More than the minimum only with genuinely surprising, non-duplicate facts; fewer than the minimum when extraction yields fewer (decided 2026-11-20).
    - Gate: fewer than 10 offered facts → gate failure before the dialog author (D5).
+   - Einordnung (decided 2026-11-20): the first intro sentences of the main article (up to 4) that pass the fact gates are always offered first, outside the ranking and the main quota; archived as `einordnung_facts` in `04_ranking.json`.
 6. **Dialog author.** ✅ Done.
    - Output schema per turn (text, fact IDs, explicit statements with fact IDs). Gate: fact IDs exist.
    - Gate: fewer than 10 used facts → conversation regeneration (D5).

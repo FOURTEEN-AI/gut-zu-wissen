@@ -31,6 +31,7 @@ CONFIG = {
         "main_facts_max": 40,
         "linked_intro_facts_min": 6,
         "linked_intro_facts_max": 12,
+        "einordnung_facts_max": 0,  # off here; the Einordnung tests switch it on
         "linked_targets_max": 30,
         "min_used_facts": 1,
         "max_turns_per_fact": REAL["quotas"]["max_turns_per_fact"],
@@ -287,7 +288,9 @@ def test_ranking_adds_linked_intros_with_own_revid(tmp_path):
     assert ranking["offer_counts"] == {
         "main": {"offered": 1, "min": 20, "max": 40, "below_min": True},
         "linked": {"offered": 2, "min": 6, "max": 12, "below_min": True},
+        "einordnung": {"offered": 0, "min": 0, "max": 0, "below_min": False},
     }
+    assert list(ranking)[-1] == "einordnung_facts" and ranking["einordnung_facts"] == []
 
 
 class SystemRecordingLlm(FakeLlm):
@@ -410,6 +413,46 @@ def test_author_answers_with_aliases_and_the_archive_holds_only_segment_ids(tmp_
     assert dialog.pop("aliases") == {"F1": "5-0001", "F2": "5-0000"}  # last field, tracing only
     for data in (dialog, judgement):
         assert not re.search(r'"F\d+"', json.dumps(data))
+
+
+def test_einordnung_is_archived_and_offered_first_outside_the_ranking(tmp_path):
+    text = (
+        "Erster Satz im Artikel hier.\n\nKurz.\n\nZweiter Satz im Artikel hier.\n\n"
+        "Dritter Satz im Artikel hier.\n\n== A ==\nEin Satz im Abschnitt A."
+    )
+    config = {**CONFIG, "quotas": {**CONFIG["quotas"], "einordnung_facts_max": 2}}
+    llm = SystemRecordingLlm()
+    episode_id = run(FakeApi("Rotfuchs", [], text=text), llm, tmp_path, config, "Rotfuchs", NOW)
+    folder = tmp_path / "episodes" / episode_id
+    ranking = json.loads((folder / "04_ranking.json").read_text())
+    assert list(ranking)[-1] == "einordnung_facts"
+    einordnung = ranking["einordnung_facts"]
+    # "Kurz." fails the word gate and is skipped; the maximum stops after two
+    assert [(r["rank"], r["fact"]["segment_id"]) for r in einordnung] == [
+        (1, "5-0000"),
+        (2, "5-0002"),
+    ]
+    assert einordnung[1]["fact"]["context_ids"] == ["5-0000", "5-0001"]
+    # extracted too, but offered once only, as Einordnung; the ranking never sees them
+    main = [r["fact"]["segment_id"] for r in ranking["main_facts"]]
+    assert main == ["5-0004", "5-0003"]
+    assert all("[5-0000]" not in user and "[5-0002]" not in user for _, user in llm.ranking_calls)
+    assert ranking["offer_counts"]["einordnung"] == {
+        "offered": 2,
+        "min": 0,
+        "max": 2,
+        "below_min": False,
+    }
+    (author_input,) = [c for c in llm.calls if c.startswith("[F1]")]
+    lines = [line for line in author_input.split("\n") if line.startswith("[")]
+    assert lines == [
+        "[F1] (Einordnung) Erster Satz im Artikel hier.",
+        "[F2] (Einordnung) Zweiter Satz im Artikel hier.",
+        "[F3] Ein Satz im Abschnitt A.",
+        "[F4] Dritter Satz im Artikel hier.",
+    ]
+    dialog = json.loads((folder / "05_dialog.json").read_text())
+    assert list(dialog["aliases"].values())[:2] == ["5-0000", "5-0002"]
 
 
 def test_unknown_fact_id_in_dialog_fails_the_run(tmp_path):
