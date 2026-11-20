@@ -1,0 +1,76 @@
+{
+  "title": "Wirbellose",
+  "revid": 267717136,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-06-05T23:14:13Z",
+  "fetched_at": "2026-11-20T08:19:10Z",
+  "categories": [
+    "Kategorie:Alternatives Taxon (Zoologie)",
+    "Kategorie:Formtaxon"
+  ],
+  "intro_wikitext": "<!-- kein Taxon -->\n{{Manueller Rahmen\n| content = \n<div>[[Datei:Jelly cc11.jpg|140px|top|Pazifische Kompassqualle (Chrysaora fuscescens), eine Vertreterin der Nesseltiere (Cnidaria)]] [[Datei:Lucanus-cervus-femininum.jpg|140px|top|Hirschkäfer (Lucanus cervus, &#9792;), ein Vertreter der Gliederfüßer (Arthropoda)]]</div>\n<div>[[Datei:Nerr0328.jpg|140px|bottom|Blutwurm (Glycera sp.), ein Vertreter der Ringelwürmer (Annelida)]] [[Datei:European brown snail.jpg|140px|bottom|Gefleckte Weinbergschnecke (Cornu aspersum), eine Vertreterin der Weichtiere (Mollusca)]]</div>\n| caption = Einige Wirbellose\n}}\n\n'''Wirbellose''', '''Invertebrata''' (Evertebrata) sind die [[vielzellige Tiere|vielzelligen Tiere]] (Metazoa) ohne [[Wirbelsäule]], also alle Metazoa mit Ausnahme der [[Wirbeltiere]] (Vertebrata).\n\nGemeinsam machen die in dieser [[Informelle Gruppe (Biologie)|informellen Gruppe]] zusammengefassten Tiere rund 75 Prozent aller beschriebenen [[Lebewesen]] aus.\nWirbellose besiedeln – sowohl ober- als auch unterirdisch – so gut wie alle [[terrestrisch]]en und [[aquatisch]]en [[Habitat|Lebensräume]] der Erde. Ein weiterer Unterschied zu Wirbeltieren besteht darin, dass sich viele der Wirbellosen nur einmal im Leben vermehren ([[Semelparität]]).\n\nInnerhalb des Tierreiches erreichen wirbellose Tiere etwa einen Anteil von rund 97 Prozent aller bisher beschriebenen Spezies<ref>[https://education.nationalgeographic.org/resource/vertebrate-invertebrate/ ''Infographic. Vertebrate or Invertebrate.''] [[National Geographic]], abgerufen am 2. Januar 2025.</ref> und werden in 31 von insgesamt 32 [[Stamm (Biologie)|Stämmen]] beschrieben.<ref name=\"SCI\">{{Literatur |Autor=Nico Eisenhauer, Jeff Hines |Titel=Invertebrate biodiversity and conservation |Sammelwerk=[[Current Biology]] |Band=31 |Nummer=19 |Datum=2021-10-12 |Seiten=R1214-R1218 |DOI=10.1016/j.cub.2021.06.058 |Sprache=en}}</ref><ref name =\"WORMS\">[https://www.marinespecies.org/aphia.php?p=stats ''Statistics. Number of records in WoRMS.''] [[World Register of Marine Species]], abgerufen am 2. Januar 2025.</ref>",
+  "segments": [
+    {
+      "id": "267717136-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Wirbellose''', '''Invertebrata''' (Evertebrata) sind die [[vielzellige Tiere|vielzelligen Tiere]] (Metazoa) ohne [[Wirbelsäule]], also alle Metazoa mit Ausnahme der [[Wirbeltiere]] (Vertebrata).",
+      "plain": null
+    },
+    {
+      "id": "267717136-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Gemeinsam machen die in dieser [[Informelle Gruppe (Biologie)|informellen Gruppe]] zusammengefassten Tiere rund 75 Prozent aller beschriebenen [[Lebewesen]] aus.",
+      "plain": null
+    },
+    {
+      "id": "267717136-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Wirbellose besiedeln – sowohl ober- als auch unterirdisch – so gut wie alle [[terrestrisch]]en und [[aquatisch]]en [[Habitat|Lebensräume]] der Erde.",
+      "plain": null
+    },
+    {
+      "id": "267717136-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein weiterer Unterschied zu Wirbeltieren besteht darin, dass sich viele der Wirbellosen nur einmal im Leben vermehren ([[Semelparität]]).",
+      "plain": null
+    },
+    {
+      "id": "267717136-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Innerhalb des Tierreiches erreichen wirbellose Tiere etwa einen Anteil von rund 97 Prozent aller bisher beschriebenen Spezies<ref>[https://education.nationalgeographic.org/resource/vertebrate-invertebrate/ ''Infographic. Vertebrate or Invertebrate.''] [[National Geographic]], abgerufen am 2. Januar 2025.</ref> und werden in 31 von insgesamt 32 [[Stamm (Biologie)|Stämmen]] beschrieben.<ref name=\"SCI\">{{Literatur |Autor=Nico Eisenhauer, Jeff Hines |Titel=Invertebrate biodiversity and conservation |Sammelwerk=[[Current Biology]] |Band=31 |Nummer=19 |Datum=2021-10-12 |Seiten=R1214-R1218 |DOI=10.1016/j.cub.2021.06.058 |Sprache=en}}</ref><ref name =\"WORMS\">[https://www.marinespecies.org/aphia.php?p=stats ''Statistics. Number of records in WoRMS.''] [[World Register of Marine Species]], abgerufen am 2. Januar 2025.</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 267717136,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "267717136-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "267717136-0000"
+        ],
+        "plain": "Gemeinsam machen die in dieser informellen Gruppe zusammengefassten Tiere rund 75 Prozent aller beschriebenen Lebewesen aus.",
+        "context_plain": [
+          "Wirbellose, Invertebrata (Evertebrata) sind die vielzelligen Tiere (Metazoa) ohne Wirbelsäule, also alle Metazoa mit Ausnahme der Wirbeltiere (Vertebrata)."
+        ]
+      },
+      {
+        "segment_id": "267717136-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Innerhalb des Tierreiches erreichen wirbellose Tiere etwa einen Anteil von rund 97 Prozent aller bisher beschriebenen Spezies und werden in 31 von insgesamt 32 Stämmen beschrieben.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

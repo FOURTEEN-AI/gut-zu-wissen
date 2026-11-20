@@ -1,0 +1,45 @@
+{
+  "episode_id": "2026-11-20_tunguska-ereignis-2",
+  "title": "Tunguska-Ereignis",
+  "status": "failed",
+  "started_at": "2026-11-20T08:19:10Z",
+  "finished_at": "2026-11-20T08:38:54Z",
+  "published_at": null,
+  "explicit": null,
+  "failure": "Conversation regeneration budget used up (2x): Turn regeneration budget used up (2x, cascade included).",
+  "usage": {
+    "author": {
+      "model": "claude-sonnet-5-5",
+      "calls": 73,
+      "input_tokens": 247644,
+      "output_tokens": 93969
+    },
+    "llm_judge": {
+      "model": "claude-sonnet-5-5",
+      "calls": 118,
+      "input_tokens": 132202,
+      "output_tokens": 28660
+    },
+    "jev": {
+      "model": "jev-1.14.0",
+      "calls": 130,
+      "input_tokens": 146944,
+      "output_tokens": 6598
+    }
+  },
+  "cost": {
+    "prices": {
+      "claude_sonnet_input": 2.0,
+      "claude_sonnet_output": 10.0,
+      "jev": 0.042,
+      "gemini_tts_input": 0.5,
+      "gemini_tts_output": 9.0
+    },
+    "usd": {
+      "author": 1.435,
+      "llm_judge": 0.551,
+      "jev": 0.0062,
+      "tts": 0
+    }
+  }
+}

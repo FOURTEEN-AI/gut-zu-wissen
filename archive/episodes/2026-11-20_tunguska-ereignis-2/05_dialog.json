@@ -1,0 +1,3792 @@
+{
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "Felix",
+      "text": "Lena, heute geht es um das Tunguska-Ereignis. Wo fangen wir an? Was ist da eigentlich passiert?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 1,
+      "speaker": "Lena",
+      "text": "Fangen wir mit den Schäden an. Experten schätzen, dass auf einem Gebiet von über zweitausend Quadratkilometern rund sechzig Millionen Bäume umgeknickt wurden.",
+      "fact_ids": [
+        "270155664-0007"
+      ],
+      "statements": [
+        {
+          "text": "Experten schätzen, dass auf über zweitausend Quadratkilometern rund sechzig Millionen Bäume umgeknickt wurden.",
+          "fact_ids": [
+            "270155664-0007"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "Felix",
+      "text": "Sechzig Millionen umgeknickte Bäume auf einer so großen Fläche, das kann man sich kaum vorstellen. Was hat das ausgelöst?",
+      "fact_ids": [
+        "270155664-0007"
+      ],
+      "statements": [
+        {
+          "text": "Auf einer großen Fläche wurden rund sechzig Millionen Bäume umgeknickt.",
+          "fact_ids": [
+            "270155664-0007"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "Lena",
+      "text": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen von geringer Dichte. Der Körper hatte einen Durchmesser von dreißig bis achtzig Metern. Er explodierte etwa fünf bis vierzehn Kilometer über dem Boden. Und genau deshalb verursachte er keinen Krater.",
+      "fact_ids": [
+        "270155664-0036"
+      ],
+      "statements": [
+        {
+          "text": "Am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen geringer Dichte mit dreißig bis achtzig Metern Durchmesser.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        },
+        {
+          "text": "Der Körper explodierte etwa fünf bis vierzehn Kilometer über dem Boden und verursachte daher keinen Krater.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "Felix",
+      "text": "Moment. Er ist also schon in der Luft explodiert und hat deshalb keinen Krater hinterlassen?",
+      "fact_ids": [
+        "270155664-0036"
+      ],
+      "statements": [
+        {
+          "text": "Der Körper explodierte hoch über dem Boden und verursachte deshalb keinen Krater.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "speaker": "Lena",
+      "text": "So lautet die wahrscheinlichste Erklärung. Gesucht hat man den Krater trotzdem. Die Besatzung des Luftschiffes Graf Zeppelin suchte bei dessen Erdumrundung im August neunzehnhundertneunundzwanzig vergeblich nach einem Krater.",
+      "fact_ids": [
+        "270155664-0036",
+        "270155664-0022"
+      ],
+      "statements": [
+        {
+          "text": "Die wahrscheinlichste Erklärung ist eine Explosion in der Höhe ohne Krater.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        },
+        {
+          "text": "Die Besatzung des Luftschiffes Graf Zeppelin suchte bei der Erdumrundung im August 1929 vergeblich nach einem Krater.",
+          "fact_ids": [
+            "270155664-0022"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "speaker": "Felix",
+      "text": "Das ist ja eine Geschichte! Du hast gesagt, es war ein Asteroid oder ein Komet. Worin unterscheiden sich die beiden eigentlich?",
+      "fact_ids": [
+        "270155664-0036"
+      ],
+      "statements": [
+        {
+          "text": "Als Ursache gilt am wahrscheinlichsten ein Asteroid oder ein Komet.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "speaker": "Lena",
+      "text": "Fangen wir bei den Asteroiden an. Von ihnen haben nur die wenigsten mehr als einige hundert Kilometer Durchmesser. Bislang sind über eineinhalb Millionen Asteroiden im Sonnensystem bekannt, Stand sechster Mai zweitausendsechsundzwanzig. Jeden Monat kommen mehrere Tausend neue Entdeckungen hinzu. Die tatsächliche Anzahl dürfte wohl mehrere Millionen betragen.",
+      "fact_ids": [
+        "271523804-0002",
+        "271523804-0007"
+      ],
+      "statements": [
+        {
+          "text": "Nur die wenigsten Asteroiden haben mehr als einige hundert Kilometer Durchmesser.",
+          "fact_ids": [
+            "271523804-0002"
+          ]
+        },
+        {
+          "text": "Über eineinhalb Millionen Asteroiden sind bekannt, jeden Monat kommen mehrere Tausend Entdeckungen hinzu, und die tatsächliche Anzahl beträgt wohl mehrere Millionen.",
+          "fact_ids": [
+            "271523804-0007"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "speaker": "Felix",
+      "text": "Das ist ja unglaublich! Und wie sieht es bei den Kometen aus?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 9,
+      "speaker": "Lena",
+      "text": "Bei einem Kometen ist der Kern meist nur wenige Kilometer groß. In Sonnennähe ist er von einer diffusen, nebeligen Hülle umgeben. Diese Hülle heißt Koma. Sie kann eine Ausdehnung von zwei bis drei Millionen Kilometern erreichen. Und noch etwas: Einige Kometen entstanden in anderen Sternsystemen und wurden vom Sonnensystem gravitativ eingefangen.",
+      "fact_ids": [
+        "271523896-0005",
+        "271523896-0003"
+      ],
+      "statements": [
+        {
+          "text": "Der Kometenkern ist meist nur wenige Kilometer groß und in Sonnennähe von einer diffusen, nebeligen Hülle namens Koma umgeben, die zwei bis drei Millionen Kilometer erreichen kann.",
+          "fact_ids": [
+            "271523896-0005"
+          ]
+        },
+        {
+          "text": "Einige Kometen entstanden in anderen Sternsystemen und wurden vom Sonnensystem gravitativ eingefangen.",
+          "fact_ids": [
+            "271523896-0003"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "speaker": "Felix",
+      "text": "Der Kern ist meist nur wenige Kilometer groß, und die Koma kann Millionen Kilometer reichen. Einige Kometen sind außerdem in anderen Sternsystemen entstanden und vom Sonnensystem eingefangen worden. Beim Tunguska-Ereignis gilt ja als am wahrscheinlichsten, dass ein Körper hoch über dem Boden explodierte. Wie stark war diese Explosion denn?",
+      "fact_ids": [
+        "271523896-0005",
+        "271523896-0003",
+        "270155664-0036",
+        "270155664-0049"
+      ],
+      "statements": [
+        {
+          "text": "Der Kometenkern ist meist nur wenige Kilometer groß, die Koma kann sich über Millionen Kilometer ausdehnen.",
+          "fact_ids": [
+            "271523896-0005"
+          ]
+        },
+        {
+          "text": "Einige Kometen sind in anderen Sternsystemen entstanden und wurden vom Sonnensystem gravitativ eingefangen.",
+          "fact_ids": [
+            "271523896-0003"
+          ]
+        },
+        {
+          "text": "Es gibt das Tunguska-Ereignis, und als am wahrscheinlichsten gilt, dass ein Asteroid oder Komet etwa fünf bis vierzehn Kilometer über dem Boden explodierte.",
+          "fact_ids": [
+            "270155664-0036",
+            "270155664-0049"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "speaker": "Lena",
+      "text": "Da gingen Forscher noch in den neunzehnhundertachtziger Jahren von bis zu fünfzig Megatonnen TNT aus. Für die Wirkung am Boden gibt es einen Erklärungsansatz. Nach der Explosion eines Kometen in der Höhe könnte ein mächtiger heißer Luftstrahl dessen Weg zum Boden fortsetzen. Der würde dort eine stärkere Druckwelle und höhere Temperaturen hervorrufen.",
+      "fact_ids": [
+        "270155664-0032",
+        "270155664-0034"
+      ],
+      "statements": [
+        {
+          "text": "Noch in den neunzehnhundertachtziger Jahren gingen Schätzungen von bis zu fünfzig Megatonnen TNT Sprengkraft aus.",
+          "fact_ids": [
+            "270155664-0032"
+          ]
+        },
+        {
+          "text": "Nach der Explosion eines Kometen in der Höhe könnte ein mächtiger heißer Luftstrahl dessen Weg zum Boden fortsetzen und dort eine stärkere Druckwelle und höhere Temperaturen hervorrufen.",
+          "fact_ids": [
+            "270155664-0034"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "speaker": "Felix",
+      "text": "Ein heißer Luftstrahl, der den Weg des Kometen nach unten fortsetzt, das ist ein spannender Gedanke. Gab es denn Spuren, die man weit entfernt messen konnte?",
+      "fact_ids": [
+        "270155664-0034"
+      ],
+      "statements": [
+        {
+          "text": "Ein heißer Luftstrahl könnte nach der Explosion eines Kometen in der Höhe dessen Weg zum Boden fortsetzen.",
+          "fact_ids": [
+            "270155664-0034"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "speaker": "Lena",
+      "text": "Ja. Die Messgeräte in Potsdam empfingen die Signale nach dreißig Stunden und neunundzwanzig Minuten ein zweites Mal. Zu diesem Zeitpunkt hatten die Signale die Erde einmal umrundet.",
+      "fact_ids": [
+        "270155664-0014"
+      ],
+      "statements": [
+        {
+          "text": "Die Messgeräte in Potsdam empfingen die Signale nach dreißig Stunden und neunundzwanzig Minuten ein zweites Mal, nachdem sie die Erde einmal umrundet hatten.",
+          "fact_ids": [
+            "270155664-0014"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "speaker": "Felix",
+      "text": "Die Signale sind also einmal um die ganze Erde gelaufen und kamen in Potsdam nach gut dreißig Stunden ein zweites Mal an. Haben die Menschen auch am Himmel etwas bemerkt?",
+      "fact_ids": [
+        "270155664-0014"
+      ],
+      "statements": [
+        {
+          "text": "Die Signale umrundeten die Erde einmal und wurden in Potsdam nach dreißig Stunden und neunundzwanzig Minuten ein zweites Mal empfangen.",
+          "fact_ids": [
+            "270155664-0014"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "speaker": "Lena",
+      "text": "Ja. Während der folgenden Nächte zeigten sich über den mittleren Breiten Europas silbern leuchtende Wolken von außergewöhnlichem Glanz. In London war es zum Beispiel möglich, in diesem Licht eine Zeitung zu lesen.",
+      "fact_ids": [
+        "270155664-0015",
+        "270155664-0062"
+      ],
+      "statements": [
+        {
+          "text": "In den folgenden Nächten zeigten sich über den mittleren Breiten Europas silbern leuchtende Wolken von außergewöhnlichem Glanz.",
+          "fact_ids": [
+            "270155664-0015"
+          ]
+        },
+        {
+          "text": "In London war es zum Beispiel möglich, in diesem Licht eine Zeitung zu lesen.",
+          "fact_ids": [
+            "270155664-0062"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "speaker": "Felix",
+      "text": "Nachts eine Zeitung lesen, das ist verrückt! Aber kommen wir zum Krater zurück. Gibt es denn einen Kandidaten dafür?",
+      "fact_ids": [
+        "270155664-0062"
+      ],
+      "statements": [
+        {
+          "text": "In London konnte man in diesem Licht eine Zeitung lesen.",
+          "fact_ids": [
+            "270155664-0062"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "speaker": "Lena",
+      "text": "Es gibt Vermutungen von Wissenschaftlern, dass der Tscheko-See ein Einschlagkrater ist, der beim Tunguska-Ereignis entstand. Im Juni zweitausendsieben veröffentlichte eine italienische Forschergruppe nach einer Expedition unter Leitung des Meeresgeologen Luca Gasperini in der Online-Zeitschrift Terra Nova ihre Vermutung. Sie hielt den Tscheko-See für den Krater eines Einschlagkörpers.",
+      "fact_ids": [
+        "262125942-0007",
+        "270155664-0047"
+      ],
+      "statements": [
+        {
+          "text": "Wissenschaftler vermuten, dass der Tscheko-See ein Einschlagkrater ist, der beim Tunguska-Ereignis entstand.",
+          "fact_ids": [
+            "262125942-0007"
+          ]
+        },
+        {
+          "text": "Im Juni 2007 veröffentlichte eine italienische Forschergruppe unter Leitung des Meeresgeologen Luca Gasperini in der Online-Zeitschrift Terra Nova die Vermutung, der Tscheko-See sei der Krater eines Impaktors.",
+          "fact_ids": [
+            "270155664-0047"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "speaker": "Felix",
+      "text": "Gab es für die Vermutung der italienischen Gruppe auch einen Hinweis?",
+      "fact_ids": [
+        "270155664-0047"
+      ],
+      "statements": [
+        {
+          "text": "Eine italienische Forschergruppe vermutete, der Tscheko-See sei ein Einschlagkrater.",
+          "fact_ids": [
+            "270155664-0047"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "speaker": "Lena",
+      "text": "Ja. Am See wurde eine leichte magnetische Anomalie ermittelt. Das gilt als Hinweis auf einen metallischen Einschlagkörper.",
+      "fact_ids": [
+        "262125942-0014"
+      ],
+      "statements": [
+        {
+          "text": "Beim Tscheko-See wurde eine leichte magnetische Anomalie ermittelt, ein Hinweis auf einen metallischen Einschlagkörper.",
+          "fact_ids": [
+            "262125942-0014"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "speaker": "Felix",
+      "text": "Moment, heißt das, der See ist ein Einschlagkrater vom Tunguska-Ereignis? Oder ist das bisher nur eine Vermutung?",
+      "fact_ids": [
+        "262125942-0007",
+        "262125942-0014"
+      ],
+      "statements": [
+        {
+          "text": "Es gibt Vermutungen von Wissenschaftlern, dass der Tscheko-See ein Einschlagkrater ist, der beim Tunguska-Ereignis entstand.",
+          "fact_ids": [
+            "262125942-0007"
+          ]
+        },
+        {
+          "text": "Eine leichte magnetische Anomalie wurde am See ermittelt, ein Hinweis auf einen metallischen Einschlagkörper.",
+          "fact_ids": [
+            "262125942-0014"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "speaker": "Lena",
+      "text": "Bisher ist es nur eine Vermutung. Eine italienische Forschergruppe vermutete im Juni zweitausendsieben, dass der Tscheko-See ein Einschlagkrater ist. Russische Wissenschaftler haben diese Theorie im Januar zweitausendsiebzehn vielleicht widerlegt. Nach ihren Untersuchungen dürfte der See schon vor über zweihundertachtzig Jahren entstanden sein.",
+      "fact_ids": [
+        "262125942-0007",
+        "270155664-0047",
+        "270155664-0049"
+      ],
+      "statements": [
+        {
+          "text": "Dass der Tscheko-See ein Einschlagkrater vom Tunguska-Ereignis ist, ist bisher nur eine Vermutung von Wissenschaftlern.",
+          "fact_ids": [
+            "262125942-0007"
+          ]
+        },
+        {
+          "text": "Eine italienische Forschergruppe vermutete im Juni 2007, dass der Tscheko-See der Krater eines Einschlagkörpers ist.",
+          "fact_ids": [
+            "270155664-0047"
+          ]
+        },
+        {
+          "text": "Russische Wissenschaftler haben die Theorie, dass der Tscheko-See der Krater des Tunguska-Ereignisses ist, im Januar 2017 vielleicht widerlegt.",
+          "fact_ids": [
+            "270155664-0049"
+          ]
+        },
+        {
+          "text": "Nach den Untersuchungen der russischen Wissenschaftler dürfte der See bereits vor über 280 Jahren entstanden sein.",
+          "fact_ids": [
+            "270155664-0049"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "speaker": "Felix",
+      "text": "Oh, das ist ein Dämpfer. Gibt es neben Asteroid oder Komet auch wildere Ideen?",
+      "fact_ids": [
+        "270155664-0036"
+      ],
+      "statements": [
+        {
+          "text": "Als am wahrscheinlichsten gilt ein Asteroid oder Komet.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "speaker": "Lena",
+      "text": "Ja, einige. Für das Ereignis wurden unter anderem der Einschlag eines kleinen Schwarzen Loches und der Absturz eines extraterrestrischen Raumschiffs verantwortlich gemacht. Auch eine Explosion der dort zahlreich vorkommenden Mücken wurde genannt, vergleichbar einer Staubexplosion. Man nennt sie die „Mückenexplosion“.",
+      "fact_ids": [
+        "270155664-0001"
+      ],
+      "statements": [
+        {
+          "text": "Für das Ereignis wurden unter anderem der Einschlag eines kleinen Schwarzen Loches, der Absturz eines extraterrestrischen Raumschiffs oder eine Explosion der zahlreich vorkommenden Mücken verantwortlich gemacht.",
+          "fact_ids": [
+            "270155664-0001"
+          ]
+        },
+        {
+          "text": "Die Mückenexplosion wird mit einer Staubexplosion verglichen.",
+          "fact_ids": [
+            "270155664-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "speaker": "Felix",
+      "text": "Haha, jetzt muss ich lachen. Gibt es auch Ideen aus der Geologie?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 25,
+      "speaker": "Lena",
+      "text": "Ja. Eine These erklärt das Ereignis als Explosion von zehn Millionen Tonnen Erdgas. Das Gas sei über Risse aus einem unterirdischen natürlichen Erdgaslager unter hohem Druck entwichen. Es sei mit hoher Geschwindigkeit bis in hohe Atmosphärenschichten aufgestiegen und habe sich durch Reibungselektrizität entzündet. Dann sei es in einer Flammenfront bis hinunter zur Austrittsstelle abgebrannt.",
+      "fact_ids": [
+        "270155664-0058"
+      ],
+      "statements": [
+        {
+          "text": "Eine These erklärt das Ereignis als Explosion von zehn Millionen Tonnen Erdgas, das über Risse aus einem unterirdischen Erdgaslager unter hohem Druck entwich.",
+          "fact_ids": [
+            "270155664-0058"
+          ]
+        },
+        {
+          "text": "Das Gas stieg bis in hohe Atmosphärenschichten auf, entzündete sich durch Reibungselektrizität und brannte in einer Flammenfront bis zur Austrittsstelle ab.",
+          "fact_ids": [
+            "270155664-0058"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "speaker": "Felix",
+      "text": "Ein Gas, das sich in der Höhe durch Reibungselektrizität entzündet und dann nach unten abbrennt. Das klingt fast wie ein Film. Ist der Ort selbst auch besonders?",
+      "fact_ids": [
+        "270155664-0058"
+      ],
+      "statements": [
+        {
+          "text": "Nach der Erdgas-These entzündete sich das Gas in der Höhe durch Reibungselektrizität und brannte bis zur Austrittsstelle ab.",
+          "fact_ids": [
+            "270155664-0058"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "speaker": "Lena",
+      "text": "Ja. Der Ort befindet sich inmitten des Sibirischen Trapps. Das ist ein großes Gebiet magmatischen Gesteins, das sich um die Wende vom Perm zur Trias gebildet hat. Zu diesem Zeitpunkt, vor rund zweihundertzweiundfünfzig Millionen Jahren, fand das größte bekannte Massenaussterben der Erdgeschichte statt. Dabei starben fünfundsiebzig Prozent der an Land lebenden und fünfundneunzig Prozent der marinen Wirbellosen aus.",
+      "fact_ids": [
+        "270155664-0066"
+      ],
+      "statements": [
+        {
+          "text": "Der Ort des Ereignisses liegt inmitten des Sibirischen Trapps, eines großen Gebietes magmatischen Gesteins, das sich um die Wende vom Perm zur Trias gebildet hat.",
+          "fact_ids": [
+            "270155664-0066"
+          ]
+        },
+        {
+          "text": "Vor rund 252 Millionen Jahren fand das größte bekannte Massenaussterben der Erdgeschichte statt, bei dem 75 Prozent der an Land lebenden und 95 Prozent der marinen Wirbellosen ausstarben.",
+          "fact_ids": [
+            "270155664-0066"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "speaker": "Felix",
+      "text": "Wow. Gab es auch Erklärungen aus der Teilchenphysik?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 29,
+      "speaker": "Lena",
+      "text": "Ja. Der Teilchenphysiker Robert Foot von der Universität Melbourne hält eine Kollision der Erde mit einem Weltraumkörper aus Spiegelmaterie für möglich. Spiegelmaterie ist eine hypothetische Materieform. Aus ihr könnte zum Beispiel die Dunkle Materie bestehen.",
+      "fact_ids": [
+        "270155664-0075"
+      ],
+      "statements": [
+        {
+          "text": "Nach Robert Foot von der Universität Melbourne könnte es eine Kollision der Erde mit einem Weltraumkörper aus Spiegelmaterie gewesen sein.",
+          "fact_ids": [
+            "270155664-0075"
+          ]
+        },
+        {
+          "text": "Spiegelmaterie ist eine hypothetische Materieform, aus der zum Beispiel die Dunkle Materie bestehen könnte.",
+          "fact_ids": [
+            "270155664-0075"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "speaker": "Felix",
+      "text": "Also gibt es Schwarzes Loch, Erdgas und Spiegelmaterie. Da ist für jeden Geschmack etwas dabei. Wie sieht es mit Romanen aus? Taucht das Ereignis in der Literatur auf?",
+      "fact_ids": [
+        "270155664-0001",
+        "270155664-0058",
+        "270155664-0075"
+      ],
+      "statements": [
+        {
+          "text": "Als Ursachen wurden unter anderem ein kleines Schwarzes Loch, eine Erdgasexplosion und ein Körper aus Spiegelmaterie genannt.",
+          "fact_ids": [
+            "270155664-0001",
+            "270155664-0058",
+            "270155664-0075"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "speaker": "Lena",
+      "text": "Ja. Neunzehnhundertfünfundsechzig stellten die Brüder Strugazki im Buch „Der Montag fängt am Samstag an“ eine humorvolle phantastische These auf. Das Ereignis sei von einem „kontramoten“ Raumschiff verursacht worden, das auf der Zeitachse rückwärts reist. Es landete auf der Erde und entzündete beim Landen die Taiga. Dann wanderte es weiter durch die Zeit zurück, sodass keine Spuren an der Brandstelle zurückblieben.",
+      "fact_ids": [
+        "270155664-0082"
+      ],
+      "statements": [
+        {
+          "text": "Die Brüder Strugazki stellten 1965 im Buch „Der Montag fängt am Samstag an“ die humorvolle phantastische These auf, ein „kontramotes“ Raumschiff, das auf der Zeitachse rückwärts reist, habe das Ereignis verursacht.",
+          "fact_ids": [
+            "270155664-0082"
+          ]
+        },
+        {
+          "text": "Das Raumschiff landete, entzündete die Taiga und wanderte durch die Zeit zurück, sodass keine Spuren an der Brandstelle blieben.",
+          "fact_ids": [
+            "270155664-0082"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "speaker": "Felix",
+      "text": "Ein Raumschiff, das rückwärts durch die Zeit reist, hinterlässt also keine Spuren. Das ist eine humorvolle Erklärung für die fehlenden Spuren.",
+      "fact_ids": [
+        "270155664-0082"
+      ],
+      "statements": [
+        {
+          "text": "Nach der Strugazki-These hinterließ das Raumschiff keine Spuren, weil es durch die Zeit zurückwanderte.",
+          "fact_ids": [
+            "270155664-0082"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "speaker": "Lena",
+      "text": "Es gibt noch mehr. In Peter Schwindts Roman „Das Portal“ aus der Reihe „Justin Time“ wird das Ereignis durch den Absturz eines mit Antimaterie betriebenen Satelliten verursacht. Der Satellit war Teil eines Zeitportals. Damit wollte eine wahnsinnige Wissenschaftlerin die Weltherrschaft erringen. Das Buch stammt von zweitausendfünf.",
+      "fact_ids": [
+        "270155664-0087"
+      ],
+      "statements": [
+        {
+          "text": "In Peter Schwindts Roman „Das Portal“ aus der Reihe „Justin Time“ von 2005 wird das Ereignis durch den Absturz eines mit Antimaterie betriebenen Satelliten verursacht.",
+          "fact_ids": [
+            "270155664-0087"
+          ]
+        },
+        {
+          "text": "Der Satellit war Teil eines Zeitportals, mit dem eine wahnsinnige Wissenschaftlerin die Weltherrschaft erringen wollte.",
+          "fact_ids": [
+            "270155664-0087"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "speaker": "Felix",
+      "text": "Eine Wissenschaftlerin, ein Zeitportal und ein Satellit mit Antimaterie. Gibt es das Ereignis auch im Comic?",
+      "fact_ids": [
+        "270155664-0087"
+      ],
+      "statements": [
+        {
+          "text": "Im Roman „Das Portal“ war ein mit Antimaterie betriebener Satellit Teil eines Zeitportals einer Wissenschaftlerin.",
+          "fact_ids": [
+            "270155664-0087"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "speaker": "Lena",
+      "text": "Ja. Neunzehnhundertachtundneunzig geht im Lustigen Taschenbuch Nummer zweihundertsiebenundvierzig Indiana Goof zusammen mit Micky Maus in der Geschichte „Der große Knall“ auf Expedition nach dem Ursprung des Tunguska-Ereignisses. Sie finden heraus, dass es eine ungewollte Nuklearexplosion war.",
+      "fact_ids": [
+        "270155664-0101"
+      ],
+      "statements": [
+        {
+          "text": "1998 gehen im Lustigen Taschenbuch Nr. 247 Indiana Goof und Micky Maus in der Geschichte „Der große Knall“ auf Expedition nach dem Ursprung des Tunguska-Ereignisses.",
+          "fact_ids": [
+            "270155664-0101"
+          ]
+        },
+        {
+          "text": "Sie finden heraus, dass es eine ungewollte Nuklearexplosion war.",
+          "fact_ids": [
+            "270155664-0101"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "speaker": "Felix",
+      "text": "Eine Nuklearexplosion im Comic, das ist überraschend. Seit wann gibt es überhaupt Atomexplosionen, die von Menschen gemacht wurden?",
+      "fact_ids": [
+        "270155664-0101"
+      ],
+      "statements": [
+        {
+          "text": "Im Comic „Der große Knall“ stellt sich das Tunguska-Ereignis als ungewollte Nuklearexplosion heraus.",
+          "fact_ids": [
+            "270155664-0101"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "speaker": "Lena",
+      "text": "Die erste von Menschen herbeigeführte Atomexplosion fand am sechzehnten Juli neunzehnhundertfünfundvierzig statt. Der Ort war ein Gelände namens „White Sands Missile Range“ in der Wüste von New Mexico.",
+      "fact_ids": [
+        "271574089-0004"
+      ],
+      "statements": [
+        {
+          "text": "Die erste von Menschen herbeigeführte Atomexplosion fand am 16. Juli 1945 auf dem Gelände „White Sands Missile Range“ in der Wüste von New Mexico statt.",
+          "fact_ids": [
+            "271574089-0004"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "speaker": "Felix",
+      "text": "Dann fasse ich das Gespräch kurz zusammen. Auf über zweitausend Quadratkilometern wurden rund sechzig Millionen Bäume umgeknickt. Als am wahrscheinlichsten gilt ein Steinasteroid oder Komet, der hoch über dem Boden explodierte und deshalb keinen Krater hinterließ. Der Tscheko-See galt als Kandidat für den Krater, doch russische Forscher halten ihn für älter als zweihundertachtzig Jahre. Und weil die Ursache offen ist, gibt es Ideen vom Schwarzen Loch über Erdgas bis zur Spiegelmaterie. Dazu kommen Romane und ein Comic, in denen sich das Ereignis ganz anders erklärt.",
+      "fact_ids": [
+        "270155664-0007",
+        "270155664-0036",
+        "270155664-0049",
+        "270155664-0001",
+        "270155664-0058",
+        "270155664-0075",
+        "270155664-0082",
+        "270155664-0087",
+        "270155664-0101"
+      ],
+      "statements": [
+        {
+          "text": "Auf über zweitausend Quadratkilometern wurden rund sechzig Millionen Bäume umgeknickt.",
+          "fact_ids": [
+            "270155664-0007"
+          ]
+        },
+        {
+          "text": "Am wahrscheinlichsten gilt ein Steinasteroid oder Komet, der hoch über dem Boden explodierte und deshalb keinen Krater verursachte.",
+          "fact_ids": [
+            "270155664-0036"
+          ]
+        },
+        {
+          "text": "Russische Forscher halten den Tscheko-See wohl für älter als 280 Jahre und haben die Kratertheorie vielleicht widerlegt.",
+          "fact_ids": [
+            "270155664-0049"
+          ]
+        },
+        {
+          "text": "Es wurden unter anderem ein kleines Schwarzes Loch, eine Erdgasexplosion und ein Körper aus Spiegelmaterie als Ursachen genannt.",
+          "fact_ids": [
+            "270155664-0001",
+            "270155664-0058",
+            "270155664-0075"
+          ]
+        },
+        {
+          "text": "Romane und ein Comic erklären das Ereignis auf ihre eigene Weise, etwa mit einem rückwärts reisenden Raumschiff, einem Satelliten mit Antimaterie oder einer ungewollten Nuklearexplosion.",
+          "fact_ids": [
+            "270155664-0082",
+            "270155664-0087",
+            "270155664-0101"
+          ]
+        }
+      ]
+    }
+  ],
+  "problems": [
+    {
+      "turn_index": 23,
+      "reason": "Unknown fact IDs: 270155664-0001"
+    },
+    {
+      "turn_index": 30,
+      "reason": "Unknown fact IDs: 270155664-0001"
+    },
+    {
+      "turn_index": 38,
+      "reason": "Unknown fact IDs: 270155664-0001"
+    }
+  ],
+  "used_fact_ids": [
+    "270155664-0007",
+    "270155664-0036",
+    "270155664-0022",
+    "271523804-0002",
+    "271523804-0007",
+    "271523896-0005",
+    "271523896-0003",
+    "270155664-0032",
+    "270155664-0034",
+    "270155664-0014",
+    "270155664-0015",
+    "270155664-0062",
+    "262125942-0007",
+    "270155664-0047",
+    "262125942-0014",
+    "270155664-0049",
+    "270155664-0058",
+    "270155664-0066",
+    "270155664-0075",
+    "270155664-0082",
+    "270155664-0087",
+    "270155664-0101",
+    "271574089-0004"
+  ],
+  "conversation": 3,
+  "regenerations": [
+    {
+      "conversation": 1,
+      "turn_index": 9,
+      "kind": "retry",
+      "reason": "Der Satz „Fachleute nennen so einen Körper Impaktor“ geht über den Fakt-Satz hinaus. Dieser nennt „Impaktor“ nur als Klammerzusatz und sagt nichts darüber, dass Fachleute den Begriff verwenden. Auch „Auch da sieht es leer aus“ ist ohne Kontext nur eine Überleitung, die Hauptaussage über die fehlenden Bruchstücke ist dagegen belegt.",
+      "previous": {
+        "index": 9,
+        "speaker": "Lena",
+        "text": "Auch da sieht es leer aus. Bis heute wurden keine mit bloßem Auge sichtbaren Bruchstücke eines eingeschlagenen Himmelskörpers gefunden. Fachleute nennen so einen Körper Impaktor.",
+        "fact_ids": [
+          "270155664-0041"
+        ],
+        "statements": [
+          {
+            "text": "Bis heute wurden keine mit bloßem Auge sichtbaren Bruchstücke eines eingeschlagenen Himmelskörpers gefunden.",
+            "fact_ids": [
+              "270155664-0041"
+            ]
+          },
+          {
+            "text": "Ein eingeschlagener Himmelskörper wird Impaktor genannt.",
+            "fact_ids": [
+              "270155664-0041"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 10,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 10,
+        "speaker": "Felix",
+        "text": "Der Zeppelin fand keinen Krater, und sichtbare Bruchstücke gibt es bis heute nicht. Wie erklärt man das dann?",
+        "fact_ids": [
+          "270155664-0022",
+          "270155664-0041"
+        ],
+        "statements": [
+          {
+            "text": "Die Zeppelin-Besatzung suchte vergeblich nach einem Krater.",
+            "fact_ids": [
+              "270155664-0022"
+            ]
+          },
+          {
+            "text": "Mit bloßem Auge sichtbare Bruchstücke eines Impaktors wurden bis heute nicht gefunden.",
+            "fact_ids": [
+              "270155664-0041"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 18,
+      "kind": "retry",
+      "reason": "Die Rechnung \"mehrere Jahrzehnte\" (1978 bis 2013, also 35 Jahre) folgt aus [270155664-0054], und die Neugier auf den Meteoritenfall ist eine belegfreie Reaktion. Die Frage \"Gibt es Forscher, die trotz allem einen Krater ausgemacht haben wollen?\" setzt aber voraus, dass es beim Tunguska-Ereignis eigentlich keinen Krater gibt und dass etwas dagegen spricht. Davon steht in den Fakt-Sätzen nichts. Sie erwähnen weder einen Krater noch dessen Fehlen.",
+      "previous": {
+        "index": 18,
+        "speaker": "Felix",
+        "text": "Zwischen Fund und Analyse lagen also mehrere Jahrzehnte. Und das mit dem Meteoritenfall macht mich neugierig. Gibt es Forscher, die trotz allem einen Krater ausgemacht haben wollen?",
+        "fact_ids": [
+          "270155664-0054",
+          "270155664-0050"
+        ],
+        "statements": [
+          {
+            "text": "Zwischen dem Fund der Fragmente im Jahr 1978 und ihrer Analyse im Jahr 2013 lagen mehrere Jahrzehnte.",
+            "fact_ids": [
+              "270155664-0054"
+            ]
+          },
+          {
+            "text": "Wenige Stunden nach dem Tunguska-Ereignis wurde bei Kiew ein Meteoritenfall beobachtet.",
+            "fact_ids": [
+              "270155664-0050"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 19,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 19,
+        "speaker": "Lena",
+        "text": "Ja. Im Juni zweitausendsieben veröffentlichte eine italienische Forschergruppe unter Leitung des Meeresgeologen Luca Gasperini ihre Vermutung in der Online-Zeitschrift Terra Nova. Sie meinte, dass der Tscheko-See der Krater eines Impaktors sei.",
+        "fact_ids": [
+          "270155664-0047"
+        ],
+        "statements": [
+          {
+            "text": "Im Juni 2007 veröffentlichte eine italienische Forschergruppe unter Leitung des Meeresgeologen Luca Gasperini in der Online-Zeitschrift Terra Nova die Vermutung, der Tscheko-See sei der Krater eines Impaktors.",
+            "fact_ids": [
+              "270155664-0047"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 25,
+      "kind": "retry",
+      "reason": "Unknown fact IDs: 270155664-0001",
+      "previous": {
+        "index": 25,
+        "speaker": "Lena",
+        "text": "Eine ganze Menge. Verantwortlich gemacht wurden unter anderem der Einschlag eines kleinen Schwarzen Loches und der Absturz eines extraterrestrischen Raumschiffs. Auch eine Explosion der dort zahlreich vorkommenden Mücken kam ins Spiel. Sie wäre vergleichbar einer Staubexplosion und heißt Mückenexplosion.",
+        "fact_ids": [
+          "270155664-0001"
+        ],
+        "statements": [
+          {
+            "text": "Für das Ereignis wurden unter anderem der Einschlag eines kleinen Schwarzen Loches und der Absturz eines extraterrestrischen Raumschiffs verantwortlich gemacht.",
+            "fact_ids": [
+              "270155664-0001"
+            ]
+          },
+          {
+            "text": "Auch eine Explosion der dort zahlreich vorkommenden Mücken, vergleichbar einer Staubexplosion, wurde als Ursache genannt und heißt Mückenexplosion.",
+            "fact_ids": [
+              "270155664-0001"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 26,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 26,
+        "speaker": "Felix",
+        "text": "Mücken, wirklich? Ach du meine Güte. Gibt es auch Ideen aus der Physik?",
+        "fact_ids": [],
+        "statements": []
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 42,
+      "kind": "retry",
+      "reason": "Unknown fact IDs: 270155664-0001",
+      "previous": {
+        "index": 42,
+        "speaker": "Felix",
+        "text": "Das Schwarze Loch kennen wir schon von den Erklärungsversuchen vorhin.",
+        "fact_ids": [
+          "270155664-0001",
+          "270155664-0105"
+        ],
+        "statements": [
+          {
+            "text": "Auch unter den Erklärungsversuchen für das Ereignis wurde der Einschlag eines kleinen Schwarzen Loches genannt.",
+            "fact_ids": [
+              "270155664-0001"
+            ]
+          },
+          {
+            "text": "In der Serie „UFOs“ wird das Ereignis ebenfalls als winziges schwarzes Loch gedeutet.",
+            "fact_ids": [
+              "270155664-0105"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 43,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 43,
+        "speaker": "Lena",
+        "text": "Ja, die Idee taucht an beiden Stellen auf. In der Serie ist sie mit außerirdischer Technologie verknüpft.",
+        "fact_ids": [
+          "270155664-0001",
+          "270155664-0105"
+        ],
+        "statements": [
+          {
+            "text": "Ein kleines Schwarzes Loch wurde unter den Ursachen für das Ereignis genannt.",
+            "fact_ids": [
+              "270155664-0001"
+            ]
+          },
+          {
+            "text": "In der Serie „UFOs“ soll das schwarze Loch durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie entstanden sein.",
+            "fact_ids": [
+              "270155664-0105"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 14,
+      "kind": "retry",
+      "reason": "Unknown fact IDs: 270155664-0001",
+      "previous": {
+        "index": 14,
+        "speaker": "Felix",
+        "text": "Das klingt fast unwirklich. Bei so einem Rätsel gab es sicher viele Ideen, was dahintersteckt, oder?",
+        "fact_ids": [
+          "270155664-0001"
+        ],
+        "statements": [
+          {
+            "text": "Für das Ereignis wurden verschiedene Ursachen verantwortlich gemacht.",
+            "fact_ids": [
+              "270155664-0001"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 15,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 15,
+        "speaker": "Lena",
+        "text": "Und ob. Unter anderem wurden der Einschlag eines kleinen Schwarzen Loches und der Absturz eines extraterrestrischen Raumschiffs für das Ereignis verantwortlich gemacht. Dazu kam die sogenannte Mückenexplosion. Gemeint ist eine Explosion der dort zahlreich vorkommenden Mücken, vergleichbar einer Staubexplosion.",
+        "fact_ids": [
+          "270155664-0001"
+        ],
+        "statements": [
+          {
+            "text": "Der Einschlag eines kleinen Schwarzen Loches und der Absturz eines extraterrestrischen Raumschiffs wurden für das Ereignis verantwortlich gemacht.",
+            "fact_ids": [
+              "270155664-0001"
+            ]
+          },
+          {
+            "text": "Auch die Mückenexplosion, eine Explosion der dort zahlreich vorkommenden Mücken, vergleichbar einer Staubexplosion, wurde dafür verantwortlich gemacht.",
+            "fact_ids": [
+              "270155664-0001"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 16,
+      "kind": "retry",
+      "reason": "Unknown fact IDs: 270155664-0001",
+      "previous": {
+        "index": 16,
+        "speaker": "Felix",
+        "text": "Eine Mückenexplosion, das ist ja herrlich! Gibt es auch Erklärungen, die aus dem Untergrund kommen?",
+        "fact_ids": [
+          "270155664-0001"
+        ],
+        "statements": [
+          {
+            "text": "Die Mückenexplosion wurde als mögliche Ursache genannt.",
+            "fact_ids": [
+              "270155664-0001"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 17,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 17,
+        "speaker": "Lena",
+        "text": "Ja. Eine Deutung geht von der Explosion von zehn Millionen Tonnen Erdgas aus. Das Gas wäre über Risse aus einem unterirdischen natürlichen Erdgaslager unter hohem Druck entwichen. Es wäre mit hoher Geschwindigkeit bis in hohe Atmosphärenschichten aufgestiegen und hätte sich durch Reibungselektrizität entzündet. Dann wäre es in einer Flammenfront bis hinunter zur Austrittsstelle abgebrannt. Außerdem ist der Ort selbst bemerkenswert. Er befindet sich inmitten des Sibirischen Trapps, eines großen Gesteinsgebietes, das sich um die Wende vom Perm zur Trias gebildet hat.",
+        "fact_ids": [
+          "270155664-0058",
+          "270155664-0066"
+        ],
+        "statements": [
+          {
+            "text": "Nach einer Deutung wäre das Ereignis als Explosion von 10 Millionen Tonnen Erdgas zu erklären, das über Risse aus einem unterirdischen Erdgaslager unter hohem Druck entwich.",
+            "fact_ids": [
+              "270155664-0058"
+            ]
+          },
+          {
+            "text": "Das Gas wäre mit hoher Geschwindigkeit bis in hohe Atmosphärenschichten aufgestiegen, hätte sich durch Reibungselektrizität entzündet und wäre in einer Flammenfront bis zur Austrittsstelle abgebrannt.",
+            "fact_ids": [
+              "270155664-0058"
+            ]
+          },
+          {
+            "text": "Der Ort des Ereignisses befindet sich inmitten des Sibirischen Trapps, eines großen Gesteinsgebietes, das sich um die Wende vom Perm zur Trias gebildet hat.",
+            "fact_ids": [
+              "270155664-0066"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 10,
+      "kind": "retry",
+      "reason": "Die Aussage \"Manche Kometen kommen sogar aus fremden Sternsystemen\" geht über Fakt 0003 hinaus: Dort steht, dass einige Kometen in anderen Sternsystemen entstanden und vom Sonnensystem gravitativ eingefangen wurden. Das stimmt nicht mit \"kommen aus\" im Sinne einer heutigen Herkunft überein, passt aber noch ungefähr. Problematischer ist die Frage: \"Zurück nach Tunguska: Wie viel Sprengkraft steckte denn in dieser Explosion?\" setzt eine Tunguska-Explosion voraus, die in keinem der zitierten Fakten vorkommt. Die Prämisse ist also nicht belegt. Die Aussage zu Kern und Koma (wenige Kilometer, Millionen Kilometer) folgt dagegen aus Fakt 0005.",
+      "previous": {
+        "index": 10,
+        "speaker": "Felix",
+        "text": "Dann halte ich fest: Der Kern ist meist nur wenige Kilometer groß, aber die Koma kann Millionen Kilometer reichen. Manche Kometen kommen sogar aus fremden Sternsystemen. Zurück nach Tunguska: Wie viel Sprengkraft steckte denn in dieser Explosion?",
+        "fact_ids": [
+          "271523896-0005",
+          "271523896-0003"
+        ],
+        "statements": [
+          {
+            "text": "Der Kometenkern ist meist nur wenige Kilometer groß, die Koma kann aber zwei bis drei Millionen Kilometer erreichen.",
+            "fact_ids": [
+              "271523896-0005"
+            ]
+          },
+          {
+            "text": "Manche Kometen entstanden in anderen Sternsystemen.",
+            "fact_ids": [
+              "271523896-0003"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 11,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 11,
+        "speaker": "Lena",
+        "text": "Da gingen die Schätzungen noch in den neunzehnhundertachtziger Jahren von bis zu fünfzig Megatonnen TNT aus. Für die Wirkung am Boden gibt es einen Erklärungsansatz. Ein mächtiger heißer Luftstrahl könnte nach der Explosion eines Kometen in der Höhe dessen Weg zum Boden fortsetzen. Dort würde er eine stärkere Druckwelle und höhere Temperaturen hervorrufen.",
+        "fact_ids": [
+          "270155664-0032",
+          "270155664-0034"
+        ],
+        "statements": [
+          {
+            "text": "Schätzungen gingen noch in den 1980er Jahren von bis zu fünfzig Megatonnen TNT aus.",
+            "fact_ids": [
+              "270155664-0032"
+            ]
+          },
+          {
+            "text": "Ein mächtiger heißer Luftstrahl könnte nach der Explosion eines Kometen in der Höhe dessen Weg zum Boden fortsetzen und dort eine stärkere Druckwelle und höhere Temperaturen hervorrufen.",
+            "fact_ids": [
+              "270155664-0034"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 20,
+      "kind": "retry",
+      "reason": "Die Frage setzt voraus, dass der See der gesuchte Krater ist und das Rätsel gelöst sein könnte. Der Fakt-Satz belegt nur, dass Wissenschaftler vermuten, der See sei ein Einschlagkrater des Tunguska-Ereignisses. Dass es einen „gesuchten Krater“ gibt und das Rätsel gelöst ist, steht dort nicht. Die Vermutung wird als Gewissheit dargestellt.",
+      "previous": {
+        "index": 20,
+        "speaker": "Felix",
+        "text": "Dann ist der See also der gesuchte Krater, und das Rätsel ist gelöst?",
+        "fact_ids": [
+          "262125942-0007"
+        ],
+        "statements": [
+          {
+            "text": "Es gibt die Vermutung, dass der Tscheko-See der Krater des Tunguska-Ereignisses ist.",
+            "fact_ids": [
+              "262125942-0007"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 21,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 21,
+        "speaker": "Lena",
+        "text": "Nicht unbedingt. Russische Wissenschaftler haben im Januar zweitausendsiebzehn die Theorie, dass der Tscheko-See der Krater des Tunguska-Ereignisses ist, vielleicht widerlegt. Nach ihren Untersuchungen dürfte der See bereits vor über zweihundertachtzig Jahren entstanden sein.",
+        "fact_ids": [
+          "270155664-0049"
+        ],
+        "statements": [
+          {
+            "text": "Russische Wissenschaftler haben im Januar 2017 die Theorie, der Tscheko-See sei der Krater des Tunguska-Ereignisses, vielleicht widerlegt.",
+            "fact_ids": [
+              "270155664-0049"
+            ]
+          },
+          {
+            "text": "Nach ihren Untersuchungen dürfte der See bereits vor über 280 Jahren entstanden sein.",
+            "fact_ids": [
+              "270155664-0049"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "discarded_conversations": [
+    {
+      "conversation": 1,
+      "reason": "Turn regeneration budget used up (2x, cascade included).",
+      "excluded_fact_ids": [
+        "270155664-0041",
+        "270155664-0050",
+        "270155664-0054"
+      ],
+      "dialog": {
+        "turns": [
+          {
+            "index": 0,
+            "speaker": "Felix",
+            "text": "Lena, heute geht es um das Tunguska-Ereignis. Ich bin gespannt. Was ist da eigentlich passiert, und was weiß man darüber?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 1,
+            "speaker": "Lena",
+            "text": "Fangen wir mit den Folgen am Boden an. Experten schätzen, dass auf einem Gebiet von über zweitausend Quadratkilometern rund sechzig Millionen Bäume umgeknickt wurden.",
+            "fact_ids": [
+              "270155664-0007"
+            ],
+            "statements": [
+              {
+                "text": "Experten schätzen, dass auf über zweitausend Quadratkilometern rund sechzig Millionen Bäume umgeknickt wurden.",
+                "fact_ids": [
+                  "270155664-0007"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "speaker": "Felix",
+            "text": "Wahnsinn, das lässt sich kaum begreifen.",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 3,
+            "speaker": "Lena",
+            "text": "Und die Wirkung war auch weit entfernt messbar. Messgeräte in Potsdam empfingen die Signale nach dreißig Stunden und neunundzwanzig Minuten ein zweites Mal. Da hatten die Signale die Erde einmal umrundet.",
+            "fact_ids": [
+              "270155664-0014"
+            ],
+            "statements": [
+              {
+                "text": "Messgeräte in Potsdam empfingen die Signale nach dreißig Stunden und neunundzwanzig Minuten ein zweites Mal.",
+                "fact_ids": [
+                  "270155664-0014"
+                ]
+              },
+              {
+                "text": "Zu diesem Zeitpunkt hatten die Signale die Erde einmal umrundet.",
+                "fact_ids": [
+                  "270155664-0014"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 4,
+            "speaker": "Felix",
+            "text": "Moment. Die Signale sind also einmal um die ganze Erde gelaufen und in Potsdam dann noch ein zweites Mal angekommen?",
+            "fact_ids": [
+              "270155664-0014"
+            ],
+            "statements": [
+              {
+                "text": "Die Signale umrundeten die Erde einmal und wurden in Potsdam ein zweites Mal empfangen.",
+                "fact_ids": [
+                  "270155664-0014"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 5,
+            "speaker": "Lena",
+            "text": "So steht es da. Es gab auch Himmelserscheinungen. Während der folgenden Nächte zeigten sich über den mittleren Breiten Europas silbern leuchtende Wolken von außergewöhnlichem Glanz. Aus London wird berichtet, dass es dort möglich war, in diesem Licht eine Zeitung zu lesen.",
+            "fact_ids": [
+              "270155664-0015",
+              "270155664-0062"
+            ],
+            "statements": [
+              {
+                "text": "In den folgenden Nächten zeigten sich über den mittleren Breiten Europas silbern leuchtende Wolken von außergewöhnlichem Glanz.",
+                "fact_ids": [
+                  "270155664-0015"
+                ]
+              },
+              {
+                "text": "In London war es möglich, in diesem Licht eine Zeitung zu lesen.",
+                "fact_ids": [
+                  "270155664-0062"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 6,
+            "speaker": "Felix",
+            "text": "Faszinierend. Aber was ist denn am Boden passiert? Hat man einen Krater entdeckt?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 7,
+            "speaker": "Lena",
+            "text": "Gesucht wurde einer. Die Besatzung des Luftschiffes Graf Zeppelin suchte bei dessen Erdumrundung im August neunzehnhundertneunundzwanzig vergeblich nach einem Krater.",
+            "fact_ids": [
+              "270155664-0022"
+            ],
+            "statements": [
+              {
+                "text": "Die Besatzung des Luftschiffes Graf Zeppelin suchte bei dessen Erdumrundung im August 1929 vergeblich nach einem Krater.",
+                "fact_ids": [
+                  "270155664-0022"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 8,
+            "speaker": "Felix",
+            "text": "Ein Luftschiff auf Kratersuche, und es findet nichts. Und Bruchstücke? Blieb irgendetwas von dem Körper übrig, der da eingeschlagen sein soll?",
+            "fact_ids": [
+              "270155664-0022"
+            ],
+            "statements": [
+              {
+                "text": "Die Zeppelin-Besatzung suchte vergeblich nach einem Krater.",
+                "fact_ids": [
+                  "270155664-0022"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 9,
+            "speaker": "Lena",
+            "text": "Auch da sieht es leer aus. Bis heute wurden keine mit bloßem Auge sichtbaren Bruchstücke eines eingeschlagenen Himmelskörpers gefunden. In Klammern steht dazu das Wort Impaktor für diesen Körper.",
+            "fact_ids": [
+              "270155664-0041"
+            ],
+            "statements": [
+              {
+                "text": "Bis heute wurden keine mit bloßem Auge sichtbaren Bruchstücke eines eingeschlagenen Himmelskörpers, des Impaktors, gefunden.",
+                "fact_ids": [
+                  "270155664-0041"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 10,
+            "speaker": "Felix",
+            "text": "Also kein Krater und keine sichtbaren Bruchstücke, obwohl sogar die Besatzung des Zeppelins danach gesucht hat. Wie erklärt man sich das dann?",
+            "fact_ids": [
+              "270155664-0022",
+              "270155664-0041"
+            ],
+            "statements": [
+              {
+                "text": "Die Besatzung des Luftschiffes Graf Zeppelin suchte bei der Erdumrundung im August 1929 vergeblich nach einem Krater.",
+                "fact_ids": [
+                  "270155664-0022"
+                ]
+              },
+              {
+                "text": "Bis heute wurden keine mit bloßem Auge sichtbaren Bruchstücke eines eingeschlagenen Himmelskörpers gefunden.",
+                "fact_ids": [
+                  "270155664-0041"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 11,
+            "speaker": "Lena",
+            "text": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen von geringer Dichte. Der Durchmesser lag bei dreißig bis achtzig Metern. Der Körper explodierte etwa fünf bis vierzehn Kilometer über dem Boden und verursachte daher keinen Krater.",
+            "fact_ids": [
+              "270155664-0036"
+            ],
+            "statements": [
+              {
+                "text": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen von geringer Dichte mit einem Durchmesser von dreißig bis achtzig Metern.",
+                "fact_ids": [
+                  "270155664-0036"
+                ]
+              },
+              {
+                "text": "Der Körper explodierte etwa fünf bis vierzehn Kilometer über dem Boden und verursachte deshalb keinen Krater.",
+                "fact_ids": [
+                  "270155664-0036"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 12,
+            "speaker": "Felix",
+            "text": "Er ist also in der Luft explodiert, und deshalb blieb der Krater aus. Du hast Kometen erwähnt. Was weiß man über sie?",
+            "fact_ids": [
+              "270155664-0036"
+            ],
+            "statements": [
+              {
+                "text": "Der Körper explodierte hoch über dem Boden und hinterließ deshalb keinen Krater.",
+                "fact_ids": [
+                  "270155664-0036"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 13,
+            "speaker": "Lena",
+            "text": "In Sonnennähe ist der meist nur wenige Kilometer große Kometenkern von einer diffusen, nebeligen Hülle umgeben. Diese Hülle heißt Koma. Sie kann eine Ausdehnung von zwei bis drei Millionen Kilometern erreichen. Einige Kometen entstanden auch in anderen Sternsystemen und wurden vom Sonnensystem gravitativ eingefangen.",
+            "fact_ids": [
+              "271523896-0005",
+              "271523896-0003"
+            ],
+            "statements": [
+              {
+                "text": "In Sonnennähe ist der meist nur wenige Kilometer große Kometenkern von einer diffusen, nebeligen Hülle umgeben, der Koma.",
+                "fact_ids": [
+                  "271523896-0005"
+                ]
+              },
+              {
+                "text": "Die Koma kann eine Ausdehnung von zwei bis drei Millionen Kilometern erreichen.",
+                "fact_ids": [
+                  "271523896-0005"
+                ]
+              },
+              {
+                "text": "Einige Kometen entstanden in anderen Sternsystemen und wurden vom Sonnensystem gravitativ eingefangen.",
+                "fact_ids": [
+                  "271523896-0003"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 14,
+            "speaker": "Felix",
+            "text": "Das sprengt meine Vorstellung. Und wie ist es bei den Asteroiden? Wie viele kennt man davon?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 15,
+            "speaker": "Lena",
+            "text": "Bislang sind über eineinhalb Millionen Asteroiden im Sonnensystem bekannt, Stand sechster Mai zweitausendsechsundzwanzig. Jeden Monat kommen mehrere Tausend neue Entdeckungen hinzu. Die tatsächliche Anzahl dürfte wohl mehrere Millionen betragen. Nur die wenigsten haben mehr als einige hundert Kilometer Durchmesser.",
+            "fact_ids": [
+              "271523804-0007",
+              "271523804-0002"
+            ],
+            "statements": [
+              {
+                "text": "Bislang sind über eineinhalb Millionen Asteroiden im Sonnensystem bekannt, Stand sechster Mai 2026.",
+                "fact_ids": [
+                  "271523804-0007"
+                ]
+              },
+              {
+                "text": "Jeden Monat kommen mehrere Tausend neue Entdeckungen hinzu, und die tatsächliche Anzahl beträgt wohl mehrere Millionen.",
+                "fact_ids": [
+                  "271523804-0007"
+                ]
+              },
+              {
+                "text": "Nur die wenigsten Asteroiden haben mehr als einige hundert Kilometer Durchmesser.",
+                "fact_ids": [
+                  "271523804-0002"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 16,
+            "speaker": "Felix",
+            "text": "Es werden also jeden Monat mehrere Tausend neue entdeckt, und in Wirklichkeit gibt es wohl mehrere Millionen. Zurück nach Tunguska: Gibt es Funde aus dem Gebiet?",
+            "fact_ids": [
+              "271523804-0007"
+            ],
+            "statements": [
+              {
+                "text": "Jeden Monat werden mehrere Tausend neue Asteroiden entdeckt, und die tatsächliche Anzahl liegt wohl bei mehreren Millionen.",
+                "fact_ids": [
+                  "271523804-0007"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 17,
+            "speaker": "Lena",
+            "text": "Ja, in gewisser Weise. Im Jahr zweitausenddreizehn wurden extraterrestrische Fragmente analysiert, die bereits neunzehnhundertachtundsiebzig in dem Gebiet gefunden worden waren. Und es gibt noch eine merkwürdige Beobachtung. Nur wenige Stunden nach dem Tunguska-Ereignis wurde in einem ukrainischen Dorf in der Umgebung von Kiew ein Meteoritenfall beobachtet.",
+            "fact_ids": [
+              "270155664-0054",
+              "270155664-0050"
+            ],
+            "statements": [
+              {
+                "text": "Im Jahr 2013 wurden extraterrestrische Fragmente analysiert, die bereits 1978 in dem Gebiet gefunden worden waren.",
+                "fact_ids": [
+                  "270155664-0054"
+                ]
+              },
+              {
+                "text": "Nur wenige Stunden nach dem Tunguska-Ereignis wurde in einem ukrainischen Dorf in der Umgebung von Kiew ein Meteoritenfall beobachtet.",
+                "fact_ids": [
+                  "270155664-0050"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 18,
+            "speaker": "Felix",
+            "text": "Zwischen Fund und Analyse lagen also fünfunddreißig Jahre. Das mit dem Meteoritenfall macht mich neugierig. Die Besatzung des Luftschiffs Graf Zeppelin hat im August neunzehnhundertneunundzwanzig ja vergeblich nach einem Krater gesucht. Gibt es trotzdem Forscher, die einen Krater ausgemacht haben wollen?",
+            "fact_ids": [
+              "270155664-0054",
+              "270155664-0022"
+            ],
+            "statements": [
+              {
+                "text": "Zwischen dem Fund der Fragmente im Jahr 1978 und ihrer Analyse im Jahr 2013 lagen fünfunddreißig Jahre.",
+                "fact_ids": [
+                  "270155664-0054"
+                ]
+              },
+              {
+                "text": "Die Besatzung des Luftschiffes Graf Zeppelin suchte bei der Erdumrundung im August 1929 vergeblich nach einem Krater.",
+                "fact_ids": [
+                  "270155664-0022"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 19,
+            "speaker": "Lena",
+            "text": "Ja, die gibt es. Im Juni zweitausendsieben veröffentlichte eine italienische Forschergruppe unter Leitung des Meeresgeologen Luca Gasperini in der Online-Zeitschrift Terra Nova ihre Vermutung. Sie meinte, dass der Tscheko-See der Krater eines Impaktors sei.",
+            "fact_ids": [
+              "270155664-0047"
+            ],
+            "statements": [
+              {
+                "text": "Im Juni 2007 veröffentlichte eine italienische Forschergruppe unter Leitung des Meeresgeologen Luca Gasperini nach einer Expedition in der Online-Zeitschrift Terra Nova ihre Vermutung.",
+                "fact_ids": [
+                  "270155664-0047"
+                ]
+              },
+              {
+                "text": "Die Forschergruppe vermutete, dass der Tscheko-See der Krater eines Impaktors ist.",
+                "fact_ids": [
+                  "270155664-0047"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 20,
+            "speaker": "Felix",
+            "text": "Ein See als Einschlagskrater, das ist ein Gedanke. Hat sich das bestätigt?",
+            "fact_ids": [
+              "270155664-0047"
+            ],
+            "statements": [
+              {
+                "text": "Eine italienische Forschergruppe vermutete, der Tscheko-See sei ein Impaktor-Krater.",
+                "fact_ids": [
+                  "270155664-0047"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 21,
+            "speaker": "Lena",
+            "text": "Eher nicht. Russische Wissenschaftler haben im Januar zweitausendsiebzehn die Theorie vielleicht widerlegt. Nach ihren Untersuchungen dürfte der See bereits vor über zweihundertachtzig Jahren entstanden sein.",
+            "fact_ids": [
+              "270155664-0049"
+            ],
+            "statements": [
+              {
+                "text": "Russische Wissenschaftler haben im Januar 2017 die Theorie, dass der Tscheko-See der Krater des Tunguska-Ereignisses ist, vielleicht widerlegt.",
+                "fact_ids": [
+                  "270155664-0049"
+                ]
+              },
+              {
+                "text": "Nach ihren Untersuchungen dürfte der See bereits vor über 280 Jahren entstanden sein.",
+                "fact_ids": [
+                  "270155664-0049"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 22,
+            "speaker": "Felix",
+            "text": "Vielleicht widerlegt, also nicht endgültig?",
+            "fact_ids": [
+              "270155664-0049"
+            ],
+            "statements": [
+              {
+                "text": "Die Theorie zum Tscheko-See wurde nur vielleicht widerlegt.",
+                "fact_ids": [
+                  "270155664-0049"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 23,
+            "speaker": "Lena",
+            "text": "Genau. In der Quelle steht ausdrücklich „vielleicht widerlegt“.",
+            "fact_ids": [
+              "270155664-0049"
+            ],
+            "statements": [
+              {
+                "text": "Die russischen Wissenschaftler haben die Theorie zum Tscheko-See laut Quelle vielleicht widerlegt.",
+                "fact_ids": [
+                  "270155664-0049"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 24,
+            "speaker": "Felix",
+            "text": "Gut. Gibt es auch ungewöhnlichere Erklärungen für das Ereignis?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 25,
+            "speaker": "Lena",
+            "text": "Eine ganze Menge. Verantwortlich gemacht wurden unter anderem der Einschlag eines kleinen Schwarzen Loches und der Absturz eines extraterrestrischen Raumschiffs. Auch eine Explosion der dort zahlreich vorkommenden Mücken kam ins Spiel. Sie wäre vergleichbar einer Staubexplosion und heißt Mückenexplosion.",
+            "fact_ids": [
+              "270155664-0071"
+            ],
+            "statements": [
+              {
+                "text": "Für das Ereignis wurden unter anderem der Einschlag eines kleinen Schwarzen Loches und der Absturz eines extraterrestrischen Raumschiffs verantwortlich gemacht.",
+                "fact_ids": [
+                  "270155664-0071"
+                ]
+              },
+              {
+                "text": "Auch eine Explosion der dort zahlreich vorkommenden Mücken, vergleichbar einer Staubexplosion, wurde als Ursache genannt und heißt Mückenexplosion.",
+                "fact_ids": [
+                  "270155664-0071"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 26,
+            "speaker": "Felix",
+            "text": "Mücken, wirklich? Ach du meine Güte. Gibt es auch Ideen aus der Physik?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 27,
+            "speaker": "Lena",
+            "text": "Ja. Nach einer Theorie des Teilchenphysikers Robert Foot von der Universität Melbourne könnte es eine Kollision der Erde mit einem Weltraumkörper aus Spiegelmaterie gewesen sein. Das ist eine hypothetische Materieform, aus der zum Beispiel die Dunkle Materie bestehen könnte.",
+            "fact_ids": [
+              "270155664-0075"
+            ],
+            "statements": [
+              {
+                "text": "Nach einer Theorie des Teilchenphysikers Robert Foot von der Universität Melbourne könnte es eine Kollision der Erde mit einem Weltraumkörper aus Spiegelmaterie gewesen sein.",
+                "fact_ids": [
+                  "270155664-0075"
+                ]
+              },
+              {
+                "text": "Spiegelmaterie ist eine hypothetische Materieform, aus der zum Beispiel die Dunkle Materie bestehen könnte.",
+                "fact_ids": [
+                  "270155664-0075"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 28,
+            "speaker": "Felix",
+            "text": "Hypothetisch also. Gibt es auch Erklärungen, die ganz ohne Himmelskörper auskommen?",
+            "fact_ids": [
+              "270155664-0075"
+            ],
+            "statements": [
+              {
+                "text": "Spiegelmaterie ist eine hypothetische Materieform.",
+                "fact_ids": [
+                  "270155664-0075"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 29,
+            "speaker": "Lena",
+            "text": "Ja, eine kommt aus der Erde selbst. Demnach wäre das Ereignis als Explosion von zehn Millionen Tonnen Erdgas zu erklären. Das Gas entwich über Risse unter hohem Druck aus einem unterirdischen natürlichen Erdgaslager. Es stieg mit hoher Geschwindigkeit bis in hohe Atmosphärenschichten auf und entzündete sich durch Reibungselektrizität. Dann brannte es in einer Flammenfront bis hinunter zur Austrittsstelle ab.",
+            "fact_ids": [
+              "270155664-0058"
+            ],
+            "statements": [
+              {
+                "text": "Eine These erklärt das Ereignis als Explosion von zehn Millionen Tonnen Erdgas, das über Risse aus einem unterirdischen natürlichen Erdgaslager unter hohem Druck entwich.",
+                "fact_ids": [
+                  "270155664-0058"
+                ]
+              },
+              {
+                "text": "Das Gas stieg mit hoher Geschwindigkeit bis in hohe Atmosphärenschichten auf, entzündete sich durch Reibungselektrizität und brannte in einer Flammenfront bis zur Austrittsstelle ab.",
+                "fact_ids": [
+                  "270155664-0058"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 30,
+            "speaker": "Felix",
+            "text": "Das Gas kam also aus der Tiefe, stieg hoch und brannte sich bis zur Austrittsstelle zurück. Ist der Ort geologisch eigentlich auffällig?",
+            "fact_ids": [
+              "270155664-0058"
+            ],
+            "statements": [
+              {
+                "text": "Nach dieser These stieg das Gas aus der Tiefe auf und brannte in einer Flammenfront bis zur Austrittsstelle ab.",
+                "fact_ids": [
+                  "270155664-0058"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 31,
+            "speaker": "Lena",
+            "text": "Ja. Der Ort liegt inmitten des Sibirischen Trapps. Das ist ein großes Gebiet magmatischen Gesteins, das sich um die Wende vom Perm zur Trias gebildet hat. Vor rund zweihundertzweiundfünfzig Millionen Jahren fand das größte bekannte Massenaussterben der Erdgeschichte statt. Dabei starben fünfundsiebzig Prozent der an Land lebenden und fünfundneunzig Prozent der marinen Wirbellosen aus. Die Ausbrüche des Trapps und ihre Folgen werden in einen ursächlichen Zusammenhang mit diesem Massenaussterben gebracht.",
+            "fact_ids": [
+              "270155664-0066",
+              "270233083-0002"
+            ],
+            "statements": [
+              {
+                "text": "Der Ort des Ereignisses liegt inmitten des Sibirischen Trapps, eines großen Gebietes magmatischen Gesteins, das sich um die Wende vom Perm zur Trias gebildet hat.",
+                "fact_ids": [
+                  "270155664-0066"
+                ]
+              },
+              {
+                "text": "Vor rund 252 Millionen Jahren fand das größte bekannte Massenaussterben der Erdgeschichte statt, bei dem 75 Prozent der an Land lebenden und 95 Prozent der marinen Wirbellosen ausstarben.",
+                "fact_ids": [
+                  "270155664-0066"
+                ]
+              },
+              {
+                "text": "Die Ausbrüche des Sibirischen Trapps und ihre Folgen werden in einen ursächlichen Zusammenhang mit dem Massenaussterben am Ende des Perms gebracht.",
+                "fact_ids": [
+                  "270233083-0002"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 32,
+            "speaker": "Felix",
+            "text": "Der Ort liegt also mitten in einem Gebiet, dessen Ausbrüche mit dem größten bekannten Massenaussterben in Verbindung gebracht werden. Hat das Ereignis eigentlich auch Kunst und Literatur beschäftigt?",
+            "fact_ids": [
+              "270155664-0066",
+              "270233083-0002"
+            ],
+            "statements": [
+              {
+                "text": "Der Ort liegt inmitten des Sibirischen Trapps, dessen Ausbrüche in einen ursächlichen Zusammenhang mit dem Massenaussterben am Ende des Perms gebracht werden.",
+                "fact_ids": [
+                  "270155664-0066",
+                  "270233083-0002"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 33,
+            "speaker": "Lena",
+            "text": "Und wie. Neunzehnhundertfünfundsechzig stellten die Brüder Strugazki im Buch „Der Montag fängt am Samstag an“ eine humorvolle phantastische These auf. Das Ereignis sei von einem „kontramoten“ Raumschiff verursacht worden, das auf der Zeitachse rückwärts reist. Es landete auf der Erde und entzündete beim Landen die Taiga. Dann wanderte es weiter durch die Zeit zurück, so dass keine Spuren an der Brandstelle zurückblieben.",
+            "fact_ids": [
+              "270155664-0082"
+            ],
+            "statements": [
+              {
+                "text": "1965 stellten die Brüder Strugazki im Buch „Der Montag fängt am Samstag an“ die humorvolle phantastische These auf, das Tunguska-Ereignis sei von einem „kontramoten“ Raumschiff verursacht worden, das auf der Zeitachse rückwärts reist.",
+                "fact_ids": [
+                  "270155664-0082"
+                ]
+              },
+              {
+                "text": "Das Raumschiff landete auf der Erde, entzündete beim Landen die Taiga und wanderte dann durch die Zeit zurück, so dass keine Spuren an der Brandstelle zurückblieben.",
+                "fact_ids": [
+                  "270155664-0082"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 34,
+            "speaker": "Felix",
+            "text": "Das ist ja eine elegante Erklärung für fehlende Spuren. In dieser These blieb nichts zurück, weil das Raumschiff in der Zeit zurückwanderte. Das passt zu dem Umstand, dass bis heute keine sichtbaren Bruchstücke gefunden wurden.",
+            "fact_ids": [
+              "270155664-0082",
+              "270155664-0041"
+            ],
+            "statements": [
+              {
+                "text": "In der Strugazki-These blieben keine Spuren an der Brandstelle zurück, weil das Raumschiff in der Zeit zurückwanderte.",
+                "fact_ids": [
+                  "270155664-0082"
+                ]
+              },
+              {
+                "text": "Bis heute wurden keine mit bloßem Auge sichtbaren Bruchstücke eines eingeschlagenen Himmelskörpers gefunden.",
+                "fact_ids": [
+                  "270155664-0041"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 35,
+            "speaker": "Lena",
+            "text": "Auch die Literatur der Gegenwart greift das Ereignis auf. Zweitausendacht ist es in Christian Krachts alternativ-weltgeschichtlichem Roman „Ich werde hier sein im Sonnenschein und im Schatten“ der Auslöser für den Wendepunkt der Handlung. Lenin kehrt nicht aus der Schweiz in das durch das Ereignis verstrahlte Russland zurück, um die Russische Revolution herbeizuführen. Er macht die Schweiz stattdessen zu einer sozialistischen Räterepublik.",
+            "fact_ids": [
+              "270155664-0090"
+            ],
+            "statements": [
+              {
+                "text": "2008 ist das Tunguska-Ereignis in Christian Krachts alternativ-weltgeschichtlichem Roman „Ich werde hier sein im Sonnenschein und im Schatten“ der Auslöser für den Wendepunkt der Handlung.",
+                "fact_ids": [
+                  "270155664-0090"
+                ]
+              },
+              {
+                "text": "Lenin kehrt in dem Roman nicht aus der Schweiz in das verstrahlte Russland zurück, um die Revolution herbeizuführen, sondern macht die Schweiz zu einer sozialistischen Räterepublik.",
+                "fact_ids": [
+                  "270155664-0090"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 36,
+            "speaker": "Felix",
+            "text": "Eine sozialistische Schweiz, nur wegen einer Explosion in Sibirien. Gab es das Thema auch im Comic?",
+            "fact_ids": [
+              "270155664-0090"
+            ],
+            "statements": [
+              {
+                "text": "In Krachts Roman führt das Tunguska-Ereignis dazu, dass Lenin die Schweiz zu einer sozialistischen Räterepublik macht.",
+                "fact_ids": [
+                  "270155664-0090"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 37,
+            "speaker": "Lena",
+            "text": "Ja. Neunzehnhundertachtundneunzig geht im Lustigen Taschenbuch Nummer zweihundertsiebenundvierzig Indiana Goof zusammen mit Micky Maus in der Geschichte „Der große Knall“ auf Expedition nach dem Ursprung des Tunguska-Ereignisses. Sie finden heraus, dass es eine ungewollte Nuklearexplosion war.",
+            "fact_ids": [
+              "270155664-0101"
+            ],
+            "statements": [
+              {
+                "text": "1998 geht im Lustigen Taschenbuch Nr. 247 Indiana Goof zusammen mit Micky Maus in der Geschichte „Der große Knall“ auf Expedition nach dem Ursprung des Tunguska-Ereignisses.",
+                "fact_ids": [
+                  "270155664-0101"
+                ]
+              },
+              {
+                "text": "Sie finden heraus, dass es eine ungewollte Nuklearexplosion war.",
+                "fact_ids": [
+                  "270155664-0101"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 38,
+            "speaker": "Felix",
+            "text": "Eine ungewollte Nuklearexplosion also, so die Auflösung im Comic. Die erste von Menschen herbeigeführte Atomexplosion fand am sechzehnten Juli neunzehnhundertfünfundvierzig auf der White Sands Missile Range in der Wüste von New Mexico statt. Gibt es noch weitere Werke mit Atomthema?",
+            "fact_ids": [
+              "270155664-0101",
+              "271574089-0004"
+            ],
+            "statements": [
+              {
+                "text": "Im Lustigen Taschenbuch war das Tunguska-Ereignis eine ungewollte Nuklearexplosion.",
+                "fact_ids": [
+                  "270155664-0101"
+                ]
+              },
+              {
+                "text": "Die erste von Menschen herbeigeführte Atomexplosion fand am 16. Juli 1945 auf dem Gelände White Sands Missile Range in der Wüste von New Mexico statt.",
+                "fact_ids": [
+                  "271574089-0004"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 39,
+            "speaker": "Lena",
+            "text": "Ja. In Achim Stößers Cartoonreihe „Pater Anselms Weltraummission“ gerät zweitausendacht das Raumschiff in einen Zeitstrudel. Der Antiatom-Meiler muss abgeworfen werden, weil eine Kernschmelze droht. So löst das Raumschiff das Tunguska-Ereignis aus.",
+            "fact_ids": [
+              "270155664-0102"
+            ],
+            "statements": [
+              {
+                "text": "2008 gerät in Achim Stößers Cartoonreihe „Pater Anselms Weltraummission“ das Raumschiff in einen Zeitstrudel.",
+                "fact_ids": [
+                  "270155664-0102"
+                ]
+              },
+              {
+                "text": "Der Antiatom-Meiler muss abgeworfen werden, weil eine Kernschmelze droht, und löst so das Tunguska-Ereignis aus.",
+                "fact_ids": [
+                  "270155664-0102"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 40,
+            "speaker": "Felix",
+            "text": "Zeitstrudel und Kernschmelze, das ist ja wild. Und im Fernsehen? Wurde das Ereignis dort auch gedeutet?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 41,
+            "speaker": "Lena",
+            "text": "Ja. Zweitausendeinundzwanzig wird das Ereignis in den Folgen sieben bis zwölf der zweiten Staffel von „UFOs“ gedeutet. Es soll ein winziges schwarzes Loch gewesen sein. Sibirische Ureinwohner sollen es durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie verursacht haben.",
+            "fact_ids": [
+              "270155664-0105"
+            ],
+            "statements": [
+              {
+                "text": "2021 wird das Ereignis in den Folgen sieben bis zwölf der zweiten Staffel von „UFOs“ als winziges schwarzes Loch gedeutet.",
+                "fact_ids": [
+                  "270155664-0105"
+                ]
+              },
+              {
+                "text": "Sibirische Ureinwohner sollen das schwarze Loch durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie verursacht haben.",
+                "fact_ids": [
+                  "270155664-0105"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 42,
+            "speaker": "Felix",
+            "text": "Moment, ein winziges schwarzes Loch gab es doch schon bei den exotischen Hypothesen. Der Einschlag eines kleinen Schwarzen Loches wurde ja auch als Ursache genannt, oder?",
+            "fact_ids": [
+              "270155664-0071",
+              "270155664-0105"
+            ],
+            "statements": [
+              {
+                "text": "Unter den exotischen Erklärungen für das Ereignis wurde auch der Einschlag eines kleinen Schwarzen Loches genannt.",
+                "fact_ids": [
+                  "270155664-0071"
+                ]
+              },
+              {
+                "text": "In der zweiten Staffel von UFOs wird das Ereignis als winziges schwarzes Loch gedeutet.",
+                "fact_ids": [
+                  "270155664-0105"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 43,
+            "speaker": "Lena",
+            "text": "Ja, genau. Der Einschlag eines kleinen Schwarzen Loches wurde als Ursache genannt. In der Serie UFOs von zweitausendeinundzwanzig ist es ein winziges schwarzes Loch, das sibirische Ureinwohner durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie verursacht haben sollen.",
+            "fact_ids": [
+              "270155664-0071",
+              "270155664-0105"
+            ],
+            "statements": [
+              {
+                "text": "Der Einschlag eines kleinen Schwarzen Loches wurde unter anderem als Ursache für das Ereignis genannt.",
+                "fact_ids": [
+                  "270155664-0071"
+                ]
+              },
+              {
+                "text": "In der zweiten Staffel der Serie UFOs von 2021 wird das Ereignis als winziges schwarzes Loch gedeutet, das sibirische Ureinwohner durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie verursacht haben sollen.",
+                "fact_ids": [
+                  "270155664-0105"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 44,
+            "speaker": "Felix",
+            "text": "Fassen wir kurz zusammen. Wohl rund sechzig Millionen Bäume wurden umgeknickt, und die Signale liefen einmal um die Erde. Die Zeppelin-Besatzung suchte vergeblich nach einem Krater, und sichtbare Bruchstücke fehlen bis heute. Am wahrscheinlichsten gilt ein Steinasteroid oder Komet, der in der Luft explodierte. Die Kratertheorie zum Tscheko-See wurde vielleicht widerlegt. Dazu kommen Mücken, Spiegelmaterie, ein Schwarzes Loch und ein Raumschiff, das durch die Zeit rückwärts reist. Und auf der anderen Seite hat das Ereignis Romane, Comics und Serien inspiriert.",
+            "fact_ids": [
+              "270155664-0007",
+              "270155664-0014",
+              "270155664-0022",
+              "270155664-0041",
+              "270155664-0036",
+              "270155664-0049",
+              "270155664-0001",
+              "270155664-0075",
+              "270155664-0082",
+              "270155664-0090",
+              "270155664-0101",
+              "270155664-0105"
+            ],
+            "statements": [
+              {
+                "text": "Experten schätzen, dass rund sechzig Millionen Bäume umgeknickt wurden.",
+                "fact_ids": [
+                  "270155664-0007"
+                ]
+              },
+              {
+                "text": "Messgeräte in Potsdam empfingen die Signale ein zweites Mal, nachdem sie die Erde einmal umrundet hatten.",
+                "fact_ids": [
+                  "270155664-0014"
+                ]
+              },
+              {
+                "text": "Die Zeppelin-Besatzung suchte vergeblich nach einem Krater, und bis heute wurden keine mit bloßem Auge sichtbaren Bruchstücke eines Impaktors gefunden.",
+                "fact_ids": [
+                  "270155664-0022",
+                  "270155664-0041"
+                ]
+              },
+              {
+                "text": "Als am wahrscheinlichsten gilt ein Steinasteroid oder Komet, der in der Luft explodierte und deshalb keinen Krater verursachte.",
+                "fact_ids": [
+                  "270155664-0036"
+                ]
+              },
+              {
+                "text": "Die Theorie, der Tscheko-See sei der Krater, wurde vielleicht widerlegt.",
+                "fact_ids": [
+                  "270155664-0049"
+                ]
+              },
+              {
+                "text": "Für das Ereignis wurden unter anderem ein Schwarzes Loch, ein Raumschiff und eine Mückenexplosion verantwortlich gemacht, und eine Theorie nennt einen Körper aus Spiegelmaterie.",
+                "fact_ids": [
+                  "270155664-0001",
+                  "270155664-0075"
+                ]
+              },
+              {
+                "text": "In der Literatur, in Comics und im Fernsehen taucht das Ereignis in Werken der Strugazki, von Kracht, im Lustigen Taschenbuch und in „UFOs“ auf.",
+                "fact_ids": [
+                  "270155664-0082",
+                  "270155664-0090",
+                  "270155664-0101",
+                  "270155664-0105"
+                ]
+              }
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "turn_index": 25,
+            "reason": "Unknown fact IDs: 270155664-0001"
+          },
+          {
+            "turn_index": 42,
+            "reason": "Unknown fact IDs: 270155664-0001"
+          },
+          {
+            "turn_index": 43,
+            "reason": "Unknown fact IDs: 270155664-0001"
+          },
+          {
+            "turn_index": 44,
+            "reason": "Unknown fact IDs: 270155664-0001"
+          }
+        ],
+        "used_fact_ids": [
+          "270155664-0007",
+          "270155664-0014",
+          "270155664-0015",
+          "270155664-0062",
+          "270155664-0022",
+          "270155664-0041",
+          "270155664-0036",
+          "271523896-0005",
+          "271523896-0003",
+          "271523804-0007",
+          "271523804-0002",
+          "270155664-0054",
+          "270155664-0050",
+          "270155664-0047",
+          "270155664-0049",
+          "270155664-0075",
+          "270155664-0058",
+          "270155664-0066",
+          "270233083-0002",
+          "270155664-0082",
+          "270155664-0090",
+          "270155664-0101",
+          "271574089-0004",
+          "270155664-0102",
+          "270155664-0105"
+        ]
+      },
+      "judgements": [
+        {
+          "turn_index": 0,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.42
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Tatsachenbehauptung. Er nennt das Thema (Tunguska-Ereignis), äußert Neugier (\"Ich bin gespannt\") und stellt offene Fragen. Das sind belegfreie Reaktionen, Überleitung und Nachfrage. Fakt-IDs werden daher nicht benötigt."
+        },
+        {
+          "turn_index": 1,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.89
+          },
+          "jev_error": null,
+          "reason": "Die Behauptung (über 2000 km², rund 60 Millionen umgeknickte Bäume, Schätzung von Experten) entspricht genau dem Fakt-Satz 270155664-0007. Der Einleitungssatz \"Fangen wir mit den Folgen am Boden an\" ist eine Überleitung und braucht keinen Beleg."
+        },
+        {
+          "turn_index": 2,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.66
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag \"Wahnsinn, das lässt sich kaum begreifen.\" ist eine reine Reaktion, ein Ausdruck von Staunen im Moment. Er enthält keine Behauptung, keine neue Information und keine Prämisse, daher sind keine Fakt-IDs nötig."
+        },
+        {
+          "turn_index": 3,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.4,
+            "aussage_1": 0.97,
+            "vollstaendig": 0.41
+          },
+          "jev_error": null,
+          "reason": "Die Fakt-Aussage deckt alles ab: Potsdamer Messgeräte empfingen die Signale nach 30 Stunden und 29 Minuten ein zweites Mal, nachdem sie die Erde einmal umrundet hatten. Die Einleitung, die Wirkung sei weit entfernt messbar gewesen, ist eine zulässige Zusammenfassung davon. Es kommen keine zusätzlichen Zahlen oder Angaben hinzu."
+        },
+        {
+          "turn_index": 4,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.95,
+            "vollstaendig": 0.83
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag ist eine Nachfrage, die das Gesagte aufgreift. Die Prämisse (Signale umrundeten die Erde einmal und kamen in Potsdam ein zweites Mal an) folgt direkt aus dem Fakt-Satz 270155664-0014. Es kommt keine zusätzliche Angabe hinzu."
+        },
+        {
+          "turn_index": 5,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.75
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen stehen in den Fakt-Sätzen: die silbern leuchtenden Wolken von außergewöhnlichem Glanz über den mittleren Breiten Europas in den folgenden Nächten (0015) und die Möglichkeit, in London in diesem Licht eine Zeitung zu lesen (0062). „So steht es da“ ist eine belegfreie Überleitung, und der Satz „Es gab auch Himmelserscheinungen“ fasst die Fakten nur zusammen, ohne neue Information hinzuzufügen."
+        },
+        {
+          "turn_index": 6,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.92
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Behauptung, sondern nur eine Reaktion („Faszinierend“) und Nachfragen. Die Frage „Hat man einen Krater entdeckt?“ setzt keine Tatsache voraus, sondern erfragt sie. Fakt-IDs werden daher nicht benötigt."
+        },
+        {
+          "turn_index": 7,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.81
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag gibt den Fakt-Satz 270155664-0022 inhaltlich getreu wieder: Besatzung, Luftschiff Graf Zeppelin, Erdumrundung im August 1929, vergebliche Suche nach einem Krater. Die ausgeschriebene Jahreszahl ist korrekt, und der einleitende Satz „Gesucht wurde einer“ fügt keine neue Information hinzu."
+        },
+        {
+          "turn_index": 8,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.62
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, das Luftschiff habe nach einem Krater gesucht und nichts gefunden, entspricht dem Fakt (Graf Zeppelin, August 1929, vergeblich). Die anschließende Frage nach Bruchstücken ist eine Nachfrage. Ihre vorsichtige Formulierung \"eingeschlagen sein soll\" behauptet nichts Neues, sondern knüpft an die Kratersuche an."
+        },
+        {
+          "turn_index": 9,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.61
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, dass bis heute keine mit bloßem Auge sichtbaren Bruchstücke eines eingeschlagenen Himmelskörpers gefunden wurden, steht wörtlich im Fakt-Satz. Auch der Hinweis auf das Wort Impaktor in Klammern ist durch den Fakt gedeckt. „Auch da sieht es leer aus“ ist eine belegfreie Überleitung bzw. Wertung ohne neue Information."
+        },
+        {
+          "turn_index": 10,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.94
+          },
+          "jev_error": null,
+          "reason": "Die Prämissen der Frage folgen aus den Fakten: Laut 0022 suchte die Zeppelin-Besatzung vergeblich nach einem Krater, laut 0041 wurden keine mit bloßem Auge sichtbaren Bruchstücke gefunden. Der Zusatz \"kein Krater\" ist durch die vergebliche Suche gedeckt. Die Nachfrage \"Wie erklärt man sich das dann?\" ist eine belegfreie Reaktion."
+        },
+        {
+          "turn_index": 11,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.93
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen (Steinasteroid oder Komet geringer Dichte, 30 bis 80 Meter Durchmesser, Explosion 5 bis 14 Kilometer über dem Boden, daher kein Krater) stimmen mit dem Fakt-Satz überein. Es kommen keine zusätzlichen Angaben hinzu."
+        },
+        {
+          "turn_index": 12,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.87
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, das Objekt sei in der Luft explodiert und habe deshalb keinen Krater verursacht, folgt aus dem Fakt-Satz (Explosion 5 bis 14 km über dem Boden, daher kein Krater). Die Formulierung „Er ist also…“ fasst das Gesagte zusammen, ohne neue Information. „Du hast Kometen erwähnt“ greift das Gesagte auf, und die Frage „Was weiß man über sie?“ ist eine Nachfrage ohne Behauptung. Der Fakt-Satz nennt Kometen ausdrücklich als mögliche Ursache. Es kommen keine zusätzlichen Angaben vor."
+        },
+        {
+          "turn_index": 13,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.95,
+            "aussage_1": 0.99,
+            "aussage_2": 0.98,
+            "vollstaendig": 0.96
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 14,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.16
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Behauptung: \"Das sprengt meine Vorstellung\" ist eine Reaktion (Staunen) und die Frage nach der Zahl bekannter Asteroiden ist eine Nachfrage ohne eigene faktische Prämisse. Fakt-IDs sind daher nicht nötig."
+        },
+        {
+          "turn_index": 15,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "aussage_2": 0.98,
+            "vollstaendig": 0.96
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 16,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.87
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, dass jeden Monat mehrere Tausend neue Asteroiden entdeckt werden und es tatsächlich wohl mehrere Millionen gibt, folgt direkt aus [271523804-0007]. Die Überleitung nach Tunguska und die Frage nach Funden aus dem Gebiet sind Reaktionen ohne eigene Behauptung und brauchen keinen Beleg."
+        },
+        {
+          "turn_index": 17,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.81
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen stimmen mit den Fakt-Sätzen überein: Die Analyse der 1978 gefundenen extraterrestrischen Fragmente im Jahr 2013 und der Meteoritenfall wenige Stunden nach dem Tunguska-Ereignis in einem ukrainischen Dorf bei Kiew sind belegt. Die Einleitung „Ja, in gewisser Weise“ und „merkwürdige Beobachtung“ sind Reaktion bzw. Überleitung ohne neue Information."
+        },
+        {
+          "turn_index": 18,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.88,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.63
+          },
+          "jev_error": null,
+          "reason": "Die Rechnung 2013 minus 1978 ergibt 35 Jahre und ist damit durch [270155664-0054] gedeckt. Die Aussage zur Graf Zeppelin und zur vergeblichen Kraktersuche im August 1929 folgt aus [270155664-0022]. „Das macht mich neugierig“ ist eine Reaktion, und die Frage nach Forschern, die einen Krater ausgemacht haben wollen, ist eine Nachfrage ohne neue Tatsachenbehauptung."
+        },
+        {
+          "turn_index": 19,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "aussage_1": 0.98,
+            "vollstaendig": 0.85
+          },
+          "jev_error": null,
+          "reason": "Alle Angaben stimmen mit dem Fakt-Satz überein: Juni 2007, italienische Forschergruppe, Leitung des Meeresgeologen Luca Gasperini, Online-Zeitschrift Terra Nova, Vermutung, der Tscheko-See sei der Krater eines Impaktors. Das einleitende „Ja, die gibt es“ bestätigt nur, dass es diese Vermutung gibt, und das belegt der Fakt-Satz. Dass die Expedition fehlt, ist nur eine Auslassung und keine zusätzliche Angabe."
+        },
+        {
+          "turn_index": 20,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.88
+          },
+          "jev_error": null,
+          "reason": "Felix greift die Vermutung der italienischen Forschergruppe auf (Tscheko-See als Impaktkrater, Fakt 270155664-0047) und fragt nach, ob sie sich bestätigt hat. Die Prämisse \"See als Einschlagskrater\" als Gedanke ist durch den Fakt gedeckt, die Nachfrage ist belegfrei. Es kommt keine zusätzliche Behauptung hinzu."
+        },
+        {
+          "turn_index": 21,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.8
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: Russische Wissenschaftler haben im Januar 2017 die Theorie vielleicht widerlegt, und der See dürfte nach ihren Untersuchungen bereits vor über 280 Jahren entstanden sein. Das einleitende „Eher nicht“ ist eine Reaktion bzw. Antwort auf eine Frage und fügt keine unbelegte Information hinzu. Die Zahlen sind ausgeschrieben, aber identisch."
+        },
+        {
+          "turn_index": 22,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.87,
+            "vollstaendig": 0.92
+          },
+          "jev_error": null,
+          "reason": "Der Beitrag ist eine Nachfrage, die das \"vielleicht widerlegt\" aus dem Fakt-Satz aufgreift und um Klärung bittet, ob die Widerlegung endgültig ist. Er enthält keine neue Behauptung, die über den Fakt-Satz hinausgeht."
+        },
+        {
+          "turn_index": 23,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.82
+          },
+          "jev_error": null,
+          "reason": "Lenas Aussage, in der Quelle stehe ausdrücklich „vielleicht widerlegt“, wird vom Fakt-Satz gedeckt: Dort heißt es, russische Wissenschaftler hätten die Theorie vielleicht widerlegt. „Genau.“ ist eine belegfreie Reaktion, und es wird keine zusätzliche Angabe behauptet."
+        },
+        {
+          "turn_index": 24,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.88
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag ist eine reine Nachfrage (\"Gibt es auch ungewöhnlichere Erklärungen für das Ereignis?\") mit einer kurzen Zustimmung (\"Gut.\"). Er enthält keine Behauptung, Meinung mit Faktengehalt oder Prämisse, die belegt werden müsste, daher sind keine Fakt-IDs erforderlich."
+        },
+        {
+          "turn_index": 25,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.98,
+            "vollstaendig": 0.68
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: Schwarzes Loch, extraterrestrisches Raumschiff und die dort zahlreich vorkommenden Mücken, deren Explosion mit einer Staubexplosion vergleichbar ist und „Mückenexplosion“ heißt. „Eine ganze Menge“ ist eine unverfängliche Überleitung, die durch „unter anderem“ gedeckt ist. Es kommt keine zusätzliche Angabe hinzu."
+        },
+        {
+          "turn_index": 26,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.92
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag besteht nur aus Reaktionen: Staunen („Mücken, wirklich? Ach du meine Güte.“) und einer Nachfrage („Gibt es auch Ideen aus der Physik?“). Er enthält keine neue Behauptung und keine eigene Faktenprämisse, daher braucht er keine Fakt-IDs."
+        },
+        {
+          "turn_index": 27,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.97,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.92
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: Theorie von Robert Foot, Teilchenphysiker, Universität Melbourne, mögliche Kollision der Erde mit einem Körper aus Spiegelmaterie, und Spiegelmaterie als hypothetische Materieform, aus der z. B. die Dunkle Materie bestehen könnte. Das einleitende „Ja“ ist eine Reaktion, und „Nach einer Theorie“ statt „einer anderen Theorie“ fügt keine unbelegte Angabe hinzu."
+        },
+        {
+          "turn_index": 28,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.83
+          },
+          "jev_error": null,
+          "reason": "Der Beitrag besteht aus einem Wiederaufgreifen von „hypothetisch“ (Reaktion, belegfrei) und einer Nachfrage nach Erklärungen ohne Himmelskörper. Die Frage enthält keine eigene Tatsachenbehauptung, die über die Fakt-Sätze hinausgeht. Die Prämisse, dass bisher Himmelskörper als Erklärung genannt wurden, ist nur Überleitung. Der zitierte Fakt ist damit nicht widersprüchlich."
+        },
+        {
+          "turn_index": 29,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.83
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen stammen aus dem Fakt-Satz: 10 Millionen Tonnen Erdgas, Risse, hoher Druck, unterirdisches natürliches Erdgaslager, schneller Aufstieg in hohe Atmosphärenschichten, Entzündung durch Reibungselektrizität und Abbrennen in einer Flammenfront bis zur Austrittsstelle. Der Einstieg „eine kommt aus der Erde selbst“ ist eine Überleitung, die sich aus der unterirdischen Gasquelle ergibt. Es kommt keine zusätzliche Angabe hinzu."
+        },
+        {
+          "turn_index": 30,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.65
+          },
+          "jev_error": null,
+          "reason": "Felix fasst die zitierte Aussage zusammen: Gas entwich aus einem unterirdischen Lager, stieg auf und brannte als Flammenfront bis zur Austrittsstelle zurück. Das deckt sich mit dem Fakt-Satz. Die Frage nach der geologischen Auffälligkeit des Ortes ist eine Nachfrage ohne neue Behauptung und braucht keinen Beleg."
+        },
+        {
+          "turn_index": 31,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.98,
+            "aussage_2": 0.96,
+            "vollstaendig": 0.89
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen stimmen mit den Fakt-Sätzen überein: Lage inmitten des Sibirischen Trapps, Bildung um die Wende vom Perm zur Trias, rund 252 Millionen Jahre, größtes bekanntes Massenaussterben, 75 % der Landlebewesen und 95 % der marinen Wirbellosen. Auch der ursächliche Zusammenhang der Ausbrüche und ihrer Folgen mit dem Massenaussterben ist belegt. Dass die Ausbrüche die des Trapps sind, folgt aus der Kombination beider Fakt-Sätze."
+        },
+        {
+          "turn_index": 32,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.97,
+            "vollstaendig": 0.77
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, der Ort liege inmitten des Sibirischen Trapps, stützt sich auf [270155664-0066]. Dass die Ausbrüche mit dem Massenaussterben am Ende des Perms in Verbindung gebracht werden, steht in [270233083-0002]. Dass es das größte bekannte Massenaussterben war, steht in [270155664-0066]. Die Frage nach Kunst und Literatur ist eine belegfreie Nachfrage und enthält keine unbelegte Prämisse."
+        },
+        {
+          "turn_index": 33,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.92
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag gibt die Aussage des Fakt-Satzes [270155664-0082] inhaltlich korrekt wieder: Jahr 1965, Brüder Strugazki, „Der Montag fängt am Samstag an“, humorvolle phantastische These, „kontramotes“ Raumschiff auf der Zeitachse rückwärts, Landung, Entzündung der Taiga, Weiterreise zurück in der Zeit ohne Spuren. „Das Ereignis“ meint das Tunguska-Ereignis, ohne neue Angabe. „Und wie.“ ist eine belegfreie Reaktion."
+        },
+        {
+          "turn_index": 34,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.72
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, in der These sei nichts zurückgeblieben, weil das Raumschiff in der Zeit zurückwanderte, deckt sich mit [270155664-0082]. Dass bis heute keine sichtbaren Bruchstücke gefunden wurden, steht in [270155664-0041]. „Elegante Erklärung“ ist eine Wertung, die sich daraus ergibt, dass die These die fehlenden Spuren erklärt. Es kommt keine zusätzliche Angabe hinzu."
+        },
+        {
+          "turn_index": 35,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.97,
+            "aussage_1": 0.98,
+            "vollstaendig": 0.74
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: Jahr 2008, Krachts alternativ-weltgeschichtlicher Roman mit dem genannten Titel, das Ereignis als Auslöser des Wendepunkts, Lenin kehrt nicht in das verstrahlte Russland zurück, und die Schweiz wird zur sozialistischen Räterepublik. „Literatur der Gegenwart“ ist nur eine einordnende Überleitung ohne zusätzliche Faktenangabe."
+        },
+        {
+          "turn_index": 36,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.7
+          },
+          "jev_error": null,
+          "reason": "Die Prämisse (sozialistische Schweiz als Folge des Tunguska-Ereignisses, einer Explosion in Sibirien) folgt aus dem Fakt-Satz: Lenin kehrt wegen des Ereignisses nicht zurück und macht die Schweiz zur sozialistischen Räterepublik. Die Frage nach dem Comic ist eine belegfreie Nachfrage."
+        },
+        {
+          "turn_index": 37,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.92
+          },
+          "jev_error": null,
+          "reason": "Alle Angaben im Redebeitrag (1998, Lustiges Taschenbuch Nr. 247, Indiana Goof und Micky Maus, „Der große Knall“, Expedition zum Ursprung des Tunguska-Ereignisses, ungewollte Nuklearexplosion) stehen im Fakt-Satz 270155664-0101; das einleitende „Ja.“ ist eine belegfreie Reaktion."
+        },
+        {
+          "turn_index": 38,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.88
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Die ungewollte Nuklearexplosion als Auflösung im Comic stammt aus 270155664-0101. Datum (16. Juli 1945), Ort (White Sands Missile Range, Wüste von New Mexico) und die Einordnung als erste von Menschen herbeigeführte Atomexplosion stammen aus 271574089-0004. Die Schlussfrage nach weiteren Werken ist eine belegfreie Nachfrage."
+        },
+        {
+          "turn_index": 39,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.97,
+            "vollstaendig": 0.92
+          },
+          "jev_error": null,
+          "reason": "Alle Angaben stehen im Fakt-Satz: Achim Stößers Cartoonreihe „Pater Anselms Weltraummission“, das Jahr 2008, der Zeitstrudel, der abzuwerfende Antiatom-Meiler wegen drohender Kernschmelze und das ausgelöste Tunguska-Ereignis. Dass das Raumschiff das Ereignis auslöst, ist eine naheliegende Lesart des Fakt-Satzes. Das einleitende „Ja.“ ist eine belegfreie Reaktion."
+        },
+        {
+          "turn_index": 40,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.87
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Behauptung. \"Das ist ja wild\" ist eine Reaktion (Staunen), die Wiederholung von \"Zeitstrudel und Kernschmelze\" greift nur das eben Gesagte auf, und die Frage nach der Deutung im Fernsehen ist eine Nachfrage. Ihre Prämisse, dass das Ereignis gedeutet wurde, wird nur erfragt, nicht behauptet. Fakt-IDs sind daher nicht nötig."
+        },
+        {
+          "turn_index": 41,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.97,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.33
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen stimmen mit dem Fakt-Satz überein: Jahr 2021, Folgen 7 bis 12 der zweiten Staffel von „UFOs“, winziges schwarzes Loch, verursacht durch sibirische Ureinwohner mittels misslungener Verwendung zurückgelassener außerirdischer Technologie. Das einleitende „Ja.“ ist eine belegfreie Reaktion, und der Konjunktiv „sollen“ bleibt wie im Fakt erhalten."
+        },
+        {
+          "turn_index": 42,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.94,
+            "vollstaendig": 0.86
+          },
+          "jev_error": null,
+          "reason": "Felix' Aussage, ein kleines Schwarzes Loch sei als Ursache unter den exotischen Hypothesen genannt worden, folgt aus 270155664-0071: Dort wird der Einschlag eines kleinen Schwarzen Loches als Erklärung für das Ereignis genannt, und der Kontext ordnet solche Erklärungen als exotische Hypothesen ein. Der Rest ist eine Nachfrage bzw. ein Wiederaufgreifen ohne neue Information."
+        },
+        {
+          "turn_index": 43,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.79
+          },
+          "jev_error": null,
+          "reason": "Beide Behauptungen folgen aus den Fakt-Sätzen: Der Einschlag eines kleinen Schwarzen Loches wird in 0071 als genannte Ursache aufgeführt. Die Deutung in der Serie UFOs von 2021 als winziges schwarzes Loch, das sibirische Ureinwohner durch misslungene Verwendung zurückgelassener außerirdischer Technologie verursacht haben sollen, steht in 0105. „Ja, genau“ ist eine belegfreie Reaktion."
+        },
+        {
+          "turn_index": 44,
+          "accepted": false,
+          "decided_by": "gate",
+          "jev_p": {},
+          "jev_error": null,
+          "reason": "Unknown fact IDs: 270155664-0001"
+        }
+      ]
+    },
+    {
+      "conversation": 2,
+      "reason": "Turn regeneration budget used up (2x, cascade included).",
+      "excluded_fact_ids": [
+        "270155664-0041",
+        "270155664-0050",
+        "270155664-0054",
+        "270155664-0090",
+        "270155664-0102",
+        "270155664-0105"
+      ],
+      "dialog": {
+        "turns": [
+          {
+            "index": 0,
+            "speaker": "Felix",
+            "text": "Lena, heute geht es um das Tunguska-Ereignis. Womit fangen wir an?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 1,
+            "speaker": "Lena",
+            "text": "Am besten mit den Bäumen. Experten schätzen, dass auf einem Gebiet von über zweitausend Quadratkilometern rund sechzig Millionen Bäume umgeknickt wurden. An dieser Zahl kann man die Dimension des Ereignisses gut ablesen. Man muss sich das einmal bildlich vorstellen: ein riesiges Waldgebiet, in dem die Bäume reihenweise am Boden liegen.",
+            "fact_ids": [
+              "270155664-0007"
+            ],
+            "statements": [
+              {
+                "text": "Experten schätzen, dass auf einem Gebiet von über 2000 Quadratkilometern rund 60 Millionen Bäume umgeknickt wurden.",
+                "fact_ids": [
+                  "270155664-0007"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "speaker": "Felix",
+            "text": "Das ist kaum vorstellbar! Weiß man denn, wie viel Sprengkraft dahintersteckte?",
+            "fact_ids": [
+              "270155664-0032"
+            ],
+            "statements": [
+              {
+                "text": "Zur Sprengkraft des Ereignisses gibt es Schätzungen.",
+                "fact_ids": [
+                  "270155664-0032"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 3,
+            "speaker": "Lena",
+            "text": "Es gibt Schätzungen, ja. Noch in den Achtzigerjahren ging man von bis zu fünfzig Megatonnen TNT aus. Dazu gibt es eine Überlegung, wie so eine Wucht zustande kommen könnte. Ein mächtiger heißer Luftstrahl könnte nach der Explosion eines Kometen in der Höhe dessen Weg zum Boden fortsetzen. Dort würde er eine stärkere Druckwelle und höhere Temperaturen hervorrufen.",
+            "fact_ids": [
+              "270155664-0032",
+              "270155664-0034"
+            ],
+            "statements": [
+              {
+                "text": "Schätzungen gingen noch in den 1980er Jahren von bis zu 50 Megatonnen TNT aus.",
+                "fact_ids": [
+                  "270155664-0032"
+                ]
+              },
+              {
+                "text": "Ein mächtiger heißer Luftstrahl könnte nach der Explosion eines Kometen in der Höhe dessen Weg zum Boden fortsetzen und dort eine stärkere Druckwelle und höhere Temperaturen hervorrufen.",
+                "fact_ids": [
+                  "270155664-0034"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 4,
+            "speaker": "Felix",
+            "text": "Ein heißer Luftstrahl, der den Weg nach unten fortsetzt, das ist ein eindrucksvolles Bild. Was war das denn für ein Objekt, das da explodiert sein soll?",
+            "fact_ids": [
+              "270155664-0034",
+              "270155664-0036"
+            ],
+            "statements": [
+              {
+                "text": "Ein Luftstrahl könnte nach der Explosion eines Kometen in der Höhe dessen Weg zum Boden fortsetzen.",
+                "fact_ids": [
+                  "270155664-0034"
+                ]
+              },
+              {
+                "text": "Es wird ein Objekt angenommen, das in der Höhe explodierte.",
+                "fact_ids": [
+                  "270155664-0036"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 5,
+            "speaker": "Lena",
+            "text": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder eines Kometen von geringer Dichte. Der Durchmesser lag bei dreißig bis achtzig Metern. Der Körper explodierte etwa fünf bis vierzehn Kilometer über dem Boden. Und genau deshalb verursachte er keinen Krater.",
+            "fact_ids": [
+              "270155664-0036"
+            ],
+            "statements": [
+              {
+                "text": "Als am wahrscheinlichsten gilt der Eintritt eines Steinasteroiden oder Kometen von geringer Dichte.",
+                "fact_ids": [
+                  "270155664-0036"
+                ]
+              },
+              {
+                "text": "Der Durchmesser lag bei 30 bis 80 Metern.",
+                "fact_ids": [
+                  "270155664-0036"
+                ]
+              },
+              {
+                "text": "Der Körper explodierte etwa 5 bis 14 Kilometer über dem Boden und verursachte daher keinen Krater.",
+                "fact_ids": [
+                  "270155664-0036"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 6,
+            "speaker": "Felix",
+            "text": "Asteroid oder Komet, beides kommt also infrage. Wie groß werden Asteroiden überhaupt?",
+            "fact_ids": [
+              "270155664-0036"
+            ],
+            "statements": [
+              {
+                "text": "Als am wahrscheinlichsten gilt ein Steinasteroid oder ein Komet.",
+                "fact_ids": [
+                  "270155664-0036"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 7,
+            "speaker": "Lena",
+            "text": "Nur die wenigsten Asteroiden haben mehr als einige hundert Kilometer Durchmesser. Nun zu den Kometen. Der Kometenkern ist meist nur wenige Kilometer groß. In Sonnennähe ist er von einer diffusen, nebeligen Hülle umgeben, die Koma genannt wird. Diese Hülle kann eine Ausdehnung von zwei bis drei Millionen Kilometern erreichen.",
+            "fact_ids": [
+              "271523804-0002",
+              "271523896-0005"
+            ],
+            "statements": [
+              {
+                "text": "Nur die wenigsten Asteroiden haben mehr als einige hundert Kilometer Durchmesser.",
+                "fact_ids": [
+                  "271523804-0002"
+                ]
+              },
+              {
+                "text": "Der Kometenkern ist meist nur wenige Kilometer groß.",
+                "fact_ids": [
+                  "271523896-0005"
+                ]
+              },
+              {
+                "text": "In Sonnennähe ist der Kern von einer diffusen, nebeligen Hülle namens Koma umgeben, die zwei bis drei Millionen Kilometer Ausdehnung erreichen kann.",
+                "fact_ids": [
+                  "271523896-0005"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 8,
+            "speaker": "Felix",
+            "text": "Ein Kern von wenigen Kilometern und eine Hülle von Millionen Kilometern, das ist ein erstaunliches Verhältnis. Woher stammen Kometen eigentlich?",
+            "fact_ids": [
+              "271523896-0005"
+            ],
+            "statements": [
+              {
+                "text": "Ein Kometenkern ist meist nur wenige Kilometer groß, seine Hülle kann aber zwei bis drei Millionen Kilometer erreichen.",
+                "fact_ids": [
+                  "271523896-0005"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 9,
+            "speaker": "Lena",
+            "text": "Da gibt es eine überraschende Antwort. Einige Kometen entstanden in anderen Sternsystemen. Das Sonnensystem hat sie gravitativ eingefangen. Sie sind also von außen zu uns gekommen.",
+            "fact_ids": [
+              "271523896-0003"
+            ],
+            "statements": [
+              {
+                "text": "Einige Kometen entstanden in anderen Sternsystemen und wurden vom Sonnensystem gravitativ eingefangen.",
+                "fact_ids": [
+                  "271523896-0003"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 10,
+            "speaker": "Felix",
+            "text": "Das ist wirklich erstaunlich! Aber zurück nach Sibirien. Wenn die Explosion hoch in der Luft stattfand, gab es keinen Krater. Hat trotzdem jemand danach gesucht?",
+            "fact_ids": [
+              "270155664-0036"
+            ],
+            "statements": [
+              {
+                "text": "Das Objekt explodierte hoch über dem Boden und verursachte daher keinen Krater.",
+                "fact_ids": [
+                  "270155664-0036"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 11,
+            "speaker": "Lena",
+            "text": "Und wie! Die Besatzung des Luftschiffes Graf Zeppelin suchte bei dessen Erdumrundung im August neunzehnhundertneunundzwanzig vergeblich nach einem Krater. Später gab es eine neue Spur. Im Juni zweitausendsieben veröffentlichte eine italienische Forschergruppe nach einer Expedition unter Leitung des Meeresgeologen Luca Gasperini in der Online-Zeitschrift Terra Nova eine Vermutung. Sie meinte, dass es sich beim Tscheko-See um einen Krater handelt. Doch im Januar zweitausendsiebzehn haben russische Wissenschaftler diese Theorie vielleicht widerlegt. Nach ihren Untersuchungen dürfte der See bereits vor über zweihundertachtzig Jahren entstanden sein.",
+            "fact_ids": [
+              "270155664-0022",
+              "270155664-0047",
+              "270155664-0049"
+            ],
+            "statements": [
+              {
+                "text": "Die Besatzung des Luftschiffes Graf Zeppelin suchte bei dessen Erdumrundung im August 1929 vergeblich nach einem Krater.",
+                "fact_ids": [
+                  "270155664-0022"
+                ]
+              },
+              {
+                "text": "Im Juni 2007 veröffentlichte eine italienische Forschergruppe unter Leitung des Meeresgeologen Luca Gasperini nach einer Expedition in der Online-Zeitschrift Terra Nova ihre Vermutung, dass der Tscheko-See ein Krater ist.",
+                "fact_ids": [
+                  "270155664-0047"
+                ]
+              },
+              {
+                "text": "Russische Wissenschaftler haben im Januar 2017 die Theorie, dass der Tscheko-See der Krater des Tunguska-Ereignisses ist, vielleicht widerlegt, da er nach ihren Untersuchungen schon vor über 280 Jahren entstanden sein dürfte.",
+                "fact_ids": [
+                  "270155664-0049"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 12,
+            "speaker": "Felix",
+            "text": "Die Italiener sahen im Tscheko-See also einen Krater, und die Russen haben das vielleicht widerlegt, weil der See wohl älter ist. Hat man das Ereignis eigentlich nur vor Ort bemerkt?",
+            "fact_ids": [
+              "270155664-0047",
+              "270155664-0049"
+            ],
+            "statements": [
+              {
+                "text": "Eine italienische Forschergruppe vermutete im Tscheko-See einen Krater.",
+                "fact_ids": [
+                  "270155664-0047"
+                ]
+              },
+              {
+                "text": "Russische Wissenschaftler haben diese Theorie vielleicht widerlegt, weil der See nach ihren Untersuchungen bereits vor über 280 Jahren entstanden sein dürfte.",
+                "fact_ids": [
+                  "270155664-0049"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 13,
+            "speaker": "Lena",
+            "text": "Nein, nicht nur vor Ort. Die Messgeräte in Potsdam empfingen die Signale nach dreißig Stunden und neunundzwanzig Minuten ein zweites Mal. Da hatten die Signale die Erde einmal umrundet. Auch am Himmel war etwas zu sehen. Während der folgenden Nächte zeigten sich über den mittleren Breiten Europas silbern leuchtende Wolken von außergewöhnlichem Glanz. In London war es zum Beispiel möglich, in diesem Licht eine Zeitung zu lesen.",
+            "fact_ids": [
+              "270155664-0014",
+              "270155664-0015",
+              "270155664-0062"
+            ],
+            "statements": [
+              {
+                "text": "Die Messgeräte in Potsdam empfingen die Signale nach 30 Stunden und 29 Minuten ein zweites Mal, nachdem sie die Erde einmal umrundet hatten.",
+                "fact_ids": [
+                  "270155664-0014"
+                ]
+              },
+              {
+                "text": "Während der folgenden Nächte zeigten sich über den mittleren Breiten Europas silbern leuchtende Wolken von außergewöhnlichem Glanz.",
+                "fact_ids": [
+                  "270155664-0015"
+                ]
+              },
+              {
+                "text": "In London war es möglich, in diesem Licht eine Zeitung zu lesen.",
+                "fact_ids": [
+                  "270155664-0062",
+                  "270155664-0015"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 14,
+            "speaker": "Felix",
+            "text": "Wow, das klingt fast unwirklich. Gab es denn auch Erklärungsversuche dafür, was da passiert ist?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 15,
+            "speaker": "Lena",
+            "text": "Und ob. Unter anderem wurden der Einschlag eines kleinen Schwarzen Loches und der Absturz eines extraterrestrischen Raumschiffs für das Ereignis verantwortlich gemacht. Dazu kam die sogenannte Mückenexplosion. Gemeint ist eine Explosion der dort zahlreich vorkommenden Mücken, vergleichbar einer Staubexplosion.",
+            "fact_ids": [
+              "270155664-0071"
+            ],
+            "statements": [
+              {
+                "text": "Unter anderem wurden der Einschlag eines kleinen Schwarzen Loches und der Absturz eines extraterrestrischen Raumschiffs für das Ereignis verantwortlich gemacht.",
+                "fact_ids": [
+                  "270155664-0071"
+                ]
+              },
+              {
+                "text": "Auch eine sogenannte Mückenexplosion wurde als Ursache genannt, gemeint ist eine Explosion der dort zahlreich vorkommenden Mücken, vergleichbar einer Staubexplosion.",
+                "fact_ids": [
+                  "270155664-0071"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 16,
+            "speaker": "Felix",
+            "text": "Eine Mückenexplosion, das ist ja herrlich! Gibt es auch Erklärungen, die aus dem Untergrund kommen?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 17,
+            "speaker": "Lena",
+            "text": "Ja, die gibt es. Eine Deutung geht von der Explosion von zehn Millionen Tonnen Erdgas aus. Das Gas wäre über Risse aus einem unterirdischen natürlichen Erdgaslager unter hohem Druck entwichen. Es wäre mit hoher Geschwindigkeit bis in hohe Atmosphärenschichten aufgestiegen und hätte sich durch Reibungselektrizität entzündet. Dann wäre es in einer Flammenfront bis hinunter zur Austrittsstelle abgebrannt. Außerdem ist der Ort selbst bemerkenswert. Er liegt inmitten des Sibirischen Trapps, eines großen Gebietes magmatischen Gesteins, das sich um die Wende vom Perm zur Trias gebildet hat.",
+            "fact_ids": [
+              "270155664-0058",
+              "270155664-0066"
+            ],
+            "statements": [
+              {
+                "text": "Eine Deutung erklärt das Ereignis als Explosion von zehn Millionen Tonnen Erdgas, das über Risse aus einem unterirdischen natürlichen Erdgaslager unter hohem Druck entwich.",
+                "fact_ids": [
+                  "270155664-0058"
+                ]
+              },
+              {
+                "text": "Das Gas wäre mit hoher Geschwindigkeit bis in hohe Atmosphärenschichten aufgestiegen, hätte sich durch Reibungselektrizität entzündet und wäre in einer Flammenfront bis hinunter zur Austrittsstelle abgebrannt.",
+                "fact_ids": [
+                  "270155664-0058"
+                ]
+              },
+              {
+                "text": "Der Ort des Ereignisses befindet sich inmitten des Sibirischen Trapps, eines großen Gebietes magmatischen Gesteins, das sich um die Wende vom Perm zur Trias gebildet hat.",
+                "fact_ids": [
+                  "270155664-0066"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 18,
+            "speaker": "Felix",
+            "text": "Perm zur Trias, das klingt nach einer ganz anderen Zeit. Was geschah damals?",
+            "fact_ids": [
+              "270155664-0066"
+            ],
+            "statements": [
+              {
+                "text": "Das Gesteinsgebiet des Sibirischen Trapps bildete sich um die Wende vom Perm zur Trias.",
+                "fact_ids": [
+                  "270155664-0066"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 19,
+            "speaker": "Lena",
+            "text": "Damals fand das größte bekannte Massenaussterben der Erdgeschichte statt. Das war vor rund zweihundertzweiundfünfzig Millionen Jahren. Fünfundsiebzig Prozent der an Land lebenden Wirbellosen starben aus. Bei den marinen Wirbellosen waren es sogar fünfundneunzig Prozent.",
+            "fact_ids": [
+              "270155664-0066"
+            ],
+            "statements": [
+              {
+                "text": "Vor rund 252 Millionen Jahren fand das größte bekannte Massenaussterben der Erdgeschichte statt.",
+                "fact_ids": [
+                  "270155664-0066"
+                ]
+              },
+              {
+                "text": "Dabei starben 75 Prozent der an Land lebenden und 95 Prozent der marinen Wirbellosen aus.",
+                "fact_ids": [
+                  "270155664-0066"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 20,
+            "speaker": "Felix",
+            "text": "Das ist erschütternd. Gibt es auch Ideen aus der Physik?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 21,
+            "speaker": "Lena",
+            "text": "Ja. Nach einer Theorie des Teilchenphysikers Robert Foot von der Universität Melbourne könnte es sich um eine Kollision der Erde mit einem Weltraumkörper aus Spiegelmaterie gehandelt haben. Spiegelmaterie ist eine hypothetische Materieform. Aus ihr könnte zum Beispiel die Dunkle Materie bestehen.",
+            "fact_ids": [
+              "270155664-0075"
+            ],
+            "statements": [
+              {
+                "text": "Nach einer Theorie des Teilchenphysikers Robert Foot von der Universität Melbourne könnte es eine Kollision der Erde mit einem Weltraumkörper aus Spiegelmaterie gewesen sein.",
+                "fact_ids": [
+                  "270155664-0075"
+                ]
+              },
+              {
+                "text": "Spiegelmaterie ist eine hypothetische Materieform, aus der zum Beispiel die Dunkle Materie bestehen könnte.",
+                "fact_ids": [
+                  "270155664-0075"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 22,
+            "speaker": "Felix",
+            "text": "Spiegelmaterie, das klingt abenteuerlich. Eine hypothetische Materieform, aus der vielleicht sogar die Dunkle Materie besteht. Wie ist das Ereignis eigentlich in Büchern gelandet?",
+            "fact_ids": [
+              "270155664-0075"
+            ],
+            "statements": [
+              {
+                "text": "Spiegelmaterie ist eine hypothetische Materieform, aus der die Dunkle Materie bestehen könnte.",
+                "fact_ids": [
+                  "270155664-0075"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 23,
+            "speaker": "Lena",
+            "text": "Zum Beispiel bei den Brüdern Strugazki. Sie stellten neunzehnhundertfünfundsechzig im Buch Der Montag fängt am Samstag an eine humorvolle phantastische These auf. Danach wurde das Tunguska-Ereignis von einem kontramoten Raumschiff verursacht. Das reist auf der Zeitachse rückwärts. Es landete auf der Erde und entzündete beim Landen die Taiga. Dann wanderte es weiter durch die Zeit zurück. Deshalb blieben keine Spuren an der Brandstelle zurück.",
+            "fact_ids": [
+              "270155664-0082"
+            ],
+            "statements": [
+              {
+                "text": "Die Brüder Strugazki stellten 1965 im Buch Der Montag fängt am Samstag an eine humorvolle phantastische These auf, dass das Tunguska-Ereignis von einem kontramoten Raumschiff verursacht wurde, das auf der Zeitachse rückwärts reist.",
+                "fact_ids": [
+                  "270155664-0082"
+                ]
+              },
+              {
+                "text": "Das Raumschiff landete auf der Erde, entzündete beim Landen die Taiga und wanderte dann weiter durch die Zeit zurück, sodass keine Spuren an der Brandstelle zurückblieben.",
+                "fact_ids": [
+                  "270155664-0082"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 24,
+            "speaker": "Felix",
+            "text": "Ein Raumschiff, das rückwärts durch die Zeit reist und deshalb keine Spuren hinterlässt, das ist ziemlich raffiniert. Gab es noch andere Bücher?",
+            "fact_ids": [
+              "270155664-0082"
+            ],
+            "statements": [
+              {
+                "text": "Ein Raumschiff, das auf der Zeitachse rückwärts reist, hinterlässt laut der Strugazki-These keine Spuren an der Brandstelle.",
+                "fact_ids": [
+                  "270155664-0082"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 25,
+            "speaker": "Lena",
+            "text": "Ja. Zweitausendacht erschien Christian Krachts alternativ-weltgeschichtlicher Roman Ich werde hier sein im Sonnenschein und im Schatten. Darin ist das Tunguska-Ereignis der Auslöser für den Wendepunkt der Handlung. Lenin kehrt nicht aus der Schweiz in das durch das Ereignis verstrahlte Russland zurück, um die Russische Revolution herbeizuführen. Stattdessen funktioniert er die Schweiz zu einer sozialistischen Räterepublik um. Im selben Jahr gerät in Achim Stößers Cartoonreihe Pater Anselms Weltraummission das Raumschiff in einen Zeitstrudel. Der Antiatom-Meiler muss abgeworfen werden, weil eine Kernschmelze droht. So löst die Besatzung das Tunguska-Ereignis aus.",
+            "fact_ids": [
+              "270155664-0090",
+              "270155664-0102"
+            ],
+            "statements": [
+              {
+                "text": "In Christian Krachts Roman Ich werde hier sein im Sonnenschein und im Schatten von 2008 ist das Tunguska-Ereignis der Auslöser für den Wendepunkt der Handlung.",
+                "fact_ids": [
+                  "270155664-0090"
+                ]
+              },
+              {
+                "text": "Lenin kehrt nicht aus der Schweiz in das verstrahlte Russland zurück, um die Revolution herbeizuführen, sondern funktioniert die Schweiz zu einer sozialistischen Räterepublik um.",
+                "fact_ids": [
+                  "270155664-0090"
+                ]
+              },
+              {
+                "text": "In Achim Stößers Cartoonreihe Pater Anselms Weltraummission gerät 2008 das Raumschiff in einen Zeitstrudel, der Antiatom-Meiler muss wegen drohender Kernschmelze abgeworfen werden und löst so das Tunguska-Ereignis aus.",
+                "fact_ids": [
+                  "270155664-0102"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 26,
+            "speaker": "Felix",
+            "text": "Lenin bleibt also in der Schweiz und baut dort eine Räterepublik, und im Comic löst ein abgeworfener Meiler das Ereignis aus. Wie ist es in Heften oder Serien?",
+            "fact_ids": [
+              "270155664-0090",
+              "270155664-0102"
+            ],
+            "statements": [
+              {
+                "text": "Bei Kracht kehrt Lenin nicht nach Russland zurück, sondern funktioniert die Schweiz zu einer sozialistischen Räterepublik um.",
+                "fact_ids": [
+                  "270155664-0090"
+                ]
+              },
+              {
+                "text": "In der Cartoonreihe löst ein abgeworfener Antiatom-Meiler das Tunguska-Ereignis aus.",
+                "fact_ids": [
+                  "270155664-0102"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 27,
+            "speaker": "Lena",
+            "text": "Neunzehnhundertachtundneunzig gehen im Lustigen Taschenbuch Nummer zweihundertsiebenundvierzig Indiana Goof und Micky Maus in der Geschichte Der große Knall auf Expedition nach dem Ursprung des Tunguska-Ereignisses. Sie finden heraus, dass es eine ungewollte Nuklearexplosion war. Zweitausendeinundzwanzig wird das Ereignis in den sechs letzten Folgen der zweiten Staffel von UFOs gedeutet. Es soll ein winziges schwarzes Loch gewesen sein. Sibirische Ureinwohner sollen es durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie verursacht haben.",
+            "fact_ids": [
+              "270155664-0101",
+              "270155664-0105"
+            ],
+            "statements": [
+              {
+                "text": "1998 gehen im Lustigen Taschenbuch Nummer 247 in der Geschichte Der große Knall Indiana Goof und Micky Maus auf Expedition nach dem Ursprung des Tunguska-Ereignisses und finden heraus, dass es eine ungewollte Nuklearexplosion war.",
+                "fact_ids": [
+                  "270155664-0101"
+                ]
+              },
+              {
+                "text": "2021 wird das Ereignis in den sechs letzten Folgen der zweiten Staffel von UFOs als winziges schwarzes Loch gedeutet, das sibirische Ureinwohner durch eine misslungene Verwendung zurückgelassener außerirdischer Technologie verursacht haben sollen.",
+                "fact_ids": [
+                  "270155664-0105"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 28,
+            "speaker": "Felix",
+            "text": "Eine ungewollte Nuklearexplosion bei Micky Maus, das ist verrückt. Wann gab es eigentlich die erste von Menschen herbeigeführte Atomexplosion?",
+            "fact_ids": [
+              "270155664-0101"
+            ],
+            "statements": [
+              {
+                "text": "Im Lustigen Taschenbuch wird das Tunguska-Ereignis als ungewollte Nuklearexplosion erklärt.",
+                "fact_ids": [
+                  "270155664-0101"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 29,
+            "speaker": "Lena",
+            "text": "Die erste von Menschen herbeigeführte Atomexplosion fand am sechzehnten Juli neunzehnhundertfünfundvierzig statt. Der Ort war ein Gelände in der Wüste von New Mexico, das White Sands Missile Range heißt.",
+            "fact_ids": [
+              "271574089-0004"
+            ],
+            "statements": [
+              {
+                "text": "Die erste von Menschen herbeigeführte Atomexplosion fand am 16. Juli 1945 auf dem Gelände White Sands Missile Range in der Wüste von New Mexico statt.",
+                "fact_ids": [
+                  "271574089-0004"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 30,
+            "speaker": "Felix",
+            "text": "Und in der Serie geht es um außerirdische Technologie. Wie stellt man sich denn Raumfahrzeuge von Außerirdischen vor?",
+            "fact_ids": [
+              "270155664-0105"
+            ],
+            "statements": [
+              {
+                "text": "In der Serie UFOs spielt zurückgelassene außerirdische Technologie eine Rolle.",
+                "fact_ids": [
+                  "270155664-0105"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 31,
+            "speaker": "Lena",
+            "text": "Bis heute prägt das Bild der Fliegenden Untertasse menschliche Vorstellungen davon. Es geht darum, wie Raumfahrzeuge hypothetischer außerirdischer Lebewesen typischerweise aussehen könnten.",
+            "fact_ids": [
+              "270575891-0004"
+            ],
+            "statements": [
+              {
+                "text": "Bis heute prägt das Bild der Fliegenden Untertasse menschliche Vorstellungen davon, wie Raumfahrzeuge hypothetischer außerirdischer Lebewesen typischerweise aussehen könnten.",
+                "fact_ids": [
+                  "270575891-0004"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 32,
+            "speaker": "Felix",
+            "text": "Dann fasse ich kurz zusammen. Sechzig Millionen Bäume wurden auf über zweitausend Quadratkilometern umgeknickt. Als am wahrscheinlichsten gilt ein Steinasteroid oder Komet mit dreißig bis achtzig Metern Durchmesser, der fünf bis vierzehn Kilometer über dem Boden explodierte und deshalb keinen Krater hinterließ. Der Tscheko-See wurde als Krater vermutet, doch russische Forscher haben das vielleicht widerlegt. Die Messgeräte in Potsdam empfingen die Signale ein zweites Mal, nachdem sie die Erde umrundet hatten. Daneben gibt es Erklärungen von der Mückenexplosion bis zum Erdgas. Und Autoren haben das Ereignis zu Geschichten über Zeitreisen, Lenin und Micky Maus gemacht.",
+            "fact_ids": [
+              "270155664-0007",
+              "270155664-0036",
+              "270155664-0047",
+              "270155664-0049",
+              "270155664-0014",
+              "270155664-0001",
+              "270155664-0058",
+              "270155664-0082",
+              "270155664-0090",
+              "270155664-0101"
+            ],
+            "statements": [
+              {
+                "text": "Experten schätzen, dass auf über 2000 Quadratkilometern rund 60 Millionen Bäume umgeknickt wurden.",
+                "fact_ids": [
+                  "270155664-0007"
+                ]
+              },
+              {
+                "text": "Als am wahrscheinlichsten gilt ein Steinasteroid oder Komet von 30 bis 80 Metern Durchmesser, der 5 bis 14 Kilometer über dem Boden explodierte und daher keinen Krater verursachte.",
+                "fact_ids": [
+                  "270155664-0036"
+                ]
+              },
+              {
+                "text": "Der Tscheko-See wurde von einer italienischen Forschergruppe als Krater vermutet, doch russische Wissenschaftler haben diese Theorie vielleicht widerlegt.",
+                "fact_ids": [
+                  "270155664-0047",
+                  "270155664-0049"
+                ]
+              },
+              {
+                "text": "Die Messgeräte in Potsdam empfingen die Signale ein zweites Mal, nachdem sie die Erde einmal umrundet hatten.",
+                "fact_ids": [
+                  "270155664-0014"
+                ]
+              },
+              {
+                "text": "Zu den Erklärungen zählen die Mückenexplosion und eine Erdgasexplosion.",
+                "fact_ids": [
+                  "270155664-0001",
+                  "270155664-0058"
+                ]
+              },
+              {
+                "text": "Die Strugazki-These, Krachts Roman und das Lustige Taschenbuch machen das Ereignis zu Geschichten über ein Zeitreise-Raumschiff, Lenin und eine ungewollte Nuklearexplosion.",
+                "fact_ids": [
+                  "270155664-0082",
+                  "270155664-0090",
+                  "270155664-0101"
+                ]
+              }
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "turn_index": 14,
+            "reason": "Unknown fact IDs: 270155664-0001"
+          },
+          {
+            "turn_index": 15,
+            "reason": "Unknown fact IDs: 270155664-0001"
+          },
+          {
+            "turn_index": 16,
+            "reason": "Unknown fact IDs: 270155664-0001"
+          },
+          {
+            "turn_index": 32,
+            "reason": "Unknown fact IDs: 270155664-0001"
+          }
+        ],
+        "used_fact_ids": [
+          "270155664-0007",
+          "270155664-0032",
+          "270155664-0034",
+          "270155664-0036",
+          "271523804-0002",
+          "271523896-0005",
+          "271523896-0003",
+          "270155664-0022",
+          "270155664-0047",
+          "270155664-0049",
+          "270155664-0014",
+          "270155664-0015",
+          "270155664-0062",
+          "270155664-0058",
+          "270155664-0066",
+          "270155664-0075",
+          "270155664-0082",
+          "270155664-0090",
+          "270155664-0102",
+          "270155664-0101",
+          "270155664-0105",
+          "271574089-0004",
+          "270575891-0004"
+        ]
+      },
+      "judgements": [
+        {
+          "turn_index": 0,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.57
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Behauptung. Er kündigt das Thema an und fragt, womit sie beginnen. Das ist eine Überleitung und eine Nachfrage, also belegfrei, und Fakt-IDs sind nicht nötig."
+        },
+        {
+          "turn_index": 1,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.56
+          },
+          "jev_error": null,
+          "reason": "Die Kernaussage (über 2000 km², rund 60 Millionen umgeknickte Bäume, Expertenschätzung) stimmt mit dem Fakt-Satz überein. Die übrigen Sätze sind Wertung bzw. Aufforderung zur Vorstellung ohne neue Fakten; das Bild vom Waldgebiet mit reihenweise am Boden liegenden Bäumen folgt aus dem Fakt."
+        },
+        {
+          "turn_index": 2,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.97,
+            "vollstaendig": 0.76
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält nur eine Reaktion (\"Das ist kaum vorstellbar!\", ein Gefühl des Staunens) und eine Nachfrage zur Sprengkraft. Beides ist belegfrei. Die Frage setzt keine Prämisse voraus, die über die Fakt-Sätze hinausgeht, und es werden keine neuen Behauptungen aufgestellt."
+        },
+        {
+          "turn_index": 3,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.8
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Die Angabe 'noch in den Achtzigerjahren bis zu fünfzig Megatonnen TNT' entspricht 0032, die Überlegung zum heißen Luftstrahl, der den Weg des Kometen zum Boden fortsetzt und dort stärkere Druckwelle und höhere Temperaturen erzeugt, entspricht 0034. 'Es gibt Schätzungen, ja.' ist eine belegfreie Reaktion bzw. durch 0032 gedeckt. Keine zusätzlichen Angaben."
+        },
+        {
+          "turn_index": 4,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.97,
+            "vollstaendig": 0.7
+          },
+          "jev_error": null,
+          "reason": "Der erste Satz gibt das Bild aus Fakt 0034 (heißer Luftstrahl, der den Weg nach unten fortsetzt) wieder und bewertet es nur als eindrucksvoll, was eine Reaktion ist. Die Frage nach dem explodierten Objekt ist eine Nachfrage; ihre Prämisse, dass etwas explodiert sein soll, steht in beiden Fakten. Es werden keine zusätzlichen Angaben gemacht."
+        },
+        {
+          "turn_index": 5,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "aussage_2": 0.99,
+            "vollstaendig": 0.97
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 6,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.95,
+            "vollstaendig": 0.84
+          },
+          "jev_error": null,
+          "reason": "Der erste Satz greift das Gesagte auf: Das Fakt nennt als wahrscheinlichste Ursache einen Steinasteroiden oder Kometen, daher ist \"beides kommt infrage\" gedeckt. Die Frage nach der Größe von Asteroiden ist eine Nachfrage und braucht keinen Beleg. Es werden keine zusätzlichen Angaben gemacht."
+        },
+        {
+          "turn_index": 7,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "aussage_2": 0.99,
+            "vollstaendig": 0.91
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Die Aussage zu Asteroiden entspricht 271523804-0002 (der Bezug „Asteroiden“ steht im Kontext, ist aber durch den Satz im Zusammenhang gedeckt), Kometenkern (meist nur wenige Kilometer), Koma als diffuse, nebelige Hülle in Sonnennähe und Ausdehnung von 2 bis 3 Millionen Kilometern stehen in 271523896-0005. „Nun zu den Kometen“ ist eine belegfreie Überleitung."
+        },
+        {
+          "turn_index": 8,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.87
+          },
+          "jev_error": null,
+          "reason": "Die Aussage 'Kern von wenigen Kilometern' und 'Hülle von Millionen Kilometern' folgt aus dem Fakt (meist nur wenige Kilometer großer Kern, Koma mit 2 bis 3 Millionen Kilometern Ausdehnung). Die Wertung 'erstaunliches Verhältnis' ist ein Gefühl im Moment, und die Frage nach der Herkunft der Kometen ist eine belegfreie Nachfrage ohne zusätzliche Behauptung."
+        },
+        {
+          "turn_index": 9,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.96,
+            "vollstaendig": 0.89
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: Einige Kometen entstanden in anderen Sternsystemen und wurden vom Sonnensystem gravitativ eingefangen; \"von außen zu uns gekommen\" ist eine Umformulierung. Die Einleitung \"überraschende Antwort\" ist eine Reaktion ohne Faktengehalt."
+        },
+        {
+          "turn_index": 10,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.97,
+            "vollstaendig": 0.77
+          },
+          "jev_error": null,
+          "reason": "Die Aussage \"Wenn die Explosion hoch in der Luft stattfand, gab es keinen Krater\" folgt aus dem Fakt-Satz (Explosion 5 bis 14 km über dem Boden, daher kein Krater). Die Prämisse \"Sibirien\" ist reine Überleitung. \"Das ist wirklich erstaunlich!\" ist eine Reaktion, und \"Hat trotzdem jemand danach gesucht?\" ist eine Nachfrage ohne neue Behauptung."
+        },
+        {
+          "turn_index": 11,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 1.0,
+            "aussage_1": 0.96,
+            "aussage_2": 0.98,
+            "vollstaendig": 0.86
+          },
+          "jev_error": null,
+          "reason": "Alle Angaben stimmen mit den Fakt-Sätzen überein: Graf Zeppelin und die vergebliche Kratersuche im August 1929 (0022), die Veröffentlichung der italienischen Gruppe unter Luca Gasperini im Juni 2007 in Terra Nova mit der Vermutung, der Tscheko-See sei ein Krater (0047), sowie die möglicherweise widerlegte Theorie der russischen Wissenschaftler vom Januar 2017 mit der Entstehung vor über 280 Jahren (0049). Der Einstieg „Und wie!“ und die Überleitung „Später gab es eine neue Spur“ sind Reaktion bzw. Überleitung ohne neue Faktenbehauptung."
+        },
+        {
+          "turn_index": 12,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "aussage_1": 0.98,
+            "vollstaendig": 0.82
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen folgen aus den Fakt-Sätzen. 0047 belegt die italienische Vermutung, der Tscheko-See sei ein Impaktorkrater. 0049 belegt, dass russische Forscher diese Theorie 2017 vielleicht widerlegt haben, weil der See schon vor über 280 Jahren entstanden sein dürfte, also älter ist als das Ereignis. Die Schlussfrage ist eine belegfreie Nachfrage ohne zusätzliche Behauptung."
+        },
+        {
+          "turn_index": 13,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "aussage_2": 0.94,
+            "vollstaendig": 0.83
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Die Potsdamer Messung nach 30 Stunden und 29 Minuten mit einmaliger Erdumrundung (0014), die silbern leuchtenden Wolken über den mittleren Breiten Europas in den folgenden Nächten (0015) und die Zeitung im Licht in London (0062). Der einleitende Satz „Nein, nicht nur vor Ort“ ist eine Überleitung, und „Auch am Himmel war etwas zu sehen“ fasst die folgenden Fakten zusammen."
+        },
+        {
+          "turn_index": 14,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.83
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält nur Reaktionen: Staunen („Wow, das klingt fast unwirklich“) und eine Nachfrage nach Erklärungsversuchen. Er stellt keine Tatsachenbehauptung auf und setzt keine Prämisse voraus, die belegt werden müsste. Fakt-IDs sind daher nicht erforderlich."
+        },
+        {
+          "turn_index": 15,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.81
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: kleines Schwarzes Loch, Absturz eines extraterrestrischen Raumschiffs und die „Mückenexplosion“ (Explosion der dort zahlreich vorkommenden Mücken, vergleichbar einer Staubexplosion) wurden für das Ereignis verantwortlich gemacht. „Und ob.“ ist eine belegfreie Reaktion. Es kommen keine zusätzlichen Angaben hinzu."
+        },
+        {
+          "turn_index": 16,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.83
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält nur eine Reaktion (Belustigung über die „Mückenexplosion“, die das zuvor Gesagte aufgreift) und eine Nachfrage nach weiteren Erklärungen. Er stellt keine neue Tatsachenbehauptung auf, daher sind keine Fakt-IDs nötig."
+        },
+        {
+          "turn_index": 17,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "aussage_2": 0.99,
+            "vollstaendig": 0.78
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen folgen aus den Fakt-Sätzen. Die Erdgas-Deutung (10 Millionen Tonnen, Risse, unterirdisches Erdgaslager, hoher Druck, Aufstieg in hohe Atmosphärenschichten, Reibungselektrizität, Flammenfront bis zur Austrittsstelle) entspricht Satz 0058. Die Lage im Sibirischen Trapp als großes Gebiet magmatischen Gesteins, entstanden um die Wende vom Perm zur Trias, entspricht Satz 0066. Das einleitende „Ja, die gibt es“ ist eine belegfreie Reaktion, und „bemerkenswert“ ist eine harmlose Wertung ohne zusätzliche Faktenbehauptung."
+        },
+        {
+          "turn_index": 18,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.74
+          },
+          "jev_error": null,
+          "reason": "Felix' Aussage \"Perm zur Trias, das klingt nach einer ganz anderen Zeit\" ist ein Gefühl im Moment (Staunen) und die Frage \"Was geschah damals?\" ist eine Nachfrage. Beides ist belegfrei. Der Beitrag enthält keine Behauptung, die über die zitierten Fakten hinausgeht. Die Nennung von Perm und Trias greift die Wende vom Perm zur Trias aus dem Fakt-Satz nur wieder auf."
+        },
+        {
+          "turn_index": 19,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.98,
+            "vollstaendig": 0.9
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen folgen aus dem Fakt-Satz 270155664-0066: größtes bekanntes Massenaussterben der Erdgeschichte, vor rund 252 Millionen Jahren, 75 % der an Land lebenden und 95 % der marinen Wirbellosen starben aus. Die ausgeschriebenen Zahlen stimmen, und es kommt keine zusätzliche Angabe hinzu."
+        },
+        {
+          "turn_index": 20,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.84
+          },
+          "jev_error": null,
+          "reason": "Der Beitrag enthält keine Behauptung. „Das ist erschütternd“ ist eine Gefühlsreaktion im Moment, „Gibt es auch Ideen aus der Physik?“ ist eine Nachfrage ohne neue Information. Beides gilt als belegfrei, daher sind keine Fakt-IDs nötig."
+        },
+        {
+          "turn_index": 21,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.93
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Theorie von Robert Foot (Teilchenphysiker, Universität Melbourne), mögliche Kollision der Erde mit einem Weltraumkörper aus Spiegelmaterie, Spiegelmaterie als hypothetische Materieform, aus der z. B. die Dunkle Materie bestehen könnte. Das einleitende „Ja\" ist eine belegfreie Reaktion. Es kommt keine zusätzliche Angabe hinzu."
+        },
+        {
+          "turn_index": 22,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.75
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, Spiegelmaterie sei eine hypothetische Materieform, aus der vielleicht die Dunkle Materie besteht, folgt direkt aus dem Fakt-Satz (\"hypothetische Materieform, aus der z. B. die Dunkle Materie bestehen könnte\"). \"Das klingt abenteuerlich\" ist ein Gefühl im Moment, und die Frage nach dem Weg des Ereignisses in die Bücher ist eine belegfreie Nachfrage ohne eigene Faktenbehauptung."
+        },
+        {
+          "turn_index": 23,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.96
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 24,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.81
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, ein Raumschiff reise rückwärts durch die Zeit und hinterlasse deshalb keine Spuren, folgt direkt aus dem Fakt-Satz (kontramotes Raumschiff, keine Spuren an der Brandstelle). Die Wertung „ziemlich raffiniert“ ist eine subjektive Reaktion der sprechenden Person ohne eigenen Faktengehalt. „Gab es noch andere Bücher?“ ist eine Nachfrage und damit belegfrei."
+        },
+        {
+          "turn_index": 25,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.98,
+            "aussage_2": 0.96,
+            "vollstaendig": 0.81
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen decken sich mit den Fakten 0090 und 0102: Kracht-Roman 2008, Tunguska-Ereignis als Auslöser des Wendepunkts, Lenin bleibt in der Schweiz und macht sie zur sozialistischen Räterepublik, Zeitstrudel, Abwurf des Antiatom-Meilers wegen drohender Kernschmelze und Auslösung des Tunguska-Ereignisses. Der Begriff „Besatzung“ und „erschien“ sind nur sinngemäße Umformulierungen, keine neuen Angaben."
+        },
+        {
+          "turn_index": 26,
+          "accepted": false,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.73
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag schreibt die Räterepublik-Handlung Lenin zu, ohne den Roman zu nennen, aber das passt noch zu Fakt 0090. Problematisch ist \"im Comic\": Fakt 0102 spricht von einer Cartoonreihe, nicht von einem Comic. Zudem stellt der Beitrag die Handlung von Fakt 0090 als gesicherte Tatsache dar (\"Lenin bleibt also in der Schweiz\"), obwohl sie nur in einem fiktiven Roman vorkommt. Die Nachfrage am Ende ist belegfrei, aber die genannte Gattungsbezeichnung ist nicht durch die Fakten gedeckt."
+        },
+        {
+          "turn_index": 27,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.98,
+            "vollstaendig": 0.64
+          },
+          "jev_error": null,
+          "reason": "Alle Angaben stimmen mit den Fakt-Sätzen überein: 1998, Lustiges Taschenbuch Nr. 247, Indiana Goof und Micky Maus, Der große Knall, ungewollte Nuklearexplosion (0101). 2021, die sechs letzten Folgen der zweiten Staffel von UFOs, winziges schwarzes Loch, sibirische Ureinwohner, misslungene Verwendung zurückgelassener außerirdischer Technologie (0105). Der Redebeitrag fügt nichts hinzu."
+        },
+        {
+          "turn_index": 28,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.89
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, dass bei Micky Maus eine ungewollte Nuklearexplosion vorkommt, folgt aus dem Fakt-Satz (Der große Knall, Lustiges Taschenbuch Nr. 247). \"Das ist verrückt\" ist eine belegfreie Reaktion (Staunen). Die Frage nach der ersten von Menschen herbeigeführten Atomexplosion ist eine Nachfrage ohne Behauptung oder zusätzliche Prämisse."
+        },
+        {
+          "turn_index": 29,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.97
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 30,
+          "accepted": false,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.97,
+            "vollstaendig": 0.75
+          },
+          "jev_error": null,
+          "reason": "Die Aussage „in der Serie geht es um außerirdische Technologie“ verallgemeinert den Fakt zu stark. Der Fakt sagt nur, dass in den Folgen 7–12 der zweiten Staffel von UFOs ein Ereignis als Folge misslungener Verwendung zurückgelassener außerirdischer Technologie gedeutet wird. Er belegt nicht, dass es in der ganzen Serie darum geht. Die Frage nach der Vorstellung von Raumfahrzeugen Außerirdischer ist dagegen eine belegfreie Nachfrage."
+        },
+        {
+          "turn_index": 31,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.96
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 32,
+          "accepted": false,
+          "decided_by": "gate",
+          "jev_p": {},
+          "jev_error": null,
+          "reason": "Unknown fact IDs: 270155664-0001"
+        }
+      ]
+    }
+  ]
+}

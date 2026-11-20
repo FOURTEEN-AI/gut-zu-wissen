@@ -1,0 +1,63 @@
+{
+  "title": "Sibirischer Trapp",
+  "revid": 270233083,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-04T20:17:07Z",
+  "fetched_at": "2026-11-20T08:19:10Z",
+  "categories": [
+    "Kategorie:Ereignis der Erdgeschichte",
+    "Kategorie:Geologie Asiens",
+    "Kategorie:Sibirien",
+    "Kategorie:Vulkanismus in Russland"
+  ],
+  "intro_wikitext": "Der '''Sibirische Trapp''' ({{RuS|Сибирские траппы}}) ist ein ausgedehnter [[Flutbasalt]] ([[Trapp (Geologie)|Trapp]]) in [[Sibirien]]. Die dafür verantwortlichen [[Vulkanausbruch|Vulkanausbrüche]] bilden eines der größten weltweit bekannten vulkanischen Ereignisse der [[Erdgeschichte]] und fanden vor etwa 252&nbsp;Millionen Jahren an der [[Perm-Trias-Grenze]] statt. Die Ausbrüche und ihre Folgen werden in einen ursächlichen Zusammenhang mit dem [[Massenaussterben]] am Ende des [[Perm (Geologie)|Perms]] gebracht. Aufgrund seiner Ausdehnung und seiner geologisch vergleichsweise raschen Entstehung ist der Sibirische Trapp ein herausragendes Beispiel einer [[magmatische Großprovinz|magmatischen Großprovinz]].\n[[Datei:Extent of Siberian traps german.png|mini|hochkant=2.5|Verbreitungsgebiet des Sibirischen Trapps]]",
+  "segments": [
+    {
+      "id": "270233083-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der '''Sibirische Trapp''' ({{RuS|Сибирские траппы}}) ist ein ausgedehnter [[Flutbasalt]] ([[Trapp (Geologie)|Trapp]]) in [[Sibirien]].",
+      "plain": null
+    },
+    {
+      "id": "270233083-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die dafür verantwortlichen [[Vulkanausbruch|Vulkanausbrüche]] bilden eines der größten weltweit bekannten vulkanischen Ereignisse der [[Erdgeschichte]] und fanden vor etwa 252&nbsp;Millionen Jahren an der [[Perm-Trias-Grenze]] statt.",
+      "plain": null
+    },
+    {
+      "id": "270233083-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Ausbrüche und ihre Folgen werden in einen ursächlichen Zusammenhang mit dem [[Massenaussterben]] am Ende des [[Perm (Geologie)|Perms]] gebracht.",
+      "plain": null
+    },
+    {
+      "id": "270233083-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Aufgrund seiner Ausdehnung und seiner geologisch vergleichsweise raschen Entstehung ist der Sibirische Trapp ein herausragendes Beispiel einer [[magmatische Großprovinz|magmatischen Großprovinz]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270233083,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270233083-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270233083-0001"
+        ],
+        "plain": "Die Ausbrüche und ihre Folgen werden in einen ursächlichen Zusammenhang mit dem Massenaussterben am Ende des Perms gebracht.",
+        "context_plain": [
+          "Die dafür verantwortlichen Vulkanausbrüche bilden eines der größten weltweit bekannten vulkanischen Ereignisse der Erdgeschichte und fanden vor etwa 252 Millionen Jahren an der Perm-Trias-Grenze statt."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

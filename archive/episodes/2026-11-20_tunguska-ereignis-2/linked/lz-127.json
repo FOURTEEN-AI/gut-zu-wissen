@@ -1,0 +1,80 @@
+{
+  "title": "LZ 127",
+  "revid": 270450093,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-13T10:47:56Z",
+  "fetched_at": "2026-11-20T08:19:10Z",
+  "categories": [
+    "Kategorie:Erstflug 1928",
+    "Kategorie:Ferdinand von Zeppelin als Namensgeber",
+    "Kategorie:Individuelles Luftschiff",
+    "Kategorie:Luftpostfahrzeug",
+    "Kategorie:Starrluftschiff",
+    "Kategorie:Verkehrsgeschichte (Atlantischer Ozean)",
+    "Kategorie:Wikipedia:Artikel mit Video",
+    "Kategorie:Wikipedia:Lesenswert",
+    "Kategorie:Zeppelin-Luftfahrzeug"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|beschreibt den Zeppelin LZ 127 „Graf Zeppelin“. Für den gleichnamigen Nachfolger LZ 130 „Graf Zeppelin“, auch „Graf Zeppelin II“, siehe [[LZ 130]].}}\n{{Infobox Luftschiff\n| Image=Bundesarchiv Bild 102-00960A, Berlin, Graf Zeppelin LZ 127.jpg\n| Image caption=LZ 127 „Graf Zeppelin“ über [[Berlin]] (1928) \n| Owner=[[DELAG]] (1928–1935)\n[[Deutsche Zeppelin-Reederei]] (1935–1940)\n| Land={{DEU-1919}} (1928–1933)\n{{DEU-1935}} (1933–1940)\n| Passenger=25\n| Type=[[Starrluftschiff]]\n| Builder=[[Luftschiffbau Zeppelin]]\n| Length=236,6 m\n| Width=30,5 m\n| Gas=[[Wasserstoff]]\n| Gas Volume=105.000 m³\n| Speed=115 km/h\n| Commission Date=18. September 1928\n| Fate=1940 verschrottet\n|Complement=40–50|Completion Date=8. Juli 1928|Maximum Speed=128 km/h|License=D-LZ127}}\n[[Datei:ZeppelinLZ127a.jpg|mini|hochkant=1.6|LZ 127 Graf Zeppelin zurück von der „Weltfahrt“ in Deutschland (1929)]]\n\n'''LZ 127 „Graf Zeppelin“''' (Kennzeichen D-LZ127) war ein [[Starrluftschiff]] aus der Reihe der [[Zeppelin]]e und gilt als das erfolgreichste [[Verkehrsluftschiff]] seiner Zeit. Es wurde am 18. September 1928 nach 21-monatiger Bauzeit in Dienst gestellt.\n\nUrsprünglich als Versuchsschiff gebaut, erwies sich LZ 127 als so zuverlässig, dass es bald durch zahlreiche spektakuläre Fahrten, wie die 20-tägige „Weltfahrt“ und die „Polarfahrt“, berühmt wurde und über mehrere Jahre einen regelmäßigen Transatlantikverkehr aufrechterhielt.\n\nUnmittelbar nach der [[LZ 129#„Hindenburg“-Katastrophe|Hindenburg-Katastrophe]] wurde der Zeppelin im Mai 1937 außer Dienst gestellt und 1940 verschrottet.",
+  "segments": [
+    {
+      "id": "270450093-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''LZ 127 „Graf Zeppelin“''' (Kennzeichen D-LZ127) war ein [[Starrluftschiff]] aus der Reihe der [[Zeppelin]]e und gilt als das erfolgreichste [[Verkehrsluftschiff]] seiner Zeit.",
+      "plain": null
+    },
+    {
+      "id": "270450093-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es wurde am 18. September 1928 nach 21-monatiger Bauzeit in Dienst gestellt.",
+      "plain": null
+    },
+    {
+      "id": "270450093-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ursprünglich als Versuchsschiff gebaut, erwies sich LZ 127 als so zuverlässig, dass es bald durch zahlreiche spektakuläre Fahrten, wie die 20-tägige „Weltfahrt“ und die „Polarfahrt“, berühmt wurde und über mehrere Jahre einen regelmäßigen Transatlantikverkehr aufrechterhielt.",
+      "plain": null
+    },
+    {
+      "id": "270450093-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Unmittelbar nach der [[LZ 129#„Hindenburg“-Katastrophe|Hindenburg-Katastrophe]] wurde der Zeppelin im Mai 1937 außer Dienst gestellt und 1940 verschrottet.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270450093,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270450093-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270450093-0001"
+        ],
+        "plain": "Ursprünglich als Versuchsschiff gebaut, erwies sich LZ 127 als so zuverlässig, dass es bald durch zahlreiche spektakuläre Fahrten, wie die 20-tägige „Weltfahrt“ und die „Polarfahrt“, berühmt wurde und über mehrere Jahre einen regelmäßigen Transatlantikverkehr aufrechterhielt.",
+        "context_plain": [
+          "Es wurde am 18. September 1928 nach 21-monatiger Bauzeit in Dienst gestellt."
+        ]
+      },
+      {
+        "segment_id": "270450093-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270450093-0002"
+        ],
+        "plain": "Unmittelbar nach der Hindenburg-Katastrophe wurde der Zeppelin im Mai 1937 außer Dienst gestellt und 1940 verschrottet.",
+        "context_plain": [
+          "Ursprünglich als Versuchsschiff gebaut, erwies sich LZ 127 als so zuverlässig, dass es bald durch zahlreiche spektakuläre Fahrten, wie die 20-tägige „Weltfahrt“ und die „Polarfahrt“, berühmt wurde und über mehrere Jahre einen regelmäßigen Transatlantikverkehr aufrechterhielt."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "title": "Der Montag fängt am Samstag an",
+  "revid": 271724558,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-29T13:32:38Z",
+  "fetched_at": "2026-11-20T08:19:10Z",
+  "categories": [
+    "Kategorie:Literarisches Werk",
+    "Kategorie:Literatur (20. Jahrhundert)",
+    "Kategorie:Literatur (Russisch)",
+    "Kategorie:Literatur (Sowjetunion)",
+    "Kategorie:Satire",
+    "Kategorie:Science-Fiction-Literatur",
+    "Kategorie:Werk von Arkadi und Boris Strugazki"
+  ],
+  "intro_wikitext": "'''Der Montag fängt am Samstag an''' ({{RuS|Понедельник начинается в субботу|Ponedelnik natschinajetsja w subbotu}}) ist ein 1965 veröffentlichter [[Science-Fiction]]-[[Roman]] von [[Arkadi und Boris Strugazki]]. Er wird häufig zur [[Phantastik|Fantastik]] gezählt.\n\nDer Roman spielt in einer fiktiven Stadt in Nord-[[Russland]], wo streng geheime Forschungen in [[Magie]] stattfinden. Der Roman ist eine [[Satire]] auf [[Sowjetunion|sowjetische]] wissenschaftliche Institutionen: Es werden die ungebildete Verwaltung, ein publicitysüchtiger Professor und nicht funktionierende Forschungsgeräte thematisiert. Im Roman gibt es eine idealistische Sicht auf die [[Arbeitsethik]], die durch den Titel reflektiert wird: Bei wahren [[Wissenschaft]]lern gibt es keine Wochenenden.\n\nDas „Naturwissenschaftliche Forschungsinstitut für Magie und Zauberei“ (NIITschaWo, ähnelt stark dem russ. Wort \"nitschewo\" = \"nichts\") befindet sich in einer fiktiven russischen Stadt Solowetz im Norden Russlands. Das Institut ist ein Ort, an dem alle hart und willig arbeiten müssen, denn der Verlust der Ehrlichkeit wird durch Haarwachstum an den Ohren bestraft. Die haarohrigen Menschen werden zwar verachtet, doch in einer typisch sowjetischen Verhaltensweise bleiben viele von ihnen trotzdem im Institut – denn dort lässt es sich trotz allem gut leben.\n\n''[[Das Märchen von der Troika]]'', der die schlimmsten Eigenschaften der sowjetischen Bürokratie beschreibt, ist ein Nachfolgeroman, in dem viele Figuren wiederkehren.",
+  "segments": [
+    {
+      "id": "271724558-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Der Montag fängt am Samstag an''' ({{RuS|Понедельник начинается в субботу|Ponedelnik natschinajetsja w subbotu}}) ist ein 1965 veröffentlichter [[Science-Fiction]]-[[Roman]] von [[Arkadi und Boris Strugazki]].",
+      "plain": null
+    },
+    {
+      "id": "271724558-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er wird häufig zur [[Phantastik|Fantastik]] gezählt.",
+      "plain": null
+    },
+    {
+      "id": "271724558-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Roman spielt in einer fiktiven Stadt in Nord-[[Russland]], wo streng geheime Forschungen in [[Magie]] stattfinden.",
+      "plain": null
+    },
+    {
+      "id": "271724558-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Roman ist eine [[Satire]] auf [[Sowjetunion|sowjetische]] wissenschaftliche Institutionen: Es werden die ungebildete Verwaltung, ein publicitysüchtiger Professor und nicht funktionierende Forschungsgeräte thematisiert.",
+      "plain": null
+    },
+    {
+      "id": "271724558-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Roman gibt es eine idealistische Sicht auf die [[Arbeitsethik]], die durch den Titel reflektiert wird: Bei wahren [[Wissenschaft]]lern gibt es keine Wochenenden.",
+      "plain": null
+    },
+    {
+      "id": "271724558-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das „Naturwissenschaftliche Forschungsinstitut für Magie und Zauberei“ (NIITschaWo, ähnelt stark dem russ. Wort \"nitschewo\" = \"nichts\") befindet sich in einer fiktiven russischen Stadt Solowetz im Norden Russlands.",
+      "plain": null
+    },
+    {
+      "id": "271724558-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Institut ist ein Ort, an dem alle hart und willig arbeiten müssen, denn der Verlust der Ehrlichkeit wird durch Haarwachstum an den Ohren bestraft.",
+      "plain": null
+    },
+    {
+      "id": "271724558-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die haarohrigen Menschen werden zwar verachtet, doch in einer typisch sowjetischen Verhaltensweise bleiben viele von ihnen trotzdem im Institut – denn dort lässt es sich trotz allem gut leben.",
+      "plain": null
+    },
+    {
+      "id": "271724558-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "''[[Das Märchen von der Troika]]'', der die schlimmsten Eigenschaften der sowjetischen Bürokratie beschreibt, ist ein Nachfolgeroman, in dem viele Figuren wiederkehren.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271724558,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271724558-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271724558-0005"
+        ],
+        "plain": "Das Institut ist ein Ort, an dem alle hart und willig arbeiten müssen, denn der Verlust der Ehrlichkeit wird durch Haarwachstum an den Ohren bestraft.",
+        "context_plain": [
+          "Das „Naturwissenschaftliche Forschungsinstitut für Magie und Zauberei“ (NIITschaWo, ähnelt stark dem russ. Wort \"nitschewo\" = \"nichts\") befindet sich in einer fiktiven russischen Stadt Solowetz im Norden Russlands."
+        ]
+      },
+      {
+        "segment_id": "271724558-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das „Naturwissenschaftliche Forschungsinstitut für Magie und Zauberei“ (NIITschaWo, ähnelt stark dem russ. Wort \"nitschewo\" = \"nichts\") befindet sich in einer fiktiven russischen Stadt Solowetz im Norden Russlands.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

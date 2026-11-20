@@ -1,0 +1,61 @@
+{
+  "title": "Perm (Geologie)",
+  "revid": 261658678,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-11-18T15:59:28Z",
+  "fetched_at": "2026-11-20T08:19:10Z",
+  "categories": [
+    "Kategorie:Perm (Geologie)",
+    "Kategorie:Zeitalter des Perm"
+  ],
+  "intro_wikitext": "{{Infobox Phanerozoikum\n| System= Perm\n| Ära= [[Paläozoikum]]\n| Davor= [[Karbon]]\n| Danach= [[Trias (Geologie)|Trias]]\n| O2= ca. 23 Vol.-%<ref>[[:Datei:Sauerstoffgehalt-1000mj.svg|Sauerstoffgehalt-1000mj]]</ref><br />(115 % von heute)\n| CO2= ca. 900 [[Parts per million|ppm]]<ref>[[:Datei:Phanerozoic Carbon Dioxide.png|Phanerozoic Carbon Dioxide]]</ref><br />(Das 2,25-fache von heute)\n| Temperatur= ca. 16&nbsp;°C<ref>[[:Datei:All palaeotemps.png|All palaeotemps]]</ref><br />(1,5&nbsp;°C über heute)\n| Linkbox= \n{{Linkbox Perm (Geologie)}}\n}}\nDas '''Perm''' ist auf der [[Geologische Zeitskala|geologischen Zeitskala]] das letzte [[System (Geologie)|System]] (bzw. Periode in der [[Geochronologie]]) im [[Paläozoikum]]. Das Perm begann vor etwa {{Erdzeitalter/Beginn|fmt=1|Perm}}&nbsp;Millionen Jahren und endete vor etwa {{Erdzeitalter/Ende|fmt=1|Perm}}&nbsp;Millionen Jahren. Das Perm folgt auf das [[Karbon]] und wird von der [[Trias (Geologie)|Trias]] überlagert. An der [[Perm-Trias-Grenze]] geschah das größte bekannte [[Massenaussterben]] der Erdgeschichte.",
+  "segments": [
+    {
+      "id": "261658678-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das '''Perm''' ist auf der [[Geologische Zeitskala|geologischen Zeitskala]] das letzte [[System (Geologie)|System]] (bzw. Periode in der [[Geochronologie]]) im [[Paläozoikum]].",
+      "plain": null
+    },
+    {
+      "id": "261658678-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Perm begann vor etwa {{Erdzeitalter/Beginn|fmt=1|Perm}}&nbsp;Millionen Jahren und endete vor etwa {{Erdzeitalter/Ende|fmt=1|Perm}}&nbsp;Millionen Jahren.",
+      "plain": null
+    },
+    {
+      "id": "261658678-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Perm folgt auf das [[Karbon]] und wird von der [[Trias (Geologie)|Trias]] überlagert.",
+      "plain": null
+    },
+    {
+      "id": "261658678-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "An der [[Perm-Trias-Grenze]] geschah das größte bekannte [[Massenaussterben]] der Erdgeschichte.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 261658678,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "261658678-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "261658678-0002"
+        ],
+        "plain": "An der Perm-Trias-Grenze geschah das größte bekannte Massenaussterben der Erdgeschichte.",
+        "context_plain": [
+          "Das Perm folgt auf das Karbon und wird von der Trias überlagert."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

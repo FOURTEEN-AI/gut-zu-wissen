@@ -1,0 +1,778 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.68
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. Die Nennung des Themas (Tunguska-Ereignis) ist eine Überleitung, und die Fragen \"Wo fangen wir an?\" und \"Was ist da eigentlich passiert?\" sind Nachfragen bzw. Bitten um Erklärung. Sie setzen keine nicht belegte Prämisse voraus, daher sind sie auch ohne Fakt-IDs zulässig."
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Die Aussage über über 2000 km² und rund 60 Millionen umgeknickte Bäume, die Experten schätzen, steht wortgleich in [270155664-0007]. Der einleitende Satz \"Fangen wir mit den Schäden an\" ist eine Überleitung und braucht keinen Beleg."
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Die Zahl von 60 Millionen umgeknickten Bäumen auf einer sehr großen Fläche (über 2000 km²) folgt aus dem Fakt-Satz. Die Wertung \"kaum vorstellbar\" ist ein Gefühl im Moment, und die Frage \"Was hat das ausgelöst?\" ist eine Nachfrage ohne neue Behauptung."
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Felix' Nachfrage greift die Prämisse auf, dass das Objekt in der Luft explodierte und deshalb keinen Krater hinterließ. Das deckt sich mit dem Fakt-Satz (Explosion 5 bis 14 Kilometer über dem Boden, daher kein Krater). Es kommt keine zusätzliche Angabe hinzu, der Beitrag ist eine Nachfrage zum eben Gesagten."
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Der Satz „So lautet die wahrscheinlichste Erklärung“ folgt aus [0036] („Als am wahrscheinlichsten gilt …“). Die Aussage zur Besatzung des Luftschiffs Graf Zeppelin, die bei der Erdumrundung im August 1929 vergeblich nach einem Krater suchte, entspricht [0022] wörtlich. „Gesucht hat man den Krater trotzdem“ ist eine Überleitung, die [0022] zusammenfasst. Es kommt keine unbelegte Angabe hinzu."
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur Reaktionen: Staunen („Das ist ja eine Geschichte!“), ein Wiederaufgreifen des eben Gesagten (Asteroid oder Komet, gedeckt durch [270155664-0036]) und eine Nachfrage nach dem Unterschied. Neue Behauptungen ohne Beleg gibt es nicht."
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Nur die wenigsten Asteroiden haben mehr als einige hundert Kilometer Durchmesser (0002); über 1,5 Millionen bekannt, Stand 6. Mai 2026, mehrere Tausend Neuentdeckungen pro Monat, tatsächliche Zahl wohl mehrere Millionen (0007). Die Überleitung \"Fangen wir bei den Asteroiden an\" ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Das ist ja unglaublich!\" ist eine Reaktion (Staunen im Moment), und \"Wie sieht es bei den Kometen aus?\" ist eine Nachfrage ohne neue Information oder Prämisse. Ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "aussage_2": 0.89,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakten: Kern meist nur wenige Kilometer groß und Koma bis 2 bis 3 Millionen Kilometer (\"Millionen Kilometer\" ist eine zulässige Verkürzung), einige Kometen entstanden in anderen Sternsystemen und wurden gravitativ eingefangen, und beim Tunguska-Ereignis gilt als am wahrscheinlichsten eine Explosion 5 bis 14 Kilometer über dem Boden (\"hoch über dem Boden\"). Die abschließende Frage ist eine belegfreie Nachfrage, ihre Prämisse (eine Explosion) ist durch die Fakten gedeckt."
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Die 1980er Jahre und bis zu 50 Megatonnen TNT stammen aus 0032. Der heiße Luftstrahl nach der Kometenexplosion in der Höhe, der stärkere Druckwelle und höhere Temperaturen am Boden hervorruft, steht in 0034. Die Formulierung „Erklärungsansatz“ und „könnte“ entspricht dem „Grund dafür könnte“ im Fakt. Es gibt keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Felix greift den Fakt-Satz auf: ein heißer Luftstrahl, der nach der Explosion eines Kometen in der Höhe dessen Weg zum Boden fortsetzt. Das deckt sich mit [270155664-0034]. „Spannender Gedanke“ ist eine Reaktion (Neugier, Staunen) und braucht keinen Beleg. Die Frage nach Spuren, die weit entfernt messbar waren, ist eine Nachfrage ohne neue Tatsachenbehauptung."
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.77,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich korrekt wieder: Potsdam, zweiter Empfang nach 30 Stunden und 29 Minuten (ausgeschrieben), Erde einmal umrundet. Das einleitende „Ja“ ist eine belegfreie Reaktion. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.33,
+        "vollstaendig": 0.73
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, die Signale seien einmal um die Erde gelaufen und nach 30 Stunden und 29 Minuten in Potsdam ein zweites Mal angekommen, folgt aus dem Fakt-Satz. „Gut dreißig Stunden“ ist eine zulässige Umformulierung. Die abschließende Frage nach Beobachtungen am Himmel ist eine Nachfrage ohne Faktenbehauptung und braucht keinen Beleg."
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Beide Sätze folgen direkt aus den Fakt-Sätzen: 0015 belegt die silbern leuchtenden Wolken von außergewöhnlichem Glanz über den mittleren Breiten Europas in den folgenden Nächten, 0062 belegt, dass man in London in diesem Licht eine Zeitung lesen konnte. Das einleitende „Ja“ ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.73
+      },
+      "jev_error": null,
+      "reason": "Der Ausruf „Nachts eine Zeitung lesen, das ist verrückt!“ ist eine Reaktion (Staunen) und greift Fakt 0062 (Zeitunglesen in London im Licht) ohne neue Information auf. „Aber kommen wir zum Krater zurück“ ist eine Überleitung, „Gibt es denn einen Kandidaten dafür?“ eine Nachfrage. Es werden keine unbelegten Behauptungen aufgestellt."
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Die Vermutung, der See sei ein beim Tunguska-Ereignis entstandener Einschlagkrater, steht in [262125942-0007]. Datum (Juni 2007), italienische Forschergruppe, Expedition unter Luca Gasperini, Online-Zeitschrift Terra Nova und die Vermutung eines Impaktor-Kraters stehen in [270155664-0047]. „Einschlagkörper“ ist eine zulässige Umformulierung von „Impaktor“. Es wird keine zusätzliche Angabe gemacht."
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Felix stellt nur eine Nachfrage. Die Prämisse, dass die italienische Gruppe eine Vermutung hatte, folgt aus dem Fakt-Satz [270155664-0047]: Die Forschergruppe veröffentlichte ihre Vermutung zum Tscheko-See als Impaktorkrater. Neue Behauptungen kommen nicht hinzu."
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.78
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich korrekt wieder: leichte magnetische Anomalie, Hinweis auf einen metallischen Einschlagkörper. „Am See“ passt zum Kontext der Untersuchung des Sees. Das einleitende „Ja.“ ist eine Reaktion. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Felix stellt nur Rückfragen. Die Prämisse, der See könnte ein Einschlagkrater des Tunguska-Ereignisses sein, und die Frage, ob das bisher nur eine Vermutung ist, stützt Fakt 0007, der von Vermutungen von Wissenschaftlern spricht. Neue unbelegte Behauptungen kommen nicht vor."
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.93,
+        "aussage_1": 0.98,
+        "aussage_2": 0.99,
+        "aussage_3": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Die Vermutung der italienischen Forschergruppe im Juni 2007 (0047), die mögliche Widerlegung durch russische Wissenschaftler im Januar 2017 und die Entstehung vor über 280 Jahren (0049). Dass es bisher nur eine Vermutung ist, deckt 0007 ab. Es gibt keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.78
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus Reaktionen: \"Oh, das ist ein Dämpfer\" ist ein Gefühl im Moment, und die Frage nach wilderen Ideen neben Asteroid oder Komet ist eine Nachfrage. Die Prämisse, dass Asteroid oder Komet als Erklärungen im Raum stehen, folgt aus dem Fakt-Satz, der den Eintritt eines Steinasteroiden oder Kometen als am wahrscheinlichsten nennt. Es kommt keine zusätzliche Behauptung vor."
+    },
+    {
+      "turn_index": 23,
+      "accepted": false,
+      "decided_by": "gate",
+      "jev_p": {},
+      "jev_error": null,
+      "reason": "Unknown fact IDs: 270155664-0001"
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.52
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion (Lachen, Belustigung im Moment) und einer Nachfrage zur Geologie. Er enthält keine Behauptung und keine faktische Prämisse, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Lenas Aussagen geben den Fakt-Satz 270155664-0058 inhaltlich vollständig wieder: Explosion von 10 Millionen Tonnen Erdgas, Entweichen über Risse aus einem unterirdischen natürlichen Erdgaslager unter hohem Druck, Aufstieg mit hoher Geschwindigkeit bis in hohe Atmosphärenschichten, Entzündung durch Reibungselektrizität, Abbrennen in einer Flammenfront bis zur Austrittsstelle. Der Konjunktiv und die Einordnung als „eine These“ passen zu „Demnach wäre“. Es kommen keine zusätzlichen Angaben hinzu."
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Die Beschreibung (Gas, das in der Höhe durch Reibungselektrizität entzündet wird und in einer Flammenfront nach unten abbrennt) folgt direkt aus dem Fakt-Satz. \"Das klingt fast wie ein Film\" ist ein Gefühl im Moment, und die Frage nach dem besonderen Ort ist eine Nachfrage ohne Behauptung, beides belegfrei."
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle Angaben stimmen mit dem Fakt-Satz überein: Lage inmitten des Sibirischen Trapps, magmatisches Gestein aus der Zeit der Wende vom Perm zur Trias, rund 252 Millionen Jahre, größtes bekanntes Massenaussterben, 75 % an Land und 95 % der marinen Wirbellosen. Es kommen keine zusätzlichen Angaben hinzu, und das einleitende „Ja“ ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion des Staunens („Wow“) und einer Nachfrage nach weiteren Erklärungen. Die Frage enthält keine Behauptung und keine faktische Prämisse, die belegt werden müsste, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 29,
+      "accepted": false,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Fakt-Satz sagt nur, Foot habe in einer Theorie vorgeschlagen, es könnte sich um eine Kollision der Erde mit einem Spiegelmaterie-Körper gehandelt haben (rückblickend, ein vergangenes Ereignis). Lena behauptet dagegen, Foot halte eine Kollision für möglich, ohne den Bezug auf das vergangene Ereignis. Das ist eine Verschiebung: Aus der Theorie über ein bestimmtes Ereignis wird eine allgemeine Möglichkeitsaussage, die nicht aus dem Fakt folgt. Die Angaben zu Spiegelmaterie und Dunkler Materie sind dagegen belegt."
+    },
+    {
+      "turn_index": 30,
+      "accepted": false,
+      "decided_by": "gate",
+      "jev_p": {},
+      "jev_error": null,
+      "reason": "Unknown fact IDs: 270155664-0001"
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Jahr 1965, Brüder Strugazki, Buch „Der Montag fängt am Samstag an“, humorvolle phantastische These, „kontramotes“ Raumschiff, Landung, Entzünden der Taiga, Weiterreise zurück durch die Zeit, keine Spuren. „Das Ereignis“ steht für das Tunguska-Ereignis, das ist keine zusätzliche Angabe. Es kommt nichts hinzu, was nicht im Fakt steht."
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.69
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt die Fakt-Aussage sinngemäß wieder: Ein „kontramotes“ Raumschiff, das auf der Zeitachse rückwärts reist, hinterließ keine Spuren an der Brandstelle. Die Strugazki-These wird dort ausdrücklich als humorvoll bezeichnet. Der Beitrag enthält keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen (Roman „Das Portal“ von Peter Schwindt aus der Reihe „Justin Time“, Absturz eines mit Antimaterie betriebenen Satelliten, Teil eines Zeitportals, wahnsinnige Wissenschaftlerin will Weltherrschaft, Jahr 2005) folgen direkt aus dem Fakt-Satz. „Es gibt noch mehr“ ist eine Überleitung ohne Belegpflicht."
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.94,
+        "vollstaendig": 0.73
+      },
+      "jev_error": null,
+      "reason": "Die Aufzählung (Wissenschaftlerin, Zeitportal, Satellit mit Antimaterie) gibt Fakt 270155664-0087 sinngemäß wieder, ohne neue Angaben. Die Frage nach dem Comic ist eine belegfreie Nachfrage und führt keine unbelegte Behauptung ein."
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Alle Angaben im Redebeitrag (1998, Lustiges Taschenbuch Nr. 247, Indiana Goof und Micky Maus, „Der große Knall“, Expedition zum Ursprung des Tunguska-Ereignisses, ungewollte Nuklearexplosion) stehen im Fakt-Satz 270155664-0101; es wird nichts hinzugefügt. Das einleitende „Ja.“ ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.65
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag besteht aus einer Reaktion (Staunen über eine Nuklearexplosion im Comic) und einer Nachfrage, seit wann es menschengemachte Atomexplosionen gibt. Die Prämisse, dass im Comic eine Nuklearexplosion vorkommt, deckt der Fakt-Satz (ungewollte Nuklearexplosion im Lustigen Taschenbuch Nr. 247). Die Frage selbst ist belegfrei und enthält keine zusätzliche Behauptung."
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 38,
+      "accepted": false,
+      "decided_by": "gate",
+      "jev_p": {},
+      "jev_error": null,
+      "reason": "Unknown fact IDs: 270155664-0001"
+    }
+  ],
+  "used_fact_ids": [],
+  "cascade_checks": [
+    {
+      "conversation": 1,
+      "turn_index": 10,
+      "p": 0.73,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Beide Aussagen sind enthalten: Die Zeppelin-Besatzung hat vergeblich nach einem Krater gesucht (\"kein Krater ... obwohl sogar die Besatzung des Zeppelins danach gesucht hat\"), und es gibt keine sichtbaren Bruchstücke. Die neue Fassung lässt \"bis heute\" und \"Impaktor\" weg, nennt aber weiterhin das Fehlen sichtbarer Bruchstücke im selben Kontext. Das ist eine sinngemäße Umformulierung. Die Frage am Ende bleibt gleich."
+    },
+    {
+      "conversation": 1,
+      "turn_index": 19,
+      "p": 0.78,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung enthält die Aussage vollständig: Juni 2007, italienische Forschergruppe unter Leitung von Luca Gasperini, Online-Zeitschrift Terra Nova, Vermutung, der Tscheko-See sei ein Impaktorkrater. Nur die Einleitung „die gibt es“ ist hinzugekommen, was die Aussage nicht verändert."
+    },
+    {
+      "conversation": 1,
+      "turn_index": 26,
+      "p": 0.99,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 1,
+      "turn_index": 43,
+      "p": 0.81,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung ändert und ergänzt Aussagen. Statt eines kleinen Schwarzen Lochs „unter den Ursachen“ ist es nun „der Einschlag“ eines kleinen Schwarzen Lochs als Ursache, was etwas anderes sagt. Neu hinzugekommen sind das Jahr 2021 für die Serie „UFOs“ und „sibirische Ureinwohner“ als Verursacher; beides steht in der vorherigen Fassung nicht. Auch „winziges“ schwarzes Loch kommt dort nicht vor."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 15,
+      "p": 0.8,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung ist wortgleich mit der vorherigen. Beide Aussagen stehen unverändert darin: der Einschlag eines kleinen Schwarzen Loches und der Absturz eines extraterrestrischen Raumschiffs sowie die Mückenexplosion, vergleichbar einer Staubexplosion."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 17,
+      "p": 0.79,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die dritte Aussage wird verändert: Der Sibirische Trapp ist in der vorherigen Fassung „ein großes Gesteinsgebiet“, in der neuen „ein großes Gebiet magmatischen Gesteins“. Die Angabe „magmatisch“ ist neu und steht in der vorherigen Fassung nicht. Alle anderen Aussagen (10 Mio. Tonnen Erdgas, Risse, Aufstieg, Reibungselektrizität, Flammenfront, Perm/Trias) stimmen überein."
+    },
+    {
+      "conversation": 3,
+      "turn_index": 11,
+      "p": 0.76,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Beide Aussagen sind in der neuen Fassung enthalten: bis zu fünfzig Megatonnen TNT in den 1980er Jahren (neu mit „Forscher“ als Subjekt, was der Aussage nicht widerspricht) und der heiße Luftstrahl, der nach der Kometenexplosion in der Höhe den Weg zum Boden fortsetzt und dort stärkere Druckwelle und höhere Temperaturen verursacht. Zahlen und Zeitangaben sind gleich."
+    },
+    {
+      "conversation": 3,
+      "turn_index": 21,
+      "p": 0.92,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die beiden Aussagen der vorherigen Fassung stehen auch in der neuen Fassung, mit denselben Zahlen: Januar 2017 und über 280 Jahre. Die neue Fassung ergänzt aber eine Aussage, die vorher fehlte: Eine italienische Forschergruppe vermutete im Juni 2007, der Tscheko-See sei ein Einschlagkrater. Außerdem kommt die Einleitung „Bisher ist es nur eine Vermutung“ neu hinzu, und der Einstieg „Nicht unbedingt“ entfällt. Die neue Fassung vermittelt also mehr als die vorherige und ist nicht inhaltsgleich."
+    }
+  ],
+  "conversation": 3,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 9,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 9,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.93,
+          "vollstaendig": 0.64
+        },
+        "jev_error": null,
+        "reason": "Der Satz „Fachleute nennen so einen Körper Impaktor“ geht über den Fakt-Satz hinaus. Dieser nennt „Impaktor“ nur als Klammerzusatz und sagt nichts darüber, dass Fachleute den Begriff verwenden. Auch „Auch da sieht es leer aus“ ist ohne Kontext nur eine Überleitung, die Hauptaussage über die fehlenden Bruchstücke ist dagegen belegt."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 10,
+      "version": 0,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 10,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 18,
+      "version": 0,
+      "replaced_by": 2,
+      "judgement": {
+        "turn_index": 18,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.95,
+          "aussage_1": 0.85,
+          "vollstaendig": 0.64
+        },
+        "jev_error": null,
+        "reason": "Die Rechnung \"mehrere Jahrzehnte\" (1978 bis 2013, also 35 Jahre) folgt aus [270155664-0054], und die Neugier auf den Meteoritenfall ist eine belegfreie Reaktion. Die Frage \"Gibt es Forscher, die trotz allem einen Krater ausgemacht haben wollen?\" setzt aber voraus, dass es beim Tunguska-Ereignis eigentlich keinen Krater gibt und dass etwas dagegen spricht. Davon steht in den Fakt-Sätzen nichts. Sie erwähnen weder einen Krater noch dessen Fehlen."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 19,
+      "version": 0,
+      "replaced_by": 3,
+      "judgement": {
+        "turn_index": 19,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.88
+        },
+        "jev_error": null,
+        "reason": "Alle Angaben (Juni 2007, italienische Forschergruppe, Leitung Luca Gasperini, Meeresgeologe, Online-Zeitschrift Terra Nova, Vermutung Tscheko-See sei Impaktor-Krater) stehen im Fakt-Satz; das einleitende \"Ja.\" ist eine belegfreie Reaktion."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 25,
+      "version": 0,
+      "replaced_by": 4,
+      "judgement": {
+        "turn_index": 25,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Unknown fact IDs: 270155664-0001"
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 26,
+      "version": 0,
+      "replaced_by": 5,
+      "judgement": {
+        "turn_index": 26,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Der Beitrag enthält nur Reaktionen: Staunen (\"Mücken, wirklich? Ach du meine Güte.\"), ein Wiederaufgreifen des eben Gesagten und eine Nachfrage zur Physik. Er stellt keine neue Behauptung auf und braucht deshalb keine Fakt-IDs."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 42,
+      "version": 0,
+      "replaced_by": 6,
+      "judgement": {
+        "turn_index": 42,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Unknown fact IDs: 270155664-0001"
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 43,
+      "version": 0,
+      "replaced_by": 7,
+      "judgement": {
+        "turn_index": 43,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Unknown fact IDs: 270155664-0001"
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 14,
+      "version": 0,
+      "replaced_by": 8,
+      "judgement": {
+        "turn_index": 14,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Unknown fact IDs: 270155664-0001"
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 15,
+      "version": 0,
+      "replaced_by": 9,
+      "judgement": {
+        "turn_index": 15,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Unknown fact IDs: 270155664-0001"
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 16,
+      "version": 0,
+      "replaced_by": 10,
+      "judgement": {
+        "turn_index": 16,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Unknown fact IDs: 270155664-0001"
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 17,
+      "version": 0,
+      "replaced_by": 11,
+      "judgement": {
+        "turn_index": 17,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.98,
+          "vollstaendig": 0.81
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen. Die Gasexplosion-Deutung (10 Millionen Tonnen Erdgas, Risse, unterirdisches Lager, hoher Druck, Aufstieg, Reibungselektrizität, Flammenfront bis zur Austrittsstelle) steht in 0058. Die Lage im Sibirischen Trapp und die Bildung um die Wende vom Perm zur Trias stehen in 0066. Die Formulierung „großes Gesteinsgebiet“ statt „magmatisches Gestein“ ist eine zulässige Verkürzung. „Ja.“ ist eine belegfreie Reaktion."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 10,
+      "version": 0,
+      "replaced_by": 12,
+      "judgement": {
+        "turn_index": 10,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.57
+        },
+        "jev_error": null,
+        "reason": "Die Aussage \"Manche Kometen kommen sogar aus fremden Sternsystemen\" geht über Fakt 0003 hinaus: Dort steht, dass einige Kometen in anderen Sternsystemen entstanden und vom Sonnensystem gravitativ eingefangen wurden. Das stimmt nicht mit \"kommen aus\" im Sinne einer heutigen Herkunft überein, passt aber noch ungefähr. Problematischer ist die Frage: \"Zurück nach Tunguska: Wie viel Sprengkraft steckte denn in dieser Explosion?\" setzt eine Tunguska-Explosion voraus, die in keinem der zitierten Fakten vorkommt. Die Prämisse ist also nicht belegt. Die Aussage zu Kern und Koma (wenige Kilometer, Millionen Kilometer) folgt dagegen aus Fakt 0005."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 11,
+      "version": 0,
+      "replaced_by": 13,
+      "judgement": {
+        "turn_index": 11,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 20,
+      "version": 0,
+      "replaced_by": 14,
+      "judgement": {
+        "turn_index": 20,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.78
+        },
+        "jev_error": null,
+        "reason": "Die Frage setzt voraus, dass der See der gesuchte Krater ist und das Rätsel gelöst sein könnte. Der Fakt-Satz belegt nur, dass Wissenschaftler vermuten, der See sei ein Einschlagkrater des Tunguska-Ereignisses. Dass es einen „gesuchten Krater“ gibt und das Rätsel gelöst ist, steht dort nicht. Die Vermutung wird als Gewissheit dargestellt."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 21,
+      "version": 0,
+      "replaced_by": 15,
+      "judgement": {
+        "turn_index": 21,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.88
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich korrekt wieder: russische Wissenschaftler, Januar 2017, Tscheko-See als möglicher Krater des Tunguska-Ereignisses vielleicht widerlegt, Entstehung vor über 280 Jahren. Zahlen sind nur ausgeschrieben. Das einleitende \"Nicht unbedingt\" ist eine belegfreie Reaktion. Es kommt keine zusätzliche Angabe hinzu."
+      }
+    }
+  ]
+}
