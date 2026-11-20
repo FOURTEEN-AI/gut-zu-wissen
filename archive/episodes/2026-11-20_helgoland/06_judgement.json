@@ -1,0 +1,702 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.62
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Faktenbehauptung. \"Heute sprechen wir über Helgoland\" ist eine Überleitung bzw. Themenansage. Die Frage nach Art und Lage des Ortes ist eine Bitte um Erklärung ohne neue Information. Ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "aussage_2": 0.99,
+        "aussage_3": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.31
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung, die belegt werden müsste. \"Das ist schon ein wilder Start\" ist eine spontane Reaktion, die Nachfrage nach dem weiteren Geschehen auf der Insel ist eine Bitte um Erklärung, und \"Ich bin wirklich neugierig\" ist ein Gefühl im Moment. Alles gilt als belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen stimmen mit den Fakt-Sätzen überein: Juni 1925, Werner Heisenberg, Helgoland, Abschluss der grundlegenden Arbeiten an der mathematischen Beschreibung der Quantenmechanik (0478) sowie der Rückzug auf die Insel wegen Heuschnupfens (0479). Die einleitende Wendung \"Zum Beispiel Physik\" ist eine Überleitung ohne eigene Behauptung."
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, Heisenberg habe seine Arbeiten auf der Insel abgeschlossen, folgt aus dem Fakt-Satz (Juni 1925, Helgoland, grundlegende Arbeiten zur Quantenmechanik). „Das ist ja kurios!“ ist eine Reaktion (Staunen). Die Frage nach anderen bekannten Gästen ist eine Nachfrage ohne neue Behauptung; ihre Prämisse (Heisenberg war ein bekannter Gast, der Spuren hinterließ) ist durch den Fakt gedeckt."
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Reise Hoffmanns auf die Insel (Helgoland), damals britische Kronkolonie [270086679-0006]; Ferienaufenthalt, Dichtung des Lieds der Deutschen am 26. August 1841, auf die 1797 von Haydn für den römisch-deutschen Kaiser komponierte Hymne [272085229-0350]. Die ausgeschriebenen Zahlen stimmen mit den Daten überein, und es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Die Behauptung, das Lied sei auf Helgoland entstanden, das damals britisch war, folgt aus [270086679-0006]. Die Frage, ob dort viel los war, ist eine Nachfrage ohne neue Information und gilt als belegfrei."
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "aussage_3": 0.98,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Schmuggelplatz seit Anfang 1808 und Hamburgs Überseehafen-Funktion (0286), bis zu 400 Schiffe täglich (0288), Verzehnfachung der Wohnhauspreise zwischen 1807 und 1810 (0301). Das einleitende „Und wie.“ ist eine Reaktion ohne Faktenbehauptung."
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung: „Das klingt nach wildem Treiben!“ ist eine Reaktion (Staunen) und „Wie ging es danach weiter mit der Insel?“ ist eine Nachfrage ohne neue Information oder faktische Prämisse. Fakt-IDs werden daher nicht benötigt."
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.62
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz fast wörtlich wieder: Aus Protokollgründen betrat Wilhelm II. die Insel erst am 10. August, weil ihm ein britisches Staatsoberhaupt als Gegenüber fehlte. Die Einordnung als „schöne Geschichte aus der Diplomatie“ ist eine Wertung ohne zusätzlichen Faktengehalt. Es kommen keine weiteren Angaben hinzu."
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Das ist ja amüsant“ ist eine Reaktion (Belustigung), und „Wurde es auf der Insel später auch einmal ernster?“ ist eine Nachfrage, deren Prämisse keine neue Information einführt. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.77
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Der Befehl vom 1. August, die Insel binnen zwölf Stunden zu verlassen, steht in 0453. Die allgemeine Annahme, der Krieg dauere nur wenige Wochen, und die Rückkehr erst 1918 stehen in 0455. Der Einstieg „Sehr ernst.“ ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung: „Das ist bitter.“ ist eine Reaktion (Gefühl im Moment) und „Gab es danach noch weitere große Einschnitte?“ ist eine Nachfrage. Die Frage setzt keine neue faktische Prämisse voraus, die belegt werden müsste, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.58
+      },
+      "jev_error": null,
+      "reason": "Datum (18. April 1947), Zerstörung der militärischen Bunkeranlagen der Insel, größte nichtnukleare Sprengung bis 1985, die Bezeichnung Operation Big Bang oder British Bang, 6700 Tonnen Sprengstoff und circa 3,2 Kilotonnen TNT-Äquivalent stehen alle in den zitierten Fakten. Das einleitende „Ja, einen gewaltigen“ ist eine Antwort, die durch die Größe der Sprengung gedeckt ist. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion (Staunen über das Ausmaß der Sprengung) und einer Nachfrage, ob die Insel die Sprengung überstehen konnte. Beides ist belegfrei. \"Dieses Ausmaß\" nimmt nur das Gesagte auf, die Prämisse der größten nicht-atomaren Explosion wird durch den zitierten Fakt gedeckt. Die Frage fügt keine neue Behauptung hinzu."
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.98,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.71
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, der poröse Sandstein habe die Insel vor dem Schlimmsten bewahrt, ist eine zulässige Zusammenfassung des Fakts: Er ließ die Druckwelle entweichen, sodass nur die Südspitze zerstört wurde. Die anschließende Frage ist eine Nachfrage ohne neue Tatsachenbehauptung."
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle Angaben stimmen mit dem Fakt-Satz überein: 1949, Helgoländer Loch, etwa 2,5 Seemeilen (ca. 4,6 km) südlich von Helgoland, bis zu zehn Tonnen Tabun, rund 90 Tonnen Giftgasgranaten, ca. 6000 Granaten. Die ausgeschriebenen Zahlen und die Umformulierung sind zulässig. Das einleitende „Ja“ ist eine belegfreie Reaktion. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.75
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Das ist beklemmend\" ist ein Gefühl im Moment, und \"Gab es in dieser Zeit auch heitere Ereignisse?\" ist eine Nachfrage ohne Faktenprämisse. Beides gilt als belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Alle Angaben im Redebeitrag (Datum 20. Dezember 1950, die beiden Heidelberger Studenten René Leudesdorff und Georg von Hatzfeld, zwei Nächte und ein Tag, die drei Flaggen für die Presse in unterschiedlichen Variationen) stimmen mit dem Fakt-Satz überein. Das einleitende \"Allerdings.\" ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.77
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur eine Reaktion (\"klingt nach einem mutigen Studentenstreich\" ist ein Eindruck im Moment, vorsichtig formuliert) und eine Nachfrage ohne neue Tatsachenbehauptung oder feste Prämisse. Ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.74
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen. Sprengung der Bunkeranlagen, Gleichsetzung der Insel mit Atlantis in den 1950er Jahren, Spanuths Aufnahme völkischer Ideen sowie seine Bekanntheit durch kontroverse Thesen, die die Fachwelt als wissenschaftlich nicht haltbar einstufte, stehen in den Fakten. Dass die Insel Helgoland ist, wird nicht behauptet. Der Einstieg „Eine ganz besondere“ ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.79
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, die Fachwelt halte Spanuths Atlantis-These nicht für haltbar, folgt aus [266510031-0001]. Die Prämisse der Frage, dass die Bunkeranlagen der Insel gesprengt wurden, folgt aus [272085229-0558]. Der Rest ist eine Nachfrage ohne Belegpflicht."
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung, sondern nur eine Reaktion (\"Spannend!\", Staunen/Neugier) und eine Nachfrage. Die Frage setzt keine Tatsache voraus, die belegt werden müsste, und ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen stehen im Fakt-Satz: Atombunker in den unteren zwei Stockwerken des Leuchtturms zur Zeit des Kalten Krieges, Scheinfenster nur aus ästhetischen Gründen. \"Ja, im Leuchtturm\" ist eine Antwort, die sich auf den Fakt stützt, und fügt nichts Neues hinzu."
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Das ist ja ein Ding!\" ist eine Reaktion (Staunen), und \"Wie steht es um die Touristen auf der Insel?\" ist eine Nachfrage ohne eigene faktische Prämisse. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen. Der „Fuselfelsen“-Satz entspricht Fakt 0746; „damals“ fehlt im Redebeitrag, das ist unproblematisch. „Für Helgoland und die Düne“ gibt „für beide Inseln“ aus Fakt 0013 wieder, die Aussagen zu Wirtschaftsgebiet, Zollgebiet und Verbrauchsteuern stimmen damit überein. „Auch rechtlich ist die Insel besonders“ ist eine Überleitung, die sich auf die Sonderregelungen stützt. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Verbot von Kraftfahrzeugverkehr und Radfahren seit 1971 nach § 50 StVO (0826) sowie zwei Fußgängerampeln auf der Düne, die vor landenden Flugzeugen warnen (0842). \"Trotzdem\" ist nur eine Überleitung und fügt keine neue Angabe hinzu."
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.67
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag enthält keine neue Tatsachenbehauptung. „Ampeln für Flugzeuge, wie originell!“ greift das eben Gesagte auf und drückt Belustigung oder Staunen aus. „Liegt die Insel eigentlich auf der Hohen See?“ ist eine reine Nachfrage und bringt keine neue Information ein. Fakt-IDs werden daher nicht benötigt."
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.39
+      },
+      "jev_error": null,
+      "reason": "Alle drei Aussagen folgen aus den Fakt-Sätzen: Der erste Satz entspricht 0021 (weder geografisch noch rechtlich Hohe See). Der zweite entspricht 0023 (seit 1995 überschneidet sich die 12-Meilen-Zone vor dem Festland oder den vorgelagerten Inseln mit der um Helgoland). Der dritte ist die Folgerung aus 0023 (kein internationales Gewässer trennt die Insel vom Festland). Es wird keine zusätzliche Angabe gemacht."
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.35
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion (Staunen: „Das überrascht mich!“) und einer Nachfrage, ob die Strecke zum Festland schon einmal ohne Boot bewältigt wurde. Beides ist belegfrei, und die Frage setzt nur voraus, dass es eine Strecke zwischen Insel und Festland gibt. Das ist mit dem Fakt-Satz vereinbar, der Helgoland und das Festland erwähnt. Es wird keine unbelegte Behauptung aufgestellt."
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Datum (21. August 2021), Person (André Wiersig), erster Mensch, Start St. Peter-Ording, Ziel Helgoland. Es gibt keine zusätzlichen Angaben; das einleitende „Ja“ ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Beeindruckend!\" ist eine Reaktion (Staunen), und die Frage nach dem Aussehen der Insel ist eine Nachfrage. Ihre Prämisse, dass es eine Insel mit einem Fels gibt, stammt aus dem Gesprächskontext und wird hier nicht als neue Information behauptet. Fakt-IDs werden daher nicht benötigt."
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.65
+      },
+      "jev_error": null,
+      "reason": "Die Aussage zu den nach oben zeigenden Schichten an der Westseite und den nach unten zeigenden Schichten an der Ostseite Helgolands steht wortgleich im Fakt-Satz 272085229-0099. „Interessant ist die Ordnung im Gestein“ ist eine Wertung ohne eigenen Faktengehalt, und es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.74
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag enthält keine neue Information. „Das ist wirklich ein ungewöhnlicher Aufbau“ ist ein Staunen im Moment, und die Frage nach weiteren Menschen auf der Insel ist eine Nachfrage. Beides gilt als belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.33
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Wirklich? Das hätte ich nicht erwartet.“ ist eine Reaktion (Staunen) bzw. eine Aussage über sich selbst, und die Frage nach der Natur auf Helgoland ist eine Nachfrage ohne faktische Prämisse. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.71
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: erfolgreiche Auspflanzversuche seit den 1980er Jahren mit Hanfpalmen, Honigpalmen und anderen Palmen sowie Lorbeer, Yucca, Cordyline und Steineiche, die auf dem deutschen Festland nicht oder nur bedingt winterhart sind. Der Eröffnungssatz \"Die Natur bietet Überraschungen\" ist eine belegfreie Reaktion bzw. Überleitung, und es wird keine zusätzliche Angabe gemacht."
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.34
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag enthält keine neue Information. „Palmen in der Nordsee, das hätte ich nie gedacht!“ ist Staunen und greift das eben Gesagte wieder auf, dazu eine Aussage über die eigene Erwartung. „Wie ist es am Strand, wenn man baden will?“ ist eine Nachfrage. Fakt-IDs sind deshalb nicht nötig."
+    },
+    {
+      "turn_index": 41,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "aussage_2": 0.98,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 42,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.75
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Faktenbehauptung. Die erste Aussage ist eine wertende Reaktion im Moment (Überleitung/Wiederaufgreifen), die zweite eine Nachfrage. Die Frage setzt keine belegpflichtige Prämisse voraus, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 43,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Datum (23. Februar 1967), Orkaneinsatz, Seenotrettungskreuzer Adolph Bermpohl, Verlust der gesamten Besatzung und drei gerettete Schiffbrüchige entsprechen dem Fakt-Satz; das einleitende „Ja“ ist eine Reaktion ohne Belegpflicht."
+    },
+    {
+      "turn_index": 44,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer emotionalen Reaktion („Das ist traurig.“) und einer Nachfrage zu Seeräuberlegenden um Helgoland. Er enthält keine neue Tatsachenbehauptung und braucht deshalb keine Fakt-IDs."
+    },
+    {
+      "turn_index": 45,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.69
+      },
+      "jev_error": null,
+      "reason": "Die Aussagen stimmen mit dem Fakt-Satz überein: Ein Aufenthalt Störtebekers auf der Insel ist nicht nachweisbar, und er soll 1401 bei Helgoland gefangen worden sein. Die ausgeschriebene Jahreszahl ist zulässig. Der Einleitungssatz \"Eine, bei der es Zweifel gibt\" ist eine Überleitung ohne neue Information."
+    },
+    {
+      "turn_index": 46,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.8
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Faktenbehauptung. \"Schade, dass sich das nicht belegen lässt\" ist eine Reaktion bzw. ein Gefühl im Moment und greift das eben Gesagte ohne neue Information wieder auf. \"Gibt es noch Kuriositäten in der Verwaltung oder bei der Technik?\" ist eine Nachfrage ohne faktische Prämisse. Ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 47,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.93,
+        "vollstaendig": 0.72
+      },
+      "jev_error": null,
+      "reason": "Beide Behauptungen stimmen mit den zitierten Fakt-Sätzen überein: Die Kirchengemeinde gehört zum Kirchenkreis Dithmarschen, die Kommunalgemeinde zum Kreis Pinneberg. Der Anschluss am 30. November 2009 als letzte deutsche Gemeinde ans europäische Verbundnetz ist ebenfalls belegt. „Gleich zwei“ ist eine belegfreie Überleitung, es kommen keine zusätzlichen Angaben hinzu."
+    },
+    {
+      "turn_index": 48,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "aussage_2": 0.98,
+        "aussage_3": 0.99,
+        "aussage_4": 0.99,
+        "aussage_5": 0.91,
+        "aussage_6": 0.98,
+        "aussage_7": 0.99,
+        "aussage_8": 0.98,
+        "aussage_9": 0.96,
+        "vollstaendig": 0.76
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den zitierten Fakten: Lage in der Deutschen Bucht, Zerbrechen in der Neujahrsflut 1721, Heisenbergs Abschluss seiner Quantenmechanik, Hoffmanns Lied der Deutschen, Schmuggelplatz, Sprengung der Bunker 1947 durch die Briten, der poröse Sandstein, der die Druckwelle entweichen ließ, das Verbot von Kraftfahrzeugen und Radfahren, die steuer- und zollrechtlichen Sonderregelungen, Robben am Dünenstrand und erfolgreich ausgepflanzte Palmen. Die Formulierung 'bewahrte vor dem Schlimmsten' ist eine zulässige Zusammenfassung."
+    }
+  ],
+  "used_fact_ids": [
+    "272085229-0008",
+    "272085229-0009",
+    "272085229-0478",
+    "272085229-0479",
+    "270086679-0006",
+    "272085229-0350",
+    "272085229-0286",
+    "272085229-0288",
+    "272085229-0301",
+    "272085229-0409",
+    "272085229-0453",
+    "272085229-0455",
+    "272085229-0558",
+    "272091002-0001",
+    "272091002-0003",
+    "272091002-0004",
+    "272085229-0561",
+    "272085229-0567",
+    "272085229-0194",
+    "266510031-0001",
+    "272085229-0583",
+    "272085229-0696",
+    "272085229-0746",
+    "272085229-0013",
+    "272085229-0826",
+    "272085229-0842",
+    "272085229-0021",
+    "272085229-0023",
+    "272085229-0730",
+    "272085229-0099",
+    "272085229-0942",
+    "272085229-0058",
+    "272085229-0744",
+    "272085229-0447",
+    "272085229-0896",
+    "272085229-0245",
+    "272085229-0669",
+    "272085229-0785"
+  ],
+  "cascade_checks": [
+    {
+      "conversation": 1,
+      "turn_index": 23,
+      "p": 0.88,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung ist wörtlich identisch mit der vorherigen. Beide Aussagen stehen unverändert darin: die Gründung der Wiederaufbaukommission im Frühjahr 1952 und der von ihr organisierte Architekturwettbewerb mit 122 beteiligten Architekturbüros."
+    },
+    {
+      "conversation": 1,
+      "turn_index": 25,
+      "p": 0.9,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Beide Aussagen sind unverändert enthalten: Der Atombunker wurde zur Zeit des Kalten Krieges in den unteren zwei Stockwerken des Leuchtturms eingebaut, und die Scheinfenster dort (\"dort\" statt \"in diesen Stockwerken\") wurden nur aus ästhetischen Gründen angebracht. Es gibt nur eine sprachliche Kürzung."
+    }
+  ],
+  "conversation": 1,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 22,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 22,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.36
+        },
+        "jev_error": null,
+        "reason": "Die Aussage \"Atlantis hat sich also nicht bestätigt\" geht über den Fakt hinaus: Dieser sagt nur, dass Spanuths Thesen zur Atlantis-Legende in der Fachwelt als wissenschaftlich nicht haltbar gelten. Außerdem setzt die Frage voraus, dass es einen \"Aufbau der Insel\" gab, der nach der Sprengung weiterging. Belegt ist nur die Sprengung der Bunkeranlagen am 18. April 1947, nicht ein Aufbau."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 23,
+      "version": 0,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 23,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 24,
+      "version": 0,
+      "replaced_by": 2,
+      "judgement": {
+        "turn_index": 24,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.78
+        },
+        "jev_error": null,
+        "reason": "Die Frage \"Gibt es auf der Insel auch Bauwerke mit Überraschungen?\" setzt voraus, dass es eine bestimmte Insel gibt, über die gesprochen wird. Das ist eine Prämisse, die nicht aus Fakt-Sätzen folgt, denn es sind keine zitiert. Das einleitende \"Spannend!\" ist eine belegfreie Reaktion und unproblematisch. Die Prämisse in der Frage ist aber nicht belegt, daher wird der Beitrag abgelehnt."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 25,
+      "version": 0,
+      "replaced_by": 3,
+      "judgement": {
+        "turn_index": 25,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.82
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz [272085229-0696] inhaltlich korrekt wieder: Atombunker in den unteren zwei Stockwerken zur Zeit des Kalten Krieges, Scheinfenster nur aus ästhetischen Gründen. Das einleitende „Ja, im Leuchtturm“ ist eine belegfreie Reaktion bzw. Überleitung. Es gibt keine zusätzlichen Angaben."
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Seehafen",
+  "revid": 271299590,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-13T10:53:19Z",
+  "fetched_at": "2026-11-20T12:42:23Z",
+  "categories": [
+    "Kategorie:Seehafen",
+    "Kategorie:Wikipedia:Belege fehlen"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|behandelt das Verkehrsbauwerk. Siehe auch: [[Seahaven]].}}\n[[Datei:Container-Terminal-Altenwerder-CTA-2004.jpg|mini|[[Hamburger Hafen]]: [[Containerterminal Altenwerder]] (2004)]]\nEin '''Seehafen''' ist ein [[Hafen]], der von [[Seeschiff]]en angelaufen werden kann. Seehäfen können an der Küste, an [[Fluss|Flüssen]] und/oder an [[Kanal (Wasserbau)|Kanälen]] liegen.\n\nWenn sie in einer Region mit [[Gezeiten]] liegen, sind sie als '''Tidehafen''' (zum Meer hin offen) oder als '''Dockhafen''' (Hafenbecken vom Meer durch [[Schleuse]]n oder [[Sperrwerk (Wasserbau)|Sperrwerk]] abgetrennt) angelegt. Seehäfen sind mit Ladeanlagen, z.&nbsp;B. [[RoRo-Schiff|RoRo]]-Anlagen, [[Kran]]e für [[ISO-Container|Container-]] oder [[Stückgut]]-[[Umschlag (Logistik)|Umschlag]] oder Löschanlagen für [[Erdöl]] oder Gas sowie mit Lagerflächen ausgestattet und bieten Anschluss an andere Verkehrsmittel ([[Intermodaler Verkehr]]: [[Eisenbahn]], [[Lkw]]) oder an die [[Binnenschifffahrt]].",
+  "segments": [
+    {
+      "id": "271299590-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein '''Seehafen''' ist ein [[Hafen]], der von [[Seeschiff]]en angelaufen werden kann.",
+      "plain": null
+    },
+    {
+      "id": "271299590-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Seehäfen können an der Küste, an [[Fluss|Flüssen]] und/oder an [[Kanal (Wasserbau)|Kanälen]] liegen.",
+      "plain": null
+    },
+    {
+      "id": "271299590-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Wenn sie in einer Region mit [[Gezeiten]] liegen, sind sie als '''Tidehafen''' (zum Meer hin offen) oder als '''Dockhafen''' (Hafenbecken vom Meer durch [[Schleuse]]n oder [[Sperrwerk (Wasserbau)|Sperrwerk]] abgetrennt) angelegt.",
+      "plain": null
+    },
+    {
+      "id": "271299590-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Seehäfen sind mit Ladeanlagen, z.&nbsp;B. [[RoRo-Schiff|RoRo]]-Anlagen, [[Kran]]e für [[ISO-Container|Container-]] oder [[Stückgut]]-[[Umschlag (Logistik)|Umschlag]] oder Löschanlagen für [[Erdöl]] oder Gas sowie mit Lagerflächen ausgestattet und bieten Anschluss an andere Verkehrsmittel ([[Intermodaler Verkehr]]: [[Eisenbahn]], [[Lkw]]) oder an die [[Binnenschifffahrt]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271299590,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271299590-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271299590-0001"
+        ],
+        "plain": "Wenn sie in einer Region mit Gezeiten liegen, sind sie als Tidehafen (zum Meer hin offen) oder als Dockhafen (Hafenbecken vom Meer durch Schleusen oder Sperrwerk abgetrennt) angelegt.",
+        "context_plain": [
+          "Seehäfen können an der Küste, an Flüssen und/oder an Kanälen liegen."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "title": "Hymne",
+  "revid": 263310249,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-01-13T19:46:05Z",
+  "fetched_at": "2026-11-20T12:42:23Z",
+  "categories": [
+    "Kategorie:Hymne",
+    "Kategorie:Liedgattung"
+  ],
+  "intro_wikitext": "{{Weiterleitungshinweis|Hymnus|Zu weiteren Bedeutungen siehe [[Hymnos]].}}\nEin '''Hymnus''' ({{grcS|ὕμνος|''hýmnos''|de=Tongefüge}}, {{laS|hymnus}}) oder eine '''Hymne''' (femininum, sekundär aus dem Plural ''Hymnen'' entstanden)<ref>[https://www.dwds.de/wb/Hymne ''Hymne'']. In: Wolfgang Pfeifer et al.: ''Etymologisches Wörterbuch des Deutschen'' (1993), digitalisierte und von Wolfgang Pfeifer überarbeitete Version im Digitalen Wörterbuch der deutschen Sprache, abgerufen am 19. Januar 2020.</ref> war in der [[Musik der griechischen Antike]] ursprünglich ein feierlicher Preis- und Lobgesang, der sich an die Götter richtete. Im Frühmittelalter wurde der Begriff als [[Lehnwort]] ins Lateinische übernommen und erhielt in der christlichen Kirchenmusik die feste Bedeutung „Lob Gottes mit Gesang“ bzw. „Gesang mit Lob Gottes“. Daraus entstand die [[Hymne (Gedichtform)|Hymne als Gedichtform]] als geistliches Lied oder religiöses, lyrisches Gedicht (im Unterschied zur epischen, didaktischen und profanen Dichtung).<ref>Clemens Blume: ''Hymnus.'' In: [[Michael Buchberger]] (Hrsg.): ''Kirchliches Handlexikon. Ein Nachschlagebuch über das Gesamtgebiet der Theologie und ihrer Hilfswissenschaften.'' Band 1: ''A–H.'' Allgemeine Verlags-Gesellschaft, München 1907, Sp. 2064 f.</ref> Hymnen sind Ausdruck hoher Begeisterung und Verehrung.\n\nIn der [[Hymnologie]] werden geistliche Hymnen und andere [[Geistliches Lied|Kirchenlieder]] erforscht.<ref>Duden online: [https://www.duden.de/rechtschreibung/Hymnologie ''Hymnologie'']</ref> Es werden zudem liturgische, außerliturgische und griechische (bzw. syrische) Hymnen unterschieden.<ref>Clemens Blume: ''Hymnus.'' 1907.</ref> Außerdem steht ''Hymne'' kurz für eine [[Nationalhymne]] oder ähnliche Gesänge.<ref>Duden online: [https://www.duden.de/rechtschreibung/Nationalhymne ''Nationalhymne'']</ref>",
+  "segments": [
+    {
+      "id": "263310249-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein '''Hymnus''' ({{grcS|ὕμνος|''hýmnos''|de=Tongefüge}}, {{laS|hymnus}}) oder eine '''Hymne''' (femininum, sekundär aus dem Plural ''Hymnen'' entstanden)<ref>[https://www.dwds.de/wb/Hymne ''Hymne'']. In: Wolfgang Pfeifer et al.: ''Etymologisches Wörterbuch des Deutschen'' (1993), digitalisierte und von Wolfgang Pfeifer überarbeitete Version im Digitalen Wörterbuch der deutschen Sprache, abgerufen am 19. Januar 2020.</ref> war in der [[Musik der griechischen Antike]] ursprünglich ein feierlicher Preis- und Lobgesang, der sich an die Götter richtete.",
+      "plain": null
+    },
+    {
+      "id": "263310249-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Frühmittelalter wurde der Begriff als [[Lehnwort]] ins Lateinische übernommen und erhielt in der christlichen Kirchenmusik die feste Bedeutung „Lob Gottes mit Gesang“ bzw. „Gesang mit Lob Gottes“.",
+      "plain": null
+    },
+    {
+      "id": "263310249-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Daraus entstand die [[Hymne (Gedichtform)|Hymne als Gedichtform]] als geistliches Lied oder religiöses, lyrisches Gedicht (im Unterschied zur epischen, didaktischen und profanen Dichtung).<ref>Clemens Blume: ''Hymnus.'' In: [[Michael Buchberger]] (Hrsg.): ''Kirchliches Handlexikon. Ein Nachschlagebuch über das Gesamtgebiet der Theologie und ihrer Hilfswissenschaften.'' Band 1: ''A–H.'' Allgemeine Verlags-Gesellschaft, München 1907, Sp. 2064 f.</ref>",
+      "plain": null
+    },
+    {
+      "id": "263310249-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Hymnen sind Ausdruck hoher Begeisterung und Verehrung.",
+      "plain": null
+    },
+    {
+      "id": "263310249-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "In der [[Hymnologie]] werden geistliche Hymnen und andere [[Geistliches Lied|Kirchenlieder]] erforscht.<ref>Duden online: [https://www.duden.de/rechtschreibung/Hymnologie ''Hymnologie'']</ref>",
+      "plain": null
+    },
+    {
+      "id": "263310249-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es werden zudem liturgische, außerliturgische und griechische (bzw. syrische) Hymnen unterschieden.<ref>Clemens Blume: ''Hymnus.'' 1907.</ref>",
+      "plain": null
+    },
+    {
+      "id": "263310249-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Außerdem steht ''Hymne'' kurz für eine [[Nationalhymne]] oder ähnliche Gesänge.<ref>Duden online: [https://www.duden.de/rechtschreibung/Nationalhymne ''Nationalhymne'']</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 263310249,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "263310249-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Ein Hymnus (altgriechisch ὕμνος hýmnos, deutsch ‚Tongefüge‘, lateinisch hymnus) oder eine Hymne (femininum, sekundär aus dem Plural Hymnen entstanden) war in der Musik der griechischen Antike ursprünglich ein feierlicher Preis- und Lobgesang, der sich an die Götter richtete.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "263310249-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "263310249-0000"
+        ],
+        "plain": "Im Frühmittelalter wurde der Begriff als Lehnwort ins Lateinische übernommen und erhielt in der christlichen Kirchenmusik die feste Bedeutung „Lob Gottes mit Gesang“ bzw. „Gesang mit Lob Gottes“.",
+        "context_plain": [
+          "Ein Hymnus (altgriechisch ὕμνος hýmnos, deutsch ‚Tongefüge‘, lateinisch hymnus) oder eine Hymne (femininum, sekundär aus dem Plural Hymnen entstanden) war in der Musik der griechischen Antike ursprünglich ein feierlicher Preis- und Lobgesang, der sich an die Götter richtete."
+        ]
+      },
+      {
+        "segment_id": "263310249-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "263310249-0001"
+        ],
+        "plain": "Daraus entstand die Hymne als Gedichtform als geistliches Lied oder religiöses, lyrisches Gedicht (im Unterschied zur epischen, didaktischen und profanen Dichtung).",
+        "context_plain": [
+          "Im Frühmittelalter wurde der Begriff als Lehnwort ins Lateinische übernommen und erhielt in der christlichen Kirchenmusik die feste Bedeutung „Lob Gottes mit Gesang“ bzw. „Gesang mit Lob Gottes“."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

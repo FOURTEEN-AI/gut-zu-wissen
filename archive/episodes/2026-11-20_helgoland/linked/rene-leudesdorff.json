@@ -1,0 +1,54 @@
+{
+  "title": "René Leudesdorff",
+  "revid": 270393785,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-11T08:22:50Z",
+  "fetched_at": "2026-11-20T12:42:23Z",
+  "categories": [
+    "Kategorie:Autor",
+    "Kategorie:Deutscher",
+    "Kategorie:Evangelischer Geistlicher (20. Jahrhundert)",
+    "Kategorie:Geboren 1928",
+    "Kategorie:Gestorben 2012",
+    "Kategorie:Mann",
+    "Kategorie:Person (Helgoland)",
+    "Kategorie:Person des Christentums (Osnabrück)",
+    "Kategorie:Träger des Bundesverdienstkreuzes 1. Klasse"
+  ],
+  "intro_wikitext": "[[Datei:Helgoland 24102009033.jpg|mini|René Leudesdorff 2009]]\n'''René Leudesdorff''' (* [[18. Februar]] [[1928]] in [[Berlin]]; † [[5. Juni]] [[2012]] in [[Flensburg]])<ref>dpa/lno: ''[https://www.welt.de/newsticker/dpa_nt/regioline_nt/hamburgschleswigholstein_nt/article106423758/Ein-Befreier-von-Helgoland-Rene-Leudesdorff-gestorben.html Ein Befreier von Helgoland – René Leudesdorff gestorben]''. In: ''[[Welt online]]'', 6. Juni 2012.</ref> war ein [[Deutschland|deutscher]] [[evangelische Kirche|evangelischer]] [[Geistlicher]] und [[Autor]]. Er war einer der beiden Studenten, die 1950 die Insel [[Helgoland]] besetzten.",
+  "segments": [
+    {
+      "id": "270393785-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''René Leudesdorff''' (* [[18. Februar]] [[1928]] in [[Berlin]]; † [[5. Juni]] [[2012]] in [[Flensburg]])<ref>dpa/lno: ''[https://www.welt.de/newsticker/dpa_nt/regioline_nt/hamburgschleswigholstein_nt/article106423758/Ein-Befreier-von-Helgoland-Rene-Leudesdorff-gestorben.html Ein Befreier von Helgoland – René Leudesdorff gestorben]''. In: ''[[Welt online]]'', 6. Juni 2012.</ref> war ein [[Deutschland|deutscher]] [[evangelische Kirche|evangelischer]] [[Geistlicher]] und [[Autor]].",
+      "plain": null
+    },
+    {
+      "id": "270393785-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er war einer der beiden Studenten, die 1950 die Insel [[Helgoland]] besetzten.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270393785,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270393785-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270393785-0000"
+        ],
+        "plain": "Er war einer der beiden Studenten, die 1950 die Insel Helgoland besetzten.",
+        "context_plain": [
+          "René Leudesdorff (* 18. Februar 1928 in Berlin; † 5. Juni 2012 in Flensburg) war ein deutscher evangelischer Geistlicher und Autor."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

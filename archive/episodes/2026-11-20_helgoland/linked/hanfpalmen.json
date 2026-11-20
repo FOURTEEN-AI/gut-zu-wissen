@@ -1,0 +1,75 @@
+{
+  "title": "Hanfpalmen",
+  "revid": 253217995,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-02-11T10:19:54Z",
+  "fetched_at": "2026-11-20T12:42:23Z",
+  "categories": [
+    "Kategorie:Palmengewächse"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe bitte [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name       = Hanfpalmen\n| Taxon_WissName   = Trachycarpus\n| Taxon_Rang       = Gattung\n| Taxon_Autor      = [[Hermann Wendland|H.Wendl.]]\n| Taxon2_Name      = Palmengewächse\n| Taxon2_WissName  = Arecaceae\n| Taxon2_Rang      = Familie\n| Taxon3_Name      = Palmenartige\n| Taxon3_WissName  = Arecales\n| Taxon3_Rang      = Ordnung\n| Taxon4_Name      = Commeliniden\n| Taxon4_Rang      = ohne\n| Taxon5_Name      = Monokotyledonen\n| Taxon5_Rang      = ohne\n| Taxon6_Name      = Bedecktsamer\n| Taxon6_WissName  = Magnoliopsida\n| Taxon6_Rang      = Klasse\n| Bild             = TrachycarpusFortunei.jpg\n| Bildbeschreibung = [[Chinesische Hanfpalme]] (''Trachycarpus fortunei'')\n}}\n\nDie '''Hanfpalmen''' (''Trachycarpus'') sind eine in Asien heimische [[Palmengewächse|Palmengattung]]. Einige Arten dieser [[Fächerpalme]]n sind beliebte Zierpflanzen.",
+  "segments": [
+    {
+      "id": "253217995-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon6_Name      = Bedecktsamer | Taxon6_WissName  = Magnoliopsida",
+      "plain": "Taxobox – Systematik – Klasse: Bedecktsamer (Magnoliopsida)"
+    },
+    {
+      "id": "253217995-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_Name      = Monokotyledonen",
+      "plain": "Taxobox – Systematik – : Monokotyledonen"
+    },
+    {
+      "id": "253217995-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_Name      = Commeliniden",
+      "plain": "Taxobox – Systematik – : Commeliniden"
+    },
+    {
+      "id": "253217995-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon3_Name      = Palmenartige | Taxon3_WissName  = Arecales",
+      "plain": "Taxobox – Systematik – Ordnung: Palmenartige (Arecales)"
+    },
+    {
+      "id": "253217995-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_Name      = Palmengewächse | Taxon2_WissName  = Arecaceae",
+      "plain": "Taxobox – Systematik – Familie: Palmengewächse (Arecaceae)"
+    },
+    {
+      "id": "253217995-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name       = Hanfpalmen",
+      "plain": "Taxobox – Systematik – Gattung: Hanfpalmen"
+    },
+    {
+      "id": "253217995-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Hanfpalmen''' (''Trachycarpus'') sind eine in Asien heimische [[Palmengewächse|Palmengattung]].",
+      "plain": null
+    },
+    {
+      "id": "253217995-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Einige Arten dieser [[Fächerpalme]]n sind beliebte Zierpflanzen.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 253217995,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": []
+  }
+}

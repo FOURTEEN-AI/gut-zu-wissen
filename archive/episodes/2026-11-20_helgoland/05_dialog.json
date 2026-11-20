@@ -1,0 +1,1110 @@
+{
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "Felix",
+      "text": "Lena, heute sprechen wir über Helgoland. Was ist das eigentlich für ein Ort, und wo liegt er genau?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 1,
+      "speaker": "Lena",
+      "text": "Helgoland ist eine Insel im Bereich der Deutschen Bucht der Nordsee. Auf nordfriesisch heißt sie deät Lun, und das ist Helgoländer Friesisch für „das Land“. Englisch sagt man Heligoland. Die Insel war ursprünglich größer. In der Neujahrsflut des Jahres siebzehnhunderteinundzwanzig zerbrach sie. Seitdem gibt es die Nebeninsel, die man Düne nennt.",
+      "fact_ids": [
+        "272085229-0008",
+        "272085229-0009"
+      ],
+      "statements": [
+        {
+          "text": "Helgoland ist eine Insel im Bereich der Deutschen Bucht der Nordsee.",
+          "fact_ids": [
+            "272085229-0008"
+          ]
+        },
+        {
+          "text": "Auf nordfriesisch heißt sie deät Lun, das ist Helgoländer Friesisch für „das Land“, englisch heißt sie Heligoland.",
+          "fact_ids": [
+            "272085229-0008"
+          ]
+        },
+        {
+          "text": "Die Insel war ursprünglich größer und zerbrach in der Neujahrsflut 1721.",
+          "fact_ids": [
+            "272085229-0009"
+          ]
+        },
+        {
+          "text": "Seitdem existiert die Nebeninsel, die als Düne bezeichnet wird.",
+          "fact_ids": [
+            "272085229-0009"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "Felix",
+      "text": "Das ist schon ein wilder Start. Aber was ist auf dieser Insel danach noch alles passiert? Ich bin wirklich neugierig.",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 3,
+      "speaker": "Lena",
+      "text": "Zum Beispiel Physik. Im Juni neunzehnhundertfünfundzwanzig schloss der Physiker Werner Heisenberg auf Helgoland die grundlegenden Arbeiten an seiner mathematischen Beschreibung der Quantenmechanik ab. Er hatte sich wegen seines Heuschnupfens auf die Insel zurückgezogen.",
+      "fact_ids": [
+        "272085229-0478",
+        "272085229-0479"
+      ],
+      "statements": [
+        {
+          "text": "Im Juni 1925 schloss Werner Heisenberg auf Helgoland die grundlegenden Arbeiten an seiner mathematischen Beschreibung der Quantenmechanik ab.",
+          "fact_ids": [
+            "272085229-0478"
+          ]
+        },
+        {
+          "text": "Er hatte sich wegen seines Heuschnupfens auf die Insel zurückgezogen.",
+          "fact_ids": [
+            "272085229-0479"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "Felix",
+      "text": "Das ist ja kurios! Heisenberg hat seine Arbeiten also auf der Insel abgeschlossen. Haben noch andere bekannte Gäste dort Spuren hinterlassen?",
+      "fact_ids": [
+        "272085229-0478"
+      ],
+      "statements": [
+        {
+          "text": "Heisenberg schloss auf Helgoland grundlegende Arbeiten ab.",
+          "fact_ids": [
+            "272085229-0478"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "speaker": "Lena",
+      "text": "Ja, Hoffmann. Seine Reise führte ihn auf die Insel, die damals eine britische Kronkolonie war. Während eines Ferienaufenthalts dichtete er dort am sechsundzwanzigsten August achtzehnhunderteinundvierzig das Lied der Deutschen. Er schrieb es auf die Hymne, die Joseph Haydn siebzehnhundertsiebenundneunzig für den römisch-deutschen Kaiser komponiert hatte.",
+      "fact_ids": [
+        "270086679-0006",
+        "272085229-0350"
+      ],
+      "statements": [
+        {
+          "text": "Das Lied der Deutschen entstand auf einer Reise Hoffmanns auf die Insel Helgoland, die damals eine britische Kronkolonie war.",
+          "fact_ids": [
+            "270086679-0006"
+          ]
+        },
+        {
+          "text": "Hoffmann dichtete es während eines Ferienaufenthalts am 26. August 1841 auf die von Joseph Haydn 1797 komponierte Hymne für den römisch-deutschen Kaiser.",
+          "fact_ids": [
+            "272085229-0350"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "speaker": "Felix",
+      "text": "Das Lied der Deutschen entstand also auf einer Insel, die damals britisch war. War dort in dieser Zeit eigentlich viel los?",
+      "fact_ids": [
+        "270086679-0006"
+      ],
+      "statements": [
+        {
+          "text": "Das Lied der Deutschen entstand auf einer Insel, die damals eine britische Kronkolonie war.",
+          "fact_ids": [
+            "270086679-0006"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "speaker": "Lena",
+      "text": "Und wie. Seit Anfang achtzehnhundertacht entwickelte sich Helgoland zu einem lebhaften Schmuggelplatz. Die Insel übernahm gewissermaßen die Funktion Hamburgs als Überseehafen. Bis zu vierhundert Schiffe liefen täglich die Insel an. Zwischen achtzehnhundertsieben und achtzehnhundertzehn verzehnfachten sich außerdem die Preise für Wohnhäuser.",
+      "fact_ids": [
+        "272085229-0286",
+        "272085229-0288",
+        "272085229-0301"
+      ],
+      "statements": [
+        {
+          "text": "Helgoland entwickelte sich seit Anfang 1808 zu einem lebhaften Schmuggelplatz.",
+          "fact_ids": [
+            "272085229-0286"
+          ]
+        },
+        {
+          "text": "Die Insel übernahm gewissermaßen die Funktion Hamburgs als Überseehafen.",
+          "fact_ids": [
+            "272085229-0286"
+          ]
+        },
+        {
+          "text": "Bis zu 400 Schiffe liefen täglich die Insel an.",
+          "fact_ids": [
+            "272085229-0288"
+          ]
+        },
+        {
+          "text": "Zwischen 1807 und 1810 verzehnfachten sich die Preise für Wohnhäuser.",
+          "fact_ids": [
+            "272085229-0301"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "speaker": "Felix",
+      "text": "Das klingt nach wildem Treiben! Und wie ging es danach weiter mit der Insel?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 9,
+      "speaker": "Lena",
+      "text": "Da gibt es eine schöne Geschichte aus der Diplomatie. Aus Gründen des Protokolls betrat Kaiser Wilhelm II. die Insel erst am zehnten August. Zur direkten Übergabe fehlte ihm nämlich ein britisches Staatsoberhaupt als Gegenüber.",
+      "fact_ids": [
+        "272085229-0409"
+      ],
+      "statements": [
+        {
+          "text": "Aus Gründen des Protokolls betrat Kaiser Wilhelm II. die Insel erst am 10. August.",
+          "fact_ids": [
+            "272085229-0409"
+          ]
+        },
+        {
+          "text": "Zur direkten Übergabe fehlte ihm ein britisches Staatsoberhaupt als Gegenüber.",
+          "fact_ids": [
+            "272085229-0409"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "speaker": "Felix",
+      "text": "Das ist ja amüsant, woran so etwas hängen kann! Wurde es auf der Insel später auch einmal ernster?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 11,
+      "speaker": "Lena",
+      "text": "Sehr ernst. Am ersten August wurde den Helgoländern befohlen, die Insel binnen zwölf Stunden zu verlassen. Man nahm allgemein an, der Krieg werde nur wenige Wochen dauern. Tatsächlich konnten die Helgoländer erst neunzehnhundertachtzehn wieder zurückkehren.",
+      "fact_ids": [
+        "272085229-0453",
+        "272085229-0455"
+      ],
+      "statements": [
+        {
+          "text": "Am 1. August wurde den Helgoländern befohlen, die Insel binnen zwölf Stunden zu verlassen.",
+          "fact_ids": [
+            "272085229-0453"
+          ]
+        },
+        {
+          "text": "Allgemein nahm man an, der Krieg werde nur wenige Wochen dauern.",
+          "fact_ids": [
+            "272085229-0455"
+          ]
+        },
+        {
+          "text": "Die Helgoländer konnten erst 1918 wieder zurückkehren.",
+          "fact_ids": [
+            "272085229-0455"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "speaker": "Felix",
+      "text": "Das ist bitter. Gab es danach noch weitere große Einschnitte?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 13,
+      "speaker": "Lena",
+      "text": "Ja, einen gewaltigen. Am achtzehnten April neunzehnhundertsiebenundvierzig zerstörten die Briten die militärischen Bunkeranlagen der Insel. Es war bis neunzehnhundertfünfundachtzig die größte nichtnukleare Sprengung der Geschichte. Die Briten nannten sie Operation Big Bang oder British Bang. Sie setzten dafür sechstausendsiebenhundert Tonnen Sprengstoff ein, mit einer Sprengkraft von ungefähr drei Komma zwei Kilotonnen TNT-Äquivalent.",
+      "fact_ids": [
+        "272085229-0558",
+        "272091002-0001"
+      ],
+      "statements": [
+        {
+          "text": "Am 18. April 1947 zerstörten die Briten die militärischen Bunkeranlagen der Insel mit der bis 1985 größten nichtnuklearen Sprengung der Geschichte.",
+          "fact_ids": [
+            "272085229-0558"
+          ]
+        },
+        {
+          "text": "Die Briten nannten die Sprengung Operation Big Bang oder British Bang.",
+          "fact_ids": [
+            "272091002-0001"
+          ]
+        },
+        {
+          "text": "Sie verwendeten 6700 Tonnen Sprengstoff mit einer Sprengkraft von circa 3,2 Kilotonnen TNT-Äquivalent.",
+          "fact_ids": [
+            "272091002-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "speaker": "Felix",
+      "text": "Eine Sprengung dieses Ausmaßes! Hätte die Insel das überhaupt überstehen können?",
+      "fact_ids": [
+        "272091002-0001"
+      ],
+      "statements": [
+        {
+          "text": "Die Sprengung war die bis dahin größte nicht-atomare, von Menschen gewollt erzeugte Explosion.",
+          "fact_ids": [
+            "272091002-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "speaker": "Lena",
+      "text": "Es erschien durch die enorme Menge an Sprengstoff sogar möglich, die gesamte Insel vollständig zu vernichten. Das war zwar nicht das Ziel der Aktion, wurde aber in Kauf genommen. Der Sandstein, aus dem die Insel besteht, ist allerdings porös und ließ die Druckwelle entweichen. Deshalb wurde nur die Südspitze zerstört. An der Nordspitze gab es erhebliche Schäden.",
+      "fact_ids": [
+        "272091002-0003",
+        "272091002-0004"
+      ],
+      "statements": [
+        {
+          "text": "Durch die enorme Menge an Sprengstoff erschien es möglich, die gesamte Insel zu vernichten; das war nicht das Ziel, wurde aber in Kauf genommen.",
+          "fact_ids": [
+            "272091002-0003"
+          ]
+        },
+        {
+          "text": "Der poröse Sandstein, aus dem die Insel besteht, ließ die Druckwelle entweichen.",
+          "fact_ids": [
+            "272091002-0004"
+          ]
+        },
+        {
+          "text": "Nur die Südspitze wurde zerstört, an der Nordspitze gab es erhebliche Schäden.",
+          "fact_ids": [
+            "272091002-0004"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "speaker": "Felix",
+      "text": "Der poröse Sandstein hat die Insel also vor dem Schlimmsten bewahrt. Gab es in dieser Zeit noch weitere gefährliche Hinterlassenschaften?",
+      "fact_ids": [
+        "272091002-0004"
+      ],
+      "statements": [
+        {
+          "text": "Der poröse Sandstein ließ die Druckwelle entweichen, sodass nur die Südspitze zerstört wurde.",
+          "fact_ids": [
+            "272091002-0004"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "speaker": "Lena",
+      "text": "Ja. Noch neunzehnhundertneunundvierzig wurden im Helgoländer Loch Granaten mit bis zu zehn Tonnen Tabun versenkt. Das Loch liegt etwa zweieinhalb Seemeilen südlich von Helgoland, ungefähr vier Komma sechs Kilometer entfernt. Es handelte sich um rund neunzig Tonnen Giftgasgranaten, das waren etwa sechstausend einzelne Granaten.",
+      "fact_ids": [
+        "272085229-0561"
+      ],
+      "statements": [
+        {
+          "text": "Noch 1949 wurden im Helgoländer Loch Granaten mit bis zu zehn Tonnen Tabun versenkt.",
+          "fact_ids": [
+            "272085229-0561"
+          ]
+        },
+        {
+          "text": "Das Helgoländer Loch liegt etwa 2,5 Seemeilen, ungefähr 4,6 Kilometer, südlich von Helgoland.",
+          "fact_ids": [
+            "272085229-0561"
+          ]
+        },
+        {
+          "text": "Es waren rund 90 Tonnen Giftgasgranaten, etwa 6000 einzelne Granaten.",
+          "fact_ids": [
+            "272085229-0561"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "speaker": "Felix",
+      "text": "Das ist beklemmend. Gab es in dieser Zeit auch heitere Ereignisse?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 19,
+      "speaker": "Lena",
+      "text": "Allerdings. Am zwanzigsten Dezember neunzehnhundertfünfzig besetzten die beiden Heidelberger Studenten René Leudesdorff und Georg von Hatzfeld für zwei Nächte und einen Tag die Insel. Für die Presse hissten sie die deutsche Flagge, die Flagge der Europäischen Bewegung und die Flagge Helgolands in unterschiedlichen Variationen.",
+      "fact_ids": [
+        "272085229-0567"
+      ],
+      "statements": [
+        {
+          "text": "Am 20. Dezember 1950 besetzten die Heidelberger Studenten René Leudesdorff und Georg von Hatzfeld für zwei Nächte und einen Tag die Insel.",
+          "fact_ids": [
+            "272085229-0567"
+          ]
+        },
+        {
+          "text": "Für die Presse hissten sie die deutsche Flagge, die Flagge der Europäischen Bewegung und die Flagge Helgolands in unterschiedlichen Variationen.",
+          "fact_ids": [
+            "272085229-0567"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "speaker": "Felix",
+      "text": "Das klingt nach einem mutigen Studentenstreich! Und gab es auch Ideen, die sich eher wie Legenden anhören?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 21,
+      "speaker": "Lena",
+      "text": "Eine ganz besondere. Nach der Sprengung der Bunkeranlagen wurde in den fünfziger Jahren die Insel mit Atlantis gleichgesetzt. Das tat Jürgen Spanuth in Aufnahme völkischer Ideen. Er erlangte Bekanntheit durch seine kontroversen Thesen zur Atlantis-Legende. Die Fachwelt stufte sie jedoch als wissenschaftlich nicht haltbar ein.",
+      "fact_ids": [
+        "272085229-0194",
+        "266510031-0001"
+      ],
+      "statements": [
+        {
+          "text": "Nach der Sprengung von Bunkeranlagen wurde in den 1950er Jahren von Jürgen Spanuth in Aufnahme völkischer Ideen die Insel mit Atlantis gleichgesetzt.",
+          "fact_ids": [
+            "272085229-0194"
+          ]
+        },
+        {
+          "text": "Spanuth erlangte Bekanntheit durch kontroverse Thesen zur Atlantis-Legende.",
+          "fact_ids": [
+            "266510031-0001"
+          ]
+        },
+        {
+          "text": "Die Fachwelt stufte diese Thesen als wissenschaftlich nicht haltbar ein.",
+          "fact_ids": [
+            "266510031-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "speaker": "Felix",
+      "text": "Spanuths Atlantis-These hält die Fachwelt also nicht für haltbar. Und wie ging es nach der Sprengung der Bunkeranlagen mit der Insel weiter?",
+      "fact_ids": [
+        "266510031-0001",
+        "272085229-0558"
+      ],
+      "statements": [
+        {
+          "text": "Spanuths Thesen zur Atlantis-Legende gelten in der Fachwelt als wissenschaftlich nicht haltbar.",
+          "fact_ids": [
+            "266510031-0001"
+          ]
+        },
+        {
+          "text": "Die Briten zerstörten am 18. April 1947 die militärischen Bunkeranlagen der Insel durch eine Sprengung.",
+          "fact_ids": [
+            "272085229-0558"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "speaker": "Lena",
+      "text": "Im Frühjahr neunzehnhundertzweiundfünfzig wurde eine Wiederaufbaukommission ins Leben gerufen. Sie organisierte einen Architekturwettbewerb. Daran beteiligten sich hundertzweiundzwanzig Architekturbüros.",
+      "fact_ids": [
+        "272085229-0583"
+      ],
+      "statements": [
+        {
+          "text": "Im Frühjahr 1952 wurde eine Wiederaufbaukommission ins Leben gerufen, die einen Architekturwettbewerb organisierte.",
+          "fact_ids": [
+            "272085229-0583"
+          ]
+        },
+        {
+          "text": "An dem Architekturwettbewerb beteiligten sich 122 Architekturbüros.",
+          "fact_ids": [
+            "272085229-0583"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "speaker": "Felix",
+      "text": "Spannend! Und gibt es ein Gebäude, in dem sich etwas Unerwartetes verbirgt?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 25,
+      "speaker": "Lena",
+      "text": "Ja, im Leuchtturm. In den unteren zwei Stockwerken wurde zur Zeit des Kalten Krieges ein Atombunker eingebaut. Die Scheinfenster dort brachte man nur aus ästhetischen Gründen an.",
+      "fact_ids": [
+        "272085229-0696"
+      ],
+      "statements": [
+        {
+          "text": "Im Leuchtturm wurde zur Zeit des Kalten Krieges in den unteren zwei Stockwerken ein Atombunker eingebaut.",
+          "fact_ids": [
+            "272085229-0696"
+          ]
+        },
+        {
+          "text": "Die Scheinfenster in diesen Stockwerken brachte man nur aus ästhetischen Gründen an.",
+          "fact_ids": [
+            "272085229-0696"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "speaker": "Felix",
+      "text": "Das ist ja ein Ding! Und wie steht es um die Touristen auf der Insel?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 27,
+      "speaker": "Lena",
+      "text": "Helgoland wurde mit dem abfälligen Spitznamen „Fuselfelsen“ bedacht, weil Touristen dort alkoholische Getränke zollfrei kaufen konnten. Auch rechtlich ist die Insel besonders. Für Helgoland und die Düne gelten steuerrechtliche Sonderregelungen. Die Gemeinde ist zwar Teil des deutschen Wirtschaftsgebietes, zählt aber weder zum Zollgebiet der Union, noch werden deutsche Verbrauchsteuern erhoben.",
+      "fact_ids": [
+        "272085229-0746",
+        "272085229-0013"
+      ],
+      "statements": [
+        {
+          "text": "Helgoland erhielt den abfälligen Spitznamen „Fuselfelsen“, weil Touristen dort alkoholische Getränke zollfrei kaufen konnten.",
+          "fact_ids": [
+            "272085229-0746"
+          ]
+        },
+        {
+          "text": "Für Helgoland und die Düne gelten steuerrechtliche Sonderregelungen.",
+          "fact_ids": [
+            "272085229-0013"
+          ]
+        },
+        {
+          "text": "Die Gemeinde ist Teil des deutschen Wirtschaftsgebietes, zählt aber nicht zum Zollgebiet der Union, und deutsche Verbrauchsteuern werden nicht erhoben.",
+          "fact_ids": [
+            "272085229-0013"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "speaker": "Felix",
+      "text": "Verständlich! Wie bewegt man sich denn auf so einer Insel fort?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 29,
+      "speaker": "Lena",
+      "text": "Seit neunzehnhunderteinundsiebzig sind auf der Insel gemäß Paragraf fünfzig der Straßenverkehrsordnung der Verkehr mit Kraftfahrzeugen und das Radfahren verboten. Trotzdem gibt es zwei Fußgängerampeln. Sie stehen auf der Düne und warnen vor landenden Flugzeugen.",
+      "fact_ids": [
+        "272085229-0826",
+        "272085229-0842"
+      ],
+      "statements": [
+        {
+          "text": "Auf der Insel Helgoland sind seit 1971 gemäß § 50 der StVO der Verkehr mit Kraftfahrzeugen und das Radfahren verboten.",
+          "fact_ids": [
+            "272085229-0826"
+          ]
+        },
+        {
+          "text": "Es gibt zwei Fußgängerampeln, die auf der Düne stehen und vor landenden Flugzeugen warnen.",
+          "fact_ids": [
+            "272085229-0842"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "speaker": "Felix",
+      "text": "Ampeln für Flugzeuge, wie originell! Liegt die Insel eigentlich auf der Hohen See?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 31,
+      "speaker": "Lena",
+      "text": "Weder im geografischen noch im rechtlichen Sinn liegt die Insel im Bereich der Hohen See. Seit neunzehnhundertfünfundneunzig überschneidet sich die Zwölf-Meilen-Zone vor dem Festland oder den vorgelagerten Inseln mit derjenigen um Helgoland. Deshalb trennt kein internationales Gewässer die Insel vom Festland.",
+      "fact_ids": [
+        "272085229-0021",
+        "272085229-0023"
+      ],
+      "statements": [
+        {
+          "text": "Weder geografisch noch rechtlich liegt die Insel im Bereich der Hohen See.",
+          "fact_ids": [
+            "272085229-0021"
+          ]
+        },
+        {
+          "text": "Die seit 1995 gültige 12-Meilen-Zone vor dem Festland oder den vorgelagerten Inseln überschneidet sich mit der um Helgoland.",
+          "fact_ids": [
+            "272085229-0023"
+          ]
+        },
+        {
+          "text": "Deshalb trennt kein internationales Gewässer die Insel vom Festland.",
+          "fact_ids": [
+            "272085229-0023"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "speaker": "Felix",
+      "text": "Das überrascht mich! Ist die Strecke zum Festland eigentlich schon einmal ohne Boot bewältigt worden?",
+      "fact_ids": [
+        "272085229-0023"
+      ],
+      "statements": [
+        {
+          "text": "Zwischen Helgoland und dem Festland liegt kein internationales Gewässer.",
+          "fact_ids": [
+            "272085229-0023"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "speaker": "Lena",
+      "text": "Ja. Am einundzwanzigsten August zweitausendeinundzwanzig schwamm André Wiersig als erster Mensch vom Festland, nämlich von St. Peter-Ording, nach Helgoland.",
+      "fact_ids": [
+        "272085229-0730"
+      ],
+      "statements": [
+        {
+          "text": "Am 21. August 2021 schwamm André Wiersig als erster Mensch vom Festland (St. Peter-Ording) nach Helgoland.",
+          "fact_ids": [
+            "272085229-0730"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "speaker": "Felix",
+      "text": "Beeindruckend! Und wie sieht die Insel selbst aus, wenn man auf den Fels schaut?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 35,
+      "speaker": "Lena",
+      "text": "Interessant ist die Ordnung im Gestein. An der Westseite Helgolands finden sich nach oben zeigende Schichten, während die Schichten an der Ostseite nach unten zeigen.",
+      "fact_ids": [
+        "272085229-0099"
+      ],
+      "statements": [
+        {
+          "text": "An der Westseite Helgolands finden sich nach oben zeigende Schichten.",
+          "fact_ids": [
+            "272085229-0099"
+          ]
+        },
+        {
+          "text": "An der Ostseite zeigen die Schichten nach unten.",
+          "fact_ids": [
+            "272085229-0099"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "speaker": "Felix",
+      "text": "Das ist wirklich ein ungewöhnlicher Aufbau. Und welche Menschen hat die Insel sonst noch angezogen?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 37,
+      "speaker": "Lena",
+      "text": "Gunther von Hagens war als Assistenzarzt im Inselkrankenhaus auf Helgoland tätig. Er ist bekannt durch die anatomischen Ausstellungen Körperwelten.",
+      "fact_ids": [
+        "272085229-0942"
+      ],
+      "statements": [
+        {
+          "text": "Gunther von Hagens war als Assistenzarzt im Inselkrankenhaus auf Helgoland tätig.",
+          "fact_ids": [
+            "272085229-0942"
+          ]
+        },
+        {
+          "text": "Er ist bekannt durch die anatomischen Ausstellungen Körperwelten.",
+          "fact_ids": [
+            "272085229-0942"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "speaker": "Felix",
+      "text": "Wirklich? Das hätte ich nicht erwartet. Wie ist es denn mit der Natur auf Helgoland?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 39,
+      "speaker": "Lena",
+      "text": "Die Natur bietet Überraschungen. Seit den achtziger Jahren sind Auspflanzversuche mit Hanfpalmen, Honigpalmen und anderen Palmen erfolgreich verlaufen. Das gilt auch für weitere subtropische Pflanzen wie Lorbeer, Yucca, Cordyline und Steineiche. Auf dem deutschen Festland sind diese Pflanzen nicht oder nur bedingt winterhart.",
+      "fact_ids": [
+        "272085229-0058"
+      ],
+      "statements": [
+        {
+          "text": "Auspflanzversuche mit Hanfpalmen, Honigpalmen und anderen Palmen sowie weiteren subtropischen Pflanzen wie Lorbeer, Yucca, Cordyline und Steineiche sind seit den 1980er Jahren erfolgreich verlaufen.",
+          "fact_ids": [
+            "272085229-0058"
+          ]
+        },
+        {
+          "text": "Diese Pflanzen sind auf dem deutschen Festland nicht oder nur bedingt winterhart.",
+          "fact_ids": [
+            "272085229-0058"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "speaker": "Felix",
+      "text": "Palmen in der Nordsee, das hätte ich nie gedacht! Und wie ist es am Strand, wenn man baden will?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 41,
+      "speaker": "Lena",
+      "text": "Auf der Düne teilen sich die Badegäste an manchen Tagen den Strand mit Seehunden und Kegelrobben. Die Tiere haben ihre Scheu gegenüber Menschen weitgehend abgelegt. Beim Baden selbst durften Männer und Frauen zusammen ins Wasser, allerdings nicht mehr nackt wie bis zum Ende der englischen Zeit.",
+      "fact_ids": [
+        "272085229-0744",
+        "272085229-0447"
+      ],
+      "statements": [
+        {
+          "text": "Auf der Düne teilen sich Badegäste an manchen Tagen den Strand mit Seehunden und Kegelrobben.",
+          "fact_ids": [
+            "272085229-0744"
+          ]
+        },
+        {
+          "text": "Die Robben haben ihre Scheu gegenüber Menschen weitgehend abgelegt.",
+          "fact_ids": [
+            "272085229-0744"
+          ]
+        },
+        {
+          "text": "Männer und Frauen konnten zusammen baden, allerdings nicht mehr nackt wie bis zum Ende der englischen Zeit.",
+          "fact_ids": [
+            "272085229-0447"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "speaker": "Felix",
+      "text": "Das klingt nach einem Strandurlaub der besonderen Art. Hatte die Insel auch tragische Seiten?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 43,
+      "speaker": "Lena",
+      "text": "Ja. Am dreiundzwanzigsten Februar neunzehnhundertsiebenundsechzig ging während eines Orkaneinsatzes des Seenotrettungskreuzers Adolph Bermpohl die gesamte Besatzung verloren, mit drei geretteten Schiffbrüchigen.",
+      "fact_ids": [
+        "272085229-0896"
+      ],
+      "statements": [
+        {
+          "text": "Am 23. Februar 1967 ging während eines Orkaneinsatzes des Seenotrettungskreuzers Adolph Bermpohl die gesamte Besatzung mit drei geretteten Schiffbrüchigen verloren.",
+          "fact_ids": [
+            "272085229-0896"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "speaker": "Felix",
+      "text": "Das ist traurig. Gibt es auch Seeräuberlegenden um Helgoland?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 45,
+      "speaker": "Lena",
+      "text": "Eine, bei der es Zweifel gibt. Ein Aufenthalt Klaus Störtebekers auf der Insel ist nicht nachweisbar. Er soll aber im Jahr vierzehnhunderteins bei Helgoland gefangen worden sein.",
+      "fact_ids": [
+        "272085229-0245"
+      ],
+      "statements": [
+        {
+          "text": "Ein Aufenthalt Klaus Störtebekers auf der Insel ist nicht nachweisbar.",
+          "fact_ids": [
+            "272085229-0245"
+          ]
+        },
+        {
+          "text": "Er soll 1401 bei Helgoland gefangen worden sein.",
+          "fact_ids": [
+            "272085229-0245"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "speaker": "Felix",
+      "text": "Schade, dass sich das nicht belegen lässt. Gibt es noch Kuriositäten in der Verwaltung oder bei der Technik?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 47,
+      "speaker": "Lena",
+      "text": "Gleich zwei. Die Kirchengemeinde ist Teil des Kirchenkreises Dithmarschen, obwohl die Kommunalgemeinde zum Kreis Pinneberg gehört. Und seit der Inbetriebnahme am dreißigsten November zweitausendneun ist Helgoland als letzte deutsche Gemeinde an das europäische Verbundnetz angeschlossen.",
+      "fact_ids": [
+        "272085229-0669",
+        "272085229-0785"
+      ],
+      "statements": [
+        {
+          "text": "Die Kirchengemeinde ist Teil des Kirchenkreises Dithmarschen, obwohl die Kommunalgemeinde zum Kreis Pinneberg gehört.",
+          "fact_ids": [
+            "272085229-0669"
+          ]
+        },
+        {
+          "text": "Seit der Inbetriebnahme am 30. November 2009 ist Helgoland als letzte deutsche Gemeinde an das europäische Verbundnetz angeschlossen.",
+          "fact_ids": [
+            "272085229-0785"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "speaker": "Felix",
+      "text": "Dann fasse ich zusammen. Helgoland ist eine Insel in der Deutschen Bucht, die in der Neujahrsflut siebzehnhunderteinundzwanzig zerbrach. Heisenberg vollendete dort seine Quantenmechanik, und Hoffmann dichtete dort das Lied der Deutschen. Zeitweise war die Insel ein Schmuggelplatz, 1947 sprengten die Briten die Bunker, und der poröse Sandstein bewahrte die Insel vor dem Schlimmsten. Bis heute gibt es auf der Insel ein Verbot für Kraftfahrzeuge und Räder, Sonderregeln beim Zoll und Robben am Strand der Düne. Und Palmen wachsen dort auch.",
+      "fact_ids": [
+        "272085229-0008",
+        "272085229-0009",
+        "272085229-0478",
+        "272085229-0350",
+        "272085229-0286",
+        "272085229-0558",
+        "272091002-0004",
+        "272085229-0826",
+        "272085229-0013",
+        "272085229-0744",
+        "272085229-0058"
+      ],
+      "statements": [
+        {
+          "text": "Helgoland ist eine Insel in der Deutschen Bucht, die in der Neujahrsflut 1721 zerbrach.",
+          "fact_ids": [
+            "272085229-0008",
+            "272085229-0009"
+          ]
+        },
+        {
+          "text": "Heisenberg schloss dort die grundlegenden Arbeiten an seiner Beschreibung der Quantenmechanik ab.",
+          "fact_ids": [
+            "272085229-0478"
+          ]
+        },
+        {
+          "text": "Hoffmann dichtete dort das Lied der Deutschen.",
+          "fact_ids": [
+            "272085229-0350"
+          ]
+        },
+        {
+          "text": "Die Insel entwickelte sich seit Anfang 1808 zu einem lebhaften Schmuggelplatz.",
+          "fact_ids": [
+            "272085229-0286"
+          ]
+        },
+        {
+          "text": "1947 zerstörten die Briten die Bunkeranlagen der Insel durch eine Sprengung.",
+          "fact_ids": [
+            "272085229-0558"
+          ]
+        },
+        {
+          "text": "Der poröse Sandstein ließ die Druckwelle entweichen, sodass nur die Südspitze zerstört wurde.",
+          "fact_ids": [
+            "272091002-0004"
+          ]
+        },
+        {
+          "text": "Auf der Insel sind Kraftfahrzeuge und Radfahren verboten.",
+          "fact_ids": [
+            "272085229-0826"
+          ]
+        },
+        {
+          "text": "Es gelten steuerrechtliche Sonderregelungen, und die Gemeinde zählt nicht zum Zollgebiet der Union.",
+          "fact_ids": [
+            "272085229-0013"
+          ]
+        },
+        {
+          "text": "Auf der Düne teilen sich Badegäste den Strand mit Seehunden und Kegelrobben.",
+          "fact_ids": [
+            "272085229-0744"
+          ]
+        },
+        {
+          "text": "Palmen und andere subtropische Pflanzen wachsen dort erfolgreich.",
+          "fact_ids": [
+            "272085229-0058"
+          ]
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "used_fact_ids": [
+    "272085229-0008",
+    "272085229-0009",
+    "272085229-0478",
+    "272085229-0479",
+    "270086679-0006",
+    "272085229-0350",
+    "272085229-0286",
+    "272085229-0288",
+    "272085229-0301",
+    "272085229-0409",
+    "272085229-0453",
+    "272085229-0455",
+    "272085229-0558",
+    "272091002-0001",
+    "272091002-0003",
+    "272091002-0004",
+    "272085229-0561",
+    "272085229-0567",
+    "272085229-0194",
+    "266510031-0001",
+    "272085229-0583",
+    "272085229-0696",
+    "272085229-0746",
+    "272085229-0013",
+    "272085229-0826",
+    "272085229-0842",
+    "272085229-0021",
+    "272085229-0023",
+    "272085229-0730",
+    "272085229-0099",
+    "272085229-0942",
+    "272085229-0058",
+    "272085229-0744",
+    "272085229-0447",
+    "272085229-0896",
+    "272085229-0245",
+    "272085229-0669",
+    "272085229-0785"
+  ],
+  "conversation": 1,
+  "regenerations": [
+    {
+      "conversation": 1,
+      "turn_index": 22,
+      "kind": "retry",
+      "reason": "Die Aussage \"Atlantis hat sich also nicht bestätigt\" geht über den Fakt hinaus: Dieser sagt nur, dass Spanuths Thesen zur Atlantis-Legende in der Fachwelt als wissenschaftlich nicht haltbar gelten. Außerdem setzt die Frage voraus, dass es einen \"Aufbau der Insel\" gab, der nach der Sprengung weiterging. Belegt ist nur die Sprengung der Bunkeranlagen am 18. April 1947, nicht ein Aufbau.",
+      "previous": {
+        "index": 22,
+        "speaker": "Felix",
+        "text": "Atlantis hat sich also nicht bestätigt. Wie ging es nach der Sprengung mit dem Aufbau der Insel weiter?",
+        "fact_ids": [
+          "266510031-0001",
+          "272085229-0558"
+        ],
+        "statements": [
+          {
+            "text": "Die Fachwelt hielt Spanuths Atlantis-Thesen für wissenschaftlich nicht haltbar.",
+            "fact_ids": [
+              "266510031-0001"
+            ]
+          },
+          {
+            "text": "Die Briten sprengten 1947 die militärischen Bunkeranlagen der Insel.",
+            "fact_ids": [
+              "272085229-0558"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 23,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 23,
+        "speaker": "Lena",
+        "text": "Im Frühjahr neunzehnhundertzweiundfünfzig wurde eine Wiederaufbaukommission ins Leben gerufen. Sie organisierte einen Architekturwettbewerb. Daran beteiligten sich hundertzweiundzwanzig Architekturbüros.",
+        "fact_ids": [
+          "272085229-0583"
+        ],
+        "statements": [
+          {
+            "text": "Im Frühjahr 1952 wurde eine Wiederaufbaukommission ins Leben gerufen.",
+            "fact_ids": [
+              "272085229-0583"
+            ]
+          },
+          {
+            "text": "Sie organisierte einen Architekturwettbewerb, an dem sich 122 Architekturbüros beteiligten.",
+            "fact_ids": [
+              "272085229-0583"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 24,
+      "kind": "retry",
+      "reason": "Die Frage \"Gibt es auf der Insel auch Bauwerke mit Überraschungen?\" setzt voraus, dass es eine bestimmte Insel gibt, über die gesprochen wird. Das ist eine Prämisse, die nicht aus Fakt-Sätzen folgt, denn es sind keine zitiert. Das einleitende \"Spannend!\" ist eine belegfreie Reaktion und unproblematisch. Die Prämisse in der Frage ist aber nicht belegt, daher wird der Beitrag abgelehnt.",
+      "previous": {
+        "index": 24,
+        "speaker": "Felix",
+        "text": "Spannend! Gibt es auf der Insel auch Bauwerke mit Überraschungen?",
+        "fact_ids": [],
+        "statements": []
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 25,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 25,
+        "speaker": "Lena",
+        "text": "Ja, im Leuchtturm. In den unteren zwei Stockwerken wurde zur Zeit des Kalten Krieges ein Atombunker eingebaut. Die Scheinfenster in diesen Stockwerken brachte man nur aus ästhetischen Gründen an.",
+        "fact_ids": [
+          "272085229-0696"
+        ],
+        "statements": [
+          {
+            "text": "In den unteren zwei Stockwerken des Leuchtturms wurde zur Zeit des Kalten Krieges ein Atombunker eingebaut.",
+            "fact_ids": [
+              "272085229-0696"
+            ]
+          },
+          {
+            "text": "Die Scheinfenster in diesen Stockwerken brachte man nur aus ästhetischen Gründen an.",
+            "fact_ids": [
+              "272085229-0696"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    }
+  ],
+  "discarded_conversations": [],
+  "aliases": {
+    "F1": "272085229-0008",
+    "F2": "272085229-0009",
+    "F3": "272085229-0478",
+    "F4": "272085229-0479",
+    "F5": "272085229-0350",
+    "F6": "272085229-0558",
+    "F7": "272085229-0561",
+    "F8": "272085229-0567",
+    "F9": "272085229-0409",
+    "F10": "272085229-0842",
+    "F11": "272085229-0826",
+    "F12": "272085229-0384",
+    "F13": "272085229-0194",
+    "F14": "272085229-0286",
+    "F15": "272085229-0288",
+    "F16": "272085229-0301",
+    "F17": "272085229-0453",
+    "F18": "272085229-0455",
+    "F19": "272085229-0021",
+    "F20": "272085229-0023",
+    "F21": "272085229-0252",
+    "F22": "272085229-0058",
+    "F23": "272085229-0277",
+    "F24": "272085229-0094",
+    "F25": "272085229-0099",
+    "F26": "272085229-0942",
+    "F27": "272085229-0447",
+    "F28": "272085229-0785",
+    "F29": "272085229-0245",
+    "F30": "272085229-0896",
+    "F31": "272085229-0422",
+    "F32": "272085229-0868",
+    "F33": "272085229-0744",
+    "F34": "272085229-0730",
+    "F35": "272085229-0669",
+    "F36": "272085229-0013",
+    "F37": "272085229-0583",
+    "F38": "272085229-0696",
+    "F39": "272085229-0746",
+    "F40": "272091002-0003",
+    "F41": "272091002-0001",
+    "F42": "270393785-0001",
+    "F43": "272091002-0004",
+    "F44": "270086679-0006",
+    "F45": "266510031-0001"
+  }
+}

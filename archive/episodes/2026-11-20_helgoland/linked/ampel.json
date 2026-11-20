@@ -1,0 +1,70 @@
+{
+  "title": "Ampel",
+  "revid": 272310346,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-20T03:01:57Z",
+  "fetched_at": "2026-11-20T12:42:23Z",
+  "categories": [
+    "Kategorie:Akustisches Signalgerät",
+    "Kategorie:Ampel",
+    "Kategorie:Verkehrszeichen",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2024-07",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2026-07",
+    "Kategorie:Wikipedia:Gesprochener Artikel",
+    "Kategorie:Wikipedia:Lesenswert",
+    "Kategorie:Wikipedia:Weblink offline"
+  ],
+  "intro_wikitext": "{{Begriffsklärungshinweis}}\n[[Datei:Led traffic lights.jpg|mini|alt=Leuchtdiodenampel in Örnsköldsvik, Schweden|Schwedischer Lichtsignalgeber]]\n{{Mehrere Bilder\n|Bild1=Ampelmann rot.jpg\n|Bild2=Ampelmann gruen.jpg\n|Breite=100\n|Fußzeile=Fußgängerampel mit [[Ost-Ampelmännchen|Ampelmännchen]] (Ostdeutschland, 2005)\n}}\n\n[[Datei:Bundesarchiv Bild 102-01702, Berlin, Ampel am Potsdamer Platz.jpg|mini|hochkant|[[Verkehrsturm am Potsdamer Platz]] in [[Berlin]] mit der ersten Ampelanlage Deutschlands, in Betrieb genommen im Dezember 1924]]\n[[Datei:Zeichen 131 - Lichtzeichenanlage, StVO 1970.svg|mini|hochkant|Zeichen 131 der StVO – Lichtzeichenanlage (Deutschland)]]\n\n'''Ampel''' (von {{laS|ampulla}} „kleine Flasche [speziell für Salben und Öle]“,<ref>''Ampel.'' In: Karl Ernst Georges: ''Ausführliches lateinisch-deutsches Handwörterbuch.'' ([http://www.zeno.org/nid/2000221105X zeno.org]).</ref> spätere übertragene Bedeutung „Leuchte“<ref>{{Deutsches Wörterbuch |Lemma=Ampel |Band=1 |Sp=279 |lemid=A03199 }}</ref>) ist die allgemeinsprachliche Bezeichnung für einen ''Signalgeber'' einer '''Lichtsignalanlage''' (LSA) oder '''Lichtzeichenanlage''' (LZA). Die Bezeichnung steht zudem für die „Ampelanlage“ als Ganzes. Diese dient der Steuerung des [[Straßenverkehr|Straßen- und]] [[Schienenverkehr]]s. Ampeln ordnen für [[Verkehrsteilnehmer]] ein bestimmtes Verhalten an, indem sie gesteuerte Signale abgeben. Diese nach Form und Farbe verschiedenartigen [[Verkehrszeichen]] haben jeweils eine andere Bedeutung und wirken nur für die jeweilige Geh- oder Fahrtrichtung des zu regelnden Verkehrs.",
+  "segments": [
+    {
+      "id": "272310346-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Ampel''' (von {{laS|ampulla}} „kleine Flasche [speziell für Salben und Öle]“,<ref>''Ampel.'' In: Karl Ernst Georges: ''Ausführliches lateinisch-deutsches Handwörterbuch.'' ([http://www.zeno.org/nid/2000221105X zeno.org]).</ref> spätere übertragene Bedeutung „Leuchte“<ref>{{Deutsches Wörterbuch |Lemma=Ampel |Band=1 |Sp=279 |lemid=A03199 }}</ref>) ist die allgemeinsprachliche Bezeichnung für einen ''Signalgeber'' einer '''Lichtsignalanlage''' (LSA) oder '''Lichtzeichenanlage''' (LZA).",
+      "plain": null
+    },
+    {
+      "id": "272310346-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Bezeichnung steht zudem für die „Ampelanlage“ als Ganzes.",
+      "plain": null
+    },
+    {
+      "id": "272310346-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Diese dient der Steuerung des [[Straßenverkehr|Straßen- und]] [[Schienenverkehr]]s.",
+      "plain": null
+    },
+    {
+      "id": "272310346-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ampeln ordnen für [[Verkehrsteilnehmer]] ein bestimmtes Verhalten an, indem sie gesteuerte Signale abgeben.",
+      "plain": null
+    },
+    {
+      "id": "272310346-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Diese nach Form und Farbe verschiedenartigen [[Verkehrszeichen]] haben jeweils eine andere Bedeutung und wirken nur für die jeweilige Geh- oder Fahrtrichtung des zu regelnden Verkehrs.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272310346,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272310346-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Ampel (von lateinisch ampulla „kleine Flasche [speziell für Salben und Öle]“, spätere übertragene Bedeutung „Leuchte“) ist die allgemeinsprachliche Bezeichnung für einen Signalgeber einer Lichtsignalanlage (LSA) oder Lichtzeichenanlage (LZA).",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,934 @@
+{
+  "main_facts": [
+    {
+      "rank": 1,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0478",
+        "type": "sentence",
+        "section": "Weimarer Republik",
+        "context_ids": [],
+        "plain": "Im Juni 1925 schloss der Physiker Werner Heisenberg auf Helgoland die grundlegenden Arbeiten an seiner mathematischen Beschreibung der Quantenmechanik ab.",
+        "context_plain": []
+      }
+    },
+    {
+      "rank": 2,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0479",
+        "type": "sentence",
+        "section": "Weimarer Republik",
+        "context_ids": [
+          "272085229-0478"
+        ],
+        "plain": "Er hatte sich wegen seines Heuschnupfens auf die Insel zurückgezogen.",
+        "context_plain": [
+          "Im Juni 1925 schloss der Physiker Werner Heisenberg auf Helgoland die grundlegenden Arbeiten an seiner mathematischen Beschreibung der Quantenmechanik ab."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0350",
+        "type": "sentence",
+        "section": "Gouverneure John Hindmarsh 1840–1856 und Richard Pattinson 1857–1863",
+        "context_ids": [
+          "272085229-0349"
+        ],
+        "plain": "Er dichtete während eines Ferienaufenthalts auf Helgoland am 26. August 1841 das Lied der Deutschen auf die von Joseph Haydn 1797 komponierte Hymne für den römisch-deutschen Kaiser.",
+        "context_plain": [
+          "In diesen Zusammenhang gehören auch die Besuche des Dichters Hoffmann von Fallersleben."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0558",
+        "type": "sentence",
+        "section": "Ende des Zweiten Weltkriegs und Nachkriegszeit",
+        "context_ids": [],
+        "plain": "Am 18. April 1947 zerstörten die Briten mit der bis 1985 größten nichtnuklearen Sprengung der Geschichte die militärischen Bunkeranlagen der Insel.",
+        "context_plain": []
+      }
+    },
+    {
+      "rank": 5,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0561",
+        "type": "sentence",
+        "section": "Ende des Zweiten Weltkriegs und Nachkriegszeit",
+        "context_ids": [],
+        "plain": "Noch 1949 wurden im „Helgoländer Loch“, etwa 2,5 Seemeilen (ca. 4,6 km) südlich von Helgoland, Granaten mit bis zu zehn Tonnen Tabun versenkt, rund 90 Tonnen Giftgasgranaten (ca. 6000 einzelne Granaten).",
+        "context_plain": []
+      }
+    },
+    {
+      "rank": 6,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0567",
+        "type": "sentence",
+        "section": "Ende des Zweiten Weltkriegs und Nachkriegszeit",
+        "context_ids": [],
+        "plain": "Am 20. Dezember 1950 besetzten die beiden Heidelberger Studenten René Leudesdorff und Georg von Hatzfeld für zwei Nächte und einen Tag die Insel und hissten für die Presse die deutsche Flagge, die Flagge der Europäischen Bewegung und die Flagge Helgolands in unterschiedlichen Variationen.",
+        "context_plain": []
+      }
+    },
+    {
+      "rank": 7,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0409",
+        "type": "sentence",
+        "section": "Kaiserreich",
+        "context_ids": [
+          "272085229-0407",
+          "272085229-0408"
+        ],
+        "plain": "Aus Gründen des Protokolls betrat Kaiser Wilhelm II. die Insel erst am 10. August – zur direkten Übergabe fehlte ihm ein britisches Staatsoberhaupt als Gegenüber.",
+        "context_plain": [
+          "Die offizielle Übergabe Helgolands fand am 9. August 1890 statt; daran nahmen von deutscher Seite Karl Heinrich von Boetticher (Staatssekretär im Reichsamt des Innern) und von englischer Seite Gouverneur Barkly teil.",
+          "Organisiert wurde die Übergabe durch Adolf Wermuth, beraten wurden beide Seiten von Rudolf Lindau."
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0842",
+        "type": "sentence",
+        "section": "Straßenverkehr",
+        "context_ids": [],
+        "plain": "Es gibt zwei Fußgängerampeln; sie stehen auf der Düne und warnen vor landenden Flugzeugen.",
+        "context_plain": []
+      }
+    },
+    {
+      "rank": 9,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0826",
+        "type": "sentence",
+        "section": "Straßenverkehr",
+        "context_ids": [],
+        "plain": "Auf der Insel Helgoland sind seit 1971 gemäß § 50 der StVO Sonderregelung für die Insel Helgoland der Verkehr mit Kraftfahrzeugen und das Radfahren verboten.",
+        "context_plain": []
+      }
+    },
+    {
+      "rank": 10,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0384",
+        "type": "sentence",
+        "section": "Gouverneur Maxse 1863–1881",
+        "context_ids": [],
+        "plain": "In diesen Jahren wurde Helgoland auch als Hochzeitsinsel für Gäste berühmt, vergleichbar mit Gretna Green.",
+        "context_plain": []
+      }
+    },
+    {
+      "rank": 11,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0194",
+        "type": "sentence",
+        "section": "Forschungsgeschichte",
+        "context_ids": [
+          "272085229-0193"
+        ],
+        "plain": "Nach der Sprengung von Bunkeranlagen auf Helgoland wurde in den 1950er Jahren in Aufnahme völkischer Ideen von Jürgen Spanuth die Insel mit Atlantis gleichgesetzt.",
+        "context_plain": [
+          "Emphatisch wurde die Vorgeschichte wieder in der völkischen Bewegung betrachtet, zum Beispiel von Heinrich Pudor."
+        ]
+      }
+    },
+    {
+      "rank": 12,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0286",
+        "type": "sentence",
+        "section": "Gouverneur William Osborne Hamilton 1808–1815",
+        "context_ids": [
+          "272085229-0285"
+        ],
+        "plain": "Helgoland entwickelte sich seit Anfang 1808 zu einem lebhaften Schmuggelplatz; die Insel übernahm gewissermaßen die Funktion Hamburgs als Überseehafen.",
+        "context_plain": [
+          "Der erste Gouverneur wurde Corbet James D’Auvergne, der aber schon im Februar 1808 sein Amt an William Osborne Hamilton (1750–1818) übergab."
+        ]
+      }
+    },
+    {
+      "rank": 13,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0288",
+        "type": "sentence",
+        "section": "Gouverneur William Osborne Hamilton 1808–1815",
+        "context_ids": [
+          "272085229-0286",
+          "272085229-0287"
+        ],
+        "plain": "Bis zu 400 Schiffe liefen täglich die Insel an.",
+        "context_plain": [
+          "Helgoland entwickelte sich seit Anfang 1808 zu einem lebhaften Schmuggelplatz; die Insel übernahm gewissermaßen die Funktion Hamburgs als Überseehafen.",
+          "Viele Hamburger und britische Kaufleute hatten Vertretungen auf Helgoland."
+        ]
+      }
+    },
+    {
+      "rank": 14,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0301",
+        "type": "sentence",
+        "section": "Gouverneur William Osborne Hamilton 1808–1815",
+        "context_ids": [
+          "272085229-0300"
+        ],
+        "plain": "Zwischen 1807 und 1810 verzehnfachten sich die Preise für Wohnhäuser.",
+        "context_plain": [
+          "Der Schmuggel, der letztlich meist von Helgoländer Fischern gegen Bezahlung durch die Händler durchgeführt wurde, die zunehmende Tätigkeit als Schauerleute sowie die Unterbringung von Händlern und anderen ausländischen Besuchern führten zu erheblich wachsendem Wohlstand."
+        ]
+      }
+    },
+    {
+      "rank": 15,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0453",
+        "type": "sentence",
+        "section": "Kaiserreich",
+        "context_ids": [
+          "272085229-0450",
+          "272085229-0451",
+          "272085229-0452"
+        ],
+        "plain": "Tags darauf am 1. August wurde den Helgoländern befohlen, die Insel binnen zwölf Stunden zu verlassen.",
+        "context_plain": [
+          "Mit der kaiserlichen Erklärung des Kriegszustandes am 31. Juli 1914 bekam der Festungskommandant absolute Vollmachten auf Helgoland.",
+          "In seinem Anschlag des gleichen Tages verfügte er die Ausweisung aller Gäste und wies auf sein Recht zu Verhaftungen, Hausdurchsuchungen und Waffengewalt hin.",
+          "Auch kleinere Versammlungen wurden verboten."
+        ]
+      }
+    },
+    {
+      "rank": 16,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0455",
+        "type": "sentence",
+        "section": "Kaiserreich",
+        "context_ids": [
+          "272085229-0453",
+          "272085229-0454"
+        ],
+        "plain": "Entgegen der allgemeinen Annahme, der Krieg werde nur wenige Wochen dauern, konnten die Helgoländer erst 1918 wieder zurückkehren.",
+        "context_plain": [
+          "Tags darauf am 1. August wurde den Helgoländern befohlen, die Insel binnen zwölf Stunden zu verlassen.",
+          "In Hamburg angekommen, war entgegen Versprechungen des Militärs keine Unterkunft organisiert, sie wurden nach einer Nacht auf den Dampfern und Landungsbrücken zunächst in den Auswandererhallen untergebracht."
+        ]
+      }
+    },
+    {
+      "rank": 17,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0021",
+        "type": "sentence",
+        "section": "Geografische Lage",
+        "context_ids": [
+          "272085229-0020"
+        ],
+        "plain": "Doch weder im geografischen noch im rechtlichen Sinn liegt die Insel im Bereich der Hohen See.",
+        "context_plain": [
+          "Wegen seiner Lage auf offener See wird Helgoland häufig als „einzige Hochseeinsel Deutschlands“ bezeichnet."
+        ]
+      }
+    },
+    {
+      "rank": 18,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0023",
+        "type": "sentence",
+        "section": "Geografische Lage",
+        "context_ids": [],
+        "plain": "Die seit 1995 gültige 12-Meilen-Zone vor dem Festland oder den vorgelagerten Inseln überschneidet sich mit derjenigen um Helgoland, so dass kein internationales Gewässer die Insel vom Festland trennt.",
+        "context_plain": []
+      }
+    },
+    {
+      "rank": 19,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0252",
+        "type": "sentence",
+        "section": "Mittelalter",
+        "context_ids": [
+          "272085229-0250",
+          "272085229-0251"
+        ],
+        "plain": "Im Rahmen einer geochemischen Analyse von 1978 wurde nachgewiesen, dass das Kupfer von Helgoland stammt, was zu vielen Theorien (siehe Vorgeschichte) führte.",
+        "context_plain": [
+          "Eine schriftliche Quelle aus der Hansezeit berichtet von dem Verlust einer Schiffsladung Kupfer 1409 bei Helgoland.",
+          "Kupferscheiben wurden noch nach dem Zweiten Weltkrieg in der Nähe der Insel gefunden und in das Mittelalter datiert."
+        ]
+      }
+    },
+    {
+      "rank": 20,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0058",
+        "type": "sentence",
+        "section": "Klima",
+        "context_ids": [
+          "272085229-0056",
+          "272085229-0057"
+        ],
+        "plain": "Auspflanzversuche mit Hanfpalmen, Honigpalmen und anderen Palmen sowie weiteren, auf dem deutschen Festland nicht oder nur bedingt winterharten subtropischen Pflanzen (Lorbeer, Yucca, Cordyline, Steineiche und andere) sind seit den 1980er Jahren erfolgreich verlaufen.",
+        "context_plain": [
+          "Schon Anfang des 20. Jahrhunderts standen stattliche, regelmäßig fruchtende Feigenbäume auf der Insel.",
+          "Noch steht aus dieser Zeit im Oberland ein sehr alter Maulbeerbaum."
+        ]
+      }
+    },
+    {
+      "rank": 21,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0277",
+        "type": "sentence",
+        "section": "Gouverneur William Osborne Hamilton 1808–1815",
+        "context_ids": [
+          "272085229-0276"
+        ],
+        "plain": "Die dänische Garnison feuerte dabei keinen einzigen Schuss ab.",
+        "context_plain": [
+          "Im Verlauf der Auseinandersetzungen zwischen Dänemark und Großbritannien in den Napoleonischen Kriegen besetzten am 5. September 1807 britische Truppen die Insel."
+        ]
+      }
+    },
+    {
+      "rank": 22,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0094",
+        "type": "sentence",
+        "section": "Salz-Aufstieg im Tertiär",
+        "context_ids": [
+          "272085229-0092",
+          "272085229-0093"
+        ],
+        "plain": "Man spricht bei diesem Phänomen von einem Salzkissen, in dessen Scheitelbereich Helgoland sich befindet.",
+        "context_plain": [
+          "Das Salzgestein reagierte plastisch auf den immer stärkeren Druck und neigte dazu, bevorzugt an Schwächezonen wie Verwerfungen aufzusteigen, um so zu einer Druckentlastung zu gelangen.",
+          "Beim Aufstieg wurden aber auch die aufliegenden Schichten mitgehoben."
+        ]
+      }
+    },
+    {
+      "rank": 23,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0099",
+        "type": "sentence",
+        "section": "Salz-Aufstieg im Tertiär",
+        "context_ids": [
+          "272085229-0098"
+        ],
+        "plain": "Somit finden sich an der Westseite Helgolands nach oben zeigende Schichten, während die Schichten an der Ostseite nach unten zeigen.",
+        "context_plain": [
+          "Die Schichten sind bei der Aufwölbung gekippt worden, so dass eine Neigung der Buntsandsteinfelsen von etwa 17 bis 20 Grad zu erkennen ist."
+        ]
+      }
+    },
+    {
+      "rank": 24,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0942",
+        "type": "sentence",
+        "section": "Sonstiges",
+        "context_ids": [],
+        "plain": "Gunther von Hagens (bekannt durch die anatomischen Ausstellungen Körperwelten) war als Assistenzarzt im Inselkrankenhaus auf Helgoland tätig.",
+        "context_plain": []
+      }
+    },
+    {
+      "rank": 25,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0447",
+        "type": "sentence",
+        "section": "Kaiserreich",
+        "context_ids": [
+          "272085229-0446"
+        ],
+        "plain": "Männer und Frauen konnten nun zusammen baden, allerdings nicht mehr wie bis zum Ende der englischen Zeit nackt.",
+        "context_plain": [
+          "1900 wurde auf Helgoland als erstem deutschen Seebad das Familienbad eingeführt."
+        ]
+      }
+    },
+    {
+      "rank": 26,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0785",
+        "type": "sentence",
+        "section": "Ver- und Entsorgung",
+        "context_ids": [
+          "272085229-0784"
+        ],
+        "plain": "Seit der Inbetriebnahme am 30. November 2009 ist Helgoland als letzte deutsche Gemeinde an das europäische Verbundnetz angeschlossen.",
+        "context_plain": [
+          "Im Jahr 2009 wurde für 20 Millionen Euro das Helgolandkabel, ein knapp 53 km langes 30-kV-Seekabel von St. Peter-Ording nach Helgoland, verlegt."
+        ]
+      }
+    },
+    {
+      "rank": 27,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0245",
+        "type": "sentence",
+        "section": "Mittelalter",
+        "context_ids": [],
+        "plain": "Nicht nachweisbar ist hingegen ein Aufenthalt Klaus Störtebekers auf der Insel, obwohl er 1401 bei Helgoland gefangen worden sein soll.",
+        "context_plain": []
+      }
+    },
+    {
+      "rank": 28,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0896",
+        "type": "sentence",
+        "section": "Seenotrettung",
+        "context_ids": [],
+        "plain": "Am 23. Februar 1967 ging während eines Orkaneinsatzes des Seenotrettungskreuzers Adolph Bermpohl die gesamte Besatzung mit drei geretteten Schiffbrüchigen verloren.",
+        "context_plain": []
+      }
+    },
+    {
+      "rank": 29,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0422",
+        "type": "sentence",
+        "section": "Kaiserreich",
+        "context_ids": [
+          "272085229-0421"
+        ],
+        "plain": "Lediglich elf Bewohner machten von dieser Möglichkeit Gebrauch.",
+        "context_plain": [
+          "Im Rahmen des Vertrages wurden Anker- und Handelsrechte für britische Fischer auf Helgoland festgeschrieben sowie das Recht aller Inselbewohner, bis zum 1. Januar 1892 die britische Staatsbürgerschaft anzunehmen."
+        ]
+      }
+    },
+    {
+      "rank": 30,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0868",
+        "type": "sentence",
+        "section": "Eisenbahn und Aufzug",
+        "context_ids": [
+          "272085229-0867"
+        ],
+        "plain": "Die Anlage ging nicht in Betrieb, da 1955 kurz vor Fertigstellung durch lang anhaltenden Regen der Maschinenkeller vollgelaufen war.",
+        "context_plain": [
+          "Im Zuge des Wiederaufbaus in den 1950er Jahren war auch der Bau einer neuen Lorenbahn Teil der Überlegungen, das Gleis sollte eine Spurweite von 600 mm aufweisen."
+        ]
+      }
+    },
+    {
+      "rank": 31,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0744",
+        "type": "sentence",
+        "section": "Tourismus",
+        "context_ids": [
+          "272085229-0743"
+        ],
+        "plain": "Auf der Düne teilen sich die Badegäste an manchen Tagen den Strand mit Seehunden und Kegelrobben, die ihre Scheu gegenüber Menschen weitgehend abgelegt haben.",
+        "context_plain": [
+          "Die der Hauptinsel vorgelagerte und per Fähre zu erreichende Düne ist bevorzugtes Ziel derjenigen Urlauber, die nicht nur als Tagestouristen auf Helgoland verweilen und sich vor dem täglichen Touristenandrang dorthin zurückziehen."
+        ]
+      }
+    },
+    {
+      "rank": 32,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0730",
+        "type": "sentence",
+        "section": "Sport",
+        "context_ids": [],
+        "plain": "Am 21. August 2021 schwamm André Wiersig als erster Mensch vom Festland (St. Peter-Ording) nach Helgoland.",
+        "context_plain": []
+      }
+    },
+    {
+      "rank": 33,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0669",
+        "type": "sentence",
+        "section": "Religion",
+        "context_ids": [
+          "272085229-0667",
+          "272085229-0668"
+        ],
+        "plain": "Die Kirchengemeinde ist Teil des Kirchenkreises Dithmarschen, obwohl die Kommunalgemeinde zum Kreis Pinneberg gehört.",
+        "context_plain": [
+          "Der evangelisch-lutherischen Kirchengemeinde gehören etwa 800 Personen und damit die Mehrheit der Inselbevölkerung an.",
+          "Am 29. November 1959 wurde die evangelische St.-Nicolai-Kirche, welche nach dem Schutzpatron der Seefahrer und Kaufleute, Nikolaus von Myra, benannt ist, eingeweiht."
+        ]
+      }
+    },
+    {
+      "rank": 34,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0013",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272085229-0012"
+        ],
+        "plain": "Für beide Inseln gelten steuerrechtliche Sonderregelungen: Die Gemeinde ist zwar Teil des deutschen Wirtschaftsgebietes, zählt aber weder zum Zollgebiet der Union noch werden deutsche Verbrauchsteuern erhoben.",
+        "context_plain": [
+          "Die Inselgruppe Helgoland und Düne gehört seit 1890 zum deutschen Staatsgebiet und ist als amtsfreie Gemeinde Helgoland in den Kreis Pinneberg (Schleswig-Holstein) integriert."
+        ]
+      }
+    },
+    {
+      "rank": 35,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0583",
+        "type": "sentence",
+        "section": "Wiederaufbau ab 1952",
+        "context_ids": [],
+        "plain": "Im Frühjahr 1952 wurde eine Wiederaufbaukommission ins Leben gerufen, die einen Architekturwettbewerb organisierte, an dem sich 122 Architekturbüros beteiligten.",
+        "context_plain": []
+      }
+    },
+    {
+      "rank": 36,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0696",
+        "type": "sentence",
+        "section": "Sehenswürdigkeiten (Auswahl)",
+        "context_ids": [
+          "272085229-0693",
+          "272085229-0694",
+          "272085229-0695"
+        ],
+        "plain": "In den unteren zwei Stockwerken des Leuchtturms wurde zur Zeit des Kalten Krieges ein Atombunker eingebaut; die Scheinfenster in diesen Stockwerken brachte man nur aus ästhetischen Gründen an.",
+        "context_plain": [
+          "Leuchtturm: steht in unmittelbarer Nähe zum Richtfunkturm.",
+          "Der im Zweiten Weltkrieg als Flakturm bzw. Flakleitstand konzipierte Bau wurde 1952 als Leuchtturm in Betrieb genommen.",
+          "Er besitzt das lichtstärkste deutsche Feuer mit einer Nenntragweite von 28 Seemeilen (52 Kilometer), so dass der Lichtstrahl in klaren Nächten bis zu den Ostfriesischen Inseln auszumachen ist."
+        ]
+      }
+    },
+    {
+      "rank": 37,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0746",
+        "type": "sentence",
+        "section": "Tourismus",
+        "context_ids": [
+          "272085229-0745"
+        ],
+        "plain": "Helgoland wurde damals mit dem abfälligen Spitznamen „Fuselfelsen“ bedacht, weil Touristen dort alkoholische Getränke zollfrei kaufen konnten.",
+        "context_plain": [
+          "Von Ende der 1960er bis Ende der 1970er Jahre kamen bis zu 800.000 Ausflügler im Jahr – Besucherzahlen, die später nicht mehr erreicht wurden."
+        ]
+      }
+    }
+  ],
+  "linked_facts": [
+    {
+      "rank": 1,
+      "article": "Sprengung von Bunkeranlagen auf Helgoland",
+      "revid": 272091002,
+      "fact": {
+        "segment_id": "272091002-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272091002-0001",
+          "272091002-0002"
+        ],
+        "plain": "Durch die enorme Menge an Sprengstoff erschien es zudem möglich, die gesamte Insel vollständig zu vernichten, was zwar nicht Ziel der Aktion war, aber in Kauf genommen wurde.",
+        "context_plain": [
+          "Die von den Briten als Operation Big Bang oder British Bang bezeichnete Sprengung war mit 6700 Tonnen Sprengstoff, die eine Sprengkraft von circa 3,2 Kilotonnen TNT-Äquivalent entwickelten, die bis dahin größte nicht-atomare, von Menschen gewollt erzeugte Explosion.",
+          "Das Ziel der Sprengung war, die Bunker- und Militäranlagen der Nordseeinsel Helgoland zu zerstören."
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "article": "Sprengung von Bunkeranlagen auf Helgoland",
+      "revid": 272091002,
+      "fact": {
+        "segment_id": "272091002-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272091002-0000"
+        ],
+        "plain": "Die von den Briten als Operation Big Bang oder British Bang bezeichnete Sprengung war mit 6700 Tonnen Sprengstoff, die eine Sprengkraft von circa 3,2 Kilotonnen TNT-Äquivalent entwickelten, die bis dahin größte nicht-atomare, von Menschen gewollt erzeugte Explosion.",
+        "context_plain": [
+          "Die Sprengung von Bunkeranlagen auf Helgoland fand am 18. April 1947 um 13 Uhr statt."
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "article": "René Leudesdorff",
+      "revid": 270393785,
+      "fact": {
+        "segment_id": "270393785-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270393785-0000"
+        ],
+        "plain": "Er war einer der beiden Studenten, die 1950 die Insel Helgoland besetzten.",
+        "context_plain": [
+          "René Leudesdorff (* 18. Februar 1928 in Berlin; † 5. Juni 2012 in Flensburg) war ein deutscher evangelischer Geistlicher und Autor."
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "article": "Sprengung von Bunkeranlagen auf Helgoland",
+      "revid": 272091002,
+      "fact": {
+        "segment_id": "272091002-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272091002-0002",
+          "272091002-0003"
+        ],
+        "plain": "Allerdings ließ der poröse Sandstein, aus dem die Insel besteht, die Druckwelle entweichen; somit wurde nur die Südspitze der Insel durch die Sprengung zerstört, an der Nordspitze gab es erhebliche Schäden.",
+        "context_plain": [
+          "Das Ziel der Sprengung war, die Bunker- und Militäranlagen der Nordseeinsel Helgoland zu zerstören.",
+          "Durch die enorme Menge an Sprengstoff erschien es zudem möglich, die gesamte Insel vollständig zu vernichten, was zwar nicht Ziel der Aktion war, aber in Kauf genommen wurde."
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "article": "Das Lied der Deutschen",
+      "revid": 270086679,
+      "fact": {
+        "segment_id": "270086679-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Lied entstand auf einer Reise Hoffmanns auf die Insel Helgoland, damals britische Kronkolonie.",
+        "context_plain": []
+      }
+    },
+    {
+      "rank": 6,
+      "article": "Jürgen Spanuth",
+      "revid": 266510031,
+      "fact": {
+        "segment_id": "266510031-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "266510031-0000"
+        ],
+        "plain": "Er erlangte Bekanntheit durch seine kontroversen Thesen zur Atlantis-Legende, die in der Fachwelt jedoch als wissenschaftlich nicht haltbar eingestuft wurden.",
+        "context_plain": [
+          "Jürgen (Georg) Ferdinand Spanuth (* 5. September 1907 in Leoben, Österreich; † 17. Oktober 1998) war ein deutscher evangelischer Pfarrer und Amateurarchäologe."
+        ]
+      }
+    }
+  ],
+  "linked_articles": [
+    {
+      "title": "Werner Heisenberg",
+      "revid": 272020134,
+      "file": "linked/werner-heisenberg.json"
+    },
+    {
+      "title": "Quantenmechanik",
+      "revid": 271791411,
+      "file": "linked/quantenmechanik.json"
+    },
+    {
+      "title": "Allergische Rhinitis",
+      "revid": 271761971,
+      "file": "linked/allergische-rhinitis.json"
+    },
+    {
+      "title": "Das Lied der Deutschen",
+      "revid": 270086679,
+      "file": "linked/das-lied-der-deutschen.json"
+    },
+    {
+      "title": "Joseph Haydn",
+      "revid": 272216969,
+      "file": "linked/joseph-haydn.json"
+    },
+    {
+      "title": "Hymne",
+      "revid": 263310249,
+      "file": "linked/hymne.json"
+    },
+    {
+      "title": "Römisch-deutscher Kaiser",
+      "revid": 271383292,
+      "file": "linked/roemisch-deutscher-kaiser.json"
+    },
+    {
+      "title": "Seemeile",
+      "revid": 269862188,
+      "file": "linked/seemeile.json"
+    },
+    {
+      "title": "Tabun",
+      "revid": 270564674,
+      "file": "linked/tabun.json"
+    },
+    {
+      "title": "Ruprecht-Karls-Universität Heidelberg",
+      "revid": 270899422,
+      "file": "linked/ruprecht-karls-universitaet-heidelberg.json"
+    },
+    {
+      "title": "René Leudesdorff",
+      "revid": 270393785,
+      "file": "linked/rene-leudesdorff.json"
+    },
+    {
+      "title": "Georg von Hatzfeld",
+      "revid": 269441787,
+      "file": "linked/georg-von-hatzfeld.json"
+    },
+    {
+      "title": "Flagge Deutschlands",
+      "revid": 272001187,
+      "file": "linked/flagge-deutschlands.json"
+    },
+    {
+      "title": "Europäische Bewegung International",
+      "revid": 270255508,
+      "file": "linked/europaeische-bewegung-international.json"
+    },
+    {
+      "title": "Wilhelm II. (Deutsches Reich)",
+      "revid": 271899779,
+      "file": "linked/wilhelm-ii-deutsches-reich.json"
+    },
+    {
+      "title": "Ampel",
+      "revid": 272310346,
+      "file": "linked/ampel.json"
+    },
+    {
+      "title": "Flugzeug",
+      "revid": 272226858,
+      "file": "linked/flugzeug.json"
+    },
+    {
+      "title": "Straßenverkehrs-Ordnung (Deutschland)",
+      "revid": 269062692,
+      "file": "linked/strassenverkehrs-ordnung-deutschland.json"
+    },
+    {
+      "title": "Kraftfahrzeug",
+      "revid": 270220853,
+      "file": "linked/kraftfahrzeug.json"
+    },
+    {
+      "title": "Fahrradfahren",
+      "revid": 268215260,
+      "file": "linked/fahrradfahren.json"
+    },
+    {
+      "title": "Gretna Green",
+      "revid": 270825937,
+      "file": "linked/gretna-green.json"
+    },
+    {
+      "title": "Sprengung von Bunkeranlagen auf Helgoland",
+      "revid": 272091002,
+      "file": "linked/sprengung-von-bunkeranlagen-auf-helgoland.json"
+    },
+    {
+      "title": "Jürgen Spanuth",
+      "revid": 266510031,
+      "file": "linked/juergen-spanuth.json"
+    },
+    {
+      "title": "Atlantis",
+      "revid": 270375275,
+      "file": "linked/atlantis.json"
+    },
+    {
+      "title": "Schmuggel",
+      "revid": 265658733,
+      "file": "linked/schmuggel.json"
+    },
+    {
+      "title": "Seehafen",
+      "revid": 271299590,
+      "file": "linked/seehafen.json"
+    },
+    {
+      "title": "Hohe See",
+      "revid": 271966336,
+      "file": "linked/hohe-see.json"
+    },
+    {
+      "title": "Küstenmeer",
+      "revid": 260645855,
+      "file": "linked/kuestenmeer.json"
+    },
+    {
+      "title": "Hanfpalmen",
+      "revid": 253217995,
+      "file": "linked/hanfpalmen.json"
+    },
+    {
+      "title": "Honigpalme",
+      "revid": 261754211,
+      "file": "linked/honigpalme.json"
+    }
+  ],
+  "skipped_links": [],
+  "excluded_fact_ids": [],
+  "link_targets_over_limit": [
+    "Palmengewächse",
+    "Echter Lorbeer",
+    "Palmlilien",
+    "Keulenlilien",
+    "Steineiche",
+    "Gunther von Hagens",
+    "Körperwelten",
+    "Europäisches Verbundsystem",
+    "Klaus Störtebeker",
+    "Adolph Bermpohl (Schiff)",
+    "Badekultur",
+    "Seehund",
+    "Kegelrobbe",
+    "André Wiersig",
+    "Sankt Peter-Ording",
+    "Zollgebiet der Union",
+    "Verbrauchsteuer (Deutschland)",
+    "Architekturwettbewerb",
+    "Kalter Krieg"
+  ],
+  "offer_counts": {
+    "main": {
+      "offered": 37,
+      "min": 20,
+      "max": 40,
+      "below_min": false
+    },
+    "linked": {
+      "offered": 6,
+      "min": 6,
+      "max": 12,
+      "below_min": false
+    },
+    "einordnung": {
+      "offered": 2,
+      "min": 0,
+      "max": 2,
+      "below_min": false
+    }
+  },
+  "einordnung_facts": [
+    {
+      "rank": 1,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Helgoland ([ˈhɛl.ɡoˌlant], nordfriesisch deät Lun (Helgoländer Friesisch für „das Land“), englisch Heligoland) ist eine Insel im Bereich der Deutschen Bucht der Nordsee.",
+        "context_plain": []
+      }
+    },
+    {
+      "rank": 2,
+      "article": "Helgoland",
+      "revid": 272085229,
+      "fact": {
+        "segment_id": "272085229-0009",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272085229-0008"
+        ],
+        "plain": "Die ursprünglich größere Insel zerbrach in der Neujahrsflut 1721; seitdem existiert die als Düne bezeichnete Nebeninsel.",
+        "context_plain": [
+          "Helgoland ([ˈhɛl.ɡoˌlant], nordfriesisch deät Lun (Helgoländer Friesisch für „das Land“), englisch Heligoland) ist eine Insel im Bereich der Deutschen Bucht der Nordsee."
+        ]
+      }
+    }
+  ]
+}

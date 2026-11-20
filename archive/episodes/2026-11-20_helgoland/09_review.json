@@ -1,0 +1,1984 @@
+{
+  "episode_id": "2026-11-20_helgoland",
+  "title": "Helgoland",
+  "rate": 1.0,
+  "seed": "2026-11-20_helgoland",
+  "population": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19,
+    21,
+    22,
+    23,
+    25,
+    27,
+    29,
+    31,
+    32,
+    33,
+    35,
+    37,
+    39,
+    41,
+    43,
+    45,
+    47,
+    48
+  ],
+  "draws": [
+    {
+      "turn_index": 1,
+      "u": 0.48825445489846353,
+      "sampled": true
+    },
+    {
+      "turn_index": 3,
+      "u": 0.17105175514600612,
+      "sampled": true
+    },
+    {
+      "turn_index": 4,
+      "u": 0.23695836583347085,
+      "sampled": true
+    },
+    {
+      "turn_index": 5,
+      "u": 0.6398271573960943,
+      "sampled": true
+    },
+    {
+      "turn_index": 6,
+      "u": 0.47877294024123085,
+      "sampled": true
+    },
+    {
+      "turn_index": 7,
+      "u": 0.04252662945843777,
+      "sampled": true
+    },
+    {
+      "turn_index": 9,
+      "u": 0.005596323121443425,
+      "sampled": true
+    },
+    {
+      "turn_index": 11,
+      "u": 0.1503298921373304,
+      "sampled": true
+    },
+    {
+      "turn_index": 13,
+      "u": 0.2336343914714567,
+      "sampled": true
+    },
+    {
+      "turn_index": 14,
+      "u": 0.8735942880484602,
+      "sampled": true
+    },
+    {
+      "turn_index": 15,
+      "u": 0.4624743702948436,
+      "sampled": true
+    },
+    {
+      "turn_index": 16,
+      "u": 0.49439934157067,
+      "sampled": true
+    },
+    {
+      "turn_index": 17,
+      "u": 0.35832330128613266,
+      "sampled": true
+    },
+    {
+      "turn_index": 19,
+      "u": 0.6157154449526053,
+      "sampled": true
+    },
+    {
+      "turn_index": 21,
+      "u": 0.49718116272212975,
+      "sampled": true
+    },
+    {
+      "turn_index": 22,
+      "u": 0.22489064025107808,
+      "sampled": true
+    },
+    {
+      "turn_index": 23,
+      "u": 0.630366037627122,
+      "sampled": true
+    },
+    {
+      "turn_index": 25,
+      "u": 0.7187935646753506,
+      "sampled": true
+    },
+    {
+      "turn_index": 27,
+      "u": 0.33202920097643607,
+      "sampled": true
+    },
+    {
+      "turn_index": 29,
+      "u": 0.02782072227412269,
+      "sampled": true
+    },
+    {
+      "turn_index": 31,
+      "u": 0.09072208856783359,
+      "sampled": true
+    },
+    {
+      "turn_index": 32,
+      "u": 0.7675718986129028,
+      "sampled": true
+    },
+    {
+      "turn_index": 33,
+      "u": 0.5351727918341487,
+      "sampled": true
+    },
+    {
+      "turn_index": 35,
+      "u": 0.42845434663596915,
+      "sampled": true
+    },
+    {
+      "turn_index": 37,
+      "u": 0.5884018960440205,
+      "sampled": true
+    },
+    {
+      "turn_index": 39,
+      "u": 0.9808657627959159,
+      "sampled": true
+    },
+    {
+      "turn_index": 41,
+      "u": 0.7607368738191267,
+      "sampled": true
+    },
+    {
+      "turn_index": 43,
+      "u": 0.6456956641668485,
+      "sampled": true
+    },
+    {
+      "turn_index": 45,
+      "u": 0.5694209510070907,
+      "sampled": true
+    },
+    {
+      "turn_index": 47,
+      "u": 0.5096903684584841,
+      "sampled": true
+    },
+    {
+      "turn_index": 48,
+      "u": 0.43579160786519366,
+      "sampled": true
+    }
+  ],
+  "status": "pending",
+  "outcome": null,
+  "rate_applied": [],
+  "issue": 5,
+  "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/5",
+  "explicit": {
+    "model": "claude-sonnet-5-5",
+    "predicted": false,
+    "verdict": "clean",
+    "findings": [],
+    "reason": "Das Gespräch behandelt Helgoland sachlich und historisch. Die Sprengung der Bunker und die versenkten Giftgasgranaten werden nüchtern erwähnt, ohne anschauliche Gewaltschilderung. Alkohol (\"Fuselfelsen\") und früheres Nacktbaden kommen nur beiläufig vor. Derbe Ausdrücke gibt es nicht.",
+    "label": null,
+    "reviewer_flag": null,
+    "note": null,
+    "comment_id": null
+  },
+  "turns": [
+    {
+      "turn_index": 1,
+      "speaker": "Lena",
+      "text": "Helgoland ist eine Insel im Bereich der Deutschen Bucht der Nordsee. Auf nordfriesisch heißt sie deät Lun, und das ist Helgoländer Friesisch für „das Land“. Englisch sagt man Heligoland. Die Insel war ursprünglich größer. In der Neujahrsflut des Jahres siebzehnhunderteinundzwanzig zerbrach sie. Seitdem gibt es die Nebeninsel, die man Düne nennt.",
+      "previous_text": "Lena, heute sprechen wir über Helgoland. Was ist das eigentlich für ein Ort, und wo liegt er genau?",
+      "fact_ids": [
+        "272085229-0008",
+        "272085229-0009"
+      ],
+      "statements": [
+        {
+          "text": "Helgoland ist eine Insel im Bereich der Deutschen Bucht der Nordsee.",
+          "fact_ids": [
+            "272085229-0008"
+          ]
+        },
+        {
+          "text": "Auf nordfriesisch heißt sie deät Lun, das ist Helgoländer Friesisch für „das Land“, englisch heißt sie Heligoland.",
+          "fact_ids": [
+            "272085229-0008"
+          ]
+        },
+        {
+          "text": "Die Insel war ursprünglich größer und zerbrach in der Neujahrsflut 1721.",
+          "fact_ids": [
+            "272085229-0009"
+          ]
+        },
+        {
+          "text": "Seitdem existiert die Nebeninsel, die als Düne bezeichnet wird.",
+          "fact_ids": [
+            "272085229-0009"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0008",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Helgoland ([ˈhɛl.ɡoˌlant], nordfriesisch deät Lun (Helgoländer Friesisch für „das Land“), englisch Heligoland) ist eine Insel im Bereich der Deutschen Bucht der Nordsee.",
+          "context": []
+        },
+        {
+          "id": "272085229-0009",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Die ursprünglich größere Insel zerbrach in der Neujahrsflut 1721; seitdem existiert die als Düne bezeichnete Nebeninsel.",
+          "context": [
+            "Helgoland ([ˈhɛl.ɡoˌlant], nordfriesisch deät Lun (Helgoländer Friesisch für „das Land“), englisch Heligoland) ist eine Insel im Bereich der Deutschen Bucht der Nordsee."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "aussage_2": 0.99,
+          "aussage_3": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Lena",
+      "text": "Zum Beispiel Physik. Im Juni neunzehnhundertfünfundzwanzig schloss der Physiker Werner Heisenberg auf Helgoland die grundlegenden Arbeiten an seiner mathematischen Beschreibung der Quantenmechanik ab. Er hatte sich wegen seines Heuschnupfens auf die Insel zurückgezogen.",
+      "previous_text": "Das ist schon ein wilder Start. Aber was ist auf dieser Insel danach noch alles passiert? Ich bin wirklich neugierig.",
+      "fact_ids": [
+        "272085229-0478",
+        "272085229-0479"
+      ],
+      "statements": [
+        {
+          "text": "Im Juni 1925 schloss Werner Heisenberg auf Helgoland die grundlegenden Arbeiten an seiner mathematischen Beschreibung der Quantenmechanik ab.",
+          "fact_ids": [
+            "272085229-0478"
+          ]
+        },
+        {
+          "text": "Er hatte sich wegen seines Heuschnupfens auf die Insel zurückgezogen.",
+          "fact_ids": [
+            "272085229-0479"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0478",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Im Juni 1925 schloss der Physiker Werner Heisenberg auf Helgoland die grundlegenden Arbeiten an seiner mathematischen Beschreibung der Quantenmechanik ab.",
+          "context": []
+        },
+        {
+          "id": "272085229-0479",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Er hatte sich wegen seines Heuschnupfens auf die Insel zurückgezogen.",
+          "context": [
+            "Im Juni 1925 schloss der Physiker Werner Heisenberg auf Helgoland die grundlegenden Arbeiten an seiner mathematischen Beschreibung der Quantenmechanik ab."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.84
+        },
+        "jev_error": null,
+        "reason": "Alle Behauptungen stimmen mit den Fakt-Sätzen überein: Juni 1925, Werner Heisenberg, Helgoland, Abschluss der grundlegenden Arbeiten an der mathematischen Beschreibung der Quantenmechanik (0478) sowie der Rückzug auf die Insel wegen Heuschnupfens (0479). Die einleitende Wendung \"Zum Beispiel Physik\" ist eine Überleitung ohne eigene Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Felix",
+      "text": "Das ist ja kurios! Heisenberg hat seine Arbeiten also auf der Insel abgeschlossen. Haben noch andere bekannte Gäste dort Spuren hinterlassen?",
+      "previous_text": "Zum Beispiel Physik. Im Juni neunzehnhundertfünfundzwanzig schloss der Physiker Werner Heisenberg auf Helgoland die grundlegenden Arbeiten an seiner mathematischen Beschreibung der Quantenmechanik ab. Er hatte sich wegen seines Heuschnupfens auf die Insel zurückgezogen.",
+      "fact_ids": [
+        "272085229-0478"
+      ],
+      "statements": [
+        {
+          "text": "Heisenberg schloss auf Helgoland grundlegende Arbeiten ab.",
+          "fact_ids": [
+            "272085229-0478"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0478",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Im Juni 1925 schloss der Physiker Werner Heisenberg auf Helgoland die grundlegenden Arbeiten an seiner mathematischen Beschreibung der Quantenmechanik ab.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.87
+        },
+        "jev_error": null,
+        "reason": "Die Aussage, Heisenberg habe seine Arbeiten auf der Insel abgeschlossen, folgt aus dem Fakt-Satz (Juni 1925, Helgoland, grundlegende Arbeiten zur Quantenmechanik). „Das ist ja kurios!“ ist eine Reaktion (Staunen). Die Frage nach anderen bekannten Gästen ist eine Nachfrage ohne neue Behauptung; ihre Prämisse (Heisenberg war ein bekannter Gast, der Spuren hinterließ) ist durch den Fakt gedeckt."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Lena",
+      "text": "Ja, Hoffmann. Seine Reise führte ihn auf die Insel, die damals eine britische Kronkolonie war. Während eines Ferienaufenthalts dichtete er dort am sechsundzwanzigsten August achtzehnhunderteinundvierzig das Lied der Deutschen. Er schrieb es auf die Hymne, die Joseph Haydn siebzehnhundertsiebenundneunzig für den römisch-deutschen Kaiser komponiert hatte.",
+      "previous_text": "Das ist ja kurios! Heisenberg hat seine Arbeiten also auf der Insel abgeschlossen. Haben noch andere bekannte Gäste dort Spuren hinterlassen?",
+      "fact_ids": [
+        "270086679-0006",
+        "272085229-0350"
+      ],
+      "statements": [
+        {
+          "text": "Das Lied der Deutschen entstand auf einer Reise Hoffmanns auf die Insel Helgoland, die damals eine britische Kronkolonie war.",
+          "fact_ids": [
+            "270086679-0006"
+          ]
+        },
+        {
+          "text": "Hoffmann dichtete es während eines Ferienaufenthalts am 26. August 1841 auf die von Joseph Haydn 1797 komponierte Hymne für den römisch-deutschen Kaiser.",
+          "fact_ids": [
+            "272085229-0350"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270086679-0006",
+          "article": "Das Lied der Deutschen",
+          "revid": 270086679,
+          "sentence": "Das Lied entstand auf einer Reise Hoffmanns auf die Insel Helgoland, damals britische Kronkolonie.",
+          "context": []
+        },
+        {
+          "id": "272085229-0350",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Er dichtete während eines Ferienaufenthalts auf Helgoland am 26. August 1841 das Lied der Deutschen auf die von Joseph Haydn 1797 komponierte Hymne für den römisch-deutschen Kaiser.",
+          "context": [
+            "In diesen Zusammenhang gehören auch die Besuche des Dichters Hoffmann von Fallersleben."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.85
+        },
+        "jev_error": null,
+        "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Reise Hoffmanns auf die Insel (Helgoland), damals britische Kronkolonie [270086679-0006]; Ferienaufenthalt, Dichtung des Lieds der Deutschen am 26. August 1841, auf die 1797 von Haydn für den römisch-deutschen Kaiser komponierte Hymne [272085229-0350]. Die ausgeschriebenen Zahlen stimmen mit den Daten überein, und es kommt keine zusätzliche Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Felix",
+      "text": "Das Lied der Deutschen entstand also auf einer Insel, die damals britisch war. War dort in dieser Zeit eigentlich viel los?",
+      "previous_text": "Ja, Hoffmann. Seine Reise führte ihn auf die Insel, die damals eine britische Kronkolonie war. Während eines Ferienaufenthalts dichtete er dort am sechsundzwanzigsten August achtzehnhunderteinundvierzig das Lied der Deutschen. Er schrieb es auf die Hymne, die Joseph Haydn siebzehnhundertsiebenundneunzig für den römisch-deutschen Kaiser komponiert hatte.",
+      "fact_ids": [
+        "270086679-0006"
+      ],
+      "statements": [
+        {
+          "text": "Das Lied der Deutschen entstand auf einer Insel, die damals eine britische Kronkolonie war.",
+          "fact_ids": [
+            "270086679-0006"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270086679-0006",
+          "article": "Das Lied der Deutschen",
+          "revid": 270086679,
+          "sentence": "Das Lied entstand auf einer Reise Hoffmanns auf die Insel Helgoland, damals britische Kronkolonie.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.89
+        },
+        "jev_error": null,
+        "reason": "Die Behauptung, das Lied sei auf Helgoland entstanden, das damals britisch war, folgt aus [270086679-0006]. Die Frage, ob dort viel los war, ist eine Nachfrage ohne neue Information und gilt als belegfrei."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 7,
+      "speaker": "Lena",
+      "text": "Und wie. Seit Anfang achtzehnhundertacht entwickelte sich Helgoland zu einem lebhaften Schmuggelplatz. Die Insel übernahm gewissermaßen die Funktion Hamburgs als Überseehafen. Bis zu vierhundert Schiffe liefen täglich die Insel an. Zwischen achtzehnhundertsieben und achtzehnhundertzehn verzehnfachten sich außerdem die Preise für Wohnhäuser.",
+      "previous_text": "Das Lied der Deutschen entstand also auf einer Insel, die damals britisch war. War dort in dieser Zeit eigentlich viel los?",
+      "fact_ids": [
+        "272085229-0286",
+        "272085229-0288",
+        "272085229-0301"
+      ],
+      "statements": [
+        {
+          "text": "Helgoland entwickelte sich seit Anfang 1808 zu einem lebhaften Schmuggelplatz.",
+          "fact_ids": [
+            "272085229-0286"
+          ]
+        },
+        {
+          "text": "Die Insel übernahm gewissermaßen die Funktion Hamburgs als Überseehafen.",
+          "fact_ids": [
+            "272085229-0286"
+          ]
+        },
+        {
+          "text": "Bis zu 400 Schiffe liefen täglich die Insel an.",
+          "fact_ids": [
+            "272085229-0288"
+          ]
+        },
+        {
+          "text": "Zwischen 1807 und 1810 verzehnfachten sich die Preise für Wohnhäuser.",
+          "fact_ids": [
+            "272085229-0301"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0286",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Helgoland entwickelte sich seit Anfang 1808 zu einem lebhaften Schmuggelplatz; die Insel übernahm gewissermaßen die Funktion Hamburgs als Überseehafen.",
+          "context": [
+            "Der erste Gouverneur wurde Corbet James D’Auvergne, der aber schon im Februar 1808 sein Amt an William Osborne Hamilton (1750–1818) übergab."
+          ]
+        },
+        {
+          "id": "272085229-0288",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Bis zu 400 Schiffe liefen täglich die Insel an.",
+          "context": [
+            "Helgoland entwickelte sich seit Anfang 1808 zu einem lebhaften Schmuggelplatz; die Insel übernahm gewissermaßen die Funktion Hamburgs als Überseehafen.",
+            "Viele Hamburger und britische Kaufleute hatten Vertretungen auf Helgoland."
+          ]
+        },
+        {
+          "id": "272085229-0301",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Zwischen 1807 und 1810 verzehnfachten sich die Preise für Wohnhäuser.",
+          "context": [
+            "Der Schmuggel, der letztlich meist von Helgoländer Fischern gegen Bezahlung durch die Händler durchgeführt wurde, die zunehmende Tätigkeit als Schauerleute sowie die Unterbringung von Händlern und anderen ausländischen Besuchern führten zu erheblich wachsendem Wohlstand."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "aussage_3": 0.98,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Schmuggelplatz seit Anfang 1808 und Hamburgs Überseehafen-Funktion (0286), bis zu 400 Schiffe täglich (0288), Verzehnfachung der Wohnhauspreise zwischen 1807 und 1810 (0301). Das einleitende „Und wie.“ ist eine Reaktion ohne Faktenbehauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 9,
+      "speaker": "Lena",
+      "text": "Da gibt es eine schöne Geschichte aus der Diplomatie. Aus Gründen des Protokolls betrat Kaiser Wilhelm II. die Insel erst am zehnten August. Zur direkten Übergabe fehlte ihm nämlich ein britisches Staatsoberhaupt als Gegenüber.",
+      "previous_text": "Das klingt nach wildem Treiben! Und wie ging es danach weiter mit der Insel?",
+      "fact_ids": [
+        "272085229-0409"
+      ],
+      "statements": [
+        {
+          "text": "Aus Gründen des Protokolls betrat Kaiser Wilhelm II. die Insel erst am 10. August.",
+          "fact_ids": [
+            "272085229-0409"
+          ]
+        },
+        {
+          "text": "Zur direkten Übergabe fehlte ihm ein britisches Staatsoberhaupt als Gegenüber.",
+          "fact_ids": [
+            "272085229-0409"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0409",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Aus Gründen des Protokolls betrat Kaiser Wilhelm II. die Insel erst am 10. August – zur direkten Übergabe fehlte ihm ein britisches Staatsoberhaupt als Gegenüber.",
+          "context": [
+            "Die offizielle Übergabe Helgolands fand am 9. August 1890 statt; daran nahmen von deutscher Seite Karl Heinrich von Boetticher (Staatssekretär im Reichsamt des Innern) und von englischer Seite Gouverneur Barkly teil.",
+            "Organisiert wurde die Übergabe durch Adolf Wermuth, beraten wurden beide Seiten von Rudolf Lindau."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.62
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz fast wörtlich wieder: Aus Protokollgründen betrat Wilhelm II. die Insel erst am 10. August, weil ihm ein britisches Staatsoberhaupt als Gegenüber fehlte. Die Einordnung als „schöne Geschichte aus der Diplomatie“ ist eine Wertung ohne zusätzlichen Faktengehalt. Es kommen keine weiteren Angaben hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 11,
+      "speaker": "Lena",
+      "text": "Sehr ernst. Am ersten August wurde den Helgoländern befohlen, die Insel binnen zwölf Stunden zu verlassen. Man nahm allgemein an, der Krieg werde nur wenige Wochen dauern. Tatsächlich konnten die Helgoländer erst neunzehnhundertachtzehn wieder zurückkehren.",
+      "previous_text": "Das ist ja amüsant, woran so etwas hängen kann! Wurde es auf der Insel später auch einmal ernster?",
+      "fact_ids": [
+        "272085229-0453",
+        "272085229-0455"
+      ],
+      "statements": [
+        {
+          "text": "Am 1. August wurde den Helgoländern befohlen, die Insel binnen zwölf Stunden zu verlassen.",
+          "fact_ids": [
+            "272085229-0453"
+          ]
+        },
+        {
+          "text": "Allgemein nahm man an, der Krieg werde nur wenige Wochen dauern.",
+          "fact_ids": [
+            "272085229-0455"
+          ]
+        },
+        {
+          "text": "Die Helgoländer konnten erst 1918 wieder zurückkehren.",
+          "fact_ids": [
+            "272085229-0455"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0453",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Tags darauf am 1. August wurde den Helgoländern befohlen, die Insel binnen zwölf Stunden zu verlassen.",
+          "context": [
+            "Mit der kaiserlichen Erklärung des Kriegszustandes am 31. Juli 1914 bekam der Festungskommandant absolute Vollmachten auf Helgoland.",
+            "In seinem Anschlag des gleichen Tages verfügte er die Ausweisung aller Gäste und wies auf sein Recht zu Verhaftungen, Hausdurchsuchungen und Waffengewalt hin.",
+            "Auch kleinere Versammlungen wurden verboten."
+          ]
+        },
+        {
+          "id": "272085229-0455",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Entgegen der allgemeinen Annahme, der Krieg werde nur wenige Wochen dauern, konnten die Helgoländer erst 1918 wieder zurückkehren.",
+          "context": [
+            "Tags darauf am 1. August wurde den Helgoländern befohlen, die Insel binnen zwölf Stunden zu verlassen.",
+            "In Hamburg angekommen, war entgegen Versprechungen des Militärs keine Unterkunft organisiert, sie wurden nach einer Nacht auf den Dampfern und Landungsbrücken zunächst in den Auswandererhallen untergebracht."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.77
+        },
+        "jev_error": null,
+        "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Der Befehl vom 1. August, die Insel binnen zwölf Stunden zu verlassen, steht in 0453. Die allgemeine Annahme, der Krieg dauere nur wenige Wochen, und die Rückkehr erst 1918 stehen in 0455. Der Einstieg „Sehr ernst.“ ist eine belegfreie Reaktion."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 13,
+      "speaker": "Lena",
+      "text": "Ja, einen gewaltigen. Am achtzehnten April neunzehnhundertsiebenundvierzig zerstörten die Briten die militärischen Bunkeranlagen der Insel. Es war bis neunzehnhundertfünfundachtzig die größte nichtnukleare Sprengung der Geschichte. Die Briten nannten sie Operation Big Bang oder British Bang. Sie setzten dafür sechstausendsiebenhundert Tonnen Sprengstoff ein, mit einer Sprengkraft von ungefähr drei Komma zwei Kilotonnen TNT-Äquivalent.",
+      "previous_text": "Das ist bitter. Gab es danach noch weitere große Einschnitte?",
+      "fact_ids": [
+        "272085229-0558",
+        "272091002-0001"
+      ],
+      "statements": [
+        {
+          "text": "Am 18. April 1947 zerstörten die Briten die militärischen Bunkeranlagen der Insel mit der bis 1985 größten nichtnuklearen Sprengung der Geschichte.",
+          "fact_ids": [
+            "272085229-0558"
+          ]
+        },
+        {
+          "text": "Die Briten nannten die Sprengung Operation Big Bang oder British Bang.",
+          "fact_ids": [
+            "272091002-0001"
+          ]
+        },
+        {
+          "text": "Sie verwendeten 6700 Tonnen Sprengstoff mit einer Sprengkraft von circa 3,2 Kilotonnen TNT-Äquivalent.",
+          "fact_ids": [
+            "272091002-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0558",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Am 18. April 1947 zerstörten die Briten mit der bis 1985 größten nichtnuklearen Sprengung der Geschichte die militärischen Bunkeranlagen der Insel.",
+          "context": []
+        },
+        {
+          "id": "272091002-0001",
+          "article": "Sprengung von Bunkeranlagen auf Helgoland",
+          "revid": 272091002,
+          "sentence": "Die von den Briten als Operation Big Bang oder British Bang bezeichnete Sprengung war mit 6700 Tonnen Sprengstoff, die eine Sprengkraft von circa 3,2 Kilotonnen TNT-Äquivalent entwickelten, die bis dahin größte nicht-atomare, von Menschen gewollt erzeugte Explosion.",
+          "context": [
+            "Die Sprengung von Bunkeranlagen auf Helgoland fand am 18. April 1947 um 13 Uhr statt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.58
+        },
+        "jev_error": null,
+        "reason": "Datum (18. April 1947), Zerstörung der militärischen Bunkeranlagen der Insel, größte nichtnukleare Sprengung bis 1985, die Bezeichnung Operation Big Bang oder British Bang, 6700 Tonnen Sprengstoff und circa 3,2 Kilotonnen TNT-Äquivalent stehen alle in den zitierten Fakten. Das einleitende „Ja, einen gewaltigen“ ist eine Antwort, die durch die Größe der Sprengung gedeckt ist. Es kommt keine zusätzliche Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 14,
+      "speaker": "Felix",
+      "text": "Eine Sprengung dieses Ausmaßes! Hätte die Insel das überhaupt überstehen können?",
+      "previous_text": "Ja, einen gewaltigen. Am achtzehnten April neunzehnhundertsiebenundvierzig zerstörten die Briten die militärischen Bunkeranlagen der Insel. Es war bis neunzehnhundertfünfundachtzig die größte nichtnukleare Sprengung der Geschichte. Die Briten nannten sie Operation Big Bang oder British Bang. Sie setzten dafür sechstausendsiebenhundert Tonnen Sprengstoff ein, mit einer Sprengkraft von ungefähr drei Komma zwei Kilotonnen TNT-Äquivalent.",
+      "fact_ids": [
+        "272091002-0001"
+      ],
+      "statements": [
+        {
+          "text": "Die Sprengung war die bis dahin größte nicht-atomare, von Menschen gewollt erzeugte Explosion.",
+          "fact_ids": [
+            "272091002-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272091002-0001",
+          "article": "Sprengung von Bunkeranlagen auf Helgoland",
+          "revid": 272091002,
+          "sentence": "Die von den Briten als Operation Big Bang oder British Bang bezeichnete Sprengung war mit 6700 Tonnen Sprengstoff, die eine Sprengkraft von circa 3,2 Kilotonnen TNT-Äquivalent entwickelten, die bis dahin größte nicht-atomare, von Menschen gewollt erzeugte Explosion.",
+          "context": [
+            "Die Sprengung von Bunkeranlagen auf Helgoland fand am 18. April 1947 um 13 Uhr statt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.85
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht aus einer Reaktion (Staunen über das Ausmaß der Sprengung) und einer Nachfrage, ob die Insel die Sprengung überstehen konnte. Beides ist belegfrei. \"Dieses Ausmaß\" nimmt nur das Gesagte auf, die Prämisse der größten nicht-atomaren Explosion wird durch den zitierten Fakt gedeckt. Die Frage fügt keine neue Behauptung hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 15,
+      "speaker": "Lena",
+      "text": "Es erschien durch die enorme Menge an Sprengstoff sogar möglich, die gesamte Insel vollständig zu vernichten. Das war zwar nicht das Ziel der Aktion, wurde aber in Kauf genommen. Der Sandstein, aus dem die Insel besteht, ist allerdings porös und ließ die Druckwelle entweichen. Deshalb wurde nur die Südspitze zerstört. An der Nordspitze gab es erhebliche Schäden.",
+      "previous_text": "Eine Sprengung dieses Ausmaßes! Hätte die Insel das überhaupt überstehen können?",
+      "fact_ids": [
+        "272091002-0003",
+        "272091002-0004"
+      ],
+      "statements": [
+        {
+          "text": "Durch die enorme Menge an Sprengstoff erschien es möglich, die gesamte Insel zu vernichten; das war nicht das Ziel, wurde aber in Kauf genommen.",
+          "fact_ids": [
+            "272091002-0003"
+          ]
+        },
+        {
+          "text": "Der poröse Sandstein, aus dem die Insel besteht, ließ die Druckwelle entweichen.",
+          "fact_ids": [
+            "272091002-0004"
+          ]
+        },
+        {
+          "text": "Nur die Südspitze wurde zerstört, an der Nordspitze gab es erhebliche Schäden.",
+          "fact_ids": [
+            "272091002-0004"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272091002-0003",
+          "article": "Sprengung von Bunkeranlagen auf Helgoland",
+          "revid": 272091002,
+          "sentence": "Durch die enorme Menge an Sprengstoff erschien es zudem möglich, die gesamte Insel vollständig zu vernichten, was zwar nicht Ziel der Aktion war, aber in Kauf genommen wurde.",
+          "context": [
+            "Die von den Briten als Operation Big Bang oder British Bang bezeichnete Sprengung war mit 6700 Tonnen Sprengstoff, die eine Sprengkraft von circa 3,2 Kilotonnen TNT-Äquivalent entwickelten, die bis dahin größte nicht-atomare, von Menschen gewollt erzeugte Explosion.",
+            "Das Ziel der Sprengung war, die Bunker- und Militäranlagen der Nordseeinsel Helgoland zu zerstören."
+          ]
+        },
+        {
+          "id": "272091002-0004",
+          "article": "Sprengung von Bunkeranlagen auf Helgoland",
+          "revid": 272091002,
+          "sentence": "Allerdings ließ der poröse Sandstein, aus dem die Insel besteht, die Druckwelle entweichen; somit wurde nur die Südspitze der Insel durch die Sprengung zerstört, an der Nordspitze gab es erhebliche Schäden.",
+          "context": [
+            "Das Ziel der Sprengung war, die Bunker- und Militäranlagen der Nordseeinsel Helgoland zu zerstören.",
+            "Durch die enorme Menge an Sprengstoff erschien es zudem möglich, die gesamte Insel vollständig zu vernichten, was zwar nicht Ziel der Aktion war, aber in Kauf genommen wurde."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.98,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 16,
+      "speaker": "Felix",
+      "text": "Der poröse Sandstein hat die Insel also vor dem Schlimmsten bewahrt. Gab es in dieser Zeit noch weitere gefährliche Hinterlassenschaften?",
+      "previous_text": "Es erschien durch die enorme Menge an Sprengstoff sogar möglich, die gesamte Insel vollständig zu vernichten. Das war zwar nicht das Ziel der Aktion, wurde aber in Kauf genommen. Der Sandstein, aus dem die Insel besteht, ist allerdings porös und ließ die Druckwelle entweichen. Deshalb wurde nur die Südspitze zerstört. An der Nordspitze gab es erhebliche Schäden.",
+      "fact_ids": [
+        "272091002-0004"
+      ],
+      "statements": [
+        {
+          "text": "Der poröse Sandstein ließ die Druckwelle entweichen, sodass nur die Südspitze zerstört wurde.",
+          "fact_ids": [
+            "272091002-0004"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272091002-0004",
+          "article": "Sprengung von Bunkeranlagen auf Helgoland",
+          "revid": 272091002,
+          "sentence": "Allerdings ließ der poröse Sandstein, aus dem die Insel besteht, die Druckwelle entweichen; somit wurde nur die Südspitze der Insel durch die Sprengung zerstört, an der Nordspitze gab es erhebliche Schäden.",
+          "context": [
+            "Das Ziel der Sprengung war, die Bunker- und Militäranlagen der Nordseeinsel Helgoland zu zerstören.",
+            "Durch die enorme Menge an Sprengstoff erschien es zudem möglich, die gesamte Insel vollständig zu vernichten, was zwar nicht Ziel der Aktion war, aber in Kauf genommen wurde."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.71
+        },
+        "jev_error": null,
+        "reason": "Die Aussage, der poröse Sandstein habe die Insel vor dem Schlimmsten bewahrt, ist eine zulässige Zusammenfassung des Fakts: Er ließ die Druckwelle entweichen, sodass nur die Südspitze zerstört wurde. Die anschließende Frage ist eine Nachfrage ohne neue Tatsachenbehauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 17,
+      "speaker": "Lena",
+      "text": "Ja. Noch neunzehnhundertneunundvierzig wurden im Helgoländer Loch Granaten mit bis zu zehn Tonnen Tabun versenkt. Das Loch liegt etwa zweieinhalb Seemeilen südlich von Helgoland, ungefähr vier Komma sechs Kilometer entfernt. Es handelte sich um rund neunzig Tonnen Giftgasgranaten, das waren etwa sechstausend einzelne Granaten.",
+      "previous_text": "Der poröse Sandstein hat die Insel also vor dem Schlimmsten bewahrt. Gab es in dieser Zeit noch weitere gefährliche Hinterlassenschaften?",
+      "fact_ids": [
+        "272085229-0561"
+      ],
+      "statements": [
+        {
+          "text": "Noch 1949 wurden im Helgoländer Loch Granaten mit bis zu zehn Tonnen Tabun versenkt.",
+          "fact_ids": [
+            "272085229-0561"
+          ]
+        },
+        {
+          "text": "Das Helgoländer Loch liegt etwa 2,5 Seemeilen, ungefähr 4,6 Kilometer, südlich von Helgoland.",
+          "fact_ids": [
+            "272085229-0561"
+          ]
+        },
+        {
+          "text": "Es waren rund 90 Tonnen Giftgasgranaten, etwa 6000 einzelne Granaten.",
+          "fact_ids": [
+            "272085229-0561"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0561",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Noch 1949 wurden im „Helgoländer Loch“, etwa 2,5 Seemeilen (ca. 4,6 km) südlich von Helgoland, Granaten mit bis zu zehn Tonnen Tabun versenkt, rund 90 Tonnen Giftgasgranaten (ca. 6000 einzelne Granaten).",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Alle Angaben stimmen mit dem Fakt-Satz überein: 1949, Helgoländer Loch, etwa 2,5 Seemeilen (ca. 4,6 km) südlich von Helgoland, bis zu zehn Tonnen Tabun, rund 90 Tonnen Giftgasgranaten, ca. 6000 Granaten. Die ausgeschriebenen Zahlen und die Umformulierung sind zulässig. Das einleitende „Ja“ ist eine belegfreie Reaktion. Es kommt keine zusätzliche Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 19,
+      "speaker": "Lena",
+      "text": "Allerdings. Am zwanzigsten Dezember neunzehnhundertfünfzig besetzten die beiden Heidelberger Studenten René Leudesdorff und Georg von Hatzfeld für zwei Nächte und einen Tag die Insel. Für die Presse hissten sie die deutsche Flagge, die Flagge der Europäischen Bewegung und die Flagge Helgolands in unterschiedlichen Variationen.",
+      "previous_text": "Das ist beklemmend. Gab es in dieser Zeit auch heitere Ereignisse?",
+      "fact_ids": [
+        "272085229-0567"
+      ],
+      "statements": [
+        {
+          "text": "Am 20. Dezember 1950 besetzten die Heidelberger Studenten René Leudesdorff und Georg von Hatzfeld für zwei Nächte und einen Tag die Insel.",
+          "fact_ids": [
+            "272085229-0567"
+          ]
+        },
+        {
+          "text": "Für die Presse hissten sie die deutsche Flagge, die Flagge der Europäischen Bewegung und die Flagge Helgolands in unterschiedlichen Variationen.",
+          "fact_ids": [
+            "272085229-0567"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0567",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Am 20. Dezember 1950 besetzten die beiden Heidelberger Studenten René Leudesdorff und Georg von Hatzfeld für zwei Nächte und einen Tag die Insel und hissten für die Presse die deutsche Flagge, die Flagge der Europäischen Bewegung und die Flagge Helgolands in unterschiedlichen Variationen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Alle Angaben im Redebeitrag (Datum 20. Dezember 1950, die beiden Heidelberger Studenten René Leudesdorff und Georg von Hatzfeld, zwei Nächte und ein Tag, die drei Flaggen für die Presse in unterschiedlichen Variationen) stimmen mit dem Fakt-Satz überein. Das einleitende \"Allerdings.\" ist eine belegfreie Reaktion."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 21,
+      "speaker": "Lena",
+      "text": "Eine ganz besondere. Nach der Sprengung der Bunkeranlagen wurde in den fünfziger Jahren die Insel mit Atlantis gleichgesetzt. Das tat Jürgen Spanuth in Aufnahme völkischer Ideen. Er erlangte Bekanntheit durch seine kontroversen Thesen zur Atlantis-Legende. Die Fachwelt stufte sie jedoch als wissenschaftlich nicht haltbar ein.",
+      "previous_text": "Das klingt nach einem mutigen Studentenstreich! Und gab es auch Ideen, die sich eher wie Legenden anhören?",
+      "fact_ids": [
+        "272085229-0194",
+        "266510031-0001"
+      ],
+      "statements": [
+        {
+          "text": "Nach der Sprengung von Bunkeranlagen wurde in den 1950er Jahren von Jürgen Spanuth in Aufnahme völkischer Ideen die Insel mit Atlantis gleichgesetzt.",
+          "fact_ids": [
+            "272085229-0194"
+          ]
+        },
+        {
+          "text": "Spanuth erlangte Bekanntheit durch kontroverse Thesen zur Atlantis-Legende.",
+          "fact_ids": [
+            "266510031-0001"
+          ]
+        },
+        {
+          "text": "Die Fachwelt stufte diese Thesen als wissenschaftlich nicht haltbar ein.",
+          "fact_ids": [
+            "266510031-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0194",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Nach der Sprengung von Bunkeranlagen auf Helgoland wurde in den 1950er Jahren in Aufnahme völkischer Ideen von Jürgen Spanuth die Insel mit Atlantis gleichgesetzt.",
+          "context": [
+            "Emphatisch wurde die Vorgeschichte wieder in der völkischen Bewegung betrachtet, zum Beispiel von Heinrich Pudor."
+          ]
+        },
+        {
+          "id": "266510031-0001",
+          "article": "Jürgen Spanuth",
+          "revid": 266510031,
+          "sentence": "Er erlangte Bekanntheit durch seine kontroversen Thesen zur Atlantis-Legende, die in der Fachwelt jedoch als wissenschaftlich nicht haltbar eingestuft wurden.",
+          "context": [
+            "Jürgen (Georg) Ferdinand Spanuth (* 5. September 1907 in Leoben, Österreich; † 17. Oktober 1998) war ein deutscher evangelischer Pfarrer und Amateurarchäologe."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.74
+        },
+        "jev_error": null,
+        "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen. Sprengung der Bunkeranlagen, Gleichsetzung der Insel mit Atlantis in den 1950er Jahren, Spanuths Aufnahme völkischer Ideen sowie seine Bekanntheit durch kontroverse Thesen, die die Fachwelt als wissenschaftlich nicht haltbar einstufte, stehen in den Fakten. Dass die Insel Helgoland ist, wird nicht behauptet. Der Einstieg „Eine ganz besondere“ ist eine belegfreie Reaktion."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Felix",
+      "text": "Spanuths Atlantis-These hält die Fachwelt also nicht für haltbar. Und wie ging es nach der Sprengung der Bunkeranlagen mit der Insel weiter?",
+      "previous_text": "Eine ganz besondere. Nach der Sprengung der Bunkeranlagen wurde in den fünfziger Jahren die Insel mit Atlantis gleichgesetzt. Das tat Jürgen Spanuth in Aufnahme völkischer Ideen. Er erlangte Bekanntheit durch seine kontroversen Thesen zur Atlantis-Legende. Die Fachwelt stufte sie jedoch als wissenschaftlich nicht haltbar ein.",
+      "fact_ids": [
+        "266510031-0001",
+        "272085229-0558"
+      ],
+      "statements": [
+        {
+          "text": "Spanuths Thesen zur Atlantis-Legende gelten in der Fachwelt als wissenschaftlich nicht haltbar.",
+          "fact_ids": [
+            "266510031-0001"
+          ]
+        },
+        {
+          "text": "Die Briten zerstörten am 18. April 1947 die militärischen Bunkeranlagen der Insel durch eine Sprengung.",
+          "fact_ids": [
+            "272085229-0558"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "266510031-0001",
+          "article": "Jürgen Spanuth",
+          "revid": 266510031,
+          "sentence": "Er erlangte Bekanntheit durch seine kontroversen Thesen zur Atlantis-Legende, die in der Fachwelt jedoch als wissenschaftlich nicht haltbar eingestuft wurden.",
+          "context": [
+            "Jürgen (Georg) Ferdinand Spanuth (* 5. September 1907 in Leoben, Österreich; † 17. Oktober 1998) war ein deutscher evangelischer Pfarrer und Amateurarchäologe."
+          ]
+        },
+        {
+          "id": "272085229-0558",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Am 18. April 1947 zerstörten die Briten mit der bis 1985 größten nichtnuklearen Sprengung der Geschichte die militärischen Bunkeranlagen der Insel.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.79
+        },
+        "jev_error": null,
+        "reason": "Die Aussage, die Fachwelt halte Spanuths Atlantis-These nicht für haltbar, folgt aus [266510031-0001]. Die Prämisse der Frage, dass die Bunkeranlagen der Insel gesprengt wurden, folgt aus [272085229-0558]. Der Rest ist eine Nachfrage ohne Belegpflicht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 23,
+      "speaker": "Lena",
+      "text": "Im Frühjahr neunzehnhundertzweiundfünfzig wurde eine Wiederaufbaukommission ins Leben gerufen. Sie organisierte einen Architekturwettbewerb. Daran beteiligten sich hundertzweiundzwanzig Architekturbüros.",
+      "previous_text": "Spanuths Atlantis-These hält die Fachwelt also nicht für haltbar. Und wie ging es nach der Sprengung der Bunkeranlagen mit der Insel weiter?",
+      "fact_ids": [
+        "272085229-0583"
+      ],
+      "statements": [
+        {
+          "text": "Im Frühjahr 1952 wurde eine Wiederaufbaukommission ins Leben gerufen, die einen Architekturwettbewerb organisierte.",
+          "fact_ids": [
+            "272085229-0583"
+          ]
+        },
+        {
+          "text": "An dem Architekturwettbewerb beteiligten sich 122 Architekturbüros.",
+          "fact_ids": [
+            "272085229-0583"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0583",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Im Frühjahr 1952 wurde eine Wiederaufbaukommission ins Leben gerufen, die einen Architekturwettbewerb organisierte, an dem sich 122 Architekturbüros beteiligten.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 25,
+      "speaker": "Lena",
+      "text": "Ja, im Leuchtturm. In den unteren zwei Stockwerken wurde zur Zeit des Kalten Krieges ein Atombunker eingebaut. Die Scheinfenster dort brachte man nur aus ästhetischen Gründen an.",
+      "previous_text": "Spannend! Und gibt es ein Gebäude, in dem sich etwas Unerwartetes verbirgt?",
+      "fact_ids": [
+        "272085229-0696"
+      ],
+      "statements": [
+        {
+          "text": "Im Leuchtturm wurde zur Zeit des Kalten Krieges in den unteren zwei Stockwerken ein Atombunker eingebaut.",
+          "fact_ids": [
+            "272085229-0696"
+          ]
+        },
+        {
+          "text": "Die Scheinfenster in diesen Stockwerken brachte man nur aus ästhetischen Gründen an.",
+          "fact_ids": [
+            "272085229-0696"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0696",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "In den unteren zwei Stockwerken des Leuchtturms wurde zur Zeit des Kalten Krieges ein Atombunker eingebaut; die Scheinfenster in diesen Stockwerken brachte man nur aus ästhetischen Gründen an.",
+          "context": [
+            "Leuchtturm: steht in unmittelbarer Nähe zum Richtfunkturm.",
+            "Der im Zweiten Weltkrieg als Flakturm bzw. Flakleitstand konzipierte Bau wurde 1952 als Leuchtturm in Betrieb genommen.",
+            "Er besitzt das lichtstärkste deutsche Feuer mit einer Nenntragweite von 28 Seemeilen (52 Kilometer), so dass der Lichtstrahl in klaren Nächten bis zu den Ostfriesischen Inseln auszumachen ist."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.86
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen stehen im Fakt-Satz: Atombunker in den unteren zwei Stockwerken des Leuchtturms zur Zeit des Kalten Krieges, Scheinfenster nur aus ästhetischen Gründen. \"Ja, im Leuchtturm\" ist eine Antwort, die sich auf den Fakt stützt, und fügt nichts Neues hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 27,
+      "speaker": "Lena",
+      "text": "Helgoland wurde mit dem abfälligen Spitznamen „Fuselfelsen“ bedacht, weil Touristen dort alkoholische Getränke zollfrei kaufen konnten. Auch rechtlich ist die Insel besonders. Für Helgoland und die Düne gelten steuerrechtliche Sonderregelungen. Die Gemeinde ist zwar Teil des deutschen Wirtschaftsgebietes, zählt aber weder zum Zollgebiet der Union, noch werden deutsche Verbrauchsteuern erhoben.",
+      "previous_text": "Das ist ja ein Ding! Und wie steht es um die Touristen auf der Insel?",
+      "fact_ids": [
+        "272085229-0746",
+        "272085229-0013"
+      ],
+      "statements": [
+        {
+          "text": "Helgoland erhielt den abfälligen Spitznamen „Fuselfelsen“, weil Touristen dort alkoholische Getränke zollfrei kaufen konnten.",
+          "fact_ids": [
+            "272085229-0746"
+          ]
+        },
+        {
+          "text": "Für Helgoland und die Düne gelten steuerrechtliche Sonderregelungen.",
+          "fact_ids": [
+            "272085229-0013"
+          ]
+        },
+        {
+          "text": "Die Gemeinde ist Teil des deutschen Wirtschaftsgebietes, zählt aber nicht zum Zollgebiet der Union, und deutsche Verbrauchsteuern werden nicht erhoben.",
+          "fact_ids": [
+            "272085229-0013"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0746",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Helgoland wurde damals mit dem abfälligen Spitznamen „Fuselfelsen“ bedacht, weil Touristen dort alkoholische Getränke zollfrei kaufen konnten.",
+          "context": [
+            "Von Ende der 1960er bis Ende der 1970er Jahre kamen bis zu 800.000 Ausflügler im Jahr – Besucherzahlen, die später nicht mehr erreicht wurden."
+          ]
+        },
+        {
+          "id": "272085229-0013",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Für beide Inseln gelten steuerrechtliche Sonderregelungen: Die Gemeinde ist zwar Teil des deutschen Wirtschaftsgebietes, zählt aber weder zum Zollgebiet der Union noch werden deutsche Verbrauchsteuern erhoben.",
+          "context": [
+            "Die Inselgruppe Helgoland und Düne gehört seit 1890 zum deutschen Staatsgebiet und ist als amtsfreie Gemeinde Helgoland in den Kreis Pinneberg (Schleswig-Holstein) integriert."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen. Der „Fuselfelsen“-Satz entspricht Fakt 0746; „damals“ fehlt im Redebeitrag, das ist unproblematisch. „Für Helgoland und die Düne“ gibt „für beide Inseln“ aus Fakt 0013 wieder, die Aussagen zu Wirtschaftsgebiet, Zollgebiet und Verbrauchsteuern stimmen damit überein. „Auch rechtlich ist die Insel besonders“ ist eine Überleitung, die sich auf die Sonderregelungen stützt. Es kommt keine zusätzliche Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 29,
+      "speaker": "Lena",
+      "text": "Seit neunzehnhunderteinundsiebzig sind auf der Insel gemäß Paragraf fünfzig der Straßenverkehrsordnung der Verkehr mit Kraftfahrzeugen und das Radfahren verboten. Trotzdem gibt es zwei Fußgängerampeln. Sie stehen auf der Düne und warnen vor landenden Flugzeugen.",
+      "previous_text": "Verständlich! Wie bewegt man sich denn auf so einer Insel fort?",
+      "fact_ids": [
+        "272085229-0826",
+        "272085229-0842"
+      ],
+      "statements": [
+        {
+          "text": "Auf der Insel Helgoland sind seit 1971 gemäß § 50 der StVO der Verkehr mit Kraftfahrzeugen und das Radfahren verboten.",
+          "fact_ids": [
+            "272085229-0826"
+          ]
+        },
+        {
+          "text": "Es gibt zwei Fußgängerampeln, die auf der Düne stehen und vor landenden Flugzeugen warnen.",
+          "fact_ids": [
+            "272085229-0842"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0826",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Auf der Insel Helgoland sind seit 1971 gemäß § 50 der StVO Sonderregelung für die Insel Helgoland der Verkehr mit Kraftfahrzeugen und das Radfahren verboten.",
+          "context": []
+        },
+        {
+          "id": "272085229-0842",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Es gibt zwei Fußgängerampeln; sie stehen auf der Düne und warnen vor landenden Flugzeugen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.84
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Verbot von Kraftfahrzeugverkehr und Radfahren seit 1971 nach § 50 StVO (0826) sowie zwei Fußgängerampeln auf der Düne, die vor landenden Flugzeugen warnen (0842). \"Trotzdem\" ist nur eine Überleitung und fügt keine neue Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 31,
+      "speaker": "Lena",
+      "text": "Weder im geografischen noch im rechtlichen Sinn liegt die Insel im Bereich der Hohen See. Seit neunzehnhundertfünfundneunzig überschneidet sich die Zwölf-Meilen-Zone vor dem Festland oder den vorgelagerten Inseln mit derjenigen um Helgoland. Deshalb trennt kein internationales Gewässer die Insel vom Festland.",
+      "previous_text": "Ampeln für Flugzeuge, wie originell! Liegt die Insel eigentlich auf der Hohen See?",
+      "fact_ids": [
+        "272085229-0021",
+        "272085229-0023"
+      ],
+      "statements": [
+        {
+          "text": "Weder geografisch noch rechtlich liegt die Insel im Bereich der Hohen See.",
+          "fact_ids": [
+            "272085229-0021"
+          ]
+        },
+        {
+          "text": "Die seit 1995 gültige 12-Meilen-Zone vor dem Festland oder den vorgelagerten Inseln überschneidet sich mit der um Helgoland.",
+          "fact_ids": [
+            "272085229-0023"
+          ]
+        },
+        {
+          "text": "Deshalb trennt kein internationales Gewässer die Insel vom Festland.",
+          "fact_ids": [
+            "272085229-0023"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0021",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Doch weder im geografischen noch im rechtlichen Sinn liegt die Insel im Bereich der Hohen See.",
+          "context": [
+            "Wegen seiner Lage auf offener See wird Helgoland häufig als „einzige Hochseeinsel Deutschlands“ bezeichnet."
+          ]
+        },
+        {
+          "id": "272085229-0023",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Die seit 1995 gültige 12-Meilen-Zone vor dem Festland oder den vorgelagerten Inseln überschneidet sich mit derjenigen um Helgoland, so dass kein internationales Gewässer die Insel vom Festland trennt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.39
+        },
+        "jev_error": null,
+        "reason": "Alle drei Aussagen folgen aus den Fakt-Sätzen: Der erste Satz entspricht 0021 (weder geografisch noch rechtlich Hohe See). Der zweite entspricht 0023 (seit 1995 überschneidet sich die 12-Meilen-Zone vor dem Festland oder den vorgelagerten Inseln mit der um Helgoland). Der dritte ist die Folgerung aus 0023 (kein internationales Gewässer trennt die Insel vom Festland). Es wird keine zusätzliche Angabe gemacht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 32,
+      "speaker": "Felix",
+      "text": "Das überrascht mich! Ist die Strecke zum Festland eigentlich schon einmal ohne Boot bewältigt worden?",
+      "previous_text": "Weder im geografischen noch im rechtlichen Sinn liegt die Insel im Bereich der Hohen See. Seit neunzehnhundertfünfundneunzig überschneidet sich die Zwölf-Meilen-Zone vor dem Festland oder den vorgelagerten Inseln mit derjenigen um Helgoland. Deshalb trennt kein internationales Gewässer die Insel vom Festland.",
+      "fact_ids": [
+        "272085229-0023"
+      ],
+      "statements": [
+        {
+          "text": "Zwischen Helgoland und dem Festland liegt kein internationales Gewässer.",
+          "fact_ids": [
+            "272085229-0023"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0023",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Die seit 1995 gültige 12-Meilen-Zone vor dem Festland oder den vorgelagerten Inseln überschneidet sich mit derjenigen um Helgoland, so dass kein internationales Gewässer die Insel vom Festland trennt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.35
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht aus einer Reaktion (Staunen: „Das überrascht mich!“) und einer Nachfrage, ob die Strecke zum Festland schon einmal ohne Boot bewältigt wurde. Beides ist belegfrei, und die Frage setzt nur voraus, dass es eine Strecke zwischen Insel und Festland gibt. Das ist mit dem Fakt-Satz vereinbar, der Helgoland und das Festland erwähnt. Es wird keine unbelegte Behauptung aufgestellt."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 33,
+      "speaker": "Lena",
+      "text": "Ja. Am einundzwanzigsten August zweitausendeinundzwanzig schwamm André Wiersig als erster Mensch vom Festland, nämlich von St. Peter-Ording, nach Helgoland.",
+      "previous_text": "Das überrascht mich! Ist die Strecke zum Festland eigentlich schon einmal ohne Boot bewältigt worden?",
+      "fact_ids": [
+        "272085229-0730"
+      ],
+      "statements": [
+        {
+          "text": "Am 21. August 2021 schwamm André Wiersig als erster Mensch vom Festland (St. Peter-Ording) nach Helgoland.",
+          "fact_ids": [
+            "272085229-0730"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0730",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Am 21. August 2021 schwamm André Wiersig als erster Mensch vom Festland (St. Peter-Ording) nach Helgoland.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Datum (21. August 2021), Person (André Wiersig), erster Mensch, Start St. Peter-Ording, Ziel Helgoland. Es gibt keine zusätzlichen Angaben; das einleitende „Ja“ ist eine belegfreie Reaktion."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 35,
+      "speaker": "Lena",
+      "text": "Interessant ist die Ordnung im Gestein. An der Westseite Helgolands finden sich nach oben zeigende Schichten, während die Schichten an der Ostseite nach unten zeigen.",
+      "previous_text": "Beeindruckend! Und wie sieht die Insel selbst aus, wenn man auf den Fels schaut?",
+      "fact_ids": [
+        "272085229-0099"
+      ],
+      "statements": [
+        {
+          "text": "An der Westseite Helgolands finden sich nach oben zeigende Schichten.",
+          "fact_ids": [
+            "272085229-0099"
+          ]
+        },
+        {
+          "text": "An der Ostseite zeigen die Schichten nach unten.",
+          "fact_ids": [
+            "272085229-0099"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0099",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Somit finden sich an der Westseite Helgolands nach oben zeigende Schichten, während die Schichten an der Ostseite nach unten zeigen.",
+          "context": [
+            "Die Schichten sind bei der Aufwölbung gekippt worden, so dass eine Neigung der Buntsandsteinfelsen von etwa 17 bis 20 Grad zu erkennen ist."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.65
+        },
+        "jev_error": null,
+        "reason": "Die Aussage zu den nach oben zeigenden Schichten an der Westseite und den nach unten zeigenden Schichten an der Ostseite Helgolands steht wortgleich im Fakt-Satz 272085229-0099. „Interessant ist die Ordnung im Gestein“ ist eine Wertung ohne eigenen Faktengehalt, und es kommt keine zusätzliche Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 37,
+      "speaker": "Lena",
+      "text": "Gunther von Hagens war als Assistenzarzt im Inselkrankenhaus auf Helgoland tätig. Er ist bekannt durch die anatomischen Ausstellungen Körperwelten.",
+      "previous_text": "Das ist wirklich ein ungewöhnlicher Aufbau. Und welche Menschen hat die Insel sonst noch angezogen?",
+      "fact_ids": [
+        "272085229-0942"
+      ],
+      "statements": [
+        {
+          "text": "Gunther von Hagens war als Assistenzarzt im Inselkrankenhaus auf Helgoland tätig.",
+          "fact_ids": [
+            "272085229-0942"
+          ]
+        },
+        {
+          "text": "Er ist bekannt durch die anatomischen Ausstellungen Körperwelten.",
+          "fact_ids": [
+            "272085229-0942"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0942",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Gunther von Hagens (bekannt durch die anatomischen Ausstellungen Körperwelten) war als Assistenzarzt im Inselkrankenhaus auf Helgoland tätig.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 39,
+      "speaker": "Lena",
+      "text": "Die Natur bietet Überraschungen. Seit den achtziger Jahren sind Auspflanzversuche mit Hanfpalmen, Honigpalmen und anderen Palmen erfolgreich verlaufen. Das gilt auch für weitere subtropische Pflanzen wie Lorbeer, Yucca, Cordyline und Steineiche. Auf dem deutschen Festland sind diese Pflanzen nicht oder nur bedingt winterhart.",
+      "previous_text": "Wirklich? Das hätte ich nicht erwartet. Wie ist es denn mit der Natur auf Helgoland?",
+      "fact_ids": [
+        "272085229-0058"
+      ],
+      "statements": [
+        {
+          "text": "Auspflanzversuche mit Hanfpalmen, Honigpalmen und anderen Palmen sowie weiteren subtropischen Pflanzen wie Lorbeer, Yucca, Cordyline und Steineiche sind seit den 1980er Jahren erfolgreich verlaufen.",
+          "fact_ids": [
+            "272085229-0058"
+          ]
+        },
+        {
+          "text": "Diese Pflanzen sind auf dem deutschen Festland nicht oder nur bedingt winterhart.",
+          "fact_ids": [
+            "272085229-0058"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0058",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Auspflanzversuche mit Hanfpalmen, Honigpalmen und anderen Palmen sowie weiteren, auf dem deutschen Festland nicht oder nur bedingt winterharten subtropischen Pflanzen (Lorbeer, Yucca, Cordyline, Steineiche und andere) sind seit den 1980er Jahren erfolgreich verlaufen.",
+          "context": [
+            "Schon Anfang des 20. Jahrhunderts standen stattliche, regelmäßig fruchtende Feigenbäume auf der Insel.",
+            "Noch steht aus dieser Zeit im Oberland ein sehr alter Maulbeerbaum."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.71
+        },
+        "jev_error": null,
+        "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: erfolgreiche Auspflanzversuche seit den 1980er Jahren mit Hanfpalmen, Honigpalmen und anderen Palmen sowie Lorbeer, Yucca, Cordyline und Steineiche, die auf dem deutschen Festland nicht oder nur bedingt winterhart sind. Der Eröffnungssatz \"Die Natur bietet Überraschungen\" ist eine belegfreie Reaktion bzw. Überleitung, und es wird keine zusätzliche Angabe gemacht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 41,
+      "speaker": "Lena",
+      "text": "Auf der Düne teilen sich die Badegäste an manchen Tagen den Strand mit Seehunden und Kegelrobben. Die Tiere haben ihre Scheu gegenüber Menschen weitgehend abgelegt. Beim Baden selbst durften Männer und Frauen zusammen ins Wasser, allerdings nicht mehr nackt wie bis zum Ende der englischen Zeit.",
+      "previous_text": "Palmen in der Nordsee, das hätte ich nie gedacht! Und wie ist es am Strand, wenn man baden will?",
+      "fact_ids": [
+        "272085229-0744",
+        "272085229-0447"
+      ],
+      "statements": [
+        {
+          "text": "Auf der Düne teilen sich Badegäste an manchen Tagen den Strand mit Seehunden und Kegelrobben.",
+          "fact_ids": [
+            "272085229-0744"
+          ]
+        },
+        {
+          "text": "Die Robben haben ihre Scheu gegenüber Menschen weitgehend abgelegt.",
+          "fact_ids": [
+            "272085229-0744"
+          ]
+        },
+        {
+          "text": "Männer und Frauen konnten zusammen baden, allerdings nicht mehr nackt wie bis zum Ende der englischen Zeit.",
+          "fact_ids": [
+            "272085229-0447"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0744",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Auf der Düne teilen sich die Badegäste an manchen Tagen den Strand mit Seehunden und Kegelrobben, die ihre Scheu gegenüber Menschen weitgehend abgelegt haben.",
+          "context": [
+            "Die der Hauptinsel vorgelagerte und per Fähre zu erreichende Düne ist bevorzugtes Ziel derjenigen Urlauber, die nicht nur als Tagestouristen auf Helgoland verweilen und sich vor dem täglichen Touristenandrang dorthin zurückziehen."
+          ]
+        },
+        {
+          "id": "272085229-0447",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Männer und Frauen konnten nun zusammen baden, allerdings nicht mehr wie bis zum Ende der englischen Zeit nackt.",
+          "context": [
+            "1900 wurde auf Helgoland als erstem deutschen Seebad das Familienbad eingeführt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "aussage_2": 0.98,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 43,
+      "speaker": "Lena",
+      "text": "Ja. Am dreiundzwanzigsten Februar neunzehnhundertsiebenundsechzig ging während eines Orkaneinsatzes des Seenotrettungskreuzers Adolph Bermpohl die gesamte Besatzung verloren, mit drei geretteten Schiffbrüchigen.",
+      "previous_text": "Das klingt nach einem Strandurlaub der besonderen Art. Hatte die Insel auch tragische Seiten?",
+      "fact_ids": [
+        "272085229-0896"
+      ],
+      "statements": [
+        {
+          "text": "Am 23. Februar 1967 ging während eines Orkaneinsatzes des Seenotrettungskreuzers Adolph Bermpohl die gesamte Besatzung mit drei geretteten Schiffbrüchigen verloren.",
+          "fact_ids": [
+            "272085229-0896"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0896",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Am 23. Februar 1967 ging während eines Orkaneinsatzes des Seenotrettungskreuzers Adolph Bermpohl die gesamte Besatzung mit drei geretteten Schiffbrüchigen verloren.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.83
+        },
+        "jev_error": null,
+        "reason": "Datum (23. Februar 1967), Orkaneinsatz, Seenotrettungskreuzer Adolph Bermpohl, Verlust der gesamten Besatzung und drei gerettete Schiffbrüchige entsprechen dem Fakt-Satz; das einleitende „Ja“ ist eine Reaktion ohne Belegpflicht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 45,
+      "speaker": "Lena",
+      "text": "Eine, bei der es Zweifel gibt. Ein Aufenthalt Klaus Störtebekers auf der Insel ist nicht nachweisbar. Er soll aber im Jahr vierzehnhunderteins bei Helgoland gefangen worden sein.",
+      "previous_text": "Das ist traurig. Gibt es auch Seeräuberlegenden um Helgoland?",
+      "fact_ids": [
+        "272085229-0245"
+      ],
+      "statements": [
+        {
+          "text": "Ein Aufenthalt Klaus Störtebekers auf der Insel ist nicht nachweisbar.",
+          "fact_ids": [
+            "272085229-0245"
+          ]
+        },
+        {
+          "text": "Er soll 1401 bei Helgoland gefangen worden sein.",
+          "fact_ids": [
+            "272085229-0245"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0245",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Nicht nachweisbar ist hingegen ein Aufenthalt Klaus Störtebekers auf der Insel, obwohl er 1401 bei Helgoland gefangen worden sein soll.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.69
+        },
+        "jev_error": null,
+        "reason": "Die Aussagen stimmen mit dem Fakt-Satz überein: Ein Aufenthalt Störtebekers auf der Insel ist nicht nachweisbar, und er soll 1401 bei Helgoland gefangen worden sein. Die ausgeschriebene Jahreszahl ist zulässig. Der Einleitungssatz \"Eine, bei der es Zweifel gibt\" ist eine Überleitung ohne neue Information."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 47,
+      "speaker": "Lena",
+      "text": "Gleich zwei. Die Kirchengemeinde ist Teil des Kirchenkreises Dithmarschen, obwohl die Kommunalgemeinde zum Kreis Pinneberg gehört. Und seit der Inbetriebnahme am dreißigsten November zweitausendneun ist Helgoland als letzte deutsche Gemeinde an das europäische Verbundnetz angeschlossen.",
+      "previous_text": "Schade, dass sich das nicht belegen lässt. Gibt es noch Kuriositäten in der Verwaltung oder bei der Technik?",
+      "fact_ids": [
+        "272085229-0669",
+        "272085229-0785"
+      ],
+      "statements": [
+        {
+          "text": "Die Kirchengemeinde ist Teil des Kirchenkreises Dithmarschen, obwohl die Kommunalgemeinde zum Kreis Pinneberg gehört.",
+          "fact_ids": [
+            "272085229-0669"
+          ]
+        },
+        {
+          "text": "Seit der Inbetriebnahme am 30. November 2009 ist Helgoland als letzte deutsche Gemeinde an das europäische Verbundnetz angeschlossen.",
+          "fact_ids": [
+            "272085229-0785"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0669",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Die Kirchengemeinde ist Teil des Kirchenkreises Dithmarschen, obwohl die Kommunalgemeinde zum Kreis Pinneberg gehört.",
+          "context": [
+            "Der evangelisch-lutherischen Kirchengemeinde gehören etwa 800 Personen und damit die Mehrheit der Inselbevölkerung an.",
+            "Am 29. November 1959 wurde die evangelische St.-Nicolai-Kirche, welche nach dem Schutzpatron der Seefahrer und Kaufleute, Nikolaus von Myra, benannt ist, eingeweiht."
+          ]
+        },
+        {
+          "id": "272085229-0785",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Seit der Inbetriebnahme am 30. November 2009 ist Helgoland als letzte deutsche Gemeinde an das europäische Verbundnetz angeschlossen.",
+          "context": [
+            "Im Jahr 2009 wurde für 20 Millionen Euro das Helgolandkabel, ein knapp 53 km langes 30-kV-Seekabel von St. Peter-Ording nach Helgoland, verlegt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.93,
+          "vollstaendig": 0.72
+        },
+        "jev_error": null,
+        "reason": "Beide Behauptungen stimmen mit den zitierten Fakt-Sätzen überein: Die Kirchengemeinde gehört zum Kirchenkreis Dithmarschen, die Kommunalgemeinde zum Kreis Pinneberg. Der Anschluss am 30. November 2009 als letzte deutsche Gemeinde ans europäische Verbundnetz ist ebenfalls belegt. „Gleich zwei“ ist eine belegfreie Überleitung, es kommen keine zusätzlichen Angaben hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 48,
+      "speaker": "Felix",
+      "text": "Dann fasse ich zusammen. Helgoland ist eine Insel in der Deutschen Bucht, die in der Neujahrsflut siebzehnhunderteinundzwanzig zerbrach. Heisenberg vollendete dort seine Quantenmechanik, und Hoffmann dichtete dort das Lied der Deutschen. Zeitweise war die Insel ein Schmuggelplatz, 1947 sprengten die Briten die Bunker, und der poröse Sandstein bewahrte die Insel vor dem Schlimmsten. Bis heute gibt es auf der Insel ein Verbot für Kraftfahrzeuge und Räder, Sonderregeln beim Zoll und Robben am Strand der Düne. Und Palmen wachsen dort auch.",
+      "previous_text": "Gleich zwei. Die Kirchengemeinde ist Teil des Kirchenkreises Dithmarschen, obwohl die Kommunalgemeinde zum Kreis Pinneberg gehört. Und seit der Inbetriebnahme am dreißigsten November zweitausendneun ist Helgoland als letzte deutsche Gemeinde an das europäische Verbundnetz angeschlossen.",
+      "fact_ids": [
+        "272085229-0008",
+        "272085229-0009",
+        "272085229-0478",
+        "272085229-0350",
+        "272085229-0286",
+        "272085229-0558",
+        "272091002-0004",
+        "272085229-0826",
+        "272085229-0013",
+        "272085229-0744",
+        "272085229-0058"
+      ],
+      "statements": [
+        {
+          "text": "Helgoland ist eine Insel in der Deutschen Bucht, die in der Neujahrsflut 1721 zerbrach.",
+          "fact_ids": [
+            "272085229-0008",
+            "272085229-0009"
+          ]
+        },
+        {
+          "text": "Heisenberg schloss dort die grundlegenden Arbeiten an seiner Beschreibung der Quantenmechanik ab.",
+          "fact_ids": [
+            "272085229-0478"
+          ]
+        },
+        {
+          "text": "Hoffmann dichtete dort das Lied der Deutschen.",
+          "fact_ids": [
+            "272085229-0350"
+          ]
+        },
+        {
+          "text": "Die Insel entwickelte sich seit Anfang 1808 zu einem lebhaften Schmuggelplatz.",
+          "fact_ids": [
+            "272085229-0286"
+          ]
+        },
+        {
+          "text": "1947 zerstörten die Briten die Bunkeranlagen der Insel durch eine Sprengung.",
+          "fact_ids": [
+            "272085229-0558"
+          ]
+        },
+        {
+          "text": "Der poröse Sandstein ließ die Druckwelle entweichen, sodass nur die Südspitze zerstört wurde.",
+          "fact_ids": [
+            "272091002-0004"
+          ]
+        },
+        {
+          "text": "Auf der Insel sind Kraftfahrzeuge und Radfahren verboten.",
+          "fact_ids": [
+            "272085229-0826"
+          ]
+        },
+        {
+          "text": "Es gelten steuerrechtliche Sonderregelungen, und die Gemeinde zählt nicht zum Zollgebiet der Union.",
+          "fact_ids": [
+            "272085229-0013"
+          ]
+        },
+        {
+          "text": "Auf der Düne teilen sich Badegäste den Strand mit Seehunden und Kegelrobben.",
+          "fact_ids": [
+            "272085229-0744"
+          ]
+        },
+        {
+          "text": "Palmen und andere subtropische Pflanzen wachsen dort erfolgreich.",
+          "fact_ids": [
+            "272085229-0058"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272085229-0008",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Helgoland ([ˈhɛl.ɡoˌlant], nordfriesisch deät Lun (Helgoländer Friesisch für „das Land“), englisch Heligoland) ist eine Insel im Bereich der Deutschen Bucht der Nordsee.",
+          "context": []
+        },
+        {
+          "id": "272085229-0009",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Die ursprünglich größere Insel zerbrach in der Neujahrsflut 1721; seitdem existiert die als Düne bezeichnete Nebeninsel.",
+          "context": [
+            "Helgoland ([ˈhɛl.ɡoˌlant], nordfriesisch deät Lun (Helgoländer Friesisch für „das Land“), englisch Heligoland) ist eine Insel im Bereich der Deutschen Bucht der Nordsee."
+          ]
+        },
+        {
+          "id": "272085229-0478",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Im Juni 1925 schloss der Physiker Werner Heisenberg auf Helgoland die grundlegenden Arbeiten an seiner mathematischen Beschreibung der Quantenmechanik ab.",
+          "context": []
+        },
+        {
+          "id": "272085229-0350",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Er dichtete während eines Ferienaufenthalts auf Helgoland am 26. August 1841 das Lied der Deutschen auf die von Joseph Haydn 1797 komponierte Hymne für den römisch-deutschen Kaiser.",
+          "context": [
+            "In diesen Zusammenhang gehören auch die Besuche des Dichters Hoffmann von Fallersleben."
+          ]
+        },
+        {
+          "id": "272085229-0286",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Helgoland entwickelte sich seit Anfang 1808 zu einem lebhaften Schmuggelplatz; die Insel übernahm gewissermaßen die Funktion Hamburgs als Überseehafen.",
+          "context": [
+            "Der erste Gouverneur wurde Corbet James D’Auvergne, der aber schon im Februar 1808 sein Amt an William Osborne Hamilton (1750–1818) übergab."
+          ]
+        },
+        {
+          "id": "272085229-0558",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Am 18. April 1947 zerstörten die Briten mit der bis 1985 größten nichtnuklearen Sprengung der Geschichte die militärischen Bunkeranlagen der Insel.",
+          "context": []
+        },
+        {
+          "id": "272091002-0004",
+          "article": "Sprengung von Bunkeranlagen auf Helgoland",
+          "revid": 272091002,
+          "sentence": "Allerdings ließ der poröse Sandstein, aus dem die Insel besteht, die Druckwelle entweichen; somit wurde nur die Südspitze der Insel durch die Sprengung zerstört, an der Nordspitze gab es erhebliche Schäden.",
+          "context": [
+            "Das Ziel der Sprengung war, die Bunker- und Militäranlagen der Nordseeinsel Helgoland zu zerstören.",
+            "Durch die enorme Menge an Sprengstoff erschien es zudem möglich, die gesamte Insel vollständig zu vernichten, was zwar nicht Ziel der Aktion war, aber in Kauf genommen wurde."
+          ]
+        },
+        {
+          "id": "272085229-0826",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Auf der Insel Helgoland sind seit 1971 gemäß § 50 der StVO Sonderregelung für die Insel Helgoland der Verkehr mit Kraftfahrzeugen und das Radfahren verboten.",
+          "context": []
+        },
+        {
+          "id": "272085229-0013",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Für beide Inseln gelten steuerrechtliche Sonderregelungen: Die Gemeinde ist zwar Teil des deutschen Wirtschaftsgebietes, zählt aber weder zum Zollgebiet der Union noch werden deutsche Verbrauchsteuern erhoben.",
+          "context": [
+            "Die Inselgruppe Helgoland und Düne gehört seit 1890 zum deutschen Staatsgebiet und ist als amtsfreie Gemeinde Helgoland in den Kreis Pinneberg (Schleswig-Holstein) integriert."
+          ]
+        },
+        {
+          "id": "272085229-0744",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Auf der Düne teilen sich die Badegäste an manchen Tagen den Strand mit Seehunden und Kegelrobben, die ihre Scheu gegenüber Menschen weitgehend abgelegt haben.",
+          "context": [
+            "Die der Hauptinsel vorgelagerte und per Fähre zu erreichende Düne ist bevorzugtes Ziel derjenigen Urlauber, die nicht nur als Tagestouristen auf Helgoland verweilen und sich vor dem täglichen Touristenandrang dorthin zurückziehen."
+          ]
+        },
+        {
+          "id": "272085229-0058",
+          "article": "Helgoland",
+          "revid": 272085229,
+          "sentence": "Auspflanzversuche mit Hanfpalmen, Honigpalmen und anderen Palmen sowie weiteren, auf dem deutschen Festland nicht oder nur bedingt winterharten subtropischen Pflanzen (Lorbeer, Yucca, Cordyline, Steineiche und andere) sind seit den 1980er Jahren erfolgreich verlaufen.",
+          "context": [
+            "Schon Anfang des 20. Jahrhunderts standen stattliche, regelmäßig fruchtende Feigenbäume auf der Insel.",
+            "Noch steht aus dieser Zeit im Oberland ein sehr alter Maulbeerbaum."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "aussage_2": 0.98,
+          "aussage_3": 0.99,
+          "aussage_4": 0.99,
+          "aussage_5": 0.91,
+          "aussage_6": 0.98,
+          "aussage_7": 0.99,
+          "aussage_8": 0.98,
+          "aussage_9": 0.96,
+          "vollstaendig": 0.76
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den zitierten Fakten: Lage in der Deutschen Bucht, Zerbrechen in der Neujahrsflut 1721, Heisenbergs Abschluss seiner Quantenmechanik, Hoffmanns Lied der Deutschen, Schmuggelplatz, Sprengung der Bunker 1947 durch die Briten, der poröse Sandstein, der die Druckwelle entweichen ließ, das Verbot von Kraftfahrzeugen und Radfahren, die steuer- und zollrechtlichen Sonderregelungen, Robben am Dünenstrand und erfolgreich ausgepflanzte Palmen. Die Formulierung 'bewahrte vor dem Schlimmsten' ist eine zulässige Zusammenfassung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    }
+  ],
+  "comments": []
+}

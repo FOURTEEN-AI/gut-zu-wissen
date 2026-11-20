@@ -1,0 +1,99 @@
+{
+  "title": "Sprengung von Bunkeranlagen auf Helgoland",
+  "revid": 272091002,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-12T07:11:58Z",
+  "fetched_at": "2026-11-20T12:42:23Z",
+  "categories": [
+    "Kategorie:Britische Besatzungszone",
+    "Kategorie:Ereignis 1947",
+    "Kategorie:Helgoländer Geschichte",
+    "Kategorie:Schleswig-holsteinische Geschichte (20. Jahrhundert)",
+    "Kategorie:Sprengung"
+  ],
+  "intro_wikitext": "Die '''Sprengung von Bunkeranlagen auf [[Helgoland]]''' fand am 18. April 1947 um 13&nbsp;Uhr statt. Die von den [[Vereinigtes Königreich|Briten]] als '''Operation Big Bang''' oder '''British Bang''' bezeichnete [[Sprengung]] war mit 6700 Tonnen Sprengstoff, die eine Sprengkraft von circa 3,2 Kilotonnen [[TNT-Äquivalent]] entwickelten, die bis dahin [[Liste der größten künstlichen, nichtnuklearen Explosionen|größte nicht-atomare, von Menschen gewollt erzeugte Explosion]].<ref name=\"Willmore\" /> Das Ziel der Sprengung war, die Bunker- und Militäranlagen der Nordseeinsel Helgoland zu zerstören.<ref name=\"Pathé1947\" /><ref name=\"Butler2007\" /><ref name=\"Times1947-04-19\" /> Durch die enorme Menge an Sprengstoff erschien es zudem möglich, die gesamte Insel vollständig zu vernichten, was zwar nicht Ziel der Aktion war, aber in Kauf genommen wurde.<ref name=\"Spiegel-online 2017-04-18\" /> Allerdings ließ der poröse Sandstein, aus dem die Insel besteht, die Druckwelle entweichen; somit wurde nur die Südspitze der Insel durch die Sprengung zerstört, an der Nordspitze gab es erhebliche Schäden.",
+  "segments": [
+    {
+      "id": "272091002-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Sprengung von Bunkeranlagen auf [[Helgoland]]''' fand am 18. April 1947 um 13&nbsp;Uhr statt.",
+      "plain": null
+    },
+    {
+      "id": "272091002-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die von den [[Vereinigtes Königreich|Briten]] als '''Operation Big Bang''' oder '''British Bang''' bezeichnete [[Sprengung]] war mit 6700 Tonnen Sprengstoff, die eine Sprengkraft von circa 3,2 Kilotonnen [[TNT-Äquivalent]] entwickelten, die bis dahin [[Liste der größten künstlichen, nichtnuklearen Explosionen|größte nicht-atomare, von Menschen gewollt erzeugte Explosion]].<ref name=\"Willmore\" />",
+      "plain": null
+    },
+    {
+      "id": "272091002-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Ziel der Sprengung war, die Bunker- und Militäranlagen der Nordseeinsel Helgoland zu zerstören.<ref name=\"Pathé1947\" /><ref name=\"Butler2007\" /><ref name=\"Times1947-04-19\" />",
+      "plain": null
+    },
+    {
+      "id": "272091002-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Durch die enorme Menge an Sprengstoff erschien es zudem möglich, die gesamte Insel vollständig zu vernichten, was zwar nicht Ziel der Aktion war, aber in Kauf genommen wurde.<ref name=\"Spiegel-online 2017-04-18\" />",
+      "plain": null
+    },
+    {
+      "id": "272091002-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Allerdings ließ der poröse Sandstein, aus dem die Insel besteht, die Druckwelle entweichen; somit wurde nur die Südspitze der Insel durch die Sprengung zerstört, an der Nordspitze gab es erhebliche Schäden.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272091002,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272091002-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272091002-0000"
+        ],
+        "plain": "Die von den Briten als Operation Big Bang oder British Bang bezeichnete Sprengung war mit 6700 Tonnen Sprengstoff, die eine Sprengkraft von circa 3,2 Kilotonnen TNT-Äquivalent entwickelten, die bis dahin größte nicht-atomare, von Menschen gewollt erzeugte Explosion.",
+        "context_plain": [
+          "Die Sprengung von Bunkeranlagen auf Helgoland fand am 18. April 1947 um 13 Uhr statt."
+        ]
+      },
+      {
+        "segment_id": "272091002-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272091002-0001",
+          "272091002-0002"
+        ],
+        "plain": "Durch die enorme Menge an Sprengstoff erschien es zudem möglich, die gesamte Insel vollständig zu vernichten, was zwar nicht Ziel der Aktion war, aber in Kauf genommen wurde.",
+        "context_plain": [
+          "Die von den Briten als Operation Big Bang oder British Bang bezeichnete Sprengung war mit 6700 Tonnen Sprengstoff, die eine Sprengkraft von circa 3,2 Kilotonnen TNT-Äquivalent entwickelten, die bis dahin größte nicht-atomare, von Menschen gewollt erzeugte Explosion.",
+          "Das Ziel der Sprengung war, die Bunker- und Militäranlagen der Nordseeinsel Helgoland zu zerstören."
+        ]
+      },
+      {
+        "segment_id": "272091002-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272091002-0002",
+          "272091002-0003"
+        ],
+        "plain": "Allerdings ließ der poröse Sandstein, aus dem die Insel besteht, die Druckwelle entweichen; somit wurde nur die Südspitze der Insel durch die Sprengung zerstört, an der Nordspitze gab es erhebliche Schäden.",
+        "context_plain": [
+          "Das Ziel der Sprengung war, die Bunker- und Militäranlagen der Nordseeinsel Helgoland zu zerstören.",
+          "Durch die enorme Menge an Sprengstoff erschien es zudem möglich, die gesamte Insel vollständig zu vernichten, was zwar nicht Ziel der Aktion war, aber in Kauf genommen wurde."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}
