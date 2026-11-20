@@ -5,8 +5,7 @@ Stage 1 is Jev: one question per statement plus the completeness question, one r
 all p >= t -> supported; any p <= 1 - t -> not supported (the LLM judge only gives the reason);
 otherwise the LLM judge decides with the full rubric. Overlength and transient Jev errors also go
 to the LLM judge; abort errors propagate. The LLM judge sees only the turn, the cited fact
-sentences with their source article title and their context, never the author's statements or
-chain of thought.
+sentences and their context, never the author's statements or chain of thought.
 Both LLM-judge prompts are fixed system prompts and are cached (spike S7); the turn and its facts
 vary per call and follow them.
 """
@@ -43,13 +42,6 @@ sind neue Informationen, Wertungen mit Faktengehalt und Aussagen der sprechenden
 sich selbst (Erlebnisse, Wissen, Vorlieben)."""
 )
 
-# User decision 2026-11-20 (spike S7): the LLM judge sees each cited fact's source article, as
-# Jev does (`fakten.<id>.artikel`); the title only tells where the fact comes from.
-ARTICLE_RULE = (
-    "Hinter jeder Fakt-ID steht der Titel des Artikels, aus dem der Fakt stammt; eine Aussage "
-    "darf den Gegenstand dieses Titels nur nennen, wenn der Fakt-Satz selbst von ihm spricht."
-)
-
 VERDICT_SCHEMA = {
     "type": "object",
     "properties": {"supported": {"type": "boolean"}, "reason": {"type": "string"}},
@@ -66,8 +58,6 @@ VERDICT_PROMPT = (
     "Du prüfst einen Redebeitrag aus einem Podcast-Gespräch auf Faktentreue. Du bekommst den "
     "Redebeitrag, die Fakt-Sätze, auf die er sich beruft, und deren Kontext.\n\n"
     + RUBRIC
-    + " "
-    + ARTICLE_RULE
     + "\n\nUrteile über den ganzen Redebeitrag: „supported“ ist nur wahr, wenn er die Rubrik "
     "vollständig erfüllt. Begründe kurz auf Deutsch; nenne bei Ablehnung die betroffene Stelle. "
     "Antworte mit JSON im vorgegebenen Schema."
@@ -77,8 +67,6 @@ REASON_PROMPT = (
     "Redebeitrag, die Fakt-Sätze, auf die er sich beruft, deren Kontext und die Stellen, die "
     "beanstandet wurden.\n\n"
     + RUBRIC
-    + " "
-    + ARTICLE_RULE
     + "\n\nDie Ablehnung steht fest; du urteilst nicht. Begründe auf Deutsch in ein bis zwei "
     "Sätzen, welche Stelle des Redebeitrags aus den Fakt-Sätzen nicht folgt und warum. "
     "Antworte mit JSON im vorgegebenen Schema."
@@ -191,15 +179,14 @@ def build_request(
 def format_judge_input(
     turn: Turn, facts: Mapping[str, RankedFact], flagged: Sequence[str] = ()
 ) -> str:
-    """Input of the LLM judge: turn, cited fact sentences with their source article (main or
-    linked), context, optionally flagged spots."""
+    """Input of the LLM judge: turn, cited fact sentences, context, optionally flagged spots."""
     lines = [f"Redebeitrag ({turn.speaker}):", turn.text, "", "Zitierte Fakten:"]
     cited = [i for i in cited_ids(turn) if i in facts]
     if not cited:
         lines.append("(keine)")
     for i in cited:
         fact = facts[i].fact
-        lines.append(f"[{i}] (Artikel: {facts[i].article}) {fact.plain.replace(chr(10), ' ')}")
+        lines.append(f"[{i}] {fact.plain.replace(chr(10), ' ')}")
         if fact.context_plain:
             lines.append("  Kontext: " + " ".join(c.replace("\n", " ") for c in fact.context_plain))
     if flagged:

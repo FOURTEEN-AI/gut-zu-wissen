@@ -7,10 +7,8 @@ from gut_zu_wissen.dialog import Statement, Turn
 from gut_zu_wissen.extraction import Fact
 from gut_zu_wissen.jev import JevAbortError, JevOverlengthError, JevTransientError
 from gut_zu_wissen.judge import (
-    ARTICLE_RULE,
     COMPLETENESS_KEY,
     REASON_PROMPT,
-    RUBRIC,
     VERDICT_PROMPT,
     Decision,
     TurnJudgement,
@@ -156,29 +154,8 @@ def test_llm_judge_sees_only_turn_facts_and_context_not_statements():
     t = turn(statements=[Statement("GEHEIME-AUSSAGE", ["1-0"])])
     text = format_judge_input(t, FACTS)
     assert "GEHEIME-AUSSAGE" not in text
-    assert "[1-0] (Artikel: Rotfuchs) Der Fuchs wiegt acht Kilo.\n  Kontext: Davor." in text
+    assert "[1-0] Der Fuchs wiegt acht Kilo.\n  Kontext: Davor." in text
     assert "1-1" not in text and llm.calls == []
-
-
-def test_llm_judge_input_names_the_source_article_of_main_and_linked_facts():
-    linked = RankedFact(1, "Komet", 9, Fact("2-0", "sentence", "", [], "Er besteht aus Eis.", []))
-    t = turn(ids=("1-0", "2-0"))
-    text = format_judge_input(t, {**FACTS, "2-0": linked}, ["Aussage nicht belegt: X"])
-    assert "[1-0] (Artikel: Rotfuchs) Der Fuchs wiegt acht Kilo." in text
-    assert "[2-0] (Artikel: Komet) Er besteht aus Eis." in text
-    assert text.endswith("Beanstandete Stellen:\nAussage nicht belegt: X")
-
-
-def test_both_judge_prompts_carry_the_article_rule_once():
-    rule = (
-        "Hinter jeder Fakt-ID steht der Titel des Artikels, aus dem der Fakt stammt; eine "
-        "Aussage darf den Gegenstand dieses Titels nur nennen, wenn der Fakt-Satz selbst von "
-        "ihm spricht."
-    )
-    assert ARTICLE_RULE == rule
-    for prompt in (VERDICT_PROMPT, REASON_PROMPT):
-        assert prompt.count(rule) == 1
-        assert RUBRIC + " " + rule + "\n\n" in prompt  # right after the rubric
 
 
 def test_judge_dialog_passes_previous_turn():
