@@ -1,0 +1,53 @@
+{
+  "title": "TNT-Äquivalent",
+  "revid": 269011690,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-22T12:33:39Z",
+  "fetched_at": "2026-11-20T08:54:07Z",
+  "categories": [
+    "Kategorie:Energieeinheit"
+  ],
+  "intro_wikitext": "{{Infobox Physikalische Einheit\n| Name             = TNT-Äquivalent\n| Dimension        = <math>\\mathsf{M L^2 T^{-2}}</math>\n| PhysGröße        = [[Energie]], [[innere Energie]], [[chemische Energie]]\n| Formelzeichen    = <math>W;\\, E</math>\n| SI               = 1&nbsp;kg<sub>TNT</sub> = 4,184&nbsp;MJ<br />1&nbsp;kT = 4,184&nbsp;TJ\n| CGS              = \n| BenanntNach      = \n| AbgeleitetVon    = Energiefreisetzung eines Kilogramms [[Trinitrotoluol|TNT]]\n| SieheAuch        = \n}}\n'''TNT-Äquivalent''' ist eine nicht [[Internationales Einheitensystem|SI]]-konforme, aber weiterhin gebräuchliche [[Maßeinheit]] für die bei einer [[Explosion]] freiwerdende [[Energie]]. Die Angabe bezieht sich auf die gesamte freiwerdende Energie, nicht nur auf die [[kinetische Energie]], die zum Beispiel bei [[Kernwaffe]]n deutlich geringer als die Gesamtenergie sein kann. Deswegen ist die [[Sprengkraft]] nur bedingt mit der einer entsprechenden Menge des [[Sprengstoff]]s [[Trinitrotoluol|TNT]] vergleichbar.<ref>{{Literatur |Autor=Kevin M. Jaansalu, Christelle Collet, Ernest L. Baker, Martijn van der Voort |Titel=TNT equivalency testing for energetic materials |Datum=2020 |Sprache=en |DOI=10.1063/12.0000808 |Seiten=050009 |Online=https://pubs.aip.org/aip/acp/article/937140 |Abruf=2025-07-29}}</ref><ref>{{Literatur |Autor=M. Held |Titel=TNT — Equivalent |Sammelwerk=Propellants, Explosives, Pyrotechnics |Band=8 |Nummer=5 |Datum=1983-10 |Sprache=en |ISSN=0721-3115 |DOI=10.1002/prep.19830080507 |Seiten=158–167 |Online=https://onlinelibrary.wiley.com/doi/10.1002/prep.19830080507 |Abruf=2025-07-29}}</ref>",
+  "segments": [
+    {
+      "id": "269011690-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "{{Infobox Physikalische Einheit\n| Name             = TNT-Äquivalent\n| Dimension        = <math>\\mathsf{M L^2 T^{-2}}</math>\n| PhysGröße        = [[Energie]], [[innere Energie]], [[chemische Energie]]\n| Formelzeichen    = <math>W;\\, E</math>\n| SI               = 1&nbsp;kg<sub>TNT</sub> = 4,184&nbsp;MJ<br />1&nbsp;kT = 4,184&nbsp;TJ\n| CGS              = \n| BenanntNach      = \n| AbgeleitetVon    = Energiefreisetzung eines Kilogramms [[Trinitrotoluol|TNT]]\n| SieheAuch        = \n}}\n'''TNT-Äquivalent''' ist eine nicht [[Internationales Einheitensystem|SI]]-konforme, aber weiterhin gebräuchliche [[Maßeinheit]] für die bei einer [[Explosion]] freiwerdende [[Energie]].",
+      "plain": null
+    },
+    {
+      "id": "269011690-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Angabe bezieht sich auf die gesamte freiwerdende Energie, nicht nur auf die [[kinetische Energie]], die zum Beispiel bei [[Kernwaffe]]n deutlich geringer als die Gesamtenergie sein kann.",
+      "plain": null
+    },
+    {
+      "id": "269011690-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Deswegen ist die [[Sprengkraft]] nur bedingt mit der einer entsprechenden Menge des [[Sprengstoff]]s [[Trinitrotoluol|TNT]] vergleichbar.<ref>{{Literatur |Autor=Kevin M. Jaansalu, Christelle Collet, Ernest L. Baker, Martijn van der Voort |Titel=TNT equivalency testing for energetic materials |Datum=2020 |Sprache=en |DOI=10.1063/12.0000808 |Seiten=050009 |Online=https://pubs.aip.org/aip/acp/article/937140 |Abruf=2025-07-29}}</ref><ref>{{Literatur |Autor=M. Held |Titel=TNT — Equivalent |Sammelwerk=Propellants, Explosives, Pyrotechnics |Band=8 |Nummer=5 |Datum=1983-10 |Sprache=en |ISSN=0721-3115 |DOI=10.1002/prep.19830080507 |Seiten=158–167 |Online=https://onlinelibrary.wiley.com/doi/10.1002/prep.19830080507 |Abruf=2025-07-29}}</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269011690,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269011690-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269011690-0000"
+        ],
+        "plain": "Die Angabe bezieht sich auf die gesamte freiwerdende Energie, nicht nur auf die kinetische Energie, die zum Beispiel bei Kernwaffen deutlich geringer als die Gesamtenergie sein kann.",
+        "context_plain": [
+          "Physikalische Einheit Einheitenname TNT-Äquivalent Physikalische Größen Energie, innere Energie, chemische Energie Formelzeichen W;E Dimension 𝖬𝖫𝟤𝖳−𝟤 In SI-Einheiten 1 kgTNT = 4,184 MJ 1 kT = 4,184 TJ Abgeleitet von Energiefreisetzung eines Kilogramms TNT TNT-Äquivalent ist eine nicht SI-konforme, aber weiterhin gebräuchliche Maßeinheit für die bei einer Explosion freiwerdende Energie."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

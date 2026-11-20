@@ -1,0 +1,112 @@
+{
+  "title": "Dichte",
+  "revid": 262562901,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-12-19T16:55:06Z",
+  "fetched_at": "2026-11-20T08:54:07Z",
+  "categories": [
+    "Kategorie:Physikalische Größenart",
+    "Kategorie:Stoffeigenschaft"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|stellt die Massendichte dar. Für weitere Bedeutungen siehe [[Dichte (Begriffsklärung)]]. Mit ''-dichte'' zusammengesetzte Wörter bezeichnen auch andere Größen, die auf das Volumen, eine Fläche, eine Länge, ein Frequenzintervall oder Anderes bezogen werden, siehe unter dem Lemma des zusammengesetzten Worts.}}\n{{Infobox Physikalische Größe\n| Name = Massendichte\n| Größenart = \n| Formelzeichen = <math>\\rho</math> ([[Rho]])\n| Dim = \n| AbgeleitetVon = \n| SI = [[Kilogramm|kg]]·[[Meter|m]]<sup>−3</sup>\n| SI-Dimension = [[Masse (Physik)|M]]·[[Länge (Physik)|L]]<sup>−3</sup>\n| cgs = \n| cgs-Dimension = \n| Planck = \n| Planck-Dimension = \n| Astro = \n| Astro-Dimension = \n| Anglo = \n| Anglo-Dimension = \n| Anmerkungen = \n| SieheAuch = [[Wichte]] (spezifisches Gewicht),<br />[[relative Dichte]] (spezifische Dichte),<br />[[spezifisches Volumen]]\n}}\n\n[[Datei:Πύργος πυκνότητας.jpg|mini|Flüssigseife (grün), gefärbtes Wasser (violett), Speiseöl (farblos) und gefärbter Alkohol (blau) bilden einen „Dichteturm“, d.&nbsp;h. die Flüssigkeiten ordnen sich nach ihrer Dichte an.]]\n\nDie '''Dichte''' <math>\\rho</math> ([[Rho]]), auch '''Massendichte''' genannt, ist der [[Quotient]] aus der [[Masse (Physik)|Masse]] <math>m</math> eines Körpers und seinem [[Volumen]] <math>V</math>:\n\n:<math>\\rho = \\frac{m}{V}</math>\n\nSie wird oft in ''Gramm pro Kubikzentimeter'' oder in ''Kilogramm pro Kubikmeter'' angegeben. Bei flüssigen Körpern ist auch die Einheit ''Kilogramm pro Liter'' (= ''Kilogramm pro Kubikdezimeter'') üblich:\n\n:1 g/cm<sup>3</sup> = 1 g/ml = 1 kg/l = 1000 kg/m<sup>3</sup>\n\nDie Dichte ist durch das Material des Körpers bestimmt und als [[intensive Größe]] unabhängig von seiner Form und Größe.\n\nIm Allgemeinen dehnen sich Stoffe mit steigender Temperatur aus, wodurch ihre Dichte sinkt. Eine Ausnahme bilden Stoffe mit einer [[Dichteanomalie]] wie z.&nbsp;B. [[Wasser]].",
+  "segments": [
+    {
+      "id": "262562901-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Physikalische Größe | Name = Massendichte",
+      "plain": "Infobox Physikalische Größe – Name: Massendichte"
+    },
+    {
+      "id": "262562901-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Physikalische Größe | Formelzeichen = <math>\\rho</math> ([[Rho]])",
+      "plain": "Infobox Physikalische Größe – Formelzeichen: ρ (Rho)"
+    },
+    {
+      "id": "262562901-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Physikalische Größe | SI = [[Kilogramm|kg]]·[[Meter|m]]<sup>−3</sup> | SI-Dimension = [[Masse (Physik)|M]]·[[Länge (Physik)|L]]<sup>−3</sup>",
+      "plain": "Infobox Physikalische Größe – SI: kg·m−3 / M·L−3"
+    },
+    {
+      "id": "262562901-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Physikalische Größe | SieheAuch = [[Wichte]] (spezifisches Gewicht),<br />[[relative Dichte]] (spezifische Dichte),<br />[[spezifisches Volumen]]",
+      "plain": "Infobox Physikalische Größe – Siehe auch: Wichte (spezifisches Gewicht), relative Dichte (spezifische Dichte), spezifisches Volumen"
+    },
+    {
+      "id": "262562901-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Dichte''' <math>\\rho</math> ([[Rho]]), auch '''Massendichte''' genannt, ist der [[Quotient]] aus der [[Masse (Physik)|Masse]] <math>m</math> eines Körpers und seinem [[Volumen]] <math>V</math>:",
+      "plain": null
+    },
+    {
+      "id": "262562901-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie wird oft in ''Gramm pro Kubikzentimeter'' oder in ''Kilogramm pro Kubikmeter'' angegeben.",
+      "plain": null
+    },
+    {
+      "id": "262562901-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bei flüssigen Körpern ist auch die Einheit ''Kilogramm pro Liter'' (= ''Kilogramm pro Kubikdezimeter'') üblich:",
+      "plain": null
+    },
+    {
+      "id": "262562901-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "1 g/cm<sup>3</sup> = 1 g/ml = 1 kg/l = 1000 kg/m<sup>3</sup>",
+      "plain": null
+    },
+    {
+      "id": "262562901-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Dichte ist durch das Material des Körpers bestimmt und als [[intensive Größe]] unabhängig von seiner Form und Größe.",
+      "plain": null
+    },
+    {
+      "id": "262562901-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Allgemeinen dehnen sich Stoffe mit steigender Temperatur aus, wodurch ihre Dichte sinkt.",
+      "plain": null
+    },
+    {
+      "id": "262562901-0010",
+      "type": "sentence",
+      "section": "",
+      "raw": "Eine Ausnahme bilden Stoffe mit einer [[Dichteanomalie]] wie z.&nbsp;B. [[Wasser]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 262562901,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "262562901-0010",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "262562901-0008",
+          "262562901-0009"
+        ],
+        "plain": "Eine Ausnahme bilden Stoffe mit einer Dichteanomalie wie z. B. Wasser.",
+        "context_plain": [
+          "Die Dichte ist durch das Material des Körpers bestimmt und als intensive Größe unabhängig von seiner Form und Größe.",
+          "Im Allgemeinen dehnen sich Stoffe mit steigender Temperatur aus, wodurch ihre Dichte sinkt."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

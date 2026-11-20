@@ -1,0 +1,34 @@
+{
+  "title": "Teilchenphysik",
+  "revid": 271785061,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-31T18:12:02Z",
+  "fetched_at": "2026-11-20T08:54:07Z",
+  "categories": [
+    "Kategorie:Physikalisches Fachgebiet",
+    "Kategorie:Teilchenphysik"
+  ],
+  "intro_wikitext": "Die '''Teilchenphysik''' ist eine Disziplin der [[Physik]], die sich mit der Erforschung der subatomaren [[Teilchen]], insbesondere der [[Elementarteilchen]], befasst. So werden beispielsweise [[Hadron|Hadronen]] theoretisch und experimentell untersucht.",
+  "segments": [
+    {
+      "id": "271785061-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Teilchenphysik''' ist eine Disziplin der [[Physik]], die sich mit der Erforschung der subatomaren [[Teilchen]], insbesondere der [[Elementarteilchen]], befasst.",
+      "plain": null
+    },
+    {
+      "id": "271785061-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "So werden beispielsweise [[Hadron|Hadronen]] theoretisch und experimentell untersucht.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271785061,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": []
+  }
+}

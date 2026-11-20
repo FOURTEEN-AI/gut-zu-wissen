@@ -1,0 +1,47 @@
+{
+  "episode_id": "2026-11-20_tunguska-ereignis-3",
+  "title": "Tunguska-Ereignis",
+  "status": "failed",
+  "started_at": "2026-11-20T08:54:07Z",
+  "finished_at": "2026-11-20T09:03:31Z",
+  "published_at": null,
+  "explicit": null,
+  "failure": "Crash: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChDumr59YZR8sACwywKqR'}",
+  "usage": {
+    "author": {
+      "model": "claude-sonnet-5-5",
+      "calls": 45,
+      "input_tokens": 86827,
+      "output_tokens": 57344
+    },
+    "llm_judge": {
+      "model": "claude-sonnet-5-5",
+      "calls": 21,
+      "input_tokens": 21727,
+      "output_tokens": 5427
+    },
+    "jev": {
+      "model": "jev-1.14.0",
+      "calls": 25,
+      "input_tokens": 24960,
+      "output_tokens": 1175
+    }
+  },
+  "cost": {
+    "prices": {
+      "claude_sonnet_input": 2.0,
+      "claude_sonnet_output": 10.0,
+      "jev": 0.042,
+      "gemini_tts_input": 0.5,
+      "gemini_tts_output": 9.0
+    },
+    "usd": {
+      "author": 0.7471,
+      "llm_judge": 0.0977,
+      "jev": 0.001,
+      "tts": 0
+    }
+  },
+  "failed_step": "dialog",
+  "resumed": []
+}

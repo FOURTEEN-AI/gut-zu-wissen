@@ -1,0 +1,56 @@
+{
+  "title": "Detonationswelle",
+  "revid": 260769918,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-10-21T01:12:18Z",
+  "fetched_at": "2026-11-20T08:54:07Z",
+  "categories": [
+    "Kategorie:Explosionsschutz",
+    "Kategorie:Sprengtechnik"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|beschreibt die Stoßwelle in der Umgebung, für die Stoßwelle im Sprengstoff siehe [[Detonation]].}}\n[[Datei:Explosion-blast wave.JPG|mini|Sichtbare Detonationswelle (im Bild markiert) bei einer Explosion]]\nEine '''Detonationswelle''' ist die [[Stoßwelle]], die sich aufgrund einer [[Explosion]] nach allen Seiten ausbreitet, falls die ursprüngliche Expansionsgeschwindigkeit größer ist als die [[Schallgeschwindigkeit]] im umgebenden Medium.\n\nVoraussetzung für die schnelle Expansion ist eine erhöhte Schallgeschwindigkeit des explodierenden Materials, typischerweise in Verbindung mit hohen [[Temperatur]]en. So führt eine Dampfkesselexplosion zu einer Detonationswelle, das Bersten eines Druckluftbehälters dagegen nur zu einem Knall.",
+  "segments": [
+    {
+      "id": "260769918-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Eine '''Detonationswelle''' ist die [[Stoßwelle]], die sich aufgrund einer [[Explosion]] nach allen Seiten ausbreitet, falls die ursprüngliche Expansionsgeschwindigkeit größer ist als die [[Schallgeschwindigkeit]] im umgebenden Medium.",
+      "plain": null
+    },
+    {
+      "id": "260769918-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Voraussetzung für die schnelle Expansion ist eine erhöhte Schallgeschwindigkeit des explodierenden Materials, typischerweise in Verbindung mit hohen [[Temperatur]]en.",
+      "plain": null
+    },
+    {
+      "id": "260769918-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "So führt eine Dampfkesselexplosion zu einer Detonationswelle, das Bersten eines Druckluftbehälters dagegen nur zu einem Knall.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 260769918,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "260769918-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "260769918-0000",
+          "260769918-0001"
+        ],
+        "plain": "So führt eine Dampfkesselexplosion zu einer Detonationswelle, das Bersten eines Druckluftbehälters dagegen nur zu einem Knall.",
+        "context_plain": [
+          "Eine Detonationswelle ist die Stoßwelle, die sich aufgrund einer Explosion nach allen Seiten ausbreitet, falls die ursprüngliche Expansionsgeschwindigkeit größer ist als die Schallgeschwindigkeit im umgebenden Medium.",
+          "Voraussetzung für die schnelle Expansion ist eine erhöhte Schallgeschwindigkeit des explodierenden Materials, typischerweise in Verbindung mit hohen Temperaturen."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

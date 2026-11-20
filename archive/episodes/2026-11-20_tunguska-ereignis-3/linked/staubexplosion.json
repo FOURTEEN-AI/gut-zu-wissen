@@ -1,0 +1,47 @@
+{
+  "title": "Staubexplosion",
+  "revid": 268019557,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-06-18T04:09:11Z",
+  "fetched_at": "2026-11-20T08:54:07Z",
+  "categories": [
+    "Kategorie:Explosionsschutz im Bergbau",
+    "Kategorie:Staubtechnik",
+    "Kategorie:Unfallart"
+  ],
+  "intro_wikitext": "Eine '''Staubexplosion''' ist die Variante einer [[Explosion]], bei der in der Luft feinverteilte feste [[Staub|Stoffpartikel]] gezündet werden. Die Folge ist eine plötzlich verlaufende Kraftentfaltung, die auf dem [[Wärmeausdehnung|Ausdehnungsbestreben]] von plötzlich erhitzten [[Gas]]en und [[Dampf|Dämpfen]] beruht.\n\n[[Pyrotechnik]]er verwenden kontrollierte Staubexplosionen von [[Bärlappsporen]], um auf Bühnen Feuereffekte und Verpuffungen zu erzeugen.",
+  "segments": [
+    {
+      "id": "268019557-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Eine '''Staubexplosion''' ist die Variante einer [[Explosion]], bei der in der Luft feinverteilte feste [[Staub|Stoffpartikel]] gezündet werden.",
+      "plain": null
+    },
+    {
+      "id": "268019557-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Folge ist eine plötzlich verlaufende Kraftentfaltung, die auf dem [[Wärmeausdehnung|Ausdehnungsbestreben]] von plötzlich erhitzten [[Gas]]en und [[Dampf|Dämpfen]] beruht.",
+      "plain": null
+    },
+    {
+      "id": "268019557-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "[[Pyrotechnik]]er verwenden kontrollierte Staubexplosionen von [[Bärlappsporen]], um auf Bühnen Feuereffekte und Verpuffungen zu erzeugen.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268019557,
+    "chunk_count": 1,
+    "facts": [],
+    "rejected": [
+      {
+        "segment_id": "268019557-0002",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}
