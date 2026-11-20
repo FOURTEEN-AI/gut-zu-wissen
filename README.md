@@ -37,6 +37,16 @@ uv run python -m gut_zu_wissen.intro_outro   # needs GEMINI_API_KEY; --force to 
 
 Configuration (threshold t, sampling rate r, model IDs, quotas, prices): [config/pipeline.toml](config/pipeline.toml). Values marked `PLACEHOLDER` are not decided yet.
 
+## Resuming from the audio step
+
+A run that failed only in the audio step (TTS or STT error, STT budget used up, crash inside the step) can be resumed without repeating the author and judge work: start the Resume audio workflow (`.github/workflows/resume-audio.yml`) with the archive folder name as `episode_id`, or locally
+
+```sh
+uv run python -m gut_zu_wissen.resume 2026-11-20_tunguska-ereignis   # needs ANTHROPIC_API_KEY, GEMINI_API_KEY
+```
+
+It reruns sections, TTS, STT verification and normalisation on the archived final script, then draws the review sample; the workflow opens the review issue as after a normal run. Any other episode is refused with a reason and the archive stays unchanged: running, completed or published episodes, gate failures before the audio step, a failed explicit check. `08_audio.json` keeps the earlier attempts under `previous_attempts`; `episode.json` lists the resume under `resumed`. The metrics count the episode as one run with its final status, marked as resumed; runtime and cost include every attempt.
+
 ## GitHub secrets
 
 The repository is public. Secrets exist only as GitHub secrets and are passed as environment variables. The names are proposals.
