@@ -3,9 +3,13 @@ import pytest
 from gut_zu_wissen.extraction import Fact
 from gut_zu_wissen.linked import intro_wikitext
 from gut_zu_wissen.ranking import (
+    SYSTEM_PROMPT,
+    bound_targets,
     format_facts,
     link_targets,
+    offer_count,
     offer_gate,
+    offer_summary,
     rank_facts,
     ranked,
     select_ranked,
@@ -25,7 +29,7 @@ class FakeLlm:
         return {"ranked_ids": self.ids}
 
 
-def test_select_keeps_model_order_and_cuts_to_quota():
+def test_select_keeps_model_order_and_cuts_to_maximum():
     facts = [fact(i) for i in range(4)]
     chosen = select_ranked(["1-0003", "1-0001", "1-0002"], facts, 2)
     assert [f.segment_id for f in chosen] == ["1-0003", "1-0001"]
@@ -37,36 +41,51 @@ def test_select_drops_unknown_and_repeated_ids():
     assert [f.segment_id for f in chosen] == ["1-0001", "1-0000"]
 
 
-def test_model_may_return_fewer_than_quota():
+def test_model_may_return_fewer_than_minimum():
     assert [f.segment_id for f in select_ranked(["1-0001"], [fact(0), fact(1)], 5)] == ["1-0001"]
 
 
-def test_rank_facts_sends_plain_text_and_context_and_quota():
+def test_rank_facts_sends_plain_text_and_context_and_range():
     llm = FakeLlm(["1-0001", "1-0000"])
-    out = rank_facts(llm, [fact(0), fact(1, ["Davor."])], 2)
+    out = rank_facts(llm, [fact(0), fact(1, ["Davor."])], 2, 3)
     assert [f.segment_id for f in out] == ["1-0001", "1-0000"]
     system, user = llm.calls[0]
-    assert "2 überraschendsten" in system
+    assert "mindestens 2 Fakten, wenn es so viele gibt, und höchstens 3" in system
     assert user == "[1-0000] Fakt 0.\n[1-0001] Fakt 1.\n  Kontext: Davor."
 
 
 def test_exclude_removes_facts_before_ranking():
     llm = FakeLlm(["1-0000", "1-0002"])
-    out = rank_facts(llm, [fact(0), fact(1), fact(2)], 5, exclude={"1-0001"})
+    out = rank_facts(llm, [fact(0), fact(1), fact(2)], 2, 5, exclude={"1-0001"})
     assert [f.segment_id for f in out] == ["1-0000", "1-0002"]
     assert "1-0001" not in llm.calls[0][1]
 
 
 def test_excluded_fact_the_model_names_anyway_is_dropped():
-    out = rank_facts(FakeLlm(["1-0001", "1-0000"]), [fact(0), fact(1)], 5, exclude={"1-0001"})
+    out = rank_facts(FakeLlm(["1-0001", "1-0000"]), [fact(0), fact(1)], 2, 5, exclude={"1-0001"})
     assert [f.segment_id for f in out] == ["1-0000"]
 
 
 @pytest.mark.parametrize("count", [0, 1])
 def test_no_model_call_below_two_candidates(count):
     llm = FakeLlm([])
-    assert len(rank_facts(llm, [fact(i) for i in range(count)], 5)) == count
+    assert len(rank_facts(llm, [fact(i) for i in range(count)], 2, 5)) == count
     assert llm.calls == []
+
+
+def test_rank_facts_cuts_answer_to_maximum():
+    llm = FakeLlm([f"1-{i:04d}" for i in range(5)])
+    out = rank_facts(llm, [fact(i) for i in range(5)], 2, 3)
+    assert [f.segment_id for f in out] == ["1-0000", "1-0001", "1-0002"]
+
+
+def test_prompt_states_range_order_and_rule_beyond_minimum():
+    system = SYSTEM_PROMPT.format(minimum=20, maximum=40)
+    assert "mindestens 20 Fakten, wenn es so viele gibt, und höchstens 40" in system
+    assert "der überraschendste zuerst" in system
+    assert "über 20 nur mit Fakten hinaus, die wirklich überraschend sind und keine Dopplungen" in (
+        system.replace("\n", " ")
+    )
 
 
 def test_format_facts_single_line_per_fact():
@@ -92,6 +111,24 @@ def test_link_targets():
         "Star Wars: Episode IV",
         "Mount Everest",
     ]
+
+
+def test_bound_targets_keeps_first_and_lists_rest():
+    assert bound_targets(["A", "B", "C"], 2) == (["A", "B"], ["C"])
+    assert bound_targets(["A"], 2) == (["A"], [])
+
+
+def test_offer_count_flags_below_minimum():
+    assert offer_count(20, 20, 40) == {"offered": 20, "min": 20, "max": 40, "below_min": False}
+    assert offer_count(5, 6, 12)["below_min"] is True
+    assert list(offer_count(1, 2, 3)) == ["offered", "min", "max", "below_min"]
+
+
+def test_offer_summary():
+    counts = {"main": offer_count(25, 20, 40), "linked": offer_count(4, 6, 12)}
+    assert offer_summary(counts) == (
+        "Offer: 25 main facts (range 20-40), 4 linked facts (range 6-12, below the minimum)"
+    )
 
 
 def test_offer_gate():

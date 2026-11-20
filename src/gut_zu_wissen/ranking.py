@@ -1,9 +1,9 @@
 """Ranking by surprise and the offer gate (phase 1, step 5).
 
 The model orders the extracted facts by surprise only (design: "Ranking und Kontingent"). The
-deterministic parts are pure functions: validating the answer, the quota, the link targets of the
-offered facts and the minimum-content gate (D5). `exclude` is the hook for the conversation
-regeneration (D6): facts cited by rejected statements are left out of the ranking.
+deterministic parts are pure functions: validating the answer, the quota range, the link targets
+of the offered facts and their bound, and the minimum-content gate (D5). `exclude` is the hook for
+the conversation regeneration (D6): facts cited by rejected statements are left out of the ranking.
 """
 
 from __future__ import annotations
@@ -25,11 +25,14 @@ RANKING_SCHEMA = {
 
 SYSTEM_PROMPT = """\
 Du bekommst Fakten aus einem Wikipedia-Artikel, jeweils mit einer ID in eckigen Klammern und \
-gegebenenfalls einem Kontext, der nur zum Verstehen dient. Wähle die {quota} überraschendsten \
-Fakten für einen Podcast aus und ordne sie: der überraschendste zuerst.
+gegebenenfalls einem Kontext, der nur zum Verstehen dient. Wähle die überraschendsten Fakten für \
+einen Podcast aus und ordne sie nach Überraschung: der überraschendste zuerst.
+
+Wähle mindestens {minimum} Fakten, wenn es so viele gibt, und höchstens {maximum}. Gehe über \
+{minimum} nur mit Fakten hinaus, die wirklich überraschend sind und keine Dopplungen.
 
 Das einzige Kriterium ist Überraschung: etwas, das ein Laie nicht erwartet. Wähle nicht zwei \
-Fakten, die im Kern dasselbe sagen; nimm dann den überraschenderen. Gibt es weniger als {quota} \
+Fakten, die im Kern dasselbe sagen; nimm dann den überraschenderen. Gibt es weniger als {minimum} \
 Fakten, die du für überraschend hältst, gib entsprechend weniger zurück.
 
 Antworte mit JSON im vorgegebenen Schema. Verwende nur IDs aus der Liste, jede höchstens einmal."""
@@ -70,15 +73,16 @@ def format_facts(facts: Sequence[Fact]) -> str:
 
 
 def select_ranked(
-    answer_ids: Iterable[object], candidates: Sequence[Fact], quota: int
+    answer_ids: Iterable[object], candidates: Sequence[Fact], maximum: int
 ) -> list[Fact]:
-    """The model's order, cut to `quota`. Unknown IDs and repeats are dropped."""
+    """The model's order, cut to `maximum`. Unknown IDs and repeats are dropped; fewer than the
+    minimum is allowed (`offer_count` makes it visible)."""
     by_id = {f.segment_id: f for f in candidates}
     chosen: list[Fact] = []
     for fid in answer_ids:
         if isinstance(fid, str) and fid in by_id and by_id[fid] not in chosen:
             chosen.append(by_id[fid])
-    return chosen[:quota]
+    return chosen[:maximum]
 
 
 def link_targets(raw_texts: Iterable[str], own_title: str = "") -> list[str]:
@@ -101,6 +105,25 @@ def link_targets(raw_texts: Iterable[str], own_title: str = "") -> list[str]:
     return targets
 
 
+def bound_targets(targets: Sequence[str], maximum: int) -> tuple[list[str], list[str]]:
+    """The first `maximum` link targets (those of the most surprising facts) and the rest."""
+    return list(targets[:maximum]), list(targets[maximum:])
+
+
+def offer_count(offered: int, minimum: int, maximum: int) -> dict:
+    """Offered facts against the range; field order is the archive field order."""
+    return {"offered": offered, "min": minimum, "max": maximum, "below_min": offered < minimum}
+
+
+def offer_summary(counts: dict) -> str:
+    """One line for the job summary: offered facts per ranking against the range."""
+    parts = []
+    for name, c in counts.items():
+        flag = ", below the minimum" if c["below_min"] else ""
+        parts.append(f"{c['offered']} {name} facts (range {c['min']}-{c['max']}{flag})")
+    return "Offer: " + ", ".join(parts)
+
+
 def offer_gate(offered: int, minimum: int) -> str | None:
     """D5: fewer than `minimum` offered facts is a gate failure before the dialog author."""
     if offered < minimum:
@@ -114,17 +137,21 @@ def offer_gate(offered: int, minimum: int) -> str | None:
 def rank_facts(
     llm: StructuredLlm,
     facts: Sequence[Fact],
-    quota: int,
+    minimum: int,
+    maximum: int,
     exclude: Collection[str] = (),
 ) -> list[Fact]:
-    """The `quota` most surprising facts, most surprising first; `exclude` lists IDs to omit."""
+    """At least `minimum` (if there are that many) and at most `maximum` of the most surprising
+    facts, most surprising first; `exclude` lists IDs to omit."""
     candidates = [f for f in facts if f.segment_id not in exclude]
     if len(candidates) < 2:
         return candidates
     answer = llm.complete_json(
-        SYSTEM_PROMPT.format(quota=quota), format_facts(candidates), RANKING_SCHEMA
+        SYSTEM_PROMPT.format(minimum=minimum, maximum=maximum),
+        format_facts(candidates),
+        RANKING_SCHEMA,
     )
-    return select_ranked(answer.get("ranked_ids", []), candidates, quota)
+    return select_ranked(answer.get("ranked_ids", []), candidates, maximum)
 
 
 def ranked(facts: Sequence[Fact], article: str, revid: int) -> list[RankedFact]:

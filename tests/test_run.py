@@ -27,8 +27,11 @@ CONFIG = {
         "max_context_segments": 3,
         "max_chunk_segments": 40,
         "min_fact_words": 4,
-        "main_facts": 20,
-        "linked_intro_facts": 6,
+        "main_facts_min": 20,
+        "main_facts_max": 40,
+        "linked_intro_facts_min": 6,
+        "linked_intro_facts_max": 12,
+        "linked_targets_max": 30,
         "min_used_facts": 1,
         "turn_retries": 2,
         "conversation_retries": 2,
@@ -279,6 +282,28 @@ def test_ranking_adds_linked_intros_with_own_revid(tmp_path):
     assert fuchs["revid"] == 6
     assert fuchs["intro_wikitext"] == "Der Fuchs ist ein Raubtier im Wald."
     assert not (folder / "linked" / "max-muster.json").exists()
+    assert ranking["link_targets_over_limit"] == []
+    assert ranking["offer_counts"] == {
+        "main": {"offered": 1, "min": 20, "max": 40, "below_min": True},
+        "linked": {"offered": 2, "min": 6, "max": 12, "below_min": True},
+    }
+
+
+def test_link_targets_beyond_the_bound_are_not_fetched(tmp_path):
+    main_text = (
+        "Der [[Fuchs]] jagt im [[Wald]] und im [[Max Muster]] sowie im [[Fehlt]].\n\n== A =="
+    )
+    others = {
+        "Fuchs": ([], "Der Fuchs ist ein Raubtier im Wald."),
+        "Wald": ([], "Ein Wald ist eine große Fläche mit Bäumen."),
+    }
+    config = {**CONFIG, "quotas": {**CONFIG["quotas"], "linked_targets_max": 1}}
+    api = FakeApi("Rotfuchs", [], text=main_text, others=others)
+    episode_id = run(api, FakeLlm(), tmp_path, config, "Rotfuchs", NOW)
+    ranking = json.loads((tmp_path / "episodes" / episode_id / "04_ranking.json").read_text())
+    assert [a["title"] for a in ranking["linked_articles"]] == ["Fuchs"]
+    assert ranking["skipped_links"] == []
+    assert ranking["link_targets_over_limit"] == ["Wald", "Max Muster", "Fehlt"]
 
 
 def test_too_few_offered_facts_fail_the_run(tmp_path):

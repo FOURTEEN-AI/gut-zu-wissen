@@ -35,6 +35,7 @@ from gut_zu_wissen.archive import (
     format_timestamp,
     last_published,
     load_episode,
+    read_json,
     save_episode,
     slugify,
     write_json,
@@ -54,7 +55,17 @@ from gut_zu_wissen.jev import HttpJev, Jev
 from gut_zu_wissen.linked import LinkedIntro, SkippedLink, fetch_linked_intros
 from gut_zu_wissen.llm import AnthropicLlm, LlmError, StructuredLlm
 from gut_zu_wissen.orchestrator import GateFailure, Offer, Orchestration, orchestrate
-from gut_zu_wissen.ranking import RankedFact, link_targets, offer_gate, rank_facts, ranked, raw_of
+from gut_zu_wissen.ranking import (
+    RankedFact,
+    bound_targets,
+    link_targets,
+    offer_count,
+    offer_gate,
+    offer_summary,
+    rank_facts,
+    ranked,
+    raw_of,
+)
 from gut_zu_wissen.render import ParseRenderer
 from gut_zu_wissen.review import build_review, load_rate_state, load_review
 from gut_zu_wissen.segmentation import segment_article
@@ -179,8 +190,12 @@ def run(
 
         def make_offer(excluded: frozenset[str]) -> Offer:
             """Both rankings without the excluded facts (D6); linked intros are fetched once."""
-            main = rank_facts(llm, facts.facts, quotas["main_facts"], excluded)
-            targets = link_targets(raw_of(main, segments), article.title)
+            main = rank_facts(
+                llm, facts.facts, quotas["main_facts_min"], quotas["main_facts_max"], excluded
+            )
+            targets, over_limit = bound_targets(
+                link_targets(raw_of(main, segments), article.title), quotas["linked_targets_max"]
+            )
             for target in targets:
                 if target in by_target:
                     continue
@@ -200,7 +215,13 @@ def run(
                 if intro and intro.title not in {i.title for i in current}:
                     current.append(intro)
             pool = [(f, i) for i in current if i.extraction for f in i.extraction.facts]
-            chosen = rank_facts(llm, [f for f, _ in pool], quotas["linked_intro_facts"], excluded)
+            chosen = rank_facts(
+                llm,
+                [f for f, _ in pool],
+                quotas["linked_intro_facts_min"],
+                quotas["linked_intro_facts_max"],
+                excluded,
+            )
             source = {f.segment_id: i for f, i in pool}
             linked = [
                 RankedFact(n, source[f.segment_id].title, source[f.segment_id].revid, f)
@@ -222,6 +243,17 @@ def run(
                     ],
                     "skipped_links": [asdict(s) for s in skipped],
                     "excluded_fact_ids": sorted(excluded),
+                    "link_targets_over_limit": over_limit,
+                    "offer_counts": {
+                        "main": offer_count(
+                            len(main_ranked), quotas["main_facts_min"], quotas["main_facts_max"]
+                        ),
+                        "linked": offer_count(
+                            len(linked),
+                            quotas["linked_intro_facts_min"],
+                            quotas["linked_intro_facts_max"],
+                        ),
+                    },
                 },
             )
             failure = offer_gate(len(main_ranked) + len(linked), quotas["min_used_facts"])
@@ -405,9 +437,11 @@ def main(argv: list[str] | None = None) -> int:
     explicit = "yes" if load_episode(ARCHIVE_ROOT, episode_id).explicit else "no"
     review = load_review(ARCHIVE_ROOT, episode_id)
     drawn = f"{len(review.turns)} of {len(review.population)} turns drawn at r = {review.rate}"
+    ranking = read_json(episode_dir(ARCHIVE_ROOT, episode_id) / RANKING_FILE)
+    offer = offer_summary(ranking["offer_counts"])
     write_job_summary(
         f"## Episode {episode_id}\n\nSteps up to the STT-verified audio, the explicit check and "
-        f"the review sample done. Explicit: {explicit}. Review: {drawn}. "
+        f"the review sample done. {offer}. Explicit: {explicit}. Review: {drawn}. "
         f"Audio: `{audio_file.relative_to(REPO_ROOT)}` (workflow artifact, not committed)."
     )
     print(

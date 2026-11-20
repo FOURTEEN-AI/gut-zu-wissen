@@ -24,9 +24,9 @@ flowchart TD
     GP -- nein --> S[Segmentierung SoMaJo, Markup maskiert]
     S --> X[Extraktion pro Abschnitt]
     X --> G1{Gate: Segment-Regeln}
-    G1 --> R[Ranking nach Überraschung: 20 Fakten]
+    G1 --> R[Ranking nach Überraschung: 20–40 Fakten]
     R --> L[Einleitungen verlinkter Artikel]
-    L --> X2[Extraktion + Gate + Ranking: 6 Fakten]
+    L --> X2[Extraktion + Gate + Ranking: 6–12 Fakten]
     R --> D[Dialogautor]
     X2 --> D
     D --> G2{Gate: Fakt-IDs existieren}
@@ -58,7 +58,7 @@ flowchart TD
 ## Korpus
 
 - **Hauptartikel:** roher Wikitext, vollständig.
-- **Verlinkte Artikel:** nur Einleitung (Text vor der ersten `==`-Überschrift), nur für Links in den 20 angebotenen Fakten.
+- **Verlinkte Artikel:** nur Einleitung (Text vor der ersten `==`-Überschrift), nur für Links in den 20–40 angebotenen Fakten.
 - **Quellstand:** revid aus der API-Antwort direkt gespeichert, zusätzlich UTC-Zeitstempel des Abrufs.
 
 ## Fakten
@@ -76,7 +76,7 @@ flowchart TD
 ## Ranking und Kontingent
 
 - **Kriterium:** nur Überraschung (LLM, probabilistisch).
-- **Kontingent:** 20 Fakten Hauptartikel, 6 Fakten verlinkte Einleitungen (eigenes Ranking). Angebot, keine Pflicht.
+- **Kontingent:** 20–40 Fakten Hauptartikel, 6–12 Fakten verlinkte Einleitungen (eigenes Ranking). Über das Minimum hinaus nur wirklich überraschende Fakten ohne Dopplung; liefert die Extraktion weniger als das Minimum, wird angeboten, was da ist. Angebot, keine Pflicht.
 - **Schätzung:** 15 Minuten ≈ 2.000–2.300 Wörter, ein Fakt ≈ 100–150 Wörter → 15–20 Fakten.
 - **Nachjustieren:** nach ersten Folgen anhand „verwendete Fakten pro Minute“.
 
