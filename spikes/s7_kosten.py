@@ -28,6 +28,7 @@ Usage (keys from .env: `set -a; . ./.env; set +a`):
   uv run --group spikes python spikes/s7_kosten.py judge NAME          # NAME from JUDGE_RUNS
   uv run --group spikes python spikes/s7_kosten.py cache               # caching replay
   uv run --group spikes python spikes/s7_kosten.py jev                 # lever 5, live, 2 repeats
+  uv run --group spikes python spikes/s7_kosten.py batch_extract       # follow-up: batch latency
   uv run --group spikes python spikes/s7_kosten.py report              # tables, no API calls
 
 Results: tests/fixtures/wikipedia/spikes/s7_results/ (answers contain Wikipedia text, CC BY-SA
@@ -104,7 +105,12 @@ JUDGE_RUNS: dict[str, tuple[str, str | None, tuple[str, ...]]] = {
     "verdict_low": ("verdict", "low", ("final", "rejected", "s1")),
     "verdict_default_final": ("verdict", None, ("final",)),
     "short_default": ("short", None, ("final", "rejected", "s1")),
+    # Follow-up 2026-11-20 (user decision): production judge input with the article title of
+    # every cited fact and the article rule in the prompt; the 46 rejected + 239 final turns.
+    "title_default": ("verdict", None, ("final", "rejected")),
 }
+# The two known misses that name the linked article's title (S1, S7 lever 5).
+TITLE_CASES = ("2026-11-20_tunguska-ereignis/c1-t21-v0", "2026-11-20_bernstein/c3-t54")
 
 SHORT_FROM = "Begründe kurz auf Deutsch; nenne bei Ablehnung die betroffene Stelle."
 SHORT_TO = (
@@ -641,14 +647,23 @@ def judge_input(case: Mapping) -> str:
 
 def judge(name: str) -> None:
     from gut_zu_wissen.judge import VERDICT_PROMPT, VERDICT_SCHEMA
+    from gut_zu_wissen.llm import request_params
 
     variant, effort, groups = JUDGE_RUNS[name]
     system = VERDICT_PROMPT if variant == "verdict" else short_prompt(VERDICT_PROMPT)
     cases = [c for c in judge_cases() if c["group"] in groups]
-    params = [
-        batch_params(SONNET, MAX_TOKENS, system, judge_input(c), VERDICT_SCHEMA, effort)
-        for c in cases
-    ]
+    if name == "title_default":  # the production request builder, cache marker included
+        params = [
+            request_params(
+                SONNET, MAX_TOKENS, system, judge_input(c), VERDICT_SCHEMA, cache_system=True
+            )
+            for c in cases
+        ]
+    else:
+        params = [
+            batch_params(SONNET, MAX_TOKENS, system, judge_input(c), VERDICT_SCHEMA, effort)
+            for c in cases
+        ]
     results = run_batch(f"judge_{name}", params)
     rows = [
         {
@@ -996,6 +1011,14 @@ def report_judge() -> None:
             f"| {fa(rows['s1'])} | {fr(rows['s1'])} | {_per_call(s, 'output_tokens'):.0f} "
             f"| {_per_call(s, 'thinking_tokens'):.0f} | {s['usd_list'] / s['calls']:.4f} |"
         )
+    title = _saved("judge", "title_default")
+    if title:
+        verdicts = {c["id"]: c["supported"] for c in title["cases"]}
+        print("\ntitle_default on the two title cases:", {i: verdicts.get(i) for i in TITLE_CASES})
+        reruns = [_saved("judge", n) for n in ("verdict_default_critical", "verdict_default_final")]
+        old = {c["id"]: c["supported"] for d in reruns if d for c in d["cases"]}
+        changed = sorted(i for i, v in verdicts.items() if i in old and old[i] != v)
+        print(f"  verdicts that differ from the S7 default rerun: {len(changed)}", changed)
     base = _saved("judge", "verdict_default_critical")
     if base:
         flips = {c["id"] for c in base["cases"] if c["group"] == "rejected" and c["supported"]}
@@ -1223,6 +1246,210 @@ def report_episodes() -> None:
         )
 
 
+# ---------------------------------------------------------------- follow-up: extraction as a batch
+
+# User decision 2026-11-20: measure only. The production setting after the switch: Claude Haiku
+# 5.5, the production request builder (`request_params`, system prompt cached), main article
+# segments of 02_segments.json.
+BATCH_EXTRACT_ARTICLES = ("helgoland", "voynich")
+BATCH_EXTRACT_REPEATS = 3
+BATCH_POLL_SECONDS = 10
+
+
+def main_extraction_requests(article: str) -> tuple[dict, list[tuple[str, str, dict]]]:
+    """The main article source and the requests `extract_facts` makes for it."""
+    from gut_zu_wissen.extraction import extract_facts
+
+    src = article_sources(article)[0]
+    fake = Collect({"candidates": []})
+    extract_facts(fake, None, src["title"], src["revid"], _segments(src["segments"]), config())
+    return src, fake.requests
+
+
+def production_params(requests: Sequence[tuple[str, str, dict]]) -> list[dict]:
+    """Each request as `AnthropicLlm.complete_json` sends it for extraction."""
+    from gut_zu_wissen.llm import request_params
+
+    return [
+        request_params(HAIKU, MAX_TOKENS, sy, u, schema, cache_system=True)
+        for sy, u, schema in requests
+    ]
+
+
+def parse_batch_result(r) -> dict:
+    if r.result.type != "succeeded":
+        return {"error": r.result.type, "usage": None, "answer": None}
+    msg = r.result.message
+    text = next((b.text for b in msg.content if b.type == "text"), "")
+    try:
+        answer = json.loads(text) if msg.stop_reason == "end_turn" else None
+    except json.JSONDecodeError:
+        answer = None
+    return {
+        "error": None if answer is not None else f"stop_reason {msg.stop_reason}",
+        "usage": msg.usage.model_dump(exclude_none=True),
+        "stop_reason": msg.stop_reason,
+        "answer": answer,
+    }
+
+
+def replay_extraction(article: str, src: dict, requests, answers: Sequence[dict]) -> dict:
+    """The extraction result of the answers, through the production `extract_facts`."""
+    from gut_zu_wissen.extraction import extract_facts
+
+    replay = Replay(
+        [(request_digest(sy, u), a or {"candidates": []}) for (sy, u, _), a in
+         zip(requests, answers, strict=True)]
+    )  # fmt: skip
+    res = extract_facts(
+        replay, CachedRenderer(article), src["title"], src["revid"],
+        _segments(src["segments"]), config(),
+    )  # fmt: skip
+    d = res.to_dict()
+    return {"proposed": proposed_ids(d), "facts": [f["segment_id"] for f in d["facts"]]}
+
+
+def sync_extraction(article: str) -> dict:
+    """One synchronous run as the pipeline makes it: streamed `AnthropicLlm`, one call after the
+    other, with the cache marker; wall time of all calls."""
+    from gut_zu_wissen.extraction import extract_facts
+    from gut_zu_wissen.llm import AnthropicLlm
+    from gut_zu_wissen.usage import Usage
+
+    src, requests = main_extraction_requests(article)
+    usage = Usage(HAIKU)
+    answers: list[dict] = []
+
+    class Recording(AnthropicLlm):
+        def complete_json(self, system, user, schema, **cache):
+            answer = super().complete_json(system, user, schema, **cache)
+            answers.append(answer)
+            return answer
+
+    llm = Recording(HAIKU, MAX_TOKENS, anthropic_client(), usage)
+    start = time.time()
+    res = extract_facts(
+        llm, CachedRenderer(article), src["title"], src["revid"], _segments(src["segments"]),
+        config(),
+    )  # fmt: skip
+    seconds = time.time() - start  # includes the (cached) render, a few ms
+    counts = {
+        "input_tokens": usage.input_tokens,
+        "output_tokens": usage.output_tokens,
+        "cache_creation_input_tokens": usage.cache_creation_input_tokens,
+        "cache_read_input_tokens": usage.cache_read_input_tokens,
+    }
+    d = res.to_dict()
+    return {
+        "calls": usage.calls,
+        "seconds": round(seconds, 1),
+        "usage": counts,
+        "usd_list": round(usage_cost(counts, HAIKU), 4),
+        "proposed": proposed_ids(d),
+        "facts": [f["segment_id"] for f in d["facts"]],
+    }
+
+
+def run_timed_batches(jobs: Mapping[str, list[dict]]) -> dict[str, dict]:
+    """Submit one batch per job at once, poll until all ended, and record per batch the wall
+    time from submit to the end of processing as seen by polling, and the API's own
+    created_at/ended_at. A batch still open on an error is cancelled."""
+    client = anthropic_client()
+    open_ids: dict[str, str] = {}
+    submitted: dict[str, float] = {}
+    try:
+        for name, params in jobs.items():
+            reqs = [{"custom_id": f"r{n:04d}", "params": p} for n, p in enumerate(params)]
+            submitted[name] = time.time()
+            open_ids[name] = client.messages.batches.create(requests=reqs).id
+            print(f"{name}: batch {open_ids[name]}, {len(reqs)} requests")
+        done: dict[str, dict] = {}
+        while len(done) < len(jobs):
+            time.sleep(BATCH_POLL_SECONDS)
+            for name, bid in open_ids.items():
+                if name in done:
+                    continue
+                b = client.messages.batches.retrieve(bid)
+                if b.processing_status != "ended":
+                    continue
+                polled = time.time() - submitted[name]
+                by_id = {r.custom_id: parse_batch_result(r) for r in
+                         client.messages.batches.results(bid)}  # fmt: skip
+                done[name] = {
+                    "batch_id": bid,
+                    "seconds_polled": round(polled, 1),
+                    "seconds_api": round((b.ended_at - b.created_at).total_seconds(), 1),
+                    "results": [by_id[f"r{n:04d}"] for n in range(len(jobs[name]))],
+                }
+                print(f"  {name} ended after {polled:.0f} s ({b.request_counts})")
+        open_ids.clear()
+        return done
+    finally:
+        for name, bid in open_ids.items():
+            if client.messages.batches.retrieve(bid).processing_status != "ended":
+                client.messages.batches.cancel(bid)
+                print(f"  cancelled {name} ({bid})")
+
+
+def batch_extract() -> None:
+    """Follow-up: extraction of two archived articles as Message Batches (Haiku 5.5, production
+    requests), BATCH_EXTRACT_REPEATS repeats, against one synchronous run each."""
+    prepared = {a: main_extraction_requests(a) for a in BATCH_EXTRACT_ARTICLES}
+    body: dict = {"model": HAIKU, "articles": {}}
+    for a in BATCH_EXTRACT_ARTICLES:
+        print(f"sync {a} ...")
+        body["articles"][a] = {"sync": sync_extraction(a), "batches": []}
+        print(f"  {body['articles'][a]['sync']['seconds']} s")
+    for rep in range(BATCH_EXTRACT_REPEATS):
+        jobs = {f"{a}_r{rep}": production_params(prepared[a][1]) for a in prepared}
+        done = run_timed_batches(jobs)
+        for a, (src, requests) in prepared.items():
+            d = done[f"{a}_r{rep}"]
+            results = d.pop("results")
+            d["summary"] = usage_summary(results, HAIKU)
+            d["usage"] = [r["usage"] for r in results]
+            d.update(replay_extraction(a, src, requests, [r["answer"] for r in results]))
+            body["articles"][a]["batches"].append(d)
+    paid = sum(
+        b["summary"]["usd_paid"] for x in body["articles"].values() for b in x["batches"]
+    ) + sum(x["sync"]["usd_list"] for x in body["articles"].values())
+    body["summary"] = {"usd_paid": round(paid, 4)}
+    print(save("batch_extract", "haiku_production", body), body["summary"])
+
+
+def report_batch_extract() -> None:
+    d = _saved("batch_extract", "haiku_production")
+    if d is None:
+        return
+    print("\n## Follow-up: extraction as a batch (Haiku 5.5, production requests)\n")
+    print(
+        "| Article | run | calls | wall s | cache read tok | list $ | paid $ "
+        "| facts | J facts vs sync | J proposed vs sync |"
+    )
+    print("|---|---|---:|---:|---:|---:|---:|---:|---:|---:|")
+    for a, x in d["articles"].items():
+        s = x["sync"]
+        print(
+            f"| {a} | sync | {s['calls']} | {s['seconds']:.0f} "
+            f"| {s['usage']['cache_read_input_tokens']:,} | {s['usd_list']:.4f} "
+            f"| {s['usd_list']:.4f} | {len(s['facts'])} | 1.00 | 1.00 |"
+        )
+        for n, b in enumerate(x["batches"]):
+            cached = sum((u or {}).get("cache_read_input_tokens", 0) for u in b["usage"])
+            print(
+                f"| {a} | batch {n + 1} | {b['summary']['calls']} | {b['seconds_polled']:.0f} "
+                f"(API {b['seconds_api']:.0f}) | {cached:,} | {b['summary']['usd_list']:.4f} "
+                f"| {b['summary']['usd_paid']:.4f} | {len(b['facts'])} "
+                f"| {jaccard(b['facts'], s['facts']):.2f} "
+                f"| {jaccard(b['proposed'], s['proposed']):.2f} |"
+            )
+        bs = x["batches"]
+        pairs = [(i, j) for i in range(len(bs)) for j in range(i + 1, len(bs))]
+        if pairs:
+            js = [jaccard(bs[i]["facts"], bs[j]["facts"]) for i, j in pairs]
+            print(f"| {a} | batch vs batch | | | | | | | {min(js):.2f}-{max(js):.2f} | |")
+
+
 def report() -> None:
     report_episodes()
     report_extraction()
@@ -1230,6 +1457,7 @@ def report() -> None:
     report_judge()
     report_cache()
     report_jev()
+    report_batch_extract()
     print()
     spend()
 
@@ -1237,7 +1465,7 @@ def report() -> None:
 def spend() -> float:
     """USD actually paid for every saved result (batch prices where batched)."""
     total = 0.0
-    for kind in ("extract", "rank", "judge", "cache"):
+    for kind in ("extract", "rank", "judge", "cache", "batch_extract"):
         for p in sorted((RESULTS / kind).glob("*.json")):
             body = load(p)
             if "summary" not in body:
@@ -1268,4 +1496,5 @@ if __name__ == "__main__":
         "spend": spend,
         "report": report,
         "offers": offers,
+        "batch_extract": batch_extract,
     }[command](*args)
