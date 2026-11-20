@@ -74,8 +74,8 @@ These retire the open risks before the build starts.
 - Internet Archive upload via the S3 API (audio and episode cover). ✅ Done in code (2026-11-20; not yet run against the live service, first upload at go-live).
   - Decided 2026-11-20: MP3 encoded by the pipeline from the FLAC master (128 kbit/s, `[hosting]` in the config); publishing is a manual workflow (`publish.yml`, input: episode ID and the producing run's ID) after the review, not part of the run.
   - One item per episode, `gut-zu-wissen_<episode id>`; result in `10_publication.json`; the episode becomes `published` only once the item lists both files.
-  - Needs the GitHub secrets `IA_ACCESS_KEY` and `IA_SECRET_KEY`.
-- Static Pages site: no external resources, `preload="none"`, legal pages linked on every page. ✅ Done in code (2026-11-20; generator `gut_zu_wissen.site`, workflow `pages.yml`; the repository's Pages source must be set to "GitHub Actions").
+  - Needs the GitHub secrets `ARCHIVE_S3_ACCESS_KEY` and `ARCHIVE_S3_SECRET_KEY` (the workflow passes them to the pipeline as `IA_ACCESS_KEY` and `IA_SECRET_KEY`).
+- Static Pages site: no external resources, `preload="none"`, legal pages linked on every page. ✅ Done in code (2026-11-20; generator `gut_zu_wissen.site`, workflow `pages.yml`; Pages source set to "GitHub Actions" on 2026-11-20).
   - Publish the plain-language explainer `site/so-funktionierts.html` (draft exists, phase 1). Before publishing:
     - check the Impressum/Datenschutz link targets against how the site is actually served: ✅ done (generated as `impressum.html`, `datenschutz.html`);
     - replace the "trial phase, not yet published" wording: ✅ done;
