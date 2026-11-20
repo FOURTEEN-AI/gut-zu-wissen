@@ -76,7 +76,7 @@ These retire the open risks before the build starts.
   - One item per episode, `gut-zu-wissen_<episode id>`; result in `10_publication.json`; the episode becomes `published` only once the item lists both files.
   - Needs the GitHub secrets `ARCHIVE_S3_ACCESS_KEY` and `ARCHIVE_S3_SECRET_KEY`.
 - Static Pages site: no external resources, `preload="none"`, legal pages linked on every page. ✅ Done in code (2026-11-20; generator `gut_zu_wissen.site`, workflow `pages.yml`; Pages source set to "GitHub Actions" on 2026-11-20).
-  - Publish the plain-language explainer `site/so-funktionierts.html` (draft exists, phase 1). Before publishing:
+  - Publish the plain-language explainer `site/so-funktionierts.html`: ✅ Done (2026-11-20; live, identical to `main`). Before publishing:
     - check the Impressum/Datenschutz link targets against how the site is actually served: ✅ done (generated as `impressum.html`, `datenschutz.html`);
     - replace the "trial phase, not yet published" wording: ✅ done;
     - update the steps if the pipeline has changed since: ✅ checked (2026-11-20; numbers match `[quotas]`, D2, D4, D5; no change needed).
