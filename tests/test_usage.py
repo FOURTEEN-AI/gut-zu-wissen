@@ -1,4 +1,10 @@
-from gut_zu_wissen.usage import episode_cost, token_cost, tts_cost_usd
+from gut_zu_wissen.usage import (
+    audio_tts_cost_usd,
+    episode_cost,
+    merge_usage,
+    token_cost,
+    tts_cost_usd,
+)
 
 PRICES = {
     "claude_sonnet_input": 2.0,
@@ -53,3 +59,43 @@ def test_episode_cost_invents_nothing():
         "other": None,  # no price key for this role
         "tts": None,
     }
+
+
+def test_merge_usage_sums_the_counts_per_role_and_keeps_the_order():
+    added = {
+        "llm_judge": {"model": "a", "calls": 2, "input_tokens": 10, "output_tokens": 5},
+        "new": {"model": "n", "calls": 1, "input_tokens": 1, "output_tokens": 1},
+    }
+    merged = merge_usage(USAGE, added)
+    assert list(merged) == ["author", "llm_judge", "jev", "new"]
+    assert merged["llm_judge"] == {
+        "model": "a",
+        "calls": 3,
+        "input_tokens": 200_010,
+        "output_tokens": 5,
+    }
+    assert merged["author"] == USAGE["author"] and merged["new"] == added["new"]
+    assert USAGE["llm_judge"]["calls"] == 1  # inputs unchanged
+
+
+def test_merge_usage_names_both_models_when_the_model_changed():
+    added = {"jev": {"model": "k", "calls": 1, "input_tokens": 0, "output_tokens": 0}}
+    once = merge_usage(USAGE, added)
+    assert once["jev"]["model"] == "j, k"
+    assert merge_usage(once, added)["jev"]["model"] == "j, k"
+
+
+def test_merge_usage_with_nothing_added_is_the_stored_usage():
+    assert merge_usage(USAGE, {}) == USAGE
+    assert merge_usage({}, USAGE) == USAGE
+
+
+def test_audio_tts_cost_covers_the_previous_attempts():
+    audio = {
+        "sections": [{"usd": 0.1}, {"usd": 0.2}],
+        "previous_attempts": [{"sections": [{"usd": 0.05}]}, {"sections": []}],
+    }
+    assert audio_tts_cost_usd(audio) == 0.35
+    assert audio_tts_cost_usd({"sections": [{"usd": 0.1}]}) == 0.1  # no resume
+    unknown = {**audio, "previous_attempts": [{"sections": [{"usd": None}]}]}
+    assert audio_tts_cost_usd(unknown) is None

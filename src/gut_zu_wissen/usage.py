@@ -47,6 +47,28 @@ def usage_dict(usage: Mapping[str, Usage] | None) -> dict[str, dict]:
     return {role: asdict(u) for role, u in (usage or {}).items()}
 
 
+COUNT_FIELDS = ("calls", "input_tokens", "output_tokens")
+MODEL_SEPARATOR = ", "
+
+
+def merge_usage(stored: Mapping[str, Mapping], added: Mapping[str, Mapping]) -> dict[str, dict]:
+    """`usage` of an episode after a resume: the counts of `added` summed onto `stored`, per
+    role; stored roles keep their order, new roles follow. When the model of a role changed in
+    between, both are named (stored first), so the counts stay attributable."""
+    merged = {role: dict(counts) for role, counts in stored.items()}
+    for role, counts in added.items():
+        if role not in merged:
+            merged[role] = dict(counts)
+            continue
+        entry = merged[role]
+        models = str(entry["model"]).split(MODEL_SEPARATOR)
+        if counts["model"] not in models:
+            entry["model"] = MODEL_SEPARATOR.join([*models, counts["model"]])
+        for name in COUNT_FIELDS:
+            entry[name] = entry.get(name, 0) + counts.get(name, 0)
+    return merged
+
+
 # ---------------------------------------------------------------- cost (pure)
 
 
@@ -70,6 +92,16 @@ def tts_cost_usd(sections: Sequence[Mapping]) -> float | None:
     """TTS cost from the sections of `08_audio.json`; None when a section has no cost. No
     section (no synthesis): 0."""
     costs = [s.get("usd") for s in sections]
+    if any(c is None for c in costs):
+        return None
+    return round(sum(costs), USD_DIGITS)
+
+
+def audio_tts_cost_usd(audio: Mapping) -> float | None:
+    """TTS cost of `08_audio.json` over every attempt of the audio step: its sections and those
+    of the earlier attempts a resume kept (`previous_attempts`); None when one is unknown."""
+    records = [audio, *audio.get("previous_attempts", [])]
+    costs = [tts_cost_usd(r.get("sections", [])) for r in records]
     if any(c is None for c in costs):
         return None
     return round(sum(costs), USD_DIGITS)

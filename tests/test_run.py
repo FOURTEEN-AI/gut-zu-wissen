@@ -528,6 +528,7 @@ def test_audio_is_synthesised_normalised_and_archived(tmp_path):
     assert list(record) == [
         "model", "voices", "section_max_chars", "stt_model", "section_retries", "sections",
         "fixed_parts", "joins", "loudness", "file", "sample_rate", "seconds", "usd",
+        "previous_attempts",
     ]  # fmt: skip
     assert record["stt_model"] == "large-v3" and record["section_retries"] == 2
     section = record["sections"][0]

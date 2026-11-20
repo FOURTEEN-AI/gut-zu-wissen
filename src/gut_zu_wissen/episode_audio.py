@@ -102,6 +102,9 @@ class AudioRecord:
     sample_rate: int | None = None
     seconds: float | None = None
     usd: float | None = None
+    # Earlier attempts of the audio step, when it was resumed (`resume.py`): their records as
+    # archived, oldest first, so nothing paid for is lost.
+    previous_attempts: list[dict] = field(default_factory=list)
 
     def to_dict(self) -> dict:
         return asdict(self)
