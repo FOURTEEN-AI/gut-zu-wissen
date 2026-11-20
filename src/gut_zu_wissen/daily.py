@@ -217,3 +217,82 @@ def _next_allowed(
             return candidate
         result.notes.append(f"Substitute '{candidate}' rejected: {reason}")
     return None
+
+
+# ---------------------------------------------------------------- entry point
+
+
+def _substitutes(api: WikipediaApi, excluded: set[str], seed: str) -> Iterator[str]:
+    """The substitute candidates; the category lists are fetched when the first one is needed."""
+    yield from candidate_order(featured_titles(api), excluded, seed)
+
+
+def main() -> int:
+    """`python -m gut_zu_wissen.daily`: today's episode; exit 1 if the episode is dropped."""
+    from datetime import UTC
+
+    from gut_zu_wissen.archive import last_published
+    from gut_zu_wissen.fetch import HttpWikipediaApi
+    from gut_zu_wissen.intro_outro import FixedAudioError
+    from gut_zu_wissen.run import (
+        ARCHIVE_ROOT,
+        MissingKeyError,
+        load_config,
+        report_success,
+        run_title,
+        write_job_summary,
+    )
+
+    config = load_config()
+    now = datetime.now(UTC)
+    day = now.date()
+    api = HttpWikipediaApi()
+    quotas = config["quotas"]
+    notes: list[str] = []
+    try:
+        title = article_of_the_day(api, day)
+    except ArticleOfTheDayError as exc:
+        notes.append(str(exc))
+        title = ""
+    seed = day.isoformat()
+
+    def check(candidate: str) -> str | None:
+        return candidate_rejection(
+            categories_of(api, candidate),
+            last_published(ARCHIVE_ROOT, candidate),
+            now,
+            quotas["repeat_gate_months"],
+        )
+
+    def run_episode(name: str) -> str:
+        print(f"Daily run: '{name}'", flush=True)
+        return run_title(config, name)
+
+    substitutes = _substitutes(api, {title}, seed)
+    first = title
+    if not first:  # no article of the day: the first allowed substitute takes its place
+        first = next((c for c in substitutes if check(c) is None), "")
+    try:
+        if not first:
+            result = DayResult(dropped_reason="No article of the day and no allowed substitute.")
+        else:
+            result = run_day(
+                first, substitutes, quotas["substitute_articles_max"], run_episode, check
+            )
+    except (MissingKeyError, FixedAudioError) as exc:
+        print(f"::error::Aborted: {exc}")
+        write_job_summary(f"## Daily run aborted\n\n{exc}")
+        return 1
+    result.notes[:0] = notes
+    summary = "\n".join(f"- {n}" for n in result.notes)
+    if result.episode_id:
+        write_job_summary(f"## Daily run\n\nArticles tried: {', '.join(result.tried)}\n\n{summary}")
+        report_success(result.episode_id)
+        return 0
+    print(f"::error::Episode dropped: {result.dropped_reason}")
+    write_job_summary(f"## Episode dropped\n\n{result.dropped_reason}\n\n{summary}")
+    return 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

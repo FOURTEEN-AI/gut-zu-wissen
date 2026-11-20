@@ -478,12 +478,16 @@ def write_step_output(name: str, value: str) -> None:
             f.write(f"{name}={value}\n")
 
 
-def main(argv: list[str] | None = None) -> int:
-    args = sys.argv[1:] if argv is None else argv
-    if len(args) != 1 or not args[0].strip():
-        print('Usage: python -m gut_zu_wissen.run "<article title>"', file=sys.stderr)
-        return 2
-    config = load_config()
+class MissingKeyError(Exception):
+    """A required API key is missing; checked before the run spends anything."""
+
+
+def run_title(config: dict, title: str) -> str:
+    """One complete run for `title` with the live clients; returns the episode ID.
+
+    Every call builds fresh clients and usage counters, so each episode's cost log counts only its
+    own run (the daily run may try substitute articles). Raises what `run` raises.
+    """
     max_tokens = config["quotas"]["llm_max_tokens"]
     models = config["models"]
     # "extraction" last: the older roles keep their order in episode.json.
@@ -507,8 +511,7 @@ def main(argv: list[str] | None = None) -> int:
     )
     gemini_key = os.environ.get("GEMINI_API_KEY", "")
     if not gemini_key:  # fail before the run spends anything; TTS comes last
-        print("::error::GEMINI_API_KEY is not set.", file=sys.stderr)
-        return 2
+        raise MissingKeyError("GEMINI_API_KEY is not set.")
     tts_config = config["tts"]
     tts = GeminiTts(
         config["models"]["tts"],
@@ -520,25 +523,38 @@ def main(argv: list[str] | None = None) -> int:
     )
     stt = WhisperStt(config["models"]["stt"], config["stt"])
     secrets = secret_values(os.environ)
+    return run(
+        HttpWikipediaApi(),
+        llm,
+        judge_llm,
+        jev,
+        ARCHIVE_ROOT,
+        config,
+        title,
+        datetime.now(UTC),
+        tts=tts,
+        stt=stt,
+        fixed_dir=ASSETS_DIR,
+        audio_root=AUDIO_ROOT,
+        usage=usage,
+        secrets=secrets,
+        dialog_llm=dialog_llm,
+        extraction_llm=extraction_llm,
+    )
+
+
+def main(argv: list[str] | None = None) -> int:
+    args = sys.argv[1:] if argv is None else argv
+    if len(args) != 1 or not args[0].strip():
+        print('Usage: python -m gut_zu_wissen.run "<article title>"', file=sys.stderr)
+        return 2
+    config = load_config()
+    secrets = secret_values(os.environ)
     try:
-        episode_id = run(
-            HttpWikipediaApi(),
-            llm,
-            judge_llm,
-            jev,
-            ARCHIVE_ROOT,
-            config,
-            args[0].strip(),
-            datetime.now(UTC),
-            tts=tts,
-            stt=stt,
-            fixed_dir=ASSETS_DIR,
-            audio_root=AUDIO_ROOT,
-            usage=usage,
-            secrets=secrets,
-            dialog_llm=dialog_llm,
-            extraction_llm=extraction_llm,
-        )
+        episode_id = run_title(config, args[0].strip())
+    except MissingKeyError as exc:
+        print(f"::error::{exc}", file=sys.stderr)
+        return 2
     except ArticleNotFoundError:
         print(f"Article not found: {args[0]}", file=sys.stderr)
         return 1
