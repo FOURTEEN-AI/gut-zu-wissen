@@ -61,7 +61,7 @@ These retire the open risks before the build starts.
     - Sampling with rate r; r state in the repo.
     - Review issue in machine-readable format.
     - `issue_comment` workflow writes labels to the archive, accepting comments from you only.
-13. **Exit criteria.** 5 episodes fully reviewed at r = 100 %. Measured: facts used per minute, escalation rate, cascade length, runtime, cost, error rate by revision status.
+13. **Exit criteria.** ✅ Done (2026-11-20: 5 of 5 episodes fully reviewed, no `nicht belegt`; measurements from `python -m gut_zu_wissen.metrics`). 5 episodes fully reviewed at r = 100 %. Measured: facts used per minute, escalation rate, cascade length, runtime, cost, error rate by revision status.
 
 ## Phase 2: Publication (Ausbaustufe 2)
 
