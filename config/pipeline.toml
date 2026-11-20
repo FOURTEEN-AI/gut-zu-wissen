@@ -36,8 +36,9 @@ r_max = 1.0              # upper bound (100 %)
 r_factor_clean = "2/3"   # error-free reviewed episode: r * 2/3
 r_factor_error = 2       # error found: r * 2, at most r_max
 # Phase 1 keeps r at 100 % until the exit criteria (step 13: 5 episodes fully reviewed at
-# r = 100 %) are met; answered reviews are still recorded in the state file. Set to true after.
-adjust_rate = false
+# r = 100 %) are met; answered reviews are still recorded in the state file. Step 13 was met on
+# 2026-11-20, so r now follows the rate rule.
+adjust_rate = true
 # Only comments by this GitHub account become labels, and only with one of these
 # author_association values (the repo belongs to an organisation, so the owner may show as MEMBER).
 reviewer = "ajFourteen"
