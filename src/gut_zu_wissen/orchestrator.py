@@ -131,6 +131,7 @@ class DiscardedConversation:
     excluded_fact_ids: list[str]
     dialog: Dialog
     judgements: list[TurnJudgement] = field(default_factory=list)
+    aliases: dict[str, str] = field(default_factory=dict)  # what the author saw, for tracing
 
 
 @dataclass
@@ -149,12 +150,16 @@ class Orchestration:
     superseded: list[SupersededJudgement] = field(default_factory=list)
 
     def dialog_dict(self) -> dict:
+        """`aliases` (last) maps the identifiers the author saw for the final offer to segment
+        IDs; it is for tracing only, every other field holds segment IDs."""
         assert self.dialog is not None
+        offer = self.offer
         return {
             **self.dialog.to_dict(),
             "conversation": self.conversation,
             "regenerations": [asdict(r) for r in self.regenerations],
             "discarded_conversations": [asdict(d) for d in self.discarded],
+            "aliases": offer_aliases(offer.main, offer.linked) if offer else {},
         }
 
     def judgement_dict(self) -> dict:
@@ -436,7 +441,12 @@ def orchestrate(
                 if conversation <= quotas["conversation_retries"]:
                     state.discarded.append(
                         DiscardedConversation(
-                            conversation, failure, sorted(excluded), dialog, list(judgements)
+                            conversation,
+                            failure,
+                            sorted(excluded),
+                            dialog,
+                            list(judgements),
+                            offer_aliases(state.offer.main, state.offer.linked),
                         )
                     )
                     continue

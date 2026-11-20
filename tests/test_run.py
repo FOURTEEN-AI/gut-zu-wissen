@@ -406,8 +406,9 @@ def test_author_answers_with_aliases_and_the_archive_holds_only_segment_ids(tmp_
     assert dialog["used_fact_ids"] == ["5-0001", "5-0000"]
     judgement = json.loads((folder / "06_judgement.json").read_text())
     assert judgement["used_fact_ids"] == ["5-0001", "5-0000"]
-    for name in ("05_dialog.json", "06_judgement.json"):
-        assert not re.search(r'"F\d+"', (folder / name).read_text())
+    assert dialog.pop("aliases") == {"F1": "5-0001", "F2": "5-0000"}  # last field, tracing only
+    for data in (dialog, judgement):
+        assert not re.search(r'"F\d+"', json.dumps(data))
 
 
 def test_unknown_fact_id_in_dialog_fails_the_run(tmp_path):

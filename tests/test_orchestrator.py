@@ -416,6 +416,17 @@ def test_regenerated_turn_rejected_again_is_retried_within_the_budget():
     ]
     assert [s.judgement.accepted for s in state.superseded] == [False, False, True]
     assert state.regenerations[1].previous.text == "Falsch."  # version 1, replaced by #1
+    dialog = state.dialog_dict()
+    assert list(dialog) == [
+        "turns",
+        "problems",
+        "used_fact_ids",
+        "conversation",
+        "regenerations",
+        "discarded_conversations",
+        "aliases",
+    ]
+    assert dialog["aliases"] == {"F1": "1-0000", "F2": "1-0001", "F3": "1-0002"}
     data = state.judgement_dict()
     assert list(data) == [
         "judgements",
@@ -586,3 +597,18 @@ def test_tunguska_like_wrong_id_is_rejected_and_a_corrected_regeneration_accepte
     assert [t.fact_ids for t in state.dialog.turns] == [["1-0000"], ["1-0001"], ["1-0000"]]
     assert all(j.accepted for j in state.judgements)
     assert state.used_fact_ids == ["1-0000", "1-0001"]
+
+
+def test_discarded_conversation_keeps_the_aliases_of_its_own_offer():
+    # D6: the fresh offer lacks the excluded fact, so its aliases are rebuilt.
+    bad = turn_json("Lena", "Falsch.", "F1")
+    author = FakeAuthor(
+        [dialog_json("Falsch.", fact="F1"), dialog_json("Gut.", fact="F1")], [bad, bad]
+    )
+    state = run(author, FakeJev(bad={"Falsch."}), n_facts=2)
+    (discarded,) = state.discarded
+    assert discarded.excluded_fact_ids == ["1-0000"]
+    assert asdict(discarded)["aliases"] == {"F1": "1-0000", "F2": "1-0001"}
+    assert list(asdict(discarded))[-1] == "aliases"
+    assert state.dialog_dict()["aliases"] == {"F1": "1-0001"}
+    assert state.dialog.turns[0].fact_ids == ["1-0001"]  # F1 of the new offer
