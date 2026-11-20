@@ -1,0 +1,47 @@
+{
+  "episode_id": "2026-11-20_bernstein-2",
+  "title": "Bernstein",
+  "status": "completed",
+  "started_at": "2026-11-20T11:41:27Z",
+  "finished_at": "2026-11-20T12:13:33Z",
+  "published_at": null,
+  "explicit": false,
+  "failure": null,
+  "usage": {
+    "author": {
+      "model": "claude-sonnet-5-5",
+      "calls": 118,
+      "input_tokens": 581928,
+      "output_tokens": 101119
+    },
+    "llm_judge": {
+      "model": "claude-sonnet-5-5",
+      "calls": 164,
+      "input_tokens": 186108,
+      "output_tokens": 39334
+    },
+    "jev": {
+      "model": "jev-1.14.0",
+      "calls": 189,
+      "input_tokens": 195099,
+      "output_tokens": 9476
+    }
+  },
+  "cost": {
+    "prices": {
+      "claude_sonnet_input": 2.0,
+      "claude_sonnet_output": 10.0,
+      "jev": 0.042,
+      "gemini_tts_input": 0.5,
+      "gemini_tts_output": 9.0
+    },
+    "usd": {
+      "author": 2.175,
+      "llm_judge": 0.7656,
+      "jev": 0.0082,
+      "tts": 0.1188
+    }
+  },
+  "failed_step": null,
+  "resumed": []
+}

@@ -1,0 +1,72 @@
+{
+  "title": "DNA-Sequenzierung",
+  "revid": 267459606,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-05-28T18:17:24Z",
+  "fetched_at": "2026-11-20T11:41:27Z",
+  "categories": [
+    "Kategorie:Biochemisches Nachweisverfahren",
+    "Kategorie:Biologische Untersuchungsmethode",
+    "Kategorie:Elektrophorese",
+    "Kategorie:Gentechnik",
+    "Kategorie:Molekularbiologie",
+    "Kategorie:Nukleinsäure-Methode"
+  ],
+  "intro_wikitext": "'''DNA-Sequenzierung''' ist die Bestimmung der [[Nukleotide|Nukleotid]]-Abfolge in einem [[Desoxyribonukleinsäure|DNA]]-[[Molekül]]. Die DNA-Sequenzierung hat die biologischen Wissenschaften revolutioniert und die Ära der [[Genomik]] eingeleitet. Seit 1995 konnte durch DNA-Sequenzierung das [[Genom]] von über 50.000 (Stand: 2020) verschiedenen Organismen [[Liste von sequenzierten eukaryontischen Genomen|analysiert]] werden.\nZusammen mit anderen [[DNA-Analyse|DNA-analytischen]] Verfahren wird die DNA-Sequenzierung u.&nbsp;a. auch zur Untersuchung [[Erbkrankheit|genetisch bedingter Erkrankungen]] herangezogen. Darüber hinaus ist die DNA-Sequenzierung als [[Analyse|analytische]] Schlüsselmethode, insbesondere im Rahmen von [[Klonierung|DNA-Klonierungen]] (engl. ''molecular cloning''), aus einem [[Molekularbiologie|molekularbiologischen]] bzw. [[Gentechnik|gentechnischen]] [[Labor]]betrieb heute nicht mehr wegzudenken.",
+  "segments": [
+    {
+      "id": "267459606-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''DNA-Sequenzierung''' ist die Bestimmung der [[Nukleotide|Nukleotid]]-Abfolge in einem [[Desoxyribonukleinsäure|DNA]]-[[Molekül]].",
+      "plain": null
+    },
+    {
+      "id": "267459606-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die DNA-Sequenzierung hat die biologischen Wissenschaften revolutioniert und die Ära der [[Genomik]] eingeleitet.",
+      "plain": null
+    },
+    {
+      "id": "267459606-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Seit 1995 konnte durch DNA-Sequenzierung das [[Genom]] von über 50.000 (Stand: 2020) verschiedenen Organismen [[Liste von sequenzierten eukaryontischen Genomen|analysiert]] werden.",
+      "plain": null
+    },
+    {
+      "id": "267459606-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Zusammen mit anderen [[DNA-Analyse|DNA-analytischen]] Verfahren wird die DNA-Sequenzierung u.&nbsp;a. auch zur Untersuchung [[Erbkrankheit|genetisch bedingter Erkrankungen]] herangezogen.",
+      "plain": null
+    },
+    {
+      "id": "267459606-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Darüber hinaus ist die DNA-Sequenzierung als [[Analyse|analytische]] Schlüsselmethode, insbesondere im Rahmen von [[Klonierung|DNA-Klonierungen]] (engl. ''molecular cloning''), aus einem [[Molekularbiologie|molekularbiologischen]] bzw. [[Gentechnik|gentechnischen]] [[Labor]]betrieb heute nicht mehr wegzudenken.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 267459606,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "267459606-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "267459606-0001"
+        ],
+        "plain": "Seit 1995 konnte durch DNA-Sequenzierung das Genom von über 50.000 (Stand: 2020) verschiedenen Organismen analysiert werden.",
+        "context_plain": [
+          "Die DNA-Sequenzierung hat die biologischen Wissenschaften revolutioniert und die Ära der Genomik eingeleitet."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

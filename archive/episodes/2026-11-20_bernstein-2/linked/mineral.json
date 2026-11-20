@@ -1,0 +1,127 @@
+{
+  "title": "Mineral",
+  "revid": 271384758,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-16T14:45:59Z",
+  "fetched_at": "2026-11-20T11:41:27Z",
+  "categories": [
+    "Kategorie:Bergbau nach Rohstoff",
+    "Kategorie:Mineral",
+    "Kategorie:Wikipedia:Seite mit ref-Parameter details"
+  ],
+  "intro_wikitext": "{{Begriffsklärungshinweis}}\n[[Datei:Pyrite from Ampliación a Victoria Mine, Navajún, La Rioja, Spain 2.jpg|mini|Der [[Pyrit]] zählt zum [[Kubisches Kristallsystem|kubischen Kristallsystem]] und bildet würfelförmige Körper. Dieses Foto zeigt einen [[Pyrit]] aus [[Navajún]], La Rioja, Spanien, der zu einem großen Korpus aus vielen verschachtelten Pyrit-[[Würfel (Geometrie)|Kuben]] gewachsen ist.]]\n\nEin '''Mineral''' ist ein [[Chemisches Element|Element]] oder eine [[chemische Verbindung]], die normalerweise [[Kristall|kristallin]] ist und durch geologische Prozesse entstanden ist. Zu den geologischen Prozessen werden auch Prozesse auf anderen Planeten, Monden und sonstigen Himmelskörpern gerechnet.<ref name=\"Nickel_1995\" /><ref name=\"OkruschMatthes\" details=\"S. 2\" />\n\nDie Mehrzahl der heute bekannten und von der [[International Mineralogical Association]] (IMA) als eigenständig anerkannten 6226 Mineralarten (Stand: Juli 2026)<ref name=\"IMA-Liste\" /> ist [[Anorganische Chemie|anorganisch]]. Doch auch einige [[Organische Chemie|organische Substanzen]] wie beispielsweise [[Mellit]] und [[Evenkit]] oder die [[Nierenstein]]bildner [[Whewellit]] und [[Weddellit]] sind als Minerale anerkannt, weil auch geologische Prozesse an ihrer Bildung beteiligt waren.<ref name=\"IMA-Liste\" /> Einschließlich aller bekannten [[Varietät (Mineralogie)|Mineral-Varietäten]] und [[synonym]]er Bezeichnungen (ca. 1200<ref name=\"Lapis\" />) sowie noch nicht anerkannter Mineralarten (ca. 120<ref name=\"Lapis\" />) existieren über 7000 Mineralnamen.\n\nDas Wort ''Mineral'' leitet sich von dem [[Latein|mittellateinischen]] ''aes minerale'' „Grubenerz“ ab und wurde im [[16. Jahrhundert]] nach französischem Vorbild geprägt. Der Plural lautet ''Minerale'' (in der Wissenschaft in Deutschland und Österreich verwendet) oder ''Mineralien'' (von Sammlern, Händlern und in der Deutschschweiz als Synonym zu Minerale verwendet).\n\nDie Lehre von den Mineralen ist die [[Mineralogie]], die von ihrer Verwendung und Bearbeitung die [[Lithurgik]].",
+  "segments": [
+    {
+      "id": "271384758-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein '''Mineral''' ist ein [[Chemisches Element|Element]] oder eine [[chemische Verbindung]], die normalerweise [[Kristall|kristallin]] ist und durch geologische Prozesse entstanden ist.",
+      "plain": null
+    },
+    {
+      "id": "271384758-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Zu den geologischen Prozessen werden auch Prozesse auf anderen Planeten, Monden und sonstigen Himmelskörpern gerechnet.<ref name=\"Nickel_1995\" /><ref name=\"OkruschMatthes\" details=\"S. 2\" />",
+      "plain": null
+    },
+    {
+      "id": "271384758-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Mehrzahl der heute bekannten und von der [[International Mineralogical Association]] (IMA) als eigenständig anerkannten 6226 Mineralarten (Stand: Juli 2026)<ref name=\"IMA-Liste\" /> ist [[Anorganische Chemie|anorganisch]].",
+      "plain": null
+    },
+    {
+      "id": "271384758-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Doch auch einige [[Organische Chemie|organische Substanzen]] wie beispielsweise [[Mellit]] und [[Evenkit]] oder die [[Nierenstein]]bildner [[Whewellit]] und [[Weddellit]] sind als Minerale anerkannt, weil auch geologische Prozesse an ihrer Bildung beteiligt waren.<ref name=\"IMA-Liste\" />",
+      "plain": null
+    },
+    {
+      "id": "271384758-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Einschließlich aller bekannten [[Varietät (Mineralogie)|Mineral-Varietäten]] und [[synonym]]er Bezeichnungen (ca. 1200<ref name=\"Lapis\" />) sowie noch nicht anerkannter Mineralarten (ca. 120<ref name=\"Lapis\" />) existieren über 7000 Mineralnamen.",
+      "plain": null
+    },
+    {
+      "id": "271384758-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Wort ''Mineral'' leitet sich von dem [[Latein|mittellateinischen]] ''aes minerale'' „Grubenerz“ ab und wurde im [[16. Jahrhundert]] nach französischem Vorbild geprägt.",
+      "plain": null
+    },
+    {
+      "id": "271384758-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Plural lautet ''Minerale'' (in der Wissenschaft in Deutschland und Österreich verwendet) oder ''Mineralien'' (von Sammlern, Händlern und in der Deutschschweiz als Synonym zu Minerale verwendet).",
+      "plain": null
+    },
+    {
+      "id": "271384758-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Lehre von den Mineralen ist die [[Mineralogie]], die von ihrer Verwendung und Bearbeitung die [[Lithurgik]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271384758,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271384758-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271384758-0000"
+        ],
+        "plain": "Zu den geologischen Prozessen werden auch Prozesse auf anderen Planeten, Monden und sonstigen Himmelskörpern gerechnet.",
+        "context_plain": [
+          "Ein Mineral ist ein Element oder eine chemische Verbindung, die normalerweise kristallin ist und durch geologische Prozesse entstanden ist."
+        ]
+      },
+      {
+        "segment_id": "271384758-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271384758-0002"
+        ],
+        "plain": "Doch auch einige organische Substanzen wie beispielsweise Mellit und Evenkit oder die Nierensteinbildner Whewellit und Weddellit sind als Minerale anerkannt, weil auch geologische Prozesse an ihrer Bildung beteiligt waren.",
+        "context_plain": [
+          "Die Mehrzahl der heute bekannten und von der International Mineralogical Association (IMA) als eigenständig anerkannten 6226 Mineralarten (Stand: Juli 2026) ist anorganisch."
+        ]
+      },
+      {
+        "segment_id": "271384758-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Wort Mineral leitet sich von dem mittellateinischen aes minerale „Grubenerz“ ab und wurde im 16. Jahrhundert nach französischem Vorbild geprägt.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271384758-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271384758-0005"
+        ],
+        "plain": "Der Plural lautet Minerale (in der Wissenschaft in Deutschland und Österreich verwendet) oder Mineralien (von Sammlern, Händlern und in der Deutschschweiz als Synonym zu Minerale verwendet).",
+        "context_plain": [
+          "Das Wort Mineral leitet sich von dem mittellateinischen aes minerale „Grubenerz“ ab und wurde im 16. Jahrhundert nach französischem Vorbild geprägt."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "271384758-0004",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

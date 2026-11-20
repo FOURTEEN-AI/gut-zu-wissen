@@ -1,0 +1,110 @@
+{
+  "title": "Volkseigener Betrieb",
+  "revid": 267550156,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-05-31T14:11:17Z",
+  "fetched_at": "2026-11-20T11:41:27Z",
+  "categories": [
+    "Kategorie:Aufgelöst 1990",
+    "Kategorie:Rechtsform (Deutschland)",
+    "Kategorie:Unternehmen (DDR)",
+    "Kategorie:Wirtschaftssprache (DDR)"
+  ],
+  "intro_wikitext": "[[Datei:Bundesarchiv Bild 183-T0709-429, VEB Carl Zeiss Jena, Gebäudeansicht, Parkplatz.jpg|mini|[[Carl Zeiss (Unternehmen)#Carl Zeiss in Jena|VEB Carl Zeiss Jena]], Gebäudeansicht, 1978]]\nDer '''Volkseigene Betrieb''' (offizielle Abkürzung: '''VEB''') war eine bis 30. Juni 1990 bestehende [[Rechtsform]] der Industrie- und Dienstleistungsbetriebe in der [[Sowjetische Besatzungszone|Sowjetischen Besatzungszone]] und später in der [[Deutsche Demokratische Republik|DDR]]. Die Gründung volkseigener Betriebe erfolgte nach dem Vorbild der Eigentumsform in der [[Sowjetunion]]. \n\nInfolge der nach Ende des [[Zweiter Weltkrieg|Zweiten Weltkrieges]] unter sowjetischer Besatzung durchgeführten [[Enteignung]]en und [[Verstaatlichung]]en von Privatunternehmen musste eine geeignete Form gefunden werden. Ab 1948 waren es ökonomische Basiseinheiten der [[Zentralverwaltungswirtschaft]]. Formaljuristisch befanden sie sich in [[Volkseigentum]] und unterstanden der Staatsführung. \n\nDie Volkseigenen Betriebe sind nicht zu verwechseln mit Betrieben der Parteien und [[Massenorganisation]]en, etwa der [[Sozialistische Einheitspartei Deutschlands|SED]], der [[Demokratische Bauernpartei Deutschlands|DBD]] oder der [[Freie Deutsche Jugend |FDJ]], die als ''Organisationseigene Betriebe'' Eigentum der jeweiligen Organisation waren. Dabei handelte es sich beispielsweise um Verlage und Druckereien.",
+  "segments": [
+    {
+      "id": "267550156-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der '''Volkseigene Betrieb''' (offizielle Abkürzung: '''VEB''') war eine bis 30. Juni 1990 bestehende [[Rechtsform]] der Industrie- und Dienstleistungsbetriebe in der [[Sowjetische Besatzungszone|Sowjetischen Besatzungszone]] und später in der [[Deutsche Demokratische Republik|DDR]].",
+      "plain": null
+    },
+    {
+      "id": "267550156-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Gründung volkseigener Betriebe erfolgte nach dem Vorbild der Eigentumsform in der [[Sowjetunion]].",
+      "plain": null
+    },
+    {
+      "id": "267550156-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Infolge der nach Ende des [[Zweiter Weltkrieg|Zweiten Weltkrieges]] unter sowjetischer Besatzung durchgeführten [[Enteignung]]en und [[Verstaatlichung]]en von Privatunternehmen musste eine geeignete Form gefunden werden.",
+      "plain": null
+    },
+    {
+      "id": "267550156-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ab 1948 waren es ökonomische Basiseinheiten der [[Zentralverwaltungswirtschaft]].",
+      "plain": null
+    },
+    {
+      "id": "267550156-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Formaljuristisch befanden sie sich in [[Volkseigentum]] und unterstanden der Staatsführung.",
+      "plain": null
+    },
+    {
+      "id": "267550156-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Volkseigenen Betriebe sind nicht zu verwechseln mit Betrieben der Parteien und [[Massenorganisation]]en, etwa der [[Sozialistische Einheitspartei Deutschlands|SED]], der [[Demokratische Bauernpartei Deutschlands|DBD]] oder der [[Freie Deutsche Jugend |FDJ]], die als ''Organisationseigene Betriebe'' Eigentum der jeweiligen Organisation waren.",
+      "plain": null
+    },
+    {
+      "id": "267550156-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dabei handelte es sich beispielsweise um Verlage und Druckereien.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 267550156,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "267550156-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "267550156-0000"
+        ],
+        "plain": "Die Gründung volkseigener Betriebe erfolgte nach dem Vorbild der Eigentumsform in der Sowjetunion.",
+        "context_plain": [
+          "Der Volkseigene Betrieb (offizielle Abkürzung: VEB) war eine bis 30. Juni 1990 bestehende Rechtsform der Industrie- und Dienstleistungsbetriebe in der Sowjetischen Besatzungszone und später in der DDR."
+        ]
+      },
+      {
+        "segment_id": "267550156-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "267550156-0004"
+        ],
+        "plain": "Die Volkseigenen Betriebe sind nicht zu verwechseln mit Betrieben der Parteien und Massenorganisationen, etwa der SED, der DBD oder der FDJ, die als Organisationseigene Betriebe Eigentum der jeweiligen Organisation waren.",
+        "context_plain": [
+          "Formaljuristisch befanden sie sich in Volkseigentum und unterstanden der Staatsführung."
+        ]
+      },
+      {
+        "segment_id": "267550156-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "267550156-0004",
+          "267550156-0005"
+        ],
+        "plain": "Dabei handelte es sich beispielsweise um Verlage und Druckereien.",
+        "context_plain": [
+          "Formaljuristisch befanden sie sich in Volkseigentum und unterstanden der Staatsführung.",
+          "Die Volkseigenen Betriebe sind nicht zu verwechseln mit Betrieben der Parteien und Massenorganisationen, etwa der SED, der DBD oder der FDJ, die als Organisationseigene Betriebe Eigentum der jeweiligen Organisation waren."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

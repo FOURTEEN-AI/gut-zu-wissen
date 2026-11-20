@@ -1,0 +1,105 @@
+{
+  "title": "Ostsee-Schmuck",
+  "revid": 271308653,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-13T16:13:05Z",
+  "fetched_at": "2026-11-20T11:41:27Z",
+  "categories": [
+    "Kategorie:Bernstein",
+    "Kategorie:Organisation (Ribnitz-Damgarten)",
+    "Kategorie:Produzierendes Unternehmen (Landkreis Vorpommern-Rügen)",
+    "Kategorie:Schmuckhersteller (Deutschland)",
+    "Kategorie:Unternehmensgründung 1948",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2019-05"
+  ],
+  "intro_wikitext": "{{Infobox Unternehmen\n| Logo             =\n| Unternehmensform = GmbH\n| ISIN             =\n| Gründungsdatum   = 1948\n| Sitz             = [[Ribnitz-Damgarten]], {{DEU}}\n| Leitung          =\n| Mitarbeiterzahl  = \n| Umsatz           = \n| Branche          = Schmuckherstellung\n| Auflösungsdatum  =\n| Homepage         = www.ostseeschmuck.de\n}}\n\nDie '''Ostsee-Schmuck GmbH''' ist ein in [[Ribnitz-Damgarten]] ansässiges [[Mittelstand|mittelständisches]] Unternehmen der Schmuckindustrie. Das Unternehmen entstand aus dem [[Volkseigener Betrieb|VEB]] Ostseeschmuck, dem in der [[Deutsche Demokratische Republik|DDR]] bedeutendsten Produzenten und Exporteur von mit [[Bernstein]] verziertem [[Silber]]schmuck. Organisatorisch war der DDR-Betrieb bis 1990 in den [[VEB Kombinat Musikinstrumente Markneukirchen/Klingenthal]] eingegliedert.",
+  "segments": [
+    {
+      "id": "271308653-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Unternehmen | Unternehmensform = GmbH",
+      "plain": "Infobox Unternehmen – Rechtsform: GmbH"
+    },
+    {
+      "id": "271308653-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Unternehmen | Gründungsdatum   = 1948",
+      "plain": "Infobox Unternehmen – Gründung: 1948"
+    },
+    {
+      "id": "271308653-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Unternehmen | Sitz             = [[Ribnitz-Damgarten]], {{DEU}}",
+      "plain": "Infobox Unternehmen – Sitz: Ribnitz-Damgarten, Deutschland"
+    },
+    {
+      "id": "271308653-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Unternehmen | Branche          = Schmuckherstellung",
+      "plain": "Infobox Unternehmen – Branche: Schmuckherstellung"
+    },
+    {
+      "id": "271308653-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Unternehmen | Homepage         = www.ostseeschmuck.de",
+      "plain": "Infobox Unternehmen – Website: www.ostseeschmuck.de"
+    },
+    {
+      "id": "271308653-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Ostsee-Schmuck GmbH''' ist ein in [[Ribnitz-Damgarten]] ansässiges [[Mittelstand|mittelständisches]] Unternehmen der Schmuckindustrie.",
+      "plain": null
+    },
+    {
+      "id": "271308653-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Unternehmen entstand aus dem [[Volkseigener Betrieb|VEB]] Ostseeschmuck, dem in der [[Deutsche Demokratische Republik|DDR]] bedeutendsten Produzenten und Exporteur von mit [[Bernstein]] verziertem [[Silber]]schmuck.",
+      "plain": null
+    },
+    {
+      "id": "271308653-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Organisatorisch war der DDR-Betrieb bis 1990 in den [[VEB Kombinat Musikinstrumente Markneukirchen/Klingenthal]] eingegliedert.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271308653,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271308653-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271308653-0005"
+        ],
+        "plain": "Das Unternehmen entstand aus dem VEB Ostseeschmuck, dem in der DDR bedeutendsten Produzenten und Exporteur von mit Bernstein verziertem Silberschmuck.",
+        "context_plain": [
+          "Die Ostsee-Schmuck GmbH ist ein in Ribnitz-Damgarten ansässiges mittelständisches Unternehmen der Schmuckindustrie."
+        ]
+      },
+      {
+        "segment_id": "271308653-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271308653-0006"
+        ],
+        "plain": "Organisatorisch war der DDR-Betrieb bis 1990 in den VEB Kombinat Musikinstrumente Markneukirchen/Klingenthal eingegliedert.",
+        "context_plain": [
+          "Das Unternehmen entstand aus dem VEB Ostseeschmuck, dem in der DDR bedeutendsten Produzenten und Exporteur von mit Bernstein verziertem Silberschmuck."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

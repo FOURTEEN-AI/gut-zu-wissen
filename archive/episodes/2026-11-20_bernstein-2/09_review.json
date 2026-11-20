@@ -1,0 +1,2350 @@
+{
+  "episode_id": "2026-11-20_bernstein-2",
+  "title": "Bernstein",
+  "rate": 1.0,
+  "seed": "2026-11-20_bernstein-2",
+  "population": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    17,
+    18,
+    19,
+    20,
+    21,
+    23,
+    24,
+    25,
+    27,
+    29,
+    30,
+    31,
+    32,
+    33,
+    35,
+    37,
+    39,
+    41,
+    42,
+    43,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    55
+  ],
+  "draws": [
+    {
+      "turn_index": 0,
+      "u": 0.3033527634417228,
+      "sampled": true
+    },
+    {
+      "turn_index": 1,
+      "u": 0.41812157690221685,
+      "sampled": true
+    },
+    {
+      "turn_index": 2,
+      "u": 0.6914062326427575,
+      "sampled": true
+    },
+    {
+      "turn_index": 3,
+      "u": 0.591597451041614,
+      "sampled": true
+    },
+    {
+      "turn_index": 5,
+      "u": 0.6958248801874729,
+      "sampled": true
+    },
+    {
+      "turn_index": 6,
+      "u": 0.9107705602804491,
+      "sampled": true
+    },
+    {
+      "turn_index": 7,
+      "u": 0.37889049856915535,
+      "sampled": true
+    },
+    {
+      "turn_index": 9,
+      "u": 0.8898053114641311,
+      "sampled": true
+    },
+    {
+      "turn_index": 10,
+      "u": 0.8199150723863176,
+      "sampled": true
+    },
+    {
+      "turn_index": 11,
+      "u": 0.522058517912066,
+      "sampled": true
+    },
+    {
+      "turn_index": 12,
+      "u": 0.8838177439524256,
+      "sampled": true
+    },
+    {
+      "turn_index": 13,
+      "u": 0.29314326536382385,
+      "sampled": true
+    },
+    {
+      "turn_index": 15,
+      "u": 0.9898680412673585,
+      "sampled": true
+    },
+    {
+      "turn_index": 17,
+      "u": 0.8932774285155245,
+      "sampled": true
+    },
+    {
+      "turn_index": 18,
+      "u": 0.2694252817148818,
+      "sampled": true
+    },
+    {
+      "turn_index": 19,
+      "u": 0.5090953601337225,
+      "sampled": true
+    },
+    {
+      "turn_index": 20,
+      "u": 0.7939500636806531,
+      "sampled": true
+    },
+    {
+      "turn_index": 21,
+      "u": 0.569844570598562,
+      "sampled": true
+    },
+    {
+      "turn_index": 23,
+      "u": 0.709928386322461,
+      "sampled": true
+    },
+    {
+      "turn_index": 24,
+      "u": 0.12409929422261268,
+      "sampled": true
+    },
+    {
+      "turn_index": 25,
+      "u": 0.846821183475772,
+      "sampled": true
+    },
+    {
+      "turn_index": 27,
+      "u": 0.360911932666822,
+      "sampled": true
+    },
+    {
+      "turn_index": 29,
+      "u": 0.4112523046872961,
+      "sampled": true
+    },
+    {
+      "turn_index": 30,
+      "u": 0.5612940672659049,
+      "sampled": true
+    },
+    {
+      "turn_index": 31,
+      "u": 0.2036751592968311,
+      "sampled": true
+    },
+    {
+      "turn_index": 32,
+      "u": 0.9049636672304285,
+      "sampled": true
+    },
+    {
+      "turn_index": 33,
+      "u": 0.07830536368795449,
+      "sampled": true
+    },
+    {
+      "turn_index": 35,
+      "u": 0.4198133789488243,
+      "sampled": true
+    },
+    {
+      "turn_index": 37,
+      "u": 0.08382724265626551,
+      "sampled": true
+    },
+    {
+      "turn_index": 39,
+      "u": 0.9237464348448458,
+      "sampled": true
+    },
+    {
+      "turn_index": 41,
+      "u": 0.21651852540126548,
+      "sampled": true
+    },
+    {
+      "turn_index": 42,
+      "u": 0.3418542713834941,
+      "sampled": true
+    },
+    {
+      "turn_index": 43,
+      "u": 0.8229533470146716,
+      "sampled": true
+    },
+    {
+      "turn_index": 45,
+      "u": 0.11779210565681575,
+      "sampled": true
+    },
+    {
+      "turn_index": 46,
+      "u": 0.14250792470712637,
+      "sampled": true
+    },
+    {
+      "turn_index": 47,
+      "u": 0.07691259300928288,
+      "sampled": true
+    },
+    {
+      "turn_index": 48,
+      "u": 0.523386125228708,
+      "sampled": true
+    },
+    {
+      "turn_index": 49,
+      "u": 0.7284734449489895,
+      "sampled": true
+    },
+    {
+      "turn_index": 50,
+      "u": 0.022101222835135714,
+      "sampled": true
+    },
+    {
+      "turn_index": 51,
+      "u": 0.0760600330170007,
+      "sampled": true
+    },
+    {
+      "turn_index": 52,
+      "u": 0.4085789552363578,
+      "sampled": true
+    },
+    {
+      "turn_index": 53,
+      "u": 0.6288622544508831,
+      "sampled": true
+    },
+    {
+      "turn_index": 55,
+      "u": 0.41069977016608783,
+      "sampled": true
+    }
+  ],
+  "status": "pending",
+  "outcome": null,
+  "rate_applied": [],
+  "issue": 4,
+  "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/4",
+  "explicit": {
+    "model": "claude-sonnet-5-5",
+    "predicted": false,
+    "verdict": "clean",
+    "findings": [],
+    "reason": "Die Folge behandelt sachlich Bernstein: Herkunft, Wortgeschichte, Handel, Fälschungen und Nutzung. Die Todesstrafe (25), die Brandbomben mit Phosphor (39) und der Ausdruck „Rausch“ (22, bildlich gemeint) werden nur beiläufig erwähnt, nicht drastisch geschildert. Schimpfwörter, Sexualität oder Drogen kommen nicht vor.",
+    "label": null,
+    "reviewer_flag": null,
+    "note": null,
+    "comment_id": null
+  },
+  "turns": [
+    {
+      "turn_index": 0,
+      "speaker": "Felix",
+      "text": "Lena, heute geht es um Bernstein. Das ist doch dieser gelbliche Stein aus dem Ostseeraum. Was ist das eigentlich genau?",
+      "previous_text": null,
+      "fact_ids": [
+        "271638927-0017"
+      ],
+      "statements": [
+        {
+          "text": "Bernstein ist ein gelber oder gelbbrauner Stein, der im Ostseeraum verbreitet ist.",
+          "fact_ids": [
+            "271638927-0017"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0017",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Bernstein bezeichnet einen seit Jahrtausenden bekannten und insbesondere im Ostseeraum verbreiteten klaren bis undurchsichtigen gelben oder gelbbraunen Schmuckstein aus fossilem Harz.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.82
+        },
+        "jev_error": null,
+        "reason": "Felix' Aussage, Bernstein sei ein gelblicher Stein aus dem Ostseeraum, folgt aus dem Fakt-Satz: Dort heißt es, er sei ein im Ostseeraum verbreiteter gelber oder gelbbrauner Schmuckstein. Die Frage \"Was ist das eigentlich genau?\" ist eine Nachfrage bzw. Bitte um Erklärung und braucht keinen Beleg. Die Themenankündigung ist eine Überleitung. Es gibt keine zusätzlichen Angaben."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 1,
+      "speaker": "Lena",
+      "text": "Bernstein ist ein seit Jahrtausenden bekannter Schmuckstein aus fossilem Harz. Er ist besonders im Ostseeraum verbreitet. Er kann klar bis undurchsichtig sein und ist gelb oder gelbbraun. Meistens ist mit dem Wort ein bestimmtes fossiles Harz gemeint. Dieser Bernstein im engeren Sinne ist die Bernsteinart mit dem wissenschaftlichen Namen Succinit.",
+      "previous_text": "Lena, heute geht es um Bernstein. Das ist doch dieser gelbliche Stein aus dem Ostseeraum. Was ist das eigentlich genau?",
+      "fact_ids": [
+        "271638927-0017",
+        "271638927-0018"
+      ],
+      "statements": [
+        {
+          "text": "Bernstein ist ein seit Jahrtausenden bekannter, besonders im Ostseeraum verbreiteter, klarer bis undurchsichtiger, gelber oder gelbbrauner Schmuckstein aus fossilem Harz.",
+          "fact_ids": [
+            "271638927-0017"
+          ]
+        },
+        {
+          "text": "Gemeint ist meist ein bestimmtes fossiles Harz: Bernstein im engeren Sinne ist die Bernsteinart mit dem wissenschaftlichen Namen Succinit.",
+          "fact_ids": [
+            "271638927-0018"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0017",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Bernstein bezeichnet einen seit Jahrtausenden bekannten und insbesondere im Ostseeraum verbreiteten klaren bis undurchsichtigen gelben oder gelbbraunen Schmuckstein aus fossilem Harz.",
+          "context": []
+        },
+        {
+          "id": "271638927-0018",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Damit ist überwiegend ein bestimmtes fossiles Harz gemeint: Dieser Bernstein im engeren Sinne ist die Bernsteinart mit dem wissenschaftlichen Namen Succinit.",
+          "context": [
+            "Bernstein bezeichnet einen seit Jahrtausenden bekannten und insbesondere im Ostseeraum verbreiteten klaren bis undurchsichtigen gelben oder gelbbraunen Schmuckstein aus fossilem Harz."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Felix",
+      "text": "Succinit, das klingt nach Labor. Ist das dasselbe wie der Baltische Bernstein?",
+      "previous_text": "Bernstein ist ein seit Jahrtausenden bekannter Schmuckstein aus fossilem Harz. Er ist besonders im Ostseeraum verbreitet. Er kann klar bis undurchsichtig sein und ist gelb oder gelbbraun. Meistens ist mit dem Wort ein bestimmtes fossiles Harz gemeint. Dieser Bernstein im engeren Sinne ist die Bernsteinart mit dem wissenschaftlichen Namen Succinit.",
+      "fact_ids": [
+        "271638927-0018",
+        "271638927-0019"
+      ],
+      "statements": [
+        {
+          "text": "Succinit ist der wissenschaftliche Name einer Bernsteinart.",
+          "fact_ids": [
+            "271638927-0018"
+          ]
+        },
+        {
+          "text": "Es gibt eine Bezeichnung Baltischer Bernstein, die mit Succinit in Verbindung steht.",
+          "fact_ids": [
+            "271638927-0019"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0018",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Damit ist überwiegend ein bestimmtes fossiles Harz gemeint: Dieser Bernstein im engeren Sinne ist die Bernsteinart mit dem wissenschaftlichen Namen Succinit.",
+          "context": [
+            "Bernstein bezeichnet einen seit Jahrtausenden bekannten und insbesondere im Ostseeraum verbreiteten klaren bis undurchsichtigen gelben oder gelbbraunen Schmuckstein aus fossilem Harz."
+          ]
+        },
+        {
+          "id": "271638927-0019",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Die Bezeichnungen Succinit und Baltischer Bernstein werden oft synonym verwendet, da Succinit den weitaus überwiegenden Teil des Baltischen Bernsteins ausmacht.",
+          "context": [
+            "Bernstein bezeichnet einen seit Jahrtausenden bekannten und insbesondere im Ostseeraum verbreiteten klaren bis undurchsichtigen gelben oder gelbbraunen Schmuckstein aus fossilem Harz.",
+            "Damit ist überwiegend ein bestimmtes fossiles Harz gemeint: Dieser Bernstein im engeren Sinne ist die Bernsteinart mit dem wissenschaftlichen Namen Succinit."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.62
+        },
+        "jev_error": null,
+        "reason": "Der Beitrag ist eine Nachfrage. Die Bemerkung „das klingt nach Labor“ ist ein persönlicher Eindruck des Sprechers und kein Faktenanspruch. Die Frage, ob Succinit dasselbe ist wie Baltischer Bernstein, setzt nur voraus, dass beide Bezeichnungen existieren. Das stützt Fakt 271638927-0019, der sagt, dass beide Namen oft synonym verwendet werden. Es kommt keine unbelegte Behauptung vor."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Lena",
+      "text": "Fast. Die beiden Bezeichnungen werden oft synonym verwendet, weil Succinit den weitaus überwiegenden Teil des Baltischen Bernsteins ausmacht. Die anderen fossilen Harze darin stammen von unterschiedlichen Pflanzenarten. Man nennt sie auch Bernstein im weiteren Sinne.",
+      "previous_text": "Succinit, das klingt nach Labor. Ist das dasselbe wie der Baltische Bernstein?",
+      "fact_ids": [
+        "271638927-0019",
+        "271638927-0020"
+      ],
+      "statements": [
+        {
+          "text": "Succinit und Baltischer Bernstein werden oft synonym verwendet, weil Succinit den weitaus überwiegenden Teil des Baltischen Bernsteins ausmacht.",
+          "fact_ids": [
+            "271638927-0019"
+          ]
+        },
+        {
+          "text": "Die anderen fossilen Harze im Baltischen Bernstein stammen von unterschiedlichen Pflanzenarten und heißen auch Bernstein im weiteren Sinne.",
+          "fact_ids": [
+            "271638927-0020"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0019",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Die Bezeichnungen Succinit und Baltischer Bernstein werden oft synonym verwendet, da Succinit den weitaus überwiegenden Teil des Baltischen Bernsteins ausmacht.",
+          "context": [
+            "Bernstein bezeichnet einen seit Jahrtausenden bekannten und insbesondere im Ostseeraum verbreiteten klaren bis undurchsichtigen gelben oder gelbbraunen Schmuckstein aus fossilem Harz.",
+            "Damit ist überwiegend ein bestimmtes fossiles Harz gemeint: Dieser Bernstein im engeren Sinne ist die Bernsteinart mit dem wissenschaftlichen Namen Succinit."
+          ]
+        },
+        {
+          "id": "271638927-0020",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Die anderen fossilen Harze im Baltischen Bernstein stammen von unterschiedlichen Pflanzenarten und werden auch als „Bernstein im weiteren Sinne“ bezeichnet.",
+          "context": [
+            "Bernstein bezeichnet einen seit Jahrtausenden bekannten und insbesondere im Ostseeraum verbreiteten klaren bis undurchsichtigen gelben oder gelbbraunen Schmuckstein aus fossilem Harz.",
+            "Damit ist überwiegend ein bestimmtes fossiles Harz gemeint: Dieser Bernstein im engeren Sinne ist die Bernsteinart mit dem wissenschaftlichen Namen Succinit.",
+            "Die Bezeichnungen Succinit und Baltischer Bernstein werden oft synonym verwendet, da Succinit den weitaus überwiegenden Teil des Baltischen Bernsteins ausmacht."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.91
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Die synonyme Verwendung von Succinit und Baltischem Bernstein wegen des weitaus überwiegenden Succinit-Anteils steht in 0019. Dass die anderen fossilen Harze von unterschiedlichen Pflanzenarten stammen und auch „Bernstein im weiteren Sinne“ heißen, steht in 0020. Das einleitende „Fast.“ ist eine belegfreie Reaktion."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Lena",
+      "text": "In der griechischen Antike wurde Bernstein auch Lyncirium genannt, das bedeutet Luchsstein. Möglicherweise, weil man annahm, er sei aus dem Urin des Luchses entstanden. Dieser Urin sollte bei starker Sonneneinstrahlung hart geworden sein.",
+      "previous_text": "Gut, die Begriffe sind sortiert. Jetzt will ich in die Geschichte. Wie hat man den Stein früher genannt?",
+      "fact_ids": [
+        "271638927-0045"
+      ],
+      "statements": [
+        {
+          "text": "In der griechischen Antike hieß Bernstein auch Lyncirium, Luchsstein.",
+          "fact_ids": [
+            "271638927-0045"
+          ]
+        },
+        {
+          "text": "Möglicherweise lag das daran, dass man annahm, er sei aus dem Urin des Luchses entstanden, der bei starker Sonneneinstrahlung hart geworden sei.",
+          "fact_ids": [
+            "271638927-0045"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0045",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "In der griechischen Antike wurde Bernstein auch als Lyncirium („Luchsstein“) bezeichnet, möglicherweise weil man annahm, er sei aus dem Urin des Luchses entstanden, der bei starker Sonneneinstrahlung hart geworden sei.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Felix",
+      "text": "Aus Luchsurin, das ist wirklich skurril! Warum heißt der Luchs eigentlich Luchs?",
+      "previous_text": "In der griechischen Antike wurde Bernstein auch Lyncirium genannt, das bedeutet Luchsstein. Möglicherweise, weil man annahm, er sei aus dem Urin des Luchses entstanden. Dieser Urin sollte bei starker Sonneneinstrahlung hart geworden sein.",
+      "fact_ids": [
+        "271638927-0045"
+      ],
+      "statements": [
+        {
+          "text": "Man glaubte möglicherweise, Bernstein entstehe aus dem Urin des Luchses.",
+          "fact_ids": [
+            "271638927-0045"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0045",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "In der griechischen Antike wurde Bernstein auch als Lyncirium („Luchsstein“) bezeichnet, möglicherweise weil man annahm, er sei aus dem Urin des Luchses entstanden, der bei starker Sonneneinstrahlung hart geworden sei.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.81
+        },
+        "jev_error": null,
+        "reason": "Felix' Aussage „Aus Luchsurin“ greift die zitierte Annahme zur Entstehung des Bernsteins aus dem Urin des Luchses auf, und die Wertung „skurril“ ist ein Gefühl im Moment. Die Frage, warum der Luchs Luchs heißt, ist eine Nachfrage ohne Tatsachenbehauptung. Es kommt keine unbelegte Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 7,
+      "speaker": "Lena",
+      "text": "Der Name geht über mittel- und althochdeutsch luhs und urgermanisch luhsuz auf ein indogermanisches Wort zurück. Dieses Wort ist eine Abwandlung einer Wurzel, die leuchten oder hell werden bedeutet.",
+      "previous_text": "Aus Luchsurin, das ist wirklich skurril! Warum heißt der Luchs eigentlich Luchs?",
+      "fact_ids": [
+        "272291025-0010"
+      ],
+      "statements": [
+        {
+          "text": "Der Name Luchs geht über mittel- und althochdeutsch luhs und urgermanisch luhsuz auf ein indogermanisches Wort zurück.",
+          "fact_ids": [
+            "272291025-0010"
+          ]
+        },
+        {
+          "text": "Dieses indogermanische Wort ist ein Ablaut einer Wurzel mit der Bedeutung leuchten, hell werden.",
+          "fact_ids": [
+            "272291025-0010"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272291025-0010",
+          "article": "Luchse",
+          "revid": 272291025,
+          "sentence": "Der Name Luchs geht über mittel- und althochdeutsch luhs, urgermanisch *luhsuz auf das indogermanische *luk̂-su- zurück, einem Ablaut von *leuk̂- „leuchten, hell werden“.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 9,
+      "speaker": "Lena",
+      "text": "Ja. Nach Tacitus lautete die germanische Bezeichnung des Bernsteins glesum. In diesem Wort hat unser Wort Glas seinen Ursprung. Das germanische glasa bedeutet das Glänzende, Schimmernde und stand auch für Bernstein.",
+      "previous_text": "Ein hübscher Umweg. Und die Germanen, hatten die ein eigenes Wort für den Stein?",
+      "fact_ids": [
+        "271638927-0050",
+        "272209778-0000"
+      ],
+      "statements": [
+        {
+          "text": "Nach Tacitus lautete die germanische Bezeichnung des Bernsteins glesum, in dem das Wort Glas seinen Ursprung hat.",
+          "fact_ids": [
+            "271638927-0050"
+          ]
+        },
+        {
+          "text": "Das germanische glasa bedeutet das Glänzende, Schimmernde und stand auch für Bernstein.",
+          "fact_ids": [
+            "272209778-0000"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0050",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Die germanische Bezeichnung des Bernsteins lautete nach Tacitus glesum, in dem das Wort Glas seinen Ursprung hat.",
+          "context": []
+        },
+        {
+          "id": "272209778-0000",
+          "article": "Glas",
+          "revid": 272209778,
+          "sentence": "Glas (von germanisch glasa „das Glänzende, Schimmernde“, auch für „Bernstein“) ist ein Sammelbegriff für eine Gruppe amorpher Feststoffe, die beim Abkühlen aus einer Schmelze im Bereich der Glasübergangstemperatur in den festen Zustand übergehen, ohne dabei zu kristallisieren.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "Felix",
+      "text": "Das Wort Glas stammt also vom Bernstein ab. Ist Bernstein dann sogar eine Art Glas?",
+      "previous_text": "Ja. Nach Tacitus lautete die germanische Bezeichnung des Bernsteins glesum. In diesem Wort hat unser Wort Glas seinen Ursprung. Das germanische glasa bedeutet das Glänzende, Schimmernde und stand auch für Bernstein.",
+      "fact_ids": [
+        "271638927-0050",
+        "272209778-0000"
+      ],
+      "statements": [
+        {
+          "text": "Das Wort Glas hat seinen Ursprung in der germanischen Bezeichnung des Bernsteins.",
+          "fact_ids": [
+            "271638927-0050",
+            "272209778-0000"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0050",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Die germanische Bezeichnung des Bernsteins lautete nach Tacitus glesum, in dem das Wort Glas seinen Ursprung hat.",
+          "context": []
+        },
+        {
+          "id": "272209778-0000",
+          "article": "Glas",
+          "revid": 272209778,
+          "sentence": "Glas (von germanisch glasa „das Glänzende, Schimmernde“, auch für „Bernstein“) ist ein Sammelbegriff für eine Gruppe amorpher Feststoffe, die beim Abkühlen aus einer Schmelze im Bereich der Glasübergangstemperatur in den festen Zustand übergehen, ohne dabei zu kristallisieren.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.7
+        },
+        "jev_error": null,
+        "reason": "Die Aussage, dass das Wort Glas vom Bernstein abstammt, folgt aus [271638927-0050] (glesum als Ursprung von Glas) und [272209778-0000] (germanisch glasa, auch für Bernstein). Die Frage, ob Bernstein eine Art Glas sei, ist eine Nachfrage ohne neue Behauptung; ihre Prämisse ist durch die Fakten gedeckt."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 11,
+      "speaker": "Lena",
+      "text": "Tatsächlich, in einem bestimmten Sinn. Natürlicher Bernstein sowie transparente Kunststoffe wie Acrylglas sind organische Gläser.",
+      "previous_text": "Das Wort Glas stammt also vom Bernstein ab. Ist Bernstein dann sogar eine Art Glas?",
+      "fact_ids": [
+        "272209778-0005"
+      ],
+      "statements": [
+        {
+          "text": "Natürlicher Bernstein und transparente Kunststoffe wie Acrylglas sind organische Gläser.",
+          "fact_ids": [
+            "272209778-0005"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272209778-0005",
+          "article": "Glas",
+          "revid": 272209778,
+          "sentence": "Natürlicher Bernstein sowie transparente Kunststoffe wie Acrylglas sind organische Gläser.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.82
+        },
+        "jev_error": null,
+        "reason": "Die Aussage, dass natürlicher Bernstein sowie transparente Kunststoffe wie Acrylglas organische Gläser sind, steht wörtlich in Fakt 272209778-0005. Die einleitende Wendung „Tatsächlich, in einem bestimmten Sinn“ ist eine Reaktion ohne neue Information."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "Felix",
+      "text": "Spannend. Bernstein soll auch etwas mit Elektrizität zu tun haben. Stimmt das?",
+      "previous_text": "Tatsächlich, in einem bestimmten Sinn. Natürlicher Bernstein sowie transparente Kunststoffe wie Acrylglas sind organische Gläser.",
+      "fact_ids": [
+        "271638927-0161",
+        "265990984-0003"
+      ],
+      "statements": [
+        {
+          "text": "Bernstein hat mit Elektrizität zu tun.",
+          "fact_ids": [
+            "271638927-0161",
+            "265990984-0003"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0161",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Von Gilbert stammt auch der Begriff „Elektrizität“, den er aus dem griechischen Wort ἤλεκτρον ēlektron für Bernstein ableitete.",
+          "context": [
+            "Der englische Naturforscher William Gilbert widmete ihm in seinem im Jahr 1600 erschienenen Werk De magnete magneticisque corporibus ein eigenes Kapitel und unterschied ihn vom Magnetismus."
+          ]
+        },
+        {
+          "id": "265990984-0003",
+          "article": "Elektrostatik",
+          "revid": 265990984,
+          "sentence": "Ein klassisches Beispiel ist, dass geriebener Bernstein Teilchen anzieht (siehe Geschichte).",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.79
+        },
+        "jev_error": null,
+        "reason": "Felix' Beitrag ist eine Reaktion mit Nachfrage: „Spannend“ ist ein Gefühl im Moment. Die Prämisse, Bernstein habe etwas mit Elektrizität zu tun, folgt aus den Fakten: Gilbert leitete „Elektrizität“ vom griechischen Wort für Bernstein ab, und geriebener Bernstein zieht Teilchen an. Er fügt keine unbelegte Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 13,
+      "speaker": "Lena",
+      "text": "Ja, sogar gleich doppelt. Ein klassisches Beispiel für Elektrostatik ist, dass geriebener Bernstein Teilchen anzieht. Und von Gilbert stammt der Begriff Elektrizität. Er leitete ihn aus dem griechischen Wort ēlektron ab, und das bedeutet Bernstein.",
+      "previous_text": "Spannend. Bernstein soll auch etwas mit Elektrizität zu tun haben. Stimmt das?",
+      "fact_ids": [
+        "265990984-0003",
+        "271638927-0161"
+      ],
+      "statements": [
+        {
+          "text": "Ein klassisches Beispiel der Elektrostatik ist, dass geriebener Bernstein Teilchen anzieht.",
+          "fact_ids": [
+            "265990984-0003"
+          ]
+        },
+        {
+          "text": "Von Gilbert stammt der Begriff Elektrizität, den er aus dem griechischen Wort ēlektron für Bernstein ableitete.",
+          "fact_ids": [
+            "271638927-0161"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "265990984-0003",
+          "article": "Elektrostatik",
+          "revid": 265990984,
+          "sentence": "Ein klassisches Beispiel ist, dass geriebener Bernstein Teilchen anzieht (siehe Geschichte).",
+          "context": []
+        },
+        {
+          "id": "271638927-0161",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Von Gilbert stammt auch der Begriff „Elektrizität“, den er aus dem griechischen Wort ἤλεκτρον ēlektron für Bernstein ableitete.",
+          "context": [
+            "Der englische Naturforscher William Gilbert widmete ihm in seinem im Jahr 1600 erschienenen Werk De magnete magneticisque corporibus ein eigenes Kapitel und unterschied ihn vom Magnetismus."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.76
+        },
+        "jev_error": null,
+        "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Geriebener Bernstein zieht Teilchen an (als klassisches Beispiel, 0003), und der Begriff Elektrizität stammt von Gilbert, abgeleitet vom griechischen ēlektron für Bernstein (0161). \"Ja, sogar gleich doppelt\" ist eine belegfreie Reaktion bzw. Überleitung. Der Bezug auf Elektrostatik in der ersten Aussage stammt zwar nicht ausdrücklich aus dem Satz, ist aber keine wesentliche zusätzliche Angabe."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 15,
+      "speaker": "Lena",
+      "text": "Ja, im Alltag ließ sie sich nutzen. In vornehmen antiken Haushalten diente ein größerer Bernstein als Kleiderbürste. Er lud sich beim Gleiten am Stoff elektrostatisch auf und zog dann die Staubteilchen an sich.",
+      "previous_text": "Das ist ja spannend! Ließ sich diese Anziehungskraft denn auch im Alltag nutzen?",
+      "fact_ids": [
+        "271638927-0041"
+      ],
+      "statements": [
+        {
+          "text": "In vornehmen antiken Haushalten diente ein größerer Bernstein als Kleiderbürste.",
+          "fact_ids": [
+            "271638927-0041"
+          ]
+        },
+        {
+          "text": "Durch das Gleiten am Stoff lud sich der Bernstein elektrostatisch auf und zog dann die Staubteilchen an sich.",
+          "fact_ids": [
+            "271638927-0041"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0041",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "In vornehmen antiken Haushalten diente ein größerer Bernstein als Kleiderbürste; durch das Gleiten am Stoff lud er sich elektrostatisch auf und zog dann die Staubteilchen an sich.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.8
+        },
+        "jev_error": null,
+        "reason": "Die Aussagen zu vornehmen antiken Haushalten, dem größeren Bernstein als Kleiderbürste, der elektrostatischen Aufladung durch Gleiten am Stoff und dem Anziehen der Staubteilchen stehen so im Fakt-Satz. Der Einstieg „Ja, im Alltag ließ sie sich nutzen“ ist eine Überleitung ohne neue Information."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 17,
+      "speaker": "Lena",
+      "text": "Sehr weit. Schon in der Bronzezeit wurde Bernstein auf einer sogenannten Bernsteinstraße von der Ostsee in den Mittelmeerraum transportiert.",
+      "previous_text": "Eine Kleiderbürste aus Bernstein, das ist originell! Wie weit ist das Material damals eigentlich gereist?",
+      "fact_ids": [
+        "271638927-0345"
+      ],
+      "statements": [
+        {
+          "text": "Bernstein wurde schon in der Bronzezeit auf einer sogenannten Bernsteinstraße von der Ostsee in den Mittelmeerraum transportiert.",
+          "fact_ids": [
+            "271638927-0345"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0345",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Bernstein wurde schon in der Bronzezeit auf einer sogenannten Bernsteinstraße von der Ostsee in den Mittelmeerraum transportiert.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.82
+        },
+        "jev_error": null,
+        "reason": "Die Behauptung, Bernstein sei schon in der Bronzezeit auf einer sogenannten Bernsteinstraße von der Ostsee in den Mittelmeerraum transportiert worden, steht so im Fakt-Satz 271638927-0345. Das einleitende „Sehr weit“ ist eine belegfreie Reaktion bzw. Überleitung und enthält keine zusätzliche Information."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 18,
+      "speaker": "Felix",
+      "text": "Gibt es dafür auch einen handfesten Fund?",
+      "previous_text": "Sehr weit. Schon in der Bronzezeit wurde Bernstein auf einer sogenannten Bernsteinstraße von der Ostsee in den Mittelmeerraum transportiert.",
+      "fact_ids": [
+        "271638927-0345"
+      ],
+      "statements": [
+        {
+          "text": "Bernstein wurde in der Bronzezeit von der Ostsee in den Mittelmeerraum transportiert.",
+          "fact_ids": [
+            "271638927-0345"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0345",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Bernstein wurde schon in der Bronzezeit auf einer sogenannten Bernsteinstraße von der Ostsee in den Mittelmeerraum transportiert.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.9
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine reine Nachfrage (\"Gibt es dafür auch einen handfesten Fund?\") ohne eigene Behauptung. Er enthält keine neue Information und keine Prämisse, die über die zitierte Aussage zur Bernsteinstraße hinausgeht; als Reaktion braucht er keinen Beleg."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 19,
+      "speaker": "Lena",
+      "text": "Ja, ein Schiffswrack. Das Schiff von Uluburun ging im späten vierzehnten Jahrhundert vor Christus vor der kleinasiatischen Südwestküste unter. An Bord befanden sich unter anderem Bernsteinperlen aus dem Ostseeraum.",
+      "previous_text": "Gibt es dafür auch einen handfesten Fund?",
+      "fact_ids": [
+        "271638927-0352"
+      ],
+      "statements": [
+        {
+          "text": "Das Schiff von Uluburun ging im späten vierzehnten Jahrhundert vor Christus vor der kleinasiatischen Südwestküste unter.",
+          "fact_ids": [
+            "271638927-0352"
+          ]
+        },
+        {
+          "text": "An Bord waren unter anderem Bernsteinperlen aus dem Ostseeraum.",
+          "fact_ids": [
+            "271638927-0352"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0352",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Auf dem im späten 14. Jahrhundert v. Chr. vor der kleinasiatischen Südwestküste untergegangenen Schiff von Uluburun befanden sich unter anderem auch Bernsteinperlen aus dem Ostseeraum.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.84
+        },
+        "jev_error": null,
+        "reason": "Alle Behauptungen (Schiffswrack von Uluburun, Untergang im späten 14. Jahrhundert v. Chr. vor der kleinasiatischen Südwestküste, Bernsteinperlen aus dem Ostseeraum an Bord) folgen direkt aus dem zitierten Fakt-Satz; das einleitende „Ja, ein Schiffswrack“ ist eine belegfreie Reaktion bzw. ein Wiederaufgreifen und gedeckt."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 20,
+      "speaker": "Felix",
+      "text": "Perlen von der Ostsee auf einem Schiff in der heutigen Türkei. Was war so ein Stein den Menschen damals wert?",
+      "previous_text": "Ja, ein Schiffswrack. Das Schiff von Uluburun ging im späten vierzehnten Jahrhundert vor Christus vor der kleinasiatischen Südwestküste unter. An Bord befanden sich unter anderem Bernsteinperlen aus dem Ostseeraum.",
+      "fact_ids": [
+        "271638927-0352"
+      ],
+      "statements": [
+        {
+          "text": "Auf dem Schiff von Uluburun, das vor der kleinasiatischen Südwestküste unterging, waren Bernsteinperlen aus dem Ostseeraum.",
+          "fact_ids": [
+            "271638927-0352"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0352",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Auf dem im späten 14. Jahrhundert v. Chr. vor der kleinasiatischen Südwestküste untergegangenen Schiff von Uluburun befanden sich unter anderem auch Bernsteinperlen aus dem Ostseeraum.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.84
+        },
+        "jev_error": null,
+        "reason": "Die Aussage über Ostsee-Perlen auf einem Schiff vor der heutigen Türkei folgt aus dem Fakt: Bernsteinperlen aus dem Ostseeraum auf dem Schiff von Uluburun vor der kleinasiatischen Südwestküste. Die Frage nach dem Wert ist eine belegfreie Nachfrage und führt keine neue Behauptung ein."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 21,
+      "speaker": "Lena",
+      "text": "Man trank aus Bernsteingefäßen. Bernstein zierte alles, was von Wert war. Und wohlhabende Frauen färbten ihr Haar bernsteinfarben.",
+      "previous_text": "Perlen von der Ostsee auf einem Schiff in der heutigen Türkei. Was war so ein Stein den Menschen damals wert?",
+      "fact_ids": [
+        "271638927-0366"
+      ],
+      "statements": [
+        {
+          "text": "Man trank aus Bernsteingefäßen.",
+          "fact_ids": [
+            "271638927-0366"
+          ]
+        },
+        {
+          "text": "Bernstein zierte alles, was von Wert war.",
+          "fact_ids": [
+            "271638927-0366"
+          ]
+        },
+        {
+          "text": "Wohlhabende Frauen färbten ihr Haar bernsteinfarben.",
+          "fact_ids": [
+            "271638927-0366"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0366",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Man trank aus Bernsteingefäßen, er zierte alles, was von Wert war, und wohlhabende Frauen färbten ihr Haar bernsteinfarben.",
+          "context": [
+            "Im Rom der Kaiserzeit trieb nicht nur der Kaiser, sondern auch das Volk mit dem Bernstein einen verschwenderischen Luxus."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 23,
+      "speaker": "Lena",
+      "text": "Ja. Plinius der Ältere tadelt, dass ein kleines Figürchen aus Bernstein teurer sei als ein Sklave.",
+      "previous_text": "Wow, das klingt nach einem richtigen Rausch. Gab es damals auch jemanden, der das kritisch gesehen hat?",
+      "fact_ids": [
+        "271638927-0367"
+      ],
+      "statements": [
+        {
+          "text": "Plinius der Ältere tadelt, dass ein kleines Figürchen aus Bernstein teurer sei als ein Sklave.",
+          "fact_ids": [
+            "271638927-0367"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0367",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Plinius der Ältere tadelt, dass ein kleines Figürchen aus Bernstein teurer als ein Sklave sei.",
+          "context": [
+            "Im Rom der Kaiserzeit trieb nicht nur der Kaiser, sondern auch das Volk mit dem Bernstein einen verschwenderischen Luxus.",
+            "Man trank aus Bernsteingefäßen, er zierte alles, was von Wert war, und wohlhabende Frauen färbten ihr Haar bernsteinfarben."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.9
+        },
+        "jev_error": null,
+        "reason": "Die Aussage über Plinius den Älteren, der tadelt, dass ein kleines Figürchen aus Bernstein teurer sei als ein Sklave, entspricht dem Fakt-Satz 271638927-0367. Das einleitende „Ja“ ist eine belegfreie Reaktion, und es kommt keine zusätzliche Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Felix",
+      "text": "Ein Figürchen teurer als ein Sklave, das ist harter Tobak. Wurde das Geschäft mit dem Stein später irgendwie geregelt?",
+      "previous_text": "Ja. Plinius der Ältere tadelt, dass ein kleines Figürchen aus Bernstein teurer sei als ein Sklave.",
+      "fact_ids": [
+        "271638927-0367"
+      ],
+      "statements": [
+        {
+          "text": "Ein kleines Bernsteinfigürchen sei teurer als ein Sklave gewesen.",
+          "fact_ids": [
+            "271638927-0367"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0367",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Plinius der Ältere tadelt, dass ein kleines Figürchen aus Bernstein teurer als ein Sklave sei.",
+          "context": [
+            "Im Rom der Kaiserzeit trieb nicht nur der Kaiser, sondern auch das Volk mit dem Bernstein einen verschwenderischen Luxus.",
+            "Man trank aus Bernsteingefäßen, er zierte alles, was von Wert war, und wohlhabende Frauen färbten ihr Haar bernsteinfarben."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.92,
+          "vollstaendig": 0.85
+        },
+        "jev_error": null,
+        "reason": "Der erste Satz greift den Fakt (Plinius tadelt, dass ein kleines Bernsteinfigürchen teurer als ein Sklave sei) auf und kommentiert ihn mit einer Wertung (\"harter Tobak\"), ohne neue Angaben. Die Frage nach einer späteren Regelung ist eine offene Nachfrage. Ihre Prämisse, dass mit Bernstein gehandelt wurde, ergibt sich aus dem genannten Preis."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 25,
+      "speaker": "Lena",
+      "text": "Und wie. Das Sammeln und der Verkauf von Bernstein auf eigene Rechnung wurde geahndet. Zeitweilig wurde in besonders schweren Fällen sogar die Todesstrafe verhängt.",
+      "previous_text": "Ein Figürchen teurer als ein Sklave, das ist harter Tobak. Wurde das Geschäft mit dem Stein später irgendwie geregelt?",
+      "fact_ids": [
+        "271638927-0380"
+      ],
+      "statements": [
+        {
+          "text": "Das Sammeln und der Verkauf von Bernstein auf eigene Rechnung wurde geahndet.",
+          "fact_ids": [
+            "271638927-0380"
+          ]
+        },
+        {
+          "text": "Zeitweilig wurde in besonders schweren Fällen die Todesstrafe verhängt.",
+          "fact_ids": [
+            "271638927-0380"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0380",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Das Sammeln und der Verkauf von Bernstein auf eigene Rechnung wurde geahndet, zeitweilig wurde in besonders schweren Fällen die Todesstrafe verhängt.",
+          "context": [
+            "Wegen seines hohen Wertes stellten Feudalherren die Gewinnung und Veräußerung allen Bernsteins Ost- und Westpreußens bald unter Hoheitsrecht (Bernsteinregal)."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Lenas Aussagen zu Sammeln und Verkauf von Bernstein auf eigene Rechnung, zur Ahndung und zur zeitweiligen Todesstrafe in besonders schweren Fällen stimmen mit dem Fakt-Satz überein. „Und wie.“ ist eine belegfreie Reaktion, und es kommt keine zusätzliche Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 27,
+      "speaker": "Lena",
+      "text": "Ja, und zwar schon früh. Göbel berichtet im Jahr fünfzehnhundertachtundfünfzig über Nachbildungen, einen Frosch und eine Eidechse. Ein Danziger Händler verkaufte sie einem italienischen Adeligen aus Mantua.",
+      "previous_text": "Das ist ja unglaublich! Bei so viel Wert, gab es da auch Fälschungen?",
+      "fact_ids": [
+        "271638927-0720"
+      ],
+      "statements": [
+        {
+          "text": "Göbel berichtet 1558 über Nachbildungen, einen Frosch und eine Eidechse.",
+          "fact_ids": [
+            "271638927-0720"
+          ]
+        },
+        {
+          "text": "Diese Nachbildungen verkaufte ein Danziger Händler einem italienischen Adeligen aus Mantua.",
+          "fact_ids": [
+            "271638927-0720"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0720",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Göbel berichtet 1558 über Nachbildungen (ein Frosch und eine Eidechse), die ein Danziger Händler einem italienischen Adeligen aus Mantua verkaufte.",
+          "context": [
+            "Man versuchte damals, Tiere wie Frösche, Fische oder Eidechsen als Inklusen im Bernstein unterzubringen, eine Praxis, die auch heute noch üblich ist."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.62
+        },
+        "jev_error": null,
+        "reason": "Alle Angaben stehen im Fakt-Satz: Göbel, 1558, Nachbildungen (Frosch und Eidechse), Danziger Händler, italienischer Adeliger aus Mantua. Das einleitende „Ja, und zwar schon früh“ ist eine belegfreie Überleitung bzw. Reaktion. Es kommt keine zusätzliche Behauptung hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 29,
+      "speaker": "Lena",
+      "text": "Ja. Bei einem Stück mit einer Eidechse tauchten später wiederholt Zweifel an der Echtheit auf. Man vermutete, die Eidechse sei von Menschenhand in Kopal eingebettet worden. Am Ende des Zweiten Weltkrieges war das Stück verschollen.",
+      "previous_text": "Das klingt nach einer richtig guten Geschichte. Gab es auch Zweifel an Stücken, die als echt galten?",
+      "fact_ids": [
+        "271638927-0725"
+      ],
+      "statements": [
+        {
+          "text": "Bei einem Stück mit einer Eidechse tauchten später wiederholt Zweifel an der Echtheit auf.",
+          "fact_ids": [
+            "271638927-0725"
+          ]
+        },
+        {
+          "text": "Man vermutete, die Eidechse sei von Menschenhand in Kopal eingebettet worden.",
+          "fact_ids": [
+            "271638927-0725"
+          ]
+        },
+        {
+          "text": "Das Stück war am Ende des Zweiten Weltkrieges verschollen.",
+          "fact_ids": [
+            "271638927-0725"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0725",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Später tauchten wiederholt Zweifel an der Echtheit des Stückes auf – es wurde vermutet, die Eidechse sei von Menschenhand in Kopal eingebettet worden –, bis es am Ende des Zweiten Weltkrieges verschollen war.",
+          "context": [
+            "Ein bekanntes Beispiel dafür ist die sogenannte „Bernstein-Eidechse von Königsberg“, die erstmals 1889 schriftlich erwähnt wird."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.81
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: spätere wiederholte Zweifel an der Echtheit, die Vermutung der Einbettung der Eidechse in Kopal von Menschenhand und das Verschollensein am Ende des Zweiten Weltkrieges. Das einleitende „Ja“ ist eine Reaktion. Der Bezug auf „ein Stück mit einer Eidechse“ ist durch den Fakt-Satz gedeckt, ohne zusätzliche Angaben aus dem Kontext (Königsberg, 1889)."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Felix",
+      "text": "Verschollen, schade. Du hast eben Kopal erwähnt. Gibt es Kopal heute eigentlich auch im Zusammenhang mit Bernstein?",
+      "previous_text": "Ja. Bei einem Stück mit einer Eidechse tauchten später wiederholt Zweifel an der Echtheit auf. Man vermutete, die Eidechse sei von Menschenhand in Kopal eingebettet worden. Am Ende des Zweiten Weltkrieges war das Stück verschollen.",
+      "fact_ids": [
+        "271638927-0725"
+      ],
+      "statements": [
+        {
+          "text": "Lena hat eben erwähnt, dass die Eidechse vermutlich von Menschenhand in Kopal eingebettet wurde.",
+          "fact_ids": [
+            "271638927-0725"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0725",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Später tauchten wiederholt Zweifel an der Echtheit des Stückes auf – es wurde vermutet, die Eidechse sei von Menschenhand in Kopal eingebettet worden –, bis es am Ende des Zweiten Weltkrieges verschollen war.",
+          "context": [
+            "Ein bekanntes Beispiel dafür ist die sogenannte „Bernstein-Eidechse von Königsberg“, die erstmals 1889 schriftlich erwähnt wird."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.19,
+          "vollstaendig": 0.71
+        },
+        "jev_error": null,
+        "reason": "„Verschollen, schade.“ greift das im Fakt Gesagte (verschollen am Ende des Zweiten Weltkrieges) nur wieder auf und fügt eine Gefühlsreaktion hinzu. „Du hast eben Kopal erwähnt“ bezieht sich auf das Gespräch, und der Fakt nennt Kopal tatsächlich. Die Frage nach Kopal heute im Zusammenhang mit Bernstein ist eine Nachfrage ohne neue Behauptung. Der Redebeitrag erfüllt die Rubrik."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 31,
+      "speaker": "Lena",
+      "text": "Ja, durchaus. Seit den letzten Jahren wird Bernstein oft durch den Kolumbianischen Ambar ersetzt. Dieser Kopal ist nur an die zweihundert Jahre alt. Durch verschiedene Verarbeitungsstufen erfährt er aber eine künstliche Alterung.",
+      "previous_text": "Verschollen, schade. Du hast eben Kopal erwähnt. Gibt es Kopal heute eigentlich auch im Zusammenhang mit Bernstein?",
+      "fact_ids": [
+        "271638927-0762"
+      ],
+      "statements": [
+        {
+          "text": "Seit den letzten Jahren wird Bernstein oft durch den Kolumbianischen Ambar ersetzt.",
+          "fact_ids": [
+            "271638927-0762"
+          ]
+        },
+        {
+          "text": "Dieser Kopal ist nur an die zweihundert Jahre alt.",
+          "fact_ids": [
+            "271638927-0762"
+          ]
+        },
+        {
+          "text": "Durch verschiedene Verarbeitungsstufen erfährt der Kolumbianische Ambar eine künstliche Alterung.",
+          "fact_ids": [
+            "271638927-0762"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0762",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Seit den letzten Jahren wird Bernstein oft durch den „Kolumbianischen Ambar“ ersetzt: Dieser Kopal ist zwar nur an die 200 Jahre alt, erfährt aber durch verschiedene Verarbeitungsstufen eine künstliche Alterung.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.97,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.82
+        },
+        "jev_error": null,
+        "reason": "Alle Behauptungen von Lena (Ersatz von Bernstein durch den Kolumbianischen Ambar in den letzten Jahren, Kopal nur an die 200 Jahre alt, künstliche Alterung durch verschiedene Verarbeitungsstufen) stehen im zitierten Fakt-Satz. Das einleitende „Ja, durchaus“ ist eine belegfreie Reaktion."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 32,
+      "speaker": "Felix",
+      "text": "Ein Stein, der künstlich älter gemacht wird, das ist verrückt. Wird auch echter Bernstein manchmal behandelt?",
+      "previous_text": "Ja, durchaus. Seit den letzten Jahren wird Bernstein oft durch den Kolumbianischen Ambar ersetzt. Dieser Kopal ist nur an die zweihundert Jahre alt. Durch verschiedene Verarbeitungsstufen erfährt er aber eine künstliche Alterung.",
+      "fact_ids": [
+        "271638927-0762"
+      ],
+      "statements": [
+        {
+          "text": "Der Kolumbianische Ambar erfährt eine künstliche Alterung.",
+          "fact_ids": [
+            "271638927-0762"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0762",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Seit den letzten Jahren wird Bernstein oft durch den „Kolumbianischen Ambar“ ersetzt: Dieser Kopal ist zwar nur an die 200 Jahre alt, erfährt aber durch verschiedene Verarbeitungsstufen eine künstliche Alterung.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.73
+        },
+        "jev_error": null,
+        "reason": "Die Aussage, dass ein Stein künstlich älter gemacht wird, entspricht der künstlichen Alterung des Kopals (Kolumbianischer Ambar) im Fakt-Satz. Die Bewertung „verrückt“ ist eine Reaktion des Staunens im Moment. Die Frage, ob auch echter Bernstein behandelt wird, ist eine Nachfrage ohne neue Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 33,
+      "speaker": "Lena",
+      "text": "Dabei spielt Öl eine Rolle. Öl hat einen deutlich höheren Siedepunkt als Wasser. Daher werden Temperaturen erreicht, bei denen das fossile Harz weich und durchlässiger wird. Die winzigen Luftbläschen werden dann mit Öl ausgefüllt.",
+      "previous_text": "Ein Stein, der künstlich älter gemacht wird, das ist verrückt. Wird auch echter Bernstein manchmal behandelt?",
+      "fact_ids": [
+        "271638927-0109"
+      ],
+      "statements": [
+        {
+          "text": "Öl hat einen deutlich höheren Siedepunkt als Wasser.",
+          "fact_ids": [
+            "271638927-0109"
+          ]
+        },
+        {
+          "text": "Daher werden Temperaturen erreicht, bei denen das fossile Harz weich und durchlässiger wird.",
+          "fact_ids": [
+            "271638927-0109"
+          ]
+        },
+        {
+          "text": "Dabei werden die winzigen Luftbläschen mit Öl ausgefüllt.",
+          "fact_ids": [
+            "271638927-0109"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0109",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Öl hat einen deutlich höheren Siedepunkt als Wasser, daher werden Temperaturen erreicht, bei denen das fossile Harz weich und durchlässiger wird und die winzigen Luftbläschen mit Öl ausgefüllt werden.",
+          "context": [
+            "Im Handel erhältlicher Bernsteinschmuck enthält oft klargekochten Bernstein.",
+            "Es handelt sich dabei um ursprünglich trüben, unansehnlichen Naturbernstein, welcher in heißem Öl gekocht wurde."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen (höherer Siedepunkt von Öl als Wasser, dadurch Temperaturen, bei denen das fossile Harz weich und durchlässiger wird, und Ausfüllen der winzigen Luftbläschen mit Öl) stehen im Fakt-Satz. Der einleitende Satz „Dabei spielt Öl eine Rolle“ ist eine Überleitung ohne neue Information."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 35,
+      "speaker": "Lena",
+      "text": "Ja, sogar in der Medizin. Bis zum Zweiten Weltkrieg wurden bei Bluttransfusionen Gefäße aus Bernstein verwendet. Zum Teil war das in Hamburg noch bis neunzehnhundertfünfzig so. Auf diese Weise konnte man der Blutgerinnung entgegenwirken.",
+      "previous_text": "Aha, spannend! Wurde Bernstein eigentlich auch ganz praktisch genutzt?",
+      "fact_ids": [
+        "271638927-0627"
+      ],
+      "statements": [
+        {
+          "text": "Bis zum Zweiten Weltkrieg wurden bei Bluttransfusionen aus Bernstein gefertigte Gefäße verwendet.",
+          "fact_ids": [
+            "271638927-0627"
+          ]
+        },
+        {
+          "text": "Zum Teil war das, etwa in Hamburg, noch bis neunzehnhundertfünfzig der Fall.",
+          "fact_ids": [
+            "271638927-0627"
+          ]
+        },
+        {
+          "text": "Mit den Bernsteingefäßen konnte man der Blutgerinnung entgegenwirken.",
+          "fact_ids": [
+            "271638927-0627"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0627",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Bis zum Zweiten Weltkrieg (zum Teil noch – etwa in Hamburg – bis 1950) wurden bei Bluttransfusionen aus Bernstein gefertigte Gefäße verwendet, da auf diese Weise der Blutgerinnung entgegengewirkt werden konnte.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.86
+        },
+        "jev_error": null,
+        "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: Bernsteingefäße bei Bluttransfusionen bis zum Zweiten Weltkrieg, zum Teil (etwa in Hamburg) bis 1950, und der Zweck, der Blutgerinnung entgegenzuwirken. Es gibt keine zusätzlichen Angaben. „Sogar in der Medizin“ ist eine Überleitung ohne neue Information."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 37,
+      "speaker": "Lena",
+      "text": "Der Glaube an die Kraft des Steins findet sich auch in magischen Vorstellungen der Neuzeit wieder. Zum Beispiel wird empfohlen, Ehefrauen nachts Bernstein auf die Brust zu legen. So soll man sie zum Gestehen schlechter Taten bringen.",
+      "previous_text": "Das hätte ich nicht erwartet! Und wie sieht es mit Aberglauben aus?",
+      "fact_ids": [
+        "271638927-0667"
+      ],
+      "statements": [
+        {
+          "text": "Der Glaube an die Kraft des Steins findet sich auch in magischen Vorstellungen der Neuzeit wieder.",
+          "fact_ids": [
+            "271638927-0667"
+          ]
+        },
+        {
+          "text": "Es wird empfohlen, Ehefrauen nachts Bernstein auf die Brust zu legen, um sie zum Gestehen schlechter Taten zu bringen.",
+          "fact_ids": [
+            "271638927-0667"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0667",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Der Glaube an die „Kraft des Steins“ findet sich auch in magischen Vorstellungen der Neuzeit wieder – etwa, wenn empfohlen wird, Ehefrauen nachts Bernstein auf die Brust zu legen, um sie so zum Gestehen schlechter Taten zu bringen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 39,
+      "speaker": "Lena",
+      "text": "Ja, in seltenen Fällen. Auf Usedom und in einigen weiteren Gegenden der Ostsee werden Klumpen weißen Phosphors angespült. Sie stammen aus alten Brandbomben aus dem Zweiten Weltkrieg.",
+      "previous_text": "Na, das ist wirklich kurios. Gibt es an der Ostsee eigentlich auch etwas Gefährliches, das angespült wird?",
+      "fact_ids": [
+        "271638927-0765"
+      ],
+      "statements": [
+        {
+          "text": "Auf Usedom und in einigen weiteren Gegenden der Ostsee kommt es in seltenen Fällen zur Anspülung von Klumpen weißen Phosphors.",
+          "fact_ids": [
+            "271638927-0765"
+          ]
+        },
+        {
+          "text": "Der Phosphor stammt aus alten Brandbomben aus dem Zweiten Weltkrieg.",
+          "fact_ids": [
+            "271638927-0765"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0765",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Auf Usedom und in einigen weiteren Gegenden der Ostsee kommt es in seltenen Fällen zur Anspülung von Klumpen weißen Phosphors aus alten Brandbomben aus dem Zweiten Weltkrieg.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.8
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen (seltene Fälle, Usedom und weitere Gegenden der Ostsee, Klumpen weißen Phosphors, Herkunft aus alten Brandbomben aus dem Zweiten Weltkrieg) stehen so im zitierten Fakt-Satz; es kommt keine zusätzliche Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 41,
+      "speaker": "Lena",
+      "text": "Mehr, als man denkt. Es wurde wiederholt publiziert, dass sich aus Bernstein sequenzierbare alte DNA isolieren lässt, auch Chloroplasten-DNA. Außerdem wurden Proteine und sogar lebensfähige Organismen genannt.",
+      "previous_text": "Das klingt gar nicht harmlos. Themenwechsel: Was kann man eigentlich aus Bernstein herausholen, wenn Tiere oder Pflanzen darin stecken?",
+      "fact_ids": [
+        "271638927-0587"
+      ],
+      "statements": [
+        {
+          "text": "Es wurde wiederholt publiziert, dass aus Bernstein sequenzierbare alte DNA isoliert werden kann, auch Chloroplasten-DNA.",
+          "fact_ids": [
+            "271638927-0587"
+          ]
+        },
+        {
+          "text": "Laut diesen Veröffentlichungen lassen sich aus Bernstein auch Proteine und sogar lebensfähige Organismen isolieren.",
+          "fact_ids": [
+            "271638927-0587"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0587",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Tatsächlich wurde wiederholt publiziert, dass aus Bernstein nicht nur sequenzierbare aDNA (alte DNA) isoliert werden kann, auch aus Chloroplasten-DNA, sondern auch Proteine und sogar lebensfähige Organismen.",
+          "context": [
+            "Dass aus DNA einer inkludierten Mücke, die Dinosaurierblut aufgenommen hat, mit Hilfe der Gentechnik ein lebendiger Dinosaurier erzeugt werden kann, wie dies im später als Jurassic Park verfilmten Buch DinoPark von Michael Crichton dargestellt wird, ist Gegenstand der Fiktion."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.62
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich korrekt wieder: wiederholt publiziert, sequenzierbare alte DNA aus Bernstein, auch Chloroplasten-DNA, außerdem Proteine und lebensfähige Organismen. Es kommen keine zusätzlichen Angaben hinzu. Der Einstieg \"Mehr, als man denkt\" ist eine belegfreie Reaktion. Die Formulierung \"genannt\" statt \"isoliert\" ist eine leichte Abweichung, ändert aber den Sinn nicht wesentlich."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 42,
+      "speaker": "Felix",
+      "text": "Lebensfähige Organismen, das muss ich erst mal sacken lassen. Wie alt ist denn der älteste Bernstein Europas?",
+      "previous_text": "Mehr, als man denkt. Es wurde wiederholt publiziert, dass sich aus Bernstein sequenzierbare alte DNA isolieren lässt, auch Chloroplasten-DNA. Außerdem wurden Proteine und sogar lebensfähige Organismen genannt.",
+      "fact_ids": [
+        "271638927-0587"
+      ],
+      "statements": [
+        {
+          "text": "Aus Bernstein wurden laut Veröffentlichungen lebensfähige Organismen isoliert.",
+          "fact_ids": [
+            "271638927-0587"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0587",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Tatsächlich wurde wiederholt publiziert, dass aus Bernstein nicht nur sequenzierbare aDNA (alte DNA) isoliert werden kann, auch aus Chloroplasten-DNA, sondern auch Proteine und sogar lebensfähige Organismen.",
+          "context": [
+            "Dass aus DNA einer inkludierten Mücke, die Dinosaurierblut aufgenommen hat, mit Hilfe der Gentechnik ein lebendiger Dinosaurier erzeugt werden kann, wie dies im später als Jurassic Park verfilmten Buch DinoPark von Michael Crichton dargestellt wird, ist Gegenstand der Fiktion."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.36
+        },
+        "jev_error": null,
+        "reason": "Felix sagt, er müsse \"lebensfähige Organismen\" erst sacken lassen – eine Reaktion bzw. ein Gefühl im Moment, die vom Fakt-Satz ohnehin gedeckt wäre. Die Frage nach dem Alter des ältesten Bernsteins Europas ist eine Nachfrage ohne Prämisse mit Behauptungscharakter. Es gibt keine unbelegte Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 43,
+      "speaker": "Lena",
+      "text": "Das ist der Middletonit. Er ist etwa dreihundertzehn Millionen Jahre alt. Er stammt aus Steinkohlengruben von Middleton bei Leeds.",
+      "previous_text": "Lebensfähige Organismen, das muss ich erst mal sacken lassen. Wie alt ist denn der älteste Bernstein Europas?",
+      "fact_ids": [
+        "271638927-0248"
+      ],
+      "statements": [
+        {
+          "text": "Der älteste europäische Bernstein ist der Middletonit.",
+          "fact_ids": [
+            "271638927-0248"
+          ]
+        },
+        {
+          "text": "Er ist etwa dreihundertzehn Millionen Jahre alt und stammt aus Steinkohlengruben von Middleton bei Leeds.",
+          "fact_ids": [
+            "271638927-0248"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0248",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Der älteste europäische Bernstein ist der Middletonit, er ist etwa 310 Millionen Jahre alt und stammt aus Steinkohlengruben von Middleton bei Leeds.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.97,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Es handelt sich um den Middletonit, etwa 310 Millionen Jahre alt (ausgeschrieben als dreihundertzehn Millionen), aus Steinkohlengruben von Middleton bei Leeds. Es wird keine zusätzliche Angabe gemacht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 45,
+      "speaker": "Lena",
+      "text": "Das wurde bei der geologischen Erforschung der Bitterfelder Bernsteinlagerstätte untersucht. Eine Tonne des Bitterfelder Succinit enthält schätzungsweise viertausendfünfhundert tierische Einschlüsse.",
+      "previous_text": "Unfassbar alt. Und wie oft stecken eigentlich Tiere darin?",
+      "fact_ids": [
+        "271638927-0559"
+      ],
+      "statements": [
+        {
+          "text": "Bei der geologischen Erforschung der Bitterfelder Bernsteinlagerstätte wurde auch die Häufigkeit der Inklusen untersucht.",
+          "fact_ids": [
+            "271638927-0559"
+          ]
+        },
+        {
+          "text": "Eine Tonne des Bitterfelder Succinit enthält schätzungsweise viertausendfünfhundert tierische Inklusen.",
+          "fact_ids": [
+            "271638927-0559"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0559",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Bei der geologischen Erforschung der Bitterfelder Bernsteinlagerstätte wurde auch die Häufigkeit der Inklusen untersucht: Eine Tonne des Bitterfelder Succinit enthält schätzungsweise 4500 tierische Inklusen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 46,
+      "speaker": "Felix",
+      "text": "Viertausendfünfhundert pro Tonne, das ist eine Menge! Bitterfeld ist ein gutes Stichwort. Gab es dort auch Überraschungen?",
+      "previous_text": "Das wurde bei der geologischen Erforschung der Bitterfelder Bernsteinlagerstätte untersucht. Eine Tonne des Bitterfelder Succinit enthält schätzungsweise viertausendfünfhundert tierische Einschlüsse.",
+      "fact_ids": [
+        "271638927-0559"
+      ],
+      "statements": [
+        {
+          "text": "Es gibt in Bitterfeld eine Bernsteinlagerstätte mit tierischen Einschlüssen.",
+          "fact_ids": [
+            "271638927-0559"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0559",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Bei der geologischen Erforschung der Bitterfelder Bernsteinlagerstätte wurde auch die Häufigkeit der Inklusen untersucht: Eine Tonne des Bitterfelder Succinit enthält schätzungsweise 4500 tierische Inklusen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.6
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag enthält nur Reaktionen: Das Staunen über „Viertausendfünfhundert pro Tonne“ greift die Zahl aus [271638927-0559] (4500 Inklusen pro Tonne Bitterfelder Succinit) ohne neue Information wieder auf. „Bitterfeld ist ein gutes Stichwort“ ist eine Überleitung, und die Frage nach Überraschungen ist eine Nachfrage ohne zusätzliche Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 47,
+      "speaker": "Lena",
+      "text": "Ja. Im Jahr neunzehnhundertfünfundfünfzig wurden im Braunkohlentagebau Goitzsche östlich von Bitterfeld die Bernstein führenden Schichten für kurze Zeit angeschnitten. Die zum Teil großen Brocken wurden aber nicht als Bernstein erkannt. Man bezeichnete sie als Retinit.",
+      "previous_text": "Viertausendfünfhundert pro Tonne, das ist eine Menge! Bitterfeld ist ein gutes Stichwort. Gab es dort auch Überraschungen?",
+      "fact_ids": [
+        "271638927-0506"
+      ],
+      "statements": [
+        {
+          "text": "Im Jahr 1955 wurden im Braunkohlentagebau Goitzsche östlich von Bitterfeld die Bernstein führenden Schichten für kurze Zeit angeschnitten.",
+          "fact_ids": [
+            "271638927-0506"
+          ]
+        },
+        {
+          "text": "Die zum Teil großen Brocken wurden nicht als Bernstein (Succinit) erkannt, sondern als Retinit bezeichnet.",
+          "fact_ids": [
+            "271638927-0506"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0506",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Im Jahre 1955 wurden im Braunkohlentagebau Goitzsche östlich von Bitterfeld die Bernstein führenden Schichten für kurze Zeit angeschnitten, aber die zu Tage tretenden, zum Teil großen Brocken nicht als Bernstein (Succinit) erkannt, sondern als Retinit bezeichnet.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.88
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen (Jahr 1955, Tagebau Goitzsche östlich von Bitterfeld, kurzzeitiges Anschneiden der Bernstein führenden Schichten, zum Teil große Brocken nicht als Bernstein erkannt, Bezeichnung als Retinit) stehen im zitierten Fakt-Satz. Das einleitende „Ja“ ist eine belegfreie Reaktion. Es kommen keine zusätzlichen Angaben hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 48,
+      "speaker": "Felix",
+      "text": "Sie haben den Bernstein also übersehen. Was ist Retinit eigentlich?",
+      "previous_text": "Ja. Im Jahr neunzehnhundertfünfundfünfzig wurden im Braunkohlentagebau Goitzsche östlich von Bitterfeld die Bernstein führenden Schichten für kurze Zeit angeschnitten. Die zum Teil großen Brocken wurden aber nicht als Bernstein erkannt. Man bezeichnete sie als Retinit.",
+      "fact_ids": [
+        "271638927-0506"
+      ],
+      "statements": [
+        {
+          "text": "Die Brocken in Goitzsche wurden als Retinit bezeichnet und nicht als Bernstein erkannt.",
+          "fact_ids": [
+            "271638927-0506"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0506",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Im Jahre 1955 wurden im Braunkohlentagebau Goitzsche östlich von Bitterfeld die Bernstein führenden Schichten für kurze Zeit angeschnitten, aber die zu Tage tretenden, zum Teil großen Brocken nicht als Bernstein (Succinit) erkannt, sondern als Retinit bezeichnet.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.8
+        },
+        "jev_error": null,
+        "reason": "„Sie haben den Bernstein also übersehen“ greift den Fakt auf: 1955 wurden die Brocken im Tagebau Goitzsche nicht als Bernstein erkannt, sondern als Retinit bezeichnet. „Was ist Retinit eigentlich?“ ist eine belegfreie Nachfrage. Es kommt keine zusätzliche Behauptung hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 49,
+      "speaker": "Lena",
+      "text": "Retinit ist, anders als die Endung vermuten lässt, kein anerkanntes Mineral oder Gestein.",
+      "previous_text": "Sie haben den Bernstein also übersehen. Was ist Retinit eigentlich?",
+      "fact_ids": [
+        "253224495-0001"
+      ],
+      "statements": [
+        {
+          "text": "Retinit ist, anders als die Endung im Namen vermuten lässt, kein anerkanntes Mineral oder Gestein.",
+          "fact_ids": [
+            "253224495-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "253224495-0001",
+          "article": "Retinit",
+          "revid": 253224495,
+          "sentence": "Retinit ist, anders als die Endung „…it“ im Namen vermuten lässt kein (anerkanntes) Mineral oder Gestein.",
+          "context": [
+            "Als Retinit (vom griechischen retine „Harz“) werden sehr verschiedenartige (fossile) Harze bezeichnet, die keine oder wenig Bernsteinsäure enthalten."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 50,
+      "speaker": "Felix",
+      "text": "Die Endung führt also in die Irre. Spielte Bernstein zu DDR-Zeiten eine Rolle?",
+      "previous_text": "Retinit ist, anders als die Endung vermuten lässt, kein anerkanntes Mineral oder Gestein.",
+      "fact_ids": [
+        "253224495-0001"
+      ],
+      "statements": [
+        {
+          "text": "Die Endung im Namen Retinit lässt ein Mineral oder Gestein vermuten, ist aber irreführend.",
+          "fact_ids": [
+            "253224495-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "253224495-0001",
+          "article": "Retinit",
+          "revid": 253224495,
+          "sentence": "Retinit ist, anders als die Endung „…it“ im Namen vermuten lässt kein (anerkanntes) Mineral oder Gestein.",
+          "context": [
+            "Als Retinit (vom griechischen retine „Harz“) werden sehr verschiedenartige (fossile) Harze bezeichnet, die keine oder wenig Bernsteinsäure enthalten."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.75
+        },
+        "jev_error": null,
+        "reason": "Der erste Satz („Die Endung führt also in die Irre“) greift Fakt 253224495-0001 auf: Die Endung „…it“ lässt ein Mineral vermuten, Retinit ist aber keines. Der zweite Satz ist eine Nachfrage zu Bernstein in der DDR und damit belegfrei. Es kommt keine unbelegte Behauptung vor."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 51,
+      "speaker": "Lena",
+      "text": "Ja. Grund für eine so schnell aufgenommene Förderung war der starke Rückgang der Bernsteinimporte aus der Sowjetunion. Die senkte in den siebziger Jahren ihre jährlichen Bernsteinlieferungen von zehn Tonnen auf eine. Damit gefährdete sie die Schmuckproduktion im VEB Ostseeschmuck in Ribnitz-Damgarten.",
+      "previous_text": "Die Endung führt also in die Irre. Spielte Bernstein zu DDR-Zeiten eine Rolle?",
+      "fact_ids": [
+        "271638927-0511"
+      ],
+      "statements": [
+        {
+          "text": "Grund für eine schnell aufgenommene Förderung war der starke Rückgang der Bernsteinimporte aus der Sowjetunion.",
+          "fact_ids": [
+            "271638927-0511"
+          ]
+        },
+        {
+          "text": "Die Sowjetunion senkte in den siebziger Jahren ihre jährlichen Bernsteinlieferungen von zehn Tonnen auf eine.",
+          "fact_ids": [
+            "271638927-0511"
+          ]
+        },
+        {
+          "text": "Dadurch war die Schmuckproduktion im VEB Ostseeschmuck in Ribnitz-Damgarten gefährdet.",
+          "fact_ids": [
+            "271638927-0511"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0511",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Grund für die so schnell aufgenommene Förderung war der starke Rückgang der Bernsteinimporte aus der Sowjetunion, die in den 1970er-Jahren ihre jährlichen Bernsteinlieferungen von zehn Tonnen auf eine senkte und damit die Schmuckproduktion im „VEB Ostseeschmuck“ in Ribnitz-Damgarten gefährdete.",
+          "context": [
+            "Der Abbau begann bereits 1975."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen von Lena stehen im Fakt-Satz [271638927-0511]: der starke Rückgang der Bernsteinimporte als Grund für die schnell aufgenommene Förderung, die Senkung der jährlichen Lieferungen der Sowjetunion in den 1970er-Jahren von zehn Tonnen auf eine und die Gefährdung der Schmuckproduktion im VEB Ostseeschmuck in Ribnitz-Damgarten. Es kommt keine zusätzliche Angabe hinzu. Das einleitende „Ja“ ist eine belegfreie Reaktion."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 52,
+      "speaker": "Felix",
+      "text": "Was war dieser VEB Ostseeschmuck denn für ein Betrieb?",
+      "previous_text": "Ja. Grund für eine so schnell aufgenommene Förderung war der starke Rückgang der Bernsteinimporte aus der Sowjetunion. Die senkte in den siebziger Jahren ihre jährlichen Bernsteinlieferungen von zehn Tonnen auf eine. Damit gefährdete sie die Schmuckproduktion im VEB Ostseeschmuck in Ribnitz-Damgarten.",
+      "fact_ids": [
+        "271638927-0511"
+      ],
+      "statements": [
+        {
+          "text": "Die Schmuckproduktion im VEB Ostseeschmuck in Ribnitz-Damgarten war durch den Rückgang der Lieferungen gefährdet.",
+          "fact_ids": [
+            "271638927-0511"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0511",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Grund für die so schnell aufgenommene Förderung war der starke Rückgang der Bernsteinimporte aus der Sowjetunion, die in den 1970er-Jahren ihre jährlichen Bernsteinlieferungen von zehn Tonnen auf eine senkte und damit die Schmuckproduktion im „VEB Ostseeschmuck“ in Ribnitz-Damgarten gefährdete.",
+          "context": [
+            "Der Abbau begann bereits 1975."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.88
+        },
+        "jev_error": null,
+        "reason": "Felix' Beitrag ist eine Nachfrage, die um Erklärung zum VEB Ostseeschmuck bittet. Sie enthält keine eigene Behauptung, und der Name des Betriebs steht im zitierten Fakt. Der Beitrag ist daher belegfrei und erfüllt die Rubrik."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 53,
+      "speaker": "Lena",
+      "text": "Er war in der DDR der bedeutendste Produzent und Exporteur von mit Bernstein verziertem Silberschmuck. Aus ihm ist später ein Unternehmen hervorgegangen.",
+      "previous_text": "Was war dieser VEB Ostseeschmuck denn für ein Betrieb?",
+      "fact_ids": [
+        "271308653-0006"
+      ],
+      "statements": [
+        {
+          "text": "Der VEB Ostseeschmuck war in der DDR der bedeutendste Produzent und Exporteur von mit Bernstein verziertem Silberschmuck.",
+          "fact_ids": [
+            "271308653-0006"
+          ]
+        },
+        {
+          "text": "Aus dem VEB Ostseeschmuck entstand ein Unternehmen.",
+          "fact_ids": [
+            "271308653-0006"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271308653-0006",
+          "article": "Ostsee-Schmuck",
+          "revid": 271308653,
+          "sentence": "Das Unternehmen entstand aus dem VEB Ostseeschmuck, dem in der DDR bedeutendsten Produzenten und Exporteur von mit Bernstein verziertem Silberschmuck.",
+          "context": [
+            "Die Ostsee-Schmuck GmbH ist ein in Ribnitz-Damgarten ansässiges mittelständisches Unternehmen der Schmuckindustrie."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.9
+        },
+        "jev_error": null,
+        "reason": "Beide Aussagen folgen aus dem Fakt-Satz: Der VEB Ostseeschmuck war in der DDR der bedeutendste Produzent und Exporteur von mit Bernstein verziertem Silberschmuck, und aus ihm ist das Unternehmen (Ostsee-Schmuck GmbH) entstanden. Es wird keine zusätzliche Angabe gemacht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 55,
+      "speaker": "Lena",
+      "text": "Gern. Bernstein ist ein seit Jahrtausenden bekannter Schmuckstein aus fossilem Harz. Aus dem germanischen Wort dafür stammt das Wort Glas. Das griechische Wort für Bernstein steckt in der Elektrizität. In der Antike diente ein größerer Bernstein als Kleiderbürste, und ein kleines Figürchen war teurer als ein Sklave. Bernstein wurde schon in der Bronzezeit von der Ostsee in den Mittelmeerraum transportiert. Der älteste europäische Bernstein ist etwa dreihundertzehn Millionen Jahre alt. Und heute wird Bernstein oft durch einen künstlich gealterten Ersatz ersetzt.",
+      "previous_text": "Das war eine Menge Stoff. Kannst du uns die wichtigsten Punkte noch einmal zusammenfassen?",
+      "fact_ids": [
+        "271638927-0017",
+        "271638927-0050",
+        "271638927-0161",
+        "271638927-0041",
+        "271638927-0367",
+        "271638927-0345",
+        "271638927-0248",
+        "271638927-0762"
+      ],
+      "statements": [
+        {
+          "text": "Bernstein ist ein seit Jahrtausenden bekannter Schmuckstein aus fossilem Harz.",
+          "fact_ids": [
+            "271638927-0017"
+          ]
+        },
+        {
+          "text": "Das Wort Glas hat seinen Ursprung in der germanischen Bezeichnung des Bernsteins.",
+          "fact_ids": [
+            "271638927-0050"
+          ]
+        },
+        {
+          "text": "Der Begriff Elektrizität wurde aus dem griechischen Wort für Bernstein abgeleitet.",
+          "fact_ids": [
+            "271638927-0161"
+          ]
+        },
+        {
+          "text": "In vornehmen antiken Haushalten diente ein größerer Bernstein als Kleiderbürste.",
+          "fact_ids": [
+            "271638927-0041"
+          ]
+        },
+        {
+          "text": "Plinius tadelte, dass ein kleines Bernsteinfigürchen teurer sei als ein Sklave.",
+          "fact_ids": [
+            "271638927-0367"
+          ]
+        },
+        {
+          "text": "Bernstein wurde schon in der Bronzezeit von der Ostsee in den Mittelmeerraum transportiert.",
+          "fact_ids": [
+            "271638927-0345"
+          ]
+        },
+        {
+          "text": "Der älteste europäische Bernstein, der Middletonit, ist etwa dreihundertzehn Millionen Jahre alt.",
+          "fact_ids": [
+            "271638927-0248"
+          ]
+        },
+        {
+          "text": "Seit den letzten Jahren wird Bernstein oft durch den Kolumbianischen Ambar ersetzt, der durch verschiedene Verarbeitungsstufen künstlich gealtert wird.",
+          "fact_ids": [
+            "271638927-0762"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271638927-0017",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Bernstein bezeichnet einen seit Jahrtausenden bekannten und insbesondere im Ostseeraum verbreiteten klaren bis undurchsichtigen gelben oder gelbbraunen Schmuckstein aus fossilem Harz.",
+          "context": []
+        },
+        {
+          "id": "271638927-0050",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Die germanische Bezeichnung des Bernsteins lautete nach Tacitus glesum, in dem das Wort Glas seinen Ursprung hat.",
+          "context": []
+        },
+        {
+          "id": "271638927-0161",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Von Gilbert stammt auch der Begriff „Elektrizität“, den er aus dem griechischen Wort ἤλεκτρον ēlektron für Bernstein ableitete.",
+          "context": [
+            "Der englische Naturforscher William Gilbert widmete ihm in seinem im Jahr 1600 erschienenen Werk De magnete magneticisque corporibus ein eigenes Kapitel und unterschied ihn vom Magnetismus."
+          ]
+        },
+        {
+          "id": "271638927-0041",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "In vornehmen antiken Haushalten diente ein größerer Bernstein als Kleiderbürste; durch das Gleiten am Stoff lud er sich elektrostatisch auf und zog dann die Staubteilchen an sich.",
+          "context": []
+        },
+        {
+          "id": "271638927-0367",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Plinius der Ältere tadelt, dass ein kleines Figürchen aus Bernstein teurer als ein Sklave sei.",
+          "context": [
+            "Im Rom der Kaiserzeit trieb nicht nur der Kaiser, sondern auch das Volk mit dem Bernstein einen verschwenderischen Luxus.",
+            "Man trank aus Bernsteingefäßen, er zierte alles, was von Wert war, und wohlhabende Frauen färbten ihr Haar bernsteinfarben."
+          ]
+        },
+        {
+          "id": "271638927-0345",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Bernstein wurde schon in der Bronzezeit auf einer sogenannten Bernsteinstraße von der Ostsee in den Mittelmeerraum transportiert.",
+          "context": []
+        },
+        {
+          "id": "271638927-0248",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Der älteste europäische Bernstein ist der Middletonit, er ist etwa 310 Millionen Jahre alt und stammt aus Steinkohlengruben von Middleton bei Leeds.",
+          "context": []
+        },
+        {
+          "id": "271638927-0762",
+          "article": "Bernstein",
+          "revid": 271638927,
+          "sentence": "Seit den letzten Jahren wird Bernstein oft durch den „Kolumbianischen Ambar“ ersetzt: Dieser Kopal ist zwar nur an die 200 Jahre alt, erfährt aber durch verschiedene Verarbeitungsstufen eine künstliche Alterung.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.98,
+          "aussage_3": 0.99,
+          "aussage_4": 0.99,
+          "aussage_5": 0.99,
+          "aussage_6": 0.93,
+          "aussage_7": 0.99,
+          "vollstaendig": 0.8
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den zitierten Fakt-Sätzen: Schmuckstein aus fossilem Harz (0017), Glas aus glesum (0050), Elektrizität aus ēlektron (0161), Kleiderbürste (0041), Figürchen teurer als ein Sklave (0367), Bernsteinstraße in der Bronzezeit (0345), Middletonit mit etwa 310 Millionen Jahren (0248) und künstlich gealterter Ersatz (0762). Es kommt keine zusätzliche Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    }
+  ],
+  "comments": []
+}

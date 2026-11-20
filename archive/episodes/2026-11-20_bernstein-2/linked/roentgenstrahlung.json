@@ -1,0 +1,106 @@
+{
+  "title": "Röntgenstrahlung",
+  "revid": 272176563,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-15T09:00:37Z",
+  "fetched_at": "2026-11-20T11:41:27Z",
+  "categories": [
+    "Kategorie:1895",
+    "Kategorie:Elektromagnetische Strahlung",
+    "Kategorie:Ionisierende Strahlung",
+    "Kategorie:Radiologie",
+    "Kategorie:Teilchenphysik",
+    "Kategorie:Wilhelm Conrad Röntgen als Namensgeber"
+  ],
+  "intro_wikitext": "'''Röntgenstrahlung''' oder '''Röntgenstrahlen''' sind [[elektromagnetische Welle]]n mit [[Energie#Energie in der Quantenmechanik|Quantenenergien]] oberhalb etwa 100&nbsp;[[Elektronenvolt|eV]], entsprechend [[Wellenlänge]]n unter etwa 10&nbsp;[[Nanometer|nm]]. Röntgenstrahlung liegt im [[Elektromagnetisches Spektrum|elektromagnetischen Spektrum]] im Energiebereich oberhalb des [[ultraviolett]]en Lichts. Von der [[Gammastrahlung]] unterscheidet sie sich durch die Art der Entstehung: Gammastrahlung sind  [[Photon]]en, die durch [[Kernreaktion]]en oder [[Radioaktivität|radioaktive Zerfälle]] entstehen, während Röntgenstrahlung aus der Geschwindigkeitsänderung geladener Teilchen herrührt. Röntgenstrahlung kann Materie durchdringen und hat zahlreiche [[#Anwendungsmöglichkeiten|Anwendungsmöglichkeiten]].\n\nDie Röntgenstrahlung wurde am 8.&nbsp;November 1895 von [[Wilhelm Conrad Röntgen]] in [[Würzburg]] entdeckt und wird nach ihm im deutschsprachigen sowie fast im gesamten mittel- und osteuropäischen Raum benannt. In anderen Sprachräumen wird sie häufig mit dem von Röntgen ursprünglich selbst verwendeten Ausdruck '''X-Strahlen''' bezeichnet. Röntgenstrahlung ist eine [[ionisierende Strahlung]].\n\n[[Datei:ISO 7010 W003.svg|mini|[[DIN EN ISO 7010]] W003: ''Warnung vor radioaktiven Stoffen oder ionisierenden Strahlen'']]",
+  "segments": [
+    {
+      "id": "272176563-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Röntgenstrahlung''' oder '''Röntgenstrahlen''' sind [[elektromagnetische Welle]]n mit [[Energie#Energie in der Quantenmechanik|Quantenenergien]] oberhalb etwa 100&nbsp;[[Elektronenvolt|eV]], entsprechend [[Wellenlänge]]n unter etwa 10&nbsp;[[Nanometer|nm]].",
+      "plain": null
+    },
+    {
+      "id": "272176563-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Röntgenstrahlung liegt im [[Elektromagnetisches Spektrum|elektromagnetischen Spektrum]] im Energiebereich oberhalb des [[ultraviolett]]en Lichts.",
+      "plain": null
+    },
+    {
+      "id": "272176563-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Von der [[Gammastrahlung]] unterscheidet sie sich durch die Art der Entstehung: Gammastrahlung sind  [[Photon]]en, die durch [[Kernreaktion]]en oder [[Radioaktivität|radioaktive Zerfälle]] entstehen, während Röntgenstrahlung aus der Geschwindigkeitsänderung geladener Teilchen herrührt.",
+      "plain": null
+    },
+    {
+      "id": "272176563-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Röntgenstrahlung kann Materie durchdringen und hat zahlreiche [[#Anwendungsmöglichkeiten|Anwendungsmöglichkeiten]].",
+      "plain": null
+    },
+    {
+      "id": "272176563-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Röntgenstrahlung wurde am 8.&nbsp;November 1895 von [[Wilhelm Conrad Röntgen]] in [[Würzburg]] entdeckt und wird nach ihm im deutschsprachigen sowie fast im gesamten mittel- und osteuropäischen Raum benannt.",
+      "plain": null
+    },
+    {
+      "id": "272176563-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "In anderen Sprachräumen wird sie häufig mit dem von Röntgen ursprünglich selbst verwendeten Ausdruck '''X-Strahlen''' bezeichnet.",
+      "plain": null
+    },
+    {
+      "id": "272176563-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Röntgenstrahlung ist eine [[ionisierende Strahlung]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272176563,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272176563-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272176563-0001"
+        ],
+        "plain": "Von der Gammastrahlung unterscheidet sie sich durch die Art der Entstehung: Gammastrahlung sind Photonen, die durch Kernreaktionen oder radioaktive Zerfälle entstehen, während Röntgenstrahlung aus der Geschwindigkeitsänderung geladener Teilchen herrührt.",
+        "context_plain": [
+          "Röntgenstrahlung liegt im elektromagnetischen Spektrum im Energiebereich oberhalb des ultravioletten Lichts."
+        ]
+      },
+      {
+        "segment_id": "272176563-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Röntgenstrahlung wurde am 8. November 1895 von Wilhelm Conrad Röntgen in Würzburg entdeckt und wird nach ihm im deutschsprachigen sowie fast im gesamten mittel- und osteuropäischen Raum benannt.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272176563-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272176563-0004"
+        ],
+        "plain": "In anderen Sprachräumen wird sie häufig mit dem von Röntgen ursprünglich selbst verwendeten Ausdruck X-Strahlen bezeichnet.",
+        "context_plain": [
+          "Die Röntgenstrahlung wurde am 8. November 1895 von Wilhelm Conrad Röntgen in Würzburg entdeckt und wird nach ihm im deutschsprachigen sowie fast im gesamten mittel- und osteuropäischen Raum benannt."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

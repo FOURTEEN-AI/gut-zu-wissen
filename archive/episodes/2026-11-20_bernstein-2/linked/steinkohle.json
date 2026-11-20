@@ -1,0 +1,83 @@
+{
+  "title": "Steinkohle",
+  "revid": 271807549,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-01T15:03:36Z",
+  "fetched_at": "2026-11-20T11:41:27Z",
+  "categories": [
+    "Kategorie:Fossile Energie",
+    "Kategorie:Kohle",
+    "Kategorie:MediaWiki:Gadget/annotationPair",
+    "Kategorie:Sedimentgestein"
+  ],
+  "intro_wikitext": "[[Datei:Coal.jpg|mini|Steinkohle, hier: Anthrazitkohle]]\n'''Steinkohle''' ist ein schwarzes, hartes, festes [[Sedimentgestein]], das durch Karbonisierung von Pflanzenresten ([[Inkohlung]]) entstand und zu mehr als 50&nbsp;Prozent des Gewichtes und mehr als 70&nbsp;Prozent des Volumens aus [[Kohlenstoff]] besteht. Damit handelt es sich um einen Sammelbegriff für höherwertige [[Kohle]]n. Die Steinkohle wird auch „Schwarzes Gold“ genannt. Sie ist ein [[Fossile Energie|fossiler Energieträger]] und wird hauptsächlich zur [[Stromerzeugung|Strom-]] und Wärmeerzeugung durch Verbrennung und zur [[Koks]]produktion für die Eisenverhüttung genutzt. Rückstände aus der Verbrennung werden in der Bauindustrie verwendet.",
+  "segments": [
+    {
+      "id": "271807549-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Steinkohle''' ist ein schwarzes, hartes, festes [[Sedimentgestein]], das durch Karbonisierung von Pflanzenresten ([[Inkohlung]]) entstand und zu mehr als 50&nbsp;Prozent des Gewichtes und mehr als 70&nbsp;Prozent des Volumens aus [[Kohlenstoff]] besteht.",
+      "plain": null
+    },
+    {
+      "id": "271807549-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Damit handelt es sich um einen Sammelbegriff für höherwertige [[Kohle]]n.",
+      "plain": null
+    },
+    {
+      "id": "271807549-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Steinkohle wird auch „Schwarzes Gold“ genannt.",
+      "plain": null
+    },
+    {
+      "id": "271807549-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie ist ein [[Fossile Energie|fossiler Energieträger]] und wird hauptsächlich zur [[Stromerzeugung|Strom-]] und Wärmeerzeugung durch Verbrennung und zur [[Koks]]produktion für die Eisenverhüttung genutzt.",
+      "plain": null
+    },
+    {
+      "id": "271807549-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Rückstände aus der Verbrennung werden in der Bauindustrie verwendet.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271807549,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271807549-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Steinkohle ist ein schwarzes, hartes, festes Sedimentgestein, das durch Karbonisierung von Pflanzenresten (Inkohlung) entstand und zu mehr als 50 Prozent des Gewichtes und mehr als 70 Prozent des Volumens aus Kohlenstoff besteht.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271807549-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271807549-0003"
+        ],
+        "plain": "Rückstände aus der Verbrennung werden in der Bauindustrie verwendet.",
+        "context_plain": [
+          "Sie ist ein fossiler Energieträger und wird hauptsächlich zur Strom- und Wärmeerzeugung durch Verbrennung und zur Koksproduktion für die Eisenverhüttung genutzt."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "271807549-0002",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "title": "Tacitus",
+  "revid": 272115638,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-13T01:58:03Z",
+  "fetched_at": "2026-11-20T11:41:27Z",
+  "categories": [
+    "Kategorie:Autor",
+    "Kategorie:Cornelier",
+    "Kategorie:Geboren im 1. Jahrhundert",
+    "Kategorie:Gestorben im 2. Jahrhundert",
+    "Kategorie:Historiker der Antike",
+    "Kategorie:Konsul (Römische Kaiserzeit)",
+    "Kategorie:Literatur (Latein)",
+    "Kategorie:Mann",
+    "Kategorie:Person als Namensgeber für einen Asteroiden",
+    "Kategorie:Person als Namensgeber für einen Mondkrater",
+    "Kategorie:Quindecimvir",
+    "Kategorie:Sachliteratur",
+    "Kategorie:Wikipedia:Belege fehlen"
+  ],
+  "intro_wikitext": "{{Begriffsklärungshinweis}}\n[[Datei:Wien- Parlament-Tacitus.jpg|mini|Tacitus, moderne Skulptur vor dem [[Parlamentsgebäude (Wien)|Parlamentsgebäude]] in Wien]]\n'''Publius Cornelius Tacitus''' (* um 58; † um 120) war ein bedeutender [[Römisches Reich|römischer]] [[Geschichtsschreibung|Geschichtsschreiber]], Politiker und [[Römischer Senat|Senator]]. Tacitus’ ganz oder weitgehend erhaltene Schriften sind ''[[Agricola (Tacitus)|Agricola]]'', ''[[Germania (Tacitus)|Germania]]'', ''[[Dialogus de oratoribus]]'', ''[[Historiae (Tacitus)|Historien]]'' und ''[[Annales (Tacitus)|Annalen]]''. Sowohl die ''Historien'' als auch die ''Annalen'' gehören zu den bekanntesten und wichtigsten historischen Schriften der römischen Geschichte, sind aber nur teilweise erhalten. Die ''Germania'' ist eine bedeutende ethnographische Darstellung verschiedener Stämme der [[Germanen]], die aber eine sehr problematische Rezeptionsgeschichte aufweist.",
+  "segments": [
+    {
+      "id": "272115638-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Publius Cornelius Tacitus''' (* um 58; † um 120) war ein bedeutender [[Römisches Reich|römischer]] [[Geschichtsschreibung|Geschichtsschreiber]], Politiker und [[Römischer Senat|Senator]].",
+      "plain": null
+    },
+    {
+      "id": "272115638-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Tacitus’ ganz oder weitgehend erhaltene Schriften sind ''[[Agricola (Tacitus)|Agricola]]'', ''[[Germania (Tacitus)|Germania]]'', ''[[Dialogus de oratoribus]]'', ''[[Historiae (Tacitus)|Historien]]'' und ''[[Annales (Tacitus)|Annalen]]''.",
+      "plain": null
+    },
+    {
+      "id": "272115638-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sowohl die ''Historien'' als auch die ''Annalen'' gehören zu den bekanntesten und wichtigsten historischen Schriften der römischen Geschichte, sind aber nur teilweise erhalten.",
+      "plain": null
+    },
+    {
+      "id": "272115638-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die ''Germania'' ist eine bedeutende ethnographische Darstellung verschiedener Stämme der [[Germanen]], die aber eine sehr problematische Rezeptionsgeschichte aufweist.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272115638,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272115638-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272115638-0001"
+        ],
+        "plain": "Sowohl die Historien als auch die Annalen gehören zu den bekanntesten und wichtigsten historischen Schriften der römischen Geschichte, sind aber nur teilweise erhalten.",
+        "context_plain": [
+          "Tacitus’ ganz oder weitgehend erhaltene Schriften sind Agricola, Germania, Dialogus de oratoribus, Historien und Annalen."
+        ]
+      },
+      {
+        "segment_id": "272115638-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Germania ist eine bedeutende ethnographische Darstellung verschiedener Stämme der Germanen, die aber eine sehr problematische Rezeptionsgeschichte aufweist.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}
