@@ -3,6 +3,7 @@ import pytest
 from gut_zu_wissen.extraction import Fact
 from gut_zu_wissen.linked import intro_wikitext
 from gut_zu_wissen.ranking import (
+    LINKED_SYSTEM_PROMPT,
     SYSTEM_PROMPT,
     bound_targets,
     format_facts,
@@ -11,6 +12,7 @@ from gut_zu_wissen.ranking import (
     offer_gate,
     offer_summary,
     rank_facts,
+    rank_linked_facts,
     ranked,
     select_ranked,
 )
@@ -86,6 +88,52 @@ def test_prompt_states_range_order_and_rule_beyond_minimum():
     assert "über 20 nur mit Fakten hinaus, die wirklich überraschend sind und keine Dopplungen" in (
         system.replace("\n", " ")
     )
+
+
+def test_linked_prompt_names_main_topic_and_relevance_rule():
+    system = " ".join(
+        LINKED_SYSTEM_PROMPT.format(main_title="Axolotl", minimum=6, maximum=12).split()
+    )
+    assert "vom Wikipedia-Artikel „Axolotl“ (Hauptthema)" in system
+    assert "Wähle nur Fakten, die direkt mit dem Hauptthema „Axolotl“ verbunden sind" in system
+    assert "über das Hauptthema selbst oder über seine direkte Beziehung zum verlinkten" in system
+    assert "Lass Fakten weg, die nur den verlinkten Gegenstand für sich beschreiben" in system
+    assert "Biografie, Größe einer Institution, ein Ereignis ohne Bezug zum Hauptthema" in system
+    assert "Unter den direkt verbundenen Fakten ordnest du nach Überraschung" in system
+    assert (
+        "mindestens 6 Fakten, wenn es so viele direkt verbundene gibt, und höchstens 12" in system
+    )
+
+
+def test_rank_linked_facts_passes_main_title_and_sources():
+    llm = FakeLlm(["1-0001"])
+    sources = {"1-0000": "Hauptmann von Köpenick", "1-0001": "Signal-Protokoll"}
+    out = rank_linked_facts(llm, [fact(0), fact(1)], sources, "Axolotl", 6, 12)
+    assert [f.segment_id for f in out] == ["1-0001"]
+    system, user = llm.calls[0]
+    assert "„Axolotl“" in system and "mindestens 6" in system
+    assert user == (
+        "[1-0000] (verlinkter Artikel: Hauptmann von Köpenick) Fakt 0.\n"
+        "[1-0001] (verlinkter Artikel: Signal-Protokoll) Fakt 1."
+    )
+
+
+def test_rank_linked_facts_checks_a_single_candidate_and_skips_none():
+    llm = FakeLlm([])
+    assert rank_linked_facts(llm, [fact(0)], {"1-0000": "Wald"}, "Fuchs", 6, 12) == []
+    assert len(llm.calls) == 1
+    llm = FakeLlm([])
+    assert rank_linked_facts(llm, [fact(0)], {}, "Fuchs", 6, 12, exclude={"1-0000"}) == []
+    assert llm.calls == []
+
+
+def test_rank_linked_facts_excludes_and_cuts_to_maximum():
+    llm = FakeLlm(["1-0002", "1-0001", "1-0000"])
+    sources = {f"1-{i:04d}": "Wald" for i in range(3)}
+    facts = [fact(i) for i in range(3)]
+    out = rank_linked_facts(llm, facts, sources, "Fuchs", 1, 1, exclude={"1-0002"})
+    assert [f.segment_id for f in out] == ["1-0001"]
+    assert "1-0002" not in llm.calls[0][1]
 
 
 def test_format_facts_single_line_per_fact():

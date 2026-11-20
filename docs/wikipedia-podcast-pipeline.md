@@ -58,7 +58,7 @@ flowchart TD
 ## Korpus
 
 - **Hauptartikel:** roher Wikitext, vollständig.
-- **Verlinkte Artikel:** nur Einleitung (Text vor der ersten `==`-Überschrift), nur für Links in den 20–40 angebotenen Fakten.
+- **Verlinkte Artikel:** nur Einleitung (Text vor der ersten `==`-Überschrift), nur für Links in den 20–40 angebotenen Fakten. Angeboten werden aus ihnen nur Fakten, die direkt mit dem Hauptthema verbunden sind.
 - **Quellstand:** revid aus der API-Antwort direkt gespeichert, zusätzlich UTC-Zeitstempel des Abrufs.
 
 ## Fakten
@@ -75,8 +75,8 @@ flowchart TD
 
 ## Ranking und Kontingent
 
-- **Kriterium:** nur Überraschung (LLM, probabilistisch).
-- **Kontingent:** 20–40 Fakten Hauptartikel, 6–12 Fakten verlinkte Einleitungen (eigenes Ranking). Über das Minimum hinaus nur wirklich überraschende Fakten ohne Dopplung; liefert die Extraktion weniger als das Minimum, wird angeboten, was da ist. Angebot, keine Pflicht.
+- **Kriterium:** nur Überraschung (LLM, probabilistisch); bei verlinkten Einleitungen nur unter Fakten, die direkt mit dem Hauptthema verbunden sind.
+- **Kontingent:** 20–40 Fakten Hauptartikel, 6–12 Fakten verlinkte Einleitungen (eigenes Ranking, nur Fakten direkt mit dem Hauptthema verbunden: über das Hauptthema selbst oder seine direkte Beziehung zum verlinkten Gegenstand, nicht über den verlinkten Gegenstand allein). Über das Minimum hinaus nur wirklich überraschende Fakten ohne Dopplung; liefert die Extraktion weniger als das Minimum, wird angeboten, was da ist. Angebot, keine Pflicht.
 - **Schätzung:** 15 Minuten ≈ 2.000–2.300 Wörter, ein Fakt ≈ 100–150 Wörter → 15–20 Fakten.
 - **Nachjustieren:** nach ersten Folgen anhand „verwendete Fakten pro Minute“.
 

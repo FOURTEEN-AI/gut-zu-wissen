@@ -63,6 +63,7 @@ from gut_zu_wissen.ranking import (
     offer_gate,
     offer_summary,
     rank_facts,
+    rank_linked_facts,
     ranked,
     raw_of,
 )
@@ -215,14 +216,16 @@ def run(
                 if intro and intro.title not in {i.title for i in current}:
                     current.append(intro)
             pool = [(f, i) for i in current if i.extraction for f in i.extraction.facts]
-            chosen = rank_facts(
+            source = {f.segment_id: i for f, i in pool}
+            chosen = rank_linked_facts(
                 llm,
                 [f for f, _ in pool],
+                {fid: i.title for fid, i in source.items()},
+                article.title,
                 quotas["linked_intro_facts_min"],
                 quotas["linked_intro_facts_max"],
                 excluded,
             )
-            source = {f.segment_id: i for f, i in pool}
             linked = [
                 RankedFact(n, source[f.segment_id].title, source[f.segment_id].revid, f)
                 for n, f in enumerate(chosen, start=1)

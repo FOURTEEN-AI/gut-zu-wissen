@@ -1,6 +1,7 @@
 """Ranking by surprise and the offer gate (phase 1, step 5).
 
-The model orders the extracted facts by surprise only (design: "Ranking und Kontingent"). The
+The model orders the extracted facts by surprise (design: "Ranking und Kontingent"); for linked
+intros it first keeps only facts directly connected to the main topic (decided 2026-11-20). The
 deterministic parts are pure functions: validating the answer, the quota range, the link targets
 of the offered facts and their bound, and the minimum-content gate (D5). `exclude` is the hook for
 the conversation regeneration (D6): facts cited by rejected statements are left out of the ranking.
@@ -9,7 +10,7 @@ the conversation regeneration (D6): facts cited by rejected statements are left 
 from __future__ import annotations
 
 import re
-from collections.abc import Collection, Iterable, Sequence
+from collections.abc import Collection, Iterable, Mapping, Sequence
 from dataclasses import asdict, dataclass
 
 from gut_zu_wissen.extraction import Fact
@@ -37,6 +38,27 @@ Fakten, die du für überraschend hältst, gib entsprechend weniger zurück.
 
 Antworte mit JSON im vorgegebenen Schema. Verwende nur IDs aus der Liste, jede höchstens einmal."""
 
+LINKED_SYSTEM_PROMPT = """\
+Der Podcast handelt vom Wikipedia-Artikel „{main_title}“ (Hauptthema). Du bekommst Fakten aus \
+den Einleitungen verlinkter Artikel, jeweils mit einer ID in eckigen Klammern, dem verlinkten \
+Artikel in Klammern und gegebenenfalls einem Kontext, der nur zum Verstehen dient.
+
+Wähle nur Fakten, die direkt mit dem Hauptthema „{main_title}“ verbunden sind: Der Fakt sagt \
+etwas über das Hauptthema selbst oder über seine direkte Beziehung zum verlinkten Gegenstand. \
+Beispiele: Der frühere Name eines Verschlüsselungsprotokolls spielt auf den Axolotl an; \
+Regeneration bei Amphibien in einer Folge über den Axolotl. Lass Fakten weg, die nur den \
+verlinkten Gegenstand für sich beschreiben, auch wenn sie überraschen: Biografie, Größe einer \
+Institution, ein Ereignis ohne Bezug zum Hauptthema.
+
+Unter den direkt verbundenen Fakten ordnest du nach Überraschung: der überraschendste zuerst. \
+Wähle mindestens {minimum} Fakten, wenn es so viele direkt verbundene gibt, und höchstens \
+{maximum}. Gehe über {minimum} nur mit Fakten hinaus, die wirklich überraschend sind und keine \
+Dopplungen. Gibt es weniger direkt verbundene Fakten, gib entsprechend weniger zurück, auch \
+keinen.
+
+Wähle nicht zwei Fakten, die im Kern dasselbe sagen; nimm dann den überraschenderen. Antworte mit \
+JSON im vorgegebenen Schema. Verwende nur IDs aus der Liste, jede höchstens einmal."""
+
 # Namespace prefixes that are not articles; links with these prefixes are no link targets.
 NON_ARTICLE_PREFIXES = {
     "datei", "bild", "file", "image", "kategorie", "category", "medium", "media",
@@ -63,10 +85,12 @@ class RankedFact:
 # ---------------------------------------------------------------- pure functions
 
 
-def format_facts(facts: Sequence[Fact]) -> str:
+def format_facts(facts: Sequence[Fact], sources: Mapping[str, str] | None = None) -> str:
+    """One line per fact; `sources` maps fact IDs to their linked article, shown after the ID."""
     lines: list[str] = []
     for f in facts:
-        lines.append(f"[{f.segment_id}] {f.plain.replace(chr(10), ' ')}")
+        source = f" (verlinkter Artikel: {sources[f.segment_id]})" if sources else ""
+        lines.append(f"[{f.segment_id}]{source} {f.plain.replace(chr(10), ' ')}")
         if f.context_plain:
             lines.append("  Kontext: " + " ".join(c.replace(chr(10), " ") for c in f.context_plain))
     return "\n".join(lines)
@@ -149,6 +173,31 @@ def rank_facts(
     answer = llm.complete_json(
         SYSTEM_PROMPT.format(minimum=minimum, maximum=maximum),
         format_facts(candidates),
+        RANKING_SCHEMA,
+    )
+    return select_ranked(answer.get("ranked_ids", []), candidates, maximum)
+
+
+def rank_linked_facts(
+    llm: StructuredLlm,
+    facts: Sequence[Fact],
+    sources: Mapping[str, str],
+    main_title: str,
+    minimum: int,
+    maximum: int,
+    exclude: Collection[str] = (),
+) -> list[Fact]:
+    """Facts from linked intros that directly concern `main_title`, most surprising first.
+
+    `sources` maps each fact ID to its linked article. Unlike `rank_facts`, a single candidate
+    still goes to the model: relevance to the main topic is not given.
+    """
+    candidates = [f for f in facts if f.segment_id not in exclude]
+    if not candidates:
+        return []
+    answer = llm.complete_json(
+        LINKED_SYSTEM_PROMPT.format(main_title=main_title, minimum=minimum, maximum=maximum),
+        format_facts(candidates, sources),
         RANKING_SCHEMA,
     )
     return select_ranked(answer.get("ranked_ids", []), candidates, maximum)

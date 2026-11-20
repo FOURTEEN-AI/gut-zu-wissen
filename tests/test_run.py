@@ -289,6 +289,37 @@ def test_ranking_adds_linked_intros_with_own_revid(tmp_path):
     }
 
 
+class SystemRecordingLlm(FakeLlm):
+    def __init__(self) -> None:
+        super().__init__()
+        self.ranking_calls: list[tuple[str, str]] = []
+
+    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+        if "ranked_ids" in schema["properties"]:
+            self.ranking_calls.append((system, user))
+        return super().complete_json(system, user, schema)
+
+
+def test_linked_ranking_gets_main_title_and_linked_articles(tmp_path):
+    main_text = "Der [[Fuchs]] jagt im [[Wald]].\n\n== A =="
+    others = {
+        "Fuchs": ([], "Der Fuchs ist ein Raubtier im Wald."),
+        "Wald": ([], "Ein Wald ist eine große Fläche mit Bäumen."),
+    }
+    llm = SystemRecordingLlm()
+    run(
+        FakeApi("Rotfuchs", [], text=main_text, others=others),
+        llm,
+        tmp_path,
+        CONFIG,
+        "Rotfuchs",
+        NOW,
+    )
+    system, user = llm.ranking_calls[-1]
+    assert "direkt mit dem Hauptthema „Rotfuchs“ verbunden" in " ".join(system.split())
+    assert "(verlinkter Artikel: Fuchs)" in user and "(verlinkter Artikel: Wald)" in user
+
+
 def test_link_targets_beyond_the_bound_are_not_fetched(tmp_path):
     main_text = (
         "Der [[Fuchs]] jagt im [[Wald]] und im [[Max Muster]] sowie im [[Fehlt]].\n\n== A =="
