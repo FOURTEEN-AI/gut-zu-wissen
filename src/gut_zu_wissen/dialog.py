@@ -82,6 +82,9 @@ schreibst du aus, wie sie gesprochen werden. Fachbegriffe nur mit Erklärung aus
 Zellen, die einfach alles werden“ und „Auf diese Eigenschaft wurde mit dem Namen angespielt“.
 - Schreibe reinen Text zum Sprechen: kein Markup, keine Aufzählungszeichen, keine Klammern mit \
 Quellenangaben, keine Regieanweisungen.
+- Am Ende fasst genau eine der beiden Personen das Gespräch einmal kurz zusammen. Keine zweite \
+Zusammenfassung, kein abwechselndes Zusammenfassen. Auch die Zusammenfassung braucht Statements \
+und Fakt-IDs.
 - Ein Redebeitrag reicht bis zum Sprecherwechsel. Die beiden sprechen abwechselnd, aber nicht \
 starr; kurze Reaktionen sind eigene Redebeiträge."""
 

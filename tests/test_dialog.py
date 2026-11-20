@@ -158,6 +158,10 @@ def test_regenerate_turn_keeps_index_and_speaker_and_uses_turn_schema():
         # (e) short evaluations with content need fact IDs or are left out (user, 2026-11-20)
         "Kurze Wertungen, die etwas über die Sache behaupten",
         "Frei bleiben reine Gefühlsausrufe",
+        # (f) only one closing summary (user, 2026-11-20)
+        "Am Ende fasst genau eine der beiden Personen das Gespräch einmal kurz zusammen.",
+        "Keine zweite Zusammenfassung, kein abwechselndes Zusammenfassen.",
+        "Auch die Zusammenfassung braucht Statements und Fakt-IDs.",
     ],
 )
 def test_author_prompts_contain_the_fidelity_rules(prompt, rule):
