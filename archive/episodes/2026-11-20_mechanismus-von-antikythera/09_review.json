@@ -265,9 +265,11 @@
       "sampled": true
     }
   ],
-  "status": "pending",
-  "outcome": null,
-  "rate_applied": [],
+  "status": "answered",
+  "outcome": "error",
+  "rate_applied": [
+    "error"
+  ],
   "issue": 7,
   "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/7",
   "explicit": {
@@ -276,10 +278,10 @@
     "verdict": "clean",
     "findings": [],
     "reason": "Das Gespräch behandelt sachlich den Mechanismus von Antikythera: Technik, Astronomie, Kalender, Fundgeschichte und Rezeption. Es kommen keine drastische Gewalt, Sexualität, Drogen oder derbe Schimpfwörter vor. Der Ausruf „Wahnsinn“ ist mild und kein Schimpfwort.",
-    "label": null,
-    "reviewer_flag": null,
+    "label": "correct",
+    "reviewer_flag": false,
     "note": null,
-    "comment_id": null
+    "comment_id": 7051492986
   },
   "turns": [
     {
@@ -354,9 +356,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 1,
@@ -416,9 +418,9 @@
         "jev_error": null,
         "reason": "Die Prämissen der Fragen stimmen mit den Fakten überein: Ein antikes, mit Zahnrädern arbeitendes, uhrähnliches Gerät (0000) wurde von Schwammtauchern in einem Schiffswrack entdeckt (0001). Das \"Staunen\" und die Frage nach dem Aussehen sind belegfreie Reaktionen. Es werden keine zusätzlichen Angaben gemacht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 2,
@@ -456,9 +458,9 @@
         "jev_error": null,
         "reason": "Lenas Aussage, der Mechanismus sei als Klumpen aus zusammenkorrodierten Metallteilen geborgen worden, entspricht dem Fakt-Satz 271920980-0021 fast wörtlich. Sie fügt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 3,
@@ -496,9 +498,9 @@
         "jev_error": null,
         "reason": "Die einzige Behauptung, der Mechanismus sei als Klumpen aus zusammenkorrodierten Metallteilen geborgen worden, folgt direkt aus [271920980-0021]. Der Rest ist eine Nachfrage mit Bitte um Erklärung und eine Überleitung, also belegfrei und ohne zusätzliche Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 4,
@@ -541,9 +543,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 6,
@@ -603,9 +605,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus den Fakt-Sätzen. Dass man das Gerät für die Antike nicht für möglich hielt, steht in 0005. Dass aus dieser Zeit keine komplexe Zahnrad-Apparatur bekannt war und man lange annahm, sie liege vor dem Beginn der technischen Entwicklung, steht in 0054. Die Formulierung „galt als unwahrscheinlich dafür“ ist eine zulässige Umformulierung dieser Annahme. Es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 7,
@@ -641,9 +643,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag besteht aus einer Reaktion (\"Wow\", Neugier) und einer Nachfrage zur Gestaltung der Zahnräder. Die Prämisse, dass der Mechanismus Zahnräder hatte, folgt aus dem Fakt-Satz 271920980-0000. Weitere Behauptungen gibt es nicht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 8,
@@ -700,9 +702,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 9,
@@ -738,9 +740,9 @@
         "jev_error": null,
         "reason": "Die Aussage, dass jedes Zahnrad in jedes andere eingreifen konnte, steht direkt in [271920980-0232]. Der Satz beginnt mit \"also\" und greift das eben Gesagte auf. Die anschließende Frage, woher man beim Zusammenbau wusste, welches Teil wohin gehört, ist eine Nachfrage und braucht keinen Beleg. Ihre Prämisse (es gab einen Zusammenbau mit verschiedenen Teilen) fügt keine nicht belegte Information hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 10,
@@ -783,9 +785,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 11,
@@ -821,9 +823,9 @@
         "jev_error": null,
         "reason": "Die Aussage, dass jedes Teil und jedes Loch einen Buchstaben hatte, folgt direkt aus dem Fakt-Satz. Die Wertung „das ist gründlich“ ist eine Meinung ohne zusätzlichen Faktengehalt. Die Frage nach einer Reparatur ist eine Nachfrage und setzt keine unbelegte Prämisse voraus."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 12,
@@ -866,9 +868,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag gibt den Fakt-Satz [271920980-0236] inhaltlich korrekt wieder: mindestens eine Reparatur, bei der eine der vier Speichen am Hauptantriebsrad ausgetauscht wurde. Es kommen keine zusätzlichen Angaben hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 14,
@@ -918,9 +920,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 15,
@@ -971,9 +973,9 @@
         "jev_error": null,
         "reason": "Die Aussage \"Luxusobjekt für einen reichen Kunden, vielleicht sogar mehrfach gebaut\" folgt aus [0184] (Luxusobjekt für reichen Kunden, möglicherweise kein Einzelstück). Die Frage \"Was zeigte so ein Stück denn an?\" ist eine Nachfrage, und der Verweis auf Kalender, die Felix als Gesprächsbezug aufgreift, passt zu [0000] (astronomisch-kalendarische Zusammenhänge) und fügt keine neue Behauptung hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 16,
@@ -1038,9 +1040,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 17,
@@ -1083,9 +1085,9 @@
         "jev_error": null,
         "reason": "Die Angabe von zwölf Monaten zu je dreißig Tagen plus fünf Zusatztagen steht im Fakt-Satz, und die Summe von 365 ist eine einfache Rechnung, die der Satz selbst ebenfalls nennt. Die Frage, ob der Ring genauso viele Abschnitte hatte, ist eine Nachfrage. Ihre Prämisse, dass die Ringskala in Abschnitte unterteilt ist, wird vom Fakt gestützt. Es kommt keine unbelegte Zusatzangabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 18,
@@ -1128,9 +1130,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 19,
@@ -1166,9 +1168,9 @@
         "jev_error": null,
         "reason": "Die Aussage, dass eine Lunation knapp dreißig Tage dauert, folgt aus dem Fakt (im Mittel etwa 29,53 Tage). Die anschließende Frage, ob das Gerät die Mondphasen gezeigt hat, ist eine Nachfrage ohne Tatsachenbehauptung und braucht keinen Beleg."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 20,
@@ -1211,9 +1213,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: neu entdecktes vorstehendes Zahnrad und halbkugelförmiger Hohlraum, Schluss auf eine zweifarbige kleine Kugel auf dem vorderen Mondzeiger zur Anzeige der Mondphasen. Es kommen keine zusätzlichen Angaben hinzu. Der Einstieg \"Dafür gibt es einen Hinweis\" ist eine Überleitung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 21,
@@ -1249,9 +1251,9 @@
         "jev_error": null,
         "reason": "Der Beitrag enthält nur Reaktionen: ein Wiederaufgreifen des eben Beschriebenen (Kugel), eine Wertung als Gefühl (\"schönes Bild\") und eine Nachfrage. Die Prämisse der Frage, dass das Gerät etwas vom Himmel zeigte, folgt aus dem Fakt, denn der Mechanismus zeigte astronomisch-kalendarische Zusammenhänge."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 22,
@@ -1289,9 +1291,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus dem Fakt-Satz 271920980-0374: Es gab eine Zusatzanzeige, sie hatte drei Saros-Perioden pro Umdrehung und diente der Angabe, ob die Tageszeit der Hauptskala galt oder ob 1/3 bzw. 2/3 Tage zu addieren waren. „Ja, es gab eine Zusatzanzeige“ ist durch die Existenz der Anzeige im Fakt gedeckt. Es kommen keine zusätzlichen Angaben hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 23,
@@ -1329,9 +1331,9 @@
         "jev_error": null,
         "reason": "Felix' Aussage, die Anzeige habe angegeben, ob zur Tageszeit auf der Hauptskala ein Drittel oder zwei Drittel Tage zu addieren waren, folgt aus [271920980-0374]. Das \"Verblüffend!\" ist eine belegfreie Reaktion, und die Frage nach etwas ohne Himmelsbezug ist eine Nachfrage ohne Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 24,
@@ -1370,9 +1372,9 @@
         "jev_error": null,
         "reason": "Alle drei Aussagen stützen sich auf den Fakt-Satz: der geviertelte Kreis, die darauf vermerkten Panhellenischen Wettkampfspiele und die sechs Wettkampfstätten. Es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 25,
@@ -1411,9 +1413,9 @@
         "jev_error": null,
         "reason": "Felix' Aussage „Sportwettkämpfe auf einem Zifferblatt, das überrascht mich“ ist ein Gefühl des Staunens im Moment und braucht keinen Beleg. Die Frage nach einem besonderen Titel für die Sieger ist eine Nachfrage. Ihre einzige Prämisse, dass auf dem Zifferblatt Wettkampfspiele vermerkt waren, folgt aus Fakt 271920980-0301 (Panhellenische Wettkampfspiele auf dem geviertelten Kreis). Es kommt keine unbelegte Behauptung hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 26,
@@ -1451,9 +1453,9 @@
         "jev_error": null,
         "reason": "Beide Behauptungen folgen direkt aus dem Fakt-Satz 269291814-0008: Wer während einer Olympiade in einer Sportart in allen vier Hauptkampfstätten siegte, erhielt den Titel Periodonike, und die Olympiade ist dort als Vierjahreszyklus angegeben. Das einleitende „Ja“ ist eine belegfreie Reaktion. Es kommt keine zusätzliche Angabe vor."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 28,
@@ -1498,9 +1500,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: korinthisches Griechisch des Konstrukteurs, Herkunft aus Korinth oder einer Kolonie wie Syrakus, mögliche Identität mit Archimedes (287 bis 212 v. Chr.) oder einem seiner Schüler. Es wird keine zusätzliche Angabe gemacht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 29,
@@ -1538,9 +1540,9 @@
         "jev_error": null,
         "reason": "Felix' Aussage „Archimedes oder einer seiner Schüler“ greift die Fakt-Aussage auf, der Konstrukteur könne Archimedes oder ein Schüler von ihm gewesen sein. Das „wow!“ ist eine Reaktion im Moment. Die Frage nach dem damaligen Wissen über die Bahnen der Himmelskörper ist eine Nachfrage und enthält keine unbelegte Prämisse."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 30,
@@ -1583,9 +1585,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 31,
@@ -1621,9 +1623,9 @@
         "jev_error": null,
         "reason": "Die Aussage, dass der Äquant im Gerät (Mechanismus von Antikythera) steckt, obwohl er bisher Ptolemäus zugeschrieben wurde, folgt direkt aus dem Fakt-Satz [271920980-0079]. Die Frage nach dem Alter des Instruments ist eine Nachfrage ohne zusätzliche Behauptung oder Prämisse und damit belegfrei."
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "supported",
+      "note": "Prämisse belegt, aber „dieses Instrument“ bezieht sich in der Folge auf den Mechanismus, im Fakt auf die Archimedes-Sphäre",
+      "comment_id": 7051492986
     },
     {
       "turn_index": 32,
@@ -1668,9 +1670,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "not_supported",
+      "note": "„Dieses Instrument“ in Fakt 0089 ist die Archimedes-Sphäre aus Rom, nicht das Getriebe/der Mechanismus; der Bezug fehlt im Sprechtext",
+      "comment_id": 7051492986
     },
     {
       "turn_index": 33,
@@ -1708,9 +1710,9 @@
         "jev_error": null,
         "reason": "Die Aussage, dass eine Tradition lange vor dem Gerät bestand, folgt aus dem Fakt: Das Instrument war rund 150 Jahre älter als der Mechanismus von Antikythera und weist auf eine Tradition von mehr als einem Jahrhundert hin. „Schon lange“ ist eine zulässige Umformulierung. Die Frage nach einer Theorie zur Bewegung der Himmelskörper ist eine Nachfrage ohne zusätzliche Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 34,
@@ -1753,9 +1755,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 36,
@@ -1798,9 +1800,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 37,
@@ -1836,9 +1838,9 @@
         "jev_error": null,
         "reason": "Die Fakt-Sätze nennen rund 3.000 erhaltene von etwa 15.000 vermuteten Buchstaben, also ein Fünftel. Sie sagen auch, dass Zahlen mit griechischen Buchstaben in der griechischen Zahlschrift geschrieben wurden, also in den Buchstaben stecken. Die Schlussfrage zum Aussehen des Textes ist eine Nachfrage ohne neue Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 38,
@@ -1891,9 +1893,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 40,
@@ -1936,9 +1938,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 41,
@@ -1974,9 +1976,9 @@
         "jev_error": null,
         "reason": "Felix stellt eine Nachfrage, also eine Bitte um Erklärung. Die einzige Prämisse, dass Hublot eine Variante vorgestellt hat, deckt der zitierte Fakt ab (Hublot stellte im Oktober 2011 eine Variante mit modernem Design vor). Er fügt keine weiteren Angaben hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 42,
@@ -2019,9 +2021,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 44,
@@ -2057,9 +2059,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 46,
@@ -2095,9 +2097,9 @@
         "jev_error": null,
         "reason": "Die Aussage stimmt mit dem Fakt-Satz überein: Film (Indiana Jones und das Rad des Schicksals), Jahr 2023 (ausgeschrieben als zweitausenddreiundzwanzig) und die tragende Rolle einer fiktiven Version des Mechanismus. Es kommt keine zusätzliche Angabe hinzu, das einleitende „Ja“ ist eine belegfreie Reaktion."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 47,
@@ -2133,9 +2135,9 @@
         "jev_error": null,
         "reason": "Felix stellt nur eine Nachfrage (wer bei dem Film Regie geführt hat). Das ist eine Reaktion ohne Behauptung und ohne neue Information, daher braucht sie keinen Beleg. Die Frage setzt nur voraus, dass es um einen Film geht, und das deckt der zitierte Fakt ab."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 48,
@@ -2178,9 +2180,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen (Regie James Mangold, Abenteuerfilm, Jahr 2023, fünfter Teil der Indiana-Jones-Filmreihe, Originaltitel Indiana Jones and the Dial of Destiny) stehen im zitierten Fakt-Satz; es gibt keine zusätzlichen Angaben."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7051492986
     },
     {
       "turn_index": 49,
@@ -2394,10 +2396,20 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus den zitierten Fakt-Sätzen: Fund 1900 durch Schwammtaucher im Schiffswrack, Klumpen aus zusammenkorrodierten Metallteilen, bisher für unmöglich gehaltene Machbarkeit, Luxusobjekt-These der Gruppe, zweifarbige Mondphasenkugel, Wettkampfspiele, Saros-Zusatzanzeige mit Drittel- und Zweidrittel-Tagen, Archimedes oder ein Schüler als möglicher Konstrukteur, Äquant, Hublot-Variante, Youtuber-Nachbau und Filmauftritt. Es kommen keine zusätzlichen Angaben hinzu."
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "not_supported",
+      "note": "„nie für möglich gehalten“ (Fakt: „bis dahin nicht“), „Archimedes-Schüler“ (Fakt: „Archimedes oder ein Schüler“), „was ich mitnehme“ als Selbstaussage",
+      "comment_id": 7051492986
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "comment_id": 7051492986,
+      "url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/7#issuecomment-7051492986",
+      "created_at": "2026-11-20T21:52:09Z",
+      "updated_at": "2026-11-20T21:52:09Z",
+      "review_lines": 44,
+      "applied": true,
+      "errors": []
+    }
+  ]
 }
