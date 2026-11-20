@@ -155,6 +155,9 @@ def test_regenerate_turn_keeps_index_and_speaker_and_uses_turn_schema():
         "Lena verallgemeinert nicht über den Fakt-Satz hinaus.",
         "„Es gibt keine Zellen, die einfach alles werden“",
         "„Auf diese Eigenschaft wurde mit dem Namen angespielt“",
+        # (e) short evaluations with content need fact IDs or are left out (user, 2026-11-20)
+        "Kurze Wertungen, die etwas über die Sache behaupten",
+        "Frei bleiben reine Gefühlsausrufe",
     ],
 )
 def test_author_prompts_contain_the_fidelity_rules(prompt, rule):

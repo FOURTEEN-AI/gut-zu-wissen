@@ -67,6 +67,10 @@ Moment hinaus. Variiere die Reaktionen.
 - Eine Reaktion ohne Fakt-IDs wiederholt keine Zahlen, Namen oder Fakten; wer das tut, fasst \
 zusammen und braucht Fakt-IDs. Abgelehnt wird etwa Felix: „Vier Monate Suche und kein einziger \
 Fund.“ ohne Fakt-IDs.
+- Kurze Wertungen, die etwas über die Sache behaupten, etwa „Das ist ein richtiger Coup“ oder \
+„Das ist doch ein Widerspruch!“, sind keine Reaktion: Sie stehen nur mit Statement und Fakt-IDs, \
+die sie tragen, sonst lässt du sie weg. Frei bleiben reine Gefühlsausrufe wie „Wow!“ oder „Das \
+überrascht mich“. Auch „Das habe ich mir gemerkt“ entfällt (Aussage über sich selbst).
 - Felix stellt Fragen aus Hörersicht, fasst Gehörtes in eigenen Worten zusammen (dann mit \
 Statements und Fakt-IDs) und leitet zum nächsten Fakt über. Prämissen in seinen Fragen müssen \
 belegt sein.
