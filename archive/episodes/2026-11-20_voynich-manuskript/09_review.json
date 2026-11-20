@@ -301,9 +301,11 @@
       "sampled": true
     }
   ],
-  "status": "pending",
-  "outcome": null,
-  "rate_applied": [],
+  "status": "answered",
+  "outcome": "clean",
+  "rate_applied": [
+    "clean"
+  ],
   "issue": 3,
   "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/3",
   "explicit": {
@@ -312,10 +314,10 @@
     "verdict": "clean",
     "findings": [],
     "reason": "Das Gespräch behandelt sachlich Datierung, Herkunft, Entzifferungsversuche und Kulturgeschichte des Voynich-Manuskripts. Die nackten Frauen in Wannen (Beitrag 5) werden nur nüchtern als Bildmotiv beschrieben, die Erwähnung von „Cyborg-Killern“ (Beitrag 45) ist eine beiläufige Romanangabe, und „gezeugt“ (Beitrag 41) ist unproblematisch. Es gibt weder drastische Gewalt, Sexualität oder Drogendarstellung noch derbe Ausdrücke.",
-    "label": null,
-    "reviewer_flag": null,
+    "label": "correct",
+    "reviewer_flag": false,
     "note": null,
-    "comment_id": null
+    "comment_id": 7041908141
   },
   "turns": [
     {
@@ -354,9 +356,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag enthält keine neue Sachbehauptung. Er nennt das Thema (Voynich-Manuskript) als Überleitung und stellt eine einfache Nachfrage nach dem Alter. Die zitierte Quelle erwähnt das Voynich-Manuskript, und die Frage setzt nichts voraus, was darüber hinausgeht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 1,
@@ -411,9 +413,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Die Radiokarbonanalyse mit dem Zeitraum 1404 bis 1438 stammt aus 271345560-0012, die Klarstellung zu Pergamentpapier (Zellstoff, nicht mit Pergament aus Tierhäuten zu verwechseln) aus 268826227-0004. Es werden keine zusätzlichen Angaben gemacht, etwa zu Instituten oder dem Jahr 2009 aus dem Kontext."
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "supported",
+      "note": "Pergamentpapier-Klarstellung gehört nicht zur Pergamentdatierung und verwirrt",
+      "comment_id": 7041908141
     },
     {
       "turn_index": 2,
@@ -451,9 +453,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag enthält nur eine Reaktion: Felix äußert einen subjektiven Eindruck (\"klingt nach einem Labor voller Geräte\") und bittet um eine Erklärung des Prinzips. Er stellt keine neue Tatsachenbehauptung auf, und die Prämisse, dass es eine Radiokarbonanalyse gab, folgt aus dem Fakt-Satz."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 3,
@@ -492,9 +494,9 @@
         "jev_error": null,
         "reason": "Alle drei Aussagen (normaler Anteil an C-14, trotz ständigen Zerfalls nahezu konstant, ständige Neubildung in der oberen Atmosphäre als Grund) stehen so im Fakt-Satz 272069091-0004. Es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 4,
@@ -533,9 +535,9 @@
         "jev_error": null,
         "reason": "Felix' Aussage, der normale Anteil bleibe nahezu konstant, weil oben in der Atmosphäre ständig Nachschub entsteht, gibt den Fakt-Satz [272069091-0004] sinngemäß wieder. „Das reicht für den technischen Teil“ und „Was ist auf den Seiten eigentlich abgebildet?“ sind Überleitung und Nachfrage und brauchen keinen Beleg."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 5,
@@ -578,9 +580,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen des Redebeitrags (rätselhaftester und faszinierendster Abschnitt, auf fast jeder Seite Gruppen nackter Frauen mit gewölbten Bäuchen, Sitzen in Becken oder Wannen, Verbindung durch Leitungen oder Röhren) stehen im zitierten Fakt-Satz. Die einleitende Formulierung „Beginnen wir mit“ ist eine Überleitung ohne neue Information."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 6,
@@ -616,9 +618,9 @@
         "jev_error": null,
         "reason": "Die Beschreibung \"Nackte Frauen in Wannen, verbunden durch Röhren\" folgt aus dem Fakt-Satz (nackte Frauen in Becken oder Wannen, die durch Leitungen oder Röhren verbunden sind). \"Was für ein Bild!\" ist eine Reaktion des Staunens, und die Frage nach leichter einzuordnenden Motiven ist eine Nachfrage ohne zusätzliche Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 7,
@@ -663,9 +665,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus dem Fakt-Satz: romanische Monatsnamen in lateinischen Buchstaben direkt bei den Sternzeichenfiguren, „mars“ bei den Fischen, „abril“ beim Widder, fehlende Darstellungen von Wassermann und Steinbock, die sich vermutlich auf dem fehlenden Blatt 74 befanden. „Ja, es gibt Sternzeichen“ ist eine Reaktion bzw. folgt aus dem Fakt-Satz. Es wird nichts Zusätzliches behauptet."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 8,
@@ -703,9 +705,9 @@
         "jev_error": null,
         "reason": "Felix' Aussage „Ein fehlendes Blatt!“ greift das Gesagte auf und deckt sich mit dem Fakt, dass die Darstellungen von Wassermann und Steinbock vermutlich auf dem fehlenden Blatt 74 standen. Die Frage „Ist das Manuskript also gar nicht vollständig?“ ist eine Nachfrage, die keine neue Behauptung einführt. Die darin enthaltene Prämisse, dass ein Blatt fehlt, folgt direkt aus dem Fakt."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 9,
@@ -744,9 +746,9 @@
         "jev_error": null,
         "reason": "Die Zahlen 116 und 102 stimmen mit dem Fakt-Satz überein; \"Manuskript\" ist nur ein anderes Wort für \"Kodex\". Das einleitende \"Nein, es fehlt etwas\" ist eine Reaktion bzw. folgt direkt aus dem Verlust von 14 Blättern. Es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 10,
@@ -785,9 +787,9 @@
         "jev_error": null,
         "reason": "Die Aussage, dass Blätter verschwunden sind, die einmal dazugehörten, folgt aus dem Fakt: Der Kodex hatte 116 Blätter und besteht heute nur noch aus 102. Die zweite Hälfte ist eine Nachfrage zur Besitzgeschichte und damit eine belegfreie Reaktion, die keine Behauptung enthält."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 11,
@@ -839,9 +841,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Guzy nennt den Verkauf als einzige Transaktion dieser Größenordnung unter Rudolf II., die Summe entspricht der Ankaufssumme im Marci-Brief, und daher dürfte das Voynich-Manuskript gemeint gewesen sein. Zusätzliche Angaben aus dem Kontext (Widemann, 1599, 600 Gulden) werden nicht behauptet."
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "supported",
+      "note": "„ein bestimmter Verkauf“ bleibt unklar, beantwortet die Frage nach früheren Besitzern nicht",
+      "comment_id": 7041908141
     },
     {
       "turn_index": 12,
@@ -879,9 +881,9 @@
         "jev_error": null,
         "reason": "Die Aussagen, dass es unter Rudolf II. nur diesen einen Verkauf dieser Größenordnung gab und dass die Summe der im Brief von Marci genannten Ankaufssumme entspricht, stehen im Fakt-Satz (nach Guzy). Die abschließende Frage zum weiteren Schicksal des Manuskripts ist eine belegfreie Nachfrage bzw. Überleitung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 13,
@@ -919,9 +921,9 @@
         "jev_error": null,
         "reason": "Die Aussage über die Lücke von über 200 Jahren zwischen 1666 und 1870, in der das Schicksal des Manuskripts bislang unbekannt ist, deckt sich mit dem Fakt-Satz. Die Jahreszahlen sind nur ausgeschrieben. Der einleitende Satz „Hier gibt es eine große Lücke“ fasst dasselbe zusammen und fügt keine neue Information hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 14,
@@ -976,9 +978,9 @@
         "jev_error": null,
         "reason": "Die Aussage über die mehr als 200 unbekannten Jahre folgt aus [271345560-0033] (1666 bis 1870 bislang unbekannt). Die Prämisse der Frage, dass das Manuskript an die Yale-Universität gelangte, deckt [271345560-0045] ab. \"Eine ganze Menge Zeit\" ist eine bloße Reaktion, die Frage selbst eine Nachfrage. Es kommt keine unbelegte Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 15,
@@ -1041,9 +1043,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen stammen aus den Fakt-Sätzen: Verkauf 1961 für 25.000 US-Dollar an Hans Peter Kraus, seine Weiterverkaufsabsicht ohne Käufer, die Stiftung 1969 an die Yale-Universität und der heutige Bestand der Beinecke Library. Es kommen keine zusätzlichen Angaben hinzu. Die Einleitung „Dazu gibt es konkrete Angaben“ ist eine belegfreie Überleitung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 16,
@@ -1109,9 +1111,9 @@
         "jev_error": null,
         "reason": "Die Aussage \"Ein Buchhändler findet keinen Käufer, und am Ende steht eine Schenkung an Yale\" folgt aus [271345560-0045]: Kraus fand keinen Käufer und stiftete das Manuskript 1969 der Yale-Universität. \"Schenkung\" ist eine zulässige Umformulierung von \"stiftete\". Der zweite Teil ist eine Frage nach Entzifferungsversuchen und eine Überleitung, also belegfrei. Es kommt keine unbelegte Zusatzangabe vor."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 17,
@@ -1166,9 +1168,9 @@
         "jev_error": null,
         "reason": "Die Aussage, dass es um Newbolds Mikroschrift geht und der eigentliche Inhalt in mikroskopisch kleinen Unregelmäßigkeiten der Voynich-Zeichen versteckt sein sollte, folgt direkt aus [271345560-0143] und dem Kontext der Theorie einer Mikroschrift; es gibt keine zusätzlichen Angaben."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 18,
@@ -1206,9 +1208,9 @@
         "jev_error": null,
         "reason": "Felix gibt in der ersten Aussage den Fakt-Satz sinngemäß wieder: Der Inhalt soll in mikroskopisch kleinen Unregelmäßigkeiten der Zeichen versteckt sein. Die Frage danach, was bei der Lesung herauskam, ist eine Nachfrage und braucht keinen Beleg. Zusätzliche Angaben, die nicht belegt wären, enthält der Beitrag nicht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 19,
@@ -1255,9 +1257,9 @@
         "jev_error": null,
         "reason": "Alle drei Aussagen stehen im Fakt-Satz: Das Resultat bestätigte die Urheberschaft Bacons, es verriet angeblich, dass Bacon ein Mikroskop besaß, und ihm sei die Spiralstruktur des Andromedanebels schon bekannt gewesen. Lena formuliert nur um und lässt \"ihm\" (dem Dechiffrierenden) aus. Das Wort \"angeblich\" bleibt erhalten, ebenso die Einschränkung auf das Wissen Bacons. Es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 20,
@@ -1297,9 +1299,9 @@
         "jev_error": null,
         "reason": "Felix' Beitrag besteht aus einem Ausruf des Staunens (\"Wow!\"), einer Zusammenfassung der zitierten Angabe (Mikroskop, Andromedanebel laut Fakt-Satz) und einer Nachfrage, ob jemand das Ergebnis überprüft hat. Die Zusammenfassung folgt aus dem Fakt-Satz, die Frage enthält keine unbelegte Prämisse, und Reaktionen sind belegfrei. Es wird keine zusätzliche Behauptung aufgestellt."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 21,
@@ -1344,9 +1346,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen in Lenas Beitrag (Mikroschrift nur in Newbolds Phantasie, vermeintliche Kürzel als Unregelmäßigkeiten beim Auftrag und Abblättern der Tinte auf rauem Schreibmaterial) stehen im Fakt-Satz. „Ja, ein Kritiker“ ist eine Überleitung bzw. ein Wiederaufgreifen und enthält keine zusätzliche Information."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 22,
@@ -1384,9 +1386,9 @@
         "jev_error": null,
         "reason": "Die Aussage \"Abgeblätterte Tinte statt geheimer Schrift\" fasst den Fakt-Satz zusammen: Die vermeintlichen Kürzel waren Unregelmäßigkeiten beim Auftrag und Abblättern der Tinte. Die Prämisse, dass Newbold ein Verfahren benutzt hat, folgt aus dem Fakt (Newbolds Mikroschrift, Methoden). Der Rest ist eine Nachfrage, also belegfrei. Es wird keine zusätzliche Angabe behauptet."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 23,
@@ -1438,9 +1440,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen des Redebeitrags stehen im zitierten Fakt-Satz: Der Kritiker wies darauf hin, dass Newbolds Verfahren keine sichere Wiederherstellung eines Originaltextes zuließ, der Dechiffrierer den Inhalt schon kennen musste, das bei Newbold der Fall war und er genau das fand, was er zu finden hoffte. Es kommt keine zusätzliche Information hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 24,
@@ -1495,9 +1497,9 @@
         "jev_error": null,
         "reason": "Die Aussage \"Er hat also im Grunde seine eigene Erwartung gelesen\" gibt Fakt 0158 wieder (Newbold fand, was er zu finden hoffte). Die Frage \"Gab es noch andere Übersetzungsversuche?\" ist eine Nachfrage ohne neue Behauptung und braucht keinen Beleg. Fakt 0272 nennt zwar weitere Übersetzungsversuche, wird aber nicht als Behauptung herangezogen."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 25,
@@ -1542,9 +1544,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen von Lena (einer der ersten Übersetzungsversuche von Hannig, Krankengeschichte, Bauer mit Verdauungsproblemen nach einer Suppe, wehklagende Umgebung, Arztbesuch ohne Hilfe) folgen direkt aus dem Fakt-Satz. Der Einstieg \"Ja, einen von Hannig\" ist eine Überleitung ohne neue Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 26,
@@ -1601,9 +1603,9 @@
         "jev_error": null,
         "reason": "Die Aussagen zu Newbold (Bacon, Andromedanebel) folgen aus Fakt 0146, die zu Hannig (Bauer, Suppe) aus Fakt 0272. Das einleitende \"Ha!\" ist eine Reaktion, die abschließende Frage nach Verfahren zum systematischen Knacken von Verschlüsselungen ist eine Nachfrage ohne Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 27,
@@ -1648,9 +1650,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 28,
@@ -1688,9 +1690,9 @@
         "jev_error": null,
         "reason": "Die Behauptung, Häufigkeitsanalysen reichten bei einfacher Verschlüsselung und ausreichender Textmenge auch ohne Computer, und Poe führe das in Der Goldkäfer vor, folgt direkt aus dem Fakt-Satz. Die abschließende Frage ist eine Überleitung ohne neue Behauptung und braucht keinen Beleg."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 29,
@@ -1735,9 +1737,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus dem Fakt-Satz 0219: Die Schabernack-Hypothese wird durch Schinners Textanalyse gestützt, er ist österreichischer Wissenschaftler, er entdeckte unnatürliche Regelmäßigkeiten in der Wortfolge des Manuskripts, und solche Regelmäßigkeiten kommen in natürlichen Sprachen nicht vor. Der Einleitungssatz \"Dafür gibt es die Schabernack-Hypothese\" ist eine Überleitung ohne neue Information. Es wird nichts hinzugefügt."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 30,
@@ -1775,9 +1777,9 @@
         "jev_error": null,
         "reason": "Die erste Aussage, unnatürliche Regelmäßigkeiten, die in natürlichen Sprachen nicht vorkommen, folgt direkt aus dem Fakt-Satz 0219 (Schinner entdeckte solche Regelmäßigkeiten in der Wortfolge). Der zweite Satz ist eine Nachfrage ohne Faktenbehauptung; seine Prämisse, dass es im Text Auffälligkeiten gibt, ist durch den Fakt gedeckt."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 31,
@@ -1813,9 +1815,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 32,
@@ -1853,9 +1855,9 @@
         "jev_error": null,
         "reason": "Felix' Aussage, die unnatürlichen Regelmäßigkeiten stützten die Schabernack-Hypothese, folgt direkt aus dem Fakt-Satz 0219. Der zweite Satz ist eine Nachfrage und damit belegfrei. Es kommt keine zusätzliche Behauptung hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 33,
@@ -1894,9 +1896,9 @@
         "jev_error": null,
         "reason": "Der zweite Satz entspricht wörtlich dem zitierten Fakt-Satz. Auch „Es gibt einen“ (nämlich ein Indiz) folgt daraus und fügt keine neue Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 34,
@@ -1952,9 +1954,9 @@
         "jev_error": null,
         "reason": "Die Aussage \"Keine Korrekturen, also vermutlich abgeschrieben\" folgt aus Fakt 0100: Fehlende Korrekturen sind ein Indiz für eine Vorlage, von der abgeschrieben wurde. \"Vermutlich\" passt zu \"Indiz\". Die Frage nach weiteren Anhaltspunkten außer dem Pergament greift die Radiokarbonanalyse aus Fakt 0012 auf und ist eine Nachfrage ohne neue Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 35,
@@ -2000,9 +2002,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Bei zwei Identifizierungen war bemerkenswert, dass beide Gewächse vor Kolumbus in der Alten Welt nicht heimisch waren, und das Manuskript könnte demnach erst nach 1493 entstanden sein. \"Vierzehnhundertdreiundneunzig\" ist nur die ausgeschriebene Zahl 1493. \"Ja, bei den Pflanzen\" ist eine belegfreie Überleitung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 36,
@@ -2058,9 +2060,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 37,
@@ -2112,9 +2114,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen stehen im Fakt-Satz: die Abbildung mit dem offenbaren Vulkanausbruch auf einer Insel, der einzige Ausbruch in Europa bzw. im Mittelmeerraum nahe der Entstehungszeit des Manuskripts, das Jahr 1444, die Insel Vulcanello nördlich von Sizilien und die aragonesische Herrschaft über Sizilien. Die einleitende Wendung \"noch einen weiteren Anhaltspunkt\" ist eine Überleitung ohne neue Information."
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "supported",
+      "note": "beantwortet die Frage nach dem Widerspruch nicht, nennt nur einen weiteren Anhaltspunkt",
+      "comment_id": 7041908141
     },
     {
       "turn_index": 38,
@@ -2170,9 +2172,9 @@
         "jev_error": null,
         "reason": "Die Aussage \"Ein Vulkan auf einer Insel nördlich von Sizilien\" folgt aus [271345560-0256] (Vulcanello, 1444, Insel nördlich von Sizilien). Die Prämisse zu den Pflanzen, die in der Alten Welt vor Kolumbus nicht heimisch waren, steht in [271345560-0170]. Die abschließende Frage nach dem Entstehungsort des Manuskripts ist eine Nachfrage ohne neue Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 39,
@@ -2217,9 +2219,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag gibt die zitierte Fakt-Aussage inhaltlich korrekt wieder: Das Manuskript könnte in Mittelamerika gezeichnet und in einer mittelamerikanischen Sprache geschrieben worden sein, möglicherweise in einer heute nicht mehr gesprochenen Sprache. Die vorsichtige Formulierung (\"Eine Überlegung\", \"möglicherweise\") entspricht dem Fakt-Satz, und es kommen keine zusätzlichen Angaben hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 40,
@@ -2257,9 +2259,9 @@
         "jev_error": null,
         "reason": "Felix gibt die Aussage des Fakts wieder: Mittelamerika und eine möglicherweise nicht mehr gesprochene Sprache. Sein „vielleicht niemand mehr spricht“ entspricht dem „möglicherweise … nicht mehr gesprochen“ im Fakt. Die Frage nach den Bildern ist eine Nachfrage und braucht keinen Beleg. Zusätzliche Behauptungen enthält der Beitrag nicht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 41,
@@ -2302,9 +2304,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen des Redebeitrags (zwei Kunsthistoriker, kein Beitrag zur Textentzifferung, in der Bilderfolge ein klares Anliegen, Plädoyer für die Sprösslinge des Adels mit Frauen aus dem Volk, sogenannte Bastarde) stehen im Fakt-Satz 271345560-0273. Es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 42,
@@ -2340,9 +2342,9 @@
         "jev_error": null,
         "reason": "Die Aussage \"Ein Plädoyer für die Sprösslinge des Adels, gezeugt mit Frauen aus dem Volk\" gibt den Fakt-Satz 0273 sinngemäß wieder. \"Was für eine Deutung!\" ist eine Reaktion des Staunens, und die Frage nach dem Manuskript in der Literatur ist eine belegfreie Nachfrage. Es werden keine zusätzlichen Behauptungen aufgestellt."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 43,
@@ -2407,9 +2409,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Wilsons Erzählung (0315), das erste Erscheinen des Necronomicons 1922 in The Hound, zwei Jahre nach Voynichs Versand von Kopien und ein Jahr nach den Vorträgen in Philadelphia (0317). Das einleitende „Ja“ ist eine belegfreie Reaktion. Es kommen keine zusätzlichen Angaben hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 44,
@@ -2448,9 +2450,9 @@
         "jev_error": null,
         "reason": "Die Aussage, das Necronomicon tauche erstmals ein Jahr nach den Vorträgen in Philadelphia auf, folgt direkt aus dem Fakt (erstmals 1922 in The Hound, ein Jahr nach den Vorträgen). Der zweite Satz ist eine Nachfrage ohne neue Behauptung; die Prämisse, dass das Manuskript Spuren in der Kultur hinterlassen hat, wird nur angedeutet und nicht als eigene Tatsache behauptet. Die Formulierung „des Manuskripts“ ist eine leichte Verkürzung, fügt aber keine unbelegte Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 45,
@@ -2508,9 +2510,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Ilium (2004) und Olympos (2006) von Dan Simmons, die Herkunft des Namens Voynix vom Voynich-Manuskript, die Voynix als vom islamischen Kalifat aus der Zukunft gesandte Cyborg-Killer sowie Kyburz' Stück The Voynich Cipher Manuscript für 24 Singstimmen und Ensemble mit den Voynich-Zeichen als Noten. Das einleitende „Ja, zwei“ ist eine belegfreie Reaktion bzw. Überleitung und passt zu den zwei genannten Werkgruppen."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 46,
@@ -2561,9 +2563,9 @@
         "jev_error": null,
         "reason": "Die Zusammenfassung ist durch die Fakten gedeckt: Die Voynix-Cyborg-Killer leiten ihren Namen vom Voynich-Manuskript ab (0292), und Kyburz' Stück für 24 Singstimmen basiert auf dem Voynich-Text (0285). Der Rest ist eine Reaktion (Staunen) und eine Nachfrage ohne eigene Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     },
     {
       "turn_index": 47,
@@ -2623,9 +2625,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Siloé-Verlag aus Burgos, 898 originalgetreue Nachbildungen bis Herbst 2017, aufwändiges Verfahren und Stückpreis von 7000 bis 8000 Euro stehen in [271345560-0335]. Die Möglichkeit, später zerteilte und verteilte Handschriften wie das Lorscher Evangeliar in der Nachbildung wieder zusammenzufügen, steht in [260419933-0011]. Der einleitende Satz „Es gab ein Vorhaben“ ist eine Überleitung und entspricht dem „wollte“ im Fakt."
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "supported",
+      "note": "Lorscher Evangeliar ist eine Abschweifung",
+      "comment_id": 7041908141
     },
     {
       "turn_index": 49,
@@ -2849,10 +2851,20 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus den zitierten Fakt-Sätzen: die Radiokarbondatierung 1404–1438, die zwei Pflanzen und die Entstehung nach 1493, 102 statt 116 Blätter, Guzys Einschätzung zu Rudolf II., die unbekannte Zeit zwischen 1666 und 1870, Kraus und Yale 1969, Newbolds Mikroschrift und sein Verfahren, Schinners Regelmäßigkeiten und die fehlenden Korrekturen. Simmons (Name der Voynix) und Kyburz (Komposition auf Basis des Voynich-Textes) belegen, dass das Manuskript beide beschäftigt hat. Das einleitende „Gern.“ ist eine belegfreie Reaktion."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7041908141
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "comment_id": 7041908141,
+      "url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/3#issuecomment-7041908141",
+      "created_at": "2026-11-20T14:21:48Z",
+      "updated_at": "2026-11-20T14:21:48Z",
+      "review_lines": 50,
+      "applied": true,
+      "errors": []
+    }
+  ]
 }
