@@ -18,7 +18,7 @@ The podcast itself is published under CC BY-SA 4.0. Wikipedia content is from th
 
 ## Development
 
-Requires Python 3.12, [uv](https://docs.astral.sh/uv/), and the system packages `libcairo2` and `fonts-dejavu-core` (cover rendering). `ffmpeg` is optional locally: the audio test uses it as an independent loudness meter when it is installed (CI installs it).
+Requires Python 3.12, [uv](https://docs.astral.sh/uv/), and the system package `libcairo2` (cover rendering; the font is bundled). `ffmpeg` is optional locally: the audio test uses it as an independent loudness meter when it is installed (CI installs it).
 
 ```sh
 uv sync                      # install dependencies incl. dev group

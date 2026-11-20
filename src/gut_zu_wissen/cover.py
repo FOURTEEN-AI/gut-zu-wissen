@@ -6,6 +6,8 @@ size until the block fits the box. No ellipsis, no minimum size.
 
 from __future__ import annotations
 
+import os
+import tempfile
 import xml.etree.ElementTree as ET
 from collections.abc import Callable
 from dataclasses import dataclass
@@ -16,7 +18,7 @@ ET.register_namespace("", SVG_NS)
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_TEMPLATE = REPO_ROOT / "assets" / "cover" / "cover-template.svg"
-DEFAULT_FONT = Path("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf")
+DEFAULT_FONT = REPO_ROOT / "assets" / "cover" / "fonts" / "DejaVuSans-Bold.ttf"
 
 # (text, font size) -> advance width in SVG units, letter spacing included
 Measure = Callable[[str, int], float]
@@ -159,6 +161,30 @@ def fill_title(root: ET.Element, layout: Layout, box: TitleBox) -> None:
 
 # --- rendering -------------------------------------------------------------
 
+_fontconfig_dir: Path | None = None
+
+
+def register_font_dir(font_path: Path) -> None:
+    """Make cairo (via fontconfig) see only the directory of the bundled font.
+
+    Must run before cairo draws its first text in this process. The system fonts are
+    deliberately hidden so that rendering never falls back to a different font than the
+    one used for measuring.
+    """
+    global _fontconfig_dir
+    font_dir = font_path.resolve().parent
+    if _fontconfig_dir == font_dir:
+        return
+    work = Path(tempfile.mkdtemp(prefix="gzw-fontconfig-"))
+    conf = work / "fonts.conf"
+    conf.write_text(
+        '<?xml version="1.0"?>\n<!DOCTYPE fontconfig SYSTEM "fonts.dtd">\n<fontconfig>\n'
+        f"  <dir>{font_dir}</dir>\n  <cachedir>{work / 'cache'}</cachedir>\n</fontconfig>\n",
+        encoding="utf-8",
+    )
+    os.environ["FONTCONFIG_FILE"] = str(conf)
+    _fontconfig_dir = font_dir
+
 
 def render_svg(
     title: str, template: Path = DEFAULT_TEMPLATE, font_path: Path = DEFAULT_FONT
@@ -177,6 +203,7 @@ def render_png(
     template: Path = DEFAULT_TEMPLATE,
     font_path: Path = DEFAULT_FONT,
 ) -> bytes:
+    register_font_dir(font_path)
     import cairosvg
 
     svg, _ = render_svg(title, template, font_path)

@@ -8,7 +8,7 @@
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
   // Systempakete fuer das Cover und ffmpeg fuer den Audiotest (wie in ci.yml), uv und die Projektabhaengigkeiten.
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y libcairo2 fonts-dejavu-core fontconfig ffmpeg && pip install uv && uv sync",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y libcairo2 fontconfig ffmpeg && pip install uv && uv sync",
   // Reicht ein auf dem Host gesetztes GH_TOKEN in den Container durch.
   "remoteEnv": {
     "GH_TOKEN": "${localEnv:GH_TOKEN}",

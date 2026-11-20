@@ -2,7 +2,7 @@
   <!--
     Show art for „Gut zu wissen“ (feed-level image, not an episode cover).
     Same palette, motif and font as cover-template.svg; no episode title.
-    Font: DejaVu Sans Bold from the system package fonts-dejavu-core.
+    Font: DejaVu Sans Bold, bundled in assets/cover/fonts/.
   -->
   <rect width="3000" height="3000" fill="#2236B8"/>
 

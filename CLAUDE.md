@@ -31,8 +31,8 @@ Current phase: see `docs/implementation-plan.md`. Work in plan order, one step p
 ## Cover
 
 - Template: `assets/cover/cover-template.svg`. The fitting contract is a comment in the file.
-- Font: DejaVu Sans Bold from the system package `fonts-dejavu-core`. Nothing bundled. The workflow checks `fc-list | grep "DejaVu Sans"` before rendering.
-- Rendering: `cairosvg` (needs `libcairo2`). Title measurement with Pillow against `/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf`.
+- Font: DejaVu Sans Bold, bundled in `assets/cover/fonts/DejaVuSans-Bold.ttf` with its licence (`LICENSE-DejaVu.txt`). No system font: rendering registers only that directory with fontconfig.
+- Rendering: `cairosvg` (needs `libcairo2`). Title measurement with Pillow against the bundled font.
 - Output: PNG, 3000 × 3000.
 
 ## Conventions

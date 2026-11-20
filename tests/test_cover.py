@@ -12,6 +12,7 @@ from gut_zu_wissen.cover import (
     fit,
     font_measure,
     read_title_box,
+    register_font_dir,
     render_png,
     render_svg,
     wrap,
@@ -85,10 +86,7 @@ def test_empty_title_is_rejected():
 
 # --- tests with the real template and font ---------------------------------
 
-needs_font = pytest.mark.skipif(not DEFAULT_FONT.exists(), reason="fonts-dejavu-core not installed")
 
-
-@needs_font
 @pytest.mark.parametrize("title", TITLES)
 def test_real_layout_fits_box_and_keeps_all_words(title):
     root = ET.parse(DEFAULT_TEMPLATE).getroot()
@@ -101,7 +99,6 @@ def test_real_layout_fits_box_and_keeps_all_words(title):
     assert block_height(len(layout.lines), layout.font_size, box, metrics) <= box.height
 
 
-@needs_font
 def test_svg_contains_one_tspan_per_line():
     svg, layout = render_svg(TITLES[1])
     root = ET.fromstring(svg)
@@ -114,11 +111,11 @@ def _png(svg: bytes, size_px: int):
     import cairosvg
     from PIL import Image
 
+    register_font_dir(DEFAULT_FONT)
     png = cairosvg.svg2png(bytestring=svg, output_width=size_px, output_height=size_px)
     return Image.open(io.BytesIO(png)).convert("RGB")
 
 
-@needs_font
 @pytest.mark.parametrize("title", TITLES)
 def test_rendered_title_stays_inside_box(title):
     pytest.importorskip("cairosvg")
@@ -142,3 +139,25 @@ def test_rendered_title_stays_inside_box(title):
     assert right <= box.x + box.width + tolerance
     assert top >= box.y - tolerance
     assert bottom <= box.y + box.height + tolerance
+
+
+def test_rendered_line_width_matches_measurement_of_bundled_font():
+    """A fallback font would render at a different width than the measured one."""
+    pytest.importorskip("cairosvg")
+    from PIL import ImageChops
+
+    root = ET.parse(DEFAULT_TEMPLATE).getroot()
+    box = read_title_box(root)
+    measure, _ = font_measure(DEFAULT_FONT, box.letter_spacing_em)
+    title = "Schlacht bei Bouvines"
+    layout = fit(title, box, measure, font_measure(DEFAULT_FONT, box.letter_spacing_em)[1])
+
+    with_title = _png(render_svg(title)[0], 3000)
+    title_element = root.find(".//*[@id='title']")
+    for child in list(title_element):
+        title_element.remove(child)
+    without_title = _png(ET.tostring(root), 3000)
+
+    left, _, right, _ = ImageChops.difference(with_title, without_title).getbbox()
+    widest = max(measure(line.text, layout.font_size) for line in layout.lines)
+    assert abs((right - left) - widest) < 0.03 * widest
