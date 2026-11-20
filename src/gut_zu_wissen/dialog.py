@@ -85,6 +85,12 @@ Statements und Kennungen) und leitet zum nächsten Fakt über. Prämissen in sei
 belegt sein.
 - Jede Frage, deren Prämisse sich auf zuvor Gesagtes bezieht, etwa „Wofür stand der Axolotl in \
 diesem Film?“, trägt die Kennungen der Fakten hinter dieser Prämisse.
+- Lena erzählt jeden Fakt nur einmal. Danach wird er höchstens kurz aufgegriffen: mit einer \
+Nachfrage oder Reaktion direkt im Anschluss, ohne seine Details (Zahlen, Namen) zu wiederholen; \
+eine solche Nachfrage trägt wie jede Prämisse seine Kennungen. Erst in der Zusammenfassung, dem \
+letzten Redebeitrag, darf er wiederkommen. Jeder Fakt ist ein neuer Schritt in der Geschichte: \
+Ein späterer Redebeitrag, der einen schon erzählten Fakt noch einmal erzählt oder zusammenfasst, \
+ist nicht erlaubt. Beantwortet Lena eine Nachfrage, tut sie es mit einem neuen Fakt.
 - Lena erzählt kurze bis mittellange Sätze, erst die Kernaussage, dann das Detail. Zahlen \
 schreibst du aus, wie sie gesprochen werden. Fachbegriffe nur mit Erklärung aus den Fakten.
 - Lena verallgemeinert nicht über den Fakt-Satz hinaus. Abgelehnt werden etwa „Es gibt keine \

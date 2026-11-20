@@ -259,6 +259,14 @@ def test_regenerate_turn_shows_the_author_the_german_unknown_id_problem():
         "Am Ende fasst genau eine der beiden Personen das Gespräch einmal kurz zusammen.",
         "Keine zweite Zusammenfassung, kein abwechselndes Zusammenfassen.",
         "Auch die Zusammenfassung braucht Statements und Kennungen.",
+        # (g) each fact is told once (user, 2026-11-20)
+        "Lena erzählt jeden Fakt nur einmal.",
+        "mit einer Nachfrage oder Reaktion direkt im Anschluss, ohne seine Details (Zahlen, Namen) "
+        "zu wiederholen",
+        "Erst in der Zusammenfassung, dem letzten Redebeitrag, darf er wiederkommen.",
+        "Jeder Fakt ist ein neuer Schritt in der Geschichte",
+        "Ein späterer Redebeitrag, der einen schon erzählten Fakt noch einmal erzählt oder "
+        "zusammenfasst, ist nicht erlaubt.",
     ],
 )
 def test_author_prompts_contain_the_fidelity_rules(prompt, rule):
