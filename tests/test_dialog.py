@@ -1,6 +1,7 @@
 import pytest
 
 from gut_zu_wissen.dialog import (
+    CONTINUE_PROMPT,
     DIALOG_SCHEMA,
     SYSTEM_PROMPT,
     TURN_PROMPT,
@@ -9,7 +10,9 @@ from gut_zu_wissen.dialog import (
     Turn,
     author_reason,
     check_turns,
+    continue_dialog,
     format_offer,
+    format_prefix,
     format_turn_context,
     offer_aliases,
     parse_dialog,
@@ -18,6 +21,7 @@ from gut_zu_wissen.dialog import (
     repetition_reason,
     resolve_turns,
     told_elsewhere,
+    told_in,
     used_fact_ids,
     used_facts_gate,
     write_dialog,
@@ -354,7 +358,7 @@ def test_write_dialog_records_repetition_problems_in_turn_order():
     assert dialog.problems[1].reason.startswith("Unknown fact IDs")
 
 
-@pytest.mark.parametrize("prompt", [SYSTEM_PROMPT, TURN_PROMPT])
+@pytest.mark.parametrize("prompt", [SYSTEM_PROMPT, TURN_PROMPT, CONTINUE_PROMPT])
 @pytest.mark.parametrize(
     "rule",
     [
@@ -390,3 +394,59 @@ def test_write_dialog_records_repetition_problems_in_turn_order():
 )
 def test_author_prompts_contain_the_fidelity_rules(prompt, rule):
     assert rule in prompt
+
+
+# ---------------------------------------------------------------- continuation
+
+
+PREFIX = [
+    turn(0, "Felix", "Was ist das?", (), ()),
+    turn(1, "Lena", "Das ist ein Fakt.", ["1-0000"], [("Ein Fakt.", ["1-0000"])]),
+    turn(2, "Felix", "Und dann?", ["1-0001"], [("Davor.", ["1-0001"])]),
+]
+
+
+def test_told_in_lists_every_statement_fact_of_the_prefix():
+    assert told_in(PREFIX) == {"1-0000": [1], "1-0001": [2]}
+    assert told_in(PREFIX, (2,)) == {"1-0000": [1]}
+
+
+def test_prefix_is_shown_with_aliases_told_facts_counts_and_the_start():
+    text = format_prefix(PREFIX, ALIASES, ALIASES.values())
+    assert text.startswith("Bisheriges Gespräch (Redebeitrag 0 bis 2, bleibt unverändert):")
+    assert "Redebeitrag 1 (Lena):\nDas ist ein Fakt.\nKennungen: F1" in text
+    assert "- F1: Redebeitrag 1\n- F2: Redebeitrag 2" in text
+    assert "Das bisherige Gespräch hat 9 Wörter und verwendet 2 Fakten." in text
+    assert "ab Redebeitrag 3 bis zum Ende" in text and "an Redebeitrag 2 (Felix) an" in text
+    assert "1-000" not in text
+
+
+def test_continue_dialog_uses_the_dialog_schema_and_reindexes_from_k():
+    answer = {
+        "turns": [
+            {"speaker": "Lena", "text": "Weiter.", "fact_ids": ["F3"], "statements": []},
+            {"speaker": "Felix", "text": "Schluss.", "fact_ids": ["F1"], "statements": []},
+        ]
+    }
+    llm = FakeLlm(answer)
+    turns = continue_dialog(llm, "[F1] Fakt.", ALIASES, PREFIX, 10)
+    assert [(t.index, t.speaker, t.fact_ids) for t in turns] == [
+        (3, "Lena", ["2-0000"]),
+        (4, "Felix", ["1-0000"]),
+    ]
+    system, user, schema = llm.calls[0]
+    assert schema is DIALOG_SCHEMA
+    assert system == CONTINUE_PROMPT.format(min_used=10)
+    assert user.startswith("Angebot:\n[F1] Fakt.\n\nBisheriges Gespräch")
+
+
+def test_continue_prompt_is_german_and_asks_for_a_seamless_continuation():
+    for phrase in (
+        "nahtlos an den letzten bisherigen Redebeitrag an",
+        "keine Begrüßung",
+        "nichts wiederholen",
+        "erzählst du nicht noch einmal",
+        "mindestens 10 Fakten",
+        "endet mit der einen Zusammenfassung",
+    ):
+        assert phrase in CONTINUE_PROMPT.format(min_used=10)

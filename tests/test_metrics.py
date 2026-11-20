@@ -11,6 +11,7 @@ from gut_zu_wissen.metrics import (
     cascade_check_decider,
     cascade_lengths,
     cascades,
+    conversation_regenerations,
     cost,
     errors_by_revision,
     escalation,
@@ -669,3 +670,35 @@ def test_command_line_json(tmp_path, capsys):
     data = json.loads(capsys.readouterr().out)
     assert data["exit"]["met"] is False and len(data["exit"]["qualifying"]) == 3
     assert data["cascades"]["distribution"] == {"1": 3}
+
+
+def test_conversation_regenerations_by_kind_old_folders_count_as_fresh(tmp_path):
+    write_run(tmp_path, "a")
+    write_run(tmp_path, "b")
+    write_run(tmp_path, "c")
+    a, b, c = load_runs(tmp_path)
+    a.dialog["discarded_conversations"] = [{"judgements": []}]  # before continuations
+    b.dialog["discarded_conversations"] = [
+        {"regeneration": "continuation", "continued_from": 7},
+        {"regeneration": "fresh", "continued_from": None},
+    ]
+    g = conversation_regenerations([a, b, c])
+    assert (g.total, g.by_kind) == (3, {"continuation": 1, "fresh": 2})
+    assert [(e.episode_id, e.kinds) for e in g.episodes] == [
+        ("a", ["fresh"]),
+        ("b", ["continuation", "fresh"]),
+    ]
+    text = render_markdown(build_report([a, b, c], load_config()))
+    assert "- 3 regenerations (continuation: 1, fresh: 2)" in text
+    assert "  - `b`: continuation, fresh" in text
+
+
+def test_judge_escalation_counts_the_discarded_tail_of_a_continuation(tmp_path):
+    write_run(tmp_path, "a", judgements=[{"decided_by": "jev"}, {"decided_by": "jev"}])
+    run = load_runs(tmp_path)[0]
+    run.dialog["discarded_conversations"] = [
+        {"regeneration": "continuation", "continued_from": 1,
+         "judgements": [{"decided_by": "llm_judge"}, {"decided_by": "gate"}]},
+    ]  # fmt: skip
+    j = judge_escalation([run])
+    assert (j.judgements, j.by_jev, j.by_llm_judge) == (3, 2, 1)

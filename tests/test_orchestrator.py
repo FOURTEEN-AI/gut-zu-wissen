@@ -2,7 +2,7 @@ from dataclasses import asdict
 
 import pytest
 
-from gut_zu_wissen.dialog import Statement, Turn, repetition_reason
+from gut_zu_wissen.dialog import CONTINUE_PROMPT, Dialog, Statement, Turn, repetition_reason
 from gut_zu_wissen.extraction import Fact
 from gut_zu_wissen.jev import JevAbortError, JevOverlengthError, JevTransientError
 from gut_zu_wissen.judge import Decision, TurnJudgement
@@ -26,10 +26,14 @@ from gut_zu_wissen.orchestrator import (
     cascade_verdict_confirmed,
     chain_start,
     check_cascade,
+    continuation_offer,
+    conversation_path,
+    discarded_tail,
     format_cascade_input,
     orchestrate,
     rejected_fact_ids,
     spend,
+    summary_lines,
 )
 from gut_zu_wissen.ranking import RankedFact
 
@@ -81,9 +85,11 @@ class FakeAuthor:
 
     def __init__(self, dialogs: list[dict], turns: list[dict] | None = None) -> None:
         self.dialogs, self.turns, self.calls = list(dialogs), list(turns or []), []
+        self.systems: list[str] = []
 
     def complete_json(self, system: str, user: str, schema: dict) -> dict:
         self.calls.append(user)
+        self.systems.append(system)
         return self.dialogs.pop(0) if "turns" in schema["properties"] else self.turns.pop(0)
 
 
@@ -402,7 +408,9 @@ def test_cascade_continues_while_not_confirmed_and_shares_the_budget():
     jev = FakeJev(bad={"Falsch."}, cascade=[0.01])  # content lost: cascade goes on, budget out
     state = run(author, jev)
     assert state.discarded[0].reason == "Turn regeneration budget used up (judge, 2x)."
-    assert [t.text for t in state.dialog.turns] == ["Neu eins.", "Neu zwei."]
+    # the chain failed in the cascade of turn 1: the dialog continues from turn 1
+    assert state.discarded[0].continued_from == 1
+    assert [t.text for t in state.dialog.turns] == ["Eins.", "Neu eins.", "Neu zwei."]
     # trigger plus one cascade turn: the 2x judge budget of the judge rejection
     assert [(r.kind, r.budget) for r in state.regenerations] == [
         ("retry", "judge"),
@@ -758,7 +766,14 @@ def test_discarded_conversation_keeps_the_aliases_of_its_own_offer():
     (discarded,) = state.discarded
     assert discarded.excluded_fact_ids == ["1-0000"]
     assert asdict(discarded)["aliases"] == {"F1": "1-0000", "F2": "1-0001"}
-    assert list(asdict(discarded))[-1] == "aliases"
+    assert list(asdict(discarded))[-4:] == [
+        "aliases",
+        "regeneration",
+        "continued_from",
+        "fresh_reason",
+    ]
+    assert (discarded.regeneration, discarded.continued_from) == ("fresh", None)
+    assert discarded.fresh_reason == "The failing turn chain started at turn 0."
     assert state.dialog_dict()["aliases"] == {"F1": "1-0001"}
     assert state.dialog.turns[0].fact_ids == ["1-0001"]  # F1 of the new offer
 
@@ -867,3 +882,190 @@ def test_regeneration_records_its_budget_as_the_last_field():
         "budget",
     ]
     assert regeneration["budget"] == "judge"
+
+
+# ---------------------------------------------------------------- continuation (D6, 2026-11-20)
+
+
+class CountingJev(FakeJev):
+    """Records the text of every judged turn."""
+
+    def __init__(self, *args, **kwargs) -> None:
+        super().__init__(*args, **kwargs)
+        self.judged: list[str] = []
+
+    def ask(self, state: dict, questions: dict) -> dict:
+        if CASCADE_KEY not in questions:
+            self.judged.append(state["redebeitrag"]["text"])
+        return super().ask(state, questions)
+
+
+def test_conversation_path_continues_unless_k_is_zero_or_the_offer_is_too_small():
+    assert conversation_path(3, 10, 10) == ("continuation", None)
+    assert conversation_path(0, 10, 10) == ("fresh", "The failing turn chain started at turn 0.")
+    assert conversation_path(None, 10, 10) == ("fresh", "No failing turn chain to continue from.")
+    path, reason = conversation_path(3, 9, 10)
+    assert path == "fresh" and "fewer than the D5 minimum of 10" in reason
+
+
+def test_continuation_offer_drops_excluded_facts_but_keeps_prefix_and_pinned_ones():
+    offer = Offer([rf(1), rf(2), rf(3)], [rf(4)], [rf(0)], frozenset({"1-0000"}))
+    prefix = [Turn(0, "Lena", "T.", ["1-0001"], [Statement("S.", ["1-0001"])])]
+    excluded = {"1-0000", "1-0001", "1-0002", "1-0004"}
+    kept = continuation_offer(offer, excluded, prefix)
+    assert [r.fact.segment_id for r in kept.einordnung] == ["1-0000"]  # pinned
+    assert [r.fact.segment_id for r in kept.main] == ["1-0001", "1-0003"]  # prefix cites 1-0001
+    assert kept.linked == [] and kept.pinned == offer.pinned
+
+
+def test_discarded_tail_holds_turns_from_k_with_their_problems():
+    turns = [Turn(n, "Lena", f"T{n}.", [f"1-000{n}"]) for n in range(4)]
+    from gut_zu_wissen.dialog import TurnProblem
+
+    dialog = Dialog(turns, [TurnProblem(1, "a"), TurnProblem(3, "b")], [])
+    tail = discarded_tail(dialog, 2, {"1-0002", "1-0003"})
+    assert [t.index for t in tail.turns] == [2, 3]
+    assert [p.turn_index for p in tail.problems] == [3]
+    assert tail.used_fact_ids == ["1-0002", "1-0003"]
+    assert discarded_tail(dialog, 0, set()) is dialog
+
+
+def failing_at_two() -> FakeAuthor:
+    """Turn 2 is rejected by the judge three times: judge budget used up, k = 2."""
+    return FakeAuthor(
+        [
+            dialog_json("Eins.", "Zwei.", "Falsch.", "Vier.", facts=DISTINCT),
+            dialog_json("Weiter.", "Schluss.", facts=["1-0003", "1-0000"]),
+        ],
+        [turn_json("Lena", "Falsch.", "1-0002")] * 2,
+    )
+
+
+def test_exhausted_turn_budget_continues_from_the_failing_turn():
+    author = failing_at_two()
+    jev = CountingJev(bad={"Falsch."})
+    state = run(author, jev, n_facts=5)
+    assert [(t.index, t.text) for t in state.dialog.turns] == [
+        (0, "Eins."),
+        (1, "Zwei."),
+        (2, "Weiter."),
+        (3, "Schluss."),
+    ]
+    assert run.offers == [frozenset()]  # no re-ranking
+    assert jev.judged[-2:] == ["Weiter.", "Schluss."]  # only the new turns are judged
+    assert jev.judged.count("Eins.") == 1 and jev.judged.count("Zwei.") == 1
+    assert all(j.accepted for j in state.judgements) and state.conversation == 2
+    assert [j.turn_index for j in state.judgements] == [0, 1, 2, 3]
+    # the continuation author saw the prefix as aliases and the excluded fact was dropped
+    assert author.systems[-1] == CONTINUE_PROMPT.format(min_used=1)
+    user = author.calls[-1]
+    assert "[F3] Fakt 2." not in user and "Fakt 2." not in user
+    assert "Redebeitrag 1 (Felix):\nZwei.\nKennungen: F2" in user
+    assert "- F1: Redebeitrag 0\n- F2: Redebeitrag 1" in user
+    assert "ab Redebeitrag 2 bis zum Ende" in user and "1-000" not in user
+    assert state.dialog_dict()["aliases"] == {
+        "F1": "1-0000",
+        "F2": "1-0001",
+        "F3": "1-0003",
+        "F4": "1-0004",
+    }
+    (discarded,) = state.discarded
+    assert (discarded.regeneration, discarded.continued_from, discarded.fresh_reason) == (
+        "continuation",
+        2,
+        None,
+    )
+    assert [t.index for t in discarded.dialog.turns] == [2, 3]
+    assert [j.turn_index for j in discarded.judgements] == [2, 3]
+    assert discarded.excluded_fact_ids == ["1-0002"]
+    assert discarded.aliases["F3"] == "1-0002"  # the offer the failed conversation saw
+    assert summary_lines(state)[0] == "Conversations written: 2 (continued: 1, fresh: 0)"
+
+
+def test_failure_inside_a_cascade_continues_from_the_triggering_turn():
+    # turn 1 is rejected, its retry accepted, the cascade loses content at turn 2 and runs out
+    # of budget at turn 3: k is 1, the triggering turn
+    author = FakeAuthor(
+        [
+            dialog_json("Eins.", "Falsch.", "Drei.", "Vier.", facts=DISTINCT),
+            dialog_json("Neu.", "Ende.", facts=["1-0002", "1-0000"]),
+        ],
+        [turn_json("Felix", "B.", "1-0001"), turn_json("Lena", "C.", "1-0002")],
+    )
+    state = run(author, FakeJev(bad={"Falsch."}, cascade=[0.01]), n_facts=3)
+    assert state.discarded[0].continued_from == 1
+    assert [t.text for t in state.discarded[0].dialog.turns] == ["B.", "C.", "Vier."]
+    assert [t.text for t in state.dialog.turns] == ["Eins.", "Neu.", "Ende."]
+
+
+def test_repetition_gate_of_the_continuation_sees_the_prefix():
+    author = FakeAuthor(
+        [
+            dialog_json(
+                "Eins.", "Zwei.", "Falsch.", "Vier.", facts=["1-0000", "1-0000", "1-0002", "1-0000"]
+            ),
+            dialog_json("Weiter.", "Schluss.", facts=["1-0000", "1-0000"]),
+        ],
+        [turn_json("Lena", "Falsch.", "1-0002")] * 2
+        + [turn_json("Lena", "Anders.", "1-0003"), turn_json("Felix", "Ende.", "1-0000")],
+    )
+    state = run(author, FakeJev(bad={"Falsch."}, cascade=[0.99]), n_facts=5)
+    second = [r for r in state.regenerations if r.conversation == 2]
+    assert [(r.turn_index, r.kind, r.budget) for r in second] == [
+        (2, "retry", "gate"),
+        (3, "cascade", "gate"),
+    ]
+    assert second[0].reason == repetition_reason("1-0000", [0, 1])
+    assert [t.text for t in state.dialog.turns] == ["Eins.", "Zwei.", "Anders.", "Ende."]
+
+
+def test_d5_after_a_continuation_counts_the_whole_dialog():
+    config = {**CONFIG, "quotas": {**CONFIG["quotas"], "min_used_facts": 2}}
+    author = FakeAuthor(
+        [
+            dialog_json("Eins.", "Falsch.", facts=["1-0000", "1-0001"]),
+            dialog_json("Neu.", facts=["1-0002"]),  # one new fact, two with the prefix
+        ],
+        [turn_json("Felix", "Falsch.", "1-0001")] * 2,
+    )
+    state = run(author, FakeJev(bad={"Falsch."}), n_facts=3, config=config)
+    assert state.discarded[0].regeneration == "continuation"
+    assert state.used_fact_ids == ["1-0000", "1-0002"]
+
+
+def test_too_small_remaining_offer_falls_back_to_a_fresh_conversation():
+    config = {**CONFIG, "quotas": {**CONFIG["quotas"], "min_used_facts": 2}}
+    author = FakeAuthor(
+        [
+            dialog_json("Eins.", "Falsch.", "Drei.", facts=["1-0000", "1-0001", "1-0002"]),
+            dialog_json("Neu.", fact="1-0000"),  # D5 fails: one used fact
+            dialog_json("Neu.", fact="1-0000"),
+        ],
+        [turn_json("Felix", "Falsch.", "1-0002")] * 2,
+    )
+    # 1-0001 and 1-0002 are excluded: only 1-0000 (cited by the prefix) remains, one fact < 2
+    with pytest.raises(GateFailure):
+        run(author, FakeJev(bad={"Falsch."}), n_facts=3, config=config)
+    first = run.state.discarded[0]
+    assert (first.regeneration, first.continued_from) == ("fresh", None)
+    assert "fewer than the D5 minimum of 2" in first.fresh_reason
+    assert [t.text for t in first.dialog.turns] == ["Eins.", "Falsch.", "Drei."]  # whole dialog
+    assert run.offers[1] == frozenset({"1-0001", "1-0002"})  # fresh rankings
+
+
+def test_pinned_einordnung_fact_is_never_excluded():
+    pinned = frozenset({"1-0000"})
+    offers: list[frozenset[str]] = []
+
+    def make(excluded: frozenset[str]) -> Offer:
+        offers.append(excluded)
+        return Offer([rf(1)], [], [rf(0)], pinned)
+
+    author = FakeAuthor(
+        [dialog_json("Falsch."), dialog_json("Gut.")],
+        [turn_json("Lena", "Falsch.", "1-0000")] * 2,
+    )
+    state = Orchestration()
+    orchestrate(state, make, author, FakeJudgeLlm(), FakeJev(bad={"Falsch."}), CONFIG)
+    assert offers == [frozenset(), frozenset()]
+    assert state.discarded[0].excluded_fact_ids == []

@@ -148,6 +148,36 @@ Redebeitrag passen. Verwende Fakten aus dem Angebot; behebe den genannten Grund.
 )
 
 
+CONTINUE_PROMPT = (
+    """\
+Du setzt das Gespräch für einen deutschen Podcast namens „Gut zu wissen“ fort. Zwei feste \
+Personen sprechen: Lena, die Expertin, und Felix, der neugierig Fragende. Sie duzen sich und \
+sprechen sich mit Vornamen an. Das ganze Gespräch dauert etwa 15 Minuten, das sind 2.000 bis \
+2.300 Wörter. Der Abspann ist fester Text außerhalb deines Auftrags: schreibe keinen Abschied.
+
+Du bekommst die angebotenen Fakten, jeweils mit einer Kennung in eckigen Klammern, etwa [F7], und \
+gegebenenfalls einem Kontext; der Kontext dient nur zum Verstehen, nie als Beleg. Fakten mit dem \
+Vermerk „(verlinkter Artikel: …)“ stammen aus der Einleitung eines verlinkten Artikels, Fakten \
+mit dem Vermerk „(Einordnung)“ sind die ersten Sätze des Artikels. Dazu bekommst du das \
+bisherige Gespräch. Es bleibt unverändert; du schreibst nur die Fortsetzung, vom genannten \
+Redebeitrag an bis zum Ende.
+
+Setze das Gespräch nahtlos an den letzten bisherigen Redebeitrag an: keine Begrüßung, kein \
+neuer Einstieg, nichts wiederholen. Fakten, die im bisherigen Gespräch schon erzählt wurden, \
+erzählst du nicht noch einmal; nur eine kurze Nachfrage direkt nach der Erzählung darf sich \
+darauf beziehen. Fehlt die Einordnung aus den Fakten mit Vermerk „(Einordnung)“ noch, holt Lena \
+sie direkt nach. Wähle aus dem Angebot neue Fakten, bevorzuge die überraschendsten, und führe \
+den Erzählbogen weiter. Im ganzen Gespräch müssen mindestens {min_used} Fakten verwendet werden. \
+Die Fortsetzung endet mit der einen Zusammenfassung; sie darf auch Fakten aus dem bisherigen \
+Gespräch aufgreifen.
+
+"""
+    + RULES
+    + "\n\nAntworte mit JSON im vorgegebenen Schema: nur die neuen Redebeiträge, ohne die "
+    "bisherigen."
+)
+
+
 @dataclass
 class Statement:
     text: str
@@ -462,13 +492,29 @@ def format_turn_context(
         lines += [
             "Schon in anderen Redebeiträgen erzählt (nicht noch einmal erzählen; nur eine kurze "
             "Nachfrage direkt nach der Erzählung darf sich darauf beziehen):",
-            *(
-                f"- {shown[0]}: Redebeitrag {', '.join(map(str, where))}"
-                for fid, where in told.items()
-                if (shown := to_aliases([fid], aliases))
-            ),
+            *_told_lines(told, aliases),
         ]
     return "\n".join(lines).strip()
+
+
+def _told_lines(told: Mapping[str, Sequence[int]], aliases: Mapping[str, str]) -> list[str]:
+    return [
+        f"- {shown[0]}: Redebeitrag {', '.join(map(str, where))}"
+        for fid, where in told.items()
+        if (shown := to_aliases([fid], aliases))
+    ]
+
+
+def told_in(turns: Sequence[Turn], skip: Collection[int] = ()) -> dict[str, list[int]]:
+    """Facts cited by the statements of `turns` (positions in `skip` left out), with the turns
+    (archive indices) that cite them, in dialog order."""
+    told: dict[str, list[int]] = {}
+    for pos, turn in enumerate(turns):
+        if pos in skip:
+            continue
+        for fid in dict.fromkeys(f for s in turn.statements for f in s.fact_ids):
+            told.setdefault(fid, []).append(turn.index)
+    return told
 
 
 def told_elsewhere(turns: Sequence[Turn], index: int) -> dict[str, list[int]]:
@@ -477,14 +523,57 @@ def told_elsewhere(turns: Sequence[Turn], index: int) -> dict[str, list[int]]:
     The turn to replace and the closing summary (the last turn) are left out, as in the
     repetition gate. Used to tell the author which facts are already told.
     """
-    last = len(turns) - 1
-    told: dict[str, list[int]] = {}
-    for pos, turn in enumerate(turns):
-        if pos in (index, last):
-            continue
-        for fid in dict.fromkeys(f for s in turn.statements for f in s.fact_ids):
-            told.setdefault(fid, []).append(turn.index)
-    return told
+    return told_in(turns, (index, len(turns) - 1))
+
+
+def format_prefix(
+    prefix: Sequence[Turn], aliases: Mapping[str, str], offered_ids: Collection[str]
+) -> str:
+    """The kept turns of a continuation as plain text for the author: every turn with its
+    speaker and identifiers (aliases), the facts already told, the word and used-fact counts so
+    far, and the index the continuation starts at."""
+    start = len(prefix)
+    lines = [f"Bisheriges Gespräch (Redebeitrag 0 bis {start - 1}, bleibt unverändert):", ""]
+    for turn in prefix:
+        lines += [*_turn_lines(f"Redebeitrag {turn.index}", turn, aliases), ""]
+    told = told_in(prefix)
+    if told:
+        lines += [
+            "Im bisherigen Gespräch schon erzählt (nicht noch einmal erzählen; nur eine kurze "
+            "Nachfrage direkt nach der Erzählung darf sich darauf beziehen):",
+            *_told_lines(told, aliases),
+            "",
+        ]
+    words = sum(len(t.text.split()) for t in prefix)
+    used = len(used_fact_ids(prefix, offered_ids))
+    lines += [
+        f"Das bisherige Gespräch hat {words} Wörter und verwendet {used} Fakten.",
+        f"Schreibe die Fortsetzung ab Redebeitrag {start} bis zum Ende, mit der einen "
+        "Zusammenfassung am Schluss. Der erste neue Redebeitrag schließt direkt an "
+        f"Redebeitrag {start - 1} ({prefix[-1].speaker}) an.",
+    ]
+    return "\n".join(lines)
+
+
+def continue_dialog(
+    llm: StructuredLlm,
+    offer: str,
+    aliases: Mapping[str, str],
+    prefix: Sequence[Turn],
+    min_used_facts: int,
+) -> list[Turn]:
+    """The continuation of a dialog after its kept `prefix` (turns 0..k-1, user decision
+    2026-11-20): the author writes the turns from k to the end, the closing summary included,
+    seeing the prefix and the facts already told. Same schema as the whole dialog; the returned
+    turns are re-indexed from k and hold segment IDs. `offer` is the text of `format_offer`,
+    `aliases` the offer's aliases. Gates are the orchestrator's concern."""
+    assert prefix, "a continuation needs at least one kept turn"
+    user = f"Angebot:\n{offer}\n\n{format_prefix(prefix, aliases, aliases.values())}"
+    answer = llm.complete_json(CONTINUE_PROMPT.format(min_used=min_used_facts), user, DIALOG_SCHEMA)
+    turns = resolve_turns(parse_dialog(answer), aliases)
+    for n, turn in enumerate(turns):
+        turn.index = len(prefix) + n
+    return turns
 
 
 def regenerate_turn(

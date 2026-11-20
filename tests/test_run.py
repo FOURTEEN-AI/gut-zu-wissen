@@ -574,6 +574,66 @@ def test_conversation_regeneration_succeeds_with_a_fresh_offer(tmp_path):
     assert judgement["used_fact_ids"] == ["5-0000"]
 
 
+class ContinuationLlm(RetryLlm):
+    """The first dialog is bad in turn 1 only; every regenerated turn is bad again; the
+    continuation (second dialog call) is good."""
+
+    def complete_json(self, system: str, user: str, schema: dict) -> dict:
+        answer = super().complete_json(system, user, schema)
+        if "turns" in schema["properties"] and self.dialogs == 1:
+            good = {**answer["turns"][0], "text": "Gut.", "statements": [
+                {**answer["turns"][0]["statements"][0], "text": "Gut."}
+            ]}  # fmt: skip
+            answer = {"turns": [good, answer["turns"][1]]}
+        return answer
+
+
+def test_exhausted_turn_budget_continues_the_dialog_and_resume_loads_it(tmp_path):
+    from gut_zu_wissen.dialog import CONTINUE_PROMPT
+    from gut_zu_wissen.resume import resume_refusal, turns_from
+
+    api = FakeApi("Rotfuchs", [], text="Erster Satz im Artikel.\n\nZweiter Satz im Artikel.")
+    llm = ContinuationLlm()
+    systems: list[str] = []
+    inner = llm.complete_json
+
+    def recording(system: str, user: str, schema: dict) -> dict:
+        systems.append(system)
+        return inner(system, user, schema)
+
+    llm.complete_json = recording
+    episode_id = run(api, llm, tmp_path, CONFIG, "Rotfuchs", NOW, WrongTextJev())
+    folder = tmp_path / "episodes" / episode_id
+    dialog = json.loads((folder / "05_dialog.json").read_text())
+    assert llm.dialogs == 2 and dialog["conversation"] == 2
+    assert CONTINUE_PROMPT.format(min_used=1) in systems
+    assert [(t["index"], t["text"]) for t in dialog["turns"]] == [
+        (0, "Gut."),
+        (1, "Gut."),
+        (2, "Gut."),
+    ]
+    (discarded,) = dialog["discarded_conversations"]
+    assert list(discarded)[-3:] == ["regeneration", "continued_from", "fresh_reason"]
+    assert (discarded["regeneration"], discarded["continued_from"]) == ("continuation", 1)
+    assert [t["index"] for t in discarded["dialog"]["turns"]] == [1]
+    assert [j["turn_index"] for j in discarded["judgements"]] == [1]
+    assert [r["budget"] for r in dialog["regenerations"]] == ["judge", "judge"]
+    judgement = json.loads((folder / "06_judgement.json").read_text())
+    assert [j["turn_index"] for j in judgement["judgements"]] == [0, 1, 2]
+    assert all(j["accepted"] for j in judgement["judgements"])
+    # resume (audio step) still reads the final dialog
+    assert [t.index for t in turns_from(dialog)] == [0, 1, 2]
+    refusal = resume_refusal(
+        {"status": "failed", "failed_step": "audio"},
+        ranking=json.loads((folder / "04_ranking.json").read_text()),
+        dialog=dialog,
+        judgement=judgement,
+        explicit=json.loads((folder / "07_explicit.json").read_text()),
+        audio=None,
+    )
+    assert refusal is None
+
+
 def test_audio_is_synthesised_normalised_and_archived(tmp_path):
     tts = FakeTts()
     episode_id = run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW, tts=tts)

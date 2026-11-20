@@ -19,10 +19,17 @@ The repetition gate looks at the whole current dialog: a fact cited by too many 
 later turns, never the first narration, so a regenerated turn that creates a repetition with a
 later turn rejects that later turn.
 
-Conversation level: an exhausted turn budget, or fewer than `min_used_facts` used facts after the
-author (D5), discards the dialog and writes a new one from a fresh offer (D6: both rankings rerun,
-facts cited by rejected statements excluded, cumulatively), at most `conversation_retries` times.
-Everything else ends in `GateFailure`, the escalation to the owner.
+Conversation level (D6, changed 2026-11-20), at most `conversation_retries` times: facts cited by
+rejected statements are excluded, cumulatively (pinned facts, the first prose sentence of the
+intro as Einordnung #1, never). An exhausted turn budget keeps turns 0..k-1 with their judgements,
+k being the turn that started the failing chain, and the author continues the dialog from turn k
+to the end on the same offer without the excluded facts (no re-ranking; facts cited by the kept
+turns stay). Only the new turns are judged; the repetition gate and the D5 gates look at the
+whole dialog. A fresh conversation (both rankings rerun, a new dialog) is written instead when
+k is 0, when the remaining offer cannot reach `min_used_facts`, or after fewer than
+`min_used_facts` used facts after the author (D5). The discarded part (the tail k..end, or the
+whole dialog) is archived with the path taken. Everything else ends in `GateFailure`, the
+escalation to the owner.
 
 Every judgement is archived (user decision 2026-11-19): the final ones in `judgements`, those of
 discarded conversations with them, and those of turn versions a regeneration replaced in
@@ -43,10 +50,14 @@ from gut_zu_wissen.dialog import (
     Turn,
     TurnProblem,
     check_turns,
+    cited,
+    continue_dialog,
+    dialog_problems,
     format_offer,
     offer_aliases,
     regenerate_turn,
     repetition_problems,
+    used_fact_ids,
     used_facts_gate,
     write_dialog,
 )
@@ -65,6 +76,11 @@ from gut_zu_wissen.markup import markup_problems
 from gut_zu_wissen.ranking import RankedFact
 
 CASCADE_KEY = "gleiche_aussagen"
+
+CONTINUATION = (
+    "continuation"  # conversation regeneration from the failing chain on (D6, 2026-11-20)
+)
+FRESH = "fresh"  # conversation regeneration with fresh rankings and a new dialog (D6)
 
 JUDGE_BUDGET = "judge"  # D1: judge rejections, `turn_retries`
 GATE_BUDGET = "gate"  # D1 (2026-11-20): gate rejections, `gate_retries`
@@ -99,6 +115,9 @@ class Offer:
     main: list[RankedFact]
     linked: list[RankedFact]
     einordnung: list[RankedFact] = field(default_factory=list)
+    # never excluded by a conversation regeneration (D6): the first prose sentence of the intro
+    # as Einordnung #1 (user decision 2026-11-20)
+    pinned: frozenset[str] = frozenset()
 
     def by_id(self) -> dict[str, RankedFact]:
         return {r.fact.segment_id: r for r in [*self.einordnung, *self.main, *self.linked]}
@@ -156,6 +175,13 @@ class DiscardedConversation:
     dialog: Dialog
     judgements: list[TurnJudgement] = field(default_factory=list)
     aliases: dict[str, str] = field(default_factory=dict)  # what the author saw, for tracing
+    # How the next conversation was written (user decision 2026-11-20): "continuation" from turn
+    # `continued_from` (k) of this one, which kept turns 0..k-1 with their judgements, so
+    # `dialog` and `judgements` hold only the discarded tail k..end; or "fresh" (D6: both
+    # rankings rerun, a new dialog), with the reason why no continuation was possible.
+    regeneration: str = FRESH
+    continued_from: int | None = None
+    fresh_reason: str | None = None
 
 
 @dataclass
@@ -314,6 +340,50 @@ def exhausted_reason(charge: str, turn_retries: int, gate_retries: int) -> str:
     if charge == GATE_BUDGET:
         return f"Turn regeneration budget used up (gate problems, {gate_retries}x)."
     return f"Turn regeneration budget used up (judge, {turn_retries}x)."
+
+
+# ---------------------------------------------------------------- conversation regeneration
+
+
+def continuation_offer(offer: Offer, excluded: Collection[str], prefix: Sequence[Turn]) -> Offer:
+    """The offer of a continuation: the same offer without the excluded facts (D6), no
+    re-ranking. Facts cited by the kept prefix and pinned facts stay, so the prefix keeps its
+    identifiers and its facts count for D5; the author is told they are already told."""
+    keep = {i for turn in prefix for i in cited(turn)} | offer.pinned
+
+    def kept(facts: Sequence[RankedFact]) -> list[RankedFact]:
+        return [r for r in facts if r.fact.segment_id in keep or r.fact.segment_id not in excluded]
+
+    return Offer(kept(offer.main), kept(offer.linked), kept(offer.einordnung), offer.pinned)
+
+
+def conversation_path(start: int | None, offered: int, minimum: int) -> tuple[str, str | None]:
+    """How a failed conversation is regenerated (user decision 2026-11-20), and why not as a
+    continuation. Continuation from turn `start` (the turn that started the failing chain), unless
+    there is no failing chain (D5 after the author), it started at turn 0, or the remaining offer
+    (`offered` facts) cannot reach the D5 minimum; then fresh rankings and a new dialog."""
+    if start is None:
+        return FRESH, "No failing turn chain to continue from."
+    if start == 0:
+        return FRESH, "The failing turn chain started at turn 0."
+    if offered < minimum:
+        return FRESH, (
+            f"The remaining offer has {offered} facts, fewer than the D5 minimum of {minimum}."
+        )
+    return CONTINUATION, None
+
+
+def discarded_tail(dialog: Dialog, start: int, offered_ids: Collection[str]) -> Dialog:
+    """The part of a failed dialog that is discarded: turns `start`..end with their gate problems
+    and used facts; the whole dialog for `start` 0."""
+    if start == 0:
+        return dialog
+    tail = dialog.turns[start:]
+    return Dialog(
+        tail,
+        [p for p in dialog.problems if p.turn_index >= start],
+        used_fact_ids(tail, offered_ids),
+    )
 
 
 # ---------------------------------------------------------------- turn level
@@ -527,7 +597,9 @@ def orchestrate(
     """Dialog, judgement, turn and conversation regeneration. Raises `GateFailure`.
 
     `make_offer(excluded)` reruns both rankings without the excluded facts and may itself raise
-    `GateFailure` (offer gate, D5).
+    `GateFailure` (offer gate, D5). A conversation regeneration continues the dialog from the
+    turn that started the failing chain when it can (`conversation_path`); only the new turns are
+    judged and gated, the repetition gate and the D5 gates look at the whole dialog.
     """
     t = config["judge"]["t"]
     quotas = config["quotas"]
@@ -535,22 +607,40 @@ def orchestrate(
     max_turns_per_fact = quotas["max_turns_per_fact"]
     excluded: set[str] = set()
     last_reason = ""
+    prefix: list[Turn] = []  # kept turns of a continuation, with their judgements
+    prefix_judgements: list[TurnJudgement] = []
     try:
         for conversation in range(1, quotas["conversation_retries"] + 2):
             state.conversation = conversation
-            state.offer = make_offer(frozenset(excluded))
-            offer = state.offer
-            dialog = write_dialog(
-                author, offer.main, offer.linked, minimum, max_turns_per_fact, offer.einordnung
-            )
+            if prefix:
+                offer = state.offer
+                assert offer is not None
+                new = continue_dialog(author, offer.text(), offer.aliases(), prefix, minimum)
+                turns = [*prefix, *new]
+                offered = offer.by_id().keys()
+                dialog = Dialog(
+                    turns,
+                    dialog_problems(turns, offered, max_turns_per_fact),
+                    used_fact_ids(turns, offered),
+                )
+            else:
+                offer = state.offer = make_offer(frozenset(excluded))
+                dialog = write_dialog(
+                    author, offer.main, offer.linked, minimum, max_turns_per_fact, offer.einordnung
+                )
+            kept = len(prefix)
             state.dialog, state.judgements, state.used_fact_ids = dialog, [], []
             failure = used_facts_gate(len(dialog.used_fact_ids), minimum)
+            failed_chain: int | None = None
             judgements: list[TurnJudgement] = []
             rejected: list[str] = []
             if not failure:
                 judgements = [
-                    evaluate(dialog.turns, n, state.offer, jev, judge_llm, t, max_turns_per_fact)
-                    for n in range(len(dialog.turns))
+                    *prefix_judgements,
+                    *(
+                        evaluate(dialog.turns, n, offer, jev, judge_llm, t, max_turns_per_fact)
+                        for n in range(kept, len(dialog.turns))
+                    ),
                 ]
                 for turn, judgement in zip(dialog.turns, judgements, strict=True):
                     rejected += [
@@ -575,24 +665,39 @@ def orchestrate(
                     failure = exhausted_reason(
                         result.budget, quotas["turn_retries"], quotas["gate_retries"]
                     )
+                    failed_chain = result.start
             if failure:
-                excluded.update(rejected)
+                excluded.update(i for i in rejected if i not in offer.pinned)
                 last_reason = failure
                 if conversation <= quotas["conversation_retries"]:
+                    k = failed_chain or 0
+                    next_offer = continuation_offer(offer, excluded, dialog.turns[:k])
+                    path, fresh_reason = conversation_path(
+                        failed_chain, len(next_offer.by_id()), minimum
+                    )
+                    cut = k if path == CONTINUATION else 0
                     state.discarded.append(
                         DiscardedConversation(
                             conversation,
                             failure,
                             sorted(excluded),
-                            dialog,
-                            list(judgements),
-                            state.offer.aliases(),
+                            discarded_tail(dialog, cut, offer.by_id().keys()),
+                            list(judgements[cut:]),
+                            offer.aliases(),
+                            path,
+                            cut if path == CONTINUATION else None,
+                            fresh_reason,
                         )
                     )
+                    if path == CONTINUATION:
+                        state.offer = next_offer
+                        prefix, prefix_judgements = dialog.turns[:k], judgements[:k]
+                    else:
+                        prefix, prefix_judgements = [], []
                     continue
                 break
             dialog.problems = []
-            facts = state.offer.by_id()
+            facts = offer.by_id()
             used = used_in_accepted(dialog.turns, state.judgements, facts.keys())
             dialog.used_fact_ids = used
             state.used_fact_ids = used
@@ -610,8 +715,10 @@ def orchestrate(
 
 def summary_lines(state: Orchestration) -> Sequence[str]:
     """Short facts about the orchestration for the job summary."""
+    paths = [d.regeneration for d in state.discarded]
     return [
-        f"Conversations written: {state.conversation}",
+        f"Conversations written: {state.conversation} (continued: {paths.count(CONTINUATION)}, "
+        f"fresh: {paths.count(FRESH)})",
         f"Turn regenerations: {len(state.regenerations)}",
         f"Cascade checks: {len(state.cascade_checks)} "
         f"(LLM judge: {sum(c.decided_by == 'llm_judge' for c in state.cascade_checks)})",

@@ -21,6 +21,10 @@ status counts, and the report marks it as resumed;
 - cascade length: per triggering turn regeneration, the number of distinct neighbour turns the
   cascade regenerated (D1), from the regenerations in `05_dialog.json`; plus the cascade checks
   and how many of them the LLM judge decided (two-stage check, user decision 2026-11-20);
+- conversation regenerations: every discarded conversation of `05_dialog.json`, by how the next
+  conversation was written (`regeneration`: "continuation" from the failing turn chain or "fresh"
+  rankings and dialog, user decision 2026-11-20; folders from before have only "fresh"); the
+  judgements of a continued conversation's discarded tail count in the LLM-judge share above;
 - runtime: `finished_at - started_at` of `episode.json`; for a resumed run the sum of its
   attempts (each from its start to its end, the time between them left out);
 - cost: as stored in `episode.json` (`cost`) at run time, with the prices then in force; older
@@ -368,6 +372,41 @@ def cascades(runs: Sequence[RunData]) -> Cascades:
     )
 
 
+# ---------------------------------------------------------------- conversation regenerations
+
+FRESH_KIND = "fresh"  # the only kind in folders from before continuations (2026-11-20)
+
+
+def conversation_regeneration_kinds(dialog: Mapping | None) -> list[str]:
+    """How every discarded conversation of a run was regenerated, in order."""
+    return [
+        d.get("regeneration", FRESH_KIND) for d in (dialog or {}).get("discarded_conversations", [])
+    ]
+
+
+@dataclass
+class EpisodeConversations:
+    episode_id: str
+    kinds: list[str]
+
+
+@dataclass
+class ConversationRegenerations:
+    total: int
+    by_kind: dict[str, int]  # kind -> number of regenerations
+    episodes: list[EpisodeConversations]  # runs with at least one regeneration
+
+
+def conversation_regenerations(runs: Sequence[RunData]) -> ConversationRegenerations:
+    episodes = [
+        EpisodeConversations(r.episode_id, kinds)
+        for r in runs
+        if (kinds := conversation_regeneration_kinds(r.dialog))
+    ]
+    every = [k for e in episodes for k in e.kinds]
+    return ConversationRegenerations(len(every), dict(sorted(Counter(every).items())), episodes)
+
+
 # ---------------------------------------------------------------- runtime
 
 
@@ -652,6 +691,7 @@ class Report:
     cost: Cost
     errors_by_revision: ErrorsByRevision
     explicit: ExplicitAccuracy
+    conversations: ConversationRegenerations
 
 
 def build_report(runs: Sequence[RunData], config: Mapping) -> Report:
@@ -671,6 +711,7 @@ def build_report(runs: Sequence[RunData], config: Mapping) -> Report:
         cost=cost(runs, config["prices"]),
         errors_by_revision=errors_by_revision(runs),
         explicit=explicit_confusion(explicit_pairs(reviews)),
+        conversations=conversation_regenerations(runs),
     )
 
 
@@ -786,6 +827,14 @@ def render_markdown(report: Report) -> str:
         f"mean {_num(x.mean)}, max {x.max if x.max is not None else '–'}"
         for x in c.episodes
     ]
+    g = report.conversations
+    lines += ["", "### Conversation regenerations (D6)", ""]
+    if g.total:
+        kinds = ", ".join(f"{k}: {v}" for k, v in g.by_kind.items())
+        lines.append(f"- {g.total} regenerations ({kinds})")
+        lines += [f"  - `{x.episode_id}`: {', '.join(x.kinds)}" for x in g.episodes]
+    else:
+        lines.append("- No conversation regenerations.")
     r = report.runtime
     lines += [
         "",

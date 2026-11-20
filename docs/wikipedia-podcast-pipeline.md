@@ -118,13 +118,15 @@ flowchart TD
 | Stufe | Manueller Lauf | Artikel des Tages |
 |---|---|---|
 | Redebeitrag | max. 2× neu nach Judge-Ablehnung, max. 3× nach Gate-Ablehnung, Nachbarn als Kontext | max. 2× neu nach Judge-Ablehnung, max. 3× nach Gate-Ablehnung, Nachbarn als Kontext |
-| Gespräch | max. 2× neu | max. 2× neu |
+| Gespräch | max. 2× neu: ab dem auslösenden Redebeitrag fortgesetzt, sonst ganz neu | max. 2× neu: ab dem auslösenden Redebeitrag fortgesetzt, sonst ganz neu |
 | Audio | betroffenen Abschnitt max. 2× neu synthetisieren | betroffenen Abschnitt max. 2× neu synthetisieren |
 | Danach | Eskalation an dich | Ersatzartikel |
 | Ersatzartikel | – | zufällig aus exzellenten und lesenswerten Artikeln, max. 2×, danach entfällt die Folge |
 | Jev-Abbruch | Eskalation an dich | Eskalation an dich, Folge entfällt |
 
 **Budgets Redebeitrag (D1, geändert 2026-11-20):** pro auslösendem Redebeitrag zwei getrennte Budgets. Judge-Ablehnungen (Jev oder LLM-Judge) max. 2× (`turn_retries`), Gate-Ablehnungen (ohne Judge-Aufruf: unbekannte Kennung, Wiederholung, Markup, leerer Text, Aussage ohne Kennungen, unbekannte Person) max. 3× (`gate_retries`). Eine Neugenerierung nach einer Ablehnung belastet das Budget dieser Ablehnung; die Kaskadenschritte belasten das Budget der Ablehnung, die die Kaskade ausgelöst hat; wird ein Kaskadenschritt abgelehnt, belastet seine Neugenerierung das Budget dieser Ablehnung. Jede Neugenerierung vermerkt das belastete Budget.
+
+**Gespräch neu (D6, geändert 2026-11-20):** Fakten, die abgelehnte Aussagen zitieren, werden ausgeschlossen (kumulativ). Ist das Budget eines Redebeitrags erschöpft, bleiben die Redebeiträge vor dem auslösenden Redebeitrag k mit ihren Urteilen erhalten (k: der auslösende Redebeitrag, wenn es in einer Kaskade scheitert, sonst der gescheiterte). Der Dialogautor schreibt das Gespräch ab k bis zum Ende weiter, mit der einen Zusammenfassung, auf demselben Angebot ohne die ausgeschlossenen Fakten (kein neues Ranking); er sieht die behaltenen Redebeiträge und die darin schon erzählten Fakten und erzählt sie nicht noch einmal. Geprüft werden nur die neuen Redebeiträge; Gate Wiederholung und die Gates nach D5 gelten für das ganze Gespräch. Neues Ranking und neues Gespräch nur, wenn k = 0 ist, das verbleibende Angebot das Minimum nach D5 nicht erreichen kann oder D5 nach dem Dialogautor verfehlt wird. Zählt gegen das Gesprächsbudget (max. 2×). Der verworfene Teil (ab k oder das ganze Gespräch) wird mit dem gewählten Weg archiviert.
 
 **Eskalation an dich:** Workflow-Lauf schlägt fehl (GitHub-Standardbenachrichtigung); Grund in Log und Job-Zusammenfassung. Ein erfolgreicher manueller Lauf gilt ohne aktive Freigabe als freigegeben.
 
