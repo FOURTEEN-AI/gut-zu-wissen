@@ -29,13 +29,10 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  build:
     # After a publish run only when it succeeded.
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -49,5 +46,15 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: build/site
+
+  # A separate job: deploying in the job that uploads failed with "No artifacts named
+  # github-pages" in three of four runs (2026-11-20), the listing lagged behind the upload.
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - id: deployment
         uses: actions/deploy-pages@v4
