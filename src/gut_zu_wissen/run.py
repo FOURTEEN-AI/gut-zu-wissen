@@ -205,8 +205,13 @@ def run(
     usage: Mapping[str, Usage] | None = None,
     secrets: Collection[str] = (),
     dialog_llm: StructuredLlm | None = None,
+    extraction_llm: StructuredLlm | None = None,
 ) -> str:
     """Run the steps implemented so far. Returns the episode ID; raises GateFailure.
+
+    `extraction_llm` extracts the facts of the main article and of the linked intros (Claude
+    Haiku 5.5, user decision 2026-11-20); `llm` ranks, and the dialog author is `dialog_llm`.
+    Both default to `llm`.
 
     Intro and outro are checked first (`FixedAudioError`), before anything costs money. Audio
     files go to `audio_root/<episode ID>/`. The explicit check (D7, directly after the judge, on
@@ -261,7 +266,8 @@ def run(
             {"revid": article.revid, "segments": [s.to_dict() for s in segments]},
         )
         step = STEP_EXTRACTION
-        facts = extract_facts(llm, renderer, article.title, article.revid, segments, config)
+        extractor = extraction_llm or llm
+        facts = extract_facts(extractor, renderer, article.title, article.revid, segments, config)
         write_json(folder / FACTS_FILE, facts.to_dict())
 
         quotas = config["quotas"]
@@ -298,7 +304,7 @@ def run(
                 if target in by_target:
                     continue
                 found, not_used = fetch_linked_intros(
-                    api, llm, renderer, [target], article.title, config, now
+                    api, extractor, renderer, [target], article.title, config, now
                 )
                 skipped.extend(not_used)
                 by_target[target] = found[0] if found else None
@@ -373,7 +379,7 @@ def run(
         state = Orchestration()
         try:
             # The dialog author (dialog and turn regenerations) may use its own client with a
-            # larger output ceiling; extraction and ranking keep `llm`.
+            # larger output ceiling; ranking keeps `llm`, extraction has `extraction_llm`.
             orchestrate(state, make_offer, dialog_llm or llm, judge_llm, jev, config)
         except GateFailure as exc:
             if state.dialog:
@@ -467,8 +473,11 @@ def main(argv: list[str] | None = None) -> int:
     config = load_config()
     max_tokens = config["quotas"]["llm_max_tokens"]
     models = config["models"]
-    usage = {role: Usage(models[role]) for role in ("author", "llm_judge", "jev")}
+    # "extraction" last: the older roles keep their order in episode.json.
+    usage = {role: Usage(models[role]) for role in ("author", "llm_judge", "jev", "extraction")}
     llm = AnthropicLlm(models["author"], max_tokens, usage=usage["author"])
+    # Extraction (main article and linked intros) has its own model and cost-log role.
+    extraction_llm = AnthropicLlm(models["extraction"], max_tokens, usage=usage["extraction"])
     # The dialog author writes the whole dialog in one answer: its own, larger output ceiling.
     dialog_llm = AnthropicLlm(
         models["author"], config["quotas"]["llm_max_tokens_dialog"], usage=usage["author"]
@@ -515,6 +524,7 @@ def main(argv: list[str] | None = None) -> int:
             usage=usage,
             secrets=secrets,
             dialog_llm=dialog_llm,
+            extraction_llm=extraction_llm,
         )
     except ArticleNotFoundError:
         print(f"Article not found: {args[0]}", file=sys.stderr)

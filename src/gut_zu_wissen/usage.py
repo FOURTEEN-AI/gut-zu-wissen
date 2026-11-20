@@ -42,11 +42,20 @@ SONNET = PriceKeys(
     "claude_sonnet_cache_write",
     "claude_sonnet_cache_read",
 )
-# Price keys per client role in `episode.json` `usage`.
+HAIKU = PriceKeys(
+    "claude_haiku_input",
+    "claude_haiku_output",
+    "claude_haiku_cache_write",
+    "claude_haiku_cache_read",
+)
+# Price keys per client role in `episode.json` `usage`. "extraction" runs on Claude Haiku 5.5
+# (user decision 2026-11-20, spike S7); ranking stays with the dialog author ("author", Sonnet).
+# Folders from before have no "extraction" role: their extraction is counted under "author".
 PRICE_KEYS: dict[str, PriceKeys] = {
     "author": SONNET,
     "llm_judge": SONNET,
     "jev": PriceKeys("jev", None),
+    "extraction": HAIKU,
 }
 TTS_PART = "tts"
 TTS_PRICE_KEYS = ("gemini_tts_input", "gemini_tts_output")

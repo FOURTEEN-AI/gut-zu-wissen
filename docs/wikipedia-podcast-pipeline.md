@@ -190,7 +190,8 @@ Fester Text außerhalb des Dialogautors und der Persona-Regeln; einmal synthetis
 
 | Aufgabe | Anbieter |
 |---|---|
-| Extraktion, Ranking, Dialogautor | Claude Sonnet 5.5 |
+| Extraktion (Hauptartikel und Einleitungen verlinkter Artikel) | Claude Haiku 5.5 |
+| Ranking, Dialogautor | Claude Sonnet 5.5 |
 | Judge Stufe 1 | Jev, TypeSafe direkt |
 | Judge Stufe 2 (Urteil, Begründung) | Claude Sonnet 5.5 |
 | TTS | Gemini 3.8 Flash TTS (`gemini-3.8-flash-tts`), vordefinierte deutsche Stimmen |

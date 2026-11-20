@@ -148,7 +148,7 @@ class FakeStt:
 
 def run(
     api, llm, root, config, title, now, jev=None, judge=None, tts=None, fixed=True, stt=None,
-    clock=None, usage=None, dialog_llm=None,
+    clock=None, usage=None, dialog_llm=None, extraction_llm=None,
 ):  # fmt: skip
     fixed_dir = root / "fixed"
     tts = tts or FakeTts()
@@ -157,7 +157,7 @@ def run(
     return run_pipeline(
         api, llm, judge or FakeJudgeLlm(), jev or FakeJev(), root, config, title, now,
         tts=tts, stt=stt or FakeStt(tts=tts), fixed_dir=fixed_dir, audio_root=root / "build",
-        clock=clock, usage=usage, dialog_llm=dialog_llm,
+        clock=clock, usage=usage, dialog_llm=dialog_llm, extraction_llm=extraction_llm,
     )  # fmt: skip
 
 
@@ -170,6 +170,30 @@ def test_dialog_author_uses_its_own_llm_when_given(tmp_path):
     )  # fmt: skip
     assert len(dialog_llm.calls) == 1 and llm.calls  # one dialog; extraction/ranking elsewhere
     assert dialog_llm.calls[0] not in llm.calls
+
+
+def test_extraction_of_main_and_linked_articles_uses_the_extraction_llm(tmp_path):
+    # User decision 2026-11-20: extraction on its own model (Haiku 5.5); ranking stays on `llm`.
+    main_text = "Der [[Fuchs]] jagt im Wald bei Nacht.\n\n== A =="
+    others = {"Fuchs": ([], "Der Fuchs ist ein Raubtier im Wald.")}
+    api = FakeApi("Rotfuchs", [], text=main_text, others=others)
+    llm, extraction_llm = FakeLlm(), FakeLlm()
+    episode_id = run(api, llm, tmp_path, CONFIG, "Rotfuchs", NOW, extraction_llm=extraction_llm)
+    extracted = [u for u in extraction_llm.calls if u.startswith("Abschnitt:")]
+    assert len(extracted) == len(extraction_llm.calls) == 2  # main article chunk + linked intro
+    assert any("Raubtier" in u for u in extracted)
+    assert not any(u.startswith("Abschnitt:") for u in llm.calls) and llm.calls  # ranking
+    folder = tmp_path / "episodes" / episode_id
+    assert json.loads((folder / "linked" / "fuchs.json").read_text())["extraction"]["facts"]
+
+
+def test_extraction_model_and_prices_are_configured():
+    assert REAL["models"]["extraction"] == "claude-haiku-5-5"
+    assert REAL["models"]["author"] == REAL["models"]["llm_judge"] == "claude-sonnet-5-5"
+    prices = REAL["prices"]
+    for key in ("input", "output", "cache_write", "cache_read"):
+        assert isinstance(prices[f"claude_haiku_{key}"], float)
+    assert prices["claude_haiku_cache_write"] == 1.25 * prices["claude_haiku_input"]
 
 
 def test_dialog_ceiling_is_its_own_config_value():

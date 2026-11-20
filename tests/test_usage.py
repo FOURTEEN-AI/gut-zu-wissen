@@ -197,6 +197,32 @@ def test_merge_usage_adds_cache_counts_onto_an_older_entry():
     assert merged["author"]["input_tokens"] == 1_100_000
 
 
+def test_extraction_role_is_priced_at_haiku():
+    usage = {"author": USAGE["author"], "extraction": {**CACHED, "model": "claude-haiku-5-5"}}
+    prices = {
+        **CACHE_PRICES,
+        "claude_haiku_input": 0.1,
+        "claude_haiku_output": 0.5,
+        "claude_haiku_cache_write": 0.125,
+        "claude_haiku_cache_read": 0.01,
+    }
+    cost = episode_cost(usage, 0.0, prices)
+    # 0.1M * 0.1 + 0.01M * 0.5 + 0.2M * 0.125 + 1M * 0.01 = 0.01 + 0.005 + 0.025 + 0.01
+    assert cost["usd"] == {"author": 3.0, "extraction": 0.05, "tts": 0.0}
+    assert list(cost["prices"]) == [
+        "claude_sonnet_input",
+        "claude_sonnet_output",
+        "claude_haiku_input",
+        "claude_haiku_output",
+        "gemini_tts_input",
+        "gemini_tts_output",
+        "claude_sonnet_cache_write",
+        "claude_sonnet_cache_read",
+        "claude_haiku_cache_write",
+        "claude_haiku_cache_read",
+    ]
+
+
 def test_every_claude_role_has_cache_price_keys():
-    for role in ("author", "llm_judge"):
+    for role in ("author", "llm_judge", "extraction"):
         assert PRICE_KEYS[role].cache_write and PRICE_KEYS[role].cache_read
