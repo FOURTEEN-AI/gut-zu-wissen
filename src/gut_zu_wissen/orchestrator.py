@@ -2,9 +2,12 @@
 
 Turn level: a rejected turn (gate problem or judge) is regenerated with its neighbours as context,
 at most `turn_retries` times. After every regeneration the next turn is regenerated as well
-(neighbour cascade, D1); Jev checks whether the regenerated turn still conveys the statements of
-the version before. p >= t stops the cascade; anything else (including uncertain and Jev errors
-other than abort) continues it. All regenerations of a cascade, retries after a rejection
+(neighbour cascade, D1); a two-stage check decides whether the regenerated turn still conveys
+the statements of the version before (user decision 2026-11-20). Jev asks first: p >= t stops the
+cascade, p <= 1 - t continues it. Uncertain p, or an overlength or transient Jev error, goes to
+the LLM judge, which sees only the earlier text and statements and the new text; anything but a
+clear "same statements" counts as content lost and continues the cascade. Jev abort errors and
+failed LLM calls (`LlmError`) propagate. All regenerations of a cascade, retries after a rejection
 included, share the budget of the turn that triggered it.
 
 Conversation level: an exhausted turn budget, or fewer than `min_used_facts` used facts after the
@@ -51,6 +54,23 @@ from gut_zu_wissen.ranking import RankedFact
 
 CASCADE_KEY = "gleiche_aussagen"
 
+CASCADE_VERDICT_SCHEMA = {
+    "type": "object",
+    "properties": {"same": {"type": "boolean"}, "reason": {"type": "string"}},
+    "required": ["same", "reason"],
+    "additionalProperties": False,
+}
+CASCADE_PROMPT = (
+    "Ein Redebeitrag aus einem Podcast-Gespräch wurde neu geschrieben. Du bekommst die vorherige "
+    "Fassung mit ihren Aussagen und die neue Fassung. Prüfe: Vermittelt die neue Fassung dieselben "
+    "Aussagen wie die vorherige?\n\n"
+    "„same“ ist nur wahr, wenn jede Aussage der vorherigen Fassung auch in der neuen Fassung "
+    "steht, gegebenenfalls anders formuliert, mit gleichen Zahlen, Daten und Namen. Fehlt eine "
+    "Aussage, wird sie anders wiedergegeben oder bist du unsicher, ist „same“ falsch. Begründe "
+    "kurz auf Deutsch; nenne bei „falsch“ die betroffene Aussage. Antworte mit JSON im "
+    "vorgegebenen Schema."
+)
+
 
 class GateFailure(Exception):
     """A gate or the retry budgets stopped the run; the message is the notice for the owner."""
@@ -80,11 +100,15 @@ class Regeneration:
 
 @dataclass
 class CascadeCheck:
+    """One cascade check; field order is the archive field order (new fields appended)."""
+
     conversation: int
     turn_index: int
-    p: float | None
+    p: float | None  # Jev; None after an overlength or transient Jev error
     confirmed: bool
-    error: str | None = None
+    error: str | None
+    decided_by: str  # "jev" or "llm_judge"
+    reason: str | None  # the LLM judge's reason; None when Jev decided
 
 
 @dataclass
@@ -190,9 +214,22 @@ def turn_version(regenerations: Sequence[Regeneration], conversation: int, index
     return sum(1 for r in regenerations if r.conversation == conversation and r.turn_index == index)
 
 
-def cascade_confirmed(p: float, t: float) -> bool:
-    """D1: only p >= t stops the cascade; uncertain counts as content lost."""
-    return decide([p], t) is Decision.SUPPORTED
+def cascade_decision(p: float, t: float) -> Decision:
+    """D1, stage 1: p >= t confirmed; p <= 1 - t content lost; otherwise the LLM judge decides."""
+    return decide([p], t)
+
+
+def cascade_verdict_confirmed(verdict: Mapping) -> bool:
+    """D1, stage 2: only a clear `same: true` confirms; anything else counts as content lost."""
+    return verdict.get("same") is True
+
+
+def format_cascade_input(before: Turn, after: Turn) -> str:
+    """Input of the LLM judge for a cascade check: earlier text and statements, new text."""
+    lines = ["Vorherige Fassung:", before.text, "", "Aussagen der vorherigen Fassung:"]
+    lines += [f"- {s.text}" for s in before.statements] or ["(keine)"]
+    lines += ["", "Neue Fassung:", after.text]
+    return "\n".join(lines)
 
 
 # ---------------------------------------------------------------- turn level
@@ -235,14 +272,39 @@ def evaluate(
     return judgement
 
 
-def check_cascade(jev: Jev, before: Turn, after: Turn, t: float, conversation: int) -> CascadeCheck:
-    """Jev abort errors propagate; overlength and transient errors leave the cascade running."""
+def check_cascade(
+    jev: Jev,
+    judge_llm: StructuredLlm,
+    before: Turn,
+    after: Turn,
+    t: float,
+    conversation: int,
+) -> CascadeCheck:
+    """Two-stage check of D1. Jev abort errors and `LlmError` propagate."""
     state, questions = cascade_request(before, after)
+    p: float | None = None
+    error: str | None = None
     try:
         p = jev.ask(state, questions)[CASCADE_KEY]
     except (JevOverlengthError, JevTransientError) as exc:
-        return CascadeCheck(conversation, after.index, None, False, f"{type(exc).__name__}: {exc}")
-    return CascadeCheck(conversation, after.index, p, cascade_confirmed(p, t))
+        error = f"{type(exc).__name__}: {exc}"
+    if p is not None:
+        decision = cascade_decision(p, t)
+        if decision is not Decision.UNCERTAIN:
+            confirmed = decision is Decision.SUPPORTED
+            return CascadeCheck(conversation, after.index, p, confirmed, None, "jev", None)
+    verdict = judge_llm.complete_json(
+        CASCADE_PROMPT, format_cascade_input(before, after), CASCADE_VERDICT_SCHEMA
+    )
+    return CascadeCheck(
+        conversation,
+        after.index,
+        p,
+        cascade_verdict_confirmed(verdict),
+        error,
+        "llm_judge",
+        str(verdict.get("reason", "")),
+    )
 
 
 def repair_turns(
@@ -292,7 +354,7 @@ def repair_turns(
                 reason = judgement.reason
                 continue
             if kind == "cascade":
-                check = check_cascade(jev, baseline, new, t, state.conversation)
+                check = check_cascade(jev, judge_llm, baseline, new, t, state.conversation)
                 state.cascade_checks.append(check)
                 if check.confirmed:
                     break
@@ -399,5 +461,6 @@ def summary_lines(state: Orchestration) -> Sequence[str]:
     return [
         f"Conversations written: {state.conversation}",
         f"Turn regenerations: {len(state.regenerations)}",
-        f"Cascade checks: {len(state.cascade_checks)}",
+        f"Cascade checks: {len(state.cascade_checks)} "
+        f"(LLM judge: {sum(c.decided_by == 'llm_judge' for c in state.cascade_checks)})",
     ]

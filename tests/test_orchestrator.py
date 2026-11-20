@@ -1,16 +1,25 @@
+from dataclasses import asdict
+
 import pytest
 
 from gut_zu_wissen.dialog import Statement, Turn
 from gut_zu_wissen.extraction import Fact
-from gut_zu_wissen.jev import JevAbortError, JevTransientError
-from gut_zu_wissen.judge import TurnJudgement
+from gut_zu_wissen.jev import JevAbortError, JevOverlengthError, JevTransientError
+from gut_zu_wissen.judge import Decision, TurnJudgement
+from gut_zu_wissen.llm import LlmError
 from gut_zu_wissen.orchestrator import (
     CASCADE_KEY,
+    CASCADE_PROMPT,
+    CASCADE_VERDICT_SCHEMA,
+    CascadeCheck,
     GateFailure,
     Offer,
     Orchestration,
-    cascade_confirmed,
+    cascade_decision,
     cascade_request,
+    cascade_verdict_confirmed,
+    check_cascade,
+    format_cascade_input,
     orchestrate,
     rejected_fact_ids,
 )
@@ -76,7 +85,16 @@ class FakeJev:
 
 
 class FakeJudgeLlm:
+    """Rejects every turn it judges. Cascade checks answer from `cascade`, one verdict per call;
+    every cascade call is recorded."""
+
+    def __init__(self, cascade: list[dict] | None = None) -> None:
+        self.cascade, self.cascade_calls = list(cascade or []), []
+
     def complete_json(self, system: str, user: str, schema: dict) -> dict:
+        if schema is CASCADE_VERDICT_SCHEMA:
+            self.cascade_calls.append((system, user))
+            return self.cascade.pop(0)
         return (
             {"supported": False, "reason": "Grund."}
             if "supported" in schema["properties"]
@@ -97,11 +115,11 @@ def offer_of(n: int):
     return make, calls
 
 
-def run(author, jev, n_facts=3, config=CONFIG):
+def run(author, jev, n_facts=3, config=CONFIG, judge_llm=None):
     make, calls = offer_of(n_facts)
     state = Orchestration()
     try:
-        orchestrate(state, make, author, FakeJudgeLlm(), jev, config)
+        orchestrate(state, make, author, judge_llm or FakeJudgeLlm(), jev, config)
     finally:
         run.state, run.offers = state, calls
     return state
@@ -136,9 +154,127 @@ def test_accepted_and_gate_problem_turns_reject_no_facts():
     assert rejected_fact_ids(turn, judgement(by="gate"), T) == []
 
 
-@pytest.mark.parametrize("p,expected", [(0.95, True), (1.0, True), (0.9499, False), (0.5, False)])
-def test_cascade_stops_only_at_p_at_least_t(p, expected):
-    assert cascade_confirmed(p, T) is expected
+@pytest.mark.parametrize(
+    "p,expected",
+    [
+        (0.95, Decision.SUPPORTED),
+        (1.0, Decision.SUPPORTED),
+        (0.9499, Decision.UNCERTAIN),
+        (0.5, Decision.UNCERTAIN),
+        (0.0501, Decision.UNCERTAIN),
+        (0.05, Decision.REJECTED),
+        (0.0, Decision.REJECTED),
+    ],
+)
+def test_cascade_decision_at_t_at_one_minus_t_and_between(p, expected):
+    assert cascade_decision(p, T) is expected
+
+
+@pytest.mark.parametrize(
+    "verdict,expected",
+    [
+        ({"same": True, "reason": "Gleich."}, True),
+        ({"same": False, "reason": "Fehlt."}, False),
+        ({"same": "true", "reason": ""}, False),  # malformed: content lost
+        ({"same": None}, False),
+        ({"reason": "Unklar."}, False),  # undecided: content lost
+        ({}, False),
+    ],
+)
+def test_llm_cascade_verdict_confirms_only_a_clear_yes(verdict, expected):
+    assert cascade_verdict_confirmed(verdict) is expected
+
+
+def test_cascade_input_has_earlier_text_and_statements_and_new_text_only():
+    before = Turn(1, "Felix", "Alt.", ["a"], [Statement("Aussage alt.", ["a"])])
+    after = Turn(1, "Felix", "Neu.", ["b"], [Statement("Aussage neu.", ["b"])])
+    text = format_cascade_input(before, after)
+    assert text == (
+        "Vorherige Fassung:\nAlt.\n\nAussagen der vorherigen Fassung:\n- Aussage alt.\n\n"
+        "Neue Fassung:\nNeu."
+    )
+    empty = format_cascade_input(Turn(1, "Felix", "Alt.", [], []), after)
+    assert "(keine)" in empty
+
+
+def test_cascade_prompt_is_german_and_asks_for_the_same_statements():
+    assert "dieselben Aussagen" in CASCADE_PROMPT
+    assert "unsicher" in CASCADE_PROMPT
+    assert CASCADE_VERDICT_SCHEMA["required"] == ["same", "reason"]
+
+
+BEFORE = Turn(2, "Lena", "Alt.", ["a"], [Statement("Aussage alt.", ["a"])])
+AFTER = Turn(2, "Lena", "Neu.", ["a"], [Statement("Aussage neu.", ["a"])])
+
+
+class CascadeJev:
+    def __init__(self, p: float | None = None, error: Exception | None = None) -> None:
+        self.p, self.error = p, error
+
+    def ask(self, state: dict, questions: dict) -> dict:
+        if self.error:
+            raise self.error
+        return {CASCADE_KEY: self.p}
+
+
+@pytest.mark.parametrize("p,confirmed", [(0.99, True), (0.01, False)])
+def test_cascade_check_jev_decides_clear_cases_without_llm(p, confirmed):
+    llm = FakeJudgeLlm()
+    check = check_cascade(CascadeJev(p), llm, BEFORE, AFTER, T, 1)
+    assert check == CascadeCheck(1, 2, p, confirmed, None, "jev", None)
+    assert llm.cascade_calls == []
+
+
+@pytest.mark.parametrize(
+    "verdict,confirmed",
+    [
+        ({"same": True, "reason": "Gleiche Aussagen."}, True),
+        ({"same": False, "reason": "Aussage alt fehlt."}, False),
+    ],
+)
+def test_cascade_check_uncertain_jev_goes_to_the_llm_judge(verdict, confirmed):
+    llm = FakeJudgeLlm([verdict])
+    check = check_cascade(CascadeJev(0.74), llm, BEFORE, AFTER, T, 1)
+    assert check == CascadeCheck(1, 2, 0.74, confirmed, None, "llm_judge", verdict["reason"])
+    assert llm.cascade_calls == [(CASCADE_PROMPT, format_cascade_input(BEFORE, AFTER))]
+
+
+def test_cascade_check_malformed_llm_answer_counts_as_content_lost():
+    check = check_cascade(CascadeJev(0.5), FakeJudgeLlm([{}]), BEFORE, AFTER, T, 1)
+    assert (check.confirmed, check.decided_by, check.reason) == (False, "llm_judge", "")
+
+
+@pytest.mark.parametrize("error", [JevTransientError("429"), JevOverlengthError("400")])
+def test_cascade_check_jev_error_goes_to_the_llm_judge(error):
+    llm = FakeJudgeLlm([{"same": True, "reason": "Gleich."}])
+    check = check_cascade(CascadeJev(error=error), llm, BEFORE, AFTER, T, 3)
+    assert (check.p, check.confirmed, check.decided_by) == (None, True, "llm_judge")
+    assert type(error).__name__ in check.error
+
+
+def test_cascade_check_jev_abort_and_llm_error_propagate():
+    with pytest.raises(JevAbortError):
+        check_cascade(CascadeJev(error=JevAbortError("401")), FakeJudgeLlm(), BEFORE, AFTER, T, 1)
+
+    class Failing:
+        def complete_json(self, system, user, schema):
+            raise LlmError("refused")
+
+    with pytest.raises(LlmError):
+        check_cascade(CascadeJev(0.5), Failing(), BEFORE, AFTER, T, 1)
+
+
+def test_cascade_check_field_order_is_stable():
+    check = CascadeCheck(1, 2, 0.5, False, None, "llm_judge", "Grund.")
+    assert list(asdict(check)) == [
+        "conversation",
+        "turn_index",
+        "p",
+        "confirmed",
+        "error",
+        "decided_by",
+        "reason",
+    ]
 
 
 def test_cascade_request_names_old_statements_and_new_text():
@@ -184,11 +320,48 @@ def test_cascade_continues_while_not_confirmed_and_shares_the_budget():
         ],
         [turn_json("Felix", "B.", "1-0000"), turn_json("Lena", "C.", "1-0000")],
     )
-    jev = FakeJev(bad={"Falsch."}, cascade=[0.5])  # uncertain: cascade goes on, budget is out
+    jev = FakeJev(bad={"Falsch."}, cascade=[0.01])  # content lost: cascade goes on, budget out
     state = run(author, jev)
     assert state.discarded[0].reason.startswith("Turn regeneration budget")
     assert [t.text for t in state.dialog.turns] == ["Neu eins.", "Neu zwei."]
     assert len(state.regenerations) == 2  # trigger plus one cascade turn: the 2x budget
+
+
+def test_uncertain_cascade_check_confirmed_by_llm_judge_stops_the_cascade():
+    author = FakeAuthor(
+        [dialog_json("Eins.", "Falsch.", "Drei.", "Vier.")],
+        [turn_json("Lena", "Besser.", "1-0000"), turn_json("Felix", "Dazu passend.", "1-0000")],
+    )
+    llm = FakeJudgeLlm([{"same": True, "reason": "Gleiche Aussage."}])
+    state = run(author, FakeJev(bad={"Falsch."}, cascade=[0.74]), judge_llm=llm)
+    assert state.discarded == []
+    assert [(r.turn_index, r.kind) for r in state.regenerations] == [(1, "retry"), (2, "cascade")]
+    assert state.cascade_checks == [
+        CascadeCheck(1, 2, 0.74, True, None, "llm_judge", "Gleiche Aussage.")
+    ]
+    assert state.judgement_dict()["cascade_checks"][0] == {
+        "conversation": 1,
+        "turn_index": 2,
+        "p": 0.74,
+        "confirmed": True,
+        "error": None,
+        "decided_by": "llm_judge",
+        "reason": "Gleiche Aussage.",
+    }
+
+
+def test_uncertain_cascade_check_rejected_by_llm_judge_continues_the_cascade():
+    author = FakeAuthor(
+        [
+            dialog_json("Eins.", "Falsch.", "Drei.", "Vier."),
+            dialog_json("Neu eins.", "Neu zwei.", fact="1-0001"),
+        ],
+        [turn_json("Felix", "B.", "1-0000"), turn_json("Lena", "C.", "1-0000")],
+    )
+    llm = FakeJudgeLlm([{"same": False, "reason": "Aussage fehlt."}])
+    state = run(author, FakeJev(bad={"Falsch."}, cascade=[0.38]), judge_llm=llm)
+    assert state.discarded[0].reason.startswith("Turn regeneration budget")
+    assert [(c.decided_by, c.confirmed) for c in state.cascade_checks] == [("llm_judge", False)]
 
 
 def test_cascade_runs_to_the_end_of_the_dialog_without_check_after_last_turn():
@@ -200,7 +373,7 @@ def test_cascade_runs_to_the_end_of_the_dialog_without_check_after_last_turn():
     assert state.cascade_checks == []
 
 
-def test_jev_error_on_cascade_check_continues_the_cascade():
+def test_jev_error_on_cascade_check_goes_to_llm_judge_and_continues_the_cascade():
     class Flaky(FakeJev):
         def ask(self, state, questions):
             if CASCADE_KEY in questions:
@@ -211,9 +384,11 @@ def test_jev_error_on_cascade_check_continues_the_cascade():
         [dialog_json("Eins.", "Falsch.", "Drei."), dialog_json("N.", fact="1-0001")],
         [turn_json("Felix", "B.", "1-0000"), turn_json("Lena", "C.", "1-0000")],
     )
-    state = run(author, Flaky(bad={"Falsch."}))
+    llm = FakeJudgeLlm([{"same": False, "reason": "Unklar."}])
+    state = run(author, Flaky(bad={"Falsch."}), judge_llm=llm)
     check = state.cascade_checks[0]
     assert check.p is None and not check.confirmed and "JevTransientError" in check.error
+    assert check.decided_by == "llm_judge" and len(llm.cascade_calls) == 1
 
 
 def test_regenerated_turn_rejected_again_is_retried_within_the_budget():
@@ -276,7 +451,7 @@ def test_superseded_judgements_of_a_discarded_conversation_keep_its_number():
         ],
         [turn_json("Felix", "B.", "1-0000"), turn_json("Lena", "C.", "1-0000")],
     )
-    state = run(author, FakeJev(bad={"Falsch."}, cascade=[0.5]))
+    state = run(author, FakeJev(bad={"Falsch."}, cascade=[0.01]))
     assert state.conversation == 2
     assert [(s.conversation, s.turn_index, s.version) for s in state.superseded] == [
         (1, 1, 0),

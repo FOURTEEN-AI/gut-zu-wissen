@@ -46,7 +46,7 @@ These retire the open risks before the build starts.
    - Gate after judging: fewer than 10 used facts in accepted turns → gate failure (D5).
 8. **Orchestrator.** ✅ Done.
    - Turn regeneration with neighbours as context.
-   - Neighbour cascade (D1): after a turn regeneration, the next turn is always regenerated. Jev checks whether the regenerated turn conveys the same statements as before. p ≥ t → cascade stops; otherwise (including uncertain) → cascade continues. The whole cascade shares the triggering turn's 2× budget.
+   - Neighbour cascade (D1): after a turn regeneration, the next turn is always regenerated. A two-stage check decides whether the regenerated turn conveys the same statements as before. Jev first: p ≥ t → confirmed, cascade stops; p ≤ 1−t → content lost, cascade continues. Uncertain, or a Jev error the error table sends to the LLM judge → the LLM judge decides (sees only the previous text and statements and the new text); an undecided or malformed answer counts as content lost. The whole cascade shares the triggering turn's 2× budget.
    - Conversation regeneration (D6): rerun both rankings, excluding every fact cited by a rejected statement; then a fresh dialog.
    - Gate failures: manual run → abort with notice.
    - Escalation: failing job plus job summary.
@@ -91,7 +91,7 @@ These retire the open risks before the build starts.
 
 | ID | Topic | Decision |
 |---|---|---|
-| D1 | Neighbour coherence | After a turn regeneration, the next turn is always regenerated. The cascade continues until Jev confirms (p ≥ t) that a regenerated turn conveys the same statements as before; uncertain counts as content lost. The whole cascade shares the triggering turn's 2× budget. |
+| D1 | Neighbour coherence | After a turn regeneration, the next turn is always regenerated. The cascade continues until a regenerated turn is confirmed to convey the same statements as before. Two-stage check (changed 2026-11-20): Jev p ≥ t → confirmed; p ≤ 1−t → content lost; uncertain or a Jev error that goes to the LLM judge → the LLM judge decides; in doubt (undecided or malformed answer) → content lost. The whole cascade shares the triggering turn's 2× budget. |
 | D2 | Revision | Latest sighted revision; latest revision if none exists. Revision status recorded in the archive. |
 | D3 | Infobox rows | `Infobox *` and `Taxobox` only (`Personendaten` excluded). Plaintext: „Infobox type – section header – label: value“ (header omitted when the row has none); a single-cell row with a colon is split at the first colon into label and value (spike S3). |
 | D4 | Repeats | New episode for an article allowed 6 months after the last episode's publication date; otherwise gate failure. |

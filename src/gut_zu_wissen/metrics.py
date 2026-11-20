@@ -14,9 +14,11 @@ Measured over every run in the archive (one run = one episode folder):
   with a failing job, and crashes, whose reason starts with "Crash:") or are incomplete (still
   `running`: the run has not ended; in folders from before the `completed` status, `running`
   without a review sample) over all runs; plus the share of all judge calls the LLM judge
-  decided, those of replaced turn versions included (design risk "Eskalationsrate");
+  decided, those of replaced turn versions and the cascade checks (D1, `cascade_checks` in
+  `06_judgement.json`) included (design risk "Eskalationsrate");
 - cascade length: per triggering turn regeneration, the number of distinct neighbour turns the
-  cascade regenerated (D1), from the regenerations in `05_dialog.json`;
+  cascade regenerated (D1), from the regenerations in `05_dialog.json`; plus the cascade checks
+  and how many of them the LLM judge decided (two-stage check, user decision 2026-11-20);
 - runtime: `finished_at - started_at` of `episode.json`;
 - cost: as stored in `episode.json` (`cost`) at run time, with the prices then in force; older
   folders without it fall back to TTS from `08_audio.json` and the token counts (`usage`) at
@@ -196,7 +198,8 @@ def escalation(runs: Sequence[RunData]) -> Escalation:
 @dataclass
 class JudgeEscalation:
     """Share of all judge calls that went to the LLM judge (uncertain p, overlength or transient
-    Jev error). Gate rejections are not judge decisions and are left out."""
+    Jev error), turn judgements and cascade checks together. Gate rejections are not judge
+    decisions and are left out."""
 
     judgements: int
     by_jev: int
@@ -216,8 +219,25 @@ def archived_judgements(run: RunData) -> list[dict]:
     return found
 
 
+def archived_cascade_checks(run: RunData) -> list[dict]:
+    """Every cascade check of the run, those of discarded conversations included."""
+    return list((run.judgement or {}).get("cascade_checks", []))
+
+
+def cascade_check_decider(check: Mapping) -> str | None:
+    """Who decided a cascade check: "jev" or "llm_judge".
+
+    Folders from before the two-stage check (user decision 2026-11-20) have no `decided_by`: Jev
+    decided when it gave p; after a Jev error nobody decided (the cascade simply went on).
+    """
+    if "decided_by" in check:
+        return check["decided_by"]
+    return "jev" if check.get("p") is not None else None
+
+
 def judge_escalation(runs: Sequence[RunData]) -> JudgeEscalation:
     deciders = Counter(j["decided_by"] for r in runs for j in archived_judgements(r))
+    deciders.update(cascade_check_decider(c) for r in runs for c in archived_cascade_checks(r))
     total = deciders["jev"] + deciders["llm_judge"]
     return JudgeEscalation(
         total, deciders["jev"], deciders["llm_judge"], share(deciders["llm_judge"], total)
@@ -301,6 +321,8 @@ class Cascades:
     max: int | None
     distribution: dict[int, int]  # length -> number of cascades
     episodes: list[EpisodeCascades]
+    checks: int = 0  # cascade checks decided by Jev or the LLM judge
+    checks_by_llm_judge: int = 0
 
 
 def cascades(runs: Sequence[RunData]) -> Cascades:
@@ -322,12 +344,15 @@ def cascades(runs: Sequence[RunData]) -> Cascades:
         )
     every = [n for e in episodes for n in e.lengths]
     s = summarize(every)
+    deciders = Counter(cascade_check_decider(c) for r in runs for c in archived_cascade_checks(r))
     return Cascades(
         len(every),
         s.mean,
         max(every) if every else None,
         dict(sorted(Counter(every).items())),
         episodes,
+        deciders["jev"] + deciders["llm_judge"],
+        deciders["llm_judge"],
     )
 
 
@@ -693,7 +718,8 @@ def render_markdown(report: Report) -> str:
     lines += [f"  - `{x.episode_id}` ({x.outcome}): {x.reason or '–'}" for x in s.escalated]
     j = report.judge_escalation
     lines += [
-        f"- Judge decisions by the LLM judge: {j.by_llm_judge} of {j.judgements} ({_pct(j.rate)})",
+        f"- Judge decisions by the LLM judge: {j.by_llm_judge} of {j.judgements} ({_pct(j.rate)}), "
+        "cascade checks included",
         "",
         "### Cascade length (D1)",
         "",
@@ -707,6 +733,7 @@ def render_markdown(report: Report) -> str:
         )
     else:
         lines.append("- No cascades.")
+    lines.append(f"- Cascade checks: {c.checks}, decided by the LLM judge: {c.checks_by_llm_judge}")
     lines += [
         f"  - `{x.episode_id}`: {x.regenerations} regenerations, lengths {x.lengths or '–'}, "
         f"mean {_num(x.mean)}, max {x.max if x.max is not None else '–'}"

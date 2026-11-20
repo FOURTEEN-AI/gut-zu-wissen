@@ -8,6 +8,7 @@ from gut_zu_wissen.archive import write_json
 from gut_zu_wissen.metrics import (
     RunData,
     build_report,
+    cascade_check_decider,
     cascade_lengths,
     cascades,
     cost,
@@ -279,6 +280,37 @@ def test_judge_escalation_counts_judgements_of_replaced_turn_versions(tmp_path):
     assert (j.judgements, j.by_jev, j.by_llm_judge, j.rate) == (2, 1, 1, 0.5)
 
 
+def test_judge_escalation_counts_cascade_checks(tmp_path):
+    write_run(tmp_path, "a", judgements=[{"decided_by": "jev"}])
+    run = load_runs(tmp_path)[0]
+    run.judgement["cascade_checks"] = [
+        {"conversation": 1, "turn_index": 2, "p": 0.74, "confirmed": True, "error": None,
+         "decided_by": "llm_judge", "reason": "Gleich."},
+        {"conversation": 1, "turn_index": 3, "p": 0.99, "confirmed": True, "error": None,
+         "decided_by": "jev", "reason": None},
+        # before the two-stage check: no decided_by
+        {"conversation": 2, "turn_index": 4, "p": 0.38, "confirmed": False, "error": None},
+        {"conversation": 2, "turn_index": 5, "p": None, "confirmed": False, "error": "429"},
+    ]  # fmt: skip
+    j = judge_escalation([run])
+    assert (j.judgements, j.by_jev, j.by_llm_judge, j.rate) == (4, 3, 1, 0.25)
+    c = cascades([run])
+    assert (c.checks, c.checks_by_llm_judge) == (3, 1)
+
+
+@pytest.mark.parametrize(
+    "check,expected",
+    [
+        ({"p": 0.5, "decided_by": "llm_judge"}, "llm_judge"),
+        ({"p": 0.99, "decided_by": "jev"}, "jev"),
+        ({"p": 0.74}, "jev"),
+        ({"p": None, "error": "429"}, None),
+    ],
+)
+def test_cascade_check_decider(check, expected):
+    assert cascade_check_decider(check) == expected
+
+
 # ---------------------------------------------------------------- cascades
 
 
@@ -546,6 +578,7 @@ def test_report_and_markdown(tmp_path):
     primary = text.index("- Primary, dialog audio only: mean 0.92")
     assert primary < text.index("- Secondary, whole episode audio (intro and outro included): ")
     assert "| Per dialog minute (primary) |" in text
+    assert "- Cascade checks: 0, decided by the LLM judge: 0" in text
 
 
 def test_markdown_on_an_empty_archive():
