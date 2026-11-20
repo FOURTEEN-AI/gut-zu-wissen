@@ -72,6 +72,10 @@ These retire the open risks before the build starts.
   - SVG → PNG (1400–3000 px, square), bundled font, no external resources.
 - Internet Archive upload via the S3 API (audio and episode cover).
 - Static Pages site: no external resources, `preload="none"`, legal pages linked on every page.
+  - Publish the plain-language explainer `site/so-funktionierts.html` (draft exists, phase 1). Before publishing:
+    - check the Impressum/Datenschutz link targets against how the site is actually served;
+    - replace the "trial phase, not yet published" wording;
+    - update the steps if the pipeline has changed since.
 - **RSS** with iTunes tags and stable GUIDs:
   - Category: Education.
   - Owner email: gut-zu-wissen@fourteen-it.de.
