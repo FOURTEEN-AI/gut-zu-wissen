@@ -79,7 +79,7 @@ These retire the open risks before the build starts.
   - Publish the plain-language explainer `site/so-funktionierts.html` (draft exists, phase 1). Before publishing:
     - check the Impressum/Datenschutz link targets against how the site is actually served: ✅ done (generated as `impressum.html`, `datenschutz.html`);
     - replace the "trial phase, not yet published" wording: ✅ done;
-    - update the steps if the pipeline has changed since.
+    - update the steps if the pipeline has changed since: ✅ checked (2026-11-20; numbers match `[quotas]`, D2, D4, D5; no change needed).
 - **RSS** with iTunes tags and stable GUIDs: ✅ Done in code (2026-11-20; `gut_zu_wissen.feed`, built with the site).
   - Category: Education.
   - Owner email: gut-zu-wissen@fourteen-it.de.

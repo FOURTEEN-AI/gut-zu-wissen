@@ -37,9 +37,9 @@ Stand: 2026-11-20. Entstanden, während Andreas abwesend war. Die Quelldokumente
 - **`site/so-funktionierts.html`, Abschnitt 5:** Der Satz „Im Moment liest er jeden dieser Beiträge …“ und der Probezeit-Absatz sind ersetzt. Neu: Die ersten fünf Folgen wurden vollständig geprüft, danach eine Auswahl, die nach fehlerfreien Folgen kleiner und nach einem Fehler größer wird. Das folgt `config/pipeline.toml` (`adjust_rate`, 2/3 und ×2). Nicht geändert: der Satz, dass Andreas auch die Einschätzung zu drastischen Inhalten prüft. Ob das bei Stichproben weiterhin jede Folge betrifft, steht in den Dokumenten nicht; bitte prüfen.
 - **`CLAUDE.md`:** Cover-Abschnitt (gebündelte Schrift), auf deine Anweisung.
 
-## Offen
+## Geprüft
 
-- **Erklärseite gegen die Pipeline prüfen:** Der Plan verlangt, die Schritte in `so-funktionierts.html` zu aktualisieren, falls sich die Pipeline seit dem Entwurf geändert hat. Das habe ich nicht geprüft (nur den Probezeit-Abschnitt angepasst).
+- **Erklärseite gegen die Pipeline:** Die Zahlen (20 bis 40 Fakten, 8 Wörter, 10 Fakten, 6 Monate, Stücke von etwa 6 Minuten, gesichtete Fassung) stimmen mit `[quotas]`, D2, D4 und D5 überein. Nicht erwähnt sind die Prüfung auf explizite Inhalte (D7) und Begrüßung/Abspann; das ist keine falsche Aussage, nur eine Lücke.
 
 ## Zurückgestellt
 
