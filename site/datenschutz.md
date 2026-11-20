@@ -84,4 +84,4 @@ Sie haben außerdem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu b
 
 Zur Ausübung Ihrer Rechte genügt eine E-Mail an info@fourteen-it.de.
 
-Stand: ⚠ [Datum bei Veröffentlichung]
+Stand: 22. November 2026
