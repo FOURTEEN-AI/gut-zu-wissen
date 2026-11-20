@@ -122,6 +122,8 @@ def write_run(
     review_data: dict | None = None,
     linked: dict | None = None,
     audio: bool = True,
+    resumed: list | None = None,
+    previous_audio: list | None = None,
 ) -> None:
     folder = root / "episodes" / episode_id
     write_json(
@@ -137,6 +139,7 @@ def write_run(
             "failure": failure,
             "usage": USAGE if usage is None else usage,
             **({"cost": cost} if cost is not None else {}),
+            **({"failed_step": None, "resumed": resumed} if resumed is not None else {}),
         },
     )
     write_json(
@@ -173,6 +176,7 @@ def write_run(
                 ],
                 "seconds": seconds,
                 "usd": None,
+                **({"previous_attempts": previous_audio} if previous_audio is not None else {}),
             },
         )
     if review_data is not None:
@@ -256,6 +260,45 @@ def test_escalation_rate_counts_failed_and_incomplete_runs(tmp_path):
 
 def test_escalation_rate_without_runs_is_none():
     assert escalation([]).rate is None
+
+
+RESUMED = [
+    {
+        "started_at": "2026-11-19T12:00:00Z",
+        "workflow_run": "1",
+        "previous_finished_at": "2026-11-19T10:40:00Z",
+        "previous_failure": "STT verification: …",
+    }
+]
+
+
+def test_resumed_run_counts_once_with_its_final_outcome(tmp_path):
+    write_run(tmp_path, "a", status="completed", review_data=review("a", []), resumed=RESUMED)
+    write_run(tmp_path, "b", status="failed", failure="TTS section 0: 429", resumed=RESUMED * 2)
+    write_run(tmp_path, "c", status="failed", failure="Gate living person: …")
+    e = escalation(load_runs(tmp_path))
+    assert (e.runs, e.completed, e.failed, e.incomplete) == (3, 1, 2, 0)
+    assert [(x.episode_id, x.outcome, x.resumed) for x in e.resumed] == [
+        ("a", "completed", 1),
+        ("b", "failed", 2),
+    ]
+    assert [(x.episode_id, x.resumed) for x in e.escalated] == [("b", 2), ("c", 0)]
+
+
+def test_resumed_run_is_marked_in_the_report(tmp_path):
+    write_run(
+        tmp_path, "a", status="completed", review_data=review("a", []), resumed=RESUMED,
+        finished_at="2026-11-19T12:10:00Z",
+    )  # fmt: skip
+    text = render_markdown(build_report(load_runs(tmp_path), load_config()))
+    assert "Runs: 1 (completed 1, failed 0, incomplete 0)" in text
+    assert (
+        "Resumed from the audio step (each counts as one run with its final outcome): "
+        "`a` (completed, resumed 1×)"
+    ) in text
+    assert "  - `a` (completed, resumed 1×): 20 min 00 s" in text
+    assert "without the time between them" in text
+    assert "every attempt included" in text
 
 
 def test_judge_escalation_share_leaves_out_gate_decisions(tmp_path):
@@ -362,6 +405,22 @@ def test_runtime_from_start_to_end():
     assert runtime_seconds({"started_at": "2026-11-19T10:30:00Z"}) is None
 
 
+def test_runtime_of_a_resumed_run_sums_its_attempts():
+    episode = {
+        "started_at": "2026-11-19T10:30:00Z",
+        "finished_at": "2026-11-19T12:10:00Z",
+        "resumed": RESUMED,
+    }
+    # 10:30-10:40 and 12:00-12:10; the gap is left out
+    assert runtime_seconds(episode) == 1200.0
+    second = {**RESUMED[0], "started_at": "2026-11-19T13:00:00Z",
+              "previous_finished_at": "2026-11-19T12:10:00Z"}  # fmt: skip
+    episode = {**episode, "finished_at": "2026-11-19T13:05:00Z", "resumed": [*RESUMED, second]}
+    assert runtime_seconds(episode) == 1500.0
+    unknown = [{**RESUMED[0], "previous_finished_at": None}]
+    assert runtime_seconds({**episode, "resumed": unknown}) is None
+
+
 def test_runtime_summary_covers_completed_runs_only(tmp_path):
     write_run(tmp_path, "a", review_data=review("a", []), finished_at="2026-11-19T10:40:00Z")
     write_run(tmp_path, "b", review_data=review("b", []), finished_at="2026-11-19T11:00:00Z")
@@ -387,6 +446,13 @@ def test_cost_sums_tts_claude_and_jev(tmp_path):
     # author 1M * 3 + 0.1M * 15 = 4.5; judge 0.2M * 3 = 0.6; Jev 0.5M * 0.042, output free
     assert by_part == {"tts": 0.09, "author": 4.5, "llm_judge": 0.6, "jev": 0.021}
     assert c.known_usd == pytest.approx(5.211) and c.complete
+
+
+def test_cost_without_stored_cost_includes_earlier_audio_attempts(tmp_path):
+    write_run(tmp_path, "a", review_data=review("a", []), section_usd=(0.05, 0.04),
+              previous_audio=[{"sections": [{"usd": 0.1}]}], resumed=RESUMED)  # fmt: skip
+    c = run_cost(load_runs(tmp_path)[0], PRICES)
+    assert {p.part: p.usd for p in c.parts}["tts"] == 0.19 and c.resumed == 1
 
 
 def test_placeholder_prices_leave_the_claude_cost_unknown_and_are_named(tmp_path):

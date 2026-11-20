@@ -4,7 +4,9 @@ Exit criterion: `exit_criteria.episodes` episodes fully reviewed (review status 
 drawn turn and the explicit check (D7) have a label) whose sample was drawn at
 `exit_criteria.rate` (100 %).
 
-Measured over every run in the archive (one run = one episode folder):
+Measured over every run in the archive (one run = one episode folder). An episode resumed from
+the audio step (`resumed` in `episode.json`, user decision 2026-11-20) stays one run: its final
+status counts, and the report marks it as resumed;
 
 - facts used per minute (completed runs): used facts of the final script (`06_judgement.json`,
   `used_fact_ids`) per minute of dialog audio (sum of the accepted section durations in
@@ -19,11 +21,13 @@ Measured over every run in the archive (one run = one episode folder):
 - cascade length: per triggering turn regeneration, the number of distinct neighbour turns the
   cascade regenerated (D1), from the regenerations in `05_dialog.json`; plus the cascade checks
   and how many of them the LLM judge decided (two-stage check, user decision 2026-11-20);
-- runtime: `finished_at - started_at` of `episode.json`;
+- runtime: `finished_at - started_at` of `episode.json`; for a resumed run the sum of its
+  attempts (each from its start to its end, the time between them left out);
 - cost: as stored in `episode.json` (`cost`) at run time, with the prices then in force; older
   folders without it fall back to TTS from `08_audio.json` and the token counts (`usage`) at
   today's config prices, and the report names them; a missing count or a placeholder price
-  leaves that part unknown and is named in the report;
+  leaves that part unknown and is named in the report; for a resumed run every attempt is
+  included (token counts summed, TTS of the earlier audio attempts in `previous_attempts`);
 - error rate by revision status (D2): share of labelled turns labelled "nicht belegt", by the
   revision status of the articles the turn cites, and share of answered reviews with an error,
   by the main article's revision status;
@@ -60,9 +64,9 @@ from gut_zu_wissen.usage import (
     PRICE_KEYS,
     TTS_PART,
     USD_DIGITS,
+    audio_tts_cost_usd,
     is_price,
     token_cost,
-    tts_cost_usd,
 )
 
 Outcome = Literal["completed", "failed", "incomplete"]
@@ -157,11 +161,17 @@ def run_outcome(run: RunData) -> Outcome:
     return "completed" if run.review is not None else "incomplete"
 
 
+def resume_count(episode: Mapping) -> int:
+    """How often the run was resumed from the audio step (0 in folders from before resuming)."""
+    return len(episode.get("resumed") or [])
+
+
 @dataclass
 class RunEscalation:
     episode_id: str
     outcome: Outcome
     reason: str | None
+    resumed: int = 0
 
 
 @dataclass
@@ -175,16 +185,17 @@ class Escalation:
     incomplete: int
     rate: float | None
     escalated: list[RunEscalation]
+    resumed: list[RunEscalation] = field(default_factory=list)  # every resumed run, any outcome
 
 
 def escalation(runs: Sequence[RunData]) -> Escalation:
     outcomes = [(r, run_outcome(r)) for r in runs]
     counts = Counter(o for _, o in outcomes)
-    escalated = [
-        RunEscalation(r.episode_id, o, r.episode.get("failure"))
+    every = [
+        RunEscalation(r.episode_id, o, r.episode.get("failure"), resume_count(r.episode))
         for r, o in outcomes
-        if o != "completed"
     ]
+    escalated = [e for e in every if e.outcome != "completed"]
     return Escalation(
         len(runs),
         counts["completed"],
@@ -192,6 +203,7 @@ def escalation(runs: Sequence[RunData]) -> Escalation:
         counts["incomplete"],
         share(len(escalated), len(runs)),
         escalated,
+        [e for e in every if e.resumed],
     )
 
 
@@ -364,6 +376,7 @@ class RunRuntime:
     episode_id: str
     outcome: Outcome
     seconds: float | None
+    resumed: int = 0
 
 
 @dataclass
@@ -373,15 +386,35 @@ class Runtime:
 
 
 def runtime_seconds(episode: Mapping) -> float | None:
-    """From the start of the run to its end; None when the end was not recorded."""
+    """From the start of the run to its end; None when the end was not recorded.
+
+    A resumed run sums its attempts: the first from `started_at` to the end of that attempt
+    (`previous_finished_at` of the first resume), each resume from its `started_at` to the end
+    of the next attempt, the last one to `finished_at`. The time between attempts is left out.
+    """
     if not episode.get("started_at") or not episode.get("finished_at"):
         return None
-    delta = parse_timestamp(episode["finished_at"]) - parse_timestamp(episode["started_at"])
-    return delta.total_seconds()
+    starts = [episode["started_at"]]
+    ends = []
+    for resume in episode.get("resumed") or []:
+        if not resume.get("previous_finished_at"):
+            return None
+        ends.append(resume["previous_finished_at"])
+        starts.append(resume["started_at"])
+    ends.append(episode["finished_at"])
+    return sum(
+        (parse_timestamp(end) - parse_timestamp(start)).total_seconds()
+        for start, end in zip(starts, ends, strict=True)
+    )
 
 
 def runtime(runs: Sequence[RunData]) -> Runtime:
-    per_run = [RunRuntime(r.episode_id, run_outcome(r), runtime_seconds(r.episode)) for r in runs]
+    per_run = [
+        RunRuntime(
+            r.episode_id, run_outcome(r), runtime_seconds(r.episode), resume_count(r.episode)
+        )
+        for r in runs
+    ]
     return Runtime(
         summarize(r.seconds for r in per_run if r.outcome == "completed" and r.seconds is not None),
         per_run,
@@ -406,6 +439,7 @@ class RunCost:
     known_usd: float
     complete: bool
     todays_prices: bool = False  # no cost stored at run time: computed with today's prices
+    resumed: int = 0
 
 
 NO_TTS_COST = "a synthesis without token count or price"
@@ -417,7 +451,7 @@ def tts_cost(run: RunData, outcome: Outcome) -> CostPart:
         if outcome == "incomplete":
             return CostPart(TTS_PART, None, "no 08_audio.json (run still running or not recorded)")
         return CostPart(TTS_PART, 0.0, "no synthesis")
-    usd = tts_cost_usd(run.audio.get("sections", []))
+    usd = audio_tts_cost_usd(run.audio)
     return CostPart(TTS_PART, usd, NO_TTS_COST if usd is None else None)
 
 
@@ -476,6 +510,7 @@ def run_cost(run: RunData, prices: Mapping) -> RunCost:
         known,
         all(p.usd is not None for p in parts),
         todays_prices=not stored,
+        resumed=resume_count(run.episode),
     )
 
 
@@ -658,6 +693,10 @@ def _duration(seconds: float | None) -> str:
     return f"{minutes} min {rest:02d} s"
 
 
+def _resumed(count: int) -> str:
+    return f", resumed {count}×" if count else ""
+
+
 def _summary(s: Summary, fmt=_num) -> str:
     if not s.count:
         return "no data"
@@ -715,7 +754,15 @@ def render_markdown(report: Report) -> str:
         f"- Runs: {s.runs} (completed {s.completed}, failed {s.failed}, "
         f"incomplete {s.incomplete}); escalated: {_pct(s.rate)}",
     ]
-    lines += [f"  - `{x.episode_id}` ({x.outcome}): {x.reason or '–'}" for x in s.escalated]
+    lines += [
+        f"  - `{x.episode_id}` ({x.outcome}{_resumed(x.resumed)}): {x.reason or '–'}"
+        for x in s.escalated
+    ]
+    if s.resumed:
+        lines.append(
+            "- Resumed from the audio step (each counts as one run with its final outcome): "
+            + ", ".join(f"`{x.episode_id}` ({x.outcome}{_resumed(x.resumed)})" for x in s.resumed)
+        )
     j = report.judge_escalation
     lines += [
         f"- Judge decisions by the LLM judge: {j.by_llm_judge} of {j.judgements} ({_pct(j.rate)}), "
@@ -746,7 +793,12 @@ def render_markdown(report: Report) -> str:
         "",
         f"- Completed runs: {_summary(r.completed, _duration)}",
     ]
-    lines += [f"  - `{x.episode_id}` ({x.outcome}): {_duration(x.seconds)}" for x in r.runs]
+    lines += [
+        f"  - `{x.episode_id}` ({x.outcome}{_resumed(x.resumed)}): {_duration(x.seconds)}"
+        for x in r.runs
+    ]
+    if any(x.resumed for x in r.runs):
+        lines.append("- Resumed runs: the sum of all attempts, without the time between them.")
     k = report.cost
     lines += [
         "",
@@ -757,10 +809,15 @@ def render_markdown(report: Report) -> str:
         f"- Mean per completed episode: {_usd(k.completed_mean_usd)}",
     ]
     lines += [
-        f"  - `{x.episode_id}` ({x.outcome}): {_usd(x.known_usd)}"
+        f"  - `{x.episode_id}` ({x.outcome}{_resumed(x.resumed)}): {_usd(x.known_usd)}"
         + ("" if x.complete else " known, parts unknown")
         for x in k.runs
     ]
+    if any(x.resumed for x in k.runs):
+        lines.append(
+            "- Resumed runs: every attempt included (token counts summed, TTS of the earlier "
+            "audio attempts), at the prices in force at the last attempt."
+        )
     if k.missing:
         lines += ["- Unknown parts:", *(f"  - {m}" for m in k.missing)]
     if k.todays_prices:

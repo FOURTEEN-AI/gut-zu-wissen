@@ -310,3 +310,25 @@ def test_previous_attempts_flattens_oldest_first():
     second = {"file": None, "previous_attempts": [{"file": None}]}
     assert previous_attempts(first) == [{"file": None}]
     assert previous_attempts(second) == [{"file": None}, {"file": None}]
+
+
+# ---------------------------------------------------------------- metrics
+
+
+def test_metrics_count_a_resumed_episode_as_one_run(tmp_path):
+    from gut_zu_wissen.metrics import escalation, load_runs, run_cost, runtime
+
+    failed_in_audio(tmp_path)
+    resume(tmp_path)
+    runs = load_runs(tmp_path)
+    assert [r.episode_id for r in runs] == [EPISODE]
+    e = escalation(runs)
+    assert (e.runs, e.completed, e.failed, e.escalated) == (1, 1, 0, [])
+    assert [(x.episode_id, x.outcome, x.resumed) for x in e.resumed] == [(EPISODE, "completed", 1)]
+    # 10:30:00-10:47:12 and 09:00:00-09:12:30
+    assert runtime(runs).runs[0].seconds == 1032 + 750
+    c = run_cost(runs[0], CONFIG["prices"])
+    assert c.resumed == 1
+    assert {p.part: p.usd for p in c.parts}["tts"] == audio_tts_cost_usd(
+        read(tmp_path, "08_audio.json")
+    )
