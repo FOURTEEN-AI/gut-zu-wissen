@@ -1,3 +1,6 @@
+import json
+from pathlib import Path
+
 import pytest
 
 from gut_zu_wissen.dialog import Statement, Turn
@@ -8,6 +11,7 @@ from gut_zu_wissen.judge import (
     Decision,
     TurnJudgement,
     build_request,
+    completeness_question,
     decide,
     format_judge_input,
     judge_dialog,
@@ -163,3 +167,16 @@ def test_used_facts_count_only_accepted_turns():
 def test_judged_facts_gate_boundary():
     assert judged_facts_gate(10, 10) is None
     assert "D5" in judged_facts_gate(9, 10)
+
+
+COMPLETENESS_RUN = (
+    Path(__file__).parent / "fixtures/wikipedia/spikes/s1_completeness_results/jev-1.14.0_0.json"
+)
+
+
+def test_completeness_question_is_the_one_measured_on_real_turns():
+    # spikes/s1_completeness.py measured wording variants against `old`; the production
+    # question must stay the measured one until a new measurement replaces it.
+    records = json.loads(COMPLETENESS_RUN.read_text())
+    measured = {json.dumps(r["requests"][0]["request"]["questions"]["old"]) for r in records}
+    assert measured == {json.dumps(completeness_question())}
