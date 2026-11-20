@@ -29,7 +29,7 @@ Beim Aufruf der Website oder des Feeds verarbeitet GitHub technisch notwendige Z
 
 Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis unseres berechtigten Interesses an der zuverlässigen und sicheren Bereitstellung der Website und des Feeds. Wir selbst haben keinen Zugriff auf diese Logfiles.
 
-Dabei werden Daten in die USA übermittelt. ⚠ [Prüfen: Grundlage der Übermittlung, z. B. Zertifizierung von GitHub unter dem EU-US Data Privacy Framework oder Standardvertragsklauseln.]
+Dabei werden Daten in die USA übermittelt. Die Übermittlung stützt sich auf den Angemessenheitsbeschluss der EU-Kommission zum EU-US Data Privacy Framework (Art. 45 DSGVO), unter dem GitHub bzw. Microsoft zertifiziert ist. Hilfsweise gelten Standardvertragsklauseln (Art. 46 DSGVO).
 
 Weitere Informationen: Datenschutzerklärung von GitHub (GitHub General Privacy Statement).
 
@@ -41,7 +41,7 @@ Wenn Sie eine Folge auf der Website abspielen oder herunterladen oder Ihre Podca
 
 Die Verarbeitung erfolgt gemäß Art. 6 Abs. 1 lit. f DSGVO auf Basis unseres berechtigten Interesses an der dauerhaften und kostenfreien Bereitstellung der Folgen.
 
-Dabei werden Daten in die USA übermittelt. ⚠ [Prüfen: Grundlage der Übermittlung an das Internet Archive.]
+Dabei werden Daten in die USA übermittelt. Die Übermittlung erfolgt erst, wenn Sie die Wiedergabe oder den Download aktiv starten bzw. Ihre Podcast-App die Datei auf Ihre Veranlassung lädt (Art. 49 Abs. 1 DSGVO).
 
 Weitere Informationen: Datenschutzerklärung des Internet Archive.
 
@@ -59,9 +59,9 @@ Sie können uns Feedback zum Podcast an gut-zu-wissen@fourteen-it.de senden. Dab
 
 **Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO auf Basis unseres berechtigten Interesses an Rückmeldungen zum Podcast und an der Beantwortung Ihrer Nachricht.
 
-**Speicherdauer:** Wir löschen Ihre Nachricht, sobald sie abschließend bearbeitet ist, spätestens jedoch nach ⚠ [Frist festlegen, z. B. 12 Monaten], sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
+**Speicherdauer:** Wir löschen Ihre Nachricht, sobald sie abschließend bearbeitet ist, spätestens jedoch nach 6 Monaten, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen.
 
-**E-Mail-Postfach:** ⚠ [Prüfen: Anbieter des Postfachs nennen, z. B. IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, mit dem ein Auftragsverarbeitungsvertrag besteht.]
+**E-Mail-Postfach:** Das Postfach wird bei IONOS SE, Elgendorfer Str. 57, 56410 Montabaur, betrieben. Mit IONOS besteht ein Auftragsverarbeitungsvertrag.
 
 ## 7. Erstellung der Inhalte mit KI
 
