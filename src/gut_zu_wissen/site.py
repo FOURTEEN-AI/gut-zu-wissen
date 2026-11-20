@@ -131,7 +131,7 @@ def page(title: str, body: str, root: str, config: dict, description: str = "") 
       <li><a href="{root}feed.xml">RSS-Feed</a></li>
     </ul>
   </nav>
-  <p>Ein Projekt der {html.escape(config["author"])}. Inhalte aus der deutschsprachigen Wikipedia, Lizenz <a href="{LICENCE_URL}">CC BY-SA 4.0</a>. Unabhängig von der Wikimedia Foundation.</p>
+  <p>Ein Projekt von {html.escape(config["author"])}. Inhalte aus der deutschsprachigen Wikipedia, Lizenz <a href="{LICENCE_URL}">CC BY-SA 4.0</a>. Unabhängig von der Wikimedia Foundation.</p>
 </footer>
 </body>
 </html>
