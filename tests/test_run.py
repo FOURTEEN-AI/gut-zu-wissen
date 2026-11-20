@@ -456,6 +456,25 @@ def test_einordnung_is_archived_and_offered_first_outside_the_ranking(tmp_path):
     assert list(dialog["aliases"].values())[:2] == ["5-0000", "5-0002"]
 
 
+def test_first_prose_sentence_stays_einordnung_one_after_a_rejection(tmp_path):
+    # Every turn of conversation 1 cites F1, the first prose sentence, and is rejected; D6 does
+    # not exclude it, so the fresh offer still opens with it (archive 2026-11-20_bernstein).
+    text = "Erster Satz im Artikel hier.\n\nZweiter Satz im Artikel hier.\n\n== A ==\nEin Satz."
+    config = {**CONFIG, "quotas": {**CONFIG["quotas"], "einordnung_facts_max": 2}}
+    llm = RetryLlm()
+    episode_id = run(
+        FakeApi("Rotfuchs", [], text=text), llm, tmp_path, config, "Rotfuchs", NOW, WrongTextJev()
+    )
+    folder = tmp_path / "episodes" / episode_id
+    dialog = json.loads((folder / "05_dialog.json").read_text())
+    (discarded,) = dialog["discarded_conversations"]
+    assert discarded["regeneration"] == "fresh" and discarded["excluded_fact_ids"] == []
+    ranking = json.loads((folder / "04_ranking.json").read_text())
+    assert [r["fact"]["segment_id"] for r in ranking["einordnung_facts"]] == ["5-0000", "5-0001"]
+    assert ranking["excluded_fact_ids"] == []
+    assert dialog["turns"][0]["fact_ids"] == ["5-0000"]
+
+
 def test_unknown_fact_id_in_dialog_fails_the_run(tmp_path):
     llm = FakeLlm(felix={"fact_ids": ["9-9999"]})
     # The fake author cannot repair the turn, so every conversation fails the same way.

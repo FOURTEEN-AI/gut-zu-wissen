@@ -27,7 +27,7 @@ flowchart TD
     G1 --> R[Ranking nach Überraschung: 20–40 Fakten]
     R --> L[Einleitungen verlinkter Artikel]
     L --> X2[Extraktion + Gate + Ranking: 6–12 Fakten]
-    S --> E[Einordnung: erste Einleitungssätze + Gate, bis 4]
+    S --> E[Einordnung: erste Einleitungssätze + Gate, bis 2]
     E --> D
     R --> D[Dialogautor]
     X2 --> D
@@ -79,7 +79,7 @@ flowchart TD
 
 - **Kriterium:** nur Überraschung (LLM, probabilistisch); bei verlinkten Einleitungen nur unter Fakten, die direkt mit dem Hauptthema verbunden sind.
 - **Kontingent:** 20–40 Fakten Hauptartikel, 6–12 Fakten verlinkte Einleitungen (eigenes Ranking, nur Fakten direkt mit dem Hauptthema verbunden: über das Hauptthema selbst oder seine direkte Beziehung zum verlinkten Gegenstand, nicht über den verlinkten Gegenstand allein). Über das Minimum hinaus nur wirklich überraschende Fakten ohne Dopplung; liefert die Extraktion weniger als das Minimum, wird angeboten, was da ist. Angebot, keine Pflicht.
-- **Einordnung:** die ersten Sätze der Einleitung des Hauptartikels (Text vor der ersten Überschrift), in Artikelreihenfolge, bis zu `einordnung_facts_max` (4), werden immer angeboten, außerhalb des Rankings und des Kontingents. Nur die deterministischen Fakt-Gates (eindeutig, Mindestwörter, vollständiger Satz); ein Satz, der eines verfehlt, wird übersprungen. Keine Infobox-Zeilen. Ein Segment, das auch extrahiert wurde, steht nur als Einordnung im Angebot. Im Angebot zuerst, mit Vermerk „(Einordnung)“; das Gespräch beginnt mit einer kurzen Einordnung daraus (was, wann, wo). Ausschluss nach D6 wie bei anderen Fakten.
+- **Einordnung:** die ersten Sätze der Einleitung des Hauptartikels (Text vor der ersten Überschrift), in Artikelreihenfolge, bis zu `einordnung_facts_max` (2), werden immer angeboten, außerhalb des Rankings und des Kontingents. Nur die deterministischen Fakt-Gates (eindeutig, Mindestwörter, vollständiger Satz); ein Satz, der eines verfehlt, wird übersprungen. Keine Infobox-Zeilen. Der erste Prosasatz der Einleitung (meist die Definition) ist immer Einordnung Nr. 1, sofern er die Gates besteht (Entscheidung 2026-11-20); ihn schließt D6 nie aus. Für die übrigen gilt der Ausschluss nach D6 wie bei anderen Fakten. Einordnungssätze werden nie zusätzlich gerankt oder als Hauptfakten angeboten; ein Segment, das auch extrahiert wurde, steht nur als Einordnung im Angebot. Im Angebot zuerst, mit Vermerk „(Einordnung)“; das Gespräch beginnt mit einer kurzen Einordnung daraus (was, wann, wo).
 - **Schätzung:** 15 Minuten ≈ 2.000–2.300 Wörter, ein Fakt ≈ 100–150 Wörter → 15–20 Fakten.
 - **Nachjustieren:** nach ersten Folgen anhand „verwendete Fakten pro Minute“.
 

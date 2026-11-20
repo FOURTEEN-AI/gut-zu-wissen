@@ -49,7 +49,13 @@ from gut_zu_wissen.archive import (
     write_json,
 )
 from gut_zu_wissen.dialog import Turn
-from gut_zu_wissen.einordnung import intro_candidates, render_candidates, select_einordnung
+from gut_zu_wissen.einordnung import (
+    first_prose_sentence,
+    intro_candidates,
+    pinned_ids,
+    render_candidates,
+    select_einordnung,
+)
 from gut_zu_wissen.episode_audio import (
     EPISODE_AUDIO,
     AudioRecord,
@@ -261,19 +267,22 @@ def run(
         quotas = config["quotas"]
         opening = intro_candidates(segments, quotas["max_context_segments"])
         opening_plain = render_candidates(renderer, article.title, segments, opening)
+        first_sentence = first_prose_sentence(segments)
         by_target: dict[str, LinkedIntro | None] = {}
         skipped: list[SkippedLink] = []
         written: set[str] = set()
 
         def make_offer(excluded: frozenset[str]) -> Offer:
             """Einordnung and both rankings without the excluded facts (D6); linked intros are
-            fetched once. Einordnung facts leave the main ranking, so its quota takes the next."""
+            fetched once. Einordnung facts leave the main ranking, so its quota takes the next.
+            The first prose sentence of the intro stays Einordnung #1 (pinned)."""
             einordnung = select_einordnung(
                 opening,
                 opening_plain,
                 quotas["min_fact_words"],
                 quotas["einordnung_facts_max"],
                 excluded,
+                first_sentence,
             )
             main = rank_facts(
                 llm,
@@ -356,7 +365,9 @@ def run(
             failure = offer_gate(offered, quotas["min_used_facts"])
             if failure:
                 raise GateFailure(failure)
-            return Offer(main_ranked, linked, einordnung_ranked)
+            return Offer(
+                main_ranked, linked, einordnung_ranked, pinned_ids(einordnung, first_sentence)
+            )
 
         step = STEP_DIALOG
         state = Orchestration()

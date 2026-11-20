@@ -1,0 +1,182 @@
+{
+  "title": "Bernstein",
+  "revid": 271638927,
+  "source": "archive/episodes/2026-11-20_bernstein (02_segments.json, 04_ranking.json, 05_dialog.json)",
+  "note": "Intro of the article up to segment 0021 (infobox rows, then the first prose sentences), the plain text of the rendered intro sentences, and the facts excluded after conversation 1 (D6). CC BY-SA 4.0, see NOTICE.",
+  "segments": [
+    {
+      "id": "271638927-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Andere_Namen            = * Succinit\n* Electrum, umgangssprachlich auch als „Baltischer Bernstein“ bezeichnet\n* ēlektron",
+      "plain": "Infobox Mineral – Allgemeines und Klassifikation – Andere Namen: Succinit Electrum, umgangssprachlich auch als „Baltischer Bernstein“ bezeichnet ēlektron"
+    },
+    {
+      "id": "271638927-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Chemismus               = Angenäherte Summenformel: C<sub>10</sub>H<sub>16</sub>O+(H<sub>2</sub>S)",
+      "plain": "Infobox Mineral – Allgemeines und Klassifikation – Chemische Formel: Angenäherte Summenformel: C10H16O+(H2S)"
+    },
+    {
+      "id": "271638927-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Mineralklasse           = Organische Verbindungen – diverse organische Mineralien",
+      "plain": "Infobox Mineral – Allgemeines und Klassifikation – Mineralklasse (und ggf. Abteilung): Organische Verbindungen – diverse organische Mineralien"
+    },
+    {
+      "id": "271638927-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Kurzform_Strunz_8       = IX/C.01 | Kurzform_Strunz_9       = 10.C | Kurzform_Dana           = 50.00.00.00\n<!-- Kristallographie -->",
+      "plain": "Infobox Mineral – Allgemeines und Klassifikation – System-Nummer nach Strunz (8. Aufl.) Strunz (9. Aufl.) Dana: IX/C.01 10.C 50.00.00.00"
+    },
+    {
+      "id": "271638927-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Ähnliche_Minerale       = keine\n<!-- Allgemeines und Klassifikation -->",
+      "plain": "Infobox Mineral – Allgemeines und Klassifikation – Ähnliche Minerale: keine"
+    },
+    {
+      "id": "271638927-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Mohshärte               = 2 bis 2,5",
+      "plain": "Infobox Mineral – Physikalische Eigenschaften – Mohshärte: 2 bis 2,5"
+    },
+    {
+      "id": "271638927-0006",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Dichte                  = 1,05 bis 1,096",
+      "plain": "Infobox Mineral – Physikalische Eigenschaften – Dichte (g/cm3): 1,05 bis 1,096"
+    },
+    {
+      "id": "271638927-0007",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Spaltbarkeit            = keine",
+      "plain": "Infobox Mineral – Physikalische Eigenschaften – Spaltbarkeit: keine"
+    },
+    {
+      "id": "271638927-0008",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Bruch                   = muschelig, spröde",
+      "plain": "Infobox Mineral – Physikalische Eigenschaften – Bruch; Tenazität: muschelig, spröde"
+    },
+    {
+      "id": "271638927-0009",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Farbe                   = [[Honigfarben|honiggelb]], gelbweiß, orange, rot, grünlich, braun, schwarz, selten blass",
+      "plain": "Infobox Mineral – Physikalische Eigenschaften – Farbe: honiggelb, gelbweiß, orange, rot, grünlich, braun, schwarz, selten blass"
+    },
+    {
+      "id": "271638927-0010",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Strichfarbe             = weiß",
+      "plain": "Infobox Mineral – Physikalische Eigenschaften – Strichfarbe: weiß"
+    },
+    {
+      "id": "271638927-0011",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Transparenz             = durchsichtig, durchscheinend, undurchsichtig",
+      "plain": "Infobox Mineral – Physikalische Eigenschaften – Transparenz: durchsichtig, durchscheinend, undurchsichtig"
+    },
+    {
+      "id": "271638927-0012",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Glanz                   = Fettglanz, matt",
+      "plain": "Infobox Mineral – Physikalische Eigenschaften – Glanz: Fettglanz, matt"
+    },
+    {
+      "id": "271638927-0013",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Brechungsindex_n        = 1,540 (−0,001 bis +0,005)",
+      "plain": "Infobox Mineral – Kristalloptik – Brechungsindex: n = 1,540 (−0,001 bis +0,005)"
+    },
+    {
+      "id": "271638927-0014",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Doppelbrechung          = keine",
+      "plain": "Infobox Mineral – Kristalloptik – Doppelbrechung: keine"
+    },
+    {
+      "id": "271638927-0015",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | chemisches_Verhalten    = reagiert mit Sauerstoff, schwach konzentrierten Säuren und Laugen sowie mit Ölen, resistent gegen [[Ether]], [[Aceton]] und [[Schwefelsäure]]",
+      "plain": "Infobox Mineral – Weitere Eigenschaften – Chemisches Verhalten: reagiert mit Sauerstoff, schwach konzentrierten Säuren und Laugen sowie mit Ölen, resistent gegen Ether, Aceton und Schwefelsäure"
+    },
+    {
+      "id": "271638927-0016",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | besondere_Kennzeichen   = brennbar, hoher [[Spezifischer Widerstand|elektrischer Widerstand]] (10<sup>14</sup>&nbsp;bis&nbsp;10<sup>18</sup>&nbsp;Ω·m<ref name=\"Wächter\">{{Internetquelle |autor=Michael Wächter |url= https://application.wiley-vch.de/books/sample/3527329609_suppl.pdf#page=59 |titel=Tabellenbuch zur Chemie. Ergänzendes Online-Angebot zu o. g. Nachschlagewerk |werk=application.wiley-vch.de |hrsg=[[Wiley-VCH Verlag]] |datum=2012-06-14 |abruf=2021-06-28 |format=PDF&nbsp;4,1&nbsp;MB |sprache=de}}</ref>), lädt sich bei Reibung elektrostatisch auf",
+      "plain": "Infobox Mineral – Weitere Eigenschaften – Besondere Merkmale: brennbar, hoher elektrischer Widerstand (1014 bis 1018 Ω·m), lädt sich bei Reibung elektrostatisch auf"
+    },
+    {
+      "id": "271638927-0017",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Bernstein''' bezeichnet einen seit Jahrtausenden bekannten und insbesondere im [[Ostsee]]raum verbreiteten klaren bis undurchsichtigen gelben oder gelbbraunen [[Schmuckstein]] aus [[fossil]]em [[Harz (Material)|Harz]].",
+      "plain": null
+    },
+    {
+      "id": "271638927-0018",
+      "type": "sentence",
+      "section": "",
+      "raw": "Damit ist überwiegend ein bestimmtes fossiles Harz gemeint: Dieser Bernstein im engeren Sinne ist die Bernsteinart<ref name=\"Fuhrmann_Borsdorf\">Roland Fuhrmann, Rolf Borsdorf: ''Die Bernsteinarten des Untermiozäns von Bitterfeld.'' In: ''[[Zeitschrift für Angewandte Geologie]].'' Band 32, Berlin 1986, S.&nbsp;309–316, [[:Datei:Bernstein Bitterfeld, Artikel 1986.pdf|PDF]].</ref> mit dem wissenschaftlichen Namen ''[[#Baltischer Bernstein|Succinit]]''.",
+      "plain": null
+    },
+    {
+      "id": "271638927-0019",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Bezeichnungen ''Succinit'' und ''Baltischer Bernstein'' werden oft synonym verwendet, da Succinit den weitaus überwiegenden Teil des Baltischen Bernsteins ausmacht.",
+      "plain": null
+    },
+    {
+      "id": "271638927-0020",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die anderen fossilen Harze im ''Baltischen Bernstein'' stammen von unterschiedlichen Pflanzenarten und werden auch als „Bernstein im weiteren Sinne“<ref name=\"Kosmowska-Ceranowicz\">Barbara Kosmowska-Ceranowicz: ''Gegenüberstellung ausgewählter Bernsteinarten und deren Eigenschaften aus verschiedenen geographischen Regionen.'' In: ''Exkursionsführer und Veröffentlichungen der [[Deutsche Gesellschaft für Geowissenschaften|Deutschen Gesellschaft für Geowissenschaften]].'' Heft 236, Duderstadt 2008, ISBN 978-3-936617-86-3, S.&nbsp;61–68.</ref> bezeichnet.",
+      "plain": null
+    },
+    {
+      "id": "271638927-0021",
+      "type": "sentence",
+      "section": "",
+      "raw": "Manche kommen mit dem Succinit zusammen vor, z.&nbsp;B. die schon lange aus den baltischen Vorkommen bekannten Bernsteinarten [[Gedanit]], [[Glessit]], [[Beckerit]] und [[Stantienit]].",
+      "plain": null
+    }
+  ],
+  "plain": {
+    "271638927-0017": "Bernstein bezeichnet einen seit Jahrtausenden bekannten und insbesondere im Ostseeraum verbreiteten klaren bis undurchsichtigen gelben oder gelbbraunen Schmuckstein aus fossilem Harz.",
+    "271638927-0018": "Damit ist überwiegend ein bestimmtes fossiles Harz gemeint: Dieser Bernstein im engeren Sinne ist die Bernsteinart mit dem wissenschaftlichen Namen Succinit.",
+    "271638927-0019": "Die Bezeichnungen Succinit und Baltischer Bernstein werden oft synonym verwendet, da Succinit den weitaus überwiegenden Teil des Baltischen Bernsteins ausmacht.",
+    "271638927-0020": "Die anderen fossilen Harze im Baltischen Bernstein stammen von unterschiedlichen Pflanzenarten und werden auch als „Bernstein im weiteren Sinne“ bezeichnet.",
+    "271638927-0021": "Manche kommen mit dem Succinit zusammen vor, z. B. die schon lange aus den baltischen Vorkommen bekannten Bernsteinarten Gedanit, Glessit, Beckerit und Stantienit."
+  },
+  "excluded_after_conversation_1": [
+    "265990984-0003",
+    "269227813-0010",
+    "269413862-0000",
+    "271638927-0017",
+    "271638927-0041",
+    "271638927-0272",
+    "271638927-0477",
+    "271638927-0536",
+    "271638927-0587",
+    "271638927-0627",
+    "271638927-0753"
+  ]
+}
