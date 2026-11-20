@@ -26,3 +26,4 @@ Stand: 2026-11-20. Gebaut nach deiner Vorgabe „Baue Phase 3; Veröffentlichung
 10. **Label `hold` ist angelegt** (rot, mit Beschreibung), damit du es am Issue nur noch auswählen musst.
 11. **Pages in zwei Jobs getrennt** (Build, Deploy). Der gemeinsame Job scheiterte in drei von vier Läufen mit „No artifacts named github-pages". Der Testlauf nach der Änderung war grün; ob das Problem damit endgültig weg ist, zeigen die nächsten Läufe.
 12. **README:** Secret-Namen korrigiert (`ARCHIVE_S3_*`, vorher fälschlich `IA_S3_*`), Abschnitt zu Veröffentlichung und Tageslauf ergänzt.
+13. **Lexikon:** Der Eintrag „Andikythira" steht jetzt in `archive/episodes/2026-11-20_mechanismus-von-antikythera/pronunciation.json`. Das allgemeine Lexikon in der Config ist leer (nur ein auskommentiertes Muster) und bleibt für Namen, die in vielen Folgen vorkommen.

@@ -113,13 +113,14 @@ limiter_release_db_per_second = 60.0    # 6 dB in 100 ms
 loudness_tolerance_lu = 0.1             # accepted deviation of the output from the target
 loudness_max_iterations = 8             # gain/ceiling corrections before the run fails
 
-# Names the TTS voices get wrong (decided 2026-11-20). `spoken` goes to the TTS instead of
-# `written`; `heard` lists what Whisper writes for it, which counts as `written` in the check.
-# Script and archive keep `written`.
-[[pronunciation]]
-written = "Andikythira"
-spoken = "Andikütira"
-heard = ["Antikythera", "Antikytheros", "Antikythira", "Andikythera"]
+# General pronunciation lexicon: names the TTS voices get wrong in many episodes (decided
+# 2026-11-20). Empty for now; an entry for a single episode belongs in `pronunciation.json` in
+# its archive folder. `spoken` goes to the TTS instead of `written`; `heard` lists what Whisper
+# writes for it, which counts as `written` in the check. Script and archive keep `written`.
+# [[pronunciation]]
+# written = "..."
+# spoken = "..."
+# heard = ["..."]
 
 [prices]
 # Feed the per-episode cost log. USD per million tokens unless stated otherwise.
