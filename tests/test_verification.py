@@ -243,3 +243,10 @@ def test_retry_action_is_the_audio_budget():
     assert retry_action(1, True, 2) is RetryAction.RESYNTHESIZE
     assert retry_action(2, True, 2) is RetryAction.ESCALATE
     assert retry_action(0, True, 0) is RetryAction.ESCALATE
+
+
+def test_decision_prompt_treats_near_homophones_of_names_as_stt_errors():
+    # User decision 2026-11-20: "Indiana" heard as "Indianer" is a recognition error, not a change.
+    assert "„Indianer“ statt „Indiana“" in DECISION_PROMPT
+    assert "Das gilt nur bei fast gleichem Klang" in DECISION_PROMPT
+    assert "Im Zweifel gilt die Aussage als verändert." in DECISION_PROMPT
