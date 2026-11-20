@@ -1013,3 +1013,29 @@ def test_crash_in_the_audio_step_records_the_tts_cost(tmp_path):
 class CrashingStt:
     def transcribe(self, y, sr):
         raise RuntimeError("whisper died")
+
+
+def _lexicon_run(tmp_path, config):
+    tts = FakeTts()
+    episode_id = run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, config, "Rotfuchs", NOW, tts=tts)
+    record = json.loads((tmp_path / "episodes" / episode_id / "08_audio.json").read_text())
+    return tts, record
+
+
+def test_config_lexicon_respells_for_the_tts_and_is_archived(tmp_path):
+    entry = {"written": "Text", "spoken": "Tekst", "heard": ["Tekst"]}
+    tts, record = _lexicon_run(tmp_path, {**CONFIG, "pronunciation": [entry]})
+    assert tts.calls == [[("Lena", "Tekst."), ("Felix", "Tekst.")]]  # one section, no resynthesis
+    assert record["pronunciation"] == [entry]
+
+
+def test_episode_lexicon_is_merged_with_the_config_and_wins(tmp_path, monkeypatch):
+    config_entries = [
+        {"written": "Text", "spoken": "Config", "heard": ["Config"]},
+        {"written": "Fuchs", "spoken": "Fux"},
+    ]
+    episode = [{"written": "Text", "spoken": "Tekst", "heard": ["Tekst"]}]
+    monkeypatch.setattr("gut_zu_wissen.run.load_episode_entries", lambda folder: episode)
+    tts, record = _lexicon_run(tmp_path, {**CONFIG, "pronunciation": config_entries})
+    assert tts.calls == [[("Lena", "Tekst."), ("Felix", "Tekst.")]]
+    assert record["pronunciation"] == [*episode, config_entries[1]]
