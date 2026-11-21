@@ -7,7 +7,9 @@ from gut_zu_wissen.run import load_config
 from gut_zu_wissen.stt import (
     WHISPER_RATE_HZ,
     SttError,
+    Transcript,
     WhisperStt,
+    Word,
     join_segments,
     to_whisper_rate,
 )
@@ -22,7 +24,13 @@ class FakeModel:
 
     def transcribe(self, samples, **kwargs):
         self.calls.append((samples, kwargs))
-        return (SimpleNamespace(text=t) for t in self.texts), None
+        segments = []
+        for n, text in enumerate(self.texts):
+            words = [
+                SimpleNamespace(word=f" {w}", start=n + 0.1, end=n + 0.5) for w in text.split()
+            ]
+            segments.append(SimpleNamespace(text=text, words=words))
+        return (s for s in segments), None
 
 
 def test_resampling_to_16_khz_keeps_duration_and_frequency():
@@ -56,7 +64,9 @@ def test_whisper_uses_the_spike_settings_and_loads_once():
         return model
 
     stt = WhisperStt(REAL["models"]["stt"], REAL["stt"], load)
-    assert stt.transcribe(np.zeros(24_000), 24_000) == "Eins. Zwei."
+    assert stt.transcribe(np.zeros(24_000), 24_000) == Transcript(
+        "Eins. Zwei.", [Word("Eins.", 0.1, 0.5), Word("Zwei.", 1.1, 1.5)]
+    )
     stt.transcribe(np.zeros(24_000), 24_000)
     assert loads == [("large-v3", "int8", 4)]
     samples, kwargs = model.calls[0]
@@ -66,6 +76,7 @@ def test_whisper_uses_the_spike_settings_and_loads_once():
         "beam_size": 5,
         "vad_filter": True,
         "condition_on_previous_text": False,
+        "word_timestamps": True,
     }
 
 

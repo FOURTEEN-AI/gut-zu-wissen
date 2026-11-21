@@ -1,10 +1,13 @@
 """Speech-to-text behind an interface (phase 1, step 10; design: "Verifikation"; spike S5).
 
-`Stt.transcribe` turns one synthesised section (mono samples and their rate) into text. The
-implementation is Whisper run locally with faster-whisper: model `large-v3`, `int8`, 4 CPU threads,
-German, beam size 5, VAD filter on, no conditioning on previous text (the settings measured in
-spike S5; all from the config). The model is loaded on the first call and kept for the run; it is
-downloaded from Hugging Face into `~/.cache/huggingface/hub`, which the episode workflow caches.
+`Stt.transcribe` turns synthesised audio (mono samples and their rate) into a `Transcript`: the
+text and its words with start and end time in seconds. The times locate a deviation in the audio
+(second hearing, resynthesis of single turns); a transcript without words only disables those.
+The implementation is Whisper run locally with faster-whisper: model `large-v3`, `int8`, 4 CPU
+threads, German, beam size 5, VAD filter on, no conditioning on previous text (the settings
+measured in spike S5; all from the config), word timestamps on. The model is loaded on the first
+call and kept for the run; it is downloaded from Hugging Face into `~/.cache/huggingface/hub`,
+which the episode workflow caches.
 
 Whisper reads arrays as 16 kHz mono, so the samples are resampled first (pure function). Any
 failure to load the model or to transcribe raises `SttError`: the run fails and escalates. Tests
@@ -14,6 +17,7 @@ use fakes; nothing here downloads a model unless `transcribe` is called on a rea
 from __future__ import annotations
 
 from collections.abc import Callable, Mapping
+from dataclasses import dataclass, field
 from typing import Any, Protocol
 
 import numpy as np
@@ -27,9 +31,24 @@ class SttError(Exception):
     """The model could not be loaded or the audio could not be transcribed."""
 
 
+@dataclass(frozen=True)
+class Word:
+    """One word as Whisper wrote it, with its time in the audio (seconds)."""
+
+    text: str
+    start: float
+    end: float
+
+
+@dataclass(frozen=True)
+class Transcript:
+    text: str
+    words: list[Word] = field(default_factory=list)
+
+
 class Stt(Protocol):
-    def transcribe(self, y: np.ndarray, sr: int) -> str:
-        """Text spoken in the mono samples `y` at `sr` Hz."""
+    def transcribe(self, y: np.ndarray, sr: int) -> Transcript:
+        """Text spoken in the mono samples `y` at `sr` Hz, with word times."""
         ...
 
 
@@ -68,7 +87,7 @@ class WhisperStt:
         self._load = load
         self._model: Any = None
 
-    def transcribe(self, y: np.ndarray, sr: int) -> str:
+    def transcribe(self, y: np.ndarray, sr: int) -> Transcript:
         s = self._settings
         if self._model is None:
             try:
@@ -83,7 +102,15 @@ class WhisperStt:
                 beam_size=s["beam_size"],
                 vad_filter=s["vad_filter"],
                 condition_on_previous_text=s["condition_on_previous_text"],
+                word_timestamps=True,
             )
-            return join_segments([seg.text for seg in segments])  # the generator does the work
+            segments = list(segments)  # the generator does the work
+            words = [
+                Word(w.word.strip(), float(w.start), float(w.end))
+                for seg in segments
+                for w in (getattr(seg, "words", None) or [])
+                if w.word.strip()
+            ]
+            return Transcript(join_segments([seg.text for seg in segments]), words)
         except Exception as exc:
             raise SttError(f"Whisper transcription failed: {exc}") from exc

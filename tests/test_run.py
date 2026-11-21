@@ -14,6 +14,7 @@ from gut_zu_wissen.jev import JevAbortError
 from gut_zu_wissen.llm import LlmError
 from gut_zu_wissen.run import GateFailure, load_config
 from gut_zu_wissen.run import run as run_pipeline
+from gut_zu_wissen.stt import Transcript
 from gut_zu_wissen.tts import Synthesis, TtsError, voices_of
 from gut_zu_wissen.usage import Usage
 from gut_zu_wissen.verification import NO_ANSWER
@@ -141,9 +142,9 @@ class FakeStt:
 
     def transcribe(self, y, sr):
         if self.text is not None:
-            return self.text
+            return Transcript(self.text)
         assert self.tts is not None
-        return " ".join(text for _, text in self.tts.calls[-1])
+        return Transcript(" ".join(text for _, text in self.tts.calls[-1]))
 
 
 def run(

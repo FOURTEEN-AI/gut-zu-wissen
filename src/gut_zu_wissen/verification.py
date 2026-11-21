@@ -14,7 +14,14 @@ sides are normalised first, so that differences in writing alone do not count:
 The normalisation, the word diff and the retry decision are pure functions. All remaining
 deviations of a section go to the LLM judge model in one call; it decides per deviation whether
 the audio changes the statement ("im Zweifel verändert"). A deviation it leaves undecided counts
-as a change. Only a change leads to resynthesis of the section (`retry_action`).
+as a change.
+
+Second hearing (decided 2026-11-21): Whisper mishears at random, so a deviation that changes the
+statement is heard once more before anything is resynthesised. The word times of the transcript
+locate the deviation in the audio (`script_times`, `hearing_window`); the window with a few script
+words on each side is cut out and transcribed again. If that transcript has no deviation at the
+place of the first one (`heard_again_matches`), the audio says what the script says and the
+deviation does not count. Only a deviation that remains leads to resynthesis (`retry_action`).
 """
 
 from __future__ import annotations
@@ -27,6 +34,7 @@ from dataclasses import asdict, dataclass
 from enum import StrEnum
 
 from gut_zu_wissen.llm import StructuredLlm
+from gut_zu_wissen.stt import Word
 
 SYMBOLS = {
     "%": " Prozent ",
@@ -64,6 +72,14 @@ class Deviation:
     context_after: str
     changes_statement: bool | None = None
     reason: str | None = None
+    # Position in the normalised words: script words [script_start, script_end), transcript words
+    # [heard_start, heard_end).
+    script_start: int = 0
+    script_end: int = 0
+    heard_start: int = 0
+    heard_end: int = 0
+    heard_again: str | None = None  # transcript of the second hearing; None: not heard again
+    heard_again_matches: bool | None = None  # the second hearing has no deviation at this place
 
     def to_dict(self) -> dict:
         return asdict(self)
@@ -247,17 +263,27 @@ def _merge_numbers(tokens: Sequence[Token]) -> list[Token]:
 # ---------------------------------------------------------------- diff
 
 
+def _opcodes(expected: Sequence[Token], heard: Sequence[Token]) -> list[tuple]:
+    matcher = difflib.SequenceMatcher(
+        None, [t.norm for t in expected], [t.norm for t in heard], autojunk=False
+    )
+    return matcher.get_opcodes()
+
+
 def diff(script: str, transcript: str, context_words: int) -> list[Deviation]:
     """Word differences between the normalised script and transcript, in script order.
 
     Each deviation carries the words as written and `context_words` script words on each side.
     """
-    expected, heard = tokenize(script), tokenize(transcript)
-    matcher = difflib.SequenceMatcher(
-        None, [t.norm for t in expected], [t.norm for t in heard], autojunk=False
-    )
+    return diff_tokens(tokenize(script), tokenize(transcript), context_words)
+
+
+def diff_tokens(
+    expected: Sequence[Token], heard: Sequence[Token], context_words: int
+) -> list[Deviation]:
+    """`diff` on words that are already normalised."""
     deviations: list[Deviation] = []
-    for tag, i1, i2, j1, j2 in matcher.get_opcodes():
+    for tag, i1, i2, j1, j2 in _opcodes(expected, heard):
         if tag == "equal":
             continue
         deviations.append(
@@ -267,9 +293,94 @@ def diff(script: str, transcript: str, context_words: int) -> list[Deviation]:
                 _raw(heard[j1:j2]),
                 _raw(expected[max(0, i1 - context_words) : i1]),
                 _raw(expected[i2 : i2 + context_words]),
+                script_start=i1,
+                script_end=i2,
+                heard_start=j1,
+                heard_end=j2,
             )
         )
     return deviations
+
+
+# ---------------------------------------------------------------- word times
+
+Span = tuple[float, float]
+
+
+def token_times(heard: Sequence[Token], words: Sequence[Word]) -> list[Span | None]:
+    """Time of each normalised transcript word, from Whisper's word times.
+
+    The transcript (canonicalised by the lexicon) and the words (as Whisper wrote them) are
+    normalised separately and aligned; a transcript word without a match has no time.
+    """
+    timed: list[tuple[Token, Span]] = []
+    for word in words:
+        for token in tokenize(word.text):
+            timed.append((token, (word.start, word.end)))
+    times: list[Span | None] = [None] * len(heard)
+    for tag, i1, i2, j1, _ in _opcodes(heard, [t for t, _ in timed]):
+        if tag == "equal":
+            for k in range(i2 - i1):
+                times[i1 + k] = timed[j1 + k][1]
+    return times
+
+
+def script_times(
+    expected: Sequence[Token], heard: Sequence[Token], heard_times: Sequence[Span | None]
+) -> list[Span | None]:
+    """Time of each script word that the transcript has unchanged (same alignment as `diff`)."""
+    times: list[Span | None] = [None] * len(expected)
+    for tag, i1, i2, j1, _ in _opcodes(expected, heard):
+        if tag == "equal":
+            for k in range(i2 - i1):
+                times[i1 + k] = heard_times[j1 + k]
+    return times
+
+
+def hearing_window(
+    times: Sequence[Span | None],
+    start: int,
+    end: int,
+    context_words: int,
+    duration: float,
+    margin: float,
+) -> tuple[int, int, float, float]:
+    """Script words [first, last) and audio [t0, t1) to hear again for script words [start, end).
+
+    The window reaches `context_words` script words beyond the deviation on each side, further
+    out up to the nearest word with a time; without one, to the edge of the audio. `margin`
+    seconds are added on both sides.
+    """
+    first = max(0, start - context_words)
+    while first > 0 and times[first] is None:
+        first -= 1
+    last = min(len(times), end + context_words)  # exclusive
+    while last < len(times) and times[last - 1] is None:
+        last += 1
+    t0 = times[first][0] if first < len(times) and times[first] is not None else 0.0
+    t1 = times[last - 1][1] if last > 0 and times[last - 1] is not None else duration
+    if first == 0:
+        t0 = 0.0
+    if last == len(times):
+        t1 = duration
+    return first, last, max(0.0, t0 - margin), min(duration, t1 + margin)
+
+
+def overlaps(d: Deviation, start: int, end: int) -> bool:
+    """Whether deviation `d` lies in script words [start, end); an insertion (empty range) counts
+    where it touches the range."""
+    if d.script_start == d.script_end or start == end:
+        return start <= d.script_end and d.script_start <= end
+    return d.script_start < end and start < d.script_end
+
+
+def heard_again_matches(
+    expected: Sequence[Token], heard: Sequence[Token], first: int, d: Deviation
+) -> bool:
+    """Whether the second hearing (`heard`, for script words `expected` starting at `first`) has
+    no deviation at the place of `d`."""
+    start, end = d.script_start - first, d.script_end - first
+    return not any(overlaps(x, start, end) for x in diff_tokens(expected, heard, 0))
 
 
 def _raw(tokens: Sequence[Token]) -> str:
@@ -362,9 +473,15 @@ def apply_decisions(deviations: Sequence[Deviation], answer: dict) -> None:
             d.changes_statement, d.reason = item["changes_statement"], str(item.get("reason", ""))
 
 
+def counts(d: Deviation) -> bool:
+    """A deviation changes the statement if the LLM did not clear it and the second hearing did
+    not hear the script."""
+    return d.changes_statement is not False and d.heard_again_matches is not True
+
+
 def changes_statement(deviations: Sequence[Deviation]) -> bool:
-    """The section's audio changes the statement if any decided deviation does (or is undecided)."""
-    return any(d.changes_statement is not False for d in deviations)
+    """The audio changes the statement if any deviation counts (`counts`)."""
+    return any(counts(d) for d in deviations)
 
 
 def decide_deviations(

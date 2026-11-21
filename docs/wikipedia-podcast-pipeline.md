@@ -43,7 +43,9 @@ flowchart TD
     M --> TTS[Dialog-TTS Gemini 3.8 Flash TTS, Abschnitte an Redebeitrag-Grenzen]
     TTS --> STT[STT Whisper lokal, normalisierter Diff]
     STT --> Q{LLM: Aussage verändert?}
-    Q -- ja --> F
+    Q -- ja --> H{Zweites Hören der Stelle: wie im Skript?}
+    H -- nein --> F
+    H -- ja --> P
     Q -- nein --> P[Shownotes, Veröffentlichung]
     F --> FT[Neugenerierung, Eskalation oder Ersatzartikel: siehe Fehlerbehandlung]
 ```
@@ -139,7 +141,8 @@ Alle Textversionen werden archiviert (inkl. STT-Transkripte und Diff-Entscheidun
 - **Ratenlimit:** 10 Anfragen pro Minute (Tier 1). Bei `429` wartet der Client die in der Antwort genannte Zeit ab.
 - **Lautheit:** Normalisierung auf −16 LUFS mit True-Peak-Limiter (Decke −1,5 dBTP). Die Synthese liefert rund −20 LUFS; ohne Limiter würde die Verstärkung die Spitzen übersteuern.
 - **Verifikation:** Whisper lokal im Actions-Runner (Modellgröße nach Messung), Diff gegen bereinigtes Skript; vorher normalisiert (Zahlwörter, Satzzeichen, Groß-/Kleinschreibung).
-- **Abweichung:** LLM entscheidet, ob sie die Aussage ändert; nur dann Neusynthese des betroffenen Abschnitts (siehe Fehlerbehandlung).
+- **Abweichung:** LLM entscheidet, ob sie die Aussage ändert; nur dann zweites Hören, und nur wenn das die Abweichung bestätigt, Neusynthese (siehe Fehlerbehandlung).
+- **Zweites Hören (Entscheidung 2026-11-21):** Whisper verhört sich zufällig. Eine Abweichung, die die Aussage ändert, wird über Whispers Wortzeiten im Audio verortet, mit einigen Skriptwörtern davor und danach ausgeschnitten und noch einmal transkribiert. Hat dieses Transkript an der Stelle keine Abweichung, gilt sie als Hörfehler und zählt nicht. Beide Transkripte werden archiviert.
 - **Verschluckte Kleinstwörter (Entscheidung 2026-11-20):** Hört Whisper ein kleines Wort oder eine Endung nur verschluckt oder zusätzlich („Zeigt dir“ statt „Zeigte“, „Grieche“ statt „Griechisch“) und behält der Satz seinen Sinn, ändert das die Aussage nicht. Zahlen, Daten, Namen, Verneinungen und Wörter mit anderer Bedeutung bleiben streng; im Zweifel gilt die Aussage als verändert.
 - **Aussprache-Lexikon (Entscheidung 2026-11-20):** Für Namen, die die Stimme falsch spricht oder die Whisper in üblicher Schreibung statt wie gesprochen schreibt. Einträge `written`, `spoken`, `heard`: `spoken` geht statt `written` nur an die TTS, `heard`-Varianten zählen im Transkript als `written` (außer sie stehen selbst im Skript). Skript und Archiv behalten die Originalschreibung. Das allgemeine Lexikon steht in der Config (`[[pronunciation]]`, gilt für alle Folgen; derzeit nur „Lena“ mit den Hörvarianten „Lina“, „Leda“); Einträge für eine einzelne Folge stehen in `pronunciation.json` im Folgenordner (von Hand gepflegt, Folgeneinträge haben Vorrang). Das gültige Lexikon steht in `08_audio.json`.
 

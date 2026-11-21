@@ -14,7 +14,7 @@ from gut_zu_wissen.episode_audio import (
 )
 from gut_zu_wissen.llm import LlmError
 from gut_zu_wissen.run import load_config
-from gut_zu_wissen.stt import SttError
+from gut_zu_wissen.stt import SttError, Transcript, Word
 from gut_zu_wissen.tts import Synthesis
 
 SR = 24_000
@@ -61,10 +61,10 @@ class FakeStt:
     def transcribe(self, y, sr):
         self.calls.append(sr)
         if self.queue:
-            return self.queue.pop(0)
+            return Transcript(self.queue.pop(0))
         if self.default is None:
             raise AssertionError("no transcript queued")
-        return self.default
+        return Transcript(self.default)
 
 
 class EchoStt:
@@ -74,7 +74,23 @@ class EchoStt:
         self.tts = tts
 
     def transcribe(self, y, sr):
-        return " ".join(text for _, text in self.tts.calls[-1])
+        return Transcript(" ".join(text for _, text in self.tts.calls[-1]))
+
+
+class TimedStt:
+    """Hears the queued texts in order, with word times spread evenly over the audio."""
+
+    def __init__(self, *texts: str) -> None:
+        self.queue = list(texts)
+        self.calls: list[float] = []  # seconds of audio per call
+
+    def transcribe(self, y, sr):
+        seconds = len(y) / sr
+        self.calls.append(seconds)
+        text = self.queue.pop(0)
+        step = seconds / max(1, len(text.split()))
+        timed = [Word(w, n * step, (n + 0.8) * step) for n, w in enumerate(text.split())]
+        return Transcript(text, timed)
 
 
 class FakeLlm:
@@ -239,3 +255,38 @@ def test_llm_failure_is_an_audio_step_error(tmp_path):
     with pytest.raises(AudioStepError, match="STT verification, section 0: cut off"):
         produce(turns("Text."), FakeTts(), tmp_path, stt=FakeStt("Anders."),
                 llm=FakeLlm(error=LlmError("cut off")))  # fmt: skip
+
+
+SCRIPT = "Was hing dort eigentlich an den Wänden der Galerie?"
+
+
+def test_second_hearing_that_matches_clears_the_deviation(tmp_path):
+    tts, llm = FakeTts(), FakeLlm()
+    stt = TimedStt("Was hindert eigentlich an den Wänden der Galerie?", "Was hing dort eigentlich")
+    record = produce(turns(SCRIPT), tts, tmp_path, stt=stt, llm=llm)
+    assert len(tts.calls) == 1 and len(stt.calls) == 2
+    assert stt.calls[1] < stt.calls[0]  # only a stretch of the audio is heard again
+    (attempt,) = record.sections[0].attempts
+    (d,) = attempt.deviations
+    assert (d.expected, d.heard, d.changes_statement) == ("hing dort", "hindert", True)
+    assert (d.heard_again, d.heard_again_matches) == ("Was hing dort eigentlich", True)
+    assert (attempt.changes_statement, attempt.action) == (False, "accept")
+
+
+def test_second_hearing_that_hears_the_same_leads_to_resynthesis(tmp_path):
+    tts = FakeTts()
+    stt = TimedStt(
+        "Was hindert eigentlich an den Wänden der Galerie?",
+        "Was hindert eigentlich",
+        SCRIPT,
+    )
+    record = produce(turns(SCRIPT), tts, tmp_path, stt=stt)
+    first, second = record.sections[0].attempts
+    assert first.deviations[0].heard_again_matches is False and first.action == "resynthesize"
+    assert second.action == "accept" and len(tts.calls) == 2
+
+
+def test_harmless_deviation_is_not_heard_again(tmp_path):
+    stt = TimedStt("Was hing dort eigentlich an den Wänden der Gallerie?")
+    record = produce(turns(SCRIPT), FakeTts(), tmp_path, stt=stt, llm=FakeLlm(changes=False))
+    assert len(stt.calls) == 1 and record.sections[0].attempts[0].deviations[0].heard_again is None

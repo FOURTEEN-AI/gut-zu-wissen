@@ -6,7 +6,10 @@ pause between parts) and normalised to the target loudness with the true-peak li
 
 Verification (step 10): Whisper transcribes the raw section audio; the transcript is diffed
 against the section's script after normalisation; the LLM judge model decides per deviation
-whether it changes the statement. If one does, the section is synthesised again, at most
+whether it changes the statement. Each such deviation is heard a second time: Whisper's word times
+locate it, the stretch around it is cut out and transcribed again; if that hearing matches the
+script there, the deviation does not count (decided 2026-11-21). If one still counts, the section
+is synthesised again, at most
 `audio_section_retries` times (audio level of the error table); after that the run escalates.
 Intro and outro are fixed audio and not verified (design: "nicht Teil des STT-Loops").
 
@@ -39,9 +42,15 @@ from gut_zu_wissen.verification import (
     Deviation,
     RetryAction,
     changes_statement,
+    counts,
     decide_deviations,
-    diff,
+    diff_tokens,
+    heard_again_matches,
+    hearing_window,
     retry_action,
+    script_times,
+    token_times,
+    tokenize,
 )
 
 SECTIONS_DIR = "sections"
@@ -231,7 +240,6 @@ def _verified_section(
 ) -> np.ndarray:
     """Synthesise and verify one section, resynthesising within the budget; the accepted audio."""
     budget = config["quotas"]["audio_section_retries"]
-    script = " ".join(text for _, text in section_turns)
     lexicon = config.get("pronunciation", [])
     spoken_turns = [(speaker, respell(text, lexicon)) for speaker, text in section_turns]
     while True:
@@ -254,13 +262,9 @@ def _verified_section(
             )
         audio.write(work_dir / section.file, y, sr)
         try:
-            attempt.transcript = stt.transcribe(y, sr)
-            attempt.deviations = diff(
-                script,
-                canonicalize(attempt.transcript, script, lexicon),
-                config["stt"]["context_words"],
+            attempt.transcript, attempt.deviations = verify(
+                y, sr, section_turns, stt, decision_llm, lexicon, config["stt"]
             )
-            decide_deviations(decision_llm, section_turns, attempt.transcript, attempt.deviations)
         except (SttError, LlmError) as exc:
             raise AudioStepError(f"STT verification, section {section.index}: {exc}") from exc
         attempt.changes_statement = changes_statement(attempt.deviations)
@@ -270,7 +274,7 @@ def _verified_section(
             section.verified, section.seconds = True, attempt.seconds
             return y
         if action is RetryAction.ESCALATE:
-            changed = [d for d in attempt.deviations if d.changes_statement is not False]
+            changed = [d for d in attempt.deviations if counts(d)]
             details = "; ".join(
                 f"'{d.expected}' heard as '{d.heard}' ({d.reason})" for d in changed
             )
@@ -278,6 +282,46 @@ def _verified_section(
                 f"STT verification: section {section.index} still changes the statement after "
                 f"{budget} resyntheses: {details}"
             )
+
+
+def verify(
+    y: np.ndarray,
+    sr: int,
+    section_turns: Sequence[tuple[str, str]],
+    stt: Stt,
+    decision_llm: StructuredLlm,
+    lexicon: Sequence[Mapping],
+    settings: Mapping,
+) -> tuple[str, list[Deviation]]:
+    """Transcript of the audio and its deviations from the turns' script, decided by the LLM and,
+    where they change the statement, heard a second time. Raises `SttError`, `LlmError`."""
+    script = " ".join(text for _, text in section_turns)
+    transcript = stt.transcribe(y, sr)
+    expected = tokenize(script)
+    heard = tokenize(canonicalize(transcript.text, script, lexicon))
+    deviations = diff_tokens(expected, heard, settings["context_words"])
+    decide_deviations(decision_llm, section_turns, transcript.text, deviations)
+    if not transcript.words:  # no word times: nothing can be located
+        return transcript.text, deviations
+    times = script_times(expected, heard, token_times(heard, transcript.words))
+    duration = audio.duration(y, sr)
+    for d in deviations:
+        if d.changes_statement is False:
+            continue
+        first, last, t0, t1 = hearing_window(
+            times,
+            d.script_start,
+            d.script_end,
+            settings["second_hearing_context_words"],
+            duration,
+            settings["second_hearing_margin_seconds"],
+        )
+        again = stt.transcribe(y[round(t0 * sr) : round(t1 * sr)], sr)
+        d.heard_again = again.text
+        d.heard_again_matches = heard_again_matches(
+            expected[first:last], tokenize(canonicalize(again.text, script, lexicon)), first, d
+        )
+    return transcript.text, deviations
 
 
 def new_record(config: Mapping) -> AudioRecord:
