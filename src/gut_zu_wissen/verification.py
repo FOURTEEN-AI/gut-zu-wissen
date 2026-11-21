@@ -328,12 +328,22 @@ def token_times(heard: Sequence[Token], words: Sequence[Word]) -> list[Span | No
 def script_times(
     expected: Sequence[Token], heard: Sequence[Token], heard_times: Sequence[Span | None]
 ) -> list[Span | None]:
-    """Time of each script word that the transcript has unchanged (same alignment as `diff`)."""
+    """Time of each script word (same alignment as `diff`).
+
+    A word the transcript has unchanged gets the time of its transcript word. Words that Whisper
+    heard as other words get the time of all those words together (where the audio says them).
+    Words that Whisper did not hear at all have no time.
+    """
     times: list[Span | None] = [None] * len(expected)
-    for tag, i1, i2, j1, _ in _opcodes(expected, heard):
+    for tag, i1, i2, j1, j2 in _opcodes(expected, heard):
         if tag == "equal":
             for k in range(i2 - i1):
                 times[i1 + k] = heard_times[j1 + k]
+        elif tag == "replace":
+            known = [t for t in heard_times[j1:j2] if t is not None]
+            if known:
+                for k in range(i1, i2):
+                    times[k] = (known[0][0], known[-1][1])
     return times
 
 

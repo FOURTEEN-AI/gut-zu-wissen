@@ -119,6 +119,19 @@ def trim_edges(
     return y[start:end]
 
 
+def quietest_sample(y: np.ndarray, sr: int, t0: float, t1: float, frame_seconds: float) -> int:
+    """Centre sample of the frame with the lowest RMS between `t0` and `t1` seconds (the middle
+    of the stretch if it is shorter than one frame)."""
+    hop = max(1, round(frame_seconds * sr))
+    start, end = max(0, round(t0 * sr)), min(len(y), round(t1 * sr))
+    n = (end - start) // hop
+    if n == 0:
+        return (start + end) // 2
+    frames = y[start : start + n * hop].reshape(n, hop)
+    best = int(np.argmin((frames**2).mean(axis=1)))
+    return start + best * hop + hop // 2
+
+
 def join(parts: Sequence[np.ndarray], sr: int, pause_seconds: float) -> np.ndarray:
     """Concatenate the parts with a pause of digital silence between them."""
     pause = np.zeros(round(pause_seconds * sr))

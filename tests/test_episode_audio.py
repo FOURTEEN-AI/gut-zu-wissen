@@ -290,3 +290,50 @@ def test_harmless_deviation_is_not_heard_again(tmp_path):
     stt = TimedStt("Was hing dort eigentlich an den Wänden der Gallerie?")
     record = produce(turns(SCRIPT), FakeTts(), tmp_path, stt=stt, llm=FakeLlm(changes=False))
     assert len(stt.calls) == 1 and record.sections[0].attempts[0].deviations[0].heard_again is None
+
+
+def test_only_the_affected_turn_is_synthesised_again(tmp_path):
+    tts = FakeTts()
+    script = turns("Es waren neun Leute.", "Wirklich neun?", "Ja, genau neun.")
+    stt = TimedStt(
+        "Es waren neun Leute. Wirklich zehn? Ja, genau neun.",
+        "Leute. Wirklich zehn? Ja, genau",  # second hearing: the same
+        "Wirklich neun?",
+    )
+    record = produce(script, tts, tmp_path, stt=stt)
+    section = record.sections[0]
+    assert tts.calls[1] == [("Felix", "Wirklich neun?")]
+    first, second = section.attempts
+    assert (first.turn_indices, first.action) == ([0, 1, 2], "resynthesize")
+    assert (second.turn_indices, second.action) == ([1], "accept")
+    assert section.verified and section.input_tokens == 20
+    out, sr = audio.read(tmp_path / "sections" / "00.flac")
+    assert section.seconds == pytest.approx(len(out) / sr, abs=0.01)
+    # turn 0 and turn 2 come from the first synthesis, turn 1 from the second (2 s with edges):
+    # longer than one synthesis, shorter than two
+    assert 2.0 < section.seconds < 4.0
+
+
+def test_turn_budget_escalates(tmp_path):
+    tts = FakeTts()
+    script = turns("Es waren neun Leute.", "Wirklich neun?")
+    stt = TimedStt(
+        "Es waren neun Leute. Wirklich zehn?",
+        "Leute. Wirklich zehn?",
+        "Wirklich zehn?",
+        "Wirklich zehn?",
+        "Wirklich zehn?",
+        "Wirklich zehn?",
+    )
+    with pytest.raises(AudioStepError, match="after 2 resyntheses: 'neun' heard as 'zehn'"):
+        produce(script, tts, tmp_path, stt=stt)
+    assert tts.calls[1:] == [[("Felix", "Wirklich neun?")]] * 2
+
+
+def test_without_word_times_the_whole_section_is_synthesised_again(tmp_path):
+    tts = FakeTts()
+    script = turns("Es waren neun Leute.", "Wirklich neun?")
+    stt = FakeStt("Es waren neun Leute. Wirklich zehn?", "Es waren neun Leute. Wirklich neun?")
+    record = produce(script, tts, tmp_path, stt=stt)
+    assert tts.calls[1] == tts.calls[0]
+    assert [a.turn_indices for a in record.sections[0].attempts] == [[0, 1], [0, 1]]

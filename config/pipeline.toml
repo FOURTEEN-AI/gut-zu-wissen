@@ -110,6 +110,10 @@ edge_silence_floor_db = -45.0       # a 10 ms frame below this RMS level (dBFS) 
 edge_silence_frame_seconds = 0.01
 edge_silence_keep_seconds = 0.15
 join_pause_seconds = 0.4
+# Resynthesis of single turns (decided 2026-11-21): where a section's audio is cut at a turn border
+# and a turn synthesised again is put in, edge silence is trimmed as above and this pause goes
+# between the pieces. ASSUMPTION: not tested by ear; TTS pauses between turns are about 0.3-0.6 s.
+turn_pause_seconds = 0.35
 # Loudness normalisation to quotas.target_loudness_lufs with a true-peak limiter at
 # quotas.true_peak_ceiling_dbtp. The limiter lowers the gain towards a peak at the attack rate
 # (look-ahead) and recovers after it at the release rate.
