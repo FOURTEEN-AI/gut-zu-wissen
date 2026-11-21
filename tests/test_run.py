@@ -29,8 +29,10 @@ CONFIG = {
         "max_chunk_segments": 40,
         "min_fact_words": 4,
         "main_facts_min": 20,
+        "main_facts_max": 70,
         "main_offer_share": 0.5,
         "must_use_share": 0.05,
+        "must_use_max": 15,
         "linked_intro_facts_min": 6,
         "linked_intro_facts_max": 12,
         "einordnung_facts_max": 0,  # off here; the Einordnung tests switch it on

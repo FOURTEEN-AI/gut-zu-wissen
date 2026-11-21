@@ -142,16 +142,16 @@ def bound_targets(targets: Sequence[str], maximum: int) -> tuple[list[str], list
     return list(targets[:maximum]), list(targets[maximum:])
 
 
-def offer_size(extracted: int, share: float, minimum: int) -> int:
+def offer_size(extracted: int, share: float, minimum: int, maximum: int) -> int:
     """D8: size of the main offer: `share` of the extracted facts, rounded up, at least `minimum`,
-    never more than extracted."""
-    return min(extracted, max(minimum, math.ceil(extracted * share)))
+    at most `maximum` (2026-11-21), never more than extracted."""
+    return min(extracted, maximum, max(minimum, math.ceil(extracted * share)))
 
 
-def must_use_count(extracted: int, share: float) -> int:
+def must_use_count(extracted: int, share: float, maximum: int) -> int:
     """D8: number of top-ranked facts the dialog must use: `share` of the extracted facts, rounded
-    up, 0 when there are none."""
-    return math.ceil(extracted * share) if extracted else 0
+    up, at most `maximum` (2026-11-21), 0 when there are none."""
+    return min(maximum, math.ceil(extracted * share)) if extracted else 0
 
 
 def offer_count(offered: int, minimum: int, maximum: int) -> dict:
