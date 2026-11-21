@@ -243,12 +243,16 @@ def flagged_spots(turn: Turn, probabilities: Mapping[str, float], t: float) -> l
 
 
 def doubtful_spots(turn: Turn, probabilities: Mapping[str, float], t: float) -> list[str]:
-    """Jev questions below t, for the LLM judge's full verdict (issue #15): where to look."""
+    """Jev questions below t, for the LLM judge's full verdict (issue #15): where to look.
+
+    A statement question is named by its fact IDs only; the author's statement text stays hidden
+    from the verdict (design: no shared context with the author)."""
     spots = []
     for n, s in enumerate(turn.statements):
         p = probabilities.get(f"aussage_{n}")
         if p is not None and p < t:
-            spots.append(f"Aussage (p = {p:.2f}): {s.text}")
+            ids = ", ".join(f"[{i}]" for i in s.fact_ids)
+            spots.append(f"Eine Aussage, die sich auf {ids} beruft (p = {p:.2f}).")
     p = probabilities.get(COMPLETENESS_KEY)
     if p is not None and p < t:
         spots.append(

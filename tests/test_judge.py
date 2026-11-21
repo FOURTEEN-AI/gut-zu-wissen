@@ -220,7 +220,9 @@ def test_transient_error_verdict_gets_the_previous_turn():
 
 
 def test_uncertain_verdict_lists_jev_questions_below_t_as_hint():
-    t = turn(statements=[Statement("A", ["1-0"]), Statement("B", ["1-1"])], ids=("1-0", "1-1"))
+    t = turn(
+        statements=[Statement("A", ["1-0"]), Statement("GEHEIM-B", ["1-1"])], ids=("1-0", "1-1")
+    )
     llm = FakeLlm()
     judge_turn(
         FakeJev({"aussage_0": 0.99, "aussage_1": 0.6, COMPLETENESS_KEY: 0.11}),
@@ -232,8 +234,9 @@ def test_uncertain_verdict_lists_jev_questions_below_t_as_hint():
     )
     user = llm.calls[0][1]
     hint = user[user.index("Unsicher in der Vorprüfung (Hinweis, kein Urteil):") :]
-    assert "Aussage (p = 0.60): B" in hint and "Vollständigkeit (p = 0.11)" in hint
-    assert "Aussage (p = 0.99)" not in hint
+    assert "Eine Aussage, die sich auf [1-1] beruft (p = 0.60)." in hint
+    assert "Vollständigkeit (p = 0.11)" in hint
+    assert "[1-0] beruft" not in hint and "GEHEIM-B" not in user  # no author text
 
 
 def test_rejection_reason_has_flagged_spots_but_no_doubt_hint():
