@@ -1,6 +1,6 @@
 # Issues #8 und #15: Annahmen und offene Punkte
 
-Stand: 2026-11-21. Gebaut nach deiner Vorgabe „Lösungen eigenständig implementieren, Annahmen sammeln“. Jede Annahme hier kannst du ändern.
+Stand: 2026-11-21, alle Annahmen vom Owner bestätigt. Gebaut nach deiner Vorgabe „Lösungen eigenständig implementieren, Annahmen sammeln“. Jede Annahme hier kannst du ändern.
 
 ## Umgesetzt
 
@@ -23,7 +23,7 @@ Stand: 2026-11-21. Gebaut nach deiner Vorgabe „Lösungen eigenständig impleme
 
 ## Offen für dich
 
-- **Dokumente:** Laut `CLAUDE.md` nicht ohne Freigabe geändert. Vorschläge, falls du die Annahmen bestätigst:
+- **Dokumente:** Freigegeben am 2026-11-21 („Passt alles“) und so übernommen:
   - `docs/wikipedia-podcast-pipeline.md`, Judge, „LLM-Judge“: „Eingabe: vorheriger Redebeitrag (kein Beleg), Redebeitrag, Fakt-Sätze, Kontext; bei unsicherem Jev-Urteil die Jev-Fragen mit p < t als Hinweis.“
   - ebd., „Rubrik“: „Jede Aussage meint im Anschluss an den vorherigen Redebeitrag denselben Gegenstand wie ihr Fakt-Satz (Bezugswort ohne genannten Gegenstand, Antwort auf eine andere Frage, Verbindung, die kein Fakt nennt → nicht belegt).“
   - `docs/persona.md`, Reaktionskriterium, „Nicht erlaubt“: „Nachfrage, die eine Antwort nahelegt (Wertwort, Vermutung, Einzelheit aus einem späteren Fakt).“

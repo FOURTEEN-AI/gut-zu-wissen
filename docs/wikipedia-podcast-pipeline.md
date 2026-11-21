@@ -99,9 +99,9 @@ flowchart TD
 ## Judge
 
 - **Jev:** Entscheidungsmodell von TypeSafe (`jev-1.14.0`, Version fest angegeben, kein Alias; Auswahl siehe Spike S1), Zugang direkt über TypeSafe; liefert pro Frage eine Wahrscheinlichkeit p, keinen Text. p ist laut Anbieter kalibriert, unabhängig nicht bestätigt; die Stichproben prüfen das. Limit: 64k Token gesamt, 32k für State plus längste Frage.
-- **LLM-Judge:** Claude Sonnet 5.5 (dasselbe Modell wie der Dialogautor), ohne geteilten Kontext mit dem Dialogautor (Eingabe nur Redebeitrag, Fakt-Sätze, Kontext). Anbieter austauschbar halten.
+- **LLM-Judge:** Claude Sonnet 5.5 (dasselbe Modell wie der Dialogautor), ohne geteilten Kontext mit dem Dialogautor. Eingabe (geändert 2026-11-21, #8, #15): vorheriger Redebeitrag (kein Beleg), Redebeitrag, Fakt-Sätze, Kontext; beim Urteil nach unsicherem Jev-Ergebnis zusätzlich die Jev-Fragen mit p < t als Hinweis (Aussagen nur über ihre Fakt-IDs genannt). Anbieter austauschbar halten.
 - **Eingabe (Jev-State):** Redebeitrag, Klartext der zitierten Fakt-Sätze, Klartext des Kontexts als getrenntes Feld.
-- **Rubrik:** jede Behauptung und Prämisse folgt aus Fakt-Sätzen. „Nur durch Kontext belegt“ gilt als nicht belegt. Redebeitrag ohne Fakt-IDs darf keine Behauptung enthalten. Reaktionen nach dem Reaktionskriterium im Persona-Dokument gelten als belegfrei.
+- **Rubrik:** jede Behauptung und Prämisse folgt aus Fakt-Sätzen. „Nur durch Kontext belegt“ gilt als nicht belegt. Redebeitrag ohne Fakt-IDs darf keine Behauptung enthalten. Reaktionen nach dem Reaktionskriterium im Persona-Dokument gelten als belegfrei. Jede Aussage meint im Anschluss an den vorherigen Redebeitrag denselben Gegenstand wie ihr Fakt-Satz (2026-11-21, #8, #15): Bezugswort ohne genannten Gegenstand, Antwort mit einem Fakt zu einem anderen Gegenstand als die Frage, Verbindung von Fakten, die kein Fakt-Satz nennt → nicht belegt. Den Gegenstand eines Bezugsworts mit Namen zu nennen, wie der Kontext ihn bestimmt, ist Auflösung, kein Beleg.
 - **Fragen:** eine Jev-Frage pro Behauptung und Prämisse; zusätzlich eine Vollständigkeitsfrage „keine weiteren Behauptungen“. Deren Anweisung enthält das Reaktionskriterium.
 - **Schwellwert t:** ein Wert für alle Fragen, symmetrisch:
   - alle p ≥ t → belegt.
