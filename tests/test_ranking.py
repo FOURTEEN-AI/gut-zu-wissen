@@ -104,11 +104,11 @@ def test_prompt_states_size_order_and_must_use_rule():
 
 
 def test_offer_size_is_the_rounded_up_share_within_minimum_and_extracted():
-    assert offer_size(131, 0.75, 20) == 99
-    assert offer_size(100, 0.75, 20) == 75
-    assert offer_size(24, 0.75, 20) == 20  # the minimum wins over 18
-    assert offer_size(12, 0.75, 20) == 12  # never more than extracted
-    assert offer_size(0, 0.75, 20) == 0
+    assert offer_size(131, 0.5, 20) == 66
+    assert offer_size(100, 0.5, 20) == 50
+    assert offer_size(30, 0.5, 20) == 20  # the minimum wins over 15
+    assert offer_size(12, 0.5, 20) == 12  # never more than extracted
+    assert offer_size(0, 0.5, 20) == 0
 
 
 def test_must_use_count_is_the_rounded_up_share():

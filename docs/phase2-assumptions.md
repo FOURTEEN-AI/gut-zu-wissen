@@ -45,7 +45,7 @@ Mit einer 3-Sekunden-Testdatei, Item `gut-zu-wissen-test_2026-11-20_helgoland` i
 
 ## Geprüft
 
-- **Erklärseite gegen die Pipeline:** Die Zahlen (oberes Dreiviertel der Fakten, 8 Wörter, 10 Fakten, 6 Monate, Stücke von etwa 6 Minuten, gesichtete Fassung) stimmen mit `[quotas]`, D2, D4 und D5 überein. Nicht erwähnt sind die Prüfung auf explizite Inhalte (D7) und Begrüßung/Abspann; das ist keine falsche Aussage, nur eine Lücke.
+- **Erklärseite gegen die Pipeline:** Die Zahlen (obere Hälfte der Fakten, 8 Wörter, 10 Fakten, 6 Monate, Stücke von etwa 6 Minuten, gesichtete Fassung) stimmen mit `[quotas]`, D2, D4 und D5 überein. Nicht erwähnt sind die Prüfung auf explizite Inhalte (D7) und Begrüßung/Abspann; das ist keine falsche Aussage, nur eine Lücke.
 
 ## Zurückgestellt
 
