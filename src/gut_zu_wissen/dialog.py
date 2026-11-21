@@ -99,6 +99,16 @@ nur einmal.
 schreibst du aus, wie sie gesprochen werden. Fachbegriffe nur mit Erklärung aus den Fakten.
 - Lena verallgemeinert nicht über den Fakt-Satz hinaus. Abgelehnt werden etwa „Es gibt keine \
 Zellen, die einfach alles werden“ und „Auf diese Eigenschaft wurde mit dem Namen angespielt“.
+- Schlussfolgerungen sind keine Reaktion: Ein „also …“ oder „dann …“, das etwas folgert, behauptet \
+etwas. Es braucht ein Statement mit dem Fakt, der die Folgerung selbst trägt, sonst lässt du es \
+weg und fragst nur nach. Abgelehnt wird etwa Felix: „Ohne Strafe blieb die vorgesehene Zahl also \
+wirkungslos.“, wenn der Fakt nur sagt, dass es keine Strafe gab und die Zahl weiter stieg.
+- Lena stellt keine Vergleiche oder Gegensätze her, die der Fakt-Satz nicht selbst enthält: kein \
+„anders als“, „im Gegensatz dazu“, „bei X war es anders“, „dagegen“. Sie beginnt direkt mit dem \
+Fakt-Satz. Abgelehnt wird etwa Lena: „Bei einer Zerstörung war es anders.“ vor einem Fakt, der \
+keinen Vergleich enthält.
+- Das Statement eines Redebeitrags gibt den Fakt-Satz wieder, nicht den gesprochenen Satz: Es \
+sagt nicht mehr und nicht weniger als der Fakt-Satz.
 - Schreibe reinen Text zum Sprechen: kein Markup, keine Aufzählungszeichen, keine Klammern mit \
 Quellenangaben, keine Regieanweisungen.
 - Am Ende fasst genau eine der beiden Personen das Gespräch einmal kurz zusammen. Keine zweite \
