@@ -184,9 +184,10 @@ def cache_saving(usage: Mapping, prices: Mapping, keys: PriceKeys) -> float | No
 
 
 def tts_cost_usd(sections: Sequence[Mapping]) -> float | None:
-    """TTS cost from the sections of `08_audio.json`; None when a section has no cost. No
-    section (no synthesis): 0."""
-    costs = [s.get("usd") for s in sections]
+    """TTS cost from the sections of `08_audio.json`; None when a synthesised section has no
+    cost. No section, or a section never synthesised (empty `attempts`, the step failed
+    before it): 0."""
+    costs = [0 if "attempts" in s and not s["attempts"] else s.get("usd") for s in sections]
     if any(c is None for c in costs):
         return None
     return round(sum(costs), USD_DIGITS)

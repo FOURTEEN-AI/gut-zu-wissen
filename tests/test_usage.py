@@ -41,6 +41,9 @@ def test_tts_cost_from_sections():
     assert tts_cost_usd([]) == 0
     assert tts_cost_usd([{"usd": 0.05}, {"usd": 0.04}]) == 0.09
     assert tts_cost_usd([{"usd": 0.05}, {"usd": None}]) is None
+    # a section the failed step never reached costs nothing (Galerie 291, 2026-11-21)
+    assert tts_cost_usd([{"usd": 0.05, "attempts": [{}]}, {"usd": None, "attempts": []}]) == 0.05
+    assert tts_cost_usd([{"usd": None, "attempts": [{"usd": None}]}]) is None
 
 
 def test_episode_cost_records_usd_and_the_prices_used():
