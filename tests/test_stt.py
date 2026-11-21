@@ -95,3 +95,14 @@ def test_transcription_failure_is_an_stt_error():
 
     with pytest.raises(SttError, match="bad input"):
         WhisperStt("large-v3", REAL["stt"], lambda *_: Broken()).transcribe(np.zeros(10), 16_000)
+
+
+def test_transcription_is_logged_and_the_model_load_only_once(caplog):
+    stt = WhisperStt(REAL["models"]["stt"], REAL["stt"], lambda *_: FakeModel([" Eins."]))
+    with caplog.at_level("INFO", logger="gut_zu_wissen.stt"):
+        stt.transcribe(np.zeros(24_000), 24_000)
+        stt.transcribe(np.zeros(24_000), 24_000)
+    messages = [r.getMessage() for r in caplog.records]
+    assert sum(m.startswith("STT: loading model") for m in messages) == 1
+    assert sum(m.startswith("STT: transcribing 1 s") for m in messages) == 2
+    assert sum("transcribed 1 s of audio in" in m and "(1 words)" in m for m in messages) == 2
