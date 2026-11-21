@@ -142,10 +142,10 @@ def bound_targets(targets: Sequence[str], maximum: int) -> tuple[list[str], list
     return list(targets[:maximum]), list(targets[maximum:])
 
 
-def offer_size(extracted: int, share: float, minimum: int) -> int:
+def offer_size(extracted: int, share: float, minimum: int, maximum: int) -> int:
     """D8: size of the main offer: `share` of the extracted facts, rounded up, at least `minimum`,
-    never more than extracted."""
-    return min(extracted, max(minimum, math.ceil(extracted * share)))
+    at most `maximum` (2026-11-21), never more than extracted."""
+    return min(extracted, maximum, max(minimum, math.ceil(extracted * share)))
 
 
 def must_use_count(extracted: int, share: float) -> int:

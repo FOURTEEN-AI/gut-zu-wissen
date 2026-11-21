@@ -328,7 +328,12 @@ def run(
             )
             skipped_ids = excluded | {f.segment_id for f in einordnung}
             extracted = sum(f.segment_id not in skipped_ids for f in facts.facts)
-            main_max = offer_size(extracted, quotas["main_offer_share"], quotas["main_facts_min"])
+            main_max = offer_size(
+                extracted,
+                quotas["main_offer_share"],
+                quotas["main_facts_min"],
+                quotas["main_facts_max"],
+            )
             main = rank_facts(llm, facts.facts, quotas["main_facts_min"], main_max, skipped_ids)
             targets, over_limit = bound_targets(
                 link_targets(raw_of(main, segments), article.title), quotas["linked_targets_max"]

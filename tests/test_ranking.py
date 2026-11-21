@@ -104,11 +104,16 @@ def test_prompt_states_size_order_and_must_use_rule():
 
 
 def test_offer_size_is_the_rounded_up_share_within_minimum_and_extracted():
-    assert offer_size(131, 0.5, 20) == 66
-    assert offer_size(100, 0.5, 20) == 50
-    assert offer_size(30, 0.5, 20) == 20  # the minimum wins over 15
-    assert offer_size(12, 0.5, 20) == 12  # never more than extracted
-    assert offer_size(0, 0.5, 20) == 0
+    assert offer_size(131, 0.5, 20, 70) == 66
+    assert offer_size(100, 0.5, 20, 70) == 50
+    assert offer_size(30, 0.5, 20, 70) == 20  # the minimum wins over 15
+    assert offer_size(12, 0.5, 20, 70) == 12  # never more than extracted
+    assert offer_size(0, 0.5, 20, 70) == 0
+
+
+def test_offer_size_is_capped_at_the_maximum():
+    assert offer_size(758, 0.5, 20, 70) == 70  # Kölner Dom: 379 without the cap
+    assert offer_size(140, 0.5, 20, 70) == 70  # exactly at the cap
 
 
 def test_must_use_count_is_the_rounded_up_share():

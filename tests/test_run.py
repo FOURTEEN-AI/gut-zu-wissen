@@ -29,6 +29,7 @@ CONFIG = {
         "max_chunk_segments": 40,
         "min_fact_words": 4,
         "main_facts_min": 20,
+        "main_facts_max": 70,
         "main_offer_share": 0.5,
         "must_use_share": 0.05,
         "linked_intro_facts_min": 6,
