@@ -1,0 +1,57 @@
+{
+  "title": "Wiedergeburt (Buddhismus)",
+  "revid": 266468320,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-04-24T22:41:07Z",
+  "fetched_at": "2026-11-21T16:46:21Z",
+  "categories": [
+    "Kategorie:Buddhistische Mythologie",
+    "Kategorie:Indische Philosophie",
+    "Kategorie:Tod (Buddhismus)",
+    "Kategorie:Wikipedia:Lückenhaft"
+  ],
+  "intro_wikitext": "{{Lückenhaft}}\n'''Wiedergeburt''' ([[Pali]]: ''Punab[[bhava]]''; [[Sanskrit]]: ''punarbhava''; auch: ''Wiederdasein'' bzw. ''Wiederwerden'' oder ''erneute Existenz''<ref>[http://www.palikanon.de/english/wtb/n_r/punabbhava.htm: Punabbhava] (englisch)</ref>) ist im [[Buddhismus|buddhistischen]] Kontext ein Begriff aus der [[Indische Philosophie|indischen Philosophie]], der bereits vor dem Erscheinen des [[Gautama Buddha]] bekannt war. Buddha übernahm den Begriff und passte ihn seinen eigenen Erkenntnissen an.",
+  "segments": [
+    {
+      "id": "266468320-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Wiedergeburt''' ([[Pali]]: ''Punab[[bhava]]''; [[Sanskrit]]: ''punarbhava''; auch: ''Wiederdasein'' bzw. ''Wiederwerden'' oder ''erneute Existenz''<ref>[http://www.palikanon.de/english/wtb/n_r/punabbhava.htm: Punabbhava] (englisch)</ref>) ist im [[Buddhismus|buddhistischen]] Kontext ein Begriff aus der [[Indische Philosophie|indischen Philosophie]], der bereits vor dem Erscheinen des [[Gautama Buddha]] bekannt war.",
+      "plain": null
+    },
+    {
+      "id": "266468320-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Buddha übernahm den Begriff und passte ihn seinen eigenen Erkenntnissen an.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 266468320,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "266468320-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Wiedergeburt (Pali: Punabbhava; Sanskrit: punarbhava; auch: Wiederdasein bzw. Wiederwerden oder erneute Existenz) ist im buddhistischen Kontext ein Begriff aus der indischen Philosophie, der bereits vor dem Erscheinen des Gautama Buddha bekannt war.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "266468320-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "266468320-0000"
+        ],
+        "plain": "Buddha übernahm den Begriff und passte ihn seinen eigenen Erkenntnissen an.",
+        "context_plain": [
+          "Wiedergeburt (Pali: Punabbhava; Sanskrit: punarbhava; auch: Wiederdasein bzw. Wiederwerden oder erneute Existenz) ist im buddhistischen Kontext ein Begriff aus der indischen Philosophie, der bereits vor dem Erscheinen des Gautama Buddha bekannt war."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

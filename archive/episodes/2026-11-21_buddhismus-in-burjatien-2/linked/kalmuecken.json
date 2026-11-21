@@ -1,0 +1,85 @@
+{
+  "title": "Kalmücken",
+  "revid": 271934103,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-06T13:59:52Z",
+  "fetched_at": "2026-11-21T16:46:21Z",
+  "categories": [
+    "Kategorie:Ethnie in Asien",
+    "Kategorie:Ethnie in Europa",
+    "Kategorie:Ethnie in Russland",
+    "Kategorie:Ethnie in Xinjiang",
+    "Kategorie:Kalmückien",
+    "Kategorie:Mongolen",
+    "Kategorie:Mongolischsprachige Ethnie",
+    "Kategorie:Nomaden",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2022-11",
+    "Kategorie:Wikipedia:Redundanz Juni 2025"
+  ],
+  "intro_wikitext": "{{Redundanztext\n|3=Oiraten\n|4=Kalmücken|2=Juni 2025|1=[[Benutzer:Hajo-Muc|Hajo-Muc]] ([[Benutzer Diskussion:Hajo-Muc|Diskussion]]) 16:24, 24. Jun. 2025 (CEST)}}\n[[Datei:Kalmyk by Repin.jpg|mini|Porträt eines Kalmücken. Von [[Ilja Repin]] (1871)]]\n[[Datei:Kalmykia in Russia.svg|mini|Lage der [[Kalmückien|Republik Kalmückien]] in Russland, Siedlungsgebiet von fast 90 % der Kalmücken]]\nDie '''Kalmücken''' ({{xalS|хальмг}}; {{ruS|калмыки}}; deutsch auch ''Kalmüken'' oder ''Kalmyken'' geschrieben) sind ein [[Mongolen|westmongolisches]] Volk, das vorrangig in der [[Föderale Gliederung Russlands|Autonomen Russischen Teilrepublik]] [[Kalmückien]] lebt. Der Begriff wurde bereits im frühen 14.&nbsp;Jahrhundert von [[islam]]ischen Historikern für die [[Oiraten]] verwendet und später von den [[Russen]] für an der [[Wolga]] siedelnde Splittergruppen der Oiraten übernommen.\n\nDie Kalmücken sind das einzige [[Buddhismus|buddhistische]] und das einzige [[Mongolische Sprachen|mongolischsprachige]] Volk innerhalb der geografischen Grenzen Europas. Nach der Volkszählung 2010 lebten 183.372 Kalmücken in Russland,<ref>{{Webarchiv |url=http://www.gks.ru/free_doc/new_site/perepis2010/perepis_itogi1612.htm |text=Offizielle Ergebnisse der Volkszählung Excel-Tabelle 5, Zeile 81 |wayback=20200430211642 |archiv-bot=2022-11-24 12:43:35 InternetArchiveBot}}.</ref> davon 162.740 in Kalmückien (57,4 % der Bevölkerung Kalmückiens).<ref>{{Webarchiv |url=http://www.gks.ru/free_doc/new_site/perepis2010/perepis_itogi1612.htm |text=Ergebnisse der Volkszählung Russlands 2010. |wayback=20200430211642 |archiv-bot=2022-11-24 12:43:35 InternetArchiveBot}} Excel-Tabelle 7, Zeile 341.</ref>",
+  "segments": [
+    {
+      "id": "271934103-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Kalmücken''' ({{xalS|хальмг}}; {{ruS|калмыки}}; deutsch auch ''Kalmüken'' oder ''Kalmyken'' geschrieben) sind ein [[Mongolen|westmongolisches]] Volk, das vorrangig in der [[Föderale Gliederung Russlands|Autonomen Russischen Teilrepublik]] [[Kalmückien]] lebt.",
+      "plain": null
+    },
+    {
+      "id": "271934103-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Begriff wurde bereits im frühen 14.&nbsp;Jahrhundert von [[islam]]ischen Historikern für die [[Oiraten]] verwendet und später von den [[Russen]] für an der [[Wolga]] siedelnde Splittergruppen der Oiraten übernommen.",
+      "plain": null
+    },
+    {
+      "id": "271934103-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Kalmücken sind das einzige [[Buddhismus|buddhistische]] und das einzige [[Mongolische Sprachen|mongolischsprachige]] Volk innerhalb der geografischen Grenzen Europas.",
+      "plain": null
+    },
+    {
+      "id": "271934103-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Nach der Volkszählung 2010 lebten 183.372 Kalmücken in Russland,<ref>{{Webarchiv |url=http://www.gks.ru/free_doc/new_site/perepis2010/perepis_itogi1612.htm |text=Offizielle Ergebnisse der Volkszählung Excel-Tabelle 5, Zeile 81 |wayback=20200430211642 |archiv-bot=2022-11-24 12:43:35 InternetArchiveBot}}.</ref> davon 162.740 in Kalmückien (57,4 % der Bevölkerung Kalmückiens).<ref>{{Webarchiv |url=http://www.gks.ru/free_doc/new_site/perepis2010/perepis_itogi1612.htm |text=Ergebnisse der Volkszählung Russlands 2010. |wayback=20200430211642 |archiv-bot=2022-11-24 12:43:35 InternetArchiveBot}} Excel-Tabelle 7, Zeile 341.</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271934103,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271934103-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271934103-0000"
+        ],
+        "plain": "Der Begriff wurde bereits im frühen 14. Jahrhundert von islamischen Historikern für die Oiraten verwendet und später von den Russen für an der Wolga siedelnde Splittergruppen der Oiraten übernommen.",
+        "context_plain": [
+          "Die Kalmücken (kalmückisch хальмг; russisch калмыки; deutsch auch Kalmüken oder Kalmyken geschrieben) sind ein westmongolisches Volk, das vorrangig in der Autonomen Russischen Teilrepublik Kalmückien lebt."
+        ]
+      },
+      {
+        "segment_id": "271934103-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Kalmücken sind das einzige buddhistische und das einzige mongolischsprachige Volk innerhalb der geografischen Grenzen Europas.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271934103-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Nach der Volkszählung 2010 lebten 183.372 Kalmücken in Russland, davon 162.740 in Kalmückien (57,4 % der Bevölkerung Kalmückiens).",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

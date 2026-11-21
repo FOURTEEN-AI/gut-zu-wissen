@@ -1,0 +1,134 @@
+{
+  "title": "Bogenschießen",
+  "revid": 268375239,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-01T08:31:05Z",
+  "fetched_at": "2026-11-21T16:46:21Z",
+  "categories": [
+    "Kategorie:Bogenschießen",
+    "Kategorie:Olympische Sportart",
+    "Kategorie:Schießsportdisziplin"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|behandelt die Sportart. Zum sonstigen Bogenschießen siehe [[Bogen (Waffe)]] sowie [[Bogenjagd]] und [[Bogenfischen]].}}\n[[Datei:Image-ArcheryGermanyEarly1980s-OriginalScan.jpg|mini|hochkant=1.5|Internationaler Bogensport-Wettbewerb (1983)]]\n\nDas sportliche '''Bogenschießen''' ist ein [[Sportschießen|Schießsport]] mit [[Pfeil (Geschoss)|Pfeil]] und [[Bogen (Waffe)|Bogen]]. Heute ist das Schießen auf standardisierte Zielscheiben mit [[Bogen (Waffe)#Reflexbogen|Recurvebögen]], an denen Zielvorrichtungen und Stabilisatoren angebaut sind, die am weitesten verbreitete Bogensportart. Der verwendete Bogen, der häufig als „olympischer Bogen“ bezeichnet wird, ist ein technologisch hoch entwickeltes Sportgerät, mit welchem genaue Treffer auf große Distanzen erzielt werden können. Das Bogenschießen zählt zu den [[Präzisionssport]]arten.\n\nBogenschießen gehört seit 1972 zu den [[Olympische Sportart|olympischen Sportarten]]. Zuvor war es bereits in den Jahren 1900, 1904, 1908 und 1920 im Programm der [[Olympische Spiele|Olympischen Spiele]] vertreten. [[Olympische Sommerspiele 1904#Bogenschießen|1904]] war es die einzige Sportart bei diesen Spielen, bei der auch Frauen teilnahmeberechtigt waren.\n\nNeben dem sportlichen Bogenschießen wird im meditativen und therapeutischen Bogenschießen der Bogen als Mittel zur Persönlichkeitsentwicklung genutzt.",
+  "segments": [
+    {
+      "id": "268375239-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das sportliche '''Bogenschießen''' ist ein [[Sportschießen|Schießsport]] mit [[Pfeil (Geschoss)|Pfeil]] und [[Bogen (Waffe)|Bogen]].",
+      "plain": null
+    },
+    {
+      "id": "268375239-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Heute ist das Schießen auf standardisierte Zielscheiben mit [[Bogen (Waffe)#Reflexbogen|Recurvebögen]], an denen Zielvorrichtungen und Stabilisatoren angebaut sind, die am weitesten verbreitete Bogensportart.",
+      "plain": null
+    },
+    {
+      "id": "268375239-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der verwendete Bogen, der häufig als „olympischer Bogen“ bezeichnet wird, ist ein technologisch hoch entwickeltes Sportgerät, mit welchem genaue Treffer auf große Distanzen erzielt werden können.",
+      "plain": null
+    },
+    {
+      "id": "268375239-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Bogenschießen zählt zu den [[Präzisionssport]]arten.",
+      "plain": null
+    },
+    {
+      "id": "268375239-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bogenschießen gehört seit 1972 zu den [[Olympische Sportart|olympischen Sportarten]].",
+      "plain": null
+    },
+    {
+      "id": "268375239-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Zuvor war es bereits in den Jahren 1900, 1904, 1908 und 1920 im Programm der [[Olympische Spiele|Olympischen Spiele]] vertreten.",
+      "plain": null
+    },
+    {
+      "id": "268375239-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "[[Olympische Sommerspiele 1904#Bogenschießen|1904]] war es die einzige Sportart bei diesen Spielen, bei der auch Frauen teilnahmeberechtigt waren.",
+      "plain": null
+    },
+    {
+      "id": "268375239-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Neben dem sportlichen Bogenschießen wird im meditativen und therapeutischen Bogenschießen der Bogen als Mittel zur Persönlichkeitsentwicklung genutzt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268375239,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268375239-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Heute ist das Schießen auf standardisierte Zielscheiben mit Recurvebögen, an denen Zielvorrichtungen und Stabilisatoren angebaut sind, die am weitesten verbreitete Bogensportart.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268375239-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der verwendete Bogen, der häufig als „olympischer Bogen“ bezeichnet wird, ist ein technologisch hoch entwickeltes Sportgerät, mit welchem genaue Treffer auf große Distanzen erzielt werden können.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268375239-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Bogenschießen gehört seit 1972 zu den olympischen Sportarten.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268375239-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "268375239-0004"
+        ],
+        "plain": "Zuvor war es bereits in den Jahren 1900, 1904, 1908 und 1920 im Programm der Olympischen Spiele vertreten.",
+        "context_plain": [
+          "Bogenschießen gehört seit 1972 zu den olympischen Sportarten."
+        ]
+      },
+      {
+        "segment_id": "268375239-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "268375239-0005"
+        ],
+        "plain": "1904 war es die einzige Sportart bei diesen Spielen, bei der auch Frauen teilnahmeberechtigt waren.",
+        "context_plain": [
+          "Zuvor war es bereits in den Jahren 1900, 1904, 1908 und 1920 im Programm der Olympischen Spiele vertreten."
+        ]
+      },
+      {
+        "segment_id": "268375239-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Neben dem sportlichen Bogenschießen wird im meditativen und therapeutischen Bogenschießen der Bogen als Mittel zur Persönlichkeitsentwicklung genutzt.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

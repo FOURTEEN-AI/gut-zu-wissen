@@ -1,0 +1,112 @@
+{
+  "title": "Tibet",
+  "revid": 270963306,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-02T07:16:33Z",
+  "fetched_at": "2026-11-21T16:46:21Z",
+  "categories": [
+    "Kategorie:Annexion",
+    "Kategorie:Historischer Staat (China)",
+    "Kategorie:Tibet",
+    "Kategorie:Wikipedia:Lesenswert"
+  ],
+  "intro_wikitext": "{{Begriffsklärungshinweis}}\n[[Datei:Tibet worldlocation.png|mini|Lage von Tibet auf der Weltkarte]]\n[[Datei:YangpachenValley.jpg|mini|[[Yangbajain]]-Tal, etwa 100 Kilometer nordwestlich von [[Lhasa]]]]\n[[Datei:Brahmaputra6.JPG|mini|Fährverkehr über den [[Brahmaputra]] (Yarlung Zangbo)]]\n\n'''Tibet''' ist eine Region in [[Zentralasien]], die den Lebensraum [[Tibetische Sprache|tibetisch-sprachiger]] Völkerschaften umfasst. Abgeschieden durch das [[Himalaya]]-Gebirge am Südrand hat Tibet eine eigenständige Kultur und schon vor dem 7. Jahrhundert auch eigenständige Staaten ([[Shangshung]], [[Yarlung-Dynastie|Tubo]]) herausgebildet, die sich über Teile des [[Hochland von Tibet|tibetischen Hochlands]] erstreckten. Mitte des 13. Jahrhunderts gerieten sowohl Tibet als auch China eine Zeitlang unter [[Mongolisches Reich|mongolische Herrschaft]].\n\nTibet besaß bis ins 20. Jahrhundert hinein ein eigenes Staatswesen. Seit 1959 besteht eine [[tibetische Exilregierung]], die den chinesischen Anspruch auf das ehemalige Staatsgebiet nicht anerkennt und von vielen Ländern unterstützt wird.\n\nDie chinesische Verwaltungsgliederung des größten Teils des historischen Großraums Tibet umfasst heute das [[Autonomes Gebiet Tibet|Autonome Gebiet Tibet]] (AGT) mit der Hauptstadt [[Lhasa]] sowie zehn [[Autonomer Bezirk (China)|Autonome Bezirke]] und zwei [[Autonomer Kreis (China)|Autonome Kreise]] in den Provinzen [[Qinghai]], [[Sichuan]], [[Yunnan]] und [[Gansu]]. Teile des historischen Siedlungsgebietes des Volkes der Tibeter außerhalb Chinas liegen in [[Pakistan]], [[Indien]], [[Nepal]], [[Bhutan]] und [[Myanmar]].",
+  "segments": [
+    {
+      "id": "270963306-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Tibet''' ist eine Region in [[Zentralasien]], die den Lebensraum [[Tibetische Sprache|tibetisch-sprachiger]] Völkerschaften umfasst.",
+      "plain": null
+    },
+    {
+      "id": "270963306-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Abgeschieden durch das [[Himalaya]]-Gebirge am Südrand hat Tibet eine eigenständige Kultur und schon vor dem 7. Jahrhundert auch eigenständige Staaten ([[Shangshung]], [[Yarlung-Dynastie|Tubo]]) herausgebildet, die sich über Teile des [[Hochland von Tibet|tibetischen Hochlands]] erstreckten.",
+      "plain": null
+    },
+    {
+      "id": "270963306-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Mitte des 13. Jahrhunderts gerieten sowohl Tibet als auch China eine Zeitlang unter [[Mongolisches Reich|mongolische Herrschaft]].",
+      "plain": null
+    },
+    {
+      "id": "270963306-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Tibet besaß bis ins 20. Jahrhundert hinein ein eigenes Staatswesen.",
+      "plain": null
+    },
+    {
+      "id": "270963306-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Seit 1959 besteht eine [[tibetische Exilregierung]], die den chinesischen Anspruch auf das ehemalige Staatsgebiet nicht anerkennt und von vielen Ländern unterstützt wird.",
+      "plain": null
+    },
+    {
+      "id": "270963306-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die chinesische Verwaltungsgliederung des größten Teils des historischen Großraums Tibet umfasst heute das [[Autonomes Gebiet Tibet|Autonome Gebiet Tibet]] (AGT) mit der Hauptstadt [[Lhasa]] sowie zehn [[Autonomer Bezirk (China)|Autonome Bezirke]] und zwei [[Autonomer Kreis (China)|Autonome Kreise]] in den Provinzen [[Qinghai]], [[Sichuan]], [[Yunnan]] und [[Gansu]].",
+      "plain": null
+    },
+    {
+      "id": "270963306-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Teile des historischen Siedlungsgebietes des Volkes der Tibeter außerhalb Chinas liegen in [[Pakistan]], [[Indien]], [[Nepal]], [[Bhutan]] und [[Myanmar]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270963306,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270963306-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Abgeschieden durch das Himalaya-Gebirge am Südrand hat Tibet eine eigenständige Kultur und schon vor dem 7. Jahrhundert auch eigenständige Staaten (Shangshung, Tubo) herausgebildet, die sich über Teile des tibetischen Hochlands erstreckten.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270963306-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Mitte des 13. Jahrhunderts gerieten sowohl Tibet als auch China eine Zeitlang unter mongolische Herrschaft.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270963306-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Tibet besaß bis ins 20. Jahrhundert hinein ein eigenes Staatswesen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270963306-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Seit 1959 besteht eine tibetische Exilregierung, die den chinesischen Anspruch auf das ehemalige Staatsgebiet nicht anerkennt und von vielen Ländern unterstützt wird.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270963306-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Teile des historischen Siedlungsgebietes des Volkes der Tibeter außerhalb Chinas liegen in Pakistan, Indien, Nepal, Bhutan und Myanmar.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}
