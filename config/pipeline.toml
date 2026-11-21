@@ -72,10 +72,12 @@ tts_voice_felix = "de-de-tutor-4"     # Gemini library voice, spike S4, confirme
 stt = "large-v3"                    # Whisper model (faster-whisper), spike S5
 
 [quotas]
-# Offer range (decided 2026-11-20): at least min if extraction yields that many, at most max;
-# beyond min only genuinely surprising, non-duplicate facts. Fewer than min is allowed (D5 gate).
+# Main offer (D8, 2026-11-21): the top `main_offer_share` of the extracted main facts by surprise,
+# rounded up, at least `main_facts_min` if extraction yields that many. Fewer than min is allowed
+# (D5 gate). The top `must_use_share` of the ranking, rounded up, must be used in the dialog.
 main_facts_min = 20
-main_facts_max = 40
+main_offer_share = 0.75
+must_use_share = 0.05
 linked_intro_facts_min = 6
 linked_intro_facts_max = 12
 # Einordnung (decided 2026-11-20): the first intro sentences of the main article that pass the

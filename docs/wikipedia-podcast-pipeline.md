@@ -24,7 +24,7 @@ flowchart TD
     GP -- nein --> S[Segmentierung SoMaJo, Markup maskiert]
     S --> X[Extraktion pro Abschnitt]
     X --> G1{Gate: Segment-Regeln}
-    G1 --> R[Ranking nach Überraschung: 20–40 Fakten]
+    G1 --> R[Ranking nach Überraschung: obere 75 % (D8)]
     R --> L[Einleitungen verlinkter Artikel]
     L --> X2[Extraktion + Gate + Ranking: 6–12 Fakten]
     S --> E[Einordnung: erste Einleitungssätze + Gate, bis 2]
@@ -62,7 +62,7 @@ flowchart TD
 ## Korpus
 
 - **Hauptartikel:** roher Wikitext, vollständig.
-- **Verlinkte Artikel:** nur Einleitung (Text vor der ersten `==`-Überschrift), nur für Links in den 20–40 angebotenen Fakten. Angeboten werden aus ihnen nur Fakten, die direkt mit dem Hauptthema verbunden sind.
+- **Verlinkte Artikel:** nur Einleitung (Text vor der ersten `==`-Überschrift), nur für Links in den angebotenen Fakten des Hauptartikels (höchstens `linked_targets_max`). Angeboten werden aus ihnen nur Fakten, die direkt mit dem Hauptthema verbunden sind.
 - **Quellstand:** revid aus der API-Antwort direkt gespeichert, zusätzlich UTC-Zeitstempel des Abrufs.
 
 ## Fakten
@@ -80,7 +80,7 @@ flowchart TD
 ## Ranking und Kontingent
 
 - **Kriterium:** nur Überraschung (LLM, probabilistisch); bei verlinkten Einleitungen nur unter Fakten, die direkt mit dem Hauptthema verbunden sind.
-- **Kontingent:** 20–40 Fakten Hauptartikel, 6–12 Fakten verlinkte Einleitungen (eigenes Ranking, nur Fakten direkt mit dem Hauptthema verbunden: über das Hauptthema selbst oder seine direkte Beziehung zum verlinkten Gegenstand, nicht über den verlinkten Gegenstand allein). Über das Minimum hinaus nur wirklich überraschende Fakten ohne Dopplung; liefert die Extraktion weniger als das Minimum, wird angeboten, was da ist. Angebot, keine Pflicht.
+- **Kontingent (D8, 2026-11-21):** Hauptartikel: die oberen `main_offer_share` (75 %) der extrahierten Fakten, aufgerundet, mindestens `main_facts_min` (20, sofern die Extraktion so viele liefert); das Ranking ordnet, dedupliziert und lässt nur die am wenigsten überraschenden und doppelten Fakten weg. 6–12 Fakten verlinkte Einleitungen (eigenes Ranking, nur Fakten direkt mit dem Hauptthema verbunden: über das Hauptthema selbst oder seine direkte Beziehung zum verlinkten Gegenstand, nicht über den verlinkten Gegenstand allein). Liefert die Extraktion weniger als das Minimum, wird angeboten, was da ist. Angebot, keine Pflicht, mit Ausnahme der obersten `must_use_share` (5 %, aufgerundet) des Hauptartikel-Rankings (Gate Top-Fakten, Dialog).
 - **Einordnung:** die ersten Sätze der Einleitung des Hauptartikels (Text vor der ersten Überschrift), in Artikelreihenfolge, bis zu `einordnung_facts_max` (2), werden immer angeboten, außerhalb des Rankings und des Kontingents. Nur die deterministischen Fakt-Gates (eindeutig, Mindestwörter, vollständiger Satz); ein Satz, der eines verfehlt, wird übersprungen. Keine Infobox-Zeilen. Der erste Prosasatz der Einleitung (meist die Definition) ist immer Einordnung Nr. 1, sofern er die Gates besteht (Entscheidung 2026-11-20); ihn schließt D6 nie aus. Für die übrigen gilt der Ausschluss nach D6 wie bei anderen Fakten. Einordnungssätze werden nie zusätzlich gerankt oder als Hauptfakten angeboten; ein Segment, das auch extrahiert wurde, steht nur als Einordnung im Angebot. Im Angebot zuerst, mit Vermerk „(Einordnung)“; das Gespräch beginnt mit einer kurzen Einordnung daraus (was, wann, wo).
 - **Schätzung:** 15 Minuten ≈ 2.000–2.300 Wörter, ein Fakt ≈ 100–150 Wörter → 15–20 Fakten.
 - **Nachjustieren:** nach ersten Folgen anhand „verwendete Fakten pro Minute“.
@@ -93,6 +93,8 @@ flowchart TD
 - **Ausgabe pro Redebeitrag:** Text, Fakt-IDs, jede Behauptung und jede Prämisse einer Frage als explizite Aussage mit Fakt-IDs. Reaktionen ohne Fakt-IDs zulässig.
 - **Markup:** Dialogautor sieht nur Klartext von Fakten und Kontext und schreibt Klartext.
 - **Gate Wiederholung:** ein Fakt steht in den Aussagen von höchstens `max_turns_per_fact` (2) Redebeiträgen (Erzählung plus eine Nachfrage); der letzte Redebeitrag (Zusammenfassung) zählt nicht. Jeder weitere Redebeitrag ist ein Gate-Problem und wird ohne Judge neu generiert; geprüft im ganzen aktuellen Dialog, auch nach jeder Neugenerierung, so trifft es immer den späteren Redebeitrag. Ausnahme (Entscheidung 2026-11-20): Felix' Redebeiträge, die die feste Einordnung Nr. 1 (den ersten Prosasatz der Einleitung) zitieren, meist als Prämisse einer Frage, zählen für diesen Fakt nicht und werden nicht geprüft; Lenas Redebeiträge zählen wie bei jedem Fakt (einmal erzählt, dazu die Zusammenfassung). In der Liste der schon erzählten Fakten für den Dialogautor steht der Satz mit dem Vermerk, dass Felix ihn erneut als Prämisse verwenden darf.
+
+- **Gate Top-Fakten (D8, 2026-11-21):** die obersten `must_use_share` (5 %, aufgerundet; bei 131 extrahierten Fakten 7) des Hauptartikel-Rankings müssen im Gespräch vorkommen, d. h. in den Aussagen angenommener Redebeiträge zitiert sein. Nicht verlangt werden Fakten, die D6 ausgeschlossen hat (kumulativ); der Rest des Rankings rückt nicht nach. Einordnung und verlinkte Fakten zählen nicht. Verfehlt der Dialogautor das Gate, gilt wie bei D5 Gesprächsneugenerierung (Grund: die fehlenden Fakten); nach dem Judge ein Gate-Fehlschlag.
 
 ## Judge
 

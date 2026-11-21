@@ -99,6 +99,16 @@ nur einmal.
 schreibst du aus, wie sie gesprochen werden. Fachbegriffe nur mit Erklärung aus den Fakten.
 - Lena verallgemeinert nicht über den Fakt-Satz hinaus. Abgelehnt werden etwa „Es gibt keine \
 Zellen, die einfach alles werden“ und „Auf diese Eigenschaft wurde mit dem Namen angespielt“.
+- Schlussfolgerungen sind keine Reaktion: Ein „also …“ oder „dann …“, das etwas folgert, behauptet \
+etwas. Es braucht ein Statement mit dem Fakt, der die Folgerung selbst trägt, sonst lässt du es \
+weg und fragst nur nach. Abgelehnt wird etwa Felix: „Ohne Strafe blieb die vorgesehene Zahl also \
+wirkungslos.“, wenn der Fakt nur sagt, dass es keine Strafe gab und die Zahl weiter stieg.
+- Lena stellt keine Vergleiche oder Gegensätze her, die der Fakt-Satz nicht selbst enthält: kein \
+„anders als“, „im Gegensatz dazu“, „bei X war es anders“, „dagegen“. Sie beginnt direkt mit dem \
+Fakt-Satz. Abgelehnt wird etwa Lena: „Bei einer Zerstörung war es anders.“ vor einem Fakt, der \
+keinen Vergleich enthält.
+- Das Statement eines Redebeitrags gibt den Fakt-Satz wieder, nicht den gesprochenen Satz: Es \
+sagt nicht mehr und nicht weniger als der Fakt-Satz.
 - Schreibe reinen Text zum Sprechen: kein Markup, keine Aufzählungszeichen, keine Klammern mit \
 Quellenangaben, keine Regieanweisungen.
 - Am Ende fasst genau eine der beiden Personen das Gespräch einmal kurz zusammen. Keine zweite \
@@ -120,7 +130,8 @@ und gegebenenfalls einem Kontext. Der Kontext dient nur zum Verstehen (Pronomen,
 nie als Beleg. Fakten mit dem Vermerk „(verlinkter Artikel: …)“ stammen aus der Einleitung \
 eines verlinkten Artikels. Du wählst aus dem Angebot, was du brauchst, und entwirfst einen \
 Erzählbogen; du musst nicht alle Fakten verwenden, aber mindestens {min_used}. Bevorzuge die \
-überraschendsten.
+überraschendsten. Fakten mit dem Vermerk „(Pflicht)“ sind die überraschendsten des Artikels und \
+müssen im Gespräch vorkommen.
 
 Fakten mit dem Vermerk „(Einordnung)“ stehen am Anfang des Angebots; es sind die ersten Sätze \
 des Artikels. Das Gespräch beginnt mit einer kurzen Einordnung aus diesen Fakten, bevor die erste \
@@ -142,6 +153,7 @@ zwei feste Personen: Lena, die Expertin, und Felix, der neugierig Fragende. Sie 
 Du bekommst alle angebotenen Fakten mit Kennung in eckigen Klammern (der Kontext dient nur zum \
 Verstehen, nie als Beleg), dazu den vorherigen und den nächsten Redebeitrag, den zu ersetzenden \
 Redebeitrag, jeweils mit ihren Kennungen, und gegebenenfalls den Grund, warum er ersetzt wird. \
+Fakten mit dem Vermerk „(Pflicht)“ müssen im Gespräch vorkommen. \
 Schreibe nur den neuen Redebeitrag derselben Person. Er muss zum vorherigen und zum nächsten \
 Redebeitrag passen. Verwende Fakten aus dem Angebot; behebe den genannten Grund.
 
@@ -170,7 +182,8 @@ neuer Einstieg, nichts wiederholen. Fakten, die im bisherigen Gespräch schon er
 erzählst du nicht noch einmal; nur eine kurze Nachfrage direkt nach der Erzählung darf sich \
 darauf beziehen. Fehlt die Einordnung aus den Fakten mit Vermerk „(Einordnung)“ noch, holt Lena \
 sie direkt nach. Wähle aus dem Angebot neue Fakten, bevorzuge die überraschendsten, und führe \
-den Erzählbogen weiter. Im ganzen Gespräch müssen mindestens {min_used} Fakten verwendet werden. \
+den Erzählbogen weiter. Im ganzen Gespräch müssen mindestens {min_used} Fakten verwendet werden, \
+dazu alle Fakten mit dem Vermerk „(Pflicht)“, die noch nicht erzählt sind. \
 Die Fortsetzung endet mit der einen Zusammenfassung; sie darf auch Fakten aus dem bisherigen \
 Gespräch aufgreifen.
 
@@ -218,6 +231,7 @@ class Dialog:
 
 
 EINORDNUNG_NOTE = " (Einordnung)"
+MUST_USE_NOTE = " (Pflicht)"
 
 
 def offer_aliases(
@@ -233,13 +247,15 @@ def format_offer(
     main: Sequence[RankedFact],
     linked: Sequence[RankedFact],
     einordnung: Sequence[RankedFact] = (),
+    must_use: Collection[str] = (),
 ) -> str:
     """Plain text of the offered facts and their context, in alias order (Einordnung marked,
-    then main article, then linked with their article), each fact under its alias."""
+    then main article with the D8 must-use facts marked, then linked with their article), each
+    fact under its alias."""
     alias_of = {sid: alias for alias, sid in offer_aliases(main, linked, einordnung).items()}
     tagged = [
         *((r, EINORDNUNG_NOTE) for r in einordnung),
-        *((r, "") for r in main),
+        *((r, MUST_USE_NOTE if r.fact.segment_id in must_use else "") for r in main),
         *((r, f" (verlinkter Artikel: {r.article})") for r in linked),
     ]
     lines: list[str] = []
@@ -459,6 +475,20 @@ def author_reason(
     return reason
 
 
+def top_facts_gate(
+    must_use: Collection[str], used: Collection[str], exempt: Collection[str] = ()
+) -> str | None:
+    """D8: the top-ranked facts (`must_use`) must be used; facts in `exempt` (excluded by D6,
+    cited by rejected statements) are not required."""
+    missing = [i for i in must_use if i not in used and i not in exempt]
+    if missing:
+        return (
+            f"Gate top facts (D8): {len(missing)} of the {len(must_use)} top-ranked facts "
+            f"not used: {', '.join(sorted(missing))}."
+        )
+    return None
+
+
 def used_facts_gate(used: int, minimum: int) -> str | None:
     """D5: fewer than `minimum` used facts after the author triggers a conversation regeneration."""
     if used < minimum:
@@ -480,12 +510,13 @@ def write_dialog(
     max_turns_per_fact: int,
     einordnung: Sequence[RankedFact] = (),
     premise_exempt_ids: Collection[str] = (),
+    must_use: Collection[str] = (),
 ) -> Dialog:
     """One dialog from the offer, checked by the fact-ID and repetition gates. Problems are
     recorded, not raised. `premise_exempt_ids`: see `repetition_problems`."""
     answer = llm.complete_json(
         SYSTEM_PROMPT.format(min_used=min_used_facts),
-        format_offer(main, linked, einordnung),
+        format_offer(main, linked, einordnung, must_use),
         DIALOG_SCHEMA,
     )
     aliases = offer_aliases(main, linked, einordnung)

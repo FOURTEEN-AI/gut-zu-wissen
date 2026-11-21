@@ -63,6 +63,7 @@ from gut_zu_wissen.dialog import (
     offer_aliases,
     regenerate_turn,
     repetition_problems,
+    top_facts_gate,
     used_fact_ids,
     used_facts_gate,
     write_dialog,
@@ -130,6 +131,8 @@ class Offer:
     # as Einordnung #1 (user decision 2026-11-20); Felix may cite it as a premise again without
     # the repetition gate counting it (`repetition_problems`, 2026-11-20)
     pinned: frozenset[str] = frozenset()
+    # D8: the top-ranked main facts the dialog must use (marked "(Pflicht)" in the offer)
+    must_use: frozenset[str] = frozenset()
 
     def by_id(self) -> dict[str, RankedFact]:
         return {r.fact.segment_id: r for r in [*self.einordnung, *self.main, *self.linked]}
@@ -138,7 +141,7 @@ class Offer:
         return offer_aliases(self.main, self.linked, self.einordnung)
 
     def text(self) -> str:
-        return format_offer(self.main, self.linked, self.einordnung)
+        return format_offer(self.main, self.linked, self.einordnung, self.must_use)
 
 
 @dataclass
@@ -369,7 +372,9 @@ def continuation_offer(offer: Offer, excluded: Collection[str], prefix: Sequence
     def kept(facts: Sequence[RankedFact]) -> list[RankedFact]:
         return [r for r in facts if r.fact.segment_id in keep or r.fact.segment_id not in excluded]
 
-    return Offer(kept(offer.main), kept(offer.linked), kept(offer.einordnung), offer.pinned)
+    main, linked, einordnung = kept(offer.main), kept(offer.linked), kept(offer.einordnung)
+    left = {r.fact.segment_id for r in main}
+    return Offer(main, linked, einordnung, offer.pinned, offer.must_use & left)
 
 
 def conversation_path(start: int | None, offered: int, minimum: int) -> tuple[str, str | None]:
@@ -683,10 +688,13 @@ def orchestrate(
                     max_turns_per_fact,
                     offer.einordnung,
                     offer.pinned,
+                    offer.must_use,
                 )
             kept = len(prefix)
             state.dialog, state.judgements, state.used_fact_ids = dialog, [], []
-            failure = used_facts_gate(len(dialog.used_fact_ids), minimum)
+            failure = used_facts_gate(len(dialog.used_fact_ids), minimum) or top_facts_gate(
+                offer.must_use, dialog.used_fact_ids, excluded
+            )
             failed_chain: int | None = None
             judgements: list[TurnJudgement] = []
             rejected: list[str] = []
@@ -764,7 +772,9 @@ def orchestrate(
             used = used_in_accepted(dialog.turns, state.judgements, facts.keys())
             dialog.used_fact_ids = used
             state.used_fact_ids = used
-            final = judged_facts_gate(len(used), minimum)
+            final = judged_facts_gate(len(used), minimum) or top_facts_gate(
+                offer.must_use, used, excluded | set(rejected)
+            )
             if final:
                 raise GateFailure(final)
             return state

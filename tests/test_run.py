@@ -29,7 +29,8 @@ CONFIG = {
         "max_chunk_segments": 40,
         "min_fact_words": 4,
         "main_facts_min": 20,
-        "main_facts_max": 40,
+        "main_offer_share": 0.75,
+        "must_use_share": 0.05,
         "linked_intro_facts_min": 6,
         "linked_intro_facts_max": 12,
         "einordnung_facts_max": 0,  # off here; the Einordnung tests switch it on
@@ -312,7 +313,7 @@ def test_ranking_adds_linked_intros_with_own_revid(tmp_path):
     assert not (folder / "linked" / "max-muster.json").exists()
     assert ranking["link_targets_over_limit"] == []
     assert ranking["offer_counts"] == {
-        "main": {"offered": 1, "min": 20, "max": 40, "below_min": True},
+        "main": {"offered": 1, "min": 20, "max": 1, "below_min": True},
         "linked": {"offered": 2, "min": 6, "max": 12, "below_min": True},
         "einordnung": {"offered": 0, "min": 0, "max": 0, "below_min": False},
     }
@@ -474,7 +475,7 @@ def test_einordnung_is_archived_and_offered_first_outside_the_ranking(tmp_path):
     assert lines == [
         "[F1] (Einordnung) Erster Satz im Artikel hier.",
         "[F2] (Einordnung) Zweiter Satz im Artikel hier.",
-        "[F3] Ein Satz im Abschnitt A.",
+        "[F3] (Pflicht) Ein Satz im Abschnitt A.",
         "[F4] Dritter Satz im Artikel hier.",
     ]
     dialog = json.loads((folder / "05_dialog.json").read_text())
