@@ -433,6 +433,15 @@ def test_write_dialog_records_repetition_problems_in_turn_order():
         "Jeder Fakt ist ein neuer Schritt in der Geschichte",
         "Ein späterer Redebeitrag, der einen schon erzählten Fakt noch einmal erzählt oder "
         "zusammenfasst, ist nicht erlaubt.",
+        # (i) follow-up questions do not repeat the fact (user, 2026-11-21)
+        "Nachfragen wiederholen den Fakt nicht",
+        "Eine Frage, die einen schon erzählten Fakt als Prämisse nennt, zählt als weiterer "
+        "Redebeitrag für diesen Fakt.",
+        "Überleitungsfragen zum nächsten Thema bauen nicht auf Fakten auf",
+        # (j) no inferences or contrasts the fact sentence lacks (2026-11-21)
+        "Schlussfolgerungen sind keine Reaktion",
+        "Lena stellt keine Vergleiche oder Gegensätze her",
+        "Das Statement eines Redebeitrags gibt den Fakt-Satz wieder",
         # (h) Felix may use the definition sentence as a premise more often (user, 2026-11-20)
         "Den ersten Einordnungssatz darf Felix öfter als Prämisse einer Frage verwenden; erzählt "
         "wird er nur einmal.",

@@ -93,6 +93,11 @@ eine solche Nachfrage trägt wie jede Prämisse seine Kennungen. Erst in der Zus
 letzten Redebeitrag, darf er wiederkommen. Jeder Fakt ist ein neuer Schritt in der Geschichte: \
 Ein späterer Redebeitrag, der einen schon erzählten Fakt noch einmal erzählt oder zusammenfasst, \
 ist nicht erlaubt. Beantwortet Lena eine Nachfrage, tut sie es mit einem neuen Fakt.
+- Nachfragen wiederholen den Fakt nicht: Felix fragt nach dem Warum, dem Wie oder dem Folgenden, \
+ohne den erzählten Inhalt in der Frage noch einmal zu nennen („Warum eigentlich?“, „Wie kam es \
+dazu?“). Eine Frage, die einen schon erzählten Fakt als Prämisse nennt, zählt als weiterer \
+Redebeitrag für diesen Fakt. Überleitungsfragen zum nächsten Thema bauen nicht auf Fakten auf, die \
+schon erzählt wurden; sie fragen offen nach dem Neuen („Und wie ging es dann weiter?“).
 - Den ersten Einordnungssatz darf Felix öfter als Prämisse einer Frage verwenden; erzählt wird er \
 nur einmal.
 - Lena erzählt kurze bis mittellange Sätze, erst die Kernaussage, dann das Detail. Zahlen \
