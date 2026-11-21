@@ -1,0 +1,61 @@
+{
+  "title": "Buddhismus in Tibet",
+  "revid": 269352510,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-08-03T19:22:27Z",
+  "fetched_at": "2026-11-21T11:06:20Z",
+  "categories": [
+    "Kategorie:Buddhismus in Tibet",
+    "Kategorie:Geschichte des Buddhismus",
+    "Kategorie:Vajrayana",
+    "Kategorie:Weltreligion",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2022-10"
+  ],
+  "intro_wikitext": "[[Datei:Lamas Rumtek.jpg|mini|Buddhistische Mönche im Kloster [[Rumtek]]]]\n[[Datei:Palpung in Tibet.jpg|mini|Palpung Thubten Chökhor Ling]]\n[[Datei:Young monks of Drepung.jpg|mini|Junge tibetische Mönche, die im Innenhof des Klosters [[Drepung]] über buddhistische Lehren diskutieren. Sie halten ihre Gebetskette [[Mala (Gebetskette)|Mala]] und sind in einer charakteristischen Körperhaltung, um die Argumente ihres Gegners zu entkräften]]\n[[Datei:Yamantaka Vajrabhairav.jpg|mini|[[Yamantaka]] Vajrabhairav]]\n\nDie Entwicklung des '''Buddhismus in Tibet''' bzw. im [[Hochland von Tibet]] geht auf erste Kontakte im [[500|5. Jahrhundert n.&nbsp;Chr.]] zurück. Zur offiziellen Einführung des [[Buddhismus]] in [[Tibet]] als Staatsreligion kam es im 8. Jahrhundert durch König [[Trisong Detsen]].<ref>C. I. Beckwith: ''The revolt of 755 in Tibet.'' in ''The History of Tibet.'' ed. Alex McKay, Band 1, London 2003, S. 273–285.</ref> In Tibet entstanden im Verlauf der Zeit verschiedene buddhistische Schulen.",
+  "segments": [
+    {
+      "id": "269352510-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Entwicklung des '''Buddhismus in Tibet''' bzw. im [[Hochland von Tibet]] geht auf erste Kontakte im [[500|5. Jahrhundert n.&nbsp;Chr.]] zurück.",
+      "plain": null
+    },
+    {
+      "id": "269352510-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Zur offiziellen Einführung des [[Buddhismus]] in [[Tibet]] als Staatsreligion kam es im 8. Jahrhundert durch König [[Trisong Detsen]].<ref>C. I. Beckwith: ''The revolt of 755 in Tibet.'' in ''The History of Tibet.'' ed. Alex McKay, Band 1, London 2003, S. 273–285.</ref>",
+      "plain": null
+    },
+    {
+      "id": "269352510-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "In Tibet entstanden im Verlauf der Zeit verschiedene buddhistische Schulen.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269352510,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269352510-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Entwicklung des Buddhismus in Tibet bzw. im Hochland von Tibet geht auf erste Kontakte im 5. Jahrhundert n. Chr. zurück.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269352510-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Zur offiziellen Einführung des Buddhismus in Tibet als Staatsreligion kam es im 8. Jahrhundert durch König Trisong Detsen.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

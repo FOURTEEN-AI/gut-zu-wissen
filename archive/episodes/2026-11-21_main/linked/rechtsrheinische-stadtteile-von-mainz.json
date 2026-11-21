@@ -1,0 +1,83 @@
+{
+  "title": "Rechtsrheinische Stadtteile von Mainz",
+  "revid": 263435045,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-01-18T10:33:03Z",
+  "fetched_at": "2026-11-21T12:01:59Z",
+  "categories": [
+    "Kategorie:Geschichte (Mainz)",
+    "Kategorie:Geschichte Wiesbadens",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2022-12",
+    "Kategorie:Wikipedia:Redundanz August 2024"
+  ],
+  "intro_wikitext": "{{Redundanztext\n|3=Rechtsrheinische Stadtteile von Mainz\n|4=AKK-Konflikt\n|2=August 2024|1=[[Benutzer:FordPrefect42|FordPrefect42]] ([[Benutzer Diskussion:FordPrefect42|Diskussion]]) 18:14, 30. Aug. 2024 (CEST)}}\n{{Coordinate|NS=49.999|EW=8.309|type=city|region=DE-HE}}\n<gallery perrow=\"2\" class=\"float-right\" widths=\"170px\">\nCoat of arms of Mainz-2008 new.svg|Landeshauptstadt Mainz,<br />Rheinland-Pfalz\nDEU Wiesbaden COA.svg|Landeshauptstadt Wiesbaden,<br />Hessen\n</gallery>\n<gallery perrow=\"2\" class=\"float-right\" widths=\"170px\">\nZeichen 310-MZ-Kastel.svg|Ortseingangsschild bis 2006\nZeichen 310-WI-Stadtteil-Mainz-Kastel.svg|Heute\n</gallery>\n\n'''Rechtsrheinische Stadtteile von [[Mainz]]''' waren die zwischen 1908 und 1930 [[Eingemeindung|eingemeindeten]] Stadtteile [[Mainz-Amöneburg|Amöneburg]], [[Mainz-Kastel|Kastel]] und [[Mainz-Kostheim|Kostheim]] nördlich der [[Main]]mündung sowie [[Bischofsheim (Mainspitze)|Bischofsheim]], [[Ginsheim-Gustavsburg|Gustavsburg und Ginsheim]] südlich davon. In den sechs Stadtteilen lebte mit 21,1&nbsp;Prozent der kleinere Teil der Mainzer Bevölkerung, jedoch stellten sie 50,4&nbsp;Prozent des Stadtgebietes dar.<ref>Eike-Christian Kersten: ''Mainz – die geteilte Stadt'' (Diss.), verlag regionalkultur, Ubstadt-Weiher, Heidelberg u.&nbsp;a. 2014, S.&nbsp;54&nbsp;f.</ref> Aufgrund der Grenzziehung zwischen der [[Amerikanische Besatzungszone|amerikanischen]] und der [[Französische Besatzungszone|französischen Besatzungszone]] nach dem [[Zweiter Weltkrieg|Zweiten Weltkrieg]] blieben sie beim [[Volksstaat Hessen]], der nach der Neugründung der [[Land (Deutschland)|Länder]] in Deutschland in [[Groß-Hessen]], dem heutigen [[Hessen]], aufging, während das [[linksrheinisch]]e Mainz zum neu geschaffenen Land [[Rheinland-Pfalz]] kam. Die drei südmainischen Stadtteile gehören heute zum hessischen [[Landkreis Groß-Gerau]], die drei nordmainischen zur Stadt [[Wiesbaden]].",
+  "segments": [
+    {
+      "id": "263435045-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Rechtsrheinische Stadtteile von [[Mainz]]''' waren die zwischen 1908 und 1930 [[Eingemeindung|eingemeindeten]] Stadtteile [[Mainz-Amöneburg|Amöneburg]], [[Mainz-Kastel|Kastel]] und [[Mainz-Kostheim|Kostheim]] nördlich der [[Main]]mündung sowie [[Bischofsheim (Mainspitze)|Bischofsheim]], [[Ginsheim-Gustavsburg|Gustavsburg und Ginsheim]] südlich davon.",
+      "plain": null
+    },
+    {
+      "id": "263435045-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "In den sechs Stadtteilen lebte mit 21,1&nbsp;Prozent der kleinere Teil der Mainzer Bevölkerung, jedoch stellten sie 50,4&nbsp;Prozent des Stadtgebietes dar.<ref>Eike-Christian Kersten: ''Mainz – die geteilte Stadt'' (Diss.), verlag regionalkultur, Ubstadt-Weiher, Heidelberg u.&nbsp;a. 2014, S.&nbsp;54&nbsp;f.</ref>",
+      "plain": null
+    },
+    {
+      "id": "263435045-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Aufgrund der Grenzziehung zwischen der [[Amerikanische Besatzungszone|amerikanischen]] und der [[Französische Besatzungszone|französischen Besatzungszone]] nach dem [[Zweiter Weltkrieg|Zweiten Weltkrieg]] blieben sie beim [[Volksstaat Hessen]], der nach der Neugründung der [[Land (Deutschland)|Länder]] in Deutschland in [[Groß-Hessen]], dem heutigen [[Hessen]], aufging, während das [[linksrheinisch]]e Mainz zum neu geschaffenen Land [[Rheinland-Pfalz]] kam.",
+      "plain": null
+    },
+    {
+      "id": "263435045-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die drei südmainischen Stadtteile gehören heute zum hessischen [[Landkreis Groß-Gerau]], die drei nordmainischen zur Stadt [[Wiesbaden]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 263435045,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "263435045-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "In den sechs Stadtteilen lebte mit 21,1 Prozent der kleinere Teil der Mainzer Bevölkerung, jedoch stellten sie 50,4 Prozent des Stadtgebietes dar.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "263435045-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Aufgrund der Grenzziehung zwischen der amerikanischen und der französischen Besatzungszone nach dem Zweiten Weltkrieg blieben sie beim Volksstaat Hessen, der nach der Neugründung der Länder in Deutschland in Groß-Hessen, dem heutigen Hessen, aufging, während das linksrheinische Mainz zum neu geschaffenen Land Rheinland-Pfalz kam.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "263435045-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "263435045-0000",
+          "263435045-0001",
+          "263435045-0002"
+        ],
+        "plain": "Die drei südmainischen Stadtteile gehören heute zum hessischen Landkreis Groß-Gerau, die drei nordmainischen zur Stadt Wiesbaden.",
+        "context_plain": [
+          "Rechtsrheinische Stadtteile von Mainz waren die zwischen 1908 und 1930 eingemeindeten Stadtteile Amöneburg, Kastel und Kostheim nördlich der Mainmündung sowie Bischofsheim, Gustavsburg und Ginsheim südlich davon.",
+          "In den sechs Stadtteilen lebte mit 21,1 Prozent der kleinere Teil der Mainzer Bevölkerung, jedoch stellten sie 50,4 Prozent des Stadtgebietes dar.",
+          "Aufgrund der Grenzziehung zwischen der amerikanischen und der französischen Besatzungszone nach dem Zweiten Weltkrieg blieben sie beim Volksstaat Hessen, der nach der Neugründung der Länder in Deutschland in Groß-Hessen, dem heutigen Hessen, aufging, während das linksrheinische Mainz zum neu geschaffenen Land Rheinland-Pfalz kam."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

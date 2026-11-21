@@ -1,0 +1,113 @@
+{
+  "title": "Ethnologisches Museum (Berlin)",
+  "revid": 270904552,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-30T13:30:39Z",
+  "fetched_at": "2026-11-21T11:26:37Z",
+  "categories": [
+    "Kategorie:Ethnologisches Museum (Berlin)",
+    "Kategorie:Kunstmuseum in Berlin",
+    "Kategorie:Museumsgründung 1873",
+    "Kategorie:Völkerkundemuseum in Deutschland"
+  ],
+  "intro_wikitext": "{{Infobox Museum\n| Name             = Ethnologisches Museum\n| Bild             = [[Datei:Berlin-Mitte Stadtschloss asv2023-10 (cropped).jpg|240px]]\n| Bildbeschreibung = \n| Ort              = [[Humboldt Forum]] im [[Berliner Schloss]]\n| Breitengrad      = \n| Längengrad       = \n| ISO-Region       = DE-BE\n| Art              = [[Ethnologisches Museum]]\n| Eröffnung        = 1873\n| Besucheranzahl   = \n| Betreiber        = [[Staatliche Museen zu Berlin]]\n| Leitung          = Henrietta Lidchi\n| ISIL             = DE-MUS-019118\n| Website          = [https://www.smb.museum/museen-einrichtungen/ethnologisches-museum/home/ smb.museum]\n}}\n\nDas '''Ethnologische Museum''' der [[Staatliche Museen zu Berlin|Staatlichen Museen zu Berlin]] hat seinen Sitz im [[Humboldt Forum]] im [[Berliner Schloss]]. Gegründet 1873 als ''Königliches Museum für [[Ethnologie|Völkerkunde]]'', umfasst es ca. 500.000 Objekte aus [[Afrika]], [[Amerika]], [[Asien]] und [[Australien (Kontinent)|Australien]] sowie etwa ebenso viele Ton-, Bild-, Film- und Schriftdokumente. Die Sammlung des Ethnologischen Museums gehört zu den bedeutendsten ihrer Art.<ref>{{Internetquelle |autor=Staatliche Museen zu Berlin |url=https://www.smb.museum/museen-einrichtungen/ethnologisches-museum/ueber-uns/profil/ |titel=Staatliche Museen zu Berlin: Profil |sprache=de |abruf=2021-09-23}}</ref>",
+  "segments": [
+    {
+      "id": "270904552-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Museum | Ort              = [[Humboldt Forum]] im [[Berliner Schloss]]",
+      "plain": "Infobox Museum – Ort: Humboldt Forum im Berliner Schloss"
+    },
+    {
+      "id": "270904552-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Museum | Art              = [[Ethnologisches Museum]]",
+      "plain": "Infobox Museum – Art: Ethnologisches Museum"
+    },
+    {
+      "id": "270904552-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Museum | Eröffnung        = 1873",
+      "plain": "Infobox Museum – Eröffnung: 1873"
+    },
+    {
+      "id": "270904552-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Museum | Betreiber        = [[Staatliche Museen zu Berlin]]",
+      "plain": "Infobox Museum – Betreiber: Staatliche Museen zu Berlin"
+    },
+    {
+      "id": "270904552-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Museum | Leitung          = Henrietta Lidchi",
+      "plain": "Infobox Museum – Leitung: Henrietta Lidchi"
+    },
+    {
+      "id": "270904552-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Museum | Website          = [https://www.smb.museum/museen-einrichtungen/ethnologisches-museum/home/ smb.museum]",
+      "plain": "Infobox Museum – Website: smb.museum"
+    },
+    {
+      "id": "270904552-0006",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Museum | ISIL             = DE-MUS-019118",
+      "plain": "Infobox Museum – ISIL: DE-MUS-019118"
+    },
+    {
+      "id": "270904552-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das '''Ethnologische Museum''' der [[Staatliche Museen zu Berlin|Staatlichen Museen zu Berlin]] hat seinen Sitz im [[Humboldt Forum]] im [[Berliner Schloss]].",
+      "plain": null
+    },
+    {
+      "id": "270904552-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Gegründet 1873 als ''Königliches Museum für [[Ethnologie|Völkerkunde]]'', umfasst es ca. 500.000 Objekte aus [[Afrika]], [[Amerika]], [[Asien]] und [[Australien (Kontinent)|Australien]] sowie etwa ebenso viele Ton-, Bild-, Film- und Schriftdokumente.",
+      "plain": null
+    },
+    {
+      "id": "270904552-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Sammlung des Ethnologischen Museums gehört zu den bedeutendsten ihrer Art.<ref>{{Internetquelle |autor=Staatliche Museen zu Berlin |url=https://www.smb.museum/museen-einrichtungen/ethnologisches-museum/ueber-uns/profil/ |titel=Staatliche Museen zu Berlin: Profil |sprache=de |abruf=2021-09-23}}</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270904552,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270904552-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Ethnologische Museum der Staatlichen Museen zu Berlin hat seinen Sitz im Humboldt Forum im Berliner Schloss.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270904552-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270904552-0007"
+        ],
+        "plain": "Gegründet 1873 als Königliches Museum für Völkerkunde, umfasst es ca. 500.000 Objekte aus Afrika, Amerika, Asien und Australien sowie etwa ebenso viele Ton-, Bild-, Film- und Schriftdokumente.",
+        "context_plain": [
+          "Das Ethnologische Museum der Staatlichen Museen zu Berlin hat seinen Sitz im Humboldt Forum im Berliner Schloss."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

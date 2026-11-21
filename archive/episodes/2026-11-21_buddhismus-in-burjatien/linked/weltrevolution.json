@@ -1,0 +1,73 @@
+{
+  "title": "Weltrevolution",
+  "revid": 251032330,
+  "revision_status": "sighted",
+  "revision_timestamp": "2024-12-07T11:03:18Z",
+  "fetched_at": "2026-11-21T11:06:20Z",
+  "categories": [
+    "Kategorie:Internationalismus",
+    "Kategorie:Marxismus-Leninismus",
+    "Kategorie:Marxistische Philosophie",
+    "Kategorie:Politische Ideengeschichte (19. Jahrhundert)",
+    "Kategorie:Revolutionstheorie"
+  ],
+  "intro_wikitext": "[[Datei:Red flag waving.svg|mini|100px|Die rote Fahne als Zeichen der Revolution]]\nDie '''Weltrevolution''' ist, nach [[Marxismus|marxistischer]] Auffassung, eine [[Revolution]], die aus nationalen Revolutionen erwachsend alle Länder der Erde ergreift. Sie wird als eine Voraussetzung für den Übergang vom [[Sozialismus]] zum [[Kommunismus]] gesehen. Nachdem es den [[Bolschewiki]] nicht gelungen war, die [[Oktoberrevolution|Revolution]] des Jahres 1917 weltweit zu exportieren – das Scheitern der als entscheidend angesehenen [[Deutscher Oktober|Revolutionierung Deutschlands 1923]] war ein harter Rückschlag – ging [[Stalin]], um eine Isolation der Sowjetunion zu verhindern, zum Prinzip des „[[Sozialismus in einem Land]]“ über.",
+  "segments": [
+    {
+      "id": "251032330-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Weltrevolution''' ist, nach [[Marxismus|marxistischer]] Auffassung, eine [[Revolution]], die aus nationalen Revolutionen erwachsend alle Länder der Erde ergreift.",
+      "plain": null
+    },
+    {
+      "id": "251032330-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie wird als eine Voraussetzung für den Übergang vom [[Sozialismus]] zum [[Kommunismus]] gesehen.",
+      "plain": null
+    },
+    {
+      "id": "251032330-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Nachdem es den [[Bolschewiki]] nicht gelungen war, die [[Oktoberrevolution|Revolution]] des Jahres 1917 weltweit zu exportieren – das Scheitern der als entscheidend angesehenen [[Deutscher Oktober|Revolutionierung Deutschlands 1923]] war ein harter Rückschlag – ging [[Stalin]], um eine Isolation der Sowjetunion zu verhindern, zum Prinzip des „[[Sozialismus in einem Land]]“ über.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 251032330,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "251032330-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Weltrevolution ist, nach marxistischer Auffassung, eine Revolution, die aus nationalen Revolutionen erwachsend alle Länder der Erde ergreift.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "251032330-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "251032330-0000"
+        ],
+        "plain": "Sie wird als eine Voraussetzung für den Übergang vom Sozialismus zum Kommunismus gesehen.",
+        "context_plain": [
+          "Die Weltrevolution ist, nach marxistischer Auffassung, eine Revolution, die aus nationalen Revolutionen erwachsend alle Länder der Erde ergreift."
+        ]
+      },
+      {
+        "segment_id": "251032330-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Nachdem es den Bolschewiki nicht gelungen war, die Revolution des Jahres 1917 weltweit zu exportieren – das Scheitern der als entscheidend angesehenen Revolutionierung Deutschlands 1923 war ein harter Rückschlag – ging Stalin, um eine Isolation der Sowjetunion zu verhindern, zum Prinzip des „Sozialismus in einem Land“ über.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

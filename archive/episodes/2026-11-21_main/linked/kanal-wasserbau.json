@@ -1,0 +1,115 @@
+{
+  "title": "Kanal (Wasserbau)",
+  "revid": 263770162,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-01-29T00:50:21Z",
+  "fetched_at": "2026-11-21T12:01:59Z",
+  "categories": [
+    "Kategorie:Geographischer Begriff",
+    "Kategorie:Grundbau",
+    "Kategorie:Kanal",
+    "Kategorie:Kanalwesen und Kanalbau",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2025-09"
+  ],
+  "intro_wikitext": "{{Weiterleitungshinweis|Schifffahrtskanal|Zum Schifffahrtskanal in Interlaken siehe [[Schifffahrtskanal (Interlaken)]].}}\n[[Datei:Mittellandkanal near minden germany.jpg|mini|[[Mittellandkanal]] (Deutschland)]]\n\nAls '''Kanal''' bezeichnet man ein [[Gewässer]] mit künstlich hergestelltem [[Gewässerbett]]. Es kann auch ein Wasserlauf mit natürlichem Gewässerbett in seinem Verlauf verlegt oder kanalartig so ausgebaut werden, dass er dann zu den Kanälen zählt. Dies war in früheren Zeiten bei den kleineren Schiffsabmessungen häufiger der Fall.\n\nBei einem gänzlich gedeckten Kanal als unterirdischem [[Bauwerk]] beziehungsweise Fließgewässer spricht man von [[Verrohrung (Wasserbau)|Verrohrung]]. Auch die der Abwasser- bzw. der Regenwasserentsorgung dienenden Rohre der [[Kanalisation]] werden Kanäle genannt.",
+  "segments": [
+    {
+      "id": "263770162-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als '''Kanal''' bezeichnet man ein [[Gewässer]] mit künstlich hergestelltem [[Gewässerbett]].",
+      "plain": null
+    },
+    {
+      "id": "263770162-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es kann auch ein Wasserlauf mit natürlichem Gewässerbett in seinem Verlauf verlegt oder kanalartig so ausgebaut werden, dass er dann zu den Kanälen zählt.",
+      "plain": null
+    },
+    {
+      "id": "263770162-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dies war in früheren Zeiten bei den kleineren Schiffsabmessungen häufiger der Fall.",
+      "plain": null
+    },
+    {
+      "id": "263770162-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bei einem gänzlich gedeckten Kanal als unterirdischem [[Bauwerk]] beziehungsweise Fließgewässer spricht man von [[Verrohrung (Wasserbau)|Verrohrung]].",
+      "plain": null
+    },
+    {
+      "id": "263770162-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Auch die der Abwasser- bzw. der Regenwasserentsorgung dienenden Rohre der [[Kanalisation]] werden Kanäle genannt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 263770162,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "263770162-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Als Kanal bezeichnet man ein Gewässer mit künstlich hergestelltem Gewässerbett.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "263770162-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "263770162-0000"
+        ],
+        "plain": "Es kann auch ein Wasserlauf mit natürlichem Gewässerbett in seinem Verlauf verlegt oder kanalartig so ausgebaut werden, dass er dann zu den Kanälen zählt.",
+        "context_plain": [
+          "Als Kanal bezeichnet man ein Gewässer mit künstlich hergestelltem Gewässerbett."
+        ]
+      },
+      {
+        "segment_id": "263770162-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "263770162-0001"
+        ],
+        "plain": "Dies war in früheren Zeiten bei den kleineren Schiffsabmessungen häufiger der Fall.",
+        "context_plain": [
+          "Es kann auch ein Wasserlauf mit natürlichem Gewässerbett in seinem Verlauf verlegt oder kanalartig so ausgebaut werden, dass er dann zu den Kanälen zählt."
+        ]
+      },
+      {
+        "segment_id": "263770162-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "263770162-0000",
+          "263770162-0001",
+          "263770162-0002"
+        ],
+        "plain": "Bei einem gänzlich gedeckten Kanal als unterirdischem Bauwerk beziehungsweise Fließgewässer spricht man von Verrohrung.",
+        "context_plain": [
+          "Als Kanal bezeichnet man ein Gewässer mit künstlich hergestelltem Gewässerbett.",
+          "Es kann auch ein Wasserlauf mit natürlichem Gewässerbett in seinem Verlauf verlegt oder kanalartig so ausgebaut werden, dass er dann zu den Kanälen zählt.",
+          "Dies war in früheren Zeiten bei den kleineren Schiffsabmessungen häufiger der Fall."
+        ]
+      },
+      {
+        "segment_id": "263770162-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Auch die der Abwasser- bzw. der Regenwasserentsorgung dienenden Rohre der Kanalisation werden Kanäle genannt.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

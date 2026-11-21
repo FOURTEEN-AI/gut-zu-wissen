@@ -1,0 +1,84 @@
+{
+  "title": "Daschi-Dorscho Itigelow",
+  "revid": 270636852,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-20T06:37:30Z",
+  "fetched_at": "2026-11-21T11:06:20Z",
+  "categories": [
+    "Kategorie:Buddhistischer Mönch",
+    "Kategorie:Geboren 1852",
+    "Kategorie:Gestorben 1927",
+    "Kategorie:Mann",
+    "Kategorie:Mumie",
+    "Kategorie:Person (Burjatien)",
+    "Kategorie:Person des Vajrayana-Buddhismus",
+    "Kategorie:Träger des Ordens der Heiligen Anna",
+    "Kategorie:Träger des Sankt-Stanislausordens (Russland)",
+    "Kategorie:Wikipedia:GND fehlt 2025-06"
+  ],
+  "intro_wikitext": "[[Datei:Itigelov.jpg|mini|Hambo Lama Daschi-Dorscho Itigelow]]\n'''Daschi-Dorscho Itigelow''' ({{ruS|Даши-Доржо Итигэлов}}, Daši-Doržo Itigelow, * [[1852]]; † [[1927]]) war zwischen 1911 und 1917 [[Pandito Hambo Lama]], also geistliches Oberhaupt der [[Buddhismus|Buddhisten]] [[Burjatien]]s. Bekanntheit erlangte er, nachdem sein Leichnam im Jahre 2002, also 75 Jahre nach seinem Tod, exhumiert worden war und praktisch keine Verwesungserscheinungen aufgewiesen hatte. Seitdem ist der unversehrte Körper Itigelows ein nationales Symbol Burjatiens geworden.",
+  "segments": [
+    {
+      "id": "270636852-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Daschi-Dorscho Itigelow''' ({{ruS|Даши-Доржо Итигэлов}}, Daši-Doržo Itigelow, * [[1852]]; † [[1927]]) war zwischen 1911 und 1917 [[Pandito Hambo Lama]], also geistliches Oberhaupt der [[Buddhismus|Buddhisten]] [[Burjatien]]s.",
+      "plain": null
+    },
+    {
+      "id": "270636852-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bekanntheit erlangte er, nachdem sein Leichnam im Jahre 2002, also 75 Jahre nach seinem Tod, exhumiert worden war und praktisch keine Verwesungserscheinungen aufgewiesen hatte.",
+      "plain": null
+    },
+    {
+      "id": "270636852-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Seitdem ist der unversehrte Körper Itigelows ein nationales Symbol Burjatiens geworden.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270636852,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270636852-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Daschi-Dorscho Itigelow (russisch Даши-Доржо Итигэлов, Daši-Doržo Itigelow, * 1852; † 1927) war zwischen 1911 und 1917 Pandito Hambo Lama, also geistliches Oberhaupt der Buddhisten Burjatiens.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270636852-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270636852-0000"
+        ],
+        "plain": "Bekanntheit erlangte er, nachdem sein Leichnam im Jahre 2002, also 75 Jahre nach seinem Tod, exhumiert worden war und praktisch keine Verwesungserscheinungen aufgewiesen hatte.",
+        "context_plain": [
+          "Daschi-Dorscho Itigelow (russisch Даши-Доржо Итигэлов, Daši-Doržo Itigelow, * 1852; † 1927) war zwischen 1911 und 1917 Pandito Hambo Lama, also geistliches Oberhaupt der Buddhisten Burjatiens."
+        ]
+      },
+      {
+        "segment_id": "270636852-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270636852-0000",
+          "270636852-0001"
+        ],
+        "plain": "Seitdem ist der unversehrte Körper Itigelows ein nationales Symbol Burjatiens geworden.",
+        "context_plain": [
+          "Daschi-Dorscho Itigelow (russisch Даши-Доржо Итигэлов, Daši-Doržo Itigelow, * 1852; † 1927) war zwischen 1911 und 1917 Pandito Hambo Lama, also geistliches Oberhaupt der Buddhisten Burjatiens.",
+          "Bekanntheit erlangte er, nachdem sein Leichnam im Jahre 2002, also 75 Jahre nach seinem Tod, exhumiert worden war und praktisch keine Verwesungserscheinungen aufgewiesen hatte."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

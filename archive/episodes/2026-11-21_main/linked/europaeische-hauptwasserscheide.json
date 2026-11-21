@@ -1,0 +1,79 @@
+{
+  "title": "Europäische Hauptwasserscheide",
+  "revid": 271520986,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-22T07:52:05Z",
+  "fetched_at": "2026-11-21T12:01:59Z",
+  "categories": [
+    "Kategorie:Geographie (Europa)",
+    "Kategorie:Limnologie",
+    "Kategorie:Wasserscheide",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2024-12",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2026-09"
+  ],
+  "intro_wikitext": "[[Datei:Europäische Wasserscheiden.png|mini|hochkant=1.6|Europäische Flusseinzugsgebiete und Hauptwasserscheiden]]\nDie '''Europäische Hauptwasserscheide''', auch '''Große Europäische [[Wasserscheide]]''' oder '''Europäische Kontinentalwasserscheide''' genannt, trennt die Zuläufe zum [[Atlantischer Ozean|offenen Atlantik]], [[Nordsee|Nord-]] und [[Ostsee]] von denen zum [[Mittelmeer]] und [[Schwarzes Meer|Schwarzen Meer]]. Sie verläuft von [[Gibraltar]] bis zu den [[Smolensker Höhen]] westlich von [[Moskau]].\n\nWeitere Hauptwasserscheiden [[Europa]]s trennen diese beiden [[Hydrographie|hydrographischen]] Großregionen von den Einzugsgebieten des [[Kaspisches Meer|Kaspischen Meeres]] und des [[Arktischer Ozean|Arktischen Ozeans]] (Polarmeer).",
+  "segments": [
+    {
+      "id": "271520986-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Europäische Hauptwasserscheide''', auch '''Große Europäische [[Wasserscheide]]''' oder '''Europäische Kontinentalwasserscheide''' genannt, trennt die Zuläufe zum [[Atlantischer Ozean|offenen Atlantik]], [[Nordsee|Nord-]] und [[Ostsee]] von denen zum [[Mittelmeer]] und [[Schwarzes Meer|Schwarzen Meer]].",
+      "plain": null
+    },
+    {
+      "id": "271520986-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie verläuft von [[Gibraltar]] bis zu den [[Smolensker Höhen]] westlich von [[Moskau]].",
+      "plain": null
+    },
+    {
+      "id": "271520986-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Weitere Hauptwasserscheiden [[Europa]]s trennen diese beiden [[Hydrographie|hydrographischen]] Großregionen von den Einzugsgebieten des [[Kaspisches Meer|Kaspischen Meeres]] und des [[Arktischer Ozean|Arktischen Ozeans]] (Polarmeer).",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271520986,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271520986-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Europäische Hauptwasserscheide, auch Große Europäische Wasserscheide oder Europäische Kontinentalwasserscheide genannt, trennt die Zuläufe zum offenen Atlantik, Nord- und Ostsee von denen zum Mittelmeer und Schwarzen Meer.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271520986-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271520986-0000"
+        ],
+        "plain": "Sie verläuft von Gibraltar bis zu den Smolensker Höhen westlich von Moskau.",
+        "context_plain": [
+          "Die Europäische Hauptwasserscheide, auch Große Europäische Wasserscheide oder Europäische Kontinentalwasserscheide genannt, trennt die Zuläufe zum offenen Atlantik, Nord- und Ostsee von denen zum Mittelmeer und Schwarzen Meer."
+        ]
+      },
+      {
+        "segment_id": "271520986-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271520986-0000",
+          "271520986-0001"
+        ],
+        "plain": "Weitere Hauptwasserscheiden Europas trennen diese beiden hydrographischen Großregionen von den Einzugsgebieten des Kaspischen Meeres und des Arktischen Ozeans (Polarmeer).",
+        "context_plain": [
+          "Die Europäische Hauptwasserscheide, auch Große Europäische Wasserscheide oder Europäische Kontinentalwasserscheide genannt, trennt die Zuläufe zum offenen Atlantik, Nord- und Ostsee von denen zum Mittelmeer und Schwarzen Meer.",
+          "Sie verläuft von Gibraltar bis zu den Smolensker Höhen westlich von Moskau."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

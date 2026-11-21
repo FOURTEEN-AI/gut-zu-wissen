@@ -1,0 +1,35 @@
+{
+  "title": "Volkskunst",
+  "revid": 268209049,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-06-25T03:03:59Z",
+  "fetched_at": "2026-11-21T11:26:37Z",
+  "categories": [
+    "Kategorie:Volkskunst"
+  ],
+  "intro_wikitext": "[[Datei:Neptun (Quetzin).JPG|mini|hochkant|[[Neptun (Mythologie)|„Neptun“]]. Holzschnitzerei am [[Plauer See (Mecklenburg)|Plauer See]] in Mecklenburg.]] \nDie '''Volkskunst''', teilweise auch ''Heimatkunst'' genannt, bezeichnet das bildnerische und kreative Schaffen jenseits der klassischen bzw. modernen [[Kunst|Künste]], meist eingebunden in traditionelle [[Handwerk|handwerkliche]] oder häusliche Produktion.",
+  "segments": [
+    {
+      "id": "268209049-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Volkskunst''', teilweise auch ''Heimatkunst'' genannt, bezeichnet das bildnerische und kreative Schaffen jenseits der klassischen bzw. modernen [[Kunst|Künste]], meist eingebunden in traditionelle [[Handwerk|handwerkliche]] oder häusliche Produktion.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268209049,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268209049-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Volkskunst, teilweise auch Heimatkunst genannt, bezeichnet das bildnerische und kreative Schaffen jenseits der klassischen bzw. modernen Künste, meist eingebunden in traditionelle handwerkliche oder häusliche Produktion.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

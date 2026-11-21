@@ -1,0 +1,1247 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.75
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: 527 Kilometer Fließstrecke und längster rechter Nebenfluss des Rheins (0019) sowie Weißer Main aus dem Fichtelgebirge und Roter Main aus der Fränkischen Alb (0020). Der Einleitungssatz „Heute geht es um den Main“ ist eine Überleitung ohne Faktengehalt. „Zwei ganz verschiedene Orte“ ist eine bloße Umschreibung der zwei genannten Quellregionen."
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.78
+      },
+      "jev_error": null,
+      "reason": "Die genannten 527 Kilometer stimmen mit dem Fakt-Satz überein. Die Wertung „ordentliche Strecke“ ist eine Reaktion im Moment, und die Fragen nach dem längsten Weg im Main-System und einer möglichen Überraschung sind Nachfragen ohne neue Tatsachenbehauptung."
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Alle Angaben stimmen mit [255464297-0011] überein: Weg über Fichtenohe, Pegnitz (128,25 km) und Regnitz (63,76 km) in den Main, Mainkilometer 384,07, Gesamtlänge 576,08 km. Der Einstieg „Es gibt eine.“ ist eine Überleitung und enthält keine zusätzliche Behauptung. Der Redebeitrag enthält nichts, was nicht aus dem Fakt-Satz folgt."
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.08
+      },
+      "jev_error": null,
+      "reason": "Felix sagt über sich selbst, dass er die Fichtenohe noch nie gehört hat – das ist eine Aussage über sich und braucht keinen Beleg. Die Frage, wo der Fluss entspringt, ist eine Nachfrage. Ihre Prämisse, dass die Fichtenohe am Anfang des längsten Weges steht, folgt aus dem Fakt-Satz, nach dem der längste Weg im Main-System über die Fichtenohe, Pegnitz und Regnitz in den Main führt. Zusätzliche Angaben enthält der Beitrag nicht."
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "aussage_1": 0.99,
+        "aussage_2": 0.98,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Die Fichtenohe entspringt laut 271811519-0038 in unmittelbarer Nähe der Quelle des Roten Mains. Die Wasserführung der Regnitz an der Mündung (56,6 m³/s) gegenüber dem Main (44,7 m³/s) und die hydrographische Einordnung als Hauptfluss des Mainsystems stehen in 271811519-0223."
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.52,
+        "vollstaendig": 0.38
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, dass die Regnitz an der Mündung mehr Wasser führt als der Main, folgt direkt aus [271811519-0223] (56,6 m³/s gegenüber 44,7 m³/s). \"Das überrascht mich\" ist ein Gefühl im Moment und belegfrei. Die Frage nach dem Ende und Beginn des Flusssystems ist eine Nachfrage ohne neue Behauptung."
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.64
+      },
+      "jev_error": null,
+      "reason": "Die Quellen wenige hundert Meter südlich der Weißmainquelle und das Schwarze Meer als Ziel der Fichtelnaab stehen in 271811519-0041. Dass der Main in ein anderes Meer entwässert, folgt daraus, dass die Grenze Teil der Europäischen Hauptwasserscheide ist. Die Prämisse, dass der Main in Richtung Rhein fließt, belegt 271811519-0019. Die Fragen „War das immer so?“ und „Floss der Main schon immer in Richtung Rhein?“ sind belegfreie Nachfragen."
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Die Aussage über die Entwässerung des Maingebiets nach Süden zur Donau gegen Ende des Tertiärs vor etwa 2,6 Millionen Jahren stimmt mit dem Fakt-Satz überein, die Zahl ist ausgeschrieben und es kommt keine zusätzliche Angabe hinzu. Das einleitende „Nein“ ist eine Reaktion und braucht keinen Beleg."
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag besteht aus einer Überleitung („Zur Donau also!“), die das eben Gesagte aufgreift und durch den zitierten Fakt gedeckt ist (Entwässerung nach Süden zur Donau), sowie aus einer Nachfrage nach einem Vorläufer des Mains. Die Frage enthält keine unbelegte Prämisse, sondern fragt nur offen danach. Es wird keine zusätzliche Tatsachenbehauptung aufgestellt."
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Der Fluss floss nur bis Bamberg von Osten nach Westen, folgte dann dem Regnitz-/Rednitz-Tal nach Süden und mündete etwa bei Augsburg in das Meer im Alpenvorland, einen Rest der Tethys. Das einleitende „Ja“ ist eine belegfreie Reaktion, und „Vorläufer“ stammt aus dem Bezug des Fakt-Satzes auf den Vorläufer des Mains."
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.58
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, dass bei Augsburg einst ein Meer war, folgt aus dem Fakt-Satz (Mündung etwa bei Augsburg in das im Alpenvorland sich ausbreitende Meer, einen Rest der Tethys). Der Satz, man könne sich das heute kaum vorstellen, ist eine persönliche Reaktion. Die Frage nach dramatischen Ereignissen auf dem Weg zum heutigen Lauf ist eine Nachfrage ohne zusätzliche Faktenbehauptung."
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: Alter von etwa 14,7 Millionen Jahren, Aufstauung des Urmains durch Trümmermassen eines Meteoriteneinschlags (Nördlinger Ries), See nördlich von Treuchtlingen, später wieder ausgelaufen. Die Einleitung \"Ja, und was für eines\" ist eine belegfreie Reaktion. Es gibt keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.21
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur belegfreie Reaktionen: ein Staunen im Moment (\"Wahnsinn, damit hätte ich nie gerechnet!\"), eine Überleitung (\"Springen wir in die Gegenwart.\") und eine Nachfrage (\"Wie sind Main und Donau heute miteinander verbunden?\"). Die Frage setzt keine Tatsache voraus, die belegt werden müsste, abgesehen von der Verbindung von Main und Donau, die sie erst erfragt. Es gibt keine Behauptung, die Fakt-IDs bräuchte."
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Alle Angaben stimmen mit den Fakt-Sätzen überein: Länge von rund 171 km, Bundeswasserstraße in Bayern, Verbindung von Main bei Bamberg und Donau bei Kelheim (Fakt 0014) sowie die durchgehende Großschifffahrtsstraße \"Europakanal\" über Rhein, Main und Donau von der Nordsee bei Rotterdam bis zum Schwarzen Meer bei Constanța in Rumänien (Fakt 0016). Es wird nichts Zusätzliches behauptet."
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.76
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, dass eine durchgehende Wasserstraße von Rotterdam bis ans Schwarze Meer besteht, folgt aus dem Fakt-Satz (Großschifffahrtsstraße zwischen der Nordsee bei Rotterdam und dem Schwarzen Meer bei Constanța). Der Rest ist eine Reaktion („klingt nach einer ziemlichen Strecke“) und eine Nachfrage, deren Prämisse (der Kanal verbindet Flüsse, hier Rhein, Main, Donau) durch den Fakt gedeckt ist."
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.6,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen im Redebeitrag folgen aus dem Fakt-Satz: die 17 Kilometer lange Scheitelhaltung, die Überquerung der Fränkischen Alb als Mittelgebirge, die Europäische Hauptwasserscheide Rhein–Donau und die 406 m ü. NHN als höchster Punkt des europäischen Wasserstraßennetzes. Die Formulierung „Abschnitt“ und „dort verläuft die Hauptwasserscheide“ ist eine zulässige Umformulierung, es kommen keine zusätzlichen Angaben hinzu."
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.61
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag enthält keine neue Information. \"Das ist ja ein Berg für Schiffe\" ist eine staunende Reaktion in bildlicher Sprache. Die beiden Fragen nach Eröffnungsdatum und Auswirkung auf den Fluss sind reine Nachfragen ohne eigene Faktenbehauptung. Fakt-IDs werden nicht gebraucht."
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "„Zwanzig neue Fischarten“ entspricht „etwa 20 Arten“ aus dem Fakt-Satz; „das ist eine Menge“ ist eine bloße Reaktion des Staunens. Die Frage, ob die Arten im Main bleiben oder weiterziehen, ist eine Nachfrage ohne eigene Behauptung. Der Redebeitrag enthält keine unbelegte Angabe."
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.77
+      },
+      "jev_error": null,
+      "reason": "Die Aussagen zur Einwanderung des Zobels über den Main-Donau-Kanal in den Rhein und zu den regelmäßigen Nachweisen am Fischpass der Staustufe Iffezheim stehen so im Fakt-Satz. „Weitergewandert“ ist nur eine Umformulierung der Einwanderung. „Zumindest“ ist eine Überleitung und keine eigene Behauptung."
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.29
+      },
+      "jev_error": null,
+      "reason": "Felix greift den Beleg auf: Der Zobel ist über den Main-Donau-Kanal in den Rhein eingewandert. Das gibt die Aussage \"Fische nutzen den Kanal als Weg von der Donau zum Rhein\" her, auch wenn nur eine Art genannt wird. Die Richtung von der Donau zum Rhein folgt aus der Einwanderung in den Rhein. Die zweite Aussage ist eine Nachfrage zum Wasserfluss und enthält keine unbelegte Behauptung."
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Lenas Aussagen stimmen mit dem Fakt-Satz überein: Die Kanalrinne ist mit dem Fränkischen Seenland Teil der Donau-Main-Überleitung, die das von zeitweiliger Trockenheit bedrohte System von Regnitz und Main mit Wasser aus Donau und Altmühl versorgt. Es gibt keine zusätzlichen Angaben, das einleitende „Ja“ ist eine Reaktion."
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Die Prämisse der Frage (Regnitz und Main werden mit Wasser aus Donau und Altmühl versorgt, weil sie von zeitweiliger Trockenheit bedroht sind) folgt direkt aus dem Fakt-Satz. Die Nachfrage nach der Wassermenge ist eine Bitte um Erklärung und braucht keinen Beleg."
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Die Niedrigwasserführung der Regnitz wird um bis zu 15 m³/s erhöht (\"fünfzehn Kubikmeter pro Sekunde\"), und das Wasser stammt aus der Altmühl und fließt über den Main-Donau-Kanal ins Einzugsgebiet des Mains. Es gibt keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.64
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung: \"Genug vom Kanal\" ist eine Überleitung, und \"Wie war das früher im Winter? Fror der Main manchmal zu?\" ist eine Nachfrage. Die Frage setzt keine Tatsache voraus, die belegt werden müsste, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Alle Angaben im Redebeitrag (Ende des 19. Jahrhunderts, etwa jedes zweite Jahr, gesamter Lauf, frühestens im November, 1513 am 13. November, spätestens im Januar) stimmen mit dem Fakt-Satz überein. Das einleitende „Und wie!“ ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "„In jedem zweiten Jahr!“ greift die Angabe aus dem Fakt-Satz (etwa jedes zweite Jahr) als Reaktion wieder auf, ohne Neues hinzuzufügen. „Wie lange hielt so eine Eisdecke denn maximal?“ ist eine Nachfrage und enthält keine unbelegte Behauptung. Die Prämisse, dass der Main zufror und eine Eisdecke bildete, folgt aus dem Fakt-Satz."
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder: längste Vereisung im Jahr 1768, 79 Tage, vom 3. Januar bis zum 22. März. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.83,
+        "aussage_1": 0.97,
+        "vollstaendig": 0.52
+      },
+      "jev_error": null,
+      "reason": "„Fast drei Monate unter Eis“ gibt die 79 Tage Vereisung aus 0298 sinngemäß wieder (79 Tage sind rund 2,6 Monate). Das Staunen ist eine Reaktion ohne Belegpflicht. Die Prämisse der Frage, dass der Main in Frankfurt zugefroren ist, deckt 0301 ab. Es kommt keine unbelegte Zusatzangabe hinzu."
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.7
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, dass der Main in Frankfurt zuletzt im Winter 1962/1963 zufror, deckt sich mit dem Fakt-Satz; die ausgeschriebene Jahreszahl ist nur eine andere Schreibweise. \"Ja, das gab es\" ist eine Überleitung ohne eigene neue Behauptung und wird durch den Fakt gestützt."
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.75
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur Reaktionen: ein Staunen („Interessant!“), eine Überleitung zum Thema Hochwasser und Nachfragen. Die Wendung „Eis ist das eine Extrem“ greift das eben Gesagte ohne neue Information wieder auf. Eine belegpflichtige Behauptung oder Prämisse steckt nicht darin, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.72
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Bedeutung der Frankfurter Mainbrücke für den Verkehr, Hinweise auf Hochwasserschäden in den ältesten Berichten und die Jahre 1192, 1235 und 1306. \"Sehr alte\" entspricht \"ältesten Berichte\". Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Felix sagt nur, dass 1306 nach einer besonderen Geschichte klingt, und fragt, was in dem Jahr passiert ist. Das ist ein Gefühl im Moment (Neugier) und eine Nachfrage. Die Jahreszahl 1306 steht im Fakt-Satz. Es wird keine neue Tatsache behauptet, die der Beleg nicht stützt."
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.4
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Faktenbehauptung. Das Gefühl (\"geht einem wirklich nah\") ist eine Reaktion bzw. eine Aussage der Sprecherin über sich selbst, und \"Du fragst bestimmt gleich nach den Zahlen\" ist eine Überleitung ohne neue Information. Fakt-IDs werden daher nicht benötigt."
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.33
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Faktenbehauptung. „Ja, ertappt! Das geht mir wirklich nah.“ ist eine Reaktion bzw. eine Aussage über das eigene Gefühl. Die Frage nach einem herausragenden Wasserstand ist eine Nachfrage; ihre Prämisse, dass es mehrere Hochwasser gab, greift nur das zuvor Gesagte wieder auf und bringt keine neue Information. Fakt-IDs sind deshalb nicht nötig."
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen stehen im Fakt-Satz: ein Wasserstand von etwa 785 cm am Pegel, der niemals sonst erreicht wurde. Die ausgeschriebene Zahl entspricht der Angabe 785 cm, und der Redebeitrag fügt nichts hinzu."
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.48
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Faktenbehauptung. „Gewaltig! Das lässt mich staunen.“ ist eine Reaktion (Staunen). „Wechseln wir mal von den Fluten zu den Lebewesen im Fluss“ ist eine Überleitung. Die Frage nach den Fischen im Main bittet um Information und setzt nichts Überprüfbares voraus, außer dass es den Main und Fische darin gibt, was keine belegbedürftige Behauptung ist. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen stehen im zitierten Fakt: die Fischerzünfte seit dem Mittelalter, Frankfurt seit 945, Flussregulierung und Uferbefestigungen wegen der Schifffahrt, Wasserverschmutzung und der Rückgang der Fischarten am Untermain von etwa 30 bis 35 auf vier. Der einleitende Satz „drastischer Einbruch“ entspricht dem „drastischen Rückgang“ und fügt nichts hinzu."
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion (\"Das klingt dramatisch.\", ein Gefühl im Moment) und einer Nachfrage, wie man die schlechte Wasserqualität zeigen konnte. Die Prämisse, dass das Wasser schlecht war, folgt aus dem Fakt-Satz, der die Wasserverschmutzung und den drastischen Rückgang der Fischarten erwähnt. Es werden keine neuen Zahlen, Daten oder Namen eingeführt."
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Fakt-Satz belegt, dass ein Goldfisch, dessen Aquarium mit Wasser unterhalb des Werkes Höchst gefüllt war, das Experiment nicht überlebte. Dass es ein Experiment mit Goldfischen gab, folgt daraus ebenfalls. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 41,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Autsch, das klingt nicht gut.“ ist eine Reaktion im Moment, und „Wurde denn dagegen etwas unternommen?“ ist eine Nachfrage, deren Prämisse (es gibt ein Problem) nur das eben Gesagte aufgreift, ohne neue Information. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 42,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.97,
+        "aussage_2": 0.98,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: Bau von Kläranlagen, Klärwerk Niederrad in Frankfurt 1887 (achtzehnhundertsiebenundachtzig) als erste Kläranlage Deutschlands in Betrieb, zahlreiche weitere kommunale und industrielle Anlagen, und dass dies nichts änderte. Keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 43,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.79
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Tatsachenbehauptung. \"Das ist ernüchternd\" ist ein Gefühl im Moment, und die Frage zur Schifffahrt ist eine Überleitung samt Nachfrage. Die Frage setzt nur voraus, dass Schiffe früher den Fluss hinauffuhren, und das ist keine eigenständige Behauptung. Fakt-IDs werden daher nicht benötigt."
+    },
+    {
+      "turn_index": 44,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, im Fluss sei eine Kette verlegt worden, an der sich ein Dampfschlepper entlanghangeln konnte, entspricht fast wörtlich dem Fakt-Satz [271811519-0409]. Der Einstieg „Mit Hilfe einer Kette“ greift das nur auf und fügt keine neue Information hinzu."
+    },
+    {
+      "turn_index": 45,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.92,
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Der erste Satz greift das Fakt-Bild (Dampfschlepper an einer Kette im Fluss) als Staunen auf, ohne neue Information. Die Frage nach besonderen Lösungen für Boote am Wehr setzt nur voraus, dass es am Wehr Lösungen für Boote gibt, was durch das Faltboot-Hebewerk in Hausen gedeckt ist. Es wird keine zusätzliche Angabe gemacht."
+    },
+    {
+      "turn_index": 46,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 47,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion (\"Beeindruckend!\") und einer Nachfrage zum Main. Er stellt keine neue Tatsachenbehauptung auf und enthält keine Prämisse, die belegt sein müsste. Belegfreie Reaktionen und Nachfragen brauchen keine Fakt-IDs."
+    },
+    {
+      "turn_index": 48,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 49,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.74
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag enthält nur eine Reaktion (\"Spannend!\"), ein Wiederaufgreifen des eben Gesagten (Treuchtlingen kam schon beim See nach dem Meteoriteneinschlag vor) und eine Nachfrage nach weiteren Spuren der Vergangenheit. Die Prämisse, dass Treuchtlingen im Zusammenhang mit dem durch den Meteoriteneinschlag aufgestauten See stand, folgt aus dem Fakt-Satz (Trümmermassen nördlich von Treuchtlingen stauten den Urmain zu einem See auf). Es gibt keine zusätzlichen unbelegten Angaben."
+    },
+    {
+      "turn_index": 50,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Das einleitende „Ja.“ ist eine belegfreie Reaktion. Die Aussage, dass Reste der Fossa Carolina heute noch bei Treuchtlingen zu finden sind, steht fast wörtlich im Fakt-Satz 271811519-0358 und enthält keine zusätzliche Angabe."
+    },
+    {
+      "turn_index": 51,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.69
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur Reaktionen ohne Belegpflicht: eine Einschätzung im Moment („klingt nach einem Ausflugsziel“), eine Überleitung („Kommen wir zu den Orten am Main“) und eine offene Nachfrage („Gibt es dort Rekorde?“). Er stellt keine Tatsachenbehauptung auf und setzt in der Frage keine Prämisse voraus, die belegt werden müsste."
+    },
+    {
+      "turn_index": 52,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Rothenfels ist mit etwa 1000 Einwohnern die kleinste Stadt Bayerns (zu Füßen der romanischen gleichnamigen Burg), Kahl ist die tiefstgelegene Gemeinde Bayerns, und das gleichnamige Flüsschen mündet auf 103 m ü. NN von rechts in den Main. Der Einleitungssatz \"Gleich mehrere.\" ist eine belegfreie Überleitung."
+    },
+    {
+      "turn_index": 53,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion (\"Kurios!\", Staunen) und einer Nachfrage, die keine neue Information enthält. Die Frage setzt keine Tatsachenbehauptung voraus, die belegt werden müsste. Ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 54,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.29
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, dass auf dem rechten Ufer in Karlstein 1961 das erste Atomkraftwerk der Bundesrepublik entstand, steht inhaltlich identisch in Fakt 271811519-0164 (Jahreszahl ausgeschrieben). Das einleitende „Ja.“ ist eine belegfreie Reaktion, es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 55,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Spannend\" ist eine Reaktion (Staunen/Neugier), und die Frage nach berühmten Begegnungen auf der kulturellen Seite ist eine Nachfrage ohne faktische Prämisse. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 56,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 57,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.66
+      },
+      "jev_error": null,
+      "reason": "Die einzige Prämisse der Frage, dass der Main ein Nebenfluss des Rheins ist, folgt aus [271811519-0019]. „Oh, schön!“ ist eine Reaktion, und die Frage, wo der Main endet, ist eine Nachfrage ohne neue Behauptung."
+    },
+    {
+      "turn_index": 58,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.97,
+        "vollstaendig": 0.78
+      },
+      "jev_error": null,
+      "reason": "Alle drei Aussagen stehen so im Fakt-Satz: die letzten Orte am Main (Kostheim rechts, Gustavsburg links), die Zugehörigkeit zusammen mit Bischofsheim als rechtsrheinische Stadtteile von Mainz und die Trennung 1945 durch eine alliierte Zonengrenze. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 59,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.61
+      },
+      "jev_error": null,
+      "reason": "Felix stellt nur eine Nachfrage. Ihre Prämisse, dass es zwei letzte Orte am Main gibt, deckt sich mit dem Fakt-Satz, der Kostheim und Gustavsburg als letzte Orte nennt. Der Beitrag enthält keine zusätzliche Behauptung, die nicht belegt wäre."
+    },
+    {
+      "turn_index": 60,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 61,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.64
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag besteht aus einer Überleitung („dann zum Schluss die Gegenwart“) und einer offenen Frage an den Gesprächspartner. Er stellt keine konkreten Fakten, Zahlen oder Namen als Behauptung auf. Die Frage verlangt nur eine Erklärung, deshalb braucht der Beitrag keine Fakt-IDs."
+    },
+    {
+      "turn_index": 62,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 63,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.45
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Tatsachenbehauptung. „Auf Zuruf, das gefällt mir“ ist eine Aussage über eine eigene Vorliebe, und die Bitte, zum Schluss den Bogen zu schließen, ist eine Überleitung. Beides gilt als belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 64,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.72
+      },
+      "jev_error": null,
+      "reason": "Alle Angaben stimmen mit dem Fakt-Satz überein: sechs Kilometer Länge, dreißig Meter Breite, tief eingeschnitten, Bauzeit 1950 bis 1957 und die „Notstandsmaßnahme der wertschaffenden Arbeitslosenfürsorge“. Die einleitenden Sätze („Gern“, „Vorher kommt noch ein Stück Baugeschichte“) sind belegfreie Überleitungen."
+    },
+    {
+      "turn_index": 65,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.73
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion (Staunen/Belustigung: „Was für ein Wortungetüm!“) und einer Nachfrage. Er enthält keine neue Information und keine überprüfbare Behauptung, die Fakt-Sätze belegen müssten."
+    },
+    {
+      "turn_index": 66,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Die Aussage folgt direkt aus dem Fakt-Satz 271811519-0099: Der im Zweiten Weltkrieg beschädigte Kanal wurde 1950 aufgegeben. Die ausgeschriebene Jahreszahl „neunzehnhundertfünfzig“ entspricht 1950. Das einleitende „Ja.“ ist eine belegfreie Reaktion, und es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 67,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.38
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag enthält keine eigene Tatsachenbehauptung. „Da steckt viel Wasserbau drin, das staune ich“ ist eine Reaktion des Staunens und greift das eben Gesagte ohne neue Information auf. „Dann jetzt aber wirklich den Bogen, Lena“ ist eine Überleitung. Dafür braucht es keine Fakt-IDs."
+    },
+    {
+      "turn_index": 68,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "aussage_3": 0.99,
+        "aussage_4": 0.99,
+        "aussage_5": 0.98,
+        "aussage_6": 0.99,
+        "aussage_7": 0.99,
+        "aussage_8": 0.99,
+        "aussage_9": 0.99,
+        "aussage_10": 0.99,
+        "vollstaendig": 0.75
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen stimmen mit den zitierten Fakt-Sätzen überein: Zahlen, Namen und Orte sind gleich, und es kommt keine zusätzliche Angabe hinzu. Der Satz zum Zufrieren und zum Fischrückgang sowie der Satz zu den Fährleuten sind nur umformuliert. Das gilt auch für „früher“ und „bis heute“."
+    }
+  ],
+  "used_fact_ids": [
+    "271811519-0019",
+    "271811519-0020",
+    "255464297-0011",
+    "271811519-0038",
+    "271811519-0223",
+    "271811519-0041",
+    "271811519-0235",
+    "271811519-0233",
+    "271811519-0234",
+    "272171794-0014",
+    "272171794-0016",
+    "272171794-0020",
+    "271811519-0336",
+    "261512923-0013",
+    "272171794-0022",
+    "271811519-0257",
+    "271811519-0295",
+    "271811519-0298",
+    "271811519-0301",
+    "271811519-0271",
+    "271811519-0289",
+    "271811519-0327",
+    "271811519-0312",
+    "271811519-0306",
+    "271811519-0409",
+    "271811519-0093",
+    "271811519-0094",
+    "271811519-0358",
+    "271811519-0140",
+    "271811519-0166",
+    "271811519-0164",
+    "271811519-0195",
+    "271811519-0217",
+    "270407548-0013",
+    "271811519-0487",
+    "271811519-0115",
+    "271811519-0099"
+  ],
+  "cascade_checks": [
+    {
+      "conversation": 1,
+      "turn_index": 5,
+      "p": 0.95,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 1,
+      "turn_index": 16,
+      "p": 0.83,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Alle Aussagen sind in der neuen Fassung enthalten: Die Scheitelhaltung ist 17 km lang, überquert die Fränkische Alb (Mittelgebirge), dort verläuft die Europäische Hauptwasserscheide Rhein–Donau, und sie liegt auf 406 m über Normalhöhennull als höchster Punkt des europäischen Wasserstraßennetzes. Die Zahlen und Namen stimmen überein, nur die Formulierung ist anders."
+    },
+    {
+      "conversation": 1,
+      "turn_index": 24,
+      "p": 0.88,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Beide Aussagen stehen in der neuen Fassung: Die Regnitz führt bei Niedrigwasser um bis zu 15 Kubikmeter pro Sekunde mehr Wasser, und das Wasser kommt aus der Altmühl und über den Main-Donau-Kanal ins Einzugsgebiet des Mains. Zahlen und Namen stimmen überein, nur die Formulierung ist anders."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 30,
+      "p": 0.93,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung enthält dieselbe Aussage: Der Main in Frankfurt fror zuletzt im Winter 1962/1963 zu. „Zuletzt“ entspricht „zum letzten Mal“. Das einleitende „Ja, das gab es.“ fügt nur eine Bestätigung hinzu, keine neue Sachaussage."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 35,
+      "p": 0.98,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 2,
+      "turn_index": 38,
+      "p": 0.96,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 2,
+      "turn_index": 42,
+      "p": 0.87,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Beide Aussagen stehen weiterhin in der neuen Fassung: Das Klärwerk Niederrad in Frankfurt ging 1887 als erste Kläranlage Deutschlands in Betrieb, und zahlreiche weitere kommunale und industrielle Abwasserreinigungsanlagen änderten nichts daran. Die Jahreszahl und der Name sind gleich geblieben, nur die Formulierung unterscheidet sich."
+    }
+  ],
+  "conversation": 3,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 4,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 4,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.96,
+          "aussage_1": 0.99,
+          "aussage_2": 0.98,
+          "vollstaendig": 0.86
+        },
+        "jev_error": null,
+        "reason": "Der erste Satz „Sie entspringt in unmittelbarer Nähe der Quelle des Roten Mains“ bezieht sich auf die Regnitz. Fakt 0038 sagt aber nur, dass der Gewässerweg über Regnitz, Pegnitz und Fichtenohe in der Nähe der Quelle des Roten Mains entspringt, also die Fichtenohe als Quellbach. Dass die Regnitz selbst dort entspringt, steht nicht in den Fakten. Die Abflusszahlen (56,6 und 44,7 m³/s) und die hydrographische Hauptfluss-Aussage stimmen mit Fakt 0223 überein."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 5,
+      "version": 0,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 5,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.89
+        },
+        "jev_error": null,
+        "reason": "Die Aussage, der Nebenfluss (Regnitz) führe an der Mündung mehr Wasser als der Main, folgt direkt aus dem Fakt (56,6 gegenüber 44,7 m³/s). Die Bemerkung, das stelle die Rollen fast auf den Kopf, ist eine Wertung, die sich darauf stützt, dass die Regnitz hydrographisch als Hauptfluss gelten kann. Die abschließende Frage nach dem Ende und Beginn des Flusssystems ist eine Nachfrage ohne Behauptung und braucht keinen Beleg."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 15,
+      "version": 0,
+      "replaced_by": 2,
+      "judgement": {
+        "turn_index": 15,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271811519-0041 wurde schon in Redebeitrag 6 und 7 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 16,
+      "version": 0,
+      "replaced_by": 3,
+      "judgement": {
+        "turn_index": 16,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.9
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen direkt aus dem Fakt-Satz: 17 Kilometer Länge, Überquerung der Fränkischen Alb als Europäische Hauptwasserscheide Rhein–Donau, 406 m ü. NHN und höchster Punkt des europäischen Wasserstraßennetzes. Die Ausformulierung der Zahlen und die Umformulierung sind zulässig, und es kommt keine zusätzliche Angabe hinzu."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 23,
+      "version": 0,
+      "replaced_by": 4,
+      "judgement": {
+        "turn_index": 23,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271811519-0223 wurde schon in Redebeitrag 4 und 5 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 24,
+      "version": 0,
+      "replaced_by": 5,
+      "judgement": {
+        "turn_index": 24,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.91
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Die Erhöhung der Niedrigwasserführung der Regnitz um bis zu 15 m³/s (\"fünfzehn Kubikmeter pro Sekunde\") und die Überleitung von Wasser aus der Altmühl und über den Main-Donau-Kanal in das Einzugsgebiet des Mains. Der Satz \"bei Niedrigwasser fließt dort mehr Wasser\" ist eine bloße Umformulierung der erhöhten Niedrigwasserführung und fügt keine neue Information hinzu."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 29,
+      "version": 0,
+      "replaced_by": 6,
+      "judgement": {
+        "turn_index": 29,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Die Frage \"Und wann fror der Main zum letzten Mal zu?\" setzt voraus, dass der Main zugefroren ist. Das ist eine Prämisse mit Faktengehalt, und es sind keine Fakt-IDs zitiert, die sie belegen. Das \"Wahnsinn!\" ist als Reaktion belegfrei, aber die Prämisse der Frage nicht."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 29,
+      "version": 1,
+      "replaced_by": 7,
+      "judgement": {
+        "turn_index": 29,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.88,
+          "vollstaendig": 0.89
+        },
+        "jev_error": null,
+        "reason": "„Wahnsinn!“ und die Nachfrage sind zwar Reaktionen, aber die Frage setzt voraus, dass der Main zugefroren ist. Der zitierte Fakt nennt den Main nicht und spricht nur von einer „Vereisung“ im Jahr 1768. Dass es ein „letztes Mal“ gab, steht dort auch nicht. Die Prämisse ist also nicht belegt."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 29,
+      "version": 0,
+      "replaced_by": 8,
+      "judgement": {
+        "turn_index": 29,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271811519-0295 wurde schon in Redebeitrag 26 und 27 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 29,
+      "version": 1,
+      "replaced_by": 9,
+      "judgement": {
+        "turn_index": 29,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.8
+        },
+        "jev_error": null,
+        "reason": "„Wow, das ist wirklich lang!“ ist eine Reaktion des Staunens auf die 79 Tage und damit belegfrei. Die Frage „wann hat der Main in Frankfurt zuletzt zugefroren?“ setzt aber voraus, dass der Main in Frankfurt zugefroren ist. Der zitierte Fakt nennt weder den Main noch Frankfurt, sondern nur eine Vereisung 1768 über 79 Tage. Die Prämisse ist deshalb nicht belegt."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 30,
+      "version": 0,
+      "replaced_by": 10,
+      "judgement": {
+        "turn_index": 30,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 34,
+      "version": 0,
+      "replaced_by": 11,
+      "judgement": {
+        "turn_index": 34,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271811519-0271 wurde schon in Redebeitrag 32 und 33 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 35,
+      "version": 0,
+      "replaced_by": 12,
+      "judgement": {
+        "turn_index": 35,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.69
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag enthält keine Behauptung. \"Das ist erschütternd\" ist eine Reaktion (Gefühl im Moment), und die Frage nach dem Wasserstand am Pegel ist eine Nachfrage. Ihre Prämisse, dass es Hochwasser gab, wurde nur als Gesprächsbezug übernommen und fügt keine neue Angabe hinzu. Fakt-IDs sind daher nicht nötig."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 35,
+      "version": 1,
+      "replaced_by": 13,
+      "judgement": {
+        "turn_index": 35,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271811519-0271 wurde schon in Redebeitrag 32 und 33 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 37,
+      "version": 0,
+      "replaced_by": 14,
+      "judgement": {
+        "turn_index": 37,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271811519-0336 wurde schon in Redebeitrag 18 und 19 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 38,
+      "version": 0,
+      "replaced_by": 15,
+      "judgement": {
+        "turn_index": 38,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.9
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Fischerzünfte seit dem Mittelalter an vielen Orten, Frankfurt seit 945, Flussregulierung und Gewässerstrukturveränderungen (Uferbefestigungen) für die Schifffahrt, zusammen mit der Wasserverschmutzung ein drastischer Rückgang der Fischarten, am Untermain von ca. 30 bis 35 auf vier. Der einleitende Satz „drastischer Einbruch“ ist eine Wiederaufnahme des Belegten und fügt nichts Neues hinzu."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 41,
+      "version": 0,
+      "replaced_by": 16,
+      "judgement": {
+        "turn_index": 41,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271811519-0327 wurde schon in Redebeitrag 38 und 39 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 41,
+      "version": 1,
+      "replaced_by": 17,
+      "judgement": {
+        "turn_index": 41,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271811519-0327 wurde schon in Redebeitrag 38 und 39 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 42,
+      "version": 0,
+      "replaced_by": 18,
+      "judgement": {
+        "turn_index": 42,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.95,
+          "vollstaendig": 0.78
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag folgt dem Fakt-Satz: Klärwerk Niederrad in Frankfurt, 1887 (achtzehnhundertsiebenundachtzig) als erste Kläranlage Deutschlands in Betrieb, und zahlreiche weitere kommunale und industrielle Abwasserreinigungsanlagen änderten daran nichts. „Ja, auch das gab es“ ist eine belegfreie Reaktion bzw. Überleitung."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 64,
+      "version": 0,
+      "replaced_by": 19,
+      "judgement": {
+        "turn_index": 64,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 1.0,
+          "aussage_1": 0.98,
+          "aussage_2": 0.99,
+          "aussage_3": 0.99,
+          "aussage_4": 0.99,
+          "aussage_5": 0.95,
+          "aussage_6": 0.99,
+          "aussage_7": 0.99,
+          "vollstaendig": 0.85
+        },
+        "jev_error": null,
+        "reason": "Die Längenangabe stimmt nicht: Lena nennt „sechshundertsechsundsiebzig Komma null acht Kilometer“ (676,08 km), laut [255464297-0011] beträgt die Gesamtlänge aber 576,08 km. Die übrigen Aussagen sind durch die Fakt-Sätze gedeckt."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 64,
+      "version": 1,
+      "replaced_by": 20,
+      "judgement": {
+        "turn_index": 64,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "aussage_3": 0.99,
+          "aussage_4": 0.99,
+          "aussage_5": 0.98,
+          "aussage_6": 0.99,
+          "aussage_7": 0.96,
+          "vollstaendig": 0.78
+        },
+        "jev_error": null,
+        "reason": "Die Aussage „Mit dem Main-Donau-Kanal entstand eine durchgehende Großschifffahrtsstraße von Rotterdam bis Constanța“ ist nicht belegt. Der Fakt [272171794-0016] sagt nur „Mit ihm“ und nennt den Namen „Europakanal“. Der Name „Main-Donau-Kanal“ steht in keinem Fakt-Satz, und auch der Kontext (Bauzeit 1960–1992) nennt ihn nicht. Die übrigen Aussagen stimmen mit den Fakten überein."
+      }
+    }
+  ]
+}

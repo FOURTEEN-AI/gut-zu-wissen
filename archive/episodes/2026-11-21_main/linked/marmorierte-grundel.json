@@ -1,0 +1,109 @@
+{
+  "title": "Marmorierte Grundel",
+  "revid": 250034605,
+  "revision_status": "sighted",
+  "revision_timestamp": "2024-11-04T12:14:36Z",
+  "fetched_at": "2026-11-21T12:01:59Z",
+  "categories": [
+    "Kategorie:Grundeln"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe bitte [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name       = Marmorierte Grundel\n| Taxon_WissName   = Proterorhinus marmoratus\n| Taxon_Rang       = Art\n| Taxon_Autor      = ([[Peter Simon Pallas|Pallas]], 1814)\n| Taxon2_WissName  = Proterorhinus\n| Taxon2_Rang      = Gattung\n| Taxon3_Name      = \n| Taxon3_WissName  = Benthophilinae\n| Taxon3_Rang      = Unterfamilie\n| Taxon4_Name      = Grundeln\n| Taxon4_WissName  = Gobiidae\n| Taxon4_Rang      = Familie\n| Taxon5_Name      = Grundelartige\n| Taxon5_WissName  = Gobiiformes\n| Taxon5_Rang      = Ordnung\n| Taxon6_Name      = Barschverwandte\n| Taxon6_WissName  = Percomorphaceae\n| Taxon6_Rang      = ohne\n| Bild             = Proterorhinus marmoratus 2.jpg\n| Bildbeschreibung = \n}}\n\nDie '''Marmorierte Grundel''' (''Proterorhinus marmoratus'') ist eine Fischart aus der Familie der [[Grundeln]] (Gobiidae). Sie erreicht eine Gesamtlänge von 11,5&nbsp;cm und kommt in europäischem [[Süßwasser|Süß-]] und [[Brackwasser]] vor. Verwechselt wird sie häufig mit der [[Groppe]], kann von dieser aber an den Bauchflossen unterschieden werden; bei der Groppe sind sie getrennt wie bei den meisten Fischen, bei der Marmorierten Grundel sind sie ähnlich einem Saugnapf miteinander verwachsen.",
+  "segments": [
+    {
+      "id": "250034605-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon6_Name      = Barschverwandte | Taxon6_WissName  = Percomorphaceae",
+      "plain": "Taxobox – Systematik – : Barschverwandte (Percomorphaceae)"
+    },
+    {
+      "id": "250034605-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_Name      = Grundelartige | Taxon5_WissName  = Gobiiformes",
+      "plain": "Taxobox – Systematik – Ordnung: Grundelartige (Gobiiformes)"
+    },
+    {
+      "id": "250034605-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_Name      = Grundeln | Taxon4_WissName  = Gobiidae",
+      "plain": "Taxobox – Systematik – Familie: Grundeln (Gobiidae)"
+    },
+    {
+      "id": "250034605-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon3_WissName  = Benthophilinae",
+      "plain": "Taxobox – Systematik – Unterfamilie: Benthophilinae"
+    },
+    {
+      "id": "250034605-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_WissName  = Proterorhinus",
+      "plain": "Taxobox – Systematik – Gattung: Proterorhinus"
+    },
+    {
+      "id": "250034605-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name       = Marmorierte Grundel",
+      "plain": "Taxobox – Systematik – Art: Marmorierte Grundel"
+    },
+    {
+      "id": "250034605-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Marmorierte Grundel''' (''Proterorhinus marmoratus'') ist eine Fischart aus der Familie der [[Grundeln]] (Gobiidae).",
+      "plain": null
+    },
+    {
+      "id": "250034605-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie erreicht eine Gesamtlänge von 11,5&nbsp;cm und kommt in europäischem [[Süßwasser|Süß-]] und [[Brackwasser]] vor.",
+      "plain": null
+    },
+    {
+      "id": "250034605-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Verwechselt wird sie häufig mit der [[Groppe]], kann von dieser aber an den Bauchflossen unterschieden werden; bei der Groppe sind sie getrennt wie bei den meisten Fischen, bei der Marmorierten Grundel sind sie ähnlich einem Saugnapf miteinander verwachsen.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 250034605,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "250034605-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "250034605-0006"
+        ],
+        "plain": "Sie erreicht eine Gesamtlänge von 11,5 cm und kommt in europäischem Süß- und Brackwasser vor.",
+        "context_plain": [
+          "Die Marmorierte Grundel (Proterorhinus marmoratus) ist eine Fischart aus der Familie der Grundeln (Gobiidae)."
+        ]
+      },
+      {
+        "segment_id": "250034605-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "250034605-0006",
+          "250034605-0007"
+        ],
+        "plain": "Verwechselt wird sie häufig mit der Groppe, kann von dieser aber an den Bauchflossen unterschieden werden; bei der Groppe sind sie getrennt wie bei den meisten Fischen, bei der Marmorierten Grundel sind sie ähnlich einem Saugnapf miteinander verwachsen.",
+        "context_plain": [
+          "Die Marmorierte Grundel (Proterorhinus marmoratus) ist eine Fischart aus der Familie der Grundeln (Gobiidae).",
+          "Sie erreicht eine Gesamtlänge von 11,5 cm und kommt in europäischem Süß- und Brackwasser vor."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

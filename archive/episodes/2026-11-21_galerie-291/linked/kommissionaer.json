@@ -1,0 +1,38 @@
+{
+  "title": "Kommissionär",
+  "revid": 240794847,
+  "revision_status": "sighted",
+  "revision_timestamp": "2024-01-03T10:42:17Z",
+  "fetched_at": "2026-11-21T11:26:37Z",
+  "categories": [
+    "Kategorie:Buchhandel",
+    "Kategorie:Handelsrecht (Deutschland)",
+    "Kategorie:Privatrecht (Schweiz)",
+    "Kategorie:Privatrecht (Österreich)"
+  ],
+  "intro_wikitext": "[[Datei:Absatzmittler nach Tätigkeit.svg|mini|300px|Abgrenzung des Kommissionärs von [[Handelsmakler]] und [[Handelsvertreter]]]]\n\n'''Kommissionär''' (aus {{laS|committere}}, „zusammenbringen, vereinigen“) ist ein [[Kaufmann (HGB)|Kaufmann]], der [[Gewerbe|gewerbsmäßig]] Kommissionsgüter im eigenen Namen, aber auf fremde Rechnung gegen [[Provision]] kauft oder verkauft.",
+  "segments": [
+    {
+      "id": "240794847-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Kommissionär''' (aus {{laS|committere}}, „zusammenbringen, vereinigen“) ist ein [[Kaufmann (HGB)|Kaufmann]], der [[Gewerbe|gewerbsmäßig]] Kommissionsgüter im eigenen Namen, aber auf fremde Rechnung gegen [[Provision]] kauft oder verkauft.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 240794847,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "240794847-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Kommissionär (aus lateinisch committere, „zusammenbringen, vereinigen“) ist ein Kaufmann, der gewerbsmäßig Kommissionsgüter im eigenen Namen, aber auf fremde Rechnung gegen Provision kauft oder verkauft.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

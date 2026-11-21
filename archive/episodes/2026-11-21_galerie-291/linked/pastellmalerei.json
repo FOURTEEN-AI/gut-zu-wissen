@@ -1,0 +1,91 @@
+{
+  "title": "Pastellmalerei",
+  "revid": 268895957,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-17T10:02:02Z",
+  "fetched_at": "2026-11-21T11:26:37Z",
+  "categories": [
+    "Kategorie:Maltechnik"
+  ],
+  "intro_wikitext": "{{Weiterleitungshinweis|Pastell|Zum Schauspieler siehe [[George Pastell]].}}\n[[Datei:Pastellkreide 2.jpg|mini|Pastellkreiden]]\n'''Pastellmalerei''' ist eine Technik, bei der [[Pigment]]e auf einen Malgrund (Papier, Pappe, [[Leinwand]]) aufgetragen werden. Pastellmalerei verwendet nicht nur [[Pastellfarbe|Pastelltöne]], vielmehr werden die Möglichkeiten des [[Zeichnung (Kunst)|Zeichnens]] mit denen der [[Malerei]] vermischt. Es können reine Pigmente verwendet werden, häufiger werden die runden oder eckigen Kreiden oder Pastellstifte genutzt. Mit ''Pastell'' wird sowohl das Material als auch das damit hergestellte Bild bezeichnet. Der Begriff ''Pastell'' leitet sich aus dem italienischen ''pasta'' „Teig“ ab.",
+  "segments": [
+    {
+      "id": "268895957-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Pastellmalerei''' ist eine Technik, bei der [[Pigment]]e auf einen Malgrund (Papier, Pappe, [[Leinwand]]) aufgetragen werden.",
+      "plain": null
+    },
+    {
+      "id": "268895957-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Pastellmalerei verwendet nicht nur [[Pastellfarbe|Pastelltöne]], vielmehr werden die Möglichkeiten des [[Zeichnung (Kunst)|Zeichnens]] mit denen der [[Malerei]] vermischt.",
+      "plain": null
+    },
+    {
+      "id": "268895957-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es können reine Pigmente verwendet werden, häufiger werden die runden oder eckigen Kreiden oder Pastellstifte genutzt.",
+      "plain": null
+    },
+    {
+      "id": "268895957-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Mit ''Pastell'' wird sowohl das Material als auch das damit hergestellte Bild bezeichnet.",
+      "plain": null
+    },
+    {
+      "id": "268895957-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Begriff ''Pastell'' leitet sich aus dem italienischen ''pasta'' „Teig“ ab.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268895957,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268895957-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Pastellmalerei ist eine Technik, bei der Pigmente auf einen Malgrund (Papier, Pappe, Leinwand) aufgetragen werden.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268895957-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Pastellmalerei verwendet nicht nur Pastelltöne, vielmehr werden die Möglichkeiten des Zeichnens mit denen der Malerei vermischt.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268895957-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "268895957-0001"
+        ],
+        "plain": "Es können reine Pigmente verwendet werden, häufiger werden die runden oder eckigen Kreiden oder Pastellstifte genutzt.",
+        "context_plain": [
+          "Pastellmalerei verwendet nicht nur Pastelltöne, vielmehr werden die Möglichkeiten des Zeichnens mit denen der Malerei vermischt."
+        ]
+      },
+      {
+        "segment_id": "268895957-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Begriff Pastell leitet sich aus dem italienischen pasta „Teig“ ab.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

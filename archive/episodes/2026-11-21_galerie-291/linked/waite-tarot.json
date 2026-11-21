@@ -1,0 +1,54 @@
+{
+  "title": "Waite Tarot",
+  "revid": 267822319,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-06-09T23:12:45Z",
+  "fetched_at": "2026-11-21T11:26:37Z",
+  "categories": [
+    "Kategorie:Tarot-Deck"
+  ],
+  "intro_wikitext": "[[Datei:RWS Tarot 06 Lovers.jpg|mini|Tarot-Karte „The Lovers“ (Die Liebenden) des ''Rider-Waite Tarot'']]\n[[Datei:Wands09.jpg|mini|Tarot-Karte „9 Wands“ (9 Stäbe) des ''Rider-Waite Tarot'']]\nDas '''Waite Tarot''' ist ein von dem englischen Okkultisten [[Arthur Edward Waite]] konzipiertes und von der Künstlerin [[Pamela Colman Smith]] ausgeführtes [[Tarot-Deck]], das 1910 im Verlag Rider & Son in London erschien, weshalb es auch als '''Rider-Waite Tarot''' bekannt ist.<ref>Zur Verbreitung des Namens trug auch bei, das der Inhaber der Rechte des Waite-Decks, der von Stuart R. Kaplan 1968 gegründete Tarot-Verlag U.S. Games Systems, ''Rider-Waite'' als Markenzeichen eintragen ließ und das Deck in unterschiedlichen Varianten der Ausführung und Koloration unter diesem Namen vermarktet.</ref> Sowohl Waite als auch Smith waren Mitglieder des [[Hermetic Order of the Golden Dawn]], dessen esoterische Lehren das Deck reflektiert.",
+  "segments": [
+    {
+      "id": "267822319-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das '''Waite Tarot''' ist ein von dem englischen Okkultisten [[Arthur Edward Waite]] konzipiertes und von der Künstlerin [[Pamela Colman Smith]] ausgeführtes [[Tarot-Deck]], das 1910 im Verlag Rider & Son in London erschien, weshalb es auch als '''Rider-Waite Tarot''' bekannt ist.<ref>Zur Verbreitung des Namens trug auch bei, das der Inhaber der Rechte des Waite-Decks, der von Stuart R. Kaplan 1968 gegründete Tarot-Verlag U.S. Games Systems, ''Rider-Waite'' als Markenzeichen eintragen ließ und das Deck in unterschiedlichen Varianten der Ausführung und Koloration unter diesem Namen vermarktet.</ref>",
+      "plain": null
+    },
+    {
+      "id": "267822319-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sowohl Waite als auch Smith waren Mitglieder des [[Hermetic Order of the Golden Dawn]], dessen esoterische Lehren das Deck reflektiert.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 267822319,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "267822319-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Waite Tarot ist ein von dem englischen Okkultisten Arthur Edward Waite konzipiertes und von der Künstlerin Pamela Colman Smith ausgeführtes Tarot-Deck, das 1910 im Verlag Rider & Son in London erschien, weshalb es auch als Rider-Waite Tarot bekannt ist.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "267822319-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "267822319-0000"
+        ],
+        "plain": "Sowohl Waite als auch Smith waren Mitglieder des Hermetic Order of the Golden Dawn, dessen esoterische Lehren das Deck reflektiert.",
+        "context_plain": [
+          "Das Waite Tarot ist ein von dem englischen Okkultisten Arthur Edward Waite konzipiertes und von der Künstlerin Pamela Colman Smith ausgeführtes Tarot-Deck, das 1910 im Verlag Rider & Son in London erschien, weshalb es auch als Rider-Waite Tarot bekannt ist."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

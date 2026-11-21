@@ -1,0 +1,96 @@
+{
+  "title": "Schiffshebewerk",
+  "revid": 271608447,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-25T09:32:31Z",
+  "fetched_at": "2026-11-21T12:01:59Z",
+  "categories": [
+    "Kategorie:Bauform (Wasserbau)",
+    "Kategorie:Kanalwesen und Kanalbau",
+    "Kategorie:Schiffshebewerk",
+    "Kategorie:Verkehrsbauwerk (Schifffahrt)",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2024-05"
+  ],
+  "intro_wikitext": "[[Datei:Schiffshebewerk.jpg|mini|Vertikal-[[Schiffshebewerk Niederfinow]]]]\n[[Datei:SHW Hennegau 024.jpg|mini|Hebewerk Nr. 3, eines der vier [[Schiffshebewerke des belgischen Canal du Centre|alten hydraulischen Hebewerke im belgischen Canal du Centre]], die 1998 in die [[UNESCO-Welterbe|UNESCO-Weltkulturerbeliste]] aufgenommen wurden]]\n[[Datei:SHW Hennegau 046.jpg|mini|Modernes [[Schiffshebewerk Strépy-Thieu|Gegengewichtshebewerk Strépy-Thieu]] im belgischen [[Canal du Centre (Belgien)|Canal du Centre]]]]\n\nEin '''Schiffshebewerk''' ist ein [[Ingenieurbauwerk]] im [[Verkehrswasserbau]] und bezeichnet ein [[Abstiegsbauwerk]], mit dem [[Schiff]]e große [[Höhe über dem Meeresspiegel|Höhenunterschiede]] in [[Wasserstraße|Schifffahrtswegen]] überwinden können. Im Gegensatz zu einer [[Schleuse]], in der die [[Fallhöhe (Wasserbau)|Fallhöhe]] über eine Änderung des Wasserspiegels in der [[Schleusenkammer]] erzeugt wird, wird in einem Hebewerk entweder das Schiff selbst oder ein [[Trogbauwerk|beweglicher Trog]] mit dem Schiff gehoben bzw. gesenkt. Vorteilhaft ist daran, dass größere Höhenunterschiede in kurzer Zeit überwunden werden können und dass beim Hebe- oder Absenkvorgang in der oberen [[Haltung (Wasserbau)|Haltung]] kein [[Schleusenverlust]] auftritt. Erkauft wird dies mit einem deutlich höheren baulichen und betrieblichen Aufwand.<ref>{{Literatur |Autor=Schoklitsch, A |Titel=Handbuch des Wasserbaues |Kapitel=Schiffshebeanlagen  |Verlag=Springer Verlag |Ort=Wien |Datum=1962 |ISBN=978-3-7091-8089-1}}</ref>",
+  "segments": [
+    {
+      "id": "271608447-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein '''Schiffshebewerk''' ist ein [[Ingenieurbauwerk]] im [[Verkehrswasserbau]] und bezeichnet ein [[Abstiegsbauwerk]], mit dem [[Schiff]]e große [[Höhe über dem Meeresspiegel|Höhenunterschiede]] in [[Wasserstraße|Schifffahrtswegen]] überwinden können.",
+      "plain": null
+    },
+    {
+      "id": "271608447-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Gegensatz zu einer [[Schleuse]], in der die [[Fallhöhe (Wasserbau)|Fallhöhe]] über eine Änderung des Wasserspiegels in der [[Schleusenkammer]] erzeugt wird, wird in einem Hebewerk entweder das Schiff selbst oder ein [[Trogbauwerk|beweglicher Trog]] mit dem Schiff gehoben bzw. gesenkt.",
+      "plain": null
+    },
+    {
+      "id": "271608447-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Vorteilhaft ist daran, dass größere Höhenunterschiede in kurzer Zeit überwunden werden können und dass beim Hebe- oder Absenkvorgang in der oberen [[Haltung (Wasserbau)|Haltung]] kein [[Schleusenverlust]] auftritt.",
+      "plain": null
+    },
+    {
+      "id": "271608447-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Erkauft wird dies mit einem deutlich höheren baulichen und betrieblichen Aufwand.<ref>{{Literatur |Autor=Schoklitsch, A |Titel=Handbuch des Wasserbaues |Kapitel=Schiffshebeanlagen  |Verlag=Springer Verlag |Ort=Wien |Datum=1962 |ISBN=978-3-7091-8089-1}}</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271608447,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271608447-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Ein Schiffshebewerk ist ein Ingenieurbauwerk im Verkehrswasserbau und bezeichnet ein Abstiegsbauwerk, mit dem Schiffe große Höhenunterschiede in Schifffahrtswegen überwinden können.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271608447-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271608447-0000"
+        ],
+        "plain": "Im Gegensatz zu einer Schleuse, in der die Fallhöhe über eine Änderung des Wasserspiegels in der Schleusenkammer erzeugt wird, wird in einem Hebewerk entweder das Schiff selbst oder ein beweglicher Trog mit dem Schiff gehoben bzw. gesenkt.",
+        "context_plain": [
+          "Ein Schiffshebewerk ist ein Ingenieurbauwerk im Verkehrswasserbau und bezeichnet ein Abstiegsbauwerk, mit dem Schiffe große Höhenunterschiede in Schifffahrtswegen überwinden können."
+        ]
+      },
+      {
+        "segment_id": "271608447-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271608447-0001"
+        ],
+        "plain": "Vorteilhaft ist daran, dass größere Höhenunterschiede in kurzer Zeit überwunden werden können und dass beim Hebe- oder Absenkvorgang in der oberen Haltung kein Schleusenverlust auftritt.",
+        "context_plain": [
+          "Im Gegensatz zu einer Schleuse, in der die Fallhöhe über eine Änderung des Wasserspiegels in der Schleusenkammer erzeugt wird, wird in einem Hebewerk entweder das Schiff selbst oder ein beweglicher Trog mit dem Schiff gehoben bzw. gesenkt."
+        ]
+      },
+      {
+        "segment_id": "271608447-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271608447-0002"
+        ],
+        "plain": "Erkauft wird dies mit einem deutlich höheren baulichen und betrieblichen Aufwand.",
+        "context_plain": [
+          "Vorteilhaft ist daran, dass größere Höhenunterschiede in kurzer Zeit überwunden werden können und dass beim Hebe- oder Absenkvorgang in der oberen Haltung kein Schleusenverlust auftritt."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

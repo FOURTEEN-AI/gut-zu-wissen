@@ -1,0 +1,56 @@
+{
+  "title": "Reliquie",
+  "revid": 270402862,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-11T14:15:12Z",
+  "fetched_at": "2026-11-21T11:26:37Z",
+  "categories": [
+    "Kategorie:Reliquie",
+    "Kategorie:Sakramentale",
+    "Kategorie:Wikipedia:Lückenhaft"
+  ],
+  "intro_wikitext": "{{Begriffsklärungshinweis|Siehe [[Reliquie (Begriffsklärung)]]}}\n[[Datei:Katakombenheiliger pankratius.jpg|mini|Mit einer Prunkrüstung geschmückte Reliquie des [[Katakombenheiliger|Katakombenheiligen]] Pankratius im schweizerischen [[Wil SG]] ]]\n\nEine '''Reliquie''' (von {{laS|reliquiae}}, „Zurückgelassenes“, „Überbleibsel“) ist als Gegenstand [[kult]]ischer [[Religion|religiöser]] [[Verehrung]] ein irdischer Überrest der Körper oder Körperteile von [[Heiliger|Heiligen]] oder ein Überbleibsel des jeweiligen persönlichen Besitzes. Sonderformen der Reliquien sind '''Berührungsreliquien''', Gegenstände, mit denen Heilige zu Lebzeiten in Berührung kamen oder gekommen sein sollen, sowie '''Sekundärreliquien''', Gegenstände, die beispielsweise mehrere Tage am Grab eines Heiligen waren und so selbst zu einer Reliquie werden.<ref>[https://www.domradio/glossar/was sind reliquien# Was sind Reliquien?]; abgerufen am 29. Mai 2024.</ref><ref>Alexander Hogrefe: ''Himmlischer Modeirrtum'', [[Die Rheinpfalz]], 29. Mai 2024, S. 1.</ref>",
+  "segments": [
+    {
+      "id": "270402862-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Eine '''Reliquie''' (von {{laS|reliquiae}}, „Zurückgelassenes“, „Überbleibsel“) ist als Gegenstand [[kult]]ischer [[Religion|religiöser]] [[Verehrung]] ein irdischer Überrest der Körper oder Körperteile von [[Heiliger|Heiligen]] oder ein Überbleibsel des jeweiligen persönlichen Besitzes.",
+      "plain": null
+    },
+    {
+      "id": "270402862-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sonderformen der Reliquien sind '''Berührungsreliquien''', Gegenstände, mit denen Heilige zu Lebzeiten in Berührung kamen oder gekommen sein sollen, sowie '''Sekundärreliquien''', Gegenstände, die beispielsweise mehrere Tage am Grab eines Heiligen waren und so selbst zu einer Reliquie werden.<ref>[https://www.domradio/glossar/was sind reliquien# Was sind Reliquien?]; abgerufen am 29. Mai 2024.</ref><ref>Alexander Hogrefe: ''Himmlischer Modeirrtum'', [[Die Rheinpfalz]], 29. Mai 2024, S. 1.</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270402862,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270402862-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Eine Reliquie (von lateinisch reliquiae, „Zurückgelassenes“, „Überbleibsel“) ist als Gegenstand kultischer religiöser Verehrung ein irdischer Überrest der Körper oder Körperteile von Heiligen oder ein Überbleibsel des jeweiligen persönlichen Besitzes.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270402862-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270402862-0000"
+        ],
+        "plain": "Sonderformen der Reliquien sind Berührungsreliquien, Gegenstände, mit denen Heilige zu Lebzeiten in Berührung kamen oder gekommen sein sollen, sowie Sekundärreliquien, Gegenstände, die beispielsweise mehrere Tage am Grab eines Heiligen waren und so selbst zu einer Reliquie werden.",
+        "context_plain": [
+          "Eine Reliquie (von lateinisch reliquiae, „Zurückgelassenes“, „Überbleibsel“) ist als Gegenstand kultischer religiöser Verehrung ein irdischer Überrest der Körper oder Körperteile von Heiligen oder ein Überbleibsel des jeweiligen persönlichen Besitzes."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

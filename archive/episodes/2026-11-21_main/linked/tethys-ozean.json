@@ -1,0 +1,73 @@
+{
+  "title": "Tethys (Ozean)",
+  "revid": 269850129,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-08-21T08:38:36Z",
+  "fetched_at": "2026-11-21T12:01:59Z",
+  "categories": [
+    "Kategorie:Geologie Afrikas",
+    "Kategorie:Geologie Europas",
+    "Kategorie:Mesozoikum",
+    "Kategorie:Ozean der Erdgeschichte",
+    "Kategorie:Wikipedia:Artikel mit Video"
+  ],
+  "intro_wikitext": "[[Datei:Laurasia-Gondwana-de.svg|mini|hochkant=1.2|[[Laurasia]] und [[Gondwana]] bilden [[Pangaea]] im globalen [[Panthalassa]]-Ozean; im Osten die Tethys]]\n[[Datei:Wie Neuseeland entstanden ist.webm|mini|Video zur Entstehung Neuseelands zeigt anfangs [[Pangaea]], Tethysmeer, [[Gondwana]] und [[Laurasia]]]]\n\nDie '''Tethys''', auch '''Tethysmeer''', '''Tethyssee''' genannt, ist ein [[Historische Geologie|erdhistorischer]] [[Ozean]], der überwiegend im [[Mesozoikum]] und frühen [[Känozoikum]] in der östlichen Hemisphäre existierte. Sie bildete sich in der späten [[Trias (Geologie)|Trias]] und schloss sich im frühen [[Eozän]] (vor etwa 50 Millionen Jahren) nahezu vollständig. Reste des ursprünglichen, nicht in [[Gebirgsbildung|Faltengebirgsbildungen]] einbezogenen Meeresbodens der Tethys finden sich nordwestlich von [[Australien]], im östlichen [[Mittelmeer]] sowie im [[Schwarzes Meer|Schwarzen Meer]].",
+  "segments": [
+    {
+      "id": "269850129-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Tethys''', auch '''Tethysmeer''', '''Tethyssee''' genannt, ist ein [[Historische Geologie|erdhistorischer]] [[Ozean]], der überwiegend im [[Mesozoikum]] und frühen [[Känozoikum]] in der östlichen Hemisphäre existierte.",
+      "plain": null
+    },
+    {
+      "id": "269850129-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie bildete sich in der späten [[Trias (Geologie)|Trias]] und schloss sich im frühen [[Eozän]] (vor etwa 50 Millionen Jahren) nahezu vollständig.",
+      "plain": null
+    },
+    {
+      "id": "269850129-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Reste des ursprünglichen, nicht in [[Gebirgsbildung|Faltengebirgsbildungen]] einbezogenen Meeresbodens der Tethys finden sich nordwestlich von [[Australien]], im östlichen [[Mittelmeer]] sowie im [[Schwarzes Meer|Schwarzen Meer]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269850129,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269850129-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Tethys, auch Tethysmeer, Tethyssee genannt, ist ein erdhistorischer Ozean, der überwiegend im Mesozoikum und frühen Känozoikum in der östlichen Hemisphäre existierte.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269850129-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269850129-0000"
+        ],
+        "plain": "Sie bildete sich in der späten Trias und schloss sich im frühen Eozän (vor etwa 50 Millionen Jahren) nahezu vollständig.",
+        "context_plain": [
+          "Die Tethys, auch Tethysmeer, Tethyssee genannt, ist ein erdhistorischer Ozean, der überwiegend im Mesozoikum und frühen Känozoikum in der östlichen Hemisphäre existierte."
+        ]
+      },
+      {
+        "segment_id": "269850129-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Reste des ursprünglichen, nicht in Faltengebirgsbildungen einbezogenen Meeresbodens der Tethys finden sich nordwestlich von Australien, im östlichen Mittelmeer sowie im Schwarzen Meer.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

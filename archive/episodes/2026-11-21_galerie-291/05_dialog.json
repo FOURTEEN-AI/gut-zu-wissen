@@ -1,0 +1,4181 @@
+{
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "Felix",
+      "text": "Hallo Lena, schön, dass wir wieder zusammensitzen. Womit steigen wir heute ein? Ich bin schon ganz gespannt, was du mitgebracht hast.",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 1,
+      "speaker": "Lena",
+      "text": "Heute geht es um die Galerie 291, kurz 291. Das war eine avantgardistische Kunstgalerie in der Fifth Avenue in New York. Gegründet wurde sie neunzehnhundertfünf unter dem Namen Little Galleries of the Photo-Secession. Die Gründer waren der US-amerikanische Fotograf Alfred Stieglitz und der Luxemburger Edward Steichen.",
+      "fact_ids": [
+        "271320874-0000",
+        "271320874-0001"
+      ],
+      "statements": [
+        {
+          "text": "Die Galerie 291, kurz 291, war eine avantgardistische Kunstgalerie in der Fifth Avenue in New York.",
+          "fact_ids": [
+            "271320874-0000"
+          ]
+        },
+        {
+          "text": "Sie wurde neunzehnhundertfünf als Little Galleries of the Photo-Secession vom US-amerikanischen Fotografen Alfred Stieglitz und dem Luxemburger Edward Steichen gegründet.",
+          "fact_ids": [
+            "271320874-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "Felix",
+      "text": "Das klingt nach einem aufregenden Ort. Der Name wirkt allerdings wie eine bloße Zahl. Steckt dahinter irgendeine Geschichte, Lena?",
+      "fact_ids": [
+        "271320874-0000"
+      ],
+      "statements": [
+        {
+          "text": "Die Galerie hieß 291.",
+          "fact_ids": [
+            "271320874-0000"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "Lena",
+      "text": "Ja, und zwar eine kuriose. Die Hausnummer hatte sich in zweihundertdreiundneunzig geändert. Trotzdem beschlossen die Freunde, die zweihunderteinundneunzig weiterhin als Galeriename zu nutzen. Im englischen Wortlaut heißt das two-nine-one.",
+      "fact_ids": [
+        "271320874-0044"
+      ],
+      "statements": [
+        {
+          "text": "Obwohl sich die Hausnummer in 293 geändert hatte, beschlossen die Freunde, die 291, englisch two-nine-one, weiterhin als Galeriename zu nutzen.",
+          "fact_ids": [
+            "271320874-0044"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "Felix",
+      "text": "Schön, dass der alte Name geblieben ist. Aber was hing dort eigentlich an den Wänden?",
+      "fact_ids": [
+        "271320874-0044"
+      ],
+      "statements": [
+        {
+          "text": "Der Name 291 wurde beibehalten.",
+          "fact_ids": [
+            "271320874-0044"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "speaker": "Lena",
+      "text": "Schon im Januar neunzehnhundertsieben zeigte Stieglitz Zeichnungen der englischen Illustratorin Pamela Colman Smith. Sie wurde mit der Gestaltung des Waite-Smith Tarot bekannt.",
+      "fact_ids": [
+        "271320874-0053"
+      ],
+      "statements": [
+        {
+          "text": "Im Januar neunzehnhundertsieben zeigte Stieglitz Zeichnungen der englischen Illustratorin Pamela Colman Smith, die mit der Gestaltung des Waite-Smith Tarot bekannt wurde.",
+          "fact_ids": [
+            "271320874-0053"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "speaker": "Felix",
+      "text": "Das überrascht mich. Wie bekannt wurde sie denn mit dieser Gestaltung?",
+      "fact_ids": [
+        "271320874-0053"
+      ],
+      "statements": [
+        {
+          "text": "Pamela Colman Smith wurde durch die Gestaltung des Waite-Smith Tarot bekannt.",
+          "fact_ids": [
+            "271320874-0053"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "speaker": "Lena",
+      "text": "Sehr bekannt. Ihre Illustrationen des Waite-Smith-Tarot-Decks wurden weltbekannt. Entwickelt hat sie das Deck zusammen mit Arthur Edward Waite.",
+      "fact_ids": [
+        "272043333-0001"
+      ],
+      "statements": [
+        {
+          "text": "Pamela Colman Smiths Illustrationen des Waite-Smith-Tarot-Decks wurden weltbekannt.",
+          "fact_ids": [
+            "272043333-0001"
+          ]
+        },
+        {
+          "text": "Sie entwickelte das Deck zusammen mit Arthur Edward Waite.",
+          "fact_ids": [
+            "272043333-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "speaker": "Felix",
+      "text": "Wow, weltbekannt! Und wie sah es mit Skandalen aus? Gab es in der Galerie auch Provokantes zu sehen?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 9,
+      "speaker": "Lena",
+      "text": "Ja, das gab es. Die Ausstellungssaison neunzehnhundertsieben bis neunzehnhundertacht begann Stieglitz mit einer Werkschau der Photo-Secessionisten. Danach folgte eine Ausstellung mit Rodins Aquarellzeichnungen. Diese waren spontan und minimalistisch. Und ihre Thematik war für die damalige Zeit schockierend sexuell.",
+      "fact_ids": [
+        "271320874-0061"
+      ],
+      "statements": [
+        {
+          "text": "Die Saison neunzehnhundertsieben auf neunzehnhundertacht begann Stieglitz mit einer Werkschau der Photo-Secessionisten.",
+          "fact_ids": [
+            "271320874-0061"
+          ]
+        },
+        {
+          "text": "Danach folgte eine Ausstellung mit Rodins spontanen, minimalistischen Aquarellzeichnungen, deren Thematik für die damalige Zeit schockierend sexuell war.",
+          "fact_ids": [
+            "271320874-0061"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "speaker": "Felix",
+      "text": "Na so etwas! Das hätte ich nicht erwartet. Und wurde in der Galerie eigentlich viel verkauft?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 11,
+      "speaker": "Lena",
+      "text": "Schauen wir auf einen Fall. Der Preis war mit zweihundert Dollar pro Werk moderat. Trotzdem verkaufte sich lediglich ein einziges Aquarell. Arthur B. Davies erwarb die Quelle im Park Château Noir. Davies war ein amerikanischer Maler des Symbolismus.",
+      "fact_ids": [
+        "271320874-0119",
+        "263889385-0000"
+      ],
+      "statements": [
+        {
+          "text": "Trotz des moderaten Preises von zweihundert Dollar pro Werk verkaufte sich lediglich ein einziges Aquarell.",
+          "fact_ids": [
+            "271320874-0119"
+          ]
+        },
+        {
+          "text": "Arthur B. Davies erwarb die Quelle im Park Château Noir.",
+          "fact_ids": [
+            "271320874-0119"
+          ]
+        },
+        {
+          "text": "Davies war ein amerikanischer Maler des Symbolismus.",
+          "fact_ids": [
+            "263889385-0000"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "speaker": "Felix",
+      "text": "Nur ein einziges Aquarell, das ist erstaunlich. Wie ging Stieglitz denn überhaupt mit Käufern um?",
+      "fact_ids": [
+        "271320874-0119"
+      ],
+      "statements": [
+        {
+          "text": "Von den Aquarellen verkaufte sich nur eines.",
+          "fact_ids": [
+            "271320874-0119"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "speaker": "Lena",
+      "text": "Er hatte da eine eigene Methode. Wenn er bemerkte, dass jemand ein Kunstwerk wie ein Konsumgut behandelte, zögerte er nicht. Er verlangte dann plötzlich den doppelten Preis dafür.",
+      "fact_ids": [
+        "271320874-0037"
+      ],
+      "statements": [
+        {
+          "text": "Wenn Stieglitz bemerkte, dass jemand ein Kunstwerk wie ein Konsumgut behandelte, zögerte er nicht, plötzlich den doppelten Preis dafür zu verlangen.",
+          "fact_ids": [
+            "271320874-0037"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "speaker": "Felix",
+      "text": "Interessant! Und welche Künstler kamen dann in die Galerie?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 15,
+      "speaker": "Lena",
+      "text": "Mitte März neunzehnhundertzwölf zeigte Stieglitz die weltweit erste Skulpturen-Ausstellung von Henri Matisse. Dazu gehörte die Bronze La Serpentine von neunzehnhundertneun. Sie zählt zu den innovativsten skulpturalen Arbeiten dieser Zeit. Die Kritiker hatten allerdings Schwierigkeiten, Matisse in einen kunstkritischen Kontext zu stellen. In New York hatte es bisher weder von Cézanne noch von van Gogh noch von Gauguin Ausstellungen gegeben.",
+      "fact_ids": [
+        "271320874-0161",
+        "271320874-0075"
+      ],
+      "statements": [
+        {
+          "text": "Mitte März neunzehnhundertzwölf zeigte Stieglitz die weltweit erste Skulpturen-Ausstellung von Henri Matisse, darunter die Bronze La Serpentine von neunzehnhundertneun, die zu den innovativsten skulpturalen Arbeiten dieser Zeit zählt.",
+          "fact_ids": [
+            "271320874-0161"
+          ]
+        },
+        {
+          "text": "Die Kritiker hatten Schwierigkeiten, Matisse in einen kunstkritischen Kontext zu stellen, weil es in New York bisher weder von Cézanne noch von van Gogh noch von Gauguin Ausstellungen gegeben hatte.",
+          "fact_ids": [
+            "271320874-0075"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "speaker": "Felix",
+      "text": "Verstehe. Hat Stieglitz auch ungewöhnliche Mischungen gezeigt, also Dinge, die gar nicht zusammenpassen?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 17,
+      "speaker": "Lena",
+      "text": "Ja. Zum Jahreswechsel neunzehnhundertvierzehn auf neunzehnhundertfünfzehn kombinierte Stieglitz Werke von Picasso und Georges Braque mit Reliquien des Volkes der Kota aus Gabun. Dazu kam noch ein Wespennest.",
+      "fact_ids": [
+        "271320874-0275"
+      ],
+      "statements": [
+        {
+          "text": "In einer Ausstellung zum Jahreswechsel neunzehnhundertvierzehn auf neunzehnhundertfünfzehn kombinierte Stieglitz Werke von Picasso und Georges Braque mit Reliquien des Volkes der Kota aus Gabun und einem Wespennest.",
+          "fact_ids": [
+            "271320874-0275"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "speaker": "Felix",
+      "text": "Ein Wespennest in der Kunstgalerie, ich muss lachen. Aber was sind eigentlich Reliquien?",
+      "fact_ids": [
+        "271320874-0275"
+      ],
+      "statements": [
+        {
+          "text": "In der Ausstellung gab es Reliquien und ein Wespennest.",
+          "fact_ids": [
+            "271320874-0275"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "speaker": "Lena",
+      "text": "Eine Reliquie ist als Gegenstand kultischer religiöser Verehrung ein irdischer Überrest der Körper oder Körperteile von Heiligen. Es kann auch ein Überbleibsel des jeweiligen persönlichen Besitzes sein. Das Wort kommt vom lateinischen reliquiae, das heißt Zurückgelassenes oder Überbleibsel.",
+      "fact_ids": [
+        "270402862-0000"
+      ],
+      "statements": [
+        {
+          "text": "Eine Reliquie ist als Gegenstand kultischer religiöser Verehrung ein irdischer Überrest der Körper oder Körperteile von Heiligen oder ein Überbleibsel des jeweiligen persönlichen Besitzes.",
+          "fact_ids": [
+            "270402862-0000"
+          ]
+        },
+        {
+          "text": "Das Wort stammt vom lateinischen reliquiae, das Zurückgelassenes oder Überbleibsel bedeutet.",
+          "fact_ids": [
+            "270402862-0000"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "speaker": "Felix",
+      "text": "Moment, den Namen Braque habe ich eben schon gehört. Wer war das eigentlich?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 21,
+      "speaker": "Lena",
+      "text": "Braque war zusammen mit Pablo Picasso der Mitbegründer des Kubismus. Davor hatte er eine frühe fauvistische Schaffensphase.",
+      "fact_ids": [
+        "267193649-0001"
+      ],
+      "statements": [
+        {
+          "text": "Braque war zusammen mit Pablo Picasso der Mitbegründer des Kubismus.",
+          "fact_ids": [
+            "267193649-0001"
+          ]
+        },
+        {
+          "text": "Vor dem Kubismus hatte Braque eine frühe fauvistische Schaffensphase.",
+          "fact_ids": [
+            "267193649-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "speaker": "Felix",
+      "text": "Gibt es eigentlich auch Äußerungen über Picasso aus dieser Zeit, vielleicht von Steichen oder Stieglitz?",
+      "fact_ids": [
+        "267193649-0001"
+      ],
+      "statements": [
+        {
+          "text": "Braque war zusammen mit Picasso Mitbegründer des Kubismus, daher knüpft die Frage nach Picasso an Braque an.",
+          "fact_ids": [
+            "267193649-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "speaker": "Lena",
+      "text": "Ja, es gibt einen Satz: „Und als rotes Tuch könnten wir Picasso nehmen, um die Rechnung zu begleichen, wenn wir ihn bekommen, denn er ist ein verrückter Steinzeitmensch, hasst Ausstellungen und so weiter. Wie auch immer, wir werden es mit ihm versuchen.“",
+      "fact_ids": [
+        "271320874-0060"
+      ],
+      "statements": [
+        {
+          "text": "Es gibt den Satz, man könne Picasso als rotes Tuch nehmen, um die Rechnung zu begleichen, wenn man ihn bekomme, denn er sei ein verrückter Steinzeitmensch und hasse Ausstellungen, man werde es mit ihm versuchen.",
+          "fact_ids": [
+            "271320874-0060"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "speaker": "Felix",
+      "text": "Das klingt nach einem ziemlichen Wagnis! Weißt du, wie das Ganze am Ende aussah?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 25,
+      "speaker": "Lena",
+      "text": "Gerade das ist unklar. Brock nannte es „eines der großen Mysterien in der Frühgeschichte des Modernismus in Amerika“. Der Mangel an Fotografien erschwert das Verständnis der Picasso-Installation von neunzehnhundertelf.",
+      "fact_ids": [
+        "271320874-0134"
+      ],
+      "statements": [
+        {
+          "text": "Brock bezeichnete die unklare Gestaltung der Picasso-Installation von 1911 als eines der großen Mysterien in der Frühgeschichte des Modernismus in Amerika.",
+          "fact_ids": [
+            "271320874-0134"
+          ]
+        },
+        {
+          "text": "Der Mangel an Fotografien erschwert das Verständnis der Picasso-Installation von 1911.",
+          "fact_ids": [
+            "271320874-0134"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "speaker": "Felix",
+      "text": "Ein Rätsel, wie schade! Hat sich denn jemand über die 291 insgesamt geäußert, vielleicht sogar ziemlich scharf?",
+      "fact_ids": [
+        "271320874-0000"
+      ],
+      "statements": [
+        {
+          "text": "Die 291 war eine avantgardistische Kunstgalerie in der Fifth Avenue in New York, über die man sich äußern konnte.",
+          "fact_ids": [
+            "271320874-0000"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "speaker": "Lena",
+      "text": "Ja, Benton. Über die 291 schrieb er: „Ich bin mir sicher, dass an keinem anderen Ort auf der Welt mehr beknacktes Zeug produziert wurde. Die Verseuchung mit intellektueller Blödheit nahm dort unglaubliche Ausmaße an.“",
+      "fact_ids": [
+        "271320874-0406"
+      ],
+      "statements": [
+        {
+          "text": "Benton schrieb über die 291, er sei sicher, dass an keinem anderen Ort auf der Welt mehr beknacktes Zeug produziert wurde und dass die Verseuchung mit intellektueller Blödheit dort unglaubliche Ausmaße annahm.",
+          "fact_ids": [
+            "271320874-0406"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "speaker": "Felix",
+      "text": "Autsch, das sitzt! Aber die 291 war ja eine Kunstgalerie. Mich würde interessieren, was dort sonst noch zu sehen war, Lena. Gab es noch mehr Überraschendes?",
+      "fact_ids": [
+        "271320874-0000"
+      ],
+      "statements": [
+        {
+          "text": "Die 291 war eine Kunstgalerie.",
+          "fact_ids": [
+            "271320874-0000"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "speaker": "Lena",
+      "text": "Da gibt es eine Formulierung, der eine besondere Bedeutung zukam: „unter dem Blickpunkt der Kunst“. Der Grund ist einfach. Artefakte aus Afrika wurden bis zu diesem Zeitpunkt ausschließlich in einem ethnografischen und naturwissenschaftlichen Kontext behandelt. Nicht jedoch im Sinne von Volkskunst als eigenständige Kunstform.",
+      "fact_ids": [
+        "271320874-0258"
+      ],
+      "statements": [
+        {
+          "text": "Der Formulierung „unter dem Blickpunkt der Kunst“ kam eine besondere Bedeutung zu.",
+          "fact_ids": [
+            "271320874-0258"
+          ]
+        },
+        {
+          "text": "Artefakte aus Afrika wurden bis zu diesem Zeitpunkt ausschließlich in einem ethnografischen und naturwissenschaftlichen Kontext behandelt.",
+          "fact_ids": [
+            "271320874-0258"
+          ]
+        },
+        {
+          "text": "Sie wurden nicht im Sinne von Volkskunst als eigenständige Kunstform behandelt.",
+          "fact_ids": [
+            "271320874-0258"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "speaker": "Felix",
+      "text": "Interessant, da ging es also um eine ganz andere Sichtweise! Du hast gerade Volkskunst erwähnt. Was ist damit eigentlich gemeint, Lena?",
+      "fact_ids": [
+        "271320874-0258"
+      ],
+      "statements": [
+        {
+          "text": "Artefakte aus Afrika wurden bis dahin nicht im Sinne von Volkskunst als eigenständige Kunstform behandelt, sondern in einem ethnografischen und naturwissenschaftlichen Kontext.",
+          "fact_ids": [
+            "271320874-0258"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "speaker": "Lena",
+      "text": "Volkskunst wird teilweise auch Heimatkunst genannt. Gemeint ist das bildnerische und kreative Schaffen jenseits der klassischen oder modernen Künste. Meist ist es eingebunden in traditionelle handwerkliche oder häusliche Produktion.",
+      "fact_ids": [
+        "268209049-0000"
+      ],
+      "statements": [
+        {
+          "text": "Die Volkskunst wird teilweise auch Heimatkunst genannt.",
+          "fact_ids": [
+            "268209049-0000"
+          ]
+        },
+        {
+          "text": "Sie bezeichnet das bildnerische und kreative Schaffen jenseits der klassischen oder modernen Künste.",
+          "fact_ids": [
+            "268209049-0000"
+          ]
+        },
+        {
+          "text": "Meist ist sie in traditionelle handwerkliche oder häusliche Produktion eingebunden.",
+          "fact_ids": [
+            "268209049-0000"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "speaker": "Felix",
+      "text": "Das macht es greifbar, danke. Und jetzt interessiert mich Gabun. Was weißt du darüber?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 33,
+      "speaker": "Lena",
+      "text": "Gabun war ab etwa achtzehnhundertneununddreißig eine französische Kolonie.",
+      "fact_ids": [
+        "271846515-0029"
+      ],
+      "statements": [
+        {
+          "text": "Gabun war ab etwa 1839 eine französische Kolonie.",
+          "fact_ids": [
+            "271846515-0029"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "speaker": "Felix",
+      "text": "Eine französische Kolonie, das gibt dem Ganzen einen Rahmen. Gab es neben Bentons scharfem Urteil über die 291 noch andere drastische Formulierungen?",
+      "fact_ids": [
+        "271846515-0029",
+        "271320874-0406"
+      ],
+      "statements": [
+        {
+          "text": "Gabun war ab etwa 1839 eine französische Kolonie.",
+          "fact_ids": [
+            "271846515-0029"
+          ]
+        },
+        {
+          "text": "Benton urteilte scharf über die 291.",
+          "fact_ids": [
+            "271320874-0406"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "speaker": "Lena",
+      "text": "Ja, da gibt es diesen Satz: „Diese rohen Schnitzereien gehören zu den schwarzen Vertiefungen des Dschungels.“",
+      "fact_ids": [
+        "271320874-0272"
+      ],
+      "statements": [
+        {
+          "text": "Es gibt die Formulierung, diese rohen Schnitzereien gehörten zu den schwarzen Vertiefungen des Dschungels.",
+          "fact_ids": [
+            "271320874-0272"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "speaker": "Felix",
+      "text": "Puh, das klingt rau! Aber wechseln wir das Thema. Gab es auch Streit zwischen Stieglitz und einem der Künstler?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 37,
+      "speaker": "Lena",
+      "text": "Ja, mit Brâncuși. Es gab Differenzen zwischen Stieglitz und ihm. Brâncuși hatte ein Arrangement mit Walter Pach getroffen. Der Gewinn sollte direkt an ihn geschickt werden. Dadurch konnte Stieglitz keine Kommission für die Werke nehmen.",
+      "fact_ids": [
+        "271320874-0248"
+      ],
+      "statements": [
+        {
+          "text": "Es gab Differenzen zwischen Stieglitz und Brâncuși.",
+          "fact_ids": [
+            "271320874-0248"
+          ]
+        },
+        {
+          "text": "Brâncuși hatte mit Walter Pach ein Arrangement getroffen, dass der Gewinn direkt an ihn geschickt werden sollte.",
+          "fact_ids": [
+            "271320874-0248"
+          ]
+        },
+        {
+          "text": "Deshalb konnte Stieglitz für die Werke keine Kommission nehmen.",
+          "fact_ids": [
+            "271320874-0248"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "speaker": "Felix",
+      "text": "Verstehe, da ging dem Galeristen also etwas durch die Lappen. Kommission, das Wort klingt nach Handel. Gibt es dafür eine Erklärung?",
+      "fact_ids": [
+        "271320874-0248"
+      ],
+      "statements": [
+        {
+          "text": "Stieglitz konnte wegen der Absprache zwischen Brâncuși und Walter Pach keine Kommission für die Werke nehmen.",
+          "fact_ids": [
+            "271320874-0248"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "speaker": "Lena",
+      "text": "Es gibt das Wort Kommissionär. Das ist ein Kaufmann, der gewerbsmäßig Kommissionsgüter kauft oder verkauft. Er tut das im eigenen Namen, aber auf fremde Rechnung gegen Provision. Das Wort kommt aus dem Lateinischen, von committere, das heißt zusammenbringen oder vereinigen.",
+      "fact_ids": [
+        "240794847-0000"
+      ],
+      "statements": [
+        {
+          "text": "Ein Kommissionär ist ein Kaufmann, der gewerbsmäßig Kommissionsgüter kauft oder verkauft.",
+          "fact_ids": [
+            "240794847-0000"
+          ]
+        },
+        {
+          "text": "Er handelt im eigenen Namen, aber auf fremde Rechnung gegen Provision.",
+          "fact_ids": [
+            "240794847-0000"
+          ]
+        },
+        {
+          "text": "Das Wort kommt vom lateinischen committere, zusammenbringen oder vereinigen.",
+          "fact_ids": [
+            "240794847-0000"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "speaker": "Felix",
+      "text": "Das klärt die Begriffe. Noch mal zu Brâncuși: Sind seine Werke eigentlich alle erhalten geblieben?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 41,
+      "speaker": "Lena",
+      "text": "Nein, nicht alle. Von Progigal Son existieren lediglich Fotografien. Brâncuși zerstörte die Figur nämlich in Paris, nachdem sie zurückgekehrt war.",
+      "fact_ids": [
+        "271320874-0234"
+      ],
+      "statements": [
+        {
+          "text": "Von der Figur Progigal Son existieren nur noch Fotografien.",
+          "fact_ids": [
+            "271320874-0234"
+          ]
+        },
+        {
+          "text": "Brâncuși zerstörte die Figur in Paris, nachdem sie zurückgekehrt war.",
+          "fact_ids": [
+            "271320874-0234"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "speaker": "Felix",
+      "text": "Oh, das hätte ich nicht gedacht! Gab es eigentlich auch Künstler, die sich von fremden Kulturen anregen ließen?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 43,
+      "speaker": "Lena",
+      "text": "Bei Hartley war das so. Er hatte indianische Artefakte erst im Pariser Trocadéro kennengelernt, das heute Palais de Chaillot heißt. Auch im Berliner Museum für Völkerkunde hatte er sie gesehen. Sie bewirkten sein nachhaltiges Interesse für die indianische Kultur.",
+      "fact_ids": [
+        "271320874-0332"
+      ],
+      "statements": [
+        {
+          "text": "Hartley lernte indianische Artefakte erst im Pariser Trocadéro kennen, das heute Palais de Chaillot heißt.",
+          "fact_ids": [
+            "271320874-0332"
+          ]
+        },
+        {
+          "text": "Er lernte sie auch im Berliner Museum für Völkerkunde kennen.",
+          "fact_ids": [
+            "271320874-0332"
+          ]
+        },
+        {
+          "text": "Die Artefakte bewirkten sein nachhaltiges Interesse für die indianische Kultur.",
+          "fact_ids": [
+            "271320874-0332"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "speaker": "Felix",
+      "text": "Das überrascht mich! Und wie sieht es mit ganz abstrakter Malerei aus, gab es die in der 291 zu sehen?",
+      "fact_ids": [
+        "271320874-0000"
+      ],
+      "statements": [
+        {
+          "text": "Die 291 war eine avantgardistische Kunstgalerie in der Fifth Avenue in New York.",
+          "fact_ids": [
+            "271320874-0000"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "speaker": "Lena",
+      "text": "Ja, die gab es. Unter dem Titel Ten Commandments, auf Deutsch Die zehn Gebote, zeigte Stieglitz eine Serie von Pastellmalereien von Dove. Sie gelten als erste nicht gegenständliche Werke eines amerikanischen Künstlers.",
+      "fact_ids": [
+        "271320874-0154"
+      ],
+      "statements": [
+        {
+          "text": "Stieglitz zeigte unter dem Titel Ten Commandments (Die zehn Gebote) eine Serie von Pastellmalereien von Dove.",
+          "fact_ids": [
+            "271320874-0154"
+          ]
+        },
+        {
+          "text": "Diese Pastellmalereien gelten als die ersten nicht gegenständlichen Werke eines amerikanischen Künstlers.",
+          "fact_ids": [
+            "271320874-0154"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "speaker": "Felix",
+      "text": "Pastellmalereien, das ist ein schöner Begriff. Wie funktioniert diese Technik eigentlich?",
+      "fact_ids": [
+        "271320874-0154"
+      ],
+      "statements": [
+        {
+          "text": "Dove schuf Pastellmalereien.",
+          "fact_ids": [
+            "271320874-0154"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "speaker": "Lena",
+      "text": "Pastellmalerei ist eine Technik, bei der Pigmente auf einen Malgrund aufgetragen werden. Als Malgrund dienen Papier, Pappe oder Leinwand.",
+      "fact_ids": [
+        "268895957-0000"
+      ],
+      "statements": [
+        {
+          "text": "Bei der Pastellmalerei werden Pigmente auf einen Malgrund aufgetragen.",
+          "fact_ids": [
+            "268895957-0000"
+          ]
+        },
+        {
+          "text": "Malgrund kann Papier, Pappe oder Leinwand sein.",
+          "fact_ids": [
+            "268895957-0000"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "speaker": "Felix",
+      "text": "Das ist einleuchtend. Wurde Stieglitz selbst eigentlich auch porträtiert?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 49,
+      "speaker": "Lena",
+      "text": "Ja, von Picabia. Er porträtierte de Zayas, Haviland und Stieglitz als Maschinen. Aus dem Konterfei von Stieglitz wurde eine Kamera-Konstruktion. Dazu stand der Zusatz Ici, c’est ici Stieglitz, foi et amour. Auf Deutsch heißt das: Hier, das ist Stieglitz hier, Glaube und Liebe.",
+      "fact_ids": [
+        "271320874-0289"
+      ],
+      "statements": [
+        {
+          "text": "Picabia porträtierte de Zayas, Haviland und Stieglitz als Maschinen.",
+          "fact_ids": [
+            "271320874-0289"
+          ]
+        },
+        {
+          "text": "Das Konterfei von Stieglitz wurde zu einer Kamera-Konstruktion.",
+          "fact_ids": [
+            "271320874-0289"
+          ]
+        },
+        {
+          "text": "Es trug den Zusatz Ici, c’est ici Stieglitz, foi et amour, Hier, das ist Stieglitz hier, Glaube und Liebe.",
+          "fact_ids": [
+            "271320874-0289"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "speaker": "Felix",
+      "text": "Stieglitz als Kamera, das ist wirklich witzig! Wann hat Picabia diese Bilder eigentlich gemalt?",
+      "fact_ids": [
+        "271320874-0289"
+      ],
+      "statements": [
+        {
+          "text": "Picabia machte aus dem Konterfei von Stieglitz eine Kamera-Konstruktion.",
+          "fact_ids": [
+            "271320874-0289"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "speaker": "Lena",
+      "text": "Picabia hatte die Bilder während Stieglitz’ Fotoausstellung gemalt.",
+      "fact_ids": [
+        "271320874-0208"
+      ],
+      "statements": [
+        {
+          "text": "Picabia hatte die Bilder während Stieglitz’ Fotoausstellung gemalt.",
+          "fact_ids": [
+            "271320874-0208"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "speaker": "Felix",
+      "text": "Spannend! Wer kam denn noch in die Galerie, vielleicht jemand, der für Schlagzeilen sorgte?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 53,
+      "speaker": "Lena",
+      "text": "Duchamp. Schließlich gelang es, Duchamp davon zu überzeugen, das Urinal in der 291 auszustellen.",
+      "fact_ids": [
+        "271320874-0295"
+      ],
+      "statements": [
+        {
+          "text": "Schließlich gelang es, Duchamp davon zu überzeugen, das Urinal in der 291 auszustellen.",
+          "fact_ids": [
+            "271320874-0295"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "speaker": "Felix",
+      "text": "Das überrascht mich! Gab es in dieser Galerie in der Fifth Avenue eigentlich auch Künstlerinnen, die dort gezeigt wurden?",
+      "fact_ids": [
+        "271320874-0000"
+      ],
+      "statements": [
+        {
+          "text": "Die Galerie 291 war eine avantgardistische Kunstgalerie in der Fifth Avenue in New York.",
+          "fact_ids": [
+            "271320874-0000"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "speaker": "Lena",
+      "text": "Ja, zum Beispiel Georgia O’Keeffe. Im Mai neunzehnhundertsechzehn fiel die Entscheidung, einige ihrer Zeichnungen in der Galerie auszustellen. Und zwar, ohne O’Keeffe vorher darüber zu informieren.",
+      "fact_ids": [
+        "271320874-0348"
+      ],
+      "statements": [
+        {
+          "text": "Georgia O’Keeffe wurde in der Galerie gezeigt: Im Mai 1916 wurde die Entscheidung getroffen, einige ihrer Zeichnungen dort auszustellen.",
+          "fact_ids": [
+            "271320874-0348"
+          ]
+        },
+        {
+          "text": "O’Keeffe wurde über diese Ausstellung ihrer Zeichnungen nicht informiert.",
+          "fact_ids": [
+            "271320874-0348"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "speaker": "Felix",
+      "text": "Ohne ihr Bescheid zu sagen, das ist ja ein Ding! Hat man damals schon etwas über ihre Zeichnungen geschrieben?",
+      "fact_ids": [
+        "271320874-0348"
+      ],
+      "statements": [
+        {
+          "text": "O’Keeffe wurde nicht informiert, dass ihre Zeichnungen ausgestellt wurden.",
+          "fact_ids": [
+            "271320874-0348"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "speaker": "Lena",
+      "text": "Ja, aus neunzehnhundertsechzehn gibt es diesen Satz: „Neben anderen Werten sind Miss O’Keeffes Zeichnungen unter einem psychoanalytischen Aspekt interessant.“",
+      "fact_ids": [
+        "271320874-0354"
+      ],
+      "statements": [
+        {
+          "text": "Aus dem Jahr 1916 stammt der Satz, neben anderen Werten seien Miss O’Keeffes Zeichnungen unter einem psychoanalytischen Aspekt interessant.",
+          "fact_ids": [
+            "271320874-0354"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "speaker": "Felix",
+      "text": "Hm, interessant, ein psychoanalytischer Aspekt. Und wie bekannt war diese Miss O’Keeffe damals eigentlich?",
+      "fact_ids": [
+        "271320874-0354"
+      ],
+      "statements": [
+        {
+          "text": "Über Miss O’Keeffes Zeichnungen wurde 1916 geschrieben, sie seien unter einem psychoanalytischen Aspekt interessant.",
+          "fact_ids": [
+            "271320874-0354"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "speaker": "Lena",
+      "text": "Sie war damals neunundzwanzig Jahre alt. Und sie war eine vollkommen unbekannte Kunstlehrerin.",
+      "fact_ids": [
+        "271320874-0344"
+      ],
+      "statements": [
+        {
+          "text": "Zu diesem Zeitpunkt war Georgia O'Keeffe neunundzwanzig Jahre alt.",
+          "fact_ids": [
+            "271320874-0344"
+          ]
+        },
+        {
+          "text": "Sie war zu diesem Zeitpunkt eine vollkommen unbekannte Kunstlehrerin.",
+          "fact_ids": [
+            "271320874-0344"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "speaker": "Felix",
+      "text": "Wow! Und wie ging die Geschichte der Galerie schließlich aus?",
+      "fact_ids": [
+        "271320874-0000"
+      ],
+      "statements": [
+        {
+          "text": "Die Galerie 291 war eine Kunstgalerie in New York, deren Geschichte irgendwann ein Ende fand.",
+          "fact_ids": [
+            "271320874-0000"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "speaker": "Lena",
+      "text": "Im Juni neunzehnhundertsiebzehn, zwei Monate nach dem Kriegseintritt der USA, sah sich Stieglitz gezwungen, die 291 zu schließen. Der Grund war die schlechte wirtschaftliche Lage. Die Galerie hatte er überwiegend vom Vermögen seiner ersten Ehefrau Emmeline Obermeyer finanziert.",
+      "fact_ids": [
+        "271320874-0365"
+      ],
+      "statements": [
+        {
+          "text": "Im Juni 1917, zwei Monate nach dem Kriegseintritt der USA, musste Stieglitz die 291 schließen.",
+          "fact_ids": [
+            "271320874-0365"
+          ]
+        },
+        {
+          "text": "Grund war die schlechte wirtschaftliche Lage.",
+          "fact_ids": [
+            "271320874-0365"
+          ]
+        },
+        {
+          "text": "Stieglitz hatte die Galerie überwiegend vom Vermögen seiner ersten Ehefrau Emmeline Obermeyer finanziert.",
+          "fact_ids": [
+            "271320874-0365"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "speaker": "Felix",
+      "text": "Das war eine spannende Reise durch die 291. Magst du uns zum Schluss noch einmal kurz zusammenfassen, was wir mitnehmen, Lena?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 63,
+      "speaker": "Lena",
+      "text": "Gern. Die 291 war eine avantgardistische Kunstgalerie in der Fifth Avenue in New York. Gegründet wurde sie neunzehnhundertfünf von Alfred Stieglitz und Edward Steichen. Stieglitz zeigte die weltweit erste Skulpturen-Ausstellung von Henri Matisse und Pastellmalereien von Dove, die als erste nicht gegenständliche Werke eines amerikanischen Künstlers gelten. Der Formulierung „unter dem Blickpunkt der Kunst“ kam eine besondere Bedeutung zu, weil Artefakte aus Afrika bis dahin nur in einem ethnografischen und naturwissenschaftlichen Kontext behandelt wurden. Es gab auch Differenzen: Brâncuși hatte mit Walter Pach ein Arrangement getroffen, sodass Stieglitz keine Kommission nehmen konnte. Picabia machte aus dem Konterfei von Stieglitz eine Kamera-Konstruktion. Stieglitz entschied sich, im Mai neunzehnhundertsechzehn einige Zeichnungen von O’Keeffe in der Galerie auszustellen, ohne sie darüber zu informieren. Im Juni neunzehnhundertsiebzehn musste er die Galerie wegen der schlechten wirtschaftlichen Lage schließen. Finanziert hatte er sie überwiegend vom Vermögen seiner ersten Ehefrau.",
+      "fact_ids": [
+        "271320874-0000",
+        "271320874-0001",
+        "271320874-0161",
+        "271320874-0154",
+        "271320874-0258",
+        "271320874-0248",
+        "271320874-0289",
+        "271320874-0348",
+        "271320874-0365"
+      ],
+      "statements": [
+        {
+          "text": "Die 291 war eine avantgardistische Kunstgalerie in der Fifth Avenue in New York.",
+          "fact_ids": [
+            "271320874-0000"
+          ]
+        },
+        {
+          "text": "Gegründet wurde sie 1905 von Alfred Stieglitz und Edward Steichen.",
+          "fact_ids": [
+            "271320874-0001"
+          ]
+        },
+        {
+          "text": "Stieglitz zeigte die weltweit erste Skulpturen-Ausstellung von Henri Matisse.",
+          "fact_ids": [
+            "271320874-0161"
+          ]
+        },
+        {
+          "text": "Stieglitz zeigte Pastellmalereien von Dove, die als erste nicht gegenständliche Werke eines amerikanischen Künstlers gelten.",
+          "fact_ids": [
+            "271320874-0154"
+          ]
+        },
+        {
+          "text": "Der Formulierung „unter dem Blickpunkt der Kunst“ kam eine besondere Bedeutung zu, weil Artefakte aus Afrika bis dahin nur in einem ethnografischen und naturwissenschaftlichen Kontext behandelt wurden.",
+          "fact_ids": [
+            "271320874-0258"
+          ]
+        },
+        {
+          "text": "Brâncuși hatte mit Walter Pach ein Arrangement getroffen, dass der Gewinn direkt an ihn geschickt wird, sodass Stieglitz keine Kommission nehmen konnte.",
+          "fact_ids": [
+            "271320874-0248"
+          ]
+        },
+        {
+          "text": "Picabia machte aus dem Konterfei von Stieglitz eine Kamera-Konstruktion.",
+          "fact_ids": [
+            "271320874-0289"
+          ]
+        },
+        {
+          "text": "Stieglitz entschied sich, im Mai 1916 einige Zeichnungen von O’Keeffe in der Galerie auszustellen, ohne sie darüber zu informieren.",
+          "fact_ids": [
+            "271320874-0348"
+          ]
+        },
+        {
+          "text": "Im Juni 1917 musste Stieglitz die 291 wegen der schlechten wirtschaftlichen Lage schließen.",
+          "fact_ids": [
+            "271320874-0365"
+          ]
+        },
+        {
+          "text": "Stieglitz hatte die Galerie überwiegend vom Vermögen seiner ersten Ehefrau finanziert.",
+          "fact_ids": [
+            "271320874-0365"
+          ]
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "used_fact_ids": [
+    "271320874-0000",
+    "271320874-0001",
+    "271320874-0044",
+    "271320874-0053",
+    "272043333-0001",
+    "271320874-0061",
+    "271320874-0119",
+    "263889385-0000",
+    "271320874-0037",
+    "271320874-0161",
+    "271320874-0075",
+    "271320874-0275",
+    "270402862-0000",
+    "267193649-0001",
+    "271320874-0060",
+    "271320874-0134",
+    "271320874-0406",
+    "271320874-0258",
+    "268209049-0000",
+    "271846515-0029",
+    "271320874-0272",
+    "271320874-0248",
+    "240794847-0000",
+    "271320874-0234",
+    "271320874-0332",
+    "271320874-0154",
+    "268895957-0000",
+    "271320874-0289",
+    "271320874-0208",
+    "271320874-0295",
+    "271320874-0348",
+    "271320874-0354",
+    "271320874-0344",
+    "271320874-0365"
+  ],
+  "conversation": 3,
+  "regenerations": [
+    {
+      "conversation": 1,
+      "turn_index": 6,
+      "kind": "retry",
+      "reason": "Die Prämisse \"Tarot in einer Kunstgalerie\" folgt nicht aus dem Fakt-Satz. Dieser sagt nur, dass Stieglitz im Januar 1907 Zeichnungen von Pamela Colman Smith zeigte. Weder Tarot-Karten noch eine Kunstgalerie werden genannt. Dass Smith durch die Gestaltung des Waite-Smith Tarot bekannt wurde, ist dagegen belegt.",
+      "previous": {
+        "index": 6,
+        "speaker": "Felix",
+        "text": "Tarot in einer Kunstgalerie, das überrascht mich. Wie bekannt wurde sie denn mit dieser Gestaltung?",
+        "fact_ids": [
+          "271320874-0053"
+        ],
+        "statements": [
+          {
+            "text": "Smith wurde mit der Gestaltung des Waite-Smith Tarot bekannt.",
+            "fact_ids": [
+              "271320874-0053"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 7,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 7,
+        "speaker": "Lena",
+        "text": "Sehr bekannt. Ihre Illustrationen des Waite-Smith-Tarot-Decks wurden sogar weltbekannt. Entwickelt hat sie das Deck zusammen mit Arthur Edward Waite.",
+        "fact_ids": [
+          "272043333-0001"
+        ],
+        "statements": [
+          {
+            "text": "Ihre Illustrationen des Waite-Smith-Tarot-Decks, das sie mit Arthur Edward Waite entwickelte, wurden weltbekannt.",
+            "fact_ids": [
+              "272043333-0001"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 20,
+      "kind": "retry",
+      "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 20,
+        "speaker": "Felix",
+        "text": "Und dieser Braque neben Picasso, wer war das eigentlich?",
+        "fact_ids": [
+          "271320874-0275"
+        ],
+        "statements": [
+          {
+            "text": "Braque wurde zusammen mit Picasso ausgestellt.",
+            "fact_ids": [
+              "271320874-0275"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 21,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 21,
+        "speaker": "Lena",
+        "text": "Braque war zusammen mit Pablo Picasso Mitbegründer des Kubismus.",
+        "fact_ids": [
+          "267193649-0001"
+        ],
+        "statements": [
+          {
+            "text": "Braque war zusammen mit Pablo Picasso Mitbegründer des Kubismus.",
+            "fact_ids": [
+              "267193649-0001"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 21,
+      "kind": "cascade",
+      "reason": "Der erste Satz (französischer Maler, Grafiker und Bildhauer) steht nur im Kontext, nicht im zitierten Fakt-Satz, und gilt daher als nicht belegt. Im zweiten Satz sagt Lena, Braque habe den Kubismus zusammen mit Picasso „gegründet\". Der Fakt-Satz nennt ihn nur „Mitbegründer\", das ist inhaltlich vergleichbar, aber die Angabe zu Beruf und Nationalität fehlt im Beleg.",
+      "previous": {
+        "index": 21,
+        "speaker": "Lena",
+        "text": "Georges Braque war ein französischer Maler, Grafiker und Bildhauer. Nach einer frühen fauvistischen Phase gründete er zusammen mit Pablo Picasso den Kubismus.",
+        "fact_ids": [
+          "267193649-0001"
+        ],
+        "statements": [
+          {
+            "text": "Nach einer frühen fauvistischen Schaffensphase war Georges Braque zusammen mit Pablo Picasso Mitbegründer des Kubismus.",
+            "fact_ids": [
+              "267193649-0001"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 22,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 22,
+        "speaker": "Felix",
+        "text": "Gibt es eigentlich auch Äußerungen über Picasso aus dieser Zeit?",
+        "fact_ids": [],
+        "statements": []
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 24,
+      "kind": "retry",
+      "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17, 18 und 20 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 24,
+        "speaker": "Felix",
+        "text": "Was für ein Ausdruck! Du hast vorhin die Kota aus Gabun erwähnt. Was weißt du über Gabun?",
+        "fact_ids": [
+          "271320874-0275"
+        ],
+        "statements": [
+          {
+            "text": "Die Kota stammen aus Gabun.",
+            "fact_ids": [
+              "271320874-0275"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 24,
+      "kind": "retry",
+      "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 24,
+        "speaker": "Felix",
+        "text": "Was für ein Ausdruck! Und du hast vorhin die Kota erwähnt. Was kannst du mir über das Land Gabun sagen, aus dem sie stammen?",
+        "fact_ids": [
+          "271320874-0275"
+        ],
+        "statements": [
+          {
+            "text": "Stieglitz zeigte Reliquien des Volkes der Kota aus Gabun, daher die Frage nach dem Land Gabun.",
+            "fact_ids": [
+              "271320874-0275"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 24,
+      "kind": "retry",
+      "reason": "Die Frage enthält die Prämisse, dass die Kota aus Gabun stammen („das Land Gabun, aus dem sie stammen“). Das ist eine Sachbehauptung, und es sind keine Fakt-IDs zitiert, die sie belegen. „Was für ein Ausdruck!“ und der Rückgriff auf die frühere Erwähnung der Kota wären als Reaktion belegfrei, die Herkunftsangabe aber nicht.",
+      "previous": {
+        "index": 24,
+        "speaker": "Felix",
+        "text": "Was für ein Ausdruck! Und du hast vorhin die Kota erwähnt. Was kannst du mir über das Land Gabun sagen, aus dem sie stammen?",
+        "fact_ids": [],
+        "statements": []
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 24,
+      "kind": "retry",
+      "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 24,
+        "speaker": "Felix",
+        "text": "Wow, was für Worte! Stieglitz hat ja auch Reliquien der Kota aus Gabun gezeigt. Was kannst du mir über Gabun sagen?",
+        "fact_ids": [
+          "271320874-0275"
+        ],
+        "statements": [
+          {
+            "text": "Stieglitz zeigte Reliquien des Volkes der Kota aus Gabun.",
+            "fact_ids": [
+              "271320874-0275"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 24,
+      "kind": "retry",
+      "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 24,
+        "speaker": "Felix",
+        "text": "Spannend! Stieglitz hat ja Werke von Picasso gezeigt. Weiß man denn, wie diese Ausstellung genau aussah?",
+        "fact_ids": [
+          "271320874-0275"
+        ],
+        "statements": [
+          {
+            "text": "Stieglitz zeigte Werke von Picasso.",
+            "fact_ids": [
+              "271320874-0275"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 24,
+      "kind": "retry",
+      "reason": "Die Frage \"Weiß man denn, wie die Picasso-Installation damals genau aussah?\" setzt voraus, dass es damals eine Picasso-Installation gab. Das ist eine Prämisse, die durch keinen Fakt-Satz belegt ist, denn es sind keine Fakten zitiert. Der Ausruf \"Das klingt nach einem ziemlichen Wagnis!\" wäre als Reaktion in Ordnung, rettet den Beitrag aber nicht.",
+      "previous": {
+        "index": 24,
+        "speaker": "Felix",
+        "text": "Das klingt nach einem ziemlichen Wagnis! Weiß man denn, wie die Picasso-Installation damals genau aussah?",
+        "fact_ids": [],
+        "statements": []
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 25,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 25,
+        "speaker": "Lena",
+        "text": "Gerade das ist unklar. Brock bezeichnete es als „eines der großen Mysterien in der Frühgeschichte des Modernismus in Amerika“. Und er sagte weiter: Der Mangel an Fotografien erschwere das Verständnis der Picasso-Installation von neunzehnhundertelf.",
+        "fact_ids": [
+          "271320874-0134"
+        ],
+        "statements": [
+          {
+            "text": "Brock bezeichnete es als eines der großen Mysterien in der Frühgeschichte des Modernismus in Amerika.",
+            "fact_ids": [
+              "271320874-0134"
+            ]
+          },
+          {
+            "text": "Der Mangel an Fotografien erschwert das Verständnis der Picasso-Installation von 1911.",
+            "fact_ids": [
+              "271320874-0134"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 26,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 26,
+        "speaker": "Felix",
+        "text": "Ein Rätsel, wie schade! Hat sich denn jemand über die 291 insgesamt geäußert, vielleicht sogar ziemlich scharf?",
+        "fact_ids": [],
+        "statements": []
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 28,
+      "kind": "retry",
+      "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17, 18 und 24 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 28,
+        "speaker": "Felix",
+        "text": "Autsch, das sitzt! Aber bleiben wir bei den Objekten neben Picasso. Stieglitz zeigte ja dessen Werke zusammen mit Reliquien der Kota. Was war an solchen Stücken damals eigentlich neu?",
+        "fact_ids": [
+          "271320874-0275"
+        ],
+        "statements": [
+          {
+            "text": "Stieglitz kombinierte Werke von Picasso mit Reliquien des Volkes der Kota.",
+            "fact_ids": [
+              "271320874-0275"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 28,
+      "kind": "retry",
+      "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 28,
+        "speaker": "Felix",
+        "text": "Autsch, das sitzt! Aber noch mal zu den Objekten der Kota, die Stieglitz ausgestellt hat. Was war an so etwas damals eigentlich neu?",
+        "fact_ids": [
+          "271320874-0275"
+        ],
+        "statements": [
+          {
+            "text": "Stieglitz stellte auch Objekte des Volkes der Kota aus.",
+            "fact_ids": [
+              "271320874-0275"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 28,
+      "kind": "retry",
+      "reason": "Die Frage \"was war an dieser Art, Kunst zu zeigen, damals eigentlich so neu?\" setzt voraus, dass diese Präsentationsweise damals neu war. Das ist eine faktische Prämisse, und es gibt keine zitierten Fakt-Sätze, die sie belegen. \"Autsch, das sitzt!\" ist dagegen eine belegfreie Reaktion.",
+      "previous": {
+        "index": 28,
+        "speaker": "Felix",
+        "text": "Autsch, das sitzt! Aber sag mal, was war an dieser Art, Kunst zu zeigen, damals eigentlich so neu?",
+        "fact_ids": [],
+        "statements": []
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 28,
+      "kind": "retry",
+      "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 28,
+        "speaker": "Felix",
+        "text": "Autsch, das sitzt! Aber sag mal, was ist denn bei der Präsentation von Kunst aus Afrika in der 291 passiert?",
+        "fact_ids": [
+          "271320874-0275"
+        ],
+        "statements": [
+          {
+            "text": "In der 291 wurden zum Jahreswechsel 1914/1915 Werke von Picasso und Braque mit Reliquien des Volkes der Kota aus Gabun und einem Wespennest kombiniert, es gab also eine Ausstellung mit afrikanischen Objekten.",
+            "fact_ids": [
+              "271320874-0275"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 28,
+      "kind": "retry",
+      "reason": "Die Frage setzt voraus, dass es in der „291“ Kunst aus Afrika gab und dass sie etwas Besonderes war. Diese Prämisse steht in keinem Fakt-Satz, denn es sind keine Fakt-IDs zitiert. Das „Autsch, das sitzt!“ wäre als Reaktion belegfrei, die Nachfrage mit ihrer Prämisse aber nicht.",
+      "previous": {
+        "index": 28,
+        "speaker": "Felix",
+        "text": "Autsch, das sitzt! Aber sag mal, was war denn bei der Kunst aus Afrika in der 291 so besonders?",
+        "fact_ids": [],
+        "statements": []
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 3,
+      "turn_index": 32,
+      "kind": "retry",
+      "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 32,
+        "speaker": "Felix",
+        "text": "Das macht es greifbar, danke. Vorhin ging es um die Kota aus Gabun, deren Reliquien neben Werken von Picasso und Braque gezeigt wurden. Weißt du etwas über Gabun?",
+        "fact_ids": [
+          "271320874-0275"
+        ],
+        "statements": [
+          {
+            "text": "Stieglitz kombinierte Werke von Picasso und Braque mit Reliquien des Volkes der Kota aus Gabun.",
+            "fact_ids": [
+              "271320874-0275"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 3,
+      "turn_index": 33,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 33,
+        "speaker": "Lena",
+        "text": "Ab etwa achtzehnhundertneununddreißig war Gabun eine französische Kolonie.",
+        "fact_ids": [
+          "271846515-0029"
+        ],
+        "statements": [
+          {
+            "text": "Ab etwa 1839 war Gabun eine französische Kolonie.",
+            "fact_ids": [
+              "271846515-0029"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 3,
+      "turn_index": 40,
+      "kind": "retry",
+      "reason": "Der Fakt 271320874-0248 wurde schon in Redebeitrag 37 und 38 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 40,
+        "speaker": "Felix",
+        "text": "Das klärt die Begriffe. Sind Brâncușis Werke eigentlich alle erhalten geblieben?",
+        "fact_ids": [
+          "271320874-0248"
+        ],
+        "statements": [
+          {
+            "text": "Brâncuși hatte Werke, für die Stieglitz keine Kommission nehmen konnte.",
+            "fact_ids": [
+              "271320874-0248"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 3,
+      "turn_index": 40,
+      "kind": "retry",
+      "reason": "Der Fakt 271320874-0248 wurde schon in Redebeitrag 37 und 38 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 40,
+        "speaker": "Felix",
+        "text": "Das klärt die Begriffe. Noch mal zu Brâncuși: Sind seine Werke eigentlich alle erhalten geblieben?",
+        "fact_ids": [
+          "271320874-0248"
+        ],
+        "statements": [
+          {
+            "text": "Brâncuși hatte Werke, die im Zusammenhang mit Stieglitz und dessen Galerie verkauft werden sollten.",
+            "fact_ids": [
+              "271320874-0248"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 3,
+      "turn_index": 41,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 41,
+        "speaker": "Lena",
+        "text": "Nein, nicht alle. Von Progigal Son existieren lediglich Fotografien. Denn Brâncuși zerstörte die Figur in Paris nach deren Rückkehr.",
+        "fact_ids": [
+          "271320874-0234"
+        ],
+        "statements": [
+          {
+            "text": "Von Progigal Son existieren lediglich Fotografien.",
+            "fact_ids": [
+              "271320874-0234"
+            ]
+          },
+          {
+            "text": "Brâncuși zerstörte die Figur in Paris nach deren Rückkehr.",
+            "fact_ids": [
+              "271320874-0234"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 3,
+      "turn_index": 44,
+      "kind": "retry",
+      "reason": "„Paris und Berlin, ich staune“ ist eine Reaktion und durch den Fakt gedeckt. Die Frage „gab es die in der 291 auch?“ setzt aber voraus, dass es eine „291“ gibt, in der Malerei gezeigt wurde, und dass dort auch anderes gezeigt wurde („auch“). Der Fakt [271320874-0332] erwähnt die „291“ nicht, sie steht höchstens im Kontext. Diese Prämisse ist daher nicht belegt.",
+      "previous": {
+        "index": 44,
+        "speaker": "Felix",
+        "text": "Paris und Berlin, ich staune. Und wie war es mit ganz abstrakter Malerei, gab es die in der 291 auch?",
+        "fact_ids": [
+          "271320874-0332"
+        ],
+        "statements": [
+          {
+            "text": "Hartley kannte indianische Artefakte aus Paris und Berlin.",
+            "fact_ids": [
+              "271320874-0332"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 3,
+      "turn_index": 45,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 45,
+        "speaker": "Lena",
+        "text": "Ja. Unter dem Titel Ten Commandments, auf Deutsch Die zehn Gebote, zeigte Stieglitz eine Serie von Pastellmalereien von Dove. Sie gelten als erste nicht gegenständliche Werke eines amerikanischen Künstlers.",
+        "fact_ids": [
+          "271320874-0154"
+        ],
+        "statements": [
+          {
+            "text": "Stieglitz zeigte unter dem Titel Ten Commandments, Die zehn Gebote, eine Serie von Pastellmalereien von Dove.",
+            "fact_ids": [
+              "271320874-0154"
+            ]
+          },
+          {
+            "text": "Diese Werke gelten als erste nicht gegenständliche Werke eines amerikanischen Künstlers.",
+            "fact_ids": [
+              "271320874-0154"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 3,
+      "turn_index": 54,
+      "kind": "retry",
+      "reason": "Der Fakt 271320874-0053 wurde schon in Redebeitrag 5 und 6 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 54,
+        "speaker": "Felix",
+        "text": "Ein Urinal in der Galerie, ich staune! Gab es neben Pamela Colman Smith eigentlich noch weitere Künstlerinnen?",
+        "fact_ids": [
+          "271320874-0295",
+          "271320874-0053"
+        ],
+        "statements": [
+          {
+            "text": "Duchamp stellte das Urinal in der 291 aus.",
+            "fact_ids": [
+              "271320874-0295"
+            ]
+          },
+          {
+            "text": "Die Galerie zeigte Zeichnungen von Pamela Colman Smith.",
+            "fact_ids": [
+              "271320874-0053"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 3,
+      "turn_index": 54,
+      "kind": "retry",
+      "reason": "Der Satz \"Ein Urinal in der Galerie\" setzt als Tatsache voraus, dass in der Galerie 291 ein Urinal war. Der zitierte Fakt nennt nur, dass 291 eine avantgardistische Kunstgalerie in der Fifth Avenue in New York war. Von einem Urinal steht dort nichts, und Kontext allein belegt es nicht. Die Frage nach Künstlerinnen ist unproblematisch, das Staunen ebenfalls.",
+      "previous": {
+        "index": 54,
+        "speaker": "Felix",
+        "text": "Ein Urinal in der Galerie, ich staune! Gab es in der 291 eigentlich auch Künstlerinnen, die dort gezeigt wurden?",
+        "fact_ids": [
+          "271320874-0000"
+        ],
+        "statements": [
+          {
+            "text": "Die 291 war eine Kunstgalerie.",
+            "fact_ids": [
+              "271320874-0000"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 3,
+      "turn_index": 55,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 55,
+        "speaker": "Lena",
+        "text": "Ja, Georgia O’Keeffe. Im Mai neunzehnhundertsechzehn fiel die Entscheidung, einige ihrer Zeichnungen in der Galerie auszustellen. Und zwar, ohne O’Keeffe darüber zu informieren.",
+        "fact_ids": [
+          "271320874-0348"
+        ],
+        "statements": [
+          {
+            "text": "Im Mai 1916 fiel die Entscheidung, einige Zeichnungen von O’Keeffe in der Galerie auszustellen.",
+            "fact_ids": [
+              "271320874-0348"
+            ]
+          },
+          {
+            "text": "Das geschah, ohne O’Keeffe darüber zu informieren.",
+            "fact_ids": [
+              "271320874-0348"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 3,
+      "turn_index": 58,
+      "kind": "retry",
+      "reason": "Der Fakt 271320874-0348 wurde schon in Redebeitrag 55 und 56 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 58,
+        "speaker": "Felix",
+        "text": "Hm, interessant. Wie bekannt war sie damals eigentlich, als ihre Zeichnungen ausgestellt wurden?",
+        "fact_ids": [
+          "271320874-0348"
+        ],
+        "statements": [
+          {
+            "text": "Im Mai 1916 wurden einige Zeichnungen von O’Keeffe in der Galerie ausgestellt.",
+            "fact_ids": [
+              "271320874-0348"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 3,
+      "turn_index": 59,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 59,
+        "speaker": "Lena",
+        "text": "Gar nicht. Die Neunundzwanzigjährige war zu diesem Zeitpunkt eine vollkommen unbekannte Kunstlehrerin.",
+        "fact_ids": [
+          "271320874-0344",
+          "271320874-0348"
+        ],
+        "statements": [
+          {
+            "text": "Die Neunundzwanzigjährige, deren Zeichnungen im Mai 1916 ausgestellt wurden, war zu diesem Zeitpunkt eine vollkommen unbekannte Kunstlehrerin.",
+            "fact_ids": [
+              "271320874-0344",
+              "271320874-0348"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 3,
+      "turn_index": 59,
+      "kind": "cascade",
+      "reason": "Die Aussage \"Sie war zu diesem Zeitpunkt neunundzwanzig Jahre alt und eine vollkommen unbekannte Kunstlehrerin\" wird durch den Fakt-Satz gedeckt. Der Beginn \"Gar nicht.\" ist aber eine Antwort auf eine offenbar gestellte Frage (vermutlich, wie bekannt sie war). Diese Antwort ist eine inhaltliche Behauptung (\"gar nicht\" bekannt), die der Fakt-Satz nur teilweise stützt. Zudem ist die Bezugsfrage nicht belegt. Weil \"Gar nicht\" nicht eindeutig als belegfreie Reaktion gilt, ist der Beitrag nicht vollständig belegt.",
+      "previous": {
+        "index": 59,
+        "speaker": "Lena",
+        "text": "Gar nicht. Sie war zu diesem Zeitpunkt neunundzwanzig Jahre alt und eine vollkommen unbekannte Kunstlehrerin.",
+        "fact_ids": [
+          "271320874-0344"
+        ],
+        "statements": [
+          {
+            "text": "Georgia O’Keeffe war zu diesem Zeitpunkt neunundzwanzig Jahre alt und eine vollkommen unbekannte Kunstlehrerin.",
+            "fact_ids": [
+              "271320874-0344"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 3,
+      "turn_index": 60,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 60,
+        "speaker": "Felix",
+        "text": "Wow! Und wie ging die Geschichte der Galerie schließlich aus?",
+        "fact_ids": [],
+        "statements": []
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 3,
+      "turn_index": 63,
+      "kind": "retry",
+      "reason": "Fast alle Aussagen stimmen mit den Fakt-Sätzen überein. Eine Stelle weicht ab: „Im Mai neunzehnhundertsechzehn fiel die Entscheidung, Zeichnungen von O’Keeffe auszustellen“. Laut [271320874-0348] ist Mai 1916 der Zeitpunkt der Ausstellung („entschied er sich dazu, im Mai 1916 einige ihrer Zeichnungen … auszustellen“). Wann die Entscheidung fiel, steht dort nicht. Lena verschiebt das Datum auf die Entscheidung, das ist nicht belegt.",
+      "previous": {
+        "index": 63,
+        "speaker": "Lena",
+        "text": "Gern. Die 291 war eine avantgardistische Kunstgalerie in der Fifth Avenue in New York. Gegründet wurde sie neunzehnhundertfünf von Alfred Stieglitz und Edward Steichen. Stieglitz zeigte die weltweit erste Skulpturen-Ausstellung von Henri Matisse und Pastellmalereien von Dove, die als erste nicht gegenständliche Werke eines amerikanischen Künstlers gelten. Der Formulierung „unter dem Blickpunkt der Kunst“ kam eine besondere Bedeutung zu, weil Artefakte aus Afrika bis dahin nur in einem ethnografischen und naturwissenschaftlichen Kontext behandelt wurden. Es gab auch Streit: Brâncuși hatte mit Walter Pach ein Arrangement getroffen, sodass Stieglitz keine Kommission nehmen konnte. Picabia machte aus dem Konterfei von Stieglitz eine Kamera-Konstruktion. Im Mai neunzehnhundertsechzehn fiel die Entscheidung, Zeichnungen von O’Keeffe auszustellen, ohne sie zu informieren, und sie war damals eine vollkommen unbekannte Kunstlehrerin. Im Juni neunzehnhundertsiebzehn musste Stieglitz die Galerie wegen der schlechten wirtschaftlichen Lage schließen. Finanziert hatte er sie überwiegend vom Vermögen seiner ersten Ehefrau.",
+        "fact_ids": [
+          "271320874-0000",
+          "271320874-0001",
+          "271320874-0161",
+          "271320874-0154",
+          "271320874-0258",
+          "271320874-0248",
+          "271320874-0289",
+          "271320874-0348",
+          "271320874-0344",
+          "271320874-0365"
+        ],
+        "statements": [
+          {
+            "text": "Die 291 war eine avantgardistische Kunstgalerie in der Fifth Avenue in New York.",
+            "fact_ids": [
+              "271320874-0000"
+            ]
+          },
+          {
+            "text": "Sie wurde 1905 von Alfred Stieglitz und Edward Steichen gegründet.",
+            "fact_ids": [
+              "271320874-0001"
+            ]
+          },
+          {
+            "text": "Stieglitz zeigte die weltweit erste Skulpturen-Ausstellung von Henri Matisse.",
+            "fact_ids": [
+              "271320874-0161"
+            ]
+          },
+          {
+            "text": "Er zeigte Pastellmalereien von Dove, die als erste nicht gegenständliche Werke eines amerikanischen Künstlers gelten.",
+            "fact_ids": [
+              "271320874-0154"
+            ]
+          },
+          {
+            "text": "Der Formulierung „unter dem Blickpunkt der Kunst“ kam eine besondere Bedeutung zu, weil Artefakte aus Afrika bis dahin nur in einem ethnografischen und naturwissenschaftlichen Kontext behandelt wurden.",
+            "fact_ids": [
+              "271320874-0258"
+            ]
+          },
+          {
+            "text": "Brâncuși hatte mit Walter Pach ein Arrangement getroffen, sodass Stieglitz keine Kommission nehmen konnte.",
+            "fact_ids": [
+              "271320874-0248"
+            ]
+          },
+          {
+            "text": "Picabia machte aus dem Konterfei von Stieglitz eine Kamera-Konstruktion.",
+            "fact_ids": [
+              "271320874-0289"
+            ]
+          },
+          {
+            "text": "Im Mai 1916 fiel die Entscheidung, Zeichnungen von O’Keeffe auszustellen, ohne sie zu informieren.",
+            "fact_ids": [
+              "271320874-0348"
+            ]
+          },
+          {
+            "text": "Die Neunundzwanzigjährige war zu diesem Zeitpunkt eine vollkommen unbekannte Kunstlehrerin.",
+            "fact_ids": [
+              "271320874-0344",
+              "271320874-0348"
+            ]
+          },
+          {
+            "text": "Im Juni 1917 musste Stieglitz die Galerie wegen der schlechten wirtschaftlichen Lage schließen.",
+            "fact_ids": [
+              "271320874-0365"
+            ]
+          },
+          {
+            "text": "Er hatte die Galerie überwiegend vom Vermögen seiner ersten Ehefrau finanziert.",
+            "fact_ids": [
+              "271320874-0365"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    }
+  ],
+  "discarded_conversations": [
+    {
+      "conversation": 1,
+      "reason": "Turn regeneration budget used up (gate problems, 3x).",
+      "excluded_fact_ids": [
+        "267193649-0001",
+        "271320874-0053"
+      ],
+      "dialog": {
+        "turns": [
+          {
+            "index": 24,
+            "speaker": "Felix",
+            "text": "Wow, was für Worte! Dann lass uns mal bei Gabun bleiben. Was kannst du mir darüber sagen?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 25,
+            "speaker": "Lena",
+            "text": "Ab etwa achtzehnhundertneununddreißig war Gabun eine französische Kolonie.",
+            "fact_ids": [
+              "271846515-0029"
+            ],
+            "statements": [
+              {
+                "text": "Ab etwa achtzehnhundertneununddreißig war Gabun eine französische Kolonie.",
+                "fact_ids": [
+                  "271846515-0029"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 26,
+            "speaker": "Felix",
+            "text": "Eine Kolonie also. Wie hat man damals überhaupt auf Artefakte aus Afrika geschaut, wie sie bei den Kota auftauchen?",
+            "fact_ids": [
+              "271320874-0275",
+              "271846515-0029"
+            ],
+            "statements": [
+              {
+                "text": "Die Reliquien der Kota stammen aus Gabun.",
+                "fact_ids": [
+                  "271320874-0275"
+                ]
+              },
+              {
+                "text": "Gabun war eine Kolonie.",
+                "fact_ids": [
+                  "271846515-0029"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 27,
+            "speaker": "Lena",
+            "text": "Bis zu diesem Zeitpunkt wurden Artefakte aus Afrika ausschließlich in einem ethnografischen und naturwissenschaftlichen Kontext behandelt. Nicht jedoch im Sinne von Volkskunst als eigenständige Kunstform.",
+            "fact_ids": [
+              "271320874-0258"
+            ],
+            "statements": [
+              {
+                "text": "Artefakte aus Afrika wurden bis zu diesem Zeitpunkt ausschließlich in einem ethnografischen und naturwissenschaftlichen Kontext behandelt, nicht im Sinne von Volkskunst als eigenständige Kunstform.",
+                "fact_ids": [
+                  "271320874-0258"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 28,
+            "speaker": "Felix",
+            "text": "Moment, was genau meint man mit Volkskunst?",
+            "fact_ids": [
+              "271320874-0258"
+            ],
+            "statements": [
+              {
+                "text": "Volkskunst wird im Zusammenhang mit afrikanischen Artefakten erwähnt.",
+                "fact_ids": [
+                  "271320874-0258"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 29,
+            "speaker": "Lena",
+            "text": "Volkskunst, teilweise auch Heimatkunst genannt, bezeichnet das bildnerische und kreative Schaffen jenseits der klassischen oder modernen Künste. Meist ist es in traditionelle handwerkliche oder häusliche Produktion eingebunden.",
+            "fact_ids": [
+              "268209049-0000"
+            ],
+            "statements": [
+              {
+                "text": "Volkskunst, teilweise auch Heimatkunst genannt, bezeichnet das bildnerische und kreative Schaffen jenseits der klassischen oder modernen Künste, meist eingebunden in traditionelle handwerkliche oder häusliche Produktion.",
+                "fact_ids": [
+                  "268209049-0000"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 30,
+            "speaker": "Felix",
+            "text": "Alles klar. Gab es auch Ärger mit einzelnen Künstlern?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 31,
+            "speaker": "Lena",
+            "text": "Ja, mit Brâncuși. Er hatte mit Walter Pach ein Arrangement getroffen. Der Gewinn sollte direkt an ihn geschickt werden. Dadurch konnte Stieglitz keine Kommission für die Werke nehmen. Deshalb gab es Differenzen zwischen den beiden.",
+            "fact_ids": [
+              "271320874-0248"
+            ],
+            "statements": [
+              {
+                "text": "Es gab Differenzen zwischen Stieglitz und Brâncuși, da Brâncuși mit Walter Pach vereinbart hatte, dass der Gewinn direkt an ihn geschickt werden sollte, sodass Stieglitz keine Kommission für die Werke nehmen konnte.",
+                "fact_ids": [
+                  "271320874-0248"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 32,
+            "speaker": "Felix",
+            "text": "Das Wort Kommission taucht da auf. Gibt es dafür eigentlich eine Berufsbezeichnung?",
+            "fact_ids": [
+              "271320874-0248"
+            ],
+            "statements": [
+              {
+                "text": "Bei den Werken ging es um eine Kommission.",
+                "fact_ids": [
+                  "271320874-0248"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 33,
+            "speaker": "Lena",
+            "text": "Ja, den Kommissionär. Das ist ein Kaufmann, der gewerbsmäßig Kommissionsgüter im eigenen Namen, aber auf fremde Rechnung gegen Provision kauft oder verkauft. Das Wort stammt vom lateinischen committere, zusammenbringen oder vereinigen.",
+            "fact_ids": [
+              "240794847-0000"
+            ],
+            "statements": [
+              {
+                "text": "Ein Kommissionär ist ein Kaufmann, der gewerbsmäßig Kommissionsgüter im eigenen Namen, aber auf fremde Rechnung gegen Provision kauft oder verkauft.",
+                "fact_ids": [
+                  "240794847-0000"
+                ]
+              },
+              {
+                "text": "Das Wort kommt vom lateinischen committere, was zusammenbringen oder vereinigen bedeutet.",
+                "fact_ids": [
+                  "240794847-0000"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 34,
+            "speaker": "Felix",
+            "text": "Und hat Brâncuși neben dem Streit um die Kommission noch für Aufregung gesorgt?",
+            "fact_ids": [
+              "271320874-0248"
+            ],
+            "statements": [
+              {
+                "text": "Es gab Differenzen zwischen Stieglitz und Brâncuși wegen der Kommission.",
+                "fact_ids": [
+                  "271320874-0248"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 35,
+            "speaker": "Lena",
+            "text": "Von seiner Figur Progigal Son existieren lediglich Fotografien. Denn Brâncuși zerstörte die Figur in Paris nach deren Rückkehr.",
+            "fact_ids": [
+              "271320874-0234"
+            ],
+            "statements": [
+              {
+                "text": "Von Progigal Son existieren lediglich Fotografien, denn Brâncuși zerstörte die Figur in Paris nach deren Rückkehr.",
+                "fact_ids": [
+                  "271320874-0234"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 36,
+            "speaker": "Felix",
+            "text": "Unfassbar! Gab es auch amerikanische Künstler in der Galerie?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 37,
+            "speaker": "Lena",
+            "text": "Ja. Unter dem Titel Ten Commandments, auf Deutsch Die zehn Gebote, zeigte Stieglitz eine Serie von Pastellmalereien von Dove. Sie gelten als die ersten nicht gegenständlichen Werke eines amerikanischen Künstlers.",
+            "fact_ids": [
+              "271320874-0154"
+            ],
+            "statements": [
+              {
+                "text": "Unter dem Titel Ten Commandments zeigte Stieglitz eine Serie von Pastellmalereien von Dove, die als erste nicht gegenständliche Werke eines amerikanischen Künstlers gelten.",
+                "fact_ids": [
+                  "271320874-0154"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 38,
+            "speaker": "Felix",
+            "text": "Pastellmalereien, wie funktioniert so eine Technik eigentlich?",
+            "fact_ids": [
+              "271320874-0154"
+            ],
+            "statements": [
+              {
+                "text": "Dove schuf Pastellmalereien.",
+                "fact_ids": [
+                  "271320874-0154"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 39,
+            "speaker": "Lena",
+            "text": "Pastellmalerei ist eine Technik, bei der Pigmente auf einen Malgrund aufgetragen werden. Als Malgrund dienen Papier, Pappe oder Leinwand.",
+            "fact_ids": [
+              "268895957-0000"
+            ],
+            "statements": [
+              {
+                "text": "Pastellmalerei ist eine Technik, bei der Pigmente auf einen Malgrund wie Papier, Pappe oder Leinwand aufgetragen werden.",
+                "fact_ids": [
+                  "268895957-0000"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 40,
+            "speaker": "Felix",
+            "text": "Gab es noch Künstler mit ganz besonderen Interessen?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 41,
+            "speaker": "Lena",
+            "text": "Da gibt es Hartley. Er lernte indianische Artefakte erst im Pariser Trocadéro kennen, das heute Palais de Chaillot heißt, und im Berliner Museum für Völkerkunde. Sie bewirkten sein nachhaltiges Interesse für die indianische Kultur.",
+            "fact_ids": [
+              "271320874-0332"
+            ],
+            "statements": [
+              {
+                "text": "Hartley lernte indianische Artefakte erst im Pariser Trocadéro, heute Palais de Chaillot, und im Berliner Museum für Völkerkunde kennen.",
+                "fact_ids": [
+                  "271320874-0332"
+                ]
+              },
+              {
+                "text": "Die Artefakte bewirkten sein nachhaltiges Interesse für die indianische Kultur.",
+                "fact_ids": [
+                  "271320874-0332"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 42,
+            "speaker": "Felix",
+            "text": "Spannend. Gab es auch Entdeckungen, also Künstler, die vorher niemand kannte?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 43,
+            "speaker": "Lena",
+            "text": "Ja, im Mai neunzehnhundertsechzehn. Stieglitz entschied sich, einige Zeichnungen von O’Keeffe in der Galerie auszustellen, ohne sie darüber zu informieren. Sie war zu diesem Zeitpunkt eine vollkommen unbekannte Kunstlehrerin. Und sie war neunundzwanzig Jahre alt.",
+            "fact_ids": [
+              "271320874-0344",
+              "271320874-0348"
+            ],
+            "statements": [
+              {
+                "text": "Im Mai neunzehnhundertsechzehn entschied sich Stieglitz, einige Zeichnungen von O’Keeffe in der Galerie auszustellen, ohne sie darüber zu informieren.",
+                "fact_ids": [
+                  "271320874-0348"
+                ]
+              },
+              {
+                "text": "Die Neunundzwanzigjährige war zu diesem Zeitpunkt eine vollkommen unbekannte Kunstlehrerin.",
+                "fact_ids": [
+                  "271320874-0344"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 44,
+            "speaker": "Felix",
+            "text": "Ohne sie zu fragen! Hat man damals etwas über ihre Arbeiten geschrieben?",
+            "fact_ids": [
+              "271320874-0348"
+            ],
+            "statements": [
+              {
+                "text": "Zeichnungen von O’Keeffe wurden ausgestellt, ohne dass sie informiert wurde.",
+                "fact_ids": [
+                  "271320874-0348"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 45,
+            "speaker": "Lena",
+            "text": "Ja, aus neunzehnhundertsechzehn gibt es einen Satz: „Neben anderen Werten sind Miss O’Keeffes Zeichnungen unter einem psychoanalytischen Aspekt interessant.“",
+            "fact_ids": [
+              "271320874-0354"
+            ],
+            "statements": [
+              {
+                "text": "Im Jahr neunzehnhundertsechzehn wurde geschrieben, neben anderen Werten seien Miss O’Keeffes Zeichnungen unter einem psychoanalytischen Aspekt interessant.",
+                "fact_ids": [
+                  "271320874-0354"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 46,
+            "speaker": "Felix",
+            "text": "Interessant. Gab es auch richtig große Provokationen in der Galerie?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 47,
+            "speaker": "Lena",
+            "text": "Ja. Schließlich gelang es, Duchamp davon zu überzeugen, das Urinal in der 291 auszustellen.",
+            "fact_ids": [
+              "271320874-0295"
+            ],
+            "statements": [
+              {
+                "text": "Schließlich gelang es, Duchamp zu überzeugen, das Urinal in der 291 auszustellen.",
+                "fact_ids": [
+                  "271320874-0295"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 48,
+            "speaker": "Felix",
+            "text": "Das hätte ich nicht erwartet! Und wie haben die Künstler eigentlich den Gründer der Galerie gesehen?",
+            "fact_ids": [
+              "271320874-0001"
+            ],
+            "statements": [
+              {
+                "text": "Stieglitz war einer der Gründer der Galerie.",
+                "fact_ids": [
+                  "271320874-0001"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 49,
+            "speaker": "Lena",
+            "text": "Picabia porträtierte de Zayas, Haviland und Stieglitz als Maschinen. Aus dem Konterfei von Stieglitz wurde eine Kamera-Konstruktion. Dazu stand der Zusatz Ici, c’est ici Stieglitz, foi et amour, auf Deutsch: Hier, das ist Stieglitz hier, Glaube und Liebe. Picabia hatte außerdem Bilder gemalt, und zwar während Stieglitz’ Fotoausstellung.",
+            "fact_ids": [
+              "271320874-0289",
+              "271320874-0208"
+            ],
+            "statements": [
+              {
+                "text": "Picabia porträtierte de Zayas, Haviland und Stieglitz als Maschinen.",
+                "fact_ids": [
+                  "271320874-0289"
+                ]
+              },
+              {
+                "text": "Das Konterfei von Stieglitz wurde eine Kamera-Konstruktion mit dem Zusatz Ici, c’est ici Stieglitz, foi et amour, also Hier, das ist Stieglitz hier, Glaube und Liebe.",
+                "fact_ids": [
+                  "271320874-0289"
+                ]
+              },
+              {
+                "text": "Picabia hatte Bilder während Stieglitz’ Fotoausstellung gemalt.",
+                "fact_ids": [
+                  "271320874-0208"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 50,
+            "speaker": "Felix",
+            "text": "Das muss man sich erst einmal vorstellen! Gab es auch Gegenwind gegen die Galerie?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 51,
+            "speaker": "Lena",
+            "text": "Und wie. Über die 291 schrieb Benton: „Ich bin mir sicher, dass an keinem anderen Ort auf der Welt mehr beknacktes Zeug produziert wurde, die Verseuchung mit intellektueller Blödheit nahm dort unglaubliche Ausmaße an.“",
+            "fact_ids": [
+              "271320874-0406"
+            ],
+            "statements": [
+              {
+                "text": "Benton schrieb über die 291, er sei sicher, dass an keinem anderen Ort der Welt mehr beknacktes Zeug produziert wurde und die Verseuchung mit intellektueller Blödheit dort unglaubliche Ausmaße annahm.",
+                "fact_ids": [
+                  "271320874-0406"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 52,
+            "speaker": "Felix",
+            "text": "Autsch! Gibt es auch etwas, das man bis heute nicht genau weiß?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 53,
+            "speaker": "Lena",
+            "text": "Ja. Brock sprach von einem der großen Mysterien in der Frühgeschichte des Modernismus in Amerika. Der Mangel an Fotografien erschwere das Verständnis der Picasso-Installation von neunzehnhundertelf.",
+            "fact_ids": [
+              "271320874-0134"
+            ],
+            "statements": [
+              {
+                "text": "Brock bezeichnete es als eines der großen Mysterien in der Frühgeschichte des Modernismus in Amerika, dass der Mangel an Fotografien das Verständnis der Picasso-Installation von neunzehnhundertelf erschwert.",
+                "fact_ids": [
+                  "271320874-0134"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 54,
+            "speaker": "Felix",
+            "text": "Ein echtes Rätsel also. Und wie ging die Geschichte der Galerie zu Ende?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 55,
+            "speaker": "Lena",
+            "text": "Im Juni neunzehnhundertsiebzehn, zwei Monate nach dem Kriegseintritt der USA, sah sich Stieglitz zur Schließung gezwungen. Der Grund war die schlechte wirtschaftliche Lage. Er hatte die Galerie überwiegend vom Vermögen seiner ersten Ehefrau Emmeline Obermeyer finanziert.",
+            "fact_ids": [
+              "271320874-0365"
+            ],
+            "statements": [
+              {
+                "text": "Im Juni neunzehnhundertsiebzehn, zwei Monate nach dem Kriegseintritt der USA, sah sich Stieglitz aufgrund der schlechten wirtschaftlichen Lage gezwungen, die 291 zu schließen.",
+                "fact_ids": [
+                  "271320874-0365"
+                ]
+              },
+              {
+                "text": "Stieglitz hatte die Galerie überwiegend vom Vermögen seiner ersten Ehefrau Emmeline Obermeyer finanziert.",
+                "fact_ids": [
+                  "271320874-0365"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 56,
+            "speaker": "Felix",
+            "text": "Dann fasse ich einmal zusammen, Lena. Die Galerie 291 in der Fifth Avenue wurde neunzehnhundertfünf von Alfred Stieglitz und Edward Steichen gegründet. Sie zeigte Pamela Colman Smith, Rodins Aquarellzeichnungen und die erste Skulpturen-Ausstellung von Matisse. Dazu kamen Werke von Picasso und Braque neben Reliquien der Kota, und afrikanische Artefakte hatte man bis dahin nur ethnografisch behandelt. Von den Aquarellen verkaufte sich nur eines, und wer Kunst wie ein Konsumgut behandelte, zahlte bei Stieglitz plötzlich den doppelten Preis. O’Keeffes Zeichnungen stellte er aus, ohne sie zu informieren. Im Juni neunzehnhundertsiebzehn musste er schließen, finanziert hatte er die Galerie überwiegend vom Vermögen seiner ersten Frau. Und der Name 291 blieb trotz der neuen Hausnummer erhalten.",
+            "fact_ids": [
+              "271320874-0000",
+              "271320874-0001",
+              "271320874-0053",
+              "271320874-0061",
+              "271320874-0161",
+              "271320874-0275",
+              "271320874-0258",
+              "271320874-0119",
+              "271320874-0037",
+              "271320874-0348",
+              "271320874-0365",
+              "271320874-0044"
+            ],
+            "statements": [
+              {
+                "text": "Die Galerie 291 in der Fifth Avenue wurde neunzehnhundertfünf von Alfred Stieglitz und Edward Steichen gegründet.",
+                "fact_ids": [
+                  "271320874-0000",
+                  "271320874-0001"
+                ]
+              },
+              {
+                "text": "Sie zeigte Zeichnungen von Pamela Colman Smith, Rodins Aquarellzeichnungen und die weltweit erste Skulpturen-Ausstellung von Matisse.",
+                "fact_ids": [
+                  "271320874-0053",
+                  "271320874-0061",
+                  "271320874-0161"
+                ]
+              },
+              {
+                "text": "Stieglitz kombinierte Werke von Picasso und Braque mit Reliquien der Kota.",
+                "fact_ids": [
+                  "271320874-0275"
+                ]
+              },
+              {
+                "text": "Afrikanische Artefakte wurden bis dahin nur in einem ethnografischen und naturwissenschaftlichen Kontext behandelt.",
+                "fact_ids": [
+                  "271320874-0258"
+                ]
+              },
+              {
+                "text": "Von den Aquarellen verkaufte sich nur eines.",
+                "fact_ids": [
+                  "271320874-0119"
+                ]
+              },
+              {
+                "text": "Wer ein Kunstwerk wie ein Konsumgut behandelte, musste bei Stieglitz plötzlich den doppelten Preis zahlen.",
+                "fact_ids": [
+                  "271320874-0037"
+                ]
+              },
+              {
+                "text": "Stieglitz stellte Zeichnungen von O’Keeffe aus, ohne sie zu informieren.",
+                "fact_ids": [
+                  "271320874-0348"
+                ]
+              },
+              {
+                "text": "Im Juni neunzehnhundertsiebzehn musste Stieglitz die Galerie schließen, die er überwiegend vom Vermögen seiner ersten Ehefrau finanziert hatte.",
+                "fact_ids": [
+                  "271320874-0365"
+                ]
+              },
+              {
+                "text": "Der Name 291 blieb trotz der neuen Hausnummer 293 erhalten.",
+                "fact_ids": [
+                  "271320874-0044"
+                ]
+              }
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "turn_index": 24,
+            "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17, 18 und 20 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+          },
+          {
+            "turn_index": 26,
+            "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17, 18, 20 und 24 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+          },
+          {
+            "turn_index": 34,
+            "reason": "Der Fakt 271320874-0248 wurde schon in Redebeitrag 31 und 32 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+          }
+        ],
+        "used_fact_ids": [
+          "271846515-0029",
+          "271320874-0275",
+          "271320874-0258",
+          "268209049-0000",
+          "271320874-0248",
+          "240794847-0000",
+          "271320874-0234",
+          "271320874-0154",
+          "268895957-0000",
+          "271320874-0332",
+          "271320874-0344",
+          "271320874-0348",
+          "271320874-0354",
+          "271320874-0295",
+          "271320874-0001",
+          "271320874-0289",
+          "271320874-0208",
+          "271320874-0406",
+          "271320874-0134",
+          "271320874-0365",
+          "271320874-0000",
+          "271320874-0053",
+          "271320874-0061",
+          "271320874-0161",
+          "271320874-0119",
+          "271320874-0037",
+          "271320874-0044"
+        ]
+      },
+      "judgements": [
+        {
+          "turn_index": 24,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.94
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Behauptung. „Wow, was für Worte!“ ist eine Reaktion (Staunen), „Dann lass uns mal bei Gabun bleiben“ ist eine Überleitung und „Was kannst du mir darüber sagen?“ ist eine Nachfrage ohne neue Information. Fakt-IDs sind nicht nötig."
+        },
+        {
+          "turn_index": 25,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.99
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 26,
+          "accepted": false,
+          "decided_by": "gate",
+          "jev_p": {},
+          "jev_error": null,
+          "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17, 18, 20 und 24 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+        },
+        {
+          "turn_index": 27,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.98
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 28,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.95
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 29,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.96,
+            "vollstaendig": 0.97
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 30,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.85
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag ist eine reine Nachfrage (\"Gab es auch Ärger mit einzelnen Künstlern?\") mit einer kurzen Überleitung (\"Alles klar.\"). Er enthält keine Behauptung und keine Prämisse mit Faktengehalt, daher sind keine Fakt-IDs nötig."
+        },
+        {
+          "turn_index": 31,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.88
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: Brâncuși traf mit Walter Pach ein Arrangement, der Gewinn sollte direkt an ihn gehen, Stieglitz konnte keine Kommission nehmen, und es gab deshalb Differenzen zwischen beiden. Das einleitende „Ja, mit Brâncuși“ ist eine belegfreie Reaktion. Es kommt keine zusätzliche Angabe hinzu."
+        },
+        {
+          "turn_index": 32,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.93,
+            "vollstaendig": 0.87
+          },
+          "jev_error": null,
+          "reason": "Felix stellt nur fest, dass das Wort „Kommission“ auftaucht, was der Fakt-Satz bestätigt („keine Kommission für die Werke nehmen konnte“). Die Frage nach einer Berufsbezeichnung ist eine Nachfrage ohne zusätzliche Tatsachenbehauptung und braucht keinen Beleg."
+        },
+        {
+          "turn_index": 33,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.9
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich vollständig wieder: Kaufmann, gewerbsmäßig, Kommissionsgüter, im eigenen Namen, auf fremde Rechnung, gegen Provision, Kauf oder Verkauf. Auch die Herkunft von lateinisch committere mit der Bedeutung „zusammenbringen, vereinigen“ steht im Fakt. Es gibt keine zusätzlichen Angaben. Das einleitende „Ja, den Kommissionär“ ist eine belegfreie Reaktion."
+        },
+        {
+          "turn_index": 34,
+          "accepted": false,
+          "decided_by": "gate",
+          "jev_p": {},
+          "jev_error": null,
+          "reason": "Der Fakt 271320874-0248 wurde schon in Redebeitrag 31 und 32 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+        },
+        {
+          "turn_index": 35,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.92,
+            "vollstaendig": 0.98
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder: Von Progigal Son existieren nur Fotografien, weil Brâncuși die Figur nach ihrer Rückkehr in Paris zerstörte. Der Zusatz „seiner Figur“ folgt daraus, dass Brâncuși die Figur zerstörte, und ist durch den Fakt-Satz gedeckt. Es kommt keine zusätzliche Angabe hinzu."
+        },
+        {
+          "turn_index": 36,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.86
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Behauptung: „Unfassbar!“ ist eine Gefühlsreaktion (Staunen), und die Frage nach amerikanischen Künstlern in der Galerie ist eine Nachfrage ohne faktische Prämisse. Beides gilt als belegfrei, daher sind keine Fakt-IDs nötig."
+        },
+        {
+          "turn_index": 37,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.77
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag gibt den Fakt-Satz 271320874-0154 inhaltlich getreu wieder: Titel Ten Commandments (Die zehn Gebote), Stieglitz, Serie von Pastellmalereien von Dove, als erste nicht gegenständliche Werke eines amerikanischen Künstlers geltend. Das einleitende „Ja\" ist eine belegfreie Reaktion. Es kommen keine zusätzlichen Angaben hinzu."
+        },
+        {
+          "turn_index": 38,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.93
+          },
+          "jev_error": null,
+          "reason": "Felix' Beitrag ist eine Nachfrage bzw. Bitte um Erklärung zur Technik der Pastellmalerei. Er enthält keine neue Behauptung, nur die Prämisse, dass es Pastellmalereien gibt, und die wird durch den Fakt-Satz gedeckt. Der Beitrag ist daher belegfrei bzw. durch die Fakten gestützt."
+        },
+        {
+          "turn_index": 39,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.91
+          },
+          "jev_error": null,
+          "reason": "Beide Sätze folgen direkt aus dem Fakt-Satz 268895957-0000: Pastellmalerei als Technik, bei der Pigmente auf einen Malgrund aufgetragen werden, und die Malgründe Papier, Pappe und Leinwand. Es kommt keine zusätzliche Angabe hinzu."
+        },
+        {
+          "turn_index": 40,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.91
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag ist eine reine Nachfrage ohne eigene Behauptung. Die Frage setzt keine Tatsache voraus, die belegt werden müsste, daher sind keine Fakt-IDs nötig."
+        },
+        {
+          "turn_index": 41,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.95
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 42,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.9
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Behauptung, sondern eine Reaktion (\"Spannend\", Gefühl im Moment) und eine Nachfrage. Die Frage setzt keine belegpflichtige Prämisse voraus, daher sind keine Fakt-IDs nötig."
+        },
+        {
+          "turn_index": 43,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.85
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Mai 1916 und die Ausstellung einiger Zeichnungen ohne Information an O’Keeffe (0348); Stieglitz als Entscheider (\"er\" im Kontext des Satzes); vollkommen unbekannte Kunstlehrerin und Alter 29 (0344). Keine zusätzlichen Angaben."
+        },
+        {
+          "turn_index": 44,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.69
+          },
+          "jev_error": null,
+          "reason": "„Ohne sie zu fragen!“ greift nur das Gesagte als Reaktion auf (Fakt: Ausstellung ohne O’Keeffe zu informieren). Die Frage, ob damals etwas über ihre Arbeiten geschrieben wurde, ist eine Nachfrage ohne eigene Behauptung oder Prämisse, die über die Fakten hinausgeht."
+        },
+        {
+          "turn_index": 45,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.97,
+            "vollstaendig": 0.9
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag gibt das Zitat aus dem Fakt-Satz [271320874-0354] wörtlich wieder und nennt dasselbe Jahr 1916 (ausgeschrieben als neunzehnhundertsechzehn). Es kommt keine zusätzliche Angabe hinzu; der Verfasser wird nicht genannt, sodass auch nichts Unbelegtes behauptet wird."
+        },
+        {
+          "turn_index": 46,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.78
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag besteht aus einer kurzen Reaktion („Interessant.“) und einer Nachfrage, ob es große Provokationen in der Galerie gab. Er stellt keine Behauptung auf und enthält keine Prämisse, die belegt werden müsste, daher sind keine Fakt-IDs nötig."
+        },
+        {
+          "turn_index": 47,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.94,
+            "vollstaendig": 0.9
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, dass es schließlich gelang, Duchamp zu überzeugen, das Urinal in der 291 auszustellen, folgt direkt aus dem Fakt-Satz. Das einleitende „Ja.“ ist eine belegfreie Reaktion; der Wechsel von „ihm“ zu einem Subjekt-losen Satz fügt keine neue Angabe hinzu."
+        },
+        {
+          "turn_index": 48,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.32
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag besteht aus einer Reaktion („Das hätte ich nicht erwartet!“, ein Gefühl des Staunens) und einer Nachfrage dazu, wie die Künstler den Gründer der Galerie sahen. Die Frage setzt nur voraus, dass die Galerie einen Gründer hatte, und das folgt aus dem Fakt-Satz (gegründet 1905 von Stieglitz und Steichen). Es wird keine neue Behauptung aufgestellt."
+        },
+        {
+          "turn_index": 49,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.98,
+            "aussage_2": 0.99,
+            "vollstaendig": 0.94
+          },
+          "jev_error": null,
+          "reason": "Die ersten drei Sätze (Maschinenporträts von de Zayas, Haviland und Stieglitz, Kamera-Konstruktion, Zusatz samt Übersetzung) entsprechen [271320874-0289] inhaltlich. Der letzte Satz, Picabia habe die Bilder während Stieglitz' Fotoausstellung gemalt, folgt aus [271320874-0208]. Zusätzliche Angaben kommen nicht vor."
+        },
+        {
+          "turn_index": 50,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.93
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Behauptung: „Das muss man sich erst einmal vorstellen!“ ist eine Gefühlsreaktion (Staunen), und „Gab es auch Gegenwind gegen die Galerie?“ ist eine Nachfrage. Die Frage setzt keine neue Tatsache voraus, die belegt werden müsste. Ohne Fakt-IDs ist das zulässig."
+        },
+        {
+          "turn_index": 51,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.97,
+            "vollstaendig": 0.94
+          },
+          "jev_error": null,
+          "reason": "Das Zitat im Redebeitrag stimmt mit dem Fakt-Satz überein, nur das Auslassungszeichen „[…]“ wurde durch ein Komma ersetzt. Die Zuschreibung an Benton und die Nennung der 291 sind belegt. „Und wie.“ ist eine belegfreie Reaktion."
+        },
+        {
+          "turn_index": 52,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.73
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag besteht aus einem Ausruf (\"Autsch!\") und einer Nachfrage, ob es etwas gibt, das bis heute nicht genau bekannt ist. Beides sind belegfreie Reaktionen: ein Gefühl im Moment und eine Nachfrage. Es wird keine Tatsachenbehauptung aufgestellt und keine Prämisse vorausgesetzt, die Fakt-Sätze bräuchte."
+        },
+        {
+          "turn_index": 53,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.94
+          },
+          "jev_error": null,
+          "reason": "Lenas Aussagen folgen direkt aus dem Fakt-Satz: Brock nannte es „eines der großen Mysterien in der Frühgeschichte des Modernismus in Amerika“, und der Mangel an Fotografien erschwere das Verständnis der Picasso-Installation von 1911. Das einleitende „Ja“ ist eine belegfreie Reaktion. Es kommen keine zusätzlichen Angaben hinzu."
+        },
+        {
+          "turn_index": 54,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.78
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Behauptung. „Ein echtes Rätsel also“ greift das Gesagte als Reaktion wieder auf, ohne neue Information, und die Frage nach dem Ende der Galerie ist eine Nachfrage ohne eigene faktische Prämisse. Fakt-IDs werden daher nicht benötigt."
+        },
+        {
+          "turn_index": 55,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.97
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 56,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.97,
+            "aussage_2": 0.98,
+            "aussage_3": 0.98,
+            "aussage_4": 0.99,
+            "aussage_5": 0.98,
+            "aussage_6": 0.99,
+            "aussage_7": 0.99,
+            "aussage_8": 0.98,
+            "vollstaendig": 0.88
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen lassen sich aus den zitierten Fakt-Sätzen ableiten: Gründung 1905 durch Stieglitz und Steichen in der Fifth Avenue, die Ausstellungen (Smith, Rodin, Matisse, Picasso/Braque mit Kota-Reliquien), nur ein verkauftes Aquarell, der doppelte Preis, O'Keeffes Zeichnungen ohne ihr Wissen, die Schließung im Juni 1917 mit Finanzierung aus dem Vermögen der ersten Frau und der beibehaltene Name 291. Die Verkürzung auf „nur ethnografisch“ lässt „naturwissenschaftlich“ weg, ändert den Sinn aber nicht wesentlich."
+        }
+      ],
+      "aliases": {
+        "F1": "271320874-0000",
+        "F2": "271320874-0001",
+        "F3": "271320874-0295",
+        "F4": "271320874-0037",
+        "F5": "271320874-0234",
+        "F6": "271320874-0275",
+        "F7": "271320874-0354",
+        "F8": "271320874-0119",
+        "F9": "271320874-0406",
+        "F10": "271320874-0134",
+        "F11": "271320874-0344",
+        "F12": "271320874-0348",
+        "F13": "271320874-0060",
+        "F14": "271320874-0272",
+        "F15": "271320874-0365",
+        "F16": "271320874-0044",
+        "F17": "271320874-0154",
+        "F18": "271320874-0161",
+        "F19": "271320874-0258",
+        "F20": "271320874-0248",
+        "F21": "271320874-0075",
+        "F22": "271320874-0208",
+        "F23": "271320874-0061",
+        "F24": "271320874-0053",
+        "F25": "271320874-0396",
+        "F26": "271320874-0289",
+        "F27": "271320874-0332",
+        "F28": "272043333-0001",
+        "F29": "270402862-0000",
+        "F30": "271846515-0029",
+        "F31": "267193649-0001",
+        "F32": "263889385-0000",
+        "F33": "240794847-0000",
+        "F34": "268209049-0000",
+        "F35": "268895957-0000"
+      },
+      "regeneration": "continuation",
+      "continued_from": 24,
+      "fresh_reason": null,
+      "continuation_reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+    },
+    {
+      "conversation": 2,
+      "reason": "Turn regeneration budget used up (gate problems, 3x).",
+      "excluded_fact_ids": [
+        "267193649-0001",
+        "271320874-0053",
+        "271320874-0396"
+      ],
+      "dialog": {
+        "turns": [
+          {
+            "index": 28,
+            "speaker": "Felix",
+            "text": "Autsch! Aber es gab in der 291 ja auch Reliquien der Kota aus Gabun. Was war denn bei dieser Kunst aus Afrika so besonders?",
+            "fact_ids": [
+              "271320874-0275"
+            ],
+            "statements": [
+              {
+                "text": "Stieglitz zeigte in der 291 Reliquien des Volkes der Kota aus Gabun.",
+                "fact_ids": [
+                  "271320874-0275"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 29,
+            "speaker": "Lena",
+            "text": "Da kam einer Formulierung besondere Bedeutung zu: „unter dem Blickpunkt der Kunst“. Artefakte aus Afrika wurden nämlich bis zu diesem Zeitpunkt ausschließlich in einem ethnografischen und naturwissenschaftlichen Kontext behandelt. Nicht jedoch im Sinne von Volkskunst als eigenständige Kunstform.",
+            "fact_ids": [
+              "271320874-0258"
+            ],
+            "statements": [
+              {
+                "text": "Der Formulierung „unter dem Blickpunkt der Kunst“ kam eine besondere Bedeutung zu.",
+                "fact_ids": [
+                  "271320874-0258"
+                ]
+              },
+              {
+                "text": "Artefakte aus Afrika wurden bis dahin ausschließlich in einem ethnografischen und naturwissenschaftlichen Kontext behandelt, nicht als Volkskunst im Sinne einer eigenständigen Kunstform.",
+                "fact_ids": [
+                  "271320874-0258"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 30,
+            "speaker": "Felix",
+            "text": "Jetzt sagst du Volkskunst. Was ist das eigentlich genau?",
+            "fact_ids": [
+              "271320874-0258"
+            ],
+            "statements": [
+              {
+                "text": "Im Zusammenhang mit afrikanischen Artefakten ist von Volkskunst die Rede.",
+                "fact_ids": [
+                  "271320874-0258"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 31,
+            "speaker": "Lena",
+            "text": "Volkskunst wird teilweise auch Heimatkunst genannt. Gemeint ist das bildnerische und kreative Schaffen jenseits der klassischen oder modernen Künste. Es ist meist in traditionelle handwerkliche oder häusliche Produktion eingebunden.",
+            "fact_ids": [
+              "268209049-0000"
+            ],
+            "statements": [
+              {
+                "text": "Volkskunst, teilweise auch Heimatkunst genannt, bezeichnet das bildnerische und kreative Schaffen jenseits der klassischen oder modernen Künste, meist eingebunden in traditionelle handwerkliche oder häusliche Produktion.",
+                "fact_ids": [
+                  "268209049-0000"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 32,
+            "speaker": "Felix",
+            "text": "Verstanden. Gibt es eigentlich Beschreibungen solcher Stücke aus dieser Zeit?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 33,
+            "speaker": "Lena",
+            "text": "Ja, es gibt diesen Satz: „Diese rohen Schnitzereien gehören zu den schwarzen Vertiefungen des Dschungels.“",
+            "fact_ids": [
+              "271320874-0272"
+            ],
+            "statements": [
+              {
+                "text": "Es gibt den Satz, diese rohen Schnitzereien gehörten zu den schwarzen Vertiefungen des Dschungels.",
+                "fact_ids": [
+                  "271320874-0272"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 34,
+            "speaker": "Felix",
+            "text": "Brr, das klingt düster. Die Kota-Reliquien kommen ja aus Gabun. Was weißt du denn über Gabun?",
+            "fact_ids": [
+              "271320874-0275"
+            ],
+            "statements": [
+              {
+                "text": "Die Reliquien des Volkes der Kota stammen aus Gabun.",
+                "fact_ids": [
+                  "271320874-0275"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 35,
+            "speaker": "Lena",
+            "text": "Ab etwa achtzehnhundertneununddreißig war Gabun eine französische Kolonie.",
+            "fact_ids": [
+              "271846515-0029"
+            ],
+            "statements": [
+              {
+                "text": "Ab etwa 1839 war Gabun eine französische Kolonie.",
+                "fact_ids": [
+                  "271846515-0029"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 36,
+            "speaker": "Felix",
+            "text": "Interessant. Aber zurück zu den Künstlern. Gab es auch Werke, die heute nicht mehr existieren?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 37,
+            "speaker": "Lena",
+            "text": "Ja. Denken wir an die Figur Progigal Son. Brâncuși zerstörte sie in Paris nach deren Rückkehr. Deshalb existieren von ihr lediglich Fotografien.",
+            "fact_ids": [
+              "271320874-0234"
+            ],
+            "statements": [
+              {
+                "text": "Brâncuși zerstörte die Figur Progigal Son in Paris nach deren Rückkehr.",
+                "fact_ids": [
+                  "271320874-0234"
+                ]
+              },
+              {
+                "text": "Von Progigal Son existieren lediglich Fotografien.",
+                "fact_ids": [
+                  "271320874-0234"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 38,
+            "speaker": "Felix",
+            "text": "Zerstört, wow! Gab es mit Brâncuși sonst noch Ärger?",
+            "fact_ids": [
+              "271320874-0234"
+            ],
+            "statements": [
+              {
+                "text": "Brâncuși zerstörte die Figur Progigal Son.",
+                "fact_ids": [
+                  "271320874-0234"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 39,
+            "speaker": "Lena",
+            "text": "Ja, es gab Differenzen mit Stieglitz. Brâncuși hatte mit Walter Pach ein Arrangement getroffen. Der Gewinn sollte direkt an ihn geschickt werden. So konnte Stieglitz keine Kommission für die Werke nehmen.",
+            "fact_ids": [
+              "271320874-0248"
+            ],
+            "statements": [
+              {
+                "text": "Es gab Differenzen zwischen Stieglitz und Brâncuși.",
+                "fact_ids": [
+                  "271320874-0248"
+                ]
+              },
+              {
+                "text": "Brâncuși hatte mit Walter Pach vereinbart, dass der Gewinn direkt an ihn geschickt werden sollte, sodass Stieglitz keine Kommission für die Werke nehmen konnte.",
+                "fact_ids": [
+                  "271320874-0248"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 40,
+            "speaker": "Felix",
+            "text": "Stieglitz konnte also keine Kommission nehmen. Wer lebt denn überhaupt von solchen Provisionen?",
+            "fact_ids": [
+              "271320874-0248"
+            ],
+            "statements": [
+              {
+                "text": "Stieglitz konnte keine Kommission für die Werke nehmen.",
+                "fact_ids": [
+                  "271320874-0248"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 41,
+            "speaker": "Lena",
+            "text": "Zum Beispiel ein Kommissionär. Das ist ein Kaufmann, der gewerbsmäßig Kommissionsgüter im eigenen Namen, aber auf fremde Rechnung gegen Provision kauft oder verkauft. Das Wort kommt vom lateinischen committere. Das heißt zusammenbringen oder vereinigen.",
+            "fact_ids": [
+              "240794847-0000"
+            ],
+            "statements": [
+              {
+                "text": "Ein Kommissionär ist ein Kaufmann, der gewerbsmäßig Kommissionsgüter im eigenen Namen, aber auf fremde Rechnung gegen Provision kauft oder verkauft.",
+                "fact_ids": [
+                  "240794847-0000"
+                ]
+              },
+              {
+                "text": "Das Wort Kommissionär kommt vom lateinischen committere, zusammenbringen oder vereinigen.",
+                "fact_ids": [
+                  "240794847-0000"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 42,
+            "speaker": "Felix",
+            "text": "Das wusste ich nicht. Gab es in der Galerie auch Künstler, die ganz neue Wege gingen?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 43,
+            "speaker": "Lena",
+            "text": "Ja, Dove. Unter dem Titel Ten Commandments, auf Deutsch Die zehn Gebote, zeigte Stieglitz eine Serie von Pastellmalereien von ihm. Sie gelten als erste nicht gegenständliche Werke eines amerikanischen Künstlers.",
+            "fact_ids": [
+              "271320874-0154"
+            ],
+            "statements": [
+              {
+                "text": "Unter dem Titel Ten Commandments zeigte Stieglitz eine Serie von Pastellmalereien von Dove.",
+                "fact_ids": [
+                  "271320874-0154"
+                ]
+              },
+              {
+                "text": "Diese Pastellmalereien gelten als erste nicht gegenständliche Werke eines amerikanischen Künstlers.",
+                "fact_ids": [
+                  "271320874-0154"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 44,
+            "speaker": "Felix",
+            "text": "Pastellmalerei, wie funktioniert das eigentlich?",
+            "fact_ids": [
+              "271320874-0154"
+            ],
+            "statements": [
+              {
+                "text": "Dove schuf Pastellmalereien.",
+                "fact_ids": [
+                  "271320874-0154"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 45,
+            "speaker": "Lena",
+            "text": "Pastellmalerei ist eine Technik, bei der Pigmente auf einen Malgrund aufgetragen werden. Der Malgrund kann Papier, Pappe oder Leinwand sein.",
+            "fact_ids": [
+              "268895957-0000"
+            ],
+            "statements": [
+              {
+                "text": "Pastellmalerei ist eine Technik, bei der Pigmente auf einen Malgrund wie Papier, Pappe oder Leinwand aufgetragen werden.",
+                "fact_ids": [
+                  "268895957-0000"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 46,
+            "speaker": "Felix",
+            "text": "Verständlich. Und gab es auch Künstler, die sich für andere Kulturen interessierten?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 47,
+            "speaker": "Lena",
+            "text": "Ja, Hartley. Er lernte indianische Artefakte erst im Pariser Trocadéro und im Berliner Museum für Völkerkunde kennen. Sie bewirkten sein nachhaltiges Interesse für die indianische Kultur. Das Trocadéro heißt heute Palais de Chaillot.",
+            "fact_ids": [
+              "271320874-0332"
+            ],
+            "statements": [
+              {
+                "text": "Hartley lernte indianische Artefakte erst im Pariser Trocadéro und im Berliner Museum für Völkerkunde kennen.",
+                "fact_ids": [
+                  "271320874-0332"
+                ]
+              },
+              {
+                "text": "Die Artefakte bewirkten sein nachhaltiges Interesse für die indianische Kultur.",
+                "fact_ids": [
+                  "271320874-0332"
+                ]
+              },
+              {
+                "text": "Das Trocadéro heißt heute Palais de Chaillot.",
+                "fact_ids": [
+                  "271320874-0332"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 48,
+            "speaker": "Felix",
+            "text": "Spannend. Gibt es noch weitere Namen aus dem Umfeld der Galerie?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 49,
+            "speaker": "Lena",
+            "text": "Zu Picabia gibt es eine Besonderheit. Er hatte die Bilder während Stieglitz’ Fotoausstellung gemalt.",
+            "fact_ids": [
+              "271320874-0208"
+            ],
+            "statements": [
+              {
+                "text": "Picabia hatte die Bilder während Stieglitz’ Fotoausstellung gemalt.",
+                "fact_ids": [
+                  "271320874-0208"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 50,
+            "speaker": "Felix",
+            "text": "Er malte also während einer Fotoausstellung von Stieglitz. Hat er Stieglitz selbst auch ins Bild gesetzt?",
+            "fact_ids": [
+              "271320874-0208"
+            ],
+            "statements": [
+              {
+                "text": "Picabia malte Bilder während einer Fotoausstellung von Stieglitz.",
+                "fact_ids": [
+                  "271320874-0208"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 51,
+            "speaker": "Lena",
+            "text": "Ja, und zwar als Maschine. Picabia porträtierte de Zayas, Haviland und Stieglitz als Maschinen. Aus dem Konterfei von Stieglitz wurde eine Kamera-Konstruktion. Dazu stand: Hier, das ist Stieglitz hier, Glaube und Liebe.",
+            "fact_ids": [
+              "271320874-0289"
+            ],
+            "statements": [
+              {
+                "text": "Picabia porträtierte de Zayas, Haviland und Stieglitz als Maschinen.",
+                "fact_ids": [
+                  "271320874-0289"
+                ]
+              },
+              {
+                "text": "Aus dem Konterfei von Stieglitz wurde eine Kamera-Konstruktion mit dem Zusatz „Ici, c’est ici Stieglitz / foi et amour“, auf Deutsch „Hier, das ist Stieglitz hier / Glaube und Liebe“.",
+                "fact_ids": [
+                  "271320874-0289"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 52,
+            "speaker": "Felix",
+            "text": "Eine Kamera als Porträt, herrlich! Gibt es Spuren der Galerie auch in anderen Veröffentlichungen?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 53,
+            "speaker": "Lena",
+            "text": "Ja. Eine Zeitschrift spielte in Titel und Aufmachung bewusst auf die Hauszeitschrift der Galerie 291 an. Ihr Herausgeber hatte diese Hauszeitschrift zuvor mit Stieglitz herausgegeben.",
+            "fact_ids": [
+              "271320874-0396"
+            ],
+            "statements": [
+              {
+                "text": "Titel und Aufmachung einer Zeitschrift waren eine bewusste Anspielung auf die Hauszeitschrift der Galerie 291.",
+                "fact_ids": [
+                  "271320874-0396"
+                ]
+              },
+              {
+                "text": "Ihr Herausgeber hatte die Hauszeitschrift der Galerie 291 zuvor mit Stieglitz herausgegeben.",
+                "fact_ids": [
+                  "271320874-0396"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 54,
+            "speaker": "Felix",
+            "text": "Das ist ein schöner Kreis. Gab es denn auch ein Kunstwerk, das für Wirbel sorgte und in die Galerie kam?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 55,
+            "speaker": "Lena",
+            "text": "Ja, das Urinal von Duchamp. Es gelang schließlich, Duchamp davon zu überzeugen, das Urinal in der 291 auszustellen.",
+            "fact_ids": [
+              "271320874-0295"
+            ],
+            "statements": [
+              {
+                "text": "Es gelang schließlich, Duchamp davon zu überzeugen, das Urinal in der 291 auszustellen.",
+                "fact_ids": [
+                  "271320874-0295"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 56,
+            "speaker": "Felix",
+            "text": "Ein Urinal als Kunst, ich staune! Und wie kam Stieglitz zu neuen Talenten?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 57,
+            "speaker": "Lena",
+            "text": "Nehmen wir O’Keeffe. Im Mai neunzehnhundertsechzehn entschied sich Stieglitz, einige ihrer Zeichnungen in der Galerie auszustellen. Er informierte O’Keeffe darüber nicht.",
+            "fact_ids": [
+              "271320874-0348"
+            ],
+            "statements": [
+              {
+                "text": "Im Mai 1916 entschied sich Stieglitz, einige Zeichnungen von O’Keeffe in der Galerie auszustellen, ohne O’Keeffe darüber zu informieren.",
+                "fact_ids": [
+                  "271320874-0348"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 58,
+            "speaker": "Felix",
+            "text": "Ohne ihr Wissen, wow! Wer war sie damals überhaupt?",
+            "fact_ids": [
+              "271320874-0348"
+            ],
+            "statements": [
+              {
+                "text": "Einige Zeichnungen von O’Keeffe wurden ausgestellt, ohne dass sie darüber informiert wurde.",
+                "fact_ids": [
+                  "271320874-0348"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 59,
+            "speaker": "Lena",
+            "text": "Sie war neunundzwanzig Jahre alt. Zu diesem Zeitpunkt war sie eine vollkommen unbekannte Kunstlehrerin.",
+            "fact_ids": [
+              "271320874-0344"
+            ],
+            "statements": [
+              {
+                "text": "O’Keeffe war zu diesem Zeitpunkt neunundzwanzig und eine vollkommen unbekannte Kunstlehrerin.",
+                "fact_ids": [
+                  "271320874-0344"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 60,
+            "speaker": "Felix",
+            "text": "Eine Unbekannte in der Galerie, das ist Wahnsinn. Und was hat man damals über ihre Zeichnungen gesagt?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 61,
+            "speaker": "Lena",
+            "text": "Aus dem Jahr neunzehnhundertsechzehn gibt es diesen Satz: „Neben anderen Werten sind Miss O’Keeffes Zeichnungen unter einem psychoanalytischen Aspekt interessant.“",
+            "fact_ids": [
+              "271320874-0354"
+            ],
+            "statements": [
+              {
+                "text": "Im Jahr 1916 wurde geschrieben, neben anderen Werten seien Miss O’Keeffes Zeichnungen unter einem psychoanalytischen Aspekt interessant.",
+                "fact_ids": [
+                  "271320874-0354"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 62,
+            "speaker": "Felix",
+            "text": "Psychoanalytisch, das macht neugierig! Und wie ging die Geschichte der Galerie am Ende aus?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 63,
+            "speaker": "Lena",
+            "text": "Im Juni neunzehnhundertsiebzehn, zwei Monate nach dem Kriegseintritt der USA, musste Stieglitz die 291 schließen. Die wirtschaftliche Lage war schlecht. Finanziert hatte er die Galerie überwiegend vom Vermögen seiner ersten Ehefrau Emmeline Obermeyer.",
+            "fact_ids": [
+              "271320874-0365"
+            ],
+            "statements": [
+              {
+                "text": "Im Juni 1917, zwei Monate nach dem Kriegseintritt der USA, sah sich Stieglitz aufgrund der schlechten wirtschaftlichen Lage gezwungen, die 291 zu schließen.",
+                "fact_ids": [
+                  "271320874-0365"
+                ]
+              },
+              {
+                "text": "Stieglitz hatte die Galerie überwiegend vom Vermögen seiner ersten Ehefrau Emmeline Obermeyer finanziert.",
+                "fact_ids": [
+                  "271320874-0365"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 64,
+            "speaker": "Felix",
+            "text": "Das klingt nach einem Ende einer Ära. Magst du für uns zusammenfassen, was wir mitnehmen, Lena?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 65,
+            "speaker": "Lena",
+            "text": "Gern. Die Galerie 291 war eine avantgardistische Kunstgalerie in der Fifth Avenue in New York. Gegründet wurde sie neunzehnhundertfünf von Alfred Stieglitz und Edward Steichen. Stieglitz kombinierte Werke von Picasso mit Reliquien der Kota. Afrikanische Artefakte waren bis dahin nur in ethnografischem und naturwissenschaftlichem Kontext behandelt worden. Von Dove zeigte er Pastellmalereien, die als erste nicht gegenständliche Werke eines amerikanischen Künstlers gelten. O’Keeffe stellte er ohne ihr Wissen aus, obwohl sie eine vollkommen unbekannte Kunstlehrerin war. Und im Juni neunzehnhundertsiebzehn musste er die Galerie schließen.",
+            "fact_ids": [
+              "271320874-0000",
+              "271320874-0001",
+              "271320874-0275",
+              "271320874-0258",
+              "271320874-0154",
+              "271320874-0348",
+              "271320874-0344",
+              "271320874-0365"
+            ],
+            "statements": [
+              {
+                "text": "Die Galerie 291 war eine avantgardistische Kunstgalerie in der Fifth Avenue in New York.",
+                "fact_ids": [
+                  "271320874-0000"
+                ]
+              },
+              {
+                "text": "Sie wurde 1905 von Alfred Stieglitz und Edward Steichen gegründet.",
+                "fact_ids": [
+                  "271320874-0001"
+                ]
+              },
+              {
+                "text": "Stieglitz kombinierte Werke von Picasso mit Reliquien des Volkes der Kota.",
+                "fact_ids": [
+                  "271320874-0275"
+                ]
+              },
+              {
+                "text": "Afrikanische Artefakte waren bis dahin nur in ethnografischem und naturwissenschaftlichem Kontext behandelt worden.",
+                "fact_ids": [
+                  "271320874-0258"
+                ]
+              },
+              {
+                "text": "Stieglitz zeigte Pastellmalereien von Dove, die als erste nicht gegenständliche Werke eines amerikanischen Künstlers gelten.",
+                "fact_ids": [
+                  "271320874-0154"
+                ]
+              },
+              {
+                "text": "Stieglitz stellte O’Keeffes Zeichnungen aus, ohne sie zu informieren.",
+                "fact_ids": [
+                  "271320874-0348"
+                ]
+              },
+              {
+                "text": "O’Keeffe war zu diesem Zeitpunkt eine vollkommen unbekannte Kunstlehrerin.",
+                "fact_ids": [
+                  "271320874-0344"
+                ]
+              },
+              {
+                "text": "Im Juni 1917 musste Stieglitz die 291 schließen.",
+                "fact_ids": [
+                  "271320874-0365"
+                ]
+              }
+            ]
+          }
+        ],
+        "problems": [
+          {
+            "turn_index": 28,
+            "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17, 18 und 24 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+          },
+          {
+            "turn_index": 34,
+            "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17, 18, 24 und 28 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+          }
+        ],
+        "used_fact_ids": [
+          "271320874-0275",
+          "271320874-0258",
+          "268209049-0000",
+          "271320874-0272",
+          "271846515-0029",
+          "271320874-0234",
+          "271320874-0248",
+          "240794847-0000",
+          "271320874-0154",
+          "268895957-0000",
+          "271320874-0332",
+          "271320874-0208",
+          "271320874-0289",
+          "271320874-0396",
+          "271320874-0295",
+          "271320874-0348",
+          "271320874-0344",
+          "271320874-0354",
+          "271320874-0365",
+          "271320874-0000",
+          "271320874-0001"
+        ]
+      },
+      "judgements": [
+        {
+          "turn_index": 28,
+          "accepted": false,
+          "decided_by": "gate",
+          "jev_p": {},
+          "jev_error": null,
+          "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+        },
+        {
+          "turn_index": 29,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.95
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 30,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.94,
+            "vollstaendig": 0.95
+          },
+          "jev_error": null,
+          "reason": "Felix' Beitrag ist eine Nachfrage und Bitte um Erklärung (\"Was ist das eigentlich genau?\"). Er greift den Begriff „Volkskunst“ auf, der im Fakt-Satz vorkommt, und stellt keine eigene Behauptung auf. Eine Reaktion ist belegfrei, daher ist nichts Unbelegtes enthalten."
+        },
+        {
+          "turn_index": 31,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.97,
+            "vollstaendig": 0.98
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 32,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.87
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Behauptung. „Verstanden.“ ist eine Reaktion bzw. ein Wiederaufgreifen ohne neue Information. Die Frage nach Beschreibungen solcher Stücke aus dieser Zeit ist eine Nachfrage ohne faktische Prämisse, die belegt werden müsste. Fakt-IDs sind daher nicht nötig."
+        },
+        {
+          "turn_index": 33,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.96,
+            "vollstaendig": 0.76
+          },
+          "jev_error": null,
+          "reason": "Lena zitiert den Satz wörtlich aus dem Fakt-Satz 271320874-0272. Sie fügt keine weitere Behauptung hinzu. Die Einleitung „Ja, es gibt diesen Satz“ ist eine Überleitung und bezieht sich auf das Zitat, das im Fakt-Satz steht."
+        },
+        {
+          "turn_index": 34,
+          "accepted": false,
+          "decided_by": "gate",
+          "jev_p": {},
+          "jev_error": null,
+          "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17, 18, 24 und 28 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+        },
+        {
+          "turn_index": 35,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.97
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 36,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.78
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Behauptung. \"Interessant\" ist eine Reaktion, \"Aber zurück zu den Künstlern\" eine Überleitung, und die Frage nach nicht mehr existierenden Werken ist eine Nachfrage ohne faktische Prämisse. Fakt-IDs sind daher nicht nötig."
+        },
+        {
+          "turn_index": 37,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.88
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen stehen im Fakt-Satz: Brâncuși zerstörte Progigal Son in Paris nach deren Rückkehr, deshalb existieren nur Fotografien. Die einleitende Wendung \"Ja. Denken wir an die Figur\" ist eine Überleitung ohne neue Information."
+        },
+        {
+          "turn_index": 38,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.94
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält nur eine Reaktion (\"Zerstört, wow!\" als Staunen, wiederholt das eben Gesagte ohne neue Information) und eine Nachfrage (\"Gab es mit Brâncuși sonst noch Ärger?\"). Die Prämisse, dass es Ärger gab, folgt aus dem Zerstören der Figur durch Brâncuși, das im Fakt-Satz steht. Es wird keine unbelegte Behauptung aufgestellt."
+        },
+        {
+          "turn_index": 39,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.96
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 40,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.86
+          },
+          "jev_error": null,
+          "reason": "Die Aussage \"Stieglitz konnte also keine Kommission nehmen\" folgt direkt aus dem Fakt-Satz 271320874-0248. Die Frage \"Wer lebt denn überhaupt von solchen Provisionen?\" ist eine Nachfrage ohne neue Behauptung und damit belegfrei."
+        },
+        {
+          "turn_index": 41,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.95
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 42,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.07
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine belegpflichtige Behauptung. „Das wusste ich nicht.“ ist eine Aussage über das eigene Wissen, die Nachfrage nach Künstlern, die neue Wege gingen, ist eine Reaktion ohne neue Information. Die Frage setzt nur die Existenz der Galerie voraus, die aus dem Gespräch stammt, und führt keine neue Tatsache ein."
+        },
+        {
+          "turn_index": 43,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.65
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Titel Ten Commandments (Die zehn Gebote), Stieglitz zeigte eine Serie von Pastellmalereien von Dove, die als erste nicht gegenständliche Werke eines amerikanischen Künstlers gelten. Es kommt keine zusätzliche Angabe hinzu; \"Ja, Dove\" ist eine belegfreie Überleitung."
+        },
+        {
+          "turn_index": 44,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.97,
+            "vollstaendig": 0.93
+          },
+          "jev_error": null,
+          "reason": "Felix stellt nur eine offene Nachfrage und bittet um Erklärung („Pastellmalerei, wie funktioniert das eigentlich?“). Das ist eine belegfreie Reaktion ohne Behauptung oder faktische Prämisse, die zitierten Fakten widersprechen ihr nicht."
+        },
+        {
+          "turn_index": 45,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.91
+          },
+          "jev_error": null,
+          "reason": "Beide Aussagen von Lena (Pastellmalerei als Technik, bei der Pigmente auf einen Malgrund aufgetragen werden; Malgrund kann Papier, Pappe oder Leinwand sein) folgen direkt aus dem Fakt-Satz 268895957-0000, ohne zusätzliche Angaben."
+        },
+        {
+          "turn_index": 46,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.88
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Behauptung. „Verständlich.“ ist eine Reaktion auf das Gesagte, und die Frage nach Künstlern, die sich für andere Kulturen interessierten, ist eine Nachfrage ohne neue Information oder faktische Prämisse. Belegfreie Reaktionen sind auch ohne Fakt-IDs zulässig."
+        },
+        {
+          "turn_index": 47,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.98,
+            "aussage_2": 0.99,
+            "vollstaendig": 0.88
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen folgen direkt aus dem Fakt-Satz: Hartley lernte die indianischen Artefakte im Pariser Trocadéro und im Berliner Museum für Völkerkunde kennen, sie bewirkten sein nachhaltiges Interesse für die indianische Kultur, und das Trocadéro heißt heute Palais de Chaillot. Die Einleitung „Ja, Hartley“ ist eine belegfreie Reaktion. Das „erst“ ist im Fakt-Satz ebenfalls enthalten."
+        },
+        {
+          "turn_index": 48,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.94
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Behauptung, sondern nur eine Reaktion (\"Spannend\") und eine Nachfrage nach weiteren Namen. Beides ist belegfrei, daher sind keine Fakt-IDs nötig."
+        },
+        {
+          "turn_index": 49,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.96,
+            "vollstaendig": 0.7
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, Picabia habe die Bilder während Stieglitz' Fotoausstellung gemalt, entspricht dem Fakt-Satz 271320874-0208. Die Einleitung „Zu Picabia gibt es eine Besonderheit“ ist nur eine Überleitung ohne zusätzliche Behauptung. Es kommen keine Angaben hinzu, die nicht belegt wären."
+        },
+        {
+          "turn_index": 50,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.82
+          },
+          "jev_error": null,
+          "reason": "Die Aussage „Er malte also während einer Fotoausstellung von Stieglitz“ folgt direkt aus dem Fakt-Satz, dass Picabia die Bilder während Stieglitz’ Fotoausstellung gemalt hatte. Die Frage, ob er Stieglitz selbst ins Bild gesetzt hat, ist eine Nachfrage ohne zusätzliche Behauptung. Ihre Prämisse, dass Stieglitz eine Fotoausstellung hatte, ist ebenfalls belegt."
+        },
+        {
+          "turn_index": 51,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.85
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen (Picabia porträtierte de Zayas, Haviland und Stieglitz als Maschinen; Stieglitz' Konterfei wurde eine Kamera-Konstruktion; Zusatz „Hier, das ist Stieglitz hier, Glaube und Liebe“) stehen im Fakt-Satz. „Ja, und zwar als Maschine“ ist eine Überleitung ohne neue Information."
+        },
+        {
+          "turn_index": 52,
+          "accepted": false,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.77
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag nennt keine Fakt-IDs. „Eine Kamera als Porträt, herrlich!“ ist nur Wiederaufgreifen und Staunen. Die Frage „Gibt es Spuren der Galerie auch in anderen Veröffentlichungen?“ setzt aber mit „auch“ voraus, dass es eine Galerie gibt und ihre Spuren schon in einer Veröffentlichung vorkommen. Diese Prämisse ist durch keinen Fakt-Satz belegt."
+        },
+        {
+          "turn_index": 53,
+          "accepted": false,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.98,
+            "vollstaendig": 0.87
+          },
+          "jev_error": null,
+          "reason": "Die Fakt-Sätze sagen nur, dass „er“ die Hauszeitschrift der Galerie 291 zuvor mit Stieglitz herausgegeben hatte. Wer „er“ ist, steht nur im Kontext (Francis Picabia, 391), und der Kontext gilt als nicht belegt. Lenas Aussage „Ihr Herausgeber hatte diese Hauszeitschrift zuvor mit Stieglitz herausgegeben“ macht den Herausgeber der Zeitschrift zu dieser Person, und das folgt aus dem Fakt-Satz allein nicht. Die Stelle ist daher nicht belegt."
+        },
+        {
+          "turn_index": 54,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.62
+          },
+          "jev_error": null,
+          "reason": "Der Beitrag enthält keine neue Information. „Das ist ein schöner Kreis“ greift das eben Gesagte wertend auf, ohne Faktengehalt. Die Frage nach einem Kunstwerk, das für Wirbel sorgte und in die Galerie kam, ist eine Nachfrage und behauptet nichts. Beides gilt als Reaktion und braucht keine Fakt-Belege."
+        },
+        {
+          "turn_index": 55,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.77
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder: Es gelang schließlich, Duchamp zu überzeugen, das Urinal in der 291 auszustellen. Das einleitende „Ja, das Urinal von Duchamp“ ist ein Wiederaufgreifen des Themas ohne neue Information. Es kommt keine zusätzliche Angabe hinzu."
+        },
+        {
+          "turn_index": 56,
+          "accepted": false,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.56
+          },
+          "jev_error": null,
+          "reason": "Die Frage \"Wie kam Stieglitz zu neuen Talenten?\" setzt voraus, dass Stieglitz neue Talente gewann. Das ist eine Prämisse, die durch keinen Fakt-Satz belegt ist, denn es sind keine Fakten zitiert. \"Ein Urinal als Kunst, ich staune!\" wäre als Reaktion belegfrei, aber die Prämisse der Frage macht den Beitrag insgesamt nicht belegt."
+        },
+        {
+          "turn_index": 57,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.95
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 58,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.91
+          },
+          "jev_error": null,
+          "reason": "„Ohne ihr Wissen, wow!“ greift den Fakt auf (Ausstellung ohne O’Keeffes Information) und drückt Staunen aus. „Wer war sie damals überhaupt?“ ist eine Nachfrage ohne neue Behauptung und ohne unbelegte Prämisse. Beides ist belegfrei oder durch den Fakt gedeckt."
+        },
+        {
+          "turn_index": 59,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.9,
+            "vollstaendig": 0.95
+          },
+          "jev_error": null,
+          "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: Das Alter von 29 Jahren (ausgeschrieben als neunundzwanzig) und die Beschreibung als vollkommen unbekannte Kunstlehrerin zu diesem Zeitpunkt. Es wird keine zusätzliche Angabe gemacht."
+        },
+        {
+          "turn_index": 60,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.75
+          },
+          "jev_error": null,
+          "reason": "Der Beitrag enthält keine neue Information. „Eine Unbekannte in der Galerie, das ist Wahnsinn“ ist eine Reaktion (Staunen) und greift Bekanntes wieder auf. „Was hat man damals über ihre Zeichnungen gesagt?“ ist eine Nachfrage. Fakt-IDs sind deshalb nicht nötig."
+        },
+        {
+          "turn_index": 61,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.97,
+            "vollstaendig": 0.94
+          },
+          "jev_error": null,
+          "reason": "Lena nennt das Jahr 1916 und zitiert den Satz über Miss O’Keeffes Zeichnungen wörtlich so, wie er im Fakt-Satz [271320874-0354] steht. Sie ergänzt keine weiteren Angaben, etwa zum Urheber."
+        },
+        {
+          "turn_index": 62,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.59
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Behauptung, sondern nur eine Reaktion (Neugier: \"das macht neugierig\") und eine Nachfrage nach dem Ausgang der Geschichte. Die Prämisse, dass es eine Geschichte der Galerie gibt, ist bloßes Wiederaufgreifen des Gesprächs, keine neue Information. Fakt-IDs sind daher nicht nötig."
+        },
+        {
+          "turn_index": 63,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.97
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 64,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.73
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine belegpflichtige Behauptung. „Das klingt nach einem Ende einer Ära“ ist eine subjektive Reaktion bzw. ein Wiederaufgreifen des Gesagten ohne neue Information, und die Bitte an Lena um eine Zusammenfassung ist eine Nachfrage bzw. Überleitung. Fakt-IDs sind daher nicht nötig."
+        },
+        {
+          "turn_index": 65,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "aussage_2": 0.98,
+            "aussage_3": 0.98,
+            "aussage_4": 0.99,
+            "aussage_5": 0.99,
+            "aussage_6": 0.98,
+            "aussage_7": 0.99,
+            "vollstaendig": 0.64
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Fifth Avenue und avantgardistische Galerie (0000), Gründung 1905 durch Stieglitz und Steichen (0001), Picasso und Kota-Reliquien (0275, ohne Braque und Wespennest, aber ohne Widerspruch), ethnografischer und naturwissenschaftlicher Kontext (0258), Doves Pastelle (0154), O’Keeffe ohne ihr Wissen ausgestellt und unbekannte Kunstlehrerin (0348, 0344), Schließung im Juni 1917 (0365). „Gern.“ ist eine belegfreie Reaktion."
+        }
+      ],
+      "aliases": {
+        "F1": "271320874-0000",
+        "F2": "271320874-0001",
+        "F3": "271320874-0295",
+        "F4": "271320874-0037",
+        "F5": "271320874-0234",
+        "F6": "271320874-0275",
+        "F7": "271320874-0354",
+        "F8": "271320874-0119",
+        "F9": "271320874-0406",
+        "F10": "271320874-0134",
+        "F11": "271320874-0344",
+        "F12": "271320874-0348",
+        "F13": "271320874-0060",
+        "F14": "271320874-0272",
+        "F15": "271320874-0365",
+        "F16": "271320874-0044",
+        "F17": "271320874-0154",
+        "F18": "271320874-0161",
+        "F19": "271320874-0258",
+        "F20": "271320874-0248",
+        "F21": "271320874-0075",
+        "F22": "271320874-0208",
+        "F23": "271320874-0061",
+        "F24": "271320874-0053",
+        "F25": "271320874-0396",
+        "F26": "271320874-0289",
+        "F27": "271320874-0332",
+        "F28": "272043333-0001",
+        "F29": "270402862-0000",
+        "F30": "271846515-0029",
+        "F31": "267193649-0001",
+        "F32": "263889385-0000",
+        "F33": "240794847-0000",
+        "F34": "268209049-0000",
+        "F35": "268895957-0000"
+      },
+      "regeneration": "continuation",
+      "continued_from": 28,
+      "fresh_reason": null,
+      "continuation_reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+    }
+  ],
+  "aliases": {
+    "F1": "271320874-0000",
+    "F2": "271320874-0001",
+    "F3": "271320874-0295",
+    "F4": "271320874-0037",
+    "F5": "271320874-0234",
+    "F6": "271320874-0275",
+    "F7": "271320874-0354",
+    "F8": "271320874-0119",
+    "F9": "271320874-0406",
+    "F10": "271320874-0134",
+    "F11": "271320874-0344",
+    "F12": "271320874-0348",
+    "F13": "271320874-0060",
+    "F14": "271320874-0272",
+    "F15": "271320874-0365",
+    "F16": "271320874-0044",
+    "F17": "271320874-0154",
+    "F18": "271320874-0161",
+    "F19": "271320874-0258",
+    "F20": "271320874-0248",
+    "F21": "271320874-0075",
+    "F22": "271320874-0208",
+    "F23": "271320874-0061",
+    "F24": "271320874-0053",
+    "F25": "271320874-0289",
+    "F26": "271320874-0332",
+    "F27": "272043333-0001",
+    "F28": "270402862-0000",
+    "F29": "271846515-0029",
+    "F30": "267193649-0001",
+    "F31": "263889385-0000",
+    "F32": "240794847-0000",
+    "F33": "268209049-0000",
+    "F34": "268895957-0000"
+  }
+}

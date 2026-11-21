@@ -1,0 +1,78 @@
+{
+  "title": "Zährte",
+  "revid": 265707312,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-03-29T13:48:39Z",
+  "fetched_at": "2026-11-21T12:01:59Z",
+  "categories": [
+    "Kategorie:Speisefisch",
+    "Kategorie:Weißfische"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe bitte [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name       = Zährte\n| Taxon_WissName   = Vimba vimba\n| Taxon_Rang       = Art\n| Taxon_Autor      = ([[Carl von Linné|Linnaeus]], 1758)\n| Taxon2_WissName  = Vimba\n| Taxon2_Rang      = Gattung\n| Taxon3_Name      = Weißfische\n| Taxon3_WissName  = Leuciscidae\n| Taxon3_Rang      = Familie\n| Taxon4_Name      = Karpfenfischähnliche\n| Taxon4_WissName  = Cyprinoidei\n| Taxon4_Rang      = Unterordnung\n| Taxon5_Name      = Karpfenartige\n| Taxon5_WissName  = Cypriniformes\n| Taxon5_Rang      = Ordnung\n| Taxon6_LinkName  = Otophysi\n| Taxon6_WissName  = Otophysa\n| Taxon6_Rang      = ohne Rang\n| Bild             = Vimba vimba.jpg\n| Bildbeschreibung = Zährte (''Vimba vimba'')\n}}\n\nDie '''Zährte''' (''Vimba vimba''), auch '''Rußnase''' genannt, ist ein [[Autochthone Art|autochthoner]] Schwarm[[Fische|fisch]], der innerhalb der [[Familie (Biologie)|Familie]] der [[Karpfenfische]] (Cyprinidae) zur [[Gattung (Biologie)|Gattung]] ''[[Vimba]]'' gehört.",
+  "segments": [
+    {
+      "id": "265707312-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon6_WissName  = Otophysa",
+      "plain": "Taxobox – Systematik – ohne Rang: Otophysa"
+    },
+    {
+      "id": "265707312-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_Name      = Karpfenartige | Taxon5_WissName  = Cypriniformes",
+      "plain": "Taxobox – Systematik – Ordnung: Karpfenartige (Cypriniformes)"
+    },
+    {
+      "id": "265707312-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_Name      = Karpfenfischähnliche | Taxon4_WissName  = Cyprinoidei",
+      "plain": "Taxobox – Systematik – Unterordnung: Karpfenfischähnliche (Cyprinoidei)"
+    },
+    {
+      "id": "265707312-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon3_Name      = Weißfische | Taxon3_WissName  = Leuciscidae",
+      "plain": "Taxobox – Systematik – Familie: Weißfische (Leuciscidae)"
+    },
+    {
+      "id": "265707312-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_WissName  = Vimba",
+      "plain": "Taxobox – Systematik – Gattung: Vimba"
+    },
+    {
+      "id": "265707312-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name       = Zährte",
+      "plain": "Taxobox – Systematik – Art: Zährte"
+    },
+    {
+      "id": "265707312-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Zährte''' (''Vimba vimba''), auch '''Rußnase''' genannt, ist ein [[Autochthone Art|autochthoner]] Schwarm[[Fische|fisch]], der innerhalb der [[Familie (Biologie)|Familie]] der [[Karpfenfische]] (Cyprinidae) zur [[Gattung (Biologie)|Gattung]] ''[[Vimba]]'' gehört.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 265707312,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "265707312-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Zährte (Vimba vimba), auch Rußnase genannt, ist ein autochthoner Schwarmfisch, der innerhalb der Familie der Karpfenfische (Cyprinidae) zur Gattung Vimba gehört.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

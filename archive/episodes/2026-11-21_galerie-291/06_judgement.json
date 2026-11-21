@@ -1,0 +1,1415 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.41
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Faktenbehauptung. Begrüßung, Frage nach dem Einstieg und die geäußerte Neugier (\"ganz gespannt\") sind belegfreie Reaktionen bzw. Überleitungen, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Galerie 291 als avantgardistische Kunstgalerie in der Fifth Avenue in New York (0000), Gründung 1905 als Little Galleries of the Photo-Secession durch den US-amerikanischen Fotografen Alfred Stieglitz und den Luxemburger Edward Steichen (0001). Die einleitende Themenankündigung ist eine belegfreie Überleitung. Es gibt keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.75
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus Reaktionen. \"Das klingt nach einem aufregenden Ort\" ist ein Gefühl im Moment. Der Eindruck, der Name wirke wie eine bloße Zahl, folgt aus dem Fakt-Satz, in dem die Galerie \"291\" heißt. Die Frage nach einer Geschichte hinter dem Namen ist eine Nachfrage und bringt keine neue Information."
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.52
+      },
+      "jev_error": null,
+      "reason": "Alle Angaben stehen im Fakt-Satz: Die Hausnummer änderte sich in 293, die Freunde behielten 291 als Galeriename, und die englische Aussprache lautet „two-nine-one“. „Eine kuriose“ ist nur eine wertende Reaktion ohne eigenen Faktengehalt."
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Die Aussage „der alte Name ist geblieben“ folgt aus dem Fakt-Satz: Die Freunde nutzten „291“ trotz der neuen Hausnummer 293 weiterhin als Galeriename. „Schön“ ist eine persönliche Wertung ohne zusätzlichen Faktengehalt. Die Frage danach, was an den Wänden hing, ist eine belegfreie Nachfrage ohne neue Behauptung."
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.38
+      },
+      "jev_error": null,
+      "reason": "„Das überrascht mich“ ist eine Reaktion, ein Gefühl im Moment. „Wie bekannt wurde sie denn mit dieser Gestaltung?“ ist eine Nachfrage. Ihre Prämisse, dass Pamela Colman Smith mit einer Gestaltung bekannt wurde, folgt aus dem Fakt-Satz (Gestaltung des Waite-Smith Tarot). Es gibt keine unbelegte zusätzliche Behauptung."
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Die Aussagen, dass ihre Illustrationen des Waite-Smith-Tarot-Decks weltbekannt wurden und dass sie das Deck zusammen mit Arthur Edward Waite entwickelte, stehen im Fakt-Satz. „Sehr bekannt“ ist eine Reaktion bzw. Wiederaufnahme ohne neue Information und deckt sich mit „weltbekannt“."
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.77
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag enthält keine neue Tatsachenbehauptung. „Wow, weltbekannt!“ ist eine Reaktion des Staunens und greift das eben Gesagte wieder auf. Die Fragen nach Skandalen und Provokantem in der Galerie sind Nachfragen ohne eigene Information, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.73
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz 271320874-0061: Die Saison 1907/08 begann mit einer Werkschau der Photo-Secessionisten, danach folgte die Ausstellung mit Rodins Aquarellzeichnungen, die spontan und minimalistisch waren und eine für die damalige Zeit schockierend sexuelle Thematik besaßen. Das einleitende \"Ja, das gab es\" ist eine belegfreie Reaktion bzw. Überleitung."
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.37
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung, die belegt werden müsste: „Na so etwas! Das hätte ich nicht erwartet.“ ist eine Reaktion (Staunen) bzw. eine Aussage über sich selbst, und die Frage nach den Verkäufen in der Galerie ist eine Nachfrage ohne eigene Faktenprämisse. Ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Der Preis von 200 Dollar pro Werk, der Verkauf nur eines Aquarells, Davies als Käufer der Quelle im Park Château Noir und seine Einordnung als amerikanischer Maler des Symbolismus stehen in [271320874-0119] bzw. [263889385-0000]. Die Überleitung „Schauen wir auf einen Fall“ ist belegfrei."
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "„Nur ein einziges Aquarell“ greift das Faktum auf (lediglich ein Aquarell verkauft). „Das ist erstaunlich“ ist ein Gefühl im Moment, also belegfrei. Die Frage nach Stieglitz' Umgang mit Käufern ist eine Nachfrage ohne Behauptung und braucht keinen Beleg."
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.56
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz nur umformuliert wieder: Wenn Stieglitz bemerkte, dass jemand ein Kunstwerk wie ein Konsumgut behandelte, verlangte er plötzlich den doppelten Preis. Der Einstieg \"Er hatte da eine eigene Methode\" ist eine Überleitung bzw. leichte Wertung ohne neue Information und gilt hier als unproblematisch. Es kommen keine zusätzlichen Angaben hinzu."
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion (Staunen: \"Interessant!\") und einer Nachfrage. Die Frage enthält keine inhaltliche Behauptung außer der im Gespräch bereits gegebenen Rahmung, dass Künstler in die Galerie kamen, was als Wiederaufgreifen des eben Gesagten gilt. Es ist keine neue Information enthalten, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.92,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen direkt aus den zitierten Fakten: Datum, Stieglitz, die erste Skulpturen-Ausstellung von Matisse, La Serpentine (1909) und deren Einordnung stehen in 0161; die Schwierigkeiten der Kritiker und das Fehlen früherer New Yorker Ausstellungen von Cézanne, van Gogh und Gauguin stehen in 0075. Das „allerdings“ ist nur eine Überleitung und fügt keine neue Angabe hinzu."
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Verstehe.\" ist eine Reaktion, und die Frage nach ungewöhnlichen Mischungen ist eine Nachfrage. Sie setzt keine Tatsache voraus, die belegt werden müsste, außer dass Stieglitz erwähnt wurde, und das ist nur ein Wiederaufgreifen des Gesprächs. Fakt-IDs werden nicht benötigt."
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.41
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag besteht nur aus Reaktionen: Belustigung, ein Wiederaufgreifen des Wespennests aus dem Fakt-Satz ohne neue Information und eine Nachfrage nach der Bedeutung von Reliquien. Die Formulierung „Kunstgalerie“ für die Ausstellung fügt keine nennenswerte neue Behauptung hinzu."
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.29
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung über Fakten. Felix äußert eine Aussage über sich selbst (er hat den Namen eben schon gehört) und stellt eine Nachfrage mit Bitte um Erklärung. Beides gilt als belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.64,
+        "vollstaendig": 0.67
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage, ob es Äußerungen über Picasso von Steichen oder Stieglitz aus jener Zeit gibt. Er stellt keine Behauptung auf und enthält keine Prämisse, die über die Fakt-Sätze hinausgeht. Als Nachfrage gilt er als belegfrei."
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Lena gibt das Zitat aus dem Fakt-Satz [271320874-0060] praktisch wörtlich wieder. Die Abweichungen sind nur Formulierung und Zeichensetzung („etc.“ als „und so weiter“, „Wie auch immer“). Sie fügt keine neue Angabe hinzu. Dass das Zitat von Steichen stammt, behauptet sie nicht."
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.71
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Faktenbehauptung. \"Das klingt nach einem ziemlichen Wagnis!\" ist eine Reaktion (Staunen bzw. subjektive Einschätzung im Moment) und die Frage \"Weißt du, wie das Ganze am Ende aussah?\" ist eine Nachfrage ohne neue Information oder Prämisse. Fakt-IDs werden nicht benötigt."
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.72,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Das Brock-Zitat und die Aussage, dass der Mangel an Fotografien das Verständnis der Picasso-Installation von 1911 erschwert, stehen wörtlich in [271320874-0134]. Die Einleitung „Gerade das ist unklar“ ist ein Wiederaufgreifen des eben Gesagten ohne neue Information und braucht keinen Beleg."
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.11,
+        "vollstaendig": 0.69
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag enthält nur eine Reaktion (Bedauern über ein Rätsel) und eine Nachfrage, ob sich jemand über die 291 geäußert hat. Die einzige Prämisse ist, dass es die 291 gibt, und das deckt der Fakt-Satz zur Galerie 291 ab. Neue Behauptungen kommen nicht vor."
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Lenas Redebeitrag gibt das Zitat von Benton über die 291 inhaltlich und wörtlich korrekt wieder; die Auslassung „[…]“ ist nur als Satzgrenze gesetzt. Es werden keine zusätzlichen Angaben gemacht. Das einleitende „Ja, Benton.“ ist eine belegfreie Bestätigung."
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.58
+      },
+      "jev_error": null,
+      "reason": "Die einzige Tatsachenbehauptung, die 291 sei eine Kunstgalerie gewesen, folgt direkt aus dem Fakt-Satz 271320874-0000. „Autsch, das sitzt!“ ist eine Reaktion, der Rest sind Nachfragen und Bitten um Erklärung und damit belegfrei."
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.98,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz [271320874-0258] inhaltlich korrekt wieder: Die Formulierung „unter dem Blickpunkt der Kunst“ hatte besondere Bedeutung, weil Artefakte aus Afrika bis dahin ausschließlich ethnografisch und naturwissenschaftlich behandelt wurden, nicht als Volkskunst bzw. eigenständige Kunstform. Es werden keine zusätzlichen Angaben gemacht."
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.76
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag enthält nur Reaktionen: \"Interessant, da ging es also um eine ganz andere Sichtweise!\" ist ein Moment-Gefühl bzw. ein Wiederaufgreifen des eben Gesagten. Dass Lena Volkskunst erwähnt hat, ist ein Rückbezug aufs Gespräch und deckt sich mit dem Fakt-Satz, der Volkskunst nennt. Die Frage nach der Bedeutung von Volkskunst ist eine Bitte um Erklärung. Neue Behauptungen enthält der Beitrag nicht."
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "aussage_2": 0.98,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.63
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Das macht es greifbar, danke“ ist eine Reaktion bzw. ein Wiederaufgreifen des eben Gesagten, „Und jetzt interessiert mich Gabun“ eine Überleitung und Aussage über das eigene Interesse, „Was weißt du darüber?“ eine Nachfrage ohne faktische Prämisse. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.8
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, Gabun sei eine französische Kolonie gewesen, folgt aus [271846515-0029] (ab etwa 1839); die Wertung \"gibt dem Ganzen einen Rahmen\" ist eine belegfreie Reaktion. Die Prämisse der Frage, dass Benton ein scharfes Urteil über die 291 fällte, ist durch [271320874-0406] gedeckt. Der Rest ist eine Nachfrage ohne neue Behauptung."
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.95,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Lena zitiert den Satz aus [271320874-0272] wörtlich: „Diese rohen Schnitzereien gehören zu den schwarzen Vertiefungen des Dschungels.“ Die einleitende Wendung „Ja, da gibt es diesen Satz“ ist eine belegfreie Reaktion. Es kommt keine zusätzliche Behauptung hinzu."
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.77
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer emotionalen Reaktion („Puh, das klingt rau!“), einer Überleitung und einer Nachfrage. Er stellt keine neue Tatsachenbehauptung auf und nennt keine Zahlen oder Daten. Ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "aussage_2": 0.98,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen (Differenzen zwischen Stieglitz und Brâncuși, Arrangement mit Walter Pach, Gewinn direkt an Brâncuși, keine Kommission für Stieglitz) stehen im Fakt-Satz 271320874-0248. Das einleitende „Ja, mit Brâncuși“ ist eine Bestätigung ohne neue Information."
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.61
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag enthält nur belegfreie Reaktionen und eine Nachfrage. „Da ging dem Galeristen etwas durch die Lappen“ greift das Gesagte wieder auf und folgt aus dem Faktsatz: Stieglitz konnte keine Kommission nehmen. Die Bemerkung, das Wort „Kommission“ klinge nach Handel, ist ein Eindruck des Sprechers. Die Frage nach einer Erklärung ist eine Bitte um Erklärung. Neue, unbelegte Behauptungen kommen nicht vor."
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz 240794847-0000: Kommissionär als Kaufmann, der gewerbsmäßig Kommissionsgüter kauft oder verkauft, im eigenen Namen, auf fremde Rechnung, gegen Provision, sowie die Herkunft von lateinisch committere mit der Bedeutung „zusammenbringen, vereinigen“. Es werden keine zusätzlichen Angaben gemacht."
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Das klärt die Begriffe\" ist eine Überleitung bzw. ein Wiederaufgreifen des Gesagten ohne neue Information. Die Frage zu Brâncuși ist eine Nachfrage, und ihre Prämisse (er hat Werke geschaffen) ist keine zusätzliche Faktenangabe. Ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 41,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.8
+      },
+      "jev_error": null,
+      "reason": "Die Aussagen, dass von Progigal Son nur Fotografien existieren und Brâncuși die Figur nach ihrer Rückkehr in Paris zerstörte, stehen im Fakt-Satz. „Nein, nicht alle.“ ist eine belegfreie Reaktion bzw. Überleitung. Es kommen keine zusätzlichen Angaben hinzu."
+    },
+    {
+      "turn_index": 42,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.28
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion des Staunens („Oh, das hätte ich nicht gedacht!“) und einer offenen Nachfrage. Er enthält keine Behauptung und keine Prämisse, die belegt werden müsste, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 43,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.84,
+        "aussage_1": 0.98,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Hartley lernte die indianischen Artefakte im Pariser Trocadéro (heute Palais de Chaillot) und im Berliner Museum für Völkerkunde kennen, und sie bewirkten sein nachhaltiges Interesse für die indianische Kultur. Die Formulierung \"auch im Berliner Museum gesehen\" ist eine zulässige Umformulierung, und es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 44,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.44
+      },
+      "jev_error": null,
+      "reason": "„Das überrascht mich!“ ist eine belegfreie Reaktion. Die Frage nach abstrakter Malerei in der 291 setzt nur voraus, dass die 291 eine Galerie war, in der Kunst gezeigt wurde. Das folgt aus dem Fakt-Satz, der sie als avantgardistische Kunstgalerie beschreibt. Neue Behauptungen enthält der Beitrag nicht."
+    },
+    {
+      "turn_index": 45,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.65
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen (Titel Ten Commandments / Die zehn Gebote, Stieglitz zeigte eine Serie von Pastellmalereien von Dove, gelten als erste nicht gegenständliche Werke eines amerikanischen Künstlers) folgen direkt aus dem Fakt-Satz 271320874-0154. Das einleitende \"Ja, die gab es\" ist eine Reaktion ohne eigene Information."
+    },
+    {
+      "turn_index": 46,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.71
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag ist eine Reaktion: Er findet den Begriff „Pastellmalereien“ schön (Gefühl im Moment) und fragt nach einer Erklärung der Technik. Er stellt keine neuen Behauptungen auf, und die Frage setzt nur voraus, dass es Pastellmalereien gibt, was im Fakt-Satz steht."
+    },
+    {
+      "turn_index": 47,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 48,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.75
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Das ist einleuchtend\" ist eine Reaktion im Moment. Die Frage, ob Stieglitz selbst porträtiert wurde, ist eine Nachfrage, deren Prämisse (dass es Stieglitz gibt) keine Faktenbehauptung über das Gesagte hinaus einführt. Fakt-IDs sind nicht nötig."
+    },
+    {
+      "turn_index": 49,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.98,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: Picabia porträtierte de Zayas, Haviland und Stieglitz als Maschinen, Stieglitz' Konterfei wurde zur Kamera-Konstruktion, der Zusatz lautete \"Ici, c'est ici Stieglitz / foi et amour\", und die deutsche Übersetzung stimmt mit der Klammer überein. Das einleitende \"Ja, von Picabia\" ist eine Reaktion bzw. ein Wiederaufgreifen ohne neue Information."
+    },
+    {
+      "turn_index": 50,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Felix' Aussage \"Stieglitz als Kamera\" ist durch den Fakt-Satz gedeckt: Picabia porträtierte Stieglitz als Kamera-Konstruktion. \"Das ist wirklich witzig\" ist ein Gefühl im Moment, also belegfrei. Die Frage nach dem Zeitpunkt der Bilder ist eine Nachfrage ohne neue Behauptung. Die Prämisse, dass Picabia diese Bilder gemalt hat, folgt aus dem Fakt-Satz."
+    },
+    {
+      "turn_index": 51,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.88,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz [271320874-0208] wörtlich wieder und fügt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 52,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung, sondern nur eine Reaktion (\"Spannend!\") und eine Nachfrage nach weiteren Besuchern der Galerie. Die Frage setzt keine Tatsache voraus, die belegt werden müsste, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 53,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.91,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": "Lenas Aussage, dass es schließlich gelang, Duchamp zu überzeugen, das Urinal in der 291 auszustellen, entspricht dem Fakt-Satz. Das Pronomen „ihm“ wird nur zu einem Namen aufgelöst, den der Redebeitrag nicht belegen muss, und es kommt keine zusätzliche Angabe hinzu. Das einleitende „Duchamp.“ ist ein Wiederaufgreifen ohne neue Information."
+    },
+    {
+      "turn_index": 54,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.29
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag besteht aus einer Reaktion (\"Das überrascht mich!\") und einer Nachfrage. Die einzige Prämisse der Frage, dass die Galerie in der Fifth Avenue lag, folgt direkt aus dem Fakt-Satz 271320874-0000. Neue Behauptungen enthält der Beitrag nicht."
+    },
+    {
+      "turn_index": 55,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.86,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Alle Behauptungen (Georgia O’Keeffe als Beispiel, Entscheidung im Mai 1916, einige ihrer Zeichnungen in der Galerie auszustellen, ohne O’Keeffe vorher zu informieren) folgen direkt aus dem Fakt-Satz. „Ja, zum Beispiel“ ist eine belegfreie Überleitung. Es wird keine zusätzliche Angabe gemacht."
+    },
+    {
+      "turn_index": 56,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Die Aussage \"Ohne ihr Bescheid zu sagen\" folgt aus dem Fakt, dass er die Zeichnungen ausstellte, ohne O'Keeffe zu informieren. Der Ausruf \"das ist ja ein Ding!\" ist eine Reaktion (Staunen), und die Frage nach damaligen Schriften über die Zeichnungen ist eine Nachfrage ohne zusätzliche Behauptung."
+    },
+    {
+      "turn_index": 57,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Das Zitat und die Jahreszahl 1916 stimmen mit dem Fakt-Satz 271320874-0354 überein. Lena fügt keine weitere Angabe hinzu, und das einleitende „Ja“ ist eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 58,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus Reaktionen: „Hm, interessant, ein psychoanalytischer Aspekt“ greift das Zitat aus [271320874-0354] ohne neue Information wieder auf, und die Frage nach dem Bekanntheitsgrad von Miss O’Keeffe ist eine Nachfrage. Ihre Prämisse, dass es eine Miss O’Keeffe gab, deckt das Zitat. Es kommt keine unbelegte Behauptung vor."
+    },
+    {
+      "turn_index": 59,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 60,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.15,
+        "vollstaendig": 0.8
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion (\"Wow!\") und einer Nachfrage zum Ausgang der Geschichte der Galerie. Er enthält keine neue Behauptung und keine Prämisse, die über die Fakt-Sätze hinausgeht; dass es eine Galerie gibt, folgt aus dem zitierten Fakt."
+    },
+    {
+      "turn_index": 61,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 62,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.45
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Faktenbehauptung. Er ist eine Überleitung mit einem Gefühl im Moment („spannende Reise“) und einer Bitte um Zusammenfassung, also belegfrei. Die „291.“ ist nur ein Verweis auf die Folge, keine neue Information, die einen Beleg bräuchte."
+    },
+    {
+      "turn_index": 63,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 1.0,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "aussage_3": 0.99,
+        "aussage_4": 0.97,
+        "aussage_5": 0.98,
+        "aussage_6": 0.99,
+        "aussage_7": 0.99,
+        "aussage_8": 0.99,
+        "aussage_9": 0.99,
+        "vollstaendig": 0.71
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den zitierten Fakt-Sätzen: Gründung 1905 durch Stieglitz und Steichen, Matisse-Skulpturen, Doves Pastelle, die Bedeutung der Formulierung „unter dem Blickpunkt der Kunst“, die Differenz mit Brâncuși und Pach, Picabias Kamera-Konstruktion, O’Keeffe im Mai 1916 sowie die Schließung im Juni 1917 und die Finanzierung aus dem Vermögen der ersten Ehefrau. „Gern.“ ist eine belegfreie Reaktion. Es kommen keine zusätzlichen Angaben hinzu."
+    }
+  ],
+  "used_fact_ids": [
+    "271320874-0000",
+    "271320874-0001",
+    "271320874-0044",
+    "271320874-0053",
+    "272043333-0001",
+    "271320874-0061",
+    "271320874-0119",
+    "263889385-0000",
+    "271320874-0037",
+    "271320874-0161",
+    "271320874-0075",
+    "271320874-0275",
+    "270402862-0000",
+    "267193649-0001",
+    "271320874-0060",
+    "271320874-0134",
+    "271320874-0406",
+    "271320874-0258",
+    "268209049-0000",
+    "271846515-0029",
+    "271320874-0272",
+    "271320874-0248",
+    "240794847-0000",
+    "271320874-0234",
+    "271320874-0332",
+    "271320874-0154",
+    "268895957-0000",
+    "271320874-0289",
+    "271320874-0208",
+    "271320874-0295",
+    "271320874-0348",
+    "271320874-0354",
+    "271320874-0344",
+    "271320874-0365"
+  ],
+  "cascade_checks": [
+    {
+      "conversation": 1,
+      "turn_index": 7,
+      "p": 0.73,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung enthält dieselbe Aussage: Die Illustrationen des Waite-Smith-Tarot-Decks wurden weltbekannt, und sie entwickelte das Deck zusammen mit Arthur Edward Waite. Nur das Wort „sogar“ fehlt, was inhaltlich unerheblich ist."
+    },
+    {
+      "conversation": 1,
+      "turn_index": 21,
+      "p": 0.82,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die ursprüngliche Aussage, dass Braque zusammen mit Picasso Mitbegründer des Kubismus war, steht auch in der neuen Fassung. Diese enthält aber zusätzlich die Aussage, dass Braque davor eine frühe fauvistische Schaffensphase hatte. Das steht in der vorherigen Fassung nicht, also vermittelt die neue Fassung nicht genau dieselben Aussagen."
+    },
+    {
+      "conversation": 1,
+      "turn_index": 22,
+      "p": 0.98,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 2,
+      "turn_index": 25,
+      "p": 0.9,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung nennt Brock nicht mehr als Urheber der zweiten Aussage. Dass der Mangel an Fotografien das Verständnis der Picasso-Installation von 1911 erschwert, steht nun als allgemeine Tatsache da, nicht mehr als Brocks Behauptung („Und er sagte weiter“). Die Zuschreibung fehlt also. Das Zitat über „eines der großen Mysterien“ ist unverändert."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 26,
+      "p": 0.98,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 3,
+      "turn_index": 33,
+      "p": 0.93,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung enthält dieselbe Aussage mit identischer Jahreszahl (etwa 1839) und denselben Angaben (Gabun, französische Kolonie); nur die Wortstellung ist geändert."
+    },
+    {
+      "conversation": 3,
+      "turn_index": 41,
+      "p": 0.95,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 3,
+      "turn_index": 45,
+      "p": 0.97,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 3,
+      "turn_index": 55,
+      "p": 0.9,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Beide Aussagen sind in der neuen Fassung enthalten: Im Mai 1916 fiel die Entscheidung, einige Zeichnungen O’Keeffes in der Galerie auszustellen, und zwar ohne sie vorher zu informieren. „Zum Beispiel“ und „vorher“ ändern den Inhalt der Aussagen nicht."
+    },
+    {
+      "conversation": 3,
+      "turn_index": 59,
+      "p": 0.2,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung nennt Alter (neunundzwanzig) und den Status als völlig unbekannte Kunstlehrerin, lässt aber die Aussage weg, dass ihre Zeichnungen im Mai 1916 ausgestellt wurden. Auch der zeitliche Bezug „zu diesem Zeitpunkt“ ist nur vage als „damals“ erhalten, ohne Mai 1916 oder die Ausstellung."
+    },
+    {
+      "conversation": 3,
+      "turn_index": 60,
+      "p": 0.99,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    }
+  ],
+  "conversation": 3,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 6,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 6,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.41
+        },
+        "jev_error": null,
+        "reason": "Die Prämisse \"Tarot in einer Kunstgalerie\" folgt nicht aus dem Fakt-Satz. Dieser sagt nur, dass Stieglitz im Januar 1907 Zeichnungen von Pamela Colman Smith zeigte. Weder Tarot-Karten noch eine Kunstgalerie werden genannt. Dass Smith durch die Gestaltung des Waite-Smith Tarot bekannt wurde, ist dagegen belegt."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 7,
+      "version": 0,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 7,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.9,
+          "vollstaendig": 0.77
+        },
+        "jev_error": null,
+        "reason": "Die Aussagen, dass die Illustrationen des Waite-Smith-Tarot-Decks weltbekannt wurden und dass sie das Deck zusammen mit Arthur Edward Waite entwickelte, stehen im Fakt-Satz. \"Sehr bekannt.\" ist eine Reaktion bzw. Wiederaufnahme ohne neue Information und deckt sich mit \"weltbekannt\"."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 20,
+      "version": 0,
+      "replaced_by": 2,
+      "judgement": {
+        "turn_index": 20,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 21,
+      "version": 0,
+      "replaced_by": 3,
+      "judgement": {
+        "turn_index": 21,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 21,
+      "version": 1,
+      "replaced_by": 4,
+      "judgement": {
+        "turn_index": 21,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.1
+        },
+        "jev_error": null,
+        "reason": "Der erste Satz (französischer Maler, Grafiker und Bildhauer) steht nur im Kontext, nicht im zitierten Fakt-Satz, und gilt daher als nicht belegt. Im zweiten Satz sagt Lena, Braque habe den Kubismus zusammen mit Picasso „gegründet\". Der Fakt-Satz nennt ihn nur „Mitbegründer\", das ist inhaltlich vergleichbar, aber die Angabe zu Beruf und Nationalität fehlt im Beleg."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 22,
+      "version": 0,
+      "replaced_by": 5,
+      "judgement": {
+        "turn_index": 22,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.87
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag ist eine reine Nachfrage ohne eigene Behauptung oder faktische Prämisse. Als Reaktion braucht er keine Fakt-IDs."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 24,
+      "version": 0,
+      "replaced_by": 6,
+      "judgement": {
+        "turn_index": 24,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17, 18 und 20 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 24,
+      "version": 1,
+      "replaced_by": 7,
+      "judgement": {
+        "turn_index": 24,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 24,
+      "version": 2,
+      "replaced_by": 8,
+      "judgement": {
+        "turn_index": 24,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.45
+        },
+        "jev_error": null,
+        "reason": "Die Frage enthält die Prämisse, dass die Kota aus Gabun stammen („das Land Gabun, aus dem sie stammen“). Das ist eine Sachbehauptung, und es sind keine Fakt-IDs zitiert, die sie belegen. „Was für ein Ausdruck!“ und der Rückgriff auf die frühere Erwähnung der Kota wären als Reaktion belegfrei, die Herkunftsangabe aber nicht."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 24,
+      "version": 3,
+      "replaced_by": 9,
+      "judgement": {
+        "turn_index": 24,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 24,
+      "version": 0,
+      "replaced_by": 10,
+      "judgement": {
+        "turn_index": 24,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 24,
+      "version": 1,
+      "replaced_by": 11,
+      "judgement": {
+        "turn_index": 24,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.51
+        },
+        "jev_error": null,
+        "reason": "Die Frage \"Weiß man denn, wie die Picasso-Installation damals genau aussah?\" setzt voraus, dass es damals eine Picasso-Installation gab. Das ist eine Prämisse, die durch keinen Fakt-Satz belegt ist, denn es sind keine Fakten zitiert. Der Ausruf \"Das klingt nach einem ziemlichen Wagnis!\" wäre als Reaktion in Ordnung, rettet den Beitrag aber nicht."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 25,
+      "version": 0,
+      "replaced_by": 12,
+      "judgement": {
+        "turn_index": 25,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.82
+        },
+        "jev_error": null,
+        "reason": "Das Zitat „eines der großen Mysterien in der Frühgeschichte des Modernismus in Amerika“ und die Aussage, der Mangel an Fotografien erschwere das Verständnis der Picasso-Installation von 1911 (ausgeschrieben als „neunzehnhundertelf“), stehen im Fakt-Satz. „Gerade das ist unklar“ ist eine Überleitung ohne neue Information und braucht keinen Beleg."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 26,
+      "version": 0,
+      "replaced_by": 13,
+      "judgement": {
+        "turn_index": 26,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.65
+        },
+        "jev_error": null,
+        "reason": "Der Beitrag enthält keine neue Tatsachenbehauptung. „Ein Rätsel, wie schade!“ ist eine Gefühlsreaktion. Die Frage, ob sich jemand über die 291 geäußert hat, ist eine Nachfrage, und „vielleicht sogar ziemlich scharf“ ist nur eine Vermutung. Die 291 greift Felix bloß als schon Gesagtes wieder auf. Fakt-IDs sind deshalb nicht nötig."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 28,
+      "version": 0,
+      "replaced_by": 14,
+      "judgement": {
+        "turn_index": 28,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17, 18 und 24 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 28,
+      "version": 1,
+      "replaced_by": 15,
+      "judgement": {
+        "turn_index": 28,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 28,
+      "version": 2,
+      "replaced_by": 16,
+      "judgement": {
+        "turn_index": 28,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.69
+        },
+        "jev_error": null,
+        "reason": "Die Frage \"was war an dieser Art, Kunst zu zeigen, damals eigentlich so neu?\" setzt voraus, dass diese Präsentationsweise damals neu war. Das ist eine faktische Prämisse, und es gibt keine zitierten Fakt-Sätze, die sie belegen. \"Autsch, das sitzt!\" ist dagegen eine belegfreie Reaktion."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 28,
+      "version": 3,
+      "replaced_by": 17,
+      "judgement": {
+        "turn_index": 28,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 28,
+      "version": 4,
+      "replaced_by": 18,
+      "judgement": {
+        "turn_index": 28,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.54
+        },
+        "jev_error": null,
+        "reason": "Die Frage setzt voraus, dass es in der „291“ Kunst aus Afrika gab und dass sie etwas Besonderes war. Diese Prämisse steht in keinem Fakt-Satz, denn es sind keine Fakt-IDs zitiert. Das „Autsch, das sitzt!“ wäre als Reaktion belegfrei, die Nachfrage mit ihrer Prämisse aber nicht."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 32,
+      "version": 0,
+      "replaced_by": 19,
+      "judgement": {
+        "turn_index": 32,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271320874-0275 wurde schon in Redebeitrag 17 und 18 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 33,
+      "version": 0,
+      "replaced_by": 20,
+      "judgement": {
+        "turn_index": 33,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 40,
+      "version": 0,
+      "replaced_by": 21,
+      "judgement": {
+        "turn_index": 40,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271320874-0248 wurde schon in Redebeitrag 37 und 38 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 40,
+      "version": 1,
+      "replaced_by": 22,
+      "judgement": {
+        "turn_index": 40,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271320874-0248 wurde schon in Redebeitrag 37 und 38 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 41,
+      "version": 0,
+      "replaced_by": 23,
+      "judgement": {
+        "turn_index": 41,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.61
+        },
+        "jev_error": null,
+        "reason": "Die Aussagen \"Von Progigal Son existieren lediglich Fotografien\" und \"Brâncuși zerstörte die Figur in Paris nach deren Rückkehr\" stehen so im Fakt-Satz. \"Nein, nicht alle.\" ist eine belegfreie Reaktion, die sich auf das zuvor Gesagte bezieht, und enthält keine zusätzliche Behauptung."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 44,
+      "version": 0,
+      "replaced_by": 24,
+      "judgement": {
+        "turn_index": 44,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.55
+        },
+        "jev_error": null,
+        "reason": "„Paris und Berlin, ich staune“ ist eine Reaktion und durch den Fakt gedeckt. Die Frage „gab es die in der 291 auch?“ setzt aber voraus, dass es eine „291“ gibt, in der Malerei gezeigt wurde, und dass dort auch anderes gezeigt wurde („auch“). Der Fakt [271320874-0332] erwähnt die „291“ nicht, sie steht höchstens im Kontext. Diese Prämisse ist daher nicht belegt."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 45,
+      "version": 0,
+      "replaced_by": 25,
+      "judgement": {
+        "turn_index": 45,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.89
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz 271320874-0154 inhaltlich vollständig wieder: Titel Ten Commandments (Die zehn Gebote), Stieglitz, Serie von Pastellmalereien von Dove, als erste nicht gegenständliche Werke eines amerikanischen Künstlers geltend. Das einleitende „Ja“ ist eine belegfreie Reaktion, und es kommt keine zusätzliche Angabe hinzu."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 54,
+      "version": 0,
+      "replaced_by": 26,
+      "judgement": {
+        "turn_index": 54,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271320874-0053 wurde schon in Redebeitrag 5 und 6 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 54,
+      "version": 1,
+      "replaced_by": 27,
+      "judgement": {
+        "turn_index": 54,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.46
+        },
+        "jev_error": null,
+        "reason": "Der Satz \"Ein Urinal in der Galerie\" setzt als Tatsache voraus, dass in der Galerie 291 ein Urinal war. Der zitierte Fakt nennt nur, dass 291 eine avantgardistische Kunstgalerie in der Fifth Avenue in New York war. Von einem Urinal steht dort nichts, und Kontext allein belegt es nicht. Die Frage nach Künstlerinnen ist unproblematisch, das Staunen ebenfalls."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 55,
+      "version": 0,
+      "replaced_by": 28,
+      "judgement": {
+        "turn_index": 55,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.85
+        },
+        "jev_error": null,
+        "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: Mai 1916, einige Zeichnungen von O’Keeffe, Ausstellung in der Galerie, ohne sie zu informieren. „Ja, Georgia O’Keeffe“ ist eine belegfreie Reaktion bzw. ein Wiederaufgreifen. Die ausgeschriebene Jahreszahl entspricht 1916, und es wird nichts Zusätzliches behauptet."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 58,
+      "version": 0,
+      "replaced_by": 29,
+      "judgement": {
+        "turn_index": 58,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271320874-0348 wurde schon in Redebeitrag 55 und 56 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 59,
+      "version": 0,
+      "replaced_by": 30,
+      "judgement": {
+        "turn_index": 59,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271320874-0348 wurde schon in Redebeitrag 55, 56 und 58 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 59,
+      "version": 1,
+      "replaced_by": 31,
+      "judgement": {
+        "turn_index": 59,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.96,
+          "vollstaendig": 0.77
+        },
+        "jev_error": null,
+        "reason": "Die Aussage \"Sie war zu diesem Zeitpunkt neunundzwanzig Jahre alt und eine vollkommen unbekannte Kunstlehrerin\" wird durch den Fakt-Satz gedeckt. Der Beginn \"Gar nicht.\" ist aber eine Antwort auf eine offenbar gestellte Frage (vermutlich, wie bekannt sie war). Diese Antwort ist eine inhaltliche Behauptung (\"gar nicht\" bekannt), die der Fakt-Satz nur teilweise stützt. Zudem ist die Bezugsfrage nicht belegt. Weil \"Gar nicht\" nicht eindeutig als belegfreie Reaktion gilt, ist der Beitrag nicht vollständig belegt."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 60,
+      "version": 0,
+      "replaced_by": 32,
+      "judgement": {
+        "turn_index": 60,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.85
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag enthält nur eine Reaktion (Staunen) und eine Nachfrage zum Ausgang der Geschichte. Er stellt keine neue Behauptung auf und enthält keine Prämisse, die belegt werden müsste, daher sind keine Fakt-IDs nötig."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 63,
+      "version": 0,
+      "replaced_by": 33,
+      "judgement": {
+        "turn_index": 63,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "aussage_3": 0.98,
+          "aussage_4": 0.98,
+          "aussage_5": 0.99,
+          "aussage_6": 0.99,
+          "aussage_7": 0.97,
+          "aussage_8": 0.94,
+          "aussage_9": 0.99,
+          "aussage_10": 0.99,
+          "vollstaendig": 0.71
+        },
+        "jev_error": null,
+        "reason": "Fast alle Aussagen stimmen mit den Fakt-Sätzen überein. Eine Stelle weicht ab: „Im Mai neunzehnhundertsechzehn fiel die Entscheidung, Zeichnungen von O’Keeffe auszustellen“. Laut [271320874-0348] ist Mai 1916 der Zeitpunkt der Ausstellung („entschied er sich dazu, im Mai 1916 einige ihrer Zeichnungen … auszustellen“). Wann die Entscheidung fiel, steht dort nicht. Lena verschiebt das Datum auf die Entscheidung, das ist nicht belegt."
+      }
+    }
+  ]
+}

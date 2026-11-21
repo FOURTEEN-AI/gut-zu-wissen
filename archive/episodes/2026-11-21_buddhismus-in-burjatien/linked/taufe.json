@@ -1,0 +1,77 @@
+{
+  "title": "Taufe",
+  "revid": 271990877,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-08T15:27:54Z",
+  "fetched_at": "2026-11-21T11:06:20Z",
+  "categories": [
+    "Kategorie:Biblisches Thema",
+    "Kategorie:Familienfest",
+    "Kategorie:Passageritus",
+    "Kategorie:Sakrament",
+    "Kategorie:Taufe",
+    "Kategorie:Wikipedia:Deutschlandlastig"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|behandelt den christlichen Ritus. Zu weiteren Bedeutungen siehe [[Taufe (Begriffsklärung)]].}}\n\n[[Datei:Baptism - Saint Calixte.jpg|mini|Eine der frühesten Darstellungen einer Taufe in der [[Calixtus-Katakombe]] (3.&nbsp;Jh.)]]\n\nDie '''Taufe''', genannt auch '''Taufritus''', ist ein [[Christentum|christlicher]] [[Ritus]], der seit der Zeit des [[Neues Testament|Neuen Testaments]] besteht. Die Auffassungen über Voraussetzung, Durchführung und Wirkung der Taufe sind in den jeweiligen [[Konfession]]en verschieden; sie kann die Eingliederung in die Gemeinschaft der Christen oder ein öffentliches Glaubensbekenntnis bedeuten. Vollzogen wird die Taufe durch Übergießen des Täuflings mit Wasser (als ''Infusionstaufe'') oder das [[Untertauchen (Religion)|Untertauchen]] im Wasser (als ''Immersionstaufe'' oder [[Ganzkörpertaufe]]). Dabei wird eine [[Taufformel]] gesprochen.",
+  "segments": [
+    {
+      "id": "271990877-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Taufe''', genannt auch '''Taufritus''', ist ein [[Christentum|christlicher]] [[Ritus]], der seit der Zeit des [[Neues Testament|Neuen Testaments]] besteht.",
+      "plain": null
+    },
+    {
+      "id": "271990877-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Auffassungen über Voraussetzung, Durchführung und Wirkung der Taufe sind in den jeweiligen [[Konfession]]en verschieden; sie kann die Eingliederung in die Gemeinschaft der Christen oder ein öffentliches Glaubensbekenntnis bedeuten.",
+      "plain": null
+    },
+    {
+      "id": "271990877-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Vollzogen wird die Taufe durch Übergießen des Täuflings mit Wasser (als ''Infusionstaufe'') oder das [[Untertauchen (Religion)|Untertauchen]] im Wasser (als ''Immersionstaufe'' oder [[Ganzkörpertaufe]]).",
+      "plain": null
+    },
+    {
+      "id": "271990877-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dabei wird eine [[Taufformel]] gesprochen.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271990877,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271990877-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Taufe, genannt auch Taufritus, ist ein christlicher Ritus, der seit der Zeit des Neuen Testaments besteht.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271990877-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Auffassungen über Voraussetzung, Durchführung und Wirkung der Taufe sind in den jeweiligen Konfessionen verschieden; sie kann die Eingliederung in die Gemeinschaft der Christen oder ein öffentliches Glaubensbekenntnis bedeuten.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271990877-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Vollzogen wird die Taufe durch Übergießen des Täuflings mit Wasser (als Infusionstaufe) oder das Untertauchen im Wasser (als Immersionstaufe oder Ganzkörpertaufe).",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "title": "Georges Braque",
+  "revid": 267193649,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-05-19T06:00:24Z",
+  "fetched_at": "2026-11-21T11:26:37Z",
+  "categories": [
+    "Kategorie:Franzose",
+    "Kategorie:Geboren 1882",
+    "Kategorie:Gestorben 1963",
+    "Kategorie:Grafiker (Frankreich)",
+    "Kategorie:Künstler (documenta)",
+    "Kategorie:Künstler des Fauvismus",
+    "Kategorie:Künstler des Kubismus",
+    "Kategorie:Landschaftsmaler",
+    "Kategorie:Maler (Frankreich)",
+    "Kategorie:Mann",
+    "Kategorie:Mitglied der American Academy of Arts and Letters",
+    "Kategorie:Mitglied der American Academy of Arts and Sciences",
+    "Kategorie:Stilllebenmaler"
+  ],
+  "intro_wikitext": "[[Datei:Georges Braque, 1908, photograph published in Gelett Burgess, The Wild Men of Paris, Architectural Record, May 1910.jpg|mini|hochkant|Georges Braque, 1908]]\n'''Georges Braque''' (* [[13. Mai]] [[1882]] in [[Argenteuil]], [[Département Val-d’Oise]]; † [[31. August]] [[1963]] in [[Paris]]) war ein französischer [[Malerei|Maler]], [[Grafiker]] und [[Bildhauerei|Bildhauer]]. Nach einer frühen [[Fauvismus|fauvistischen]] Schaffensphase war Braque zusammen mit [[Pablo Picasso]] der Mitbegründer des [[Kubismus]].",
+  "segments": [
+    {
+      "id": "267193649-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Georges Braque''' (* [[13. Mai]] [[1882]] in [[Argenteuil]], [[Département Val-d’Oise]]; † [[31. August]] [[1963]] in [[Paris]]) war ein französischer [[Malerei|Maler]], [[Grafiker]] und [[Bildhauerei|Bildhauer]].",
+      "plain": null
+    },
+    {
+      "id": "267193649-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Nach einer frühen [[Fauvismus|fauvistischen]] Schaffensphase war Braque zusammen mit [[Pablo Picasso]] der Mitbegründer des [[Kubismus]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 267193649,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "267193649-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "267193649-0000"
+        ],
+        "plain": "Nach einer frühen fauvistischen Schaffensphase war Braque zusammen mit Pablo Picasso der Mitbegründer des Kubismus.",
+        "context_plain": [
+          "Georges Braque (* 13. Mai 1882 in Argenteuil, Département Val-d’Oise; † 31. August 1963 in Paris) war ein französischer Maler, Grafiker und Bildhauer."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "episode_id": "2026-11-21_main",
+  "title": "Main",
+  "status": "failed",
+  "started_at": "2026-11-21T12:01:59Z",
+  "finished_at": "2026-11-21T12:37:34Z",
+  "published_at": null,
+  "explicit": false,
+  "failure": "Crash: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChG5uT8uzyLfS1bhn4jaq'}",
+  "usage": {
+    "author": {
+      "model": "claude-sonnet-5-5",
+      "calls": 26,
+      "input_tokens": 112328,
+      "output_tokens": 67501,
+      "cache_creation_input_tokens": 15721,
+      "cache_read_input_tokens": 148992
+    },
+    "llm_judge": {
+      "model": "claude-sonnet-5-5",
+      "calls": 109,
+      "input_tokens": 59941,
+      "output_tokens": 30036,
+      "cache_creation_input_tokens": 797,
+      "cache_read_input_tokens": 79700
+    },
+    "jev": {
+      "model": "jev-1.14.0",
+      "calls": 120,
+      "input_tokens": 129832,
+      "output_tokens": 6288,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    "extraction": {
+      "model": "claude-haiku-5-5",
+      "calls": 63,
+      "input_tokens": 72021,
+      "output_tokens": 54103,
+      "cache_creation_input_tokens": 872,
+      "cache_read_input_tokens": 54064
+    }
+  },
+  "cost": {
+    "prices": {
+      "claude_sonnet_input": 2.0,
+      "claude_sonnet_output": 10.0,
+      "jev": 0.042,
+      "claude_haiku_input": 0.1,
+      "claude_haiku_output": 0.5,
+      "gemini_tts_input": 0.5,
+      "gemini_tts_output": 9.0,
+      "claude_sonnet_cache_write": 2.5,
+      "claude_sonnet_cache_read": 0.1,
+      "claude_haiku_cache_write": 0.125,
+      "claude_haiku_cache_read": 0.01
+    },
+    "usd": {
+      "author": 0.9539,
+      "llm_judge": 0.4302,
+      "jev": 0.0055,
+      "extraction": 0.0349,
+      "tts": 0.2194
+    }
+  },
+  "failed_step": "audio",
+  "resumed": [],
+  "audio_run_id": null
+}

@@ -1,0 +1,137 @@
+{
+  "title": "Echte Wespen",
+  "revid": 268164276,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-06-23T10:11:55Z",
+  "fetched_at": "2026-11-21T11:26:37Z",
+  "categories": [
+    "Kategorie:Faltenwespen",
+    "Kategorie:Wikipedia:Artikel mit Video"
+  ],
+  "intro_wikitext": "{{Weiterleitungshinweis|''Wespe'' und ''Wespen''|Weitere Bedeutungen sind unter [[Wespe (Begriffsklärung)]] aufgeführt.|mehrzahl=1}}\n<!-- Für Informationen zum Umgang mit dieser Vorlage siehe bitte [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name       = Echte Wespen\n| Taxon_WissName   = Vespinae\n| Taxon_Rang       = Unterfamilie\n| Taxon_Autor      = [[Pierre André Latreille|Latreille]], 1802\n| Taxon2_Name      = Faltenwespen\n| Taxon2_WissName  = Vespidae\n| Taxon2_Rang      = Familie\n| Taxon3_WissName  = Vespoidea\n| Taxon3_Rang      = Überfamilie\n| Taxon4_Name      = Stechimmen\n| Taxon4_WissName  = Aculeata\n| Taxon4_Rang      = Teilordnung\n| Taxon5_Name      = Taillenwespen\n| Taxon5_WissName  = Apocrita\n| Taxon5_Rang      = Unterordnung\n| Taxon6_Name      = Hautflügler\n| Taxon6_WissName  = Hymenoptera\n| Taxon6_Rang      = Ordnung\n| Bild             = Echte wespe.jpg\n| Bildbeschreibung = ''[[Vespula pensylvanica]]''\n}}\nDie '''Echten Wespen''' (Vespinae) sind eine Unterfamilie der [[Faltenwespen]] (Vespidae) mit weltweit 74 Arten. In [[Mitteleuropa]] kommen elf Arten der Echten Wespen vor, unter anderem die [[Deutsche Wespe]], die [[Gemeine Wespe]] sowie die [[Hornisse]].\n\nGelegentlich werden die ebenfalls staatenbildenden [[Feldwespen]] zu den Echten Wespen gerechnet. Üblicher ist es, die beiden Gruppen als ''Soziale Faltenwespen'' oder nach dem bevorzugten Nistmaterial als ''Papierwespen'' zusammenzufassen.",
+  "segments": [
+    {
+      "id": "268164276-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon6_Name      = Hautflügler | Taxon6_WissName  = Hymenoptera",
+      "plain": "Taxobox – Systematik – Ordnung: Hautflügler (Hymenoptera)"
+    },
+    {
+      "id": "268164276-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_Name      = Taillenwespen | Taxon5_WissName  = Apocrita",
+      "plain": "Taxobox – Systematik – Unterordnung: Taillenwespen (Apocrita)"
+    },
+    {
+      "id": "268164276-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_Name      = Stechimmen | Taxon4_WissName  = Aculeata",
+      "plain": "Taxobox – Systematik – Teilordnung: Stechimmen (Aculeata)"
+    },
+    {
+      "id": "268164276-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon3_WissName  = Vespoidea",
+      "plain": "Taxobox – Systematik – Überfamilie: Vespoidea"
+    },
+    {
+      "id": "268164276-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_Name      = Faltenwespen | Taxon2_WissName  = Vespidae",
+      "plain": "Taxobox – Systematik – Familie: Faltenwespen (Vespidae)"
+    },
+    {
+      "id": "268164276-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name       = Echte Wespen",
+      "plain": "Taxobox – Systematik – Unterfamilie: Echte Wespen"
+    },
+    {
+      "id": "268164276-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Echten Wespen''' (Vespinae) sind eine Unterfamilie der [[Faltenwespen]] (Vespidae) mit weltweit 74 Arten.",
+      "plain": null
+    },
+    {
+      "id": "268164276-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "In [[Mitteleuropa]] kommen elf Arten der Echten Wespen vor, unter anderem die [[Deutsche Wespe]], die [[Gemeine Wespe]] sowie die [[Hornisse]].",
+      "plain": null
+    },
+    {
+      "id": "268164276-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Gelegentlich werden die ebenfalls staatenbildenden [[Feldwespen]] zu den Echten Wespen gerechnet.",
+      "plain": null
+    },
+    {
+      "id": "268164276-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "Üblicher ist es, die beiden Gruppen als ''Soziale Faltenwespen'' oder nach dem bevorzugten Nistmaterial als ''Papierwespen'' zusammenzufassen.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268164276,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268164276-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Echten Wespen (Vespinae) sind eine Unterfamilie der Faltenwespen (Vespidae) mit weltweit 74 Arten.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268164276-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "In Mitteleuropa kommen elf Arten der Echten Wespen vor, unter anderem die Deutsche Wespe, die Gemeine Wespe sowie die Hornisse.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268164276-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "268164276-0006",
+          "268164276-0007"
+        ],
+        "plain": "Gelegentlich werden die ebenfalls staatenbildenden Feldwespen zu den Echten Wespen gerechnet.",
+        "context_plain": [
+          "Die Echten Wespen (Vespinae) sind eine Unterfamilie der Faltenwespen (Vespidae) mit weltweit 74 Arten.",
+          "In Mitteleuropa kommen elf Arten der Echten Wespen vor, unter anderem die Deutsche Wespe, die Gemeine Wespe sowie die Hornisse."
+        ]
+      },
+      {
+        "segment_id": "268164276-0009",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "268164276-0006",
+          "268164276-0007",
+          "268164276-0008"
+        ],
+        "plain": "Üblicher ist es, die beiden Gruppen als Soziale Faltenwespen oder nach dem bevorzugten Nistmaterial als Papierwespen zusammenzufassen.",
+        "context_plain": [
+          "Die Echten Wespen (Vespinae) sind eine Unterfamilie der Faltenwespen (Vespidae) mit weltweit 74 Arten.",
+          "In Mitteleuropa kommen elf Arten der Echten Wespen vor, unter anderem die Deutsche Wespe, die Gemeine Wespe sowie die Hornisse.",
+          "Gelegentlich werden die ebenfalls staatenbildenden Feldwespen zu den Echten Wespen gerechnet."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

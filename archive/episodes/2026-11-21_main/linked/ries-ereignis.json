@@ -1,0 +1,80 @@
+{
+  "title": "Ries-Ereignis",
+  "revid": 272062456,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-11T05:03:03Z",
+  "fetched_at": "2026-11-21T12:01:59Z",
+  "categories": [
+    "Kategorie:Ereignis der Erdgeschichte",
+    "Kategorie:Landkreis Donau-Ries",
+    "Kategorie:MediaWiki:Gadget/templateGallery",
+    "Kategorie:Meteoroid",
+    "Kategorie:Neogen",
+    "Kategorie:Wikipedia:Exzellent"
+  ],
+  "intro_wikitext": "{{Galerie\n| Name = Position des Einschlags|Datei:Nördlinger Ries Relief Map, SRTM-1.jpg|Reliefkarte des [[Nördlinger Ries]]es|Datei:RiesSteinheimMarkings.JPG|Satellitenbild des Nördlinger Rieses (große Rundstruktur rechts) und des [[Steinheimer Becken]]s (links unten)\n}}\n\nBeim '''Ries-Ereignis''' (auch '''Ries-Impakt''') handelt es sich um einen [[Impakt|Asteroideneinschlag]], der sich vor etwa 15 Millionen Jahren im heutigen [[Süddeutschland]] ereignete. Der dabei entstandene [[Einschlagkrater]] [[Nördlinger Ries]] hat einen Durchmesser von etwa 24&nbsp;km, was von der Umwandlung einer sehr großen [[Energie]]menge zeugt. Das nahe [[Steinheimer Becken]] und eine Anzahl kleinerer Krater auf der [[Fränkische Alb|Fränkischen Alb]] und im Gebiet des [[Bodensee]]s entstanden nach neueren Erkenntnissen nicht gleichzeitig mit dem Nördlinger Ries und zählen somit nicht zum Ries-Ereignis.",
+  "segments": [
+    {
+      "id": "272062456-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Beim '''Ries-Ereignis''' (auch '''Ries-Impakt''') handelt es sich um einen [[Impakt|Asteroideneinschlag]], der sich vor etwa 15 Millionen Jahren im heutigen [[Süddeutschland]] ereignete.",
+      "plain": null
+    },
+    {
+      "id": "272062456-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der dabei entstandene [[Einschlagkrater]] [[Nördlinger Ries]] hat einen Durchmesser von etwa 24&nbsp;km, was von der Umwandlung einer sehr großen [[Energie]]menge zeugt.",
+      "plain": null
+    },
+    {
+      "id": "272062456-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das nahe [[Steinheimer Becken]] und eine Anzahl kleinerer Krater auf der [[Fränkische Alb|Fränkischen Alb]] und im Gebiet des [[Bodensee]]s entstanden nach neueren Erkenntnissen nicht gleichzeitig mit dem Nördlinger Ries und zählen somit nicht zum Ries-Ereignis.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272062456,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272062456-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Beim Ries-Ereignis (auch Ries-Impakt) handelt es sich um einen Asteroideneinschlag, der sich vor etwa 15 Millionen Jahren im heutigen Süddeutschland ereignete.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272062456-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272062456-0000"
+        ],
+        "plain": "Der dabei entstandene Einschlagkrater Nördlinger Ries hat einen Durchmesser von etwa 24 km, was von der Umwandlung einer sehr großen Energiemenge zeugt.",
+        "context_plain": [
+          "Beim Ries-Ereignis (auch Ries-Impakt) handelt es sich um einen Asteroideneinschlag, der sich vor etwa 15 Millionen Jahren im heutigen Süddeutschland ereignete."
+        ]
+      },
+      {
+        "segment_id": "272062456-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272062456-0000",
+          "272062456-0001"
+        ],
+        "plain": "Das nahe Steinheimer Becken und eine Anzahl kleinerer Krater auf der Fränkischen Alb und im Gebiet des Bodensees entstanden nach neueren Erkenntnissen nicht gleichzeitig mit dem Nördlinger Ries und zählen somit nicht zum Ries-Ereignis.",
+        "context_plain": [
+          "Beim Ries-Ereignis (auch Ries-Impakt) handelt es sich um einen Asteroideneinschlag, der sich vor etwa 15 Millionen Jahren im heutigen Süddeutschland ereignete.",
+          "Der dabei entstandene Einschlagkrater Nördlinger Ries hat einen Durchmesser von etwa 24 km, was von der Umwandlung einer sehr großen Energiemenge zeugt."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

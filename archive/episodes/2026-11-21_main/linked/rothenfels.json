@@ -1,0 +1,122 @@
+{
+  "title": "Rothenfels",
+  "revid": 270294331,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-07T11:08:55Z",
+  "fetched_at": "2026-11-21T12:01:59Z",
+  "categories": [
+    "Kategorie:Ersterwähnung 1342",
+    "Kategorie:Gemeinde in Bayern",
+    "Kategorie:Rothenfels",
+    "Kategorie:Stadt in Bayern",
+    "Kategorie:Stadtrechtsverleihung im 14. Jahrhundert",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2019-04"
+  ],
+  "intro_wikitext": "{{Begriffsklärungshinweis}}\n{{Infobox Gemeinde in Deutschland\n|Art               = Stadt\n|Wappen            = DEU Rothenfels COA.svg\n|Breitengrad       = 49/53/29/N\n|Längengrad        = 09/35/31/E\n|Lageplan          = Rothenfels in MSP.svg\n|Bundesland        = Bayern\n|Regierungsbezirk  = Unterfranken\n|Landkreis         = Main-Spessart\n|Verwaltungsgemeinschaft = Marktheidenfeld\n|Höhe              = 154\n|PLZ               = 97851\n|Vorwahl           = 09393\n|Gemeindeschlüssel = 09677181\n|Gliederung        = 2 [[Gemeindeteil]]e\n|Straße            = Hauptstraße 34\n|Website           = [https://www.rothenfels.de/ rothenfels.de]\n|Bürgermeister     = Norbert Oestel\n|Bürgermeistertitel = [[Bürgermeister#Bayern|Erster Bürgermeister]]\n|Partei            = Freie Bürger\n}}\n[[Datei:Rothenfels, MSP v NO.jpg|mini|Rothenfels am Main von Nordosten]]\n\n'''Rothenfels''' ist eine [[Stadt]] im [[Unterfranken|unterfränkischen]] [[Landkreis Main-Spessart]] und ein Mitglied der [[Verwaltungsgemeinschaft Marktheidenfeld]]. Sie ist nach Einwohnern die zweitkleinste Stadt Bayerns.",
+  "segments": [
+    {
+      "id": "270294331-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Deutschland | Wappen            = DEU Rothenfels COA.svg",
+      "plain": "Infobox Gemeinde in Deutschland – : "
+    },
+    {
+      "id": "270294331-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Deutschland | Regierungsbezirk  = Unterfranken",
+      "plain": "Infobox Gemeinde in Deutschland – Regierungsbezirk: Unterfranken"
+    },
+    {
+      "id": "270294331-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Deutschland | Verwaltungsgemeinschaft = Marktheidenfeld",
+      "plain": "Infobox Gemeinde in Deutschland – Verwaltungsgemeinschaft: Marktheidenfeld"
+    },
+    {
+      "id": "270294331-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Deutschland | Höhe              = 154",
+      "plain": "Infobox Gemeinde in Deutschland – Höhe: 154 m ü. NHN"
+    },
+    {
+      "id": "270294331-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Deutschland | Vorwahl           = 09393",
+      "plain": "Infobox Gemeinde in Deutschland – Vorwahl: 09393"
+    },
+    {
+      "id": "270294331-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Deutschland | Gliederung        = 2 [[Gemeindeteil]]e",
+      "plain": "Infobox Gemeinde in Deutschland – Stadtgliederung: 2 Gemeindeteile"
+    },
+    {
+      "id": "270294331-0006",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Deutschland | PLZ               = 97851 | Straße            = Hauptstraße 34",
+      "plain": "Infobox Gemeinde in Deutschland – Adresse der Stadtverwaltung: Hauptstraße 34 97851 Rothenfels"
+    },
+    {
+      "id": "270294331-0007",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Deutschland | Website           = [https://www.rothenfels.de/ rothenfels.de]",
+      "plain": "Infobox Gemeinde in Deutschland – Website: rothenfels.de"
+    },
+    {
+      "id": "270294331-0008",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Deutschland | Bürgermeister     = Norbert Oestel | Bürgermeistertitel = [[Bürgermeister#Bayern|Erster Bürgermeister]] | Partei            = Freie Bürger",
+      "plain": "Infobox Gemeinde in Deutschland – Erster Bürgermeister: Norbert Oestel (Freie Bürger)"
+    },
+    {
+      "id": "270294331-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Rothenfels''' ist eine [[Stadt]] im [[Unterfranken|unterfränkischen]] [[Landkreis Main-Spessart]] und ein Mitglied der [[Verwaltungsgemeinschaft Marktheidenfeld]].",
+      "plain": null
+    },
+    {
+      "id": "270294331-0010",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie ist nach Einwohnern die zweitkleinste Stadt Bayerns.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270294331,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270294331-0009",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Rothenfels ist eine Stadt im unterfränkischen Landkreis Main-Spessart und ein Mitglied der Verwaltungsgemeinschaft Marktheidenfeld.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270294331-0010",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270294331-0009"
+        ],
+        "plain": "Sie ist nach Einwohnern die zweitkleinste Stadt Bayerns.",
+        "context_plain": [
+          "Rothenfels ist eine Stadt im unterfränkischen Landkreis Main-Spessart und ein Mitglied der Verwaltungsgemeinschaft Marktheidenfeld."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

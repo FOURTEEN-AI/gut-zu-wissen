@@ -1,0 +1,610 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Lena": "de-de-advisor-3",
+    "Felix": "de-de-tutor-4"
+  },
+  "section_max_chars": 6000,
+  "stt_model": "large-v3",
+  "section_retries": 2,
+  "pronunciation": [],
+  "sections": [
+    {
+      "index": 0,
+      "turn_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "chars": 5553,
+      "file": "sections/00.flac",
+      "seconds": null,
+      "input_tokens": 4026,
+      "output_tokens": 25437,
+      "usd": 0.2309,
+      "verified": false,
+      "attempts": [
+        {
+          "attempt": 0,
+          "seconds": 345.76,
+          "input_tokens": 1342,
+          "output_tokens": 8644,
+          "usd": 0.0785,
+          "transcript": "Hallo Lena, schön, dass wir wieder zusammensitzen. Womit steigen wir heute ein? Ich bin schon ganz gespannt, was du mitgebracht hast. Heute geht es um die Galerie 291, kurz 291. Das war eine avantgardistische Kunstgalerie in der Fifth Avenue in New York. Gegründet wurde sie 1905 unter dem Namen Little Galleries of the Photo Secession. Die Gründer waren der US-amerikanische Fotograf Alfred Stieglitz und der Luxemburger Edward Steichen. Das klingt nach einem aufregenden Ort. Der Name wirkt allerdings wie eine bloße Zahl. Steckt dahinter irgendeine Geschichte, Lena? Ja, und zwar eine kuriose. Die Hausnummer hatte sich in 293 geändert. Trotzdem beschlossen die Freunde, die 291 weiterhin als Galeriename zu nutzen. Im englischen Wortlaut heißt das 291. Schön, dass der alte Name geblieben ist. Aber was hing dort eigentlich an den Wänden? Schon im Januar 1907 zeigte Stieglitz Zeichnungen der englischen Illustratorin Pamela Coleman-Smith. Sie wurde mit der Gestaltung des Wade-Smith-Tarot bekannt. Das überrascht mich. Wie bekannt wurde sie denn mit dieser Gestaltung? Sehr bekannt. Ihre Illustrationen des Wade-Smith-Tarot-Decks wurden weltbekannt. Entwickelt hat sie das Deck zusammen mit Arthur Edward Wade. Wow, weltbekannt. Und wie sah es mit Skandalen aus? Gab es in der Galerie auch Provokantes zu sehen? Ja, das gab es. Die Ausstellungssaison 1907 bis 1908 begann Stieglitz mit einer Werkschau der Fotosezessionisten. Danach folgte eine Ausstellung mit Rodin's Aquarellzeichnungen. Diese waren spontan und minimalistisch und ihre Thematik war für die damalige Zeit schockierend sexuell. Na so etwas, das hätte ich nicht erwartet. Und wurde in der Galerie eigentlich viel verkauft? Schauen wir auf einen Fall. Der Preis war mit 200 Dollar pro Werk moderat. Trotzdem verkaufte sich lediglich ein einziges Aquarell. Arthur B. Davis erwarb die Quelle im Park Chateau Noir. Davis war ein amerikanischer Maler des Symbolismus. Nur ein einziges Aquarell? Das ist erstaunlich. Wie ging Stieglitz denn überhaupt mit Käufern um? Er hatte da eine eigene Methode. Wenn er bemerkte, dass jemand ein Kunstwerk wie ein Konsumgut behandelte, zögerte er nicht. Er verlangte dann plötzlich den doppelten Preis dafür. Interessant. Und welche Künstler kamen dann in die Galerie? Mitte März 1912 zeigte Stieglitz die weltweit erste Skulpturenausstellung von Henri Matisse. Dazu gehörte die Bronze La Serpentine von 1909. Sie zählt zu den innovativsten skulpturalen Arbeiten dieser Zeit. Die Kritiker hatten allerdings Schwierigkeiten, Matisse in einen kunstkritischen Kontext zu stellen. In New York hatte es bisher weder von Cézanne noch von Van Gogh noch von Gauguin Ausstellungen gegeben. Verstehe. Hat Stieglitz auch ungewöhnliche Mischungen gezeigt? Also Dinge, die gar nicht zusammenpassen? Ja. Zum Jahreswechsel 1914 auf 1915 kombinierte Stieglitz Werke von Picasso und Georges Braque mit Reliquien des Volkes der Kota aus Gabun. Dazu kam noch ein Wespennest. Ein Wespennest in der Kunstgalerie. Ich muss lachen. Aber was sind eigentlich Reliquien? Eine Reliquie ist als Gegenstand kultischer religiöser Verehrung ein irdischer Überrest der Körper oder Körperteile von Heiligen. Es kann auch ein Überbleibsel des jeweiligen persönlichen Besitzes sein. Das Wort kommt vom lateinischen Reliquie, das heißt zurückgelassenes oder Überbleibsel. Moment, den Namen Brack habe ich eben schon gehört. Wer war das eigentlich? Brock war zusammen mit Pablo Picasso der Mitbegründer des Kubismus. Davor hatte er eine frühe, faufistische Schaffensphase. Gibt es eigentlich auch Äußerungen über Picasso aus dieser Zeit? Vielleicht von Steichen oder Stieglitz? Ja, es gibt einen Satz. Und als rotes Tuch könnten wir Picasso nehmen, um die Rechnung zu begleichen, wenn wir ihn bekommen. Denn er ist ein verrückter Steinzeitmensch, hasst Ausstellungen und so weiter. Wie auch immer, wir werden es mit ihm versuchen. Das klingt nach einem ziemlichen Wagnis. Weißt du, wie das Ganze am Ende aussah? Gerade das ist unklar. Brock nannte es eines der großen Mysterien in der Frühgeschichte des Modernismus in Amerika. Der Mangel an Fotografien erschwert das Verständnis der Picasso-Installation von 1911. Ein Rätsel. Wie schade. Hat sich denn jemand über die 291 insgesamt geäußert? Vielleicht sogar ziemlich scharf? Ja, Bänden. Über die 291 schrieb er, Ich bin mir sicher, dass an keinem anderen Ort auf der Welt mehr beknacktes Zeug produziert wurde. Die Verseuchung mit intellektueller Blödheit nahm dort unglaubliche Ausmaße an. Autsch, das sitzt. Aber die 291 war ja eine Kunstgalerie. Mich würde interessieren, was dort sonst noch zu sehen war, Lena. Gab's noch mehr Überraschendes? Da gibt es eine Formulierung, der eine besondere Bedeutung zukam. unter dem Blickpunkt der Kunst. Der Grund ist einfach. Artefakte aus Afrika wurden bis zu diesem Zeitpunkt ausschließlich in einem ethnografischen und naturwissenschaftlichen Kontext behandelt. Nicht jedoch im Sinne von Volkskunst als eigenständige Kunstform. Interessant. Da ging es also um eine ganz andere Sichtweise. Du hast gerade Volkskunst erähnt. Was ist damit eigentlich gemeint, Lena? Volkskunst wird teilweise auch Heimatkunst genannt. Gemeint ist das bildnerische und kreative Schaffen jenseits der klassischen oder modernen Künste. Meist ist es eingebunden in traditionelle handwerkliche oder häusliche Produktion.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "two nine one",
+              "heard": "291",
+              "context_before": "nutzen Im englischen Wortlaut heißt das",
+              "context_after": "Schön dass der alte Name geblieben",
+              "changes_statement": false,
+              "reason": "Gleiche gesprochene Aussage: 'two-nine-one' wurde als 291 transkribiert, nur andere Schreibweise."
+            },
+            {
+              "index": 1,
+              "expected": "Colman",
+              "heard": "Coleman",
+              "context_before": "Stieglitz Zeichnungen der englischen Illustratorin Pamela",
+              "context_after": "Smith Sie wurde mit der Gestaltung",
+              "changes_statement": false,
+              "reason": "Colman/Coleman klingen gleich, Schreibvariante desselben Namens."
+            },
+            {
+              "index": 2,
+              "expected": "Waite",
+              "heard": "Wade",
+              "context_before": "Sie wurde mit der Gestaltung des",
+              "context_after": "Smith Tarot bekannt Das überrascht mich",
+              "changes_statement": false,
+              "reason": "Waite wird englisch ähnlich wie Wade ausgesprochen; Hörfehler der Spracherkennung bei fast gleichem Klang."
+            },
+            {
+              "index": 3,
+              "expected": "Waite",
+              "heard": "Wade",
+              "context_before": "Gestaltung Sehr bekannt Ihre Illustrationen des",
+              "context_after": "Smith Tarot Decks wurden weltbekannt Entwickelt",
+              "changes_statement": false,
+              "reason": "Waite/Wade klingen fast gleich, Hörfehler der Spracherkennung."
+            },
+            {
+              "index": 4,
+              "expected": "Waite",
+              "heard": "Wade",
+              "context_before": "das Deck zusammen mit Arthur Edward",
+              "context_after": "Wow weltbekannt Und wie sah es",
+              "changes_statement": false,
+              "reason": "Waite/Wade klingen fast gleich, Hörfehler der Spracherkennung."
+            },
+            {
+              "index": 5,
+              "expected": "Photo Secessionisten",
+              "heard": "Fotosezessionisten",
+              "context_before": "begann Stieglitz mit einer Werkschau der",
+              "context_after": "Danach folgte eine Ausstellung mit Rodins",
+              "changes_statement": false,
+              "reason": "Photo Secessionisten und Fotosezessionisten sind dieselben gesprochenen Wörter, nur andere Schreibweise."
+            },
+            {
+              "index": 6,
+              "expected": "Davies",
+              "heard": "Davis",
+              "context_before": "lediglich ein einziges Aquarell Arthur B",
+              "context_after": "erwarb die Quelle im Park Château",
+              "changes_statement": false,
+              "reason": "Davies/Davis klingen fast gleich, Hörfehler bei einem Namen."
+            },
+            {
+              "index": 7,
+              "expected": "Château",
+              "heard": "Chateau",
+              "context_before": "Davies erwarb die Quelle im Park",
+              "context_after": "Noir Davies war ein amerikanischer Maler",
+              "changes_statement": false,
+              "reason": "Château/Chateau ist nur eine Schreibvariante desselben Wortes."
+            },
+            {
+              "index": 8,
+              "expected": "Davies",
+              "heard": "Davis",
+              "context_before": "die Quelle im Park Château Noir",
+              "context_after": "war ein amerikanischer Maler des Symbolismus",
+              "changes_statement": false,
+              "reason": "Davies/Davis klingen fast gleich, Hörfehler bei einem Namen."
+            },
+            {
+              "index": 9,
+              "expected": "Skulpturen Ausstellung",
+              "heard": "Skulpturenausstellung",
+              "context_before": "neunzehnhundertzwölf zeigte Stieglitz die weltweit erste",
+              "context_after": "von Henri Matisse Dazu gehörte die",
+              "changes_statement": false,
+              "reason": "Getrennt- oder Zusammenschreibung, gleiche Bedeutung."
+            },
+            {
+              "index": 10,
+              "expected": "reliquiae",
+              "heard": "Reliquie",
+              "context_before": "sein Das Wort kommt vom lateinischen",
+              "context_after": "das heißt Zurückgelassenes oder Überbleibsel Moment",
+              "changes_statement": false,
+              "reason": "Lateinisches reliquiae klingt gesprochen fast wie Reliquie; Hörfehler der Spracherkennung, kein Bedeutungsunterschied."
+            },
+            {
+              "index": 11,
+              "expected": "Braque",
+              "heard": "Brack",
+              "context_before": "Zurückgelassenes oder Überbleibsel Moment den Namen",
+              "context_after": "habe ich eben schon gehört Wer",
+              "changes_statement": false,
+              "reason": "Brack klingt fast wie Braque; Hörfehler der Spracherkennung bei einem Namen."
+            },
+            {
+              "index": 12,
+              "expected": "Braque",
+              "heard": "Brock",
+              "context_before": "schon gehört Wer war das eigentlich",
+              "context_after": "war zusammen mit Pablo Picasso der",
+              "changes_statement": true,
+              "reason": "Brock ist ein anderer Name, der klingt deutlich anders als Braque (Brak) und kann mit dem später genannten Brock (Kritiker) verwechselt werden."
+            },
+            {
+              "index": 13,
+              "expected": "fauvistische",
+              "heard": "faufistische",
+              "context_before": "Kubismus Davor hatte er eine frühe",
+              "context_after": "Schaffensphase Gibt es eigentlich auch Äußerungen",
+              "changes_statement": false,
+              "reason": "faufistische ist eine Falschschreibung von fauvistische, gleicher Klang."
+            },
+            {
+              "index": 14,
+              "expected": "Benton",
+              "heard": "Bänden",
+              "context_before": "geäußert vielleicht sogar ziemlich scharf Ja",
+              "context_after": "Über die 291 schrieb er Ich",
+              "changes_statement": true,
+              "reason": "Benton und Bänden klingen deutlich unterschiedlich; ein anderer Name beziehungsweise ein anderes Wort wird verstanden."
+            },
+            {
+              "index": 15,
+              "expected": "Gab es",
+              "heard": "Gabs",
+              "context_before": "sonst noch zu sehen war Lena",
+              "context_after": "noch mehr Überraschendes Da gibt es",
+              "changes_statement": false,
+              "reason": "Gab's ist eine Kurzform von Gab es, gleiche Bedeutung."
+            },
+            {
+              "index": 16,
+              "expected": "erwähnt",
+              "heard": "erähnt",
+              "context_before": "andere Sichtweise Du hast gerade Volkskunst",
+              "context_after": "Was ist damit eigentlich gemeint Lena",
+              "changes_statement": false,
+              "reason": "erähnt ist ein Transkriptionsfehler für erwähnt, fast gleicher Klang, Sinn bleibt gleich."
+            }
+          ],
+          "changes_statement": true,
+          "action": "resynthesize"
+        },
+        {
+          "attempt": 1,
+          "seconds": 330.52,
+          "input_tokens": 1342,
+          "output_tokens": 8263,
+          "usd": 0.075,
+          "transcript": "Hallo Lena, schön, dass wir wieder zusammensitzen. Womit steigen wir heute ein? Ich bin schon ganz gespannt, was du mitgebracht hast. Heute geht es um die Galerie 291, kurz 291. Das war eine avantgardistische Kunstgalerie in der Fifth Avenue in New York. Gegründet wurde sie 1905 unter dem Namen Little Galleries of the Photo Secession. Die Gründer waren der US-amerikanische Fotograf Alfred Stieglitz und der Luxemburger Edward Steichen. Das klingt nach einem aufregenden Ort. Der Name wirkt allerdings wie eine bloße Zahl. Steckt dahinter irgendeine Geschichte, Lena? Ja, und zwar eine kuriose. Die Hausnummer hatte sich in 293 geändert. Trotzdem beschlossen die Freunde, die 291 weiterhin als Galeriename zu nutzen. Im englischen Wortlaut heißt das 291. Schön, dass der alte Name geblieben ist. Aber was hing dort eigentlich an den Wänden? Schon im Januar 1907 zeigte Stieglitz Zeichnungen der englischen Illustratorin Pamela Corman-Smith. Sie wurde mit der Gestaltung des Wade-Smith-Tarot bekannt. Das überrascht mich. Wie bekannt wurde sie denn mit dieser Gestaltung? Sehr bekannt. Ihre Illustrationen des Wade-Smith-Tarot-Decks wurden weltbekannt. Entwickelt hat sie das Deck zusammen mit Arthur Edward Wade. Wow, weltbekannt. Und wie sah es mit Skandalen aus? Gab es in der Galerie auch Provokantes zu sehen? Ja, das gab es. Die Ausstellung Saison 1907 bis 1908 begann Stieglitz mit einer Werkschau der Fotosezessionisten. Danach folgte eine Ausstellung mit Rodin's Aquarellzeichnungen. Diese waren spontan und minimalistisch. Und ihre Thematik war für die damalige Zeit schockierend sexuell. Na so etwas, das hätte ich nicht erwartet. Und wurde in der Galerie eigentlich viel verkauft? Schauen wir auf einen Fall. Der Preis war mit 200 Dollar pro Werk moderat. Trotzdem verkaufte sich lediglich ein einziges Aquarell. Arthur B. Davis erwarb die Quelle im Park Chateau Noir. Davis war ein amerikanischer Maler des Symbolismus. Nur ein einziges Aquarell, das ist erstaunlich. Wie ging Stieglitz denn überhaupt mit Käufern um? Er hatte da eine eigene Methode. Wenn er bemerkte, dass jemand ein Kunstwerk wie ein Konsumgut behandelte, zögerte er nicht. Er verlangte dann plötzlich den doppelten Preis dafür. Interessant. Und welche Künstler kamen dann in die Galerie? Mitte März 1912 zeigte Stieglitz die weltweit erste Skulpturenausstellung von Henri Matisse. Dazu gehörte die Bronze La Serpentine von 1909. Sie zählt zu den innovativsten skulpturalen Arbeiten dieser Zeit. Die Kritiker hatten allerdings Schwierigkeiten, Matisse in einen kunstkritischen Kontext zu stellen. In New York hatte es bisher weder von Cézanne noch von Van Gogh noch von Gauguin Ausstellungen gegeben. Verstehe. Hat Stieglitz auch ungewöhnliche Mischungen gezeigt, also Dinge, die gar nicht zusammenpassen? Ja. Zum Jahreswechsel 1914 auf 1915 kombinierte Stieglitz Werke von Picasso und Georges Braque mit Reliquien des Volkes der Kota aus Gabun. Dazu kam noch ein Wespennest. Ein Wespennest in der Kunstgalerie. Ich muss lachen. Aber was sind eigentlich Reliquien? Eine Reliquie ist als Gegenstand kultischer religiöser Verehrungen ein irdischer Überrest der Körper oder Körperteile von Heiligen. Es kann auch ein Überbleibsel des jeweiligen persönlichen Besitzes sein. Das Wort kommt vom lateinischen Reliquie, das heißt zurückgelassenes oder Überbleibsel. Moment, den Namen Bracke habe ich eben schon gehört. Wer war das eigentlich? Braque war zusammen mit Pablo Picasso der Mitbegründer des Kubismus. Davor hatte er eine frühe vauvistische Schaffensphase. Gibt es eigentlich auch Äußerungen über Picasso aus dieser Zeit? Vielleicht von Steichen oder Stieglitz? Ja, es gibt einen Satz. Und als rotes Tuch könnten wir Picasso nehmen, um die Rechnung zu begleichen, wenn wir ihn bekommen. Denn er ist ein verrückter Steinzeitmensch, hasst Ausstellungen und so weiter. Wie auch immer, wir werden es mit ihm versuchen. Das klingt nach einem ziemlichen Wagnis. Weißt du, wie das Ganze am Ende aussah? Gerade das ist unklar. Brock nannte es eines der großen Mysterien in der Frühgeschichte des Modernismus in Amerika. Der Mangel an Fotografien erschwert das Verständnis der Picasso-Installation von 1911. Ein Rätsel. Wie schade. Hat sich denn jemand über die 291 insgesamt geäußert? Vielleicht sogar ziemlich scharf? Ja, Bänden. Über die 291 schrieb er, ich bin mir sicher, dass an keinem anderen Ort auf der Welt mehr beknacktes Zeug produziert wurde. Die Verseuchung mit intellektueller Blödheit nahm dort unglaubliche Ausmaße an. Autsch, das sitzt. Aber die 291 war ja eine Kunstgalerie. Mich würde interessieren, was dort sonst noch zu sehen war, Lena. Gab es noch mehr Überraschendes? Da gibt es eine Formulierung, der eine besondere Bedeutung zukam. Unter dem Blickpunkt der Kunst. Der Grund ist einfach. Artefakte aus Afrika wurden bis zu diesem Zeitpunkt ausschließlich in einem ethnografischen und naturwissenschaftlichen Kontext behandelt. Nicht jedoch im Sinne von Volkskunst als eigenständige Kunstform. Interessant. Da ging es also um eine ganz andere Sichtweise. Du hast gerade Volkskunst erwähnt. Was ist damit eigentlich gemeint, Lena? Volkskunst wird teilweise auch Heimatkunst genannt. Gemeint ist das bildnerische und kreative Schaffen jenseits der klassischen oder modernen Künste. Meist ist es eingebunden in traditionelle handwerkliche oder häusliche Produktion.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "two nine one",
+              "heard": "291",
+              "context_before": "nutzen Im englischen Wortlaut heißt das",
+              "context_after": "Schön dass der alte Name geblieben",
+              "changes_statement": false,
+              "reason": "„two-nine-one“ wird englisch gesprochen und vom Erkenner als „291“ verschriftlicht; gleiche Aussage."
+            },
+            {
+              "index": 1,
+              "expected": "Colman",
+              "heard": "Corman",
+              "context_before": "Stieglitz Zeichnungen der englischen Illustratorin Pamela",
+              "context_after": "Smith Sie wurde mit der Gestaltung",
+              "changes_statement": false,
+              "reason": "„Corman“ statt „Colman“ klingt fast gleich; Hörfehler der Spracherkennung bei einem Namen."
+            },
+            {
+              "index": 2,
+              "expected": "Waite",
+              "heard": "Wade",
+              "context_before": "Sie wurde mit der Gestaltung des",
+              "context_after": "Smith Tarot bekannt Das überrascht mich",
+              "changes_statement": false,
+              "reason": "„Wade“ statt „Waite“ klingt deutsch gesprochen fast gleich; Hörfehler."
+            },
+            {
+              "index": 3,
+              "expected": "Waite",
+              "heard": "Wade",
+              "context_before": "Gestaltung Sehr bekannt Ihre Illustrationen des",
+              "context_after": "Smith Tarot Decks wurden weltbekannt Entwickelt",
+              "changes_statement": false,
+              "reason": "„Wade“ statt „Waite“ klingt fast gleich; Hörfehler."
+            },
+            {
+              "index": 4,
+              "expected": "Waite",
+              "heard": "Wade",
+              "context_before": "das Deck zusammen mit Arthur Edward",
+              "context_after": "Wow weltbekannt Und wie sah es",
+              "changes_statement": false,
+              "reason": "„Wade“ statt „Waite“ klingt fast gleich; Hörfehler."
+            },
+            {
+              "index": 5,
+              "expected": "Ausstellungssaison",
+              "heard": "Ausstellung Saison",
+              "context_before": "sehen Ja das gab es Die",
+              "context_after": "neunzehnhundertsieben bis neunzehnhundertacht begann Stieglitz mit",
+              "changes_statement": false,
+              "reason": "Nur Getrennt- bzw. Zusammenschreibung desselben Wortes."
+            },
+            {
+              "index": 6,
+              "expected": "Photo Secessionisten",
+              "heard": "Fotosezessionisten",
+              "context_before": "begann Stieglitz mit einer Werkschau der",
+              "context_after": "Danach folgte eine Ausstellung mit Rodins",
+              "changes_statement": false,
+              "reason": "Andere Schreibweise desselben gesprochenen Fremdworts „Photo-/Fotosezessionisten“."
+            },
+            {
+              "index": 7,
+              "expected": "Davies",
+              "heard": "Davis",
+              "context_before": "lediglich ein einziges Aquarell Arthur B",
+              "context_after": "erwarb die Quelle im Park Château",
+              "changes_statement": false,
+              "reason": "„Davis“ statt „Davies“ klingt fast gleich; Hörfehler bei einem Namen."
+            },
+            {
+              "index": 8,
+              "expected": "Château",
+              "heard": "Chateau",
+              "context_before": "Davies erwarb die Quelle im Park",
+              "context_after": "Noir Davies war ein amerikanischer Maler",
+              "changes_statement": false,
+              "reason": "„Chateau“ ist nur andere Schreibweise von „Château“."
+            },
+            {
+              "index": 9,
+              "expected": "Davies",
+              "heard": "Davis",
+              "context_before": "die Quelle im Park Château Noir",
+              "context_after": "war ein amerikanischer Maler des Symbolismus",
+              "changes_statement": false,
+              "reason": "„Davis“ statt „Davies“ klingt fast gleich; Hörfehler."
+            },
+            {
+              "index": 10,
+              "expected": "Skulpturen Ausstellung",
+              "heard": "Skulpturenausstellung",
+              "context_before": "neunzehnhundertzwölf zeigte Stieglitz die weltweit erste",
+              "context_after": "von Henri Matisse Dazu gehörte die",
+              "changes_statement": false,
+              "reason": "Nur Zusammenschreibung statt Getrenntschreibung."
+            },
+            {
+              "index": 11,
+              "expected": "Verehrung",
+              "heard": "Verehrungen",
+              "context_before": "Reliquie ist als Gegenstand kultischer religiöser",
+              "context_after": "ein irdischer Überrest der Körper oder",
+              "changes_statement": false,
+              "reason": "Zusätzliches „-en“ am Ende; Endung verschluckt/zugehört, Sinn bleibt gleich."
+            },
+            {
+              "index": 12,
+              "expected": "reliquiae",
+              "heard": "Reliquie",
+              "context_before": "sein Das Wort kommt vom lateinischen",
+              "context_after": "das heißt Zurückgelassenes oder Überbleibsel Moment",
+              "changes_statement": false,
+              "reason": "„reliquiae“ vs. „Reliquie“ klingt fast gleich; Endung beim lateinischen Wort, Sinn bleibt."
+            },
+            {
+              "index": 13,
+              "expected": "Braque",
+              "heard": "Bracke",
+              "context_before": "Zurückgelassenes oder Überbleibsel Moment den Namen",
+              "context_after": "habe ich eben schon gehört Wer",
+              "changes_statement": false,
+              "reason": "„Bracke“ statt „Braque“ klingt deutsch fast gleich; Hörfehler bei einem Namen."
+            },
+            {
+              "index": 14,
+              "expected": "fauvistische",
+              "heard": "vauvistische",
+              "context_before": "Kubismus Davor hatte er eine frühe",
+              "context_after": "Schaffensphase Gibt es eigentlich auch Äußerungen",
+              "changes_statement": false,
+              "reason": "„vauvistische“ statt „fauvistische“ klingt praktisch gleich; Schreibweise/Hörfehler."
+            },
+            {
+              "index": 15,
+              "expected": "Benton",
+              "heard": "Bänden",
+              "context_before": "geäußert vielleicht sogar ziemlich scharf Ja",
+              "context_after": "Über die 291 schrieb er Ich",
+              "changes_statement": true,
+              "reason": "„Bänden“ statt „Benton“ klingt deutlich anders; der Name des Sprechers ist verändert."
+            }
+          ],
+          "changes_statement": true,
+          "action": "resynthesize"
+        },
+        {
+          "attempt": 2,
+          "seconds": 341.2,
+          "input_tokens": 1342,
+          "output_tokens": 8530,
+          "usd": 0.0774,
+          "transcript": "Hallo Lena, schön, dass wir wieder zusammensitzen. Womit steigen wir heute ein? Ich bin schon ganz gespannt, was du mitgebracht hast. Heute geht es um die Galerie 291, kurz 291. Das war eine avantgardistische Kunstgalerie in der Fifth Avenue in New York. Gegründet wurde sie 1905 unter dem Namen Little Galleries of the Photo Session. Die Gründer waren der US-amerikanische Fotograf Alfred Stieglitz und der Luxemburger Edward Steichen. Das klingt nach einem aufregenden Ort. Der Name wirkt allerdings wie eine bloße Zahl. Steckt dahinter irgendeine Geschichte, Lena? Ja, und zwar eine kuriose. Die Hausnummer hatte sich in 293 geändert. Trotzdem beschlossen die Freunde, die 291 weiterhin als Galeriename zu nutzen. Im englischen Wortlaut heißt das 291. Schön, dass der alte Name geblieben ist. Aber was hindert eigentlich an den Wänden? Schon im Januar 1907 zeigte Stieglitz Zeichnungen der englischen Illustratorin Pamela Coleman-Smith. Sie wurde mit der Gestaltung des Wade-Smith-Tarot bekannt. Das überrascht mich. Wie bekannt wurde sie denn mit dieser Gestaltung? Sehr bekannt. Ihre Illustrationen des Wade-Smith-Tarot-Decks wurden weltbekannt. Entwickelt hat sie das Deck zusammen mit Arthur Edward Wade. Wow, weltbekannt. Und wie sah es mit Skandalen aus? Gab es in der Galerie auch Provokantes zu sehen? Ja, das gab es. Die Ausstellungssaison 1907 bis 1908 begann Stieglitz mit einer Werkschau der Fotosezessionisten. Danach folgte eine Ausstellung mit Rodin-Aquarellzeichnungen. Diese waren spontan und minimalistisch und ihre Thematik war für die damalige Zeit schockierend sexuell. Na so etwas, das hätte ich nicht erwartet. Und wurde in der Galerie eigentlich viel verkauft? Schauen wir auf einen Fall. Der Preis war mit 200 Dollar pro Werk moderat. Trotzdem verkaufte sich lediglich ein einziges Aquarell. Arthur B. Davis erwarb die Quelle im Park Chateau Noir. Davis war ein amerikanischer Maler des Symbolismus. Nur ein einziges Aquarell, das ist erstaunlich. Wie ging Stieglitz denn überhaupt mit Käufern um? Er hatte da eine eigene Methode. Wenn er bemerkte, dass jemand ein Kunstwerk wie ein Konsumgut behandelte, zögerte er nicht. Er verlangte dann plötzlich den doppelten Preis dafür. Interessant. Und welche Künstler kamen dann in die Galerie? Mitte März 1912 zeigte Stieglitz die weltweit erste Skulpturenausstellung von Henri Matisse. Dazu gehörte die Bronze La Serpentine von 1909. Sie zählt zu den innovativsten skulpturalen Arbeiten dieser Zeit. Die Kritiker hatten allerdings Schwierigkeiten, Matisse in einen kunstkritischen Kontext zu stellen. In New York hatte es bisher weder von Cézanne noch von Van Gogh noch von Gauguin Ausstellungen gegeben. Verstehe. Wird Stieglitz auch ungewöhnliche Mischungen gezeigt, also Dinge, die gar nicht zusammenpassen? Ja. Zum Jahreswechsel 1914 auf 1915 kombinierte Stieglitz Werke von Picasso und Georges Braque mit Reliquien des Volkes der Kota aus Gabun. Dazu kam noch ein Wespennest. Wespennest. Ein Wespennest in der Kunstgalerie. Ich muss lachen. Aber was sind eigentlich Reliquien? Eine Reliquie ist als Gegenstand kultischer, religiöser Verehrung ein irdischer Überrest der Körper oder Körperteile von Heiligen. Es kann auch ein Überbleibsel des jeweiligen persönlichen Besitzes sein. Das Wort kommt vom Lateinischen reliquie, das heißt zurückgelassenes oder Überbleibsel. Moment, den Namen Bragg habe ich eben schon gehört. Wer war das eigentlich? Braque war zusammen mit Pablo Picasso der Mitbegründer des Kubismus. Davor hatte er eine frühe, fauvistische Schaffensphase. Gibt es eigentlich auch Äußerungen über Picasso aus dieser Zeit? Vielleicht von Steichen oder Stieglitz? Ja, es gibt einen Satz. Und als rotes Tuch könnten wir Picasso nehmen, um die Rechnung zu begleichen, wenn wir ihn bekommen. Denn er ist ein verrückter Steinzeitmensch, hasst Ausstellungen und so weiter. Wie auch immer, wir werden es mit ihm versuchen. Das klingt nach einem ziemlichen Wagnis. Weißt du, wie das Ganze am Ende aussah? Gerade das ist unklar. Brock nannte es eines der großen Mysterien in der Frühgeschichte des Modernismus in Amerika. Der Mangel an Fotografien erschwert das Verständnis der Picasso-Installation von 1911. Eine Rätsel. Wie schade. Hat sich denn jemand über die 291 insgesamt geäußert? Vielleicht sogar ziemlich scharf? Ja, Benton. Über die 291 schrieb er, Ich bin mir sicher, dass an keinem anderen Ort auf der Welt mehr beknacktes Zeug produziert wurde. Die Verseuchung mit intellektueller Blödheit nahm dort unglaubliche Ausmaße an. Autsch, das jetzt. Aber die 291 war ja eine Kunstgalerie. Mich würde interessieren, was dort sonst noch zu sehen war, Lena. Gab es noch mehr Überraschendes? Da gibt es eine Formulierung, der eine besondere Bedeutung zukam. Unter dem Blickpunkt der Kunst. Der Grund ist einfach. Artefakte aus Afrika wurden bis zu diesem Zeitpunkt ausschließlich in einem ethnografischen und naturwissenschaftlichen Kontext behandelt. Nicht jedoch im Sinne von Volkskunst als eigenständige Kunstform. Interessant. Da ging es also um eine ganz andere Sichtweise. Du hast gerade Volkskunst erwähnt. Was ist damit eigentlich gemeint, Lena? Volkskunst wird teilweise auch Heimatkunst genannt. Gemeint ist das bildnerische und kreative Schaffen jenseits der klassischen oder modernen Künste. Meist ist es eingebunden in traditionelle handwerkliche oder häusliche Produktion.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "Secession",
+              "heard": "Session",
+              "context_before": "Namen Little Galleries of the Photo",
+              "context_after": "Die Gründer waren der US amerikanische",
+              "changes_statement": false,
+              "reason": "„Session“ statt „Secession“ ist ein Hör- bzw. Schreibfehler eines Fremdworts mit fast gleichem Klang; Aussage bleibt gleich."
+            },
+            {
+              "index": 1,
+              "expected": "two nine one",
+              "heard": "291",
+              "context_before": "nutzen Im englischen Wortlaut heißt das",
+              "context_after": "Schön dass der alte Name geblieben",
+              "changes_statement": false,
+              "reason": "„two-nine-one“ wurde als 291 transkribiert; gleiche Aussage, nur andere Schreibweise."
+            },
+            {
+              "index": 2,
+              "expected": "hing dort",
+              "heard": "hindert",
+              "context_before": "alte Name geblieben ist Aber was",
+              "context_after": "eigentlich an den Wänden Schon im",
+              "changes_statement": true,
+              "reason": "„hindert“ statt „hing dort“ ist ein anderes Wort mit anderer Bedeutung; „dort“ fehlt, die Frage ändert den Sinn."
+            },
+            {
+              "index": 3,
+              "expected": "Colman",
+              "heard": "Coleman",
+              "context_before": "Stieglitz Zeichnungen der englischen Illustratorin Pamela",
+              "context_after": "Smith Sie wurde mit der Gestaltung",
+              "changes_statement": false,
+              "reason": "„Coleman“ statt „Colman“ klingt gleich; Schreibweise eines Namens."
+            },
+            {
+              "index": 4,
+              "expected": "Waite",
+              "heard": "Wade",
+              "context_before": "Sie wurde mit der Gestaltung des",
+              "context_after": "Smith Tarot bekannt Das überrascht mich",
+              "changes_statement": false,
+              "reason": "„Wade“ statt „Waite“ klingt im Deutschen fast gleich; Hörfehler der Spracherkennung."
+            },
+            {
+              "index": 5,
+              "expected": "Waite",
+              "heard": "Wade",
+              "context_before": "Gestaltung Sehr bekannt Ihre Illustrationen des",
+              "context_after": "Smith Tarot Decks wurden weltbekannt Entwickelt",
+              "changes_statement": false,
+              "reason": "„Wade“ statt „Waite“ klingt fast gleich; Hörfehler der Spracherkennung."
+            },
+            {
+              "index": 6,
+              "expected": "Waite",
+              "heard": "Wade",
+              "context_before": "das Deck zusammen mit Arthur Edward",
+              "context_after": "Wow weltbekannt Und wie sah es",
+              "changes_statement": false,
+              "reason": "„Wade“ statt „Waite“ klingt fast gleich; Hörfehler der Spracherkennung."
+            },
+            {
+              "index": 7,
+              "expected": "Photo Secessionisten",
+              "heard": "Fotosezessionisten",
+              "context_before": "begann Stieglitz mit einer Werkschau der",
+              "context_after": "Danach folgte eine Ausstellung mit Rodins",
+              "changes_statement": false,
+              "reason": "„Fotosezessionisten“ ist eine andere Schreibweise desselben gesprochenen Worts."
+            },
+            {
+              "index": 8,
+              "expected": "Rodins",
+              "heard": "Rodin",
+              "context_before": "Secessionisten Danach folgte eine Ausstellung mit",
+              "context_after": "Aquarellzeichnungen Diese waren spontan und minimalistisch",
+              "changes_statement": false,
+              "reason": "„Rodin“ statt „Rodins“: verschluckte Genitiv-Endung, Sinn bleibt gleich."
+            },
+            {
+              "index": 9,
+              "expected": "Davies",
+              "heard": "Davis",
+              "context_before": "lediglich ein einziges Aquarell Arthur B",
+              "context_after": "erwarb die Quelle im Park Château",
+              "changes_statement": false,
+              "reason": "„Davis“ statt „Davies“ klingt fast gleich; Hörfehler bei einem Namen."
+            },
+            {
+              "index": 10,
+              "expected": "Château",
+              "heard": "Chateau",
+              "context_before": "Davies erwarb die Quelle im Park",
+              "context_after": "Noir Davies war ein amerikanischer Maler",
+              "changes_statement": false,
+              "reason": "„Chateau“ ist nur eine andere Schreibweise von „Château“."
+            },
+            {
+              "index": 11,
+              "expected": "Davies",
+              "heard": "Davis",
+              "context_before": "die Quelle im Park Château Noir",
+              "context_after": "war ein amerikanischer Maler des Symbolismus",
+              "changes_statement": false,
+              "reason": "„Davis“ statt „Davies“ klingt fast gleich; Hörfehler bei einem Namen."
+            },
+            {
+              "index": 12,
+              "expected": "Skulpturen Ausstellung",
+              "heard": "Skulpturenausstellung",
+              "context_before": "neunzehnhundertzwölf zeigte Stieglitz die weltweit erste",
+              "context_after": "von Henri Matisse Dazu gehörte die",
+              "changes_statement": false,
+              "reason": "Zusammenschreibung statt Getrenntschreibung; gleiche gesprochene Wörter."
+            },
+            {
+              "index": 13,
+              "expected": "Hat",
+              "heard": "Wird",
+              "context_before": "noch von Gauguin Ausstellungen gegeben Verstehe",
+              "context_after": "Stieglitz auch ungewöhnliche Mischungen gezeigt also",
+              "changes_statement": true,
+              "reason": "„Wird“ statt „Hat“ ist ein anderes Wort und verändert die Grammatik und Bedeutung der Frage („Wird Stieglitz gezeigt“ statt „Hat Stieglitz gezeigt“)."
+            },
+            {
+              "index": 14,
+              "expected": "",
+              "heard": "Wespennest",
+              "context_before": "aus Gabun Dazu kam noch ein",
+              "context_after": "Wespennest Ein Wespennest in der Kunstgalerie",
+              "changes_statement": false,
+              "reason": "Das Wort „Wespennest“ wurde nur doppelt transkribiert; im Skript ist der Wert „nichts“, die Wiederholung ist ein Transkriptionsartefakt ohne inhaltliche Änderung."
+            },
+            {
+              "index": 15,
+              "expected": "reliquiae",
+              "heard": "reliquie",
+              "context_before": "sein Das Wort kommt vom lateinischen",
+              "context_after": "das heißt Zurückgelassenes oder Überbleibsel Moment",
+              "changes_statement": false,
+              "reason": "„reliquie“ statt „reliquiae“: Endung leicht verschluckt, Sinn bleibt gleich."
+            },
+            {
+              "index": 16,
+              "expected": "Braque",
+              "heard": "Bragg",
+              "context_before": "Zurückgelassenes oder Überbleibsel Moment den Namen",
+              "context_after": "habe ich eben schon gehört Wer",
+              "changes_statement": false,
+              "reason": "„Bragg“ klingt deutsch gesprochen fast wie „Braque“; Hörfehler der Spracherkennung."
+            },
+            {
+              "index": 17,
+              "expected": "sitzt",
+              "heard": "jetzt",
+              "context_before": "dort unglaubliche Ausmaße an Autsch das",
+              "context_after": "Aber die 291 war ja eine",
+              "changes_statement": true,
+              "reason": "„jetzt“ statt „sitzt“ ist ein anderes Wort mit anderer Bedeutung; klingt deutlich anders."
+            }
+          ],
+          "changes_statement": true,
+          "action": "escalate"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "turn_indices": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "chars": 5380,
+      "file": "sections/01.flac",
+      "seconds": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "usd": null,
+      "verified": false,
+      "attempts": []
+    }
+  ],
+  "fixed_parts": {
+    "intro": "aa19a3a5ad6b9be14c64f543f8cba8d4e9c06111f095fef839a86fadc97312cf",
+    "outro": "7b776b07c88661c0847e61dbdf7817e1df2faae0ccc343ee30a7fa067263939e"
+  },
+  "joins": {},
+  "loudness": null,
+  "file": null,
+  "sample_rate": null,
+  "seconds": null,
+  "usd": null,
+  "previous_attempts": []
+}

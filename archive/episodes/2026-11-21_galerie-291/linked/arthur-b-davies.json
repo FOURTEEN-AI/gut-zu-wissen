@@ -1,0 +1,60 @@
+{
+  "title": "Arthur B. Davies",
+  "revid": 263889385,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-02-01T15:48:17Z",
+  "fetched_at": "2026-11-21T11:26:37Z",
+  "categories": [
+    "Kategorie:Geboren 1862",
+    "Kategorie:Gestorben 1928",
+    "Kategorie:Maler (Vereinigte Staaten)",
+    "Kategorie:Maler des Symbolismus",
+    "Kategorie:Mann",
+    "Kategorie:US-Amerikaner",
+    "Kategorie:Zeichner (Vereinigte Staaten)"
+  ],
+  "intro_wikitext": "[[Datei:Arthur B. Davies.jpg|mini|[[Gertrude Käsebier]]: ''Arthur B. Davies'', Fotografie um 1907]]\n[[Datei:Arthur B. Davies - Elysian Fields - Google Art Project.jpg|mini|''Elysische Felder,'' undatiert, Öl auf Leinwand, The Phillips Collection, Washington, D. C.]]\n'''Arthur Bowen Davies''' (* [[26. September]] [[1862]] in [[Utica (New York)|Utica]], [[New York (Bundesstaat)|New York]]; † [[24. Oktober]] [[1928]] in [[Florenz]], [[Italien]])<ref>{{Rkd.nl|ID=20191|Name=Arthur Bowen Davies}}</ref> war ein [[Vereinigte Staaten|amerikanischer]] [[Malerei|Maler]] des [[Symbolismus (bildende Kunst)|Symbolismus]]. Beeinflusst wurde er durch die [[Hudson River School]], vor allem durch den [[Luminismus|Luministen]] und Traumlandschaftsmaler [[George Inness]].",
+  "segments": [
+    {
+      "id": "263889385-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Arthur Bowen Davies''' (* [[26. September]] [[1862]] in [[Utica (New York)|Utica]], [[New York (Bundesstaat)|New York]]; † [[24. Oktober]] [[1928]] in [[Florenz]], [[Italien]])<ref>{{Rkd.nl|ID=20191|Name=Arthur Bowen Davies}}</ref> war ein [[Vereinigte Staaten|amerikanischer]] [[Malerei|Maler]] des [[Symbolismus (bildende Kunst)|Symbolismus]].",
+      "plain": null
+    },
+    {
+      "id": "263889385-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Beeinflusst wurde er durch die [[Hudson River School]], vor allem durch den [[Luminismus|Luministen]] und Traumlandschaftsmaler [[George Inness]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 263889385,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "263889385-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Arthur Bowen Davies (* 26. September 1862 in Utica, New York; † 24. Oktober 1928 in Florenz, Italien) war ein amerikanischer Maler des Symbolismus.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "263889385-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "263889385-0000"
+        ],
+        "plain": "Beeinflusst wurde er durch die Hudson River School, vor allem durch den Luministen und Traumlandschaftsmaler George Inness.",
+        "context_plain": [
+          "Arthur Bowen Davies (* 26. September 1862 in Utica, New York; † 24. Oktober 1928 in Florenz, Italien) war ein amerikanischer Maler des Symbolismus."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,3073 @@
+{
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "Lena",
+      "text": "Heute geht es um den Main. Er ist mit fünfhundertsiebenundzwanzig Kilometern Fließstrecke der längste rechte Nebenfluss des Rheins. Seine Quellflüsse entspringen an zwei ganz verschiedenen Orten: Der Weiße Main kommt aus dem Fichtelgebirge, der Rote Main aus der Fränkischen Alb.",
+      "fact_ids": [
+        "271811519-0019",
+        "271811519-0020"
+      ],
+      "statements": [
+        {
+          "text": "Der Main ist mit 527 Kilometern Fließstrecke der längste rechte Nebenfluss des Rheins.",
+          "fact_ids": [
+            "271811519-0019"
+          ]
+        },
+        {
+          "text": "Der Weiße Main entspringt im Fichtelgebirge, der Rote Main in der Fränkischen Alb.",
+          "fact_ids": [
+            "271811519-0020"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "speaker": "Felix",
+      "text": "Fünfhundertsiebenundzwanzig Kilometer, das ist schon eine ordentliche Strecke. Aber ist das auch der längste Weg, den Wasser im Main-System zurücklegen kann? Oder gibt es da noch eine Überraschung?",
+      "fact_ids": [
+        "271811519-0019"
+      ],
+      "statements": [
+        {
+          "text": "Der Main hat eine Fließstrecke von 527 Kilometern.",
+          "fact_ids": [
+            "271811519-0019"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "Lena",
+      "text": "Es gibt eine. Der längste Weg im Main-System führt nämlich über die Fichtenohe, die Pegnitz und die Regnitz in den Main. Die Pegnitz ist auf diesem Weg hundertachtundzwanzig Komma zwei fünf Kilometer lang, die Regnitz dreiundsechzig Komma sieben sechs. Dieser Weg erreicht den Main bei Mainkilometer dreihundertvierundachtzig Komma null sieben. Seine Gesamtlänge beträgt fünfhundertsechsundsiebzig Komma null acht Kilometer.",
+      "fact_ids": [
+        "255464297-0011"
+      ],
+      "statements": [
+        {
+          "text": "Der längste Weg im Main-System führt über die Fichtenohe, die Pegnitz und die Regnitz in den Main.",
+          "fact_ids": [
+            "255464297-0011"
+          ]
+        },
+        {
+          "text": "Die Pegnitz misst auf diesem Weg 128,25 Kilometer, die Regnitz 63,76 Kilometer.",
+          "fact_ids": [
+            "255464297-0011"
+          ]
+        },
+        {
+          "text": "Der Weg mündet bei Mainkilometer 384,07 in den Main und ist insgesamt 576,08 Kilometer lang.",
+          "fact_ids": [
+            "255464297-0011"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "Felix",
+      "text": "Die Fichtenohe habe ich bisher noch nie gehört. Wo entspringt denn dieser Fluss, der am Anfang des längsten Weges steht?",
+      "fact_ids": [
+        "255464297-0011"
+      ],
+      "statements": [
+        {
+          "text": "Der längste Weg im Main-System führt über die Fichtenohe.",
+          "fact_ids": [
+            "255464297-0011"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "Lena",
+      "text": "Die Fichtenohe entspringt in unmittelbarer Nähe der Quelle des Roten Mains. Und die Regnitz hat noch eine Besonderheit. An der Mündung führt sie deutlich mehr Wasser als der Main selbst, nämlich sechsundfünfzig Komma sechs Kubikmeter pro Sekunde gegenüber vierundvierzig Komma sieben. Deshalb kann sie hydrographisch sogar als der Hauptfluss des Mainsystems gelten.",
+      "fact_ids": [
+        "271811519-0038",
+        "271811519-0223"
+      ],
+      "statements": [
+        {
+          "text": "Die Fichtenohe entspringt in unmittelbarer Nähe der Quelle des Roten Mains.",
+          "fact_ids": [
+            "271811519-0038"
+          ]
+        },
+        {
+          "text": "Die Regnitz führt an der Mündung deutlich mehr Wasser als der Main, nämlich 56,6 gegenüber 44,7 Kubikmeter pro Sekunde.",
+          "fact_ids": [
+            "271811519-0223"
+          ]
+        },
+        {
+          "text": "Deshalb kann die Regnitz hydrographisch sogar als Hauptfluss des Mainsystems gelten.",
+          "fact_ids": [
+            "271811519-0223"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "speaker": "Felix",
+      "text": "Die Regnitz führt an der Mündung also mehr Wasser als der Main! Das überrascht mich. Aber wo hört dieses Flusssystem eigentlich auf, und wo beginnt das nächste?",
+      "fact_ids": [
+        "271811519-0223"
+      ],
+      "statements": [
+        {
+          "text": "Die Regnitz führt an der Mündung mehr Wasser als der Main.",
+          "fact_ids": [
+            "271811519-0223"
+          ]
+        },
+        {
+          "text": "Die Frage nach dem Ende des Flusssystems bezieht sich auf das Mainsystem, dessen Hauptfluss hydrographisch die Regnitz sein kann.",
+          "fact_ids": [
+            "271811519-0223"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "speaker": "Lena",
+      "text": "Im Süden grenzt das Einzugsgebiet des Mains an das der Donau. Wenige hundert Meter südlich der Weißmainquelle liegt die Quelle der Fichtelnaab. Die fließt über Naab und Donau ins Schwarze Meer ab. Die Grenze zwischen beiden Einzugsgebieten ist Teil der Europäischen Hauptwasserscheide.",
+      "fact_ids": [
+        "271811519-0041"
+      ],
+      "statements": [
+        {
+          "text": "Das Einzugsgebiet des Mains grenzt im Süden an das Einzugsgebiet der Donau.",
+          "fact_ids": [
+            "271811519-0041"
+          ]
+        },
+        {
+          "text": "Wenige hundert Meter südlich der Weißmainquelle liegt die Quelle der Fichtelnaab, die über Naab und Donau ins Schwarze Meer abfließt.",
+          "fact_ids": [
+            "271811519-0041"
+          ]
+        },
+        {
+          "text": "Die Grenze zwischen beiden Einzugsgebieten ist Teil der Europäischen Hauptwasserscheide.",
+          "fact_ids": [
+            "271811519-0041"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "speaker": "Felix",
+      "text": "Zwei Quellen, nur wenige hundert Meter auseinander, und ihr Wasser landet in ganz verschiedenen Meeren. War das immer so? Floss der Main schon immer in Richtung Rhein?",
+      "fact_ids": [
+        "271811519-0041",
+        "271811519-0019"
+      ],
+      "statements": [
+        {
+          "text": "Die Quelle der Fichtelnaab liegt wenige hundert Meter südlich der Weißmainquelle, und ihr Wasser fließt über die Donau ins Schwarze Meer.",
+          "fact_ids": [
+            "271811519-0041"
+          ]
+        },
+        {
+          "text": "Der Main ist ein Nebenfluss des Rheins.",
+          "fact_ids": [
+            "271811519-0019"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "speaker": "Lena",
+      "text": "Nein. Noch gegen Ende des Tertiärs, vor etwa zwei Komma sechs Millionen Jahren, wurde das Maingebiet durch mehrere Flussläufe nach Süden zur Donau hin entwässert.",
+      "fact_ids": [
+        "271811519-0235"
+      ],
+      "statements": [
+        {
+          "text": "Gegen Ende des Tertiärs vor etwa 2,6 Millionen Jahren wurde das Maingebiet durch mehrere Flussläufe nach Süden zur Donau hin entwässert.",
+          "fact_ids": [
+            "271811519-0235"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "speaker": "Felix",
+      "text": "Zur Donau also! Und was war noch davor? Gab es da schon so etwas wie einen Vorläufer des Mains?",
+      "fact_ids": [
+        "271811519-0235"
+      ],
+      "statements": [
+        {
+          "text": "Das Maingebiet wurde vor etwa 2,6 Millionen Jahren zur Donau hin entwässert.",
+          "fact_ids": [
+            "271811519-0235"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "speaker": "Lena",
+      "text": "Ja. Dieser Vorläufer floss nur bis Bamberg wie der heutige Main von Osten nach Westen. Von dort an folgte er dem heutigen Regnitz- und Rednitztal nach Süden. Bei Augsburg mündete er in ein Meer, das sich damals im Alpenvorland ausbreitete, einen Rest der Tethys.",
+      "fact_ids": [
+        "271811519-0233"
+      ],
+      "statements": [
+        {
+          "text": "Der Vorläufer des Mains floss nur bis Bamberg wie der heutige Main von Osten nach Westen.",
+          "fact_ids": [
+            "271811519-0233"
+          ]
+        },
+        {
+          "text": "Von Bamberg an floss er im heutigen Regnitz- und Rednitztal nach Süden.",
+          "fact_ids": [
+            "271811519-0233"
+          ]
+        },
+        {
+          "text": "Etwa bei Augsburg mündete er in das damals im Alpenvorland sich ausbreitende Meer, einen Rest der Tethys.",
+          "fact_ids": [
+            "271811519-0233"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "speaker": "Felix",
+      "text": "Ein Meer bei Augsburg, das kann man sich heute kaum vorstellen. Gab es auf dem Weg zum heutigen Lauf noch dramatische Ereignisse?",
+      "fact_ids": [
+        "271811519-0233"
+      ],
+      "statements": [
+        {
+          "text": "Der Vorläufer des Mains mündete bei Augsburg in einen Rest der Tethys.",
+          "fact_ids": [
+            "271811519-0233"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "speaker": "Lena",
+      "text": "Ja, und was für eines. Vor etwa vierzehn Komma sieben Millionen Jahren wurde der Urmain durch Trümmermassen eines Meteoriteneinschlags aufgestaut. Gemeint ist das Nördlinger Ries. Nördlich von Treuchtlingen entstand dadurch ein riesiger See. Er lief später wieder aus.",
+      "fact_ids": [
+        "271811519-0234"
+      ],
+      "statements": [
+        {
+          "text": "Vor etwa 14,7 Millionen Jahren wurde der Urmain durch Trümmermassen eines Meteoriteneinschlags, des Nördlinger Ries, nördlich von Treuchtlingen zu einem riesigen See aufgestaut.",
+          "fact_ids": [
+            "271811519-0234"
+          ]
+        },
+        {
+          "text": "Der See lief später wieder aus.",
+          "fact_ids": [
+            "271811519-0234"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "speaker": "Felix",
+      "text": "Wahnsinn, damit hätte ich nie gerechnet! Springen wir in die Gegenwart. Wie sind Main und Donau heute miteinander verbunden?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 14,
+      "speaker": "Lena",
+      "text": "Durch den Main-Donau-Kanal. Er ist rund einhunderteinundsiebzig Kilometer lang, eine Bundeswasserstraße in Bayern, und verbindet den Main bei Bamberg mit der Donau bei Kelheim. Mit ihm entstand eine durchgehende Großschifffahrtsstraße, genannt Europakanal. Sie führt über Rhein, Main und Donau von der Nordsee bei Rotterdam bis zum Schwarzen Meer bei Constanța in Rumänien.",
+      "fact_ids": [
+        "272171794-0014",
+        "272171794-0016"
+      ],
+      "statements": [
+        {
+          "text": "Der Main-Donau-Kanal ist eine rund 171 Kilometer lange Bundeswasserstraße in Bayern, die den Main bei Bamberg mit der Donau bei Kelheim verbindet.",
+          "fact_ids": [
+            "272171794-0014"
+          ]
+        },
+        {
+          "text": "Mit dem Kanal entstand eine durchgehende Großschifffahrtsstraße, genannt Europakanal, zwischen der Nordsee bei Rotterdam und dem Schwarzen Meer bei Constanța in Rumänien.",
+          "fact_ids": [
+            "272171794-0016"
+          ]
+        },
+        {
+          "text": "Diese Schifffahrtsstraße verläuft über Rhein, Main und Donau.",
+          "fact_ids": [
+            "272171794-0016"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "speaker": "Felix",
+      "text": "Von Rotterdam bis ans Schwarze Meer, auf einer durchgehenden Wasserstraße. Das klingt nach einer ziemlichen Strecke. Wie kommt der Kanal denn von einem Fluss zum anderen?",
+      "fact_ids": [
+        "272171794-0016"
+      ],
+      "statements": [
+        {
+          "text": "Es gibt eine durchgehende Großschifffahrtsstraße von der Nordsee bei Rotterdam bis zum Schwarzen Meer bei Constanța, die über Rhein, Main und Donau verläuft.",
+          "fact_ids": [
+            "272171794-0016"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "speaker": "Lena",
+      "text": "Über die sogenannte Scheitelhaltung. Das ist ein siebzehn Kilometer langer Abschnitt, der die Fränkische Alb überquert, ein Mittelgebirge. Dort verläuft die Europäische Hauptwasserscheide Rhein–Donau. Mit vierhundertsechs Metern über Normalhöhennull ist er der höchste Punkt des europäischen Wasserstraßennetzes.",
+      "fact_ids": [
+        "272171794-0020"
+      ],
+      "statements": [
+        {
+          "text": "Der Kanal kommt über die Scheitelhaltung von einem Fluss zum anderen: Sie ist siebzehn Kilometer lang und überquert das Mittelgebirge Fränkische Alb als Europäische Hauptwasserscheide Rhein–Donau.",
+          "fact_ids": [
+            "272171794-0020"
+          ]
+        },
+        {
+          "text": "Die Scheitelhaltung liegt auf vierhundertsechs Metern über Normalhöhennull und ist der höchste Punkt des europäischen Wasserstraßennetzes.",
+          "fact_ids": [
+            "272171794-0020"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "speaker": "Felix",
+      "text": "Das ist ja ein Berg für Schiffe. Wann wurde der Kanal eigentlich eröffnet, und hat er etwas im Fluss verändert?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 18,
+      "speaker": "Lena",
+      "text": "Eröffnet wurde er neunzehnhundertzweiundneunzig. Seitdem sind etwa zwanzig Arten aus dem Donauraum in den Main zugewandert. Dazu zählen unter anderem der Blaubandbärbling, die Marmorierte Grundel, der Rapfen, die Zährte und der Zobel.",
+      "fact_ids": [
+        "271811519-0336"
+      ],
+      "statements": [
+        {
+          "text": "Der Main-Donau-Kanal wurde 1992 eröffnet.",
+          "fact_ids": [
+            "271811519-0336"
+          ]
+        },
+        {
+          "text": "Seit der Eröffnung sind etwa 20 Arten aus dem Donauraum in den Main zugewandert.",
+          "fact_ids": [
+            "271811519-0336"
+          ]
+        },
+        {
+          "text": "Darunter sind Blaubandbärbling, Marmorierte Grundel, Rapfen, Zährte und Zobel.",
+          "fact_ids": [
+            "271811519-0336"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "speaker": "Felix",
+      "text": "Zwanzig neue Fischarten, das ist eine Menge. Bleiben die im Main, oder schwimmen sie noch weiter?",
+      "fact_ids": [
+        "271811519-0336"
+      ],
+      "statements": [
+        {
+          "text": "Seit der Eröffnung des Kanals sind etwa 20 Arten aus dem Donauraum in den Main zugewandert.",
+          "fact_ids": [
+            "271811519-0336"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "speaker": "Lena",
+      "text": "Zumindest der Zobel ist weitergewandert. Über den Main-Donau-Kanal ist er mittlerweile in den Rhein eingewandert. Am Fischpass der Staustufe Iffezheim wird er regelmäßig nachgewiesen.",
+      "fact_ids": [
+        "261512923-0013"
+      ],
+      "statements": [
+        {
+          "text": "Der Zobel ist über den Main-Donau-Kanal in den Rhein eingewandert.",
+          "fact_ids": [
+            "261512923-0013"
+          ]
+        },
+        {
+          "text": "Am Fischpass der Staustufe Iffezheim wird er regelmäßig nachgewiesen.",
+          "fact_ids": [
+            "261512923-0013"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "speaker": "Felix",
+      "text": "Fische nutzen den Kanal also als Weg von der Donau zum Rhein. Fließt denn auch Wasser durch ihn von einem Einzugsgebiet ins andere?",
+      "fact_ids": [
+        "261512923-0013"
+      ],
+      "statements": [
+        {
+          "text": "Der Zobel ist über den Kanal in den Rhein eingewandert.",
+          "fact_ids": [
+            "261512923-0013"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "speaker": "Lena",
+      "text": "Ja. Die Kanalrinne ist zusammen mit dem Fränkischen Seenland Teil der Donau-Main-Überleitung. Diese versorgt das von zeitweiliger Trockenheit bedrohte System von Regnitz und Main mit Wasser aus Donau und Altmühl.",
+      "fact_ids": [
+        "272171794-0022"
+      ],
+      "statements": [
+        {
+          "text": "Die Kanalrinne ist zusammen mit dem Fränkischen Seenland Teil der Donau-Main-Überleitung.",
+          "fact_ids": [
+            "272171794-0022"
+          ]
+        },
+        {
+          "text": "Die Überleitung versorgt das von zeitweiliger Trockenheit bedrohte System von Regnitz und Main mit Wasser aus Donau und Altmühl.",
+          "fact_ids": [
+            "272171794-0022"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "speaker": "Felix",
+      "text": "Die Regnitz und der Main sind also auf Nachschub aus der Donau und der Altmühl angewiesen? Um wie viel Wasser geht es denn da?",
+      "fact_ids": [
+        "272171794-0022"
+      ],
+      "statements": [
+        {
+          "text": "Das von zeitweiliger Trockenheit bedrohte System von Regnitz und Main wird mit Wasser aus Donau und Altmühl versorgt.",
+          "fact_ids": [
+            "272171794-0022"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "speaker": "Lena",
+      "text": "Es geht um bis zu fünfzehn Kubikmeter pro Sekunde. So viel mehr Wasser führt die Regnitz dann bei Niedrigwasser. Das Wasser kommt aus der Altmühl und über den Main-Donau-Kanal in das Einzugsgebiet des Mains.",
+      "fact_ids": [
+        "271811519-0257"
+      ],
+      "statements": [
+        {
+          "text": "Die Niedrigwasserführung der Regnitz wird um bis zu fünfzehn Kubikmeter pro Sekunde erhöht.",
+          "fact_ids": [
+            "271811519-0257"
+          ]
+        },
+        {
+          "text": "Dafür wird Wasser aus der Altmühl und über den Main-Donau-Kanal in das Einzugsgebiet des Mains geleitet.",
+          "fact_ids": [
+            "271811519-0257"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "speaker": "Felix",
+      "text": "Genug vom Kanal. Wie war das früher im Winter? Fror der Main manchmal zu?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 26,
+      "speaker": "Lena",
+      "text": "Und wie! Bis Ende des neunzehnten Jahrhunderts fror der Main etwa in jedem zweiten Jahr über seinen gesamten Lauf zu. Das geschah frühestens im November, so fünfzehnhundertdreizehn schon am dreizehnten November, und spätestens im Januar.",
+      "fact_ids": [
+        "271811519-0295"
+      ],
+      "statements": [
+        {
+          "text": "Bis Ende des 19. Jahrhunderts fror der Main etwa in jedem zweiten Jahr über seinen gesamten Lauf zu.",
+          "fact_ids": [
+            "271811519-0295"
+          ]
+        },
+        {
+          "text": "Das geschah frühestens im November, 1513 am 13. November, und spätestens im Januar.",
+          "fact_ids": [
+            "271811519-0295"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "speaker": "Felix",
+      "text": "In jedem zweiten Jahr! Wie lange hielt so eine Eisdecke denn maximal?",
+      "fact_ids": [
+        "271811519-0295"
+      ],
+      "statements": [
+        {
+          "text": "Der Main fror bis Ende des 19. Jahrhunderts etwa in jedem zweiten Jahr zu.",
+          "fact_ids": [
+            "271811519-0295"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "speaker": "Lena",
+      "text": "Die längste Vereisung gab es siebzehnhundertachtundsechzig. Sie dauerte neunundsiebzig Tage, vom dritten Januar bis zum zweiundzwanzigsten März.",
+      "fact_ids": [
+        "271811519-0298"
+      ],
+      "statements": [
+        {
+          "text": "Die längste Vereisung im Jahr 1768 dauerte 79 Tage, vom 3. Januar bis zum 22. März.",
+          "fact_ids": [
+            "271811519-0298"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "speaker": "Felix",
+      "text": "Fast drei Monate unter Eis, das überrascht mich! Gab es denn auch ein letztes Mal, dass der Main in Frankfurt zugefroren ist?",
+      "fact_ids": [
+        "271811519-0298",
+        "271811519-0301"
+      ],
+      "statements": [
+        {
+          "text": "Die längste Vereisung dauerte fast drei Monate, nämlich neunundsiebzig Tage.",
+          "fact_ids": [
+            "271811519-0298"
+          ]
+        },
+        {
+          "text": "Der Main in Frankfurt ist in der Vergangenheit zugefroren, es gab also ein letztes Mal.",
+          "fact_ids": [
+            "271811519-0301"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "speaker": "Lena",
+      "text": "Ja, das gab es. In Frankfurt fror der Main zuletzt im Winter neunzehnhundertzweiundsechzig auf dreiundsechzig zu.",
+      "fact_ids": [
+        "271811519-0301"
+      ],
+      "statements": [
+        {
+          "text": "In Frankfurt fror der Main zuletzt im Winter 1962/1963 zu.",
+          "fact_ids": [
+            "271811519-0301"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "speaker": "Felix",
+      "text": "Interessant! Eis ist das eine Extrem. Wie war es mit dem anderen: Hochwasser? Gibt es davon alte Berichte?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 32,
+      "speaker": "Lena",
+      "text": "Ja, und zwar sehr alte. Die Frankfurter Mainbrücke hatte große Bedeutung für den Verkehr. Deshalb finden sich in den ältesten Berichten immer wieder Hinweise auf Hochwasserschäden. Genannt werden zum Beispiel elfhundertzweiundneunzig, zwölfhundertfünfunddreißig und dreizehnhundertsechs.",
+      "fact_ids": [
+        "271811519-0271"
+      ],
+      "statements": [
+        {
+          "text": "Die Frankfurter Mainbrücke hatte große Bedeutung für den Verkehr.",
+          "fact_ids": [
+            "271811519-0271"
+          ]
+        },
+        {
+          "text": "In den ältesten Berichten finden sich immer wieder Hinweise auf Hochwasserschäden, zum Beispiel für die Jahre 1192, 1235 und 1306.",
+          "fact_ids": [
+            "271811519-0271"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "speaker": "Felix",
+      "text": "Dreizehnhundertsechs klingt nach einer besonderen Geschichte. Was ist in diesem Jahr passiert?",
+      "fact_ids": [
+        "271811519-0271"
+      ],
+      "statements": [
+        {
+          "text": "Für das Jahr 1306 wird ein Hochwasserschaden berichtet.",
+          "fact_ids": [
+            "271811519-0271"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "speaker": "Lena",
+      "text": "Die Geschichte geht einem wirklich nah, finde ich. Aber du fragst bestimmt gleich nach den Zahlen, oder?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 35,
+      "speaker": "Felix",
+      "text": "Ja, ertappt! Das geht mir wirklich nah. Gab es denn bei diesen Hochwassern auch einen Wasserstand, der besonders herausstach?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 36,
+      "speaker": "Lena",
+      "text": "Es gibt einen Stand von etwa siebenhundertfünfundachtzig Zentimetern am Pegel. Er wurde niemals sonst erreicht.",
+      "fact_ids": [
+        "271811519-0289"
+      ],
+      "statements": [
+        {
+          "text": "Ein Wasserstand von etwa 785 cm am Pegel wurde niemals sonst erreicht.",
+          "fact_ids": [
+            "271811519-0289"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "speaker": "Felix",
+      "text": "Gewaltig! Das lässt mich staunen. Wechseln wir mal von den Fluten zu den Lebewesen im Fluss: Wie ging es den Fischen im Main?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 38,
+      "speaker": "Lena",
+      "text": "Da gab es einen drastischen Einbruch. An vielen Orten bestanden seit dem Mittelalter Fischerzünfte, in Frankfurt am Main zum Beispiel seit dem Jahr neunhundertfünfundvierzig. Dann kamen die Flussregulierung und die für die Schifffahrt nötigen Veränderungen der Gewässerstruktur, etwa Uferbefestigungen. Zusammen mit der Wasserverschmutzung führte das zu einem drastischen Rückgang der Fischarten. Am Untermain sank ihre Zahl von etwa dreißig bis fünfunddreißig auf vier.",
+      "fact_ids": [
+        "271811519-0327"
+      ],
+      "statements": [
+        {
+          "text": "An vielen Orten gab es seit dem Mittelalter Fischerzünfte, in Frankfurt am Main zum Beispiel seit dem Jahr 945.",
+          "fact_ids": [
+            "271811519-0327"
+          ]
+        },
+        {
+          "text": "Die Flussregulierung und die wegen der Schifffahrt nötigen Veränderungen der Gewässerstruktur, etwa Uferbefestigungen, führten zusammen mit der Wasserverschmutzung zu einem drastischen Rückgang der Fischarten.",
+          "fact_ids": [
+            "271811519-0327"
+          ]
+        },
+        {
+          "text": "Am Untermain sank die Zahl der Fischarten von etwa 30 bis 35 auf vier.",
+          "fact_ids": [
+            "271811519-0327"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "speaker": "Felix",
+      "text": "Das klingt dramatisch. Wie konnte man zeigen, wie schlecht das Wasser war?",
+      "fact_ids": [
+        "271811519-0327"
+      ],
+      "statements": [
+        {
+          "text": "Die Fischarten gingen drastisch zurück, auch wegen der Wasserverschmutzung.",
+          "fact_ids": [
+            "271811519-0327"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "speaker": "Lena",
+      "text": "Dazu gab es ein Experiment mit Goldfischen. Einer der Goldfische, dessen Aquarium mit Wasser aus einer Stelle unterhalb des Werkes Höchst gefüllt worden war, überlebte es nicht.",
+      "fact_ids": [
+        "271811519-0312"
+      ],
+      "statements": [
+        {
+          "text": "Bei einem Experiment mit Goldfischen überlebte einer der Fische nicht, dessen Aquarium mit Wasser aus einer Stelle unterhalb des Werkes Höchst gefüllt worden war.",
+          "fact_ids": [
+            "271811519-0312"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "speaker": "Felix",
+      "text": "Autsch, das klingt nicht gut. Wurde denn dagegen etwas unternommen?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 42,
+      "speaker": "Lena",
+      "text": "Ja, es wurden Kläranlagen gebaut. Das Klärwerk Niederrad in Frankfurt ging achtzehnhundertsiebenundachtzig in Betrieb, als erste Kläranlage Deutschlands. Dazu kamen zahlreiche weitere kommunale und industrielle Abwasserreinigungsanlagen. Geändert haben sie daran aber nichts.",
+      "fact_ids": [
+        "271811519-0306"
+      ],
+      "statements": [
+        {
+          "text": "Das Klärwerk Niederrad in Frankfurt ging 1887 als erste Kläranlage Deutschlands in Betrieb.",
+          "fact_ids": [
+            "271811519-0306"
+          ]
+        },
+        {
+          "text": "Auch zahlreiche weitere kommunale und industrielle Abwasserreinigungsanlagen wurden gebaut.",
+          "fact_ids": [
+            "271811519-0306"
+          ]
+        },
+        {
+          "text": "Der Bau des Klärwerks und der weiteren Anlagen änderte nichts daran.",
+          "fact_ids": [
+            "271811519-0306"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "speaker": "Felix",
+      "text": "Das ist ernüchternd. Schauen wir auf die Schifffahrt: Wie kamen Schiffe früher den Fluss hinauf?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 44,
+      "speaker": "Lena",
+      "text": "Mit Hilfe einer Kette. Im Fluss wurde eine Kette verlegt, an der sich ein Dampfschlepper entlanghangeln konnte.",
+      "fact_ids": [
+        "271811519-0409"
+      ],
+      "statements": [
+        {
+          "text": "Im Fluss wurde eine Kette verlegt, an der sich ein Dampfschlepper entlanghangeln konnte.",
+          "fact_ids": [
+            "271811519-0409"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "speaker": "Felix",
+      "text": "Ein Schlepper, der sich an einer Kette durch den Fluss zieht, was für ein Bild! Gab es auch am Wehr besondere Lösungen für Boote?",
+      "fact_ids": [
+        "271811519-0409",
+        "271811519-0093"
+      ],
+      "statements": [
+        {
+          "text": "Ein Dampfschlepper hangelte sich an einer im Fluss verlegten Kette entlang.",
+          "fact_ids": [
+            "271811519-0409"
+          ]
+        },
+        {
+          "text": "Es gibt am Main Wehre, zum Beispiel in Hausen.",
+          "fact_ids": [
+            "271811519-0093"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "speaker": "Lena",
+      "text": "Ja. Neunzehnhundertvierunddreißig wurde am Wehr in Hausen das weltweit erste Faltboot-Hebewerk gebaut.",
+      "fact_ids": [
+        "271811519-0093"
+      ],
+      "statements": [
+        {
+          "text": "1934 wurde am Wehr in Hausen das weltweit erste Faltboot-Hebewerk gebaut.",
+          "fact_ids": [
+            "271811519-0093"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "speaker": "Felix",
+      "text": "Beeindruckend! Hat der Main eigentlich auch Gebiete voneinander getrennt?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 48,
+      "speaker": "Lena",
+      "text": "Ja. Nach der Gründung des Bistums Bamberg im Jahr tausendsieben war der Main zwischen Hallstadt und Michelau rund achthundert Jahre die Grenze zum Bistum Würzburg.",
+      "fact_ids": [
+        "271811519-0094"
+      ],
+      "statements": [
+        {
+          "text": "Nach der Gründung des Bistums Bamberg 1007 war der Main zwischen Hallstadt und Michelau rund 800 Jahre Grenze zum Bistum Würzburg.",
+          "fact_ids": [
+            "271811519-0094"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "speaker": "Felix",
+      "text": "Spannend! Treuchtlingen kam vorhin schon beim See nach dem Meteoriteneinschlag vor. Gibt es dort noch andere Spuren der Vergangenheit?",
+      "fact_ids": [
+        "271811519-0234"
+      ],
+      "statements": [
+        {
+          "text": "Nördlich von Treuchtlingen wurde der Urmain durch Trümmermassen eines Meteoriteneinschlags zu einem riesigen See aufgestaut.",
+          "fact_ids": [
+            "271811519-0234"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "speaker": "Lena",
+      "text": "Ja. Reste der Fossa Carolina sind heute noch bei Treuchtlingen zu finden.",
+      "fact_ids": [
+        "271811519-0358"
+      ],
+      "statements": [
+        {
+          "text": "Reste der Fossa Carolina sind heute noch bei Treuchtlingen zu finden.",
+          "fact_ids": [
+            "271811519-0358"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "speaker": "Felix",
+      "text": "Das klingt nach einem Ausflugsziel. Kommen wir zu den Orten am Main. Gibt es dort Rekorde?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 52,
+      "speaker": "Lena",
+      "text": "Gleich mehrere. Rothenfels zu Füßen der romanischen gleichnamigen Burg ist mit etwa tausend Einwohnern die kleinste Stadt Bayerns. Und Kahl ist die tiefstgelegene Gemeinde in Bayern. Dort mündet das gleichnamige Flüsschen auf einhundertdrei Metern über Normalnull von rechts in den Main.",
+      "fact_ids": [
+        "271811519-0140",
+        "271811519-0166"
+      ],
+      "statements": [
+        {
+          "text": "Rothenfels zu Füßen der romanischen gleichnamigen Burg ist mit etwa 1000 Einwohnern die kleinste Stadt Bayerns.",
+          "fact_ids": [
+            "271811519-0140"
+          ]
+        },
+        {
+          "text": "Kahl ist die tiefstgelegene Gemeinde in Bayern.",
+          "fact_ids": [
+            "271811519-0166"
+          ]
+        },
+        {
+          "text": "In Kahl mündet das gleichnamige Flüsschen auf 103 m ü. NN von rechts in den Main.",
+          "fact_ids": [
+            "271811519-0166"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "speaker": "Felix",
+      "text": "Kurios! Gab es am Main auch Technik, die Geschichte geschrieben hat?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 54,
+      "speaker": "Lena",
+      "text": "Ja. Auf dem rechten Ufer, in Karlstein, entstand neunzehnhunderteinundsechzig das erste Atomkraftwerk der Bundesrepublik.",
+      "fact_ids": [
+        "271811519-0164"
+      ],
+      "statements": [
+        {
+          "text": "Auf dem rechten Ufer, in Karlstein, entstand 1961 das erste Atomkraftwerk der Bundesrepublik.",
+          "fact_ids": [
+            "271811519-0164"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "speaker": "Felix",
+      "text": "Spannend. Und auf der kulturellen Seite: Gab es berühmte Begegnungen?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 56,
+      "speaker": "Lena",
+      "text": "Im September achtzehnhundertfünfzehn trafen sich Johann Wolfgang von Goethe und Marianne von Willemer zum Tête-à-Tête.",
+      "fact_ids": [
+        "271811519-0195"
+      ],
+      "statements": [
+        {
+          "text": "Im September 1815 trafen sich Johann Wolfgang von Goethe und Marianne von Willemer zum Tête-à-Tête.",
+          "fact_ids": [
+            "271811519-0195"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "speaker": "Felix",
+      "text": "Oh, schön! Und wo endet der Main, den wir als Nebenfluss des Rheins kennengelernt haben?",
+      "fact_ids": [
+        "271811519-0019"
+      ],
+      "statements": [
+        {
+          "text": "Der Main ist ein Nebenfluss des Rheins.",
+          "fact_ids": [
+            "271811519-0019"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "speaker": "Lena",
+      "text": "Die letzten Orte am Main sind Kostheim auf dem rechten und Gustavsburg auf dem linken Ufer. Beide waren zusammen mit Bischofsheim rechtsrheinische Stadtteile von Mainz. Neunzehnhundertfünfundvierzig wurden sie durch eine alliierte Zonengrenze von der Stadt Mainz getrennt.",
+      "fact_ids": [
+        "271811519-0217"
+      ],
+      "statements": [
+        {
+          "text": "Die letzten Orte am Main sind Kostheim auf dem rechten und Gustavsburg auf dem linken Ufer.",
+          "fact_ids": [
+            "271811519-0217"
+          ]
+        },
+        {
+          "text": "Beide waren zusammen mit Bischofsheim rechtsrheinische Stadtteile von Mainz, die 1945 durch eine alliierte Zonengrenze von der Stadt Mainz getrennt wurden.",
+          "fact_ids": [
+            "271811519-0217"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "speaker": "Felix",
+      "text": "Welcher der beiden letzten Orte liegt denn direkt an der Mündung?",
+      "fact_ids": [
+        "271811519-0217"
+      ],
+      "statements": [
+        {
+          "text": "Kostheim und Gustavsburg sind die letzten Orte am Main.",
+          "fact_ids": [
+            "271811519-0217"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "speaker": "Lena",
+      "text": "Kostheim. Es liegt unmittelbar an der Mündung des Mains in den Rhein.",
+      "fact_ids": [
+        "270407548-0013"
+      ],
+      "statements": [
+        {
+          "text": "Kostheim liegt unmittelbar an der Mündung des Mains in den Rhein.",
+          "fact_ids": [
+            "270407548-0013"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "speaker": "Felix",
+      "text": "Gut, dann zum Schluss die Gegenwart. Was ist am Main bis heute lebendige Tradition?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 62,
+      "speaker": "Lena",
+      "text": "Der Betrieb der Mainfähren. Er ist seit zweitausendzweiundzwanzig als immaterielles Kulturerbe im Bayerischen Landesverzeichnis des Immateriellen Kulturerbes gelistet. Fährleute bringen ganzjährig Menschen, Tiere und Fahrzeuge auf Zuruf über den Main.",
+      "fact_ids": [
+        "271811519-0487"
+      ],
+      "statements": [
+        {
+          "text": "Der Betrieb der Mainfähren ist seit 2022 als immaterielles Kulturerbe im Bayerischen Landesverzeichnis des Immateriellen Kulturerbes gelistet.",
+          "fact_ids": [
+            "271811519-0487"
+          ]
+        },
+        {
+          "text": "Fährleute bringen ganzjährig Menschen, Tiere und Fahrzeuge auf Zuruf über den Main.",
+          "fact_ids": [
+            "271811519-0487"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "speaker": "Felix",
+      "text": "Auf Zuruf, das gefällt mir. Magst du uns zum Schluss noch den Bogen schließen?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 64,
+      "speaker": "Lena",
+      "text": "Gern. Vorher kommt aber noch ein Stück Baugeschichte. Ein sechs Kilometer langer und dreißig Meter breiter, tief eingeschnittener Kanal wurde von neunzehnhundertfünfzig bis neunzehnhundertsiebenundfünfzig angelegt. Das geschah im Rahmen der „Notstandsmaßnahme der wertschaffenden Arbeitslosenfürsorge“.",
+      "fact_ids": [
+        "271811519-0115"
+      ],
+      "statements": [
+        {
+          "text": "Ein sechs Kilometer langer und dreißig Meter breiter, tief eingeschnittener Kanal wurde von 1950 bis 1957 im Rahmen der „Notstandsmaßnahme der wertschaffenden Arbeitslosenfürsorge“ angelegt.",
+          "fact_ids": [
+            "271811519-0115"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "speaker": "Felix",
+      "text": "Was für ein Wortungetüm! Wurde bei Kanälen eigentlich auch mal etwas beendet?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 66,
+      "speaker": "Lena",
+      "text": "Ja. Ein im Zweiten Weltkrieg beschädigter Kanal wurde neunzehnhundertfünfzig aufgegeben.",
+      "fact_ids": [
+        "271811519-0099"
+      ],
+      "statements": [
+        {
+          "text": "Ein im Zweiten Weltkrieg beschädigter Kanal wurde 1950 aufgegeben.",
+          "fact_ids": [
+            "271811519-0099"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "speaker": "Felix",
+      "text": "Da steckt viel Wasserbau drin, das staune ich. Dann jetzt aber wirklich den Bogen, Lena.",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 68,
+      "speaker": "Lena",
+      "text": "Gern. Der Main ist mit fünfhundertsiebenundzwanzig Kilometern der längste rechte Nebenfluss des Rheins. Sein längster Weg führt über Fichtenohe, Pegnitz und Regnitz und misst fünfhundertsechsundsiebzig Komma null acht Kilometer. Die Regnitz führt an der Mündung mehr Wasser als der Main. Nur wenige hundert Meter südlich der Weißmainquelle liegt die Quelle der Fichtelnaab, deren Wasser über die Donau ins Schwarze Meer fließt. Noch gegen Ende des Tertiärs wurde das Maingebiet durch mehrere Flussläufe nach Süden zur Donau hin entwässert. Vor etwa vierzehn Komma sieben Millionen Jahren staute ein Meteoriteneinschlag den Urmain zu einem riesigen See auf. Heute verbindet der Main-Donau-Kanal den Main bei Bamberg mit der Donau bei Kelheim. Über diesen Kanal ist der Zobel bis in den Rhein gelangt. Der Main fror früher etwa in jedem zweiten Jahr zu, und die Fischarten am Untermain gingen drastisch zurück. Bis heute bringen Fährleute auf Zuruf Menschen, Tiere und Fahrzeuge über den Main.",
+      "fact_ids": [
+        "271811519-0019",
+        "255464297-0011",
+        "271811519-0223",
+        "271811519-0041",
+        "271811519-0235",
+        "271811519-0234",
+        "272171794-0014",
+        "261512923-0013",
+        "271811519-0295",
+        "271811519-0327",
+        "271811519-0487"
+      ],
+      "statements": [
+        {
+          "text": "Der Main ist mit 527 Kilometern Fließstrecke der längste rechte Nebenfluss des Rheins.",
+          "fact_ids": [
+            "271811519-0019"
+          ]
+        },
+        {
+          "text": "Der längste Weg im Main-System führt über Fichtenohe, Pegnitz und Regnitz in den Main und hat eine Gesamtlänge von 576,08 Kilometern.",
+          "fact_ids": [
+            "255464297-0011"
+          ]
+        },
+        {
+          "text": "Die Regnitz führt an der Mündung mehr Wasser als der Main.",
+          "fact_ids": [
+            "271811519-0223"
+          ]
+        },
+        {
+          "text": "Wenige hundert Meter südlich der Weißmainquelle liegt die Quelle der Fichtelnaab, die über Naab und Donau ins Schwarze Meer abfließt.",
+          "fact_ids": [
+            "271811519-0041"
+          ]
+        },
+        {
+          "text": "Noch gegen Ende des Tertiärs wurde das Maingebiet durch mehrere Flussläufe nach Süden zur Donau hin entwässert.",
+          "fact_ids": [
+            "271811519-0235"
+          ]
+        },
+        {
+          "text": "Vor etwa 14,7 Millionen Jahren wurde der Urmain durch Trümmermassen eines Meteoriteneinschlags zu einem riesigen See aufgestaut.",
+          "fact_ids": [
+            "271811519-0234"
+          ]
+        },
+        {
+          "text": "Der Main-Donau-Kanal verbindet den Main bei Bamberg mit der Donau bei Kelheim.",
+          "fact_ids": [
+            "272171794-0014"
+          ]
+        },
+        {
+          "text": "Über den Main-Donau-Kanal ist der Zobel in den Rhein eingewandert.",
+          "fact_ids": [
+            "261512923-0013"
+          ]
+        },
+        {
+          "text": "Bis Ende des 19. Jahrhunderts fror der Main etwa in jedem zweiten Jahr über seinen gesamten Lauf zu.",
+          "fact_ids": [
+            "271811519-0295"
+          ]
+        },
+        {
+          "text": "Die Zahl der Fischarten am Untermain ging drastisch zurück, von etwa 30 bis 35 auf vier.",
+          "fact_ids": [
+            "271811519-0327"
+          ]
+        },
+        {
+          "text": "Fährleute bringen ganzjährig Menschen, Tiere und Fahrzeuge auf Zuruf über den Main.",
+          "fact_ids": [
+            "271811519-0487"
+          ]
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "used_fact_ids": [
+    "271811519-0019",
+    "271811519-0020",
+    "255464297-0011",
+    "271811519-0038",
+    "271811519-0223",
+    "271811519-0041",
+    "271811519-0235",
+    "271811519-0233",
+    "271811519-0234",
+    "272171794-0014",
+    "272171794-0016",
+    "272171794-0020",
+    "271811519-0336",
+    "261512923-0013",
+    "272171794-0022",
+    "271811519-0257",
+    "271811519-0295",
+    "271811519-0298",
+    "271811519-0301",
+    "271811519-0271",
+    "271811519-0289",
+    "271811519-0327",
+    "271811519-0312",
+    "271811519-0306",
+    "271811519-0409",
+    "271811519-0093",
+    "271811519-0094",
+    "271811519-0358",
+    "271811519-0140",
+    "271811519-0166",
+    "271811519-0164",
+    "271811519-0195",
+    "271811519-0217",
+    "270407548-0013",
+    "271811519-0487",
+    "271811519-0115",
+    "271811519-0099"
+  ],
+  "conversation": 3,
+  "regenerations": [
+    {
+      "conversation": 1,
+      "turn_index": 4,
+      "kind": "retry",
+      "reason": "Der erste Satz „Sie entspringt in unmittelbarer Nähe der Quelle des Roten Mains“ bezieht sich auf die Regnitz. Fakt 0038 sagt aber nur, dass der Gewässerweg über Regnitz, Pegnitz und Fichtenohe in der Nähe der Quelle des Roten Mains entspringt, also die Fichtenohe als Quellbach. Dass die Regnitz selbst dort entspringt, steht nicht in den Fakten. Die Abflusszahlen (56,6 und 44,7 m³/s) und die hydrographische Hauptfluss-Aussage stimmen mit Fakt 0223 überein.",
+      "previous": {
+        "index": 4,
+        "speaker": "Lena",
+        "text": "Sie entspringt in unmittelbarer Nähe der Quelle des Roten Mains. Und die Regnitz hat noch eine Besonderheit. An der Mündung führt sie deutlich mehr Wasser als der Main selbst, nämlich sechsundfünfzig Komma sechs Kubikmeter pro Sekunde gegenüber vierundvierzig Komma sieben. Deshalb kann sie hydrographisch sogar als der Hauptfluss des Mainsystems gelten.",
+        "fact_ids": [
+          "271811519-0038",
+          "271811519-0223"
+        ],
+        "statements": [
+          {
+            "text": "Die Fichtenohe entspringt in unmittelbarer Nähe der Quelle des Roten Mains.",
+            "fact_ids": [
+              "271811519-0038"
+            ]
+          },
+          {
+            "text": "Die Regnitz führt an der Mündung mit 56,6 Kubikmetern pro Sekunde deutlich mehr Wasser als der Main mit 44,7.",
+            "fact_ids": [
+              "271811519-0223"
+            ]
+          },
+          {
+            "text": "Die Regnitz kann deshalb hydrographisch sogar als der Hauptfluss des Mainsystems gelten.",
+            "fact_ids": [
+              "271811519-0223"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 5,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 5,
+        "speaker": "Felix",
+        "text": "Der Nebenfluss hat an der Mündung also mehr Wasser als der Main! Das stellt die Rollen ja fast auf den Kopf. Wo hört dieses ganze Flusssystem eigentlich auf, und wo beginnt das nächste?",
+        "fact_ids": [
+          "271811519-0223"
+        ],
+        "statements": [
+          {
+            "text": "Die Regnitz führt an der Mündung mehr Wasser als der Main.",
+            "fact_ids": [
+              "271811519-0223"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 15,
+      "kind": "retry",
+      "reason": "Der Fakt 271811519-0041 wurde schon in Redebeitrag 6 und 7 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 15,
+        "speaker": "Felix",
+        "text": "Von Rotterdam bis ans Schwarze Meer, auf einer durchgehenden Wasserstraße. Dann muss der Kanal ja die Wasserscheide überqueren, von der du vorhin gesprochen hast. Wie macht er das?",
+        "fact_ids": [
+          "272171794-0016",
+          "271811519-0041",
+          "272171794-0014"
+        ],
+        "statements": [
+          {
+            "text": "Der Kanal bildet eine durchgehende Großschifffahrtsstraße zwischen Rotterdam und dem Schwarzen Meer.",
+            "fact_ids": [
+              "272171794-0016"
+            ]
+          },
+          {
+            "text": "Zwischen Main und Donau verläuft die Europäische Hauptwasserscheide.",
+            "fact_ids": [
+              "271811519-0041"
+            ]
+          },
+          {
+            "text": "Der Main-Donau-Kanal verbindet Main und Donau.",
+            "fact_ids": [
+              "272171794-0014"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 16,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 16,
+        "speaker": "Lena",
+        "text": "Auf der sogenannten Scheitelhaltung. Das ist ein siebzehn Kilometer langer Abschnitt, der das Mittelgebirge Fränkische Alb als Europäische Hauptwasserscheide Rhein–Donau überquert. Er liegt auf vierhundertsechs Meter über Normalhöhennull. Damit ist er der höchste Punkt des europäischen Wasserstraßennetzes.",
+        "fact_ids": [
+          "272171794-0020"
+        ],
+        "statements": [
+          {
+            "text": "Die Scheitelhaltung ist 17 Kilometer lang und überquert das Mittelgebirge Fränkische Alb als Europäische Hauptwasserscheide Rhein–Donau.",
+            "fact_ids": [
+              "272171794-0020"
+            ]
+          },
+          {
+            "text": "Sie liegt auf 406 Metern über Normalhöhennull und ist der höchste Punkt des europäischen Wasserstraßennetzes.",
+            "fact_ids": [
+              "272171794-0020"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 23,
+      "kind": "retry",
+      "reason": "Der Fakt 271811519-0223 wurde schon in Redebeitrag 4 und 5 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 23,
+        "speaker": "Felix",
+        "text": "Die Regnitz, die an der Mündung mehr Wasser führt als der Main, braucht also Nachschub? Um wie viel Wasser geht es denn da?",
+        "fact_ids": [
+          "271811519-0223",
+          "272171794-0022"
+        ],
+        "statements": [
+          {
+            "text": "Die Regnitz führt an der Mündung mehr Wasser als der Main.",
+            "fact_ids": [
+              "271811519-0223"
+            ]
+          },
+          {
+            "text": "Das System von Regnitz und Main ist von zeitweiliger Trockenheit bedroht und wird mit Wasser aus Donau und Altmühl versorgt.",
+            "fact_ids": [
+              "272171794-0022"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 24,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 24,
+        "speaker": "Lena",
+        "text": "Die Niedrigwasserführung der Regnitz wird um bis zu fünfzehn Kubikmeter pro Sekunde erhöht. Das heißt, bei Niedrigwasser fließt dort mehr Wasser. Dafür wird Wasser aus der Altmühl und über den Main-Donau-Kanal in das Einzugsgebiet des Mains geleitet.",
+        "fact_ids": [
+          "271811519-0257"
+        ],
+        "statements": [
+          {
+            "text": "Die Niedrigwasserführung der Regnitz wird um bis zu 15 Kubikmeter pro Sekunde erhöht.",
+            "fact_ids": [
+              "271811519-0257"
+            ]
+          },
+          {
+            "text": "Dafür wird Wasser aus der Altmühl und über den Main-Donau-Kanal in das Einzugsgebiet des Mains geleitet.",
+            "fact_ids": [
+              "271811519-0257"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 29,
+      "kind": "retry",
+      "reason": "Die Frage \"Und wann fror der Main zum letzten Mal zu?\" setzt voraus, dass der Main zugefroren ist. Das ist eine Prämisse mit Faktengehalt, und es sind keine Fakt-IDs zitiert, die sie belegen. Das \"Wahnsinn!\" ist als Reaktion belegfrei, aber die Prämisse der Frage nicht.",
+      "previous": {
+        "index": 29,
+        "speaker": "Felix",
+        "text": "Wahnsinn! Und wann fror der Main zum letzten Mal zu?",
+        "fact_ids": [],
+        "statements": []
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 29,
+      "kind": "retry",
+      "reason": "„Wahnsinn!“ und die Nachfrage sind zwar Reaktionen, aber die Frage setzt voraus, dass der Main zugefroren ist. Der zitierte Fakt nennt den Main nicht und spricht nur von einer „Vereisung“ im Jahr 1768. Dass es ein „letztes Mal“ gab, steht dort auch nicht. Die Prämisse ist also nicht belegt.",
+      "previous": {
+        "index": 29,
+        "speaker": "Felix",
+        "text": "Wahnsinn! Und wann fror der Main zum letzten Mal zu?",
+        "fact_ids": [
+          "271811519-0298"
+        ],
+        "statements": [
+          {
+            "text": "Der Main ist in der Vergangenheit zugefroren, einmal sogar über einen sehr langen Zeitraum.",
+            "fact_ids": [
+              "271811519-0298"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 29,
+      "kind": "retry",
+      "reason": "Der Fakt 271811519-0295 wurde schon in Redebeitrag 26 und 27 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 29,
+        "speaker": "Felix",
+        "text": "Wow! Der Main fror also früher oft zu. Wann war das in Frankfurt zum letzten Mal der Fall?",
+        "fact_ids": [
+          "271811519-0295"
+        ],
+        "statements": [
+          {
+            "text": "Der Main fror bis Ende des neunzehnten Jahrhunderts etwa in jedem zweiten Jahr über seinen gesamten Lauf zu.",
+            "fact_ids": [
+              "271811519-0295"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 29,
+      "kind": "retry",
+      "reason": "„Wow, das ist wirklich lang!“ ist eine Reaktion des Staunens auf die 79 Tage und damit belegfrei. Die Frage „wann hat der Main in Frankfurt zuletzt zugefroren?“ setzt aber voraus, dass der Main in Frankfurt zugefroren ist. Der zitierte Fakt nennt weder den Main noch Frankfurt, sondern nur eine Vereisung 1768 über 79 Tage. Die Prämisse ist deshalb nicht belegt.",
+      "previous": {
+        "index": 29,
+        "speaker": "Felix",
+        "text": "Wow, das ist wirklich lang! Und wann hat der Main in Frankfurt zuletzt zugefroren?",
+        "fact_ids": [
+          "271811519-0298"
+        ],
+        "statements": [
+          {
+            "text": "Die längste Vereisung des Mains dauerte neunundsiebzig Tage.",
+            "fact_ids": [
+              "271811519-0298"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 30,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 30,
+        "speaker": "Lena",
+        "text": "In Frankfurt fror der Main zum letzten Mal im Winter neunzehnhundertzweiundsechzig auf dreiundsechzig zu.",
+        "fact_ids": [
+          "271811519-0301"
+        ],
+        "statements": [
+          {
+            "text": "In Frankfurt fror der Main zum letzten Mal im Winter 1962/1963 zu.",
+            "fact_ids": [
+              "271811519-0301"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 34,
+      "kind": "retry",
+      "reason": "Der Fakt 271811519-0271 wurde schon in Redebeitrag 32 und 33 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 34,
+        "speaker": "Lena",
+        "text": "Am Lichtmesstag, am Abend des ersten Februar, war der Main in Frankfurt von Eis und Wasser so groß, dass er die beiden Türme und den größeren Teil der Brücke hinwegstieß. Auf der Brücke standen etwa fünfhundert Menschen, Männer und Frauen. Zehn von ihnen kamen ums Leben.",
+        "fact_ids": [
+          "271811519-0271"
+        ],
+        "statements": [
+          {
+            "text": "Am Abend des Lichtmesstages, dem 1. Februar 1306, war der Main in Frankfurt von Eis und Wasser so groß, dass er die beiden Türme und den größeren Teil der Brücke hinwegstieß.",
+            "fact_ids": [
+              "271811519-0271"
+            ]
+          },
+          {
+            "text": "Auf der Brücke standen etwa fünfhundert Menschen, von denen zehn umkamen.",
+            "fact_ids": [
+              "271811519-0271"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 35,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 35,
+        "speaker": "Felix",
+        "text": "Das ist erschütternd. Wie hoch stand das Wasser bei solchen Hochwassern eigentlich am Pegel?",
+        "fact_ids": [],
+        "statements": []
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 35,
+      "kind": "cascade",
+      "reason": "Der Fakt 271811519-0271 wurde schon in Redebeitrag 32 und 33 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 35,
+        "speaker": "Felix",
+        "text": "Das ist erschütternd. Und ja, ertappt! Wie hoch stand das Wasser bei solchen Hochwassern an der Frankfurter Mainbrücke eigentlich am Pegel?",
+        "fact_ids": [
+          "271811519-0271"
+        ],
+        "statements": [
+          {
+            "text": "In den ältesten Berichten über die Frankfurter Mainbrücke finden sich immer wieder Hinweise auf Hochwasserschäden.",
+            "fact_ids": [
+              "271811519-0271"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 37,
+      "kind": "retry",
+      "reason": "Der Fakt 271811519-0336 wurde schon in Redebeitrag 18 und 19 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 37,
+        "speaker": "Felix",
+        "text": "Gewaltig! Wechseln wir zu den Lebewesen im Fluss. Wie ging es den Fischen im Main über die Zeit?",
+        "fact_ids": [
+          "271811519-0336"
+        ],
+        "statements": [
+          {
+            "text": "Im Main leben Fischarten, von denen manche aus dem Donauraum zugewandert sind.",
+            "fact_ids": [
+              "271811519-0336"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 38,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 38,
+        "speaker": "Lena",
+        "text": "Da gab es einen drastischen Einbruch. An vielen Orten bestanden seit dem Mittelalter Fischerzünfte, in Frankfurt am Main zum Beispiel seit dem Jahr neunhundertfünfundvierzig. Dann kamen die Flussregulierung und die für die Schifffahrt nötigen Veränderungen der Gewässerstruktur, etwa Uferbefestigungen. Zusammen mit der Wasserverschmutzung führte das zu einem drastischen Rückgang der Fischarten. Am Untermain sank ihre Zahl von etwa dreißig bis fünfunddreißig auf vier.",
+        "fact_ids": [
+          "271811519-0327"
+        ],
+        "statements": [
+          {
+            "text": "An vielen Orten gab es seit dem Mittelalter Fischerzünfte, in Frankfurt am Main seit dem Jahr 945.",
+            "fact_ids": [
+              "271811519-0327"
+            ]
+          },
+          {
+            "text": "Flussregulierung und Gewässerstrukturveränderungen für die Schifffahrt, etwa Uferbefestigungen, führten zusammen mit der Wasserverschmutzung zu einem drastischen Rückgang der Fischarten.",
+            "fact_ids": [
+              "271811519-0327"
+            ]
+          },
+          {
+            "text": "Am Untermain sank die Zahl der Fischarten von etwa 30 bis 35 auf vier.",
+            "fact_ids": [
+              "271811519-0327"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 41,
+      "kind": "retry",
+      "reason": "Der Fakt 271811519-0327 wurde schon in Redebeitrag 38 und 39 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 41,
+        "speaker": "Felix",
+        "text": "Autsch. Hat man denn etwas gegen die Verschmutzung unternommen?",
+        "fact_ids": [
+          "271811519-0327"
+        ],
+        "statements": [
+          {
+            "text": "Es gab eine Wasserverschmutzung des Mains.",
+            "fact_ids": [
+              "271811519-0327"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 41,
+      "kind": "retry",
+      "reason": "Der Fakt 271811519-0327 wurde schon in Redebeitrag 38 und 39 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 41,
+        "speaker": "Felix",
+        "text": "Autsch. Und wurde gegen das schmutzige Wasser eigentlich etwas unternommen?",
+        "fact_ids": [
+          "271811519-0327",
+          "271811519-0312"
+        ],
+        "statements": [
+          {
+            "text": "Der Main war verschmutzt, und das Wasser unterhalb des Werkes Höchst überlebte einer der Goldfische nicht.",
+            "fact_ids": [
+              "271811519-0327",
+              "271811519-0312"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 42,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 42,
+        "speaker": "Lena",
+        "text": "Ja, auch das gab es. Das Klärwerk Niederrad in Frankfurt ging achtzehnhundertsiebenundachtzig als erste Kläranlage Deutschlands in Betrieb. Auch zahlreiche weitere kommunale und industrielle Abwasserreinigungsanlagen änderten daran nichts.",
+        "fact_ids": [
+          "271811519-0306"
+        ],
+        "statements": [
+          {
+            "text": "Das Klärwerk Niederrad in Frankfurt ging 1887 als erste Kläranlage Deutschlands in Betrieb.",
+            "fact_ids": [
+              "271811519-0306"
+            ]
+          },
+          {
+            "text": "Auch zahlreiche weitere kommunale und industrielle Abwasserreinigungsanlagen änderten daran nichts.",
+            "fact_ids": [
+              "271811519-0306"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 64,
+      "kind": "retry",
+      "reason": "Die Längenangabe stimmt nicht: Lena nennt „sechshundertsechsundsiebzig Komma null acht Kilometer“ (676,08 km), laut [255464297-0011] beträgt die Gesamtlänge aber 576,08 km. Die übrigen Aussagen sind durch die Fakt-Sätze gedeckt.",
+      "previous": {
+        "index": 64,
+        "speaker": "Lena",
+        "text": "Gern. Der Main ist mit fünfhundertsiebenundzwanzig Kilometern der längste rechte Nebenfluss des Rheins. Der längste Weg im Main-System führt über Fichtenohe, Pegnitz und Regnitz und misst sechshundertsechsundsiebzig Komma null acht Kilometer. Zu seiner Geschichte gehört ein Urmain, der durch die Trümmer eines Meteoriteneinschlags aufgestaut wurde. Mit dem Main-Donau-Kanal entstand eine durchgehende Großschifffahrtsstraße von Rotterdam bis Constanța. In Frankfurt fror der Main zuletzt im Winter neunzehnhundertzweiundsechzig auf dreiundsechzig zu. Hochwasser richtete Schäden an der Frankfurter Brücke an, und am Untermain sank die Zahl der Fischarten auf vier. Bis heute bringen Fährleute Menschen, Tiere und Fahrzeuge auf Zuruf über den Main.",
+        "fact_ids": [
+          "271811519-0019",
+          "255464297-0011",
+          "271811519-0234",
+          "272171794-0016",
+          "271811519-0301",
+          "271811519-0271",
+          "271811519-0327",
+          "271811519-0487"
+        ],
+        "statements": [
+          {
+            "text": "Der Main ist mit 527 Kilometern Fließstrecke der längste rechte Nebenfluss des Rheins.",
+            "fact_ids": [
+              "271811519-0019"
+            ]
+          },
+          {
+            "text": "Der längste Weg im Main-System führt über Fichtenohe, Pegnitz und Regnitz und misst 576,08 Kilometer.",
+            "fact_ids": [
+              "255464297-0011"
+            ]
+          },
+          {
+            "text": "Der Urmain wurde durch Trümmermassen eines Meteoriteneinschlags aufgestaut.",
+            "fact_ids": [
+              "271811519-0234"
+            ]
+          },
+          {
+            "text": "Mit dem Main-Donau-Kanal entstand eine durchgehende Großschifffahrtsstraße zwischen Rotterdam und Constanța.",
+            "fact_ids": [
+              "272171794-0016"
+            ]
+          },
+          {
+            "text": "In Frankfurt fror der Main zuletzt im Winter 1962/1963 zu.",
+            "fact_ids": [
+              "271811519-0301"
+            ]
+          },
+          {
+            "text": "Hochwasser richtete Schäden an der Frankfurter Mainbrücke an.",
+            "fact_ids": [
+              "271811519-0271"
+            ]
+          },
+          {
+            "text": "Am Untermain sank die Zahl der Fischarten auf vier.",
+            "fact_ids": [
+              "271811519-0327"
+            ]
+          },
+          {
+            "text": "Fährleute bringen ganzjährig Menschen, Tiere und Fahrzeuge auf Zuruf über den Main.",
+            "fact_ids": [
+              "271811519-0487"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 2,
+      "turn_index": 64,
+      "kind": "retry",
+      "reason": "Die Aussage „Mit dem Main-Donau-Kanal entstand eine durchgehende Großschifffahrtsstraße von Rotterdam bis Constanța“ ist nicht belegt. Der Fakt [272171794-0016] sagt nur „Mit ihm“ und nennt den Namen „Europakanal“. Der Name „Main-Donau-Kanal“ steht in keinem Fakt-Satz, und auch der Kontext (Bauzeit 1960–1992) nennt ihn nicht. Die übrigen Aussagen stimmen mit den Fakten überein.",
+      "previous": {
+        "index": 64,
+        "speaker": "Lena",
+        "text": "Gern. Der Main ist mit fünfhundertsiebenundzwanzig Kilometern der längste rechte Nebenfluss des Rheins. Der längste Weg im Main-System führt über die Fichtenohe, Pegnitz und Regnitz und misst fünfhundertsechsundsiebzig Komma null acht Kilometer. Zu seiner Geschichte gehört ein Urmain, der durch die Trümmer eines Meteoriteneinschlags aufgestaut wurde. Mit dem Main-Donau-Kanal entstand eine durchgehende Großschifffahrtsstraße von Rotterdam bis Constanța. In Frankfurt fror der Main zuletzt im Winter neunzehnhundertzweiundsechzig auf dreiundsechzig zu. Hochwasser richtete Schäden an der Frankfurter Brücke an, und am Untermain sank die Zahl der Fischarten auf vier. Bis heute bringen Fährleute Menschen, Tiere und Fahrzeuge auf Zuruf über den Main.",
+        "fact_ids": [
+          "271811519-0019",
+          "255464297-0011",
+          "271811519-0234",
+          "272171794-0016",
+          "271811519-0301",
+          "271811519-0271",
+          "271811519-0327",
+          "271811519-0487"
+        ],
+        "statements": [
+          {
+            "text": "Der Main ist mit 527 Kilometern Fließstrecke der längste rechte Nebenfluss des Rheins.",
+            "fact_ids": [
+              "271811519-0019"
+            ]
+          },
+          {
+            "text": "Der längste Weg im Main-System führt über die Fichtenohe, Pegnitz und Regnitz in den Main und hat eine Gesamtlänge von 576,08 Kilometern.",
+            "fact_ids": [
+              "255464297-0011"
+            ]
+          },
+          {
+            "text": "Der Urmain wurde vor etwa 14,7 Millionen Jahren durch Trümmermassen eines Meteoriteneinschlags zu einem riesigen See aufgestaut.",
+            "fact_ids": [
+              "271811519-0234"
+            ]
+          },
+          {
+            "text": "Mit dem Main-Donau-Kanal entstand eine durchgehende Großschifffahrtsstraße zwischen der Nordsee bei Rotterdam und dem Schwarzen Meer bei Constanța.",
+            "fact_ids": [
+              "272171794-0016"
+            ]
+          },
+          {
+            "text": "In Frankfurt fror der Main zum letzten Mal im Winter 1962/1963 zu.",
+            "fact_ids": [
+              "271811519-0301"
+            ]
+          },
+          {
+            "text": "Wegen der großen Bedeutung der Frankfurter Mainbrücke finden sich in den ältesten Berichten immer wieder Hinweise auf Hochwasserschäden.",
+            "fact_ids": [
+              "271811519-0271"
+            ]
+          },
+          {
+            "text": "Am Untermain ging die Zahl der Fischarten von etwa 30 bis 35 auf vier zurück.",
+            "fact_ids": [
+              "271811519-0327"
+            ]
+          },
+          {
+            "text": "Fährleute bringen ganzjährig Menschen, Tiere und Fahrzeuge auf Zuruf über den Main, und der Betrieb der Mainfähren ist seit 2022 als immaterielles Kulturerbe gelistet.",
+            "fact_ids": [
+              "271811519-0487"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    }
+  ],
+  "discarded_conversations": [
+    {
+      "conversation": 1,
+      "reason": "Turn regeneration budget used up (judge, 2x).",
+      "excluded_fact_ids": [
+        "271811519-0038",
+        "271811519-0223",
+        "271811519-0298",
+        "271811519-0505"
+      ],
+      "dialog": {
+        "turns": [
+          {
+            "index": 29,
+            "speaker": "Felix",
+            "text": "Wahnsinn! Das ist ja eine lange Zeit. Gab es danach noch einmal so eine Eisphase, und wo?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 30,
+            "speaker": "Lena",
+            "text": "In Frankfurt zum letzten Mal im Winter neunzehnhundertzweiundsechzig auf dreiundsechzig.",
+            "fact_ids": [
+              "271811519-0301"
+            ],
+            "statements": [
+              {
+                "text": "In Frankfurt fror der Main zum letzten Mal im Winter 1962/1963 zu.",
+                "fact_ids": [
+                  "271811519-0301"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 31,
+            "speaker": "Felix",
+            "text": "Von Eis zu Wasser: Gab es am Main auch Hochwasser, die richtig Schaden angerichtet haben?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 32,
+            "speaker": "Lena",
+            "text": "Ja, schon die ältesten Berichte erzählen davon. Weil die Frankfurter Mainbrücke für den Verkehr so wichtig war, werden Hochwasserschäden immer wieder erwähnt, zum Beispiel elfhundertzweiundneunzig, zwölfhundertfünfunddreißig und dreizehnhundertsechs. Im Bericht von dreizehnhundertsechs heißt es: Am ersten Februar waren Eis und Wasser in Frankfurt so groß, dass sie die zwei Türme und den größeren Teil der Brücke wegstießen. Auf der Brücke standen etwa fünfhundert Menschen. Zehn von ihnen kamen ums Leben.",
+            "fact_ids": [
+              "271811519-0271"
+            ],
+            "statements": [
+              {
+                "text": "Wegen der großen Bedeutung der Frankfurter Mainbrücke für den Verkehr finden sich in den ältesten Berichten immer wieder Hinweise auf Hochwasserschäden, zum Beispiel 1192, 1235 und 1306.",
+                "fact_ids": [
+                  "271811519-0271"
+                ]
+              },
+              {
+                "text": "Laut dem Bericht von 1306 stießen Eis und Wasser am 1. Februar in Frankfurt die zwei Türme und den größeren Teil der Brücke weg.",
+                "fact_ids": [
+                  "271811519-0271"
+                ]
+              },
+              {
+                "text": "Etwa fünfhundert Menschen standen auf der Brücke, zehn kamen ums Leben.",
+                "fact_ids": [
+                  "271811519-0271"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 33,
+            "speaker": "Felix",
+            "text": "Fünfhundert Menschen auf einer Brücke, die weggerissen wird. Das ist erschütternd. Gab es noch höhere Wasserstände als damals?",
+            "fact_ids": [
+              "271811519-0271"
+            ],
+            "statements": [
+              {
+                "text": "Bei einem Hochwasser stießen Eis und Wasser in Frankfurt den größeren Teil der Mainbrücke weg, und etwa fünfhundert Menschen standen auf ihr.",
+                "fact_ids": [
+                  "271811519-0271"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 34,
+            "speaker": "Lena",
+            "text": "Ein Wasserstand von etwa siebenhundertfünfundachtzig Zentimetern am Pegel wurde niemals sonst erreicht.",
+            "fact_ids": [
+              "271811519-0289"
+            ],
+            "statements": [
+              {
+                "text": "Ein Wasserstand von etwa 785 Zentimetern am Pegel wurde niemals sonst erreicht.",
+                "fact_ids": [
+                  "271811519-0289"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 35,
+            "speaker": "Felix",
+            "text": "Wow. Tauchen wir ab: Wie ging es den Fischen im Main über die Jahrhunderte?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 36,
+            "speaker": "Lena",
+            "text": "Lange gut, so scheint es. An vielen Orten gab es seit dem Mittelalter Fischerzünfte, in Frankfurt zum Beispiel seit dem Jahr neunhundertfünfundvierzig. Dann kamen Flussregulierung, Gewässerstrukturveränderungen wie Uferbefestigungen für die Schifffahrt und die Wasserverschmutzung. Das führte zu einem drastischen Rückgang der Fischarten, am Untermain von etwa dreißig bis fünfunddreißig auf vier.",
+            "fact_ids": [
+              "271811519-0327"
+            ],
+            "statements": [
+              {
+                "text": "An vielen Orten gab es seit dem Mittelalter bestehende Fischerzünfte, in Frankfurt am Main zum Beispiel seit dem Jahr 945.",
+                "fact_ids": [
+                  "271811519-0327"
+                ]
+              },
+              {
+                "text": "Die Flussregulierung, die für die Schifffahrt nötigen Gewässerstrukturveränderungen wie Uferbefestigungen und die Wasserverschmutzung führten zu einem drastischen Rückgang der Fischarten.",
+                "fact_ids": [
+                  "271811519-0327"
+                ]
+              },
+              {
+                "text": "Am Untermain sank die Zahl der Fischarten von etwa 30 bis 35 auf vier.",
+                "fact_ids": [
+                  "271811519-0327"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 37,
+            "speaker": "Felix",
+            "text": "Von dreißig bis fünfunddreißig auf vier Arten, das ist wirklich drastisch. Wie hat man gemerkt, wie schlecht das Wasser war? Gab es dafür einen Beleg?",
+            "fact_ids": [
+              "271811519-0327"
+            ],
+            "statements": [
+              {
+                "text": "Am Untermain sank die Zahl der Fischarten von etwa 30 bis 35 auf vier.",
+                "fact_ids": [
+                  "271811519-0327"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 38,
+            "speaker": "Lena",
+            "text": "Es gab ein Experiment mit Goldfischen. Einer der Goldfische, dessen Aquarium mit Wasser von einer Stelle unterhalb des Werkes Höchst gefüllt worden war, überlebte es nicht.",
+            "fact_ids": [
+              "271811519-0312"
+            ],
+            "statements": [
+              {
+                "text": "Bei einem Experiment überlebte einer der Goldfische nicht, dessen Aquarium mit Wasser von einer Stelle unterhalb des Werkes Höchst gefüllt worden war.",
+                "fact_ids": [
+                  "271811519-0312"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 39,
+            "speaker": "Felix",
+            "text": "Das ist ein deutliches Zeichen. Gab es denn keine Kläranlagen, die das verbessern sollten?",
+            "fact_ids": [
+              "271811519-0312"
+            ],
+            "statements": [
+              {
+                "text": "Ein Goldfisch überlebte das Experiment mit dem Wasser von unterhalb des Werkes Höchst nicht.",
+                "fact_ids": [
+                  "271811519-0312"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 40,
+            "speaker": "Lena",
+            "text": "Doch. Das Klärwerk Niederrad in Frankfurt ging achtzehnhundertsiebenundachtzig als erste Kläranlage Deutschlands in Betrieb. Dazu kamen zahlreiche weitere kommunale und industrielle Abwasserreinigungsanlagen. Daran änderte der Bau all dieser Anlagen aber nichts.",
+            "fact_ids": [
+              "271811519-0306"
+            ],
+            "statements": [
+              {
+                "text": "Das Klärwerk Niederrad in Frankfurt ging 1887 als erste Kläranlage Deutschlands in Betrieb.",
+                "fact_ids": [
+                  "271811519-0306"
+                ]
+              },
+              {
+                "text": "Zahlreiche weitere kommunale und industrielle Abwasserreinigungsanlagen wurden gebaut.",
+                "fact_ids": [
+                  "271811519-0306"
+                ]
+              },
+              {
+                "text": "Der Bau der Anlagen änderte daran nichts.",
+                "fact_ids": [
+                  "271811519-0306"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 41,
+            "speaker": "Felix",
+            "text": "Schade. Kommen wir zur Schifffahrt: Wie kamen früher Schiffe auf dem Main voran?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 42,
+            "speaker": "Lena",
+            "text": "Mit einer Kette. Sie wurde im Fluss verlegt, und ein Dampfschlepper konnte sich an ihr entlanghangeln.",
+            "fact_ids": [
+              "271811519-0409"
+            ],
+            "statements": [
+              {
+                "text": "Im Fluss wurde eine Kette verlegt, an der sich ein Dampfschlepper entlanghangeln konnte.",
+                "fact_ids": [
+                  "271811519-0409"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 43,
+            "speaker": "Felix",
+            "text": "Eine Kette im Fluss, was für eine Idee. Und für die Freizeit: Was gibt es für Paddler am Main?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 44,
+            "speaker": "Lena",
+            "text": "Neunzehnhundertvierunddreißig wurde am Wehr in Hausen das weltweit erste Faltboot-Hebewerk gebaut.",
+            "fact_ids": [
+              "271811519-0093"
+            ],
+            "statements": [
+              {
+                "text": "1934 wurde am Wehr in Hausen das weltweit erste Faltboot-Hebewerk gebaut.",
+                "fact_ids": [
+                  "271811519-0093"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 45,
+            "speaker": "Felix",
+            "text": "Weltweit das erste, wie schön. Gibt es am Main auch alte Traditionen, die bis heute leben?",
+            "fact_ids": [
+              "271811519-0093"
+            ],
+            "statements": [
+              {
+                "text": "Das weltweit erste Faltboot-Hebewerk wurde in Hausen gebaut.",
+                "fact_ids": [
+                  "271811519-0093"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 46,
+            "speaker": "Lena",
+            "text": "Ja, die Fähren. Der Betrieb der Mainfähren ist seit zweitausendzweiundzwanzig als immaterielles Kulturerbe im Bayerischen Landesverzeichnis gelistet. Die Begründung lautet: Fährleute bringen ganzjährig Menschen, Tiere und Fahrzeuge auf Zuruf über den Main.",
+            "fact_ids": [
+              "271811519-0487"
+            ],
+            "statements": [
+              {
+                "text": "Der Betrieb der Mainfähren ist seit 2022 als immaterielles Kulturerbe im Bayerischen Landesverzeichnis des Immateriellen Kulturerbes gelistet.",
+                "fact_ids": [
+                  "271811519-0487"
+                ]
+              },
+              {
+                "text": "Als Begründung steht dort, dass Fährleute ganzjährig Menschen, Tiere und Fahrzeuge auf Zuruf über den Main bringen.",
+                "fact_ids": [
+                  "271811519-0487"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 47,
+            "speaker": "Felix",
+            "text": "Auf Zuruf, das klingt schön altmodisch. Gab es am Main früher eigentlich auch Grenzen?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 48,
+            "speaker": "Lena",
+            "text": "Ja. Nach der Gründung des Bistums Bamberg im Jahr tausendsieben war der Main zwischen Hallstadt und Michelau rund achthundert Jahre lang die Grenze zum Bistum Würzburg.",
+            "fact_ids": [
+              "271811519-0094"
+            ],
+            "statements": [
+              {
+                "text": "Nach der Gründung des Bistums Bamberg 1007 war der Main zwischen Hallstadt und Michelau rund 800 Jahre Grenze zum Bistum Würzburg.",
+                "fact_ids": [
+                  "271811519-0094"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 49,
+            "speaker": "Felix",
+            "text": "Achthundert Jahre, das ist eine lange Zeit. Gibt es entlang des Flusses auch Orte mit Rekorden?",
+            "fact_ids": [
+              "271811519-0094"
+            ],
+            "statements": [
+              {
+                "text": "Der Main war rund 800 Jahre Grenze zum Bistum Würzburg.",
+                "fact_ids": [
+                  "271811519-0094"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 50,
+            "speaker": "Lena",
+            "text": "Zwei Beispiele. Rothenfels zu Füßen der romanischen gleichnamigen Burg ist mit etwa tausend Einwohnern die kleinste Stadt Bayerns. Und in Kahl, der tiefstgelegenen Gemeinde Bayerns, mündet das gleichnamige Flüsschen auf hundertdrei Meter über Normalnull von rechts in den Main.",
+            "fact_ids": [
+              "271811519-0140",
+              "271811519-0166"
+            ],
+            "statements": [
+              {
+                "text": "Rothenfels zu Füßen der romanischen gleichnamigen Burg ist mit etwa 1000 Einwohnern die kleinste Stadt Bayerns.",
+                "fact_ids": [
+                  "271811519-0140"
+                ]
+              },
+              {
+                "text": "In Kahl, der tiefstgelegenen Gemeinde Bayerns, mündet das gleichnamige Flüsschen auf 103 Metern über Normalnull von rechts in den Main.",
+                "fact_ids": [
+                  "271811519-0166"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 51,
+            "speaker": "Felix",
+            "text": "Kleinste Stadt und tiefste Gemeinde, das gefällt mir. Und was war am Ufer technisch eine Premiere?",
+            "fact_ids": [
+              "271811519-0140",
+              "271811519-0166"
+            ],
+            "statements": [
+              {
+                "text": "Rothenfels ist die kleinste Stadt Bayerns.",
+                "fact_ids": [
+                  "271811519-0140"
+                ]
+              },
+              {
+                "text": "Kahl ist die tiefstgelegene Gemeinde Bayerns.",
+                "fact_ids": [
+                  "271811519-0166"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 52,
+            "speaker": "Lena",
+            "text": "Auf dem rechten Ufer, in Karlstein, entstand neunzehnhunderteinundsechzig das erste Atomkraftwerk der Bundesrepublik.",
+            "fact_ids": [
+              "271811519-0164"
+            ],
+            "statements": [
+              {
+                "text": "In Karlstein auf dem rechten Ufer entstand 1961 das erste Atomkraftwerk der Bundesrepublik.",
+                "fact_ids": [
+                  "271811519-0164"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 53,
+            "speaker": "Felix",
+            "text": "Und hat der Main auch die Literatur inspiriert?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 54,
+            "speaker": "Lena",
+            "text": "Ja, sogar einen berühmten Autor. Den Main im Titel führt der Roman Der Schleier im Main von Alexandre Dumas, dem Autor der Drei Musketiere. Er erzählt eine dramatische Abenteuer- und Liebesgeschichte. Sie spielt vor dem Hintergrund der Kriegspolitik Bismarcks im Jahr achtzehnhundertsechsundsechzig, hauptsächlich in Frankfurt.",
+            "fact_ids": [
+              "271811519-0505"
+            ],
+            "statements": [
+              {
+                "text": "Alexandre Dumas, der Autor der Drei Musketiere, führt den Main im Titel seines Romans Der Schleier im Main.",
+                "fact_ids": [
+                  "271811519-0505"
+                ]
+              },
+              {
+                "text": "Der Roman erzählt eine dramatische Abenteuer- und Liebesgeschichte vor dem Hintergrund der Kriegspolitik Bismarcks 1866, hauptsächlich in Frankfurt.",
+                "fact_ids": [
+                  "271811519-0505"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 55,
+            "speaker": "Felix",
+            "text": "Dumas am Main, das hätte ich nicht gedacht. Und wo endet der Fluss jetzt eigentlich?",
+            "fact_ids": [
+              "271811519-0505"
+            ],
+            "statements": [
+              {
+                "text": "Alexandre Dumas schrieb einen Roman mit dem Main im Titel.",
+                "fact_ids": [
+                  "271811519-0505"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 56,
+            "speaker": "Lena",
+            "text": "Die letzten Orte am Main sind Kostheim auf dem rechten und Gustavsburg auf dem linken Ufer. Beide waren zusammen mit Bischofsheim rechtsrheinische Stadtteile von Mainz. Neunzehnhundertfünfundvierzig wurden sie durch eine alliierte Zonengrenze von der Stadt Mainz getrennt. Kostheim liegt unmittelbar an der Mündung des Mains in den Rhein.",
+            "fact_ids": [
+              "271811519-0217",
+              "270407548-0013"
+            ],
+            "statements": [
+              {
+                "text": "Die letzten Orte am Main sind Kostheim auf dem rechten und Gustavsburg auf dem linken Ufer.",
+                "fact_ids": [
+                  "271811519-0217"
+                ]
+              },
+              {
+                "text": "Beide waren zusammen mit Bischofsheim rechtsrheinische Stadtteile von Mainz, die 1945 durch eine alliierte Zonengrenze von der Stadt Mainz getrennt wurden.",
+                "fact_ids": [
+                  "271811519-0217"
+                ]
+              },
+              {
+                "text": "Kostheim liegt unmittelbar an der Mündung des Mains in den Rhein.",
+                "fact_ids": [
+                  "270407548-0013"
+                ]
+              }
+            ]
+          },
+          {
+            "index": 57,
+            "speaker": "Felix",
+            "text": "Dann schließt sich der Kreis zum Anfang unseres Gesprächs. Magst du zum Schluss noch einmal kurz zusammenfassen?",
+            "fact_ids": [],
+            "statements": []
+          },
+          {
+            "index": 58,
+            "speaker": "Lena",
+            "text": "Gern. Der Main ist mit fünfhundertsiebenundzwanzig Kilometern der längste rechte Nebenfluss des Rheins. Der längste Weg im System führt aber über die Fichtenohe und ist fünfhundertsechsundsiebzig Kilometer lang, und die Regnitz führt an der Mündung mehr Wasser als der Main. Der Urmain wurde einst durch Trümmer des Nördlinger Ries zu einem riesigen See aufgestaut. Heute gehört der Main zu einer durchgehenden Wasserstraße von Rotterdam bis Constanța, und seit der Eröffnung des Kanals sind etwa zwanzig Arten aus dem Donauraum zugewandert. Früher fror der Main etwa in jedem zweiten Jahr zu, und am Untermain sank die Zahl der Fischarten auf vier. Bei Kostheim mündet er in den Rhein.",
+            "fact_ids": [
+              "271811519-0019",
+              "255464297-0011",
+              "271811519-0223",
+              "271811519-0234",
+              "272171794-0016",
+              "271811519-0336",
+              "271811519-0295",
+              "271811519-0327",
+              "270407548-0013"
+            ],
+            "statements": [
+              {
+                "text": "Der Main ist mit 527 Kilometern der längste rechte Nebenfluss des Rheins.",
+                "fact_ids": [
+                  "271811519-0019"
+                ]
+              },
+              {
+                "text": "Der längste Weg im Main-System führt über die Fichtenohe und ist 576 Kilometer lang.",
+                "fact_ids": [
+                  "255464297-0011"
+                ]
+              },
+              {
+                "text": "Die Regnitz führt an der Mündung mehr Wasser als der Main.",
+                "fact_ids": [
+                  "271811519-0223"
+                ]
+              },
+              {
+                "text": "Der Urmain wurde durch Trümmer des Nördlinger Ries zu einem riesigen See aufgestaut.",
+                "fact_ids": [
+                  "271811519-0234"
+                ]
+              },
+              {
+                "text": "Der Main-Donau-Kanal bildet mit Rhein, Main und Donau eine durchgehende Großschifffahrtsstraße zwischen Rotterdam und Constanța.",
+                "fact_ids": [
+                  "272171794-0016"
+                ]
+              },
+              {
+                "text": "Seit der Eröffnung des Kanals sind etwa 20 Arten aus dem Donauraum in den Main zugewandert.",
+                "fact_ids": [
+                  "271811519-0336"
+                ]
+              },
+              {
+                "text": "Bis Ende des 19. Jahrhunderts fror der Main etwa in jedem zweiten Jahr zu.",
+                "fact_ids": [
+                  "271811519-0295"
+                ]
+              },
+              {
+                "text": "Am Untermain sank die Zahl der Fischarten auf vier.",
+                "fact_ids": [
+                  "271811519-0327"
+                ]
+              },
+              {
+                "text": "Der Main mündet bei Kostheim in den Rhein.",
+                "fact_ids": [
+                  "270407548-0013"
+                ]
+              }
+            ]
+          }
+        ],
+        "problems": [],
+        "used_fact_ids": [
+          "271811519-0301",
+          "271811519-0271",
+          "271811519-0289",
+          "271811519-0327",
+          "271811519-0312",
+          "271811519-0306",
+          "271811519-0409",
+          "271811519-0093",
+          "271811519-0487",
+          "271811519-0094",
+          "271811519-0140",
+          "271811519-0166",
+          "271811519-0164",
+          "271811519-0505",
+          "271811519-0217",
+          "270407548-0013",
+          "271811519-0019",
+          "255464297-0011",
+          "271811519-0223",
+          "271811519-0234",
+          "272171794-0016",
+          "271811519-0336",
+          "271811519-0295"
+        ]
+      },
+      "judgements": [
+        {
+          "turn_index": 29,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.77
+          },
+          "jev_error": null,
+          "reason": "Der Beitrag besteht nur aus einer Reaktion („Wahnsinn! Das ist ja eine lange Zeit.“, Staunen) und einer Nachfrage nach weiteren Eisphasen. Er bringt keine neuen Fakten, Zahlen oder Namen ein und greift nur das eben Gesagte auf. Deshalb braucht er keine Fakt-IDs."
+        },
+        {
+          "turn_index": 30,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.92
+          },
+          "jev_error": null,
+          "reason": "Die Aussage, dass der Main in Frankfurt zuletzt im Winter 1962/1963 zugefroren ist, entspricht dem zitierten Fakt [271811519-0301]. Die ausgeschriebene Jahreszahl ist inhaltlich identisch, und es gibt keine zusätzliche Angabe."
+        },
+        {
+          "turn_index": 31,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.52
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag ist eine Nachfrage mit Überleitung („Von Eis zu Wasser“). Er stellt keine Tatsachenbehauptung auf und nennt keine Zahlen, Daten oder Namen, die belegt werden müssten. Ohne Fakt-IDs ist das zulässig."
+        },
+        {
+          "turn_index": 32,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "aussage_1": 0.98,
+            "aussage_2": 0.98,
+            "vollstaendig": 0.85
+          },
+          "jev_error": null,
+          "reason": "Alle Angaben stehen im Fakt-Satz: Bedeutung der Mainbrücke für den Verkehr, Hochwasserschäden in den ältesten Berichten (1192, 1235, 1306), der 1. Februar 1306, Eis und Wasser, die zwei Türme und der größere Teil der Brücke weggestoßen, etwa fünfhundert Menschen auf der Brücke, zehn Tote. Zusätzliche Angaben gibt es nicht."
+        },
+        {
+          "turn_index": 33,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.76
+          },
+          "jev_error": null,
+          "reason": "Die Angabe von etwa fünfhundert Menschen auf der Brücke und die Zerstörung der Brücke durch Eis und Wasser stehen in [271811519-0271]. „Weggerissen“ vereinfacht „den Mehrern theil an der Brücken hinweg gestoßen“, ohne dem zu widersprechen. „Das ist erschütternd“ ist eine Reaktion im Moment. Die Frage nach höheren Wasserständen setzt nur ein großes Hochwasser voraus, und das nennt der Fakt-Satz („so groß“)."
+        },
+        {
+          "turn_index": 34,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.97
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 35,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.76
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag besteht aus einem Staunen (\"Wow\"), einer Überleitung und einer Frage. Die Frage \"Wie ging es den Fischen im Main über die Jahrhunderte?\" setzt keine Tatsachenbehauptung voraus, außer dass es Fische im Main gibt bzw. gab, was kaum eine belegpflichtige Prämisse ist. Es ist also keine Faktenbehauptung enthalten, die Fakt-IDs bräuchte."
+        },
+        {
+          "turn_index": 36,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "aussage_2": 0.99,
+            "vollstaendig": 0.73
+          },
+          "jev_error": null,
+          "reason": "Alle Angaben stehen im Fakt-Satz: Fischerzünfte seit dem Mittelalter, Frankfurt seit 945, Flussregulierung, Uferbefestigungen für die Schifffahrt und Wasserverschmutzung, und der Rückgang am Untermain von ca. 30 bis 35 auf vier Arten. Die Zahlen stimmen. „Lange gut, so scheint es“ und „Dann kamen“ sind nur eine vorsichtige Überleitung ohne eigene neue Tatsachenbehauptung."
+        },
+        {
+          "turn_index": 37,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.83
+          },
+          "jev_error": null,
+          "reason": "Die Zahlen (von etwa 30 bis 35 auf vier Fischarten) und die Wertung „drastisch“ stehen so in [271811519-0327]. Die Prämisse der Frage, dass das Wasser verschmutzt war, folgt aus dem Verweis auf die Wasserverschmutzung im selben Satz. Die Nachfragen nach dem Beleg sind belegfreie Reaktionen."
+        },
+        {
+          "turn_index": 38,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.8
+          },
+          "jev_error": null,
+          "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: Es gab ein Experiment mit Goldfischen, und einer der Goldfische, dessen Aquarium mit Wasser von unterhalb des Werkes Höchst gefüllt war, überlebte nicht. Es werden keine zusätzlichen Angaben gemacht."
+        },
+        {
+          "turn_index": 39,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.48
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält nur eine Reaktion („Das ist ein deutliches Zeichen“, Wiederaufgreifen des Gesagten) und eine Nachfrage zu Kläranlagen. Die Frage setzt keine Tatsache voraus, die über die Fakt-Sätze hinausgeht, und es wird keine neue Behauptung aufgestellt."
+        },
+        {
+          "turn_index": 40,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.94,
+            "aussage_2": 0.98,
+            "vollstaendig": 0.92
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: Das Klärwerk Niederrad in Frankfurt ging 1887 als erste Kläranlage Deutschlands in Betrieb, zahlreiche weitere kommunale und industrielle Abwasserreinigungsanlagen kamen hinzu, und der Bau änderte daran nichts. Das einleitende „Doch.“ ist eine belegfreie Reaktion."
+        },
+        {
+          "turn_index": 41,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.88
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine faktische Behauptung. „Schade“ ist eine Reaktion, „Kommen wir zur Schifffahrt“ ist eine Überleitung, und die Frage nach der früheren Fortbewegung der Schiffe auf dem Main ist eine Nachfrage ohne Prämisse, die ein Faktum behauptet. Ohne Fakt-IDs ist das zulässig."
+        },
+        {
+          "turn_index": 42,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.91
+          },
+          "jev_error": null,
+          "reason": "Lena sagt, im Fluss sei eine Kette verlegt worden, an der sich ein Dampfschlepper entlanghangeln konnte. Das entspricht dem Fakt-Satz [271811519-0409] inhaltlich vollständig, ohne zusätzliche Angaben. Der Einstieg „Mit einer Kette“ ist eine Antwort auf eine vorangehende Frage und gilt als belegfreie Überleitung."
+        },
+        {
+          "turn_index": 43,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.71
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält keine Faktenbehauptung. „Eine Kette im Fluss, was für eine Idee.“ ist eine Reaktion (Staunen) auf das eben Gesagte, und „Was gibt es für Paddler am Main?“ ist eine Nachfrage. Die Frage setzt nichts voraus, was einen Beleg bräuchte. Fakt-IDs sind daher nicht nötig."
+        },
+        {
+          "turn_index": 44,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.96
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 45,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.76
+          },
+          "jev_error": null,
+          "reason": "„Weltweit das erste“ greift den Fakt (1934 am Wehr in Hausen das weltweit erste Faltboot-Hebewerk) ohne neue Information wieder auf; „wie schön“ ist eine Gefühlsreaktion. Die Frage nach alten Traditionen am Main ist eine Nachfrage/Überleitung und enthält keine unbelegte Prämisse."
+        },
+        {
+          "turn_index": 46,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.94
+          },
+          "jev_error": null,
+          "reason": "Alle Behauptungen folgen direkt aus dem Fakt-Satz: Der Betrieb der Mainfähren ist seit 2022 im Bayerischen Landesverzeichnis des Immateriellen Kulturerbes gelistet, und die Begründung (Fährleute bringen ganzjährig Menschen, Tiere und Fahrzeuge auf Zuruf über den Main) ist wortgleich übernommen. Das einleitende „Ja, die Fähren“ ist eine belegfreie Überleitung."
+        },
+        {
+          "turn_index": 47,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.66
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag besteht nur aus einer Reaktion (\"klingt schön altmodisch\" als persönlicher Eindruck) und einer Nachfrage ohne eigene Tatsachenbehauptung oder Prämisse. Er braucht daher keine Fakt-Belege."
+        },
+        {
+          "turn_index": 48,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.96
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 49,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.94,
+            "vollstaendig": 0.77
+          },
+          "jev_error": null,
+          "reason": "Die Aussage \"Achthundert Jahre\" entspricht den rund 800 Jahren aus dem Fakt-Satz; \"das ist eine lange Zeit\" ist eine Wertung ohne eigenen Faktengehalt. Die Frage nach Orten mit Rekorden entlang des Flusses ist eine Nachfrage ohne Behauptung, die Belege bräuchte."
+        },
+        {
+          "turn_index": 50,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.89
+          },
+          "jev_error": null,
+          "reason": "Beide Aussagen folgen direkt aus den Fakt-Sätzen: Rothenfels ist mit etwa 1000 Einwohnern die kleinste Stadt Bayerns und liegt zu Füßen der romanischen gleichnamigen Burg. Kahl ist die tiefstgelegene Gemeinde Bayerns, und das gleichnamige Flüsschen mündet auf 103 m ü. NN von rechts in den Main. Die Einleitung „Zwei Beispiele“ ist eine Überleitung ohne neue Information."
+        },
+        {
+          "turn_index": 51,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.48
+          },
+          "jev_error": null,
+          "reason": "Felix' Aussage \"Kleinste Stadt und tiefste Gemeinde, das gefällt mir\" greift die Fakten 0140 (Rothenfels als kleinste Stadt Bayerns) und 0166 (Kahl als tiefstgelegene Gemeinde Bayerns) ohne zusätzliche Angaben auf; das Gefallen ist eine Aussage über sich selbst. Die Frage nach der technischen Premiere am Ufer ist eine Nachfrage ohne eigene faktische Prämisse, die belegt werden müsste."
+        },
+        {
+          "turn_index": 52,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "vollstaendig": 0.22
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag gibt den Fakt-Satz [271811519-0164] inhaltlich unverändert wieder: rechtes Ufer, Karlstein, 1961 (ausgeschrieben als neunzehnhunderteinundsechzig), erstes Atomkraftwerk der Bundesrepublik. Es gibt keine zusätzlichen Angaben."
+        },
+        {
+          "turn_index": 53,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "vollstaendig": 0.86
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag ist eine reine Nachfrage ohne neue Information. Er stellt keine Behauptung auf, die Fakt-Sätze bräuchte, und gilt deshalb als belegfreie Reaktion."
+        },
+        {
+          "turn_index": 54,
+          "accepted": false,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.98,
+            "aussage_1": 0.99,
+            "vollstaendig": 0.8
+          },
+          "jev_error": null,
+          "reason": "Fast alles folgt aus dem Fakt-Satz: Titel, Autor Dumas, die Drei Musketiere, die dramatische Abenteuer- und Liebesgeschichte, Bismarcks Kriegspolitik, 1866 und Frankfurt. Der Einstieg „sogar einen berühmten Autor“ enthält aber eine Wertung, dass Dumas berühmt sei. Der Fakt-Satz sagt das nicht ausdrücklich, er nennt Dumas nur als Autor der „Drei Musketiere“. Die Behauptung gilt deshalb als nicht belegt."
+        },
+        {
+          "turn_index": 55,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "vollstaendig": 0.26
+          },
+          "jev_error": null,
+          "reason": "Der Redebeitrag enthält nur Reaktionen: Felix äußert Überraschung („das hätte ich nicht gedacht“) und stellt eine Nachfrage dazu, wo der Fluss endet. „Dumas am Main“ greift nur das eben Gesagte auf und deckt sich mit dem Fakt-Satz zu Dumas' Roman „Der Schleier im Main“. Eine neue, unbelegte Behauptung kommt nicht vor."
+        },
+        {
+          "turn_index": 56,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.98,
+            "aussage_2": 1.0,
+            "vollstaendig": 0.91
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Kostheim und Gustavsburg als letzte Orte am Main (rechtes bzw. linkes Ufer), zusammen mit Bischofsheim rechtsrheinische Stadtteile von Mainz, 1945 durch eine alliierte Zonengrenze von Mainz getrennt (0217) sowie Kostheims Lage unmittelbar an der Mainmündung in den Rhein (0013). Es gibt keine zusätzlichen Angaben."
+        },
+        {
+          "turn_index": 57,
+          "accepted": true,
+          "decided_by": "jev",
+          "jev_p": {
+            "vollstaendig": 0.96
+          },
+          "jev_error": null,
+          "reason": null
+        },
+        {
+          "turn_index": 58,
+          "accepted": true,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.99,
+            "aussage_1": 0.97,
+            "aussage_2": 0.99,
+            "aussage_3": 0.99,
+            "aussage_4": 0.99,
+            "aussage_5": 0.99,
+            "aussage_6": 0.98,
+            "aussage_7": 0.99,
+            "aussage_8": 0.95,
+            "vollstaendig": 0.73
+          },
+          "jev_error": null,
+          "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Länge von 527 km und längster rechter Nebenfluss, Fichtenohe-Weg mit 576 km, Regnitz mit mehr Wasser an der Mündung, Aufstau des Urmains durch Trümmer des Nördlinger Ries, Wasserstraße Rotterdam–Constanța, etwa 20 zugewanderte Arten seit der Kanaleröffnung, Zufrieren etwa jedes zweite Jahr, Rückgang der Fischarten am Untermain auf vier und die Mündung bei Kostheim. Es gibt keine zusätzlichen Angaben."
+        }
+      ],
+      "aliases": {
+        "F1": "271811519-0019",
+        "F2": "271811519-0020",
+        "F3": "271811519-0234",
+        "F4": "271811519-0038",
+        "F5": "271811519-0223",
+        "F6": "271811519-0233",
+        "F7": "271811519-0271",
+        "F8": "271811519-0289",
+        "F9": "271811519-0041",
+        "F10": "271811519-0115",
+        "F11": "271811519-0093",
+        "F12": "271811519-0409",
+        "F13": "271811519-0235",
+        "F14": "271811519-0327",
+        "F15": "271811519-0312",
+        "F16": "271811519-0217",
+        "F17": "271811519-0295",
+        "F18": "271811519-0298",
+        "F19": "271811519-0301",
+        "F20": "271811519-0358",
+        "F21": "271811519-0257",
+        "F22": "271811519-0336",
+        "F23": "271811519-0140",
+        "F24": "271811519-0094",
+        "F25": "271811519-0505",
+        "F26": "271811519-0099",
+        "F27": "271811519-0166",
+        "F28": "271811519-0164",
+        "F29": "271811519-0195",
+        "F30": "271811519-0306",
+        "F31": "271811519-0350",
+        "F32": "271811519-0487",
+        "F33": "272171794-0020",
+        "F34": "261512923-0013",
+        "F35": "272171794-0022",
+        "F36": "255464297-0011",
+        "F37": "272171794-0016",
+        "F38": "270407548-0013",
+        "F39": "272171794-0014"
+      },
+      "regeneration": "continuation",
+      "continued_from": 29,
+      "fresh_reason": null,
+      "continuation_reason": "„Wahnsinn!“ und die Nachfrage sind zwar Reaktionen, aber die Frage setzt voraus, dass der Main zugefroren ist. Der zitierte Fakt nennt den Main nicht und spricht nur von einer „Vereisung“ im Jahr 1768. Dass es ein „letztes Mal“ gab, steht dort auch nicht. Die Prämisse ist also nicht belegt."
+    },
+    {
+      "conversation": 2,
+      "reason": "Turn regeneration budget used up (judge, 2x).",
+      "excluded_fact_ids": [
+        "255464297-0011",
+        "271811519-0038",
+        "271811519-0223",
+        "271811519-0234",
+        "271811519-0271",
+        "271811519-0298",
+        "271811519-0301",
+        "271811519-0327",
+        "271811519-0487",
+        "271811519-0505",
+        "272171794-0016"
+      ],
+      "dialog": {
+        "turns": [
+          {
+            "index": 64,
+            "speaker": "Lena",
+            "text": "Gern. Der Main ist mit fünfhundertsiebenundzwanzig Kilometern der längste rechte Nebenfluss des Rheins. Der längste Weg im Main-System führt über die Fichtenohe, Pegnitz und Regnitz und misst sechshundertsechsundsiebzig Komma null acht Kilometer. Zu seiner Geschichte gehört ein Urmain, der durch die Trümmer eines Meteoriteneinschlags aufgestaut wurde. Eine durchgehende Großschifffahrtsstraße, genannt Europakanal, führt über Rhein, Main und Donau von der Nordsee bei Rotterdam bis zum Schwarzen Meer bei Constanța. In Frankfurt fror der Main zuletzt im Winter neunzehnhundertzweiundsechzig auf dreiundsechzig zu. Hochwasser richtete Schäden an der Frankfurter Mainbrücke an, und am Untermain sank die Zahl der Fischarten auf vier. Und Fährleute bringen ganzjährig Menschen, Tiere und Fahrzeuge auf Zuruf über den Main.",
+            "fact_ids": [
+              "271811519-0019",
+              "255464297-0011",
+              "271811519-0234",
+              "272171794-0016",
+              "271811519-0301",
+              "271811519-0271",
+              "271811519-0327",
+              "271811519-0487"
+            ],
+            "statements": [
+              {
+                "text": "Der Main ist mit fünfhundertsiebenundzwanzig Kilometern Fließstrecke der längste rechte Nebenfluss des Rheins.",
+                "fact_ids": [
+                  "271811519-0019"
+                ]
+              },
+              {
+                "text": "Der längste Weg im Main-System führt über Fichtenohe, Pegnitz und Regnitz in den Main und hat eine Gesamtlänge von 576,08 Kilometern.",
+                "fact_ids": [
+                  "255464297-0011"
+                ]
+              },
+              {
+                "text": "Der Urmain wurde vor etwa 14,7 Millionen Jahren durch Trümmermassen eines Meteoriteneinschlags aufgestaut.",
+                "fact_ids": [
+                  "271811519-0234"
+                ]
+              },
+              {
+                "text": "Eine durchgehende Großschifffahrtsstraße, genannt Europakanal, verläuft über Rhein, Main und Donau zwischen der Nordsee bei Rotterdam und dem Schwarzen Meer bei Constanța.",
+                "fact_ids": [
+                  "272171794-0016"
+                ]
+              },
+              {
+                "text": "In Frankfurt fror der Main zum letzten Mal im Winter 1962/1963 zu.",
+                "fact_ids": [
+                  "271811519-0301"
+                ]
+              },
+              {
+                "text": "Hochwasserschäden an der Frankfurter Mainbrücke sind in den ältesten Berichten immer wieder belegt.",
+                "fact_ids": [
+                  "271811519-0271"
+                ]
+              },
+              {
+                "text": "Am Untermain ging die Zahl der Fischarten von etwa dreißig bis fünfunddreißig auf vier zurück.",
+                "fact_ids": [
+                  "271811519-0327"
+                ]
+              },
+              {
+                "text": "Fährleute bringen ganzjährig Menschen, Tiere und Fahrzeuge auf Zuruf über den Main.",
+                "fact_ids": [
+                  "271811519-0487"
+                ]
+              }
+            ]
+          }
+        ],
+        "problems": [],
+        "used_fact_ids": [
+          "271811519-0019",
+          "255464297-0011",
+          "271811519-0234",
+          "272171794-0016",
+          "271811519-0301",
+          "271811519-0271",
+          "271811519-0327",
+          "271811519-0487"
+        ]
+      },
+      "judgements": [
+        {
+          "turn_index": 64,
+          "accepted": false,
+          "decided_by": "llm_judge",
+          "jev_p": {
+            "aussage_0": 0.86,
+            "aussage_1": 0.99,
+            "aussage_2": 0.99,
+            "aussage_3": 0.99,
+            "aussage_4": 0.99,
+            "aussage_5": 0.98,
+            "aussage_6": 0.99,
+            "aussage_7": 1.0,
+            "vollstaendig": 0.85
+          },
+          "jev_error": null,
+          "reason": "Die Länge des längsten Wegs im Main-System stimmt nicht: Lena nennt „sechshundertsechsundsiebzig Komma null acht“ (676,08 km), laut [255464297-0011] sind es aber 576,08 km. Die übrigen Aussagen sind durch die Fakt-Sätze gedeckt."
+        }
+      ],
+      "aliases": {
+        "F1": "271811519-0019",
+        "F2": "271811519-0020",
+        "F3": "271811519-0234",
+        "F4": "271811519-0038",
+        "F5": "271811519-0223",
+        "F6": "271811519-0233",
+        "F7": "271811519-0271",
+        "F8": "271811519-0289",
+        "F9": "271811519-0041",
+        "F10": "271811519-0115",
+        "F11": "271811519-0093",
+        "F12": "271811519-0409",
+        "F13": "271811519-0235",
+        "F14": "271811519-0327",
+        "F15": "271811519-0312",
+        "F16": "271811519-0217",
+        "F17": "271811519-0295",
+        "F18": "271811519-0298",
+        "F19": "271811519-0301",
+        "F20": "271811519-0358",
+        "F21": "271811519-0257",
+        "F22": "271811519-0336",
+        "F23": "271811519-0140",
+        "F24": "271811519-0094",
+        "F25": "271811519-0099",
+        "F26": "271811519-0166",
+        "F27": "271811519-0164",
+        "F28": "271811519-0195",
+        "F29": "271811519-0306",
+        "F30": "271811519-0350",
+        "F31": "271811519-0487",
+        "F32": "272171794-0020",
+        "F33": "261512923-0013",
+        "F34": "272171794-0022",
+        "F35": "255464297-0011",
+        "F36": "272171794-0016",
+        "F37": "270407548-0013",
+        "F38": "272171794-0014"
+      },
+      "regeneration": "continuation",
+      "continued_from": 64,
+      "fresh_reason": null,
+      "continuation_reason": "Die Länge des längsten Wegs im Main-System stimmt nicht: Lena nennt „sechshundertsechsundsiebzig Komma null acht“ (676,08 km), laut [255464297-0011] sind es aber 576,08 km. Die übrigen Aussagen sind durch die Fakt-Sätze gedeckt."
+    }
+  ],
+  "aliases": {
+    "F1": "271811519-0019",
+    "F2": "271811519-0020",
+    "F3": "271811519-0234",
+    "F4": "271811519-0038",
+    "F5": "271811519-0223",
+    "F6": "271811519-0233",
+    "F7": "271811519-0271",
+    "F8": "271811519-0289",
+    "F9": "271811519-0041",
+    "F10": "271811519-0115",
+    "F11": "271811519-0093",
+    "F12": "271811519-0409",
+    "F13": "271811519-0235",
+    "F14": "271811519-0327",
+    "F15": "271811519-0312",
+    "F16": "271811519-0217",
+    "F17": "271811519-0295",
+    "F18": "271811519-0298",
+    "F19": "271811519-0301",
+    "F20": "271811519-0358",
+    "F21": "271811519-0257",
+    "F22": "271811519-0336",
+    "F23": "271811519-0140",
+    "F24": "271811519-0094",
+    "F25": "271811519-0099",
+    "F26": "271811519-0166",
+    "F27": "271811519-0164",
+    "F28": "271811519-0195",
+    "F29": "271811519-0306",
+    "F30": "271811519-0350",
+    "F31": "271811519-0487",
+    "F32": "272171794-0020",
+    "F33": "261512923-0013",
+    "F34": "272171794-0022",
+    "F35": "255464297-0011",
+    "F36": "272171794-0016",
+    "F37": "270407548-0013",
+    "F38": "272171794-0014"
+  }
+}

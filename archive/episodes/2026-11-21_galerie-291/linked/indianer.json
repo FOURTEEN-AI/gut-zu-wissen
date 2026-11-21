@@ -1,0 +1,106 @@
+{
+  "title": "Indianer",
+  "revid": 271847292,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-03T05:12:24Z",
+  "fetched_at": "2026-11-21T11:26:37Z",
+  "categories": [
+    "Kategorie:Altamerikanistik",
+    "Kategorie:Ethnie in Amerika",
+    "Kategorie:Indianer",
+    "Kategorie:Indianische Kultur",
+    "Kategorie:Indigenes Volk in Amerika",
+    "Kategorie:Kulturraum in Amerika",
+    "Kategorie:Personengruppenbezeichnung",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2025-07",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2026-11"
+  ],
+  "intro_wikitext": "[[Datei:Sitting Bull (Tatonka-I-Yatanka), a Hunkpapa Sioux, 1885 - NARA - 530896.jpg|mini|[[Sitting Bull]], [[Häuptling]] und [[Medizinmann]] der [[Hunkpapa]]-[[Lakota]]-[[Sioux]], 1885. Fotografien dieser Art haben das Bild der Indianer stark geprägt.]]\n[[Datei:John Ross (Cherokee chief).jpg|mini|[[John Ross (Häuptling)|John Ross]], [[Cherokee]]-Häuptling, ca. 1843. Dieses über vier Jahrzehnte ältere Bild ist hingegen als weniger [[Exotismus|exotisch]] und zu „modern“ kaum zur Kenntnis genommen worden.]]\n[[Datei:Foto de Chirley Pankará.jpg|mini|[[Chirley Pankará]], Aktivistin des [[Pankará|gleichnamigen Volkes]] und Abgeordnete in Brasilien, 2022. Die südamerikanischen Indigenen, erst recht die weiblichen, prägen erst seit kurzer Zeit das Bild der Einwohner, die sich von voreuropäischen Kulturen Amerikas herleiten.]]\n\n'''Indianer''' ist eine Sammelbezeichnung für die bei weitem größte Gruppe der bereits vor der europäischen [[Kolonialismus|Kolonialisierung]] in [[Amerika]] lebenden Menschen. Das Wort geht auf einen Irrtum von [[Christoph Kolumbus]] zurück, der 1492 meinte, nach „Indien“ (was damals auch [[Südostasien]] einschloss, vgl. [[Hinterindien]]) gelangt zu sein. Nicht unter den Begriff fallen die [[Indigene Völker|Ureinwohner]] der [[Arktis|arktischen Regionen]], die als [[Eskimo]]s und [[Aleuten (Volk)|Aleuten]] bezeichnet werden. Auch gemischte [[Ethnie]]n wie die rund 400.000 [[Métis]] in [[Kanada]] zählen nicht dazu.\n\nDie durch den Kolonialismus etablierten [[Fremdbezeichnung]]en der [[Ureinwohner Amerikas|autochthonen Bevölkerungen Amerikas]] werden sowohl von den damit bezeichneten Menschen als auch in den verschiedenen Wissenschaften unterschiedlich, teils kritisch bewertet. Für die deutsche Bezeichnung ‚Indianer‘ gilt dies allerdings in geringerem Ausmaß als für Bezeichnungen in den in Amerika vorherrschenden Sprachen. Entsprechend den dortigen [[Konnotation]]en und [[Selbstbestimmungsrecht der Völker|Selbstbestimmungsrechten]] haben sich in den verschiedenen Ländern unterschiedliche Bezeichnungen durchgesetzt.",
+  "segments": [
+    {
+      "id": "271847292-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Indianer''' ist eine Sammelbezeichnung für die bei weitem größte Gruppe der bereits vor der europäischen [[Kolonialismus|Kolonialisierung]] in [[Amerika]] lebenden Menschen.",
+      "plain": null
+    },
+    {
+      "id": "271847292-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Wort geht auf einen Irrtum von [[Christoph Kolumbus]] zurück, der 1492 meinte, nach „Indien“ (was damals auch [[Südostasien]] einschloss, vgl. [[Hinterindien]]) gelangt zu sein.",
+      "plain": null
+    },
+    {
+      "id": "271847292-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Nicht unter den Begriff fallen die [[Indigene Völker|Ureinwohner]] der [[Arktis|arktischen Regionen]], die als [[Eskimo]]s und [[Aleuten (Volk)|Aleuten]] bezeichnet werden.",
+      "plain": null
+    },
+    {
+      "id": "271847292-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Auch gemischte [[Ethnie]]n wie die rund 400.000 [[Métis]] in [[Kanada]] zählen nicht dazu.",
+      "plain": null
+    },
+    {
+      "id": "271847292-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die durch den Kolonialismus etablierten [[Fremdbezeichnung]]en der [[Ureinwohner Amerikas|autochthonen Bevölkerungen Amerikas]] werden sowohl von den damit bezeichneten Menschen als auch in den verschiedenen Wissenschaften unterschiedlich, teils kritisch bewertet.",
+      "plain": null
+    },
+    {
+      "id": "271847292-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Für die deutsche Bezeichnung ‚Indianer‘ gilt dies allerdings in geringerem Ausmaß als für Bezeichnungen in den in Amerika vorherrschenden Sprachen.",
+      "plain": null
+    },
+    {
+      "id": "271847292-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Entsprechend den dortigen [[Konnotation]]en und [[Selbstbestimmungsrecht der Völker|Selbstbestimmungsrechten]] haben sich in den verschiedenen Ländern unterschiedliche Bezeichnungen durchgesetzt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271847292,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271847292-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271847292-0000"
+        ],
+        "plain": "Das Wort geht auf einen Irrtum von Christoph Kolumbus zurück, der 1492 meinte, nach „Indien“ (was damals auch Südostasien einschloss, vgl. Hinterindien) gelangt zu sein.",
+        "context_plain": [
+          "Indianer ist eine Sammelbezeichnung für die bei weitem größte Gruppe der bereits vor der europäischen Kolonialisierung in Amerika lebenden Menschen."
+        ]
+      },
+      {
+        "segment_id": "271847292-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271847292-0002"
+        ],
+        "plain": "Auch gemischte Ethnien wie die rund 400.000 Métis in Kanada zählen nicht dazu.",
+        "context_plain": [
+          "Nicht unter den Begriff fallen die Ureinwohner der arktischen Regionen, die als Eskimos und Aleuten bezeichnet werden."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "271847292-0002",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

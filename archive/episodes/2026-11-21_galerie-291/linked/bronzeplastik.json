@@ -1,0 +1,77 @@
+{
+  "title": "Bronzeplastik",
+  "revid": 269512890,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-08-09T12:21:58Z",
+  "fetched_at": "2026-11-21T11:26:37Z",
+  "categories": [
+    "Kategorie:Bronzeskulptur",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2026-08"
+  ],
+  "intro_wikitext": "Eine '''Bronzeplastik''', eine '''Bronzeskulptur''' (bei Einhaltung der Unterscheidung von [[Skulptur]] und [[Plastik (Kunst)|Plastik]] trotz weiter Verbreitung weniger korrekt) oder seltener ein '''Bronzebildwerk''', kurz auch '''Bronze''' genannt, ist ein aus [[Bronze]] hergestelltes Kunstwerk. Bronze ist eine Legierung aus Kupfer und Zinn (im Gegensatz zu Messing, einer Legierung aus Kupfer und Zink), der andere Elemente in geringeren Mengen zugesetzt werden können. Bronze ist ein widerstandsfähiges Material, das mit verschiedenen Patina versehen werden kann. Es gibt zwei [[Kunstguss|Gussverfahren]]: das [[Wachsausschmelzverfahren]]<ref>{{Internetquelle |url=https://www.giesserei-muenchen.de/wachsausschmelzverfahren/ |titel=Wachsausschmelzverfahren {{!}} Kunstgießerei München |werk=Kunstgießerei Niedermeier |abruf=2022-09-05 |archiv-datum=2022-08-17 |archiv-url=https://web.archive.org/web/20220817111005/https://www.giesserei-muenchen.de/wachsausschmelzverfahren/ |offline=ja |archiv-bot=2026-08-09 12:21:58 InternetArchiveBot }}</ref> und das [[Sandformverfahren|Sandform- oder Sandgussverfahren]].<ref>{{Internetquelle |url=https://www.giesserei-muenchen.de/sandformverfahren/ |titel=Sandformverfahren {{!}} Kunstgießerei Niedermeier München |werk=Kunstgießerei Niedermeier |abruf=2022-09-05 |archiv-datum=2022-08-17 |archiv-url=https://web.archive.org/web/20220817104732/https://www.giesserei-muenchen.de/sandformverfahren/ |offline=ja |archiv-bot=2026-08-09 12:21:58 InternetArchiveBot }}</ref>\n\nNamen und Nachweise zu deutschen und internationalen Bronzegießereien sind auf der [[Bildgießerei|Liste bekannter Erzgießer und Bildgießereien]] zu finden.",
+  "segments": [
+    {
+      "id": "269512890-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Eine '''Bronzeplastik''', eine '''Bronzeskulptur''' (bei Einhaltung der Unterscheidung von [[Skulptur]] und [[Plastik (Kunst)|Plastik]] trotz weiter Verbreitung weniger korrekt) oder seltener ein '''Bronzebildwerk''', kurz auch '''Bronze''' genannt, ist ein aus [[Bronze]] hergestelltes Kunstwerk.",
+      "plain": null
+    },
+    {
+      "id": "269512890-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bronze ist eine Legierung aus Kupfer und Zinn (im Gegensatz zu Messing, einer Legierung aus Kupfer und Zink), der andere Elemente in geringeren Mengen zugesetzt werden können.",
+      "plain": null
+    },
+    {
+      "id": "269512890-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bronze ist ein widerstandsfähiges Material, das mit verschiedenen Patina versehen werden kann.",
+      "plain": null
+    },
+    {
+      "id": "269512890-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es gibt zwei [[Kunstguss|Gussverfahren]]: das [[Wachsausschmelzverfahren]]<ref>{{Internetquelle |url=https://www.giesserei-muenchen.de/wachsausschmelzverfahren/ |titel=Wachsausschmelzverfahren {{!}} Kunstgießerei München |werk=Kunstgießerei Niedermeier |abruf=2022-09-05 |archiv-datum=2022-08-17 |archiv-url=https://web.archive.org/web/20220817111005/https://www.giesserei-muenchen.de/wachsausschmelzverfahren/ |offline=ja |archiv-bot=2026-08-09 12:21:58 InternetArchiveBot }}</ref> und das [[Sandformverfahren|Sandform- oder Sandgussverfahren]].<ref>{{Internetquelle |url=https://www.giesserei-muenchen.de/sandformverfahren/ |titel=Sandformverfahren {{!}} Kunstgießerei Niedermeier München |werk=Kunstgießerei Niedermeier |abruf=2022-09-05 |archiv-datum=2022-08-17 |archiv-url=https://web.archive.org/web/20220817104732/https://www.giesserei-muenchen.de/sandformverfahren/ |offline=ja |archiv-bot=2026-08-09 12:21:58 InternetArchiveBot }}</ref>",
+      "plain": null
+    },
+    {
+      "id": "269512890-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Namen und Nachweise zu deutschen und internationalen Bronzegießereien sind auf der [[Bildgießerei|Liste bekannter Erzgießer und Bildgießereien]] zu finden.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269512890,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269512890-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Bronze ist eine Legierung aus Kupfer und Zinn (im Gegensatz zu Messing, einer Legierung aus Kupfer und Zink), der andere Elemente in geringeren Mengen zugesetzt werden können.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269512890-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Bronze ist ein widerstandsfähiges Material, das mit verschiedenen Patina versehen werden kann.",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "269512890-0003",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

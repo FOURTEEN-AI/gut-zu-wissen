@@ -1,0 +1,70 @@
+{
+  "title": "Hausen (Bad Staffelstein)",
+  "revid": 267926791,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-06-14T08:28:54Z",
+  "fetched_at": "2026-11-21T12:01:59Z",
+  "categories": [
+    "Kategorie:Geographie (Bad Staffelstein)",
+    "Kategorie:Ort im Landkreis Lichtenfels",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2025-06",
+    "Kategorie:Wikipedia:Seite mit Audioeinbettung"
+  ],
+  "intro_wikitext": "{{Infobox Ortsteil einer Gemeinde in Deutschland\n| Ortsteil               = Hausen\n| Gemeindeart            = Stadt\n| Gemeindename           = Bad Staffelstein\n| Alternativanzeige-Gemeindename = \n| Ortswappen             =\n| Breitengrad            = 50/7/52/N\n| Längengrad             = 11/0/34/E\n| Bundesland             = Bayern\n| Höhe                   = 260\n| Höhe-Bezug             = DE-NHN\n| Fläche                 =\n| Einwohner              = 33\n| Einwohner-Stand-Datum  = 2014\n| Einwohner-Quelle       = <ref name=\"VGN\"/>\n| Postleitzahl1          = 96231\n| Vorwahl1               = 09571\n| Bild                   = Hausen-Mainfähre.jpg\n| Bild-Beschreibung      = Hausen\n}}\n\n'''Hausen''' ({{Audio|LL-Q188 (deu)-Frank C. Müller-Hausen.wav}}) ist ein Gemeindeteil der [[Oberfranken|oberfränkischen]] Stadt [[Bad Staffelstein]] im [[Landkreis Lichtenfels]].",
+  "segments": [
+    {
+      "id": "267926791-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Ortsteil einer Gemeinde in Deutschland | Höhe                   = 260",
+      "plain": "Infobox Ortsteil einer Gemeinde in Deutschland – Höhe: 260 m ü. NHN"
+    },
+    {
+      "id": "267926791-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Ortsteil einer Gemeinde in Deutschland | Einwohner              = 33 | Einwohner-Quelle       = <ref name=\"VGN\"/>",
+      "plain": "Infobox Ortsteil einer Gemeinde in Deutschland – Einwohner: 33 (2014)"
+    },
+    {
+      "id": "267926791-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Ortsteil einer Gemeinde in Deutschland | Postleitzahl1          = 96231",
+      "plain": "Infobox Ortsteil einer Gemeinde in Deutschland – Postleitzahl: 96231"
+    },
+    {
+      "id": "267926791-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Ortsteil einer Gemeinde in Deutschland | Vorwahl1               = 09571",
+      "plain": "Infobox Ortsteil einer Gemeinde in Deutschland – Vorwahl: 09571"
+    },
+    {
+      "id": "267926791-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Hausen''' ({{Audio|LL-Q188 (deu)-Frank C. Müller-Hausen.wav}}) ist ein Gemeindeteil der [[Oberfranken|oberfränkischen]] Stadt [[Bad Staffelstein]] im [[Landkreis Lichtenfels]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 267926791,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "267926791-0001",
+        "type": "infobox_row",
+        "section": "",
+        "context_ids": [
+          "267926791-0000"
+        ],
+        "plain": "Infobox Ortsteil einer Gemeinde in Deutschland – Einwohner: 33 (2014)",
+        "context_plain": [
+          "Infobox Ortsteil einer Gemeinde in Deutschland – Höhe: 260 m ü. NHN"
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

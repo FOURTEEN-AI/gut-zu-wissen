@@ -1,0 +1,132 @@
+{
+  "title": "Treuchtlingen",
+  "revid": 272267879,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-18T13:04:52Z",
+  "fetched_at": "2026-11-21T12:01:59Z",
+  "categories": [
+    "Kategorie:Ersterwähnung 899",
+    "Kategorie:Gemarkung im Landkreis Weißenburg-Gunzenhausen",
+    "Kategorie:Gemeinde in Bayern",
+    "Kategorie:Kurort in Bayern",
+    "Kategorie:Ort an der Altmühl",
+    "Kategorie:Ort im Landkreis Weißenburg-Gunzenhausen",
+    "Kategorie:Staatlich anerkannter Erholungsort in Bayern",
+    "Kategorie:Stadt in Bayern",
+    "Kategorie:Stadtrechtsverleihung 1898",
+    "Kategorie:Treuchtlingen"
+  ],
+  "intro_wikitext": "{{Infobox Gemeinde in Deutschland\n|Art               = Stadt\n|Wappen            = DEU Treuchtlingen COA.svg\n|Breitengrad       = 48/57/19/N\n|Längengrad        = 10/54/34/E\n|Lageplan          = Treuchtlingen in WUG.svg\n|Bundesland        = Bayern\n|Regierungsbezirk  = Mittelfranken\n|Landkreis         = Weißenburg-Gunzenhausen\n|Höhe              = 412\n|PLZ               = 91757\n|Vorwahl           = 09142\n|Gemeindeschlüssel = 09577173\n|Gliederung        = 54 [[Gemeindeteil]]e\n|Straße            = Hauptstraße 31\n|Website           = [https://www.treuchtlingen.de/ www.treuchtlingen.de]\n|Bürgermeister     = Kristina Becker\n|Bürgermeistertitel= [[Bürgermeister#Bayern|Erste Bürgermeisterin]]\n|Partei            = CSU\n}}\n\n'''Treuchtlingen''' ist eine [[Stadt]] im südlichen Teil des [[Mittelfranken|mittelfränkischen]] [[Landkreis Weißenburg-Gunzenhausen|Landkreises Weißenburg-Gunzenhausen]]. Die [[Eisenbahnerstadt]] bildete einstmals das zentrale [[Schnellzug]]-Streckenkreuz Bayerns. Sie ist auch durch den [[Treuchtlinger Marmor]] bekannt.",
+  "segments": [
+    {
+      "id": "272267879-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Deutschland | Wappen            = DEU Treuchtlingen COA.svg",
+      "plain": "Infobox Gemeinde in Deutschland – : "
+    },
+    {
+      "id": "272267879-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Deutschland | Regierungsbezirk  = Mittelfranken",
+      "plain": "Infobox Gemeinde in Deutschland – Regierungsbezirk: Mittelfranken"
+    },
+    {
+      "id": "272267879-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Deutschland | Höhe              = 412",
+      "plain": "Infobox Gemeinde in Deutschland – Höhe: 412 m ü. NHN"
+    },
+    {
+      "id": "272267879-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Deutschland | Vorwahl           = 09142",
+      "plain": "Infobox Gemeinde in Deutschland – Vorwahl: 09142"
+    },
+    {
+      "id": "272267879-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Deutschland | Gliederung        = 54 [[Gemeindeteil]]e",
+      "plain": "Infobox Gemeinde in Deutschland – Stadtgliederung: 54 Gemeindeteile"
+    },
+    {
+      "id": "272267879-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Deutschland | PLZ               = 91757 | Straße            = Hauptstraße 31",
+      "plain": "Infobox Gemeinde in Deutschland – Adresse der Stadtverwaltung: Hauptstraße 31 91757 Treuchtlingen"
+    },
+    {
+      "id": "272267879-0006",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Deutschland | Website           = [https://www.treuchtlingen.de/ www.treuchtlingen.de]",
+      "plain": "Infobox Gemeinde in Deutschland – Website: www.treuchtlingen.de"
+    },
+    {
+      "id": "272267879-0007",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Gemeinde in Deutschland | Bürgermeister     = Kristina Becker | Bürgermeistertitel= [[Bürgermeister#Bayern|Erste Bürgermeisterin]] | Partei            = CSU",
+      "plain": "Infobox Gemeinde in Deutschland – Erste Bürgermeisterin: Kristina Becker (CSU)"
+    },
+    {
+      "id": "272267879-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Treuchtlingen''' ist eine [[Stadt]] im südlichen Teil des [[Mittelfranken|mittelfränkischen]] [[Landkreis Weißenburg-Gunzenhausen|Landkreises Weißenburg-Gunzenhausen]].",
+      "plain": null
+    },
+    {
+      "id": "272267879-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die [[Eisenbahnerstadt]] bildete einstmals das zentrale [[Schnellzug]]-Streckenkreuz Bayerns.",
+      "plain": null
+    },
+    {
+      "id": "272267879-0010",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie ist auch durch den [[Treuchtlinger Marmor]] bekannt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272267879,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272267879-0009",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272267879-0008"
+        ],
+        "plain": "Die Eisenbahnerstadt bildete einstmals das zentrale Schnellzug-Streckenkreuz Bayerns.",
+        "context_plain": [
+          "Treuchtlingen ist eine Stadt im südlichen Teil des mittelfränkischen Landkreises Weißenburg-Gunzenhausen."
+        ]
+      },
+      {
+        "segment_id": "272267879-0010",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272267879-0008",
+          "272267879-0009"
+        ],
+        "plain": "Sie ist auch durch den Treuchtlinger Marmor bekannt.",
+        "context_plain": [
+          "Treuchtlingen ist eine Stadt im südlichen Teil des mittelfränkischen Landkreises Weißenburg-Gunzenhausen.",
+          "Die Eisenbahnerstadt bildete einstmals das zentrale Schnellzug-Streckenkreuz Bayerns."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "title": "Blaubandbärbling",
+  "revid": 262383243,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-12-13T12:23:34Z",
+  "fetched_at": "2026-11-21T12:01:59Z",
+  "categories": [
+    "Kategorie:Gründlingsverwandte",
+    "Kategorie:Neozoon (Wirbeltier) in Europa"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe bitte [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name       = Blaubandbärbling\n| Taxon_WissName   = Pseudorasbora parva\n| Taxon_Rang       = Art\n| Taxon_Autor      = ([[Coenraad Jacob Temminck|Temminck]] & [[Hermann Schlegel|Schlegel]], 1846)\n| Taxon2_WissName  = Pseudorasbora\n| Taxon2_Rang      = Gattung\n| Taxon3_Name      = Gründlingsverwandte\n| Taxon3_WissName  = Gobionidae\n| Taxon3_Rang      = Familie\n| Taxon4_Name      = Karpfenfischähnliche\n| Taxon4_WissName  = Cyprinoidei\n| Taxon4_Rang      = Unterordnung\n| Taxon5_Name      = Karpfenartige\n| Taxon5_WissName  = Cypriniformes\n| Taxon5_Rang      = Ordnung\n| Taxon6_LinkName  = Otophysi\n| Taxon6_WissName  = Otophysa\n| Taxon6_Rang      = ohne Rang\n| Bild             = Pseudorasbora parva(edited version).jpg\n| Bildbeschreibung = Blaubandbärbling\n}}\n\nDer '''Blaubandbärbling''' (''Pseudorasbora parva'') ist eine [[Fische|Fischart]] aus der [[Familie (Biologie)|Familie]] der [[Karpfenfische]] (Cyprinidae). Sie stammt ursprünglich aus [[Asien]], wurde aber in vielen Regionen Asiens und [[Europa]]s vom Menschen eingebracht.",
+  "segments": [
+    {
+      "id": "262383243-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon6_WissName  = Otophysa",
+      "plain": "Taxobox – Systematik – ohne Rang: Otophysa"
+    },
+    {
+      "id": "262383243-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_Name      = Karpfenartige | Taxon5_WissName  = Cypriniformes",
+      "plain": "Taxobox – Systematik – Ordnung: Karpfenartige (Cypriniformes)"
+    },
+    {
+      "id": "262383243-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_Name      = Karpfenfischähnliche | Taxon4_WissName  = Cyprinoidei",
+      "plain": "Taxobox – Systematik – Unterordnung: Karpfenfischähnliche (Cyprinoidei)"
+    },
+    {
+      "id": "262383243-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon3_Name      = Gründlingsverwandte | Taxon3_WissName  = Gobionidae",
+      "plain": "Taxobox – Systematik – Familie: Gründlingsverwandte (Gobionidae)"
+    },
+    {
+      "id": "262383243-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_WissName  = Pseudorasbora",
+      "plain": "Taxobox – Systematik – Gattung: Pseudorasbora"
+    },
+    {
+      "id": "262383243-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name       = Blaubandbärbling",
+      "plain": "Taxobox – Systematik – Art: Blaubandbärbling"
+    },
+    {
+      "id": "262383243-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der '''Blaubandbärbling''' (''Pseudorasbora parva'') ist eine [[Fische|Fischart]] aus der [[Familie (Biologie)|Familie]] der [[Karpfenfische]] (Cyprinidae).",
+      "plain": null
+    },
+    {
+      "id": "262383243-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie stammt ursprünglich aus [[Asien]], wurde aber in vielen Regionen Asiens und [[Europa]]s vom Menschen eingebracht.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 262383243,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "262383243-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "262383243-0006"
+        ],
+        "plain": "Sie stammt ursprünglich aus Asien, wurde aber in vielen Regionen Asiens und Europas vom Menschen eingebracht.",
+        "context_plain": [
+          "Der Blaubandbärbling (Pseudorasbora parva) ist eine Fischart aus der Familie der Karpfenfische (Cyprinidae)."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}
