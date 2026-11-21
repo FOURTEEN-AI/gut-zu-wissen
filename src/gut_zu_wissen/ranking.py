@@ -148,10 +148,10 @@ def offer_size(extracted: int, share: float, minimum: int, maximum: int) -> int:
     return min(extracted, maximum, max(minimum, math.ceil(extracted * share)))
 
 
-def must_use_count(extracted: int, share: float) -> int:
+def must_use_count(extracted: int, share: float, maximum: int) -> int:
     """D8: number of top-ranked facts the dialog must use: `share` of the extracted facts, rounded
-    up, 0 when there are none."""
-    return math.ceil(extracted * share) if extracted else 0
+    up, at most `maximum` (2026-11-21), 0 when there are none."""
+    return min(maximum, math.ceil(extracted * share)) if extracted else 0
 
 
 def offer_count(offered: int, minimum: int, maximum: int) -> dict:

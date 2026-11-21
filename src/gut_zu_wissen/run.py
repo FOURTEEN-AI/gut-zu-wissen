@@ -417,7 +417,9 @@ def run(
                 raise GateFailure(failure)
             must_use = frozenset(
                 r.fact.segment_id
-                for r in main_ranked[: must_use_count(extracted, quotas["must_use_share"])]
+                for r in main_ranked[
+                    : must_use_count(extracted, quotas["must_use_share"], quotas["must_use_max"])
+                ]
             )
             return Offer(
                 main_ranked,

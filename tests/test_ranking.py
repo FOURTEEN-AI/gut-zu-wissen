@@ -117,10 +117,15 @@ def test_offer_size_is_capped_at_the_maximum():
 
 
 def test_must_use_count_is_the_rounded_up_share():
-    assert must_use_count(131, 0.05) == 7
-    assert must_use_count(20, 0.05) == 1
-    assert must_use_count(1, 0.05) == 1
-    assert must_use_count(0, 0.05) == 0
+    assert must_use_count(131, 0.05, 15) == 7
+    assert must_use_count(20, 0.05, 15) == 1
+    assert must_use_count(1, 0.05, 15) == 1
+    assert must_use_count(0, 0.05, 15) == 0
+
+
+def test_must_use_count_is_capped_at_the_maximum():
+    assert must_use_count(784, 0.05, 15) == 15  # Kölner Dom: 40 without the cap
+    assert must_use_count(290, 0.05, 15) == 15  # Main: exactly at the cap
 
 
 def test_linked_prompt_names_main_topic_and_relevance_rule():

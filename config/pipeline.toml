@@ -81,6 +81,7 @@ main_facts_min = 20
 main_facts_max = 70
 main_offer_share = 0.5
 must_use_share = 0.05
+must_use_max = 15                 # owner, 2026-11-21: at most 15 must-use facts (Kölner Dom: 40)
 linked_intro_facts_min = 6
 linked_intro_facts_max = 12
 # Einordnung (decided 2026-11-20): the first intro sentences of the main article that pass the
