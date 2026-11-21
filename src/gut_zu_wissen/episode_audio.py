@@ -28,6 +28,7 @@ syntheses are archived), plus the loudness report and the fingerprints of the in
 
 from __future__ import annotations
 
+import logging
 from collections.abc import Mapping, Sequence
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
@@ -61,6 +62,8 @@ from gut_zu_wissen.verification import (
 
 SECTIONS_DIR = "sections"
 EPISODE_AUDIO = "episode.flac"
+
+log = logging.getLogger(__name__)
 
 
 class AudioStepError(Exception):
@@ -281,6 +284,12 @@ def _verified_section(
             [section.turn_indices[t] for t in range(piece.first, piece.end)],
         )
         section.attempts.append(attempt)
+        log.info(
+            "Section %d: synthesis attempt %d (turns %s)",
+            section.index,
+            attempt.attempt,
+            f"{attempt.turn_indices[0]}-{attempt.turn_indices[-1]}",
+        )
         y = _synthesize(section, attempt, piece_turns, tts, lexicon, rate, config["prices"])
         for t in range(piece.first, piece.end):
             syntheses[t] += 1
@@ -300,6 +309,13 @@ def _verified_section(
         used = max((syntheses[piece.first + t] - 1 for t in affected), default=0)
         action = retry_action(used, attempt.changes_statement, budget)
         attempt.action = action.value
+        log.info(
+            "Section %d: STT %d deviations, %d change the statement -> %s",
+            section.index,
+            len(attempt.deviations),
+            len(counting),
+            action.value,
+        )
         if action is RetryAction.ESCALATE:
             details = "; ".join(
                 f"'{d.expected}' heard as '{d.heard}' ({d.reason})" for d in counting

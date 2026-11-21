@@ -18,6 +18,7 @@ The daily decisions are pure functions or take their collaborators as arguments;
 
 from __future__ import annotations
 
+import logging
 import random
 import re
 from collections.abc import Callable, Iterator, Sequence
@@ -27,6 +28,8 @@ from datetime import date, datetime
 from gut_zu_wissen.fetch import ArticleNotFoundError, WikipediaApi
 from gut_zu_wissen.gates import is_living_person, repeat_gate_allows
 from gut_zu_wissen.orchestrator import GateFailure, JevAbortFailure
+
+log = logging.getLogger(__name__)
 
 CHRONOLOGY_PAGE = "Wikipedia:Hauptseite/Artikel des Tages/Chronologie {year}"
 WEEKDAY_PAGE = "Wikipedia:Hauptseite/Artikel des Tages/{weekday}"
@@ -234,6 +237,7 @@ def main() -> int:
     from gut_zu_wissen.archive import last_published
     from gut_zu_wissen.fetch import HttpWikipediaApi
     from gut_zu_wissen.intro_outro import FixedAudioError
+    from gut_zu_wissen.logs import setup_logging
     from gut_zu_wissen.run import (
         ARCHIVE_ROOT,
         MissingKeyError,
@@ -243,6 +247,7 @@ def main() -> int:
         write_job_summary,
     )
 
+    setup_logging()
     config = load_config()
     now = datetime.now(UTC)
     day = now.date()
@@ -265,7 +270,7 @@ def main() -> int:
         )
 
     def run_episode(name: str) -> str:
-        print(f"Daily run: '{name}'", flush=True)
+        log.info("Daily run: '%s'", name)
         return run_title(config, name)
 
     substitutes = _substitutes(api, {title}, seed)

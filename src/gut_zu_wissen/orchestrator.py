@@ -47,6 +47,7 @@ Deterministic parts are pure functions; the LLM and Jev calls sit behind their i
 
 from __future__ import annotations
 
+import logging
 from collections.abc import Callable, Collection, Mapping, Sequence
 from dataclasses import asdict, dataclass, field, replace
 
@@ -108,6 +109,9 @@ CASCADE_PROMPT = (
     "kurz auf Deutsch; nenne bei „falsch“ die betroffene Aussage. Antworte mit JSON im "
     "vorgegebenen Schema."
 )
+
+
+log = logging.getLogger(__name__)
 
 
 class GateFailure(Exception):
@@ -599,6 +603,14 @@ def repair_turns(
                 return RepairResult(True, rejected, start, charged, chain)
             budget = remaining
             old = turns[pos]
+            log.info(
+                "Conversation %d: turn %d %s (%s budget %s)",
+                state.conversation,
+                pos,
+                kind,
+                charged,
+                "left" if remaining else "spent",
+            )
             new = regenerate_turn(author, offer_text, aliases, turns, pos, reason, offer.pinned)
             version = turn_version(state.regenerations, state.conversation, pos)
             state.superseded.append(
@@ -617,6 +629,7 @@ def repair_turns(
             ):
                 judgements[later.turn_index] = later
             if not judgement.accepted:
+                log.info("Turn %d rejected again: %s", pos, judgement.reason)
                 note(new, judgement)
                 chain.append(Rejection(new, judgement.reason or ""))
                 reason = judgement.reason
@@ -665,6 +678,11 @@ def orchestrate(
     try:
         for conversation in range(1, quotas["conversation_retries"] + 2):
             state.conversation = conversation
+            log.info(
+                "Conversation %d: %s",
+                conversation,
+                f"continuing after {len(prefix)} kept turns" if prefix else "writing dialog",
+            )
             if prefix:
                 offer = state.offer
                 assert offer is not None
@@ -691,6 +709,12 @@ def orchestrate(
                     offer.must_use,
                 )
             kept = len(prefix)
+            log.info(
+                "Dialog: %d turns, %d facts used, %d gate problems",
+                len(dialog.turns),
+                len(dialog.used_fact_ids),
+                len(dialog.problems),
+            )
             state.dialog, state.judgements, state.used_fact_ids = dialog, [], []
             failure = used_facts_gate(len(dialog.used_fact_ids), minimum) or top_facts_gate(
                 offer.must_use, dialog.used_fact_ids, excluded
@@ -700,6 +724,7 @@ def orchestrate(
             rejected: list[str] = []
             chain: list[Rejection] = []
             if not failure:
+                log.info("Judging turns %d to %d", kept, len(dialog.turns) - 1)
                 judgements = [
                     *prefix_judgements,
                     *(
@@ -712,6 +737,11 @@ def orchestrate(
                         i for i in rejected_fact_ids(turn, judgement, t) if i not in rejected
                     ]
                 state.judgements = judgements
+                log.info(
+                    "Judged: %d of %d turns accepted",
+                    sum(j.accepted for j in judgements),
+                    len(judgements),
+                )
                 result = repair_turns(
                     state,
                     dialog.turns,
@@ -733,6 +763,7 @@ def orchestrate(
                     failed_chain = result.start
                     chain = result.rejections
             if failure:
+                log.warning("Conversation %d failed: %s", conversation, failure)
                 excluded.update(i for i in rejected if i not in offer.pinned)
                 last_reason = failure
                 if conversation <= quotas["conversation_retries"]:

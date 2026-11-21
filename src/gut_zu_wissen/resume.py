@@ -48,6 +48,7 @@ from gut_zu_wissen.extraction import Fact
 from gut_zu_wissen.intro_outro import ASSETS_DIR, FixedAudioError, load_fixed
 from gut_zu_wissen.judge import TurnJudgement
 from gut_zu_wissen.llm import AnthropicLlm, StructuredLlm
+from gut_zu_wissen.logs import setup_logging
 from gut_zu_wissen.orchestrator import GateFailure
 from gut_zu_wissen.ranking import RankedFact
 from gut_zu_wissen.run import (
@@ -306,6 +307,7 @@ def main(argv: list[str] | None = None) -> int:
     if len(args) != 1 or not args[0].strip():
         print("Usage: python -m gut_zu_wissen.resume <episode_id>", file=sys.stderr)
         return 2
+    setup_logging()
     episode_id = args[0].strip()
     config = load_config()
     gemini_key = os.environ.get("GEMINI_API_KEY", "")

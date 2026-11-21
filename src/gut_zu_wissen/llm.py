@@ -15,11 +15,15 @@ the write price.
 from __future__ import annotations
 
 import json
+import logging
+import time
 from typing import Protocol
 
 import anthropic
 
 from gut_zu_wissen.usage import Usage
+
+log = logging.getLogger(__name__)
 
 
 class LlmError(Exception):
@@ -124,6 +128,7 @@ class AnthropicLlm:
         )
         # Streamed, so that large output ceilings (dialog author) stay under the SDK's HTTP
         # timeout; the final message carries the same fields as a non-streamed response.
+        start = time.monotonic()
         with self._client.messages.stream(**params) as stream:
             response = stream.get_final_message()
         counts = getattr(response, "usage", None)
@@ -134,6 +139,14 @@ class AnthropicLlm:
                 getattr(counts, "cache_creation_input_tokens", None) or 0,
                 getattr(counts, "cache_read_input_tokens", None) or 0,
             )
+        log.debug(
+            "LLM %s: %.1f s, %s in, %s out, stop %s",
+            self._model,
+            time.monotonic() - start,
+            getattr(counts, "input_tokens", "?"),
+            getattr(counts, "output_tokens", "?"),
+            response.stop_reason,
+        )
         if response.stop_reason == "refusal":
             raise LlmError(f"The model declined the request: {response.stop_details}")
         if response.stop_reason == "max_tokens":
