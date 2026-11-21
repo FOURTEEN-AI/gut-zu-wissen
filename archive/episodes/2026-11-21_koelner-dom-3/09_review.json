@@ -1,0 +1,2590 @@
+{
+  "episode_id": "2026-11-21_koelner-dom-3",
+  "title": "Kölner Dom",
+  "rate": 1.0,
+  "seed": "2026-11-21_koelner-dom-3",
+  "population": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    16,
+    18,
+    20,
+    21,
+    22,
+    23,
+    24,
+    26,
+    28,
+    29,
+    30,
+    32,
+    33,
+    34,
+    36,
+    37,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    51,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    63,
+    64,
+    66,
+    67,
+    68,
+    69,
+    70,
+    72,
+    74,
+    76,
+    77,
+    78,
+    80
+  ],
+  "draws": [
+    {
+      "turn_index": 0,
+      "u": 0.4863814183808074,
+      "sampled": true
+    },
+    {
+      "turn_index": 2,
+      "u": 0.7506858622473953,
+      "sampled": true
+    },
+    {
+      "turn_index": 4,
+      "u": 0.25457218471739274,
+      "sampled": true
+    },
+    {
+      "turn_index": 6,
+      "u": 0.9292639199194904,
+      "sampled": true
+    },
+    {
+      "turn_index": 8,
+      "u": 0.11080147719816202,
+      "sampled": true
+    },
+    {
+      "turn_index": 9,
+      "u": 0.08593842228079629,
+      "sampled": true
+    },
+    {
+      "turn_index": 10,
+      "u": 0.7221745413751144,
+      "sampled": true
+    },
+    {
+      "turn_index": 12,
+      "u": 0.49157283147020947,
+      "sampled": true
+    },
+    {
+      "turn_index": 13,
+      "u": 0.9645211327068639,
+      "sampled": true
+    },
+    {
+      "turn_index": 14,
+      "u": 0.2396507932194476,
+      "sampled": true
+    },
+    {
+      "turn_index": 16,
+      "u": 0.676938173813977,
+      "sampled": true
+    },
+    {
+      "turn_index": 18,
+      "u": 0.2315568186279542,
+      "sampled": true
+    },
+    {
+      "turn_index": 20,
+      "u": 0.44987508413769606,
+      "sampled": true
+    },
+    {
+      "turn_index": 21,
+      "u": 0.4250342183500415,
+      "sampled": true
+    },
+    {
+      "turn_index": 22,
+      "u": 0.2799389159436778,
+      "sampled": true
+    },
+    {
+      "turn_index": 23,
+      "u": 0.1640926944759835,
+      "sampled": true
+    },
+    {
+      "turn_index": 24,
+      "u": 0.20814923679032238,
+      "sampled": true
+    },
+    {
+      "turn_index": 26,
+      "u": 0.9887380626746011,
+      "sampled": true
+    },
+    {
+      "turn_index": 28,
+      "u": 0.5314151199581209,
+      "sampled": true
+    },
+    {
+      "turn_index": 29,
+      "u": 0.1165697039671465,
+      "sampled": true
+    },
+    {
+      "turn_index": 30,
+      "u": 0.9733162697752831,
+      "sampled": true
+    },
+    {
+      "turn_index": 32,
+      "u": 0.8591871784146934,
+      "sampled": true
+    },
+    {
+      "turn_index": 33,
+      "u": 0.07068762043656585,
+      "sampled": true
+    },
+    {
+      "turn_index": 34,
+      "u": 0.5537084544415211,
+      "sampled": true
+    },
+    {
+      "turn_index": 36,
+      "u": 0.04753673094418598,
+      "sampled": true
+    },
+    {
+      "turn_index": 37,
+      "u": 0.7919618518477982,
+      "sampled": true
+    },
+    {
+      "turn_index": 38,
+      "u": 0.2752350714755627,
+      "sampled": true
+    },
+    {
+      "turn_index": 40,
+      "u": 0.0720962392691763,
+      "sampled": true
+    },
+    {
+      "turn_index": 42,
+      "u": 0.3016755581792425,
+      "sampled": true
+    },
+    {
+      "turn_index": 44,
+      "u": 0.43353176185993614,
+      "sampled": true
+    },
+    {
+      "turn_index": 46,
+      "u": 0.13347509497671506,
+      "sampled": true
+    },
+    {
+      "turn_index": 48,
+      "u": 0.840814255894675,
+      "sampled": true
+    },
+    {
+      "turn_index": 50,
+      "u": 0.7237435926095022,
+      "sampled": true
+    },
+    {
+      "turn_index": 51,
+      "u": 0.625931240408234,
+      "sampled": true
+    },
+    {
+      "turn_index": 52,
+      "u": 0.5066829302106397,
+      "sampled": true
+    },
+    {
+      "turn_index": 54,
+      "u": 0.18691794147805885,
+      "sampled": true
+    },
+    {
+      "turn_index": 56,
+      "u": 0.8412820987127099,
+      "sampled": true
+    },
+    {
+      "turn_index": 58,
+      "u": 0.08750146013240845,
+      "sampled": true
+    },
+    {
+      "turn_index": 60,
+      "u": 0.6555627116914604,
+      "sampled": true
+    },
+    {
+      "turn_index": 62,
+      "u": 0.01863050204216421,
+      "sampled": true
+    },
+    {
+      "turn_index": 63,
+      "u": 0.8233606338572228,
+      "sampled": true
+    },
+    {
+      "turn_index": 64,
+      "u": 0.15464727133855993,
+      "sampled": true
+    },
+    {
+      "turn_index": 66,
+      "u": 0.2593831286929239,
+      "sampled": true
+    },
+    {
+      "turn_index": 67,
+      "u": 0.40465819442411766,
+      "sampled": true
+    },
+    {
+      "turn_index": 68,
+      "u": 0.07684549035992205,
+      "sampled": true
+    },
+    {
+      "turn_index": 69,
+      "u": 0.3891044658038054,
+      "sampled": true
+    },
+    {
+      "turn_index": 70,
+      "u": 0.3363748583595061,
+      "sampled": true
+    },
+    {
+      "turn_index": 72,
+      "u": 0.6692785449211197,
+      "sampled": true
+    },
+    {
+      "turn_index": 74,
+      "u": 0.2958711390680141,
+      "sampled": true
+    },
+    {
+      "turn_index": 76,
+      "u": 0.7087497328890004,
+      "sampled": true
+    },
+    {
+      "turn_index": 77,
+      "u": 0.604874410228742,
+      "sampled": true
+    },
+    {
+      "turn_index": 78,
+      "u": 0.5187924877525621,
+      "sampled": true
+    },
+    {
+      "turn_index": 80,
+      "u": 0.8484522722355932,
+      "sampled": true
+    }
+  ],
+  "status": "pending",
+  "outcome": null,
+  "rate_applied": [],
+  "issue": 27,
+  "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/27",
+  "explicit": {
+    "model": "claude-sonnet-5-5",
+    "predicted": false,
+    "verdict": "clean",
+    "findings": [],
+    "reason": "Das Gespräch behandelt sachlich Geschichte, Bau und Besonderheiten des Kölner Doms. Die Sage vom Sturz des Dombaumeisters (Beitrag 32), die Bombentreffer im Krieg (Beiträge 66 und 68) und das Versenken der Kunstuhr werden nur knapp und beiläufig erwähnt, ohne drastische Schilderung. Sexualität, Drogen und derbe Schimpfwörter kommen nicht vor.",
+    "label": null,
+    "reviewer_flag": null,
+    "note": null,
+    "comment_id": null
+  },
+  "turns": [
+    {
+      "turn_index": 0,
+      "speaker": "Lena",
+      "text": "Der Kölner Dom, offiziell Hohe Domkirche zu Köln, ist eine römisch-katholische Kirche in Köln. Sie steht unter dem Patrozinium des Apostels Petrus. Außerdem ist der Dom die Kathedrale des Erzbistums Köln und die Metropolitankirche der Kirchenprovinz Köln.",
+      "previous_text": null,
+      "fact_ids": [
+        "271917040-0010",
+        "271917040-0011"
+      ],
+      "statements": [
+        {
+          "text": "Der Kölner Dom, offiziell Hohe Domkirche zu Köln, ist eine römisch-katholische Kirche in Köln unter dem Patrozinium des Apostels Petrus.",
+          "fact_ids": [
+            "271917040-0010"
+          ]
+        },
+        {
+          "text": "Der Dom ist die Kathedrale des Erzbistums Köln sowie Metropolitankirche der Kirchenprovinz Köln.",
+          "fact_ids": [
+            "271917040-0011"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0010",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Der Kölner Dom (offiziell Hohe Domkirche zu Köln) ist eine römisch-katholische Kirche in Köln unter dem Patrozinium des Apostels Petrus.",
+          "context": []
+        },
+        {
+          "id": "271917040-0011",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Er ist die Kathedrale des Erzbistums Köln sowie Metropolitankirche der Kirchenprovinz Köln.",
+          "context": [
+            "Der Kölner Dom (offiziell Hohe Domkirche zu Köln) ist eine römisch-katholische Kirche in Köln unter dem Patrozinium des Apostels Petrus."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Lena",
+      "text": "Mitte der Sechzigerjahre stellte der Kölner Dom seine beiden nördlichen Seitenschiffe auch islamischen Gottesdiensten türkischer Arbeitsmigranten zur Verfügung.",
+      "previous_text": "Das ist der Rahmen. Und was steckt in diesem Dom, womit man nicht rechnet?",
+      "fact_ids": [
+        "271917040-1040"
+      ],
+      "statements": [
+        {
+          "text": "Mitte der 1960er-Jahre stellte der Kölner Dom seine beiden nördlichen Seitenschiffe auch islamischen Gottesdiensten türkischer Arbeitsmigranten zur Verfügung.",
+          "fact_ids": [
+            "271917040-1040"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-1040",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Mitte der 1960er-Jahre stellte der Kölner Dom seine beiden nördlichen Seitenschiffe auch islamischen Gottesdiensten türkischer Arbeitsmigranten zur Verfügung.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Lena",
+      "text": "Da fällt der Name Ewald Mataré. Ihm half sein damaliger Schüler Joseph Beuys.",
+      "previous_text": "Das hätte ich nicht erwartet! Gibt es auch bekannte Künstlernamen, die mit dem Dom zu tun haben?",
+      "fact_ids": [
+        "271917040-0590"
+      ],
+      "statements": [
+        {
+          "text": "Ewald Mataré half sein damaliger Schüler Joseph Beuys.",
+          "fact_ids": [
+            "271917040-0590"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0590",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Ihm half dabei sein damaliger Schüler Joseph Beuys.",
+          "context": [
+            "Die Portaltüren erneuerte 1948 Ewald Mataré."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.68,
+          "vollstaendig": 0.62
+        },
+        "jev_error": null,
+        "reason": "Der Fakt-Satz „Ihm half dabei sein damaliger Schüler Joseph Beuys“ bezieht sich laut Kontext auf Ewald Mataré, der 1948 die Portaltüren des Kölner Doms erneuerte. Lena löst das Bezugswort „ihm“ korrekt mit dem Namen auf, und Mataré ist im Gespräch eindeutig gemeint. Die Wendung „Da fällt der Name Ewald Mataré“ ist eine belegfreie Überleitung als Antwort auf Felix' Frage nach Künstlernamen, die mit dem Dom zu tun haben. Der Redebeitrag enthält keine weiteren Behauptungen und keine Fragen mit Prämisse, und es entsteht keine neue Beziehung zwischen Fakten."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Lena",
+      "text": "Auf den Domsteinen wachsen Cyanobakterien. Sie verfärben sich durch Sonnenstrahlung dunkel und betreiben Photosynthese. Bruno P. Kremer sagt dazu: Mithin produziert der Dom Sauerstoff und trägt zur Luftverbesserung der Kölner Innenstadt bei. Das sei vergleichbar mit der Sauerstoff-Produktion eines Wäldchens.",
+      "previous_text": "Spannend! Was passiert eigentlich draußen auf den Steinen des Gebäudes?",
+      "fact_ids": [
+        "271917040-0997"
+      ],
+      "statements": [
+        {
+          "text": "Auf den Domsteinen wachsen Cyanobakterien, die sich durch Sonnenstrahlung dunkel verfärben und Photosynthese betreiben.",
+          "fact_ids": [
+            "271917040-0997"
+          ]
+        },
+        {
+          "text": "Laut Bruno P. Kremer produziert der Dom damit Sauerstoff und trägt zur Luftverbesserung der Kölner Innenstadt bei, vergleichbar mit der Sauerstoff-Produktion eines Wäldchens.",
+          "fact_ids": [
+            "271917040-0997"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0997",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Auf den Domsteinen wachsen auch Cyanobakterien, die sich durch Sonnenstrahlung dunkel verfärben und Photosynthese betreiben: „Mithin produziert der Dom Sauerstoff und trägt zur Luftverbesserung der Kölner Innenstadt bei“, vergleichbar mit der Sauerstoff-Produktion eines Wäldchens, so Günthners Kollege Bruno P. Kremer.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Cyanobakterien auf den Domsteinen, dunkle Verfärbung durch Sonnenstrahlung, Photosynthese, das Zitat von Bruno P. Kremer und der Vergleich mit einem Wäldchen. Der Gegenstand ist eindeutig (Kölner Dom, Antwort auf die Frage nach den Steinen). Es gibt keine zusätzlichen Angaben und keine Fragen im Redebeitrag."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Lena",
+      "text": "Über einer Werkstatt der Dombauhütte wurde im Sommer zweitausendvierzehn ein Bienenvolk angesiedelt. Im Jahr darauf kamen zwei weitere dazu. So produzierten im Jahr zweitausendfünfzehn rund hundertzwanzigtausend Dombienen fünfzig Kilogramm Honig. Der Honig wird allerdings nicht frei verkauft.",
+      "previous_text": "Das ist ja kurios! Und wie sieht es mit Tieren am Dom aus?",
+      "fact_ids": [
+        "271917040-0998"
+      ],
+      "statements": [
+        {
+          "text": "Über einer Werkstatt der Dombauhütte wurde im Sommer 2014 ein Bienenvolk angesiedelt, im Jahr darauf zwei weitere, so dass 2015 rund 120.000 Dombienen 50 Kilogramm Honig produzierten, der allerdings nicht frei verkauft wird.",
+          "fact_ids": [
+            "271917040-0998"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0998",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Über einer Werkstatt der Dombauhütte wurde im Sommer 2014 ein Bienenvolk angesiedelt, im Jahr darauf zwei weitere, so dass 2015 rund 120.000 „Dombienen“ 50 Kilogramm Honig produzierten, der allerdings nicht frei verkauft wird.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 9,
+      "speaker": "Felix",
+      "text": "Was ist eigentlich diese Dombauhütte, über deren Werkstatt die Bienen leben?",
+      "previous_text": "Über einer Werkstatt der Dombauhütte wurde im Sommer zweitausendvierzehn ein Bienenvolk angesiedelt. Im Jahr darauf kamen zwei weitere dazu. So produzierten im Jahr zweitausendfünfzehn rund hundertzwanzigtausend Dombienen fünfzig Kilogramm Honig. Der Honig wird allerdings nicht frei verkauft.",
+      "fact_ids": [
+        "271917040-0998"
+      ],
+      "statements": [
+        {
+          "text": "Über einer Werkstatt der Dombauhütte wurde ein Bienenvolk angesiedelt.",
+          "fact_ids": [
+            "271917040-0998"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0998",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Über einer Werkstatt der Dombauhütte wurde im Sommer 2014 ein Bienenvolk angesiedelt, im Jahr darauf zwei weitere, so dass 2015 rund 120.000 „Dombienen“ 50 Kilogramm Honig produzierten, der allerdings nicht frei verkauft wird.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.72
+        },
+        "jev_error": null,
+        "reason": "Felix stellt eine Nachfrage mit Bitte um Erklärung. Die Prämisse, dass die Bienen über einer Werkstatt der Dombauhütte leben, steht im Fakt-Satz (Bienenvolk über einer Werkstatt der Dombauhütte angesiedelt) und wurde von Lena genannt. Es kommt keine zusätzliche Behauptung vor, und der Gegenstand ist eindeutig."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "Lena",
+      "text": "Die Dombauhütte Köln führt mit rund hundert Handwerkern fortlaufend Renovierungsarbeiten am Kölner Dom durch. Dadurch hält sie das Gebäude instand. Damit setzt sie die Tradition der mittelalterlichen Dombauhütte fort. Heute ist sie die größte Deutschlands und eine der größten in Europa.",
+      "previous_text": "Was ist eigentlich diese Dombauhütte, über deren Werkstatt die Bienen leben?",
+      "fact_ids": [
+        "270158167-0000",
+        "270158167-0003"
+      ],
+      "statements": [
+        {
+          "text": "Die Dombauhütte Köln führt mit rund 100 Handwerkern fortlaufend Renovierungsarbeiten am Kölner Dom durch, hält das Gebäude dadurch instand und setzt damit die Tradition der mittelalterlichen Dombauhütte fort.",
+          "fact_ids": [
+            "270158167-0000"
+          ]
+        },
+        {
+          "text": "Heute ist die Kölner Dombauhütte die größte Deutschlands und eine der größten in Europa.",
+          "fact_ids": [
+            "270158167-0003"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270158167-0000",
+          "article": "Dombauhütte Köln",
+          "revid": 270158167,
+          "sentence": "Die Dombauhütte Köln führt mit rund 100 Handwerkern fortlaufend Renovierungsarbeiten am Kölner Dom durch und hält das Gebäude dadurch instand; sie setzt damit die Tradition der mittelalterlichen Dombauhütte fort.",
+          "context": []
+        },
+        {
+          "id": "270158167-0003",
+          "article": "Dombauhütte Köln",
+          "revid": 270158167,
+          "sentence": "Heute ist die Kölner Dombauhütte die größte Deutschlands und eine der größten in Europa.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "Lena",
+      "text": "Trotz häufiger Kontrollen der Fassaden mit Drohnen, Hebebühnen und anderen Mitteln stürzen immer wieder Gesteinsbrocken ab.",
+      "previous_text": "Wie wird der Zustand der Fassaden eigentlich kontrolliert?",
+      "fact_ids": [
+        "271917040-0966"
+      ],
+      "statements": [
+        {
+          "text": "Trotz häufiger Kontrollen der Fassaden mit Drohnen, Hebebühnen und anderen Mitteln stürzen immer wieder Gesteinsbrocken ab.",
+          "fact_ids": [
+            "271917040-0966"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0966",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Trotz häufiger Kontrollen der Fassaden mit Drohnen, Hebebühnen und anderen Mitteln stürzen immer wieder Gesteinsbrocken ab.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 13,
+      "speaker": "Felix",
+      "text": "Und was bedeutet das für die Menschen vor dem Dom?",
+      "previous_text": "Trotz häufiger Kontrollen der Fassaden mit Drohnen, Hebebühnen und anderen Mitteln stürzen immer wieder Gesteinsbrocken ab.",
+      "fact_ids": [
+        "271917040-0966"
+      ],
+      "statements": [
+        {
+          "text": "Von den Fassaden stürzen immer wieder Gesteinsbrocken ab.",
+          "fact_ids": [
+            "271917040-0966"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0966",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Trotz häufiger Kontrollen der Fassaden mit Drohnen, Hebebühnen und anderen Mitteln stürzen immer wieder Gesteinsbrocken ab.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.84
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine Nachfrage bzw. Überleitungsfrage zum eben Gesagten (abstürzende Gesteinsbrocken) und enthält keine Behauptung. Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern bittet nur um eine Einordnung. Sie ist daher belegfrei."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 14,
+      "speaker": "Lena",
+      "text": "Vor aufziehenden Stürmen wird die Domplatte regelmäßig gesperrt. Dann besteht nämlich ein erhöhtes Risiko des Herunterfallens von Steinbrocken.",
+      "previous_text": "Und was bedeutet das für die Menschen vor dem Dom?",
+      "fact_ids": [
+        "271917040-0964"
+      ],
+      "statements": [
+        {
+          "text": "Vor aufziehenden Stürmen wird die Domplatte regelmäßig gesperrt, weil dann ein erhöhtes Risiko des Herunterfallens von Steinbrocken besteht.",
+          "fact_ids": [
+            "271917040-0964"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0964",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Vor aufziehenden Stürmen wird die Domplatte regelmäßig gesperrt, weil dann ein erhöhtes Risiko des Herunterfallens von Steinbrocken besteht.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 16,
+      "speaker": "Lena",
+      "text": "Besonders ab den Sechzigerjahren setzte der saure Regen den Steinen stark zu. Er färbte sie zunehmend schwarz.",
+      "previous_text": "Was setzt den Steinen des Doms zu?",
+      "fact_ids": [
+        "271917040-0300"
+      ],
+      "statements": [
+        {
+          "text": "Besonders ab den 1960er Jahren setzte der saure Regen den Steinen stark zu und färbte sie zunehmend schwarz.",
+          "fact_ids": [
+            "271917040-0300"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0300",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Besonders ab den 1960er Jahren setzte der saure Regen den Steinen stark zu und färbte sie zunehmend schwarz.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 18,
+      "speaker": "Lena",
+      "text": "Den Kölner Dom und die Domplatte besuchen laut Tourismus NRW täglich rund zwanzigtausend bis dreißigtausend Personen. Im Jahr sind es rund sechs Millionen. Die Domverwaltung nennt für die Kirche selbst eins Komma drei Millionen Besucher pro Jahr.",
+      "previous_text": "Wie viele Menschen kommen überhaupt zum Dom?",
+      "fact_ids": [
+        "271917040-0984",
+        "271917040-0985"
+      ],
+      "statements": [
+        {
+          "text": "Den Kölner Dom und die Domplatte besuchen laut Tourismus NRW täglich rund 20.000 bis 30.000 Personen, im Jahr rund sechs Millionen.",
+          "fact_ids": [
+            "271917040-0984"
+          ]
+        },
+        {
+          "text": "Laut der Domverwaltung hat die Kirche selbst 1,3 Millionen Besucher pro Jahr.",
+          "fact_ids": [
+            "271917040-0985"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0984",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Den Kölner Dom und die Domplatte besuchen laut Tourismus NRW täglich rund 20.000 bis 30.000 Personen; im Jahr rund sechs Millionen.",
+          "context": []
+        },
+        {
+          "id": "271917040-0985",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Laut der Domverwaltung hat die Kirche selbst 1,3 Millionen Besucher pro Jahr.",
+          "context": [
+            "Den Kölner Dom und die Domplatte besuchen laut Tourismus NRW täglich rund 20.000 bis 30.000 Personen; im Jahr rund sechs Millionen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 20,
+      "speaker": "Lena",
+      "text": "Den Heiligen Drei Königen zugeschriebene Reliquien wurden ab dem zwölften Jahrhundert zum Ziel einer bedeutenden Pilgerbewegung. Diese Bewegung veranlasste sowohl die Fertigung des Dreikönigenschreins als auch den Bau des hochgotischen Kölner Doms.",
+      "previous_text": "Wie kam es eigentlich zum Bau dieses Doms?",
+      "fact_ids": [
+        "271378130-0006"
+      ],
+      "statements": [
+        {
+          "text": "Den Heiligen Drei Königen zugeschriebene Reliquien wurden ab dem 12. Jahrhundert zum Ziel einer bedeutenden Pilgerbewegung, die sowohl die Fertigung des Dreikönigenschreins als auch den Bau des hochgotischen Kölner Doms veranlasste.",
+          "fact_ids": [
+            "271378130-0006"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271378130-0006",
+          "article": "Heilige Drei Könige",
+          "revid": 271378130,
+          "sentence": "Ihnen zugeschriebene Reliquien wurden ab dem 12. Jahrhundert zum Ziel einer bedeutenden Pilgerbewegung, die sowohl die Fertigung des Dreikönigenschreins wie auch den Bau des hochgotischen Kölner Doms veranlasste.",
+          "context": [
+            "In der katholischen Kirche werden die „drei Könige“ als Heilige verehrt, auch wenn es eine förmliche Heiligsprechung für sie nie gegeben hat."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 21,
+      "speaker": "Felix",
+      "text": "Woher stammten diese Reliquien?",
+      "previous_text": "Den Heiligen Drei Königen zugeschriebene Reliquien wurden ab dem zwölften Jahrhundert zum Ziel einer bedeutenden Pilgerbewegung. Diese Bewegung veranlasste sowohl die Fertigung des Dreikönigenschreins als auch den Bau des hochgotischen Kölner Doms.",
+      "fact_ids": [
+        "271378130-0006"
+      ],
+      "statements": [
+        {
+          "text": "Den Heiligen Drei Königen wurden Reliquien zugeschrieben.",
+          "fact_ids": [
+            "271378130-0006"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271378130-0006",
+          "article": "Heilige Drei Könige",
+          "revid": 271378130,
+          "sentence": "Ihnen zugeschriebene Reliquien wurden ab dem 12. Jahrhundert zum Ziel einer bedeutenden Pilgerbewegung, die sowohl die Fertigung des Dreikönigenschreins wie auch den Bau des hochgotischen Kölner Doms veranlasste.",
+          "context": [
+            "In der katholischen Kirche werden die „drei Könige“ als Heilige verehrt, auch wenn es eine förmliche Heiligsprechung für sie nie gegeben hat."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag ist eine reine Nachfrage („Woher stammten diese Reliquien?“) und damit belegfrei. „Diese Reliquien“ greift den Gegenstand des vorherigen Beitrags auf. Die Frage setzt nur voraus, dass es eine Herkunft gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Eine behauptende Aussage enthält sie nicht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Lena",
+      "text": "Kaiser Friedrich Barbarossa hatte die Reliquien der Heiligen Drei Könige dem Kölner Erzbischof Rainald von Dassel aus seiner Kriegsbeute überlassen. Spätestens seit ihrer Überführung galten sie als verehrungswürdig.",
+      "previous_text": "Woher stammten diese Reliquien?",
+      "fact_ids": [
+        "271917040-0069"
+      ],
+      "statements": [
+        {
+          "text": "Kaiser Friedrich Barbarossa hatte die Reliquien, die spätestens seit ihrer Überführung als verehrungswürdig galten, dem Erzbischof aus seiner Kriegsbeute überlassen.",
+          "fact_ids": [
+            "271917040-0069"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0069",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Die Reliquien, die spätestens seit ihrer Überführung als verehrungswürdig galten, hatte Kaiser Friedrich Barbarossa dem Erzbischof aus seiner Kriegsbeute überlassen.",
+          "context": [
+            "Der Kölner Erzbischof und Reichserzkanzler Rainald von Dassel brachte am 23. Juli 1164 von Mailand die Gebeine der Heiligen Drei Könige nach Köln, was als „Propagandaerfolg“ bewertet wurde."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.96,
+          "vollstaendig": 0.35
+        },
+        "jev_error": null,
+        "reason": "Beide Aussagen folgen aus dem Fakt-Satz. Dass die Reliquien die der Heiligen Drei Könige sind und der Erzbischof Rainald von Dassel ist, steht im Kontext des Fakts, und die Bezüge dürfen so aufgelöst werden. Der Redebeitrag enthält keine Frage und keine zusätzliche Angabe, und er beantwortet Felix' Frage zu den Reliquien."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 23,
+      "speaker": "Felix",
+      "text": "Und was sagt die Forschung dazu?",
+      "previous_text": "Kaiser Friedrich Barbarossa hatte die Reliquien der Heiligen Drei Könige dem Kölner Erzbischof Rainald von Dassel aus seiner Kriegsbeute überlassen. Spätestens seit ihrer Überführung galten sie als verehrungswürdig.",
+      "fact_ids": [
+        "271917040-0069"
+      ],
+      "statements": [
+        {
+          "text": "Kaiser Friedrich Barbarossa hatte die Reliquien dem Erzbischof aus seiner Kriegsbeute überlassen.",
+          "fact_ids": [
+            "271917040-0069"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0069",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Die Reliquien, die spätestens seit ihrer Überführung als verehrungswürdig galten, hatte Kaiser Friedrich Barbarossa dem Erzbischof aus seiner Kriegsbeute überlassen.",
+          "context": [
+            "Der Kölner Erzbischof und Reichserzkanzler Rainald von Dassel brachte am 23. Juli 1164 von Mailand die Gebeine der Heiligen Drei Könige nach Köln, was als „Propagandaerfolg“ bewertet wurde."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Lena",
+      "text": "Ob Rainald von Dassel selbst oder die Mailänder Patrizier als Erfinder der Reliquien gelten müssen, ist in der wissenschaftlichen Literatur umstritten.",
+      "previous_text": "Und was sagt die Forschung dazu?",
+      "fact_ids": [
+        "271917040-0070"
+      ],
+      "statements": [
+        {
+          "text": "Ob Rainald von Dassel selbst oder die Mailänder Patrizier als „Erfinder“ der Reliquien gelten müssen, ist in der wissenschaftlichen Literatur umstritten.",
+          "fact_ids": [
+            "271917040-0070"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0070",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Ob Rainald von Dassel selbst oder die Mailänder Patrizier als „Erfinder“ der Reliquien gelten müssen, ist in der wissenschaftlichen Literatur umstritten.",
+          "context": [
+            "Die Reliquien, die spätestens seit ihrer Überführung als verehrungswürdig galten, hatte Kaiser Friedrich Barbarossa dem Erzbischof aus seiner Kriegsbeute überlassen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 26,
+      "speaker": "Lena",
+      "text": "Ja, auf dem Vierungsturm befindet sich anders als bei vielen Kirchen kein Kreuz, sondern ein Stern. Der Stern ist eine Anlehnung an die Weihnachtslegende um die Heiligen Drei Könige.",
+      "previous_text": "Spannend, was es da alles zu erzählen gibt! Gibt es am Dom von außen eigentlich etwas Ungewöhnliches zu entdecken?",
+      "fact_ids": [
+        "271917040-0626"
+      ],
+      "statements": [
+        {
+          "text": "Auf dem Vierungsturm des Doms befindet sich anders als bei vielen Kirchen kein Kreuz, sondern ein Stern.",
+          "fact_ids": [
+            "271917040-0626"
+          ]
+        },
+        {
+          "text": "Der Stern ist eine Anlehnung an die Weihnachtslegende um die Heiligen Drei Könige.",
+          "fact_ids": [
+            "271917040-0626"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0626",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Auf dem Vierungsturm befindet sich anders als bei vielen Kirchen kein Kreuz, sondern ein Stern als Anlehnung an die Weihnachtslegende um die Heiligen Drei Könige.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 28,
+      "speaker": "Lena",
+      "text": "Fast dreihundert Jahre lang ruhte der Bau des Kölner Doms.",
+      "previous_text": "Wie verlief der Bau über die Jahrhunderte?",
+      "fact_ids": [
+        "271917040-0157"
+      ],
+      "statements": [
+        {
+          "text": "Fast 300 Jahre lang ruhte der Bau des Kölner Doms.",
+          "fact_ids": [
+            "271917040-0157"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0157",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Fast 300 Jahre lang ruhte der Bau des Kölner Doms.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 29,
+      "speaker": "Felix",
+      "text": "Was haben die Kölner dazu gesagt?",
+      "previous_text": "Fast dreihundert Jahre lang ruhte der Bau des Kölner Doms.",
+      "fact_ids": [
+        "271917040-0157"
+      ],
+      "statements": [
+        {
+          "text": "Der Bau des Kölner Doms ruhte fast 300 Jahre lang.",
+          "fact_ids": [
+            "271917040-0157"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0157",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Fast 300 Jahre lang ruhte der Bau des Kölner Doms.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.91
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine Nachfrage, die an Lenas Aussage anknüpft. Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Es wird keine Behauptung aufgestellt, die einen Beleg bräuchte. Der zitierte Fakt zur fast 300-jährigen Bauruhe stimmt mit dem Vorredner überein."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Lena",
+      "text": "Eine solche Situation war nicht untypisch für spätmittelalterliche Großkirchenprojekte. In Köln gab sie Anlass zur Volksweisheit: Wenn der Dom fertig ist, geht die Welt unter.",
+      "previous_text": "Was haben die Kölner dazu gesagt?",
+      "fact_ids": [
+        "271917040-0164"
+      ],
+      "statements": [
+        {
+          "text": "Eine solche Situation war nicht untypisch für spätmittelalterliche Großkirchenprojekte; in Köln gab sie Anlass zur Volksweisheit: „Wenn der Dom fertig ist, geht die Welt unter.“",
+          "fact_ids": [
+            "271917040-0164"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0164",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Eine solche Situation war nicht untypisch für spätmittelalterliche Großkirchenprojekte; in Köln gab sie Anlass zur Volksweisheit: »Wenn der Dom fertig ist, geht die Welt unter.«",
+          "context": [
+            "Dieses, kaum bis zur halben Höhe errichtet und mit einem Notdach geschlossen, erschloss sich nicht mit einem einheitlichen Raumeindruck: das südliche Seitenschiff zeigte sich als eine zweischiffige Halle; das nördliche Seitenschiff war teilweise eingewölbt und wirkte eher kapellenartig; das Mittelschiff zeigte sich als wenig räumlich strukturierte Fläche."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 32,
+      "speaker": "Lena",
+      "text": "Es wird erzählt: Als Dombaumeister Gerhard entdecken musste, dass er die Wette verloren hatte, habe er sich vom Baugerüst gestürzt. Die Baupläne seien verbrannt.",
+      "previous_text": "Gibt es auch Geschichten, die sich um den Bau ranken?",
+      "fact_ids": [
+        "271917040-1015"
+      ],
+      "statements": [
+        {
+          "text": "Als Gerhard entdecken musste, dass er die Wette verloren hatte, habe er sich vom Baugerüst gestürzt; die Baupläne seien verbrannt.",
+          "fact_ids": [
+            "271917040-1015"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-1015",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Als Gerhard entdecken musste, dass er die Wette verloren hatte, habe er sich vom Baugerüst gestürzt; die Baupläne seien verbrannt.",
+          "context": [
+            "Über den Dombau sind im Mittelalter mehrere Sagen entstanden, die auf phantasievolle Weise den Wagemut des Bauprojekts, den Unfalltod des ersten Kölner Dombaumeisters Gerhard und die lange Bauzeit mit der Nichtvollendung des Domes verbanden.",
+            "Erstmals gedruckt wurden sie unter dem Titel Der Dom zu Cöln in der Sammlung Deutsche Sagen der Brüder Grimm.",
+            "In der Version von Ludwig Bechstein ließ sich der Baumeister vom Teufel zu einer Wette überreden, dass dieser eine Wasserleitung von Trier bis Köln bauen könne, bevor der Dom fertig werde."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Gerhard entdeckt, dass er die Wette verloren hat, stürzt sich vom Baugerüst, die Baupläne verbrennen. Die Einordnung als Erzählung (\"Es wird erzählt\", Konjunktiv) entspricht dem Fakt. Gerhard als Dombaumeister passt zum Kontext und zum Artikelthema. Der Bezug auf die vorherige Frage nach Geschichten um den Bau stimmt, denn der Fakt handelt von einer Sage zum Dombau. Es gibt keine zusätzlichen Angaben und keine unbelegten Fragen oder Prämissen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 33,
+      "speaker": "Felix",
+      "text": "Hat diese Geschichte einen wahren Kern?",
+      "previous_text": "Es wird erzählt: Als Dombaumeister Gerhard entdecken musste, dass er die Wette verloren hatte, habe er sich vom Baugerüst gestürzt. Die Baupläne seien verbrannt.",
+      "fact_ids": [
+        "271917040-1015"
+      ],
+      "statements": [
+        {
+          "text": "Gerhard soll sich nach einer verlorenen Wette vom Baugerüst gestürzt haben.",
+          "fact_ids": [
+            "271917040-1015"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-1015",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Als Gerhard entdecken musste, dass er die Wette verloren hatte, habe er sich vom Baugerüst gestürzt; die Baupläne seien verbrannt.",
+          "context": [
+            "Über den Dombau sind im Mittelalter mehrere Sagen entstanden, die auf phantasievolle Weise den Wagemut des Bauprojekts, den Unfalltod des ersten Kölner Dombaumeisters Gerhard und die lange Bauzeit mit der Nichtvollendung des Domes verbanden.",
+            "Erstmals gedruckt wurden sie unter dem Titel Der Dom zu Cöln in der Sammlung Deutsche Sagen der Brüder Grimm.",
+            "In der Version von Ludwig Bechstein ließ sich der Baumeister vom Teufel zu einer Wette überreden, dass dieser eine Wasserleitung von Trier bis Köln bauen könne, bevor der Dom fertig werde."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.83
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine Nachfrage zur eben erzählten Sage. Die Frage, ob die Geschichte einen wahren Kern hat, nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern bittet um Einordnung. Sie ist daher belegfrei, und es gibt keine Behauptung, die aus den Fakt-Sätzen folgen müsste."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 34,
+      "speaker": "Lena",
+      "text": "Im neunzehnten Jahrhundert wurden unter dem südlichen Querhaus des Domes die Reste einer römischen Wasserleitung und eines Bassins gefunden. Das könnte der Kern der Sage sein.",
+      "previous_text": "Hat diese Geschichte einen wahren Kern?",
+      "fact_ids": [
+        "271917040-1016"
+      ],
+      "statements": [
+        {
+          "text": "Im 19. Jahrhundert wurden unter dem südlichen Querhaus des Domes die Reste einer römischen Wasserleitung und eines Bassins gefunden, und dies könnte der Kern der Sage sein.",
+          "fact_ids": [
+            "271917040-1016"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-1016",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Im 19. Jahrhundert wurden unter dem südlichen Querhaus des Domes die Reste einer römischen Wasserleitung und eines Bassins gefunden – dies könnte der Kern der Sage sein.",
+          "context": [
+            "Als Gerhard entdecken musste, dass er die Wette verloren hatte, habe er sich vom Baugerüst gestürzt; die Baupläne seien verbrannt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 36,
+      "speaker": "Lena",
+      "text": "Dazu gibt es dieses Zitat: „Die Mittel, die für eine ganze Kathedrale französischen Ausmaßes gereicht hätten, wurden alleine vom Südturm verschlungen, ohne dass man sich dessen so recht bewusst wurde.“",
+      "previous_text": "Wohin flossen die Mittel beim Bau vor allem?",
+      "fact_ids": [
+        "271917040-0467"
+      ],
+      "statements": [
+        {
+          "text": "Die Mittel, die für eine ganze Kathedrale französischen Ausmaßes gereicht hätten, wurden alleine vom Südturm verschlungen, ohne dass man sich dessen so recht bewusst wurde.",
+          "fact_ids": [
+            "271917040-0467"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0467",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "„Die Mittel, die für eine ganze Kathedrale französischen Ausmaßes gereicht hätten, wurden alleine vom Südturm verschlungen, ohne dass man sich dessen so recht bewusst wurde.“",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Das Zitat in Lenas Beitrag stimmt wörtlich mit dem Fakt-Satz überein. Der Gegenstand ist eindeutig, denn der Artikel handelt vom Kölner Dom und der Bau wird im vorherigen Beitrag genannt. Es gibt keine zusätzlichen Behauptungen und keine Prämissen, und die Einleitung „Dazu gibt es dieses Zitat“ ist nur eine Überleitung. Sie beantwortet Felix' Frage zu den Mitteln beim Bau passend."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 37,
+      "speaker": "Felix",
+      "text": "Woran lag das?",
+      "previous_text": "Dazu gibt es dieses Zitat: „Die Mittel, die für eine ganze Kathedrale französischen Ausmaßes gereicht hätten, wurden alleine vom Südturm verschlungen, ohne dass man sich dessen so recht bewusst wurde.“",
+      "fact_ids": [
+        "271917040-0467"
+      ],
+      "statements": [
+        {
+          "text": "Der Südturm verschlang Mittel, die für eine ganze Kathedrale französischen Ausmaßes gereicht hätten.",
+          "fact_ids": [
+            "271917040-0467"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0467",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "„Die Mittel, die für eine ganze Kathedrale französischen Ausmaßes gereicht hätten, wurden alleine vom Südturm verschlungen, ohne dass man sich dessen so recht bewusst wurde.“",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 38,
+      "speaker": "Lena",
+      "text": "Die Kölner Türme verlangten allerdings die achtfache Baumasse.",
+      "previous_text": "Woran lag das?",
+      "fact_ids": [
+        "271917040-0466"
+      ],
+      "statements": [
+        {
+          "text": "Die Kölner Türme verlangten allerdings die achtfache Baumasse.",
+          "fact_ids": [
+            "271917040-0466"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0466",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Das verlangte in Köln allerdings die achtfache Baumasse.",
+          "context": [
+            "Daher wurden die Kölner Türme nicht nur etwa doppelt so breit wie diejenigen in Reims, sondern mussten auch etwa doppelt so hoch sein."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 40,
+      "speaker": "Lena",
+      "text": "Die Westfassade des Doms ist die größte Kirchenfassade, die jemals gebaut wurde.",
+      "previous_text": "Wie groß ist das Gebäude im Ganzen?",
+      "fact_ids": [
+        "271917040-0570"
+      ],
+      "statements": [
+        {
+          "text": "Die Westfassade des Doms ist die größte Kirchenfassade, die jemals gebaut wurde.",
+          "fact_ids": [
+            "271917040-0570"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0570",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Die Westfassade des Doms ist die größte Kirchenfassade, die jemals gebaut wurde.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 42,
+      "speaker": "Lena",
+      "text": "Das spätmittelalterliche Chorgestühl hat hundertvier Sitzplätze und ist damit das größte in Deutschland. Als Besonderheit reserviert es jeweils einen Platz für den Papst und den Kaiser.",
+      "previous_text": "Gibt es im Inneren etwas Ungewöhnliches?",
+      "fact_ids": [
+        "271917040-0685"
+      ],
+      "statements": [
+        {
+          "text": "Das spätmittelalterliche Chorgestühl ist mit 104 Sitzplätzen das größte in Deutschland und reserviert als Besonderheit jeweils einen Platz für den Papst und den Kaiser.",
+          "fact_ids": [
+            "271917040-0685"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0685",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Das spätmittelalterliche Chorgestühl ist mit 104 Sitzplätzen das größte in Deutschland und reserviert als Besonderheit jeweils einen Platz für den Papst und den Kaiser.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 44,
+      "speaker": "Lena",
+      "text": "Das in der Kreuzkapelle aufgestellte Gerokreuz stammt aus der Zeit um neunhundertsiebzig. Es gilt als eine der ältesten monumentalen Darstellungen eines Gekreuzigten und als älteste nachantike Großplastik des Abendlandes.",
+      "previous_text": "Wow, sogar für den Papst! Was gibt es im Dom sonst noch zu sehen?",
+      "fact_ids": [
+        "271917040-0662"
+      ],
+      "statements": [
+        {
+          "text": "Das in der Kreuzkapelle aufgestellte Gerokreuz stammt aus der Zeit um 970 und gilt als eine der ältesten monumentalen Darstellungen eines Gekreuzigten und als älteste nachantike Großplastik des Abendlandes.",
+          "fact_ids": [
+            "271917040-0662"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0662",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Das in der Kreuzkapelle aufgestellte Gerokreuz stammt aus der Zeit um 970. Es gilt als eine der ältesten monumentalen Darstellungen eines Gekreuzigten und als älteste nachantike Großplastik des Abendlandes.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 46,
+      "speaker": "Lena",
+      "text": "Zahlreiche antike Gemmen und Kameen stellen schon allein mit dreihundert geschnittenen Steinen weltweit die größte Bildsammlung antiker Bildsteine des Mittelalters dar.",
+      "previous_text": "Beeindruckend! Gibt es noch weitere Kostbarkeiten?",
+      "fact_ids": [
+        "271917040-0659"
+      ],
+      "statements": [
+        {
+          "text": "Zahlreiche antike Gemmen und Kameen stellen schon alleine mit 300 geschnittenen Steinen weltweit die größte Bildsammlung antiker Bildsteine des Mittelalters dar.",
+          "fact_ids": [
+            "271917040-0659"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0659",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Zahlreiche antike Gemmen und Kameen stellen schon alleine mit 300 geschnittenen Steinen weltweit die größte Bildsammlung antiker Bildsteine des Mittelalters dar.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 48,
+      "speaker": "Lena",
+      "text": "Im November siebzehnhundertsechsundneunzig verfügten die französischen Besatzer die Einstellung der Gottesdienste. Das französische Militär nutzte das Gebäude zeitweilig als Pferdestall und Lagerhalle.",
+      "previous_text": "Gab es auch bewegte Zeiten für das Gebäude?",
+      "fact_ids": [
+        "271917040-0178"
+      ],
+      "statements": [
+        {
+          "text": "Im November 1796 verfügten die Besatzer die Einstellung der Gottesdienste, und das französische Militär nutzte das Gebäude zeitweilig als Pferdestall und Lagerhalle.",
+          "fact_ids": [
+            "271917040-0178"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0178",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Im November 1796 verfügten die Besatzer die Einstellung der Gottesdienste, das französische Militär nutzte das Gebäude zeitweilig als Pferdestall und Lagerhalle.",
+          "context": [
+            "Nach dem Einmarsch französischer Revolutionstruppen in Köln im Oktober 1794 wurde der Dom stark beschädigt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.8
+        },
+        "jev_error": null,
+        "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: Einstellung der Gottesdienste im November 1796 durch die Besatzer sowie die zeitweilige Nutzung als Pferdestall und Lagerhalle durch das französische Militär. Dass die Besatzer französisch waren, ist durch den zweiten Teil des Satzes und den Artikelkontext (Kölner Dom) eindeutig; der Gegenstand ist der Dom, den der Artikel nennt. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämisse."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 50,
+      "speaker": "Lena",
+      "text": "Von siebzehnhundertvierundneunzig bis achtzehnhundertelf trug der Dom die Hausnummer zweitausendfünfhundertdreiundachtzig einhalb.",
+      "previous_text": "Das ist ja unfassbar! Gab es in der Verwaltung des Gebäudes auch Kurioses?",
+      "fact_ids": [
+        "271917040-1042"
+      ],
+      "statements": [
+        {
+          "text": "1794 bis 1811 trug der Dom die Hausnummer 2583½.",
+          "fact_ids": [
+            "271917040-1042"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-1042",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "1794 bis 1811 trug der Dom die Hausnummer 2583½.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 51,
+      "speaker": "Felix",
+      "text": "Was bedeutet das Halbe hinter der Zahl?",
+      "previous_text": "Von siebzehnhundertvierundneunzig bis achtzehnhundertelf trug der Dom die Hausnummer zweitausendfünfhundertdreiundachtzig einhalb.",
+      "fact_ids": [
+        "271917040-1042"
+      ],
+      "statements": [
+        {
+          "text": "Der Dom trug eine Hausnummer mit dem Zusatz ½.",
+          "fact_ids": [
+            "271917040-1042"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-1042",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "1794 bis 1811 trug der Dom die Hausnummer 2583½.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine reine Nachfrage bzw. Bitte um Erklärung zum eben Gesagten (die Hausnummer 2583½). Er enthält keine neue Behauptung und keine Prämisse, die erst eine Antwort liefern müsste. Das „Halbe“ stammt direkt aus dem vorherigen Beitrag und dem Fakt-Satz, also ist der Beitrag belegfrei zulässig."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 52,
+      "speaker": "Lena",
+      "text": "Der Zusatz einhalb wurde bei öffentlichen Gebäuden verwendet, für die keine Steuern zu entrichten waren.",
+      "previous_text": "Was bedeutet das Halbe hinter der Zahl?",
+      "fact_ids": [
+        "271917040-1043"
+      ],
+      "statements": [
+        {
+          "text": "Der Zusatz „½“ wurde bei öffentlichen Gebäuden verwendet, für die keine Steuern zu entrichten waren.",
+          "fact_ids": [
+            "271917040-1043"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-1043",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Der Zusatz „½“ wurde bei öffentlichen Gebäuden verwendet, für die keine Steuern zu entrichten waren.",
+          "context": [
+            "1794 bis 1811 trug der Dom die Hausnummer 2583½."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 54,
+      "speaker": "Lena",
+      "text": "In der Bilanz des Erzbistums Köln wird das Gebäude des Domes nur mit einem symbolischen Euro geführt. Die Begründung lautet, die Kathedrale habe keinen Marktwert.",
+      "previous_text": "Und was ist der Dom heute eigentlich wert?",
+      "fact_ids": [
+        "271917040-0982"
+      ],
+      "statements": [
+        {
+          "text": "In der Bilanz des Erzbistums Köln wird das Gebäude des Domes nur mit einem symbolischen Euro geführt, weil die Kathedrale keinen Marktwert habe.",
+          "fact_ids": [
+            "271917040-0982"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0982",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "In der Bilanz des Erzbistums Köln wird das Gebäude des Domes nur mit einem symbolischen Euro geführt, weil die Kathedrale keinen Marktwert habe.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 56,
+      "speaker": "Lena",
+      "text": "Für die Vollendung des Domes wurden zwischen achtzehnhundertdreiundzwanzig und achtzehnhundertachtzig insgesamt sechs Komma sechs Millionen Taler aufgewendet. Das entspricht nach heutigem Geld, Stand zweitausendneunzehn, rund einer Milliarde Euro.",
+      "previous_text": "Was hat die Vollendung des Baus denn gekostet?",
+      "fact_ids": [
+        "271917040-0227"
+      ],
+      "statements": [
+        {
+          "text": "Für die Vollendung des Domes wurden zwischen 1823 und 1880 insgesamt 6,6 Millionen Taler aufgewendet, was nach heutigem Geld rund einer Milliarde Euro entspricht (2019).",
+          "fact_ids": [
+            "271917040-0227"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0227",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Für die Vollendung des Domes wurden zwischen 1823 und 1880 insgesamt 6,6 Millionen Taler aufgewendet; das entspricht nach heutigem Geld rund einer Milliarde Euro (2019).",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.83
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Zeitraum 1823 bis 1880, 6,6 Millionen Taler, rund eine Milliarde Euro nach heutigem Geld (Stand 2019). Zahlen sind ausgeschrieben, aber unverändert. Der Gegenstand (Vollendung des Domes) passt zur vorherigen Frage nach den Kosten der Vollendung des Baus. Es gibt keine zusätzlichen Angaben und keine Fragen oder Reaktionen mit unbelegten Prämissen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 58,
+      "speaker": "Lena",
+      "text": "Die Bild teilte zweitausenddreizehn mit, ein Neubau würde rund zehn Milliarden Euro kosten.",
+      "previous_text": "Und wenn man den Dom noch einmal neu bauen müsste?",
+      "fact_ids": [
+        "271917040-0983"
+      ],
+      "statements": [
+        {
+          "text": "Die Bild teilte 2013 mit, wenn der Dom nochmals neu gebaut werden müsste, würde dies rund 10 Milliarden Euro kosten.",
+          "fact_ids": [
+            "271917040-0983"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0983",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Die Bild teilte 2013 mit, wenn der Dom nochmals neu gebaut werden müsste, würde dies rund 10 Milliarden Euro kosten.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.84
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Bild, 2013, Neubau, rund 10 Milliarden Euro. Der Gegenstand „der Dom“ ist durch den vorherigen Beitrag und den Artikel „Kölner Dom“ eindeutig und passt zur Frage. Es gibt keine zusätzlichen Angaben und keine Frage mit Prämisse."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 60,
+      "speaker": "Lena",
+      "text": "Der Dachstuhl des Kölner Doms war bis zum Bau des Eiffelturms die größte Eisenkonstruktion der Welt. Der nach Gustave Eiffel benannte Turm war zum Errichtungszeitpunkt noch dreihundertzwölf Meter hoch. Von seiner Erbauung bis zur Fertigstellung des Chrysler Building neunzehnhundertdreißig in New York war er das höchste Bauwerk der Welt.",
+      "previous_text": "Kommen wir zur Technik. Welche Materialien kamen beim Bau zum Einsatz?",
+      "fact_ids": [
+        "271917040-0215",
+        "271593273-0023"
+      ],
+      "statements": [
+        {
+          "text": "Der Dachstuhl des Kölner Doms war bis zum Bau des Eiffelturms die größte Eisenkonstruktion der Welt.",
+          "fact_ids": [
+            "271917040-0215"
+          ]
+        },
+        {
+          "text": "Der nach dem Erbauer Gustave Eiffel benannte und zum Errichtungszeitpunkt noch 312 Meter hohe Eiffelturm war von seiner Erbauung bis zur Fertigstellung des Chrysler Building 1930 in New York das höchste Bauwerk der Welt.",
+          "fact_ids": [
+            "271593273-0023"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0215",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Er war bis zum Bau des Eiffelturms die größte Eisenkonstruktion der Welt.",
+          "context": [
+            "Die Eisenteile für den Dachstuhl – und auch den Vierungsturm – produzierte die Kölnische Maschinenbau AG.",
+            "Der Dachstuhl wurde im Lauf des Jahres 1860 errichtet."
+          ]
+        },
+        {
+          "id": "271593273-0023",
+          "article": "Eiffelturm",
+          "revid": 271593273,
+          "sentence": "Der nach dem Erbauer Gustave Eiffel benannte und zum Errichtungszeitpunkt noch 312 Meter hohe Turm war von seiner Erbauung bis zur Fertigstellung des Chrysler Building 1930 in New York das höchste Bauwerk der Welt.",
+          "context": [
+            "Das von 1887 bis 1889 errichtete Bauwerk wurde als monumentales Eingangsportal und Aussichtsturm für die Weltausstellung zur Erinnerung an den 100. Jahrestag der Französischen Revolution errichtet."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.82,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.91
+        },
+        "jev_error": null,
+        "reason": "Satz 1 folgt aus Fakt 0215: „Er“ bezieht sich im Kontext auf den Dachstuhl, der im Kontext genannt wird und im Artikel „Kölner Dom“ steht; Lena löst den Bezug korrekt mit „Dachstuhl des Kölner Doms“ auf. Das passt auch zur Frage nach den Materialien. Sätze 2 und 3 entsprechen Fakt 0023 (nach Gustave Eiffel benannt, 312 Meter, höchstes Bauwerk bis zum Chrysler Building 1930 in New York) ohne zusätzliche Angaben. Der Redebeitrag enthält keine unbelegten Behauptungen und keine Fragen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 62,
+      "speaker": "Lena",
+      "text": "Zu den Glocken gehört seit neunzehnhundertvierundzwanzig die Petersglocke. Die Kölner bezeichnen sie liebevoll als D'r decke Pitter oder einfach als decker Pitter, das heißt dicker Peter.",
+      "previous_text": "Was ist über die Glocken des Doms zu sagen?",
+      "fact_ids": [
+        "271917040-0881"
+      ],
+      "statements": [
+        {
+          "text": "Seit 1924 gehört zu den Glocken die Petersglocke, die von den Kölnern liebevoll als D'r decke Pitter oder einfach als decker Pitter (dicker Peter) bezeichnet wird.",
+          "fact_ids": [
+            "271917040-0881"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0881",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Darunter ist seit 1924 die Petersglocke, die von den Kölnern liebevoll als D’r decke Pitter oder einfach als decker Pitter (d. h. dicker Peter) bezeichnet wird.",
+          "context": [
+            "Acht hängen im Südturm und bilden das Hauptgeläut."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 63,
+      "speaker": "Felix",
+      "text": "Wie groß ist diese Glocke?",
+      "previous_text": "Zu den Glocken gehört seit neunzehnhundertvierundzwanzig die Petersglocke. Die Kölner bezeichnen sie liebevoll als D'r decke Pitter oder einfach als decker Pitter, das heißt dicker Peter.",
+      "fact_ids": [
+        "271917040-0881"
+      ],
+      "statements": [
+        {
+          "text": "Seit 1924 gibt es die Petersglocke.",
+          "fact_ids": [
+            "271917040-0881"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0881",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Darunter ist seit 1924 die Petersglocke, die von den Kölnern liebevoll als D’r decke Pitter oder einfach als decker Pitter (d. h. dicker Peter) bezeichnet wird.",
+          "context": [
+            "Acht hängen im Südturm und bilden das Hauptgeläut."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.91
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine reine Nachfrage („Wie groß ist diese Glocke?“) und bezieht sich eindeutig auf die Petersglocke aus dem vorherigen Beitrag. Er enthält keine Behauptung und keine Prämisse, die erst die Antwort liefern würde. Eine Nachfrage ist belegfrei, daher ist der Beitrag zulässig."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 64,
+      "speaker": "Lena",
+      "text": "Sie hat rund vierundzwanzigtausend Kilogramm Masse und einen unteren Durchmesser von dreihundertzweiundzwanzig Zentimetern. Mehr als neunzig Jahre lang, bis November zweitausendsechzehn, war die Petersglocke die weltweit größte am geraden Joch schwingende Glocke. Sie ist weiterhin die tontiefste Glocke der Welt.",
+      "previous_text": "Wie groß ist diese Glocke?",
+      "fact_ids": [
+        "272222791-0003"
+      ],
+      "statements": [
+        {
+          "text": "Die Petersglocke hat rund 24.000 Kilogramm Masse und 322 cm unteren Durchmesser.",
+          "fact_ids": [
+            "272222791-0003"
+          ]
+        },
+        {
+          "text": "Die Petersglocke war mehr als 90 Jahre lang, bis November 2016, die weltweit größte am geraden Joch schwingende Glocke und ist weiterhin die tontiefste Glocke der Welt.",
+          "fact_ids": [
+            "272222791-0003"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272222791-0003",
+          "article": "Petersglocke",
+          "revid": 272222791,
+          "sentence": "Mit rund 24.000 Kilogramm Masse (+ Klöppel: ≈ 600 kg) und 322 cm unterem Durchmesser war diese Bronzeglocke mehr als 90 Jahre lang – bis November 2016 – die weltweit größte am geraden Joch schwingend Glocke und ist weiterhin die tontiefste Glocke der Welt.",
+          "context": [
+            "Die Petersglocke (im Volksmund auf Kölsch Decke Pitter (Dicker Peter) genannt) ist die Glocke 1 des Kölner Domgeläuts.",
+            "Sie wurde am 5. Mai 1923 von Glockengießermeister Heinrich Ulrich (1876–1924) in der Glockenstadt Apolda gegossen.",
+            "Heute hat sie ihren Platz im Glockenstuhl des Südturms im Kölner Dom."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 66,
+      "speaker": "Lena",
+      "text": "Der Dom wurde durch etwa siebzig Bombentreffer, darunter vierzehn schwere Fliegerbomben, schwer beschädigt.",
+      "previous_text": "Gab es Zeiten, in denen der Dom in Gefahr war?",
+      "fact_ids": [
+        "271917040-0248"
+      ],
+      "statements": [
+        {
+          "text": "Der Dom wurde durch etwa 70 Bombentreffer, darunter 14 schwere Fliegerbomben, schwer beschädigt.",
+          "fact_ids": [
+            "271917040-0248"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0248",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Tatsächlich wurde auch der Dom durch etwa 70 Bombentreffer, darunter 14 schwere Fliegerbomben, schwer beschädigt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 67,
+      "speaker": "Felix",
+      "text": "Welche Folgen hatte das für das Mauerwerk?",
+      "previous_text": "Der Dom wurde durch etwa siebzig Bombentreffer, darunter vierzehn schwere Fliegerbomben, schwer beschädigt.",
+      "fact_ids": [
+        "271917040-0248"
+      ],
+      "statements": [
+        {
+          "text": "Der Dom wurde durch Bombentreffer schwer beschädigt.",
+          "fact_ids": [
+            "271917040-0248"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0248",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Tatsächlich wurde auch der Dom durch etwa 70 Bombentreffer, darunter 14 schwere Fliegerbomben, schwer beschädigt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.82
+        },
+        "jev_error": null,
+        "reason": "Felix stellt nur eine Nachfrage nach den Folgen der Bombentreffer für das Mauerwerk. Das ist eine belegfreie Reaktion. Die Frage nimmt keine bestimmte Einzelheit oder Wertung vorweg, sondern setzt lediglich voraus, dass es dazu etwas zu erzählen gibt. Dass der Dom schwer beschädigt wurde, hat Lena gesagt und der Fakt-Satz stützt es."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 68,
+      "speaker": "Lena",
+      "text": "Im November neunzehnhundertdreiundvierzig riss eine Sprengbombe im Nordturm ein etwa zehn Meter hohes Loch in den Eckpfeiler. Dieser Pfeiler hatte wesentliche statische Bedeutung.",
+      "previous_text": "Welche Folgen hatte das für das Mauerwerk?",
+      "fact_ids": [
+        "271917040-0251"
+      ],
+      "statements": [
+        {
+          "text": "Im November 1943 riss eine Sprengbombe im Nordturm ein etwa 10 Meter hohes Loch in den Eckpfeiler, der wesentliche statische Bedeutung hatte.",
+          "fact_ids": [
+            "271917040-0251"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0251",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Im November 1943 riss eine Sprengbombe im Nordturm ein etwa 10 Meter hohes Loch in den Eckpfeiler, der wesentliche statische Bedeutung hatte.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 69,
+      "speaker": "Felix",
+      "text": "Wie wurde das repariert?",
+      "previous_text": "Im November neunzehnhundertdreiundvierzig riss eine Sprengbombe im Nordturm ein etwa zehn Meter hohes Loch in den Eckpfeiler. Dieser Pfeiler hatte wesentliche statische Bedeutung.",
+      "fact_ids": [
+        "271917040-0251"
+      ],
+      "statements": [
+        {
+          "text": "Eine Sprengbombe riss ein Loch in den Eckpfeiler des Nordturms.",
+          "fact_ids": [
+            "271917040-0251"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0251",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Im November 1943 riss eine Sprengbombe im Nordturm ein etwa 10 Meter hohes Loch in den Eckpfeiler, der wesentliche statische Bedeutung hatte.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 70,
+      "speaker": "Lena",
+      "text": "Das Loch wurde noch im Krieg mit einer Ziegelsteinfüllung vermauert. Diese blieb als sogenannte Kölner Domplombe bis zweitausendfünf sichtbar.",
+      "previous_text": "Wie wurde das repariert?",
+      "fact_ids": [
+        "271917040-0252"
+      ],
+      "statements": [
+        {
+          "text": "Das Loch wurde noch im Krieg mit einer Ziegelsteinfüllung vermauert, die als sogenannte Kölner Domplombe bis 2005 sichtbar blieb.",
+          "fact_ids": [
+            "271917040-0252"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0252",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Das Loch wurde daher noch im Krieg mit einer Ziegelsteinfüllung vermauert, die als sogenannte Kölner Domplombe bis 2005 sichtbar blieb.",
+          "context": [
+            "Im November 1943 riss eine Sprengbombe im Nordturm ein etwa 10 Meter hohes Loch in den Eckpfeiler, der wesentliche statische Bedeutung hatte."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 72,
+      "speaker": "Lena",
+      "text": "Um siebzehnhundertfünfzig wurde die große astronomische Kunstuhr des Kölner Doms abgebrochen. Der Legende nach wurde sie im Rhein versenkt.",
+      "previous_text": "Gibt es Dinge, die der Dom verloren hat?",
+      "fact_ids": [
+        "271917040-0890"
+      ],
+      "statements": [
+        {
+          "text": "Um 1750 wurde die astronomische Kunstuhr des Kölner Doms abgebrochen und der Legende nach im Rhein versenkt.",
+          "fact_ids": [
+            "271917040-0890"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0890",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Um 1750 wurde diese Uhr abgebrochen und der Legende nach im Rhein versenkt.",
+          "context": [
+            "Der Kölner Dom besaß schon im 14. Jahrhundert eine große astronomische Kunstuhr, welche zur Mittagszeit den Figurenumlauf der Heiligen Drei Könige zeigte, die dem Christkind huldigten."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.96,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Beide Aussagen folgen aus dem Fakt-Satz: Um 1750 wurde die Uhr abgebrochen und der Legende nach im Rhein versenkt. \"Diese Uhr\" ist durch den Kontext eindeutig die große astronomische Kunstuhr des Kölner Doms, und der Redebeitrag nennt sie beim Namen, was als Auflösung des Bezugs erlaubt ist. Das Thema des Artikels ist der Dom, und die Antwort passt zur Frage nach Verlorenem. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämissen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 74,
+      "speaker": "Lena",
+      "text": "Drei Einbrecher drangen mit Strickleitern und Bergsteigerausrüstung durch einen Lüftungsschacht ein.",
+      "previous_text": "Wie ein Rätsel! Gab es auch dramatische Vorfälle?",
+      "fact_ids": [
+        "271917040-0954"
+      ],
+      "statements": [
+        {
+          "text": "Drei Einbrecher drangen mit Strickleitern und Bergsteigerausrüstung durch einen Lüftungsschacht ein.",
+          "fact_ids": [
+            "271917040-0954"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0954",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Drei Einbrecher drangen mit Strickleitern und Bergsteigerausrüstung durch einen Lüftungsschacht ein.",
+          "context": [
+            "Dort wurde in der Nacht zum 2. November 1975 eingebrochen, obwohl sie damals als optimal gesichert galt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 76,
+      "speaker": "Lena",
+      "text": "Die Domsteinmetze verewigten an der Fassade des Doms unter anderem Paul von Hindenburg, John F. Kennedy, Nikita Chruschtschow, Charles de Gaulle, Harold Macmillan und Dombaumeister Arnold Wolff. Dazu kommen zahlreiche weitere bekannte Personen aus Sport, Politik und Köln.",
+      "previous_text": "Wie im Film! Was gibt es zum Schluss noch an der Fassade zu entdecken?",
+      "fact_ids": [
+        "271917040-0647"
+      ],
+      "statements": [
+        {
+          "text": "Die Domsteinmetze verewigten an der Fassade des Doms unter anderem Paul von Hindenburg, John F. Kennedy, Nikita Chruschtschow, Charles de Gaulle, Harold Macmillan, Dombaumeister Arnold Wolff sowie zahlreiche weitere bekannte Personen aus Sport, Politik und Köln.",
+          "fact_ids": [
+            "271917040-0647"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0647",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Sie verewigten an der Fassade des Doms u. a. folgende Personen: Paul von Hindenburg, John F. Kennedy, Nikita Chruschtschow, Charles de Gaulle, Harold Macmillan, Dombaumeister Arnold Wolff sowie zahlreiche weitere bekannte Personen aus Sport, Politik und Köln.",
+          "context": [
+            "Im Laufe der Jahre haben die diversen Kölner Domsteinmetze ihre Handschrift hinterlassen.",
+            "Sie schufen in vielen Kapitellen und auf den beiden Türmen ein wahres Sammelsurium deutscher und vor allem Kölner Originale."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 77,
+      "speaker": "Felix",
+      "text": "Wie kam es dazu?",
+      "previous_text": "Die Domsteinmetze verewigten an der Fassade des Doms unter anderem Paul von Hindenburg, John F. Kennedy, Nikita Chruschtschow, Charles de Gaulle, Harold Macmillan und Dombaumeister Arnold Wolff. Dazu kommen zahlreiche weitere bekannte Personen aus Sport, Politik und Köln.",
+      "fact_ids": [
+        "271917040-0647"
+      ],
+      "statements": [
+        {
+          "text": "Die Domsteinmetze verewigten an der Fassade des Doms bekannte Personen.",
+          "fact_ids": [
+            "271917040-0647"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0647",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Sie verewigten an der Fassade des Doms u. a. folgende Personen: Paul von Hindenburg, John F. Kennedy, Nikita Chruschtschow, Charles de Gaulle, Harold Macmillan, Dombaumeister Arnold Wolff sowie zahlreiche weitere bekannte Personen aus Sport, Politik und Köln.",
+          "context": [
+            "Im Laufe der Jahre haben die diversen Kölner Domsteinmetze ihre Handschrift hinterlassen.",
+            "Sie schufen in vielen Kapitellen und auf den beiden Türmen ein wahres Sammelsurium deutscher und vor allem Kölner Originale."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 78,
+      "speaker": "Lena",
+      "text": "Der Dom hat eine größere Anzahl phantasievoller Figuren, die in die Bauornamentik hineingemeißelt wurden. Es sind musizierende Engel statt Blattfriese, Geißböcke als Wasserspeier und Figuren der Zeitgeschichte in Kapitellen und auf Fialen.",
+      "previous_text": "Wie kam es dazu?",
+      "fact_ids": [
+        "271917040-0272"
+      ],
+      "statements": [
+        {
+          "text": "Der Dom hat eine größere Anzahl phantasievoller Figuren, die in die Bauornamentik hineingemeißelt wurden.",
+          "fact_ids": [
+            "271917040-0272"
+          ]
+        },
+        {
+          "text": "Zu diesen Figuren gehören musizierende Engel statt Blattfriese, Geißböcke als Wasserspeier und Figuren der Zeitgeschichte in Kapitellen und auf Fialen.",
+          "fact_ids": [
+            "271917040-0272"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0272",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Dem verdankt der Dom eine größere Anzahl phantasievoller Figuren, die in die Bauornamentik hineingemeißelt wurden: Musizierende Engel statt Blattfriese, Geißböcke als Wasserspeier und Figuren der Zeitgeschichte in Kapitellen und auf Fialen.",
+          "context": [
+            "Überhaupt ließ Weyres den Steinmetzen große Freiheiten, freiplastische Werke innerhalb der originalen Umrisse nach eigenen Entwürfen originell zu gestalten."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 80,
+      "speaker": "Lena",
+      "text": "Gern. Der Kölner Dom ist die Kathedrale des Erzbistums Köln. Mitte der Sechzigerjahre stellte er seine nördlichen Seitenschiffe auch islamischen Gottesdiensten zur Verfügung. Über einer Werkstatt der Dombauhütte wurde im Sommer zweitausendvierzehn ein Bienenvolk angesiedelt. Fast dreihundert Jahre lang ruhte der Bau. In der Bilanz des Erzbistums wird das Gebäude nur mit einem symbolischen Euro geführt. Und die Steinmetze verewigten bekannte Personen an der Fassade.",
+      "previous_text": "Wow, das überrascht mich! Magst du zum Schluss noch einmal kurz zusammenfassen, was wir auf unserem Weg durch den Dom erfahren haben?",
+      "fact_ids": [
+        "271917040-0011",
+        "271917040-1040",
+        "271917040-0998",
+        "271917040-0157",
+        "271917040-0982",
+        "271917040-0647"
+      ],
+      "statements": [
+        {
+          "text": "Der Kölner Dom ist die Kathedrale des Erzbistums Köln.",
+          "fact_ids": [
+            "271917040-0011"
+          ]
+        },
+        {
+          "text": "Mitte der 1960er-Jahre stellte der Dom seine beiden nördlichen Seitenschiffe auch islamischen Gottesdiensten türkischer Arbeitsmigranten zur Verfügung.",
+          "fact_ids": [
+            "271917040-1040"
+          ]
+        },
+        {
+          "text": "Über einer Werkstatt der Dombauhütte wurde im Sommer 2014 ein Bienenvolk angesiedelt.",
+          "fact_ids": [
+            "271917040-0998"
+          ]
+        },
+        {
+          "text": "Fast 300 Jahre lang ruhte der Bau des Kölner Doms.",
+          "fact_ids": [
+            "271917040-0157"
+          ]
+        },
+        {
+          "text": "In der Bilanz des Erzbistums Köln wird das Gebäude des Domes nur mit einem symbolischen Euro geführt.",
+          "fact_ids": [
+            "271917040-0982"
+          ]
+        },
+        {
+          "text": "Die Domsteinmetze verewigten an der Fassade des Doms bekannte Personen.",
+          "fact_ids": [
+            "271917040-0647"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271917040-0011",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Er ist die Kathedrale des Erzbistums Köln sowie Metropolitankirche der Kirchenprovinz Köln.",
+          "context": [
+            "Der Kölner Dom (offiziell Hohe Domkirche zu Köln) ist eine römisch-katholische Kirche in Köln unter dem Patrozinium des Apostels Petrus."
+          ]
+        },
+        {
+          "id": "271917040-1040",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Mitte der 1960er-Jahre stellte der Kölner Dom seine beiden nördlichen Seitenschiffe auch islamischen Gottesdiensten türkischer Arbeitsmigranten zur Verfügung.",
+          "context": []
+        },
+        {
+          "id": "271917040-0998",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Über einer Werkstatt der Dombauhütte wurde im Sommer 2014 ein Bienenvolk angesiedelt, im Jahr darauf zwei weitere, so dass 2015 rund 120.000 „Dombienen“ 50 Kilogramm Honig produzierten, der allerdings nicht frei verkauft wird.",
+          "context": []
+        },
+        {
+          "id": "271917040-0157",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Fast 300 Jahre lang ruhte der Bau des Kölner Doms.",
+          "context": []
+        },
+        {
+          "id": "271917040-0982",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "In der Bilanz des Erzbistums Köln wird das Gebäude des Domes nur mit einem symbolischen Euro geführt, weil die Kathedrale keinen Marktwert habe.",
+          "context": []
+        },
+        {
+          "id": "271917040-0647",
+          "article": "Kölner Dom",
+          "revid": 271917040,
+          "sentence": "Sie verewigten an der Fassade des Doms u. a. folgende Personen: Paul von Hindenburg, John F. Kennedy, Nikita Chruschtschow, Charles de Gaulle, Harold Macmillan, Dombaumeister Arnold Wolff sowie zahlreiche weitere bekannte Personen aus Sport, Politik und Köln.",
+          "context": [
+            "Im Laufe der Jahre haben die diversen Kölner Domsteinmetze ihre Handschrift hinterlassen.",
+            "Sie schufen in vielen Kapitellen und auf den beiden Türmen ein wahres Sammelsurium deutscher und vor allem Kölner Originale."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "aussage_3": 0.99,
+          "aussage_4": 0.99,
+          "aussage_5": 0.99,
+          "vollstaendig": 0.75
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den zitierten Fakt-Sätzen: Kathedrale des Erzbistums Köln, Öffnung der nördlichen Seitenschiffe Mitte der 1960er-Jahre für islamische Gottesdienste, Bienenvolk im Sommer 2014, fast 300 Jahre Bauruhe, symbolischer Euro in der Bilanz und bekannte Personen an der Fassade. „Sie“ im letzten Fakt meint laut Kontext die Domsteinmetze, der Redebeitrag löst den Bezug also korrekt auf. „Gern.“ ist eine belegfreie Reaktion, und der Redebeitrag enthält keine Frage mit Prämisse."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    }
+  ],
+  "comments": []
+}
