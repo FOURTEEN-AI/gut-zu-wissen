@@ -1,0 +1,61 @@
+{
+  "title": "Geißbock Hennes",
+  "revid": 271787400,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-31T20:34:42Z",
+  "fetched_at": "2026-11-21T21:42:03Z",
+  "categories": [
+    "Kategorie:1. FC Köln",
+    "Kategorie:Fußball (Nordrhein-Westfalen)",
+    "Kategorie:Fußballmaskottchen",
+    "Kategorie:Individuelle Ziege",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2025-03",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2026-09",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Botmarkierungen 2025-03",
+    "Kategorie:Wikipedia:Weblink offline IABot"
+  ],
+  "intro_wikitext": "[[Datei:Geißbock Hennes IX. im Kölner Zoo-4124.jpg|mini|Hennes IX. (2023)]]\nDer '''Geißbock Hennes''' ist das [[Maskottchen]] des Fußballvereins [[1. FC Köln]]. Hennes ist das traditionsreichste und neben dem Steinadler [[Attila (Adler)|Attila]] von [[Eintracht Frankfurt]] das einzige lebende Maskottchen im deutschen [[Profifußball]].",
+  "segments": [
+    {
+      "id": "271787400-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der '''Geißbock Hennes''' ist das [[Maskottchen]] des Fußballvereins [[1. FC Köln]].",
+      "plain": null
+    },
+    {
+      "id": "271787400-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Hennes ist das traditionsreichste und neben dem Steinadler [[Attila (Adler)|Attila]] von [[Eintracht Frankfurt]] das einzige lebende Maskottchen im deutschen [[Profifußball]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271787400,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271787400-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Geißbock Hennes ist das Maskottchen des Fußballvereins 1. FC Köln.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271787400-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271787400-0000"
+        ],
+        "plain": "Hennes ist das traditionsreichste und neben dem Steinadler Attila von Eintracht Frankfurt das einzige lebende Maskottchen im deutschen Profifußball.",
+        "context_plain": [
+          "Der Geißbock Hennes ist das Maskottchen des Fußballvereins 1. FC Köln."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

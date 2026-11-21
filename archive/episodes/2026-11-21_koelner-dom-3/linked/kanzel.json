@@ -1,0 +1,37 @@
+{
+  "title": "Kanzel",
+  "revid": 270328084,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-08T18:33:57Z",
+  "fetched_at": "2026-11-21T21:42:03Z",
+  "categories": [
+    "Kategorie:Kanzel",
+    "Kategorie:Predigt",
+    "Kategorie:Redekultur"
+  ],
+  "intro_wikitext": "{{Begriffsklärungshinweis}}\n{{Doppeltes Bild|rechts|St. Wendel - Wendalinusbasilika Innen Kanzel 01.JPG|178|Prato, duomo pulpito di donatello e michelozzo.JPG|200|Gotische Steinkanzel von 1462 in der [[Wendalinusbasilika]] St. Wendel|Außenkanzel mit [[Schalldeckel]] am [[Dom von Prato]] in Italien|Linker Alternativtext|Rechter Alternativtext}}\nDie '''Kanzel''', zuweilen auch '''Predigtstuhl''' genannt, ist ein erhöhter Ort in oder an [[Kirche (Bauwerk)|Kirchen]], [[Synagoge]]n und [[Moschee]]n, von dem aus der Geistliche das Wort Gottes verkündigt und die [[Predigt]] hält.",
+  "segments": [
+    {
+      "id": "270328084-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Kanzel''', zuweilen auch '''Predigtstuhl''' genannt, ist ein erhöhter Ort in oder an [[Kirche (Bauwerk)|Kirchen]], [[Synagoge]]n und [[Moschee]]n, von dem aus der Geistliche das Wort Gottes verkündigt und die [[Predigt]] hält.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270328084,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270328084-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Kanzel, zuweilen auch Predigtstuhl genannt, ist ein erhöhter Ort in oder an Kirchen, Synagogen und Moscheen, von dem aus der Geistliche das Wort Gottes verkündigt und die Predigt hält.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

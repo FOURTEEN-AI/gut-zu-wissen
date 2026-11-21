@@ -1,0 +1,67 @@
+{
+  "title": "Bert Gerresheim",
+  "revid": 265541909,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-03-23T17:18:20Z",
+  "fetched_at": "2026-11-21T21:42:03Z",
+  "categories": [
+    "Kategorie:Bildhauer (Düsseldorf)",
+    "Kategorie:Deutscher",
+    "Kategorie:Geboren 1935",
+    "Kategorie:Gestorben 2025",
+    "Kategorie:Künstler (christliche Kunst der Moderne)",
+    "Kategorie:Mann",
+    "Kategorie:Träger des Jan-Wellem-Rings der Stadt Düsseldorf"
+  ],
+  "intro_wikitext": "[[Datei:Bert Gerresheim.jpg|mini|hochkant|Bert Gerresheim (2019)]]\n[[Datei:Gerresheim-Zeichen.jpg|mini|hochkant|Bildhauerzeichen von Bert Gerresheim]]\n'''Bert Gerresheim''' (* [[8. Oktober]] [[1935]] in [[Düsseldorf]]; † [[16. Juli]] [[2025]]<ref>{{Internetquelle |url=https://www.t-online.de/region/duesseldorf/id_100824468/duesseldorf-kuenstler-bert-gerresheim-ist-tot-mit-89-jahren-gestorben.html |titel=Düsseldorf trauert: Bekannter Künstler ist tot |werk=t-online.de |datum=2025-07-17 |sprache=de |abruf=2025-07-17}}</ref> ebenda) war ein [[Deutschland|deutscher]] [[Bildhauerei|Bildhauer]], [[Grafiker]] und [[Pädagoge]]. Schwerpunkt seines künstlerischen Schaffens waren [[Plastik (Kunst)|Plastiken]] aus Bronze. Der Künstler lebte und arbeitete in Düsseldorf.",
+  "segments": [
+    {
+      "id": "265541909-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Bert Gerresheim''' (* [[8. Oktober]] [[1935]] in [[Düsseldorf]]; † [[16. Juli]] [[2025]]<ref>{{Internetquelle |url=https://www.t-online.de/region/duesseldorf/id_100824468/duesseldorf-kuenstler-bert-gerresheim-ist-tot-mit-89-jahren-gestorben.html |titel=Düsseldorf trauert: Bekannter Künstler ist tot |werk=t-online.de |datum=2025-07-17 |sprache=de |abruf=2025-07-17}}</ref> ebenda) war ein [[Deutschland|deutscher]] [[Bildhauerei|Bildhauer]], [[Grafiker]] und [[Pädagoge]].",
+      "plain": null
+    },
+    {
+      "id": "265541909-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Schwerpunkt seines künstlerischen Schaffens waren [[Plastik (Kunst)|Plastiken]] aus Bronze.",
+      "plain": null
+    },
+    {
+      "id": "265541909-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Künstler lebte und arbeitete in Düsseldorf.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 265541909,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "265541909-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Bert Gerresheim (* 8. Oktober 1935 in Düsseldorf; † 16. Juli 2025 ebenda) war ein deutscher Bildhauer, Grafiker und Pädagoge.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "265541909-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "265541909-0000"
+        ],
+        "plain": "Schwerpunkt seines künstlerischen Schaffens waren Plastiken aus Bronze.",
+        "context_plain": [
+          "Bert Gerresheim (* 8. Oktober 1935 in Düsseldorf; † 16. Juli 2025 ebenda) war ein deutscher Bildhauer, Grafiker und Pädagoge."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

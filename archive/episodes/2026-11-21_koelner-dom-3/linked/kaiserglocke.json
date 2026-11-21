@@ -1,0 +1,98 @@
+{
+  "title": "Kaiserglocke",
+  "revid": 268149966,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-06-22T17:41:07Z",
+  "fetched_at": "2026-11-21T21:42:03Z",
+  "categories": [
+    "Kategorie:Glocke im Kölner Dom",
+    "Kategorie:Werk (19. Jahrhundert)",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2022-03"
+  ],
+  "intro_wikitext": "[[Datei:Andreas Hamm mit der Gloriosa 1875.jpg|mini|[[Andreas Hamm]] 1875, vor der von ihm gegossenen ''Kaiserglocke'' für den Kölner Dom]]\nDie '''Kaiserglocke''' („[[Gloriosa (Glocke)|Gloriosa]]“) war bis 1918 die größte [[Glocke]] des [[Kölner Dom]]es und die größte freischwingende Glocke der Welt. Ihre Nachfolgerin ist seit 1923 die [[Petersglocke]].\n\nDie 1874 von [[Andreas Hamm]] ([[Frankenthal (Pfalz)|Frankenthal]]) – nach zwei Fehlgüssen – gegossene Glocke hatte den [[Schlagton]] cis<sup>0</sup>. Sie wog 26.250&nbsp;Kilogramm bei einem Durchmesser von 342&nbsp;Zentimetern; einer Höhe von 325 Zentimetern<ref name=\":0\" /> und einer Schlagringstärke von 29&nbsp;Zentimetern. Im Juni 1918 wurde die Glocke im Glockenturm zerlegt und ihr Metall zu Kriegszwecken abgeliefert.",
+  "segments": [
+    {
+      "id": "268149966-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Kaiserglocke''' („[[Gloriosa (Glocke)|Gloriosa]]“) war bis 1918 die größte [[Glocke]] des [[Kölner Dom]]es und die größte freischwingende Glocke der Welt.",
+      "plain": null
+    },
+    {
+      "id": "268149966-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ihre Nachfolgerin ist seit 1923 die [[Petersglocke]].",
+      "plain": null
+    },
+    {
+      "id": "268149966-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die 1874 von [[Andreas Hamm]] ([[Frankenthal (Pfalz)|Frankenthal]]) – nach zwei Fehlgüssen – gegossene Glocke hatte den [[Schlagton]] cis<sup>0</sup>.",
+      "plain": null
+    },
+    {
+      "id": "268149966-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie wog 26.250&nbsp;Kilogramm bei einem Durchmesser von 342&nbsp;Zentimetern; einer Höhe von 325 Zentimetern<ref name=\":0\" /> und einer Schlagringstärke von 29&nbsp;Zentimetern.",
+      "plain": null
+    },
+    {
+      "id": "268149966-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Juni 1918 wurde die Glocke im Glockenturm zerlegt und ihr Metall zu Kriegszwecken abgeliefert.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268149966,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268149966-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Kaiserglocke („Gloriosa“) war bis 1918 die größte Glocke des Kölner Domes und die größte freischwingende Glocke der Welt.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268149966-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die 1874 von Andreas Hamm (Frankenthal) – nach zwei Fehlgüssen – gegossene Glocke hatte den Schlagton cis0.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268149966-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "268149966-0002"
+        ],
+        "plain": "Sie wog 26.250 Kilogramm bei einem Durchmesser von 342 Zentimetern; einer Höhe von 325 Zentimetern und einer Schlagringstärke von 29 Zentimetern.",
+        "context_plain": [
+          "Die 1874 von Andreas Hamm (Frankenthal) – nach zwei Fehlgüssen – gegossene Glocke hatte den Schlagton cis0."
+        ]
+      },
+      {
+        "segment_id": "268149966-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Im Juni 1918 wurde die Glocke im Glockenturm zerlegt und ihr Metall zu Kriegszwecken abgeliefert.",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "268149966-0001",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

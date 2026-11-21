@@ -1,0 +1,101 @@
+{
+  "title": "Petersglocke",
+  "revid": 272222791,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-16T20:25:11Z",
+  "fetched_at": "2026-11-21T21:42:03Z",
+  "categories": [
+    "Kategorie:Glocke im Kölner Dom",
+    "Kategorie:Simon Petrus als Namensgeber",
+    "Kategorie:Werk (20. Jahrhundert)",
+    "Kategorie:Wikipedia:Artikel mit Video"
+  ],
+  "intro_wikitext": "[[Datei:Kölner Dom - Dicker Pitter - Probeläuten-9111.jpg|mini|Petersglocke – Glocke 1 (2018)]]\n[[Datei:200437 bigben12345 petersglocke.oga|mini|Petersglocke]]\n[[Datei:Kölner Dom - Dicker Pitter - Probeläuten.webm|mini|thumbtime=02|Probeläuten am 30. Oktober 2018 mit neuer Klöppelaufhängung]]\nDie '''Petersglocke''' (im Volksmund auf [[Kölsch (Sprache)|Kölsch]] '''Decke Pitter''' (Dicker [[Simon Petrus|Peter]]) genannt) ist die [[Kirchenglocke|Glocke]]&nbsp;1 des [[Kölner Domglocken|Kölner Domgeläuts]]. Sie wurde am 5. Mai 1923 von [[Heinrich Ulrich (Glockengießer)|Glockengießermeister Heinrich Ulrich]] (1876–1924) in [[Apolda|der Glockenstadt Apolda]] gegossen. Heute hat sie ihren Platz im [[Glockenstuhl]] des Südturms im [[Kölner Dom]]. Mit rund 24.000&nbsp;[[Kilogramm]] [[Masse (Physik)|Masse]] (+ Klöppel: ≈&nbsp;600&nbsp;kg) und 322&nbsp;cm unterem Durchmesser war diese Bronzeglocke mehr als 90 Jahre lang – bis November 2016 – die weltweit größte am [[Kirchenglocke#Aufhängung|geraden Joch]] schwingend Glocke und ist weiterhin die tontiefste Glocke der Welt.",
+  "segments": [
+    {
+      "id": "272222791-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Petersglocke''' (im Volksmund auf [[Kölsch (Sprache)|Kölsch]] '''Decke Pitter''' (Dicker [[Simon Petrus|Peter]]) genannt) ist die [[Kirchenglocke|Glocke]]&nbsp;1 des [[Kölner Domglocken|Kölner Domgeläuts]].",
+      "plain": null
+    },
+    {
+      "id": "272222791-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie wurde am 5. Mai 1923 von [[Heinrich Ulrich (Glockengießer)|Glockengießermeister Heinrich Ulrich]] (1876–1924) in [[Apolda|der Glockenstadt Apolda]] gegossen.",
+      "plain": null
+    },
+    {
+      "id": "272222791-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Heute hat sie ihren Platz im [[Glockenstuhl]] des Südturms im [[Kölner Dom]].",
+      "plain": null
+    },
+    {
+      "id": "272222791-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Mit rund 24.000&nbsp;[[Kilogramm]] [[Masse (Physik)|Masse]] (+ Klöppel: ≈&nbsp;600&nbsp;kg) und 322&nbsp;cm unterem Durchmesser war diese Bronzeglocke mehr als 90 Jahre lang – bis November 2016 – die weltweit größte am [[Kirchenglocke#Aufhängung|geraden Joch]] schwingend Glocke und ist weiterhin die tontiefste Glocke der Welt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272222791,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272222791-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Petersglocke (im Volksmund auf Kölsch Decke Pitter (Dicker Peter) genannt) ist die Glocke 1 des Kölner Domgeläuts.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272222791-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272222791-0000"
+        ],
+        "plain": "Sie wurde am 5. Mai 1923 von Glockengießermeister Heinrich Ulrich (1876–1924) in der Glockenstadt Apolda gegossen.",
+        "context_plain": [
+          "Die Petersglocke (im Volksmund auf Kölsch Decke Pitter (Dicker Peter) genannt) ist die Glocke 1 des Kölner Domgeläuts."
+        ]
+      },
+      {
+        "segment_id": "272222791-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272222791-0000",
+          "272222791-0001"
+        ],
+        "plain": "Heute hat sie ihren Platz im Glockenstuhl des Südturms im Kölner Dom.",
+        "context_plain": [
+          "Die Petersglocke (im Volksmund auf Kölsch Decke Pitter (Dicker Peter) genannt) ist die Glocke 1 des Kölner Domgeläuts.",
+          "Sie wurde am 5. Mai 1923 von Glockengießermeister Heinrich Ulrich (1876–1924) in der Glockenstadt Apolda gegossen."
+        ]
+      },
+      {
+        "segment_id": "272222791-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272222791-0000",
+          "272222791-0001",
+          "272222791-0002"
+        ],
+        "plain": "Mit rund 24.000 Kilogramm Masse (+ Klöppel: ≈ 600 kg) und 322 cm unterem Durchmesser war diese Bronzeglocke mehr als 90 Jahre lang – bis November 2016 – die weltweit größte am geraden Joch schwingend Glocke und ist weiterhin die tontiefste Glocke der Welt.",
+        "context_plain": [
+          "Die Petersglocke (im Volksmund auf Kölsch Decke Pitter (Dicker Peter) genannt) ist die Glocke 1 des Kölner Domgeläuts.",
+          "Sie wurde am 5. Mai 1923 von Glockengießermeister Heinrich Ulrich (1876–1924) in der Glockenstadt Apolda gegossen.",
+          "Heute hat sie ihren Platz im Glockenstuhl des Südturms im Kölner Dom."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}
