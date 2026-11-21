@@ -11,6 +11,7 @@ STT verification in episode_audio.py (steps 9 and 10), the explicit check in exp
 
 from __future__ import annotations
 
+import logging
 import os
 import sys
 import tomllib
@@ -72,6 +73,7 @@ from gut_zu_wissen.jev import HttpJev, Jev
 from gut_zu_wissen.judge import TurnJudgement
 from gut_zu_wissen.linked import LinkedIntro, SkippedLink, fetch_linked_intros
 from gut_zu_wissen.llm import AnthropicLlm, LlmError, StructuredLlm
+from gut_zu_wissen.logs import setup_logging, timed
 from gut_zu_wissen.orchestrator import GateFailure, Offer, Orchestration, orchestrate
 from gut_zu_wissen.pronunciation import (
     PronunciationError,
@@ -98,6 +100,8 @@ from gut_zu_wissen.segmentation import segment_article
 from gut_zu_wissen.stt import Stt, WhisperStt
 from gut_zu_wissen.tts import GeminiTts, Tts, voices_of
 from gut_zu_wissen.usage import Usage, episode_cost, tts_cost_usd, usage_dict
+
+log = logging.getLogger(__name__)
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CONFIG_PATH = REPO_ROOT / "config" / "pipeline.toml"
@@ -162,6 +166,7 @@ def audio_step(
         save_episode(archive_root, record)
         raise GateFailure(str(exc)) from exc
     audio_record.pronunciation = lexicon
+    log.info("Step audio: %d turns, TTS and STT verification", len(turns))
     config = {**config, "pronunciation": lexicon}
     try:
         produce_audio(
@@ -248,8 +253,10 @@ def run(
     """
     max_reason = config["run"]["failure_reason_max_chars"]
     fixed = load_fixed(fixed_dir, config["models"]["tts"], voices_of(config))
+    log.info("Step gates: fetching '%s'", title)
     article = fetch_article(api, title, now)
     record = create_episode(archive_root, article.title, now)
+    log.info("Episode %s created (revision %s)", record.episode_id, article.revid)
     audio_record = None  # TTS cost of the run, once the audio step started
     step = STEP_GATES
     try:
@@ -273,17 +280,29 @@ def run(
             record.status, record.failure = "failed", failure
             save_episode(archive_root, record)
             raise GateFailure(failure)
+        log.info("Gates passed (living person, repeat)")
         folder = episode_dir(archive_root, record.episode_id)
         step = STEP_SEGMENTATION
         renderer = ParseRenderer(api)
+        log.info("Step segmentation")
         segments = segment_article(article.wikitext, article.title, article.revid, renderer)
+        log.info("%d segments", len(segments))
         write_json(
             folder / SEGMENTS_FILE,
             {"revid": article.revid, "segments": [s.to_dict() for s in segments]},
         )
         step = STEP_EXTRACTION
         extractor = extraction_llm or llm
-        facts = extract_facts(extractor, renderer, article.title, article.revid, segments, config)
+        with timed(log, "Step extraction"):
+            facts = extract_facts(
+                extractor, renderer, article.title, article.revid, segments, config
+            )
+        log.info(
+            "Extraction: %d facts, %d rejected, %d chunks",
+            len(facts.facts),
+            len(facts.rejected),
+            facts.chunk_count,
+        )
         write_json(folder / FACTS_FILE, facts.to_dict())
 
         quotas = config["quotas"]
@@ -298,6 +317,7 @@ def run(
             """Einordnung and both rankings without the excluded facts (D6); linked intros are
             fetched once. Einordnung facts leave the main ranking, so its quota takes the next.
             The first prose sentence of the intro stays Einordnung #1 (pinned)."""
+            log.info("Step ranking (%d excluded facts)", len(excluded))
             einordnung = select_einordnung(
                 opening,
                 opening_plain,
@@ -379,6 +399,14 @@ def run(
                 },
             )
             offered = len(einordnung_ranked) + len(main_ranked) + len(linked)
+            log.info(
+                "Offer: %d Einordnung, %d main, %d linked (%d linked articles, %d excluded facts)",
+                len(einordnung_ranked),
+                len(main_ranked),
+                len(linked),
+                len(current),
+                len(excluded),
+            )
             failure = offer_gate(offered, quotas["min_used_facts"])
             if failure:
                 raise GateFailure(failure)
@@ -399,7 +427,8 @@ def run(
         try:
             # The dialog author (dialog and turn regenerations) may use its own client with a
             # larger output ceiling; ranking keeps `llm`, extraction has `extraction_llm`.
-            orchestrate(state, make_offer, dialog_llm or llm, judge_llm, jev, config)
+            with timed(log, "Step dialog"):
+                orchestrate(state, make_offer, dialog_llm or llm, judge_llm, jev, config)
         except GateFailure as exc:
             if state.dialog:
                 write_json(folder / DIALOG_FILE, state.dialog_dict())
@@ -409,13 +438,19 @@ def run(
             raise
         write_json(folder / DIALOG_FILE, state.dialog_dict())
         write_json(folder / JUDGEMENT_FILE, state.judgement_dict())
-
         assert state.dialog is not None
+        log.info(
+            "Dialog accepted: %d turns, %d facts used",
+            len(state.dialog.turns),
+            len(state.used_fact_ids),
+        )
+
         # D7 on the final script, before the audio step: a failed check costs no TTS.
         step = STEP_EXPLICIT
         explicit = ExplicitCheck(config["models"]["llm_judge"])
         try:
-            check_explicit(explicit, judge_llm, state.dialog.turns)
+            with timed(log, "Step explicit check"):
+                check_explicit(explicit, judge_llm, state.dialog.turns)
         except LlmError as exc:
             explicit.error = f"{type(exc).__name__}: {exc}"
             write_json(folder / EXPLICIT_FILE, explicit.to_dict())
@@ -425,6 +460,7 @@ def run(
         write_json(folder / EXPLICIT_FILE, explicit.to_dict())
         record.explicit = explicit.explicit
         save_episode(archive_root, record)
+        log.info("Explicit: %s", "yes" if explicit.explicit else "no")
 
         step = STEP_AUDIO
         audio_record = new_record(config)
@@ -442,6 +478,7 @@ def run(
         )
 
         step = STEP_REVIEW
+        log.info("Step review sample")
         assert state.offer is not None
         review_step(
             archive_root,
@@ -453,12 +490,14 @@ def run(
             config,
         )  # `completed` is saved in `finally`
         return record.episode_id
-    except GateFailure:
+    except GateFailure as exc:
         record.failed_step = step
+        log.error("Failed in step %s: %s", step, exc)
         raise
     except Exception as exc:  # crash: recorded as failed, then the job fails with the traceback
         record.status, record.failure = "failed", crash_reason(exc, max_reason, secrets)
         record.failed_step = step
+        log.error("Crashed in step %s: %s", step, record.failure)
         raise
     finally:  # every exit, a crash included, records the end and the token counts
         record.finished_at = format_timestamp((clock or _utc_now)())
@@ -554,6 +593,7 @@ def main(argv: list[str] | None = None) -> int:
     if len(args) != 1 or not args[0].strip():
         print('Usage: python -m gut_zu_wissen.run "<article title>"', file=sys.stderr)
         return 2
+    setup_logging()
     config = load_config()
     secrets = secret_values(os.environ)
     try:
