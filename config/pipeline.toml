@@ -31,6 +31,19 @@ context_words = 6                   # script words before and after a deviation,
 # ASSUMPTION: values not measured yet; Whisper's word times are about 0.1-0.2 s exact.
 second_hearing_context_words = 4
 second_hearing_margin_seconds = 0.2
+# Third hearing with a hint (owner, 2026-11-21): a deviation that still counts after the LLM, one
+# word on each side, the expected word from the cited fact sentences, is heard again with the
+# expected word as Whisper hotword. A match counts as a mishearing; the word joins the episode's
+# pronunciation.json. ASSUMPTION: similarity 0.65 lets Rainald/Reinhard (0.67) and
+# Patrizier/Patricia (0.71) through and stops Gerhard/Konrad (0.46); not measured on more cases.
+hint_min_similarity = 0.65
+hint_max_entries = 3                # words per episode; more still count as deviations
+# Never hinted: negations and month names change the statement while sounding alike.
+hint_excluded_words = [
+  "nicht", "nichts", "nie", "niemals", "kein", "keine", "keinem", "keinen", "keiner", "keines",
+  "Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober",
+  "November", "Dezember",
+]
 
 [review]
 # Sampling (design: "Stichproben"). The current r lives in archive/state/review.json; r_initial

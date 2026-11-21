@@ -9,7 +9,11 @@ against the section's script after normalisation; the LLM judge model decides pe
 whether it changes the statement. Before that, each deviation is heard a second time: Whisper's
 word times locate it, the stretch around it is cut out and transcribed again; if that hearing
 matches the script there, the deviation does not count and does not go to the LLM (decided
-2026-11-21). If one still counts, the section
+2026-11-21). A deviation that still counts after the LLM is heard a third time with the
+expected word as a hint, under the conditions of `verification.hint_candidate` (decided
+2026-11-21); if that hearing matches, the deviation is a mishearing, and the heard word joins the
+episode's lexicon (`AudioRecord.lexicon_additions`, written to `pronunciation.json` by the run),
+at most `hint_max_entries` words per episode. If one still counts, the section
 is not synthesised again as a whole: only the turns holding the remaining deviations are
 (decided 2026-11-21, `splice.py`), and their new audio replaces the old between the quietest
 points at the turn borders. Each turn is synthesised again at most `audio_section_retries` times
@@ -39,7 +43,7 @@ from gut_zu_wissen import audio
 from gut_zu_wissen.dialog import Turn
 from gut_zu_wissen.llm import LlmError, StructuredLlm
 from gut_zu_wissen.markup import markup_problems
-from gut_zu_wissen.pronunciation import canonicalize, respell
+from gut_zu_wissen.pronunciation import canonicalize, merge, respell
 from gut_zu_wissen.splice import affected_turns, blocks, boundary_cuts, turn_offsets
 from gut_zu_wissen.stt import Stt, SttError
 from gut_zu_wissen.tts import SectionError, Tts, TtsError, split_sections, voices_of
@@ -48,12 +52,14 @@ from gut_zu_wissen.verification import (
     Deviation,
     RetryAction,
     Span,
+    add_heard,
     changes_statement,
     counts,
     decide_deviations,
     diff_tokens,
     heard_again_matches,
     hearing_window,
+    hint_candidate,
     retry_action,
     script_times,
     token_times,
@@ -126,6 +132,8 @@ class AudioRecord:
     # Earlier attempts of the audio step, when it was resumed (`resume.py`): their records as
     # archived, oldest first, so nothing paid for is lost.
     previous_attempts: list[dict] = field(default_factory=list)
+    # Words the third hearing found misheard in this run (`pronunciation.json` entries).
+    lexicon_additions: list[dict] = field(default_factory=list)
 
     def to_dict(self) -> dict:
         return asdict(self)
@@ -158,11 +166,14 @@ def produce_audio(
     fixed: Mapping[str, tuple[np.ndarray, int, str]],
     work_dir: Path,
     config: Mapping,
+    fact_words: frozenset[str] = frozenset(),
 ) -> None:
     """Fill `record` and write the section and episode audio to `work_dir`.
 
     `fixed` is the loaded intro and outro (`intro_outro.load_fixed`); `decision_llm` decides
-    whether a deviation changes the statement. Raises `AudioStepError`.
+    whether a deviation changes the statement; `fact_words` are the words of the cited fact
+    sentences, the only words the third hearing may hint (none: no third hearing). Raises
+    `AudioStepError`.
     """
     quotas, joins = config["quotas"], config["audio"]
     problems = markup_problems(turns)
@@ -200,6 +211,8 @@ def produce_audio(
                 rate,
                 work_dir,
                 config,
+                fact_words,
+                record.lexicon_additions,
             )
         )
     record.joins = {
@@ -258,6 +271,8 @@ def _verified_section(
     rate: int,
     work_dir: Path,
     config: Mapping,
+    fact_words: frozenset[str] = frozenset(),
+    additions: list[dict] | None = None,
 ) -> np.ndarray:
     """Synthesise and verify one section; the accepted audio.
 
@@ -268,7 +283,8 @@ def _verified_section(
     them.
     """
     budget = config["quotas"]["audio_section_retries"]
-    lexicon = config.get("pronunciation", [])
+    base_lexicon = config.get("pronunciation", [])
+    additions = [] if additions is None else additions
     joins = config["audio"]
     syntheses = [0] * len(section_turns)
     pieces = [_Piece(0, len(section_turns))]
@@ -279,6 +295,7 @@ def _verified_section(
             n += 1
             continue
         piece_turns = section_turns[piece.first : piece.end]
+        lexicon = merge(base_lexicon, additions)  # words misheard earlier in the run count too
         attempt = AttemptRecord(
             len(section.attempts),
             [section.turn_indices[t] for t in range(piece.first, piece.end)],
@@ -295,7 +312,15 @@ def _verified_section(
             syntheses[t] += 1
         try:
             attempt.transcript, attempt.deviations, times = verify(
-                y, rate, piece_turns, stt, decision_llm, lexicon, config["stt"]
+                y,
+                rate,
+                piece_turns,
+                stt,
+                decision_llm,
+                lexicon,
+                config["stt"],
+                fact_words,
+                additions,
             )
         except (SttError, LlmError) as exc:
             raise AudioStepError(f"STT verification, section {section.index}: {exc}") from exc
@@ -414,12 +439,17 @@ def verify(
     decision_llm: StructuredLlm,
     lexicon: Sequence[Mapping],
     settings: Mapping,
+    fact_words: frozenset[str] = frozenset(),
+    additions: list[dict] | None = None,
 ) -> tuple[str, list[Deviation], list[Span | None] | None]:
     """Transcript of the audio, its deviations from the turns' script and the time of each
     normalised script word (`None` without word times). Raises `SttError`, `LlmError`.
 
     Every deviation is first heard a second time; only those the second hearing does not clear
-    go to the LLM (one call), which decides whether they change the statement.
+    go to the LLM (one call), which decides whether they change the statement. A deviation that
+    still counts is heard a third time with its expected word as a hint, if `hint_candidate`
+    allows it and the episode has room for another word (`hint_max_entries`); a match adds the
+    heard word to `additions`.
     """
     script = " ".join(text for _, text in section_turns)
     transcript = stt.transcribe(y, sr)
@@ -446,7 +476,68 @@ def verify(
             )
     open_ = [d for d in deviations if d.heard_again_matches is not True]
     decide_deviations(decision_llm, section_turns, transcript.text, open_)
+    if times is not None and fact_words and additions is not None:
+        _hear_with_hints(
+            y,
+            sr,
+            stt,
+            script,
+            expected,
+            times,
+            deviations,
+            lexicon,
+            settings,
+            fact_words,
+            additions,
+        )
     return transcript.text, deviations, times
+
+
+def _hear_with_hints(
+    y: np.ndarray,
+    sr: int,
+    stt: Stt,
+    script: str,
+    expected: Sequence,
+    times: Sequence[Span | None],
+    deviations: Sequence[Deviation],
+    lexicon: Sequence[Mapping],
+    settings: Mapping,
+    fact_words: frozenset[str],
+    additions: list[dict],
+) -> None:
+    """Third hearing (see `verify`); fills `heard_with_hint`, `hint_matches` and `additions`."""
+    duration = audio.duration(y, sr)
+    for d in deviations:
+        if not counts(d) or not hint_candidate(
+            d, fact_words, settings["hint_min_similarity"], settings["hint_excluded_words"]
+        ):
+            continue
+        known = any(e["written"] == d.expected for e in additions)
+        if not known and len(additions) >= settings["hint_max_entries"]:
+            continue
+        first, last, t0, t1 = hearing_window(
+            times,
+            d.script_start,
+            d.script_end,
+            settings["second_hearing_context_words"],
+            duration,
+            settings["second_hearing_margin_seconds"],
+        )
+        hinted = stt.transcribe(y[round(t0 * sr) : round(t1 * sr)], sr, hint=d.expected)
+        d.heard_with_hint = hinted.text
+        d.hint_matches = heard_again_matches(
+            expected[first:last], tokenize(canonicalize(hinted.text, script, lexicon)), first, d
+        )
+        if d.hint_matches:
+            add_heard(
+                additions,
+                d.expected,
+                d.heard,
+                f"Dritte Abhörung: Whisper schrieb „{d.heard}“, mit dem Hinweis hörte es "
+                f"„{d.expected}“.",
+            )
+            log.info("STT: '%s' heard as '%s' counts as a mishearing", d.expected, d.heard)
 
 
 def new_record(config: Mapping) -> AudioRecord:

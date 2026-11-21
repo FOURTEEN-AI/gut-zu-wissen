@@ -1,4 +1,6 @@
-from gut_zu_wissen.pronunciation import canonicalize, respell
+import json
+
+from gut_zu_wissen.pronunciation import canonicalize, load_episode_entries, respell, with_additions
 
 ENTRIES = [
     {
@@ -82,3 +84,21 @@ def test_merge_puts_episode_entries_first_and_replaces_the_same_word() -> None:
         {"written": "C", "spoken": "c"},
         {"written": "B", "spoken": "b"},
     ]
+
+
+def test_episode_entries_may_carry_a_note(tmp_path) -> None:
+    entry = {"written": "Rainald", "spoken": "Rainald", "heard": ["Reinhard"], "note": "x"}
+    (tmp_path / "pronunciation.json").write_text(json.dumps([entry]), encoding="utf-8")
+    assert load_episode_entries(tmp_path) == [entry]
+
+
+def test_additions_extend_an_existing_entry_or_are_appended() -> None:
+    entries = [{"written": "Rainald", "spoken": "Rainald", "heard": ["Reinhard"]}]
+    additions = [
+        {"written": "Rainald", "spoken": "Rainald", "heard": ["Reinald"], "note": "n"},
+        {"written": "Patrizier", "spoken": "Patrizier", "heard": ["Patricia"], "note": "n"},
+    ]
+    out = with_additions(entries, additions)
+    assert out[0]["heard"] == ["Reinhard", "Reinald"]
+    assert out[1]["written"] == "Patrizier"
+    assert entries[0]["heard"] == ["Reinhard"]  # the input stays unchanged

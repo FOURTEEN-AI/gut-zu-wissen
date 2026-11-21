@@ -51,8 +51,9 @@ class Transcript:
 
 
 class Stt(Protocol):
-    def transcribe(self, y: np.ndarray, sr: int) -> Transcript:
-        """Text spoken in the mono samples `y` at `sr` Hz, with word times."""
+    def transcribe(self, y: np.ndarray, sr: int, hint: str | None = None) -> Transcript:
+        """Text spoken in the mono samples `y` at `sr` Hz, with word times. `hint`: words the
+        audio is expected to contain (third hearing), passed to the model as hotwords."""
         ...
 
 
@@ -91,7 +92,7 @@ class WhisperStt:
         self._load = load
         self._model: Any = None
 
-    def transcribe(self, y: np.ndarray, sr: int) -> Transcript:
+    def transcribe(self, y: np.ndarray, sr: int, hint: str | None = None) -> Transcript:
         s = self._settings
         if self._model is None:
             log.info("STT: loading model %s", self._name)
@@ -113,6 +114,7 @@ class WhisperStt:
                 vad_filter=s["vad_filter"],
                 condition_on_previous_text=s["condition_on_previous_text"],
                 word_timestamps=True,
+                hotwords=hint,
             )
             segments = list(segments)  # the generator does the work
             words = [

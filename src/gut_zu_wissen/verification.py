@@ -25,6 +25,16 @@ again. If that transcript has no deviation at the place of the first one
 (`heard_again_matches`), the audio says what the script says and the deviation does not count.
 Only a remaining deviation that the LLM finds to change the statement leads to resynthesis
 (`retry_action`).
+
+Third hearing with a hint (decided 2026-11-21): Whisper writes a rare word it does not know as a
+common one that sounds alike ("Rainald" as "Reinhard"), in every synthesis and every hearing, so
+resynthesis cannot help. A deviation that still counts after the LLM is heard a third time, with
+the expected word given to Whisper as a hint, if `hint_candidate` allows it: one word on each
+side, the expected word from the cited fact sentences, no number and no excluded word (negations,
+months), and the two words alike (`similarity`). If Whisper with the hint hears the script there
+(`hint_matches`), the deviation counts as a mishearing and the pipeline adds the heard word to the
+episode's pronunciation lexicon. If it still hears the other word, the voice probably says it, and
+the deviation counts as before.
 """
 
 from __future__ import annotations
@@ -32,7 +42,7 @@ from __future__ import annotations
 import difflib
 import re
 import unicodedata
-from collections.abc import Sequence
+from collections.abc import Collection, Sequence
 from dataclasses import asdict, dataclass
 from enum import StrEnum
 
@@ -83,6 +93,8 @@ class Deviation:
     heard_end: int = 0
     heard_again: str | None = None  # transcript of the second hearing; None: not heard again
     heard_again_matches: bool | None = None  # the second hearing has no deviation at this place
+    heard_with_hint: str | None = None  # transcript of the third hearing; None: not heard so
+    hint_matches: bool | None = None  # the third hearing, with the hint, has no deviation here
 
     def to_dict(self) -> dict:
         return asdict(self)
@@ -500,9 +512,13 @@ def apply_decisions(deviations: Sequence[Deviation], answer: dict) -> None:
 
 
 def counts(d: Deviation) -> bool:
-    """A deviation changes the statement if the second hearing did not hear the script and the
-    LLM did not clear it (undecided counts)."""
-    return d.changes_statement is not False and d.heard_again_matches is not True
+    """A deviation changes the statement if neither the second nor the third hearing heard the
+    script and the LLM did not clear it (undecided counts)."""
+    return (
+        d.changes_statement is not False
+        and d.heard_again_matches is not True
+        and d.hint_matches is not True
+    )
 
 
 def changes_statement(deviations: Sequence[Deviation]) -> bool:
@@ -523,6 +539,53 @@ def decide_deviations(
         DECISION_PROMPT, format_decision_input(turns, transcript, deviations), DECISION_SCHEMA
     )
     apply_decisions(deviations, answer)
+
+
+# ---------------------------------------------------------------- third hearing with a hint
+
+
+def similarity(a: str, b: str) -> float:
+    """How alike two words are written, 0 to 1 (difflib ratio, case-insensitive)."""
+    return difflib.SequenceMatcher(None, a.casefold(), b.casefold(), autojunk=False).ratio()
+
+
+def fact_words(texts: Sequence[str]) -> frozenset[str]:
+    """The words (letters only, casefolded) of the given fact sentences."""
+    return frozenset(t.raw.casefold() for text in texts for t in tokenize(text) if t.raw.isalpha())
+
+
+def hint_candidate(
+    d: Deviation,
+    words: Collection[str],
+    min_similarity: float,
+    excluded: Collection[str],
+) -> bool:
+    """Whether deviation `d` may be heard again with its expected word as a hint (pure).
+
+    One word on each side, both letters only (no number), the expected word one of the cited fact
+    sentences' `words`, neither word in `excluded` (casefolded), and the words at least
+    `min_similarity` alike.
+    """
+    if d.script_end - d.script_start != 1 or d.heard_end - d.heard_start != 1:
+        return False
+    expected, heard = d.expected, d.heard
+    if not (expected.isalpha() and heard.isalpha()):
+        return False
+    skip = {w.casefold() for w in excluded}
+    if expected.casefold() not in words or {expected.casefold(), heard.casefold()} & skip:
+        return False
+    return similarity(expected, heard) >= min_similarity
+
+
+def add_heard(additions: list[dict], written: str, heard: str, note: str) -> None:
+    """Record `heard` as a variant of `written` in the lexicon additions (in place); a second
+    variant of the same word joins its entry."""
+    for entry in additions:
+        if entry["written"] == written:
+            if heard not in entry["heard"]:
+                entry["heard"].append(heard)
+            return
+    additions.append({"written": written, "spoken": written, "heard": [heard], "note": note})
 
 
 # ---------------------------------------------------------------- retry budget

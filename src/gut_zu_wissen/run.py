@@ -15,7 +15,7 @@ import logging
 import os
 import sys
 import tomllib
-from collections.abc import Callable, Collection, Mapping
+from collections.abc import Callable, Collection, Mapping, Sequence
 from dataclasses import asdict
 from datetime import UTC, datetime
 from pathlib import Path
@@ -70,15 +70,19 @@ from gut_zu_wissen.fetch import ArticleNotFoundError, HttpWikipediaApi, Wikipedi
 from gut_zu_wissen.gates import is_living_person, repeat_gate_allows
 from gut_zu_wissen.intro_outro import ASSETS_DIR, FixedAudioError, load_fixed
 from gut_zu_wissen.jev import HttpJev, Jev
-from gut_zu_wissen.judge import TurnJudgement
+from gut_zu_wissen.judge import TurnJudgement, cited_ids
 from gut_zu_wissen.linked import LinkedIntro, SkippedLink, fetch_linked_intros
 from gut_zu_wissen.llm import AnthropicLlm, LlmError, StructuredLlm
 from gut_zu_wissen.logs import setup_logging, timed
 from gut_zu_wissen.orchestrator import GateFailure, Offer, Orchestration, orchestrate
 from gut_zu_wissen.pronunciation import (
+    FILE as PRONUNCIATION_FILE,
+)
+from gut_zu_wissen.pronunciation import (
     PronunciationError,
     load_episode_entries,
     merge,
+    with_additions,
 )
 from gut_zu_wissen.ranking import (
     RankedFact,
@@ -100,6 +104,7 @@ from gut_zu_wissen.segmentation import segment_article
 from gut_zu_wissen.stt import Stt, WhisperStt
 from gut_zu_wissen.tts import GeminiTts, Tts, voices_of
 from gut_zu_wissen.usage import Usage, episode_cost, tts_cost_usd, usage_dict
+from gut_zu_wissen.verification import fact_words
 
 # Explicit name: run as `python -m`, `__name__` is "__main__", outside the package logger.
 log = logging.getLogger("gut_zu_wissen.run")
@@ -152,8 +157,13 @@ def audio_step(
     fixed: Mapping,
     audio_root: Path,
     config: dict,
+    facts: Mapping[str, RankedFact] | None = None,
 ) -> None:
     """Steps 9 and 10 on the final script, writing `08_audio.json` on every exit.
+
+    `facts`: the offer; the words of the fact sentences the turns cite are the only words the
+    third hearing may hint. Words it finds misheard are added to the episode's
+    `pronunciation.json` on every exit, so a resumed run uses them.
 
     An `AudioStepError` (TTS or STT error, STT budget used up) records the episode as failed and
     becomes `GateFailure`; a crash keeps the record of the syntheses so far and propagates.
@@ -161,7 +171,8 @@ def audio_step(
     """
     folder = episode_dir(archive_root, record.episode_id)
     try:
-        lexicon = merge(config.get("pronunciation", []), load_episode_entries(folder))
+        episode_entries = load_episode_entries(folder)
+        lexicon = merge(config.get("pronunciation", []), episode_entries)
     except PronunciationError as exc:
         record.status, record.failure = "failed", str(exc)
         save_episode(archive_root, record)
@@ -169,6 +180,15 @@ def audio_step(
     audio_record.pronunciation = lexicon
     log.info("Step audio: %d turns, TTS and STT verification", len(turns))
     config = {**config, "pronunciation": lexicon}
+    words = cited_fact_words(turns, facts or {})
+
+    def save_additions() -> None:
+        if audio_record.lexicon_additions:
+            write_json(
+                folder / PRONUNCIATION_FILE,
+                with_additions(episode_entries, audio_record.lexicon_additions),
+            )
+
     try:
         produce_audio(
             audio_record,
@@ -179,17 +199,27 @@ def audio_step(
             fixed,
             audio_root / record.episode_id,
             config,
+            words,
         )
     except AudioStepError as exc:
+        save_additions()
         write_json(folder / AUDIO_FILE, audio_record.to_dict())
         record.status, record.failure = "failed", str(exc)
         save_episode(archive_root, record)
         raise GateFailure(str(exc)) from exc
     except Exception:  # crash: keep the record of the syntheses so far
+        save_additions()
         write_json(folder / AUDIO_FILE, audio_record.to_dict())
         raise
+    save_additions()
     write_json(folder / AUDIO_FILE, audio_record.to_dict())
     record.audio_run_id = os.environ.get("GITHUB_RUN_ID") or None
+
+
+def cited_fact_words(turns: Sequence[Turn], facts: Mapping[str, RankedFact]) -> frozenset[str]:
+    """Words of the fact sentences the turns cite (third hearing: the words it may hint)."""
+    ids = {i for turn in turns for i in cited_ids(turn)}
+    return fact_words([facts[i].fact.plain for i in sorted(ids) if i in facts])
 
 
 def review_step(
@@ -483,6 +513,7 @@ def run(
             fixed,
             audio_root,
             config,
+            state.offer.by_id() if state.offer is not None else None,
         )
 
         step = STEP_REVIEW

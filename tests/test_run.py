@@ -704,7 +704,7 @@ def test_audio_is_synthesised_normalised_and_archived(tmp_path):
         "model", "voices", "section_max_chars", "stt_model", "section_retries", "pronunciation",
             "sections",
         "fixed_parts", "joins", "loudness", "file", "sample_rate", "seconds", "usd",
-        "previous_attempts",
+        "previous_attempts", "lexicon_additions",
     ]  # fmt: skip
     assert record["stt_model"] == "large-v3" and record["section_retries"] == 2
     section = record["sections"][0]
@@ -1043,3 +1043,27 @@ def test_episode_lexicon_is_merged_with_the_config_and_wins(tmp_path, monkeypatc
     tts, record = _lexicon_run(tmp_path, {**CONFIG, "pronunciation": config_entries})
     assert tts.calls == [[("Lena", "Tekst."), ("Felix", "Tekst.")]]
     assert record["pronunciation"] == [*episode, config_entries[1]]
+
+
+def test_third_hearing_gets_the_cited_fact_words_and_its_words_go_to_the_episode_lexicon(
+    tmp_path, monkeypatch
+):
+    import gut_zu_wissen.run as run_module
+
+    original, seen = run_module.produce_audio, {}
+
+    def produce(record, turns, tts, stt, llm, fixed, work_dir, config, words=frozenset()):
+        original(record, turns, tts, stt, llm, fixed, work_dir, config, words)
+        seen["words"] = words
+        record.lexicon_additions.append(
+            {"written": "Fuchs", "spoken": "Fuchs", "heard": ["Fux"], "note": "n"}
+        )
+
+    monkeypatch.setattr(run_module, "produce_audio", produce)
+    episode_id = run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW)
+    folder = tmp_path / "episodes" / episode_id
+    assert seen["words"]  # the words of the fact sentences the turns cite
+    lexicon = json.loads((folder / "pronunciation.json").read_text())
+    assert lexicon == [{"written": "Fuchs", "spoken": "Fuchs", "heard": ["Fux"], "note": "n"}]
+    audio = json.loads((folder / "08_audio.json").read_text())
+    assert audio["lexicon_additions"] == lexicon

@@ -279,6 +279,7 @@ def resume_audio(
             fixed,
             audio_root,
             config,
+            facts,
         )
         step = STEP_REVIEW
         review_step(archive_root, record, turns, judgements, facts, explicit, config)

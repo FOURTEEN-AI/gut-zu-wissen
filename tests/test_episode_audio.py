@@ -84,9 +84,10 @@ class TimedStt:
         self.queue = list(texts)
         self.calls: list[float] = []  # seconds of audio per call
 
-    def transcribe(self, y, sr):
+    def transcribe(self, y, sr, hint=None):
         seconds = len(y) / sr
         self.calls.append(seconds)
+        self.hints = [*getattr(self, "hints", []), hint]
         text = self.queue.pop(0)
         step = seconds / max(1, len(text.split()))
         timed = [Word(w, n * step, (n + 0.8) * step) for n, w in enumerate(text.split())]
@@ -125,10 +126,10 @@ def turns(*texts: str) -> list[Turn]:
     return [Turn(n, "Lena" if n % 2 == 0 else "Felix", t, []) for n, t in enumerate(texts)]
 
 
-def produce(script, tts, work, cfg=None, stt=None, llm=None):
+def produce(script, tts, work, cfg=None, stt=None, llm=None, words=frozenset()):
     record = new_record(cfg or config())
     stt = stt or EchoStt(tts)
-    produce_audio(record, script, tts, stt, llm or FakeLlm(), fixed(), work, cfg or config())
+    produce_audio(record, script, tts, stt, llm or FakeLlm(), fixed(), work, cfg or config(), words)
     return record
 
 
@@ -353,3 +354,68 @@ def test_without_word_times_the_whole_section_is_synthesised_again(tmp_path):
     record = produce(script, tts, tmp_path, stt=stt)
     assert tts.calls[1] == tts.calls[0]
     assert [a.turn_indices for a in record.sections[0].attempts] == [[0, 1], [0, 1]]
+
+
+# ---------------------------------------------------------------- third hearing with a hint
+
+DASSEL = "Der Erzbischof Rainald von Dassel kam nach Köln."
+DASSEL_WORDS = frozenset({"erzbischof", "rainald", "von", "dassel"})
+MISHEARD = "Der Erzbischof Reinhard von Dassel kam nach Köln."
+
+
+def test_hint_hearing_that_matches_clears_the_deviation_and_adds_the_word(tmp_path):
+    tts = FakeTts()
+    stt = TimedStt(MISHEARD, "Erzbischof Reinhard von Dassel", "Erzbischof Rainald von Dassel")
+    record = produce(turns(DASSEL), tts, tmp_path, stt=stt, words=DASSEL_WORDS)
+    (attempt,) = record.sections[0].attempts
+    (d,) = attempt.deviations
+    assert stt.hints == [None, None, "Rainald"]
+    assert (d.heard_with_hint, d.hint_matches) == ("Erzbischof Rainald von Dassel", True)
+    assert attempt.action == "accept" and len(tts.calls) == 1
+    (entry,) = record.lexicon_additions
+    assert (entry["written"], entry["spoken"], entry["heard"]) == (
+        "Rainald",
+        "Rainald",
+        ["Reinhard"],
+    )
+
+
+def test_hint_hearing_that_still_hears_the_other_word_leads_to_resynthesis(tmp_path):
+    tts = FakeTts()
+    stt = TimedStt(
+        MISHEARD,
+        "Erzbischof Reinhard von Dassel",
+        "Erzbischof Reinhard von Dassel",  # with the hint: still the other word
+        DASSEL,
+    )
+    record = produce(turns(DASSEL), tts, tmp_path, stt=stt, words=DASSEL_WORDS)
+    first, second = record.sections[0].attempts
+    assert first.deviations[0].hint_matches is False and first.action == "resynthesize"
+    assert second.action == "accept" and record.lexicon_additions == []
+
+
+def test_no_hint_hearing_for_a_word_outside_the_fact_sentences(tmp_path):
+    stt = TimedStt(MISHEARD, "Erzbischof Reinhard von Dassel", DASSEL)
+    record = produce(turns(DASSEL), FakeTts(), tmp_path, stt=stt, words=frozenset({"dassel"}))
+    first, _ = record.sections[0].attempts
+    assert first.deviations[0].heard_with_hint is None and None in stt.hints
+    assert "Rainald" not in stt.hints
+
+
+def test_no_hint_hearing_once_the_episode_has_its_maximum_of_words(tmp_path):
+    cfg = config()
+    cfg = {**cfg, "stt": {**cfg["stt"], "hint_max_entries": 0}}
+    stt = TimedStt(MISHEARD, "Erzbischof Reinhard von Dassel", DASSEL)
+    record = produce(turns(DASSEL), FakeTts(), tmp_path, cfg, stt=stt, words=DASSEL_WORDS)
+    assert "Rainald" not in stt.hints and record.lexicon_additions == []
+
+
+def test_a_word_added_in_one_section_counts_in_the_next(tmp_path):
+    cfg = config(max_chars=len(DASSEL))
+    stt = TimedStt(
+        MISHEARD, "Erzbischof Reinhard von Dassel", "Erzbischof Rainald von Dassel",
+        MISHEARD,  # second section: the lexicon now turns Reinhard into Rainald
+    )  # fmt: skip
+    record = produce(turns(DASSEL, DASSEL), FakeTts(), tmp_path, cfg, stt=stt, words=DASSEL_WORDS)
+    assert [len(s.attempts) for s in record.sections] == [1, 1]
+    assert record.sections[1].attempts[0].deviations == []
