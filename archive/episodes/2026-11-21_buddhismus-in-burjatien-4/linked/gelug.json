@@ -1,0 +1,102 @@
+{
+  "title": "Gelug",
+  "revid": 269995980,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-08-26T15:52:57Z",
+  "fetched_at": "2026-11-21T19:52:16Z",
+  "categories": [
+    "Kategorie:Buddhismus in Tibet",
+    "Kategorie:Buddhistische Schule",
+    "Kategorie:Vajrayana",
+    "Kategorie:Wikipedia:Belege fehlen"
+  ],
+  "intro_wikitext": "{{Belege fehlen|1=}}\n{{Tibetischer chinesischer Begriff\n|Tibetisch=དགེ་ལུགས་པ།  དགའ་ལྡན་ལུགས།\n|Wylie=dge lugs, dga’ ldan lugs\n|IPA=geluk, gandɛ̃luk\n|offiziell=Gêlug, Gandainlug\n|THDL=Geluk, Gandenluk\n|andere=Gelug\n|Tc=格魯派、黃教\n|Vc=格鲁派、黄教、格丹派\n|Py=Gélǔpài, Huángjiào, Gédān pài}}\nDie '''Gelug'''-Schule (auch: [[Ganden]]-Tradition) ist die jüngste der vier Hauptschulen ([[Nyingma]], [[Sakya]], [[Kagyü]] und Gelug) des [[Buddhismus in Tibet|tibetischen Buddhismus]] ([[Vajrayana]]). Sie wird auch als '''Gelbmützen-Schule''' bezeichnet. Die Anhänger dieser Schule werden als Gelugpa (tib.: ''dge lugs pa'') bezeichnet. Die Gelug-Schule war in ihren Anfängen eher dem reinen [[Mahayana]] nahestehend. Das nominelle Oberhaupt der Gelug-Schule ist der [[Ganden Thripa]] (tib.: ''dga' ldan khri pa''). Die Gelug-Tradition entwickelte sich zur nach Zahlen bedeutendsten Schule des Buddhismus in Tibet, ab den 1640er Jahren gewann die Gelug-Schule unter dem [[5. Dalai Lama]] und mit der Hilfe des mongolisch-oiratischen Herrschers [[Gushri Khan|Gushri-Khan]] auch politische Dominanz in Tibet<ref name=\":0\">{{Literatur |Autor=Geoffrey Samuel |Titel=Introducing Tibetan Buddhism |Reihe=World Religions Series |HrsgReihe=Damien Keown, Charles S. Prebish |Verlag=Routledge |Ort=Oxon OX / New York, NY |Datum=2012 |ISBN=978-0-415-45665-4 |Seiten=38}}</ref> bis zur kriegerischen Eingliederung Tibets in die [[Volksrepublik China]].",
+  "segments": [
+    {
+      "id": "269995980-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Gelug'''-Schule (auch: [[Ganden]]-Tradition) ist die jüngste der vier Hauptschulen ([[Nyingma]], [[Sakya]], [[Kagyü]] und Gelug) des [[Buddhismus in Tibet|tibetischen Buddhismus]] ([[Vajrayana]]).",
+      "plain": null
+    },
+    {
+      "id": "269995980-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie wird auch als '''Gelbmützen-Schule''' bezeichnet.",
+      "plain": null
+    },
+    {
+      "id": "269995980-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Anhänger dieser Schule werden als Gelugpa (tib.: ''dge lugs pa'') bezeichnet.",
+      "plain": null
+    },
+    {
+      "id": "269995980-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Gelug-Schule war in ihren Anfängen eher dem reinen [[Mahayana]] nahestehend.",
+      "plain": null
+    },
+    {
+      "id": "269995980-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das nominelle Oberhaupt der Gelug-Schule ist der [[Ganden Thripa]] (tib.: ''dga' ldan khri pa'').",
+      "plain": null
+    },
+    {
+      "id": "269995980-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Gelug-Tradition entwickelte sich zur nach Zahlen bedeutendsten Schule des Buddhismus in Tibet, ab den 1640er Jahren gewann die Gelug-Schule unter dem [[5. Dalai Lama]] und mit der Hilfe des mongolisch-oiratischen Herrschers [[Gushri Khan|Gushri-Khan]] auch politische Dominanz in Tibet<ref name=\":0\">{{Literatur |Autor=Geoffrey Samuel |Titel=Introducing Tibetan Buddhism |Reihe=World Religions Series |HrsgReihe=Damien Keown, Charles S. Prebish |Verlag=Routledge |Ort=Oxon OX / New York, NY |Datum=2012 |ISBN=978-0-415-45665-4 |Seiten=38}}</ref> bis zur kriegerischen Eingliederung Tibets in die [[Volksrepublik China]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269995980,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269995980-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Gelug-Schule (auch: Ganden-Tradition) ist die jüngste der vier Hauptschulen (Nyingma, Sakya, Kagyü und Gelug) des tibetischen Buddhismus (Vajrayana).",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269995980-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Gelug-Schule war in ihren Anfängen eher dem reinen Mahayana nahestehend.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269995980-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das nominelle Oberhaupt der Gelug-Schule ist der Ganden Thripa (tib.: dga' ldan khri pa).",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269995980-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Gelug-Tradition entwickelte sich zur nach Zahlen bedeutendsten Schule des Buddhismus in Tibet, ab den 1640er Jahren gewann die Gelug-Schule unter dem 5. Dalai Lama und mit der Hilfe des mongolisch-oiratischen Herrschers Gushri-Khan auch politische Dominanz in Tibet bis zur kriegerischen Eingliederung Tibets in die Volksrepublik China.",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "269995980-0001",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "title": "Agwan Dorschijew",
+  "revid": 265157496,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-03-12T14:10:33Z",
+  "fetched_at": "2026-11-21T19:52:16Z",
+  "categories": [
+    "Kategorie:Buddhismus in Russland",
+    "Kategorie:Geboren 1854",
+    "Kategorie:Gestorben 1938",
+    "Kategorie:Mann",
+    "Kategorie:Mönch",
+    "Kategorie:Person (Burjatien)",
+    "Kategorie:Person des tibetischen Buddhismus"
+  ],
+  "intro_wikitext": "[[Datei:Tsenyi Khempo, Tibetan Buddhist monk, c. 1900.jpg|mini|Agwan Dorschijew, 1898 in Sankt Petersburg<ref>{{Literatur |Autor=A. I Andreyev |Titel=The Saint-Petersburg buddhist temple in the photographs by Vladimir A. Sansero (1920–1924). From the Collection of the Institute of Oriental Manuscripts, Russian Academy of Sciences |Ort=Sankt Petersburg |Datum=2017 |Seiten=4 |Online=https://www.orientalstudies.ru/eng/images/pdf/b_andreev_2017.pdf}}</ref> ]]\n'''Agwan Dorschijew''' (auch Agvan Doržiev, Agvan Dorjiev, Agvan Dorzhiev o. ä., [[Russische Sprache|russisch]] Агван Доржиев, * 1854– 27. Januar 1938) war ein [[Burjaten|burjatischer]] Mönch und Gelehrter der tibetisch-buddhistischen [[Gelug]]-Schule, buddhistischer Reformer und Gesandter des [[13. Dalai Lama]] in Russland und der Sowjetunion. Nach einer Kindheit in Burjatien verbrachte er mehr als 20 Jahre in Tibet, zunächst als Mönch in Ausbildung im Kloster, später als engster Mitarbeiter des 13. Dalai Lamas. 1905 ging er als dessen Gesandter nach Sankt Petersburg, wo er – mit einigen Unterbrechungen auf Reisen – den Großteil seines restlichen Lebens verbrachte.\n\nEr gilt als eine der einflussreichsten Persönlichkeiten des tibetischen Buddhismus Ende des 19. und Beginn des 20. Jahrhunderts und ist unter anderem bekannt als Mitbegründer des Sankt Petersburger [[Gunsetschoinei-Dazan]].",
+  "segments": [
+    {
+      "id": "265157496-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Agwan Dorschijew''' (auch Agvan Doržiev, Agvan Dorjiev, Agvan Dorzhiev o. ä., [[Russische Sprache|russisch]] Агван Доржиев, * 1854– 27. Januar 1938) war ein [[Burjaten|burjatischer]] Mönch und Gelehrter der tibetisch-buddhistischen [[Gelug]]-Schule, buddhistischer Reformer und Gesandter des [[13. Dalai Lama]] in Russland und der Sowjetunion.",
+      "plain": null
+    },
+    {
+      "id": "265157496-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Nach einer Kindheit in Burjatien verbrachte er mehr als 20 Jahre in Tibet, zunächst als Mönch in Ausbildung im Kloster, später als engster Mitarbeiter des 13. Dalai Lamas.",
+      "plain": null
+    },
+    {
+      "id": "265157496-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "1905 ging er als dessen Gesandter nach Sankt Petersburg, wo er – mit einigen Unterbrechungen auf Reisen – den Großteil seines restlichen Lebens verbrachte.",
+      "plain": null
+    },
+    {
+      "id": "265157496-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er gilt als eine der einflussreichsten Persönlichkeiten des tibetischen Buddhismus Ende des 19. und Beginn des 20. Jahrhunderts und ist unter anderem bekannt als Mitbegründer des Sankt Petersburger [[Gunsetschoinei-Dazan]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 265157496,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "265157496-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Agwan Dorschijew (auch Agvan Doržiev, Agvan Dorjiev, Agvan Dorzhiev o. ä., russisch Агван Доржиев, * 1854– 27. Januar 1938) war ein burjatischer Mönch und Gelehrter der tibetisch-buddhistischen Gelug-Schule, buddhistischer Reformer und Gesandter des 13. Dalai Lama in Russland und der Sowjetunion.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "265157496-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "265157496-0000"
+        ],
+        "plain": "Nach einer Kindheit in Burjatien verbrachte er mehr als 20 Jahre in Tibet, zunächst als Mönch in Ausbildung im Kloster, später als engster Mitarbeiter des 13. Dalai Lamas.",
+        "context_plain": [
+          "Agwan Dorschijew (auch Agvan Doržiev, Agvan Dorjiev, Agvan Dorzhiev o. ä., russisch Агван Доржиев, * 1854– 27. Januar 1938) war ein burjatischer Mönch und Gelehrter der tibetisch-buddhistischen Gelug-Schule, buddhistischer Reformer und Gesandter des 13. Dalai Lama in Russland und der Sowjetunion."
+        ]
+      },
+      {
+        "segment_id": "265157496-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "265157496-0000",
+          "265157496-0001"
+        ],
+        "plain": "1905 ging er als dessen Gesandter nach Sankt Petersburg, wo er – mit einigen Unterbrechungen auf Reisen – den Großteil seines restlichen Lebens verbrachte.",
+        "context_plain": [
+          "Agwan Dorschijew (auch Agvan Doržiev, Agvan Dorjiev, Agvan Dorzhiev o. ä., russisch Агван Доржиев, * 1854– 27. Januar 1938) war ein burjatischer Mönch und Gelehrter der tibetisch-buddhistischen Gelug-Schule, buddhistischer Reformer und Gesandter des 13. Dalai Lama in Russland und der Sowjetunion.",
+          "Nach einer Kindheit in Burjatien verbrachte er mehr als 20 Jahre in Tibet, zunächst als Mönch in Ausbildung im Kloster, später als engster Mitarbeiter des 13. Dalai Lamas."
+        ]
+      },
+      {
+        "segment_id": "265157496-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "265157496-0000",
+          "265157496-0001",
+          "265157496-0002"
+        ],
+        "plain": "Er gilt als eine der einflussreichsten Persönlichkeiten des tibetischen Buddhismus Ende des 19. und Beginn des 20. Jahrhunderts und ist unter anderem bekannt als Mitbegründer des Sankt Petersburger Gunsetschoinei-Dazan.",
+        "context_plain": [
+          "Agwan Dorschijew (auch Agvan Doržiev, Agvan Dorjiev, Agvan Dorzhiev o. ä., russisch Агван Доржиев, * 1854– 27. Januar 1938) war ein burjatischer Mönch und Gelehrter der tibetisch-buddhistischen Gelug-Schule, buddhistischer Reformer und Gesandter des 13. Dalai Lama in Russland und der Sowjetunion.",
+          "Nach einer Kindheit in Burjatien verbrachte er mehr als 20 Jahre in Tibet, zunächst als Mönch in Ausbildung im Kloster, später als engster Mitarbeiter des 13. Dalai Lamas.",
+          "1905 ging er als dessen Gesandter nach Sankt Petersburg, wo er – mit einigen Unterbrechungen auf Reisen – den Großteil seines restlichen Lebens verbrachte."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

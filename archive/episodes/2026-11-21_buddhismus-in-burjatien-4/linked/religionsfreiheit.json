@@ -1,0 +1,70 @@
+{
+  "title": "Religionsfreiheit",
+  "revid": 271827089,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-02T09:27:12Z",
+  "fetched_at": "2026-11-21T19:52:16Z",
+  "categories": [
+    "Kategorie:Religionsfreiheit",
+    "Kategorie:Wikipedia:Belege fehlen"
+  ],
+  "intro_wikitext": "Die '''Religionsfreiheit''' (auch '''Weltanschauungsfreiheit''') ist ein [[Grundrecht|Grund-]] und [[Menschenrecht]], das jedem Menschen erlaubt, die persönliche individuelle Glaubensüberzeugung in Form einer [[Religion]] oder [[Weltanschauung]] frei und öffentlich auszuüben. Dies umfasst neben der Angehörigkeit zu einer [[Religionsgemeinschaft|Religions-]] oder [[Weltanschauungsgemeinschaft]] auch die [[kult]]ische Handlung entsprechend ihrer normativen Lehre sowie ihre [[Missionierung|aktive Verbreitung]]. Die Religionsfreiheit umfasst auch das Recht, keiner Religion anzugehören, nicht an einen [[Gott]] zu glauben ([[Atheismus]]) oder religiöse Annahmen prinzipiell als unentscheidbar zu bewerten ([[Agnostizismus]]).<ref>{{Literatur |Autor=Renáta Uitz |Titel=Freedom of Religion |Verlag=Council of Europe |Datum=2007-01-01 |ISBN=978-92-871-6201-4 |Online=https://books.google.at/books?hl=en&lr=&id=HZk2XjYmMlgC&oi=fnd&pg=PA9&dq=freedom+of+religion&ots=HtPWUPiQOe&sig=HDA0GT0NnkoT29HZKdWKLmygMxQ&redir_esc=y#v=onepage&q=freedom%20of%20religion&f=false |Abruf=2026-03-26}}</ref>\n\n[[Datei:\"Freedom_of_Religion\"_by_Marlene_Hilton_Moore_(2012),_McMurtry_Gardens_of_Justice,_Toronto,_Ontario,_2025-08-25_02.jpg|mini|\"Religionsfreiheit\" von der kanadischen Künstlerin Marlene Hilton Moore]]",
+  "segments": [
+    {
+      "id": "271827089-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Religionsfreiheit''' (auch '''Weltanschauungsfreiheit''') ist ein [[Grundrecht|Grund-]] und [[Menschenrecht]], das jedem Menschen erlaubt, die persönliche individuelle Glaubensüberzeugung in Form einer [[Religion]] oder [[Weltanschauung]] frei und öffentlich auszuüben.",
+      "plain": null
+    },
+    {
+      "id": "271827089-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dies umfasst neben der Angehörigkeit zu einer [[Religionsgemeinschaft|Religions-]] oder [[Weltanschauungsgemeinschaft]] auch die [[kult]]ische Handlung entsprechend ihrer normativen Lehre sowie ihre [[Missionierung|aktive Verbreitung]].",
+      "plain": null
+    },
+    {
+      "id": "271827089-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Religionsfreiheit umfasst auch das Recht, keiner Religion anzugehören, nicht an einen [[Gott]] zu glauben ([[Atheismus]]) oder religiöse Annahmen prinzipiell als unentscheidbar zu bewerten ([[Agnostizismus]]).<ref>{{Literatur |Autor=Renáta Uitz |Titel=Freedom of Religion |Verlag=Council of Europe |Datum=2007-01-01 |ISBN=978-92-871-6201-4 |Online=https://books.google.at/books?hl=en&lr=&id=HZk2XjYmMlgC&oi=fnd&pg=PA9&dq=freedom+of+religion&ots=HtPWUPiQOe&sig=HDA0GT0NnkoT29HZKdWKLmygMxQ&redir_esc=y#v=onepage&q=freedom%20of%20religion&f=false |Abruf=2026-03-26}}</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271827089,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271827089-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Religionsfreiheit (auch Weltanschauungsfreiheit) ist ein Grund- und Menschenrecht, das jedem Menschen erlaubt, die persönliche individuelle Glaubensüberzeugung in Form einer Religion oder Weltanschauung frei und öffentlich auszuüben.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271827089-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271827089-0000"
+        ],
+        "plain": "Dies umfasst neben der Angehörigkeit zu einer Religions- oder Weltanschauungsgemeinschaft auch die kultische Handlung entsprechend ihrer normativen Lehre sowie ihre aktive Verbreitung.",
+        "context_plain": [
+          "Die Religionsfreiheit (auch Weltanschauungsfreiheit) ist ein Grund- und Menschenrecht, das jedem Menschen erlaubt, die persönliche individuelle Glaubensüberzeugung in Form einer Religion oder Weltanschauung frei und öffentlich auszuüben."
+        ]
+      },
+      {
+        "segment_id": "271827089-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Religionsfreiheit umfasst auch das Recht, keiner Religion anzugehören, nicht an einen Gott zu glauben (Atheismus) oder religiöse Annahmen prinzipiell als unentscheidbar zu bewerten (Agnostizismus).",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

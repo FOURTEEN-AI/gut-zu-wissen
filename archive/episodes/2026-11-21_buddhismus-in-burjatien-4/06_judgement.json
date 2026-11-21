@@ -1,0 +1,792 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Die Rolle des Buddhismus seit dem 17. Jahrhundert unter den mongolischen Burjaten, vor allem östlich des Baikalsees, steht in 0000. Dass die Siedlungsgebiete weitläufiger sind als die heutige Republik Burjatien und auch in Transbaikalien und die Oblast Irkutsk hineinreichen, steht in 0001. Der Einstieg \"Heute geht es um den Buddhismus in Burjatien\" ist eine Überleitung ohne neue Behauptung."
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.55
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion (Neugier) und einer Nachfrage an Lena. Er enthält keine Tatsachenbehauptung und keine faktische Prämisse, sodass keine Fakt-IDs nötig sind."
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: 2009, Khambo Lama Damba Ajuschejew als oberster Geistlicher der Burjaten, Dmitri Medwedew als damaliger Präsident, Reinkarnation der Weißen Tara. Es kommen keine zusätzlichen Angaben hinzu; die Einleitung \"Zum Beispiel diese Geschichte\" ist eine belegfreie Überleitung."
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag ist eine Nachfrage mit Staunen. Die Prämisse, dass ein Präsident als Reinkarnation gilt, folgt aus dem Fakt, dass Medwedew 2009 vom Khambo Lama zur Reinkarnation der Weißen Tara erklärt wurde. Neue unbelegte Behauptungen enthält der Beitrag nicht."
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Der Satz „Die Loyalität zum russischen Staat drückt sich unter anderem darin aus, dass russische Herrscher als Inkarnationen der Weißen Tara anerkannt werden“ entspricht dem Fakt-Satz 272350627-0006. Der einleitende Satz „Das hat mit Loyalität zu tun“ ist eine Überleitung, die das Thema aufgreift und keine neue Information liefert."
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Moment, das klingt nach einer ganz besonderen Verbindung\" ist eine Reaktion (Staunen/Neugier) und \"Wie weit reicht das zurück?\" ist eine Nachfrage ohne eigene Faktenprämisse. Fakt-IDs werden dafür nicht benötigt."
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine Überleitung mit einer Nachfrage und enthält keine Behauptung. Die Frage setzt nur voraus, dass der Buddhismus zu den Burjaten gekommen ist. Das ist keine neue Faktenbehauptung, sondern der Gegenstand der Nachfrage. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Er enthält keine Behauptung und keine faktische Prämisse, die belegt werden müsste, und gilt daher als belegfrei."
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.73
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: 1728 der Versuch, den Einfluss nicht-russischer Buddhisten einzuschränken, das Verbot des Zuzugs von Lamas aus Tibet, die Anordnung der Ausbildung vor Ort im Zarenreich (0025) sowie das Gesetz von 1741 mit Todesstrafe für Kontakt mit ausländischen buddhistischen Geistlichen (0029). Die Auslassung von \"unter den Burjaten\" fügt nichts Neues hinzu."
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen 0031 und 0033: Jahr 1764, Befehl der Zarin Elisabeth, Amt des Khambo Lama als oberster Geistlicher, fortan oberstes religiöses Amt, heute nach der sowjetischen Unterbrechung wieder bedeutend, Ziel der Regierung (Abhängigkeit von tibetisch-buddhistischen Einflüssen abbauen) und die Lage von Tibet und Mongolei im Machtbereich des Qing-China. Es gibt keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag ist eine reine Nachfrage bzw. Bitte um Erklärung. Er enthält keine neue Information und keine Behauptung, die einen Beleg bräuchte. Dass Khambo Lama ein Titel ist, den man erlangen kann, ist nur das Thema der Frage, keine zusätzliche Sachangabe."
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.73
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage mit Bitte um Erklärung und enthält keine neue Information, Wertung oder Zahl. Er greift das Thema Lamas nur wieder auf. Eine eigene Tatsachenbehauptung, die Fakt-Sätze bräuchte, steckt nicht darin."
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.98,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage zur Entwicklung der Lama-Zahl. Er enthält keine Behauptung, keine Meinung und keine faktische Prämisse, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion des Staunens („Wahnsinn!“) und einer Nachfrage („Gab es auch Gegenwind für den Buddhismus?“). Beides ist belegfrei. Die Frage setzt keine Behauptung voraus, die einen Beleg bräuchte, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen stimmen mit den zitierten Fakten überein: die Unterstützung des Buddhismus bis Mitte des 19. Jahrhunderts (0035), die Empfehlung von 1867 und die Ämter für getaufte Burjaten (0044), die dreimal so hohe Zahl der Übertritte 1869–92 gegenüber 1839–68 sowie die mindestens 1500 Konversionen pro Jahr ab 1870 (0053). Es gibt keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Behauptung und ohne neue Information. Solche Reaktionen gelten als belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Behauptung, Meinung oder faktische Prämisse. Er gilt als belegfreie Reaktion, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage bzw. Überleitung ohne eigene Behauptung oder Prämisse mit Faktengehalt. Er ist belegfrei zulässig, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 1.0,
+        "aussage_1": 0.98,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Behauptung. Die Frage setzt keine nicht belegte Tatsache voraus, denn die Mönche wurden bereits im Gespräch erwähnt. Sie gilt als belegfreie Reaktion, deshalb sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "aussage_3": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Alle vier Aussagen entsprechen den zitierten Fakt-Sätzen: ein Fünftel der Mönche für Reformen (0063), Dorschijew als bekannteste Person unter den Reformern, früherer Lehrer und Gesandter des 13. Dalai Lama (0064), Kindheit in Burjatien und mehr als 20 Jahre in Tibet (0001; „zwanzig“ ausgeschrieben ist in Ordnung) sowie Mitbegründer des Sankt Petersburger Gunsetschoinei-Dazan (0003). Es werden keine zusätzlichen Angaben gemacht."
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage und enthält keine Behauptung. Er setzt nur voraus, dass es Reformbemühungen gab, was aus dem vorherigen Gesprächsverlauf kommt und keine neue Information einführt. Als Nachfrage ist er belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.63,
+        "aussage_1": 0.98,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Oktober 1922 und erster burjatisch-buddhistischer Kongress (0065), gewählter Kongress und eingeschränkte Macht der Klosteräbte und des Khambo Lama (0067), Abschaffung der Wiedergeburtsinstitution (0068). Es gibt keine zusätzlichen Angaben; ausgelassene Details wie die Fernöstliche Republik und die tibetischen Begriffe sind unproblematisch."
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.97,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Behauptung, Meinung oder faktische Prämisse. Als Reaktion braucht er keine Fakt-IDs."
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.47
+      },
+      "jev_error": null,
+      "reason": "Alle drei Aussagen folgen aus den Fakt-Sätzen. Fakt 0080 belegt, dass den Burjaten nach dem Zweiten Weltkrieg die Ausübung des Buddhismus zumindest in geringem Maße wieder erlaubt wurde, den Kalmücken und Tuwinern im Gegensatz dazu nicht. Fakt 0030 belegt, dass der Buddhismus unter den Burjaten gleichzeitig als unabhängig von der Mongolei und Tibet deklariert wurde. Es kommen keine zusätzlichen Angaben hinzu."
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Satz 0087 belegt das Vortäuschen der Religionsfreiheit und die Werbung für den staatlichen Sozialismus gegenüber buddhistischen Staaten. Satz 0089 belegt, dass der Khambo Lama Zhambal-Dorzhi Gomboev Auslandsreisen unternehmen und Gäste aus buddhistischen Zentren in Asien empfangen konnte, die allermeisten Bürger dagegen nicht. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 41,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 42,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 43,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Faktenbehauptung. Die Frage setzt nur voraus, dass es Burjaten und Buddhisten gibt, ohne neue Angaben zu machen. Als Reaktion braucht sie keinen Beleg."
+    },
+    {
+      "turn_index": 44,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 45,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 46,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 47,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine neue Behauptung. „Ha, Ringen und Bogenschießen für Mönche!“ ist eine belustigte Reaktion, die das eben Gesagte wieder aufgreift. „Gibt es auch Klöster für Frauen?“ ist eine Nachfrage ohne faktische Prämisse. Fakt-IDs werden dafür nicht gebraucht."
+    },
+    {
+      "turn_index": 48,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 49,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Die Frage enthält keine Behauptung und keine sachliche Prämisse, die belegt werden müsste, und gilt daher als belegfreie Reaktion."
+    },
+    {
+      "turn_index": 50,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.98,
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Ajuschejews Haltung seit den 2000er Jahren (0131), die Unterstützung durch den Kreml und die Unterbindung internationaler Verbindungen (0132) sowie die Bezeichnung der Rückkehrer als indusy mit Erklärung und Anlass der Diskrepanz (0148). Es wird keine zusätzliche Angabe gemacht."
+    },
+    {
+      "turn_index": 51,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.8
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage, die um Erklärung bittet. Die einzige Prämisse, dass Ajuschejew in Bezug auf Regeln eine Rolle spielt, ist keine eigene faktische Behauptung. Sie führt keine neuen Zahlen, Daten oder Namen ein, die nicht aus dem zitierten Fakt folgen, und der Name Ajuschejew stimmt mit dem Fakt überein. Damit gilt der Beitrag als belegfrei und erfüllt die Rubrik."
+    },
+    {
+      "turn_index": 52,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 53,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 54,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 1.0,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 55,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.8
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Behauptung. Die Frage setzt nur voraus, dass es die Burjaten gibt, und enthält keine weitere Prämisse oder Faktenangabe, die belegt werden müsste. Reaktionen dieser Art gelten als belegfrei."
+    },
+    {
+      "turn_index": 56,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen stimmen mit dem zitierten Fakt-Satz überein: die Figur des Sandelholz-Buddhas mit der Legende, die Manuskripte aus dem 17. Jahrhundert (nur zwei weitere Kopien in Lhasa, Ankunft in Burjatien Ende 19./Anfang 20. Jahrhundert) und der unverweste Leichnam des zwölften und letzten Khambo Lama der Zarenzeit, Daschi-Dorscho Itigelow (1852–1927), mit der mehrfachen Exhumierung. Es werden keine zusätzlichen Angaben gemacht."
+    },
+    {
+      "turn_index": 57,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.56
+      },
+      "jev_error": null,
+      "reason": "Felix greift mit „Ein unverwester Leichnam?“ nur das Stichwort aus dem Fakt-Satz wieder auf, den „unverwesten Leichnam“ des Khambo Lama Itigelow. Die Frage „Was weißt du darüber?“ ist eine Nachfrage und eine Bitte um Erklärung. Der Beitrag enthält keine neue Behauptung und keine unbelegte Prämisse, also ist er belegfrei."
+    },
+    {
+      "turn_index": 58,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "aussage_3": 0.99,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen decken sich mit den zitierten Fakten: Amtszeit 1911–1917 und geistliches Oberhaupt der Buddhisten Burjatiens (0000), Bekanntheit durch die Exhumierung 2002 nach 75 Jahren ohne Verwesungserscheinungen (0001), letzte Exhumierung am 11. September 2002 und Verehrung im Glaskasten (0144) sowie nationales Symbol Burjatiens (0002). Es kommen keine zusätzlichen Angaben hinzu."
+    },
+    {
+      "turn_index": 59,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "aussage_2": 0.99,
+        "aussage_3": 0.99,
+        "aussage_4": 0.99,
+        "vollstaendig": 0.75
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den zitierten Fakt-Sätzen: Buddhismus seit dem 17. Jahrhundert (0000), Loyalität und Weiße Tara (0006), Medwedew 2009 (0126), Amt des Khambo Lama 1764 (0031), etwa 10 % in der Sowjetunion und heutige Mehrheit (0155) sowie Itigelows Körper als nationales Symbol (270636852-0002). Es kommt keine zusätzliche Angabe hinzu; die Überleitung \"Dann fasse ich zusammen\" ist eine belegfreie Reaktion."
+    }
+  ],
+  "used_fact_ids": [
+    "272350627-0000",
+    "272350627-0001",
+    "272350627-0126",
+    "272350627-0006",
+    "272350627-0129",
+    "272350627-0128",
+    "272350627-0010",
+    "272350627-0011",
+    "272350627-0018",
+    "272350627-0025",
+    "272350627-0029",
+    "272350627-0031",
+    "272350627-0033",
+    "272350627-0124",
+    "272350627-0034",
+    "272350627-0039",
+    "272350627-0042",
+    "272350627-0043",
+    "272350627-0040",
+    "272350627-0024",
+    "272350627-0035",
+    "272350627-0044",
+    "272350627-0053",
+    "272350627-0045",
+    "272350627-0057",
+    "272350627-0058",
+    "272350627-0059",
+    "272350627-0060",
+    "272350627-0061",
+    "272350627-0063",
+    "272350627-0064",
+    "265157496-0001",
+    "265157496-0003",
+    "272350627-0065",
+    "272350627-0067",
+    "272350627-0068",
+    "272350627-0070",
+    "272350627-0071",
+    "272350627-0072",
+    "272350627-0077",
+    "272350627-0075",
+    "272350627-0080",
+    "272350627-0030",
+    "272350627-0087",
+    "272350627-0089",
+    "272350627-0090",
+    "272350627-0155",
+    "272350627-0156",
+    "272350627-0157",
+    "272350627-0107",
+    "272350627-0103",
+    "272350627-0110",
+    "272350627-0112",
+    "272350627-0102",
+    "272350627-0131",
+    "272350627-0132",
+    "272350627-0148",
+    "272350627-0151",
+    "272350627-0138",
+    "272350627-0136",
+    "272350627-0137",
+    "272350627-0143",
+    "270636852-0000",
+    "270636852-0001",
+    "272350627-0144",
+    "270636852-0002"
+  ],
+  "cascade_checks": [
+    {
+      "conversation": 1,
+      "turn_index": 5,
+      "p": 0.98,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    }
+  ],
+  "conversation": 1,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 4,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 4,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272350627-0126 wurde schon in Redebeitrag 2 und 3 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 5,
+      "version": 0,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 5,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    }
+  ]
+}

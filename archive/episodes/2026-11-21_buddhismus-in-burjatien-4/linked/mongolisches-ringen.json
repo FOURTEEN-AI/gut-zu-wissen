@@ -1,0 +1,56 @@
+{
+  "title": "Mongolisches Ringen",
+  "revid": 267927500,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-06-14T09:00:51Z",
+  "fetched_at": "2026-11-21T19:52:16Z",
+  "categories": [
+    "Kategorie:Feste und Brauchtum (Mongolei)",
+    "Kategorie:Immaterielles Kulturerbe (Volksrepublik China)",
+    "Kategorie:Variante (Ringen)"
+  ],
+  "intro_wikitext": "[[Datei:Mongolian warriors.jpg|miniatur|Ringkampf bei einem Naadam-Fest in der Nähe von [[Ulaanbaatar]].]]\n[[Datei:Mongolian Wrestling.jpg|miniatur|Mongolische Ringer]]\n'''Mongolisches Ringen''' ({{MnS-Cyrl|Бөх|Böch}}, {{MongolUnicode|ᠪᠥᠬᠡ|lang=mn}}) ist eine jahrhundertealte traditionelle Kampfsportart der Männer in der [[Mongolei]] ([[Äußere Mongolei]]) und im nördlichen [[China]] ([[Innere Mongolei]]). Sie zählt neben dem [[Reiten|Pferdereiten]] und [[Bogenschießen]] zu den drei „männlichen Disziplinen“ der Mongolen.",
+  "segments": [
+    {
+      "id": "267927500-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Mongolisches Ringen''' ({{MnS-Cyrl|Бөх|Böch}}, {{MongolUnicode|ᠪᠥᠬᠡ|lang=mn}}) ist eine jahrhundertealte traditionelle Kampfsportart der Männer in der [[Mongolei]] ([[Äußere Mongolei]]) und im nördlichen [[China]] ([[Innere Mongolei]]).",
+      "plain": null
+    },
+    {
+      "id": "267927500-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie zählt neben dem [[Reiten|Pferdereiten]] und [[Bogenschießen]] zu den drei „männlichen Disziplinen“ der Mongolen.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 267927500,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "267927500-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Mongolisches Ringen (mongolisch Бөх Böch, ᠪᠥᠬᠡ) ist eine jahrhundertealte traditionelle Kampfsportart der Männer in der Mongolei (Äußere Mongolei) und im nördlichen China (Innere Mongolei).",
+        "context_plain": []
+      },
+      {
+        "segment_id": "267927500-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "267927500-0000"
+        ],
+        "plain": "Sie zählt neben dem Pferdereiten und Bogenschießen zu den drei „männlichen Disziplinen“ der Mongolen.",
+        "context_plain": [
+          "Mongolisches Ringen (mongolisch Бөх Böch, ᠪᠥᠬᠡ) ist eine jahrhundertealte traditionelle Kampfsportart der Männer in der Mongolei (Äußere Mongolei) und im nördlichen China (Innere Mongolei)."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

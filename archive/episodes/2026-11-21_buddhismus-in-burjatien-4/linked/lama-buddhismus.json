@@ -1,0 +1,37 @@
+{
+  "title": "Lama (Buddhismus)",
+  "revid": 262901123,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-12-31T15:11:00Z",
+  "fetched_at": "2026-11-21T19:52:16Z",
+  "categories": [
+    "Kategorie:Buddhistischer Titel",
+    "Kategorie:Personenbezeichnung (Buddhismus)",
+    "Kategorie:Tibet"
+  ],
+  "intro_wikitext": "'''Lama''' ({{boS|བླ་མ་|WYLIE=bla-ma}}; „Leiter“ oder „Hoher Priester“<ref>[https://www.etymonline.com/word/lama ''lama'']. In: ''Online Etymologie Dictionary''</ref>) ist ein Titel für einen [[tibet]]ischen Lehrer des [[Dharma#Dharma im Buddhismus|Dharma]], verwandt (aber nicht sprachlich verwandt) mit dem [[Sanskrit]]-Ausdruck [[Guru]].<ref>{{Britannica |id=EBchecked/topic/328400/lama |titel=Lama |abruf=2019-08-04}}</ref>",
+  "segments": [
+    {
+      "id": "262901123-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Lama''' ({{boS|བླ་མ་|WYLIE=bla-ma}}; „Leiter“ oder „Hoher Priester“<ref>[https://www.etymonline.com/word/lama ''lama'']. In: ''Online Etymologie Dictionary''</ref>) ist ein Titel für einen [[tibet]]ischen Lehrer des [[Dharma#Dharma im Buddhismus|Dharma]], verwandt (aber nicht sprachlich verwandt) mit dem [[Sanskrit]]-Ausdruck [[Guru]].<ref>{{Britannica |id=EBchecked/topic/328400/lama |titel=Lama |abruf=2019-08-04}}</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 262901123,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "262901123-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Lama (tibetisch བླ་མ་ Wylie bla-ma; „Leiter“ oder „Hoher Priester“) ist ein Titel für einen tibetischen Lehrer des Dharma, verwandt (aber nicht sprachlich verwandt) mit dem Sanskrit-Ausdruck Guru.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}
