@@ -1,12 +1,12 @@
 {
   "episode_id": "2026-11-21_galerie-291",
   "title": "Galerie 291",
-  "status": "failed",
+  "status": "completed",
   "started_at": "2026-11-21T11:26:37Z",
-  "finished_at": "2026-11-21T12:01:59Z",
+  "finished_at": "2026-11-21T16:45:19Z",
   "published_at": null,
   "explicit": false,
-  "failure": "STT verification: section 0 still changes the statement after 2 resyntheses: 'hing dort' heard as 'hindert' („hindert“ statt „hing dort“ ist ein anderes Wort mit anderer Bedeutung; „dort“ fehlt, die Frage ändert den Sinn.); 'Hat' heard as 'Wird' („Wird“ statt „Hat“ ist ein anderes Wort und verändert die Grammatik und Bedeutung der Frage („Wird Stieglitz gezeigt“ statt „Hat Stieglitz gezeigt“).); 'sitzt' heard as 'jetzt' („jetzt“ statt „sitzt“ ist ein anderes Wort mit anderer Bedeutung; klingt deutlich anders.)",
+  "failure": null,
   "usage": {
     "author": {
       "model": "claude-sonnet-5-5",
@@ -18,9 +18,9 @@
     },
     "llm_judge": {
       "model": "claude-sonnet-5-5",
-      "calls": 137,
-      "input_tokens": 69497,
-      "output_tokens": 35687,
+      "calls": 141,
+      "input_tokens": 89261,
+      "output_tokens": 38038,
       "cache_creation_input_tokens": 797,
       "cache_read_input_tokens": 100422
     },
@@ -57,13 +57,20 @@
     },
     "usd": {
       "author": 1.2479,
-      "llm_judge": 0.5079,
+      "llm_judge": 0.5709,
       "jev": 0.0067,
       "extraction": 0.0228,
       "tts": null
     }
   },
-  "failed_step": "audio",
-  "resumed": [],
-  "audio_run_id": null
+  "failed_step": null,
+  "resumed": [
+    {
+      "started_at": "2026-11-21T16:32:01Z",
+      "workflow_run": "44925015366",
+      "previous_finished_at": "2026-11-21T12:01:59Z",
+      "previous_failure": "STT verification: section 0 still changes the statement after 2 resyntheses: 'hing dort' heard as 'hindert' („hindert“ statt „hing dort“ ist ein anderes Wort mit anderer Bedeutung; „dort“ fehlt, die Frage ändert den Sinn.); 'Hat' heard as 'Wird' („Wird“ statt „Hat“ ist ein anderes Wort und verändert die Grammatik und Bedeutung der Frage („Wird Stieglitz gezeigt“ statt „Hat Stieglitz gezeigt“).); 'sitzt' heard as 'jetzt' („jetzt“ statt „sitzt“ ist ein anderes Wort mit anderer Bedeutung; klingt deutlich anders.)"
+    }
+  ],
+  "audio_run_id": "44925015366"
 }
