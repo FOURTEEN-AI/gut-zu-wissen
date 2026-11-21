@@ -307,9 +307,11 @@
       "sampled": true
     }
   ],
-  "status": "pending",
-  "outcome": null,
-  "rate_applied": [],
+  "status": "answered",
+  "outcome": "error",
+  "rate_applied": [
+    "error"
+  ],
   "issue": 12,
   "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/12",
   "explicit": {
@@ -318,10 +320,10 @@
     "verdict": "clean",
     "findings": [],
     "reason": "Das Gespräch über die Galerie 291 bleibt sachlich. Die Bemerkung, Rodins Aquarelle seien „schockierend sexuell“ gewesen (Beitrag 9), ist nur eine knappe, beiläufige Erwähnung ohne drastische Schilderung. Bentons Zitat mit „beknacktes Zeug“ (Beitrag 27) ist ein mildes umgangssprachliches Urteil und kein derber oder vulgärer Ausdruck. Gewalt und Drogen kommen nicht vor.",
-    "label": null,
-    "reviewer_flag": null,
+    "label": "correct",
+    "reviewer_flag": false,
     "note": null,
-    "comment_id": null
+    "comment_id": 7066669443
   },
   "turns": [
     {
@@ -375,9 +377,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Galerie 291 als avantgardistische Kunstgalerie in der Fifth Avenue in New York (0000), Gründung 1905 als Little Galleries of the Photo-Secession durch den US-amerikanischen Fotografen Alfred Stieglitz und den Luxemburger Edward Steichen (0001). Die einleitende Themenankündigung ist eine belegfreie Überleitung. Es gibt keine zusätzlichen Angaben."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 2,
@@ -413,9 +415,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag besteht nur aus Reaktionen. \"Das klingt nach einem aufregenden Ort\" ist ein Gefühl im Moment. Der Eindruck, der Name wirke wie eine bloße Zahl, folgt aus dem Fakt-Satz, in dem die Galerie \"291\" heißt. Die Frage nach einer Geschichte hinter dem Namen ist eine Nachfrage und bringt keine neue Information."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 3,
@@ -451,9 +453,9 @@
         "jev_error": null,
         "reason": "Alle Angaben stehen im Fakt-Satz: Die Hausnummer änderte sich in 293, die Freunde behielten 291 als Galeriename, und die englische Aussprache lautet „two-nine-one“. „Eine kuriose“ ist nur eine wertende Reaktion ohne eigenen Faktengehalt."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 4,
@@ -489,9 +491,9 @@
         "jev_error": null,
         "reason": "Die Aussage „der alte Name ist geblieben“ folgt aus dem Fakt-Satz: Die Freunde nutzten „291“ trotz der neuen Hausnummer 293 weiterhin als Galeriename. „Schön“ ist eine persönliche Wertung ohne zusätzlichen Faktengehalt. Die Frage danach, was an den Wänden hing, ist eine belegfreie Nachfrage ohne neue Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 5,
@@ -527,9 +529,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 6,
@@ -565,9 +567,9 @@
         "jev_error": null,
         "reason": "„Das überrascht mich“ ist eine Reaktion, ein Gefühl im Moment. „Wie bekannt wurde sie denn mit dieser Gestaltung?“ ist eine Nachfrage. Ihre Prämisse, dass Pamela Colman Smith mit einer Gestaltung bekannt wurde, folgt aus dem Fakt-Satz (Gestaltung des Waite-Smith Tarot). Es gibt keine unbelegte zusätzliche Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 7,
@@ -612,9 +614,9 @@
         "jev_error": null,
         "reason": "Die Aussagen, dass ihre Illustrationen des Waite-Smith-Tarot-Decks weltbekannt wurden und dass sie das Deck zusammen mit Arthur Edward Waite entwickelte, stehen im Fakt-Satz. „Sehr bekannt“ ist eine Reaktion bzw. Wiederaufnahme ohne neue Information und deckt sich mit „weltbekannt“."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 9,
@@ -657,9 +659,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus dem Fakt-Satz 271320874-0061: Die Saison 1907/08 begann mit einer Werkschau der Photo-Secessionisten, danach folgte die Ausstellung mit Rodins Aquarellzeichnungen, die spontan und minimalistisch waren und eine für die damalige Zeit schockierend sexuelle Thematik besaßen. Das einleitende \"Ja, das gab es\" ist eine belegfreie Reaktion bzw. Überleitung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 11,
@@ -719,9 +721,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus den Fakt-Sätzen: Der Preis von 200 Dollar pro Werk, der Verkauf nur eines Aquarells, Davies als Käufer der Quelle im Park Château Noir und seine Einordnung als amerikanischer Maler des Symbolismus stehen in [271320874-0119] bzw. [263889385-0000]. Die Überleitung „Schauen wir auf einen Fall“ ist belegfrei."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 12,
@@ -759,9 +761,9 @@
         "jev_error": null,
         "reason": "„Nur ein einziges Aquarell“ greift das Faktum auf (lediglich ein Aquarell verkauft). „Das ist erstaunlich“ ist ein Gefühl im Moment, also belegfrei. Die Frage nach Stieglitz' Umgang mit Käufern ist eine Nachfrage ohne Behauptung und braucht keinen Beleg."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 13,
@@ -799,9 +801,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag gibt den Fakt-Satz nur umformuliert wieder: Wenn Stieglitz bemerkte, dass jemand ein Kunstwerk wie ein Konsumgut behandelte, verlangte er plötzlich den doppelten Preis. Der Einstieg \"Er hatte da eine eigene Methode\" ist eine Überleitung bzw. leichte Wertung ohne neue Information und gilt hier als unproblematisch. Es kommen keine zusätzlichen Angaben hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 15,
@@ -852,9 +854,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen direkt aus den zitierten Fakten: Datum, Stieglitz, die erste Skulpturen-Ausstellung von Matisse, La Serpentine (1909) und deren Einordnung stehen in 0161; die Schwierigkeiten der Kritiker und das Fehlen früherer New Yorker Ausstellungen von Cézanne, van Gogh und Gauguin stehen in 0075. Das „allerdings“ ist nur eine Überleitung und fügt keine neue Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 17,
@@ -890,9 +892,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 18,
@@ -928,9 +930,9 @@
         "jev_error": null,
         "reason": "Der Beitrag besteht nur aus Reaktionen: Belustigung, ein Wiederaufgreifen des Wespennests aus dem Fakt-Satz ohne neue Information und eine Nachfrage nach der Bedeutung von Reliquien. Die Formulierung „Kunstgalerie“ für die Ausstellung fügt keine nennenswerte neue Behauptung hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 19,
@@ -973,9 +975,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 21,
@@ -1020,9 +1022,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 22,
@@ -1060,9 +1062,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag ist eine reine Nachfrage, ob es Äußerungen über Picasso von Steichen oder Stieglitz aus jener Zeit gibt. Er stellt keine Behauptung auf und enthält keine Prämisse, die über die Fakt-Sätze hinausgeht. Als Nachfrage gilt er als belegfrei."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 23,
@@ -1100,9 +1102,9 @@
         "jev_error": null,
         "reason": "Lena gibt das Zitat aus dem Fakt-Satz [271320874-0060] praktisch wörtlich wieder. Die Abweichungen sind nur Formulierung und Zeichensetzung („etc.“ als „und so weiter“, „Wie auch immer“). Sie fügt keine neue Angabe hinzu. Dass das Zitat von Steichen stammt, behauptet sie nicht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 25,
@@ -1147,9 +1149,9 @@
         "jev_error": null,
         "reason": "Das Brock-Zitat und die Aussage, dass der Mangel an Fotografien das Verständnis der Picasso-Installation von 1911 erschwert, stehen wörtlich in [271320874-0134]. Die Einleitung „Gerade das ist unklar“ ist ein Wiederaufgreifen des eben Gesagten ohne neue Information und braucht keinen Beleg."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 26,
@@ -1185,9 +1187,9 @@
         "jev_error": null,
         "reason": "Der Beitrag enthält nur eine Reaktion (Bedauern über ein Rätsel) und eine Nachfrage, ob sich jemand über die 291 geäußert hat. Die einzige Prämisse ist, dass es die 291 gibt, und das deckt der Fakt-Satz zur Galerie 291 ab. Neue Behauptungen kommen nicht vor."
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "not_supported",
+      "note": "Prämisse „scharf“ nimmt Bentons Urteil vorweg",
+      "comment_id": 7066669443
     },
     {
       "turn_index": 27,
@@ -1223,9 +1225,9 @@
         "jev_error": null,
         "reason": "Lenas Redebeitrag gibt das Zitat von Benton über die 291 inhaltlich und wörtlich korrekt wieder; die Auslassung „[…]“ ist nur als Satzgrenze gesetzt. Es werden keine zusätzlichen Angaben gemacht. Das einleitende „Ja, Benton.“ ist eine belegfreie Bestätigung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 28,
@@ -1261,9 +1263,9 @@
         "jev_error": null,
         "reason": "Die einzige Tatsachenbehauptung, die 291 sei eine Kunstgalerie gewesen, folgt direkt aus dem Fakt-Satz 271320874-0000. „Autsch, das sitzt!“ ist eine Reaktion, der Rest sind Nachfragen und Bitten um Erklärung und damit belegfrei."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 29,
@@ -1315,9 +1317,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag gibt den Fakt-Satz [271320874-0258] inhaltlich korrekt wieder: Die Formulierung „unter dem Blickpunkt der Kunst“ hatte besondere Bedeutung, weil Artefakte aus Afrika bis dahin ausschließlich ethnografisch und naturwissenschaftlich behandelt wurden, nicht als Volkskunst bzw. eigenständige Kunstform. Es werden keine zusätzlichen Angaben gemacht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 30,
@@ -1355,9 +1357,9 @@
         "jev_error": null,
         "reason": "Felix' Beitrag enthält nur Reaktionen: \"Interessant, da ging es also um eine ganz andere Sichtweise!\" ist ein Moment-Gefühl bzw. ein Wiederaufgreifen des eben Gesagten. Dass Lena Volkskunst erwähnt hat, ist ein Rückbezug aufs Gespräch und deckt sich mit dem Fakt-Satz, der Volkskunst nennt. Die Frage nach der Bedeutung von Volkskunst ist eine Bitte um Erklärung. Neue Behauptungen enthält der Beitrag nicht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 31,
@@ -1407,9 +1409,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 33,
@@ -1445,9 +1447,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 34,
@@ -1498,9 +1500,9 @@
         "jev_error": null,
         "reason": "Die Aussage, Gabun sei eine französische Kolonie gewesen, folgt aus [271846515-0029] (ab etwa 1839); die Wertung \"gibt dem Ganzen einen Rahmen\" ist eine belegfreie Reaktion. Die Prämisse der Frage, dass Benton ein scharfes Urteil über die 291 fällte, ist durch [271320874-0406] gedeckt. Der Rest ist eine Nachfrage ohne neue Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 35,
@@ -1538,9 +1540,9 @@
         "jev_error": null,
         "reason": "Lena zitiert den Satz aus [271320874-0272] wörtlich: „Diese rohen Schnitzereien gehören zu den schwarzen Vertiefungen des Dschungels.“ Die einleitende Wendung „Ja, da gibt es diesen Satz“ ist eine belegfreie Reaktion. Es kommt keine zusätzliche Behauptung hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 37,
@@ -1590,9 +1592,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen (Differenzen zwischen Stieglitz und Brâncuși, Arrangement mit Walter Pach, Gewinn direkt an Brâncuși, keine Kommission für Stieglitz) stehen im Fakt-Satz 271320874-0248. Das einleitende „Ja, mit Brâncuși“ ist eine Bestätigung ohne neue Information."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 38,
@@ -1628,9 +1630,9 @@
         "jev_error": null,
         "reason": "Der Beitrag enthält nur belegfreie Reaktionen und eine Nachfrage. „Da ging dem Galeristen etwas durch die Lappen“ greift das Gesagte wieder auf und folgt aus dem Faktsatz: Stieglitz konnte keine Kommission nehmen. Die Bemerkung, das Wort „Kommission“ klinge nach Handel, ist ein Eindruck des Sprechers. Die Frage nach einer Erklärung ist eine Bitte um Erklärung. Neue, unbelegte Behauptungen kommen nicht vor."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 39,
@@ -1680,9 +1682,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus dem Fakt-Satz 240794847-0000: Kommissionär als Kaufmann, der gewerbsmäßig Kommissionsgüter kauft oder verkauft, im eigenen Namen, auf fremde Rechnung, gegen Provision, sowie die Herkunft von lateinisch committere mit der Bedeutung „zusammenbringen, vereinigen“. Es werden keine zusätzlichen Angaben gemacht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 41,
@@ -1727,9 +1729,9 @@
         "jev_error": null,
         "reason": "Die Aussagen, dass von Progigal Son nur Fotografien existieren und Brâncuși die Figur nach ihrer Rückkehr in Paris zerstörte, stehen im Fakt-Satz. „Nein, nicht alle.“ ist eine belegfreie Reaktion bzw. Überleitung. Es kommen keine zusätzlichen Angaben hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 43,
@@ -1781,9 +1783,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Hartley lernte die indianischen Artefakte im Pariser Trocadéro (heute Palais de Chaillot) und im Berliner Museum für Völkerkunde kennen, und sie bewirkten sein nachhaltiges Interesse für die indianische Kultur. Die Formulierung \"auch im Berliner Museum gesehen\" ist eine zulässige Umformulierung, und es kommt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 44,
@@ -1819,9 +1821,9 @@
         "jev_error": null,
         "reason": "„Das überrascht mich!“ ist eine belegfreie Reaktion. Die Frage nach abstrakter Malerei in der 291 setzt nur voraus, dass die 291 eine Galerie war, in der Kunst gezeigt wurde. Das folgt aus dem Fakt-Satz, der sie als avantgardistische Kunstgalerie beschreibt. Neue Behauptungen enthält der Beitrag nicht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 45,
@@ -1866,9 +1868,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen (Titel Ten Commandments / Die zehn Gebote, Stieglitz zeigte eine Serie von Pastellmalereien von Dove, gelten als erste nicht gegenständliche Werke eines amerikanischen Künstlers) folgen direkt aus dem Fakt-Satz 271320874-0154. Das einleitende \"Ja, die gab es\" ist eine Reaktion ohne eigene Information."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 46,
@@ -1906,9 +1908,9 @@
         "jev_error": null,
         "reason": "Felix' Beitrag ist eine Reaktion: Er findet den Begriff „Pastellmalereien“ schön (Gefühl im Moment) und fragt nach einer Erklärung der Technik. Er stellt keine neuen Behauptungen auf, und die Frage setzt nur voraus, dass es Pastellmalereien gibt, was im Fakt-Satz steht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 47,
@@ -1951,9 +1953,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 49,
@@ -2005,9 +2007,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen folgen aus dem Fakt-Satz: Picabia porträtierte de Zayas, Haviland und Stieglitz als Maschinen, Stieglitz' Konterfei wurde zur Kamera-Konstruktion, der Zusatz lautete \"Ici, c'est ici Stieglitz / foi et amour\", und die deutsche Übersetzung stimmt mit der Klammer überein. Das einleitende \"Ja, von Picabia\" ist eine Reaktion bzw. ein Wiederaufgreifen ohne neue Information."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 50,
@@ -2045,9 +2047,9 @@
         "jev_error": null,
         "reason": "Felix' Aussage \"Stieglitz als Kamera\" ist durch den Fakt-Satz gedeckt: Picabia porträtierte Stieglitz als Kamera-Konstruktion. \"Das ist wirklich witzig\" ist ein Gefühl im Moment, also belegfrei. Die Frage nach dem Zeitpunkt der Bilder ist eine Nachfrage ohne neue Behauptung. Die Prämisse, dass Picabia diese Bilder gemalt hat, folgt aus dem Fakt-Satz."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 51,
@@ -2085,9 +2087,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag gibt den Fakt-Satz [271320874-0208] wörtlich wieder und fügt keine zusätzliche Angabe hinzu."
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "not_supported",
+      "note": "Gleichsetzung „die Bilder“ mit den Kamera-Porträts nicht durch Fakt-Sätze gedeckt",
+      "comment_id": 7066669443
     },
     {
       "turn_index": 53,
@@ -2125,9 +2127,9 @@
         "jev_error": null,
         "reason": "Lenas Aussage, dass es schließlich gelang, Duchamp zu überzeugen, das Urinal in der 291 auszustellen, entspricht dem Fakt-Satz. Das Pronomen „ihm“ wird nur zu einem Namen aufgelöst, den der Redebeitrag nicht belegen muss, und es kommt keine zusätzliche Angabe hinzu. Das einleitende „Duchamp.“ ist ein Wiederaufgreifen ohne neue Information."
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "not_supported",
+      "note": "hängender Bezug: Subjekt und „das Urinal“ nicht eingeführt",
+      "comment_id": 7066669443
     },
     {
       "turn_index": 54,
@@ -2163,9 +2165,9 @@
         "jev_error": null,
         "reason": "Felix' Redebeitrag besteht aus einer Reaktion (\"Das überrascht mich!\") und einer Nachfrage. Die einzige Prämisse der Frage, dass die Galerie in der Fifth Avenue lag, folgt direkt aus dem Fakt-Satz 271320874-0000. Neue Behauptungen enthält der Beitrag nicht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 55,
@@ -2212,9 +2214,9 @@
         "jev_error": null,
         "reason": "Alle Behauptungen (Georgia O’Keeffe als Beispiel, Entscheidung im Mai 1916, einige ihrer Zeichnungen in der Galerie auszustellen, ohne O’Keeffe vorher zu informieren) folgen direkt aus dem Fakt-Satz. „Ja, zum Beispiel“ ist eine belegfreie Überleitung. Es wird keine zusätzliche Angabe gemacht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 56,
@@ -2254,9 +2256,9 @@
         "jev_error": null,
         "reason": "Die Aussage \"Ohne ihr Bescheid zu sagen\" folgt aus dem Fakt, dass er die Zeichnungen ausstellte, ohne O'Keeffe zu informieren. Der Ausruf \"das ist ja ein Ding!\" ist eine Reaktion (Staunen), und die Frage nach damaligen Schriften über die Zeichnungen ist eine Nachfrage ohne zusätzliche Behauptung."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 57,
@@ -2292,9 +2294,9 @@
         "jev_error": null,
         "reason": "Das Zitat und die Jahreszahl 1916 stimmen mit dem Fakt-Satz 271320874-0354 überein. Lena fügt keine weitere Angabe hinzu, und das einleitende „Ja“ ist eine belegfreie Reaktion."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 58,
@@ -2330,9 +2332,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag besteht aus Reaktionen: „Hm, interessant, ein psychoanalytischer Aspekt“ greift das Zitat aus [271320874-0354] ohne neue Information wieder auf, und die Frage nach dem Bekanntheitsgrad von Miss O’Keeffe ist eine Nachfrage. Ihre Prämisse, dass es eine Miss O’Keeffe gab, deckt das Zitat. Es kommt keine unbelegte Behauptung vor."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 59,
@@ -2377,9 +2379,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 60,
@@ -2415,9 +2417,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag besteht aus einer Reaktion (\"Wow!\") und einer Nachfrage zum Ausgang der Geschichte der Galerie. Er enthält keine neue Behauptung und keine Prämisse, die über die Fakt-Sätze hinausgeht; dass es eine Galerie gibt, folgt aus dem zitierten Fakt."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 61,
@@ -2467,9 +2469,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     },
     {
       "turn_index": 63,
@@ -2644,10 +2646,20 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus den zitierten Fakt-Sätzen: Gründung 1905 durch Stieglitz und Steichen, Matisse-Skulpturen, Doves Pastelle, die Bedeutung der Formulierung „unter dem Blickpunkt der Kunst“, die Differenz mit Brâncuși und Pach, Picabias Kamera-Konstruktion, O’Keeffe im Mai 1916 sowie die Schließung im Juni 1917 und die Finanzierung aus dem Vermögen der ersten Ehefrau. „Gern.“ ist eine belegfreie Reaktion. Es kommen keine zusätzlichen Angaben hinzu."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7066669443
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "comment_id": 7066669443,
+      "url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/12#issuecomment-7066669443",
+      "created_at": "2026-11-21T17:41:18Z",
+      "updated_at": "2026-11-21T17:41:18Z",
+      "review_lines": 51,
+      "applied": true,
+      "errors": []
+    }
+  ]
 }
