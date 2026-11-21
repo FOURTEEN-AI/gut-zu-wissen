@@ -31,3 +31,10 @@ Stand: 2026-11-21, alle Annahmen vom Owner bestätigt. Gebaut nach deiner Vorgab
 - **Kosten und Eskalationen:** Mehr Ablehnungen bedeuten mehr Neugenerierungen und Kaskaden (D1). Wie viel mehr, zeigt `python -m gut_zu_wissen.metrics` nach den nächsten Läufen.
 - **Veröffentlichte Folgen:** #8 (Antikythera) und #15 (Galerie 291) enthalten die Fehler weiterhin. Korrekturen habe ich nicht angefasst.
 - **#14 und #16:** Das sind Review-Issues ohne deine Labels. Die gezogenen Beiträge kann nur `ajFourteen` labeln.
+
+## Erster Testlauf (2026-11-21, Kölner Dom, Lauf 44945018484)
+
+- **Ergebnis:** abgebrochen, Gesprächsbudget aufgebraucht (3 Gespräche). LLM-Judge lehnte 23 von 143 Beiträgen ab; frühere Läufe 0–6 %.
+- **Ursache:** Die neuen Regeln griffen zu weit. Offene Überleitungsfragen („Gibt es im Inneren etwas Ungewöhnliches?“) galten als Vorwegnahme; „der Dom“ galt als ungeklärter Bezug, weil der Judge den Artikeltitel nicht sah.
+- **Nachschärfung (#22):** Die Judge-Eingabe nennt den Artikel jedes Fakts. Eindeutig ist ein Gegenstand, den der Redebeitrag oder der vorherige Beitrag nennt, und das Thema des Artikels. Eine Frage ist nur dann Prämisse, wenn sie eine bestimmte Einzelheit, Wertung oder Vermutung vorwegnimmt oder eine nicht gesagte Tatsache voraussetzt.
+- **Weiter offen:** Das Wiederholungs-Gate (Fakt doppelt erzählt) verbrauchte in Gespräch 1 und 2 das Gate-Budget; das ist älter als diese Änderung.
