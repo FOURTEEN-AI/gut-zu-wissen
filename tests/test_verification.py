@@ -1,5 +1,6 @@
 import pytest
 
+from gut_zu_wissen.stt import Word
 from gut_zu_wissen.verification import (
     DECISION_PROMPT,
     DECISION_SCHEMA,
@@ -9,12 +10,18 @@ from gut_zu_wissen.verification import (
     apply_decisions,
     cardinal,
     changes_statement,
+    counts,
     decade,
     decide_deviations,
     diff,
     format_decision_input,
+    heard_again_matches,
+    hearing_window,
     ordinal,
+    overlaps,
     retry_action,
+    script_times,
+    token_times,
     tokenize,
 )
 
@@ -250,3 +257,59 @@ def test_decision_prompt_treats_near_homophones_of_names_as_stt_errors():
     assert "„Indianer“ statt „Indiana“" in DECISION_PROMPT
     assert "Das gilt nur bei fast gleichem Klang" in DECISION_PROMPT
     assert "Im Zweifel gilt die Aussage als verändert." in DECISION_PROMPT
+
+
+# ---------------------------------------------------------------- second hearing
+
+
+def words(text: str, step: float = 1.0) -> list[Word]:
+    return [Word(w, n * step, n * step + 0.5) for n, w in enumerate(text.split())]
+
+
+def test_deviation_carries_its_word_positions():
+    (d,) = diff("Es waren neun Leute da.", "Es waren zehn Leute da.", 2)
+    assert (d.script_start, d.script_end, d.heard_start, d.heard_end) == (2, 3, 2, 3)
+
+
+def test_token_times_follow_the_whisper_words_and_skip_lexicon_changes():
+    heard = tokenize("Hallo Lena, 1889 kam er.")  # canonicalised: Whisper wrote "Lina"
+    times = token_times(heard, words("Hallo Lina, achtzehnhundertneunundachtzig kam er."))
+    assert times == [(0, 0.5), None, (2, 2.5), (3, 3.5), (4, 4.5)]
+
+
+def test_script_times_only_for_words_heard_unchanged():
+    expected, heard = tokenize("Es waren neun Leute"), tokenize("Es waren zehn Leute")
+    heard_times = [(0, 0.5), (1, 1.5), (2, 2.5), (3, 3.5)]
+    assert script_times(expected, heard, heard_times) == [(0, 0.5), (1, 1.5), None, (3, 3.5)]
+
+
+def test_hearing_window_reaches_context_words_and_the_next_timed_word():
+    times = [(0, 0.5), (1, 1.5), None, (3, 3.5), (4, 4.5), None, (6, 6.5), (7, 7.5)]
+    # deviation at word 4, one context word: words 3..5, word 5 has no time, so up to word 6
+    assert hearing_window(times, 4, 5, 1, 9.0, 0.2) == (3, 7, 2.8, 6.7)
+    # at the start and the end, the window goes to the edge of the audio
+    assert hearing_window(times, 0, 1, 1, 9.0, 0.2) == (0, 2, 0.0, 1.7)
+    assert hearing_window(times, 7, 8, 1, 9.0, 0.2) == (6, 8, 5.8, 9.0)
+
+
+def test_overlap_of_replacements_and_insertions():
+    d = Deviation(0, "neun", "zehn", "", "", script_start=2, script_end=3)
+    assert overlaps(d, 2, 3) and not overlaps(d, 3, 4) and not overlaps(d, 0, 2)
+    insertion = Deviation(0, "", "äh", "", "", script_start=2, script_end=2)
+    assert overlaps(insertion, 2, 3) and overlaps(insertion, 1, 2) and not overlaps(insertion, 3, 4)
+
+
+def test_second_hearing_matches_when_the_place_is_heard_as_written():
+    (d,) = diff("Was hing dort an den Wänden?", "Was hindert an den Wänden?", 2)
+    window = tokenize("Was hing dort an den Wänden")
+    assert heard_again_matches(window, tokenize("Was hing dort an den"), 0, d)  # edge cut off
+    assert not heard_again_matches(window, tokenize("Was hindert an den Wänden"), 0, d)
+
+
+def test_a_deviation_cleared_by_the_second_hearing_does_not_count():
+    d = Deviation(0, "a", "b", "", "", changes_statement=True)
+    assert counts(d)
+    d.heard_again_matches = False
+    assert counts(d)
+    d.heard_again_matches = True
+    assert not counts(d) and not changes_statement([d])
