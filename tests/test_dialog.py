@@ -442,6 +442,13 @@ def test_write_dialog_records_repetition_problems_in_turn_order():
         "Schlussfolgerungen sind keine Reaktion",
         "Lena stellt keine Vergleiche oder Gegensätze her",
         "Das Statement eines Redebeitrags gibt den Fakt-Satz wieder",
+        # (k) references, answers and open questions (issues #8, #15)
+        "Nennt ein Fakt-Satz seinen Gegenstand oder eine beteiligte Person nur mit einem "
+        "Bezugswort",
+        "Dieser Name ist die einzige Ausnahme von der Regel davor",
+        "Beantwortet Lena eine Frage, handelt der zitierte Fakt-Satz vom Gegenstand der Frage.",
+        "Seine Fragen legen keine Antwort nahe",
+        "„War die Kritik vielleicht sogar ziemlich scharf?“",
         # (h) Felix may use the definition sentence as a premise more often (user, 2026-11-20)
         "Den ersten Einordnungssatz darf Felix öfter als Prämisse einer Frage verwenden; erzählt "
         "wird er nur einmal.",

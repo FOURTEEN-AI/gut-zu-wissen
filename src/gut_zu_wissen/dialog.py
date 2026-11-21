@@ -66,6 +66,19 @@ eigene Einträge in „statements“ an, jeweils mit dem Satz in eigenen Worten 
 Fakten, die ihn tragen. Eine Aussage, die nur im Kontext steht, ist nicht belegt.
 - Sage nur, was der zitierte Fakt-Satz selbst sagt. Kontextsätze dienen nur dem Verständnis; \
 was nur im Kontext steht, sprichst du nie aus.
+- Zuhörer beziehen jeden Satz auf das, was gerade gesagt wurde. Nennt ein Fakt-Satz seinen \
+Gegenstand oder eine beteiligte Person nur mit einem Bezugswort, etwa „dieses Instrument“, „er“, \
+„ihm“, „dort“ oder „die Bilder“, dann nennst du sie im Redebeitrag mit Namen, so wie der Kontext \
+sie bestimmt, außer der Satz direkt davor nennt sie schon eindeutig. Dieser Name ist die \
+einzige Ausnahme von der Regel davor; sonst nimmst du nichts aus dem Kontext. Abgelehnt wird \
+etwa Lena: „Es war rund hundertfünfzig Jahre älter als der Mechanismus.“ nach einer Frage zum \
+Getriebe, wenn „Dieses Instrument“ im Fakt-Satz eine Sphäre meint.
+- Beantwortet Lena eine Frage, handelt der zitierte Fakt-Satz vom Gegenstand der Frage. Passt \
+kein Fakt zur Frage, stellt Felix eine andere Frage. Lena verbindet zwei Fakten nicht so, dass \
+eine Beziehung entsteht, die keiner der Fakt-Sätze nennt.
+- Felix weiß nicht, was Lena gleich erzählt. Seine Fragen legen keine Antwort nahe: keine \
+Wertwörter, Vermutungen oder Einzelheiten, die erst in Lenas Antwort stehen. Abgelehnt wird etwa \
+Felix: „War die Kritik vielleicht sogar ziemlich scharf?“, wenn erst Lenas Fakt die Schärfe nennt.
 - „fact_ids“ eines Redebeitrags enthält alle Kennungen, die in ihm vorkommen.
 - Erfinde keine Kennungen. Verwende nur Kennungen aus der Liste, ohne Klammern, etwa „F7“.
 - Beide Personen machen keine Aussagen über sich selbst: keine Erlebnisse, keine Biografie, \
