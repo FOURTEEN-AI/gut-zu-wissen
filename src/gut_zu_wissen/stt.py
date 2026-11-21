@@ -16,12 +16,16 @@ use fakes; nothing here downloads a model unless `transcribe` is called on a rea
 
 from __future__ import annotations
 
+import logging
+import time
 from collections.abc import Callable, Mapping
 from dataclasses import dataclass, field
 from typing import Any, Protocol
 
 import numpy as np
 from scipy.signal import resample_poly
+
+log = logging.getLogger(__name__)
 
 # Whisper's input format: a property of the model, not a setting.
 WHISPER_RATE_HZ = 16_000
@@ -90,11 +94,17 @@ class WhisperStt:
     def transcribe(self, y: np.ndarray, sr: int) -> Transcript:
         s = self._settings
         if self._model is None:
+            log.info("STT: loading model %s", self._name)
+            start = time.monotonic()
             try:
                 self._model = self._load(self._name, s["compute_type"], s["cpu_threads"])
             except Exception as exc:  # download, disk, unknown model name
                 raise SttError(f"Whisper model '{self._name}' could not be loaded: {exc}") from exc
+            log.info("STT: model loaded in %.1f s", time.monotonic() - start)
         samples = to_whisper_rate(y, sr)
+        audio_seconds = len(samples) / WHISPER_RATE_HZ
+        log.info("STT: transcribing %.0f s of audio", audio_seconds)
+        start = time.monotonic()
         try:
             segments, _ = self._model.transcribe(
                 samples,
@@ -111,6 +121,12 @@ class WhisperStt:
                 for w in (getattr(seg, "words", None) or [])
                 if w.word.strip()
             ]
+            log.info(
+                "STT: transcribed %.0f s of audio in %.1f s (%d words)",
+                audio_seconds,
+                time.monotonic() - start,
+                len(words),
+            )
             return Transcript(join_segments([seg.text for seg in segments]), words)
         except Exception as exc:
             raise SttError(f"Whisper transcription failed: {exc}") from exc
