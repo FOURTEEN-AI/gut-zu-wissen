@@ -704,6 +704,40 @@ def test_too_few_used_facts_after_author_triggers_conversation_regeneration():
     assert run.offers == [frozenset(), frozenset()]  # nothing was rejected, nothing excluded
 
 
+def run_with_must_use(author, jev, must_use: set[str], n_facts=2):
+    """Like `run`, but every offer marks `must_use` facts as D8 top facts."""
+    config = {**CONFIG, "quotas": {**CONFIG["quotas"], "min_used_facts": 1}}
+    state = Orchestration()
+    seen: list[frozenset[str]] = []
+
+    def make(excluded: frozenset[str]) -> Offer:
+        seen.append(excluded)
+        facts = [rf(i) for i in range(n_facts) if f"1-{i:04d}" not in excluded]
+        return Offer(facts, [], [], frozenset(), frozenset(must_use) - excluded)
+
+    orchestrate(state, make, author, FakeJudgeLlm(), jev, config)
+    return state, seen
+
+
+def test_missing_top_fact_after_author_triggers_conversation_regeneration():
+    author = FakeAuthor([dialog_json("Eins.", fact="1-0000"), two_fact_turns("Zwei.")])
+    state, seen = run_with_must_use(author, FakeJev(), {"1-0001"})
+    assert "D8" in state.discarded[0].reason
+    assert len(seen) == 2
+    assert state.used_fact_ids == ["1-0000", "1-0001"]
+
+
+def test_top_fact_rejected_in_this_conversation_is_not_required_at_the_final_gate():
+    # The turn citing the top fact 1-0001 is rejected; its replacement uses 1-0000 only (D8
+    # exempts facts cited by rejected statements).
+    author = FakeAuthor(
+        [two_fact_turns("Falsch.")],
+        [turn_json("Lena", "Okay.", "1-0000"), turn_json("Felix", "Echt?", None)],
+    )
+    state, _ = run_with_must_use(author, FakeJev(bad={"Falsch."}, cascade=[0.99]), {"1-0001"})
+    assert state.used_fact_ids == ["1-0000"]
+
+
 def two_fact_turns(first: str) -> dict:
     """Turn 0 cites both facts, turn 1 is a reaction without facts."""
     both = ["1-0000", "1-0001"]
@@ -920,6 +954,12 @@ def test_continuation_offer_drops_excluded_facts_but_keeps_prefix_and_pinned_one
     assert [r.fact.segment_id for r in kept.einordnung] == ["1-0000"]  # pinned
     assert [r.fact.segment_id for r in kept.main] == ["1-0001", "1-0003"]  # prefix cites 1-0001
     assert kept.linked == [] and kept.pinned == offer.pinned
+
+
+def test_continuation_offer_keeps_only_must_use_facts_that_remain():
+    offer = Offer([rf(1), rf(2), rf(3)], [], [], frozenset(), frozenset({"1-0001", "1-0002"}))
+    kept = continuation_offer(offer, {"1-0002"}, [])
+    assert kept.must_use == frozenset({"1-0001"})
 
 
 def test_discarded_tail_holds_turns_from_k_with_their_problems():

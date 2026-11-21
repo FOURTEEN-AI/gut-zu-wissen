@@ -9,6 +9,7 @@ the conversation regeneration (D6): facts cited by rejected statements are left 
 
 from __future__ import annotations
 
+import math
 import re
 from collections.abc import Collection, Iterable, Mapping, Sequence
 from dataclasses import asdict, dataclass
@@ -29,12 +30,12 @@ Du bekommst Fakten aus einem Wikipedia-Artikel, jeweils mit einer ID in eckigen 
 gegebenenfalls einem Kontext, der nur zum Verstehen dient. Wähle die überraschendsten Fakten für \
 einen Podcast aus und ordne sie nach Überraschung: der überraschendste zuerst.
 
-Wähle mindestens {minimum} Fakten, wenn es so viele gibt, und höchstens {maximum}. Gehe über \
-{minimum} nur mit Fakten hinaus, die wirklich überraschend sind und keine Dopplungen.
+Gib die {maximum} überraschendsten Fakten zurück, wenn es so viele gibt; lass die am wenigsten \
+überraschenden und die Dopplungen weg. Mindestens {minimum} Fakten, wenn es so viele gibt.
 
 Das einzige Kriterium ist Überraschung: etwas, das ein Laie nicht erwartet. Wähle nicht zwei \
-Fakten, die im Kern dasselbe sagen; nimm dann den überraschenderen. Gibt es weniger als {minimum} \
-Fakten, die du für überraschend hältst, gib entsprechend weniger zurück.
+Fakten, die im Kern dasselbe sagen; nimm dann den überraschenderen. Die Reihenfolge ist wichtig: \
+die obersten Fakten muss das Gespräch verwenden.
 
 Antworte mit JSON im vorgegebenen Schema. Verwende nur IDs aus der Liste, jede höchstens einmal."""
 
@@ -132,6 +133,18 @@ def link_targets(raw_texts: Iterable[str], own_title: str = "") -> list[str]:
 def bound_targets(targets: Sequence[str], maximum: int) -> tuple[list[str], list[str]]:
     """The first `maximum` link targets (those of the most surprising facts) and the rest."""
     return list(targets[:maximum]), list(targets[maximum:])
+
+
+def offer_size(extracted: int, share: float, minimum: int) -> int:
+    """D8: size of the main offer: `share` of the extracted facts, rounded up, at least `minimum`,
+    never more than extracted."""
+    return min(extracted, max(minimum, math.ceil(extracted * share)))
+
+
+def must_use_count(extracted: int, share: float) -> int:
+    """D8: number of top-ranked facts the dialog must use: `share` of the extracted facts, rounded
+    up, 0 when there are none."""
+    return math.ceil(extracted * share) if extracted else 0
 
 
 def offer_count(offered: int, minimum: int, maximum: int) -> dict:

@@ -8,8 +8,10 @@ from gut_zu_wissen.ranking import (
     bound_targets,
     format_facts,
     link_targets,
+    must_use_count,
     offer_count,
     offer_gate,
+    offer_size,
     offer_summary,
     rank_facts,
     rank_linked_facts,
@@ -52,7 +54,8 @@ def test_rank_facts_sends_plain_text_and_context_and_range():
     out = rank_facts(llm, [fact(0), fact(1, ["Davor."])], 2, 3)
     assert [f.segment_id for f in out] == ["1-0001", "1-0000"]
     system, user = llm.calls[0]
-    assert "mindestens 2 Fakten, wenn es so viele gibt, und höchstens 3" in system
+    assert "Gib die 3 überraschendsten Fakten zurück" in system
+    assert "Mindestens 2 Fakten" in system
     assert user == "[1-0000] Fakt 0.\n[1-0001] Fakt 1.\n  Kontext: Davor."
 
 
@@ -81,13 +84,28 @@ def test_rank_facts_cuts_answer_to_maximum():
     assert [f.segment_id for f in out] == ["1-0000", "1-0001", "1-0002"]
 
 
-def test_prompt_states_range_order_and_rule_beyond_minimum():
-    system = SYSTEM_PROMPT.format(minimum=20, maximum=40)
-    assert "mindestens 20 Fakten, wenn es so viele gibt, und höchstens 40" in system
+def test_prompt_states_size_order_and_must_use_rule():
+    system = " ".join(SYSTEM_PROMPT.format(minimum=20, maximum=40).split())
+    assert "Gib die 40 überraschendsten Fakten zurück" in system
+    assert "lass die am wenigsten überraschenden und die Dopplungen weg" in system
+    assert "Mindestens 20 Fakten" in system
     assert "der überraschendste zuerst" in system
-    assert "über 20 nur mit Fakten hinaus, die wirklich überraschend sind und keine Dopplungen" in (
-        system.replace("\n", " ")
-    )
+    assert "die obersten Fakten muss das Gespräch verwenden" in system
+
+
+def test_offer_size_is_the_rounded_up_share_within_minimum_and_extracted():
+    assert offer_size(131, 0.75, 20) == 99
+    assert offer_size(100, 0.75, 20) == 75
+    assert offer_size(24, 0.75, 20) == 20  # the minimum wins over 18
+    assert offer_size(12, 0.75, 20) == 12  # never more than extracted
+    assert offer_size(0, 0.75, 20) == 0
+
+
+def test_must_use_count_is_the_rounded_up_share():
+    assert must_use_count(131, 0.05) == 7
+    assert must_use_count(20, 0.05) == 1
+    assert must_use_count(1, 0.05) == 1
+    assert must_use_count(0, 0.05) == 0
 
 
 def test_linked_prompt_names_main_topic_and_relevance_rule():

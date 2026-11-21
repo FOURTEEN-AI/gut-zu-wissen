@@ -82,8 +82,10 @@ from gut_zu_wissen.ranking import (
     RankedFact,
     bound_targets,
     link_targets,
+    must_use_count,
     offer_count,
     offer_gate,
+    offer_size,
     offer_summary,
     rank_facts,
     rank_linked_facts,
@@ -304,13 +306,10 @@ def run(
                 excluded,
                 first_sentence,
             )
-            main = rank_facts(
-                llm,
-                facts.facts,
-                quotas["main_facts_min"],
-                quotas["main_facts_max"],
-                excluded | {f.segment_id for f in einordnung},
-            )
+            skipped_ids = excluded | {f.segment_id for f in einordnung}
+            extracted = sum(f.segment_id not in skipped_ids for f in facts.facts)
+            main_max = offer_size(extracted, quotas["main_offer_share"], quotas["main_facts_min"])
+            main = rank_facts(llm, facts.facts, quotas["main_facts_min"], main_max, skipped_ids)
             targets, over_limit = bound_targets(
                 link_targets(raw_of(main, segments), article.title), quotas["linked_targets_max"]
             )
@@ -366,9 +365,7 @@ def run(
                     "excluded_fact_ids": sorted(excluded),
                     "link_targets_over_limit": over_limit,
                     "offer_counts": {
-                        "main": offer_count(
-                            len(main_ranked), quotas["main_facts_min"], quotas["main_facts_max"]
-                        ),
+                        "main": offer_count(len(main_ranked), quotas["main_facts_min"], main_max),
                         "linked": offer_count(
                             len(linked),
                             quotas["linked_intro_facts_min"],
@@ -385,8 +382,16 @@ def run(
             failure = offer_gate(offered, quotas["min_used_facts"])
             if failure:
                 raise GateFailure(failure)
+            must_use = frozenset(
+                r.fact.segment_id
+                for r in main_ranked[: must_use_count(extracted, quotas["must_use_share"])]
+            )
             return Offer(
-                main_ranked, linked, einordnung_ranked, pinned_ids(einordnung, first_sentence)
+                main_ranked,
+                linked,
+                einordnung_ranked,
+                pinned_ids(einordnung, first_sentence),
+                must_use,
             )
 
         step = STEP_DIALOG

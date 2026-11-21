@@ -24,6 +24,7 @@ from gut_zu_wissen.dialog import (
     resolve_turns,
     told_elsewhere,
     told_in,
+    top_facts_gate,
     used_fact_ids,
     used_facts_gate,
     write_dialog,
@@ -126,6 +127,22 @@ def test_used_facts_counts_turn_and_statement_ids_once_ignoring_unknown():
         turn(1, ids=["1-0000", "2-0000"]),
     ]
     assert used_fact_ids(turns, OFFER) == ["1-0000", "1-0001", "2-0000"]
+
+
+def test_top_facts_gate_requires_unexcluded_top_facts():
+    assert top_facts_gate({"a", "b"}, ["a", "b", "c"]) is None
+    assert top_facts_gate({"a", "b"}, ["a"], exempt={"b"}) is None
+    message = top_facts_gate({"a", "b"}, ["a"])
+    assert message is not None and "D8" in message and "b" in message
+    assert top_facts_gate(set(), []) is None
+
+
+def test_format_offer_marks_must_use_facts_in_the_main_list_only():
+    main = [rf("1-0001"), rf("1-0002")]
+    text = format_offer(main, [], [], {"1-0002", "1-0009"})
+    lines = [line for line in text.split("\n") if line.startswith("[")]
+    assert lines[0].startswith("[F1] ") and "(Pflicht)" not in lines[0]
+    assert lines[1].startswith("[F2] (Pflicht) ")
 
 
 def test_used_facts_gate_at_the_boundary():

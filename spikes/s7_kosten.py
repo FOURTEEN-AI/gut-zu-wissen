@@ -518,7 +518,7 @@ def extract(name: str) -> None:
 def ranking_requests(article: str, extraction: Mapping[str, Mapping] | None = None):
     """The two ranking requests of the archived (final) offer, built by the production functions
     on the archived candidates, or on `extraction` (source -> extraction dict) when given."""
-    from gut_zu_wissen.ranking import rank_facts, rank_linked_facts
+    from gut_zu_wissen.ranking import offer_size, rank_facts, rank_linked_facts
 
     folder = EPISODES / ARTICLES[article]
     q = config()["quotas"]
@@ -536,7 +536,8 @@ def ranking_requests(article: str, extraction: Mapping[str, Mapping] | None = No
             pool.append(_fact(f))
             origin[f["segment_id"]] = t
     main_fake, linked_fake = Collect({"ranked_ids": []}), Collect({"ranked_ids": []})
-    rank_facts(main_fake, main_facts, q["main_facts_min"], q["main_facts_max"], exclude)
+    main_max = offer_size(len(main_facts), q["main_offer_share"], q["main_facts_min"])
+    rank_facts(main_fake, main_facts, q["main_facts_min"], main_max, exclude)
     rank_linked_facts(
         linked_fake,
         pool,
@@ -547,7 +548,7 @@ def ranking_requests(article: str, extraction: Mapping[str, Mapping] | None = No
         set(ranking.get("excluded_fact_ids", [])),
     )
     return {
-        "main": (main_fake.requests, main_facts, q["main_facts_max"]),
+        "main": (main_fake.requests, main_facts, main_max),
         "linked": (linked_fake.requests, pool, q["linked_intro_facts_max"]),
     }
 
