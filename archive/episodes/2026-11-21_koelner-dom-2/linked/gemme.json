@@ -1,0 +1,143 @@
+{
+  "title": "Gemme",
+  "revid": 269583943,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-08-11T20:02:22Z",
+  "fetched_at": "2026-11-21T21:14:29Z",
+  "categories": [
+    "Kategorie:Glyptik",
+    "Kategorie:Schmuckmaterial"
+  ],
+  "intro_wikitext": "{{Begriffsklärungshinweis|Gemmen als Brutkörper bei Pflanzen werden im Artikel [[Brutkörper]] behandelt.}}\n\n[[Datei:Meyers b7 s0074a.jpg|mini|Darstellung verschiedener Gemmen und Kameen]]\n[[Datei:Gemmen.PNG|mini|Gemmen aus [[Pompeji]]]]\n\nUnter einer '''Gemme''' ({{laS|gemma}} „Knospe, Edelstein, Juwel“)<ref name=\"DWDS\" /> versteht man einen geschnittenen [[Schmuckstein]] bzw. Edelstein. Daraus leiten sich auch der Fachbegriff für Edelsteinkunde (''[[Gemmologie]]'') sowie die Bezeichnung des Steinschneiders (''Gemmarius'') ab.\n\nHeute versteht man unter einer Gemme meist einen ''vertieft'' geschnittenen Schmuckstein: Das Bildmotiv wird in den Stein eingeschnitten; diese Schmucksteine bezeichnet man auch als [[Intaglio (Gemme)|Intaglio]]. Im Gegensatz dazu wird bei einer [[Kamee]] bzw. einem Kameo der Hintergrund des Bildmotivs weggeschnitten, das Motiv ragt also wie ein [[Relief]] aus dem übrigen Stein heraus. Im weiteren Sinne kann die Gemme aber auch als Oberbegriff für Intaglio und Kamee alle geschnittenen Edel- und Schmucksteine bezeichnen.\n\nBevorzugtes Steinmaterial ist die [[Quarz]]gruppe (z.&nbsp;B. [[Chalcedon (Mineral)|Chalzedone]]) in Form von [[Lagenstein]]en. Die ältesten Steinschnitte entstanden im 5. bis 3. Jahrtausend vor Christus. Besonders hochwertig war die Steinschneidekunst der [[Altes Ägypten|Ägypter]], [[Perser (Volk)|Perser]], [[Assyrer]], [[Römisches Reich|Römer]] und [[Griechen]].\n\nGemmen dienten in der Antike als [[Siegel]]steine zur Siegelung von Dokumenten, später auch als Schmuckstück. Eine Sonderform dieser Schmucksteine stellen die [[Alsengemme]]n dar.",
+  "segments": [
+    {
+      "id": "269583943-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Unter einer '''Gemme''' ({{laS|gemma}} „Knospe, Edelstein, Juwel“)<ref name=\"DWDS\" /> versteht man einen geschnittenen [[Schmuckstein]] bzw. Edelstein.",
+      "plain": null
+    },
+    {
+      "id": "269583943-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Daraus leiten sich auch der Fachbegriff für Edelsteinkunde (''[[Gemmologie]]'') sowie die Bezeichnung des Steinschneiders (''Gemmarius'') ab.",
+      "plain": null
+    },
+    {
+      "id": "269583943-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Heute versteht man unter einer Gemme meist einen ''vertieft'' geschnittenen Schmuckstein: Das Bildmotiv wird in den Stein eingeschnitten; diese Schmucksteine bezeichnet man auch als [[Intaglio (Gemme)|Intaglio]].",
+      "plain": null
+    },
+    {
+      "id": "269583943-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Gegensatz dazu wird bei einer [[Kamee]] bzw. einem Kameo der Hintergrund des Bildmotivs weggeschnitten, das Motiv ragt also wie ein [[Relief]] aus dem übrigen Stein heraus.",
+      "plain": null
+    },
+    {
+      "id": "269583943-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im weiteren Sinne kann die Gemme aber auch als Oberbegriff für Intaglio und Kamee alle geschnittenen Edel- und Schmucksteine bezeichnen.",
+      "plain": null
+    },
+    {
+      "id": "269583943-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bevorzugtes Steinmaterial ist die [[Quarz]]gruppe (z.&nbsp;B. [[Chalcedon (Mineral)|Chalzedone]]) in Form von [[Lagenstein]]en.",
+      "plain": null
+    },
+    {
+      "id": "269583943-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die ältesten Steinschnitte entstanden im 5. bis 3. Jahrtausend vor Christus.",
+      "plain": null
+    },
+    {
+      "id": "269583943-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Besonders hochwertig war die Steinschneidekunst der [[Altes Ägypten|Ägypter]], [[Perser (Volk)|Perser]], [[Assyrer]], [[Römisches Reich|Römer]] und [[Griechen]].",
+      "plain": null
+    },
+    {
+      "id": "269583943-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Gemmen dienten in der Antike als [[Siegel]]steine zur Siegelung von Dokumenten, später auch als Schmuckstück.",
+      "plain": null
+    },
+    {
+      "id": "269583943-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "Eine Sonderform dieser Schmucksteine stellen die [[Alsengemme]]n dar.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269583943,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269583943-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Heute versteht man unter einer Gemme meist einen vertieft geschnittenen Schmuckstein: Das Bildmotiv wird in den Stein eingeschnitten; diese Schmucksteine bezeichnet man auch als Intaglio.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269583943-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269583943-0002"
+        ],
+        "plain": "Im Gegensatz dazu wird bei einer Kamee bzw. einem Kameo der Hintergrund des Bildmotivs weggeschnitten, das Motiv ragt also wie ein Relief aus dem übrigen Stein heraus.",
+        "context_plain": [
+          "Heute versteht man unter einer Gemme meist einen vertieft geschnittenen Schmuckstein: Das Bildmotiv wird in den Stein eingeschnitten; diese Schmucksteine bezeichnet man auch als Intaglio."
+        ]
+      },
+      {
+        "segment_id": "269583943-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Bevorzugtes Steinmaterial ist die Quarzgruppe (z. B. Chalzedone) in Form von Lagensteinen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269583943-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die ältesten Steinschnitte entstanden im 5. bis 3. Jahrtausend vor Christus.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269583943-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Besonders hochwertig war die Steinschneidekunst der Ägypter, Perser, Assyrer, Römer und Griechen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269583943-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Gemmen dienten in der Antike als Siegelsteine zur Siegelung von Dokumenten, später auch als Schmuckstück.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

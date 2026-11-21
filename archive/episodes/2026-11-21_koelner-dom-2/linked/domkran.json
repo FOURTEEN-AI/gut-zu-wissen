@@ -1,0 +1,77 @@
+{
+  "title": "Domkran",
+  "revid": 272112780,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-12T22:33:23Z",
+  "fetched_at": "2026-11-21T21:14:29Z",
+  "categories": [
+    "Kategorie:Abgegangenes Bauwerk in Köln",
+    "Kategorie:Altstadt-Nord",
+    "Kategorie:Bauwerk in Köln",
+    "Kategorie:Einzelkran",
+    "Kategorie:Historische Maschine",
+    "Kategorie:Köln im 19. Jahrhundert",
+    "Kategorie:Köln im Mittelalter",
+    "Kategorie:Kölner Dom",
+    "Kategorie:Technik (Mittelalter)",
+    "Kategorie:Technikgeschichte (Deutschland)",
+    "Kategorie:Technikgeschichte der Frühen Neuzeit",
+    "Kategorie:Zerstört in den 1860er Jahren"
+  ],
+  "intro_wikitext": "[[Datei:Theodor Creifelds, Domkran am 29. Februar 1868.jpg|mini|Domkran, Aufnahme von [[Theodor Creifelds]], 1868, kurz vor dem Abbau]]\n[[Datei:Schönscheidt, J. H. & Th. - Cologne Cathedral, western facade, south tower with historic crane, 1865.jpg|mini|Bau der Domtürme, Aufnahme J.&nbsp;H. & Th. Schönscheidt, 1865]]\nDer Kölner '''Domkran''' war ein hölzerner [[Kran|Drehkran]], der seit dem 14. Jahrhundert auf dem im Bau befindlichen Südturm des [[Kölner Dom]]es stand. Der mehr als 25 Meter hohe Kran war nur etwa 50 Jahre lang im Einsatz, aber er prägte als Wahrzeichen das [[Köln]]er Stadtbild über einen Zeitraum von mehr als 500 Jahren. Er wurde erst 1868 abgebaut.",
+  "segments": [
+    {
+      "id": "272112780-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Kölner '''Domkran''' war ein hölzerner [[Kran|Drehkran]], der seit dem 14. Jahrhundert auf dem im Bau befindlichen Südturm des [[Kölner Dom]]es stand.",
+      "plain": null
+    },
+    {
+      "id": "272112780-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der mehr als 25 Meter hohe Kran war nur etwa 50 Jahre lang im Einsatz, aber er prägte als Wahrzeichen das [[Köln]]er Stadtbild über einen Zeitraum von mehr als 500 Jahren.",
+      "plain": null
+    },
+    {
+      "id": "272112780-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er wurde erst 1868 abgebaut.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272112780,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272112780-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Kölner Domkran war ein hölzerner Drehkran, der seit dem 14. Jahrhundert auf dem im Bau befindlichen Südturm des Kölner Domes stand.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272112780-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272112780-0000"
+        ],
+        "plain": "Der mehr als 25 Meter hohe Kran war nur etwa 50 Jahre lang im Einsatz, aber er prägte als Wahrzeichen das Kölner Stadtbild über einen Zeitraum von mehr als 500 Jahren.",
+        "context_plain": [
+          "Der Kölner Domkran war ein hölzerner Drehkran, der seit dem 14. Jahrhundert auf dem im Bau befindlichen Südturm des Kölner Domes stand."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "272112780-0002",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

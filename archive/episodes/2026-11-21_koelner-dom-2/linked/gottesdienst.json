@@ -1,0 +1,84 @@
+{
+  "title": "Gottesdienst",
+  "revid": 266287531,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-04-17T17:51:09Z",
+  "fetched_at": "2026-11-21T21:14:29Z",
+  "categories": [
+    "Kategorie:Gottesdienst",
+    "Kategorie:Veranstaltung (Religion)"
+  ],
+  "intro_wikitext": "{{Begriffsklärungshinweis|Zur Zeitschrift siehe [[Gottesdienst (Zeitschrift)]].}}\nEin '''Gottesdienst''' ist eine Zusammenkunft von Menschen mit dem Zweck, mit [[Gott]] in Verbindung zu treten, mit ihm Gemeinschaft zu haben, [[Opfer (Religion)|Opfer]] zu bringen, [[Sakrament]]e zu empfangen oder eine auferlegte [[Religion|religiöse]] Pflicht zu erfüllen ([[Liturgie]]). Er kann in einer eigens vorgesehenen Räumlichkeit ([[Kirche (Bauwerk)|Kirche]], [[Synagoge]], [[Moschee]], [[Pagode]], [[Tempel]], [[Königreichssaal]] etc.) stattfinden, wie auch im privaten häuslichen Bereich, im städtischen (oder dörflichen) [[Öffentlicher Raum|öffentlichen Raum]] oder in freier Natur.\n\nDas deutsche Wort ''Gottesdienst'' entspricht dem lateinischen Begriff ''cultus'' ([[Kult]]us, „Verehrung“) und bezieht sich vornehmlich auf religiöse Feiern im [[Christentum]], wird jedoch auch für andere Religionsgemeinschaften verwendet, die gemeinsame Gebete verrichten, wie im [[Judentum]] und dem [[Islam]].\n\nOft folgt ein Gottesdienst einem [[Ritus]], der durch einen überlieferten Ablauf oder durch Festsetzung durch eine geistliche Instanz vorgegeben ist, wie etwa die [[Liturgie]] der katholischen Kirche und der orthodoxen Kirchen oder die evangelische [[Agende]]. Bei entsprechender Zielsetzung werden jedoch auch spontane oder wenig strukturierte Zusammenkünfte als Gottesdienst bezeichnet.\n\n[[Datei:Gottesdienste Ilmenau.JPG|mini|hochkant|Hinweisschild auf regelmäßige Gottesdienste verschiedener [[Konfession]]en am Ortseingang von [[Ilmenau]]]]",
+  "segments": [
+    {
+      "id": "266287531-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein '''Gottesdienst''' ist eine Zusammenkunft von Menschen mit dem Zweck, mit [[Gott]] in Verbindung zu treten, mit ihm Gemeinschaft zu haben, [[Opfer (Religion)|Opfer]] zu bringen, [[Sakrament]]e zu empfangen oder eine auferlegte [[Religion|religiöse]] Pflicht zu erfüllen ([[Liturgie]]).",
+      "plain": null
+    },
+    {
+      "id": "266287531-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er kann in einer eigens vorgesehenen Räumlichkeit ([[Kirche (Bauwerk)|Kirche]], [[Synagoge]], [[Moschee]], [[Pagode]], [[Tempel]], [[Königreichssaal]] etc.) stattfinden, wie auch im privaten häuslichen Bereich, im städtischen (oder dörflichen) [[Öffentlicher Raum|öffentlichen Raum]] oder in freier Natur.",
+      "plain": null
+    },
+    {
+      "id": "266287531-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das deutsche Wort ''Gottesdienst'' entspricht dem lateinischen Begriff ''cultus'' ([[Kult]]us, „Verehrung“) und bezieht sich vornehmlich auf religiöse Feiern im [[Christentum]], wird jedoch auch für andere Religionsgemeinschaften verwendet, die gemeinsame Gebete verrichten, wie im [[Judentum]] und dem [[Islam]].",
+      "plain": null
+    },
+    {
+      "id": "266287531-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Oft folgt ein Gottesdienst einem [[Ritus]], der durch einen überlieferten Ablauf oder durch Festsetzung durch eine geistliche Instanz vorgegeben ist, wie etwa die [[Liturgie]] der katholischen Kirche und der orthodoxen Kirchen oder die evangelische [[Agende]].",
+      "plain": null
+    },
+    {
+      "id": "266287531-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bei entsprechender Zielsetzung werden jedoch auch spontane oder wenig strukturierte Zusammenkünfte als Gottesdienst bezeichnet.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 266287531,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "266287531-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "266287531-0000"
+        ],
+        "plain": "Er kann in einer eigens vorgesehenen Räumlichkeit (Kirche, Synagoge, Moschee, Pagode, Tempel, Königreichssaal etc.) stattfinden, wie auch im privaten häuslichen Bereich, im städtischen (oder dörflichen) öffentlichen Raum oder in freier Natur.",
+        "context_plain": [
+          "Ein Gottesdienst ist eine Zusammenkunft von Menschen mit dem Zweck, mit Gott in Verbindung zu treten, mit ihm Gemeinschaft zu haben, Opfer zu bringen, Sakramente zu empfangen oder eine auferlegte religiöse Pflicht zu erfüllen (Liturgie)."
+        ]
+      },
+      {
+        "segment_id": "266287531-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das deutsche Wort Gottesdienst entspricht dem lateinischen Begriff cultus (Kultus, „Verehrung“) und bezieht sich vornehmlich auf religiöse Feiern im Christentum, wird jedoch auch für andere Religionsgemeinschaften verwendet, die gemeinsame Gebete verrichten, wie im Judentum und dem Islam.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "266287531-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Bei entsprechender Zielsetzung werden jedoch auch spontane oder wenig strukturierte Zusammenkünfte als Gottesdienst bezeichnet.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

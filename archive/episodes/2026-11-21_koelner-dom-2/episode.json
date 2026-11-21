@@ -1,0 +1,69 @@
+{
+  "episode_id": "2026-11-21_koelner-dom-2",
+  "title": "Kölner Dom",
+  "status": "failed",
+  "started_at": "2026-11-21T21:14:29Z",
+  "finished_at": "2026-11-21T21:31:44Z",
+  "published_at": null,
+  "explicit": null,
+  "failure": "Crash: LlmError: The answer was cut off at max_tokens.",
+  "usage": {
+    "author": {
+      "model": "claude-sonnet-5-5",
+      "calls": 3,
+      "input_tokens": 174419,
+      "output_tokens": 64630,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    "llm_judge": {
+      "model": "claude-sonnet-5-5",
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    "jev": {
+      "model": "jev-1.14.0",
+      "calls": 0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    "extraction": {
+      "model": "claude-haiku-5-5",
+      "calls": 112,
+      "input_tokens": 118681,
+      "output_tokens": 107168,
+      "cache_creation_input_tokens": 872,
+      "cache_read_input_tokens": 96792
+    }
+  },
+  "cost": {
+    "prices": {
+      "claude_sonnet_input": 2.0,
+      "claude_sonnet_output": 10.0,
+      "jev": 0.042,
+      "claude_haiku_input": 0.1,
+      "claude_haiku_output": 0.5,
+      "gemini_tts_input": 0.5,
+      "gemini_tts_output": 9.0,
+      "claude_sonnet_cache_write": 2.5,
+      "claude_sonnet_cache_read": 0.1,
+      "claude_haiku_cache_write": 0.125,
+      "claude_haiku_cache_read": 0.01
+    },
+    "usd": {
+      "author": 0.9951,
+      "llm_judge": 0.0,
+      "jev": 0.0,
+      "extraction": 0.0665,
+      "tts": 0
+    }
+  },
+  "failed_step": "dialog",
+  "resumed": [],
+  "audio_run_id": null
+}

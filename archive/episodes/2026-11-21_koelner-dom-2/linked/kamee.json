@@ -1,0 +1,56 @@
+{
+  "title": "Kamee",
+  "revid": 268966752,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-20T12:24:22Z",
+  "fetched_at": "2026-11-21T21:14:29Z",
+  "categories": [
+    "Kategorie:Glyptik",
+    "Kategorie:Relief",
+    "Kategorie:Schmuckherstellung"
+  ],
+  "intro_wikitext": "[[Datei:Kunsthistorisches Museum Vienna June 2006 035.png|mini|Adler-Kamee, römisch 27 v. Chr.]]\n[[Datei:Meyers b7 s0074a.jpg|mini|Darstellung verschiedener Kameen und Gemmen]]\n\n'''Kamee''' (''die''), auch '''Camée''', seltener '''Kameo''' (''der'') oder '''Cameo''', ist die Bezeichnung für eine [[Gravur]], die als [[erhaben]]es [[Relief]] aus einem [[Schmuckstein]], zumeist einem [[Chalcedon (Mineral)|Chalcedon]] oder [[Onyx (Mineral)|Onyx]], aber auch aus [[Vulkanit|Lavagestein]] oder einer [[Molluskenschale]] hergestellt wurde. Dabei hebt sich aufgrund unterschiedlicher Tönungen des Materials der erhöhte Teil meist heller vom tieferen Teil der Gravur ab.",
+  "segments": [
+    {
+      "id": "268966752-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Kamee''' (''die''), auch '''Camée''', seltener '''Kameo''' (''der'') oder '''Cameo''', ist die Bezeichnung für eine [[Gravur]], die als [[erhaben]]es [[Relief]] aus einem [[Schmuckstein]], zumeist einem [[Chalcedon (Mineral)|Chalcedon]] oder [[Onyx (Mineral)|Onyx]], aber auch aus [[Vulkanit|Lavagestein]] oder einer [[Molluskenschale]] hergestellt wurde.",
+      "plain": null
+    },
+    {
+      "id": "268966752-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dabei hebt sich aufgrund unterschiedlicher Tönungen des Materials der erhöhte Teil meist heller vom tieferen Teil der Gravur ab.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268966752,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268966752-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Kamee (die), auch Camée, seltener Kameo (der) oder Cameo, ist die Bezeichnung für eine Gravur, die als erhabenes Relief aus einem Schmuckstein, zumeist einem Chalcedon oder Onyx, aber auch aus Lavagestein oder einer Molluskenschale hergestellt wurde.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268966752-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "268966752-0000"
+        ],
+        "plain": "Dabei hebt sich aufgrund unterschiedlicher Tönungen des Materials der erhöhte Teil meist heller vom tieferen Teil der Gravur ab.",
+        "context_plain": [
+          "Kamee (die), auch Camée, seltener Kameo (der) oder Cameo, ist die Bezeichnung für eine Gravur, die als erhabenes Relief aus einem Schmuckstein, zumeist einem Chalcedon oder Onyx, aber auch aus Lavagestein oder einer Molluskenschale hergestellt wurde."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}
