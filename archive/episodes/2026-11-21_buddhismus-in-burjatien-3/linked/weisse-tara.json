@@ -1,0 +1,37 @@
+{
+  "title": "Weiße Tara",
+  "revid": 265376038,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-03-18T10:14:29Z",
+  "fetched_at": "2026-11-21T19:15:22Z",
+  "categories": [
+    "Kategorie:Bodhisattva",
+    "Kategorie:Tibetische Gottheit",
+    "Kategorie:Weibliche Gottheit"
+  ],
+  "intro_wikitext": "[[Datei:Weisse tara mongolian art.jpg|mini|200px|Weiße Tara, Malerei, Tempera auf Baumwolle, 20 × 26,5 cm, Jahr 2004 [[Otgonbayar Ershuu]]]]\n{{Tibetischer chinesischer Begriff\n|Tibetisch=སྒྲོལ་དཀར་\n|Wylie=sgrol dkar\n|IPA=ʈʂøkaː\n|offiziell=Zhoigar\n|THDL=Drölkar\n|andere=Dölkar, Dolkar, Drolkar\n|Tc=白度母\n|Vc=白度母\n|Py=Báidùmǔ}}\n\nDie '''weiße Tara''' (skt. sitatara) ist eine der [[Tara (Göttin)|21 Taras]], der weiblichen [[Bodhisattva]]s des [[Tibetischer Buddhismus|tibetischen Buddhismus]].",
+  "segments": [
+    {
+      "id": "265376038-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''weiße Tara''' (skt. sitatara) ist eine der [[Tara (Göttin)|21 Taras]], der weiblichen [[Bodhisattva]]s des [[Tibetischer Buddhismus|tibetischen Buddhismus]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 265376038,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "265376038-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die weiße Tara (skt. sitatara) ist eine der 21 Taras, der weiblichen Bodhisattvas des tibetischen Buddhismus.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,686 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Die Rolle des Buddhismus seit dem 17. Jahrhundert unter den mongolischen Burjaten und der Schwerpunkt östlich des Baikalsees stehen in 0000. Die Siedlungsgebiete, die weitläufiger als die heutige Republik Burjatien sind und in die Region Transbaikalien und die Oblast Irkutsk hineinreichen, stehen in 0001. Es wird keine zusätzliche Angabe gemacht."
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.77
+      },
+      "jev_error": null,
+      "reason": "Die Prämisse \"Buddhismus mitten in Russland\" folgt aus dem Fakt, dass der Buddhismus unter den Burjaten in Russland eine bedeutende Rolle spielt. Das Staunen am Anfang und die Nachfrage zum Umgang des russischen Staates mit dem Glauben der Burjaten sind Reaktionen ohne Belegpflicht und enthalten keine zusätzliche Behauptung."
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: 1728, Einschränkung des Einflusses nicht-russischer Buddhisten, Verbot des Zuzugs von Lamas aus Tibet und Anordnung der Ausbildung vor Ort im Zarenreich stehen in 0025; Gründung des Zongolski-Dazan mit dem tibetischen Lama Agvan Puncuk als Oberhaupt steht in 0027. Es wird keine zusätzliche Angabe gemacht."
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag besteht aus einer Reaktion (\"Wow, das klingt hart.\") und einer Nachfrage, die das eben Gesagte aufgreift. Er bringt keine neue Information und keine eigene Tatsachenbehauptung ein. Ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage, die um Erklärung bittet, und enthält keine Behauptung, keine Meinung und keine faktische Prämisse. Er braucht daher keine Fakt-IDs."
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.97,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage, die um eine Erklärung bittet. Er nennt keine Zahlen, Daten oder neuen Informationen. Die Prämisse, dass die Burjaten russische Herrscher hatten, greift nur das Thema des Gesprächs auf und ist keine neue Behauptung. Deshalb braucht er keine Fakt-IDs."
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage (\"Gibt es so etwas auch heute noch?\") ohne Behauptung, Meinung oder faktische Prämisse. Als Reaktion braucht er keine Fakt-IDs."
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen folgen direkt aus den Fakt-Sätzen: 2009 erklärte der Khambo Lama Damba Ajuschejew Medwedew zur Reinkarnation der Weißen Tara (0126), und er bezeichnete auch Putin als eine solche Reinkarnation (0127). Es wird keine zusätzliche Angabe gemacht."
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.39
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion (Überraschung) und einer Nachfrage zu den Ansichten des Khambo Lama. Die Prämisse, dass es einen Khambo Lama gibt, der Ansichten vertritt, folgt aus dem Fakt-Satz, der ihn als obersten Geistlichen der Burjaten nennt. Eine zusätzliche Behauptung ohne Beleg enthält der Beitrag nicht."
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.72
+      },
+      "jev_error": null,
+      "reason": "Felix stellt nur eine Nachfrage zum Zölibat. Die Frage setzt keine Tatsache voraus, die über die Fakt-Sätze hinausgeht, und ist daher belegfrei."
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Behauptung und ohne Prämisse, die über das Thema hinausgeht. Als Reaktion braucht er keine Fakt-IDs."
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 1.0,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Der erste Satz entspricht 0138, die weiteren Sätze geben 0147 sinngemäß wieder (eigenständige Entwicklungen des Buddhismus während der Abwesenheit, zurückkehrende Geistliche trafen auf Formen, die noch weiter von der tibetischen Tradition abwichen). Das einleitende „Ja“ ist eine belegfreie Reaktion. Es wurde keine zusätzliche Angabe hinzugefügt."
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage (\"Und was sagte der Khambo Lama dazu?\") und enthält keine eigene Behauptung. Die Prämisse, dass es einen Khambo Lama gibt, der sich dazu geäußert hat, deckt der zitierte Fakt ab, der seine Haltung gegen tibetische Missionare in Burjatien nennt. Es kommen keine zusätzlichen Angaben hinzu."
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "vollstaendig": 0.77
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen von Lena stehen im Fakt-Satz 272350627-0148: Ajuschejew bezeichnete wegen der Diskrepanz zwischen den im Ausland ausgebildeten Geistlichen und den Entwicklungen in Burjatien die burjatischen Rückkehrer aus tibetischen Klöstern in Indien als indusy; das Wort ist eigentlich russisch für Hindus und heute ein Begriff für Inder. Es kommt keine zusätzliche Angabe hinzu. Dass Ajuschejew Khambo Lama ist, wird nicht erwähnt, das ist aber nur eine Auslassung."
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine Nachfrage (\"Sind sich die Gläubigen in diesen Fragen denn einig?\") mit einer kurzen Reaktion (\"Interessant.\"). Er enthält keine Behauptung und keine faktische Prämisse, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Die Betonung der Zugehörigkeit zum tibetischen Buddhismus, Dharamsala als geistige Heimat und als Sitz des Dalai Lamas und der Exilregierung in Indien stehen in 0152, Bernsteins Einschätzung des polarisierendsten Themas in 0153. Es gibt keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag besteht aus einer Überleitung („Springen wir in die Sowjetzeit“) und einer Nachfrage, die um Erklärung bittet. Er enthält keine neue Sachbehauptung und keine Prämisse, die über das Thema hinausgeht. Deshalb ist er auch ohne Fakt-IDs zulässig."
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne neue Information. Die Frage setzt keine Behauptung voraus, die belegt werden müsste, und gilt als belegfreie Reaktion. Fakt-IDs sind deshalb nicht erforderlich."
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "„Meine Güte“ ist eine Reaktion. „Wer stand hinter diesen Verlusten?“ ist eine Nachfrage. Ihre Prämisse, dass es Verluste gab, folgt aus dem Fakt: Von 14.000 Lamas und Schülern waren nur noch 900 übrig. Neue Behauptungen enthält der Beitrag nicht."
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.95,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.73
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage, die an das bisherige Gespräch anknüpft. Er stellt keine neue Tatsachenbehauptung auf, nennt keine Zahlen, Daten oder Namen und braucht deshalb keinen Beleg."
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den zitierten Fakten. Das formelle Bestehen und sein Zweck (Religionsfreiheit vortäuschen, Vorzüge des Sozialismus gegenüber buddhistischen Staaten bewerben) stehen in 0087. Auslandsreisen des Khambo Lama Gomboev, seine Amtszeit 1963–82 sowie Reisen und Gäste anderer Mönche stehen in 0089. Es gibt keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Felix stellt nur eine Nachfrage („Gab es dadurch auch hohen Besuch?“). Sie enthält keine neue Behauptung und keine Prämisse, die über das Zitierte hinausgeht. Der Fakt-Satz, dass Gäste aus buddhistischen Zentren in Asien empfangen werden konnten, passt zum Thema. Die Nachfrage ist belegfrei und damit zulässig."
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 41,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Er enthält keine Behauptung und keine sachliche Prämisse, die belegt werden müsste, und gilt daher als belegfreie Reaktion."
+    },
+    {
+      "turn_index": 42,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 43,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 44,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Amtszeit 1911–1917 und Titel als geistliches Oberhaupt der Buddhisten Burjatiens (0000), Bekanntheit durch die Exhumierung 2002, 75 Jahre nach dem Tod, praktisch ohne Verwesungserscheinungen (0001), letzte Exhumierung am 11. September 2002 und Verehrung im Glaskasten durch gläubige Buddhisten (0144). Es gibt keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 45,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 46,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.94,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den zitierten Fakt-Satz [270636852-0002] wörtlich wieder und fügt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 47,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.71
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Behauptung und ohne faktische Prämisse. Als Reaktion braucht er keine Fakt-IDs."
+    },
+    {
+      "turn_index": 48,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Alle drei Aussagen folgen aus den Fakt-Sätzen: Die 80 Prozent stehen in 0103, die Beschwerden des männlichen Klerus über einen zu weiblichen burjatischen Buddhismus und die Mehrzahl der Tempelbesucherinnen in 0107. Das „deshalb“ entspricht dem „da“ in 0107. Es kommen keine zusätzlichen Angaben hinzu."
+    },
+    {
+      "turn_index": 49,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Beitrag ist eine Nachfrage. Seine einzige Prämisse, dass es Klagen gibt, folgt aus dem Fakt: Viele Mitglieder des männlichen Klerus beschweren sich über einen zu weiblichen burjatischen Buddhismus. Neue Behauptungen enthält er nicht."
+    },
+    {
+      "turn_index": 50,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 51,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.75
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Er enthält keine Behauptung und keine faktische Prämisse, sondern fragt nur nach Orten für Frauen im burjatischen Buddhismus. Als Nachfrage gilt er als belegfrei."
+    },
+    {
+      "turn_index": 52,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 53,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 54,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "aussage_3": 0.99,
+        "aussage_4": 0.99,
+        "aussage_5": 0.99,
+        "aussage_6": 0.99,
+        "aussage_7": 0.99,
+        "aussage_8": 0.99,
+        "vollstaendig": 0.77
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen stimmen mit den zitierten Fakt-Sätzen überein: 1728 und 1764 (Zarin Elisabeth, Khambo Lama), die Weiße Tara und die Loyalität zum Staat, 2009 (Ajuschejew und Medwedew), 14.000 bzw. 900 Lamas und Schüler, der unverweste Leichnam Itigelows als eine der drei Kostbarkeiten, 80 % Frauen, die Klage über einen zu weiblichen Buddhismus sowie Ajuschejews Ermutigung zu Ringen, Bogenschießen und Pferderennen. Es gibt keine zusätzlichen Angaben."
+    }
+  ],
+  "used_fact_ids": [
+    "272350627-0000",
+    "272350627-0001",
+    "272350627-0018",
+    "272350627-0025",
+    "272350627-0027",
+    "272350627-0029",
+    "272350627-0030",
+    "272350627-0031",
+    "272350627-0024",
+    "272350627-0035",
+    "272350627-0045",
+    "272350627-0033",
+    "272350627-0006",
+    "272350627-0129",
+    "272350627-0126",
+    "272350627-0127",
+    "272350627-0131",
+    "272350627-0151",
+    "272350627-0136",
+    "272350627-0137",
+    "272350627-0138",
+    "272350627-0147",
+    "272350627-0148",
+    "272350627-0152",
+    "272350627-0153",
+    "272350627-0154",
+    "272350627-0060",
+    "272350627-0061",
+    "272350627-0075",
+    "272350627-0077",
+    "272350627-0087",
+    "272350627-0089",
+    "272350627-0090",
+    "272350627-0143",
+    "270636852-0000",
+    "270636852-0001",
+    "272350627-0144",
+    "270636852-0002",
+    "272350627-0103",
+    "272350627-0107",
+    "272350627-0110",
+    "272350627-0112"
+  ],
+  "cascade_checks": [],
+  "conversation": 1,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 54,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 54,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "aussage_3": 0.99,
+          "aussage_4": 0.99,
+          "aussage_5": 0.99,
+          "aussage_6": 0.99,
+          "aussage_7": 0.99,
+          "aussage_8": 0.99,
+          "vollstaendig": 0.61
+        },
+        "jev_error": null,
+        "reason": "Der Satz „In der Sowjetzeit waren von vierzehntausend Lamas und Schülern nur noch neunhundert übrig“ ist nicht belegt. Fakt 272350627-0075 nennt nur „ehemals 14.000“ und „nur noch 900“ und sagt nichts zur Sowjetzeit. Die zeitliche Einordnung ist eine zusätzliche Angabe. Die übrigen Aussagen folgen aus den Fakt-Sätzen."
+      }
+    }
+  ]
+}
