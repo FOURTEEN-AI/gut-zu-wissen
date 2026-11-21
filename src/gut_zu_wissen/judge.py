@@ -4,8 +4,12 @@ Stage 1 is Jev: one question per statement plus the completeness question, one r
 (question wording from spike S1). The threshold decision is a pure function:
 all p >= t -> supported; any p <= 1 - t -> not supported (the LLM judge only gives the reason);
 otherwise the LLM judge decides with the full rubric. Overlength and transient Jev errors also go
-to the LLM judge; abort errors propagate. The LLM judge sees only the turn, the cited fact
-sentences and their context, never the author's statements or chain of thought.
+to the LLM judge; abort errors propagate. The LLM judge sees the previous turn (what the turn
+answers, never evidence), the turn, the cited fact sentences and their context, never the author's
+statements or chain of thought; in its full verdict it also sees the Jev questions below t as a
+hint (issue #15). Its rubric checks that each statement means the same thing as its fact
+sentence when heard after the previous turn (dangling references, answers to a different
+question; issues #8, #15) and that a question does not anticipate its answer.
 Both LLM-judge prompts are fixed system prompts and are cached (spike S7); the turn and its facts
 vary per call and follow them.
 """
@@ -39,7 +43,24 @@ Behauptung enthalten. Reaktionen gelten als belegfrei: """
     + REACTION
     + """. Nicht belegfrei \
 sind neue Informationen, Wertungen mit Faktengehalt und Aussagen der sprechenden Person über \
-sich selbst (Erlebnisse, Wissen, Vorlieben)."""
+sich selbst (Erlebnisse, Wissen, Vorlieben).
+
+Der vorherige Redebeitrag zeigt, worauf der Redebeitrag antwortet; er ist kein Beleg. Zuhörer \
+hören den Redebeitrag im Anschluss an den vorherigen, deshalb muss jede Aussage denselben \
+Gegenstand meinen wie ihr Fakt-Satz. Nicht belegt ist eine Aussage auch dann, wenn
+- der Fakt-Satz seinen Gegenstand oder eine beteiligte Person nur mit einem Bezugswort nennt \
+(etwa „dieses Instrument“, „er“, „ihm“, „dort“, „die Bilder“) und weder der Redebeitrag noch der \
+vorherige Redebeitrag sie eindeutig nennt, sodass Zuhörer die Aussage auf etwas anderes beziehen \
+können, etwa auf den Gegenstand der vorherigen Frage;
+- der Redebeitrag eine Frage aus dem vorherigen Redebeitrag beantwortet, der Fakt-Satz aber von \
+einem anderen Gegenstand handelt als die Frage;
+- der Redebeitrag Fakt-Sätze so verbindet, dass eine Beziehung entsteht, die keiner von ihnen \
+nennt.
+Einen Bezug aufzulösen, also den Gegenstand eines Bezugsworts so mit Namen zu nennen, wie der \
+Kontext ihn bestimmt, ist erlaubt. Eine Nachfrage ist nur belegfrei, wenn sie offen fragt. Legt \
+sie eine Antwort nahe, etwa mit einem Wertwort, einer Vermutung oder einer Einzelheit („War die \
+Kritik vielleicht sogar ziemlich scharf?“), ist das eine Prämisse; sie muss aus den Fakt-Sätzen \
+des Redebeitrags folgen."""
 )
 
 VERDICT_SCHEMA = {
@@ -56,7 +77,10 @@ REASON_SCHEMA = {
 }
 VERDICT_PROMPT = (
     "Du prüfst einen Redebeitrag aus einem Podcast-Gespräch auf Faktentreue. Du bekommst den "
-    "Redebeitrag, die Fakt-Sätze, auf die er sich beruft, und deren Kontext.\n\n"
+    "vorherigen Redebeitrag, falls es einen gibt, den Redebeitrag, die Fakt-Sätze, auf die er "
+    "sich beruft, deren Kontext und gegebenenfalls die Fragen, bei denen eine automatische "
+    "Vorprüfung unsicher war. Diese Fragen sind ein Hinweis, wo du genau hinsehen sollst, kein "
+    "Urteil.\n\n"
     + RUBRIC
     + "\n\nUrteile über den ganzen Redebeitrag: „supported“ ist nur wahr, wenn er die Rubrik "
     "vollständig erfüllt. Begründe kurz auf Deutsch; nenne bei Ablehnung die betroffene Stelle. "
@@ -64,8 +88,8 @@ VERDICT_PROMPT = (
 )
 REASON_PROMPT = (
     "Ein Redebeitrag aus einem Podcast-Gespräch wurde als nicht belegt abgelehnt. Du bekommst den "
-    "Redebeitrag, die Fakt-Sätze, auf die er sich beruft, deren Kontext und die Stellen, die "
-    "beanstandet wurden.\n\n"
+    "vorherigen Redebeitrag, falls es einen gibt, den Redebeitrag, die Fakt-Sätze, auf die er "
+    "sich beruft, deren Kontext und die Stellen, die beanstandet wurden.\n\n"
     + RUBRIC
     + "\n\nDie Ablehnung steht fest; du urteilst nicht. Begründe auf Deutsch in ein bis zwei "
     "Sätzen, welche Stelle des Redebeitrags aus den Fakt-Sätzen nicht folgt und warum. "
@@ -177,10 +201,19 @@ def build_request(
 
 
 def format_judge_input(
-    turn: Turn, facts: Mapping[str, RankedFact], flagged: Sequence[str] = ()
+    turn: Turn,
+    facts: Mapping[str, RankedFact],
+    flagged: Sequence[str] = (),
+    previous: Turn | None = None,
+    doubts: Sequence[str] = (),
 ) -> str:
-    """Input of the LLM judge: turn, cited fact sentences, context, optionally flagged spots."""
-    lines = [f"Redebeitrag ({turn.speaker}):", turn.text, "", "Zitierte Fakten:"]
+    """Input of the LLM judge: the previous turn (what the turn answers; never evidence), the turn,
+    cited fact sentences, context, optionally flagged spots (rejection) or Jev's doubts
+    (uncertain)."""
+    lines = []
+    if previous is not None:
+        lines += [f"Vorheriger Redebeitrag ({previous.speaker}):", previous.text, ""]
+    lines += [f"Redebeitrag ({turn.speaker}):", turn.text, "", "Zitierte Fakten:"]
     cited = [i for i in cited_ids(turn) if i in facts]
     if not cited:
         lines.append("(keine)")
@@ -191,6 +224,8 @@ def format_judge_input(
             lines.append("  Kontext: " + " ".join(c.replace("\n", " ") for c in fact.context_plain))
     if flagged:
         lines += ["", "Beanstandete Stellen:", *flagged]
+    if doubts:
+        lines += ["", "Unsicher in der Vorprüfung (Hinweis, kein Urteil):", *doubts]
     return "\n".join(lines)
 
 
@@ -203,6 +238,26 @@ def flagged_spots(turn: Turn, probabilities: Mapping[str, float], t: float) -> l
         spots.append(
             "Der Redebeitrag enthält Sachliches, das unter den Aussagen fehlt "
             "(neue Information, Wertung mit Faktengehalt oder Aussage über sich selbst)."
+        )
+    return spots
+
+
+def doubtful_spots(turn: Turn, probabilities: Mapping[str, float], t: float) -> list[str]:
+    """Jev questions below t, for the LLM judge's full verdict (issue #15): where to look.
+
+    A statement question is named by its fact IDs only; the author's statement text stays hidden
+    from the verdict (design: no shared context with the author)."""
+    spots = []
+    for n, s in enumerate(turn.statements):
+        p = probabilities.get(f"aussage_{n}")
+        if p is not None and p < t:
+            ids = ", ".join(f"[{i}]" for i in s.fact_ids)
+            spots.append(f"Eine Aussage, die sich auf {ids} beruft (p = {p:.2f}).")
+    p = probabilities.get(COMPLETENESS_KEY)
+    if p is not None and p < t:
+        spots.append(
+            f"Vollständigkeit (p = {p:.2f}): ob der Redebeitrag außer den Aussagen nur "
+            "Reaktionen enthält, auch in seinen Fragen."
         )
     return spots
 
@@ -246,7 +301,10 @@ def judge_turn(
         probabilities = jev.ask(state, questions)
     except (JevOverlengthError, JevTransientError) as exc:
         verdict = llm.complete_json(
-            VERDICT_PROMPT, format_judge_input(turn, facts), VERDICT_SCHEMA, cache_system=True
+            VERDICT_PROMPT,
+            format_judge_input(turn, facts, previous=previous),
+            VERDICT_SCHEMA,
+            cache_system=True,
         )
         return TurnJudgement(
             turn.index,
@@ -261,13 +319,20 @@ def judge_turn(
     if decision is Decision.REJECTED:
         spots = flagged_spots(turn, probabilities, t)
         answer = llm.complete_json(
-            REASON_PROMPT, format_judge_input(turn, facts, spots), REASON_SCHEMA, cache_system=True
+            REASON_PROMPT,
+            format_judge_input(turn, facts, spots, previous),
+            REASON_SCHEMA,
+            cache_system=True,
         )
         return TurnJudgement(
             turn.index, False, "jev", probabilities, reason=str(answer.get("reason", ""))
         )
+    doubts = doubtful_spots(turn, probabilities, t)
     verdict = llm.complete_json(
-        VERDICT_PROMPT, format_judge_input(turn, facts), VERDICT_SCHEMA, cache_system=True
+        VERDICT_PROMPT,
+        format_judge_input(turn, facts, previous=previous, doubts=doubts),
+        VERDICT_SCHEMA,
+        cache_system=True,
     )
     return TurnJudgement(
         turn.index,

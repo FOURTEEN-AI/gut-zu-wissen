@@ -13,7 +13,7 @@ Fest über alle Folgen. Das Reaktionskriterium ist Teil der Judge-Rubrik.
 ## Reaktionskriterium (belegfrei)
 
 - **Erlaubt:** Gefühl im Moment (Staunen, Neugier, Belustigung), Nachfrage, Bitte um Erklärung, Überleitung, Wiederaufgreifen des eben Gesagten ohne neue Information.
-- **Nicht erlaubt:** neue Information; Wertung des Inhalts mit Faktengehalt; Aussagen über sich selbst über den Moment hinaus.
+- **Nicht erlaubt:** neue Information; Wertung des Inhalts mit Faktengehalt; Aussagen über sich selbst über den Moment hinaus; Nachfrage, die eine Antwort nahelegt (Wertwort, Vermutung oder Einzelheit aus einem späteren Fakt), sie ist eine Prämisse (2026-11-21, #15).
 - Die Reaktionen unten sind Beispiele für Ton und Stil, keine abschließende Liste.
 
 ## Lena – Expertin

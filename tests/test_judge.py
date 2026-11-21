@@ -15,6 +15,7 @@ from gut_zu_wissen.judge import (
     build_request,
     completeness_question,
     decide,
+    doubtful_spots,
     format_judge_input,
     judge_dialog,
     judge_turn,
@@ -192,3 +193,66 @@ def test_completeness_question_is_the_one_measured_on_real_turns():
     records = json.loads(COMPLETENESS_RUN.read_text())
     measured = {json.dumps(r["requests"][0]["request"]["questions"]["old"]) for r in records}
     assert measured == {json.dumps(completeness_question())}
+
+
+# ---- reference and anticipation (issues #8, #15)
+
+
+def test_llm_judge_sees_previous_turn_before_the_turn():
+    question = Turn(0, "Felix", "Und wie alt war das Getriebe?", [], [])
+    text = format_judge_input(turn(1), FACTS, previous=question)
+    assert text.startswith("Vorheriger Redebeitrag (Felix):\nUnd wie alt war das Getriebe?\n\n")
+    assert text.index("Redebeitrag (Lena):") < text.index("Zitierte Fakten:")
+
+
+@pytest.mark.parametrize("ps", [{"aussage_0": 0.03}, {"aussage_0": 0.6}])
+def test_both_llm_judge_modes_get_the_previous_turn(ps):
+    llm, previous = FakeLlm(), Turn(0, "Felix", "VORHER?", [], [])
+    judge_turn(FakeJev({**ps, COMPLETENESS_KEY: 0.99}), llm, turn(1), previous, FACTS, T)
+    assert "Vorheriger Redebeitrag (Felix):\nVORHER?" in llm.calls[0][1]
+
+
+def test_transient_error_verdict_gets_the_previous_turn():
+    llm = FakeLlm()
+    judge_turn(FakeJev(error=JevTransientError("y")), llm, turn(1), turn(0), FACTS, T)
+    assert "Vorheriger Redebeitrag (Lena):" in llm.calls[0][1]
+    assert "Unsicher in der Vorprüfung" not in llm.calls[0][1]
+
+
+def test_uncertain_verdict_lists_jev_questions_below_t_as_hint():
+    t = turn(
+        statements=[Statement("A", ["1-0"]), Statement("GEHEIM-B", ["1-1"])], ids=("1-0", "1-1")
+    )
+    llm = FakeLlm()
+    judge_turn(
+        FakeJev({"aussage_0": 0.99, "aussage_1": 0.6, COMPLETENESS_KEY: 0.11}),
+        llm,
+        t,
+        None,
+        FACTS,
+        T,
+    )
+    user = llm.calls[0][1]
+    hint = user[user.index("Unsicher in der Vorprüfung (Hinweis, kein Urteil):") :]
+    assert "Eine Aussage, die sich auf [1-1] beruft (p = 0.60)." in hint
+    assert "Vollständigkeit (p = 0.11)" in hint
+    assert "[1-0] beruft" not in hint and "GEHEIM-B" not in user  # no author text
+
+
+def test_rejection_reason_has_flagged_spots_but_no_doubt_hint():
+    llm = FakeLlm()
+    judge_turn(FakeJev({"aussage_0": 0.03, COMPLETENESS_KEY: 0.6}), llm, turn(), None, FACTS, T)
+    assert "Beanstandete Stellen:" in llm.calls[0][1]
+    assert "Unsicher in der Vorprüfung" not in llm.calls[0][1]
+
+
+def test_doubtful_spots_at_t_is_no_doubt():
+    assert doubtful_spots(turn(), {"aussage_0": 0.95, COMPLETENESS_KEY: 0.95}, T) == []
+
+
+def test_rubric_covers_references_answers_and_anticipating_questions():
+    for prompt in (VERDICT_PROMPT, REASON_PROMPT):
+        assert "Bezugswort" in prompt
+        assert "anderen Gegenstand handelt als die Frage" in prompt
+        assert "Legt sie eine Antwort nahe" in prompt
+        assert "er ist kein Beleg" in prompt
