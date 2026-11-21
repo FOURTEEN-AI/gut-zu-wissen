@@ -7,7 +7,16 @@
   "section_max_chars": 6000,
   "stt_model": "large-v3",
   "section_retries": 2,
-  "pronunciation": [],
+  "pronunciation": [
+    {
+      "written": "Lena",
+      "spoken": "Lena",
+      "heard": [
+        "Lina",
+        "Leda"
+      ]
+    }
+  ],
   "sections": [
     {
       "index": 0,
@@ -33,127 +42,219 @@
       ],
       "chars": 4003,
       "file": "sections/00.flac",
-      "seconds": 234.6,
+      "seconds": 232.24,
       "input_tokens": 969,
-      "output_tokens": 5865,
-      "usd": 0.0533,
+      "output_tokens": 5806,
+      "usd": 0.0527,
       "verified": true,
       "attempts": [
         {
           "attempt": 0,
-          "seconds": 234.6,
+          "turn_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "seconds": 232.24,
           "input_tokens": 969,
-          "output_tokens": 5865,
-          "usd": 0.0533,
-          "transcript": "Heute geht es um den Main. Er ist mit 527 Kilometern Fließstrecke der längste rechte Nebenfluss des Rheins. Seine Quellflüsse entspringen an zwei ganz verschiedenen Orten. Der Weiße Main kommt aus dem Fichtelgebirge, der Rote Main aus der Fränkischen Alb. 527 Kilometer, das ist schon eine ordentliche Strecke. Aber ist das auch der längste Weg, den Wasser im Mainsystem zurücklegen kann oder gibt es da noch eine Überraschung? Es gibt eine. Der längste Weg im Main-System führt nämlich über die Fichtenuhr, die Pegnitz und die Regnitz in den Main. Die Pegnitz ist auf diesem Weg 128,25 Kilometer lang, die Regnitz 63,76. Dieser Weg erreicht den Main bei Mainkilometer 384,07. Seine Gesamtlänge beträgt 576,08 Kilometer. Die Fichtenuhr habe ich bisher noch nie gehört. Wo entspringt denn dieser Fluss, der am Anfang des längsten Weges steht? Die Fichtenuhr entspringt in unmittelbarer Nähe der Quelle des Roten Mains. Und die Regnitz hat noch eine Besonderheit. An der Mündung führt sie deutlich mehr Wasser als der Main selbst, nämlich 56,6 Kubikmeter pro Sekunde gegenüber 44,7. Deshalb kann sie hydrographisch sogar als der Hauptfluss des Mainsystems gelten. Die Regnitz führt an der Mündung also mehr Wasser als der Main. Das überrascht mich. Aber wo hört dieses Flusssystem eigentlich auf und wo beginnt das nächste? Im Süden grenzt das Einzugsgebiet des Mains an das der Donau. Wenige hundert Meter südlich der Weißmainquelle liegt die Quelle der Fichtel-Nab. Die fließt über Nab und Donau ins Schwarze Meer ab. Die Grenze zwischen beiden Einzugsgebieten ist Teil der europäischen Hauptwasserscheide. Zwei Quellen nur wenige hundert Meter auseinander und ihr Wasser landet in ganz verschiedenen Meeren. War das immer so? Floss der Main schon immer in Richtung Rhein? Nein. Noch gegen Ende des Tertiärs, vor etwa 2,6 Millionen Jahren, wurde das Maingebiet durch mehrere Flussläufe nach Süden zur Donau hin entwässert. Zur Donau also? Und was war noch davor? Gab's da schon so etwas wie einen Vorläufer des Mains? Ja. Dieser Vorläufer floss nur bis Bamberg, wie der heutige Main von Osten nach Westen. Von dort an folgte er dem heutigen Regnitz- und Rednitztal nach Süden. Bei Augsburg mündete er in ein Meer, das sich damals im Alpenvorland ausbreitete. Einen Rest der Tethys. Ein Meer bei Augsburg? Das kann man sich heute kaum vorstellen. Gab es auf dem Weg zum heutigen Lauf noch dramatische Ereignisse? Ja, und was für eines. Vor etwa 14,7 Millionen Jahren wurde der Urmain durch Trümmermassen eines Meteoriteneinschlags aufgestaut. Gemeint ist das Nördlinger Ries. Nördlich von Treuchtlingen entstand dadurch ein riesiger See. Er lief später wieder aus. Wahnsinn! Damit hätte ich nie gerechnet. Springen wir in die Gegenwart. Wie sind Main und Donau heute miteinander verbunden? Durch den Main-Donau-Kanal. Er ist rund 171 Kilometer lang. Eine Bundeswasserstraße in Bayern. und verbindet den Main bei Bamberg mit der Donau bei Kelheim. Mit ihm entstand eine durchgehende Großschifffahrtsstraße, genannt Europakanal. Sie führt über Rhein, Main und Donau, von der Nordsee bei Rotterdam bis zum Schwarzen Meer bei Constanza in Rumänien. Von Rotterdam bis ans Schwarze Meer? Auf einer durchgehenden Wasserstraße? Das klingt nach einer ziemlichen Strecke. Wie kommt der Kanal denn von einem Fluss zum anderen? Über die sogenannte Scheitelhaltung. Das ist ein 17 Kilometer langer Abschnitt, der die Fränkische Alb überquert, ein Mittelgebirge. Dort verläuft die europäische Hauptwasserscheide Rheindonau. Mit 406 Metern über Normalhöhen Null ist er der höchste Punkt des europäischen Wasserstraßennetzes. Das ist ja ein Berg für Schiffe. Wann wurde der Kanal eigentlich eröffnet und hat er etwas im Fluss verändert?",
+          "output_tokens": 5806,
+          "usd": 0.0527,
+          "transcript": "Heute geht es um den Main. Er ist mit 527 Kilometern Fließstrecke der längste rechte Nebenfluss des Rheins. Seine Quellflüsse entspringen an zwei ganz verschiedenen Orten. Der Weiße Main kommt aus dem Fichtelgebirge, der Rote Main aus der Fränkischen Alb. 527 Kilometer, das ist schon eine ordentliche Strecke. Aber ist das auch der längste Weg, den Wasser im Main-System zurücklegen kann oder gibt es da noch eine Überraschung? Es gibt eine. Der längste Weg im Main-System führt nämlich über die Fichtenuhr, die Pägnitz und die Regnitz in den Main. Die Pägnitz ist auf diesem Weg 128,25 Kilometer lang, die Regnitz 63,76. Dieser Weg erreicht den Main bei Mainkilometer 384,07. Seine Gesamtlänge beträgt 576,08 Kilometer. Die Fichtenohe habe ich bisher noch nie gehört. Wo entspringt denn dieser Fluss, der am Anfang des längsten Weges steht? Die Fichtenohe entspringt in unmittelbarer Nähe der Quelle des Roten Mains. Und die Regnitz hat noch eine Besonderheit. An der Mündung führt sie deutlich mehr Wasser als der Main selbst, nämlich 56,6 Kubikmeter pro Sekunde gegenüber 44,7. Deshalb kann sie hydrografisch sogar als der Hauptfluss des Main-Systems gelten. Die Regnitz führt an der Mündung also mehr Wasser als der Main? Das überrascht mich. Aber wo hört dieses Flusssystem eigentlich auf und wo beginnt das Nächste? Im Süden grenzt das Einzugsgebiet des Mains an das der Donau. Wenige hundert Meter südlich der Weißmainquelle liegt die Quelle der Fichtel-Nab. Die fließt über Nab und Donau ins Schwarze Meer ab. Die Grenze zwischen beiden Einzugsgebieten ist Teil der europäischen Hauptwasserscheide. Zwei Quellen nur wenige hundert Meter auseinander und ihr Wasser landet in ganz verschiedenen Meeren. War das immer so? Floss der Main schon immer in Richtung Rhein? Nein. Noch gegen Ende des Tertiärs, vor etwa 2,6 Millionen Jahren, wurde das Maingebiet durch mehrere Flussläufe nach Süden zur Donau hin entwässert. Zur Donau also. Und was war noch davor? Gab es da schon so etwas wie einen Vorläufer des Mains? Ja. Dieser Vorläufer floss nur bis Bamberg, wie der heutige Main, von Osten nach Westen. Von dort an folgte er dem heutigen Regnitz- und Rednitztal nach Süden. Bei Augsburg mündete er in ein Meer, das sich damals im Alpenvorland ausbreitete, einen Rest der Tethys. Ein Meer bei Augsburg, das kann man sich heute kaum vorstellen. Gab es auf dem Weg zum heutigen Lauf noch dramatische Ereignisse? Ja, und was für eines. Vor etwa 14,7 Millionen Jahren wurde der Urmain durch Trümmermassen eines Meteoriteneinschlags aufgestaut. Gemeint ist das Nördlinger Ries. Nördlich von Treuchtlingen entstand dadurch ein riesiger See. Er lief später wieder aus. Wahnsinn, damit hätte ich nie gerechnet. Springen wir in die Gegenwart. Wie sind Main und Donau heute miteinander verbunden? Durch den Main-Donau-Kanal. Er ist rund 171 Kilometer lang, eine Bundeswasserstraße in Bayern, und verbindet den Main bei Bamberg mit der Donau bei Kelheim. Mit ihm entstand eine durchgehende Großschifffahrtsstraße, genannt Europakanal. Sie führt über Rhein, Main und Donau von der Nordsee bei Rotterdam bis zum Schwarzen Meer bei Konstanza in Rumänien. Von Rotterdam bis ans Schwarze Meer auf einer durchgehenden Wasserstraße. Das klingt nach einer ziemlichen Strecke. Wie kommt der Kanal denn von einem Fluss zum anderen? Über die sogenannte Scheitelhaltung. Das ist ein 17 Kilometer langer Abschnitt, der die Fränkische Alb überquert, ein Mittelgebirge. Dort verläuft die europäische Hauptwasserscheide Rheindonau. Mit 406 Metern über Normalhöhe Null ist er der höchste Punkt des europäischen Wasserstraßennetzes. Das ist ja ein Berg für Schiffe. Wann wurde der Kanal eigentlich eröffnet und hat er etwas im Fluss verändert?",
           "deviations": [
             {
               "index": 0,
-              "expected": "Main System",
-              "heard": "Mainsystem",
-              "context_before": "der längste Weg den Wasser im",
-              "context_after": "zurücklegen kann Oder gibt es da",
-              "changes_statement": false,
-              "reason": "Nur Zusammenschreibung von Main-System bzw. Mainsystem, gesprochen identisch."
-            },
-            {
-              "index": 1,
               "expected": "Fichtenohe",
               "heard": "Fichtenuhr",
               "context_before": "Main System führt nämlich über die",
               "context_after": "die Pegnitz und die Regnitz in",
               "changes_statement": false,
-              "reason": "„Fichtenuhr“ klingt deutsch fast gleich wie „Fichtenohe“, Hörfehler der Spracherkennung."
+              "reason": "„Fichtenuhr“ klingt deutsch gesprochen fast wie „Fichtenohe“; Hörfehler der Spracherkennung bei einem Eigennamen.",
+              "script_start": 82,
+              "script_end": 83,
+              "heard_start": 82,
+              "heard_end": 83,
+              "heard_again": "System führt nämlich über die Fichtenuhr, die Pagnets und die Räder.",
+              "heard_again_matches": false
+            },
+            {
+              "index": 1,
+              "expected": "Pegnitz",
+              "heard": "Pägnitz",
+              "context_before": "führt nämlich über die Fichtenohe die",
+              "context_after": "und die Regnitz in den Main",
+              "changes_statement": null,
+              "reason": null,
+              "script_start": 84,
+              "script_end": 85,
+              "heard_start": 84,
+              "heard_end": 85,
+              "heard_again": "nämlich über die Fichtenuhr, die Pegnitz und die Regnitz in den Mund.",
+              "heard_again_matches": true
             },
             {
               "index": 2,
+              "expected": "Pegnitz",
+              "heard": "Pägnitz",
+              "context_before": "die Regnitz in den Main Die",
+              "context_after": "ist auf diesem Weg hundertachtundzwanzig Komma zwei fünf",
+              "changes_statement": null,
+              "reason": null,
+              "script_start": 92,
+              "script_end": 93,
+              "heard_start": 92,
+              "heard_end": 93,
+              "heard_again": "die Pegnitz in den Main. Die Pegnitz ist auf diesem Weg hohe Höhe.",
+              "heard_again_matches": true
+            },
+            {
+              "index": 3,
               "expected": "hundertachtundzwanzig Komma zwei fünf",
               "heard": "128,25",
               "context_before": "Die Pegnitz ist auf diesem Weg",
               "context_after": "Kilometer lang die Regnitz dreiundsechzig Komma sieben sechs",
               "changes_statement": false,
-              "reason": "Gleiche Zahl 128,25, nur als Ziffern geschrieben."
+              "reason": "128,25 entspricht „hundertachtundzwanzig Komma zwei fünf“; nur Zahlschreibweise.",
+              "script_start": 97,
+              "script_end": 99,
+              "heard_start": 97,
+              "heard_end": 98,
+              "heard_again": "Regnitz ist auf diesem Weg 128,25 Kilometer lang. Die Regnitz.",
+              "heard_again_matches": false
             },
             {
-              "index": 3,
+              "index": 4,
               "expected": "dreiundsechzig Komma sieben sechs",
               "heard": "63,76",
               "context_before": "hundertachtundzwanzig Komma zwei fünf Kilometer lang die Regnitz",
               "context_after": "Dieser Weg erreicht den Main bei",
               "changes_statement": false,
-              "reason": "Gleiche Zahl 63,76, nur als Ziffern geschrieben."
+              "reason": "63,76 entspricht „dreiundsechzig Komma sieben sechs“; gleiche Zahl.",
+              "script_start": 103,
+              "script_end": 105,
+              "heard_start": 102,
+              "heard_end": 103,
+              "heard_again": "2,5 Kilometer lang. Die Regnitz 63,76. Dieser Weg erreicht in",
+              "heard_again_matches": false
             },
             {
-              "index": 4,
+              "index": 5,
               "expected": "dreihundertvierundachtzig Komma null sieben",
               "heard": "384,07",
               "context_before": "Weg erreicht den Main bei Mainkilometer",
               "context_after": "Seine Gesamtlänge beträgt fünfhundertsechsundsiebzig Komma null acht Kilometer",
               "changes_statement": false,
-              "reason": "Gleiche Zahl 384,07, nur als Ziffern geschrieben."
+              "reason": "384,07 entspricht „dreihundertvierundachtzig Komma null sieben“; gleiche Zahl.",
+              "script_start": 112,
+              "script_end": 114,
+              "heard_start": 110,
+              "heard_end": 111,
+              "heard_again": "erreicht in Main bei Mainkilometer 384,07. Seine Gesamtlänge beträgt 576,08 Kilometer.",
+              "heard_again_matches": false
             },
             {
-              "index": 5,
+              "index": 6,
               "expected": "fünfhundertsechsundsiebzig Komma null acht",
               "heard": "576,08",
               "context_before": "Mainkilometer dreihundertvierundachtzig Komma null sieben Seine Gesamtlänge beträgt",
               "context_after": "Kilometer Die Fichtenohe habe ich bisher",
               "changes_statement": false,
-              "reason": "Gleiche Zahl 576,08, nur als Ziffern geschrieben."
-            },
-            {
-              "index": 6,
-              "expected": "Fichtenohe",
-              "heard": "Fichtenuhr",
-              "context_before": "Gesamtlänge beträgt fünfhundertsechsundsiebzig Komma null acht Kilometer Die",
-              "context_after": "habe ich bisher noch nie gehört",
-              "changes_statement": false,
-              "reason": "„Fichtenuhr“ klingt fast gleich wie „Fichtenohe“, Hörfehler der Spracherkennung."
+              "reason": "576,08 entspricht „fünfhundertsechsundsiebzig Komma null acht“; gleiche Zahl.",
+              "script_start": 117,
+              "script_end": 119,
+              "heard_start": 114,
+              "heard_end": 115,
+              "heard_again": "bei meinKilometer 384,07. Seine Gesamtlänge beträgt 576,08 Kilometer.",
+              "heard_again_matches": false
             },
             {
               "index": 7,
-              "expected": "Fichtenohe",
-              "heard": "Fichtenuhr",
-              "context_before": "Anfang des längsten Weges steht Die",
-              "context_after": "entspringt in unmittelbarer Nähe der Quelle",
-              "changes_statement": false,
-              "reason": "„Fichtenuhr“ klingt fast gleich wie „Fichtenohe“, Hörfehler der Spracherkennung."
+              "expected": "hydrographisch",
+              "heard": "hydrografisch",
+              "context_before": "Sekunde gegenüber vierundvierzig Komma sieben Deshalb kann sie",
+              "context_after": "sogar als der Hauptfluss des Mainsystems",
+              "changes_statement": null,
+              "reason": null,
+              "script_start": 180,
+              "script_end": 181,
+              "heard_start": 176,
+              "heard_end": 177,
+              "heard_again": "gegenüber 44,7. Deshalb kann sie hydrographisch sogar als der Hauptfluss des",
+              "heard_again_matches": true
             },
             {
               "index": 8,
+              "expected": "Mainsystems",
+              "heard": "Main Systems",
+              "context_before": "hydrographisch sogar als der Hauptfluss des",
+              "context_after": "gelten Die Regnitz führt an der",
+              "changes_statement": false,
+              "reason": "„Main Systems“ ist nur eine andere Getrennt-/Zusammenschreibung von „Mainsystems“; gleich gesprochen.",
+              "script_start": 186,
+              "script_end": 187,
+              "heard_start": 182,
+              "heard_end": 184,
+              "heard_again": "sogar als der Hauptfluss des Main-Systems gelten.",
+              "heard_again_matches": false
+            },
+            {
+              "index": 9,
               "expected": "Fichtelnaab",
               "heard": "Fichtel Nab",
               "context_before": "der Weißmainquelle liegt die Quelle der",
               "context_after": "Die fließt über Naab und Donau",
               "changes_statement": false,
-              "reason": "„Fichtel Nab“ klingt wie „Fichtelnaab“, nur andere Schreibweise des Namens."
+              "reason": "„Fichtel Nab“ klingt fast gleich wie „Fichtelnaab“; Schreibvariante bzw. Hörfehler, gleicher Fluss.",
+              "script_start": 236,
+              "script_end": 237,
+              "heard_start": 233,
+              "heard_end": 235,
+              "heard_again": "Quelle liegt die Quelle der Fichtelnarb. Die fließt über Narb",
+              "heard_again_matches": false
             },
             {
-              "index": 9,
+              "index": 10,
               "expected": "Naab",
               "heard": "Nab",
               "context_before": "Quelle der Fichtelnaab Die fließt über",
               "context_after": "und Donau ins Schwarze Meer ab",
               "changes_statement": false,
-              "reason": "„Nab“ ist eine gleich klingende Schreibweise von „Naab“."
-            },
-            {
-              "index": 10,
-              "expected": "Gab es",
-              "heard": "Gabs",
-              "context_before": "also Und was war noch davor",
-              "context_after": "da schon so etwas wie einen",
-              "changes_statement": false,
-              "reason": "„Gabs“ ist nur die verkürzte Aussprache von „Gab es“, gleicher Sinn."
+              "reason": "„Nab“ klingt fast gleich wie „Naab“; gleicher Flussname, nur Schreibweise.",
+              "script_start": 240,
+              "script_end": 241,
+              "heard_start": 238,
+              "heard_end": 239,
+              "heard_again": "Die Fließt über Narb und Donau ins Schwarze Meer.",
+              "heard_again_matches": false
             },
             {
               "index": 11,
               "expected": "Constanța",
-              "heard": "Constanza",
+              "heard": "Konstanza",
               "context_before": "Rotterdam bis zum Schwarzen Meer bei",
               "context_after": "in Rumänien Von Rotterdam bis ans",
               "changes_statement": false,
-              "reason": "„Constanza“ ist eine gleich klingende Schreibweise von „Constanța“."
+              "reason": "„Konstanza“ ist eine gleich klingende Schreibweise von „Constanța“.",
+              "script_start": 498,
+              "script_end": 499,
+              "heard_start": 496,
+              "heard_end": 497,
+              "heard_again": "bis zum Schwarzen Meer bei Constanza in Rumänien.",
+              "heard_again_matches": false
             },
             {
               "index": 12,
@@ -162,16 +263,28 @@
               "context_before": "Mittelgebirge Dort verläuft die Europäische Hauptwasserscheide",
               "context_after": "Mit vierhundertsechs Metern über Normalhöhennull ist",
               "changes_statement": false,
-              "reason": "Nur Zusammenschreibung von Rhein–Donau, gesprochen gleich."
+              "reason": "„Rheindonau“ ist nur zusammengeschrieben statt „Rhein Donau“; gleiche Wörter.",
+              "script_start": 550,
+              "script_end": 552,
+              "heard_start": 548,
+              "heard_end": 549,
+              "heard_again": "Dort verläuft die europäische Hauptwasserscheide Rheindonau. Mit 406 Metern übernommen wird die Hauptwasserscheide Rheindonau.",
+              "heard_again_matches": false
             },
             {
               "index": 13,
               "expected": "Normalhöhennull",
-              "heard": "Normalhöhen Null",
+              "heard": "Normalhöhe Null",
               "context_before": "Rhein Donau Mit vierhundertsechs Metern über",
               "context_after": "ist er der höchste Punkt des",
               "changes_statement": false,
-              "reason": "Nur Getrenntschreibung von „Normalhöhennull“, gesprochen gleich."
+              "reason": "„Normalhöhe Null“ klingt praktisch gleich wie „Normalhöhennull“; nur Getrennt-/Zusammenschreibung bzw. Endung, gleiche Bedeutung.",
+              "script_start": 556,
+              "script_end": 557,
+              "heard_start": 553,
+              "heard_end": 555,
+              "heard_again": "Mit 406 Metern über Normalhöhe Null ist er der höchste Punkt,",
+              "heard_again_matches": false
             }
           ],
           "changes_statement": false,
@@ -211,19 +324,47 @@
       ],
       "chars": 4062,
       "file": "sections/01.flac",
-      "seconds": 243.2,
+      "seconds": 239.2,
       "input_tokens": 1027,
-      "output_tokens": 6080,
-      "usd": 0.0552,
+      "output_tokens": 5980,
+      "usd": 0.0543,
       "verified": true,
       "attempts": [
         {
           "attempt": 0,
-          "seconds": 243.2,
+          "turn_indices": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+          ],
+          "seconds": 239.2,
           "input_tokens": 1027,
-          "output_tokens": 6080,
-          "usd": 0.0552,
-          "transcript": "Eröffnet wurde er 1992. Seitdem sind etwa 20 Arten aus dem Donauraum in den Main zugewandert. Dazu zählen unter anderem der Blaubandbärbling, die marmorierte Grundel, der Rapfen, die Zerte und der Zobel. 20 neue Fischarten, das ist eine Menge. Bleiben die im Main oder schwimmen sie noch weiter? Zumindest der Zobel ist weitergewandert. Über den Main-Donau-Kanal ist er mittlerweile in den Rhein eingewandert. Am Fischpass der Staustufe Iffelsheim wird er regelmäßig nachgewiesen. Fische nutzen den Kanal also als Weg von der Donau zum Rhein. Fließt denn auch Wasser durch ihn von einem Einzugsgebiet ins andere? Ja. Die Kanadrinne ist zusammen mit dem fränkischen Seenland Teil der Donaumeinüberleitung. Diese versorgt das von zeitweiliger Trockenheit bedrohte System von Regnitz und Main mit Wasser aus Donau und Altmühl. Die Regnitz und der Main sind also auf Nachschub aus der Donau und der Altmühl angewiesen. Um wie viel Wasser geht es denn da? Es geht um bis zu 15 Kubikmeter pro Sekunde. So viel mehr Wasser führt die Regnitz dann bei Niedrigwasser. Das Wasser kommt aus der Altmühl und über den Main-Donau-Kanal in das Einzugsgebiet des Mains. Genug vom Kanal. Wie war das früher im Winter? Frohr der Main manchmal zu? Und wie? Bis Ende des 19. Jahrhunderts frohr der Main etwa in jedem zweiten Jahr über seinen gesamten Lauf zu. Das geschah frühestens im November, so 1513 schon am 13. November, und spätestens im Januar. In jedem zweiten Jahr? Wie lange hielt so eine Eisdecke denn maximal? Die längste Vereisung gab es 1768. Sie dauerte 79 Tage. Vom 3. Januar bis zum 22. März. Fast drei Monate unter Eis. Das überrascht mich. Gab es denn auch ein letztes Mal, dass der Main in Frankfurt zugefroren ist? Ja, das gab es. In Frankfurt fror der Main zuletzt im Winter 1962 auf 63 zu. Interessant. Eis ist das eine Extrem. Wie war es mit dem anderen, Hochwasser? Gibt es davon alte Berichte? Ja, und zwar sehr alte. Die Frankfurter Mainbrücke hatte große Bedeutung für den Verkehr. Deshalb finden sich in den ältesten Berichten immer wieder Hinweise auf Hochwasserschäden. Genannt werden zum Beispiel 1192, 1235 und 1306. 1306 klingt nach einer besonderen Geschichte. Was ist in diesem Jahr passiert? Die Geschichte geht einem wirklich nah, finde ich. Aber du fragst bestimmt gleich nach den Zahlen, oder? Ja, ertappt, das geht mir wirklich nah. Gab es denn bei diesen Hochwassern auch einen Wasserstand, der besonders herausstach? Es gibt einen Stand von etwa 785 Zentimetern am Pegel. Er wurde niemals sonst erreicht. Qualtig. Das lässt mich staunen. Wechseln wir mal von den Fluten zu den Lebewesen im Fluss. Wie ging's den Fischen im Main? Da gab es einen drastischen Einbruch. An vielen Orten bestanden seit dem Mittelalter Fischerzünfte. In Frankfurt am Main zum Beispiel seit dem Jahr 945. Dann kamen die Flussregulierung und die für die Schifffahrt nötigen Veränderungen der Gewässerstruktur, etwa Uferbefestigungen. Zusammen mit der Wasserverschmutzung führte das zu einem drastischen Rückgang der Fischarten. Am Untermain sank ihre Zahl von etwa 30 bis 35 auf 4. Das klingt dramatisch. Wie konnte man zeigen, wie schlecht das Wasser war? Dazu gab es ein Experiment mit Goldfischen. Einer der Goldfische, dessen Aquarium mit Wasser aus einer Stelle unterhalb des Werkes höchst gefüllt worden war, überlebte es nicht. Autsch, das klingt nicht gut. Wurde denn dagegen etwas unternommen? Ja, es wurden Kläranlagen gebaut. Das Klärwerk Niederrad in Frankfurt ging 1887 in Betrieb, als erste Kläranlage Deutschlands. Dazu kamen zahlreiche weitere kommunale und industrielle Abwasserreinigungsanlagen. Geändert haben sie daran aber nichts. Das ist ernüchternd. Schauen wir auf die Schifffahrt. Wie kamen Schiffe früher den Fluss hinauf?",
+          "output_tokens": 5980,
+          "usd": 0.0543,
+          "transcript": "Eröffnet wurde er 1992. Seitdem sind etwa 20 Arten aus dem Donauraum in den Main zugewandert. Dazu zählen unter anderem der Blaubandbärbling, die marmorierte Grundel, der Rapfen, die Zerte und der Zobel. 20 neue Fischarten, das ist eine Menge. Bleiben die im Main oder schwimmen sie noch weiter? Zumindest der Zobel ist weitergewandert. Über den Main-Donau-Kanal ist er mittlerweile in den Rhein eingewandert. Am Fischpass der Staustufe Iffezheim wird er regelmäßig nachgewiesen. Fische nutzen den Kanal also als Weg von der Donau zum Rhein. Fließt denn auch Wasser durch ihn von einem Einzugsgebiet ins andere? Ja, die Kanalrinne ist zusammen mit dem fränkischen Seenland Teil der Donaumeinüberleitung. Diese versorgt das von zeitweiliger Trockenheit bedrohte System von Regnitz und Main mit Wasser aus Donau und Altmühl. Die Regnitz und der Main sind also auf Nachschub auf der Donau und der Altmühl angewiesen? Um wie viel Wasser geht es denn da? Es geht um bis zu 15 Kubikmeter pro Sekunde. So viel Meerwasser führt die Regnitz dann bei Niedrigwasser. Das Wasser kommt aus der Altmühl und über den Main-Donau-Kanal in das Einzugsgebiet des Mains. Genug vom Kanal. Wie war das früher im Winter? Froh der Main manchmal zu? Und wie? Bis Ende des 19. Jahrhunderts froh der Main etwa in jedem zweiten Jahr über seinen gesamten Lauf zu. Das geschah frühestens im November, so 1513 schon am 13. November und spätestens im Januar. In jedem zweiten Jahr? Wie lange hielt so eine Eisdecke denn maximal? Die längste Vereisung gab es 1768. Sie dauerte 79 Tage, vom 3. Januar bis zum 22. März. Fast drei Monate unter Eis, das überrascht mich. Gab es denn auch ein letztes Mal, dass der Main in Frankfurt zugefroren ist? Ja, das gab es. In Frankfurt fror der Main zuletzt im Winter 1962 auf 63 zu. Interessant. Eis ist das eine Extrem. Wie war es mit dem anderen, Hochwasser? Gibt es davon alte Berichte? Ja, und zwar sehr alte. Die Frankfurter Mainbrücke hatte große Bedeutung für den Verkehr. Deshalb finden sich in den ältesten Berichten immer wieder Hinweise auf Hochwasserschäden. Genannt werden zum Beispiel 1192, 1235 und 1306. 1306 klingt nach einer besonderen Geschichte. Was ist in diesem Jahr passiert? Die Geschichte geht einem wirklich nah, finde ich. Aber du fragst bestimmt gleich nach den Zahlen, oder? Ja, ertappt, das geht mir wirklich nah. Gab es denn bei diesen Hochwassern auch einen Wasserstand, der besonders herausstach? Es gibt einen Stand von etwa 785 Zentimetern am Pegel. Er wurde niemals sonst erreicht. erreicht. Gefaltig, das lässt mich staunen. Wechseln wir mal von den Fluten zu den Lebewesen im Fluss. Wie ging es den Fischen im Main? Da gab es einen drastischen Einbruch. An vielen Orten bestanden seit dem Mittelalter Fischerzünfte. In Frankfurt am Main zum Beispiel seit dem Jahr 945. Dann kamen die Flussregulierung und die für die Schifffahrt nötigen Veränderungen der Gewässerstruktur, etwa Uferbefestigungen. Zusammen mit der Wasserverschmutzung führte das zu einem drastischen Rückgang der Fischarten. Am Untermain sank ihre Zahl von etwa 30 bis 35 auf 4. Das klingt dramatisch. Wie konnte man zeigen, wie schlecht das Wasser war? Dazu gab es ein Experiment mit Goldfischen. Einer der Goldfische, dessen Aquarium mit Wasser aus einer Stelle unterhalb des Werkes höchst gefüllt worden war, überlebte es nicht. Autsch, das klingt nicht gut. Wurde denn dagegen etwas unternommen? Ja, es wurden Kläranlagen gebaut. Das Klärwerk Niederrad in Frankfurt ging 1887 in Betrieb, als erste Kläranlage Deutschlands. Dazu kamen zahlreiche weitere kommunale und industrielle Abwasserreinigungsanlagen. Geändert haben sie daran aber nichts. Das ist ernüchternd. Schauen wir auf die Schifffahrt. Wie kamen Schiffe früher den Fluss hinauf?",
           "deviations": [
             {
               "index": 0,
@@ -232,70 +373,103 @@
               "context_before": "die Marmorierte Grundel der Rapfen die",
               "context_after": "und der Zobel Zwanzig neue Fischarten",
               "changes_statement": false,
-              "reason": "„Zerte“ klingt fast wie „Zährte“; Hörfehler der Spracherkennung bei einem Fischnamen.“"
+              "reason": "„Zerte“ klingt fast wie „Zährte“ (Fischname); das ist ein Hörfehler der Spracherkennung, kein Fehler der Synthese.",
+              "script_start": 28,
+              "script_end": 29,
+              "heard_start": 28,
+              "heard_end": 29,
+              "heard_again": "Der rapfen die zerte und der zobel 20",
+              "heard_again_matches": false
             },
             {
               "index": 1,
-              "expected": "Iffezheim",
-              "heard": "Iffelsheim",
-              "context_before": "Rhein eingewandert Am Fischpass der Staustufe",
-              "context_after": "wird er regelmäßig nachgewiesen Fische nutzen",
-              "changes_statement": false,
-              "reason": "„Iffelsheim“ klingt ähnlich wie „Iffezheim“; Hörfehler bei einem Ortsnamen, kein Fehler der Synthese."
-            },
-            {
-              "index": 2,
-              "expected": "Kanalrinne",
-              "heard": "Kanadrinne",
-              "context_before": "einem Einzugsgebiet ins andere Ja Die",
-              "context_after": "ist zusammen mit dem Fränkischen Seenland",
-              "changes_statement": false,
-              "reason": "„Kanadrinne“ klingt fast wie „Kanalrinne“; Hörfehler der Spracherkennung."
-            },
-            {
-              "index": 3,
               "expected": "Donau Main Überleitung",
               "heard": "Donaumeinüberleitung",
               "context_before": "mit dem Fränkischen Seenland Teil der",
               "context_after": "Diese versorgt das von zeitweiliger Trockenheit",
+              "changes_statement": null,
+              "reason": null,
+              "script_start": 108,
+              "script_end": 111,
+              "heard_start": 108,
+              "heard_end": 109,
+              "heard_again": "mit dem fränkischen Seenland Teil der Donau-Main-Überleitung. Diese versorgt das von ...",
+              "heard_again_matches": true
+            },
+            {
+              "index": 2,
+              "expected": "aus",
+              "heard": "auf",
+              "context_before": "der Main sind also auf Nachschub",
+              "context_after": "der Donau und der Altmühl angewiesen",
               "changes_statement": false,
-              "reason": "„Donaumeinüberleitung“ ist nur eine zusammengeschriebene, verhörte Schreibweise von „Donau-Main-Überleitung“; gleiche gesprochene Wörter."
+              "reason": "„auf der Donau“ statt „aus der Donau“: kleine Präposition, Sinn bleibt gleich (Nachschub von der Donau); verschluckter Laut, keine Sinnänderung.",
+              "script_start": 138,
+              "script_end": 139,
+              "heard_start": 136,
+              "heard_end": 137,
+              "heard_again": "Main sind also auf Nachschub auf der Donau und der Alpen.",
+              "heard_again_matches": false
+            },
+            {
+              "index": 3,
+              "expected": "mehr Wasser",
+              "heard": "Meerwasser",
+              "context_before": "fünfzehn Kubikmeter pro Sekunde So viel",
+              "context_after": "führt die Regnitz dann bei Niedrigwasser",
+              "changes_statement": null,
+              "reason": null,
+              "script_start": 164,
+              "script_end": 166,
+              "heard_start": 162,
+              "heard_end": 163,
+              "heard_again": "Kilometer pro Sekunde. So viel mehr Wasser führt die Regnitz dann bei.",
+              "heard_again_matches": true
             },
             {
               "index": 4,
               "expected": "Fror",
-              "heard": "Frohr",
+              "heard": "Froh",
               "context_before": "Wie war das früher im Winter",
               "context_after": "der Main manchmal zu Und wie",
               "changes_statement": false,
-              "reason": "„Frohr“ ist nur eine andere Schreibweise von „fror“; gleich gesprochen."
+              "reason": "„Froh“ statt „Fror“ klingt fast gleich; Hörfehler der Spracherkennung, die Synthese sagt wahrscheinlich „fror“.",
+              "script_start": 198,
+              "script_end": 199,
+              "heard_start": 195,
+              "heard_end": 196,
+              "heard_again": "Wie war das früher im Winter? Frohr der Main manchmal zu?",
+              "heard_again_matches": false
             },
             {
               "index": 5,
               "expected": "fror",
-              "heard": "frohr",
+              "heard": "froh",
               "context_before": "wie Bis Ende des neunzehnten Jahrhunderts",
               "context_after": "der Main etwa in jedem zweiten",
               "changes_statement": false,
-              "reason": "„frohr“ ist nur eine andere Schreibweise von „fror“; gleich gesprochen."
+              "reason": "„froh“ statt „fror“: nahezu gleicher Klang, Hörfehler der Spracherkennung, kein Fehler der Synthese.",
+              "script_start": 210,
+              "script_end": 211,
+              "heard_start": 207,
+              "heard_end": 208,
+              "heard_again": "Bis Ende des 19. Jahrhunderts froh der Main etwa in jedem Jahr,",
+              "heard_again_matches": false
             },
             {
               "index": 6,
               "expected": "Gewaltig",
-              "heard": "Qualtig",
+              "heard": "erreicht Gefaltig",
               "context_before": "Pegel Er wurde niemals sonst erreicht",
               "context_after": "Das lässt mich staunen Wechseln wir",
               "changes_statement": false,
-              "reason": "„Qualtig“ klingt ähnlich wie „Gewaltig“; die Synthese sagte vermutlich „Gewaltig“, Hörfehler der Spracherkennung, Sinn bleibt."
-            },
-            {
-              "index": 7,
-              "expected": "ging es",
-              "heard": "gings",
-              "context_before": "zu den Lebewesen im Fluss Wie",
-              "context_after": "den Fischen im Main Da gab",
-              "changes_statement": false,
-              "reason": "„ging's“ ist die gesprochene Kurzform von „ging es“; gleiche Bedeutung."
+              "reason": "„Gefaltig“ statt „Gewaltig“: fast gleicher Klang, Hörfehler der Spracherkennung; die zusätzliche Wiederholung „erreicht“ ist ein Artefakt ohne Inhaltsänderung.",
+              "script_start": 420,
+              "script_end": 421,
+              "heard_start": 417,
+              "heard_end": 419,
+              "heard_again": "Er wurde niemals sonst erreicht. Gefaltig, das lässt mich staunen.",
+              "heard_again_matches": false
             }
           ],
           "changes_statement": false,
@@ -334,19 +508,46 @@
       ],
       "chars": 3990,
       "file": "sections/02.flac",
-      "seconds": null,
-      "input_tokens": 2004,
-      "output_tokens": 12213,
-      "usd": 0.1109,
-      "verified": false,
+      "seconds": 244.28,
+      "input_tokens": 1316,
+      "output_tokens": 8043,
+      "usd": 0.073,
+      "verified": true,
       "attempts": [
         {
           "attempt": 0,
-          "seconds": 245.32,
+          "turn_indices": [
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "seconds": 243.12,
           "input_tokens": 1002,
-          "output_tokens": 6133,
-          "usd": 0.0557,
-          "transcript": "Mithilfe einer Kette. Im Fluss wurde eine Kette verlegt, an der sich ein Dampfschlepper entlanghangeln konnte. Ein Schlepper, der sich an einer Kette durch den Fluss zieht? Was für ein Bild! Gab es auch am Wehr besondere Lösungen für Boote? Ja. 1934 wurde am Wehr in Hausen das weltweit erste Faltboothebewerk gebaut. Beeindruckend. Hat der Main eigentlich auch Gebiete voneinander getrennt? Ja. Nach der Gründung des Bistums Bamberg im Jahr 1007 war der Main zwischen Hallstatt und Michelau rund 800 Jahre die Grenze zum Bistum Würzburg. Spannend. Treuchtlingen kam vorhin schon beim See nach dem Meteoriteneinschlag vor. Gibt es dort noch andere Spuren der Vergangenheit? Ja. Reste der Fossa Carolina sind heute noch bei Treuchtlingen zu finden. Das klingt nach einem Ausflugsziel. Kommen wir zu den Orten am Main. Gibt es dort Rekorde? Gleich mehrere. Rotenfels, zu Füßen der romanischen gleichnamigen Burg, ist mit etwa 1000 Einwohnern die kleinste Stadt Bayerns. Und Kahl ist die tiefstgelegene Gemeinde in Bayern. Dort mündet das gleichnamige Flüsschen auf 103 Metern über Normal Null von rechts in den Main. Kurios. Gab's am Main auch Technik, die Geschichte geschrieben hat? Ja. Auf dem rechten Ufer in Kahlstein entstand 1961 das erste Atomkraftwerk der Bundesrepublik. Spannend. Und auf der kulturellen Seite gab es berühmte Begegnungen? Im September 1815 trafen sich Johann Wolfgang von Goethe und Marianne von Willemar zum Tätertät. Schön. Und wo endet der Main, den wir als Nebenfluss des Rheins kennengelernt haben? Die letzten Orte am Main sind Kostheim auf dem rechten und Gustavsburg auf dem linken Ufer. Beide waren zusammen mit Bischofsheim rechtsrheinische Stadtteile von Mainz. 1945 wurden sie durch eine alliierte Zonengrenze von der Stadt Mainz getrennt. Welcher der beiden letzten Orte liegt denn direkt an der Mündung? Kostheim. Es liegt unmittelbar an der Mündung des Mains in den Rhein. Gut, dann zum Schluss die Gegenwart. Was ist am Main bis heute lebendige Tradition? Der Betrieb der Mainfähren. Er ist seit 2022 als immaterielles Kulturerbe im Bayerischen Landesverzeichnis des immateriellen Kulturerbes gelistet. Fährleute bringen ganzjährig Menschen, Tiere und Fahrzeuge auf Zuruf über den Main. Auf Zuruf, das gefällt mir. Magst du uns zum Schluss noch den Bogen schließen? Gern. Vorher kommt aber noch ein Stück Baugeschichte. Ein 6 Kilometer langer und 30 Meter breiter, tief eingeschnittener Kanal wurde von 1950 bis 1957 angelegt. Das geschah im Rahmen der Notstandsmaßnahme der wertschaffenden Arbeitslosenfürsorge. Was für ein Wortungetüm. Wurde bei Kanälen eigentlich auch mal etwas beendet? Ja, ein im Zweiten Weltkrieg beschädigter Kanal wurde 1950 aufgegeben. Da steckt viel Wasserbau drin, da staune ich. Dann jetzt aber wirklich den Bogen, Leda. Gern. Der Main ist mit 527 Kilometern der längste rechte Nebenfluss des Rheins. Sein längster Weg führt über Fichte-Nohe, Pegnitz und Regnitz und misst 576,08 Kilometer. Die Regnitz führt an der Mündung mehr Wasser als der Main. Nur wenige hundert Meter südlich der Weißmainquelle liegt die Quelle der Fichtel-Nab, deren Wasser über die Donau ins Schwarze Meer fließt. Noch gegen Ende des Tertiärs wurde das Maingebiet durch mehrere Flussläufe nach Süden zur Donau hin entwässert. Vor etwa 14,7 Millionen Jahren staute ein Meteoriteneinschlag den Urmain zu einem riesigen See auf. Heute verbindet der Main-Donau-Kanal den Main bei Bamberg mit der Donau bei Kelheim. Über diesen Kanal ist der Zobel bis in den Rhein gelangt. Der Main fror früher etwa in jedem zweiten Jahr zu und die Fischarten am Untermain gingen drastisch zurück. Bis heute bringen Fährleute auf Zuruf Menschen, Tiere und Fahrzeuge über den Main.",
+          "output_tokens": 6078,
+          "usd": 0.0552,
+          "transcript": "Mithilfe einer Kette. Im Fluss wurde eine Kette verlegt, an der sich ein Dampfschlepper entlanghangeln konnte. Ein Schlepper, der sich an einer Kette durch den Fluss zieht. Was für ein Bild. Gab es auch am Wehr besondere Lösungen für Boote? Ja. 1934 wurde am Wehr in Hausen das weltweit erste Faltboothebewerk gebaut. Beeindruckend. Hat der Main eigentlich auch Gebiete voneinander getrennt? Ja. Nach der Gründung des Bistums Bamberg im Jahr 1007 war der Main zwischen Hallstatt und Michelau rund 800 Jahre die Grenze zum Bistum Würzburg. Spannend. Treuchtlingen kam vorhin schon beim See nach dem Meteoriteneinschlag vor. Gibt es dort noch andere Spuren der Vergangenheit? Ja. Reste der Fossa Carolina sind heute noch bei Treuchtlingen zu finden. Das klingt nach einem Ausflugsziel. Kommen wir zu den Orten am Main. Gibt es dort Rekorde? Gleich mehrere. Rotenfels, zu Füßen der romanischen gleichnamigen Burg, ist mit etwa 1000 Einwohnern die kleinste Stadt Bayerns. Und Kahl ist die tiefstgelegene Gemeinde in Bayern. Dort mündet das gleichnamige Flüsschen auf 103 Metern über Normalnull von rechts in den Main. Kurios. Gab es am Main auch Technik, die Geschichte geschrieben hat? Ja. Auf dem rechten Ufer in Kahlstein entstand 1961 das erste Atomkraftwerk der Bundesrepublik. Spannend. Und auf der kulturellen Seite, gab es berühmte Begegnungen? Im September 1815 trafen sich Johann Wolfgang von Goethe und Marianne von Willemar zum Tete-a-Tete. Oh, schön. Und wo endet der Main, den wir als Nebenfluss des Rheins kennengelernt haben? Die letzten Orte am Main sind Kostheim auf dem rechten und Gustavsburg auf dem linken Ufer. Beide waren zusammen mit Bischofsheim rechtsrheinische Stadtteile von Mainz. 1945 wurden sie durch eine alliierte Zonengrenze von der Stadt Mainz getrennt. Welcher der beiden letzten Orte liegt denn direkt an der Mündung? Kostheim. Es liegt unmittelbar an der Mündung des Mains in den Rhein. Gut, dann zum Schluss die Gegenwart. Was ist am Main bis heute lebendige Tradition? Der Betrieb der Mainfähren. Er ist seit 2022 als immaterielles Kulturerbe im Bayerischen Landesverzeichnis des immateriellen Kulturerbes gelistet. Fair-Leute bringen ganzjährig Menschen, Tiere und Fahrzeuge auf Zuruf über den Main. Auf Zuruf, das gefällt mir. Magst du uns zum Schluss noch den Bogen schließen? Gern. Vorher kommt aber noch ein Stück Baugeschichte. Ein sechs Kilometer langer und 30 Meter breiter, tief eingeschnittener Kanal wurde von 1950 bis 1957 angelegt. Das geschah im Rahmen der Notstandsmaßnahme der wertschaffenden Arbeitslosenfürsorge. Was für ein Wortungetüm. Wurde bei Kanälen eigentlich auch mal etwas beendet? Ja. Ein im Zweiten Weltkrieg beschädigter Kanal wurde 1950 aufgegeben. Da steckt viel Wasserbau drin. Da staune ich. Dann jetzt aber wirklich den Bogen, Lena. Gerne. Der Main ist mit 527 Kilometern der längste rechte Nebenfluss des Rheins. Sein längster Weg führt über Fichtnohe, Pegnitz und Regnitz und misst 576,08 Kilometer. Die Regnitz führt an der Mündung mehr Wasser als der Main. Nur wenige hundert Meter südlich der Weißmainquelle liegt die Quelle der Fichtelnab, deren Wasser über die Donau ins Schwarze Meer fließt. Noch gegen Ende des Tertiärs wurde das Maingebiet durch mehrere Flussläufe nach Süden zur Donau hin entwässert. Vor etwa 14,7 Millionen Jahren staute ein Meteoriteneinschlag den Urmain zu einem riesigen See auf. auf. Heute verbindet der Main-Donau-Kanal den Main bei Bamberg mit der Donau bei Kelheim. Über diesen Kanal ist der Zobel bis in den Rhein gelangt. Der Main fuhr früher etwa in jedem zweiten Jahr zu und die Fischarten am Untermain gingen drastisch zurück. Bis heute bringen Fährleute auf Zuruf Menschen, Tiere und Fahrzeuge über den Main.",
           "deviations": [
             {
               "index": 0,
@@ -355,7 +556,13 @@
               "context_before": "",
               "context_after": "einer Kette Im Fluss wurde eine",
               "changes_statement": false,
-              "reason": "Nur andere Schreibweise: „Mit Hilfe“ und „Mithilfe“ werden gleich gesprochen."
+              "reason": "„Mit Hilfe“ und „Mithilfe“ sind nur unterschiedliche Schreibweisen desselben Wortes.",
+              "script_start": 0,
+              "script_end": 2,
+              "heard_start": 0,
+              "heard_end": 1,
+              "heard_again": "Mithilfe einer Kette. Im Fluss wurde die Kette geöffnet.",
+              "heard_again_matches": false
             },
             {
               "index": 1,
@@ -363,8 +570,14 @@
               "heard": "Faltboothebewerk",
               "context_before": "Wehr in Hausen das weltweit erste",
               "context_after": "gebaut Beeindruckend Hat der Main eigentlich",
-              "changes_statement": false,
-              "reason": "Nur Getrennt- und Zusammenschreibung desselben Wortes."
+              "changes_statement": null,
+              "reason": null,
+              "script_start": 51,
+              "script_end": 53,
+              "heard_start": 50,
+              "heard_end": 51,
+              "heard_again": "in hausen das weltweit erste faltboot hebewerk gebaut beeindruckend hat der",
+              "heard_again_matches": true
             },
             {
               "index": 2,
@@ -373,7 +586,13 @@
               "context_before": "Jahr tausendsieben war der Main zwischen",
               "context_after": "und Michelau rund achthundert Jahre die",
               "changes_statement": false,
-              "reason": "„Hallstatt“ und „Hallstadt“ klingen gleich; das ist nur eine andere Schreibweise des Ortsnamens."
+              "reason": "„Hallstatt“ und „Hallstadt“ klingen gleich, das ist nur eine Schreibvariante des Ortsnamens.",
+              "script_start": 77,
+              "script_end": 78,
+              "heard_start": 75,
+              "heard_end": 76,
+              "heard_again": "war der Main zwischen Hallstatt und Michelau rund 800 Meter hoch.",
+              "heard_again_matches": false
             },
             {
               "index": 3,
@@ -382,163 +601,43 @@
               "context_before": "Gibt es dort Rekorde Gleich mehrere",
               "context_after": "zu Füßen der romanischen gleichnamigen Burg",
               "changes_statement": false,
-              "reason": "„Rotenfels“ und „Rothenfels“ klingen gleich, nur andere Schreibweise."
+              "reason": "„Rotenfels“ und „Rothenfels“ werden gleich gesprochen, nur die Schreibweise unterscheidet sich.",
+              "script_start": 137,
+              "script_end": 138,
+              "heard_start": 135,
+              "heard_end": 136,
+              "heard_again": "Gibt es dort Rekorde? Gleich mehrere. Rotenfels zu Füßen der romanischen Glocken.",
+              "heard_again_matches": false
             },
             {
               "index": 4,
-              "expected": "Normalnull",
-              "heard": "Normal Null",
-              "context_before": "gleichnamige Flüsschen auf einhundertdrei Metern über",
-              "context_after": "von rechts in den Main Kurios",
-              "changes_statement": false,
-              "reason": "Nur Getrennt- und Zusammenschreibung von „Normalnull“."
-            },
-            {
-              "index": 5,
-              "expected": "Gab es",
-              "heard": "Gabs",
-              "context_before": "von rechts in den Main Kurios",
-              "context_after": "am Main auch Technik die Geschichte",
-              "changes_statement": false,
-              "reason": "„Gab's“ ist eine Kurzform von „Gab es“, gleiche Bedeutung."
-            },
-            {
-              "index": 6,
               "expected": "Karlstein",
               "heard": "Kahlstein",
               "context_before": "Ja Auf dem rechten Ufer in",
               "context_after": "entstand neunzehnhunderteinundsechzig das erste Atomkraftwerk der",
-              "changes_statement": true,
-              "reason": "„Kahlstein“ statt „Karlstein“ ist ein anderer Ortsname und klingt deutlich anders; zudem ist Kahl im Text ein anderer Ort."
+              "changes_statement": null,
+              "reason": null,
+              "script_start": 193,
+              "script_end": 194,
+              "heard_start": 191,
+              "heard_end": 192,
+              "heard_again": "Auf dem rechten Ufer in Karlstein entstand 1961 das erste Abenteuer der Stadt Karlstein.",
+              "heard_again_matches": true
             },
             {
-              "index": 7,
+              "index": 5,
               "expected": "Willemer",
               "heard": "Willemar",
               "context_before": "Wolfgang von Goethe und Marianne von",
               "context_after": "zum Tête à Tête Oh schön",
               "changes_statement": false,
-              "reason": "„Willemar“ klingt fast gleich wie „Willemer“, ein Hörfehler bei einem Namen."
-            },
-            {
-              "index": 8,
-              "expected": "Tête à Tête Oh",
-              "heard": "Tätertät",
-              "context_before": "Goethe und Marianne von Willemer zum",
-              "context_after": "schön Und wo endet der Main",
-              "changes_statement": false,
-              "reason": "„Tätertät“ ist eine Fehlschreibung von „Tête-à-Tête“; die Spracherkennung hat das Fremdwort verhört. Die Aussage bleibt gleich. Auch das fehlende „Oh“ ist ein Füllwort ohne Inhalt."
-            },
-            {
-              "index": 9,
-              "expected": "das",
-              "heard": "da",
-              "context_before": "aufgegeben Da steckt viel Wasserbau drin",
-              "context_after": "staune ich Dann jetzt aber wirklich",
-              "changes_statement": false,
-              "reason": "„da staune ich“ statt „das staune ich“: Die Endung wurde verschluckt, der Sinn bleibt."
-            },
-            {
-              "index": 10,
-              "expected": "Lena",
-              "heard": "Leda",
-              "context_before": "Dann jetzt aber wirklich den Bogen",
-              "context_after": "Gern Der Main ist mit fünfhundertsiebenundzwanzig",
-              "changes_statement": true,
-              "reason": "„Leda“ statt „Lena“ ist ein anderer Name und klingt deutlich anders."
-            },
-            {
-              "index": 11,
-              "expected": "Fichtenohe",
-              "heard": "Fichte Nohe",
-              "context_before": "Rheins Sein längster Weg führt über",
-              "context_after": "Pegnitz und Regnitz und misst fünfhundertsechsundsiebzig Komma null",
-              "changes_statement": false,
-              "reason": "Nur Getrennt- und Zusammenschreibung desselben Flussnamens, gleich gesprochen."
-            },
-            {
-              "index": 12,
-              "expected": "fünfhundertsechsundsiebzig Komma null acht",
-              "heard": "576,08",
-              "context_before": "Fichtenohe Pegnitz und Regnitz und misst",
-              "context_after": "Kilometer Die Regnitz führt an der",
-              "changes_statement": false,
-              "reason": "Dieselbe Zahl, nur als Ziffern geschrieben (576,08)."
-            },
-            {
-              "index": 13,
-              "expected": "Fichtelnaab",
-              "heard": "Fichtel Nab",
-              "context_before": "der Weißmainquelle liegt die Quelle der",
-              "context_after": "deren Wasser über die Donau ins",
-              "changes_statement": false,
-              "reason": "„Fichtel Nab“ klingt fast gleich wie „Fichtelnaab“, nur Schreibweise bzw. Hörfehler des Namens."
-            }
-          ],
-          "changes_statement": true,
-          "action": "resynthesize"
-        },
-        {
-          "attempt": 1,
-          "seconds": 243.2,
-          "input_tokens": 1002,
-          "output_tokens": 6080,
-          "usd": 0.0552,
-          "transcript": "Mithilfe einer Kette. Im Fluss wurde eine Kette verlegt, an der sich ein Dampfschlepper entlanghangeln konnte. Ein Schlepper, der sich an einer Kette durch den Fluss zieht. Was für ein Bild. Gab es auch am Wehr besondere Lösungen für Boote? Ja. 1934 wurde am Wehr in Hausen das weltweit erste Faltboothebewerk gebaut. Beeindruckend. Hat der Main eigentlich auch Gebiete voneinander getrennt? Ja. Nach der Gründung des Bistums Bamberg im Jahr 1007 war der Main zwischen Hallstatt und Michelau rund 800 Jahre die Grenze zum Bistum Würzburg. Spannend. Treuchtlingen kam vorhin schon beim See nach dem Meteoriteneinschlag vor. Gibt es dort noch andere Spuren der Vergangenheit? Ja. Reste der Fossa Carolina sind heute noch bei Treuchtlingen zu finden. Das klingt nach einem Ausflugsziel. Kommen wir zu den Orten am Main. Gibt es dort Rekorde? Gleich mehrere. Rotenfels, zu Füßen der romanischen gleichnamigen Burg, ist mit etwa 1000 Einwohnern die kleinste Stadt Bayerns. Und Kahl ist die tiefstgelegene Gemeinde in Bayern. Dort mündet das gleichnamige Flüsschen auf 103 Metern über Normalnull von rechts in den Main. Kurios. Gab es am Main auch Technik, die Geschichte geschrieben hat? Ja. Auf dem rechten Ufer, in Kahlstein, entstand 1961 das erste Atomkraftwerk der Bundesrepublik. Spannend. Und auf der kulturellen Seite gab es berühmte Begegnungen? Im September 1815 trafen sich Johann Wolfgang von Goethe und Marianne von Willemmer zum Tete-a-Tete. Oh, schön. Und wo endet der Main, den wir als Nebenfluss des Rheins kennengelernt haben? Die letzten Orte am Main sind Kostheim auf dem rechten und Gustavsburg auf dem linken Ufer. Beide waren zusammen mit Bischofsheim rechtsrheinische Stadtteile von Mainz. 1941 wurden sie durch eine alliierte Zonengrenze von der Stadt Mainz getrennt. Welcher der beiden letzten Orte liegt denn direkt an der Mündung? Kostheim. Es liegt unmittelbar an der Mündung des Mains in den Rhein. Gut, dann zum Schluss die Gegenwart. Was ist am Main bis heute lebendige Tradition? Der Betrieb der Mainfähren. Er ist seit 2022 als immaterielles Kulturerbe im Bayerischen Landesverzeichnis des immateriellen Kulturerbes gelistet. Fährleute bringen ganzjährig Menschen, Tiere und Fahrzeuge auf Zuruf über den Main. Auf Zuruf, das gefällt mir. Magst du uns zum Schluss noch den Bogen schließen? Gern. Vorher kommt aber noch ein Stück Baugeschichte. Ein sechs Kilometer langer und 30 Meter breiter, tief eingeschnittener Kanal wurde von 1950 bis 1957 angelegt. Das geschah im Rahmen der Notstandsmaßnahme der wertschaffenden Arbeitslosenfürsorge. Was für ein Wortungetüm. Wurde bei Kanälen eigentlich auch mal etwas beendet? Ja, ein im Zweiten Weltkrieg beschädigter Kanal wurde 1950 aufgegeben. Da steckt viel Wasserbau drin, da staune ich. Dann jetzt aber wirklich den Bogen, Lena. Gern. Der Main ist mit 527 Kilometern der längste rechte Nebenfluss des Rheins. Sein längster Weg führt über Fichtenur, Pegnitz und Regnitz und misst 576,08 Kilometer. Die Regnitz führt an der Mündung mehr Wasser als der Main. Nur wenige hundert Meter südlich der Weißmainquelle liegt die Quelle der Fichtelnab, deren Wasser über die Donau ins Schwarze Meer fließt. Noch gegen Ende des Tertiärs wurde das Maingebiet durch mehrere Flussläufe nach Süden zur Donau hin entwässert. Vor etwa 14,7 Millionen Jahren staute ein Meteoriteneinschlag den Urmain zu einem riesigen See auf. Heute verbindet der Main-Donau-Kanal den Main bei Bamberg mit der Donau bei Kelheim. Über diesen Kanal ist der Zobel bis in den Rhein gelangt. Der Main fror früher etwa in jedem zweiten Jahr zu und die Fischarten am Untermain gingen drastisch zurück. Bis heute bringen Fährleute auf Zuruf Menschen, Tiere und Fahrzeuge über den Main.",
-          "deviations": [
-            {
-              "index": 0,
-              "expected": "Mit Hilfe",
-              "heard": "Mithilfe",
-              "context_before": "",
-              "context_after": "einer Kette Im Fluss wurde eine",
-              "changes_statement": null,
-              "reason": null
-            },
-            {
-              "index": 1,
-              "expected": "Faltboot Hebewerk",
-              "heard": "Faltboothebewerk",
-              "context_before": "Wehr in Hausen das weltweit erste",
-              "context_after": "gebaut Beeindruckend Hat der Main eigentlich",
-              "changes_statement": null,
-              "reason": null
-            },
-            {
-              "index": 2,
-              "expected": "Hallstadt",
-              "heard": "Hallstatt",
-              "context_before": "Jahr tausendsieben war der Main zwischen",
-              "context_after": "und Michelau rund achthundert Jahre die",
-              "changes_statement": null,
-              "reason": null
-            },
-            {
-              "index": 3,
-              "expected": "Rothenfels",
-              "heard": "Rotenfels",
-              "context_before": "Gibt es dort Rekorde Gleich mehrere",
-              "context_after": "zu Füßen der romanischen gleichnamigen Burg",
-              "changes_statement": null,
-              "reason": null
-            },
-            {
-              "index": 4,
-              "expected": "Karlstein",
-              "heard": "Kahlstein",
-              "context_before": "Ja Auf dem rechten Ufer in",
-              "context_after": "entstand neunzehnhunderteinundsechzig das erste Atomkraftwerk der",
-              "changes_statement": null,
-              "reason": null
-            },
-            {
-              "index": 5,
-              "expected": "Willemer",
-              "heard": "Willemmer",
-              "context_before": "Wolfgang von Goethe und Marianne von",
-              "context_after": "zum Tête à Tête Oh schön",
-              "changes_statement": null,
-              "reason": null
+              "reason": "„Willemar“ klingt fast wie „Willemer“, das ist ein Hörfehler bei der Schreibung des Namens.",
+              "script_start": 223,
+              "script_end": 224,
+              "heard_start": 221,
+              "heard_end": 222,
+              "heard_again": "Der Ausgang von Goethe und Marianne von Willemar zum Tät-a-Tät.",
+              "heard_again_matches": false
             },
             {
               "index": 6,
@@ -546,57 +645,227 @@
               "heard": "Tete a Tete",
               "context_before": "Goethe und Marianne von Willemer zum",
               "context_after": "Oh schön Und wo endet der",
-              "changes_statement": null,
-              "reason": null
+              "changes_statement": false,
+              "reason": "Das ist nur eine andere Schreibweise des Fremdworts „Tête-à-Tête“.",
+              "script_start": 225,
+              "script_end": 228,
+              "heard_start": 223,
+              "heard_end": 226,
+              "heard_again": "und Marianne von Willemar zum Tät-a-Tät. Oh, schön.",
+              "heard_again_matches": false
             },
             {
               "index": 7,
-              "expected": "Neunzehnhundertfünfundvierzig",
-              "heard": "1941",
-              "context_before": "mit Bischofsheim rechtsrheinische Stadtteile von Mainz",
-              "context_after": "wurden sie durch eine alliierte Zonengrenze",
-              "changes_statement": null,
-              "reason": null
+              "expected": "Fährleute",
+              "heard": "Fair Leute",
+              "context_before": "Bayerischen Landesverzeichnis des Immateriellen Kulturerbes gelistet",
+              "context_after": "bringen ganzjährig Menschen Tiere und Fahrzeuge",
+              "changes_statement": true,
+              "reason": "„Fair Leute“ ist nicht „Fährleute“, sondern ein anderes Wort. Das Gehörte klingt zwar ähnlich, Fährleute ist aber der inhaltlich wichtige Begriff und im Zweifel gilt die Aussage als verändert.",
+              "script_start": 335,
+              "script_end": 336,
+              "heard_start": 333,
+              "heard_end": 335,
+              "heard_again": "des immateriellen Kulturerbes gelistet. Fairleute bringen ganzjährig Menschen, Tiere,",
+              "heard_again_matches": false
             },
             {
               "index": 8,
               "expected": "das",
-              "heard": "da",
+              "heard": "Da",
               "context_before": "aufgegeben Da steckt viel Wasserbau drin",
               "context_after": "staune ich Dann jetzt aber wirklich",
-              "changes_statement": null,
-              "reason": null
+              "changes_statement": false,
+              "reason": "Das Wort „das“ wird zu „Da“ verschluckt bzw. als Satzanfang verändert, der Sinn „Da staune ich“ bleibt gleich.",
+              "script_start": 422,
+              "script_end": 423,
+              "heard_start": 421,
+              "heard_end": 422,
+              "heard_again": "Da steckt viel Wasserbau drin, da staune ich.",
+              "heard_again_matches": false
             },
             {
               "index": 9,
-              "expected": "Fichtenohe",
-              "heard": "Fichtenur",
-              "context_before": "Rheins Sein längster Weg führt über",
-              "context_after": "Pegnitz und Regnitz und misst fünfhundertsechsundsiebzig Komma null",
-              "changes_statement": null,
-              "reason": null
+              "expected": "Gern",
+              "heard": "Gerne",
+              "context_before": "jetzt aber wirklich den Bogen Lena",
+              "context_after": "Der Main ist mit fünfhundertsiebenundzwanzig Kilometern",
+              "changes_statement": false,
+              "reason": "„Gerne“ und „Gern“ sind gleichbedeutende Varianten.",
+              "script_start": 432,
+              "script_end": 433,
+              "heard_start": 431,
+              "heard_end": 432,
+              "heard_again": "jetzt aber wirklich den Bogen, Lena. Gerne. Der Main ist mit",
+              "heard_again_matches": false
             },
             {
               "index": 10,
+              "expected": "Fichtenohe",
+              "heard": "Fichtnohe",
+              "context_before": "Rheins Sein längster Weg führt über",
+              "context_after": "Pegnitz und Regnitz und misst fünfhundertsechsundsiebzig Komma null",
+              "changes_statement": false,
+              "reason": "„Fichtnohe“ klingt fast gleich wie „Fichtenohe“, nur ein verschlucktes „e“ im Namen.",
+              "script_start": 450,
+              "script_end": 451,
+              "heard_start": 449,
+              "heard_end": 450,
+              "heard_again": "Sein längster Weg führt über Fichtnohe, Pegnitz und Regnitz.",
+              "heard_again_matches": false
+            },
+            {
+              "index": 11,
               "expected": "fünfhundertsechsundsiebzig Komma null acht",
               "heard": "576,08",
               "context_before": "Fichtenohe Pegnitz und Regnitz und misst",
               "context_after": "Kilometer Die Regnitz führt an der",
-              "changes_statement": null,
-              "reason": null
+              "changes_statement": false,
+              "reason": "Die Zahl 576,08 entspricht „fünfhundertsechsundsiebzig Komma null acht“, nur anders geschrieben.",
+              "script_start": 456,
+              "script_end": 458,
+              "heard_start": 455,
+              "heard_end": 456,
+              "heard_again": "und Regnitz und misst 576,08 Kilometer.",
+              "heard_again_matches": false
             },
             {
-              "index": 11,
+              "index": 12,
               "expected": "Fichtelnaab",
               "heard": "Fichtelnab",
               "context_before": "der Weißmainquelle liegt die Quelle der",
               "context_after": "deren Wasser über die Donau ins",
+              "changes_statement": false,
+              "reason": "„Fichtelnab“ klingt fast gleich wie „Fichtelnaab“, das ist ein Hörfehler bei der Schreibung des Namens.",
+              "script_start": 481,
+              "script_end": 482,
+              "heard_start": 479,
+              "heard_end": 480,
+              "heard_again": "Weinquelle liegt die Quelle der Fichtelnab, deren Wasser über die Dosen der Fichtelnab",
+              "heard_again_matches": false
+            },
+            {
+              "index": 13,
+              "expected": "",
+              "heard": "auf",
+              "context_before": "Urmain zu einem riesigen See auf",
+              "context_after": "Heute verbindet der Main Donau Kanal",
               "changes_statement": null,
-              "reason": null
+              "reason": null,
+              "script_start": 523,
+              "script_end": 523,
+              "heard_start": 521,
+              "heard_end": 522,
+              "heard_again": "zu einem riesigen See auf. Heute verbindet der Main",
+              "heard_again_matches": true
+            },
+            {
+              "index": 14,
+              "expected": "fror",
+              "heard": "fuhr",
+              "context_before": "in den Rhein gelangt Der Main",
+              "context_after": "früher etwa in jedem zweiten Jahr",
+              "changes_statement": true,
+              "reason": "„fuhr zu“ statt „fror zu“ ist ein anderes Wort mit anderer Bedeutung, der Satz ändert seinen Sinn.",
+              "script_start": 551,
+              "script_end": 552,
+              "heard_start": 550,
+              "heard_end": 551,
+              "heard_again": "in den Rhein gelangt. Der Main fuhr früher etwa in jedem",
+              "heard_again_matches": false
             }
           ],
-          "changes_statement": null,
-          "action": null
+          "changes_statement": true,
+          "action": "resynthesize"
+        },
+        {
+          "attempt": 1,
+          "turn_indices": [
+            62
+          ],
+          "seconds": 16.36,
+          "input_tokens": 64,
+          "output_tokens": 409,
+          "usd": 0.0037,
+          "transcript": "Der Betrieb der Mainfähren. Er ist seit 2022 als immaterielles Kulturerbe im Bayerischen Landesverzeichnis des immateriellen Kulturerbes gelistet. Fährleute bringen ganzjährig Menschen, Tiere und Fahrzeuge auf Zuruf über den Main.",
+          "deviations": [],
+          "changes_statement": false,
+          "action": "accept"
+        },
+        {
+          "attempt": 2,
+          "turn_indices": [
+            68
+          ],
+          "seconds": 62.24,
+          "input_tokens": 250,
+          "output_tokens": 1556,
+          "usd": 0.0141,
+          "transcript": "Gern. Der Main ist mit 527 Kilometern der längste rechte Nebenfluss des Rheins. Sein längster Weg führt über Fichtnoe, Pegnitz und Regnitz und misst 576,08 Kilometer. Die Regnitz führt an der Mündung mehr Wasser als der Main. Nur wenige hundert Meter südlich der Weiß-Main-Quelle liegt die Quelle der Fichtel-Nab, deren Wasser über die Donau ins Schwarze Meer fließt. Noch gegen Ende des Tertiärs wurde das Maingebiet durch mehrere Flussläufe nach Süden zur Donau hin entwässert. Vor etwa 14,7 Millionen Jahren staute ein Meteoriteneinschlag den Urmain zu einem riesigen See auf. Heute verbindet der Main-Donau-Kanal den Main bei Bamberg mit der Donau bei Kelheim. Über diesen Kanal ist der Zobel bis in den Rhein gelangt. Der Main fror früher etwa in jedem zweiten Jahr zu und die Fischarten am Untermain gingen drastisch zurück. Bis heute bringen Fährleute auf Zuruf Menschen, Tiere und Fahrzeuge über den Main.",
+          "deviations": [
+            {
+              "index": 0,
+              "expected": "Fichtenohe",
+              "heard": "Fichtnoe",
+              "context_before": "Rheins Sein längster Weg führt über",
+              "context_after": "Pegnitz und Regnitz und misst fünfhundertsechsundsiebzig Komma null",
+              "changes_statement": false,
+              "reason": "„Fichtnoe“ ist eine Schreibvariante bzw. ein Hörfehler der Spracherkennung für „Fichtenohe“ und klingt fast gleich; die Aussage bleibt gleich.",
+              "script_start": 18,
+              "script_end": 19,
+              "heard_start": 18,
+              "heard_end": 19,
+              "heard_again": "Sein längster Weg führt über Fichtnohe, Pegnitz und Regnitz.",
+              "heard_again_matches": false
+            },
+            {
+              "index": 1,
+              "expected": "fünfhundertsechsundsiebzig Komma null acht",
+              "heard": "576,08",
+              "context_before": "Fichtenohe Pegnitz und Regnitz und misst",
+              "context_after": "Kilometer Die Regnitz führt an der",
+              "changes_statement": false,
+              "reason": "576,08 ist nur die Ziffernschreibweise von „fünfhundertsechsundsiebzig Komma null acht“; die Zahl ist identisch.",
+              "script_start": 24,
+              "script_end": 26,
+              "heard_start": 24,
+              "heard_end": 25,
+              "heard_again": "Regnitz und Regnitz und misst 576,08 Kilometer.",
+              "heard_again_matches": false
+            },
+            {
+              "index": 2,
+              "expected": "Weißmainquelle",
+              "heard": "Weiß Main Quelle",
+              "context_before": "Nur wenige hundert Meter südlich der",
+              "context_after": "liegt die Quelle der Fichtelnaab deren",
+              "changes_statement": false,
+              "reason": "„Weiß Main Quelle“ ist nur eine getrennte Schreibweise von „Weißmainquelle“; gesprochen identisch.",
+              "script_start": 44,
+              "script_end": 45,
+              "heard_start": 43,
+              "heard_end": 46,
+              "heard_again": "Wenige hundert Meter südlich der Weiß-Main-Quelle liegt die Quelle der",
+              "heard_again_matches": false
+            },
+            {
+              "index": 3,
+              "expected": "Fichtelnaab",
+              "heard": "Fichtel Nab",
+              "context_before": "der Weißmainquelle liegt die Quelle der",
+              "context_after": "deren Wasser über die Donau ins",
+              "changes_statement": false,
+              "reason": "„Fichtel Nab“ klingt fast gleich wie „Fichtelnaab“; es ist eine andere Schreibweise bzw. ein Hörfehler beim Namen, keine inhaltliche Änderung.",
+              "script_start": 49,
+              "script_end": 50,
+              "heard_start": 50,
+              "heard_end": 52,
+              "heard_again": "liegt die Quelle der Fichtel-Nab, deren Wasser über die Dome fließt.",
+              "heard_again_matches": false
+            }
+          ],
+          "changes_statement": false,
+          "action": "accept"
         }
       ]
     }
@@ -605,11 +874,639 @@
     "intro": "aa19a3a5ad6b9be14c64f543f8cba8d4e9c06111f095fef839a86fadc97312cf",
     "outro": "7b776b07c88661c0847e61dbdf7817e1df2faae0ccc343ee30a7fa067263939e"
   },
-  "joins": {},
-  "loudness": null,
-  "file": null,
-  "sample_rate": null,
-  "seconds": null,
-  "usd": null,
-  "previous_attempts": []
+  "joins": {
+    "edge_silence_floor_db": -45.0,
+    "edge_silence_keep_seconds": 0.15,
+    "join_pause_seconds": 0.4,
+    "turn_pause_seconds": 0.35
+  },
+  "loudness": {
+    "input_lufs": -20.06,
+    "input_true_peak_dbtp": -0.72,
+    "gain_db": 4.27,
+    "output_lufs": -16.05,
+    "output_true_peak_dbtp": -1.5,
+    "limited_seconds": 34.03,
+    "iterations": 2
+  },
+  "file": "episode.flac",
+  "sample_rate": 24000,
+  "seconds": 759.68,
+  "usd": 0.18,
+  "previous_attempts": [
+    {
+      "model": "gemini-3.8-flash-tts",
+      "voices": {
+        "Lena": "de-de-advisor-3",
+        "Felix": "de-de-tutor-4"
+      },
+      "section_max_chars": 6000,
+      "stt_model": "large-v3",
+      "section_retries": 2,
+      "pronunciation": [],
+      "sections": [
+        {
+          "index": 0,
+          "turn_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "chars": 4003,
+          "file": "sections/00.flac",
+          "seconds": 234.6,
+          "input_tokens": 969,
+          "output_tokens": 5865,
+          "usd": 0.0533,
+          "verified": true,
+          "attempts": [
+            {
+              "attempt": 0,
+              "seconds": 234.6,
+              "input_tokens": 969,
+              "output_tokens": 5865,
+              "usd": 0.0533,
+              "transcript": "Heute geht es um den Main. Er ist mit 527 Kilometern Fließstrecke der längste rechte Nebenfluss des Rheins. Seine Quellflüsse entspringen an zwei ganz verschiedenen Orten. Der Weiße Main kommt aus dem Fichtelgebirge, der Rote Main aus der Fränkischen Alb. 527 Kilometer, das ist schon eine ordentliche Strecke. Aber ist das auch der längste Weg, den Wasser im Mainsystem zurücklegen kann oder gibt es da noch eine Überraschung? Es gibt eine. Der längste Weg im Main-System führt nämlich über die Fichtenuhr, die Pegnitz und die Regnitz in den Main. Die Pegnitz ist auf diesem Weg 128,25 Kilometer lang, die Regnitz 63,76. Dieser Weg erreicht den Main bei Mainkilometer 384,07. Seine Gesamtlänge beträgt 576,08 Kilometer. Die Fichtenuhr habe ich bisher noch nie gehört. Wo entspringt denn dieser Fluss, der am Anfang des längsten Weges steht? Die Fichtenuhr entspringt in unmittelbarer Nähe der Quelle des Roten Mains. Und die Regnitz hat noch eine Besonderheit. An der Mündung führt sie deutlich mehr Wasser als der Main selbst, nämlich 56,6 Kubikmeter pro Sekunde gegenüber 44,7. Deshalb kann sie hydrographisch sogar als der Hauptfluss des Mainsystems gelten. Die Regnitz führt an der Mündung also mehr Wasser als der Main. Das überrascht mich. Aber wo hört dieses Flusssystem eigentlich auf und wo beginnt das nächste? Im Süden grenzt das Einzugsgebiet des Mains an das der Donau. Wenige hundert Meter südlich der Weißmainquelle liegt die Quelle der Fichtel-Nab. Die fließt über Nab und Donau ins Schwarze Meer ab. Die Grenze zwischen beiden Einzugsgebieten ist Teil der europäischen Hauptwasserscheide. Zwei Quellen nur wenige hundert Meter auseinander und ihr Wasser landet in ganz verschiedenen Meeren. War das immer so? Floss der Main schon immer in Richtung Rhein? Nein. Noch gegen Ende des Tertiärs, vor etwa 2,6 Millionen Jahren, wurde das Maingebiet durch mehrere Flussläufe nach Süden zur Donau hin entwässert. Zur Donau also? Und was war noch davor? Gab's da schon so etwas wie einen Vorläufer des Mains? Ja. Dieser Vorläufer floss nur bis Bamberg, wie der heutige Main von Osten nach Westen. Von dort an folgte er dem heutigen Regnitz- und Rednitztal nach Süden. Bei Augsburg mündete er in ein Meer, das sich damals im Alpenvorland ausbreitete. Einen Rest der Tethys. Ein Meer bei Augsburg? Das kann man sich heute kaum vorstellen. Gab es auf dem Weg zum heutigen Lauf noch dramatische Ereignisse? Ja, und was für eines. Vor etwa 14,7 Millionen Jahren wurde der Urmain durch Trümmermassen eines Meteoriteneinschlags aufgestaut. Gemeint ist das Nördlinger Ries. Nördlich von Treuchtlingen entstand dadurch ein riesiger See. Er lief später wieder aus. Wahnsinn! Damit hätte ich nie gerechnet. Springen wir in die Gegenwart. Wie sind Main und Donau heute miteinander verbunden? Durch den Main-Donau-Kanal. Er ist rund 171 Kilometer lang. Eine Bundeswasserstraße in Bayern. und verbindet den Main bei Bamberg mit der Donau bei Kelheim. Mit ihm entstand eine durchgehende Großschifffahrtsstraße, genannt Europakanal. Sie führt über Rhein, Main und Donau, von der Nordsee bei Rotterdam bis zum Schwarzen Meer bei Constanza in Rumänien. Von Rotterdam bis ans Schwarze Meer? Auf einer durchgehenden Wasserstraße? Das klingt nach einer ziemlichen Strecke. Wie kommt der Kanal denn von einem Fluss zum anderen? Über die sogenannte Scheitelhaltung. Das ist ein 17 Kilometer langer Abschnitt, der die Fränkische Alb überquert, ein Mittelgebirge. Dort verläuft die europäische Hauptwasserscheide Rheindonau. Mit 406 Metern über Normalhöhen Null ist er der höchste Punkt des europäischen Wasserstraßennetzes. Das ist ja ein Berg für Schiffe. Wann wurde der Kanal eigentlich eröffnet und hat er etwas im Fluss verändert?",
+              "deviations": [
+                {
+                  "index": 0,
+                  "expected": "Main System",
+                  "heard": "Mainsystem",
+                  "context_before": "der längste Weg den Wasser im",
+                  "context_after": "zurücklegen kann Oder gibt es da",
+                  "changes_statement": false,
+                  "reason": "Nur Zusammenschreibung von Main-System bzw. Mainsystem, gesprochen identisch."
+                },
+                {
+                  "index": 1,
+                  "expected": "Fichtenohe",
+                  "heard": "Fichtenuhr",
+                  "context_before": "Main System führt nämlich über die",
+                  "context_after": "die Pegnitz und die Regnitz in",
+                  "changes_statement": false,
+                  "reason": "„Fichtenuhr“ klingt deutsch fast gleich wie „Fichtenohe“, Hörfehler der Spracherkennung."
+                },
+                {
+                  "index": 2,
+                  "expected": "hundertachtundzwanzig Komma zwei fünf",
+                  "heard": "128,25",
+                  "context_before": "Die Pegnitz ist auf diesem Weg",
+                  "context_after": "Kilometer lang die Regnitz dreiundsechzig Komma sieben sechs",
+                  "changes_statement": false,
+                  "reason": "Gleiche Zahl 128,25, nur als Ziffern geschrieben."
+                },
+                {
+                  "index": 3,
+                  "expected": "dreiundsechzig Komma sieben sechs",
+                  "heard": "63,76",
+                  "context_before": "hundertachtundzwanzig Komma zwei fünf Kilometer lang die Regnitz",
+                  "context_after": "Dieser Weg erreicht den Main bei",
+                  "changes_statement": false,
+                  "reason": "Gleiche Zahl 63,76, nur als Ziffern geschrieben."
+                },
+                {
+                  "index": 4,
+                  "expected": "dreihundertvierundachtzig Komma null sieben",
+                  "heard": "384,07",
+                  "context_before": "Weg erreicht den Main bei Mainkilometer",
+                  "context_after": "Seine Gesamtlänge beträgt fünfhundertsechsundsiebzig Komma null acht Kilometer",
+                  "changes_statement": false,
+                  "reason": "Gleiche Zahl 384,07, nur als Ziffern geschrieben."
+                },
+                {
+                  "index": 5,
+                  "expected": "fünfhundertsechsundsiebzig Komma null acht",
+                  "heard": "576,08",
+                  "context_before": "Mainkilometer dreihundertvierundachtzig Komma null sieben Seine Gesamtlänge beträgt",
+                  "context_after": "Kilometer Die Fichtenohe habe ich bisher",
+                  "changes_statement": false,
+                  "reason": "Gleiche Zahl 576,08, nur als Ziffern geschrieben."
+                },
+                {
+                  "index": 6,
+                  "expected": "Fichtenohe",
+                  "heard": "Fichtenuhr",
+                  "context_before": "Gesamtlänge beträgt fünfhundertsechsundsiebzig Komma null acht Kilometer Die",
+                  "context_after": "habe ich bisher noch nie gehört",
+                  "changes_statement": false,
+                  "reason": "„Fichtenuhr“ klingt fast gleich wie „Fichtenohe“, Hörfehler der Spracherkennung."
+                },
+                {
+                  "index": 7,
+                  "expected": "Fichtenohe",
+                  "heard": "Fichtenuhr",
+                  "context_before": "Anfang des längsten Weges steht Die",
+                  "context_after": "entspringt in unmittelbarer Nähe der Quelle",
+                  "changes_statement": false,
+                  "reason": "„Fichtenuhr“ klingt fast gleich wie „Fichtenohe“, Hörfehler der Spracherkennung."
+                },
+                {
+                  "index": 8,
+                  "expected": "Fichtelnaab",
+                  "heard": "Fichtel Nab",
+                  "context_before": "der Weißmainquelle liegt die Quelle der",
+                  "context_after": "Die fließt über Naab und Donau",
+                  "changes_statement": false,
+                  "reason": "„Fichtel Nab“ klingt wie „Fichtelnaab“, nur andere Schreibweise des Namens."
+                },
+                {
+                  "index": 9,
+                  "expected": "Naab",
+                  "heard": "Nab",
+                  "context_before": "Quelle der Fichtelnaab Die fließt über",
+                  "context_after": "und Donau ins Schwarze Meer ab",
+                  "changes_statement": false,
+                  "reason": "„Nab“ ist eine gleich klingende Schreibweise von „Naab“."
+                },
+                {
+                  "index": 10,
+                  "expected": "Gab es",
+                  "heard": "Gabs",
+                  "context_before": "also Und was war noch davor",
+                  "context_after": "da schon so etwas wie einen",
+                  "changes_statement": false,
+                  "reason": "„Gabs“ ist nur die verkürzte Aussprache von „Gab es“, gleicher Sinn."
+                },
+                {
+                  "index": 11,
+                  "expected": "Constanța",
+                  "heard": "Constanza",
+                  "context_before": "Rotterdam bis zum Schwarzen Meer bei",
+                  "context_after": "in Rumänien Von Rotterdam bis ans",
+                  "changes_statement": false,
+                  "reason": "„Constanza“ ist eine gleich klingende Schreibweise von „Constanța“."
+                },
+                {
+                  "index": 12,
+                  "expected": "Rhein Donau",
+                  "heard": "Rheindonau",
+                  "context_before": "Mittelgebirge Dort verläuft die Europäische Hauptwasserscheide",
+                  "context_after": "Mit vierhundertsechs Metern über Normalhöhennull ist",
+                  "changes_statement": false,
+                  "reason": "Nur Zusammenschreibung von Rhein–Donau, gesprochen gleich."
+                },
+                {
+                  "index": 13,
+                  "expected": "Normalhöhennull",
+                  "heard": "Normalhöhen Null",
+                  "context_before": "Rhein Donau Mit vierhundertsechs Metern über",
+                  "context_after": "ist er der höchste Punkt des",
+                  "changes_statement": false,
+                  "reason": "Nur Getrenntschreibung von „Normalhöhennull“, gesprochen gleich."
+                }
+              ],
+              "changes_statement": false,
+              "action": "accept"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "turn_indices": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43
+          ],
+          "chars": 4062,
+          "file": "sections/01.flac",
+          "seconds": 243.2,
+          "input_tokens": 1027,
+          "output_tokens": 6080,
+          "usd": 0.0552,
+          "verified": true,
+          "attempts": [
+            {
+              "attempt": 0,
+              "seconds": 243.2,
+              "input_tokens": 1027,
+              "output_tokens": 6080,
+              "usd": 0.0552,
+              "transcript": "Eröffnet wurde er 1992. Seitdem sind etwa 20 Arten aus dem Donauraum in den Main zugewandert. Dazu zählen unter anderem der Blaubandbärbling, die marmorierte Grundel, der Rapfen, die Zerte und der Zobel. 20 neue Fischarten, das ist eine Menge. Bleiben die im Main oder schwimmen sie noch weiter? Zumindest der Zobel ist weitergewandert. Über den Main-Donau-Kanal ist er mittlerweile in den Rhein eingewandert. Am Fischpass der Staustufe Iffelsheim wird er regelmäßig nachgewiesen. Fische nutzen den Kanal also als Weg von der Donau zum Rhein. Fließt denn auch Wasser durch ihn von einem Einzugsgebiet ins andere? Ja. Die Kanadrinne ist zusammen mit dem fränkischen Seenland Teil der Donaumeinüberleitung. Diese versorgt das von zeitweiliger Trockenheit bedrohte System von Regnitz und Main mit Wasser aus Donau und Altmühl. Die Regnitz und der Main sind also auf Nachschub aus der Donau und der Altmühl angewiesen. Um wie viel Wasser geht es denn da? Es geht um bis zu 15 Kubikmeter pro Sekunde. So viel mehr Wasser führt die Regnitz dann bei Niedrigwasser. Das Wasser kommt aus der Altmühl und über den Main-Donau-Kanal in das Einzugsgebiet des Mains. Genug vom Kanal. Wie war das früher im Winter? Frohr der Main manchmal zu? Und wie? Bis Ende des 19. Jahrhunderts frohr der Main etwa in jedem zweiten Jahr über seinen gesamten Lauf zu. Das geschah frühestens im November, so 1513 schon am 13. November, und spätestens im Januar. In jedem zweiten Jahr? Wie lange hielt so eine Eisdecke denn maximal? Die längste Vereisung gab es 1768. Sie dauerte 79 Tage. Vom 3. Januar bis zum 22. März. Fast drei Monate unter Eis. Das überrascht mich. Gab es denn auch ein letztes Mal, dass der Main in Frankfurt zugefroren ist? Ja, das gab es. In Frankfurt fror der Main zuletzt im Winter 1962 auf 63 zu. Interessant. Eis ist das eine Extrem. Wie war es mit dem anderen, Hochwasser? Gibt es davon alte Berichte? Ja, und zwar sehr alte. Die Frankfurter Mainbrücke hatte große Bedeutung für den Verkehr. Deshalb finden sich in den ältesten Berichten immer wieder Hinweise auf Hochwasserschäden. Genannt werden zum Beispiel 1192, 1235 und 1306. 1306 klingt nach einer besonderen Geschichte. Was ist in diesem Jahr passiert? Die Geschichte geht einem wirklich nah, finde ich. Aber du fragst bestimmt gleich nach den Zahlen, oder? Ja, ertappt, das geht mir wirklich nah. Gab es denn bei diesen Hochwassern auch einen Wasserstand, der besonders herausstach? Es gibt einen Stand von etwa 785 Zentimetern am Pegel. Er wurde niemals sonst erreicht. Qualtig. Das lässt mich staunen. Wechseln wir mal von den Fluten zu den Lebewesen im Fluss. Wie ging's den Fischen im Main? Da gab es einen drastischen Einbruch. An vielen Orten bestanden seit dem Mittelalter Fischerzünfte. In Frankfurt am Main zum Beispiel seit dem Jahr 945. Dann kamen die Flussregulierung und die für die Schifffahrt nötigen Veränderungen der Gewässerstruktur, etwa Uferbefestigungen. Zusammen mit der Wasserverschmutzung führte das zu einem drastischen Rückgang der Fischarten. Am Untermain sank ihre Zahl von etwa 30 bis 35 auf 4. Das klingt dramatisch. Wie konnte man zeigen, wie schlecht das Wasser war? Dazu gab es ein Experiment mit Goldfischen. Einer der Goldfische, dessen Aquarium mit Wasser aus einer Stelle unterhalb des Werkes höchst gefüllt worden war, überlebte es nicht. Autsch, das klingt nicht gut. Wurde denn dagegen etwas unternommen? Ja, es wurden Kläranlagen gebaut. Das Klärwerk Niederrad in Frankfurt ging 1887 in Betrieb, als erste Kläranlage Deutschlands. Dazu kamen zahlreiche weitere kommunale und industrielle Abwasserreinigungsanlagen. Geändert haben sie daran aber nichts. Das ist ernüchternd. Schauen wir auf die Schifffahrt. Wie kamen Schiffe früher den Fluss hinauf?",
+              "deviations": [
+                {
+                  "index": 0,
+                  "expected": "Zährte",
+                  "heard": "Zerte",
+                  "context_before": "die Marmorierte Grundel der Rapfen die",
+                  "context_after": "und der Zobel Zwanzig neue Fischarten",
+                  "changes_statement": false,
+                  "reason": "„Zerte“ klingt fast wie „Zährte“; Hörfehler der Spracherkennung bei einem Fischnamen.“"
+                },
+                {
+                  "index": 1,
+                  "expected": "Iffezheim",
+                  "heard": "Iffelsheim",
+                  "context_before": "Rhein eingewandert Am Fischpass der Staustufe",
+                  "context_after": "wird er regelmäßig nachgewiesen Fische nutzen",
+                  "changes_statement": false,
+                  "reason": "„Iffelsheim“ klingt ähnlich wie „Iffezheim“; Hörfehler bei einem Ortsnamen, kein Fehler der Synthese."
+                },
+                {
+                  "index": 2,
+                  "expected": "Kanalrinne",
+                  "heard": "Kanadrinne",
+                  "context_before": "einem Einzugsgebiet ins andere Ja Die",
+                  "context_after": "ist zusammen mit dem Fränkischen Seenland",
+                  "changes_statement": false,
+                  "reason": "„Kanadrinne“ klingt fast wie „Kanalrinne“; Hörfehler der Spracherkennung."
+                },
+                {
+                  "index": 3,
+                  "expected": "Donau Main Überleitung",
+                  "heard": "Donaumeinüberleitung",
+                  "context_before": "mit dem Fränkischen Seenland Teil der",
+                  "context_after": "Diese versorgt das von zeitweiliger Trockenheit",
+                  "changes_statement": false,
+                  "reason": "„Donaumeinüberleitung“ ist nur eine zusammengeschriebene, verhörte Schreibweise von „Donau-Main-Überleitung“; gleiche gesprochene Wörter."
+                },
+                {
+                  "index": 4,
+                  "expected": "Fror",
+                  "heard": "Frohr",
+                  "context_before": "Wie war das früher im Winter",
+                  "context_after": "der Main manchmal zu Und wie",
+                  "changes_statement": false,
+                  "reason": "„Frohr“ ist nur eine andere Schreibweise von „fror“; gleich gesprochen."
+                },
+                {
+                  "index": 5,
+                  "expected": "fror",
+                  "heard": "frohr",
+                  "context_before": "wie Bis Ende des neunzehnten Jahrhunderts",
+                  "context_after": "der Main etwa in jedem zweiten",
+                  "changes_statement": false,
+                  "reason": "„frohr“ ist nur eine andere Schreibweise von „fror“; gleich gesprochen."
+                },
+                {
+                  "index": 6,
+                  "expected": "Gewaltig",
+                  "heard": "Qualtig",
+                  "context_before": "Pegel Er wurde niemals sonst erreicht",
+                  "context_after": "Das lässt mich staunen Wechseln wir",
+                  "changes_statement": false,
+                  "reason": "„Qualtig“ klingt ähnlich wie „Gewaltig“; die Synthese sagte vermutlich „Gewaltig“, Hörfehler der Spracherkennung, Sinn bleibt."
+                },
+                {
+                  "index": 7,
+                  "expected": "ging es",
+                  "heard": "gings",
+                  "context_before": "zu den Lebewesen im Fluss Wie",
+                  "context_after": "den Fischen im Main Da gab",
+                  "changes_statement": false,
+                  "reason": "„ging's“ ist die gesprochene Kurzform von „ging es“; gleiche Bedeutung."
+                }
+              ],
+              "changes_statement": false,
+              "action": "accept"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "turn_indices": [
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "chars": 3990,
+          "file": "sections/02.flac",
+          "seconds": null,
+          "input_tokens": 2004,
+          "output_tokens": 12213,
+          "usd": 0.1109,
+          "verified": false,
+          "attempts": [
+            {
+              "attempt": 0,
+              "seconds": 245.32,
+              "input_tokens": 1002,
+              "output_tokens": 6133,
+              "usd": 0.0557,
+              "transcript": "Mithilfe einer Kette. Im Fluss wurde eine Kette verlegt, an der sich ein Dampfschlepper entlanghangeln konnte. Ein Schlepper, der sich an einer Kette durch den Fluss zieht? Was für ein Bild! Gab es auch am Wehr besondere Lösungen für Boote? Ja. 1934 wurde am Wehr in Hausen das weltweit erste Faltboothebewerk gebaut. Beeindruckend. Hat der Main eigentlich auch Gebiete voneinander getrennt? Ja. Nach der Gründung des Bistums Bamberg im Jahr 1007 war der Main zwischen Hallstatt und Michelau rund 800 Jahre die Grenze zum Bistum Würzburg. Spannend. Treuchtlingen kam vorhin schon beim See nach dem Meteoriteneinschlag vor. Gibt es dort noch andere Spuren der Vergangenheit? Ja. Reste der Fossa Carolina sind heute noch bei Treuchtlingen zu finden. Das klingt nach einem Ausflugsziel. Kommen wir zu den Orten am Main. Gibt es dort Rekorde? Gleich mehrere. Rotenfels, zu Füßen der romanischen gleichnamigen Burg, ist mit etwa 1000 Einwohnern die kleinste Stadt Bayerns. Und Kahl ist die tiefstgelegene Gemeinde in Bayern. Dort mündet das gleichnamige Flüsschen auf 103 Metern über Normal Null von rechts in den Main. Kurios. Gab's am Main auch Technik, die Geschichte geschrieben hat? Ja. Auf dem rechten Ufer in Kahlstein entstand 1961 das erste Atomkraftwerk der Bundesrepublik. Spannend. Und auf der kulturellen Seite gab es berühmte Begegnungen? Im September 1815 trafen sich Johann Wolfgang von Goethe und Marianne von Willemar zum Tätertät. Schön. Und wo endet der Main, den wir als Nebenfluss des Rheins kennengelernt haben? Die letzten Orte am Main sind Kostheim auf dem rechten und Gustavsburg auf dem linken Ufer. Beide waren zusammen mit Bischofsheim rechtsrheinische Stadtteile von Mainz. 1945 wurden sie durch eine alliierte Zonengrenze von der Stadt Mainz getrennt. Welcher der beiden letzten Orte liegt denn direkt an der Mündung? Kostheim. Es liegt unmittelbar an der Mündung des Mains in den Rhein. Gut, dann zum Schluss die Gegenwart. Was ist am Main bis heute lebendige Tradition? Der Betrieb der Mainfähren. Er ist seit 2022 als immaterielles Kulturerbe im Bayerischen Landesverzeichnis des immateriellen Kulturerbes gelistet. Fährleute bringen ganzjährig Menschen, Tiere und Fahrzeuge auf Zuruf über den Main. Auf Zuruf, das gefällt mir. Magst du uns zum Schluss noch den Bogen schließen? Gern. Vorher kommt aber noch ein Stück Baugeschichte. Ein 6 Kilometer langer und 30 Meter breiter, tief eingeschnittener Kanal wurde von 1950 bis 1957 angelegt. Das geschah im Rahmen der Notstandsmaßnahme der wertschaffenden Arbeitslosenfürsorge. Was für ein Wortungetüm. Wurde bei Kanälen eigentlich auch mal etwas beendet? Ja, ein im Zweiten Weltkrieg beschädigter Kanal wurde 1950 aufgegeben. Da steckt viel Wasserbau drin, da staune ich. Dann jetzt aber wirklich den Bogen, Leda. Gern. Der Main ist mit 527 Kilometern der längste rechte Nebenfluss des Rheins. Sein längster Weg führt über Fichte-Nohe, Pegnitz und Regnitz und misst 576,08 Kilometer. Die Regnitz führt an der Mündung mehr Wasser als der Main. Nur wenige hundert Meter südlich der Weißmainquelle liegt die Quelle der Fichtel-Nab, deren Wasser über die Donau ins Schwarze Meer fließt. Noch gegen Ende des Tertiärs wurde das Maingebiet durch mehrere Flussläufe nach Süden zur Donau hin entwässert. Vor etwa 14,7 Millionen Jahren staute ein Meteoriteneinschlag den Urmain zu einem riesigen See auf. Heute verbindet der Main-Donau-Kanal den Main bei Bamberg mit der Donau bei Kelheim. Über diesen Kanal ist der Zobel bis in den Rhein gelangt. Der Main fror früher etwa in jedem zweiten Jahr zu und die Fischarten am Untermain gingen drastisch zurück. Bis heute bringen Fährleute auf Zuruf Menschen, Tiere und Fahrzeuge über den Main.",
+              "deviations": [
+                {
+                  "index": 0,
+                  "expected": "Mit Hilfe",
+                  "heard": "Mithilfe",
+                  "context_before": "",
+                  "context_after": "einer Kette Im Fluss wurde eine",
+                  "changes_statement": false,
+                  "reason": "Nur andere Schreibweise: „Mit Hilfe“ und „Mithilfe“ werden gleich gesprochen."
+                },
+                {
+                  "index": 1,
+                  "expected": "Faltboot Hebewerk",
+                  "heard": "Faltboothebewerk",
+                  "context_before": "Wehr in Hausen das weltweit erste",
+                  "context_after": "gebaut Beeindruckend Hat der Main eigentlich",
+                  "changes_statement": false,
+                  "reason": "Nur Getrennt- und Zusammenschreibung desselben Wortes."
+                },
+                {
+                  "index": 2,
+                  "expected": "Hallstadt",
+                  "heard": "Hallstatt",
+                  "context_before": "Jahr tausendsieben war der Main zwischen",
+                  "context_after": "und Michelau rund achthundert Jahre die",
+                  "changes_statement": false,
+                  "reason": "„Hallstatt“ und „Hallstadt“ klingen gleich; das ist nur eine andere Schreibweise des Ortsnamens."
+                },
+                {
+                  "index": 3,
+                  "expected": "Rothenfels",
+                  "heard": "Rotenfels",
+                  "context_before": "Gibt es dort Rekorde Gleich mehrere",
+                  "context_after": "zu Füßen der romanischen gleichnamigen Burg",
+                  "changes_statement": false,
+                  "reason": "„Rotenfels“ und „Rothenfels“ klingen gleich, nur andere Schreibweise."
+                },
+                {
+                  "index": 4,
+                  "expected": "Normalnull",
+                  "heard": "Normal Null",
+                  "context_before": "gleichnamige Flüsschen auf einhundertdrei Metern über",
+                  "context_after": "von rechts in den Main Kurios",
+                  "changes_statement": false,
+                  "reason": "Nur Getrennt- und Zusammenschreibung von „Normalnull“."
+                },
+                {
+                  "index": 5,
+                  "expected": "Gab es",
+                  "heard": "Gabs",
+                  "context_before": "von rechts in den Main Kurios",
+                  "context_after": "am Main auch Technik die Geschichte",
+                  "changes_statement": false,
+                  "reason": "„Gab's“ ist eine Kurzform von „Gab es“, gleiche Bedeutung."
+                },
+                {
+                  "index": 6,
+                  "expected": "Karlstein",
+                  "heard": "Kahlstein",
+                  "context_before": "Ja Auf dem rechten Ufer in",
+                  "context_after": "entstand neunzehnhunderteinundsechzig das erste Atomkraftwerk der",
+                  "changes_statement": true,
+                  "reason": "„Kahlstein“ statt „Karlstein“ ist ein anderer Ortsname und klingt deutlich anders; zudem ist Kahl im Text ein anderer Ort."
+                },
+                {
+                  "index": 7,
+                  "expected": "Willemer",
+                  "heard": "Willemar",
+                  "context_before": "Wolfgang von Goethe und Marianne von",
+                  "context_after": "zum Tête à Tête Oh schön",
+                  "changes_statement": false,
+                  "reason": "„Willemar“ klingt fast gleich wie „Willemer“, ein Hörfehler bei einem Namen."
+                },
+                {
+                  "index": 8,
+                  "expected": "Tête à Tête Oh",
+                  "heard": "Tätertät",
+                  "context_before": "Goethe und Marianne von Willemer zum",
+                  "context_after": "schön Und wo endet der Main",
+                  "changes_statement": false,
+                  "reason": "„Tätertät“ ist eine Fehlschreibung von „Tête-à-Tête“; die Spracherkennung hat das Fremdwort verhört. Die Aussage bleibt gleich. Auch das fehlende „Oh“ ist ein Füllwort ohne Inhalt."
+                },
+                {
+                  "index": 9,
+                  "expected": "das",
+                  "heard": "da",
+                  "context_before": "aufgegeben Da steckt viel Wasserbau drin",
+                  "context_after": "staune ich Dann jetzt aber wirklich",
+                  "changes_statement": false,
+                  "reason": "„da staune ich“ statt „das staune ich“: Die Endung wurde verschluckt, der Sinn bleibt."
+                },
+                {
+                  "index": 10,
+                  "expected": "Lena",
+                  "heard": "Leda",
+                  "context_before": "Dann jetzt aber wirklich den Bogen",
+                  "context_after": "Gern Der Main ist mit fünfhundertsiebenundzwanzig",
+                  "changes_statement": true,
+                  "reason": "„Leda“ statt „Lena“ ist ein anderer Name und klingt deutlich anders."
+                },
+                {
+                  "index": 11,
+                  "expected": "Fichtenohe",
+                  "heard": "Fichte Nohe",
+                  "context_before": "Rheins Sein längster Weg führt über",
+                  "context_after": "Pegnitz und Regnitz und misst fünfhundertsechsundsiebzig Komma null",
+                  "changes_statement": false,
+                  "reason": "Nur Getrennt- und Zusammenschreibung desselben Flussnamens, gleich gesprochen."
+                },
+                {
+                  "index": 12,
+                  "expected": "fünfhundertsechsundsiebzig Komma null acht",
+                  "heard": "576,08",
+                  "context_before": "Fichtenohe Pegnitz und Regnitz und misst",
+                  "context_after": "Kilometer Die Regnitz führt an der",
+                  "changes_statement": false,
+                  "reason": "Dieselbe Zahl, nur als Ziffern geschrieben (576,08)."
+                },
+                {
+                  "index": 13,
+                  "expected": "Fichtelnaab",
+                  "heard": "Fichtel Nab",
+                  "context_before": "der Weißmainquelle liegt die Quelle der",
+                  "context_after": "deren Wasser über die Donau ins",
+                  "changes_statement": false,
+                  "reason": "„Fichtel Nab“ klingt fast gleich wie „Fichtelnaab“, nur Schreibweise bzw. Hörfehler des Namens."
+                }
+              ],
+              "changes_statement": true,
+              "action": "resynthesize"
+            },
+            {
+              "attempt": 1,
+              "seconds": 243.2,
+              "input_tokens": 1002,
+              "output_tokens": 6080,
+              "usd": 0.0552,
+              "transcript": "Mithilfe einer Kette. Im Fluss wurde eine Kette verlegt, an der sich ein Dampfschlepper entlanghangeln konnte. Ein Schlepper, der sich an einer Kette durch den Fluss zieht. Was für ein Bild. Gab es auch am Wehr besondere Lösungen für Boote? Ja. 1934 wurde am Wehr in Hausen das weltweit erste Faltboothebewerk gebaut. Beeindruckend. Hat der Main eigentlich auch Gebiete voneinander getrennt? Ja. Nach der Gründung des Bistums Bamberg im Jahr 1007 war der Main zwischen Hallstatt und Michelau rund 800 Jahre die Grenze zum Bistum Würzburg. Spannend. Treuchtlingen kam vorhin schon beim See nach dem Meteoriteneinschlag vor. Gibt es dort noch andere Spuren der Vergangenheit? Ja. Reste der Fossa Carolina sind heute noch bei Treuchtlingen zu finden. Das klingt nach einem Ausflugsziel. Kommen wir zu den Orten am Main. Gibt es dort Rekorde? Gleich mehrere. Rotenfels, zu Füßen der romanischen gleichnamigen Burg, ist mit etwa 1000 Einwohnern die kleinste Stadt Bayerns. Und Kahl ist die tiefstgelegene Gemeinde in Bayern. Dort mündet das gleichnamige Flüsschen auf 103 Metern über Normalnull von rechts in den Main. Kurios. Gab es am Main auch Technik, die Geschichte geschrieben hat? Ja. Auf dem rechten Ufer, in Kahlstein, entstand 1961 das erste Atomkraftwerk der Bundesrepublik. Spannend. Und auf der kulturellen Seite gab es berühmte Begegnungen? Im September 1815 trafen sich Johann Wolfgang von Goethe und Marianne von Willemmer zum Tete-a-Tete. Oh, schön. Und wo endet der Main, den wir als Nebenfluss des Rheins kennengelernt haben? Die letzten Orte am Main sind Kostheim auf dem rechten und Gustavsburg auf dem linken Ufer. Beide waren zusammen mit Bischofsheim rechtsrheinische Stadtteile von Mainz. 1941 wurden sie durch eine alliierte Zonengrenze von der Stadt Mainz getrennt. Welcher der beiden letzten Orte liegt denn direkt an der Mündung? Kostheim. Es liegt unmittelbar an der Mündung des Mains in den Rhein. Gut, dann zum Schluss die Gegenwart. Was ist am Main bis heute lebendige Tradition? Der Betrieb der Mainfähren. Er ist seit 2022 als immaterielles Kulturerbe im Bayerischen Landesverzeichnis des immateriellen Kulturerbes gelistet. Fährleute bringen ganzjährig Menschen, Tiere und Fahrzeuge auf Zuruf über den Main. Auf Zuruf, das gefällt mir. Magst du uns zum Schluss noch den Bogen schließen? Gern. Vorher kommt aber noch ein Stück Baugeschichte. Ein sechs Kilometer langer und 30 Meter breiter, tief eingeschnittener Kanal wurde von 1950 bis 1957 angelegt. Das geschah im Rahmen der Notstandsmaßnahme der wertschaffenden Arbeitslosenfürsorge. Was für ein Wortungetüm. Wurde bei Kanälen eigentlich auch mal etwas beendet? Ja, ein im Zweiten Weltkrieg beschädigter Kanal wurde 1950 aufgegeben. Da steckt viel Wasserbau drin, da staune ich. Dann jetzt aber wirklich den Bogen, Lena. Gern. Der Main ist mit 527 Kilometern der längste rechte Nebenfluss des Rheins. Sein längster Weg führt über Fichtenur, Pegnitz und Regnitz und misst 576,08 Kilometer. Die Regnitz führt an der Mündung mehr Wasser als der Main. Nur wenige hundert Meter südlich der Weißmainquelle liegt die Quelle der Fichtelnab, deren Wasser über die Donau ins Schwarze Meer fließt. Noch gegen Ende des Tertiärs wurde das Maingebiet durch mehrere Flussläufe nach Süden zur Donau hin entwässert. Vor etwa 14,7 Millionen Jahren staute ein Meteoriteneinschlag den Urmain zu einem riesigen See auf. Heute verbindet der Main-Donau-Kanal den Main bei Bamberg mit der Donau bei Kelheim. Über diesen Kanal ist der Zobel bis in den Rhein gelangt. Der Main fror früher etwa in jedem zweiten Jahr zu und die Fischarten am Untermain gingen drastisch zurück. Bis heute bringen Fährleute auf Zuruf Menschen, Tiere und Fahrzeuge über den Main.",
+              "deviations": [
+                {
+                  "index": 0,
+                  "expected": "Mit Hilfe",
+                  "heard": "Mithilfe",
+                  "context_before": "",
+                  "context_after": "einer Kette Im Fluss wurde eine",
+                  "changes_statement": null,
+                  "reason": null
+                },
+                {
+                  "index": 1,
+                  "expected": "Faltboot Hebewerk",
+                  "heard": "Faltboothebewerk",
+                  "context_before": "Wehr in Hausen das weltweit erste",
+                  "context_after": "gebaut Beeindruckend Hat der Main eigentlich",
+                  "changes_statement": null,
+                  "reason": null
+                },
+                {
+                  "index": 2,
+                  "expected": "Hallstadt",
+                  "heard": "Hallstatt",
+                  "context_before": "Jahr tausendsieben war der Main zwischen",
+                  "context_after": "und Michelau rund achthundert Jahre die",
+                  "changes_statement": null,
+                  "reason": null
+                },
+                {
+                  "index": 3,
+                  "expected": "Rothenfels",
+                  "heard": "Rotenfels",
+                  "context_before": "Gibt es dort Rekorde Gleich mehrere",
+                  "context_after": "zu Füßen der romanischen gleichnamigen Burg",
+                  "changes_statement": null,
+                  "reason": null
+                },
+                {
+                  "index": 4,
+                  "expected": "Karlstein",
+                  "heard": "Kahlstein",
+                  "context_before": "Ja Auf dem rechten Ufer in",
+                  "context_after": "entstand neunzehnhunderteinundsechzig das erste Atomkraftwerk der",
+                  "changes_statement": null,
+                  "reason": null
+                },
+                {
+                  "index": 5,
+                  "expected": "Willemer",
+                  "heard": "Willemmer",
+                  "context_before": "Wolfgang von Goethe und Marianne von",
+                  "context_after": "zum Tête à Tête Oh schön",
+                  "changes_statement": null,
+                  "reason": null
+                },
+                {
+                  "index": 6,
+                  "expected": "Tête à Tête",
+                  "heard": "Tete a Tete",
+                  "context_before": "Goethe und Marianne von Willemer zum",
+                  "context_after": "Oh schön Und wo endet der",
+                  "changes_statement": null,
+                  "reason": null
+                },
+                {
+                  "index": 7,
+                  "expected": "Neunzehnhundertfünfundvierzig",
+                  "heard": "1941",
+                  "context_before": "mit Bischofsheim rechtsrheinische Stadtteile von Mainz",
+                  "context_after": "wurden sie durch eine alliierte Zonengrenze",
+                  "changes_statement": null,
+                  "reason": null
+                },
+                {
+                  "index": 8,
+                  "expected": "das",
+                  "heard": "da",
+                  "context_before": "aufgegeben Da steckt viel Wasserbau drin",
+                  "context_after": "staune ich Dann jetzt aber wirklich",
+                  "changes_statement": null,
+                  "reason": null
+                },
+                {
+                  "index": 9,
+                  "expected": "Fichtenohe",
+                  "heard": "Fichtenur",
+                  "context_before": "Rheins Sein längster Weg führt über",
+                  "context_after": "Pegnitz und Regnitz und misst fünfhundertsechsundsiebzig Komma null",
+                  "changes_statement": null,
+                  "reason": null
+                },
+                {
+                  "index": 10,
+                  "expected": "fünfhundertsechsundsiebzig Komma null acht",
+                  "heard": "576,08",
+                  "context_before": "Fichtenohe Pegnitz und Regnitz und misst",
+                  "context_after": "Kilometer Die Regnitz führt an der",
+                  "changes_statement": null,
+                  "reason": null
+                },
+                {
+                  "index": 11,
+                  "expected": "Fichtelnaab",
+                  "heard": "Fichtelnab",
+                  "context_before": "der Weißmainquelle liegt die Quelle der",
+                  "context_after": "deren Wasser über die Donau ins",
+                  "changes_statement": null,
+                  "reason": null
+                }
+              ],
+              "changes_statement": null,
+              "action": null
+            }
+          ]
+        }
+      ],
+      "fixed_parts": {
+        "intro": "aa19a3a5ad6b9be14c64f543f8cba8d4e9c06111f095fef839a86fadc97312cf",
+        "outro": "7b776b07c88661c0847e61dbdf7817e1df2faae0ccc343ee30a7fa067263939e"
+      },
+      "joins": {},
+      "loudness": null,
+      "file": null,
+      "sample_rate": null,
+      "seconds": null,
+      "usd": null
+    }
+  ]
 }

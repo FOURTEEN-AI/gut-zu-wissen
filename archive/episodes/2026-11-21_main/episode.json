@@ -1,12 +1,12 @@
 {
   "episode_id": "2026-11-21_main",
   "title": "Main",
-  "status": "failed",
+  "status": "completed",
   "started_at": "2026-11-21T12:01:59Z",
-  "finished_at": "2026-11-21T12:37:34Z",
+  "finished_at": "2026-11-21T18:15:28Z",
   "published_at": null,
   "explicit": false,
-  "failure": "Crash: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChG5uT8uzyLfS1bhn4jaq'}",
+  "failure": null,
   "usage": {
     "author": {
       "model": "claude-sonnet-5-5",
@@ -18,9 +18,9 @@
     },
     "llm_judge": {
       "model": "claude-sonnet-5-5",
-      "calls": 109,
-      "input_tokens": 59941,
-      "output_tokens": 30036,
+      "calls": 113,
+      "input_tokens": 80624,
+      "output_tokens": 32471,
       "cache_creation_input_tokens": 797,
       "cache_read_input_tokens": 79700
     },
@@ -57,13 +57,20 @@
     },
     "usd": {
       "author": 0.9539,
-      "llm_judge": 0.4302,
+      "llm_judge": 0.4959,
       "jev": 0.0055,
       "extraction": 0.0349,
-      "tts": 0.2194
+      "tts": 0.3994
     }
   },
-  "failed_step": "audio",
-  "resumed": [],
-  "audio_run_id": null
+  "failed_step": null,
+  "resumed": [
+    {
+      "started_at": "2026-11-21T17:56:58Z",
+      "workflow_run": "44932727743",
+      "previous_finished_at": "2026-11-21T12:37:34Z",
+      "previous_failure": "Crash: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011ChG5uT8uzyLfS1bhn4jaq'}"
+    }
+  ],
+  "audio_run_id": "44932727743"
 }
