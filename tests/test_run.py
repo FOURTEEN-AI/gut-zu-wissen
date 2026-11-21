@@ -707,7 +707,7 @@ def test_audio_is_synthesised_normalised_and_archived(tmp_path):
     section = record["sections"][0]
     assert section["verified"] is True
     assert list(section["attempts"][0]) == [
-        "attempt", "seconds", "input_tokens", "output_tokens", "usd", "transcript",
+        "attempt", "turn_indices", "seconds", "input_tokens", "output_tokens", "usd", "transcript",
         "deviations", "changes_statement", "action",
     ]  # fmt: skip
     assert section["attempts"][0]["transcript"] == "Text. Text."

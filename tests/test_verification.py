@@ -277,10 +277,19 @@ def test_token_times_follow_the_whisper_words_and_skip_lexicon_changes():
     assert times == [(0, 0.5), None, (2, 2.5), (3, 3.5), (4, 4.5)]
 
 
-def test_script_times_only_for_words_heard_unchanged():
+def test_script_times_of_words_heard_unchanged_and_heard_as_other_words():
     expected, heard = tokenize("Es waren neun Leute"), tokenize("Es waren zehn Leute")
     heard_times = [(0, 0.5), (1, 1.5), (2, 2.5), (3, 3.5)]
-    assert script_times(expected, heard, heard_times) == [(0, 0.5), (1, 1.5), None, (3, 3.5)]
+    assert script_times(expected, heard, heard_times) == heard_times
+    expected, heard = tokenize("Was hing dort an"), tokenize("Was hindert an")
+    times = script_times(expected, heard, [(0, 0.5), (1, 1.5), (2, 2.5)])
+    assert times == [(0, 0.5), (1, 1.5), (1, 1.5), (2, 2.5)]
+
+
+def test_words_not_heard_at_all_have_no_time():
+    expected, heard = tokenize("Es waren neun Leute"), tokenize("Es waren Leute")
+    times = script_times(expected, heard, [(0, 0.5), (1, 1.5), (3, 3.5)])
+    assert times == [(0, 0.5), (1, 1.5), None, (3, 3.5)]
 
 
 def test_hearing_window_reaches_context_words_and_the_next_timed_word():
