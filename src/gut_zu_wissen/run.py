@@ -101,7 +101,8 @@ from gut_zu_wissen.stt import Stt, WhisperStt
 from gut_zu_wissen.tts import GeminiTts, Tts, voices_of
 from gut_zu_wissen.usage import Usage, episode_cost, tts_cost_usd, usage_dict
 
-log = logging.getLogger(__name__)
+# Explicit name: run as `python -m`, `__name__` is "__main__", outside the package logger.
+log = logging.getLogger("gut_zu_wissen.run")
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CONFIG_PATH = REPO_ROOT / "config" / "pipeline.toml"
