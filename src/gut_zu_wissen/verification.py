@@ -7,7 +7,8 @@ sides are normalised first, so that differences in writing alone do not count:
   hyphens and slashes (word separators on both sides);
 - German number words become numerals, as Whisper writes them: cardinals up to 999,999
   ("achtzehnhundertneunundachtzig" = 1889, "eine" = 1), ordinals ("dritten" = 3, as "3."
-  loses its dot), decades ("zwanziger" = "20er") and "zwei Komma fünf" = "2,5";
+  loses its dot), decades ("zwanziger" = "20er") and "zwei Komma fünf" = "2,5", also digit by
+  digit after the comma ("Komma null acht" = ",08");
 - numerals: thousands separators ("10.000", "10 000"), decimal point or comma;
 - a few symbols Whisper writes for spoken words (%, ‰, °, €, $, &).
 
@@ -238,9 +239,15 @@ def tokenize(text: str) -> list[Token]:
 
 
 def _merge_numbers(tokens: Sequence[Token]) -> list[Token]:
-    """Join "10 000" to 10000 and "zwei Komma fünf" to 2,5."""
+    """Join "10 000" to 10000 and "zwei Komma fünf" to 2,5.
+
+    German says decimals digit by digit after the comma ("Komma null acht"): each further single
+    digit word extends the fraction (576,08), as long as the fraction so far is single digit words.
+    """
     out: list[Token] = []
+    digit_by_digit = False  # out[-1] is a decimal whose fraction is single digit words
     for token in tokens:
+        single_digit_word = len(token.norm) == 1 and token.norm.isdigit() and token.raw.isalpha()
         if (
             out
             and len(token.raw) == 3
@@ -250,6 +257,7 @@ def _merge_numbers(tokens: Sequence[Token]) -> list[Token]:
         ):
             prev = out.pop()
             token = Token(str(int(prev.raw + token.raw)), f"{prev.raw} {token.raw}")
+            digit_by_digit = False
         elif (
             len(out) >= 2
             and token.norm.isdigit()
@@ -258,6 +266,12 @@ def _merge_numbers(tokens: Sequence[Token]) -> list[Token]:
         ):
             sep, prev = out.pop(), out.pop()
             token = Token(f"{prev.norm},{token.norm}", f"{prev.raw} {sep.raw} {token.raw}")
+            digit_by_digit = single_digit_word
+        elif out and digit_by_digit and single_digit_word:
+            prev = out.pop()
+            token = Token(prev.norm + token.norm, f"{prev.raw} {token.raw}")
+        else:
+            digit_by_digit = False
         out.append(token)
     return out
 

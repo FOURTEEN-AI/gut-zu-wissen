@@ -322,3 +322,23 @@ def test_a_deviation_cleared_by_the_second_hearing_does_not_count():
     assert counts(d)
     d.heard_again_matches = True
     assert not counts(d) and not changes_statement([d])
+
+
+def test_decimals_spoken_digit_by_digit_after_the_comma():
+    assert [t.norm for t in tokenize("fünfhundertsechsundsiebzig Komma null acht Kilometer")] == [
+        "576,08",
+        "kilometer",
+    ]
+    assert [t.norm for t in tokenize("hundertachtundzwanzig Komma zwei fünf")] == ["128,25"]
+    assert [t.norm for t in tokenize("zwei Komma fünfundzwanzig")] == ["2,25"]
+    # a multi-digit fraction word is not extended; numerals are never joined to it
+    assert [t.norm for t in tokenize("zwei Komma fünfundzwanzig drei")] == ["2,25", "3"]
+    assert [t.norm for t in tokenize("zwei Komma fünf 3")] == ["2,5", "3"]
+
+
+def test_digit_by_digit_decimals_match_whisper_and_real_errors_stay():
+    assert diff("Sie ist hundertachtundzwanzig Komma zwei fünf Kilometer lang.",
+                "Sie ist 128,25 Kilometer lang.", 2) == []  # fmt: skip
+    (d,) = diff("Er misst fünfhundertsechsundsiebzig Komma null acht Kilometer.",
+                "Er misst 576,8 Kilometer.", 2)  # fmt: skip
+    assert (d.expected, d.heard) == ("fünfhundertsechsundsiebzig Komma null acht", "576,8")
