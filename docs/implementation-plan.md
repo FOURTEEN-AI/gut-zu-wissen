@@ -56,7 +56,7 @@ These retire the open risks before the build starts.
    - Sections at turn boundaries, at most `tts_section_max_chars` (6,000, spike S4).
    - Intro and outro synthesized once and committed.
    - Concatenation and loudness normalization to −16 LUFS (`target_loudness_lufs`) with a true-peak limiter (ceiling `true_peak_ceiling_dbtp`, −1.5 dBTP). A test checks loudness and peak ceiling of the output.
-10. **STT verification.** ✅ Done. Normalization, diff per section, LLM decision on whether a deviation changes the statement, resynthesis of the affected section. Changed 2026-11-21: second hearing of a deviation, resynthesis of the affected turns only.
+10. **STT verification.** ✅ Done. Normalization, diff per section, LLM decision on whether a deviation changes the statement, resynthesis of the affected section. Changed 2026-11-21: second hearing of a deviation, resynthesis of the affected turns only; third hearing with the expected word as a hint, a match adds the word to the episode's `pronunciation.json` (owner decision 2026-11-21).
 11. **Explicit check (D7).** ✅ Done. LLM judges the final script; drastic depiction of violence, sexuality or drugs, or spoken profanity → episode flagged explicit (a factual or passing mention does not count). Uncertain → explicit. Result stored in the archive.
 12. **Review loop.** ✅ Done.
     - Sampling with rate r; r state in the repo.

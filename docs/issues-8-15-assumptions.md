@@ -38,3 +38,15 @@ Stand: 2026-11-21, alle Annahmen vom Owner bestätigt. Gebaut nach deiner Vorgab
 - **Ursache:** Die neuen Regeln griffen zu weit. Offene Überleitungsfragen („Gibt es im Inneren etwas Ungewöhnliches?“) galten als Vorwegnahme; „der Dom“ galt als ungeklärter Bezug, weil der Judge den Artikeltitel nicht sah.
 - **Nachschärfung (#22):** Die Judge-Eingabe nennt den Artikel jedes Fakts. Eindeutig ist ein Gegenstand, den der Redebeitrag oder der vorherige Beitrag nennt, und das Thema des Artikels. Eine Frage ist nur dann Prämisse, wenn sie eine bestimmte Einzelheit, Wertung oder Vermutung vorwegnimmt oder eine nicht gesagte Tatsache voraussetzt.
 - **Weiter offen:** Das Wiederholungs-Gate (Fakt doppelt erzählt) verbrauchte in Gespräch 1 und 2 das Gate-Budget; das ist älter als diese Änderung.
+
+## Drittes Hören mit Hinweis (2026-11-21, nach dem Lexikon-Eintrag für Kölner Dom)
+
+Gebaut nach deinem „Baue es so wie von dir vorgeschlagen“. Annahmen:
+
+1. **Hinweis = `hotwords` von faster-whisper** mit dem erwarteten Wort. Nicht `initial_prompt`, das Whisper stärker zum Nachschreiben verleitet.
+2. **Ähnlichkeit = difflib-Verhältnis ≥ 0,65.** Rainald/Reinhard 0,67, Patrizier/Patricia 0,71 kommen durch, Gerhard/Konrad 0,46 nicht. Petersglocke/Kaiserglocke hat wegen der gemeinsamen Endung auch 0,67; dort entscheidet nur das dritte Hören. Nicht an weiteren Fällen gemessen.
+3. **„Wort aus den Fakt-Sätzen“ statt „Name“.** Im Deutschen sind alle Substantive groß geschrieben, ein Name lässt sich nicht sicher erkennen; „Patrizier“ ist kein Name, war aber der zweite Fall.
+4. **Ausgeschlossen:** Verneinungen und Monatsnamen (Juni/Juli 0,75), dazu alle Zahlen. Liste in `[stt] hint_excluded_words`.
+5. **Höchstens 3 Wörter pro Folge**; danach zählen weitere Abweichungen wie bisher. Ein Wort mit zweiter Hörvariante zählt nicht doppelt.
+6. **Die Pipeline schreibt `pronunciation.json` selbst**, auch bei Abbruch, damit ein Resume die Wörter kennt. Jeder Eintrag hat `note` mit dem Grund. Der Eintrag ist Archiv, also öffentlich und im Review sichtbar.
+7. **Nicht gemessen:** wie oft Whisper mit Hinweis das erwartete Wort auch dann schreibt, wenn die Stimme es anders sagt. Der erste echte Fall zeigt es; prüfen lässt es sich nur durch Hören.
