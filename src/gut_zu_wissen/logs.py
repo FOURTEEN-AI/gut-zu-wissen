@@ -1,8 +1,11 @@
 """Progress logging of a pipeline run (stdlib `logging`).
 
-Every module logs through `logging.getLogger(__name__)`; the entry points call `setup_logging()`
-once. Output goes to stdout (same stream as the `print` lines, so the order in the Actions log
-holds), one line per event, flushed at once. The level comes from `LOG_LEVEL` (default INFO;
+Every module logs through `logging.getLogger(__name__)`, except the ones started with
+`python -m` (their `__name__` is "__main__", outside the package logger): those name their
+logger `gut_zu_wissen.<module>`. The entry points call `setup_logging()` once.
+
+Output goes to stdout (same stream as the `print` lines, so the order in the Actions log holds),
+one line per event, flushed at once. The level comes from `LOG_LEVEL` (default INFO;
 DEBUG adds every LLM call). Only the package logger is configured, so SDK loggers stay quiet.
 
 The log of a run is public (CLAUDE.md): log IDs, counts, durations and reasons, never secrets,

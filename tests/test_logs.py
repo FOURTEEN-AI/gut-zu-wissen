@@ -39,3 +39,28 @@ def test_timed_logs_start_end_and_failure(caplog):
     with caplog.at_level(logging.INFO, logger=PACKAGE), pytest.raises(ValueError), timed(log, "w"):
         raise ValueError
     assert "failed" in caplog.records[-1].getMessage()
+
+
+def test_modules_started_with_dash_m_name_their_logger_explicitly():
+    """Run as `python -m`, `__name__` is "__main__" and the package handler would miss it."""
+    import ast
+    from pathlib import Path
+
+    src = Path(__file__).resolve().parents[1] / "src" / PACKAGE
+    offenders = [
+        path.name
+        for path in src.glob("*.py")
+        if '__name__ == "__main__"' in path.read_text()
+        and "getLogger(__name__)" in path.read_text()
+        and path.name != "logs.py"
+    ]
+    assert offenders == []
+    for path in src.glob("*.py"):  # explicit names stay inside the package
+        for node in ast.walk(ast.parse(path.read_text())):
+            if (
+                isinstance(node, ast.Call)
+                and ast.unparse(node.func) == "logging.getLogger"
+                and isinstance(node.args[0], ast.Constant)
+                and path.name != "logs.py"
+            ):
+                assert node.args[0].value.startswith(f"{PACKAGE}."), path.name

@@ -29,7 +29,8 @@ from gut_zu_wissen.fetch import ArticleNotFoundError, WikipediaApi
 from gut_zu_wissen.gates import is_living_person, repeat_gate_allows
 from gut_zu_wissen.orchestrator import GateFailure, JevAbortFailure
 
-log = logging.getLogger(__name__)
+# Explicit name: run as `python -m`, `__name__` is "__main__", outside the package logger.
+log = logging.getLogger("gut_zu_wissen.daily")
 
 CHRONOLOGY_PAGE = "Wikipedia:Hauptseite/Artikel des Tages/Chronologie {year}"
 WEEKDAY_PAGE = "Wikipedia:Hauptseite/Artikel des Tages/{weekday}"
