@@ -114,13 +114,16 @@ loudness_tolerance_lu = 0.1             # accepted deviation of the output from 
 loudness_max_iterations = 8             # gain/ceiling corrections before the run fails
 
 # General pronunciation lexicon: names the TTS voices get wrong in many episodes (decided
-# 2026-11-20). Empty for now; an entry for a single episode belongs in `pronunciation.json` in
-# its archive folder. `spoken` goes to the TTS instead of `written`; `heard` lists what Whisper
-# writes for it, which counts as `written` in the check. Script and archive keep `written`.
-# [[pronunciation]]
-# written = "..."
-# spoken = "..."
-# heard = ["..."]
+# 2026-11-20). An entry for a single episode belongs in `pronunciation.json` in its archive
+# folder. `spoken` goes to the TTS instead of `written`; `heard` lists what Whisper writes for it,
+# which counts as `written` in the check. Script and archive keep `written`.
+
+# The persona's name: the voice says it correctly, Whisper hears it as another name (Axolotl
+# 2026-11-20: "Lina", Main 2026-11-21: "Leda").
+[[pronunciation]]
+written = "Lena"
+spoken = "Lena"
+heard = ["Lina", "Leda"]
 
 [prices]
 # Feed the per-episode cost log. USD per million tokens unless stated otherwise.
