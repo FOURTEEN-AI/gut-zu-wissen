@@ -1,0 +1,69 @@
+{
+  "title": "Konquistador",
+  "revid": 271970959,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-07T21:51:55Z",
+  "fetched_at": "2026-11-21T22:38:34Z",
+  "categories": [
+    "Kategorie:Christianisierung",
+    "Kategorie:Konquistador",
+    "Kategorie:Militärgeschichte Lateinamerikas",
+    "Kategorie:Personenbezeichnung (Militär)",
+    "Kategorie:Portugiesische Phrase",
+    "Kategorie:Spanische Kolonialgeschichte",
+    "Kategorie:Spanische Militärgeschichte",
+    "Kategorie:Spanische Phrase",
+    "Kategorie:Wikipedia:Belege fehlen"
+  ],
+  "intro_wikitext": "{{Weiterleitungshinweis|''Conquistador'' und ''Conquista''|Zu weiteren Bedeutungen siehe [[Conquistador (Begriffsklärung)]] sowie [[Conquista (Begriffsklärung)]].|mehrzahl=ja}}\n{{Belege fehlen}}\n[[Datei:Retrato de Hernán Cortés.jpg|mini|[[Hernán Cortés]] (1485–1547)]]\n[[Datei:Portrait of Francisco Pizarro (cropped).png|mini|[[Francisco Pizarro]] (um 1476–1541)]]\n[[Datei:El Licenciado Gonzalo Jiménez de Quesada.png|mini|[[Gonzalo Jiménez de Quesada]] (1509–1579)]]\n'''Konquistador''' ({{esS}} und {{ptS|conquistador}} ‚Eroberer‘) wird als Sammelbegriff für die [[Soldat]]en, [[Entdecker]] und [[Abenteuer|Abenteurer]] benutzt, die während des 16. und 17. Jahrhunderts große Teile von [[Nordamerika|Nord-]], [[Mittelamerika|Mittel-]] und [[Südamerika]] sowie der [[Philippinen]] und anderen Inseln als [[Spanisches Kolonialreich|Kolonien]] eroberten.\n\nDer über ein Jahrhundert andauernde Prozess der Eroberung und Erschließung des mittel- und südamerikanischen Festlandes wird als ''Conquista'' (‚Eroberung‘) bezeichnet. In den Augen der meisten Spanier der damaligen Zeit war sie die zeitliche und kohärente Folge der im Jahr 1492 abgeschlossenen Rückeroberung ''([[reconquista]])'' der [[Iberische Halbinsel|Iberischen Halbinsel]] aus den Händen der [[Mauren]].",
+  "segments": [
+    {
+      "id": "271970959-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Konquistador''' ({{esS}} und {{ptS|conquistador}} ‚Eroberer‘) wird als Sammelbegriff für die [[Soldat]]en, [[Entdecker]] und [[Abenteuer|Abenteurer]] benutzt, die während des 16. und 17. Jahrhunderts große Teile von [[Nordamerika|Nord-]], [[Mittelamerika|Mittel-]] und [[Südamerika]] sowie der [[Philippinen]] und anderen Inseln als [[Spanisches Kolonialreich|Kolonien]] eroberten.",
+      "plain": null
+    },
+    {
+      "id": "271970959-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der über ein Jahrhundert andauernde Prozess der Eroberung und Erschließung des mittel- und südamerikanischen Festlandes wird als ''Conquista'' (‚Eroberung‘) bezeichnet.",
+      "plain": null
+    },
+    {
+      "id": "271970959-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "In den Augen der meisten Spanier der damaligen Zeit war sie die zeitliche und kohärente Folge der im Jahr 1492 abgeschlossenen Rückeroberung ''([[reconquista]])'' der [[Iberische Halbinsel|Iberischen Halbinsel]] aus den Händen der [[Mauren]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271970959,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271970959-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Konquistador (spanisch und portugiesisch conquistador ‚Eroberer‘) wird als Sammelbegriff für die Soldaten, Entdecker und Abenteurer benutzt, die während des 16. und 17. Jahrhunderts große Teile von Nord-, Mittel- und Südamerika sowie der Philippinen und anderen Inseln als Kolonien eroberten.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271970959-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271970959-0001"
+        ],
+        "plain": "In den Augen der meisten Spanier der damaligen Zeit war sie die zeitliche und kohärente Folge der im Jahr 1492 abgeschlossenen Rückeroberung (reconquista) der Iberischen Halbinsel aus den Händen der Mauren.",
+        "context_plain": [
+          "Der über ein Jahrhundert andauernde Prozess der Eroberung und Erschließung des mittel- und südamerikanischen Festlandes wird als Conquista (‚Eroberung‘) bezeichnet."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

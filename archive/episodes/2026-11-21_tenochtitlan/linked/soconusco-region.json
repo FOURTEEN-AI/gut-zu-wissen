@@ -1,0 +1,51 @@
+{
+  "title": "Soconusco (Region)",
+  "revid": 267186827,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-05-18T20:22:05Z",
+  "fetched_at": "2026-11-21T22:38:34Z",
+  "categories": [
+    "Kategorie:Chiapas",
+    "Kategorie:Geographie (Mittelamerika)"
+  ],
+  "intro_wikitext": "[[Datei:Soconusco.png|mini|hochkant=1.4|Der mexikanische Teil der Region Soconusco im Bundesstaat [[Chiapas]]]]\n'''Soconusco''' bezeichnet eine historische Region und Verwaltungseinheit in [[Mittelamerika]], zu der sowohl Gebiete in [[Mexiko]] als auch in [[Guatemala]] gehören. Die Stadt [[Tapachula]] gilt als die heimliche Hauptstadt von Soconusco.",
+  "segments": [
+    {
+      "id": "267186827-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Soconusco''' bezeichnet eine historische Region und Verwaltungseinheit in [[Mittelamerika]], zu der sowohl Gebiete in [[Mexiko]] als auch in [[Guatemala]] gehören.",
+      "plain": null
+    },
+    {
+      "id": "267186827-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Stadt [[Tapachula]] gilt als die heimliche Hauptstadt von Soconusco.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 267186827,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "267186827-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Soconusco bezeichnet eine historische Region und Verwaltungseinheit in Mittelamerika, zu der sowohl Gebiete in Mexiko als auch in Guatemala gehören.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "267186827-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Stadt Tapachula gilt als die heimliche Hauptstadt von Soconusco.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

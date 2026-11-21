@@ -1,0 +1,38 @@
+{
+  "title": "Templo Mayor",
+  "revid": 269151237,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-27T22:35:44Z",
+  "fetched_at": "2026-11-21T22:38:34Z",
+  "categories": [
+    "Kategorie:Azteken",
+    "Kategorie:Bauwerk in Mexiko-Stadt",
+    "Kategorie:Cuauhtémoc (Demarcación territorial)",
+    "Kategorie:Mittelamerikanische Pyramide"
+  ],
+  "intro_wikitext": "[[Datei:ScaleModelTemploMayor.JPG|mini|Modell des Tempels mit Ausschnitt der verschiedenen Baustufen]]\n[[Datei:TemploMayor3.jpg|mini|[[Chak Mo'ol|Chak-Mo'ol]]-Figur im Huitzilopochtli-Tempel, Phase 2, während der Ausgrabungen]]\n[[Datei:Templo Mayor and Cathedral.jpg|mini|Ausgegrabene Reste des großen Tempels mit [[Kathedrale von Mexiko-Stadt|Kathedrale]] im Hintergrund (Zustand 2008)]]\n\nDer '''Templo Mayor''' ([[Spanische Sprache|span.]]) bzw. '''Huēy Teōcalli'''<ref>[https://www.mexicodesconocido.com.mx/el-templo-mayor-etapas-de-construccion.html El Templo Mayor (Distrito Federal)]. ''México Desconocido''. Abgerufen am 23. März 2011</ref> ([[nahuatl]], „Großer Tempel“; auch ''Große Pyramide von Tenochtitlán'') war der wichtigste und größte Tempel der [[Azteken|aztekischen]] Hauptstadt [[Tenochtitlán]], des heutigen [[Mexiko-Stadt]].",
+  "segments": [
+    {
+      "id": "269151237-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der '''Templo Mayor''' ([[Spanische Sprache|span.]]) bzw. '''Huēy Teōcalli'''<ref>[https://www.mexicodesconocido.com.mx/el-templo-mayor-etapas-de-construccion.html El Templo Mayor (Distrito Federal)]. ''México Desconocido''. Abgerufen am 23. März 2011</ref> ([[nahuatl]], „Großer Tempel“; auch ''Große Pyramide von Tenochtitlán'') war der wichtigste und größte Tempel der [[Azteken|aztekischen]] Hauptstadt [[Tenochtitlán]], des heutigen [[Mexiko-Stadt]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269151237,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269151237-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Templo Mayor (span.) bzw. Huēy Teōcalli (nahuatl, „Großer Tempel“; auch Große Pyramide von Tenochtitlán) war der wichtigste und größte Tempel der aztekischen Hauptstadt Tenochtitlán, des heutigen Mexiko-Stadt.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

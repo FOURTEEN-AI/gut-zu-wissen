@@ -1,0 +1,119 @@
+{
+  "title": "Adler (Biologie)",
+  "revid": 270556127,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-17T06:49:25Z",
+  "fetched_at": "2026-11-21T22:38:34Z",
+  "categories": [
+    "Kategorie:Greifvögel",
+    "Kategorie:Ornithologie"
+  ],
+  "intro_wikitext": "{{Alternatives Taxon}}\n[[Datei:Kaiseradler Aquila heliaca e amk.jpg|mini|[[Kaiseradler (Art)|Kaiseradler]]]]\nDer Begriff '''Adler''' (von {{GmhS|adelar[e]|Edel-Aar}}, wobei ''Aar'' Adler und Adlerartige (unedle Adler) bezeichnete) ist im weiteren Sinn eine nicht genau definierte Sammelbezeichnung für große und kräftige Arten von [[Greifvögel]]n in der Familie der [[Habichtartige]]n, wie beispielsweise für die [[Gattung (Biologie)|Gattung]] der [[Seeadler (Gattung)|Seeadler]], den [[Schlangenadler]] oder den [[Affenadler]]. Im engeren Sinn steht die Bezeichnung ''Adler'' für die Gattung [[Echte Adler]] (Aquila) mit den ihr zugehörigen [[Art (Biologie)|Art]]en. Deren größte lebende Vertreter sind der [[Steinadler]] und der [[Keilschwanzadler]]. Außerhalb der Habichtartigen wird im Deutschen auch der in seine eigene Familie gestellte [[Fischadler]] unter die Adler gezählt.\n\nMit einer Spannweite bis zu 3 Meter gilt der um 1400 n.&nbsp;Chr. ausgestorbene [[Haastadler]] (Harpagornis moorei) als größter bekannter Adler. Sein Lebensraum befand sich auf [[Neuseeland]].\n\nFasst man die oben genannten Gattungen zusammen, kommen Adler auf allen Kontinenten außer Antarktika vor.",
+  "segments": [
+    {
+      "id": "270556127-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Begriff '''Adler''' (von {{GmhS|adelar[e]|Edel-Aar}}, wobei ''Aar'' Adler und Adlerartige (unedle Adler) bezeichnete) ist im weiteren Sinn eine nicht genau definierte Sammelbezeichnung für große und kräftige Arten von [[Greifvögel]]n in der Familie der [[Habichtartige]]n, wie beispielsweise für die [[Gattung (Biologie)|Gattung]] der [[Seeadler (Gattung)|Seeadler]], den [[Schlangenadler]] oder den [[Affenadler]].",
+      "plain": null
+    },
+    {
+      "id": "270556127-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im engeren Sinn steht die Bezeichnung ''Adler'' für die Gattung [[Echte Adler]] (Aquila) mit den ihr zugehörigen [[Art (Biologie)|Art]]en.",
+      "plain": null
+    },
+    {
+      "id": "270556127-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Deren größte lebende Vertreter sind der [[Steinadler]] und der [[Keilschwanzadler]].",
+      "plain": null
+    },
+    {
+      "id": "270556127-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Außerhalb der Habichtartigen wird im Deutschen auch der in seine eigene Familie gestellte [[Fischadler]] unter die Adler gezählt.",
+      "plain": null
+    },
+    {
+      "id": "270556127-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Mit einer Spannweite bis zu 3 Meter gilt der um 1400 n.&nbsp;Chr. ausgestorbene [[Haastadler]] (Harpagornis moorei) als größter bekannter Adler.",
+      "plain": null
+    },
+    {
+      "id": "270556127-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sein Lebensraum befand sich auf [[Neuseeland]].",
+      "plain": null
+    },
+    {
+      "id": "270556127-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Fasst man die oben genannten Gattungen zusammen, kommen Adler auf allen Kontinenten außer Antarktika vor.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270556127,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270556127-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Begriff Adler (von mittelhochdeutsch adelar[e] für ‚Edel-Aar‘, wobei Aar Adler und Adlerartige (unedle Adler) bezeichnete) ist im weiteren Sinn eine nicht genau definierte Sammelbezeichnung für große und kräftige Arten von Greifvögeln in der Familie der Habichtartigen, wie beispielsweise für die Gattung der Seeadler, den Schlangenadler oder den Affenadler.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270556127-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270556127-0001"
+        ],
+        "plain": "Deren größte lebende Vertreter sind der Steinadler und der Keilschwanzadler.",
+        "context_plain": [
+          "Im engeren Sinn steht die Bezeichnung Adler für die Gattung Echte Adler (Aquila) mit den ihr zugehörigen Arten."
+        ]
+      },
+      {
+        "segment_id": "270556127-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Außerhalb der Habichtartigen wird im Deutschen auch der in seine eigene Familie gestellte Fischadler unter die Adler gezählt.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270556127-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Mit einer Spannweite bis zu 3 Meter gilt der um 1400 n. Chr. ausgestorbene Haastadler (Harpagornis moorei) als größter bekannter Adler.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270556127-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Fasst man die oben genannten Gattungen zusammen, kommen Adler auf allen Kontinenten außer Antarktika vor.",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "270556127-0005",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

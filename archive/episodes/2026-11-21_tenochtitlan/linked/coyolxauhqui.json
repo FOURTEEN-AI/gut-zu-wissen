@@ -1,0 +1,55 @@
+{
+  "title": "Coyolxauhqui",
+  "revid": 271600376,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-24T22:40:00Z",
+  "fetched_at": "2026-11-21T22:38:34Z",
+  "categories": [
+    "Kategorie:Gottheit der Azteken",
+    "Kategorie:Weibliche Gottheit"
+  ],
+  "intro_wikitext": "[[Datei:Coyolxauhqui 4095977415 b89d64f008-2.jpg|miniatur|Reliefstein mit Coyolxauhqui, gefunden am Fuße des [[Templo Mayor]]]]\n\n'''Coyolxauhqui''' ([[Nahuatl]]: ''Goldene Glocken'') war in der [[Liste der Aztekengötter|aztekischen Mythologie]] die Göttin des Mondes. Sie war die Tochter [[Coatlicue]]s und die Schwester der [[Centzon Huitznahua]].",
+  "segments": [
+    {
+      "id": "271600376-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Coyolxauhqui''' ([[Nahuatl]]: ''Goldene Glocken'') war in der [[Liste der Aztekengötter|aztekischen Mythologie]] die Göttin des Mondes.",
+      "plain": null
+    },
+    {
+      "id": "271600376-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie war die Tochter [[Coatlicue]]s und die Schwester der [[Centzon Huitznahua]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271600376,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271600376-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Coyolxauhqui (Nahuatl: Goldene Glocken) war in der aztekischen Mythologie die Göttin des Mondes.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271600376-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271600376-0000"
+        ],
+        "plain": "Sie war die Tochter Coatlicues und die Schwester der Centzon Huitznahua.",
+        "context_plain": [
+          "Coyolxauhqui (Nahuatl: Goldene Glocken) war in der aztekischen Mythologie die Göttin des Mondes."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

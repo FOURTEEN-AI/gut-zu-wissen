@@ -1,0 +1,1168 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Hauptstadt des Aztekenreiches vom 14. bis Anfang des 16. Jahrhunderts, Eroberung und Zerstörung durch die spanischen Konquistadoren, vermutlich mehr als 100.000 Einwohner zu Beginn des 16. Jahrhunderts bei Ankunft der ersten Spanier. „Heute geht es um…“ ist eine Überleitung ohne eigene Behauptung. Es gibt keine Fragen und keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Fakt-IDs, aber auch keine Behauptung. „Beeindruckend.“ ist eine Gefühlsreaktion. „Wo lag diese Stadt eigentlich?“ ist eine Nachfrage, die sich auf Tenochtitlan aus dem vorherigen Beitrag bezieht und keine Einzelheit, Wertung oder Vermutung vorwegnimmt."
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.46,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag ist eine reine Nachfrage bzw. Überleitung: Er greift das von Lena genannte Tlatelolco wieder auf und bittet um Erklärung. Er stellt keine Behauptung auf und nimmt keine bestimmte Einzelheit als Prämisse vorweg. Damit ist er belegfrei und erfüllt die Rubrik."
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage („Und was war Tlatelolco für ein Ort?“). Sie bittet um Erklärung und greift den Gegenstand aus dem vorherigen Beitrag auf. Sie enthält keine Behauptung und keine Prämisse, die Einzelheiten oder Wertungen vorwegnimmt. Sie ist daher belegfrei, auch ohne Fakt-IDs."
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.74
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion („Interessant.“) und einer Nachfrage, ob es in Tenochtitlan eine Stadtmauer gab. Das ist eine Überleitungsfrage, die nur voraussetzt, dass es dazu etwas zu erzählen gibt. Sie nimmt keine bestimmte Einzelheit oder Wertung vorweg und stellt keine Behauptung auf. „Bei dieser Lage“ greift lediglich das Thema der Inseln und Dammwege auf. Der zitierte Fakt wird nicht über seinen Gehalt hinaus verwendet."
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.97,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: keine Stadtmauer wegen der Erreichbarkeit nur über Dammstraßen und Seeweg (0018), die Unterbrechungen der Dämme mit beweglichen hölzernen Brücken (0016) und die Nutzung im Jahr 1521 bei der Verteidigung gegen die Spanier (0017). Die Bezugswörter „Die Dämme“, „Diese“ und „Diese Tatsache“ sind eindeutig aufgelöst, denn der Dammkontext steht im Kontext von 0016 und der Redebeitrag nennt die Dämme selbst. Das einleitende „Nein“ beantwortet Felix' Frage zum selben Gegenstand, und der Redebeitrag enthält keine Zusatzangaben und keine Fragen mit Prämissen."
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion („Faszinierend!“) und einer Überleitungsfrage nach der Ernährung der Menschen. Die Frage setzt keine bestimmte Einzelheit, Wertung oder Tatsache voraus, die erst die Antwort liefern würde. Er enthält also keine belegpflichtige Behauptung und braucht keine Fakt-IDs."
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion („Spannend.“) und einer Nachfrage, wie die Menschen dort wohnten. Die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg. Er enthält keine Behauptung und braucht daher keine Fakt-IDs."
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.8
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine offene Nachfrage ohne Fakt-IDs. „Gab es mit dem Wasser eigentlich auch Schwierigkeiten?“ setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Der Bezug zu den Pfahlbauten aus dem vorherigen Beitrag ist plausibel. Der Beitrag enthält keine Behauptung und ist daher belegfrei zulässig."
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion („Wow, das klingt nach einem ernsten Problem“, ein Gefühl im Moment, das Lenas Aussage über die Ernährung der Stadt wieder aufgreift) und einer Nachfrage („Was ist aus diesem See später geworden?“). Die Nachfrage ist eine Überleitungsfrage, die nur voraussetzt, dass es zum See etwas zu erzählen gibt. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Der See wurde zuvor genannt, der Bezug ist eindeutig. Neue Behauptungen enthält der Beitrag nicht."
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.52
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion (Neugier: \"Das macht mich neugierig\") und einer Nachfrage (\"Ist davon irgendwo noch etwas zu finden?\"). Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es dazu etwas zu erzählen gibt. Sie ist belegfrei, und es gibt keine unbelegte Behauptung."
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.47,
+        "vollstaendig": 0.72
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder. Er löst nur das Bezugswort „des Sees“ zu „des Texcoco-Sees“ auf, wie es der Kontext bestimmt, und das ist erlaubt. Der Artikel handelt von Tenochtitlan und dem See, und „davon“ in Felix' Frage meint denselben Gegenstand. Es kommt keine zusätzliche Angabe dazu."
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.76
+      },
+      "jev_error": null,
+      "reason": "„Ein ziemlich kleiner Rest“ greift Lenas Aussage über den letzten Überrest des Sees wieder auf, und der Fakt-Satz nennt nur „kleine Gewässer“ als letzten Überrest. Das ist eine Reaktion ohne neue Information. Die Frage „Worauf steht die heutige Stadt dann eigentlich?“ ist eine Nachfrage bzw. Überleitung ohne vorweggenommene Einzelheit oder Wertung, also belegfrei."
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.26
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion („Oh, das wusste ich nicht“, eine Aussage über das eigene Wissen) und einer Nachfrage, die um Erklärung bittet. Die Frage „Was ist an diesem Boden denn so schwierig?“ nimmt nur auf, was Lena gerade gesagt hat (der Boden behindert die archäologische Untersuchung), und fügt keine neue Einzelheit, Wertung oder Vermutung hinzu. Der Redebeitrag enthält keine Behauptung, die belegt werden müsste."
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag besteht aus der Reaktion „Interessant“ und einer Nachfrage, die um Erklärung bittet. Das Grundwasser hat Lena im vorherigen Beitrag genannt. Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, setzt also keine Prämisse voraus, die belegt sein müsste. Der Beitrag ist belegfrei und enthält keine unbelegte Behauptung."
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Überleitung („Das wirft eine Frage auf“) und einer Nachfrage nach den Auswirkungen des Untergrunds auf die Gebäude der heutigen Stadt. Beides ist belegfrei. Die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. „Dieser Untergrund“ knüpft an Lenas Aussage zur Grundwasserabsenkung an. Eine Tatsachenbehauptung enthält der Beitrag nicht."
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag besteht nur aus einer Reaktion (Staunen: \"Das ist wirklich erstaunlich.\") und einer Nachfrage, ob man die Folgen auch an anderen Gebäuden sieht. Die Nachfrage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern fragt nur nach etwas Neuem. Damit ist der Beitrag belegfrei und enthält keine unbelegte Behauptung."
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.43
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur Reaktionen: Staunen (\"Unglaublich!\"), Neugier (\"Das macht mich neugierig auf die alte Stadt\") und eine Nachfrage. Die Frage \"Was ist von der Stadt der Azteken selbst eigentlich noch übrig?\" ist eine offene Überleitungsfrage, die keine bestimmte Einzelheit, Wertung oder Vermutung vorwegnimmt. Sie setzt nur voraus, dass es etwas zu erzählen gibt, und der Gegenstand (die Stadt der Azteken) ist im Gespräch bereits angelegt. Es werden keine Behauptungen aufgestellt, daher sind keine Fakt-Sätze nötig."
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.46
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion (\"Hm, das hört sich nach einem schwierigen Fall für die Forschung an\"), die das eben Gesagte aufgreift, und einer Nachfrage. Die Frage \"Was geschah mit den alten Bauwerken, nachdem die Spanier die Stadt erobert hatten?\" ist eine Nachfrage. Ihre Voraussetzungen (Spanier eroberten die Stadt, es gab alte Bauwerke) folgen aus dem Fakt-Satz, wonach Tenochtitlan von spanischen Konquistadoren erobert und zerstört wurde, und aus dem vorherigen Beitrag. Sie nimmt keine Einzelheit der Antwort vorweg."
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.48
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus Reaktionen: \"Oh, das überrascht mich\" ist ein Gefühl im Moment, und \"Und was wurde aus diesem Material gebaut?\" ist eine Nachfrage. Sie knüpft an die Aussage der vorherigen Sprecherin an (Pyramiden als Steinbruch) und nimmt keine bestimmte Einzelheit vorweg. Die Frage setzt nur voraus, dass aus dem Material etwas gebaut wurde, und das folgt ohnehin aus dem Fakt-Satz. Es gibt keine neue Behauptung und keine Prämisse, die belegt werden müsste."
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur eine Reaktion (\"Spannend.\") und eine Nachfrage, ob von der alten Stadt noch etwas zu erkennen ist. Die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Sie ist belegfrei, und es werden keine Behauptungen aufgestellt."
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.77
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur eine Reaktion („Erstaunlich!“) und eine Nachfrage, ob von den alten Bauten etwas unter besonderem Schutz steht. Die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Sie ist daher belegfrei, und Fakt-IDs werden nicht benötigt."
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 41,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.7
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag besteht aus einer Reaktion („Gut zu wissen“) und einer Nachfrage, wie solche Ruinen heute zum Vorschein kommen. Das ist eine Überleitungsfrage, die nichts Konkretes vorwegnimmt. Dass es Ruinen gibt, hat Lena gerade gesagt und es steht im Fakt-Satz. Der Beitrag enthält keine neue Behauptung und keine unbelegte Prämisse."
+    },
+    {
+      "turn_index": 42,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 43,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag besteht aus einer Reaktion (Staunen: \"Wow, ein Tempel mitten bei Bauarbeiten!\"), die nur Lenas Aussage aufgreift und durch den Fakt-Satz gedeckt ist, sowie einer offenen Nachfrage nach weiteren Ausgrabungen. Die Frage ist eine Überleitungsfrage und nimmt keine bestimmte Einzelheit vorweg; sie setzt nur voraus, dass es noch mehr zu erzählen gibt. Es gibt keine neue unbelegte Behauptung."
+    },
+    {
+      "turn_index": 44,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 45,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag besteht nur aus einer Überleitung („Du hast den Templo Mayor erwähnt“), die das eben von Lena Gesagte wieder aufgreift, und einer Nachfrage mit Bitte um Erklärung. Die Frage „Was war das eigentlich für ein Bauwerk?“ nimmt keine bestimmte Einzelheit oder Wertung vorweg; dass der Templo Mayor ein Bauwerk ist, ergibt sich aus dem Gespräch. Der Beitrag enthält keine neue Behauptung, die belegt werden müsste, und ist daher belegfrei in Ordnung."
+    },
+    {
+      "turn_index": 46,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 47,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag besteht aus einer Reaktion („Beeindruckend.“) und einer Nachfrage, wie der Tempel erforscht wurde. Die Frage ist eine Überleitungsfrage und setzt nur voraus, dass es dazu etwas zu erzählen gibt; sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Der Beitrag enthält keine Behauptung, die belegt werden müsste, und „diesen Tempel“ bezieht sich eindeutig auf den Templo Mayor aus dem vorherigen Redebeitrag."
+    },
+    {
+      "turn_index": 48,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 49,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag besteht nur aus Reaktionen: \"Faszinierend, was ein einzelner Zufall auslösen kann\" ist ein Gefühl im Moment und greift nur das von Lena Gesagte wieder auf, ohne neue Information. \"Wie kann man sich die Anlage rund um den Tempel vorstellen?\" ist eine Nachfrage bzw. Bitte um Erklärung und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Die Existenz einer Anlage um den Tempel wird nur allgemein vorausgesetzt, was bei einer Nachfrage zulässig ist. Es gibt keine Behauptung, die belegt werden müsste."
+    },
+    {
+      "turn_index": 50,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 51,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus Reaktionen: „Interessant“ ist eine Reaktion, „Du hast schriftliche Berichte erwähnt“ greift das eben Gesagte ohne neue Information wieder auf, und „Gibt es auch alte Schriften der Azteken selbst?“ ist eine Nachfrage. Die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit vorweg. Es wird keine Behauptung aufgestellt, die einen Beleg bräuchte."
+    },
+    {
+      "turn_index": 52,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 53,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.62
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur Reaktionen: \"Schade, das ist ein großer Verlust für die Neugier\" ist ein Gefühl im Moment, und die Frage \"Kann man sich die Stadt heute auf irgendeine Weise ansehen?\" ist eine Nachfrage bzw. Überleitung. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, die erst die Antwort liefern würde. Es gibt keine neue Tatsachenbehauptung, deshalb sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 54,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 55,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur eine Reaktion („Das klingt spannend“) und eine Nachfrage nach weiteren Informationen zum Templo Mayor. Die Frage nennt den Gegenstand, nimmt aber keine bestimmte Einzelheit, Wertung oder Vermutung vorweg und setzt nichts Ungesagtes als Tatsache voraus. Es werden keine Behauptungen aufgestellt, daher sind keine Fakt-Sätze nötig."
+    },
+    {
+      "turn_index": 56,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 57,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "„Oh weh.“ ist eine Reaktion (Gefühl im Moment). „Gab es für solche Opferungen eigentlich besondere Gegenstände?“ ist eine Nachfrage, die nur voraussetzt, dass es dazu etwas zu erzählen gibt, und keine bestimmte Einzelheit vorwegnimmt. Der Redebeitrag enthält keine Behauptung und keine Prämisse, die belegt werden müsste."
+    },
+    {
+      "turn_index": 58,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 59,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.39
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion („das muss ich erst einmal sacken lassen“) und einer Nachfrage zur Reichweite des Aztekenreichs. Beides ist belegfrei. Die Frage setzt nur voraus, dass es ein Reich der Azteken gab, und das hat der vorherige Beitrag mit dem Opferkult der Azteken bereits eingeführt und der Fakt-Satz nennt es ebenfalls. Sie nimmt keine bestimmte Einzelheit oder Wertung vorweg. Eine zusätzliche Behauptung enthält der Beitrag nicht."
+    },
+    {
+      "turn_index": 60,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 61,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Fakt-IDs, aber auch keine Behauptung: \"Faszinierend.\" ist eine Reaktion (Staunen), und \"Wie ist diese Stadt eigentlich entstanden?\" ist eine Nachfrage bzw. Überleitungsfrage. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es etwas zur Entstehung zu erzählen gibt. Damit ist der Beitrag belegfrei und zulässig."
+    },
+    {
+      "turn_index": 62,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 63,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Das ist ja ein schönes Bild“ ist eine Reaktion, ein Gefühl im Moment. „Woher hat die Stadt ihren Namen?“ ist eine Nachfrage, die als Prämisse nur voraussetzt, dass die Stadt einen Namen hat. Das ist keine bestimmte Einzelheit, Wertung oder Vermutung, die erst die Antwort liefert. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 64,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 65,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 66,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 67,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.43
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion („Das überrascht mich“, ein Gefühl im Moment) und einer Nachfrage nach der Deutung des Stadtnamens. Das ist eine Überleitungsfrage, die nur voraussetzt, dass es dazu etwas zu erzählen gibt. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, und der Stadtname Tenochtitlan ist das Thema des Artikels. Neue Behauptungen enthält der Beitrag nicht, daher ist er belegfrei in Ordnung."
+    },
+    {
+      "turn_index": 68,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 69,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.67
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur eine Reaktion („Gut zu wissen“) und eine Bitte um Erzählung. Dass die Stadt Herrscher hatte, ist keine bestimmte Einzelheit, Wertung oder Vermutung, sondern die übliche Voraussetzung einer Überleitungsfrage. Neue Tatsachenbehauptungen gibt es nicht, deshalb sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 70,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 71,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 72,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.86,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder: Azcapotzalco wurde geplündert, Maxtla wurde eigenhändig von Nezahualcóyotl, dem Herrscher von Texcoco, bei einer Opferzeremonie getötet. Maxtla wird im vorherigen Redebeitrag genannt und ist das Thema des Artikels, der Bezug ist also eindeutig. Es kommen keine zusätzlichen Angaben hinzu, und die Antwort passt zur Frage nach Maxtlas Schicksal."
+    },
+    {
+      "turn_index": 73,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion („Wow, was für ein Ende.“, ein Gefühl im Moment) und einer offenen Nachfrage („Was ist über Maxtla sonst noch bekannt?“). Die Frage nimmt keine bestimmte Einzelheit vorweg und setzt nur voraus, dass es noch mehr zu erzählen gibt. Es werden keine neuen Behauptungen aufgestellt, die belegt sein müssten."
+    },
+    {
+      "turn_index": 74,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 75,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion („Das klingt dramatisch“) und einer Nachfrage („Was geschah mit dem Gefangenen?“). Beides ist belegfrei. Die Frage nimmt keine Einzelheit vorweg, denn dass Chimalpopoca gefangen genommen wurde, steht im vorherigen Redebeitrag und im Fakt-Satz."
+    },
+    {
+      "turn_index": 76,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: Chimalpopoca wurde laut anderen Quellen bei seiner Rückkehr nach Tenochtitlan von Anhängern seines Onkels Itzcóatl ermordet, und Itzcóatl folgte ihm auf den Thron. Der Bezug \"er\" wird korrekt mit dem Artikelthema Chimalpopoca aufgelöst, das ist erlaubt. Der Redebeitrag enthält keine Frage und keine weitere unbelegte Angabe."
+    },
+    {
+      "turn_index": 77,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Fakt-IDs und auch keine eigene Behauptung. „Da gibt es also verschiedene Überlieferungen“ greift nur das eben von Lena Gesagte wieder auf („In anderen Quellen heißt es …“). „Kommen wir zu den Spaniern“ ist eine Überleitung. „Wie ging es mit ihnen weiter?“ ist eine offene Nachfrage ohne vorweggenommene Einzelheit, Wertung oder Vermutung. Der Redebeitrag besteht damit nur aus belegfreien Reaktionen."
+    },
+    {
+      "turn_index": 78,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: Moctezuma akzeptierte die Niederlassung der Spanier 1519 in Tenochtitlan und ließ sich in eine Marionettenrolle zwingen. Das Bezugswort „Er“ wird korrekt mit „Der Herrscher Moctezuma“ aufgelöst; der Kontext nennt Moctezuma ausdrücklich. Der Redebeitrag enthält keine Fragen und keine zusätzlichen, unbelegten Angaben. Er beantwortet die Frage nach den Spaniern passend."
+    },
+    {
+      "turn_index": 79,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 80,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 1.0,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 81,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion (\"Das klingt bedrückend\" als Gefühl im Moment) und einer Nachfrage (\"Wie ging es für die Stadt aus?\"). Die Frage ist eine Überleitungsfrage ohne vorweggenommene Einzelheit, Wertung oder Tatsachenbehauptung als Prämisse. Neue Behauptungen enthält der Beitrag nicht."
+    },
+    {
+      "turn_index": 82,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 83,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 84,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 85,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.67
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Faktenbehauptung. \"Das geht wirklich unter die Haut\" ist eine Reaktion, ein Gefühl im Moment. \"Magst du zum Schluss alles kurz zusammenfassen?\" ist eine Bitte und Überleitung ohne Prämisse, die einer Belegung bedürfte. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 86,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "aussage_3": 0.98,
+        "aussage_4": 0.98,
+        "aussage_5": 0.99,
+        "aussage_6": 0.99,
+        "aussage_7": 0.99,
+        "aussage_8": 0.98,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Jede Aussage folgt aus den zitierten Fakt-Sätzen: Hauptstadt der Azteken, größte Stadt, Neubau auf den Trümmern mit vollständig überdeckten Überresten, Pyramiden als Steinbruch, Kathedrale vor dem Templo Mayor, trockengelegter Texcoco-See, Kirchen rund zwei Meter unter dem Straßenniveau, Templo Mayor als wichtigster Tempel, zufälliger Fund 1978 und Proyecto Templo Mayor, Adler-Legende im Wappen sowie Gefangennahme Cuauhtémocs auf der Flucht. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben. Auch das „Deshalb“ gibt die Kausalität des Fakt-Satzes wieder (Neubau, daher Überdeckung). Alle Bezüge sind eindeutig, da der Artikel Tenochtitlan das Thema ist."
+    }
+  ],
+  "used_fact_ids": [
+    "272052564-0000",
+    "272052564-0001",
+    "272052564-0002",
+    "272052564-0010",
+    "272052564-0015",
+    "272052564-0014",
+    "272052564-0048",
+    "272052564-0037",
+    "272052564-0018",
+    "272052564-0016",
+    "272052564-0017",
+    "272052564-0028",
+    "272052564-0025",
+    "272052564-0064",
+    "272052564-0012",
+    "272052564-0013",
+    "272052564-0112",
+    "272052564-0113",
+    "272052564-0114",
+    "272052564-0115",
+    "272052564-0116",
+    "272052564-0095",
+    "272052564-0092",
+    "272052564-0091",
+    "272052564-0097",
+    "272052564-0004",
+    "272052564-0108",
+    "272052564-0107",
+    "269151237-0000",
+    "272052564-0120",
+    "272052564-0131",
+    "272052564-0059",
+    "272052564-0135",
+    "272052564-0071",
+    "180140723-0000",
+    "272052564-0072",
+    "271156324-0010",
+    "272052564-0006",
+    "272052564-0044",
+    "272052564-0007",
+    "272052564-0051",
+    "215376285-0005",
+    "270209548-0008",
+    "270209548-0011",
+    "272052564-0079",
+    "272052564-0082",
+    "272052564-0085",
+    "271084119-0007"
+  ],
+  "cascade_checks": [
+    {
+      "conversation": 1,
+      "turn_index": 17,
+      "p": 0.04,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 2,
+      "turn_index": 28,
+      "p": 0.78,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung nennt die „prekären Bodenverhältnisse“ nicht mehr. „Am besten sieht man es“ ist unbestimmt, weil „es“ nichts Konkretes benennt. Die erste Aussage, dass die Auswirkungen der prekären Bodenverhältnisse bei der Kathedrale am Zócalo besonders gut zu erkennen sind, ist damit nicht vollständig wiedergegeben. Die zweite Aussage zur Neigung der Kathedrale nach Westen und zum Einsinken des Babtisterios nach Osten steht unverändert in der neuen Fassung."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 29,
+      "p": 0.14,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die vorherige Fassung enthält die Aussage, dass an der Kathedrale am Zócalo die Auswirkungen der Bodenverhältnisse zu erkennen sind. Die neue Fassung fragt nur allgemein nach weiteren Gebäuden mit solchen Auswirkungen. Die Kathedrale am Zócalo wird nicht genannt, und die Aussage fehlt."
+    },
+    {
+      "conversation": 3,
+      "turn_index": 78,
+      "p": 0.86,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung enthält dieselbe Aussage: Moctezuma akzeptierte 1519 die Niederlassung der Spanier in Tenochtitlan und ließ sich von ihnen in eine Marionettenrolle zwingen. Die Ergänzung „Der Herrscher“ ist nur eine erklärende Beschreibung und ändert die Aussage nicht."
+    }
+  ],
+  "conversation": 3,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 16,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 16,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.96,
+          "vollstaendig": 0.45
+        },
+        "jev_error": null,
+        "reason": "Die Sachaussagen zum Aquädukt von einem See südwestlich der Stadt, zur Überflutung und zur weitgehenden Zerstörung der aztekischen Hauptstadt folgen aus dem Fakt-Satz. Nicht belegt ist aber der Einstieg „Ja, und zwar große.“ Er bejaht Felix' Frage und wertet die Schwierigkeiten als groß. Der Fakt-Satz nennt weder Schwierigkeiten mit dem Wasser allgemein noch deren Ausmaß als solches. Das ist eine Wertung mit Faktengehalt und keine bloße Reaktion."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 17,
+      "version": 0,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 17,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Felix' Beitrag besteht aus einer Reaktion („Oh!“) und einer Nachfrage („Wie ging man mit dieser Überschwemmung um?“). Die Frage greift die von Lena genannte Überschwemmung auf und setzt nur voraus, dass es eine Reaktion darauf gab. Das ist eine Überleitungsfrage und keine Prämisse mit vorweggenommener Einzelheit. Der Beitrag enthält keine neue Behauptung, daher ist er belegfrei zulässig."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 27,
+      "version": 0,
+      "replaced_by": 2,
+      "judgement": {
+        "turn_index": 27,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272052564-0113 wurde schon in Redebeitrag 24 und 25 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 28,
+      "version": 0,
+      "replaced_by": 3,
+      "judgement": {
+        "turn_index": 28,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 29,
+      "version": 0,
+      "replaced_by": 4,
+      "judgement": {
+        "turn_index": 29,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Felix' Beitrag besteht aus einer Reaktion (\"Oh!\") und einer Nachfrage nach weiteren Gebäuden mit solchen Auswirkungen. Das ist eine belegfreie Nachfrage, die nur voraussetzt, dass es dazu etwas zu erzählen gibt. Sie nimmt keine bestimmte Einzelheit oder Wertung vorweg und stellt keine neue Behauptung auf. Die Bezugnahme auf \"solche Auswirkungen\" ist durch Lenas vorherigen Beitrag eindeutig."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 77,
+      "version": 0,
+      "replaced_by": 5,
+      "judgement": {
+        "turn_index": 77,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272052564-0001 wurde schon in Redebeitrag 0 und 1 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 78,
+      "version": 0,
+      "replaced_by": 6,
+      "judgement": {
+        "turn_index": 78,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "title": "Maxtla",
+  "revid": 215376285,
+  "revision_status": "sighted",
+  "revision_timestamp": "2021-09-06T17:32:24Z",
+  "fetched_at": "2026-11-21T22:38:34Z",
+  "categories": [
+    "Kategorie:Geboren im 14. Jahrhundert",
+    "Kategorie:Gestorben 1428",
+    "Kategorie:Herrscher (Amerika)",
+    "Kategorie:Mann",
+    "Kategorie:Präkolumbisches Mesoamerika"
+  ],
+  "intro_wikitext": "'''Maxtla''' († [[1428]]) war bis zu seinem Tode Herrscher des zum Reich der [[Tepaneken]] gehörenden Stadtstaates [[Azcapotzalco]]. Er folgte seinem Vater [[Tezozómoc]] auf den Thron, vermutlich nachdem er seinen älteren Bruder [[Tayauh]] ermordet hatte.\n\nUnter seiner Herrschaft erlebte die ehemalige Großmacht Azcapotzalco einen dramatischen Niedergang. An die Stelle der vormals freundlichen Beziehungen mit den [[Azteken|Méxica]] von [[Tenochtitlán]] trat nun eine Phase politischer Spannungen, die in der Ermordung des Oberhauptes der Méxica und Enkels Tezozómocs, [[Chimalpopoca]], im Jahre 1426 gipfelte.\n\nBei der Belagerung von Tenochtitlán konnte [[Itzcóatl]], Chimalpopocas Nachfolger, unterstützt durch verbündete Stadtstaaten (unter anderem [[Texcoco]] und [[Tlacopán]]) Maxtla erfolgreich zurückwerfen. Azcapotzalco wurde geplündert und Maxtla eigenhändig von [[Nezahualcóyotl (König)|Nezahualcóyotl]], dem Herrscher von Texcoco, im Rahmen einer Opferzeremonie getötet. Die Siegermächte gaben ihrem Bund eine offizielle Form und bildeten den [[Aztekischer Dreibund|aztekischen Dreibund]]. Damit legten sie den Grundstein für das spätere [[Azteken]]reich.",
+  "segments": [
+    {
+      "id": "215376285-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Maxtla''' († [[1428]]) war bis zu seinem Tode Herrscher des zum Reich der [[Tepaneken]] gehörenden Stadtstaates [[Azcapotzalco]].",
+      "plain": null
+    },
+    {
+      "id": "215376285-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er folgte seinem Vater [[Tezozómoc]] auf den Thron, vermutlich nachdem er seinen älteren Bruder [[Tayauh]] ermordet hatte.",
+      "plain": null
+    },
+    {
+      "id": "215376285-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Unter seiner Herrschaft erlebte die ehemalige Großmacht Azcapotzalco einen dramatischen Niedergang.",
+      "plain": null
+    },
+    {
+      "id": "215376285-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "An die Stelle der vormals freundlichen Beziehungen mit den [[Azteken|Méxica]] von [[Tenochtitlán]] trat nun eine Phase politischer Spannungen, die in der Ermordung des Oberhauptes der Méxica und Enkels Tezozómocs, [[Chimalpopoca]], im Jahre 1426 gipfelte.",
+      "plain": null
+    },
+    {
+      "id": "215376285-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bei der Belagerung von Tenochtitlán konnte [[Itzcóatl]], Chimalpopocas Nachfolger, unterstützt durch verbündete Stadtstaaten (unter anderem [[Texcoco]] und [[Tlacopán]]) Maxtla erfolgreich zurückwerfen.",
+      "plain": null
+    },
+    {
+      "id": "215376285-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Azcapotzalco wurde geplündert und Maxtla eigenhändig von [[Nezahualcóyotl (König)|Nezahualcóyotl]], dem Herrscher von Texcoco, im Rahmen einer Opferzeremonie getötet.",
+      "plain": null
+    },
+    {
+      "id": "215376285-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Siegermächte gaben ihrem Bund eine offizielle Form und bildeten den [[Aztekischer Dreibund|aztekischen Dreibund]].",
+      "plain": null
+    },
+    {
+      "id": "215376285-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Damit legten sie den Grundstein für das spätere [[Azteken]]reich.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 215376285,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "215376285-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Maxtla († 1428) war bis zu seinem Tode Herrscher des zum Reich der Tepaneken gehörenden Stadtstaates Azcapotzalco.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "215376285-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "215376285-0000"
+        ],
+        "plain": "Er folgte seinem Vater Tezozómoc auf den Thron, vermutlich nachdem er seinen älteren Bruder Tayauh ermordet hatte.",
+        "context_plain": [
+          "Maxtla († 1428) war bis zu seinem Tode Herrscher des zum Reich der Tepaneken gehörenden Stadtstaates Azcapotzalco."
+        ]
+      },
+      {
+        "segment_id": "215376285-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "215376285-0001"
+        ],
+        "plain": "Unter seiner Herrschaft erlebte die ehemalige Großmacht Azcapotzalco einen dramatischen Niedergang.",
+        "context_plain": [
+          "Er folgte seinem Vater Tezozómoc auf den Thron, vermutlich nachdem er seinen älteren Bruder Tayauh ermordet hatte."
+        ]
+      },
+      {
+        "segment_id": "215376285-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "215376285-0002"
+        ],
+        "plain": "An die Stelle der vormals freundlichen Beziehungen mit den Méxica von Tenochtitlán trat nun eine Phase politischer Spannungen, die in der Ermordung des Oberhauptes der Méxica und Enkels Tezozómocs, Chimalpopoca, im Jahre 1426 gipfelte.",
+        "context_plain": [
+          "Unter seiner Herrschaft erlebte die ehemalige Großmacht Azcapotzalco einen dramatischen Niedergang."
+        ]
+      },
+      {
+        "segment_id": "215376285-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "215376285-0003"
+        ],
+        "plain": "Bei der Belagerung von Tenochtitlán konnte Itzcóatl, Chimalpopocas Nachfolger, unterstützt durch verbündete Stadtstaaten (unter anderem Texcoco und Tlacopán) Maxtla erfolgreich zurückwerfen.",
+        "context_plain": [
+          "An die Stelle der vormals freundlichen Beziehungen mit den Méxica von Tenochtitlán trat nun eine Phase politischer Spannungen, die in der Ermordung des Oberhauptes der Méxica und Enkels Tezozómocs, Chimalpopoca, im Jahre 1426 gipfelte."
+        ]
+      },
+      {
+        "segment_id": "215376285-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "215376285-0004"
+        ],
+        "plain": "Azcapotzalco wurde geplündert und Maxtla eigenhändig von Nezahualcóyotl, dem Herrscher von Texcoco, im Rahmen einer Opferzeremonie getötet.",
+        "context_plain": [
+          "Bei der Belagerung von Tenochtitlán konnte Itzcóatl, Chimalpopocas Nachfolger, unterstützt durch verbündete Stadtstaaten (unter anderem Texcoco und Tlacopán) Maxtla erfolgreich zurückwerfen."
+        ]
+      },
+      {
+        "segment_id": "215376285-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "215376285-0004",
+          "215376285-0005"
+        ],
+        "plain": "Die Siegermächte gaben ihrem Bund eine offizielle Form und bildeten den aztekischen Dreibund.",
+        "context_plain": [
+          "Bei der Belagerung von Tenochtitlán konnte Itzcóatl, Chimalpopocas Nachfolger, unterstützt durch verbündete Stadtstaaten (unter anderem Texcoco und Tlacopán) Maxtla erfolgreich zurückwerfen.",
+          "Azcapotzalco wurde geplündert und Maxtla eigenhändig von Nezahualcóyotl, dem Herrscher von Texcoco, im Rahmen einer Opferzeremonie getötet."
+        ]
+      },
+      {
+        "segment_id": "215376285-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "215376285-0006"
+        ],
+        "plain": "Damit legten sie den Grundstein für das spätere Aztekenreich.",
+        "context_plain": [
+          "Die Siegermächte gaben ihrem Bund eine offizielle Form und bildeten den aztekischen Dreibund."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

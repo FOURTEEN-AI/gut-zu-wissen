@@ -1,0 +1,3482 @@
+{
+  "episode_id": "2026-11-21_tenochtitlan",
+  "title": "Tenochtitlan",
+  "rate": 1.0,
+  "seed": "2026-11-21_tenochtitlan",
+  "population": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    12,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    32,
+    33,
+    34,
+    35,
+    36,
+    38,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    54,
+    56,
+    57,
+    58,
+    59,
+    60,
+    62,
+    64,
+    65,
+    66,
+    67,
+    68,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    78,
+    80,
+    81,
+    82,
+    83,
+    84,
+    86
+  ],
+  "draws": [
+    {
+      "turn_index": 0,
+      "u": 0.5121642532605025,
+      "sampled": true
+    },
+    {
+      "turn_index": 1,
+      "u": 0.6067940450397433,
+      "sampled": true
+    },
+    {
+      "turn_index": 2,
+      "u": 0.20025082171198072,
+      "sampled": true
+    },
+    {
+      "turn_index": 4,
+      "u": 0.798454506392446,
+      "sampled": true
+    },
+    {
+      "turn_index": 5,
+      "u": 0.33493490045453034,
+      "sampled": true
+    },
+    {
+      "turn_index": 6,
+      "u": 0.8801120233998785,
+      "sampled": true
+    },
+    {
+      "turn_index": 8,
+      "u": 0.17954972224371069,
+      "sampled": true
+    },
+    {
+      "turn_index": 9,
+      "u": 0.9778907515307341,
+      "sampled": true
+    },
+    {
+      "turn_index": 10,
+      "u": 0.14834200905056594,
+      "sampled": true
+    },
+    {
+      "turn_index": 12,
+      "u": 0.6800337386558306,
+      "sampled": true
+    },
+    {
+      "turn_index": 14,
+      "u": 0.7286326697266696,
+      "sampled": true
+    },
+    {
+      "turn_index": 16,
+      "u": 0.5269842798940761,
+      "sampled": true
+    },
+    {
+      "turn_index": 17,
+      "u": 0.22934871381128275,
+      "sampled": true
+    },
+    {
+      "turn_index": 18,
+      "u": 0.33635688607907754,
+      "sampled": true
+    },
+    {
+      "turn_index": 19,
+      "u": 0.7836330262572053,
+      "sampled": true
+    },
+    {
+      "turn_index": 20,
+      "u": 0.9164933383677386,
+      "sampled": true
+    },
+    {
+      "turn_index": 21,
+      "u": 0.04253519674091,
+      "sampled": true
+    },
+    {
+      "turn_index": 22,
+      "u": 0.9178883013140958,
+      "sampled": true
+    },
+    {
+      "turn_index": 23,
+      "u": 0.43346209237621036,
+      "sampled": true
+    },
+    {
+      "turn_index": 24,
+      "u": 0.20001294282123583,
+      "sampled": true
+    },
+    {
+      "turn_index": 25,
+      "u": 0.15089375539353533,
+      "sampled": true
+    },
+    {
+      "turn_index": 26,
+      "u": 0.44298874891075923,
+      "sampled": true
+    },
+    {
+      "turn_index": 27,
+      "u": 0.7790692895753493,
+      "sampled": true
+    },
+    {
+      "turn_index": 28,
+      "u": 0.030072338710601776,
+      "sampled": true
+    },
+    {
+      "turn_index": 29,
+      "u": 0.9510907526810035,
+      "sampled": true
+    },
+    {
+      "turn_index": 30,
+      "u": 0.04250056461443352,
+      "sampled": true
+    },
+    {
+      "turn_index": 32,
+      "u": 0.48788641158843216,
+      "sampled": true
+    },
+    {
+      "turn_index": 33,
+      "u": 0.9117885090527343,
+      "sampled": true
+    },
+    {
+      "turn_index": 34,
+      "u": 0.3046392737646598,
+      "sampled": true
+    },
+    {
+      "turn_index": 35,
+      "u": 0.7273865520191981,
+      "sampled": true
+    },
+    {
+      "turn_index": 36,
+      "u": 0.011172352757754633,
+      "sampled": true
+    },
+    {
+      "turn_index": 38,
+      "u": 0.05083538945025723,
+      "sampled": true
+    },
+    {
+      "turn_index": 40,
+      "u": 0.19255251661449746,
+      "sampled": true
+    },
+    {
+      "turn_index": 41,
+      "u": 0.8904241107345321,
+      "sampled": true
+    },
+    {
+      "turn_index": 42,
+      "u": 0.2942166476541429,
+      "sampled": true
+    },
+    {
+      "turn_index": 43,
+      "u": 0.8607103535434091,
+      "sampled": true
+    },
+    {
+      "turn_index": 44,
+      "u": 0.6594575808762873,
+      "sampled": true
+    },
+    {
+      "turn_index": 45,
+      "u": 0.07129152969918728,
+      "sampled": true
+    },
+    {
+      "turn_index": 46,
+      "u": 0.8107339426405857,
+      "sampled": true
+    },
+    {
+      "turn_index": 47,
+      "u": 0.46260482165904626,
+      "sampled": true
+    },
+    {
+      "turn_index": 48,
+      "u": 0.9236835671920011,
+      "sampled": true
+    },
+    {
+      "turn_index": 49,
+      "u": 0.4911863255168655,
+      "sampled": true
+    },
+    {
+      "turn_index": 50,
+      "u": 0.8050665772114732,
+      "sampled": true
+    },
+    {
+      "turn_index": 51,
+      "u": 0.7970815389864666,
+      "sampled": true
+    },
+    {
+      "turn_index": 52,
+      "u": 0.0569849245612537,
+      "sampled": true
+    },
+    {
+      "turn_index": 54,
+      "u": 0.11742184585153015,
+      "sampled": true
+    },
+    {
+      "turn_index": 56,
+      "u": 0.8826648023859394,
+      "sampled": true
+    },
+    {
+      "turn_index": 57,
+      "u": 0.4856047249931096,
+      "sampled": true
+    },
+    {
+      "turn_index": 58,
+      "u": 0.9292418533937115,
+      "sampled": true
+    },
+    {
+      "turn_index": 59,
+      "u": 0.777705611716208,
+      "sampled": true
+    },
+    {
+      "turn_index": 60,
+      "u": 0.7532909971727069,
+      "sampled": true
+    },
+    {
+      "turn_index": 62,
+      "u": 0.6817621830996358,
+      "sampled": true
+    },
+    {
+      "turn_index": 64,
+      "u": 0.02056215703318509,
+      "sampled": true
+    },
+    {
+      "turn_index": 65,
+      "u": 0.7362179020892172,
+      "sampled": true
+    },
+    {
+      "turn_index": 66,
+      "u": 0.18172424835188639,
+      "sampled": true
+    },
+    {
+      "turn_index": 67,
+      "u": 0.29098550191403283,
+      "sampled": true
+    },
+    {
+      "turn_index": 68,
+      "u": 0.9185742146175663,
+      "sampled": true
+    },
+    {
+      "turn_index": 70,
+      "u": 0.5470388032937082,
+      "sampled": true
+    },
+    {
+      "turn_index": 71,
+      "u": 0.8048299846873591,
+      "sampled": true
+    },
+    {
+      "turn_index": 72,
+      "u": 0.21191622039135172,
+      "sampled": true
+    },
+    {
+      "turn_index": 73,
+      "u": 0.816916668443296,
+      "sampled": true
+    },
+    {
+      "turn_index": 74,
+      "u": 0.29919664194254414,
+      "sampled": true
+    },
+    {
+      "turn_index": 75,
+      "u": 0.22659645150228913,
+      "sampled": true
+    },
+    {
+      "turn_index": 76,
+      "u": 0.6898473959351221,
+      "sampled": true
+    },
+    {
+      "turn_index": 78,
+      "u": 0.099855247564403,
+      "sampled": true
+    },
+    {
+      "turn_index": 80,
+      "u": 0.8892683550905575,
+      "sampled": true
+    },
+    {
+      "turn_index": 81,
+      "u": 0.7597303192887365,
+      "sampled": true
+    },
+    {
+      "turn_index": 82,
+      "u": 0.08757342540853774,
+      "sampled": true
+    },
+    {
+      "turn_index": 83,
+      "u": 0.4184161941012726,
+      "sampled": true
+    },
+    {
+      "turn_index": 84,
+      "u": 0.4054961632956998,
+      "sampled": true
+    },
+    {
+      "turn_index": 86,
+      "u": 0.4844567470585138,
+      "sampled": true
+    }
+  ],
+  "status": "pending",
+  "outcome": null,
+  "rate_applied": [],
+  "issue": 29,
+  "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/29",
+  "explicit": {
+    "model": "claude-sonnet-5-5",
+    "predicted": false,
+    "verdict": "clean",
+    "findings": [],
+    "reason": "Das Skript behandelt sachlich die Geschichte und Archäologie von Tenochtitlan. Gewalt wie Menschenopfer, Morde und Folter wird nur knapp und nüchtern erwähnt, ohne anschauliche oder blutige Schilderung. Sexualität, Drogen und derbe Schimpfwörter kommen nicht vor.",
+    "label": null,
+    "reviewer_flag": null,
+    "note": null,
+    "comment_id": null
+  },
+  "turns": [
+    {
+      "turn_index": 0,
+      "speaker": "Lena",
+      "text": "Heute geht es um Tenochtitlan, die Hauptstadt des Reiches der Azteken. Sie war es vom vierzehnten bis Anfang des sechzehnten Jahrhunderts. Dann wurde sie von den spanischen Konquistadoren erobert und zerstört. Vermutlich lebten zu Beginn des sechzehnten Jahrhunderts, als die ersten Spanier dort eintrafen, mehr als einhunderttausend Menschen in der Stadt.",
+      "previous_text": null,
+      "fact_ids": [
+        "272052564-0000",
+        "272052564-0001"
+      ],
+      "statements": [
+        {
+          "text": "Tenochtitlan war vom 14. bis Anfang des 16. Jahrhunderts die Hauptstadt des Aztekenreiches.",
+          "fact_ids": [
+            "272052564-0000"
+          ]
+        },
+        {
+          "text": "Die Stadt wurde von den spanischen Konquistadoren erobert und zerstört.",
+          "fact_ids": [
+            "272052564-0000"
+          ]
+        },
+        {
+          "text": "Zu Beginn des 16. Jahrhunderts, als die ersten Spanier eintrafen, lebten vermutlich mehr als einhunderttausend Menschen in der Stadt.",
+          "fact_ids": [
+            "272052564-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0000",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Tenochtitlan (Nahuatl Tenōchtitlanⓘ, IPA: [te.noːʧ.'ti.tɬan] mit langem o und Betonung auf dem i, spanisch Tenochtitlán) war vom 14. bis Anfang des 16. Jahrhunderts die Hauptstadt des Reiches der Azteken, bis sie von den spanischen Konquistadoren erobert und zerstört wurde.",
+          "context": []
+        },
+        {
+          "id": "272052564-0001",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Vermutlich lebten zu Beginn des 16. Jahrhunderts, als die ersten Spanier dort eintrafen, mehr als einhunderttausend Menschen in der Stadt.",
+          "context": [
+            "Tenochtitlan (Nahuatl Tenōchtitlanⓘ, IPA: [te.noːʧ.'ti.tɬan] mit langem o und Betonung auf dem i, spanisch Tenochtitlán) war vom 14. bis Anfang des 16. Jahrhunderts die Hauptstadt des Reiches der Azteken, bis sie von den spanischen Konquistadoren erobert und zerstört wurde."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.87
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Hauptstadt des Aztekenreiches vom 14. bis Anfang des 16. Jahrhunderts, Eroberung und Zerstörung durch die spanischen Konquistadoren, vermutlich mehr als 100.000 Einwohner zu Beginn des 16. Jahrhunderts bei Ankunft der ersten Spanier. „Heute geht es um…“ ist eine Überleitung ohne eigene Behauptung. Es gibt keine Fragen und keine zusätzlichen Angaben."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 1,
+      "speaker": "Felix",
+      "text": "Wow. Wie groß war diese Stadt damit im weltweiten Maßstab?",
+      "previous_text": "Heute geht es um Tenochtitlan, die Hauptstadt des Reiches der Azteken. Sie war es vom vierzehnten bis Anfang des sechzehnten Jahrhunderts. Dann wurde sie von den spanischen Konquistadoren erobert und zerstört. Vermutlich lebten zu Beginn des sechzehnten Jahrhunderts, als die ersten Spanier dort eintrafen, mehr als einhunderttausend Menschen in der Stadt.",
+      "fact_ids": [
+        "272052564-0001"
+      ],
+      "statements": [
+        {
+          "text": "Zu Beginn des 16. Jahrhunderts lebten vermutlich mehr als einhunderttausend Menschen in der Stadt.",
+          "fact_ids": [
+            "272052564-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0001",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Vermutlich lebten zu Beginn des 16. Jahrhunderts, als die ersten Spanier dort eintrafen, mehr als einhunderttausend Menschen in der Stadt.",
+          "context": [
+            "Tenochtitlan (Nahuatl Tenōchtitlanⓘ, IPA: [te.noːʧ.'ti.tɬan] mit langem o und Betonung auf dem i, spanisch Tenochtitlán) war vom 14. bis Anfang des 16. Jahrhunderts die Hauptstadt des Reiches der Azteken, bis sie von den spanischen Konquistadoren erobert und zerstört wurde."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Lena",
+      "text": "Tenochtitlan war damit die größte Stadt des amerikanischen Kontinents und eine der größten weltweit.",
+      "previous_text": "Wow. Wie groß war diese Stadt damit im weltweiten Maßstab?",
+      "fact_ids": [
+        "272052564-0002"
+      ],
+      "statements": [
+        {
+          "text": "Tenochtitlan war die größte Stadt des amerikanischen Kontinents und eine der größten weltweit.",
+          "fact_ids": [
+            "272052564-0002"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0002",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Sie war damit die größte Stadt des amerikanischen Kontinents und eine der größten weltweit.",
+          "context": [
+            "Vermutlich lebten zu Beginn des 16. Jahrhunderts, als die ersten Spanier dort eintrafen, mehr als einhunderttausend Menschen in der Stadt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Lena",
+      "text": "Tenochtitlan war über fünf Dammwege nach Norden, Westen und Süden mit dem Festland verbunden. Diese fünf Dämme waren aus Stein und Erde gebaut. Die Inseln, auf denen Tenochtitlan und Tlatelolco lagen, nahmen zusammen rund dreizehn Quadratkilometer ein.",
+      "previous_text": "Beeindruckend. Wo lag diese Stadt eigentlich?",
+      "fact_ids": [
+        "272052564-0010",
+        "272052564-0015",
+        "272052564-0014"
+      ],
+      "statements": [
+        {
+          "text": "Die Stadt war über fünf Dammwege nach Norden, Westen und Süden mit dem Festland verbunden.",
+          "fact_ids": [
+            "272052564-0010"
+          ]
+        },
+        {
+          "text": "Die fünf Dämme waren aus Stein und Erde gebaut.",
+          "fact_ids": [
+            "272052564-0015"
+          ]
+        },
+        {
+          "text": "Die Inseln von Tenochtitlan und Tlatelolco nahmen rund 13 Quadratkilometer Gesamtfläche ein.",
+          "fact_ids": [
+            "272052564-0014"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0010",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Die Stadt war über fünf Dammwege nach Norden, Westen und Süden mit dem Festland verbunden.",
+          "context": [
+            "Tenochtitlan lag auf mehreren Inseln im westlichen Teil des Texcoco-Sees, der im Tal von Mexiko auf etwa 2240 Metern Höhe liegt.",
+            "Im Norden, Osten und Süden wird das Tal von einem Gebirgszug umgeben, der von den Vulkanen Popocatépetl und Iztaccíhuatl beherrscht wird."
+          ]
+        },
+        {
+          "id": "272052564-0015",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Die Stadt war mit dem Festland durch fünf Dämme verbunden, die aus Stein und Erde gebaut waren.",
+          "context": [
+            "Die Inseln, auf denen Tenochtitlan und Tlatelolco lagen, nahmen rund 13 Quadratkilometer Gesamtfläche ein."
+          ]
+        },
+        {
+          "id": "272052564-0014",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Die Inseln, auf denen Tenochtitlan und Tlatelolco lagen, nahmen rund 13 Quadratkilometer Gesamtfläche ein.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Felix",
+      "text": "Du hast Tlatelolco erwähnt. Was hat es damit auf sich?",
+      "previous_text": "Tenochtitlan war über fünf Dammwege nach Norden, Westen und Süden mit dem Festland verbunden. Diese fünf Dämme waren aus Stein und Erde gebaut. Die Inseln, auf denen Tenochtitlan und Tlatelolco lagen, nahmen zusammen rund dreizehn Quadratkilometer ein.",
+      "fact_ids": [
+        "272052564-0014"
+      ],
+      "statements": [
+        {
+          "text": "Tlatelolco lag auf einer der Inseln neben Tenochtitlan.",
+          "fact_ids": [
+            "272052564-0014"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0014",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Die Inseln, auf denen Tenochtitlan und Tlatelolco lagen, nahmen rund 13 Quadratkilometer Gesamtfläche ein.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.46,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": "Felix' Beitrag ist eine reine Nachfrage bzw. Überleitung: Er greift das von Lena genannte Tlatelolco wieder auf und bittet um Erklärung. Er stellt keine Behauptung auf und nimmt keine bestimmte Einzelheit als Prämisse vorweg. Damit ist er belegfrei und erfüllt die Rubrik."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Lena",
+      "text": "Tenochtitlan und Tlatelolco agierten politisch immer wieder gemeinsam. Zuweilen gab es aber auch Feindseligkeiten. Im Jahre vierzehnhundertdreiundsiebzig wurde der Herrscher von Tlatelolco, Moquixhuix, getötet. Danach wurde Tlatelolco von Tenochtitlan aus regiert.",
+      "previous_text": "Du hast Tlatelolco erwähnt. Was hat es damit auf sich?",
+      "fact_ids": [
+        "272052564-0048"
+      ],
+      "statements": [
+        {
+          "text": "Tenochtitlan und Tlatelolco agierten politisch immer wieder gemeinsam, doch es gab zuweilen auch Feindseligkeiten.",
+          "fact_ids": [
+            "272052564-0048"
+          ]
+        },
+        {
+          "text": "1473 wurde der Herrscher von Tlatelolco, Moquixhuix, getötet und die Stadt von Tenochtitlan aus regiert.",
+          "fact_ids": [
+            "272052564-0048"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0048",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Wenngleich beide Orte politisch immer wieder gemeinsam agierten, gab es zuweilen auch Feindseligkeiten, bis im Jahre 1473 der Herrscher von Tlatelolco, Moquixhuix, getötet und die Stadt von Tenochtitlan aus regiert wurde.",
+          "context": [
+            "Wenige Jahre nach der Gründung wurde auf einer Insel nördlich der Stadt eine weitere Siedlung, Tlatelolco, gegründet."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Lena",
+      "text": "Selbst die Spanier waren beeindruckt von der Größe und der Warenvielfalt des Marktes von Tlatelolco.",
+      "previous_text": "Und was war Tlatelolco für ein Ort?",
+      "fact_ids": [
+        "272052564-0037"
+      ],
+      "statements": [
+        {
+          "text": "Selbst die Spanier waren beeindruckt von der Größe und Warenvielfalt des Marktes von Tlatelolco.",
+          "fact_ids": [
+            "272052564-0037"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0037",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Nach der Unterwerfung durch die Bewohner Tenochtitlans behielt Tlatelolco diesen Charakter größtenteils bei; selbst die Spanier waren beeindruckt von der Größe und Warenvielfalt des Marktes von Tlatelolco.",
+          "context": [
+            "Die Siedlung war bereits vor ihrer Eroberung eng mit Tenochtitlan verbunden und ein wirtschaftliches Zentrum der Region gewesen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 9,
+      "speaker": "Felix",
+      "text": "Interessant. Gab es bei dieser Lage in Tenochtitlan eigentlich eine Stadtmauer?",
+      "previous_text": "Selbst die Spanier waren beeindruckt von der Größe und der Warenvielfalt des Marktes von Tlatelolco.",
+      "fact_ids": [
+        "272052564-0010"
+      ],
+      "statements": [
+        {
+          "text": "Tenochtitlan war über Dammwege mit dem Festland verbunden.",
+          "fact_ids": [
+            "272052564-0010"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0010",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Die Stadt war über fünf Dammwege nach Norden, Westen und Süden mit dem Festland verbunden.",
+          "context": [
+            "Tenochtitlan lag auf mehreren Inseln im westlichen Teil des Texcoco-Sees, der im Tal von Mexiko auf etwa 2240 Metern Höhe liegt.",
+            "Im Norden, Osten und Süden wird das Tal von einem Gebirgszug umgeben, der von den Vulkanen Popocatépetl und Iztaccíhuatl beherrscht wird."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.74
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht aus einer Reaktion („Interessant.“) und einer Nachfrage, ob es in Tenochtitlan eine Stadtmauer gab. Das ist eine Überleitungsfrage, die nur voraussetzt, dass es dazu etwas zu erzählen gibt. Sie nimmt keine bestimmte Einzelheit oder Wertung vorweg und stellt keine Behauptung auf. „Bei dieser Lage“ greift lediglich das Thema der Inseln und Dammwege auf. Der zitierte Fakt wird nicht über seinen Gehalt hinaus verwendet."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "Lena",
+      "text": "Nein. Da Tenochtitlan nur über die Dammstraßen und den Seeweg zu erreichen war, besaß es keine Stadtmauer. Die Dämme wiesen mehrere Unterbrechungen auf. Diese wurden durch bewegliche hölzerne Brücken geschlossen. Diese Tatsache nutzten die Azteken besonders im Jahre fünfzehnhunderteinundzwanzig aus, als sie ihre Stadt gegen die Spanier verteidigten.",
+      "previous_text": "Interessant. Gab es bei dieser Lage in Tenochtitlan eigentlich eine Stadtmauer?",
+      "fact_ids": [
+        "272052564-0018",
+        "272052564-0016",
+        "272052564-0017"
+      ],
+      "statements": [
+        {
+          "text": "Weil Tenochtitlan nur über die Dammstraßen und den Seeweg zu erreichen war, besaß es keine Stadtmauer.",
+          "fact_ids": [
+            "272052564-0018"
+          ]
+        },
+        {
+          "text": "Die Dämme hatten mehrere Unterbrechungen, die durch bewegliche hölzerne Brücken geschlossen wurden.",
+          "fact_ids": [
+            "272052564-0016"
+          ]
+        },
+        {
+          "text": "Diese Tatsache nutzten die Azteken besonders 1521 aus, als sie ihre Stadt gegen die Spanier verteidigten.",
+          "fact_ids": [
+            "272052564-0017"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0018",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Da Tenochtitlan nur über die Dammstraßen und den Seeweg zu erreichen war, besaß es keine Stadtmauer.",
+          "context": []
+        },
+        {
+          "id": "272052564-0016",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Sie wiesen mehrere Unterbrechungen auf, die durch bewegliche hölzerne Brücken geschlossen wurden.",
+          "context": [
+            "Die Stadt war mit dem Festland durch fünf Dämme verbunden, die aus Stein und Erde gebaut waren."
+          ]
+        },
+        {
+          "id": "272052564-0017",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Diese Tatsache nutzten die Azteken besonders im Jahre 1521 aus, als sie ihre Stadt gegen die Spanier verteidigten.",
+          "context": [
+            "Sie wiesen mehrere Unterbrechungen auf, die durch bewegliche hölzerne Brücken geschlossen wurden."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.97,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.9
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: keine Stadtmauer wegen der Erreichbarkeit nur über Dammstraßen und Seeweg (0018), die Unterbrechungen der Dämme mit beweglichen hölzernen Brücken (0016) und die Nutzung im Jahr 1521 bei der Verteidigung gegen die Spanier (0017). Die Bezugswörter „Die Dämme“, „Diese“ und „Diese Tatsache“ sind eindeutig aufgelöst, denn der Dammkontext steht im Kontext von 0016 und der Redebeitrag nennt die Dämme selbst. Das einleitende „Nein“ beantwortet Felix' Frage zum selben Gegenstand, und der Redebeitrag enthält keine Zusatzangaben und keine Fragen mit Prämissen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "Lena",
+      "text": "Es gab die Chinampas. Das waren Anbauflächen, die aus dem sumpfigen Boden gewonnen wurden. Wegen ihrer günstigen Bodenfeuchtigkeit ermöglichten sie häufig mehrere Ernten im Jahr.",
+      "previous_text": "Faszinierend! Und wovon haben sich die Menschen dort ernährt?",
+      "fact_ids": [
+        "272052564-0028"
+      ],
+      "statements": [
+        {
+          "text": "Die Chinampas waren Anbauflächen, die aus dem sumpfigen Boden gewonnen wurden und wegen ihrer günstigen Bodenfeuchtigkeit häufig mehrere Ernten im Jahr ermöglichten.",
+          "fact_ids": [
+            "272052564-0028"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0028",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Die Chinampas waren Anbauflächen, die aus dem sumpfigen Boden gewonnen wurden und die aufgrund ihrer günstigen Bodenfeuchtigkeit häufig mehrere Ernten im Jahr ermöglichten.",
+          "context": [
+            "Dahinter schlossen sich die so genannten Chinampas an, Felder, die oft nur wenige Meter breit, dafür im Verhältnis zu ihrer Breite sehr lang waren."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 14,
+      "speaker": "Lena",
+      "text": "Dicht gedrängt standen die oft mehrstöckigen Wohnhäuser der unteren Gesellschaftsschichten. Ein Teil davon war als Pfahlbauten errichtet.",
+      "previous_text": "Spannend. Und wie wohnten die Menschen dort?",
+      "fact_ids": [
+        "272052564-0025"
+      ],
+      "statements": [
+        {
+          "text": "Die oft mehrstöckigen Wohnhäuser der unteren Gesellschaftsschichten standen dicht gedrängt, und ein Teil war als Pfahlbauten errichtet.",
+          "fact_ids": [
+            "272052564-0025"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0025",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Dicht gedrängt standen die oft mehrstöckigen Wohnhäuser der unteren Gesellschaftsschichten; ein Teil war als Pfahlbauten errichtet.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 16,
+      "speaker": "Lena",
+      "text": "Zur Verhinderung einer weiteren Überschwemmung wurde östlich von Tenochtitlan ein sechzehn Kilometer langer Deich quer über den See gebaut. Doch war es offenkundig geworden, dass die Stadt ihre Bewohner nicht länger aus eigener Kraft ernähren konnte.",
+      "previous_text": "Gab es mit dem Wasser eigentlich auch Schwierigkeiten?",
+      "fact_ids": [
+        "272052564-0064"
+      ],
+      "statements": [
+        {
+          "text": "Zur Verhinderung einer weiteren Überschwemmung wurde östlich von Tenochtitlan ein sechzehn Kilometer langer Deich quer über den See gebaut.",
+          "fact_ids": [
+            "272052564-0064"
+          ]
+        },
+        {
+          "text": "Es war offenkundig geworden, dass die Stadt ihre Bewohner nicht länger aus eigener Kraft ernähren konnte.",
+          "fact_ids": [
+            "272052564-0064"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0064",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Zwar wurde zur Verhinderung einer weiteren Überschwemmung östlich von Tenochtitlan ein 16 Kilometer langer Deich quer über den See gebaut, doch war es offenkundig geworden, dass die Stadt ihre Bewohner nicht länger aus eigener Kraft ernähren konnte.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 17,
+      "speaker": "Felix",
+      "text": "Wow, das klingt nach einem ernsten Problem. Und was ist aus diesem See später geworden?",
+      "previous_text": "Zur Verhinderung einer weiteren Überschwemmung wurde östlich von Tenochtitlan ein sechzehn Kilometer langer Deich quer über den See gebaut. Doch war es offenkundig geworden, dass die Stadt ihre Bewohner nicht länger aus eigener Kraft ernähren konnte.",
+      "fact_ids": [
+        "272052564-0064"
+      ],
+      "statements": [
+        {
+          "text": "Quer über den See wurde ein Deich gebaut.",
+          "fact_ids": [
+            "272052564-0064"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0064",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Zwar wurde zur Verhinderung einer weiteren Überschwemmung östlich von Tenochtitlan ein 16 Kilometer langer Deich quer über den See gebaut, doch war es offenkundig geworden, dass die Stadt ihre Bewohner nicht länger aus eigener Kraft ernähren konnte.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.86
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht nur aus einer Reaktion („Wow, das klingt nach einem ernsten Problem“, ein Gefühl im Moment, das Lenas Aussage über die Ernährung der Stadt wieder aufgreift) und einer Nachfrage („Was ist aus diesem See später geworden?“). Die Nachfrage ist eine Überleitungsfrage, die nur voraussetzt, dass es zum See etwas zu erzählen gibt. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Der See wurde zuvor genannt, der Bezug ist eindeutig. Neue Behauptungen enthält der Beitrag nicht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 18,
+      "speaker": "Lena",
+      "text": "Heute gibt es den Texcoco-See nicht mehr in seiner früheren Ausdehnung. Die Spanier haben ihn schrittweise trockengelegt.",
+      "previous_text": "Wow, das klingt nach einem ernsten Problem. Und was ist aus diesem See später geworden?",
+      "fact_ids": [
+        "272052564-0012"
+      ],
+      "statements": [
+        {
+          "text": "Den Texcoco-See gibt es heute nicht mehr in seiner früheren Ausdehnung, weil die Spanier ihn schrittweise trockengelegt haben.",
+          "fact_ids": [
+            "272052564-0012"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0012",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Heute gibt es den Texcoco-See nicht mehr in seiner früheren Ausdehnung, da er von den Spaniern schrittweise trockengelegt wurde.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 19,
+      "speaker": "Felix",
+      "text": "Das macht mich neugierig. Ist davon irgendwo noch etwas zu finden?",
+      "previous_text": "Heute gibt es den Texcoco-See nicht mehr in seiner früheren Ausdehnung. Die Spanier haben ihn schrittweise trockengelegt.",
+      "fact_ids": [
+        "272052564-0012"
+      ],
+      "statements": [
+        {
+          "text": "Den See gibt es nicht mehr in seiner früheren Ausdehnung.",
+          "fact_ids": [
+            "272052564-0012"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0012",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Heute gibt es den Texcoco-See nicht mehr in seiner früheren Ausdehnung, da er von den Spaniern schrittweise trockengelegt wurde.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.52
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht aus einer Reaktion (Neugier: \"Das macht mich neugierig\") und einer Nachfrage (\"Ist davon irgendwo noch etwas zu finden?\"). Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es dazu etwas zu erzählen gibt. Sie ist belegfrei, und es gibt keine unbelegte Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 20,
+      "speaker": "Lena",
+      "text": "Nur in Xochimilco im Süden der heutigen Mexiko-Stadt bilden noch kleine Gewässer einen letzten Überrest des Texcoco-Sees.",
+      "previous_text": "Das macht mich neugierig. Ist davon irgendwo noch etwas zu finden?",
+      "fact_ids": [
+        "272052564-0013"
+      ],
+      "statements": [
+        {
+          "text": "Nur in Xochimilco im Süden der heutigen Mexiko-Stadt bilden noch kleine Gewässer einen letzten Überrest des Texcoco-Sees.",
+          "fact_ids": [
+            "272052564-0013"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0013",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Nur in Xochimilco im Süden der heutigen Mexiko-Stadt bilden noch kleine Gewässer einen letzten Überrest des Sees.",
+          "context": [
+            "Heute gibt es den Texcoco-See nicht mehr in seiner früheren Ausdehnung, da er von den Spaniern schrittweise trockengelegt wurde."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.47,
+          "vollstaendig": 0.72
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder. Er löst nur das Bezugswort „des Sees“ zu „des Texcoco-Sees“ auf, wie es der Kontext bestimmt, und das ist erlaubt. Der Artikel handelt von Tenochtitlan und dem See, und „davon“ in Felix' Frage meint denselben Gegenstand. Es kommt keine zusätzliche Angabe dazu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 21,
+      "speaker": "Felix",
+      "text": "Hm, ein ziemlich kleiner Rest. Worauf steht die heutige Stadt dann eigentlich?",
+      "previous_text": "Nur in Xochimilco im Süden der heutigen Mexiko-Stadt bilden noch kleine Gewässer einen letzten Überrest des Texcoco-Sees.",
+      "fact_ids": [
+        "272052564-0013"
+      ],
+      "statements": [
+        {
+          "text": "Im Süden der heutigen Mexiko-Stadt liegt Xochimilco, wo noch kleine Gewässer des Sees zu finden sind.",
+          "fact_ids": [
+            "272052564-0013"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0013",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Nur in Xochimilco im Süden der heutigen Mexiko-Stadt bilden noch kleine Gewässer einen letzten Überrest des Sees.",
+          "context": [
+            "Heute gibt es den Texcoco-See nicht mehr in seiner früheren Ausdehnung, da er von den Spaniern schrittweise trockengelegt wurde."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.76
+        },
+        "jev_error": null,
+        "reason": "„Ein ziemlich kleiner Rest“ greift Lenas Aussage über den letzten Überrest des Sees wieder auf, und der Fakt-Satz nennt nur „kleine Gewässer“ als letzten Überrest. Das ist eine Reaktion ohne neue Information. Die Frage „Worauf steht die heutige Stadt dann eigentlich?“ ist eine Nachfrage bzw. Überleitung ohne vorweggenommene Einzelheit oder Wertung, also belegfrei."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Lena",
+      "text": "Die geologischen Verhältnisse behindern neben der flächendeckenden Bebauung des Stadtzentrums die archäologische Untersuchung. Das gesamte Stadtzentrum und weite Teile der Stadt darüber hinaus sind auf dem Boden des im sechzehnten Jahrhundert trockengelegten Texcoco-Sees errichtet.",
+      "previous_text": "Hm, ein ziemlich kleiner Rest. Worauf steht die heutige Stadt dann eigentlich?",
+      "fact_ids": [
+        "272052564-0112"
+      ],
+      "statements": [
+        {
+          "text": "Neben der flächendeckenden Bebauung des Stadtzentrums behindern die geologischen Verhältnisse die archäologische Untersuchung.",
+          "fact_ids": [
+            "272052564-0112"
+          ]
+        },
+        {
+          "text": "Das gesamte Stadtzentrum und weite Teile der Stadt darüber hinaus sind auf dem Boden des im sechzehnten Jahrhundert trockengelegten Texcoco-Sees errichtet.",
+          "fact_ids": [
+            "272052564-0112"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0112",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Neben der flächendeckenden Bebauung des Stadtzentrums wird die archäologische Untersuchung durch die geologischen Verhältnisse behindert: Das gesamte Stadtzentrum und weite Teile der Stadt darüber hinaus sind auf dem Boden des im 16. Jahrhundert trockengelegten Texcoco-Sees errichtet.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 23,
+      "speaker": "Felix",
+      "text": "Oh, das wusste ich nicht. Was ist an diesem Boden denn so schwierig?",
+      "previous_text": "Die geologischen Verhältnisse behindern neben der flächendeckenden Bebauung des Stadtzentrums die archäologische Untersuchung. Das gesamte Stadtzentrum und weite Teile der Stadt darüber hinaus sind auf dem Boden des im sechzehnten Jahrhundert trockengelegten Texcoco-Sees errichtet.",
+      "fact_ids": [
+        "272052564-0112"
+      ],
+      "statements": [
+        {
+          "text": "Die geologischen Verhältnisse behindern die archäologische Untersuchung.",
+          "fact_ids": [
+            "272052564-0112"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0112",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Neben der flächendeckenden Bebauung des Stadtzentrums wird die archäologische Untersuchung durch die geologischen Verhältnisse behindert: Das gesamte Stadtzentrum und weite Teile der Stadt darüber hinaus sind auf dem Boden des im 16. Jahrhundert trockengelegten Texcoco-Sees errichtet.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.26
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht aus einer Reaktion („Oh, das wusste ich nicht“, eine Aussage über das eigene Wissen) und einer Nachfrage, die um Erklärung bittet. Die Frage „Was ist an diesem Boden denn so schwierig?“ nimmt nur auf, was Lena gerade gesagt hat (der Boden behindert die archäologische Untersuchung), und fügt keine neue Einzelheit, Wertung oder Vermutung hinzu. Der Redebeitrag enthält keine Behauptung, die belegt werden müsste."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Lena",
+      "text": "Die Sedimente des Seebodens reichen tief. Deshalb liegt die alte Oberfläche mehrere Meter unter der modernen. Meist liegt sie im Bereich des Grundwassers.",
+      "previous_text": "Oh, das wusste ich nicht. Was ist an diesem Boden denn so schwierig?",
+      "fact_ids": [
+        "272052564-0113"
+      ],
+      "statements": [
+        {
+          "text": "Die tiefreichenden Sedimente des Seebodens führen dazu, dass die alte Oberfläche mehrere Meter unter der modernen liegt.",
+          "fact_ids": [
+            "272052564-0113"
+          ]
+        },
+        {
+          "text": "Die alte Oberfläche liegt meist im Bereich des Grundwassers.",
+          "fact_ids": [
+            "272052564-0113"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0113",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Die tiefreichenden Sedimente des Seebodens führen dazu, dass die alte Oberfläche mehrere Meter unter der modernen und meist im Bereich des Grundwassers liegt.",
+          "context": [
+            "Neben der flächendeckenden Bebauung des Stadtzentrums wird die archäologische Untersuchung durch die geologischen Verhältnisse behindert: Das gesamte Stadtzentrum und weite Teile der Stadt darüber hinaus sind auf dem Boden des im 16. Jahrhundert trockengelegten Texcoco-Sees errichtet."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 25,
+      "speaker": "Felix",
+      "text": "Interessant. Und was bedeutet dieses Grundwasser für die Grabungen?",
+      "previous_text": "Die Sedimente des Seebodens reichen tief. Deshalb liegt die alte Oberfläche mehrere Meter unter der modernen. Meist liegt sie im Bereich des Grundwassers.",
+      "fact_ids": [
+        "272052564-0113"
+      ],
+      "statements": [
+        {
+          "text": "Die alte Oberfläche liegt meist im Bereich des Grundwassers.",
+          "fact_ids": [
+            "272052564-0113"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0113",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Die tiefreichenden Sedimente des Seebodens führen dazu, dass die alte Oberfläche mehrere Meter unter der modernen und meist im Bereich des Grundwassers liegt.",
+          "context": [
+            "Neben der flächendeckenden Bebauung des Stadtzentrums wird die archäologische Untersuchung durch die geologischen Verhältnisse behindert: Das gesamte Stadtzentrum und weite Teile der Stadt darüber hinaus sind auf dem Boden des im 16. Jahrhundert trockengelegten Texcoco-Sees errichtet."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.88
+        },
+        "jev_error": null,
+        "reason": "Felix' Beitrag besteht aus der Reaktion „Interessant“ und einer Nachfrage, die um Erklärung bittet. Das Grundwasser hat Lena im vorherigen Beitrag genannt. Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, setzt also keine Prämisse voraus, die belegt sein müsste. Der Beitrag ist belegfrei und enthält keine unbelegte Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 26,
+      "speaker": "Lena",
+      "text": "Für Grabungen wäre eine künstliche Grundwasserabsenkung erforderlich. Sie würde benachbarte Bauten in ihrer Stabilität gefährden.",
+      "previous_text": "Interessant. Und was bedeutet dieses Grundwasser für die Grabungen?",
+      "fact_ids": [
+        "272052564-0114"
+      ],
+      "statements": [
+        {
+          "text": "Eine für Grabungen erforderliche künstliche Grundwasserabsenkung würde benachbarte Bauten in ihrer Stabilität gefährden.",
+          "fact_ids": [
+            "272052564-0114"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0114",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Eine für Grabungen erforderliche künstliche Grundwasserabsenkung würde benachbarte Bauten in ihrer Stabilität gefährden.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 27,
+      "speaker": "Felix",
+      "text": "Das wirft eine Frage auf. Wie wirkt sich dieser Untergrund eigentlich auf die Gebäude in der heutigen Stadt aus?",
+      "previous_text": "Für Grabungen wäre eine künstliche Grundwasserabsenkung erforderlich. Sie würde benachbarte Bauten in ihrer Stabilität gefährden.",
+      "fact_ids": [
+        "272052564-0114"
+      ],
+      "statements": [
+        {
+          "text": "Eine künstliche Grundwasserabsenkung würde benachbarte Bauten in ihrer Stabilität gefährden.",
+          "fact_ids": [
+            "272052564-0114"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0114",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Eine für Grabungen erforderliche künstliche Grundwasserabsenkung würde benachbarte Bauten in ihrer Stabilität gefährden.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.81
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht aus einer Überleitung („Das wirft eine Frage auf“) und einer Nachfrage nach den Auswirkungen des Untergrunds auf die Gebäude der heutigen Stadt. Beides ist belegfrei. Die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. „Dieser Untergrund“ knüpft an Lenas Aussage zur Grundwasserabsenkung an. Eine Tatsachenbehauptung enthält der Beitrag nicht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 28,
+      "speaker": "Lena",
+      "text": "Die Auswirkungen der prekären Bodenverhältnisse sind besonders gut bei der Kathedrale am Zócalo zu erkennen. Die Kathedrale neigt sich nach Westen, während das unmittelbar angrenzende Babtisterio nach Osten einsinkt.",
+      "previous_text": "Das wirft eine Frage auf. Wie wirkt sich dieser Untergrund eigentlich auf die Gebäude in der heutigen Stadt aus?",
+      "fact_ids": [
+        "272052564-0115"
+      ],
+      "statements": [
+        {
+          "text": "Die Auswirkungen der prekären Bodenverhältnisse sind besonders gut bei der Kathedrale am Zócalo zu erkennen, die sich nach Westen neigt, während das unmittelbar angrenzende Babtisterio nach Osten einsinkt.",
+          "fact_ids": [
+            "272052564-0115"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0115",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Die Auswirkungen der prekären Bodenverhältnisse sind besonders gut bei der Kathedrale am Zócalo zu erkennen, die sich nach Westen neigt, während das unmittelbar angrenzende Babtisterio nach Osten einsinkt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 29,
+      "speaker": "Felix",
+      "text": "Das ist wirklich erstaunlich. Sieht man diese Folgen auch an anderen Gebäuden?",
+      "previous_text": "Die Auswirkungen der prekären Bodenverhältnisse sind besonders gut bei der Kathedrale am Zócalo zu erkennen. Die Kathedrale neigt sich nach Westen, während das unmittelbar angrenzende Babtisterio nach Osten einsinkt.",
+      "fact_ids": [
+        "272052564-0115"
+      ],
+      "statements": [
+        {
+          "text": "An der Kathedrale am Zócalo sind die Auswirkungen der Bodenverhältnisse zu erkennen.",
+          "fact_ids": [
+            "272052564-0115"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0115",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Die Auswirkungen der prekären Bodenverhältnisse sind besonders gut bei der Kathedrale am Zócalo zu erkennen, die sich nach Westen neigt, während das unmittelbar angrenzende Babtisterio nach Osten einsinkt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.88
+        },
+        "jev_error": null,
+        "reason": "Felix' Beitrag besteht nur aus einer Reaktion (Staunen: \"Das ist wirklich erstaunlich.\") und einer Nachfrage, ob man die Folgen auch an anderen Gebäuden sieht. Die Nachfrage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern fragt nur nach etwas Neuem. Damit ist der Beitrag belegfrei und enthält keine unbelegte Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Lena",
+      "text": "Zahlreiche Kirchen im Stadtzentrum liegen heute bereits rund zwei Meter unter dem Straßenniveau.",
+      "previous_text": "Das ist wirklich erstaunlich. Sieht man diese Folgen auch an anderen Gebäuden?",
+      "fact_ids": [
+        "272052564-0116"
+      ],
+      "statements": [
+        {
+          "text": "Zahlreiche Kirchen im Stadtzentrum liegen heute bereits rund zwei Meter unter dem Straßenniveau.",
+          "fact_ids": [
+            "272052564-0116"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0116",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Zahlreiche Kirchen im Stadtzentrum liegen heute bereits rund 2 m unter dem Straßenniveau.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 32,
+      "speaker": "Lena",
+      "text": "Die Stadt wurde unmittelbar nach der Eroberung auf den Trümmern neu errichtet. Deshalb sind die materiellen Überreste von der modernen Stadt vollständig überdeckt. Archäologische Grabungen sind nur auf den wenigen freien Plätzen und im Zusammenhang mit Neubauten möglich.",
+      "previous_text": "Unglaublich! Das macht mich neugierig auf die alte Stadt. Was ist von der Stadt der Azteken selbst eigentlich noch übrig?",
+      "fact_ids": [
+        "272052564-0095"
+      ],
+      "statements": [
+        {
+          "text": "Da die Stadt unmittelbar nach der Eroberung auf den Trümmern neu errichtet wurde, sind die materiellen Überreste von der modernen Stadt vollständig überdeckt, und archäologische Grabungen sind deshalb nur auf den wenigen freien Plätzen und im Zusammenhang mit Neubauten möglich.",
+          "fact_ids": [
+            "272052564-0095"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0095",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Da die Stadt unmittelbar nach der Eroberung auf den Trümmern neu errichtet wurde, sind die materiellen Überreste von der modernen Stadt vollständig überdeckt, archäologische Grabungen sind deshalb nur auf den wenigen freien Plätzen und im Zusammenhang mit Neubauten möglich.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 33,
+      "speaker": "Felix",
+      "text": "Hm, das hört sich nach einem schwierigen Fall für die Forschung an. Was geschah mit den alten Bauwerken, nachdem die Spanier die Stadt erobert hatten?",
+      "previous_text": "Die Stadt wurde unmittelbar nach der Eroberung auf den Trümmern neu errichtet. Deshalb sind die materiellen Überreste von der modernen Stadt vollständig überdeckt. Archäologische Grabungen sind nur auf den wenigen freien Plätzen und im Zusammenhang mit Neubauten möglich.",
+      "fact_ids": [
+        "272052564-0000"
+      ],
+      "statements": [
+        {
+          "text": "Die Stadt wurde von den spanischen Konquistadoren erobert und zerstört.",
+          "fact_ids": [
+            "272052564-0000"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0000",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Tenochtitlan (Nahuatl Tenōchtitlanⓘ, IPA: [te.noːʧ.'ti.tɬan] mit langem o und Betonung auf dem i, spanisch Tenochtitlán) war vom 14. bis Anfang des 16. Jahrhunderts die Hauptstadt des Reiches der Azteken, bis sie von den spanischen Konquistadoren erobert und zerstört wurde.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.46
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht aus einer Reaktion (\"Hm, das hört sich nach einem schwierigen Fall für die Forschung an\"), die das eben Gesagte aufgreift, und einer Nachfrage. Die Frage \"Was geschah mit den alten Bauwerken, nachdem die Spanier die Stadt erobert hatten?\" ist eine Nachfrage. Ihre Voraussetzungen (Spanier eroberten die Stadt, es gab alte Bauwerke) folgen aus dem Fakt-Satz, wonach Tenochtitlan von spanischen Konquistadoren erobert und zerstört wurde, und aus dem vorherigen Beitrag. Sie nimmt keine Einzelheit der Antwort vorweg."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 34,
+      "speaker": "Lena",
+      "text": "Die Pyramiden wurden abgerissen und als Steinbruch verwendet.",
+      "previous_text": "Hm, das hört sich nach einem schwierigen Fall für die Forschung an. Was geschah mit den alten Bauwerken, nachdem die Spanier die Stadt erobert hatten?",
+      "fact_ids": [
+        "272052564-0092"
+      ],
+      "statements": [
+        {
+          "text": "Die Pyramiden wurden abgerissen und als Steinbruch verwendet.",
+          "fact_ids": [
+            "272052564-0092"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0092",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Auch die Pyramiden wurden abgerissen und als Steinbruch verwendet.",
+          "context": [
+            "So entstand der Palast der spanischen Vizekönige aus den Überresten des Palastes des Moctezuma und die Kathedrale auf dem Gelände vor dem Templo Mayor."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 35,
+      "speaker": "Felix",
+      "text": "Oh, das überrascht mich. Und was wurde aus diesem Material gebaut?",
+      "previous_text": "Die Pyramiden wurden abgerissen und als Steinbruch verwendet.",
+      "fact_ids": [
+        "272052564-0092"
+      ],
+      "statements": [
+        {
+          "text": "Die Pyramiden wurden abgerissen und als Steinbruch verwendet.",
+          "fact_ids": [
+            "272052564-0092"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0092",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Auch die Pyramiden wurden abgerissen und als Steinbruch verwendet.",
+          "context": [
+            "So entstand der Palast der spanischen Vizekönige aus den Überresten des Palastes des Moctezuma und die Kathedrale auf dem Gelände vor dem Templo Mayor."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.48
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht nur aus Reaktionen: \"Oh, das überrascht mich\" ist ein Gefühl im Moment, und \"Und was wurde aus diesem Material gebaut?\" ist eine Nachfrage. Sie knüpft an die Aussage der vorherigen Sprecherin an (Pyramiden als Steinbruch) und nimmt keine bestimmte Einzelheit vorweg. Die Frage setzt nur voraus, dass aus dem Material etwas gebaut wurde, und das folgt ohnehin aus dem Fakt-Satz. Es gibt keine neue Behauptung und keine Prämisse, die belegt werden müsste."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 36,
+      "speaker": "Lena",
+      "text": "Der Palast der spanischen Vizekönige entstand aus den Überresten des Palastes des Moctezuma. Die Kathedrale entstand auf dem Gelände vor dem Templo Mayor.",
+      "previous_text": "Oh, das überrascht mich. Und was wurde aus diesem Material gebaut?",
+      "fact_ids": [
+        "272052564-0091"
+      ],
+      "statements": [
+        {
+          "text": "Der Palast der spanischen Vizekönige entstand aus den Überresten des Palastes des Moctezuma, und die Kathedrale entstand auf dem Gelände vor dem Templo Mayor.",
+          "fact_ids": [
+            "272052564-0091"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0091",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "So entstand der Palast der spanischen Vizekönige aus den Überresten des Palastes des Moctezuma und die Kathedrale auf dem Gelände vor dem Templo Mayor.",
+          "context": [
+            "Doch statt die alten Häuser wiederherzustellen, errichteten sie neue Gebäude aus den Trümmern der Ruinen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 38,
+      "speaker": "Lena",
+      "text": "Das Straßen- und Kanalnetz von Tenochtitlan ist im modernen Straßenbild des Stadtzentrums weitgehend erhalten geblieben.",
+      "previous_text": "Spannend. Ist von der alten Stadt trotzdem irgendetwas noch zu erkennen?",
+      "fact_ids": [
+        "272052564-0097"
+      ],
+      "statements": [
+        {
+          "text": "Das Straßen- und Kanalnetz von Tenochtitlan ist im modernen Straßenbild des Stadtzentrums weitgehend erhalten geblieben.",
+          "fact_ids": [
+            "272052564-0097"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0097",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Das Straßen- und Kanalnetz von Tenochtitlan ist jedoch im modernen Straßenbild des Stadtzentrums weitgehend erhalten geblieben.",
+          "context": [
+            "Vereinzelt kann man in den heutigen Gebäuden Teile der aztekischen Baumasse erkennen, doch der Großteil der alten Stadt dürfte unwiederbringlich verloren sein."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 40,
+      "speaker": "Lena",
+      "text": "Die wenigen verbliebenen Ruinen im modernen Stadtzentrum gehören seit neunzehnhundertsiebenundachtzig zum Weltkulturerbe der UNESCO.",
+      "previous_text": "Erstaunlich! Steht von den alten Bauten denn auch etwas unter besonderem Schutz?",
+      "fact_ids": [
+        "272052564-0004"
+      ],
+      "statements": [
+        {
+          "text": "Die wenigen verbliebenen Ruinen im modernen Stadtzentrum gehören seit 1987 zum Weltkulturerbe der UNESCO.",
+          "fact_ids": [
+            "272052564-0004"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0004",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Die wenigen verbliebenen Ruinen im modernen Stadtzentrum gehören seit 1987 zum Weltkulturerbe der UNESCO.",
+          "context": [
+            "Ihre Überreste sind fast vollständig von der heutigen mexikanischen Hauptstadt Mexiko-Stadt überbaut."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 41,
+      "speaker": "Felix",
+      "text": "Gut zu wissen. Und wie kommen solche Ruinen heute überhaupt zum Vorschein?",
+      "previous_text": "Die wenigen verbliebenen Ruinen im modernen Stadtzentrum gehören seit neunzehnhundertsiebenundachtzig zum Weltkulturerbe der UNESCO.",
+      "fact_ids": [
+        "272052564-0004"
+      ],
+      "statements": [
+        {
+          "text": "Die wenigen verbliebenen Ruinen im modernen Stadtzentrum gehören zum Weltkulturerbe der UNESCO.",
+          "fact_ids": [
+            "272052564-0004"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0004",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Die wenigen verbliebenen Ruinen im modernen Stadtzentrum gehören seit 1987 zum Weltkulturerbe der UNESCO.",
+          "context": [
+            "Ihre Überreste sind fast vollständig von der heutigen mexikanischen Hauptstadt Mexiko-Stadt überbaut."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.7
+        },
+        "jev_error": null,
+        "reason": "Felix' Beitrag besteht aus einer Reaktion („Gut zu wissen“) und einer Nachfrage, wie solche Ruinen heute zum Vorschein kommen. Das ist eine Überleitungsfrage, die nichts Konkretes vorwegnimmt. Dass es Ruinen gibt, hat Lena gerade gesagt und es steht im Fakt-Satz. Der Beitrag enthält keine neue Behauptung und keine unbelegte Prämisse."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 42,
+      "speaker": "Lena",
+      "text": "Beim Bau der Station Pino Suárez am Schnittpunkt der Linien eins und zwei wurde ein kleiner Rundtempel angeschnitten. Er war vermutlich dem Windgott Ehecatl geweiht.",
+      "previous_text": "Gut zu wissen. Und wie kommen solche Ruinen heute überhaupt zum Vorschein?",
+      "fact_ids": [
+        "272052564-0108"
+      ],
+      "statements": [
+        {
+          "text": "Beim Bau der Station Pino Suárez am Schnittpunkt der Linien 1 und 2 wurde ein kleiner Rundtempel angeschnitten, der vermutlich dem Windgott Ehecatl geweiht war.",
+          "fact_ids": [
+            "272052564-0108"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0108",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Beim Bau der Station Pino Suárez am Schnittpunkt der Linien 1 und 2 wurde ein kleiner Rundtempel angeschnitten, der vermutlich dem Windgott Ehecatl geweiht war.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 43,
+      "speaker": "Felix",
+      "text": "Wow, ein Tempel mitten bei Bauarbeiten! Was hat sonst noch zu Ausgrabungen geführt?",
+      "previous_text": "Beim Bau der Station Pino Suárez am Schnittpunkt der Linien eins und zwei wurde ein kleiner Rundtempel angeschnitten. Er war vermutlich dem Windgott Ehecatl geweiht.",
+      "fact_ids": [
+        "272052564-0108"
+      ],
+      "statements": [
+        {
+          "text": "Beim Bau der Station Pino Suárez wurde ein kleiner Rundtempel angeschnitten.",
+          "fact_ids": [
+            "272052564-0108"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0108",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Beim Bau der Station Pino Suárez am Schnittpunkt der Linien 1 und 2 wurde ein kleiner Rundtempel angeschnitten, der vermutlich dem Windgott Ehecatl geweiht war.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.9
+        },
+        "jev_error": null,
+        "reason": "Felix' Beitrag besteht aus einer Reaktion (Staunen: \"Wow, ein Tempel mitten bei Bauarbeiten!\"), die nur Lenas Aussage aufgreift und durch den Fakt-Satz gedeckt ist, sowie einer offenen Nachfrage nach weiteren Ausgrabungen. Die Frage ist eine Überleitungsfrage und nimmt keine bestimmte Einzelheit vorweg; sie setzt nur voraus, dass es noch mehr zu erzählen gibt. Es gibt keine neue unbelegte Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 44,
+      "speaker": "Lena",
+      "text": "Weitere Ausgrabungen wurden durch Arbeiten an Versorgungsleitungen ausgelöst, also an Strom und Kanalisation. Auch die U-Bahn-Linien, die das Stadtzentrum durchqueren, lösten Ausgrabungen aus. Linie zwei umfährt den Zócalo im Osten und Norden und berührt dabei den Templo Mayor beinahe. Linie acht verläuft im Bereich des Theaters Palacio de Bellas Artes.",
+      "previous_text": "Wow, ein Tempel mitten bei Bauarbeiten! Was hat sonst noch zu Ausgrabungen geführt?",
+      "fact_ids": [
+        "272052564-0107"
+      ],
+      "statements": [
+        {
+          "text": "Weitere Ausgrabungen wurden durch Arbeiten an Versorgungsleitungen (Strom, Kanalisation) oder die das Stadtzentrum durchquerenden U-Bahn-Linien ausgelöst; Linie 2 umfährt den Zócalo im Osten und Norden und berührt dabei den Templo Mayor beinahe, und Linie 8 liegt im Bereich des Theaters Palacio de Bellas Artes.",
+          "fact_ids": [
+            "272052564-0107"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0107",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Weitere Ausgrabungen wurden durch Arbeiten an Versorgungsleitungen (Strom, Kanalisation) oder den das Stadtzentrum durchquerenden U-Bahn-Linien (insbesondere Linie 2, die den Zócalo im Osten und Norden umfährt und dabei den Templo Mayor beinahe berührt, und die Linie 8 im Bereich des Theaters „Palacio de Bellas Artes“) ausgelöst.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 45,
+      "speaker": "Felix",
+      "text": "Du hast den Templo Mayor erwähnt. Was war das eigentlich für ein Bauwerk?",
+      "previous_text": "Weitere Ausgrabungen wurden durch Arbeiten an Versorgungsleitungen ausgelöst, also an Strom und Kanalisation. Auch die U-Bahn-Linien, die das Stadtzentrum durchqueren, lösten Ausgrabungen aus. Linie zwei umfährt den Zócalo im Osten und Norden und berührt dabei den Templo Mayor beinahe. Linie acht verläuft im Bereich des Theaters Palacio de Bellas Artes.",
+      "fact_ids": [
+        "272052564-0107"
+      ],
+      "statements": [
+        {
+          "text": "Linie 2 der U-Bahn berührt den Templo Mayor beinahe.",
+          "fact_ids": [
+            "272052564-0107"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0107",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Weitere Ausgrabungen wurden durch Arbeiten an Versorgungsleitungen (Strom, Kanalisation) oder den das Stadtzentrum durchquerenden U-Bahn-Linien (insbesondere Linie 2, die den Zócalo im Osten und Norden umfährt und dabei den Templo Mayor beinahe berührt, und die Linie 8 im Bereich des Theaters „Palacio de Bellas Artes“) ausgelöst.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.9
+        },
+        "jev_error": null,
+        "reason": "Felix' Beitrag besteht nur aus einer Überleitung („Du hast den Templo Mayor erwähnt“), die das eben von Lena Gesagte wieder aufgreift, und einer Nachfrage mit Bitte um Erklärung. Die Frage „Was war das eigentlich für ein Bauwerk?“ nimmt keine bestimmte Einzelheit oder Wertung vorweg; dass der Templo Mayor ein Bauwerk ist, ergibt sich aus dem Gespräch. Der Beitrag enthält keine neue Behauptung, die belegt werden müsste, und ist daher belegfrei in Ordnung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 46,
+      "speaker": "Lena",
+      "text": "Der Templo Mayor heißt auf Nahuatl Huēy Teōcalli, das bedeutet Großer Tempel. Man nennt ihn auch Große Pyramide von Tenochtitlan. Er war der wichtigste und größte Tempel der aztekischen Hauptstadt Tenochtitlan, des heutigen Mexiko-Stadt.",
+      "previous_text": "Du hast den Templo Mayor erwähnt. Was war das eigentlich für ein Bauwerk?",
+      "fact_ids": [
+        "269151237-0000"
+      ],
+      "statements": [
+        {
+          "text": "Der Templo Mayor, auf Nahuatl Huēy Teōcalli (Großer Tempel), auch Große Pyramide von Tenochtitlan genannt, war der wichtigste und größte Tempel der aztekischen Hauptstadt Tenochtitlan, des heutigen Mexiko-Stadt.",
+          "fact_ids": [
+            "269151237-0000"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "269151237-0000",
+          "article": "Templo Mayor",
+          "revid": 269151237,
+          "sentence": "Der Templo Mayor (span.) bzw. Huēy Teōcalli (nahuatl, „Großer Tempel“; auch Große Pyramide von Tenochtitlán) war der wichtigste und größte Tempel der aztekischen Hauptstadt Tenochtitlán, des heutigen Mexiko-Stadt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 47,
+      "speaker": "Felix",
+      "text": "Beeindruckend. Wie hat man diesen Tempel eigentlich erforscht?",
+      "previous_text": "Der Templo Mayor heißt auf Nahuatl Huēy Teōcalli, das bedeutet Großer Tempel. Man nennt ihn auch Große Pyramide von Tenochtitlan. Er war der wichtigste und größte Tempel der aztekischen Hauptstadt Tenochtitlan, des heutigen Mexiko-Stadt.",
+      "fact_ids": [
+        "269151237-0000"
+      ],
+      "statements": [
+        {
+          "text": "Der Templo Mayor war der wichtigste und größte Tempel der aztekischen Hauptstadt.",
+          "fact_ids": [
+            "269151237-0000"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "269151237-0000",
+          "article": "Templo Mayor",
+          "revid": 269151237,
+          "sentence": "Der Templo Mayor (span.) bzw. Huēy Teōcalli (nahuatl, „Großer Tempel“; auch Große Pyramide von Tenochtitlán) war der wichtigste und größte Tempel der aztekischen Hauptstadt Tenochtitlán, des heutigen Mexiko-Stadt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Felix' Beitrag besteht aus einer Reaktion („Beeindruckend.“) und einer Nachfrage, wie der Tempel erforscht wurde. Die Frage ist eine Überleitungsfrage und setzt nur voraus, dass es dazu etwas zu erzählen gibt; sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Der Beitrag enthält keine Behauptung, die belegt werden müsste, und „diesen Tempel“ bezieht sich eindeutig auf den Templo Mayor aus dem vorherigen Redebeitrag."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 48,
+      "speaker": "Lena",
+      "text": "Ein zufälliger Fund gab den Anstoß. Es war ein großes Relief, das die tote Göttin Coyolxauhqui darstellte. Im Jahr neunzehnhundertachtundsiebzig wurde dieser Fund zur Initiierung des Proyecto Templo Mayor genutzt.",
+      "previous_text": "Beeindruckend. Wie hat man diesen Tempel eigentlich erforscht?",
+      "fact_ids": [
+        "272052564-0120"
+      ],
+      "statements": [
+        {
+          "text": "Der zufällige Fund eines großen Reliefs, das die tote Göttin Coyolxauhqui darstellte, wurde 1978 zur Initiierung des Proyecto Templo Mayor genutzt.",
+          "fact_ids": [
+            "272052564-0120"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0120",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Der zufällige Fund eines großen Reliefs, das die tote Göttin Coyolxauhqui darstellte, wurde 1978 zur Initiierung des „Proyecto Templo Mayor“ genutzt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 49,
+      "speaker": "Felix",
+      "text": "Faszinierend, was ein einzelner Zufall auslösen kann. Wie kann man sich die Anlage rund um den Tempel vorstellen?",
+      "previous_text": "Ein zufälliger Fund gab den Anstoß. Es war ein großes Relief, das die tote Göttin Coyolxauhqui darstellte. Im Jahr neunzehnhundertachtundsiebzig wurde dieser Fund zur Initiierung des Proyecto Templo Mayor genutzt.",
+      "fact_ids": [
+        "272052564-0120"
+      ],
+      "statements": [
+        {
+          "text": "Das Proyecto Templo Mayor wurde 1978 initiiert.",
+          "fact_ids": [
+            "272052564-0120"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0120",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Der zufällige Fund eines großen Reliefs, das die tote Göttin Coyolxauhqui darstellte, wurde 1978 zur Initiierung des „Proyecto Templo Mayor“ genutzt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.84
+        },
+        "jev_error": null,
+        "reason": "Felix' Beitrag besteht nur aus Reaktionen: \"Faszinierend, was ein einzelner Zufall auslösen kann\" ist ein Gefühl im Moment und greift nur das von Lena Gesagte wieder auf, ohne neue Information. \"Wie kann man sich die Anlage rund um den Tempel vorstellen?\" ist eine Nachfrage bzw. Bitte um Erklärung und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Die Existenz einer Anlage um den Tempel wird nur allgemein vorausgesetzt, was bei einer Nachfrage zulässig ist. Es gibt keine Behauptung, die belegt werden müsste."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 50,
+      "speaker": "Lena",
+      "text": "Das an verschiedenen Stellen ausgestellte Modell des Tempelbezirkes geht auf Studien des mexikanischen Archäologen Ignacio Marquina zurück. Er orientierte sich ausschließlich an den schriftlichen Berichten. Durch die Grabungen ist das Modell inzwischen in vielen Teilen überholt.",
+      "previous_text": "Faszinierend, was ein einzelner Zufall auslösen kann. Wie kann man sich die Anlage rund um den Tempel vorstellen?",
+      "fact_ids": [
+        "272052564-0131"
+      ],
+      "statements": [
+        {
+          "text": "Das an verschiedenen Stellen ausgestellte Modell des Tempelbezirkes geht auf Studien des mexikanischen Archäologen Ignacio Marquina zurück, der sich ausschließlich an den schriftlichen Berichten orientierte, und ist durch die Grabungen inzwischen in vielen Teilen überholt.",
+          "fact_ids": [
+            "272052564-0131"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0131",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Das an verschiedenen Stellen ausgestellte Modell des Tempelbezirkes geht auf Studien des mexikanischen Archäologen Ignacio Marquina zurück, der sich ausschließlich an den schriftlichen Berichten orientierte, und ist durch die Grabungen inzwischen in vielen Teilen überholt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 51,
+      "speaker": "Felix",
+      "text": "Interessant. Du hast schriftliche Berichte erwähnt. Gibt es auch alte Schriften der Azteken selbst?",
+      "previous_text": "Das an verschiedenen Stellen ausgestellte Modell des Tempelbezirkes geht auf Studien des mexikanischen Archäologen Ignacio Marquina zurück. Er orientierte sich ausschließlich an den schriftlichen Berichten. Durch die Grabungen ist das Modell inzwischen in vielen Teilen überholt.",
+      "fact_ids": [
+        "272052564-0131"
+      ],
+      "statements": [
+        {
+          "text": "Ignacio Marquina orientierte sich ausschließlich an den schriftlichen Berichten.",
+          "fact_ids": [
+            "272052564-0131"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0131",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Das an verschiedenen Stellen ausgestellte Modell des Tempelbezirkes geht auf Studien des mexikanischen Archäologen Ignacio Marquina zurück, der sich ausschließlich an den schriftlichen Berichten orientierte, und ist durch die Grabungen inzwischen in vielen Teilen überholt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht nur aus Reaktionen: „Interessant“ ist eine Reaktion, „Du hast schriftliche Berichte erwähnt“ greift das eben Gesagte ohne neue Information wieder auf, und „Gibt es auch alte Schriften der Azteken selbst?“ ist eine Nachfrage. Die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit vorweg. Es wird keine Behauptung aufgestellt, die einen Beleg bräuchte."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 52,
+      "speaker": "Lena",
+      "text": "Auf Itzcóatls Anweisung hin wurden viele alte Bilderhandschriften vernichtet. Der Grund dafür ist in der modernen Forschung umstritten.",
+      "previous_text": "Interessant. Du hast schriftliche Berichte erwähnt. Gibt es auch alte Schriften der Azteken selbst?",
+      "fact_ids": [
+        "272052564-0059"
+      ],
+      "statements": [
+        {
+          "text": "Auf Itzcóatls Anweisung hin wurden viele alte Bilderhandschriften vernichtet; der Grund dafür ist in der modernen Forschung umstritten.",
+          "fact_ids": [
+            "272052564-0059"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0059",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Daneben wurden auf Itzcóatls Anweisung hin viele alte Bilderhandschriften vernichtet; der Grund dafür ist in der modernen Forschung umstritten.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 54,
+      "speaker": "Lena",
+      "text": "Der niederländische Grafikkünstler und Videospieleentwickler Thomas Kole hat auf Grundlage wissenschaftlicher Recherche die Stadt, ihre Architektur und die Seenlandschaft digital nachgebildet.",
+      "previous_text": "Schade, das ist ein großer Verlust für die Neugier. Kann man sich die Stadt heute auf irgendeine Weise ansehen?",
+      "fact_ids": [
+        "272052564-0135"
+      ],
+      "statements": [
+        {
+          "text": "Der niederländische Grafikkünstler und Videospieleentwickler Thomas Kole hat auf Grundlage wissenschaftlicher Recherche die Stadt, ihre Architektur und die Seenlandschaft digital nachgebildet.",
+          "fact_ids": [
+            "272052564-0135"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0135",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Der niederländische Grafikkünstler und Videospieleentwickler Thomas Kole hat auf Grundlage wissenschaftlicher Recherche die Stadt, ihre Architektur und die Seenlandschaft digital nachgebildet.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 56,
+      "speaker": "Lena",
+      "text": "Der Templo Mayor wurde feierlich eingeweiht, und die Einweihung nahm bereits der nächste König Auítzotl vor. Aus diesem Anlass wurden vier Tage lang möglicherweise bis zu zwanzigtausend Menschen geopfert. Sie waren bei den vorangegangenen Feldzügen des Herrschers als Kriegsgefangene gemacht worden.",
+      "previous_text": "Das klingt spannend. Was gibt es denn noch über den Templo Mayor zu erzählen?",
+      "fact_ids": [
+        "272052564-0071"
+      ],
+      "statements": [
+        {
+          "text": "Anlässlich der feierlichen Einweihung des Templo Mayor, die bereits der nächste König Auítzotl vornahm, wurden vier Tage lang möglicherweise bis zu zwanzigtausend Menschen geopfert, die bei den vorangegangenen Feldzügen des Herrschers als Kriegsgefangene gemacht worden waren.",
+          "fact_ids": [
+            "272052564-0071"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0071",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Anlässlich seiner feierlichen Einweihung, die bereits vom nächsten König Auítzotl vorgenommen wurde, wurden vier Tage lang möglicherweise bis zu zwanzigtausend Menschen geopfert, die bei den vorangegangenen Feldzügen des Herrschers als Kriegsgefangene gemacht worden waren.",
+          "context": [
+            "Unter Axayacatls Bruder Tízoc wurde mit einer massiven Erweiterung des Templo Mayor begonnen, der als zentraler Tempel der Stadt den Göttern Tlaloc und Huitzilopochtli geweiht war."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 57,
+      "speaker": "Felix",
+      "text": "Oh weh. Gab es für solche Opferungen eigentlich besondere Gegenstände?",
+      "previous_text": "Der Templo Mayor wurde feierlich eingeweiht, und die Einweihung nahm bereits der nächste König Auítzotl vor. Aus diesem Anlass wurden vier Tage lang möglicherweise bis zu zwanzigtausend Menschen geopfert. Sie waren bei den vorangegangenen Feldzügen des Herrschers als Kriegsgefangene gemacht worden.",
+      "fact_ids": [
+        "272052564-0071"
+      ],
+      "statements": [
+        {
+          "text": "Bei der Einweihung des Templo Mayor wurden vier Tage lang möglicherweise bis zu zwanzigtausend Menschen geopfert.",
+          "fact_ids": [
+            "272052564-0071"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0071",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Anlässlich seiner feierlichen Einweihung, die bereits vom nächsten König Auítzotl vorgenommen wurde, wurden vier Tage lang möglicherweise bis zu zwanzigtausend Menschen geopfert, die bei den vorangegangenen Feldzügen des Herrschers als Kriegsgefangene gemacht worden waren.",
+          "context": [
+            "Unter Axayacatls Bruder Tízoc wurde mit einer massiven Erweiterung des Templo Mayor begonnen, der als zentraler Tempel der Stadt den Göttern Tlaloc und Huitzilopochtli geweiht war."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "„Oh weh.“ ist eine Reaktion (Gefühl im Moment). „Gab es für solche Opferungen eigentlich besondere Gegenstände?“ ist eine Nachfrage, die nur voraussetzt, dass es dazu etwas zu erzählen gibt, und keine bestimmte Einzelheit vorwegnimmt. Der Redebeitrag enthält keine Behauptung und keine Prämisse, die belegt werden müsste."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 58,
+      "speaker": "Lena",
+      "text": "Ein Cuauhxicalli ist ein Altar. Er wurde im Opferkult der Azteken bei Menschenopfer-Zeremonien benutzt. Übersetzt heißt das Wort Adlerkürbis-Schüssel.",
+      "previous_text": "Oh weh. Gab es für solche Opferungen eigentlich besondere Gegenstände?",
+      "fact_ids": [
+        "180140723-0000"
+      ],
+      "statements": [
+        {
+          "text": "Ein Cuauhxicalli, übersetzt Adlerkürbis-Schüssel, ist ein Altar, der im Opferkult der Azteken bei Menschenopfer-Zeremonien benutzt wurde.",
+          "fact_ids": [
+            "180140723-0000"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "180140723-0000",
+          "article": "Cuauhxicalli",
+          "revid": 180140723,
+          "sentence": "Ein Cuauhxicalli oder quauhxicalli (übersetzt: Adlerkürbis-Schüssel) ist ein Altar, der im Opferkult der Azteken bei Menschenopfer-Zeremonien benutzt wurde.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 59,
+      "speaker": "Felix",
+      "text": "Hm, das muss ich erst einmal sacken lassen. Wie weit reichte das Reich der Azteken eigentlich?",
+      "previous_text": "Ein Cuauhxicalli ist ein Altar. Er wurde im Opferkult der Azteken bei Menschenopfer-Zeremonien benutzt. Übersetzt heißt das Wort Adlerkürbis-Schüssel.",
+      "fact_ids": [
+        "272052564-0000"
+      ],
+      "statements": [
+        {
+          "text": "Tenochtitlan war die Hauptstadt des Reiches der Azteken.",
+          "fact_ids": [
+            "272052564-0000"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0000",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Tenochtitlan (Nahuatl Tenōchtitlanⓘ, IPA: [te.noːʧ.'ti.tɬan] mit langem o und Betonung auf dem i, spanisch Tenochtitlán) war vom 14. bis Anfang des 16. Jahrhunderts die Hauptstadt des Reiches der Azteken, bis sie von den spanischen Konquistadoren erobert und zerstört wurde.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.39
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht aus einer Reaktion („das muss ich erst einmal sacken lassen“) und einer Nachfrage zur Reichweite des Aztekenreichs. Beides ist belegfrei. Die Frage setzt nur voraus, dass es ein Reich der Azteken gab, und das hat der vorherige Beitrag mit dem Opferkult der Azteken bereits eingeführt und der Fakt-Satz nennt es ebenfalls. Sie nimmt keine bestimmte Einzelheit oder Wertung vorweg. Eine zusätzliche Behauptung enthält der Beitrag nicht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 60,
+      "speaker": "Lena",
+      "text": "Dem König Auítzotl gelang unter anderem die Unterwerfung der fernen Provinz Xoconochco. Sie liegt an der heutigen Grenze Mexikos mit Guatemala.",
+      "previous_text": "Hm, das muss ich erst einmal sacken lassen. Wie weit reichte das Reich der Azteken eigentlich?",
+      "fact_ids": [
+        "272052564-0072"
+      ],
+      "statements": [
+        {
+          "text": "Auítzotl gelang unter anderem die Unterwerfung der fernen Provinz Xoconochco an der heutigen Grenze Mexikos mit Guatemala.",
+          "fact_ids": [
+            "272052564-0072"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0072",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Auítzotl gelang unter anderem die Unterwerfung der fernen Provinz Xoconochco an der heutigen Grenze Mexikos mit Guatemala.",
+          "context": [
+            "Anlässlich seiner feierlichen Einweihung, die bereits vom nächsten König Auítzotl vorgenommen wurde, wurden vier Tage lang möglicherweise bis zu zwanzigtausend Menschen geopfert, die bei den vorangegangenen Feldzügen des Herrschers als Kriegsgefangene gemacht worden waren."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 62,
+      "speaker": "Lena",
+      "text": "Die aztekische Legende von der Gründung Tenochtitlans beschreibt, wie ein Adler auf einer Opuntie sitzt und mit einer Schlange kämpft. Sie spiegelt sich noch heute im mexikanischen Wappen wider.",
+      "previous_text": "Faszinierend. Wie ist diese Stadt eigentlich entstanden?",
+      "fact_ids": [
+        "271156324-0010"
+      ],
+      "statements": [
+        {
+          "text": "Die aztekische Legende von der Gründung Tenochtitlans, die beschreibt, wie ein Adler auf einer Opuntie sitzt und mit einer Schlange kämpft, spiegelt sich noch heute im mexikanischen Wappen wider.",
+          "fact_ids": [
+            "271156324-0010"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271156324-0010",
+          "article": "Opuntien",
+          "revid": 271156324,
+          "sentence": "Die aztekische Legende von der Gründung Tenochtitláns, die beschreibt, wie ein Adler auf einer Opuntie sitzt und mit einer Schlange kämpft, spiegelt sich noch heute im mexikanischen Wappen wider.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 64,
+      "speaker": "Lena",
+      "text": "Der Name Tenōch ist gebildet aus tetl, das heißt Stein, und nochtli, das heißt Kaktusfeige. Die Kaktusfeige ist die Frucht von Opuntia vulgaris.",
+      "previous_text": "Das ist ja ein schönes Bild. Und woher hat die Stadt ihren Namen?",
+      "fact_ids": [
+        "272052564-0006"
+      ],
+      "statements": [
+        {
+          "text": "Der Name Tenōch ist aus tetl für Stein und nochtli für Kaktusfeige gebildet; die Kaktusfeige ist die Frucht von Opuntia vulgaris.",
+          "fact_ids": [
+            "272052564-0006"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0006",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Der Name Tenōch ist wiederum gebildet aus te(tl) „Stein“ und nōch(tli) „Kaktusfeige“ (die Frucht von Opuntia vulgaris).",
+          "context": [
+            "Der Name bedeutet „Stadt des Tenōch“."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 65,
+      "speaker": "Felix",
+      "text": "Aha, interessant. Wer war dieser Tenoch eigentlich?",
+      "previous_text": "Der Name Tenōch ist gebildet aus tetl, das heißt Stein, und nochtli, das heißt Kaktusfeige. Die Kaktusfeige ist die Frucht von Opuntia vulgaris.",
+      "fact_ids": [
+        "272052564-0006"
+      ],
+      "statements": [
+        {
+          "text": "Der Name Tenōch ist aus tetl für Stein und nochtli für Kaktusfeige gebildet.",
+          "fact_ids": [
+            "272052564-0006"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0006",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Der Name Tenōch ist wiederum gebildet aus te(tl) „Stein“ und nōch(tli) „Kaktusfeige“ (die Frucht von Opuntia vulgaris).",
+          "context": [
+            "Der Name bedeutet „Stadt des Tenōch“."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 66,
+      "speaker": "Lena",
+      "text": "Bei Tenoch handelt es sich um eine aus dem Ortsnamen abgeleitete Figur.",
+      "previous_text": "Aha, interessant. Wer war dieser Tenoch eigentlich?",
+      "fact_ids": [
+        "272052564-0044"
+      ],
+      "statements": [
+        {
+          "text": "Bei Tenoch handelt es sich um eine aus dem Ortsnamen abgeleitete Figur.",
+          "fact_ids": [
+            "272052564-0044"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0044",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Bei Tenoch handelt es sich um eine aus dem Ortsnamen abgeleitete Figur.",
+          "context": [
+            "Der Ort wurde schließlich auf einer Insel im Westteil des Texcoco-Sees gefunden, wo man unter dem mythischen Anführer Ténoch begann, die Stadt zu errichten."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.96,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 67,
+      "speaker": "Felix",
+      "text": "Das überrascht mich. Wie wird der Stadtname denn häufig gedeutet?",
+      "previous_text": "Bei Tenoch handelt es sich um eine aus dem Ortsnamen abgeleitete Figur.",
+      "fact_ids": [
+        "272052564-0044"
+      ],
+      "statements": [
+        {
+          "text": "Tenoch ist eine aus dem Ortsnamen abgeleitete Figur.",
+          "fact_ids": [
+            "272052564-0044"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0044",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Bei Tenoch handelt es sich um eine aus dem Ortsnamen abgeleitete Figur.",
+          "context": [
+            "Der Ort wurde schließlich auf einer Insel im Westteil des Texcoco-Sees gefunden, wo man unter dem mythischen Anführer Ténoch begann, die Stadt zu errichten."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.43
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht aus einer Reaktion („Das überrascht mich“, ein Gefühl im Moment) und einer Nachfrage nach der Deutung des Stadtnamens. Das ist eine Überleitungsfrage, die nur voraussetzt, dass es dazu etwas zu erzählen gibt. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, und der Stadtname Tenochtitlan ist das Thema des Artikels. Neue Behauptungen enthält der Beitrag nicht, daher ist er belegfrei in Ordnung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 68,
+      "speaker": "Lena",
+      "text": "Die häufig vorgetragene Deutung als Stadt des Steinkaktus ist schwer zu rechtfertigen.",
+      "previous_text": "Das überrascht mich. Wie wird der Stadtname denn häufig gedeutet?",
+      "fact_ids": [
+        "272052564-0007"
+      ],
+      "statements": [
+        {
+          "text": "Die häufig vorgetragene Deutung als Stadt des Steinkaktus ist schwer zu rechtfertigen.",
+          "fact_ids": [
+            "272052564-0007"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0007",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Die häufig vorgetragene Deutung als „Stadt des Steinkaktus“ ist deshalb schwer zu rechtfertigen.",
+          "context": [
+            "Der Name bedeutet „Stadt des Tenōch“.",
+            "Der Name Tenōch ist wiederum gebildet aus te(tl) „Stein“ und nōch(tli) „Kaktusfeige“ (die Frucht von Opuntia vulgaris)."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 70,
+      "speaker": "Lena",
+      "text": "Chimalpopoca, Huitzilíhuitls Sohn, bestieg den Thron von Tenochtitlan als Jugendlicher. Er wurde auf Betreiben von Maxtla ermordet. Maxtla war der Herrscher von Azcapotzalco.",
+      "previous_text": "Gut zu wissen. Erzähl mir doch von einem der Herrscher dieser Stadt.",
+      "fact_ids": [
+        "272052564-0051"
+      ],
+      "statements": [
+        {
+          "text": "Chimalpopoca, Huitzilíhuitls Sohn, bestieg den Thron von Tenochtitlan als Jugendlicher, wurde aber auf Betreiben von Maxtla ermordet, des Herrschers von Azcapotzalco.",
+          "fact_ids": [
+            "272052564-0051"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0051",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Chimalpopoca, Huitzilíhuitls Sohn, bestieg den Thron von Tenochtitlan als Jugendlicher, doch wurde er auf Betreiben von Maxtla ermordet, des Herrschers von Azcapotzalco.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 71,
+      "speaker": "Felix",
+      "text": "Oh nein. Und was wurde aus diesem Maxtla?",
+      "previous_text": "Chimalpopoca, Huitzilíhuitls Sohn, bestieg den Thron von Tenochtitlan als Jugendlicher. Er wurde auf Betreiben von Maxtla ermordet. Maxtla war der Herrscher von Azcapotzalco.",
+      "fact_ids": [
+        "272052564-0051"
+      ],
+      "statements": [
+        {
+          "text": "Maxtla war der Herrscher von Azcapotzalco, auf dessen Betreiben Chimalpopoca ermordet wurde.",
+          "fact_ids": [
+            "272052564-0051"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0051",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Chimalpopoca, Huitzilíhuitls Sohn, bestieg den Thron von Tenochtitlan als Jugendlicher, doch wurde er auf Betreiben von Maxtla ermordet, des Herrschers von Azcapotzalco.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 72,
+      "speaker": "Lena",
+      "text": "Azcapotzalco wurde geplündert. Maxtla wurde eigenhändig von Nezahualcóyotl, dem Herrscher von Texcoco, im Rahmen einer Opferzeremonie getötet.",
+      "previous_text": "Oh nein. Und was wurde aus diesem Maxtla?",
+      "fact_ids": [
+        "215376285-0005"
+      ],
+      "statements": [
+        {
+          "text": "Azcapotzalco wurde geplündert und Maxtla eigenhändig von Nezahualcóyotl, dem Herrscher von Texcoco, im Rahmen einer Opferzeremonie getötet.",
+          "fact_ids": [
+            "215376285-0005"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "215376285-0005",
+          "article": "Maxtla",
+          "revid": 215376285,
+          "sentence": "Azcapotzalco wurde geplündert und Maxtla eigenhändig von Nezahualcóyotl, dem Herrscher von Texcoco, im Rahmen einer Opferzeremonie getötet.",
+          "context": [
+            "Bei der Belagerung von Tenochtitlán konnte Itzcóatl, Chimalpopocas Nachfolger, unterstützt durch verbündete Stadtstaaten (unter anderem Texcoco und Tlacopán) Maxtla erfolgreich zurückwerfen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.86,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder: Azcapotzalco wurde geplündert, Maxtla wurde eigenhändig von Nezahualcóyotl, dem Herrscher von Texcoco, bei einer Opferzeremonie getötet. Maxtla wird im vorherigen Redebeitrag genannt und ist das Thema des Artikels, der Bezug ist also eindeutig. Es kommen keine zusätzlichen Angaben hinzu, und die Antwort passt zur Frage nach Maxtlas Schicksal."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 73,
+      "speaker": "Felix",
+      "text": "Wow, was für ein Ende. Was ist über Maxtla sonst noch bekannt?",
+      "previous_text": "Azcapotzalco wurde geplündert. Maxtla wurde eigenhändig von Nezahualcóyotl, dem Herrscher von Texcoco, im Rahmen einer Opferzeremonie getötet.",
+      "fact_ids": [
+        "215376285-0005"
+      ],
+      "statements": [
+        {
+          "text": "Maxtla wurde von Nezahualcóyotl im Rahmen einer Opferzeremonie getötet.",
+          "fact_ids": [
+            "215376285-0005"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "215376285-0005",
+          "article": "Maxtla",
+          "revid": 215376285,
+          "sentence": "Azcapotzalco wurde geplündert und Maxtla eigenhändig von Nezahualcóyotl, dem Herrscher von Texcoco, im Rahmen einer Opferzeremonie getötet.",
+          "context": [
+            "Bei der Belagerung von Tenochtitlán konnte Itzcóatl, Chimalpopocas Nachfolger, unterstützt durch verbündete Stadtstaaten (unter anderem Texcoco und Tlacopán) Maxtla erfolgreich zurückwerfen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.89
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht nur aus einer Reaktion („Wow, was für ein Ende.“, ein Gefühl im Moment) und einer offenen Nachfrage („Was ist über Maxtla sonst noch bekannt?“). Die Frage nimmt keine bestimmte Einzelheit vorweg und setzt nur voraus, dass es noch mehr zu erzählen gibt. Es werden keine neuen Behauptungen aufgestellt, die belegt sein müssten."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 74,
+      "speaker": "Lena",
+      "text": "Maxtla ließ unter dem Vorwand, Tayauh und Chimalpopoca hätten ein Mordkomplott gegen ihn geplant, Tayauh töten. Chimalpopoca ließ er gefangen nehmen. In Azcapotzalco wurde Chimalpopoca öffentlich in einem Käfig zur Schau gestellt.",
+      "previous_text": "Wow, was für ein Ende. Was ist über Maxtla sonst noch bekannt?",
+      "fact_ids": [
+        "270209548-0008"
+      ],
+      "statements": [
+        {
+          "text": "Maxtla ließ unter dem Vorwand, die beiden hätten ein Mordkomplott gegen ihn geplant, Tayauh töten und Chimalpopoca gefangen nehmen und in Azcapotzalco öffentlich in einem Käfig zur Schau stellen.",
+          "fact_ids": [
+            "270209548-0008"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270209548-0008",
+          "article": "Chimalpopoca",
+          "revid": 270209548,
+          "sentence": "Maxtla ließ unter dem Vorwand, die beiden hätten ein Mordkomplott gegen ihn geplant, Tayauh töten und Chimalpopoca gefangen nehmen und in Azcapotzalco öffentlich in einem Käfig zur Schau stellen.",
+          "context": [
+            "Nachdem Tezozómoc gestorben war, gewann die den Mexica feindlich gesinnte Seite die Oberhand."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 75,
+      "speaker": "Felix",
+      "text": "Das klingt dramatisch. Und was geschah mit dem Gefangenen?",
+      "previous_text": "Maxtla ließ unter dem Vorwand, Tayauh und Chimalpopoca hätten ein Mordkomplott gegen ihn geplant, Tayauh töten. Chimalpopoca ließ er gefangen nehmen. In Azcapotzalco wurde Chimalpopoca öffentlich in einem Käfig zur Schau gestellt.",
+      "fact_ids": [
+        "270209548-0008"
+      ],
+      "statements": [
+        {
+          "text": "Chimalpopoca wurde von Maxtla gefangen genommen.",
+          "fact_ids": [
+            "270209548-0008"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270209548-0008",
+          "article": "Chimalpopoca",
+          "revid": 270209548,
+          "sentence": "Maxtla ließ unter dem Vorwand, die beiden hätten ein Mordkomplott gegen ihn geplant, Tayauh töten und Chimalpopoca gefangen nehmen und in Azcapotzalco öffentlich in einem Käfig zur Schau stellen.",
+          "context": [
+            "Nachdem Tezozómoc gestorben war, gewann die den Mexica feindlich gesinnte Seite die Oberhand."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.81
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht nur aus einer Reaktion („Das klingt dramatisch“) und einer Nachfrage („Was geschah mit dem Gefangenen?“). Beides ist belegfrei. Die Frage nimmt keine Einzelheit vorweg, denn dass Chimalpopoca gefangen genommen wurde, steht im vorherigen Redebeitrag und im Fakt-Satz."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 76,
+      "speaker": "Lena",
+      "text": "In anderen Quellen heißt es, Chimalpopoca wurde bei seiner Rückkehr nach Tenochtitlan von Anhängern seines Onkels Itzcóatl ermordet. Itzcóatl folgte ihm auf den Thron.",
+      "previous_text": "Das klingt dramatisch. Und was geschah mit dem Gefangenen?",
+      "fact_ids": [
+        "270209548-0011"
+      ],
+      "statements": [
+        {
+          "text": "In anderen Quellen heißt es, Chimalpopoca wurde bei seiner Rückkehr nach Tenochtitlan von Anhängern seines Onkels Itzcóatl ermordet, der ihm auf den Thron folgte.",
+          "fact_ids": [
+            "270209548-0011"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270209548-0011",
+          "article": "Chimalpopoca",
+          "revid": 270209548,
+          "sentence": "In anderen Quellen heißt es, er wurde bei seiner Rückkehr nach Tenochtitlán von Anhängern seines Onkels Itzcóatl ermordet, der ihm auf den Thron folgte.",
+          "context": [
+            "Einige Quellen berichten, er sei auf Veranlassung Maxtlas in der Gefangenschaft getötet worden."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.96,
+          "vollstaendig": 0.81
+        },
+        "jev_error": null,
+        "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: Chimalpopoca wurde laut anderen Quellen bei seiner Rückkehr nach Tenochtitlan von Anhängern seines Onkels Itzcóatl ermordet, und Itzcóatl folgte ihm auf den Thron. Der Bezug \"er\" wird korrekt mit dem Artikelthema Chimalpopoca aufgelöst, das ist erlaubt. Der Redebeitrag enthält keine Frage und keine weitere unbelegte Angabe."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 78,
+      "speaker": "Lena",
+      "text": "Der Herrscher Moctezuma akzeptierte, dass sich die Spanier fünfzehnhundertneunzehn in Tenochtitlan niederlassen konnten. Er ließ sich von ihnen in eine Marionettenrolle zwingen.",
+      "previous_text": "Hm, da gibt es also verschiedene Überlieferungen. Kommen wir zu den Spaniern. Wie ging es mit ihnen weiter?",
+      "fact_ids": [
+        "272052564-0079"
+      ],
+      "statements": [
+        {
+          "text": "Moctezuma akzeptierte, dass sich die Spanier 1519 in Tenochtitlan niederlassen konnten, und ließ sich von ihnen in eine Marionettenrolle zwingen.",
+          "fact_ids": [
+            "272052564-0079"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0079",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Er akzeptierte, dass sich die Spanier 1519 in Tenochtitlan niederlassen konnten, und ließ sich von ihnen in eine Marionettenrolle zwingen.",
+          "context": [
+            "Bekannt ist Moctezuma jedoch vor allem aufgrund seiner Rolle bei der Eroberung Mexikos durch die Spanier."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.91
+        },
+        "jev_error": null,
+        "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: Moctezuma akzeptierte die Niederlassung der Spanier 1519 in Tenochtitlan und ließ sich in eine Marionettenrolle zwingen. Das Bezugswort „Er“ wird korrekt mit „Der Herrscher Moctezuma“ aufgelöst; der Kontext nennt Moctezuma ausdrücklich. Der Redebeitrag enthält keine Fragen und keine zusätzlichen, unbelegten Angaben. Er beantwortet die Frage nach den Spaniern passend."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 80,
+      "speaker": "Lena",
+      "text": "Mit Schiffen und Kanonen unterbanden die Konquistadoren die Versorgung der Stadt über den See mit Kanus.",
+      "previous_text": "Oh. Und wie ging es dann weiter?",
+      "fact_ids": [
+        "272052564-0082"
+      ],
+      "statements": [
+        {
+          "text": "Mit Schiffen und Kanonen unterbanden die Konquistadoren die Versorgung der Stadt über den See mit Kanus.",
+          "fact_ids": [
+            "272052564-0082"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0082",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Mit Schiffen und Kanonen unterbanden die Konquistadoren die Versorgung der Stadt über den See mit Kanus.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 1.0,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 81,
+      "speaker": "Felix",
+      "text": "Das klingt bedrückend. Und wie ging es für die Stadt aus?",
+      "previous_text": "Mit Schiffen und Kanonen unterbanden die Konquistadoren die Versorgung der Stadt über den See mit Kanus.",
+      "fact_ids": [
+        "272052564-0082"
+      ],
+      "statements": [
+        {
+          "text": "Die Konquistadoren unterbanden die Versorgung der Stadt über den See.",
+          "fact_ids": [
+            "272052564-0082"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0082",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Mit Schiffen und Kanonen unterbanden die Konquistadoren die Versorgung der Stadt über den See mit Kanus.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.82
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht nur aus einer Reaktion (\"Das klingt bedrückend\" als Gefühl im Moment) und einer Nachfrage (\"Wie ging es für die Stadt aus?\"). Die Frage ist eine Überleitungsfrage ohne vorweggenommene Einzelheit, Wertung oder Tatsachenbehauptung als Prämisse. Neue Behauptungen enthält der Beitrag nicht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 82,
+      "speaker": "Lena",
+      "text": "Der letzte König Cuauhtémoc wurde auf der Flucht in einem Kanu gefangen genommen.",
+      "previous_text": "Das klingt bedrückend. Und wie ging es für die Stadt aus?",
+      "fact_ids": [
+        "272052564-0085"
+      ],
+      "statements": [
+        {
+          "text": "Der letzte König Cuauhtémoc wurde auf der Flucht in einem Kanu gefangen genommen.",
+          "fact_ids": [
+            "272052564-0085"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0085",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Der letzte König Cuauhtémoc wurde auf der Flucht in einem Kanu gefangen genommen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 83,
+      "speaker": "Felix",
+      "text": "Wow. Was geschah danach mit ihm?",
+      "previous_text": "Der letzte König Cuauhtémoc wurde auf der Flucht in einem Kanu gefangen genommen.",
+      "fact_ids": [
+        "272052564-0085"
+      ],
+      "statements": [
+        {
+          "text": "Cuauhtémoc, der letzte König, wurde auf der Flucht gefangen genommen.",
+          "fact_ids": [
+            "272052564-0085"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0085",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Der letzte König Cuauhtémoc wurde auf der Flucht in einem Kanu gefangen genommen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 84,
+      "speaker": "Lena",
+      "text": "Hernán Cortés ließ Cuauhtémoc und Tetlepanquetzaltzin, den mitgefangenen Herrscher von Tlacopan, foltern. Er wollte erfahren, wo die vermuteten Goldschätze zu finden seien.",
+      "previous_text": "Wow. Was geschah danach mit ihm?",
+      "fact_ids": [
+        "271084119-0007"
+      ],
+      "statements": [
+        {
+          "text": "Hernán Cortés ließ Cuauhtémoc und Tetlepanquetzaltzin, den mitgefangenen Herrscher von Tlacopan, foltern, um zu erfahren, wo die vermuteten Goldschätze zu finden seien.",
+          "fact_ids": [
+            "271084119-0007"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271084119-0007",
+          "article": "Cuauhtémoc",
+          "revid": 271084119,
+          "sentence": "Dann aber ließ er Cuauhtémoc und Tetlepanquetzaltzin, den mitgefangenen Herrscher von Tlacopan, foltern, um zu erfahren, wo die vermuteten Goldschätze zu finden seien.",
+          "context": [
+            "Einige Zeit behandelte Cortés seinen Widersacher als Gefangenen in allen Ehren und bezeichnete ihn als Herrscher der Azteken."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 86,
+      "speaker": "Lena",
+      "text": "Tenochtitlan war vom vierzehnten bis Anfang des sechzehnten Jahrhunderts die Hauptstadt der Azteken, bis spanische Konquistadoren sie eroberten und zerstörten. Sie war die größte Stadt des amerikanischen Kontinents und eine der größten weltweit. Die Stadt wurde unmittelbar nach der Eroberung auf den Trümmern neu errichtet. Deshalb sind die Überreste vollständig überdeckt. Die Pyramiden dienten als Steinbruch, und die Kathedrale entstand auf dem Gelände vor dem Templo Mayor. Das Zentrum steht auf dem Boden des trockengelegten Texcoco-Sees, und zahlreiche Kirchen liegen heute rund zwei Meter unter dem Straßenniveau. Der Templo Mayor war der wichtigste und größte Tempel der Stadt. Ein zufälliger Fund brachte neunzehnhundertachtundsiebzig das Proyecto Templo Mayor in Gang. Die Legende vom Adler auf der Opuntie spiegelt sich bis heute im mexikanischen Wappen wider. Der letzte König Cuauhtémoc wurde auf der Flucht gefangen genommen.",
+      "previous_text": "Das geht wirklich unter die Haut. Magst du zum Schluss alles kurz zusammenfassen?",
+      "fact_ids": [
+        "272052564-0000",
+        "272052564-0002",
+        "272052564-0095",
+        "272052564-0092",
+        "272052564-0091",
+        "272052564-0112",
+        "272052564-0116",
+        "269151237-0000",
+        "272052564-0120",
+        "271156324-0010",
+        "272052564-0085"
+      ],
+      "statements": [
+        {
+          "text": "Tenochtitlan war vom 14. bis Anfang des 16. Jahrhunderts die Hauptstadt des Reiches der Azteken, bis sie von den spanischen Konquistadoren erobert und zerstört wurde.",
+          "fact_ids": [
+            "272052564-0000"
+          ]
+        },
+        {
+          "text": "Tenochtitlan war die größte Stadt des amerikanischen Kontinents und eine der größten weltweit.",
+          "fact_ids": [
+            "272052564-0002"
+          ]
+        },
+        {
+          "text": "Die Stadt wurde unmittelbar nach der Eroberung auf den Trümmern neu errichtet, daher sind die materiellen Überreste von der modernen Stadt vollständig überdeckt.",
+          "fact_ids": [
+            "272052564-0095"
+          ]
+        },
+        {
+          "text": "Die Pyramiden wurden abgerissen und als Steinbruch verwendet, und die Kathedrale entstand auf dem Gelände vor dem Templo Mayor.",
+          "fact_ids": [
+            "272052564-0092",
+            "272052564-0091"
+          ]
+        },
+        {
+          "text": "Das gesamte Stadtzentrum ist auf dem Boden des im 16. Jahrhundert trockengelegten Texcoco-Sees errichtet, und zahlreiche Kirchen im Stadtzentrum liegen heute rund 2 m unter dem Straßenniveau.",
+          "fact_ids": [
+            "272052564-0112",
+            "272052564-0116"
+          ]
+        },
+        {
+          "text": "Der Templo Mayor war der wichtigste und größte Tempel der aztekischen Hauptstadt.",
+          "fact_ids": [
+            "269151237-0000"
+          ]
+        },
+        {
+          "text": "Der zufällige Fund eines großen Reliefs der toten Göttin Coyolxauhqui wurde 1978 zur Initiierung des Proyecto Templo Mayor genutzt.",
+          "fact_ids": [
+            "272052564-0120"
+          ]
+        },
+        {
+          "text": "Die aztekische Legende von der Gründung Tenochtitlans mit dem Adler auf der Opuntie spiegelt sich noch heute im mexikanischen Wappen wider.",
+          "fact_ids": [
+            "271156324-0010"
+          ]
+        },
+        {
+          "text": "Der letzte König Cuauhtémoc wurde auf der Flucht gefangen genommen.",
+          "fact_ids": [
+            "272052564-0085"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272052564-0000",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Tenochtitlan (Nahuatl Tenōchtitlanⓘ, IPA: [te.noːʧ.'ti.tɬan] mit langem o und Betonung auf dem i, spanisch Tenochtitlán) war vom 14. bis Anfang des 16. Jahrhunderts die Hauptstadt des Reiches der Azteken, bis sie von den spanischen Konquistadoren erobert und zerstört wurde.",
+          "context": []
+        },
+        {
+          "id": "272052564-0002",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Sie war damit die größte Stadt des amerikanischen Kontinents und eine der größten weltweit.",
+          "context": [
+            "Vermutlich lebten zu Beginn des 16. Jahrhunderts, als die ersten Spanier dort eintrafen, mehr als einhunderttausend Menschen in der Stadt."
+          ]
+        },
+        {
+          "id": "272052564-0095",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Da die Stadt unmittelbar nach der Eroberung auf den Trümmern neu errichtet wurde, sind die materiellen Überreste von der modernen Stadt vollständig überdeckt, archäologische Grabungen sind deshalb nur auf den wenigen freien Plätzen und im Zusammenhang mit Neubauten möglich.",
+          "context": []
+        },
+        {
+          "id": "272052564-0092",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Auch die Pyramiden wurden abgerissen und als Steinbruch verwendet.",
+          "context": [
+            "So entstand der Palast der spanischen Vizekönige aus den Überresten des Palastes des Moctezuma und die Kathedrale auf dem Gelände vor dem Templo Mayor."
+          ]
+        },
+        {
+          "id": "272052564-0091",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "So entstand der Palast der spanischen Vizekönige aus den Überresten des Palastes des Moctezuma und die Kathedrale auf dem Gelände vor dem Templo Mayor.",
+          "context": [
+            "Doch statt die alten Häuser wiederherzustellen, errichteten sie neue Gebäude aus den Trümmern der Ruinen."
+          ]
+        },
+        {
+          "id": "272052564-0112",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Neben der flächendeckenden Bebauung des Stadtzentrums wird die archäologische Untersuchung durch die geologischen Verhältnisse behindert: Das gesamte Stadtzentrum und weite Teile der Stadt darüber hinaus sind auf dem Boden des im 16. Jahrhundert trockengelegten Texcoco-Sees errichtet.",
+          "context": []
+        },
+        {
+          "id": "272052564-0116",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Zahlreiche Kirchen im Stadtzentrum liegen heute bereits rund 2 m unter dem Straßenniveau.",
+          "context": []
+        },
+        {
+          "id": "269151237-0000",
+          "article": "Templo Mayor",
+          "revid": 269151237,
+          "sentence": "Der Templo Mayor (span.) bzw. Huēy Teōcalli (nahuatl, „Großer Tempel“; auch Große Pyramide von Tenochtitlán) war der wichtigste und größte Tempel der aztekischen Hauptstadt Tenochtitlán, des heutigen Mexiko-Stadt.",
+          "context": []
+        },
+        {
+          "id": "272052564-0120",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Der zufällige Fund eines großen Reliefs, das die tote Göttin Coyolxauhqui darstellte, wurde 1978 zur Initiierung des „Proyecto Templo Mayor“ genutzt.",
+          "context": []
+        },
+        {
+          "id": "271156324-0010",
+          "article": "Opuntien",
+          "revid": 271156324,
+          "sentence": "Die aztekische Legende von der Gründung Tenochtitláns, die beschreibt, wie ein Adler auf einer Opuntie sitzt und mit einer Schlange kämpft, spiegelt sich noch heute im mexikanischen Wappen wider.",
+          "context": []
+        },
+        {
+          "id": "272052564-0085",
+          "article": "Tenochtitlan",
+          "revid": 272052564,
+          "sentence": "Der letzte König Cuauhtémoc wurde auf der Flucht in einem Kanu gefangen genommen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "aussage_3": 0.98,
+          "aussage_4": 0.98,
+          "aussage_5": 0.99,
+          "aussage_6": 0.99,
+          "aussage_7": 0.99,
+          "aussage_8": 0.98,
+          "vollstaendig": 0.82
+        },
+        "jev_error": null,
+        "reason": "Jede Aussage folgt aus den zitierten Fakt-Sätzen: Hauptstadt der Azteken, größte Stadt, Neubau auf den Trümmern mit vollständig überdeckten Überresten, Pyramiden als Steinbruch, Kathedrale vor dem Templo Mayor, trockengelegter Texcoco-See, Kirchen rund zwei Meter unter dem Straßenniveau, Templo Mayor als wichtigster Tempel, zufälliger Fund 1978 und Proyecto Templo Mayor, Adler-Legende im Wappen sowie Gefangennahme Cuauhtémocs auf der Flucht. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben. Auch das „Deshalb“ gibt die Kausalität des Fakt-Satzes wieder (Neubau, daher Überdeckung). Alle Bezüge sind eindeutig, da der Artikel Tenochtitlan das Thema ist."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    }
+  ],
+  "comments": []
+}

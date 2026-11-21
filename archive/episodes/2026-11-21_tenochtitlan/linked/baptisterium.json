@@ -1,0 +1,38 @@
+{
+  "title": "Baptisterium",
+  "revid": 268558946,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-06T14:18:31Z",
+  "fetched_at": "2026-11-21T22:38:34Z",
+  "categories": [
+    "Kategorie:Baptisterium",
+    "Kategorie:Kirche (Architektur)",
+    "Kategorie:Taufe",
+    "Kategorie:Wikipedia:Belege fehlen"
+  ],
+  "intro_wikitext": "{| align=right\n|[[Datei:Rom, San Giovanni in Laterano, Baptisterium, Außenansicht 2.jpg|mini|Achteckiges [[Lateranbasilika#Baptisterium|Baptisterium des Lateran]] in Rom aus dem 4.&nbsp;Jahrhundert]]\n|}\n[[Datei:Zentral vs Laengsbau.gif|mini|Grundrissbeispiele]]\n[[Datei:Shivta FrDo0097.JPG|mini|Kreuzförmiges Taufbecken einer Basilika in [[Schivta-Nationalpark|Schivta]], [[Negev]], Israel]]\n[[Datei:Baptistische Taufe Paris (Ende 19. Jahrhundert).jpg|miniatur|Baptistisches Baptisterium (Paris, Ende des 19. Jahrhunderts)]]\n'''Baptisterium''' (von [[Griechische Sprache|griech.]] βαπτίζω ''baptízō'' „untertauchen, taufen“, βάπτισμα ''báptisma'' „Eintauchen, Waschung, [[Taufe]]“) bezeichnet im heutigen Sprachgebrauch eine christliche Taufkapelle.",
+  "segments": [
+    {
+      "id": "268558946-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Baptisterium''' (von [[Griechische Sprache|griech.]] βαπτίζω ''baptízō'' „untertauchen, taufen“, βάπτισμα ''báptisma'' „Eintauchen, Waschung, [[Taufe]]“) bezeichnet im heutigen Sprachgebrauch eine christliche Taufkapelle.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268558946,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268558946-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Baptisterium (von griech. βαπτίζω baptízō „untertauchen, taufen“, βάπτισμα báptisma „Eintauchen, Waschung, Taufe“) bezeichnet im heutigen Sprachgebrauch eine christliche Taufkapelle.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Cuauhxicalli",
+  "revid": 180140723,
+  "revision_status": "sighted",
+  "revision_timestamp": "2018-08-19T07:41:29Z",
+  "fetched_at": "2026-11-21T22:38:34Z",
+  "categories": [
+    "Kategorie:Altartyp",
+    "Kategorie:Archäologischer Fachbegriff",
+    "Kategorie:Azteken",
+    "Kategorie:Steinskulptur",
+    "Kategorie:Tierskulptur"
+  ],
+  "intro_wikitext": "[[Datei:20041229-Ocelotl-Cuauhxicalli (Museo Nacional de Antropología) MQ.jpg|rechts|mini|Cuauhxicalli im [[Nationalmuseum für Anthropologie (Mexiko)]]]]\nEin '''Cuauhxicalli''' oder quauhxicalli (übersetzt: Adlerkürbis-Schüssel) ist ein [[Altar]], der im [[Opferkult der Azteken]] bei [[Menschenopfer]]-Zeremonien benutzt wurde. Cuauhxicallis sind oft als [[Adler (Biologie)|Adler]] oder [[Jaguar]] gestaltet oder als runder Stein, der mit Motiven verziert ist. Auf der Oberseite weisen sie stets eine runde Vertiefung auf.<ref>[[Knauf Gips#Knauf-Museum|Knauf-Museum Iphofen]] (Hrsg.): ''Reliefsammlung der grossen Kulturepochen''. 3. Aufl. Verlag J. H. Röll, Dettelbach 2005, ISBN 3-89754-240-4, Seite 255.</ref><ref>[[Walter Krickeberg]]: ''Altmexikanische Kulturen. Mit einem Anhang „Über die Kunst Altmexikos“ von Gerdt Kutscher''. Safari-Verlag, Berlin 1966, Seite 223.</ref>\n\n[[Datei:Cuauhxicalli 1.jpg|mini|links|Cuauhxicalli im [[Templo Mayor]]]]",
+  "segments": [
+    {
+      "id": "180140723-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein '''Cuauhxicalli''' oder quauhxicalli (übersetzt: Adlerkürbis-Schüssel) ist ein [[Altar]], der im [[Opferkult der Azteken]] bei [[Menschenopfer]]-Zeremonien benutzt wurde.",
+      "plain": null
+    },
+    {
+      "id": "180140723-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Cuauhxicallis sind oft als [[Adler (Biologie)|Adler]] oder [[Jaguar]] gestaltet oder als runder Stein, der mit Motiven verziert ist.",
+      "plain": null
+    },
+    {
+      "id": "180140723-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Auf der Oberseite weisen sie stets eine runde Vertiefung auf.<ref>[[Knauf Gips#Knauf-Museum|Knauf-Museum Iphofen]] (Hrsg.): ''Reliefsammlung der grossen Kulturepochen''. 3. Aufl. Verlag J. H. Röll, Dettelbach 2005, ISBN 3-89754-240-4, Seite 255.</ref><ref>[[Walter Krickeberg]]: ''Altmexikanische Kulturen. Mit einem Anhang „Über die Kunst Altmexikos“ von Gerdt Kutscher''. Safari-Verlag, Berlin 1966, Seite 223.</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 180140723,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "180140723-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Ein Cuauhxicalli oder quauhxicalli (übersetzt: Adlerkürbis-Schüssel) ist ein Altar, der im Opferkult der Azteken bei Menschenopfer-Zeremonien benutzt wurde.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "180140723-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Cuauhxicallis sind oft als Adler oder Jaguar gestaltet oder als runder Stein, der mit Motiven verziert ist.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

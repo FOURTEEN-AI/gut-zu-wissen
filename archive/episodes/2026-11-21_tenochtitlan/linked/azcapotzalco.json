@@ -1,0 +1,106 @@
+{
+  "title": "Azcapotzalco",
+  "revid": 269099329,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-25T23:21:57Z",
+  "fetched_at": "2026-11-21T22:38:34Z",
+  "categories": [
+    "Kategorie:Azcapotzalco",
+    "Kategorie:Ort in Mexiko-Stadt",
+    "Kategorie:Ort in Nordamerika",
+    "Kategorie:Stadtteil von Mexiko-Stadt",
+    "Kategorie:Wikipedia:Seite mit Audioeinbettung"
+  ],
+  "intro_wikitext": "{{Infobox Municipio in Mexiko\n| BREITE             = 19/28/12.5/N\n| LÄNGE              = 99/10/27.7/W\n| NAME               = Azcapotzalco\n| BILD-LAGE          = Azcapotzalco, México DF.svg\n| WAPPEN             = Alcaldía Azcapotzalco.png\n| FLÄCHE             = 33,623 \n| EINWOHNER          = 432205\n| STAND              = 2020\n| GRÜNDUNG           = \n| ISO-CODE           = MX-CMX\n| WWW                = azcapotzalco.df.gob.mx\n| CHEF               = [[Vidal Llerenas Morales]]\n| BILD1              = \n| BILD1-BESCHREIBUNG = \n| INEGI              = 09002\n}}\n\n'''Azcapotzalco''' ([[Nahuatl]] für „Ameisenhaufen“; {{IPA|Tondatei=Atzcapozalco Pronunciation.ogg|aːskapoˈtsaɬko}}) ist einer von 16 Verwaltungsbezirken des Distrito Federal, des [[Hauptstadtbezirk]]s von [[Mexiko]].\n\nAzcapotzalco befindet sich im Nordwesten von [[Mexiko-Stadt]]. Bis er durch die fortschreitende Ausbreitung des Stadtgebietes eingemeindet wurde, war der Ort eine eigenständige Gemeinde.",
+  "segments": [
+    {
+      "id": "269099329-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Municipio in Mexiko | STAND              = 2020",
+      "plain": "Infobox Municipio in Mexiko – Basisdaten – Einwohner: 432.205 (2020)"
+    },
+    {
+      "id": "269099329-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Municipio in Mexiko | WWW                = azcapotzalco.df.gob.mx",
+      "plain": "Infobox Municipio in Mexiko – Basisdaten – Webauftritt: azcapotzalco.df.gob.mx"
+    },
+    {
+      "id": "269099329-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Municipio in Mexiko | INEGI              = 09002",
+      "plain": "Infobox Municipio in Mexiko – Basisdaten – INEGI-Nr.: 09002"
+    },
+    {
+      "id": "269099329-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Municipio in Mexiko | CHEF               = [[Vidal Llerenas Morales]]",
+      "plain": "Infobox Municipio in Mexiko – Politik – Alcalde: Vidal Llerenas Morales"
+    },
+    {
+      "id": "269099329-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Azcapotzalco''' ([[Nahuatl]] für „Ameisenhaufen“; {{IPA|Tondatei=Atzcapozalco Pronunciation.ogg|aːskapoˈtsaɬko}}) ist einer von 16 Verwaltungsbezirken des Distrito Federal, des [[Hauptstadtbezirk]]s von [[Mexiko]].",
+      "plain": null
+    },
+    {
+      "id": "269099329-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Azcapotzalco befindet sich im Nordwesten von [[Mexiko-Stadt]].",
+      "plain": null
+    },
+    {
+      "id": "269099329-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bis er durch die fortschreitende Ausbreitung des Stadtgebietes eingemeindet wurde, war der Ort eine eigenständige Gemeinde.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269099329,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269099329-0000",
+        "type": "infobox_row",
+        "section": "",
+        "context_ids": [],
+        "plain": "Infobox Municipio in Mexiko – Basisdaten – Einwohner: 432.205 (2020)",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269099329-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Azcapotzalco (Nahuatl für „Ameisenhaufen“; [aːskapoˈtsaɬko] ⓘ) ist einer von 16 Verwaltungsbezirken des Distrito Federal, des Hauptstadtbezirks von Mexiko.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269099329-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269099329-0005"
+        ],
+        "plain": "Bis er durch die fortschreitende Ausbreitung des Stadtgebietes eingemeindet wurde, war der Ort eine eigenständige Gemeinde.",
+        "context_plain": [
+          "Azcapotzalco befindet sich im Nordwesten von Mexiko-Stadt."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "269099329-0005",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

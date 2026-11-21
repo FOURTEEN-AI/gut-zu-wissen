@@ -1,0 +1,88 @@
+{
+  "title": "Tula (archäologische Stätte)",
+  "revid": 270256516,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-05T21:58:34Z",
+  "fetched_at": "2026-11-21T22:38:34Z",
+  "categories": [
+    "Kategorie:Archäologischer Fundplatz (Altamerika)",
+    "Kategorie:Archäologischer Fundplatz im Bundesstaat Hidalgo",
+    "Kategorie:Archäologischer Fundplatz in Amerika",
+    "Kategorie:Historische präkolumbische Stadt",
+    "Kategorie:Tolteken"
+  ],
+  "intro_wikitext": "[[Datei:Telamones Tula.jpg|mini|Statuen toltekischer Krieger samt Insignien auf dem Tempel des „weißen Gottes“ [[Quetzalcóatl]]]]\n[[Datei:Tula Plan.png|mini|Plan des Zeremonialzentrums von Tula]]\n\n'''Tula''' ist die moderne, hispanisierte Namensform des in der [[Nahuatl|aztekischen Sprache]] ''Tōllān'' (übersetzt: Ort der Binsen) genannten Ortes. Zur Unterscheidung von anderen Orten, die diesen Namen ebenfalls trugen (wenngleich weniger als Eigenname, sondern eher als Ehrenbezeichnung) sagte man auch präziser: ''Tōllān Xicocotitlān''. Der Ort war das kulturelle Zentrum der [[Tolteken]]. Die Ruinenstätte liegt 65 km nordwestlich des heutigen [[Mexiko-Stadt]] im Bundesstaat [[Hidalgo (Bundesstaat)|Hidalgo]] im [[Municipio Tula de Allende]] und war zwischen dem 10. und dem 12. Jahrhundert nach Christus bewohnt. Zweckmäßigerweise verwendet man für den Ort im historischen, vorspanischen Zusammenhang die Bezeichnung ''Tollan'', für die Ruinenstätte und den modernen Ort [[Tula de Allende]] den Namen Tula.",
+  "segments": [
+    {
+      "id": "270256516-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Tula''' ist die moderne, hispanisierte Namensform des in der [[Nahuatl|aztekischen Sprache]] ''Tōllān'' (übersetzt: Ort der Binsen) genannten Ortes.",
+      "plain": null
+    },
+    {
+      "id": "270256516-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Zur Unterscheidung von anderen Orten, die diesen Namen ebenfalls trugen (wenngleich weniger als Eigenname, sondern eher als Ehrenbezeichnung) sagte man auch präziser: ''Tōllān Xicocotitlān''.",
+      "plain": null
+    },
+    {
+      "id": "270256516-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Ort war das kulturelle Zentrum der [[Tolteken]].",
+      "plain": null
+    },
+    {
+      "id": "270256516-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Ruinenstätte liegt 65 km nordwestlich des heutigen [[Mexiko-Stadt]] im Bundesstaat [[Hidalgo (Bundesstaat)|Hidalgo]] im [[Municipio Tula de Allende]] und war zwischen dem 10. und dem 12. Jahrhundert nach Christus bewohnt.",
+      "plain": null
+    },
+    {
+      "id": "270256516-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Zweckmäßigerweise verwendet man für den Ort im historischen, vorspanischen Zusammenhang die Bezeichnung ''Tollan'', für die Ruinenstätte und den modernen Ort [[Tula de Allende]] den Namen Tula.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270256516,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270256516-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Tula ist die moderne, hispanisierte Namensform des in der aztekischen Sprache Tōllān (übersetzt: Ort der Binsen) genannten Ortes.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270256516-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270256516-0000"
+        ],
+        "plain": "Zur Unterscheidung von anderen Orten, die diesen Namen ebenfalls trugen (wenngleich weniger als Eigenname, sondern eher als Ehrenbezeichnung) sagte man auch präziser: Tōllān Xicocotitlān.",
+        "context_plain": [
+          "Tula ist die moderne, hispanisierte Namensform des in der aztekischen Sprache Tōllān (übersetzt: Ort der Binsen) genannten Ortes."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "270256516-0002",
+        "reason": "context_invalid"
+      },
+      {
+        "segment_id": "270256516-0003",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Ehecatl",
+  "revid": 268801253,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-15T11:13:13Z",
+  "fetched_at": "2026-11-21T22:38:34Z",
+  "categories": [
+    "Kategorie:Gottheit der Azteken",
+    "Kategorie:Männliche Gottheit"
+  ],
+  "intro_wikitext": "[[Datei:Ehecatl3.jpg|mini|Ehecatl im [[Codex Borbonicus]]]]\n[[Datei:Quetzalcoatl Ehecatl.jpg|mini|[[Quetzalcoatl]] mit den Attributen Ehecatls im [[Codex Borgia]]]]\n[[Datei:Templo de Ehécatl - Calixtlahuaca.JPG|mini|Rundpyramide von [[Calixtlahuaca]]]]\n'''Ehecatl''' war in der [[Liste der Aztekengötter|aztekischen Mythologie]] und den Mythologien anderer präkolumbianischer Kulturen Mittelamerikas eine besondere Erscheinungsform des Schöpfergottes [[Quetzalcoatl]], der anderen Ortes auch als Gott der Gelehrsamkeit bezeichnet wird<ref>George C. Vaillant: ''Die Azteken,'' Tafel 92</ref> und der den Dingen Leben einhauchen konnte.",
+  "segments": [
+    {
+      "id": "268801253-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Ehecatl''' war in der [[Liste der Aztekengötter|aztekischen Mythologie]] und den Mythologien anderer präkolumbianischer Kulturen Mittelamerikas eine besondere Erscheinungsform des Schöpfergottes [[Quetzalcoatl]], der anderen Ortes auch als Gott der Gelehrsamkeit bezeichnet wird<ref>George C. Vaillant: ''Die Azteken,'' Tafel 92</ref> und der den Dingen Leben einhauchen konnte.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268801253,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268801253-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Ehecatl war in der aztekischen Mythologie und den Mythologien anderer präkolumbianischer Kulturen Mittelamerikas eine besondere Erscheinungsform des Schöpfergottes Quetzalcoatl, der anderen Ortes auch als Gott der Gelehrsamkeit bezeichnet wird und der den Dingen Leben einhauchen konnte.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

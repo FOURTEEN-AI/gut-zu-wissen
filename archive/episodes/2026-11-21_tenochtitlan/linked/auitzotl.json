@@ -1,0 +1,61 @@
+{
+  "title": "Auítzotl",
+  "revid": 270209157,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-03T20:38:32Z",
+  "fetched_at": "2026-11-21T22:38:34Z",
+  "categories": [
+    "Kategorie:Aztekenherrscher",
+    "Kategorie:Familienmitglied der Tenōchca",
+    "Kategorie:Geboren im 15. Jahrhundert",
+    "Kategorie:Gestorben 1502",
+    "Kategorie:Herrscher (15. Jahrhundert)",
+    "Kategorie:Herrscher (16. Jahrhundert)",
+    "Kategorie:Mann",
+    "Kategorie:Wikipedia:GND fehlt 2025-03"
+  ],
+  "intro_wikitext": "{{Weiterleitungshinweis|Ahuitzotl|Zu dem gleichnamigen Fabelwesen siehe [[Ahuitzotl (Fabelwesen)]].}}\n[[Datei:Ahuitzotl.jpg|mini|Auítzotl im [[Codex Mendoza|Codex&nbsp;Mendoza]] (16.&nbsp;Jahrhundert)]]\n'''Auítzotl''' (auch '''Ahuitzotl''', aztekisch für ‚Wasserhund‘ {{nahS|aːˈwit͡sot͡ɬ  „Awisotl“}}; † [[1502]]) war Herrscher der [[Azteken]] von 1486 bis 1502. Er war der Bruder seiner Vorgänger [[Tízoc]] und [[Axayacatl]].",
+  "segments": [
+    {
+      "id": "270209157-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Auítzotl''' (auch '''Ahuitzotl''', aztekisch für ‚Wasserhund‘ {{nahS|aːˈwit͡sot͡ɬ  „Awisotl“}}; † [[1502]]) war Herrscher der [[Azteken]] von 1486 bis 1502.",
+      "plain": null
+    },
+    {
+      "id": "270209157-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er war der Bruder seiner Vorgänger [[Tízoc]] und [[Axayacatl]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270209157,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270209157-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Auítzotl (auch Ahuitzotl, aztekisch für ‚Wasserhund‘ Nahuatl aːˈwit͡sot͡ɬ „Awisotl“; † 1502) war Herrscher der Azteken von 1486 bis 1502.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270209157-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270209157-0000"
+        ],
+        "plain": "Er war der Bruder seiner Vorgänger Tízoc und Axayacatl.",
+        "context_plain": [
+          "Auítzotl (auch Ahuitzotl, aztekisch für ‚Wasserhund‘ Nahuatl aːˈwit͡sot͡ɬ „Awisotl“; † 1502) war Herrscher der Azteken von 1486 bis 1502."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}
