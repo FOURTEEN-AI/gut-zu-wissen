@@ -104,11 +104,15 @@ class FakeLlm:
         self.calls.append(user)
         if self.error:
             raise self.error
-        count = sum(1 for line in user.splitlines() if line[:1].isdigit() and ". Skript:" in line)
+        numbers = [
+            int(line.split(".", 1)[0])
+            for line in user.splitlines()
+            if line[:1].isdigit() and ". Skript:" in line
+        ]
         return {
             "decisions": [
                 {"index": n, "changes_statement": self.changes, "reason": "Begründung."}
-                for n in range(count)
+                for n in numbers
             ]
         }
 
@@ -266,9 +270,10 @@ def test_second_hearing_that_matches_clears_the_deviation(tmp_path):
     record = produce(turns(SCRIPT), tts, tmp_path, stt=stt, llm=llm)
     assert len(tts.calls) == 1 and len(stt.calls) == 2
     assert stt.calls[1] < stt.calls[0]  # only a stretch of the audio is heard again
+    assert llm.calls == []  # a cleared deviation does not go to the LLM
     (attempt,) = record.sections[0].attempts
     (d,) = attempt.deviations
-    assert (d.expected, d.heard, d.changes_statement) == ("hing dort", "hindert", True)
+    assert (d.expected, d.heard, d.changes_statement) == ("hing dort", "hindert", None)
     assert (d.heard_again, d.heard_again_matches) == ("Was hing dort eigentlich", True)
     assert (attempt.changes_statement, attempt.action) == (False, "accept")
 
@@ -286,10 +291,21 @@ def test_second_hearing_that_hears_the_same_leads_to_resynthesis(tmp_path):
     assert second.action == "accept" and len(tts.calls) == 2
 
 
-def test_harmless_deviation_is_not_heard_again(tmp_path):
-    stt = TimedStt("Was hing dort eigentlich an den Wänden der Gallerie?")
-    record = produce(turns(SCRIPT), FakeTts(), tmp_path, stt=stt, llm=FakeLlm(changes=False))
-    assert len(stt.calls) == 1 and record.sections[0].attempts[0].deviations[0].heard_again is None
+def test_only_deviations_the_second_hearing_confirms_go_to_the_llm(tmp_path):
+    script = "Was hing dort eigentlich an den Wänden der Galerie in New York?"
+    stt = TimedStt(
+        "Was hindert eigentlich an den Wänden der Gallerie in New York?",
+        "Was hing dort eigentlich an",  # first deviation: cleared
+        "Wänden der Gallerie in New",  # second deviation: heard the same
+    )
+    llm = FakeLlm(changes=False)
+    record = produce(turns(script), FakeTts(), tmp_path, stt=stt, llm=llm)
+    first, second = record.sections[0].attempts[0].deviations
+    assert (first.heard_again_matches, first.changes_statement) == (True, None)
+    assert (second.heard_again_matches, second.changes_statement) == (False, False)
+    (call,) = llm.calls
+    assert "1. Skript:" in call and "0. Skript:" not in call
+    assert record.sections[0].attempts[0].action == "accept"
 
 
 def test_only_the_affected_turn_is_synthesised_again(tmp_path):

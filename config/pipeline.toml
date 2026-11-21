@@ -26,8 +26,8 @@ beam_size = 5
 vad_filter = true
 condition_on_previous_text = false
 context_words = 6                   # script words before and after a deviation, shown to the LLM
-# Second hearing (decided 2026-11-21): a deviation that changes the statement is cut out of the
-# audio with this many script words on each side, plus the margin, and transcribed again.
+# Second hearing (decided 2026-11-21): every deviation is cut out of the audio with this many
+# script words on each side, plus the margin, and transcribed again before the LLM decides.
 # ASSUMPTION: values not measured yet; Whisper's word times are about 0.1-0.2 s exact.
 second_hearing_context_words = 4
 second_hearing_margin_seconds = 0.2

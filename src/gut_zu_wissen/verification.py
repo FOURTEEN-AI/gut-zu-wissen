@@ -16,12 +16,14 @@ deviations of a section go to the LLM judge model in one call; it decides per de
 the audio changes the statement ("im Zweifel verändert"). A deviation it leaves undecided counts
 as a change.
 
-Second hearing (decided 2026-11-21): Whisper mishears at random, so a deviation that changes the
-statement is heard once more before anything is resynthesised. The word times of the transcript
-locate the deviation in the audio (`script_times`, `hearing_window`); the window with a few script
-words on each side is cut out and transcribed again. If that transcript has no deviation at the
-place of the first one (`heard_again_matches`), the audio says what the script says and the
-deviation does not count. Only a deviation that remains leads to resynthesis (`retry_action`).
+Second hearing (decided 2026-11-21): Whisper mishears at random, so every deviation is heard once
+more before the LLM decides; a deviation the second hearing clears is not sent to the LLM. The
+word times of the transcript locate the deviation in the audio (`script_times`,
+`hearing_window`); the window with a few script words on each side is cut out and transcribed
+again. If that transcript has no deviation at the place of the first one
+(`heard_again_matches`), the audio says what the script says and the deviation does not count.
+Only a remaining deviation that the LLM finds to change the statement leads to resynthesis
+(`retry_action`).
 """
 
 from __future__ import annotations
@@ -484,8 +486,8 @@ def apply_decisions(deviations: Sequence[Deviation], answer: dict) -> None:
 
 
 def counts(d: Deviation) -> bool:
-    """A deviation changes the statement if the LLM did not clear it and the second hearing did
-    not hear the script."""
+    """A deviation changes the statement if the second hearing did not hear the script and the
+    LLM did not clear it (undecided counts)."""
     return d.changes_statement is not False and d.heard_again_matches is not True
 
 

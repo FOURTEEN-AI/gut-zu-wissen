@@ -6,9 +6,10 @@ pause between parts) and normalised to the target loudness with the true-peak li
 
 Verification (step 10): Whisper transcribes the raw section audio; the transcript is diffed
 against the section's script after normalisation; the LLM judge model decides per deviation
-whether it changes the statement. Each such deviation is heard a second time: Whisper's word times
-locate it, the stretch around it is cut out and transcribed again; if that hearing matches the
-script there, the deviation does not count (decided 2026-11-21). If one still counts, the section
+whether it changes the statement. Before that, each deviation is heard a second time: Whisper's
+word times locate it, the stretch around it is cut out and transcribed again; if that hearing
+matches the script there, the deviation does not count and does not go to the LLM (decided
+2026-11-21). If one still counts, the section
 is not synthesised again as a whole: only the turns holding the remaining deviations are
 (decided 2026-11-21, `splice.py`), and their new audio replaces the old between the quietest
 points at the turn borders. Each turn is synthesised again at most `audio_section_retries` times
@@ -398,35 +399,37 @@ def verify(
     lexicon: Sequence[Mapping],
     settings: Mapping,
 ) -> tuple[str, list[Deviation], list[Span | None] | None]:
-    """Transcript of the audio, its deviations from the turns' script (decided by the LLM and,
-    where they change the statement, heard a second time) and the time of each normalised script
-    word (`None` without word times). Raises `SttError`, `LlmError`."""
+    """Transcript of the audio, its deviations from the turns' script and the time of each
+    normalised script word (`None` without word times). Raises `SttError`, `LlmError`.
+
+    Every deviation is first heard a second time; only those the second hearing does not clear
+    go to the LLM (one call), which decides whether they change the statement.
+    """
     script = " ".join(text for _, text in section_turns)
     transcript = stt.transcribe(y, sr)
     expected = tokenize(script)
     heard = tokenize(canonicalize(transcript.text, script, lexicon))
     deviations = diff_tokens(expected, heard, settings["context_words"])
-    decide_deviations(decision_llm, section_turns, transcript.text, deviations)
-    if not transcript.words:  # no word times: nothing can be located
-        return transcript.text, deviations, None
-    times = script_times(expected, heard, token_times(heard, transcript.words))
-    duration = audio.duration(y, sr)
-    for d in deviations:
-        if d.changes_statement is False:
-            continue
-        first, last, t0, t1 = hearing_window(
-            times,
-            d.script_start,
-            d.script_end,
-            settings["second_hearing_context_words"],
-            duration,
-            settings["second_hearing_margin_seconds"],
-        )
-        again = stt.transcribe(y[round(t0 * sr) : round(t1 * sr)], sr)
-        d.heard_again = again.text
-        d.heard_again_matches = heard_again_matches(
-            expected[first:last], tokenize(canonicalize(again.text, script, lexicon)), first, d
-        )
+    times = None
+    if transcript.words:
+        times = script_times(expected, heard, token_times(heard, transcript.words))
+        duration = audio.duration(y, sr)
+        for d in deviations:
+            first, last, t0, t1 = hearing_window(
+                times,
+                d.script_start,
+                d.script_end,
+                settings["second_hearing_context_words"],
+                duration,
+                settings["second_hearing_margin_seconds"],
+            )
+            again = stt.transcribe(y[round(t0 * sr) : round(t1 * sr)], sr)
+            d.heard_again = again.text
+            d.heard_again_matches = heard_again_matches(
+                expected[first:last], tokenize(canonicalize(again.text, script, lexicon)), first, d
+            )
+    open_ = [d for d in deviations if d.heard_again_matches is not True]
+    decide_deviations(decision_llm, section_turns, transcript.text, open_)
     return transcript.text, deviations, times
 
 
