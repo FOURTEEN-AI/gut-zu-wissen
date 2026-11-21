@@ -49,13 +49,12 @@ def test_model_may_return_fewer_than_minimum():
     assert [f.segment_id for f in select_ranked(["1-0001"], [fact(0), fact(1)], 5)] == ["1-0001"]
 
 
-def test_rank_facts_sends_plain_text_and_context_and_range():
+def test_rank_facts_sends_plain_text_and_context():
     llm = FakeLlm(["1-0001", "1-0000"])
     out = rank_facts(llm, [fact(0), fact(1, ["Davor."])], 2, 3)
     assert [f.segment_id for f in out] == ["1-0001", "1-0000"]
     system, user = llm.calls[0]
-    assert "Gib die 3 überraschendsten Fakten zurück" in system
-    assert "Mindestens 2 Fakten" in system
+    assert "Ordne alle Fakten nach Überraschung" in system
     assert user == "[1-0000] Fakt 0.\n[1-0001] Fakt 1.\n  Kontext: Davor."
 
 
@@ -78,6 +77,17 @@ def test_no_model_call_below_two_candidates(count):
     assert llm.calls == []
 
 
+def test_select_ranked_complete_appends_unnamed_candidates_in_given_order():
+    facts = [fact(i) for i in range(4)]
+    chosen = select_ranked(["1-0002"], facts, 3, complete=True)
+    assert [f.segment_id for f in chosen] == ["1-0002", "1-0000", "1-0001"]
+
+
+def test_rank_facts_cut_is_deterministic_even_when_the_model_names_few():
+    out = rank_facts(FakeLlm(["1-0003"]), [fact(i) for i in range(4)], 2, 3)
+    assert [f.segment_id for f in out] == ["1-0003", "1-0000", "1-0001"]
+
+
 def test_rank_facts_cuts_answer_to_maximum():
     llm = FakeLlm([f"1-{i:04d}" for i in range(5)])
     out = rank_facts(llm, [fact(i) for i in range(5)], 2, 3)
@@ -86,19 +96,19 @@ def test_rank_facts_cuts_answer_to_maximum():
 
 def test_prompt_states_size_order_and_must_use_rule():
     system = " ".join(SYSTEM_PROMPT.format(minimum=20, maximum=40).split())
-    assert "Gib die 40 überraschendsten Fakten zurück" in system
-    assert "lass die am wenigsten überraschenden und die Dopplungen weg" in system
-    assert "Mindestens 20 Fakten" in system
+    assert "Ordne alle Fakten nach Überraschung" in system
+    assert "das Abschneiden übernimmt das Programm" in system
+    assert "steht der überraschendere weit vor dem anderen" in system
     assert "der überraschendste zuerst" in system
     assert "die obersten Fakten muss das Gespräch verwenden" in system
 
 
 def test_offer_size_is_the_rounded_up_share_within_minimum_and_extracted():
-    assert offer_size(131, 0.75, 20) == 99
-    assert offer_size(100, 0.75, 20) == 75
-    assert offer_size(24, 0.75, 20) == 20  # the minimum wins over 18
-    assert offer_size(12, 0.75, 20) == 12  # never more than extracted
-    assert offer_size(0, 0.75, 20) == 0
+    assert offer_size(131, 0.5, 20) == 66
+    assert offer_size(100, 0.5, 20) == 50
+    assert offer_size(30, 0.5, 20) == 20  # the minimum wins over 15
+    assert offer_size(12, 0.5, 20) == 12  # never more than extracted
+    assert offer_size(0, 0.5, 20) == 0
 
 
 def test_must_use_count_is_the_rounded_up_share():

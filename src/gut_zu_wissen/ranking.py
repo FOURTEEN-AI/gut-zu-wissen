@@ -30,12 +30,12 @@ Du bekommst Fakten aus einem Wikipedia-Artikel, jeweils mit einer ID in eckigen 
 gegebenenfalls einem Kontext, der nur zum Verstehen dient. Wähle die überraschendsten Fakten für \
 einen Podcast aus und ordne sie nach Überraschung: der überraschendste zuerst.
 
-Gib die {maximum} überraschendsten Fakten zurück, wenn es so viele gibt; lass die am wenigsten \
-überraschenden und die Dopplungen weg. Mindestens {minimum} Fakten, wenn es so viele gibt.
+Ordne alle Fakten nach Überraschung: der überraschendste zuerst. Gib jeden Fakt zurück; \
+weglassen musst du nichts, das Abschneiden übernimmt das Programm.
 
-Das einzige Kriterium ist Überraschung: etwas, das ein Laie nicht erwartet. Wähle nicht zwei \
-Fakten, die im Kern dasselbe sagen; nimm dann den überraschenderen. Die Reihenfolge ist wichtig: \
-die obersten Fakten muss das Gespräch verwenden.
+Das einzige Kriterium ist Überraschung: etwas, das ein Laie nicht erwartet. Sagen zwei Fakten im \
+Kern dasselbe, steht der überraschendere weit vor dem anderen. Die Reihenfolge ist wichtig: die \
+obersten Fakten muss das Gespräch verwenden.
 
 Antworte mit JSON im vorgegebenen Schema. Verwende nur IDs aus der Liste, jede höchstens einmal."""
 
@@ -98,15 +98,22 @@ def format_facts(facts: Sequence[Fact], sources: Mapping[str, str] | None = None
 
 
 def select_ranked(
-    answer_ids: Iterable[object], candidates: Sequence[Fact], maximum: int
+    answer_ids: Iterable[object],
+    candidates: Sequence[Fact],
+    maximum: int,
+    complete: bool = False,
 ) -> list[Fact]:
     """The model's order, cut to `maximum`. Unknown IDs and repeats are dropped; fewer than the
-    minimum is allowed (`offer_count` makes it visible)."""
+    minimum is allowed (`offer_count` makes it visible). With `complete`, candidates the model
+    did not name follow in their given order, so the cut, not the model, decides what is left
+    out (D8)."""
     by_id = {f.segment_id: f for f in candidates}
     chosen: list[Fact] = []
     for fid in answer_ids:
         if isinstance(fid, str) and fid in by_id and by_id[fid] not in chosen:
             chosen.append(by_id[fid])
+    if complete:
+        chosen += [f for f in candidates if f not in chosen]
     return chosen[:maximum]
 
 
@@ -188,7 +195,7 @@ def rank_facts(
         format_facts(candidates),
         RANKING_SCHEMA,
     )
-    return select_ranked(answer.get("ranked_ids", []), candidates, maximum)
+    return select_ranked(answer.get("ranked_ids", []), candidates, maximum, complete=True)
 
 
 def rank_linked_facts(

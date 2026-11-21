@@ -76,7 +76,7 @@ stt = "large-v3"                    # Whisper model (faster-whisper), spike S5
 # rounded up, at least `main_facts_min` if extraction yields that many. Fewer than min is allowed
 # (D5 gate). The top `must_use_share` of the ranking, rounded up, must be used in the dialog.
 main_facts_min = 20
-main_offer_share = 0.75
+main_offer_share = 0.5
 must_use_share = 0.05
 linked_intro_facts_min = 6
 linked_intro_facts_max = 12

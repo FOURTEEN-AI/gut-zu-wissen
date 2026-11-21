@@ -24,7 +24,7 @@ flowchart TD
     GP -- nein --> S[Segmentierung SoMaJo, Markup maskiert]
     S --> X[Extraktion pro Abschnitt]
     X --> G1{Gate: Segment-Regeln}
-    G1 --> R[Ranking nach Überraschung: obere 75 % (D8)]
+    G1 --> R[Ranking nach Überraschung: obere 50 % (D8)]
     R --> L[Einleitungen verlinkter Artikel]
     L --> X2[Extraktion + Gate + Ranking: 6–12 Fakten]
     S --> E[Einordnung: erste Einleitungssätze + Gate, bis 2]
@@ -80,7 +80,7 @@ flowchart TD
 ## Ranking und Kontingent
 
 - **Kriterium:** nur Überraschung (LLM, probabilistisch); bei verlinkten Einleitungen nur unter Fakten, die direkt mit dem Hauptthema verbunden sind.
-- **Kontingent (D8, 2026-11-21):** Hauptartikel: die oberen `main_offer_share` (75 %) der extrahierten Fakten, aufgerundet, mindestens `main_facts_min` (20, sofern die Extraktion so viele liefert); das Ranking ordnet, dedupliziert und lässt nur die am wenigsten überraschenden und doppelten Fakten weg. 6–12 Fakten verlinkte Einleitungen (eigenes Ranking, nur Fakten direkt mit dem Hauptthema verbunden: über das Hauptthema selbst oder seine direkte Beziehung zum verlinkten Gegenstand, nicht über den verlinkten Gegenstand allein). Liefert die Extraktion weniger als das Minimum, wird angeboten, was da ist. Angebot, keine Pflicht, mit Ausnahme der obersten `must_use_share` (5 %, aufgerundet) des Hauptartikel-Rankings (Gate Top-Fakten, Dialog).
+- **Kontingent (D8, 2026-11-21):** Hauptartikel: die oberen `main_offer_share` (50 %) der extrahierten Fakten, aufgerundet, mindestens `main_facts_min` (20, sofern die Extraktion so viele liefert); das LLM ordnet alle Fakten nach Überraschung (Dopplungen weit hinter dem überraschenderen), das Programm schneidet deterministisch ab; vom Modell nicht genannte Fakten folgen am Ende in Artikelreihenfolge. 6–12 Fakten verlinkte Einleitungen (eigenes Ranking, nur Fakten direkt mit dem Hauptthema verbunden: über das Hauptthema selbst oder seine direkte Beziehung zum verlinkten Gegenstand, nicht über den verlinkten Gegenstand allein). Liefert die Extraktion weniger als das Minimum, wird angeboten, was da ist. Angebot, keine Pflicht, mit Ausnahme der obersten `must_use_share` (5 %, aufgerundet) des Hauptartikel-Rankings (Gate Top-Fakten, Dialog).
 - **Einordnung:** die ersten Sätze der Einleitung des Hauptartikels (Text vor der ersten Überschrift), in Artikelreihenfolge, bis zu `einordnung_facts_max` (2), werden immer angeboten, außerhalb des Rankings und des Kontingents. Nur die deterministischen Fakt-Gates (eindeutig, Mindestwörter, vollständiger Satz); ein Satz, der eines verfehlt, wird übersprungen. Keine Infobox-Zeilen. Der erste Prosasatz der Einleitung (meist die Definition) ist immer Einordnung Nr. 1, sofern er die Gates besteht (Entscheidung 2026-11-20); ihn schließt D6 nie aus. Für die übrigen gilt der Ausschluss nach D6 wie bei anderen Fakten. Einordnungssätze werden nie zusätzlich gerankt oder als Hauptfakten angeboten; ein Segment, das auch extrahiert wurde, steht nur als Einordnung im Angebot. Im Angebot zuerst, mit Vermerk „(Einordnung)“; das Gespräch beginnt mit einer kurzen Einordnung daraus (was, wann, wo).
 - **Schätzung:** 15 Minuten ≈ 2.000–2.300 Wörter, ein Fakt ≈ 100–150 Wörter → 15–20 Fakten.
 - **Nachjustieren:** nach ersten Folgen anhand „verwendete Fakten pro Minute“.
