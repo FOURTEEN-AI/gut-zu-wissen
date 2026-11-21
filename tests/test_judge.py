@@ -192,3 +192,34 @@ def test_completeness_question_is_the_one_measured_on_real_turns():
     records = json.loads(COMPLETENESS_RUN.read_text())
     measured = {json.dumps(r["requests"][0]["request"]["questions"]["old"]) for r in records}
     assert measured == {json.dumps(completeness_question())}
+
+
+# ---- reference and anticipation (issues #8, #15)
+
+
+def test_llm_judge_sees_previous_turn_before_the_turn():
+    question = Turn(0, "Felix", "Und wie alt war das Getriebe?", [], [])
+    text = format_judge_input(turn(1), FACTS, previous=question)
+    assert text.startswith("Vorheriger Redebeitrag (Felix):\nUnd wie alt war das Getriebe?\n\n")
+    assert text.index("Redebeitrag (Lena):") < text.index("Zitierte Fakten:")
+
+
+@pytest.mark.parametrize("ps", [{"aussage_0": 0.03}, {"aussage_0": 0.6}])
+def test_both_llm_judge_modes_get_the_previous_turn(ps):
+    llm, previous = FakeLlm(), Turn(0, "Felix", "VORHER?", [], [])
+    judge_turn(FakeJev({**ps, COMPLETENESS_KEY: 0.99}), llm, turn(1), previous, FACTS, T)
+    assert "Vorheriger Redebeitrag (Felix):\nVORHER?" in llm.calls[0][1]
+
+
+def test_transient_error_verdict_gets_the_previous_turn():
+    llm = FakeLlm()
+    judge_turn(FakeJev(error=JevTransientError("y")), llm, turn(1), turn(0), FACTS, T)
+    assert "Vorheriger Redebeitrag (Lena):" in llm.calls[0][1]
+
+
+def test_rubric_covers_references_answers_and_anticipating_questions():
+    for prompt in (VERDICT_PROMPT, REASON_PROMPT):
+        assert "Bezugswort" in prompt
+        assert "anderen Gegenstand handelt als die Frage" in prompt
+        assert "Legt sie eine Antwort nahe" in prompt
+        assert "er ist kein Beleg" in prompt
