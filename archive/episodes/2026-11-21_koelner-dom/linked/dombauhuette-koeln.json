@@ -1,0 +1,91 @@
+{
+  "title": "Dombauhütte Köln",
+  "revid": 270158167,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-01T21:51:09Z",
+  "fetched_at": "2026-11-21T20:30:33Z",
+  "categories": [
+    "Kategorie:Kölner Dom",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2023-12",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2024-11",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2026-09",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Botmarkierungen 2023-12",
+    "Kategorie:Wikipedia:Weblink offline IABot"
+  ],
+  "intro_wikitext": "[[Datei:Dombauhütte Köln.jpg|mini|Tradition seit 1248: Die Bauhütte neben dem Domchor (Foto: 2019)]]\n\nDie '''Dombauhütte Köln''' führt mit rund 100 Handwerkern fortlaufend Renovierungsarbeiten am [[Kölner Dom]] durch und hält das Gebäude dadurch instand; sie setzt damit die Tradition der mittelalterlichen [[Bauhütte|Dombauhütte]] fort.<ref>[http://www.dombau-koeln.de/index.php?id=26&ssl=0 dombau-koeln.de - Info.]</ref> Sie wird vom [[Kölner Dombaumeister|Dombaumeister]] geleitet und ist heute als Teil der [[Kölner Dombauverwaltung|Dombauverwaltung]] dem [[Kölner Domkapitel|Metropolitan-Domkapitel]] unterstellt. Die Hütte, die ursprünglich Mitte des 13. Jahrhunderts gegründet wurde, um den Dom zu errichten,<ref>{{Webarchiv|url=http://www.dombau-koeln.de/index.php?id=27&ssl=0 |wayback=20160304102354 |text=dombau-koeln.de: Dombauhütte Geschichte. |archiv-bot=2023-12-13 18:54:22 InternetArchiveBot }}</ref> gehörte im [[Mittelalter]] zu den angesehensten gotischen Bauhütten in Europa.<ref>Johann Josef Böker: ''Michael von Savoyen und der Fassadenriss des Kölner Domes.'' Köln 2018, ISBN 978-3-412-50098-6, S. 109f.</ref> Heute ist die Kölner Dombauhütte die größte Deutschlands und eine der größten in Europa.<ref>{{Webarchiv|url=https://www.focus.de/finanzen/karriere/perspektiven/berufe/tid-8663/steinmetz_aid_234722.html |wayback=20190926210923 |text=focus.de - Bildhauer und Steinmetz. |archiv-bot=2026-09-01 21:51:09 InternetArchiveBot }}</ref>",
+  "segments": [
+    {
+      "id": "270158167-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Dombauhütte Köln''' führt mit rund 100 Handwerkern fortlaufend Renovierungsarbeiten am [[Kölner Dom]] durch und hält das Gebäude dadurch instand; sie setzt damit die Tradition der mittelalterlichen [[Bauhütte|Dombauhütte]] fort.<ref>[http://www.dombau-koeln.de/index.php?id=26&ssl=0 dombau-koeln.de - Info.]</ref>",
+      "plain": null
+    },
+    {
+      "id": "270158167-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie wird vom [[Kölner Dombaumeister|Dombaumeister]] geleitet und ist heute als Teil der [[Kölner Dombauverwaltung|Dombauverwaltung]] dem [[Kölner Domkapitel|Metropolitan-Domkapitel]] unterstellt.",
+      "plain": null
+    },
+    {
+      "id": "270158167-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Hütte, die ursprünglich Mitte des 13. Jahrhunderts gegründet wurde, um den Dom zu errichten,<ref>{{Webarchiv|url=http://www.dombau-koeln.de/index.php?id=27&ssl=0 |wayback=20160304102354 |text=dombau-koeln.de: Dombauhütte Geschichte. |archiv-bot=2023-12-13 18:54:22 InternetArchiveBot }}</ref> gehörte im [[Mittelalter]] zu den angesehensten gotischen Bauhütten in Europa.<ref>Johann Josef Böker: ''Michael von Savoyen und der Fassadenriss des Kölner Domes.'' Köln 2018, ISBN 978-3-412-50098-6, S. 109f.</ref>",
+      "plain": null
+    },
+    {
+      "id": "270158167-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Heute ist die Kölner Dombauhütte die größte Deutschlands und eine der größten in Europa.<ref>{{Webarchiv|url=https://www.focus.de/finanzen/karriere/perspektiven/berufe/tid-8663/steinmetz_aid_234722.html |wayback=20190926210923 |text=focus.de - Bildhauer und Steinmetz. |archiv-bot=2026-09-01 21:51:09 InternetArchiveBot }}</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270158167,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270158167-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Dombauhütte Köln führt mit rund 100 Handwerkern fortlaufend Renovierungsarbeiten am Kölner Dom durch und hält das Gebäude dadurch instand; sie setzt damit die Tradition der mittelalterlichen Dombauhütte fort.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270158167-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Sie wird vom Dombaumeister geleitet und ist heute als Teil der Dombauverwaltung dem Metropolitan-Domkapitel unterstellt.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270158167-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270158167-0000",
+          "270158167-0001"
+        ],
+        "plain": "Die Hütte, die ursprünglich Mitte des 13. Jahrhunderts gegründet wurde, um den Dom zu errichten, gehörte im Mittelalter zu den angesehensten gotischen Bauhütten in Europa.",
+        "context_plain": [
+          "Die Dombauhütte Köln führt mit rund 100 Handwerkern fortlaufend Renovierungsarbeiten am Kölner Dom durch und hält das Gebäude dadurch instand; sie setzt damit die Tradition der mittelalterlichen Dombauhütte fort.",
+          "Sie wird vom Dombaumeister geleitet und ist heute als Teil der Dombauverwaltung dem Metropolitan-Domkapitel unterstellt."
+        ]
+      },
+      {
+        "segment_id": "270158167-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Heute ist die Kölner Dombauhütte die größte Deutschlands und eine der größten in Europa.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

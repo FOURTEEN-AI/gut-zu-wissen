@@ -1,0 +1,99 @@
+{
+  "title": "Kölner Domfenster",
+  "revid": 268914842,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-18T07:16:48Z",
+  "fetched_at": "2026-11-21T20:30:33Z",
+  "categories": [
+    "Kategorie:Glasmalerei (Christentum)",
+    "Kategorie:Glasmalerei in Köln",
+    "Kategorie:Liste (Kunstwerke)",
+    "Kategorie:Liste (christliche Kunst)",
+    "Kategorie:Weltkulturerbe Kölner Dom",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Botmarkierungen 2022-03",
+    "Kategorie:Wikipedia:Weblink offline",
+    "Kategorie:Wikipedia:Weblink offline IABot"
+  ],
+  "intro_wikitext": "[[Datei:Köln Dom mosaic window - Ethereal Light.jpg|mini|Ungefähr 4900 Farben: Das Richter-Fenster im Kölner Dom]]\nDie '''Kölner Domfenster''' erzeugen im [[Kölner Dom|Dom]] ein farbiges Licht, das im [[Mittelalter]] als wahrnehmbarer Eindruck der Allmacht Gottes galt.<ref name=Planet-Wissen>[https://www.planet-wissen.de/kultur/nordrhein_westfalen/koelner_dom/pwieglasmalerei100.html www.planet-wissen.de Kölner Dom Glasmalerei].</ref> Im Geiste der [[neuplatonisch]]-[[scholastisch]]en Lichtmystik war das [[Gotik|gotische]] Bausystem des Doms darauf ausgerichtet, möglichst große Fensterflächen zu schaffen, um den angestrebten Farbklang zu erzielen. In [[Köln]] erzeugten die [[Kölner Dombaumeister|Baumeister]] im 14. Jahrhundert eine pastellfarbene Lichtwirkung, die unter den mittelalterlichen Kirchen einzigartig blieb. Sie ist im Domchor bis heute erhalten. Insgesamt hat der Dom rund 10.000 m² Fensterfläche, von der rund 1.500 m² aus dem Mittelalter stammt.<ref name=Herbert-Rode-56>Herbert Rode: ''Der Kölner Dom, Glasmalereien in Deutschlands größter Kathedrale.'' Augsburg 1968, S. 56.</ref>",
+  "segments": [
+    {
+      "id": "268914842-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Kölner Domfenster''' erzeugen im [[Kölner Dom|Dom]] ein farbiges Licht, das im [[Mittelalter]] als wahrnehmbarer Eindruck der Allmacht Gottes galt.<ref name=Planet-Wissen>[https://www.planet-wissen.de/kultur/nordrhein_westfalen/koelner_dom/pwieglasmalerei100.html www.planet-wissen.de Kölner Dom Glasmalerei].</ref>",
+      "plain": null
+    },
+    {
+      "id": "268914842-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Geiste der [[neuplatonisch]]-[[scholastisch]]en Lichtmystik war das [[Gotik|gotische]] Bausystem des Doms darauf ausgerichtet, möglichst große Fensterflächen zu schaffen, um den angestrebten Farbklang zu erzielen.",
+      "plain": null
+    },
+    {
+      "id": "268914842-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "In [[Köln]] erzeugten die [[Kölner Dombaumeister|Baumeister]] im 14. Jahrhundert eine pastellfarbene Lichtwirkung, die unter den mittelalterlichen Kirchen einzigartig blieb.",
+      "plain": null
+    },
+    {
+      "id": "268914842-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie ist im Domchor bis heute erhalten.",
+      "plain": null
+    },
+    {
+      "id": "268914842-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Insgesamt hat der Dom rund 10.000 m² Fensterfläche, von der rund 1.500 m² aus dem Mittelalter stammt.<ref name=Herbert-Rode-56>Herbert Rode: ''Der Kölner Dom, Glasmalereien in Deutschlands größter Kathedrale.'' Augsburg 1968, S. 56.</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268914842,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268914842-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Kölner Domfenster erzeugen im Dom ein farbiges Licht, das im Mittelalter als wahrnehmbarer Eindruck der Allmacht Gottes galt.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268914842-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Im Geiste der neuplatonisch-scholastischen Lichtmystik war das gotische Bausystem des Doms darauf ausgerichtet, möglichst große Fensterflächen zu schaffen, um den angestrebten Farbklang zu erzielen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268914842-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "In Köln erzeugten die Baumeister im 14. Jahrhundert eine pastellfarbene Lichtwirkung, die unter den mittelalterlichen Kirchen einzigartig blieb.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268914842-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Insgesamt hat der Dom rund 10.000 m² Fensterfläche, von der rund 1.500 m² aus dem Mittelalter stammt.",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "268914842-0003",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

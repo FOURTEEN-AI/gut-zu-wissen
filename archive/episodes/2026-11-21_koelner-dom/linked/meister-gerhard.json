@@ -1,0 +1,62 @@
+{
+  "title": "Meister Gerhard",
+  "revid": 271912613,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-05T16:12:46Z",
+  "fetched_at": "2026-11-21T20:30:33Z",
+  "categories": [
+    "Kategorie:Architekt (Deutschland)",
+    "Kategorie:Baumeister der Gotik",
+    "Kategorie:Geboren im 12. oder 13. Jahrhundert",
+    "Kategorie:Gestorben im 13. Jahrhundert",
+    "Kategorie:Kölner Dombaumeister",
+    "Kategorie:Mann",
+    "Kategorie:Walhalla",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Botmarkierungen 2022-03",
+    "Kategorie:Wikipedia:Weblink offline IABot"
+  ],
+  "intro_wikitext": "[[Datei:Koelner Dom Meister Gerhard.jpg|mini|Meister Gerhard: Steinkopf über der Achskapelle gilt als Darstellung des Baumeisters<ref>Arnold Wolff: Chronologie der ersten Bauzeit des Kölner Domes 1248–1277, Diss. Köln 1968, S. 228.</ref>]]\n'''Meister Gerhard''' (* um 1210/1215; † 24. April vor 1271 in [[Köln]];<ref>Manfred Huiskes: Die Dombaumeister, in: Joachim Deeters et al. (Hrsg.): Ad Summum 1248, Der gotische Dom im Mittelalter, Ausstellung des Historischen Archivs der Stadt Köln aus Anlaß der Grundsteinlegung des Kölner Doms vor 750 Jahren, Köln 1998, S. 69.</ref> latinisiert als ''Magister Gerardus'') war der erste [[Kölner Dombaumeister|Dombaumeister]] des [[Kölner Dom]]s. Von Gerhard stammt der Grundrissplan des [[Gotik|gotischen]] Kölner Domchors.",
+  "segments": [
+    {
+      "id": "271912613-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Meister Gerhard''' (* um 1210/1215; † 24. April vor 1271 in [[Köln]];<ref>Manfred Huiskes: Die Dombaumeister, in: Joachim Deeters et al. (Hrsg.): Ad Summum 1248, Der gotische Dom im Mittelalter, Ausstellung des Historischen Archivs der Stadt Köln aus Anlaß der Grundsteinlegung des Kölner Doms vor 750 Jahren, Köln 1998, S. 69.</ref> latinisiert als ''Magister Gerardus'') war der erste [[Kölner Dombaumeister|Dombaumeister]] des [[Kölner Dom]]s.",
+      "plain": null
+    },
+    {
+      "id": "271912613-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Von Gerhard stammt der Grundrissplan des [[Gotik|gotischen]] Kölner Domchors.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271912613,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271912613-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Meister Gerhard (* um 1210/1215; † 24. April vor 1271 in Köln; latinisiert als Magister Gerardus) war der erste Dombaumeister des Kölner Doms.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271912613-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271912613-0000"
+        ],
+        "plain": "Von Gerhard stammt der Grundrissplan des gotischen Kölner Domchors.",
+        "context_plain": [
+          "Meister Gerhard (* um 1210/1215; † 24. April vor 1271 in Köln; latinisiert als Magister Gerardus) war der erste Dombaumeister des Kölner Doms."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

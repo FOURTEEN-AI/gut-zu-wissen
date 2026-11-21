@@ -1,0 +1,112 @@
+{
+  "title": "Kölner Domplombe",
+  "revid": 266712778,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-05-03T19:42:13Z",
+  "fetched_at": "2026-11-21T20:30:33Z",
+  "categories": [
+    "Kategorie:Köln im Nationalsozialismus",
+    "Kategorie:Kölner Dom"
+  ],
+  "intro_wikitext": "[[Datei:Koelner Dom Domplombe 1963.jpg|mini|20.000 Ziegelsteine: Domplombe 1943–2004]]\n\nDie sogenannte '''Kölner Domplombe''' war ein unverkleidetes [[Mauerwerk]] aus Ziegeln, mit dem ein statisch kritischer Bombenschaden am Nordturm des [[Kölner Dom]]es verschlossen wurde. Im November 1943 hatte eine [[Fliegerbombe]] den [[Stützpfeiler]] so stark beschädigt, dass die Stabilität des Turmes gefährdet war. Der Krater wurde bis Frühjahr 1944 mit Ziegelsteinen verschlossen, die über 60 Jahre lang am Nordturm sichtbar blieben. Als letzter großer Kriegsschaden wurde die Plombe 1995 bis 2005 repariert und mit Werkstein verblendet. Einige Experten hatten dafür plädiert, sie als Mahnmal gegen den Krieg unverkleidet zu lassen.<ref>Barbara Schock-Werner: ''45. Dombaubericht Oktober 2003 – September 2004.'' S. 9ff.</ref>",
+  "segments": [
+    {
+      "id": "266712778-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die sogenannte '''Kölner Domplombe''' war ein unverkleidetes [[Mauerwerk]] aus Ziegeln, mit dem ein statisch kritischer Bombenschaden am Nordturm des [[Kölner Dom]]es verschlossen wurde.",
+      "plain": null
+    },
+    {
+      "id": "266712778-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im November 1943 hatte eine [[Fliegerbombe]] den [[Stützpfeiler]] so stark beschädigt, dass die Stabilität des Turmes gefährdet war.",
+      "plain": null
+    },
+    {
+      "id": "266712778-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Krater wurde bis Frühjahr 1944 mit Ziegelsteinen verschlossen, die über 60 Jahre lang am Nordturm sichtbar blieben.",
+      "plain": null
+    },
+    {
+      "id": "266712778-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als letzter großer Kriegsschaden wurde die Plombe 1995 bis 2005 repariert und mit Werkstein verblendet.",
+      "plain": null
+    },
+    {
+      "id": "266712778-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Einige Experten hatten dafür plädiert, sie als Mahnmal gegen den Krieg unverkleidet zu lassen.<ref>Barbara Schock-Werner: ''45. Dombaubericht Oktober 2003 – September 2004.'' S. 9ff.</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 266712778,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "266712778-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die sogenannte Kölner Domplombe war ein unverkleidetes Mauerwerk aus Ziegeln, mit dem ein statisch kritischer Bombenschaden am Nordturm des Kölner Domes verschlossen wurde.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "266712778-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "266712778-0000"
+        ],
+        "plain": "Im November 1943 hatte eine Fliegerbombe den Stützpfeiler so stark beschädigt, dass die Stabilität des Turmes gefährdet war.",
+        "context_plain": [
+          "Die sogenannte Kölner Domplombe war ein unverkleidetes Mauerwerk aus Ziegeln, mit dem ein statisch kritischer Bombenschaden am Nordturm des Kölner Domes verschlossen wurde."
+        ]
+      },
+      {
+        "segment_id": "266712778-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "266712778-0001"
+        ],
+        "plain": "Der Krater wurde bis Frühjahr 1944 mit Ziegelsteinen verschlossen, die über 60 Jahre lang am Nordturm sichtbar blieben.",
+        "context_plain": [
+          "Im November 1943 hatte eine Fliegerbombe den Stützpfeiler so stark beschädigt, dass die Stabilität des Turmes gefährdet war."
+        ]
+      },
+      {
+        "segment_id": "266712778-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "266712778-0002"
+        ],
+        "plain": "Als letzter großer Kriegsschaden wurde die Plombe 1995 bis 2005 repariert und mit Werkstein verblendet.",
+        "context_plain": [
+          "Der Krater wurde bis Frühjahr 1944 mit Ziegelsteinen verschlossen, die über 60 Jahre lang am Nordturm sichtbar blieben."
+        ]
+      },
+      {
+        "segment_id": "266712778-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "266712778-0003"
+        ],
+        "plain": "Einige Experten hatten dafür plädiert, sie als Mahnmal gegen den Krieg unverkleidet zu lassen.",
+        "context_plain": [
+          "Als letzter großer Kriegsschaden wurde die Plombe 1995 bis 2005 repariert und mit Werkstein verblendet."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

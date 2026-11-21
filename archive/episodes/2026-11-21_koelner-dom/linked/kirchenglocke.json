@@ -1,0 +1,90 @@
+{
+  "title": "Kirchenglocke",
+  "revid": 272194916,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-15T20:00:43Z",
+  "fetched_at": "2026-11-21T20:30:33Z",
+  "categories": [
+    "Kategorie:Akustische Telegrafie",
+    "Kategorie:Glockentyp",
+    "Kategorie:Kirchenmusik",
+    "Kategorie:MediaWiki:Gadget/annotationPair",
+    "Kategorie:MediaWiki:Gadget/templateGallery",
+    "Kategorie:Sakralgegenstand (Christentum)",
+    "Kategorie:Schlagidiophon",
+    "Kategorie:Wikipedia:Artikel mit Video",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Botmarkierungen 2025-12",
+    "Kategorie:Wikipedia:Seite mit Notensatz",
+    "Kategorie:Wikipedia:Weblink offline IABot"
+  ],
+  "intro_wikitext": "[[Datei:Poppenreuth-glocke-1695.jpg|mini|Bronzeglocke aus der Barockzeit (Gussjahr: 1694)]]\n[[Datei:Geluid van de kerkklok van Aldeboarn - Church bell ringing in Aldeboarn, the Netherlands, 4 June 2022.oga|mini|Läuten der Kirchenglocke von Aldeboarn, [[Provinz Friesland|Friesland]], Niederlande, Juni 2022.]]\n[[Datei:Bell of 2005Auferstehungskirche at Köln-Sürth (Cologne).jpg|mini|Moderne Bronzeglocke (Gussjahr: 2005)]]\n\nDie '''Kirchenglocke''' ist eine große, meist in einem [[Kirchturm]] aufgehängte [[Glocke]]. Sie ist der Schwingungsträger der Läuteanlage, zu der noch die Läutemaschine und der [[Glockenstuhl]] gehören. Die gesamte Läuteanlage befindet sich in der Glockenstube. Die meist aus [[Bronze]], selten auch aus [[Gusseisen|Eisen]] gegossene Glocke hat die Form eines [[Rotationskörper]]s, das heißt, sie besitzt [[Symmetrie (Geometrie)#Rotationssymmetrie / Drehsymmetrie|Rotationssymmetrie]] um ihre Mittelachse.\n\nEin aus mehreren Glocken bestehendes Turmglockenspiel ([[Carillon]]) ist ein automatisch oder manuell über ein Hebelsystem gespieltes [[Musikinstrument]], das es auch außerhalb von Kirchen gibt.<ref>vgl. z.&nbsp;B. [https://glockenspieler.de/carillons-in-deutschland Carillons in Deutschland]</ref>",
+  "segments": [
+    {
+      "id": "272194916-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Kirchenglocke''' ist eine große, meist in einem [[Kirchturm]] aufgehängte [[Glocke]].",
+      "plain": null
+    },
+    {
+      "id": "272194916-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie ist der Schwingungsträger der Läuteanlage, zu der noch die Läutemaschine und der [[Glockenstuhl]] gehören.",
+      "plain": null
+    },
+    {
+      "id": "272194916-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die gesamte Läuteanlage befindet sich in der Glockenstube.",
+      "plain": null
+    },
+    {
+      "id": "272194916-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die meist aus [[Bronze]], selten auch aus [[Gusseisen|Eisen]] gegossene Glocke hat die Form eines [[Rotationskörper]]s, das heißt, sie besitzt [[Symmetrie (Geometrie)#Rotationssymmetrie / Drehsymmetrie|Rotationssymmetrie]] um ihre Mittelachse.",
+      "plain": null
+    },
+    {
+      "id": "272194916-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein aus mehreren Glocken bestehendes Turmglockenspiel ([[Carillon]]) ist ein automatisch oder manuell über ein Hebelsystem gespieltes [[Musikinstrument]], das es auch außerhalb von Kirchen gibt.<ref>vgl. z.&nbsp;B. [https://glockenspieler.de/carillons-in-deutschland Carillons in Deutschland]</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272194916,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272194916-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272194916-0000"
+        ],
+        "plain": "Sie ist der Schwingungsträger der Läuteanlage, zu der noch die Läutemaschine und der Glockenstuhl gehören.",
+        "context_plain": [
+          "Die Kirchenglocke ist eine große, meist in einem Kirchturm aufgehängte Glocke."
+        ]
+      },
+      {
+        "segment_id": "272194916-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Ein aus mehreren Glocken bestehendes Turmglockenspiel (Carillon) ist ein automatisch oder manuell über ein Hebelsystem gespieltes Musikinstrument, das es auch außerhalb von Kirchen gibt.",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "272194916-0003",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

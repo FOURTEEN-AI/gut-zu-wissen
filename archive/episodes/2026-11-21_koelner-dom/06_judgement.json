@@ -1,0 +1,1395 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Name \"Kölner Dom\", offizieller Name \"Hohe Domkirche zu Köln\", römisch-katholische Kirche in Köln unter dem Patrozinium des Apostels Petrus (0010) sowie Kathedrale des Erzbistums Köln und Metropolitankirche der Kirchenprovinz Köln (0011). \"Er\" in 0011 ist durch den Kontext und die Nennung des Doms im Redebeitrag eindeutig aufgelöst. Die Antwort auf Felix' offene Frage nach dem Thema (\"Um den Kölner Dom\") ist eine Überleitung. Es gibt keine Fragen, keine zusätzlichen Angaben und keine unbelegten Behauptungen."
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine offene Nachfrage. Die einzige Prämisse, dass der Kölner Dom eine katholische Kirche ist, folgt aus dem Fakt-Satz (römisch-katholische Kirche in Köln). \"Dieser katholischen Kirche\" bezieht sich eindeutig auf den Kölner Dom aus Lenas vorherigem Redebeitrag. Die Frage legt keine Antwort nahe und enthält keine zusätzliche Behauptung."
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.46
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Fakt-IDs und keine Behauptung. \"Das überrascht mich\" ist ein Gefühl im Moment, und \"Wie groß ist der Dom eigentlich?\" ist eine offene Nachfrage ohne nahegelegte Antwort und ohne Prämisse. Beides gilt als belegfreie Reaktion."
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine offene Nachfrage ohne Fakt-IDs. Sie fragt nur, ob es eine Einschätzung zur Bauweise gibt, und legt keine Antwort, Wertung oder Einzelheit nahe. Sie enthält keine Behauptung und keine Prämisse, die belegt werden müsste, und gilt daher als belegfreie Reaktion."
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Lenas Aussagen geben den Fakt-Satz inhaltlich vollständig wieder: Nach funktionalistischen Kriterien waren durchbrochene Turmhelme nicht sinnvoll, weil sie keinen Niederschlagsschutz boten und das Maßwerk ursprünglich keine statischen Aufgaben übernehmen konnte. Der Gegenstand (durchbrochene Turmhelme) wird im Redebeitrag eindeutig genannt, es gibt keine Bezugswörter und keine zusätzlichen Angaben. Der Redebeitrag enthält keine Fragen und keine unbelegten Behauptungen."
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Felix stellt nur eine offene Frage ohne Wertwort, Vermutung oder Einzelheit. Sie enthält keine Prämisse außer der Existenz eines Doms, die aus dem Gespräch nicht als Behauptung auftritt. Sie gilt als belegfreie Nachfrage, und der Redebeitrag enthält keine Behauptung."
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Felix stellt eine offene Nachfrage („Wurde in all diesen Jahren durchgehend gebaut?“). Sie legt keine Antwort nahe und enthält keine Behauptung. Die Wendung „all diesen Jahren“ greift nur den Zeitraum 1248 bis 1880 aus dem vorherigen Beitrag wieder auf, der durch den zitierten Fakt gedeckt ist. Der Beitrag ist daher belegfrei."
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Felix stellt eine offene Nachfrage („Wie reagierten die Kölner darauf?“), die nichts behauptet und keine Antwort nahelegt. Die einzige mögliche Prämisse, dass der Bau des Kölner Doms ruhte, folgt aus dem Fakt-Satz (fast 300 Jahre Stillstand) und bezieht sich eindeutig auf denselben Gegenstand wie Lenas Beitrag. Es gibt keine zusätzliche Angabe."
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.75
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine offene Nachfrage ohne Fakt-IDs. Sie legt keine Antwort nahe und enthält keine Behauptung. Die Prämisse, dass für den Bau Geld ausgegeben wurde, ergibt sich aus dem vorherigen Redebeitrag über das Großkirchenprojekt und ist keine neue Information. Damit gilt der Beitrag als belegfreie Reaktion."
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Fakt-IDs und auch keine Behauptung. „Das ist ja ein Ding!“ ist eine Reaktion des Staunens. „Wie kann das sein?“ ist eine offene Nachfrage und bittet um Erklärung, ohne eine Antwort nahezulegen oder eine neue Prämisse einzuführen."
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen folgen aus dem Fakt-Satz: Der Bauaufwand allein für den Torso ist der eigentliche Grund, dass der Kölner Dom nicht vollendet wurde, und der Torso macht nur ein Fünftel der gesamten Westfassade aus. Der Kontext nennt den Südturm, daher ist die Auflösung des Bezugs „Torso des Südturms“ erlaubt. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben, und er beantwortet Felix' offene Frage „Wie kann das sein?“ passend."
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Beide Sätze folgen aus dem Fakt-Satz: November 1796, Einstellung der Gottesdienste durch die Besatzer, zeitweilige Nutzung als Pferdestall und Lagerhalle durch das französische Militär. „Das Gebäude“ wird zu „den Dom“ aufgelöst, was der Kontext (Dom in Köln) und die vorherige Frage nach der Geschichte des Doms bestimmen. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämissen."
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.71
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine eigene Behauptung. „Ein Pferdestall im Dom, kaum zu glauben!“ greift nur das eben von Lena Gesagte wieder auf und drückt Staunen aus. Die Frage nach einer weiteren Einzelheit aus dieser Zeit fragt offen und legt keine Antwort nahe, enthält also keine Prämisse. Fakt-IDs sind nicht nötig."
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Fakt-IDs und keine Behauptung. „Ein Euro!“ greift nur die Zahl aus dem vorherigen Beitrag als Staunen wieder auf. Die Frage nach den Kosten eines Neubaus fragt offen, legt keine Antwort nahe und enthält keine Prämisse, die einen Beleg bräuchte."
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur Reaktionen: Staunen über die genannte Summe (\"Wahnsinn, das ist wirklich eine gewaltige Summe!\") und eine offene Nachfrage (\"Und was gibt es noch zu erzählen?\"). Die Wertung greift die Zahl aus dem vorherigen Beitrag auf, ohne neue Information hinzuzufügen. Die Frage legt keine Antwort nahe und enthält keine Prämisse. Fakt-IDs sind nicht nötig."
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.62
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Fakt-IDs und auch keine Behauptung. „Da bleibt einem die Spucke weg“ ist eine Reaktion des Staunens. „Und woher kam eigentlich das Geld dafür?“ ist eine offene Nachfrage ohne nahegelegte Antwort; sie enthält keine Prämisse außer dem, was Lena zuvor gesagt hat (Dom, Gerüste), und fügt keine neue Angabe hinzu."
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine offene Nachfrage („Wie viel davon hat der Verein am Ende getragen?“). Sie legt keine Antwort nahe und enthält keine neue Behauptung. Die Prämisse, dass der Verein einen Teil der Bausumme trug, folgt aus dem Fakt-Satz, wonach er gegründet wurde, um die verbleibende Bausumme aufzubringen. Der Bezug von „davon“ ist durch Lenas vorherigen Beitrag eindeutig (Bausumme)."
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen (Verein entschied 1864, eine Domlotterie zur Finanzierung einzurichten; sie erwies sich als ergiebige Geldquelle) folgen direkt aus dem Fakt-Satz. Der Bezug „der Verein“ wird mit „Zentral-Dombau-Verein“ aufgelöst, was der Kontext bestimmt, und passt zur Frage nach der Finanzierung. Es gibt keine Fragen oder zusätzlichen Behauptungen im Redebeitrag."
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine offene Nachfrage („Und was geschah dann auf der Baustelle?“) ohne Behauptung, Wertung oder nahegelegte Antwort. Die Prämisse, dass es eine Baustelle gibt, ist im Kontext der Domfinanzierung nur ein Wiederaufgreifen des Themas, keine neue Information. Er gilt daher als belegfreie Reaktion."
+    },
+    {
+      "turn_index": 41,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.66
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz fast wörtlich wieder (500 als „fünfhundert“ ausgeschrieben). Es kommen keine zusätzlichen Angaben, Fragen oder Prämissen hinzu. Gegenstand sind der Zentral-Dombau-Verein und die Dombauhütte, beide namentlich genannt, es gibt also kein unklares Bezugswort. Die Antwort passt zur Frage nach der Baustelle, ohne dass eine nicht genannte Beziehung entsteht."
+    },
+    {
+      "turn_index": 42,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 43,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 1.0,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 44,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 45,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 46,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine offene Nachfrage ohne Fakt-IDs. Sie enthält keine Behauptung und legt keine Antwort oder Prämisse nahe, ist also eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 47,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.42,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.68
+      },
+      "jev_error": null,
+      "reason": "Alle drei Aussagen folgen aus den Fakt-Sätzen. Der erste Satz entspricht wörtlich [0402]. Der zweite Satz löst das Bezugswort „Dort“ aus [0367] zu „In Frankreich“ auf. Das ist erlaubt, weil der Kontext von [0368] („dagegen“, Kölner Bauhütte) Frankreich als Gegenstand nahelegt. Der dritte Satz entspricht wörtlich [0368]. Der Gegensatz („dagegen“) steht in [0368] selbst. Der Redebeitrag enthält keine zusätzlichen Angaben und keine unbelegten Prämissen. Er beantwortet die Frage nach der handwerklichen Arbeitsweise sinnvoll."
+    },
+    {
+      "turn_index": 48,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 49,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 50,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.95,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion („Interessant!“) und einer offenen Nachfrage („Gibt es im Chor etwas Besonderes?“). Die Frage legt keine Antwort nahe und enthält keine Prämisse oder Behauptung, die belegt werden müsste. Die Fakt-ID wird nicht für eine Aussage herangezogen, daher ist nichts unbelegt."
+    },
+    {
+      "turn_index": 51,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 52,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 53,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 54,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag \"Gab es auch berühmte Besucher?\" ist eine offene Nachfrage ohne Wertwort, Vermutung oder Einzelheit, die eine Antwort nahelegt. Sie enthält keine Behauptung und keine Prämisse. Als belegfreie Reaktion braucht sie keine Fakt-IDs."
+    },
+    {
+      "turn_index": 55,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 56,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 57,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 58,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine offene Nachfrage ohne Fakt-IDs. \"Gibt es dort etwas Besonderes?\" legt keine Antwort nahe, enthält kein Wertwort und keine Vermutung. Er stellt keine Behauptung auf und setzt nichts voraus, außer dass es einen Dom gibt, der im vorherigen Redebeitrag genannt wurde. Damit ist er belegfrei."
+    },
+    {
+      "turn_index": 59,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 60,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine offene Nachfrage („Gibt es noch etwas am Vierungsturm?“). Sie legt keine Antwort nahe, enthält keine Behauptung und keine Prämisse, die belegt werden müsste, und gilt daher als belegfreie Reaktion."
+    },
+    {
+      "turn_index": 61,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 62,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag ist eine offene Nachfrage ohne Wertwort, Vermutung oder Einzelheit: „Wie wurden die Figuren aufgenommen?“ Sie legt keine Antwort nahe und enthält keine Prämisse über das hinaus, was Lena gerade gesagt hat. „Die Figuren“ bezieht sich eindeutig auf die acht Engelsfiguren aus dem vorherigen Beitrag. Es handelt sich um eine belegfreie Reaktion, und der Beitrag enthält keine Behauptung."
+    },
+    {
+      "turn_index": 63,
+      "accepted": false,
+      "decided_by": "gate",
+      "jev_p": {},
+      "jev_error": null,
+      "reason": "Der Fakt 271917040-0278 wurde schon in Redebeitrag 61 und 62 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+    },
+    {
+      "turn_index": 64,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine offene Nachfrage (\"gibt es dort Überraschendes?\") ohne Fakt-IDs. Sie legt keine Antwort nahe, enthält keine Wertung und keine Behauptung. Das Wort \"überraschend\" nennt keine konkrete Einzelheit und ist keine Prämisse. Damit ist der Beitrag belegfrei zulässig."
+    },
+    {
+      "turn_index": 65,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz fast wörtlich wieder: dieselben Personen (Hindenburg, Kennedy, Chruschtschow, de Gaulle, Macmillan, Arnold Wolff) und die zahlreichen weiteren bekannten Personen aus Sport, Politik und Köln. „Sie“ wird zu „Die Kölner Domsteinmetze“ aufgelöst, wie der Kontext es bestimmt. Es gibt keine zusätzliche Angabe und keine unbelegte Reaktion oder Frage. Der Gegenstand (Fassade des Doms) passt zur vorherigen Frage nach der Fassade."
+    },
+    {
+      "turn_index": 66,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 67,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 68,
+      "accepted": false,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Die Frage \"Wie steht es um den Zustand des Steins?\" setzt voraus, dass es einen Stein gibt, der beschädigt oder gestohlen sein könnte. Im vorherigen Redebeitrag ist von einem Stein keine Rede (nur Einbrecher, Strickleitern, Lüftungsschacht). Ohne Fakt-IDs darf der Beitrag keine Prämisse enthalten. Das \"Meine Güte!\" ist dagegen eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 69,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Alle drei Aussagen folgen direkt aus den Fakt-Sätzen: Verwitterungsschäden um 1906 am Kölner Dom, unmittelbares Einschreiten nötig, Erneuerung des am meisten betroffenen Chorstrebewerks unter Hertel und Güldenpfennig. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben. Der Gegenstand (Kölner Dom, Stein) ist eindeutig und passt zur Frage nach dem Zustand des Steins."
+    },
+    {
+      "turn_index": 70,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag \"Was wurde dabei verändert?\" ist eine offene Nachfrage bzw. Bitte um Erklärung ohne Wertwort, Vermutung oder Einzelheit. Er bezieht sich auf die Erneuerung des Chorstrebewerks aus dem vorherigen Beitrag und enthält weder eine Behauptung noch eine Prämisse, die über die Fakten hinausginge. Damit ist er belegfrei und erfüllt die Rubrik."
+    },
+    {
+      "turn_index": 71,
+      "accepted": false,
+      "decided_by": "gate",
+      "jev_p": {},
+      "jev_error": null,
+      "reason": "Der Fakt 271917040-0242 wurde schon in Redebeitrag 69 und 70 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+    },
+    {
+      "turn_index": 72,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine offene Nachfrage („Was ist damals mit dem Bau selbst geschehen?“). Sie legt keine Antwort nahe, enthält keine Behauptung und keine Prämisse mit Faktengehalt. „Damals“ greift nur den Zeitpunkt aus Lenas vorherigem Beitrag auf. Der Redebeitrag ist damit eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 73,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 74,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag „Was geschah mit dem Loch?“ ist eine offene Nachfrage ohne Wertwort, Vermutung oder Einzelheit. Er greift nur das Loch aus Lenas vorherigem Redebeitrag auf, das auch der Fakt-Satz nennt. Er enthält keine neue Behauptung und keine Prämisse über das hinaus, dass es ein Loch gibt, und das folgt aus dem Fakt-Satz. Damit ist er eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 75,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen stehen im Fakt-Satz: Das Loch wurde noch im Krieg mit einer Ziegelsteinfüllung vermauert, und diese blieb als Kölner Domplombe bis 2005 sichtbar. Die Ergänzung „im Eckpfeiler“ löst nur den Bezug von „Das Loch“ so auf, wie es der Kontext bestimmt, und das ist erlaubt. „Sie“ meint eindeutig die Ziegelsteinfüllung. Der Beitrag enthält keine Fragen und keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 76,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.86,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag ist eine offene Nachfrage ohne Wertwort, Vermutung oder Einzelheit, die eine Antwort nahelegt. „Diese Füllung“ bezieht sich eindeutig auf die Ziegelsteinfüllung aus Lenas vorherigem Beitrag. Die einzige Prämisse, dass es eine Füllung gibt und sie später behandelt wurde, folgt aus dem Fakt-Satz (Ziegelsteinfüllung, bis 2005 sichtbar). Der Beitrag enthält keine neue Behauptung."
+    },
+    {
+      "turn_index": 77,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.91,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": "Der Fakt-Satz nennt 'sie' nur als Bezugswort, aber der Redebeitrag löst es mit 'Domplombe' auf, und der Kontext (Plombe, 1995 bis 2005 mit Werkstein verblendet) bestimmt den Gegenstand eindeutig; Felix' Frage nach 'dieser Füllung' meint dieselbe Plombe. Die Aussage über einige Experten, die für ein unverkleidetes Mahnmal gegen den Krieg plädierten, stimmt inhaltlich mit dem Fakt überein und fügt nichts hinzu."
+    },
+    {
+      "turn_index": 78,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine offene Nachfrage ohne Wertwort, Vermutung oder Einzelheit, die eine Antwort nahelegt. Er enthält keine Behauptung und keine Prämisse, die belegt werden müsste, also ist er auch ohne Fakt-IDs zulässig."
+    },
+    {
+      "turn_index": 79,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 80,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine offene Nachfrage („Wurde am Dom auch Neues geschaffen?“) ohne Fakt-IDs. Sie enthält weder eine Behauptung noch eine nahegelegte Antwort oder Prämisse, die belegt werden müsste, und gilt daher als belegfreie Reaktion."
+    },
+    {
+      "turn_index": 81,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 82,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag ist eine offene Nachfrage („Wer war an dieser Arbeit noch beteiligt?“) ohne Behauptung oder nahegelegte Antwort. Sie bezieht sich eindeutig auf die Türgestaltung aus Lenas vorherigem Beitrag und enthält keine Prämisse, die belegt werden müsste. Damit gilt sie als belegfreie Reaktion."
+    },
+    {
+      "turn_index": 83,
+      "accepted": false,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.75,
+        "vollstaendig": 0.6
+      },
+      "jev_error": null,
+      "reason": "Der Fakt-Satz nennt Mataré nur als „Ihm“, und der Kontext spricht von der Erneuerung der Portaltüren 1948. Felix fragt aber nur nach „dieser Arbeit“, ohne sie zu benennen. Lena nennt den Gegenstand ebenfalls nicht, sondern sagt „Bei der Gestaltung“. Zuhörer können die Aussage deshalb auf etwas anderes beziehen als die Portaltüren. Der Bezug ist nicht aufgelöst. Außerdem ist „Gestaltung“ eine Ausweitung gegenüber „half dabei“ bei der Erneuerung der Portaltüren."
+    },
+    {
+      "turn_index": 84,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 85,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 86,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Felix fragt offen nach weiteren Informationen rund um die Glocken. Die Frage enthält keine Behauptung und legt keine Antwort nahe. Sie bezieht sich auf das von Lena Gesagte (Glocken des Kölner Doms), ohne neue Information einzuführen. Das ist eine belegfreie Reaktion in Form einer Nachfrage."
+    },
+    {
+      "turn_index": 87,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle drei Aussagen folgen aus dem Fakt-Satz: Ersatz der etwa 26 Tonnen schweren Kaiserglocke (Gloriosa) von 1875, Klöppel fiel am 8. Juni 1908 ab und beschädigte den Glockenturm, 1918 Einschmelzen zu Rüstungszwecken. Das Bezugswort „Sie“ im Fakt-Satz wird mit „Petersglocke“ aufgelöst, wie es der Kontext bestimmt. „Deren“ im Redebeitrag bezieht sich eindeutig auf die Kaiserglocke. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämissen."
+    },
+    {
+      "turn_index": 88,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine offene Nachfrage („Was weiß man noch über die Kaiserglocke?“), die keine Antwort nahelegt und keine Behauptung oder Prämisse enthält. Die Kaiserglocke wurde im vorherigen Redebeitrag bereits eindeutig genannt. Der Beitrag ist damit belegfrei und erfüllt die Rubrik."
+    },
+    {
+      "turn_index": 89,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 90,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Felix stellt eine offene Nachfrage (\"Gibt es Verbindungen des Doms zu Päpsten?\") ohne Behauptung, Wertung oder nahegelegte Antwort. Die Frage enthält keine Prämisse, die Fakten bräuchte, und gilt daher als belegfreie Reaktion."
+    },
+    {
+      "turn_index": 91,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 92,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine offene Nachfrage ohne Wertwort, Vermutung oder Einzelheit. Der Bezug „diesem Papst im Dom“ ist durch Lenas vorherigen Beitrag eindeutig (Johannes Paul II.). Die einzige implizite Prämisse, dass dieser Papst den Dom besuchte, folgt aus dem Fakt-Satz. Es gibt keine neue Behauptung."
+    },
+    {
+      "turn_index": 93,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 94,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag \"Wie ging es mit der Reliquie weiter?\" ist eine offene Nachfrage ohne Behauptung und ohne nahegelegte Antwort. Die einzige Prämisse, dass es eine Reliquie gibt, folgt aus dem Fakt-Satz und aus Lenas vorherigem Beitrag, der sie eindeutig benennt. Der Redebeitrag enthält nur eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 95,
+      "accepted": false,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.74
+      },
+      "jev_error": null,
+      "reason": "Der Fakt-Satz 0348 nennt den Gegenstand nur mit „daraus“ und „sie“; welche Reliquie und welches Behältnis gemeint sind, steht nur im Kontext (0347), der als nicht belegt gilt. Lena löst den Bezug auf mit „silbernen Reliquiar“, aber weder ihr Beitrag noch Felix' Frage („die Reliquie“) bestimmt eindeutig, welche Reliquie gemeint ist. Auch die Fakt-ID 0347 nennt keine Reliquie, sondern nur das Reliquiar. Die Verknüpfung „aus dem silbernen Reliquiar“ mit der gestohlenen Reliquie ist daher nicht eindeutig belegt."
+    },
+    {
+      "turn_index": 96,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.6
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine offene Nachfrage, ob es vor dem gotischen Dom schon christliche Spuren an dieser Stelle gab. Sie legt keine Antwort nahe und enthält keine neue Information. Die Prämisse, dass der Dom gotisch ist, folgt aus dem Fakt-Satz (\"eine der größten Kathedralen im gotischen Baustil\"). Es gibt keine weiteren Behauptungen, die belegt werden müssten."
+    },
+    {
+      "turn_index": 97,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 98,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.94,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine offene Nachfrage („Was geschah später mit dem Becken?“) ohne eigene Behauptung und ohne nahelegende Prämisse. „Das Becken“ bezieht sich eindeutig auf das Taufbecken aus dem vorherigen Redebeitrag. Eine Nachfrage gilt als belegfrei, daher ist nichts zu belegen."
+    },
+    {
+      "turn_index": 99,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 100,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag ist eine offene Nachfrage ohne Wertwort, Vermutung oder Einzelheit, die eine Antwort nahelegt. Er enthält keine Behauptung und keine Prämisse, die belegt werden müsste. Das Bezugswort „davon“ bezieht sich auf den baulichen Komplex aus dem vorherigen Redebeitrag und ist damit eindeutig. Der Beitrag ist belegfrei."
+    },
+    {
+      "turn_index": 101,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Die Aussage folgt aus [271917040-0048]: Das Baptisterium im Dom-Sockel gilt heute als ältestes Zeugnis des christlichen Kultus in Köln. Die Apposition „die Taufkirche“ stammt aus [271917040-0044], wo das Baptisterium als Taufkirche bezeichnet wird. Das löst den Bezug sauber auf und fügt nichts hinzu. Der Redebeitrag enthält keine Fragen und keine weiteren Behauptungen. Er beantwortet Felix' Frage, ob man heute noch etwas sehen kann, passend, weil der Fakt vom heute zugänglichen Baptisterium handelt."
+    },
+    {
+      "turn_index": 102,
+      "accepted": false,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "aussage_3": 0.98,
+        "aussage_4": 0.99,
+        "aussage_5": 0.99,
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Die erste Aussage ist nicht belegt: Laut Fakt-Satz 0219 konnte die Dombauhütte durch die „durch die Domlotterie gestärkte Finanzkraft des Zentral-Dombau-Vereins“ 500 Steinmetze beschäftigen. Felix schreibt dies direkt der Domlotterie zu und lässt den Zentral-Dombau-Verein weg, so entsteht eine Beziehung, die der Fakt nicht nennt. Alle übrigen Aussagen (Stern auf dem Vierungsturm, Chorgestühl für Papst und Kaiser, Sprengbombe und Ziegelvermauerung, Blutreliquie, Baptisterium) folgen aus den Fakt-Sätzen. Der Redebeitrag erfüllt die Rubrik aber nicht vollständig."
+    }
+  ],
+  "used_fact_ids": [],
+  "cascade_checks": [
+    {
+      "conversation": 2,
+      "turn_index": 27,
+      "p": 0.75,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung ist wortgleich zur vorherigen und enthält die einzige Aussage vollständig: Das Gebäude des Kölner Doms steht nur mit einem symbolischen Euro in der Bilanz des Erzbistums Köln, weil die Kathedrale keinen Marktwert habe."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 31,
+      "p": 0.5,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung enthält die Aussage unverändert, nur ergänzt um das Füllwort „tatsächlich“, das den Inhalt nicht verändert."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 35,
+      "p": 0.86,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung ist wortgleich mit der vorherigen. Sie enthält beide Angaben: Der Zentral-Dombau-Verein zu Köln wurde gegründet, um die verbleibende Bausumme aufzubringen, und er finanzierte sich zunächst aus Beiträgen."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 41,
+      "p": 0.89,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung fügt „des Doms“ hinzu, was in der vorherigen Fassung nicht steht. Alle übrigen Angaben stimmen überein: Südfassade 1855, Langhaus 1863, Abbau der Trennwand zum Chor nach 560 Jahren sowie der ursächliche Zusammenhang. Weil die Zuordnung zum Dom neu ist, vermittelt die neue Fassung nicht exakt dieselben Aussagen."
+    }
+  ],
+  "conversation": 3,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 16,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 16,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271917040-0157 wurde schon in Redebeitrag 13 und 14 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 16,
+      "version": 1,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 16,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271917040-0014 wurde schon in Redebeitrag 11 und 12 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 16,
+      "version": 2,
+      "replaced_by": 2,
+      "judgement": {
+        "turn_index": 16,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271917040-0157 wurde schon in Redebeitrag 13 und 14 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 16,
+      "version": 3,
+      "replaced_by": 3,
+      "judgement": {
+        "turn_index": 16,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.75
+        },
+        "jev_error": null,
+        "reason": "Die Frage \"Und was hat dann dazu geführt, dass der Dom am Ende nicht vollendet wurde?\" setzt voraus, dass der Dom am Ende nicht vollendet wurde. Das steht im Fakt-Satz nicht; dort geht es nur um die Volksweisheit \"Wenn der Dom fertig ist, geht die Welt unter\" und um eine nicht untypische Situation bei Großkirchenprojekten. Die Prämisse ist also nicht belegt. Der Kontext spricht zwar von einem kaum bis zur halben Höhe errichteten Bau, aber das gilt als nicht belegt. Auch \"Ein schöner Spruch!\" ist zwar eine Reaktion, ändert daran aber nichts."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 26,
+      "version": 0,
+      "replaced_by": 4,
+      "judgement": {
+        "turn_index": 26,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.81
+        },
+        "jev_error": null,
+        "reason": "Die Frage \"Was ist der Dom heute eigentlich wert?\" setzt voraus, dass es einen bestimmten Dom gibt, den die Zuhörer kennen, und dass dieser einen bezifferbaren Wert hat. Der vorherige Beitrag nennt keinen Dom, und es gibt keine Fakt-IDs, die das belegen. Zwar sind \"Aha, so ist das\" und der Themenwechsel reine Reaktionen, aber die Frage nennt einen neuen Gegenstand (den Dom) und enthält damit eine Prämisse ohne Beleg. Sie ist also keine offene, belegfreie Nachfrage."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 27,
+      "version": 0,
+      "replaced_by": 5,
+      "judgement": {
+        "turn_index": 27,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 30,
+      "version": 0,
+      "replaced_by": 6,
+      "judgement": {
+        "turn_index": 30,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271917040-0014 wurde schon in Redebeitrag 11 und 12 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 31,
+      "version": 0,
+      "replaced_by": 7,
+      "judgement": {
+        "turn_index": 31,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 34,
+      "version": 0,
+      "replaced_by": 8,
+      "judgement": {
+        "turn_index": 34,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271917040-0014 wurde schon in Redebeitrag 11, 12 und 30 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 35,
+      "version": 0,
+      "replaced_by": 9,
+      "judgement": {
+        "turn_index": 35,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.95,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Beide Aussagen (Gründung des Zentral-Dombau-Vereins zu Köln, um die verbleibende Bausumme aufzubringen; Finanzierung zunächst aus Beiträgen) folgen direkt aus dem Fakt-Satz. Der Redebeitrag enthält keine zusätzlichen Angaben und keine Frage. Der Gegenstand passt zur Frage nach der Finanzierung des Baus. Der Bezug auf das neunzehnte Jahrhundert wird vom Redebeitrag nicht eigens behauptet."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 40,
+      "version": 0,
+      "replaced_by": 10,
+      "judgement": {
+        "turn_index": 40,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271917040-0014 wurde schon in Redebeitrag 11, 12, 30 und 34 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 41,
+      "version": 0,
+      "replaced_by": 11,
+      "judgement": {
+        "turn_index": 41,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 42,
+      "version": 0,
+      "replaced_by": 12,
+      "judgement": {
+        "turn_index": 42,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271917040-0014 wurde schon in Redebeitrag 11, 12, 30, 34 und 40 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 49,
+      "version": 0,
+      "replaced_by": 13,
+      "judgement": {
+        "turn_index": 49,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.97,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Die dritte Aussage ist nicht belegt: Fakt 0372 beginnt mit „Daraus“, nennt also keinen Grund für die Ableitung. Lena stellt den Satz direkt nach den Aussagen zu Wandschalen und Profilen. Zuhörer beziehen „Daraus“ dann auf diese Bauweise, und das ergibt eine Beziehung, die kein Fakt-Satz nennt. Außerdem wurde „nie ... gearbeitet oder sie auch nur betreten habe“ leicht umformuliert, bleibt aber inhaltlich gleich. Die ersten beiden Sätze stimmen mit 0369 und 0370 überein. Dass sie auf Felix' Frage „Was hieß das praktisch beim Bauen?“ antworten, ist offen, weil der Gegenstand von „das“ unklar bleibt. Der Redebeitrag enthält keine Reaktionen oder Fragen."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 49,
+      "version": 1,
+      "replaced_by": 14,
+      "judgement": {
+        "turn_index": 49,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 1.0,
+          "aussage_1": 0.89,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": "Der zweite Satz („Die Profile wurden einzeln hergestellt, so dass sie mit einer schmalen Fuge anstießen.“) ist nicht eindeutig belegt: Fakt 0370 sagt nur „Profile“, ohne Bezug auf die Kölner Bauhütte. Dass es sich um dieselbe Bauhütte handelt, steht nur im Kontext von Fakt 0369 und nicht in den Fakt-Sätzen selbst; Lenas „Die Profile“ knüpft zwar an den ersten Satz an, setzt aber die Kölner Bauhütte als Subjekt voraus, was 0370 nicht nennt. Zudem verbindet sie beide Sätze so, dass eine Zuordnung entsteht, die der Fakt-Satz allein nicht herstellt. Der erste Satz ist durch 0369 mit Kontext zur Kölner Bauhütte gestützt, aber der gesamte Beitrag ist daher nicht vollständig belegt."
+      }
+    }
+  ]
+}

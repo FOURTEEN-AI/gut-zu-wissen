@@ -1,0 +1,84 @@
+{
+  "title": "Arnold Wolff",
+  "revid": 237042038,
+  "revision_status": "sighted",
+  "revision_timestamp": "2023-09-05T05:38:33Z",
+  "fetched_at": "2026-11-21T20:30:33Z",
+  "categories": [
+    "Kategorie:Architekt (Köln)",
+    "Kategorie:Denkmalpfleger (Deutschland)",
+    "Kategorie:Deutscher",
+    "Kategorie:Geboren 1932",
+    "Kategorie:Gestorben 2019",
+    "Kategorie:Hochschullehrer (Technische Hochschule Köln)",
+    "Kategorie:Kölner Dombaumeister",
+    "Kategorie:Mann",
+    "Kategorie:Träger des Gregoriusordens (Komtur)",
+    "Kategorie:Träger des Verdienstordens des Landes Nordrhein-Westfalen"
+  ],
+  "intro_wikitext": "[[Datei:Arnold Wolff.jpg|mini|Arnold Wolff im Dachstuhl des Kölner Doms am 18. Oktober 2003]]\n'''Arnold Wolff''' (* [[26. Juli]] [[1932]] in [[Stadt Wevelinghoven|Wevelinghoven]], Kreis [[Grevenbroich]]; † [[24. Dezember]] [[2019]] in [[Köln]]<ref>[https://www.faz.net/aktuell/feuilleton/kunst-und-architektur/zum-tod-des-koelner-dombaumeisters-arnold-wolff-16557503.html Frankfurter Allgemeine Kunst] vom 29. Dezember 2019: Zum Tod von Arnold Wolff.\nKölns erster Diener des Doms, von Andreas Rossmann, abgerufen am 30. Dezember 2019</ref><ref name=\"Domradio\">{{Internetquelle |autor=Martin Mölder |url=https://www.domradio.de/themen/koelner-dom/2019-12-28/ein-kleiner-mann-der-sich-voll-fuer-den-dom-einsetzte-frueherer-dombaumeister-arnold-wolff-ist-tot |titel=Früherer Dombaumeister Arnold Wolff ist tot: „Ein kleiner Mann, der sich voll für den Dom einsetzte“ |werk=[[Domradio|Domradio.de]] |datum=2019-12-28 |kommentar=Interview [[Barbara Schock-Werner]], seiner Nachfolgerin |abruf=2019-12-28}}</ref>) war ein [[Deutschland|deutscher]] [[Architekt]]. Er war von 1972 bis 1998 [[Kölner Dombaumeister]] und Leiter der [[Dombauhütte Köln|Dombauhütte]] der [[Kölner Dom|Hohen Domkirche zu Köln]].<ref>[https://lebenswege.faz.net/unternehmensnachrufe/prof-dr-arnold-wolff/56234197 Metropolitankapitel der Hohen Domkirche zu Köln: Nachruf Arnold Wolff], [[FAZ]] vom 4. Januar 2020</ref> Von 1986 bis 1997 war er [[Hochschulprofessor|Professor]] für Restaurierung und Konservierung an der [[Fachhochschule Köln]].<ref name=\"FH\" />",
+  "segments": [
+    {
+      "id": "237042038-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Arnold Wolff''' (* [[26. Juli]] [[1932]] in [[Stadt Wevelinghoven|Wevelinghoven]], Kreis [[Grevenbroich]]; † [[24. Dezember]] [[2019]] in [[Köln]]<ref>[https://www.faz.net/aktuell/feuilleton/kunst-und-architektur/zum-tod-des-koelner-dombaumeisters-arnold-wolff-16557503.html Frankfurter Allgemeine Kunst] vom 29. Dezember 2019: Zum Tod von Arnold Wolff.\nKölns erster Diener des Doms, von Andreas Rossmann, abgerufen am 30. Dezember 2019</ref><ref name=\"Domradio\">{{Internetquelle |autor=Martin Mölder |url=https://www.domradio.de/themen/koelner-dom/2019-12-28/ein-kleiner-mann-der-sich-voll-fuer-den-dom-einsetzte-frueherer-dombaumeister-arnold-wolff-ist-tot |titel=Früherer Dombaumeister Arnold Wolff ist tot: „Ein kleiner Mann, der sich voll für den Dom einsetzte“ |werk=[[Domradio|Domradio.de]] |datum=2019-12-28 |kommentar=Interview [[Barbara Schock-Werner]], seiner Nachfolgerin |abruf=2019-12-28}}</ref>) war ein [[Deutschland|deutscher]] [[Architekt]].",
+      "plain": null
+    },
+    {
+      "id": "237042038-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er war von 1972 bis 1998 [[Kölner Dombaumeister]] und Leiter der [[Dombauhütte Köln|Dombauhütte]] der [[Kölner Dom|Hohen Domkirche zu Köln]].<ref>[https://lebenswege.faz.net/unternehmensnachrufe/prof-dr-arnold-wolff/56234197 Metropolitankapitel der Hohen Domkirche zu Köln: Nachruf Arnold Wolff], [[FAZ]] vom 4. Januar 2020</ref>",
+      "plain": null
+    },
+    {
+      "id": "237042038-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Von 1986 bis 1997 war er [[Hochschulprofessor|Professor]] für Restaurierung und Konservierung an der [[Fachhochschule Köln]].<ref name=\"FH\" />",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 237042038,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "237042038-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Arnold Wolff (* 26. Juli 1932 in Wevelinghoven, Kreis Grevenbroich; † 24. Dezember 2019 in Köln) war ein deutscher Architekt.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "237042038-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "237042038-0000"
+        ],
+        "plain": "Er war von 1972 bis 1998 Kölner Dombaumeister und Leiter der Dombauhütte der Hohen Domkirche zu Köln.",
+        "context_plain": [
+          "Arnold Wolff (* 26. Juli 1932 in Wevelinghoven, Kreis Grevenbroich; † 24. Dezember 2019 in Köln) war ein deutscher Architekt."
+        ]
+      },
+      {
+        "segment_id": "237042038-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "237042038-0000",
+          "237042038-0001"
+        ],
+        "plain": "Von 1986 bis 1997 war er Professor für Restaurierung und Konservierung an der Fachhochschule Köln.",
+        "context_plain": [
+          "Arnold Wolff (* 26. Juli 1932 in Wevelinghoven, Kreis Grevenbroich; † 24. Dezember 2019 in Köln) war ein deutscher Architekt.",
+          "Er war von 1972 bis 1998 Kölner Dombaumeister und Leiter der Dombauhütte der Hohen Domkirche zu Köln."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

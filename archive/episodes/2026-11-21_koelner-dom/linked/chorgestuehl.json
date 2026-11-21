@@ -1,0 +1,81 @@
+{
+  "title": "Chorgestühl",
+  "revid": 265845849,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-04-03T14:57:27Z",
+  "fetched_at": "2026-11-21T20:30:33Z",
+  "categories": [
+    "Kategorie:Chorgestühl",
+    "Kategorie:Sitzmöbel"
+  ],
+  "intro_wikitext": "Als '''Chorgestühl''' bezeichnet man ein- oder mehrreihige Sitzreihen an den Längsseiten des [[Chor (Architektur)|Chorraums]] einer [[Kirchengebäude|Kirche]], vorzugsweise einer [[Klosterkirche|Kloster-]] oder [[Stiftskirche]]. Manchmal ist das Chorgestühl mit Schnitzereien reich verziert. Nur in wenigen Kirchen existieren noch vollständig erhaltene Chorgestühle aus [[mittelalter]]licher Zeit, oft wurden sie zerstört oder zerfielen.\n[[Datei:ErfurtDomGestuehl.jpg|mini|hochkant=1.6|Chorgestühl im [[Erfurter Dom]]]]\nDas Gestühl besteht üblicherweise aus gestuften, hölzernen Sitzreihen und ist mit einer Rückwand (''Dorsale'') abgeschlossen. Die Chorstühle, volkstümlich '''Stallen''', vom lateinischen ''{{lang|la|stalla}}'' genannt, haben Armlehnen (''Accoudoirs''), oft [[Klappsitz]]e und sind manchmal durch Wände voneinander getrennt.",
+  "segments": [
+    {
+      "id": "265845849-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als '''Chorgestühl''' bezeichnet man ein- oder mehrreihige Sitzreihen an den Längsseiten des [[Chor (Architektur)|Chorraums]] einer [[Kirchengebäude|Kirche]], vorzugsweise einer [[Klosterkirche|Kloster-]] oder [[Stiftskirche]].",
+      "plain": null
+    },
+    {
+      "id": "265845849-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Manchmal ist das Chorgestühl mit Schnitzereien reich verziert.",
+      "plain": null
+    },
+    {
+      "id": "265845849-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Nur in wenigen Kirchen existieren noch vollständig erhaltene Chorgestühle aus [[mittelalter]]licher Zeit, oft wurden sie zerstört oder zerfielen.",
+      "plain": null
+    },
+    {
+      "id": "265845849-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Gestühl besteht üblicherweise aus gestuften, hölzernen Sitzreihen und ist mit einer Rückwand (''Dorsale'') abgeschlossen.",
+      "plain": null
+    },
+    {
+      "id": "265845849-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Chorstühle, volkstümlich '''Stallen''', vom lateinischen ''{{lang|la|stalla}}'' genannt, haben Armlehnen (''Accoudoirs''), oft [[Klappsitz]]e und sind manchmal durch Wände voneinander getrennt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 265845849,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "265845849-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Als Chorgestühl bezeichnet man ein- oder mehrreihige Sitzreihen an den Längsseiten des Chorraums einer Kirche, vorzugsweise einer Kloster- oder Stiftskirche.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "265845849-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Nur in wenigen Kirchen existieren noch vollständig erhaltene Chorgestühle aus mittelalterlicher Zeit, oft wurden sie zerstört oder zerfielen.",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "265845849-0003",
+        "reason": "context_invalid"
+      },
+      {
+        "segment_id": "265845849-0004",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}
