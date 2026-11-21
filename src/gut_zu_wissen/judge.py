@@ -49,18 +49,25 @@ Der vorherige Redebeitrag zeigt, worauf der Redebeitrag antwortet; er ist kein B
 hören den Redebeitrag im Anschluss an den vorherigen, deshalb muss jede Aussage denselben \
 Gegenstand meinen wie ihr Fakt-Satz. Nicht belegt ist eine Aussage auch dann, wenn
 - der Fakt-Satz seinen Gegenstand oder eine beteiligte Person nur mit einem Bezugswort nennt \
-(etwa „dieses Instrument“, „er“, „ihm“, „dort“, „die Bilder“) und weder der Redebeitrag noch der \
-vorherige Redebeitrag sie eindeutig nennt, sodass Zuhörer die Aussage auf etwas anderes beziehen \
-können, etwa auf den Gegenstand der vorherigen Frage;
+(etwa „dieses Instrument“, „er“, „ihm“, „dort“, „die Bilder“) und Zuhörer die Aussage im \
+Gespräch auf etwas anderes beziehen würden, etwa auf den Gegenstand der vorherigen Frage. \
+Eindeutig ist ein Gegenstand, den der Redebeitrag oder der vorherige Redebeitrag nennt, und das \
+Thema des Artikels, aus dem der Fakt stammt (etwa „der Dom“ in einem Fakt aus dem Artikel \
+„Kölner Dom“);
 - der Redebeitrag eine Frage aus dem vorherigen Redebeitrag beantwortet, der Fakt-Satz aber von \
 einem anderen Gegenstand handelt als die Frage;
 - der Redebeitrag Fakt-Sätze so verbindet, dass eine Beziehung entsteht, die keiner von ihnen \
 nennt.
 Einen Bezug aufzulösen, also den Gegenstand eines Bezugsworts so mit Namen zu nennen, wie der \
-Kontext ihn bestimmt, ist erlaubt. Eine Nachfrage ist nur belegfrei, wenn sie offen fragt. Legt \
-sie eine Antwort nahe, etwa mit einem Wertwort, einer Vermutung oder einer Einzelheit („War die \
-Kritik vielleicht sogar ziemlich scharf?“), ist das eine Prämisse; sie muss aus den Fakt-Sätzen \
-des Redebeitrags folgen."""
+Kontext ihn bestimmt, ist erlaubt.
+
+Fragen: Eine Nachfrage oder Überleitungsfrage ist belegfrei, auch wenn sie nach etwas Neuem \
+fragt und dabei voraussetzt, dass es dazu etwas zu erzählen gibt („Gibt es im Inneren etwas \
+Ungewöhnliches?“, „Gab es oben auf dem Dom ein besonderes Zeichen?“, „Wie ging es weiter?“). \
+Eine Prämisse ist es nur, wenn die Frage eine bestimmte Einzelheit, Wertung oder Vermutung \
+vorwegnimmt, die erst die Antwort liefert („War die Kritik vielleicht sogar ziemlich \
+scharf?“), oder etwas als Tatsache voraussetzt, das nicht gesagt wurde („Warum wurde der Dom \
+nie fertig?“); dann muss sie aus den Fakt-Sätzen des Redebeitrags folgen."""
 )
 
 VERDICT_SCHEMA = {
@@ -78,9 +85,9 @@ REASON_SCHEMA = {
 VERDICT_PROMPT = (
     "Du prüfst einen Redebeitrag aus einem Podcast-Gespräch auf Faktentreue. Du bekommst den "
     "vorherigen Redebeitrag, falls es einen gibt, den Redebeitrag, die Fakt-Sätze, auf die er "
-    "sich beruft, deren Kontext und gegebenenfalls die Fragen, bei denen eine automatische "
-    "Vorprüfung unsicher war. Diese Fragen sind ein Hinweis, wo du genau hinsehen sollst, kein "
-    "Urteil.\n\n"
+    "sich beruft, mit ihrem Artikel, deren Kontext und gegebenenfalls die Fragen, bei denen "
+    "eine automatische Vorprüfung unsicher war. Diese Fragen sind ein Hinweis, wo du genau "
+    "hinsehen sollst, kein Urteil.\n\n"
     + RUBRIC
     + "\n\nUrteile über den ganzen Redebeitrag: „supported“ ist nur wahr, wenn er die Rubrik "
     "vollständig erfüllt. Begründe kurz auf Deutsch; nenne bei Ablehnung die betroffene Stelle. "
@@ -89,7 +96,7 @@ VERDICT_PROMPT = (
 REASON_PROMPT = (
     "Ein Redebeitrag aus einem Podcast-Gespräch wurde als nicht belegt abgelehnt. Du bekommst den "
     "vorherigen Redebeitrag, falls es einen gibt, den Redebeitrag, die Fakt-Sätze, auf die er "
-    "sich beruft, deren Kontext und die Stellen, die beanstandet wurden.\n\n"
+    "sich beruft, mit ihrem Artikel, deren Kontext und die Stellen, die beanstandet wurden.\n\n"
     + RUBRIC
     + "\n\nDie Ablehnung steht fest; du urteilst nicht. Begründe auf Deutsch in ein bis zwei "
     "Sätzen, welche Stelle des Redebeitrags aus den Fakt-Sätzen nicht folgt und warum. "
@@ -219,7 +226,7 @@ def format_judge_input(
         lines.append("(keine)")
     for i in cited:
         fact = facts[i].fact
-        lines.append(f"[{i}] {fact.plain.replace(chr(10), ' ')}")
+        lines.append(f"[{i}] (Artikel: {facts[i].article}) {fact.plain.replace(chr(10), ' ')}")
         if fact.context_plain:
             lines.append("  Kontext: " + " ".join(c.replace("\n", " ") for c in fact.context_plain))
     if flagged:

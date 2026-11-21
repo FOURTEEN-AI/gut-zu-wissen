@@ -155,7 +155,7 @@ def test_llm_judge_sees_only_turn_facts_and_context_not_statements():
     t = turn(statements=[Statement("GEHEIME-AUSSAGE", ["1-0"])])
     text = format_judge_input(t, FACTS)
     assert "GEHEIME-AUSSAGE" not in text
-    assert "[1-0] Der Fuchs wiegt acht Kilo.\n  Kontext: Davor." in text
+    assert "[1-0] (Artikel: Rotfuchs) Der Fuchs wiegt acht Kilo.\n  Kontext: Davor." in text
     assert "1-1" not in text and llm.calls == []
 
 
@@ -254,5 +254,7 @@ def test_rubric_covers_references_answers_and_anticipating_questions():
     for prompt in (VERDICT_PROMPT, REASON_PROMPT):
         assert "Bezugswort" in prompt
         assert "anderen Gegenstand handelt als die Frage" in prompt
-        assert "Legt sie eine Antwort nahe" in prompt
+        assert "Eine Prämisse ist es nur, wenn die Frage eine bestimmte Einzelheit" in prompt
+        assert "Gibt es im Inneren etwas Ungewöhnliches?" in prompt  # open questions stay free
+        assert "das Thema des Artikels, aus dem der Fakt stammt" in " ".join(prompt.split())
         assert "er ist kein Beleg" in prompt

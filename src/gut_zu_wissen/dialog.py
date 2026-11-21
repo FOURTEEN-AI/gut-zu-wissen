@@ -78,7 +78,8 @@ kein Fakt zur Frage, stellt Felix eine andere Frage. Lena verbindet zwei Fakten 
 eine Beziehung entsteht, die keiner der Fakt-Sätze nennt.
 - Felix weiß nicht, was Lena gleich erzählt. Seine Fragen legen keine Antwort nahe: keine \
 Wertwörter, Vermutungen oder Einzelheiten, die erst in Lenas Antwort stehen. Abgelehnt wird etwa \
-Felix: „War die Kritik vielleicht sogar ziemlich scharf?“, wenn erst Lenas Fakt die Schärfe nennt.
+Felix: „War die Kritik vielleicht sogar ziemlich scharf?“, wenn erst Lenas Fakt die Schärfe nennt. \
+Offene Fragen nach Neuem bleiben erlaubt („Gibt es im Inneren etwas Ungewöhnliches?“).
 - „fact_ids“ eines Redebeitrags enthält alle Kennungen, die in ihm vorkommen.
 - Erfinde keine Kennungen. Verwende nur Kennungen aus der Liste, ohne Klammern, etwa „F7“.
 - Beide Personen machen keine Aussagen über sich selbst: keine Erlebnisse, keine Biografie, \
