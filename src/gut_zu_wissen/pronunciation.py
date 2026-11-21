@@ -10,7 +10,9 @@ config (`written`, `spoken`, `heard`):
   said; without this, the same word is flagged as a changed statement in every attempt.
 
 A run can add entries of its own in `pronunciation.json` in the episode folder (a list of the same
-entries, written by hand); they come first and replace a config entry with the same `written`.
+entries); they come first and replace a config entry with the same `written`. Entries are written
+by hand or by the third hearing (`verification.hint_candidate`, decided 2026-11-21), which adds an
+optional `note` saying why.
 
 Both match whole words only and are case-sensitive. A variant that the script itself contains
 is never rewritten.
@@ -47,7 +49,7 @@ def canonicalize(transcript: str, script: str, entries: Sequence[Mapping]) -> st
 
 
 FILE = "pronunciation.json"
-_FIELDS = {"written", "spoken", "heard"}
+_FIELDS = {"written", "spoken", "heard", "note"}
 
 
 class PronunciationError(Exception):
@@ -69,14 +71,29 @@ def load_episode_entries(folder: Path) -> list[dict]:
         ok = isinstance(entry, dict) and {"written", "spoken"} <= entry.keys()
         if not ok or not entry.keys() <= _FIELDS:
             raise PronunciationError(
-                f"{FILE}: entry {n} needs `written` and `spoken`, optionally `heard`."
+                f"{FILE}: entry {n} needs `written` and `spoken`, optionally `heard` and `note`."
             )
         if not all(isinstance(entry[k], str) and entry[k] for k in ("written", "spoken")):
             raise PronunciationError(f"{FILE}: entry {n}: `written` and `spoken` must be text.")
+        if not isinstance(entry.get("note", ""), str):
+            raise PronunciationError(f"{FILE}: entry {n}: `note` must be text.")
         heard = entry.get("heard", [])
         if not isinstance(heard, list) or not all(isinstance(h, str) and h for h in heard):
             raise PronunciationError(f"{FILE}: entry {n}: `heard` must be a list of text.")
     return entries
+
+
+def with_additions(entries: Sequence[Mapping], additions: Sequence[Mapping]) -> list[dict]:
+    """The episode file's `entries` with the third hearing's `additions`: an addition for a word
+    already listed adds its heard variants there, otherwise it is appended."""
+    out = [{**e, "heard": list(e.get("heard", []))} for e in entries]
+    for add in additions:
+        same = next((e for e in out if e["written"] == add["written"]), None)
+        if same is None:
+            out.append({**add, "heard": list(add.get("heard", []))})
+        else:
+            same["heard"] += [h for h in add.get("heard", []) if h not in same["heard"]]
+    return out
 
 
 def merge(config_entries: Sequence[Mapping], episode_entries: Sequence[Mapping]) -> list[dict]:

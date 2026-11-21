@@ -77,7 +77,15 @@ def test_whisper_uses_the_spike_settings_and_loads_once():
         "vad_filter": True,
         "condition_on_previous_text": False,
         "word_timestamps": True,
+        "hotwords": None,
     }
+
+
+def test_a_hint_goes_to_whisper_as_hotwords():
+    model = FakeModel([" Rainald."])
+    stt = WhisperStt(REAL["models"]["stt"], REAL["stt"], lambda *_: model)
+    stt.transcribe(np.zeros(16_000), 16_000, hint="Rainald")
+    assert model.calls[0][1]["hotwords"] == "Rainald"
 
 
 def test_load_failure_is_an_stt_error():

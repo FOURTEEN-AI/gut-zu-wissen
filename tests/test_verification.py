@@ -7,6 +7,7 @@ from gut_zu_wissen.verification import (
     NO_ANSWER,
     Deviation,
     RetryAction,
+    add_heard,
     apply_decisions,
     cardinal,
     changes_statement,
@@ -14,13 +15,16 @@ from gut_zu_wissen.verification import (
     decade,
     decide_deviations,
     diff,
+    fact_words,
     format_decision_input,
     heard_again_matches,
     hearing_window,
+    hint_candidate,
     ordinal,
     overlaps,
     retry_action,
     script_times,
+    similarity,
     token_times,
     tokenize,
 )
@@ -342,3 +346,80 @@ def test_digit_by_digit_decimals_match_whisper_and_real_errors_stay():
     (d,) = diff("Er misst fünfhundertsechsundsiebzig Komma null acht Kilometer.",
                 "Er misst 576,8 Kilometer.", 2)  # fmt: skip
     assert (d.expected, d.heard) == ("fünfhundertsechsundsiebzig Komma null acht", "576,8")
+
+
+# ---------------------------------------------------------------- third hearing with a hint
+
+WORDS = fact_words(["Er wurde dem Kölner Erzbischof Rainald von Dassel überlassen."])
+EXCLUDED = ["nicht", "Juni", "Juli"]
+
+
+def one_word(expected: str, heard: str) -> Deviation:
+    return Deviation(0, expected, heard, "", "", script_start=3, script_end=4, heard_start=3,
+                     heard_end=4)  # fmt: skip
+
+
+def test_similarity_is_case_insensitive():
+    assert similarity("Rainald", "reinhard") == pytest.approx(0.67, abs=0.01)
+    assert similarity("Köln", "Köln") == 1.0
+
+
+def test_fact_words_are_casefolded_letter_words():
+    assert {"rainald", "dassel", "kölner"} <= fact_words(["Rainald von Dassel, Kölner 1164."])
+    assert "1164" not in fact_words(["Rainald von Dassel, Kölner 1164."])
+
+
+def test_a_rare_fact_word_heard_as_a_similar_word_is_a_hint_candidate():
+    assert hint_candidate(one_word("Rainald", "Reinhard"), WORDS, 0.65, EXCLUDED)
+
+
+@pytest.mark.parametrize(
+    ("deviation", "why"),
+    [
+        (one_word("Rainald", "Konrad"), "not alike"),
+        (one_word("Gerhard", "Reinhard"), "not in the fact sentences"),
+        (one_word("nicht", "nichts"), "excluded word"),
+        (
+            Deviation(
+                0,
+                "Rainald von",
+                "Reinhard",
+                "",
+                "",
+                script_start=3,
+                script_end=5,
+                heard_start=3,
+                heard_end=4,
+            ),
+            "two words expected",
+        ),  # fmt: skip
+        (one_word("Rainald", ""), "nothing heard"),
+    ],
+)
+def test_no_hint_candidate(deviation, why):
+    words = WORDS | {"nicht"}
+    assert not hint_candidate(deviation, words, 0.65, EXCLUDED), why
+
+
+def test_excluded_words_never_get_a_hint_even_when_alike():
+    words = fact_words(["Im Juni 1248."])
+    assert not hint_candidate(one_word("Juni", "Juli"), words, 0.5, EXCLUDED)
+
+
+def test_add_heard_joins_variants_of_the_same_word():
+    additions: list[dict] = []
+    add_heard(additions, "Patrizier", "Patricia", "a")
+    add_heard(additions, "Patrizier", "Patrizia", "b")
+    add_heard(additions, "Patrizier", "Patricia", "c")
+    assert additions == [
+        {"written": "Patrizier", "spoken": "Patrizier", "heard": ["Patricia", "Patrizia"],
+         "note": "a"}
+    ]  # fmt: skip
+
+
+def test_a_deviation_the_hint_hearing_clears_does_not_count():
+    d = one_word("Rainald", "Reinhard")
+    d.changes_statement, d.heard_again_matches = True, False
+    assert counts(d)
+    d.hint_matches = True
+    assert not counts(d)
