@@ -183,6 +183,23 @@ gemini_tts_output = 9.00               #  USD per million audio tokens; 18.00 fr
 # German time); see docs/phase3-assumptions.md.
 min_age_hours = 2
 hold_label = "hold"
+daily_time_utc = "10:00"   # the schedule of auto-publish.yml (a test checks both agree)
+
+[status]
+# Status page of the site, "Was gerade entsteht" (user decision 2026-11-22): the running episode
+# with its step, finished episodes with their expected publication, the latest published ones and
+# the failed runs of the last days. The running pipeline writes `live_file` to `branch` at every
+# step and starts the Pages build (progress.py).
+page = "werkstatt.html"
+branch = "status"
+live_file = "live.json"
+timezone = "Europe/Berlin"
+recent_published = 5
+failed_days = 7
+# A live file older than this belongs to a run killed before its archive commit; longer than the
+# daily job's timeout (240 minutes).
+live_max_age_hours = 5
+refresh_seconds = 60
 
 [hosting]
 # Internet Archive, S3-like API (phase 2). Keys come from the environment (GitHub secrets

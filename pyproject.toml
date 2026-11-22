@@ -54,3 +54,4 @@ select = ["E", "F", "I", "UP", "B"]
 
 [tool.ruff.lint.per-file-ignores]
 "src/gut_zu_wissen/site.py" = ["E501"]  # HTML and CSS templates
+"src/gut_zu_wissen/status.py" = ["E501"]  # HTML and CSS templates
