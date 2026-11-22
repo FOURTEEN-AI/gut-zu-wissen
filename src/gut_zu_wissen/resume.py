@@ -22,7 +22,7 @@ import os
 import re
 import sys
 from collections.abc import Callable, Collection, Mapping
-from dataclasses import asdict
+from dataclasses import asdict, replace
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -50,10 +50,13 @@ from gut_zu_wissen.judge import TurnJudgement
 from gut_zu_wissen.llm import AnthropicLlm, StructuredLlm
 from gut_zu_wissen.logs import setup_logging
 from gut_zu_wissen.orchestrator import GateFailure
+from gut_zu_wissen.progress import NoProgress, Progress
+from gut_zu_wissen.progress import from_env as progress_from_env
 from gut_zu_wissen.ranking import RankedFact
 from gut_zu_wissen.run import (
     ARCHIVE_ROOT,
     AUDIO_ROOT,
+    REPO_ROOT,
     audio_step,
     crash_reason,
     load_config,
@@ -228,6 +231,7 @@ def resume_audio(
     clock: Callable[[], datetime] | None = None,
     usage: Mapping[str, Usage] | None = None,
     secrets: Collection[str] = (),
+    progress: Progress | None = None,
 ) -> str:
     """Resume the episode from the audio step. Returns the episode ID.
 
@@ -267,6 +271,8 @@ def resume_audio(
     audio_record = new_record(config)
     audio_record.previous_attempts = previous_attempts(data["audio"])
     step = STEP_AUDIO
+    # The status page shows the resume's own start, not the first run's.
+    (progress or NoProgress()).step(replace(record, started_at=format_timestamp(now)), step, now)
     try:
         audio_step(
             archive_root,
@@ -346,6 +352,7 @@ def main(argv: list[str] | None = None) -> int:
             workflow_run=os.environ.get("GITHUB_RUN_ID"),
             usage=usage,
             secrets=secrets,
+            progress=progress_from_env(config["status"], REPO_ROOT),
         )
     except ResumeRefused as exc:
         print(f"::error::Refused: {exc}", file=sys.stderr)

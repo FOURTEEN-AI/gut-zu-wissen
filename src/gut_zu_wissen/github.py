@@ -2,7 +2,8 @@
 
 `HttpIssues` talks to the REST API with the workflow's `GITHUB_TOKEN`; tests use fakes and
 `httpx.MockTransport`, CI never calls the live API. Only what the review loop needs: open an
-issue, comment on it, list its comments, close it once its review is answered.
+issue, comment on it, list its comments, close it once its review is answered. `HttpWorkflows`
+starts a workflow (the Pages build after a live status change, `progress.py`).
 """
 
 from __future__ import annotations
@@ -113,3 +114,22 @@ class HttpIssues:
         if response.status_code >= 400:
             raise GitHubError(f"GitHub answered {response.status_code}: {response.text[:500]}")
         return response
+
+
+class HttpWorkflows:
+    """Starts workflows by `workflow_dispatch`, which the workflow token may do (a push made with
+    it starts no other workflow); needs the permission `actions: write`."""
+
+    def __init__(
+        self,
+        repository: str,
+        token: str,
+        api_url: str = "https://api.github.com",
+        client: httpx.Client | None = None,
+    ) -> None:
+        self._issues = HttpIssues(repository, token, api_url, client)
+        self._base = f"{api_url.rstrip('/')}/repos/{repository}/actions/workflows"
+
+    def dispatch(self, workflow: str, ref: str) -> None:
+        """Start `workflow` (its file name) on the branch `ref`."""
+        self._issues._send("POST", f"{self._base}/{workflow}/dispatches", json={"ref": ref})

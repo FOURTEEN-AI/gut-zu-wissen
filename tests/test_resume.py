@@ -58,13 +58,16 @@ def failed_in_audio(root):
             stt=FakeStt("Kein Text."), clock=lambda: LATER, usage=usage)  # fmt: skip
 
 
-def resume(root, tts=None, stt=None, judge=None, usage=None, fixed_dir=None, episode=EPISODE):
+def resume(
+    root, tts=None, stt=None, judge=None, usage=None, fixed_dir=None, episode=EPISODE,
+    progress=None,
+):  # fmt: skip
     tts = tts or FakeTts()
     return resume_audio(
         root, episode, CONFIG, RESUMED_AT,
         tts=tts, stt=stt or FakeStt(tts=tts), judge_llm=judge or FakeJudgeLlm(),
         fixed_dir=fixed_dir or root / "fixed", audio_root=root / "build",
-        workflow_run="123456", clock=lambda: RESUME_END, usage=usage,
+        workflow_run="123456", clock=lambda: RESUME_END, usage=usage, progress=progress,
     )  # fmt: skip
 
 
@@ -353,3 +356,17 @@ def test_offer_from_includes_einordnung_and_reads_older_archives():
     assert list(offer_from(old)) == ["5-0001"]
     new = {**old, "einordnung_facts": [entry("5-0000")]}
     assert list(offer_from(new)) == ["5-0000", "5-0001"]
+
+
+def test_resume_reports_the_audio_step_with_its_own_start(tmp_path):
+    failed_in_audio(tmp_path)
+    steps = []
+
+    class Progress:
+        def step(self, record, step, now):
+            steps.append((record.episode_id, record.started_at, step, now))
+
+    resume(tmp_path, progress=Progress())
+    started = RESUMED_AT.strftime("%Y-%m-%dT%H:%M:%SZ")
+    assert steps == [(EPISODE, started, "audio", RESUMED_AT)]
+    assert load_episode(tmp_path, EPISODE).started_at != started  # the archive keeps the run's
