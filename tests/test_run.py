@@ -7,7 +7,7 @@ import numpy as np
 import pytest
 import soundfile as sf
 
-from gut_zu_wissen.archive import create_episode, load_episode, save_episode
+from gut_zu_wissen.archive import STEPS, create_episode, load_episode, save_episode
 from gut_zu_wissen.fetch import ArticleNotFoundError
 from gut_zu_wissen.intro_outro import FixedAudioError, synthesize_fixed
 from gut_zu_wissen.jev import JevAbortError
@@ -152,7 +152,7 @@ class FakeStt:
 
 def run(
     api, llm, root, config, title, now, jev=None, judge=None, tts=None, fixed=True, stt=None,
-    clock=None, usage=None, dialog_llm=None, extraction_llm=None,
+    clock=None, usage=None, dialog_llm=None, extraction_llm=None, progress=None,
 ):  # fmt: skip
     fixed_dir = root / "fixed"
     tts = tts or FakeTts()
@@ -162,6 +162,7 @@ def run(
         api, llm, judge or FakeJudgeLlm(), jev or FakeJev(), root, config, title, now,
         tts=tts, stt=stt or FakeStt(tts=tts), fixed_dir=fixed_dir, audio_root=root / "build",
         clock=clock, usage=usage, dialog_llm=dialog_llm, extraction_llm=extraction_llm,
+        progress=progress,
     )  # fmt: skip
 
 
@@ -1067,3 +1068,27 @@ def test_third_hearing_gets_the_cited_fact_words_and_its_words_go_to_the_episode
     assert lexicon == [{"written": "Fuchs", "spoken": "Fuchs", "heard": ["Fux"], "note": "n"}]
     audio = json.loads((folder / "08_audio.json").read_text())
     assert audio["lexicon_additions"] == lexicon
+
+
+class FakeProgress:
+    def __init__(self):
+        self.steps = []
+
+    def step(self, record, step, now):
+        self.steps.append((record.episode_id, step, now))
+
+
+def test_run_reports_every_step_in_order(tmp_path):
+    progress = FakeProgress()
+    run(FakeApi("Rotfuchs", []), FakeLlm(), tmp_path, CONFIG, "Rotfuchs", NOW,
+        clock=lambda: NOW, progress=progress)  # fmt: skip
+    assert [s for _, s, _ in progress.steps] == list(STEPS)
+    assert {(e, t) for e, _, t in progress.steps} == {("2026-11-19_rotfuchs", NOW)}
+
+
+def test_a_gate_failure_reports_only_the_steps_reached(tmp_path):
+    progress = FakeProgress()
+    with pytest.raises(GateFailure):
+        run(FakeApi("Max Muster", ["Kategorie:Mann"]), FakeLlm(), tmp_path, CONFIG,
+            "Max Muster", NOW, progress=progress)  # fmt: skip
+    assert [s for _, s, _ in progress.steps] == ["gates"]

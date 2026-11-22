@@ -3,16 +3,28 @@ import re
 import shutil
 import tomllib
 import xml.etree.ElementTree as ET
+from datetime import UTC, datetime
 from html.parser import HTMLParser
 from pathlib import Path
 
 import pytest
 
 from gut_zu_wissen.archive import ARTICLE_FILE, DIALOG_FILE, EPISODE_FILE, RANKING_FILE
-from gut_zu_wissen.site import build_site, german_date, load_published
+from gut_zu_wissen.site import (
+    STATUS_PAGE,
+    StatusInput,
+    build_site,
+    german_date,
+    load_published,
+    read_live,
+    review_labels,
+)
 
 REPO = Path(__file__).parents[1]
-CONFIG = tomllib.loads((REPO / "config" / "pipeline.toml").read_text("utf-8"))["site"]
+FULL_CONFIG = tomllib.loads((REPO / "config" / "pipeline.toml").read_text("utf-8"))
+CONFIG = FULL_CONFIG["site"]
+NOW = datetime(2026, 11, 22, 12, 0, tzinfo=UTC)
+GIVEN = StatusInput(FULL_CONFIG["status"], FULL_CONFIG["publishing"], NOW)
 SOURCE = REPO / "archive" / "episodes" / "2026-11-20_helgoland"
 PUBLICATION = {
     "identifier": "gut-zu-wissen_2026-11-20_helgoland",
@@ -72,7 +84,7 @@ def tags_of(path: Path) -> list[tuple[str, dict]]:
 def built(tmp_path):
     archive = make_archive(tmp_path)
     out = tmp_path / "out"
-    build_site(archive, REPO, out, CONFIG)
+    build_site(archive, REPO, out, CONFIG, GIVEN)
     return out
 
 
@@ -102,7 +114,9 @@ def test_every_page_links_impressum_and_datenschutz(built):
 def test_pages_load_nothing_from_elsewhere(built):
     for page in built.rglob("*.html"):
         for tag, attrs in tags_of(page):
-            assert tag not in ("script", "iframe", "video", "source", "embed", "object"), page
+            assert tag not in ("iframe", "video", "source", "embed", "object"), page
+            if tag == "script":  # inline only (the status page's refresh)
+                assert "src" not in attrs, page
             if tag == "img":  # only the site's own files
                 assert not attrs["src"].startswith(("http:", "https:", "//")), page
             if tag == "link":
@@ -127,7 +141,7 @@ def test_episode_page_has_sources_history_and_feedback_link(built):
 
 def test_explicit_episode_carries_a_notice(tmp_path):
     archive = make_archive(tmp_path, explicit=True)
-    build_site(archive, REPO, tmp_path / "out", CONFIG)
+    build_site(archive, REPO, tmp_path / "out", CONFIG, GIVEN)
     assert "nicht für alle Hörer" in (
         tmp_path / "out/episodes/2026-11-20_helgoland.html"
     ).read_text("utf-8")
@@ -170,6 +184,83 @@ def test_explainer_no_longer_says_episodes_are_unpublished():
 
 
 def test_german_date():
-    from datetime import datetime
-
     assert german_date(datetime(2026, 3, 1)) == "1. März 2026"
+
+
+# ---------------------------------------------------------------- status page
+
+
+def test_status_page_name_matches_the_config():
+    assert FULL_CONFIG["status"]["page"] == STATUS_PAGE
+
+
+def test_status_page_is_built_and_linked_from_every_page(built):
+    text = (built / STATUS_PAGE).read_text("utf-8")
+    assert "<h1>Was gerade entsteht</h1>" in text
+    assert "Im Moment entsteht keine neue Folge" in text
+    assert 'href="episodes/2026-11-20_helgoland.html"' in text
+    assert "„Bernstein“" in text  # failed within the last days
+    for page in built.rglob("*.html"):
+        if page.name == "so-funktionierts.html":  # copied as is
+            continue
+        hrefs = [a.get("href", "") for tag, a in tags_of(page) if tag == "a"]
+        assert any(h.endswith(STATUS_PAGE) for h in hrefs), page
+
+
+def test_status_page_refreshes_itself_from_its_own_address(built):
+    text = (built / STATUS_PAGE).read_text("utf-8")
+    assert 'fetch(location.pathname, {cache: "no-store"})' in text
+    seconds = FULL_CONFIG["status"]["refresh_seconds"]
+    assert f'<noscript><meta http-equiv="refresh" content="{seconds}"></noscript>' in text
+    assert f"}}, {seconds * 1000});" in text
+
+
+def test_status_page_shows_the_live_step(tmp_path):
+    archive = make_archive(tmp_path)
+    live = {
+        "episode_id": "2026-11-22_koelner-dom",
+        "title": "Kölner Dom",
+        "step": "dialog",
+        "started_at": "2026-11-22T11:00:00Z",
+        "step_started_at": "2026-11-22T11:20:00Z",
+    }
+    path = tmp_path / "live.json"
+    path.write_text(json.dumps(live), encoding="utf-8")
+    given = StatusInput(FULL_CONFIG["status"], FULL_CONFIG["publishing"], NOW, read_live(path))
+    build_site(archive, REPO, tmp_path / "out", CONFIG, given)
+    text = (tmp_path / "out" / STATUS_PAGE).read_text("utf-8")
+    assert "Folge über „Kölner Dom“" in text
+    assert "Schritt 4 von 7" in text
+    assert "Angefangen um 12:00 Uhr, dieser Schritt seit 12:20 Uhr." in text
+
+
+def test_an_unreadable_live_file_is_ignored(tmp_path):
+    path = tmp_path / "live.json"
+    path.write_text("{", encoding="utf-8")
+    assert read_live(path) is None
+    path.write_text("{}", encoding="utf-8")
+    assert read_live(path) is None
+    assert read_live(tmp_path / "missing.json") is None
+    assert read_live(None) is None
+
+
+def test_review_labels_are_read_for_completed_episodes_only(tmp_path):
+    archive = make_archive(tmp_path)
+    folder = archive / "episodes" / "2026-11-21_bernstein"
+    record = json.loads((folder / EPISODE_FILE).read_text("utf-8")) | {"status": "completed"}
+    (folder / EPISODE_FILE).write_text(json.dumps(record), encoding="utf-8")
+    (folder / "09_review.json").write_text(json.dumps({"issue": 7}), encoding="utf-8")
+    asked = []
+
+    def read(number):
+        asked.append(number)
+        return ["hold"]
+
+    assert review_labels(archive, read) == {7: ["hold"]}
+    assert asked == [7]
+    assert review_labels(archive, None) == {}
+
+    def broken(number):
+        raise RuntimeError("no access")
+
+    assert review_labels(archive, broken) == {}

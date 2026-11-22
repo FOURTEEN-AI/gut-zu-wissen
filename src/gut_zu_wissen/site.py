@@ -1,7 +1,8 @@
 """Static GitHub Pages site and RSS feed: `python -m gut_zu_wissen.site [output dir]` (phase 2).
 
 Built from the archive (published episodes), `site/*.md` (legal pages) and
-`site/so-funktionierts.html` (copied as is). Requirements from the data protection statement:
+`site/so-funktionierts.html` (copied as is), plus the status page "Was gerade entsteht"
+(`status.py`). Requirements from the data protection statement:
 no cookies, no tracking, no external resources (no scripts, fonts, images or stylesheets from
 elsewhere; the cover is rendered from the title at build time and served from the site), the
 audio player loads only on play (`preload="none"`), Impressum and Datenschutz linked on every
@@ -12,18 +13,23 @@ writes the files.
 from __future__ import annotations
 
 import html
+import json
+import os
 import shutil
 import sys
-from dataclasses import dataclass
-from datetime import datetime
+from collections.abc import Callable
+from dataclasses import dataclass, field
+from datetime import UTC, datetime
 from pathlib import Path
 
 import markdown
 
+from gut_zu_wissen import status
 from gut_zu_wissen.archive import (
     EPISODE_FILE,
     EPISODES_DIR,
     PUBLICATION_FILE,
+    REVIEW_FILE,
     EpisodeRecord,
     parse_timestamp,
     read_json,
@@ -42,6 +48,7 @@ MONTHS = (
     "Januar Februar März April Mai Juni Juli August September Oktober November Dezember"
 ).split()
 LICENCE_URL = "https://creativecommons.org/licenses/by-sa/4.0/deed.de"
+STATUS_PAGE = "werkstatt.html"  # `[status] page`; a test checks both agree
 
 CSS = """
 :root { --bg:#fffdf8; --text:#1b1b1b; --muted:#464646; --line:#c9c2b4; --card:#f4efe4; --accent:#1d4f7a; }
@@ -103,8 +110,11 @@ def load_published(archive_root: Path) -> list[PublishedEpisode]:
 # --- pages -----------------------------------------------------------------
 
 
-def page(title: str, body: str, root: str, config: dict, description: str = "") -> str:
-    """One page. `root` is the relative path to the site root ('' or '../')."""
+def page(
+    title: str, body: str, root: str, config: dict, description: str = "", head: str = ""
+) -> str:
+    """One page. `root` is the relative path to the site root ('' or '../'); `head` is added
+    to the head as is."""
     meta = (
         f'<meta name="description" content="{html.escape(description)}">\n' if description else ""
     )
@@ -116,7 +126,7 @@ def page(title: str, body: str, root: str, config: dict, description: str = "") 
 <title>{html.escape(title)}</title>
 {meta}<link rel="alternate" type="application/rss+xml" title="{html.escape(config["title"])}" href="{root}feed.xml">
 <style>{CSS}</style>
-</head>
+{head}</head>
 <body>
 <header class="site"><a href="{root}index.html">{html.escape(config["title"])}</a></header>
 <main>
@@ -127,6 +137,7 @@ def page(title: str, body: str, root: str, config: dict, description: str = "") 
     <ul>
       <li><a href="{root}impressum.html">Impressum</a></li>
       <li><a href="{root}datenschutz.html">Datenschutzerklärung</a></li>
+      <li><a href="{root}{STATUS_PAGE}">Was gerade entsteht</a></li>
       <li><a href="{root}so-funktionierts.html">So entsteht eine Folge</a></li>
       <li><a href="{root}feed.xml">RSS-Feed</a></li>
     </ul>
@@ -189,6 +200,7 @@ def render_index(episodes: list[PublishedEpisode], config: dict) -> str:
     body = f"""<h1>{html.escape(config["title"])}</h1>
 <p>{html.escape(config["description"])}</p>
 <div class="box"><p>Den Podcast abonnieren: <a href="feed.xml">RSS-Feed</a> in der Podcast-App Ihrer Wahl einfügen.</p></div>
+<p><a href="{STATUS_PAGE}">Was gerade entsteht:</a> die Folge, an der gerade gearbeitet wird, und die nächsten Folgen.</p>
 <h2>Folgen</h2>
 {listing}"""
     return page(config["title"], body, "", config, config["description"])
@@ -230,10 +242,55 @@ def feed_episodes(episodes: list[PublishedEpisode], config: dict) -> list[FeedEp
     return result
 
 
+# --- status page -----------------------------------------------------------
+
+
+@dataclass(frozen=True)
+class StatusInput:
+    """What the status page needs besides the archive: `[status]` and `[publishing]` of the
+    config, the live file of the running pipeline (None: none found), the labels of the review
+    issues by issue number (missing: none known) and the build time."""
+
+    status_config: dict
+    publishing_config: dict
+    now: datetime
+    live: status.Live | None = None
+    labels: dict[int, list[str]] = field(default_factory=dict)
+
+
+def load_status_episodes(archive_root: Path, labels: dict[int, list[str]]) -> list[status.Episode]:
+    """Every episode of the archive with its review and the labels of its review issue."""
+    result = []
+    for folder in sorted((archive_root / EPISODES_DIR).iterdir()):
+        record = EpisodeRecord(**read_json(folder / EPISODE_FILE))
+        review = read_json(folder / REVIEW_FILE) if (folder / REVIEW_FILE).exists() else None
+        number = review.get("issue") if review else None
+        found = labels.get(number, []) if isinstance(number, int) else []
+        result.append(status.Episode(record, review, tuple(found)))
+    return result
+
+
+def render_status(episodes: list[status.Episode], given: StatusInput, config: dict) -> str:
+    o = status.overview(
+        episodes, given.live, given.now, given.status_config, given.publishing_config
+    )
+    body = status.render_body(o, given.status_config, lambda eid: f"episodes/{eid}.html")
+    return page(
+        f"Was gerade entsteht – {config['title']}",
+        body,
+        "",
+        config,
+        "Woran der Podcast gerade arbeitet",
+        status.head_extra(given.status_config),
+    )
+
+
 # --- build -----------------------------------------------------------------
 
 
-def build_site(archive_root: Path, repo_root: Path, out_dir: Path, config: dict) -> list[Path]:
+def build_site(
+    archive_root: Path, repo_root: Path, out_dir: Path, config: dict, given: StatusInput
+) -> list[Path]:
     """Write the site; returns the files written. An existing output folder is replaced."""
     if out_dir.exists():
         shutil.rmtree(out_dir)
@@ -264,6 +321,7 @@ def build_site(archive_root: Path, repo_root: Path, out_dir: Path, config: dict)
         ),
         "so-funktionierts.html": (repo_root / "site" / "so-funktionierts.html").read_text("utf-8"),
         config["show_art_file"]: (repo_root / config["show_art_source"]).read_bytes(),
+        STATUS_PAGE: render_status(load_status_episodes(archive_root, given.labels), given, config),
     }
     for e in episodes:
         files[episode_page_name(e)] = render_episode(e, config)
@@ -280,12 +338,56 @@ def build_site(archive_root: Path, repo_root: Path, out_dir: Path, config: dict)
     return written
 
 
+def read_live(path: Path | None) -> status.Live | None:
+    """The live file the workflow fetched from the status branch; None when there is none or it
+    cannot be read (the page then shows no running episode, the build goes on)."""
+    if path is None or not path.exists():
+        return None
+    try:
+        return status.Live.from_dict(json.loads(path.read_text("utf-8")))
+    except (ValueError, KeyError, TypeError) as exc:
+        print(f"::warning::Live file {path} ignored: {exc}")
+        return None
+
+
+def review_labels(
+    archive_root: Path, read: Callable[[int], list[str]] | None
+) -> dict[int, list[str]]:
+    """Labels of the review issues of completed episodes (the owner's hold label); empty
+    without access to the issues. A failed read leaves that issue without labels."""
+    if read is None:
+        return {}
+    labels: dict[int, list[str]] = {}
+    for e in load_status_episodes(archive_root, {}):
+        number = e.review.get("issue") if e.review else None
+        if e.record.status == "completed" and isinstance(number, int):
+            try:
+                labels[number] = read(number)
+            except Exception as exc:  # the page is still built, without this label
+                print(f"::warning::Labels of issue {number} not read: {exc}")
+    return labels
+
+
 def main(argv: list[str] | None = None) -> int:
+    """`python -m gut_zu_wissen.site [output dir] [live file]`; the issue labels are read
+    with `GITHUB_TOKEN` and `GITHUB_REPOSITORY` when both are set."""
+    from gut_zu_wissen.github import HttpIssues
     from gut_zu_wissen.run import ARCHIVE_ROOT, REPO_ROOT, load_config
 
     args = sys.argv[1:] if argv is None else argv
     out_dir = Path(args[0]) if args else REPO_ROOT / "build" / "site"
-    written = build_site(ARCHIVE_ROOT, REPO_ROOT, out_dir, load_config()["site"])
+    live_path = Path(args[1]) if len(args) > 1 else None
+    config = load_config()
+    repository, token = os.environ.get("GITHUB_REPOSITORY"), os.environ.get("GITHUB_TOKEN")
+    reader = HttpIssues(repository, token).labels if repository and token else None
+    given = StatusInput(
+        config["status"],
+        config["publishing"],
+        datetime.now(UTC),
+        read_live(live_path),
+        review_labels(ARCHIVE_ROOT, reader),
+    )
+    written = build_site(ARCHIVE_ROOT, REPO_ROOT, out_dir, config["site"], given)
     print(f"Site with {len(written)} files written to {out_dir}")
     return 0
 

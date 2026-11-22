@@ -75,6 +75,8 @@ from gut_zu_wissen.linked import LinkedIntro, SkippedLink, fetch_linked_intros
 from gut_zu_wissen.llm import AnthropicLlm, LlmError, StructuredLlm
 from gut_zu_wissen.logs import setup_logging, timed
 from gut_zu_wissen.orchestrator import GateFailure, Offer, Orchestration, orchestrate
+from gut_zu_wissen.progress import NoProgress, Progress
+from gut_zu_wissen.progress import from_env as progress_from_env
 from gut_zu_wissen.pronunciation import (
     FILE as PRONUNCIATION_FILE,
 )
@@ -114,7 +116,7 @@ CONFIG_PATH = REPO_ROOT / "config" / "pipeline.toml"
 ARCHIVE_ROOT = REPO_ROOT / "archive"
 AUDIO_ROOT = REPO_ROOT / "build" / "audio"  # not committed (.gitignore: build/)
 # Their values are masked in a crash reason, which goes to the public archive and job summary.
-SECRET_ENV_VARS = ("ANTHROPIC_API_KEY", "TYPESAFE_API_KEY", "GEMINI_API_KEY")
+SECRET_ENV_VARS = ("ANTHROPIC_API_KEY", "TYPESAFE_API_KEY", "GEMINI_API_KEY", "GITHUB_TOKEN")
 CRASH_PREFIX = "Crash: "
 SECRET_MASK = "***"
 ELLIPSIS = "…"
@@ -258,6 +260,7 @@ def run(
     secrets: Collection[str] = (),
     dialog_llm: StructuredLlm | None = None,
     extraction_llm: StructuredLlm | None = None,
+    progress: Progress | None = None,
 ) -> str:
     """Run the steps implemented so far. Returns the episode ID; raises GateFailure.
 
@@ -289,7 +292,10 @@ def run(
     record = create_episode(archive_root, article.title, now)
     log.info("Episode %s created (revision %s)", record.episode_id, article.revid)
     audio_record = None  # TTS cost of the run, once the audio step started
+    progress = progress or NoProgress()
+    tick = clock or _utc_now
     step = STEP_GATES
+    progress.step(record, step, tick())
     try:
         write_json(episode_dir(archive_root, record.episode_id) / ARTICLE_FILE, article.to_dict())
 
@@ -314,6 +320,7 @@ def run(
         log.info("Gates passed (living person, repeat)")
         folder = episode_dir(archive_root, record.episode_id)
         step = STEP_SEGMENTATION
+        progress.step(record, step, tick())
         renderer = ParseRenderer(api)
         log.info("Step segmentation")
         segments = segment_article(article.wikitext, article.title, article.revid, renderer)
@@ -323,6 +330,7 @@ def run(
             {"revid": article.revid, "segments": [s.to_dict() for s in segments]},
         )
         step = STEP_EXTRACTION
+        progress.step(record, step, tick())
         extractor = extraction_llm or llm
         with timed(log, "Step extraction"):
             facts = extract_facts(
@@ -461,6 +469,8 @@ def run(
             )
 
         step = STEP_DIALOG
+
+        progress.step(record, step, tick())
         state = Orchestration()
         try:
             # The dialog author (dialog and turn regenerations) may use its own client with a
@@ -485,6 +495,7 @@ def run(
 
         # D7 on the final script, before the audio step: a failed check costs no TTS.
         step = STEP_EXPLICIT
+        progress.step(record, step, tick())
         explicit = ExplicitCheck(config["models"]["llm_judge"])
         try:
             with timed(log, "Step explicit check"):
@@ -501,6 +512,8 @@ def run(
         log.info("Explicit: %s", "yes" if explicit.explicit else "no")
 
         step = STEP_AUDIO
+
+        progress.step(record, step, tick())
         audio_record = new_record(config)
         audio_step(
             archive_root,
@@ -517,6 +530,8 @@ def run(
         )
 
         step = STEP_REVIEW
+
+        progress.step(record, step, tick())
         log.info("Step review sample")
         assert state.offer is not None
         review_step(
@@ -624,6 +639,7 @@ def run_title(config: dict, title: str) -> str:
         secrets=secrets,
         dialog_llm=dialog_llm,
         extraction_llm=extraction_llm,
+        progress=progress_from_env(config["status"], REPO_ROOT),
     )
 
 

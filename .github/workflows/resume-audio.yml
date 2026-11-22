@@ -18,9 +18,12 @@ concurrency:
   cancel-in-progress: false
 
 # contents: the archive commit; issues: the review issue (phase 1 step 12).
+# actions: start the Pages build at every step of the run (live status page, progress.py; a
+# dispatch with the workflow token is allowed, a push is not followed by other workflows).
 permissions:
   contents: write
   issues: write
+  actions: write
 
 jobs:
   resume:
@@ -67,6 +70,9 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Live status page: the step goes to the branch `status`, then the Pages build starts.
+          LIVE_STATUS: "true"
+          GITHUB_TOKEN: ${{ github.token }}
         run: uv run python -m gut_zu_wissen.resume "$EPISODE_ID"
       # Audio is not committed (design: audio only in the published form at the host);
       # in phase 1 it is a workflow artifact for listening and for the review.
