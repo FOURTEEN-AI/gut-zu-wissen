@@ -1,0 +1,111 @@
+{
+  "title": "Monogamie",
+  "revid": 271076793,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-05T15:33:18Z",
+  "fetched_at": "2026-11-22T11:28:20Z",
+  "categories": [
+    "Kategorie:Eheform",
+    "Kategorie:Paarungsverhalten"
+  ],
+  "intro_wikitext": "[[Datei:Cygnus olor 2 (Marek Szczepanek).jpg|mini|Bei [[Höckerschwan|Höckerschwänen]] kommt es zu einer lebenslangen Paarbindung.]]\n\n'''Monogamie''' (von {{grcS|μόνος|mónos}} „allein, einzig“ und {{lang|grc|γάμος|gamos}} „Ehe“, {{deS|„Einehe“}}) bezeichnet bei Tieren eine (lebenslange oder temporäre<ref>{{Internetquelle |url=https://www.spektrum.de/lexikon/biologie/monogamie/43762 |titel=Monogamie |werk=\"Lexikon der Biologie\" auf [[Spektrum.de]] |abruf=2023-05-14}}</ref>) exklusive Fortpflanzungsgemeinschaft zwischen zwei Individuen einer [[Art (Biologie)|Art]]. Beim Menschen ist mit dem [[Paarungsverhalten]] nicht zwingend auch ein Versuch der Fortpflanzung verbunden, daher wird auch bei gleichgeschlechtlichen Lebenspartnerschaften von Monogamie gesprochen, sofern diese eine [[Treue]]beziehung darstellen.\n\nDas gegenteilige [[Verhaltensmuster]] zur Monogamie ist die '''Polygamie'''. Es kann auch nur einer der Partner weitere [[Sex]]ualpartner haben, während sich der andere Partner monogam verhält.\n\nBeim Menschen gehen monogame Sexualpartnerschaften oft in ebenso exklusive [[Liebesbeziehung]]en über. Dies wird manchmal als ''Monoamorie'' bezeichnet<ref>{{Internetquelle |url=https://queer-lexikon.net/2017/06/08/monoamuroesitaet/ |titel=Monoamorie |werk=queer-lexikon.net |abruf=2023-05-18}}</ref><ref>{{Internetquelle |url=https://prideplanet.de/glossar/monoamorie/ |titel=Monoamorie |werk=prideplanet.de |abruf=2023-05-18}}</ref> in Abgrenzung zur [[Polyamorie]], wobei andersherum monoamore Menschen nicht zwingend monogam sein müssen.",
+  "segments": [
+    {
+      "id": "271076793-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Monogamie''' (von {{grcS|μόνος|mónos}} „allein, einzig“ und {{lang|grc|γάμος|gamos}} „Ehe“, {{deS|„Einehe“}}) bezeichnet bei Tieren eine (lebenslange oder temporäre<ref>{{Internetquelle |url=https://www.spektrum.de/lexikon/biologie/monogamie/43762 |titel=Monogamie |werk=\"Lexikon der Biologie\" auf [[Spektrum.de]] |abruf=2023-05-14}}</ref>) exklusive Fortpflanzungsgemeinschaft zwischen zwei Individuen einer [[Art (Biologie)|Art]].",
+      "plain": null
+    },
+    {
+      "id": "271076793-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Beim Menschen ist mit dem [[Paarungsverhalten]] nicht zwingend auch ein Versuch der Fortpflanzung verbunden, daher wird auch bei gleichgeschlechtlichen Lebenspartnerschaften von Monogamie gesprochen, sofern diese eine [[Treue]]beziehung darstellen.",
+      "plain": null
+    },
+    {
+      "id": "271076793-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das gegenteilige [[Verhaltensmuster]] zur Monogamie ist die '''Polygamie'''.",
+      "plain": null
+    },
+    {
+      "id": "271076793-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es kann auch nur einer der Partner weitere [[Sex]]ualpartner haben, während sich der andere Partner monogam verhält.",
+      "plain": null
+    },
+    {
+      "id": "271076793-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Beim Menschen gehen monogame Sexualpartnerschaften oft in ebenso exklusive [[Liebesbeziehung]]en über.",
+      "plain": null
+    },
+    {
+      "id": "271076793-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dies wird manchmal als ''Monoamorie'' bezeichnet<ref>{{Internetquelle |url=https://queer-lexikon.net/2017/06/08/monoamuroesitaet/ |titel=Monoamorie |werk=queer-lexikon.net |abruf=2023-05-18}}</ref><ref>{{Internetquelle |url=https://prideplanet.de/glossar/monoamorie/ |titel=Monoamorie |werk=prideplanet.de |abruf=2023-05-18}}</ref> in Abgrenzung zur [[Polyamorie]], wobei andersherum monoamore Menschen nicht zwingend monogam sein müssen.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271076793,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271076793-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Monogamie (von altgriechisch μόνος mónos „allein, einzig“ und γάμος gamos „Ehe“, deutsch „Einehe“) bezeichnet bei Tieren eine (lebenslange oder temporäre) exklusive Fortpflanzungsgemeinschaft zwischen zwei Individuen einer Art.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271076793-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Beim Menschen ist mit dem Paarungsverhalten nicht zwingend auch ein Versuch der Fortpflanzung verbunden, daher wird auch bei gleichgeschlechtlichen Lebenspartnerschaften von Monogamie gesprochen, sofern diese eine Treuebeziehung darstellen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271076793-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271076793-0002"
+        ],
+        "plain": "Es kann auch nur einer der Partner weitere Sexualpartner haben, während sich der andere Partner monogam verhält.",
+        "context_plain": [
+          "Das gegenteilige Verhaltensmuster zur Monogamie ist die Polygamie."
+        ]
+      },
+      {
+        "segment_id": "271076793-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Beim Menschen gehen monogame Sexualpartnerschaften oft in ebenso exklusive Liebesbeziehungen über.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271076793-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271076793-0004"
+        ],
+        "plain": "Dies wird manchmal als Monoamorie bezeichnet in Abgrenzung zur Polyamorie, wobei andersherum monoamore Menschen nicht zwingend monogam sein müssen.",
+        "context_plain": [
+          "Beim Menschen gehen monogame Sexualpartnerschaften oft in ebenso exklusive Liebesbeziehungen über."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

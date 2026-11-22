@@ -1,0 +1,80 @@
+{
+  "title": "Holozän",
+  "revid": 270343786,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-09T11:21:32Z",
+  "fetched_at": "2026-11-22T11:28:20Z",
+  "categories": [
+    "Kategorie:Ur- und Frühgeschichte",
+    "Kategorie:Zeitalter des Quartär"
+  ],
+  "intro_wikitext": "{{Linkbox Quartär (Geologie)}}\nDas '''Holozän''' (populärwissenschaftlich auch '''Nacheiszeitalter''' genannt) ist der gegenwärtige Zeitabschnitt der [[Erdgeschichte]]. In der [[Chronostratigraphie]] und der [[Geochronologie]] ist das Holozän eine [[Serie (Geologie)|Serie]] bzw. Epoche und wird laut Beschluss der [[International Commission on Stratigraphy]] (ICS) seit 2018 in drei geologische [[Stufe (Geologie)|Stufen]] unterteilt ([[Grönlandium]], [[Northgrippium]], [[Meghalayum]]). Es begann vor etwa 11.700&nbsp;Jahren mit der [[Klimaveränderung|Erwärmung]] der [[Erde]] am Ende des [[Pleistozän]]s.<ref name=\"GRIP\">{{Literatur |Autor=Mike Walker, Sigfus Johnson, Sune Olander Rasmussen, Trevor Popp, Jørgen-Peder Steffensen, Phil Gibbard, Wim Hoek, John Lowe, John Andrews, Svante Björck, Les C. Cwynar, Konrad Hughen, Peter Kershaw, Bernd Kromer, Thomas Litt, David J. Lowe, Takeshi Nakagawa, Rewi Newnham und Jakob Schwander |Titel=Formal definition and dating of the GSSP (Global Stratotype Section and Point) for the base of the Holocene using the Greenland NGRIP ice core, and selected auxiliary records |Sammelwerk=[[Journal of Quaternary Science]] |Band=24 |Nummer=1 |Datum=2008 |Seiten=3–17 |DOI=10.1002/jqs.1227}}</ref>\n\nHolozän und Pleistozän gehören zum [[Quartär (Geologie)|Quartär]], dem jüngsten [[System (Geologie)|System]] des [[Känozoikum]]s. In der [[Englische Sprache|englischen]] Terminologie wird das Holozän mitunter auch als ''Present'' (deutsch „Gegenwart“) bezeichnet.",
+  "segments": [
+    {
+      "id": "270343786-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das '''Holozän''' (populärwissenschaftlich auch '''Nacheiszeitalter''' genannt) ist der gegenwärtige Zeitabschnitt der [[Erdgeschichte]].",
+      "plain": null
+    },
+    {
+      "id": "270343786-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "In der [[Chronostratigraphie]] und der [[Geochronologie]] ist das Holozän eine [[Serie (Geologie)|Serie]] bzw. Epoche und wird laut Beschluss der [[International Commission on Stratigraphy]] (ICS) seit 2018 in drei geologische [[Stufe (Geologie)|Stufen]] unterteilt ([[Grönlandium]], [[Northgrippium]], [[Meghalayum]]).",
+      "plain": null
+    },
+    {
+      "id": "270343786-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es begann vor etwa 11.700&nbsp;Jahren mit der [[Klimaveränderung|Erwärmung]] der [[Erde]] am Ende des [[Pleistozän]]s.<ref name=\"GRIP\">{{Literatur |Autor=Mike Walker, Sigfus Johnson, Sune Olander Rasmussen, Trevor Popp, Jørgen-Peder Steffensen, Phil Gibbard, Wim Hoek, John Lowe, John Andrews, Svante Björck, Les C. Cwynar, Konrad Hughen, Peter Kershaw, Bernd Kromer, Thomas Litt, David J. Lowe, Takeshi Nakagawa, Rewi Newnham und Jakob Schwander |Titel=Formal definition and dating of the GSSP (Global Stratotype Section and Point) for the base of the Holocene using the Greenland NGRIP ice core, and selected auxiliary records |Sammelwerk=[[Journal of Quaternary Science]] |Band=24 |Nummer=1 |Datum=2008 |Seiten=3–17 |DOI=10.1002/jqs.1227}}</ref>",
+      "plain": null
+    },
+    {
+      "id": "270343786-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Holozän und Pleistozän gehören zum [[Quartär (Geologie)|Quartär]], dem jüngsten [[System (Geologie)|System]] des [[Känozoikum]]s.",
+      "plain": null
+    },
+    {
+      "id": "270343786-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "In der [[Englische Sprache|englischen]] Terminologie wird das Holozän mitunter auch als ''Present'' (deutsch „Gegenwart“) bezeichnet.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270343786,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270343786-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "In der Chronostratigraphie und der Geochronologie ist das Holozän eine Serie bzw. Epoche und wird laut Beschluss der International Commission on Stratigraphy (ICS) seit 2018 in drei geologische Stufen unterteilt (Grönlandium, Northgrippium, Meghalayum).",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270343786-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Es begann vor etwa 11.700 Jahren mit der Erwärmung der Erde am Ende des Pleistozäns.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270343786-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "In der englischen Terminologie wird das Holozän mitunter auch als Present (deutsch „Gegenwart“) bezeichnet.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

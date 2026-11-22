@@ -1,0 +1,82 @@
+{
+  "title": "Zypern-Zwergohreule",
+  "revid": 257958679,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-07-16T20:31:19Z",
+  "fetched_at": "2026-11-22T11:28:20Z",
+  "categories": [
+    "Kategorie:Endemisches Tier Zyperns",
+    "Kategorie:Zwergohreulen"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe bitte [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name       = Zypern-Zwergohreule\n| Taxon_WissName   = Otus cyprius\n| Taxon_Rang       = Art\n| Taxon_Autor      = ([[Gyula Madarász|Madarász]], 1901)\n| Taxon2_Name      = Zwergohreulen\n| Taxon2_WissName  = Otus\n| Taxon2_Rang      = Gattung\n| Taxon3_Name      = Eigentliche Eulen\n| Taxon3_WissName  = Strigidae\n| Taxon3_Rang      = Familie\n| Taxon4_Name      = Eulen\n| Taxon4_WissName  = Strigiformes\n| Taxon4_Rang      = Ordnung\n| Taxon5_Name      = Vögel\n| Taxon5_WissName  = Aves\n| Taxon5_Rang      = Klasse\n| Bild             = Otus cyprius.jpg\n| Bildbeschreibung = \n}}\nDie '''Zypern-Zwergohreule''' (''Otus cyprius'') ist eine [[Eigentliche Eulen|Eulenart]] aus der Gattung der [[Zwergohreulen]] (''Otus''). Sie wurde 2015 von der [[Zwergohreule]] (''Otus scops'') abgespalten<ref name=\"Flintetal\">Flint et al., 2015.</ref> und ist auf der Mittelmeerinsel [[Zypern]] [[Endemit|endemisch]].",
+  "segments": [
+    {
+      "id": "257958679-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_Name      = Vögel | Taxon5_WissName  = Aves",
+      "plain": "Taxobox – Systematik – Klasse: Vögel (Aves)"
+    },
+    {
+      "id": "257958679-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_Name      = Eulen | Taxon4_WissName  = Strigiformes",
+      "plain": "Taxobox – Systematik – Ordnung: Eulen (Strigiformes)"
+    },
+    {
+      "id": "257958679-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon3_Name      = Eigentliche Eulen | Taxon3_WissName  = Strigidae",
+      "plain": "Taxobox – Systematik – Familie: Eigentliche Eulen (Strigidae)"
+    },
+    {
+      "id": "257958679-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_Name      = Zwergohreulen | Taxon2_WissName  = Otus",
+      "plain": "Taxobox – Systematik – Gattung: Zwergohreulen (Otus)"
+    },
+    {
+      "id": "257958679-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name       = Zypern-Zwergohreule",
+      "plain": "Taxobox – Systematik – Art: Zypern-Zwergohreule"
+    },
+    {
+      "id": "257958679-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Zypern-Zwergohreule''' (''Otus cyprius'') ist eine [[Eigentliche Eulen|Eulenart]] aus der Gattung der [[Zwergohreulen]] (''Otus'').",
+      "plain": null
+    },
+    {
+      "id": "257958679-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie wurde 2015 von der [[Zwergohreule]] (''Otus scops'') abgespalten<ref name=\"Flintetal\">Flint et al., 2015.</ref> und ist auf der Mittelmeerinsel [[Zypern]] [[Endemit|endemisch]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 257958679,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "257958679-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "257958679-0005"
+        ],
+        "plain": "Sie wurde 2015 von der Zwergohreule (Otus scops) abgespalten und ist auf der Mittelmeerinsel Zypern endemisch.",
+        "context_plain": [
+          "Die Zypern-Zwergohreule (Otus cyprius) ist eine Eulenart aus der Gattung der Zwergohreulen (Otus)."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

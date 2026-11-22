@@ -1,0 +1,143 @@
+{
+  "title": "Steinmarder",
+  "revid": 271077237,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-05T15:51:07Z",
+  "fetched_at": "2026-11-22T11:28:20Z",
+  "categories": [
+    "Kategorie:Haarwild",
+    "Kategorie:Marder",
+    "Kategorie:Raubwild",
+    "Kategorie:Wikipedia:Artikel mit Video"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name       = Steinmarder\n| Taxon_WissName   = Martes foina\n| Taxon_Rang       = Art\n| Taxon_Autor      = ([[Johann Christian Polycarp Erxleben|Erxleben]], 1777)\n| Taxon2_Name      = Echte Marder\n| Taxon2_WissName  = Martes\n| Taxon2_Rang      = Gattung\n| Taxon3_WissName  = Guloninae\n| Taxon3_Rang      = Unterfamilie\n| Taxon4_Name      = Marder\n| Taxon4_WissName  = Mustelidae\n| Taxon4_Rang      = Familie\n| Taxon5_Name      = Marderverwandte\n| Taxon5_WissName  = Musteloidea\n| Taxon5_Rang      = Überfamilie\n| Taxon6_Name      = Hundeartige\n| Taxon6_WissName  = Caniformia\n| Taxon6_Rang      = Unterordnung\n| Bild             = Stone marten (Martes foina) Drenthe.jpg\n| Bildbeschreibung = Steinmarder (''Martes foina'')\n}}\n\nDer '''Steinmarder''' (''Martes foina''), manchmal auch '''Hausmarder''' genannt, ist eine [[Raubtiere|Raubtierart]] aus der Familie der [[Marder]] (Mustelidae). Er ist in [[Mitteleuropa]] die häufigste Art der Gattung der [[Echte Marder|Echten Marder]] und war ursprünglich insbesondere in [[Mischwald|Mischwäldern]] oder felsigen Regionen anzutreffen.\n\nAls [[Kulturfolger]] sind Steinmarder regelmäßig in Siedlungsräumen zu finden. Da er gern in Gebäuden, insbesondere auf Dachböden, sowie in [[Stall|Ställen]] und [[Scheune]]n Unterschlupf sucht, führt dies häufig zu Konflikten mit Menschen.<ref name = NAB>[https://nrw.nabu.de/natur-und-landschaft/landnutzung/jagd/jagdbare-arten/beutegreifer/04608.html ''Der Steinmarder. Martes foina''] [[Naturschutzbund Deutschland]], abgerufen am 1. September 2024</ref>",
+  "segments": [
+    {
+      "id": "271077237-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon6_Name      = Hundeartige | Taxon6_WissName  = Caniformia",
+      "plain": "Taxobox – Systematik – Unterordnung: Hundeartige (Caniformia)"
+    },
+    {
+      "id": "271077237-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_Name      = Marderverwandte | Taxon5_WissName  = Musteloidea",
+      "plain": "Taxobox – Systematik – Überfamilie: Marderverwandte (Musteloidea)"
+    },
+    {
+      "id": "271077237-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_Name      = Marder | Taxon4_WissName  = Mustelidae",
+      "plain": "Taxobox – Systematik – Familie: Marder (Mustelidae)"
+    },
+    {
+      "id": "271077237-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon3_WissName  = Guloninae",
+      "plain": "Taxobox – Systematik – Unterfamilie: Guloninae"
+    },
+    {
+      "id": "271077237-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_Name      = Echte Marder | Taxon2_WissName  = Martes",
+      "plain": "Taxobox – Systematik – Gattung: Echte Marder (Martes)"
+    },
+    {
+      "id": "271077237-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name       = Steinmarder",
+      "plain": "Taxobox – Systematik – Art: Steinmarder"
+    },
+    {
+      "id": "271077237-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der '''Steinmarder''' (''Martes foina''), manchmal auch '''Hausmarder''' genannt, ist eine [[Raubtiere|Raubtierart]] aus der Familie der [[Marder]] (Mustelidae).",
+      "plain": null
+    },
+    {
+      "id": "271077237-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er ist in [[Mitteleuropa]] die häufigste Art der Gattung der [[Echte Marder|Echten Marder]] und war ursprünglich insbesondere in [[Mischwald|Mischwäldern]] oder felsigen Regionen anzutreffen.",
+      "plain": null
+    },
+    {
+      "id": "271077237-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als [[Kulturfolger]] sind Steinmarder regelmäßig in Siedlungsräumen zu finden.",
+      "plain": null
+    },
+    {
+      "id": "271077237-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "Da er gern in Gebäuden, insbesondere auf Dachböden, sowie in [[Stall|Ställen]] und [[Scheune]]n Unterschlupf sucht, führt dies häufig zu Konflikten mit Menschen.<ref name = NAB>[https://nrw.nabu.de/natur-und-landschaft/landnutzung/jagd/jagdbare-arten/beutegreifer/04608.html ''Der Steinmarder. Martes foina''] [[Naturschutzbund Deutschland]], abgerufen am 1. September 2024</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271077237,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271077237-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Steinmarder (Martes foina), manchmal auch Hausmarder genannt, ist eine Raubtierart aus der Familie der Marder (Mustelidae).",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271077237-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271077237-0006"
+        ],
+        "plain": "Er ist in Mitteleuropa die häufigste Art der Gattung der Echten Marder und war ursprünglich insbesondere in Mischwäldern oder felsigen Regionen anzutreffen.",
+        "context_plain": [
+          "Der Steinmarder (Martes foina), manchmal auch Hausmarder genannt, ist eine Raubtierart aus der Familie der Marder (Mustelidae)."
+        ]
+      },
+      {
+        "segment_id": "271077237-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271077237-0006",
+          "271077237-0007"
+        ],
+        "plain": "Als Kulturfolger sind Steinmarder regelmäßig in Siedlungsräumen zu finden.",
+        "context_plain": [
+          "Der Steinmarder (Martes foina), manchmal auch Hausmarder genannt, ist eine Raubtierart aus der Familie der Marder (Mustelidae).",
+          "Er ist in Mitteleuropa die häufigste Art der Gattung der Echten Marder und war ursprünglich insbesondere in Mischwäldern oder felsigen Regionen anzutreffen."
+        ]
+      },
+      {
+        "segment_id": "271077237-0009",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271077237-0006",
+          "271077237-0007",
+          "271077237-0008"
+        ],
+        "plain": "Da er gern in Gebäuden, insbesondere auf Dachböden, sowie in Ställen und Scheunen Unterschlupf sucht, führt dies häufig zu Konflikten mit Menschen.",
+        "context_plain": [
+          "Der Steinmarder (Martes foina), manchmal auch Hausmarder genannt, ist eine Raubtierart aus der Familie der Marder (Mustelidae).",
+          "Er ist in Mitteleuropa die häufigste Art der Gattung der Echten Marder und war ursprünglich insbesondere in Mischwäldern oder felsigen Regionen anzutreffen.",
+          "Als Kulturfolger sind Steinmarder regelmäßig in Siedlungsräumen zu finden."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

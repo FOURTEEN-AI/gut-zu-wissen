@@ -1,0 +1,101 @@
+{
+  "title": "Hirtenmaina",
+  "revid": 267626721,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-06-02T16:17:59Z",
+  "fetched_at": "2026-11-22T11:28:20Z",
+  "categories": [
+    "Kategorie:Neozoon (Wirbeltier) in Europa",
+    "Kategorie:Stare"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe bitte [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name       = Hirtenmaina\n| Taxon_WissName   = Acridotheres tristis\n| Taxon_Rang       = Art\n| Taxon_Autor      = ([[Carl von Linné|Linnaeus]], 1766)\n| Taxon2_Name      = Mainas\n| Taxon2_WissName  = Acridotheres\n| Taxon2_Rang      = Gattung\n| Taxon3_WissName  = Sturnini\n| Taxon3_Rang      = Tribus\n| Taxon4_WissName  = Sturninae\n| Taxon4_Rang      = Unterfamilie\n| Taxon5_Name      = Stare\n| Taxon5_WissName  = Sturnidae\n| Taxon5_Rang      = Familie\n| Taxon6_Name      = Singvögel\n| Taxon6_WissName  = Passeri\n| Taxon6_Rang      = Unterordnung\n| Bild             = Common Myna (Acridotheres tristis) on Kapok (Ceiba pentandra) in Kolkata W IMG 4297.jpg\n| Bildbeschreibung = Hirtenmaina in ihrer natürlichen Heimat [[Kolkata]] (Region [[Bengalen]] in [[Indien]]).\n}}\n[[Datei:Acridotheres tristis - Common Myna XC518361.mp3|mini]]\nDer '''Hirtenmaina''' oder '''Hirtenstar''' (''Acridotheres tristis'') ist eine ursprünglich [[Asien|asiatische]] [[Singvögel|Singvogel]][[Art (Biologie)|art]] aus der [[Familie (Biologie)|Familie]] der [[Stare]].\nAls [[Allesfresser]], der ursprünglich in offenen Wäldern beheimatet war, erwies sich der Hirtenmaina als [[Kulturfolger]], der außerordentlich gut an [[Urbanisierung|urbane]] [[Ökosystem]]e angepasst ist.\n\nDie Anzahl der Hirtenmainas hat durch menschliche Einflüsse zugenommen und die [[IUCN]] hat die [[Art (Biologie)|Art]] im Jahr 2000 in eine Liste von invasiven [[Neozoa]] aufgenommen.<ref name=\"Lowe et al\">S. Lowe, M. Browne, S. Boudjelas, M. de Poorter: ''100 of the World’s Worst Invasive Alien Species. A selection from the Global Invasive Species Database.'' The Invasive Species Specialist Group (ISSG), a specialist group of the Species Survival Commission (SSC) of the World Conservation Union (IUCN), Auckland, 2000.</ref>",
+  "segments": [
+    {
+      "id": "267626721-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon6_Name      = Singvögel | Taxon6_WissName  = Passeri",
+      "plain": "Taxobox – Systematik – Unterordnung: Singvögel (Passeri)"
+    },
+    {
+      "id": "267626721-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_Name      = Stare | Taxon5_WissName  = Sturnidae",
+      "plain": "Taxobox – Systematik – Familie: Stare (Sturnidae)"
+    },
+    {
+      "id": "267626721-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_WissName  = Sturninae",
+      "plain": "Taxobox – Systematik – Unterfamilie: Sturninae"
+    },
+    {
+      "id": "267626721-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon3_WissName  = Sturnini",
+      "plain": "Taxobox – Systematik – Tribus: Sturnini"
+    },
+    {
+      "id": "267626721-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_Name      = Mainas | Taxon2_WissName  = Acridotheres",
+      "plain": "Taxobox – Systematik – Gattung: Mainas (Acridotheres)"
+    },
+    {
+      "id": "267626721-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name       = Hirtenmaina",
+      "plain": "Taxobox – Systematik – Art: Hirtenmaina"
+    },
+    {
+      "id": "267626721-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der '''Hirtenmaina''' oder '''Hirtenstar''' (''Acridotheres tristis'') ist eine ursprünglich [[Asien|asiatische]] [[Singvögel|Singvogel]][[Art (Biologie)|art]] aus der [[Familie (Biologie)|Familie]] der [[Stare]].",
+      "plain": null
+    },
+    {
+      "id": "267626721-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als [[Allesfresser]], der ursprünglich in offenen Wäldern beheimatet war, erwies sich der Hirtenmaina als [[Kulturfolger]], der außerordentlich gut an [[Urbanisierung|urbane]] [[Ökosystem]]e angepasst ist.",
+      "plain": null
+    },
+    {
+      "id": "267626721-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Anzahl der Hirtenmainas hat durch menschliche Einflüsse zugenommen und die [[IUCN]] hat die [[Art (Biologie)|Art]] im Jahr 2000 in eine Liste von invasiven [[Neozoa]] aufgenommen.<ref name=\"Lowe et al\">S. Lowe, M. Browne, S. Boudjelas, M. de Poorter: ''100 of the World’s Worst Invasive Alien Species. A selection from the Global Invasive Species Database.'' The Invasive Species Specialist Group (ISSG), a specialist group of the Species Survival Commission (SSC) of the World Conservation Union (IUCN), Auckland, 2000.</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 267626721,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "267626721-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "267626721-0006"
+        ],
+        "plain": "Als Allesfresser, der ursprünglich in offenen Wäldern beheimatet war, erwies sich der Hirtenmaina als Kulturfolger, der außerordentlich gut an urbane Ökosysteme angepasst ist.",
+        "context_plain": [
+          "Der Hirtenmaina oder Hirtenstar (Acridotheres tristis) ist eine ursprünglich asiatische Singvogelart aus der Familie der Stare."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "267626721-0008",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

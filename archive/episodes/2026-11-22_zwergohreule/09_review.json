@@ -1,0 +1,2829 @@
+{
+  "episode_id": "2026-11-22_zwergohreule",
+  "title": "Zwergohreule",
+  "rate": 1.0,
+  "seed": "2026-11-22_zwergohreule",
+  "population": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    11,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    66,
+    68,
+    70,
+    72,
+    74,
+    76,
+    78,
+    80,
+    82,
+    84,
+    86,
+    88,
+    90,
+    92,
+    94,
+    96,
+    98,
+    100,
+    102,
+    104,
+    106,
+    107,
+    108,
+    110,
+    112
+  ],
+  "draws": [
+    {
+      "turn_index": 0,
+      "u": 0.03704314655051588,
+      "sampled": true
+    },
+    {
+      "turn_index": 2,
+      "u": 0.9924555271465667,
+      "sampled": true
+    },
+    {
+      "turn_index": 4,
+      "u": 0.8747487909325191,
+      "sampled": true
+    },
+    {
+      "turn_index": 6,
+      "u": 0.4001108207066012,
+      "sampled": true
+    },
+    {
+      "turn_index": 8,
+      "u": 0.008023884434936845,
+      "sampled": true
+    },
+    {
+      "turn_index": 10,
+      "u": 0.8530855224451392,
+      "sampled": true
+    },
+    {
+      "turn_index": 11,
+      "u": 0.900397955354917,
+      "sampled": true
+    },
+    {
+      "turn_index": 12,
+      "u": 0.7257990797132507,
+      "sampled": true
+    },
+    {
+      "turn_index": 14,
+      "u": 0.9978281250112658,
+      "sampled": true
+    },
+    {
+      "turn_index": 16,
+      "u": 0.8201923878393222,
+      "sampled": true
+    },
+    {
+      "turn_index": 18,
+      "u": 0.0633327836820119,
+      "sampled": true
+    },
+    {
+      "turn_index": 20,
+      "u": 0.7821160634633675,
+      "sampled": true
+    },
+    {
+      "turn_index": 22,
+      "u": 0.7980646660806662,
+      "sampled": true
+    },
+    {
+      "turn_index": 24,
+      "u": 0.9595469078858401,
+      "sampled": true
+    },
+    {
+      "turn_index": 26,
+      "u": 0.6858497700604038,
+      "sampled": true
+    },
+    {
+      "turn_index": 28,
+      "u": 0.1550633198306952,
+      "sampled": true
+    },
+    {
+      "turn_index": 30,
+      "u": 0.9191983386945944,
+      "sampled": true
+    },
+    {
+      "turn_index": 32,
+      "u": 0.3803841868224199,
+      "sampled": true
+    },
+    {
+      "turn_index": 34,
+      "u": 0.5388524300912308,
+      "sampled": true
+    },
+    {
+      "turn_index": 36,
+      "u": 0.7772779134862122,
+      "sampled": true
+    },
+    {
+      "turn_index": 38,
+      "u": 0.5797631327680016,
+      "sampled": true
+    },
+    {
+      "turn_index": 40,
+      "u": 0.4680059501595696,
+      "sampled": true
+    },
+    {
+      "turn_index": 42,
+      "u": 0.8365757219075386,
+      "sampled": true
+    },
+    {
+      "turn_index": 44,
+      "u": 0.81128846534705,
+      "sampled": true
+    },
+    {
+      "turn_index": 46,
+      "u": 0.09112484557652334,
+      "sampled": true
+    },
+    {
+      "turn_index": 48,
+      "u": 0.6886925230590912,
+      "sampled": true
+    },
+    {
+      "turn_index": 50,
+      "u": 0.35707569287932006,
+      "sampled": true
+    },
+    {
+      "turn_index": 52,
+      "u": 0.0881677606888448,
+      "sampled": true
+    },
+    {
+      "turn_index": 54,
+      "u": 0.4000749039494068,
+      "sampled": true
+    },
+    {
+      "turn_index": 56,
+      "u": 0.7987297703259328,
+      "sampled": true
+    },
+    {
+      "turn_index": 58,
+      "u": 0.9079382217286476,
+      "sampled": true
+    },
+    {
+      "turn_index": 60,
+      "u": 0.5939975356758097,
+      "sampled": true
+    },
+    {
+      "turn_index": 62,
+      "u": 0.9642927659657828,
+      "sampled": true
+    },
+    {
+      "turn_index": 64,
+      "u": 0.1978534985507795,
+      "sampled": true
+    },
+    {
+      "turn_index": 66,
+      "u": 0.5343986177566105,
+      "sampled": true
+    },
+    {
+      "turn_index": 68,
+      "u": 0.08140333573315606,
+      "sampled": true
+    },
+    {
+      "turn_index": 70,
+      "u": 0.1341274696492648,
+      "sampled": true
+    },
+    {
+      "turn_index": 72,
+      "u": 0.965051071599523,
+      "sampled": true
+    },
+    {
+      "turn_index": 74,
+      "u": 0.9210147709695105,
+      "sampled": true
+    },
+    {
+      "turn_index": 76,
+      "u": 0.5717115582203957,
+      "sampled": true
+    },
+    {
+      "turn_index": 78,
+      "u": 0.10718775332780273,
+      "sampled": true
+    },
+    {
+      "turn_index": 80,
+      "u": 0.5794728257035153,
+      "sampled": true
+    },
+    {
+      "turn_index": 82,
+      "u": 0.4396843478679876,
+      "sampled": true
+    },
+    {
+      "turn_index": 84,
+      "u": 0.4789512362413094,
+      "sampled": true
+    },
+    {
+      "turn_index": 86,
+      "u": 0.32297904730357685,
+      "sampled": true
+    },
+    {
+      "turn_index": 88,
+      "u": 0.06476638342654495,
+      "sampled": true
+    },
+    {
+      "turn_index": 90,
+      "u": 0.9736994314135464,
+      "sampled": true
+    },
+    {
+      "turn_index": 92,
+      "u": 0.6446197591217472,
+      "sampled": true
+    },
+    {
+      "turn_index": 94,
+      "u": 0.23242853592540558,
+      "sampled": true
+    },
+    {
+      "turn_index": 96,
+      "u": 0.4005423113914076,
+      "sampled": true
+    },
+    {
+      "turn_index": 98,
+      "u": 0.7808552812427456,
+      "sampled": true
+    },
+    {
+      "turn_index": 100,
+      "u": 0.424513220715766,
+      "sampled": true
+    },
+    {
+      "turn_index": 102,
+      "u": 0.18263151504372477,
+      "sampled": true
+    },
+    {
+      "turn_index": 104,
+      "u": 0.18806288134635285,
+      "sampled": true
+    },
+    {
+      "turn_index": 106,
+      "u": 0.8896983316250661,
+      "sampled": true
+    },
+    {
+      "turn_index": 107,
+      "u": 0.7538768811191301,
+      "sampled": true
+    },
+    {
+      "turn_index": 108,
+      "u": 0.9175662644026983,
+      "sampled": true
+    },
+    {
+      "turn_index": 110,
+      "u": 0.25113372482007956,
+      "sampled": true
+    },
+    {
+      "turn_index": 112,
+      "u": 0.5294303758249935,
+      "sampled": true
+    }
+  ],
+  "status": "pending",
+  "outcome": null,
+  "rate_applied": [],
+  "issue": 32,
+  "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/32",
+  "explicit": {
+    "model": "claude-sonnet-5-5",
+    "predicted": false,
+    "verdict": "clean",
+    "findings": [],
+    "reason": "Das Gespräch behandelt sachlich die Biologie, Verbreitung und Systematik der Zwergohreule. Beutefang, Fressfeinde und das Verfüttern toter Nestlinge werden nur nüchtern und ohne anschauliche Schilderung erwähnt. Es kommen weder drastische Gewalt noch Sexualität, Drogen oder Schimpfwörter vor.",
+    "label": null,
+    "reviewer_flag": null,
+    "note": null,
+    "comment_id": null
+  },
+  "turns": [
+    {
+      "turn_index": 0,
+      "speaker": "Lena",
+      "text": "Heute geht es um die Zwergohreule, lateinisch Otus scops. Sie ist nach dem Sperlingskauz die zweitkleinste europäische Eule und erreicht knapp Amselgröße. Die Art ist in fünf Unterarten aufgeteilt, die jedoch recht wenig differenziert sind.",
+      "previous_text": null,
+      "fact_ids": [
+        "272372222-0005",
+        "272372222-0006"
+      ],
+      "statements": [
+        {
+          "text": "Die Zwergohreule ist nach dem Sperlingskauz die zweitkleinste europäische Eule und erreicht knapp Amselgröße.",
+          "fact_ids": [
+            "272372222-0005"
+          ]
+        },
+        {
+          "text": "Die Art ist in fünf Unterarten aufgeteilt, die jedoch recht wenig differenziert sind.",
+          "fact_ids": [
+            "272372222-0006"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0005",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die Zwergohreule (Otus scops) ist – nach dem Sperlingskauz – die zweitkleinste europäische Eule, sie erreicht knapp Amselgröße.",
+          "context": []
+        },
+        {
+          "id": "272372222-0006",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die Art ist in fünf Unterarten aufgeteilt, die jedoch recht wenig differenziert sind.",
+          "context": [
+            "Die Zwergohreule (Otus scops) ist – nach dem Sperlingskauz – die zweitkleinste europäische Eule, sie erreicht knapp Amselgröße."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.57
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Zwergohreule (Otus scops), zweitkleinste europäische Eule nach dem Sperlingskauz, knapp Amselgröße (Fakt 0005) sowie fünf Unterarten, die recht wenig differenziert sind (Fakt 0006). „Heute geht es um…“ ist eine belegfreie Überleitung. Es gibt keine Fragen und keine zusätzlichen Angaben; „Die Art“ bezieht sich eindeutig auf die Zwergohreule."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Lena",
+      "text": "Die Zwergohreule wird zwischen neunzehn und einundzwanzig Zentimeter lang, bei einer Spannweite von neunundvierzig bis vierundfünfzig Zentimetern. Mit einer Körpergröße von etwa zwanzig Zentimetern ist sie die kleinste der Ohreulen. Aus diesem Grund erhielt sie ihren Trivialnamen.",
+      "previous_text": "Das möchte ich mir genau vorstellen. Wie groß ist sie denn ganz genau?",
+      "fact_ids": [
+        "272372222-0013",
+        "272372222-0008"
+      ],
+      "statements": [
+        {
+          "text": "Die Zwergohreule wird zwischen 19 und 21 Zentimeter lang, bei einer Spannweite von 49 bis 54 Zentimetern.",
+          "fact_ids": [
+            "272372222-0013"
+          ]
+        },
+        {
+          "text": "Die Zwergohreule ist mit einer Körpergröße von etwa 20 Zentimetern die kleinste der Ohreulen und erhielt aus diesem Grund ihren Trivialnamen.",
+          "fact_ids": [
+            "272372222-0008"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0013",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Sie wird zwischen 19 und 21 Zentimeter lang, bei einer Spannweite von 49 bis 54 Zentimetern.",
+          "context": []
+        },
+        {
+          "id": "272372222-0008",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die Zwergohreule ist mit einer Körpergröße von etwa 20 Zentimetern die kleinste der Ohreulen und erhielt aus diesem Grund ihren Trivialnamen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Lena",
+      "text": "Die Zwergohreule ist etwa halb so groß wie die Waldohreule und die Sumpfohreule.",
+      "previous_text": "Gibt es andere Eulen, an denen man diese Größe festmachen kann?",
+      "fact_ids": [
+        "272372222-0009"
+      ],
+      "statements": [
+        {
+          "text": "Die Zwergohreule ist etwa halb so groß wie die Waldohreule und die Sumpfohreule.",
+          "fact_ids": [
+            "272372222-0009"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0009",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Sie ist etwa halb so groß wie die Waldohreule (Asio otus) und die Sumpfohreule (Asio flammeus).",
+          "context": [
+            "Die Zwergohreule ist mit einer Körpergröße von etwa 20 Zentimetern die kleinste der Ohreulen und erhielt aus diesem Grund ihren Trivialnamen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Lena",
+      "text": "Gemeint sind die Federohren. Das sind auffallend verlängerte Kopffedern, die etwa die Hälfte der Eulenarten entwickelt hat. Die Federohren bestehen aus vier bis acht Federn, und mit dem Gehör haben sie nichts zu tun.",
+      "previous_text": "Der Name sagt Ohreule. Was hat es mit den Ohren auf sich?",
+      "fact_ids": [
+        "247550419-0000",
+        "247550419-0001"
+      ],
+      "statements": [
+        {
+          "text": "Federohren sind auffallend verlängerte Kopffedern, die etwa die Hälfte der Eulenarten entwickelt hat.",
+          "fact_ids": [
+            "247550419-0000"
+          ]
+        },
+        {
+          "text": "Die Federohren bestehen aus vier bis acht Federn und haben mit dem Gehör nichts zu tun.",
+          "fact_ids": [
+            "247550419-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "247550419-0000",
+          "article": "Federohr",
+          "revid": 247550419,
+          "sentence": "Federohren sind auffallend verlängerte Kopffedern, die etwa die Hälfte der Eulenarten entwickelt hat.",
+          "context": []
+        },
+        {
+          "id": "247550419-0001",
+          "article": "Federohr",
+          "revid": 247550419,
+          "sentence": "Sie bestehen aus vier bis acht Federn; mit dem Gehör haben sie nichts zu tun.",
+          "context": [
+            "Federohren sind auffallend verlängerte Kopffedern, die etwa die Hälfte der Eulenarten entwickelt hat."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.9
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Federohren als auffallend verlängerte Kopffedern, die etwa die Hälfte der Eulenarten entwickelt hat (0000), vier bis acht Federn und kein Zusammenhang mit dem Gehör (0001). \"Sie\" im zweiten Fakt bezieht sich laut Kontext eindeutig auf die Federohren, die Lena nennt. Der Einstieg \"Gemeint sind die Federohren\" greift Felix' Frage zu den Ohren auf und ist belegfrei. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Lena",
+      "text": "Welche Funktion den Federohren zukommt, ist nicht genau bekannt. Während der Balz, in Aggressionssituationen und generell als Stimmungsanzeiger scheinen sie aber gemeinsam mit dem für Eulen typischen Gesichtsschleier eine Rolle zu spielen.",
+      "previous_text": "Welche Aufgabe haben diese Federohren?",
+      "fact_ids": [
+        "247550419-0002"
+      ],
+      "statements": [
+        {
+          "text": "Die Funktion der Federohren ist nicht genau bekannt; während der Balz, in Aggressionssituationen und generell als Stimmungsanzeiger scheinen sie gemeinsam mit dem eulenspezifischen Gesichtsschleier aber eine Rolle zu spielen.",
+          "fact_ids": [
+            "247550419-0002"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "247550419-0002",
+          "article": "Federohr",
+          "revid": 247550419,
+          "sentence": "Welche Funktion ihnen zukommt, ist nicht genau bekannt – während der Balz, in Aggressionssituationen und generell als Stimmungsanzeiger scheinen sie gemeinsam mit dem eulenspezifischen Gesichtsschleier aber eine Rolle zu spielen.",
+          "context": [
+            "Federohren sind auffallend verlängerte Kopffedern, die etwa die Hälfte der Eulenarten entwickelt hat.",
+            "Sie bestehen aus vier bis acht Federn; mit dem Gehör haben sie nichts zu tun."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "Lena",
+      "text": "Der Größen- und Proportionseindruck hängt bei dieser Art sehr stark von der Stellung der vergleichsweise kleinen Federohren ab. Sind sie angelegt, wirkt die Eule klein, gedrungen und großköpfig. Dann besteht eventuell eine Verwechslungsmöglichkeit mit dem Steinkauz.",
+      "previous_text": "Sieht die Zwergohreule mit diesen Federohren immer gleich aus?",
+      "fact_ids": [
+        "272372222-0020"
+      ],
+      "statements": [
+        {
+          "text": "Der Größen- und Proportionseindruck der Zwergohreule hängt sehr stark von der Stellung der vergleichsweise kleinen Federohren ab: Sind sie angelegt, wirkt die Eule klein, gedrungen und großköpfig, und es besteht eventuell eine Verwechslungsmöglichkeit mit dem Steinkauz.",
+          "fact_ids": [
+            "272372222-0020"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0020",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Der Größen- und Proportionseindruck bei dieser Art ist sehr stark von der Stellung der vergleichsweise kleinen Federohren abhängig: Sind sie angelegt, wirkt die Eule klein, gedrungen, großköpfig (in diesem Falle besteht eventuell eine Verwechslungsmöglichkeit mit dem Steinkauz).",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 11,
+      "speaker": "Felix",
+      "text": "Wofür ist dieser Steinkauz eigentlich bekannt, mit dem man sie verwechseln kann?",
+      "previous_text": "Der Größen- und Proportionseindruck hängt bei dieser Art sehr stark von der Stellung der vergleichsweise kleinen Federohren ab. Sind sie angelegt, wirkt die Eule klein, gedrungen und großköpfig. Dann besteht eventuell eine Verwechslungsmöglichkeit mit dem Steinkauz.",
+      "fact_ids": [
+        "272372222-0020"
+      ],
+      "statements": [
+        {
+          "text": "Bei angelegten Federohren besteht eventuell eine Verwechslungsmöglichkeit der Zwergohreule mit dem Steinkauz.",
+          "fact_ids": [
+            "272372222-0020"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0020",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Der Größen- und Proportionseindruck bei dieser Art ist sehr stark von der Stellung der vergleichsweise kleinen Federohren abhängig: Sind sie angelegt, wirkt die Eule klein, gedrungen, großköpfig (in diesem Falle besteht eventuell eine Verwechslungsmöglichkeit mit dem Steinkauz).",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.82
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine reine Nachfrage, die um Erklärung zum Steinkauz bittet. Die Prämisse, dass man die Zwergohreule mit dem Steinkauz verwechseln kann, steht im Fakt-Satz (\"eventuell eine Verwechslungsmöglichkeit mit dem Steinkauz\") und im vorherigen Beitrag. Die Frage nimmt keine Einzelheit zum Steinkauz vorweg, sondern setzt nur voraus, dass es etwas zu erzählen gibt. Daher ist sie belegfrei bzw. gedeckt."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "Lena",
+      "text": "Die Redewendung Eulen nach Athen tragen bezieht sich auf den Steinkauz beziehungsweise seine Abbildung auf antiken Drachme-Münzen.",
+      "previous_text": "Wofür ist dieser Steinkauz eigentlich bekannt, mit dem man sie verwechseln kann?",
+      "fact_ids": [
+        "266926397-0010"
+      ],
+      "statements": [
+        {
+          "text": "Die Redewendung Eulen nach Athen tragen bezieht sich auf den Steinkauz bzw. seine Abbildung auf antiken Drachme-Münzen.",
+          "fact_ids": [
+            "266926397-0010"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "266926397-0010",
+          "article": "Steinkauz",
+          "revid": 266926397,
+          "sentence": "Deswegen bezieht sich die Redewendung Eulen nach Athen tragen auf den Steinkauz bzw. seine Abbildung auf antiken Drachme-Münzen.",
+          "context": [
+            "Der Steinkauz galt bereits im antiken Griechenland als Vogel der Weisheit und war Sinnbild der Göttin Athene, worauf auch der wissenschaftliche Name verweist."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 14,
+      "speaker": "Lena",
+      "text": "Der Ruf der Zwergohreule ist ein peilsenderartiges, fast immer einsilbiges, etwas nasales und nicht besonders lautes „Djü“. Die Tonhöhe liegt bei etwa vierzehnhundert Hertz. Der Ruf wird in Abständen von zwei bis dreieinhalb Sekunden oft stundenlang wiederholt.",
+      "previous_text": "Spannend! Und wie macht sich die Zwergohreule akustisch bemerkbar?",
+      "fact_ids": [
+        "272372222-0033"
+      ],
+      "statements": [
+        {
+          "text": "Der Ruf der Zwergohreule ist ein peilsenderartiges, fast immer einsilbiges, etwas nasales und nicht besonders lautes „Djü“ in einer Tonhöhe von etwa 1400 Hz, das in Abständen von 2 bis 3,5 Sekunden oft stundenlang wiederholt wird.",
+          "fact_ids": [
+            "272372222-0033"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0033",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Er ist ein peilsenderartiges, fast immer einsilbiges, etwas nasales und nicht besonders lautes „Djü“ in einer Tonhöhe von etwa 1400 Hz, das in Abständen von 2 bis 3,5 Sekunden oft stundenlang wiederholt wird.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 16,
+      "speaker": "Lena",
+      "text": "Da die Zwergohreule während des Gesanges den Kopf dreht, ist sie nur schwer aufgrund ihrer Rufe zu lokalisieren.",
+      "previous_text": "Kann man die Eule mit diesem Ruf leicht aufspüren?",
+      "fact_ids": [
+        "272372222-0037"
+      ],
+      "statements": [
+        {
+          "text": "Da die Zwergohreule während des Gesanges den Kopf dreht, ist sie nur schwer aufgrund ihrer Rufe zu lokalisieren.",
+          "fact_ids": [
+            "272372222-0037"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0037",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Da die Zwergohreule während des Gesanges den Kopf dreht, ist sie nur schwer aufgrund ihrer Rufe zu lokalisieren.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 18,
+      "speaker": "Lena",
+      "text": "Der Ruf der Geburtshelferkröte lautet auf „ü“ ohne Modulierung. Er klingt heller und zudem etwa einen ganzen Ton tiefer.",
+      "previous_text": "Gibt es ein anderes Tier, mit dem sich der Ruf vergleichen lässt?",
+      "fact_ids": [
+        "272372222-0035"
+      ],
+      "statements": [
+        {
+          "text": "Der Ruf der Geburtshelferkröte lautet auf „ü“ ohne Modulierung und klingt heller, zudem etwa einen ganzen Ton tiefer.",
+          "fact_ids": [
+            "272372222-0035"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0035",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Der Ruf der Geburtshelferkröte lautet dagegen auf „ü“ ohne Modulierung und klingt heller, zudem etwa einen ganzen Ton tiefer.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 20,
+      "speaker": "Lena",
+      "text": "Insekten werden mit den Fängen gepackt und in der geschlossenen Faust zum Schnabel geführt. Dort entfernt die Eule harte Chitinteile, Beine und Köpfe vor dem Verzehr.",
+      "previous_text": "Gut, genug gelauscht. Was frisst die Zwergohreule eigentlich?",
+      "fact_ids": [
+        "272372222-0125"
+      ],
+      "statements": [
+        {
+          "text": "Insekten werden mit den Fängen gepackt und in der geschlossenen Faust zum Schnabel geführt, wo die Eule harte Chitinteile, Beine und Köpfe vor dem Verzehr entfernt.",
+          "fact_ids": [
+            "272372222-0125"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0125",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Insekten werden mit den Fängen gepackt und in der geschlossenen Faust zum Schnabel geführt, wo sie harte Chitinteile, Beine und Köpfe vor dem Verzehr entfernt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.96,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Lena",
+      "text": "Aufgrund des sehr kleinen Schnabels kann die Zwergohreule nur kleine Bissen aufnehmen.",
+      "previous_text": "Gibt es eine Grenze bei der Größe der Bissen?",
+      "fact_ids": [
+        "272372222-0123"
+      ],
+      "statements": [
+        {
+          "text": "Aufgrund des sehr kleinen Schnabels kann die Zwergohreule nur kleine Bissen aufnehmen.",
+          "fact_ids": [
+            "272372222-0123"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0123",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Aufgrund des sehr kleinen Schnabels kann die Eule nur kleine Bissen aufnehmen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.84,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz fast wörtlich wieder. Das Bezugswort „die Eule“ wird zu „die Zwergohreule“ aufgelöst, und das ist das Thema des Artikels. Das ist erlaubt. Die Aussage passt auch zu Felix' Frage nach einer Grenze bei der Bissengröße. Es kommt keine zusätzliche Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Lena",
+      "text": "Die Zwergohreule kann auch fliegende Beute wie Nachtfalter in der Luft ergreifen. Das geschieht nicht selten im Lichtschein von Straßenlaternen.",
+      "previous_text": "Und wie kommt sie an ihre Beute?",
+      "fact_ids": [
+        "272372222-0119"
+      ],
+      "statements": [
+        {
+          "text": "Die Zwergohreule kann fliegende Beute wie Nachtfalter in der Luft ergreifen, nicht selten im Lichtschein von Straßenlaternen.",
+          "fact_ids": [
+            "272372222-0119"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0119",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Daneben kann sie auch fliegende Beute wie Nachtfalter in der Luft ergreifen, nicht selten im Lichtschein von Straßenlaternen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 26,
+      "speaker": "Lena",
+      "text": "Größere Insekten und kleine Vögel kann die Zwergohreule im Zickzackflug verfolgen. Sie ergreift diese Beute, wenn sie landet.",
+      "previous_text": "Im Licht der Straßenlaternen, das hätte ich nicht erwartet! Jagt sie auch größere Tiere?",
+      "fact_ids": [
+        "272372222-0120"
+      ],
+      "statements": [
+        {
+          "text": "Größere Insekten und kleine Vögel kann die Zwergohreule im Zickzackflug verfolgen und ergreift sie, wenn sie landen.",
+          "fact_ids": [
+            "272372222-0120"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0120",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Größere Insekten und kleine Vögel kann sie im Zickzackflug verfolgen und ergreift sie, wenn sie landen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 28,
+      "speaker": "Lena",
+      "text": "Größere Beute, vor allem Kleinsäuger, wird beim Aufprall auf den Boden ergriffen. Danach deckt die Eule sie mit den Flügeln ab. Das nennt man mantelt. Sie tut das, solange die Beute Gegenwehr zeigt.",
+      "previous_text": "Und wie sieht es mit Säugetieren aus?",
+      "fact_ids": [
+        "272372222-0118"
+      ],
+      "statements": [
+        {
+          "text": "Größere Beute, vor allem Kleinsäuger, wird beim Aufprall auf den Boden ergriffen und dann mit den Flügeln abgedeckt (gemantelt), solange sie Gegenwehr zeigt.",
+          "fact_ids": [
+            "272372222-0118"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0118",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Größere Beute, vor allem Kleinsäuger werden beim Aufprall auf den Boden ergriffen und dann mit den Flügeln abgedeckt (gemantelt), solange sie Gegenwehr zeigen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.91
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Größere Beute, vor allem Kleinsäuger, wird beim Aufprall auf den Boden ergriffen, mit den Flügeln abgedeckt (gemantelt), solange sie Gegenwehr zeigt. Die Eule als Subjekt ergibt sich aus dem Artikelthema Zwergohreule. Die Erklärung des Begriffs „mantelt“ steht in der Klammer des Fakts. Es gibt keine Fragen oder zusätzlichen Angaben, und der Bezug zu Säugetieren in der vorherigen Frage passt zu „Kleinsäuger“."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Lena",
+      "text": "Die Zwergohreule verzehrt ihre Beute grundsätzlich frisch und legt keine Beutelager an.",
+      "previous_text": "Legt sie sich Vorräte an?",
+      "fact_ids": [
+        "272372222-0122"
+      ],
+      "statements": [
+        {
+          "text": "Die Zwergohreule verzehrt ihre Beute grundsätzlich frisch und legt keine Beutelager an.",
+          "fact_ids": [
+            "272372222-0122"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0122",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die Eule verzehrt ihre Beute grundsätzlich frisch und legt keine Beutelager an.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 32,
+      "speaker": "Lena",
+      "text": "Im Zentrum ihrer Vorkommen nutzen Zwergohreulen nicht nur Kulturlandschaften als Brutorte. Sie sind auch in Dörfern und Städten in der direkten Nachbarschaft von Menschen anzutreffen.",
+      "previous_text": "Wo brütet sie eigentlich?",
+      "fact_ids": [
+        "272372222-0064"
+      ],
+      "statements": [
+        {
+          "text": "Im Zentrum ihrer Vorkommen nutzen Zwergohreulen nicht nur Kulturlandschaften als Brutorte, sie sind auch in Dörfern und Städten in der direkten Nachbarschaft von Menschen anzutreffen.",
+          "fact_ids": [
+            "272372222-0064"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0064",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Im Zentrum ihrer Vorkommen nutzen Zwergohreulen nicht nur Kulturlandschaften als Brutorte, sie sind auch in Dörfern und Städten in der direkten Nachbarschaft von Menschen anzutreffen.",
+          "context": [
+            "Auch Kunsthöhlen bzw. Nistkästen mit Eingangshöhlungen von etwa acht Zentimeter Durchmesser werden angenommen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 34,
+      "speaker": "Lena",
+      "text": "Die Zwergohreule nimmt auch Kunsthöhlen oder Nistkästen an. Die Eingangshöhlungen haben dabei etwa acht Zentimeter Durchmesser.",
+      "previous_text": "Welche Brutplätze nimmt sie denn an?",
+      "fact_ids": [
+        "272372222-0063"
+      ],
+      "statements": [
+        {
+          "text": "Auch Kunsthöhlen bzw. Nistkästen mit Eingangshöhlungen von etwa acht Zentimeter Durchmesser werden angenommen.",
+          "fact_ids": [
+            "272372222-0063"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0063",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Auch Kunsthöhlen bzw. Nistkästen mit Eingangshöhlungen von etwa acht Zentimeter Durchmesser werden angenommen.",
+          "context": [
+            "Zudem müssen geeignete Brutplätze vorhanden sein, überwiegend Baumhöhlen oder vergleichbare Hohlräume."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 36,
+      "speaker": "Lena",
+      "text": "Die Eier sind kurzoval. Sie sind einunddreißig Komma drei mal siebenundzwanzig Millimeter groß und wiegen etwa dreizehn Gramm. Die Weibchen beginnen schon nach Ablage des ersten Eis mit dem Brüten. Meist sind sie bereits einige Tage vorher in der Höhle.",
+      "previous_text": "Wie sehen die Eier aus?",
+      "fact_ids": [
+        "272372222-0093"
+      ],
+      "statements": [
+        {
+          "text": "Die Eier sind kurzoval, haben eine Größe von 31,3 × 27,0 Millimetern und ein Gewicht von etwa 13 Gramm.",
+          "fact_ids": [
+            "272372222-0093"
+          ]
+        },
+        {
+          "text": "Die Weibchen beginnen mit dem Brüten bereits nach Ablage des ersten Eis, meist sind sie bereits einige Tage vorher in der Höhle.",
+          "fact_ids": [
+            "272372222-0093"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0093",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die Eier sind kurzoval, sie haben eine Größe von 31,3 × 27,0 Millimetern und ein Gewicht von etwa 13 Gramm. Die Weibchen beginnen mit dem Brüten bereits nach Ablage des ersten Eis, meist sind sie bereits einige Tage vorher in der Höhle.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 38,
+      "speaker": "Lena",
+      "text": "Die Jungen schlüpfen nach etwa zwanzig bis einunddreißig, durchschnittlich vierundzwanzig Tagen. Sie wiegen nur etwa neun Gramm. Sie sind zart gebaut und liegen anfangs auf dem Bauch.",
+      "previous_text": "Und wann schlüpfen die Jungen?",
+      "fact_ids": [
+        "272372222-0100"
+      ],
+      "statements": [
+        {
+          "text": "Die Jungen schlüpfen nach etwa 20 bis 31, durchschnittlich 24 Tagen und wiegen nur etwa neun Gramm; sie sind zart gebaut und liegen anfangs auf dem Bauch.",
+          "fact_ids": [
+            "272372222-0100"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0100",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die Jungen schlüpfen nach etwa 20 bis 31, durchschnittlich 24, Tagen und wiegen nur etwa neun Gramm. Sie sind zart gebaut und liegen anfangs auf dem Bauch.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.96,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 40,
+      "speaker": "Lena",
+      "text": "Wenn Nestlinge sterben, werden sie gefressen oder an die Geschwister verfüttert.",
+      "previous_text": "Und wie geht es im Nest weiter?",
+      "fact_ids": [
+        "272372222-0098"
+      ],
+      "statements": [
+        {
+          "text": "Verstorbene Nestlinge werden gefressen oder an die Geschwister verfüttert.",
+          "fact_ids": [
+            "272372222-0098"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0098",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Verstorbene Nestlinge werden gefressen oder an die Geschwister verfüttert.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 42,
+      "speaker": "Lena",
+      "text": "Männchen und Weibchen benutzen auch während der Jungenaufzucht nur äußerst selten den gleichen Schlafbaum. Körperkontakt in der Ruhephase wurde außerhalb der Balzzeit nicht beobachtet.",
+      "previous_text": "Wow. Wie leben die Eltern miteinander?",
+      "fact_ids": [
+        "272372222-0070"
+      ],
+      "statements": [
+        {
+          "text": "Männchen und Weibchen benutzen auch während der Jungenaufzucht nur äußerst selten den gleichen Schlafbaum, und Körperkontakt in der Ruhephase wurde außerhalb der Balzzeit nicht beobachtet.",
+          "fact_ids": [
+            "272372222-0070"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0070",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Männchen und Weibchen benutzen auch während der Jungenaufzucht nur äußerst selten den gleichen Schlafbaum, Körperkontakt in der Ruhephase wurde außerhalb der Balzzeit nicht beobachtet.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 44,
+      "speaker": "Lena",
+      "text": "Auch im Jemen überwintern Zwergohreulen. Die östliche Unterart pulchellus überwintert in Indien.",
+      "previous_text": "Wo verbringt die Zwergohreule den Winter?",
+      "fact_ids": [
+        "272372222-0131"
+      ],
+      "statements": [
+        {
+          "text": "Auch im Jemen überwintern Zwergohreulen, die östliche Unterart pulchellus überwintert in Indien.",
+          "fact_ids": [
+            "272372222-0131"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0131",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Auch im Jemen überwintern Zwergohreulen, die östliche Unterart pulchellus überwintert in Indien.",
+          "context": [
+            "Im größten Teil ihres Verbreitungsgebietes ist die Zwergohreule ein Zugvogel mit Überwinterungsgebieten in den Baum- und Gebüschsavannen südlich der Sahara und nördlich der Regenwaldzone in Afrika."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 46,
+      "speaker": "Lena",
+      "text": "Zwergohreulen plustern während der Tagesruhe ihr Gefieder zwar oft auf. Regelrechtes Sonnenbaden wurde aber ebenso wenig beobachtet wie Sandbaden. Sandbaden, auch Staubbaden genannt, ist eine vor allem unter Vögeln anzutreffende Form des Komfortverhaltens. Es kann auch bei vielen anderen Landwirbeltieren wie Pferden und Zebras beobachtet werden.",
+      "previous_text": "Und wie verhält sie sich tagsüber, wenn sie ruht?",
+      "fact_ids": [
+        "272372222-0077",
+        "271265673-0000"
+      ],
+      "statements": [
+        {
+          "text": "Zwergohreulen plustern während der Tagesruhe ihr Gefieder zwar oft auf, doch wurde regelrechtes Sonnenbaden ebenso wenig beobachtet wie Sandbaden.",
+          "fact_ids": [
+            "272372222-0077"
+          ]
+        },
+        {
+          "text": "Sandbaden, auch Staubbaden, ist eine vor allem unter Vögeln anzutreffende Form des Komfortverhaltens, die auch bei vielen anderen Landwirbeltieren wie Pferden und Zebras beobachtet werden kann.",
+          "fact_ids": [
+            "271265673-0000"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0077",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Zwergohreulen plustern während der Tagesruhe ihr Gefieder zwar oft auf, doch wurde regelrechtes Sonnenbaden ebenso wenig beobachtet wie Sandbaden.",
+          "context": []
+        },
+        {
+          "id": "271265673-0000",
+          "article": "Sandbad",
+          "revid": 271265673,
+          "sentence": "Als Sandbaden (auch: Staubbaden) bezeichnet man eine vor allem unter Vögeln anzutreffende Form des Komfortverhaltens, die aber auch bei vielen anderen Landwirbeltieren wie Pferden und Zebras beobachtet werden kann.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 48,
+      "speaker": "Lena",
+      "text": "Hauskatzen gehören zu den nachgewiesenen Fressfeinden der Zwergohreule. Vor allem in Siedlungsgebieten stellen sie ein erhöhtes Risiko dar.",
+      "previous_text": "Interessant. Wer stellt der Zwergohreule eigentlich nach?",
+      "fact_ids": [
+        "272372222-0140"
+      ],
+      "statements": [
+        {
+          "text": "Hauskatzen gehören zu den nachgewiesenen Fressfeinden der Zwergohreule und stellen vor allem in Siedlungsgebieten ein erhöhtes Risiko dar.",
+          "fact_ids": [
+            "272372222-0140"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0140",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Auch Hauskatzen (Felis catus) gehören zu den nachgewiesenen Fressfeinden der Zwergohreule und stellen vor allem in Siedlungsgebieten ein erhöhtes Risiko dar.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 50,
+      "speaker": "Lena",
+      "text": "In einer Untersuchung in den italienischen Alpen wurden zwischen neunzehnhundertfünfundneunzig und zweitausenddrei zwölf Todesfälle dokumentiert. Darunter waren ein adultes Tier und ein bereits ausgeflogener Jungvogel, die von Hauskatzen erbeutet worden waren.",
+      "previous_text": "Gibt es dazu Zahlen?",
+      "fact_ids": [
+        "272372222-0141"
+      ],
+      "statements": [
+        {
+          "text": "In einer Untersuchung in den italienischen Alpen wurden zwischen 1995 und 2003 zwölf Todesfälle dokumentiert, darunter ein adultes Tier und ein bereits ausgeflogener Jungvogel, die von Hauskatzen erbeutet worden waren.",
+          "fact_ids": [
+            "272372222-0141"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0141",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "In einer Untersuchung in den italienischen Alpen wurden zwischen 1995 und 2003 zwölf Todesfälle dokumentiert, darunter ein adultes Tier und ein bereits ausgeflogener Jungvogel, die von Hauskatzen erbeutet worden waren.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.87
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Untersuchung in den italienischen Alpen, 1995 bis 2003, zwölf dokumentierte Todesfälle, darunter ein adultes Tier und ein ausgeflogener Jungvogel, die von Hauskatzen erbeutet wurden. Es gibt keine zusätzlichen Angaben und keine Fragen. Der Gegenstand ist eindeutig, da er sich über den Artikel Zwergohreule ergibt."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 52,
+      "speaker": "Lena",
+      "text": "Eine Auswertung der Aufnahmen einer Wildtierauffangstation bei Genua ergab für den Zeitraum von zweitausendfünfzehn bis zweitausendvierundzwanzig fünf weitere Fälle. Dabei wurden junge Zwergohreulen nach Angriffen durch Hauskatzen eingeliefert.",
+      "previous_text": "Gibt es auch Daten aus anderen Gegenden?",
+      "fact_ids": [
+        "272372222-0142"
+      ],
+      "statements": [
+        {
+          "text": "Eine Auswertung der Aufnahmen einer Wildtierauffangstation bei Genua ergab für 2015 bis 2024 fünf weitere Fälle, bei denen junge Zwergohreulen nach Angriffen durch Hauskatzen eingeliefert wurden.",
+          "fact_ids": [
+            "272372222-0142"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0142",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Eine Auswertung der Aufnahmen einer Wildtierauffangstation bei Genua ergab für den Zeitraum von 2015 bis 2024 fünf weitere Fälle, bei denen junge Zwergohreulen nach Angriffen durch Hauskatzen eingeliefert wurden.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 54,
+      "speaker": "Lena",
+      "text": "Als mögliche Nesträuber sind der Steinmarder und die Äskulapnattern bekannt.",
+      "previous_text": "Gibt es auch Gefahren für das Nest?",
+      "fact_ids": [
+        "272372222-0143"
+      ],
+      "statements": [
+        {
+          "text": "Als mögliche Nesträuber sind der Steinmarder und die Äskulapnattern bekannt.",
+          "fact_ids": [
+            "272372222-0143"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0143",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Als mögliche Nesträuber sind außerdem der Steinmarder und die Äskulapnattern bekannt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.95,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 56,
+      "speaker": "Lena",
+      "text": "Die in Israel eingeschleppte Hirtenmaina ist lokal als Nesträuber der Zwergohreule nachgewiesen. Zudem wurde eine Konkurrenz um Nistmöglichkeiten zwischen Hirtenmainas und einheimischen Höhlenbrütern wie der Zwergohreule dokumentiert.",
+      "previous_text": "Und wer noch?",
+      "fact_ids": [
+        "272372222-0144"
+      ],
+      "statements": [
+        {
+          "text": "Die in Israel eingeschleppte Hirtenmaina ist lokal als Nesträuber der Zwergohreule nachgewiesen, zudem wurde eine Konkurrenz um Nistmöglichkeiten zwischen Hirtenmainas und einheimischen Höhlenbrütern wie der Zwergohreule dokumentiert.",
+          "fact_ids": [
+            "272372222-0144"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0144",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Auch die in Israel eingeschleppte Hirtenmaina (Acridotheres tristis) ist lokal als Nesträuber der Zwergohreule nachgewiesen, zudem wurde eine Konkurrenz um Nistmöglichkeiten zwischen Hirtenmainas und einheimischen Höhlenbrütern wie der Zwergohreule dokumentiert.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 58,
+      "speaker": "Lena",
+      "text": "In Bedrohungssituationen nehmen Zwergohreulen eine hochaufgerichtete Tarnstellung ein.",
+      "previous_text": "Wie verhält sich die Eule, wenn Gefahr droht?",
+      "fact_ids": [
+        "272372222-0073"
+      ],
+      "statements": [
+        {
+          "text": "In Bedrohungssituationen nehmen Zwergohreulen eine hochaufgerichtete Tarnstellung ein.",
+          "fact_ids": [
+            "272372222-0073"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0073",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "In Bedrohungssituationen nehmen Zwergohreulen eine hochaufgerichtete Tarnstellung ein.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 60,
+      "speaker": "Lena",
+      "text": "Fehlt die Fluchtmöglichkeit, zeigt die Eule ein recht vielfältiges Aggressionsverhalten. Dazu gehören Fauchen, Schnabelknappen und asynchrones Augenaufreißen. Das kann in direkte Attacken mit Krallen und Schnabel übergehen.",
+      "previous_text": "Und wenn es keinen Ausweg gibt?",
+      "fact_ids": [
+        "272372222-0076"
+      ],
+      "statements": [
+        {
+          "text": "Fehlt die Fluchtmöglichkeit, zeigt die Eule ein recht vielfältiges Aggressionsverhalten wie Fauchen, Schnabelknappen und asynchrones Augenaufreißen, das in direkte Attacken mit Krallen und Schnabel übergehen kann.",
+          "fact_ids": [
+            "272372222-0076"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0076",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Fehlt die Fluchtmöglichkeit, zeigt die Eule ein recht vielfältiges Aggressionsverhalten wie Fauchen, Schnabelknappen und asynchrones Augenaufreißen, das in direkte Attacken mit Krallen und Schnabel übergehen kann.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 62,
+      "speaker": "Lena",
+      "text": "In der Schweiz war die Zwergohreule im zwanzigsten Jahrhundert stark zurückgegangen. Die früher recht guten Vorkommen rund um den Genfersee und im Mittelwallis waren fast vollständig erloschen.",
+      "previous_text": "Wow! Wie hat sich der Bestand in der Schweiz entwickelt?",
+      "fact_ids": [
+        "272372222-0047"
+      ],
+      "statements": [
+        {
+          "text": "In der Schweiz war die Zwergohreule im 20. Jahrhundert stark zurückgegangen, und die früher recht guten Vorkommen rund um den Genfersee und im Mittelwallis waren fast vollständig erloschen.",
+          "fact_ids": [
+            "272372222-0047"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0047",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "In der Schweiz war die Zwergohreule im 20. Jahrhundert stark zurückgegangen und die früher recht guten Vorkommen rund um den Genfersee und im Mittelwallis waren fast vollständig erloschen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 64,
+      "speaker": "Lena",
+      "text": "Die Tiere haben sich seit den zweitausender-Jahren wieder deutlich ausgebreitet. Im Wallis wurden zweitausendvierundzwanzig etwa achtundsiebzig bis zweiundachtzig Reviere erfasst.",
+      "previous_text": "Und heute?",
+      "fact_ids": [
+        "272372222-0048"
+      ],
+      "statements": [
+        {
+          "text": "Die Tiere haben sich seit den 2000er-Jahren wieder deutlich ausgebreitet, im Wallis wurden 2024 etwa 78 bis 82 Reviere erfasst.",
+          "fact_ids": [
+            "272372222-0048"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0048",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die Tiere haben sich jedoch seit den 2000er-Jahren wieder deutlich ausgebreitet, im Wallis wurden 2024 etwa 78 bis 82 Reviere erfasst.",
+          "context": [
+            "In der Schweiz war die Zwergohreule im 20. Jahrhundert stark zurückgegangen und die früher recht guten Vorkommen rund um den Genfersee und im Mittelwallis waren fast vollständig erloschen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 66,
+      "speaker": "Lena",
+      "text": "Das Kärntner Artenschutzprojekt verzeichnete zweitausendfünfundzwanzig knapp über fünfzig Brutpaare der Zwergohreule. Zu Beginn der zwanziger Jahre waren es mehr als siebzig Paare.",
+      "previous_text": "Gibt es auch Zahlen aus anderen Regionen?",
+      "fact_ids": [
+        "272372222-0174"
+      ],
+      "statements": [
+        {
+          "text": "Das Kärntner Artenschutzprojekt verzeichnete 2025 knapp über 50 Brutpaare, gegenüber mehr als 70 Paaren zu Beginn der 2020er-Jahre.",
+          "fact_ids": [
+            "272372222-0174"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0174",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Das Kärntner Artenschutzprojekt verzeichnete 2025 knapp über 50 Brutpaare, gegenüber mehr als 70 Paaren zu Beginn der 2020er-Jahre.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 68,
+      "speaker": "Lena",
+      "text": "Bruten der Zwergohreule wurden nur sehr selten dokumentiert. So etwa neunzehnhundertsechzig in Mainfranken.",
+      "previous_text": "Wie war die Lage in Deutschland früher?",
+      "fact_ids": [
+        "272372222-0054"
+      ],
+      "statements": [
+        {
+          "text": "Bruten wurden nur sehr selten dokumentiert, so etwa 1960 in Mainfranken.",
+          "fact_ids": [
+            "272372222-0054"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0054",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Bruten wurden nur sehr selten dokumentiert, so etwa 1960 in Mainfranken.",
+          "context": [
+            "In Deutschland kam die Art bis in das 20. Jahrhundert nur gelegentlich in wärmeren Gebieten und Südhanglagen vor."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.78
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder: Bruten der Zwergohreule wurden nur sehr selten dokumentiert, etwa 1960 in Mainfranken. Die ausgeschriebene Jahreszahl ist zulässig. Der Gegenstand ist eindeutig (Artikel Zwergohreule, im Redebeitrag genannt) und passt zur Frage nach der früheren Lage in Deutschland, da der Kontext Deutschland betrifft. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämissen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 70,
+      "speaker": "Lena",
+      "text": "Die zweite erfolgreiche Brut auf bayerischem Gebiet konnte erst zweitausendsieben nachgewiesen werden. Sie gelang im Ammersee-Gebiet.",
+      "previous_text": "Und in Bayern?",
+      "fact_ids": [
+        "272372222-0056"
+      ],
+      "statements": [
+        {
+          "text": "Die zweite erfolgreiche Brut auf bayerischem Gebiet konnte erst 2007 im Ammersee-Gebiet nachgewiesen werden.",
+          "fact_ids": [
+            "272372222-0056"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0056",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die zweite erfolgreiche Brut auf bayerischem Gebiet konnte erst 2007 im Ammersee-Gebiet nachgewiesen werden.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 72,
+      "speaker": "Lena",
+      "text": "Seit zweitausendsiebzehn bestand in Deutschland in jedem Jahr mindestens begründeter Brutverdacht. Die Zwergohreule hat sich inzwischen regional als regelmäßiger Brutvogel etabliert.",
+      "previous_text": "Wie ging es danach weiter?",
+      "fact_ids": [
+        "272372222-0055"
+      ],
+      "statements": [
+        {
+          "text": "Seit 2017 bestand in Deutschland in jedem Jahr mindestens begründeter Brutverdacht, und die Zwergohreule hat sich inzwischen regional als regelmäßiger Brutvogel etabliert.",
+          "fact_ids": [
+            "272372222-0055"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0055",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Seit 2017 bestand in Deutschland in jedem Jahr mindestens begründeter Brutverdacht, und die Zwergohreule hat sich inzwischen regional als regelmäßiger Brutvogel etabliert.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 74,
+      "speaker": "Lena",
+      "text": "Die nördlichsten Brutplätze der Zwergohreule lagen im Elsass. Sie sind seit neunzehnhundertsechsundachtzig verwaist.",
+      "previous_text": "Wo lagen die nördlichsten Brutplätze?",
+      "fact_ids": [
+        "272372222-0166"
+      ],
+      "statements": [
+        {
+          "text": "Die nördlichsten Brutplätze lagen im Elsass, sie sind seit 1986 verwaist.",
+          "fact_ids": [
+            "272372222-0166"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0166",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die nördlichsten Brutplätze lagen im Elsass, sie sind seit 1986 verwaist.",
+          "context": [
+            "Mitteleuropa liegt am Nordrand des weiten Verbreitungsgebietes dieser Art, sodass sich die Bestände von jeher auf klimatisch begünstigte, meistens südexponierte Lagen beschränkten."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 76,
+      "speaker": "Lena",
+      "text": "Die Zwergohreule gilt als eine der Arten, die vom Klimawandel profitieren wird.",
+      "previous_text": "Was bedeutet der Klimawandel für die Zwergohreule?",
+      "fact_ids": [
+        "272372222-0177"
+      ],
+      "statements": [
+        {
+          "text": "Die Zwergohreule gilt als eine der Arten, die vom Klimawandel profitieren wird.",
+          "fact_ids": [
+            "272372222-0177"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0177",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die Zwergohreule gilt als eine der Arten, die vom Klimawandel profitieren wird.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 78,
+      "speaker": "Lena",
+      "text": "Zu den potentiell geeigneten neuen Verbreitungsgebieten der Zwergohreule zählen unter anderem der Südosten Englands, Dänemark und der äußerste Süden Schwedens. Auch der gesamte mitteleuropäische Raum gehört dazu.",
+      "previous_text": "Interessant! Welche Gebiete kommen für neue Vorkommen infrage?",
+      "fact_ids": [
+        "272372222-0180"
+      ],
+      "statements": [
+        {
+          "text": "Zu den potentiell geeigneten neuen Verbreitungsgebieten zählen unter anderem der Südosten Englands, Dänemark, der äußerste Süden Schwedens sowie der gesamte mitteleuropäische Raum.",
+          "fact_ids": [
+            "272372222-0180"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0180",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Zu den potentiell geeigneten neuen Verbreitungsgebieten zählen unter anderem der Südosten Englands, Dänemark, der äußerste Süden Schwedens sowie der gesamte mitteleuropäische Raum.",
+          "context": [
+            "Ein Forschungsteam, das im Auftrag der britischen Umweltbehörde und der Royal Society for the Protection of Birds die zukünftige Verbreitungsentwicklung von europäischen Brutvögeln auf Basis von Klimamodellen untersuchte, geht davon aus, dass bis zum Ende des 21. Jahrhunderts das Verbreitungsgebiet der Zwergohreule sich nach Norden und Nordosten ausdehnen wird.",
+            "Anders als bei den meisten anderen Arten mit einer Arealverschiebung nach Norden bietet das heutige Verbreitungsgebiet dieser Art jedoch weiterhin geeignete Lebensräume."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 80,
+      "speaker": "Lena",
+      "text": "Ein Forschungsteam untersuchte im Auftrag der britischen Umweltbehörde und der Royal Society for the Protection of Birds die zukünftige Verbreitungsentwicklung von europäischen Brutvögeln auf Basis von Klimamodellen. Es geht davon aus, dass sich bis zum Ende des einundzwanzigsten Jahrhunderts das Verbreitungsgebiet der Zwergohreule nach Norden und Nordosten ausdehnen wird.",
+      "previous_text": "Woher stammt diese Einschätzung?",
+      "fact_ids": [
+        "272372222-0178"
+      ],
+      "statements": [
+        {
+          "text": "Ein Forschungsteam, das im Auftrag der britischen Umweltbehörde und der Royal Society for the Protection of Birds die zukünftige Verbreitungsentwicklung von europäischen Brutvögeln auf Basis von Klimamodellen untersuchte, geht davon aus, dass bis zum Ende des 21. Jahrhunderts das Verbreitungsgebiet der Zwergohreule sich nach Norden und Nordosten ausdehnen wird.",
+          "fact_ids": [
+            "272372222-0178"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0178",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Ein Forschungsteam, das im Auftrag der britischen Umweltbehörde und der Royal Society for the Protection of Birds die zukünftige Verbreitungsentwicklung von europäischen Brutvögeln auf Basis von Klimamodellen untersuchte, geht davon aus, dass bis zum Ende des 21. Jahrhunderts das Verbreitungsgebiet der Zwergohreule sich nach Norden und Nordosten ausdehnen wird.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 82,
+      "speaker": "Lena",
+      "text": "Anders als bei den meisten anderen Arten mit einer Arealverschiebung nach Norden bietet das heutige Verbreitungsgebiet der Zwergohreule jedoch weiterhin geeignete Lebensräume.",
+      "previous_text": "Und was ist mit ihrem heutigen Verbreitungsgebiet?",
+      "fact_ids": [
+        "272372222-0179"
+      ],
+      "statements": [
+        {
+          "text": "Anders als bei den meisten anderen Arten mit einer Arealverschiebung nach Norden bietet das heutige Verbreitungsgebiet dieser Art jedoch weiterhin geeignete Lebensräume.",
+          "fact_ids": [
+            "272372222-0179"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0179",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Anders als bei den meisten anderen Arten mit einer Arealverschiebung nach Norden bietet das heutige Verbreitungsgebiet dieser Art jedoch weiterhin geeignete Lebensräume.",
+          "context": [
+            "Ein Forschungsteam, das im Auftrag der britischen Umweltbehörde und der Royal Society for the Protection of Birds die zukünftige Verbreitungsentwicklung von europäischen Brutvögeln auf Basis von Klimamodellen untersuchte, geht davon aus, dass bis zum Ende des 21. Jahrhunderts das Verbreitungsgebiet der Zwergohreule sich nach Norden und Nordosten ausdehnen wird."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.88
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder. Das Bezugswort „dieser Art“ wird korrekt zu „der Zwergohreule“ aufgelöst. Das ist eindeutig, denn der Artikel handelt von der Zwergohreule. Der Redebeitrag enthält keine zusätzlichen Behauptungen oder Fragen und passt zu Felix' Frage nach dem heutigen Verbreitungsgebiet."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 84,
+      "speaker": "Lena",
+      "text": "Untersuchungen in den Alpen zeigten, dass ein erhöhtes Prädationsrisiko durch Waldkäuze mit einer geringeren Wahrscheinlichkeit des Vorkommens von Zwergohreulen verbunden war.",
+      "previous_text": "Gibt es auch Eulen, die der Zwergohreule gefährlich werden?",
+      "fact_ids": [
+        "272372222-0139"
+      ],
+      "statements": [
+        {
+          "text": "Untersuchungen in den Alpen zeigten, dass ein erhöhtes Prädationsrisiko durch Waldkäuze mit einer geringeren Wahrscheinlichkeit des Vorkommens von Zwergohreulen verbunden war.",
+          "fact_ids": [
+            "272372222-0139"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0139",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Untersuchungen in den Alpen zeigten zudem, dass ein erhöhtes Prädationsrisiko durch Waldkäuze mit einer geringeren Wahrscheinlichkeit des Vorkommens von Zwergohreulen verbunden war.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 86,
+      "speaker": "Lena",
+      "text": "Tarnung ist der simpelste und effektivste Mechanismus zur Reduzierung des Prädationsrisikos. Sie ist auch eine mögliche evolutionäre Anpassung von Beutegreifern, die aufgrund ihrer Tarnung von potentiellen Beutetieren weniger leicht wahrgenommen werden.",
+      "previous_text": "Was schützt Tiere eigentlich allgemein vor Fressfeinden?",
+      "fact_ids": [
+        "270464823-0001"
+      ],
+      "statements": [
+        {
+          "text": "Tarnung ist sowohl der simpelste und effektivste Mechanismus zur Reduzierung des Prädationsrisikos als auch eine mögliche evolutionäre Anpassung von Beutegreifern, die aufgrund ihrer Tarnung von potentiellen Beutetieren weniger leicht wahrgenommen werden.",
+          "fact_ids": [
+            "270464823-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270464823-0001",
+          "article": "Tarnung (Biologie)",
+          "revid": 270464823,
+          "sentence": "Es ist sowohl der simpelste und effektivste Mechanismus zur Reduzierung des Prädationsrisikos als auch eine mögliche evolutionäre Anpassung von Beutegreifern, die aufgrund ihrer Tarnung von potentiellen Beutetieren weniger leicht wahrgenommen werden.",
+          "context": [
+            "Tarnung, in der Verhaltensbiologie auch als Krypsis (von altgriechisch κρύψις krýpsis, deutsch ‚das Verbergen, Sichverbergen‘) bezeichnet, ist bei Tieren der Vorgang oder Zustand, der darauf abzielt, irreführende Signale an ein anderes Lebewesen zu senden."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 88,
+      "speaker": "Lena",
+      "text": "Die Männchen wiegen siebenundsiebzig bis hundertfünf, durchschnittlich dreiundachtzig Gramm. Die Weibchen wiegen neunzig bis hundertneunzehn, durchschnittlich achtundneunzig Gramm. Darüber hinaus sind Männchen und Weibchen äußerlich am Gefieder nicht unterscheidbar.",
+      "previous_text": "Kann man Männchen und Weibchen eigentlich unterscheiden?",
+      "fact_ids": [
+        "272372222-0014"
+      ],
+      "statements": [
+        {
+          "text": "Die Männchen wiegen 77 bis 105, durchschnittlich 83 Gramm, und die Weibchen 90 bis 119, durchschnittlich 98 Gramm.",
+          "fact_ids": [
+            "272372222-0014"
+          ]
+        },
+        {
+          "text": "Männchen und Weibchen sind äußerlich am Gefieder nicht unterscheidbar.",
+          "fact_ids": [
+            "272372222-0014"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0014",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die Männchen wiegen dabei 77 bis 105, durchschnittlich 83 Gramm, und die Weibchen 90 bis 119, durchschnittlich 98 Gramm. Darüber hinaus sind die Männchen und Weibchen äußerlich am Gefieder nicht unterscheidbar.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 90,
+      "speaker": "Lena",
+      "text": "Während der Brutzeit sind die Eulen territorial. Die Weibchen verteidigen das Territorium energischer als die Männchen. Die Männchen reagieren auf revierfremde Weibchen meistens nicht aggressiv.",
+      "previous_text": "Wie verhalten sich die Eulen in der Brutzeit untereinander?",
+      "fact_ids": [
+        "272372222-0084"
+      ],
+      "statements": [
+        {
+          "text": "Während der Brutzeit sind die Eulen territorial, wobei die Weibchen das Territorium energischer verteidigen als die Männchen, die auf revierfremde Weibchen meistens nicht aggressiv reagieren.",
+          "fact_ids": [
+            "272372222-0084"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0084",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Während der Brutzeit sind die Eulen territorial, wobei die Weibchen das Territorium energischer verteidigen als die Männchen, die auf revierfremde Weibchen meistens nicht aggressiv reagieren.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 92,
+      "speaker": "Lena",
+      "text": "Das höchste in der EURING-Datenbank dokumentierte Alter einer freilebenden Zwergohreule betrug dreizehn Jahre.",
+      "previous_text": "Wie alt kann eine Zwergohreule werden?",
+      "fact_ids": [
+        "272372222-0110"
+      ],
+      "statements": [
+        {
+          "text": "Das höchste in der EURING-Datenbank dokumentierte Alter einer freilebenden Zwergohreule betrug 13 Jahre.",
+          "fact_ids": [
+            "272372222-0110"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0110",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Das höchste in der EURING-Datenbank dokumentierte Alter einer freilebenden Zwergohreule betrug 13 Jahre.",
+          "context": [
+            "Im Freiland werden die Tiere wahrscheinlich durchschnittlich bis etwa sechs Jahre alt, in seltenen Fällen und Volieren können sie bis zwölf Jahre oder sogar etwas älter werden."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 94,
+      "speaker": "Lena",
+      "text": "Die Zwergohreulen brüteten in einer Platane am Siedlungsrand eines Ortes in der Wetterau.",
+      "previous_text": "Wow! Gibt es ein konkretes Beispiel für einen Brutplatz?",
+      "fact_ids": [
+        "272372222-0058"
+      ],
+      "statements": [
+        {
+          "text": "Die Zwergohreulen brüteten in einer Platane am Siedlungsrand eines Ortes in der Wetterau.",
+          "fact_ids": [
+            "272372222-0058"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0058",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die Zwergohreulen brüteten in einer Platane am Siedlungsrand eines Ortes in der Wetterau.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 96,
+      "speaker": "Lena",
+      "text": "Sowohl die Streifen-Zwergohreule als auch die auf Zypern endemische Zypern-Zwergohreule wurden früher als Unterarten der Zwergohreule behandelt.",
+      "previous_text": "Hat sich bei der Einteilung der Arten etwas verändert?",
+      "fact_ids": [
+        "272372222-0150"
+      ],
+      "statements": [
+        {
+          "text": "Sowohl die Streifen-Zwergohreule wie auch die auf Zypern endemische Zypern-Zwergohreule wurden früher als Unterarten der Zwergohreule behandelt.",
+          "fact_ids": [
+            "272372222-0150"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0150",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Sowohl die Streifen-Zwergohreule (Otus brucei) wie auch die auf Zypern endemische Zypern-Zwergohreule (Otus cyprius) wurden früher als Unterarten der Zwergohreule behandelt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 98,
+      "speaker": "Lena",
+      "text": "Die Zypern-Zwergohreule wurde zweitausendfünfzehn von der Zwergohreule abgespalten. Sie ist auf der Mittelmeerinsel Zypern endemisch.",
+      "previous_text": "Was ist über die Zypern-Zwergohreule bekannt?",
+      "fact_ids": [
+        "257958679-0006"
+      ],
+      "statements": [
+        {
+          "text": "Die Zypern-Zwergohreule wurde 2015 von der Zwergohreule abgespalten und ist auf der Mittelmeerinsel Zypern endemisch.",
+          "fact_ids": [
+            "257958679-0006"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "257958679-0006",
+          "article": "Zypern-Zwergohreule",
+          "revid": 257958679,
+          "sentence": "Sie wurde 2015 von der Zwergohreule (Otus scops) abgespalten und ist auf der Mittelmeerinsel Zypern endemisch.",
+          "context": [
+            "Die Zypern-Zwergohreule (Otus cyprius) ist eine Eulenart aus der Gattung der Zwergohreulen (Otus)."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 100,
+      "speaker": "Lena",
+      "text": "Die vormals als Unterart betrachtete Zypern-Zwergohreule unterscheidet sich von der Zwergohreule durch ihr dunkleres Gefieder. Dazu kommt die fehlende rötliche Farbmorphe.",
+      "previous_text": "Wie sieht die Zypern-Zwergohreule aus?",
+      "fact_ids": [
+        "272372222-0024"
+      ],
+      "statements": [
+        {
+          "text": "Die vormals als Unterart betrachtete Zypern-Zwergohreule unterscheidet sich von der Zwergohreule durch ihr dunkleres Gefieder und die fehlende rötliche Farbmorphe.",
+          "fact_ids": [
+            "272372222-0024"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0024",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die vormals als Unterart betrachtete Zypern-Zwergohreule unterscheidet sich von der Zwergohreule durch ihr dunkleres Gefieder und die fehlende rötliche Farbmorphe.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 102,
+      "speaker": "Lena",
+      "text": "Die Zypern-Zwergohreule unterscheidet sich von der Zwergohreule durch ihren zweisilbigen Reviergesang.",
+      "previous_text": "Und wie hört sie sich an?",
+      "fact_ids": [
+        "272372222-0041"
+      ],
+      "statements": [
+        {
+          "text": "Die Zypern-Zwergohreule unterscheidet sich von der Zwergohreule durch ihren zweisilbigen Reviergesang.",
+          "fact_ids": [
+            "272372222-0041"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0041",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die Zypern-Zwergohreule unterscheidet sich von der Zwergohreule durch ihren zweisilbigen Reviergesang.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 104,
+      "speaker": "Lena",
+      "text": "Unterschiede in den Körpermaßen gegenüber benachbarten Populationen der Zwergohreule konnten bei der Zypern-Zwergohreule nicht festgestellt werden.",
+      "previous_text": "Und wie sieht es bei den Körpermaßen aus?",
+      "fact_ids": [
+        "272372222-0025"
+      ],
+      "statements": [
+        {
+          "text": "Unterschiede in den Körpermaßen gegenüber benachbarten Populationen der Zwergohreule konnten bei der Zypern-Zwergohreule nicht festgestellt werden.",
+          "fact_ids": [
+            "272372222-0025"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0025",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Unterschiede in den Körpermaßen gegenüber benachbarten Populationen der Zwergohreule konnten dagegen nicht festgestellt werden.",
+          "context": [
+            "Die vormals als Unterart betrachtete Zypern-Zwergohreule unterscheidet sich von der Zwergohreule durch ihr dunkleres Gefieder und die fehlende rötliche Farbmorphe."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.85,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": "Der Fakt-Satz sagt, dass Unterschiede in den Körpermaßen gegenüber benachbarten Populationen der Zwergohreule nicht festgestellt werden konnten. Der Kontext macht eindeutig, dass es um die Zypern-Zwergohreule geht, und der Redebeitrag löst dieses Bezugswort nur auf. Der Artikel behandelt die Zwergohreule, und Felix' Frage nach den Körpermaßen passt zum Gegenstand. Es kommt keine zusätzliche Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 106,
+      "speaker": "Lena",
+      "text": "Die Zwergohreule wurde siebzehnhundertachtundfünfzig von Carl von Linné in der zehnten Auflage seiner Systema Naturæ als Strix scops wissenschaftlich beschrieben.",
+      "previous_text": "Seit wann ist die Zwergohreule wissenschaftlich bekannt?",
+      "fact_ids": [
+        "272372222-0146"
+      ],
+      "statements": [
+        {
+          "text": "Die Zwergohreule wurde 1758 von Carl von Linné in der zehnten Auflage seiner Systema Naturæ als Strix scops wissenschaftlich beschrieben.",
+          "fact_ids": [
+            "272372222-0146"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0146",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die Zwergohreule wurde 1758 von Carl von Linné in der zehnten Auflage seiner Systema Naturæ als Strix scops wissenschaftlich beschrieben.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 107,
+      "speaker": "Felix",
+      "text": "Was hat es mit diesem Werk auf sich?",
+      "previous_text": "Die Zwergohreule wurde siebzehnhundertachtundfünfzig von Carl von Linné in der zehnten Auflage seiner Systema Naturæ als Strix scops wissenschaftlich beschrieben.",
+      "fact_ids": [
+        "272372222-0146"
+      ],
+      "statements": [
+        {
+          "text": "Die Zwergohreule wurde in Linnés Systema Naturæ beschrieben.",
+          "fact_ids": [
+            "272372222-0146"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0146",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die Zwergohreule wurde 1758 von Carl von Linné in der zehnten Auflage seiner Systema Naturæ als Strix scops wissenschaftlich beschrieben.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 108,
+      "speaker": "Lena",
+      "text": "Besondere Bedeutung für die Zoologie hat der siebzehnhundertachtundfünfzig veröffentlichte erste Band der zehnten Auflage. Linné gab darin erstmals durchgängig für die Tiere zweiteilige Artnamen an.",
+      "previous_text": "Was hat es mit diesem Werk auf sich?",
+      "fact_ids": [
+        "266571573-0006"
+      ],
+      "statements": [
+        {
+          "text": "Besondere Bedeutung für die Zoologie hat der 1758 veröffentlichte erste Band der 10. Auflage, in dem Linné erstmals durchgängig für die Tiere zweiteilige Artnamen angab.",
+          "fact_ids": [
+            "266571573-0006"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "266571573-0006",
+          "article": "Systema Naturæ",
+          "revid": 266571573,
+          "sentence": "Besondere Bedeutung für die Zoologie hat der 1758 veröffentlichte erste Band der 10. Auflage, in dem Linné erstmals durchgängig für die Tiere zweiteilige Artnamen angab.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 1.0,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 110,
+      "speaker": "Lena",
+      "text": "Aus Bulgarien liegen fossile beziehungsweise subfossile Nachweise der Zwergohreule vor. Sie stammen aus dem Jungpleistozän sowie aus dem frühen und mittleren Holozän.",
+      "previous_text": "Wie weit reicht die Geschichte der Art zurück?",
+      "fact_ids": [
+        "272372222-0164"
+      ],
+      "statements": [
+        {
+          "text": "Aus Bulgarien liegen fossile beziehungsweise subfossile Nachweise der Zwergohreule aus dem Jungpleistozän sowie aus dem frühen und mittleren Holozän vor.",
+          "fact_ids": [
+            "272372222-0164"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0164",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Aus Bulgarien liegen fossile beziehungsweise subfossile Nachweise der Zwergohreule aus dem Jungpleistozän sowie aus dem frühen und mittleren Holozän vor.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 112,
+      "speaker": "Lena",
+      "text": "Gern. Die Zwergohreule ist nach dem Sperlingskauz die zweitkleinste europäische Eule. Hauskatzen gehören zu ihren nachgewiesenen Fressfeinden. Im Wallis wurden zweitausendvierundzwanzig etwa achtundsiebzig bis zweiundachtzig Reviere erfasst. In Deutschland hat sie sich inzwischen regional als regelmäßiger Brutvogel etabliert. Zudem gilt sie als eine der Arten, die vom Klimawandel profitieren wird. Die Zypern-Zwergohreule wurde zweitausendfünfzehn von ihr abgespalten, und beschrieben wurde die Zwergohreule bereits siebzehnhundertachtundfünfzig von Linné.",
+      "previous_text": "Das war ein weiter Bogen. Kannst du zum Abschluss das Wichtigste zusammenfassen?",
+      "fact_ids": [
+        "272372222-0005",
+        "272372222-0140",
+        "272372222-0048",
+        "272372222-0055",
+        "272372222-0177",
+        "257958679-0006",
+        "272372222-0146"
+      ],
+      "statements": [
+        {
+          "text": "Die Zwergohreule ist nach dem Sperlingskauz die zweitkleinste europäische Eule.",
+          "fact_ids": [
+            "272372222-0005"
+          ]
+        },
+        {
+          "text": "Hauskatzen gehören zu den nachgewiesenen Fressfeinden der Zwergohreule.",
+          "fact_ids": [
+            "272372222-0140"
+          ]
+        },
+        {
+          "text": "Im Wallis wurden 2024 etwa 78 bis 82 Reviere erfasst.",
+          "fact_ids": [
+            "272372222-0048"
+          ]
+        },
+        {
+          "text": "Die Zwergohreule hat sich in Deutschland inzwischen regional als regelmäßiger Brutvogel etabliert.",
+          "fact_ids": [
+            "272372222-0055"
+          ]
+        },
+        {
+          "text": "Die Zwergohreule gilt als eine der Arten, die vom Klimawandel profitieren wird.",
+          "fact_ids": [
+            "272372222-0177"
+          ]
+        },
+        {
+          "text": "Die Zypern-Zwergohreule wurde 2015 von der Zwergohreule abgespalten.",
+          "fact_ids": [
+            "257958679-0006"
+          ]
+        },
+        {
+          "text": "Die Zwergohreule wurde 1758 von Carl von Linné wissenschaftlich beschrieben.",
+          "fact_ids": [
+            "272372222-0146"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272372222-0005",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die Zwergohreule (Otus scops) ist – nach dem Sperlingskauz – die zweitkleinste europäische Eule, sie erreicht knapp Amselgröße.",
+          "context": []
+        },
+        {
+          "id": "272372222-0140",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Auch Hauskatzen (Felis catus) gehören zu den nachgewiesenen Fressfeinden der Zwergohreule und stellen vor allem in Siedlungsgebieten ein erhöhtes Risiko dar.",
+          "context": []
+        },
+        {
+          "id": "272372222-0048",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die Tiere haben sich jedoch seit den 2000er-Jahren wieder deutlich ausgebreitet, im Wallis wurden 2024 etwa 78 bis 82 Reviere erfasst.",
+          "context": [
+            "In der Schweiz war die Zwergohreule im 20. Jahrhundert stark zurückgegangen und die früher recht guten Vorkommen rund um den Genfersee und im Mittelwallis waren fast vollständig erloschen."
+          ]
+        },
+        {
+          "id": "272372222-0055",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Seit 2017 bestand in Deutschland in jedem Jahr mindestens begründeter Brutverdacht, und die Zwergohreule hat sich inzwischen regional als regelmäßiger Brutvogel etabliert.",
+          "context": []
+        },
+        {
+          "id": "272372222-0177",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die Zwergohreule gilt als eine der Arten, die vom Klimawandel profitieren wird.",
+          "context": []
+        },
+        {
+          "id": "257958679-0006",
+          "article": "Zypern-Zwergohreule",
+          "revid": 257958679,
+          "sentence": "Sie wurde 2015 von der Zwergohreule (Otus scops) abgespalten und ist auf der Mittelmeerinsel Zypern endemisch.",
+          "context": [
+            "Die Zypern-Zwergohreule (Otus cyprius) ist eine Eulenart aus der Gattung der Zwergohreulen (Otus)."
+          ]
+        },
+        {
+          "id": "272372222-0146",
+          "article": "Zwergohreule",
+          "revid": 272372222,
+          "sentence": "Die Zwergohreule wurde 1758 von Carl von Linné in der zehnten Auflage seiner Systema Naturæ als Strix scops wissenschaftlich beschrieben.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 1.0,
+          "aussage_1": 1.0,
+          "aussage_2": 1.0,
+          "aussage_3": 1.0,
+          "aussage_4": 1.0,
+          "aussage_5": 0.99,
+          "aussage_6": 0.99,
+          "vollstaendig": 0.86
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den zitierten Fakt-Sätzen: zweitkleinste Eule nach dem Sperlingskauz (0005), Hauskatzen als nachgewiesene Fressfeinde (0140), 78 bis 82 Reviere im Wallis 2024 (0048), regional etablierter Brutvogel in Deutschland (0055), Profiteur des Klimawandels (0177), Abspaltung der Zypern-Zwergohreule 2015 (257958679-0006) und Beschreibung 1758 durch Linné (0146). Gegenstand ist überall die Zwergohreule bzw. klar benannt. Das einleitende „Gern“ ist eine belegfreie Reaktion, und der Redebeitrag enthält keine Fragen mit Prämissen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    }
+  ],
+  "comments": []
+}

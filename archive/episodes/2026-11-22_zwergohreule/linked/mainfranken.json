@@ -1,0 +1,128 @@
+{
+  "title": "Mainfranken",
+  "revid": 271541931,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-23T03:37:52Z",
+  "fetched_at": "2026-11-22T11:28:20Z",
+  "categories": [
+    "Kategorie:Fränkische Landschaft",
+    "Kategorie:Geographie (Unterfranken)",
+    "Kategorie:Geographisches Objekt als Namensgeber für einen Asteroiden"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|beschreibt eine fränkische Region. Für weitere Bedeutung siehe [[Mainfranken (Begriffsklärung)]].}}\n\n[[Datei:Mainfranken locator.svg|mini|Lage Mainfrankens in [[Deutschland]] und in [[Bayern]]]]\n'''Mainfranken''' bezeichnet in neuerer Zeit den gemeinsamen Wirtschaftsraum um [[Würzburg]] und [[Schweinfurt]]. Die Region Mainfranken umfasst zwei der drei [[Planungsregionen in Bayern|Planungsregionen]] des bayerischen [[Regierungsbezirk]]s [[Unterfranken]], nämlich die [[Planungsregion Würzburg]] (Nr.&nbsp;2) und die [[Planungsregion Main-Rhön]] (Nr.&nbsp;3) mit dem [[Regionalzentrum]] Würzburg und dem [[Oberzentrum]] Schweinfurt.\n\nDer [[Spessart]] trennt Mainfranken von der [[Planungsregion Bayerischer Untermain]] (Nr.&nbsp;1). Damit bezeichnet Mainfranken die am [[Main#Maindreieck|Maindreieck]] und am östlichen [[Main#Mainviereck|Mainviereck]] gelegenen Gebiete Unterfrankens. Mainfranken stimmt somit weitgehend (ohne die Weinlagen im westlichen Mainviereck und am [[Hahnenkamm (Spessart)|Hahnenkamm]] sowie in [[Mittelfranken]]) mit dem [[Franken (Weinbaugebiet)|Weinanbaugebiet Franken]] überein. Teilweise wird der Begriff „Mainfranken“ allerdings von dieser engen Definition abweichend verwendet, zum Beispiel für ein Gebiet um [[Lohr am Main]] und [[Karlstadt]], Würzburg, Schweinfurt, [[Haßberge]], [[Steigerwald]] und [[Bamberg]].<ref>''DuMont Bildatlas 66: Mainfranken: Bayerns Norden.'' DuMont Reiseverlag, 2012 <small> ISBN 978-3-7701-9220-5</small>, siehe Karte mit Inhaltsübersicht und siehe auch die Titelseite mit der Angabe „WELTERBESTÄDTE Würzburg und Bamberg“.</ref>",
+  "segments": [
+    {
+      "id": "271541931-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Mainfranken''' bezeichnet in neuerer Zeit den gemeinsamen Wirtschaftsraum um [[Würzburg]] und [[Schweinfurt]].",
+      "plain": null
+    },
+    {
+      "id": "271541931-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Region Mainfranken umfasst zwei der drei [[Planungsregionen in Bayern|Planungsregionen]] des bayerischen [[Regierungsbezirk]]s [[Unterfranken]], nämlich die [[Planungsregion Würzburg]] (Nr.&nbsp;2) und die [[Planungsregion Main-Rhön]] (Nr.&nbsp;3) mit dem [[Regionalzentrum]] Würzburg und dem [[Oberzentrum]] Schweinfurt.",
+      "plain": null
+    },
+    {
+      "id": "271541931-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der [[Spessart]] trennt Mainfranken von der [[Planungsregion Bayerischer Untermain]] (Nr.&nbsp;1).",
+      "plain": null
+    },
+    {
+      "id": "271541931-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Damit bezeichnet Mainfranken die am [[Main#Maindreieck|Maindreieck]] und am östlichen [[Main#Mainviereck|Mainviereck]] gelegenen Gebiete Unterfrankens.",
+      "plain": null
+    },
+    {
+      "id": "271541931-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Mainfranken stimmt somit weitgehend (ohne die Weinlagen im westlichen Mainviereck und am [[Hahnenkamm (Spessart)|Hahnenkamm]] sowie in [[Mittelfranken]]) mit dem [[Franken (Weinbaugebiet)|Weinanbaugebiet Franken]] überein.",
+      "plain": null
+    },
+    {
+      "id": "271541931-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Teilweise wird der Begriff „Mainfranken“ allerdings von dieser engen Definition abweichend verwendet, zum Beispiel für ein Gebiet um [[Lohr am Main]] und [[Karlstadt]], Würzburg, Schweinfurt, [[Haßberge]], [[Steigerwald]] und [[Bamberg]].<ref>''DuMont Bildatlas 66: Mainfranken: Bayerns Norden.'' DuMont Reiseverlag, 2012 <small> ISBN 978-3-7701-9220-5</small>, siehe Karte mit Inhaltsübersicht und siehe auch die Titelseite mit der Angabe „WELTERBESTÄDTE Würzburg und Bamberg“.</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271541931,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271541931-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Mainfranken bezeichnet in neuerer Zeit den gemeinsamen Wirtschaftsraum um Würzburg und Schweinfurt.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271541931-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271541931-0000"
+        ],
+        "plain": "Die Region Mainfranken umfasst zwei der drei Planungsregionen des bayerischen Regierungsbezirks Unterfranken, nämlich die Planungsregion Würzburg (Nr. 2) und die Planungsregion Main-Rhön (Nr. 3) mit dem Regionalzentrum Würzburg und dem Oberzentrum Schweinfurt.",
+        "context_plain": [
+          "Mainfranken bezeichnet in neuerer Zeit den gemeinsamen Wirtschaftsraum um Würzburg und Schweinfurt."
+        ]
+      },
+      {
+        "segment_id": "271541931-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Spessart trennt Mainfranken von der Planungsregion Bayerischer Untermain (Nr. 1).",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271541931-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271541931-0002"
+        ],
+        "plain": "Damit bezeichnet Mainfranken die am Maindreieck und am östlichen Mainviereck gelegenen Gebiete Unterfrankens.",
+        "context_plain": [
+          "Der Spessart trennt Mainfranken von der Planungsregion Bayerischer Untermain (Nr. 1)."
+        ]
+      },
+      {
+        "segment_id": "271541931-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271541931-0003"
+        ],
+        "plain": "Mainfranken stimmt somit weitgehend (ohne die Weinlagen im westlichen Mainviereck und am Hahnenkamm sowie in Mittelfranken) mit dem Weinanbaugebiet Franken überein.",
+        "context_plain": [
+          "Damit bezeichnet Mainfranken die am Maindreieck und am östlichen Mainviereck gelegenen Gebiete Unterfrankens."
+        ]
+      },
+      {
+        "segment_id": "271541931-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271541931-0004"
+        ],
+        "plain": "Teilweise wird der Begriff „Mainfranken“ allerdings von dieser engen Definition abweichend verwendet, zum Beispiel für ein Gebiet um Lohr am Main und Karlstadt, Würzburg, Schweinfurt, Haßberge, Steigerwald und Bamberg.",
+        "context_plain": [
+          "Mainfranken stimmt somit weitgehend (ohne die Weinlagen im westlichen Mainviereck und am Hahnenkamm sowie in Mittelfranken) mit dem Weinanbaugebiet Franken überein."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

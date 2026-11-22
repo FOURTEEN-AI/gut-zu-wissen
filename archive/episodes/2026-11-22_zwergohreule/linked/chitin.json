@@ -1,0 +1,237 @@
+{
+  "title": "Chitin",
+  "revid": 271897325,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-04T23:14:55Z",
+  "fetched_at": "2026-11-22T11:28:20Z",
+  "categories": [
+    "Kategorie:Ballaststoff",
+    "Kategorie:Mykologie",
+    "Kategorie:Polysaccharid"
+  ],
+  "intro_wikitext": "{{Infobox Polymer\n| Strukturformel            = [[Datei:Chitin.svg|250px|Chitin]]\n| Polymertyp                = 1\n| Name                      = Chitin\n| Andere Namen              = * Poly (''N''-Acetyl-1,4-β-<small>D</small>-Glucopyranosamin)\n* {{INCI|Name=CHITIN |ID=75063 |Abruf=2020-02-25}}\n| CAS                       = {{CASRN|1398-61-4}}\n| PubChem                   = 6857375\n| Polymerart                = [[Biopolymer]]\n| Beschreibung              = [[Polysaccharid]], weißlicher Feststoff<ref name=\"TCI\">{{TCI Europe|C0072|Name=|Abruf=2019-06-18}}</ref>\n| Bausteine                 = Acetylglucosamin\n| Summenformel              = C<sub>8</sub>H<sub>13</sub>NO<sub>5</sub>\n| Molare Masse              = 203,19 g·[[mol]]<sup>−1</sup>\n| Aggregat                  = fest\n| Dichte                    = \n| Schmelzpunkt              = \n| Glastemperatur            = \n| Druckfestigkeit           = \n| Härte                     = \n| Schlagzähigkeit           = \n| Kristallinität            = \n| Elastizitätsmodul         = \n| Poissonzahl               = \n| Wasseraufnahme            = \n| Löslichkeit               =\n* nahezu unlöslich in Wasser, [[Ethanol]], [[Diethylether|Ether]], [[Aceton]], [[Chloroform]], verdünnten Säuren und konzentrierten Laugen<ref name=\"roempp\">{{RömppOnline|ID=RD-03-01348|Name=Chitin|Abruf=2012-06-14}}</ref>\n* Zersetzung in starken Säuren<ref name=\"roempp\" />\n| Elektrische Leitfähigkeit = \n| Bruchdehnung              = \n| Chemische Beständigkeit   = \n| Viskositätszahl           = \n| Wärmeformbeständigkeit    = \n| Wärmeleitfähigkeit        = \n| Thermischer Ausdehnungskoeffizient = \n| Quelle GHS-Kz             = <ref name=\"TCI\" />\n| GHS-Piktogramme           = {{GHS-Piktogramme|-}}\n| GHS-Signalwort            = \n| H                         = {{H-Sätze|-}}\n| EUH                       = {{EUH-Sätze|-}}\n| P                         = {{P-Sätze|-}}\n| Quelle P                  = <ref name=\"TCI\" />\n}}\n\n'''Chitin''' ({{elS|χιτών|chitón|de=Hülle, Panzer}}) ist neben [[Cellulose]] das am weitesten verbreitete [[Biomolekül]]. Es dient der Strukturbildung. Chitin ist wie auch die Cellulose ein [[Polysaccharid]]; es unterscheidet sich von ihr durch eine [[Acetamid]]gruppe.\n\nEs kommt sowohl bei [[Pilze]]n als auch bei [[Gliedertiere]]n (Articulata) und [[Weichtiere]]n vor. Bei Pilzen bildet es einen der Hauptbestandteile der [[Zellwand]]. Bei [[Ringelwürmer]]n kommt es im Mundraum vor. Bei [[Gliederfüßer]]n ist es Hauptbestandteil des [[Exoskelett]]s. Aber auch bei Wirbeltieren wurde es gefunden, etwa bei [[Echte Knochenfische|Knochenfischen]] und [[Schleimfische]]n (Blenniidae) wie dem [[Grauer Schleimfisch|Grauen Schleimfisch]] (''Paralipophrys trigloides'').<ref name=\"DOI10.1007/BF01923410\">G. P. Wagner, J. Lo, R. Laine, M. Almeder: ''Chitin in the epidermal cuticle of a vertebrate (Paralipophrys trigloides, Blenniidae, Teleostei).'' In: ''[[Experientia]].'' 49, 1993, S.&nbsp;317–319, [[doi:10.1007/BF01923410]].</ref>\n\nChitin ist Ausgangsstoff für die technische Herstellung von [[Chitosan]] und [[Glucosamin]].",
+  "segments": [
+    {
+      "id": "271897325-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Polymer | Name                      = Chitin",
+      "plain": "Infobox Polymer – Allgemeines – Name: Chitin"
+    },
+    {
+      "id": "271897325-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Polymer | Andere Namen              = * Poly (''N''-Acetyl-1,4-β-<small>D</small>-Glucopyranosamin)\n* {{INCI|Name=CHITIN |ID=75063 |Abruf=2020-02-25}}",
+      "plain": "Infobox Polymer – Allgemeines – Andere Namen: Poly (N-Acetyl-1,4-β-D-Glucopyranosamin) CHITIN (INCI)"
+    },
+    {
+      "id": "271897325-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Polymer | CAS                       = {{CASRN|1398-61-4}}",
+      "plain": "Infobox Polymer – Allgemeines – CAS-Nummer: 1398-61-4"
+    },
+    {
+      "id": "271897325-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Polymer | Bausteine                 = Acetylglucosamin",
+      "plain": "Infobox Polymer – Allgemeines – Monomer: Acetylglucosamin"
+    },
+    {
+      "id": "271897325-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Polymer | Summenformel              = C<sub>8</sub>H<sub>13</sub>NO<sub>5</sub>",
+      "plain": "Infobox Polymer – Allgemeines – Summenformel der Wiederholeinheit: C8H13NO5"
+    },
+    {
+      "id": "271897325-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Polymer | Molare Masse              = 203,19 g·[[mol]]<sup>−1</sup>",
+      "plain": "Infobox Polymer – Allgemeines – Molare Masse der Wiederholeinheit: 203,19 g·mol−1"
+    },
+    {
+      "id": "271897325-0006",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Polymer | PubChem                   = 6857375",
+      "plain": "Infobox Polymer – Allgemeines – PubChem: 6857375"
+    },
+    {
+      "id": "271897325-0007",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Polymer | Polymerart                = [[Biopolymer]]",
+      "plain": "Infobox Polymer – Allgemeines – Art des Polymers: Biopolymer"
+    },
+    {
+      "id": "271897325-0008",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Polymer | Beschreibung              = [[Polysaccharid]], weißlicher Feststoff<ref name=\"TCI\">{{TCI Europe|C0072|Name=|Abruf=2019-06-18}}</ref>",
+      "plain": "Infobox Polymer – Allgemeines – Kurzbeschreibung: Polysaccharid, weißlicher Feststoff"
+    },
+    {
+      "id": "271897325-0009",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Polymer | Aggregat                  = fest",
+      "plain": "Infobox Polymer – Eigenschaften – Aggregatzustand: fest"
+    },
+    {
+      "id": "271897325-0010",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Polymer | Löslichkeit               =\n* nahezu unlöslich in Wasser, [[Ethanol]], [[Diethylether|Ether]], [[Aceton]], [[Chloroform]], verdünnten Säuren und konzentrierten Laugen<ref name=\"roempp\">{{RömppOnline|ID=RD-03-01348|Name=Chitin|Abruf=2012-06-14}}</ref>\n* Zersetzung in starken Säuren<ref name=\"roempp\" />",
+      "plain": "Infobox Polymer – Eigenschaften – Löslichkeit: nahezu unlöslich in Wasser, Ethanol, Ether, Aceton, Chloroform, verdünnten Säuren und konzentrierten Laugen Zersetzung in starken Säuren"
+    },
+    {
+      "id": "271897325-0011",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Polymer | H                         = {{H-Sätze|-}}",
+      "plain": "Infobox Polymer – Sicherheitshinweise – H- und P-Sätze: H: keine H-Sätze"
+    },
+    {
+      "id": "271897325-0012",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Polymer | P                         = {{P-Sätze|-}} | Quelle P                  = <ref name=\"TCI\" />",
+      "plain": "Infobox Polymer – Sicherheitshinweise – P: keine P-Sätze"
+    },
+    {
+      "id": "271897325-0013",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Chitin''' ({{elS|χιτών|chitón|de=Hülle, Panzer}}) ist neben [[Cellulose]] das am weitesten verbreitete [[Biomolekül]].",
+      "plain": null
+    },
+    {
+      "id": "271897325-0014",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es dient der Strukturbildung.",
+      "plain": null
+    },
+    {
+      "id": "271897325-0015",
+      "type": "sentence",
+      "section": "",
+      "raw": "Chitin ist wie auch die Cellulose ein [[Polysaccharid]]; es unterscheidet sich von ihr durch eine [[Acetamid]]gruppe.",
+      "plain": null
+    },
+    {
+      "id": "271897325-0016",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es kommt sowohl bei [[Pilze]]n als auch bei [[Gliedertiere]]n (Articulata) und [[Weichtiere]]n vor.",
+      "plain": null
+    },
+    {
+      "id": "271897325-0017",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bei Pilzen bildet es einen der Hauptbestandteile der [[Zellwand]].",
+      "plain": null
+    },
+    {
+      "id": "271897325-0018",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bei [[Ringelwürmer]]n kommt es im Mundraum vor.",
+      "plain": null
+    },
+    {
+      "id": "271897325-0019",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bei [[Gliederfüßer]]n ist es Hauptbestandteil des [[Exoskelett]]s.",
+      "plain": null
+    },
+    {
+      "id": "271897325-0020",
+      "type": "sentence",
+      "section": "",
+      "raw": "Aber auch bei Wirbeltieren wurde es gefunden, etwa bei [[Echte Knochenfische|Knochenfischen]] und [[Schleimfische]]n (Blenniidae) wie dem [[Grauer Schleimfisch|Grauen Schleimfisch]] (''Paralipophrys trigloides'').<ref name=\"DOI10.1007/BF01923410\">G. P. Wagner, J. Lo, R. Laine, M. Almeder: ''Chitin in the epidermal cuticle of a vertebrate (Paralipophrys trigloides, Blenniidae, Teleostei).'' In: ''[[Experientia]].'' 49, 1993, S.&nbsp;317–319, [[doi:10.1007/BF01923410]].</ref>",
+      "plain": null
+    },
+    {
+      "id": "271897325-0021",
+      "type": "sentence",
+      "section": "",
+      "raw": "Chitin ist Ausgangsstoff für die technische Herstellung von [[Chitosan]] und [[Glucosamin]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271897325,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271897325-0013",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Chitin (griechisch χιτών chitón, deutsch ‚Hülle, Panzer‘) ist neben Cellulose das am weitesten verbreitete Biomolekül.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271897325-0010",
+        "type": "infobox_row",
+        "section": "",
+        "context_ids": [],
+        "plain": "Infobox Polymer – Eigenschaften – Löslichkeit: nahezu unlöslich in Wasser, Ethanol, Ether, Aceton, Chloroform, verdünnten Säuren und konzentrierten Laugen Zersetzung in starken Säuren",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271897325-0016",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Es kommt sowohl bei Pilzen als auch bei Gliedertieren (Articulata) und Weichtieren vor.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271897325-0017",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Bei Pilzen bildet es einen der Hauptbestandteile der Zellwand.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271897325-0020",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271897325-0019"
+        ],
+        "plain": "Aber auch bei Wirbeltieren wurde es gefunden, etwa bei Knochenfischen und Schleimfischen (Blenniidae) wie dem Grauen Schleimfisch (Paralipophrys trigloides).",
+        "context_plain": [
+          "Bei Gliederfüßern ist es Hauptbestandteil des Exoskeletts."
+        ]
+      },
+      {
+        "segment_id": "271897325-0021",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Chitin ist Ausgangsstoff für die technische Herstellung von Chitosan und Glucosamin.",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "271897325-0018",
+        "reason": "too_short"
+      },
+      {
+        "segment_id": "271897325-0019",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

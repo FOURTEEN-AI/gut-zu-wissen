@@ -1,0 +1,93 @@
+{
+  "title": "Tarnung (Biologie)",
+  "revid": 270464823,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-14T00:12:20Z",
+  "fetched_at": "2026-11-22T11:28:20Z",
+  "categories": [
+    "Kategorie:Evolution",
+    "Kategorie:Kommunikation (Biologie)",
+    "Kategorie:Tarnung",
+    "Kategorie:Wikipedia:Gesprochener Artikel",
+    "Kategorie:Wikipedia:Lesenswert",
+    "Kategorie:Ökologische Beziehung"
+  ],
+  "intro_wikitext": "[[Datei:Colostygia aqueata Buchstein01.jpg|mini|Somatolyse: Der [[Nachtfalter]] ''[[Colostygia aqueata]]'' auf hellem [[Carbonate|Carbonatgestein]] am [[Großer Buchstein|Großen Buchstein]] in den Ostalpen]]\n[[Datei:Phlogophora meticulosa, Achateule 4.JPG|mini|Somatolyse: [[Achateule]] auf Laubblatt]]\n\n'''Tarnung''', in der [[Verhaltensbiologie]] auch als '''Krypsis''' (von {{grcS|κρύψις|''krýpsis''|de=das Verbergen, Sichverbergen}})<ref name=\"GEMOLL\">{{Literatur | Autor=[[Wilhelm Gemoll]] | Titel=Griechisch-Deutsches Schul- und Handwörterbuch | Auflage= | Verlag=G. Freytag Verlag/Hölder-Pichler-Tempsky | Ort=München/Wien | Jahr=1965 | ISBN= }}</ref> bezeichnet, ist bei Tieren der Vorgang oder Zustand, der darauf abzielt, irreführende Signale an ein anderes Lebewesen zu senden. Es ist sowohl der simpelste und effektivste Mechanismus zur Reduzierung des [[Prädator|Prädationsrisikos]] als auch eine mögliche [[evolutionäre Anpassung]] von [[Beutegreifer]]n, die aufgrund ihrer Tarnung von potentiellen Beutetieren weniger leicht wahrgenommen werden. Diese Irreführung kann sich gegen alle Sinnesorgane richten, also zum Beispiel die [[visuelle Wahrnehmung]] („das [[Auge]]“) täuschen, die [[auditive Wahrnehmung]] („das [[Ohr]]“) oder die [[olfaktorische Wahrnehmung]] („den [[Geruch]]ssinn“). Als Sonderform der Tarnung können auch bestimmte [[Mimikry]]-Varianten aufgefasst werden, bei denen zum Beispiel wohlschmeckende oder wehrlose [[Art (Biologie)|Arten]] äußere Merkmale übelschmeckender oder wehrhafter Arten kopieren und sich so gegenüber potenziellen [[Fressfeind]]en tarnen.\n\nWird das visuelle (das äußerlich sichtbare) Erscheinungsbild eines Tieres zur Tarnung genutzt, bezeichnet der Fachmann dieses Aussehen als '''Tarntracht'''.",
+  "segments": [
+    {
+      "id": "270464823-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Tarnung''', in der [[Verhaltensbiologie]] auch als '''Krypsis''' (von {{grcS|κρύψις|''krýpsis''|de=das Verbergen, Sichverbergen}})<ref name=\"GEMOLL\">{{Literatur | Autor=[[Wilhelm Gemoll]] | Titel=Griechisch-Deutsches Schul- und Handwörterbuch | Auflage= | Verlag=G. Freytag Verlag/Hölder-Pichler-Tempsky | Ort=München/Wien | Jahr=1965 | ISBN= }}</ref> bezeichnet, ist bei Tieren der Vorgang oder Zustand, der darauf abzielt, irreführende Signale an ein anderes Lebewesen zu senden.",
+      "plain": null
+    },
+    {
+      "id": "270464823-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es ist sowohl der simpelste und effektivste Mechanismus zur Reduzierung des [[Prädator|Prädationsrisikos]] als auch eine mögliche [[evolutionäre Anpassung]] von [[Beutegreifer]]n, die aufgrund ihrer Tarnung von potentiellen Beutetieren weniger leicht wahrgenommen werden.",
+      "plain": null
+    },
+    {
+      "id": "270464823-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Diese Irreführung kann sich gegen alle Sinnesorgane richten, also zum Beispiel die [[visuelle Wahrnehmung]] („das [[Auge]]“) täuschen, die [[auditive Wahrnehmung]] („das [[Ohr]]“) oder die [[olfaktorische Wahrnehmung]] („den [[Geruch]]ssinn“).",
+      "plain": null
+    },
+    {
+      "id": "270464823-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als Sonderform der Tarnung können auch bestimmte [[Mimikry]]-Varianten aufgefasst werden, bei denen zum Beispiel wohlschmeckende oder wehrlose [[Art (Biologie)|Arten]] äußere Merkmale übelschmeckender oder wehrhafter Arten kopieren und sich so gegenüber potenziellen [[Fressfeind]]en tarnen.",
+      "plain": null
+    },
+    {
+      "id": "270464823-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Wird das visuelle (das äußerlich sichtbare) Erscheinungsbild eines Tieres zur Tarnung genutzt, bezeichnet der Fachmann dieses Aussehen als '''Tarntracht'''.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270464823,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270464823-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Tarnung, in der Verhaltensbiologie auch als Krypsis (von altgriechisch κρύψις krýpsis, deutsch ‚das Verbergen, Sichverbergen‘) bezeichnet, ist bei Tieren der Vorgang oder Zustand, der darauf abzielt, irreführende Signale an ein anderes Lebewesen zu senden.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270464823-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270464823-0000"
+        ],
+        "plain": "Es ist sowohl der simpelste und effektivste Mechanismus zur Reduzierung des Prädationsrisikos als auch eine mögliche evolutionäre Anpassung von Beutegreifern, die aufgrund ihrer Tarnung von potentiellen Beutetieren weniger leicht wahrgenommen werden.",
+        "context_plain": [
+          "Tarnung, in der Verhaltensbiologie auch als Krypsis (von altgriechisch κρύψις krýpsis, deutsch ‚das Verbergen, Sichverbergen‘) bezeichnet, ist bei Tieren der Vorgang oder Zustand, der darauf abzielt, irreführende Signale an ein anderes Lebewesen zu senden."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "270464823-0002",
+        "reason": "context_invalid"
+      },
+      {
+        "segment_id": "270464823-0003",
+        "reason": "context_invalid"
+      },
+      {
+        "segment_id": "270464823-0004",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

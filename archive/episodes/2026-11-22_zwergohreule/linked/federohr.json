@@ -1,0 +1,103 @@
+{
+  "title": "Federohr",
+  "revid": 247550419,
+  "revision_status": "sighted",
+  "revision_timestamp": "2024-08-09T21:43:12Z",
+  "fetched_at": "2026-11-22T11:28:20Z",
+  "categories": [
+    "Kategorie:Anatomie der Federn"
+  ],
+  "intro_wikitext": "[[Datei:Waldohreule (Asio otus) Gesichtsschleier.jpg|thumb|260px|Nahaufnahme einer [[Waldohreule]] mit deutlich erkennbaren Federohren und [[Gesichtsschleier (Eule)|Gesichtsschleier]]]] \n'''Federohren''' sind auffallend verlängerte Kopf[[Feder|federn]], die etwa die Hälfte der [[Eulen]]arten entwickelt hat. Sie bestehen aus vier bis acht Federn; mit dem [[Auditive Wahrnehmung|Gehör]] haben sie nichts zu tun. Welche Funktion ihnen zukommt, ist nicht genau bekannt – während der Balz, in Aggressionssituationen und generell als Stimmungsanzeiger scheinen sie gemeinsam mit dem eulenspezifischen [[Gesichtsschleier (Eule)|Gesichtsschleier]] aber eine Rolle zu spielen. Bekannte „Federohrenträger“ sind zum Beispiel die [[Waldohreule]] (''Asio otus'') oder der [[Uhu]] (''Bubo bubo'').\n\nAuch Vertreter anderer Vogelgattungen haben Federohren ausgebildet, wie zum Beispiel einige [[Fasanenartige]] oder die bekannte [[Ohrenlerche]] (''Eremophila alpestris''), ein regelmäßiger Wintergast an Deutschlands Nordseeküste.",
+  "segments": [
+    {
+      "id": "247550419-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Federohren''' sind auffallend verlängerte Kopf[[Feder|federn]], die etwa die Hälfte der [[Eulen]]arten entwickelt hat.",
+      "plain": null
+    },
+    {
+      "id": "247550419-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie bestehen aus vier bis acht Federn; mit dem [[Auditive Wahrnehmung|Gehör]] haben sie nichts zu tun.",
+      "plain": null
+    },
+    {
+      "id": "247550419-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Welche Funktion ihnen zukommt, ist nicht genau bekannt – während der Balz, in Aggressionssituationen und generell als Stimmungsanzeiger scheinen sie gemeinsam mit dem eulenspezifischen [[Gesichtsschleier (Eule)|Gesichtsschleier]] aber eine Rolle zu spielen.",
+      "plain": null
+    },
+    {
+      "id": "247550419-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bekannte „Federohrenträger“ sind zum Beispiel die [[Waldohreule]] (''Asio otus'') oder der [[Uhu]] (''Bubo bubo'').",
+      "plain": null
+    },
+    {
+      "id": "247550419-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Auch Vertreter anderer Vogelgattungen haben Federohren ausgebildet, wie zum Beispiel einige [[Fasanenartige]] oder die bekannte [[Ohrenlerche]] (''Eremophila alpestris''), ein regelmäßiger Wintergast an Deutschlands Nordseeküste.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 247550419,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "247550419-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Federohren sind auffallend verlängerte Kopffedern, die etwa die Hälfte der Eulenarten entwickelt hat.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "247550419-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "247550419-0000"
+        ],
+        "plain": "Sie bestehen aus vier bis acht Federn; mit dem Gehör haben sie nichts zu tun.",
+        "context_plain": [
+          "Federohren sind auffallend verlängerte Kopffedern, die etwa die Hälfte der Eulenarten entwickelt hat."
+        ]
+      },
+      {
+        "segment_id": "247550419-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "247550419-0000",
+          "247550419-0001"
+        ],
+        "plain": "Welche Funktion ihnen zukommt, ist nicht genau bekannt – während der Balz, in Aggressionssituationen und generell als Stimmungsanzeiger scheinen sie gemeinsam mit dem eulenspezifischen Gesichtsschleier aber eine Rolle zu spielen.",
+        "context_plain": [
+          "Federohren sind auffallend verlängerte Kopffedern, die etwa die Hälfte der Eulenarten entwickelt hat.",
+          "Sie bestehen aus vier bis acht Federn; mit dem Gehör haben sie nichts zu tun."
+        ]
+      },
+      {
+        "segment_id": "247550419-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "247550419-0002",
+          "247550419-0003"
+        ],
+        "plain": "Auch Vertreter anderer Vogelgattungen haben Federohren ausgebildet, wie zum Beispiel einige Fasanenartige oder die bekannte Ohrenlerche (Eremophila alpestris), ein regelmäßiger Wintergast an Deutschlands Nordseeküste.",
+        "context_plain": [
+          "Welche Funktion ihnen zukommt, ist nicht genau bekannt – während der Balz, in Aggressionssituationen und generell als Stimmungsanzeiger scheinen sie gemeinsam mit dem eulenspezifischen Gesichtsschleier aber eine Rolle zu spielen.",
+          "Bekannte „Federohrenträger“ sind zum Beispiel die Waldohreule (Asio otus) oder der Uhu (Bubo bubo)."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

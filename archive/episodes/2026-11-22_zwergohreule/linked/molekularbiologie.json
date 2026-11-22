@@ -1,0 +1,66 @@
+{
+  "title": "Molekularbiologie",
+  "revid": 260526496,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-10-12T12:24:57Z",
+  "fetched_at": "2026-11-22T11:28:20Z",
+  "categories": [
+    "Kategorie:Humangenetik",
+    "Kategorie:Medizinisches Fachgebiet",
+    "Kategorie:Molekularbiologie"
+  ],
+  "intro_wikitext": "[[Datei:DNA Overview.png|miniatur|hochkant|Strukturmodell eines Ausschnitts aus der DNA-Doppelhelix (B-Form) mit 20 Basenpaarungen.]]\nDie '''Molekularbiologie''' ist die Beschäftigung mit der Struktur und Funktion biologischer [[Makromoleküle]], befasst sich als solche mit der Struktur, [[Biosynthese]] und Funktion von [[Desoxyribonukleinsäure|DNA]] und [[Ribonukleinsäure|RNA]] auf [[Molekül|molekularer]] Ebene und untersucht, wie diese untereinander und mit [[Protein]]en interagieren. Das Forschungsgebiet der Molekularbiologie überlappt dabei immer mehr mit weiteren Feldern der [[Biologie]] und [[Chemie]], insbesondere der (molekularen) [[Genetik]] und der [[Biochemie]]. Die Grenzen zwischen diesen Fachbereichen sind dabei oft fließend. Der Name für dieses Fach wurde bereits in den 1930er Jahren verwendet, jedoch erst 1952 durch den englischen Physiker und Molekularbiologen [[William Astbury]] entscheidend geprägt.",
+  "segments": [
+    {
+      "id": "260526496-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Molekularbiologie''' ist die Beschäftigung mit der Struktur und Funktion biologischer [[Makromoleküle]], befasst sich als solche mit der Struktur, [[Biosynthese]] und Funktion von [[Desoxyribonukleinsäure|DNA]] und [[Ribonukleinsäure|RNA]] auf [[Molekül|molekularer]] Ebene und untersucht, wie diese untereinander und mit [[Protein]]en interagieren.",
+      "plain": null
+    },
+    {
+      "id": "260526496-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Forschungsgebiet der Molekularbiologie überlappt dabei immer mehr mit weiteren Feldern der [[Biologie]] und [[Chemie]], insbesondere der (molekularen) [[Genetik]] und der [[Biochemie]].",
+      "plain": null
+    },
+    {
+      "id": "260526496-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Grenzen zwischen diesen Fachbereichen sind dabei oft fließend.",
+      "plain": null
+    },
+    {
+      "id": "260526496-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Name für dieses Fach wurde bereits in den 1930er Jahren verwendet, jedoch erst 1952 durch den englischen Physiker und Molekularbiologen [[William Astbury]] entscheidend geprägt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 260526496,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "260526496-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "260526496-0000",
+          "260526496-0001",
+          "260526496-0002"
+        ],
+        "plain": "Der Name für dieses Fach wurde bereits in den 1930er Jahren verwendet, jedoch erst 1952 durch den englischen Physiker und Molekularbiologen William Astbury entscheidend geprägt.",
+        "context_plain": [
+          "Die Molekularbiologie ist die Beschäftigung mit der Struktur und Funktion biologischer Makromoleküle, befasst sich als solche mit der Struktur, Biosynthese und Funktion von DNA und RNA auf molekularer Ebene und untersucht, wie diese untereinander und mit Proteinen interagieren.",
+          "Das Forschungsgebiet der Molekularbiologie überlappt dabei immer mehr mit weiteren Feldern der Biologie und Chemie, insbesondere der (molekularen) Genetik und der Biochemie.",
+          "Die Grenzen zwischen diesen Fachbereichen sind dabei oft fließend."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "title": "Äskulapnatter",
+  "revid": 272120188,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-13T08:22:38Z",
+  "fetched_at": "2026-11-22T11:28:20Z",
+  "categories": [
+    "Kategorie:Asklepios",
+    "Kategorie:Eigentliche Nattern",
+    "Kategorie:FFH-Arten (Anhang IV)",
+    "Kategorie:Wappentier",
+    "Kategorie:Wikipedia:Lesenswert"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe bitte [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name       = Äskulapnatter\n| Taxon_WissName   = Zamenis longissimus\n| Taxon_Rang       = Art\n| Taxon_Autor      = ([[Josephus Nicolaus Laurenti|Laurenti]], 1768)\n| Taxon2_Name      = \n| Taxon2_WissName  = Zamenis\n| Taxon2_Rang      = Gattung\n| Taxon3_Name      = Eigentliche Nattern\n| Taxon3_WissName  = Colubrinae\n| Taxon3_Rang      = Unterfamilie\n| Taxon4_Name      = Nattern\n| Taxon4_WissName  = Colubridae\n| Taxon4_Rang      = Familie\n| Taxon5_WissName  = Colubroidea\n| Taxon5_Rang      = Überfamilie\n| Taxon6_Name      = Schlangen\n| Taxon6_WissName  = Serpentes\n| Taxon6_Rang      = Unterordnung\n| Bild             = Zamenis longissimus.jpg\n| Bildbeschreibung = Äskulapnatter (''Zamenis longissimus'')\n}}\n\nDie '''Äskulapnatter''' (''Zamenis longissimus'', [[Synonym (Taxonomie)|Syn.]]: ''Elaphe longissima'') gehört zur Familie der [[Nattern]] (Colubridae) und gehört mit bis zu zwei Metern Länge zu den größten Schlangenarten Europas. Sie ist wie die meisten Arten dieser Familie ungiftig.",
+  "segments": [
+    {
+      "id": "272120188-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon6_Name      = Schlangen | Taxon6_WissName  = Serpentes",
+      "plain": "Taxobox – Systematik – Unterordnung: Schlangen (Serpentes)"
+    },
+    {
+      "id": "272120188-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_WissName  = Colubroidea",
+      "plain": "Taxobox – Systematik – Überfamilie: Colubroidea"
+    },
+    {
+      "id": "272120188-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_Name      = Nattern | Taxon4_WissName  = Colubridae",
+      "plain": "Taxobox – Systematik – Familie: Nattern (Colubridae)"
+    },
+    {
+      "id": "272120188-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon3_Name      = Eigentliche Nattern | Taxon3_WissName  = Colubrinae",
+      "plain": "Taxobox – Systematik – Unterfamilie: Eigentliche Nattern (Colubrinae)"
+    },
+    {
+      "id": "272120188-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_WissName  = Zamenis",
+      "plain": "Taxobox – Systematik – Gattung: Zamenis"
+    },
+    {
+      "id": "272120188-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name       = Äskulapnatter",
+      "plain": "Taxobox – Systematik – Art: Äskulapnatter"
+    },
+    {
+      "id": "272120188-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Äskulapnatter''' (''Zamenis longissimus'', [[Synonym (Taxonomie)|Syn.]]: ''Elaphe longissima'') gehört zur Familie der [[Nattern]] (Colubridae) und gehört mit bis zu zwei Metern Länge zu den größten Schlangenarten Europas.",
+      "plain": null
+    },
+    {
+      "id": "272120188-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie ist wie die meisten Arten dieser Familie ungiftig.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272120188,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272120188-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Äskulapnatter (Zamenis longissimus, Syn.: Elaphe longissima) gehört zur Familie der Nattern (Colubridae) und gehört mit bis zu zwei Metern Länge zu den größten Schlangenarten Europas.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

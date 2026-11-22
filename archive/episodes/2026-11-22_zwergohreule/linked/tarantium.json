@@ -1,0 +1,90 @@
+{
+  "title": "Tarantium",
+  "revid": 269153082,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-28T03:00:24Z",
+  "fetched_at": "2026-11-22T11:28:20Z",
+  "categories": [
+    "Kategorie:Zeitalter des Quartär"
+  ],
+  "intro_wikitext": "{{Linkbox Quartär (Geologie)}}\n\nDas '''Tarantium''' (auch '''Oberes Pleistozän''', '''Spätpleistozän''' oder '''Jungpleistozän''', englisch „Late Pleistocene“ oder „Upper Pleistocene“) umfasst die [[Eem-Warmzeit]] und die [[Letzte Kaltzeit]]. Es ist damit der jüngste und zugleich kürzeste Abschnitt des [[Pleistozän]]s, des Zeitalters der wechselnden Warm- und [[Kaltzeiten]]. Es begann vor 127.000/126.000 Jahren und endete vor 11.650 Jahren [[Before Present|BP]]<ref>{{Literatur |Titel=Welcome to the Meghalayan Age - a new phase in history |Sammelwerk=BBC News |Datum=2018-07-18 |Online=https://www.bbc.com/news/science-environment-44868527 |Abruf=2022-07-29}}</ref> mit einer globalen Erwärmung, dem [[Holozän]], das bis heute andauert.\nHinsichtlich der [[Menschheitsgeschichte]] fällt das Ende des Tarantiums etwa mit dem Beginn des [[Präkeramisches Neolithikum|Präkeramischen Neolithikums]] im [[Naher Osten|Vorderen Orient]] bzw. des [[Mittelsteinzeit|Mesolithikums]] in Mitteleuropa zusammen.",
+  "segments": [
+    {
+      "id": "269153082-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das '''Tarantium''' (auch '''Oberes Pleistozän''', '''Spätpleistozän''' oder '''Jungpleistozän''', englisch „Late Pleistocene“ oder „Upper Pleistocene“) umfasst die [[Eem-Warmzeit]] und die [[Letzte Kaltzeit]].",
+      "plain": null
+    },
+    {
+      "id": "269153082-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es ist damit der jüngste und zugleich kürzeste Abschnitt des [[Pleistozän]]s, des Zeitalters der wechselnden Warm- und [[Kaltzeiten]].",
+      "plain": null
+    },
+    {
+      "id": "269153082-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es begann vor 127.000/126.000 Jahren und endete vor 11.650 Jahren [[Before Present|BP]]<ref>{{Literatur |Titel=Welcome to the Meghalayan Age - a new phase in history |Sammelwerk=BBC News |Datum=2018-07-18 |Online=https://www.bbc.com/news/science-environment-44868527 |Abruf=2022-07-29}}</ref> mit einer globalen Erwärmung, dem [[Holozän]], das bis heute andauert.",
+      "plain": null
+    },
+    {
+      "id": "269153082-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Hinsichtlich der [[Menschheitsgeschichte]] fällt das Ende des Tarantiums etwa mit dem Beginn des [[Präkeramisches Neolithikum|Präkeramischen Neolithikums]] im [[Naher Osten|Vorderen Orient]] bzw. des [[Mittelsteinzeit|Mesolithikums]] in Mitteleuropa zusammen.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269153082,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269153082-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Tarantium (auch Oberes Pleistozän, Spätpleistozän oder Jungpleistozän, englisch „Late Pleistocene“ oder „Upper Pleistocene“) umfasst die Eem-Warmzeit und die Letzte Kaltzeit.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269153082-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269153082-0000"
+        ],
+        "plain": "Es ist damit der jüngste und zugleich kürzeste Abschnitt des Pleistozäns, des Zeitalters der wechselnden Warm- und Kaltzeiten.",
+        "context_plain": [
+          "Das Tarantium (auch Oberes Pleistozän, Spätpleistozän oder Jungpleistozän, englisch „Late Pleistocene“ oder „Upper Pleistocene“) umfasst die Eem-Warmzeit und die Letzte Kaltzeit."
+        ]
+      },
+      {
+        "segment_id": "269153082-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269153082-0000",
+          "269153082-0001"
+        ],
+        "plain": "Es begann vor 127.000/126.000 Jahren und endete vor 11.650 Jahren BP mit einer globalen Erwärmung, dem Holozän, das bis heute andauert.",
+        "context_plain": [
+          "Das Tarantium (auch Oberes Pleistozän, Spätpleistozän oder Jungpleistozän, englisch „Late Pleistocene“ oder „Upper Pleistocene“) umfasst die Eem-Warmzeit und die Letzte Kaltzeit.",
+          "Es ist damit der jüngste und zugleich kürzeste Abschnitt des Pleistozäns, des Zeitalters der wechselnden Warm- und Kaltzeiten."
+        ]
+      },
+      {
+        "segment_id": "269153082-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Hinsichtlich der Menschheitsgeschichte fällt das Ende des Tarantiums etwa mit dem Beginn des Präkeramischen Neolithikums im Vorderen Orient bzw. des Mesolithikums in Mitteleuropa zusammen.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

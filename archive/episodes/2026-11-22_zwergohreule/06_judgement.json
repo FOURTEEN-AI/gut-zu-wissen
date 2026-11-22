@@ -1,0 +1,1356 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.57
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Zwergohreule (Otus scops), zweitkleinste europäische Eule nach dem Sperlingskauz, knapp Amselgröße (Fakt 0005) sowie fünf Unterarten, die recht wenig differenziert sind (Fakt 0006). „Heute geht es um…“ ist eine belegfreie Überleitung. Es gibt keine Fragen und keine zusätzlichen Angaben; „Die Art“ bezieht sich eindeutig auf die Zwergohreule."
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.64
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Das möchte ich mir genau vorstellen\" ist eine Aussage über das eigene Interesse, also eine Reaktion. \"Wie groß ist sie denn ganz genau?\" ist eine Nachfrage ohne Prämisse, die eine Einzelheit vorwegnimmt. Fakt-IDs sind nicht nötig."
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern fragt offen nach Vergleichen mit anderen Eulen; die Größe als Thema hat Lena zuvor genannt. Damit ist sie belegfrei und enthält keine Behauptung."
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.63
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine neue Information. „Der Name sagt Ohreule“ greift nur den Namen „Zwergohreule“ aus dem vorherigen Beitrag wieder auf. „Was hat es mit den Ohren auf sich?“ ist eine Nachfrage und Bitte um Erklärung, die keine bestimmte Einzelheit vorwegnimmt. Er ist daher auch ohne Fakt-IDs belegfrei."
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Federohren als auffallend verlängerte Kopffedern, die etwa die Hälfte der Eulenarten entwickelt hat (0000), vier bis acht Federn und kein Zusammenhang mit dem Gehör (0001). \"Sie\" im zweiten Fakt bezieht sich laut Kontext eindeutig auf die Federohren, die Lena nennt. Der Einstieg \"Gemeint sind die Federohren\" greift Felix' Frage zu den Ohren auf und ist belegfrei. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage nach der Aufgabe der zuvor genannten Federohren. Er enthält keine Behauptung und keine Prämisse, die erst die Antwort liefern würde, denn dass Federohren eine Aufgabe haben, ist keine bestimmte Einzelheit. Ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.79
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Er knüpft an das Gesagte über die Federohren an und fragt, ob die Zwergohreule immer gleich aussieht. Er nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg und stellt keine nicht genannte Tatsache als gegeben hin. Die Frage ist daher belegfrei und zulässig."
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage, die um Erklärung zum Steinkauz bittet. Die Prämisse, dass man die Zwergohreule mit dem Steinkauz verwechseln kann, steht im Fakt-Satz (\"eventuell eine Verwechslungsmöglichkeit mit dem Steinkauz\") und im vorherigen Beitrag. Die Frage nimmt keine Einzelheit zum Steinkauz vorweg, sondern setzt nur voraus, dass es etwas zu erzählen gibt. Daher ist sie belegfrei bzw. gedeckt."
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Spannend!“ ist eine Reaktion. Die Frage, wie sich die Zwergohreule akustisch bemerkbar macht, ist eine Nachfrage nach Neuem. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es dazu etwas zu erzählen gibt. Fakt-Sätze sind daher nicht nötig."
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.71
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Sie fragt, ob man die Eule mit dem eben genannten Ruf leicht aufspüren kann, und knüpft damit an Lenas Beschreibung an. Die Frage enthält keine Behauptung und keine Prämisse mit bestimmter Einzelheit, Wertung oder Vermutung, die erst die Antwort liefern müsste. Sie ist daher belegfrei."
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Sie fragt offen, ob es ein Tier mit ähnlichem Ruf gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Damit ist sie belegfrei und enthält keine Behauptung."
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.5
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung, sondern nur eine Überleitung („Gut, genug gelauscht.“) und eine offene Nachfrage zur Nahrung der Zwergohreule. Die Frage setzt nur voraus, dass es etwas zu erzählen gibt, und nimmt keine Einzelheit, Wertung oder Vermutung vorweg. Damit ist er auch ohne Fakt-IDs belegfrei."
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage („Gibt es eine Grenze bei der Größe der Bissen?“). Sie knüpft an Lenas Aussage zum Verzehr an und setzt nur voraus, dass es dazu etwas zu erzählen gibt. Eine bestimmte Einzelheit, Wertung oder Vermutung nimmt sie nicht vorweg. Der Beitrag enthält keine Behauptung, daher braucht er keine Fakt-IDs."
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.84,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz fast wörtlich wieder. Das Bezugswort „die Eule“ wird zu „die Zwergohreule“ aufgelöst, und das ist das Thema des Artikels. Das ist erlaubt. Die Aussage passt auch zu Felix' Frage nach einer Grenze bei der Bissengröße. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage (\"Und wie kommt sie an ihre Beute?\"). Sie enthält keine Behauptung und keine Prämisse, die erst die Antwort liefert. Dass die Eule Beute hat, ergibt sich aus dem vorherigen Redebeitrag (kleine Bissen). Fakt-Sätze sind daher nicht nötig."
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.35
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur Reaktionen: Das Staunen über die Straßenlaternen greift das eben Gesagte ohne neue Information auf und ist ein Gefühl im Moment. Die Frage \"Jagt sie auch größere Tiere?\" ist eine Nachfrage ohne Prämisse, die eine Einzelheit vorwegnimmt. Fakt-Sätze werden nicht gebraucht."
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Größere Beute, vor allem Kleinsäuger, wird beim Aufprall auf den Boden ergriffen, mit den Flügeln abgedeckt (gemantelt), solange sie Gegenwehr zeigt. Die Eule als Subjekt ergibt sich aus dem Artikelthema Zwergohreule. Die Erklärung des Begriffs „mantelt“ steht in der Klammer des Fakts. Es gibt keine Fragen oder zusätzlichen Angaben, und der Bezug zu Säugetieren in der vorherigen Frage passt zu „Kleinsäuger“."
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist nur eine Nachfrage bzw. Überleitungsfrage ohne Fakt-IDs. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg und setzt nichts als Tatsache voraus, das nicht gesagt wurde. Damit ist sie belegfrei und enthält keine unbelegte Behauptung."
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage („Wo brütet sie eigentlich?“) und enthält weder eine Behauptung noch eine Prämisse. Dass die Eule irgendwo brütet, ist eine selbstverständliche Voraussetzung einer Nachfrage und kein konkretes Detail. Ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Felix stellt nur eine Nachfrage zu den Brutplätzen, die Lena zuvor erwähnt hat. Sie enthält keine Behauptung und keine Prämisse mit Einzelheit, Wertung oder Vermutung. Dass die Zwergohreule Brutplätze annimmt, hat Lena bereits gesagt. Eine Nachfrage ist belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage („Und wann schlüpfen die Jungen?“) und damit belegfrei. Sie knüpft an das Brüten im vorherigen Beitrag an und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Es steckt auch keine Tatsachenbehauptung darin, die ohne Fakt-IDs nicht zulässig wäre."
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 41,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion („Wow.“, Staunen) und einer offenen Nachfrage bzw. Überleitungsfrage („Wie leben die Eltern miteinander?“). Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg und setzt nur voraus, dass es etwas zu erzählen gibt. Es gibt keine Behauptung, die einen Beleg bräuchte, daher sind fehlende Fakt-IDs unproblematisch."
+    },
+    {
+      "turn_index": 42,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 43,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Felix stellt nur eine Überleitungsfrage nach dem Winterquartier der Zwergohreule. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Dass es einen Winteraufenthaltsort gibt, ist selbstverständlich, und der Gegenstand (Zwergohreule) wird im Redebeitrag genannt. Damit ist die Frage belegfrei und enthält keine unbelegte Behauptung."
+    },
+    {
+      "turn_index": 44,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 45,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine Nachfrage nach dem Verhalten der Zwergohreule tagsüber. Er enthält keine Behauptung und keine Prämisse, die erst die Antwort liefern würde, und ist daher auch ohne Fakt-IDs belegfrei."
+    },
+    {
+      "turn_index": 46,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 47,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Fakt-IDs und auch keine Behauptung. „Interessant.“ ist eine Reaktion. „Wer stellt der Zwergohreule eigentlich nach?“ ist eine Nachfrage bzw. Überleitungsfrage. Sie setzt nur voraus, dass es Fressfeinde gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, die erst die Antwort liefert. Damit ist der Beitrag belegfrei zulässig."
+    },
+    {
+      "turn_index": 48,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 49,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 50,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Untersuchung in den italienischen Alpen, 1995 bis 2003, zwölf dokumentierte Todesfälle, darunter ein adultes Tier und ein ausgeflogener Jungvogel, die von Hauskatzen erbeutet wurden. Es gibt keine zusätzlichen Angaben und keine Fragen. Der Gegenstand ist eindeutig, da er sich über den Artikel Zwergohreule ergibt."
+    },
+    {
+      "turn_index": 51,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 52,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 53,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage („Gibt es auch Gefahren für das Nest?“) und enthält keine Behauptung. Er setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Damit ist er belegfrei und braucht keine Fakt-IDs."
+    },
+    {
+      "turn_index": 54,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.95,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 55,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 56,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 57,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage zur Zwergohreule (Gegenstand aus dem vorherigen Beitrag). Sie enthält keine Behauptung und keine konkrete Prämisse, sondern fragt nur nach etwas Neuem. Das ist belegfrei und braucht keine Fakt-IDs."
+    },
+    {
+      "turn_index": 58,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 59,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage zum eben Gesagten („Und wenn es keinen Ausweg gibt?“). Er enthält keine Behauptung und keine Prämisse, die eine bestimmte Einzelheit oder Tatsache vorwegnimmt, und ist damit belegfrei. Fakt-Sätze sind nicht nötig."
+    },
+    {
+      "turn_index": 60,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 61,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion („Wow!“) und einer Nachfrage zum Bestand in der Schweiz. Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern fragt nur offen nach einer Entwicklung. Sie ist daher belegfrei, und es werden keine Behauptungen aufgestellt."
+    },
+    {
+      "turn_index": 62,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 63,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 64,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 65,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 66,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 67,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage bzw. Überleitungsfrage. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg und setzt nur voraus, dass es etwas zur früheren Lage in Deutschland zu erzählen gibt. Das ist belegfrei, deshalb sind ohne Fakt-IDs keine Belege nötig."
+    },
+    {
+      "turn_index": 68,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.78
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder: Bruten der Zwergohreule wurden nur sehr selten dokumentiert, etwa 1960 in Mainfranken. Die ausgeschriebene Jahreszahl ist zulässig. Der Gegenstand ist eindeutig (Artikel Zwergohreule, im Redebeitrag genannt) und passt zur Frage nach der früheren Lage in Deutschland, da der Kontext Deutschland betrifft. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämissen."
+    },
+    {
+      "turn_index": 69,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 70,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 71,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 72,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 73,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage nach etwas Neuem („Wo lagen die nördlichsten Brutplätze?“) und enthält keine Behauptung. Die Frage nimmt keine bestimmte Einzelheit vorweg; dass es Brutplätze gibt, hat Lena zuvor gesagt. Sie ist daher belegfrei und braucht keine Fakt-IDs."
+    },
+    {
+      "turn_index": 74,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 75,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine offene Nachfrage zum Klimawandel und zur Zwergohreule. Er nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg und setzt keine nicht genannte Tatsache voraus. Damit ist er belegfrei, und Fakt-IDs werden nicht benötigt."
+    },
+    {
+      "turn_index": 76,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 77,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion („Interessant!“) und einer Nachfrage nach neuen Gebieten. Die Frage nimmt keine konkrete Einzelheit vorweg, sondern knüpft an Lenas Aussage an. Der Beitrag enthält also keine Behauptung, die einen Beleg bräuchte."
+    },
+    {
+      "turn_index": 78,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 79,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 80,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 81,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage („Und was ist mit ihrem heutigen Verbreitungsgebiet?“) und knüpft an das Gesagte zur künftigen Ausdehnung an. Er enthält keine Behauptung und keine Prämisse, die einen Beleg bräuchte. Dass es ein heutiges Verbreitungsgebiet gibt, ist selbstverständlich und keine bestimmte Einzelheit, die erst die Antwort liefert. Ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 82,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder. Das Bezugswort „dieser Art“ wird korrekt zu „der Zwergohreule“ aufgelöst. Das ist eindeutig, denn der Artikel handelt von der Zwergohreule. Der Redebeitrag enthält keine zusätzlichen Behauptungen oder Fragen und passt zu Felix' Frage nach dem heutigen Verbreitungsgebiet."
+    },
+    {
+      "turn_index": 83,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.68
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage, die das Gespräch weiterführt. Sie fragt allgemein, ob es Eulen gibt, die der Zwergohreule gefährlich werden. Das nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, die erst die Antwort liefern würde, und setzt nichts als Tatsache voraus, das nicht gesagt wurde. Ohne Fakt-IDs ist das zulässig, weil der Beitrag keine Behauptung enthält."
+    },
+    {
+      "turn_index": 84,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 85,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine offene Nachfrage ohne Fakt-IDs. Sie enthält keine Behauptung und keine Prämisse, die erst eine Antwort liefern müsste, sondern fragt allgemein nach Schutzmechanismen. Damit ist sie belegfrei."
+    },
+    {
+      "turn_index": 86,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 87,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern fragt offen nach der Unterscheidbarkeit der Geschlechter. Das ist belegfrei und enthält keine Behauptung."
+    },
+    {
+      "turn_index": 88,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 89,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine Nachfrage bzw. Überleitungsfrage ohne Fakt-IDs. Sie fragt nach etwas Neuem (Verhalten der Eulen in der Brutzeit) und setzt nur voraus, dass es dazu etwas zu erzählen gibt. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg und enthält keine Behauptung. Damit ist sie belegfrei zulässig."
+    },
+    {
+      "turn_index": 90,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 91,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage zu einem neuen Aspekt (Lebensalter). Er nimmt keine Einzelheit, Wertung oder Vermutung vorweg, die erst die Antwort liefern würde, und behauptet nichts. Ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 92,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 93,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Wow!“ ist eine Reaktion (Staunen). „Gibt es ein konkretes Beispiel für einen Brutplatz?“ ist eine Nachfrage, die nur voraussetzt, dass es etwas zu erzählen gibt, und nimmt keine Einzelheit oder Wertung vorweg. Beides ist belegfrei."
+    },
+    {
+      "turn_index": 94,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 95,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine Nachfrage bzw. Überleitungsfrage ohne Fakt-IDs. Sie fragt offen, ob sich bei der Einteilung der Arten etwas verändert hat, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Sie enthält keine Behauptung und ist daher belegfrei zulässig."
+    },
+    {
+      "turn_index": 96,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 97,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine offene Nachfrage zur Zypern-Zwergohreule, die Lena gerade genannt hat. Er enthält keine Behauptung und keine Prämisse, die erst die Antwort liefern würde. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 98,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 99,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage nach dem Aussehen der Zypern-Zwergohreule. Der Gegenstand wurde im vorherigen Redebeitrag genannt. Die Frage enthält keine Behauptung und keine Prämisse, die eine bestimmte Einzelheit vorwegnimmt, und ist deshalb belegfrei."
+    },
+    {
+      "turn_index": 100,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 101,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 102,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 103,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 104,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.85,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": "Der Fakt-Satz sagt, dass Unterschiede in den Körpermaßen gegenüber benachbarten Populationen der Zwergohreule nicht festgestellt werden konnten. Der Kontext macht eindeutig, dass es um die Zypern-Zwergohreule geht, und der Redebeitrag löst dieses Bezugswort nur auf. Der Artikel behandelt die Zwergohreule, und Felix' Frage nach den Körpermaßen passt zum Gegenstand. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 105,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Felix stellt nur eine Nachfrage nach dem Zeitpunkt der wissenschaftlichen Erstbeschreibung. Sie setzt lediglich voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg. Der Redebeitrag enthält keine Behauptung und braucht daher keine Fakt-IDs."
+    },
+    {
+      "turn_index": 106,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 107,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 108,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 1.0,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 109,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer offenen Nachfrage zur Geschichte der Art. Er enthält keine Behauptung und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Dass es zur Geschichte etwas zu erzählen gibt, ist nur die übliche Voraussetzung einer Nachfrage. Die Frage ist daher belegfrei, und fehlende Fakt-IDs sind in Ordnung."
+    },
+    {
+      "turn_index": 110,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 111,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Das war ein weiter Bogen\" ist eine Reaktion auf das eben Gesagte, und die Bitte um eine Zusammenfassung ist eine Überleitungsfrage ohne Prämisse, die eine Einzelheit vorwegnimmt. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 112,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 1.0,
+        "aussage_1": 1.0,
+        "aussage_2": 1.0,
+        "aussage_3": 1.0,
+        "aussage_4": 1.0,
+        "aussage_5": 0.99,
+        "aussage_6": 0.99,
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den zitierten Fakt-Sätzen: zweitkleinste Eule nach dem Sperlingskauz (0005), Hauskatzen als nachgewiesene Fressfeinde (0140), 78 bis 82 Reviere im Wallis 2024 (0048), regional etablierter Brutvogel in Deutschland (0055), Profiteur des Klimawandels (0177), Abspaltung der Zypern-Zwergohreule 2015 (257958679-0006) und Beschreibung 1758 durch Linné (0146). Gegenstand ist überall die Zwergohreule bzw. klar benannt. Das einleitende „Gern“ ist eine belegfreie Reaktion, und der Redebeitrag enthält keine Fragen mit Prämissen."
+    }
+  ],
+  "used_fact_ids": [
+    "272372222-0005",
+    "272372222-0006",
+    "272372222-0013",
+    "272372222-0008",
+    "272372222-0009",
+    "247550419-0000",
+    "247550419-0001",
+    "247550419-0002",
+    "272372222-0020",
+    "266926397-0010",
+    "272372222-0033",
+    "272372222-0037",
+    "272372222-0035",
+    "272372222-0125",
+    "272372222-0123",
+    "272372222-0119",
+    "272372222-0120",
+    "272372222-0118",
+    "272372222-0122",
+    "272372222-0064",
+    "272372222-0063",
+    "272372222-0093",
+    "272372222-0100",
+    "272372222-0098",
+    "272372222-0070",
+    "272372222-0131",
+    "272372222-0077",
+    "271265673-0000",
+    "272372222-0140",
+    "272372222-0141",
+    "272372222-0142",
+    "272372222-0143",
+    "272372222-0144",
+    "272372222-0073",
+    "272372222-0076",
+    "272372222-0047",
+    "272372222-0048",
+    "272372222-0174",
+    "272372222-0054",
+    "272372222-0056",
+    "272372222-0055",
+    "272372222-0166",
+    "272372222-0177",
+    "272372222-0180",
+    "272372222-0178",
+    "272372222-0179",
+    "272372222-0139",
+    "270464823-0001",
+    "272372222-0014",
+    "272372222-0084",
+    "272372222-0110",
+    "272372222-0058",
+    "272372222-0150",
+    "257958679-0006",
+    "272372222-0024",
+    "272372222-0041",
+    "272372222-0025",
+    "272372222-0146",
+    "266571573-0006",
+    "272372222-0164"
+  ],
+  "cascade_checks": [
+    {
+      "conversation": 1,
+      "turn_index": 40,
+      "p": 0.74,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung gibt die einzige Aussage unverändert wieder: Gestorbene Nestlinge werden gefressen oder an die Geschwister verfüttert. Nur die Formulierung unterscheidet sich (\"Wenn Nestlinge sterben\" statt \"Verstorbene Nestlinge\")."
+    },
+    {
+      "conversation": 1,
+      "turn_index": 66,
+      "p": 0.84,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung ergänzt „der Zwergohreule“ als Art, die in der vorherigen Fassung nicht genannt wird. Das ist eine neue Aussage, die sich nicht aus der vorherigen Fassung ergibt. Ort (Elsass) und Jahr (1986) stimmen überein."
+    }
+  ],
+  "conversation": 2,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 39,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 39,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.87
+        },
+        "jev_error": null,
+        "reason": "Die Frage \"Was geschieht, wenn ein Nestling stirbt?\" ist keine reine Nachfrage zum eben Gesagten. Lena sprach von Schlüpfen, Gewicht und Körperbau der Jungen, vom Tod eines Nestlings war nicht die Rede. Die Frage setzt voraus, dass Nestlinge sterben und dass darauf etwas Bestimmtes geschieht. Das ist eine Prämisse, die nicht gesagt wurde. Da keine Fakt-IDs zitiert sind, ist sie nicht belegt."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 40,
+      "version": 0,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 40,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 65,
+      "version": 0,
+      "replaced_by": 2,
+      "judgement": {
+        "turn_index": 65,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.62
+        },
+        "jev_error": null,
+        "reason": "Felix' Frage setzt als Tatsache voraus, dass die Zwergohreule früher weiter nördlich brütete und dass es dazu eine Nordgrenze gibt. Das hat Lena nicht gesagt, sie sprach nur von Ausbreitung seit den 2000ern und Revieren im Wallis. Es ist keine reine Nachfrage, sondern eine Prämisse, und ohne Fakt-IDs ist sie nicht belegt."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 66,
+      "version": 0,
+      "replaced_by": 3,
+      "judgement": {
+        "turn_index": 66,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.95,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,1184 @@
+{
+  "revid": 272372222,
+  "chunk_count": 13,
+  "facts": [
+    {
+      "segment_id": "272372222-0005",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die Zwergohreule (Otus scops) ist – nach dem Sperlingskauz – die zweitkleinste europäische Eule, sie erreicht knapp Amselgröße.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0006",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+        "272372222-0005"
+      ],
+      "plain": "Die Art ist in fünf Unterarten aufgeteilt, die jedoch recht wenig differenziert sind.",
+      "context_plain": [
+        "Die Zwergohreule (Otus scops) ist – nach dem Sperlingskauz – die zweitkleinste europäische Eule, sie erreicht knapp Amselgröße."
+      ]
+    },
+    {
+      "segment_id": "272372222-0007",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die früher als Unterart der Zwergohreule eingeordnete Zypern-Zwergohreule (Otus cyprius) wird mittlerweile als eigene, auf Zypern endemische Art betrachtet.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0008",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Die Zwergohreule ist mit einer Körpergröße von etwa 20 Zentimetern die kleinste der Ohreulen und erhielt aus diesem Grund ihren Trivialnamen.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0009",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [
+        "272372222-0008"
+      ],
+      "plain": "Sie ist etwa halb so groß wie die Waldohreule (Asio otus) und die Sumpfohreule (Asio flammeus).",
+      "context_plain": [
+        "Die Zwergohreule ist mit einer Körpergröße von etwa 20 Zentimetern die kleinste der Ohreulen und erhielt aus diesem Grund ihren Trivialnamen."
+      ]
+    },
+    {
+      "segment_id": "272372222-0010",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "Verbreitet ist die Art vor allem im Mittelmeerraum sowie weit in den asiatischen Raum, ihre Überwinterungsgebiete befinden sich in Afrika südlich der Sahara.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0011",
+      "type": "sentence",
+      "section": "",
+      "context_ids": [],
+      "plain": "In Mitteleuropa ist sie regional ein seltener Brutvogel, in Teilen von Deutschland hat sie sich seit den 2010er-Jahren als regelmäßiger Brutvogel etabliert.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0013",
+      "type": "sentence",
+      "section": "Aussehen",
+      "context_ids": [],
+      "plain": "Sie wird zwischen 19 und 21 Zentimeter lang, bei einer Spannweite von 49 bis 54 Zentimetern.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0014",
+      "type": "sentence",
+      "section": "Aussehen",
+      "context_ids": [],
+      "plain": "Die Männchen wiegen dabei 77 bis 105, durchschnittlich 83 Gramm, und die Weibchen 90 bis 119, durchschnittlich 98 Gramm. Darüber hinaus sind die Männchen und Weibchen äußerlich am Gefieder nicht unterscheidbar.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0015",
+      "type": "sentence",
+      "section": "Aussehen",
+      "context_ids": [],
+      "plain": "Sie hat ein rindenfarbenes, hellgraues bis kastanien- oder rostbraunes Gefieder mit unterschiedlich deutlichen Weißeinschlüssen.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0016",
+      "type": "sentence",
+      "section": "Aussehen",
+      "context_ids": [
+        "272372222-0015"
+      ],
+      "plain": "Innerhalb der Art gibt es dabei braunere und grauere Individuen bzw. Morphen.",
+      "context_plain": [
+        "Sie hat ein rindenfarbenes, hellgraues bis kastanien- oder rostbraunes Gefieder mit unterschiedlich deutlichen Weißeinschlüssen."
+      ]
+    },
+    {
+      "segment_id": "272372222-0017",
+      "type": "sentence",
+      "section": "Aussehen",
+      "context_ids": [],
+      "plain": "Sowohl auf der Bauch- wie auch auf der Rückenseite besitzen die Tiere dunkle Längsstreifen mit feineren Querverästelungen.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0018",
+      "type": "sentence",
+      "section": "Aussehen",
+      "context_ids": [],
+      "plain": "Die Augen haben eine zitronengelbe bis gelborange Iris, der Schnabel ist hornfarben grau.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0019",
+      "type": "sentence",
+      "section": "Aussehen",
+      "context_ids": [],
+      "plain": "Die Krallen sind schmal und nadelscharf, sie sind in der Regel schwarzbraun gefärbt.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0020",
+      "type": "sentence",
+      "section": "Aussehen",
+      "context_ids": [],
+      "plain": "Der Größen- und Proportionseindruck bei dieser Art ist sehr stark von der Stellung der vergleichsweise kleinen Federohren abhängig: Sind sie angelegt, wirkt die Eule klein, gedrungen, großköpfig (in diesem Falle besteht eventuell eine Verwechslungsmöglichkeit mit dem Steinkauz).",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0021",
+      "type": "sentence",
+      "section": "Aussehen",
+      "context_ids": [
+        "272372222-0020"
+      ],
+      "plain": "Bei voll aufgerichteten Federohren wirkt sie dagegen schlank, schmalköpfig und größer, als sie tatsächlich ist.",
+      "context_plain": [
+        "Der Größen- und Proportionseindruck bei dieser Art ist sehr stark von der Stellung der vergleichsweise kleinen Federohren abhängig: Sind sie angelegt, wirkt die Eule klein, gedrungen, großköpfig (in diesem Falle besteht eventuell eine Verwechslungsmöglichkeit mit dem Steinkauz)."
+      ]
+    },
+    {
+      "segment_id": "272372222-0022",
+      "type": "sentence",
+      "section": "Aussehen",
+      "context_ids": [],
+      "plain": "Die Flügel sind vergleichsweise lang, der Schwanz ist kurz.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0023",
+      "type": "sentence",
+      "section": "Aussehen",
+      "context_ids": [
+        "272372222-0022"
+      ],
+      "plain": "Sie fliegt schnell und gewandt, im Flugbild wirkt sie deutlich kurzschwänziger und weniger breitflügelig als der Steinkauz.",
+      "context_plain": [
+        "Die Flügel sind vergleichsweise lang, der Schwanz ist kurz."
+      ]
+    },
+    {
+      "segment_id": "272372222-0024",
+      "type": "sentence",
+      "section": "Aussehen",
+      "context_ids": [],
+      "plain": "Die vormals als Unterart betrachtete Zypern-Zwergohreule unterscheidet sich von der Zwergohreule durch ihr dunkleres Gefieder und die fehlende rötliche Farbmorphe.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0025",
+      "type": "sentence",
+      "section": "Aussehen",
+      "context_ids": [
+        "272372222-0024"
+      ],
+      "plain": "Unterschiede in den Körpermaßen gegenüber benachbarten Populationen der Zwergohreule konnten dagegen nicht festgestellt werden.",
+      "context_plain": [
+        "Die vormals als Unterart betrachtete Zypern-Zwergohreule unterscheidet sich von der Zwergohreule durch ihr dunkleres Gefieder und die fehlende rötliche Farbmorphe."
+      ]
+    },
+    {
+      "segment_id": "272372222-0033",
+      "type": "sentence",
+      "section": "Stimme",
+      "context_ids": [],
+      "plain": "Er ist ein peilsenderartiges, fast immer einsilbiges, etwas nasales und nicht besonders lautes „Djü“ in einer Tonhöhe von etwa 1400 Hz, das in Abständen von 2 bis 3,5 Sekunden oft stundenlang wiederholt wird.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0034",
+      "type": "sentence",
+      "section": "Stimme",
+      "context_ids": [
+        "272372222-0033"
+      ],
+      "plain": "Zuweilen geht dem Hauptton ein Anlaut voraus, sodass der Ruf zweisilbig erscheint.",
+      "context_plain": [
+        "Er ist ein peilsenderartiges, fast immer einsilbiges, etwas nasales und nicht besonders lautes „Djü“ in einer Tonhöhe von etwa 1400 Hz, das in Abständen von 2 bis 3,5 Sekunden oft stundenlang wiederholt wird."
+      ]
+    },
+    {
+      "segment_id": "272372222-0035",
+      "type": "sentence",
+      "section": "Stimme",
+      "context_ids": [],
+      "plain": "Der Ruf der Geburtshelferkröte lautet dagegen auf „ü“ ohne Modulierung und klingt heller, zudem etwa einen ganzen Ton tiefer.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0036",
+      "type": "sentence",
+      "section": "Stimme",
+      "context_ids": [
+        "272372222-0035"
+      ],
+      "plain": "Er erinnert entfernt an das Glockengebimmel von Vieh.",
+      "context_plain": [
+        "Der Ruf der Geburtshelferkröte lautet dagegen auf „ü“ ohne Modulierung und klingt heller, zudem etwa einen ganzen Ton tiefer."
+      ]
+    },
+    {
+      "segment_id": "272372222-0037",
+      "type": "sentence",
+      "section": "Stimme",
+      "context_ids": [],
+      "plain": "Da die Zwergohreule während des Gesanges den Kopf dreht, ist sie nur schwer aufgrund ihrer Rufe zu lokalisieren.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0038",
+      "type": "sentence",
+      "section": "Stimme",
+      "context_ids": [],
+      "plain": "Die Gesangsaktivität beginnt kurz nach Sonnenuntergang und endet in der Morgendämmerung; nach Mitternacht geht die Rufaktivität für ein bis zwei Stunden deutlich zurück.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0039",
+      "type": "sentence",
+      "section": "Stimme",
+      "context_ids": [],
+      "plain": "Männchen und Weibchen rufen häufig im Duett, das Weibchen ruft dabei in einer etwas höheren Tonlage und etwas weniger regelmäßig als das Männchen.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0040",
+      "type": "sentence",
+      "section": "Stimme",
+      "context_ids": [],
+      "plain": "Bei Erregung ist vor allem in Höhlennähe ein eulentypisches einzelnes oder gereihtes Schnabelknappen zu vernehmen.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0041",
+      "type": "sentence",
+      "section": "Stimme",
+      "context_ids": [],
+      "plain": "Die Zypern-Zwergohreule unterscheidet sich von der Zwergohreule durch ihren zweisilbigen Reviergesang.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0042",
+      "type": "sentence",
+      "section": "Verbreitung und Vorkommen",
+      "context_ids": [],
+      "plain": "Die Schwerpunkte des Zwergohreulenvorkommens liegen entlang des Mittelmeeres mit Konzentrationen in Spanien, Kroatien und der Türkei über Südosteuropa und Kleinasien bis nach Mittelasien, Südrussland und Afghanistan.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0043",
+      "type": "sentence",
+      "section": "Verbreitung und Vorkommen",
+      "context_ids": [],
+      "plain": "In Mitteleuropa erreichen ihre Vorkommen die Nordgrenze in Mittelfrankreich sowie im nördlichen Alpengebiet über die Schweiz und Österreich in die Slowakei, Ungarn, Rumänien und die Ukraine.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0044",
+      "type": "sentence",
+      "section": "Verbreitung und Vorkommen",
+      "context_ids": [],
+      "plain": "In Nordafrika ist die Art lückenhaft verbreitet, ihre Brutvorkommen reichen von Marokko über Algerien und Tunesien bis in den Nordwesten Libyens.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0046",
+      "type": "sentence",
+      "section": "Verbreitung und Vorkommen",
+      "context_ids": [],
+      "plain": "Trotz regionaler Arealrückgänge hat sich die Art im 21. Jahrhundert weiter nach Norden ausgebreitet und vor allem in Südosteuropa zugenommen.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0047",
+      "type": "sentence",
+      "section": "Verbreitung und Vorkommen",
+      "context_ids": [],
+      "plain": "In der Schweiz war die Zwergohreule im 20. Jahrhundert stark zurückgegangen und die früher recht guten Vorkommen rund um den Genfersee und im Mittelwallis waren fast vollständig erloschen.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0048",
+      "type": "sentence",
+      "section": "Verbreitung und Vorkommen",
+      "context_ids": [
+        "272372222-0047"
+      ],
+      "plain": "Die Tiere haben sich jedoch seit den 2000er-Jahren wieder deutlich ausgebreitet, im Wallis wurden 2024 etwa 78 bis 82 Reviere erfasst.",
+      "context_plain": [
+        "In der Schweiz war die Zwergohreule im 20. Jahrhundert stark zurückgegangen und die früher recht guten Vorkommen rund um den Genfersee und im Mittelwallis waren fast vollständig erloschen."
+      ]
+    },
+    {
+      "segment_id": "272372222-0049",
+      "type": "sentence",
+      "section": "Verbreitung und Vorkommen",
+      "context_ids": [],
+      "plain": "In Österreich liegen die wichtigsten Brutvorkommen in wärmebegünstigten Gebieten Kärntens, des Burgenlandes und der Steiermark.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0050",
+      "type": "sentence",
+      "section": "Verbreitung und Vorkommen",
+      "context_ids": [
+        "272372222-0049"
+      ],
+      "plain": "Der Verbreitungsschwerpunkt befindet sich in Kärnten am Sattnitz-Höhenzug und im Rosental südlich von Klagenfurt.",
+      "context_plain": [
+        "In Österreich liegen die wichtigsten Brutvorkommen in wärmebegünstigten Gebieten Kärntens, des Burgenlandes und der Steiermark."
+      ]
+    },
+    {
+      "segment_id": "272372222-0053",
+      "type": "sentence",
+      "section": "Verbreitung und Vorkommen",
+      "context_ids": [],
+      "plain": "In Deutschland kam die Art bis in das 20. Jahrhundert nur gelegentlich in wärmeren Gebieten und Südhanglagen vor.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0054",
+      "type": "sentence",
+      "section": "Verbreitung und Vorkommen",
+      "context_ids": [
+        "272372222-0053"
+      ],
+      "plain": "Bruten wurden nur sehr selten dokumentiert, so etwa 1960 in Mainfranken.",
+      "context_plain": [
+        "In Deutschland kam die Art bis in das 20. Jahrhundert nur gelegentlich in wärmeren Gebieten und Südhanglagen vor."
+      ]
+    },
+    {
+      "segment_id": "272372222-0055",
+      "type": "sentence",
+      "section": "Verbreitung und Vorkommen",
+      "context_ids": [],
+      "plain": "Seit 2017 bestand in Deutschland in jedem Jahr mindestens begründeter Brutverdacht, und die Zwergohreule hat sich inzwischen regional als regelmäßiger Brutvogel etabliert.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0056",
+      "type": "sentence",
+      "section": "Verbreitung und Vorkommen",
+      "context_ids": [],
+      "plain": "Die zweite erfolgreiche Brut auf bayerischem Gebiet konnte erst 2007 im Ammersee-Gebiet nachgewiesen werden.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0057",
+      "type": "sentence",
+      "section": "Verbreitung und Vorkommen",
+      "context_ids": [],
+      "plain": "In Hessen erfolgte der erste erfolgreiche Brutnachweis 2007.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0058",
+      "type": "sentence",
+      "section": "Verbreitung und Vorkommen",
+      "context_ids": [],
+      "plain": "Die Zwergohreulen brüteten in einer Platane am Siedlungsrand eines Ortes in der Wetterau.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0059",
+      "type": "sentence",
+      "section": "Lebensweise",
+      "context_ids": [],
+      "plain": "Die Zwergohreule ist eine wärmeliebende, thermophile, Art und nutzt offene, zuweilen auch aride (trockene) Landschaften.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0061",
+      "type": "sentence",
+      "section": "Lebensweise",
+      "context_ids": [
+        "272372222-0060"
+      ],
+      "plain": "Geschlossene Wälder besiedelt sie dagegen nicht, da vor allem eine niedrige Bodenvegetation zur guten Erreichbarkeit der Beutetiere eine wichtige Voraussetzung bildet.",
+      "context_plain": [
+        "Olivenhaine, Pinienwäldchen, lichte Eichenbestände, Waldrandgebiete aber auch Friedhöfe, Alleen und zum Teil Parkanlagen sind geeignete Habitate."
+      ]
+    },
+    {
+      "segment_id": "272372222-0062",
+      "type": "sentence",
+      "section": "Lebensweise",
+      "context_ids": [],
+      "plain": "Zudem müssen geeignete Brutplätze vorhanden sein, überwiegend Baumhöhlen oder vergleichbare Hohlräume.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0063",
+      "type": "sentence",
+      "section": "Lebensweise",
+      "context_ids": [
+        "272372222-0062"
+      ],
+      "plain": "Auch Kunsthöhlen bzw. Nistkästen mit Eingangshöhlungen von etwa acht Zentimeter Durchmesser werden angenommen.",
+      "context_plain": [
+        "Zudem müssen geeignete Brutplätze vorhanden sein, überwiegend Baumhöhlen oder vergleichbare Hohlräume."
+      ]
+    },
+    {
+      "segment_id": "272372222-0064",
+      "type": "sentence",
+      "section": "Lebensweise",
+      "context_ids": [
+        "272372222-0063"
+      ],
+      "plain": "Im Zentrum ihrer Vorkommen nutzen Zwergohreulen nicht nur Kulturlandschaften als Brutorte, sie sind auch in Dörfern und Städten in der direkten Nachbarschaft von Menschen anzutreffen.",
+      "context_plain": [
+        "Auch Kunsthöhlen bzw. Nistkästen mit Eingangshöhlungen von etwa acht Zentimeter Durchmesser werden angenommen."
+      ]
+    },
+    {
+      "segment_id": "272372222-0066",
+      "type": "sentence",
+      "section": "Lebensweise",
+      "context_ids": [],
+      "plain": "Im Wallis in der Schweiz leben sie vor allem in südexponierten Heckengebieten mit schwacher Neigung in 840 bis 1250 Metern Höhe.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0068",
+      "type": "sentence",
+      "section": "Aktivität",
+      "context_ids": [],
+      "plain": "Der Schwerpunkt der Aktivität liegt dabei vor Mitternacht und in einem Zeitraum zwischen Mitternacht und etwa zwei Uhr wird meistens eine ausgeprägte Ruhepause eingelegt.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0069",
+      "type": "sentence",
+      "section": "Aktivität",
+      "context_ids": [],
+      "plain": "Etwa mit Sonnenuntergang oder kurz danach beendet die Eule ihre Ruhephase, in der frühen Morgendämmerung zieht sie sich in ihren immer sehr gut gedeckten Unterstand zurück und verbringt den Tag meistens weitgehend reglos; nur kurze Putzphasen unterbrechen diese Ruheperiode.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0070",
+      "type": "sentence",
+      "section": "Aktivität",
+      "context_ids": [],
+      "plain": "Männchen und Weibchen benutzen auch während der Jungenaufzucht nur äußerst selten den gleichen Schlafbaum, Körperkontakt in der Ruhephase wurde außerhalb der Balzzeit nicht beobachtet.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0071",
+      "type": "sentence",
+      "section": "Aktivität",
+      "context_ids": [],
+      "plain": "Während der Brut- und Fütterungszeit liegt der Unterstand des Männchens meistens in Sichtkontakt zur Bruthöhle.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0072",
+      "type": "sentence",
+      "section": "Aktivität",
+      "context_ids": [
+        "272372222-0071"
+      ],
+      "plain": "Ästlinge ruhen meistens dicht aneinandergedrängt auf einem Ast in unmittelbarer Stammnähe.",
+      "context_plain": [
+        "Während der Brut- und Fütterungszeit liegt der Unterstand des Männchens meistens in Sichtkontakt zur Bruthöhle."
+      ]
+    },
+    {
+      "segment_id": "272372222-0073",
+      "type": "sentence",
+      "section": "Aktivität",
+      "context_ids": [],
+      "plain": "In Bedrohungssituationen nehmen Zwergohreulen eine hochaufgerichtete Tarnstellung ein.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0074",
+      "type": "sentence",
+      "section": "Aktivität",
+      "context_ids": [
+        "272372222-0073"
+      ],
+      "plain": "In dieser Position verharren sie lange Zeit regungslos und lassen einen potentiellen Feind nahe herankommen.",
+      "context_plain": [
+        "In Bedrohungssituationen nehmen Zwergohreulen eine hochaufgerichtete Tarnstellung ein."
+      ]
+    },
+    {
+      "segment_id": "272372222-0075",
+      "type": "sentence",
+      "section": "Aktivität",
+      "context_ids": [
+        "272372222-0073",
+        "272372222-0074"
+      ],
+      "plain": "Erst spät fliegen sie auf und wechseln den Einstand, wo sofort wieder diese Tarnstellung eingenommen wird.",
+      "context_plain": [
+        "In Bedrohungssituationen nehmen Zwergohreulen eine hochaufgerichtete Tarnstellung ein.",
+        "In dieser Position verharren sie lange Zeit regungslos und lassen einen potentiellen Feind nahe herankommen."
+      ]
+    },
+    {
+      "segment_id": "272372222-0076",
+      "type": "sentence",
+      "section": "Aktivität",
+      "context_ids": [],
+      "plain": "Fehlt die Fluchtmöglichkeit, zeigt die Eule ein recht vielfältiges Aggressionsverhalten wie Fauchen, Schnabelknappen und asynchrones Augenaufreißen, das in direkte Attacken mit Krallen und Schnabel übergehen kann.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0077",
+      "type": "sentence",
+      "section": "Aktivität",
+      "context_ids": [],
+      "plain": "Zwergohreulen plustern während der Tagesruhe ihr Gefieder zwar oft auf, doch wurde regelrechtes Sonnenbaden ebenso wenig beobachtet wie Sandbaden.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0078",
+      "type": "sentence",
+      "section": "Aktivität",
+      "context_ids": [],
+      "plain": "Der geradlinige Schlagflug ist fast geräuschlos, dazwischen werden ebenfalls geradlinige Gleitphasen eingelegt.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0079",
+      "type": "sentence",
+      "section": "Aktivität",
+      "context_ids": [
+        "272372222-0078"
+      ],
+      "plain": "Auch dadurch unterscheidet sich die Art deutlich vom Steinkauz, dessen Flug immer wellenförmig verläuft.",
+      "context_plain": [
+        "Der geradlinige Schlagflug ist fast geräuschlos, dazwischen werden ebenfalls geradlinige Gleitphasen eingelegt."
+      ]
+    },
+    {
+      "segment_id": "272372222-0080",
+      "type": "sentence",
+      "section": "Aktivität",
+      "context_ids": [],
+      "plain": "Im Flug wirkt die Zwergohreule ausgesprochen langflügelig, ist jedoch von der in ähnlichen Lebensräumen vorkommenden Nachtschwalbe (Caprimulgus europaeus) durch den dicken Kopf sehr gut unterscheidbar.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0082",
+      "type": "sentence",
+      "section": "Fortpflanzung und Entwicklung",
+      "context_ids": [],
+      "plain": "Sie führen eine monogame Saisonehe, bei guter Nahrungsverfügbarkeit kann auch Polygynie vorkommen.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0083",
+      "type": "sentence",
+      "section": "Fortpflanzung und Entwicklung",
+      "context_ids": [
+        "272372222-0082"
+      ],
+      "plain": "Auch bei frühem Partnerverlust kommt es nur selten zu einer Neuverpaarung.",
+      "context_plain": [
+        "Sie führen eine monogame Saisonehe, bei guter Nahrungsverfügbarkeit kann auch Polygynie vorkommen."
+      ]
+    },
+    {
+      "segment_id": "272372222-0084",
+      "type": "sentence",
+      "section": "Fortpflanzung und Entwicklung",
+      "context_ids": [],
+      "plain": "Während der Brutzeit sind die Eulen territorial, wobei die Weibchen das Territorium energischer verteidigen als die Männchen, die auf revierfremde Weibchen meistens nicht aggressiv reagieren.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0087",
+      "type": "sentence",
+      "section": "Fortpflanzung und Entwicklung",
+      "context_ids": [],
+      "plain": "Als Höhlenbrüter brütet die Zwergohreule meistens in Baumhöhlen oder alten Spechthöhlen, gelegentlich nutzt sie auch Halbhöhlen in Felsen oder Mauerlöcher in Gebäuden.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0088",
+      "type": "sentence",
+      "section": "Fortpflanzung und Entwicklung",
+      "context_ids": [
+        "272372222-0087"
+      ],
+      "plain": "Zudem wurden auch Bruten in alten Krähen- und Elsternestern sowie in Nistkästen festgestellt.",
+      "context_plain": [
+        "Als Höhlenbrüter brütet die Zwergohreule meistens in Baumhöhlen oder alten Spechthöhlen, gelegentlich nutzt sie auch Halbhöhlen in Felsen oder Mauerlöcher in Gebäuden."
+      ]
+    },
+    {
+      "segment_id": "272372222-0093",
+      "type": "sentence",
+      "section": "Fortpflanzung und Entwicklung",
+      "context_ids": [],
+      "plain": "Die Eier sind kurzoval, sie haben eine Größe von 31,3 × 27,0 Millimetern und ein Gewicht von etwa 13 Gramm. Die Weibchen beginnen mit dem Brüten bereits nach Ablage des ersten Eis, meist sind sie bereits einige Tage vorher in der Höhle.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0094",
+      "type": "sentence",
+      "section": "Fortpflanzung und Entwicklung",
+      "context_ids": [
+        "272372222-0093"
+      ],
+      "plain": "Die Männchen versorgen die allein brütenden Weibchen bis etwa zum 13. Lebenstag des erstgeschlüpften Jungtieres mit Nahrung.",
+      "context_plain": [
+        "Die Eier sind kurzoval, sie haben eine Größe von 31,3 × 27,0 Millimetern und ein Gewicht von etwa 13 Gramm. Die Weibchen beginnen mit dem Brüten bereits nach Ablage des ersten Eis, meist sind sie bereits einige Tage vorher in der Höhle."
+      ]
+    },
+    {
+      "segment_id": "272372222-0098",
+      "type": "sentence",
+      "section": "Fortpflanzung und Entwicklung",
+      "context_ids": [],
+      "plain": "Verstorbene Nestlinge werden gefressen oder an die Geschwister verfüttert.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0100",
+      "type": "sentence",
+      "section": "Fortpflanzung und Entwicklung",
+      "context_ids": [],
+      "plain": "Die Jungen schlüpfen nach etwa 20 bis 31, durchschnittlich 24, Tagen und wiegen nur etwa neun Gramm. Sie sind zart gebaut und liegen anfangs auf dem Bauch.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0106",
+      "type": "sentence",
+      "section": "Fortpflanzung und Entwicklung",
+      "context_ids": [],
+      "plain": "Nach etwa drei Wochen bis spätestens nach etwa 32 Tagen verlassen die Tiere die Bruthöhle und können auch kurze Strecken fliegen, wobei sie auch bei Tageslicht hinauskommen.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0109",
+      "type": "sentence",
+      "section": "Fortpflanzung und Entwicklung",
+      "context_ids": [],
+      "plain": "Im Freiland werden die Tiere wahrscheinlich durchschnittlich bis etwa sechs Jahre alt, in seltenen Fällen und Volieren können sie bis zwölf Jahre oder sogar etwas älter werden.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0110",
+      "type": "sentence",
+      "section": "Fortpflanzung und Entwicklung",
+      "context_ids": [
+        "272372222-0109"
+      ],
+      "plain": "Das höchste in der EURING-Datenbank dokumentierte Alter einer freilebenden Zwergohreule betrug 13 Jahre.",
+      "context_plain": [
+        "Im Freiland werden die Tiere wahrscheinlich durchschnittlich bis etwa sechs Jahre alt, in seltenen Fällen und Volieren können sie bis zwölf Jahre oder sogar etwas älter werden."
+      ]
+    },
+    {
+      "segment_id": "272372222-0113",
+      "type": "sentence",
+      "section": "Nahrung und Nahrungserwerb",
+      "context_ids": [],
+      "plain": "Seltener erbeutet sie auch größere Beutetiere wie Kleinvögel bis Meisengröße, Kleinsäuger wie vor allem Altweltmäuse, Haselmäuse und Spitzmäuse, sowie Amphibien wie Laubfrösche und kleine Reptilien.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0114",
+      "type": "sentence",
+      "section": "Nahrung und Nahrungserwerb",
+      "context_ids": [],
+      "plain": "Die Nahrungssuche beginnt bei der Zwergohreule etwa eine halbe Stunde vor dem Sonnenuntergang und endet bei Sonnenaufgang, wobei sie um Mitternacht etwa zwei Stunden Pause einlegt.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0115",
+      "type": "sentence",
+      "section": "Nahrung und Nahrungserwerb",
+      "context_ids": [],
+      "plain": "Als Ansitzjäger erspäht sie ihre Beutetiere am Boden von niedrigen Ästen und Zweigen aus.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0116",
+      "type": "sentence",
+      "section": "Nahrung und Nahrungserwerb",
+      "context_ids": [],
+      "plain": "Dabei werden die potenziellen Beutetiere bei Bewegung aufmerksam fixiert und anvisiert, bevor die Eule sie gezielt anfliegt.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0117",
+      "type": "sentence",
+      "section": "Nahrung und Nahrungserwerb",
+      "context_ids": [],
+      "plain": "Sie ergreift sie mit ihren Fängen direkt am Boden oder im Überflug vom Boden oder anderem Substrat, auch von senkrechten Wänden.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0118",
+      "type": "sentence",
+      "section": "Nahrung und Nahrungserwerb",
+      "context_ids": [],
+      "plain": "Größere Beute, vor allem Kleinsäuger werden beim Aufprall auf den Boden ergriffen und dann mit den Flügeln abgedeckt (gemantelt), solange sie Gegenwehr zeigen.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0119",
+      "type": "sentence",
+      "section": "Nahrung und Nahrungserwerb",
+      "context_ids": [],
+      "plain": "Daneben kann sie auch fliegende Beute wie Nachtfalter in der Luft ergreifen, nicht selten im Lichtschein von Straßenlaternen.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0120",
+      "type": "sentence",
+      "section": "Nahrung und Nahrungserwerb",
+      "context_ids": [],
+      "plain": "Größere Insekten und kleine Vögel kann sie im Zickzackflug verfolgen und ergreift sie, wenn sie landen.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0122",
+      "type": "sentence",
+      "section": "Nahrung und Nahrungserwerb",
+      "context_ids": [],
+      "plain": "Die Eule verzehrt ihre Beute grundsätzlich frisch und legt keine Beutelager an.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0123",
+      "type": "sentence",
+      "section": "Nahrung und Nahrungserwerb",
+      "context_ids": [],
+      "plain": "Aufgrund des sehr kleinen Schnabels kann die Eule nur kleine Bissen aufnehmen.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0124",
+      "type": "sentence",
+      "section": "Nahrung und Nahrungserwerb",
+      "context_ids": [],
+      "plain": "Größere Vögel und Nagetiere werden entsprechend gerupft, zerteilt und dann in kleinen Bissen gefressen.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0125",
+      "type": "sentence",
+      "section": "Nahrung und Nahrungserwerb",
+      "context_ids": [],
+      "plain": "Insekten werden mit den Fängen gepackt und in der geschlossenen Faust zum Schnabel geführt, wo sie harte Chitinteile, Beine und Köpfe vor dem Verzehr entfernt.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0126",
+      "type": "sentence",
+      "section": "Nahrung und Nahrungserwerb",
+      "context_ids": [],
+      "plain": "Größere Beutetiere werden mit den Fängen so ausgerichtet, dass sie grundsätzlich mit dem Kopf voran gefressen werden können.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0128",
+      "type": "sentence",
+      "section": "Nahrung und Nahrungserwerb",
+      "context_ids": [],
+      "plain": "Die Gewölle der Eulen sind 20 bis 37 Millimeter, im Mittel 27 Millimeter lang und 10 bis 17 Millimeter, im Mittel 11 Millimeter dick.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0129",
+      "type": "sentence",
+      "section": "Nahrung und Nahrungserwerb",
+      "context_ids": [
+        "272372222-0128"
+      ],
+      "plain": "Sie bestehen in der Regeln nur aus Chitinteilen von Insekten und zerfallen leicht.",
+      "context_plain": [
+        "Die Gewölle der Eulen sind 20 bis 37 Millimeter, im Mittel 27 Millimeter lang und 10 bis 17 Millimeter, im Mittel 11 Millimeter dick."
+      ]
+    },
+    {
+      "segment_id": "272372222-0130",
+      "type": "sentence",
+      "section": "Zugverhalten",
+      "context_ids": [],
+      "plain": "Im größten Teil ihres Verbreitungsgebietes ist die Zwergohreule ein Zugvogel mit Überwinterungsgebieten in den Baum- und Gebüschsavannen südlich der Sahara und nördlich der Regenwaldzone in Afrika.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0131",
+      "type": "sentence",
+      "section": "Zugverhalten",
+      "context_ids": [
+        "272372222-0130"
+      ],
+      "plain": "Auch im Jemen überwintern Zwergohreulen, die östliche Unterart pulchellus überwintert in Indien.",
+      "context_plain": [
+        "Im größten Teil ihres Verbreitungsgebietes ist die Zwergohreule ein Zugvogel mit Überwinterungsgebieten in den Baum- und Gebüschsavannen südlich der Sahara und nördlich der Regenwaldzone in Afrika."
+      ]
+    },
+    {
+      "segment_id": "272372222-0132",
+      "type": "sentence",
+      "section": "Zugverhalten",
+      "context_ids": [],
+      "plain": "Der Wegzug beginnt im August und erstreckt sich regional bis in den Oktober.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0133",
+      "type": "sentence",
+      "section": "Zugverhalten",
+      "context_ids": [],
+      "plain": "Der Heimzug setzt im westlichen Mittelmeerraum bereits Anfang März ein; die Ankunft in den Brutgebieten variiert nach Region.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0134",
+      "type": "sentence",
+      "section": "Zugverhalten",
+      "context_ids": [],
+      "plain": "Die Populationen in Nordafrika, Südspanien, Süditalien, Südgriechenland und Teile der Türkei sind Standvögel im Brutgebiet.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0135",
+      "type": "sentence",
+      "section": "Zugverhalten",
+      "context_ids": [],
+      "plain": "Aus den Überwinterungsgebieten kehren die Zwergohreulen frühestens Ende März in ihre Brutgebiete zurück, meistens aber in der zweiten Aprilhälfte.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0136",
+      "type": "sentence",
+      "section": "Zugverhalten",
+      "context_ids": [
+        "272372222-0135"
+      ],
+      "plain": "Auch die außereuropäischen Unterarten sind zum Großteil Langstreckenzieher mit Überwinterungsgebieten im östlichen Afrika.",
+      "context_plain": [
+        "Aus den Überwinterungsgebieten kehren die Zwergohreulen frühestens Ende März in ihre Brutgebiete zurück, meistens aber in der zweiten Aprilhälfte."
+      ]
+    },
+    {
+      "segment_id": "272372222-0138",
+      "type": "sentence",
+      "section": "Fressfeinde und Parasiten",
+      "context_ids": [],
+      "plain": "In einer Untersuchung in den italienischen Alpen wurden Reste von Zwergohreulen in Gewöllen des Waldkauzes (Strix aluco) und des Uhus (Bubo bubo) gefunden.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0139",
+      "type": "sentence",
+      "section": "Fressfeinde und Parasiten",
+      "context_ids": [],
+      "plain": "Untersuchungen in den Alpen zeigten zudem, dass ein erhöhtes Prädationsrisiko durch Waldkäuze mit einer geringeren Wahrscheinlichkeit des Vorkommens von Zwergohreulen verbunden war.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0140",
+      "type": "sentence",
+      "section": "Fressfeinde und Parasiten",
+      "context_ids": [],
+      "plain": "Auch Hauskatzen (Felis catus) gehören zu den nachgewiesenen Fressfeinden der Zwergohreule und stellen vor allem in Siedlungsgebieten ein erhöhtes Risiko dar.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0141",
+      "type": "sentence",
+      "section": "Fressfeinde und Parasiten",
+      "context_ids": [],
+      "plain": "In einer Untersuchung in den italienischen Alpen wurden zwischen 1995 und 2003 zwölf Todesfälle dokumentiert, darunter ein adultes Tier und ein bereits ausgeflogener Jungvogel, die von Hauskatzen erbeutet worden waren.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0142",
+      "type": "sentence",
+      "section": "Fressfeinde und Parasiten",
+      "context_ids": [],
+      "plain": "Eine Auswertung der Aufnahmen einer Wildtierauffangstation bei Genua ergab für den Zeitraum von 2015 bis 2024 fünf weitere Fälle, bei denen junge Zwergohreulen nach Angriffen durch Hauskatzen eingeliefert wurden.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0143",
+      "type": "sentence",
+      "section": "Fressfeinde und Parasiten",
+      "context_ids": [],
+      "plain": "Als mögliche Nesträuber sind außerdem der Steinmarder und die Äskulapnattern bekannt.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0144",
+      "type": "sentence",
+      "section": "Fressfeinde und Parasiten",
+      "context_ids": [],
+      "plain": "Auch die in Israel eingeschleppte Hirtenmaina (Acridotheres tristis) ist lokal als Nesträuber der Zwergohreule nachgewiesen, zudem wurde eine Konkurrenz um Nistmöglichkeiten zwischen Hirtenmainas und einheimischen Höhlenbrütern wie der Zwergohreule dokumentiert.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0146",
+      "type": "sentence",
+      "section": "Systematik",
+      "context_ids": [],
+      "plain": "Die Zwergohreule wurde 1758 von Carl von Linné in der zehnten Auflage seiner Systema Naturæ als Strix scops wissenschaftlich beschrieben.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0148",
+      "type": "sentence",
+      "section": "Systematik",
+      "context_ids": [],
+      "plain": "Eine molekulargenetische Untersuchung aus dem Jahr 2013 ordnete die Zwergohreule anhand mitochondrialer DNA und Kern-DNA einer afro-paläarktischen Verwandtschaftsgruppe innerhalb der Gattung zu.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0150",
+      "type": "sentence",
+      "section": "Systematik",
+      "context_ids": [],
+      "plain": "Sowohl die Streifen-Zwergohreule (Otus brucei) wie auch die auf Zypern endemische Zypern-Zwergohreule (Otus cyprius) wurden früher als Unterarten der Zwergohreule behandelt.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0151",
+      "type": "sentence",
+      "section": "Systematik",
+      "context_ids": [
+        "272372222-0150"
+      ],
+      "plain": "Die Untersuchung von Pons und Mitarbeitern ordnete die Streifen-Zwergohreule einer überwiegend indo-malaiischen und auf Inseln des Indischen Ozeans verbreiteten Entwicklungslinie zu.",
+      "context_plain": [
+        "Sowohl die Streifen-Zwergohreule (Otus brucei) wie auch die auf Zypern endemische Zypern-Zwergohreule (Otus cyprius) wurden früher als Unterarten der Zwergohreule behandelt."
+      ]
+    },
+    {
+      "segment_id": "272372222-0153",
+      "type": "sentence",
+      "section": "Systematik",
+      "context_ids": [
+        "272372222-0152"
+      ],
+      "plain": "Dies wird zusammen mit Unterschieden in Gesang und Gefieder auf bestehende reproduktive Isolationsmechanismen zurückgeführt.",
+      "context_plain": [
+        "Für die Zypern-Zwergohreule empfahl eine taxonomische Untersuchung aus dem Jahr 2015 die Anerkennung als eigenständige Art, da Zwergohreulen der Unterarten scops und cycladum während des Zuges regelmäßig Zypern erreichen, ohne sich mit ihr zu vermischen und sich als Brutvögel zu etablieren."
+      ]
+    },
+    {
+      "segment_id": "272372222-0154",
+      "type": "sentence",
+      "section": "Systematik",
+      "context_ids": [],
+      "plain": "Die geringe mitochondriale Differenzierung zwischen der Zwergohreule und der Zypern-Zwergohreule deutet auf eine erst junge Trennung hin.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0156",
+      "type": "sentence",
+      "section": "Systematik",
+      "context_ids": [
+        "272372222-0155"
+      ],
+      "plain": "Beide bildeten im rekonstruierten Stammbaum eine gemeinsame, gut gestützte Gruppe, die untersuchte Zypern-Zwergohreule war dabei allerdings innerhalb der untersuchten Exemplare von Otus scops eingeordnet.",
+      "context_plain": [
+        "Eine molekulargenetische Untersuchung aus dem Jahr 2022 bestätigte die geringe genetische Differenzierung zwischen Zwergohreule und Zypern-Zwergohreule."
+      ]
+    },
+    {
+      "segment_id": "272372222-0164",
+      "type": "sentence",
+      "section": "Systematik",
+      "context_ids": [],
+      "plain": "Aus Bulgarien liegen fossile beziehungsweise subfossile Nachweise der Zwergohreule aus dem Jungpleistozän sowie aus dem frühen und mittleren Holozän vor.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0165",
+      "type": "sentence",
+      "section": "Bestandstrends in Mitteleuropa",
+      "context_ids": [],
+      "plain": "Mitteleuropa liegt am Nordrand des weiten Verbreitungsgebietes dieser Art, sodass sich die Bestände von jeher auf klimatisch begünstigte, meistens südexponierte Lagen beschränkten.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0166",
+      "type": "sentence",
+      "section": "Bestandstrends in Mitteleuropa",
+      "context_ids": [
+        "272372222-0165"
+      ],
+      "plain": "Die nördlichsten Brutplätze lagen im Elsass, sie sind seit 1986 verwaist.",
+      "context_plain": [
+        "Mitteleuropa liegt am Nordrand des weiten Verbreitungsgebietes dieser Art, sodass sich die Bestände von jeher auf klimatisch begünstigte, meistens südexponierte Lagen beschränkten."
+      ]
+    },
+    {
+      "segment_id": "272372222-0167",
+      "type": "sentence",
+      "section": "Bestandstrends in Mitteleuropa",
+      "context_ids": [
+        "272372222-0166"
+      ],
+      "plain": "Dennoch kommt es jedes Jahr (wahrscheinlich durch Zugprolongation) zu Einflügen auch ins zentrale Mitteleuropa, sodass gelegentliche Bruten in den südlichen deutschen Bundesländern und im Rheintal vorkommen.",
+      "context_plain": [
+        "Die nördlichsten Brutplätze lagen im Elsass, sie sind seit 1986 verwaist."
+      ]
+    },
+    {
+      "segment_id": "272372222-0168",
+      "type": "sentence",
+      "section": "Bestandstrends in Mitteleuropa",
+      "context_ids": [],
+      "plain": "In Teilen Mitteleuropas gingen die Bestände in der zweiten Hälfte des 20. Jahrhunderts stark zurück.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0169",
+      "type": "sentence",
+      "section": "Bestandstrends in Mitteleuropa",
+      "context_ids": [
+        "272372222-0168"
+      ],
+      "plain": "Als Ursachen werden Lebensraumzerstörung und Beutemangel durch Biozideintrag sowie Klimafaktoren diskutiert.",
+      "context_plain": [
+        "In Teilen Mitteleuropas gingen die Bestände in der zweiten Hälfte des 20. Jahrhunderts stark zurück."
+      ]
+    },
+    {
+      "segment_id": "272372222-0170",
+      "type": "sentence",
+      "section": "Bestandstrends in Mitteleuropa",
+      "context_ids": [],
+      "plain": "Die Intensivierung der Landwirtschaft führte zum Rückgang der Großinsekten, der Hauptnahrung der Zwergohreule.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0171",
+      "type": "sentence",
+      "section": "Bestandstrends in Mitteleuropa",
+      "context_ids": [],
+      "plain": "In Österreich gilt die Art als stark gefährdet.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0172",
+      "type": "sentence",
+      "section": "Bestandstrends in Mitteleuropa",
+      "context_ids": [
+        "272372222-0171"
+      ],
+      "plain": "Hier stellte man den Verlust von Habitatstrukturen wie Feldgehölzen und Buschreihen, eine zunehmende Verwaldung und die Aufgabe von Wiesen- und Weidewirtschaft als Rückgangsursache fest.",
+      "context_plain": [
+        "In Österreich gilt die Art als stark gefährdet."
+      ]
+    },
+    {
+      "segment_id": "272372222-0173",
+      "type": "sentence",
+      "section": "Bestandstrends in Mitteleuropa",
+      "context_ids": [
+        "272372222-0172"
+      ],
+      "plain": "Besonders der Verlust alter Obstbäume, Hecken und anderer Strukturen in der Kulturlandschaft, die Brutplätze und Nahrungslebensräume bieten, wird als Gefährdungsfaktoren betrachtet.",
+      "context_plain": [
+        "Hier stellte man den Verlust von Habitatstrukturen wie Feldgehölzen und Buschreihen, eine zunehmende Verwaldung und die Aufgabe von Wiesen- und Weidewirtschaft als Rückgangsursache fest."
+      ]
+    },
+    {
+      "segment_id": "272372222-0174",
+      "type": "sentence",
+      "section": "Bestandstrends in Mitteleuropa",
+      "context_ids": [],
+      "plain": "Das Kärntner Artenschutzprojekt verzeichnete 2025 knapp über 50 Brutpaare, gegenüber mehr als 70 Paaren zu Beginn der 2020er-Jahre.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0175",
+      "type": "sentence",
+      "section": "Bestandstrends in Mitteleuropa",
+      "context_ids": [
+        "272372222-0174"
+      ],
+      "plain": "Dazu kommen noch direkte Verfolgung und gerade bei vielen Eulen hohe Verluste durch den Straßenverkehr.",
+      "context_plain": [
+        "Das Kärntner Artenschutzprojekt verzeichnete 2025 knapp über 50 Brutpaare, gegenüber mehr als 70 Paaren zu Beginn der 2020er-Jahre."
+      ]
+    },
+    {
+      "segment_id": "272372222-0176",
+      "type": "sentence",
+      "section": "Bestandstrends in Mitteleuropa",
+      "context_ids": [
+        "272372222-0175"
+      ],
+      "plain": "Auch die zunehmende Verschlechterung der Lebensbedingungen in den Überwinterungsgebieten trägt zum Rückgang der Bestände dieser Art bei.",
+      "context_plain": [
+        "Dazu kommen noch direkte Verfolgung und gerade bei vielen Eulen hohe Verluste durch den Straßenverkehr."
+      ]
+    },
+    {
+      "segment_id": "272372222-0177",
+      "type": "sentence",
+      "section": "Bestandsprognose für Europa",
+      "context_ids": [],
+      "plain": "Die Zwergohreule gilt als eine der Arten, die vom Klimawandel profitieren wird.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0178",
+      "type": "sentence",
+      "section": "Bestandsprognose für Europa",
+      "context_ids": [],
+      "plain": "Ein Forschungsteam, das im Auftrag der britischen Umweltbehörde und der Royal Society for the Protection of Birds die zukünftige Verbreitungsentwicklung von europäischen Brutvögeln auf Basis von Klimamodellen untersuchte, geht davon aus, dass bis zum Ende des 21. Jahrhunderts das Verbreitungsgebiet der Zwergohreule sich nach Norden und Nordosten ausdehnen wird.",
+      "context_plain": []
+    },
+    {
+      "segment_id": "272372222-0179",
+      "type": "sentence",
+      "section": "Bestandsprognose für Europa",
+      "context_ids": [
+        "272372222-0178"
+      ],
+      "plain": "Anders als bei den meisten anderen Arten mit einer Arealverschiebung nach Norden bietet das heutige Verbreitungsgebiet dieser Art jedoch weiterhin geeignete Lebensräume.",
+      "context_plain": [
+        "Ein Forschungsteam, das im Auftrag der britischen Umweltbehörde und der Royal Society for the Protection of Birds die zukünftige Verbreitungsentwicklung von europäischen Brutvögeln auf Basis von Klimamodellen untersuchte, geht davon aus, dass bis zum Ende des 21. Jahrhunderts das Verbreitungsgebiet der Zwergohreule sich nach Norden und Nordosten ausdehnen wird."
+      ]
+    },
+    {
+      "segment_id": "272372222-0180",
+      "type": "sentence",
+      "section": "Bestandsprognose für Europa",
+      "context_ids": [
+        "272372222-0178",
+        "272372222-0179"
+      ],
+      "plain": "Zu den potentiell geeigneten neuen Verbreitungsgebieten zählen unter anderem der Südosten Englands, Dänemark, der äußerste Süden Schwedens sowie der gesamte mitteleuropäische Raum.",
+      "context_plain": [
+        "Ein Forschungsteam, das im Auftrag der britischen Umweltbehörde und der Royal Society for the Protection of Birds die zukünftige Verbreitungsentwicklung von europäischen Brutvögeln auf Basis von Klimamodellen untersuchte, geht davon aus, dass bis zum Ende des 21. Jahrhunderts das Verbreitungsgebiet der Zwergohreule sich nach Norden und Nordosten ausdehnen wird.",
+        "Anders als bei den meisten anderen Arten mit einer Arealverschiebung nach Norden bietet das heutige Verbreitungsgebiet dieser Art jedoch weiterhin geeignete Lebensräume."
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "segment_id": "272372222-0152",
+      "reason": "context_invalid"
+    },
+    {
+      "segment_id": "272372222-0081",
+      "reason": "too_short"
+    }
+  ]
+}

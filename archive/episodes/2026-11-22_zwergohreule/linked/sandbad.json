@@ -1,0 +1,61 @@
+{
+  "title": "Sandbad",
+  "revid": 271265673,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-12T07:11:02Z",
+  "fetched_at": "2026-11-22T11:28:20Z",
+  "categories": [
+    "Kategorie:Verhaltensbiologie"
+  ],
+  "intro_wikitext": "{{Begriffsklärungshinweis}}\n[[Datei:Spatzen beim Sandbaden.jpg|mini|[[Haussperling|Spatzen]] beim Sandbad in [[Binz]] auf Rügen]]\n[[Datei:Pferdesandbad.JPG|mini|[[Hauspferd|Pferd]] beim Sandbaden]]\n\nAls '''Sandbaden''' (auch: '''Staubbaden''') bezeichnet man eine vor allem unter Vögeln anzutreffende Form des [[Komfortverhalten]]s,<ref>{{Webarchiv |url=http://www.entente-ee.com/deutsch/sparten/gefluegel/dateien/HaltungZG.pdf |text=Schweizerischer Rassegeflügelzucht-Verband: ''Richtlinien zur Haltung von Ziergeflügel.'' (PDF) |wayback=20130627010152}}.</ref> die aber auch bei vielen anderen [[Landwirbeltiere]]n wie [[Pferde]]n und [[Zebras]]<ref>[https://av.tib.eu/media/18416 ''Equus quagga (Equidae) – Verhalten von Steppenzebras.''] E 1043 „Hautpflegeverhalten“. Auf: ''TIB AV-Portal'', auf: [https://www.deutsche-digitale-bibliothek.de/item/6W5WXGYSLX7GX7U6GSV3QBUBLKMHYAH6 ''deutsche-digitale-bibliothek.de.'']</ref> beobachtet werden kann.\n\nEbenfalls als ''Sandbad'' wird in der Haus- und Nutztierhaltung eine mit Sand oder anderem Streumaterial gefüllte Schale bezeichnet, in der die Tiere sandbaden können. In ähnlicher Weise wird der Begriff auch in der Freizeitindustrie und in der Chemie verwendet.",
+  "segments": [
+    {
+      "id": "271265673-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als '''Sandbaden''' (auch: '''Staubbaden''') bezeichnet man eine vor allem unter Vögeln anzutreffende Form des [[Komfortverhalten]]s,<ref>{{Webarchiv |url=http://www.entente-ee.com/deutsch/sparten/gefluegel/dateien/HaltungZG.pdf |text=Schweizerischer Rassegeflügelzucht-Verband: ''Richtlinien zur Haltung von Ziergeflügel.'' (PDF) |wayback=20130627010152}}.</ref> die aber auch bei vielen anderen [[Landwirbeltiere]]n wie [[Pferde]]n und [[Zebras]]<ref>[https://av.tib.eu/media/18416 ''Equus quagga (Equidae) – Verhalten von Steppenzebras.''] E 1043 „Hautpflegeverhalten“. Auf: ''TIB AV-Portal'', auf: [https://www.deutsche-digitale-bibliothek.de/item/6W5WXGYSLX7GX7U6GSV3QBUBLKMHYAH6 ''deutsche-digitale-bibliothek.de.'']</ref> beobachtet werden kann.",
+      "plain": null
+    },
+    {
+      "id": "271265673-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ebenfalls als ''Sandbad'' wird in der Haus- und Nutztierhaltung eine mit Sand oder anderem Streumaterial gefüllte Schale bezeichnet, in der die Tiere sandbaden können.",
+      "plain": null
+    },
+    {
+      "id": "271265673-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "In ähnlicher Weise wird der Begriff auch in der Freizeitindustrie und in der Chemie verwendet.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271265673,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271265673-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Als Sandbaden (auch: Staubbaden) bezeichnet man eine vor allem unter Vögeln anzutreffende Form des Komfortverhaltens, die aber auch bei vielen anderen Landwirbeltieren wie Pferden und Zebras beobachtet werden kann.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271265673-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271265673-0000"
+        ],
+        "plain": "Ebenfalls als Sandbad wird in der Haus- und Nutztierhaltung eine mit Sand oder anderem Streumaterial gefüllte Schale bezeichnet, in der die Tiere sandbaden können.",
+        "context_plain": [
+          "Als Sandbaden (auch: Staubbaden) bezeichnet man eine vor allem unter Vögeln anzutreffende Form des Komfortverhaltens, die aber auch bei vielen anderen Landwirbeltieren wie Pferden und Zebras beobachtet werden kann."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Wetterau",
+  "revid": 271202367,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-10T09:33:02Z",
+  "fetched_at": "2026-11-22T11:28:20Z",
+  "categories": [
+    "Kategorie:Gau (Hessen)",
+    "Kategorie:Geographie (Wetteraukreis)",
+    "Kategorie:Landschaft in Hessen",
+    "Kategorie:Naturraum im Oberrheinischen Tiefland",
+    "Kategorie:Region (Rhein-Main)",
+    "Kategorie:Region in Europa",
+    "Kategorie:Region in Hessen",
+    "Kategorie:Wetterau",
+    "Kategorie:Wikipedia:Lückenhaft",
+    "Kategorie:Wikipedia:Weblink offline"
+  ],
+  "intro_wikitext": "{{Lückenhaft|Territoriale Zugehörigkeiten im Laufe der Geschichte}}\n{{Dieser Artikel|behandelt die Landschaft Wetterau. Siehe auch [[Wetterau (Begriffsklärung)]].}}\nDie '''Wetterau''' ([[Mittelhessische Dialekte|mundartlich]] ''Wearreraa'') ist eine [[Landschaft]] in [[Hessen]] in [[Deutschland]]. [[Naturraum|Naturräumlich]] wird sie zum [[Rhein-Main-Tiefland]] gezählt und bildet die [[Haupteinheit]] 234. Der Name leitet sich ab von der [[Wetter (Fluss)|Wetter]], einem rechten Nebenfluss der [[Nidda (Fluss)|Nidda]].",
+  "segments": [
+    {
+      "id": "271202367-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Wetterau''' ([[Mittelhessische Dialekte|mundartlich]] ''Wearreraa'') ist eine [[Landschaft]] in [[Hessen]] in [[Deutschland]].",
+      "plain": null
+    },
+    {
+      "id": "271202367-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "[[Naturraum|Naturräumlich]] wird sie zum [[Rhein-Main-Tiefland]] gezählt und bildet die [[Haupteinheit]] 234. Der Name leitet sich ab von der [[Wetter (Fluss)|Wetter]], einem rechten Nebenfluss der [[Nidda (Fluss)|Nidda]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271202367,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271202367-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271202367-0000"
+        ],
+        "plain": "Naturräumlich wird sie zum Rhein-Main-Tiefland gezählt und bildet die Haupteinheit 234. Der Name leitet sich ab von der Wetter, einem rechten Nebenfluss der Nidda.",
+        "context_plain": [
+          "Die Wetterau (mundartlich Wearreraa) ist eine Landschaft in Hessen in Deutschland."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}
