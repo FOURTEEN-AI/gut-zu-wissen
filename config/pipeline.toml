@@ -201,7 +201,7 @@ failed_days = 7
 # A live file older than this belongs to a run killed before its archive commit; longer than the
 # daily job's timeout (240 minutes).
 live_max_age_hours = 5
-refresh_seconds = 60
+refresh_seconds = 15   # the page reloads its own content; a build takes about 30 s
 
 [hosting]
 # Internet Archive, S3-like API (phase 2). Keys come from the environment (GitHub secrets
