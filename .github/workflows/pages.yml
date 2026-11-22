@@ -2,8 +2,11 @@ name: Pages
 
 # Builds the static site (`gut_zu_wissen.site`) and deploys it to GitHub Pages. Needs the
 # repository setting Pages > Source: "GitHub Actions". A push made with the workflow token does
-# not start other workflows, so the publish workflow's archive commit is picked up through
-# `workflow_run`; manual changes to the site or its config start it through `push`.
+# not start other workflows, so the archive commits of the publish, episode, daily, resume and
+# review workflows are picked up through `workflow_run`; manual changes to the site or its config
+# start it through `push`. The status page ("Was gerade entsteht", status.py) also needs: the live
+# file of a running pipeline (branch `status`; the run starts this workflow by dispatch at every
+# step, progress.py) and the labels of the review issues (`issues`: the owner's hold label).
 on:
   push:
     branches: [main]
@@ -14,13 +17,17 @@ on:
       - "src/gut_zu_wissen/site.py"
       - "src/gut_zu_wissen/feed.py"
       - "src/gut_zu_wissen/shownotes.py"
+      - "src/gut_zu_wissen/status.py"
   workflow_run:
-    workflows: ["Publish"]
+    workflows: ["Publish", "Episode", "Daily", "Resume audio", "Review"]
     types: [completed]
+  issues:
+    types: [labeled, unlabeled]
   workflow_dispatch:
 
 permissions:
   contents: read
+  issues: read
   pages: write
   id-token: write
 
@@ -30,8 +37,12 @@ concurrency:
 
 jobs:
   build:
-    # After a publish run only when it succeeded.
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    # After a publish run only when it succeeded; after the other runs always (a failed run is
+    # shown on the status page).
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.name != 'Publish' ||
+      github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -41,7 +52,17 @@ jobs:
         with:
           python-version: "3.12"
       - run: uv sync --no-dev
-      - run: uv run python -m gut_zu_wissen.site build/site
+      # The live file of a running pipeline; none yet (no branch) is fine.
+      - name: Live status
+        run: |
+          mkdir -p build
+          if git fetch --depth 1 origin status; then
+            git show FETCH_HEAD:live.json > build/live.json || rm -f build/live.json
+          fi
+      - name: Build site
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: uv run python -m gut_zu_wissen.site build/site build/live.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

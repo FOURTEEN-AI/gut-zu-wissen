@@ -132,3 +132,40 @@ def test_resume_workflow_checks_the_input_against_the_episode_id_pattern():
         )
         assert (result.returncode == 0) is ok, value
         assert valid_episode_id(value) is ok
+
+
+# ---------------------------------------------------------------- live status page
+
+PAGES = (WORKFLOWS / "pages.yml").read_text(encoding="utf-8")
+DAILY = (WORKFLOWS / "daily.yml").read_text(encoding="utf-8")
+STATUS = load_config()["status"]
+
+
+def test_pipeline_runs_publish_their_live_status():
+    for text in (EPISODE, DAILY, RESUME):
+        assert "\n  actions: write" in _block(text, "permissions")
+        run = (
+            _step(text, "Run pipeline")
+            if "Run pipeline" in text
+            else _step(text, "Resume audio step")
+        )
+        assert 'LIVE_STATUS: "true"' in run
+        assert "GITHUB_TOKEN: ${{ github.token }}" in run
+
+
+def test_pages_is_rebuilt_after_every_workflow_that_commits_the_archive():
+    names = {
+        re.search(r"^name: (.+)$", (WORKFLOWS / f).read_text("utf-8"), re.M).group(1)
+        for f in ("publish.yml", "episode.yml", "daily.yml", "resume-audio.yml", "review.yml")
+    }
+    (listed,) = re.findall(r"workflows: (\[.*\])", PAGES)
+    assert set(json.loads(listed)) == names
+    assert "  issues:\n    types: [labeled, unlabeled]\n" in PAGES
+    assert "\n  issues: read" in _block(PAGES, "permissions")
+
+
+def test_pages_reads_the_configured_live_file_and_branch():
+    assert STATUS["site_workflow"] == "pages.yml"
+    assert f"git fetch --depth 1 origin {STATUS['branch']}" in PAGES
+    assert f"FETCH_HEAD:{STATUS['live_file']} > build/live.json" in PAGES
+    assert "gut_zu_wissen.site build/site build/live.json" in PAGES

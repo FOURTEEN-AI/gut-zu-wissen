@@ -116,7 +116,7 @@ CONFIG_PATH = REPO_ROOT / "config" / "pipeline.toml"
 ARCHIVE_ROOT = REPO_ROOT / "archive"
 AUDIO_ROOT = REPO_ROOT / "build" / "audio"  # not committed (.gitignore: build/)
 # Their values are masked in a crash reason, which goes to the public archive and job summary.
-SECRET_ENV_VARS = ("ANTHROPIC_API_KEY", "TYPESAFE_API_KEY", "GEMINI_API_KEY")
+SECRET_ENV_VARS = ("ANTHROPIC_API_KEY", "TYPESAFE_API_KEY", "GEMINI_API_KEY", "GITHUB_TOKEN")
 CRASH_PREFIX = "Crash: "
 SECRET_MASK = "***"
 ELLIPSIS = "…"
