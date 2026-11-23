@@ -1,0 +1,2028 @@
+{
+  "episode_id": "2026-11-23_georgische-rugby-union-nationalmannschaft",
+  "title": "Georgische Rugby-Union-Nationalmannschaft",
+  "rate": 1.0,
+  "seed": "2026-11-23_georgische-rugby-union-nationalmannschaft",
+  "population": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    10,
+    11,
+    12,
+    14,
+    16,
+    18,
+    20,
+    21,
+    22,
+    24,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    49,
+    50,
+    52,
+    54,
+    56
+  ],
+  "draws": [
+    {
+      "turn_index": 0,
+      "u": 0.3876530007625445,
+      "sampled": true
+    },
+    {
+      "turn_index": 1,
+      "u": 0.38143225724623164,
+      "sampled": true
+    },
+    {
+      "turn_index": 2,
+      "u": 0.692452811384568,
+      "sampled": true
+    },
+    {
+      "turn_index": 3,
+      "u": 0.9457018279763005,
+      "sampled": true
+    },
+    {
+      "turn_index": 4,
+      "u": 0.7082173692311861,
+      "sampled": true
+    },
+    {
+      "turn_index": 6,
+      "u": 0.901689331599528,
+      "sampled": true
+    },
+    {
+      "turn_index": 8,
+      "u": 0.26326976858214657,
+      "sampled": true
+    },
+    {
+      "turn_index": 10,
+      "u": 0.9590887115577987,
+      "sampled": true
+    },
+    {
+      "turn_index": 11,
+      "u": 0.7688958897940666,
+      "sampled": true
+    },
+    {
+      "turn_index": 12,
+      "u": 0.9252741740383978,
+      "sampled": true
+    },
+    {
+      "turn_index": 14,
+      "u": 0.67160368680959,
+      "sampled": true
+    },
+    {
+      "turn_index": 16,
+      "u": 0.070558084908247,
+      "sampled": true
+    },
+    {
+      "turn_index": 18,
+      "u": 0.9025111098411335,
+      "sampled": true
+    },
+    {
+      "turn_index": 20,
+      "u": 0.28240164787824173,
+      "sampled": true
+    },
+    {
+      "turn_index": 21,
+      "u": 0.7978734872108887,
+      "sampled": true
+    },
+    {
+      "turn_index": 22,
+      "u": 0.7204553515299752,
+      "sampled": true
+    },
+    {
+      "turn_index": 24,
+      "u": 0.7591183711237005,
+      "sampled": true
+    },
+    {
+      "turn_index": 26,
+      "u": 0.8815262332900109,
+      "sampled": true
+    },
+    {
+      "turn_index": 27,
+      "u": 0.5575744530062102,
+      "sampled": true
+    },
+    {
+      "turn_index": 28,
+      "u": 0.9481321384671505,
+      "sampled": true
+    },
+    {
+      "turn_index": 29,
+      "u": 0.29570963080470625,
+      "sampled": true
+    },
+    {
+      "turn_index": 30,
+      "u": 0.5528762003642456,
+      "sampled": true
+    },
+    {
+      "turn_index": 31,
+      "u": 0.09995880060602091,
+      "sampled": true
+    },
+    {
+      "turn_index": 32,
+      "u": 0.345318546991944,
+      "sampled": true
+    },
+    {
+      "turn_index": 34,
+      "u": 0.7643944140036026,
+      "sampled": true
+    },
+    {
+      "turn_index": 36,
+      "u": 0.6843941731694746,
+      "sampled": true
+    },
+    {
+      "turn_index": 38,
+      "u": 0.5890650439452961,
+      "sampled": true
+    },
+    {
+      "turn_index": 40,
+      "u": 0.49119440500471134,
+      "sampled": true
+    },
+    {
+      "turn_index": 42,
+      "u": 0.1322756073163297,
+      "sampled": true
+    },
+    {
+      "turn_index": 44,
+      "u": 0.12327732999945229,
+      "sampled": true
+    },
+    {
+      "turn_index": 46,
+      "u": 0.12320789944253996,
+      "sampled": true
+    },
+    {
+      "turn_index": 48,
+      "u": 0.9315405113069096,
+      "sampled": true
+    },
+    {
+      "turn_index": 49,
+      "u": 0.029211111703377757,
+      "sampled": true
+    },
+    {
+      "turn_index": 50,
+      "u": 0.603284309754198,
+      "sampled": true
+    },
+    {
+      "turn_index": 52,
+      "u": 0.2748046629507448,
+      "sampled": true
+    },
+    {
+      "turn_index": 54,
+      "u": 0.25701317154734193,
+      "sampled": true
+    },
+    {
+      "turn_index": 56,
+      "u": 0.39204414947573074,
+      "sampled": true
+    }
+  ],
+  "status": "pending",
+  "outcome": null,
+  "rate_applied": [],
+  "issue": 33,
+  "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/33",
+  "explicit": {
+    "model": "claude-sonnet-5-5",
+    "predicted": false,
+    "verdict": "clean",
+    "findings": [],
+    "reason": "Das Gespräch behandelt sachlich die georgische Rugby-Nationalmannschaft, ihre Geschichte und Erfolge. Erwähnt werden nur Vollkontaktsport, Stalins Verbot, Bürgerkrieg und Weinbau, jeweils beiläufig und ohne drastische Schilderung. Schimpfwörter, Sexualität oder Drogen kommen nicht vor.",
+    "label": null,
+    "reviewer_flag": null,
+    "note": null,
+    "comment_id": null
+  },
+  "turns": [
+    {
+      "turn_index": 0,
+      "speaker": "Lena",
+      "text": "Heute geht es um die georgische Rugby-Union-Nationalmannschaft. Sie ist die Nationalmannschaft Georgiens in der Sportart Rugby Union. Sie repräsentiert das Land bei allen Länderspielen der Männer, den sogenannten Test Matches. Ihr Spitzname lautet Lelos. Er leitet sich von einem dem Rugby ähnlichen traditionellen Sport ab.",
+      "previous_text": null,
+      "fact_ids": [
+        "272400197-0010",
+        "272400197-0011"
+      ],
+      "statements": [
+        {
+          "text": "Die georgische Rugby-Union-Nationalmannschaft ist die Nationalmannschaft Georgiens in der Sportart Rugby Union und repräsentiert das Land bei allen Länderspielen der Männer.",
+          "fact_ids": [
+            "272400197-0010"
+          ]
+        },
+        {
+          "text": "Ihr Spitzname Lelos leitet sich von einem dem Rugby ähnlichen traditionellen Sport ab.",
+          "fact_ids": [
+            "272400197-0011"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0010",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Die georgische Rugby-Union-Nationalmannschaft (georgisch საქართველოს მორაგბეთა ეროვნული ნაკრები, Sakartwelos moragbeta erownuli nakrebi) ist die Nationalmannschaft Georgiens in der Sportart Rugby Union und repräsentiert das Land bei allen Länderspielen (Test Matches) der Männer.",
+          "context": []
+        },
+        {
+          "id": "272400197-0011",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Ihr Spitzname „Lelos“ leitet sich von einem dem Rugby ähnlichen traditionellen Sport ab.",
+          "context": [
+            "Die georgische Rugby-Union-Nationalmannschaft (georgisch საქართველოს მორაგბეთა ეროვნული ნაკრები, Sakartwelos moragbeta erownuli nakrebi) ist die Nationalmannschaft Georgiens in der Sportart Rugby Union und repräsentiert das Land bei allen Länderspielen (Test Matches) der Männer."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.8
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Nationalmannschaft Georgiens im Rugby Union, Vertretung bei allen Länderspielen (Test Matches) der Männer, Spitzname Lelos, abgeleitet von einem dem Rugby ähnlichen traditionellen Sport. Der Einstiegssatz „Heute geht es um …“ ist eine Überleitung ohne neue Information. Es gibt keine Fragen und keine zusätzlichen Angaben. Der Bezug „Ihr“/„Er“ ist eindeutig, da es um die Mannschaft bzw. den Spitznamen geht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 1,
+      "speaker": "Felix",
+      "text": "Lelos also. Welcher traditionelle Sport steckt denn dahinter?",
+      "previous_text": "Heute geht es um die georgische Rugby-Union-Nationalmannschaft. Sie ist die Nationalmannschaft Georgiens in der Sportart Rugby Union. Sie repräsentiert das Land bei allen Länderspielen der Männer, den sogenannten Test Matches. Ihr Spitzname lautet Lelos. Er leitet sich von einem dem Rugby ähnlichen traditionellen Sport ab.",
+      "fact_ids": [
+        "272400197-0011"
+      ],
+      "statements": [
+        {
+          "text": "Der Spitzname Lelos leitet sich von einem dem Rugby ähnlichen traditionellen Sport ab.",
+          "fact_ids": [
+            "272400197-0011"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0011",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Ihr Spitzname „Lelos“ leitet sich von einem dem Rugby ähnlichen traditionellen Sport ab.",
+          "context": [
+            "Die georgische Rugby-Union-Nationalmannschaft (georgisch საქართველოს მორაგბეთა ეროვნული ნაკრები, Sakartwelos moragbeta erownuli nakrebi) ist die Nationalmannschaft Georgiens in der Sportart Rugby Union und repräsentiert das Land bei allen Länderspielen (Test Matches) der Männer."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Lena",
+      "text": "Der Sport heißt Lelo burti, wörtlich „Feldball“. Es ist eine in Georgien ausgeübte traditionelle Vollkontakt-Ballsportart. Sie weist große Ähnlichkeiten mit Rugby auf. Das Spiel soll in Georgien schon während der Antike gespielt worden sein.",
+      "previous_text": "Lelos also. Welcher traditionelle Sport steckt denn dahinter?",
+      "fact_ids": [
+        "266006571-0000",
+        "266006571-0001"
+      ],
+      "statements": [
+        {
+          "text": "Lelo burti, wörtlich Feldball, ist eine in Georgien ausgeübte traditionelle Vollkontakt-Ballsportart mit großen Ähnlichkeiten zu Rugby.",
+          "fact_ids": [
+            "266006571-0000"
+          ]
+        },
+        {
+          "text": "Das Spiel soll in Georgien schon während der Antike gespielt worden sein.",
+          "fact_ids": [
+            "266006571-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "266006571-0000",
+          "article": "Lelo burti",
+          "revid": 266006571,
+          "sentence": "Lelo burti (georgisch ლელო ბურთი, wörtlich „Feldball (spielen)“, kurz Lelo genannt) ist eine in Georgien ausgeübte traditionelle Vollkontakt-Ballsportart, die große Ähnlichkeiten mit Rugby aufweist.",
+          "context": []
+        },
+        {
+          "id": "266006571-0001",
+          "article": "Lelo burti",
+          "revid": 266006571,
+          "sentence": "Das Spiel soll in Georgien schon während der Antike gespielt worden sein.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.87
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Name Lelo burti und die Bedeutung „Feldball“, die in Georgien ausgeübte traditionelle Vollkontakt-Ballsportart, die Ähnlichkeit mit Rugby sowie die angebliche Ausübung in der Antike. „Lelos“ aus dem vorherigen Beitrag und „Lelo burti“ meinen denselben Gegenstand. Der Redebeitrag enthält keine Frage und keine zusätzlichen Angaben."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Felix",
+      "text": "Schon in der Antike, das ist wirklich alt. Wie viele Spieler stehen bei Lelo burti eigentlich auf dem Feld?",
+      "previous_text": "Der Sport heißt Lelo burti, wörtlich „Feldball“. Es ist eine in Georgien ausgeübte traditionelle Vollkontakt-Ballsportart. Sie weist große Ähnlichkeiten mit Rugby auf. Das Spiel soll in Georgien schon während der Antike gespielt worden sein.",
+      "fact_ids": [
+        "266006571-0001"
+      ],
+      "statements": [
+        {
+          "text": "Lelo burti soll in Georgien schon während der Antike gespielt worden sein.",
+          "fact_ids": [
+            "266006571-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "266006571-0001",
+          "article": "Lelo burti",
+          "revid": 266006571,
+          "sentence": "Das Spiel soll in Georgien schon während der Antike gespielt worden sein.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.77
+        },
+        "jev_error": null,
+        "reason": "„Schon in der Antike, das ist wirklich alt“ greift die Aussage aus dem vorherigen Beitrag und dem Fakt-Satz wieder auf; die Wertung „wirklich alt“ ist eine Reaktion ohne neue Information. Die Frage nach der Spielerzahl ist eine Nachfrage ohne Prämisse, die erst die Antwort liefern würde. Es wird keine unbelegte Behauptung aufgestellt."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Lena",
+      "text": "Bei Lelo burti treffen zwei Mannschaften mit mehreren hundert Spielern aufeinander. Und in seiner traditionellen Form wird Lelo burti noch heute gelegentlich in ländlichen Regionen ausgeübt.",
+      "previous_text": "Schon in der Antike, das ist wirklich alt. Wie viele Spieler stehen bei Lelo burti eigentlich auf dem Feld?",
+      "fact_ids": [
+        "272400197-0035",
+        "272400197-0034"
+      ],
+      "statements": [
+        {
+          "text": "Bei Lelo burti treffen zwei Mannschaften mit mehreren hundert Spielern aufeinander.",
+          "fact_ids": [
+            "272400197-0035"
+          ]
+        },
+        {
+          "text": "In seiner traditionellen Form wird Lelo burti noch heute gelegentlich in ländlichen Regionen ausgeübt.",
+          "fact_ids": [
+            "272400197-0034"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0035",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Dabei treffen zwei Mannschaften mit mehreren hundert Spielern aufeinander.",
+          "context": [
+            "Lelo burti („Feldball“) ist ein Vollkontakt-Ballspiel, das Rugby sehr ähnlich ist.",
+            "Es soll schon in der Antike gespielt worden sein und wird in seiner traditionellen Form noch heute gelegentlich in ländlichen Regionen ausgeübt."
+          ]
+        },
+        {
+          "id": "272400197-0034",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Es soll schon in der Antike gespielt worden sein und wird in seiner traditionellen Form noch heute gelegentlich in ländlichen Regionen ausgeübt.",
+          "context": [
+            "Lelo burti („Feldball“) ist ein Vollkontakt-Ballspiel, das Rugby sehr ähnlich ist."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Lena",
+      "text": "Ja. Lelo ist außerdem das georgische Wort für einen Versuch. Ein Versuch ist die wichtigste Möglichkeit, in einem Spiel Punkte zu erzielen. Darauf bezieht sich der Anfeuerungsruf Lelo, Lelo, Sakartwelo. Übersetzt heißt das: Versuch, Versuch, Georgien.",
+      "previous_text": "Wahnsinn, das klingt nach einem riesigen Durcheinander! Gibt es zu dem Wort Lelo noch mehr zu erzählen?",
+      "fact_ids": [
+        "272400197-0170"
+      ],
+      "statements": [
+        {
+          "text": "Lelo ist außerdem das georgische Wort für einen Versuch.",
+          "fact_ids": [
+            "272400197-0170"
+          ]
+        },
+        {
+          "text": "Ein Versuch ist die wichtigste Möglichkeit, in einem Spiel Punkte zu erzielen.",
+          "fact_ids": [
+            "272400197-0170"
+          ]
+        },
+        {
+          "text": "Auf das Wort Lelo bezieht sich der Anfeuerungsruf Lelo, Lelo, Sakartwelo, übersetzt Versuch, Versuch, Georgien.",
+          "fact_ids": [
+            "272400197-0170"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0170",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Lelo ist außerdem das georgische Wort für einen Versuch (der wichtigsten Möglichkeit, in einem Spiel Punkte zu erzielen), worauf sich wiederum der Anfeuerungsruf Lelo, Lelo, Sakartwelo („Versuch, Versuch, Georgien“) bezieht.",
+          "context": [
+            "Der Spitzname der Nationalmannschaft lautet Lelos und leitet sich von der einheimischen Vollkontakt-Ballsportart Lelo burti ab, die große Ähnlichkeiten mit Rugby aufweist."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen direkt aus dem Fakt-Satz: Lelo ist das georgische Wort für Versuch, ein Versuch ist die wichtigste Möglichkeit, in einem Spiel Punkte zu erzielen, der Anfeuerungsruf Lelo, Lelo, Sakartwelo bezieht sich darauf und heißt übersetzt Versuch, Versuch, Georgien. Gegenstand ist eindeutig (das Wort Lelo, vom vorherigen Beitrag genannt). Das einleitende „Ja“ ist eine belegfreie Reaktion; es gibt keine zusätzlichen Angaben und keine Fragen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Lena",
+      "text": "Die weinrote Farbe der Trikots soll den Weinbau in Georgien repräsentieren. Der Weinbau gilt als eines der bekanntesten Kulturgüter des Landes.",
+      "previous_text": "Schön. Und die Trikots, haben die auch eine Bedeutung?",
+      "fact_ids": [
+        "272400197-0167"
+      ],
+      "statements": [
+        {
+          "text": "Die weinrote Farbe der Trikots soll den Weinbau in Georgien als eines der bekanntesten Kulturgüter des Landes repräsentieren.",
+          "fact_ids": [
+            "272400197-0167"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0167",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Die weinrote Farbe der Trikots soll den Weinbau in Georgien als eines der bekanntesten Kulturgüter des Landes repräsentieren.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.78
+        },
+        "jev_error": null,
+        "reason": "Beide Sätze folgen aus dem Fakt-Satz: Die weinrote Farbe der Trikots soll den Weinbau in Georgien repräsentieren, und dieser gilt als eines der bekanntesten Kulturgüter des Landes. Der Gegenstand ist eindeutig (Trikots der georgischen Rugby-Nationalmannschaft, Thema des Artikels) und passt zur Frage im vorherigen Beitrag. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämisse."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "Lena",
+      "text": "Versuche, Rugby in Georgien zu etablieren, scheiterten vor allem am politischen Widerstand der Kommunisten. Das geschah erstmals im Jahr neunzehnhundertachtundzwanzig.",
+      "previous_text": "Das gefällt mir. Wie hat sich der Rugbysport in Georgien denn früher entwickelt?",
+      "fact_ids": [
+        "272400197-0040"
+      ],
+      "statements": [
+        {
+          "text": "Versuche zur Etablierung von Rugby in Georgien scheiterten vor allem am politischen Widerstand der Kommunisten, erstmals 1928.",
+          "fact_ids": [
+            "272400197-0040"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0040",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Versuche zur Etablierung scheiterten vor allem am politischen Widerstand der Kommunisten, erstmals 1928.",
+          "context": [
+            "In der Georgischen Sozialistischen Sowjetrepublik hatte Rugby trotz der Ähnlichkeit mit Lelo burti anfänglich einen schweren Stand."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 11,
+      "speaker": "Felix",
+      "text": "Gab es für diesen Widerstand ein konkretes Beispiel?",
+      "previous_text": "Versuche, Rugby in Georgien zu etablieren, scheiterten vor allem am politischen Widerstand der Kommunisten. Das geschah erstmals im Jahr neunzehnhundertachtundzwanzig.",
+      "fact_ids": [
+        "272400197-0040"
+      ],
+      "statements": [
+        {
+          "text": "Es gab politischen Widerstand der Kommunisten gegen Versuche, Rugby zu etablieren.",
+          "fact_ids": [
+            "272400197-0040"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0040",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Versuche zur Etablierung scheiterten vor allem am politischen Widerstand der Kommunisten, erstmals 1928.",
+          "context": [
+            "In der Georgischen Sozialistischen Sowjetrepublik hatte Rugby trotz der Ähnlichkeit mit Lelo burti anfänglich einen schweren Stand."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine Nachfrage nach einem konkreten Beispiel für den Widerstand, den Lena eben genannt hat. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es dazu etwas zu erzählen gibt. Damit ist sie belegfrei und enthält keine unbelegte Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "Lena",
+      "text": "Ja. Josef Stalin, der aus Georgien stammende Herrscher der Sowjetunion, erließ im Jahr neunzehnhundertsiebenundvierzig sogar ein vorübergehendes Verbot.",
+      "previous_text": "Gab es für diesen Widerstand ein konkretes Beispiel?",
+      "fact_ids": [
+        "272400197-0041"
+      ],
+      "statements": [
+        {
+          "text": "Josef Stalin, der aus Georgien stammende Herrscher der Sowjetunion, erließ 1947 ein vorübergehendes Verbot.",
+          "fact_ids": [
+            "272400197-0041"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0041",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Beispielsweise erließ Josef Stalin, der aus Georgien stammende Herrscher der Sowjetunion, im Jahr 1947 sogar ein vorübergehendes Verbot.",
+          "context": [
+            "Versuche zur Etablierung scheiterten vor allem am politischen Widerstand der Kommunisten, erstmals 1928."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Die Aussage folgt wörtlich aus dem Fakt-Satz: Stalin, der aus Georgien stammende Herrscher der Sowjetunion, erließ 1947 ein vorübergehendes Verbot. Der Gegenstand (Widerstand gegen Rugby in Georgien) ergibt sich aus dem Artikelthema und dem Kontext (politischer Widerstand der Kommunisten), und das \"Beispielsweise\" passt zur Frage nach einem konkreten Beispiel. Das einleitende \"Ja\" ist eine Antwortpartikel, und der Redebeitrag enthält keine Fragen oder weiteren Behauptungen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 14,
+      "speaker": "Lena",
+      "text": "Stalin war der Meinung, Rugby sei wegen der elitären britischen Herkunft zu sehr ein Symbol der Bourgeoisie. Deshalb sei es nicht mit den Werten des Kommunismus vereinbar gewesen.",
+      "previous_text": "Warum eigentlich?",
+      "fact_ids": [
+        "272400197-0042"
+      ],
+      "statements": [
+        {
+          "text": "Stalin meinte, Rugby sei wegen der elitären britischen Herkunft zu sehr ein Symbol der Bourgeoisie und deshalb nicht mit den Werten des Kommunismus vereinbar.",
+          "fact_ids": [
+            "272400197-0042"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0042",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Seiner Meinung nach war Rugby wegen der elitären britischen Herkunft zu sehr ein Symbol der Bourgeoisie und damit nicht mit den Werten des Kommunismus vereinbar.",
+          "context": [
+            "Beispielsweise erließ Josef Stalin, der aus Georgien stammende Herrscher der Sowjetunion, im Jahr 1947 sogar ein vorübergehendes Verbot."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.96,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 16,
+      "speaker": "Lena",
+      "text": "Nach der Wiederbelebung der sowjetischen Meisterschaft im Jahr neunzehnhundertsechsundsechzig waren georgische Vereine von Anfang an konkurrenzfähig. Diese Meisterschaft hatte fast drei Jahrzehnte lang geruht. Im Jahr neunzehnhundertachtundsiebzig gewann erstmals ein georgischer Verein den sowjetischen Rugbypokal, der zwei Jahre zuvor eingeführt worden war. Und Mitte der neunzehnhundertachtziger Jahre dominierte der RC Aia Kutaissi die Meisterschaft.",
+      "previous_text": "Das überrascht mich. Wie ging es danach mit dem Rugby weiter?",
+      "fact_ids": [
+        "272400197-0052",
+        "272400197-0054"
+      ],
+      "statements": [
+        {
+          "text": "Nach der Wiederbelebung der sowjetischen Meisterschaft 1966, die fast drei Jahrzehnte lang geruht hatte, waren georgische Vereine von Anfang an konkurrenzfähig.",
+          "fact_ids": [
+            "272400197-0052"
+          ]
+        },
+        {
+          "text": "1978 gewann erstmals ein georgischer Verein den zwei Jahre zuvor eingeführten sowjetischen Rugbypokal, und Mitte der 1980er Jahre dominierte der RC Aia Kutaissi die Meisterschaft.",
+          "fact_ids": [
+            "272400197-0054"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0052",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Nach der Wiederbelebung der sowjetischen Meisterschaft im Jahr 1966, die fast drei Jahrzehnte lang geruht hatte, waren georgische Vereine von Anfang an konkurrenzfähig.",
+          "context": []
+        },
+        {
+          "id": "272400197-0054",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "1978 gewann erstmals ein georgischer Verein den zwei Jahre zuvor eingeführten sowjetischen Rugbypokal und Mitte der 1980er Jahre dominierte der RC Aia Kutaissi die Meisterschaft.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 18,
+      "speaker": "Lena",
+      "text": "In der ab neunzehnhundertvierundsiebzig bestehenden sowjetischen Nationalmannschaft stellte Georgien stets einen bedeutenden Teil der Spieler. Manchmal waren es sogar mehr als die Hälfte der Startaufstellung.",
+      "previous_text": "Und wie sah es auf der Ebene der Nationalmannschaft aus?",
+      "fact_ids": [
+        "272400197-0053"
+      ],
+      "statements": [
+        {
+          "text": "In der ab 1974 bestehenden sowjetischen Nationalmannschaft stellte Georgien stets einen bedeutenden Teil der Spieler, manchmal mehr als die Hälfte der Startaufstellung.",
+          "fact_ids": [
+            "272400197-0053"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0053",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "In der ab 1974 bestehenden sowjetischen Nationalmannschaft stellte Georgien stets einen bedeutenden Teil der Spieler, manchmal sogar mehr als die Hälfte der Startaufstellung.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 20,
+      "speaker": "Lena",
+      "text": "Am zwölften September neunzehnhundertneunundachtzig empfing eine Auswahl des georgischen Verbandes die durch Europa tourende simbabwische Nationalmannschaft. In Kutaissi fand ein inoffizielles Länderspiel statt. Es wurde mit sechzehn zu drei gewonnen. Das erste Test Match folgte zwei Jahre später.",
+      "previous_text": "Erstaunlich. Wann gab es dann das erste Länderspiel für Georgien selbst?",
+      "fact_ids": [
+        "272400197-0055",
+        "272400197-0016"
+      ],
+      "statements": [
+        {
+          "text": "Am 12. September 1989 empfing eine Auswahl des georgischen Verbandes die durch Europa tourende simbabwische Nationalmannschaft, und in Kutaissi wurde ein inoffizielles Länderspiel mit 16:3 gewonnen.",
+          "fact_ids": [
+            "272400197-0055"
+          ]
+        },
+        {
+          "text": "Das erste Test Match folgte zwei Jahre später.",
+          "fact_ids": [
+            "272400197-0016"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0055",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Am 12. September 1989 empfing eine Auswahl des georgischen Verbandes die durch Europa tourende simbabwische Nationalmannschaft; in Kutaissi fand ein inoffizielles Länderspiel statt, das mit 16:3 gewonnen werden konnte.",
+          "context": []
+        },
+        {
+          "id": "272400197-0016",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Das erste inoffizielle Länderspiel fand 1989 gegen Simbabwe statt, also noch vor der Unabhängigkeit Georgiens von der Sowjetunion; das erste Test Match folgte zwei Jahre später.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 21,
+      "speaker": "Felix",
+      "text": "Wie leicht fand Georgien nach diesem ersten Test Match Gegner?",
+      "previous_text": "Am zwölften September neunzehnhundertneunundachtzig empfing eine Auswahl des georgischen Verbandes die durch Europa tourende simbabwische Nationalmannschaft. In Kutaissi fand ein inoffizielles Länderspiel statt. Es wurde mit sechzehn zu drei gewonnen. Das erste Test Match folgte zwei Jahre später.",
+      "fact_ids": [
+        "272400197-0016"
+      ],
+      "statements": [
+        {
+          "text": "Das erste Test Match Georgiens fand zwei Jahre nach dem ersten inoffiziellen Länderspiel statt.",
+          "fact_ids": [
+            "272400197-0016"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0016",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Das erste inoffizielle Länderspiel fand 1989 gegen Simbabwe statt, also noch vor der Unabhängigkeit Georgiens von der Sowjetunion; das erste Test Match folgte zwei Jahre später.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.71
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine Nachfrage zum Fortgang („Wie leicht fand Georgien nach diesem ersten Test Match Gegner?“). Sie bezieht sich auf das erste Test Match, das Lena und der Fakt-Satz nennen. Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es dazu etwas zu erzählen gibt. Sie ist daher belegfrei, und es steht keine unbelegte Behauptung darin."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Lena",
+      "text": "Geeignete Gegner zu finden, erwies sich zu Beginn als schwierig. Die meisten anderen ehemaligen Sowjetrepubliken hielten die sowjetische Nationalmannschaft noch bis Ende neunzehnhunderteinundneunzig unter der Bezeichnung Gemeinschaft Unabhängiger Staaten aufrecht. Nur die Ukraine bot sich an.",
+      "previous_text": "Wie leicht fand Georgien nach diesem ersten Test Match Gegner?",
+      "fact_ids": [
+        "272400197-0060"
+      ],
+      "statements": [
+        {
+          "text": "Geeignete Gegner zu finden war zu Beginn schwierig, weil die meisten anderen ehemaligen Sowjetrepubliken die sowjetische Nationalmannschaft noch bis Ende 1991 unter der Bezeichnung Gemeinschaft Unabhängiger Staaten aufrechterhielten; nur die Ukraine bot sich an.",
+          "fact_ids": [
+            "272400197-0060"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0060",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Geeignete Gegner zu finden, erwies sich zu Beginn als schwierig, da die meisten anderen ehemaligen Sowjetrepubliken die sowjetische Nationalmannschaft noch bis Ende 1991 unter der Bezeichnung Gemeinschaft Unabhängiger Staaten aufrechterhielten: nur die Ukraine bot sich an.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.83
+        },
+        "jev_error": null,
+        "reason": "Alle drei Aussagen folgen aus dem Fakt-Satz: Die Gegnersuche war zu Beginn schwierig, die meisten anderen ehemaligen Sowjetrepubliken hielten die sowjetische Nationalmannschaft bis Ende 1991 als Gemeinschaft Unabhängiger Staaten aufrecht, und nur die Ukraine bot sich an. Der Gegenstand ist über die vorherige Frage und das Artikelthema eindeutig Georgien. Es gibt keine zusätzlichen Angaben und keine Fragen oder Reaktionen, die etwas Unbelegtes voraussetzen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Lena",
+      "text": "Mit einem Sieg über die Schweiz und einem Unentschieden gegen Luxemburg gelang während des FIRA-Pokals von neunzehnhundertzweiundneunzig bis neunzehnhundertvierundneunzig sogleich der Aufstieg in die zweite Division. Beim FIRA-Pokal von neunzehnhundertvierundneunzig bis neunzehnhundertsiebenundneunzig belegte Georgien den zweiten Platz hinter den Niederlanden.",
+      "previous_text": "Und sportlich, wie lief es für die Georgier dann?",
+      "fact_ids": [
+        "272400197-0064",
+        "272400197-0066"
+      ],
+      "statements": [
+        {
+          "text": "Mit einem Sieg über die Schweiz und einem Unentschieden gegen Luxemburg während des FIRA-Pokals 1992–1994 gelang sogleich der Aufstieg in die zweite Division.",
+          "fact_ids": [
+            "272400197-0064"
+          ]
+        },
+        {
+          "text": "Beim FIRA-Pokal 1994–1997 belegte Georgien den zweiten Platz hinter den Niederlanden.",
+          "fact_ids": [
+            "272400197-0066"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0064",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Mit einem Sieg über die Schweiz und einem Unentschieden gegen Luxemburg während des FIRA-Pokals 1992–1994 gelang sogleich der Aufstieg in die zweite Division.",
+          "context": [
+            "Die Aufnahme in den IRFB und den Kontinentalverband Fédération internationale de rugby amateur (FIRA; heute Rugby Europe, RE) ermöglichte ab Juli 1992 die Teilnahme an Europameisterschaften, wobei die Georgier als Neulinge in der dritten Division beginnen mussten."
+          ]
+        },
+        {
+          "id": "272400197-0066",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Beim FIRA-Pokal 1994–1997 belegte Georgien den zweiten Platz hinter den Niederlanden.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 1.0,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 26,
+      "speaker": "Lena",
+      "text": "Das Land erlebte bis Ende neunzehnhundertdreiundneunzig einen bürgerkriegsähnlichen Zustand. Danach folgte eine schwere Wirtschaftskrise. Deshalb waren diese Erfolge erstaunlich. Es fehlte in allen Bereichen an Ressourcen, und vieles musste improvisiert werden.",
+      "previous_text": "Unter welchen Bedingungen wurde in dieser Zeit eigentlich trainiert?",
+      "fact_ids": [
+        "272400197-0067"
+      ],
+      "statements": [
+        {
+          "text": "Wegen des bis Ende 1993 anhaltenden bürgerkriegsähnlichen Zustandes und der nachfolgenden schweren Wirtschaftskrise waren die Erfolge erstaunlich, denn es fehlte in allen Bereichen an Ressourcen und vieles musste improvisiert werden.",
+          "fact_ids": [
+            "272400197-0067"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0067",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Angesichts des bis Ende 1993 anhaltenden bürgerkriegsähnlichen Zustandes und der nachfolgenden schweren Wirtschaftskrise waren diese Erfolge erstaunlich, denn es fehlte in allen Bereichen an Ressourcen und vieles musste improvisiert werden.",
+          "context": [
+            "Beim FIRA-Pokal 1994–1997 belegte Georgien den zweiten Platz hinter den Niederlanden."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 27,
+      "speaker": "Felix",
+      "text": "Wie sah dieses Improvisieren konkret aus?",
+      "previous_text": "Das Land erlebte bis Ende neunzehnhundertdreiundneunzig einen bürgerkriegsähnlichen Zustand. Danach folgte eine schwere Wirtschaftskrise. Deshalb waren diese Erfolge erstaunlich. Es fehlte in allen Bereichen an Ressourcen, und vieles musste improvisiert werden.",
+      "fact_ids": [
+        "272400197-0067"
+      ],
+      "statements": [
+        {
+          "text": "In allen Bereichen fehlte es an Ressourcen und vieles musste improvisiert werden.",
+          "fact_ids": [
+            "272400197-0067"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0067",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Angesichts des bis Ende 1993 anhaltenden bürgerkriegsähnlichen Zustandes und der nachfolgenden schweren Wirtschaftskrise waren diese Erfolge erstaunlich, denn es fehlte in allen Bereichen an Ressourcen und vieles musste improvisiert werden.",
+          "context": [
+            "Beim FIRA-Pokal 1994–1997 belegte Georgien den zweiten Platz hinter den Niederlanden."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 28,
+      "speaker": "Lena",
+      "text": "Beispielsweise standen Mitte der neunzehnhundertneunziger Jahre lediglich zwei Rugbybälle für das Training zur Verfügung.",
+      "previous_text": "Wie sah dieses Improvisieren konkret aus?",
+      "fact_ids": [
+        "272400197-0068"
+      ],
+      "statements": [
+        {
+          "text": "Mitte der 1990er Jahre standen lediglich zwei Rugbybälle für das Training zur Verfügung.",
+          "fact_ids": [
+            "272400197-0068"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0068",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Beispielsweise standen Mitte der 1990er Jahre lediglich zwei Rugbybälle für das Training zur Verfügung.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 29,
+      "speaker": "Felix",
+      "text": "Das ist kaum zu fassen. Gab es noch mehr solche Beispiele?",
+      "previous_text": "Beispielsweise standen Mitte der neunzehnhundertneunziger Jahre lediglich zwei Rugbybälle für das Training zur Verfügung.",
+      "fact_ids": [
+        "272400197-0068"
+      ],
+      "statements": [
+        {
+          "text": "Mitte der 1990er Jahre standen nur wenige Rugbybälle für das Training zur Verfügung.",
+          "fact_ids": [
+            "272400197-0068"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0068",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Beispielsweise standen Mitte der 1990er Jahre lediglich zwei Rugbybälle für das Training zur Verfügung.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.96,
+          "vollstaendig": 0.82
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag besteht nur aus einer Reaktion („Das ist kaum zu fassen.“, Staunen) und einer Nachfrage („Gab es noch mehr solche Beispiele?“). Beides ist belegfrei. Die Frage nimmt keine bestimmte Einzelheit vorweg, sondern setzt nur voraus, dass es weitere Beispiele zu erzählen gibt. Das ist bei einer Nachfrage erlaubt. Es werden keine neuen Behauptungen aufgestellt."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Lena",
+      "text": "Ja. Üblich sind für das Training des Tacklings speziell angefertigte Kunststoffsäcke. Die georgischen Spieler warfen sich stattdessen auf Säcke aus Denimstoff. Diese Säcke waren mit Gummi gefüllt und mit einer Haushaltsnähmaschine zusammengenäht worden.",
+      "previous_text": "Das ist kaum zu fassen. Gab es noch mehr solche Beispiele?",
+      "fact_ids": [
+        "272400197-0070"
+      ],
+      "statements": [
+        {
+          "text": "Anstatt für das Trainieren des Tacklings speziell angefertigte Kunststoffsäcke zu verwenden, warfen sich die Spieler auf Säcke aus Denimstoff, die mit Gummi gefüllt und mit einer Haushaltsnähmaschine zusammengenäht worden waren.",
+          "fact_ids": [
+            "272400197-0070"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0070",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Anstatt für das Trainieren des Tacklings speziell angefertigte Kunststoffsäcke zu verwenden, warfen sich die Spieler auf Säcke aus Denimstoff, die mit Gummi gefüllt und mit einer Haushaltsnähmaschine zusammengenäht worden waren.",
+          "context": [
+            "Während die besten Rugbynationen für das Üben des Gedränges spezialisierte Maschinen zur Erzeugung des Gegendrucks einsetzten, mussten sich die Georgier damit begnügen, einen alten Traktor zu stoßen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.48
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Kunststoffsäcke als übliches Trainingsmittel für das Tackling, georgische Spieler auf Denimsäcken, mit Gummi gefüllt, mit Haushaltsnähmaschine genäht. Das Wort „georgischen“ ergibt sich aus dem Artikelthema, und „Üblich“ ist eine zulässige Umformulierung von „Anstatt ... zu verwenden“. Das einleitende „Ja“ ist eine Reaktion auf Felix' Frage und keine neue Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 31,
+      "speaker": "Felix",
+      "text": "Wow. Und wie war es bei anderen Übungen?",
+      "previous_text": "Ja. Üblich sind für das Training des Tacklings speziell angefertigte Kunststoffsäcke. Die georgischen Spieler warfen sich stattdessen auf Säcke aus Denimstoff. Diese Säcke waren mit Gummi gefüllt und mit einer Haushaltsnähmaschine zusammengenäht worden.",
+      "fact_ids": [
+        "272400197-0070"
+      ],
+      "statements": [
+        {
+          "text": "Die Spieler übten das Tackling an selbst zusammengenähten Säcken aus Denimstoff.",
+          "fact_ids": [
+            "272400197-0070"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0070",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Anstatt für das Trainieren des Tacklings speziell angefertigte Kunststoffsäcke zu verwenden, warfen sich die Spieler auf Säcke aus Denimstoff, die mit Gummi gefüllt und mit einer Haushaltsnähmaschine zusammengenäht worden waren.",
+          "context": [
+            "Während die besten Rugbynationen für das Üben des Gedränges spezialisierte Maschinen zur Erzeugung des Gegendrucks einsetzten, mussten sich die Georgier damit begnügen, einen alten Traktor zu stoßen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.83,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": "Felix' Beitrag besteht aus einer Reaktion („Wow.“) und einer Nachfrage nach anderen Übungen. Beides ist belegfrei und enthält keine eigene Behauptung oder Prämisse. Der zitierte Fakt wird nicht inhaltlich verwendet, daher gibt es nichts, was nicht aus ihm folgen könnte."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 32,
+      "speaker": "Lena",
+      "text": "Die besten Rugbynationen setzten für das Üben des Gedränges spezialisierte Maschinen zur Erzeugung des Gegendrucks ein. Die Georgier mussten sich damit begnügen, einen alten Traktor zu stoßen.",
+      "previous_text": "Wow. Und wie war es bei anderen Übungen?",
+      "fact_ids": [
+        "272400197-0069"
+      ],
+      "statements": [
+        {
+          "text": "Während die besten Rugbynationen für das Üben des Gedränges spezialisierte Maschinen zur Erzeugung des Gegendrucks einsetzten, mussten sich die Georgier damit begnügen, einen alten Traktor zu stoßen.",
+          "fact_ids": [
+            "272400197-0069"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0069",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Während die besten Rugbynationen für das Üben des Gedränges spezialisierte Maschinen zur Erzeugung des Gegendrucks einsetzten, mussten sich die Georgier damit begnügen, einen alten Traktor zu stoßen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 34,
+      "speaker": "Lena",
+      "text": "Ja. Das Heimspiel gegen Lettland konnte nicht ausgetragen werden. Die Letten weigerten sich anzutreten, weil die Sicherheitslage im Westen Georgiens prekär war. Grund war der Georgisch-Abchasische Krieg.",
+      "previous_text": "Das muss ich erst einmal verdauen! Gab es eigentlich auch rund um einzelne Spiele Probleme?",
+      "fact_ids": [
+        "272400197-0065"
+      ],
+      "statements": [
+        {
+          "text": "Das Heimspiel Georgiens gegen Lettland konnte nicht ausgetragen werden, weil sich die Letten wegen der prekären Sicherheitslage im Westen des Landes (Georgisch-Abchasischer Krieg) weigerten anzutreten.",
+          "fact_ids": [
+            "272400197-0065"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0065",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Das Heimspiel gegen Lettland konnte nicht ausgetragen werden, denn aufgrund der prekären Sicherheitslage im Westen des Landes (Georgisch-Abchasischer Krieg) weigerten sich die Letten anzutreten.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Das Heimspiel gegen Lettland fiel aus, die Letten weigerten sich anzutreten, Grund war die prekäre Sicherheitslage im Westen Georgiens (\"des Landes\" im Artikel über die georgische Nationalmannschaft eindeutig Georgien) wegen des Georgisch-Abchasischen Krieges. Der Bezug \"Landes\" wird zulässig aufgelöst. Das einleitende \"Ja\" ist eine Reaktion auf Felix' Frage. Keine zusätzlichen Angaben."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 36,
+      "speaker": "Lena",
+      "text": "Im Oktober neunzehnhundertvierundneunzig war die Nationalmannschaft zu Besuch in Frankreich. Dort sorgte sie mit einem Sieg von dreiundzwanzig zu zwölf über die Regionalauswahl von Languedoc-Roussillon für großes Aufsehen. Im August neunzehnhundertfünfundneunzig hob der IRFB sämtliche Beschränkungen bezüglich der Bezahlung der Spieler auf. Damit begann die professionelle Ära von Rugby Union. Französische Vereine unterer Spielklassen begannen sogleich, georgische Spieler unter Vertrag zu nehmen.",
+      "previous_text": "Wow, das klingt ziemlich turbulent. Und wie ging es dann weiter?",
+      "fact_ids": [
+        "272400197-0071",
+        "272400197-0072"
+      ],
+      "statements": [
+        {
+          "text": "Im Oktober 1994 sorgte die Nationalmannschaft bei einem Besuch in Frankreich mit einem 23:12-Sieg über die Regionalauswahl von Languedoc-Roussillon für großes Aufsehen.",
+          "fact_ids": [
+            "272400197-0071"
+          ]
+        },
+        {
+          "text": "Als der IRFB im August 1995 sämtliche Beschränkungen bezüglich der Bezahlung der Spieler aufhob und damit die professionelle Ära einläutete, begannen französische Vereine unterer Spielklassen sogleich, georgische Spieler unter Vertrag zu nehmen.",
+          "fact_ids": [
+            "272400197-0072"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0071",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Im Oktober 1994 war die Nationalmannschaft zu Besuch in Frankreich und sorgte mit einem 23:12-Sieg über die Regionalauswahl von Languedoc-Roussillon für großes Aufsehen.",
+          "context": []
+        },
+        {
+          "id": "272400197-0072",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Als der IRFB im August 1995 sämtliche Beschränkungen bezüglich Bezahlung der Spieler aufhob und somit die professionelle Ära von Rugby Union einläutete, begannen französische Vereine unterer Spielklassen sogleich georgische Spieler unter Vertrag zu nehmen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 38,
+      "speaker": "Lena",
+      "text": "Der ohnehin schon beträchtliche französische Einfluss verstärkte sich neunzehnhundertsiebenundneunzig. Damals wurde Claude Saurel als Nationaltrainer verpflichtet. Dank seines weitreichenden Beziehungsnetzes vermittelte Saurel während seiner sechs Jahre dauernden Amtszeit zahlreiche Nationalspieler an Vereine der höchsten französischen Liga. Das begann sich positiv auf die Qualität der technischen und taktischen Fähigkeiten auszuwirken.",
+      "previous_text": "Gab es auf der Trainerseite Veränderungen?",
+      "fact_ids": [
+        "272400197-0073",
+        "272400197-0074"
+      ],
+      "statements": [
+        {
+          "text": "Der ohnehin schon beträchtliche französische Einfluss verstärkte sich 1997 mit der Verpflichtung von Claude Saurel als Nationaltrainer.",
+          "fact_ids": [
+            "272400197-0073"
+          ]
+        },
+        {
+          "text": "Dank seines weitreichenden Beziehungsnetzes vermittelte Saurel in seiner sechsjährigen Amtszeit zahlreiche Nationalspieler an Vereine der höchsten französischen Liga, was sich positiv auf die technischen und taktischen Fähigkeiten auszuwirken begann.",
+          "fact_ids": [
+            "272400197-0074"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0073",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Der ohnehin schon beträchtliche französische Einfluss verstärkte sich 1997 mit der Verpflichtung von Claude Saurel als Nationaltrainer.",
+          "context": []
+        },
+        {
+          "id": "272400197-0074",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Dank seines weitreichenden Beziehungsnetzes gelang es ihm während seiner sechs Jahre dauernden Amtszeit zahlreiche Nationalspieler an Vereine der höchsten französischen Liga zu vermitteln, was sich positiv auf die Qualität der technischen und taktischen Fähigkeiten auszuwirken begann.",
+          "context": [
+            "Der ohnehin schon beträchtliche französische Einfluss verstärkte sich 1997 mit der Verpflichtung von Claude Saurel als Nationaltrainer."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 40,
+      "speaker": "Lena",
+      "text": "Beim European Nations Cup zweitausend auf zweitausendeins blieb Georgien in allen fünf Spielen unbesiegt und holte sich erstmals den Europameistertitel. Ausschlaggebend dafür war besonders der Auswärtssieg über Titelverteidiger Rumänien in Bukarest, dreißig zu einundzwanzig.",
+      "previous_text": "Und wie ging es dann weiter?",
+      "fact_ids": [
+        "272400197-0081"
+      ],
+      "statements": [
+        {
+          "text": "Beim European Nations Cup 2000/01 blieb Georgien in allen fünf Spielen unbesiegt und holte sich erstmals den Europameistertitel.",
+          "fact_ids": [
+            "272400197-0081"
+          ]
+        },
+        {
+          "text": "Ausschlaggebend für diesen Erfolg war insbesondere der 30:21-Auswärtssieg über Titelverteidiger Rumänien in Bukarest.",
+          "fact_ids": [
+            "272400197-0081"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0081",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Beim European Nations Cup 2000/01 blieb Georgien in allen fünf Spielen unbesiegt und holte sich erstmals den Europameistertitel; ausschlaggebend für diesen Erfolg war insbesondere der 30:21-Auswärtssieg über Titelverteidiger Rumänien in Bukarest.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 42,
+      "speaker": "Lena",
+      "text": "Ja, und dort gelang beinahe eine Sensation. Im Spiel gegen Irland, einem der meistgenannten Anwärter auf den Titel, brachte Georgien den haushohen Favoriten an den Rand einer Niederlage. Die Georgier mussten sich nur mit zehn zu vierzehn geschlagen geben. Für diese Leistung erhielt die Mannschaft internationale Anerkennung. Sie sorgte unter anderem dafür, dass auch bei den kommenden Weltmeisterschaften zwanzig Mannschaften teilnehmen würden.",
+      "previous_text": "Hat Georgien auch bei Weltmeisterschaften gespielt?",
+      "fact_ids": [
+        "272400197-0102",
+        "272400197-0103",
+        "272400197-0107"
+      ],
+      "statements": [
+        {
+          "text": "Im Spiel gegen Irland, einem der meistgenannten Anwärter auf den Titel, gelang beinahe eine Sensation.",
+          "fact_ids": [
+            "272400197-0102"
+          ]
+        },
+        {
+          "text": "Georgien brachte den haushohen Favoriten an den Rand einer Niederlage und musste sich nur mit 10:14 geschlagen geben.",
+          "fact_ids": [
+            "272400197-0103"
+          ]
+        },
+        {
+          "text": "Die Mannschaft erhielt besonders für ihre Leistung gegen Irland internationale Anerkennung und sorgte unter anderem dafür, dass auch bei den kommenden Weltmeisterschaften zwanzig Mannschaften teilnehmen würden.",
+          "fact_ids": [
+            "272400197-0107"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0102",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Im darauf folgenden Spiel gegen Irland, einem der meistgenannten Anwärter auf den Titel, gelang beinahe eine Sensation.",
+          "context": [
+            "Beim Auftaktspiel gegen den späteren WM-Dritten Argentinien gelang es ihnen, zur Halbzeitpause nur mit 3:6 zurückzuliegen, mussten sich dann aber doch mit 3:33 geschlagen geben."
+          ]
+        },
+        {
+          "id": "272400197-0103",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Georgien brachte den haushohen Favoriten an den Rand einer Niederlage und musste sich nur mit 10:14 geschlagen geben.",
+          "context": [
+            "Im darauf folgenden Spiel gegen Irland, einem der meistgenannten Anwärter auf den Titel, gelang beinahe eine Sensation."
+          ]
+        },
+        {
+          "id": "272400197-0107",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Die Mannschaft erhielt besonders für ihre Leistung gegen Irland internationale Anerkennung und sorgte unter anderem dafür, dass auch bei den kommenden Weltmeisterschaften 20 Mannschaften teilnehmen würden.",
+          "context": [
+            "In den letzten fünf Minuten der Partie drängten die Georgier ihre Gegner weit in deren eigene Hälfte zurück, doch es gelang ihnen nicht mehr, die entscheidenden Punkte zu erzielen.",
+            "Im dritten Spiel der Vorrunde gelang der erste Sieg bei einer Weltmeisterschaft, ein klares 30:0 über Namibia.",
+            "Das abschließende Spiel gegen Gastgeber Frankreich ging hingegen mit 7:64 verloren."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.97,
+          "vollstaendig": 0.85
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: das Spiel gegen Irland als beinahe Sensation, der haushohe Favorit am Rand einer Niederlage, die knappe Niederlage 10:14, die internationale Anerkennung und die 20 Mannschaften bei den kommenden Weltmeisterschaften. Das einleitende „Ja“ ist durch den WM-Bezug in den Fakten (Titelanwärter, Weltmeisterschaften) gedeckt. Es gibt keine zusätzlichen Angaben und keine Verbindung, die die Fakten nicht nennen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 44,
+      "speaker": "Lena",
+      "text": "Ja. Im dritten Spiel der Vorrunde gelang der erste Sieg bei einer Weltmeisterschaft, ein klares dreißig zu null über Namibia.",
+      "previous_text": "Gab es auch einen Sieg?",
+      "fact_ids": [
+        "272400197-0105"
+      ],
+      "statements": [
+        {
+          "text": "Im dritten Spiel der Vorrunde gelang der erste Sieg bei einer Weltmeisterschaft, ein klares 30:0 über Namibia.",
+          "fact_ids": [
+            "272400197-0105"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0105",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Im dritten Spiel der Vorrunde gelang der erste Sieg bei einer Weltmeisterschaft, ein klares 30:0 über Namibia.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 46,
+      "speaker": "Lena",
+      "text": "Ja, bei der Europameisterschaft zweitausendsiebzehn. Unmittelbar nach Spielende herrschte bei Offiziellen und Zuschauern gleichermaßen Verwirrung. Die Verantwortlichen von Rugby Europe wollten den Siegerpokal zuerst irrtümlicherweise den Georgiern überreichen. Dann bemerkten sie ihren Fehler und erklärten die Rumänen zum Europameister.",
+      "previous_text": "Zurück nach Europa. Gab es dort besonders dramatische Momente?",
+      "fact_ids": [
+        "272400197-0141"
+      ],
+      "statements": [
+        {
+          "text": "Unmittelbar nach Spielende herrschte bei Offiziellen und Zuschauern gleichermaßen Verwirrung, da die Verantwortlichen von Rugby Europe den Siegerpokal zuerst irrtümlicherweise den Georgiern überreichen wollten, ehe sie ihren Fehler bemerkten und die Rumänen zum Europameister erklärten.",
+          "fact_ids": [
+            "272400197-0141"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0141",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Unmittelbar nach Spielende herrschte bei Offiziellen und Zuschauern jedoch gleichermaßen Verwirrung, da die Verantwortlichen von Rugby Europe den Siegerpokal zuerst irrtümlicherweise den Georgiern überreichen wollten, ehe sie ihren Fehler bemerkten und die Rumänen zum Europameister erklärten.",
+          "context": [
+            "Bei der Rugby Europe Championship 2017 (der European Nations Cup war in der Zwischenzeit reformiert und umbenannt worden) unterlag Georgien im entscheidenden letzten Spiel auswärts mit 7:8 gegen Rumänien und verpasste zum ersten Mal seit 2010 den Europameistertitel.",
+            "Da beide Mannschaften gleich viele Punkte hatten, war das Ergebnis der Direktbegegnung ausschlaggebend."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.59
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Verwirrung bei Offiziellen und Zuschauern unmittelbar nach Spielende, Rugby Europe wollte den Pokal zuerst irrtümlich den Georgiern überreichen, bemerkte den Fehler und erklärte die Rumänen zum Europameister. Das Jahr 2017 und die Europameisterschaft stehen im Kontext des Fakts (Rugby Europe Championship 2017) und der Gegenstand ist durch den Artikel eindeutig. Das einleitende „Ja“ ist eine belegfreie Reaktion auf Felix' Nachfrage nach dramatischen Momenten in Europa. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 48,
+      "speaker": "Lena",
+      "text": "In der Weltrangliste ist Georgien seit der zweiten Hälfte der zweitausendzehner Jahre konstant höher klassiert als Italien. Das führt insbesondere in den britischen Medien immer wieder zu Forderungen. Die nicht konkurrenzfähigen Italiener sollen ersetzt werden. Oder es soll wenigstens ein System mit Auf- und Absteigern zwischen Six Nations und Europameisterschaft eingeführt werden.",
+      "previous_text": "Das muss ein Moment gewesen sein! Wie steht Georgien denn heute im Vergleich mit den großen Rugbynationen da?",
+      "fact_ids": [
+        "272400197-0150"
+      ],
+      "statements": [
+        {
+          "text": "In der Weltrangliste ist Georgien seit der zweiten Hälfte der 2010er Jahre konstant höher klassiert als Italien, was insbesondere in den britischen Medien immer wieder zu Forderungen führt, die nicht konkurrenzfähigen Italiener zu ersetzen oder wenigstens ein System mit Auf- und Absteigern zwischen Six Nations und Europameisterschaft einzuführen.",
+          "fact_ids": [
+            "272400197-0150"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0150",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "In der Weltrangliste ist Georgien seit der zweiten Hälfte der 2010er Jahre konstant höher klassiert als Italien, was insbesondere in den britischen Medien immer wieder zu Forderungen führt, die nicht konkurrenzfähigen Italiener zu ersetzen oder wenigstens ein System mit Auf- und Absteigern zwischen Six Nations und Europameisterschaft einzuführen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 49,
+      "speaker": "Felix",
+      "text": "Und gab es in den letzten Jahren Siege gegen große Rugbynationen?",
+      "previous_text": "In der Weltrangliste ist Georgien seit der zweiten Hälfte der zweitausendzehner Jahre konstant höher klassiert als Italien. Das führt insbesondere in den britischen Medien immer wieder zu Forderungen. Die nicht konkurrenzfähigen Italiener sollen ersetzt werden. Oder es soll wenigstens ein System mit Auf- und Absteigern zwischen Six Nations und Europameisterschaft eingeführt werden.",
+      "fact_ids": [
+        "272400197-0150"
+      ],
+      "statements": [
+        {
+          "text": "Georgien ist in der Weltrangliste seit der zweiten Hälfte der 2010er Jahre konstant höher klassiert als Italien.",
+          "fact_ids": [
+            "272400197-0150"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0150",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "In der Weltrangliste ist Georgien seit der zweiten Hälfte der 2010er Jahre konstant höher klassiert als Italien, was insbesondere in den britischen Medien immer wieder zu Forderungen führt, die nicht konkurrenzfähigen Italiener zu ersetzen oder wenigstens ein System mit Auf- und Absteigern zwischen Six Nations und Europameisterschaft einzuführen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.79
+        },
+        "jev_error": null,
+        "reason": "Felix stellt nur eine Nachfrage, ob es in den letzten Jahren Siege gegen große Rugbynationen gab. Das ist eine offene Anschlussfrage ohne vorweggenommene Einzelheit, Wertung oder Vermutung, also belegfrei. Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt, und das ist keine Prämisse im Sinne der Rubrik. Behauptungen enthält der Redebeitrag nicht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 50,
+      "speaker": "Lena",
+      "text": "Bei den Mid-year Internationals zweitausendzweiundzwanzig gelang Georgien der erste Heimsieg gegen Italien. Es war gleichzeitig der erste Sieg gegen eine Mannschaft der ersten Stärkeklasse überhaupt. Bei den End-of-year Internationals im selben Jahr setzten die Georgier noch einen drauf. Sie schlugen die Waliser auswärts in Cardiff. Das war der zweite Sieg gegen eine Mannschaft der Six Nations.",
+      "previous_text": "Und gab es in den letzten Jahren Siege gegen große Rugbynationen?",
+      "fact_ids": [
+        "272400197-0156",
+        "272400197-0157"
+      ],
+      "statements": [
+        {
+          "text": "Bei den Mid-year Internationals 2022 gelang Georgien der erste Heimsieg gegen Italien, zugleich der erste Sieg gegen eine Mannschaft der ersten Stärkeklasse überhaupt.",
+          "fact_ids": [
+            "272400197-0156"
+          ]
+        },
+        {
+          "text": "Bei den End-of-year Internationals im selben Jahr schlugen die Georgier die Waliser auswärts in Cardiff, der zweite Sieg gegen eine Mannschaft der Six Nations.",
+          "fact_ids": [
+            "272400197-0157"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0156",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Bei den Mid-year Internationals 2022 gelang Georgien der erste Heimsieg gegen Italien, was gleichzeitig der erste Sieg gegen eine Mannschaft der ersten Stärkeklasse überhaupt war.",
+          "context": []
+        },
+        {
+          "id": "272400197-0157",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Bei den End-of-year Internationals im selben Jahr setzten die Georgier noch einen drauf und schlugen die Waliser auswärts in Cardiff, gleichbedeutend mit dem zweiten Sieg gegen eine Mannschaft der Six Nations.",
+          "context": [
+            "Bei den Mid-year Internationals 2022 gelang Georgien der erste Heimsieg gegen Italien, was gleichzeitig der erste Sieg gegen eine Mannschaft der ersten Stärkeklasse überhaupt war."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 52,
+      "speaker": "Lena",
+      "text": "Ab zweitausendneun investierte die Stiftung Cartu des einflussreichen Unternehmers und späteren Premierministers Bidsina Iwanischwili über hundert Millionen US-Dollar in die Strukturen des georgischen Rugbysports. Im Zeitraum von zweitausendsieben bis zweitausendsiebzehn versechsfachte sich die Zahl der lizenzierten Spieler auf fünfzehntausendvierhundert. Die Zahl der Vereine verdreifachte sich.",
+      "previous_text": "Was hat sich hinter den Kulissen im georgischen Rugby getan?",
+      "fact_ids": [
+        "272400197-0120",
+        "272400197-0124"
+      ],
+      "statements": [
+        {
+          "text": "Ab 2009 investierte die Stiftung Cartu des einflussreichen Unternehmers und späteren Premierministers Bidsina Iwanischwili über 100 Millionen US-Dollar in die Strukturen des georgischen Rugbysports.",
+          "fact_ids": [
+            "272400197-0120"
+          ]
+        },
+        {
+          "text": "Von 2007 bis 2017 versechsfachte sich die Zahl der lizenzierten Spieler auf 15.400, während sich die Zahl der Vereine verdreifachte.",
+          "fact_ids": [
+            "272400197-0124"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0120",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Ab 2009 investierte die Stiftung Cartu des einflussreichen Unternehmers und späteren Premierministers Bidsina Iwanischwili über 100 Millionen US-Dollar in die Strukturen des georgischen Rugbysports.",
+          "context": []
+        },
+        {
+          "id": "272400197-0124",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Im Zeitraum von 2007 bis 2017 versechsfachte sich die Zahl der lizenzierten Spieler auf 15.400, während sich die Zahl der Vereine verdreifachte.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 54,
+      "speaker": "Lena",
+      "text": "Die recht guten Ergebnisse bei den Weltmeisterschaften führten in Georgien zu einem Popularitätsschub. In dessen Folge löste Rugby Fußball als beliebteste Zuschauersportart ab.",
+      "previous_text": "Und wie sieht es beim Publikum aus?",
+      "fact_ids": [
+        "272400197-0119"
+      ],
+      "statements": [
+        {
+          "text": "Die recht guten Ergebnisse bei den Weltmeisterschaften führten in Georgien zu einem Popularitätsschub, in dessen Folge Rugby Fußball als beliebteste Zuschauersportart ablöste.",
+          "fact_ids": [
+            "272400197-0119"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0119",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Die recht guten Ergebnisse bei den Weltmeisterschaften führten in Georgien zu einem Popularitätsschub, in dessen Folge Rugby Fußball als beliebteste Zuschauersportart ablöste.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 56,
+      "speaker": "Lena",
+      "text": "Gern. Der Spitzname Lelos geht auf Lelo burti zurück, ein traditionelles Spiel, bei dem zwei Mannschaften mit mehreren hundert Spielern aufeinandertreffen. Josef Stalin erließ im Jahr neunzehnhundertsiebenundvierzig ein vorübergehendes Verbot. Mitte der neunzehnhundertneunziger Jahre standen lediglich zwei Rugbybälle für das Training zur Verfügung, und für das Gedränge mussten die Georgier einen alten Traktor stoßen. Bei der Europameisterschaft zweitausendsiebzehn wollten die Verantwortlichen den Pokal zuerst irrtümlicherweise den Georgiern überreichen. Im Jahr zweitausendzweiundzwanzig gelang der erste Heimsieg gegen Italien und danach der Sieg in Cardiff gegen Wales. Und inzwischen hat Rugby Fußball als beliebteste Zuschauersportart abgelöst.",
+      "previous_text": "Das ist eine Geschichte! Kannst du das Ganze kurz zusammenfassen?",
+      "fact_ids": [
+        "272400197-0011",
+        "272400197-0035",
+        "272400197-0041",
+        "272400197-0068",
+        "272400197-0069",
+        "272400197-0141",
+        "272400197-0156",
+        "272400197-0157",
+        "272400197-0119"
+      ],
+      "statements": [
+        {
+          "text": "Der Spitzname Lelos leitet sich von einem traditionellen, dem Rugby ähnlichen Sport ab.",
+          "fact_ids": [
+            "272400197-0011"
+          ]
+        },
+        {
+          "text": "Bei Lelo burti treffen zwei Mannschaften mit mehreren hundert Spielern aufeinander.",
+          "fact_ids": [
+            "272400197-0035"
+          ]
+        },
+        {
+          "text": "Josef Stalin erließ 1947 ein vorübergehendes Verbot.",
+          "fact_ids": [
+            "272400197-0041"
+          ]
+        },
+        {
+          "text": "Mitte der 1990er Jahre standen lediglich zwei Rugbybälle für das Training zur Verfügung.",
+          "fact_ids": [
+            "272400197-0068"
+          ]
+        },
+        {
+          "text": "Für das Üben des Gedränges mussten sich die Georgier damit begnügen, einen alten Traktor zu stoßen.",
+          "fact_ids": [
+            "272400197-0069"
+          ]
+        },
+        {
+          "text": "Bei der Europameisterschaft 2017 wollten die Verantwortlichen von Rugby Europe den Siegerpokal zuerst irrtümlicherweise den Georgiern überreichen.",
+          "fact_ids": [
+            "272400197-0141"
+          ]
+        },
+        {
+          "text": "2022 gelang der erste Heimsieg gegen Italien und danach ein Auswärtssieg gegen Wales in Cardiff.",
+          "fact_ids": [
+            "272400197-0156",
+            "272400197-0157"
+          ]
+        },
+        {
+          "text": "Rugby löste Fußball als beliebteste Zuschauersportart ab.",
+          "fact_ids": [
+            "272400197-0119"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272400197-0011",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Ihr Spitzname „Lelos“ leitet sich von einem dem Rugby ähnlichen traditionellen Sport ab.",
+          "context": [
+            "Die georgische Rugby-Union-Nationalmannschaft (georgisch საქართველოს მორაგბეთა ეროვნული ნაკრები, Sakartwelos moragbeta erownuli nakrebi) ist die Nationalmannschaft Georgiens in der Sportart Rugby Union und repräsentiert das Land bei allen Länderspielen (Test Matches) der Männer."
+          ]
+        },
+        {
+          "id": "272400197-0035",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Dabei treffen zwei Mannschaften mit mehreren hundert Spielern aufeinander.",
+          "context": [
+            "Lelo burti („Feldball“) ist ein Vollkontakt-Ballspiel, das Rugby sehr ähnlich ist.",
+            "Es soll schon in der Antike gespielt worden sein und wird in seiner traditionellen Form noch heute gelegentlich in ländlichen Regionen ausgeübt."
+          ]
+        },
+        {
+          "id": "272400197-0041",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Beispielsweise erließ Josef Stalin, der aus Georgien stammende Herrscher der Sowjetunion, im Jahr 1947 sogar ein vorübergehendes Verbot.",
+          "context": [
+            "Versuche zur Etablierung scheiterten vor allem am politischen Widerstand der Kommunisten, erstmals 1928."
+          ]
+        },
+        {
+          "id": "272400197-0068",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Beispielsweise standen Mitte der 1990er Jahre lediglich zwei Rugbybälle für das Training zur Verfügung.",
+          "context": []
+        },
+        {
+          "id": "272400197-0069",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Während die besten Rugbynationen für das Üben des Gedränges spezialisierte Maschinen zur Erzeugung des Gegendrucks einsetzten, mussten sich die Georgier damit begnügen, einen alten Traktor zu stoßen.",
+          "context": []
+        },
+        {
+          "id": "272400197-0141",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Unmittelbar nach Spielende herrschte bei Offiziellen und Zuschauern jedoch gleichermaßen Verwirrung, da die Verantwortlichen von Rugby Europe den Siegerpokal zuerst irrtümlicherweise den Georgiern überreichen wollten, ehe sie ihren Fehler bemerkten und die Rumänen zum Europameister erklärten.",
+          "context": [
+            "Bei der Rugby Europe Championship 2017 (der European Nations Cup war in der Zwischenzeit reformiert und umbenannt worden) unterlag Georgien im entscheidenden letzten Spiel auswärts mit 7:8 gegen Rumänien und verpasste zum ersten Mal seit 2010 den Europameistertitel.",
+            "Da beide Mannschaften gleich viele Punkte hatten, war das Ergebnis der Direktbegegnung ausschlaggebend."
+          ]
+        },
+        {
+          "id": "272400197-0156",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Bei den Mid-year Internationals 2022 gelang Georgien der erste Heimsieg gegen Italien, was gleichzeitig der erste Sieg gegen eine Mannschaft der ersten Stärkeklasse überhaupt war.",
+          "context": []
+        },
+        {
+          "id": "272400197-0157",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Bei den End-of-year Internationals im selben Jahr setzten die Georgier noch einen drauf und schlugen die Waliser auswärts in Cardiff, gleichbedeutend mit dem zweiten Sieg gegen eine Mannschaft der Six Nations.",
+          "context": [
+            "Bei den Mid-year Internationals 2022 gelang Georgien der erste Heimsieg gegen Italien, was gleichzeitig der erste Sieg gegen eine Mannschaft der ersten Stärkeklasse überhaupt war."
+          ]
+        },
+        {
+          "id": "272400197-0119",
+          "article": "Georgische Rugby-Union-Nationalmannschaft",
+          "revid": 272400197,
+          "sentence": "Die recht guten Ergebnisse bei den Weltmeisterschaften führten in Georgien zu einem Popularitätsschub, in dessen Folge Rugby Fußball als beliebteste Zuschauersportart ablöste.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "aussage_2": 0.99,
+          "aussage_3": 0.99,
+          "aussage_4": 0.99,
+          "aussage_5": 0.98,
+          "aussage_6": 0.97,
+          "aussage_7": 0.99,
+          "vollstaendig": 0.77
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Spitzname und Lelo burti (0011, 0035 mit Kontext), Stalins befristetes Verbot 1947 (0041), zwei Rugbybälle und der Traktor (0068, 0069), der Pokal-Irrtum 2017 (0141), die Siege 2022 gegen Italien und in Cardiff (0156, 0157) und Rugby als beliebteste Zuschauersportart (0119). Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben. „Gern.“ ist eine belegfreie Reaktion."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    }
+  ],
+  "comments": []
+}

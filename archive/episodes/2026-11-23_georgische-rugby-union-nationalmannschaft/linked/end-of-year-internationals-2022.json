@@ -1,0 +1,70 @@
+{
+  "title": "End-of-year Internationals 2022",
+  "revid": 270448710,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-13T09:50:37Z",
+  "fetched_at": "2026-11-23T12:47:56Z",
+  "categories": [
+    "Kategorie:End-of-year Internationals",
+    "Kategorie:Rugby 2022"
+  ],
+  "intro_wikitext": "Die '''[[End-of-year Internationals]] 2022''' (auch als ''Autumn Internationals 2022'' bezeichnet) waren eine vom 29. Oktober bis zum 26. November 2022 stattfindende Serie von internationalen [[Rugby Union|Rugby-Union]]-Spielen zwischen Mannschaften der ersten, zweiten und dritten Stärkeklasse. Die Ergebnisse wirkten sich auf die [[World-Rugby-Weltrangliste]] aus.\n\nDie von den Mannschaften der [[Six Nations]] ausgetragenen Spiele wurden zu Marketingzwecken als ''Autumn Nations Series'' bezeichnet.<ref>{{Internetquelle |url=https://autumnnationsseries.com/about-us/ |titel=About the Autumn Nations Series |hrsg=Autumn Nations Series |datum=2022 |sprache=en |abruf=2022-11-08}}</ref>",
+  "segments": [
+    {
+      "id": "270448710-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''[[End-of-year Internationals]] 2022''' (auch als ''Autumn Internationals 2022'' bezeichnet) waren eine vom 29. Oktober bis zum 26. November 2022 stattfindende Serie von internationalen [[Rugby Union|Rugby-Union]]-Spielen zwischen Mannschaften der ersten, zweiten und dritten Stärkeklasse.",
+      "plain": null
+    },
+    {
+      "id": "270448710-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Ergebnisse wirkten sich auf die [[World-Rugby-Weltrangliste]] aus.",
+      "plain": null
+    },
+    {
+      "id": "270448710-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die von den Mannschaften der [[Six Nations]] ausgetragenen Spiele wurden zu Marketingzwecken als ''Autumn Nations Series'' bezeichnet.<ref>{{Internetquelle |url=https://autumnnationsseries.com/about-us/ |titel=About the Autumn Nations Series |hrsg=Autumn Nations Series |datum=2022 |sprache=en |abruf=2022-11-08}}</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270448710,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270448710-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die End-of-year Internationals 2022 (auch als Autumn Internationals 2022 bezeichnet) waren eine vom 29. Oktober bis zum 26. November 2022 stattfindende Serie von internationalen Rugby-Union-Spielen zwischen Mannschaften der ersten, zweiten und dritten Stärkeklasse.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270448710-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270448710-0000"
+        ],
+        "plain": "Die Ergebnisse wirkten sich auf die World-Rugby-Weltrangliste aus.",
+        "context_plain": [
+          "Die End-of-year Internationals 2022 (auch als Autumn Internationals 2022 bezeichnet) waren eine vom 29. Oktober bis zum 26. November 2022 stattfindende Serie von internationalen Rugby-Union-Spielen zwischen Mannschaften der ersten, zweiten und dritten Stärkeklasse."
+        ]
+      },
+      {
+        "segment_id": "270448710-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die von den Mannschaften der Six Nations ausgetragenen Spiele wurden zu Marketingzwecken als Autumn Nations Series bezeichnet.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

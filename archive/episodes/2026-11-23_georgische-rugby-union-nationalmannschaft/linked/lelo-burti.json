@@ -1,0 +1,65 @@
+{
+  "title": "Lelo burti",
+  "revid": 266006571,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-04-09T05:38:04Z",
+  "fetched_at": "2026-11-23T12:47:56Z",
+  "categories": [
+    "Kategorie:Ballsportart",
+    "Kategorie:Kultur (Georgien)",
+    "Kategorie:Mannschaftssportart",
+    "Kategorie:Rugby Union (Georgien)"
+  ],
+  "intro_wikitext": "[[Datei:Shukhuti Cemetery.jpg|mini|Traditioneller Lelo-Ball]]\n'''Lelo burti''' ({{kaS|ლელო ბურთი}}, wörtlich „Feldball (spielen)“, kurz '''Lelo''' genannt) ist eine in [[Georgien]] ausgeübte traditionelle Vollkontakt-[[Ball- und Kugelsportart|Ballsportart]], die große Ähnlichkeiten mit [[Rugby]] aufweist.<ref>{{Literatur |Herausgeber=Richard Bath |Titel=The Complete Book of Rugby |Verlag=Seven Oaks |Datum=1997 |ISBN=1-86200-013-1 |Seiten=67}}</ref> Das Spiel soll in Georgien schon während der [[Antike]] gespielt worden sein. Eine der ältesten schriftlichen Erwähnungen findet sich im georgischen Nationalepos ''[[Der Recke im Tigerfell]]'' von [[Schota Rustaweli]] aus der Zeit um 1200, in dem die Hauptfiguren ''Lelo burti'' spielen.<ref>{{Internetquelle |url=https://dzneladze.com/lelo-burti-deadly-sport/ |titel=«Lelo Burti»- Deadly Sport |hrsg=Irakli Dzeneladze |datum=2018 |sprache=en |abruf=2022-01-02}}</ref>",
+  "segments": [
+    {
+      "id": "266006571-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Lelo burti''' ({{kaS|ლელო ბურთი}}, wörtlich „Feldball (spielen)“, kurz '''Lelo''' genannt) ist eine in [[Georgien]] ausgeübte traditionelle Vollkontakt-[[Ball- und Kugelsportart|Ballsportart]], die große Ähnlichkeiten mit [[Rugby]] aufweist.<ref>{{Literatur |Herausgeber=Richard Bath |Titel=The Complete Book of Rugby |Verlag=Seven Oaks |Datum=1997 |ISBN=1-86200-013-1 |Seiten=67}}</ref>",
+      "plain": null
+    },
+    {
+      "id": "266006571-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Spiel soll in Georgien schon während der [[Antike]] gespielt worden sein.",
+      "plain": null
+    },
+    {
+      "id": "266006571-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Eine der ältesten schriftlichen Erwähnungen findet sich im georgischen Nationalepos ''[[Der Recke im Tigerfell]]'' von [[Schota Rustaweli]] aus der Zeit um 1200, in dem die Hauptfiguren ''Lelo burti'' spielen.<ref>{{Internetquelle |url=https://dzneladze.com/lelo-burti-deadly-sport/ |titel=«Lelo Burti»- Deadly Sport |hrsg=Irakli Dzeneladze |datum=2018 |sprache=en |abruf=2022-01-02}}</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 266006571,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "266006571-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Lelo burti (georgisch ლელო ბურთი, wörtlich „Feldball (spielen)“, kurz Lelo genannt) ist eine in Georgien ausgeübte traditionelle Vollkontakt-Ballsportart, die große Ähnlichkeiten mit Rugby aufweist.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "266006571-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Spiel soll in Georgien schon während der Antike gespielt worden sein.",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "266006571-0002",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

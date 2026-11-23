@@ -1,0 +1,100 @@
+{
+  "title": "Antim Cup",
+  "revid": 265396942,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-03-18T19:30:51Z",
+  "fetched_at": "2026-11-23T12:47:56Z",
+  "categories": [
+    "Kategorie:Rugby Union (Georgien)",
+    "Kategorie:Rugby Union (Rumänien)",
+    "Kategorie:Sportliche Auszeichnung (Rugby Union)"
+  ],
+  "intro_wikitext": "[[Datei:Antim2018.png|mini|hochkant|Der Antim Cup]]\n\nDer '''Antim Cup''' ist eine Trophäe in der Sportart [[Rugby Union]], die seit dem Jahr 2002 zwischen den [[Nationalmannschaft]]en [[Georgische Rugby-Union-Nationalmannschaft|Georgiens]] und [[Rumänische Rugby-Union-Nationalmannschaft|Rumäniens]] ausgespielt wird. Sie ist nach dem in Georgien geborenen rumänischen [[Metropolit]]en [[Antim Ivireanul]] benannt. Der [[Bronze]]pokal wurde von Guia Japaradse, einem ehemaligen Nationalspieler, hergestellt.<ref>{{Internetquelle |autor=Giorgi Dolidse |url=https://bleacherreport.com/articles/121300-rugby-trophies-history |titel=Rugby Tropies: A History |hrsg=[[Bleacher Report]] |datum=2009-02-06 |sprache=en |abruf=2023-03-26}}</ref>\n\nDerzeit hält Georgien die Trophäe nach dem 53:30-Sieg in [[Tiflis]] am 8. März 2026.",
+  "segments": [
+    {
+      "id": "265396942-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der '''Antim Cup''' ist eine Trophäe in der Sportart [[Rugby Union]], die seit dem Jahr 2002 zwischen den [[Nationalmannschaft]]en [[Georgische Rugby-Union-Nationalmannschaft|Georgiens]] und [[Rumänische Rugby-Union-Nationalmannschaft|Rumäniens]] ausgespielt wird.",
+      "plain": null
+    },
+    {
+      "id": "265396942-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie ist nach dem in Georgien geborenen rumänischen [[Metropolit]]en [[Antim Ivireanul]] benannt.",
+      "plain": null
+    },
+    {
+      "id": "265396942-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der [[Bronze]]pokal wurde von Guia Japaradse, einem ehemaligen Nationalspieler, hergestellt.<ref>{{Internetquelle |autor=Giorgi Dolidse |url=https://bleacherreport.com/articles/121300-rugby-trophies-history |titel=Rugby Tropies: A History |hrsg=[[Bleacher Report]] |datum=2009-02-06 |sprache=en |abruf=2023-03-26}}</ref>",
+      "plain": null
+    },
+    {
+      "id": "265396942-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Derzeit hält Georgien die Trophäe nach dem 53:30-Sieg in [[Tiflis]] am 8. März 2026.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 265396942,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "265396942-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Antim Cup ist eine Trophäe in der Sportart Rugby Union, die seit dem Jahr 2002 zwischen den Nationalmannschaften Georgiens und Rumäniens ausgespielt wird.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "265396942-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "265396942-0000"
+        ],
+        "plain": "Sie ist nach dem in Georgien geborenen rumänischen Metropoliten Antim Ivireanul benannt.",
+        "context_plain": [
+          "Der Antim Cup ist eine Trophäe in der Sportart Rugby Union, die seit dem Jahr 2002 zwischen den Nationalmannschaften Georgiens und Rumäniens ausgespielt wird."
+        ]
+      },
+      {
+        "segment_id": "265396942-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "265396942-0000",
+          "265396942-0001"
+        ],
+        "plain": "Der Bronzepokal wurde von Guia Japaradse, einem ehemaligen Nationalspieler, hergestellt.",
+        "context_plain": [
+          "Der Antim Cup ist eine Trophäe in der Sportart Rugby Union, die seit dem Jahr 2002 zwischen den Nationalmannschaften Georgiens und Rumäniens ausgespielt wird.",
+          "Sie ist nach dem in Georgien geborenen rumänischen Metropoliten Antim Ivireanul benannt."
+        ]
+      },
+      {
+        "segment_id": "265396942-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "265396942-0000",
+          "265396942-0001",
+          "265396942-0002"
+        ],
+        "plain": "Derzeit hält Georgien die Trophäe nach dem 53:30-Sieg in Tiflis am 8. März 2026.",
+        "context_plain": [
+          "Der Antim Cup ist eine Trophäe in der Sportart Rugby Union, die seit dem Jahr 2002 zwischen den Nationalmannschaften Georgiens und Rumäniens ausgespielt wird.",
+          "Sie ist nach dem in Georgien geborenen rumänischen Metropoliten Antim Ivireanul benannt.",
+          "Der Bronzepokal wurde von Guia Japaradse, einem ehemaligen Nationalspieler, hergestellt."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

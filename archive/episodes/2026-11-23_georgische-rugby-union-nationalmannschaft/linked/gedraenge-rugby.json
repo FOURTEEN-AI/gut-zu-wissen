@@ -1,0 +1,96 @@
+{
+  "title": "Gedränge (Rugby)",
+  "revid": 235220074,
+  "revision_status": "sighted",
+  "revision_timestamp": "2023-07-05T20:40:19Z",
+  "fetched_at": "2026-11-23T12:47:56Z",
+  "categories": [
+    "Kategorie:Rugbyregel"
+  ],
+  "intro_wikitext": "[[Datei:ST vs Gloucester - Match - 23.JPG|350px|mini|Einwurf des Balls durch Luke Burgess in ein Gedränge.]]\nDas ''' Angeordnete Gedränge''' (englisch ''scrum'') ist in verschiedenen Varianten des [[Rugby]]sports die Standardsituation, um das Spiel nach kleineren Regelverstößen, einem unerlaubten Vorwärtsspielen des Balles oder nach einem Aus (nur im [[Rugby League]]) neuzustarten. Einwurf erhält die Mannschaft, die den Regelverstoß nicht begangen hat.\nGrößere Bedeutung und Häufigkeit hat das angeordnete Gedränge jedoch im [[Rugby Union|Rugby-Union-Sport]].\nHier existiert auch der Begriff des '''Offenen Gedränges''' (englisch ''ruck''), das Teil des offenen Spiels ist. Das Gedränge ist ebenso typisch für diese Sportart wie die [[Gasse (Rugby)|Gasse]].",
+  "segments": [
+    {
+      "id": "235220074-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das ''' Angeordnete Gedränge''' (englisch ''scrum'') ist in verschiedenen Varianten des [[Rugby]]sports die Standardsituation, um das Spiel nach kleineren Regelverstößen, einem unerlaubten Vorwärtsspielen des Balles oder nach einem Aus (nur im [[Rugby League]]) neuzustarten.",
+      "plain": null
+    },
+    {
+      "id": "235220074-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Einwurf erhält die Mannschaft, die den Regelverstoß nicht begangen hat.",
+      "plain": null
+    },
+    {
+      "id": "235220074-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Größere Bedeutung und Häufigkeit hat das angeordnete Gedränge jedoch im [[Rugby Union|Rugby-Union-Sport]].",
+      "plain": null
+    },
+    {
+      "id": "235220074-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Hier existiert auch der Begriff des '''Offenen Gedränges''' (englisch ''ruck''), das Teil des offenen Spiels ist.",
+      "plain": null
+    },
+    {
+      "id": "235220074-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Gedränge ist ebenso typisch für diese Sportart wie die [[Gasse (Rugby)|Gasse]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 235220074,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "235220074-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Angeordnete Gedränge (englisch scrum) ist in verschiedenen Varianten des Rugbysports die Standardsituation, um das Spiel nach kleineren Regelverstößen, einem unerlaubten Vorwärtsspielen des Balles oder nach einem Aus (nur im Rugby League) neuzustarten.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "235220074-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "235220074-0000"
+        ],
+        "plain": "Einwurf erhält die Mannschaft, die den Regelverstoß nicht begangen hat.",
+        "context_plain": [
+          "Das Angeordnete Gedränge (englisch scrum) ist in verschiedenen Varianten des Rugbysports die Standardsituation, um das Spiel nach kleineren Regelverstößen, einem unerlaubten Vorwärtsspielen des Balles oder nach einem Aus (nur im Rugby League) neuzustarten."
+        ]
+      },
+      {
+        "segment_id": "235220074-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "235220074-0002"
+        ],
+        "plain": "Hier existiert auch der Begriff des Offenen Gedränges (englisch ruck), das Teil des offenen Spiels ist.",
+        "context_plain": [
+          "Größere Bedeutung und Häufigkeit hat das angeordnete Gedränge jedoch im Rugby-Union-Sport."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "235220074-0002",
+        "reason": "context_invalid"
+      },
+      {
+        "segment_id": "235220074-0004",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

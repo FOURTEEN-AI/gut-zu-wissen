@@ -1,0 +1,144 @@
+{
+  "title": "Versuch (Rugby)",
+  "revid": 253163641,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-02-09T17:25:46Z",
+  "fetched_at": "2026-11-23T12:47:56Z",
+  "categories": [
+    "Kategorie:Rugbyregel"
+  ],
+  "intro_wikitext": "[[Datei:Damian Willemse trying to stop Ange Capuozzo from scoring a try.jpg|mini|Erzielen eines Versuchs]]\nEin '''Versuch''' (engl. ''try'') ist die häufigste Art, in den Sportarten [[Rugby League]] und [[Rugby Union]] Punkte zu erzielen. Er wird erzielt, indem ein Spieler den Ball im gegnerischen [[Rugby-Union-Regeln#Spielfeld|Malfeld]] kontrolliert ablegt.\n\nIm Rugby League zählt ein Versuch vier Punkte, vor 1983 war er lediglich drei Punkte wert. Im Rugby Union gibt es für das Erzielen eines Versuchs fünf Punkte. Im Lauf der Jahre hat sich dieser Wert mehrmals erhöht (bis 1891 ein Punkt, bis 1893 zwei Punkte, bis 1971 drei Punkte, bis 1992 vier Punkte).\n\nEin Versuch ist ähnlich wie ein [[Touchdown (Sport)|Touchdown]] im [[American Football]] und [[Canadian Football]], mit dem Unterschied, dass der Spieler zwingend den Boden mit dem Ball berühren muss. In beiden Varianten des [[Rugby]]s steht der Begriff „Touchdown“ jedoch für das Ablegen des Balles im eigenen Malfeld, um dem Gegner die Möglichkeit eines Versuchs zu nehmen. Dafür ist der Begriff „Grounding“ jedoch geläufiger.",
+  "segments": [
+    {
+      "id": "253163641-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein '''Versuch''' (engl. ''try'') ist die häufigste Art, in den Sportarten [[Rugby League]] und [[Rugby Union]] Punkte zu erzielen.",
+      "plain": null
+    },
+    {
+      "id": "253163641-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er wird erzielt, indem ein Spieler den Ball im gegnerischen [[Rugby-Union-Regeln#Spielfeld|Malfeld]] kontrolliert ablegt.",
+      "plain": null
+    },
+    {
+      "id": "253163641-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Rugby League zählt ein Versuch vier Punkte, vor 1983 war er lediglich drei Punkte wert.",
+      "plain": null
+    },
+    {
+      "id": "253163641-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Rugby Union gibt es für das Erzielen eines Versuchs fünf Punkte.",
+      "plain": null
+    },
+    {
+      "id": "253163641-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Lauf der Jahre hat sich dieser Wert mehrmals erhöht (bis 1891 ein Punkt, bis 1893 zwei Punkte, bis 1971 drei Punkte, bis 1992 vier Punkte).",
+      "plain": null
+    },
+    {
+      "id": "253163641-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein Versuch ist ähnlich wie ein [[Touchdown (Sport)|Touchdown]] im [[American Football]] und [[Canadian Football]], mit dem Unterschied, dass der Spieler zwingend den Boden mit dem Ball berühren muss.",
+      "plain": null
+    },
+    {
+      "id": "253163641-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "In beiden Varianten des [[Rugby]]s steht der Begriff „Touchdown“ jedoch für das Ablegen des Balles im eigenen Malfeld, um dem Gegner die Möglichkeit eines Versuchs zu nehmen.",
+      "plain": null
+    },
+    {
+      "id": "253163641-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dafür ist der Begriff „Grounding“ jedoch geläufiger.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 253163641,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "253163641-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Ein Versuch (engl. try) ist die häufigste Art, in den Sportarten Rugby League und Rugby Union Punkte zu erzielen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "253163641-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "253163641-0000"
+        ],
+        "plain": "Er wird erzielt, indem ein Spieler den Ball im gegnerischen Malfeld kontrolliert ablegt.",
+        "context_plain": [
+          "Ein Versuch (engl. try) ist die häufigste Art, in den Sportarten Rugby League und Rugby Union Punkte zu erzielen."
+        ]
+      },
+      {
+        "segment_id": "253163641-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Im Rugby League zählt ein Versuch vier Punkte, vor 1983 war er lediglich drei Punkte wert.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "253163641-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Im Rugby Union gibt es für das Erzielen eines Versuchs fünf Punkte.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "253163641-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "253163641-0003"
+        ],
+        "plain": "Im Lauf der Jahre hat sich dieser Wert mehrmals erhöht (bis 1891 ein Punkt, bis 1893 zwei Punkte, bis 1971 drei Punkte, bis 1992 vier Punkte).",
+        "context_plain": [
+          "Im Rugby Union gibt es für das Erzielen eines Versuchs fünf Punkte."
+        ]
+      },
+      {
+        "segment_id": "253163641-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Ein Versuch ist ähnlich wie ein Touchdown im American Football und Canadian Football, mit dem Unterschied, dass der Spieler zwingend den Boden mit dem Ball berühren muss.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "253163641-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "253163641-0005"
+        ],
+        "plain": "In beiden Varianten des Rugbys steht der Begriff „Touchdown“ jedoch für das Ablegen des Balles im eigenen Malfeld, um dem Gegner die Möglichkeit eines Versuchs zu nehmen.",
+        "context_plain": [
+          "Ein Versuch ist ähnlich wie ein Touchdown im American Football und Canadian Football, mit dem Unterschied, dass der Spieler zwingend den Boden mit dem Ball berühren muss."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

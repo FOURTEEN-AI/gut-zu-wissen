@@ -1,0 +1,843 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.8
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Nationalmannschaft Georgiens im Rugby Union, Vertretung bei allen Länderspielen (Test Matches) der Männer, Spitzname Lelos, abgeleitet von einem dem Rugby ähnlichen traditionellen Sport. Der Einstiegssatz „Heute geht es um …“ ist eine Überleitung ohne neue Information. Es gibt keine Fragen und keine zusätzlichen Angaben. Der Bezug „Ihr“/„Er“ ist eindeutig, da es um die Mannschaft bzw. den Spitznamen geht."
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Name Lelo burti und die Bedeutung „Feldball“, die in Georgien ausgeübte traditionelle Vollkontakt-Ballsportart, die Ähnlichkeit mit Rugby sowie die angebliche Ausübung in der Antike. „Lelos“ aus dem vorherigen Beitrag und „Lelo burti“ meinen denselben Gegenstand. Der Redebeitrag enthält keine Frage und keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.77
+      },
+      "jev_error": null,
+      "reason": "„Schon in der Antike, das ist wirklich alt“ greift die Aussage aus dem vorherigen Beitrag und dem Fakt-Satz wieder auf; die Wertung „wirklich alt“ ist eine Reaktion ohne neue Information. Die Frage nach der Spielerzahl ist eine Nachfrage ohne Prämisse, die erst die Antwort liefern würde. Es wird keine unbelegte Behauptung aufgestellt."
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.75
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Fakt-IDs und nur Reaktionen: \"Wahnsinn, das klingt nach einem riesigen Durcheinander!\" ist ein Gefühl im Moment und greift das eben Gesagte auf, ohne neue Information. \"Gibt es zu dem Wort Lelo noch mehr zu erzählen?\" ist eine Nachfrage ohne vorweggenommene Einzelheit, Wertung oder Vermutung, also keine Prämisse."
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen direkt aus dem Fakt-Satz: Lelo ist das georgische Wort für Versuch, ein Versuch ist die wichtigste Möglichkeit, in einem Spiel Punkte zu erzielen, der Anfeuerungsruf Lelo, Lelo, Sakartwelo bezieht sich darauf und heißt übersetzt Versuch, Versuch, Georgien. Gegenstand ist eindeutig (das Wort Lelo, vom vorherigen Beitrag genannt). Das einleitende „Ja“ ist eine belegfreie Reaktion; es gibt keine zusätzlichen Angaben und keine Fragen."
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.78
+      },
+      "jev_error": null,
+      "reason": "Beide Sätze folgen aus dem Fakt-Satz: Die weinrote Farbe der Trikots soll den Weinbau in Georgien repräsentieren, und dieser gilt als eines der bekanntesten Kulturgüter des Landes. Der Gegenstand ist eindeutig (Trikots der georgischen Rugby-Nationalmannschaft, Thema des Artikels) und passt zur Frage im vorherigen Beitrag. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämisse."
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.33
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Fakt-IDs, aber auch keine Behauptung. \"Das gefällt mir.\" ist eine Aussage über eigene Vorlieben bzw. eine Reaktion im Moment. Die Frage nach der früheren Entwicklung des Rugbysports in Georgien ist eine offene Nachfrage und Überleitung. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Dass es eine Entwicklung gab, ist nur die übliche Voraussetzung, dass es etwas zu erzählen gibt. Der Redebeitrag ist daher belegfrei zulässig."
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine Nachfrage nach einem konkreten Beispiel für den Widerstand, den Lena eben genannt hat. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es dazu etwas zu erzählen gibt. Damit ist sie belegfrei und enthält keine unbelegte Behauptung."
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Die Aussage folgt wörtlich aus dem Fakt-Satz: Stalin, der aus Georgien stammende Herrscher der Sowjetunion, erließ 1947 ein vorübergehendes Verbot. Der Gegenstand (Widerstand gegen Rugby in Georgien) ergibt sich aus dem Artikelthema und dem Kontext (politischer Widerstand der Kommunisten), und das \"Beispielsweise\" passt zur Frage nach einem konkreten Beispiel. Das einleitende \"Ja\" ist eine Antwortpartikel, und der Redebeitrag enthält keine Fragen oder weiteren Behauptungen."
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.43
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion (\"Das überrascht mich\", ein Gefühl im Moment) und einer offenen Nachfrage (\"Wie ging es danach mit dem Rugby weiter?\"). Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es etwas zu erzählen gibt. Fakt-IDs werden nicht gebraucht, da keine Behauptung vorkommt."
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur eine Reaktion („Erstaunlich.“) und eine Nachfrage nach dem ersten Länderspiel Georgiens. Die Frage nimmt keine bestimmte Einzelheit oder Wertung vorweg. Die Voraussetzung, dass es ein erstes Länderspiel für Georgien gab, ist nur die übliche Annahme einer Nachfrage. Es gibt keine Behauptung, die einen Beleg bräuchte."
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.71
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine Nachfrage zum Fortgang („Wie leicht fand Georgien nach diesem ersten Test Match Gegner?“). Sie bezieht sich auf das erste Test Match, das Lena und der Fakt-Satz nennen. Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es dazu etwas zu erzählen gibt. Sie ist daher belegfrei, und es steht keine unbelegte Behauptung darin."
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Alle drei Aussagen folgen aus dem Fakt-Satz: Die Gegnersuche war zu Beginn schwierig, die meisten anderen ehemaligen Sowjetrepubliken hielten die sowjetische Nationalmannschaft bis Ende 1991 als Gemeinschaft Unabhängiger Staaten aufrecht, und nur die Ukraine bot sich an. Der Gegenstand ist über die vorherige Frage und das Artikelthema eindeutig Georgien. Es gibt keine zusätzlichen Angaben und keine Fragen oder Reaktionen, die etwas Unbelegtes voraussetzen."
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage bzw. Überleitungsfrage („Und sportlich, wie lief es für die Georgier dann?“). Sie enthält keine Behauptung und keine bestimmte Einzelheit, Wertung oder Vermutung, die erst die Antwort liefern würde. Dass es sportlich etwas zu erzählen gibt, setzt sie nur voraus, was bei Nachfragen erlaubt ist. Fakt-Sätze werden nicht benötigt."
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 1.0,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Er enthält keine Behauptung und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Dass trainiert wurde, ist eine selbstverständliche Voraussetzung, die erst die Antwort ausfüllt. Damit ist er belegfrei."
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag besteht nur aus einer Reaktion („Das ist kaum zu fassen.“, Staunen) und einer Nachfrage („Gab es noch mehr solche Beispiele?“). Beides ist belegfrei. Die Frage nimmt keine bestimmte Einzelheit vorweg, sondern setzt nur voraus, dass es weitere Beispiele zu erzählen gibt. Das ist bei einer Nachfrage erlaubt. Es werden keine neuen Behauptungen aufgestellt."
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.48
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Kunststoffsäcke als übliches Trainingsmittel für das Tackling, georgische Spieler auf Denimsäcken, mit Gummi gefüllt, mit Haushaltsnähmaschine genäht. Das Wort „georgischen“ ergibt sich aus dem Artikelthema, und „Üblich“ ist eine zulässige Umformulierung von „Anstatt ... zu verwenden“. Das einleitende „Ja“ ist eine Reaktion auf Felix' Frage und keine neue Behauptung."
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.83,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag besteht aus einer Reaktion („Wow.“) und einer Nachfrage nach anderen Übungen. Beides ist belegfrei und enthält keine eigene Behauptung oder Prämisse. Der zitierte Fakt wird nicht inhaltlich verwendet, daher gibt es nichts, was nicht aus ihm folgen könnte."
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.42
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur eine Reaktion („Das muss ich erst einmal verdauen!“) und eine offene Nachfrage („Gab es eigentlich auch rund um einzelne Spiele Probleme?“). Die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Es gibt keine Tatsachenbehauptung, also sind keine Fakt-Sätze nötig."
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Das Heimspiel gegen Lettland fiel aus, die Letten weigerten sich anzutreten, Grund war die prekäre Sicherheitslage im Westen Georgiens (\"des Landes\" im Artikel über die georgische Nationalmannschaft eindeutig Georgien) wegen des Georgisch-Abchasischen Krieges. Der Bezug \"Landes\" wird zulässig aufgelöst. Das einleitende \"Ja\" ist eine Reaktion auf Felix' Frage. Keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Wow, das klingt ziemlich turbulent“ ist eine Reaktion (Staunen) auf das eben Gesagte. „Und wie ging es dann weiter?“ ist eine Nachfrage bzw. Überleitungsfrage ohne bestimmte Einzelheit, Wertung oder Vermutung als Prämisse. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage bzw. Überleitungsfrage ohne Fakt-IDs. Sie setzt nur voraus, dass es zu Trainern etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg. Damit ist sie belegfrei."
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 41,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Sie fragt offen, ob Georgien bei Weltmeisterschaften gespielt hat, und nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg. Damit ist sie belegfrei und enthält keine Behauptung."
+    },
+    {
+      "turn_index": 42,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.97,
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: das Spiel gegen Irland als beinahe Sensation, der haushohe Favorit am Rand einer Niederlage, die knappe Niederlage 10:14, die internationale Anerkennung und die 20 Mannschaften bei den kommenden Weltmeisterschaften. Das einleitende „Ja“ ist durch den WM-Bezug in den Fakten (Titelanwärter, Weltmeisterschaften) gedeckt. Es gibt keine zusätzlichen Angaben und keine Verbindung, die die Fakten nicht nennen."
+    },
+    {
+      "turn_index": 43,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag „Gab es auch einen Sieg?“ ist eine reine Nachfrage. Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Er enthält keine Behauptung, also braucht er keine Fakt-IDs."
+    },
+    {
+      "turn_index": 44,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 45,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Überleitung („Zurück nach Europa“) und einer offenen Nachfrage („Gab es dort besonders dramatische Momente?“). Beide sind belegfrei. Die Frage setzt nur voraus, dass es etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg. Behauptungen enthält der Beitrag nicht."
+    },
+    {
+      "turn_index": 46,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.59
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Verwirrung bei Offiziellen und Zuschauern unmittelbar nach Spielende, Rugby Europe wollte den Pokal zuerst irrtümlich den Georgiern überreichen, bemerkte den Fehler und erklärte die Rumänen zum Europameister. Das Jahr 2017 und die Europameisterschaft stehen im Kontext des Fakts (Rugby Europe Championship 2017) und der Gegenstand ist durch den Artikel eindeutig. Das einleitende „Ja“ ist eine belegfreie Reaktion auf Felix' Nachfrage nach dramatischen Momenten in Europa. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 47,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Das muss ein Moment gewesen sein!“ ist eine Reaktion auf Lenas Schilderung. Die Frage nach Georgiens heutiger Stellung im Vergleich mit den großen Rugbynationen ist eine Nachfrage. Sie nimmt keine Einzelheit, Wertung oder Vermutung vorweg, die erst die Antwort liefern würde. Georgien wurde im vorherigen Beitrag bereits genannt."
+    },
+    {
+      "turn_index": 48,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 49,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.79
+      },
+      "jev_error": null,
+      "reason": "Felix stellt nur eine Nachfrage, ob es in den letzten Jahren Siege gegen große Rugbynationen gab. Das ist eine offene Anschlussfrage ohne vorweggenommene Einzelheit, Wertung oder Vermutung, also belegfrei. Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt, und das ist keine Prämisse im Sinne der Rubrik. Behauptungen enthält der Redebeitrag nicht."
+    },
+    {
+      "turn_index": 50,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 51,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 52,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 53,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 54,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 55,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.6
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur eine Reaktion (\"Das ist eine Geschichte!\") und eine Bitte um Zusammenfassung. Beides ist belegfrei. Es gibt keine Behauptung und keine Prämisse, die Fakten bräuchte."
+    },
+    {
+      "turn_index": 56,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "aussage_2": 0.99,
+        "aussage_3": 0.99,
+        "aussage_4": 0.99,
+        "aussage_5": 0.98,
+        "aussage_6": 0.97,
+        "aussage_7": 0.99,
+        "vollstaendig": 0.77
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Spitzname und Lelo burti (0011, 0035 mit Kontext), Stalins befristetes Verbot 1947 (0041), zwei Rugbybälle und der Traktor (0068, 0069), der Pokal-Irrtum 2017 (0141), die Siege 2022 gegen Italien und in Cardiff (0156, 0157) und Rugby als beliebteste Zuschauersportart (0119). Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben. „Gern.“ ist eine belegfreie Reaktion."
+    }
+  ],
+  "used_fact_ids": [
+    "272400197-0010",
+    "272400197-0011",
+    "266006571-0000",
+    "266006571-0001",
+    "272400197-0035",
+    "272400197-0034",
+    "272400197-0170",
+    "272400197-0167",
+    "272400197-0040",
+    "272400197-0041",
+    "272400197-0042",
+    "272400197-0052",
+    "272400197-0054",
+    "272400197-0053",
+    "272400197-0055",
+    "272400197-0016",
+    "272400197-0060",
+    "272400197-0064",
+    "272400197-0066",
+    "272400197-0067",
+    "272400197-0068",
+    "272400197-0070",
+    "272400197-0069",
+    "272400197-0065",
+    "272400197-0071",
+    "272400197-0072",
+    "272400197-0073",
+    "272400197-0074",
+    "272400197-0081",
+    "272400197-0102",
+    "272400197-0103",
+    "272400197-0107",
+    "272400197-0105",
+    "272400197-0141",
+    "272400197-0150",
+    "272400197-0156",
+    "272400197-0157",
+    "272400197-0120",
+    "272400197-0124",
+    "272400197-0119"
+  ],
+  "cascade_checks": [
+    {
+      "conversation": 1,
+      "turn_index": 6,
+      "p": 0.93,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung ist wortgleich zur vorherigen. Alle Angaben stehen unverändert darin: Lelo bedeutet auf Georgisch Versuch, ein Versuch ist die wichtigste Möglichkeit, Punkte zu erzielen, und der Ruf Lelo, Lelo, Sakartwelo bedeutet Versuch, Versuch, Georgien."
+    },
+    {
+      "conversation": 1,
+      "turn_index": 34,
+      "p": 0.91,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die vorherige Fassung spricht vom „Westen des Landes“, die neue Fassung nennt „Westen Georgiens“. Das Land wird also konkret als Georgien benannt, was in der vorherigen Fassung nicht steht und nicht sicher dasselbe ist. Alle anderen Aussagen (Heimspiel gegen Lettland nicht ausgetragen, prekäre Sicherheitslage, Georgisch-Abchasischer Krieg, Letten weigerten sich anzutreten) sind vorhanden. Die zusätzliche Angabe „Georgiens“ ist jedoch eine neue Information."
+    },
+    {
+      "conversation": 1,
+      "turn_index": 35,
+      "p": 0.98,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 1,
+      "turn_index": 40,
+      "p": 0.91,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung enthält alle Aussagen der vorherigen: European Nations Cup 2000/01, Georgien in allen fünf Spielen unbesiegt, erster Europameistertitel und der entscheidende Auswärtssieg 30:21 über Titelverteidiger Rumänien in Bukarest. Es gibt nur kleine Unterschiede in der Formulierung, aber keine inhaltlichen."
+    }
+  ],
+  "conversation": 1,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 5,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 5,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272400197-0011 wurde schon in Redebeitrag 0 und 1 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 5,
+      "version": 1,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 5,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.7
+        },
+        "jev_error": null,
+        "reason": "Der erste Satz („Mehrere hundert Spieler, das ist kaum vorstellbar!“) ist eine Reaktion und greift Lenas Aussage nur wieder auf. Die Frage „Gibt es noch eine weitere Verbindung zwischen diesem alten Spiel und der Nationalmannschaft?“ setzt aber als Tatsache voraus, dass es bereits eine Verbindung zwischen Lelo burti und der Nationalmannschaft gibt. Das wurde im vorherigen Redebeitrag nicht gesagt, und es sind keine Fakt-Sätze zitiert. Die Prämisse ist daher nicht belegt."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 6,
+      "version": 0,
+      "replaced_by": 2,
+      "judgement": {
+        "turn_index": 6,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.91
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Lelo ist das georgische Wort für einen Versuch, ein Versuch ist die wichtigste Möglichkeit, in einem Spiel Punkte zu erzielen, darauf bezieht sich der Ruf Lelo, Lelo, Sakartwelo, übersetzt Versuch, Versuch, Georgien. Das einleitende \"Ja\" ist eine Reaktion. Der Gegenstand ist eindeutig, da der Artikel die Nationalmannschaft behandelt und Lelo im Gespräch das alte Spiel bzw. den Spitznamen betrifft. Es gibt keine zusätzlichen Angaben."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 33,
+      "version": 0,
+      "replaced_by": 3,
+      "judgement": {
+        "turn_index": 33,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272400197-0067 wurde schon in Redebeitrag 26 und 27 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 34,
+      "version": 0,
+      "replaced_by": 4,
+      "judgement": {
+        "turn_index": 34,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 35,
+      "version": 0,
+      "replaced_by": 5,
+      "judgement": {
+        "turn_index": 35,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.86
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag ist eine reine Nachfrage („Spielten georgische Spieler auch im Ausland?“). Sie greift das Gespräch über Georgien auf und fragt nach etwas Neuem, ohne eine bestimmte Einzelheit, Wertung oder Vermutung vorwegzunehmen. Dass es dazu etwas zu erzählen gibt, ist keine Prämisse, die belegt sein müsste. Fakt-IDs sind deshalb nicht nötig."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 39,
+      "version": 0,
+      "replaced_by": 6,
+      "judgement": {
+        "turn_index": 39,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Die Frage \"Wann kam der erste große Titel?\" setzt als Tatsache voraus, dass die Mannschaft überhaupt große Titel gewonnen hat. Das hat der vorherige Redebeitrag nicht gesagt, und es werden keine Fakt-Sätze zitiert. Damit ist sie keine offene Nachfrage, sondern enthält eine unbelegte Prämisse."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 40,
+      "version": 0,
+      "replaced_by": 7,
+      "judgement": {
+        "turn_index": 40,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    }
+  ]
+}

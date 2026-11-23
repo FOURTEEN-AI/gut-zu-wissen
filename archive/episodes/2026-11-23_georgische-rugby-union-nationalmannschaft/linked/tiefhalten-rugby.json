@@ -1,0 +1,167 @@
+{
+  "title": "Tiefhalten (Rugby)",
+  "revid": 231014774,
+  "revision_status": "sighted",
+  "revision_timestamp": "2023-02-18T13:05:25Z",
+  "fetched_at": "2026-11-23T12:47:56Z",
+  "categories": [
+    "Kategorie:Rugbyregel"
+  ],
+  "intro_wikitext": "[[Bild:Rugby tackling.png|thumb|right|Tiefhalten]]\nDas '''Tiefhalten''', auch '''Tackling''' genannt, bezeichnet im [[Rugby]] die Spieltechnik, um den Gegenspieler aufzuhalten.\n\nDer Spieler versucht den Ballträger dadurch aufzuhalten, dass er ihn mit den Armen umgreift. Dabei darf er nicht oberhalb der Schultern halten.\n\nDer Begriff „Tiefhalten“ kommt von der früher üblichen taktischen Vorgabe, möglichst unterhalb der Hüfte den Gegner anzugreifen, da dadurch auch körperlich überlegene Spieler gestoppt werden können. Inzwischen wird aber häufig der Oberkörper beziehungsweise der Ball attackiert, um zu verhindern, dass der Gegenspieler das Spiel mit einem Pass aus dem Tackling heraus fortsetzen kann.\n\nBleiben beide Spieler auf den Beinen, entsteht in der [[Rugby Union|Rugby-Union-Variante]] bei Unterstützung durch die Mitspieler ein ''Paket''. Gehen sie zu Boden, muss der Ballträger in diesem Sport den Ball loslassen und es wird meist ein Offenes [[Gedränge (Rugby)|Gedränge]] zum Kampf um den Ball gebildet. Im [[Rugby League]] dagegen behält die angreifende Mannschaft nach einem Tackling den Ball. Wird jedoch eine Mannschaft zum sechsten Mal in Folge gehalten, wechselt der Ballbesitz.",
+  "segments": [
+    {
+      "id": "231014774-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das '''Tiefhalten''', auch '''Tackling''' genannt, bezeichnet im [[Rugby]] die Spieltechnik, um den Gegenspieler aufzuhalten.",
+      "plain": null
+    },
+    {
+      "id": "231014774-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Spieler versucht den Ballträger dadurch aufzuhalten, dass er ihn mit den Armen umgreift.",
+      "plain": null
+    },
+    {
+      "id": "231014774-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dabei darf er nicht oberhalb der Schultern halten.",
+      "plain": null
+    },
+    {
+      "id": "231014774-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Begriff „Tiefhalten“ kommt von der früher üblichen taktischen Vorgabe, möglichst unterhalb der Hüfte den Gegner anzugreifen, da dadurch auch körperlich überlegene Spieler gestoppt werden können.",
+      "plain": null
+    },
+    {
+      "id": "231014774-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Inzwischen wird aber häufig der Oberkörper beziehungsweise der Ball attackiert, um zu verhindern, dass der Gegenspieler das Spiel mit einem Pass aus dem Tackling heraus fortsetzen kann.",
+      "plain": null
+    },
+    {
+      "id": "231014774-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bleiben beide Spieler auf den Beinen, entsteht in der [[Rugby Union|Rugby-Union-Variante]] bei Unterstützung durch die Mitspieler ein ''Paket''.",
+      "plain": null
+    },
+    {
+      "id": "231014774-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Gehen sie zu Boden, muss der Ballträger in diesem Sport den Ball loslassen und es wird meist ein Offenes [[Gedränge (Rugby)|Gedränge]] zum Kampf um den Ball gebildet.",
+      "plain": null
+    },
+    {
+      "id": "231014774-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im [[Rugby League]] dagegen behält die angreifende Mannschaft nach einem Tackling den Ball.",
+      "plain": null
+    },
+    {
+      "id": "231014774-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Wird jedoch eine Mannschaft zum sechsten Mal in Folge gehalten, wechselt der Ballbesitz.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 231014774,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "231014774-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Tiefhalten, auch Tackling genannt, bezeichnet im Rugby die Spieltechnik, um den Gegenspieler aufzuhalten.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "231014774-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "231014774-0001"
+        ],
+        "plain": "Dabei darf er nicht oberhalb der Schultern halten.",
+        "context_plain": [
+          "Der Spieler versucht den Ballträger dadurch aufzuhalten, dass er ihn mit den Armen umgreift."
+        ]
+      },
+      {
+        "segment_id": "231014774-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Begriff „Tiefhalten“ kommt von der früher üblichen taktischen Vorgabe, möglichst unterhalb der Hüfte den Gegner anzugreifen, da dadurch auch körperlich überlegene Spieler gestoppt werden können.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "231014774-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "231014774-0003"
+        ],
+        "plain": "Inzwischen wird aber häufig der Oberkörper beziehungsweise der Ball attackiert, um zu verhindern, dass der Gegenspieler das Spiel mit einem Pass aus dem Tackling heraus fortsetzen kann.",
+        "context_plain": [
+          "Der Begriff „Tiefhalten“ kommt von der früher üblichen taktischen Vorgabe, möglichst unterhalb der Hüfte den Gegner anzugreifen, da dadurch auch körperlich überlegene Spieler gestoppt werden können."
+        ]
+      },
+      {
+        "segment_id": "231014774-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Bleiben beide Spieler auf den Beinen, entsteht in der Rugby-Union-Variante bei Unterstützung durch die Mitspieler ein Paket.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "231014774-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "231014774-0005"
+        ],
+        "plain": "Gehen sie zu Boden, muss der Ballträger in diesem Sport den Ball loslassen und es wird meist ein Offenes Gedränge zum Kampf um den Ball gebildet.",
+        "context_plain": [
+          "Bleiben beide Spieler auf den Beinen, entsteht in der Rugby-Union-Variante bei Unterstützung durch die Mitspieler ein Paket."
+        ]
+      },
+      {
+        "segment_id": "231014774-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "231014774-0006"
+        ],
+        "plain": "Im Rugby League dagegen behält die angreifende Mannschaft nach einem Tackling den Ball.",
+        "context_plain": [
+          "Gehen sie zu Boden, muss der Ballträger in diesem Sport den Ball loslassen und es wird meist ein Offenes Gedränge zum Kampf um den Ball gebildet."
+        ]
+      },
+      {
+        "segment_id": "231014774-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "231014774-0007"
+        ],
+        "plain": "Wird jedoch eine Mannschaft zum sechsten Mal in Folge gehalten, wechselt der Ballbesitz.",
+        "context_plain": [
+          "Im Rugby League dagegen behält die angreifende Mannschaft nach einem Tackling den Ball."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

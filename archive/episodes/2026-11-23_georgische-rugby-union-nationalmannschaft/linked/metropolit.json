@@ -1,0 +1,58 @@
+{
+  "title": "Metropolit",
+  "revid": 265755455,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-03-30T23:24:53Z",
+  "fetched_at": "2026-11-23T12:47:56Z",
+  "categories": [
+    "Kategorie:Bischöfliches Amt",
+    "Kategorie:Kanonisches Recht",
+    "Kategorie:Katholische Ostkirchen",
+    "Kategorie:Kirchenrecht (Orthodoxe Kirchen)",
+    "Kategorie:Orthodoxer Titel"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|behandelt den Metropoliten der Kirche, zum gleichnamigen Eishockeyspieler siehe [[Glen Metropolit]].}}\n\nDas Amt des '''Metropoliten''' bezeichnet seit dem [[Alte Kirche|frühen Christentum]] einen [[Erzbischof|Oberbischof]], der einem Verbund von [[Bistum|Bistümern]] vorsteht und seinen Sitz in einer Provinzhauptstadt ([[Altgriechische Sprache|altgriechisch]] μητρόπολις, ''mētrópolis'' „Mutterstadt“ (einer [[Kolonie]]); vgl. [[Metropole]]) hat. Heute existiert das Amt des Metropoliten noch in der [[Römisch-katholische Kirche|römisch-katholischen Kirche]] sowie in den [[Orthodoxe Kirchen|orthodoxen Kirchen]], wobei sich die rechtliche Ausgestaltung unterscheidet.",
+  "segments": [
+    {
+      "id": "265755455-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Amt des '''Metropoliten''' bezeichnet seit dem [[Alte Kirche|frühen Christentum]] einen [[Erzbischof|Oberbischof]], der einem Verbund von [[Bistum|Bistümern]] vorsteht und seinen Sitz in einer Provinzhauptstadt ([[Altgriechische Sprache|altgriechisch]] μητρόπολις, ''mētrópolis'' „Mutterstadt“ (einer [[Kolonie]]); vgl. [[Metropole]]) hat.",
+      "plain": null
+    },
+    {
+      "id": "265755455-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Heute existiert das Amt des Metropoliten noch in der [[Römisch-katholische Kirche|römisch-katholischen Kirche]] sowie in den [[Orthodoxe Kirchen|orthodoxen Kirchen]], wobei sich die rechtliche Ausgestaltung unterscheidet.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 265755455,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "265755455-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Amt des Metropoliten bezeichnet seit dem frühen Christentum einen Oberbischof, der einem Verbund von Bistümern vorsteht und seinen Sitz in einer Provinzhauptstadt (altgriechisch μητρόπολις, mētrópolis „Mutterstadt“ (einer Kolonie); vgl. Metropole) hat.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "265755455-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "265755455-0000"
+        ],
+        "plain": "Heute existiert das Amt des Metropoliten noch in der römisch-katholischen Kirche sowie in den orthodoxen Kirchen, wobei sich die rechtliche Ausgestaltung unterscheidet.",
+        "context_plain": [
+          "Das Amt des Metropoliten bezeichnet seit dem frühen Christentum einen Oberbischof, der einem Verbund von Bistümern vorsteht und seinen Sitz in einer Provinzhauptstadt (altgriechisch μητρόπολις, mētrópolis „Mutterstadt“ (einer Kolonie); vgl. Metropole) hat."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

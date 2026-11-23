@@ -1,0 +1,175 @@
+{
+  "title": "Rugbyball",
+  "revid": 260159513,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-09-29T09:09:00Z",
+  "fetched_at": "2026-11-23T12:47:56Z",
+  "categories": [
+    "Kategorie:Ball",
+    "Kategorie:Rugby"
+  ],
+  "intro_wikitext": "[[Datei:Palla da Rugby.jpg|mini|Ein Rugbyball der Größe&nbsp;5]]\nDer '''Rugbyball''' ist der [[Ball|Spielball]] der [[Sportart]]en aus der [[Rugby|Rugby-Familie]] mit [[Rotationsellipsoid|rotationselliptischer]] Form. Er wird oft mit dem [[Football (Sportgerät)|Football]] verwechselt, dieser ist jedoch an den Enden spitz, kleiner, ggf. auch leichter und hat neben der typischen braunen Farbe auch eine weiße Naht an der Seite. \nFrüher bestand ein Rugbyball aus vier gleich geformten Lederflächen, die aneinandergenäht wurden. Moderne Bälle haben eine Gummioberfläche mit kleinen Noppen, welche die Rutschfestigkeit verbessern. \n\nRugbybälle gibt es in fünf Größen. Größe&nbsp;5 ist dabei die größte, mit der üblicherweise im Erwachsenenrugby gespielt wird. Ein solcher Ball hat eine Länge von 280 bis 300&nbsp;Millimeter, der Umfang an der Hauptachse beträgt 740 bis 770&nbsp;Millimeter, der Umfang an der Nebenachse 580 bis 620&nbsp;Millimeter bei einem Gewicht von 410 bis 460&nbsp;Gramm.<ref>{{Internetquelle |url=https://laws.worldrugby.org/ |titel=World Rugby Laws - World Rugby's Law Education Web Site |abruf=2020-11-26}}</ref>\n\nNach einem Beschluss des [[International Rugby Board]] soll im Frauenrugby mit Bällen der Größe&nbsp;4 gespielt werden, die auch bei Jugendspielen verwendet wird. Dies wird vielfach als Diskriminierung aufgefasst; viele Nationalverbände wie etwa der deutsche Frauen-Rugbyverband [[Deutsche Rugby-Frauen|DRF]] haben daher für sich beschlossen, weiterhin mit Bällen der Größe&nbsp;5 zu spielen. Auf internationalen Turnieren, die sich nach den offiziellen IRB-Regeln richten, muss jedoch mit Bällen der Größe&nbsp;4 gespielt werden.",
+  "segments": [
+    {
+      "id": "260159513-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der '''Rugbyball''' ist der [[Ball|Spielball]] der [[Sportart]]en aus der [[Rugby|Rugby-Familie]] mit [[Rotationsellipsoid|rotationselliptischer]] Form.",
+      "plain": null
+    },
+    {
+      "id": "260159513-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er wird oft mit dem [[Football (Sportgerät)|Football]] verwechselt, dieser ist jedoch an den Enden spitz, kleiner, ggf. auch leichter und hat neben der typischen braunen Farbe auch eine weiße Naht an der Seite.",
+      "plain": null
+    },
+    {
+      "id": "260159513-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Früher bestand ein Rugbyball aus vier gleich geformten Lederflächen, die aneinandergenäht wurden.",
+      "plain": null
+    },
+    {
+      "id": "260159513-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Moderne Bälle haben eine Gummioberfläche mit kleinen Noppen, welche die Rutschfestigkeit verbessern.",
+      "plain": null
+    },
+    {
+      "id": "260159513-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Rugbybälle gibt es in fünf Größen.",
+      "plain": null
+    },
+    {
+      "id": "260159513-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Größe&nbsp;5 ist dabei die größte, mit der üblicherweise im Erwachsenenrugby gespielt wird.",
+      "plain": null
+    },
+    {
+      "id": "260159513-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein solcher Ball hat eine Länge von 280 bis 300&nbsp;Millimeter, der Umfang an der Hauptachse beträgt 740 bis 770&nbsp;Millimeter, der Umfang an der Nebenachse 580 bis 620&nbsp;Millimeter bei einem Gewicht von 410 bis 460&nbsp;Gramm.<ref>{{Internetquelle |url=https://laws.worldrugby.org/ |titel=World Rugby Laws - World Rugby's Law Education Web Site |abruf=2020-11-26}}</ref>",
+      "plain": null
+    },
+    {
+      "id": "260159513-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Nach einem Beschluss des [[International Rugby Board]] soll im Frauenrugby mit Bällen der Größe&nbsp;4 gespielt werden, die auch bei Jugendspielen verwendet wird.",
+      "plain": null
+    },
+    {
+      "id": "260159513-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dies wird vielfach als Diskriminierung aufgefasst; viele Nationalverbände wie etwa der deutsche Frauen-Rugbyverband [[Deutsche Rugby-Frauen|DRF]] haben daher für sich beschlossen, weiterhin mit Bällen der Größe&nbsp;5 zu spielen.",
+      "plain": null
+    },
+    {
+      "id": "260159513-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "Auf internationalen Turnieren, die sich nach den offiziellen IRB-Regeln richten, muss jedoch mit Bällen der Größe&nbsp;4 gespielt werden.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 260159513,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "260159513-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "260159513-0000"
+        ],
+        "plain": "Er wird oft mit dem Football verwechselt, dieser ist jedoch an den Enden spitz, kleiner, ggf. auch leichter und hat neben der typischen braunen Farbe auch eine weiße Naht an der Seite.",
+        "context_plain": [
+          "Der Rugbyball ist der Spielball der Sportarten aus der Rugby-Familie mit rotationselliptischer Form."
+        ]
+      },
+      {
+        "segment_id": "260159513-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Früher bestand ein Rugbyball aus vier gleich geformten Lederflächen, die aneinandergenäht wurden.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "260159513-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Moderne Bälle haben eine Gummioberfläche mit kleinen Noppen, welche die Rutschfestigkeit verbessern.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "260159513-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "260159513-0004"
+        ],
+        "plain": "Größe 5 ist dabei die größte, mit der üblicherweise im Erwachsenenrugby gespielt wird.",
+        "context_plain": [
+          "Rugbybälle gibt es in fünf Größen."
+        ]
+      },
+      {
+        "segment_id": "260159513-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "260159513-0005"
+        ],
+        "plain": "Ein solcher Ball hat eine Länge von 280 bis 300 Millimeter, der Umfang an der Hauptachse beträgt 740 bis 770 Millimeter, der Umfang an der Nebenachse 580 bis 620 Millimeter bei einem Gewicht von 410 bis 460 Gramm.",
+        "context_plain": [
+          "Größe 5 ist dabei die größte, mit der üblicherweise im Erwachsenenrugby gespielt wird."
+        ]
+      },
+      {
+        "segment_id": "260159513-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Nach einem Beschluss des International Rugby Board soll im Frauenrugby mit Bällen der Größe 4 gespielt werden, die auch bei Jugendspielen verwendet wird.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "260159513-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "260159513-0007"
+        ],
+        "plain": "Dies wird vielfach als Diskriminierung aufgefasst; viele Nationalverbände wie etwa der deutsche Frauen-Rugbyverband DRF haben daher für sich beschlossen, weiterhin mit Bällen der Größe 5 zu spielen.",
+        "context_plain": [
+          "Nach einem Beschluss des International Rugby Board soll im Frauenrugby mit Bällen der Größe 4 gespielt werden, die auch bei Jugendspielen verwendet wird."
+        ]
+      },
+      {
+        "segment_id": "260159513-0009",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "260159513-0008"
+        ],
+        "plain": "Auf internationalen Turnieren, die sich nach den offiziellen IRB-Regeln richten, muss jedoch mit Bällen der Größe 4 gespielt werden.",
+        "context_plain": [
+          "Dies wird vielfach als Diskriminierung aufgefasst; viele Nationalverbände wie etwa der deutsche Frauen-Rugbyverband DRF haben daher für sich beschlossen, weiterhin mit Bällen der Größe 5 zu spielen."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

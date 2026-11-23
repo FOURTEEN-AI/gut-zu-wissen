@@ -1,0 +1,67 @@
+{
+  "title": "Mid-year Internationals 2022",
+  "revid": 266988512,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-05-11T21:56:52Z",
+  "fetched_at": "2026-11-23T12:47:56Z",
+  "categories": [
+    "Kategorie:Mid-year Internationals",
+    "Kategorie:Rugby 2022"
+  ],
+  "intro_wikitext": "Die '''[[Mid-year Internationals]] 2022''' (auch als ''Summer Internationals'' bezeichnet) waren eine vom 21.&nbsp;Mai bis zum 17.&nbsp;Juli 2022 stattfindende Serie von internationalen [[Rugby Union|Rugby-Union]]-Spielen zwischen Mannschaften der ersten, zweiten und dritten Stärkeklasse. Die Ergebnisse zählten jeweils für die [[World-Rugby-Weltrangliste]], sofern Nationalmannschaften in voller Stärke aufeinandertrafen. Jeweils dreimal gegeneinander spielten Australien und England, Neuseeland und Irland, Schottland und Argentinien sowie Südafrika und Wales.",
+  "segments": [
+    {
+      "id": "266988512-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''[[Mid-year Internationals]] 2022''' (auch als ''Summer Internationals'' bezeichnet) waren eine vom 21.&nbsp;Mai bis zum 17.&nbsp;Juli 2022 stattfindende Serie von internationalen [[Rugby Union|Rugby-Union]]-Spielen zwischen Mannschaften der ersten, zweiten und dritten Stärkeklasse.",
+      "plain": null
+    },
+    {
+      "id": "266988512-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Ergebnisse zählten jeweils für die [[World-Rugby-Weltrangliste]], sofern Nationalmannschaften in voller Stärke aufeinandertrafen.",
+      "plain": null
+    },
+    {
+      "id": "266988512-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Jeweils dreimal gegeneinander spielten Australien und England, Neuseeland und Irland, Schottland und Argentinien sowie Südafrika und Wales.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 266988512,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "266988512-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Mid-year Internationals 2022 (auch als Summer Internationals bezeichnet) waren eine vom 21. Mai bis zum 17. Juli 2022 stattfindende Serie von internationalen Rugby-Union-Spielen zwischen Mannschaften der ersten, zweiten und dritten Stärkeklasse.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "266988512-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "266988512-0000"
+        ],
+        "plain": "Die Ergebnisse zählten jeweils für die World-Rugby-Weltrangliste, sofern Nationalmannschaften in voller Stärke aufeinandertrafen.",
+        "context_plain": [
+          "Die Mid-year Internationals 2022 (auch als Summer Internationals bezeichnet) waren eine vom 21. Mai bis zum 17. Juli 2022 stattfindende Serie von internationalen Rugby-Union-Spielen zwischen Mannschaften der ersten, zweiten und dritten Stärkeklasse."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "266988512-0002",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}
