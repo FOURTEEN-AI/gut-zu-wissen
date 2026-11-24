@@ -1,0 +1,1340 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Symbol Mo, Ordnungszahl 42, Herkunft von altgriechisch mólybdos „Blei“, Übergangsmetall, 5. Periode, 6. Nebengruppe sowie hart, zäh, stahlgrau, korrosionsbeständig, ungiftig, hoher Schmelzpunkt. „Heute geht es um Molybdän“ ist eine Überleitung ohne Faktenbehauptung. Es gibt keine Fragen und keine zusätzlichen Angaben; der Gegenstand ist eindeutig Molybdän."
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Felix greift das eben Gesagte auf (\"Der Name bedeutet also Blei\"), was durch den Fakt-Satz (mólybdos „Blei“) gedeckt ist. Die Frage \"Was hat es damit auf sich?\" ist eine reine Nachfrage bzw. Bitte um Erklärung und setzt keine bestimmte Einzelheit voraus. Es gibt keine unbelegte Behauptung."
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Alle drei Aussagen folgen aus den Fakt-Sätzen: Molybdän kommt hauptsächlich im Molybdänit vor (0002), Molybdänit wurde lange für ein Bleierz gehalten, und 1754 wurde es erstmals von Cronstedt und Qvist genauer untersucht (0015). „Dieses Mineral“ bezieht sich eindeutig auf Molybdänit. Die Antwort passt zur Frage nach der Bedeutung „Blei“, ohne eine zusätzliche Beziehung zu erfinden. Zusätzliche, nicht belegte Angaben gibt es nicht, und der Redebeitrag enthält keine Frage."
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.28
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Schmierstoff, das hätte ich nicht gedacht.“ ist eine Reaktion des Staunens und zugleich eine Aussage über sich selbst. „Wo kam das Mineral eigentlich her?“ ist eine Nachfrage nach Neuem und nimmt keine Einzelheit vorweg, die erst die Antwort liefern würde. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage (\"Woher kam diese Sprödigkeit?\") und bittet um Erklärung des eben von Lena Gesagten. Die Sprödigkeit wurde im vorherigen Beitrag genannt, die Frage setzt also nichts Neues als Tatsache voraus und enthält keine vorweggenommene Einzelheit, Wertung oder Vermutung. Sie ist belegfrei, daher ist keine weitere Stützung durch den Fakt-Satz nötig."
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine offene Nachfrage bzw. Überleitungsfrage („Gab es in dieser Zeit noch weitere Entwicklungen?“). Sie enthält keine Behauptung und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Sie ist daher belegfrei, und fehlende Fakt-IDs sind unproblematisch."
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Felix stellt nur eine Nachfrage bzw. Bitte um Erklärung zum eben genannten Molybdän im Stahl. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg; dass Molybdän im Stahl etwas bewirkt, ist eine allgemeine Voraussetzung, die sich aus dem Gespräch über molybdänhaltigen Stahl ergibt. Der Redebeitrag enthält keine Behauptung und ist belegfrei."
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.8
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage bzw. Überleitungsfrage zum Thema Molybdän. Er setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg. Damit ist er belegfrei und braucht keine Fakt-IDs."
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage bzw. Überleitungsfrage ohne Fakt-IDs. Sie fragt nach etwas Neuem (Zweiter Weltkrieg), nimmt aber keine bestimmte Einzelheit, Wertung oder Vermutung vorweg und stellt keine Tatsache als gegeben hin. Damit ist sie belegfrei und enthält keine Behauptung."
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine neue Sachbehauptung. „Der Schmelzpunkt wurde vorhin schon erwähnt“ greift nur das Gespräch auf, und der Fakt nennt Molybdän als Metall mit hohem Schmelzpunkt. Die Frage „Wie hoch liegt er genau?“ ist eine Nachfrage und nimmt keine Zahl oder Einzelheit vorweg. Der Gegenstand ist eindeutig Molybdän, das Thema des vorherigen Redebeitrags und des Artikels."
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.91,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: 2622 ± 4 °C, die Reihenfolge Kohlenstoff, Wolfram, Rhenium, Osmium, Tantal und die Aussage über einen der höchsten Schmelzpunkte. „Es“ im Fakt-Satz meint Molybdän, das Thema des Artikels, und Lena nennt es ausdrücklich. Das passt auch zur Frage nach dem Schmelzpunkt. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Felix stellt eine reine Nachfrage zum eben Gesagten. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg und setzt nur voraus, dass es dazu etwas zu antworten gibt. Der Redebeitrag enthält keine Behauptung und ist damit belegfrei zulässig."
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage zu Molybdän bei tiefen Temperaturen. Er enthält keine Behauptung und keine Prämisse, die erst die Antwort liefern würde. Dass Molybdän sich bei tiefen Temperaturen irgendwie verhält, ist trivial; die Frage nimmt keine Einzelheit vorweg. Damit ist er belegfrei und braucht keine Fakt-IDs."
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion (\"Spannend.\") und einer Nachfrage nach neuen Informationen (\"Wie reagiert das Metall auf Säuren?\"). Die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine Einzelheit, Wertung oder Vermutung vorweg. \"Das Metall\" bezieht sich eindeutig auf Molybdän aus dem vorherigen Beitrag. Es gibt keine Behauptung, die Fakt-IDs bräuchte."
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage („Gibt es Säuren, die es trotzdem angreifen?“) im Anschluss an Lenas Aussage. Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Damit ist sie belegfrei, und es steht keine unbelegte Behauptung darin."
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine Nachfrage bzw. Überleitungsfrage („Gibt es Gefahren im Umgang mit dem Metall?“). Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Das gilt als belegfrei, daher sind keine Fakt-Sätze nötig."
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Fakt-IDs, aber auch keine Behauptung. „Kommen wir zur Förderung“ ist eine Überleitung, „Wo liegen die größten Vorkommen?“ eine Nachfrage. Die Frage setzt nur voraus, dass es zu Vorkommen etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Damit ist der Beitrag belegfrei und zulässig."
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 41,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ('Gibt es noch weitere große Lagerstätten?'), die an die vorherige Aussage anknüpft und nur voraussetzt, dass es dazu etwas zu erzählen gibt. Sie enthält keine Behauptung und keine konkrete Prämisse, daher sind keine Fakt-Sätze nötig."
+    },
+    {
+      "turn_index": 42,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 43,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Sie enthält keine Behauptung und keine Prämisse, die erst die Antwort liefert: Dass Molybdän weltweit irgendwo abgebaut wird, hat Lena bereits gesagt. Die Frage fragt nur nach einer neuen Information und ist daher belegfrei."
+    },
+    {
+      "turn_index": 44,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 45,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage (\"Wird Molybdän auch wiederverwertet?\") und enthält keine Behauptung. Die Frage setzt keine bestimmte Einzelheit, Wertung oder Vermutung voraus, die erst die Antwort liefern würde, sondern fragt nur nach etwas Neuem. Sie ist damit belegfrei, und Fakt-IDs sind nicht nötig."
+    },
+    {
+      "turn_index": 46,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 47,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 48,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 49,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage nach der aktuellen Politik, die an das zuvor genannte Metall Molybdän anknüpft. Er enthält keine Behauptung und keine bestimmte Einzelheit, Wertung oder Vermutung als Prämisse, sondern setzt nur voraus, dass es etwas zu erzählen gibt. Das ist belegfrei und braucht keine Fakt-IDs."
+    },
+    {
+      "turn_index": 50,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 51,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine Nachfrage bzw. Überleitungsfrage („Taucht Molybdän auch in der Medizin auf?“). Sie setzt nur voraus, dass es zum Thema etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg. Der Gegenstand Molybdän stammt aus dem vorherigen Beitrag. Der Beitrag enthält keine Behauptungen, daher sind keine Fakten nötig."
+    },
+    {
+      "turn_index": 52,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 53,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 54,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.95,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 55,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage nach den Isotopen des Molybdäns. Molybdän wurde im vorherigen Beitrag genannt. Die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Sie enthält keine Behauptung und ist daher belegfrei."
+    },
+    {
+      "turn_index": 56,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 57,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine Nachfrage bzw. Überleitungsfrage zum Thema Molybdän-99, das Lena zuvor genannt hat. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, etwa dass die Versorgung knapp oder problematisch sei. Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt, und ist daher belegfrei."
+    },
+    {
+      "turn_index": 58,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 59,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.74
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Frage ohne Fakt-IDs. Sie fragt offen, ob alle natürlichen Isotope stabil sind, und enthält keine Behauptung und keine Prämisse, die erst die Antwort liefern würde. Damit ist sie als Nachfrage oder Überleitung belegfrei."
+    },
+    {
+      "turn_index": 60,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: 100Mo ist als einziges natürliches Isotop nicht stabil, und wegen der sehr langen Halbwertszeit von 7,07 · 10^18 Jahren ist es noch fast vollständig vorhanden. Zahlen stimmen überein, nichts Zusätzliches wird behauptet. Der Gegenstand ist eindeutig (Molybdän, Artikelthema), und der Redebeitrag beantwortet Felix' Frage zu natürlichen Isotopen passend. Eine Frage mit Prämisse enthält der Beitrag nicht."
+    },
+    {
+      "turn_index": 61,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Felix stellt nur eine offene Nachfrage- bzw. Überleitungsfrage („Brauchen eigentlich auch Lebewesen Molybdän?“). Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg und setzt nichts als Tatsache voraus, das nicht gesagt wurde. Eine solche Frage ist belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 62,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 63,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 64,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 65,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 1.0,
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "„Molybdän zählt ja zu den Übergangsmetallen“ folgt direkt aus dem Fakt-Satz (Artikel Molybdän). „Wow, das ist spannend!“ ist eine Reaktion. „Wie ordnet es sich unter ihnen ein?“ ist eine offene Nachfrage ohne vorweggenommene Einzelheit. Der Gegenstand „es“ ist durch den vorherigen Satz eindeutig Molybdän."
+    },
+    {
+      "turn_index": 66,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 67,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.66
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine Nachfrage. Sie setzt nur voraus, dass Molybdän in Enzymen als Molybdän-Cofaktor vorkommt. Das deckt der Fakt ab: Es kommt vor allem als Molybdän-Cofaktor in Enzymen wie Aldehydoxidase und Sulfitoxidase vor. Die Frage nimmt keine neue Einzelheit, Wertung oder Vermutung vorweg, und der Gegenstand Molybdän ist eindeutig."
+    },
+    {
+      "turn_index": 68,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: Die Nitrogenase ist das einzige bekannte molybdänhaltige Enzym mit einem anderen Cofaktor als Moco, und einige Bakterien wie Azotobacter oder Rhizobium reduzieren damit elementaren Stickstoff zu Ammoniak. Der Gegenstand (Molybdän, Moco) passt zur vorherigen Frage, es gibt keine zusätzlichen Angaben und keine Fragen oder Prämissen, die unbelegt wären."
+    },
+    {
+      "turn_index": 69,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Sie fragt nach der Entdeckung der biologischen Bedeutung, ohne eine bestimmte Einzelheit, Wertung oder Vermutung vorwegzunehmen. Die Formulierung „diese biologische Bedeutung“ bezieht sich auf das eben von Lena Gesagte. Die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt, und ist damit belegfrei."
+    },
+    {
+      "turn_index": 70,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 71,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 72,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 73,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 74,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 75,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus Nachfragen (\"Und wie ist das beim Menschen?\", \"Woher bekommt der Körper Molybdän?\"). Sie greifen das Thema Molybdän aus dem vorherigen Beitrag auf und nehmen keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt. Das ist belegfrei und braucht keine Fakt-Sätze."
+    },
+    {
+      "turn_index": 76,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 77,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage („Kann es trotzdem zu einem Mangel kommen?“) und knüpft an Lenas Aussage zur Molybdänversorgung an. Sie enthält keine Behauptung und keine Prämisse mit bestimmter Einzelheit, Wertung oder Vermutung. Ohne Fakt-IDs ist das zulässig, weil die Frage belegfrei ist."
+    },
+    {
+      "turn_index": 78,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 79,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 80,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 81,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Alles klar, danke für die Erklärung\" ist eine Reaktion, und \"Was versteht man unter einer Tachykardie?\" ist eine Nachfrage bzw. Überleitungsfrage, die nur um Erklärung bittet und keine Einzelheit, Wertung oder Vermutung vorwegnimmt. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 82,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 83,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine Nachfrage bzw. Überleitungsfrage nach der Bedeutung von Nachtblindheit. Er enthält keine Behauptung und keine Prämisse, die erst die Antwort liefern würde, und braucht daher keine Fakt-Sätze."
+    },
+    {
+      "turn_index": 84,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 85,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.26
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung: „Okay, Nachtblindheit habe ich verstanden“ ist eine Aussage über das eigene Verständnis und ein Wiederaufgreifen des eben Gesagten ohne neue Information. „Was genau bedeutet Koma?“ ist eine Bitte um Erklärung ohne vorweggenommene Einzelheit oder Wertung. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 86,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 87,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.78
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Überleitungsfrage ohne Fakt-IDs. Sie fragt offen, ob es Erkrankungen im Zusammenhang mit Molybdän gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Damit ist sie belegfrei und enthält keine Behauptung."
+    },
+    {
+      "turn_index": 88,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 89,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage (\"Kann man auch zu viel Molybdän aufnehmen?\"). Sie enthält keine Behauptung und keine Prämisse, die erst die Antwort liefern würde, und nimmt weder eine Einzelheit noch eine Wertung vorweg. Sie ist deshalb belegfrei, auch ohne Fakt-IDs."
+    },
+    {
+      "turn_index": 90,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 91,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 92,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 93,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 94,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 95,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung, sondern nur eine Reaktion („Das war eine Menge.“) und eine Überleitungsfrage („Was nehmen wir mit?“). Die Frage setzt keine bestimmte Einzelheit oder Wertung voraus. Belegfrei ist das zulässig, auch ohne Fakt-IDs."
+    },
+    {
+      "turn_index": 96,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "aussage_2": 0.99,
+        "aussage_3": 0.99,
+        "aussage_4": 0.99,
+        "aussage_5": 0.99,
+        "aussage_6": 0.98,
+        "vollstaendig": 0.75
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Übergangsmetall und Ordnungszahl 42 (0000), Name von altgriechisch „Blei“ (0000), Molybdänit lange für Bleierz gehalten (0015), verbessert Stahleigenschaften wie Härte (0009), einer der höchsten Schmelzpunkte (0114), für fast alle Organismen essentiell (0012), nur ein bekannter Mangelfall bei langer vollständiger parenteraler Ernährung (0216). Der Gegenstand ist überall Molybdän, das Thema des Artikels. Der Redebeitrag enthält keine Fragen und keine zusätzlichen unbelegten Angaben."
+    }
+  ],
+  "used_fact_ids": [
+    "272430297-0000",
+    "272430297-0001",
+    "272430297-0002",
+    "272430297-0015",
+    "272430297-0030",
+    "272100674-0026",
+    "272430297-0027",
+    "272430297-0037",
+    "272430297-0033",
+    "272430297-0120",
+    "272430297-0036",
+    "272430297-0035",
+    "272430297-0009",
+    "272430297-0038",
+    "272430297-0039",
+    "272430297-0018",
+    "272430297-0114",
+    "271990945-0002",
+    "272430297-0126",
+    "272430297-0132",
+    "272430297-0133",
+    "272430297-0233",
+    "272430297-0292",
+    "272430297-0003",
+    "272430297-0072",
+    "272430297-0078",
+    "272430297-0103",
+    "272430297-0111",
+    "272430297-0112",
+    "272430297-0181",
+    "272430297-0182",
+    "272430297-0141",
+    "272430297-0145",
+    "272430297-0139",
+    "272430297-0012",
+    "272430297-0013",
+    "272430297-0197",
+    "272430297-0196",
+    "272430297-0208",
+    "272430297-0045",
+    "272430297-0046",
+    "272430297-0227",
+    "272430297-0014",
+    "272430297-0216",
+    "265817461-0002",
+    "264812843-0008",
+    "271927628-0004",
+    "271554703-0003",
+    "272430297-0217",
+    "272430297-0222",
+    "272430297-0235",
+    "272430297-0220"
+  ],
+  "cascade_checks": [
+    {
+      "conversation": 1,
+      "turn_index": 6,
+      "p": 0.56,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die vorherige Fassung sagt, dass die erste technische Verwendung von Molybdänit als Schmierstoff \"in dieser Zeit\" begann. Die neue Fassung lässt diese zeitliche Einordnung weg. Sie nennt nur die Verwendung als Schmierstoff und die Ersterwähnung 1764. Damit fehlt die Aussage zum Beginn in dieser Zeit."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 66,
+      "p": 0.99,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 2,
+      "turn_index": 82,
+      "p": 0.86,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung ist wortgleich mit der vorherigen. Alle Aussagen und Zahlen (über 100 Schläge pro Minute bei Erwachsenen, ausgeprägte Tachykardie ab 150 Schlägen pro Minute) sind unverändert enthalten."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 84,
+      "p": 0.7,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung nennt dieselbe Aussage: Nachtblindheit ist die Einschränkung der Sehfähigkeit bei Dämmerlicht. Es ist nur die Formulierung geändert (\"ist\" statt \"wird bezeichnet als\"), inhaltlich fehlt nichts und es kommt nichts hinzu."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 86,
+      "p": 0.87,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung ist wörtlich identisch mit der vorherigen und enthält dieselbe Aussage: Koma als tiefe Bewusstlosigkeit und schwerste Form der Bewusstseinsstörung, bei der Patienten auch durch starke Reize wie wiederholte Schmerzreize nicht zu wecken sind."
+    }
+  ],
+  "conversation": 2,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 5,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 5,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Die Frage „Wofür hat man Molybdänit damals praktisch genutzt?“ setzt als Tatsache voraus, dass Molybdänit damals praktisch genutzt wurde. Das wurde im vorherigen Redebeitrag nicht gesagt. Es ist keine bloße Nachfrage, sondern eine Prämisse, und ohne Fakt-IDs ist sie nicht belegt. „Das ist ja kurios.“ ist dagegen eine belegfreie Reaktion."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 6,
+      "version": 0,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 6,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 65,
+      "version": 0,
+      "replaced_by": 2,
+      "judgement": {
+        "turn_index": 65,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272430297-0012 wurde schon in Redebeitrag 62 und 63 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 66,
+      "version": 0,
+      "replaced_by": 3,
+      "judgement": {
+        "turn_index": 66,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 66,
+      "version": 1,
+      "replaced_by": 4,
+      "judgement": {
+        "turn_index": 66,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.9,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": "Der Fakt-Satz sagt \"eine derartige biochemische Relevanz\", also nur mit Bezugswort auf eine zuvor beschriebene Relevanz, die im Fakt nicht genannt wird. Lena lässt \"derartige\" weg und behauptet allgemein \"eine biochemische Relevanz\". Dadurch wird die Aussage verallgemeinert: Zuhörer verstehen sie als einzige biochemische Relevanz überhaupt unter den Übergangsmetallen der fünften Periode, während der Fakt nur eine bestimmte, im Kontext erklärte Art meint. Das ist durch den Fakt-Satz allein nicht belegt."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 81,
+      "version": 0,
+      "replaced_by": 5,
+      "judgement": {
+        "turn_index": 81,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272430297-0216 wurde schon in Redebeitrag 78 und 79 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 81,
+      "version": 1,
+      "replaced_by": 6,
+      "judgement": {
+        "turn_index": 81,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272430297-0216 wurde schon in Redebeitrag 78 und 79 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 82,
+      "version": 0,
+      "replaced_by": 7,
+      "judgement": {
+        "turn_index": 82,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 83,
+      "version": 0,
+      "replaced_by": 8,
+      "judgement": {
+        "turn_index": 83,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272430297-0216 wurde schon in Redebeitrag 78, 79 und 81 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 84,
+      "version": 0,
+      "replaced_by": 9,
+      "judgement": {
+        "turn_index": 84,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 85,
+      "version": 0,
+      "replaced_by": 10,
+      "judgement": {
+        "turn_index": 85,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272430297-0216 wurde schon in Redebeitrag 78, 79, 81 und 83 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 86,
+      "version": 0,
+      "replaced_by": 11,
+      "judgement": {
+        "turn_index": 86,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    }
+  ]
+}

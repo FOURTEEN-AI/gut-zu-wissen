@@ -1,0 +1,109 @@
+{
+  "title": "Kamtschatka",
+  "revid": 262296735,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-12-10T14:47:15Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Geographie (Region Kamtschatka)",
+    "Kategorie:Halbinsel (Asien)",
+    "Kategorie:Halbinsel (Pazifischer Ozean)",
+    "Kategorie:Halbinsel (Russland)",
+    "Kategorie:Namensgeber für ein Mineral"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|erläutert die Halbinsel Kamtschatka, zu anderen Bedeutungen siehe [[Kamtschatka (Begriffsklärung)]].}}\n{{Infobox Halbinsel\n|NAME=Kamtschatka\n|BILD1=Location Kamchatka Peninsula.PNG\n|BILD1-TEXT=Lage der Halbinsel Kamtschatka\n|BILD2=kamchatka peninsula topo.jpg\n|BILD2-TEXT=Topographie von Kamtschatka\n|GEWAESSER= [[Beringmeer]], [[Pazifischer Ozean]]\n|GEWAESSER2=[[Ochotskisches Meer]]\n|BREITENGRAD=57\n|LAENGENGRAD=160\n|REGION-ISO=RU-KAM\n|KARTE=\n|POSKARTE=Russland\n|LAENGE=1200\n|BREITE=450\n|FLAECHE=275000\n}}\n\n[[Datei:Krasheninnikov volcanoe.jpg|mini|[[Krascheninnikow (Vulkan)|Vulkan Krascheninnikow]]]]\n\n'''Kamtschatka''' ({{ruS|Камчатка}}) ist eine [[Halbinsel]] in [[Nordostasien]]. Sie gehört zur [[Region Kamtschatka]] im [[Ferner Osten (Föderationskreis)|Föderationskreis Ferner Osten]] der [[Russland|Russischen Föderation]].\n\nSeit 1987/88 ist die Halbinsel Namensgeber für das dort erstmals entdeckte Mineral [[Kamchatkit]]. 1996 wurde die Vulkanregion von Kamtschatka, die größtenteils als [[Naturpark]] ausgewiesen ist, von der [[UNESCO]] zum [[UNESCO-Welterbe|Weltnaturerbe]] erklärt.",
+  "segments": [
+    {
+      "id": "262296735-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Halbinsel | GEWAESSER= [[Beringmeer]], [[Pazifischer Ozean]]",
+      "plain": "Infobox Halbinsel – Geographische Lage – Gewässer 1: Beringmeer, Pazifischer Ozean"
+    },
+    {
+      "id": "262296735-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Halbinsel | GEWAESSER2=[[Ochotskisches Meer]]",
+      "plain": "Infobox Halbinsel – Geographische Lage – Gewässer 2: Ochotskisches Meer"
+    },
+    {
+      "id": "262296735-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Halbinsel | LAENGE=1200",
+      "plain": "Infobox Halbinsel – Geographische Lage – Länge: 1 200 km"
+    },
+    {
+      "id": "262296735-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Halbinsel | BREITE=450",
+      "plain": "Infobox Halbinsel – Geographische Lage – Breite: 450 km"
+    },
+    {
+      "id": "262296735-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Halbinsel | FLAECHE=275000",
+      "plain": "Infobox Halbinsel – Geographische Lage – Fläche: 275.000 km²"
+    },
+    {
+      "id": "262296735-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Kamtschatka''' ({{ruS|Камчатка}}) ist eine [[Halbinsel]] in [[Nordostasien]].",
+      "plain": null
+    },
+    {
+      "id": "262296735-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie gehört zur [[Region Kamtschatka]] im [[Ferner Osten (Föderationskreis)|Föderationskreis Ferner Osten]] der [[Russland|Russischen Föderation]].",
+      "plain": null
+    },
+    {
+      "id": "262296735-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Seit 1987/88 ist die Halbinsel Namensgeber für das dort erstmals entdeckte Mineral [[Kamchatkit]].",
+      "plain": null
+    },
+    {
+      "id": "262296735-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "1996 wurde die Vulkanregion von Kamtschatka, die größtenteils als [[Naturpark]] ausgewiesen ist, von der [[UNESCO]] zum [[UNESCO-Welterbe|Weltnaturerbe]] erklärt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 262296735,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "262296735-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "262296735-0005",
+          "262296735-0006"
+        ],
+        "plain": "Seit 1987/88 ist die Halbinsel Namensgeber für das dort erstmals entdeckte Mineral Kamchatkit.",
+        "context_plain": [
+          "Kamtschatka (russisch Камчатка) ist eine Halbinsel in Nordostasien.",
+          "Sie gehört zur Region Kamtschatka im Föderationskreis Ferner Osten der Russischen Föderation."
+        ]
+      },
+      {
+        "segment_id": "262296735-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "1996 wurde die Vulkanregion von Kamtschatka, die größtenteils als Naturpark ausgewiesen ist, von der UNESCO zum Weltnaturerbe erklärt.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

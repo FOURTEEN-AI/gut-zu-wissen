@@ -1,0 +1,294 @@
+{
+  "title": "Mond",
+  "revid": 269637884,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-08-14T06:30:03Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Mond",
+    "Kategorie:Mond des Sonnensystems",
+    "Kategorie:Wikipedia:Artikel mit Video",
+    "Kategorie:Wikipedia:Exzellent",
+    "Kategorie:Wikipedia:Lückenhaft",
+    "Kategorie:Wikipedia:Veraltet in über fünf Jahren"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|befasst sich mit dem Erdmond. Zu weiteren Bedeutungen siehe [[Mond (Begriffsklärung)]].}}\n{{Lückenhaft|Wie lang ist ein Mondtag bzw. die Tageslänge auf dem Mond (von [[Mondtag]] wird hierher verwiesen)|In diesem Artikel}}\n{{Infobox Mond\n| Name = Mond [[Datei:Moon decrescent symbol (bold).svg|20px|☾]]\n| SysName = \n| Bild = [[Datei:Full Moon Luc Viatour.jpg|250px|Der Mond von der Erde aus gesehen]]\n| Bildtext = Der Mond, von der Erde aus fotografiert\n| Zentrum = [[Erde]]\n| Halbachse = 384.400\n| Exzentrizitaet = 0,0549\n| Periapsis = 363.300\n| Apoapsis = 405.500\n| Bahnneigung = (zur [[Ekliptik]]) 5,145\n| Umlaufzeit = 27,3217\n| Umlaufgeschwindigkeit = 1,022\n| ref-o = <ref name=\"moonfact\">{{Internetquelle |werk=NASA.gov |autor=David R. Williams |url=https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html |sprache=en |titel=Moon Fact Sheet |datum=2020-01-13 |abruf=2020-05-16}}</ref>\n| Visuelle_Helligkeit = −12,74 (Vollmond)\n| Albedo = 0,12\n| Durchmesser = 3474\n| Masse = 7,346 · 10<sup>22</sup>\n| Oberflaeche = [[Liste von Größenordnungen der Fläche#10 Millionen km² bis 100 Millionen km²|37.932.330]]\n| Dichte = 3,344\n| Rotation = 27,322 Tage\n| Achsneigung = 6,68\n| A_Fallen = 1,62\n| V_Flucht = 2380\n| Temperatur = 95 [[Kelvin|K]] bis 390\n| ref-p = <ref name=\"moonfact\" />\n| Vergleichbild = [[Datei:Moon Earth Comparison.png|250px|Größenvergleich]]\n| Vergleichtext = Größenvergleich zwischen<br />[[Erde]] (ø&nbsp;=&nbsp;12.756&nbsp;km) und<br />Mond (ø&nbsp;=&nbsp;3476&nbsp;km)<br />(Fotomontage mit maßstabsgerechten Größen; tatsächlich beträgt der mittlere Abstand 30 Erddurchmesser)\n}}\n\nDer '''Mond''' ([[Mittelhochdeutsche Sprache|mittelhochdeutsch]] ''mâne;''<ref>[[Brüder Grimm|Grimm]]: ''[[Deutsches Wörterbuch]],'' als [https://woerterbuchnetz.de/?sigle=DWB#1 DWB] digital verfügbar, ''Eintrag unter'' [https://woerterbuchnetz.de/?sigle=DWB&sigle=DWB&lemid=GM06838&hitlist=&patternlist=&mode=Gliederung#0 MOND].</ref> {{laS|luna}}) ist zurzeit der einzige bekannte [[Mond des Sonnensystems|natürliche Satellit]] der [[Erde]]. Weil die Trabanten aller [[Planet]]en generell als Monde bezeichnet werden, spricht man zur Vermeidung von Verwechslungen mitunter vom '''Erdmond'''.\n\nDer Mond ist mit einem Durchmesser von etwa 3475&nbsp;km der fünftgrößte [[Liste der Monde von Planeten und Zwergplaneten|bekannte Mond des Sonnensystems]]. Im Verhältnis zu seinem Zentralkörper (über ein Viertel des [[Erdradius|Erddurchmessers]]) ist er sogar der größte der acht großen Planeten, nur übertroffen vom Verhältnis [[Charon (Mond)|Charon]] zu [[Pluto]] (51 %). Das [[Erde-Mond-System]] gilt nicht nur deshalb als besonders, sondern auch wegen der [[Entstehung des Mondes]] durch die Kollision der Protoerde mit einem anderen, etwa marsgroßen [[Protoplanet]]en ([[Theia (Protoplanet)|Theia]]). Von den mehr als 400 bekannten [[Mond des Sonnensystems|Monden des Sonnensystems]], die Planeten umkreisen, ist er vermutlich der einzige, der durch eine solche Großkollision entstanden ist.\n\nDer Mond umkreist die Erde in einem mittleren Abstand von nur rund 384.400 Kilometern (etwa 30 Erddurchmesser). Aufgrund seiner Nähe ist er der am besten erforschte fremde [[Himmelskörper]], und auch der bisher einzige, den Menschen betreten haben (zwölf US-Amerikaner zwischen 1969 und 1972).",
+  "segments": [
+    {
+      "id": "269637884-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | Zentrum = [[Erde]]",
+      "plain": "Infobox Mond – Zentralkörper: Erde"
+    },
+    {
+      "id": "269637884-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | Halbachse = 384.400",
+      "plain": "Infobox Mond – Eigenschaften des Orbits – Große Halbachse: 384.400 km"
+    },
+    {
+      "id": "269637884-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | Exzentrizitaet = 0,0549",
+      "plain": "Infobox Mond – Eigenschaften des Orbits – Exzentrizität: 0,0549"
+    },
+    {
+      "id": "269637884-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | Periapsis = 363.300",
+      "plain": "Infobox Mond – Eigenschaften des Orbits – Periapsis: 363.300 km"
+    },
+    {
+      "id": "269637884-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | Apoapsis = 405.500",
+      "plain": "Infobox Mond – Eigenschaften des Orbits – Apoapsis: 405.500 km"
+    },
+    {
+      "id": "269637884-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | Bahnneigung = (zur [[Ekliptik]]) 5,145",
+      "plain": "Infobox Mond – Eigenschaften des Orbits – Bahnneigung zum Äquator des Zentralkörpers: (zur Ekliptik) 5,145°"
+    },
+    {
+      "id": "269637884-0006",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | Umlaufzeit = 27,3217",
+      "plain": "Infobox Mond – Eigenschaften des Orbits – Umlaufzeit: 27,3217 d"
+    },
+    {
+      "id": "269637884-0007",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | Umlaufgeschwindigkeit = 1,022",
+      "plain": "Infobox Mond – Eigenschaften des Orbits – Mittlere Orbitalgeschwindigkeit: 1,022 km/s"
+    },
+    {
+      "id": "269637884-0008",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | Albedo = 0,12",
+      "plain": "Infobox Mond – Physikalische Eigenschaften – Albedo: 0,12"
+    },
+    {
+      "id": "269637884-0009",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | Visuelle_Helligkeit = −12,74 (Vollmond)",
+      "plain": "Infobox Mond – Physikalische Eigenschaften – Scheinbare Helligkeit: −12,74 (Vollmond) mag"
+    },
+    {
+      "id": "269637884-0010",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | Durchmesser = 3474",
+      "plain": "Infobox Mond – Physikalische Eigenschaften – Mittlerer Durchmesser: 3474 km"
+    },
+    {
+      "id": "269637884-0011",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | Masse = 7,346 · 10<sup>22</sup>",
+      "plain": "Infobox Mond – Physikalische Eigenschaften – Masse: 7,346 · 1022 kg"
+    },
+    {
+      "id": "269637884-0012",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | Oberflaeche = [[Liste von Größenordnungen der Fläche#10 Millionen km² bis 100 Millionen km²|37.932.330]]",
+      "plain": "Infobox Mond – Physikalische Eigenschaften – Oberfläche: 37.932.330 km²"
+    },
+    {
+      "id": "269637884-0013",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | Dichte = 3,344",
+      "plain": "Infobox Mond – Physikalische Eigenschaften – Mittlere Dichte: 3,344 g/cm³"
+    },
+    {
+      "id": "269637884-0014",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | Rotation = 27,322 Tage",
+      "plain": "Infobox Mond – Physikalische Eigenschaften – Siderische Rotation: 27,322 Tage"
+    },
+    {
+      "id": "269637884-0015",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | Achsneigung = 6,68",
+      "plain": "Infobox Mond – Physikalische Eigenschaften – Achsneigung: 6,68°"
+    },
+    {
+      "id": "269637884-0016",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | A_Fallen = 1,62",
+      "plain": "Infobox Mond – Physikalische Eigenschaften – Fallbeschleunigung an der Oberfläche: 1,62 m/s²"
+    },
+    {
+      "id": "269637884-0017",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | V_Flucht = 2380",
+      "plain": "Infobox Mond – Physikalische Eigenschaften – Fluchtgeschwindigkeit: 2380 m/s"
+    },
+    {
+      "id": "269637884-0018",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mond | Temperatur = 95 [[Kelvin|K]] bis 390",
+      "plain": "Infobox Mond – Physikalische Eigenschaften – Oberflächentemperatur: 95 K bis 390 K"
+    },
+    {
+      "id": "269637884-0019",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der '''Mond''' ([[Mittelhochdeutsche Sprache|mittelhochdeutsch]] ''mâne;''<ref>[[Brüder Grimm|Grimm]]: ''[[Deutsches Wörterbuch]],'' als [https://woerterbuchnetz.de/?sigle=DWB#1 DWB] digital verfügbar, ''Eintrag unter'' [https://woerterbuchnetz.de/?sigle=DWB&sigle=DWB&lemid=GM06838&hitlist=&patternlist=&mode=Gliederung#0 MOND].</ref> {{laS|luna}}) ist zurzeit der einzige bekannte [[Mond des Sonnensystems|natürliche Satellit]] der [[Erde]].",
+      "plain": null
+    },
+    {
+      "id": "269637884-0020",
+      "type": "sentence",
+      "section": "",
+      "raw": "Weil die Trabanten aller [[Planet]]en generell als Monde bezeichnet werden, spricht man zur Vermeidung von Verwechslungen mitunter vom '''Erdmond'''.",
+      "plain": null
+    },
+    {
+      "id": "269637884-0021",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Mond ist mit einem Durchmesser von etwa 3475&nbsp;km der fünftgrößte [[Liste der Monde von Planeten und Zwergplaneten|bekannte Mond des Sonnensystems]].",
+      "plain": null
+    },
+    {
+      "id": "269637884-0022",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Verhältnis zu seinem Zentralkörper (über ein Viertel des [[Erdradius|Erddurchmessers]]) ist er sogar der größte der acht großen Planeten, nur übertroffen vom Verhältnis [[Charon (Mond)|Charon]] zu [[Pluto]] (51 %).",
+      "plain": null
+    },
+    {
+      "id": "269637884-0023",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das [[Erde-Mond-System]] gilt nicht nur deshalb als besonders, sondern auch wegen der [[Entstehung des Mondes]] durch die Kollision der Protoerde mit einem anderen, etwa marsgroßen [[Protoplanet]]en ([[Theia (Protoplanet)|Theia]]).",
+      "plain": null
+    },
+    {
+      "id": "269637884-0024",
+      "type": "sentence",
+      "section": "",
+      "raw": "Von den mehr als 400 bekannten [[Mond des Sonnensystems|Monden des Sonnensystems]], die Planeten umkreisen, ist er vermutlich der einzige, der durch eine solche Großkollision entstanden ist.",
+      "plain": null
+    },
+    {
+      "id": "269637884-0025",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Mond umkreist die Erde in einem mittleren Abstand von nur rund 384.400 Kilometern (etwa 30 Erddurchmesser).",
+      "plain": null
+    },
+    {
+      "id": "269637884-0026",
+      "type": "sentence",
+      "section": "",
+      "raw": "Aufgrund seiner Nähe ist er der am besten erforschte fremde [[Himmelskörper]], und auch der bisher einzige, den Menschen betreten haben (zwölf US-Amerikaner zwischen 1969 und 1972).",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269637884,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269637884-0009",
+        "type": "infobox_row",
+        "section": "",
+        "context_ids": [],
+        "plain": "Infobox Mond – Physikalische Eigenschaften – Scheinbare Helligkeit: −12,74 (Vollmond) mag",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269637884-0018",
+        "type": "infobox_row",
+        "section": "",
+        "context_ids": [],
+        "plain": "Infobox Mond – Physikalische Eigenschaften – Oberflächentemperatur: 95 K bis 390 K",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269637884-0019",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Mond (mittelhochdeutsch mâne; lateinisch luna) ist zurzeit der einzige bekannte natürliche Satellit der Erde.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269637884-0021",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Mond ist mit einem Durchmesser von etwa 3475 km der fünftgrößte bekannte Mond des Sonnensystems.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269637884-0022",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269637884-0021"
+        ],
+        "plain": "Im Verhältnis zu seinem Zentralkörper (über ein Viertel des Erddurchmessers) ist er sogar der größte der acht großen Planeten, nur übertroffen vom Verhältnis Charon zu Pluto (51 %).",
+        "context_plain": [
+          "Der Mond ist mit einem Durchmesser von etwa 3475 km der fünftgrößte bekannte Mond des Sonnensystems."
+        ]
+      },
+      {
+        "segment_id": "269637884-0023",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Erde-Mond-System gilt nicht nur deshalb als besonders, sondern auch wegen der Entstehung des Mondes durch die Kollision der Protoerde mit einem anderen, etwa marsgroßen Protoplaneten (Theia).",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269637884-0024",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269637884-0023"
+        ],
+        "plain": "Von den mehr als 400 bekannten Monden des Sonnensystems, die Planeten umkreisen, ist er vermutlich der einzige, der durch eine solche Großkollision entstanden ist.",
+        "context_plain": [
+          "Das Erde-Mond-System gilt nicht nur deshalb als besonders, sondern auch wegen der Entstehung des Mondes durch die Kollision der Protoerde mit einem anderen, etwa marsgroßen Protoplaneten (Theia)."
+        ]
+      },
+      {
+        "segment_id": "269637884-0025",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Mond umkreist die Erde in einem mittleren Abstand von nur rund 384.400 Kilometern (etwa 30 Erddurchmesser).",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269637884-0026",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Aufgrund seiner Nähe ist er der am besten erforschte fremde Himmelskörper, und auch der bisher einzige, den Menschen betreten haben (zwölf US-Amerikaner zwischen 1969 und 1972).",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

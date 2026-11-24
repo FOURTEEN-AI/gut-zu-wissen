@@ -1,0 +1,73 @@
+{
+  "title": "Parenterale Ernährung",
+  "revid": 265817461,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-04-02T12:46:15Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Invasives Therapieverfahren",
+    "Kategorie:Künstliche Ernährung",
+    "Kategorie:Therapeutisches Verfahren in der Intensivmedizin",
+    "Kategorie:Therapeutisches Verfahren in der Tiermedizin",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2024-04"
+  ],
+  "intro_wikitext": "[[Datei:Tpn 3bag.jpg|alternativtext=Ein Bild von einem medizinischen Infusionsbeutel in einer Plastikverpackung. Der Beutel hat drei Kammern, die voneinander getrennt sind. Die linke Kammer ist mit einer undurchsichtigen, die anderen beiden mit klarer Flüssigkeit gefüllt. Auf dem Beutel befindet sich ein Etikett mit Angabe der Inhaltsstoffe.|mini|Dreikammerbeutel für die parenterale Ernährung. [[Lipide]], [[Aminosäuren]] und [[Glucose]] sind für die Lagerung in drei Kammern getrennt und werden vor der Verabreichung durchmischt.]]\n\n'''Parenterale Ernährung''' ('''PE''') versorgt einen Patienten mit Flüssigkeit und einzelnen Nährstoffen über das Blutgefäßsystem durch [[Infusion]]en. Bei dieser Form der [[Künstliche Ernährung|künstlichen Ernährung]] wird der [[Verdauungstrakt]] komplett umgangen ([[Griechische Sprache|griechisch]] παρά, para = neben; ἔντερον, enteron = Inneres, Gedärm). Bei der '''Totalen Parenteralen Ernährung''' ('''TPE''') werden sämtliche Nährstoffe intravenös verabreicht, dagegen ergänzt eine '''supplementierende parenterale Ernährung''' ('''SPE''') eine unzureichende orale oder enterale Ernährung.<ref>{{Webarchiv|url=https://www.awmf.org/fileadmin/user_upload/Leitlinien/073_D_Ges_fuer_Ernaehrungsmedizin/073-Terminologie_S3_Klinische_Ern%C3%A4hrung_2013-08.pdf |wayback=20180517031144 |text=L. Valentini, D. Volkert, T. Schütz, J. Ockenga, M. Pirlich, W. Druml, K. Schindler, P. E. Ballmer, S. C. Bischoff,A. Weimann, H. Lochs: ''Leitlinie der Deutschen Gesellschaft für Ernährungsmedizin (DGEM) – DGEM-Terminologie in der Klinischen Ernährung.'' 2013; S. 105 und 109 |archiv-bot=2024-04-11 14:12:55 InternetArchiveBot }}; abgerufen am 4. Januar 2019</ref>",
+  "segments": [
+    {
+      "id": "265817461-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Parenterale Ernährung''' ('''PE''') versorgt einen Patienten mit Flüssigkeit und einzelnen Nährstoffen über das Blutgefäßsystem durch [[Infusion]]en.",
+      "plain": null
+    },
+    {
+      "id": "265817461-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bei dieser Form der [[Künstliche Ernährung|künstlichen Ernährung]] wird der [[Verdauungstrakt]] komplett umgangen ([[Griechische Sprache|griechisch]] παρά, para = neben; ἔντερον, enteron = Inneres, Gedärm).",
+      "plain": null
+    },
+    {
+      "id": "265817461-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bei der '''Totalen Parenteralen Ernährung''' ('''TPE''') werden sämtliche Nährstoffe intravenös verabreicht, dagegen ergänzt eine '''supplementierende parenterale Ernährung''' ('''SPE''') eine unzureichende orale oder enterale Ernährung.<ref>{{Webarchiv|url=https://www.awmf.org/fileadmin/user_upload/Leitlinien/073_D_Ges_fuer_Ernaehrungsmedizin/073-Terminologie_S3_Klinische_Ern%C3%A4hrung_2013-08.pdf |wayback=20180517031144 |text=L. Valentini, D. Volkert, T. Schütz, J. Ockenga, M. Pirlich, W. Druml, K. Schindler, P. E. Ballmer, S. C. Bischoff,A. Weimann, H. Lochs: ''Leitlinie der Deutschen Gesellschaft für Ernährungsmedizin (DGEM) – DGEM-Terminologie in der Klinischen Ernährung.'' 2013; S. 105 und 109 |archiv-bot=2024-04-11 14:12:55 InternetArchiveBot }}; abgerufen am 4. Januar 2019</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 265817461,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "265817461-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Parenterale Ernährung (PE) versorgt einen Patienten mit Flüssigkeit und einzelnen Nährstoffen über das Blutgefäßsystem durch Infusionen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "265817461-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "265817461-0000"
+        ],
+        "plain": "Bei dieser Form der künstlichen Ernährung wird der Verdauungstrakt komplett umgangen (griechisch παρά, para = neben; ἔντερον, enteron = Inneres, Gedärm).",
+        "context_plain": [
+          "Parenterale Ernährung (PE) versorgt einen Patienten mit Flüssigkeit und einzelnen Nährstoffen über das Blutgefäßsystem durch Infusionen."
+        ]
+      },
+      {
+        "segment_id": "265817461-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Bei der Totalen Parenteralen Ernährung (TPE) werden sämtliche Nährstoffe intravenös verabreicht, dagegen ergänzt eine supplementierende parenterale Ernährung (SPE) eine unzureichende orale oder enterale Ernährung.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

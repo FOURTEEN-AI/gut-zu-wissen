@@ -1,0 +1,71 @@
+{
+  "title": "Mare Crisium",
+  "revid": 272164569,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-14T20:21:01Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Literarischer Schauplatz",
+    "Kategorie:Mare",
+    "Kategorie:Wikipedia:Weblink offline",
+    "Kategorie:Wikipedia:Weblink offline fix-attempted"
+  ],
+  "intro_wikitext": "{{Infobox Mondstruktur\n|FeatureId=3671\n|Typ=Mare\n|Name=Mare Crisium\n|Bild=Mare Crisium - Clementine.jpg\n|Bildtext=Mare Crisium\n|Breitengrad=17.0\n|Längengrad=59.1\n|Durchmesser=555.92\n|LCA=44\n|BenanntNach=Sea of Crises.\n|BenanntJahr=1935\n}}\n[[Datei:Location of Mare Crisium.jpg|mini|Lage des Mare Crisium]]\n[[Datei:MapOfTheMoonByThomasElger PartShowingMareCrisium.jpg|mini|Ausschnitt aus [[Thomas Gwyn Elger]]s Mondkarte rund um das Mare Crisium (aus teleskopischen Gründen spiegelverkehrt)]]\nDas '''Mare Crisium''' (lateinisch für „Meer der Entscheidungen“, auf Deutsch auch oft „Meer der Gefahren“ genannt) ist ein [[Mare (Mond)|Mare]] des [[Mond|Erdmondes]] im Crisium-Becken, nordöstlich des [[Mare Tranquillitatis]].\n\nEs befindet sich weit im Osten der Vollmondscheibe bei den [[Selenografie|selenographischen]] Koordinaten 17°&nbsp;00′&nbsp;N, 59°&nbsp;06′&nbsp;E. Sein mittlerer Durchmesser beträgt 418 km.",
+  "segments": [
+    {
+      "id": "272164569-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mondstruktur | Durchmesser=555.92",
+      "plain": "Infobox Mondstruktur – Durchmesser: 556 km"
+    },
+    {
+      "id": "272164569-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mondstruktur | BenanntNach=Sea of Crises.",
+      "plain": "Infobox Mondstruktur – Benannt nach: Sea of Crises."
+    },
+    {
+      "id": "272164569-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das '''Mare Crisium''' (lateinisch für „Meer der Entscheidungen“, auf Deutsch auch oft „Meer der Gefahren“ genannt) ist ein [[Mare (Mond)|Mare]] des [[Mond|Erdmondes]] im Crisium-Becken, nordöstlich des [[Mare Tranquillitatis]].",
+      "plain": null
+    },
+    {
+      "id": "272164569-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es befindet sich weit im Osten der Vollmondscheibe bei den [[Selenografie|selenographischen]] Koordinaten 17°&nbsp;00′&nbsp;N, 59°&nbsp;06′&nbsp;E. Sein mittlerer Durchmesser beträgt 418 km.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272164569,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272164569-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Mare Crisium (lateinisch für „Meer der Entscheidungen“, auf Deutsch auch oft „Meer der Gefahren“ genannt) ist ein Mare des Erdmondes im Crisium-Becken, nordöstlich des Mare Tranquillitatis.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272164569-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272164569-0002"
+        ],
+        "plain": "Es befindet sich weit im Osten der Vollmondscheibe bei den selenographischen Koordinaten 17° 00′ N, 59° 06′ E. Sein mittlerer Durchmesser beträgt 418 km.",
+        "context_plain": [
+          "Das Mare Crisium (lateinisch für „Meer der Entscheidungen“, auf Deutsch auch oft „Meer der Gefahren“ genannt) ist ein Mare des Erdmondes im Crisium-Becken, nordöstlich des Mare Tranquillitatis."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

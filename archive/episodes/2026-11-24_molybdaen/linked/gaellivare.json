@@ -1,0 +1,67 @@
+{
+  "title": "Gällivare",
+  "revid": 268799319,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-15T09:31:09Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Gemeinde Gällivare",
+    "Kategorie:Ort als Namensgeber für einen Asteroiden",
+    "Kategorie:Ort in Norrbottens län",
+    "Kategorie:Wikipedia:Seite mit Audioeinbettung"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|behandelt den schwedischen Ort Gällivare. Für die gleichnamige Gemeinde siehe [[Gällivare (Gemeinde)]].}}\n{{Infobox Ort in Schweden\n|Name = Gällivare\n|SCB-Code = 2523TC101 \n|Wappen = Gällivare kommunvapen.svg\n|Landskap = Lappland\n|lat_deg = 67 | lat_min = 08 | lat_sec = 0\n|lon_deg = 20 | lon_min = 39 | lon_sec = 37\n|Höhe =\n|Postleitzahl = 982 01 – 982 99\n}}\n\n'''Gällivare''' {{IPA|ˈjɛlivɑːrə|Tondatei=LL-Q9027 (swe)-Moonhouse-Gällivare.wav}} ([[nordsamisch]]: ''Jiellevárri'' oder ''Váhčir'', [[Lulesamische Sprache|lulesamisch]]: ''Jiellevárre'' oder ''Váhtjer'', [[meänkieli]]: ''Jellivaara'', [[Finnische Sprache|finnisch]]: ''Jällivaara'') ist ein Ort ''([[tätort]])'' in der [[Schweden|nordschwedischen]] Provinz [[Norrbottens län]] und der historischen Provinz [[Lappland (historische Provinz)|Lappland]]. Der Hauptort der [[Gällivare (Gemeinde)|Gemeinde Gällivare]] liegt 70 Kilometer nördlich des [[Polarkreis]]es.",
+  "segments": [
+    {
+      "id": "268799319-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Ort in Schweden | Landskap = Lappland",
+      "plain": "Infobox Ort in Schweden – Historische Provinz (landskap): Lappland"
+    },
+    {
+      "id": "268799319-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Ort in Schweden | Postleitzahl = 982 01 – 982 99",
+      "plain": "Infobox Ort in Schweden – Postleitzahl: 982 01 – 982 99"
+    },
+    {
+      "id": "268799319-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Gällivare''' {{IPA|ˈjɛlivɑːrə|Tondatei=LL-Q9027 (swe)-Moonhouse-Gällivare.wav}} ([[nordsamisch]]: ''Jiellevárri'' oder ''Váhčir'', [[Lulesamische Sprache|lulesamisch]]: ''Jiellevárre'' oder ''Váhtjer'', [[meänkieli]]: ''Jellivaara'', [[Finnische Sprache|finnisch]]: ''Jällivaara'') ist ein Ort ''([[tätort]])'' in der [[Schweden|nordschwedischen]] Provinz [[Norrbottens län]] und der historischen Provinz [[Lappland (historische Provinz)|Lappland]].",
+      "plain": null
+    },
+    {
+      "id": "268799319-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Hauptort der [[Gällivare (Gemeinde)|Gemeinde Gällivare]] liegt 70 Kilometer nördlich des [[Polarkreis]]es.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268799319,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268799319-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Gällivare [ˈjɛlivɑːrə] ⓘ (nordsamisch: Jiellevárri oder Váhčir, lulesamisch: Jiellevárre oder Váhtjer, meänkieli: Jellivaara, finnisch: Jällivaara) ist ein Ort (tätort) in der nordschwedischen Provinz Norrbottens län und der historischen Provinz Lappland.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268799319-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Hauptort der Gemeinde Gällivare liegt 70 Kilometer nördlich des Polarkreises.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

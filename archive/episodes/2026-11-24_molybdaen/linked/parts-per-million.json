@@ -1,0 +1,114 @@
+{
+  "title": "Parts per million",
+  "revid": 268470464,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-03T12:17:36Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Anteilseinheit"
+  ],
+  "intro_wikitext": "{{Infobox Hilfsmaßeinheit\n|Name             = Parts per million\n|Einheitenzeichen = <math>\\mathrm{ppm}</math>\n|Formelzeichen    = \n|Typ              = Q\n|Definition       = <math>\\mathrm{1\\,ppm = 1\\,\\cdot 10^{-6} = 0{,}000\\,001}</math>\n|BenanntNach      = {{enS|parts per million}}, „Anteile pro Million“\n|SieheAuch        = [[Prozent]], [[Promille]], [[Parts per billion|ppb]], [[Myriade#Pro-Zehntausend-Zeichen|Pro-Zehntausend]]\n}}\n\nEine Angabe '''Parts per million''' steht für einen Faktor 10<sup>−6</sup> oder für ein Millionstel. Die Abkürzung '''ppm''' wird wie eine [[Hilfsmaßeinheit]] verwendet,− vergleichbar mit dem [[Prozent]] (%) für den Faktor 10<sup>−2</sup> und dem [[Promille]] (‰) für den Faktor 10<sup>−3</sup>.\n\nWegen verschiedener Möglichkeiten der Ausdeutung, was mit den Ausdrücken ppm, ppb und ppt gemeint sein soll, wird allerdings vom Gebrauch dieser Ausdrücke abgeraten.<ref name=\"Irene Mueller-Harvey, Richard M. Baker\">{{Literatur |Autor=Irene Mueller-Harvey, Richard M. Baker |Titel=Chemical Analysis in the Laboratory A Basic Guide |Verlag=Royal Society of Chemistry |Datum=2002 |ISBN=0-85404-646-1 |Seiten=41 |Online={{Google Buch |BuchID=AUrkNljVKzoC |Seite=41}}}}</ref>\n\nEin ppm ist ''ein Promille von einem Promille''.",
+  "segments": [
+    {
+      "id": "268470464-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Hilfsmaßeinheit | Name             = Parts per million",
+      "plain": "Infobox Hilfsmaßeinheit – Einheitenname: Parts per million"
+    },
+    {
+      "id": "268470464-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Hilfsmaßeinheit | Einheitenzeichen = <math>\\mathrm{ppm}</math>",
+      "plain": "Infobox Hilfsmaßeinheit – Einheitenzeichen: ppm"
+    },
+    {
+      "id": "268470464-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Hilfsmaßeinheit | Typ              = Q",
+      "plain": "Infobox Hilfsmaßeinheit – Typ: Quotient"
+    },
+    {
+      "id": "268470464-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Hilfsmaßeinheit | Definition       = <math>\\mathrm{1\\,ppm = 1\\,\\cdot 10^{-6} = 0{,}000\\,001}</math>",
+      "plain": "Infobox Hilfsmaßeinheit – Definition: 1ppm=1⋅10−6=0,000001"
+    },
+    {
+      "id": "268470464-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Hilfsmaßeinheit | BenanntNach      = {{enS|parts per million}}, „Anteile pro Million“",
+      "plain": "Infobox Hilfsmaßeinheit – Benannt nach: englisch parts per million, „Anteile pro Million“"
+    },
+    {
+      "id": "268470464-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Hilfsmaßeinheit | SieheAuch        = [[Prozent]], [[Promille]], [[Parts per billion|ppb]], [[Myriade#Pro-Zehntausend-Zeichen|Pro-Zehntausend]]",
+      "plain": "Infobox Hilfsmaßeinheit – Siehe auch: Prozent, Promille, ppb, Pro-Zehntausend"
+    },
+    {
+      "id": "268470464-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Eine Angabe '''Parts per million''' steht für einen Faktor 10<sup>−6</sup> oder für ein Millionstel.",
+      "plain": null
+    },
+    {
+      "id": "268470464-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Abkürzung '''ppm''' wird wie eine [[Hilfsmaßeinheit]] verwendet,− vergleichbar mit dem [[Prozent]] (%) für den Faktor 10<sup>−2</sup> und dem [[Promille]] (‰) für den Faktor 10<sup>−3</sup>.",
+      "plain": null
+    },
+    {
+      "id": "268470464-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Wegen verschiedener Möglichkeiten der Ausdeutung, was mit den Ausdrücken ppm, ppb und ppt gemeint sein soll, wird allerdings vom Gebrauch dieser Ausdrücke abgeraten.<ref name=\"Irene Mueller-Harvey, Richard M. Baker\">{{Literatur |Autor=Irene Mueller-Harvey, Richard M. Baker |Titel=Chemical Analysis in the Laboratory A Basic Guide |Verlag=Royal Society of Chemistry |Datum=2002 |ISBN=0-85404-646-1 |Seiten=41 |Online={{Google Buch |BuchID=AUrkNljVKzoC |Seite=41}}}}</ref>",
+      "plain": null
+    },
+    {
+      "id": "268470464-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein ppm ist ''ein Promille von einem Promille''.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268470464,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268470464-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Eine Angabe Parts per million steht für einen Faktor 10−6 oder für ein Millionstel.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268470464-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Wegen verschiedener Möglichkeiten der Ausdeutung, was mit den Ausdrücken ppm, ppb und ppt gemeint sein soll, wird allerdings vom Gebrauch dieser Ausdrücke abgeraten.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268470464-0009",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Ein ppm ist ein Promille von einem Promille.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

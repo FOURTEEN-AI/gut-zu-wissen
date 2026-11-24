@@ -1,0 +1,82 @@
+{
+  "title": "Babrujsk",
+  "revid": 265492675,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-03-21T21:51:55Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Babrujsk",
+    "Kategorie:Ersterwähnung 1387",
+    "Kategorie:Holocaust in Belarus",
+    "Kategorie:Massengrab in Belarus",
+    "Kategorie:Ort in der Mahiljouskaja Woblasz",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2023-03"
+  ],
+  "intro_wikitext": "{{Weiterleitungshinweis|Bobruisk|Für die gleichnamige Erzählung von Dieter Bänsch, siehe [[Bobruisk (Erzählung)]].}}\n{{Infobox Ort in Belarus\n|Name                 = Babrujsk\n|NameRussischLatein   = Bobruisk [[Datei:Babrujsk Montage.jpg|300px]]\n|NameWeißrussisch     = Бабруйск\n|NameRussisch         = Бобруйск\n|Wappen               = Coat of Arms of Babruisk, Belarus.svg\n|Flagge               = Flag of Babruisk, Belarus.svg\n|Woblasz              = Mahiljou\n|Gegründet            = \n|Breitengrad          = 53/09/00/N\n|Längengrad           = 29/13/00/E\n|Höhe                 = \n|Einwohner            = 220823\n|EinwohnerStand       = 2004\n|Metropolregion       = \n|Fläche               = 66\n|Telefonvorwahl       = 0225\n|Postleitzahl         = BY - 213819\n|Kfz-Kennzeichen      = 6\n|Gemeindeart          = \n|Gliederung           = \n|Bürgermeister        = \n|BürgermeisterStand   = \n|Partei               = \n|AnschriftStraße      = \n|AnschriftOrt         = \n|Webpräsenz           = www.bobruisk.by\n|Karte                = \n|Kartenbreite         = \n|Beschriftung         = \n}}\n\n'''Babrujsk''' bzw. '''Bobruisk''' ({{beS|Бабруйск|/ Babrujsk}}; {{ruS|Бобруйск|/ Bobruisk}}; {{plS|Bobrujsk}}) ist eine Stadt in [[Belarus]] an der [[Bjaresina]] mit 220.823 Einwohnern (Stand: 1. Januar 2004) in der [[Mahiljouskaja Woblasz]].",
+  "segments": [
+    {
+      "id": "265492675-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Ort in Belarus | Woblasz              = Mahiljou",
+      "plain": "Infobox Ort in Belarus – (belarus.) / (russisch) – Woblasz: Mahiljou"
+    },
+    {
+      "id": "265492675-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Ort in Belarus | EinwohnerStand       = 2004",
+      "plain": "Infobox Ort in Belarus – (belarus.) / (russisch) – Einwohner: 220.823 (2004)"
+    },
+    {
+      "id": "265492675-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Ort in Belarus | Telefonvorwahl       = 0225",
+      "plain": "Infobox Ort in Belarus – (belarus.) / (russisch) – Telefonvorwahl: (+375) 0225"
+    },
+    {
+      "id": "265492675-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Ort in Belarus | Postleitzahl         = BY - 213819",
+      "plain": "Infobox Ort in Belarus – (belarus.) / (russisch) – Postleitzahl: BY - 213819"
+    },
+    {
+      "id": "265492675-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Ort in Belarus | Kfz-Kennzeichen      = 6",
+      "plain": "Infobox Ort in Belarus – (belarus.) / (russisch) – Kfz-Kennzeichen: 6"
+    },
+    {
+      "id": "265492675-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Ort in Belarus | Webpräsenz           = www.bobruisk.by",
+      "plain": "Infobox Ort in Belarus – (belarus.) / (russisch) – Webpräsenz: www.bobruisk.by"
+    },
+    {
+      "id": "265492675-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Babrujsk''' bzw. '''Bobruisk''' ({{beS|Бабруйск|/ Babrujsk}}; {{ruS|Бобруйск|/ Bobruisk}}; {{plS|Bobrujsk}}) ist eine Stadt in [[Belarus]] an der [[Bjaresina]] mit 220.823 Einwohnern (Stand: 1. Januar 2004) in der [[Mahiljouskaja Woblasz]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 265492675,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "265492675-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Babrujsk bzw. Bobruisk (belarussisch Бабруйск / Babrujsk; russisch Бобруйск / Bobruisk; polnisch Bobrujsk) ist eine Stadt in Belarus an der Bjaresina mit 220.823 Einwohnern (Stand: 1. Januar 2004) in der Mahiljouskaja Woblasz.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

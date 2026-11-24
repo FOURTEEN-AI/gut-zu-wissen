@@ -1,0 +1,81 @@
+{
+  "title": "Erdkern",
+  "revid": 270779106,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-25T08:18:33Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Geologie",
+    "Kategorie:Geophysik"
+  ],
+  "intro_wikitext": "{{Zeitleiste Erdaufbau}}\nDer '''Erdkern''' ist das [[metall]]ische Innere der [[Erde]]. Obwohl der Kern mit einem Durchmesser von 6942&nbsp;km nur ein Sechstel des Volumens der ganzen Erde ausmacht, trägt er aufgrund seiner hohen [[Dichte]] rund ein Drittel zu ihrer Masse bei. Auswertungen von [[Seismische Welle|Erdbebenwellen]] ergaben, dass der Erdkern aus einem flüssigen '''äußeren Kern''' und einem festen '''inneren Kern''' besteht.<ref name=\"peetfl_1\" /> Im äußeren Kern entsteht das [[Erdmagnetfeld]].\n\nDer Erdkern ist vollständig vom [[Erdmantel]] umgeben.",
+  "segments": [
+    {
+      "id": "270779106-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der '''Erdkern''' ist das [[metall]]ische Innere der [[Erde]].",
+      "plain": null
+    },
+    {
+      "id": "270779106-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Obwohl der Kern mit einem Durchmesser von 6942&nbsp;km nur ein Sechstel des Volumens der ganzen Erde ausmacht, trägt er aufgrund seiner hohen [[Dichte]] rund ein Drittel zu ihrer Masse bei.",
+      "plain": null
+    },
+    {
+      "id": "270779106-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Auswertungen von [[Seismische Welle|Erdbebenwellen]] ergaben, dass der Erdkern aus einem flüssigen '''äußeren Kern''' und einem festen '''inneren Kern''' besteht.<ref name=\"peetfl_1\" />",
+      "plain": null
+    },
+    {
+      "id": "270779106-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im äußeren Kern entsteht das [[Erdmagnetfeld]].",
+      "plain": null
+    },
+    {
+      "id": "270779106-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Erdkern ist vollständig vom [[Erdmantel]] umgeben.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270779106,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270779106-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270779106-0000"
+        ],
+        "plain": "Obwohl der Kern mit einem Durchmesser von 6942 km nur ein Sechstel des Volumens der ganzen Erde ausmacht, trägt er aufgrund seiner hohen Dichte rund ein Drittel zu ihrer Masse bei.",
+        "context_plain": [
+          "Der Erdkern ist das metallische Innere der Erde."
+        ]
+      },
+      {
+        "segment_id": "270779106-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Auswertungen von Erdbebenwellen ergaben, dass der Erdkern aus einem flüssigen äußeren Kern und einem festen inneren Kern besteht.",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "270779106-0003",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

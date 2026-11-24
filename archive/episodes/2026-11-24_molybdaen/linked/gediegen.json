@@ -1,0 +1,116 @@
+{
+  "title": "Gediegen",
+  "revid": 272326101,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-20T15:46:58Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Erzbergbau",
+    "Kategorie:Mineralogie"
+  ],
+  "intro_wikitext": "{{DISPLAYTITLE:gediegen}}\n[[Datei:Gold-221313.jpg|mini|Gediegen(es) Gold]]\nAls '''gediegen''' bezeichnet man in der [[Mineralogie]] das Vorkommen von reinen [[Chemisches Element|chemischen Elementen]] in der Natur. Die bekanntesten Beispiele sind die [[Edelmetalle]] [[Gold]], [[Silber]] und die [[Platinmetalle]] sowie das [[Edelmetalle#Halbedelmetalle|Halbedelmetall]] [[Kupfer]].\n\nAuch viele Nichtmetalle wie [[Kohlenstoff]], [[Schwefel]], [[Sauerstoff]], [[Stickstoff]] sowie die [[Edelgase]] treten in der Natur in elementarer Form auf. Selbst das reaktionsfreudigste Element [[Fluor]] kann kurzfristig elementar auftreten, wenn es beim Anschlagen von ''[[Fluorit#Stinkspat (Antozonit)|Stinkspat]]'' austritt.\n\nGebräuchlich ist das [[Adjektiv]] ''gediegen'' jedoch vorwiegend bei [[Metall]]en. Traditionell wird es vor allem in der Mineralogie häufiger [[Deklination (Grammatik)|undekliniert]] verwendet, das heißt in der Form „gediegen Gold“,<ref name=\"Rösler\" /> „gediegen Silber“<ref name=\"extraLapis\" /> und andere<ref name=\"Werner\" /> statt ''gediegenes Gold''.<ref name=\"DWDS\" />",
+  "segments": [
+    {
+      "id": "272326101-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als '''gediegen''' bezeichnet man in der [[Mineralogie]] das Vorkommen von reinen [[Chemisches Element|chemischen Elementen]] in der Natur.",
+      "plain": null
+    },
+    {
+      "id": "272326101-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die bekanntesten Beispiele sind die [[Edelmetalle]] [[Gold]], [[Silber]] und die [[Platinmetalle]] sowie das [[Edelmetalle#Halbedelmetalle|Halbedelmetall]] [[Kupfer]].",
+      "plain": null
+    },
+    {
+      "id": "272326101-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Auch viele Nichtmetalle wie [[Kohlenstoff]], [[Schwefel]], [[Sauerstoff]], [[Stickstoff]] sowie die [[Edelgase]] treten in der Natur in elementarer Form auf.",
+      "plain": null
+    },
+    {
+      "id": "272326101-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Selbst das reaktionsfreudigste Element [[Fluor]] kann kurzfristig elementar auftreten, wenn es beim Anschlagen von ''[[Fluorit#Stinkspat (Antozonit)|Stinkspat]]'' austritt.",
+      "plain": null
+    },
+    {
+      "id": "272326101-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Gebräuchlich ist das [[Adjektiv]] ''gediegen'' jedoch vorwiegend bei [[Metall]]en.",
+      "plain": null
+    },
+    {
+      "id": "272326101-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Traditionell wird es vor allem in der Mineralogie häufiger [[Deklination (Grammatik)|undekliniert]] verwendet, das heißt in der Form „gediegen Gold“,<ref name=\"Rösler\" /> „gediegen Silber“<ref name=\"extraLapis\" /> und andere<ref name=\"Werner\" /> statt ''gediegenes Gold''.<ref name=\"DWDS\" />",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272326101,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272326101-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Als gediegen bezeichnet man in der Mineralogie das Vorkommen von reinen chemischen Elementen in der Natur.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272326101-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die bekanntesten Beispiele sind die Edelmetalle Gold, Silber und die Platinmetalle sowie das Halbedelmetall Kupfer.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272326101-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Auch viele Nichtmetalle wie Kohlenstoff, Schwefel, Sauerstoff, Stickstoff sowie die Edelgase treten in der Natur in elementarer Form auf.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272326101-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272326101-0002"
+        ],
+        "plain": "Selbst das reaktionsfreudigste Element Fluor kann kurzfristig elementar auftreten, wenn es beim Anschlagen von Stinkspat austritt.",
+        "context_plain": [
+          "Auch viele Nichtmetalle wie Kohlenstoff, Schwefel, Sauerstoff, Stickstoff sowie die Edelgase treten in der Natur in elementarer Form auf."
+        ]
+      },
+      {
+        "segment_id": "272326101-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272326101-0004"
+        ],
+        "plain": "Traditionell wird es vor allem in der Mineralogie häufiger undekliniert verwendet, das heißt in der Form „gediegen Gold“, „gediegen Silber“ und andere statt gediegenes Gold.",
+        "context_plain": [
+          "Gebräuchlich ist das Adjektiv gediegen jedoch vorwiegend bei Metallen."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "272326101-0004",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

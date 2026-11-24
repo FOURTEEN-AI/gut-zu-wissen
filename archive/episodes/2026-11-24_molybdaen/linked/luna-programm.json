@@ -1,0 +1,146 @@
+{
+  "title": "Luna-Programm",
+  "revid": 269768414,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-08-18T13:39:06Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Luna-Programm",
+    "Kategorie:Mondsonde",
+    "Kategorie:Raumfahrtprogramm"
+  ],
+  "intro_wikitext": "Mit '''Luna 4''' bis '''Luna 24''' ({{ruS|Луна}}, {{laS}} und {{ruS}} für ''[[Mond]]'') werden sowjetische Mondsonden der zweiten Serie (1963 bis 1976) bezeichnet. Die Sonden der Vorgängerserie werden im Westen auch [[Lunik-Mission|Lunik 1 bis 3]] genannt. '''Luna 26''' bis '''Luna 29''' sind geplante oder vorgeschlagene Nachfolgemissionen.\n\nEinige fehlgeschlagene Luna-Missionen wurden (im Falle des Erreichens der Erdumlaufbahn) als  [[Satellit (Raumfahrt)|Satelliten]] bezeichnet und erhielten [[Sputnik]]- oder [[Kosmos (Satelliten)|Kosmos]]-Decknamen. Die Sonden, die nicht einmal die Erdumlaufbahn erreichten, erhielten keine offizielle Bezeichnung. Sie tragen daher von internationalen Experten vergebene Bezeichnungen wie z.&nbsp;B. Luna 1964A. Einige zur Erprobung von [[Landemanöver]]n vorgenommene Raumflüge fanden jedoch im [[Zond]]-Programm statt.",
+  "segments": [
+    {
+      "id": "269768414-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Mit '''Luna 4''' bis '''Luna 24''' ({{ruS|Луна}}, {{laS}} und {{ruS}} für ''[[Mond]]'') werden sowjetische Mondsonden der zweiten Serie (1963 bis 1976) bezeichnet.",
+      "plain": null
+    },
+    {
+      "id": "269768414-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Sonden der Vorgängerserie werden im Westen auch [[Lunik-Mission|Lunik 1 bis 3]] genannt.",
+      "plain": null
+    },
+    {
+      "id": "269768414-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Luna 26''' bis '''Luna 29''' sind geplante oder vorgeschlagene Nachfolgemissionen.",
+      "plain": null
+    },
+    {
+      "id": "269768414-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Einige fehlgeschlagene Luna-Missionen wurden (im Falle des Erreichens der Erdumlaufbahn) als  [[Satellit (Raumfahrt)|Satelliten]] bezeichnet und erhielten [[Sputnik]]- oder [[Kosmos (Satelliten)|Kosmos]]-Decknamen.",
+      "plain": null
+    },
+    {
+      "id": "269768414-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Sonden, die nicht einmal die Erdumlaufbahn erreichten, erhielten keine offizielle Bezeichnung.",
+      "plain": null
+    },
+    {
+      "id": "269768414-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie tragen daher von internationalen Experten vergebene Bezeichnungen wie z.&nbsp;B. Luna 1964A.",
+      "plain": null
+    },
+    {
+      "id": "269768414-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Einige zur Erprobung von [[Landemanöver]]n vorgenommene Raumflüge fanden jedoch im [[Zond]]-Programm statt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269768414,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269768414-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Mit Luna 4 bis Luna 24 (russisch Луна, lateinisch und russisch für Mond) werden sowjetische Mondsonden der zweiten Serie (1963 bis 1976) bezeichnet.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269768414-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269768414-0000"
+        ],
+        "plain": "Die Sonden der Vorgängerserie werden im Westen auch Lunik 1 bis 3 genannt.",
+        "context_plain": [
+          "Mit Luna 4 bis Luna 24 (russisch Луна, lateinisch und russisch für Mond) werden sowjetische Mondsonden der zweiten Serie (1963 bis 1976) bezeichnet."
+        ]
+      },
+      {
+        "segment_id": "269768414-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269768414-0002"
+        ],
+        "plain": "Einige fehlgeschlagene Luna-Missionen wurden (im Falle des Erreichens der Erdumlaufbahn) als Satelliten bezeichnet und erhielten Sputnik- oder Kosmos-Decknamen.",
+        "context_plain": [
+          "Luna 26 bis Luna 29 sind geplante oder vorgeschlagene Nachfolgemissionen."
+        ]
+      },
+      {
+        "segment_id": "269768414-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269768414-0003"
+        ],
+        "plain": "Die Sonden, die nicht einmal die Erdumlaufbahn erreichten, erhielten keine offizielle Bezeichnung.",
+        "context_plain": [
+          "Einige fehlgeschlagene Luna-Missionen wurden (im Falle des Erreichens der Erdumlaufbahn) als Satelliten bezeichnet und erhielten Sputnik- oder Kosmos-Decknamen."
+        ]
+      },
+      {
+        "segment_id": "269768414-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269768414-0004"
+        ],
+        "plain": "Sie tragen daher von internationalen Experten vergebene Bezeichnungen wie z. B. Luna 1964A.",
+        "context_plain": [
+          "Die Sonden, die nicht einmal die Erdumlaufbahn erreichten, erhielten keine offizielle Bezeichnung."
+        ]
+      },
+      {
+        "segment_id": "269768414-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269768414-0004",
+          "269768414-0005"
+        ],
+        "plain": "Einige zur Erprobung von Landemanövern vorgenommene Raumflüge fanden jedoch im Zond-Programm statt.",
+        "context_plain": [
+          "Die Sonden, die nicht einmal die Erdumlaufbahn erreichten, erhielten keine offizielle Bezeichnung.",
+          "Sie tragen daher von internationalen Experten vergebene Bezeichnungen wie z. B. Luna 1964A."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "269768414-0002",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

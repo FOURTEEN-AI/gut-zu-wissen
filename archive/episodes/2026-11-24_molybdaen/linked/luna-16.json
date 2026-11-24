@@ -1,0 +1,105 @@
+{
+  "title": "Luna 16",
+  "revid": 266705023,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-05-03T14:19:07Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Mondsonde",
+    "Kategorie:Raumfahrt (Sowjetunion)",
+    "Kategorie:Raumfahrtmission 1970"
+  ],
+  "intro_wikitext": "{{Infobox Sonde\n| Name = \n| Bild = Luna 16.jpg\n| Bildunterschrift = Modell von Luna 16\n| Missionsziel = Rückführung von Mondproben\n| Betreiber = {{SUN}}\n| Traegerrakete = [[Proton (Rakete)|Proton]]-K mit [[Blok-D]]\n| Startmasse = 5725 kg\n| Landemasse = 1880 kg\n| Startdatum = 12. September 1970 um 13:25 UTC\n| Startrampe = 81/23 ([[Kosmodrom Baikonur|Baikonur]])\n| Verlauf = {{ZL|Typ=Start|Datum=12.09.1970|Text=Start}}\n{{ZL|Typ=Marke|Datum=17.09.1970|Text=Eintritt in Mondorbit}}\n{{ZL|Typ=Marke|Datum=20.09.1970|Text=Landung auf Mondoberfläche}}\n{{ZL|Typ=Marke|Datum=21.09.1970|Text=Rückstart von Mondoberfläche}}\n{{ZL|Typ=Ende|Datum=24.09.1970|Text=Landung Probenkapsel in Kachastan}}\n}}\n\n'''Luna 16''' war eine sowjetische Mondsonde des [[Luna-Programm]]s und die erste erfolgreiche unbemannte [[Sample return mission|Probenrückführmission]] zu einem anderen Himmelskörper. Sie startete am 12. September 1970 und kehrte zwölf Tage später mit einer 101&nbsp;g schweren Probe zur Erde zurück.",
+  "segments": [
+    {
+      "id": "266705023-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Sonde | Missionsziel = Rückführung von Mondproben",
+      "plain": "Infobox Sonde – Missionsziel: Rückführung von Mondproben"
+    },
+    {
+      "id": "266705023-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Sonde | Betreiber = {{SUN}}",
+      "plain": "Infobox Sonde – Betreiber: Sowjetunion"
+    },
+    {
+      "id": "266705023-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Sonde | Traegerrakete = [[Proton (Rakete)|Proton]]-K mit [[Blok-D]]",
+      "plain": "Infobox Sonde – Trägerrakete: Proton-K mit Blok-D"
+    },
+    {
+      "id": "266705023-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Sonde | Startmasse = 5725 kg",
+      "plain": "Infobox Sonde – Aufbau – Startmasse: 5725 kg"
+    },
+    {
+      "id": "266705023-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Sonde | Landemasse = 1880 kg",
+      "plain": "Infobox Sonde – Aufbau – Landemasse: 1880 kg"
+    },
+    {
+      "id": "266705023-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Sonde | Startdatum = 12. September 1970 um 13:25 UTC",
+      "plain": "Infobox Sonde – Verlauf der Mission – Startdatum: 12. September 1970 um 13:25 UTC"
+    },
+    {
+      "id": "266705023-0006",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Sonde | Startrampe = 81/23 ([[Kosmodrom Baikonur|Baikonur]])",
+      "plain": "Infobox Sonde – Verlauf der Mission – Startrampe: 81/23 (Baikonur)"
+    },
+    {
+      "id": "266705023-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Luna 16''' war eine sowjetische Mondsonde des [[Luna-Programm]]s und die erste erfolgreiche unbemannte [[Sample return mission|Probenrückführmission]] zu einem anderen Himmelskörper.",
+      "plain": null
+    },
+    {
+      "id": "266705023-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie startete am 12. September 1970 und kehrte zwölf Tage später mit einer 101&nbsp;g schweren Probe zur Erde zurück.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 266705023,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "266705023-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Luna 16 war eine sowjetische Mondsonde des Luna-Programms und die erste erfolgreiche unbemannte Probenrückführmission zu einem anderen Himmelskörper.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "266705023-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "266705023-0007"
+        ],
+        "plain": "Sie startete am 12. September 1970 und kehrte zwölf Tage später mit einer 101 g schweren Probe zur Erde zurück.",
+        "context_plain": [
+          "Luna 16 war eine sowjetische Mondsonde des Luna-Programms und die erste erfolgreiche unbemannte Probenrückführmission zu einem anderen Himmelskörper."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

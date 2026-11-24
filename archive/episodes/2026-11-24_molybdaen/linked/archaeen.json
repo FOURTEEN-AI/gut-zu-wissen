@@ -1,0 +1,115 @@
+{
+  "title": "Archaeen",
+  "revid": 271656228,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-26T20:36:03Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Archaea",
+    "Kategorie:Archaeen"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe bitte [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name       = Archaeen\n| Taxon_WissName   = Archaea\n| Taxon_Rang       = Domäne\n| Taxon_Autor      = [[Otto Kandler]] & [[Mark L. Wheelis]]\n| Taxon2_Name      = Lebewesen\n| Taxon2_Rang      = Klassifikation\n| Bild             = Archaea.png<!--RT8-4.jpg-->\n| Bildbeschreibung = Die vielfältige [[Morphologie (Biologie)|Morphologie]] von Archaeen veranschaulichende Bildkomposition<!--Archaeon der [[Art (Biologie)|Spezies]] ''[[Sulfolobus]]<br />tengchongensis'' infiziert mit dem,<br />Sulfolobus-Virus STSV1, ''[[Bicaudaviridae]]''.<br />Maßstab = 1&nbsp;[[Meter#Mikrometer|μm]].-->\n| Subtaxa_Rang     = Superphylum\n| Subtaxa =\n}}\n\nDie '''Archaeen''' ('''Archaea''', Singular: '''Archaeon'''; von {{grcS|ἀρχαῖος|archaĩos|de=uralt}}, ‚ursprünglich‘),<ref>[https://www.merriam-webster.com/dictionary/archaea Merriam-Webster Online Dictionary]</ref> früher auch '''Archaebakterien''', '''Archebakterien''' oder '''Urbakterien''' genannt, bilden eine der drei [[Domäne (Biologie)|Domänen]], in die alle [[Zelle (Biologie)|zellulären]] [[Lebewesen]] eingeteilt werden. Die anderen beiden Domänen sind die [[Bakterien]] (Bacteria), die mit den Archaeen zu den [[Prokaryoten]] zusammengefasst werden, und die [[Eukaryoten]] (Eukaryota), die im Unterschied zu den Prokaryoten einen [[Zellkern]] mit [[Kernmembran]] besitzen. Archaeen hingegen haben (wie auch die Bakterien) in sich geschlossene [[Desoxyribonukleinsäure|DNA]]-Moleküle ([[Ringchromosom|zirkuläre Chromosomen]]<ref>{{Literatur |Autor=A.&nbsp;L. Hartman et al. |Titel=The Complete Genome Sequence of Haloferax volcanii DS2, a Model Archaeon |Sammelwerk=[[PLOS ONE]] |Band=5 |Nummer=3 |Datum=2010 |Seiten=e9605 |Sprache=en |PMC=2841640}}</ref>), die im Zellplasma als [[Kernäquivalent]] ohne Hülle vorliegen. Die Archaea sind einzellige Organismen.\n\nBislang sind keine Krankheitserreger aus der Gruppe der Archaeen bekannt.",
+  "segments": [
+    {
+      "id": "271656228-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_Name      = Lebewesen",
+      "plain": "Taxobox – Systematik – Klassifikation: Lebewesen"
+    },
+    {
+      "id": "271656228-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name       = Archaeen",
+      "plain": "Taxobox – Systematik – Domäne: Archaeen"
+    },
+    {
+      "id": "271656228-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Archaeen''' ('''Archaea''', Singular: '''Archaeon'''; von {{grcS|ἀρχαῖος|archaĩos|de=uralt}}, ‚ursprünglich‘),<ref>[https://www.merriam-webster.com/dictionary/archaea Merriam-Webster Online Dictionary]</ref> früher auch '''Archaebakterien''', '''Archebakterien''' oder '''Urbakterien''' genannt, bilden eine der drei [[Domäne (Biologie)|Domänen]], in die alle [[Zelle (Biologie)|zellulären]] [[Lebewesen]] eingeteilt werden.",
+      "plain": null
+    },
+    {
+      "id": "271656228-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die anderen beiden Domänen sind die [[Bakterien]] (Bacteria), die mit den Archaeen zu den [[Prokaryoten]] zusammengefasst werden, und die [[Eukaryoten]] (Eukaryota), die im Unterschied zu den Prokaryoten einen [[Zellkern]] mit [[Kernmembran]] besitzen.",
+      "plain": null
+    },
+    {
+      "id": "271656228-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Archaeen hingegen haben (wie auch die Bakterien) in sich geschlossene [[Desoxyribonukleinsäure|DNA]]-Moleküle ([[Ringchromosom|zirkuläre Chromosomen]]<ref>{{Literatur |Autor=A.&nbsp;L. Hartman et al. |Titel=The Complete Genome Sequence of Haloferax volcanii DS2, a Model Archaeon |Sammelwerk=[[PLOS ONE]] |Band=5 |Nummer=3 |Datum=2010 |Seiten=e9605 |Sprache=en |PMC=2841640}}</ref>), die im Zellplasma als [[Kernäquivalent]] ohne Hülle vorliegen.",
+      "plain": null
+    },
+    {
+      "id": "271656228-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Archaea sind einzellige Organismen.",
+      "plain": null
+    },
+    {
+      "id": "271656228-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bislang sind keine Krankheitserreger aus der Gruppe der Archaeen bekannt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271656228,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271656228-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Archaeen (Archaea, Singular: Archaeon; von altgriechisch ἀρχαῖος archaĩos, deutsch ‚uralt‘, ‚ursprünglich‘), früher auch Archaebakterien, Archebakterien oder Urbakterien genannt, bilden eine der drei Domänen, in die alle zellulären Lebewesen eingeteilt werden.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271656228-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271656228-0002"
+        ],
+        "plain": "Die anderen beiden Domänen sind die Bakterien (Bacteria), die mit den Archaeen zu den Prokaryoten zusammengefasst werden, und die Eukaryoten (Eukaryota), die im Unterschied zu den Prokaryoten einen Zellkern mit Kernmembran besitzen.",
+        "context_plain": [
+          "Die Archaeen (Archaea, Singular: Archaeon; von altgriechisch ἀρχαῖος archaĩos, deutsch ‚uralt‘, ‚ursprünglich‘), früher auch Archaebakterien, Archebakterien oder Urbakterien genannt, bilden eine der drei Domänen, in die alle zellulären Lebewesen eingeteilt werden."
+        ]
+      },
+      {
+        "segment_id": "271656228-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271656228-0003"
+        ],
+        "plain": "Archaeen hingegen haben (wie auch die Bakterien) in sich geschlossene DNA-Moleküle (zirkuläre Chromosomen), die im Zellplasma als Kernäquivalent ohne Hülle vorliegen.",
+        "context_plain": [
+          "Die anderen beiden Domänen sind die Bakterien (Bacteria), die mit den Archaeen zu den Prokaryoten zusammengefasst werden, und die Eukaryoten (Eukaryota), die im Unterschied zu den Prokaryoten einen Zellkern mit Kernmembran besitzen."
+        ]
+      },
+      {
+        "segment_id": "271656228-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Bislang sind keine Krankheitserreger aus der Gruppe der Archaeen bekannt.",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "271656228-0005",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

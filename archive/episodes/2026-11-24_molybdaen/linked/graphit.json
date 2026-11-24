@@ -1,0 +1,294 @@
+{
+  "title": "Graphit",
+  "revid": 272100674,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-12T14:02:27Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Elektrotechnischer Werkstoff",
+    "Kategorie:Elemente (Mineralklasse)",
+    "Kategorie:Grandfathered Mineral",
+    "Kategorie:Hexagonales Kristallsystem",
+    "Kategorie:Kohlenstoffmineral",
+    "Kategorie:Kohlenstoffmodifikation",
+    "Kategorie:MediaWiki:Gadget/annotationPair",
+    "Kategorie:Trockenschmierstoff"
+  ],
+  "intro_wikitext": "{{Infobox Mineral\n| Mineralname             = Graphit\n| Bild                    = Graphite (very pure) - Ceylon.jpg\n| Bildbeschreibung        = Sehr reiner Graphit aus dem ehemaligen ''Ceylon'', heute [[Sri Lanka]]\n| IMA-Nummer              = \n| IMA-Symbol              = Gr<ref name=\"Warr\" />\n| Andere_Namen            = \n* Grafit<ref name=\"canoonet\" /><ref name=\"Rat-für-Rechtschreibung\" />\n* [[Colour Index|C. I.]] Pigment Black 10\n| Ähnliche_Minerale       = [[Molybdänit]] (Molybdänglanz)\n<!-- Allgemeines und Klassifikation -->\n| Chemismus               = [[Kohlenstoff|C]]\n| Mineralklasse           = Elemente – Halbmetalle (Metalloide) und Nichtmetalle\n| Kurzform_Strunz_8       = I/B.02a\n| Kurzform_Lapis          = I/B.02-010<ref name=\"Lapis\" />\n| Kurzform_Strunz_9       = 1.CB.05a\n| Kurzform_Dana           = 01.03.06.02\n<!-- Kristallographie -->\n| Kristallsystem          = hexagonal\n| Kristallklasse          = {{Kristallklasse|6/m2/m2/m}}\n| Raumgruppe              = {{Raumgruppe|P63/mmc|kurz}}<ref name=\"StrunzNickel\" />\n| Raumgruppen-Nr          = \n| Gitterparameter_a       = 2,46\n| Gitterparameter_b       = \n| Gitterparameter_c       = 6,71\n| Gitterparameter_alpha   = \n| Gitterparameter_beta    = \n| Gitterparameter_gamma   = \n| Formeleinheiten         = \n| Ref_Gitterparameter     = <ref name=\"StrunzNickel\" />\n| häufige_Kristallflächen = {001}\n| Zwillingsbildung        = \n<!-- Physikalische Eigenschaften -->\n| Mohshärte               = 1 bis 2<ref name=\"Handbookofmineralogy\" />\n| Dichte                  = gemessen: 2,09 bis 2,23; berechnet 2,26<ref name=\"Handbookofmineralogy\" />\n| Spaltbarkeit            = vollkommen nach {0001}<ref name=\"Handbookofmineralogy\" /> (Schichtabstand 3,35 Å beim idealen Einkristall<ref name=\"HollemanWiberg\" />)\n| Bruch                   = [[glimmer]]artig;<ref name=\"Mindat\" /> biegsam, aber nicht elastisch; schneidbar (sektil)<ref name=\"Handbookofmineralogy\" />\n| Farbe                   = stahlgrau bis eisenschwarz<ref name=\"Handbookofmineralogy\" />\n| Strichfarbe             = schwarz bis stahlgrau, glänzend<ref name=\"Handbookofmineralogy\" />\n| Transparenz             = undurchsichtig (opak), in feinsten Blättchen durchscheinend<ref name=\"Handbookofmineralogy\" /><ref name=\"Rösler\" />\n| Glanz                   = Metallglanz, matt, erdig\n| Radioaktivität          = \n| Magnetismus             = [[diamagnetisch]]\n<!-- Kristalloptik -->\n| Brechungsindex_n_alpha  = \n| Brechungsindex_n_beta   = \n| Brechungsindex_n_gamma  = \n| Brechungsindex_n_e      = \n| Brechungsindex_n_o      = \n| Brechungsindex_n        = 1,93 bis 2,07 (rot)\n| Doppelbrechung          = \n| Optischer_Charakter     = einachsig negativ\n| Optischer_Achsenwinkel  = \n| Pleochroismus           = stark rot\n<!-- Weitere Eigenschaften -->\n| chemisches_Verhalten    = unlöslich in nicht-oxidierenden Säuren\n| besondere_Kennzeichen   = hohe Anisotropie (z.&nbsp;B. Härte, Leitfähigkeit)\n}}\n\n'''Graphit''' (auch ''Grafit'') ist ein sehr häufig vorkommendes [[Mineral]] aus der [[Systematik der Minerale|Mineralklasse]] der „Elemente“. Er ist eine der natürlichen Erscheinungsformen des [[Chemisches Element|chemischen Elements]] [[Kohlenstoff]] in Reinform und kristallisiert äußerlich gesehen im [[Hexagonales Kristallsystem|hexagonalen Kristallsystem]] (Genaueres siehe unter ''[[#Kristallstruktur|Kristallstruktur]]'').\n\nGraphit bildet undurchsichtige, graue bis schwarze [[Kristall]]e in sechseckiger, tafeliger, schuppiger oder stängeliger Form, die auf den Kristallflächen Metallglanz aufweisen. Massige oder körnige [[Mineral-Aggregat|Aggregate]] sind dagegen matt. Seine [[Härte|Mohshärte]] beträgt zwischen 1 und 2, seine [[Dichte]] etwa 2,09 bis 2,23&nbsp;g/cm³, und er hat eine schwarze bis stahlgraue, glänzende [[Strichfarbe]].",
+  "segments": [
+    {
+      "id": "272100674-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | IMA-Symbol              = Gr<ref name=\"Warr\" />",
+      "plain": "Infobox Mineral – Allgemeines und Klassifikation – IMA-Symbol: Gr"
+    },
+    {
+      "id": "272100674-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Andere_Namen            = \n* Grafit<ref name=\"canoonet\" /><ref name=\"Rat-für-Rechtschreibung\" />\n* [[Colour Index|C. I.]] Pigment Black 10",
+      "plain": "Infobox Mineral – Allgemeines und Klassifikation – Andere Namen: Grafit C. I. Pigment Black 10"
+    },
+    {
+      "id": "272100674-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Chemismus               = [[Kohlenstoff|C]]",
+      "plain": "Infobox Mineral – Allgemeines und Klassifikation – Chemische Formel: C"
+    },
+    {
+      "id": "272100674-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Mineralklasse           = Elemente – Halbmetalle (Metalloide) und Nichtmetalle",
+      "plain": "Infobox Mineral – Allgemeines und Klassifikation – Mineralklasse (und ggf. Abteilung): Elemente – Halbmetalle (Metalloide) und Nichtmetalle"
+    },
+    {
+      "id": "272100674-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Kurzform_Strunz_8       = I/B.02a | Kurzform_Lapis          = I/B.02-010<ref name=\"Lapis\" /> | Kurzform_Strunz_9       = 1.CB.05a | Kurzform_Dana           = 01.03.06.02\n<!-- Kristallographie -->",
+      "plain": "Infobox Mineral – Allgemeines und Klassifikation – System-Nummer nach Strunz (8. Aufl.) Lapis-Systematik (nach Strunz und Weiß) Strunz (9. Aufl.) Dana: I/B.02a I/B.02-010 1.CB.05a 01.03.06.02"
+    },
+    {
+      "id": "272100674-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Ähnliche_Minerale       = [[Molybdänit]] (Molybdänglanz)\n<!-- Allgemeines und Klassifikation -->",
+      "plain": "Infobox Mineral – Allgemeines und Klassifikation – Ähnliche Minerale: Molybdänit (Molybdänglanz)"
+    },
+    {
+      "id": "272100674-0006",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Kristallsystem          = hexagonal",
+      "plain": "Infobox Mineral – Kristallographische Daten – Kristallsystem: hexagonal"
+    },
+    {
+      "id": "272100674-0007",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Kristallklasse          = {{Kristallklasse|6/m2/m2/m}}",
+      "plain": "Infobox Mineral – Kristallographische Daten – Kristallklasse; Symbol: dihexagonal-dipyramidal; 6/m2/m2/m"
+    },
+    {
+      "id": "272100674-0008",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Raumgruppe              = {{Raumgruppe|P63/mmc|kurz}}<ref name=\"StrunzNickel\" />",
+      "plain": "Infobox Mineral – Kristallographische Daten – Raumgruppe: P63/mmc (Nr. 194)"
+    },
+    {
+      "id": "272100674-0009",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Gitterparameter_a       = 2,46 | Gitterparameter_c       = 6,71 | Ref_Gitterparameter     = <ref name=\"StrunzNickel\" />",
+      "plain": "Infobox Mineral – Kristallographische Daten – Gitterparameter: a = 2,46 Å; c = 6,71 Å"
+    },
+    {
+      "id": "272100674-0010",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | häufige_Kristallflächen = {001}",
+      "plain": "Infobox Mineral – Kristallographische Daten – Häufige Kristallflächen: {001}"
+    },
+    {
+      "id": "272100674-0011",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Mohshärte               = 1 bis 2<ref name=\"Handbookofmineralogy\" />",
+      "plain": "Infobox Mineral – Physikalische Eigenschaften – Mohshärte: 1 bis 2"
+    },
+    {
+      "id": "272100674-0012",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Dichte                  = gemessen: 2,09 bis 2,23; berechnet 2,26<ref name=\"Handbookofmineralogy\" />",
+      "plain": "Infobox Mineral – Physikalische Eigenschaften – Dichte (g/cm3): gemessen: 2,09 bis 2,23; berechnet 2,26"
+    },
+    {
+      "id": "272100674-0013",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Spaltbarkeit            = vollkommen nach {0001}<ref name=\"Handbookofmineralogy\" /> (Schichtabstand 3,35 Å beim idealen Einkristall<ref name=\"HollemanWiberg\" />)",
+      "plain": "Infobox Mineral – Physikalische Eigenschaften – Spaltbarkeit: vollkommen nach {0001} (Schichtabstand 3,35 Å beim idealen Einkristall)"
+    },
+    {
+      "id": "272100674-0014",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Bruch                   = [[glimmer]]artig;<ref name=\"Mindat\" /> biegsam, aber nicht elastisch; schneidbar (sektil)<ref name=\"Handbookofmineralogy\" />",
+      "plain": "Infobox Mineral – Physikalische Eigenschaften – Bruch; Tenazität: glimmerartig; biegsam, aber nicht elastisch; schneidbar (sektil)"
+    },
+    {
+      "id": "272100674-0015",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Farbe                   = stahlgrau bis eisenschwarz<ref name=\"Handbookofmineralogy\" />",
+      "plain": "Infobox Mineral – Physikalische Eigenschaften – Farbe: stahlgrau bis eisenschwarz"
+    },
+    {
+      "id": "272100674-0016",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Strichfarbe             = schwarz bis stahlgrau, glänzend<ref name=\"Handbookofmineralogy\" />",
+      "plain": "Infobox Mineral – Physikalische Eigenschaften – Strichfarbe: schwarz bis stahlgrau, glänzend"
+    },
+    {
+      "id": "272100674-0017",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Transparenz             = undurchsichtig (opak), in feinsten Blättchen durchscheinend<ref name=\"Handbookofmineralogy\" /><ref name=\"Rösler\" />",
+      "plain": "Infobox Mineral – Physikalische Eigenschaften – Transparenz: undurchsichtig (opak), in feinsten Blättchen durchscheinend"
+    },
+    {
+      "id": "272100674-0018",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Glanz                   = Metallglanz, matt, erdig",
+      "plain": "Infobox Mineral – Physikalische Eigenschaften – Glanz: Metallglanz, matt, erdig"
+    },
+    {
+      "id": "272100674-0019",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Magnetismus             = [[diamagnetisch]]\n<!-- Kristalloptik -->",
+      "plain": "Infobox Mineral – Physikalische Eigenschaften – Magnetismus: diamagnetisch"
+    },
+    {
+      "id": "272100674-0020",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Brechungsindex_n        = 1,93 bis 2,07 (rot)",
+      "plain": "Infobox Mineral – Kristalloptik – Brechungsindex: n = 1,93 bis 2,07 (rot)"
+    },
+    {
+      "id": "272100674-0021",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Optischer_Charakter     = einachsig negativ",
+      "plain": "Infobox Mineral – Kristalloptik – Optischer Charakter: einachsig negativ"
+    },
+    {
+      "id": "272100674-0022",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | Pleochroismus           = stark rot\n<!-- Weitere Eigenschaften -->",
+      "plain": "Infobox Mineral – Kristalloptik – Pleochroismus: stark rot"
+    },
+    {
+      "id": "272100674-0023",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | chemisches_Verhalten    = unlöslich in nicht-oxidierenden Säuren",
+      "plain": "Infobox Mineral – Weitere Eigenschaften – Chemisches Verhalten: unlöslich in nicht-oxidierenden Säuren"
+    },
+    {
+      "id": "272100674-0024",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mineral | besondere_Kennzeichen   = hohe Anisotropie (z.&nbsp;B. Härte, Leitfähigkeit)",
+      "plain": "Infobox Mineral – Weitere Eigenschaften – Besondere Merkmale: hohe Anisotropie (z. B. Härte, Leitfähigkeit)"
+    },
+    {
+      "id": "272100674-0025",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Graphit''' (auch ''Grafit'') ist ein sehr häufig vorkommendes [[Mineral]] aus der [[Systematik der Minerale|Mineralklasse]] der „Elemente“.",
+      "plain": null
+    },
+    {
+      "id": "272100674-0026",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er ist eine der natürlichen Erscheinungsformen des [[Chemisches Element|chemischen Elements]] [[Kohlenstoff]] in Reinform und kristallisiert äußerlich gesehen im [[Hexagonales Kristallsystem|hexagonalen Kristallsystem]] (Genaueres siehe unter ''[[#Kristallstruktur|Kristallstruktur]]'').",
+      "plain": null
+    },
+    {
+      "id": "272100674-0027",
+      "type": "sentence",
+      "section": "",
+      "raw": "Graphit bildet undurchsichtige, graue bis schwarze [[Kristall]]e in sechseckiger, tafeliger, schuppiger oder stängeliger Form, die auf den Kristallflächen Metallglanz aufweisen.",
+      "plain": null
+    },
+    {
+      "id": "272100674-0028",
+      "type": "sentence",
+      "section": "",
+      "raw": "Massige oder körnige [[Mineral-Aggregat|Aggregate]] sind dagegen matt.",
+      "plain": null
+    },
+    {
+      "id": "272100674-0029",
+      "type": "sentence",
+      "section": "",
+      "raw": "Seine [[Härte|Mohshärte]] beträgt zwischen 1 und 2, seine [[Dichte]] etwa 2,09 bis 2,23&nbsp;g/cm³, und er hat eine schwarze bis stahlgraue, glänzende [[Strichfarbe]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272100674,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272100674-0025",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Graphit (auch Grafit) ist ein sehr häufig vorkommendes Mineral aus der Mineralklasse der „Elemente“.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272100674-0026",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272100674-0025"
+        ],
+        "plain": "Er ist eine der natürlichen Erscheinungsformen des chemischen Elements Kohlenstoff in Reinform und kristallisiert äußerlich gesehen im hexagonalen Kristallsystem (Genaueres siehe unter Kristallstruktur).",
+        "context_plain": [
+          "Graphit (auch Grafit) ist ein sehr häufig vorkommendes Mineral aus der Mineralklasse der „Elemente“."
+        ]
+      },
+      {
+        "segment_id": "272100674-0027",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Graphit bildet undurchsichtige, graue bis schwarze Kristalle in sechseckiger, tafeliger, schuppiger oder stängeliger Form, die auf den Kristallflächen Metallglanz aufweisen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272100674-0014",
+        "type": "infobox_row",
+        "section": "",
+        "context_ids": [],
+        "plain": "Infobox Mineral – Physikalische Eigenschaften – Bruch; Tenazität: glimmerartig; biegsam, aber nicht elastisch; schneidbar (sektil)",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272100674-0029",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272100674-0026",
+          "272100674-0027",
+          "272100674-0028"
+        ],
+        "plain": "Seine Mohshärte beträgt zwischen 1 und 2, seine Dichte etwa 2,09 bis 2,23 g/cm³, und er hat eine schwarze bis stahlgraue, glänzende Strichfarbe.",
+        "context_plain": [
+          "Er ist eine der natürlichen Erscheinungsformen des chemischen Elements Kohlenstoff in Reinform und kristallisiert äußerlich gesehen im hexagonalen Kristallsystem (Genaueres siehe unter Kristallstruktur).",
+          "Graphit bildet undurchsichtige, graue bis schwarze Kristalle in sechseckiger, tafeliger, schuppiger oder stängeliger Form, die auf den Kristallflächen Metallglanz aufweisen.",
+          "Massige oder körnige Aggregate sind dagegen matt."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "272100674-0028",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

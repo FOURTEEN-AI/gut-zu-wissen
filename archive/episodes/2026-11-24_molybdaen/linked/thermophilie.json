@@ -1,0 +1,82 @@
+{
+  "title": "Thermophilie",
+  "revid": 266279959,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-04-17T14:27:20Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Botmarkierungen 2019-05",
+    "Kategorie:Wikipedia:Weblink offline IABot",
+    "Kategorie:Ökologische Eigenschaft"
+  ],
+  "intro_wikitext": "'''Thermophilie''' (von [[Altgriechische Sprache|altgriechisch]] {{lang|grc|θερμός}} ''thermós'' „warm“ sowie {{lang|grc|φίλος}} ''phílos'' „liebend“)<ref name=\"Gemoll\">Wilhelm Gemoll: ''Griechisch-Deutsches Schul- und Handwörterbuch.'' München/Wien 1965.</ref> ist die Eigenschaft von [[Lebewesen]], insbesondere [[Mikroorganismus|Mikroorganismen]], hohe [[Temperatur]]en (45–80&nbsp;°C) zu bevorzugen. Lebewesen mit dieser Eigenschaft werden als '''thermophil''' bezeichnet. Wenn  der bevorzugte Temperaturbereich oberhalb von 80&nbsp;°C liegt, dann spricht man von '''hyperthermophilen''' Lebewesen. Wenn sie in der Lage sind höhere Temperaturen vorübergehend zu ertragen, nennt man sie ''thermotolerant'', wenn sie bei höheren Temperaturen auch vermehrungsfähig sind, nennt man sie ''thermotroph''.<ref>[[Römpp Lexikon Chemie]]: Thermophilie. [https://www.google.de/books/edition/R%C3%96MPP_Lexikon_Chemie_10_Auflage_1996_19/4T3OAwAAQBAJ?hl=de&gbpv=1&dq=thermophilie&pg=PT420&printsec=frontcover Vorschau verfügbar]</ref>\nOrganismen, die trockene warme Lebensräume bevorzugen, nennt man ''xerothermophil'' ({{grcS|ξηρός|xērós|de=dürr, trocken}}<ref name=\"Gemoll\" />).",
+  "segments": [
+    {
+      "id": "266279959-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Thermophilie''' (von [[Altgriechische Sprache|altgriechisch]] {{lang|grc|θερμός}} ''thermós'' „warm“ sowie {{lang|grc|φίλος}} ''phílos'' „liebend“)<ref name=\"Gemoll\">Wilhelm Gemoll: ''Griechisch-Deutsches Schul- und Handwörterbuch.'' München/Wien 1965.</ref> ist die Eigenschaft von [[Lebewesen]], insbesondere [[Mikroorganismus|Mikroorganismen]], hohe [[Temperatur]]en (45–80&nbsp;°C) zu bevorzugen.",
+      "plain": null
+    },
+    {
+      "id": "266279959-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Lebewesen mit dieser Eigenschaft werden als '''thermophil''' bezeichnet.",
+      "plain": null
+    },
+    {
+      "id": "266279959-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Wenn  der bevorzugte Temperaturbereich oberhalb von 80&nbsp;°C liegt, dann spricht man von '''hyperthermophilen''' Lebewesen.",
+      "plain": null
+    },
+    {
+      "id": "266279959-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Wenn sie in der Lage sind höhere Temperaturen vorübergehend zu ertragen, nennt man sie ''thermotolerant'', wenn sie bei höheren Temperaturen auch vermehrungsfähig sind, nennt man sie ''thermotroph''.<ref>[[Römpp Lexikon Chemie]]: Thermophilie. [https://www.google.de/books/edition/R%C3%96MPP_Lexikon_Chemie_10_Auflage_1996_19/4T3OAwAAQBAJ?hl=de&gbpv=1&dq=thermophilie&pg=PT420&printsec=frontcover Vorschau verfügbar]</ref>",
+      "plain": null
+    },
+    {
+      "id": "266279959-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Organismen, die trockene warme Lebensräume bevorzugen, nennt man ''xerothermophil'' ({{grcS|ξηρός|xērós|de=dürr, trocken}}<ref name=\"Gemoll\" />).",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 266279959,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "266279959-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Thermophilie (von altgriechisch θερμός thermós „warm“ sowie φίλος phílos „liebend“) ist die Eigenschaft von Lebewesen, insbesondere Mikroorganismen, hohe Temperaturen (45–80 °C) zu bevorzugen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "266279959-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Organismen, die trockene warme Lebensräume bevorzugen, nennt man xerothermophil (altgriechisch ξηρός xērós, deutsch ‚dürr, trocken‘).",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "266279959-0002",
+        "reason": "context_invalid"
+      },
+      {
+        "segment_id": "266279959-0003",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

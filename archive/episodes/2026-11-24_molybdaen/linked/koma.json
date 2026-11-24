@@ -1,0 +1,143 @@
+{
+  "title": "Koma",
+  "revid": 271554703,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-23T12:56:07Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Krankheitsbild in der Intensivmedizin",
+    "Kategorie:Krankheitsbild in der Neurologie",
+    "Kategorie:Neurobiologie"
+  ],
+  "intro_wikitext": "{{Begriffsklärungshinweis}}\n{{Infobox ICD\n| BREITE = \n| 01-CODE = R40.2\n| 01-BEZEICHNUNG = Koma, nicht näher bezeichnet\n}}\n{{Infobox International Classification of Diseases 11\n| Code-01 = MB20.1\n| Data-01 = Koma\n| Code-02 = 5A23\n| Data-02 = Diabetisches Koma\n}}\nDas '''Koma''' (von {{grcS|κῶμα|de=tiefer Schlaf}}) ist ein Zustand tiefer Bewusstlosigkeit und die medizinisch schwerste Form einer [[Bewusstseinsstörung]], bei der ein Patient auch durch starke äußere [[Reiz|Stimuli]] wie wiederholte Schmerzreize nicht zu wecken ist. Ein plötzliches Koma ist ein medizinischer Notfall. Ist dieser Zustand nicht voll ausgeprägt, spricht man von [[Sopor]] oder Präkoma.\n\nDas Koma ist ein [[Symptom]] (Krankheitszeichen), etwa infolge schwerer Stoffwechselstörungen, und keine eigenständige [[Krankheit]]. Als Ausdruck einer schweren Störung von Funktionen des [[Hirnstamm]]s ist ein Koma zumeist lebensbedrohend.<ref>{{Literatur |Autor=Schwab et al. |Titel=Neurointensiv |Datum= |ISBN=978-3-662-46499-1}}</ref> Im Rahmen [[intensivmedizin]]ischer Behandlungen kann vorübergehend ein tiefschlafähnlicher Zustand als Schutzmaßnahme medikamentös herbeigeführt werden, der '''künstliches Koma''' genannt wird. Die weitere Entwicklung und [[Prognose]] eines komatösen Patienten hängt von der zugrunde liegenden Ursache sowie der medizinischen Versorgung ab.",
+  "segments": [
+    {
+      "id": "271554703-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox ICD | 01-CODE = R40.2 | 01-BEZEICHNUNG = Koma, nicht näher bezeichnet",
+      "plain": "Infobox ICD – Klassifikation nach ICD-10: R40.2 / Koma, nicht näher bezeichnet"
+    },
+    {
+      "id": "271554703-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox International Classification of Diseases 11 | Code-01 = MB20.1 | Data-01 = Koma",
+      "plain": "Infobox International Classification of Diseases 11 – Klassifikation nach ICD-11: MB20.1 / Koma"
+    },
+    {
+      "id": "271554703-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox International Classification of Diseases 11 | Code-02 = 5A23 | Data-02 = Diabetisches Koma",
+      "plain": "Infobox International Classification of Diseases 11 – 5A23: Diabetisches Koma"
+    },
+    {
+      "id": "271554703-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das '''Koma''' (von {{grcS|κῶμα|de=tiefer Schlaf}}) ist ein Zustand tiefer Bewusstlosigkeit und die medizinisch schwerste Form einer [[Bewusstseinsstörung]], bei der ein Patient auch durch starke äußere [[Reiz|Stimuli]] wie wiederholte Schmerzreize nicht zu wecken ist.",
+      "plain": null
+    },
+    {
+      "id": "271554703-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein plötzliches Koma ist ein medizinischer Notfall.",
+      "plain": null
+    },
+    {
+      "id": "271554703-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ist dieser Zustand nicht voll ausgeprägt, spricht man von [[Sopor]] oder Präkoma.",
+      "plain": null
+    },
+    {
+      "id": "271554703-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Koma ist ein [[Symptom]] (Krankheitszeichen), etwa infolge schwerer Stoffwechselstörungen, und keine eigenständige [[Krankheit]].",
+      "plain": null
+    },
+    {
+      "id": "271554703-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als Ausdruck einer schweren Störung von Funktionen des [[Hirnstamm]]s ist ein Koma zumeist lebensbedrohend.<ref>{{Literatur |Autor=Schwab et al. |Titel=Neurointensiv |Datum= |ISBN=978-3-662-46499-1}}</ref>",
+      "plain": null
+    },
+    {
+      "id": "271554703-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Rahmen [[intensivmedizin]]ischer Behandlungen kann vorübergehend ein tiefschlafähnlicher Zustand als Schutzmaßnahme medikamentös herbeigeführt werden, der '''künstliches Koma''' genannt wird.",
+      "plain": null
+    },
+    {
+      "id": "271554703-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die weitere Entwicklung und [[Prognose]] eines komatösen Patienten hängt von der zugrunde liegenden Ursache sowie der medizinischen Versorgung ab.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271554703,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271554703-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Koma (von altgriechisch κῶμα ‚tiefer Schlaf‘) ist ein Zustand tiefer Bewusstlosigkeit und die medizinisch schwerste Form einer Bewusstseinsstörung, bei der ein Patient auch durch starke äußere Stimuli wie wiederholte Schmerzreize nicht zu wecken ist.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271554703-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271554703-0003",
+          "271554703-0004"
+        ],
+        "plain": "Ist dieser Zustand nicht voll ausgeprägt, spricht man von Sopor oder Präkoma.",
+        "context_plain": [
+          "Das Koma (von altgriechisch κῶμα ‚tiefer Schlaf‘) ist ein Zustand tiefer Bewusstlosigkeit und die medizinisch schwerste Form einer Bewusstseinsstörung, bei der ein Patient auch durch starke äußere Stimuli wie wiederholte Schmerzreize nicht zu wecken ist.",
+          "Ein plötzliches Koma ist ein medizinischer Notfall."
+        ]
+      },
+      {
+        "segment_id": "271554703-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Koma ist ein Symptom (Krankheitszeichen), etwa infolge schwerer Stoffwechselstörungen, und keine eigenständige Krankheit.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271554703-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Als Ausdruck einer schweren Störung von Funktionen des Hirnstamms ist ein Koma zumeist lebensbedrohend.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271554703-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Im Rahmen intensivmedizinischer Behandlungen kann vorübergehend ein tiefschlafähnlicher Zustand als Schutzmaßnahme medikamentös herbeigeführt werden, der künstliches Koma genannt wird.",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "271554703-0004",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

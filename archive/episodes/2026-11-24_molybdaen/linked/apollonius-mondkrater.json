@@ -1,0 +1,123 @@
+{
+  "title": "Apollonius (Mondkrater)",
+  "revid": 222552582,
+  "revision_status": "sighted",
+  "revision_timestamp": "2022-05-02T12:02:11Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Einschlagkrater (Mond)"
+  ],
+  "intro_wikitext": "{{Infobox Mondkrater\n|FeatureId=328\n|Name=Apollonius\n| Bild        = Apollonius - LROC - WAC.JPG\n| Bildtext    = Apollonius und Umgebung ([[LROC]]-WAC)\n|Breitengrad=4.58\n|Längengrad=60.86\n|Durchmesser=50.66\n|Tiefe=2750\n|TiefeRef=<ref>John E. Westfall: ''Atlas of the Lunar Terminator.'' Cambridge University Press, Cambridge u. a. 2000, ISBN 0-521-59002-7.</ref>\n|Typ=\n|LAC=62\n|BenanntNach=[[Apollonios von Perge]]\n|BenanntJahr=1935\n}}\n'''Apollonius''' ist ein [[Einschlagkrater]] am Ostrand der [[Mondvorderseite]], nordöstlich des [[Sinus Successus]] und nordwestlich des [[Mare Spumans]], südwestlich des Kraters [[Firmicus (Mondkrater)|Firmicus]].\nDer Kraterrand ist stark erodiert.\n\n{{Nebenkrater/Tabellenkopf|Apollonius}}\n{{Nebenkrater|Apollonius|A|4.83|56.83|24.55|7305}}\n{{Nebenkrater|Apollonius|B|5.86|57.64|31.17|7306}}\n{{Nebenkrater|Apollonius|E|4.43|61.77|16.55|7307}}\n{{Nebenkrater|Apollonius|F|5.65|59.85|14.72|7308}}\n{{Nebenkrater|Apollonius|H|3.45|59.49|19.04|7309}}\n{{Nebenkrater|Apollonius|J|4.58|57.53|10.13|7310}}\n{{Nebenkrater|Apollonius|L|6.42|54.52|10.12|7311}}\n{{Nebenkrater|Apollonius|M|4.84|61.69|9.54|7312}}\n{{Nebenkrater|Apollonius|N|4.79|63.71|10.79|7313}}\n{{Nebenkrater|Apollonius|S|1.25|62.58|16.22|7314}}\n{{Nebenkrater|Apollonius|U|4.93|59.8|6.28|7315}}\n{{Nebenkrater|Apollonius|V|4.42|58.19|14.97|7316}}\n{{Nebenkrater|Apollonius|X|6.87|58.19|28.97|7317}}\n{{Nebenkrater|Apollonius|Y|4.96|62.55|8.71|7318}}\n{{Nebenkrater/Tabellenende}}\n\nDer Krater wurde 1935 von der [[Internationale Astronomische Union|IAU]] nach dem griechischen Mathematiker [[Apollonios von Perge]] offiziell benannt.",
+  "segments": [
+    {
+      "id": "222552582-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mondkrater | Durchmesser=50.66",
+      "plain": "Infobox Mondkrater – Durchmesser: 51 km"
+    },
+    {
+      "id": "222552582-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mondkrater | Tiefe=2750 | TiefeRef=<ref>John E. Westfall: ''Atlas of the Lunar Terminator.'' Cambridge University Press, Cambridge u. a. 2000, ISBN 0-521-59002-7.</ref>",
+      "plain": "Infobox Mondkrater – Tiefe: 2750 m"
+    },
+    {
+      "id": "222552582-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mondkrater | LAC=62",
+      "plain": "Infobox Mondkrater – Kartenblatt: 62 (PDF)"
+    },
+    {
+      "id": "222552582-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mondkrater | BenanntNach=[[Apollonios von Perge]]",
+      "plain": "Infobox Mondkrater – Benannt nach: Apollonios von Perge"
+    },
+    {
+      "id": "222552582-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mondkrater | BenanntJahr=1935",
+      "plain": "Infobox Mondkrater – Benannt seit: 1935"
+    },
+    {
+      "id": "222552582-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Apollonius''' ist ein [[Einschlagkrater]] am Ostrand der [[Mondvorderseite]], nordöstlich des [[Sinus Successus]] und nordwestlich des [[Mare Spumans]], südwestlich des Kraters [[Firmicus (Mondkrater)|Firmicus]].",
+      "plain": null
+    },
+    {
+      "id": "222552582-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Kraterrand ist stark erodiert.",
+      "plain": null
+    },
+    {
+      "id": "222552582-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Krater wurde 1935 von der [[Internationale Astronomische Union|IAU]] nach dem griechischen Mathematiker [[Apollonios von Perge]] offiziell benannt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 222552582,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "222552582-0000",
+        "type": "infobox_row",
+        "section": "",
+        "context_ids": [],
+        "plain": "Infobox Mondkrater – Durchmesser: 51 km",
+        "context_plain": []
+      },
+      {
+        "segment_id": "222552582-0001",
+        "type": "infobox_row",
+        "section": "",
+        "context_ids": [
+          "222552582-0000"
+        ],
+        "plain": "Infobox Mondkrater – Tiefe: 2750 m",
+        "context_plain": [
+          "Infobox Mondkrater – Durchmesser: 51 km"
+        ]
+      },
+      {
+        "segment_id": "222552582-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Apollonius ist ein Einschlagkrater am Ostrand der Mondvorderseite, nordöstlich des Sinus Successus und nordwestlich des Mare Spumans, südwestlich des Kraters Firmicus.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "222552582-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "222552582-0005",
+          "222552582-0006"
+        ],
+        "plain": "Der Krater wurde 1935 von der IAU nach dem griechischen Mathematiker Apollonios von Perge offiziell benannt.",
+        "context_plain": [
+          "Apollonius ist ein Einschlagkrater am Ostrand der Mondvorderseite, nordöstlich des Sinus Successus und nordwestlich des Mare Spumans, südwestlich des Kraters Firmicus.",
+          "Der Kraterrand ist stark erodiert."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "222552582-0006",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

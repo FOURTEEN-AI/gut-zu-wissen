@@ -1,0 +1,139 @@
+{
+  "title": "Zuckerhefen",
+  "revid": 242162857,
+  "revision_status": "sighted",
+  "revision_timestamp": "2024-02-13T19:27:34Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Echte Hefen",
+    "Kategorie:Hefepilz",
+    "Kategorie:Pilz in menschlicher Nutzung"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name       = Zuckerhefen\n| Taxon_WissName   = Saccharomyces\n| Taxon_Rang       = Gattung\n| Taxon_Autor      = [[Franz Julius Ferdinand Meyen|Meyen]] ex [[Emil Christian Hansen|E.C.Hansen]]<!--1838-->\n| Taxon2_WissName  = Saccharomycetaceae\n| Taxon2_Rang      = Familie\n| Taxon3_Name      = Echte Hefen\n| Taxon3_WissName  = Saccharomycetales\n| Taxon3_Rang      = Ordnung\n| Taxon4_WissName  = Saccharomycetes\n| Taxon4_Rang      = Klasse\n| Taxon5_WissName  = Saccharomycotina\n| Taxon5_Rang      = Unterabteilung\n| Taxon6_Name      = Schlauchpilze\n| Taxon6_WissName  = Ascomycota\n| Taxon6_Rang      = Abteilung\n| Bild             = 20100911 232323 Yeast Live.jpg\n| Bildbeschreibung = Backhefe (''Saccharomyces cerevisiae'')\n}}\n\nDie '''Zuckerhefen''' ('''''Saccharomyces''''') – im Volksmund etwas ungenau meist nur [[Hefen]] genannt – bilden eine [[Gattung (Biologie)|Gattung]] in der [[Abteilung (Biologie)|Abteilung]] der [[Schlauchpilze]]. Verschiedene ''Saccharomyces''-Arten haben eine erhebliche gesundheitliche Bedeutung für den Menschen, so wie die verschiedenen Stämme von ''Saccharomyces cerevisiae'', die vor allem unter den deutschen Bezeichnungen [[Backhefe]] bzw. Bierhefe bekannt sind.\n\nKulturen von ''Saccharomyces''-Arten wachsen unter idealen Bedingungen sehr rasch und können innerhalb von drei Tagen zur Reife gelangen. Ihrer Fähigkeit, verschiedene [[Kohlenhydrate]] – insbesondere [[Zucker]] – zu verwerten, verdanken diese Hefen ihren Namen ({{laS|saccharum|de=Zucker}}).\n\nDie Zuckerhefe ''[[Saccharomyces boulardii]]'' wird als [[Heilmittel]] gegen [[Durchfall]]erkrankungen eingesetzt.",
+  "segments": [
+    {
+      "id": "242162857-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon6_Name      = Schlauchpilze | Taxon6_WissName  = Ascomycota",
+      "plain": "Taxobox – Systematik – Abteilung: Schlauchpilze (Ascomycota)"
+    },
+    {
+      "id": "242162857-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_WissName  = Saccharomycotina",
+      "plain": "Taxobox – Systematik – Unterabteilung: Saccharomycotina"
+    },
+    {
+      "id": "242162857-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_WissName  = Saccharomycetes",
+      "plain": "Taxobox – Systematik – Klasse: Saccharomycetes"
+    },
+    {
+      "id": "242162857-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon3_Name      = Echte Hefen | Taxon3_WissName  = Saccharomycetales",
+      "plain": "Taxobox – Systematik – Ordnung: Echte Hefen (Saccharomycetales)"
+    },
+    {
+      "id": "242162857-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_WissName  = Saccharomycetaceae",
+      "plain": "Taxobox – Systematik – Familie: Saccharomycetaceae"
+    },
+    {
+      "id": "242162857-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name       = Zuckerhefen",
+      "plain": "Taxobox – Systematik – Gattung: Zuckerhefen"
+    },
+    {
+      "id": "242162857-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Zuckerhefen''' ('''''Saccharomyces''''') – im Volksmund etwas ungenau meist nur [[Hefen]] genannt – bilden eine [[Gattung (Biologie)|Gattung]] in der [[Abteilung (Biologie)|Abteilung]] der [[Schlauchpilze]].",
+      "plain": null
+    },
+    {
+      "id": "242162857-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Verschiedene ''Saccharomyces''-Arten haben eine erhebliche gesundheitliche Bedeutung für den Menschen, so wie die verschiedenen Stämme von ''Saccharomyces cerevisiae'', die vor allem unter den deutschen Bezeichnungen [[Backhefe]] bzw. Bierhefe bekannt sind.",
+      "plain": null
+    },
+    {
+      "id": "242162857-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Kulturen von ''Saccharomyces''-Arten wachsen unter idealen Bedingungen sehr rasch und können innerhalb von drei Tagen zur Reife gelangen.",
+      "plain": null
+    },
+    {
+      "id": "242162857-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ihrer Fähigkeit, verschiedene [[Kohlenhydrate]] – insbesondere [[Zucker]] – zu verwerten, verdanken diese Hefen ihren Namen ({{laS|saccharum|de=Zucker}}).",
+      "plain": null
+    },
+    {
+      "id": "242162857-0010",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Zuckerhefe ''[[Saccharomyces boulardii]]'' wird als [[Heilmittel]] gegen [[Durchfall]]erkrankungen eingesetzt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 242162857,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "242162857-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Verschiedene Saccharomyces-Arten haben eine erhebliche gesundheitliche Bedeutung für den Menschen, so wie die verschiedenen Stämme von Saccharomyces cerevisiae, die vor allem unter den deutschen Bezeichnungen Backhefe bzw. Bierhefe bekannt sind.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "242162857-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Kulturen von Saccharomyces-Arten wachsen unter idealen Bedingungen sehr rasch und können innerhalb von drei Tagen zur Reife gelangen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "242162857-0009",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "242162857-0006",
+          "242162857-0007",
+          "242162857-0008"
+        ],
+        "plain": "Ihrer Fähigkeit, verschiedene Kohlenhydrate – insbesondere Zucker – zu verwerten, verdanken diese Hefen ihren Namen (lateinisch saccharum ‚Zucker‘).",
+        "context_plain": [
+          "Die Zuckerhefen (Saccharomyces) – im Volksmund etwas ungenau meist nur Hefen genannt – bilden eine Gattung in der Abteilung der Schlauchpilze.",
+          "Verschiedene Saccharomyces-Arten haben eine erhebliche gesundheitliche Bedeutung für den Menschen, so wie die verschiedenen Stämme von Saccharomyces cerevisiae, die vor allem unter den deutschen Bezeichnungen Backhefe bzw. Bierhefe bekannt sind.",
+          "Kulturen von Saccharomyces-Arten wachsen unter idealen Bedingungen sehr rasch und können innerhalb von drei Tagen zur Reife gelangen."
+        ]
+      },
+      {
+        "segment_id": "242162857-0010",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Zuckerhefe Saccharomyces boulardii wird als Heilmittel gegen Durchfallerkrankungen eingesetzt.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

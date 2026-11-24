@@ -1,0 +1,82 @@
+{
+  "title": "Mare Fecunditatis",
+  "revid": 248494010,
+  "revision_status": "sighted",
+  "revision_timestamp": "2024-09-10T20:32:03Z",
+  "fetched_at": "2026-11-24T13:46:03Z",
+  "categories": [
+    "Kategorie:Mare"
+  ],
+  "intro_wikitext": "{{Infobox Mondstruktur\n|FeatureId=3673\n|Typ=Mare\n|Name=Mare Fecunditatis\n|Bild=Mare Fecunditatis.jpg\n|Bildtext=\n|Breitengrad=-7.83\n|Längengrad=53.67\n|Durchmesser=840.35\n|LCA=80\n|BenanntNach=\n|BenanntJahr=1935\n}}\nDas '''Mare Fecunditatis''' ([[latein]]isch für „Meer der Fruchtbarkeit“) ist eines der großen „[[Mondmeer]]e“ auf der erdzugewandten Seite des [[Mond|Erdmondes]].\n\nEs liegt auf den [[Selenografie|selenographischen]] Koordinaten 8° S, 54° O und hat einen Durchmesser von 850 km.\n\nIn seinem Nordostbereich landete die sowjetische [[Raumsonde|Mondsonde]] [[Luna 16|Luna&nbsp;16]] sowie der [[Orbiter (Raumfahrt)|Orbiter]] [[Chang’e-1]]. Nördlich davon, dicht in der Nähe des Mare, [[Luna 18|Luna&nbsp;18]] und [[Luna 20|Luna&nbsp;20]].",
+  "segments": [
+    {
+      "id": "248494010-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Mondstruktur | Durchmesser=840.35",
+      "plain": "Infobox Mondstruktur – Durchmesser: 840 km"
+    },
+    {
+      "id": "248494010-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das '''Mare Fecunditatis''' ([[latein]]isch für „Meer der Fruchtbarkeit“) ist eines der großen „[[Mondmeer]]e“ auf der erdzugewandten Seite des [[Mond|Erdmondes]].",
+      "plain": null
+    },
+    {
+      "id": "248494010-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es liegt auf den [[Selenografie|selenographischen]] Koordinaten 8° S, 54° O und hat einen Durchmesser von 850 km.",
+      "plain": null
+    },
+    {
+      "id": "248494010-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "In seinem Nordostbereich landete die sowjetische [[Raumsonde|Mondsonde]] [[Luna 16|Luna&nbsp;16]] sowie der [[Orbiter (Raumfahrt)|Orbiter]] [[Chang’e-1]]. Nördlich davon, dicht in der Nähe des Mare, [[Luna 18|Luna&nbsp;18]] und [[Luna 20|Luna&nbsp;20]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 248494010,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "248494010-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Mare Fecunditatis (lateinisch für „Meer der Fruchtbarkeit“) ist eines der großen „Mondmeere“ auf der erdzugewandten Seite des Erdmondes.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "248494010-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "248494010-0001"
+        ],
+        "plain": "Es liegt auf den selenographischen Koordinaten 8° S, 54° O und hat einen Durchmesser von 850 km.",
+        "context_plain": [
+          "Das Mare Fecunditatis (lateinisch für „Meer der Fruchtbarkeit“) ist eines der großen „Mondmeere“ auf der erdzugewandten Seite des Erdmondes."
+        ]
+      },
+      {
+        "segment_id": "248494010-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "248494010-0001",
+          "248494010-0002"
+        ],
+        "plain": "In seinem Nordostbereich landete die sowjetische Mondsonde Luna 16 sowie der Orbiter Chang’e-1. Nördlich davon, dicht in der Nähe des Mare, Luna 18 und Luna 20.",
+        "context_plain": [
+          "Das Mare Fecunditatis (lateinisch für „Meer der Fruchtbarkeit“) ist eines der großen „Mondmeere“ auf der erdzugewandten Seite des Erdmondes.",
+          "Es liegt auf den selenographischen Koordinaten 8° S, 54° O und hat einen Durchmesser von 850 km."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

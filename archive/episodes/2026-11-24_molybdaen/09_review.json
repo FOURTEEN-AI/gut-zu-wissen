@@ -1,0 +1,2889 @@
+{
+  "episode_id": "2026-11-24_molybdaen",
+  "title": "Molybdän",
+  "rate": 1.0,
+  "seed": "2026-11-24_molybdaen",
+  "population": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    8,
+    10,
+    11,
+    12,
+    14,
+    16,
+    17,
+    18,
+    20,
+    22,
+    24,
+    25,
+    26,
+    28,
+    30,
+    32,
+    33,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46,
+    48,
+    50,
+    52,
+    53,
+    54,
+    56,
+    57,
+    58,
+    60,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    70,
+    72,
+    74,
+    76,
+    78,
+    79,
+    80,
+    82,
+    84,
+    86,
+    88,
+    90,
+    92,
+    94,
+    96
+  ],
+  "draws": [
+    {
+      "turn_index": 0,
+      "u": 0.3664889939081287,
+      "sampled": true
+    },
+    {
+      "turn_index": 1,
+      "u": 0.7982903264877454,
+      "sampled": true
+    },
+    {
+      "turn_index": 2,
+      "u": 0.7819960045542953,
+      "sampled": true
+    },
+    {
+      "turn_index": 4,
+      "u": 0.015912204558608645,
+      "sampled": true
+    },
+    {
+      "turn_index": 6,
+      "u": 0.8169379163067444,
+      "sampled": true
+    },
+    {
+      "turn_index": 8,
+      "u": 0.4450405293325944,
+      "sampled": true
+    },
+    {
+      "turn_index": 10,
+      "u": 0.957610203462836,
+      "sampled": true
+    },
+    {
+      "turn_index": 11,
+      "u": 0.74724798095602,
+      "sampled": true
+    },
+    {
+      "turn_index": 12,
+      "u": 0.10313468461327491,
+      "sampled": true
+    },
+    {
+      "turn_index": 14,
+      "u": 0.9078108584734141,
+      "sampled": true
+    },
+    {
+      "turn_index": 16,
+      "u": 0.448875093037165,
+      "sampled": true
+    },
+    {
+      "turn_index": 17,
+      "u": 0.3513507391460411,
+      "sampled": true
+    },
+    {
+      "turn_index": 18,
+      "u": 0.6160664291758057,
+      "sampled": true
+    },
+    {
+      "turn_index": 20,
+      "u": 0.5244593802212768,
+      "sampled": true
+    },
+    {
+      "turn_index": 22,
+      "u": 0.8874613801998288,
+      "sampled": true
+    },
+    {
+      "turn_index": 24,
+      "u": 0.5216755817442392,
+      "sampled": true
+    },
+    {
+      "turn_index": 25,
+      "u": 0.17697284679746816,
+      "sampled": true
+    },
+    {
+      "turn_index": 26,
+      "u": 0.8083157269113381,
+      "sampled": true
+    },
+    {
+      "turn_index": 28,
+      "u": 0.6285650260204265,
+      "sampled": true
+    },
+    {
+      "turn_index": 30,
+      "u": 0.9468247079603095,
+      "sampled": true
+    },
+    {
+      "turn_index": 32,
+      "u": 0.9765453249098367,
+      "sampled": true
+    },
+    {
+      "turn_index": 33,
+      "u": 0.18580063409238312,
+      "sampled": true
+    },
+    {
+      "turn_index": 34,
+      "u": 0.486539277172196,
+      "sampled": true
+    },
+    {
+      "turn_index": 36,
+      "u": 0.9450644065506554,
+      "sampled": true
+    },
+    {
+      "turn_index": 38,
+      "u": 0.9423988676499705,
+      "sampled": true
+    },
+    {
+      "turn_index": 40,
+      "u": 0.6556668309696061,
+      "sampled": true
+    },
+    {
+      "turn_index": 42,
+      "u": 0.12657123168966522,
+      "sampled": true
+    },
+    {
+      "turn_index": 44,
+      "u": 0.9762806552577472,
+      "sampled": true
+    },
+    {
+      "turn_index": 46,
+      "u": 0.5002910379020872,
+      "sampled": true
+    },
+    {
+      "turn_index": 48,
+      "u": 0.5534211177854595,
+      "sampled": true
+    },
+    {
+      "turn_index": 50,
+      "u": 0.1399400572693127,
+      "sampled": true
+    },
+    {
+      "turn_index": 52,
+      "u": 0.32131985755108494,
+      "sampled": true
+    },
+    {
+      "turn_index": 53,
+      "u": 0.9944322254127629,
+      "sampled": true
+    },
+    {
+      "turn_index": 54,
+      "u": 0.9220451118736971,
+      "sampled": true
+    },
+    {
+      "turn_index": 56,
+      "u": 0.07395949352706077,
+      "sampled": true
+    },
+    {
+      "turn_index": 57,
+      "u": 0.18400315289036717,
+      "sampled": true
+    },
+    {
+      "turn_index": 58,
+      "u": 0.39563185422380387,
+      "sampled": true
+    },
+    {
+      "turn_index": 60,
+      "u": 0.994986151644573,
+      "sampled": true
+    },
+    {
+      "turn_index": 62,
+      "u": 0.9455339443894778,
+      "sampled": true
+    },
+    {
+      "turn_index": 63,
+      "u": 0.30082690990867966,
+      "sampled": true
+    },
+    {
+      "turn_index": 64,
+      "u": 0.9983172354832114,
+      "sampled": true
+    },
+    {
+      "turn_index": 65,
+      "u": 0.21336704749047664,
+      "sampled": true
+    },
+    {
+      "turn_index": 66,
+      "u": 0.9845079048103953,
+      "sampled": true
+    },
+    {
+      "turn_index": 67,
+      "u": 0.6337310677577805,
+      "sampled": true
+    },
+    {
+      "turn_index": 68,
+      "u": 0.7253902485235415,
+      "sampled": true
+    },
+    {
+      "turn_index": 70,
+      "u": 0.22258338778773823,
+      "sampled": true
+    },
+    {
+      "turn_index": 72,
+      "u": 0.9877668970828035,
+      "sampled": true
+    },
+    {
+      "turn_index": 74,
+      "u": 0.3746192025143372,
+      "sampled": true
+    },
+    {
+      "turn_index": 76,
+      "u": 0.6532629871202454,
+      "sampled": true
+    },
+    {
+      "turn_index": 78,
+      "u": 0.11890448270786225,
+      "sampled": true
+    },
+    {
+      "turn_index": 79,
+      "u": 0.5888901966134096,
+      "sampled": true
+    },
+    {
+      "turn_index": 80,
+      "u": 0.35732427463283667,
+      "sampled": true
+    },
+    {
+      "turn_index": 82,
+      "u": 0.616813393820717,
+      "sampled": true
+    },
+    {
+      "turn_index": 84,
+      "u": 0.857836899843318,
+      "sampled": true
+    },
+    {
+      "turn_index": 86,
+      "u": 0.8269296113364152,
+      "sampled": true
+    },
+    {
+      "turn_index": 88,
+      "u": 0.9378082754224897,
+      "sampled": true
+    },
+    {
+      "turn_index": 90,
+      "u": 0.07496248074745382,
+      "sampled": true
+    },
+    {
+      "turn_index": 92,
+      "u": 0.209060782536019,
+      "sampled": true
+    },
+    {
+      "turn_index": 94,
+      "u": 0.1952240530881233,
+      "sampled": true
+    },
+    {
+      "turn_index": 96,
+      "u": 0.9104308631298274,
+      "sampled": true
+    }
+  ],
+  "status": "pending",
+  "outcome": null,
+  "rate_applied": [],
+  "issue": 34,
+  "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/34",
+  "explicit": {
+    "model": "claude-sonnet-5-5",
+    "predicted": false,
+    "verdict": "clean",
+    "findings": [],
+    "reason": "Das Skript behandelt sachlich das chemische Element Molybdän (Geschichte, Eigenschaften, Förderung, Medizin, Biologie). Erwähnungen von Rüstungsproduktion, Panzerplatten, Raketenkomponenten, Koma oder Toxizitätswerten sind nüchtern und beiläufig, ohne drastische Schilderung. Sexualität, Drogen und Schimpfwörter kommen nicht vor.",
+    "label": null,
+    "reviewer_flag": null,
+    "note": null,
+    "comment_id": null
+  },
+  "turns": [
+    {
+      "turn_index": 0,
+      "speaker": "Lena",
+      "text": "Heute geht es um Molybdän. Das ist ein chemisches Element mit dem Elementsymbol Mo und der Ordnungszahl zweiundvierzig. Der Name kommt vom altgriechischen Wort mólybdos, das Blei bedeutet. Molybdän zählt zu den Übergangsmetallen und steht im Periodensystem in der fünften Periode und in der sechsten Nebengruppe. Es ist ein hartes, zähes, stahlgraues Metall. Es ist korrosionsbeständig, ungiftig und hat einen hohen Schmelzpunkt.",
+      "previous_text": null,
+      "fact_ids": [
+        "272430297-0000",
+        "272430297-0001"
+      ],
+      "statements": [
+        {
+          "text": "Molybdän ist ein chemisches Element mit dem Symbol Mo und der Ordnungszahl 42; der Name kommt vom altgriechischen mólybdos, das Blei bedeutet.",
+          "fact_ids": [
+            "272430297-0000"
+          ]
+        },
+        {
+          "text": "Molybdän zählt zu den Übergangsmetallen und steht in der 5. Periode und der 6. Nebengruppe.",
+          "fact_ids": [
+            "272430297-0000"
+          ]
+        },
+        {
+          "text": "Molybdän ist ein hartes, zähes, stahlgraues, korrosionsbeständiges, ungiftiges Metall mit hohem Schmelzpunkt.",
+          "fact_ids": [
+            "272430297-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0000",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Molybdän [molʏpˈdɛːn] (von altgriechisch μόλυβδος mólybdos „Blei“) ist ein chemisches Element mit dem Elementsymbol Mo und der Ordnungszahl 42. Es zählt zu den Übergangsmetallen, im Periodensystem steht es in der 5. Periode sowie der 6. Nebengruppe (Gruppe 6 oder Chromgruppe).",
+          "context": []
+        },
+        {
+          "id": "272430297-0001",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Molybdän ist ein hartes, zähes, stahlgraues, korrosionsbeständiges, in reinem Zustand duktiles und ungiftiges Metall mit einem hohen Schmelzpunkt.",
+          "context": [
+            "Molybdän [molʏpˈdɛːn] (von altgriechisch μόλυβδος mólybdos „Blei“) ist ein chemisches Element mit dem Elementsymbol Mo und der Ordnungszahl 42. Es zählt zu den Übergangsmetallen, im Periodensystem steht es in der 5. Periode sowie der 6. Nebengruppe (Gruppe 6 oder Chromgruppe)."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.85
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Symbol Mo, Ordnungszahl 42, Herkunft von altgriechisch mólybdos „Blei“, Übergangsmetall, 5. Periode, 6. Nebengruppe sowie hart, zäh, stahlgrau, korrosionsbeständig, ungiftig, hoher Schmelzpunkt. „Heute geht es um Molybdän“ ist eine Überleitung ohne Faktenbehauptung. Es gibt keine Fragen und keine zusätzlichen Angaben; der Gegenstand ist eindeutig Molybdän."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 1,
+      "speaker": "Felix",
+      "text": "Der Name bedeutet also Blei. Was hat es damit auf sich?",
+      "previous_text": "Heute geht es um Molybdän. Das ist ein chemisches Element mit dem Elementsymbol Mo und der Ordnungszahl zweiundvierzig. Der Name kommt vom altgriechischen Wort mólybdos, das Blei bedeutet. Molybdän zählt zu den Übergangsmetallen und steht im Periodensystem in der fünften Periode und in der sechsten Nebengruppe. Es ist ein hartes, zähes, stahlgraues Metall. Es ist korrosionsbeständig, ungiftig und hat einen hohen Schmelzpunkt.",
+      "fact_ids": [
+        "272430297-0000"
+      ],
+      "statements": [
+        {
+          "text": "Der Name Molybdän kommt vom altgriechischen Wort für Blei.",
+          "fact_ids": [
+            "272430297-0000"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0000",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Molybdän [molʏpˈdɛːn] (von altgriechisch μόλυβδος mólybdos „Blei“) ist ein chemisches Element mit dem Elementsymbol Mo und der Ordnungszahl 42. Es zählt zu den Übergangsmetallen, im Periodensystem steht es in der 5. Periode sowie der 6. Nebengruppe (Gruppe 6 oder Chromgruppe).",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Felix greift das eben Gesagte auf (\"Der Name bedeutet also Blei\"), was durch den Fakt-Satz (mólybdos „Blei“) gedeckt ist. Die Frage \"Was hat es damit auf sich?\" ist eine reine Nachfrage bzw. Bitte um Erklärung und setzt keine bestimmte Einzelheit voraus. Es gibt keine unbelegte Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Lena",
+      "text": "In der Natur findet man Molybdän hauptsächlich im Mineral Molybdänit. Dieses Mineral wurde lange Zeit für ein Bleierz gehalten. Im Jahr siebzehnhundertvierundfünfzig haben Axel Frederic Cronstedt und Bengt Andersson Qvist Molybdänit erstmals genauer untersucht.",
+      "previous_text": "Der Name bedeutet also Blei. Was hat es damit auf sich?",
+      "fact_ids": [
+        "272430297-0002",
+        "272430297-0015"
+      ],
+      "statements": [
+        {
+          "text": "Molybdän findet man in der Natur hauptsächlich im Mineral Molybdänit.",
+          "fact_ids": [
+            "272430297-0002"
+          ]
+        },
+        {
+          "text": "Molybdänit wurde lange Zeit für ein Bleierz gehalten; 1754 wurde es von Axel Frederic Cronstedt und Bengt Andersson Qvist erstmals genauer untersucht.",
+          "fact_ids": [
+            "272430297-0015"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0002",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "In der Natur findet man Molybdän hauptsächlich im Mineral Molybdänit, daneben auch in verschiedenen Molybdaten wie Wulfenit.",
+          "context": []
+        },
+        {
+          "id": "272430297-0015",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Molybdänit wurde lange Zeit für ein Bleierz gehalten, 1754 wurde es von Axel Frederic Cronstedt und Bengt Andersson Qvist erstmals genauer untersucht.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Alle drei Aussagen folgen aus den Fakt-Sätzen: Molybdän kommt hauptsächlich im Molybdänit vor (0002), Molybdänit wurde lange für ein Bleierz gehalten, und 1754 wurde es erstmals von Cronstedt und Qvist genauer untersucht (0015). „Dieses Mineral“ bezieht sich eindeutig auf Molybdänit. Die Antwort passt zur Frage nach der Bedeutung „Blei“, ohne eine zusätzliche Beziehung zu erfinden. Zusätzliche, nicht belegte Angaben gibt es nicht, und der Redebeitrag enthält keine Frage."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Lena",
+      "text": "Bewiesen wurde auch der chemische Unterschied zwischen Molybdänit und Graphit. Graphit ist eine der natürlichen Erscheinungsformen des chemischen Elements Kohlenstoff in Reinform. Wegen ähnlicher Eigenschaften und ähnlichen Aussehens hielt man zu dieser Zeit beide für Arten von Blei.",
+      "previous_text": "Und wie ging es danach weiter?",
+      "fact_ids": [
+        "272430297-0030",
+        "272100674-0026"
+      ],
+      "statements": [
+        {
+          "text": "Es wurde der chemische Unterschied zwischen Molybdänit und Graphit bewiesen, die wegen ähnlicher Eigenschaften und ähnlichen Aussehens zu dieser Zeit beide für Arten von Blei gehalten wurden.",
+          "fact_ids": [
+            "272430297-0030"
+          ]
+        },
+        {
+          "text": "Graphit ist eine der natürlichen Erscheinungsformen des Kohlenstoffs in Reinform.",
+          "fact_ids": [
+            "272100674-0026"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0030",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Zudem bewies er den chemischen Unterschied zwischen Molybdänit und Graphit, die auf Grund ähnlicher Eigenschaften und ähnlichen Aussehens zu dieser Zeit beide für Arten von Blei gehalten wurden.",
+          "context": [
+            "Er stellte unter anderem Molybdän(VI)-oxid, Molybdänsäure und künstliches Molybdän(IV)-sulfid her und bestätigte damit die Existenz des neuen Elementes."
+          ]
+        },
+        {
+          "id": "272100674-0026",
+          "article": "Graphit",
+          "revid": 272100674,
+          "sentence": "Er ist eine der natürlichen Erscheinungsformen des chemischen Elements Kohlenstoff in Reinform und kristallisiert äußerlich gesehen im hexagonalen Kristallsystem (Genaueres siehe unter Kristallstruktur).",
+          "context": [
+            "Graphit (auch Grafit) ist ein sehr häufig vorkommendes Mineral aus der Mineralklasse der „Elemente“."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Lena",
+      "text": "In dieser Zeit begann auch die erste technische Verwendung von Molybdänit. Das Mineral wurde als Schmierstoff eingesetzt. Erstmals erwähnt wird diese Verwendung im Jahr siebzehnhundertvierundsechzig.",
+      "previous_text": "Das ist ja kurios. Was kam danach?",
+      "fact_ids": [
+        "272430297-0027"
+      ],
+      "statements": [
+        {
+          "text": "Die erste technische Verwendung von Molybdänit als Schmierstoff begann in dieser Zeit und wird 1764 erstmals erwähnt.",
+          "fact_ids": [
+            "272430297-0027"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0027",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "In dieser Zeit begann auch die erste technische Verwendung von Molybdänit als Schmierstoff, diese wird 1764 erstmals erwähnt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Lena",
+      "text": "Die erste Mine, in der Molybdänit abgebaut wurde, lag in Knaben in Norwegen. Dort wurde ab achtzehnhundertachtzig abgebaut. Möglicherweise wurde aber schon Anfang des neunzehnten Jahrhunderts in kleinen Mengen Molybdänit gefördert.",
+      "previous_text": "Schmierstoff, das hätte ich nicht gedacht. Wo kam das Mineral eigentlich her?",
+      "fact_ids": [
+        "272430297-0037"
+      ],
+      "statements": [
+        {
+          "text": "Die erste Mine, in der ab 1880, möglicherweise in kleinen Mengen schon Anfang des 19. Jahrhunderts, Molybdänit abgebaut wurde, lag in Knaben in Norwegen.",
+          "fact_ids": [
+            "272430297-0037"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0037",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Die erste Mine, in der ab 1880, möglicherweise in kleinen Mengen schon Anfang des 19. Jahrhunderts, Molybdänit abgebaut wurde, lag in Knaben in Norwegen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "Lena",
+      "text": "Wegen der Sprödigkeit von kohlenstoffhaltigem Molybdän spielte das Metall lange keine große Rolle. Es konnte außerdem lange Zeit nicht geschmolzen werden.",
+      "previous_text": "Und wie sah es mit dem Metall selbst aus?",
+      "fact_ids": [
+        "272430297-0033"
+      ],
+      "statements": [
+        {
+          "text": "Wegen der Sprödigkeit von kohlenstoffhaltigem Molybdän spielte das Metall lange keine große Rolle, und es konnte lange Zeit nicht geschmolzen werden.",
+          "fact_ids": [
+            "272430297-0033"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0033",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Auf Grund der Sprödigkeit von kohlenstoffhaltigem Molybdän spielte das Metall lange keine große Rolle, es konnte auch lange Zeit nicht geschmolzen werden.",
+          "context": [
+            "Dieser konnte schließlich 1781 metallisches Molybdän herstellen, das aber stark kohlenstoffhaltig war."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 11,
+      "speaker": "Felix",
+      "text": "Woher kam diese Sprödigkeit?",
+      "previous_text": "Wegen der Sprödigkeit von kohlenstoffhaltigem Molybdän spielte das Metall lange keine große Rolle. Es konnte außerdem lange Zeit nicht geschmolzen werden.",
+      "fact_ids": [
+        "272430297-0033"
+      ],
+      "statements": [
+        {
+          "text": "Kohlenstoffhaltiges Molybdän ist spröde.",
+          "fact_ids": [
+            "272430297-0033"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0033",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Auf Grund der Sprödigkeit von kohlenstoffhaltigem Molybdän spielte das Metall lange keine große Rolle, es konnte auch lange Zeit nicht geschmolzen werden.",
+          "context": [
+            "Dieser konnte schließlich 1781 metallisches Molybdän herstellen, das aber stark kohlenstoffhaltig war."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.91
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine reine Nachfrage (\"Woher kam diese Sprödigkeit?\") und bittet um Erklärung des eben von Lena Gesagten. Die Sprödigkeit wurde im vorherigen Beitrag genannt, die Frage setzt also nichts Neues als Tatsache voraus und enthält keine vorweggenommene Einzelheit, Wertung oder Vermutung. Sie ist belegfrei, daher ist keine weitere Stützung durch den Fakt-Satz nötig."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "Lena",
+      "text": "Schon sehr geringe Mengen Sauerstoff im Metall machen Molybdän bei Raumtemperatur spröde. Gemeint sind Mengen von unter null Komma null null eins Prozent.",
+      "previous_text": "Woher kam diese Sprödigkeit?",
+      "fact_ids": [
+        "272430297-0120"
+      ],
+      "statements": [
+        {
+          "text": "Schon sehr geringe Mengen von unter 0,001 % Sauerstoff im Metall bewirken, dass Molybdän bei Raumtemperatur spröde ist.",
+          "fact_ids": [
+            "272430297-0120"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0120",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Schon sehr geringe Mengen von unter 0,001 % Sauerstoff im Metall bewirken, dass Molybdän bei Raumtemperatur spröde ist.",
+          "context": [
+            "Allerdings haben schon kleine Beimengungen anderer Elemente Einfluss auf die Duktilität, insbesondere durch Sauerstoff wird sie beeinflusst."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 14,
+      "speaker": "Lena",
+      "text": "Im Jahr achtzehnhundertfünfundneunzig konnte Henri Moissan in einem von ihm erfundenen elektrischen Ofen zunächst größere Mengen kohlenstoffhaltiges, sprödes Roh-Molybdän gewinnen. Danach gewann er auch neunundneunzig Komma neun acht Prozent reines, weiches Molybdän.",
+      "previous_text": "Wie ging es mit dem Metall dann weiter?",
+      "fact_ids": [
+        "272430297-0036"
+      ],
+      "statements": [
+        {
+          "text": "1895 konnte Henri Moissan im von ihm erfundenen elektrischen Ofen zunächst größere Mengen kohlenstoffhaltiges, sprödes Roh-Molybdän und danach auch 99,98 % reines, weiches Molybdän gewinnen.",
+          "fact_ids": [
+            "272430297-0036"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0036",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "1895 konnte Henri Moissan im von ihm erfundenen elektrischen Ofen zunächst größere Mengen kohlenstoffhaltiges, sprödes Roh-Molybdän und danach auch 99,98 % reines, weiches Molybdän gewinnen.",
+          "context": [
+            "1894 produzierte Schneider et Cie in Creusot (Frankreich) die erste Panzerplatte aus molybdänhaltigem Stahl."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 16,
+      "speaker": "Lena",
+      "text": "Achtzehnhundertvierundneunzig produzierte Schneider et Cie in Creusot in Frankreich die erste Panzerplatte aus molybdänhaltigem Stahl.",
+      "previous_text": "Gab es in dieser Zeit noch weitere Entwicklungen?",
+      "fact_ids": [
+        "272430297-0035"
+      ],
+      "statements": [
+        {
+          "text": "1894 produzierte Schneider et Cie in Creusot (Frankreich) die erste Panzerplatte aus molybdänhaltigem Stahl.",
+          "fact_ids": [
+            "272430297-0035"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0035",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "1894 produzierte Schneider et Cie in Creusot (Frankreich) die erste Panzerplatte aus molybdänhaltigem Stahl.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 17,
+      "speaker": "Felix",
+      "text": "Was bewirkt Molybdän denn im Stahl?",
+      "previous_text": "Achtzehnhundertvierundneunzig produzierte Schneider et Cie in Creusot in Frankreich die erste Panzerplatte aus molybdänhaltigem Stahl.",
+      "fact_ids": [
+        "272430297-0035"
+      ],
+      "statements": [
+        {
+          "text": "Es gibt Stahl, der Molybdän enthält.",
+          "fact_ids": [
+            "272430297-0035"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0035",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "1894 produzierte Schneider et Cie in Creusot (Frankreich) die erste Panzerplatte aus molybdänhaltigem Stahl.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.89
+        },
+        "jev_error": null,
+        "reason": "Felix stellt nur eine Nachfrage bzw. Bitte um Erklärung zum eben genannten Molybdän im Stahl. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg; dass Molybdän im Stahl etwas bewirkt, ist eine allgemeine Voraussetzung, die sich aus dem Gespräch über molybdänhaltigen Stahl ergibt. Der Redebeitrag enthält keine Behauptung und ist belegfrei."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 18,
+      "speaker": "Lena",
+      "text": "Molybdän verbessert verschiedene Stahleigenschaften. Dazu zählen Härte, Kriechfestigkeit, Korrosionsbeständigkeit, Festigkeit oder Anlasssprödigkeit.",
+      "previous_text": "Was bewirkt Molybdän denn im Stahl?",
+      "fact_ids": [
+        "272430297-0009"
+      ],
+      "statements": [
+        {
+          "text": "Molybdän verbessert im Stahl verschiedene Eigenschaften wie Härte, Kriechfestigkeit, Korrosionsbeständigkeit, Festigkeit oder Anlasssprödigkeit.",
+          "fact_ids": [
+            "272430297-0009"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0009",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Dabei verbessert es verschiedene Stahleigenschaften wie Härte, Kriechfestigkeit, Korrosionsbeständigkeit, Festigkeit oder Anlasssprödigkeit.",
+          "context": [
+            "Der größte Teil des Metalls wird als Zusatz zu verschiedenen Stahlsorten verwendet, wobei meist geringe Mengen von wenigen Prozent ausreichen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 20,
+      "speaker": "Lena",
+      "text": "Während des Ersten Weltkrieges stieg der Bedarf an Molybdän in der Rüstungsproduktion stark an. Es sollte auch das seltene Wolfram ersetzen.",
+      "previous_text": "Spielte Molybdän auch in Kriegen eine Rolle?",
+      "fact_ids": [
+        "272430297-0038"
+      ],
+      "statements": [
+        {
+          "text": "Während des Ersten Weltkrieges stieg der Bedarf an Molybdän in der Rüstungsproduktion stark an, auch um das seltene Wolfram zu ersetzen.",
+          "fact_ids": [
+            "272430297-0038"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0038",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Während des Ersten Weltkrieges stieg der Bedarf an Molybdän in der Rüstungsproduktion stark an, auch um das seltene Wolfram zu ersetzen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Lena",
+      "text": "In Großbritannien beanspruchte die Royal Navy die gesamte verfügbare Molybdänproduktion.",
+      "previous_text": "Wie sah das konkret aus?",
+      "fact_ids": [
+        "272430297-0039"
+      ],
+      "statements": [
+        {
+          "text": "In Großbritannien beanspruchte die Royal Navy die gesamte verfügbare Molybdänproduktion.",
+          "fact_ids": [
+            "272430297-0039"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0039",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "So beanspruchte in Großbritannien die Royal Navy die gesamte verfügbare Molybdänproduktion.",
+          "context": [
+            "Während des Ersten Weltkrieges stieg der Bedarf an Molybdän in der Rüstungsproduktion stark an, auch um das seltene Wolfram zu ersetzen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Lena",
+      "text": "Durch die Verwendung in der Stahlproduktion wurde Molybdän für die Rüstungsproduktion wichtig. Im Zweiten Weltkrieg nutzte Deutschland Vorkommen in Norwegen. Die Alliierten wurden durch die Vereinigten Staaten versorgt.",
+      "previous_text": "Und wie war das im Zweiten Weltkrieg?",
+      "fact_ids": [
+        "272430297-0018"
+      ],
+      "statements": [
+        {
+          "text": "Durch die Verwendung in der Stahlproduktion wurde Molybdän für die Rüstungsproduktion wichtig; im Zweiten Weltkrieg nutzte Deutschland Vorkommen in Norwegen, die Alliierten wurden durch die Vereinigten Staaten versorgt.",
+          "fact_ids": [
+            "272430297-0018"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0018",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Durch die Verwendung in der Stahlproduktion wurde es für die Rüstungsproduktion wichtig, im Zweiten Weltkrieg nutzte Deutschland Vorkommen in Norwegen, die Alliierten wurden durch die Vereinigten Staaten versorgt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 25,
+      "speaker": "Felix",
+      "text": "Der Schmelzpunkt wurde vorhin schon erwähnt. Wie hoch liegt er genau?",
+      "previous_text": "Durch die Verwendung in der Stahlproduktion wurde Molybdän für die Rüstungsproduktion wichtig. Im Zweiten Weltkrieg nutzte Deutschland Vorkommen in Norwegen. Die Alliierten wurden durch die Vereinigten Staaten versorgt.",
+      "fact_ids": [
+        "272430297-0001"
+      ],
+      "statements": [
+        {
+          "text": "Molybdän hat einen hohen Schmelzpunkt.",
+          "fact_ids": [
+            "272430297-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0001",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Molybdän ist ein hartes, zähes, stahlgraues, korrosionsbeständiges, in reinem Zustand duktiles und ungiftiges Metall mit einem hohen Schmelzpunkt.",
+          "context": [
+            "Molybdän [molʏpˈdɛːn] (von altgriechisch μόλυβδος mólybdos „Blei“) ist ein chemisches Element mit dem Elementsymbol Mo und der Ordnungszahl 42. Es zählt zu den Übergangsmetallen, im Periodensystem steht es in der 5. Periode sowie der 6. Nebengruppe (Gruppe 6 oder Chromgruppe)."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.89
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag enthält keine neue Sachbehauptung. „Der Schmelzpunkt wurde vorhin schon erwähnt“ greift nur das Gespräch auf, und der Fakt nennt Molybdän als Metall mit hohem Schmelzpunkt. Die Frage „Wie hoch liegt er genau?“ ist eine Nachfrage und nimmt keine Zahl oder Einzelheit vorweg. Der Gegenstand ist eindeutig Molybdän, das Thema des vorherigen Redebeitrags und des Artikels."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 26,
+      "speaker": "Lena",
+      "text": "Der Schmelzpunkt von Molybdän liegt bei zweitausendsechshundertzweiundzwanzig Grad Celsius, mit einer Unsicherheit von vier Grad. Nach Kohlenstoff, Wolfram, Rhenium, Osmium und Tantal hat Molybdän damit einen der höchsten Schmelzpunkte aller Elemente.",
+      "previous_text": "Der Schmelzpunkt wurde vorhin schon erwähnt. Wie hoch liegt er genau?",
+      "fact_ids": [
+        "272430297-0114"
+      ],
+      "statements": [
+        {
+          "text": "Mit einem Schmelzpunkt von 2622 ± 4 °C hat Molybdän nach Kohlenstoff, Wolfram, Rhenium, Osmium und Tantal einen der höchsten Schmelzpunkte aller Elemente.",
+          "fact_ids": [
+            "272430297-0114"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0114",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Mit einem Schmelzpunkt von 2622 ± 4 °C hat es nach Kohlenstoff, Wolfram, Rhenium, Osmium und Tantal einen der höchsten Schmelzpunkte aller Elemente.",
+          "context": [
+            "Molybdän ist ein silberglänzendes, hartes, zähes, hochschmelzendes Metall."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.91,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: 2622 ± 4 °C, die Reihenfolge Kohlenstoff, Wolfram, Rhenium, Osmium, Tantal und die Aussage über einen der höchsten Schmelzpunkte. „Es“ im Fakt-Satz meint Molybdän, das Thema des Artikels, und Lena nennt es ausdrücklich. Das passt auch zur Frage nach dem Schmelzpunkt. Es kommt keine zusätzliche Angabe hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 28,
+      "speaker": "Lena",
+      "text": "Wolfram ist das chemische Element mit dem höchsten Schmelz- und Siedepunkt.",
+      "previous_text": "Welches Element hat denn den höchsten Schmelzpunkt?",
+      "fact_ids": [
+        "271990945-0002"
+      ],
+      "statements": [
+        {
+          "text": "Wolfram ist das chemische Element mit dem höchsten Schmelz- und Siedepunkt.",
+          "fact_ids": [
+            "271990945-0002"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271990945-0002",
+          "article": "Wolfram",
+          "revid": 271990945,
+          "sentence": "Es ist das chemische Element mit dem höchsten Schmelz- und Siedepunkt.",
+          "context": [
+            "Wolfram ist ein weißglänzendes Schwermetall hoher Dichte, das bereits bei sehr geringen Verunreinigungen spröde wird."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Lena",
+      "text": "Bei sehr niedrigen Temperaturen zeigt Molybdän Supraleitung. Die Sprungtemperatur beträgt null Komma neun zwei Kelvin.",
+      "previous_text": "Und wie verhält sich Molybdän bei sehr tiefen Temperaturen?",
+      "fact_ids": [
+        "272430297-0126"
+      ],
+      "statements": [
+        {
+          "text": "Bei sehr niedrigen Temperaturen zeigt Molybdän Supraleitung, seine Sprungtemperatur beträgt 0,92 K.",
+          "fact_ids": [
+            "272430297-0126"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0126",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Bei sehr niedrigen Temperaturen zeigt Molybdän Supraleitung, seine Sprungtemperatur beträgt 0,92 K.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 32,
+      "speaker": "Lena",
+      "text": "In den meisten Säuren ist Molybdän bei Raumtemperatur unlöslich. Das gilt für nicht-oxidierende Säuren wie Salzsäure und für generell verdünnte Säuren. Auch Flusssäure und Königswasser lösen es bei Raumtemperatur nicht.",
+      "previous_text": "Spannend. Wie reagiert das Metall auf Säuren?",
+      "fact_ids": [
+        "272430297-0132"
+      ],
+      "statements": [
+        {
+          "text": "In den meisten Säuren ist Molybdän bei Raumtemperatur unlöslich, das gilt für nicht-oxidierende Säuren wie Salzsäure, generell verdünnte Säuren, aber auch Flusssäure und Königswasser.",
+          "fact_ids": [
+            "272430297-0132"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0132",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "In den meisten Säuren ist Molybdän bei Raumtemperatur unlöslich, dies gilt für nicht-oxidierende Säuren wie Salzsäure, generell verdünnte Säuren, aber auch Flusssäure und Königswasser.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 33,
+      "speaker": "Felix",
+      "text": "Gibt es Säuren, die es trotzdem angreifen?",
+      "previous_text": "In den meisten Säuren ist Molybdän bei Raumtemperatur unlöslich. Das gilt für nicht-oxidierende Säuren wie Salzsäure und für generell verdünnte Säuren. Auch Flusssäure und Königswasser lösen es bei Raumtemperatur nicht.",
+      "fact_ids": [
+        "272430297-0132"
+      ],
+      "statements": [
+        {
+          "text": "Molybdän ist in den meisten Säuren bei Raumtemperatur unlöslich.",
+          "fact_ids": [
+            "272430297-0132"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0132",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "In den meisten Säuren ist Molybdän bei Raumtemperatur unlöslich, dies gilt für nicht-oxidierende Säuren wie Salzsäure, generell verdünnte Säuren, aber auch Flusssäure und Königswasser.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.87
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine reine Nachfrage („Gibt es Säuren, die es trotzdem angreifen?“) im Anschluss an Lenas Aussage. Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Damit ist sie belegfrei, und es steht keine unbelegte Behauptung darin."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 34,
+      "speaker": "Lena",
+      "text": "Angegriffen wird das Metall von heißer konzentrierter Salpetersäure und von heißem Königswasser. Im Kalten greifen es Mischungen aus Salpetersäure und Flusssäure sowie aus Salpetersäure und Schwefelsäure an.",
+      "previous_text": "Gibt es Säuren, die es trotzdem angreifen?",
+      "fact_ids": [
+        "272430297-0133"
+      ],
+      "statements": [
+        {
+          "text": "Das Metall wird von heißer konzentrierter Salpetersäure, heißem Königswasser, im Kalten von Salpetersäure-Flusssäure- und Salpetersäure-Schwefelsäure-Mischungen angegriffen.",
+          "fact_ids": [
+            "272430297-0133"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0133",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Angegriffen wird das Metall von heißer konzentrierter Salpetersäure, heißem Königswasser, im Kalten von Salpetersäure-Flusssäure- und Salpetersäure-Schwefelsäure-Mischungen.",
+          "context": [
+            "In den meisten Säuren ist Molybdän bei Raumtemperatur unlöslich, dies gilt für nicht-oxidierende Säuren wie Salzsäure, generell verdünnte Säuren, aber auch Flusssäure und Königswasser."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 36,
+      "speaker": "Lena",
+      "text": "Molybdän-Pulver kann in der Hitze oder durch Feuer explodieren. Bei sehr feiner Verteilung kann es sich auch selbst entzünden.",
+      "previous_text": "Gibt es Gefahren im Umgang mit dem Metall?",
+      "fact_ids": [
+        "272430297-0233"
+      ],
+      "statements": [
+        {
+          "text": "Molybdän-Pulver kann in der Hitze oder durch Feuer explodieren, bei sehr feiner Verteilung sich auch selbst entzünden.",
+          "fact_ids": [
+            "272430297-0233"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0233",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Molybdän-Pulver kann in der Hitze oder durch Feuer explodieren, bei sehr feiner Verteilung sich auch selbst entzünden.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 38,
+      "speaker": "Lena",
+      "text": "Synthetisiert wurde eine Verbindung mit einer Fünffachbindung zwischen zwei Molybdänatomen. Die Bindungslänge beträgt zweihundertzwei Pikometer. Die Verbindung hat außerdem zwei Delta-Bindungen.",
+      "previous_text": "Oha. Was gibt es bei den chemischen Verbindungen Besonderes?",
+      "fact_ids": [
+        "272430297-0292"
+      ],
+      "statements": [
+        {
+          "text": "Eine Verbindung mit Mo-Mo-Fünffachbindung mit einer Bindungslänge von 202 pm und zwei δ-Bindungen wurde synthetisiert.",
+          "fact_ids": [
+            "272430297-0292"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0292",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Auch eine Verbindung mit Mo-Mo-Fünffachbindung mit einer Bindungslänge von 202 pm und zwei δ-Bindungen wurde synthetisiert.",
+          "context": [
+            "Diese enthalten neben σ- und π-Bindungen auch eine δ-Bindung zweier d-Orbitale."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 40,
+      "speaker": "Lena",
+      "text": "Die größten Vorkommen des Elementes liegen im Qinling-Gebirge in der Volksrepublik China und in Colorado in den Vereinigten Staaten.",
+      "previous_text": "Kommen wir zur Förderung. Wo liegen die größten Vorkommen?",
+      "fact_ids": [
+        "272430297-0003"
+      ],
+      "statements": [
+        {
+          "text": "Die größten Vorkommen des Elementes liegen im Qinling-Gebirge in der Volksrepublik China und in Colorado in den Vereinigten Staaten.",
+          "fact_ids": [
+            "272430297-0003"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0003",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Die größten Vorkommen des Elementes liegen im Qinling-Gebirge in der Volksrepublik China und in Colorado in den Vereinigten Staaten.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 42,
+      "speaker": "Lena",
+      "text": "Große Lagerstätten liegen vor allem in den Anden und den Rocky Mountains. Abgebaut werden sie in Tagebauen wie Chuquicamata und El Teniente in Chile oder Toquepala in Peru. Das Molybdän wird dort als Nebenprodukt bei der Kupferproduktion gewonnen.",
+      "previous_text": "Gibt es noch weitere große Lagerstätten?",
+      "fact_ids": [
+        "272430297-0072"
+      ],
+      "statements": [
+        {
+          "text": "Große Lagerstätten liegen vor allem in den Anden und den Rocky Mountains und werden in Tagebauen wie Chuquicamata und El Teniente in Chile oder Toquepala in Peru abgebaut, und das Molybdän wird als Nebenprodukt bei der Kupferproduktion gewonnen.",
+          "fact_ids": [
+            "272430297-0072"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0072",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Große Lagerstätten liegen vor allem in den Anden und den Rocky Mountains und werden in Tagebauen wie Chuquicamata und El Teniente in Chile oder Toquepala in Peru abgebaut, und das Molybdän wird als Nebenprodukt bei der Kupferproduktion gewonnen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 44,
+      "speaker": "Lena",
+      "text": "Weltweit dominiert mit fünfundfünfzig bis sechzig Prozent die Gewinnung aus Kupfererzen. In China werden dagegen überwiegend, nämlich zu etwa fünfundachtzig Prozent, primäre Molybdänerze genutzt.",
+      "previous_text": "Woher stammt weltweit der größte Teil des Molybdäns?",
+      "fact_ids": [
+        "272430297-0078"
+      ],
+      "statements": [
+        {
+          "text": "Weltweit dominiert mit 55 bis 60 % die Gewinnung aus Kupfererzen, während in China überwiegend (etwa 85 %) primäre Molybdänerze genutzt werden.",
+          "fact_ids": [
+            "272430297-0078"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0078",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Dabei dominiert weltweit mit 55 bis 60 % die Gewinnung aus Kupfererzen, während in China überwiegend (etwa 85 %) primäre Molybdänerze genutzt werden.",
+          "context": [
+            "Molybdän wird entweder aus primären Molybdäniterzen oder als Nebenprodukt bei der Gewinnung von Kupfererzen gewonnen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 46,
+      "speaker": "Lena",
+      "text": "Ein Recycling von Molybdän ist möglich. Allerdings wird nur ein geringer Teil tatsächlich wiedergewonnen, geschätzt zwanzig Prozent.",
+      "previous_text": "Wird Molybdän auch wiederverwertet?",
+      "fact_ids": [
+        "272430297-0103"
+      ],
+      "statements": [
+        {
+          "text": "Ein Recycling von Molybdän ist möglich, allerdings wird nur ein geringer Teil von geschätzt 20 % tatsächlich wiedergewonnen.",
+          "fact_ids": [
+            "272430297-0103"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0103",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Ein Recycling von Molybdän ist möglich, allerdings wird nur ein geringer Teil von geschätzt 20 % tatsächlich wiedergewonnen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 48,
+      "speaker": "Lena",
+      "text": "Die Deutsche Rohstoffagentur listet Molybdän als kritischen Rohstoff in der höchsten Risikogruppe drei. Auf der Liste der kritischen Rohstoffe der Europäischen Union ist Molybdän dagegen nicht gelistet.",
+      "previous_text": "Wie schätzt man die Versorgungslage ein?",
+      "fact_ids": [
+        "272430297-0111"
+      ],
+      "statements": [
+        {
+          "text": "Die Deutsche Rohstoffagentur (DERA) listet Molybdän als kritischen Rohstoff in der höchsten Risikogruppe 3, auf der Liste der kritischen Rohstoffe der Europäischen Union ist Molybdän dagegen nicht gelistet.",
+          "fact_ids": [
+            "272430297-0111"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0111",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Darum listet die Deutsche Rohstoffagentur (DERA) Molybdän als kritischen Rohstoff in der höchsten Risikogruppe 3. Auf der Liste der kritischen Rohstoffe der Europäischen Union ist Molybdän dagegen nicht gelistet.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 50,
+      "speaker": "Lena",
+      "text": "Im Rahmen der Auseinandersetzungen um die Zollpolitik der Vereinigten Staaten führte China im Februar zweitausendfünfundzwanzig Exportkontrollen unter anderem für bestimmte Molybdänprodukte ein. Betroffen ist Molybdänpulver mit mindestens siebenundneunzig Prozent Molybdän und einem Partikeldurchmesser von höchstens fünfzig Mikrometern. Dieses Pulver wird für Raketenkomponenten verwendet.",
+      "previous_text": "Spielt das Metall auch in der aktuellen Politik eine Rolle?",
+      "fact_ids": [
+        "272430297-0112"
+      ],
+      "statements": [
+        {
+          "text": "Im Rahmen der Auseinandersetzungen um die Zollpolitik der Vereinigten Staaten führte China im Februar 2025 Exportkontrollen unter anderem für bestimmte Molybdänprodukte ein, nämlich Molybdänpulver mit mindestens 97 % Molybdän und einem Partikeldurchmesser von höchstens 50 μm, das für Raketenkomponenten verwendet wird.",
+          "fact_ids": [
+            "272430297-0112"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0112",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Im Rahmen der Auseinandersetzungen um die Zollpolitik der Vereinigten Staaten führte China im Februar 2025 Exportkontrollen unter anderem für bestimmte Molybdänprodukte (Molybdänpulver mit mindestens 97 % Molybdän und einem Partikeldurchmesser von höchstens 50 μm, das für Raketenkomponenten verwendet wird) ein.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 52,
+      "speaker": "Lena",
+      "text": "In der Medizin wird Molybdän als Material für die Anode in Röntgengeräten verwendet. Diese Geräte werden in der Mammographie eingesetzt.",
+      "previous_text": "Taucht Molybdän auch in der Medizin auf?",
+      "fact_ids": [
+        "272430297-0181"
+      ],
+      "statements": [
+        {
+          "text": "In der Medizin wird Molybdän als Material für die Anode in Röntgengeräten verwendet, die in der Mammographie eingesetzt werden.",
+          "fact_ids": [
+            "272430297-0181"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0181",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "In der Medizin wird Molybdän als Material für die Anode in Röntgengeräten verwendet, die in der Mammographie eingesetzt werden.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 53,
+      "speaker": "Felix",
+      "text": "Hat sich dort seitdem etwas getan?",
+      "previous_text": "In der Medizin wird Molybdän als Material für die Anode in Röntgengeräten verwendet. Diese Geräte werden in der Mammographie eingesetzt.",
+      "fact_ids": [
+        "272430297-0181"
+      ],
+      "statements": [
+        {
+          "text": "Molybdän wird in der Medizin als Anodenmaterial in Röntgengeräten verwendet.",
+          "fact_ids": [
+            "272430297-0181"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0181",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "In der Medizin wird Molybdän als Material für die Anode in Röntgengeräten verwendet, die in der Mammographie eingesetzt werden.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 54,
+      "speaker": "Lena",
+      "text": "Inzwischen werden auch Doppelanoden aus Molybdän und Rhodium eingesetzt.",
+      "previous_text": "Hat sich dort seitdem etwas getan?",
+      "fact_ids": [
+        "272430297-0182"
+      ],
+      "statements": [
+        {
+          "text": "Inzwischen werden auch Doppelanoden aus Molybdän und Rhodium eingesetzt.",
+          "fact_ids": [
+            "272430297-0182"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0182",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Inzwischen werden auch Doppelanoden aus Molybdän und Rhodium eingesetzt.",
+          "context": [
+            "In der Medizin wird Molybdän als Material für die Anode in Röntgengeräten verwendet, die in der Mammographie eingesetzt werden."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.95,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 56,
+      "speaker": "Lena",
+      "text": "Von besonderer technischer Bedeutung ist Molybdän neunundneunzig. Dieses Isotop hat eine Halbwertszeit von sechsundsechzig Stunden. Es ist das Mutterisotop des Technetiumisotops Technetium neunundneunzig m. Technetium neunundneunzig m ist das wichtigste diagnostische Radionuklid für bildgebende Verfahren in der Nuklearmedizin.",
+      "previous_text": "Und wie steht es um die Isotope des Molybdäns?",
+      "fact_ids": [
+        "272430297-0141"
+      ],
+      "statements": [
+        {
+          "text": "Von besonderer technischer Bedeutung ist 99Mo, ein Isotop mit einer Halbwertszeit von 66 Stunden, das Mutterisotop des Technetiumisotops 99mTc.",
+          "fact_ids": [
+            "272430297-0141"
+          ]
+        },
+        {
+          "text": "99mTc ist das wichtigste diagnostische Radionuklid für bildgebende Verfahren in der Nuklearmedizin.",
+          "fact_ids": [
+            "272430297-0141"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0141",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Von besonderer technischer Bedeutung ist 99Mo. Dieses Isotop mit einer Halbwertszeit von 66 Stunden ist das Mutterisotop des Technetiumisotops 99mTc. 99mTc ist das wichtigste diagnostische Radionuklid für bildgebende Verfahren in der Nuklearmedizin.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 57,
+      "speaker": "Felix",
+      "text": "Wie steht es um die Versorgung mit Molybdän neunundneunzig?",
+      "previous_text": "Von besonderer technischer Bedeutung ist Molybdän neunundneunzig. Dieses Isotop hat eine Halbwertszeit von sechsundsechzig Stunden. Es ist das Mutterisotop des Technetiumisotops Technetium neunundneunzig m. Technetium neunundneunzig m ist das wichtigste diagnostische Radionuklid für bildgebende Verfahren in der Nuklearmedizin.",
+      "fact_ids": [
+        "272430297-0141"
+      ],
+      "statements": [
+        {
+          "text": "Es gibt das Isotop Molybdän-99 von besonderer technischer Bedeutung.",
+          "fact_ids": [
+            "272430297-0141"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0141",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Von besonderer technischer Bedeutung ist 99Mo. Dieses Isotop mit einer Halbwertszeit von 66 Stunden ist das Mutterisotop des Technetiumisotops 99mTc. 99mTc ist das wichtigste diagnostische Radionuklid für bildgebende Verfahren in der Nuklearmedizin.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.88
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine Nachfrage bzw. Überleitungsfrage zum Thema Molybdän-99, das Lena zuvor genannt hat. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, etwa dass die Versorgung knapp oder problematisch sei. Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt, und ist daher belegfrei."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 58,
+      "speaker": "Lena",
+      "text": "Durch die geringe Anzahl an Reaktoren, ihr hohes Alter und zunehmende Probleme kam es ab zweitausendsieben und besonders zweitausendneun bis zweitausendzehn zu einem globalen Engpass in der Produktion von Molybdän neunundneunzig.",
+      "previous_text": "Wie steht es um die Versorgung mit Molybdän neunundneunzig?",
+      "fact_ids": [
+        "272430297-0145"
+      ],
+      "statements": [
+        {
+          "text": "Durch die geringe Anzahl an Reaktoren, ihr hohes Alter und zunehmende Probleme kam es ab 2007 und insbesondere 2009–2010 zu einem globalen Engpass in der 99Mo-Produktion.",
+          "fact_ids": [
+            "272430297-0145"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0145",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Durch die geringe Anzahl an Reaktoren, ihr hohes Alter und zunehmende Probleme kam es ab 2007 und insbesondere 2009–2010 zu einem globalen Engpass in der 99Mo-Produktion.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 60,
+      "speaker": "Lena",
+      "text": "Molybdän einhundert ist als einziges natürliches Isotop nicht stabil. Wegen seiner sehr langen Halbwertszeit von sieben Komma null sieben mal zehn hoch achtzehn Jahren ist es aber noch fast vollständig vorhanden.",
+      "previous_text": "Sind alle natürlichen Isotope stabil?",
+      "fact_ids": [
+        "272430297-0139"
+      ],
+      "statements": [
+        {
+          "text": "100Mo ist als einziges natürliches Isotop nicht stabil, aber auf Grund seiner sehr langen Halbwertszeit von 7,07 · 10^18 Jahren noch fast vollständig vorhanden.",
+          "fact_ids": [
+            "272430297-0139"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0139",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Seltener sind 100Mo mit 9,744 %, 97Mo mit 9,582 % und 94Mo mit 9,187 %. 100Mo ist dabei als einziges natürliches Isotop nicht stabil, aber auf Grund seiner sehr langen Halbwertszeit von 7,07 · 1018 Jahren noch fast vollständig vorhanden.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: 100Mo ist als einziges natürliches Isotop nicht stabil, und wegen der sehr langen Halbwertszeit von 7,07 · 10^18 Jahren ist es noch fast vollständig vorhanden. Zahlen stimmen überein, nichts Zusätzliches wird behauptet. Der Gegenstand ist eindeutig (Molybdän, Artikelthema), und der Redebeitrag beantwortet Felix' Frage zu natürlichen Isotopen passend. Eine Frage mit Prämisse enthält der Beitrag nicht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 62,
+      "speaker": "Lena",
+      "text": "Molybdän hat eine erhebliche biologische Bedeutung. Für fast alle Organismen ist es essentiell. Es kommt vor allem als Molybdän-Cofaktor in verschiedenen Enzymen vor, etwa in der Aldehydoxidase und der Sulfitoxidase.",
+      "previous_text": "Brauchen eigentlich auch Lebewesen Molybdän?",
+      "fact_ids": [
+        "272430297-0012",
+        "272430297-0013"
+      ],
+      "statements": [
+        {
+          "text": "Molybdän hat eine erhebliche biologische Bedeutung und ist für fast alle Organismen essentiell.",
+          "fact_ids": [
+            "272430297-0012"
+          ]
+        },
+        {
+          "text": "Molybdän kommt vor allem als Molybdän-Cofaktor in verschiedenen Enzymen wie Aldehydoxidase und Sulfitoxidase vor.",
+          "fact_ids": [
+            "272430297-0013"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0012",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Molybdän hat eine erhebliche biologische Bedeutung und ist für fast alle Organismen essentiell.",
+          "context": []
+        },
+        {
+          "id": "272430297-0013",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Es kommt vor allem als Molybdän-Cofaktor in verschiedenen Enzymen wie Aldehydoxidase und Sulfitoxidase vor.",
+          "context": [
+            "Molybdän hat eine erhebliche biologische Bedeutung und ist für fast alle Organismen essentiell."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 63,
+      "speaker": "Felix",
+      "text": "Gilt das wirklich für alle Lebewesen?",
+      "previous_text": "Molybdän hat eine erhebliche biologische Bedeutung. Für fast alle Organismen ist es essentiell. Es kommt vor allem als Molybdän-Cofaktor in verschiedenen Enzymen vor, etwa in der Aldehydoxidase und der Sulfitoxidase.",
+      "fact_ids": [
+        "272430297-0012"
+      ],
+      "statements": [
+        {
+          "text": "Molybdän ist für fast alle Organismen essentiell.",
+          "fact_ids": [
+            "272430297-0012"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0012",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Molybdän hat eine erhebliche biologische Bedeutung und ist für fast alle Organismen essentiell.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 64,
+      "speaker": "Lena",
+      "text": "Es gibt Ausnahmen. Einige thermophile Archaeen nutzen Wolfram-Cofaktoren statt Molybdän. Außerdem wurden in der Backhefe und weiteren Arten der Zuckerhefen keine molybdänhaltigen Enzyme gefunden. Auch keine Proteine zur Biosynthese von Molybdän-Cofaktoren wurden dort gefunden.",
+      "previous_text": "Gilt das wirklich für alle Lebewesen?",
+      "fact_ids": [
+        "272430297-0197"
+      ],
+      "statements": [
+        {
+          "text": "Ausnahmen sind einige thermophile Archaeen, die Wolfram-Cofaktoren statt Molybdän nutzen, sowie die Backhefe (Saccharomyces cerevisiae) und weitere Arten der Zuckerhefen, in denen keine molybdänhaltigen Enzyme und keine Proteine zur Biosynthese von Molybdän-Cofaktoren gefunden wurden.",
+          "fact_ids": [
+            "272430297-0197"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0197",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Ausnahmen sind einige thermophile Archaeen, die Wolfram-Cofaktoren statt Molybdän nutzen sowie die Backhefe (Saccharomyces cerevisiae) und weitere Arten der Zuckerhefen, in denen keine molybdänhaltigen Enzyme und auch keine Proteine zur Biosynthese von Molybdän-Cofaktoren gefunden wurden.",
+          "context": [
+            "Molybdän ist das einzige Übergangsmetall aus der fünften Periode, das eine derartige biochemische Relevanz aufweist."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 65,
+      "speaker": "Felix",
+      "text": "Wow, das ist spannend! Molybdän zählt ja zu den Übergangsmetallen. Wie ordnet es sich unter ihnen ein?",
+      "previous_text": "Es gibt Ausnahmen. Einige thermophile Archaeen nutzen Wolfram-Cofaktoren statt Molybdän. Außerdem wurden in der Backhefe und weiteren Arten der Zuckerhefen keine molybdänhaltigen Enzyme gefunden. Auch keine Proteine zur Biosynthese von Molybdän-Cofaktoren wurden dort gefunden.",
+      "fact_ids": [
+        "272430297-0000"
+      ],
+      "statements": [
+        {
+          "text": "Molybdän zählt zu den Übergangsmetallen.",
+          "fact_ids": [
+            "272430297-0000"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0000",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Molybdän [molʏpˈdɛːn] (von altgriechisch μόλυβδος mólybdos „Blei“) ist ein chemisches Element mit dem Elementsymbol Mo und der Ordnungszahl 42. Es zählt zu den Übergangsmetallen, im Periodensystem steht es in der 5. Periode sowie der 6. Nebengruppe (Gruppe 6 oder Chromgruppe).",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 1.0,
+          "vollstaendig": 0.88
+        },
+        "jev_error": null,
+        "reason": "„Molybdän zählt ja zu den Übergangsmetallen“ folgt direkt aus dem Fakt-Satz (Artikel Molybdän). „Wow, das ist spannend!“ ist eine Reaktion. „Wie ordnet es sich unter ihnen ein?“ ist eine offene Nachfrage ohne vorweggenommene Einzelheit. Der Gegenstand „es“ ist durch den vorherigen Satz eindeutig Molybdän."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 66,
+      "speaker": "Lena",
+      "text": "Molybdän ist das einzige Übergangsmetall aus der fünften Periode, das eine derartige biochemische Relevanz aufweist.",
+      "previous_text": "Wow, das ist spannend! Molybdän zählt ja zu den Übergangsmetallen. Wie ordnet es sich unter ihnen ein?",
+      "fact_ids": [
+        "272430297-0196"
+      ],
+      "statements": [
+        {
+          "text": "Molybdän ist das einzige Übergangsmetall aus der fünften Periode, das eine derartige biochemische Relevanz aufweist.",
+          "fact_ids": [
+            "272430297-0196"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0196",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Molybdän ist das einzige Übergangsmetall aus der fünften Periode, das eine derartige biochemische Relevanz aufweist.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 67,
+      "speaker": "Felix",
+      "text": "Kommt Molybdän in Enzymen immer als Molybdän-Cofaktor vor?",
+      "previous_text": "Molybdän ist das einzige Übergangsmetall aus der fünften Periode, das eine derartige biochemische Relevanz aufweist.",
+      "fact_ids": [
+        "272430297-0013"
+      ],
+      "statements": [
+        {
+          "text": "Molybdän kommt vor allem als Molybdän-Cofaktor in Enzymen vor.",
+          "fact_ids": [
+            "272430297-0013"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0013",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Es kommt vor allem als Molybdän-Cofaktor in verschiedenen Enzymen wie Aldehydoxidase und Sulfitoxidase vor.",
+          "context": [
+            "Molybdän hat eine erhebliche biologische Bedeutung und ist für fast alle Organismen essentiell."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.66
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine Nachfrage. Sie setzt nur voraus, dass Molybdän in Enzymen als Molybdän-Cofaktor vorkommt. Das deckt der Fakt ab: Es kommt vor allem als Molybdän-Cofaktor in Enzymen wie Aldehydoxidase und Sulfitoxidase vor. Die Frage nimmt keine neue Einzelheit, Wertung oder Vermutung vorweg, und der Gegenstand Molybdän ist eindeutig."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 68,
+      "speaker": "Lena",
+      "text": "Das einzige bekannte molybdänhaltige Enzym mit einem anderen Cofaktor als Moco ist die Nitrogenase. Durch die Nitrogenase können einige Bakterien wie Azotobacter oder Rhizobium elementaren Stickstoff zu Ammoniak reduzieren.",
+      "previous_text": "Kommt Molybdän in Enzymen immer als Molybdän-Cofaktor vor?",
+      "fact_ids": [
+        "272430297-0208"
+      ],
+      "statements": [
+        {
+          "text": "Einziges bekanntes molybdänhaltiges Enzym, das einen anderen Cofaktor als Moco aufweist, ist die Nitrogenase, durch die einige Bakterien wie Azotobacter oder Rhizobium elementaren Stickstoff zu Ammoniak reduzieren können.",
+          "fact_ids": [
+            "272430297-0208"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0208",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Einziges bekanntes molybdänhaltiges Enzym, das einen anderen Cofaktor als Moco aufweist, ist die Nitrogenase, durch die einige Bakterien wie Azotobacter oder Rhizobium elementaren Stickstoff zu Ammoniak reduzieren können.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: Die Nitrogenase ist das einzige bekannte molybdänhaltige Enzym mit einem anderen Cofaktor als Moco, und einige Bakterien wie Azotobacter oder Rhizobium reduzieren damit elementaren Stickstoff zu Ammoniak. Der Gegenstand (Molybdän, Moco) passt zur vorherigen Frage, es gibt keine zusätzlichen Angaben und keine Fragen oder Prämissen, die unbelegt wären."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 70,
+      "speaker": "Lena",
+      "text": "Einen ersten Hinweis fand Hermann Bortels im Jahr neunzehnhundertdreißig. Er stellte eine positive Wirkung von Molybdän auf das Wachstum von Azotobacter chroococcum in stickstofffreier Nährlösung fest. Daraus folgte, dass das Element an der Stickstofffixierung beteiligt sein muss.",
+      "previous_text": "Wer hat diese biologische Bedeutung eigentlich entdeckt?",
+      "fact_ids": [
+        "272430297-0045"
+      ],
+      "statements": [
+        {
+          "text": "Einen ersten Hinweis auf eine biologische Bedeutung fand Hermann Bortels 1930, als er eine positive Wirkung von Molybdän auf das Wachstum von Azotobacter chroococcum in stickstofffreier Nährlösung feststellte, das Element somit an der Stickstofffixierung beteiligt sein muss.",
+          "fact_ids": [
+            "272430297-0045"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0045",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Einen ersten Hinweis auf eine biologische Bedeutung fand Hermann Bortels 1930, als er eine positive Wirkung von Molybdän auf das Wachstum von Azotobacter chroococcum in stickstofffreier Nährlösung feststellte, das Element somit an der Stickstofffixierung beteiligt sein muss.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 72,
+      "speaker": "Lena",
+      "text": "Neunzehnhundertzweiunddreißig entdeckte Henri ter Meulen, dass Pflanzen Molybdän aus dem Boden aufnehmen und anreichern.",
+      "previous_text": "Und wie ging es bei den Pflanzen weiter?",
+      "fact_ids": [
+        "272430297-0046"
+      ],
+      "statements": [
+        {
+          "text": "1932 entdeckte Henri ter Meulen, dass Pflanzen Molybdän aus dem Boden aufnehmen und anreichern.",
+          "fact_ids": [
+            "272430297-0046"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0046",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "1932 entdeckte Henri ter Meulen, dass Pflanzen Molybdän aus dem Boden aufnehmen und anreichern.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 74,
+      "speaker": "Lena",
+      "text": "Durch Düngung mit Molybdaten lässt sich das Wachstum von Hülsenfrüchtlern wie Bohnen und Erbsen deutlich steigern. Auch ihr Proteingehalt lässt sich deutlich steigern.",
+      "previous_text": "Lässt sich das auch landwirtschaftlich nutzen?",
+      "fact_ids": [
+        "272430297-0227"
+      ],
+      "statements": [
+        {
+          "text": "Durch Düngung mit Molybdaten lässt sich das Wachstum, aber auch der Proteingehalt etwa von Hülsenfrüchtlern (Bohnen, Erbsen etc.) deutlich steigern.",
+          "fact_ids": [
+            "272430297-0227"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0227",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Durch Düngung mit Molybdaten lässt sich das Wachstum, aber auch der Proteingehalt etwa von Hülsenfrüchtlern (Bohnen, Erbsen etc.) deutlich steigern.",
+          "context": [
+            "Pflanzen, insbesondere diejenigen, die in Symbiose mit stickstofffixierenden Bakterien leben, brauchen Molybdän und können auf molybdänarmen Böden unter Mangelerscheinungen leiden."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 76,
+      "speaker": "Lena",
+      "text": "Der Körper benötigt nur geringe Mengen Molybdän. Sie werden leicht über die Nahrung aufgenommen, vor allem mit Hülsenfrüchten wie Bohnen und Erbsen und mit Getreide.",
+      "previous_text": "Und wie ist das beim Menschen? Woher bekommt der Körper Molybdän?",
+      "fact_ids": [
+        "272430297-0014"
+      ],
+      "statements": [
+        {
+          "text": "Der Körper benötigt nur geringe Mengen des Elementes, die leicht über die Nahrung, vor allem mit Hülsenfrüchten (Bohnen, Erbsen) und Getreide, aufgenommen werden.",
+          "fact_ids": [
+            "272430297-0014"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0014",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Der Körper benötigt nur geringe Mengen des Elementes, die leicht über die Nahrung, vor allem mit Hülsenfrüchten (Bohnen, Erbsen) und Getreide, aufgenommen werden.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 78,
+      "speaker": "Lena",
+      "text": "Molybdänmangel ist nur in einem einzigen Fall bekannt. Es ging um einen Patienten mit langer vollständiger parenteraler Ernährung. Der Mangel führte zu Symptomen wie Entzündungen, Tachykardie, Nachtblindheit und schließlich Koma.",
+      "previous_text": "Kann es trotzdem zu einem Mangel kommen?",
+      "fact_ids": [
+        "272430297-0216"
+      ],
+      "statements": [
+        {
+          "text": "Lediglich ein Fall eines Patienten mit langer vollständiger parenteraler Ernährung ist bekannt, bei dem Molybdänmangel zu Symptomen wie Entzündungen, Tachykardie, Nachtblindheit und schließlich Koma führte.",
+          "fact_ids": [
+            "272430297-0216"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0216",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Lediglich ein Fall eines Patienten mit langer vollständiger parenteraler Ernährung ist bekannt, bei dem Molybdänmangel zu Symptomen wie Entzündungen, Tachykardie, Nachtblindheit und schließlich Koma führte.",
+          "context": [
+            "Ein durch molybdänarme Ernährung verursachter Mangel wurde bei Menschen bislang nicht beobachtet."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 79,
+      "speaker": "Felix",
+      "text": "Was bedeutet parenterale Ernährung genau?",
+      "previous_text": "Molybdänmangel ist nur in einem einzigen Fall bekannt. Es ging um einen Patienten mit langer vollständiger parenteraler Ernährung. Der Mangel führte zu Symptomen wie Entzündungen, Tachykardie, Nachtblindheit und schließlich Koma.",
+      "fact_ids": [
+        "272430297-0216"
+      ],
+      "statements": [
+        {
+          "text": "Der Patient mit Molybdänmangel wurde lange vollständig parenteral ernährt.",
+          "fact_ids": [
+            "272430297-0216"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0216",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Lediglich ein Fall eines Patienten mit langer vollständiger parenteraler Ernährung ist bekannt, bei dem Molybdänmangel zu Symptomen wie Entzündungen, Tachykardie, Nachtblindheit und schließlich Koma führte.",
+          "context": [
+            "Ein durch molybdänarme Ernährung verursachter Mangel wurde bei Menschen bislang nicht beobachtet."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 80,
+      "speaker": "Lena",
+      "text": "Bei der totalen parenteralen Ernährung werden sämtliche Nährstoffe intravenös verabreicht. Eine supplementierende parenterale Ernährung dagegen ergänzt eine unzureichende orale oder enterale Ernährung.",
+      "previous_text": "Was bedeutet parenterale Ernährung genau?",
+      "fact_ids": [
+        "265817461-0002"
+      ],
+      "statements": [
+        {
+          "text": "Bei der Totalen Parenteralen Ernährung werden sämtliche Nährstoffe intravenös verabreicht, dagegen ergänzt eine supplementierende parenterale Ernährung eine unzureichende orale oder enterale Ernährung.",
+          "fact_ids": [
+            "265817461-0002"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "265817461-0002",
+          "article": "Parenterale Ernährung",
+          "revid": 265817461,
+          "sentence": "Bei der Totalen Parenteralen Ernährung (TPE) werden sämtliche Nährstoffe intravenös verabreicht, dagegen ergänzt eine supplementierende parenterale Ernährung (SPE) eine unzureichende orale oder enterale Ernährung.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 82,
+      "speaker": "Lena",
+      "text": "Eine Tachykardie, umgangssprachlich Herzrasen, ist ein anhaltend beschleunigter Puls auf über hundert Schläge pro Minute beim erwachsenen Menschen. Ab einem Puls von hundertfünfzig Schlägen pro Minute spricht man von einer ausgeprägten Tachykardie.",
+      "previous_text": "Alles klar, danke für die Erklärung. Und was versteht man eigentlich genau unter einer Tachykardie?",
+      "fact_ids": [
+        "264812843-0008"
+      ],
+      "statements": [
+        {
+          "text": "Eine Tachykardie, umgangssprachlich Herzrasen, ist ein anhaltend beschleunigter Puls auf über hundert Schläge pro Minute beim erwachsenen Menschen.",
+          "fact_ids": [
+            "264812843-0008"
+          ]
+        },
+        {
+          "text": "Ab einem Puls von hundertfünfzig Schlägen pro Minute spricht man von einer ausgeprägten Tachykardie.",
+          "fact_ids": [
+            "264812843-0008"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "264812843-0008",
+          "article": "Tachykardie",
+          "revid": 264812843,
+          "sentence": "Eine Tachykardie (altgriechisch ταχυκαρδία tachykardía, deutsch ‚Schnellherzigkeit‘, umgangssprachlich Herzrasen) ist ein anhaltend beschleunigter Puls auf über 100 Schläge pro Minute beim erwachsenen Menschen; ab einem Puls von 150 Schlägen/min spricht man von einer ausgeprägten Tachykardie.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 84,
+      "speaker": "Lena",
+      "text": "Nachtblindheit ist die Einschränkung der Sehfähigkeit bei Dämmerlicht.",
+      "previous_text": "Okay, und was genau versteht man eigentlich unter Nachtblindheit?",
+      "fact_ids": [
+        "271927628-0004"
+      ],
+      "statements": [
+        {
+          "text": "Nachtblindheit bezeichnet die Einschränkung der Sehfähigkeit bei Dämmerlicht.",
+          "fact_ids": [
+            "271927628-0004"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271927628-0004",
+          "article": "Nachtblindheit",
+          "revid": 271927628,
+          "sentence": "Als Nachtblindheit (griech. Nyctalopia, medizinisch auch Hemeralopie) wird die Einschränkung der Sehfähigkeit bei Dämmerlicht bezeichnet.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 86,
+      "speaker": "Lena",
+      "text": "Das Koma ist ein Zustand tiefer Bewusstlosigkeit. Es ist die medizinisch schwerste Form einer Bewusstseinsstörung. Ein Patient ist dabei auch durch starke äußere Reize wie wiederholte Schmerzreize nicht zu wecken.",
+      "previous_text": "Okay, Nachtblindheit habe ich verstanden. Und was genau bedeutet Koma?",
+      "fact_ids": [
+        "271554703-0003"
+      ],
+      "statements": [
+        {
+          "text": "Das Koma ist ein Zustand tiefer Bewusstlosigkeit und die medizinisch schwerste Form einer Bewusstseinsstörung.",
+          "fact_ids": [
+            "271554703-0003"
+          ]
+        },
+        {
+          "text": "Bei einem Koma ist ein Patient auch durch starke äußere Reize wie wiederholte Schmerzreize nicht zu wecken.",
+          "fact_ids": [
+            "271554703-0003"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271554703-0003",
+          "article": "Koma",
+          "revid": 271554703,
+          "sentence": "Das Koma (von altgriechisch κῶμα ‚tiefer Schlaf‘) ist ein Zustand tiefer Bewusstlosigkeit und die medizinisch schwerste Form einer Bewusstseinsstörung, bei der ein Patient auch durch starke äußere Stimuli wie wiederholte Schmerzreize nicht zu wecken ist.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 88,
+      "speaker": "Lena",
+      "text": "Meist schon im Kindesalter tödlich ist die Molybdän-Cofaktor-Defizienz. Das ist eine Erbkrankheit. Dabei ist die Moco-Biosynthese durch die Mutation eines Enzyms gestört.",
+      "previous_text": "Gibt es Erkrankungen, die mit Molybdän im Körper zusammenhängen?",
+      "fact_ids": [
+        "272430297-0217"
+      ],
+      "statements": [
+        {
+          "text": "Meist schon im Kindesalter tödlich ist die Molybdän-Cofaktor-Defizienz, eine Erbkrankheit, bei der die Moco-Biosynthese durch Mutation eines Enzyms gestört ist.",
+          "fact_ids": [
+            "272430297-0217"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0217",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Meist schon im Kindesalter tödlich ist die Molybdän-Cofaktor-Defizienz, eine Erbkrankheit, bei der die Moco-Biosynthese durch Mutation eines Enzyms gestört ist.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 90,
+      "speaker": "Lena",
+      "text": "Bei verschiedenen Tieren führt eine Überdosis Molybdän zu einer Krankheit namens Molybdänose. Typische Symptome sind Durchfall, Skelettschäden, Fortpflanzungsstörungen und Anämie.",
+      "previous_text": "Kann man auch zu viel Molybdän aufnehmen?",
+      "fact_ids": [
+        "272430297-0222"
+      ],
+      "statements": [
+        {
+          "text": "Bei verschiedenen Tieren führt eine Überdosis Molybdän zu einer Molybdänose genannten Krankheit, die durch Symptome wie Durchfall, Skelettschäden, Fortpflanzungsstörungen und Anämie gekennzeichnet ist.",
+          "fact_ids": [
+            "272430297-0222"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0222",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Bei verschiedenen Tieren führt eine Überdosis Molybdän zu einer Molybdänose genannten Krankheit, die durch Symptome wie Durchfall, Skelettschäden, Fortpflanzungsstörungen und Anämie gekennzeichnet ist.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 92,
+      "speaker": "Lena",
+      "text": "Bei Ratten wurde für die orale Aufnahme ein LD50-Wert von zweitausendsechshundertneunundachtzig Milligramm pro Kilogramm Körpergewicht gefunden.",
+      "previous_text": "Gibt es dazu Messwerte?",
+      "fact_ids": [
+        "272430297-0235"
+      ],
+      "statements": [
+        {
+          "text": "Bei Ratten wurde für die orale Aufnahme ein LD50-Wert von 2689 mg/kg Körpergewicht gefunden.",
+          "fact_ids": [
+            "272430297-0235"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0235",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Bei Ratten wurde für die orale Aufnahme ein LD50-Wert von 2689 mg/kg Körpergewicht gefunden.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 94,
+      "speaker": "Lena",
+      "text": "Es gibt Studien mit Personen, die in Armenien natürlicherweise hohen Dosen in der Nahrung ausgesetzt sind, und mit Arbeitern in einer molybdänproduzierenden Fabrik. Sie berichten von einer erhöhten Ausscheidung von Harnsäure, Gelenkschmerzen und gichtähnlichen Symptomen.",
+      "previous_text": "Und beim Menschen?",
+      "fact_ids": [
+        "272430297-0220"
+      ],
+      "statements": [
+        {
+          "text": "Studien mit Personen, die in Armenien natürlicherweise hohen Dosen in der Nahrung ausgesetzt sind, und mit Arbeitern in einer molybdänproduzierenden Fabrik berichten von erhöhter Ausscheidung von Harnsäure, Gelenkschmerzen und gichtähnlichen Symptomen.",
+          "fact_ids": [
+            "272430297-0220"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0220",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Studien mit Personen, die in Armenien natürlicherweise hohen Dosen in der Nahrung ausgesetzt sind und Arbeitern in einer molybdän-produzierenden Fabrik berichten von einer erhöhten Ausscheidung von Harnsäure, Gelenkschmerzen und gichtähnlichen Symptomen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 96,
+      "speaker": "Lena",
+      "text": "Molybdän ist ein Übergangsmetall mit der Ordnungszahl zweiundvierzig. Sein Name geht auf das altgriechische Wort für Blei zurück. Das Mineral Molybdänit wurde lange für ein Bleierz gehalten. Im Stahl verbessert Molybdän verschiedene Eigenschaften wie die Härte. Mit seinem Schmelzpunkt hat es einen der höchsten aller Elemente. Für fast alle Organismen ist es essentiell. Ein durch Molybdänmangel verursachter Fall ist nur bei einem Patienten mit langer vollständiger parenteraler Ernährung bekannt.",
+      "previous_text": "Das war eine Menge. Was nehmen wir mit?",
+      "fact_ids": [
+        "272430297-0000",
+        "272430297-0015",
+        "272430297-0009",
+        "272430297-0114",
+        "272430297-0012",
+        "272430297-0216"
+      ],
+      "statements": [
+        {
+          "text": "Molybdän ist ein chemisches Element mit der Ordnungszahl 42 und zählt zu den Übergangsmetallen.",
+          "fact_ids": [
+            "272430297-0000"
+          ]
+        },
+        {
+          "text": "Der Name geht auf altgriechisch mólybdos zurück, das Blei bedeutet.",
+          "fact_ids": [
+            "272430297-0000"
+          ]
+        },
+        {
+          "text": "Molybdänit wurde lange Zeit für ein Bleierz gehalten.",
+          "fact_ids": [
+            "272430297-0015"
+          ]
+        },
+        {
+          "text": "Molybdän verbessert verschiedene Stahleigenschaften wie Härte.",
+          "fact_ids": [
+            "272430297-0009"
+          ]
+        },
+        {
+          "text": "Molybdän hat nach Kohlenstoff, Wolfram, Rhenium, Osmium und Tantal einen der höchsten Schmelzpunkte aller Elemente.",
+          "fact_ids": [
+            "272430297-0114"
+          ]
+        },
+        {
+          "text": "Molybdän ist für fast alle Organismen essentiell.",
+          "fact_ids": [
+            "272430297-0012"
+          ]
+        },
+        {
+          "text": "Lediglich ein Fall eines Patienten mit langer vollständiger parenteraler Ernährung ist bekannt, bei dem Molybdänmangel zu Symptomen führte.",
+          "fact_ids": [
+            "272430297-0216"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272430297-0000",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Molybdän [molʏpˈdɛːn] (von altgriechisch μόλυβδος mólybdos „Blei“) ist ein chemisches Element mit dem Elementsymbol Mo und der Ordnungszahl 42. Es zählt zu den Übergangsmetallen, im Periodensystem steht es in der 5. Periode sowie der 6. Nebengruppe (Gruppe 6 oder Chromgruppe).",
+          "context": []
+        },
+        {
+          "id": "272430297-0015",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Molybdänit wurde lange Zeit für ein Bleierz gehalten, 1754 wurde es von Axel Frederic Cronstedt und Bengt Andersson Qvist erstmals genauer untersucht.",
+          "context": []
+        },
+        {
+          "id": "272430297-0009",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Dabei verbessert es verschiedene Stahleigenschaften wie Härte, Kriechfestigkeit, Korrosionsbeständigkeit, Festigkeit oder Anlasssprödigkeit.",
+          "context": [
+            "Der größte Teil des Metalls wird als Zusatz zu verschiedenen Stahlsorten verwendet, wobei meist geringe Mengen von wenigen Prozent ausreichen."
+          ]
+        },
+        {
+          "id": "272430297-0114",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Mit einem Schmelzpunkt von 2622 ± 4 °C hat es nach Kohlenstoff, Wolfram, Rhenium, Osmium und Tantal einen der höchsten Schmelzpunkte aller Elemente.",
+          "context": [
+            "Molybdän ist ein silberglänzendes, hartes, zähes, hochschmelzendes Metall."
+          ]
+        },
+        {
+          "id": "272430297-0012",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Molybdän hat eine erhebliche biologische Bedeutung und ist für fast alle Organismen essentiell.",
+          "context": []
+        },
+        {
+          "id": "272430297-0216",
+          "article": "Molybdän",
+          "revid": 272430297,
+          "sentence": "Lediglich ein Fall eines Patienten mit langer vollständiger parenteraler Ernährung ist bekannt, bei dem Molybdänmangel zu Symptomen wie Entzündungen, Tachykardie, Nachtblindheit und schließlich Koma führte.",
+          "context": [
+            "Ein durch molybdänarme Ernährung verursachter Mangel wurde bei Menschen bislang nicht beobachtet."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "aussage_2": 0.99,
+          "aussage_3": 0.99,
+          "aussage_4": 0.99,
+          "aussage_5": 0.99,
+          "aussage_6": 0.98,
+          "vollstaendig": 0.75
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Übergangsmetall und Ordnungszahl 42 (0000), Name von altgriechisch „Blei“ (0000), Molybdänit lange für Bleierz gehalten (0015), verbessert Stahleigenschaften wie Härte (0009), einer der höchsten Schmelzpunkte (0114), für fast alle Organismen essentiell (0012), nur ein bekannter Mangelfall bei langer vollständiger parenteraler Ernährung (0216). Der Gegenstand ist überall Molybdän, das Thema des Artikels. Der Redebeitrag enthält keine Fragen und keine zusätzlichen unbelegten Angaben."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    }
+  ],
+  "comments": []
+}
