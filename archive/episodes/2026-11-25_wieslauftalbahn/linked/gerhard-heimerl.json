@@ -1,0 +1,102 @@
+{
+  "title": "Gerhard Heimerl",
+  "revid": 265844554,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-04-03T13:45:50Z",
+  "fetched_at": "2026-11-25T12:59:28Z",
+  "categories": [
+    "Kategorie:Burschenschafter (20. Jahrhundert)",
+    "Kategorie:Deutscher",
+    "Kategorie:Ehrendoktor der Technischen Universität Dresden",
+    "Kategorie:Geboren 1933",
+    "Kategorie:Gestorben 2021",
+    "Kategorie:Hochschullehrer (Universität Stuttgart)",
+    "Kategorie:Mann",
+    "Kategorie:Mitglied der Sudetendeutschen Akademie der Wissenschaften und Künste",
+    "Kategorie:Person (Deutsche Bundesbahn)",
+    "Kategorie:Träger des Bundesverdienstkreuzes am Bande",
+    "Kategorie:Träger des Verdienstordens des Landes Baden-Württemberg",
+    "Kategorie:Verkehrswissenschaftler"
+  ],
+  "intro_wikitext": "[[Datei:Gerhard Heimerl-2011-03-05.jpg|miniatur|Gerhard Heimerl im März 2011]]\n[[Datei:20190909 Ende Maschinenvortrieb Fildertunnel Prominenz vor Gedenkstein.jpg|miniatur|Heimerl (vorne rechts im Rollstuhl) bei einer Feier am [[Fildertunnel]] im September 2019]]\n'''Gerhard Heimerl''' (* [[16. Oktober]] [[1933]] in [[Trstěnice u Mariánských Lázní|Neudorf bei Marienbad]], [[Tschechoslowakei]]; † [[2. Juni]] [[2021]] in [[Stuttgart]]<ref>{{Internetquelle |url=https://www.stuttgart-gedenkt.de/traueranzeige/gerhard-heimerl |werk=stuttgart-gedenkt.de |titel=Gerhard Heimerl |datum=2021-06-12 |abruf=2021-06-13}}</ref>) war ein deutscher Verkehrswissenschaftler. Er war Professor für Eisenbahnwesen an der [[Universität Stuttgart]]. Zu seinen wissenschaftlichen Schwerpunkten zählten das Eisenbahnwesen und insbesondere die [[Verkehrswirtschaftslehre|Verkehrswirtschaft]].\n\nEr erarbeitete die 1988 vorgestellte so genannte ''Heimerl-Trasse'' ([[Neubaustrecke Wendlingen–Ulm]]) als Alternative für die [[Ausbaustrecke/Neubaustrecke Plochingen–Günzburg]].<ref>[[Schwäbische Zeitung]]: [http://www.schwaebische.de/lokales/wir-im-sueden/stuttgart21-artikel_artikel,-%E2%80%9EWas-ich-wollte-ist-in-Stuttgart-21%E2%80%9C-_arid,4179572.html „Was ich wollte, ist in Stuttgart 21“] vom 24. Oktober 2010, abgerufen am 25. Oktober 2010</ref> Daraus ging letztlich das 1994 als [[Stuttgart 21]] vorgestellte Verkehrskonzept hervor.",
+  "segments": [
+    {
+      "id": "265844554-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Gerhard Heimerl''' (* [[16. Oktober]] [[1933]] in [[Trstěnice u Mariánských Lázní|Neudorf bei Marienbad]], [[Tschechoslowakei]]; † [[2. Juni]] [[2021]] in [[Stuttgart]]<ref>{{Internetquelle |url=https://www.stuttgart-gedenkt.de/traueranzeige/gerhard-heimerl |werk=stuttgart-gedenkt.de |titel=Gerhard Heimerl |datum=2021-06-12 |abruf=2021-06-13}}</ref>) war ein deutscher Verkehrswissenschaftler.",
+      "plain": null
+    },
+    {
+      "id": "265844554-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er war Professor für Eisenbahnwesen an der [[Universität Stuttgart]].",
+      "plain": null
+    },
+    {
+      "id": "265844554-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Zu seinen wissenschaftlichen Schwerpunkten zählten das Eisenbahnwesen und insbesondere die [[Verkehrswirtschaftslehre|Verkehrswirtschaft]].",
+      "plain": null
+    },
+    {
+      "id": "265844554-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er erarbeitete die 1988 vorgestellte so genannte ''Heimerl-Trasse'' ([[Neubaustrecke Wendlingen–Ulm]]) als Alternative für die [[Ausbaustrecke/Neubaustrecke Plochingen–Günzburg]].<ref>[[Schwäbische Zeitung]]: [http://www.schwaebische.de/lokales/wir-im-sueden/stuttgart21-artikel_artikel,-%E2%80%9EWas-ich-wollte-ist-in-Stuttgart-21%E2%80%9C-_arid,4179572.html „Was ich wollte, ist in Stuttgart 21“] vom 24. Oktober 2010, abgerufen am 25. Oktober 2010</ref>",
+      "plain": null
+    },
+    {
+      "id": "265844554-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Daraus ging letztlich das 1994 als [[Stuttgart 21]] vorgestellte Verkehrskonzept hervor.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 265844554,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "265844554-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Gerhard Heimerl (* 16. Oktober 1933 in Neudorf bei Marienbad, Tschechoslowakei; † 2. Juni 2021 in Stuttgart) war ein deutscher Verkehrswissenschaftler.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "265844554-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Er war Professor für Eisenbahnwesen an der Universität Stuttgart.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "265844554-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Er erarbeitete die 1988 vorgestellte so genannte Heimerl-Trasse (Neubaustrecke Wendlingen–Ulm) als Alternative für die Ausbaustrecke/Neubaustrecke Plochingen–Günzburg.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "265844554-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "265844554-0003"
+        ],
+        "plain": "Daraus ging letztlich das 1994 als Stuttgart 21 vorgestellte Verkehrskonzept hervor.",
+        "context_plain": [
+          "Er erarbeitete die 1988 vorgestellte so genannte Heimerl-Trasse (Neubaustrecke Wendlingen–Ulm) als Alternative für die Ausbaustrecke/Neubaustrecke Plochingen–Günzburg."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

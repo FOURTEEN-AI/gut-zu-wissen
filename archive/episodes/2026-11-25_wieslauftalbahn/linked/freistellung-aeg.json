@@ -1,0 +1,37 @@
+{
+  "title": "Freistellung (AEG)",
+  "revid": 259207439,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-08-26T14:47:22Z",
+  "fetched_at": "2026-11-25T12:59:28Z",
+  "categories": [
+    "Kategorie:Bahnanlagentechnik",
+    "Kategorie:Eisenbahnrecht (Deutschland)",
+    "Kategorie:Öffentliches Baurecht (Deutschland)"
+  ],
+  "intro_wikitext": "Die '''Freistellung''' ist ein Verfahren nach {{§|23|aeg_1994|juris}} [[Allgemeines Eisenbahngesetz]] (AEG), mit dem in Deutschland eine (ehemalige) [[Betriebsanlage]] einer [[Eisenbahn]] diese Eigenschaft auch rechtlich verliert.",
+  "segments": [
+    {
+      "id": "259207439-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Freistellung''' ist ein Verfahren nach {{§|23|aeg_1994|juris}} [[Allgemeines Eisenbahngesetz]] (AEG), mit dem in Deutschland eine (ehemalige) [[Betriebsanlage]] einer [[Eisenbahn]] diese Eigenschaft auch rechtlich verliert.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 259207439,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "259207439-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Freistellung ist ein Verfahren nach § 23 Allgemeines Eisenbahngesetz (AEG), mit dem in Deutschland eine (ehemalige) Betriebsanlage einer Eisenbahn diese Eigenschaft auch rechtlich verliert.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

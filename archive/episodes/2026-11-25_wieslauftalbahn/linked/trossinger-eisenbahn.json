@@ -1,0 +1,120 @@
+{
+  "title": "Trossinger Eisenbahn",
+  "revid": 271328268,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-14T10:57:42Z",
+  "fetched_at": "2026-11-25T12:59:28Z",
+  "categories": [
+    "Kategorie:Bahnstrecke in Baden-Württemberg",
+    "Kategorie:Bildung in Trossingen",
+    "Kategorie:Eisenbahnmuseum in Deutschland",
+    "Kategorie:Kultur (Trossingen)",
+    "Kategorie:Museum im Landkreis Tuttlingen",
+    "Kategorie:Museumsbahn (Baden-Württemberg)",
+    "Kategorie:Museumsgründung 2005",
+    "Kategorie:Organisation (Trossingen)",
+    "Kategorie:Spurweite 1435 mm",
+    "Kategorie:Verkehrsbauwerk im Landkreis Tuttlingen"
+  ],
+  "intro_wikitext": "{| class=\"wikitable float-right\"\n{{BS-header|Trossingen Bahnhof–Trossingen Stadt}}\n{{BS-daten\n| DE-STRECKENNR=9463\n| DE-KBS=742.1\n| LÄNGE=4,3\n| SPURWEITE=1435\n| STRECKENKLASSE=A\n| NEIGUNG=35\n| RADIUS=190\n| V-MAX=60\n| STROMG=600 V\n| ZSS=[[Punktförmige Zugbeeinflussung|PZB]]\n| BILDPFAD_KARTE=RingzugLinienplan.png\n| PIXEL_KARTE=250px\n| TEXT_KARTE=Die Trossinger Eisenbahn als Bestandteil des Ringzug-Systems\n|KBS=307b <small>(1946)</small>}}\n{{BS-table}}\n{{BS|STR|||[[Bahnstrecke Rottweil–Villingen|von Rottweil]]}}\n{{BS|BHF|-0,2|[[Trossingen Bahnhof]]||648 m}}\n{{BS|ABZgr|||[[Bahnstrecke Rottweil–Villingen|nach Villingen]]}}\n{{BS|TUNNEL1|2,0||Tunnel Westtangente (15 m, seit 2005)}}\n{{BS|eABZg+r|2,6||Anschluss Konsum/Coop (bis 1985)}}\n{{BS|KBHFe|4,0|Trossingen Stadt||714 m}}\n|}\n|}\n[[Datei:Trossinger Eisenbahn.jpg|mini|Juni 2003: der [[Triebwagen]] T3 im [[Trossingen Bahnhof|Bahnhof Trossingen]] vor dem Umbau]]\n[[Datei:TrossingenBahnhof P1030612.JPG|mini|Bahnhof Trossingen nach dem Umbau]]\n[[Datei:Bahnhof Trossingen Stadt.JPG|mini|Bahnhof Trossingen Stadt]]\n\nDie '''Trossinger Eisenbahn''', abgekürzt '''TE''', ist eine mit [[Gleichspannung]] [[Bahnstrom|elektrifizierte]] [[Stichbahn]] in [[Baden-Württemberg]]. Die [[Nebenbahn]] verbindet seit 1898 die Stadt [[Trossingen]] mit dem peripher gelegenen [[Trossingen Bahnhof|Bahnhof Trossingen]], veraltet auch „Trossingen [[Staatsbahn]]hof“ genannt, an der [[Bahnstrecke Rottweil–Villingen]]. Die Strecke ist eine [[nichtbundeseigene Eisenbahn]], als [[Eisenbahninfrastrukturunternehmen]] fungieren die ''Stadtwerke Trossingen GmbH''. Diese waren früher auch das verantwortliche [[Eisenbahnverkehrsunternehmen]] für den [[Regelzug|Regelverkehr]]; seit 2003 ist die [[Hohenzollerische Landesbahn]] (seit 2018 Teil der [[SWEG]]) mit der Durchführung des Betriebes beauftragt. Der [[Güterverkehr]] wurde 1996 aufgegeben.",
+  "segments": [
+    {
+      "id": "271328268-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "|}",
+      "plain": null
+    },
+    {
+      "id": "271328268-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Trossinger Eisenbahn''', abgekürzt '''TE''', ist eine mit [[Gleichspannung]] [[Bahnstrom|elektrifizierte]] [[Stichbahn]] in [[Baden-Württemberg]].",
+      "plain": null
+    },
+    {
+      "id": "271328268-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die [[Nebenbahn]] verbindet seit 1898 die Stadt [[Trossingen]] mit dem peripher gelegenen [[Trossingen Bahnhof|Bahnhof Trossingen]], veraltet auch „Trossingen [[Staatsbahn]]hof“ genannt, an der [[Bahnstrecke Rottweil–Villingen]].",
+      "plain": null
+    },
+    {
+      "id": "271328268-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Strecke ist eine [[nichtbundeseigene Eisenbahn]], als [[Eisenbahninfrastrukturunternehmen]] fungieren die ''Stadtwerke Trossingen GmbH''.",
+      "plain": null
+    },
+    {
+      "id": "271328268-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Diese waren früher auch das verantwortliche [[Eisenbahnverkehrsunternehmen]] für den [[Regelzug|Regelverkehr]]; seit 2003 ist die [[Hohenzollerische Landesbahn]] (seit 2018 Teil der [[SWEG]]) mit der Durchführung des Betriebes beauftragt.",
+      "plain": null
+    },
+    {
+      "id": "271328268-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der [[Güterverkehr]] wurde 1996 aufgegeben.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271328268,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271328268-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Trossinger Eisenbahn, abgekürzt TE, ist eine mit Gleichspannung elektrifizierte Stichbahn in Baden-Württemberg.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271328268-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271328268-0001"
+        ],
+        "plain": "Die Nebenbahn verbindet seit 1898 die Stadt Trossingen mit dem peripher gelegenen Bahnhof Trossingen, veraltet auch „Trossingen Staatsbahnhof“ genannt, an der Bahnstrecke Rottweil–Villingen.",
+        "context_plain": [
+          "Die Trossinger Eisenbahn, abgekürzt TE, ist eine mit Gleichspannung elektrifizierte Stichbahn in Baden-Württemberg."
+        ]
+      },
+      {
+        "segment_id": "271328268-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271328268-0002"
+        ],
+        "plain": "Die Strecke ist eine nichtbundeseigene Eisenbahn, als Eisenbahninfrastrukturunternehmen fungieren die Stadtwerke Trossingen GmbH.",
+        "context_plain": [
+          "Die Nebenbahn verbindet seit 1898 die Stadt Trossingen mit dem peripher gelegenen Bahnhof Trossingen, veraltet auch „Trossingen Staatsbahnhof“ genannt, an der Bahnstrecke Rottweil–Villingen."
+        ]
+      },
+      {
+        "segment_id": "271328268-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271328268-0003"
+        ],
+        "plain": "Diese waren früher auch das verantwortliche Eisenbahnverkehrsunternehmen für den Regelverkehr; seit 2003 ist die Hohenzollerische Landesbahn (seit 2018 Teil der SWEG) mit der Durchführung des Betriebes beauftragt.",
+        "context_plain": [
+          "Die Strecke ist eine nichtbundeseigene Eisenbahn, als Eisenbahninfrastrukturunternehmen fungieren die Stadtwerke Trossingen GmbH."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "271328268-0005",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

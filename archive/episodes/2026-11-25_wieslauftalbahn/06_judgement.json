@@ -1,0 +1,1211 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.65
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Fakt-IDs und auch keine Behauptung. „Das klingt nach einer Bahn mit Geschichte“ ist ein subjektiver Eindruck im Moment und damit eine Reaktion. „Wie hat das alles angefangen?“ ist eine Nachfrage nach dem Anfang, die keine bestimmte Einzelheit, Wertung oder Vermutung vorwegnimmt. Beides ist belegfrei."
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage nach dem Anlass der Planungen. Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Es wird keine Behauptung aufgestellt, die durch Fakten belegt werden müsste. Der Bezug „diese Planungen“ ist durch Lenas vorherigen Beitrag und das Artikelthema eindeutig."
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder (Welzheim, ab 1896, letzte württembergische Oberamtsstadt ohne Bahnanschluss). Der Gegenstand ist eindeutig, da Welzheim genannt wird und das Thema des Artikels Wieslauftalbahn ist. Als Antwort auf die Frage nach dem Anlass der Planungen passt der Fakt; es kommt keine zusätzliche Angabe hinzu, und der Beitrag enthält keine Frage oder sonstige unbelegte Aussage."
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Oberamt Welzheim als württembergischer Verwaltungsbezirk, 1810 bis 1819 Oberamt Lorch, 1934 Umbenennung in Kreis Welzheim, 1938 Auflösung, Verteilung der Gemeinden auf Waiblingen, Gmünd, Backnang und Göppingen. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben. Der Gegenstand ist eindeutig, da der Redebeitrag das Oberamt Welzheim nennt, das auch das Artikelthema ist."
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 1.0,
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage nach dem Betrieb auf der Strecke in den ersten Jahren. Sie fragt nach etwas Neuem und setzt nur voraus, dass es dazu etwas zu erzählen gibt, nimmt aber keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Mit „der Strecke“ ist die Wieslauftalbahn gemeint; auch das ist keine Behauptung, die belegt werden müsste. Der Redebeitrag ist daher belegfrei und zulässig."
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine Nachfrage bzw. Überleitungsfrage. Sie nimmt keine bestimmte Einzelheit vorweg, sondern fragt nur, ob es auch außerhalb Württembergs steile Bahnen gibt. Dass „Württemberg“ vorkommt, ist durch Lenas Beitrag und den Fakt gedeckt. Es gibt keine zusätzliche Behauptung und keine Prämisse, die belegt werden müsste."
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Die Aussage, die Wieslauftalbahn sei eine Nebenbahn in Baden-Württemberg, folgt direkt aus dem Fakt-Satz. „Spannend!“ ist eine belegfreie Reaktion. „Zurück zur Wieslauftalbahn“ ist eine Überleitung. „Wie fing es eigentlich mit dieser Strecke an?“ ist eine Nachfrage ohne eigene Prämisse, die eine Einzelheit vorwegnimmt. Der Gegenstand ist eindeutig, da der Redebeitrag die Wieslauftalbahn selbst nennt."
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Fakt-IDs und keine Behauptung. \"Aha, das ist wirklich spannend\" ist eine Reaktion (Staunen/Interesse). Die Frage nach der Entwicklung des Zugverkehrs ist eine Nachfrage bzw. Überleitung und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Dass es auf der Strecke Zugverkehr gibt, ist durch das Gesprächsthema gedeckt und ist keine Prämisse, die erst die Antwort liefert."
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.49
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Okay, ich bin gespannt“ ist ein Gefühl im Moment, und „Wie ging es danach mit dem Betrieb weiter?“ ist eine Nachfrage bzw. Überleitungsfrage ohne bestimmte Einzelheit, Wertung oder Vermutung als Prämisse. Beides ist belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.5
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur eine Reaktion (Neugier über sich selbst) und eine offene Nachfrage zum späteren Angebot für Fahrgäste. Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es dazu etwas zu erzählen gibt. Behauptungen ohne Beleg fehlen, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Fakt-IDs und keine Behauptung. \"Das wird ja immer interessanter\" ist eine Reaktion (Neugier). \"Wie ging es mit der Strecke danach weiter?\" ist eine Nachfrage bzw. Überleitungsfrage und nimmt keine bestimmte Einzelheit vorweg. Die Strecke wurde im vorherigen Beitrag thematisiert, daher ist die Frage belegfrei."
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur eine Reaktion („Ah, okay.“) und eine offene Nachfrage, ob es zu einzelnen Gebäuden an der Strecke etwas zu erzählen gibt. Die Frage setzt nur voraus, dass es etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Sie ist also belegfrei, und es ist keine Fakt-ID nötig."
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur eine Überleitung („Gut, dann weiter in der Geschichte“) und eine offene Nachfrage dazu, wie es mit dem Zugverkehr weiterging. Er nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg, die erst die Antwort liefern müsste. Der Zugverkehr ist nur das Thema der Nachfrage. Das ist belegfrei, deshalb sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.54
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Hm, das macht mich neugierig\" ist ein Gefühl im Moment, und \"Gab es dazu auch Einschätzungen von Fachleuten?\" ist eine offene Nachfrage. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es etwas zu erzählen gibt. Beides ist belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.74
+      },
+      "jev_error": null,
+      "reason": "Alle drei Aussagen (700 Meter reaktiviert, neuer Haltepunkt Rudersberg Nord, erschließt seither das nahegelegene Schulzentrum) stehen im Fakt-Satz. Mit „der eingestellte Streckenabschnitt“ löst Lena das Bezugswort „er“ auf, und der Kontext bestimmt diesen Gegenstand eindeutig. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Spannend.“ ist eine Reaktion. „Wie war der Betrieb an Sonn- und Feiertagen geregelt?“ ist eine Nachfrage, die nur voraussetzt, dass es dazu etwas zu erzählen gibt. Sie nimmt keine Einzelheit, Wertung oder Vermutung vorweg und braucht deshalb keine Fakt-Sätze."
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.8
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Okay.\" ist eine Reaktion, und \"Gibt es auch Menschen vor Ort, die sich für die Bahn einsetzen?\" ist eine offene Nachfrage bzw. Überleitungsfrage ohne bestimmte Einzelheit, Wertung oder Vermutung. Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt, und ist daher belegfrei."
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.6
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Fakt-IDs und keine Behauptung. „Gut zu wissen“ ist eine Reaktion. „Was hat sich entlang der Strecke verändert?“ ist eine offene Nachfrage ohne bestimmte Einzelheit, Wertung oder Vermutung. Dass sich etwas verändert hat, setzt sie nur allgemein voraus, das gilt als belegfrei."
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.97,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: 2011 wurden 29.700 Fahrgäste befördert (ausgeschriebene Zahl stimmt), und damit wurden die Prognosen vor der Inbetriebnahme übertroffen. Der Gegenstand ist eindeutig, da die Bahn im vorherigen Beitrag genannt wird und das Thema des Artikels Wieslauftalbahn ist. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 41,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.38
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Fakt-IDs, aber auch keine Behauptung: „Wow! Das überrascht mich.“ ist eine Reaktion (Staunen), und „Wie steht es um den Schutz der Strecke?“ ist eine Überleitungs- bzw. Nachfrage, die keine bestimmte Einzelheit, Wertung oder Vermutung vorwegnimmt. Dass es einen Schutz der Strecke gibt, ist eine allgemeine Voraussetzung, die die Antwort liefern soll, keine belegpflichtige Prämisse."
+    },
+    {
+      "turn_index": 42,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 43,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Gut.\" ist eine Reaktion, und die Frage nach einzelnen Bauwerken an der Strecke ist eine Nachfrage bzw. Überleitung. Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit oder Wertung vorweg. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 44,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 45,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.69
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus Reaktionen: \"Der Name klingt interessant\" ist ein Gefühl im Moment, und \"Was ist der Strümpfelbach eigentlich?\" ist eine Nachfrage bzw. Bitte um Erklärung. Die Frage setzt keine Einzelheit, Wertung oder Vermutung voraus, die erst die Antwort liefern würde. Der Redebeitrag enthält keine Behauptung, die belegt werden müsste."
+    },
+    {
+      "turn_index": 46,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 47,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.76
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion (\"Sehr anschaulich, danke.\") und einer Nachfrage, ob die Strecke touristisch genutzt wird. Die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Sie ist belegfrei, Fakt-IDs sind nicht nötig."
+    },
+    {
+      "turn_index": 48,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 49,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.57
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion („Da bin ich neugierig“, ein Gefühl im Moment) und einer Nachfrage („Wie oft sind diese Fahrten im Angebot?“). Beides ist belegfrei. Die Frage nimmt keine bestimmte Einzelheit vorweg: Dass es die Fahrten gibt, hat Lena im vorherigen Redebeitrag gesagt, und der Fakt-Satz nennt sie ebenfalls. Der Redebeitrag enthält keine neue Behauptung."
+    },
+    {
+      "turn_index": 50,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 51,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Verständlich.\" ist eine Reaktion, und \"Wie hat das Ganze eigentlich angefangen?\" ist eine Nachfrage bzw. Überleitungsfrage ohne Prämisse, die eine bestimmte Einzelheit, Wertung oder Tatsache vorwegnimmt. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 52,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.63
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Gründung 1985 als Dampfbahn Kochertal e. V. mit Sitz in Sulzbach-Laufen und der allmähliche Umzug in das ehemalige Dampflok-Bahnbetriebswerk nach Crailsheim. Der Verein ist als Thema des Artikels eindeutig benannt. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämisse."
+    },
+    {
+      "turn_index": 53,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.94,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion („Interessant!“) und einer Nachfrage, ob der Verein weitere Projekte hat. Das ist eine Überleitungsfrage, die lediglich voraussetzt, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit vorweg. Es wird keine Tatsachenbehauptung aufgestellt, die belegt werden müsste."
+    },
+    {
+      "turn_index": 54,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 55,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Überleitung („Gut. Jetzt zum Alltag“) und einer offenen Nachfrage („Wer betreibt die Strecke?“). Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es zur Strecke etwas zu erzählen gibt. Das ist belegfrei, und es sind keine Fakten nötig."
+    },
+    {
+      "turn_index": 56,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: Betreiber des Abschnitts im Wieslauftal bis Rudersberg-Oberndorf ist der ZVVW, bedient wird er im SPNV von der RB 61 der WEG. Die Abkürzungen stimmen, der Gegenstand (Wieslauftalbahn-Abschnitt) ist eindeutig. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämissen."
+    },
+    {
+      "turn_index": 57,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Spannend.\" ist eine Reaktion. Die Frage nach weiteren Bahnstrecken in der Gegend ist eine Nachfrage bzw. Überleitung und nimmt keine bestimmte Einzelheit vorweg. Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt. Fakt-IDs werden nicht benötigt."
+    },
+    {
+      "turn_index": 58,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 59,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion („Okay.“) und einer Nachfrage nach weiteren Stationen mit Besonderheiten. Das ist eine Überleitungsfrage, die nur voraussetzt, dass es dazu etwas zu erzählen gibt. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Fakten sind daher nicht nötig."
+    },
+    {
+      "turn_index": 60,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder. Das Bezugswort \"dort\" und \"dennoch\" wird zu \"Klaffenbach-Althütte\" aufgelöst, wie es der Kontext bestimmt. Das ist erlaubt und passt zur Frage nach Stationen mit Besonderheiten. Es werden keine zusätzlichen Angaben gemacht und der Beitrag enthält keine Fragen oder weiteren Aussagen."
+    },
+    {
+      "turn_index": 61,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Ach, so ist das.\" ist eine Reaktion, und \"Wie sieht es mit den Bahnsteigen aus?\" ist eine Nachfrage, die nur voraussetzt, dass es zu den Bahnsteigen etwas zu sagen gibt. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Fakt-Sätze werden daher nicht gebraucht."
+    },
+    {
+      "turn_index": 62,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 63,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur eine kurze Reaktion („Gut.“) und eine Nachfrage, ob es Versuche mit neuem Personenverkehr gab. Das ist eine Überleitungsfrage, die voraussetzt, dass es dazu etwas zu erzählen gibt, und keine konkrete Einzelheit, Wertung oder Vermutung vorwegnimmt. Behauptungen enthält er nicht, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 64,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 65,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Das ist ja interessant“ ist eine Reaktion (Neugier), und „Wie ging es danach weiter?“ ist eine Nachfrage bzw. Überleitungsfrage ohne bestimmte Einzelheit, Wertung oder Vermutung als Prämisse. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 66,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 67,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion („Okay.“) und einer offenen Nachfrage zum aktuellen Betrieb auf der Strecke. Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, die erst die Antwort liefern würde. Es gibt keine Behauptung, die einen Beleg bräuchte."
+    },
+    {
+      "turn_index": 68,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 69,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Fakt-IDs und auch keine Behauptung. „Verstehe.“ ist eine Reaktion. „Gab es in jüngster Zeit besondere Ereignisse an der Strecke?“ ist eine Nachfrage oder Überleitungsfrage, die lediglich voraussetzt, dass es etwas zu erzählen gibt. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg und ist daher belegfrei."
+    },
+    {
+      "turn_index": 70,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 71,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion (\"Oh je.\", ein Gefühl im Moment) und einer Nachfrage (\"Was ist bei diesem Hochwasser noch passiert?\"). Die Nachfrage setzt nur voraus, dass es dazu mehr zu erzählen gibt, und nimmt keine bestimmte Einzelheit vorweg. Das Hochwasser hat die vorherige Sprecherin genannt, der Bezug ist also eindeutig. Es gibt keine zusätzliche Behauptung, die belegt werden müsste."
+    },
+    {
+      "turn_index": 72,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 73,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "„Wahnsinn!“ ist eine Reaktion (Staunen), und „Was bedeutete das für den Zugverkehr?“ ist eine offene Nachfrage ohne Prämisse, die eine bestimmte Einzelheit oder Wertung vorwegnimmt. Der Redebeitrag enthält keine Behauptung, die belegt werden müsste, und der zitierte Fakt wird nicht verfälscht."
+    },
+    {
+      "turn_index": 74,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 75,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.6
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion („Hm, ich bin gespannt“) und einer Nachfrage/Überleitungsfrage („Wie ging es danach mit den Gleisen weiter?“). Beides ist belegfrei. Die Frage nimmt keine bestimmte Einzelheit vorweg; dass die Gleise im Kontext unterspült wurden und der Betrieb eingestellt wurde, ist durch den vorherigen Beitrag und den Fakt gedeckt."
+    },
+    {
+      "turn_index": 76,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 77,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 78,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 1.0,
+        "aussage_1": 0.99,
+        "aussage_2": 0.97,
+        "aussage_3": 0.99,
+        "aussage_4": 1.0,
+        "aussage_5": 1.0,
+        "aussage_6": 0.99,
+        "aussage_7": 1.0,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    }
+  ],
+  "used_fact_ids": [
+    "272464187-0000",
+    "272464187-0001",
+    "272464187-0010",
+    "272464187-0011",
+    "272464187-0017",
+    "264321193-0000",
+    "272464187-0028",
+    "272057590-0009",
+    "272464187-0016",
+    "272464187-0025",
+    "272464187-0031",
+    "272464187-0115",
+    "272464187-0042",
+    "272464187-0044",
+    "272464187-0100",
+    "272464187-0047",
+    "272464187-0050",
+    "272464187-0059",
+    "272464187-0057",
+    "272464187-0064",
+    "272464187-0063",
+    "272464187-0073",
+    "272464187-0077",
+    "272464187-0081",
+    "272464187-0101",
+    "272464187-0080",
+    "262238005-0009",
+    "272464187-0142",
+    "272464187-0143",
+    "264027844-0001",
+    "264027844-0003",
+    "272464187-0002",
+    "271406163-0001",
+    "272464187-0079",
+    "272464187-0108",
+    "272464187-0139",
+    "272464187-0140",
+    "272464187-0125",
+    "272464187-0102",
+    "272464187-0083",
+    "272464187-0084",
+    "272464187-0087"
+  ],
+  "cascade_checks": [
+    {
+      "conversation": 1,
+      "turn_index": 11,
+      "p": 0.03,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 2,
+      "turn_index": 11,
+      "p": 0.92,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung ergänzt „Es gab zwei weitere Projekte“. Das ist eine Aussage, die in der vorherigen Fassung nicht steht: Dort sind es zwei Projekte, hier „weitere“ Projekte, was auf zusätzliche, bereits anderweitig erwähnte Projekte hindeutet. Die übrigen Aussagen (Verbindung ab Backnang von der Strecke Waiblingen–Schwäbisch Hall-Hessental, eine Variante nach Welzheim, die andere nach Schorndorf) sind gleich geblieben."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 12,
+      "p": 0.04,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 3,
+      "turn_index": 12,
+      "p": 0.78,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Beide Aussagen stehen unverändert in der neuen Fassung: Die Tangentiallinie um Stuttgart war damals undenkbar, und die Generaldirektion der Königlich Württembergischen Staats-Eisenbahnen lehnte sie deshalb 1890 ab. Es fehlt nur der Einschub „sogenannte“, der keine eigene Aussage ist."
+    },
+    {
+      "conversation": 3,
+      "turn_index": 52,
+      "p": 0.83,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Beide Aussagen sind enthalten: Gründung 1985 als Dampfbahn Kochertal e. V. mit Sitz in Sulzbach-Laufen und der allmähliche Umzug in das ehemalige Dampflok-Bahnbetriebswerk in Crailsheim. Der Zusatz „DBK Historische Bahn“ ist nur eine ergänzende Benennung und ändert keine Aussage."
+    },
+    {
+      "conversation": 3,
+      "turn_index": 57,
+      "p": 0.98,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    }
+  ],
+  "conversation": 3,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 10,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 10,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Der Inhalt stimmt mit dem Fakt-Satz überein (8,5 %, Südast der U15, Uetlibergbahn mit 7,9 %). Felix fragt aber nach steilen Bahnen außerhalb Württembergs. Lenas Antwort beginnt mit der Stuttgarter U15, also einer Bahn in Württemberg. Der Fakt-Satz handelt damit von einem anderen Gegenstand als die Frage, und Zuhörer würden die Stuttgarter Bahn fälschlich als Antwort auf diese Frage verstehen. Nur die Uetlibergbahn in Zürich passt zur Frage."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 11,
+      "version": 0,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 11,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 1.0,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht aus einer Überleitung („Zurück zur Wieslauftalbahn“) und einer offenen Nachfrage, was die Bahn für die Region bedeutet. Beides ist belegfrei. Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es dazu etwas zu erzählen gibt. Der Name „Wieslauftalbahn“ stimmt mit dem zitierten Fakt überein, und es wird keine zusätzliche Behauptung aufgestellt."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 10,
+      "version": 0,
+      "replaced_by": 2,
+      "judgement": {
+        "turn_index": 10,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272464187-0011 wurde schon in Redebeitrag 2 und 3 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 11,
+      "version": 0,
+      "replaced_by": 3,
+      "judgement": {
+        "turn_index": 11,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 12,
+      "version": 0,
+      "replaced_by": 4,
+      "judgement": {
+        "turn_index": 12,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.79
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag ist eine Nachfrage ohne neue Behauptung. Die Frage nach der Verbindung nach Schorndorf für Welzheim greift nur den Gegenstand aus dem vorherigen Beitrag und dem Fakt-Satz (Projekte mit Verbindung ab Backnang, eines Richtung Welzheim, eines nach Schorndorf) wieder auf. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es dazu etwas zu erzählen gibt. Damit ist sie belegfrei."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 12,
+      "version": 1,
+      "replaced_by": 5,
+      "judgement": {
+        "turn_index": 12,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.85
+        },
+        "jev_error": null,
+        "reason": "Felix' Frage „Und was hätte die Variante nach Schorndorf für Welzheim bedeutet?“ ist mehr als eine bloße Nachfrage. Sie setzt voraus, dass die Schorndorf-Variante Auswirkungen auf Welzheim gehabt hätte, etwa dass Welzheim dadurch angebunden oder abgehängt worden wäre. Der Fakt-Satz sagt nur, dass die eine Variante in Welzheim enden und die andere nach Schorndorf führen sollte. Über eine Bedeutung für Welzheim sagt er nichts. Die Prämisse folgt also nicht aus dem Fakt."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 11,
+      "version": 0,
+      "replaced_by": 6,
+      "judgement": {
+        "turn_index": 11,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.47
+        },
+        "jev_error": null,
+        "reason": "Die Frage setzt als Tatsache voraus, dass es Planungen für die Wieslauftalbahn gab und dass diese weitergingen. Der zitierte Fakt-Satz nennt nur, dass sie eine normalspurige, eingleisige, nicht elektrifizierte Nebenbahn in Baden-Württemberg ist, und sagt nichts über Planungen. Das ist mehr als eine Nachfrage, nämlich eine nicht belegte Prämisse."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 12,
+      "version": 0,
+      "replaced_by": 7,
+      "judgement": {
+        "turn_index": 12,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: Die Tangentiallinie um Stuttgart galt damals als undenkbar und wurde 1890 von der Generaldirektion der Königlich Württembergischen Staats-Eisenbahnen abgelehnt. Der Gegenstand ist eindeutig, da der Fakt aus dem Artikel Wieslauftalbahn stammt, auf den sich Felix bezieht. Der Redebeitrag enthält keine zusätzlichen Angaben, keine Fragen und keine unbelegten Behauptungen."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 51,
+      "version": 0,
+      "replaced_by": 8,
+      "judgement": {
+        "turn_index": 51,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272464187-0142 wurde schon in Redebeitrag 48 und 49 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 52,
+      "version": 0,
+      "replaced_by": 9,
+      "judgement": {
+        "turn_index": 52,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Beide Aussagen (Gründung 1985 als Dampfbahn Kochertal e. V. mit Sitz in Sulzbach-Laufen; nach und nach Umzug in das ehemalige Dampflok-Bahnbetriebswerk Crailsheim) folgen direkt aus dem Fakt-Satz. \"Der Verein\" meint eindeutig den DBK Historische Bahn e. V. aus der vorherigen Frage und dem Artikelthema. Es gibt keine zusätzlichen Angaben und keine Fragen oder anderen Inhalte, die unbelegt wären."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 56,
+      "version": 0,
+      "replaced_by": 10,
+      "judgement": {
+        "turn_index": 56,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.41
+        },
+        "jev_error": null,
+        "reason": "Die Linienbezeichnung stimmt nicht mit dem Fakt-Satz überein: Der Redebeitrag nennt „RB sechsundsechzig eins“ (RB 66.1), der Fakt-Satz nennt „RB 61“. Der übrige Inhalt (ZVVW als Betreiber des Abschnitts bis Rudersberg-Oberndorf, Bedienung durch die WEG) ist belegt."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 57,
+      "version": 0,
+      "replaced_by": 11,
+      "judgement": {
+        "turn_index": 57,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag enthält keine Behauptung. „Spannend.\" ist eine Reaktion, und „Welche anderen Bahnstrecken gibt es in der Region?\" ist eine offene Nachfrage bzw. Überleitungsfrage. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Dass es in der Region andere Bahnstrecken gibt, ist hier nur die übliche Voraussetzung einer Nachfrage und keine Prämisse, die belegt werden müsste. Fakt-IDs sind nicht nötig."
+      }
+    },
+    {
+      "conversation": 3,
+      "turn_index": 78,
+      "version": 0,
+      "replaced_by": 12,
+      "judgement": {
+        "turn_index": 78,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 1.0,
+          "aussage_1": 0.98,
+          "aussage_2": 0.99,
+          "aussage_3": 0.99,
+          "aussage_4": 1.0,
+          "aussage_5": 0.99,
+          "aussage_6": 0.99,
+          "aussage_7": 0.99,
+          "aussage_8": 0.99,
+          "vollstaendig": 0.79
+        },
+        "jev_error": null,
+        "reason": "Die meisten Aussagen folgen aus den Fakt-Sätzen. Die Schlussstelle \"Das Hochwasser 2024 beschädigte unter anderem das Gebäude in Haubersbronn schwer. Der Betrieb musste für rund zehn Monate komplett eingestellt werden.\" ist aber nicht belegt. Fakt 0102 nennt nur die schwere Beschädigung des Gebäudes in Haubersbronn, \"unter anderem\" deutet weitere Schäden an, die nur im Kontext stehen. Fakt 0084 nennt keine Ursache für die Einstellung des Betriebs. Dass das Hochwasser 2024 den zehnmonatigen Stillstand verursachte, steht nur im Kontext, den die Fakt-Sätze nicht tragen. Die Verbindung beider Sätze stellt eine Beziehung her, die keiner der Fakt-Sätze nennt."
+      }
+    }
+  ]
+}

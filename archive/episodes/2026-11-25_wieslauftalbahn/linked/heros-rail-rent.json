@@ -1,0 +1,113 @@
+{
+  "title": "HEROS Rail Rent",
+  "revid": 268395285,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-01T19:17:15Z",
+  "fetched_at": "2026-11-25T12:59:28Z",
+  "categories": [
+    "Kategorie:Leasinggesellschaft für Schienenfahrzeuge",
+    "Kategorie:Unternehmen (Rheinfelden AG)",
+    "Kategorie:Unternehmensgründung 2009"
+  ],
+  "intro_wikitext": "{{Infobox Unternehmen\n| Name = HEROS Helvetic Rolling Stock GmbH\n| Logo =\n| Unternehmensform = [[Gesellschaft mit beschränkter Haftung (Schweiz)|GmbH]]\n| ISIN = \n| Gründungsdatum = 2009\n| Auflösungsdatum = \n| Auflösungsgrund = \n| Sitz = [[Rheinfelden AG|Rheinfelden]], [[Schweiz]]\n| Leitung = Uwe Sauer (Vorsitzender), Andreas Casutt\n| Mitarbeiterzahl = \n| Umsatz = \n| Stand = \n| Branche = \n| Homepage = heros-rail.com\n}}\n[[Datei:Diesel Locomotive BR218 by Heros.jpg|mini|Lokomotive der [[DB-Baureihe 218|Baureihe 218]] von Heros im Jahr 2024]]\nDie HEROS Helvetic Rolling Stock Gruppe besteht aus drei Einzelunternehmen, die den Verkauf von Schienenfahrzeugen innerhalb und außerhalb Europas abwickeln und die Vermietung und das Leasing mit gebrauchtem Rollmaterial betreiben. Die '''HEROS Helvetic Rolling Stock GmbH''' zeichnet dabei für die Vermarktung innerhalb Europas und der Türkei verantwortlich, die '''HEROS America Middle East Asia GmbH''' ist für Fahrzeuglösungen weltweit zuständig. Die '''HEROS Rail Rent GmbH''' ist Ansprechpartner für die Vermietung von Schienenfahrzeugen.\nDie HEROS Helvetic Rolling Stock GmbH bietet als Spezialist für gebrauchte Schienenfahrzeuge Konzepte und Lösungen für den Einsatz von Rollmaterial aus zweiter Hand.",
+  "segments": [
+    {
+      "id": "268395285-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Unternehmen | Unternehmensform = [[Gesellschaft mit beschränkter Haftung (Schweiz)|GmbH]]",
+      "plain": "Infobox Unternehmen – Rechtsform: GmbH"
+    },
+    {
+      "id": "268395285-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Unternehmen | Gründungsdatum = 2009",
+      "plain": "Infobox Unternehmen – Gründung: 2009"
+    },
+    {
+      "id": "268395285-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Unternehmen | Sitz = [[Rheinfelden AG|Rheinfelden]], [[Schweiz]]",
+      "plain": "Infobox Unternehmen – Sitz: Rheinfelden, Schweiz"
+    },
+    {
+      "id": "268395285-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Unternehmen | Leitung = Uwe Sauer (Vorsitzender), Andreas Casutt",
+      "plain": "Infobox Unternehmen – Leitung: Uwe Sauer (Vorsitzender), Andreas Casutt"
+    },
+    {
+      "id": "268395285-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Unternehmen | Homepage = heros-rail.com",
+      "plain": "Infobox Unternehmen – Website: heros-rail.com"
+    },
+    {
+      "id": "268395285-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die HEROS Helvetic Rolling Stock Gruppe besteht aus drei Einzelunternehmen, die den Verkauf von Schienenfahrzeugen innerhalb und außerhalb Europas abwickeln und die Vermietung und das Leasing mit gebrauchtem Rollmaterial betreiben.",
+      "plain": null
+    },
+    {
+      "id": "268395285-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''HEROS Helvetic Rolling Stock GmbH''' zeichnet dabei für die Vermarktung innerhalb Europas und der Türkei verantwortlich, die '''HEROS America Middle East Asia GmbH''' ist für Fahrzeuglösungen weltweit zuständig.",
+      "plain": null
+    },
+    {
+      "id": "268395285-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''HEROS Rail Rent GmbH''' ist Ansprechpartner für die Vermietung von Schienenfahrzeugen.",
+      "plain": null
+    },
+    {
+      "id": "268395285-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die HEROS Helvetic Rolling Stock GmbH bietet als Spezialist für gebrauchte Schienenfahrzeuge Konzepte und Lösungen für den Einsatz von Rollmaterial aus zweiter Hand.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268395285,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268395285-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die HEROS Helvetic Rolling Stock Gruppe besteht aus drei Einzelunternehmen, die den Verkauf von Schienenfahrzeugen innerhalb und außerhalb Europas abwickeln und die Vermietung und das Leasing mit gebrauchtem Rollmaterial betreiben.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268395285-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "268395285-0005"
+        ],
+        "plain": "Die HEROS Helvetic Rolling Stock GmbH zeichnet dabei für die Vermarktung innerhalb Europas und der Türkei verantwortlich, die HEROS America Middle East Asia GmbH ist für Fahrzeuglösungen weltweit zuständig.",
+        "context_plain": [
+          "Die HEROS Helvetic Rolling Stock Gruppe besteht aus drei Einzelunternehmen, die den Verkauf von Schienenfahrzeugen innerhalb und außerhalb Europas abwickeln und die Vermietung und das Leasing mit gebrauchtem Rollmaterial betreiben."
+        ]
+      },
+      {
+        "segment_id": "268395285-0008",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die HEROS Helvetic Rolling Stock GmbH bietet als Spezialist für gebrauchte Schienenfahrzeuge Konzepte und Lösungen für den Einsatz von Rollmaterial aus zweiter Hand.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

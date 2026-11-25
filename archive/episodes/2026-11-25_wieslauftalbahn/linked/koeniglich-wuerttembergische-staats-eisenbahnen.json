@@ -1,0 +1,68 @@
+{
+  "title": "Königlich Württembergische Staats-Eisenbahnen",
+  "revid": 261552743,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-11-14T19:23:05Z",
+  "fetched_at": "2026-11-25T12:59:28Z",
+  "categories": [
+    "Kategorie:Ehemaliges Unternehmen (Stuttgart)",
+    "Kategorie:Ehemaliges Verkehrsunternehmen (Baden-Württemberg)",
+    "Kategorie:Unternehmensgründung 1843",
+    "Kategorie:Württembergische Geschichte",
+    "Kategorie:Württembergische Staatseisenbahnen"
+  ],
+  "intro_wikitext": "[[Datei:Pleuer - Ausfahrender Zug - 1902.jpg|mini|[[Hermann Pleuer]]: ''Ausfahrender Zug'' (1902)]]\nDie '''Königlich Württembergischen Staats-Eisenbahnen''' (K.W.St.E.) waren die [[Staatsbahn]] des [[Königreich Württemberg|Königreichs Württemberg]] (nach 1918 freier [[Volksstaat Württemberg]]) zwischen 1843 und 1920.",
+  "segments": [
+    {
+      "id": "261552743-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Königlich Württembergischen Staats-Eisenbahnen''' (K.",
+      "plain": null
+    },
+    {
+      "id": "261552743-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "W.",
+      "plain": null
+    },
+    {
+      "id": "261552743-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "St.",
+      "plain": null
+    },
+    {
+      "id": "261552743-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "E.) waren die [[Staatsbahn]] des [[Königreich Württemberg|Königreichs Württemberg]] (nach 1918 freier [[Volksstaat Württemberg]]) zwischen 1843 und 1920.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 261552743,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "261552743-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "261552743-0000",
+          "261552743-0001",
+          "261552743-0002"
+        ],
+        "plain": "E.) waren die Staatsbahn des Königreichs Württemberg (nach 1918 freier Volksstaat Württemberg) zwischen 1843 und 1920.",
+        "context_plain": [
+          "Die Königlich Württembergischen Staats-Eisenbahnen (K.",
+          "W.",
+          "St."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "title": "Bahnsteighöhe",
+  "revid": 271692504,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-28T11:13:13Z",
+  "fetched_at": "2026-11-25T12:59:28Z",
+  "categories": [
+    "Kategorie:Bahnanlagentyp"
+  ],
+  "intro_wikitext": "[[Datei:Koeln Niederflurbahnsteig.jpg|mini|Niederflurbahnsteig der Haltestelle Mauritiuskirche der [[Stadtbahn Köln]]]]\n[[Datei:14-02-02-straszburg-RalfR-263.jpg|mini|Notstufe zum Einhängen bei zu geringen Bahnsteighöhen]]\n[[Datei:Perronhöhe Faido 2026.jpg|mini|Nicht mehr konforme Einstiegshöhe beim [[Treno Gottardo]] im Bahnhof [[Faido]] in leichter Außenkurve mit [[Gleisüberhöhung]]]]\n\nDie '''Bahnsteighöhe''' (''[[Schweiz]]'': '''Perronhöhe''') bezeichnet die Höhe des [[Bahnsteig]]s (Zugangsplattform parallel zum [[Gleis]]), die ebenso wie die Fahrzeugbodenhöhe ab [[Schienenoberkante]] (SOK) gemessen wird. Um den bequemen und sicheren Zustieg zu ermöglichen, sind die Bahnsteige je nach Strecke um bis zu etwa einen Meter erhöht. Die genauen Bahnsteighöhen richten sich nach den überwiegend eingesetzten Fahrzeugen sowie den angewendeten gesetzlichen Regelungen. Nach allgemeiner Regelung soll die Höhe der ersten Trittstufe beziehungsweise des Fahrzeugbodens gleich oder höher als die Bahnsteighöhe des Haltepunktes sein.",
+  "segments": [
+    {
+      "id": "271692504-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Bahnsteighöhe''' (''[[Schweiz]]'': '''Perronhöhe''') bezeichnet die Höhe des [[Bahnsteig]]s (Zugangsplattform parallel zum [[Gleis]]), die ebenso wie die Fahrzeugbodenhöhe ab [[Schienenoberkante]] (SOK) gemessen wird.",
+      "plain": null
+    },
+    {
+      "id": "271692504-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Um den bequemen und sicheren Zustieg zu ermöglichen, sind die Bahnsteige je nach Strecke um bis zu etwa einen Meter erhöht.",
+      "plain": null
+    },
+    {
+      "id": "271692504-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die genauen Bahnsteighöhen richten sich nach den überwiegend eingesetzten Fahrzeugen sowie den angewendeten gesetzlichen Regelungen.",
+      "plain": null
+    },
+    {
+      "id": "271692504-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Nach allgemeiner Regelung soll die Höhe der ersten Trittstufe beziehungsweise des Fahrzeugbodens gleich oder höher als die Bahnsteighöhe des Haltepunktes sein.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271692504,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271692504-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Um den bequemen und sicheren Zustieg zu ermöglichen, sind die Bahnsteige je nach Strecke um bis zu etwa einen Meter erhöht.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271692504-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Nach allgemeiner Regelung soll die Höhe der ersten Trittstufe beziehungsweise des Fahrzeugbodens gleich oder höher als die Bahnsteighöhe des Haltepunktes sein.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

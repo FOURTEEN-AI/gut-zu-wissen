@@ -1,0 +1,44 @@
+{
+  "title": "Stilllegung",
+  "revid": 258609044,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-08-05T13:26:48Z",
+  "fetched_at": "2026-11-25T12:59:28Z",
+  "categories": [
+    "Kategorie:Betriebswirtschaftslehre",
+    "Kategorie:Planung und Organisation",
+    "Kategorie:Stillgelegte Anlage"
+  ],
+  "intro_wikitext": "[[Datei:Osthofen- Bahnübergang des Ziegelhüttenweges- Richtung Ost (B 9) 22.7.2008.jpg|mini|Vorübergehend außer Betrieb genommener [[Bahnübergang (Deutschland)|Bahnübergang]] im [[Bahnhof Osthofen]]]]\nUnter '''Stilllegung''', teilweise auch ''Dekommissionierung'' oder ''Auflassung'', versteht man die temporäre oder permanente Außerbetriebnahme von [[Betrieb]]en, [[Anlage (Technik)|technischen]] oder [[Infrastruktur]]-Anlagen wie [[Streckenstilllegung|Bahnstrecken oder Straßen]] sowie von [[Öffentliche Einrichtung|Einrichtungen]], [[Immobilie|Objekten]], [[Fahrzeug]]en oder z. B. [[Ackerfläche]]n.\n\nDas Gegenteil bezeichnen „Reaktivierung“ bzw. „Wieder-[[Inbetriebnahme]]“.",
+  "segments": [
+    {
+      "id": "258609044-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Unter '''Stilllegung''', teilweise auch ''Dekommissionierung'' oder ''Auflassung'', versteht man die temporäre oder permanente Außerbetriebnahme von [[Betrieb]]en, [[Anlage (Technik)|technischen]] oder [[Infrastruktur]]-Anlagen wie [[Streckenstilllegung|Bahnstrecken oder Straßen]] sowie von [[Öffentliche Einrichtung|Einrichtungen]], [[Immobilie|Objekten]], [[Fahrzeug]]en oder z. B. [[Ackerfläche]]n.",
+      "plain": null
+    },
+    {
+      "id": "258609044-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Gegenteil bezeichnen „Reaktivierung“ bzw. „Wieder-[[Inbetriebnahme]]“.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 258609044,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "258609044-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Unter Stilllegung, teilweise auch Dekommissionierung oder Auflassung, versteht man die temporäre oder permanente Außerbetriebnahme von Betrieben, technischen oder Infrastruktur-Anlagen wie Bahnstrecken oder Straßen sowie von Einrichtungen, Objekten, Fahrzeugen oder z. B. Ackerflächen.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

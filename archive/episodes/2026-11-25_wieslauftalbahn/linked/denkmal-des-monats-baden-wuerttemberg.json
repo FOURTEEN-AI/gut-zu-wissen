@@ -1,0 +1,57 @@
+{
+  "title": "Denkmal des Monats (Baden-Württemberg)",
+  "revid": 271878085,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-04T09:27:56Z",
+  "fetched_at": "2026-11-25T12:59:28Z",
+  "categories": [
+    "Kategorie:Denkmal des Monats (Baden-Württemberg)",
+    "Kategorie:Erstverleihung 2004",
+    "Kategorie:Liste (Denkmale)",
+    "Kategorie:Wikipedia:Veraltet nach Dezember 2026"
+  ],
+  "intro_wikitext": "[[Datei:25 Jahre Denkmalstiftung Baden-Württemberg.gif|mini|Logo ''25 Jahre Denkmalstiftung Baden-Württemberg'']]\nDas '''Denkmal des Monats''' wird seit Januar 2004 von der [[Denkmalstiftung Baden-Württemberg]] ausgezeichnet. Jeden Monat wird ein von der Stiftung gefördertes Kulturdenkmal ausgewählt.",
+  "segments": [
+    {
+      "id": "271878085-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das '''Denkmal des Monats''' wird seit Januar 2004 von der [[Denkmalstiftung Baden-Württemberg]] ausgezeichnet.",
+      "plain": null
+    },
+    {
+      "id": "271878085-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Jeden Monat wird ein von der Stiftung gefördertes Kulturdenkmal ausgewählt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271878085,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271878085-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Denkmal des Monats wird seit Januar 2004 von der Denkmalstiftung Baden-Württemberg ausgezeichnet.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271878085-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271878085-0000"
+        ],
+        "plain": "Jeden Monat wird ein von der Stiftung gefördertes Kulturdenkmal ausgewählt.",
+        "context_plain": [
+          "Das Denkmal des Monats wird seit Januar 2004 von der Denkmalstiftung Baden-Württemberg ausgezeichnet."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "title": "Kreisverkehr",
+  "revid": 270580901,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-18T06:33:38Z",
+  "fetched_at": "2026-11-25T12:59:28Z",
+  "categories": [
+    "Kategorie:Knotenpunkt (Straße)",
+    "Kategorie:Kreis",
+    "Kategorie:Straßenverkehrsordnungsrecht"
+  ],
+  "intro_wikitext": "{{Begriffsklärungshinweis}}\n[[Datei:Straßwalchen kreisverkehr.jpg|mini|Kreisverkehr in [[Straßwalchen]], Österreich]]\n[[Datei:Roundabout in Jordan.jpg|mini|Kreisverkehr in [[Amman]], Jordanien]]\n[[Datei:Dizengoff Square 2026.jpg|mini|Kreisverkehr im Zentrum von [[Tel Aviv]], Israel]]\n\nUnter einem '''Kreisverkehr''', auch '''Verkehrskreisel''',<ref>{{Internetquelle |url=https://www.duden.de/rechtschreibung/Verkehrskreisel |titel=Duden {{!}} Verkehrskreisel {{!}} Rechtschreibung, Bedeutung, Definition, Herkunft |sprache=de |abruf=2023-09-01}}</ref> '''Kreisverkehrsplatz''' (KVP), ''Kreisel'', ''Teller'' oder ''Rondell'', versteht man eine bestimmte Bauart eines [[Knotenpunkt (Verkehr)|Knotenpunkts]] im [[Straßenverkehr]]. Ein Kreisverkehr besteht aus der [[Straßenquerschnitt#Fahrbahn|Kreisfahrbahn]], die nicht streng kreisförmig sein muss, aber immer eine geschlossene Schleife bildet, und einer [[Mittelinsel|Kreisinsel]], die von der Kreisfahrbahn umgeben ist und umfahren wird.\n\nDie Kreisfahrbahn ist wie eine [[Einbahnstraße]] nur in einer Richtung zu befahren, im [[Links- und Rechtsverkehr|Rechtsverkehr]] entgegen dem [[Drehrichtung|Uhrzeigersinn]] (linksdrehend) und im Linksverkehr im Uhrzeigersinn (rechtsdrehend). Fahrzeuge fahren aus einer Einmündung in die Kreisfahrbahn ein, folgen ihr bis zur gewünschten Ausfahrt und verlassen sie dort wieder. Im Unterschied zu einer normalen Kreuzung kreuzen sich in einem Kreisverkehr mehrere Verkehrsströme. Dabei dient die Kreisfahrbahn als Verteiler, der keinem der Verkehrsströme Vorrechte einräumt. Bei ungleich starkem Verkehrsaufkommen können aber für schwache Ströme Wartezeiten entstehen.",
+  "segments": [
+    {
+      "id": "270580901-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Unter einem '''Kreisverkehr''', auch '''Verkehrskreisel''',<ref>{{Internetquelle |url=https://www.duden.de/rechtschreibung/Verkehrskreisel |titel=Duden {{!}} Verkehrskreisel {{!}} Rechtschreibung, Bedeutung, Definition, Herkunft |sprache=de |abruf=2023-09-01}}</ref> '''Kreisverkehrsplatz''' (KVP), ''Kreisel'', ''Teller'' oder ''Rondell'', versteht man eine bestimmte Bauart eines [[Knotenpunkt (Verkehr)|Knotenpunkts]] im [[Straßenverkehr]].",
+      "plain": null
+    },
+    {
+      "id": "270580901-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein Kreisverkehr besteht aus der [[Straßenquerschnitt#Fahrbahn|Kreisfahrbahn]], die nicht streng kreisförmig sein muss, aber immer eine geschlossene Schleife bildet, und einer [[Mittelinsel|Kreisinsel]], die von der Kreisfahrbahn umgeben ist und umfahren wird.",
+      "plain": null
+    },
+    {
+      "id": "270580901-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Kreisfahrbahn ist wie eine [[Einbahnstraße]] nur in einer Richtung zu befahren, im [[Links- und Rechtsverkehr|Rechtsverkehr]] entgegen dem [[Drehrichtung|Uhrzeigersinn]] (linksdrehend) und im Linksverkehr im Uhrzeigersinn (rechtsdrehend).",
+      "plain": null
+    },
+    {
+      "id": "270580901-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Fahrzeuge fahren aus einer Einmündung in die Kreisfahrbahn ein, folgen ihr bis zur gewünschten Ausfahrt und verlassen sie dort wieder.",
+      "plain": null
+    },
+    {
+      "id": "270580901-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Unterschied zu einer normalen Kreuzung kreuzen sich in einem Kreisverkehr mehrere Verkehrsströme.",
+      "plain": null
+    },
+    {
+      "id": "270580901-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dabei dient die Kreisfahrbahn als Verteiler, der keinem der Verkehrsströme Vorrechte einräumt.",
+      "plain": null
+    },
+    {
+      "id": "270580901-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bei ungleich starkem Verkehrsaufkommen können aber für schwache Ströme Wartezeiten entstehen.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270580901,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270580901-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Unter einem Kreisverkehr, auch Verkehrskreisel, Kreisverkehrsplatz (KVP), Kreisel, Teller oder Rondell, versteht man eine bestimmte Bauart eines Knotenpunkts im Straßenverkehr.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270580901-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Ein Kreisverkehr besteht aus der Kreisfahrbahn, die nicht streng kreisförmig sein muss, aber immer eine geschlossene Schleife bildet, und einer Kreisinsel, die von der Kreisfahrbahn umgeben ist und umfahren wird.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270580901-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270580901-0001"
+        ],
+        "plain": "Die Kreisfahrbahn ist wie eine Einbahnstraße nur in einer Richtung zu befahren, im Rechtsverkehr entgegen dem Uhrzeigersinn (linksdrehend) und im Linksverkehr im Uhrzeigersinn (rechtsdrehend).",
+        "context_plain": [
+          "Ein Kreisverkehr besteht aus der Kreisfahrbahn, die nicht streng kreisförmig sein muss, aber immer eine geschlossene Schleife bildet, und einer Kreisinsel, die von der Kreisfahrbahn umgeben ist und umfahren wird."
+        ]
+      },
+      {
+        "segment_id": "270580901-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Im Unterschied zu einer normalen Kreuzung kreuzen sich in einem Kreisverkehr mehrere Verkehrsströme.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270580901-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270580901-0004"
+        ],
+        "plain": "Dabei dient die Kreisfahrbahn als Verteiler, der keinem der Verkehrsströme Vorrechte einräumt.",
+        "context_plain": [
+          "Im Unterschied zu einer normalen Kreuzung kreuzen sich in einem Kreisverkehr mehrere Verkehrsströme."
+        ]
+      },
+      {
+        "segment_id": "270580901-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270580901-0005"
+        ],
+        "plain": "Bei ungleich starkem Verkehrsaufkommen können aber für schwache Ströme Wartezeiten entstehen.",
+        "context_plain": [
+          "Dabei dient die Kreisfahrbahn als Verteiler, der keinem der Verkehrsströme Vorrechte einräumt."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

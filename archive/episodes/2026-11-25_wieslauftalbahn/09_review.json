@@ -1,0 +1,2652 @@
+{
+  "episode_id": "2026-11-25_wieslauftalbahn",
+  "title": "Wieslauftalbahn",
+  "rate": 1.0,
+  "seed": "2026-11-25_wieslauftalbahn",
+  "population": [
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    26,
+    28,
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    45,
+    46,
+    48,
+    49,
+    50,
+    52,
+    53,
+    54,
+    56,
+    58,
+    60,
+    62,
+    64,
+    66,
+    68,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    78
+  ],
+  "draws": [
+    {
+      "turn_index": 0,
+      "u": 0.7741655009775517,
+      "sampled": true
+    },
+    {
+      "turn_index": 2,
+      "u": 0.8060653673186097,
+      "sampled": true
+    },
+    {
+      "turn_index": 3,
+      "u": 0.41554431354692756,
+      "sampled": true
+    },
+    {
+      "turn_index": 4,
+      "u": 0.900292531887109,
+      "sampled": true
+    },
+    {
+      "turn_index": 5,
+      "u": 0.14817315255925367,
+      "sampled": true
+    },
+    {
+      "turn_index": 6,
+      "u": 0.46811992041760575,
+      "sampled": true
+    },
+    {
+      "turn_index": 7,
+      "u": 0.7217189301697633,
+      "sampled": true
+    },
+    {
+      "turn_index": 8,
+      "u": 0.7965576944563797,
+      "sampled": true
+    },
+    {
+      "turn_index": 9,
+      "u": 0.89443480380838,
+      "sampled": true
+    },
+    {
+      "turn_index": 10,
+      "u": 0.18953908334674396,
+      "sampled": true
+    },
+    {
+      "turn_index": 11,
+      "u": 0.7139529127727816,
+      "sampled": true
+    },
+    {
+      "turn_index": 12,
+      "u": 0.836624941073792,
+      "sampled": true
+    },
+    {
+      "turn_index": 14,
+      "u": 0.9981185926060036,
+      "sampled": true
+    },
+    {
+      "turn_index": 16,
+      "u": 0.8671643007593286,
+      "sampled": true
+    },
+    {
+      "turn_index": 18,
+      "u": 0.7316161625995435,
+      "sampled": true
+    },
+    {
+      "turn_index": 20,
+      "u": 0.8236460104386066,
+      "sampled": true
+    },
+    {
+      "turn_index": 22,
+      "u": 0.8786509425342831,
+      "sampled": true
+    },
+    {
+      "turn_index": 24,
+      "u": 0.37854851470724504,
+      "sampled": true
+    },
+    {
+      "turn_index": 26,
+      "u": 0.34561720245706096,
+      "sampled": true
+    },
+    {
+      "turn_index": 28,
+      "u": 0.2730634249302353,
+      "sampled": true
+    },
+    {
+      "turn_index": 30,
+      "u": 0.8710640768457658,
+      "sampled": true
+    },
+    {
+      "turn_index": 32,
+      "u": 0.4022603538039583,
+      "sampled": true
+    },
+    {
+      "turn_index": 34,
+      "u": 0.8096537556000492,
+      "sampled": true
+    },
+    {
+      "turn_index": 36,
+      "u": 0.5992604963274587,
+      "sampled": true
+    },
+    {
+      "turn_index": 38,
+      "u": 0.04424910248900471,
+      "sampled": true
+    },
+    {
+      "turn_index": 40,
+      "u": 0.8972216818316782,
+      "sampled": true
+    },
+    {
+      "turn_index": 42,
+      "u": 0.4172960543690041,
+      "sampled": true
+    },
+    {
+      "turn_index": 44,
+      "u": 0.08345028157557155,
+      "sampled": true
+    },
+    {
+      "turn_index": 45,
+      "u": 0.8424565913175277,
+      "sampled": true
+    },
+    {
+      "turn_index": 46,
+      "u": 0.3488708317752971,
+      "sampled": true
+    },
+    {
+      "turn_index": 48,
+      "u": 0.30533360203003845,
+      "sampled": true
+    },
+    {
+      "turn_index": 49,
+      "u": 0.8276731747907206,
+      "sampled": true
+    },
+    {
+      "turn_index": 50,
+      "u": 0.5938414842092525,
+      "sampled": true
+    },
+    {
+      "turn_index": 52,
+      "u": 0.9974448920567005,
+      "sampled": true
+    },
+    {
+      "turn_index": 53,
+      "u": 0.6584785837212577,
+      "sampled": true
+    },
+    {
+      "turn_index": 54,
+      "u": 0.1461664144110455,
+      "sampled": true
+    },
+    {
+      "turn_index": 56,
+      "u": 0.5695858512726009,
+      "sampled": true
+    },
+    {
+      "turn_index": 58,
+      "u": 0.01872169446307681,
+      "sampled": true
+    },
+    {
+      "turn_index": 60,
+      "u": 0.9570772981953264,
+      "sampled": true
+    },
+    {
+      "turn_index": 62,
+      "u": 0.4122412311138701,
+      "sampled": true
+    },
+    {
+      "turn_index": 64,
+      "u": 0.018684981171395276,
+      "sampled": true
+    },
+    {
+      "turn_index": 66,
+      "u": 0.41966641789310455,
+      "sampled": true
+    },
+    {
+      "turn_index": 68,
+      "u": 0.7636502153247711,
+      "sampled": true
+    },
+    {
+      "turn_index": 70,
+      "u": 0.032194398015482406,
+      "sampled": true
+    },
+    {
+      "turn_index": 71,
+      "u": 0.3123820134528792,
+      "sampled": true
+    },
+    {
+      "turn_index": 72,
+      "u": 0.35087655740915025,
+      "sampled": true
+    },
+    {
+      "turn_index": 73,
+      "u": 0.5395221865504318,
+      "sampled": true
+    },
+    {
+      "turn_index": 74,
+      "u": 0.8629963364309903,
+      "sampled": true
+    },
+    {
+      "turn_index": 75,
+      "u": 0.21381373170734908,
+      "sampled": true
+    },
+    {
+      "turn_index": 76,
+      "u": 0.2970090559608872,
+      "sampled": true
+    },
+    {
+      "turn_index": 78,
+      "u": 0.6766513617801121,
+      "sampled": true
+    }
+  ],
+  "status": "pending",
+  "outcome": null,
+  "rate_applied": [],
+  "issue": 35,
+  "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/35",
+  "explicit": {
+    "model": "claude-sonnet-5-5",
+    "predicted": false,
+    "verdict": "clean",
+    "findings": [],
+    "reason": "Das Skript behandelt sachlich die Geschichte, den Betrieb und die Infrastruktur der Wieslauftalbahn. Es enthält keine drastische Gewalt, Sexualität oder Drogendarstellung und keine derben Ausdrücke. Das Hochwasser (Redebeiträge 70–76) wird nur nüchtern als Sachschaden beschrieben.",
+    "label": null,
+    "reviewer_flag": null,
+    "note": null,
+    "comment_id": null
+  },
+  "turns": [
+    {
+      "turn_index": 0,
+      "speaker": "Lena",
+      "text": "Die Wieslauftalbahn, auch Wieslaufbahn oder Wiesel genannt, ist eine normalspurige, eingleisige und nicht elektrifizierte Nebenbahn in Baden-Württemberg. Sie beginnt in Schorndorf im Remstal. Dort zweigt sie von der Bahnstrecke Stuttgart-Bad Cannstatt–Nördlingen ab.",
+      "previous_text": null,
+      "fact_ids": [
+        "272464187-0000",
+        "272464187-0001"
+      ],
+      "statements": [
+        {
+          "text": "Die Wieslauftalbahn, auch Wieslaufbahn oder Wiesel genannt, ist eine normalspurige, eingleisige und nicht elektrifizierte Nebenbahn in Baden-Württemberg.",
+          "fact_ids": [
+            "272464187-0000"
+          ]
+        },
+        {
+          "text": "Sie beginnt in Schorndorf im Remstal und zweigt dort von der Bahnstrecke Stuttgart-Bad Cannstatt–Nördlingen ab.",
+          "fact_ids": [
+            "272464187-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0000",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Die Wieslauftalbahn, auch Wieslaufbahn oder Wiesel genannt, ist eine normalspurige, eingleisige und nicht elektrifizierte Nebenbahn in Baden-Württemberg.",
+          "context": []
+        },
+        {
+          "id": "272464187-0001",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Sie beginnt in Schorndorf im Remstal, wo sie von der Bahnstrecke Stuttgart-Bad Cannstatt–Nördlingen abzweigt.",
+          "context": [
+            "Die Wieslauftalbahn, auch Wieslaufbahn oder Wiesel genannt, ist eine normalspurige, eingleisige und nicht elektrifizierte Nebenbahn in Baden-Württemberg."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Lena",
+      "text": "Die Bahn sollte gegebenenfalls aufgrund der topographischen Verhältnisse als Zahnradbahn ausgeführt werden. Die Planungen gingen außerdem zunächst von einer Schmalspurbahn mit siebenhundertfünfzig Millimeter Spurweite aus. Die hätte bei den vorliegenden Geländeverhältnissen kostengünstiger gebaut werden können.",
+      "previous_text": "Das klingt nach einer Bahn mit Geschichte. Wie hat das alles angefangen?",
+      "fact_ids": [
+        "272464187-0010",
+        "272464187-0011"
+      ],
+      "statements": [
+        {
+          "text": "Die Bahn sollte gegebenenfalls aufgrund der topographischen Verhältnisse als Zahnradbahn ausgeführt werden.",
+          "fact_ids": [
+            "272464187-0010"
+          ]
+        },
+        {
+          "text": "Die Planungen gingen zunächst von einer Schmalspurbahn mit siebenhundertfünfzig Millimeter Spurweite aus, weil diese bei den Geländeverhältnissen kostengünstiger hätte erbaut werden können.",
+          "fact_ids": [
+            "272464187-0011"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0010",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Gegebenenfalls sollte sie dabei, aufgrund der topographischen Verhältnisse, als Zahnradbahn ausgeführt werden.",
+          "context": [
+            "Favorisiert wurde in erster Linie eine Verbindung, die in Schorndorf von der schon seit 1861 bestehenden Remsbahn abzweigen und, über Rudersberg führend, in Welzheim enden würde."
+          ]
+        },
+        {
+          "id": "272464187-0011",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Außerdem gingen die Planungen zunächst von einer Schmalspurbahn mit 750 mm Spurweite aus, da diese bei den vorliegenden Geländeverhältnissen kostengünstiger hätte erbaut werden können.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Felix",
+      "text": "Was war denn der Anlass für diese Planungen?",
+      "previous_text": "Die Bahn sollte gegebenenfalls aufgrund der topographischen Verhältnisse als Zahnradbahn ausgeführt werden. Die Planungen gingen außerdem zunächst von einer Schmalspurbahn mit siebenhundertfünfzig Millimeter Spurweite aus. Die hätte bei den vorliegenden Geländeverhältnissen kostengünstiger gebaut werden können.",
+      "fact_ids": [
+        "272464187-0011"
+      ],
+      "statements": [
+        {
+          "text": "Es gab Planungen für die Bahn, zunächst als Schmalspurbahn.",
+          "fact_ids": [
+            "272464187-0011"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0011",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Außerdem gingen die Planungen zunächst von einer Schmalspurbahn mit 750 mm Spurweite aus, da diese bei den vorliegenden Geländeverhältnissen kostengünstiger hätte erbaut werden können.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine reine Nachfrage nach dem Anlass der Planungen. Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Es wird keine Behauptung aufgestellt, die durch Fakten belegt werden müsste. Der Bezug „diese Planungen“ ist durch Lenas vorherigen Beitrag und das Artikelthema eindeutig."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Lena",
+      "text": "Welzheim war ab achtzehnhundertsechsundneunzig die letzte württembergische Oberamtsstadt, die noch keinen Bahnanschluss hatte.",
+      "previous_text": "Was war denn der Anlass für diese Planungen?",
+      "fact_ids": [
+        "272464187-0017"
+      ],
+      "statements": [
+        {
+          "text": "Welzheim war ab 1896 die letzte württembergische Oberamtsstadt ohne Bahnanschluss.",
+          "fact_ids": [
+            "272464187-0017"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0017",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Welzheim war dabei ab 1896 die letzte württembergische Oberamtsstadt, die noch keinen Bahnanschluss hatte.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.84
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder (Welzheim, ab 1896, letzte württembergische Oberamtsstadt ohne Bahnanschluss). Der Gegenstand ist eindeutig, da Welzheim genannt wird und das Thema des Artikels Wieslauftalbahn ist. Als Antwort auf die Frage nach dem Anlass der Planungen passt der Fakt; es kommt keine zusätzliche Angabe hinzu, und der Beitrag enthält keine Frage oder sonstige unbelegte Aussage."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Felix",
+      "text": "Oberamtsstadt, was ist das genau?",
+      "previous_text": "Welzheim war ab achtzehnhundertsechsundneunzig die letzte württembergische Oberamtsstadt, die noch keinen Bahnanschluss hatte.",
+      "fact_ids": [
+        "272464187-0017"
+      ],
+      "statements": [
+        {
+          "text": "Welzheim war eine württembergische Oberamtsstadt.",
+          "fact_ids": [
+            "272464187-0017"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0017",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Welzheim war dabei ab 1896 die letzte württembergische Oberamtsstadt, die noch keinen Bahnanschluss hatte.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Lena",
+      "text": "Das Oberamt Welzheim war ein württembergischer Verwaltungsbezirk. Von achtzehnhundertzehn bis achtzehnhundertneunzehn hieß es Oberamt Lorch. Neunzehnhundertvierunddreißig wurde es in Kreis Welzheim umbenannt und neunzehnhundertachtunddreißig aufgelöst. Seine Gemeinden wurden auf die Landkreise Waiblingen, Gmünd, Backnang und Göppingen verteilt.",
+      "previous_text": "Oberamtsstadt, was ist das genau?",
+      "fact_ids": [
+        "264321193-0000"
+      ],
+      "statements": [
+        {
+          "text": "Das Oberamt Welzheim, von 1810 bis 1819 Oberamt Lorch, war ein württembergischer Verwaltungsbezirk, der 1934 in Kreis Welzheim umbenannt und 1938 aufgelöst wurde.",
+          "fact_ids": [
+            "264321193-0000"
+          ]
+        },
+        {
+          "text": "Seine Gemeinden wurden auf die Landkreise Waiblingen, Gmünd, Backnang und Göppingen verteilt.",
+          "fact_ids": [
+            "264321193-0000"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "264321193-0000",
+          "article": "Oberamt Welzheim",
+          "revid": 264321193,
+          "sentence": "Das Oberamt Welzheim (von 1810 bis 1819 Oberamt Lorch) war ein württembergischer Verwaltungsbezirk (auf beigefügter Karte #61), der 1934 in Kreis Welzheim umbenannt und 1938 aufgelöst wurde, wobei seine Gemeinden auf die Landkreise Waiblingen (Rechtsnachfolger), Gmünd, Backnang und Göppingen verteilt wurden.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Oberamt Welzheim als württembergischer Verwaltungsbezirk, 1810 bis 1819 Oberamt Lorch, 1934 Umbenennung in Kreis Welzheim, 1938 Auflösung, Verteilung der Gemeinden auf Waiblingen, Gmünd, Backnang und Göppingen. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben. Der Gegenstand ist eindeutig, da der Redebeitrag das Oberamt Welzheim nennt, das auch das Artikelthema ist."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 7,
+      "speaker": "Felix",
+      "text": "Wie sah der Betrieb auf der Strecke in den ersten Jahren aus?",
+      "previous_text": "Das Oberamt Welzheim war ein württembergischer Verwaltungsbezirk. Von achtzehnhundertzehn bis achtzehnhundertneunzehn hieß es Oberamt Lorch. Neunzehnhundertvierunddreißig wurde es in Kreis Welzheim umbenannt und neunzehnhundertachtunddreißig aufgelöst. Seine Gemeinden wurden auf die Landkreise Waiblingen, Gmünd, Backnang und Göppingen verteilt.",
+      "fact_ids": [
+        "272464187-0000"
+      ],
+      "statements": [
+        {
+          "text": "Die Wieslauftalbahn ist eine Nebenbahn in Baden-Württemberg.",
+          "fact_ids": [
+            "272464187-0000"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0000",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Die Wieslauftalbahn, auch Wieslaufbahn oder Wiesel genannt, ist eine normalspurige, eingleisige und nicht elektrifizierte Nebenbahn in Baden-Württemberg.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 1.0,
+          "vollstaendig": 0.81
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag ist eine reine Nachfrage nach dem Betrieb auf der Strecke in den ersten Jahren. Sie fragt nach etwas Neuem und setzt nur voraus, dass es dazu etwas zu erzählen gibt, nimmt aber keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Mit „der Strecke“ ist die Wieslauftalbahn gemeint; auch das ist keine Behauptung, die belegt werden müsste. Der Redebeitrag ist daher belegfrei und zulässig."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Lena",
+      "text": "Auf der Strecke verkehrten zunächst bis zu fünf Zugpaare täglich. Die Strecke war die steilste Adhäsionsbahn Württembergs.",
+      "previous_text": "Wie sah der Betrieb auf der Strecke in den ersten Jahren aus?",
+      "fact_ids": [
+        "272464187-0028"
+      ],
+      "statements": [
+        {
+          "text": "Es verkehrten zunächst bis zu fünf Zugpaare täglich.",
+          "fact_ids": [
+            "272464187-0028"
+          ]
+        },
+        {
+          "text": "Die Strecke war die steilste Adhäsionsbahn Württembergs.",
+          "fact_ids": [
+            "272464187-0028"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0028",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Es verkehrten zunächst bis zu fünf Zugpaare täglich, die Strecke war die steilste Adhäsionsbahn Württembergs.",
+          "context": [
+            "1907 begannen die Königlich Württembergischen Staats-Eisenbahnen mit den Bauarbeiten, am 28. November 1908 eröffneten sie den ersten Abschnitt bis Rudersberg sowie am 25. November 1911 das Reststück bis Welzheim."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 9,
+      "speaker": "Felix",
+      "text": "Gibt es auch außerhalb Württembergs besonders steile Bahnen?",
+      "previous_text": "Auf der Strecke verkehrten zunächst bis zu fünf Zugpaare täglich. Die Strecke war die steilste Adhäsionsbahn Württembergs.",
+      "fact_ids": [
+        "272464187-0028"
+      ],
+      "statements": [
+        {
+          "text": "Die Strecke war die steilste Adhäsionsbahn Württembergs.",
+          "fact_ids": [
+            "272464187-0028"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0028",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Es verkehrten zunächst bis zu fünf Zugpaare täglich, die Strecke war die steilste Adhäsionsbahn Württembergs.",
+          "context": [
+            "1907 begannen die Königlich Württembergischen Staats-Eisenbahnen mit den Bauarbeiten, am 28. November 1908 eröffneten sie den ersten Abschnitt bis Rudersberg sowie am 25. November 1911 das Reststück bis Welzheim."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.86
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine Nachfrage bzw. Überleitungsfrage. Sie nimmt keine bestimmte Einzelheit vorweg, sondern fragt nur, ob es auch außerhalb Württembergs steile Bahnen gibt. Dass „Württemberg“ vorkommt, ist durch Lenas Beitrag und den Fakt gedeckt. Es gibt keine zusätzliche Behauptung und keine Prämisse, die belegt werden müsste."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "Lena",
+      "text": "Es gibt auch Zahnradbahnen auf Hanglagen in Städten, so zum Beispiel in Stuttgart.",
+      "previous_text": "Gibt es auch außerhalb Württembergs besonders steile Bahnen?",
+      "fact_ids": [
+        "272057590-0009"
+      ],
+      "statements": [
+        {
+          "text": "Es gibt auch Zahnradbahnen auf Hanglagen in Städten, zum Beispiel in Stuttgart.",
+          "fact_ids": [
+            "272057590-0009"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272057590-0009",
+          "article": "Zahnradbahn",
+          "revid": 272057590,
+          "sentence": "Es gibt auch Zahnradbahnen auf Hanglagen in Städten, so zum Beispiel in Stuttgart.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 11,
+      "speaker": "Felix",
+      "text": "Spannend! Zurück zur Wieslauftalbahn, die ja eine Nebenbahn in Baden-Württemberg ist. Wie fing es eigentlich mit dieser Strecke an?",
+      "previous_text": "Es gibt auch Zahnradbahnen auf Hanglagen in Städten, so zum Beispiel in Stuttgart.",
+      "fact_ids": [
+        "272464187-0000"
+      ],
+      "statements": [
+        {
+          "text": "Die Wieslauftalbahn ist eine Nebenbahn in Baden-Württemberg.",
+          "fact_ids": [
+            "272464187-0000"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0000",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Die Wieslauftalbahn, auch Wieslaufbahn oder Wiesel genannt, ist eine normalspurige, eingleisige und nicht elektrifizierte Nebenbahn in Baden-Württemberg.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Die Aussage, die Wieslauftalbahn sei eine Nebenbahn in Baden-Württemberg, folgt direkt aus dem Fakt-Satz. „Spannend!“ ist eine belegfreie Reaktion. „Zurück zur Wieslauftalbahn“ ist eine Überleitung. „Wie fing es eigentlich mit dieser Strecke an?“ ist eine Nachfrage ohne eigene Prämisse, die eine Einzelheit vorwegnimmt. Der Gegenstand ist eindeutig, da der Redebeitrag die Wieslauftalbahn selbst nennt."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "Lena",
+      "text": "Eine Tangentiallinie um die königliche Residenzstadt Stuttgart herum war damals noch undenkbar. Die Generaldirektion der Königlich Württembergischen Staats-Eisenbahnen lehnte sie deshalb im Jahr achtzehnhundertneunzig ab.",
+      "previous_text": "Spannend! Zurück zur Wieslauftalbahn, die ja eine Nebenbahn in Baden-Württemberg ist. Wie fing es eigentlich mit dieser Strecke an?",
+      "fact_ids": [
+        "272464187-0016"
+      ],
+      "statements": [
+        {
+          "text": "Eine Tangentiallinie um die königliche Residenzstadt Stuttgart herum war damals noch undenkbar und wurde deshalb 1890 von der Generaldirektion der Königlich Württembergischen Staats-Eisenbahnen abgelehnt.",
+          "fact_ids": [
+            "272464187-0016"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0016",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Eine solche Tangentiallinie um die königliche Residenzstadt Stuttgart herum war damals allerdings noch undenkbar und wurde daher von der Generaldirektion der Königlich Württembergischen Staats-Eisenbahnen 1890 abgelehnt.",
+          "context": [
+            "1874 ersuchten die Gemeinden Schorndorf, Rudersberg, Backnang und Plochingen die Ständeversammlung des Königreichs Württemberg um Prüfung des Baus einer Bahnstrecke von Plochingen über Schorndorf und Rudersberg nach Backnang."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 14,
+      "speaker": "Lena",
+      "text": "Verhandlungen über eine Erhöhung des staatlichen Zuschusses führten zu keinem Ergebnis. Daraufhin schlug die Württembergische Landesregierung den Bau durch den Staat vor.",
+      "previous_text": "Interessant! Und was kam dann? Bitte erzähl weiter.",
+      "fact_ids": [
+        "272464187-0025"
+      ],
+      "statements": [
+        {
+          "text": "Verhandlungen über eine Erhöhung des staatlichen Zuschusses führten zu keinem Ergebnis.",
+          "fact_ids": [
+            "272464187-0025"
+          ]
+        },
+        {
+          "text": "Daraufhin schlug die Württembergische Landesregierung den Bau durch den Staat vor.",
+          "fact_ids": [
+            "272464187-0025"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0025",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Da entsprechende Verhandlungen über eine Erhöhung des staatlichen Zuschusses aber zu keinem Ergebnis führten, schlug die Württembergische Landesregierung den Bau durch den Staat vor.",
+          "context": [
+            "Diese wollte aber aus Kostengründen nur – wie ursprünglich geplant – eine schmalspurige Variante mit Zahnstange realisieren."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 16,
+      "speaker": "Lena",
+      "text": "Ab den neunzehnhundertzwanziger Jahren verkehrten im Sommer sonntags über die Remsbahn durchgehende Ausflugszüge zwischen Stuttgart und Welzheim. Die Fahrtdauer betrug hierbei rund zwei Stunden.",
+      "previous_text": "Aha, das ist wirklich spannend. Wie hat sich der Zugverkehr auf der Strecke entwickelt?",
+      "fact_ids": [
+        "272464187-0031"
+      ],
+      "statements": [
+        {
+          "text": "Ab den 1920er Jahren verkehrten im Sommer sonntags über die Remsbahn durchgehende Ausflugszüge zwischen Stuttgart und Welzheim.",
+          "fact_ids": [
+            "272464187-0031"
+          ]
+        },
+        {
+          "text": "Die Fahrtdauer betrug dabei rund zwei Stunden.",
+          "fact_ids": [
+            "272464187-0031"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0031",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Ab den 1920er Jahren verkehrten im Sommer sonntags über die Remsbahn durchgehende Ausflugszüge zwischen Stuttgart und Welzheim; die Fahrtdauer betrug hierbei rund zwei Stunden.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 18,
+      "speaker": "Lena",
+      "text": "Die Baureihe 94 beanspruchte das Gleis zu sehr. Deshalb mussten öfters Gleisreparaturen durchgeführt werden.",
+      "previous_text": "Okay, ich bin gespannt. Wie ging es danach mit dem Betrieb weiter?",
+      "fact_ids": [
+        "272464187-0115"
+      ],
+      "statements": [
+        {
+          "text": "Die Baureihe 94 beanspruchte das Gleis zu sehr, sodass öfters Gleisreparaturen durchgeführt werden mussten.",
+          "fact_ids": [
+            "272464187-0115"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0115",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Die Baureihe 94 beanspruchte das Gleis zu sehr, so dass öfters Gleisreparaturen durchgeführt werden mussten.",
+          "context": [
+            "Die T 141 wurden während des Zweiten Weltkriegs zeitweise abgezogen und durch Lokomotiven der Baureihen 94 sowie 75 ersetzt, die sich aber für diese anspruchsvolle Strecke nicht so gut eigneten."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 20,
+      "speaker": "Lena",
+      "text": "Der Güterzug mit Personenbeförderung verkehrte am Nachmittag. Damit war er weder für Schüler noch für Berufstätige attraktiv. Erschwerend kam die lange Fahrzeit hinzu, die durch Rangieraufenthalte bedingt war.",
+      "previous_text": "Hm, da bin ich neugierig geworden. Wie sah das Angebot für die Fahrgäste später aus?",
+      "fact_ids": [
+        "272464187-0042"
+      ],
+      "statements": [
+        {
+          "text": "Der Güterzug mit Personenbeförderung verkehrte am Nachmittag und war damit weder für Schüler noch für Berufstätige attraktiv.",
+          "fact_ids": [
+            "272464187-0042"
+          ]
+        },
+        {
+          "text": "Erschwerend kam die durch Rangieraufenthalte bedingte lange Fahrzeit hinzu.",
+          "fact_ids": [
+            "272464187-0042"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0042",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Dieser verkehrte am Nachmittag und war damit weder für Schüler noch für Berufstätige attraktiv; erschwerend kam die durch Rangieraufenthalte bedingte lange Fahrzeit hinzu.",
+          "context": [
+            "Später wurden diese letzten beiden Züge zu einem Güterzug mit Personenbeförderung zusammengelegt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Lena",
+      "text": "Ab neunzehnhundertfünfundsiebzig war der Endbahnhof Welzheim unbesetzt. Ab neunzehnhundertsiebenundsiebzig wurden alle Unterwegsstationen zwischen Rudersberg und Welzheim aufgelassen.",
+      "previous_text": "Das wird ja immer interessanter. Wie ging es mit der Strecke danach weiter?",
+      "fact_ids": [
+        "272464187-0044"
+      ],
+      "statements": [
+        {
+          "text": "Ab 1975 war der Endbahnhof Welzheim unbesetzt.",
+          "fact_ids": [
+            "272464187-0044"
+          ]
+        },
+        {
+          "text": "Ab 1977 wurden alle Unterwegsstationen zwischen Rudersberg und Welzheim aufgelassen.",
+          "fact_ids": [
+            "272464187-0044"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0044",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Ab 1975 war der Endbahnhof Welzheim unbesetzt, ab 1977 wurden alle Unterwegsstationen zwischen Rudersberg und Welzheim aufgelassen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Lena",
+      "text": "Das Gebäude in Breitenfürst wurde im November neunzehnhundertvierundsiebzig abgerissen.",
+      "previous_text": "Ah, okay. Gibt es zu einzelnen Gebäuden an der Strecke etwas zu erzählen?",
+      "fact_ids": [
+        "272464187-0100"
+      ],
+      "statements": [
+        {
+          "text": "Das Gebäude in Breitenfürst wurde im November 1974 abgerissen.",
+          "fact_ids": [
+            "272464187-0100"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0100",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Das Gebäude in Breitenfürst wurde im November 1974 abgerissen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 26,
+      "speaker": "Lena",
+      "text": "Neunzehnhundertvierundachtzig stellte die Deutsche Bundesbahn beim Regierungspräsidium Stuttgart den Antrag auf Einstellung des Gesamtverkehrs auf dem Abschnitt zwischen Rudersberg und Welzheim. Sie wollte damit auch den Güterverkehr nicht mehr ausführen müssen.",
+      "previous_text": "Gut, dann weiter in der Geschichte. Wie ging es mit dem Zugverkehr insgesamt weiter?",
+      "fact_ids": [
+        "272464187-0047"
+      ],
+      "statements": [
+        {
+          "text": "1984 stellte die Deutsche Bundesbahn beim Regierungspräsidium Stuttgart den Antrag auf Einstellung des Gesamtverkehrs auf dem Abschnitt zwischen Rudersberg und Welzheim.",
+          "fact_ids": [
+            "272464187-0047"
+          ]
+        },
+        {
+          "text": "Damit wollte sie auch den Güterverkehr nicht ausführen müssen.",
+          "fact_ids": [
+            "272464187-0047"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0047",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "1984 stellte die Deutsche Bundesbahn beim Regierungspräsidium Stuttgart den Antrag auf Einstellung des Gesamtverkehrs auf dem Abschnitt zwischen Rudersberg und Welzheim, um auch den Güterverkehr nicht ausführen zu müssen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 28,
+      "speaker": "Lena",
+      "text": "Der Verkehrswissenschaftler Gerhard Heimerl empfahl neunzehnhundertsiebenundachtzig den Weiterbetrieb des Personenverkehrs auf dem Teilstück Schorndorf–Rudersberg. Das war entgegen den Plänen der Deutschen Bundesbahn.",
+      "previous_text": "Hm, das macht mich neugierig. Gab es dazu auch Einschätzungen von Fachleuten?",
+      "fact_ids": [
+        "272464187-0050"
+      ],
+      "statements": [
+        {
+          "text": "Der Verkehrswissenschaftler Gerhard Heimerl empfahl 1987 den Weiterbetrieb des Personenverkehrs auf dem Teilstück Schorndorf–Rudersberg.",
+          "fact_ids": [
+            "272464187-0050"
+          ]
+        },
+        {
+          "text": "Diese Empfehlung stand entgegen den Plänen der Deutschen Bundesbahn.",
+          "fact_ids": [
+            "272464187-0050"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0050",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Der Verkehrswissenschaftler Gerhard Heimerl empfahl 1987, entgegen den Plänen der Deutschen Bundesbahn, den Weiterbetrieb des Personenverkehrs auf dem Teilstück Schorndorf–Rudersberg.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Lena",
+      "text": "Der eingestellte Streckenabschnitt wurde auf einer Länge von siebenhundert Metern reaktiviert. Dafür wurde der neue Haltepunkt Rudersberg Nord errichtet. Er erschließt seither das nahegelegene Schulzentrum.",
+      "previous_text": "Interessant, wirklich. Und wie ging es danach weiter?",
+      "fact_ids": [
+        "272464187-0059"
+      ],
+      "statements": [
+        {
+          "text": "Der Streckenabschnitt wurde auf einer Länge von 700 Metern reaktiviert, indem der neue Haltepunkt Rudersberg Nord errichtet wurde.",
+          "fact_ids": [
+            "272464187-0059"
+          ]
+        },
+        {
+          "text": "Der Haltepunkt erschließt seither das nahegelegene Schulzentrum.",
+          "fact_ids": [
+            "272464187-0059"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0059",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Jedoch wurde er auf einer Länge von 700 Metern reaktiviert, indem der neue Haltepunkt Rudersberg Nord errichtet wurde, der seither das nahegelegene Schulzentrum erschließt.",
+          "context": [
+            "Da Welzheim dem Verband zunächst nicht beigetreten war, konnte der eingestellte Streckenabschnitt zunächst nicht modernisiert werden."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.74
+        },
+        "jev_error": null,
+        "reason": "Alle drei Aussagen (700 Meter reaktiviert, neuer Haltepunkt Rudersberg Nord, erschließt seither das nahegelegene Schulzentrum) stehen im Fakt-Satz. Mit „der eingestellte Streckenabschnitt“ löst Lena das Bezugswort „er“ auf, und der Kontext bestimmt diesen Gegenstand eindeutig. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 32,
+      "speaker": "Lena",
+      "text": "Die bei der Deutschen Bundesbahn übliche Betriebsruhe an Sonn- und Feiertagen blieb erhalten.",
+      "previous_text": "Spannend. Wie war der Betrieb an Sonn- und Feiertagen geregelt?",
+      "fact_ids": [
+        "272464187-0057"
+      ],
+      "statements": [
+        {
+          "text": "Die bei der Deutschen Bundesbahn übliche Betriebsruhe an Sonn- und Feiertagen blieb erhalten.",
+          "fact_ids": [
+            "272464187-0057"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0057",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Die bei der Deutschen Bundesbahn übliche Betriebsruhe an Sonn- und Feiertagen blieb hingegen erhalten.",
+          "context": [
+            "Hierbei wurde der Taktfahrplan eingeführt sowie in Rudersberg eine zweigleisige Wagenhalle errichtet."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 34,
+      "speaker": "Lena",
+      "text": "Der Förderverein Welzheimer Bahn stellte zwanzigtausend Euro zur Verfügung. Das Geld war für die Kosten der Sicherung des Kreisverkehrs beim Haltepunkt Rudersberg Nord bestimmt.",
+      "previous_text": "Okay. Gibt es auch Menschen vor Ort, die sich für die Bahn einsetzen?",
+      "fact_ids": [
+        "272464187-0064",
+        "272464187-0063"
+      ],
+      "statements": [
+        {
+          "text": "Der Förderverein Welzheimer Bahn stellte 20.000 Euro zur Verfügung.",
+          "fact_ids": [
+            "272464187-0064"
+          ]
+        },
+        {
+          "text": "Es ging dabei um die Kosten der Sicherung des Kreisverkehrs beim Haltepunkt Rudersberg Nord.",
+          "fact_ids": [
+            "272464187-0063"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0064",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Der Förderverein Welzheimer Bahn stellte hierfür 20.000 Euro zur Verfügung.",
+          "context": [
+            "Es ging hierbei um die Kosten der Sicherung des Kreisverkehrs beim Haltepunkt Rudersberg Nord."
+          ]
+        },
+        {
+          "id": "272464187-0063",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Es ging hierbei um die Kosten der Sicherung des Kreisverkehrs beim Haltepunkt Rudersberg Nord.",
+          "context": [
+            "Sie konnte jedoch wegen finanzieller Probleme seitens der Gemeinde Rudersberg zunächst nicht realisiert werden."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 36,
+      "speaker": "Lena",
+      "text": "Für die Reaktivierung der Strecke von Oberndorf bis Welzheim waren die Kosten mit zwei Komma neun Millionen Euro veranschlagt. Das geplante Dampfzugtempo von nur dreißig Kilometern pro Stunde sollte zur Kostenbeschränkung beitragen.",
+      "previous_text": "Ah, verstehe. Wie ging es danach mit der Strecke weiter?",
+      "fact_ids": [
+        "272464187-0073"
+      ],
+      "statements": [
+        {
+          "text": "Die Kosten für die Reaktivierung der Strecke von Oberndorf bis Welzheim waren mit 2,9 Millionen Euro veranschlagt.",
+          "fact_ids": [
+            "272464187-0073"
+          ]
+        },
+        {
+          "text": "Das geplante Dampfzugtempo von nur 30 km/h sollte zur Kostenbeschränkung beitragen.",
+          "fact_ids": [
+            "272464187-0073"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0073",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Die Kosten dafür waren mit 2,9 Millionen Euro veranschlagt, wobei das geplante Dampfzugtempo von nur 30 km/h zur Kostenbeschränkung beitragen sollte.",
+          "context": [
+            "Mit dem Ziel eines Bahnbetriebs für den Wochenend-Tourismus wurden am 22. Mai 2007 die Arbeiten für eine Reaktivierung der Strecke von Oberndorf bis Welzheim aufgenommen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 38,
+      "speaker": "Lena",
+      "text": "Im Zuge der Reaktivierung entstand am südlichen Stadtrand von Welzheim der neue Haltepunkt Tannwald. Zeitweise war geplant, den Haltepunkt Stadtpark zu nennen.",
+      "previous_text": "Gut zu wissen. Was hat sich entlang der Strecke verändert?",
+      "fact_ids": [
+        "272464187-0077"
+      ],
+      "statements": [
+        {
+          "text": "Im Zuge der Reaktivierung entstand am südlichen Stadtrand von Welzheim der neue Haltepunkt Tannwald.",
+          "fact_ids": [
+            "272464187-0077"
+          ]
+        },
+        {
+          "text": "Zeitweise war geplant, diesen Haltepunkt Stadtpark zu nennen.",
+          "fact_ids": [
+            "272464187-0077"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0077",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Im Zuge der Reaktivierung entstand am südlichen Stadtrand von Welzheim der neue Haltepunkt Tannwald; zeitweise war geplant, diesen Stadtpark zu nennen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.97,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 40,
+      "speaker": "Lena",
+      "text": "Im Jahr zweitausendelf wurden neunundzwanzigtausendsiebenhundert Fahrgäste befördert. Damit wurden die Prognosen vor der Inbetriebnahme übertroffen.",
+      "previous_text": "Schön. Wie viele Fahrgäste nutzten die Bahn?",
+      "fact_ids": [
+        "272464187-0081"
+      ],
+      "statements": [
+        {
+          "text": "2011 wurden 29.700 Fahrgäste befördert.",
+          "fact_ids": [
+            "272464187-0081"
+          ]
+        },
+        {
+          "text": "Damit wurden die Prognosen vor der Inbetriebnahme übertroffen.",
+          "fact_ids": [
+            "272464187-0081"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0081",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "2011 wurden 29.700 Fahrgäste befördert, womit die Prognosen vor Inbetriebnahme übertroffen wurden.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: 2011 wurden 29.700 Fahrgäste befördert (ausgeschriebene Zahl stimmt), und damit wurden die Prognosen vor der Inbetriebnahme übertroffen. Der Gegenstand ist eindeutig, da die Bahn im vorherigen Beitrag genannt wird und das Thema des Artikels Wieslauftalbahn ist. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 42,
+      "speaker": "Lena",
+      "text": "Neunzehnhundertzweiundneunzig wurde die Strecke der Wieslauftalbahn samt Gebäuden unter Denkmalschutz gestellt.",
+      "previous_text": "Wow! Das überrascht mich. Wie steht es um den Schutz der Strecke?",
+      "fact_ids": [
+        "272464187-0101"
+      ],
+      "statements": [
+        {
+          "text": "1992 wurde die Strecke der Wieslauftalbahn samt Gebäuden unter Denkmalschutz gestellt.",
+          "fact_ids": [
+            "272464187-0101"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0101",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "1992 wurde die Strecke samt Gebäuden unter Denkmalschutz gestellt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 44,
+      "speaker": "Lena",
+      "text": "Das Strümpfelbach-Viadukt wurde im Dezember zweitausendsieben von der Denkmalstiftung Baden-Württemberg als Denkmal des Monats ausgezeichnet. Gemeinsam mit ihm wurde die Elektrolokomotive Lina der Trossinger Eisenbahn ausgezeichnet.",
+      "previous_text": "Gut. Gibt es einzelne Bauwerke an der Strecke, über die du etwas erzählen kannst?",
+      "fact_ids": [
+        "272464187-0080"
+      ],
+      "statements": [
+        {
+          "text": "Das Strümpfelbach-Viadukt wurde im Dezember 2007 von der Denkmalstiftung Baden-Württemberg als Denkmal des Monats ausgezeichnet.",
+          "fact_ids": [
+            "272464187-0080"
+          ]
+        },
+        {
+          "text": "Gemeinsam mit dem Viadukt wurde die Elektrolokomotive Lina der Trossinger Eisenbahn ausgezeichnet.",
+          "fact_ids": [
+            "272464187-0080"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0080",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Das Strümpfelbach-Viadukt wurde im Dezember 2007 von der Denkmalstiftung Baden-Württemberg gemeinsam mit der Elektrolokomotive Lina der Trossinger Eisenbahn als „Denkmal des Monats“ ausgezeichnet.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 45,
+      "speaker": "Felix",
+      "text": "Hm, der Name klingt interessant. Was ist der Strümpfelbach eigentlich?",
+      "previous_text": "Das Strümpfelbach-Viadukt wurde im Dezember zweitausendsieben von der Denkmalstiftung Baden-Württemberg als Denkmal des Monats ausgezeichnet. Gemeinsam mit ihm wurde die Elektrolokomotive Lina der Trossinger Eisenbahn ausgezeichnet.",
+      "fact_ids": [
+        "272464187-0080"
+      ],
+      "statements": [
+        {
+          "text": "Es gibt ein Strümpfelbach-Viadukt.",
+          "fact_ids": [
+            "272464187-0080"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0080",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Das Strümpfelbach-Viadukt wurde im Dezember 2007 von der Denkmalstiftung Baden-Württemberg gemeinsam mit der Elektrolokomotive Lina der Trossinger Eisenbahn als „Denkmal des Monats“ ausgezeichnet.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.69
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht nur aus Reaktionen: \"Der Name klingt interessant\" ist ein Gefühl im Moment, und \"Was ist der Strümpfelbach eigentlich?\" ist eine Nachfrage bzw. Bitte um Erklärung. Die Frage setzt keine Einzelheit, Wertung oder Vermutung voraus, die erst die Antwort liefern würde. Der Redebeitrag enthält keine Behauptung, die belegt werden müsste."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 46,
+      "speaker": "Lena",
+      "text": "Der Strümpfelbach ist ein Bach im Rems-Murr-Kreis im nördlichen Baden-Württemberg. Er liegt überwiegend im Gemeindegebiet von Althütte. Nach etwa sechs Kilometern Lauf mündet er ungefähr nach Süden beim Wohnplatz Sauerhöfle der Gemeinde Rudersberg von rechts in die Wieslauf. Die Wieslauf ist dort aus dem steilen Schluchtabschnitt nach ihrer Kehre ausgetreten.",
+      "previous_text": "Hm, der Name klingt interessant. Was ist der Strümpfelbach eigentlich?",
+      "fact_ids": [
+        "262238005-0009"
+      ],
+      "statements": [
+        {
+          "text": "Der Strümpfelbach ist ein Bach im Rems-Murr-Kreis im nördlichen Baden-Württemberg, überwiegend im Gemeindegebiet von Althütte.",
+          "fact_ids": [
+            "262238005-0009"
+          ]
+        },
+        {
+          "text": "Nach etwa 6 km Lauf mündet er ungefähr nach Süden beim Wohnplatz Sauerhöfle der Gemeinde Rudersberg von rechts in die Wieslauf.",
+          "fact_ids": [
+            "262238005-0009"
+          ]
+        },
+        {
+          "text": "Die Wieslauf ist dort aus dem steilen Schluchtabschnitt nach ihrer Kehre ausgetreten.",
+          "fact_ids": [
+            "262238005-0009"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "262238005-0009",
+          "article": "Strümpfelbach (Wieslauf)",
+          "revid": 262238005,
+          "sentence": "Der Strümpfelbach ist ein Bach im Rems-Murr-Kreis im nördlichen Baden-Württemberg, überwiegend im Gemeindegebiet von Althütte, der nach etwa 6 km langem Lauf ungefähr nach Süden beim Wohnplatz Sauerhöfle der Gemeinde Rudersberg von rechts in die Wieslauf mündet, die dort aus dem steilen Schluchtabschnitt nach ihrer Kehre ausgetreten ist.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 48,
+      "speaker": "Lena",
+      "text": "Der Verein DBK Historische Bahn führt auf eigene Rechnung den Tourismusverkehr mit historischen Zügen zwischen Schorndorf und Welzheim durch. Das geschieht an Sonn- und Feiertagen, in Absprache mit dem Streckenbetreiber Schwäbische Waldbahn GmbH und dem Förderverein Welzheimer Bahn. Dabei kommt meist die Lokomotive vierundsechzig vierhundertneunzehn zum Einsatz.",
+      "previous_text": "Sehr anschaulich, danke. Wird die Strecke auch touristisch genutzt?",
+      "fact_ids": [
+        "272464187-0142"
+      ],
+      "statements": [
+        {
+          "text": "Der Verein DBK Historische Bahn führt auf eigene Rechnung den Tourismusverkehr mit historischen Zügen zwischen Schorndorf und Welzheim durch.",
+          "fact_ids": [
+            "272464187-0142"
+          ]
+        },
+        {
+          "text": "Das geschieht an Sonn- und Feiertagen in Absprache mit dem Streckenbetreiber Schwäbische Waldbahn GmbH und dem Förderverein Welzheimer Bahn e. V.",
+          "fact_ids": [
+            "272464187-0142"
+          ]
+        },
+        {
+          "text": "Meist kommt dabei die Lokomotive 64 419 zum Einsatz.",
+          "fact_ids": [
+            "272464187-0142"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0142",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Der Verein DBK Historische Bahn führt auf eigene Rechnung in Absprache mit dem Streckenbetreiber Schwäbische Waldbahn GmbH und Förderverein Welzheimer Bahn e. V. an Sonn- und Feiertagen den Tourismusverkehr mit historischen Zügen zwischen Schorndorf und Welzheim durch, wobei meist die Lokomotive 64 419 zum Einsatz kommt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 49,
+      "speaker": "Felix",
+      "text": "Da bin ich neugierig. Wie oft sind diese Fahrten im Angebot?",
+      "previous_text": "Der Verein DBK Historische Bahn führt auf eigene Rechnung den Tourismusverkehr mit historischen Zügen zwischen Schorndorf und Welzheim durch. Das geschieht an Sonn- und Feiertagen, in Absprache mit dem Streckenbetreiber Schwäbische Waldbahn GmbH und dem Förderverein Welzheimer Bahn. Dabei kommt meist die Lokomotive vierundsechzig vierhundertneunzehn zum Einsatz.",
+      "fact_ids": [
+        "272464187-0142"
+      ],
+      "statements": [
+        {
+          "text": "Der Verein DBK Historische Bahn führt Tourismusverkehr mit historischen Zügen durch.",
+          "fact_ids": [
+            "272464187-0142"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0142",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Der Verein DBK Historische Bahn führt auf eigene Rechnung in Absprache mit dem Streckenbetreiber Schwäbische Waldbahn GmbH und Förderverein Welzheimer Bahn e. V. an Sonn- und Feiertagen den Tourismusverkehr mit historischen Zügen zwischen Schorndorf und Welzheim durch, wobei meist die Lokomotive 64 419 zum Einsatz kommt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.57
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht aus einer Reaktion („Da bin ich neugierig“, ein Gefühl im Moment) und einer Nachfrage („Wie oft sind diese Fahrten im Angebot?“). Beides ist belegfrei. Die Frage nimmt keine bestimmte Einzelheit vorweg: Dass es die Fahrten gibt, hat Lena im vorherigen Redebeitrag gesagt, und der Fakt-Satz nennt sie ebenfalls. Der Redebeitrag enthält keine neue Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 50,
+      "speaker": "Lena",
+      "text": "Im Jahr zweitausendsiebzehn beispielsweise wurden insgesamt siebzehn Dampf- und fünfzehn Dieselfahrtage angeboten.",
+      "previous_text": "Da bin ich neugierig. Wie oft sind diese Fahrten im Angebot?",
+      "fact_ids": [
+        "272464187-0143"
+      ],
+      "statements": [
+        {
+          "text": "Im Jahr 2017 wurden beispielsweise insgesamt 17 Dampf- und 15 Dieselfahrtage angeboten.",
+          "fact_ids": [
+            "272464187-0143"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0143",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Im Jahr 2017 beispielsweise wurden insgesamt 17 Dampf- und 15 Dieselfahrtage angeboten.",
+          "context": [
+            "Der Verein DBK Historische Bahn führt auf eigene Rechnung in Absprache mit dem Streckenbetreiber Schwäbische Waldbahn GmbH und Förderverein Welzheimer Bahn e. V. an Sonn- und Feiertagen den Tourismusverkehr mit historischen Zügen zwischen Schorndorf und Welzheim durch, wobei meist die Lokomotive 64 419 zum Einsatz kommt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 52,
+      "speaker": "Lena",
+      "text": "Beim Verein DBK Historische Bahn fing es im Jahr neunzehnhundertfünfundachtzig an. Er wurde damals als Dampfbahn Kochertal e. V. mit Sitz in Sulzbach-Laufen gegründet. Nach und nach zog der Verein dann in das ehemalige Dampflok-Bahnbetriebswerk nach Crailsheim um.",
+      "previous_text": "Verständlich. Und wie hat das Ganze eigentlich angefangen?",
+      "fact_ids": [
+        "264027844-0001"
+      ],
+      "statements": [
+        {
+          "text": "Der Verein DBK Historische Bahn wurde 1985 als Dampfbahn Kochertal e. V. mit Sitz in Sulzbach-Laufen gegründet.",
+          "fact_ids": [
+            "264027844-0001"
+          ]
+        },
+        {
+          "text": "Der Verein zog nach und nach in das ehemalige Dampflok-Bahnbetriebswerk nach Crailsheim um.",
+          "fact_ids": [
+            "264027844-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "264027844-0001",
+          "article": "DBK Historische Bahn",
+          "revid": 264027844,
+          "sentence": "Ursprünglich im Jahr 1985 als Dampfbahn Kochertal e. V. mit Sitz in Sulzbach-Laufen gegründet, zog der Verein nach und nach in das ehemalige Dampflok-Bahnbetriebswerk nach Crailsheim um.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.63
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Gründung 1985 als Dampfbahn Kochertal e. V. mit Sitz in Sulzbach-Laufen und der allmähliche Umzug in das ehemalige Dampflok-Bahnbetriebswerk nach Crailsheim. Der Verein ist als Thema des Artikels eindeutig benannt. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämisse."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 53,
+      "speaker": "Felix",
+      "text": "Interessant! Hat der Verein noch weitere Projekte?",
+      "previous_text": "Beim Verein DBK Historische Bahn fing es im Jahr neunzehnhundertfünfundachtzig an. Er wurde damals als Dampfbahn Kochertal e. V. mit Sitz in Sulzbach-Laufen gegründet. Nach und nach zog der Verein dann in das ehemalige Dampflok-Bahnbetriebswerk nach Crailsheim um.",
+      "fact_ids": [
+        "264027844-0001"
+      ],
+      "statements": [
+        {
+          "text": "Der Verein DBK Historische Bahn zog nach Crailsheim um.",
+          "fact_ids": [
+            "264027844-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "264027844-0001",
+          "article": "DBK Historische Bahn",
+          "revid": 264027844,
+          "sentence": "Ursprünglich im Jahr 1985 als Dampfbahn Kochertal e. V. mit Sitz in Sulzbach-Laufen gegründet, zog der Verein nach und nach in das ehemalige Dampflok-Bahnbetriebswerk nach Crailsheim um.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.94,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht aus einer Reaktion („Interessant!“) und einer Nachfrage, ob der Verein weitere Projekte hat. Das ist eine Überleitungsfrage, die lediglich voraussetzt, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit vorweg. Es wird keine Tatsachenbehauptung aufgestellt, die belegt werden müsste."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 54,
+      "speaker": "Lena",
+      "text": "Ein weiteres wichtiges Projekt des Vereins war der Wiederaufbau einer Drehscheibe im ehemaligen Bahnbetriebswerk Crailsheim. Das Projekt wurde mit Hilfe eines Landeszuschusses in Angriff genommen.",
+      "previous_text": "Interessant! Hat der Verein noch weitere Projekte?",
+      "fact_ids": [
+        "264027844-0003"
+      ],
+      "statements": [
+        {
+          "text": "Ein weiteres wichtiges Projekt des Vereins war der Wiederaufbau einer Drehscheibe im ehemaligen Bahnbetriebswerk Crailsheim.",
+          "fact_ids": [
+            "264027844-0003"
+          ]
+        },
+        {
+          "text": "Es wurde mit Hilfe eines Landeszuschusses in Angriff genommen.",
+          "fact_ids": [
+            "264027844-0003"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "264027844-0003",
+          "article": "DBK Historische Bahn",
+          "revid": 264027844,
+          "sentence": "Ein weiteres wichtiges Projekt des Vereins, das mit Hilfe eines Landeszuschusses in Angriff genommen wurde, war der Wiederaufbau einer Drehscheibe im ehemaligen Bahnbetriebswerk Crailsheim.",
+          "context": [
+            "Heute nennt der mittlerweile über 100 Mitglieder zählende Verein zahlreiche zum Teil auch betriebsfähige Schienenfahrzeuge (Dampf- und Diesellokomotiven sowie Reise- und Güterzugwagen) sein Eigen, darüber hinaus werden Sonderfahrten mit historischen Zügen angeboten."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 56,
+      "speaker": "Lena",
+      "text": "Der Abschnitt im Tal der Wieslauf bis Rudersberg-Oberndorf wird vom Zweckverband Verkehrsverband Wieslauftalbahn betrieben, kurz ZVVW. Im Schienenpersonennahverkehr wird er durch die Regionalbahn-Linie RB einundsechzig der Württembergischen Eisenbahn-Gesellschaft bedient, kurz WEG.",
+      "previous_text": "Gut. Jetzt zum Alltag: Wer betreibt die Strecke?",
+      "fact_ids": [
+        "272464187-0002"
+      ],
+      "statements": [
+        {
+          "text": "Der Abschnitt im Tal der Wieslauf bis Rudersberg-Oberndorf wird vom Zweckverband Verkehrsverband Wieslauftalbahn (ZVVW) betrieben.",
+          "fact_ids": [
+            "272464187-0002"
+          ]
+        },
+        {
+          "text": "Im Schienenpersonennahverkehr wird der Abschnitt durch die Regionalbahn-Linie RB 61 der Württembergischen Eisenbahn-Gesellschaft (WEG) bedient.",
+          "fact_ids": [
+            "272464187-0002"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0002",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Der Abschnitt im Tal der Wieslauf bis Rudersberg-Oberndorf wird vom Zweckverband Verkehrsverband Wieslauftalbahn (ZVVW) betrieben und im Schienenpersonennahverkehr durch die Regionalbahn-Linie RB 61 der Württembergischen Eisenbahn-Gesellschaft (WEG) bedient.",
+          "context": [
+            "Sie beginnt in Schorndorf im Remstal, wo sie von der Bahnstrecke Stuttgart-Bad Cannstatt–Nördlingen abzweigt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: Betreiber des Abschnitts im Wieslauftal bis Rudersberg-Oberndorf ist der ZVVW, bedient wird er im SPNV von der RB 61 der WEG. Die Abkürzungen stimmen, der Gegenstand (Wieslauftalbahn-Abschnitt) ist eindeutig. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämissen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 58,
+      "speaker": "Lena",
+      "text": "Die Bahnstrecke Waiblingen–Schwäbisch Hall-Hessental verbindet die Bahnstrecke Stuttgart-Waiblingen mit der Bahnstrecke Heilbronn-Crailsheim. Sie ist Teil der kürzesten Verbindung zwischen Stuttgart und Nürnberg. Das entspricht der Kursbuchstrecke siebenhundertfünfundachtzig der Deutschen Bahn, der sogenannten Murrbahn.",
+      "previous_text": "Spannend. Und gibt es in der Gegend noch andere Bahnstrecken, die dazugehören oder an die sie anschließt?",
+      "fact_ids": [
+        "271406163-0001"
+      ],
+      "statements": [
+        {
+          "text": "Die Bahnstrecke Waiblingen–Schwäbisch Hall-Hessental verbindet die Bahnstrecke Stuttgart-Waiblingen mit der Bahnstrecke Heilbronn-Crailsheim.",
+          "fact_ids": [
+            "271406163-0001"
+          ]
+        },
+        {
+          "text": "Sie ist Teil der kürzesten Verbindung zwischen Stuttgart und Nürnberg, entsprechend der Kursbuchstrecke 785 der Deutschen Bahn, der Murrbahn.",
+          "fact_ids": [
+            "271406163-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "271406163-0001",
+          "article": "Bahnstrecke Waiblingen–Schwäbisch Hall-Hessental",
+          "revid": 271406163,
+          "sentence": "Sie verbindet die Bahnstrecke Stuttgart-Waiblingen mit der Bahnstrecke Heilbronn-Crailsheim und ist Teil der kürzesten Verbindung zwischen Stuttgart und Nürnberg, entsprechend der Kursbuchstrecke 785 („Murrbahn“) der Deutschen Bahn.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 60,
+      "speaker": "Lena",
+      "text": "Betrieblich gesehen ist Klaffenbach-Althütte immer noch ein Bahnhof. Dort befindet sich ein als Abstellgleis genutztes Stumpfgleis.",
+      "previous_text": "Okay. Gibt es an der Strecke noch Stationen mit Besonderheiten?",
+      "fact_ids": [
+        "272464187-0079"
+      ],
+      "statements": [
+        {
+          "text": "Betrieblich gesehen handelt es sich bei Klaffenbach-Althütte immer noch um einen Bahnhof.",
+          "fact_ids": [
+            "272464187-0079"
+          ]
+        },
+        {
+          "text": "Dort befindet sich ein als Abstellgleis genutztes Stumpfgleis.",
+          "fact_ids": [
+            "272464187-0079"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0079",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Dennoch handelt es sich betrieblich gesehen immer noch um einen Bahnhof, dort befindet sich ein als Abstellgleis genutztes Stumpfgleis.",
+          "context": [
+            "Die Station Klaffenbach-Althütte wurde nicht für den Tourismusverkehr reaktiviert."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder. Das Bezugswort \"dort\" und \"dennoch\" wird zu \"Klaffenbach-Althütte\" aufgelöst, wie es der Kontext bestimmt. Das ist erlaubt und passt zur Frage nach Stationen mit Besonderheiten. Es werden keine zusätzlichen Angaben gemacht und der Beitrag enthält keine Fragen oder weiteren Aussagen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 62,
+      "speaker": "Lena",
+      "text": "Nur der Bahnsteig in Rudersberg-Oberndorf hat eine Bahnsteighöhe von sechsundsiebzig Zentimetern.",
+      "previous_text": "Ach, so ist das. Und wie sieht es mit den Bahnsteigen aus?",
+      "fact_ids": [
+        "272464187-0108"
+      ],
+      "statements": [
+        {
+          "text": "Nur der Bahnsteig in Rudersberg-Oberndorf hat eine Bahnsteighöhe von 76 Zentimetern.",
+          "fact_ids": [
+            "272464187-0108"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0108",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Nur der Bahnsteig in Rudersberg-Oberndorf hat eine Bahnsteighöhe von 76 Zentimetern.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 64,
+      "speaker": "Lena",
+      "text": "Der Probebetrieb kostete die Stadt Welzheim rund sechzigtausend Euro. Er sollte gleichzeitig dazu dienen, Fahrgastpotentiale zu ermitteln.",
+      "previous_text": "Gut. Gab es auch Versuche mit neuem Personenverkehr auf dem Abschnitt?",
+      "fact_ids": [
+        "272464187-0139"
+      ],
+      "statements": [
+        {
+          "text": "Der Probebetrieb kostete die Stadt Welzheim rund 60.000 Euro.",
+          "fact_ids": [
+            "272464187-0139"
+          ]
+        },
+        {
+          "text": "Er sollte gleichzeitig dazu dienen, Fahrgastpotentiale zu ermitteln.",
+          "fact_ids": [
+            "272464187-0139"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0139",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Der Probebetrieb kostete die Stadt Welzheim rund 60.000 Euro und sollte gleichzeitig dazu dienen, Fahrgastpotentiale zu ermitteln.",
+          "context": [
+            "Zwischen dem 3. September 2016 und dem 1. Oktober 2016 wurde der reguläre Personenverkehr zwischen Rudersberg-Oberndorf und Welzheim temporär wieder aufgenommen, um den Busverkehr zu ersetzen, der wegen einer Sperrung der Landesstraße 1080 unterbrochen war."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 66,
+      "speaker": "Lena",
+      "text": "Das Landesverkehrsministerium Baden-Württemberg prüfte zweitausendzwanzig einen dauerhaften Betrieb im Rahmen einer Reaktivierungsstudie.",
+      "previous_text": "Das ist ja interessant. Und wie ging es danach weiter?",
+      "fact_ids": [
+        "272464187-0140"
+      ],
+      "statements": [
+        {
+          "text": "Das Landesverkehrsministerium Baden-Württemberg prüfte 2020 einen dauerhaften Betrieb im Rahmen einer Reaktivierungsstudie.",
+          "fact_ids": [
+            "272464187-0140"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0140",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Das Landesverkehrsministerium Baden-Württemberg prüfte 2020 einen dauerhaften Betrieb im Rahmen einer Reaktivierungsstudie.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 68,
+      "speaker": "Lena",
+      "text": "Es gab Schwierigkeiten bei der Ersatzteilbeschaffung für die NE einundachtzig. Deshalb wurden im Jahr zweitausenddreiundzwanzig vier weitere, gebrauchte Regio-Shuttle erworben. Sie haben das Baujahr zweitausendneun und gehörten zuvor der Hohenzollerischen Landesbahn. Gekauft wurden sie vom Zwischenhändler Helvetic Rolling Stock GmbH, kurz HEROS. Emissionsfreie Alternativen wie Elektrifizierung der Strecke, Batterie- oder Wasserstoffzüge sind derzeit nicht finanzierbar.",
+      "previous_text": "Okay. Welche Züge fahren heute auf der Strecke?",
+      "fact_ids": [
+        "272464187-0125"
+      ],
+      "statements": [
+        {
+          "text": "Wegen Schwierigkeiten bei der Ersatzteilbeschaffung für die NE 81 wurden 2023 vier weitere, gebrauchte Regio-Shuttle erworben.",
+          "fact_ids": [
+            "272464187-0125"
+          ]
+        },
+        {
+          "text": "Die Regio-Shuttle haben das Baujahr 2009 und gehörten zuvor der Hohenzollerischen Landesbahn; sie wurden vom Zwischenhändler Helvetic Rolling Stock GmbH (HEROS) erworben.",
+          "fact_ids": [
+            "272464187-0125"
+          ]
+        },
+        {
+          "text": "Emissionsfreie Alternativen wie Elektrifizierung der Strecke, Batterie- oder Wasserstoffzüge sind derzeit nicht finanzierbar.",
+          "fact_ids": [
+            "272464187-0125"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0125",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Aufgrund von Schwierigkeiten bei der Ersatzteilbeschaffung für die NE 81 wurden 2023 vier weitere, gebrauchte Regio-Shuttle (Baujahr 2009, zuvor Hohenzollerische Landesbahn) vom Zwischenhändler Helvetic Rolling Stock GmbH (HEROS) erworben, da emissionsfreie Alternativen (Elektrifizierung der Strecke, Batterie- oder Wasserstoffzüge) derzeit nicht finanzierbar sind.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 70,
+      "speaker": "Lena",
+      "text": "Das Gebäude in Haubersbronn wurde durch das Hochwasser zweitausendvierundzwanzig schwer beschädigt und in der Folge abgebrochen.",
+      "previous_text": "Verstehe. Gab es in jüngster Zeit besondere Ereignisse an der Strecke?",
+      "fact_ids": [
+        "272464187-0102"
+      ],
+      "statements": [
+        {
+          "text": "Das Gebäude in Haubersbronn wurde durch das Hochwasser 2024 schwer beschädigt und in der Folge abgebrochen.",
+          "fact_ids": [
+            "272464187-0102"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0102",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Das Gebäude in Haubersbronn wurde durch das Hochwasser 2024 schwer beschädigt und in der Folge abgebrochen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 71,
+      "speaker": "Felix",
+      "text": "Oh je. Was ist bei diesem Hochwasser noch passiert?",
+      "previous_text": "Das Gebäude in Haubersbronn wurde durch das Hochwasser zweitausendvierundzwanzig schwer beschädigt und in der Folge abgebrochen.",
+      "fact_ids": [
+        "272464187-0102"
+      ],
+      "statements": [
+        {
+          "text": "Es gab 2024 ein Hochwasser, das ein Gebäude in Haubersbronn schwer beschädigte.",
+          "fact_ids": [
+            "272464187-0102"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0102",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Das Gebäude in Haubersbronn wurde durch das Hochwasser 2024 schwer beschädigt und in der Folge abgebrochen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht nur aus einer Reaktion (\"Oh je.\", ein Gefühl im Moment) und einer Nachfrage (\"Was ist bei diesem Hochwasser noch passiert?\"). Die Nachfrage setzt nur voraus, dass es dazu mehr zu erzählen gibt, und nimmt keine bestimmte Einzelheit vorweg. Das Hochwasser hat die vorherige Sprecherin genannt, der Bezug ist also eindeutig. Es gibt keine zusätzliche Behauptung, die belegt werden müsste."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 72,
+      "speaker": "Lena",
+      "text": "Beim Hochwasser unterspülten die Regenmassen am dritten Juni die Gleise. Sie zerstörten Signale und Kabelverbindungen. Außerdem beschädigten sie die Wartungshalle sowie darin abgestellte Züge der WEG.",
+      "previous_text": "Oh je. Was ist bei diesem Hochwasser noch passiert?",
+      "fact_ids": [
+        "272464187-0083"
+      ],
+      "statements": [
+        {
+          "text": "Die Regenmassen unterspülten am 3. Juni die Gleise und zerstörten Signale und Kabelverbindungen.",
+          "fact_ids": [
+            "272464187-0083"
+          ]
+        },
+        {
+          "text": "Sie beschädigten die Wartungshalle sowie darin abgestellte Züge der WEG.",
+          "fact_ids": [
+            "272464187-0083"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0083",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Die Regenmassen unterspülten am 3. Juni die Gleise, zerstörten Signale und Kabelverbindungen und beschädigten die Wartungshalle sowie darin abgestellte Züge der WEG.",
+          "context": [
+            "Das Hochwasser 2024 führte im Wieslauftal und bei der Bahn zu massiven Schäden."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 73,
+      "speaker": "Felix",
+      "text": "Wahnsinn! Was bedeutete das für den Zugverkehr?",
+      "previous_text": "Beim Hochwasser unterspülten die Regenmassen am dritten Juni die Gleise. Sie zerstörten Signale und Kabelverbindungen. Außerdem beschädigten sie die Wartungshalle sowie darin abgestellte Züge der WEG.",
+      "fact_ids": [
+        "272464187-0083"
+      ],
+      "statements": [
+        {
+          "text": "Die Regenmassen richteten Schäden an Gleisen, Signalen und weiteren Anlagen an.",
+          "fact_ids": [
+            "272464187-0083"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0083",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Die Regenmassen unterspülten am 3. Juni die Gleise, zerstörten Signale und Kabelverbindungen und beschädigten die Wartungshalle sowie darin abgestellte Züge der WEG.",
+          "context": [
+            "Das Hochwasser 2024 führte im Wieslauftal und bei der Bahn zu massiven Schäden."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.96,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "„Wahnsinn!“ ist eine Reaktion (Staunen), und „Was bedeutete das für den Zugverkehr?“ ist eine offene Nachfrage ohne Prämisse, die eine bestimmte Einzelheit oder Wertung vorwegnimmt. Der Redebeitrag enthält keine Behauptung, die belegt werden müsste, und der zitierte Fakt wird nicht verfälscht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 74,
+      "speaker": "Lena",
+      "text": "Der Betrieb musste für rund zehn Monate komplett eingestellt werden.",
+      "previous_text": "Wahnsinn! Was bedeutete das für den Zugverkehr?",
+      "fact_ids": [
+        "272464187-0084"
+      ],
+      "statements": [
+        {
+          "text": "Der Betrieb musste für rund zehn Monate komplett eingestellt werden.",
+          "fact_ids": [
+            "272464187-0084"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0084",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Der Betrieb musste für rund zehn Monate komplett eingestellt werden.",
+          "context": [
+            "Die Regenmassen unterspülten am 3. Juni die Gleise, zerstörten Signale und Kabelverbindungen und beschädigten die Wartungshalle sowie darin abgestellte Züge der WEG."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 75,
+      "speaker": "Felix",
+      "text": "Hm, ich bin gespannt. Wie ging es danach mit den Gleisen weiter?",
+      "previous_text": "Der Betrieb musste für rund zehn Monate komplett eingestellt werden.",
+      "fact_ids": [
+        "272464187-0084"
+      ],
+      "statements": [
+        {
+          "text": "Der Betrieb war eine Zeit lang komplett eingestellt.",
+          "fact_ids": [
+            "272464187-0084"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0084",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Der Betrieb musste für rund zehn Monate komplett eingestellt werden.",
+          "context": [
+            "Die Regenmassen unterspülten am 3. Juni die Gleise, zerstörten Signale und Kabelverbindungen und beschädigten die Wartungshalle sowie darin abgestellte Züge der WEG."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.6
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht nur aus einer Reaktion („Hm, ich bin gespannt“) und einer Nachfrage/Überleitungsfrage („Wie ging es danach mit den Gleisen weiter?“). Beides ist belegfrei. Die Frage nimmt keine bestimmte Einzelheit vorweg; dass die Gleise im Kontext unterspült wurden und der Betrieb eingestellt wurde, ist durch den vorherigen Beitrag und den Fakt gedeckt."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 76,
+      "speaker": "Lena",
+      "text": "Für die Überführung der beschädigten RS1-Triebwagen in eine Werkstatt in der Oberpfalz wurden die Schienen bis November zweitausendvierundzwanzig behelfsmäßig repariert.",
+      "previous_text": "Hm, ich bin gespannt. Wie ging es danach mit den Gleisen weiter?",
+      "fact_ids": [
+        "272464187-0087"
+      ],
+      "statements": [
+        {
+          "text": "Für die Überführung der beschädigten RS1-Triebwagen in eine Werkstatt in der Oberpfalz wurden die Schienen bis November 2024 behelfsmäßig repariert.",
+          "fact_ids": [
+            "272464187-0087"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0087",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Für die Überführung der beschädigten RS1-Triebwagen in eine Werkstatt in der Oberpfalz wurden die Schienen bis November 2024 behelfsmäßig repariert.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 78,
+      "speaker": "Lena",
+      "text": "Die Wieslauftalbahn ist eine normalspurige, eingleisige und nicht elektrifizierte Nebenbahn in Baden-Württemberg. Welzheim war ab achtzehnhundertsechsundneunzig die letzte württembergische Oberamtsstadt ohne Bahnanschluss. Die Wieslauftalbahn war die steilste Adhäsionsbahn Württembergs. Neunzehnhundertvierundachtzig beantragte die Deutsche Bundesbahn die Einstellung des Gesamtverkehrs auf dem Abschnitt zwischen Rudersberg und Welzheim. Seit neunzehnhundertzweiundneunzig steht die Strecke samt Gebäuden unter Denkmalschutz. Im Jahr zweitausendelf wurden neunundzwanzigtausendsiebenhundert Fahrgäste befördert, und damit wurden die Prognosen vor der Inbetriebnahme übertroffen. An Sonn- und Feiertagen führt der Verein DBK Historische Bahn den Tourismusverkehr mit historischen Zügen zwischen Schorndorf und Welzheim durch. Und das Gebäude in Haubersbronn wurde durch das Hochwasser zweitausendvierundzwanzig schwer beschädigt und danach abgebrochen.",
+      "previous_text": "Danke dir. Kannst du zum Schluss das Wichtigste kurz zusammenfassen?",
+      "fact_ids": [
+        "272464187-0000",
+        "272464187-0017",
+        "272464187-0028",
+        "272464187-0047",
+        "272464187-0101",
+        "272464187-0081",
+        "272464187-0142",
+        "272464187-0102"
+      ],
+      "statements": [
+        {
+          "text": "Die Wieslauftalbahn ist eine normalspurige, eingleisige und nicht elektrifizierte Nebenbahn in Baden-Württemberg.",
+          "fact_ids": [
+            "272464187-0000"
+          ]
+        },
+        {
+          "text": "Welzheim war ab 1896 die letzte württembergische Oberamtsstadt, die noch keinen Bahnanschluss hatte.",
+          "fact_ids": [
+            "272464187-0017"
+          ]
+        },
+        {
+          "text": "Die Wieslauftalbahn war die steilste Adhäsionsbahn Württembergs.",
+          "fact_ids": [
+            "272464187-0028",
+            "272464187-0000"
+          ]
+        },
+        {
+          "text": "1984 stellte die Deutsche Bundesbahn den Antrag auf Einstellung des Gesamtverkehrs auf dem Abschnitt zwischen Rudersberg und Welzheim.",
+          "fact_ids": [
+            "272464187-0047"
+          ]
+        },
+        {
+          "text": "1992 wurde die Strecke samt Gebäuden unter Denkmalschutz gestellt.",
+          "fact_ids": [
+            "272464187-0101"
+          ]
+        },
+        {
+          "text": "2011 wurden 29.700 Fahrgäste befördert, womit die Prognosen vor Inbetriebnahme übertroffen wurden.",
+          "fact_ids": [
+            "272464187-0081"
+          ]
+        },
+        {
+          "text": "Der Verein DBK Historische Bahn führt an Sonn- und Feiertagen den Tourismusverkehr mit historischen Zügen zwischen Schorndorf und Welzheim durch.",
+          "fact_ids": [
+            "272464187-0142"
+          ]
+        },
+        {
+          "text": "Das Gebäude in Haubersbronn wurde durch das Hochwasser 2024 schwer beschädigt und in der Folge abgebrochen.",
+          "fact_ids": [
+            "272464187-0102"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272464187-0000",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Die Wieslauftalbahn, auch Wieslaufbahn oder Wiesel genannt, ist eine normalspurige, eingleisige und nicht elektrifizierte Nebenbahn in Baden-Württemberg.",
+          "context": []
+        },
+        {
+          "id": "272464187-0017",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Welzheim war dabei ab 1896 die letzte württembergische Oberamtsstadt, die noch keinen Bahnanschluss hatte.",
+          "context": []
+        },
+        {
+          "id": "272464187-0028",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Es verkehrten zunächst bis zu fünf Zugpaare täglich, die Strecke war die steilste Adhäsionsbahn Württembergs.",
+          "context": [
+            "1907 begannen die Königlich Württembergischen Staats-Eisenbahnen mit den Bauarbeiten, am 28. November 1908 eröffneten sie den ersten Abschnitt bis Rudersberg sowie am 25. November 1911 das Reststück bis Welzheim."
+          ]
+        },
+        {
+          "id": "272464187-0047",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "1984 stellte die Deutsche Bundesbahn beim Regierungspräsidium Stuttgart den Antrag auf Einstellung des Gesamtverkehrs auf dem Abschnitt zwischen Rudersberg und Welzheim, um auch den Güterverkehr nicht ausführen zu müssen.",
+          "context": []
+        },
+        {
+          "id": "272464187-0101",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "1992 wurde die Strecke samt Gebäuden unter Denkmalschutz gestellt.",
+          "context": []
+        },
+        {
+          "id": "272464187-0081",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "2011 wurden 29.700 Fahrgäste befördert, womit die Prognosen vor Inbetriebnahme übertroffen wurden.",
+          "context": []
+        },
+        {
+          "id": "272464187-0142",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Der Verein DBK Historische Bahn führt auf eigene Rechnung in Absprache mit dem Streckenbetreiber Schwäbische Waldbahn GmbH und Förderverein Welzheimer Bahn e. V. an Sonn- und Feiertagen den Tourismusverkehr mit historischen Zügen zwischen Schorndorf und Welzheim durch, wobei meist die Lokomotive 64 419 zum Einsatz kommt.",
+          "context": []
+        },
+        {
+          "id": "272464187-0102",
+          "article": "Wieslauftalbahn",
+          "revid": 272464187,
+          "sentence": "Das Gebäude in Haubersbronn wurde durch das Hochwasser 2024 schwer beschädigt und in der Folge abgebrochen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 1.0,
+          "aussage_1": 0.99,
+          "aussage_2": 0.97,
+          "aussage_3": 0.99,
+          "aussage_4": 1.0,
+          "aussage_5": 1.0,
+          "aussage_6": 0.99,
+          "aussage_7": 1.0,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    }
+  ],
+  "comments": []
+}

@@ -1,0 +1,82 @@
+{
+  "title": "Kraft durch Freude",
+  "revid": 270143165,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-01T10:07:32Z",
+  "fetched_at": "2026-11-25T12:59:28Z",
+  "categories": [
+    "Kategorie:Aufgelöst 1945",
+    "Kategorie:Deutscher Hochseesportverband HANSA",
+    "Kategorie:Freizeitorganisation (Deutschland)",
+    "Kategorie:Historische Organisation (Berlin)",
+    "Kategorie:Kraft durch Freude",
+    "Kategorie:Kulturelle Organisation (Nationalsozialismus)",
+    "Kategorie:Massenorganisation",
+    "Kategorie:Nebenorganisation der NSDAP",
+    "Kategorie:Politische Organisation (Berlin)",
+    "Kategorie:Sprache des Nationalsozialismus",
+    "Kategorie:Tourismusorganisation (Deutschland)",
+    "Kategorie:Unternehmensgründung 1933"
+  ],
+  "intro_wikitext": "[[Datei:KdF Symbol.svg|mini|Emblem der Gemeinschaft ''Kraft durch Freude'']]\n\nDie [[Nationalsozialismus|nationalsozialistische]] Massenorganisation '''Kraft durch Freude''' ('''KdF''') wurde am 27. November 1933 als Unterorganisation der [[Deutsche Arbeitsfront|Deutschen Arbeitsfront]] (DAF) mit dem Ziel gegründet, den Totalitätsanspruch des [[NS-Regime]]s mit der „Bildung einer wirklichen [[Volksgemeinschaft|Volks-]] und Leistungsgemeinschaft aller Deutschen“ zu erfüllen.<ref>[[Rüdiger Hachtmann]]: ''„Bäuche wegmassieren“ und „überflüssiges Fett in unserem Volke beseitigen“. Der kommunale Breitensport der NS-Gemeinschaft „Kraft durch Freude“.'' In: [[Frank Becker (Historiker)|Frank Becker]], Ralf Schäfer (Hrsg.): ''Sport und Nationalsozialismus.'' Wallstein Verlag, Göttingen 2016, ISBN 978-3-8353-1923-3, S. 27–66, hier S. 29.</ref> Mit dem [[Amt für Reisen, Wandern und Urlaub]] war KdF der größte [[Reiseveranstalter]] in der [[Zeit des Nationalsozialismus]].\n\nDie Organisation mit Sitz in [[Berlin]] bestand von 1933 bis 1945, wobei sich die meisten ihrer Aktivitäten mit Beginn des [[Zweiter Weltkrieg|Zweiten Weltkrieges]] im September 1939 auf die Frontbetreuung und „kulturelle Zerstreuung“ der deutschen Truppen beschränkten.",
+  "segments": [
+    {
+      "id": "270143165-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die [[Nationalsozialismus|nationalsozialistische]] Massenorganisation '''Kraft durch Freude''' ('''KdF''') wurde am 27. November 1933 als Unterorganisation der [[Deutsche Arbeitsfront|Deutschen Arbeitsfront]] (DAF) mit dem Ziel gegründet, den Totalitätsanspruch des [[NS-Regime]]s mit der „Bildung einer wirklichen [[Volksgemeinschaft|Volks-]] und Leistungsgemeinschaft aller Deutschen“ zu erfüllen.<ref>[[Rüdiger Hachtmann]]: ''„Bäuche wegmassieren“ und „überflüssiges Fett in unserem Volke beseitigen“. Der kommunale Breitensport der NS-Gemeinschaft „Kraft durch Freude“.'' In: [[Frank Becker (Historiker)|Frank Becker]], Ralf Schäfer (Hrsg.): ''Sport und Nationalsozialismus.'' Wallstein Verlag, Göttingen 2016, ISBN 978-3-8353-1923-3, S. 27–66, hier S. 29.</ref>",
+      "plain": null
+    },
+    {
+      "id": "270143165-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Mit dem [[Amt für Reisen, Wandern und Urlaub]] war KdF der größte [[Reiseveranstalter]] in der [[Zeit des Nationalsozialismus]].",
+      "plain": null
+    },
+    {
+      "id": "270143165-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Organisation mit Sitz in [[Berlin]] bestand von 1933 bis 1945, wobei sich die meisten ihrer Aktivitäten mit Beginn des [[Zweiter Weltkrieg|Zweiten Weltkrieges]] im September 1939 auf die Frontbetreuung und „kulturelle Zerstreuung“ der deutschen Truppen beschränkten.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270143165,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270143165-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die nationalsozialistische Massenorganisation Kraft durch Freude (KdF) wurde am 27. November 1933 als Unterorganisation der Deutschen Arbeitsfront (DAF) mit dem Ziel gegründet, den Totalitätsanspruch des NS-Regimes mit der „Bildung einer wirklichen Volks- und Leistungsgemeinschaft aller Deutschen“ zu erfüllen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270143165-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Mit dem Amt für Reisen, Wandern und Urlaub war KdF der größte Reiseveranstalter in der Zeit des Nationalsozialismus.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270143165-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270143165-0000",
+          "270143165-0001"
+        ],
+        "plain": "Die Organisation mit Sitz in Berlin bestand von 1933 bis 1945, wobei sich die meisten ihrer Aktivitäten mit Beginn des Zweiten Weltkrieges im September 1939 auf die Frontbetreuung und „kulturelle Zerstreuung“ der deutschen Truppen beschränkten.",
+        "context_plain": [
+          "Die nationalsozialistische Massenorganisation Kraft durch Freude (KdF) wurde am 27. November 1933 als Unterorganisation der Deutschen Arbeitsfront (DAF) mit dem Ziel gegründet, den Totalitätsanspruch des NS-Regimes mit der „Bildung einer wirklichen Volks- und Leistungsgemeinschaft aller Deutschen“ zu erfüllen.",
+          "Mit dem Amt für Reisen, Wandern und Urlaub war KdF der größte Reiseveranstalter in der Zeit des Nationalsozialismus."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

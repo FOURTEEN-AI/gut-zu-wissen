@@ -1,0 +1,91 @@
+{
+  "title": "DBK Historische Bahn",
+  "revid": 264027844,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-02-06T09:46:18Z",
+  "fetched_at": "2026-11-25T12:59:28Z",
+  "categories": [
+    "Kategorie:Eisenbahnmuseum in Deutschland",
+    "Kategorie:Museumsbahn (Baden-Württemberg)",
+    "Kategorie:Organisation (Crailsheim)",
+    "Kategorie:Vereinsgründung 1985"
+  ],
+  "intro_wikitext": "[[Datei:2006-06-05DRG Lok64419bhfMichelau-01 (cropped).jpg|miniatur|Dampfzug der DBK Historische Bahn auf der [[Wieslauftalbahn]]]]\n[[Datei:Lokomotiven 64 419 und 212 084-8 in Titisee 0562.jpg|miniatur|64 419 und 212 084-8 im Bahnhof Titisee ]]\n[[Datei:Bw Crailsheim neue Drehscheibe.jpeg|miniatur|Neue Drehscheibe im Bw Crailsheim mit Museumsfahrzeugen]]\nDer [[Verein]] '''DBK Historische Bahn''' ist ein Zusammenschluss von Eisenbahnfreunden mit Sitz in [[Crailsheim]].\n\nUrsprünglich im Jahr 1985 als ''Dampfbahn Kochertal e.&nbsp;V.'' mit Sitz in [[Sulzbach-Laufen]] gegründet, zog der Verein nach und nach in das ehemalige Dampflok-[[Bahnbetriebswerk]] nach Crailsheim um. Heute nennt der mittlerweile über 100 Mitglieder zählende Verein zahlreiche zum Teil auch betriebsfähige [[Schienenfahrzeug]]e ([[Dampflokomotive|Dampf-]] und [[Diesellokomotive]]n sowie [[Personenwagen|Reise-]] und [[Güterwagen|Güterzugwagen]]) sein Eigen, darüber hinaus werden Sonderfahrten mit historischen Zügen angeboten. Ein weiteres wichtiges Projekt des Vereins, das mit Hilfe eines Landeszuschusses in Angriff genommen wurde, war der Wiederaufbau einer [[Drehscheibe]] im ehemaligen Bahnbetriebswerk Crailsheim.",
+  "segments": [
+    {
+      "id": "264027844-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der [[Verein]] '''DBK Historische Bahn''' ist ein Zusammenschluss von Eisenbahnfreunden mit Sitz in [[Crailsheim]].",
+      "plain": null
+    },
+    {
+      "id": "264027844-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ursprünglich im Jahr 1985 als ''Dampfbahn Kochertal e.&nbsp;V.'' mit Sitz in [[Sulzbach-Laufen]] gegründet, zog der Verein nach und nach in das ehemalige Dampflok-[[Bahnbetriebswerk]] nach Crailsheim um.",
+      "plain": null
+    },
+    {
+      "id": "264027844-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Heute nennt der mittlerweile über 100 Mitglieder zählende Verein zahlreiche zum Teil auch betriebsfähige [[Schienenfahrzeug]]e ([[Dampflokomotive|Dampf-]] und [[Diesellokomotive]]n sowie [[Personenwagen|Reise-]] und [[Güterwagen|Güterzugwagen]]) sein Eigen, darüber hinaus werden Sonderfahrten mit historischen Zügen angeboten.",
+      "plain": null
+    },
+    {
+      "id": "264027844-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein weiteres wichtiges Projekt des Vereins, das mit Hilfe eines Landeszuschusses in Angriff genommen wurde, war der Wiederaufbau einer [[Drehscheibe]] im ehemaligen Bahnbetriebswerk Crailsheim.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 264027844,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "264027844-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Verein DBK Historische Bahn ist ein Zusammenschluss von Eisenbahnfreunden mit Sitz in Crailsheim.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "264027844-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Ursprünglich im Jahr 1985 als Dampfbahn Kochertal e. V. mit Sitz in Sulzbach-Laufen gegründet, zog der Verein nach und nach in das ehemalige Dampflok-Bahnbetriebswerk nach Crailsheim um.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "264027844-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "264027844-0001"
+        ],
+        "plain": "Heute nennt der mittlerweile über 100 Mitglieder zählende Verein zahlreiche zum Teil auch betriebsfähige Schienenfahrzeuge (Dampf- und Diesellokomotiven sowie Reise- und Güterzugwagen) sein Eigen, darüber hinaus werden Sonderfahrten mit historischen Zügen angeboten.",
+        "context_plain": [
+          "Ursprünglich im Jahr 1985 als Dampfbahn Kochertal e. V. mit Sitz in Sulzbach-Laufen gegründet, zog der Verein nach und nach in das ehemalige Dampflok-Bahnbetriebswerk nach Crailsheim um."
+        ]
+      },
+      {
+        "segment_id": "264027844-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "264027844-0002"
+        ],
+        "plain": "Ein weiteres wichtiges Projekt des Vereins, das mit Hilfe eines Landeszuschusses in Angriff genommen wurde, war der Wiederaufbau einer Drehscheibe im ehemaligen Bahnbetriebswerk Crailsheim.",
+        "context_plain": [
+          "Heute nennt der mittlerweile über 100 Mitglieder zählende Verein zahlreiche zum Teil auch betriebsfähige Schienenfahrzeuge (Dampf- und Diesellokomotiven sowie Reise- und Güterzugwagen) sein Eigen, darüber hinaus werden Sonderfahrten mit historischen Zügen angeboten."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

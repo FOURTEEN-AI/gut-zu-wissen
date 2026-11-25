@@ -1,0 +1,67 @@
+{
+  "title": "Schmalspurbahn",
+  "revid": 272175143,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-15T08:02:14Z",
+  "fetched_at": "2026-11-25T12:59:28Z",
+  "categories": [
+    "Kategorie:Schmalspurbahn",
+    "Kategorie:Spurweite",
+    "Kategorie:Wikipedia:Artikel mit Video",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2023-01",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Botmarkierungen 2023-01",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Botmarkierungen 2024-05",
+    "Kategorie:Wikipedia:Weblink offline IABot"
+  ],
+  "intro_wikitext": "[[Datei:Kohle-Lgo Nacala-Moatize.JPG|mini|[[Güterzug|Güterzüge]] im südlichen Afrika auf [[Kapspur]] können ein Gesamtgewicht von mehreren tausend Tonnen erreichen. Hier ein Kohle-Leerzug auf der Bahnstrecke Nacala–Moatize in Mosambik mit vier Lokomotiven, zwei an der Zugspitze, zwei in der Zugmitte.]]\n\nAls '''Schmalspurbahn''' wird eine [[Bahn (Verkehr)|Bahn]] bezeichnet, deren [[Spurweite (Schienenverkehr)|Spurweite]] kleiner als die der 1822 eingeführten [[Normalspur]] mit 1435&nbsp;mm (4&nbsp;[[Fuß (Einheit)|Fuß]] 8,5&nbsp;[[Zoll (Einheit)|Zoll]]) ist. Dies gilt auch in Gebieten, wo die vorherrschende Spurweite schmaler als weltweit üblich ist, etwa in [[Südafrika]]. Das Gegenstück zur Schmalspurbahn ist die [[Breitspurbahn]], die eine breitere Spurweite als die Normalspur hat.",
+  "segments": [
+    {
+      "id": "272175143-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als '''Schmalspurbahn''' wird eine [[Bahn (Verkehr)|Bahn]] bezeichnet, deren [[Spurweite (Schienenverkehr)|Spurweite]] kleiner als die der 1822 eingeführten [[Normalspur]] mit 1435&nbsp;mm (4&nbsp;[[Fuß (Einheit)|Fuß]] 8,5&nbsp;[[Zoll (Einheit)|Zoll]]) ist.",
+      "plain": null
+    },
+    {
+      "id": "272175143-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dies gilt auch in Gebieten, wo die vorherrschende Spurweite schmaler als weltweit üblich ist, etwa in [[Südafrika]].",
+      "plain": null
+    },
+    {
+      "id": "272175143-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Gegenstück zur Schmalspurbahn ist die [[Breitspurbahn]], die eine breitere Spurweite als die Normalspur hat.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272175143,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272175143-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Als Schmalspurbahn wird eine Bahn bezeichnet, deren Spurweite kleiner als die der 1822 eingeführten Normalspur mit 1435 mm (4 Fuß 8,5 Zoll) ist.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272175143-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272175143-0000"
+        ],
+        "plain": "Dies gilt auch in Gebieten, wo die vorherrschende Spurweite schmaler als weltweit üblich ist, etwa in Südafrika.",
+        "context_plain": [
+          "Als Schmalspurbahn wird eine Bahn bezeichnet, deren Spurweite kleiner als die der 1822 eingeführten Normalspur mit 1435 mm (4 Fuß 8,5 Zoll) ist."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

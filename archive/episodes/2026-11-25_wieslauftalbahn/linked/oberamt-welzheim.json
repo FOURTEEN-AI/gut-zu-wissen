@@ -1,0 +1,47 @@
+{
+  "title": "Oberamt Welzheim",
+  "revid": 264321193,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-02-15T17:33:48Z",
+  "fetched_at": "2026-11-25T12:59:28Z",
+  "categories": [
+    "Kategorie:Aufgelöst 1938",
+    "Kategorie:Oberamt (Württemberg)",
+    "Kategorie:Politik (Landkreis Göppingen)",
+    "Kategorie:Politik (Rems-Murr-Kreis)",
+    "Kategorie:Verwaltungseinheitsgründung 1807",
+    "Kategorie:Welzheim"
+  ],
+  "intro_wikitext": "[[Datei:VkDE-wt 1927 num.svg|mini|Karte der württembergischen Oberämter, Stand 1926]]\n[[Datei:Oberamtsgebäude Lorch Wuertt.jpg|mini|Oberamtsgebäude in Lorch]]\n[[Datei:Oberamt Welzheim Briefsiegel.jpg|mini|Briefsiegel des Oberamts Welzheim]]\nDas '''Oberamt Welzheim''' (von 1810 bis 1819 '''Oberamt Lorch''') war ein [[württemberg]]ischer Verwaltungsbezirk (auf beigefügter [[Verwaltungsgliederung Württembergs#Verwaltungsgliederung ab 1924|Karte #61)]], der 1934 in ''Kreis Welzheim'' umbenannt und 1938 aufgelöst wurde, wobei seine Gemeinden auf die Landkreise [[Landkreis Waiblingen|Waiblingen]] (Rechtsnachfolger), [[Landkreis Schwäbisch Gmünd|Gmünd]], [[Landkreis Backnang|Backnang]] und [[Landkreis Göppingen|Göppingen]] verteilt wurden. Allgemeine Bemerkungen zu württembergischen Oberämtern siehe [[Oberamt (Württemberg)]].",
+  "segments": [
+    {
+      "id": "264321193-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das '''Oberamt Welzheim''' (von 1810 bis 1819 '''Oberamt Lorch''') war ein [[württemberg]]ischer Verwaltungsbezirk (auf beigefügter [[Verwaltungsgliederung Württembergs#Verwaltungsgliederung ab 1924|Karte #61)]], der 1934 in ''Kreis Welzheim'' umbenannt und 1938 aufgelöst wurde, wobei seine Gemeinden auf die Landkreise [[Landkreis Waiblingen|Waiblingen]] (Rechtsnachfolger), [[Landkreis Schwäbisch Gmünd|Gmünd]], [[Landkreis Backnang|Backnang]] und [[Landkreis Göppingen|Göppingen]] verteilt wurden.",
+      "plain": null
+    },
+    {
+      "id": "264321193-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Allgemeine Bemerkungen zu württembergischen Oberämtern siehe [[Oberamt (Württemberg)]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 264321193,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "264321193-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Oberamt Welzheim (von 1810 bis 1819 Oberamt Lorch) war ein württembergischer Verwaltungsbezirk (auf beigefügter Karte #61), der 1934 in Kreis Welzheim umbenannt und 1938 aufgelöst wurde, wobei seine Gemeinden auf die Landkreise Waiblingen (Rechtsnachfolger), Gmünd, Backnang und Göppingen verteilt wurden.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

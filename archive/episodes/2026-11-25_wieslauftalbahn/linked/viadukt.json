@@ -1,0 +1,69 @@
+{
+  "title": "Viadukt",
+  "revid": 270497973,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-15T06:51:17Z",
+  "fetched_at": "2026-11-25T12:59:28Z",
+  "categories": [
+    "Kategorie:Bauform (Brücke)"
+  ],
+  "intro_wikitext": "[[Datei:Mariazellerbahn 04.jpg|mini|hochkant=1.2|{{center|Saugrabenviadukt der [[Mariazellerbahn]]}}]]\n\n'''Viadukt''' (''der'' oder ''das''; Schweizer Hochdeutsch primär ''der'', Schweizerdeutsch (fast) nur ''das'' (regional unterschiedlich), Österreich ''der'' (seltener ''das'') Viadukt) von {{laS|''via''}} „Weg“ und ''ductus'' „Führung, Leitung“, also etwa „Überführung“, ist eine neoklassische Wortbildung, orientiert an [[Aquädukt]] (röm. Wasserleitung).<ref>[https://www.dwds.de/wb/etymwb/Viadukt „Viadukt“, in: Wolfgang Pfeifer et al.: ''Etymologisches Wörterbuch des Deutschen (1993), digitalisierte und von Wolfgang Pfeifer überarbeitete Version im Digitalen Wörterbuch der deutschen Sprache.''] Abgerufen am 15. August 2021.</ref> Als Viadukt werden mehr oder minder hohe und lange [[Brücke]]n [[Eisenbahnbrücke|für Eisenbahnen]], aber auch [[Straßenbrücke]]n bezeichnet, die ähnlich wie ein Aquädukt aus mehreren [[Brückenfeld]]ern bestehen – insbesondere wenn sie mit [[Bogen (Architektur)|Bögen]] auf [[Pfeiler]]n steigungsarm über ein [[Tal]] oder eine [[Senke (Geographie)|Senke]] hinwegführen. Als Viadukte werden auch die aufgeständerten [[Trasse (Verkehrsweg)|Trassen]] von [[Hochstraße]]n und [[Hochbahn]]en bezeichnet, unabhängig davon, ob die Trassen über eine Bogenreihe oder eine andere Konstruktion geführt werden.",
+  "segments": [
+    {
+      "id": "270497973-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Viadukt''' (''der'' oder ''das''; Schweizer Hochdeutsch primär ''der'', Schweizerdeutsch (fast) nur ''das'' (regional unterschiedlich), Österreich ''der'' (seltener ''das'') Viadukt) von {{laS|''via''}} „Weg“ und ''ductus'' „Führung, Leitung“, also etwa „Überführung“, ist eine neoklassische Wortbildung, orientiert an [[Aquädukt]] (röm. Wasserleitung).<ref>[https://www.dwds.de/wb/etymwb/Viadukt „Viadukt“, in: Wolfgang Pfeifer et al.: ''Etymologisches Wörterbuch des Deutschen (1993), digitalisierte und von Wolfgang Pfeifer überarbeitete Version im Digitalen Wörterbuch der deutschen Sprache.''] Abgerufen am 15. August 2021.</ref>",
+      "plain": null
+    },
+    {
+      "id": "270497973-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als Viadukt werden mehr oder minder hohe und lange [[Brücke]]n [[Eisenbahnbrücke|für Eisenbahnen]], aber auch [[Straßenbrücke]]n bezeichnet, die ähnlich wie ein Aquädukt aus mehreren [[Brückenfeld]]ern bestehen – insbesondere wenn sie mit [[Bogen (Architektur)|Bögen]] auf [[Pfeiler]]n steigungsarm über ein [[Tal]] oder eine [[Senke (Geographie)|Senke]] hinwegführen.",
+      "plain": null
+    },
+    {
+      "id": "270497973-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als Viadukte werden auch die aufgeständerten [[Trasse (Verkehrsweg)|Trassen]] von [[Hochstraße]]n und [[Hochbahn]]en bezeichnet, unabhängig davon, ob die Trassen über eine Bogenreihe oder eine andere Konstruktion geführt werden.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270497973,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270497973-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Viadukt (der oder das; Schweizer Hochdeutsch primär der, Schweizerdeutsch (fast) nur das (regional unterschiedlich), Österreich der (seltener das) Viadukt) von lateinisch via „Weg“ und ductus „Führung, Leitung“, also etwa „Überführung“, ist eine neoklassische Wortbildung, orientiert an Aquädukt (röm. Wasserleitung).",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270497973-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Als Viadukt werden mehr oder minder hohe und lange Brücken für Eisenbahnen, aber auch Straßenbrücken bezeichnet, die ähnlich wie ein Aquädukt aus mehreren Brückenfeldern bestehen – insbesondere wenn sie mit Bögen auf Pfeilern steigungsarm über ein Tal oder eine Senke hinwegführen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270497973-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270497973-0001"
+        ],
+        "plain": "Als Viadukte werden auch die aufgeständerten Trassen von Hochstraßen und Hochbahnen bezeichnet, unabhängig davon, ob die Trassen über eine Bogenreihe oder eine andere Konstruktion geführt werden.",
+        "context_plain": [
+          "Als Viadukt werden mehr oder minder hohe und lange Brücken für Eisenbahnen, aber auch Straßenbrücken bezeichnet, die ähnlich wie ein Aquädukt aus mehreren Brückenfeldern bestehen – insbesondere wenn sie mit Bögen auf Pfeilern steigungsarm über ein Tal oder eine Senke hinwegführen."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "title": "Tangente (Verkehr)",
+  "revid": 270312526,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-08T05:56:52Z",
+  "fetched_at": "2026-11-25T12:59:28Z",
+  "categories": [
+    "Kategorie:Verkehrsplanung",
+    "Kategorie:Öffentlicher Personennahverkehr"
+  ],
+  "intro_wikitext": "Der Begriff '''Tangente''' (kurz für ''Tangentialstraße'') bezeichnet in der [[Verkehrsplanung]] eine Straße, die an bebauten Flächen einer [[Gemeinde]] vorbeiführt. Dies geschieht, um in dem bebauten Gebiet (in der Regel das [[Kerngebiet]]) eine Reduzierung der [[Verkehrsstärke]] und der [[Verkehrsemission]]en herbeizuführen. Die Tangentialstraße ist nicht gleichbedeutend mit einer [[Ortsumgehung]], da die Tangentialstraße nicht zwingend Teil einer [[Straßenklasse|klassifizierten]] Straße sein muss. Häufig werden die Verbindungen nach der Himmelsrichtung benannt, in der sie an der Stadt vorbeiführen. [[Südtangente|Süd-]], [[Westtangente|West-]], [[Osttangente|Ost-]] und [[Nordtangente]]n sind in Deutschland mehrfach vertreten.\n\nDie Begriffsbedeutung kann ebenso auf den [[Öffentlicher Personennahverkehr|öffentlichen Personennahverkehr]] übertragen werden und erhält in diesem Fall die Bezeichnung '''Tangentiallinie'''. Hierbei handelt es sich um [[Linie (Verkehr)|Verkehrslinien]] ([[Omnibus|Bus]]- oder [[Straßenbahn]]linien), die innerhalb verschiedener Stadt- oder [[Ortsteil]]e verlaufen, jedoch keine direkte Verbindung mit dem [[Innenstadt|Stadtzentrum]] schaffen. Diese Linien haben neben der Funktion einer direkten Verbindung zwischen Ortsteilen auch eine Zuführungsfunktion zu Hauptlinien. Daher gibt es im Allgemeinen einen oder mehrere [[Verknüpfungspunkt]](e) zu Direktlinien ins Zentrum. Die Aufgaben einer Tangentiallinie können auch [[Ringlinie]]n oder Stadtteillinien (so genannte [[Quartiersbus]]linien) übernehmen.",
+  "segments": [
+    {
+      "id": "270312526-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Begriff '''Tangente''' (kurz für ''Tangentialstraße'') bezeichnet in der [[Verkehrsplanung]] eine Straße, die an bebauten Flächen einer [[Gemeinde]] vorbeiführt.",
+      "plain": null
+    },
+    {
+      "id": "270312526-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Dies geschieht, um in dem bebauten Gebiet (in der Regel das [[Kerngebiet]]) eine Reduzierung der [[Verkehrsstärke]] und der [[Verkehrsemission]]en herbeizuführen.",
+      "plain": null
+    },
+    {
+      "id": "270312526-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Tangentialstraße ist nicht gleichbedeutend mit einer [[Ortsumgehung]], da die Tangentialstraße nicht zwingend Teil einer [[Straßenklasse|klassifizierten]] Straße sein muss.",
+      "plain": null
+    },
+    {
+      "id": "270312526-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Häufig werden die Verbindungen nach der Himmelsrichtung benannt, in der sie an der Stadt vorbeiführen.",
+      "plain": null
+    },
+    {
+      "id": "270312526-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "[[Südtangente|Süd-]], [[Westtangente|West-]], [[Osttangente|Ost-]] und [[Nordtangente]]n sind in Deutschland mehrfach vertreten.",
+      "plain": null
+    },
+    {
+      "id": "270312526-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Begriffsbedeutung kann ebenso auf den [[Öffentlicher Personennahverkehr|öffentlichen Personennahverkehr]] übertragen werden und erhält in diesem Fall die Bezeichnung '''Tangentiallinie'''.",
+      "plain": null
+    },
+    {
+      "id": "270312526-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Hierbei handelt es sich um [[Linie (Verkehr)|Verkehrslinien]] ([[Omnibus|Bus]]- oder [[Straßenbahn]]linien), die innerhalb verschiedener Stadt- oder [[Ortsteil]]e verlaufen, jedoch keine direkte Verbindung mit dem [[Innenstadt|Stadtzentrum]] schaffen.",
+      "plain": null
+    },
+    {
+      "id": "270312526-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Diese Linien haben neben der Funktion einer direkten Verbindung zwischen Ortsteilen auch eine Zuführungsfunktion zu Hauptlinien.",
+      "plain": null
+    },
+    {
+      "id": "270312526-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "Daher gibt es im Allgemeinen einen oder mehrere [[Verknüpfungspunkt]](e) zu Direktlinien ins Zentrum.",
+      "plain": null
+    },
+    {
+      "id": "270312526-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Aufgaben einer Tangentiallinie können auch [[Ringlinie]]n oder Stadtteillinien (so genannte [[Quartiersbus]]linien) übernehmen.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270312526,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270312526-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Begriff Tangente (kurz für Tangentialstraße) bezeichnet in der Verkehrsplanung eine Straße, die an bebauten Flächen einer Gemeinde vorbeiführt.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270312526-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270312526-0000"
+        ],
+        "plain": "Dies geschieht, um in dem bebauten Gebiet (in der Regel das Kerngebiet) eine Reduzierung der Verkehrsstärke und der Verkehrsemissionen herbeizuführen.",
+        "context_plain": [
+          "Der Begriff Tangente (kurz für Tangentialstraße) bezeichnet in der Verkehrsplanung eine Straße, die an bebauten Flächen einer Gemeinde vorbeiführt."
+        ]
+      },
+      {
+        "segment_id": "270312526-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Tangentialstraße ist nicht gleichbedeutend mit einer Ortsumgehung, da die Tangentialstraße nicht zwingend Teil einer klassifizierten Straße sein muss.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270312526-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270312526-0002"
+        ],
+        "plain": "Häufig werden die Verbindungen nach der Himmelsrichtung benannt, in der sie an der Stadt vorbeiführen.",
+        "context_plain": [
+          "Die Tangentialstraße ist nicht gleichbedeutend mit einer Ortsumgehung, da die Tangentialstraße nicht zwingend Teil einer klassifizierten Straße sein muss."
+        ]
+      },
+      {
+        "segment_id": "270312526-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Begriffsbedeutung kann ebenso auf den öffentlichen Personennahverkehr übertragen werden und erhält in diesem Fall die Bezeichnung Tangentiallinie.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270312526-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270312526-0005"
+        ],
+        "plain": "Hierbei handelt es sich um Verkehrslinien (Bus- oder Straßenbahnlinien), die innerhalb verschiedener Stadt- oder Ortsteile verlaufen, jedoch keine direkte Verbindung mit dem Stadtzentrum schaffen.",
+        "context_plain": [
+          "Die Begriffsbedeutung kann ebenso auf den öffentlichen Personennahverkehr übertragen werden und erhält in diesem Fall die Bezeichnung Tangentiallinie."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}
