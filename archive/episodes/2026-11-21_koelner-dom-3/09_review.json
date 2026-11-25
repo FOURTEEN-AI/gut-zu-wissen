@@ -325,9 +325,11 @@
       "sampled": true
     }
   ],
-  "status": "pending",
-  "outcome": null,
-  "rate_applied": [],
+  "status": "answered",
+  "outcome": "error",
+  "rate_applied": [
+    "error"
+  ],
   "issue": 27,
   "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/27",
   "explicit": {
@@ -336,10 +338,10 @@
     "verdict": "clean",
     "findings": [],
     "reason": "Das Gespräch behandelt sachlich Geschichte, Bau und Besonderheiten des Kölner Doms. Die Sage vom Sturz des Dombaumeisters (Beitrag 32), die Bombentreffer im Krieg (Beiträge 66 und 68) und das Versenken der Kunstuhr werden nur knapp und beiläufig erwähnt, ohne drastische Schilderung. Sexualität, Drogen und derbe Schimpfwörter kommen nicht vor.",
-    "label": null,
-    "reviewer_flag": null,
+    "label": "correct",
+    "reviewer_flag": false,
     "note": null,
-    "comment_id": null
+    "comment_id": 7167936810
   },
   "turns": [
     {
@@ -393,9 +395,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 2,
@@ -431,9 +433,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 4,
@@ -471,9 +473,9 @@
         "jev_error": null,
         "reason": "Der Fakt-Satz „Ihm half dabei sein damaliger Schüler Joseph Beuys“ bezieht sich laut Kontext auf Ewald Mataré, der 1948 die Portaltüren des Kölner Doms erneuerte. Lena löst das Bezugswort „ihm“ korrekt mit dem Namen auf, und Mataré ist im Gespräch eindeutig gemeint. Die Wendung „Da fällt der Name Ewald Mataré“ ist eine belegfreie Überleitung als Antwort auf Felix' Frage nach Künstlernamen, die mit dem Dom zu tun haben. Der Redebeitrag enthält keine weiteren Behauptungen und keine Fragen mit Prämisse, und es entsteht keine neue Beziehung zwischen Fakten."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 6,
@@ -516,9 +518,9 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Cyanobakterien auf den Domsteinen, dunkle Verfärbung durch Sonnenstrahlung, Photosynthese, das Zitat von Bruno P. Kremer und der Vergleich mit einem Wäldchen. Der Gegenstand ist eindeutig (Kölner Dom, Antwort auf die Frage nach den Steinen). Es gibt keine zusätzlichen Angaben und keine Fragen im Redebeitrag."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 8,
@@ -554,9 +556,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 9,
@@ -592,9 +594,9 @@
         "jev_error": null,
         "reason": "Felix stellt eine Nachfrage mit Bitte um Erklärung. Die Prämisse, dass die Bienen über einer Werkstatt der Dombauhütte leben, steht im Fakt-Satz (Bienenvolk über einer Werkstatt der Dombauhütte angesiedelt) und wurde von Lena genannt. Es kommt keine zusätzliche Behauptung vor, und der Gegenstand ist eindeutig."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 10,
@@ -645,9 +647,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 12,
@@ -683,9 +685,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 13,
@@ -721,9 +723,9 @@
         "jev_error": null,
         "reason": "Felix' Redebeitrag ist eine Nachfrage bzw. Überleitungsfrage zum eben Gesagten (abstürzende Gesteinsbrocken) und enthält keine Behauptung. Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern bittet nur um eine Einordnung. Sie ist daher belegfrei."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 14,
@@ -759,9 +761,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 16,
@@ -797,9 +799,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 18,
@@ -852,9 +854,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 20,
@@ -892,9 +894,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 21,
@@ -932,9 +934,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag ist eine reine Nachfrage („Woher stammten diese Reliquien?“) und damit belegfrei. „Diese Reliquien“ greift den Gegenstand des vorherigen Beitrags auf. Die Frage setzt nur voraus, dass es eine Herkunft gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Eine behauptende Aussage enthält sie nicht."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 22,
@@ -972,9 +974,9 @@
         "jev_error": null,
         "reason": "Beide Aussagen folgen aus dem Fakt-Satz. Dass die Reliquien die der Heiligen Drei Könige sind und der Erzbischof Rainald von Dassel ist, steht im Kontext des Fakts, und die Bezüge dürfen so aufgelöst werden. Der Redebeitrag enthält keine Frage und keine zusätzliche Angabe, und er beantwortet Felix' Frage zu den Reliquien."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 23,
@@ -1012,9 +1014,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 24,
@@ -1052,9 +1054,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 26,
@@ -1097,9 +1099,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 28,
@@ -1135,9 +1137,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 29,
@@ -1173,9 +1175,9 @@
         "jev_error": null,
         "reason": "Felix' Redebeitrag ist eine Nachfrage, die an Lenas Aussage anknüpft. Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Es wird keine Behauptung aufgestellt, die einen Beleg bräuchte. Der zitierte Fakt zur fast 300-jährigen Bauruhe stimmt mit dem Vorredner überein."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 30,
@@ -1213,9 +1215,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 32,
@@ -1255,9 +1257,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Gerhard entdeckt, dass er die Wette verloren hat, stürzt sich vom Baugerüst, die Baupläne verbrennen. Die Einordnung als Erzählung (\"Es wird erzählt\", Konjunktiv) entspricht dem Fakt. Gerhard als Dombaumeister passt zum Kontext und zum Artikelthema. Der Bezug auf die vorherige Frage nach Geschichten um den Bau stimmt, denn der Fakt handelt von einer Sage zum Dombau. Es gibt keine zusätzlichen Angaben und keine unbelegten Fragen oder Prämissen."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 33,
@@ -1297,9 +1299,9 @@
         "jev_error": null,
         "reason": "Felix' Redebeitrag ist eine Nachfrage zur eben erzählten Sage. Die Frage, ob die Geschichte einen wahren Kern hat, nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern bittet um Einordnung. Sie ist daher belegfrei, und es gibt keine Behauptung, die aus den Fakt-Sätzen folgen müsste."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 34,
@@ -1337,9 +1339,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 36,
@@ -1375,9 +1377,9 @@
         "jev_error": null,
         "reason": "Das Zitat in Lenas Beitrag stimmt wörtlich mit dem Fakt-Satz überein. Der Gegenstand ist eindeutig, denn der Artikel handelt vom Kölner Dom und der Bau wird im vorherigen Beitrag genannt. Es gibt keine zusätzlichen Behauptungen und keine Prämissen, und die Einleitung „Dazu gibt es dieses Zitat“ ist nur eine Überleitung. Sie beantwortet Felix' Frage zu den Mitteln beim Bau passend."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 37,
@@ -1413,9 +1415,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 38,
@@ -1453,9 +1455,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "not_supported",
+      "note": "achtfache Baumasse ohne Bezugsgröße (Reims), siehe #8",
+      "comment_id": 7167936810
     },
     {
       "turn_index": 40,
@@ -1491,9 +1493,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 42,
@@ -1529,9 +1531,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 44,
@@ -1567,9 +1569,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 46,
@@ -1605,9 +1607,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 48,
@@ -1645,9 +1647,9 @@
         "jev_error": null,
         "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: Einstellung der Gottesdienste im November 1796 durch die Besatzer sowie die zeitweilige Nutzung als Pferdestall und Lagerhalle durch das französische Militär. Dass die Besatzer französisch waren, ist durch den zweiten Teil des Satzes und den Artikelkontext (Kölner Dom) eindeutig; der Gegenstand ist der Dom, den der Artikel nennt. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämisse."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 50,
@@ -1683,9 +1685,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 51,
@@ -1721,9 +1723,9 @@
         "jev_error": null,
         "reason": "Felix' Redebeitrag ist eine reine Nachfrage bzw. Bitte um Erklärung zum eben Gesagten (die Hausnummer 2583½). Er enthält keine neue Behauptung und keine Prämisse, die erst eine Antwort liefern müsste. Das „Halbe“ stammt direkt aus dem vorherigen Beitrag und dem Fakt-Satz, also ist der Beitrag belegfrei zulässig."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 52,
@@ -1761,9 +1763,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 54,
@@ -1799,9 +1801,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 56,
@@ -1837,9 +1839,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Zeitraum 1823 bis 1880, 6,6 Millionen Taler, rund eine Milliarde Euro nach heutigem Geld (Stand 2019). Zahlen sind ausgeschrieben, aber unverändert. Der Gegenstand (Vollendung des Domes) passt zur vorherigen Frage nach den Kosten der Vollendung des Baus. Es gibt keine zusätzlichen Angaben und keine Fragen oder Reaktionen mit unbelegten Prämissen."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 58,
@@ -1875,9 +1877,9 @@
         "jev_error": null,
         "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Bild, 2013, Neubau, rund 10 Milliarden Euro. Der Gegenstand „der Dom“ ist durch den vorherigen Beitrag und den Artikel „Kölner Dom“ eindeutig und passt zur Frage. Es gibt keine zusätzlichen Angaben und keine Frage mit Prämisse."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 60,
@@ -1933,9 +1935,9 @@
         "jev_error": null,
         "reason": "Satz 1 folgt aus Fakt 0215: „Er“ bezieht sich im Kontext auf den Dachstuhl, der im Kontext genannt wird und im Artikel „Kölner Dom“ steht; Lena löst den Bezug korrekt mit „Dachstuhl des Kölner Doms“ auf. Das passt auch zur Frage nach den Materialien. Sätze 2 und 3 entsprechen Fakt 0023 (nach Gustave Eiffel benannt, 312 Meter, höchstes Bauwerk bis zum Chrysler Building 1930 in New York) ohne zusätzliche Angaben. Der Redebeitrag enthält keine unbelegten Behauptungen und keine Fragen."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 62,
@@ -1973,9 +1975,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
-      "note": null,
-      "comment_id": null
+      "label": "supported",
+      "note": "Text korrekt, Audio fehlerhaft, siehe #37",
+      "comment_id": 7167936810
     },
     {
       "turn_index": 63,
@@ -2013,9 +2015,9 @@
         "jev_error": null,
         "reason": "Felix' Redebeitrag ist eine reine Nachfrage („Wie groß ist diese Glocke?“) und bezieht sich eindeutig auf die Petersglocke aus dem vorherigen Beitrag. Er enthält keine Behauptung und keine Prämisse, die erst die Antwort liefern würde. Eine Nachfrage ist belegfrei, daher ist der Beitrag zulässig."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 64,
@@ -2062,9 +2064,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 66,
@@ -2100,9 +2102,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 67,
@@ -2138,9 +2140,9 @@
         "jev_error": null,
         "reason": "Felix stellt nur eine Nachfrage nach den Folgen der Bombentreffer für das Mauerwerk. Das ist eine belegfreie Reaktion. Die Frage nimmt keine bestimmte Einzelheit oder Wertung vorweg, sondern setzt lediglich voraus, dass es dazu etwas zu erzählen gibt. Dass der Dom schwer beschädigt wurde, hat Lena gesagt und der Fakt-Satz stützt es."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 68,
@@ -2176,9 +2178,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 69,
@@ -2214,9 +2216,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 70,
@@ -2254,9 +2256,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 72,
@@ -2294,9 +2296,9 @@
         "jev_error": null,
         "reason": "Beide Aussagen folgen aus dem Fakt-Satz: Um 1750 wurde die Uhr abgebrochen und der Legende nach im Rhein versenkt. \"Diese Uhr\" ist durch den Kontext eindeutig die große astronomische Kunstuhr des Kölner Doms, und der Redebeitrag nennt sie beim Namen, was als Auflösung des Bezugs erlaubt ist. Das Thema des Artikels ist der Dom, und die Antwort passt zur Frage nach Verlorenem. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämissen."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 74,
@@ -2334,9 +2336,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 76,
@@ -2375,9 +2377,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 77,
@@ -2416,9 +2418,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 78,
@@ -2463,9 +2465,9 @@
         "jev_error": null,
         "reason": null
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     },
     {
       "turn_index": 80,
@@ -2581,10 +2583,20 @@
         "jev_error": null,
         "reason": "Alle Aussagen folgen aus den zitierten Fakt-Sätzen: Kathedrale des Erzbistums Köln, Öffnung der nördlichen Seitenschiffe Mitte der 1960er-Jahre für islamische Gottesdienste, Bienenvolk im Sommer 2014, fast 300 Jahre Bauruhe, symbolischer Euro in der Bilanz und bekannte Personen an der Fassade. „Sie“ im letzten Fakt meint laut Kontext die Domsteinmetze, der Redebeitrag löst den Bezug also korrekt auf. „Gern.“ ist eine belegfreie Reaktion, und der Redebeitrag enthält keine Frage mit Prämisse."
       },
-      "label": null,
+      "label": "supported",
       "note": null,
-      "comment_id": null
+      "comment_id": 7167936810
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "comment_id": 7167936810,
+      "url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/27#issuecomment-7167936810",
+      "created_at": "2026-11-25T16:24:39Z",
+      "updated_at": "2026-11-25T16:24:39Z",
+      "review_lines": 54,
+      "applied": true,
+      "errors": []
+    }
+  ]
 }
