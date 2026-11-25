@@ -82,7 +82,8 @@ from gut_zu_wissen.usage import (
 )
 
 Outcome = Literal["completed", "failed", "incomplete"]
-COMPLETED_STATUSES = ("completed", "published")  # episode.json status of a run that finished
+# episode.json status of a run that finished
+COMPLETED_STATUSES = ("completed", "published", "withdrawn")
 
 SECONDS_PER_MINUTE = 60
 

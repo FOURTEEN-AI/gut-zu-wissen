@@ -31,8 +31,9 @@ STATE_DIR = "state"
 REVIEW_STATE_FILE = "review.json"  # sampling rate r (design: archive/state/review.json)
 
 # running: the run has not ended; completed: every pipeline step done (phase 2 moves it on to
-# published); failed: gate failure or crash.
-EpisodeStatus = Literal["running", "completed", "published", "failed"]
+# published); failed: gate failure or crash; withdrawn: a published episode the owner took back
+# (feed and site skip it; the folder stays).
+EpisodeStatus = Literal["running", "completed", "published", "failed", "withdrawn"]
 
 # Pipeline steps as recorded in `failed_step`, in run order.
 STEP_GATES = "gates"
