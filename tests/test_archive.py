@@ -94,6 +94,11 @@ def test_last_published_ignores_failed_running_completed_and_other_titles(tmp_pa
     assert last_published(tmp_path, "Rotfuchs") is None
 
 
+def test_last_published_ignores_withdrawn(tmp_path):
+    _episode(tmp_path, "Rotfuchs", 1, "withdrawn", "2026-01-01T12:00:00Z")
+    assert last_published(tmp_path, "Rotfuchs") is None
+
+
 def test_last_published_takes_latest(tmp_path):
     _episode(tmp_path, "Rotfuchs", 1, "published", "2026-01-01T12:00:00Z")
     _episode(tmp_path, "Rotfuchs", 9, "published", "2026-01-09T12:00:00Z")
