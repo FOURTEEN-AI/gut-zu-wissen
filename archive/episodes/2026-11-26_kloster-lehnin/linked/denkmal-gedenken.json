@@ -1,0 +1,66 @@
+{
+  "title": "Denkmal (Gedenken)",
+  "revid": 258735256,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-08-10T06:48:43Z",
+  "fetched_at": "2026-11-26T12:39:10Z",
+  "categories": [
+    "Kategorie:Denkmal",
+    "Kategorie:Geschichtsdidaktik"
+  ],
+  "intro_wikitext": "{{Weiterleitungshinweis|Monument|Zu weiteren Bedeutungen siehe [[Monument (Begriffsklärung)]].}}\n[[Datei:Goethedenkmal Leipzig.jpg|mini|Personendenkmal: [[Goethedenkmal (Leipzig)|Goethedenkmal in Leipzig]]]]\n[[Datei:Battle Of The Nations-Monument.jpg|mini|Ereignisdenkmal: [[Völkerschlachtdenkmal]]]]\n[[Datei:Portland.stone.cenotaph.london.arp.jpg|mini|hochkant|[[Kenotaph]] in [[Whitehall]]]]\n[[Datei:Mahnmal gegen Krieg und Faschismus 2.jpg|mini|hochkant|[[Mahnmal gegen Krieg und Faschismus]], Wien]]\n\nEin '''Denkmal''' als Werk des gezielten [[Gedenken]]s ist laut [[Duden]] eine „zum Gedächtnis an eine Person oder ein Ereignis errichtete, größere [[Plastik (Kunst)|plastische]] Darstellung“.<ref>[https://www.duden.de/rechtschreibung/Denkmal ''Denkmal''] bei duden.de, siehe Bedeutung 1.</ref> Ein '''Monument''' ist laut Duden ein großes Denkmal, [[Kriegerdenkmal|Ehrenmal]] oder [[Mahnmal]].<ref>[https://www.duden.de/rechtschreibung/Monument ''Monument''] bei duden.de, siehe Bedeutung 1.</ref> Denkmale sind zumeist künstlerisch gestaltete Objekte der [[Bildhauerei]] oder der [[Architektur|Baukunst]] und stehen wegen der gewollten Hervorhebung oft auf einem [[Sockel (Architektur)#Denkmalsockel|Sockel]] oder [[Postament]].",
+  "segments": [
+    {
+      "id": "258735256-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein '''Denkmal''' als Werk des gezielten [[Gedenken]]s ist laut [[Duden]] eine „zum Gedächtnis an eine Person oder ein Ereignis errichtete, größere [[Plastik (Kunst)|plastische]] Darstellung“.<ref>[https://www.duden.de/rechtschreibung/Denkmal ''Denkmal''] bei duden.de, siehe Bedeutung 1.</ref>",
+      "plain": null
+    },
+    {
+      "id": "258735256-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein '''Monument''' ist laut Duden ein großes Denkmal, [[Kriegerdenkmal|Ehrenmal]] oder [[Mahnmal]].<ref>[https://www.duden.de/rechtschreibung/Monument ''Monument''] bei duden.de, siehe Bedeutung 1.</ref>",
+      "plain": null
+    },
+    {
+      "id": "258735256-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Denkmale sind zumeist künstlerisch gestaltete Objekte der [[Bildhauerei]] oder der [[Architektur|Baukunst]] und stehen wegen der gewollten Hervorhebung oft auf einem [[Sockel (Architektur)#Denkmalsockel|Sockel]] oder [[Postament]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 258735256,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "258735256-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Ein Denkmal als Werk des gezielten Gedenkens ist laut Duden eine „zum Gedächtnis an eine Person oder ein Ereignis errichtete, größere plastische Darstellung“.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "258735256-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Ein Monument ist laut Duden ein großes Denkmal, Ehrenmal oder Mahnmal.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "258735256-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Denkmale sind zumeist künstlerisch gestaltete Objekte der Bildhauerei oder der Baukunst und stehen wegen der gewollten Hervorhebung oft auf einem Sockel oder Postament.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

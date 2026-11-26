@@ -1,0 +1,44 @@
+{
+  "title": "Otto IV. (Brandenburg)",
+  "revid": 268763513,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-13T18:11:47Z",
+  "fetched_at": "2026-11-26T12:39:10Z",
+  "categories": [
+    "Kategorie:Autor",
+    "Kategorie:Familienmitglied der Askanier (brandenburgische Linie)",
+    "Kategorie:Geboren im 13. Jahrhundert",
+    "Kategorie:Gestorben im 14. Jahrhundert",
+    "Kategorie:Literatur (13. Jahrhundert)",
+    "Kategorie:Literatur (Mittelhochdeutsch)",
+    "Kategorie:Literatur des Mittelalters",
+    "Kategorie:Mann",
+    "Kategorie:Markgraf (Brandenburg)",
+    "Kategorie:Minnesang"
+  ],
+  "intro_wikitext": "[[Datei:Otto mit dem Pfeil-Wappen.png|mini|hochkant|Wappen von Otto IV. mit dem Pfeil]]\n'''Otto IV.''' bzw. '''Otto mit dem Pfeil(e)''' (* um 1238; † [[27. November]] [[1308]] oder [[1309]]) aus dem Haus der [[Askanier]] war Markgraf von [[Brandenburg]] von 1267 bis 1308/09.",
+  "segments": [
+    {
+      "id": "268763513-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Otto IV.''' bzw. '''Otto mit dem Pfeil(e)''' (* um 1238; † [[27. November]] [[1308]] oder [[1309]]) aus dem Haus der [[Askanier]] war Markgraf von [[Brandenburg]] von 1267 bis 1308/09.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268763513,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268763513-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Otto IV. bzw. Otto mit dem Pfeil(e) (* um 1238; † 27. November 1308 oder 1309) aus dem Haus der Askanier war Markgraf von Brandenburg von 1267 bis 1308/09.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

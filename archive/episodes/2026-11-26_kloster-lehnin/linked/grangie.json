@@ -1,0 +1,71 @@
+{
+  "title": "Grangie",
+  "revid": 256031684,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-05-15T16:57:13Z",
+  "fetched_at": "2026-11-26T12:39:10Z",
+  "categories": [
+    "Kategorie:Bauform (Speichergebäude)",
+    "Kategorie:Feudalismus",
+    "Kategorie:Zisterzienserorden"
+  ],
+  "intro_wikitext": "[[Datei:Ouveillan, Grange cistercienne de Fontcalvy 2.jpg|mini|Die Ruinen der Grangie von Fontcalvy bei [[Ouveillan]], [[Département Aude]], gehörten zur ehemaligen [[Zisterzienser]]-[[Abtei Sainte-Marie de Fontfroide]].]]\nDer Begriff '''Grangie''' ({{laS|granum}} „Korn“, davon abgeleitet ''granicum'' bzw. ''grangium'' „Getreidespeicher“, „Vorratshaus“; {{itS|grangia}}; {{frS|grange}}; {{esS|granja}}) bezeichnete ursprünglich einen Getreidespeicher, dann einen umfriedeten Hofbezirk und später einen landwirtschaftlichen Gutskomplex einer weltlichen oder geistlichen Herrschaft.\n\nDer Begriff gilt vor allem für die Wirtschaftshöfe der [[Zisterzienser]], ferner bei [[Prämonstratenser]]n und [[Kartäuser]]n. In der [[Karolingerzeit]] war ''curia'' gebräuchlich, bei den [[Benediktiner]]n ''decanatus''.<ref>{{LThK|[[Karl Suso Frank]]|Grangie|3|4|981}}</ref>",
+  "segments": [
+    {
+      "id": "256031684-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Begriff '''Grangie''' ({{laS|granum}} „Korn“, davon abgeleitet ''granicum'' bzw. ''grangium'' „Getreidespeicher“, „Vorratshaus“; {{itS|grangia}}; {{frS|grange}}; {{esS|granja}}) bezeichnete ursprünglich einen Getreidespeicher, dann einen umfriedeten Hofbezirk und später einen landwirtschaftlichen Gutskomplex einer weltlichen oder geistlichen Herrschaft.",
+      "plain": null
+    },
+    {
+      "id": "256031684-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Begriff gilt vor allem für die Wirtschaftshöfe der [[Zisterzienser]], ferner bei [[Prämonstratenser]]n und [[Kartäuser]]n.",
+      "plain": null
+    },
+    {
+      "id": "256031684-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "In der [[Karolingerzeit]] war ''curia'' gebräuchlich, bei den [[Benediktiner]]n ''decanatus''.<ref>{{LThK|[[Karl Suso Frank]]|Grangie|3|4|981}}</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 256031684,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "256031684-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Begriff Grangie (lateinisch granum „Korn“, davon abgeleitet granicum bzw. grangium „Getreidespeicher“, „Vorratshaus“; italienisch grangia; französisch grange; spanisch granja) bezeichnete ursprünglich einen Getreidespeicher, dann einen umfriedeten Hofbezirk und später einen landwirtschaftlichen Gutskomplex einer weltlichen oder geistlichen Herrschaft.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "256031684-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "256031684-0000"
+        ],
+        "plain": "Der Begriff gilt vor allem für die Wirtschaftshöfe der Zisterzienser, ferner bei Prämonstratensern und Kartäusern.",
+        "context_plain": [
+          "Der Begriff Grangie (lateinisch granum „Korn“, davon abgeleitet granicum bzw. grangium „Getreidespeicher“, „Vorratshaus“; italienisch grangia; französisch grange; spanisch granja) bezeichnete ursprünglich einen Getreidespeicher, dann einen umfriedeten Hofbezirk und später einen landwirtschaftlichen Gutskomplex einer weltlichen oder geistlichen Herrschaft."
+        ]
+      },
+      {
+        "segment_id": "256031684-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "In der Karolingerzeit war curia gebräuchlich, bei den Benediktinern decanatus.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

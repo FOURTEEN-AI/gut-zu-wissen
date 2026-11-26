@@ -1,0 +1,1506 @@
+{
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "Felix",
+      "text": "Lena, heute geht es um das Kloster Lehnin. Worum handelt es sich da?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 1,
+      "speaker": "Lena",
+      "text": "Das Kloster Lehnin ist eine ehemalige Zisterzienserabtei im Ort Lehnin. Der lateinische Name lautet Leninum. Die Gemeinde Kloster Lehnin liegt südwestlich von Potsdam und ist nach dem Kloster benannt.",
+      "fact_ids": [
+        "271620466-0008",
+        "271620466-0009"
+      ],
+      "statements": [
+        {
+          "text": "Das Kloster Lehnin, lateinisch Leninum, ist eine ehemalige Zisterzienserabtei im Ort Lehnin.",
+          "fact_ids": [
+            "271620466-0008"
+          ]
+        },
+        {
+          "text": "Die Gemeinde Kloster Lehnin südwestlich von Potsdam ist nach dem Kloster benannt.",
+          "fact_ids": [
+            "271620466-0009"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "speaker": "Felix",
+      "text": "Wie kam es denn zu diesem Kloster?",
+      "fact_ids": [
+        "271620466-0008"
+      ],
+      "statements": [
+        {
+          "text": "Das Kloster Lehnin ist eine ehemalige Zisterzienserabtei.",
+          "fact_ids": [
+            "271620466-0008"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "speaker": "Lena",
+      "text": "Gegründet wurde es vom zweiten brandenburgischen Markgrafen, Otto dem Ersten. Er lebte von elfhundertfünfundzwanzig bis elfhundertvierundachtzig. Die Gründung im Jahr elfhundertachtzig erfolgte aus wirtschaftlichen, machtpolitischen und religiösen Erwägungen. Dreiundzwanzig Jahre zuvor, im Jahr elfhundertsiebenundfünfzig, hatte der erste Markgraf Albrecht der Bär den Slawenfürsten Jaxa von Köpenick entscheidend besiegt. Er hat damit die Mark aus der Taufe gehoben.",
+      "fact_ids": [
+        "271620466-0016",
+        "271620466-0017"
+      ],
+      "statements": [
+        {
+          "text": "Otto I. (1125 bis 1184), der zweite brandenburgische Markgraf, gründete das Kloster Lehnin im Jahr 1180 aus wirtschaftlichen, machtpolitischen und religiösen Erwägungen.",
+          "fact_ids": [
+            "271620466-0016"
+          ]
+        },
+        {
+          "text": "23 Jahre zuvor, 1157, besiegte der erste Markgraf Albrecht der Bär den Slawenfürsten Jaxa von Köpenick entscheidend und hob die Mark aus der Taufe.",
+          "fact_ids": [
+            "271620466-0017"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "speaker": "Felix",
+      "text": "Was war eigentlich mit den Slawen in der Gegend?",
+      "fact_ids": [
+        "271620466-0017"
+      ],
+      "statements": [
+        {
+          "text": "Albrecht der Bär besiegte den Slawenfürsten Jaxa von Köpenick entscheidend.",
+          "fact_ids": [
+            "271620466-0017"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "speaker": "Lena",
+      "text": "Die Deutschen hatten die im Teltow, im Havelland und in der Zauche ansässigen Slawenstämme in den Jahrhunderten zuvor schon mehrfach geschlagen. Sie konnten die Gebiete jedoch nie halten. Immer wieder ließen sie sich zurückdrängen.",
+      "fact_ids": [
+        "271620466-0018"
+      ],
+      "statements": [
+        {
+          "text": "Die Deutschen hatten die Slawenstämme im Teltow, im Havelland und in der Zauche in den Jahrhunderten zuvor mehrfach geschlagen, konnten die Gebiete aber nie halten und ließen sich immer wieder zurückdrängen.",
+          "fact_ids": [
+            "271620466-0018"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "speaker": "Felix",
+      "text": "Und wie ging es dann weiter?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 7,
+      "speaker": "Lena",
+      "text": "Im Konventgarten wurde ein Kiefernstammsegment gefunden. Sein Fälldatum liegt im Jahr elfhunderteinundachtzig. Es zeigt, dass zunächst gerodet wurde, um Baumaterial zu gewinnen. Solche Befunde belegen die Urbarmachung und die Kolonisationstätigkeit des Zisterzienserordens, die die Klostergründung begleiteten.",
+      "fact_ids": [
+        "271620466-0064"
+      ],
+      "statements": [
+        {
+          "text": "Im Konventgarten wurde ein Kiefernstammsegment mit einem dendrochronologischen Fälldatum aus dem Jahr 1181 gefunden; es zeigt, dass zunächst gerodet wurde, um Baumaterial zu gewinnen.",
+          "fact_ids": [
+            "271620466-0064"
+          ]
+        },
+        {
+          "text": "Solche Befunde sind ein Beleg für die Urbarmachung und Kolonisationstätigkeiten des Zisterzienserordens, die die Klostergründung begleiteten.",
+          "fact_ids": [
+            "271620466-0064"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "speaker": "Felix",
+      "text": "Gibt es noch andere Spuren aus dieser Anfangszeit?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 9,
+      "speaker": "Lena",
+      "text": "Ja. Gerötete Bereiche im Feinsand weisen auf hohe thermische Einwirkungen hin. Solche Spuren entstehen typischerweise durch Brandrodung der Kraut- und Strauchschicht.",
+      "fact_ids": [
+        "271620466-0065"
+      ],
+      "statements": [
+        {
+          "text": "Gerötete Bereiche im Feinsand weisen auf hohe thermische Einwirkungen hin, wie sie typischerweise durch Brandrodung der Kraut- und Strauchschicht entstehen.",
+          "fact_ids": [
+            "271620466-0065"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "speaker": "Felix",
+      "text": "Gibt es auch Geschichten über den Gründer, Otto den Ersten?",
+      "fact_ids": [
+        "271620466-0016"
+      ],
+      "statements": [
+        {
+          "text": "Otto I. gründete das Kloster Lehnin.",
+          "fact_ids": [
+            "271620466-0016"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "speaker": "Lena",
+      "text": "Im Traum erschien Otto dem Ersten immer wieder eine weiße Hirschkuh. Sie drohte, ihn mit ihrem Geweih aufzuspießen. Er konnte sie mit seinem Jagdspieß nicht abwehren.",
+      "fact_ids": [
+        "271620466-0040"
+      ],
+      "statements": [
+        {
+          "text": "Otto I. erschien im Traum immer wieder eine weiße Hirschkuh, die ihn mit ihrem Geweih aufzuspießen drohte und die er mit seinem Jagdspieß nicht abwehren konnte.",
+          "fact_ids": [
+            "271620466-0040"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "speaker": "Felix",
+      "text": "Spannend. Woher kommt eigentlich der Name Lehnin?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 13,
+      "speaker": "Lena",
+      "text": "Nach Přibík Pulkava soll Otto der Erste den Namen Lehnin gewählt haben. Pulkava war der Historiograf Kaiser Karls des Vierten, dem auch Theodor Fontane in seinen Ausführungen folgt. Der Grund: Lanye bedeutet im Slawischen Hirschkuh.",
+      "fact_ids": [
+        "271620466-0053"
+      ],
+      "statements": [
+        {
+          "text": "Nach Pulkava, dem Historiografen Kaiser Karls IV., dem auch Fontane folgt, soll Otto I. den Namen Lehnin gewählt haben, weil Lanye im Slawischen Hirschkuh bedeutet.",
+          "fact_ids": [
+            "271620466-0053"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "speaker": "Felix",
+      "text": "Gibt es im Kloster ein Stück, das besonders ins Auge fällt?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 15,
+      "speaker": "Lena",
+      "text": "In den Altarstufen der Klosterkirche ist ein Stammsegment einer verkieselten Eiche eingelassen. Der historischen Überlieferung nach wird es als die Eiche Ottos der Gründungslegende zugeschrieben.",
+      "fact_ids": [
+        "271620466-0049"
+      ],
+      "statements": [
+        {
+          "text": "In den Altarstufen der Klosterkirche ist ein Stammsegment einer verkieselten Eiche eingelassen, das der Überlieferung nach als Eiche Ottos der Gründungslegende zugeschrieben wird.",
+          "fact_ids": [
+            "271620466-0049"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "speaker": "Felix",
+      "text": "Gibt es zu diesem Stammsegment auch andere Deutungen?",
+      "fact_ids": [
+        "271620466-0049"
+      ],
+      "statements": [
+        {
+          "text": "In den Altarstufen der Klosterkirche ist ein Stammsegment einer verkieselten Eiche eingelassen.",
+          "fact_ids": [
+            "271620466-0049"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "speaker": "Lena",
+      "text": "In der Forschung wurde gemutmaßt, das Stammsegment sei der Überrest eines slawischen Naturheiligtums. Christliche Missionare hätten es gefällt und baulich in die Klosterkirche integriert, ähnlich wie die Donareiche von Bonifatius.",
+      "fact_ids": [
+        "271620466-0050"
+      ],
+      "statements": [
+        {
+          "text": "In der Forschung wurde gemutmaßt, das Stammsegment sei der Überrest eines slawischen Naturheiligtums, das ähnlich wie die Donareiche von Bonifatius von christlichen Missionaren gefällt und in die Klosterkirche integriert worden sei.",
+          "fact_ids": [
+            "271620466-0050"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "speaker": "Felix",
+      "text": "Und was weiß man über das Stück selbst?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 19,
+      "speaker": "Lena",
+      "text": "Das Stammsegment ist tatsächlich eine fossile Versteinerung. Ihr hohes Alter von über hundert Millionen Jahren lässt keine Verbindung mit einem vorchristlichen Kultort zu.",
+      "fact_ids": [
+        "271620466-0051"
+      ],
+      "statements": [
+        {
+          "text": "Das Stammsegment ist eine fossile Versteinerung, deren hohes Alter von über 100 Millionen Jahren keine Verbindung mit einem vorchristlichen Kultort zulässt.",
+          "fact_ids": [
+            "271620466-0051"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "speaker": "Felix",
+      "text": "Wahnsinn! Zurück zu den Mönchen. Wie lebten sie dort?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 21,
+      "speaker": "Lena",
+      "text": "Die Mönche bauten das Kloster in ein eher unwirtliches Gelände. Der Grund lag in der strengen, asketischen Lebensweise der Zisterzienser. Sie hatten sich tausendachtundneunzig vom Benediktinerorden getrennt. Mit ihrer Carta Caritatis wollten sie dessen ursprüngliche Strenge und die Regel ora et labora wiederherstellen.",
+      "fact_ids": [
+        "271620466-0068"
+      ],
+      "statements": [
+        {
+          "text": "Die Mönche bauten das Kloster in eher unwirtliches Gelände, weil die Zisterzienser streng und asketisch lebten und mit ihrer Carta Caritatis die ursprüngliche Strenge und die Regel ora et labora des Benediktinerordens wiederherstellen wollten, von dem sie sich 1098 getrennt hatten.",
+          "fact_ids": [
+            "271620466-0068"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "speaker": "Felix",
+      "text": "Wie sah das im Alltag aus?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 23,
+      "speaker": "Lena",
+      "text": "Vorgesehen war einfache Kleidung. Dazu kam eine bescheidene Ernährung mit Gemüse ohne jedes Fleisch. Die Betten waren mit Stroh gedeckt und hatten keine Polster. All das sollte die Lebensweise der Zisterzienser prägen.",
+      "fact_ids": [
+        "271620466-0073"
+      ],
+      "statements": [
+        {
+          "text": "Einfache Kleidung, bescheidene Ernährung mit Gemüse ohne jedes Fleisch und strohgedeckte Betten ohne Polster sollten die Lebensweise der Zisterzienser prägen.",
+          "fact_ids": [
+            "271620466-0073"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "speaker": "Felix",
+      "text": "Wer legte solche Regeln eigentlich fest?",
+      "fact_ids": [
+        "271620466-0073"
+      ],
+      "statements": [
+        {
+          "text": "Einfache Kleidung, bescheidene Ernährung und Betten ohne Polster sollten die Lebensweise der Zisterzienser prägen.",
+          "fact_ids": [
+            "271620466-0073"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "speaker": "Lena",
+      "text": "Im Jahr zwölfhundertachtzehn verbot das Generalkapitel sogar bunte Kirchenfußböden. Das Generalkapitel war die oberste Instanz in der straffen, zentralistischen Führungsstruktur des Ordens.",
+      "fact_ids": [
+        "271620466-0204"
+      ],
+      "statements": [
+        {
+          "text": "1218 verbot das Generalkapitel, die oberste Instanz in der straffen zentralistischen Führungsstruktur des Ordens, sogar bunte Kirchenfußböden.",
+          "fact_ids": [
+            "271620466-0204"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "speaker": "Felix",
+      "text": "Gab es noch mehr Vorschriften dieser Art?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 27,
+      "speaker": "Lena",
+      "text": "Auch für die Fenster gab das zentrale Generalkapitel den Klöstern klare Regeln vor. Die Fenster sollten weiß sein, ohne Kreuze und ohne die üblichen farbigen Abbildungen biblischer Figuren.",
+      "fact_ids": [
+        "271620466-0221"
+      ],
+      "statements": [
+        {
+          "text": "Das zentrale Generalkapitel gab den Klöstern klare Regeln für die Fenster vor: weiß, ohne Kreuze und ohne die üblichen farbigen Abbildungen biblischer Figuren.",
+          "fact_ids": [
+            "271620466-0221"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "speaker": "Felix",
+      "text": "Und für die Kirche selbst?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 29,
+      "speaker": "Lena",
+      "text": "Das Statut des zisterziensischen Generalkapitels von elfhundertsiebenundfünfzig lautete: Steinerne Türme für Glocken sollen nicht sein. Um dem Genüge zu tun, erhielt die Klosterkirche einen kupfergedeckten Dachreiter statt eines Glockenturms.",
+      "fact_ids": [
+        "271620466-0253"
+      ],
+      "statements": [
+        {
+          "text": "Um dem Statut des Generalkapitels von 1157, nach dem steinerne Türme für Glocken nicht sein sollen, zu genügen, erhielt die Kirche einen kupfergedeckten Dachreiter statt eines Glockenturms.",
+          "fact_ids": [
+            "271620466-0253"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "speaker": "Felix",
+      "text": "Hatte das Kloster auch eine Bibliothek?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 31,
+      "speaker": "Lena",
+      "text": "Im Kreuzgang sind zwei Buchnischen der verschollenen Bibliothek zu sehen. Die Bibliothek verfügte mit rund fünfhundertsechzig Bänden und knapp tausend Titeln bereits um vierzehnhundertfünfzig über einen für die damalige Zeit außerordentlichen Bestand.",
+      "fact_ids": [
+        "271620466-0294"
+      ],
+      "statements": [
+        {
+          "text": "Im Kreuzgang sind zwei Buchnischen der verschollenen Bibliothek zu sehen, die mit rund 560 Bänden und knapp 1000 Titeln um 1450 über einen für die damalige Zeit außerordentlichen Bestand verfügte.",
+          "fact_ids": [
+            "271620466-0294"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "speaker": "Felix",
+      "text": "Was stand denn in diesen Büchern?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 33,
+      "speaker": "Lena",
+      "text": "Die Bibliothek besaß die revelationes caelestes der heiligen Birgitta von Schweden. Außerdem besaß sie Schriften der heiligen Hildegard von Bingen. Hildegard hatte einen regen Briefwechsel mit ihrem Förderer Bernhard von Clairvaux geführt. Der ebenfalls heiliggesprochene Bernhard war einer der Gründer des Zisterzienserordens.",
+      "fact_ids": [
+        "271620466-0297"
+      ],
+      "statements": [
+        {
+          "text": "Die Bibliothek besaß die revelationes caelestes der heiligen Birgitta von Schweden und Schriften der heiligen Hildegard von Bingen, die einen regen Briefwechsel mit ihrem Förderer Bernhard von Clairvaux geführt hatte, der ebenfalls heiliggesprochen und einer der Gründer des Zisterzienserordens war.",
+          "fact_ids": [
+            "271620466-0297"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "speaker": "Felix",
+      "text": "Wer lebte denn alles in dem Kloster?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 35,
+      "speaker": "Lena",
+      "text": "Der Mönch Dietrich von Portitz, genannt Dietrich Kagelwit, war Kanzler bei Kaiser Karl dem Vierten. Danach wurde er Bischof von Minden und später Erzbischof von Magdeburg.",
+      "fact_ids": [
+        "271620466-0125"
+      ],
+      "statements": [
+        {
+          "text": "Der Mönch Dietrich von Portitz, genannt Dietrich Kagelwit, war Kanzler bei Kaiser Karl IV., dann Bischof von Minden und danach Erzbischof von Magdeburg.",
+          "fact_ids": [
+            "271620466-0125"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "speaker": "Felix",
+      "text": "Aus welchen Kreisen kamen die Mönche eigentlich?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 37,
+      "speaker": "Lena",
+      "text": "Bis zur Mitte des vierzehnten Jahrhunderts stammten die Mönche ausschließlich aus dem Adel. Danach traten auch zunehmend Bürgerliche in das Kloster ein.",
+      "fact_ids": [
+        "271620466-0122"
+      ],
+      "statements": [
+        {
+          "text": "Bis zur Mitte des 14. Jahrhunderts stammten die Mönche ausschließlich aus dem Adel, danach traten zunehmend Bürgerliche ein.",
+          "fact_ids": [
+            "271620466-0122"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "speaker": "Felix",
+      "text": "Gibt es über Dietrich Kagelwit auch eine Anekdote?",
+      "fact_ids": [
+        "271620466-0125"
+      ],
+      "statements": [
+        {
+          "text": "Dietrich Kagelwit war Mönch und später Bischof von Minden und Erzbischof von Magdeburg.",
+          "fact_ids": [
+            "271620466-0125"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "speaker": "Lena",
+      "text": "Der Legende nach hatte Dietrich Kagelwit kein Fleisch. Die für den Winter in Reserve gehaltenen Schweine durfte er auf Anweisung des Abtes nicht schlachten. Aus dieser Not heraus schnitt er den Schweinen die Ohren ab. Er würzte damit die Suppe, und nach dem Befund des Kaisers schmeckte sie vorzüglich.",
+      "fact_ids": [
+        "271620466-0128"
+      ],
+      "statements": [
+        {
+          "text": "Der Legende nach schnitt der spätere Bischof aus der Not heraus, kein Fleisch zu haben und die Winterreserve-Schweine auf Anweisung des Abtes nicht schlachten zu dürfen, den Schweinen die Ohren ab und würzte damit die Suppe nach des Kaisers Befund auf das Vorzüglichste.",
+          "fact_ids": [
+            "271620466-0128"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "speaker": "Felix",
+      "text": "Das muss man sich erst mal vorstellen. Gab es im Kloster auch Konflikte?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 41,
+      "speaker": "Lena",
+      "text": "Der Konvent von Lehnin galt zeitweise als verderbte Räuberbande. Einige Mönche standen unter Waffen.",
+      "fact_ids": [
+        "271620466-0132"
+      ],
+      "statements": [
+        {
+          "text": "Der Konvent galt zeitweise als verderbte Räuberbande, einige Mönche standen unter Waffen.",
+          "fact_ids": [
+            "271620466-0132"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "speaker": "Felix",
+      "text": "Und mit den Menschen in der Umgebung?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 43,
+      "speaker": "Lena",
+      "text": "Die archäologische Forschung konnte mehrere slawische Dörfer in der unmittelbaren Umgebung Lehnins nachweisen. Deren Bevölkerung leistete vor allem in den ersten Jahren nach der Klostergründung bis etwa elfhundertfünfundachtzig oder neunzig den Mönchen erheblichen Widerstand bei ihrer Missionierung. Sie lehnte sich gegen die Zerstörung ihrer Kultstätten auf.",
+      "fact_ids": [
+        "271620466-0106"
+      ],
+      "statements": [
+        {
+          "text": "Die archäologische Forschung wies mehrere slawische Dörfer in der Umgebung Lehnins nach, deren Bevölkerung vor allem in den ersten Jahren nach der Klostergründung bis etwa 1185/1190 den Mönchen erheblichen Widerstand bei der Missionierung leistete und sich gegen die Zerstörung ihrer Kultstätten auflehnte.",
+          "fact_ids": [
+            "271620466-0106"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "speaker": "Felix",
+      "text": "Wer war eigentlich der erste Abt von Lehnin?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 45,
+      "speaker": "Lena",
+      "text": "Der erste Abt hieß Sibold. In der ehemaligen Berliner Siegesallee stand an der Seite des Denkmals für Otto den Ersten eine Büste von Sibold. Die Siegesallee war ein Prachtboulevard und wurde von der Bevölkerung spöttisch Puppenallee genannt.",
+      "fact_ids": [
+        "271620466-0120"
+      ],
+      "statements": [
+        {
+          "text": "In der Siegesallee, dem ehemaligen Berliner Prachtboulevard, den die Bevölkerung spöttisch Puppenallee nannte, stand eine Büste des ersten Lehniner Abtes Sibold an der Seite des Denkmals für Otto I.",
+          "fact_ids": [
+            "271620466-0120"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "speaker": "Felix",
+      "text": "Was ist über Sibold sonst überliefert?",
+      "fact_ids": [
+        "271620466-0120"
+      ],
+      "statements": [
+        {
+          "text": "Sibold war der erste Lehniner Abt.",
+          "fact_ids": [
+            "271620466-0120"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "speaker": "Lena",
+      "text": "Theodor Fontane erzählt Sibolds Geschichte ausführlich. Demnach trat Sibold im benachbarten Dorf Nahmitz zur Rast in eine Hütte ein. Dabei erschreckte er unfreiwillig die Bewohner. Es kam zu einem anzüglichen Missverständnis um die Frau des Fischers. Nach der Flucht auf einen Baum im Wald wurde Sibold erschlagen.",
+      "fact_ids": [
+        "271620466-0113"
+      ],
+      "statements": [
+        {
+          "text": "Nach Fontane trat Sibold im benachbarten Dorf Nahmitz zur Rast in eine Hütte, erschreckte unfreiwillig die Bewohner und wurde nach einem anzüglichen Missverständnis um die Frau des Fischers nach der Flucht auf einen Baum im Wald erschlagen.",
+          "fact_ids": [
+            "271620466-0113"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "speaker": "Felix",
+      "text": "Was sagt die Forschung dazu?",
+      "fact_ids": [
+        "271620466-0113"
+      ],
+      "statements": [
+        {
+          "text": "Fontane erzählt ausführlich, wie Sibold in Nahmitz erschlagen wurde.",
+          "fact_ids": [
+            "271620466-0113"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "speaker": "Lena",
+      "text": "Stephan Warnatsch setzt die mögliche Ermordung des Abtes Sibold eher um elfhundertfünfundachtzig an. Als realen Hintergrund hält er einen Streit der Mönche mit den Nahmitzer Slawen um Fischerei- und Mühlenrechte für wahrscheinlich.",
+      "fact_ids": [
+        "271620466-0117"
+      ],
+      "statements": [
+        {
+          "text": "Stephan Warnatsch datiert die mögliche Ermordung des Abtes eher um 1185 und hält einen Streit der Mönche mit den Nahmitzer Slawen um Fischerei- und Mühlenrechte als realen Hintergrund für wahrscheinlich.",
+          "fact_ids": [
+            "271620466-0117"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "speaker": "Felix",
+      "text": "Wie entwickelte sich das Kloster wirtschaftlich?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 51,
+      "speaker": "Lena",
+      "text": "Im Jahr dreizehnhundertsiebzehn kauften die Lehniner Mönche für zweihundertvierundvierzig Mark brandenburgischen Silbers die heutige Blütenstadt Werder an der Havel.",
+      "fact_ids": [
+        "271620466-0086"
+      ],
+      "statements": [
+        {
+          "text": "1317 kauften die Mönche für 244 Mark brandenburgischen Silbers die heutige Blütenstadt Werder (Havel).",
+          "fact_ids": [
+            "271620466-0086"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "speaker": "Felix",
+      "text": "Und was wurde aus Werder?",
+      "fact_ids": [
+        "271620466-0086"
+      ],
+      "statements": [
+        {
+          "text": "Die Mönche kauften 1317 Werder.",
+          "fact_ids": [
+            "271620466-0086"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "speaker": "Lena",
+      "text": "Der bekannte Obstanbau in Werder geht auf die Arbeit des Klosters Lehnin zurück. G. Sello nannte es die Pflanzstätte aller Kultur in der Mittelmark. Jährlich im Frühjahr wird der Obstanbau mit dem Baumblütenfest gefeiert. Es ist inzwischen eines der größten deutschen Volksfeste.",
+      "fact_ids": [
+        "271620466-0087"
+      ],
+      "statements": [
+        {
+          "text": "Der bekannte Obstanbau in Werder, der jährlich im Frühjahr mit dem Baumblütenfest, einem der inzwischen größten deutschen Volksfeste, gefeiert wird, geht auf die Arbeit der Pflanzstätte aller Kultur in der Mittelmark (G. Sello) zurück.",
+          "fact_ids": [
+            "271620466-0087"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "speaker": "Felix",
+      "text": "Gehörten den Mönchen noch weitere Orte?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 55,
+      "speaker": "Lena",
+      "text": "Ein weiteres Lehniner Dorf war der heutige südliche Berliner Ortsteil Zehlendorf. Dazu kam das damals von Zehlendorf getrennte slawische Slatdorp mit dem Slatsee, dem heutigen Schlachtensee. Selbst nördlich von Berlin im Barnim gab es Lehniner Ländereien: das Dorf Wandlitz, die Grangie Altenhof in Schönerlinde und das Dorf Sommerfeld nordwestlich von Oranienburg.",
+      "fact_ids": [
+        "271620466-0088"
+      ],
+      "statements": [
+        {
+          "text": "Zehlendorf war ein Lehniner Dorf, ebenso das damals von Zehlendorf getrennte slawische Slatdorp mit dem Slatsee (Schlachtensee), und im Barnim gab es Lehniner Ländereien wie das Dorf Wandlitz, die Grangie Altenhof in Schönerlinde und das Dorf Sommerfeld nordwestlich von Oranienburg.",
+          "fact_ids": [
+            "271620466-0088"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "speaker": "Felix",
+      "text": "Was ist eigentlich eine Grangie?",
+      "fact_ids": [
+        "271620466-0088"
+      ],
+      "statements": [
+        {
+          "text": "Die Grangie Altenhof in Schönerlinde gehörte zu den Lehniner Ländereien.",
+          "fact_ids": [
+            "271620466-0088"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "speaker": "Lena",
+      "text": "Der Begriff Grangie gilt vor allem für die Wirtschaftshöfe der Zisterzienser. Er wird ferner bei Prämonstratensern und Kartäusern verwendet. Der Altenhof in der Gemarkung Schönerlinde war so ein Klosterwirtschaftshof des Klosters Lehnin. Er wurde im dreizehnten Jahrhundert angelegt und bestand etwa bis ins sechzehnte Jahrhundert.",
+      "fact_ids": [
+        "256031684-0001",
+        "245580996-0000",
+        "245580996-0001"
+      ],
+      "statements": [
+        {
+          "text": "Der Begriff Grangie gilt vor allem für die Wirtschaftshöfe der Zisterzienser, ferner bei Prämonstratensern und Kartäusern.",
+          "fact_ids": [
+            "256031684-0001"
+          ]
+        },
+        {
+          "text": "Der Altenhof in der Gemarkung Schönerlinde war ein Klosterwirtschaftshof des Klosters Lehnin.",
+          "fact_ids": [
+            "245580996-0000"
+          ]
+        },
+        {
+          "text": "Der Altenhof wurde im 13. Jahrhundert angelegt und bestand etwa bis ins 16. Jahrhundert.",
+          "fact_ids": [
+            "245580996-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "speaker": "Felix",
+      "text": "Ist davon heute noch etwas zu sehen?",
+      "fact_ids": [
+        "245580996-0000"
+      ],
+      "statements": [
+        {
+          "text": "Der Altenhof war ein Klosterwirtschaftshof des Klosters Lehnin.",
+          "fact_ids": [
+            "245580996-0000"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "speaker": "Lena",
+      "text": "Die Reste des Wirtschaftshofes Altenhof sind durch ein landwirtschaftlich genutztes Feld überdeckt. An die Vergangenheit erinnert ein kleines Stillgewässer südwestlich des ehemaligen Standortes. Es ist auf Ortskarten als Klosterpfuhl verzeichnet.",
+      "fact_ids": [
+        "245580996-0003",
+        "245580996-0004"
+      ],
+      "statements": [
+        {
+          "text": "Die Reste des Wirtschaftshofes Altenhof sind durch ein landwirtschaftlich genutztes Feld überdeckt.",
+          "fact_ids": [
+            "245580996-0003"
+          ]
+        },
+        {
+          "text": "Ein kleines Stillgewässer südwestlich des ehemaligen Standortes, auf Ortskarten als Klosterpfuhl verzeichnet, erinnert an die Vergangenheit.",
+          "fact_ids": [
+            "245580996-0004"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "speaker": "Felix",
+      "text": "Wie sah es mit dem Geld aus?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 61,
+      "speaker": "Lena",
+      "text": "Im fünfzehnten Jahrhundert hatte das Kloster eine derartige Finanzkraft, dass es Kredite an Städte wie Erfurt und Lüneburg vergeben konnte.",
+      "fact_ids": [
+        "271620466-0100"
+      ],
+      "statements": [
+        {
+          "text": "Im 15. Jahrhundert hatte das Kloster eine derartige Finanzkraft, dass Kredite an Städte wie Erfurt und Lüneburg vergeben werden konnten.",
+          "fact_ids": [
+            "271620466-0100"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "speaker": "Felix",
+      "text": "Gibt es dazu ein Beispiel?",
+      "fact_ids": [
+        "271620466-0100"
+      ],
+      "statements": [
+        {
+          "text": "Das Kloster vergab Kredite an Städte wie Erfurt und Lüneburg.",
+          "fact_ids": [
+            "271620466-0100"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "speaker": "Lena",
+      "text": "Lüneburg bekam beispielsweise vierzehnhundertdreiundvierzig einen Kredit über fünfhundertfünfzig Gulden bei sechs Prozent Jahreszins. Vierzehnhundertzweiundsiebzig senkten die Mönche ihn auf vier Prozent.",
+      "fact_ids": [
+        "271620466-0101"
+      ],
+      "statements": [
+        {
+          "text": "Lüneburg bekam 1443 einen Kredit über 550 Gulden bei sechs Prozent Jahreszins, den die Mönche 1472 auf vier Prozent senkten.",
+          "fact_ids": [
+            "271620466-0101"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "speaker": "Felix",
+      "text": "Wie stand es um das Ansehen des Klosters?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 65,
+      "speaker": "Lena",
+      "text": "Weiteres Ansehen erlangte das Kloster vierzehnhundertfünfzig. Damals verlieh der Papst den Äbten den Rang eines Bischofs.",
+      "fact_ids": [
+        "271620466-0143"
+      ],
+      "statements": [
+        {
+          "text": "Das Kloster erlangte 1450 weiteres Ansehen, als der Papst den Rang eines Bischofs an die Äbte verlieh.",
+          "fact_ids": [
+            "271620466-0143"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "speaker": "Felix",
+      "text": "Wie ging es mit dem Kloster zu Ende?",
+      "fact_ids": [
+        "271620466-0008"
+      ],
+      "statements": [
+        {
+          "text": "Das Kloster Lehnin ist eine ehemalige Zisterzienserabtei.",
+          "fact_ids": [
+            "271620466-0008"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "speaker": "Lena",
+      "text": "Der letzte Abt hieß Valentin. Er reiste fünfzehnhundertachtzehn im Auftrag des Brandenburger Bischofs nach Wittenberg zu Martin Luther. Er wollte Luthers Veröffentlichung Über den Ablass verhindern.",
+      "fact_ids": [
+        "271620466-0146"
+      ],
+      "statements": [
+        {
+          "text": "Der letzte Abt Valentin reiste 1518 im Auftrag des Brandenburger Bischofs nach Wittenberg zu Martin Luther, um dessen Veröffentlichung Über den Ablass zu verhindern.",
+          "fact_ids": [
+            "271620466-0146"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "speaker": "Felix",
+      "text": "Wie ging es danach weiter?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 69,
+      "speaker": "Lena",
+      "text": "Als das Kloster fünfzehnhundertzweiundvierzig säkularisiert wurde, umfasste der Besitz rund viertausendfünfhundert Hektar Wald- und Ackerfläche. Dazu gehörten vierundfünfzig Seen, neun Wind- und sechs Wassermühlen, neununddreißig Dörfer sowie mit Werder eine Stadt.",
+      "fact_ids": [
+        "271620466-0102"
+      ],
+      "statements": [
+        {
+          "text": "Bei der Säkularisierung 1542 umfasste der Besitz rund 4500 Hektar Wald- und Ackerfläche, 54 Seen, neun Wind- und sechs Wassermühlen, 39 Dörfer und mit Werder eine Stadt.",
+          "fact_ids": [
+            "271620466-0102"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "speaker": "Felix",
+      "text": "Gab es später noch Rätselhaftes rund um das Kloster?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 71,
+      "speaker": "Lena",
+      "text": "Gegen Ende des siebzehnten Jahrhunderts tauchte an verschiedenen Orten in der Mark Brandenburg eine gedruckte Weissagung auf. Ihr handschriftliches Original war angeblich sechzehnhundertdreiundachtzig im Beisein des Großen Kurfürsten im Kloster gefunden worden.",
+      "fact_ids": [
+        "271620466-0157"
+      ],
+      "statements": [
+        {
+          "text": "Gegen Ende des 17. Jahrhunderts tauchte an verschiedenen Orten in der Mark Brandenburg eine gedruckte Weissagung auf, deren handschriftliches Original angeblich 1683 im Beisein des Großen Kurfürsten im Kloster gefunden worden war.",
+          "fact_ids": [
+            "271620466-0157"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "speaker": "Felix",
+      "text": "Und was stand in dieser Weissagung?",
+      "fact_ids": [
+        "271620466-0157"
+      ],
+      "statements": [
+        {
+          "text": "Es tauchte eine gedruckte Weissagung auf, deren Original angeblich im Kloster gefunden wurde.",
+          "fact_ids": [
+            "271620466-0157"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "speaker": "Lena",
+      "text": "Der Klosterbruder Hermann soll den Text dreizehnhundertsechs in seiner Zelle geschrieben haben. Darin prophezeit er in lateinischen Versen den Untergang der Hohenzollern-Dynastie und das Wiedererstehen von Kloster Lehnin.",
+      "fact_ids": [
+        "271620466-0158"
+      ],
+      "statements": [
+        {
+          "text": "Der Klosterbruder Hermann soll den Text 1306 in seiner Zelle geschrieben haben und prophezeit darin in lateinischen Versen den Untergang der Hohenzollern-Dynastie und das Wiedererstehen von Kloster Lehnin.",
+          "fact_ids": [
+            "271620466-0158"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "speaker": "Felix",
+      "text": "Was weiß man heute über die Echtheit dieses Textes?",
+      "fact_ids": [
+        "271620466-0158"
+      ],
+      "statements": [
+        {
+          "text": "Der Klosterbruder Hermann soll den Text 1306 geschrieben haben.",
+          "fact_ids": [
+            "271620466-0158"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "speaker": "Lena",
+      "text": "Dieses Vaticinium Lehninense wurde über Jahre immer wieder gedruckt und bis Mitte des neunzehnten Jahrhunderts viel diskutiert. Es ist eine Fälschung.",
+      "fact_ids": [
+        "271620466-0159"
+      ],
+      "statements": [
+        {
+          "text": "Das Vaticinium Lehninense, über Jahre immer wieder gedruckt und bis Mitte des 19. Jahrhunderts viel diskutiert, ist eine Fälschung.",
+          "fact_ids": [
+            "271620466-0159"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "speaker": "Felix",
+      "text": "Interessant! Und was weiß man über den Inhalt?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 77,
+      "speaker": "Lena",
+      "text": "Die Vorhersagen der Weissagung für die Zeit nach sechzehnhundertachtzig muten, zumindest aus heutiger Sicht, geradezu bizarr an.",
+      "fact_ids": [
+        "271620466-0162"
+      ],
+      "statements": [
+        {
+          "text": "Die Vorhersagen für die Zeit nach 1680 wirken, zumindest aus heutiger Sicht, geradezu bizarr.",
+          "fact_ids": [
+            "271620466-0162"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "speaker": "Felix",
+      "text": "Das klingt wirklich kurios! Und wie ging es danach mit der Anlage weiter?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 79,
+      "speaker": "Lena",
+      "text": "Wegen der religiösen Überzeugung der Franzosen wurde in die noch vorhandene Klosterkirche eine Mauer eingezogen. Sie führte zu einer baulichen Trennung der Kirche in einen calvinistisch-reformierten und einen lutherischen Teil.",
+      "fact_ids": [
+        "271620466-0175"
+      ],
+      "statements": [
+        {
+          "text": "Wegen der religiösen Überzeugung der Franzosen wurde in die noch vorhandene Klosterkirche eine Mauer eingezogen, die die Kirche baulich in einen calvinistisch-reformierten und einen lutherischen Teil trennte.",
+          "fact_ids": [
+            "271620466-0175"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "speaker": "Felix",
+      "text": "Und mit den übrigen Gebäuden?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 81,
+      "speaker": "Lena",
+      "text": "Zwischen siebzehnhundertsiebzig und achtzehnhundertzwanzig nutzten die Brandenburger die Klosteranlage von Lehnin teilweise als Steinbruch. Sie trugen große Teile ab.",
+      "fact_ids": [
+        "271620466-0178"
+      ],
+      "statements": [
+        {
+          "text": "Zwischen 1770 und 1820 nutzten die Brandenburger die Anlage teilweise als Steinbruch und trugen große Teile ab.",
+          "fact_ids": [
+            "271620466-0178"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "speaker": "Felix",
+      "text": "Und im zwanzigsten Jahrhundert?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 83,
+      "speaker": "Lena",
+      "text": "Neunzehnhundertdreiundvierzig bezog der sogenannte Generalbevollmächtigte Chemie, kurz Gebechem, mehrere Gebäude des Stifts. Auf dem Gelände ließ er für seine Behörde sieben weitere Baracken errichten.",
+      "fact_ids": [
+        "271620466-0194"
+      ],
+      "statements": [
+        {
+          "text": "1943 bezog der Generalbevollmächtigte Chemie (Gebechem) mehrere Stifts-Gebäude und ließ auf dem Gelände für seine Behörde sieben weitere Baracken errichten.",
+          "fact_ids": [
+            "271620466-0194"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "speaker": "Felix",
+      "text": "Was machte diese Behörde?",
+      "fact_ids": [
+        "271620466-0194"
+      ],
+      "statements": [
+        {
+          "text": "Der Generalbevollmächtigte Chemie bezog 1943 mehrere Stifts-Gebäude.",
+          "fact_ids": [
+            "271620466-0194"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 85,
+      "speaker": "Lena",
+      "text": "Die Behörde koordinierte die Interessen der Kriegswirtschaft mit denen der Wehrmacht und der SS. Von hier aus verteilte sie KZ-Häftlinge und Zwangsarbeiter auf die Chemieindustrie.",
+      "fact_ids": [
+        "271620466-0195"
+      ],
+      "statements": [
+        {
+          "text": "Die Behörde koordinierte die Interessen der Kriegswirtschaft mit denen der Wehrmacht und SS und verteilte von hier aus KZ-Häftlinge und Zwangsarbeiter auf die Chemieindustrie.",
+          "fact_ids": [
+            "271620466-0195"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 86,
+      "speaker": "Felix",
+      "text": "Wurde das Gelände danach noch anders genutzt?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 87,
+      "speaker": "Lena",
+      "text": "Bis in die Sechzigerjahre des zwanzigsten Jahrhunderts besaß das Krankenhaus auf dem Klostergelände eine geburtshilfliche Abteilung.",
+      "fact_ids": [
+        "271620466-0197"
+      ],
+      "statements": [
+        {
+          "text": "Bis in die Sechziger Jahre des 20. Jahrhunderts besaß das Krankenhaus auf dem Klostergelände eine geburtshilfliche Abteilung.",
+          "fact_ids": [
+            "271620466-0197"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 88,
+      "speaker": "Felix",
+      "text": "Wenn du kurz zurückblickst: Was nimmt man aus Lehnin mit?",
+      "fact_ids": [],
+      "statements": []
+    },
+    {
+      "index": 89,
+      "speaker": "Lena",
+      "text": "Otto der Erste gründete das Kloster Lehnin im Jahr elfhundertachtzig. Die Zisterzienser bauten in unwirtliches Gelände, weil sie streng und asketisch leben wollten. Trotzdem galt der Konvent zeitweise als verderbte Räuberbande. Der bekannte Obstanbau in Werder geht auf die Arbeit des Klosters zurück. Im fünfzehnten Jahrhundert konnte es Städten wie Lüneburg Kredite geben. Das Vaticinium Lehninense ist eine Fälschung. Das Stammsegment in den Altarstufen ist eine über hundert Millionen Jahre alte Versteinerung. Zwischen siebzehnhundertsiebzig und achtzehnhundertzwanzig diente die Anlage teilweise als Steinbruch.",
+      "fact_ids": [
+        "271620466-0016",
+        "271620466-0068",
+        "271620466-0132",
+        "271620466-0087",
+        "271620466-0100",
+        "271620466-0159",
+        "271620466-0051",
+        "271620466-0178"
+      ],
+      "statements": [
+        {
+          "text": "Otto I. gründete das Kloster Lehnin im Jahr 1180.",
+          "fact_ids": [
+            "271620466-0016"
+          ]
+        },
+        {
+          "text": "Die Mönche bauten das Kloster in unwirtliches Gelände, wegen der strengen, asketischen Lebensweise der Zisterzienser.",
+          "fact_ids": [
+            "271620466-0068"
+          ]
+        },
+        {
+          "text": "Der Konvent galt zeitweise als verderbte Räuberbande.",
+          "fact_ids": [
+            "271620466-0132"
+          ]
+        },
+        {
+          "text": "Der Obstanbau in Werder geht auf die Arbeit des Klosters zurück.",
+          "fact_ids": [
+            "271620466-0087"
+          ]
+        },
+        {
+          "text": "Im 15. Jahrhundert konnte das Kloster Kredite an Städte wie Erfurt und Lüneburg vergeben.",
+          "fact_ids": [
+            "271620466-0100"
+          ]
+        },
+        {
+          "text": "Das Vaticinium Lehninense ist eine Fälschung.",
+          "fact_ids": [
+            "271620466-0159"
+          ]
+        },
+        {
+          "text": "Das Stammsegment der verkieselten Eiche ist eine fossile Versteinerung mit einem Alter von über 100 Millionen Jahren.",
+          "fact_ids": [
+            "271620466-0051"
+          ]
+        },
+        {
+          "text": "Zwischen 1770 und 1820 wurde die Anlage teilweise als Steinbruch genutzt.",
+          "fact_ids": [
+            "271620466-0178"
+          ]
+        }
+      ]
+    }
+  ],
+  "problems": [],
+  "used_fact_ids": [
+    "271620466-0008",
+    "271620466-0009",
+    "271620466-0016",
+    "271620466-0017",
+    "271620466-0018",
+    "271620466-0064",
+    "271620466-0065",
+    "271620466-0040",
+    "271620466-0053",
+    "271620466-0049",
+    "271620466-0050",
+    "271620466-0051",
+    "271620466-0068",
+    "271620466-0073",
+    "271620466-0204",
+    "271620466-0221",
+    "271620466-0253",
+    "271620466-0294",
+    "271620466-0297",
+    "271620466-0125",
+    "271620466-0122",
+    "271620466-0128",
+    "271620466-0132",
+    "271620466-0106",
+    "271620466-0120",
+    "271620466-0113",
+    "271620466-0117",
+    "271620466-0086",
+    "271620466-0087",
+    "271620466-0088",
+    "256031684-0001",
+    "245580996-0000",
+    "245580996-0001",
+    "245580996-0003",
+    "245580996-0004",
+    "271620466-0100",
+    "271620466-0101",
+    "271620466-0143",
+    "271620466-0146",
+    "271620466-0102",
+    "271620466-0157",
+    "271620466-0158",
+    "271620466-0159",
+    "271620466-0162",
+    "271620466-0175",
+    "271620466-0178",
+    "271620466-0194",
+    "271620466-0195",
+    "271620466-0197"
+  ],
+  "conversation": 1,
+  "regenerations": [
+    {
+      "conversation": 1,
+      "turn_index": 6,
+      "kind": "retry",
+      "reason": "Die Frage \"Und wie begann dann der Bau des Klosters?\" setzt als Tatsache voraus, dass es ein Kloster gibt und dass es gebaut wurde. Weder der vorherige Redebeitrag (Slawenstämme, Rückdrängung der Deutschen) noch eine zitierte Fakt-ID nennt ein Kloster. Fakt-IDs fehlen, die Prämisse ist also nicht belegt. Eine bloße Überleitungsfrage ist es nicht, weil das Kloster erst hier eingeführt wird.",
+      "previous": {
+        "index": 6,
+        "speaker": "Felix",
+        "text": "Und wie begann dann der Bau des Klosters?",
+        "fact_ids": [],
+        "statements": []
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 7,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 7,
+        "speaker": "Lena",
+        "text": "Zunächst wurde gerodet, um Baumaterial zu gewinnen. Das zeigt ein im Konventgarten gefundenes Kiefernstammsegment mit einem Fälldatum aus dem Jahr elfhunderteinundachtzig. Es ist ein Beleg für die Urbarmachung und die Kolonisationstätigkeit des Zisterzienserordens, die die Klostergründung begleiteten.",
+        "fact_ids": [
+          "271620466-0064"
+        ],
+        "statements": [
+          {
+            "text": "Ein im Konventgarten gefundenes Kiefernstammsegment mit einem Fälldatum aus dem Jahr 1181 zeigt, dass zunächst gerodet wurde, um Baumaterial zu gewinnen, und belegt Urbarmachung und Kolonisation durch die Zisterzienser bei der Klostergründung.",
+            "fact_ids": [
+              "271620466-0064"
+            ]
+          }
+        ]
+      },
+      "budget": "judge"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 76,
+      "kind": "retry",
+      "reason": "Der Fakt 271620466-0158 wurde schon in Redebeitrag 73 und 74 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details.",
+      "previous": {
+        "index": 76,
+        "speaker": "Felix",
+        "text": "Wie steht es um die Vorhersagen selbst?",
+        "fact_ids": [
+          "271620466-0158"
+        ],
+        "statements": [
+          {
+            "text": "Der Text prophezeit den Untergang der Hohenzollern-Dynastie und das Wiedererstehen von Kloster Lehnin.",
+            "fact_ids": [
+              "271620466-0158"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 77,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 77,
+        "speaker": "Lena",
+        "text": "Die Vorhersagen für die Zeit nach sechzehnhundertachtzig muten, zumindest aus heutiger Sicht, geradezu bizarr an.",
+        "fact_ids": [
+          "271620466-0162"
+        ],
+        "statements": [
+          {
+            "text": "Die Vorhersagen für die Zeit nach 1680 muten aus heutiger Sicht geradezu bizarr an.",
+            "fact_ids": [
+              "271620466-0162"
+            ]
+          }
+        ]
+      },
+      "budget": "gate"
+    },
+    {
+      "conversation": 1,
+      "turn_index": 78,
+      "kind": "cascade",
+      "reason": null,
+      "previous": {
+        "index": 78,
+        "speaker": "Felix",
+        "text": "Was geschah mit der Klosterkirche?",
+        "fact_ids": [],
+        "statements": []
+      },
+      "budget": "gate"
+    }
+  ],
+  "discarded_conversations": [],
+  "aliases": {
+    "F1": "271620466-0008",
+    "F2": "271620466-0009",
+    "F3": "271620466-0051",
+    "F4": "271620466-0128",
+    "F5": "271620466-0132",
+    "F6": "271620466-0159",
+    "F7": "271620466-0113",
+    "F8": "271620466-0204",
+    "F9": "271620466-0175",
+    "F10": "271620466-0178",
+    "F11": "271620466-0087",
+    "F12": "271620466-0088",
+    "F13": "271620466-0100",
+    "F14": "271620466-0101",
+    "F15": "271620466-0040",
+    "F16": "271620466-0107",
+    "F17": "271620466-0146",
+    "F18": "271620466-0125",
+    "F19": "271620466-0120",
+    "F20": "271620466-0194",
+    "F21": "271620466-0195",
+    "F22": "271620466-0056",
+    "F23": "271620466-0270",
+    "F24": "271620466-0269",
+    "F25": "271620466-0339",
+    "F26": "271620466-0327",
+    "F27": "271620466-0299",
+    "F28": "271620466-0304",
+    "F29": "271620466-0295",
+    "F30": "271620466-0102",
+    "F31": "271620466-0110",
+    "F32": "271620466-0109",
+    "F33": "271620466-0094",
+    "F34": "271620466-0044",
+    "F35": "271620466-0197",
+    "F36": "271620466-0157",
+    "F37": "271620466-0158",
+    "F38": "271620466-0162",
+    "F39": "271620466-0143",
+    "F40": "271620466-0021",
+    "F41": "271620466-0073",
+    "F42": "271620466-0072",
+    "F43": "271620466-0122",
+    "F44": "271620466-0212",
+    "F45": "271620466-0213",
+    "F46": "271620466-0258",
+    "F47": "271620466-0253",
+    "F48": "271620466-0136",
+    "F49": "271620466-0137",
+    "F50": "271620466-0086",
+    "F51": "271620466-0221",
+    "F52": "271620466-0225",
+    "F53": "271620466-0294",
+    "F54": "271620466-0297",
+    "F55": "271620466-0049",
+    "F56": "271620466-0050",
+    "F57": "271620466-0108",
+    "F58": "271620466-0106",
+    "F59": "271620466-0116",
+    "F60": "271620466-0117",
+    "F61": "271620466-0089",
+    "F62": "271620466-0066",
+    "F63": "271620466-0075",
+    "F64": "271620466-0068",
+    "F65": "271620466-0064",
+    "F66": "271620466-0065",
+    "F67": "271620466-0059",
+    "F68": "271620466-0010",
+    "F69": "271620466-0016",
+    "F70": "271620466-0017",
+    "F71": "271620466-0018",
+    "F72": "271620466-0053",
+    "F73": "245580996-0004",
+    "F74": "248551735-0000",
+    "F75": "245580996-0000",
+    "F76": "245580996-0003",
+    "F77": "245580996-0001",
+    "F78": "256031684-0001"
+  }
+}

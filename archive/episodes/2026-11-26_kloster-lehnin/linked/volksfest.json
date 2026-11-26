@@ -1,0 +1,85 @@
+{
+  "title": "Volksfest",
+  "revid": 270306021,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-07T20:45:33Z",
+  "fetched_at": "2026-11-26T12:39:10Z",
+  "categories": [
+    "Kategorie:Liste (Veranstaltungen)",
+    "Kategorie:Volksfest"
+  ],
+  "intro_wikitext": "[[Datei:Oktoberfest Hofbräuzelt belebte Wiesenstrasse.jpg|mini|[[Oktoberfest]] in [[München]]]]\n[[Datei:Gäubodenvolksfest 2011 - Von der Donaubrücke mit Blick aufs Geschehen.jpg|mini|[[Gäubodenvolksfest]] in [[Straubing]] – Von der Donaubrücke mit Blick aufs Geschehen]]\n[[Datei:Stuttgarter Volksfest gr.jpg|mini|Riesenrad und Losbude auf dem [[Cannstatter Volksfest]] in [[Stuttgart]]]]\n[[Datei:Fair employee at balloon game.jpg|mini|Pfeilwerfen auf Ballons, ein Volksfestvergnügen]]\n[[Datei:Hamburger Dom 2017.jpg|mini|Gesamtansicht [[Hamburger Dom (Volksfest)|Hamburger Dom]]]]\n[[Datei:Winterthur swiss Albanifest 065.jpg|mini|Riesenrad am [[Albanifest]] in [[Winterthur]]]]\nEin '''Volksfest''' (auch '''Kirmes''', '''Jahrmarkt''' oder '''Rummel''' genannt) ist ein im [[Brauch]]tum verankertes regionaltypisches [[Fest]], das häufig eine lange [[Tradition]] besitzt. Oft beziehen sich die Volksfeste auf [[Kirchenjahr|kirchliche Feste]] aus dem [[Mittelalter]] oder regional typische Bräuche. In Deutschland werden sie in kleinsten [[Dorf|Dörfern]] und in [[Großstadt|Großstädten]] unterschiedlich gefeiert. Manche haben sich im Laufe der Jahrhunderte aus einem [[Jahrmarkt]] entwickelt, als welche sie auch häufig noch bezeichnet werden.",
+  "segments": [
+    {
+      "id": "270306021-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein '''Volksfest''' (auch '''Kirmes''', '''Jahrmarkt''' oder '''Rummel''' genannt) ist ein im [[Brauch]]tum verankertes regionaltypisches [[Fest]], das häufig eine lange [[Tradition]] besitzt.",
+      "plain": null
+    },
+    {
+      "id": "270306021-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Oft beziehen sich die Volksfeste auf [[Kirchenjahr|kirchliche Feste]] aus dem [[Mittelalter]] oder regional typische Bräuche.",
+      "plain": null
+    },
+    {
+      "id": "270306021-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "In Deutschland werden sie in kleinsten [[Dorf|Dörfern]] und in [[Großstadt|Großstädten]] unterschiedlich gefeiert.",
+      "plain": null
+    },
+    {
+      "id": "270306021-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Manche haben sich im Laufe der Jahrhunderte aus einem [[Jahrmarkt]] entwickelt, als welche sie auch häufig noch bezeichnet werden.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270306021,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270306021-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Ein Volksfest (auch Kirmes, Jahrmarkt oder Rummel genannt) ist ein im Brauchtum verankertes regionaltypisches Fest, das häufig eine lange Tradition besitzt.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270306021-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270306021-0000"
+        ],
+        "plain": "Oft beziehen sich die Volksfeste auf kirchliche Feste aus dem Mittelalter oder regional typische Bräuche.",
+        "context_plain": [
+          "Ein Volksfest (auch Kirmes, Jahrmarkt oder Rummel genannt) ist ein im Brauchtum verankertes regionaltypisches Fest, das häufig eine lange Tradition besitzt."
+        ]
+      },
+      {
+        "segment_id": "270306021-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270306021-0000",
+          "270306021-0001",
+          "270306021-0002"
+        ],
+        "plain": "Manche haben sich im Laufe der Jahrhunderte aus einem Jahrmarkt entwickelt, als welche sie auch häufig noch bezeichnet werden.",
+        "context_plain": [
+          "Ein Volksfest (auch Kirmes, Jahrmarkt oder Rummel genannt) ist ein im Brauchtum verankertes regionaltypisches Fest, das häufig eine lange Tradition besitzt.",
+          "Oft beziehen sich die Volksfeste auf kirchliche Feste aus dem Mittelalter oder regional typische Bräuche.",
+          "In Deutschland werden sie in kleinsten Dörfern und in Großstädten unterschiedlich gefeiert."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

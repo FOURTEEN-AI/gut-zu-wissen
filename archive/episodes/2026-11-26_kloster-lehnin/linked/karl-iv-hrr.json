@@ -1,0 +1,74 @@
+{
+  "title": "Karl IV. (HRR)",
+  "revid": 271928109,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-06T08:59:26Z",
+  "fetched_at": "2026-11-26T12:39:10Z",
+  "categories": [
+    "Kategorie:Balduin von Luxemburg",
+    "Kategorie:Erzmundschenk",
+    "Kategorie:Familienmitglied des Hauses Luxemburg",
+    "Kategorie:Geboren 1316",
+    "Kategorie:Gestorben 1378",
+    "Kategorie:Graf (Luxemburg)",
+    "Kategorie:Herrscher (14. Jahrhundert)",
+    "Kategorie:Kaiser (HRR)",
+    "Kategorie:Karl IV. (HRR)",
+    "Kategorie:Kurfürst (Böhmen)",
+    "Kategorie:Mann",
+    "Kategorie:Namensgeber für eine Universität",
+    "Kategorie:Person (Mark Brandenburg)",
+    "Kategorie:Preußenfahrer",
+    "Kategorie:Reliquiensammler",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2019-04",
+    "Kategorie:Wikipedia:Seite mit ref-Parameter details"
+  ],
+  "intro_wikitext": "[[Datei:Karl IV. (HRR).jpg|mini|Karl IV., Fragment eines Wandgemäldes aus dem Hansasaal des [[Rathaus Köln|Kölner Rathauses]] um 1360]]\n[[Datei:Busta Karel IV.jpg|mini|Karl IV., Büste gefertigt von [[Peter Parler]] im Prager [[Veitsdom]] mit dem Wappen Böhmens auf der linken Seite und rechts dem Adlerwappen des Heiligen Römischen Reichs]]\n'''Karl IV.''' ({{csS|Karel IV.}}; * [[14. Mai]] [[1316]] in [[Prag]], [[Königreich Böhmen]]; † [[29. November]] [[1378]] ebenda), geboren als ''Wenzel'' ({{csS|Václav}}), war [[römisch-deutscher König]] (ab 1346), König von Böhmen (ab 1347), König von [[Reichsitalien|Italien]] (seit 1355), König von [[Königreich Burgund|Burgund]] (seit 1365) und [[römisch-deutscher Kaiser]] (ab 1355). Er entstammte dem Geschlecht der [[Haus Luxemburg|Luxemburger]]. Er zählt zu den bedeutendsten Kaisern des [[Spätmittelalter]]s und war einer der einflussreichsten europäischen Herrscher seiner Zeit.",
+  "segments": [
+    {
+      "id": "271928109-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Karl IV.''' ({{csS|Karel IV.}}; * [[14. Mai]] [[1316]] in [[Prag]], [[Königreich Böhmen]]; † [[29. November]] [[1378]] ebenda), geboren als ''Wenzel'' ({{csS|Václav}}), war [[römisch-deutscher König]] (ab 1346), König von Böhmen (ab 1347), König von [[Reichsitalien|Italien]] (seit 1355), König von [[Königreich Burgund|Burgund]] (seit 1365) und [[römisch-deutscher Kaiser]] (ab 1355).",
+      "plain": null
+    },
+    {
+      "id": "271928109-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er entstammte dem Geschlecht der [[Haus Luxemburg|Luxemburger]].",
+      "plain": null
+    },
+    {
+      "id": "271928109-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er zählt zu den bedeutendsten Kaisern des [[Spätmittelalter]]s und war einer der einflussreichsten europäischen Herrscher seiner Zeit.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271928109,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271928109-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Karl IV. (tschechisch Karel IV.; * 14. Mai 1316 in Prag, Königreich Böhmen; † 29. November 1378 ebenda), geboren als Wenzel (tschechisch Václav), war römisch-deutscher König (ab 1346), König von Böhmen (ab 1347), König von Italien (seit 1355), König von Burgund (seit 1365) und römisch-deutscher Kaiser (ab 1355).",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "271928109-0002",
+        "reason": "context_invalid"
+      },
+      {
+        "segment_id": "271928109-0001",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

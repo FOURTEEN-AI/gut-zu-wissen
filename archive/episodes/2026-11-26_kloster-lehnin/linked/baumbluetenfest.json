@@ -1,0 +1,59 @@
+{
+  "title": "Baumblütenfest",
+  "revid": 261414936,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-11-09T20:14:41Z",
+  "fetched_at": "2026-11-26T12:39:10Z",
+  "categories": [
+    "Kategorie:Kultur (Werder (Havel))",
+    "Kategorie:Veranstaltung im Landkreis Potsdam-Mittelmark",
+    "Kategorie:Volksfest in Brandenburg"
+  ],
+  "intro_wikitext": "[[Datei:Baumblütenfest Werder (Havel) 2005.jpg|mini|Das Baumblütenfest in Werder (Havel)]]\nDas '''Baumblütenfest''' ist ein Volksfest, welches in etwas mehr als einer Woche mehrere hunderttausend Besucher nach [[Werder (Havel)]] und deren Umgebung lockt. Das Baumblütenfest findet seit vielen Jahren in der Woche um den 1. Mai herum statt. Die Termine werden in der Presse bekanntgegeben.",
+  "segments": [
+    {
+      "id": "261414936-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das '''Baumblütenfest''' ist ein Volksfest, welches in etwas mehr als einer Woche mehrere hunderttausend Besucher nach [[Werder (Havel)]] und deren Umgebung lockt.",
+      "plain": null
+    },
+    {
+      "id": "261414936-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das Baumblütenfest findet seit vielen Jahren in der Woche um den 1. Mai herum statt.",
+      "plain": null
+    },
+    {
+      "id": "261414936-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Termine werden in der Presse bekanntgegeben.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 261414936,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "261414936-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Baumblütenfest ist ein Volksfest, welches in etwas mehr als einer Woche mehrere hunderttausend Besucher nach Werder (Havel) und deren Umgebung lockt.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "261414936-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Baumblütenfest findet seit vielen Jahren in der Woche um den 1. Mai herum statt.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

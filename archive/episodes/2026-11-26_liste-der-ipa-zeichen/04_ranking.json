@@ -1,0 +1,74 @@
+{
+  "main_facts": [
+    {
+      "rank": 1,
+      "article": "Liste der IPA-Zeichen",
+      "revid": 272490346,
+      "fact": {
+        "segment_id": "272490346-0014",
+        "type": "sentence",
+        "section": "Diakritika und Suprasegmentalia",
+        "context_ids": [],
+        "plain": "Diese Zeichen sind keine Laute, sondern dienen der näheren Beschreibung der Aussprache einzelner Laute oder Lautfolgen.",
+        "context_plain": []
+      }
+    }
+  ],
+  "linked_facts": [],
+  "linked_articles": [],
+  "skipped_links": [],
+  "excluded_fact_ids": [],
+  "link_targets_over_limit": [],
+  "offer_counts": {
+    "main": {
+      "offered": 1,
+      "min": 20,
+      "max": 1,
+      "below_min": true
+    },
+    "linked": {
+      "offered": 0,
+      "min": 6,
+      "max": 12,
+      "below_min": true
+    },
+    "einordnung": {
+      "offered": 2,
+      "min": 0,
+      "max": 2,
+      "below_min": false
+    }
+  },
+  "einordnung_facts": [
+    {
+      "rank": 1,
+      "article": "Liste der IPA-Zeichen",
+      "revid": 272490346,
+      "fact": {
+        "segment_id": "272490346-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Diese Liste der Zeichen des Internationalen Phonetischen Alphabets (IPA) ordnet die Lautschriftzeichen nach Ähnlichkeit mit Graphem bzw. Lautwert von Zeichen des lateinischen Alphabets.",
+        "context_plain": []
+      }
+    },
+    {
+      "rank": 2,
+      "article": "Liste der IPA-Zeichen",
+      "revid": 272490346,
+      "fact": {
+        "segment_id": "272490346-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272490346-0000"
+        ],
+        "plain": "Alle IPA-Zeichen sind mit einer Beschreibung und Beispielen versehen.",
+        "context_plain": [
+          "Diese Liste der Zeichen des Internationalen Phonetischen Alphabets (IPA) ordnet die Lautschriftzeichen nach Ähnlichkeit mit Graphem bzw. Lautwert von Zeichen des lateinischen Alphabets."
+        ]
+      }
+    }
+  ]
+}

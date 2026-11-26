@@ -1,0 +1,74 @@
+{
+  "title": "Gulden",
+  "revid": 268889776,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-17T05:22:06Z",
+  "fetched_at": "2026-11-26T12:39:10Z",
+  "categories": [
+    "Kategorie:Deutsche Münze",
+    "Kategorie:Goldmünze",
+    "Kategorie:Historische Währungseinheit (Europa)",
+    "Kategorie:Schweizer Münze",
+    "Kategorie:Silbermünze",
+    "Kategorie:Wikipedia:Lesenswert",
+    "Kategorie:Wikipedia:Redundanz März 2014"
+  ],
+  "intro_wikitext": "{{Redundanztext\n|3=Gulden\n|4=Florentiner (Goldmünze)\n|2=März 2014\n|1=}}\n{{Weiterleitungshinweis|Goldgulden|Zur Goldmünze siehe [[Goldgulden (Groschenzeit Sachsens)]].}}\n{{Dieser Artikel|behandelt die Währung. Zu anderen Begriffen siehe [[Gulden (Begriffsklärung)]].}}\nDer '''Gulden''' bezeichnete ursprünglich eine [[Goldmünze]], später auch eine Recheneinheit und eine [[Silbermünze]]. Daher unterscheidet man Goldgulden, Rechnungsgulden und Silbergulden.\n\nVon der ersten Goldmünze dieser Art, dem [[Florentiner (Goldmünze)|Florentiner]] ''(Fiorino d’oro),'' lateinisch ''florenus aureus,'' leiten sich sowohl die Namen ''Floren'' oder ''Florene'' (deutsch), ''Florijn'' (niederländisch), ''Florin'' (französisch und englisch) und ''Forint'' (ungarisch) ab als auch die international gängigen Abkürzungen '''fl.''' oder '''f.''' Demgegenüber setzte sich im Süden und Westen des [[Heiliges Römisches Reich|Heiligen Römischen Reiches]] schon früh der Name ''Gulden'' durch (gekürzt aus [[mittelhochdeutsch]] ''guldin pfenninc'' oder ''guldin pfennic'' für „goldener [[Pfennig]]“).",
+  "segments": [
+    {
+      "id": "268889776-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der '''Gulden''' bezeichnete ursprünglich eine [[Goldmünze]], später auch eine Recheneinheit und eine [[Silbermünze]].",
+      "plain": null
+    },
+    {
+      "id": "268889776-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Daher unterscheidet man Goldgulden, Rechnungsgulden und Silbergulden.",
+      "plain": null
+    },
+    {
+      "id": "268889776-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Von der ersten Goldmünze dieser Art, dem [[Florentiner (Goldmünze)|Florentiner]] ''(Fiorino d’oro),'' lateinisch ''florenus aureus,'' leiten sich sowohl die Namen ''Floren'' oder ''Florene'' (deutsch), ''Florijn'' (niederländisch), ''Florin'' (französisch und englisch) und ''Forint'' (ungarisch) ab als auch die international gängigen Abkürzungen '''fl.''' oder '''f.''' Demgegenüber setzte sich im Süden und Westen des [[Heiliges Römisches Reich|Heiligen Römischen Reiches]] schon früh der Name ''Gulden'' durch (gekürzt aus [[mittelhochdeutsch]] ''guldin pfenninc'' oder ''guldin pfennic'' für „goldener [[Pfennig]]“).",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268889776,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268889776-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Gulden bezeichnete ursprünglich eine Goldmünze, später auch eine Recheneinheit und eine Silbermünze.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268889776-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "268889776-0000",
+          "268889776-0001"
+        ],
+        "plain": "Von der ersten Goldmünze dieser Art, dem Florentiner (Fiorino d’oro), lateinisch florenus aureus, leiten sich sowohl die Namen Floren oder Florene (deutsch), Florijn (niederländisch), Florin (französisch und englisch) und Forint (ungarisch) ab als auch die international gängigen Abkürzungen fl. oder f. Demgegenüber setzte sich im Süden und Westen des Heiligen Römischen Reiches schon früh der Name Gulden durch (gekürzt aus mittelhochdeutsch guldin pfenninc oder guldin pfennic für „goldener Pfennig“).",
+        "context_plain": [
+          "Der Gulden bezeichnete ursprünglich eine Goldmünze, später auch eine Recheneinheit und eine Silbermünze.",
+          "Daher unterscheidet man Goldgulden, Rechnungsgulden und Silbergulden."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "268889776-0001",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

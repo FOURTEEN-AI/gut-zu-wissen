@@ -1,0 +1,43 @@
+{
+  "title": "Valentin Henneken",
+  "revid": 248551735,
+  "revision_status": "sighted",
+  "revision_timestamp": "2024-09-12T20:21:43Z",
+  "fetched_at": "2026-11-26T12:39:10Z",
+  "categories": [
+    "Kategorie:Abt",
+    "Kategorie:Deutscher",
+    "Kategorie:Geboren im 15. Jahrhundert",
+    "Kategorie:Gestorben 1542",
+    "Kategorie:Mann",
+    "Kategorie:Person (Kloster Lehnin)",
+    "Kategorie:Römisch-katholischer Geistlicher (15. Jahrhundert)",
+    "Kategorie:Römisch-katholischer Geistlicher (16. Jahrhundert)",
+    "Kategorie:Wikipedia:GND fehlt 2019-01"
+  ],
+  "intro_wikitext": "'''Valentin Henneken'''  (* vor [[1500]] in [[Jüterbog]]; † am [[4. Dezember]] [[1542]] in [[Lehnin]]) war ein [[Heiliges Römisches Reich|deutscher]] [[Römisch-katholische Kirche|römisch-katholischer]] [[Abt]] der [[Zisterzienser]]-Abtei [[Kloster Lehnin]].",
+  "segments": [
+    {
+      "id": "248551735-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Valentin Henneken'''  (* vor [[1500]] in [[Jüterbog]]; † am [[4. Dezember]] [[1542]] in [[Lehnin]]) war ein [[Heiliges Römisches Reich|deutscher]] [[Römisch-katholische Kirche|römisch-katholischer]] [[Abt]] der [[Zisterzienser]]-Abtei [[Kloster Lehnin]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 248551735,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "248551735-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Valentin Henneken (* vor 1500 in Jüterbog; † am 4. Dezember 1542 in Lehnin) war ein deutscher römisch-katholischer Abt der Zisterzienser-Abtei Kloster Lehnin.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

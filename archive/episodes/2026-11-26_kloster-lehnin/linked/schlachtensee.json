@@ -1,0 +1,129 @@
+{
+  "title": "Schlachtensee",
+  "revid": 263800206,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-01-29T23:15:51Z",
+  "fetched_at": "2026-11-26T12:39:10Z",
+  "categories": [
+    "Kategorie:Berlin-Schlachtensee",
+    "Kategorie:MediaWiki:Gadget/annotationPair",
+    "Kategorie:Parkanlage in Berlin",
+    "Kategorie:See in Berlin",
+    "Kategorie:See in Europa"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|behandelt das Gewässer in Berlin. Zum Berliner Ortsteil Schlachtensee siehe [[Berlin-Schlachtensee]].}}\n{{Infobox See\n|BILD = Berlin Schlachtensee asv2022-08 img2.jpg\n|BILDBESCHREIBUNG = Luftaufnahme des Schlachtensees\n|BREITENGRAD = 52/26/34/N\n|LÄNGENGRAD = 13/13/0/E\n|REGION-ISO = DE-BE\n|LAGE = [[Berlin-Schlachtensee]]\n|ZUFLUSS = \n|ABFLUSS = \n|INSELN = \n|UFERORT = \n|NAHERORT = \n|HÖHE = \n|HÖHE-BEZUG = \n|FLÄCHE = 0.416\n|SEELÄNGE = \n|SEEBREITE = \n|VOLUMEN = 1938747\n|UMFANG = 5.506\n|MAX-TIEFE = 8.91\n|MED-TIEFE = 4.66\n|BESONDERHEITEN = \n}}\n\nDer '''Schlachtensee''' ist ein [[See]] im Südwesten [[Berlin]]s im [[Bezirk Steglitz-Zehlendorf]] am Rande des [[Grunewald (Forst)|Grunewaldes]].\n\nNach dem See wurden benannt:\n* der [[Bahnhof Berlin-Schlachtensee|S-Bahnhof Schlachtensee]], der bei seiner Eröffnung 1874 noch in einem Waldgebiet lag,\n* der Ortsteil [[Berlin-Schlachtensee|Schlachtensee]], entstanden als Villenkolonie südlich des Bahnhofs,\n* die evangelische Kirchengemeinde Schlachtensee,\n* das [[Studentendorf Schlachtensee]].",
+  "segments": [
+    {
+      "id": "263800206-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox See | LAGE = [[Berlin-Schlachtensee]]",
+      "plain": "Infobox See – Geographische Lage: Berlin-Schlachtensee"
+    },
+    {
+      "id": "263800206-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox See | FLÄCHE = 0.416",
+      "plain": "Infobox See – Daten – Fläche: 41,6 ha"
+    },
+    {
+      "id": "263800206-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox See | VOLUMEN = 1938747",
+      "plain": "Infobox See – Daten – Volumen: 1,938.747 Mio. m³"
+    },
+    {
+      "id": "263800206-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox See | UMFANG = 5.506",
+      "plain": "Infobox See – Daten – Umfang: 5,506 km"
+    },
+    {
+      "id": "263800206-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox See | MAX-TIEFE = 8.91",
+      "plain": "Infobox See – Daten – Maximale Tiefe: 8,91 m"
+    },
+    {
+      "id": "263800206-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox See | MED-TIEFE = 4.66",
+      "plain": "Infobox See – Daten – Mittlere Tiefe: 4,66 m"
+    },
+    {
+      "id": "263800206-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der '''Schlachtensee''' ist ein [[See]] im Südwesten [[Berlin]]s im [[Bezirk Steglitz-Zehlendorf]] am Rande des [[Grunewald (Forst)|Grunewaldes]].",
+      "plain": null
+    },
+    {
+      "id": "263800206-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Nach dem See wurden benannt:",
+      "plain": null
+    },
+    {
+      "id": "263800206-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "der [[Bahnhof Berlin-Schlachtensee|S-Bahnhof Schlachtensee]], der bei seiner Eröffnung 1874 noch in einem Waldgebiet lag,",
+      "plain": null
+    },
+    {
+      "id": "263800206-0009",
+      "type": "sentence",
+      "section": "",
+      "raw": "der Ortsteil [[Berlin-Schlachtensee|Schlachtensee]], entstanden als Villenkolonie südlich des Bahnhofs,",
+      "plain": null
+    },
+    {
+      "id": "263800206-0010",
+      "type": "sentence",
+      "section": "",
+      "raw": "die evangelische Kirchengemeinde Schlachtensee,",
+      "plain": null
+    },
+    {
+      "id": "263800206-0011",
+      "type": "sentence",
+      "section": "",
+      "raw": "das [[Studentendorf Schlachtensee]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 263800206,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "263800206-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Schlachtensee ist ein See im Südwesten Berlins im Bezirk Steglitz-Zehlendorf am Rande des Grunewaldes.",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "263800206-0008",
+        "reason": "not_a_sentence"
+      },
+      {
+        "segment_id": "263800206-0009",
+        "reason": "not_a_sentence"
+      },
+      {
+        "segment_id": "263800206-0011",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

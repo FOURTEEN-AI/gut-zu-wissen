@@ -1,0 +1,96 @@
+{
+  "title": "KZ-Häftling",
+  "revid": 269071297,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-24T21:46:06Z",
+  "fetched_at": "2026-11-26T12:39:10Z",
+  "categories": [
+    "Kategorie:KZ-Häftling",
+    "Kategorie:Kriegsgefangenschaft und Internierung (Zweiter Weltkrieg)",
+    "Kategorie:NS-Völkermord an den Sinti und Roma",
+    "Kategorie:NS-Zwangsarbeit",
+    "Kategorie:Schutzstaffel"
+  ],
+  "intro_wikitext": "Als '''Konzentrationslagerhäftlinge, KZ-Häftlinge''' oder auch '''KL-Häftlinge''' wurden und werden von den [[Nationalsozialisten]] in den [[Konzentrationslager]]n inhaftierte [[Gefangener|Gefangene]] bezeichnet, für die mit wenigen Ausnahmen eine „[[NS-Zwangsarbeit|Arbeitspflicht]]“ galt. Ihr überwiegender Teil war nicht aufgrund eines [[Gerichtsurteil]]s oder richterlicher Anordnung einer [[Untersuchungshaft]], sondern willkürlich nach Festnahme durch Polizei oder Parteiangehörige der [[NSDAP]] unter dem Vorwand der „[[Schutzhaft]]“ oder nach [[Deportation|Massendeportationen]] in Konzentrationslagern unbefristet unter menschenunwürdigen Haftbedingungen gefangen gehalten: Dies war ein zentraler Bestandteil des [[Zeit des Nationalsozialismus#Terrorapparat|Unterdrückungssystems der NS-Diktatur]] in Deutschland. Schon die Haftbedingungen führten durch die systematische Unterernährung und die unhygienischen Verhältnisse zum Tod tausender dieser Gefangenen. Hinzu kamen als Todesursachen schwerste körperliche Arbeiten, die vorenthaltene medizinische Betreuung nach Unfällen oder bei Krankheiten und die schweren körperlichen Misshandlungen bis hin zu Exzessmorden durch das der [[Schutzstaffel]] der NSDAP (SS) unterstellte Wachpersonal – dessen größter Teil waren Angehörige der [[SS-Totenkopfverbände]].",
+  "segments": [
+    {
+      "id": "269071297-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als '''Konzentrationslagerhäftlinge, KZ-Häftlinge''' oder auch '''KL-Häftlinge''' wurden und werden von den [[Nationalsozialisten]] in den [[Konzentrationslager]]n inhaftierte [[Gefangener|Gefangene]] bezeichnet, für die mit wenigen Ausnahmen eine „[[NS-Zwangsarbeit|Arbeitspflicht]]“ galt.",
+      "plain": null
+    },
+    {
+      "id": "269071297-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ihr überwiegender Teil war nicht aufgrund eines [[Gerichtsurteil]]s oder richterlicher Anordnung einer [[Untersuchungshaft]], sondern willkürlich nach Festnahme durch Polizei oder Parteiangehörige der [[NSDAP]] unter dem Vorwand der „[[Schutzhaft]]“ oder nach [[Deportation|Massendeportationen]] in Konzentrationslagern unbefristet unter menschenunwürdigen Haftbedingungen gefangen gehalten: Dies war ein zentraler Bestandteil des [[Zeit des Nationalsozialismus#Terrorapparat|Unterdrückungssystems der NS-Diktatur]] in Deutschland.",
+      "plain": null
+    },
+    {
+      "id": "269071297-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Schon die Haftbedingungen führten durch die systematische Unterernährung und die unhygienischen Verhältnisse zum Tod tausender dieser Gefangenen.",
+      "plain": null
+    },
+    {
+      "id": "269071297-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Hinzu kamen als Todesursachen schwerste körperliche Arbeiten, die vorenthaltene medizinische Betreuung nach Unfällen oder bei Krankheiten und die schweren körperlichen Misshandlungen bis hin zu Exzessmorden durch das der [[Schutzstaffel]] der NSDAP (SS) unterstellte Wachpersonal – dessen größter Teil waren Angehörige der [[SS-Totenkopfverbände]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269071297,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269071297-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Als Konzentrationslagerhäftlinge, KZ-Häftlinge oder auch KL-Häftlinge wurden und werden von den Nationalsozialisten in den Konzentrationslagern inhaftierte Gefangene bezeichnet, für die mit wenigen Ausnahmen eine „Arbeitspflicht“ galt.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269071297-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269071297-0000"
+        ],
+        "plain": "Ihr überwiegender Teil war nicht aufgrund eines Gerichtsurteils oder richterlicher Anordnung einer Untersuchungshaft, sondern willkürlich nach Festnahme durch Polizei oder Parteiangehörige der NSDAP unter dem Vorwand der „Schutzhaft“ oder nach Massendeportationen in Konzentrationslagern unbefristet unter menschenunwürdigen Haftbedingungen gefangen gehalten: Dies war ein zentraler Bestandteil des Unterdrückungssystems der NS-Diktatur in Deutschland.",
+        "context_plain": [
+          "Als Konzentrationslagerhäftlinge, KZ-Häftlinge oder auch KL-Häftlinge wurden und werden von den Nationalsozialisten in den Konzentrationslagern inhaftierte Gefangene bezeichnet, für die mit wenigen Ausnahmen eine „Arbeitspflicht“ galt."
+        ]
+      },
+      {
+        "segment_id": "269071297-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269071297-0001"
+        ],
+        "plain": "Schon die Haftbedingungen führten durch die systematische Unterernährung und die unhygienischen Verhältnisse zum Tod tausender dieser Gefangenen.",
+        "context_plain": [
+          "Ihr überwiegender Teil war nicht aufgrund eines Gerichtsurteils oder richterlicher Anordnung einer Untersuchungshaft, sondern willkürlich nach Festnahme durch Polizei oder Parteiangehörige der NSDAP unter dem Vorwand der „Schutzhaft“ oder nach Massendeportationen in Konzentrationslagern unbefristet unter menschenunwürdigen Haftbedingungen gefangen gehalten: Dies war ein zentraler Bestandteil des Unterdrückungssystems der NS-Diktatur in Deutschland."
+        ]
+      },
+      {
+        "segment_id": "269071297-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269071297-0002"
+        ],
+        "plain": "Hinzu kamen als Todesursachen schwerste körperliche Arbeiten, die vorenthaltene medizinische Betreuung nach Unfällen oder bei Krankheiten und die schweren körperlichen Misshandlungen bis hin zu Exzessmorden durch das der Schutzstaffel der NSDAP (SS) unterstellte Wachpersonal – dessen größter Teil waren Angehörige der SS-Totenkopfverbände.",
+        "context_plain": [
+          "Schon die Haftbedingungen führten durch die systematische Unterernährung und die unhygienischen Verhältnisse zum Tod tausender dieser Gefangenen."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

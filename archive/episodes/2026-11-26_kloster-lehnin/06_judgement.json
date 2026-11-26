@@ -1,0 +1,1141 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.54
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. Er nennt nur das Thema (Kloster Lehnin), spricht Lena an und stellt eine offene Einstiegsfrage ohne Prämisse, also eine belegfreie Nachfrage bzw. Überleitung."
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Alle drei Aussagen folgen direkt aus den Fakt-Sätzen: Das Kloster ist eine ehemalige Zisterzienserabtei im Ort Lehnin, der lateinische Name lautet Leninum, und die Gemeinde Kloster Lehnin liegt südwestlich von Potsdam und ist nach dem Kloster benannt. Der Redebeitrag enthält keine zusätzlichen Angaben und keine Fragen. Die Gegenstände sind eindeutig, da Artikelthema und vorheriger Redebeitrag das Kloster Lehnin nennen."
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 1.0,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag ist eine offene Nachfrage zur Entstehung des Klosters („Wie kam es denn zu diesem Kloster?“). Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es dazu etwas zu erzählen gibt. Das ist eine belegfreie Reaktion. „Dieses Kloster“ bezieht sich eindeutig auf das Kloster Lehnin aus dem vorherigen Beitrag."
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Gründung durch Otto I., den zweiten brandenburgischen Markgrafen (1125–1184), im Jahr 1180 aus wirtschaftlichen, machtpolitischen und religiösen Erwägungen; 23 Jahre zuvor, 1157, besiegte Albrecht der Bär Jaxa von Köpenick und hob die Mark aus der Taufe. „Er hat damit die Mark aus der Taufe gehoben“ bezieht sich eindeutig auf Albrecht den Bären. „Es“ meint das Kloster Lehnin, das Thema des Artikels und der vorherigen Frage. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine Nachfrage: Er bittet um Erklärung zu den Slawen in der Gegend. Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, die erst die Antwort liefern würde. Die Slawen hat Lena zuvor mit Jaxa von Köpenick genannt, und die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt. Damit ist sie belegfrei und enthält keine Behauptung, die durch Fakten gestützt werden müsste."
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage bzw. Überleitungsfrage („Gibt es noch andere Spuren aus dieser Anfangszeit?“) und enthält keine Behauptung. Die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Sie bezieht sich auf die vorher genannte Anfangszeit. Daher ist sie belegfrei, auch ohne Fakt-IDs."
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen folgen aus dem Fakt-Satz: Gerötete Bereiche im Feinsand weisen auf hohe thermische Einwirkungen hin, wie sie typischerweise durch Brandrodung der Kraut- und Strauchschicht entstehen. Das einleitende „Ja“ ist eine belegfreie Reaktion auf Felix' Nachfrage. Es gibt keine zusätzlichen Angaben, und der Gegenstand ist über das Artikelthema (Kloster Lehnin) eindeutig."
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.76
+      },
+      "jev_error": null,
+      "reason": "Felix stellt eine Nachfrage/Überleitungsfrage, die nur fragt, ob es Geschichten über den Gründer gibt. Die Voraussetzung, dass Otto I. der Gründer des Klosters Lehnin ist, folgt aus dem Fakt-Satz (Gründung 1180 durch Markgraf Otto I.). Die Frage nimmt keine bestimmte Einzelheit vorweg, und der Gegenstand (Kloster Lehnin) ist eindeutig als Thema des Artikels."
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.9,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Fakt-Satz belegt alle drei Aussagen: die wiederkehrende weiße Hirschkuh im Traum, die Drohung, ihn mit dem Geweih aufzuspießen, und dass er sie mit dem Jagdspieß nicht abwehren konnte. Das Bezugswort „ihm“ wird laut Kontext (Otto I., Legende des Klosterbaus) eindeutig zu Otto dem Ersten aufgelöst, und Felix' Frage nennt Otto den Ersten ausdrücklich als Gegenstand. Der Redebeitrag enthält keine zusätzlichen Angaben und keine unbelegten Behauptungen."
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einer Reaktion („Spannend.“) und einer Nachfrage nach der Herkunft des Namens Lehnin. Die Frage ist eine Überleitungsfrage, die lediglich voraussetzt, dass es zum Namen etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Es werden keine Behauptungen aufgestellt, daher sind keine Fakt-Sätze nötig."
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.95,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Pulkava als Historiograf Karls IV., Fontanes Gefolgschaft, Otto I. soll den Namen gewählt haben, weil Lanye im Slawischen Hirschkuh bedeutet. „Otto der Erste“ und „Karl der Vierte“ sind ausgeschriebene Formen von Otto I. und Karl IV. Der Gegenstand (Name Lehnin) ist durch Felix' Frage und den Artikel eindeutig. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämissen."
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine offene Nachfrage bzw. Überleitungsfrage ohne Fakt-IDs. Sie setzt nur voraus, dass es im Kloster etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Damit ist sie belegfrei und enthält keine Behauptung."
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage zum eben genannten Stammsegment. Sie setzt nur voraus, dass es etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Das Stammsegment wird im vorherigen Redebeitrag genannt, der Bezug ist also eindeutig. Der Redebeitrag enthält keine Behauptung, die belegt werden müsste."
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Mutmaßung der Forschung, Überrest eines slawischen Naturheiligtums, von christlichen Missionaren gefällt und in die Klosterkirche integriert, ähnlich der Donareiche von Bonifatius. Der Bezug \"Stammsegment\" ist durch den vorherigen Redebeitrag und den Kontext eindeutig. Es gibt keine zusätzlichen Angaben und keine unbelegten Fragen oder Prämissen."
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.86
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage („Und was weiß man über das Stück selbst?“) ohne neue Behauptung und ohne Prämisse, die eine Einzelheit vorwegnimmt. „Das Stück“ bezieht sich auf das Stammsegment aus dem vorherigen Redebeitrag. Belegfreie Reaktionen brauchen keine Fakt-IDs."
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen folgen aus dem Fakt-Satz: Es handelt sich um eine fossile Versteinerung, deren Alter von über 100 Millionen Jahren keine Verbindung mit einem vorchristlichen Kultort zulässt. „Das Stammsegment“ ist durch den Artikel Kloster Lehnin und den Kontext eindeutig bestimmt und beantwortet Felix' Frage nach dem Stück. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Wahnsinn!\" ist eine Reaktion, \"Zurück zu den Mönchen\" eine Überleitung. \"Wie lebten sie dort?\" ist eine offene Nachfrage ohne Einzelheit oder Wertung als Prämisse. Dass es Mönche gab, nennt schon der Gesprächskontext, und die Frage nimmt keine neue Tatsache vorweg. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: unwirtliches Gelände, Grund in der strengen, asketischen Lebensweise der Zisterzienser, Trennung vom Benediktinerorden 1098 (tausendachtundneunzig), Carta Caritatis, Wiederherstellung der ursprünglichen Strenge und der Regel ora et labora. Der Gegenstand ist durch den Artikel (Kloster Lehnin) und den vorherigen Beitrag (Mönche) eindeutig. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.78,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen (einfache Kleidung, bescheidene Ernährung mit Gemüse ohne jedes Fleisch, strohgedeckte Betten ohne Polster, die die Lebensweise prägen sollten) stehen so im Fakt-Satz. „Vorgesehen war“ gibt „sollten“ sinngemäß wieder. Dass „ihre“ im Fakt-Satz die Zisterzienser meint, ist im Artikel „Kloster Lehnin“ ein plausibler, erlaubter Bezugsauflösung. Es kommt keine zusätzliche Information hinzu und keine neue Beziehung zwischen Fakten."
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.93,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": "Felix stellt nur eine Nachfrage (\"Wer legte solche Regeln eigentlich fest?\"). Sie knüpft an Lenas vorherigen Beitrag an, behauptet nichts Neues und nimmt keine bestimmte Einzelheit oder Wertung vorweg. Sie gilt deshalb als belegfreie Reaktion."
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage („Gab es noch mehr Vorschriften dieser Art?“). Sie knüpft an Lenas Aussage über das Verbot bunter Kirchenfußböden an und setzt nur voraus, dass es dazu etwas zu erzählen gibt. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg und behauptet nichts Neues, daher braucht sie keine Fakt-Sätze."
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Statut des Generalkapitels von 1157 (Steinerne Türme für Glocken sollen nicht sein) und kupfergedeckter Dachreiter statt Glockenturm. Die Kirche ist durch das Thema des Artikels Kloster Lehnin eindeutig; \"Klosterkirche\" löst den Bezug lediglich auf. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämissen."
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage bzw. Überleitungsfrage. „Hatte das Kloster auch eine Bibliothek?“ nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern fragt nur, ob es dazu etwas zu erzählen gibt. Das ist belegfrei, und es sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage („Was stand denn in diesen Büchern?“) und bezieht sich auf die Bücher der Bibliothek aus dem vorherigen Beitrag. Er enthält keine Behauptung und keine Prämisse, die erst die Antwort liefern würde. Er setzt nur voraus, dass es zum Inhalt der Bücher etwas zu erzählen gibt. Das ist bei einer Nachfrage erlaubt, daher sind keine Fakt-Sätze nötig."
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage (\"Wer lebte denn alles in dem Kloster?\"). Sie fragt nach etwas Neuem und setzt nur voraus, dass es dazu etwas zu erzählen gibt. Eine konkrete Einzelheit, Wertung oder Vermutung nimmt sie nicht vorweg. Das Kloster ist im vorherigen Beitrag mit der Bibliothek verbunden. Die Frage ist belegfrei und enthält keine Behauptung."
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Behauptung. Sie knüpft an den von Lena genannten Mönch Dietrich an und nimmt keine bestimmte Einzelheit oder Wertung vorweg, die erst die Antwort liefern würde. Deshalb braucht sie keine Fakt-IDs."
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine Nachfrage nach einer Anekdote über Dietrich Kagelwit. Der Name stammt aus dem zitierten Fakt-Satz und bezeichnet dort eindeutig dieselbe Person. Die Frage setzt nur voraus, dass es etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Sie ist damit belegfrei und enthält keine zusätzliche Behauptung."
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: kein Fleisch, die Winter-Schweine durften auf Anweisung des Abtes nicht geschlachtet werden, das Abschneiden der Ohren, das Würzen der Suppe und das vorzügliche Urteil des Kaisers. \"Der Legende nach\" entspricht dem Fakt. Das Auflösen von \"der spätere Bischof\" zu Dietrich Kagelwit wird durch den Kontext (Kagelwit, Mönch) gedeckt und ist erlaubt. Es kommt keine zusätzliche Angabe vor, und der Redebeitrag enthält keine Fragen."
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Das muss man sich erst mal vorstellen.“ ist eine Reaktion (Staunen). „Gab es im Kloster auch Konflikte?“ ist eine offene Nachfrage und Überleitungsfrage. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Dass es im Kloster Konflikte gab, wird nicht vorausgesetzt. Das Kloster ist durch den Abt im vorherigen Beitrag eingeführt. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 41,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 42,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist nur eine kurze Nachfrage („Und mit den Menschen in der Umgebung?“). Sie führt keine neue Information, Wertung oder Prämisse ein, sondern fragt nach etwas Weiterem zum Thema. Damit ist sie belegfrei, und fehlende Fakt-IDs sind unproblematisch."
+    },
+    {
+      "turn_index": 43,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 44,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage (\"Wer war eigentlich der erste Abt von Lehnin?\"). Sie setzt nur voraus, dass es einen ersten Abt gab, nimmt aber keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Damit ist sie belegfrei, und es sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 45,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Sibold ist der erste Lehniner Abt, seine Büste stand in der Siegesallee an der Seite des Denkmals für Otto I., und die Siegesallee war ein Prachtboulevard, den die Bevölkerung spöttisch Puppenallee nannte. Die Antwort „Der erste Abt hieß Sibold“ bezieht sich eindeutig auf Lehnin und beantwortet die Frage nach dem ersten Abt von Lehnin. „Otto den Ersten“ ist nur eine andere Schreibweise für Otto I. Zusätzliche Angaben oder Fragen mit unbelegten Prämissen gibt es nicht."
+    },
+    {
+      "turn_index": 46,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 47,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Fontane gibt die Geschichte ausführlich weiter; Sibold trat im benachbarten Dorf Nahmitz zur Rast in eine Hütte, erschreckte unfreiwillig die Bewohner, es gab ein anzügliches Missverständnis um die Frau des Fischers, und er wurde nach der Flucht auf einen Baum im Wald erschlagen. Der Gegenstand ist eindeutig, da Sibold im vorherigen Beitrag genannt wird. Es gibt keine Zusatzangaben und keine Fragen mit Prämissen."
+    },
+    {
+      "turn_index": 48,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage („Was sagt die Forschung dazu?“). Sie bittet um Erklärung und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt. Damit ist sie belegfrei, und es werden keine Behauptungen aufgestellt."
+    },
+    {
+      "turn_index": 49,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.46
+      },
+      "jev_error": null,
+      "reason": "Beide Sätze folgen direkt aus dem Fakt-Satz: Warnatsch setzt die mögliche Ermordung des Abtes eher um 1185 an und hält den Streit der Mönche mit den Nahmitzer Slawen um Fischerei- und Mühlenrechte für wahrscheinlich. Der Name „Sibold“ löst „des Abtes“ auf, was im Kontext des Artikels Kloster Lehnin erlaubt ist. Der Redebeitrag enthält keine zusätzlichen Angaben und keine Fragen."
+    },
+    {
+      "turn_index": 50,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine offene Nachfrage bzw. Überleitungsfrage ohne Fakt-IDs. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es zur wirtschaftlichen Entwicklung etwas zu erzählen gibt. Das ist belegfrei, und es werden keine Behauptungen aufgestellt."
+    },
+    {
+      "turn_index": 51,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.79
+      },
+      "jev_error": null,
+      "reason": "Die Aussage entspricht dem Fakt-Satz: Jahr 1317, 244 Mark brandenburgischen Silbers, Kauf der heutigen Blütenstadt Werder (Havel). „Sie“ wird korrekt als die Lehniner Mönche aufgelöst, da das Thema des Artikels das Kloster Lehnin ist. „An der Havel“ ist nur eine andere Formulierung für „(Havel)\". Es gibt keine zusätzliche Angabe und keine Frage mit Prämisse."
+    },
+    {
+      "turn_index": 52,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.94,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag \"Und was wurde aus Werder?\" ist eine reine Nachfrage bzw. Überleitungsfrage und damit belegfrei. Er enthält keine Behauptung und keine Prämisse, die über das von Lena Gesagte hinausgeht: Werder wurde von ihr genannt, und die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt."
+    },
+    {
+      "turn_index": 53,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "vollstaendig": 0.59
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem einen Fakt-Satz: Der Obstanbau in Werder geht auf die Arbeit des Klosters Lehnin zurück, G. Sello nannte es Pflanzstätte aller Kultur in der Mittelmark, das Baumblütenfest wird jährlich im Frühjahr gefeiert und gehört inzwischen zu den größten deutschen Volksfesten. \"Dieser Pflanzstätte\" ist durch das Artikelthema Kloster Lehnin eindeutig aufgelöst. Die Bezüge \"es\" sind eindeutig. Der Beitrag enthält keine Fragen und keine zusätzlichen Angaben und beantwortet Felix' Frage zu Werder passend."
+    },
+    {
+      "turn_index": 54,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine Nachfrage ohne Fakt-IDs. „Gehörten den Mönchen noch weitere Orte?“ setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Das Kloster Lehnin und seine Mönche hat Lena im vorherigen Beitrag genannt. Es ist also eine belegfreie Reaktion."
+    },
+    {
+      "turn_index": 55,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 56,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 57,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen direkt aus den Fakt-Sätzen: Zisterzienser, Prämonstratenser und Kartäuser aus 256031684-0001; Altenhof in der Gemarkung Schönerlinde als Klosterwirtschaftshof des Klosters Lehnin aus 245580996-0000; Anlage im 13. Jahrhundert und Bestehen bis etwa ins 16. Jahrhundert aus 245580996-0001. Der Gegenstand ist eindeutig (Altenhof, Thema des Artikels), \"so ein\" greift das Wort Grangie auf. Es gibt keine zusätzlichen Angaben und keine Fragen oder unbelegten Prämissen."
+    },
+    {
+      "turn_index": 58,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 59,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 60,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 61,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder: Im 15. Jahrhundert hatte das Kloster (Lehnin, Thema des Artikels) so viel Finanzkraft, dass Kredite an Städte wie Erfurt und Lüneburg vergeben werden konnten. Er enthält keine zusätzliche Angabe und keine Frage, und er beantwortet die Frage nach dem Geld passend zum Gegenstand."
+    },
+    {
+      "turn_index": 62,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.73,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag „Gibt es dazu ein Beispiel?“ ist eine Nachfrage und damit belegfrei. Sie stellt keine Behauptung auf und nimmt keine bestimmte Einzelheit vorweg, sondern bittet nur um ein Beispiel zum eben Gesagten über die Kredite des Klosters. Das Zitat [271620466-0100] stützt den Kontext, wird aber nicht gebraucht."
+    },
+    {
+      "turn_index": 63,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 64,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage zum Ansehen des Klosters. Er nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg, sondern setzt nur voraus, dass es dazu etwas zu erzählen gibt. Das ist belegfrei und braucht keine Fakt-IDs."
+    },
+    {
+      "turn_index": 65,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 66,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.8
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine Überleitungs- bzw. Nachfrage („Wie ging es mit dem Kloster zu Ende?“) und damit belegfrei. Die Prämisse, dass das Kloster ein Ende hatte, folgt aus dem zitierten Fakt, wonach Lehnin eine „ehemalige Zisterzienserabtei“ ist. Eine bestimmte Einzelheit, Wertung oder Vermutung wird nicht vorweggenommen. „Das Kloster“ meint eindeutig das Kloster Lehnin, das Thema des Artikels und des vorherigen Beitrags."
+    },
+    {
+      "turn_index": 67,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 68,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 69,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 70,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine offene Nachfrage bzw. Überleitungsfrage („Gab es später noch Rätselhaftes rund um das Kloster?“). Sie setzt nur voraus, dass es etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg. Das Kloster hat Lena bereits genannt. Damit ist der Beitrag belegfrei und braucht keine Fakt-IDs."
+    },
+    {
+      "turn_index": 71,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 72,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage („Und was stand in dieser Weissagung?“). Sie greift das von Lena eben Gesagte auf und bittet um Erklärung. Sie enthält keine neue Behauptung und keine Prämisse, die erst die Antwort liefern würde, denn die Weissagung hat Lena bereits genannt. Damit ist der Beitrag belegfrei und erfüllt die Rubrik."
+    },
+    {
+      "turn_index": 73,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 74,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage (\"Was weiß man heute über die Echtheit dieses Textes?\") und damit belegfrei. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg; dass es etwas über die Echtheit zu sagen gibt, ist nur die übliche Voraussetzung einer Nachfrage. \"Dieser Text\" bezieht sich eindeutig auf den Text, den Lena im vorherigen Redebeitrag genannt hat. Der Redebeitrag enthält keine Behauptung, die belegt werden müsste."
+    },
+    {
+      "turn_index": 75,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 76,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.78
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion („Interessant!“) und einer Nachfrage nach dem Inhalt. Die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Er enthält keine Behauptung, daher sind keine Fakt-Sätze nötig."
+    },
+    {
+      "turn_index": 77,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder (Vorhersagen für die Zeit nach 1680, aus heutiger Sicht geradezu bizarr). Mit „der Weissagung“ wird nur der Gegenstand benannt, den der Kontext als die Prophezeiung aus dem Artikel Kloster Lehnin bestimmt, das ist ein erlaubter Bezugsauflösung. Es gibt keine zusätzlichen Angaben und keine Frage mit Prämisse."
+    },
+    {
+      "turn_index": 78,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur Reaktionen: \"Das klingt wirklich kurios!\" ist ein Gefühl im Moment (Staunen), und die Frage \"Wie ging es danach mit der Anlage weiter?\" ist eine Nachfrage bzw. Überleitung, die keine bestimmte Einzelheit, Wertung oder Vermutung vorwegnimmt. Es gibt keine Behauptung, die einen Beleg bräuchte."
+    },
+    {
+      "turn_index": 79,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder (Mauer in der Klosterkirche wegen der religiösen Überzeugung der Franzosen, Trennung in einen calvinistisch-reformierten und einen lutherischen Teil). Er enthält keine zusätzlichen Angaben und keine Frage. Der Gegenstand „Klosterkirche“ ist durch die vorherige Frage und den Artikel Kloster Lehnin eindeutig."
+    },
+    {
+      "turn_index": 80,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 81,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Zeitraum 1770 bis 1820, teilweise als Steinbruch genutzt, große Teile abgetragen. Die „Anlage“ im Fakt-Satz ist durch das Thema des Artikels (Kloster Lehnin) eindeutig und wird im Redebeitrag als Klosteranlage von Lehnin aufgelöst, was erlaubt ist. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämissen."
+    },
+    {
+      "turn_index": 82,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 83,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 84,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage („Was machte diese Behörde?“). Sie bezieht sich eindeutig auf die im vorherigen Beitrag genannte Behörde Gebechem, bittet um Erklärung und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Die einzige Voraussetzung ist, dass die Behörde existiert, und die folgt aus dem zitierten Fakt. Der Beitrag enthält keine unbelegte Behauptung."
+    },
+    {
+      "turn_index": 85,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.82,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz fast wörtlich wieder (Koordination der Interessen von Kriegswirtschaft, Wehrmacht und SS; Verteilung von KZ-Häftlingen und Zwangsarbeitern auf die Chemieindustrie). „Die Behörde“ ist durch die vorherige Frage eindeutig bestimmt, und „von hier aus“ passt zum Artikel Kloster Lehnin. Es kommt keine zusätzliche Angabe hinzu."
+    },
+    {
+      "turn_index": 86,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage nach der weiteren Nutzung des Geländes. Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Damit ist sie belegfrei und braucht keine Fakt-IDs."
+    },
+    {
+      "turn_index": 87,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 88,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 89,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "aussage_3": 0.99,
+        "aussage_4": 0.99,
+        "aussage_5": 0.99,
+        "aussage_6": 0.96,
+        "aussage_7": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den zitierten Fakt-Sätzen: Gründung durch Otto I. 1180, unwirtliches Gelände und asketische Lebensweise der Zisterzienser, der Konvent als verderbte Räuberbande, Obstanbau in Werder, Kredite an Städte wie Lüneburg im 15. Jahrhundert, Vaticinium als Fälschung, das über 100 Millionen Jahre alte Stammsegment (Auflösung des Bezugs aus dem Kontext: Altarstufen) und die Nutzung als Steinbruch 1770 bis 1820. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben. Die Verkürzung \"Otto der Erste\" statt \"zweiter brandenburgischer Markgraf Otto I.\" ist zulässig."
+    }
+  ],
+  "used_fact_ids": [
+    "271620466-0008",
+    "271620466-0009",
+    "271620466-0016",
+    "271620466-0017",
+    "271620466-0018",
+    "271620466-0064",
+    "271620466-0065",
+    "271620466-0040",
+    "271620466-0053",
+    "271620466-0049",
+    "271620466-0050",
+    "271620466-0051",
+    "271620466-0068",
+    "271620466-0073",
+    "271620466-0204",
+    "271620466-0221",
+    "271620466-0253",
+    "271620466-0294",
+    "271620466-0297",
+    "271620466-0125",
+    "271620466-0122",
+    "271620466-0128",
+    "271620466-0132",
+    "271620466-0106",
+    "271620466-0120",
+    "271620466-0113",
+    "271620466-0117",
+    "271620466-0086",
+    "271620466-0087",
+    "271620466-0088",
+    "256031684-0001",
+    "245580996-0000",
+    "245580996-0001",
+    "245580996-0003",
+    "245580996-0004",
+    "271620466-0100",
+    "271620466-0101",
+    "271620466-0143",
+    "271620466-0146",
+    "271620466-0102",
+    "271620466-0157",
+    "271620466-0158",
+    "271620466-0159",
+    "271620466-0162",
+    "271620466-0175",
+    "271620466-0178",
+    "271620466-0194",
+    "271620466-0195",
+    "271620466-0197"
+  ],
+  "cascade_checks": [
+    {
+      "conversation": 1,
+      "turn_index": 7,
+      "p": 0.83,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung enthält alle Aussagen der vorherigen: Fund eines Kiefernstammsegments im Konventgarten, Fälldatum 1181, anfängliche Rodung zur Baumaterialgewinnung sowie Beleg für Urbarmachung und Kolonisation durch die Zisterzienser bei der Klostergründung. Nur die Satzstruktur und eine leichte Verallgemeinerung („Solche Befunde“) unterscheiden sich, was den Inhalt nicht verändert."
+    },
+    {
+      "conversation": 1,
+      "turn_index": 77,
+      "p": 0.6,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung ergänzt, dass es sich um die Vorhersagen „der Weissagung“ handelt. Die vorherige Fassung nennt keine Quelle der Vorhersagen und spricht allgemein von „den Vorhersagen“. Die neue Fassung bindet sie an eine bestimmte Weissagung, und das ist eine zusätzliche Aussage. Jahr 1680 und Bewertung „geradezu bizarr aus heutiger Sicht“ stimmen überein."
+    },
+    {
+      "conversation": 1,
+      "turn_index": 78,
+      "p": 0.98,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    }
+  ],
+  "conversation": 1,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 6,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 6,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.89
+        },
+        "jev_error": null,
+        "reason": "Die Frage \"Und wie begann dann der Bau des Klosters?\" setzt als Tatsache voraus, dass es ein Kloster gibt und dass es gebaut wurde. Weder der vorherige Redebeitrag (Slawenstämme, Rückdrängung der Deutschen) noch eine zitierte Fakt-ID nennt ein Kloster. Fakt-IDs fehlen, die Prämisse ist also nicht belegt. Eine bloße Überleitungsfrage ist es nicht, weil das Kloster erst hier eingeführt wird."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 7,
+      "version": 0,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 7,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 76,
+      "version": 0,
+      "replaced_by": 2,
+      "judgement": {
+        "turn_index": 76,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 271620466-0158 wurde schon in Redebeitrag 73 und 74 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 77,
+      "version": 0,
+      "replaced_by": 3,
+      "judgement": {
+        "turn_index": 77,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.9
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz fast wörtlich wieder (Vorhersagen für die Zeit nach 1680 wirken aus heutiger Sicht bizarr). Der Gegenstand ist eindeutig: Es geht um die Prophezeiung aus dem Artikel Kloster Lehnin, und Felix' Frage nach „den Vorhersagen“ meint dieselbe Sache. Es kommen keine zusätzlichen Angaben oder Fragen mit Prämissen vor."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 78,
+      "version": 0,
+      "replaced_by": 4,
+      "judgement": {
+        "turn_index": 78,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.8
+        },
+        "jev_error": null,
+        "reason": "Die Frage \"Was geschah mit der Klosterkirche?\" nennt mit der Klosterkirche einen bestimmten Gegenstand, der weder im vorherigen Redebeitrag (Vorhersagen für die Zeit nach 1680) noch durch Fakt-Sätze eingeführt ist. Sie setzt damit als Tatsache voraus, dass es diese Klosterkirche gibt und dass mit ihr etwas geschah. Das ist eine Prämisse, die nicht gesagt wurde, und es gibt keine Fakt-IDs, aus denen sie folgen könnte. Es handelt sich daher nicht um eine bloße Nachfrage oder Überleitung."
+      }
+    }
+  ]
+}

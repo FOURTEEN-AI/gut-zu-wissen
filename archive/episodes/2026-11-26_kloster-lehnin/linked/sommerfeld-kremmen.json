@@ -1,0 +1,77 @@
+{
+  "title": "Sommerfeld (Kremmen)",
+  "revid": 266635489,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-05-01T00:55:06Z",
+  "fetched_at": "2026-11-26T12:39:10Z",
+  "categories": [
+    "Kategorie:Ehemalige Gemeinde (Landkreis Oberhavel)",
+    "Kategorie:Ersterwähnung 1242",
+    "Kategorie:Gemeindeauflösung 2001",
+    "Kategorie:Geographie (Kremmen)",
+    "Kategorie:Kloster Himmelpfort",
+    "Kategorie:Ort im Landkreis Oberhavel",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2023-01"
+  ],
+  "intro_wikitext": "{{Infobox Ortsteil einer Gemeinde in Deutschland\n| Ortsteil               = Sommerfeld\n| Gemeindeart            = Stadt\n| Gemeindename           = Kremmen\n| Breitengrad            = 52/48/9/N <!-- http://www.geodatenzentrum.de/ -->\n| Längengrad             = 13/2/5/E <!-- http://www.geodatenzentrum.de/ -->\n| Bundesland             = DE-BB\n| Höhe                   = 38 <!-- http://www.geodatenzentrum.de/ -->\n| Höhe-Bezug             = DE-NHN <!-- http://www.geodatenzentrum.de/ -->\n| Fläche                 = \n| Einwohner              = 1381\n| Einwohner-Stand-Datum  = 2024-06-30\n| Einwohner-Quelle       = <ref>{{Internetquelle|url=https://daten2.verwaltungsportal.de/dateien/seitengenerator/24a4250b4b6b0a284a273e05ec09310441365/Gesamtdokument.pdf|titel=Haushaltsplan 2025|hrsg=Stadt Kremmen|abruf=2026-01-30|seiten=9|format=PDF; 10,5 MB}}</ref>\n| Eingemeindungsdatum    = 2001-12-31\n| Postleitzahl1          = 16766\n| Vorwahl1               = 033055\n| Bild                   = Sommerfeld church.jpg\n| Bild-Beschreibung      = [[Dorfkirche Sommerfeld]]\n}}\n\n'''Sommerfeld''' ist ein [[Ortsteil]] der Stadt [[Kremmen]] im Norden des Landes [[Brandenburg]].",
+  "segments": [
+    {
+      "id": "266635489-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Ortsteil einer Gemeinde in Deutschland | Höhe                   = 38 <!-- http://www.geodatenzentrum.de/ -->",
+      "plain": "Infobox Ortsteil einer Gemeinde in Deutschland – Höhe: 38 m ü. NHN"
+    },
+    {
+      "id": "266635489-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Ortsteil einer Gemeinde in Deutschland | Einwohner              = 1381 | Einwohner-Quelle       = <ref>{{Internetquelle|url=https://daten2.verwaltungsportal.de/dateien/seitengenerator/24a4250b4b6b0a284a273e05ec09310441365/Gesamtdokument.pdf|titel=Haushaltsplan 2025|hrsg=Stadt Kremmen|abruf=2026-01-30|seiten=9|format=PDF; 10,5 MB}}</ref>",
+      "plain": "Infobox Ortsteil einer Gemeinde in Deutschland – Einwohner: 1381 (30. Juni 2024)"
+    },
+    {
+      "id": "266635489-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Ortsteil einer Gemeinde in Deutschland | Postleitzahl1          = 16766",
+      "plain": "Infobox Ortsteil einer Gemeinde in Deutschland – Postleitzahl: 16766"
+    },
+    {
+      "id": "266635489-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Ortsteil einer Gemeinde in Deutschland | Vorwahl1               = 033055",
+      "plain": "Infobox Ortsteil einer Gemeinde in Deutschland – Vorwahl: 033055"
+    },
+    {
+      "id": "266635489-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Sommerfeld''' ist ein [[Ortsteil]] der Stadt [[Kremmen]] im Norden des Landes [[Brandenburg]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 266635489,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "266635489-0001",
+        "type": "infobox_row",
+        "section": "",
+        "context_ids": [],
+        "plain": "Infobox Ortsteil einer Gemeinde in Deutschland – Einwohner: 1381 (30. Juni 2024)",
+        "context_plain": []
+      },
+      {
+        "segment_id": "266635489-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Sommerfeld ist ein Ortsteil der Stadt Kremmen im Norden des Landes Brandenburg.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

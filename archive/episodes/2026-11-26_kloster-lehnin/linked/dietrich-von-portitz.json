@@ -1,0 +1,45 @@
+{
+  "title": "Dietrich von Portitz",
+  "revid": 269068496,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-24T18:49:14Z",
+  "fetched_at": "2026-11-26T12:39:10Z",
+  "categories": [
+    "Kategorie:Bischof von Minden",
+    "Kategorie:Bischof von Schleswig",
+    "Kategorie:Deutscher",
+    "Kategorie:Erzbischof von Magdeburg",
+    "Kategorie:Geboren im 13. oder 14. Jahrhundert",
+    "Kategorie:Gestorben 1367",
+    "Kategorie:Mann",
+    "Kategorie:Person (Kloster Lehnin)",
+    "Kategorie:Person (Stendal)",
+    "Kategorie:Römisch-katholischer Bischof (14. Jahrhundert)",
+    "Kategorie:Zisterzienser"
+  ],
+  "intro_wikitext": "[[Datei:Dietrich Kagelwit.jpg|mini|Dietrich Kagelwit]]\n'''Dietrich von Portitz''' oder ''Dietrich Kagelwit'', oder ''Dietrich von Kugelweit'' (* um [[1300]] in [[Stendal]]; † [[17. Dezember]] [[1367]]) war oberster Kanzler im [[Königreich Böhmen]] und von 1361 bis 1367 [[Erzbischof]] von [[Magdeburg]].",
+  "segments": [
+    {
+      "id": "269068496-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Dietrich von Portitz''' oder ''Dietrich Kagelwit'', oder ''Dietrich von Kugelweit'' (* um [[1300]] in [[Stendal]]; † [[17. Dezember]] [[1367]]) war oberster Kanzler im [[Königreich Böhmen]] und von 1361 bis 1367 [[Erzbischof]] von [[Magdeburg]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269068496,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269068496-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Dietrich von Portitz oder Dietrich Kagelwit, oder Dietrich von Kugelweit (* um 1300 in Stendal; † 17. Dezember 1367) war oberster Kanzler im Königreich Böhmen und von 1361 bis 1367 Erzbischof von Magdeburg.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

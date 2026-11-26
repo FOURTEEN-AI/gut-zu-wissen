@@ -1,0 +1,124 @@
+{
+  "title": "Kapelle (Kirchenbau)",
+  "revid": 272095209,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-12T10:26:12Z",
+  "fetched_at": "2026-11-26T12:39:10Z",
+  "categories": [
+    "Kategorie:Gebäudeteil",
+    "Kategorie:Kapelle",
+    "Kategorie:Kirchenbautyp",
+    "Kategorie:Typ von Innenräumen"
+  ],
+  "intro_wikitext": "[[Datei:Burgkapelle.JPG|mini|Kapelle aus dem 17. Jahrhundert]]\nEine '''Kapelle''' ist eine baulich kleine Bet-, Gottesdienst- oder Andachtsräumlichkeit. Es kann sich um ein freistehendes [[Kirche (Bauwerk)|Kirchengebäude]] handeln oder um einen Raum in einem größeren Gebäude. Innerhalb von (größeren) Kirchen sind Kapellen gottesdienstliche Nebenräume, die unterschiedliche Funktionen haben können. Kapellen sind zum Teil privat errichtet. Bei großen Kirchenbauten wurde vor allem im Spätmittelalter [[Zunft|Zünften]] und wohlhabenden Familien die Gelegenheit gegeben, als [[Stifter]] Nischen an der Innenseite der Außenwände zu gestalten und mit einem Altar auszustatten.<ref>Markus Huber in ''Backsteinbaukunst'', Bd. 11, Wismar 2023, S. 34–47</ref>\n\nDas [[Codex iuris canonici|Kirchenrecht]] der [[Römisch-katholische Kirche|römisch-katholischen Kirche]] unterscheidet zwischen einer Kapelle ({{LaS|oratorium}}) und einer Privatkapelle ({{LaS|sacellum (privatum)}}). In einigen Freikirchen wird die gottesdienstliche Versammlungsstätte der Gemeinde Kapelle genannt. In manchen Regionen wird von den großen Religionsgemeinschaften die Bezeichnung ‚Kapelle‘ synonym für [[Filialkirche]] verwendet.",
+  "segments": [
+    {
+      "id": "272095209-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Eine '''Kapelle''' ist eine baulich kleine Bet-, Gottesdienst- oder Andachtsräumlichkeit.",
+      "plain": null
+    },
+    {
+      "id": "272095209-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es kann sich um ein freistehendes [[Kirche (Bauwerk)|Kirchengebäude]] handeln oder um einen Raum in einem größeren Gebäude.",
+      "plain": null
+    },
+    {
+      "id": "272095209-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Innerhalb von (größeren) Kirchen sind Kapellen gottesdienstliche Nebenräume, die unterschiedliche Funktionen haben können.",
+      "plain": null
+    },
+    {
+      "id": "272095209-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Kapellen sind zum Teil privat errichtet.",
+      "plain": null
+    },
+    {
+      "id": "272095209-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bei großen Kirchenbauten wurde vor allem im Spätmittelalter [[Zunft|Zünften]] und wohlhabenden Familien die Gelegenheit gegeben, als [[Stifter]] Nischen an der Innenseite der Außenwände zu gestalten und mit einem Altar auszustatten.<ref>Markus Huber in ''Backsteinbaukunst'', Bd. 11, Wismar 2023, S. 34–47</ref>",
+      "plain": null
+    },
+    {
+      "id": "272095209-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das [[Codex iuris canonici|Kirchenrecht]] der [[Römisch-katholische Kirche|römisch-katholischen Kirche]] unterscheidet zwischen einer Kapelle ({{LaS|oratorium}}) und einer Privatkapelle ({{LaS|sacellum (privatum)}}).",
+      "plain": null
+    },
+    {
+      "id": "272095209-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "In einigen Freikirchen wird die gottesdienstliche Versammlungsstätte der Gemeinde Kapelle genannt.",
+      "plain": null
+    },
+    {
+      "id": "272095209-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "In manchen Regionen wird von den großen Religionsgemeinschaften die Bezeichnung ‚Kapelle‘ synonym für [[Filialkirche]] verwendet.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272095209,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272095209-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Innerhalb von (größeren) Kirchen sind Kapellen gottesdienstliche Nebenräume, die unterschiedliche Funktionen haben können.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272095209-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Bei großen Kirchenbauten wurde vor allem im Spätmittelalter Zünften und wohlhabenden Familien die Gelegenheit gegeben, als Stifter Nischen an der Innenseite der Außenwände zu gestalten und mit einem Altar auszustatten.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272095209-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Kirchenrecht der römisch-katholischen Kirche unterscheidet zwischen einer Kapelle (lateinisch oratorium) und einer Privatkapelle (lateinisch sacellum (privatum)).",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272095209-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "In einigen Freikirchen wird die gottesdienstliche Versammlungsstätte der Gemeinde Kapelle genannt.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272095209-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "In manchen Regionen wird von den großen Religionsgemeinschaften die Bezeichnung ‚Kapelle‘ synonym für Filialkirche verwendet.",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "272095209-0003",
+        "reason": "too_short"
+      }
+    ]
+  }
+}
