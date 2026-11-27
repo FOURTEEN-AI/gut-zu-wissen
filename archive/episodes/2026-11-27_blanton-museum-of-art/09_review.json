@@ -1,0 +1,2683 @@
+{
+  "episode_id": "2026-11-27_blanton-museum-of-art",
+  "title": "Blanton Museum of Art",
+  "rate": 1.0,
+  "seed": "2026-11-27_blanton-museum-of-art",
+  "population": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    24,
+    25,
+    26,
+    28,
+    30,
+    31,
+    32,
+    34,
+    35,
+    36,
+    37,
+    38,
+    40,
+    41,
+    42,
+    44,
+    45,
+    46,
+    48,
+    50,
+    52,
+    53,
+    54,
+    56,
+    58,
+    60,
+    62,
+    63,
+    64,
+    66,
+    68,
+    70,
+    72,
+    73,
+    74,
+    76,
+    78,
+    79
+  ],
+  "draws": [
+    {
+      "turn_index": 0,
+      "u": 0.8986759468134444,
+      "sampled": true
+    },
+    {
+      "turn_index": 1,
+      "u": 0.8717416793008509,
+      "sampled": true
+    },
+    {
+      "turn_index": 2,
+      "u": 0.7719287275598359,
+      "sampled": true
+    },
+    {
+      "turn_index": 3,
+      "u": 0.1430123695029727,
+      "sampled": true
+    },
+    {
+      "turn_index": 4,
+      "u": 0.7813185835276728,
+      "sampled": true
+    },
+    {
+      "turn_index": 5,
+      "u": 0.16614195896835182,
+      "sampled": true
+    },
+    {
+      "turn_index": 6,
+      "u": 0.10408716987970268,
+      "sampled": true
+    },
+    {
+      "turn_index": 8,
+      "u": 0.7877437548782187,
+      "sampled": true
+    },
+    {
+      "turn_index": 9,
+      "u": 0.4231291364619383,
+      "sampled": true
+    },
+    {
+      "turn_index": 10,
+      "u": 0.7935357830124312,
+      "sampled": true
+    },
+    {
+      "turn_index": 11,
+      "u": 0.9657358117459933,
+      "sampled": true
+    },
+    {
+      "turn_index": 12,
+      "u": 0.2834476652816883,
+      "sampled": true
+    },
+    {
+      "turn_index": 14,
+      "u": 0.036854593962979076,
+      "sampled": true
+    },
+    {
+      "turn_index": 16,
+      "u": 0.015291716757133478,
+      "sampled": true
+    },
+    {
+      "turn_index": 18,
+      "u": 0.012142630758197659,
+      "sampled": true
+    },
+    {
+      "turn_index": 20,
+      "u": 0.1725093061858607,
+      "sampled": true
+    },
+    {
+      "turn_index": 22,
+      "u": 0.8230681140339743,
+      "sampled": true
+    },
+    {
+      "turn_index": 24,
+      "u": 0.635029004838261,
+      "sampled": true
+    },
+    {
+      "turn_index": 25,
+      "u": 0.5357769987214994,
+      "sampled": true
+    },
+    {
+      "turn_index": 26,
+      "u": 0.05612456524105758,
+      "sampled": true
+    },
+    {
+      "turn_index": 28,
+      "u": 0.9710045691124131,
+      "sampled": true
+    },
+    {
+      "turn_index": 30,
+      "u": 0.5791728789038072,
+      "sampled": true
+    },
+    {
+      "turn_index": 31,
+      "u": 0.11505444647035934,
+      "sampled": true
+    },
+    {
+      "turn_index": 32,
+      "u": 0.19991162175946564,
+      "sampled": true
+    },
+    {
+      "turn_index": 34,
+      "u": 0.15125831084245833,
+      "sampled": true
+    },
+    {
+      "turn_index": 35,
+      "u": 0.45915666356033213,
+      "sampled": true
+    },
+    {
+      "turn_index": 36,
+      "u": 0.5418062212548674,
+      "sampled": true
+    },
+    {
+      "turn_index": 37,
+      "u": 0.25791856954321146,
+      "sampled": true
+    },
+    {
+      "turn_index": 38,
+      "u": 0.3829866759520997,
+      "sampled": true
+    },
+    {
+      "turn_index": 40,
+      "u": 0.9718680939851595,
+      "sampled": true
+    },
+    {
+      "turn_index": 41,
+      "u": 0.5566166763617098,
+      "sampled": true
+    },
+    {
+      "turn_index": 42,
+      "u": 0.41235978362689163,
+      "sampled": true
+    },
+    {
+      "turn_index": 44,
+      "u": 0.9367470549840162,
+      "sampled": true
+    },
+    {
+      "turn_index": 45,
+      "u": 0.946379689130896,
+      "sampled": true
+    },
+    {
+      "turn_index": 46,
+      "u": 0.11436070293052902,
+      "sampled": true
+    },
+    {
+      "turn_index": 48,
+      "u": 0.6031787089760272,
+      "sampled": true
+    },
+    {
+      "turn_index": 50,
+      "u": 0.9627457286924122,
+      "sampled": true
+    },
+    {
+      "turn_index": 52,
+      "u": 0.8931020802089034,
+      "sampled": true
+    },
+    {
+      "turn_index": 53,
+      "u": 0.9492991992023987,
+      "sampled": true
+    },
+    {
+      "turn_index": 54,
+      "u": 0.1260387199115427,
+      "sampled": true
+    },
+    {
+      "turn_index": 56,
+      "u": 0.40841041683667023,
+      "sampled": true
+    },
+    {
+      "turn_index": 58,
+      "u": 0.09145421109711094,
+      "sampled": true
+    },
+    {
+      "turn_index": 60,
+      "u": 0.8704315998828062,
+      "sampled": true
+    },
+    {
+      "turn_index": 62,
+      "u": 0.9370986430176143,
+      "sampled": true
+    },
+    {
+      "turn_index": 63,
+      "u": 0.8497518161150746,
+      "sampled": true
+    },
+    {
+      "turn_index": 64,
+      "u": 0.27311259529702026,
+      "sampled": true
+    },
+    {
+      "turn_index": 66,
+      "u": 0.505888439807937,
+      "sampled": true
+    },
+    {
+      "turn_index": 68,
+      "u": 0.8201444111791631,
+      "sampled": true
+    },
+    {
+      "turn_index": 70,
+      "u": 0.39650035104187153,
+      "sampled": true
+    },
+    {
+      "turn_index": 72,
+      "u": 0.7795033840913618,
+      "sampled": true
+    },
+    {
+      "turn_index": 73,
+      "u": 0.5302891563749995,
+      "sampled": true
+    },
+    {
+      "turn_index": 74,
+      "u": 0.005776705032603413,
+      "sampled": true
+    },
+    {
+      "turn_index": 76,
+      "u": 0.1829713043396134,
+      "sampled": true
+    },
+    {
+      "turn_index": 78,
+      "u": 0.1719041631950715,
+      "sampled": true
+    },
+    {
+      "turn_index": 79,
+      "u": 0.4004043665379371,
+      "sampled": true
+    }
+  ],
+  "status": "pending",
+  "outcome": null,
+  "rate_applied": [],
+  "issue": 39,
+  "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/39",
+  "explicit": {
+    "model": "claude-sonnet-5-5",
+    "predicted": false,
+    "verdict": "clean",
+    "findings": [],
+    "reason": "Das Gespräch behandelt sachlich Geschichte, Finanzierung, Architektur und Sammlung des Blanton Museum of Art. Gewalt, Sexualität, Drogen oder derbe Ausdrücke kommen nicht vor. Beiläufige Erwähnungen wie Rinderknochen, Opfer als Wortbedeutung von Hostie, der Kalte Krieg oder die schwule Geschichte der Regenbogenkapelle sind weder drastisch noch anschaulich geschildert.",
+    "label": null,
+    "reviewer_flag": null,
+    "note": null,
+    "comment_id": null
+  },
+  "turns": [
+    {
+      "turn_index": 0,
+      "speaker": "Lena",
+      "text": "Heute geht es um das Blanton Museum of Art. Es ist das Kunstmuseum der University of Texas in Austin. Seine Wurzeln reichen bis ins Jahr neunzehnhundertsiebenundzwanzig zurück. Damals stellte Archer M. Huntington Mittel für den Ankauf von Kunstwerken durch die Universität zur Verfügung. Das Museum geht auf diese Stiftung zurück.",
+      "previous_text": null,
+      "fact_ids": [
+        "272532574-0000",
+        "272532574-0001"
+      ],
+      "statements": [
+        {
+          "text": "Das Blanton Museum of Art ist das Kunstmuseum der University of Texas in Austin.",
+          "fact_ids": [
+            "272532574-0000"
+          ]
+        },
+        {
+          "text": "Es geht auf die Stiftung Archer M. Huntingtons im Jahr 1927 zurück, der Mittel für den Ankauf von Kunstwerken durch die Universität zur Verfügung stellte.",
+          "fact_ids": [
+            "272532574-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0000",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Das Blanton Museum of Art ist das Kunstmuseum der University of Texas in Austin.",
+          "context": []
+        },
+        {
+          "id": "272532574-0001",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Es geht auf die Stiftung Archer M. Huntingtons im Jahr 1927 zurück, der Mittel für den Ankauf von Kunstwerken durch die Universität zur Verfügung stellte.",
+          "context": [
+            "Das Blanton Museum of Art ist das Kunstmuseum der University of Texas in Austin."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.89
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Das Blanton Museum of Art ist das Kunstmuseum der University of Texas in Austin (0000). Es geht auf die Stiftung Archer M. Huntingtons im Jahr 1927 zurück, der Mittel für den Ankauf von Kunstwerken durch die Universität zur Verfügung stellte (0001). Die Einleitung „Heute geht es um…“ ist eine Überleitung ohne neue Information, und der Redebeitrag enthält keine Fragen oder sonstigen zusätzlichen Behauptungen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 1,
+      "speaker": "Felix",
+      "text": "Dann fangen wir bei dieser Stiftung an. Wie kam es dazu, dass Huntington der Universität dieses Geld gab?",
+      "previous_text": "Heute geht es um das Blanton Museum of Art. Es ist das Kunstmuseum der University of Texas in Austin. Seine Wurzeln reichen bis ins Jahr neunzehnhundertsiebenundzwanzig zurück. Damals stellte Archer M. Huntington Mittel für den Ankauf von Kunstwerken durch die Universität zur Verfügung. Das Museum geht auf diese Stiftung zurück.",
+      "fact_ids": [
+        "272532574-0001"
+      ],
+      "statements": [
+        {
+          "text": "Huntington stellte der Universität 1927 Mittel für den Ankauf von Kunstwerken zur Verfügung.",
+          "fact_ids": [
+            "272532574-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0001",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Es geht auf die Stiftung Archer M. Huntingtons im Jahr 1927 zurück, der Mittel für den Ankauf von Kunstwerken durch die Universität zur Verfügung stellte.",
+          "context": [
+            "Das Blanton Museum of Art ist das Kunstmuseum der University of Texas in Austin."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.89
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag ist eine Überleitungs- bzw. Nachfrage, die an die Stiftung anknüpft. Die Prämisse, dass Huntington der Universität Geld gab, folgt aus dem Fakt-Satz (Mittel für den Ankauf von Kunstwerken durch die Universität, 1927). Die Frage nach dem Wie nimmt keine Einzelheit vorweg, die erst die Antwort liefern müsste."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Lena",
+      "text": "Huntington war der in New York lebende Sohn des Eisenbahnmagnaten Collis P. Huntington. Er übertrug der University of Texas at Austin viertausend Acres Land in Galveston, Texas. Dabei gab es eine Auflage: Die Universität sollte ein Kunstmuseum unterstützen. Der damalige Wert dieser Stiftung betrug rund einhundertfünfundvierzigtausend Dollar.",
+      "previous_text": "Dann fangen wir bei dieser Stiftung an. Wie kam es dazu, dass Huntington der Universität dieses Geld gab?",
+      "fact_ids": [
+        "272532574-0012",
+        "272532574-0011"
+      ],
+      "statements": [
+        {
+          "text": "Der in New York lebende Sohn des Eisenbahnmagnaten Collis P. Huntington übertrug der University of Texas at Austin 4000 Acres Land in Galveston, Texas, mit der Auflage, dass sie ein Kunstmuseum unterstützen sollte.",
+          "fact_ids": [
+            "272532574-0012"
+          ]
+        },
+        {
+          "text": "Der zeitgenössische Wert der Stiftung Huntingtons von 1927 betrug rund 145.000 Dollar.",
+          "fact_ids": [
+            "272532574-0011"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0012",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Der in New York lebende Sohn des Eisenbahnmagnaten Collis P. Huntington übertrug der University of Texas at Austin 4000 Acres Land in Galveston, TX mit der Auflage, dass sie ein Kunstmuseum unterstützen sollte.",
+          "context": []
+        },
+        {
+          "id": "272532574-0011",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Das Blanton Museum of Art geht auf die Stiftung Archer M. Huntingtons im Jahr 1927 zurück, deren zeitgenössischer Wert rund 145.000 Dollar betrug.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Sohn des Eisenbahnmagnaten Collis P. Huntington in New York, Übertragung von 4000 Acres in Galveston an die University of Texas at Austin mit der Auflage, ein Kunstmuseum zu unterstützen (0012), und der zeitgenössische Wert von rund 145.000 Dollar (0011). Der Bezug zu Huntington ist eindeutig: Fakt 0011 nennt Archer M. Huntington, Fakt 0012 den Sohn, beide im selben Artikel, und die vorherige Frage nennt Huntington. Die Gleichsetzung ist daher unproblematisch. Die Stiftung in 0011 und die Landübertragung in 0012 werden nicht in eine neue Beziehung gesetzt, die keiner der Sätze nennt. Der Redebeitrag enthält keine Fragen und keine unbelegten Zusatzangaben."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Felix",
+      "text": "Land also, kein Bargeld. Und was wurde aus diesem Land?",
+      "previous_text": "Huntington war der in New York lebende Sohn des Eisenbahnmagnaten Collis P. Huntington. Er übertrug der University of Texas at Austin viertausend Acres Land in Galveston, Texas. Dabei gab es eine Auflage: Die Universität sollte ein Kunstmuseum unterstützen. Der damalige Wert dieser Stiftung betrug rund einhundertfünfundvierzigtausend Dollar.",
+      "fact_ids": [
+        "272532574-0012"
+      ],
+      "statements": [
+        {
+          "text": "Huntington übertrug der Universität Land in Galveston.",
+          "fact_ids": [
+            "272532574-0012"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0012",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Der in New York lebende Sohn des Eisenbahnmagnaten Collis P. Huntington übertrug der University of Texas at Austin 4000 Acres Land in Galveston, TX mit der Auflage, dass sie ein Kunstmuseum unterstützen sollte.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.75
+        },
+        "jev_error": null,
+        "reason": "„Land also, kein Bargeld“ greift das von Lena Gesagte und Fakt 0012 (Übertragung von 4000 Acres Land) wieder auf und ist durch den Fakt gedeckt. „Und was wurde aus diesem Land?“ ist eine Nachfrage, die nur voraussetzt, dass es dazu etwas zu erzählen gibt, und keine Einzelheit vorwegnimmt. Es gibt keine unbelegte Prämisse und keine neue Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Lena",
+      "text": "Die Einnahmen aus dem Verkauf des Landes bildeten ein Endowment. Aus diesem Endowment finanzierte sich der Betrieb eines Museums. Es trug außerdem sechshunderttausend Dollar zu den Baukosten des University Art Museums bei. Dieses Haus wurde neunzehnhundertdreiundsechzig errichtet und kostete eineinhalb Millionen Dollar.",
+      "previous_text": "Land also, kein Bargeld. Und was wurde aus diesem Land?",
+      "fact_ids": [
+        "272532574-0015"
+      ],
+      "statements": [
+        {
+          "text": "Die Einnahmen aus dem Verkauf des Landes bildeten ein Endowment, aus dem sich der Betrieb eines Museums finanzierte.",
+          "fact_ids": [
+            "272532574-0015"
+          ]
+        },
+        {
+          "text": "Das Endowment trug 600.000 Dollar zu den Baukosten von 1,5 Millionen Dollar des 1963 errichteten University Art Museums bei.",
+          "fact_ids": [
+            "272532574-0015"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0015",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Die Einnahmen aus dem Verkauf des Landes bildeten ein Endowment, aus dem sich der Betrieb eines Museums finanzierte und das 600.000 Dollar zu den Baukosten von 1,5 Millionen Dollar des 1963 errichteten University Art Museums beitrug.",
+          "context": [
+            "Der in New York lebende Sohn des Eisenbahnmagnaten Collis P. Huntington übertrug der University of Texas at Austin 4000 Acres Land in Galveston, TX mit der Auflage, dass sie ein Kunstmuseum unterstützen sollte.",
+            "Das Engagement Huntingtons scheint auf seine Ehefrau, die Bildhauerin Anna Hyatt Huntington zurückgegangen zu sein, da der Universität kurz zuvor zwei ihrer Skulpturen geschenkt worden waren.",
+            "Eine dieser Skulpturen, Diana of the Chase, hatte die Ehefrau des Bundesrichters am Bundesbezirksgericht Thomas Sheldon Maxey gestiftet."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 5,
+      "speaker": "Felix",
+      "text": "Und wie entwickelte sich dieses Endowment weiter?",
+      "previous_text": "Die Einnahmen aus dem Verkauf des Landes bildeten ein Endowment. Aus diesem Endowment finanzierte sich der Betrieb eines Museums. Es trug außerdem sechshunderttausend Dollar zu den Baukosten des University Art Museums bei. Dieses Haus wurde neunzehnhundertdreiundsechzig errichtet und kostete eineinhalb Millionen Dollar.",
+      "fact_ids": [
+        "272532574-0015"
+      ],
+      "statements": [
+        {
+          "text": "Aus den Einnahmen des Landverkaufs entstand ein Endowment.",
+          "fact_ids": [
+            "272532574-0015"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0015",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Die Einnahmen aus dem Verkauf des Landes bildeten ein Endowment, aus dem sich der Betrieb eines Museums finanzierte und das 600.000 Dollar zu den Baukosten von 1,5 Millionen Dollar des 1963 errichteten University Art Museums beitrug.",
+          "context": [
+            "Der in New York lebende Sohn des Eisenbahnmagnaten Collis P. Huntington übertrug der University of Texas at Austin 4000 Acres Land in Galveston, TX mit der Auflage, dass sie ein Kunstmuseum unterstützen sollte.",
+            "Das Engagement Huntingtons scheint auf seine Ehefrau, die Bildhauerin Anna Hyatt Huntington zurückgegangen zu sein, da der Universität kurz zuvor zwei ihrer Skulpturen geschenkt worden waren.",
+            "Eine dieser Skulpturen, Diana of the Chase, hatte die Ehefrau des Bundesrichters am Bundesbezirksgericht Thomas Sheldon Maxey gestiftet."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Lena",
+      "text": "Der Archer M. Huntington Museum Fund wuchs bis zum Jahr zweitausend auf rund fünfundzwanzig Millionen Dollar an. In diesem einen Jahr wurden davon rund achthunderttausend Dollar ausgeschüttet.",
+      "previous_text": "Und wie entwickelte sich dieses Endowment weiter?",
+      "fact_ids": [
+        "272532574-0016"
+      ],
+      "statements": [
+        {
+          "text": "Bis zum Jahr 2000 wuchs der Archer M. Huntington Museum Fund auf rund 25 Millionen Dollar an.",
+          "fact_ids": [
+            "272532574-0016"
+          ]
+        },
+        {
+          "text": "In diesem Jahr wurden davon rund 800.000 Dollar ausgeschüttet.",
+          "fact_ids": [
+            "272532574-0016"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0016",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Bis zum Jahr 2000 wuchs der Archer M. Huntington Museum Fund auf rund 25 Millionen Dollar an, von denen in diesem Jahr rund 800.000 Dollar ausgeschüttet wurden.",
+          "context": [
+            "Die Einnahmen aus dem Verkauf des Landes bildeten ein Endowment, aus dem sich der Betrieb eines Museums finanzierte und das 600.000 Dollar zu den Baukosten von 1,5 Millionen Dollar des 1963 errichteten University Art Museums beitrug."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Lena",
+      "text": "Mit dem Vermächtnis von zehn Millionen Dollar von Mari Sabusawa Michener startete neunzehnhundertvierundneunzig die Kampagne für ein neues Museumsgebäude. Mari Sabusawa Michener hatte schon seit den Achtzigerjahren beim Präsidenten der Universität, William Cunningham, für einen neuen Museumsbau Lobbyarbeit geleistet.",
+      "previous_text": "Gut, die Finanzen sind damit klar. Und wie ging es dann weiter?",
+      "fact_ids": [
+        "272532574-0060"
+      ],
+      "statements": [
+        {
+          "text": "Mit dem Vermächtnis von 10 Millionen Dollar von Mari Sabusawa Michener startete 1994 die Kampagne für ein neues Museumsgebäude.",
+          "fact_ids": [
+            "272532574-0060"
+          ]
+        },
+        {
+          "text": "Sie hatte bereits seit den 1980er-Jahren beim Universitätspräsidenten William Cunningham für einen neuen Museumsbau Lobbyarbeit geleistet.",
+          "fact_ids": [
+            "272532574-0060"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0060",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Mit dem Vermächtnis von 10 Millionen Dollar von Mari Sabusawa Michener startete 1994 die Kampagne für ein neues Museumsgebäude, nachdem sie bereits seit den 1980er-Jahren beim Präsidenten der Universität, William Cunningham, für einen neuen Museumsbau Lobbyarbeit geleistet hatte.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: Vermächtnis von zehn Millionen Dollar, Start der Kampagne 1994 und die Lobbyarbeit seit den 1980er-Jahren bei Präsident William Cunningham. Der Redebeitrag enthält keine zusätzlichen Angaben, keine Frage und keine unbelegten Prämissen. Der Gegenstand ist eindeutig, da der Artikel das Blanton Museum of Art behandelt und der Redebeitrag den Bezug nicht verändert."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 9,
+      "speaker": "Felix",
+      "text": "Wer sollte das neue Gebäude denn entwerfen?",
+      "previous_text": "Mit dem Vermächtnis von zehn Millionen Dollar von Mari Sabusawa Michener startete neunzehnhundertvierundneunzig die Kampagne für ein neues Museumsgebäude. Mari Sabusawa Michener hatte schon seit den Achtzigerjahren beim Präsidenten der Universität, William Cunningham, für einen neuen Museumsbau Lobbyarbeit geleistet.",
+      "fact_ids": [
+        "272532574-0060"
+      ],
+      "statements": [
+        {
+          "text": "Für ein neues Museumsgebäude startete eine Kampagne.",
+          "fact_ids": [
+            "272532574-0060"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0060",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Mit dem Vermächtnis von 10 Millionen Dollar von Mari Sabusawa Michener startete 1994 die Kampagne für ein neues Museumsgebäude, nachdem sie bereits seit den 1980er-Jahren beim Präsidenten der Universität, William Cunningham, für einen neuen Museumsbau Lobbyarbeit geleistet hatte.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine Nachfrage bzw. Überleitungsfrage: „Wer sollte das neue Gebäude denn entwerfen?“ Sie knüpft an das im vorherigen Beitrag genannte neue Museumsgebäude an. Dass es ein neues Gebäude geben soll, ist durch den Fakt-Satz gedeckt. Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern fragt nur nach etwas Neuem. Sie ist daher belegfrei und enthält keine unbelegte Prämisse."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "Lena",
+      "text": "Einen Entwurf für das Blanton Museum legte neunzehnhundertneunundneunzig das Büro Herzog & de Meuron vor. Es ist ein international bedeutendes Architekturbüro mit Sitz in Basel in der Schweiz. Die Schweizer Architekten Jacques Herzog und Pierre de Meuron gründeten es 1978. Der Entwurf stieß bei zwei Mitgliedern des University of Texas Board of Regents auf scharfe Ablehnung.",
+      "previous_text": "Wer sollte das neue Gebäude denn entwerfen?",
+      "fact_ids": [
+        "272532574-0071",
+        "271619464-0000"
+      ],
+      "statements": [
+        {
+          "text": "Herzog & de Meuron legten 1999 einen Entwurf für das Blanton Museum of Art vor.",
+          "fact_ids": [
+            "272532574-0071"
+          ]
+        },
+        {
+          "text": "Herzog & de Meuron ist ein 1978 von den Schweizer Architekten Jacques Herzog und Pierre de Meuron gegründetes, international bedeutendes Architekturbüro mit Sitz in Basel in der Schweiz.",
+          "fact_ids": [
+            "271619464-0000"
+          ]
+        },
+        {
+          "text": "Der Entwurf stieß bei zwei Mitgliedern des University of Texas Board of Regents auf scharfe Ablehnung.",
+          "fact_ids": [
+            "272532574-0071"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0071",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "1999 legten Herzog & de Meuron einen Entwurf für das Blanton Museum of Art vor, der bei zwei Mitgliedern des University of Texas Board of Regents auf scharfe Ablehnung stieß.",
+          "context": []
+        },
+        {
+          "id": "271619464-0000",
+          "article": "Herzog & de Meuron",
+          "revid": 271619464,
+          "sentence": "Herzog & de Meuron ist ein 1978 von den Schweizer Architekten Jacques Herzog (* 19. April 1950 in Basel) und Pierre de Meuron (* 8. Mai 1950 in Basel) gegründetes, international bedeutendes Architekturbüro mit Sitz in Basel in der Schweiz.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.91
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den beiden Fakt-Sätzen: Entwurf 1999 von Herzog & de Meuron für das Blanton Museum, scharfe Ablehnung durch zwei Mitglieder des Board of Regents (Fakt 1); internationales Architekturbüro mit Sitz in Basel, 1978 von Jacques Herzog und Pierre de Meuron gegründet (Fakt 2). Gegenstand ist eindeutig, da das Büro genannt wird. Der Redebeitrag enthält keine zusätzlichen Angaben und keine Fragen mit Prämissen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 11,
+      "speaker": "Felix",
+      "text": "Was störte die beiden Regents an diesem Entwurf?",
+      "previous_text": "Einen Entwurf für das Blanton Museum legte neunzehnhundertneunundneunzig das Büro Herzog & de Meuron vor. Es ist ein international bedeutendes Architekturbüro mit Sitz in Basel in der Schweiz. Die Schweizer Architekten Jacques Herzog und Pierre de Meuron gründeten es 1978. Der Entwurf stieß bei zwei Mitgliedern des University of Texas Board of Regents auf scharfe Ablehnung.",
+      "fact_ids": [
+        "272532574-0071"
+      ],
+      "statements": [
+        {
+          "text": "Zwei Mitglieder des Board of Regents lehnten den Entwurf scharf ab.",
+          "fact_ids": [
+            "272532574-0071"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0071",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "1999 legten Herzog & de Meuron einen Entwurf für das Blanton Museum of Art vor, der bei zwei Mitgliedern des University of Texas Board of Regents auf scharfe Ablehnung stieß.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.87
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine Nachfrage nach den Gründen der Ablehnung. Die Prämisse, dass zwei Regents den Entwurf ablehnten, steht im Fakt-Satz und im vorherigen Beitrag. Die Frage nimmt keine Einzelheit vorweg, die erst die Antwort liefern würde, und 'an diesem Entwurf' bezieht sich eindeutig auf den Entwurf von Herzog & de Meuron."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "Lena",
+      "text": "Die beiden Regents forderten rote Dachziegel für das Gebäude. Sie wollten damit an die Teile des Campus anknüpfen, die Paul Cret vor dem Zweiten Weltkrieg entworfen hatte.",
+      "previous_text": "Was störte die beiden Regents an diesem Entwurf?",
+      "fact_ids": [
+        "272532574-0072"
+      ],
+      "statements": [
+        {
+          "text": "Die beiden Regents forderten rote Dachziegel für das Gebäude, um an die von Paul Cret vor dem Zweiten Weltkrieg entworfenen Teile des Campus anzuknüpfen.",
+          "fact_ids": [
+            "272532574-0072"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0072",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Sie forderten rote Dachziegel für das Gebäude, um an die von Paul Cret vor dem Zweiten Weltkrieg entworfenen Teile des Campus anzuknüpfen.",
+          "context": [
+            "1999 legten Herzog & de Meuron einen Entwurf für das Blanton Museum of Art vor, der bei zwei Mitgliedern des University of Texas Board of Regents auf scharfe Ablehnung stieß."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.9
+        },
+        "jev_error": null,
+        "reason": "Beide Sätze folgen aus dem Fakt-Satz: Die beiden Regents forderten rote Dachziegel, um an die von Paul Cret vor dem Zweiten Weltkrieg entworfenen Campusteile anzuknüpfen. „Sie“ bezieht sich eindeutig auf die zuvor genannten Regents, und „dieser Entwurf“ sowie „das Gebäude“ meinen das Blanton Museum, das Thema des Artikels. Es kommen keine zusätzlichen Angaben und keine Fragen vor."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 14,
+      "speaker": "Lena",
+      "text": "Das Büro Herzog & de Meuron wurde als Architekt entlassen. Die Architekten hatten dabei nicht einmal die Gelegenheit, ihre Pläne zu überarbeiten. Als das geschah, trat der Dean der School of Architecture, Lawrence Speck, zurück.",
+      "previous_text": "Und was geschah dann?",
+      "fact_ids": [
+        "272532574-0073"
+      ],
+      "statements": [
+        {
+          "text": "Als die Architekten entlassen wurden, ohne die Gelegenheit zu haben, ihre Pläne zu überarbeiten, trat der Dean der School of Architecture, Lawrence Speck, zurück.",
+          "fact_ids": [
+            "272532574-0073"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0073",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Als die Architekten entlassen wurden, ohne dass sie die Gelegenheit hatten, ihre Pläne zu überarbeiten, trat der Dean der School of Architecture, Lawrence Speck zurück.",
+          "context": [
+            "1999 legten Herzog & de Meuron einen Entwurf für das Blanton Museum of Art vor, der bei zwei Mitgliedern des University of Texas Board of Regents auf scharfe Ablehnung stieß.",
+            "Sie forderten rote Dachziegel für das Gebäude, um an die von Paul Cret vor dem Zweiten Weltkrieg entworfenen Teile des Campus anzuknüpfen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.71
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Die Architekten wurden entlassen, ohne ihre Pläne überarbeiten zu können, und Dean Lawrence Speck trat zurück. Dass mit „den Architekten“ Herzog & de Meuron gemeint sind, bestimmt der Kontext (sie legten den Entwurf für das Blanton Museum vor). Das Auflösen des Bezugs ist erlaubt. Die vorherige Frage „Und was geschah dann?“ ist eine reine Überleitung, die Antwort bezieht sich auf denselben Gegenstand. Zusätzliche Angaben gibt es nicht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 16,
+      "speaker": "Lena",
+      "text": "Im April zweitausendsechs eröffnete das neue Museumsgebäude. Wegen der Konflikte im Planungsprozess hatte es vier Jahre Verspätung. Die Eröffnung war eine Woche voller Events, die zweiundzwanzigtausend Besucher wahrnahmen. Dazu gehörte die vierundzwanzigstündige Eröffnung des Gebäudes selbst.",
+      "previous_text": "Wow. Und wie ging es mit dem Bau weiter?",
+      "fact_ids": [
+        "272532574-0086"
+      ],
+      "statements": [
+        {
+          "text": "Im April 2006 eröffnete das neue Museumsgebäude aufgrund der Konflikte im Planungsprozess mit vier Jahren Verspätung, mit einer Woche von Events, die von 22.000 Besuchern wahrgenommen wurden, darunter die 24-Stunden-Eröffnung des Gebäudes selbst.",
+          "fact_ids": [
+            "272532574-0086"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0086",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Im April 2006 eröffnete das neue Museumsgebäude – aufgrund der Konflikte im Planungsprozess mit vier Jahren Verspätung – mit einer Woche von Events, die von 22.000 Besuchern wahrgenommen wurden, darunter die 24-Stunden-Eröffnung des Gebäudes selbst.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 18,
+      "speaker": "Lena",
+      "text": "Bei Fertigstellung hatte das Blanton Museum of Art über sechzehntausendsiebenhundert Quadratmeter. Damit war es flächenmäßig das größte Kunstmuseum einer Universität. Es lag vor dem Wexner Center for the Arts der Ohio State University und dem Fogg Art Museum der Harvard University.",
+      "previous_text": "Wie groß wurde das Haus eigentlich?",
+      "fact_ids": [
+        "272532574-0107"
+      ],
+      "statements": [
+        {
+          "text": "Bei Fertigstellung war das Blanton Museum of Art mit über 16.700 Quadratmetern flächenmäßig das größte Kunstmuseum einer Universität vor dem Wexner Center for the Arts der Ohio State University und dem Fogg Art Museum der Harvard University.",
+          "fact_ids": [
+            "272532574-0107"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0107",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Bei Fertigstellung war das Blanton Museum of Art mit über 16.700 Quadratmetern flächenmäßig das größte Kunstmuseum einer Universität vor dem Wexner Center for the Arts der Ohio State University und dem Fogg Art Museum der Harvard University.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 20,
+      "speaker": "Lena",
+      "text": "Das Blanton Museum of Art gehört mit seiner Besucherzahl und der Anzahl seiner Mitglieder zu den führenden Kunstmuseen in Texas. Es lässt die meisten anderen Universitätskunstmuseen in den Vereinigten Staaten hinter sich. Bei der Eröffnung des eigenen Gebäudes im Jahr zweitausendsechs stand es noch deutlich hinter Institutionen wie dem Kimbell Art Museum in Fort Worth und dem Museum of Fine Arts in Houston zurück.",
+      "previous_text": "Und wie hat sich das Museum seitdem entwickelt?",
+      "fact_ids": [
+        "272532574-0304"
+      ],
+      "statements": [
+        {
+          "text": "Das Blanton Museum of Art gehört mit Besucherzahl und Mitgliederzahl zu den führenden Kunstmuseen in Texas und lässt die meisten anderen Universitätskunstmuseen in den USA hinter sich, nachdem es bei der Eröffnung des eigenen Gebäudes 2006 noch deutlich hinter dem Kimbell Art Museum in Fort Worth und dem Museum of Fine Arts in Houston zurückstand.",
+          "fact_ids": [
+            "272532574-0304"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0304",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Das Blanton Museum of Art gehört mit seiner Besucherzahl und der Anzahl seiner Mitglieder zu den führenden Kunstmuseen in Texas und lässt die meisten anderen Universitätskunstmuseen in den Vereinigten Staaten hinter sich, nachdem es bei Eröffnung des eigenen Museumsgebäudes im Jahr 2006 noch deutlich hinter Institutionen wie dem Kimbell Art Museum in Fort Worth und dem Museum of Fine Arts in Houston zurückstand.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Lena",
+      "text": "Das Blanton Museum teilte sich das neue Gebäude mit dem Institut für Kunst. Das Institut war seit neunzehnhundertachtundvierzig in vier Militärbaracken aus dem Zweiten Weltkrieg untergebracht.",
+      "previous_text": "Und wie ging es mit dem neuen Gebäude weiter?",
+      "fact_ids": [
+        "272532574-0017"
+      ],
+      "statements": [
+        {
+          "text": "Das Blanton Museum teilte sich das neue Gebäude mit dem Institut für Kunst.",
+          "fact_ids": [
+            "272532574-0017"
+          ]
+        },
+        {
+          "text": "Das Institut für Kunst war seit 1948 in vier Militärbaracken aus dem Zweiten Weltkrieg untergebracht.",
+          "fact_ids": [
+            "272532574-0017"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0017",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Das Museum teilte sich das neue Gebäude mit dem Institut für Kunst, das seit 1948 in vier Militärbaracken aus dem Zweiten Weltkrieg untergebracht war.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.98,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Lena",
+      "text": "Von Februar zweitausendeinundzwanzig bis Mai zweitausenddreiundzwanzig wurde der Platz zwischen den Museumsgebäuden umgestaltet. Das norwegisch-amerikanische Architekturbüro Snøhetta führte die Arbeiten aus. Die Umgestaltung kostete fünfunddreißig Millionen Dollar. Snøhetta nahm außerdem einige Eingriffe in die bestehende Gebäudearchitektur vor. Dazu kamen öffentliche Kunstwerke, etwa das Wandbild Green How I Desire You Green von Carmen Herrera.",
+      "previous_text": "Und was ist mit dem Außengelände?",
+      "fact_ids": [
+        "272532574-0099"
+      ],
+      "statements": [
+        {
+          "text": "Von Februar 2021 bis Mai 2023 wurde der Platz zwischen den Museumsgebäuden für 35 Millionen Dollar vom norwegisch-amerikanischen Architekturbüro Snøhetta umgestaltet, einige Eingriffe in die bestehende Gebäudearchitektur wurden vorgenommen sowie öffentliche Kunstwerke wie das Wandbild Green How I Desire You Green von Carmen Herrera ergänzt.",
+          "fact_ids": [
+            "272532574-0099"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0099",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Von Februar 2021 bis Mai 2023 wurde der Platz zwischen den Museumsgebäuden für 35 Millionen Dollar vom norwegisch-amerikanischen Architekturbüro Snøhetta umgestaltet, einige Eingriffe in die bestehende Gebäudearchitektur vorgenommen sowie öffentliche Kunstwerke wie das Wandbild Green How I Desire You Green von Carmen Herrera ergänzt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.37
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen direkt aus dem Fakt-Satz: Zeitraum Februar 2021 bis Mai 2023, Umgestaltung des Platzes zwischen den Museumsgebäuden, Snøhetta als norwegisch-amerikanisches Büro, 35 Millionen Dollar, Eingriffe in die bestehende Gebäudearchitektur und das Wandbild von Carmen Herrera. Der Gegenstand ist eindeutig (Blanton Museum of Art, Außengelände). Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 25,
+      "speaker": "Felix",
+      "text": "Wer hat das bezahlt?",
+      "previous_text": "Von Februar zweitausendeinundzwanzig bis Mai zweitausenddreiundzwanzig wurde der Platz zwischen den Museumsgebäuden umgestaltet. Das norwegisch-amerikanische Architekturbüro Snøhetta führte die Arbeiten aus. Die Umgestaltung kostete fünfunddreißig Millionen Dollar. Snøhetta nahm außerdem einige Eingriffe in die bestehende Gebäudearchitektur vor. Dazu kamen öffentliche Kunstwerke, etwa das Wandbild Green How I Desire You Green von Carmen Herrera.",
+      "fact_ids": [
+        "272532574-0099"
+      ],
+      "statements": [
+        {
+          "text": "Der Platz zwischen den Museumsgebäuden wurde für 35 Millionen Dollar umgestaltet.",
+          "fact_ids": [
+            "272532574-0099"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0099",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Von Februar 2021 bis Mai 2023 wurde der Platz zwischen den Museumsgebäuden für 35 Millionen Dollar vom norwegisch-amerikanischen Architekturbüro Snøhetta umgestaltet, einige Eingriffe in die bestehende Gebäudearchitektur vorgenommen sowie öffentliche Kunstwerke wie das Wandbild Green How I Desire You Green von Carmen Herrera ergänzt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag \"Wer hat das bezahlt?\" ist eine Nachfrage und damit belegfrei. Er setzt nur voraus, dass die Umgestaltung Kosten verursachte, und das hat Lena zuvor gesagt (35 Millionen Dollar, Fakt 0099). Er nimmt keine Einzelheit vorweg, die erst die Antwort liefert, etwa wer der Geldgeber war."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 26,
+      "speaker": "Lena",
+      "text": "Zwanzig Millionen Dollar für diese Arbeiten stellte die Moody Foundation im Jahr zweitausendneunzehn zur Verfügung. Deshalb trägt das Außengelände heute den Namen Moody Plaza.",
+      "previous_text": "Wer hat das bezahlt?",
+      "fact_ids": [
+        "272532574-0100"
+      ],
+      "statements": [
+        {
+          "text": "20 Millionen Dollar für diese Arbeiten stellte die Moody Foundation 2019 zur Verfügung, weshalb das Außengelände nun den Namen Moody Plaza trägt.",
+          "fact_ids": [
+            "272532574-0100"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0100",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "20 Millionen Dollar für diese Arbeiten stellte die Moody Foundation 2019 zur Verfügung, weshalb das Außengelände nun den Namen Moody Plaza trägt.",
+          "context": [
+            "Von Februar 2021 bis Mai 2023 wurde der Platz zwischen den Museumsgebäuden für 35 Millionen Dollar vom norwegisch-amerikanischen Architekturbüro Snøhetta umgestaltet, einige Eingriffe in die bestehende Gebäudearchitektur vorgenommen sowie öffentliche Kunstwerke wie das Wandbild Green How I Desire You Green von Carmen Herrera ergänzt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 28,
+      "speaker": "Lena",
+      "text": "Michael Agresta lobte die Verbesserungen für die Besucher. Die Besucher hätten sie gut angenommen. Er kritisierte jedoch die eher ambitionslose Sound Galerie. Sie hatte fünf Millionen Dollar gekostet und lässt über Lautsprecherröhren von Bill Fontana gesammelte Naturgeräusche aus Zentraltexas erklingen.",
+      "previous_text": "Wie wurde das Museum von außen beurteilt?",
+      "fact_ids": [
+        "272532574-0140"
+      ],
+      "statements": [
+        {
+          "text": "Michael Agresta lobte die Verbesserungen für die Besucher, die diese gut angenommen hätten, kritisierte jedoch die eher ambitionslose Sound Galerie, die fünf Millionen Dollar gekostet hatte und über Lautsprecherröhren von Bill Fontana gesammelte Naturgeräusche aus Zentraltexas erklingen lässt.",
+          "fact_ids": [
+            "272532574-0140"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0140",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Michael Agresta lobte die Verbesserungen für die Besucher, die diese gut angenommen hätten, kritisierte jedoch die eher ambitionslose Sound Galerie, die fünf Millionen Dollar gekostet hatte und über Lautsprecherröhren von Bill Fontana gesammelte Naturgeräusche aus Zentraltexas erklingen lässt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Lena",
+      "text": "Die Geschichte der Erwerbung von Ellsworth Kellys Werk Austin ist umstritten. Das Museum verweist darauf, dass die Kelly-Sammler Mickey und Jeanne Klein den Kontakt zum Künstler hergestellt hätten. Der Galerist Hiram Butler aus Houston fand dabei keine Erwähnung. Er hatte das Projekt bereits längere Zeit verfolgt und die Verbindung mit der University of Texas at Austin hergestellt.",
+      "previous_text": "Gab es bei einzelnen Erwerbungen etwas zu berichten?",
+      "fact_ids": [
+        "272532574-0096"
+      ],
+      "statements": [
+        {
+          "text": "Die Geschichte dieser Erwerbung ist umstritten, da das Museum darauf verweist, dass die Kelly-Sammler Mickey und Jeanne Klein den Kontakt zum Künstler hergestellt hätten, während der Galerist Hiram Butler aus Houston, der das Projekt bereits längere Zeit verfolgt und die Verbindung mit der University of Texas at Austin hergestellt hatte, keine Erwähnung fand.",
+          "fact_ids": [
+            "272532574-0096"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0096",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Die Geschichte dieser Erwerbung ist umstritten, da von Seiten des Museums darauf verwiesen wird, dass die Kelly-Sammler Mickey und Jeanne Klein den Kontakt zum Künstler hergestellt hätten, während der Galerist Hiram Butler aus Houston, der das Projekt bereits längere Zeit verfolgt und die Verbindung mit der University of Texas at Austin hergestellt hatte, keine Erwähnung fand.",
+          "context": [
+            "2015 schenkte Ellsworth Kelly dem Blanton Museum of Art das architektonische Kunstwerk Austin, das nach einer Spendensammlung von 23 Millionen Dollar zur Finanzierung des Baus Ende 2017 vollendet wurde.",
+            "Das Museum richtete eine Stiftung von einer Million Dollar, die dem Unterhalt und der Erforschung von Kellys Werk dient."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Die Erwerbung ist umstritten, das Museum verweist auf Mickey und Jeanne Klein als Vermittler des Kontakts zu Kelly, und Hiram Butler aus Houston, der das Projekt länger verfolgt und die Verbindung zur University of Texas at Austin hergestellt hatte, fand keine Erwähnung. Der Bezug „dieser Erwerbung“ wird korrekt zu Ellsworth Kellys Werk Austin aufgelöst, was der Kontext und der Artikel (Blanton Museum of Art) bestimmen. Es gibt keine zusätzlichen Angaben und keine Fragen mit unbelegten Prämissen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 31,
+      "speaker": "Felix",
+      "text": "Gibt es ein weiteres Beispiel in diesem Zusammenhang?",
+      "previous_text": "Die Geschichte der Erwerbung von Ellsworth Kellys Werk Austin ist umstritten. Das Museum verweist darauf, dass die Kelly-Sammler Mickey und Jeanne Klein den Kontakt zum Künstler hergestellt hätten. Der Galerist Hiram Butler aus Houston fand dabei keine Erwähnung. Er hatte das Projekt bereits längere Zeit verfolgt und die Verbindung mit der University of Texas at Austin hergestellt.",
+      "fact_ids": [
+        "272532574-0096"
+      ],
+      "statements": [
+        {
+          "text": "Die Geschichte einer Erwerbung des Museums ist umstritten.",
+          "fact_ids": [
+            "272532574-0096"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0096",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Die Geschichte dieser Erwerbung ist umstritten, da von Seiten des Museums darauf verwiesen wird, dass die Kelly-Sammler Mickey und Jeanne Klein den Kontakt zum Künstler hergestellt hätten, während der Galerist Hiram Butler aus Houston, der das Projekt bereits längere Zeit verfolgt und die Verbindung mit der University of Texas at Austin hergestellt hatte, keine Erwähnung fand.",
+          "context": [
+            "2015 schenkte Ellsworth Kelly dem Blanton Museum of Art das architektonische Kunstwerk Austin, das nach einer Spendensammlung von 23 Millionen Dollar zur Finanzierung des Baus Ende 2017 vollendet wurde.",
+            "Das Museum richtete eine Stiftung von einer Million Dollar, die dem Unterhalt und der Erforschung von Kellys Werk dient."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 32,
+      "speaker": "Lena",
+      "text": "Ein möglicherweise erhellendes Beispiel ist das scheinbare Herunterspielen der schwulen Geschichte von Kellys Regenbogenkapelle. Das Museum bezeichnete sie als aktuellen Aspekt, als die Kapelle zweitausendachtzehn der Öffentlichkeit übergeben wurde.",
+      "previous_text": "Gibt es ein weiteres Beispiel in diesem Zusammenhang?",
+      "fact_ids": [
+        "272532574-0098"
+      ],
+      "statements": [
+        {
+          "text": "Ein möglicherweise erhellendes Beispiel ist das scheinbare Herunterspielen der schwulen Geschichte von Kellys Regenbogenkapelle als aktueller Aspekt durch das Museum, als sie 2018 der Öffentlichkeit übergeben wurde.",
+          "fact_ids": [
+            "272532574-0098"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0098",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "(Ein möglicherweise erhellendes Beispiel dafür ist das scheinbare Herunterspielen der schwulen Geschichte von Kellys Regenbogenkapelle als ‚aktueller Aspekt‘ durch das Museum, als sie 2018 der Öffentlichkeit übergeben wurde.)“",
+          "context": [
+            "Michael Agresta ordnete diese Situation so ein: „Es ist ein schwieriger Balanceakt, eine zukunftsorientierte, trendsettende Institution zu sein, wenn man auch, als Teil einer öffentlichen Universität, ein Apparat eines der konservativsten Staaten der Vereinigten Staaten ist."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.87
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich korrekt wieder: das scheinbare Herunterspielen der schwulen Geschichte von Kellys Regenbogenkapelle als „aktueller Aspekt“ durch das Museum, als sie 2018 der Öffentlichkeit übergeben wurde. Es kommen keine zusätzlichen Angaben hinzu, und der Gegenstand (Blanton Museum, Kellys Kapelle) ist eindeutig. Der Redebeitrag enthält keine Fragen und nur belegte Aussagen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 34,
+      "speaker": "Lena",
+      "text": "Das Museum hatte nur geringe Ankaufsmittel. Beim Ausbau der Sammlung war es deshalb auf private Zuwendungen angewiesen. Von neunzehnhundertachtundsechzig bis in die frühen Neunzigerjahre schenkten der Romanautor und Pulitzerpreisträger James Michener und seine Frau Mari Sabusawa Michener dem Museum rund dreihundert Werke der amerikanischen Malerei des zwanzigsten Jahrhunderts. Nach den beiden ist das heutige Ausstellungsgebäude benannt.",
+      "previous_text": "Kommen wir zur Sammlung. Wie wurde sie aufgebaut?",
+      "fact_ids": [
+        "272532574-0032"
+      ],
+      "statements": [
+        {
+          "text": "Aufgrund der geringen Ankaufsmittel war das Museum beim Ausbau der Sammlung auf private Zuwendungen angewiesen: Von 1968 bis in die frühen 1990er-Jahre schenkten der Romanautor und Pulitzerpreisträger James Michener und seine Frau Mari Sabusawa Michener, nach denen das heutige Ausstellungsgebäude benannt ist, dem Museum rund 300 Werke der amerikanischen Malerei des 20. Jahrhunderts.",
+          "fact_ids": [
+            "272532574-0032"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0032",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Aufgrund der geringen Ankaufsmittel war das Museum beim Ausbau der Sammlung auf private Zuwendungen angewiesen: Von 1968 bis in die frühen 1990er-Jahre schenkten der Romanautor und Pulitzerpreisträger James Michener und seine Frau Mari Sabusawa Michener, nach denen das heutige Ausstellungsgebäude benannt ist, dem Museum rund 300 Werke der amerikanischen Malerei des 20. Jahrhunderts.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 35,
+      "speaker": "Felix",
+      "text": "Wie lief die Schenkung ab?",
+      "previous_text": "Das Museum hatte nur geringe Ankaufsmittel. Beim Ausbau der Sammlung war es deshalb auf private Zuwendungen angewiesen. Von neunzehnhundertachtundsechzig bis in die frühen Neunzigerjahre schenkten der Romanautor und Pulitzerpreisträger James Michener und seine Frau Mari Sabusawa Michener dem Museum rund dreihundert Werke der amerikanischen Malerei des zwanzigsten Jahrhunderts. Nach den beiden ist das heutige Ausstellungsgebäude benannt.",
+      "fact_ids": [
+        "272532574-0032"
+      ],
+      "statements": [
+        {
+          "text": "Die Micheners schenkten dem Museum Werke.",
+          "fact_ids": [
+            "272532574-0032"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0032",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Aufgrund der geringen Ankaufsmittel war das Museum beim Ausbau der Sammlung auf private Zuwendungen angewiesen: Von 1968 bis in die frühen 1990er-Jahre schenkten der Romanautor und Pulitzerpreisträger James Michener und seine Frau Mari Sabusawa Michener, nach denen das heutige Ausstellungsgebäude benannt ist, dem Museum rund 300 Werke der amerikanischen Malerei des 20. Jahrhunderts.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag \"Wie lief die Schenkung ab?\" ist eine reine Nachfrage nach Erklärung. Er greift die Schenkung auf, die Lena gerade genannt hat, und die Prämisse, dass es Schenkungen gab, folgt aus dem Fakt-Satz. Er nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Damit ist er belegfrei und erfüllt die Rubrik."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 36,
+      "speaker": "Lena",
+      "text": "Die Micheners schenkten die Werke in zwei Blöcken, in den Jahren neunzehnhundertachtundsechzig und neunzehnhunderteinundneunzig. Die meisten dieser Werke hingen nie in den privaten Räumlichkeiten der Micheners.",
+      "previous_text": "Wie lief die Schenkung ab?",
+      "fact_ids": [
+        "272532574-0167"
+      ],
+      "statements": [
+        {
+          "text": "Die Micheners schenkten die Werke, von denen die meisten nie in den privaten Räumlichkeiten hingen, in zwei Blöcken in den Jahren 1968 und 1991.",
+          "fact_ids": [
+            "272532574-0167"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0167",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Die Micheners schenkten die Werke, von denen die meisten nie in den privaten Räumlichkeiten hingen, in zwei Blöcken in den Jahren 1968 und 1991.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 37,
+      "speaker": "Felix",
+      "text": "Wow, das klingt nach einem großen Geschenk. Was waren das denn für Werke, die die Micheners da gegeben haben?",
+      "previous_text": "Die Micheners schenkten die Werke in zwei Blöcken, in den Jahren neunzehnhundertachtundsechzig und neunzehnhunderteinundneunzig. Die meisten dieser Werke hingen nie in den privaten Räumlichkeiten der Micheners.",
+      "fact_ids": [
+        "272532574-0167"
+      ],
+      "statements": [
+        {
+          "text": "Die Micheners haben Werke geschenkt.",
+          "fact_ids": [
+            "272532574-0167"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0167",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Die Micheners schenkten die Werke, von denen die meisten nie in den privaten Räumlichkeiten hingen, in zwei Blöcken in den Jahren 1968 und 1991.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.79
+        },
+        "jev_error": null,
+        "reason": "Felix' Beitrag besteht aus einer Reaktion (\"Wow, das klingt nach einem großen Geschenk\", ein Gefühl im Moment) und einer Nachfrage, welche Werke die Micheners gegeben haben. Die Nachfrage setzt nur voraus, dass es etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit vorweg. Dass die Micheners Werke schenkten, steht im vorherigen Beitrag und im Fakt-Satz. Der Beitrag enthält keine unbelegte Behauptung."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 38,
+      "speaker": "Lena",
+      "text": "Die Michener Collection machte den Kern des Bestandes aus. Sie ging vom Primat der Malerei aus. Außerdem fokussierte sie sich stark auf New York City als künstlerisches Zentrum.",
+      "previous_text": "Wow, das klingt nach einem großen Geschenk. Was waren das denn für Werke, die die Micheners da gegeben haben?",
+      "fact_ids": [
+        "272532574-0192"
+      ],
+      "statements": [
+        {
+          "text": "Die Michener Collection machte den Kern des Bestandes aus.",
+          "fact_ids": [
+            "272532574-0192"
+          ]
+        },
+        {
+          "text": "Die Michener Collection ging vom Primat der Malerei aus.",
+          "fact_ids": [
+            "272532574-0192"
+          ]
+        },
+        {
+          "text": "Die Michener Collection fokussierte sich stark auf New York City als künstlerisches Zentrum.",
+          "fact_ids": [
+            "272532574-0192"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0192",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Die Michener Collection, die den Kern des Bestandes ausmachte, ging vom Primat der Malerei aus und fokussierte sich zudem stark auf New York City als künstlerisches Zentrum.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 40,
+      "speaker": "Lena",
+      "text": "Die Sammlung lateinamerikanischer Kunst des zwanzigsten Jahrhunderts umfasst über viertausendfünfhundert Werke von mehr als sechshundert Künstlern. Sie gehört damit zu den größten und umfassendsten dieser Art in den Vereinigten Staaten. Dazu zählen neben ihr die Sammlungen des Museum of Modern Art in New York City, des Art Museum of the Americas des Office of American States in Washington D.C., des Museum of Fine Arts in Houston und des Phoenix Art Museum.",
+      "previous_text": "Was ist mit lateinamerikanischer Kunst?",
+      "fact_ids": [
+        "272532574-0215"
+      ],
+      "statements": [
+        {
+          "text": "Die Sammlung lateinamerikanischer Kunst des 20. Jahrhunderts im Blanton Museum gehört mit über 4500 Werken von mehr als 600 Künstlern neben denen des Museum of Modern Art in New York City, des Art Museum of the Americas des Office of American States in Washington D.C., des Museum of Fine Arts, Houston und des Phoenix Art Museum zu den größten und umfassendsten dieser Art in den Vereinigten Staaten.",
+          "fact_ids": [
+            "272532574-0215"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0215",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Die Sammlung lateinamerikanischer Kunst des 20. Jahrhunderts im Blanton Museum of Art gehört mit über 4500 Werken von mehr als 600 Künstlern neben denen des Museum of Modern Art in New York City, des Art Museum of the Americas des Office of American States in Washington D.C., des Museum of Fine Arts, Houston und des Phoenix Art Museum zu den größten und umfassendsten dieser Art in den Vereinigten Staaten.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.89
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: über 4500 Werke von mehr als 600 Künstlern, Zugehörigkeit zu den größten und umfassendsten Sammlungen dieser Art in den USA und die genannten Museen (MoMA, Art Museum of the Americas, MFA Houston, Phoenix Art Museum). Der Gegenstand ist eindeutig, denn der Artikel handelt vom Blanton Museum of Art, und die Sammlung ist die dortige. Dass Lena die Sammlung als „ihr“ bezeichnet, ist eine zulässige Auflösung des Bezugs. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 41,
+      "speaker": "Felix",
+      "text": "Wie fing diese Sammlung an?",
+      "previous_text": "Die Sammlung lateinamerikanischer Kunst des zwanzigsten Jahrhunderts umfasst über viertausendfünfhundert Werke von mehr als sechshundert Künstlern. Sie gehört damit zu den größten und umfassendsten dieser Art in den Vereinigten Staaten. Dazu zählen neben ihr die Sammlungen des Museum of Modern Art in New York City, des Art Museum of the Americas des Office of American States in Washington D.C., des Museum of Fine Arts in Houston und des Phoenix Art Museum.",
+      "fact_ids": [
+        "272532574-0215"
+      ],
+      "statements": [
+        {
+          "text": "Das Blanton Museum hat eine Sammlung lateinamerikanischer Kunst des 20. Jahrhunderts.",
+          "fact_ids": [
+            "272532574-0215"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0215",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Die Sammlung lateinamerikanischer Kunst des 20. Jahrhunderts im Blanton Museum of Art gehört mit über 4500 Werken von mehr als 600 Künstlern neben denen des Museum of Modern Art in New York City, des Art Museum of the Americas des Office of American States in Washington D.C., des Museum of Fine Arts, Houston und des Phoenix Art Museum zu den größten und umfassendsten dieser Art in den Vereinigten Staaten.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 42,
+      "speaker": "Lena",
+      "text": "Die lateinamerikanische Sammlung geht auf die Schenkung von zweihundert Gemälden und zwölfhundert Zeichnungen von Barbara Duncan ab dem Jahr neunzehnhunderteinundsiebzig zurück. Diese Schenkung begründete die frühe führende Stellung des Museums auf diesem Sammelgebiet.",
+      "previous_text": "Wie fing diese Sammlung an?",
+      "fact_ids": [
+        "272532574-0034"
+      ],
+      "statements": [
+        {
+          "text": "Die lateinamerikanische Sammlung geht auf die Schenkung von 200 Gemälden und 1200 Zeichnungen von Barbara Duncan ab dem Jahr 1971 zurück, die die frühe führende Stellung des Museums auf diesem Sammelgebiet begründete.",
+          "fact_ids": [
+            "272532574-0034"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0034",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Die lateinamerikanische Sammlung geht auf die Schenkung von 200 Gemälden und 1200 Zeichnungen von Barbara Duncan ab dem Jahr 1971 zurück, die die frühe führende Stellung des Museums auf diesem Sammelgebiet begründete.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 44,
+      "speaker": "Lena",
+      "text": "Neunzehnhundertachtundachtzig berief das Museum mit Mari Carmen Ramírez die erste Kuratorin für lateinamerikanische Kunst in den Vereinigten Staaten. Damit intensivierte es wieder die Aktivitäten in diesem Sammlungsbereich. Sie hatten nach Goodalls Ausscheiden als Direktor merklich nachgelassen.",
+      "previous_text": "Und wie ging es dort weiter?",
+      "fact_ids": [
+        "272532574-0224"
+      ],
+      "statements": [
+        {
+          "text": "1988 berief das Museum mit Mari Carmen Ramírez die erste Kuratorin für lateinamerikanische Kunst in den Vereinigten Staaten und intensivierte damit wieder die Aktivitäten in diesem Sammlungsbereich, die nach Goodalls Ausscheiden als Direktor merklich nachgelassen hatten.",
+          "fact_ids": [
+            "272532574-0224"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0224",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "1988 berief das Museum mit Mari Carmen Ramírez die erste Kuratorin für lateinamerikanische Kunst in den Vereinigten Staaten und intensivierte damit wieder die Aktivitäten in diesem Sammlungsbereich, die nach Goodalls Ausscheiden als Direktor merklich nachgelassen hatten.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: 1988, Mari Carmen Ramírez als erste Kuratorin für lateinamerikanische Kunst in den USA, Intensivierung der Aktivitäten, die nach Goodalls Ausscheiden als Direktor nachgelassen hatten. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämissen. Der Gegenstand (das Blanton Museum) ist durch das Thema des Artikels eindeutig."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 45,
+      "speaker": "Felix",
+      "text": "Moment, und wie kam es eigentlich zu diesem Sammlungsbereich für lateinamerikanische Kunst?",
+      "previous_text": "Neunzehnhundertachtundachtzig berief das Museum mit Mari Carmen Ramírez die erste Kuratorin für lateinamerikanische Kunst in den Vereinigten Staaten. Damit intensivierte es wieder die Aktivitäten in diesem Sammlungsbereich. Sie hatten nach Goodalls Ausscheiden als Direktor merklich nachgelassen.",
+      "fact_ids": [
+        "272532574-0224"
+      ],
+      "statements": [
+        {
+          "text": "Das Museum hat einen Sammlungsbereich für lateinamerikanische Kunst, in dem es seine Aktivitäten intensivierte.",
+          "fact_ids": [
+            "272532574-0224"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0224",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "1988 berief das Museum mit Mari Carmen Ramírez die erste Kuratorin für lateinamerikanische Kunst in den Vereinigten Staaten und intensivierte damit wieder die Aktivitäten in diesem Sammlungsbereich, die nach Goodalls Ausscheiden als Direktor merklich nachgelassen hatten.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag ist eine Nachfrage, die an das eben Gesagte anknüpft und um Erklärung bittet. Die Frage nennt keine neue Einzelheit, Wertung oder Vermutung. Dass es einen Sammlungsbereich für lateinamerikanische Kunst gibt, hat Lena im vorherigen Redebeitrag genannt und der zitierte Fakt bestätigt es. Die Frage ist daher belegfrei und enthält keine unbelegte Prämisse."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 46,
+      "speaker": "Lena",
+      "text": "Der Aufbau der Sammlung lateinamerikanischer Kunst steht im engen Zusammenhang mit der Entwicklung der Lateinamerikastudien an der University of Texas at Austin. Das geschah vor dem Hintergrund des Kalten Krieges.",
+      "previous_text": "Moment, und wie kam es eigentlich zu diesem Sammlungsbereich für lateinamerikanische Kunst?",
+      "fact_ids": [
+        "272532574-0217"
+      ],
+      "statements": [
+        {
+          "text": "Der Aufbau der Sammlung lateinamerikanischer Kunst steht im engen Zusammenhang mit der Entwicklung der Lateinamerikastudien an der University of Texas at Austin, vor dem Hintergrund des Kalten Krieges.",
+          "fact_ids": [
+            "272532574-0217"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0217",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Der Aufbau dieses Sammlungskomplexes steht dabei im engen Zusammenhang mit der Entwicklung der Lateinamerikastudien an der University of Texas at Austin vor dem Hintergrund des Kalten Krieges.",
+          "context": [
+            "Die Sammlung lateinamerikanischer Kunst des 20. Jahrhunderts im Blanton Museum of Art gehört mit über 4500 Werken von mehr als 600 Künstlern neben denen des Museum of Modern Art in New York City, des Art Museum of the Americas des Office of American States in Washington D.C., des Museum of Fine Arts, Houston und des Phoenix Art Museum zu den größten und umfassendsten dieser Art in den Vereinigten Staaten.",
+            "Gemeinsam mit diesen Sammlungen hatte sie einen großen Einfluss darauf, was unter lateinamerikanischer Kunst verstanden wird."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 48,
+      "speaker": "Lena",
+      "text": "Zur Sammlung des Blanton Museums gehört unter anderem Cuauhtemoc des Mexikaners David Alfaro Siqueiros. Das Gemälde ist ein Vorläufer seines Murals Torment of Cuauhtemoc im Palacio de Bellas Artes in Mexiko-Stadt. Es steht für den Kampf des Künstlers zwischen Resignation über das Scheitern oppositioneller Politik und Hoffnung auf einen letztendlichen Sieg des Sozialismus. Dieser Kampf bestand nach seiner Rückkehr aus dem Exil nach Mexiko im Jahr neunzehnhundertvierundvierzig.",
+      "previous_text": "Welche Werke gehören dazu?",
+      "fact_ids": [
+        "272532574-0232"
+      ],
+      "statements": [
+        {
+          "text": "Mit Cuauhtemoc des Mexikaners David Alfaro Siqueiros gehört eines seiner Gemälde zur Sammlung des Blanton Museums, das ein Vorläufer seines Murals Torment of Cuauhtemoc im Palacio de Bellas Artes in Mexiko-Stadt ist und für den Kampf des Künstlers zwischen Resignation über das Scheitern oppositioneller Politik und Hoffnung auf einen letztendlichen Sieg des Sozialismus nach seiner Rückkehr aus dem Exil nach Mexiko im Jahr 1944 steht.",
+          "fact_ids": [
+            "272532574-0232"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0232",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Mit Cuauhtemoc des Mexikaners David Alfaro Siqueiros gehört unter anderem eines seiner Gemälde, das ein Vorläufer seines Murals Torment of Cuauhtemoc im Palacio de Bellas Artes in Mexiko-Stadt ist und für den Kampf des Künstlers zwischen Resignation über das Scheitern oppositioneller Politik und Hoffnung auf einen letztendlichen Sieg des Sozialismus nach seiner Rückkehr aus dem Exil nach Mexiko im Jahr 1944 steht, zur Sammlung des Blanton Museums.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem zitierten Fakt-Satz: Cuauhtemoc von David Alfaro Siqueiros gehört zur Sammlung des Blanton Museums, ist Vorläufer des Murals Torment of Cuauhtemoc im Palacio de Bellas Artes in Mexiko-Stadt und steht für den Kampf zwischen Resignation und Hoffnung auf einen Sieg des Sozialismus nach der Rückkehr aus dem Exil nach Mexiko 1944. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben. Das Bezugswort „Das Gemälde“ ist eindeutig, da es Cuauhtemoc meint; „Dieser Kampf“ bezieht sich auf den Kampf im Fakt. Die Ausformulierung der Jahreszahl ist zulässig."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 50,
+      "speaker": "Lena",
+      "text": "Die Ausstellung The Geometry of Hope im Jahr zweitausendsieben war die erste große Überblicksausstellung von Werken der geometrischen Abstraktion aus Lateinamerika in den Vereinigten Staaten.",
+      "previous_text": "Gab es auch Ausstellungen zu diesem Bereich?",
+      "fact_ids": [
+        "272532574-0287"
+      ],
+      "statements": [
+        {
+          "text": "Die Ausstellung The Geometry of Hope im Jahr 2007 war die erste große Überblicksausstellung von Werken der geometrischen Abstraktion aus Lateinamerika in den Vereinigten Staaten.",
+          "fact_ids": [
+            "272532574-0287"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0287",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Es handelte sich um die erste große Überblicksausstellung von Werken der geometrischen Abstraktion aus Lateinamerika in den Vereinigten Staaten.",
+          "context": [
+            "Die Ausstellung The Geometry of Hope im Jahr 2007, die eine Kooperation mit der Colleción Patricia Phelps de Cisneros war, basierte auf der Arbeit von Fakultätsmitgliedern und Studierenden im Cisneros Graduate Research Seminar."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.72,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Der Fakt-Satz belegt die Aussage, dass es die erste große Überblicksausstellung zur geometrischen Abstraktion aus Lateinamerika in den USA war. Das Bezugswort „Es“ löst Lena korrekt auf: Der Kontext bestimmt es als die Ausstellung The Geometry of Hope aus dem Jahr 2007. Das ist erlaubt, und der Bezug passt zur Frage nach Ausstellungen. Sonst kommt nichts hinzu."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 52,
+      "speaker": "Lena",
+      "text": "Im November neunzehnhundertachtundneunzig gelang es der University of Texas at Austin, die Suida-Manning Collection zu erwerben. Das geschah, während die Kampagne für das neue Museumsgebäude vorangetrieben wurde. Die Sammlung erweiterte die Bestände amerikanischer und lateinamerikanischer Kunst des zwanzigsten Jahrhunderts sowie von Grafiken aus allen Epochen und Regionen um Alte Meister. Ihr Schwerpunkt liegt auf dem italischen Barock. Der Erwerb war eine der bedeutendsten Ergänzungen der Sammlung.",
+      "previous_text": "Gibt es auch ältere europäische Kunst?",
+      "fact_ids": [
+        "272532574-0063"
+      ],
+      "statements": [
+        {
+          "text": "Während die Kampagne für das neue Museumsgebäude vorangetrieben wurde, kam es zu einer der bedeutendsten Ergänzungen der Sammlung: Im November 1998 gelang es der University of Texas at Austin, die Suida-Manning Collection zu erwerben, welche die Museumsbestände amerikanischer und lateinamerikanischer Kunst des 20. Jahrhunderts sowie von Grafiken aus allen Epochen und Regionen um eine bedeutende Sammlung Alter Meister mit Schwerpunkt auf dem italischen Barock erweiterte.",
+          "fact_ids": [
+            "272532574-0063"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0063",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Während die Kampagne für das neue Museumsgebäude vorangetrieben wurde, kam es zu einer der bedeutendsten Ergänzungen der Sammlung: Im November 1998 gelang es der University of Texas at Austin, die Suida-Manning Collection zu erwerben, welche die Museumsbestände amerikanischer und lateinamerikanischer Kunst des 20. Jahrhunderts sowie von Grafiken aus allen Epochen und Regionen um eine bedeutende Sammlung Alter Meister mit Schwerpunkt auf dem italischen Barock erweiterte.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.61
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Erwerb der Suida-Manning Collection im November 1998 durch die University of Texas at Austin, während der Kampagne für das neue Museumsgebäude, Erweiterung der Bestände um Alte Meister mit Schwerpunkt auf dem italischen Barock, und eine der bedeutendsten Ergänzungen. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben. Der Gegenstand ist eindeutig, da das Thema des Artikels das Blanton Museum of Art ist und die Antwort auf Felix' Frage nach älterer europäischer Kunst passt."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 53,
+      "speaker": "Felix",
+      "text": "Wer hatte diese Sammlung zusammengetragen?",
+      "previous_text": "Im November neunzehnhundertachtundneunzig gelang es der University of Texas at Austin, die Suida-Manning Collection zu erwerben. Das geschah, während die Kampagne für das neue Museumsgebäude vorangetrieben wurde. Die Sammlung erweiterte die Bestände amerikanischer und lateinamerikanischer Kunst des zwanzigsten Jahrhunderts sowie von Grafiken aus allen Epochen und Regionen um Alte Meister. Ihr Schwerpunkt liegt auf dem italischen Barock. Der Erwerb war eine der bedeutendsten Ergänzungen der Sammlung.",
+      "fact_ids": [
+        "272532574-0063"
+      ],
+      "statements": [
+        {
+          "text": "Die University of Texas at Austin erwarb 1998 die Suida-Manning Collection.",
+          "fact_ids": [
+            "272532574-0063"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0063",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Während die Kampagne für das neue Museumsgebäude vorangetrieben wurde, kam es zu einer der bedeutendsten Ergänzungen der Sammlung: Im November 1998 gelang es der University of Texas at Austin, die Suida-Manning Collection zu erwerben, welche die Museumsbestände amerikanischer und lateinamerikanischer Kunst des 20. Jahrhunderts sowie von Grafiken aus allen Epochen und Regionen um eine bedeutende Sammlung Alter Meister mit Schwerpunkt auf dem italischen Barock erweiterte.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.88
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag ist eine reine Nachfrage („Wer hatte diese Sammlung zusammengetragen?“) und somit belegfrei. „Diese Sammlung“ meint eindeutig die Suida-Manning Collection aus dem vorherigen Redebeitrag. Die Frage setzt nur voraus, dass es einen Sammler gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, die erst die Antwort liefert."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 54,
+      "speaker": "Lena",
+      "text": "Der Kunsthistoriker William Suida begann Anfang des zwanzigsten Jahrhunderts in Wien, Kunst zu sammeln. Er setzte das auch nach seiner Emigration in die USA im Jahr neunzehnhundertneununddreißig fort. Dort beriet er unter anderem Samuel H. Kress.",
+      "previous_text": "Wer hatte diese Sammlung zusammengetragen?",
+      "fact_ids": [
+        "272532574-0249"
+      ],
+      "statements": [
+        {
+          "text": "Der Kunsthistoriker William Suida hatte Anfang des 20. Jahrhunderts in Wien begonnen, Kunst zu sammeln, und setzte dies auch nach seiner Emigration 1939 in die USA, wo er unter anderem Samuel H. Kress beriet, fort.",
+          "fact_ids": [
+            "272532574-0249"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0249",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Der Kunsthistoriker William Suida hatte Anfang des 20. Jahrhunderts in Wien begonnen, Kunst zu sammeln, und setzte dies auch nach seiner Emigration 1939 in die USA, wo er unter anderem Samuel H. Kress beriet, fort.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 56,
+      "speaker": "Lena",
+      "text": "Der Sammlungsteil der europäischen Alten Meister umfasste zuvor nur rund dreißig Gemälde.",
+      "previous_text": "Und wie sah es davor im Museum aus?",
+      "fact_ids": [
+        "272532574-0248"
+      ],
+      "statements": [
+        {
+          "text": "Der Sammlungsteil der europäischen Alten Meister umfasste zuvor nur rund 30 Gemälde.",
+          "fact_ids": [
+            "272532574-0248"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0248",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Zuvor umfasste dieser Sammlungsteil nur rund 30 Gemälde.",
+          "context": [
+            "Der Bestand europäischer Alter Meister in der Sammlung des Blanton Museum of Art geht insbesondere auf die 1998 erworbene Suida-Manning Collection von rund 250 Gemälden und 400 Zeichnungen zurück."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.96,
+          "vollstaendig": 0.64
+        },
+        "jev_error": null,
+        "reason": "Der Fakt-Satz sagt, dass dieser Sammlungsteil zuvor nur rund 30 Gemälde umfasste. Der Kontext identifiziert ihn als den Bestand europäischer Alter Meister im Blanton Museum of Art, das auch das Thema des Artikels ist. Lena löst das Bezugswort „dieser Sammlungsteil“ korrekt auf, und „rund dreißig“ entspricht „rund 30“. Der Redebeitrag enthält keine weitere Behauptung und keine Frage, daher bleibt nichts Unbelegtes übrig."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 58,
+      "speaker": "Lena",
+      "text": "Von Luca Cambiaso erwarb das Blanton Museum im Jahr zweitausendvier die Madonna mit Kind und dem jungen Johannes den Täufer. Sie ergänzt die sechs Gemälde und zwei Dutzend eigenhändigen Zeichnungen aus der Suida-Manning Collection.",
+      "previous_text": "Gibt es einzelne Erwerbungen aus diesem Bereich?",
+      "fact_ids": [
+        "272532574-0255"
+      ],
+      "statements": [
+        {
+          "text": "Von Luca Cambiaso hat das Blanton Museum 2004 die Madonna mit Kind und dem jungen Johannes den Täufer als Ergänzung zu den sechs Gemälden und zwei Dutzend eigenhändigen Zeichnungen aus der Suida-Manning Collection erworben.",
+          "fact_ids": [
+            "272532574-0255"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0255",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Von Luca Cambiaso hat das Blanton Museum 2004 die Madonna mit Kind und dem jungen Johannes den Täufer als Ergänzung zu den sechs Gemälden und zwei Dutzend eigenhändigen Zeichnungen aus der Suida-Manning Collection erworben.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 60,
+      "speaker": "Lena",
+      "text": "Zweitausendzwei folgte die Schenkung von dreitausendzweihundert Grafiken durch den renommierten Kunsthistoriker Leo Steinberg.",
+      "previous_text": "Gab es weitere große Zugänge?",
+      "fact_ids": [
+        "272532574-0069"
+      ],
+      "statements": [
+        {
+          "text": "2002 folgte die Schenkung von 3200 Grafiken durch den renommierten Kunsthistoriker Leo Steinberg.",
+          "fact_ids": [
+            "272532574-0069"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0069",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "2002 folgte die Schenkung von 3200 Grafiken durch den renommierten Kunsthistoriker Leo Steinberg.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 62,
+      "speaker": "Lena",
+      "text": "Der Brasilianer Cildo Meireles schuf die raumgreifende Installation Missão/Missões. Sie besteht aus sechshunderttausend Münzen, achthundert Hostien, zweitausend Rinderknochen, achtzig Pflastersteinen und schwarzem Tuch. Das Museum erwarb sie im Jahr neunzehnhundertachtundneunzig. Schon neunzehnhundertzweiundneunzig war sie in der Ausstellung Encounters/Displacement im Museum zu sehen.",
+      "previous_text": "Was gibt es sonst noch Außergewöhnliches?",
+      "fact_ids": [
+        "272532574-0241"
+      ],
+      "statements": [
+        {
+          "text": "Die aus 600.000 Münzen, 800 Hostien, 2000 Rinderknochen, 80 Pflastersteinen und schwarzem Tuch bestehende raumgreifende Installation Missão/Missões des Brasilianers Cildo Meireles wurde 1998 erworben, nachdem sie bereits 1992 in der Ausstellung Encounters/Displacement im Museum zu sehen war.",
+          "fact_ids": [
+            "272532574-0241"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0241",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Die aus 600.000 Münzen, 800 Hostien, 2000 Rinderknochen, 80 Pflastersteinen und schwarzen Tuch bestehende raumgreifende Installation Missão/Missões des Brasilianers Cildo Meireles wurde 1998 erworben, nachdem sie bereits 1992 in der Ausstellung Encounters/Displacement im Museum zu sehen war.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 63,
+      "speaker": "Felix",
+      "text": "Was sind Hostien eigentlich?",
+      "previous_text": "Der Brasilianer Cildo Meireles schuf die raumgreifende Installation Missão/Missões. Sie besteht aus sechshunderttausend Münzen, achthundert Hostien, zweitausend Rinderknochen, achtzig Pflastersteinen und schwarzem Tuch. Das Museum erwarb sie im Jahr neunzehnhundertachtundneunzig. Schon neunzehnhundertzweiundneunzig war sie in der Ausstellung Encounters/Displacement im Museum zu sehen.",
+      "fact_ids": [
+        "272532574-0241"
+      ],
+      "statements": [
+        {
+          "text": "Die Installation von Cildo Meireles besteht unter anderem aus 800 Hostien.",
+          "fact_ids": [
+            "272532574-0241"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0241",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Die aus 600.000 Münzen, 800 Hostien, 2000 Rinderknochen, 80 Pflastersteinen und schwarzen Tuch bestehende raumgreifende Installation Missão/Missões des Brasilianers Cildo Meireles wurde 1998 erworben, nachdem sie bereits 1992 in der Ausstellung Encounters/Displacement im Museum zu sehen war.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 64,
+      "speaker": "Lena",
+      "text": "Der Ausdruck Hostie kommt vom lateinischen hostia. Das bedeutet Vergeltung, Opfer, Opferlamm, Opfertier oder Opfergabe. Hostie bezeichnet das Brot, das in den Kirchen der katholischen Tradition des Westens, der Neuapostolischen Kirche, der armenisch-orthodoxen Kirche und in einigen evangelischen Kirchen zur Eucharistie beziehungsweise zum Abendmahl verwendet wird.",
+      "previous_text": "Was sind Hostien eigentlich?",
+      "fact_ids": [
+        "265431377-0000"
+      ],
+      "statements": [
+        {
+          "text": "Der Ausdruck Hostie (lateinisch hostia ‚Vergeltung‘, ‚Opfer‘, ‚Opferlamm‘, ‚Opfertier‘ oder ‚Opfergabe‘) bezeichnet in den Kirchen der katholischen Tradition des Westens, der Neuapostolischen Kirche und der armenisch-orthodoxen Kirche sowie in einigen evangelischen Kirchen das zur Eucharistie beziehungsweise zum Abendmahl verwendete Brot.",
+          "fact_ids": [
+            "265431377-0000"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "265431377-0000",
+          "article": "Hostie",
+          "revid": 265431377,
+          "sentence": "Der Ausdruck Hostie (lateinisch hostia ‚Vergeltung‘, ‚Opfer‘, ‚Opferlamm‘, ‚Opfertier‘ oder ‚Opfergabe‘) bezeichnet in den Kirchen der katholischen Tradition des Westens, der Neuapostolischen Kirche und der armenisch-orthodoxen Kirche sowie in einigen evangelischen Kirchen das zur Eucharistie beziehungsweise zum Abendmahl verwendete Brot.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 66,
+      "speaker": "Lena",
+      "text": "Als Wichtigstes von der Longview Foundation gestiftetes Werk gilt ein abstraktes Gemälde von Norman Lewis aus dem Jahr neunzehnhundertachtundfünfzig. Es war vier Jahrzehnte lang im Depot verschwunden.",
+      "previous_text": "Gibt es ein Werk mit einer besonderen Geschichte?",
+      "fact_ids": [
+        "272532574-0161"
+      ],
+      "statements": [
+        {
+          "text": "Als Wichtigstes von der Longview Foundation gestiftetes Werk gilt ein abstraktes Gemälde von Norman Lewis aus dem Jahr 1958, das vier Jahrzehnte lang im Depot verschwunden war.",
+          "fact_ids": [
+            "272532574-0161"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0161",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Als Wichtigstes von der Longview Foundation gestiftetes Werk gilt ein abstraktes Gemälde von Norman Lewis aus dem Jahr 1958, das vier Jahrzehnte lang im Depot verschwunden war.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 68,
+      "speaker": "Lena",
+      "text": "Zwischen achtzehnhundertvierundneunzig und neunzehnhundertdreiundzwanzig erwarb William J. Battle rund hundert Gipsabgüsse von klassischen griechischen und römischen Skulpturen. Er war Professor für klassische Sprachen an der University of Texas at Austin.",
+      "previous_text": "Und gibt es auch historische Skulpturen?",
+      "fact_ids": [
+        "272532574-0271"
+      ],
+      "statements": [
+        {
+          "text": "Zwischen 1894 und 1923 erwarb William J. Battle, der Professor für klassische Sprachen an der University of Texas at Austin war, rund 100 Gipsabgüsse von klassischen griechischen und römischen Skulpturen.",
+          "fact_ids": [
+            "272532574-0271"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0271",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Zwischen 1894 und 1923 erwarb William J. Battle, der Professor für klassische Sprachen an der University of Texas at Austin war, rund 100 Gipsabgüsse von klassischen griechischen und römischen Skulpturen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 70,
+      "speaker": "Lena",
+      "text": "Es gibt Beispiele für den interdisziplinären Einsatz der Sammlung in der Lehre. Studierende der Medizin untersuchen anatomische Details in Renaissancegemälden. Anselm Kiefers Sternenfall mit seiner Karte des Sternenhimmels dient als Anschauungsobjekt für eine Geographieklasse.",
+      "previous_text": "Und was passiert mit solchen Sammlungsstücken heute an der Universität? Wo kommen sie noch zum Einsatz?",
+      "fact_ids": [
+        "272532574-0309"
+      ],
+      "statements": [
+        {
+          "text": "Beispiele für den interdisziplinären Einsatz der Sammlung in der Lehre sind die Untersuchung anatomischer Details in Renaissancegemälden durch Studierende der Medizin.",
+          "fact_ids": [
+            "272532574-0309"
+          ]
+        },
+        {
+          "text": "Anselm Kiefers Sternenfall mit seiner Karte des Sternenhimmels wird als Anschauungsobjekt für eine Geographieklasse verwendet.",
+          "fact_ids": [
+            "272532574-0309"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0309",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Beispiele für den interdisziplinären Einsatz der Sammlung in der Lehre sind etwa die Untersuchung anatomische Details in Renaissancegemälden durch Studierende der Medizin oder die Verwendung von Anselm Kiefers Sternenfall mit seiner Karte des Sternenhimmels als Anschauungsobjekt für eine Geographieklasse.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Alle drei Sätze folgen aus dem Fakt-Satz: der interdisziplinäre Einsatz in der Lehre, die Untersuchung anatomischer Details in Renaissancegemälden durch Medizinstudierende und Kiefers Sternenfall als Anschauungsobjekt für eine Geographieklasse. Der Gegenstand ist eindeutig, denn der Artikel handelt vom Blanton Museum of Art und der Kontext ist die Sammlung. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 72,
+      "speaker": "Lena",
+      "text": "Hispanics machen über die Hälfte der Schüler im Schuldistrikt aus. Rund siebzig Prozent der Schulen im Bezirk bieten bilinguale Lehre in Englisch und Spanisch an. Deshalb gibt es auch am Blanton Museum ein bilinguales Co-Teaching-Programm. Es ist zugleich an die universitäre Lehre angedockt.",
+      "previous_text": "Gibt es auch Programme für Schulen?",
+      "fact_ids": [
+        "272532574-0312"
+      ],
+      "statements": [
+        {
+          "text": "Da Hispanics über die Hälfte der Schüler im Schuldistrikt ausmachen und rund 70 Prozent der Schulen im Bezirk bilinguale Lehre in Englisch und Spanisch anbieten, gibt es auch am Blanton Museum ein bilinguales Co-Teaching-Programm, das zugleich an die universitäre Lehre angedockt ist.",
+          "fact_ids": [
+            "272532574-0312"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0312",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Da Hispanics über die Hälfte der Schüler im Schuldistrikt ausmachen und rund 70 % der Schulen im Bezirk bilinguale Lehre in Englisch und Spanisch anbieten, gibt es auch am Blanton Museum ein bilinguales Co-Teaching-Programm, das zugleich an die universitäre Lehre angedockt ist.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 73,
+      "speaker": "Felix",
+      "text": "Wie funktioniert dieses Programm konkret?",
+      "previous_text": "Hispanics machen über die Hälfte der Schüler im Schuldistrikt aus. Rund siebzig Prozent der Schulen im Bezirk bieten bilinguale Lehre in Englisch und Spanisch an. Deshalb gibt es auch am Blanton Museum ein bilinguales Co-Teaching-Programm. Es ist zugleich an die universitäre Lehre angedockt.",
+      "fact_ids": [
+        "272532574-0312"
+      ],
+      "statements": [
+        {
+          "text": "Am Blanton Museum gibt es ein bilinguales Co-Teaching-Programm.",
+          "fact_ids": [
+            "272532574-0312"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0312",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Da Hispanics über die Hälfte der Schüler im Schuldistrikt ausmachen und rund 70 % der Schulen im Bezirk bilinguale Lehre in Englisch und Spanisch anbieten, gibt es auch am Blanton Museum ein bilinguales Co-Teaching-Programm, das zugleich an die universitäre Lehre angedockt ist.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 74,
+      "speaker": "Lena",
+      "text": "Die Gallery Teaching Fellows des Museums aus dem Fach Kunstgeschichte geben gemeinsam mit Bachelorstudierenden des Studiengangs Bilingual Bicultural Education Führungen in englischer und spanischer Sprache. Diese Studierenden werden zu Grundschullehrern ausgebildet. Die Führungen werden gemeinsam erarbeitet.",
+      "previous_text": "Wie funktioniert dieses Programm konkret?",
+      "fact_ids": [
+        "272532574-0313"
+      ],
+      "statements": [
+        {
+          "text": "Die Gallery Teaching Fellows des Museums aus dem Fach Kunstgeschichte geben gemeinsam mit Bachelorstudierenden des Studiengangs Bilingual Bicultural Education, die zu Grundschullehrern ausgebildet werden, Führungen in englischer und spanischer Sprache, die gemeinsam erarbeitet werden.",
+          "fact_ids": [
+            "272532574-0313"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0313",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "So geben die Gallery Teaching Fellows des Museums aus dem Fach Kunstgeschichte gemeinsam mit Bachelorstudierenden des Studiengangs Bilingual Bicultural Education, die zu Grundschullehrern ausgebildet werden, Führungen in englischer und spanischer Sprache, die gemeinsam erarbeitet werden.",
+          "context": [
+            "Da Hispanics über die Hälfte der Schüler im Schuldistrikt ausmachen und rund 70 % der Schulen im Bezirk bilinguale Lehre in Englisch und Spanisch anbieten, gibt es auch am Blanton Museum ein bilinguales Co-Teaching-Programm, das zugleich an die universitäre Lehre angedockt ist."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 76,
+      "speaker": "Lena",
+      "text": "In der vom Journalisten Jeff Goodell kuratierten Ausstellung If the Sky Were Orange: Art in the Time of Climate Change wurden in den Jahren zweitausenddreiundzwanzig und zweitausendvierundzwanzig erstmals verschiedene Galerieräume über das ganze Museum hinweg mit einer Ausstellung bespielt.",
+      "previous_text": "Und was gab es zuletzt an Ausstellungen?",
+      "fact_ids": [
+        "272532574-0302"
+      ],
+      "statements": [
+        {
+          "text": "In der vom Journalisten Jeff Goodell kuratierten Ausstellung If the Sky Were Orange: Art in the Time of Climate Change wurden 2023/2024 erstmals verschiedene Galerieräume über das ganze Museum hinweg mit einer Ausstellung bespielt.",
+          "fact_ids": [
+            "272532574-0302"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0302",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "In der vom Journalisten Jeff Goodell kuratierten Ausstellung If the Sky Were Orange: Art in the Time of Climate Change wurden 2023/2024 erstmals verschiedene Galerieräume über das ganze Museum hinweg mit einer Ausstellung bespielt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 78,
+      "speaker": "Lena",
+      "text": "Es gibt Werke, die neue und unerwartete Materialien verwenden. Ein Beispiel ist das aus Plastikkämmen geschaffene Porträt Madam C. J. Walker von Sonya Clark.",
+      "previous_text": "Gibt es in der Sammlung auch Werke mit ungewöhnlichen Materialien?",
+      "fact_ids": [
+        "272532574-0197"
+      ],
+      "statements": [
+        {
+          "text": "Es gibt Werke wie das aus Plastikkämmen geschaffene Porträt Madam C. J. Walker von Sonya Clark, die neue und unerwartete Materialien verwenden.",
+          "fact_ids": [
+            "272532574-0197"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0197",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Daneben gibt es Werke wie das aus Plastikkämmen geschaffene Porträt Madam C. J. Walker von Sonya Clark, die neue und unerwartete Materialien verwenden.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 79,
+      "speaker": "Felix",
+      "text": "Dann fasse ich zusammen. Das Museum geht auf die Stiftung Archer M. Huntingtons im Jahr neunzehnhundertsiebenundzwanzig zurück. Als die Architekten entlassen wurden, ohne ihre Pläne überarbeiten zu können, trat der Dean Lawrence Speck zurück. Im April zweitausendsechs eröffnete das neue Gebäude mit vier Jahren Verspätung. Bei Fertigstellung war es flächenmäßig das größte Kunstmuseum einer Universität. Beim Aufbau der Sammlung war das Museum wegen geringer Ankaufsmittel auf private Zuwendungen angewiesen. Die lateinamerikanische Sammlung gehört mit über viertausendfünfhundert Werken zu den größten ihrer Art in den Vereinigten Staaten. Heute zählt das Blanton Museum mit Besucherzahl und Mitgliedern zu den führenden Kunstmuseen in Texas.",
+      "previous_text": "Es gibt Werke, die neue und unerwartete Materialien verwenden. Ein Beispiel ist das aus Plastikkämmen geschaffene Porträt Madam C. J. Walker von Sonya Clark.",
+      "fact_ids": [
+        "272532574-0001",
+        "272532574-0073",
+        "272532574-0086",
+        "272532574-0107",
+        "272532574-0032",
+        "272532574-0215",
+        "272532574-0304"
+      ],
+      "statements": [
+        {
+          "text": "Das Museum geht auf die Stiftung Archer M. Huntingtons im Jahr 1927 zurück.",
+          "fact_ids": [
+            "272532574-0001"
+          ]
+        },
+        {
+          "text": "Als die Architekten entlassen wurden, ohne die Gelegenheit zu haben, ihre Pläne zu überarbeiten, trat der Dean Lawrence Speck zurück.",
+          "fact_ids": [
+            "272532574-0073"
+          ]
+        },
+        {
+          "text": "Im April 2006 eröffnete das neue Museumsgebäude aufgrund der Konflikte im Planungsprozess mit vier Jahren Verspätung.",
+          "fact_ids": [
+            "272532574-0086"
+          ]
+        },
+        {
+          "text": "Bei Fertigstellung war das Blanton Museum flächenmäßig das größte Kunstmuseum einer Universität.",
+          "fact_ids": [
+            "272532574-0107"
+          ]
+        },
+        {
+          "text": "Aufgrund der geringen Ankaufsmittel war das Museum beim Ausbau der Sammlung auf private Zuwendungen angewiesen.",
+          "fact_ids": [
+            "272532574-0032"
+          ]
+        },
+        {
+          "text": "Die Sammlung lateinamerikanischer Kunst des 20. Jahrhunderts gehört mit über 4500 Werken zu den größten und umfassendsten dieser Art in den Vereinigten Staaten.",
+          "fact_ids": [
+            "272532574-0215"
+          ]
+        },
+        {
+          "text": "Das Blanton Museum gehört mit Besucherzahl und Mitgliederzahl zu den führenden Kunstmuseen in Texas.",
+          "fact_ids": [
+            "272532574-0304"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272532574-0001",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Es geht auf die Stiftung Archer M. Huntingtons im Jahr 1927 zurück, der Mittel für den Ankauf von Kunstwerken durch die Universität zur Verfügung stellte.",
+          "context": [
+            "Das Blanton Museum of Art ist das Kunstmuseum der University of Texas in Austin."
+          ]
+        },
+        {
+          "id": "272532574-0073",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Als die Architekten entlassen wurden, ohne dass sie die Gelegenheit hatten, ihre Pläne zu überarbeiten, trat der Dean der School of Architecture, Lawrence Speck zurück.",
+          "context": [
+            "1999 legten Herzog & de Meuron einen Entwurf für das Blanton Museum of Art vor, der bei zwei Mitgliedern des University of Texas Board of Regents auf scharfe Ablehnung stieß.",
+            "Sie forderten rote Dachziegel für das Gebäude, um an die von Paul Cret vor dem Zweiten Weltkrieg entworfenen Teile des Campus anzuknüpfen."
+          ]
+        },
+        {
+          "id": "272532574-0086",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Im April 2006 eröffnete das neue Museumsgebäude – aufgrund der Konflikte im Planungsprozess mit vier Jahren Verspätung – mit einer Woche von Events, die von 22.000 Besuchern wahrgenommen wurden, darunter die 24-Stunden-Eröffnung des Gebäudes selbst.",
+          "context": []
+        },
+        {
+          "id": "272532574-0107",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Bei Fertigstellung war das Blanton Museum of Art mit über 16.700 Quadratmetern flächenmäßig das größte Kunstmuseum einer Universität vor dem Wexner Center for the Arts der Ohio State University und dem Fogg Art Museum der Harvard University.",
+          "context": []
+        },
+        {
+          "id": "272532574-0032",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Aufgrund der geringen Ankaufsmittel war das Museum beim Ausbau der Sammlung auf private Zuwendungen angewiesen: Von 1968 bis in die frühen 1990er-Jahre schenkten der Romanautor und Pulitzerpreisträger James Michener und seine Frau Mari Sabusawa Michener, nach denen das heutige Ausstellungsgebäude benannt ist, dem Museum rund 300 Werke der amerikanischen Malerei des 20. Jahrhunderts.",
+          "context": []
+        },
+        {
+          "id": "272532574-0215",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Die Sammlung lateinamerikanischer Kunst des 20. Jahrhunderts im Blanton Museum of Art gehört mit über 4500 Werken von mehr als 600 Künstlern neben denen des Museum of Modern Art in New York City, des Art Museum of the Americas des Office of American States in Washington D.C., des Museum of Fine Arts, Houston und des Phoenix Art Museum zu den größten und umfassendsten dieser Art in den Vereinigten Staaten.",
+          "context": []
+        },
+        {
+          "id": "272532574-0304",
+          "article": "Blanton Museum of Art",
+          "revid": 272532574,
+          "sentence": "Das Blanton Museum of Art gehört mit seiner Besucherzahl und der Anzahl seiner Mitglieder zu den führenden Kunstmuseen in Texas und lässt die meisten anderen Universitätskunstmuseen in den Vereinigten Staaten hinter sich, nachdem es bei Eröffnung des eigenen Museumsgebäudes im Jahr 2006 noch deutlich hinter Institutionen wie dem Kimbell Art Museum in Fort Worth und dem Museum of Fine Arts in Houston zurückstand.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.97,
+          "aussage_2": 0.99,
+          "aussage_3": 0.96,
+          "aussage_4": 0.99,
+          "aussage_5": 0.99,
+          "aussage_6": 0.99,
+          "vollstaendig": 0.85
+        },
+        "jev_error": null,
+        "reason": "Jede Aussage folgt aus den zitierten Fakt-Sätzen: Stiftung 1927, Rücktritt von Dean Speck nach der Entlassung der Architekten, Eröffnung im April 2006 mit vier Jahren Verspätung, größtes Universitätskunstmuseum nach Fläche, Angewiesenheit auf private Zuwendungen, über 4500 lateinamerikanische Werke und führende Position in Texas nach Besucherzahl und Mitgliedern. „Das Museum“ meint eindeutig das Blanton Museum, das Thema des Artikels. Der Einleitungssatz „Dann fasse ich zusammen“ ist eine belegfreie Überleitung. Neue Behauptungen oder Fragen ohne Beleg gibt es nicht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    }
+  ],
+  "comments": []
+}

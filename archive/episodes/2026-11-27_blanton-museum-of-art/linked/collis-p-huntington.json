@@ -1,0 +1,64 @@
+{
+  "title": "Collis P. Huntington",
+  "revid": 270423791,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-12T10:58:31Z",
+  "fetched_at": "2026-11-27T12:25:40Z",
+  "categories": [
+    "Kategorie:Central Pacific Railroad",
+    "Kategorie:Geboren 1821",
+    "Kategorie:Gestorben 1900",
+    "Kategorie:Huntington",
+    "Kategorie:Mann",
+    "Kategorie:Newport News Shipbuilding",
+    "Kategorie:Person (Chesapeake and Ohio Railway)",
+    "Kategorie:Person (Southern Pacific Transportation)",
+    "Kategorie:US-Amerikaner",
+    "Kategorie:Unternehmer (19. Jahrhundert)",
+    "Kategorie:Unternehmer (Schienenverkehr)"
+  ],
+  "intro_wikitext": "[[Datei:Collis Potter Huntington by William Keith, c1900.jpg|miniatur|Collis P. Huntington, um 1900]]\n[[Datei:Chesapeake, Ohio and Southwestern RR 1882.jpg|miniatur|Aktie der Chesapeake, Ohio and Southwestern Railroad Company vom 18. August 1882, signiert von Collis P. Huntington]]\n[[Datei:Collis Huntington Mausoleum 1024.jpg|miniatur|Mausoleum auf dem Woodlawn Cemetery]]\n'''Collis Potter Huntington''' (* [[22. Oktober]] [[1821]] in [[Harwinton]], [[Connecticut]]; † [[13. August]] [[1900]] in [[New York City|New York]]) war einer der [[Eisenbahn]]-[[Tycoon]]e der [[Vereinigte Staaten|Vereinigten Staaten]].\n\nEr ist einer der ''Big Four'' („großen Vier“), zusammen mit [[Leland Stanford]], [[Mark Hopkins (Unternehmer)|Mark Hopkins]] und [[Charles Crocker]], die mit dem Bau der Bahnstrecke der [[Central Pacific Railroad]] den westlichen Teil der ersten transkontinentalen Bahnverbindung in den USA errichteten.",
+  "segments": [
+    {
+      "id": "270423791-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Collis Potter Huntington''' (* [[22. Oktober]] [[1821]] in [[Harwinton]], [[Connecticut]]; † [[13. August]] [[1900]] in [[New York City|New York]]) war einer der [[Eisenbahn]]-[[Tycoon]]e der [[Vereinigte Staaten|Vereinigten Staaten]].",
+      "plain": null
+    },
+    {
+      "id": "270423791-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er ist einer der ''Big Four'' („großen Vier“), zusammen mit [[Leland Stanford]], [[Mark Hopkins (Unternehmer)|Mark Hopkins]] und [[Charles Crocker]], die mit dem Bau der Bahnstrecke der [[Central Pacific Railroad]] den westlichen Teil der ersten transkontinentalen Bahnverbindung in den USA errichteten.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270423791,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270423791-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Collis Potter Huntington (* 22. Oktober 1821 in Harwinton, Connecticut; † 13. August 1900 in New York) war einer der Eisenbahn-Tycoone der Vereinigten Staaten.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270423791-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270423791-0000"
+        ],
+        "plain": "Er ist einer der Big Four („großen Vier“), zusammen mit Leland Stanford, Mark Hopkins und Charles Crocker, die mit dem Bau der Bahnstrecke der Central Pacific Railroad den westlichen Teil der ersten transkontinentalen Bahnverbindung in den USA errichteten.",
+        "context_plain": [
+          "Collis Potter Huntington (* 22. Oktober 1821 in Harwinton, Connecticut; † 13. August 1900 in New York) war einer der Eisenbahn-Tycoone der Vereinigten Staaten."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

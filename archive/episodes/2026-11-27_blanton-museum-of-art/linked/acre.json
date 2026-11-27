@@ -1,0 +1,86 @@
+{
+  "title": "Acre",
+  "revid": 267976566,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-06-16T08:52:36Z",
+  "fetched_at": "2026-11-27T12:25:40Z",
+  "categories": [
+    "Kategorie:Flächeneinheit"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|behandelt das Flächenmaß. Zu weiteren Bedeutungen siehe [[Acre (Begriffsklärung)]].}}\n'''Acre''' ([[Plural]] deutsch ''Acre'' oder ''Acres;''<ref>[https://dict.leo.org/grammatik/Controller?dispatch=inflection&input=Acre&features=%28Cat+N%29%28Gender+M%29&lookup=caseInSensitive&country=D Flexion von Acre]. [[Canoonet]]; abgerufen am 23. September 2019, und [https://www.duden.de/rechtschreibung/Acre Rechtschreibung Acre]. duden.de; abgerufen am 22. Dezember 2012.</ref> {{enS|acre}}, Plural ''acres'') ist eine [[Angloamerikanisches Maßsystem|angloamerikanische Maßeinheit]] zur Flächenbestimmung von [[Grundstück]]en und entspricht circa 4047&nbsp;m² beziehungsweise 0,4&nbsp;[[Hektar|ha]]. Abgekürzt wird diese Einheit mit ''ac''. Typologisch vergleichbare Maßeinheiten sind der [[Morgen (Einheit)|Morgen]], das [[Tagewerk]], das [[Joch (Einheit)|Joch]] und die [[Juchart]].\n\nIn den [[Vereinigte Staaten|Vereinigten Staaten]] wird die Größe von Grundstücken bei [[Landesvermessung|Land-]] und Grundvermessungen allein mit den beiden Flächeneinheiten Acre und [[Quadratfuß|Square Foot]] angegeben. Weit verbreitet sind diese Einheiten auch in [[Vereinigtes Königreich|Großbritannien]], [[Kanada]], [[Indien]], [[Australien]] und anderen [[Commonwealth of Nations|Commonwealth]]-Staaten, obwohl dort heute ein metrisches Hauptmaßsystem besteht. Die landwirtschaftliche Anbaufläche wird dort auch als ''Acreage'' bezeichnet.",
+  "segments": [
+    {
+      "id": "267976566-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Acre''' ([[Plural]] deutsch ''Acre'' oder ''Acres;''<ref>[https://dict.leo.org/grammatik/Controller?dispatch=inflection&input=Acre&features=%28Cat+N%29%28Gender+M%29&lookup=caseInSensitive&country=D Flexion von Acre]. [[Canoonet]]; abgerufen am 23. September 2019, und [https://www.duden.de/rechtschreibung/Acre Rechtschreibung Acre]. duden.de; abgerufen am 22. Dezember 2012.</ref> {{enS|acre}}, Plural ''acres'') ist eine [[Angloamerikanisches Maßsystem|angloamerikanische Maßeinheit]] zur Flächenbestimmung von [[Grundstück]]en und entspricht circa 4047&nbsp;m² beziehungsweise 0,4&nbsp;[[Hektar|ha]].",
+      "plain": null
+    },
+    {
+      "id": "267976566-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Abgekürzt wird diese Einheit mit ''ac''.",
+      "plain": null
+    },
+    {
+      "id": "267976566-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Typologisch vergleichbare Maßeinheiten sind der [[Morgen (Einheit)|Morgen]], das [[Tagewerk]], das [[Joch (Einheit)|Joch]] und die [[Juchart]].",
+      "plain": null
+    },
+    {
+      "id": "267976566-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "In den [[Vereinigte Staaten|Vereinigten Staaten]] wird die Größe von Grundstücken bei [[Landesvermessung|Land-]] und Grundvermessungen allein mit den beiden Flächeneinheiten Acre und [[Quadratfuß|Square Foot]] angegeben.",
+      "plain": null
+    },
+    {
+      "id": "267976566-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Weit verbreitet sind diese Einheiten auch in [[Vereinigtes Königreich|Großbritannien]], [[Kanada]], [[Indien]], [[Australien]] und anderen [[Commonwealth of Nations|Commonwealth]]-Staaten, obwohl dort heute ein metrisches Hauptmaßsystem besteht.",
+      "plain": null
+    },
+    {
+      "id": "267976566-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die landwirtschaftliche Anbaufläche wird dort auch als ''Acreage'' bezeichnet.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 267976566,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "267976566-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Acre (Plural deutsch Acre oder Acres; englisch acre, Plural acres) ist eine angloamerikanische Maßeinheit zur Flächenbestimmung von Grundstücken und entspricht circa 4047 m² beziehungsweise 0,4 ha.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "267976566-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "In den Vereinigten Staaten wird die Größe von Grundstücken bei Land- und Grundvermessungen allein mit den beiden Flächeneinheiten Acre und Square Foot angegeben.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "267976566-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Weit verbreitet sind diese Einheiten auch in Großbritannien, Kanada, Indien, Australien und anderen Commonwealth-Staaten, obwohl dort heute ein metrisches Hauptmaßsystem besteht.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

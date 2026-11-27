@@ -1,0 +1,1193 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Das Blanton Museum of Art ist das Kunstmuseum der University of Texas in Austin (0000). Es geht auf die Stiftung Archer M. Huntingtons im Jahr 1927 zurück, der Mittel für den Ankauf von Kunstwerken durch die Universität zur Verfügung stellte (0001). Die Einleitung „Heute geht es um…“ ist eine Überleitung ohne neue Information, und der Redebeitrag enthält keine Fragen oder sonstigen zusätzlichen Behauptungen."
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine Überleitungs- bzw. Nachfrage, die an die Stiftung anknüpft. Die Prämisse, dass Huntington der Universität Geld gab, folgt aus dem Fakt-Satz (Mittel für den Ankauf von Kunstwerken durch die Universität, 1927). Die Frage nach dem Wie nimmt keine Einzelheit vorweg, die erst die Antwort liefern müsste."
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Sohn des Eisenbahnmagnaten Collis P. Huntington in New York, Übertragung von 4000 Acres in Galveston an die University of Texas at Austin mit der Auflage, ein Kunstmuseum zu unterstützen (0012), und der zeitgenössische Wert von rund 145.000 Dollar (0011). Der Bezug zu Huntington ist eindeutig: Fakt 0011 nennt Archer M. Huntington, Fakt 0012 den Sohn, beide im selben Artikel, und die vorherige Frage nennt Huntington. Die Gleichsetzung ist daher unproblematisch. Die Stiftung in 0011 und die Landübertragung in 0012 werden nicht in eine neue Beziehung gesetzt, die keiner der Sätze nennt. Der Redebeitrag enthält keine Fragen und keine unbelegten Zusatzangaben."
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.75
+      },
+      "jev_error": null,
+      "reason": "„Land also, kein Bargeld“ greift das von Lena Gesagte und Fakt 0012 (Übertragung von 4000 Acres Land) wieder auf und ist durch den Fakt gedeckt. „Und was wurde aus diesem Land?“ ist eine Nachfrage, die nur voraussetzt, dass es dazu etwas zu erzählen gibt, und keine Einzelheit vorwegnimmt. Es gibt keine unbelegte Prämisse und keine neue Behauptung."
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur eine Reaktion („die Finanzen sind damit klar“, eine Zusammenfassung des eben Gesagten) und eine offene Nachfrage („Wie ging es dann weiter?“). Er enthält keine neue Behauptung und keine Prämisse, die erst die Antwort liefern würde. Fakt-IDs sind daher nicht nötig."
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen folgen direkt aus dem Fakt-Satz: Vermächtnis von zehn Millionen Dollar, Start der Kampagne 1994 und die Lobbyarbeit seit den 1980er-Jahren bei Präsident William Cunningham. Der Redebeitrag enthält keine zusätzlichen Angaben, keine Frage und keine unbelegten Prämissen. Der Gegenstand ist eindeutig, da der Artikel das Blanton Museum of Art behandelt und der Redebeitrag den Bezug nicht verändert."
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine Nachfrage bzw. Überleitungsfrage: „Wer sollte das neue Gebäude denn entwerfen?“ Sie knüpft an das im vorherigen Beitrag genannte neue Museumsgebäude an. Dass es ein neues Gebäude geben soll, ist durch den Fakt-Satz gedeckt. Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern fragt nur nach etwas Neuem. Sie ist daher belegfrei und enthält keine unbelegte Prämisse."
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den beiden Fakt-Sätzen: Entwurf 1999 von Herzog & de Meuron für das Blanton Museum, scharfe Ablehnung durch zwei Mitglieder des Board of Regents (Fakt 1); internationales Architekturbüro mit Sitz in Basel, 1978 von Jacques Herzog und Pierre de Meuron gegründet (Fakt 2). Gegenstand ist eindeutig, da das Büro genannt wird. Der Redebeitrag enthält keine zusätzlichen Angaben und keine Fragen mit Prämissen."
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine Nachfrage nach den Gründen der Ablehnung. Die Prämisse, dass zwei Regents den Entwurf ablehnten, steht im Fakt-Satz und im vorherigen Beitrag. Die Frage nimmt keine Einzelheit vorweg, die erst die Antwort liefern würde, und 'an diesem Entwurf' bezieht sich eindeutig auf den Entwurf von Herzog & de Meuron."
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Beide Sätze folgen aus dem Fakt-Satz: Die beiden Regents forderten rote Dachziegel, um an die von Paul Cret vor dem Zweiten Weltkrieg entworfenen Campusteile anzuknüpfen. „Sie“ bezieht sich eindeutig auf die zuvor genannten Regents, und „dieser Entwurf“ sowie „das Gebäude“ meinen das Blanton Museum, das Thema des Artikels. Es kommen keine zusätzlichen Angaben und keine Fragen vor."
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.71
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Die Architekten wurden entlassen, ohne ihre Pläne überarbeiten zu können, und Dean Lawrence Speck trat zurück. Dass mit „den Architekten“ Herzog & de Meuron gemeint sind, bestimmt der Kontext (sie legten den Entwurf für das Blanton Museum vor). Das Auflösen des Bezugs ist erlaubt. Die vorherige Frage „Und was geschah dann?“ ist eine reine Überleitung, die Antwort bezieht sich auf denselben Gegenstand. Zusätzliche Angaben gibt es nicht."
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage („Wie groß wurde das Haus eigentlich?“). Sie setzt nur voraus, dass es zur Größe etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg. Das ist belegfrei und braucht keine Fakt-IDs."
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.98,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.37
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen direkt aus dem Fakt-Satz: Zeitraum Februar 2021 bis Mai 2023, Umgestaltung des Platzes zwischen den Museumsgebäuden, Snøhetta als norwegisch-amerikanisches Büro, 35 Millionen Dollar, Eingriffe in die bestehende Gebäudearchitektur und das Wandbild von Carmen Herrera. Der Gegenstand ist eindeutig (Blanton Museum of Art, Außengelände). Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag \"Wer hat das bezahlt?\" ist eine Nachfrage und damit belegfrei. Er setzt nur voraus, dass die Umgestaltung Kosten verursachte, und das hat Lena zuvor gesagt (35 Millionen Dollar, Fakt 0099). Er nimmt keine Einzelheit vorweg, die erst die Antwort liefert, etwa wer der Geldgeber war."
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage („Wie wurde das Museum von außen beurteilt?“). Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg und setzt nur voraus, dass es dazu etwas zu erzählen gibt. Das Museum wurde im vorherigen Redebeitrag im Zusammenhang mit dem Außengelände genannt. Eine Nachfrage braucht keine Fakt-IDs."
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine offene Nachfrage bzw. Überleitungsfrage („Gab es bei einzelnen Erwerbungen etwas zu berichten?“). Sie enthält keine Behauptung und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es etwas zu erzählen gibt. Das ist belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Die Erwerbung ist umstritten, das Museum verweist auf Mickey und Jeanne Klein als Vermittler des Kontakts zu Kelly, und Hiram Butler aus Houston, der das Projekt länger verfolgt und die Verbindung zur University of Texas at Austin hergestellt hatte, fand keine Erwähnung. Der Bezug „dieser Erwerbung“ wird korrekt zu Ellsworth Kellys Werk Austin aufgelöst, was der Kontext und der Artikel (Blanton Museum of Art) bestimmen. Es gibt keine zusätzlichen Angaben und keine Fragen mit unbelegten Prämissen."
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.87
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich korrekt wieder: das scheinbare Herunterspielen der schwulen Geschichte von Kellys Regenbogenkapelle als „aktueller Aspekt“ durch das Museum, als sie 2018 der Öffentlichkeit übergeben wurde. Es kommen keine zusätzlichen Angaben hinzu, und der Gegenstand (Blanton Museum, Kellys Kapelle) ist eindeutig. Der Redebeitrag enthält keine Fragen und nur belegte Aussagen."
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. \"Kommen wir zur Sammlung\" ist eine Überleitung, \"Wie wurde sie aufgebaut?\" eine Nachfrage. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg und setzt nur voraus, dass es zur Sammlung etwas zu erzählen gibt. Beides ist belegfrei, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag \"Wie lief die Schenkung ab?\" ist eine reine Nachfrage nach Erklärung. Er greift die Schenkung auf, die Lena gerade genannt hat, und die Prämisse, dass es Schenkungen gab, folgt aus dem Fakt-Satz. Er nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Damit ist er belegfrei und erfüllt die Rubrik."
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.79
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag besteht aus einer Reaktion (\"Wow, das klingt nach einem großen Geschenk\", ein Gefühl im Moment) und einer Nachfrage, welche Werke die Micheners gegeben haben. Die Nachfrage setzt nur voraus, dass es etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit vorweg. Dass die Micheners Werke schenkten, steht im vorherigen Beitrag und im Fakt-Satz. Der Beitrag enthält keine unbelegte Behauptung."
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: über 4500 Werke von mehr als 600 Künstlern, Zugehörigkeit zu den größten und umfassendsten Sammlungen dieser Art in den USA und die genannten Museen (MoMA, Art Museum of the Americas, MFA Houston, Phoenix Art Museum). Der Gegenstand ist eindeutig, denn der Artikel handelt vom Blanton Museum of Art, und die Sammlung ist die dortige. Dass Lena die Sammlung als „ihr“ bezeichnet, ist eine zulässige Auflösung des Bezugs. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 41,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 42,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 43,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 44,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: 1988, Mari Carmen Ramírez als erste Kuratorin für lateinamerikanische Kunst in den USA, Intensivierung der Aktivitäten, die nach Goodalls Ausscheiden als Direktor nachgelassen hatten. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämissen. Der Gegenstand (das Blanton Museum) ist durch das Thema des Artikels eindeutig."
+    },
+    {
+      "turn_index": 45,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine Nachfrage, die an das eben Gesagte anknüpft und um Erklärung bittet. Die Frage nennt keine neue Einzelheit, Wertung oder Vermutung. Dass es einen Sammlungsbereich für lateinamerikanische Kunst gibt, hat Lena im vorherigen Redebeitrag genannt und der zitierte Fakt bestätigt es. Die Frage ist daher belegfrei und enthält keine unbelegte Prämisse."
+    },
+    {
+      "turn_index": 46,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 47,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 48,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem zitierten Fakt-Satz: Cuauhtemoc von David Alfaro Siqueiros gehört zur Sammlung des Blanton Museums, ist Vorläufer des Murals Torment of Cuauhtemoc im Palacio de Bellas Artes in Mexiko-Stadt und steht für den Kampf zwischen Resignation und Hoffnung auf einen Sieg des Sozialismus nach der Rückkehr aus dem Exil nach Mexiko 1944. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben. Das Bezugswort „Das Gemälde“ ist eindeutig, da es Cuauhtemoc meint; „Dieser Kampf“ bezieht sich auf den Kampf im Fakt. Die Ausformulierung der Jahreszahl ist zulässig."
+    },
+    {
+      "turn_index": 49,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine offene Nachfrage bzw. Überleitungsfrage („Gab es auch Ausstellungen zu diesem Bereich?“). Sie enthält keine Behauptung und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es dazu etwas zu erzählen gibt. Das ist belegfrei, daher sind keine Fakt-Sätze nötig."
+    },
+    {
+      "turn_index": 50,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.72,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Fakt-Satz belegt die Aussage, dass es die erste große Überblicksausstellung zur geometrischen Abstraktion aus Lateinamerika in den USA war. Das Bezugswort „Es“ löst Lena korrekt auf: Der Kontext bestimmt es als die Ausstellung The Geometry of Hope aus dem Jahr 2007. Das ist erlaubt, und der Bezug passt zur Frage nach Ausstellungen. Sonst kommt nichts hinzu."
+    },
+    {
+      "turn_index": 51,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.76
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage („Gibt es auch ältere europäische Kunst?“) ohne Fakt-IDs. Er enthält keine Behauptung und keine konkrete Prämisse, sondern fragt nur nach etwas Neuem. Das gilt als belegfreie Reaktion."
+    },
+    {
+      "turn_index": 52,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.61
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Erwerb der Suida-Manning Collection im November 1998 durch die University of Texas at Austin, während der Kampagne für das neue Museumsgebäude, Erweiterung der Bestände um Alte Meister mit Schwerpunkt auf dem italischen Barock, und eine der bedeutendsten Ergänzungen. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben. Der Gegenstand ist eindeutig, da das Thema des Artikels das Blanton Museum of Art ist und die Antwort auf Felix' Frage nach älterer europäischer Kunst passt."
+    },
+    {
+      "turn_index": 53,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage („Wer hatte diese Sammlung zusammengetragen?“) und somit belegfrei. „Diese Sammlung“ meint eindeutig die Suida-Manning Collection aus dem vorherigen Redebeitrag. Die Frage setzt nur voraus, dass es einen Sammler gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, die erst die Antwort liefert."
+    },
+    {
+      "turn_index": 54,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 55,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage bzw. Überleitungsfrage ('Wie sah es davor im Museum aus?'). Sie enthält keine neue Behauptung und keine konkrete Einzelheit, Wertung oder Vermutung, die erst die Antwort liefern würde. Dass es ein Museum gibt, ist als Gesprächsgegenstand kaum eine Tatsachenbehauptung, sondern eine offene Frage nach dem Thema. Daher ist keine Faktenbasis nötig."
+    },
+    {
+      "turn_index": 56,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "vollstaendig": 0.64
+      },
+      "jev_error": null,
+      "reason": "Der Fakt-Satz sagt, dass dieser Sammlungsteil zuvor nur rund 30 Gemälde umfasste. Der Kontext identifiziert ihn als den Bestand europäischer Alter Meister im Blanton Museum of Art, das auch das Thema des Artikels ist. Lena löst das Bezugswort „dieser Sammlungsteil“ korrekt auf, und „rund dreißig“ entspricht „rund 30“. Der Redebeitrag enthält keine weitere Behauptung und keine Frage, daher bleibt nichts Unbelegtes übrig."
+    },
+    {
+      "turn_index": 57,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine Nachfrage, die lediglich fragt, ob es einzelne Erwerbungen gibt. Sie greift das Thema der vorherigen Aussage (Alte Meister) auf, enthält keine Behauptung und keine konkrete Prämisse, die erst die Antwort liefern würde. Eine belegfreie Reaktion ohne Fakt-IDs ist damit zulässig."
+    },
+    {
+      "turn_index": 58,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 59,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage („Gab es weitere große Zugänge?“). Sie ist eine Überleitungsfrage, die nur voraussetzt, dass es etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Er enthält keine Behauptung, also sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 60,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 61,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 62,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 63,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 64,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 65,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine offene Überleitungsfrage ohne Fakt-IDs. Sie setzt nur voraus, dass es etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg. Das ist belegfrei und zulässig."
+    },
+    {
+      "turn_index": 66,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 67,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine Nachfrage bzw. Überleitungsfrage (\"Und gibt es auch historische Skulpturen?\"). Sie setzt nur voraus, dass es dazu etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg. Er enthält keine Behauptung, daher sind keine Fakt-IDs nötig."
+    },
+    {
+      "turn_index": 68,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 69,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag besteht nur aus Nachfragen zur Verwendung der Sammlungsstücke heute. Er enthält keine neue Behauptung und keine konkrete Prämisse, die erst die Antwort liefern würde. Die Frage setzt lediglich voraus, dass es dazu etwas zu erzählen gibt, und ist daher belegfrei."
+    },
+    {
+      "turn_index": 70,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle drei Sätze folgen aus dem Fakt-Satz: der interdisziplinäre Einsatz in der Lehre, die Untersuchung anatomischer Details in Renaissancegemälden durch Medizinstudierende und Kiefers Sternenfall als Anschauungsobjekt für eine Geographieklasse. Der Gegenstand ist eindeutig, denn der Artikel handelt vom Blanton Museum of Art und der Kontext ist die Sammlung. Der Redebeitrag enthält keine Fragen und keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 71,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage bzw. Überleitungsfrage („Gibt es auch Programme für Schulen?“). Sie enthält keine Behauptung und keine konkrete Prämisse, die erst die Antwort liefern würde, sondern setzt nur voraus, dass es dazu etwas zu erzählen gibt. Daher ist sie belegfrei, und fehlende Fakt-IDs sind unproblematisch."
+    },
+    {
+      "turn_index": 72,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 73,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 74,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 75,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Überleitungsfrage nach Ausstellungen und stellt keine Behauptung auf. Die Frage nimmt keine Einzelheit, Wertung oder Vermutung vorweg, die erst die Antwort liefert. Sie setzt nur voraus, dass es etwas zu erzählen gibt. Fakt-Sätze werden daher nicht benötigt."
+    },
+    {
+      "turn_index": 76,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 77,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Sie setzt nur voraus, dass es in der Sammlung etwas Ungewöhnliches zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Damit ist sie belegfrei und enthält keine Behauptung."
+    },
+    {
+      "turn_index": 78,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 79,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.97,
+        "aussage_2": 0.99,
+        "aussage_3": 0.96,
+        "aussage_4": 0.99,
+        "aussage_5": 0.99,
+        "aussage_6": 0.99,
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Jede Aussage folgt aus den zitierten Fakt-Sätzen: Stiftung 1927, Rücktritt von Dean Speck nach der Entlassung der Architekten, Eröffnung im April 2006 mit vier Jahren Verspätung, größtes Universitätskunstmuseum nach Fläche, Angewiesenheit auf private Zuwendungen, über 4500 lateinamerikanische Werke und führende Position in Texas nach Besucherzahl und Mitgliedern. „Das Museum“ meint eindeutig das Blanton Museum, das Thema des Artikels. Der Einleitungssatz „Dann fasse ich zusammen“ ist eine belegfreie Überleitung. Neue Behauptungen oder Fragen ohne Beleg gibt es nicht."
+    }
+  ],
+  "used_fact_ids": [
+    "272532574-0000",
+    "272532574-0001",
+    "272532574-0012",
+    "272532574-0011",
+    "272532574-0015",
+    "272532574-0016",
+    "272532574-0060",
+    "272532574-0071",
+    "271619464-0000",
+    "272532574-0072",
+    "272532574-0073",
+    "272532574-0086",
+    "272532574-0107",
+    "272532574-0304",
+    "272532574-0017",
+    "272532574-0099",
+    "272532574-0100",
+    "272532574-0140",
+    "272532574-0096",
+    "272532574-0098",
+    "272532574-0032",
+    "272532574-0167",
+    "272532574-0192",
+    "272532574-0215",
+    "272532574-0034",
+    "272532574-0224",
+    "272532574-0217",
+    "272532574-0232",
+    "272532574-0287",
+    "272532574-0063",
+    "272532574-0249",
+    "272532574-0248",
+    "272532574-0255",
+    "272532574-0069",
+    "272532574-0241",
+    "265431377-0000",
+    "272532574-0161",
+    "272532574-0271",
+    "272532574-0309",
+    "272532574-0312",
+    "272532574-0313",
+    "272532574-0302",
+    "272532574-0197"
+  ],
+  "cascade_checks": [
+    {
+      "conversation": 1,
+      "turn_index": 13,
+      "p": 0.04,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 1,
+      "turn_index": 14,
+      "p": 0.86,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung nennt die Architekten „Herzog & de Meuron“ beim Namen. Das steht weder in der vorherigen Fassung noch in ihrer Aussage. Die übrigen Angaben stimmen überein: Entlassung ohne Gelegenheit zur Überarbeitung der Pläne und Rücktritt des Deans Lawrence Speck. Die neue Fassung enthält aber eine zusätzliche Information, daher ist sie nicht inhaltsgleich."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 22,
+      "p": 0.85,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung enthält dieselbe Aussage: Das Blanton Museum teilte sich das neue Gebäude mit dem Institut für Kunst, das seit 1948 in vier Militärbaracken aus dem Zweiten Weltkrieg untergebracht war. Der Unterschied liegt nur in der Zeitform (Plusquamperfekt statt Präteritum), was den Inhalt nicht verändert. Jahreszahl, Anzahl und Namen sind gleich geblieben."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 38,
+      "p": 0.82,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung ist wortgleich zur vorherigen Fassung und enthält alle Aussagen: Die Michener Collection bildete den Kern des Bestandes, ging vom Primat der Malerei aus und fokussierte sich stark auf New York City als künstlerisches Zentrum."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 46,
+      "p": 0.78,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung ist wortgleich mit der vorherigen Fassung. Der enge Zusammenhang zwischen dem Aufbau der Sammlung und den Lateinamerikastudien an der University of Texas at Austin sowie der Hintergrund des Kalten Krieges stehen unverändert darin."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 56,
+      "p": 0.97,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 2,
+      "turn_index": 70,
+      "p": 0.68,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung enthält beide Beispiele: Medizinstudierende untersuchen anatomische Details in Renaissancegemälden, und Kiefers Sternenfall mit Sternenhimmelkarte dient als Anschauungsobjekt für eine Geographieklasse. Beides wird weiterhin als interdisziplinärer Einsatz der Sammlung in der Lehre eingeordnet. Namen und Details stimmen überein."
+    }
+  ],
+  "conversation": 2,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 12,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 12,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272532574-0071 wurde schon in Redebeitrag 10 und 11 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 13,
+      "version": 0,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 13,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272532574-0071 wurde schon in Redebeitrag 10, 11 und 12 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 14,
+      "version": 0,
+      "replaced_by": 2,
+      "judgement": {
+        "turn_index": 14,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 21,
+      "version": 0,
+      "replaced_by": 3,
+      "judgement": {
+        "turn_index": 21,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.9
+        },
+        "jev_error": null,
+        "reason": "Die Frage \"Wer nutzte das neue Gebäude noch?\" ist keine bloße Nachfrage. Das Wort \"noch\" setzt als Tatsache voraus, dass das neue Gebäude bereits von jemandem genutzt wurde und dass es weitere Nutzer gab. Das hat der vorherige Redebeitrag so nicht gesagt, er nennt nur die Eröffnung 2006. Da keine Fakt-IDs zitiert sind, ist diese Prämisse nicht belegt."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 22,
+      "version": 0,
+      "replaced_by": 4,
+      "judgement": {
+        "turn_index": 22,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 37,
+      "version": 0,
+      "replaced_by": 5,
+      "judgement": {
+        "turn_index": 37,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272532574-0032 wurde schon in Redebeitrag 34 und 35 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 38,
+      "version": 0,
+      "replaced_by": 6,
+      "judgement": {
+        "turn_index": 38,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 45,
+      "version": 0,
+      "replaced_by": 7,
+      "judgement": {
+        "turn_index": 45,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272532574-0215 wurde schon in Redebeitrag 40 und 41 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 46,
+      "version": 0,
+      "replaced_by": 8,
+      "judgement": {
+        "turn_index": 46,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 55,
+      "version": 0,
+      "replaced_by": 9,
+      "judgement": {
+        "turn_index": 55,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272532574-0063 wurde schon in Redebeitrag 52 und 53 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 56,
+      "version": 0,
+      "replaced_by": 10,
+      "judgement": {
+        "turn_index": 56,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.62
+        },
+        "jev_error": null,
+        "reason": "Der Fakt-Satz nennt \"dieser Sammlungsteil\" mit rund 30 Gemälden zuvor. Der Kontext bestimmt ihn als den Bestand europäischer Alter Meister im Blanton Museum of Art, dem Thema des Artikels. Der Redebeitrag löst den Bezug korrekt auf und passt zur Frage nach den Alten Meistern des Museums. \"Rund dreißig\" entspricht \"rund 30\". Es gibt keine zusätzliche Angabe und keine Frage mit Prämisse."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 69,
+      "version": 0,
+      "replaced_by": 11,
+      "judgement": {
+        "turn_index": 69,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.91
+        },
+        "jev_error": null,
+        "reason": "Die Frage \"Wie nutzt die Universität die Sammlung in der Lehre?\" setzt als Tatsache voraus, dass die Universität die Sammlung in der Lehre nutzt. Das hat der vorherige Redebeitrag nicht gesagt (er nennt nur Erwerb und Battles Professur), und es gibt keine Fakt-IDs, die es belegen. Das ist keine bloße Nachfrage nach Neuem, sondern eine Prämisse, die erst die Antwort liefern würde."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 70,
+      "version": 0,
+      "replaced_by": 12,
+      "judgement": {
+        "turn_index": 70,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    }
+  ]
+}

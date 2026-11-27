@@ -1,0 +1,40 @@
+{
+  "title": "Raphael Soyer",
+  "revid": 261772497,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-11-22T18:02:07Z",
+  "fetched_at": "2026-11-27T12:25:40Z",
+  "categories": [
+    "Kategorie:Geboren 1899",
+    "Kategorie:Gestorben 1987",
+    "Kategorie:Maler (Vereinigte Staaten)",
+    "Kategorie:Mann",
+    "Kategorie:US-Amerikaner",
+    "Kategorie:Zeichner (Vereinigte Staaten)"
+  ],
+  "intro_wikitext": "[[Datei:Eugenie Gershoy Raphael Soyer.jpg|mini|hochkant|{{Center|Raphael Soyer, um 1969 modelliert von [[Eugenie Gershoy]]}}]]\n'''Raphael Soyer''' (* [[25. Dezember]] [[1899]] in [[Borissoglebsk]] (heute: [[Oblast Woronesch]]), [[Russisches Kaiserreich]]; † [[4. November]] [[1987]] in [[New York City]], [[Vereinigte Staaten|USA]]) war ein [[Vereinigte Staaten|US-amerikanischer]] [[Malerei|Maler]], [[Zeichnung (Kunst)|Zeichner]] und [[Lithograf|Lithograph]] des 20. Jahrhunderts.<ref>{{Internetquelle |autor= |url=http://www.artnet.com/artists/raphael-soyer/ |titel=Raphael Soyer {{!}} artnet |datum= |werk=artnet.com |abruf=2023-11-09 |sprache=en }}</ref>",
+  "segments": [
+    {
+      "id": "261772497-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Raphael Soyer''' (* [[25. Dezember]] [[1899]] in [[Borissoglebsk]] (heute: [[Oblast Woronesch]]), [[Russisches Kaiserreich]]; † [[4. November]] [[1987]] in [[New York City]], [[Vereinigte Staaten|USA]]) war ein [[Vereinigte Staaten|US-amerikanischer]] [[Malerei|Maler]], [[Zeichnung (Kunst)|Zeichner]] und [[Lithograf|Lithograph]] des 20. Jahrhunderts.<ref>{{Internetquelle |autor= |url=http://www.artnet.com/artists/raphael-soyer/ |titel=Raphael Soyer {{!}} artnet |datum= |werk=artnet.com |abruf=2023-11-09 |sprache=en }}</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 261772497,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "261772497-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Raphael Soyer (* 25. Dezember 1899 in Borissoglebsk (heute: Oblast Woronesch), Russisches Kaiserreich; † 4. November 1987 in New York City, USA) war ein US-amerikanischer Maler, Zeichner und Lithograph des 20. Jahrhunderts.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

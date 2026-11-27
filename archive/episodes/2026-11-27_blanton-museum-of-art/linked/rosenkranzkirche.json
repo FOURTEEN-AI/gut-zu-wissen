@@ -1,0 +1,112 @@
+{
+  "title": "Rosenkranzkirche",
+  "revid": 271759712,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-30T17:40:15Z",
+  "fetched_at": "2026-11-27T12:25:40Z",
+  "categories": [
+    "Kategorie:Liste (Kirchen nach Patrozinium)",
+    "Kategorie:Liste (Kirchengebäude nach Name)",
+    "Kategorie:Maria-Rosenkranzkönigin-Kirche",
+    "Kategorie:Rosenkranzkirche",
+    "Kategorie:Wikipedia:Weblink offline"
+  ],
+  "intro_wikitext": "Als '''Rosenkranzkirche''' werden Kirchenbauten mit dem  [[Patrozinium]] [[Unsere Liebe Frau|Unserer Lieben Frau]] vom [[Rosenkranz]] bezeichnet, Patronatsfest ist das [[Rosenkranzfest]] am 7.&nbsp;Oktober. Kirchen Unserer Lieben Frau vom Rosenkranz, die zur [[Basilika minor]] erhoben wurden, nennt man [[Rosenkranzbasilika]].\n{{TOCright}}\n\nVereinzelt werden auch Kirchen mit anderem Patrozinium aufgrund einer Rosenkranzdarstellung oder anderer Bezüge zum Rosenkranz so genannt. Bis zur Einführung des Festes [[Maria Königin]] für die Gesamtkirche im Jahre 1954 wurden zahlreiche Kirchen dem Patronat ''Maria Rosenkranzkönigin'' ''(Regina Sacratissimi Rosarii)'' anvertraut.\n\nLegende:\n* {{Karo}} … [[Kathedrale]]n, Basiliken und ähnliche\n*  Die Rosenkranzkirchen mit anderem Patrozinium finden sich bei den Länderabschnitten an das Ende gestellt.",
+  "segments": [
+    {
+      "id": "271759712-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Als '''Rosenkranzkirche''' werden Kirchenbauten mit dem  [[Patrozinium]] [[Unsere Liebe Frau|Unserer Lieben Frau]] vom [[Rosenkranz]] bezeichnet, Patronatsfest ist das [[Rosenkranzfest]] am 7.&nbsp;Oktober.",
+      "plain": null
+    },
+    {
+      "id": "271759712-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Kirchen Unserer Lieben Frau vom Rosenkranz, die zur [[Basilika minor]] erhoben wurden, nennt man [[Rosenkranzbasilika]].",
+      "plain": null
+    },
+    {
+      "id": "271759712-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Vereinzelt werden auch Kirchen mit anderem Patrozinium aufgrund einer Rosenkranzdarstellung oder anderer Bezüge zum Rosenkranz so genannt.",
+      "plain": null
+    },
+    {
+      "id": "271759712-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Bis zur Einführung des Festes [[Maria Königin]] für die Gesamtkirche im Jahre 1954 wurden zahlreiche Kirchen dem Patronat ''Maria Rosenkranzkönigin'' ''(Regina Sacratissimi Rosarii)'' anvertraut.",
+      "plain": null
+    },
+    {
+      "id": "271759712-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Legende:",
+      "plain": null
+    },
+    {
+      "id": "271759712-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "{{Karo}} …",
+      "plain": null
+    },
+    {
+      "id": "271759712-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "[[Kathedrale]]n, Basiliken und ähnliche",
+      "plain": null
+    },
+    {
+      "id": "271759712-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Rosenkranzkirchen mit anderem Patrozinium finden sich bei den Länderabschnitten an das Ende gestellt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271759712,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271759712-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Als Rosenkranzkirche werden Kirchenbauten mit dem Patrozinium Unserer Lieben Frau vom Rosenkranz bezeichnet, Patronatsfest ist das Rosenkranzfest am 7. Oktober.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271759712-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Kirchen Unserer Lieben Frau vom Rosenkranz, die zur Basilika minor erhoben wurden, nennt man Rosenkranzbasilika.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271759712-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Vereinzelt werden auch Kirchen mit anderem Patrozinium aufgrund einer Rosenkranzdarstellung oder anderer Bezüge zum Rosenkranz so genannt.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271759712-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Bis zur Einführung des Festes Maria Königin für die Gesamtkirche im Jahre 1954 wurden zahlreiche Kirchen dem Patronat Maria Rosenkranzkönigin (Regina Sacratissimi Rosarii) anvertraut.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

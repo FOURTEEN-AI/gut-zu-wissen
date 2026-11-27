@@ -1,0 +1,86 @@
+{
+  "title": "Thomas Hart Benton (Maler)",
+  "revid": 246953675,
+  "revision_status": "sighted",
+  "revision_timestamp": "2024-07-21T13:14:03Z",
+  "fetched_at": "2026-11-27T12:25:40Z",
+  "categories": [
+    "Kategorie:Geboren 1889",
+    "Kategorie:Gestorben 1975",
+    "Kategorie:Hochschullehrer (Art Students League of New York)",
+    "Kategorie:Maler (Vereinigte Staaten)",
+    "Kategorie:Maler des Amerikanischen Realismus",
+    "Kategorie:Mann",
+    "Kategorie:Mitglied der American Academy of Arts and Letters",
+    "Kategorie:Thomas Hart Benton (Politiker)",
+    "Kategorie:US-Amerikaner",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2019-05"
+  ],
+  "intro_wikitext": "[[Datei:Tom benton.jpg|mini|Thomas Hart Benton]]\n'''Thomas Hart Benton''', auch ''Tom Benton'' (* [[15. April]] [[1889]] in [[Neosho (Missouri)|Neosho]], [[Missouri]]; † [[19. Januar]] [[1975]] in [[Kansas City (Missouri)|Kansas City]], Missouri), war ein [[Vereinigte Staaten|US-amerikanischer]] Maler. Er gilt als ein Vertreter des [[Amerikanischer Realismus#Amerikanischer Regionalismus|Amerikanischen Regionalismus]] und [[Muralismo|Muralismus]]. Seine cartoon-ähnlichen Gemälde zeigen Alltagsszenen aus dem [[Mittlerer Westen|Mittleren Westen]], insbesondere ländliche Bilder des vorindustriellen Agrarlebens.\n\nEr war Lehrer in New York an der [[Art Students League of New York|Art Students League]], einer seiner Schüler war [[Jackson Pollock]].",
+  "segments": [
+    {
+      "id": "246953675-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Thomas Hart Benton''', auch ''Tom Benton'' (* [[15. April]] [[1889]] in [[Neosho (Missouri)|Neosho]], [[Missouri]]; † [[19. Januar]] [[1975]] in [[Kansas City (Missouri)|Kansas City]], Missouri), war ein [[Vereinigte Staaten|US-amerikanischer]] Maler.",
+      "plain": null
+    },
+    {
+      "id": "246953675-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er gilt als ein Vertreter des [[Amerikanischer Realismus#Amerikanischer Regionalismus|Amerikanischen Regionalismus]] und [[Muralismo|Muralismus]].",
+      "plain": null
+    },
+    {
+      "id": "246953675-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Seine cartoon-ähnlichen Gemälde zeigen Alltagsszenen aus dem [[Mittlerer Westen|Mittleren Westen]], insbesondere ländliche Bilder des vorindustriellen Agrarlebens.",
+      "plain": null
+    },
+    {
+      "id": "246953675-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er war Lehrer in New York an der [[Art Students League of New York|Art Students League]], einer seiner Schüler war [[Jackson Pollock]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 246953675,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "246953675-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Thomas Hart Benton, auch Tom Benton (* 15. April 1889 in Neosho, Missouri; † 19. Januar 1975 in Kansas City, Missouri), war ein US-amerikanischer Maler.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "246953675-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "246953675-0000"
+        ],
+        "plain": "Er gilt als ein Vertreter des Amerikanischen Regionalismus und Muralismus.",
+        "context_plain": [
+          "Thomas Hart Benton, auch Tom Benton (* 15. April 1889 in Neosho, Missouri; † 19. Januar 1975 in Kansas City, Missouri), war ein US-amerikanischer Maler."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "246953675-0002",
+        "reason": "context_invalid"
+      },
+      {
+        "segment_id": "246953675-0003",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

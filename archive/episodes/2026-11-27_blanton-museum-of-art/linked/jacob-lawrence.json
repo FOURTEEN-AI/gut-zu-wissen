@@ -1,0 +1,43 @@
+{
+  "title": "Jacob Lawrence",
+  "revid": 243060631,
+  "revision_status": "sighted",
+  "revision_timestamp": "2024-03-12T21:25:09Z",
+  "fetched_at": "2026-11-27T12:25:40Z",
+  "categories": [
+    "Kategorie:Geboren 1917",
+    "Kategorie:Gestorben 2000",
+    "Kategorie:Maler (Vereinigte Staaten)",
+    "Kategorie:Mann",
+    "Kategorie:Mitglied der American Academy of Arts and Letters",
+    "Kategorie:Mitglied der American Academy of Arts and Sciences",
+    "Kategorie:Person im Zweiten Weltkrieg (Vereinigte Staaten)",
+    "Kategorie:US-Amerikaner",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2018-04"
+  ],
+  "intro_wikitext": "'''Jacob Lawrence''' (eigentlich ''Jacob Armstead Lawrence''; * [[7. September]] [[1917]] in [[Atlantic City (New Jersey)|Atlantic City]], [[New Jersey]]; † [[9. Juni]] [[2000]] in [[Seattle]], [[Washington (Bundesstaat)|Washington]]) war ein [[Afroamerikaner|afro-amerikanischer]] [[Malerei|Maler]].\n[[Datei:Portrait of Jacob Lawrence LCCN2004663191.jpg|mini|Jacob Lawrence (1941)]]\n[[Datei:Jacob Lawrence-During World War I.gif|miniatur|''During World War I there was a great migration north by southern Negroes'' (Jacob Lawrence)]]",
+  "segments": [
+    {
+      "id": "243060631-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Jacob Lawrence''' (eigentlich ''Jacob Armstead Lawrence''; * [[7. September]] [[1917]] in [[Atlantic City (New Jersey)|Atlantic City]], [[New Jersey]]; † [[9. Juni]] [[2000]] in [[Seattle]], [[Washington (Bundesstaat)|Washington]]) war ein [[Afroamerikaner|afro-amerikanischer]] [[Malerei|Maler]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 243060631,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "243060631-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Jacob Lawrence (eigentlich Jacob Armstead Lawrence; * 7. September 1917 in Atlantic City, New Jersey; † 9. Juni 2000 in Seattle, Washington) war ein afro-amerikanischer Maler.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

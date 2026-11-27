@@ -1,0 +1,44 @@
+{
+  "title": "Herzog & de Meuron",
+  "revid": 271619464,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-25T14:40:33Z",
+  "fetched_at": "2026-11-27T12:25:40Z",
+  "categories": [
+    "Kategorie:Absolvent der ETH Zürich",
+    "Kategorie:Architekt der Postmoderne",
+    "Kategorie:Architektur (Basel)",
+    "Kategorie:Architektur der Postmoderne",
+    "Kategorie:Architekturbüro (Schweiz)",
+    "Kategorie:Herzog & de Meuron",
+    "Kategorie:Pritzker-Preisträger",
+    "Kategorie:Unternehmen (Basel)",
+    "Kategorie:Unternehmensgründung 1978",
+    "Kategorie:Vitra"
+  ],
+  "intro_wikitext": "<!--schweizbezogen-->\n[[Datei:Elbphilharmonie, Hamburg.jpg|mini|[[Elbphilharmonie]] in [[Hamburg]] (2016)]]\n[[Datei:הספרייה הלאומית, חזית מערבית.jpg|mini|[[Israelische Nationalbibliothek]] in [[Jerusalem]] (2023)]]\n'''Herzog & de Meuron''' ist ein 1978 von den [[Schweiz]]er [[Architekt]]en '''Jacques Herzog''' (* [[19. April]] [[1950]] in [[Basel]]) und '''Pierre de Meuron''' (* [[8. Mai]] 1950 in Basel) gegründetes, international bedeutendes [[Architektur]]büro mit Sitz in Basel in der Schweiz.",
+  "segments": [
+    {
+      "id": "271619464-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Herzog & de Meuron''' ist ein 1978 von den [[Schweiz]]er [[Architekt]]en '''Jacques Herzog''' (* [[19. April]] [[1950]] in [[Basel]]) und '''Pierre de Meuron''' (* [[8. Mai]] 1950 in Basel) gegründetes, international bedeutendes [[Architektur]]büro mit Sitz in Basel in der Schweiz.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271619464,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271619464-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Herzog & de Meuron ist ein 1978 von den Schweizer Architekten Jacques Herzog (* 19. April 1950 in Basel) und Pierre de Meuron (* 8. Mai 1950 in Basel) gegründetes, international bedeutendes Architekturbüro mit Sitz in Basel in der Schweiz.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

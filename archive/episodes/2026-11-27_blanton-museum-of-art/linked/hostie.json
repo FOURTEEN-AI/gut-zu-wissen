@@ -1,0 +1,58 @@
+{
+  "title": "Hostie",
+  "revid": 265431377,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-03-19T22:16:43Z",
+  "fetched_at": "2026-11-27T12:25:40Z",
+  "categories": [
+    "Kategorie:Essen und Trinken (Christentum)",
+    "Kategorie:Eucharistie",
+    "Kategorie:Feine Backware",
+    "Kategorie:Fladenbrot",
+    "Kategorie:Heilige Messe"
+  ],
+  "intro_wikitext": "{{Dieser Artikel|behandelt die katholische Tradition, für die slowakische Gemeinde siehe [[Hostie (Slowakei)]].}}\n[[Datei:Hostia i komunikanty.JPG|mini|Zelebrationshostie und gewöhnliche Hostien]]\n[[Datei:Hostieneisen Roscheider Hof.jpg|mini|hochkant|[[Hostieneisen]]]]\n\nDer Ausdruck '''Hostie''' ({{laS|''hostia''}} ‚Vergeltung‘, ‚Opfer‘, ‚Opferlamm‘, ‚Opfertier‘ oder ‚Opfergabe‘) bezeichnet in den Kirchen der [[Katholizität|katholischen]] Tradition des Westens, der [[Neuapostolische Kirche|Neuapostolischen Kirche]] und der [[Armenische Apostolische Kirche|armenisch-orthodoxen]] Kirche sowie in einigen [[evangelisch]]en Kirchen das zur [[Eucharistie]] beziehungsweise zum [[Abendmahlsgottesdienst|Abendmahl]] verwendete [[Brot]]. In den [[Ostkirche]]n wird die Hostie (traditionell ''Lamm'' genannt) aus Weizenmehl und Wasser, dem [[Sauerteig]] beigemengt wird, bereitet.",
+  "segments": [
+    {
+      "id": "265431377-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Ausdruck '''Hostie''' ({{laS|''hostia''}} ‚Vergeltung‘, ‚Opfer‘, ‚Opferlamm‘, ‚Opfertier‘ oder ‚Opfergabe‘) bezeichnet in den Kirchen der [[Katholizität|katholischen]] Tradition des Westens, der [[Neuapostolische Kirche|Neuapostolischen Kirche]] und der [[Armenische Apostolische Kirche|armenisch-orthodoxen]] Kirche sowie in einigen [[evangelisch]]en Kirchen das zur [[Eucharistie]] beziehungsweise zum [[Abendmahlsgottesdienst|Abendmahl]] verwendete [[Brot]].",
+      "plain": null
+    },
+    {
+      "id": "265431377-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "In den [[Ostkirche]]n wird die Hostie (traditionell ''Lamm'' genannt) aus Weizenmehl und Wasser, dem [[Sauerteig]] beigemengt wird, bereitet.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 265431377,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "265431377-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Ausdruck Hostie (lateinisch hostia ‚Vergeltung‘, ‚Opfer‘, ‚Opferlamm‘, ‚Opfertier‘ oder ‚Opfergabe‘) bezeichnet in den Kirchen der katholischen Tradition des Westens, der Neuapostolischen Kirche und der armenisch-orthodoxen Kirche sowie in einigen evangelischen Kirchen das zur Eucharistie beziehungsweise zum Abendmahl verwendete Brot.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "265431377-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "265431377-0000"
+        ],
+        "plain": "In den Ostkirchen wird die Hostie (traditionell Lamm genannt) aus Weizenmehl und Wasser, dem Sauerteig beigemengt wird, bereitet.",
+        "context_plain": [
+          "Der Ausdruck Hostie (lateinisch hostia ‚Vergeltung‘, ‚Opfer‘, ‚Opferlamm‘, ‚Opfertier‘ oder ‚Opfergabe‘) bezeichnet in den Kirchen der katholischen Tradition des Westens, der Neuapostolischen Kirche und der armenisch-orthodoxen Kirche sowie in einigen evangelischen Kirchen das zur Eucharistie beziehungsweise zum Abendmahl verwendete Brot."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

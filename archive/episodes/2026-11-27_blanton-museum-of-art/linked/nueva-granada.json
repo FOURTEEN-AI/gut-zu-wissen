@@ -1,0 +1,110 @@
+{
+  "title": "Nueva Granada",
+  "revid": 256489775,
+  "revision_status": "sighted",
+  "revision_timestamp": "2025-05-30T12:12:30Z",
+  "fetched_at": "2026-11-27T12:25:40Z",
+  "categories": [
+    "Kategorie:Gemeinde im Departamento del Magdalena",
+    "Kategorie:Gemeindegründung 1885",
+    "Kategorie:Gemeindegründung 1996",
+    "Kategorie:Ort in Kolumbien",
+    "Kategorie:Wikipedia:Bilderwunsch an bestimmtem Ort",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2024-04"
+  ],
+  "intro_wikitext": "{{Infobox Stadt in Lateinamerika\n|NAME = Nueva Granada\n|STAAT = [[Kolumbien]]\n|BREITENGRAD = 9/48/04/N\n|LÄNGENGRAD = 74/23/30/W\n|REGION-ISO = CO\n|KARTE = Colombia - Magdalena - Nueva Granada.svg\n|ABWEICHENDE_KARTENUNTERSCHRIFT = Lage der Gemeinde Nueva Granada auf der Karte von Magdalena\n|KARTENGRÖSSE = \n|INSIGNIE1 = Flag of Nueva Granada (Magdalena).svg\n|INSIGNIE1-HÖHE = \n|INSIGNIE2 =\n|INSIGNIE2-HÖHE = \n|REGION = [[Departamento del Magdalena|Magdalena]]\n|REGIONSBEZEICHNUNG = Departamento\n|GRÜNDUNG = 1885\n|EINWOHNER = 21707\n|EINWOHNER_BALLUNGSRAUM =\n|CENSUS = 2022\n|FLÄCHE = 843\n|BEVÖLKERUNGSDICHTE = \n|HÖHE = 20\n|ANZAHL_STADTBEZIRKE = \n|GEWÄSSER = \n|POSTLEITZAHL = \n|VORWAHL = \n|KFZ_KENNZEICHEN = \n|ZEITZONE = −5\n|STADTVORSITZ = Jairo Saúl Farelo Noriega (2020–2023)\n|STADTPATRON = \n|OFFIZIELLE_WEBSEITE = www.nuevagranada-magdalena.gov.co\n|ANMERKUNGEN = \n|BILD1 = \n|BILD1-BESCHREIBUNG = \n|BILD2 = \n|BILD2-BESCHREIBUNG = \n|BILD3 = \n|BILD3-BESCHREIBUNG = \n}}\n'''Nueva Granada''' ist eine Gemeinde ''([[Municipio (Kolumbien)|municipio]])'' im [[Departamentos in Kolumbien|Departamento]] [[Departamento del Magdalena|Magdalena]] in [[Kolumbien]].",
+  "segments": [
+    {
+      "id": "256489775-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Stadt in Lateinamerika | STAAT = [[Kolumbien]]",
+      "plain": "Infobox Stadt in Lateinamerika – Basisdaten – Staat: Kolumbien"
+    },
+    {
+      "id": "256489775-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Stadt in Lateinamerika | REGION = [[Departamento del Magdalena|Magdalena]] | REGIONSBEZEICHNUNG = Departamento",
+      "plain": "Infobox Stadt in Lateinamerika – Basisdaten – Departamento: Magdalena"
+    },
+    {
+      "id": "256489775-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Stadt in Lateinamerika | GRÜNDUNG = 1885",
+      "plain": "Infobox Stadt in Lateinamerika – Basisdaten – Stadtgründung: 1885"
+    },
+    {
+      "id": "256489775-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Stadt in Lateinamerika | CENSUS = 2022",
+      "plain": "Infobox Stadt in Lateinamerika – Basisdaten – Einwohner: 21.707 (2022)"
+    },
+    {
+      "id": "256489775-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Stadt in Lateinamerika | HÖHE = 20",
+      "plain": "Infobox Stadt in Lateinamerika – Detaildaten – Höhe: 20 m"
+    },
+    {
+      "id": "256489775-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Stadt in Lateinamerika | ZEITZONE = −5",
+      "plain": "Infobox Stadt in Lateinamerika – Detaildaten – Zeitzone: UTC−5"
+    },
+    {
+      "id": "256489775-0006",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Stadt in Lateinamerika | STADTVORSITZ = Jairo Saúl Farelo Noriega (2020–2023)",
+      "plain": "Infobox Stadt in Lateinamerika – Detaildaten – Stadtvorsitz: Jairo Saúl Farelo Noriega (2020–2023)"
+    },
+    {
+      "id": "256489775-0007",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Stadt in Lateinamerika | OFFIZIELLE_WEBSEITE = www.nuevagranada-magdalena.gov.co",
+      "plain": "Infobox Stadt in Lateinamerika – Detaildaten – Website: www.nuevagranada-magdalena.gov.co"
+    },
+    {
+      "id": "256489775-0008",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Nueva Granada''' ist eine Gemeinde ''([[Municipio (Kolumbien)|municipio]])'' im [[Departamentos in Kolumbien|Departamento]] [[Departamento del Magdalena|Magdalena]] in [[Kolumbien]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 256489775,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "256489775-0002",
+        "type": "infobox_row",
+        "section": "",
+        "context_ids": [
+          "256489775-0000",
+          "256489775-0001"
+        ],
+        "plain": "Infobox Stadt in Lateinamerika – Basisdaten – Stadtgründung: 1885",
+        "context_plain": [
+          "Infobox Stadt in Lateinamerika – Basisdaten – Staat: Kolumbien",
+          "Infobox Stadt in Lateinamerika – Basisdaten – Departamento: Magdalena"
+        ]
+      },
+      {
+        "segment_id": "256489775-0003",
+        "type": "infobox_row",
+        "section": "",
+        "context_ids": [],
+        "plain": "Infobox Stadt in Lateinamerika – Basisdaten – Einwohner: 21.707 (2022)",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

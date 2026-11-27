@@ -1,0 +1,69 @@
+{
+  "episode_id": "2026-11-27_blanton-museum-of-art",
+  "title": "Blanton Museum of Art",
+  "status": "completed",
+  "started_at": "2026-11-27T12:25:40Z",
+  "finished_at": "2026-11-27T12:56:06Z",
+  "published_at": null,
+  "explicit": false,
+  "failure": null,
+  "usage": {
+    "author": {
+      "model": "claude-sonnet-5-5",
+      "calls": 17,
+      "input_tokens": 86341,
+      "output_tokens": 68006,
+      "cache_creation_input_tokens": 32880,
+      "cache_read_input_tokens": 179489
+    },
+    "llm_judge": {
+      "model": "claude-sonnet-5-5",
+      "calls": 84,
+      "input_tokens": 76574,
+      "output_tokens": 23363,
+      "cache_creation_input_tokens": 1790,
+      "cache_read_input_tokens": 121720
+    },
+    "jev": {
+      "model": "jev-1.14.0",
+      "calls": 133,
+      "input_tokens": 125979,
+      "output_tokens": 5646,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0
+    },
+    "extraction": {
+      "model": "claude-haiku-5-5",
+      "calls": 30,
+      "input_tokens": 40852,
+      "output_tokens": 26713,
+      "cache_creation_input_tokens": 872,
+      "cache_read_input_tokens": 25288
+    }
+  },
+  "cost": {
+    "prices": {
+      "claude_sonnet_input": 2.0,
+      "claude_sonnet_output": 10.0,
+      "jev": 0.042,
+      "claude_haiku_input": 0.1,
+      "claude_haiku_output": 0.5,
+      "gemini_tts_input": 0.5,
+      "gemini_tts_output": 9.0,
+      "claude_sonnet_cache_write": 2.5,
+      "claude_sonnet_cache_read": 0.1,
+      "claude_haiku_cache_write": 0.125,
+      "claude_haiku_cache_read": 0.01
+    },
+    "usd": {
+      "author": 0.9529,
+      "llm_judge": 0.4034,
+      "jev": 0.0053,
+      "extraction": 0.0178,
+      "tts": 0.2157
+    }
+  },
+  "failed_step": null,
+  "resumed": [],
+  "audio_run_id": "45998439851"
+}

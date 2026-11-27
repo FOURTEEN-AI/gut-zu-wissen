@@ -1,0 +1,99 @@
+{
+  "title": "Amerikanisches Mahagoni",
+  "revid": 269269382,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-08-01T12:28:29Z",
+  "fetched_at": "2026-11-27T12:25:40Z",
+  "categories": [
+    "Kategorie:Baum",
+    "Kategorie:Holzart",
+    "Kategorie:Mahagonigewächse",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2019-04"
+  ],
+  "intro_wikitext": "<!-- Für Informationen zum Umgang mit dieser Vorlage siehe bitte [[Wikipedia:Taxoboxen]]. -->\n{{Taxobox\n| Taxon_Name       = Amerikanisches Mahagoni\n| Taxon_WissName   = Swietenia macrophylla\n| Taxon_Rang       = Art\n| Taxon_Autor      = [[George King (Botaniker)|King]]\n| Taxon2_WissName  = Swietenia\n| Taxon2_Rang      = Gattung\n| Taxon3_Name      = Mahagonigewächse\n| Taxon3_WissName  = Meliaceae\n| Taxon3_Rang      = Familie\n| Taxon4_Name      = Seifenbaumartige\n| Taxon4_WissName  = Sapindales\n| Taxon4_Rang      = Ordnung\n| Taxon5_Name      = Eurosiden II\n| Taxon5_Rang      = ohne\n| Taxon6_Name      = Rosiden\n| Taxon6_Rang      = ohne\n| Bild             = Young tree I IMG 8665.jpg\n| Bildbeschreibung = Junges Exemplar des<br />Amerikanischen Mahagoni (''Swietenia macrophylla'')\n}}\n\n'''Amerikanisches Mahagoni''' (''Swietenia macrophylla''), auch '''Echtes Mahagoni''' und '''Caoba'''<ref name=\"Handelshölzer\" /> genannt, ist eine [[Art (Biologie)|Pflanzenart]] innerhalb der [[Familie (Biologie)|Familie]] der [[Mahagonigewächse]] (Meliaceae). Sie kommt in [[Mittelamerika]] und im tropischen [[Südamerika]] vor und ihr [[Holz]] wird genutzt.",
+  "segments": [
+    {
+      "id": "269269382-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon6_Name      = Rosiden",
+      "plain": "Taxobox – Systematik – : Rosiden"
+    },
+    {
+      "id": "269269382-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon5_Name      = Eurosiden II",
+      "plain": "Taxobox – Systematik – : Eurosiden II"
+    },
+    {
+      "id": "269269382-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon4_Name      = Seifenbaumartige | Taxon4_WissName  = Sapindales",
+      "plain": "Taxobox – Systematik – Ordnung: Seifenbaumartige (Sapindales)"
+    },
+    {
+      "id": "269269382-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon3_Name      = Mahagonigewächse | Taxon3_WissName  = Meliaceae",
+      "plain": "Taxobox – Systematik – Familie: Mahagonigewächse (Meliaceae)"
+    },
+    {
+      "id": "269269382-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon2_WissName  = Swietenia",
+      "plain": "Taxobox – Systematik – Gattung: Swietenia"
+    },
+    {
+      "id": "269269382-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Taxobox | Taxon_Name       = Amerikanisches Mahagoni",
+      "plain": "Taxobox – Systematik – Art: Amerikanisches Mahagoni"
+    },
+    {
+      "id": "269269382-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Amerikanisches Mahagoni''' (''Swietenia macrophylla''), auch '''Echtes Mahagoni''' und '''Caoba'''<ref name=\"Handelshölzer\" /> genannt, ist eine [[Art (Biologie)|Pflanzenart]] innerhalb der [[Familie (Biologie)|Familie]] der [[Mahagonigewächse]] (Meliaceae).",
+      "plain": null
+    },
+    {
+      "id": "269269382-0007",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie kommt in [[Mittelamerika]] und im tropischen [[Südamerika]] vor und ihr [[Holz]] wird genutzt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 269269382,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "269269382-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Amerikanisches Mahagoni (Swietenia macrophylla), auch Echtes Mahagoni und Caoba genannt, ist eine Pflanzenart innerhalb der Familie der Mahagonigewächse (Meliaceae).",
+        "context_plain": []
+      },
+      {
+        "segment_id": "269269382-0007",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "269269382-0006"
+        ],
+        "plain": "Sie kommt in Mittelamerika und im tropischen Südamerika vor und ihr Holz wird genutzt.",
+        "context_plain": [
+          "Amerikanisches Mahagoni (Swietenia macrophylla), auch Echtes Mahagoni und Caoba genannt, ist eine Pflanzenart innerhalb der Familie der Mahagonigewächse (Meliaceae)."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}
