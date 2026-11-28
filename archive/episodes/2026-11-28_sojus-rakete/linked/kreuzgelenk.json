@@ -1,0 +1,74 @@
+{
+  "title": "Kreuzgelenk",
+  "revid": 270713214,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-09-22T22:11:37Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:Gelenk (Technik)",
+    "Kategorie:Welle (Technik)"
+  ],
+  "intro_wikitext": "[[Datei:Universal joint.png|mini|Kreuz- oder Kardangelenk.<br />Die Achsen des Zwischenstücks schneiden sich.]]\n\nEin '''Kreuzgelenk''' (auch '''Kardangelenk''' oder '''Universalgelenk''') ist eine winkelbewegliche [[Kupplung]] zwischen zwei [[Welle (Mechanik)|Wellen]] zu einer sogenannten [[Kardanwelle]]. Der Beugungswinkel zwischen den angeschlossenen Wellen darf sich während der [[Drehmoment]]-Übertragung verändern.\n\nIm Gegensatz zu dem [[Homokinetisches Gelenk|Gleichlaufgelenk]] und der [[Metallbalgkupplung]] übertragen Kreuzgelenke die [[Winkelgeschwindigkeit]] nicht gleichmäßig.\n\nKardangelenke, die nicht der Übertragung von Drehungen oder Drehmomenten dienen, werden im Artikel ''[[Kardanische Aufhängung]]'' behandelt.",
+  "segments": [
+    {
+      "id": "270713214-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ein '''Kreuzgelenk''' (auch '''Kardangelenk''' oder '''Universalgelenk''') ist eine winkelbewegliche [[Kupplung]] zwischen zwei [[Welle (Mechanik)|Wellen]] zu einer sogenannten [[Kardanwelle]].",
+      "plain": null
+    },
+    {
+      "id": "270713214-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Beugungswinkel zwischen den angeschlossenen Wellen darf sich während der [[Drehmoment]]-Übertragung verändern.",
+      "plain": null
+    },
+    {
+      "id": "270713214-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Gegensatz zu dem [[Homokinetisches Gelenk|Gleichlaufgelenk]] und der [[Metallbalgkupplung]] übertragen Kreuzgelenke die [[Winkelgeschwindigkeit]] nicht gleichmäßig.",
+      "plain": null
+    },
+    {
+      "id": "270713214-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Kardangelenke, die nicht der Übertragung von Drehungen oder Drehmomenten dienen, werden im Artikel ''[[Kardanische Aufhängung]]'' behandelt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270713214,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270713214-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Ein Kreuzgelenk (auch Kardangelenk oder Universalgelenk) ist eine winkelbewegliche Kupplung zwischen zwei Wellen zu einer sogenannten Kardanwelle.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270713214-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270713214-0000"
+        ],
+        "plain": "Der Beugungswinkel zwischen den angeschlossenen Wellen darf sich während der Drehmoment-Übertragung verändern.",
+        "context_plain": [
+          "Ein Kreuzgelenk (auch Kardangelenk oder Universalgelenk) ist eine winkelbewegliche Kupplung zwischen zwei Wellen zu einer sogenannten Kardanwelle."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "270713214-0002",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

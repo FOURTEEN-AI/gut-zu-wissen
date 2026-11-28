@@ -1,0 +1,72 @@
+{
+  "title": "Energija",
+  "revid": 268675131,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-11T07:08:55Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:Buran-Programm",
+    "Kategorie:MediaWiki:Gadget/annotationPair",
+    "Kategorie:Raketentyp (Raumfahrt)",
+    "Kategorie:Technischer Rekord"
+  ],
+  "intro_wikitext": "[[Datei:Buran2.jpg|miniatur|Modell von Energija/Buran, seitlich sind die Doppel-Booster erkennbar.]]\n[[Datei:ENERGIJA.jpg|miniatur|Darstellung des Energija-Trägersystems mit vier Boostern]]\n[[Datei:ENERGIJA+BURAN.jpg|miniatur|Darstellung des Energija-Trägersystems mit dem Shuttle „Buran“]]\n\nDie '''Energija''' ({{ruS|Энергия}} ‚Energie‘, ‚Tatkraft‘; [[GRAU-Index]] 11K25, [[NATO]]-Bezeichnung SL-17) war eine sowjetische [[Trägerrakete]], die entwickelt wurde, um schwere Nutzlasten wie die Raumfähre [[Buran (Raumfahrtprogramm)|Buran]] in den [[Orbit (Himmelsmechanik)|Orbit]] zu transportieren. Die Rakete kam zweimal, 1987 und 1988, erfolgreich zum Einsatz. Die Energija wurde durch die [[NPO Energija]] (heute RKK Energija) entwickelt.",
+  "segments": [
+    {
+      "id": "268675131-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Energija''' ({{ruS|Энергия}} ‚Energie‘, ‚Tatkraft‘; [[GRAU-Index]] 11K25, [[NATO]]-Bezeichnung SL-17) war eine sowjetische [[Trägerrakete]], die entwickelt wurde, um schwere Nutzlasten wie die Raumfähre [[Buran (Raumfahrtprogramm)|Buran]] in den [[Orbit (Himmelsmechanik)|Orbit]] zu transportieren.",
+      "plain": null
+    },
+    {
+      "id": "268675131-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Rakete kam zweimal, 1987 und 1988, erfolgreich zum Einsatz.",
+      "plain": null
+    },
+    {
+      "id": "268675131-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Energija wurde durch die [[NPO Energija]] (heute RKK Energija) entwickelt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268675131,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268675131-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Energija (russisch Энергия ‚Energie‘, ‚Tatkraft‘; GRAU-Index 11K25, NATO-Bezeichnung SL-17) war eine sowjetische Trägerrakete, die entwickelt wurde, um schwere Nutzlasten wie die Raumfähre Buran in den Orbit zu transportieren.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268675131-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "268675131-0000"
+        ],
+        "plain": "Die Rakete kam zweimal, 1987 und 1988, erfolgreich zum Einsatz.",
+        "context_plain": [
+          "Die Energija (russisch Энергия ‚Energie‘, ‚Tatkraft‘; GRAU-Index 11K25, NATO-Bezeichnung SL-17) war eine sowjetische Trägerrakete, die entwickelt wurde, um schwere Nutzlasten wie die Raumfähre Buran in den Orbit zu transportieren."
+        ]
+      },
+      {
+        "segment_id": "268675131-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Energija wurde durch die NPO Energija (heute RKK Energija) entwickelt.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

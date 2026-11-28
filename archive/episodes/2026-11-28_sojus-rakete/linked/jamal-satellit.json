@@ -1,0 +1,57 @@
+{
+  "title": "Jamal (Satellit)",
+  "revid": 267273985,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-05-22T07:53:55Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:Gazprom",
+    "Kategorie:Kommunikationssatellitenkonstellation",
+    "Kategorie:Raumfahrt (Russland)",
+    "Kategorie:Satellitenrundfunk"
+  ],
+  "intro_wikitext": "'''Jamal''' ({{RuS|Яма́л}}) ist eine [[Satellitenkonstellation|Konstellation]] [[Russland|russischer]] [[Kommunikationssatellit]]en, die von [[Gazprom Space Systems]] ({{ruS|Газпром космические системы}}) betrieben werden, einem [[Telekommunikationsunternehmen]], an dem [[Gazprom]], [[RKK Energija]] und die [[Gazprombank]] beteiligt sind. Die Satelliten dienen der [[Datenübertragung|Übertragung]] von [[Fernsehsendung]]en, [[Hörfunksendung]]en und [[Internetzugang über Satellit]].",
+  "segments": [
+    {
+      "id": "267273985-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Jamal''' ({{RuS|Яма́л}}) ist eine [[Satellitenkonstellation|Konstellation]] [[Russland|russischer]] [[Kommunikationssatellit]]en, die von [[Gazprom Space Systems]] ({{ruS|Газпром космические системы}}) betrieben werden, einem [[Telekommunikationsunternehmen]], an dem [[Gazprom]], [[RKK Energija]] und die [[Gazprombank]] beteiligt sind.",
+      "plain": null
+    },
+    {
+      "id": "267273985-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Satelliten dienen der [[Datenübertragung|Übertragung]] von [[Fernsehsendung]]en, [[Hörfunksendung]]en und [[Internetzugang über Satellit]].",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 267273985,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "267273985-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Jamal (russisch Яма́л) ist eine Konstellation russischer Kommunikationssatelliten, die von Gazprom Space Systems (russisch Газпром космические системы) betrieben werden, einem Telekommunikationsunternehmen, an dem Gazprom, RKK Energija und die Gazprombank beteiligt sind.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "267273985-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "267273985-0000"
+        ],
+        "plain": "Die Satelliten dienen der Übertragung von Fernsehsendungen, Hörfunksendungen und Internetzugang über Satellit.",
+        "context_plain": [
+          "Jamal (russisch Яма́л) ist eine Konstellation russischer Kommunikationssatelliten, die von Gazprom Space Systems (russisch Газпром космические системы) betrieben werden, einem Telekommunikationsunternehmen, an dem Gazprom, RKK Energija und die Gazprombank beteiligt sind."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "title": "Trägerrakete",
+  "revid": 271101476,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-06T14:11:53Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:MediaWiki:Gadget/annotationPair",
+    "Kategorie:Rakete",
+    "Kategorie:Raumfahrttechnik",
+    "Kategorie:Wikipedia:Veraltet nach Juni 2026"
+  ],
+  "intro_wikitext": "__NOMEDIAVIEWERCAROUSEL__\n[[Datei:Launch of Apollo 15.jpg|mini|Die bislang größte für [[Raumfahrtmission]]en eingesetzte Trägerrakete, die amerikanische [[Saturn (Rakete)#Saturn V|Saturn&nbsp;V]]]]\n\n<div><!-- verhindert das Auseinanderreißen der beiden Abschnitte in der Mobilansicht -->\nEine '''Trägerrakete''' ist eine [[Rakete]], die für den Transport von [[Nutzlast]]en verwendet wird. Wenn das Transportziel der [[Weltraum]] ist, dient die Rakete zum Betrieb von [[Raumfahrt]]. Sollen darüber hinaus [[Satellitenorbit|Erdumlaufbahnen]] oder [[Fluchtbahn]]en erreicht werden, so spricht man von einer '''orbitalen Trägerrakete''' oder '''[[Orbitalrakete]]'''.\n\nAlle bisher eingesetzten Orbitalraketen bestehen bzw. bestanden aus mehreren [[Raketenstufe|Stufen]]. Je nach Antriebsart der ersten Stufe wird zwischen [[Feststoffraketentriebwerk|Feststoff-]], [[Flüssigkeitsraketentriebwerk|Flüssigtreibstoff-]] und [[Hybridrakete]]n unterschieden. Die Nutzlast befindet sich meist unter einer [[Nutzlastverkleidung]], die sie vor und während des [[Raketenstart|Starts]] vor äußeren Einflüssen schützt. Die Raketen werden von einem [[Weltraumbahnhof]], einem Flugzeug oder einem Schiff aus gestartet.\n</div>",
+  "segments": [
+    {
+      "id": "271101476-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "<div><!-- verhindert das Auseinanderreißen der beiden Abschnitte in der Mobilansicht -->\nEine '''Trägerrakete''' ist eine [[Rakete]], die für den Transport von [[Nutzlast]]en verwendet wird.",
+      "plain": null
+    },
+    {
+      "id": "271101476-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Wenn das Transportziel der [[Weltraum]] ist, dient die Rakete zum Betrieb von [[Raumfahrt]].",
+      "plain": null
+    },
+    {
+      "id": "271101476-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sollen darüber hinaus [[Satellitenorbit|Erdumlaufbahnen]] oder [[Fluchtbahn]]en erreicht werden, so spricht man von einer '''orbitalen Trägerrakete''' oder '''[[Orbitalrakete]]'''.",
+      "plain": null
+    },
+    {
+      "id": "271101476-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Alle bisher eingesetzten Orbitalraketen bestehen bzw. bestanden aus mehreren [[Raketenstufe|Stufen]].",
+      "plain": null
+    },
+    {
+      "id": "271101476-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Je nach Antriebsart der ersten Stufe wird zwischen [[Feststoffraketentriebwerk|Feststoff-]], [[Flüssigkeitsraketentriebwerk|Flüssigtreibstoff-]] und [[Hybridrakete]]n unterschieden.",
+      "plain": null
+    },
+    {
+      "id": "271101476-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Nutzlast befindet sich meist unter einer [[Nutzlastverkleidung]], die sie vor und während des [[Raketenstart|Starts]] vor äußeren Einflüssen schützt.",
+      "plain": null
+    },
+    {
+      "id": "271101476-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Raketen werden von einem [[Weltraumbahnhof]], einem Flugzeug oder einem Schiff aus gestartet.\n</div>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271101476,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271101476-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271101476-0001"
+        ],
+        "plain": "Sollen darüber hinaus Erdumlaufbahnen oder Fluchtbahnen erreicht werden, so spricht man von einer orbitalen Trägerrakete oder Orbitalrakete.",
+        "context_plain": [
+          "Wenn das Transportziel der Weltraum ist, dient die Rakete zum Betrieb von Raumfahrt."
+        ]
+      },
+      {
+        "segment_id": "271101476-0003",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Alle bisher eingesetzten Orbitalraketen bestehen bzw. bestanden aus mehreren Stufen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271101476-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Je nach Antriebsart der ersten Stufe wird zwischen Feststoff-, Flüssigtreibstoff- und Hybridraketen unterschieden.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271101476-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Raketen werden von einem Weltraumbahnhof, einem Flugzeug oder einem Schiff aus gestartet.",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "271101476-0005",
+        "reason": "context_invalid"
+      }
+    ]
+  }
+}

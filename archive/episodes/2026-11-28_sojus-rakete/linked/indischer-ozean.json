@@ -1,0 +1,84 @@
+{
+  "title": "Indischer Ozean",
+  "revid": 268512067,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-07-04T22:05:13Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:Indischer Ozean",
+    "Kategorie:Ozean"
+  ],
+  "intro_wikitext": "[[Datei:Indischer Ozean.png|mini|hochkant=1.3|Karte des Indischen Ozeans. Anders als hier dargestellt, wird die [[Javasee]] normalerweise nicht zum Indischen Ozean gerechnet.]]\n[[Datei:Indian Ocean - panoramio (1).jpg|mini|Blick auf den Indischen Ozean]]\nDer '''Indische Ozean''' ist mit [[Größenordnung (Fläche)|74,9 Millionen&nbsp;km²]] Fläche (ca. 14,7 % der Erdoberfläche) der drittgrößte [[Ozean]] der [[Erde]] und ist mit Temperaturen von 22&nbsp;°C bis 28&nbsp;°C der wärmste Ozean der Erde.<ref>{{Internetquelle |url=https://www.guinnessworldrecords.de/world-records/93263-warmest-ocean |titel=Warmest ocean |werk=guinnessworldrecords.de |hrsg=[[Guinness World Records]] |sprache=en |abruf=2021-04-13}}</ref> Er fasst ein Volumen von ca. 291,9&nbsp;Mio&nbsp;km³, die maximale [[Meerestiefe]] beträgt 7290&nbsp;Meter. Der Indische Ozean liegt zum größten Teil auf der [[Südhalbkugel]]. Er grenzt an die Kontinente [[Afrika]], [[Asien]] und [[Australien (Kontinent)|Australien]] sowie an den [[Atlantischer Ozean|Atlantischen Ozean]], den [[Pazifischer Ozean|Pazifischen Ozean]] und entlang des südlichen 60°-Breitenkreises an den [[Südlicher Ozean|Antarktischen Ozean]].\n\nDie analog zu ''Atlantik'' und ''Pazifik'' (sowie ''Arktik'' und ''Antarktik'') gebildete Kurzbezeichnung '''Indik''' ([[Maskulinum|maskulin]] der Indik, aus {{laS|Oceanus Indicus}}) wird selten verwendet.",
+  "segments": [
+    {
+      "id": "268512067-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der '''Indische Ozean''' ist mit [[Größenordnung (Fläche)|74,9 Millionen&nbsp;km²]] Fläche (ca. 14,7 % der Erdoberfläche) der drittgrößte [[Ozean]] der [[Erde]] und ist mit Temperaturen von 22&nbsp;°C bis 28&nbsp;°C der wärmste Ozean der Erde.<ref>{{Internetquelle |url=https://www.guinnessworldrecords.de/world-records/93263-warmest-ocean |titel=Warmest ocean |werk=guinnessworldrecords.de |hrsg=[[Guinness World Records]] |sprache=en |abruf=2021-04-13}}</ref>",
+      "plain": null
+    },
+    {
+      "id": "268512067-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er fasst ein Volumen von ca. 291,9&nbsp;Mio&nbsp;km³, die maximale [[Meerestiefe]] beträgt 7290&nbsp;Meter.",
+      "plain": null
+    },
+    {
+      "id": "268512067-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Indische Ozean liegt zum größten Teil auf der [[Südhalbkugel]].",
+      "plain": null
+    },
+    {
+      "id": "268512067-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er grenzt an die Kontinente [[Afrika]], [[Asien]] und [[Australien (Kontinent)|Australien]] sowie an den [[Atlantischer Ozean|Atlantischen Ozean]], den [[Pazifischer Ozean|Pazifischen Ozean]] und entlang des südlichen 60°-Breitenkreises an den [[Südlicher Ozean|Antarktischen Ozean]].",
+      "plain": null
+    },
+    {
+      "id": "268512067-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die analog zu ''Atlantik'' und ''Pazifik'' (sowie ''Arktik'' und ''Antarktik'') gebildete Kurzbezeichnung '''Indik''' ([[Maskulinum|maskulin]] der Indik, aus {{laS|Oceanus Indicus}}) wird selten verwendet.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268512067,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268512067-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Indische Ozean ist mit 74,9 Millionen km² Fläche (ca. 14,7 % der Erdoberfläche) der drittgrößte Ozean der Erde und ist mit Temperaturen von 22 °C bis 28 °C der wärmste Ozean der Erde.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "268512067-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "268512067-0000"
+        ],
+        "plain": "Er fasst ein Volumen von ca. 291,9 Mio km³, die maximale Meerestiefe beträgt 7290 Meter.",
+        "context_plain": [
+          "Der Indische Ozean ist mit 74,9 Millionen km² Fläche (ca. 14,7 % der Erdoberfläche) der drittgrößte Ozean der Erde und ist mit Temperaturen von 22 °C bis 28 °C der wärmste Ozean der Erde."
+        ]
+      },
+      {
+        "segment_id": "268512067-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Der Indische Ozean liegt zum größten Teil auf der Südhalbkugel.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

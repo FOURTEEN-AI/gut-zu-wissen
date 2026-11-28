@@ -1,0 +1,1352 @@
+{
+  "judgements": [
+    {
+      "turn_index": 0,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.89
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Sojus ist eine russische Trägerrakete, der Name bedeutet auf Russisch „Union“/„Vereinigung“, Erstflug 1966, über 1000 Einsätze, meistgenutzte Rakete der Raumfahrtgeschichte. „Heute geht es um die Sojus“ ist eine Überleitung ohne Faktenbehauptung. Es gibt keine Fragen und keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 1,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 2,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 3,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 4,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 1.0,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 5,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur eine Reaktion („Spannend!“), eine Überleitung („Schauen wir uns mal einen Start an.“) und eine offene Nachfrage („Was passiert da auf der Rampe?“). Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Sie setzt nur voraus, dass es zum Start etwas zu erzählen gibt. Es gibt keine Behauptungen, die belegt werden müssten."
+    },
+    {
+      "turn_index": 6,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 7,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht aus einem Wiederaufgreifen des eben Gesagten („Eingehängt an vier Auslegern!“), das durch den Fakt-Satz gedeckt ist und keine neue Information bringt, sowie einer offenen Überleitungsfrage zum Countdown. Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es zum Ablauf etwas zu erzählen gibt. Damit ist der Beitrag belegfrei bzw. durch den Fakt gedeckt."
+    },
+    {
+      "turn_index": 8,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 9,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion (Staunen: \"Wahnsinn, das klingt nach einem gewaltigen Moment!\") und einer Überleitungsfrage (\"Und was geschieht danach am Startplatz?\"). Die Frage setzt nur voraus, dass es etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit vorweg. Es gibt keine Behauptung, die einen Beleg bräuchte."
+    },
+    {
+      "turn_index": 10,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.89,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich wieder: Die Ausleger öffnen sich blütenförmig durch ihr Eigengewicht und den Wegfall des Raketengewichts durch den Schub beim Start. Der Gegenstand ist durch den Artikel (Sojus-Rakete) eindeutig, und es kommt nichts Zusätzliches hinzu. Als Antwort auf die Frage nach dem Geschehen am Startplatz passt das zum Gegenstand."
+    },
+    {
+      "turn_index": 11,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.65
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur Reaktionen: ein Staunen bzw. Interesse im Moment („Das möchte ich mir bildlich vorstellen!“), eine Überleitung („Gehen wir zu den Triebwerken.“) und eine offene Nachfrage („Gibt es da etwas Besonderes?“). Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es zu den Triebwerken etwas zu erzählen gibt. Es werden keine Behauptungen aufgestellt, daher sind keine Fakt-Sätze nötig."
+    },
+    {
+      "turn_index": 12,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 13,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Felix' Ausruf „Eine Mondrakete!“ greift nur das eben von Lena Gesagte (N1 für Mondflüge vorgesehen) als Staunen wieder auf, ohne neue Information. Die Frage „Was wurde denn aus dem Triebwerk?“ ist eine Nachfrage und setzt keine bestimmte Einzelheit voraus. Der Redebeitrag ist daher belegfrei bzw. durch den Fakt gedeckt."
+    },
+    {
+      "turn_index": 14,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.96,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 15,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.92,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage nach einer Verwendung der übrigen Triebwerke. Die Prämisse, dass es etwa dreißig übrig gebliebene Triebwerke gibt, hat Lena im vorherigen Beitrag genannt und sie steht im Fakt-Satz. „Diese übrigen Triebwerke“ löst den Bezug auf das NK-33 aus Lenas Beitrag eindeutig auf. Die Frage nimmt keine Einzelheit oder Wertung vorweg, die erst die Antwort liefern würde; sie ist daher belegfrei und unproblematisch."
+    },
+    {
+      "turn_index": 16,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.9,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Jamal hätte sich mit anscheinend geringen Modifikationen und fertigen, von der N1 übrig gebliebenen NK-33-Triebwerken entwickeln lassen, es fehlte das Geld, und Jamal wurde nicht verwirklicht. „Die Rakete“ im Fakt-Satz als „Die Rakete Jamal“ zu nennen, löst den Bezug zulässig auf, denn der Satz endet mit „Jamal nicht verwirklicht wurde“. Die Antwort passt zur Frage nach den übrigen Triebwerken. Zusätzliche Angaben enthält der Redebeitrag nicht."
+    },
+    {
+      "turn_index": 17,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "„Wie schade.“ ist eine Reaktion (Gefühl im Moment). „Gab es weitere Pläne im Umfeld der Jamal?“ ist eine offene Nachfrage bzw. Überleitungsfrage, die nur voraussetzt, dass es etwas zu erzählen gibt, und keine bestimmte Einzelheit vorwegnimmt. Der Redebeitrag enthält keine eigenen Behauptungen, die belegt werden müssten."
+    },
+    {
+      "turn_index": 18,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 19,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine Nachfrage nach etwas Neuem (Startort) und nimmt keine bestimmte Einzelheit vorweg. Dass Aurora irgendwo starten sollte, folgt aus dem Gesprächskontext (Rakete/Variante) und ist keine konkrete Prämisse, die erst die Antwort liefert. Der Redebeitrag enthält keine Behauptung, daher ist er belegfrei zulässig."
+    },
+    {
+      "turn_index": 20,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 21,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.81
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag besteht aus einer Reaktion (Staunen: \"Eine eigene Startanlage auf einer Insel!\") und einer Nachfrage nach Kosten und Geldgebern. Die Frage ist eine Nachfrage nach etwas Neuem und nimmt keine konkrete Einzelheit vorweg. Die Wiederholung der Startanlage auf einer Insel deckt der Fakt-Satz ab. Es gibt keine unbelegte Behauptung oder Prämisse."
+    },
+    {
+      "turn_index": 22,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 23,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.95,
+        "vollstaendig": 0.73
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage („Wurde die Anlage am Ende gebaut?“). Sie knüpft an Lenas Aussage über die Kosten der Anlage an und setzt nur voraus, dass es dazu etwas zu erzählen gibt. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg und behauptet nichts Neues. Damit ist sie belegfrei."
+    },
+    {
+      "turn_index": 24,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 25,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 26,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 27,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 28,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen des Redebeitrags stehen im zitierten Fakt-Satz: ESA-Interesse am Kliper Mitte 2005, Onega bzw. eine ähnliche Rakete mit NK-33-1 als Sojus-3 wieder im Gespräch, Start von Kourou, Startanlage für die Sojus-2 und LH2-Infrastruktur für die Ariane 5, keine Mittel im Dezember 2005. Die Gegenstände sind eindeutig, da Felix nach Onega fragt und der Fakt Onega nennt. Es gibt keine zusätzlichen Angaben und keine Fragen oder Prämissen."
+    },
+    {
+      "turn_index": 29,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.88
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine Nachfrage. Er greift Kourou aus dem vorherigen Redebeitrag wieder auf und fragt allgemein nach den Vorteilen des Startplatzes, ohne eine bestimmte Einzelheit, Wertung oder Vermutung vorwegzunehmen. Er enthält also keine Behauptung und keine Prämisse und ist belegfrei."
+    },
+    {
+      "turn_index": 30,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 31,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage („Wären von dort auch bemannte Starts möglich gewesen?“), die zum Thema Kourou überleitet. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, die erst die Antwort liefern müsste, und enthält keine Behauptung. Dass es zu bemannten Starts etwas zu sagen gibt, ist nur die übliche Voraussetzung einer Nachfrage. Der Beleg wird daher nicht benötigt, und die Nachfrage ist belegfrei."
+    },
+    {
+      "turn_index": 32,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 33,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine Nachfrage bzw. Überleitungsfrage („Wie ging es danach weiter?“). Sie setzt nur voraus, dass es zu Sojus in Französisch-Guayana etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Gegenstand und Ort nennt der vorherige Redebeitrag. Eine Behauptung enthält die Frage nicht, deshalb ist sie belegfrei."
+    },
+    {
+      "turn_index": 34,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "aussage_3": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 35,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine Nachfrage mit Bitte um Erklärung. Die Prämisse, dass es eine Krise gab, hat Lena im vorherigen Beitrag genannt und sie folgt aus dem zitierten Fakt (mehrjährige Krise der europäischen Raumfahrt). Es wird keine zusätzliche Einzelheit vorweggenommen, daher ist der Beitrag belegfrei bzw. gedeckt."
+    },
+    {
+      "turn_index": 36,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 37,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 38,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 39,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.88,
+        "vollstaendig": 0.76
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag ist eine reine Nachfrage zum Thema des vorherigen Beitrags (Rettungssystem). Er enthält keine neue Behauptung. Die Prämisse, dass das Rettungssystem irgendwann abgeworfen wird, ist keine bestimmte Einzelheit, die erst die Antwort liefert, sondern eine übliche Nachfrage nach dem weiteren Ablauf. Eine Stütze durch den Fakt-Satz ist daher nicht nötig."
+    },
+    {
+      "turn_index": 40,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 41,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.93,
+        "vollstaendig": 0.8
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine Nachfrage („Wurde es schon einmal ausgelöst?“) zum Rettungssystem, das Lena eben genannt hat. Er stellt keine Behauptung auf und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt, und ist damit belegfrei. „Es“ bezieht sich eindeutig auf das Rettungssystem aus dem vorherigen Redebeitrag."
+    },
+    {
+      "turn_index": 42,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen folgen aus dem Fakt-Satz: Datum 14. Dezember 1966, unbeabsichtigte Auslösung des Rettungssystems und der vorangegangene abgebrochene unbemannte Startversuch. „Es“ in Felix' Frage wird als Rettungssystem aufgelöst, passend zum Artikelthema Sojus-Rakete. Der Redebeitrag enthält keine Fragen oder weiteren Behauptungen ohne Beleg."
+    },
+    {
+      "turn_index": 43,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. \"Und wie sah es im Ernstfall aus?\" fragt nach etwas Neuem, setzt aber keine bestimmte Einzelheit, Wertung oder Tatsache voraus, die erst die Antwort liefern müsste. Er enthält keine Behauptung und ist damit belegfrei."
+    },
+    {
+      "turn_index": 44,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Alle drei Sätze folgen aus den Fakt-Sätzen: Missionsbezeichnung, Datum und Fehlschlag aus 0015; die erstmalige Rettung einer Besatzung durch den Rettungsturm am selben Tag aus 0036; die Rettung wenige Sekunden vor der Explosion der Trägerrakete aus 0037. \"An diesem Tag\" bezieht sich eindeutig auf den 26. September 1983, und \"das System\" ist der Rettungsturm. Der Gegenstand ist durch den Redebeitrag klar bestimmt. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämissen."
+    },
+    {
+      "turn_index": 45,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 46,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 47,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion („Puh!“) und einer Nachfrage zur Verlässlichkeit der Sojus. Er enthält keine Behauptung und keine Prämisse, die erst die Antwort liefern würde. Die Frage greift das Thema des vorherigen Beitrags auf, deshalb sind keine Fakt-Sätze nötig."
+    },
+    {
+      "turn_index": 48,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 49,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag besteht nur aus einer Reaktion („Beeindruckend!“) und einer Nachfrage zu bemannten Flügen. Beides ist belegfrei. Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg und setzt nichts als Tatsache voraus, das nicht gesagt wurde. Es gibt keine Behauptung, die Fakten bräuchte."
+    },
+    {
+      "turn_index": 50,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 51,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.85
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage nach dem Startort der bemannten Flüge. Sie greift das eben Gesagte auf und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Die Voraussetzung, dass bemannte Flüge starten, steht im Fakt und im vorherigen Beitrag. Er enthält keine neue Behauptung und ist daher belegfrei."
+    },
+    {
+      "turn_index": 52,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 53,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.82
+      },
+      "jev_error": null,
+      "reason": "Felix stellt nur eine Nachfrage, wie der Standort von Baikonur gewählt wurde. Das ist eine Überleitungsfrage und damit belegfrei. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, die erst die Antwort liefern würde. Dass der Standort nach einem Gesichtspunkt gewählt wurde, ist eine harmlose Voraussetzung, keine konkrete Behauptung. Der zitierte Fakt behandelt zwar ein anderes Thema, wird aber nicht als Beleg für eine Aussage gebraucht."
+    },
+    {
+      "turn_index": 54,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 1.0,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 55,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Die Behauptung, dass Sputnik 1 von Baikonur gestartet ist und der erste künstliche Satellit war, folgt direkt aus dem Fakt-Satz. Die Frage nach der damaligen Aufnahme des Starts in der Welt ist eine Nachfrage ohne vorweggenommene Einzelheit, Wertung oder Vermutung und daher belegfrei."
+    },
+    {
+      "turn_index": 56,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "aussage_2": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 57,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "„Verrückt!“ ist eine Reaktion (Staunen). „Wer vermarktet die Sojus eigentlich kommerziell?“ ist eine Nachfrage bzw. Überleitungsfrage. Sie setzt nur voraus, dass es eine kommerzielle Vermarktung gibt, was der zitierte Fakt zur kommerziell erfolgreichsten Rakete stützt. Sie nimmt keine bestimmte Einzelheit oder Wertung vorweg. Der Redebeitrag enthält keine eigenen Behauptungen, die belegt werden müssten."
+    },
+    {
+      "turn_index": 58,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 59,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage (\"Gibt es Zahlen zum Bau von Sojus-Anlagen?\"). Sie nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg, sondern fragt nur, ob es dazu etwas zu erzählen gibt. Das ist belegfrei und braucht keine Fakt-IDs."
+    },
+    {
+      "turn_index": 60,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 1.0,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 61,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.83
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine offene Nachfrage ohne Fakt-IDs. Sie setzt nur voraus, dass es etwas zu erzählen gibt, und nimmt weder eine bestimmte Einzelheit noch eine Wertung vorweg. Das entspricht den erlaubten Beispielen wie „Gab es oben auf dem Dom ein besonderes Zeichen?“. Damit gilt sie als belegfrei."
+    },
+    {
+      "turn_index": 62,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.97,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 63,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 64,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.98,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder: Die Nutzung des historischen Startplatzes 1 in Baikonur wurde eingestellt, und von dort waren der erste Satellit und der erste Mensch ins All gestartet. Es kommt keine zusätzliche Angabe hinzu. Der Gegenstand ist eindeutig, denn Baikonur und der Startplatz werden im Redebeitrag genannt und das Thema ist der Artikel Sojus (Rakete). Das „Zugleich“ wird wie im Fakt-Satz verwendet und stellt keine neue Beziehung her. Als Antwort auf die Nachfrage „Gab es noch weitere Folgen?“ passt der Beitrag, weil der Fakt-Satz eine Folge der Außerdienststellung der Sojus-FG nennt. Der Redebeitrag enthält keine Fragen und keine unbelegten Reaktionen."
+    },
+    {
+      "turn_index": 65,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.72
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur eine Reaktion („Ein Stück Geschichte!“, ein Ausdruck von Staunen, der das eben Gesagte aufgreift) und eine offene Nachfrage bzw. Überleitungsfrage („Wie läuft ein Flug eigentlich ab?“). Sie nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg. Es werden keine neuen Behauptungen aufgestellt, daher sind keine Fakt-Sätze nötig."
+    },
+    {
+      "turn_index": 66,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 67,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.87,
+        "vollstaendig": 0.79
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage („Was passiert mit den abgetrennten Teilen?“). Sie knüpft an das Abtrennen der Stufen aus dem vorherigen Beitrag an, bittet um Erklärung und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Er enthält keine Behauptung, die belegt werden müsste, daher ist er belegfrei und zulässig."
+    },
+    {
+      "turn_index": 68,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 69,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 70,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.54,
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Beide Aussagen folgen aus dem Fakt-Satz: Bergungsteams der Regierung sammeln heutzutage meist die Raketentrümmer ein, und diese sind mit giftigem Raketentreibstoff kontaminiert. \"Sie\" bezieht sich auf die Raketentrümmer, was der Fakt-Satz eindeutig nennt. Das Thema Sojus-Rakete ist durch den Artikel eindeutig, und \"Ist das heute noch so?\" lässt sich auf die frühere Bergung durch Schrottsammler beziehen. Der Redebeitrag enthält keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 71,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.9
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage bzw. Überleitungsfrage („Wie gehen andere Raketen mit ihren Boostern um?“). Sie stellt keine Behauptung auf und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Die Voraussetzung, dass es zu anderen Raketen und ihren Boostern etwas zu erzählen gibt, ist unproblematisch. Fakt-Sätze sind daher nicht nötig."
+    },
+    {
+      "turn_index": 72,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 73,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.75
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält keine Behauptung. „Faszinierend!“ ist eine Reaktion. Die beiden Fragen sind Nachfragen bzw. eine Überleitung zur Sojus und ihrer Stufenzahl. Sie nehmen keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, die erst die Antwort liefern würde. Dass sich im Lauf der Zeit etwas getan hat, wird nur erfragt, nicht behauptet. Ohne Fakt-IDs ist das zulässig."
+    },
+    {
+      "turn_index": 74,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.92
+      },
+      "jev_error": null,
+      "reason": "Die Aussagen zur vierten Stufe ab Ende der 1990er Jahre und zur bis dahin verwendeten, nicht flexiblen vierstufigen Molnija stimmen mit dem Fakt-Satz überein, ohne zusätzliche Angaben. Der Gegenstand (Sojus) ist eindeutig. Der Einleitungssatz „Ja, da hat sich etwas getan“ ist eine belegfreie Reaktion bzw. ein Wiederaufgreifen der Frage, und es gibt keine Fragen im Redebeitrag."
+    },
+    {
+      "turn_index": 75,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Sie fragt nur, ob es noch etwas Bekanntes zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg. Damit ist sie belegfrei und enthält keine Behauptung."
+    },
+    {
+      "turn_index": 76,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.96
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 77,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.93
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine offene Nachfrage und damit belegfrei. Die Frage \"Wie lief das dann für die Cluster-Satelliten?\" greift den Gegenstand aus Lenas vorherigem Beitrag (Cluster-Satelliten, ESA) auf und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Die Prämisse, dass die Cluster-Satelliten mit einer Trägerrakete zu tun hatten, ist durch den zitierten Fakt gedeckt."
+    },
+    {
+      "turn_index": 78,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 79,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.91
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag enthält nur eine Reaktion („Wow, was für eine Rettung!“, ein Gefühl im Moment) und eine Nachfrage („Wie wird die Sojus eigentlich gesteuert?“). Die Frage nimmt keine Einzelheit, Wertung oder Vermutung vorweg und setzt nichts als Tatsache voraus, was nicht gesagt wurde; die Sojus wurde im vorherigen Beitrag genannt. Ohne Fakt-IDs ist das zulässig, weil keine Behauptung vorkommt."
+    },
+    {
+      "turn_index": 80,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.95,
+        "vollstaendig": 0.95
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 81,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.91,
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Felix' Redebeitrag ist eine reine Nachfrage (Bitte um Erklärung) und bezieht sich eindeutig auf das digitale Flugsteuersystem, das Lena eben genannt hat. Er enthält keine neue Behauptung und keine Prämisse, die erst die Antwort liefern müsste. „Dieses digitale System“ ist eindeutig, und die Ersetzung der analogen Steuerung kommt aus dem Fakt-Satz, wird aber gar nicht erst behauptet."
+    },
+    {
+      "turn_index": 82,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.91,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen direkt aus dem Fakt-Satz: Die digitale Steuerung sollte ursprünglich ab 2002 bei der Sojus-U eingesetzt werden, sie ermöglicht flexiblere Flugplanung und effizientere Treibstoffnutzung, was der Nutzlastkapazität zugutekommt. „Dieses digitale System“ aus Felix' Frage meint dieselbe digitale Steuerung, und das Thema des Artikels ist die Sojus-Rakete, also ist der Bezug eindeutig. Es wird nichts hinzugefügt."
+    },
+    {
+      "turn_index": 83,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Der Redebeitrag ist eine reine Nachfrage bzw. Überleitungsfrage („Und was ist für die Zukunft der Sojus geplant?“). Sie enthält keine Behauptung und keine bestimmte Einzelheit oder Wertung als Prämisse, sondern setzt nur voraus, dass es etwas zur Zukunft zu erzählen gibt. Das ist belegfrei und braucht keine Fakt-IDs."
+    },
+    {
+      "turn_index": 84,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.78
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus dem Fakt-Satz: dreistufige Rakete, niedrigere Kosten als die Sojus-2.1, Reaktion auf den Preisdruck durch SpaceX, Falcon 9 läuft der jahrzehntelang marktführenden Sojus seit 2017 den Rang ab. Dass es sich um die Sojus-2M handelt, nennt der Kontext zwar nur dort, der Redebeitrag löst den Bezug von „Es“ aber zulässig mit dem Namen auf, den der Kontext bestimmt. Der Gegenstand (Sojus, Artikelthema) passt zur vorherigen Frage nach der Zukunft der Sojus. „Soll“ gibt die Planung korrekt wieder. Es gibt keine Fragen und keine zusätzlichen Angaben."
+    },
+    {
+      "turn_index": 85,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "vollstaendig": 0.97
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 86,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "vollstaendig": 0.98
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 87,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "vollstaendig": 0.94
+      },
+      "jev_error": null,
+      "reason": "Felix' Beitrag ist eine offene Nachfrage ohne Fakt-IDs. Sie bittet nur um weitere Informationen zur Sojus-5, die der vorherige Beitrag nennt, und nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg. Sie enthält also keine Behauptung und keine Prämisse und gilt als belegfreie Reaktion."
+    },
+    {
+      "turn_index": 88,
+      "accepted": true,
+      "decided_by": "jev",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.99,
+        "vollstaendig": 0.99
+      },
+      "jev_error": null,
+      "reason": null
+    },
+    {
+      "turn_index": 89,
+      "accepted": true,
+      "decided_by": "llm_judge",
+      "jev_p": {
+        "aussage_0": 0.99,
+        "aussage_1": 0.95,
+        "aussage_2": 0.99,
+        "aussage_3": 0.98,
+        "aussage_4": 0.99,
+        "aussage_5": 0.98,
+        "vollstaendig": 0.84
+      },
+      "jev_error": null,
+      "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: über 1000 Einsätze und meistgenutzte Rakete (0001), kommerziell erfolgreichste bis 2016 (0007), einzige aktive russische Trägerrakete für bemannten Flug (0008, \"Russischen Föderation\" = Russland), Fehlstart 2018 mit Rettung der Besatzung (0120), Fregat rettet Mission nach zu frühem Abschalten der dritten Stufe (0100) und Sojus-2M als Reaktion auf den Preisdruck durch SpaceX (0166 mit Kontext zur Sojus-2M). Der Gegenstand ist überall die Sojus bzw. ihre Variante; der Hinweis \"Dann fasse ich zusammen\" ist eine Überleitung. Keine Frage und keine zusätzliche Angabe."
+    }
+  ],
+  "used_fact_ids": [
+    "272562704-0000",
+    "272562704-0001",
+    "272562704-0002",
+    "272562704-0012",
+    "272562704-0003",
+    "272562704-0005",
+    "272562704-0237",
+    "272562704-0245",
+    "272562704-0022",
+    "272562704-0246",
+    "272562704-0153",
+    "272562704-0154",
+    "272562704-0183",
+    "272562704-0185",
+    "272562704-0186",
+    "272562704-0187",
+    "272562704-0189",
+    "272562704-0213",
+    "272562704-0214",
+    "272562704-0146",
+    "272562704-0052",
+    "272562704-0010",
+    "272562704-0150",
+    "267930390-0001",
+    "272562704-0041",
+    "272562704-0042",
+    "272562704-0044",
+    "272562704-0035",
+    "255240167-0015",
+    "272562704-0036",
+    "272562704-0037",
+    "272562704-0120",
+    "272562704-0007",
+    "272562704-0008",
+    "272399843-0006",
+    "272562704-0049",
+    "272399843-0002",
+    "270950168-0023",
+    "272562704-0125",
+    "272562704-0144",
+    "272562704-0122",
+    "272562704-0123",
+    "272562704-0249",
+    "272562704-0250",
+    "272562704-0251",
+    "263225088-0007",
+    "272562704-0056",
+    "272562704-0096",
+    "272562704-0097",
+    "272562704-0100",
+    "272562704-0128",
+    "272562704-0129",
+    "272562704-0166",
+    "272562704-0228",
+    "272562704-0230"
+  ],
+  "cascade_checks": [
+    {
+      "conversation": 1,
+      "turn_index": 10,
+      "p": 0.89,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung enthält dieselbe Aussage: Die Ausleger öffnen sich blütenförmig, und zwar durch ihr Eigengewicht und dadurch, dass beim Start das Gewicht der Rakete durch deren Schub wegfällt. Es fehlt nichts, und es wurde nichts verändert. „Nun“ ist nur eine zeitliche Einleitung, die den Inhalt nicht ändert."
+    },
+    {
+      "conversation": 1,
+      "turn_index": 25,
+      "p": 0.98,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 1,
+      "turn_index": 34,
+      "p": 0.82,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung ist wortgleich mit der vorherigen. Alle Aussagen sind enthalten: Stopp der Sojus-Starts von Guyana nach dem Überfall 2022, verzögerte Galileo-Starts mit anderen Raketen, sofortiges Ende der ESA-Zusammenarbeit mit Roskosmos in der unbemannten Raumfahrt und die mehrjährige Krise der europäischen Raumfahrt."
+    },
+    {
+      "conversation": 1,
+      "turn_index": 47,
+      "p": 0.04,
+      "confirmed": false,
+      "error": null,
+      "decided_by": "jev",
+      "reason": null
+    },
+    {
+      "conversation": 2,
+      "turn_index": 56,
+      "p": 0.89,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung enthält alle Aussagen der vorherigen Fassung: die Ankündigung von Satellitenstarts durch die Sowjetunion und die USA anlässlich des Internationalen Geophysikalischen Jahres 1957–58, die Erwartung der westlichen Fachwelt, die sowjetischen Entwicklungen würden erst Mitte 1958 fertig, und die Überraschung durch den Start von Sputnik 1. Nur die Reihenfolge ist anders, Daten und Namen sind gleich."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 74,
+      "p": 0.91,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung enthält dieselbe Aussage: Erst ab Ende der 1990er wurde bei der Sojus eine vierte Stufe für höhere Orbits eingesetzt, weil die bis dahin verwendete vierstufige Molnija nicht flexibel genug war. Der einleitende Satz „Ja, da hat sich etwas getan“ fügt keine inhaltliche Aussage hinzu, die der vorherigen widerspricht."
+    },
+    {
+      "conversation": 2,
+      "turn_index": 88,
+      "p": 0.92,
+      "confirmed": true,
+      "error": null,
+      "decided_by": "llm_judge",
+      "reason": "Die neue Fassung enthält dieselbe Aussage: Die kleinste Variante der Sojus-5 soll Sojus-5 Light heißen und wiederverwendbar sein. Es fehlt nichts und es wurde nichts verändert, nur die Satzstruktur ist leicht anders."
+    }
+  ],
+  "conversation": 2,
+  "superseded_judgements": [
+    {
+      "conversation": 1,
+      "turn_index": 9,
+      "version": 0,
+      "replaced_by": 0,
+      "judgement": {
+        "turn_index": 9,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272562704-0237 wurde schon in Redebeitrag 6 und 7 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 10,
+      "version": 0,
+      "replaced_by": 1,
+      "judgement": {
+        "turn_index": 10,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 24,
+      "version": 0,
+      "replaced_by": 2,
+      "judgement": {
+        "turn_index": 24,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.96,
+          "vollstaendig": 0.67
+        },
+        "jev_error": null,
+        "reason": "Der Fakt-Satz nennt sein Subjekt nur als \"des Projekts\"; dass es das Aurora-Projekt ist, steht nur im Kontext (\"Aurora sollte vornehmlich...\"), und der Kontext gilt nicht als Beleg. Der Artikel handelt von der Sojus-Rakete, nicht von Aurora. Zuhörer würden \"Projekt\" zudem auf \"die Anlage\" aus Felix' Frage beziehen. Dass Lena \"das Projekt\" mit \"Aurora-Projekt\" benennt, ist daher keine Auflösung eines eindeutigen Bezugs, sondern fügt eine nicht belegte Angabe hinzu. Außerdem ist die Anlage aus der vorherigen Frage nicht als Aurora-Projekt belegt."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 25,
+      "version": 0,
+      "replaced_by": 3,
+      "judgement": {
+        "turn_index": 25,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "vollstaendig": 0.83
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag ist eine reine Nachfrage ohne Fakt-IDs. Sie fragt nur, ob es weitere Pläne rund um die Sojus gab, und nimmt keine bestimmte Einzelheit, Wertung oder Tatsache vorweg. Das ist belegfrei."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 33,
+      "version": 0,
+      "replaced_by": 4,
+      "judgement": {
+        "turn_index": 33,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272562704-0214 wurde schon in Redebeitrag 28 und 29 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 34,
+      "version": 0,
+      "replaced_by": 5,
+      "judgement": {
+        "turn_index": 34,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Alle vier Sätze folgen aus den Fakt-Sätzen: Sojus-Starts von Guyana gestoppt und Galileo-Starts mit anderen Raketen zeitlich verzögert (Fakt 0010), sofortige Beendigung der ESA-Zusammenarbeit mit Roskosmos in der unbemannten Raumfahrt und mehrjährige Krise (Fakt 0150). Zahlen und Namen stimmen überein, nichts Zusätzliches wird behauptet. „Guyana“ meint Kourou/Französisch-Guayana im Kontext, passend zur vorherigen Frage nach Kourou. Der Redebeitrag enthält keine Fragen oder unbelegten Aussagen."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 46,
+      "version": 0,
+      "replaced_by": 6,
+      "judgement": {
+        "turn_index": 46,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.39
+        },
+        "jev_error": null,
+        "reason": "Die Angabe „des Rettungssystems“ steht in keinem Fakt-Satz. Der Fakt spricht nur von „einem weiteren Einsatz“, ohne zu sagen, wovon. Auch „Flug zur Internationalen Raumstation“ steht nur im Kontext des zweiten Fakts, nicht im Fakt-Satz selbst, und gilt damit als nicht belegt."
+      }
+    },
+    {
+      "conversation": 1,
+      "turn_index": 47,
+      "version": 0,
+      "replaced_by": 7,
+      "judgement": {
+        "turn_index": 47,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.54,
+          "vollstaendig": 0.82
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag ist eine Nachfrage an Lena. Er setzt nur voraus, dass bei Sojus MS-10 die Besatzung von der Rakete getrennt wurde. Das ist die Überleitung zum eben genannten Rettungssystem-Einsatz und keine Einzelheit, die erst die Antwort liefern würde. Er stellt keine neue Behauptung auf und nimmt keine Wertung oder Vermutung vorweg. Der Gegenstand Sojus MS-10 stimmt mit dem Fakt-Satz überein. Eine Nachfrage ist belegfrei."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 55,
+      "version": 0,
+      "replaced_by": 8,
+      "judgement": {
+        "turn_index": 55,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.61
+        },
+        "jev_error": null,
+        "reason": "Felix behauptet, Sputnik 1 sei \"vorhin schon\" im Gespräch vorgekommen. Das ist eine Aussage über den Gesprächsverlauf, die weder aus dem Fakt-Satz noch aus dem vorherigen Redebeitrag folgt. Lena hat Sputnik 1 nicht erwähnt, sondern nur Baikonur. Der Fakt-Satz nennt Sputnik 1 nur als Nutzlast der ersten erfolgreichen R-7-Mission am 4. Oktober 1957. Die Frage nach der Aufnahme des Starts ist eine Nachfrage und deshalb belegfrei. Die Behauptung zum früheren Vorkommen bleibt aber unbelegt."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 56,
+      "version": 0,
+      "replaced_by": 9,
+      "judgement": {
+        "turn_index": 56,
+        "accepted": true,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.94,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich getreu wieder: Ankündigung von Satellitenstarts durch UdSSR und USA zum IGY 1957–58, die Erwartung der westlichen Fachwelt für Mitte 1958 und die Überraschung durch den Start. Der Gegenstand „der Start“ ist eindeutig Sputnik 1 (Artikelthema und vorheriger Redebeitrag), und der Redebeitrag löst den Bezug korrekt auf. Es wird nichts hinzugefügt und der Bezug zur Frage nach der Aufnahme des Starts passt."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 73,
+      "version": 0,
+      "replaced_by": 10,
+      "judgement": {
+        "turn_index": 73,
+        "accepted": false,
+        "decided_by": "gate",
+        "jev_p": {},
+        "jev_error": null,
+        "reason": "Der Fakt 272562704-0249 wurde schon in Redebeitrag 66 und 67 erzählt. Erzähle ihn nicht noch einmal; gehe zum nächsten Fakt über oder reagiere kurz ohne seine Details."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 74,
+      "version": 0,
+      "replaced_by": 11,
+      "judgement": {
+        "turn_index": 74,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 87,
+      "version": 0,
+      "replaced_by": 12,
+      "judgement": {
+        "turn_index": 87,
+        "accepted": false,
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.84
+        },
+        "jev_error": null,
+        "reason": "Felix' Frage „Soll es von dieser Rakete mehrere Varianten geben?“ ist keine bloße Nachfrage, sondern setzt als Prämisse voraus, dass Varianten der Sojus-5 geplant sein könnten. Der zitierte Fakt-Satz nennt nur den ersten suborbitalen Testflug am 30. April 2026 von Baikonur und sagt nichts über Varianten oder deren Planung. Die Prämisse folgt also nicht aus den Fakt-Sätzen."
+      }
+    },
+    {
+      "conversation": 2,
+      "turn_index": 88,
+      "version": 0,
+      "replaced_by": 13,
+      "judgement": {
+        "turn_index": 88,
+        "accepted": true,
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "title": "Weltraumprogramm der Europäischen Union",
+  "revid": 264118102,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-02-09T10:02:19Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:Europäische Raumfahrt",
+    "Kategorie:Programm der Europäischen Union"
+  ],
+  "intro_wikitext": "Das '''Weltraumprogramm der Europäischen Union''' ({{enS|European Union Space Programme}}), offiziell '''Weltraumprogramm der Union''', ist ein [[Förderprogramme der EU|Förderprogramm]] der [[Europäische Union|Europäischen Union]] (EU) erstellt in Zusammenarbeit mit der [[Europäische Weltraumorganisation|Europäischen Weltraumorganisation]] (ESA), um die '''Europäische Raumfahrtpolitik''' zu implementieren. Es wird von der [[Agentur der Europäischen Union für das Weltraumprogramm]] verwaltet.",
+  "segments": [
+    {
+      "id": "264118102-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das '''Weltraumprogramm der Europäischen Union''' ({{enS|European Union Space Programme}}), offiziell '''Weltraumprogramm der Union''', ist ein [[Förderprogramme der EU|Förderprogramm]] der [[Europäische Union|Europäischen Union]] (EU) erstellt in Zusammenarbeit mit der [[Europäische Weltraumorganisation|Europäischen Weltraumorganisation]] (ESA), um die '''Europäische Raumfahrtpolitik''' zu implementieren.",
+      "plain": null
+    },
+    {
+      "id": "264118102-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Es wird von der [[Agentur der Europäischen Union für das Weltraumprogramm]] verwaltet.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 264118102,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "264118102-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Das Weltraumprogramm der Europäischen Union (englisch European Union Space Programme), offiziell Weltraumprogramm der Union, ist ein Förderprogramm der Europäischen Union (EU) erstellt in Zusammenarbeit mit der Europäischen Weltraumorganisation (ESA), um die Europäische Raumfahrtpolitik zu implementieren.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

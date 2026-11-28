@@ -1,0 +1,3447 @@
+{
+  "episode_id": "2026-11-28_sojus-rakete",
+  "title": "Sojus (Rakete)",
+  "rate": 1.0,
+  "seed": "2026-11-28_sojus-rakete",
+  "population": [
+    0,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    38,
+    39,
+    40,
+    41,
+    42,
+    44,
+    46,
+    48,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    60,
+    62,
+    63,
+    64,
+    66,
+    67,
+    68,
+    69,
+    70,
+    72,
+    74,
+    76,
+    77,
+    78,
+    80,
+    81,
+    82,
+    84,
+    86,
+    88,
+    89
+  ],
+  "draws": [
+    {
+      "turn_index": 0,
+      "u": 0.2782992587398204,
+      "sampled": true
+    },
+    {
+      "turn_index": 2,
+      "u": 0.8372285413482726,
+      "sampled": true
+    },
+    {
+      "turn_index": 3,
+      "u": 0.5694529591659788,
+      "sampled": true
+    },
+    {
+      "turn_index": 4,
+      "u": 0.5477234951028352,
+      "sampled": true
+    },
+    {
+      "turn_index": 6,
+      "u": 0.7512474013400608,
+      "sampled": true
+    },
+    {
+      "turn_index": 7,
+      "u": 0.48563754938800596,
+      "sampled": true
+    },
+    {
+      "turn_index": 8,
+      "u": 0.027582461921542456,
+      "sampled": true
+    },
+    {
+      "turn_index": 10,
+      "u": 0.0799681369205354,
+      "sampled": true
+    },
+    {
+      "turn_index": 12,
+      "u": 0.6741618906567335,
+      "sampled": true
+    },
+    {
+      "turn_index": 13,
+      "u": 0.10622773414339659,
+      "sampled": true
+    },
+    {
+      "turn_index": 14,
+      "u": 0.29547133837394657,
+      "sampled": true
+    },
+    {
+      "turn_index": 15,
+      "u": 0.8163969116118155,
+      "sampled": true
+    },
+    {
+      "turn_index": 16,
+      "u": 0.22722507868069608,
+      "sampled": true
+    },
+    {
+      "turn_index": 17,
+      "u": 0.3090639029498443,
+      "sampled": true
+    },
+    {
+      "turn_index": 18,
+      "u": 0.822757651982361,
+      "sampled": true
+    },
+    {
+      "turn_index": 19,
+      "u": 0.8122719574538593,
+      "sampled": true
+    },
+    {
+      "turn_index": 20,
+      "u": 0.1588387029718088,
+      "sampled": true
+    },
+    {
+      "turn_index": 21,
+      "u": 0.9153604613075124,
+      "sampled": true
+    },
+    {
+      "turn_index": 22,
+      "u": 0.4412430353327852,
+      "sampled": true
+    },
+    {
+      "turn_index": 23,
+      "u": 0.26247009188860837,
+      "sampled": true
+    },
+    {
+      "turn_index": 24,
+      "u": 0.18837863118464204,
+      "sampled": true
+    },
+    {
+      "turn_index": 26,
+      "u": 0.5213950437154713,
+      "sampled": true
+    },
+    {
+      "turn_index": 27,
+      "u": 0.8255331314044,
+      "sampled": true
+    },
+    {
+      "turn_index": 28,
+      "u": 0.8653988236426994,
+      "sampled": true
+    },
+    {
+      "turn_index": 29,
+      "u": 0.7327771834276599,
+      "sampled": true
+    },
+    {
+      "turn_index": 30,
+      "u": 0.6175147648331849,
+      "sampled": true
+    },
+    {
+      "turn_index": 31,
+      "u": 0.5217311836506014,
+      "sampled": true
+    },
+    {
+      "turn_index": 32,
+      "u": 0.345802430358772,
+      "sampled": true
+    },
+    {
+      "turn_index": 33,
+      "u": 0.6774594002518838,
+      "sampled": true
+    },
+    {
+      "turn_index": 34,
+      "u": 0.020524012916186107,
+      "sampled": true
+    },
+    {
+      "turn_index": 35,
+      "u": 0.23219974362551898,
+      "sampled": true
+    },
+    {
+      "turn_index": 36,
+      "u": 0.8183396499076704,
+      "sampled": true
+    },
+    {
+      "turn_index": 38,
+      "u": 0.41939513944122464,
+      "sampled": true
+    },
+    {
+      "turn_index": 39,
+      "u": 0.19474298420275826,
+      "sampled": true
+    },
+    {
+      "turn_index": 40,
+      "u": 0.16163438754231174,
+      "sampled": true
+    },
+    {
+      "turn_index": 41,
+      "u": 0.0734260682914154,
+      "sampled": true
+    },
+    {
+      "turn_index": 42,
+      "u": 0.6967028852764025,
+      "sampled": true
+    },
+    {
+      "turn_index": 44,
+      "u": 0.12808794551215086,
+      "sampled": true
+    },
+    {
+      "turn_index": 46,
+      "u": 0.43819621197936176,
+      "sampled": true
+    },
+    {
+      "turn_index": 48,
+      "u": 0.45081288511485296,
+      "sampled": true
+    },
+    {
+      "turn_index": 50,
+      "u": 0.8180175567695355,
+      "sampled": true
+    },
+    {
+      "turn_index": 51,
+      "u": 0.8277610349595127,
+      "sampled": true
+    },
+    {
+      "turn_index": 52,
+      "u": 0.5922910200030923,
+      "sampled": true
+    },
+    {
+      "turn_index": 53,
+      "u": 0.03388129489695901,
+      "sampled": true
+    },
+    {
+      "turn_index": 54,
+      "u": 0.6225010333829598,
+      "sampled": true
+    },
+    {
+      "turn_index": 55,
+      "u": 0.5147171277976967,
+      "sampled": true
+    },
+    {
+      "turn_index": 56,
+      "u": 0.6986387293100362,
+      "sampled": true
+    },
+    {
+      "turn_index": 57,
+      "u": 0.2591727268985806,
+      "sampled": true
+    },
+    {
+      "turn_index": 58,
+      "u": 0.24622860957936377,
+      "sampled": true
+    },
+    {
+      "turn_index": 60,
+      "u": 0.7542032685257911,
+      "sampled": true
+    },
+    {
+      "turn_index": 62,
+      "u": 0.8299941629005354,
+      "sampled": true
+    },
+    {
+      "turn_index": 63,
+      "u": 0.08168730313425521,
+      "sampled": true
+    },
+    {
+      "turn_index": 64,
+      "u": 0.34201725634445124,
+      "sampled": true
+    },
+    {
+      "turn_index": 66,
+      "u": 0.4788117107033819,
+      "sampled": true
+    },
+    {
+      "turn_index": 67,
+      "u": 0.932406617114107,
+      "sampled": true
+    },
+    {
+      "turn_index": 68,
+      "u": 0.15778859680055757,
+      "sampled": true
+    },
+    {
+      "turn_index": 69,
+      "u": 0.5053927196585176,
+      "sampled": true
+    },
+    {
+      "turn_index": 70,
+      "u": 0.7780465857069413,
+      "sampled": true
+    },
+    {
+      "turn_index": 72,
+      "u": 0.17513846725056426,
+      "sampled": true
+    },
+    {
+      "turn_index": 74,
+      "u": 0.9571412945845372,
+      "sampled": true
+    },
+    {
+      "turn_index": 76,
+      "u": 0.505653641514075,
+      "sampled": true
+    },
+    {
+      "turn_index": 77,
+      "u": 0.11491100500014906,
+      "sampled": true
+    },
+    {
+      "turn_index": 78,
+      "u": 0.23742356366462214,
+      "sampled": true
+    },
+    {
+      "turn_index": 80,
+      "u": 0.050812987867627446,
+      "sampled": true
+    },
+    {
+      "turn_index": 81,
+      "u": 0.5715644897635276,
+      "sampled": true
+    },
+    {
+      "turn_index": 82,
+      "u": 0.5228791415292183,
+      "sampled": true
+    },
+    {
+      "turn_index": 84,
+      "u": 0.4445981073080315,
+      "sampled": true
+    },
+    {
+      "turn_index": 86,
+      "u": 0.2144217845565034,
+      "sampled": true
+    },
+    {
+      "turn_index": 88,
+      "u": 0.598954795914012,
+      "sampled": true
+    },
+    {
+      "turn_index": 89,
+      "u": 0.9897969639457972,
+      "sampled": true
+    }
+  ],
+  "status": "pending",
+  "outcome": null,
+  "rate_applied": [],
+  "issue": 40,
+  "issue_url": "https://github.com/FOURTEEN-AI/gut-zu-wissen/issues/40",
+  "explicit": {
+    "model": "claude-sonnet-5-5",
+    "predicted": false,
+    "verdict": "clean",
+    "findings": [],
+    "reason": "Das Gespräch behandelt sachlich die Sojus-Rakete (Technik, Geschichte, Startplätze, Kosten). Erwähnt werden nur beiläufig der Überfall auf die Ukraine, die Explosion einer Rakete nach erfolgreicher Rettung der Besatzung und giftiger Treibstoff, jeweils ohne drastische Schilderung. Gewalt, Sexualität, Drogen und Schimpfwörter kommen nicht vor.",
+    "label": null,
+    "reviewer_flag": null,
+    "note": null,
+    "comment_id": null
+  },
+  "turns": [
+    {
+      "turn_index": 0,
+      "speaker": "Lena",
+      "text": "Heute geht es um die Sojus. Das ist eine russische Trägerrakete, ihr Name bedeutet auf Russisch Union oder Vereinigung. Seit ihrem Erstflug im Jahr neunzehnhundertsechsundsechzig gab es über tausend Einsätze. Damit ist sie die meistgenutzte Rakete in der Raumfahrtgeschichte.",
+      "previous_text": null,
+      "fact_ids": [
+        "272562704-0000",
+        "272562704-0001"
+      ],
+      "statements": [
+        {
+          "text": "Die Sojus ist eine russische Trägerrakete, ihr Name bedeutet Union oder Vereinigung.",
+          "fact_ids": [
+            "272562704-0000"
+          ]
+        },
+        {
+          "text": "Mit über tausend Einsätzen seit dem Erstflug 1966 ist sie die meistgenutzte Rakete der Raumfahrtgeschichte.",
+          "fact_ids": [
+            "272562704-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0000",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Die Sojus [sʌˈjus] (russisch Союз, „Union“, „Vereinigung“) ist eine russische Trägerrakete.",
+          "context": []
+        },
+        {
+          "id": "272562704-0001",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Mit über 1000 Einsätzen seit ihrem Erstflug im Jahr 1966 ist sie die meistgenutzte Rakete in der Raumfahrtgeschichte.",
+          "context": [
+            "Die Sojus [sʌˈjus] (russisch Союз, „Union“, „Vereinigung“) ist eine russische Trägerrakete."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.89
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: Sojus ist eine russische Trägerrakete, der Name bedeutet auf Russisch „Union“/„Vereinigung“, Erstflug 1966, über 1000 Einsätze, meistgenutzte Rakete der Raumfahrtgeschichte. „Heute geht es um die Sojus“ ist eine Überleitung ohne Faktenbehauptung. Es gibt keine Fragen und keine zusätzlichen Angaben."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 2,
+      "speaker": "Lena",
+      "text": "Die Sojus entstand als Weiterentwicklung der ersten Interkontinentalrakete, der R-7. Sie entstand durch leichte Modifizierungen der R-7-Variante Woschod. Ihre anfängliche Aufgabe war, bemannte Sojus-Raumschiffe zu starten. Die R-7 selbst hatte ihre erste erfolgreiche Weltraummission am vierten Oktober neunzehnhundertsiebenundfünfzig, mit Sputnik 1 an Bord.",
+      "previous_text": "Wow! Wo kommt die Sojus denn eigentlich her?",
+      "fact_ids": [
+        "272562704-0002",
+        "272562704-0012"
+      ],
+      "statements": [
+        {
+          "text": "Die Sojus entstand als Weiterentwicklung der ersten Interkontinentalrakete R-7, durch leichte Modifizierungen der R-7-Variante Woschod, mit der anfänglichen Aufgabe, bemannte Sojus-Raumschiffe zu starten.",
+          "fact_ids": [
+            "272562704-0002"
+          ]
+        },
+        {
+          "text": "Die R-7 hatte ihre erste erfolgreiche Weltraummission am 4. Oktober 1957 mit Sputnik 1 an Bord.",
+          "fact_ids": [
+            "272562704-0012"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0002",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Die Sojus entstand als Weiterentwicklung der ersten Interkontinentalrakete, der R-7. Sie entstand durch leichte Modifizierungen der R7-Variante Woschod, mit der anfänglichen Aufgabe, bemannte Sojus-Raumschiffe zu starten.",
+          "context": []
+        },
+        {
+          "id": "272562704-0012",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Die R-7 hatte ihre erste erfolgreiche Weltraummission am 4. Oktober 1957 mit Sputnik 1 an Bord.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 3,
+      "speaker": "Felix",
+      "text": "Leichte Modifizierungen, sagst du. Wie leicht waren die denn?",
+      "previous_text": "Die Sojus entstand als Weiterentwicklung der ersten Interkontinentalrakete, der R-7. Sie entstand durch leichte Modifizierungen der R-7-Variante Woschod. Ihre anfängliche Aufgabe war, bemannte Sojus-Raumschiffe zu starten. Die R-7 selbst hatte ihre erste erfolgreiche Weltraummission am vierten Oktober neunzehnhundertsiebenundfünfzig, mit Sputnik 1 an Bord.",
+      "fact_ids": [
+        "272562704-0002"
+      ],
+      "statements": [
+        {
+          "text": "Die Sojus entstand durch leichte Modifizierungen der R-7-Variante Woschod.",
+          "fact_ids": [
+            "272562704-0002"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0002",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Die Sojus entstand als Weiterentwicklung der ersten Interkontinentalrakete, der R-7. Sie entstand durch leichte Modifizierungen der R7-Variante Woschod, mit der anfänglichen Aufgabe, bemannte Sojus-Raumschiffe zu starten.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 4,
+      "speaker": "Lena",
+      "text": "Die Unterschiede zwischen der Sojus und der Woschod waren so gering, dass einige Autoren die Woschod ebenfalls der Sojus-Reihe zurechnen. Der Erststart der Sojus fand am achtundzwanzigsten November neunzehnhundertsechsundsechzig statt.",
+      "previous_text": "Leichte Modifizierungen, sagst du. Wie leicht waren die denn?",
+      "fact_ids": [
+        "272562704-0003",
+        "272562704-0005"
+      ],
+      "statements": [
+        {
+          "text": "Die Unterschiede zwischen Sojus und Woschod waren so gering, dass einige Autoren die Woschod ebenfalls der Sojus-Reihe zurechnen.",
+          "fact_ids": [
+            "272562704-0003"
+          ]
+        },
+        {
+          "text": "Der Erststart der Sojus fand am 28. November 1966 statt.",
+          "fact_ids": [
+            "272562704-0005"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0003",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Dabei waren die Unterschiede zwischen beiden Raketen so gering, dass einige Autoren die Woschod ebenfalls der Sojus-Reihe zurechnen.",
+          "context": [
+            "Die Sojus entstand als Weiterentwicklung der ersten Interkontinentalrakete, der R-7. Sie entstand durch leichte Modifizierungen der R7-Variante Woschod, mit der anfänglichen Aufgabe, bemannte Sojus-Raumschiffe zu starten."
+          ]
+        },
+        {
+          "id": "272562704-0005",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Der Erststart der Sojus fand am 28. November 1966 statt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 1.0,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 6,
+      "speaker": "Lena",
+      "text": "Die Sojus steht dabei nicht auf dem Starttisch. Sie ist an vier Auslegern eingehängt, etwa in Höhe der Enden der Booster. Das ermöglichte, die Rakete weniger stabil zu bauen. Durch die verringerte Strukturmasse konnte sie damit leichter gebaut werden.",
+      "previous_text": "Spannend! Schauen wir uns mal einen Start an. Was passiert da auf der Rampe?",
+      "fact_ids": [
+        "272562704-0237"
+      ],
+      "statements": [
+        {
+          "text": "Die Sojus steht nicht auf dem Starttisch, sondern ist an vier Auslegern etwa in Höhe der Enden der Booster eingehängt, was es ermöglichte, sie weniger stabil und durch die verringerte Strukturmasse leichter zu bauen.",
+          "fact_ids": [
+            "272562704-0237"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0237",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Die Rakete steht dabei nicht auf dem Starttisch, sondern ist an den vier Auslegern etwa in Höhe der Enden der Booster eingehängt, was es ermöglichte, die Rakete weniger stabil und damit (durch die verringerte Strukturmasse) leichter zu bauen.",
+          "context": [
+            "Erst dort wird die Rakete hydraulisch in ihre senkrechte Position gebracht, auf dem drehbaren Starttisch exakt in die spätere Startrichtung (Inklination) ausgerichtet und in die Startplattform über der etwa 25 m tiefen Grube eingehängt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 7,
+      "speaker": "Felix",
+      "text": "Eingehängt an vier Auslegern! Wie läuft denn dann der Countdown ab?",
+      "previous_text": "Die Sojus steht dabei nicht auf dem Starttisch. Sie ist an vier Auslegern eingehängt, etwa in Höhe der Enden der Booster. Das ermöglichte, die Rakete weniger stabil zu bauen. Durch die verringerte Strukturmasse konnte sie damit leichter gebaut werden.",
+      "fact_ids": [
+        "272562704-0237"
+      ],
+      "statements": [
+        {
+          "text": "Die Sojus ist an vier Auslegern eingehängt.",
+          "fact_ids": [
+            "272562704-0237"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0237",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Die Rakete steht dabei nicht auf dem Starttisch, sondern ist an den vier Auslegern etwa in Höhe der Enden der Booster eingehängt, was es ermöglichte, die Rakete weniger stabil und damit (durch die verringerte Strukturmasse) leichter zu bauen.",
+          "context": [
+            "Erst dort wird die Rakete hydraulisch in ihre senkrechte Position gebracht, auf dem drehbaren Starttisch exakt in die spätere Startrichtung (Inklination) ausgerichtet und in die Startplattform über der etwa 25 m tiefen Grube eingehängt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag besteht aus einem Wiederaufgreifen des eben Gesagten („Eingehängt an vier Auslegern!“), das durch den Fakt-Satz gedeckt ist und keine neue Information bringt, sowie einer offenen Überleitungsfrage zum Countdown. Die Frage nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, sondern setzt nur voraus, dass es zum Ablauf etwas zu erzählen gibt. Damit ist der Beitrag belegfrei bzw. durch den Fakt gedeckt."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 8,
+      "speaker": "Lena",
+      "text": "Zwanzig Sekunden vor dem Abheben wird das Startkommando gegeben. Das ist der Point of no return. Drei Sekunden später zünden die Triebwerke, und drei Sekunden vor dem Abheben erreichen sie ihre volle Leistung. Die fünf Triebwerke der ersten beiden Stufen werden bereits am Boden vor dem Abheben gezündet. Dabei kommen insgesamt zwanzig Hauptbrennkammern und zwölf Steuerbrennkammern zum Einsatz.",
+      "previous_text": "Eingehängt an vier Auslegern! Wie läuft denn dann der Countdown ab?",
+      "fact_ids": [
+        "272562704-0245",
+        "272562704-0022"
+      ],
+      "statements": [
+        {
+          "text": "Zwanzig Sekunden vor dem Abheben wird das Startkommando gegeben (Point of no return), drei Sekunden später zünden die Triebwerke und drei Sekunden vor dem Abheben erreichen sie ihre volle Leistung.",
+          "fact_ids": [
+            "272562704-0245"
+          ]
+        },
+        {
+          "text": "Die fünf Triebwerke der ersten beiden Stufen werden schon am Boden vor dem Abheben gezündet, wobei insgesamt zwanzig Hauptbrennkammern und zwölf Steuerbrennkammern zum Einsatz kommen.",
+          "fact_ids": [
+            "272562704-0022"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0245",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "20 Sekunden vor dem Abheben wird dann das Startkommando gegeben (Point of no return), drei Sekunden später zünden die Triebwerke und drei Sekunden vor dem Abheben erreichen die Triebwerke ihre volle Leistung.",
+          "context": []
+        },
+        {
+          "id": "272562704-0022",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Die fünf Triebwerke der ersten beiden Stufen werden bereits am Boden bereits vor dem Abheben gezündet, wobei insgesamt 20 Hauptbrennkammern und zwölf Steuerbrennkammern (Verniertriebwerke) zum Einsatz kommen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 10,
+      "speaker": "Lena",
+      "text": "Nun öffnen sich die Ausleger blütenförmig. Das geschieht durch ihr Eigengewicht und dadurch, dass beim Start das Gewicht der Rakete durch deren Schub wegfällt.",
+      "previous_text": "Wahnsinn, das klingt nach einem gewaltigen Moment! Und was geschieht danach am Startplatz?",
+      "fact_ids": [
+        "272562704-0246"
+      ],
+      "statements": [
+        {
+          "text": "Die Ausleger öffnen sich blütenförmig durch ihr Eigengewicht und durch den Wegfall des Gewichtes der Rakete aufgrund deren Schubes beim Start.",
+          "fact_ids": [
+            "272562704-0246"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0246",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Nun öffnen sich die Ausleger blütenförmig durch ihr Eigengewicht und durch den Wegfall des Gewichtes der Rakete aufgrund deren Schubes beim Start.",
+          "context": [
+            "20 Sekunden vor dem Abheben wird dann das Startkommando gegeben (Point of no return), drei Sekunden später zünden die Triebwerke und drei Sekunden vor dem Abheben erreichen die Triebwerke ihre volle Leistung."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.89,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich wieder: Die Ausleger öffnen sich blütenförmig durch ihr Eigengewicht und den Wegfall des Raketengewichts durch den Schub beim Start. Der Gegenstand ist durch den Artikel (Sojus-Rakete) eindeutig, und es kommt nichts Zusätzliches hinzu. Als Antwort auf die Frage nach dem Geschehen am Startplatz passt das zum Gegenstand."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 12,
+      "speaker": "Lena",
+      "text": "Das Triebwerk NK-33 stammt von der russischen Rakete N1. Diese Rakete war ursprünglich für Mondflüge vorgesehen.",
+      "previous_text": "Das möchte ich mir bildlich vorstellen! Gehen wir zu den Triebwerken. Gibt es da etwas Besonderes?",
+      "fact_ids": [
+        "272562704-0153"
+      ],
+      "statements": [
+        {
+          "text": "Das Triebwerk NK-33 stammt von der russischen Rakete N1, die ursprünglich für Mondflüge vorgesehen war.",
+          "fact_ids": [
+            "272562704-0153"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0153",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Dieses Triebwerk stammt von der russischen Rakete N1, die ursprünglich für Mondflüge vorgesehen war.",
+          "context": [
+            "Diese sollte in der Zentralstufe ein Kusnezow-NK-33-Triebwerk einsetzen und somit dem Jamal/Aurora-Konzept ähneln (siehe dazu den entsprechenden Abschnitt dieses Artikels)."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 13,
+      "speaker": "Felix",
+      "text": "Eine Mondrakete! Was wurde denn aus dem Triebwerk?",
+      "previous_text": "Das Triebwerk NK-33 stammt von der russischen Rakete N1. Diese Rakete war ursprünglich für Mondflüge vorgesehen.",
+      "fact_ids": [
+        "272562704-0153"
+      ],
+      "statements": [
+        {
+          "text": "Die Rakete N1 war ursprünglich für Mondflüge vorgesehen.",
+          "fact_ids": [
+            "272562704-0153"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0153",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Dieses Triebwerk stammt von der russischen Rakete N1, die ursprünglich für Mondflüge vorgesehen war.",
+          "context": [
+            "Diese sollte in der Zentralstufe ein Kusnezow-NK-33-Triebwerk einsetzen und somit dem Jamal/Aurora-Konzept ähneln (siehe dazu den entsprechenden Abschnitt dieses Artikels)."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.96,
+          "vollstaendig": 0.9
+        },
+        "jev_error": null,
+        "reason": "Felix' Ausruf „Eine Mondrakete!“ greift nur das eben von Lena Gesagte (N1 für Mondflüge vorgesehen) als Staunen wieder auf, ohne neue Information. Die Frage „Was wurde denn aus dem Triebwerk?“ ist eine Nachfrage und setzt keine bestimmte Einzelheit voraus. Der Redebeitrag ist daher belegfrei bzw. durch den Fakt gedeckt."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 14,
+      "speaker": "Lena",
+      "text": "Das NK-33 wird zwar nicht mehr produziert. Doch waren noch etwa dreißig Stück aus dem N1-Programm übrig geblieben.",
+      "previous_text": "Eine Mondrakete! Was wurde denn aus dem Triebwerk?",
+      "fact_ids": [
+        "272562704-0154"
+      ],
+      "statements": [
+        {
+          "text": "Das NK-33 wird nicht mehr produziert, aber etwa dreißig Stück waren aus dem N1-Programm übrig geblieben.",
+          "fact_ids": [
+            "272562704-0154"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0154",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Es wird zwar nicht mehr produziert, jedoch waren noch etwa 30 Stück aus dem N1-Programm übrig geblieben.",
+          "context": [
+            "Dieses Triebwerk stammt von der russischen Rakete N1, die ursprünglich für Mondflüge vorgesehen war."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.96,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 15,
+      "speaker": "Felix",
+      "text": "Wofür hätte man diese übrigen Triebwerke nutzen können?",
+      "previous_text": "Das NK-33 wird zwar nicht mehr produziert. Doch waren noch etwa dreißig Stück aus dem N1-Programm übrig geblieben.",
+      "fact_ids": [
+        "272562704-0154"
+      ],
+      "statements": [
+        {
+          "text": "Etwa dreißig NK-33 waren aus dem N1-Programm übrig geblieben.",
+          "fact_ids": [
+            "272562704-0154"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0154",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Es wird zwar nicht mehr produziert, jedoch waren noch etwa 30 Stück aus dem N1-Programm übrig geblieben.",
+          "context": [
+            "Dieses Triebwerk stammt von der russischen Rakete N1, die ursprünglich für Mondflüge vorgesehen war."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.92,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine reine Nachfrage nach einer Verwendung der übrigen Triebwerke. Die Prämisse, dass es etwa dreißig übrig gebliebene Triebwerke gibt, hat Lena im vorherigen Beitrag genannt und sie steht im Fakt-Satz. „Diese übrigen Triebwerke“ löst den Bezug auf das NK-33 aus Lenas Beitrag eindeutig auf. Die Frage nimmt keine Einzelheit oder Wertung vorweg, die erst die Antwort liefern würde; sie ist daher belegfrei und unproblematisch."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 16,
+      "speaker": "Lena",
+      "text": "Die Rakete Jamal hätte sich mit anscheinend geringen Modifikationen entwickeln lassen. Dafür waren bereits fertige, von der N1 übrig gebliebene NK-33-Triebwerke vorhanden. Es fehlte aber das Geld, sodass Jamal nicht verwirklicht wurde.",
+      "previous_text": "Wofür hätte man diese übrigen Triebwerke nutzen können?",
+      "fact_ids": [
+        "272562704-0183"
+      ],
+      "statements": [
+        {
+          "text": "Obwohl die Jamal mit anscheinend geringen Modifikationen und bereits fertigen, von der N1 übrig gebliebenen NK-33-Triebwerken hätte entwickelt werden können, fehlte das Geld, sodass sie nicht verwirklicht wurde.",
+          "fact_ids": [
+            "272562704-0183"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0183",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Obwohl die Rakete mit anscheinend geringen Modifikationen und bereits fertigen, von der N1 übrig gebliebenen NK-33 Triebwerken entwickelt werden konnte, fehlte dafür das Geld, so dass Jamal nicht verwirklicht wurde.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.9,
+          "vollstaendig": 0.91
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: Jamal hätte sich mit anscheinend geringen Modifikationen und fertigen, von der N1 übrig gebliebenen NK-33-Triebwerken entwickeln lassen, es fehlte das Geld, und Jamal wurde nicht verwirklicht. „Die Rakete“ im Fakt-Satz als „Die Rakete Jamal“ zu nennen, löst den Bezug zulässig auf, denn der Satz endet mit „Jamal nicht verwirklicht wurde“. Die Antwort passt zur Frage nach den übrigen Triebwerken. Zusätzliche Angaben enthält der Redebeitrag nicht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 17,
+      "speaker": "Felix",
+      "text": "Wie schade. Gab es weitere Pläne im Umfeld der Jamal?",
+      "previous_text": "Die Rakete Jamal hätte sich mit anscheinend geringen Modifikationen entwickeln lassen. Dafür waren bereits fertige, von der N1 übrig gebliebene NK-33-Triebwerke vorhanden. Es fehlte aber das Geld, sodass Jamal nicht verwirklicht wurde.",
+      "fact_ids": [
+        "272562704-0183"
+      ],
+      "statements": [
+        {
+          "text": "Die Rakete Jamal wurde nicht verwirklicht.",
+          "fact_ids": [
+            "272562704-0183"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0183",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Obwohl die Rakete mit anscheinend geringen Modifikationen und bereits fertigen, von der N1 übrig gebliebenen NK-33 Triebwerken entwickelt werden konnte, fehlte dafür das Geld, so dass Jamal nicht verwirklicht wurde.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "„Wie schade.“ ist eine Reaktion (Gefühl im Moment). „Gab es weitere Pläne im Umfeld der Jamal?“ ist eine offene Nachfrage bzw. Überleitungsfrage, die nur voraussetzt, dass es etwas zu erzählen gibt, und keine bestimmte Einzelheit vorwegnimmt. Der Redebeitrag enthält keine eigenen Behauptungen, die belegt werden müssten."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 18,
+      "speaker": "Lena",
+      "text": "Es gab Aurora, das bedeutet Morgenröte. Aurora ist eine Variante der Jamal und wurde im Jahr neunzehnhundertneunundneunzig zum ersten Mal vorgestellt.",
+      "previous_text": "Wie schade. Gab es weitere Pläne im Umfeld der Jamal?",
+      "fact_ids": [
+        "272562704-0185"
+      ],
+      "statements": [
+        {
+          "text": "Aurora, übersetzt Morgenröte, ist eine Variante der Jamal, die 1999 zum ersten Mal vorgestellt wurde.",
+          "fact_ids": [
+            "272562704-0185"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0185",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Aurora (Аврора ‚Morgenröte‘) ist eine Variante der Jamal, die 1999 zum ersten Mal vorgestellt wurde.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 19,
+      "speaker": "Felix",
+      "text": "Wo sollte Aurora denn starten?",
+      "previous_text": "Es gab Aurora, das bedeutet Morgenröte. Aurora ist eine Variante der Jamal und wurde im Jahr neunzehnhundertneunundneunzig zum ersten Mal vorgestellt.",
+      "fact_ids": [
+        "272562704-0185"
+      ],
+      "statements": [
+        {
+          "text": "Aurora ist eine Variante der Jamal.",
+          "fact_ids": [
+            "272562704-0185"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0185",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Aurora (Аврора ‚Morgenröte‘) ist eine Variante der Jamal, die 1999 zum ersten Mal vorgestellt wurde.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine Nachfrage nach etwas Neuem (Startort) und nimmt keine bestimmte Einzelheit vorweg. Dass Aurora irgendwo starten sollte, folgt aus dem Gesprächskontext (Rakete/Variante) und ist keine konkrete Prämisse, die erst die Antwort liefert. Der Redebeitrag enthält keine Behauptung, daher ist er belegfrei zulässig."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 20,
+      "speaker": "Lena",
+      "text": "Aurora sollte von einer neuen Startanlage auf der Weihnachtsinsel im Indischen Ozean starten. Die Insel gehört zu Australien. Zuvor sollten Testflüge von Baikonur aus erfolgen.",
+      "previous_text": "Wo sollte Aurora denn starten?",
+      "fact_ids": [
+        "272562704-0186"
+      ],
+      "statements": [
+        {
+          "text": "Aurora sollte von einer neuen Startanlage auf der zu Australien gehörigen Weihnachtsinsel im Indischen Ozean starten, zuvor sollten Testflüge von Baikonur aus erfolgen.",
+          "fact_ids": [
+            "272562704-0186"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0186",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Aurora sollte von einer neuen Startanlage auf der zu Australien gehörigen Weihnachtsinsel im Indischen Ozean starten, zuvor sollten Testflüge von Baikonur aus erfolgen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 21,
+      "speaker": "Felix",
+      "text": "Eine eigene Startanlage auf einer Insel! Was hätte die gekostet, und wer sollte zahlen?",
+      "previous_text": "Aurora sollte von einer neuen Startanlage auf der Weihnachtsinsel im Indischen Ozean starten. Die Insel gehört zu Australien. Zuvor sollten Testflüge von Baikonur aus erfolgen.",
+      "fact_ids": [
+        "272562704-0186"
+      ],
+      "statements": [
+        {
+          "text": "Aurora sollte von einer neuen Startanlage auf der Weihnachtsinsel starten.",
+          "fact_ids": [
+            "272562704-0186"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0186",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Aurora sollte von einer neuen Startanlage auf der zu Australien gehörigen Weihnachtsinsel im Indischen Ozean starten, zuvor sollten Testflüge von Baikonur aus erfolgen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.81
+        },
+        "jev_error": null,
+        "reason": "Felix' Beitrag besteht aus einer Reaktion (Staunen: \"Eine eigene Startanlage auf einer Insel!\") und einer Nachfrage nach Kosten und Geldgebern. Die Frage ist eine Nachfrage nach etwas Neuem und nimmt keine konkrete Einzelheit vorweg. Die Wiederholung der Startanlage auf einer Insel deckt der Fakt-Satz ab. Es gibt keine unbelegte Behauptung oder Prämisse."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 22,
+      "speaker": "Lena",
+      "text": "Die Kosten für den Bau der Anlage und der Infrastruktur wurden mit umgerechnet etwa fünfhundert Millionen US-Dollar beziffert. Sie sollten von privaten Investoren getragen werden.",
+      "previous_text": "Eine eigene Startanlage auf einer Insel! Was hätte die gekostet, und wer sollte zahlen?",
+      "fact_ids": [
+        "272562704-0187"
+      ],
+      "statements": [
+        {
+          "text": "Die Kosten für Bau und Infrastruktur der Anlage wurden auf umgerechnet etwa 500 Millionen US-Dollar beziffert und sollten von privaten Investoren getragen werden.",
+          "fact_ids": [
+            "272562704-0187"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0187",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Die Kosten für den Bau der Anlage und der Infrastruktur wurden mit umgerechnet etwa 500 Millionen US-Dollar beziffert und sollten von privaten Investoren getragen werden.",
+          "context": [
+            "Aurora sollte von einer neuen Startanlage auf der zu Australien gehörigen Weihnachtsinsel im Indischen Ozean starten, zuvor sollten Testflüge von Baikonur aus erfolgen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 23,
+      "speaker": "Felix",
+      "text": "Wurde die Anlage am Ende gebaut?",
+      "previous_text": "Die Kosten für den Bau der Anlage und der Infrastruktur wurden mit umgerechnet etwa fünfhundert Millionen US-Dollar beziffert. Sie sollten von privaten Investoren getragen werden.",
+      "fact_ids": [
+        "272562704-0187"
+      ],
+      "statements": [
+        {
+          "text": "Es gab Kosten für den Bau der Anlage und der Infrastruktur.",
+          "fact_ids": [
+            "272562704-0187"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0187",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Die Kosten für den Bau der Anlage und der Infrastruktur wurden mit umgerechnet etwa 500 Millionen US-Dollar beziffert und sollten von privaten Investoren getragen werden.",
+          "context": [
+            "Aurora sollte von einer neuen Startanlage auf der zu Australien gehörigen Weihnachtsinsel im Indischen Ozean starten, zuvor sollten Testflüge von Baikonur aus erfolgen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.95,
+          "vollstaendig": 0.73
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine reine Nachfrage („Wurde die Anlage am Ende gebaut?“). Sie knüpft an Lenas Aussage über die Kosten der Anlage an und setzt nur voraus, dass es dazu etwas zu erzählen gibt. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg und behauptet nichts Neues. Damit ist sie belegfrei."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 24,
+      "speaker": "Lena",
+      "text": "Nach einigen vorbereitenden Arbeiten wurde die Finanzierung des Projekts jedoch wieder eingestellt.",
+      "previous_text": "Wurde die Anlage am Ende gebaut?",
+      "fact_ids": [
+        "272562704-0189"
+      ],
+      "statements": [
+        {
+          "text": "Nach einigen vorbereitenden Arbeiten wurde die Finanzierung des Projekts wieder eingestellt.",
+          "fact_ids": [
+            "272562704-0189"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0189",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Nach einigen vorbereitenden Arbeiten wurde die Finanzierung des Projekts jedoch wieder eingestellt.",
+          "context": [
+            "Aurora sollte vornehmlich zum Start von kommerziellen Kommunikationssatelliten im mittleren Massesegment eingesetzt werden."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 26,
+      "speaker": "Lena",
+      "text": "Im Laufe des Jahres zweitausendvier bevorzugte die russische Raumfahrtbehörde für den Transport von Kliper eine Angara-Rakete. Alternativ kam in Kooperation mit der Ukraine eine Zenit-Rakete in Frage. Deshalb wurde das Projekt der Onega vorerst auf Eis gelegt.",
+      "previous_text": "Und wie ging es dann weiter?",
+      "fact_ids": [
+        "272562704-0213"
+      ],
+      "statements": [
+        {
+          "text": "Im Laufe des Jahres 2004 bevorzugte die russische Raumfahrtbehörde eine Angara-Rakete oder in Kooperation mit der Ukraine eine Zenit-Rakete für den Transport von Kliper, weshalb das Projekt der Onega vorerst auf Eis gelegt wurde.",
+          "fact_ids": [
+            "272562704-0213"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0213",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Da im Laufe des Jahres 2004 die russische Raumfahrtbehörde eine Angara-Rakete oder in Kooperation mit der Ukraine eine Zenit-Rakete für den Transport von Kliper bevorzugte, wurde das Projekt der Onega vorerst auf Eis gelegt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 27,
+      "speaker": "Felix",
+      "text": "Wie ging es mit Onega weiter?",
+      "previous_text": "Im Laufe des Jahres zweitausendvier bevorzugte die russische Raumfahrtbehörde für den Transport von Kliper eine Angara-Rakete. Alternativ kam in Kooperation mit der Ukraine eine Zenit-Rakete in Frage. Deshalb wurde das Projekt der Onega vorerst auf Eis gelegt.",
+      "fact_ids": [
+        "272562704-0213"
+      ],
+      "statements": [
+        {
+          "text": "Das Projekt der Onega wurde vorerst auf Eis gelegt.",
+          "fact_ids": [
+            "272562704-0213"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0213",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Da im Laufe des Jahres 2004 die russische Raumfahrtbehörde eine Angara-Rakete oder in Kooperation mit der Ukraine eine Zenit-Rakete für den Transport von Kliper bevorzugte, wurde das Projekt der Onega vorerst auf Eis gelegt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 28,
+      "speaker": "Lena",
+      "text": "Mitte zweitausendfünf bekundete die europäische Raumfahrtbehörde ESA ihr Interesse am Kliper. Danach war Onega oder eine ähnliche Rakete mit einem NK-33-1 in der Zentralstufe wieder im Gespräch, unter der Bezeichnung Sojus-3. Sie würde einen Start des Raumschiffs vom europäischen Weltraumbahnhof in Kourou erlauben. Dort gibt es eine Startanlage für die Sojus-2 und bereits eine LH2-Infrastruktur für die Ariane 5. Bei der Versammlung des Europäischen Weltraumrates im Dezember zweitausendfünf wurden jedoch keine finanziellen Mittel für Kliper genehmigt.",
+      "previous_text": "Wie ging es mit Onega weiter?",
+      "fact_ids": [
+        "272562704-0214"
+      ],
+      "statements": [
+        {
+          "text": "Nachdem die ESA Mitte 2005 ihr Interesse am Kliper bekundet hatte, war Onega oder eine ähnliche Rakete mit einem NK-33-1 in der Zentralstufe unter der Bezeichnung Sojus-3 wieder im Gespräch, weil sie einen Start des Raumschiffs von Kourou erlauben würde, wo es eine Startanlage für die Sojus-2 und eine LH2-Infrastruktur für die Ariane 5 gibt.",
+          "fact_ids": [
+            "272562704-0214"
+          ]
+        },
+        {
+          "text": "Im Dezember 2005 wurden bei der Versammlung des Europäischen Weltraumrates keine finanziellen Mittel für Kliper genehmigt.",
+          "fact_ids": [
+            "272562704-0214"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0214",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Nachdem die europäische Raumfahrtbehörde ESA Mitte 2005 ihr Interesse am Kliper bekundet hatte, war Onega bzw. eine ähnliche Rakete mit einem NK-33-1 in der Zentralstufe unter der Bezeichnung Sojus-3 als Träger wieder im Gespräch, denn sie würde einen Start des Raumschiffs vom europäischen Weltraumbahnhof in Kourou erlauben, wo sowohl eine Startanlage für die Sojus-2 existiert als auch bereits eine LH2-Infrastruktur für die Ariane 5. Bei der Versammlung des Europäischen Weltraumrates im Dezember 2005 wurden jedoch keine finanziellen Mittel für Kliper genehmigt.",
+          "context": [
+            "Da im Laufe des Jahres 2004 die russische Raumfahrtbehörde eine Angara-Rakete oder in Kooperation mit der Ukraine eine Zenit-Rakete für den Transport von Kliper bevorzugte, wurde das Projekt der Onega vorerst auf Eis gelegt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen des Redebeitrags stehen im zitierten Fakt-Satz: ESA-Interesse am Kliper Mitte 2005, Onega bzw. eine ähnliche Rakete mit NK-33-1 als Sojus-3 wieder im Gespräch, Start von Kourou, Startanlage für die Sojus-2 und LH2-Infrastruktur für die Ariane 5, keine Mittel im Dezember 2005. Die Gegenstände sind eindeutig, da Felix nach Onega fragt und der Fakt Onega nennt. Es gibt keine zusätzlichen Angaben und keine Fragen oder Prämissen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 29,
+      "speaker": "Felix",
+      "text": "Du hast Kourou erwähnt. Welche Vorteile hat dieser Startplatz?",
+      "previous_text": "Mitte zweitausendfünf bekundete die europäische Raumfahrtbehörde ESA ihr Interesse am Kliper. Danach war Onega oder eine ähnliche Rakete mit einem NK-33-1 in der Zentralstufe wieder im Gespräch, unter der Bezeichnung Sojus-3. Sie würde einen Start des Raumschiffs vom europäischen Weltraumbahnhof in Kourou erlauben. Dort gibt es eine Startanlage für die Sojus-2 und bereits eine LH2-Infrastruktur für die Ariane 5. Bei der Versammlung des Europäischen Weltraumrates im Dezember zweitausendfünf wurden jedoch keine finanziellen Mittel für Kliper genehmigt.",
+      "fact_ids": [
+        "272562704-0214"
+      ],
+      "statements": [
+        {
+          "text": "Kourou ist ein europäischer Weltraumbahnhof, an dem eine Startanlage für die Sojus-2 existiert.",
+          "fact_ids": [
+            "272562704-0214"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0214",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Nachdem die europäische Raumfahrtbehörde ESA Mitte 2005 ihr Interesse am Kliper bekundet hatte, war Onega bzw. eine ähnliche Rakete mit einem NK-33-1 in der Zentralstufe unter der Bezeichnung Sojus-3 als Träger wieder im Gespräch, denn sie würde einen Start des Raumschiffs vom europäischen Weltraumbahnhof in Kourou erlauben, wo sowohl eine Startanlage für die Sojus-2 existiert als auch bereits eine LH2-Infrastruktur für die Ariane 5. Bei der Versammlung des Europäischen Weltraumrates im Dezember 2005 wurden jedoch keine finanziellen Mittel für Kliper genehmigt.",
+          "context": [
+            "Da im Laufe des Jahres 2004 die russische Raumfahrtbehörde eine Angara-Rakete oder in Kooperation mit der Ukraine eine Zenit-Rakete für den Transport von Kliper bevorzugte, wurde das Projekt der Onega vorerst auf Eis gelegt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.88
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag ist eine Nachfrage. Er greift Kourou aus dem vorherigen Redebeitrag wieder auf und fragt allgemein nach den Vorteilen des Startplatzes, ohne eine bestimmte Einzelheit, Wertung oder Vermutung vorwegzunehmen. Er enthält also keine Behauptung und keine Prämisse und ist belegfrei."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 30,
+      "speaker": "Lena",
+      "text": "Kourou liegt viel näher am Äquator als Baikonur. Deshalb ist es energetisch günstiger, geostationäre Satelliten von dort zu starten. Eine Sojus verfügt in Kourou daher über eine höhere Nutzlastkapazität als in Baikonur oder auch in Wostotschny.",
+      "previous_text": "Du hast Kourou erwähnt. Welche Vorteile hat dieser Startplatz?",
+      "fact_ids": [
+        "272562704-0146"
+      ],
+      "statements": [
+        {
+          "text": "Da Kourou viel näher am Äquator liegt als Baikonur, ist es energetisch günstiger, geostationäre Satelliten von dort zu starten, sodass eine Sojus in Kourou über eine höhere Nutzlastkapazität als in Baikonur oder Wostotschny verfügt.",
+          "fact_ids": [
+            "272562704-0146"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0146",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Da Kourou viel näher am Äquator liegt als Baikonur ist es energetisch günstiger, geostationäre Satelliten von dort zu starten, sodass eine Sojus in Kourou über eine höhere Nutzlastkapazität als in Baikonur oder auch in Wostotschny verfügt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 31,
+      "speaker": "Felix",
+      "text": "Wären von dort auch bemannte Starts möglich gewesen?",
+      "previous_text": "Kourou liegt viel näher am Äquator als Baikonur. Deshalb ist es energetisch günstiger, geostationäre Satelliten von dort zu starten. Eine Sojus verfügt in Kourou daher über eine höhere Nutzlastkapazität als in Baikonur oder auch in Wostotschny.",
+      "fact_ids": [
+        "272562704-0146"
+      ],
+      "statements": [
+        {
+          "text": "Eine Sojus verfügt in Kourou über eine höhere Nutzlastkapazität als in Baikonur.",
+          "fact_ids": [
+            "272562704-0146"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0146",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Da Kourou viel näher am Äquator liegt als Baikonur ist es energetisch günstiger, geostationäre Satelliten von dort zu starten, sodass eine Sojus in Kourou über eine höhere Nutzlastkapazität als in Baikonur oder auch in Wostotschny verfügt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.85
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag ist eine reine Nachfrage („Wären von dort auch bemannte Starts möglich gewesen?“), die zum Thema Kourou überleitet. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, die erst die Antwort liefern müsste, und enthält keine Behauptung. Dass es zu bemannten Starts etwas zu sagen gibt, ist nur die übliche Voraussetzung einer Nachfrage. Der Beleg wird daher nicht benötigt, und die Nachfrage ist belegfrei."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 32,
+      "speaker": "Lena",
+      "text": "Einer Studie der ESA aus den Jahren zweitausendzwei bis zweitausendvier zufolge wäre bei bemannten Sojus-Starts von Französisch-Guayana aus eine Notwasserung im Atlantik mit erheblichen Risiken für die Besatzung verbunden. Der Grund: Die Landekapsel ist nicht für den Aufenthalt auf dem offenen Meer ausgelegt.",
+      "previous_text": "Wären von dort auch bemannte Starts möglich gewesen?",
+      "fact_ids": [
+        "272562704-0052"
+      ],
+      "statements": [
+        {
+          "text": "Einer ESA-Studie von 2002 bis 2004 zufolge wäre bei bemannten Sojus-Starts von Französisch-Guayana eine Notwasserung im Atlantik mit erheblichen Risiken für die Besatzung verbunden, da die Landekapsel nicht für den Aufenthalt auf dem offenen Meer ausgelegt ist.",
+          "fact_ids": [
+            "272562704-0052"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0052",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Einer Studie der ESA aus den Jahren 2002 bis 2004 zufolge wäre bei bemannten Sojus-Starts von Französisch-Guayana aus eine Notwasserung im Atlantik mit erheblichen Risiken für die Besatzung verbunden, da die Landekapsel nicht für den Aufenthalt auf dem offenen Meer ausgelegt ist.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 33,
+      "speaker": "Felix",
+      "text": "Und wie ging es danach mit Sojus in Französisch-Guayana weiter?",
+      "previous_text": "Einer Studie der ESA aus den Jahren zweitausendzwei bis zweitausendvier zufolge wäre bei bemannten Sojus-Starts von Französisch-Guayana aus eine Notwasserung im Atlantik mit erheblichen Risiken für die Besatzung verbunden. Der Grund: Die Landekapsel ist nicht für den Aufenthalt auf dem offenen Meer ausgelegt.",
+      "fact_ids": [
+        "272562704-0052"
+      ],
+      "statements": [
+        {
+          "text": "Die ESA-Studie betrachtete bemannte Sojus-Starts von Französisch-Guayana aus.",
+          "fact_ids": [
+            "272562704-0052"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0052",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Einer Studie der ESA aus den Jahren 2002 bis 2004 zufolge wäre bei bemannten Sojus-Starts von Französisch-Guayana aus eine Notwasserung im Atlantik mit erheblichen Risiken für die Besatzung verbunden, da die Landekapsel nicht für den Aufenthalt auf dem offenen Meer ausgelegt ist.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine Nachfrage bzw. Überleitungsfrage („Wie ging es danach weiter?“). Sie setzt nur voraus, dass es zu Sojus in Französisch-Guayana etwas zu erzählen gibt, und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Gegenstand und Ort nennt der vorherige Redebeitrag. Eine Behauptung enthält die Frage nicht, deshalb ist sie belegfrei."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 34,
+      "speaker": "Lena",
+      "text": "Nach dem russischen Überfall auf die Ukraine im Jahr zweitausendzweiundzwanzig wurden Sojus-Starts von Guyana gestoppt. Geplante Starts für Galileo-Raumsonden wurden zeitlich verzögert mit anderen Raketen durchgeführt. Die ESA entschied sich außerdem für eine sofortige Beendigung der Zusammenarbeit mit Roskosmos in der unbemannten Raumfahrt. Das führte zu einer mehrjährigen Krise der europäischen Raumfahrt.",
+      "previous_text": "Und wie ging es danach mit Sojus in Französisch-Guayana weiter?",
+      "fact_ids": [
+        "272562704-0010",
+        "272562704-0150"
+      ],
+      "statements": [
+        {
+          "text": "Nach dem russischen Überfall auf die Ukraine 2022 wurden Sojus-Starts von Guyana gestoppt.",
+          "fact_ids": [
+            "272562704-0010"
+          ]
+        },
+        {
+          "text": "Geplante Starts für Galileo-Raumsonden wurden zeitlich verzögert mit anderen Raketen durchgeführt.",
+          "fact_ids": [
+            "272562704-0010"
+          ]
+        },
+        {
+          "text": "Nach Beginn des russischen Angriffskriegs gegen die Ukraine 2022 entschied sich die ESA für eine sofortige Beendigung der Zusammenarbeit mit Roskosmos in der unbemannten Raumfahrt.",
+          "fact_ids": [
+            "272562704-0150"
+          ]
+        },
+        {
+          "text": "Das führte zu einer mehrjährigen Krise der europäischen Raumfahrt.",
+          "fact_ids": [
+            "272562704-0150"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0010",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Nach dem russischen Überfall auf die Ukraine 2022 wurden Sojus-Starts von Guyana gestoppt und geplante Starts für Galileo-Raumsonden zeitlich verzögert mit anderen Raketen durchgeführt.",
+          "context": [
+            "Kommerziell wird die Rakete von der Firma Starsem vermarktet, die sie seit 2011 auch vom europäischen Weltraumbahnhof in Kourou, Französisch-Guayana, starten ließ."
+          ]
+        },
+        {
+          "id": "272562704-0150",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Nach Beginn des russischen Angriffskriegs gegen die Ukraine im Jahr 2022 entschied sich die ESA jedoch für eine sofortige Beendigung der Zusammenarbeit mit Roskosmos in der unbemannten Raumfahrt, was zu einer mehrjährigen Krise der europäischen Raumfahrt führte.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "aussage_3": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 35,
+      "speaker": "Felix",
+      "text": "Was bedeutete diese Krise für Europa konkret?",
+      "previous_text": "Nach dem russischen Überfall auf die Ukraine im Jahr zweitausendzweiundzwanzig wurden Sojus-Starts von Guyana gestoppt. Geplante Starts für Galileo-Raumsonden wurden zeitlich verzögert mit anderen Raketen durchgeführt. Die ESA entschied sich außerdem für eine sofortige Beendigung der Zusammenarbeit mit Roskosmos in der unbemannten Raumfahrt. Das führte zu einer mehrjährigen Krise der europäischen Raumfahrt.",
+      "fact_ids": [
+        "272562704-0150"
+      ],
+      "statements": [
+        {
+          "text": "Es gab eine mehrjährige Krise der europäischen Raumfahrt.",
+          "fact_ids": [
+            "272562704-0150"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0150",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Nach Beginn des russischen Angriffskriegs gegen die Ukraine im Jahr 2022 entschied sich die ESA jedoch für eine sofortige Beendigung der Zusammenarbeit mit Roskosmos in der unbemannten Raumfahrt, was zu einer mehrjährigen Krise der europäischen Raumfahrt führte.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag ist eine Nachfrage mit Bitte um Erklärung. Die Prämisse, dass es eine Krise gab, hat Lena im vorherigen Beitrag genannt und sie folgt aus dem zitierten Fakt (mehrjährige Krise der europäischen Raumfahrt). Es wird keine zusätzliche Einzelheit vorweggenommen, daher ist der Beitrag belegfrei bzw. gedeckt."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 36,
+      "speaker": "Lena",
+      "text": "Ursache der europäischen Raketenkrise waren die vorzeitige Außerbetriebnahme der Sojus-ST und Verzögerungen bei der Ariane 6 und der Vega-C. Die ESA war gezwungen, Startaufträge für den Raketenbetreiber Arianespace zu streichen. Sie vergab sie an den Dienstleister SpaceX in den USA.",
+      "previous_text": "Was bedeutete diese Krise für Europa konkret?",
+      "fact_ids": [
+        "267930390-0001"
+      ],
+      "statements": [
+        {
+          "text": "Ursache der europäischen Raketenkrise waren die vorzeitige Außerbetriebnahme der Sojus-ST und Verzögerungen bei Ariane 6 und Vega-C.",
+          "fact_ids": [
+            "267930390-0001"
+          ]
+        },
+        {
+          "text": "Die ESA musste Startaufträge für Arianespace streichen und an den Dienstleister SpaceX in den USA vergeben.",
+          "fact_ids": [
+            "267930390-0001"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "267930390-0001",
+          "article": "Europäische Raketenkrise",
+          "revid": 267930390,
+          "sentence": "Ursache waren die vorzeitige Außerbetriebnahme der russisch-europäischen Rakete Sojus-ST und Verzögerungen bei der Entwicklung und Inbetriebnahme der neuen Raketenmodelle Ariane 6 und Vega-C. Die ESA war in dieser Zeit gezwungen, Startaufträge für den Raketenbetreiber Arianespace zu streichen und an den Dienstleister SpaceX in den USA zu vergeben.",
+          "context": [
+            "Die europäische Raketenkrise war eine Phase der europäischen Raumfahrt in den Jahren 2022 bis 2024, während derer die europäische Raumfahrtindustrie nur wenige – zeitweise gar keine – Trägerraketen für den Start von Satelliten und Raumsonden bereitstellen konnte."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 38,
+      "speaker": "Lena",
+      "text": "Zum Rettungssystem der Sojus gehören vier auffällige rechteckige Gitterflossen an den Seiten der Nutzlastverkleidung. Sie klappen bei Aktivierung des Rettungssystems aus. Sie dienen der aerodynamischen Stabilisierung.",
+      "previous_text": "Themenwechsel. Wie sieht es mit der Sicherheit der Besatzung aus?",
+      "fact_ids": [
+        "272562704-0041",
+        "272562704-0042"
+      ],
+      "statements": [
+        {
+          "text": "Zum Rettungssystem gehören vier auffällige rechteckige Gitterflossen an den Seiten der Nutzlastverkleidung.",
+          "fact_ids": [
+            "272562704-0041"
+          ]
+        },
+        {
+          "text": "Die Gitterflossen klappen bei Aktivierung des Rettungssystems aus und dienen der aerodynamischen Stabilisierung.",
+          "fact_ids": [
+            "272562704-0042"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0041",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Zum Rettungssystem gehören auch die vier auffälligen rechteckigen Gitterflossen an den Seiten der Nutzlastverkleidung.",
+          "context": []
+        },
+        {
+          "id": "272562704-0042",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Sie klappen bei Aktivierung des Rettungssystems aus und dienen der aerodynamischen Stabilisierung.",
+          "context": [
+            "Zum Rettungssystem gehören auch die vier auffälligen rechteckigen Gitterflossen an den Seiten der Nutzlastverkleidung."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 39,
+      "speaker": "Felix",
+      "text": "Wann wird das Rettungssystem eigentlich wieder abgeworfen?",
+      "previous_text": "Zum Rettungssystem der Sojus gehören vier auffällige rechteckige Gitterflossen an den Seiten der Nutzlastverkleidung. Sie klappen bei Aktivierung des Rettungssystems aus. Sie dienen der aerodynamischen Stabilisierung.",
+      "fact_ids": [
+        "272562704-0041"
+      ],
+      "statements": [
+        {
+          "text": "Zur Sojus gehört ein Rettungssystem.",
+          "fact_ids": [
+            "272562704-0041"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0041",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Zum Rettungssystem gehören auch die vier auffälligen rechteckigen Gitterflossen an den Seiten der Nutzlastverkleidung.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.88,
+          "vollstaendig": 0.76
+        },
+        "jev_error": null,
+        "reason": "Felix' Beitrag ist eine reine Nachfrage zum Thema des vorherigen Beitrags (Rettungssystem). Er enthält keine neue Behauptung. Die Prämisse, dass das Rettungssystem irgendwann abgeworfen wird, ist keine bestimmte Einzelheit, die erst die Antwort liefert, sondern eine übliche Nachfrage nach dem weiteren Ablauf. Eine Stütze durch den Fakt-Satz ist daher nicht nötig."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 40,
+      "speaker": "Lena",
+      "text": "Bei einem normalen Startverlauf wird das Rettungssystem etwa hundertfünfzig Sekunden nach dem Start abgeworfen.",
+      "previous_text": "Wann wird das Rettungssystem eigentlich wieder abgeworfen?",
+      "fact_ids": [
+        "272562704-0044"
+      ],
+      "statements": [
+        {
+          "text": "Bei einem normalen Startverlauf wird das Rettungssystem etwa 150 Sekunden nach dem Start abgeworfen.",
+          "fact_ids": [
+            "272562704-0044"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0044",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Bei einem normalen Startverlauf wird das Rettungssystem etwa 150 s nach dem Start abgeworfen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 41,
+      "speaker": "Felix",
+      "text": "Wurde es schon einmal ausgelöst?",
+      "previous_text": "Bei einem normalen Startverlauf wird das Rettungssystem etwa hundertfünfzig Sekunden nach dem Start abgeworfen.",
+      "fact_ids": [
+        "272562704-0044"
+      ],
+      "statements": [
+        {
+          "text": "Es gibt ein Rettungssystem, das abgeworfen werden kann.",
+          "fact_ids": [
+            "272562704-0044"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0044",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Bei einem normalen Startverlauf wird das Rettungssystem etwa 150 s nach dem Start abgeworfen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.93,
+          "vollstaendig": 0.8
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine Nachfrage („Wurde es schon einmal ausgelöst?“) zum Rettungssystem, das Lena eben genannt hat. Er stellt keine Behauptung auf und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Die Frage setzt nur voraus, dass es dazu etwas zu erzählen gibt, und ist damit belegfrei. „Es“ bezieht sich eindeutig auf das Rettungssystem aus dem vorherigen Redebeitrag."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 42,
+      "speaker": "Lena",
+      "text": "Bereits am vierzehnten Dezember neunzehnhundertsechsundsechzig wurde das Rettungssystem unbeabsichtigt ausgelöst. Davor war ein unbemannter Startversuch abgebrochen worden.",
+      "previous_text": "Wurde es schon einmal ausgelöst?",
+      "fact_ids": [
+        "272562704-0035"
+      ],
+      "statements": [
+        {
+          "text": "Am 14. Dezember 1966 wurde das Rettungssystem nach einem abgebrochenen unbemannten Startversuch unbeabsichtigt ausgelöst.",
+          "fact_ids": [
+            "272562704-0035"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0035",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Bereits am 14. Dezember 1966 wurde das Rettungssystem nach einem abgebrochenen unbemannten Startversuch unbeabsichtigt ausgelöst.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Beide Aussagen folgen aus dem Fakt-Satz: Datum 14. Dezember 1966, unbeabsichtigte Auslösung des Rettungssystems und der vorangegangene abgebrochene unbemannte Startversuch. „Es“ in Felix' Frage wird als Rettungssystem aufgelöst, passend zum Artikelthema Sojus-Rakete. Der Redebeitrag enthält keine Fragen oder weiteren Behauptungen ohne Beleg."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 44,
+      "speaker": "Lena",
+      "text": "Sojus T-10-1 ist die Missionsbezeichnung für den fehlgeschlagenen Flug eines sowjetischen Raumschiffs zur Raumstation Saljut 7 am sechsundzwanzigsten September neunzehnhundertdreiundachtzig. An diesem Tag kam es erstmals zur Rettung einer Besatzung durch den Rettungsturm. Das System rettete die Besatzung wenige Sekunden vor der Explosion der Trägerrakete.",
+      "previous_text": "Und wie sah es im Ernstfall aus?",
+      "fact_ids": [
+        "255240167-0015",
+        "272562704-0036",
+        "272562704-0037"
+      ],
+      "statements": [
+        {
+          "text": "Sojus T-10-1 ist die Missionsbezeichnung für den fehlgeschlagenen Flug eines sowjetischen Sojus-Raumschiffs zur sowjetischen Raumstation Saljut 7 am 26. September 1983.",
+          "fact_ids": [
+            "255240167-0015"
+          ]
+        },
+        {
+          "text": "Am 26. September 1983 kam es erstmals zur Rettung einer Besatzung durch den Rettungsturm.",
+          "fact_ids": [
+            "272562704-0036"
+          ]
+        },
+        {
+          "text": "Das System rettete die Besatzung des Sojus-T-10-1-Raumschiffs wenige Sekunden vor der Explosion der Trägerrakete.",
+          "fact_ids": [
+            "272562704-0037"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "255240167-0015",
+          "article": "Sojus T-10-1",
+          "revid": 255240167,
+          "sentence": "Sojus T-10-1 (auch als Sojus T-10A bezeichnet) ist die Missionsbezeichnung für den fehlgeschlagenen Flug eines sowjetischen Sojus-Raumschiffs zur sowjetischen Raumstation Saljut 7 am 26. September 1983.",
+          "context": []
+        },
+        {
+          "id": "272562704-0036",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Am 26. September 1983 kam es erstmals zur Rettung einer Besatzung durch den Rettungsturm.",
+          "context": []
+        },
+        {
+          "id": "272562704-0037",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Das System rettete die Besatzung des Sojus-T-10-1-Raumschiffs wenige Sekunden vor der Explosion der Trägerrakete.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Alle drei Sätze folgen aus den Fakt-Sätzen: Missionsbezeichnung, Datum und Fehlschlag aus 0015; die erstmalige Rettung einer Besatzung durch den Rettungsturm am selben Tag aus 0036; die Rettung wenige Sekunden vor der Explosion der Trägerrakete aus 0037. \"An diesem Tag\" bezieht sich eindeutig auf den 26. September 1983, und \"das System\" ist der Rettungsturm. Der Gegenstand ist durch den Redebeitrag klar bestimmt. Es gibt keine zusätzlichen Angaben und keine Fragen mit Prämissen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 46,
+      "speaker": "Lena",
+      "text": "Der einzige Fehlstart ereignete sich am elften Oktober zweitausendachtzehn bei der Mission Sojus MS-10. Die Besatzung konnte durch das Rettungssystem gerettet werden.",
+      "previous_text": "Und in jüngerer Zeit?",
+      "fact_ids": [
+        "272562704-0120"
+      ],
+      "statements": [
+        {
+          "text": "Der einzige Fehlstart der Sojus ereignete sich am 11. Oktober 2018 bei der Mission Sojus MS-10, deren Besatzung durch das Rettungssystem gerettet werden konnte.",
+          "fact_ids": [
+            "272562704-0120"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0120",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Der einzige Fehlstart ereignete sich am 11. Oktober 2018 bei der Mission Sojus MS-10, deren Besatzung durch das Rettungssystem gerettet werden konnte.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 48,
+      "speaker": "Lena",
+      "text": "Vom Beginn des einundzwanzigsten Jahrhunderts bis zweitausendsechzehn war die Sojus die kommerziell erfolgreichste orbitale Rakete der Welt. Sie war zudem eine der verlässlichsten, mit einer Zuverlässigkeitsquote von siebenundneunzig Prozent.",
+      "previous_text": "Puh! Wie verlässlich ist die Sojus denn insgesamt?",
+      "fact_ids": [
+        "272562704-0007"
+      ],
+      "statements": [
+        {
+          "text": "Vom Beginn des 21. Jahrhunderts bis 2016 war die Sojus die kommerziell erfolgreichste orbitale Rakete der Welt und eine der verlässlichsten, mit einer Zuverlässigkeitsquote von 97 Prozent.",
+          "fact_ids": [
+            "272562704-0007"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0007",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Vom Beginn des 21. Jahrhunderts bis 2016 war die Sojus die kommerziell erfolgreichste orbitale Rakete der Welt, zudem eine der verlässlichsten mit einer Zuverlässigkeitsquote von 97 %.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 50,
+      "speaker": "Lena",
+      "text": "Die Sojus ist die einzige aktive Trägerrakete der Russischen Föderation, die für den bemannten Raumflug zugelassen ist.",
+      "previous_text": "Beeindruckend! Und wie steht es um bemannte Flüge?",
+      "fact_ids": [
+        "272562704-0008"
+      ],
+      "statements": [
+        {
+          "text": "Die Sojus ist die einzige aktive Trägerrakete der Russischen Föderation, die für den bemannten Raumflug zugelassen ist.",
+          "fact_ids": [
+            "272562704-0008"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0008",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Außerdem ist sie die einzige aktive Trägerrakete der Russischen Föderation, die für den bemannten Raumflug zugelassen ist.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 51,
+      "speaker": "Felix",
+      "text": "Wo starten diese bemannten Flüge eigentlich?",
+      "previous_text": "Die Sojus ist die einzige aktive Trägerrakete der Russischen Föderation, die für den bemannten Raumflug zugelassen ist.",
+      "fact_ids": [
+        "272562704-0008"
+      ],
+      "statements": [
+        {
+          "text": "Die Sojus ist für den bemannten Raumflug zugelassen.",
+          "fact_ids": [
+            "272562704-0008"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0008",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Außerdem ist sie die einzige aktive Trägerrakete der Russischen Föderation, die für den bemannten Raumflug zugelassen ist.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.85
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine reine Nachfrage nach dem Startort der bemannten Flüge. Sie greift das eben Gesagte auf und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Die Voraussetzung, dass bemannte Flüge starten, steht im Fakt und im vorherigen Beitrag. Er enthält keine neue Behauptung und ist daher belegfrei."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 52,
+      "speaker": "Lena",
+      "text": "Zwischen dem Ende des Space-Shuttle-Programms im Juli zweitausendelf und dem Start von SpaceX Demo-2 im Mai zweitausendzwanzig starteten alle nichtchinesischen bemannten Raumflüge vom Kosmodrom Baikonur.",
+      "previous_text": "Wo starten diese bemannten Flüge eigentlich?",
+      "fact_ids": [
+        "272399843-0006"
+      ],
+      "statements": [
+        {
+          "text": "Zwischen dem Ende des Space-Shuttle-Programms im Juli 2011 und dem Start von SpaceX Demo-2 im Mai 2020 starteten alle nichtchinesischen bemannten Raumflüge vom Kosmodrom Baikonur.",
+          "fact_ids": [
+            "272399843-0006"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272399843-0006",
+          "article": "Kosmodrom Baikonur",
+          "revid": 272399843,
+          "sentence": "Zwischen dem Ende des Space-Shuttle-Programmes im Juli 2011 und dem Start von SpaceX Demo-2 im Mai 2020 starteten alle nichtchinesischen bemannten Raumflüge vom Kosmodrom Baikonur.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 53,
+      "speaker": "Felix",
+      "text": "Nach welchem Gesichtspunkt wurde der Standort von Baikonur eigentlich gewählt?",
+      "previous_text": "Zwischen dem Ende des Space-Shuttle-Programms im Juli zweitausendelf und dem Start von SpaceX Demo-2 im Mai zweitausendzwanzig starteten alle nichtchinesischen bemannten Raumflüge vom Kosmodrom Baikonur.",
+      "fact_ids": [
+        "272399843-0006"
+      ],
+      "statements": [
+        {
+          "text": "Es gibt das Kosmodrom Baikonur, von dem bemannte Raumflüge starteten.",
+          "fact_ids": [
+            "272399843-0006"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272399843-0006",
+          "article": "Kosmodrom Baikonur",
+          "revid": 272399843,
+          "sentence": "Zwischen dem Ende des Space-Shuttle-Programmes im Juli 2011 und dem Start von SpaceX Demo-2 im Mai 2020 starteten alle nichtchinesischen bemannten Raumflüge vom Kosmodrom Baikonur.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.82
+        },
+        "jev_error": null,
+        "reason": "Felix stellt nur eine Nachfrage, wie der Standort von Baikonur gewählt wurde. Das ist eine Überleitungsfrage und damit belegfrei. Sie nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg, die erst die Antwort liefern würde. Dass der Standort nach einem Gesichtspunkt gewählt wurde, ist eine harmlose Voraussetzung, keine konkrete Behauptung. Der zitierte Fakt behandelt zwar ein anderes Thema, wird aber nicht als Beleg für eine Aussage gebraucht."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 54,
+      "speaker": "Lena",
+      "text": "Bei der Wahl des Standorts von Baikonur wurde darauf geachtet, dass die Aufstiegsbahnen überwiegend über Festland verlaufen.",
+      "previous_text": "Nach welchem Gesichtspunkt wurde der Standort von Baikonur eigentlich gewählt?",
+      "fact_ids": [
+        "272562704-0049"
+      ],
+      "statements": [
+        {
+          "text": "Bei der Wahl des Standorts von Baikonur wurde darauf geachtet, dass die Aufstiegsbahnen überwiegend über Festland verlaufen.",
+          "fact_ids": [
+            "272562704-0049"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0049",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Bei der Wahl des Standorts von Baikonur wurde darauf geachtet, dass die Aufstiegsbahnen überwiegend über Festland verlaufen.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 1.0,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 55,
+      "speaker": "Felix",
+      "text": "Von Baikonur ist ja auch Sputnik 1 gestartet, der erste künstliche Satellit. Wie wurde dieser Start damals in der Welt aufgenommen?",
+      "previous_text": "Bei der Wahl des Standorts von Baikonur wurde darauf geachtet, dass die Aufstiegsbahnen überwiegend über Festland verlaufen.",
+      "fact_ids": [
+        "272399843-0002"
+      ],
+      "statements": [
+        {
+          "text": "Das Kosmodrom Baikonur war der Startplatz für den ersten künstlichen Satelliten Sputnik 1.",
+          "fact_ids": [
+            "272399843-0002"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272399843-0002",
+          "article": "Kosmodrom Baikonur",
+          "revid": 272399843,
+          "sentence": "Das Kosmodrom Baikonur war sowohl Startplatz für den ersten künstlichen Satelliten Sputnik 1 als auch für den ersten bemannten Raumflug (Wostok 1).",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.91
+        },
+        "jev_error": null,
+        "reason": "Die Behauptung, dass Sputnik 1 von Baikonur gestartet ist und der erste künstliche Satellit war, folgt direkt aus dem Fakt-Satz. Die Frage nach der damaligen Aufnahme des Starts in der Welt ist eine Nachfrage ohne vorweggenommene Einzelheit, Wertung oder Vermutung und daher belegfrei."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 56,
+      "speaker": "Lena",
+      "text": "Die westliche Fachwelt wurde vom Start von Sputnik 1 überrascht. Sowohl die Sowjetunion als auch die USA hatten Satellitenstarts anlässlich des Internationalen Geophysikalischen Jahres neunzehnhundertsiebenundfünfzig bis achtundfünfzig angekündigt. Die westliche Fachwelt rechnete jedoch erst Mitte neunzehnhundertachtundfünfzig mit der Fertigstellung der sowjetischen Entwicklungen.",
+      "previous_text": "Von Baikonur ist ja auch Sputnik 1 gestartet, der erste künstliche Satellit. Wie wurde dieser Start damals in der Welt aufgenommen?",
+      "fact_ids": [
+        "270950168-0023"
+      ],
+      "statements": [
+        {
+          "text": "Die westliche Fachwelt wurde durch den Start von Sputnik 1 überrascht.",
+          "fact_ids": [
+            "270950168-0023"
+          ]
+        },
+        {
+          "text": "Sowohl die Sowjetunion als auch die USA hatten Satellitenstarts anlässlich des Internationalen Geophysikalischen Jahres 1957 bis 1958 angekündigt.",
+          "fact_ids": [
+            "270950168-0023"
+          ]
+        },
+        {
+          "text": "Die westliche Fachwelt rechnete erst Mitte 1958 mit der Fertigstellung der sowjetischen Entwicklungen.",
+          "fact_ids": [
+            "270950168-0023"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "270950168-0023",
+          "article": "Sputnik 1",
+          "revid": 270950168,
+          "sentence": "Satellitenstarts waren sowohl von der Sowjetunion als auch den USA anlässlich des Internationalen Geophysikalischen Jahres (IGY) 1957–58 angekündigt worden, doch rechnete die westliche Fachwelt erst Mitte 1958 mit der Fertigstellung der sowjetischen Entwicklungen und wurde durch den Start überrascht.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "aussage_2": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 57,
+      "speaker": "Felix",
+      "text": "Verrückt! Wer vermarktet die Sojus eigentlich kommerziell?",
+      "previous_text": "Die westliche Fachwelt wurde vom Start von Sputnik 1 überrascht. Sowohl die Sowjetunion als auch die USA hatten Satellitenstarts anlässlich des Internationalen Geophysikalischen Jahres neunzehnhundertsiebenundfünfzig bis achtundfünfzig angekündigt. Die westliche Fachwelt rechnete jedoch erst Mitte neunzehnhundertachtundfünfzig mit der Fertigstellung der sowjetischen Entwicklungen.",
+      "fact_ids": [
+        "272562704-0007"
+      ],
+      "statements": [
+        {
+          "text": "Die Sojus war kommerziell erfolgreich.",
+          "fact_ids": [
+            "272562704-0007"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0007",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Vom Beginn des 21. Jahrhunderts bis 2016 war die Sojus die kommerziell erfolgreichste orbitale Rakete der Welt, zudem eine der verlässlichsten mit einer Zuverlässigkeitsquote von 97 %.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.84
+        },
+        "jev_error": null,
+        "reason": "„Verrückt!“ ist eine Reaktion (Staunen). „Wer vermarktet die Sojus eigentlich kommerziell?“ ist eine Nachfrage bzw. Überleitungsfrage. Sie setzt nur voraus, dass es eine kommerzielle Vermarktung gibt, was der zitierte Fakt zur kommerziell erfolgreichsten Rakete stützt. Sie nimmt keine bestimmte Einzelheit oder Wertung vorweg. Der Redebeitrag enthält keine eigenen Behauptungen, die belegt werden müssten."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 58,
+      "speaker": "Lena",
+      "text": "Die Entwicklung des Rus-Sojus-2-Projekts war anfangs zögerlich. Dann kam die Wende. In Kooperation mit dem europäischen Raumfahrtunternehmen Arianespace wurde die Firma Starsem gegründet. Sie bietet die Sojus seitdem im Westen zum Start von kommerziellen Satelliten an.",
+      "previous_text": "Verrückt! Wer vermarktet die Sojus eigentlich kommerziell?",
+      "fact_ids": [
+        "272562704-0125"
+      ],
+      "statements": [
+        {
+          "text": "Nach der anfangs zögerlichen Entwicklung des Rus/Sojus-2-Projekts kam die Wende, nachdem in Kooperation mit Arianespace die Firma Starsem gegründet worden war, die die Sojus seitdem im Westen zum Start von kommerziellen Satelliten anbietet.",
+          "fact_ids": [
+            "272562704-0125"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0125",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Nach der anfangs zögerlichen Entwicklung des Rus/Sojus-2-Projekts kam die Wende, nachdem in Kooperation mit dem europäischen Raumfahrtunternehmen Arianespace die Firma Starsem gegründet worden war, die seitdem die Sojus im Westen zum Start von kommerziellen Satelliten anbietet.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.97
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 60,
+      "speaker": "Lena",
+      "text": "Die Bauarbeiten an der neuen Sojus-Startanlage wurden erst Mitte zweitausendelf abgeschlossen. Die ESA trug den überwiegenden Teil der Baukosten. Sie wurden auf dreihundertvierundvierzig Millionen Euro beziffert.",
+      "previous_text": "Gibt es Zahlen zum Bau von Sojus-Anlagen?",
+      "fact_ids": [
+        "272562704-0144"
+      ],
+      "statements": [
+        {
+          "text": "Die Bauarbeiten an der neuen Sojus-Startanlage wurden erst Mitte 2011 abgeschlossen, wobei die ESA den überwiegenden Teil der Baukosten trug, die auf 344 Millionen Euro beziffert wurden.",
+          "fact_ids": [
+            "272562704-0144"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0144",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Die Bauarbeiten an der neuen Sojus-Startanlage wurden erst Mitte 2011 abgeschlossen, wobei die ESA den überwiegenden Teil der Baukosten trug, die auf 344 Millionen Euro beziffert wurden.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 1.0,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 62,
+      "speaker": "Lena",
+      "text": "Mit der Außerdienststellung der Sojus-FG endete auch die Verwendung des in der Ukraine gefertigten Flugsteuerungssystems.",
+      "previous_text": "Gab es Versionen, die irgendwann außer Dienst gestellt wurden?",
+      "fact_ids": [
+        "272562704-0122"
+      ],
+      "statements": [
+        {
+          "text": "Mit der Außerdienststellung der Sojus-FG endete auch die Verwendung des in der Ukraine gefertigten Flugsteuerungssystems.",
+          "fact_ids": [
+            "272562704-0122"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0122",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Mit der Außerdienststellung der Sojus-FG endete auch die Verwendung des in der Ukraine gefertigten Flugsteuerungssystems.",
+          "context": [
+            "Der letzte Start fand am 25. September 2019 mit Sojus MS-15 statt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.97,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 63,
+      "speaker": "Felix",
+      "text": "Gab es noch weitere Folgen?",
+      "previous_text": "Mit der Außerdienststellung der Sojus-FG endete auch die Verwendung des in der Ukraine gefertigten Flugsteuerungssystems.",
+      "fact_ids": [
+        "272562704-0122"
+      ],
+      "statements": [
+        {
+          "text": "Die Sojus-FG wurde außer Dienst gestellt.",
+          "fact_ids": [
+            "272562704-0122"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0122",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Mit der Außerdienststellung der Sojus-FG endete auch die Verwendung des in der Ukraine gefertigten Flugsteuerungssystems.",
+          "context": [
+            "Der letzte Start fand am 25. September 2019 mit Sojus MS-15 statt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 64,
+      "speaker": "Lena",
+      "text": "Zugleich wurde die Nutzung des historischen Startplatzes eins in Baikonur eingestellt. Von dort waren bereits der erste Satellit und der erste Mensch in den Weltraum gestartet.",
+      "previous_text": "Gab es noch weitere Folgen?",
+      "fact_ids": [
+        "272562704-0123"
+      ],
+      "statements": [
+        {
+          "text": "Zugleich wurde die Nutzung des historischen Startplatzes 1 in Baikonur eingestellt, von dem bereits der erste Satellit und der erste Mensch in den Weltraum gestartet waren.",
+          "fact_ids": [
+            "272562704-0123"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0123",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Zugleich wurde die Nutzung des historischen Startplatzes 1 in Baikonur eingestellt, von dem bereits der erste Satellit und der erste Mensch in den Weltraum gestartet waren.",
+          "context": [
+            "Mit der Außerdienststellung der Sojus-FG endete auch die Verwendung des in der Ukraine gefertigten Flugsteuerungssystems."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.98,
+          "vollstaendig": 0.91
+        },
+        "jev_error": null,
+        "reason": "Der Redebeitrag gibt den Fakt-Satz inhaltlich unverändert wieder: Die Nutzung des historischen Startplatzes 1 in Baikonur wurde eingestellt, und von dort waren der erste Satellit und der erste Mensch ins All gestartet. Es kommt keine zusätzliche Angabe hinzu. Der Gegenstand ist eindeutig, denn Baikonur und der Startplatz werden im Redebeitrag genannt und das Thema ist der Artikel Sojus (Rakete). Das „Zugleich“ wird wie im Fakt-Satz verwendet und stellt keine neue Beziehung her. Als Antwort auf die Nachfrage „Gab es noch weitere Folgen?“ passt der Beitrag, weil der Fakt-Satz eine Folge der Außerdienststellung der Sojus-FG nennt. Der Redebeitrag enthält keine Fragen und keine unbelegten Reaktionen."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 66,
+      "speaker": "Lena",
+      "text": "Bei unbemannten Missionen mit einer vierten Stufe zündet diese etwa bei Sekunde fünfhundertachtundachtzig. Beim Startvorgang treten Beschleunigungen bis zu vier Komma drei g kurz vor dem Abtrennen der ersten Stufe auf. Noch einmal knapp drei Komma fünf g sind es kurz vor Brennschluss der dritten Stufe.",
+      "previous_text": "Ein Stück Geschichte! Wie läuft ein Flug eigentlich ab?",
+      "fact_ids": [
+        "272562704-0249"
+      ],
+      "statements": [
+        {
+          "text": "Bei unbemannten Missionen mit einer vierten Stufe zündet diese etwa bei Sekunde 588.",
+          "fact_ids": [
+            "272562704-0249"
+          ]
+        },
+        {
+          "text": "Beim Startvorgang treten Beschleunigungen bis zu 4,3 g kurz vor dem Abtrennen der ersten Stufe und noch einmal knapp 3,5 g kurz vor Brennschluss der Drittstufe auf.",
+          "fact_ids": [
+            "272562704-0249"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0249",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Bei unbemannten Missionen mit einer vierten Stufe zündet diese etwa bei Sekunde 588. Beim Startvorgang treten Beschleunigungen bis zu 4,3 g kurz vor dem Abtrennen der ersten Stufe und noch einmal knapp 3,5 g kurz vor Brennschluss der Drittstufe auf.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 67,
+      "speaker": "Felix",
+      "text": "Was passiert mit den abgetrennten Teilen?",
+      "previous_text": "Bei unbemannten Missionen mit einer vierten Stufe zündet diese etwa bei Sekunde fünfhundertachtundachtzig. Beim Startvorgang treten Beschleunigungen bis zu vier Komma drei g kurz vor dem Abtrennen der ersten Stufe auf. Noch einmal knapp drei Komma fünf g sind es kurz vor Brennschluss der dritten Stufe.",
+      "fact_ids": [
+        "272562704-0249"
+      ],
+      "statements": [
+        {
+          "text": "Beim Startvorgang wird die erste Stufe abgetrennt.",
+          "fact_ids": [
+            "272562704-0249"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0249",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Bei unbemannten Missionen mit einer vierten Stufe zündet diese etwa bei Sekunde 588. Beim Startvorgang treten Beschleunigungen bis zu 4,3 g kurz vor dem Abtrennen der ersten Stufe und noch einmal knapp 3,5 g kurz vor Brennschluss der Drittstufe auf.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.87,
+          "vollstaendig": 0.79
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine reine Nachfrage („Was passiert mit den abgetrennten Teilen?“). Sie knüpft an das Abtrennen der Stufen aus dem vorherigen Beitrag an, bittet um Erklärung und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Er enthält keine Behauptung, die belegt werden müsste, daher ist er belegfrei und zulässig."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 68,
+      "speaker": "Lena",
+      "text": "Die Booster der ersten Stufe der Sojus-Raketen, die von Baikonur aus starten, gehen in der Kasachensteppe nieder. Nach dem Zerfall der Sowjetunion wurden sie von Schrottsammlern geborgen und verwertet.",
+      "previous_text": "Was passiert mit den abgetrennten Teilen?",
+      "fact_ids": [
+        "272562704-0250"
+      ],
+      "statements": [
+        {
+          "text": "Die Booster der ersten Stufe der Sojus-Raketen, die von Baikonur aus starten, gehen in der Kasachensteppe nieder und wurden nach dem Zerfall der Sowjetunion von Schrottsammlern geborgen und verwertet.",
+          "fact_ids": [
+            "272562704-0250"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0250",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Die Booster der ersten Stufe der Sojus-Raketen, die von Baikonur aus starten, gehen in der Kasachensteppe nieder und wurden nach dem Zerfall der Sowjetunion von Schrottsammlern geborgen und verwertet.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 69,
+      "speaker": "Felix",
+      "text": "Ist das heute noch so?",
+      "previous_text": "Die Booster der ersten Stufe der Sojus-Raketen, die von Baikonur aus starten, gehen in der Kasachensteppe nieder. Nach dem Zerfall der Sowjetunion wurden sie von Schrottsammlern geborgen und verwertet.",
+      "fact_ids": [
+        "272562704-0250"
+      ],
+      "statements": [
+        {
+          "text": "Die Booster wurden nach dem Zerfall der Sowjetunion von Schrottsammlern geborgen.",
+          "fact_ids": [
+            "272562704-0250"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0250",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Die Booster der ersten Stufe der Sojus-Raketen, die von Baikonur aus starten, gehen in der Kasachensteppe nieder und wurden nach dem Zerfall der Sowjetunion von Schrottsammlern geborgen und verwertet.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 70,
+      "speaker": "Lena",
+      "text": "Heutzutage sammeln meist Bergungsteams der Regierung die Raketentrümmer ein. Sie sind mit giftigem Raketentreibstoff kontaminiert.",
+      "previous_text": "Ist das heute noch so?",
+      "fact_ids": [
+        "272562704-0251"
+      ],
+      "statements": [
+        {
+          "text": "Heutzutage sammeln die mit giftigem Raketentreibstoff kontaminierten Raketentrümmer meist Bergungsteams der Regierung ein.",
+          "fact_ids": [
+            "272562704-0251"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0251",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Heutzutage sammeln die mit giftigem Raketentreibstoff kontaminierten Raketentrümmer meist Bergungsteams der Regierung ein.",
+          "context": [
+            "Die Booster der ersten Stufe der Sojus-Raketen, die von Baikonur aus starten, gehen in der Kasachensteppe nieder und wurden nach dem Zerfall der Sowjetunion von Schrottsammlern geborgen und verwertet."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.54,
+          "vollstaendig": 0.91
+        },
+        "jev_error": null,
+        "reason": "Beide Aussagen folgen aus dem Fakt-Satz: Bergungsteams der Regierung sammeln heutzutage meist die Raketentrümmer ein, und diese sind mit giftigem Raketentreibstoff kontaminiert. \"Sie\" bezieht sich auf die Raketentrümmer, was der Fakt-Satz eindeutig nennt. Das Thema Sojus-Rakete ist durch den Artikel eindeutig, und \"Ist das heute noch so?\" lässt sich auf die frühere Bergung durch Schrottsammler beziehen. Der Redebeitrag enthält keine zusätzlichen Angaben."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 72,
+      "speaker": "Lena",
+      "text": "Die Booster der Falcon Heavy landen senkrecht mittels Triebwerksrückstoß und Landebeinen. Die Booster der Super Heavy können direkt zum Startturm zurückkehren.",
+      "previous_text": "Wie gehen andere Raketen mit ihren Boostern um?",
+      "fact_ids": [
+        "263225088-0007"
+      ],
+      "statements": [
+        {
+          "text": "Die Booster der Falcon Heavy landen senkrecht mittels Triebwerksrückstoß und Landebeinen, die der Super Heavy können direkt zum Startturm zurückkehren.",
+          "fact_ids": [
+            "263225088-0007"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "263225088-0007",
+          "article": "Booster (Raketenantrieb)",
+          "revid": 263225088,
+          "sentence": "Die Booster der Falcon Heavy landen senkrecht mittels Triebwerksrückstoß und Landebeinen, die der Super Heavy können direkt zum Startturm zurückkehren.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 74,
+      "speaker": "Lena",
+      "text": "Ja, da hat sich etwas getan. Erst ab Ende der neunzehnhundertneunziger Jahre wurde bei der Sojus eine vierte Stufe eingesetzt, um höhere Orbits zu erreichen. Die bis dahin dafür verwendete vierstufige Molnija war nicht flexibel genug.",
+      "previous_text": "Faszinierend! Und wie ist das bei der Sojus selbst mit der Zahl der Stufen? Hat sich da im Lauf der Zeit etwas getan?",
+      "fact_ids": [
+        "272562704-0056"
+      ],
+      "statements": [
+        {
+          "text": "Erst ab Ende der 1990er Jahre wurde bei der Sojus eine vierte Stufe zum Erreichen höherer Orbits eingesetzt, weil die bis dahin dafür verwendete vierstufige Molnija nicht flexibel genug war.",
+          "fact_ids": [
+            "272562704-0056"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0056",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Erst ab Ende der 1990er wurde bei der Sojus eine vierte Stufe zum Erreichen von höheren Orbits eingesetzt, da die bisher für diese Aufgabe verwendete vierstufige Molnija nicht flexibel genug war.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.92
+        },
+        "jev_error": null,
+        "reason": "Die Aussagen zur vierten Stufe ab Ende der 1990er Jahre und zur bis dahin verwendeten, nicht flexiblen vierstufigen Molnija stimmen mit dem Fakt-Satz überein, ohne zusätzliche Angaben. Der Gegenstand (Sojus) ist eindeutig. Der Einleitungssatz „Ja, da hat sich etwas getan“ ist eine belegfreie Reaktion bzw. ein Wiederaufgreifen der Frage, und es gibt keine Fragen im Redebeitrag."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 76,
+      "speaker": "Lena",
+      "text": "Fregat kann bis zu zwanzigmal wiedergezündet werden. Damit ist sie ideal zum Aussetzen mehrerer Satelliten in verschiedenen Umlaufbahnen. Diese Tatsache wurde von der ESA genutzt, als sie eine Trägerrakete für ihre Cluster-Satelliten suchte.",
+      "previous_text": "Gibt es dazu noch eine besondere Stufe, die man kennen sollte?",
+      "fact_ids": [
+        "272562704-0096",
+        "272562704-0097"
+      ],
+      "statements": [
+        {
+          "text": "Fregat kann bis zu zwanzigmal wiedergezündet werden und ist somit ideal zum Aussetzen mehrerer Satelliten in verschiedenen Umlaufbahnen.",
+          "fact_ids": [
+            "272562704-0096"
+          ]
+        },
+        {
+          "text": "Diese Tatsache wurde von der ESA genutzt, als sie eine Trägerrakete für ihre Cluster-Satelliten suchte.",
+          "fact_ids": [
+            "272562704-0097"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0096",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Fregat kann bis zu zwanzigmal wiedergezündet werden und ist somit ideal zum Aussetzen mehrerer Satelliten in verschiedenen Umlaufbahnen.",
+          "context": []
+        },
+        {
+          "id": "272562704-0097",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Diese Tatsache wurde von der ESA genutzt, als sie eine Trägerrakete für ihre Cluster-Satelliten suchte.",
+          "context": [
+            "Fregat kann bis zu zwanzigmal wiedergezündet werden und ist somit ideal zum Aussetzen mehrerer Satelliten in verschiedenen Umlaufbahnen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.96
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 77,
+      "speaker": "Felix",
+      "text": "Wie lief das dann für die Cluster-Satelliten?",
+      "previous_text": "Fregat kann bis zu zwanzigmal wiedergezündet werden. Damit ist sie ideal zum Aussetzen mehrerer Satelliten in verschiedenen Umlaufbahnen. Diese Tatsache wurde von der ESA genutzt, als sie eine Trägerrakete für ihre Cluster-Satelliten suchte.",
+      "fact_ids": [
+        "272562704-0097"
+      ],
+      "statements": [
+        {
+          "text": "Die ESA suchte eine Trägerrakete für ihre Cluster-Satelliten.",
+          "fact_ids": [
+            "272562704-0097"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0097",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Diese Tatsache wurde von der ESA genutzt, als sie eine Trägerrakete für ihre Cluster-Satelliten suchte.",
+          "context": [
+            "Fregat kann bis zu zwanzigmal wiedergezündet werden und ist somit ideal zum Aussetzen mehrerer Satelliten in verschiedenen Umlaufbahnen."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.93
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine offene Nachfrage und damit belegfrei. Die Frage \"Wie lief das dann für die Cluster-Satelliten?\" greift den Gegenstand aus Lenas vorherigem Beitrag (Cluster-Satelliten, ESA) auf und nimmt keine bestimmte Einzelheit, Wertung oder Vermutung vorweg. Die Prämisse, dass die Cluster-Satelliten mit einer Trägerrakete zu tun hatten, ist durch den zitierten Fakt gedeckt."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 78,
+      "speaker": "Lena",
+      "text": "Fregat konnte ihre Leistungsfähigkeit und Zuverlässigkeit beweisen. Die dritte Stufe der Sojus hatte zu früh abgeschaltet. Fregat übernahm rechtzeitig die Steuerung des Fluges. Durch ihre überschüssige Treibstoffladung konnte sie die Mission doch noch retten.",
+      "previous_text": "Wie lief das dann für die Cluster-Satelliten?",
+      "fact_ids": [
+        "272562704-0100"
+      ],
+      "statements": [
+        {
+          "text": "Fregat konnte ihre Leistungsfähigkeit und Zuverlässigkeit beweisen, als sie nach einem zu frühen Abschalten der dritten Stufe der Sojus die Steuerung des Fluges rechtzeitig übernahm und durch ihre überschüssige Treibstoffladung die Mission doch noch retten konnte.",
+          "fact_ids": [
+            "272562704-0100"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0100",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Dabei konnte Fregat ihre Leistungsfähigkeit und Zuverlässigkeit beweisen, als sie nach einem zu frühen Abschalten der dritten Stufe der Sojus die Steuerung des Fluges rechtzeitig übernahm und durch ihre überschüssige Treibstoffladung die Mission doch noch retten konnte.",
+          "context": [
+            "Nach einem weiteren Testflug wurden bei zwei Sojus-U/Fregat-Flügen erfolgreich vier Cluster-Satelliten ins All gebracht."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 80,
+      "speaker": "Lena",
+      "text": "Ab der Sojus-2.1a verfügt die Sojus über ein digitales Flugsteuersystem. Es ersetzt die alte, aus den neunzehnhundertsechziger Jahren stammende analoge Steuerung.",
+      "previous_text": "Wow, was für eine Rettung! Wie wird die Sojus eigentlich gesteuert?",
+      "fact_ids": [
+        "272562704-0128"
+      ],
+      "statements": [
+        {
+          "text": "Ab der Variante Sojus-2.1a verfügt die Sojus über ein digitales Flugsteuersystem, das die alte, aus den 1960ern stammende analoge Steuerung ersetzt.",
+          "fact_ids": [
+            "272562704-0128"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0128",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Ab dieser Variante verfügt die Sojus über ein digitales Flugsteuersystem, das die alte, aus den 1960ern stammende analoge Steuerung ersetzt.",
+          "context": [
+            "Am 8. November 2004 startete von Plessezk erfolgreich die Sojus-2.1a als zweite Rus-Entwicklungsstufe nach der Sojus-FG."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.95,
+          "vollstaendig": 0.95
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 81,
+      "speaker": "Felix",
+      "text": "Was bringt dieses digitale System?",
+      "previous_text": "Ab der Sojus-2.1a verfügt die Sojus über ein digitales Flugsteuersystem. Es ersetzt die alte, aus den neunzehnhundertsechziger Jahren stammende analoge Steuerung.",
+      "fact_ids": [
+        "272562704-0128"
+      ],
+      "statements": [
+        {
+          "text": "Die Sojus hat ein digitales Flugsteuersystem.",
+          "fact_ids": [
+            "272562704-0128"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0128",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Ab dieser Variante verfügt die Sojus über ein digitales Flugsteuersystem, das die alte, aus den 1960ern stammende analoge Steuerung ersetzt.",
+          "context": [
+            "Am 8. November 2004 startete von Plessezk erfolgreich die Sojus-2.1a als zweite Rus-Entwicklungsstufe nach der Sojus-FG."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.91,
+          "vollstaendig": 0.94
+        },
+        "jev_error": null,
+        "reason": "Felix' Redebeitrag ist eine reine Nachfrage (Bitte um Erklärung) und bezieht sich eindeutig auf das digitale Flugsteuersystem, das Lena eben genannt hat. Er enthält keine neue Behauptung und keine Prämisse, die erst die Antwort liefern müsste. „Dieses digitale System“ ist eindeutig, und die Ersetzung der analogen Steuerung kommt aus dem Fakt-Satz, wird aber gar nicht erst behauptet."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 82,
+      "speaker": "Lena",
+      "text": "Die digitale Steuerung sollte ursprünglich bereits ab zweitausendzwei bei der Sojus-U verwendet werden. Sie ermöglicht eine flexiblere Flugplanung und eine effizientere Treibstoffnutzung. Das kommt der Nutzlastkapazität der Rakete zugute.",
+      "previous_text": "Was bringt dieses digitale System?",
+      "fact_ids": [
+        "272562704-0129"
+      ],
+      "statements": [
+        {
+          "text": "Die digitale Steuerung, die ursprünglich bereits ab 2002 bei der Sojus-U verwendet werden sollte, ermöglicht eine flexiblere Flugplanung und eine effizientere Treibstoffnutzung, was der Nutzlastkapazität der Rakete zugutekommt.",
+          "fact_ids": [
+            "272562704-0129"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0129",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Die digitale Steuerung, die ursprünglich bereits ab 2002 bei der Sojus-U verwendet werden sollte, ermöglicht eine flexiblere Flugplanung und eine effizientere Treibstoffnutzung, was der Nutzlastkapazität der Rakete zugutekommt.",
+          "context": [
+            "Ab dieser Variante verfügt die Sojus über ein digitales Flugsteuersystem, das die alte, aus den 1960ern stammende analoge Steuerung ersetzt."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.91,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen direkt aus dem Fakt-Satz: Die digitale Steuerung sollte ursprünglich ab 2002 bei der Sojus-U eingesetzt werden, sie ermöglicht flexiblere Flugplanung und effizientere Treibstoffnutzung, was der Nutzlastkapazität zugutekommt. „Dieses digitale System“ aus Felix' Frage meint dieselbe digitale Steuerung, und das Thema des Artikels ist die Sojus-Rakete, also ist der Bezug eindeutig. Es wird nichts hinzugefügt."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 84,
+      "speaker": "Lena",
+      "text": "Die neue Sojus-Variante Sojus-2M soll eine dreistufige Rakete sein. Sie soll zu niedrigeren Kosten herstellbar sein als die Sojus-2.1. Russland reagiert damit auf den Preisdruck durch den US-Konkurrenten SpaceX. Dessen Falcon-9-Rakete läuft der jahrzehntelang marktführenden Sojus seit zweitausendsiebzehn den Rang ab.",
+      "previous_text": "Und was ist für die Zukunft der Sojus geplant?",
+      "fact_ids": [
+        "272562704-0166"
+      ],
+      "statements": [
+        {
+          "text": "Die Sojus-2M soll eine dreistufige Rakete sein, die zu niedrigeren Kosten herstellbar ist als die Sojus-2.1.",
+          "fact_ids": [
+            "272562704-0166"
+          ]
+        },
+        {
+          "text": "Russland reagiert damit auf den Preisdruck durch SpaceX, dessen Falcon-9-Rakete der jahrzehntelang marktführenden Sojus seit 2017 den Rang abläuft.",
+          "fact_ids": [
+            "272562704-0166"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0166",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Es soll sich um eine dreistufige Rakete handeln, die zu niedrigeren Kosten herstellbar ist als die Sojus-2.1. Russland reagiert damit auf den Preisdruck durch den US-Konkurrenten SpaceX, dessen Falcon-9-Rakete der jahrzehntelang marktführenden Sojus seit 2017 den Rang abläuft.",
+          "context": [
+            "2019 wurde bekannt, dass die neue Sojus-Variante Sojus-2M in Entwicklung ist."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.78
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus dem Fakt-Satz: dreistufige Rakete, niedrigere Kosten als die Sojus-2.1, Reaktion auf den Preisdruck durch SpaceX, Falcon 9 läuft der jahrzehntelang marktführenden Sojus seit 2017 den Rang ab. Dass es sich um die Sojus-2M handelt, nennt der Kontext zwar nur dort, der Redebeitrag löst den Bezug von „Es“ aber zulässig mit dem Namen auf, den der Kontext bestimmt. Der Gegenstand (Sojus, Artikelthema) passt zur vorherigen Frage nach der Zukunft der Sojus. „Soll“ gibt die Planung korrekt wieder. Es gibt keine Fragen und keine zusätzlichen Angaben."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 86,
+      "speaker": "Lena",
+      "text": "Ein erster suborbitaler Testflug der Sojus-5 fand am dreißigsten April zweitausendsechsundzwanzig von Baikonur aus statt.",
+      "previous_text": "Gibt es noch etwas Neueres?",
+      "fact_ids": [
+        "272562704-0228"
+      ],
+      "statements": [
+        {
+          "text": "Ein erster, suborbitaler Testflug der Sojus-5 fand am 30. April 2026 von Baikonur statt.",
+          "fact_ids": [
+            "272562704-0228"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0228",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Ein erster, suborbitaler Testflug der Sojus-5 fand am 30. April 2026 von Baikonur statt.",
+          "context": []
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "vollstaendig": 0.98
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 88,
+      "speaker": "Lena",
+      "text": "Die kleinste Variante der Sojus-5 soll Sojus-5 Light heißen. Sie soll wiederverwendbar sein.",
+      "previous_text": "Und was ist über die Sojus-5 sonst noch bekannt?",
+      "fact_ids": [
+        "272562704-0230"
+      ],
+      "statements": [
+        {
+          "text": "Die kleinste Variante der Sojus-5 soll Sojus-5 Light heißen.",
+          "fact_ids": [
+            "272562704-0230"
+          ]
+        },
+        {
+          "text": "Die kleinste Variante der Sojus-5 soll wiederverwendbar sein.",
+          "fact_ids": [
+            "272562704-0230"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0230",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Die kleinste Variante soll „Sojus-5 Light“ heißen und wiederverwendbar sein.",
+          "context": [
+            "Ein erster, suborbitaler Testflug der Sojus-5 fand am 30. April 2026 von Baikonur statt.",
+            "Nach Angaben von Roskosmos war er erfolgreich."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "jev",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.99,
+          "vollstaendig": 0.99
+        },
+        "jev_error": null,
+        "reason": null
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    },
+    {
+      "turn_index": 89,
+      "speaker": "Felix",
+      "text": "Dann fasse ich zusammen: Die Sojus ist mit über tausend Einsätzen die meistgenutzte Rakete der Raumfahrtgeschichte. Bis zweitausendsechzehn war sie die kommerziell erfolgreichste orbitale Rakete der Welt, und sie ist die einzige aktive russische Trägerrakete, die für den bemannten Raumflug zugelassen ist. Beim Fehlstart zweitausendachtzehn konnte das Rettungssystem die Besatzung retten. Die Stufe Fregat konnte eine Mission nach dem zu frühen Abschalten der dritten Stufe doch noch retten. Und mit der Sojus-2M reagiert Russland auf den Preisdruck durch SpaceX.",
+      "previous_text": "Die kleinste Variante der Sojus-5 soll Sojus-5 Light heißen. Sie soll wiederverwendbar sein.",
+      "fact_ids": [
+        "272562704-0001",
+        "272562704-0007",
+        "272562704-0008",
+        "272562704-0120",
+        "272562704-0100",
+        "272562704-0166"
+      ],
+      "statements": [
+        {
+          "text": "Mit über 1000 Einsätzen ist die Sojus die meistgenutzte Rakete in der Raumfahrtgeschichte.",
+          "fact_ids": [
+            "272562704-0001"
+          ]
+        },
+        {
+          "text": "Bis 2016 war die Sojus die kommerziell erfolgreichste orbitale Rakete der Welt.",
+          "fact_ids": [
+            "272562704-0007"
+          ]
+        },
+        {
+          "text": "Sie ist die einzige aktive Trägerrakete der Russischen Föderation, die für den bemannten Raumflug zugelassen ist.",
+          "fact_ids": [
+            "272562704-0008"
+          ]
+        },
+        {
+          "text": "Beim einzigen Fehlstart 2018 konnte die Besatzung durch das Rettungssystem gerettet werden.",
+          "fact_ids": [
+            "272562704-0120"
+          ]
+        },
+        {
+          "text": "Fregat übernahm nach einem zu frühen Abschalten der dritten Stufe die Steuerung und konnte die Mission doch noch retten.",
+          "fact_ids": [
+            "272562704-0100"
+          ]
+        },
+        {
+          "text": "Mit der Sojus-2M reagiert Russland auf den Preisdruck durch SpaceX.",
+          "fact_ids": [
+            "272562704-0166"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "272562704-0001",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Mit über 1000 Einsätzen seit ihrem Erstflug im Jahr 1966 ist sie die meistgenutzte Rakete in der Raumfahrtgeschichte.",
+          "context": [
+            "Die Sojus [sʌˈjus] (russisch Союз, „Union“, „Vereinigung“) ist eine russische Trägerrakete."
+          ]
+        },
+        {
+          "id": "272562704-0007",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Vom Beginn des 21. Jahrhunderts bis 2016 war die Sojus die kommerziell erfolgreichste orbitale Rakete der Welt, zudem eine der verlässlichsten mit einer Zuverlässigkeitsquote von 97 %.",
+          "context": []
+        },
+        {
+          "id": "272562704-0008",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Außerdem ist sie die einzige aktive Trägerrakete der Russischen Föderation, die für den bemannten Raumflug zugelassen ist.",
+          "context": []
+        },
+        {
+          "id": "272562704-0120",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Der einzige Fehlstart ereignete sich am 11. Oktober 2018 bei der Mission Sojus MS-10, deren Besatzung durch das Rettungssystem gerettet werden konnte.",
+          "context": []
+        },
+        {
+          "id": "272562704-0100",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Dabei konnte Fregat ihre Leistungsfähigkeit und Zuverlässigkeit beweisen, als sie nach einem zu frühen Abschalten der dritten Stufe der Sojus die Steuerung des Fluges rechtzeitig übernahm und durch ihre überschüssige Treibstoffladung die Mission doch noch retten konnte.",
+          "context": [
+            "Nach einem weiteren Testflug wurden bei zwei Sojus-U/Fregat-Flügen erfolgreich vier Cluster-Satelliten ins All gebracht."
+          ]
+        },
+        {
+          "id": "272562704-0166",
+          "article": "Sojus (Rakete)",
+          "revid": 272562704,
+          "sentence": "Es soll sich um eine dreistufige Rakete handeln, die zu niedrigeren Kosten herstellbar ist als die Sojus-2.1. Russland reagiert damit auf den Preisdruck durch den US-Konkurrenten SpaceX, dessen Falcon-9-Rakete der jahrzehntelang marktführenden Sojus seit 2017 den Rang abläuft.",
+          "context": [
+            "2019 wurde bekannt, dass die neue Sojus-Variante Sojus-2M in Entwicklung ist."
+          ]
+        }
+      ],
+      "judgement": {
+        "decided_by": "llm_judge",
+        "jev_p": {
+          "aussage_0": 0.99,
+          "aussage_1": 0.95,
+          "aussage_2": 0.99,
+          "aussage_3": 0.98,
+          "aussage_4": 0.99,
+          "aussage_5": 0.98,
+          "vollstaendig": 0.84
+        },
+        "jev_error": null,
+        "reason": "Alle Aussagen folgen aus den Fakt-Sätzen: über 1000 Einsätze und meistgenutzte Rakete (0001), kommerziell erfolgreichste bis 2016 (0007), einzige aktive russische Trägerrakete für bemannten Flug (0008, \"Russischen Föderation\" = Russland), Fehlstart 2018 mit Rettung der Besatzung (0120), Fregat rettet Mission nach zu frühem Abschalten der dritten Stufe (0100) und Sojus-2M als Reaktion auf den Preisdruck durch SpaceX (0166 mit Kontext zur Sojus-2M). Der Gegenstand ist überall die Sojus bzw. ihre Variante; der Hinweis \"Dann fasse ich zusammen\" ist eine Überleitung. Keine Frage und keine zusätzliche Angabe."
+      },
+      "label": null,
+      "note": null,
+      "comment_id": null
+    }
+  ],
+  "comments": []
+}

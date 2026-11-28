@@ -1,0 +1,130 @@
+{
+  "title": "Kasachensteppe",
+  "revid": 267617422,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-06-02T12:46:15Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:Eurasische Steppe",
+    "Kategorie:Geographie (Kasachstan)",
+    "Kategorie:Landschaft in Asien",
+    "Kategorie:Steppe",
+    "Kategorie:Wikipedia:Belege fehlen",
+    "Kategorie:Zentralasien"
+  ],
+  "intro_wikitext": "{{Belege fehlen}}\n[[Datei:AltynEmeil.jpg|mini|Steppe in Ost-Kasachstan]]\nDie '''Kasachensteppe''' (auch: ''Kasachische Steppe'', früher: ''Kirgisensteppe'', {{kkS-Cyrl|Қазақ даласы|Qasaq dalasy}} oder {{lang|kk|Ұлы дала|Ūly dala}}) ist eine im westlichen Teil [[Zentralasien]]s gelegene Großlandschaft (zwischen [[Wolgograd]] im Westen, [[Qaraghandy]] im Osten, [[Ural]] im Norden sowie [[Kaspisches Meer|Kaspischem Meer]] und [[Aralsee]] im Süden). Sie erstreckt sich über eine Fläche von etwa 1.750.000&nbsp;km<sup>2</sup> und ist durch ein trockenes und stark [[Kontinentalklima|kontinentales Klima]] geprägt. Im Norden wird die Kasachensteppe durch die [[Kasachische Schwelle]] begrenzt, im Westen reicht sie bis an die Grenze Europas und geht dort in die [[Kaspische Senke]] über. Im Südosten wird die überwiegend ebene Steppe durch die Hochgebirge Zentralasiens begrenzt. Die Kasachensteppe gilt als größte [[Steppe|Trockensteppe]] der Welt. Allerdings ist die Großlandschaft Kasachensteppe nicht überall Steppe im eigentlichen Sinn, sondern besteht zum Teil auch aus [[Wüste]] beziehungsweise [[Wüste#Halbwüste|Halbwüste]].\n\nWährend der [[Große Umgestaltung der Natur]] wurde von der [[Sowjetunion|sowjetischen]] Politik versucht, die landwirtschaftlich nutzbaren Fläche in der Kasachensteppe deutlich auszubauen.\n\n[[Kategorie:Geographie (Kasachstan)]]\n[[Kategorie:Steppe]]\n[[Kategorie:Landschaft in Asien]]\n[[Kategorie:Eurasische Steppe]]\n[[Kategorie:Zentralasien]]",
+  "segments": [
+    {
+      "id": "267617422-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Kasachensteppe''' (auch: ''Kasachische Steppe'', früher: ''Kirgisensteppe'', {{kkS-Cyrl|Қазақ даласы|Qasaq dalasy}} oder {{lang|kk|Ұлы дала|Ūly dala}}) ist eine im westlichen Teil [[Zentralasien]]s gelegene Großlandschaft (zwischen [[Wolgograd]] im Westen, [[Qaraghandy]] im Osten, [[Ural]] im Norden sowie [[Kaspisches Meer|Kaspischem Meer]] und [[Aralsee]] im Süden).",
+      "plain": null
+    },
+    {
+      "id": "267617422-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie erstreckt sich über eine Fläche von etwa 1.750.000&nbsp;km<sup>2</sup> und ist durch ein trockenes und stark [[Kontinentalklima|kontinentales Klima]] geprägt.",
+      "plain": null
+    },
+    {
+      "id": "267617422-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Norden wird die Kasachensteppe durch die [[Kasachische Schwelle]] begrenzt, im Westen reicht sie bis an die Grenze Europas und geht dort in die [[Kaspische Senke]] über.",
+      "plain": null
+    },
+    {
+      "id": "267617422-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Im Südosten wird die überwiegend ebene Steppe durch die Hochgebirge Zentralasiens begrenzt.",
+      "plain": null
+    },
+    {
+      "id": "267617422-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Kasachensteppe gilt als größte [[Steppe|Trockensteppe]] der Welt.",
+      "plain": null
+    },
+    {
+      "id": "267617422-0005",
+      "type": "sentence",
+      "section": "",
+      "raw": "Allerdings ist die Großlandschaft Kasachensteppe nicht überall Steppe im eigentlichen Sinn, sondern besteht zum Teil auch aus [[Wüste]] beziehungsweise [[Wüste#Halbwüste|Halbwüste]].",
+      "plain": null
+    },
+    {
+      "id": "267617422-0006",
+      "type": "sentence",
+      "section": "",
+      "raw": "Während der [[Große Umgestaltung der Natur]] wurde von der [[Sowjetunion|sowjetischen]] Politik versucht, die landwirtschaftlich nutzbaren Fläche in der Kasachensteppe deutlich auszubauen.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 267617422,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "267617422-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Kasachensteppe (auch: Kasachische Steppe, früher: Kirgisensteppe, kasachisch Қазақ даласы Qasaq dalasy oder Ұлы дала Ūly dala) ist eine im westlichen Teil Zentralasiens gelegene Großlandschaft (zwischen Wolgograd im Westen, Qaraghandy im Osten, Ural im Norden sowie Kaspischem Meer und Aralsee im Süden).",
+        "context_plain": []
+      },
+      {
+        "segment_id": "267617422-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "267617422-0000"
+        ],
+        "plain": "Sie erstreckt sich über eine Fläche von etwa 1.750.000 km2 und ist durch ein trockenes und stark kontinentales Klima geprägt.",
+        "context_plain": [
+          "Die Kasachensteppe (auch: Kasachische Steppe, früher: Kirgisensteppe, kasachisch Қазақ даласы Qasaq dalasy oder Ұлы дала Ūly dala) ist eine im westlichen Teil Zentralasiens gelegene Großlandschaft (zwischen Wolgograd im Westen, Qaraghandy im Osten, Ural im Norden sowie Kaspischem Meer und Aralsee im Süden)."
+        ]
+      },
+      {
+        "segment_id": "267617422-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Im Norden wird die Kasachensteppe durch die Kasachische Schwelle begrenzt, im Westen reicht sie bis an die Grenze Europas und geht dort in die Kaspische Senke über.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "267617422-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Kasachensteppe gilt als größte Trockensteppe der Welt.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "267617422-0005",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "267617422-0004"
+        ],
+        "plain": "Allerdings ist die Großlandschaft Kasachensteppe nicht überall Steppe im eigentlichen Sinn, sondern besteht zum Teil auch aus Wüste beziehungsweise Halbwüste.",
+        "context_plain": [
+          "Die Kasachensteppe gilt als größte Trockensteppe der Welt."
+        ]
+      },
+      {
+        "segment_id": "267617422-0006",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Während der Große Umgestaltung der Natur wurde von der sowjetischen Politik versucht, die landwirtschaftlich nutzbaren Fläche in der Kasachensteppe deutlich auszubauen.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

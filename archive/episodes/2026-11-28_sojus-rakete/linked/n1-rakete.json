@@ -1,0 +1,37 @@
+{
+  "title": "N1 (Rakete)",
+  "revid": 265139091,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-03-11T19:54:15Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:Raketentyp (Raumfahrt)",
+    "Kategorie:Raumfahrt (Sowjetunion)",
+    "Kategorie:Wikipedia:Vorlagenfehler/Vorlage:Cite web/temporär"
+  ],
+  "intro_wikitext": "{{Infobox Rakete\n| name               = N1\n| bild               = N1 1M1 mockup on the launch pad at the Baikonur Cosmodrome in late 1967.jpg\n| bildgrösse         = 175px\n| bildbeschreibung   = N1-[[Mock-Up]] für Startrampentests\n| typ                = schwere [[Trägerrakete]]\n| land               = [[Sowjetunion]]\n| betreiber          = \n| hersteller         = [[RKK Energija|OKB-1]]<ref>{{Astronautix|n1|N1|abruf=2018-08-02}}</ref>\n| höhe               = 105,3 m\n| durchmesser        = 22,4 m\n| masse              = 2825 t\n| anzahl_stufen      = 5\n| stufe1             = '''Block A'''\n| stufentriebwerk1   = NK-15, 30 Stück\n| stufentreibstoff1  = [[RP-1]] und [[Flüssigsauerstoff|LOX]]\n| brenndauer1        = 125 s\n| stufe2             = '''Block B'''\n| stufentriebwerk2   = NK-15V, 8 Stück\n| stufentreibstoff2  = RP-1 und LOX\n| brenndauer2        = 120 s\n| stufe3             = '''Block V'''\n| stufentriebwerk3   = NK-21, 4 Stück\n| stufentreibstoff3  = RP-1 und LOX\n| brenndauer3        = 330 s\n| stufe4             = '''Block G'''\n| stufentriebwerk4   = NK-19\n| stufentreibstoff4  = RP-1 und LOX\n| brenndauer4        = 470 s\n| stufe5             = '''Block D'''\n| stufentriebwerk5   = RD-58\n| stufentreibstoff5  = RP-1 und LOX\n| brenndauer5        = 600 s<ref>{{Literatur |Autor=Eugen Reichl |Titel=Typenkompass Trägerraketen |Auflage=1 |Verlag=Motorbuch Verlag |Ort=Stuttgart |Datum=2011 |ISBN=978-3-613-03269-9 |Seiten=44}}</ref>\n| startanzahl        = 4\n| status             = inaktiv\n| erststart          = 21. Februar 1969\n| letzter_start      = 23. November 1972\n| erfolge            = 0\n| fehlschläge        = 4\n| startplatz         = [[Kosmodrom Baikonur#Startplatzübersicht|Baikonur 110]]\n| kapazität_leo      = 95.000 kg\n| kapazität_mond     = 23.500 kg<ref>{{Internetquelle |autor=Anatoly Zak |url=https://www.russianspaceweb.com/n1.html |titel=The N1 Moon Rocket |werk=Space launch vehicles |hrsg=Russian Space Web |sprache=en |datum=2026-01-22 |abruf=2026-03-11}}</ref>\n}}\n\nDie '''Nositel 1''', kurz '''N1''' ([[GRAU-Index]] 11A52), war eine [[Trägerrakete]], die im Rahmen des [[Sowjetisches bemanntes Mondprogramm|sowjetischen bemannten Mondprogramms]] entwickelt wurde.",
+  "segments": [
+    {
+      "id": "265139091-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Nositel 1''', kurz '''N1''' ([[GRAU-Index]] 11A52), war eine [[Trägerrakete]], die im Rahmen des [[Sowjetisches bemanntes Mondprogramm|sowjetischen bemannten Mondprogramms]] entwickelt wurde.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 265139091,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "265139091-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Nositel 1, kurz N1 (GRAU-Index 11A52), war eine Trägerrakete, die im Rahmen des sowjetischen bemannten Mondprogramms entwickelt wurde.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

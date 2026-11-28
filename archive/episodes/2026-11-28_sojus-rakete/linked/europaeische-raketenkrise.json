@@ -1,0 +1,58 @@
+{
+  "title": "Europäische Raketenkrise",
+  "revid": 267930390,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-06-14T11:11:42Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:2020er",
+    "Kategorie:Europäische Raumfahrt",
+    "Kategorie:Geschichte (21. Jahrhundert)",
+    "Kategorie:Geschichte der Raumfahrt",
+    "Kategorie:Verkehrsgeschichte (Europa)"
+  ],
+  "intro_wikitext": "Die '''europäische Raketenkrise''' war eine Phase der europäischen [[Raumfahrt]] in den Jahren 2022 bis 2024, während derer die europäische Raumfahrtindustrie nur wenige – zeitweise gar keine – [[Trägerrakete]]n für den Start von [[Satellit (Raumfahrt)|Satelliten]] und [[Raumsonde]]n bereitstellen konnte. Ursache waren die vorzeitige Außerbetriebnahme der russisch-europäischen Rakete [[Sojus (Rakete)#Sojus-ST|Sojus-ST]] und Verzögerungen bei der Entwicklung und Inbetriebnahme der neuen Raketenmodelle [[Ariane&nbsp;6]] und [[Vega (Rakete)|Vega-C]]. Die [[Europäische Weltraumorganisation|ESA]] war in dieser Zeit gezwungen, Startaufträge für den Raketenbetreiber [[Arianespace]] zu streichen und an den Dienstleister [[SpaceX]] in den USA zu vergeben.<ref name=\"nzz\">''[https://www.nzz.ch/meinung/ariane-6-europas-raumfahrtbranche-muss-sich-neu-erfinden-ld.1838804 Der Erstflug der Ariane 6 beendet die europäische Raketenkrise. Ende gut, alles gut? Wenn es nur so einfach wäre].'' Neue Zürcher Zeitung, 17. Juli 2024.</ref><ref>''[https://www.welt.de/wirtschaft/article248812426/Europa-Ariane-6-Das-Ende-von-Europas-Raketenkrise-naht.html Das Ende von Europas Raketenkrise naht].'' Welt, 4. Dezember 2023.</ref>",
+  "segments": [
+    {
+      "id": "267930390-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''europäische Raketenkrise''' war eine Phase der europäischen [[Raumfahrt]] in den Jahren 2022 bis 2024, während derer die europäische Raumfahrtindustrie nur wenige – zeitweise gar keine – [[Trägerrakete]]n für den Start von [[Satellit (Raumfahrt)|Satelliten]] und [[Raumsonde]]n bereitstellen konnte.",
+      "plain": null
+    },
+    {
+      "id": "267930390-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ursache waren die vorzeitige Außerbetriebnahme der russisch-europäischen Rakete [[Sojus (Rakete)#Sojus-ST|Sojus-ST]] und Verzögerungen bei der Entwicklung und Inbetriebnahme der neuen Raketenmodelle [[Ariane&nbsp;6]] und [[Vega (Rakete)|Vega-C]]. Die [[Europäische Weltraumorganisation|ESA]] war in dieser Zeit gezwungen, Startaufträge für den Raketenbetreiber [[Arianespace]] zu streichen und an den Dienstleister [[SpaceX]] in den USA zu vergeben.<ref name=\"nzz\">''[https://www.nzz.ch/meinung/ariane-6-europas-raumfahrtbranche-muss-sich-neu-erfinden-ld.1838804 Der Erstflug der Ariane 6 beendet die europäische Raketenkrise. Ende gut, alles gut? Wenn es nur so einfach wäre].'' Neue Zürcher Zeitung, 17. Juli 2024.</ref><ref>''[https://www.welt.de/wirtschaft/article248812426/Europa-Ariane-6-Das-Ende-von-Europas-Raketenkrise-naht.html Das Ende von Europas Raketenkrise naht].'' Welt, 4. Dezember 2023.</ref>",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 267930390,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "267930390-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die europäische Raketenkrise war eine Phase der europäischen Raumfahrt in den Jahren 2022 bis 2024, während derer die europäische Raumfahrtindustrie nur wenige – zeitweise gar keine – Trägerraketen für den Start von Satelliten und Raumsonden bereitstellen konnte.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "267930390-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "267930390-0000"
+        ],
+        "plain": "Ursache waren die vorzeitige Außerbetriebnahme der russisch-europäischen Rakete Sojus-ST und Verzögerungen bei der Entwicklung und Inbetriebnahme der neuen Raketenmodelle Ariane 6 und Vega-C. Die ESA war in dieser Zeit gezwungen, Startaufträge für den Raketenbetreiber Arianespace zu streichen und an den Dienstleister SpaceX in den USA zu vergeben.",
+        "context_plain": [
+          "Die europäische Raketenkrise war eine Phase der europäischen Raumfahrt in den Jahren 2022 bis 2024, während derer die europäische Raumfahrtindustrie nur wenige – zeitweise gar keine – Trägerraketen für den Start von Satelliten und Raumsonden bereitstellen konnte."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "title": "MetOp",
+  "revid": 271589407,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-24T12:55:12Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:Deutsche Raumfahrt",
+    "Kategorie:Europäische Weltraumorganisation",
+    "Kategorie:Französische Raumfahrt",
+    "Kategorie:Wettersatellit",
+    "Kategorie:Wikipedia:Veraltet in über fünf Jahren",
+    "Kategorie:Wikipedia:Veraltet nach Dezember 2026"
+  ],
+  "intro_wikitext": "{{Infobox Raumfahrtmission\n|name           = MetOp\n|phase          = \n|status         = aktiv\n|bild           = Metop-254x193.gif\n|bildbreite     = 250px\n|bildunterschrift = MetOp\n|typ            = [[Wettersatellit]]\n|land           = \n|organisation   = Eumetsat\n|nssdc_id       = 2006-044A\n|norad_scn_id   =\n|startdatum     = 19. Oktober 2006\n|startplatz     = [[Kosmodrom Baikonur|Baikonur]]\n|traegerrakete  = Sojus-2-1a/Fregat\n|missionsdauer  = 15 Jahre (Metop-A)\n|enddatum       = \n|landeplatz     =\n|kosys          = Erde\n|bahn_hoehe     = 827 km\n|bahn_umlaufzeit = \n|apogaeum        = \n|perigaeum       = \n|exzentrizitaet  = \n|bahn_neigung    = \n|kosys2          = \n|bahn_hoehe2     = \n|bahn_umlaufzeit2 = \n|objektferne      = \n|objektnaehe      = \n|exzentrizitaet2  = \n|bahn_neigung2    = \n|erste_position    = \n|aktuelle_position =\n|startmasse   = 4100 kg\n|leermasse    = \n|abmessungen  = 17,6 × 6,7 × 5,4 m<br />(H × B × T)\n|volumen      = \n|hersteller   = Astrium\n<!-- Spezifische Raumfahrzeugdaten. -->\n|stabilisation   = \n|energieleistung = 3900 W\n|antriebssystem  = \n|module          = \n|nutzlast        = \n|satellitenbus = \n|instrumente   =\n|transponder   = \n|bandbreite    = \n|eirp          =\n|vorher                = \n|nachher               = [[MetOp-SG]]\n|verlauf=\n{{ZL|Typ=Start|Datum=1998|Text=Programmstart}}\n{{ZL|Typ=Marke|Datum=19. Oktober 2006|Text=Start MetOp-A}}\n{{ZL|Typ=Marke|Datum=17. September 2012|Text=Start MetOp-B}}\n<!-- Usw... -->\n{{ZL|Typ=Weiter}}\n{{ZL|Typ=Pfeil|Datum=2018|Text=Start MetOp-C}}\n}}\n'''MetOp''' ('''''Met'''eorological '''Op'''erational Satellite'') ist eine Serie von drei europäischen [[Wettersatellit]]en mit [[Satellitenorbit#Low Earth Orbit (LEO)|erdnaher polarer Umlaufbahn]]. MetOp wurde vom europäischen Wettersatelliten-Betreiber [[EUMETSAT]] und der europäischen Weltraumagentur [[ESA]] in Zusammenarbeit mit dem Unternehmen [[Astrium]], der französischen Weltraumagentur [[Centre national d’études spatiales|CNES]] und der US-Wetterbehörde [[NOAA]] für das ''EUMETSAT Polar System'' (EPS) entwickelt. Das EPS dient der operationellen Meteorologie und der Klimabeobachtung. Die Satellitenkonstruktion basiert auf einer Version der von Astrium gebauten Polaren Plattform des [[Envisat]] Satelliten.\n\nDurch höhere Auflösung der Bilder, bessere Beobachtung der Polar- und Nordatlantikregion und durch Messung der Temperatur- und Feuchtigkeitsverteilung in bislang unerreichter Genauigkeit trägt MetOp dazu bei, das zuverlässige Vorhersageintervall von drei auf fünf Tage zu verlängern.",
+  "segments": [
+    {
+      "id": "271589407-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | status         = aktiv",
+      "plain": "Infobox Raumfahrtmission – Phase: / Status: aktiv"
+    },
+    {
+      "id": "271589407-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | typ            = [[Wettersatellit]]",
+      "plain": "Infobox Raumfahrtmission – Typ: Wettersatellit"
+    },
+    {
+      "id": "271589407-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | organisation   = Eumetsat",
+      "plain": "Infobox Raumfahrtmission – Organisation: Eumetsat"
+    },
+    {
+      "id": "271589407-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | nssdc_id       = 2006-044A",
+      "plain": "Infobox Raumfahrtmission – COSPAR-Bezeichnung: 2006-044A"
+    },
+    {
+      "id": "271589407-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | startdatum     = 19. Oktober 2006",
+      "plain": "Infobox Raumfahrtmission – Missionsdaten – Startdatum: 19. Oktober 2006"
+    },
+    {
+      "id": "271589407-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | startplatz     = [[Kosmodrom Baikonur|Baikonur]]",
+      "plain": "Infobox Raumfahrtmission – Missionsdaten – Startplatz: Baikonur"
+    },
+    {
+      "id": "271589407-0006",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | traegerrakete  = Sojus-2-1a/Fregat",
+      "plain": "Infobox Raumfahrtmission – Missionsdaten – Trägerrakete: Sojus-2-1a/Fregat"
+    },
+    {
+      "id": "271589407-0007",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | missionsdauer  = 15 Jahre (Metop-A)",
+      "plain": "Infobox Raumfahrtmission – Missionsdaten – Missionsdauer: 15 Jahre (Metop-A)"
+    },
+    {
+      "id": "271589407-0008",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | kosys          = Erde",
+      "plain": "Infobox Raumfahrtmission – Bahndaten – Koordinatenursprung: Erde"
+    },
+    {
+      "id": "271589407-0009",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | bahn_hoehe     = 827 km",
+      "plain": "Infobox Raumfahrtmission – Bahndaten – Bahnhöhe: 827 km"
+    },
+    {
+      "id": "271589407-0010",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | startmasse   = 4100 kg",
+      "plain": "Infobox Raumfahrtmission – Allgemeine Raumfahrzeugdaten – Startmasse: 4100 kg"
+    },
+    {
+      "id": "271589407-0011",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | abmessungen  = 17,6 × 6,7 × 5,4 m<br />(H × B × T)",
+      "plain": "Infobox Raumfahrtmission – Allgemeine Raumfahrzeugdaten – Abmessungen: 17,6 × 6,7 × 5,4 m (H × B × T)"
+    },
+    {
+      "id": "271589407-0012",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | hersteller   = Astrium\n<!-- Spezifische Raumfahrzeugdaten. -->",
+      "plain": "Infobox Raumfahrtmission – Allgemeine Raumfahrzeugdaten – Hersteller: Astrium"
+    },
+    {
+      "id": "271589407-0013",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | energieleistung = 3900 W",
+      "plain": "Infobox Raumfahrtmission – Spezifische Raumfahrzeugdaten – Elektrische Leistung: 3900 W"
+    },
+    {
+      "id": "271589407-0014",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | nachher               = [[MetOp-SG]]",
+      "plain": "Infobox Raumfahrtmission – Sonstiges – Nachfolgende Mission: MetOp-SG"
+    },
+    {
+      "id": "271589407-0015",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''MetOp''' ('''''Met'''eorological '''Op'''erational Satellite'') ist eine Serie von drei europäischen [[Wettersatellit]]en mit [[Satellitenorbit#Low Earth Orbit (LEO)|erdnaher polarer Umlaufbahn]].",
+      "plain": null
+    },
+    {
+      "id": "271589407-0016",
+      "type": "sentence",
+      "section": "",
+      "raw": "MetOp wurde vom europäischen Wettersatelliten-Betreiber [[EUMETSAT]] und der europäischen Weltraumagentur [[ESA]] in Zusammenarbeit mit dem Unternehmen [[Astrium]], der französischen Weltraumagentur [[Centre national d’études spatiales|CNES]] und der US-Wetterbehörde [[NOAA]] für das ''EUMETSAT Polar System'' (EPS) entwickelt.",
+      "plain": null
+    },
+    {
+      "id": "271589407-0017",
+      "type": "sentence",
+      "section": "",
+      "raw": "Das EPS dient der operationellen Meteorologie und der Klimabeobachtung.",
+      "plain": null
+    },
+    {
+      "id": "271589407-0018",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Satellitenkonstruktion basiert auf einer Version der von Astrium gebauten Polaren Plattform des [[Envisat]] Satelliten.",
+      "plain": null
+    },
+    {
+      "id": "271589407-0019",
+      "type": "sentence",
+      "section": "",
+      "raw": "Durch höhere Auflösung der Bilder, bessere Beobachtung der Polar- und Nordatlantikregion und durch Messung der Temperatur- und Feuchtigkeitsverteilung in bislang unerreichter Genauigkeit trägt MetOp dazu bei, das zuverlässige Vorhersageintervall von drei auf fünf Tage zu verlängern.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271589407,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271589407-0015",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "MetOp (Meteorological Operational Satellite) ist eine Serie von drei europäischen Wettersatelliten mit erdnaher polarer Umlaufbahn.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271589407-0016",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271589407-0015"
+        ],
+        "plain": "MetOp wurde vom europäischen Wettersatelliten-Betreiber EUMETSAT und der europäischen Weltraumagentur ESA in Zusammenarbeit mit dem Unternehmen Astrium, der französischen Weltraumagentur CNES und der US-Wetterbehörde NOAA für das EUMETSAT Polar System (EPS) entwickelt.",
+        "context_plain": [
+          "MetOp (Meteorological Operational Satellite) ist eine Serie von drei europäischen Wettersatelliten mit erdnaher polarer Umlaufbahn."
+        ]
+      },
+      {
+        "segment_id": "271589407-0018",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Satellitenkonstruktion basiert auf einer Version der von Astrium gebauten Polaren Plattform des Envisat Satelliten.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271589407-0019",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Durch höhere Auflösung der Bilder, bessere Beobachtung der Polar- und Nordatlantikregion und durch Messung der Temperatur- und Feuchtigkeitsverteilung in bislang unerreichter Genauigkeit trägt MetOp dazu bei, das zuverlässige Vorhersageintervall von drei auf fünf Tage zu verlängern.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271589407-0007",
+        "type": "infobox_row",
+        "section": "",
+        "context_ids": [],
+        "plain": "Infobox Raumfahrtmission – Missionsdaten – Missionsdauer: 15 Jahre (Metop-A)",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271589407-0009",
+        "type": "infobox_row",
+        "section": "",
+        "context_ids": [],
+        "plain": "Infobox Raumfahrtmission – Bahndaten – Bahnhöhe: 827 km",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271589407-0010",
+        "type": "infobox_row",
+        "section": "",
+        "context_ids": [],
+        "plain": "Infobox Raumfahrtmission – Allgemeine Raumfahrzeugdaten – Startmasse: 4100 kg",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271589407-0013",
+        "type": "infobox_row",
+        "section": "",
+        "context_ids": [],
+        "plain": "Infobox Raumfahrtmission – Spezifische Raumfahrzeugdaten – Elektrische Leistung: 3900 W",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

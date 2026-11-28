@@ -1,0 +1,54 @@
+{
+  "title": "Vernierdüse",
+  "revid": 266787590,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-05-04T15:06:30Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:Raketentechnik"
+  ],
+  "intro_wikitext": "[[Datei:Vernier Europa.jpg|miniatur|Verniertriebwerk der dritten Stufe einer Rakete vom Typ Europa]]\n'''Vernierdüsen''' oder '''Verniertriebwerke''' dienen der [[Schubvektorsteuerung]] von Raketen, dies bedeutet, dass mit ihnen die Flugrichtung einer Rakete beeinflusst werden kann. Sie sind nach dem Mathematiker [[Pierre Vernier (Mathematiker)|Pierre Vernier]] (1580–1637) benannt, der die [[Nonius|Vernier-Skala (Nonius)]] erfand, mit der Längen und Winkel sehr genau abgelesen werden können.",
+  "segments": [
+    {
+      "id": "266787590-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Vernierdüsen''' oder '''Verniertriebwerke''' dienen der [[Schubvektorsteuerung]] von Raketen, dies bedeutet, dass mit ihnen die Flugrichtung einer Rakete beeinflusst werden kann.",
+      "plain": null
+    },
+    {
+      "id": "266787590-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sie sind nach dem Mathematiker [[Pierre Vernier (Mathematiker)|Pierre Vernier]] (1580–1637) benannt, der die [[Nonius|Vernier-Skala (Nonius)]] erfand, mit der Längen und Winkel sehr genau abgelesen werden können.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 266787590,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "266787590-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Vernierdüsen oder Verniertriebwerke dienen der Schubvektorsteuerung von Raketen, dies bedeutet, dass mit ihnen die Flugrichtung einer Rakete beeinflusst werden kann.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "266787590-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "266787590-0000"
+        ],
+        "plain": "Sie sind nach dem Mathematiker Pierre Vernier (1580–1637) benannt, der die Vernier-Skala (Nonius) erfand, mit der Längen und Winkel sehr genau abgelesen werden können.",
+        "context_plain": [
+          "Vernierdüsen oder Verniertriebwerke dienen der Schubvektorsteuerung von Raketen, dies bedeutet, dass mit ihnen die Flugrichtung einer Rakete beeinflusst werden kann."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}

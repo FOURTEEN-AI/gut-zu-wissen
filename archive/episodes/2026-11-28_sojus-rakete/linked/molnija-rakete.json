@@ -1,0 +1,37 @@
+{
+  "title": "Molnija (Rakete)",
+  "revid": 267496008,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-05-30T02:49:15Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:Raketentyp (Raumfahrt)",
+    "Kategorie:Raumfahrt (Russland)",
+    "Kategorie:Raumfahrt (Sowjetunion)"
+  ],
+  "intro_wikitext": "[[Datei:Molniya-8K78M.svg|mini|hochkant=0.6|Molnija-8K78M]]\n[[Datei:Molniya launch vehicle - panoramio.jpg|mini|300x300px|Eine Molnija-[[Trägerrakete]] auf dem Weg zur Startrampe]]\nDie '''Molnija''' ([[Russische Sprache|russisch]] {{lang|ru|Молния}} für Blitz, englisch ''Molniya'') war eine vierstufige, [[Sowjetunion|sowjetische]] beziehungsweise [[Russland|russische]] Rakete, die speziell zum Starten von hochfliegenden Satelliten und interplanetaren Raumsonden ausgelegt ist.",
+  "segments": [
+    {
+      "id": "267496008-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die '''Molnija''' ([[Russische Sprache|russisch]] {{lang|ru|Молния}} für Blitz, englisch ''Molniya'') war eine vierstufige, [[Sowjetunion|sowjetische]] beziehungsweise [[Russland|russische]] Rakete, die speziell zum Starten von hochfliegenden Satelliten und interplanetaren Raumsonden ausgelegt ist.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 267496008,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "267496008-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die Molnija (russisch Молния für Blitz, englisch Molniya) war eine vierstufige, sowjetische beziehungsweise russische Rakete, die speziell zum Starten von hochfliegenden Satelliten und interplanetaren Raumsonden ausgelegt ist.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

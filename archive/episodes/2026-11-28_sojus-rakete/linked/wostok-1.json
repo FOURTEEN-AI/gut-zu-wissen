@@ -1,0 +1,243 @@
+{
+  "title": "Wostok 1",
+  "revid": 271282054,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-12T17:37:16Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:Raumfahrtmission 1961",
+    "Kategorie:Wikipedia:Lesenswert",
+    "Kategorie:Wostok-Mission",
+    "Kategorie:Wostok 1"
+  ],
+  "intro_wikitext": "{{Infobox bemannte Raumfahrtmission\n| emblem               = \n| emblem_grösse        = 100px\n| emblem_beschreibung  = Emblem der Mission Wostok 1\n| name                 = Wostok 1\n| nssdc_id             = 1961-012A\n| raumschiff           = [[Wostok (Raumschiff)|Wostok]]\n| masse                = 4730 kg\n| rufzeichen           = {{lang|ru|Кедр}} (''Kedr,'' für [[Sibirische Zirbelkiefer|(sibirische)&nbsp;„Zeder“]])\n| crew_anzahl          = 1\n| start                = 12. April 1961, 06:07&nbsp;UT\n| startplatz           = [[Kosmodrom Baikonur|Baikonur]] 1/5<br />({{Coordinate|NS=45/55/13.00/N|EW=63/20/32.00/E|type=building|region=KZ-43|text=DMS|name=Gagarins Start}})\n| landung              = 12. April 1961, 07:55&nbsp;UT\n| landeplatz           = {{nowrap|26 km SW von [[Engels (Stadt)|Engels]]}}<br />({{Coordinate|NS=51/16/49.38/N|EW=45/58/36.26/E|type=landmark|region=RU-SAR|text=DMS|name=Landeplatz Wostok 1}})\n| dauer                = 1 h 48 min\n| orbits               = 1\n| apogäum              = 315 km\n| perigäum             = 169 km\n| bahn_umlaufzeit      = 89,34 min\n| bahn_neigung         = 64,95°\n| strecke              = ca. 41.000 km\n| vorher_unbemannt     = [[Sputnik#Sputnik 10|Korabl-Sputnik 5]]\n| nachher_bemannt      = [[Wostok 2]]\n}}\n\n'''Wostok 1''' ({{ruS|Восток-1}} für ''Osten-1'') war der erste bemannte [[Bemannte Raumfahrt|Weltraumflug]] und zugleich der erste bemannte [[Orbitalflug]]. Mit dem sowjetischen [[Raumfahrer|Kosmonauten]] [[Juri Alexejewitsch Gagarin|Juri Gagarin]] gelangte am 12. April 1961 erstmals ein Mensch über die international anerkannte [[Kármán-Linie|Grenzhöhe]] von 100 Kilometern. Gagarin startete an Bord eines [[Wostok (Raumschiff)|Wostok-Raumschiffs]] vom Weltraumbahnhof Tjuratam (dem heutigen [[Kosmodrom Baikonur]]) aus und landete nach einer vollständigen Erdumkreisung in der Nähe der südwestrussischen Stadt [[Engels (Stadt)|Engels]]. Der Flug zählt zu den größten Erfolgen des [[Sowjetische Raumfahrt|sowjetischen Raumfahrtprogramms]] und gilt als Meilenstein des [[Wettlauf ins All|Wettlaufs ins All]] zwischen der UdSSR und den [[Vereinigte Staaten|Vereinigten Staaten]]. Der erste bemannte Orbitalflug der USA, [[Mercury-Atlas 6]], erfolgte zehn Monate später, im Februar 1962.\n\nDie offizielle sowjetische Bezeichnung für die Mission lautete ''Wostok'' (ohne den Zusatz der Zahl ''1''); um Verwechslungen zu vermeiden, wird der Flug international jedoch meistens als ''Wostok 1'' bezeichnet.",
+  "segments": [
+    {
+      "id": "271282054-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | name                 = Wostok 1",
+      "plain": "Infobox bemannte Raumfahrtmission – Mission: Wostok 1"
+    },
+    {
+      "id": "271282054-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | nssdc_id             = 1961-012A",
+      "plain": "Infobox bemannte Raumfahrtmission – NSSDCA ID: 1961-012A"
+    },
+    {
+      "id": "271282054-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | raumschiff           = [[Wostok (Raumschiff)|Wostok]]",
+      "plain": "Infobox bemannte Raumfahrtmission – Raumfahrzeug: Wostok"
+    },
+    {
+      "id": "271282054-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | rufzeichen           = {{lang|ru|Кедр}} (''Kedr,'' für [[Sibirische Zirbelkiefer|(sibirische)&nbsp;„Zeder“]])",
+      "plain": "Infobox bemannte Raumfahrtmission – Rufzeichen: Кедр (Kedr, für (sibirische) „Zeder“)"
+    },
+    {
+      "id": "271282054-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | masse                = 4730 kg",
+      "plain": "Infobox bemannte Raumfahrtmission – Masse: 4730 kg"
+    },
+    {
+      "id": "271282054-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | crew_anzahl          = 1",
+      "plain": "Infobox bemannte Raumfahrtmission – Besatzung: 1"
+    },
+    {
+      "id": "271282054-0006",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | start                = 12. April 1961, 06:07&nbsp;UT",
+      "plain": "Infobox bemannte Raumfahrtmission – Start: 12. April 1961, 06:07 UT"
+    },
+    {
+      "id": "271282054-0007",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | startplatz           = [[Kosmodrom Baikonur|Baikonur]] 1/5<br />({{Coordinate|NS=45/55/13.00/N|EW=63/20/32.00/E|type=building|region=KZ-43|text=DMS|name=Gagarins Start}})",
+      "plain": "Infobox bemannte Raumfahrtmission – Startplatz: Baikonur 1/5 (45° 55′ 13″ N, 63° 20′ 32″ O)"
+    },
+    {
+      "id": "271282054-0008",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | landung              = 12. April 1961, 07:55&nbsp;UT",
+      "plain": "Infobox bemannte Raumfahrtmission – Landung: 12. April 1961, 07:55 UT"
+    },
+    {
+      "id": "271282054-0009",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | landeplatz           = {{nowrap|26 km SW von [[Engels (Stadt)|Engels]]}}<br />({{Coordinate|NS=51/16/49.38/N|EW=45/58/36.26/E|type=landmark|region=RU-SAR|text=DMS|name=Landeplatz Wostok 1}})",
+      "plain": "Infobox bemannte Raumfahrtmission – Landeplatz: 26 km SW von Engels (51° 16′ 49,4″ N, 45° 58′ 36,3″ O)"
+    },
+    {
+      "id": "271282054-0010",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | dauer                = 1 h 48 min",
+      "plain": "Infobox bemannte Raumfahrtmission – Flugdauer: 1 h 48 min"
+    },
+    {
+      "id": "271282054-0011",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | orbits               = 1",
+      "plain": "Infobox bemannte Raumfahrtmission – Erdumkreisungen: 1"
+    },
+    {
+      "id": "271282054-0012",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | bahn_umlaufzeit      = 89,34 min",
+      "plain": "Infobox bemannte Raumfahrtmission – Umlaufzeit: 89,34 min"
+    },
+    {
+      "id": "271282054-0013",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | bahn_neigung         = 64,95°",
+      "plain": "Infobox bemannte Raumfahrtmission – Bahnneigung: 64,95°"
+    },
+    {
+      "id": "271282054-0014",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | apogäum              = 315 km",
+      "plain": "Infobox bemannte Raumfahrtmission – Apogäum: 315 km"
+    },
+    {
+      "id": "271282054-0015",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | perigäum             = 169 km",
+      "plain": "Infobox bemannte Raumfahrtmission – Perigäum: 169 km"
+    },
+    {
+      "id": "271282054-0016",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | strecke              = ca. 41.000 km",
+      "plain": "Infobox bemannte Raumfahrtmission – Zurückgelegte Strecke: ca. 41.000 km"
+    },
+    {
+      "id": "271282054-0017",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox bemannte Raumfahrtmission | vorher_unbemannt     = [[Sputnik#Sputnik 10|Korabl-Sputnik 5]] | nachher_bemannt      = [[Wostok 2]]",
+      "plain": "Infobox bemannte Raumfahrtmission – Korabl-Sputnik 5 (unbemannt) Wostok 2 (bemannt): Korabl-Sputnik 5 (unbemannt) / Wostok 2 (bemannt)"
+    },
+    {
+      "id": "271282054-0018",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Wostok 1''' ({{ruS|Восток-1}} für ''Osten-1'') war der erste bemannte [[Bemannte Raumfahrt|Weltraumflug]] und zugleich der erste bemannte [[Orbitalflug]].",
+      "plain": null
+    },
+    {
+      "id": "271282054-0019",
+      "type": "sentence",
+      "section": "",
+      "raw": "Mit dem sowjetischen [[Raumfahrer|Kosmonauten]] [[Juri Alexejewitsch Gagarin|Juri Gagarin]] gelangte am 12. April 1961 erstmals ein Mensch über die international anerkannte [[Kármán-Linie|Grenzhöhe]] von 100 Kilometern.",
+      "plain": null
+    },
+    {
+      "id": "271282054-0020",
+      "type": "sentence",
+      "section": "",
+      "raw": "Gagarin startete an Bord eines [[Wostok (Raumschiff)|Wostok-Raumschiffs]] vom Weltraumbahnhof Tjuratam (dem heutigen [[Kosmodrom Baikonur]]) aus und landete nach einer vollständigen Erdumkreisung in der Nähe der südwestrussischen Stadt [[Engels (Stadt)|Engels]].",
+      "plain": null
+    },
+    {
+      "id": "271282054-0021",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der Flug zählt zu den größten Erfolgen des [[Sowjetische Raumfahrt|sowjetischen Raumfahrtprogramms]] und gilt als Meilenstein des [[Wettlauf ins All|Wettlaufs ins All]] zwischen der UdSSR und den [[Vereinigte Staaten|Vereinigten Staaten]].",
+      "plain": null
+    },
+    {
+      "id": "271282054-0022",
+      "type": "sentence",
+      "section": "",
+      "raw": "Der erste bemannte Orbitalflug der USA, [[Mercury-Atlas 6]], erfolgte zehn Monate später, im Februar 1962.",
+      "plain": null
+    },
+    {
+      "id": "271282054-0023",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die offizielle sowjetische Bezeichnung für die Mission lautete ''Wostok'' (ohne den Zusatz der Zahl ''1''); um Verwechslungen zu vermeiden, wird der Flug international jedoch meistens als ''Wostok 1'' bezeichnet.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 271282054,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "271282054-0018",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Wostok 1 (russisch Восток-1 für Osten-1) war der erste bemannte Weltraumflug und zugleich der erste bemannte Orbitalflug.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271282054-0019",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Mit dem sowjetischen Kosmonauten Juri Gagarin gelangte am 12. April 1961 erstmals ein Mensch über die international anerkannte Grenzhöhe von 100 Kilometern.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "271282054-0020",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271282054-0019"
+        ],
+        "plain": "Gagarin startete an Bord eines Wostok-Raumschiffs vom Weltraumbahnhof Tjuratam (dem heutigen Kosmodrom Baikonur) aus und landete nach einer vollständigen Erdumkreisung in der Nähe der südwestrussischen Stadt Engels.",
+        "context_plain": [
+          "Mit dem sowjetischen Kosmonauten Juri Gagarin gelangte am 12. April 1961 erstmals ein Mensch über die international anerkannte Grenzhöhe von 100 Kilometern."
+        ]
+      },
+      {
+        "segment_id": "271282054-0022",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "271282054-0019",
+          "271282054-0020",
+          "271282054-0021"
+        ],
+        "plain": "Der erste bemannte Orbitalflug der USA, Mercury-Atlas 6, erfolgte zehn Monate später, im Februar 1962.",
+        "context_plain": [
+          "Mit dem sowjetischen Kosmonauten Juri Gagarin gelangte am 12. April 1961 erstmals ein Mensch über die international anerkannte Grenzhöhe von 100 Kilometern.",
+          "Gagarin startete an Bord eines Wostok-Raumschiffs vom Weltraumbahnhof Tjuratam (dem heutigen Kosmodrom Baikonur) aus und landete nach einer vollständigen Erdumkreisung in der Nähe der südwestrussischen Stadt Engels.",
+          "Der Flug zählt zu den größten Erfolgen des sowjetischen Raumfahrtprogramms und gilt als Meilenstein des Wettlaufs ins All zwischen der UdSSR und den Vereinigten Staaten."
+        ]
+      },
+      {
+        "segment_id": "271282054-0023",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Die offizielle sowjetische Bezeichnung für die Mission lautete Wostok (ohne den Zusatz der Zahl 1); um Verwechslungen zu vermeiden, wird der Flug international jedoch meistens als Wostok 1 bezeichnet.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

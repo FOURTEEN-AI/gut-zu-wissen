@@ -1,0 +1,121 @@
+{
+  "title": "Syntin",
+  "revid": 268043609,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-06-19T03:52:59Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:Alkylcyclopropan",
+    "Kategorie:Cyclopropan",
+    "Kategorie:Kraftstoff",
+    "Kategorie:Polycyclischer aliphatischer Kohlenwasserstoff",
+    "Kategorie:Wikipedia:Keine GHS-Gefahrstoffkennzeichnung verfügbar"
+  ],
+  "intro_wikitext": "{{Infobox Chemikalie\n| Strukturformel  = [[Datei:Syntin Formula V.svg|200px|Struktur von Synthin]]\n| Strukturhinweis = Stereoisomerengemisch ohne Angabe der [[#Stereochemie|Stereochemie]]\n| Andere Namen    = 1′-Methyl-1,1′:2′,1′′-tercyclopropan\n| Summenformel    = C<sub>10</sub>H<sub>16</sub>\n| CAS             = {{CASRN|93223-46-2}}\n| EG-Nummer       = \n| ECHA-ID         = \n| PubChem         = 519050\n| ChemSpider      = 452765\n| Beschreibung    = farblose Flüssigkeit<ref name=\"Mesheheryakov\"/>\n| Molare Masse    = 136,23 g·[[mol]]<sup>−1</sup>\n| Aggregat        = flüssig\n| Dichte          = 0,8504 g·cm<sup>−3</sup><ref name=\"Mesheheryakov\">{{Internetquelle\n |autor=A. P. Mesheheryakov, V. G. Glukhovtsev, A. D.  Petrov\n |url=http://www.mathnet.ru/links/aad75c8a915bf9d604a2a3200dd4cb2c/dan39595.pdf\n |titel=СИНТЕЗ 1-МЕТИЛ-1,2-ДИЦИКЛОПРОПИЛЦИКЛОПРОПАНА\n |titelerg=\"Synthese von 1-Methyl-1,2-Dicyclopropylcyclopropan\"\n |hrsg=Institut für Organische Chemie der Akademie der Wissenschaften der UdSSR. Band 130 (1960)\n |datum=26. September 1959\n |seiten=779–781\n |format=PDF\n |sprache=Ru\n |abruf=2022-07-22\n}}</ref>\n| Schmelzpunkt    = \n| Siedepunkt      = 158 [[Grad Celsius|°C]]<ref name=\"Mesheheryakov\"/>\n| Dampfdruck      = \n| pKs             = \n| Löslichkeit     = \n| Dipolmoment     = \n| Brechungsindex  = \n| Quelle GHS-Kz   = NV<!--basierend auf EU-GefStKz durch Bot ergänzt-->\n| GHS-Piktogramme = {{GHS-Piktogramme|/}}\n| GHS-Signalwort  = \n| H               = {{H-Sätze|/}}\n| EUH             = {{EUH-Sätze|/}}\n| P               = {{P-Sätze|/}}\n| Quelle P        = \n| MAK             = \n}}\n\n'''Syntin''' ist  eine organische Verbindung aus der Gruppe der Kohlenwasserstoffe, der drei hochgespannte [[Cyclopropane|Cyclopropanringe]] enthält. Er wurde als [[Raketentreibstoff]] verwendet.",
+  "segments": [
+    {
+      "id": "268043609-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Chemikalie | Andere Namen    = 1′-Methyl-1,1′:2′,1′′-tercyclopropan",
+      "plain": "Infobox Chemikalie – Allgemeines – Andere Namen: 1′-Methyl-1,1′:2′,1′′-tercyclopropan"
+    },
+    {
+      "id": "268043609-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Chemikalie | Summenformel    = C<sub>10</sub>H<sub>16</sub>",
+      "plain": "Infobox Chemikalie – Allgemeines – Summenformel: C10H16"
+    },
+    {
+      "id": "268043609-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Chemikalie | Beschreibung    = farblose Flüssigkeit<ref name=\"Mesheheryakov\"/>",
+      "plain": "Infobox Chemikalie – Allgemeines – Kurzbeschreibung: farblose Flüssigkeit"
+    },
+    {
+      "id": "268043609-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Chemikalie | CAS             = {{CASRN|93223-46-2}}",
+      "plain": "Infobox Chemikalie – Externe Identifikatoren/Datenbanken – CAS-Nummer: 93223-46-2"
+    },
+    {
+      "id": "268043609-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Chemikalie | PubChem         = 519050",
+      "plain": "Infobox Chemikalie – Externe Identifikatoren/Datenbanken – PubChem: 519050"
+    },
+    {
+      "id": "268043609-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Chemikalie | ChemSpider      = 452765",
+      "plain": "Infobox Chemikalie – Externe Identifikatoren/Datenbanken – ChemSpider: 452765"
+    },
+    {
+      "id": "268043609-0006",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Chemikalie | Molare Masse    = 136,23 g·[[mol]]<sup>−1</sup>",
+      "plain": "Infobox Chemikalie – Eigenschaften – Molare Masse: 136,23 g·mol−1"
+    },
+    {
+      "id": "268043609-0007",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Chemikalie | Aggregat        = flüssig",
+      "plain": "Infobox Chemikalie – Eigenschaften – Aggregatzustand: flüssig"
+    },
+    {
+      "id": "268043609-0008",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Chemikalie | Dichte          = 0,8504 g·cm<sup>−3</sup><ref name=\"Mesheheryakov\">{{Internetquelle\n |autor=A. P. Mesheheryakov, V. G. Glukhovtsev, A. D.  Petrov\n |url=http://www.mathnet.ru/links/aad75c8a915bf9d604a2a3200dd4cb2c/dan39595.pdf\n |titel=СИНТЕЗ 1-МЕТИЛ-1,2-ДИЦИКЛОПРОПИЛЦИКЛОПРОПАНА\n |titelerg=\"Synthese von 1-Methyl-1,2-Dicyclopropylcyclopropan\"\n |hrsg=Institut für Organische Chemie der Akademie der Wissenschaften der UdSSR. Band 130 (1960)\n |datum=26. September 1959\n |seiten=779–781\n |format=PDF\n |sprache=Ru\n |abruf=2022-07-22\n}}</ref>",
+      "plain": "Infobox Chemikalie – Eigenschaften – Dichte: 0,8504 g·cm−3"
+    },
+    {
+      "id": "268043609-0009",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Chemikalie | Siedepunkt      = 158 [[Grad Celsius|°C]]<ref name=\"Mesheheryakov\"/>",
+      "plain": "Infobox Chemikalie – Eigenschaften – Siedepunkt: 158 °C"
+    },
+    {
+      "id": "268043609-0010",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Syntin''' ist  eine organische Verbindung aus der Gruppe der Kohlenwasserstoffe, der drei hochgespannte [[Cyclopropane|Cyclopropanringe]] enthält.",
+      "plain": null
+    },
+    {
+      "id": "268043609-0011",
+      "type": "sentence",
+      "section": "",
+      "raw": "Er wurde als [[Raketentreibstoff]] verwendet.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 268043609,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "268043609-0010",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Syntin ist eine organische Verbindung aus der Gruppe der Kohlenwasserstoffe, der drei hochgespannte Cyclopropanringe enthält.",
+        "context_plain": []
+      }
+    ],
+    "rejected": [
+      {
+        "segment_id": "268043609-0011",
+        "reason": "too_short"
+      }
+    ]
+  }
+}

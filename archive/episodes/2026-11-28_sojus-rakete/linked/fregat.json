@@ -1,0 +1,70 @@
+{
+  "title": "Fregat",
+  "revid": 240156211,
+  "revision_status": "sighted",
+  "revision_timestamp": "2023-12-13T17:23:51Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:Raketenstufe (Raumfahrt)",
+    "Kategorie:Raumfahrt (Russland)"
+  ],
+  "intro_wikitext": "[[Bild:Phobos Grunt base section model.jpg|mini|Fregat-Stufe mit den sphärischen Tanks, hier in der Konfiguration für [[Phobos-Grunt]]]]\n'''Fregat''' ({{RuS|Фрегат}} für [[Fregatte]]) ist eine [[Raketenstufe|Raketenoberstufe]], die vom russischen Unternehmen [[Lawotschkin]] gebaut und gegenwärtig in [[Sojus (Rakete)|Sojus]]-[[Trägerrakete]]n verwendet wird. Die Stufe wird zum Starten von hochfliegenden Satelliten, wie beispielsweise [[geostationärer Satellit|geostationär]]en [[Kommunikationssatellit]]en, und [[Raumsonde]]n verwendet. Fregat kann bis zu 20 Mal wiedergezündet werden und ist somit auch zum Aussetzen von mehreren Satelliten in verschiedenen [[Umlaufbahn]]en geeignet.",
+  "segments": [
+    {
+      "id": "240156211-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Fregat''' ({{RuS|Фрегат}} für [[Fregatte]]) ist eine [[Raketenstufe|Raketenoberstufe]], die vom russischen Unternehmen [[Lawotschkin]] gebaut und gegenwärtig in [[Sojus (Rakete)|Sojus]]-[[Trägerrakete]]n verwendet wird.",
+      "plain": null
+    },
+    {
+      "id": "240156211-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die Stufe wird zum Starten von hochfliegenden Satelliten, wie beispielsweise [[geostationärer Satellit|geostationär]]en [[Kommunikationssatellit]]en, und [[Raumsonde]]n verwendet.",
+      "plain": null
+    },
+    {
+      "id": "240156211-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Fregat kann bis zu 20 Mal wiedergezündet werden und ist somit auch zum Aussetzen von mehreren Satelliten in verschiedenen [[Umlaufbahn]]en geeignet.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 240156211,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "240156211-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Fregat (russisch Фрегат für Fregatte) ist eine Raketenoberstufe, die vom russischen Unternehmen Lawotschkin gebaut und gegenwärtig in Sojus-Trägerraketen verwendet wird.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "240156211-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "240156211-0000"
+        ],
+        "plain": "Die Stufe wird zum Starten von hochfliegenden Satelliten, wie beispielsweise geostationären Kommunikationssatelliten, und Raumsonden verwendet.",
+        "context_plain": [
+          "Fregat (russisch Фрегат für Fregatte) ist eine Raketenoberstufe, die vom russischen Unternehmen Lawotschkin gebaut und gegenwärtig in Sojus-Trägerraketen verwendet wird."
+        ]
+      },
+      {
+        "segment_id": "240156211-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Fregat kann bis zu 20 Mal wiedergezündet werden und ist somit auch zum Aussetzen von mehreren Satelliten in verschiedenen Umlaufbahnen geeignet.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

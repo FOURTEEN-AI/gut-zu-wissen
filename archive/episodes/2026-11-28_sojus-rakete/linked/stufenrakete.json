@@ -1,0 +1,72 @@
+{
+  "title": "Stufenrakete",
+  "revid": 272167383,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-11-14T22:09:34Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:Rakete",
+    "Kategorie:Raketentechnik",
+    "Kategorie:Raumfahrtphysik",
+    "Kategorie:Wikipedia:Artikel mit Video"
+  ],
+  "intro_wikitext": "[[Datei:Black Brant.jpg|mini|Dreistufige [[Höhenforschungsrakete]] [[Black Brant|Black Brant 12]]{{Farblegende|#FFFFFF|1. Stufe}}{{Farblegende|#FF0000|2. Stufe}}{{Farblegende|#000000|3. Stufe}}]]\n[[Datei:F9 Second Stage Separation.jpg|mini|Grafik: Stufentrennung bei der [[Falcon 9]]]]\nEine '''Stufenrakete''' oder '''Mehrstufenrakete''' besteht aus mehreren, oft übereinander montierten [[Raketenstufe]]n abnehmender Größe, bei denen leere Treibstofftanks und nicht mehr benötigte Triebwerke abgeworfen werden, damit diese nicht zusammen mit der Nutzlast weiter beschleunigt werden müssen. Auf diese Weise werden höhere Geschwindigkeiten und somit höhere Umlaufbahnen erreicht als mit einstufigen Raketen. Alle zum Erreichen von [[Satellitenorbit|Erdumlaufbahnen]] eingesetzten Raketen waren und sind mehrstufig<ref>{{Literatur |Autor=[[Eugen Reichl]], Aydoğan Koç |Titel=Raumfahrt-Wissen |Verlag=Motorbuch-Verlag |Ort=Ulm |Datum=2006 |Seiten=37}}</ref>.",
+  "segments": [
+    {
+      "id": "272167383-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "Eine '''Stufenrakete''' oder '''Mehrstufenrakete''' besteht aus mehreren, oft übereinander montierten [[Raketenstufe]]n abnehmender Größe, bei denen leere Treibstofftanks und nicht mehr benötigte Triebwerke abgeworfen werden, damit diese nicht zusammen mit der Nutzlast weiter beschleunigt werden müssen.",
+      "plain": null
+    },
+    {
+      "id": "272167383-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Auf diese Weise werden höhere Geschwindigkeiten und somit höhere Umlaufbahnen erreicht als mit einstufigen Raketen.",
+      "plain": null
+    },
+    {
+      "id": "272167383-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Alle zum Erreichen von [[Satellitenorbit|Erdumlaufbahnen]] eingesetzten Raketen waren und sind mehrstufig<ref>{{Literatur |Autor=[[Eugen Reichl]], Aydoğan Koç |Titel=Raumfahrt-Wissen |Verlag=Motorbuch-Verlag |Ort=Ulm |Datum=2006 |Seiten=37}}</ref>.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 272167383,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "272167383-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Eine Stufenrakete oder Mehrstufenrakete besteht aus mehreren, oft übereinander montierten Raketenstufen abnehmender Größe, bei denen leere Treibstofftanks und nicht mehr benötigte Triebwerke abgeworfen werden, damit diese nicht zusammen mit der Nutzlast weiter beschleunigt werden müssen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "272167383-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "272167383-0000"
+        ],
+        "plain": "Auf diese Weise werden höhere Geschwindigkeiten und somit höhere Umlaufbahnen erreicht als mit einstufigen Raketen.",
+        "context_plain": [
+          "Eine Stufenrakete oder Mehrstufenrakete besteht aus mehreren, oft übereinander montierten Raketenstufen abnehmender Größe, bei denen leere Treibstofftanks und nicht mehr benötigte Triebwerke abgeworfen werden, damit diese nicht zusammen mit der Nutzlast weiter beschleunigt werden müssen."
+        ]
+      },
+      {
+        "segment_id": "272167383-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Alle zum Erreichen von Erdumlaufbahnen eingesetzten Raketen waren und sind mehrstufig.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

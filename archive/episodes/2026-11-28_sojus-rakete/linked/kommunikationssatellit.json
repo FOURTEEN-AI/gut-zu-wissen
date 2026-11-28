@@ -1,0 +1,97 @@
+{
+  "title": "Kommunikationssatellit",
+  "revid": 263316483,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-01-14T04:08:18Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:Kommunikationsgerät",
+    "Kategorie:Kommunikationssatellit",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2026-01"
+  ],
+  "intro_wikitext": "[[Datei:SES-14 with GOLD hosted payload.jpg|miniatur|280px|Künstlerische Darstellung von [[SES-14]], einem klassischen Kommunikationssatelliten]]\n[[Datei:DSCS-3.jpg|mini|Militärischer Nachrichtensatellit des [[Defense Satellite Communications System]]s]]\n[[Datei:TVSatellitesOrbits.png|mini|Wie Nachrichtensatelliten im [[Geostationärer Orbit#Geostationärer Orbit|GEO]] stehen (Die Solarzellpaddel zeigen immer in Nord-Süd-Richtung)]]\n'''Kommunikationssatelliten''' (auch '''Nachrichten- oder Fernmeldesatelliten''') sind unbemannte künstliche [[Satellit (Raumfahrt)|Satelliten]], die die [[Erde]] umkreisen und Informations- bzw. [[Datenübertragung]] in bestimmten Gebieten der Erdoberfläche ermöglichen.\n\nAm häufigsten sind Satelliten im [[Erdnaher Orbit|erdnahen Orbit]], welche vor allem zur Übertragung von Internetdiensten dienen. Ebenfalls weit verbreitet sind Satelliten in [[Geostationäre Bahn|geostationären Bahnen]], die [[Fernsehen|Fernseh-]] und [[Rundfunk]]programmen dienen (''siehe auch [[Fernsehsatellit]]'').<ref name=\":0\">{{Internetquelle |url=https://www.ucsusa.org/resources/satellite-database |titel=Satellite Database |werk=[[Union of Concerned Scientists]] |datum=2021-09-01 |sprache=en |abruf=2021-11-09}}</ref> Weitere Anwendungen sind die [[Satellitenkommunikation]], die digitale Datenübertragung oder großräumiger [[Telefon|Fernsprechverkehr]]. Neben den meist von staatlichen und kommerziellen Trägern unterhaltenen Satelliten gibt es auch [[Amateurfunksatellit]]en.",
+  "segments": [
+    {
+      "id": "263316483-0000",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Kommunikationssatelliten''' (auch '''Nachrichten- oder Fernmeldesatelliten''') sind unbemannte künstliche [[Satellit (Raumfahrt)|Satelliten]], die die [[Erde]] umkreisen und Informations- bzw. [[Datenübertragung]] in bestimmten Gebieten der Erdoberfläche ermöglichen.",
+      "plain": null
+    },
+    {
+      "id": "263316483-0001",
+      "type": "sentence",
+      "section": "",
+      "raw": "Am häufigsten sind Satelliten im [[Erdnaher Orbit|erdnahen Orbit]], welche vor allem zur Übertragung von Internetdiensten dienen.",
+      "plain": null
+    },
+    {
+      "id": "263316483-0002",
+      "type": "sentence",
+      "section": "",
+      "raw": "Ebenfalls weit verbreitet sind Satelliten in [[Geostationäre Bahn|geostationären Bahnen]], die [[Fernsehen|Fernseh-]] und [[Rundfunk]]programmen dienen (''siehe auch [[Fernsehsatellit]]'').<ref name=\":0\">{{Internetquelle |url=https://www.ucsusa.org/resources/satellite-database |titel=Satellite Database |werk=[[Union of Concerned Scientists]] |datum=2021-09-01 |sprache=en |abruf=2021-11-09}}</ref>",
+      "plain": null
+    },
+    {
+      "id": "263316483-0003",
+      "type": "sentence",
+      "section": "",
+      "raw": "Weitere Anwendungen sind die [[Satellitenkommunikation]], die digitale Datenübertragung oder großräumiger [[Telefon|Fernsprechverkehr]].",
+      "plain": null
+    },
+    {
+      "id": "263316483-0004",
+      "type": "sentence",
+      "section": "",
+      "raw": "Neben den meist von staatlichen und kommerziellen Trägern unterhaltenen Satelliten gibt es auch [[Amateurfunksatellit]]en.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 263316483,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "263316483-0000",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Kommunikationssatelliten (auch Nachrichten- oder Fernmeldesatelliten) sind unbemannte künstliche Satelliten, die die Erde umkreisen und Informations- bzw. Datenübertragung in bestimmten Gebieten der Erdoberfläche ermöglichen.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "263316483-0001",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "263316483-0000"
+        ],
+        "plain": "Am häufigsten sind Satelliten im erdnahen Orbit, welche vor allem zur Übertragung von Internetdiensten dienen.",
+        "context_plain": [
+          "Kommunikationssatelliten (auch Nachrichten- oder Fernmeldesatelliten) sind unbemannte künstliche Satelliten, die die Erde umkreisen und Informations- bzw. Datenübertragung in bestimmten Gebieten der Erdoberfläche ermöglichen."
+        ]
+      },
+      {
+        "segment_id": "263316483-0002",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "263316483-0001"
+        ],
+        "plain": "Ebenfalls weit verbreitet sind Satelliten in geostationären Bahnen, die Fernseh- und Rundfunkprogrammen dienen (siehe auch Fernsehsatellit).",
+        "context_plain": [
+          "Am häufigsten sind Satelliten im erdnahen Orbit, welche vor allem zur Übertragung von Internetdiensten dienen."
+        ]
+      },
+      {
+        "segment_id": "263316483-0004",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Neben den meist von staatlichen und kommerziellen Trägern unterhaltenen Satelliten gibt es auch Amateurfunksatelliten.",
+        "context_plain": []
+      }
+    ],
+    "rejected": []
+  }
+}

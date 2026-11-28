@@ -1,0 +1,248 @@
+{
+  "title": "Sputnik 1",
+  "revid": 270950168,
+  "revision_status": "sighted",
+  "revision_timestamp": "2026-10-01T15:34:32Z",
+  "fetched_at": "2026-11-28T11:50:04Z",
+  "categories": [
+    "Kategorie:Forschungssatellit",
+    "Kategorie:Raumfahrt (Sowjetunion)",
+    "Kategorie:Raumfahrtmission 1957",
+    "Kategorie:Wikipedia:Artikel mit Video",
+    "Kategorie:Wikipedia:Defekte Weblinks/Ungeprüfte Archivlinks 2024-05",
+    "Kategorie:Wikipedia:Gesprochener Artikel"
+  ],
+  "intro_wikitext": "{{Infobox Raumfahrtmission\n| name = Sputnik 1\n| phase = F\n| status = verglüht\n| bild = Sputnik asm.jpg\n| bildbreite = 250px\n| bildunterschrift = Bild von Sputnik 1\n| typ = [[Satellit (Raumfahrt)|Demonstrationssatellit]]\n| land = {{URS}}\n| organisation = \n| nssdc_id = 1957-001B\n| norad_scn_id = 2\n| startdatum = {{nowrap|4. Oktober 1957, 19:28:34 [[Koordinierte Weltzeit|UTC]]}}\n| startplatz = [[Kosmodrom Baikonur#Startplatzübersicht|Baikonur Rampe 1]]\n| traegerrakete = [[Sputnik (Rakete)|Sputnik]] (8K71PS)\n| missionsdauer = 92 Tage\n| enddatum = 4. Januar 1958\n| kosys = Erde\n| bahn_umlaufzeit = 96,2 min<ref name=\"nssdc\">{{NSSDCA|1957-001B|zugriff=2012-09-21}}</ref>\n| apogaeum = 939 km\n| perigaeum = 215 km\n| exzentrizitaet = 0,052\n| bahn_neigung = 65,1°\n| startmasse = 83,6 kg\n| abmessungen = Durchmesser: 58 cm\n| volumen = \n| hersteller = [[RKK Energija|NPO Energia]]\n| stabilisation = \n| energieleistung = \n| module = \n| nutzlast = \n| instrumente = \n| transponder = \n| bandbreite = \n| eirp = \n| nachher = [[Sputnik 2]]\n| verlauf = {{ZL|Typ=Start|Datum=04. 10. 1957|Text=Start}}\n{{ZL|Typ=Ende|Datum=04. 01. 1958|Text=Wiedereintritt}}\n}}\n\n[[Datei:Roscosmos First Satellite documentary.ogv|miniatur|Video vom Start des Sputnik 1]]\n'''Sputnik 1''' ({{ruS|Спутник}} für ''Weggefährte'', ''Begleiter'', ''[[Satellit (Astronomie)|Trabant]] (der [[Erde]])'') war der erste [[Satellit (Raumfahrt)|künstliche Erdsatellit]], gestartet am 4.&nbsp;Oktober 1957.<ref>von {{lang|ru|путь}} (''put'') „der Weg“; die Bezeichnung stammt von [[Konstantin Eduardowitsch Ziolkowski]]</ref> Die [[Sternwarte und Planetarium „Sigmund Jähn“ Rodewisch#Beobachtung des „Sputnik 1“|erste Beobachtung]] gelang am 8. Oktober in [[Rodewisch]].<ref name=\":0\" />\n\nSputnik 1 verglühte am 4. Januar 1958, 92 Tage nach dem Start, als er wieder in tiefere Schichten der Erdatmosphäre eintrat.\n\nSatellitenstarts waren sowohl von der [[Sowjetunion]] als auch den [[Vereinigte Staaten|USA]] anlässlich des [[Internationales Geophysikalisches Jahr|Internationalen Geophysikalischen Jahres]] (IGY) 1957–58 angekündigt worden, doch rechnete die westliche Fachwelt erst Mitte 1958 mit der Fertigstellung der sowjetischen Entwicklungen und wurde durch den Start überrascht. Auch in der westlichen Öffentlichkeit löste der Start Besorgnisse aus; diese wurden mit dem Begriff [[Sputnikschock]] benannt.",
+  "segments": [
+    {
+      "id": "270950168-0000",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | phase = F | status = verglüht",
+      "plain": "Infobox Raumfahrtmission – Phase: F / Status: verglüht"
+    },
+    {
+      "id": "270950168-0001",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | typ = [[Satellit (Raumfahrt)|Demonstrationssatellit]]",
+      "plain": "Infobox Raumfahrtmission – Typ: Demonstrationssatellit"
+    },
+    {
+      "id": "270950168-0002",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | land = {{URS}}",
+      "plain": "Infobox Raumfahrtmission – Land: Sowjetunion"
+    },
+    {
+      "id": "270950168-0003",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | nssdc_id = 1957-001B",
+      "plain": "Infobox Raumfahrtmission – COSPAR-Bezeichnung: 1957-001B"
+    },
+    {
+      "id": "270950168-0004",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | norad_scn_id = 2",
+      "plain": "Infobox Raumfahrtmission – NORAD/SCN-ID: 2"
+    },
+    {
+      "id": "270950168-0005",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | startdatum = {{nowrap|4. Oktober 1957, 19:28:34 [[Koordinierte Weltzeit|UTC]]}}",
+      "plain": "Infobox Raumfahrtmission – Missionsdaten – Startdatum: 4. Oktober 1957, 19:28:34 UTC"
+    },
+    {
+      "id": "270950168-0006",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | startplatz = [[Kosmodrom Baikonur#Startplatzübersicht|Baikonur Rampe 1]]",
+      "plain": "Infobox Raumfahrtmission – Missionsdaten – Startplatz: Baikonur Rampe 1"
+    },
+    {
+      "id": "270950168-0007",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | traegerrakete = [[Sputnik (Rakete)|Sputnik]] (8K71PS)",
+      "plain": "Infobox Raumfahrtmission – Missionsdaten – Trägerrakete: Sputnik (8K71PS)"
+    },
+    {
+      "id": "270950168-0008",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | missionsdauer = 92 Tage",
+      "plain": "Infobox Raumfahrtmission – Missionsdaten – Missionsdauer: 92 Tage"
+    },
+    {
+      "id": "270950168-0009",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | enddatum = 4. Januar 1958",
+      "plain": "Infobox Raumfahrtmission – Missionsdaten – Enddatum: 4. Januar 1958"
+    },
+    {
+      "id": "270950168-0010",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | kosys = Erde",
+      "plain": "Infobox Raumfahrtmission – Bahndaten – Koordinatenursprung: Erde"
+    },
+    {
+      "id": "270950168-0011",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | bahn_umlaufzeit = 96,2 min<ref name=\"nssdc\">{{NSSDCA|1957-001B|zugriff=2012-09-21}}</ref>",
+      "plain": "Infobox Raumfahrtmission – Bahndaten – Umlaufzeit: 96,2 min"
+    },
+    {
+      "id": "270950168-0012",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | apogaeum = 939 km",
+      "plain": "Infobox Raumfahrtmission – Bahndaten – Apogäum: 939 km"
+    },
+    {
+      "id": "270950168-0013",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | perigaeum = 215 km",
+      "plain": "Infobox Raumfahrtmission – Bahndaten – Perigäum: 215 km"
+    },
+    {
+      "id": "270950168-0014",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | exzentrizitaet = 0,052",
+      "plain": "Infobox Raumfahrtmission – Bahndaten – Exzentrizität: 0,052"
+    },
+    {
+      "id": "270950168-0015",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | bahn_neigung = 65,1°",
+      "plain": "Infobox Raumfahrtmission – Bahndaten – Bahnneigung: 65,1°"
+    },
+    {
+      "id": "270950168-0016",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | startmasse = 83,6 kg",
+      "plain": "Infobox Raumfahrtmission – Allgemeine Raumfahrzeugdaten – Startmasse: 83,6 kg"
+    },
+    {
+      "id": "270950168-0017",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | abmessungen = Durchmesser: 58 cm",
+      "plain": "Infobox Raumfahrtmission – Allgemeine Raumfahrzeugdaten – Abmessungen: Durchmesser: 58 cm"
+    },
+    {
+      "id": "270950168-0018",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | hersteller = [[RKK Energija|NPO Energia]]",
+      "plain": "Infobox Raumfahrtmission – Allgemeine Raumfahrzeugdaten – Hersteller: NPO Energia"
+    },
+    {
+      "id": "270950168-0019",
+      "type": "infobox_row",
+      "section": "",
+      "raw": "Infobox Raumfahrtmission | nachher = [[Sputnik 2]]",
+      "plain": "Infobox Raumfahrtmission – Sonstiges – Nachfolgende Mission: Sputnik 2"
+    },
+    {
+      "id": "270950168-0020",
+      "type": "sentence",
+      "section": "",
+      "raw": "'''Sputnik 1''' ({{ruS|Спутник}} für ''Weggefährte'', ''Begleiter'', ''[[Satellit (Astronomie)|Trabant]] (der [[Erde]])'') war der erste [[Satellit (Raumfahrt)|künstliche Erdsatellit]], gestartet am 4.&nbsp;Oktober 1957.<ref>von {{lang|ru|путь}} (''put'') „der Weg“; die Bezeichnung stammt von [[Konstantin Eduardowitsch Ziolkowski]]</ref>",
+      "plain": null
+    },
+    {
+      "id": "270950168-0021",
+      "type": "sentence",
+      "section": "",
+      "raw": "Die [[Sternwarte und Planetarium „Sigmund Jähn“ Rodewisch#Beobachtung des „Sputnik 1“|erste Beobachtung]] gelang am 8. Oktober in [[Rodewisch]].<ref name=\":0\" />",
+      "plain": null
+    },
+    {
+      "id": "270950168-0022",
+      "type": "sentence",
+      "section": "",
+      "raw": "Sputnik 1 verglühte am 4. Januar 1958, 92 Tage nach dem Start, als er wieder in tiefere Schichten der Erdatmosphäre eintrat.",
+      "plain": null
+    },
+    {
+      "id": "270950168-0023",
+      "type": "sentence",
+      "section": "",
+      "raw": "Satellitenstarts waren sowohl von der [[Sowjetunion]] als auch den [[Vereinigte Staaten|USA]] anlässlich des [[Internationales Geophysikalisches Jahr|Internationalen Geophysikalischen Jahres]] (IGY) 1957–58 angekündigt worden, doch rechnete die westliche Fachwelt erst Mitte 1958 mit der Fertigstellung der sowjetischen Entwicklungen und wurde durch den Start überrascht.",
+      "plain": null
+    },
+    {
+      "id": "270950168-0024",
+      "type": "sentence",
+      "section": "",
+      "raw": "Auch in der westlichen Öffentlichkeit löste der Start Besorgnisse aus; diese wurden mit dem Begriff [[Sputnikschock]] benannt.",
+      "plain": null
+    }
+  ],
+  "extraction": {
+    "revid": 270950168,
+    "chunk_count": 1,
+    "facts": [
+      {
+        "segment_id": "270950168-0020",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Sputnik 1 (russisch Спутник für Weggefährte, Begleiter, Trabant (der Erde)) war der erste künstliche Erdsatellit, gestartet am 4. Oktober 1957.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270950168-0021",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270950168-0020"
+        ],
+        "plain": "Die erste Beobachtung gelang am 8. Oktober in Rodewisch.",
+        "context_plain": [
+          "Sputnik 1 (russisch Спутник für Weggefährte, Begleiter, Trabant (der Erde)) war der erste künstliche Erdsatellit, gestartet am 4. Oktober 1957."
+        ]
+      },
+      {
+        "segment_id": "270950168-0022",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Sputnik 1 verglühte am 4. Januar 1958, 92 Tage nach dem Start, als er wieder in tiefere Schichten der Erdatmosphäre eintrat.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270950168-0023",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [],
+        "plain": "Satellitenstarts waren sowohl von der Sowjetunion als auch den USA anlässlich des Internationalen Geophysikalischen Jahres (IGY) 1957–58 angekündigt worden, doch rechnete die westliche Fachwelt erst Mitte 1958 mit der Fertigstellung der sowjetischen Entwicklungen und wurde durch den Start überrascht.",
+        "context_plain": []
+      },
+      {
+        "segment_id": "270950168-0024",
+        "type": "sentence",
+        "section": "",
+        "context_ids": [
+          "270950168-0023"
+        ],
+        "plain": "Auch in der westlichen Öffentlichkeit löste der Start Besorgnisse aus; diese wurden mit dem Begriff Sputnikschock benannt.",
+        "context_plain": [
+          "Satellitenstarts waren sowohl von der Sowjetunion als auch den USA anlässlich des Internationalen Geophysikalischen Jahres (IGY) 1957–58 angekündigt worden, doch rechnete die westliche Fachwelt erst Mitte 1958 mit der Fertigstellung der sowjetischen Entwicklungen und wurde durch den Start überrascht."
+        ]
+      }
+    ],
+    "rejected": []
+  }
+}
